@@ -1,0 +1,39 @@
+Manager:
+Cluster(name=http-0f1aafb7-7762-3b54-a44c-f13cbb8f2b1d, type=static, connectTimeoutMs=500,
+    lbType=round_robin, hosts=[ClusterHost(url=tcp://127.0.0.1:9090)], serviceName=null, features=null),
+Cluster(name=4c829e61-b911-3b3c-8441-6ed5bc1d1b84, type=static, connectTimeoutMs=500,
+    lbType=round_robin, hosts=[ClusterHost(url=tcp://172.17.0.4:8081)], serviceName=null, features=http2),
+Cluster(name=http-4c829e61-b911-3b3c-8441-6ed5bc1d1b84, type=static, connectTimeoutMs=500,
+    lbType=round_robin, hosts=[ClusterHost(url=tcp://172.17.0.4:8080)], serviceName=null, features=null),
+Cluster(name=http-gateway-gateway, type=sds, connectTimeoutMs=500,
+    lbType=round_robin, hosts=null, serviceName=http-gateway-gateway, features=null),
+Cluster(name=http-manager-global-cluster-manager, type=static, connectTimeoutMs=500,
+    lbType=round_robin, hosts=[ClusterHost(url=tcp://127.0.0.1:9090)], serviceName=http-manager-global-cluster-manager, features=null),
+Cluster(name=gateway-gateway, type=sds, connectTimeoutMs=500,
+    lbType=round_robin, hosts=null, serviceName=gateway-gateway, features=http2)]
+
+gateway
+Cluster(name=http-0f1aafb7-7762-3b54-a44c-f13cbb8f2b1d, type=static, connectTimeoutMs=500,
+    lbType=round_robin, hosts=[ClusterHost(url=tcp://172.17.0.3:8080)], serviceName=null, features=null), Cluster(name=4c829e61-b911-3b3c-8441-6ed5bc1d1b84, type=static, connectTimeoutMs=500, lbType=round_robin, hosts=[ClusterHost(url=tcp://127.0.0.1:9091)], serviceName=null, features=http2), Cluster(name=http-4c829e61-b911-3b3c-8441-6ed5bc1d1b84, type=static, connectTimeoutMs=500, lbType=round_robin, hosts=[ClusterHost(url=tcp://127.0.0.1:9090)], serviceName=null, features=null), Cluster(name=http-gateway-gateway, type=static, connectTimeoutMs=500, lbType=round_robin, hosts=[ClusterHost(url=tcp://127.0.0.1:9090)], serviceName=http-gateway-gateway, features=null), Cluster(name=http-manager-global-cluster-manager, type=sds, connectTimeoutMs=500, lbType=round_robin, hosts=null, serviceName=http-manager-global-cluster-manager, features=null), Cluster(name=gateway-gateway, type=static, connectTimeoutMs=500, lbType=round_robin, hosts=[ClusterHost(url=tcp://127.0.0.1:9091)], serviceName=gateway-gateway, features=http2)]
+
+
+RouteHost(name=4fd5364938841a2b18b26d92d36f6d7c65be599852976143e6dbc5c0ab468c3b,
+    domains=[4fd5364938841a2b18b26d92d36f6d7c65be599852976143e6dbc5c0ab468c3b],
+    routes=[Route(prefix=/, cluster=4c829e61-b911-3b3c-8441-6ed5bc1d1b84)]),
+RouteHost(name=gateway-gateway, domains=[gateway-gateway], routes=[Route(prefix=/, cluster=gateway-gateway)])
+
+RouteHost(name=http-c5fb60d21031b31f0d51ff316c0a670af6180139c2b9d12559f497a3798c4f07,
+    domains=[http-c5fb60d21031b31f0d51ff316c0a670af6180139c2b9d12559f497a3798c4f07],
+    routes=[[Route(prefix=/, cluster=http-0f1aafb7-7762-3b54-a44c-f13cbb8f2b1d)]),
+RouteHost(name=http-4fd5364938841a2b18b26d92d36f6d7c65be599852976143e6dbc5c0ab468c3b,
+    domains=[http-4fd5364938841a2b18b26d92d36f6d7c65be599852976143e6dbc5c0ab468c3b],
+    routes=[Route(prefix=/, cluster=http-4c829e61-b911-3b3c-8441-6ed5bc1d1b84)]),
+RouteHost(name=http-gateway-gateway,
+    domains=[http-gateway-gateway],
+    routes=[Route(prefix=/, cluster=http-gateway-gateway)]),
+RouteHost(name=http-manager-global-cluster-manager,
+    domains=[http-manager-global-cluster-manager],
+    routes=[Route(prefix=/, cluster=http-manager-global-cluster-manager)]),
+RouteHost(name=all,
+    domains=[*],
+    routes=[Route(prefix=/, cluster=http-0f1aafb7-7762-3b54-a44c-f13cbb8f2b1d)])]

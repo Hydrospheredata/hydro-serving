@@ -47,7 +47,6 @@ log.info("Model is loaded and ready to serve.")
 
 @app.route('/health', methods=['GET'])
 def health():
-    log.info("Healthcheck")
     return "Hi"
 
 

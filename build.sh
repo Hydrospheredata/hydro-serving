@@ -1,5 +1,10 @@
 echo "Building dependencies and Docker images for demo..."
 
+echo "Building envoy and other dependencies..."
+cd envoy
+mvn clean install
+cd ../
+
 echo "Mist Local ML library..."
 cd mist-local-ml
 sbt publishLocal
@@ -32,7 +37,8 @@ cd ../
 
 echo "Custom Scikit..."
 cd custom_scikit
-docker build --no-cache -t mist-runtime-custom-scikit .
+docker build -t mist-envoy-alpine-python-machinelearning -f Dockerfile-alpine-python-machinelearning .
+docker build --no-cache -t mist-runtime-customscikit .
 cd ../
 
 cd ../

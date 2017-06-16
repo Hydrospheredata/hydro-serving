@@ -6,7 +6,7 @@ ENV APP_START_SCRIPT=/app/start-scikit.sh
 ENV USE_APP_HTTP=true
 ENV USE_APP_GRPC=false
 ENV SERVICE_TYPE=serving
-ENV SERVICE_NAME=scikit
+ENV SERVICE_NAME=customscikit
 ENV SERVICE_VERSION=0.0.1
 
 RUN apk update

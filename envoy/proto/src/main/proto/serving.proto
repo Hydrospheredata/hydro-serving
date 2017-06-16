@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.hydrosphere.serving.proto";
+option java_outer_classname = "ServingProto";
+option objc_class_prefix = "SRV";
+
+package io.hydrosphere.serving.proto;
+
+message Empty {}
+
+message Stage{
+    string action = 1;
+    string destination= 2;
+    StageType type = 3;
+
+    enum StageType {
+        FINAL = 0;
+        SERVE = 1;
+    }
+}
+
+message Error{
+    string errorMessage = 1;
+    string source = 2;
+
+}
+
+message ServingPipeline{
+    string requestId = 1;
+    bytes data = 2;
+    repeated Stage stages = 3;
+    string gatewayDestination = 4;
+    int64 startTime = 5;
+    int32 stageSequence = 6;
+    Error error = 7;
+}
+
+
+service ServingService {
+    rpc serve(ServingPipeline) returns (Empty) {}
+}
