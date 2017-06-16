@@ -8,38 +8,139 @@ services:
       CONSUL_CLIENT_INTERFACE: "eth0"
     restart: always
 
-  mist-serving-gateway:
-    image: mist-serving-gateway:latest
+  zipkin:
+    image: openzipkin/zipkin
     ports:
-      - "8080:80"
+      - "9411:9411"
+  manager:
+    image: hydrosphere/pipelineserving-manager:1.0-SNAPSHOT
+    ports:
+      - "8080:8080"
+      - "8082:8082"
     depends_on:
       - consul
+      - zipkin
+    environment:
+      ZIPKIN_ENABLED: "true"
+      ZIPKIN_HOST: "zipkin"
+      MANAGER_EXTERNAL: "manager"
+      CONSUL_HOST: "consul"
     restart: always
 
-  spark-runtime:
-    image: spark-serve:latest
+  gateway:
+    image: hydrosphere/pipelineserving-gateway:1.0-SNAPSHOT
     ports:
-      - "8081:8080"
+      - "8083:8080"
     depends_on:
       - consul
+      - manager
     environment:
-      MODEL_VERSION: "0.1"
-      MODEL_NAME: "dtree"
-      MODEL_TYPE: "spark"
+      ZIPKIN_ENABLED: "true"
+      ZIPKIN_HOST: "zipkin"
+      MANAGER_HOST: "manager"
     restart: always
-    volumes:
-      - ~/Documents/Projects/Provectus/ml_runtimes/spark/models/:/models
 
-  scikit-runtime:
-    image: scikit-serve:latest
+  repository:
+    image: mist-ml-repository
     ports:
-      - "8082:8080"
+      - "8087:9090"
     depends_on:
       - consul
+      - manager
     environment:
-      MODEL_VERSION: "0.1"
-      MODEL_NAME: "svm"
-      MODEL_TYPE: "scikit"
+      ZIPKIN_ENABLED: "true"
+      ZIPKIN_HOST: "zipkin"
+      MANAGER_HOST: "manager"
     restart: always
     volumes:
-      - ~/Documents/Projects/Provectus/ml_runtimes/scikit/models/:/models
+        - ${MODEL_DIRECTORY}:/models
+
+  model1:
+    image: hydrosphere/pipelineserving-serving-java-spring:1.0-SNAPSHOT
+    depends_on:
+      - consul
+      - manager
+    environment:
+      ZIPKIN_ENABLED: "true"
+      ZIPKIN_HOST: "zipkin"
+      MANAGER_HOST: "manager"
+      SERVICE_NAME: "model1"
+    restart: always
+
+  model2:
+    image: hydrosphere/pipelineserving-serving-java-spring:1.0-SNAPSHOT
+    depends_on:
+      - consul
+      - manager
+    environment:
+      ZIPKIN_ENABLED: "true"
+      ZIPKIN_HOST: "zipkin"
+      MANAGER_HOST: "manager"
+      SERVICE_NAME: "model2"
+    restart: always
+
+  model3:
+    image: hydrosphere/pipelineserving-serving-java-spring:1.0-SNAPSHOT
+    depends_on:
+      - consul
+      - manager
+    environment:
+      ZIPKIN_ENABLED: "true"
+      ZIPKIN_HOST: "zipkin"
+      MANAGER_HOST: "manager"
+      SERVICE_NAME: "model3"
+    restart: always
+
+  model4:
+    image: hydrosphere/pipelineserving-serving-java-spring:1.0-SNAPSHOT
+    depends_on:
+      - consul
+      - manager
+    environment:
+      ZIPKIN_ENABLED: "true"
+      ZIPKIN_HOST: "zipkin"
+      MANAGER_HOST: "manager"
+      SERVICE_NAME: "model4"
+    restart: always
+
+  localml-spark:
+    image: mist-runtime-sparklocal
+    depends_on:
+      - consul
+      - manager
+      - repository
+    environment:
+      ZIPKIN_ENABLED: "true"
+      ZIPKIN_HOST: "zipkin"
+      MANAGER_HOST: "manager"
+      ML_REPO_ADDR: "repository"
+      ML_REPO_PORT: "9090"
+    restart: always
+
+  mist-runtime-scikit:
+    image: mist-runtime-scikit
+    depends_on:
+      - consul
+      - manager
+      - repository
+    environment:
+      ZIPKIN_ENABLED: "true"
+      ZIPKIN_HOST: "zipkin"
+      MANAGER_HOST: "manager"
+      ML_REPO_ADDR: "repository"
+      ML_REPO_PORT: "9090"
+    restart: always
+
+  custom-scikit:
+    image: mist-runtime-customscikit
+    depends_on:
+      - consul
+      - manager
+      - repository
+    environment:
+      ZIPKIN_ENABLED: "true"
+      ZIPKIN_HOST: "zipkin"
+      MANAGER_HOST: "manager"
+      ML_REPO_ADDR: "repository"
+      ML_REPO_PORT: "9090"
+    restart: always
