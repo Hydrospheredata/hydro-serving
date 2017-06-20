@@ -7,6 +7,8 @@ import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport._
 import akka.http.scaladsl.server.Directives.{path, _}
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
+import akka.event.Logging
+import akka.http.scaladsl.server.Route
 import ch.megard.akka.http.cors.CorsDirectives._
 import ch.megard.akka.http.cors.CorsSettings
 import io.prototypes.ml_repository.source.LocalSource
@@ -20,8 +22,7 @@ import java.net.URI
 
 import spray.json._
 import DefaultJsonProtocol._
-import akka.event.Logging
-import akka.http.scaladsl.server.Route
+import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.mutable
 
@@ -29,30 +30,26 @@ import scala.collection.mutable
   * Created by Bulat on 26.05.2017.
   */
 
-object Boot extends App {
+object Boot extends App with Logging {
   implicit val system = ActorSystem("ml_repository")
   implicit val materializer = ActorMaterializer()
   implicit val ex = system.dispatcher
   implicit val timeout = Timeout(10.seconds)
   private val watchers = mutable.Buffer.empty[ActorRef]
 
-  println(s"Repository is running @ ${Configuration.Web.address}:${Configuration.Web.port}...")
+  logger.info(s"Repository is running @ ${Configuration.Web.address}:${Configuration.Web.port}...")
 
   val repositoryActor = system.actorOf(RepositoryActor.props, "Repository")
 
   Configuration.dataSources.foreach {
     case (name, source) =>
-      println(s"DataSource detected: $name")
+      logger.info(s"DataSource detected: $name")
       val watcher = source match {
         case s: LocalSource => system.actorOf(LocalSourceWatcher.props(s), s"LocalWatcher@$name")
         case _ => throw new IllegalArgumentException("Unknown watcher")
       }
-      watcher ! Messages.Watcher.Subscribe(repositoryActor)
       watchers += watcher
   }
-  repositoryActor ! Messages.RepositoryActor.SubscribeWatchers(watchers)
-
-  repositoryActor ! Messages.RepositoryActor.MakeIndex
 
   val corsSettings: CorsSettings.Default = CorsSettings.defaultSettings
   val routes: Route = cors(corsSettings) {
@@ -63,22 +60,22 @@ object Boot extends App {
         }
       } ~ path("files" / Segment) { modelName =>
         val mFuture = repositoryActor ? Messages.RepositoryActor.GetModelFiles(modelName)
-        onSuccess(mFuture) { fRes =>
+        onSuccess(mFuture.mapTo[Option[List[URI]]]) { fRes =>
           complete {
-            fRes.asInstanceOf[Option[List[URI]]].map(_.map(_.toString))
+            fRes.map(_.map(_.toString))
           }
         }
       }~ path("metadata" / Segment) { modelName =>
         val mFuture = repositoryActor ? Messages.RepositoryActor.GetModelIndexEntry(modelName)
-        onSuccess(mFuture) { fRes =>
+        onSuccess(mFuture.mapTo[Option[IndexEntry]]) { fRes =>
           complete {
-            fRes.asInstanceOf[Option[IndexEntry]].map(_.model)
+            fRes.map(_.model)
           }
         }
       } ~ pathPrefix("download" / Segment) { modelName =>
         val mFuture = repositoryActor ? Messages.RepositoryActor.GetModelDirectory(modelName)
-        onSuccess(mFuture) { fRes =>
-          getFromDirectory(fRes.asInstanceOf[Path].toString)
+        onSuccess(mFuture.mapTo[Path]) { fRes =>
+          getFromDirectory(fRes.toString)
         }
       }
     }

@@ -5,20 +5,11 @@ cd envoy
 mvn clean install
 cd ../
 
-echo "Mist Local ML library..."
-cd mist-local-ml
-sbt publishLocal
-cd ../
-
-echo "Serving gateway..."
-docker build --no-cache -t mist-serving-gateway ./mist-serving-gateway/mist-serving-gateway
-
 echo "ML Repository..."
 cd ml_repository
 sbt assembly
 docker build --no-cache -t mist-ml-repository .
 cd ../
-
 
 echo "Runtimes:"
 cd ml_runtimes
