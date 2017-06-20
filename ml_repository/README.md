@@ -15,3 +15,7 @@ User is able to query the repository via HTTP API.
 * `GET /metadata/<model_name>` returns metadata of specified model.
 * `GET /files/<model_name>` returns a list of model's files.
 * `GET /download/<model_name>/<file>` downloads the given file of specified model. Thus, repository also acts as a proxy between Runtime and actually the storage of models.
+
+## Notes
+Since repository is using Inotify on Linux to track filesystem changes, it's
+recommended to set [bigger](https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit) Inotify watcher limit.
