@@ -1,6 +1,6 @@
 # Hydro-serving
 
-This repository contains several sub-projects for serving ml models.
+This repository contains several sub-projects and demo for serving ml models.
 
 ## Project proposal
 
