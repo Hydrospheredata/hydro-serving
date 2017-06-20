@@ -1,18 +1,14 @@
 package io.prototypes.ml_repository
 
-import java.io._
-import java.nio.file._
 import java.net.URI
+import java.nio.file._
 
-import akka.actor.{Actor, ActorRef, Props}
+import akka.actor.{Actor, Props}
 import akka.event.Logging
-
 import akka.pattern._
 import akka.util.Timeout
-import io.prototypes.ml_repository.source.ModelSource
 
 import scala.collection.mutable
-import scala.concurrent.Future
 import scala.concurrent.duration._
 import scala.util.{Failure, Success}
 
@@ -26,17 +22,12 @@ class RepositoryActor extends Actor {
   private val index = mutable.Map.empty[String, IndexEntry]
   val log = Logging(context.system, this)
 
-  override def receive: Receive = waiting
-
-  def waiting: Receive = {
-    case Messages.RepositoryActor.SubscribeWatchers(refs) =>
-      context become ready(refs)
+  override def preStart(): Unit = {
+    context.system.eventStream.subscribe(self, classOf[Messages.Watcher.IndexedModels])
+    context.system.eventStream.publish(Messages.Watcher.GetModels)
   }
 
-  def ready(watchers: Seq[ActorRef]): Receive = {
-    case Messages.RepositoryActor.MakeIndex =>
-      watchers.foreach(_ ! Messages.Watcher.GetModels)
-
+  override def receive: Receive = {
     case Messages.Watcher.IndexedModels(models) =>
       models.foreach{ m =>
         log.info(s"New model: $m")

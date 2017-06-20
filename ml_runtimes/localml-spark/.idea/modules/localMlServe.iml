@@ -60,7 +60,6 @@
     <orderEntry type="library" name="SBT: javax.servlet.jsp:jsp-api:2.1:jar" level="project" />
     <orderEntry type="library" name="SBT: javax.servlet:servlet-api:2.5:jar" level="project" />
     <orderEntry type="library" name="SBT: javax.activation:activation:1.1:jar" level="project" />
-    <orderEntry type="library" name="SBT: io.hydrosphere:mist-lib_2.11:0.1.4:jar" level="project" />
     <orderEntry type="library" name="SBT: commons-net:commons-net:3.1:jar" level="project" />
     <orderEntry type="library" name="SBT: commons-el:commons-el:1.0:jar" level="project" />
     <orderEntry type="library" name="SBT: commons-daemon:commons-daemon:1.0.13:jar" level="project" />
@@ -165,7 +164,6 @@
     <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpclient:4.5.2:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.httpcomponents:httpcore:4.4.4:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.ivy:ivy:2.4.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.apache.kafka:kafka-clients:0.8.2.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.parquet:parquet-avro:1.7.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.parquet:parquet-column:1.8.1:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.parquet:parquet-common:1.8.1:jar" level="project" />
@@ -197,7 +195,6 @@
     <orderEntry type="library" name="SBT: org.datanucleus:datanucleus-api-jdo:3.2.6:jar" level="project" />
     <orderEntry type="library" name="SBT: org.datanucleus:datanucleus-core:3.2.10:jar" level="project" />
     <orderEntry type="library" name="SBT: org.datanucleus:datanucleus-rdbms:3.2.9:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.fusesource.leveldbjni:leveldbjni-all:1.8:jar" level="project" />
     <orderEntry type="library" name="SBT: org.glassfish.hk2:hk2-api:2.4.0-b34:jar" level="project" />
     <orderEntry type="library" name="SBT: org.glassfish.hk2:hk2-locator:2.4.0-b34:jar" level="project" />
@@ -250,5 +247,17 @@
     <orderEntry type="library" name="SBT: oro:oro:2.0.8:jar" level="project" />
     <orderEntry type="library" name="SBT: stax:stax-api:1.0.1:jar" level="project" />
     <orderEntry type="library" name="SBT: xmlenc:xmlenc:0.52:jar" level="project" />
+    <orderEntry type="module" module-name="sparkMlServing" exported="" />
+    <orderEntry type="module-library">
+      <library name="SBT: unmanaged-sources-and-docs">
+        <CLASSES />
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

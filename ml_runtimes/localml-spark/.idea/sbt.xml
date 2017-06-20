@@ -7,6 +7,8 @@
         <option name="jdk" value="1.8" />
         <option name="modules">
           <set>
+            <option value="$USER_HOME$/.sbt/0.13/staging/2a4de868f94a40b15c01/spark-ml-serving" />
+            <option value="$USER_HOME$/.sbt/0.13/staging/2a4de868f94a40b15c01/spark-ml-serving/project" />
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/project" />
           </set>

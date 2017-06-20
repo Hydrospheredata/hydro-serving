@@ -1,13 +1,11 @@
-package io.prototypes.ml_repository.utils
+package io.hydrosphere.spark_runtime
 
-import org.apache.logging.log4j.scala.Logging
-import spray.json._
+import spray.json.{DefaultJsonProtocol, DeserializationException, JsArray, JsBoolean, JsNumber, JsObject, JsString, JsValue, JsonFormat}
 
-import scala.language.reflectiveCalls
 /**
   * Created by Bulat on 19.05.2017.
   */
-object MapAnyJson extends DefaultJsonProtocol with Logging {
+object MapAnyJson extends DefaultJsonProtocol {
   implicit object AnyJsonFormat extends JsonFormat[Any] {
     def write(any: Any): JsValue = any match {
       case n: Int => JsNumber(n)
@@ -19,8 +17,8 @@ object MapAnyJson extends DefaultJsonProtocol with Logging {
       case b: Boolean => JsBoolean(b)
       case list: List[_] => seqFormat[Any].write(list)
       case array: Array[_] => seqFormat[Any].write(array.toList)
-      case map: Map[String, _] @unchecked => mapFormat[String, Any] write map
-      case e => logger.error(s"${e.toString}") ;throw DeserializationException(e.toString)
+      case map: Map[String, _] => mapFormat[String, Any] write map
+      case e => println(s"ERR: ${e.toString}") ;throw DeserializationException(e.toString)
     }
     def read(value: JsValue): Any = value match {
       case JsNumber(n) => n.toDouble

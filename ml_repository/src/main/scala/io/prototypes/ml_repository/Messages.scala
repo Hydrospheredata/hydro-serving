@@ -7,9 +7,7 @@ import io.prototypes.ml_repository.source.{LocalSource, ModelSource}
   */
 object Messages {
   object RepositoryActor {
-    case object MakeIndex
     case class GetModelIndexEntry(name: String)
-    case class SubscribeWatchers(actorRefs: Seq[ActorRef])
     case class GetModelFiles(name: String)
     case class RetrieveModelFiles(indexEntry: IndexEntry)
     case class GetModelDirectory(name: String)
@@ -19,7 +17,6 @@ object Messages {
     case class Register(source: ModelSource)
     case object GetModels
     case object LookForChanges
-    case class Subscribe(actorRef: ActorRef)
     case class IndexedModels(models: Seq[IndexEntry])
     case class GetModelDirectory(indexEntry: IndexEntry)
   }

@@ -2,9 +2,7 @@ import sbt.Keys._
 import sbtassembly.Plugin.AssemblyKeys._
 
 name := "ml_repository"
-
 version := "1.0"
-
 scalaVersion := "2.11.11"
 
 lazy val hdfsDependencies = {
@@ -14,7 +12,6 @@ lazy val hdfsDependencies = {
     "org.apache.hadoop" % "hadoop-hdfs" % hadoopV
   )
 }
-
 lazy val akkaDependencies = {
   val akkaV = "2.4.14"
   val akkaHttpV = "10.0.0"
@@ -28,9 +25,15 @@ lazy val akkaDependencies = {
     "ch.megard" %% "akka-http-cors" % "0.1.10"
   )
 }
+lazy val logDependencies = Seq(
+  "org.apache.logging.log4j" % "log4j-api" % "2.8.2",
+  "org.apache.logging.log4j" % "log4j-core" % "2.8.2",
+  "org.apache.logging.log4j" %% "log4j-api-scala" % "2.8.2"
+)
 
 libraryDependencies ++= akkaDependencies
 libraryDependencies ++= hdfsDependencies
+libraryDependencies ++= logDependencies
 
 assemblySettings
 mergeStrategy in assembly := {

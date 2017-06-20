@@ -1,18 +1,19 @@
 package io.prototypes.ml_repository.runtime.spark
 
-import java.io.File
+import java.io.{File, FileNotFoundException}
 import java.nio.file.Paths
 
 import io.prototypes.ml_repository.Model
 import io.prototypes.ml_repository.runtime.MLRuntime
 import io.prototypes.ml_repository.utils.FileUtils._
+import org.apache.logging.log4j.scala.Logging
 
 import scala.io.Source
 
 /**
   * Created by Bulat on 31.05.2017.
   */
-class SparkRuntime(val sparkDir: File) extends MLRuntime {
+class SparkRuntime(val sparkDir: File) extends MLRuntime with Logging {
   private def getRuntimeName(sparkMetadata: SparkMetadata): String = {
     //s"spark-${sparkMetadata.sparkVersion}"
     "spark"
@@ -25,9 +26,9 @@ class SparkRuntime(val sparkDir: File) extends MLRuntime {
     SparkMetadata.fromJson(metadataStr)
   }
 
-  private val inputCols = Array("inputCol", "featuresCol")
-  private val outputCols = Array("outputCol", "predictionCol", "probabilityCol", "rawPredictionCol")
-  private val labelCols = Array("labelCol")
+  private[this] val inputCols = Array("inputCol", "featuresCol")
+  private[this] val outputCols = Array("outputCol", "predictionCol", "probabilityCol", "rawPredictionCol")
+  private[this] val labelCols = Array("labelCol")
 
   private def getInputCols(stagesMetadata: Seq[SparkMetadata]): List[String] = {
     val inputs = stagesMetadata.flatMap(s => SparkMetadata.extractParams(s, inputCols))
@@ -55,23 +56,29 @@ class SparkRuntime(val sparkDir: File) extends MLRuntime {
 
   override def getModel(directory: File): Option[Model] = {
     if (!directory.exists() || !directory.isDirectory) return None
-    println(s"Directory: ${directory.getAbsolutePath}")
-    val subDirs = directory.getSubDirectories
+    try {
+      logger.debug(s"Directory: ${directory.getAbsolutePath}")
+      val subDirs = directory.getSubDirectories
 
-    val stagesDir = Paths.get(directory.getAbsolutePath, "stages").toFile
+      val stagesDir = Paths.get(directory.getAbsolutePath, "stages").toFile
 
-    val pipelineMetadata = getMetadata(directory)
-    println(s"Pipeline: $pipelineMetadata")
-    val stagesMetadata = stagesDir.getSubDirectories.map(getMetadata)
-    println(s"Stages: $stagesMetadata")
+      val pipelineMetadata = getMetadata(directory)
+      logger.debug(s"Pipeline: $pipelineMetadata")
+      val stagesMetadata = stagesDir.getSubDirectories.map(getMetadata)
+      logger.debug(s"Stages: $stagesMetadata")
 
-    val model = Model(
-      directory.getName,
-      getRuntimeName(pipelineMetadata),
-      getInputCols(stagesMetadata),
-      getOutputCols(stagesMetadata)
-    )
-    Some(model)
+      val model = Model(
+        directory.getName,
+        getRuntimeName(pipelineMetadata),
+        getInputCols(stagesMetadata),
+        getOutputCols(stagesMetadata)
+      )
+      Some(model)
+    } catch {
+      case e: FileNotFoundException =>
+        logger.warn(s"${directory.getCanonicalPath} in not a valid SparkML model")
+        None
+    }
   }
 
   def getModels: Seq[Model] = {

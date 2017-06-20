@@ -10,16 +10,19 @@ def sparkDependencies(v: String) =
     "org.apache.spark" %% "spark-mllib" % v
   )
 
+lazy val sparkMlServingDependency = RootProject(uri("git://github.com/Hydrospheredata/spark-ml-serving.git"))
+
 lazy val localMlServe = project.in(file("."))
   .settings(assemblySettings)
+  .dependsOn(sparkMlServingDependency)
   .settings(
     name := "spark-localml-serve",
     version := "1.0",
     scalaVersion := "2.11.8",
-    mainClass in assembly := Some("org.kineticcookie.serve.Boot")
+    mainClass in assembly := Some("io.hydrosphere.spark_runtime.Boot")
   )
   .settings(
-    libraryDependencies += "io.hydrosphere" %% "mist-lib" % "0.1.4",
+    libraryDependencies += "io.hydrosphere" %% "spark-ml-serving" % "0.1.1",
     libraryDependencies ++= sparkDependencies("2.1.0"),
     libraryDependencies ++= {
       val akkaV = "2.4.14"

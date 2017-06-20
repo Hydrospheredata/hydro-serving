@@ -1,19 +1,19 @@
 package io.prototypes.ml_repository.watcher
 
-import java.io.{File => JFile}
-import java.nio.file._
+import java.io.File
 import java.nio.file.StandardWatchEventKinds._
+import java.nio.file._
 
-import akka.actor.{ActorRef, Props}
+import akka.actor.Props
 import akka.util.Timeout
-
-import collection.JavaConverters._
-import scala.concurrent.duration._
-import scala.collection.mutable
-import io.prototypes.ml_repository.{IndexEntry, Messages}
 import io.prototypes.ml_repository.runtime.RuntimeDispatcher
 import io.prototypes.ml_repository.source.LocalSource
 import io.prototypes.ml_repository.utils.FileUtils._
+import io.prototypes.ml_repository.{IndexEntry, Messages}
+
+import scala.collection.JavaConverters._
+import scala.collection.mutable
+import scala.concurrent.duration._
 
 
 /**
@@ -21,55 +21,74 @@ import io.prototypes.ml_repository.utils.FileUtils._
   */
 class LocalSourceWatcher(val source: LocalSource) extends SourceWatcher {
   import context._
-  implicit val timeout = Timeout(10.seconds)
-  private val watcher = FileSystems.getDefault.newWatchService()
-  private val keys = mutable.Map.empty[WatchKey, Path]
-  private val subscribers = mutable.Buffer.empty[ActorRef]
+  implicit private[this] val timeout = Timeout(10.seconds)
+  private[this] val tick = context.system.scheduler.schedule(0.seconds, 500.millis, self, Messages.Watcher.LookForChanges)
+  private[this] val watcher = FileSystems.getDefault.newWatchService()
+  private[this] val keys = mutable.Map.empty[WatchKey, Path]
+  private[this] val sourceFile = new File(source.path.toString)
 
-  val sourceFile = new JFile(source.path.toString)
-
-  override def preStart(): Unit = {
-    context.system.scheduler.schedule(0.seconds, 500.millis, self, Messages.Watcher.LookForChanges)
-    // TODO check if dir is really a directory
-    val dirPath = Paths.get(sourceFile.getAbsolutePath).normalize()
-    log.info(s"LocalWatchService with: $dirPath")
-
-    keys += dirPath.register(watcher, ENTRY_CREATE, ENTRY_DELETE, ENTRY_MODIFY) -> dirPath
-
-    val subDirs = sourceFile.getSubDirectories
-
-    subDirs.foreach { d =>
-      val dPath = Paths.get(d.getCanonicalPath).normalize()
-      keys += dPath.register(watcher, ENTRY_CREATE, ENTRY_DELETE, ENTRY_MODIFY) -> dPath
+  private def subscribeRecursively(dirFile: File): Unit = {
+    val maxDepth = 2
+    def _subscribe(dirFile: File, depth: Long = 0): Unit = {
+      if (depth <= maxDepth) {
+        val dirPath = Paths.get(dirFile.getCanonicalPath).normalize()
+        keys += dirPath.register(watcher, ENTRY_CREATE, ENTRY_DELETE, ENTRY_MODIFY) -> dirPath
+        dirFile.getSubDirectories.foreach(d => _subscribe(d, depth+1))
+      }
     }
+    _subscribe(dirFile)
   }
 
-  override def receive: Receive = {
-    case Messages.Watcher.Subscribe(actorRef) =>
-      log.info(s"New subscriber: $actorRef")
-      subscribers += actorRef
+  private def handleWatcherEvent[T](path: Path, event: WatchEvent[T]) = {
+    event.kind() match {
+      case StandardWatchEventKinds.OVERFLOW =>
+        log.warning(s"Overflow: $event")
 
+      case StandardWatchEventKinds.ENTRY_CREATE =>
+        val name = event.context().asInstanceOf[Path]
+        val child = path.resolve(name)
+        log.debug(s"ENTRY_CREATE: $child")
+        self ! Messages.Watcher.GetModels
+
+      case StandardWatchEventKinds.ENTRY_MODIFY =>
+        val name = event.context().asInstanceOf[Path]
+        val child = path.resolve(name)
+        log.debug(s"ENTRY_MODIFY: $child")
+        self ! Messages.Watcher.GetModels
+
+      case StandardWatchEventKinds.ENTRY_DELETE =>
+        val name = event.context().asInstanceOf[Path]
+        val child = path.resolve(name)
+        log.debug(s"ENTRY_DELETE: $child")
+        self ! Messages.Watcher.GetModels
+
+    }
+    ///context.system.eventStream.publish(Messages.Watcher.IndexedModels(???))
+  }
+
+  override def preStart(): Unit = {
+    context.system.eventStream.subscribe(self, Messages.Watcher.GetModels.getClass)
+    log.info(s"LocalWatchService with: ${sourceFile.getCanonicalPath}")
+    subscribeRecursively(sourceFile)
+    self ! Messages.Watcher.GetModels
+  }
+
+  override def postStop(): Unit = tick.cancel()
+
+  override def receive: Receive = {
     case Messages.Watcher.GetModels =>
       val models = RuntimeDispatcher.getModels(sourceFile.getSubDirectories)
       val indexed = models.map{m =>
         IndexEntry(m, self, source)
       }
-      sender() ! Messages.Watcher.IndexedModels(indexed)
+      context.system.eventStream.publish(Messages.Watcher.IndexedModels(indexed))
 
     case Messages.Watcher.LookForChanges =>
       for {
         (key, path) <- keys
         event <- key.pollEvents().asScala
       } {
-        val kind = event.kind()
-        if (kind == StandardWatchEventKinds.OVERFLOW) {
-          log.info(s"Overflow: $event")
-        } else {
-          val name = event.context().asInstanceOf[Path]
-          val child = path.resolve(name)
-          log.info(s"LocalSource event: ${event.kind.name}, $child")
-          subscribers.foreach(_ ! Messages.RepositoryActor.MakeIndex)
-        }
+        handleWatcherEvent(path, event)
       }
 
     case Messages.RepositoryActor.RetrieveModelFiles(index) =>
