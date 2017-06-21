@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/localMlServe.iml" filepath="$PROJECT_DIR$/.idea/modules/localMlServe.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/localMlServe-build.iml" filepath="$PROJECT_DIR$/.idea/modules/localMlServe-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparkMlServing.iml" filepath="$PROJECT_DIR$/.idea/modules/sparkMlServing.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparkMlServing-build.iml" filepath="$PROJECT_DIR$/.idea/modules/sparkMlServing-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root.iml" filepath="$PROJECT_DIR$/.idea/modules/root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root-build.iml" filepath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-ml-serving.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-ml-serving.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-ml-serving-build.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-ml-serving-build.iml" />
     </modules>
   </component>
 </project>

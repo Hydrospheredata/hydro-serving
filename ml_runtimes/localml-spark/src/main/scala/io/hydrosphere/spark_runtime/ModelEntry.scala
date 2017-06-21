@@ -1,6 +1,6 @@
 package io.hydrosphere.spark_runtime
 
-import io.hydrosphere.mist.api.ml.LocalPipelineModel
+import io.hydrosphere.spark_ml_serving.LocalPipelineModel
 
 /**
   * Created by Bulat on 07.06.2017.

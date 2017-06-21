@@ -10,9 +10,29 @@ def sparkDependencies(v: String) =
     "org.apache.spark" %% "spark-mllib" % v
   )
 
+lazy val hdfsDependencies = Seq(
+  "org.apache.hadoop" % "hadoop-client" % "2.6.4",
+  "org.apache.hadoop" % "hadoop-hdfs" % "2.6.4",
+  "org.apache.hadoop" % "hadoop-common" % "2.6.4"
+)
+
+lazy val akkaDependencies = {
+  val akkaV = "2.4.14"
+  val akkaHttpV = "10.0.0"
+  Seq(
+    "com.typesafe.akka" %% "akka-http-core" % akkaHttpV,
+    "com.typesafe.akka" %% "akka-http" % akkaHttpV,
+    "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpV,
+    "com.typesafe.akka" %% "akka-http-jackson" % akkaHttpV,
+    "com.typesafe.akka" %% "akka-http-xml" % akkaHttpV,
+    "com.typesafe.akka" %% "akka-actor" % akkaV,
+    "ch.megard" %% "akka-http-cors" % "0.1.10"
+  )
+}
+
 lazy val sparkMlServingDependency = RootProject(uri("git://github.com/Hydrospheredata/spark-ml-serving.git"))
 
-lazy val localMlServe = project.in(file("."))
+lazy val root = project.in(file("."))
   .settings(assemblySettings)
   .dependsOn(sparkMlServingDependency)
   .settings(
@@ -24,19 +44,8 @@ lazy val localMlServe = project.in(file("."))
   .settings(
     libraryDependencies += "io.hydrosphere" %% "spark-ml-serving" % "0.1.1",
     libraryDependencies ++= sparkDependencies("2.1.0"),
-    libraryDependencies ++= {
-      val akkaV = "2.4.14"
-      val akkaHttpV = "10.0.0"
-      Seq(
-        "com.typesafe.akka" %% "akka-http-core" % akkaHttpV,
-        "com.typesafe.akka" %% "akka-http" % akkaHttpV,
-        "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpV,
-        "com.typesafe.akka" %% "akka-http-jackson" % akkaHttpV,
-        "com.typesafe.akka" %% "akka-http-xml" % akkaHttpV,
-        "com.typesafe.akka" %% "akka-actor" % akkaV,
-        "ch.megard" %% "akka-http-cors" % "0.1.10"
-      )
-    }
+    libraryDependencies ++= hdfsDependencies,
+    libraryDependencies ++= akkaDependencies
   )
   .settings(commonAssemblySettings)
 

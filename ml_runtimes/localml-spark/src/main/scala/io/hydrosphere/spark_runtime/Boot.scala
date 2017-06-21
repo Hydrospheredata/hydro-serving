@@ -9,7 +9,7 @@ import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import ch.megard.akka.http.cors.CorsDirectives._
 import ch.megard.akka.http.cors.CorsSettings
-import io.hydrosphere.mist.api.ml._
+import io.hydrosphere.spark_ml_serving._
 
 import scala.concurrent.duration._
 import scala.reflect.runtime.universe._

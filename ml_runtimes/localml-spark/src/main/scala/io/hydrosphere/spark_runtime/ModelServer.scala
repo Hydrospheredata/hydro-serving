@@ -10,9 +10,9 @@ import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport._
 import akka.http.scaladsl.model.HttpRequest
 import akka.http.scaladsl.unmarshalling.Unmarshal
 import akka.stream.{ActorMaterializer, ActorMaterializerSettings}
-import io.hydrosphere.mist.api.ml.LocalPipelineModel._
-import io.hydrosphere.mist.api.ml.{LocalPipelineModel, PipelineLoader}
-import io.hydrosphere.mist.api.ml._
+import io.hydrosphere.spark_ml_serving.LocalPipelineModel._
+import io.hydrosphere.spark_ml_serving.{LocalPipelineModel, PipelineLoader}
+import io.hydrosphere.spark_ml_serving._
 import LocalPipelineModel._
 import SparkMetadata._
 import MapAnyJson._
