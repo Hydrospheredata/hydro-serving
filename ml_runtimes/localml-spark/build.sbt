@@ -1,5 +1,6 @@
-import sbt.Keys._
-import sbtassembly.Plugin.AssemblyKeys._
+name := "spark-localml-serve"
+version := "1.0"
+scalaVersion := "2.11.8"
 
 def sparkDependencies(v: String) =
   Seq(
@@ -31,36 +32,25 @@ lazy val akkaDependencies = {
 }
 
 lazy val sparkMlServingDependency = RootProject(uri("git://github.com/Hydrospheredata/spark-ml-serving.git"))
+dependsOn(sparkMlServingDependency)
 
-lazy val root = project.in(file("."))
-  .settings(assemblySettings)
-  .dependsOn(sparkMlServingDependency)
-  .settings(
-    name := "spark-localml-serve",
-    version := "1.0",
-    scalaVersion := "2.11.8",
-    mainClass in assembly := Some("io.hydrosphere.spark_runtime.Boot")
-  )
-  .settings(
-    libraryDependencies += "io.hydrosphere" %% "spark-ml-serving" % "0.1.1",
-    libraryDependencies ++= sparkDependencies("2.1.0"),
-    libraryDependencies ++= hdfsDependencies,
-    libraryDependencies ++= akkaDependencies
-  )
-  .settings(commonAssemblySettings)
 
-lazy val commonAssemblySettings = Seq(
-  mergeStrategy in assembly := {
-    case m if m.toLowerCase.endsWith("manifest.mf") => MergeStrategy.discard
-    case PathList("META-INF", "services", "org.apache.hadoop.fs.FileSystem") => MergeStrategy.filterDistinctLines
-    case m if m.startsWith("META-INF") => MergeStrategy.discard
-    case PathList("javax", "servlet", xs@_*) => MergeStrategy.first
-    case PathList("org", "apache", xs@_*) => MergeStrategy.first
-    case PathList("org", "jboss", xs@_*) => MergeStrategy.first
-    case "about.html" => MergeStrategy.rename
-    case "reference.conf" => MergeStrategy.concat
-    case PathList("org", "datanucleus", xs@_*) => MergeStrategy.discard
-    case _ => MergeStrategy.first
-  },
-  test in assembly := {}
-)
+libraryDependencies ++= sparkDependencies("2.1.0")
+libraryDependencies ++= hdfsDependencies
+libraryDependencies ++= akkaDependencies
+
+mainClass in assembly := Some("io.hydrosphere.spark_runtime.Boot")
+assemblyMergeStrategy in assembly := {
+  case m if m.toLowerCase.endsWith("manifest.mf") => MergeStrategy.discard
+  case PathList("META-INF", "services", "org.apache.hadoop.fs.FileSystem") => MergeStrategy.filterDistinctLines
+  case m if m.startsWith("META-INF") => MergeStrategy.discard
+  case PathList("javax", "servlet", xs@_*) => MergeStrategy.first
+  case PathList("org", "apache", xs@_*) => MergeStrategy.first
+  case PathList("org", "jboss", xs@_*) => MergeStrategy.first
+  case "about.html" => MergeStrategy.rename
+  case "reference.conf" => MergeStrategy.concat
+  case PathList("org", "datanucleus", xs@_*) => MergeStrategy.discard
+  case _ => MergeStrategy.first
+}
+test in assembly := {}
+
