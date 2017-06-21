@@ -1,7 +1,6 @@
 FROM hydrosphere/pipelineserving-python3:1.0-SNAPSHOT
 
-RUN apk add --no-cache libstdc++ lapack-dev && \
-        apk add --no-cache --virtual=.build-dependencies \
+RUN apk add --no-cache libstdc++ lapack-dev \
             g++ linux-headers gfortran musl-dev \
             python3-dev && \
         ln -s locale.h /usr/include/xlocale.h && \
@@ -11,5 +10,4 @@ RUN apk add --no-cache libstdc++ lapack-dev && \
         pip install scikit-learn && \
         find /usr/lib/python3.*/ -name 'tests' -exec rm -r '{}' + && \
         rm /usr/include/xlocale.h && \
-        rm -r /root/.cache && \
-        apk del .build-dependencies
+        rm -r /root/.cache

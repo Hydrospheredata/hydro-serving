@@ -28,7 +28,6 @@ cd ../
 
 echo "Custom Scikit..."
 cd custom_scikit
-docker build -t mist-envoy-alpine-python-machinelearning -f Dockerfile-alpine-python-machinelearning .
 docker build --no-cache -t mist-runtime-customscikit .
 cd ../
 
