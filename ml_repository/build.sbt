@@ -1,6 +1,3 @@
-import sbt.Keys._
-import sbtassembly.Plugin.AssemblyKeys._
-
 name := "ml_repository"
 version := "1.0"
 scalaVersion := "2.11.11"
@@ -35,8 +32,7 @@ libraryDependencies ++= akkaDependencies
 libraryDependencies ++= hdfsDependencies
 libraryDependencies ++= logDependencies
 
-assemblySettings
-mergeStrategy in assembly := {
+assemblyMergeStrategy in assembly := {
   case m if m.toLowerCase.endsWith("manifest.mf") => MergeStrategy.discard
   case PathList("META-INF", "services", "org.apache.hadoop.fs.FileSystem") => MergeStrategy.filterDistinctLines
   case m if m.startsWith("META-INF") => MergeStrategy.discard
