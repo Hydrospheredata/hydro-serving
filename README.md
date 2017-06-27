@@ -9,7 +9,7 @@ Main Features:
 ##### Story
 Deploying skit-learn models for serving online user requests is dumb simple: just spin up an HTTP server, load the model and call `predict()` method. Performance wise it will satisfy most of the use cases.
 TensorFlow serving is a bit more complicated to manage but feasible as well.
-For Spark ML you would need to use spark-ml-serving library and call it from HTTP action.
+For Spark ML you would need to use [spark-ml-serving](https://github.com/Hydrospheredata/spark-ml-serving) library and call it from HTTP action.
 JVM friendly H2O and DL4J would go the same way.
 
 ##### Challenge
