@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
+import java.util.stream.Collectors;
 
 /**
  *
@@ -64,7 +65,7 @@ public class EnvoyMeshManagerService implements MeshManagerService {
         routeHosts.addAll(serviceClusters.values());
         if ("http".equals(configName)) {
             Service service = services.get(node);
-            if (service!=null && service.isUseServiceHttp()) {
+            if (service != null && service.isUseServiceHttp()) {
                 routeHosts.add(create("all", "http-" + service.getServiceUUID(), "*"));
             }
         }
@@ -126,7 +127,7 @@ public class EnvoyMeshManagerService implements MeshManagerService {
 
     private List<Cluster> managerClusters(String node) {
         Service nodeService = services.get(node);
-        if(nodeService==null){
+        if (nodeService == null) {
             return Collections.emptyList();
         }
         String nodeServiceName = getServiceName(nodeService);
@@ -210,7 +211,7 @@ public class EnvoyMeshManagerService implements MeshManagerService {
 
         List<ServiceHost> hosts = new ArrayList<>();
         boolean check = isHttp;
-        LOGGER.debug("Current services: {}",services);
+        LOGGER.debug("Current services: {}", services);
         services.values().stream()
                 .filter(p -> p.getServiceType() == serviceType)
                 .filter(p -> p.getLastKnownStatus() == ServiceStatus.UP)
@@ -276,5 +277,12 @@ public class EnvoyMeshManagerService implements MeshManagerService {
     @Override
     public Service getService(String serviceId) {
         return services.get(serviceId);
+    }
+
+    @Override
+    public List<Service> getRuntimes() {
+        return services.values().stream()
+                .filter(p -> p.getServiceType() == ServiceType.serving)
+                .collect(Collectors.toList());
     }
 }

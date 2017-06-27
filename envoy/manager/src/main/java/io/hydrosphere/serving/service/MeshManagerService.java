@@ -4,6 +4,8 @@ import io.hydrosphere.serving.service.dto.ClusterConfig;
 import io.hydrosphere.serving.service.dto.RouteConfig;
 import io.hydrosphere.serving.service.dto.ServiceConfig;
 
+import java.util.List;
+
 /**
  *
  */
@@ -19,4 +21,6 @@ public interface MeshManagerService {
     void registerService(Service service);
 
     Service getService(String serviceId);
+
+    List<Service> getRuntimes();
 }
