@@ -20,7 +20,7 @@ Production data and predictions quality should be carefully monitored and the sy
 
 **Example**
 
-A text recognition pipeline. Unless you are Google and have enough data and hardware to build end-to-end neural network you’ll need to build something like this:
+To build a natural language processing pipeline that takes input JSON, extracts simple features, classifies a document into particular category and then applies a neural network pre-trained for detected category you’ll need something like this:
 
 ![Image](docs/images/NLP-serving-pipeline.png)
 
