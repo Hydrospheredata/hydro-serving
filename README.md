@@ -18,7 +18,7 @@ You could not lock data scientist to use just 1 machine learning framework and b
 Data scientist needs to build->test->deploy to production quickly and continuously experimenting different models and ensembles.
 Production data and predictions quality should be carefully monitored and the system should be adjusted in real time.
 
-#####Example
+##### Example
 
 To build a natural language processing pipeline that takes input JSON, extracts simple features, classifies a document into particular category and then applies a neural network pre-trained for detected category you’ll need something like this:
 
