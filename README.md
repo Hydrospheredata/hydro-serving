@@ -1,24 +1,36 @@
 # Hydro-serving
 
-This repository contains several sub-projects and demo for serving ml models.
+Hydro Serving is an Machine Learning Serving cluster. 
 
-## Project proposal
+Main Features:
+* **Serverless**. It is as easy as AWS Lambda in your data center or VPC. 
+* **Multi-framework Pipelines** (e.g. Scikit-learn -> Spark ML -> TensorFlow pipeline)
 
-1. By this project we accompish next goals:
-  * Easy to serve complex models
-  * High models reusability
-  * Multi-framework pipelines (e.g. Scikit -> Spark pipeline)
-  * Stability
-2. How? By using microservice principles for ML model serving + REAL pipelines
+##### Story
+Deploying skit-learn models for serving online user requests is dumb simple: just spin up an HTTP server, load the model and call `predict()` method. Performance wise it will satisfy most of the use cases.
+TensorFlow serving is a bit more complicated to manage but feasible as well.
+For Spark ML you would need to use spark-ml-serving library and call it from HTTP action.
+JVM friendly H2O and DL4J would go the same way.
+
+##### Challenge
+In real projects you have to deploy pipelines of different models and custom functions rather that a single model.
+You could not lock data scientist to use just 1 machine learning framework and build 1 HTTP server for that.
+Data scientist needs to build->test->deploy to production quickly and continuously experimenting different models and ensembles.
+Production data and predictions quality should be carefully monitored and the system should be adjusted in real time.
+
+**Example**
+
+A text recognition pipeline. Unless you are Google and have enough data and hardware to build end-to-end neural network you’ll need to build something like this:
+
+![Image](docs/images/NLP-serving-pipeline.png)
+
+##### Solution
+Hydro Serving manages multiple serverless runtimes and allows chaining them into end-to-end serving pipelines. Monitoring, versioning, auto-scaling, models auto discovery and user friendly UI goes on top.
+It implements side-car architecture that decouples machine learning logic from networking, service discovery, load balancing.
+
 ![Image](docs/images/Diagrams.png?raw=true)
-3. We chose envoy and sidecar because:
-    * we move all "microservice" logic from ML Serving model to envoy
-    * we can add any existing runtime to our cluster without code changes  
-4. Additional features: rate limiting, Load balancing, Circuit breaking, Tracing, Statistics
-5. Project roadmap:
-    * move all pipline logic to envoy
-    * create apk/deb
-    * add GRPC stream interface to gateway
+
+Additional out of the box features include Rate limiting, Load balancing, Circuit breaking, Tracing, Statistics.
 
 ## Structure
 * [envoy](/envoy) contains all envoy logic and base docker images.
