@@ -28,6 +28,13 @@ class RepositoryActor extends Actor {
   }
 
   override def receive: Receive = {
+    case Messages.RepositoryActor.GetIndex =>
+      val origin = sender()
+      val models = index.map {
+        case (_, entry) => entry.model
+      }.toList
+      origin ! models
+
     case Messages.Watcher.IndexedModels(models) =>
       models.foreach{ m =>
         log.info(s"New model: $m")
