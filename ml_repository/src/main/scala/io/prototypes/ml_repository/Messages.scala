@@ -7,6 +7,7 @@ import io.prototypes.ml_repository.source.{LocalSource, ModelSource}
   */
 object Messages {
   object RepositoryActor {
+    case object GetIndex
     case class GetModelIndexEntry(name: String)
     case class GetModelFiles(name: String)
     case class RetrieveModelFiles(indexEntry: IndexEntry)

@@ -58,6 +58,13 @@ object Boot extends App with Logging {
         complete {
           "Hi"
         }
+      } ~ path("index") {
+        val mFuture = repositoryActor ? Messages.RepositoryActor.GetIndex
+        onSuccess(mFuture.mapTo[List[Model]]) { models =>
+          complete {
+            models
+          }
+        }
       } ~ path("files" / Segment) { modelName =>
         val mFuture = repositoryActor ? Messages.RepositoryActor.GetModelFiles(modelName)
         onSuccess(mFuture.mapTo[Option[List[URI]]]) { fRes =>
@@ -65,7 +72,7 @@ object Boot extends App with Logging {
             fRes.map(_.map(_.toString))
           }
         }
-      }~ path("metadata" / Segment) { modelName =>
+      } ~ path("metadata" / Segment) { modelName =>
         val mFuture = repositoryActor ? Messages.RepositoryActor.GetModelIndexEntry(modelName)
         onSuccess(mFuture.mapTo[Option[IndexEntry]]) { fRes =>
           complete {
