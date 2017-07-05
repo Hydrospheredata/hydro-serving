@@ -30,7 +30,7 @@ Then you've decided to try embedding word2vec into DL4J neural network as a firs
 
 Then you've decided to execute the same serving pipline in a streaming context, i.e. deploy a prediction pipeline into Kafka. 
 
-![Image](docs/serving-pipelines-in-kafka.png)
+![Image](docs/images/serving-pipelines-in-kafka.png)
 
 How would you do that as a data scientist? There is an option to ask engineers to re-implement it in Java/Spark that takes another 6 months and unpredictable outcome. There is another solution described below.
 
