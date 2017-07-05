@@ -26,7 +26,7 @@ To build a natural language processing pipeline that takes input JSON, extracts 
 
 Then you've decided to try embedding word2vec into DL4J neural network as a first two layers. Your production experiment will look this way:
 
-![Image](docs/images/NLP-serving-experiment.png) 
+![Image](docs/images/serving-experiment.png) 
 
 ##### Solution
 Hydro Serving manages multiple serverless runtimes and allows chaining them into end-to-end serving pipelines. Monitoring, versioning, auto-scaling, models auto discovery and user friendly UI goes on top.
