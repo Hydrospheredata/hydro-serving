@@ -37,7 +37,7 @@ How would you do that as a data scientist? There is an option to ask engineers t
 ##### Solution
 Hydro Serving manages multiple serverless runtimes and allows chaining them into end-to-end serving pipelines. Monitoring, versioning, auto-scaling, models auto discovery and user friendly UI goes on top.
 It implements side-car architecture that decouples machine learning logic from networking, service discovery, load balancing. 
-So, the transport layer between model runtimes could be changed from HTTP to unix sockets and event to Kafka without changing containers with actual machine learning code.
+So, the transport layer between model runtimes could be changed from HTTP to unix sockets and even to Kafka without changing containers with actual machine learning code.
 
 ![Image](docs/images/Diagrams.png?raw=true)
 
