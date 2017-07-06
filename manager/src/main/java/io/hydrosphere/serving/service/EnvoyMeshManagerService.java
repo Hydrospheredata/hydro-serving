@@ -1,7 +1,5 @@
 package io.hydrosphere.serving.service;
 
-import io.hydrosphere.serving.config.ManagerConfig;
-import io.hydrosphere.serving.config.SideCarConfig;
 import io.hydrosphere.serving.service.dto.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,15 +22,9 @@ public class EnvoyMeshManagerService implements MeshManagerService {
 
     //private final ConsulClient consulClient;
 
-    private final ManagerConfig.ManagerConfigurationProperties managerConfigurationProperties;
-
-    private final SideCarConfig.SideCarConfigurationProperties sideCarConfigurationProperties;
-
     @Autowired
-    public EnvoyMeshManagerService(/*ConsulClient consulClient, */ManagerConfig.ManagerConfigurationProperties managerConfigurationProperties, SideCarConfig.SideCarConfigurationProperties sideCarConfigurationProperties) {
-        //this.consulClient = consulClient;
-        this.managerConfigurationProperties = managerConfigurationProperties;
-        this.sideCarConfigurationProperties = sideCarConfigurationProperties;
+    public EnvoyMeshManagerService() {
+
     }
 
     private RouteHost create(String name, String cluster, String domain) {

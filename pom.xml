@@ -14,6 +14,7 @@
         <module>manager</module>
         <module>sidecar-package</module>
         <module>java-docker</module>
+        <module>service-commons</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -38,14 +39,10 @@
                 <version>${project.version}</version>
                 <type>sh</type>
             </dependency>
+
             <dependency>
                 <groupId>io.hydrosphere.serving</groupId>
-                <artifactId>proto</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.hydrosphere.serving</groupId>
-                <artifactId>proto-java</artifactId>
+                <artifactId>service-commons</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -56,12 +53,22 @@
             </dependency>
 
             <dependency>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-client</artifactId>
+                <version>8.8.0</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>ch.qos.logback</groupId>
+                        <artifactId>logback-classic</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
                 <groupId>org.scala-lang</groupId>
                 <artifactId>scala-library</artifactId>
                 <version>${scala.version}</version>
             </dependency>
-
-
             <dependency>
                 <groupId>com.typesafe.akka</groupId>
                 <artifactId>akka-http-core_${scalaBinaryVersion}</artifactId>
