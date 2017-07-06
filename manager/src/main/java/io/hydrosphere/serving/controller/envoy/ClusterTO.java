@@ -1,9 +1,8 @@
-package io.hydrosphere.serving.service.dto;
+package io.hydrosphere.serving.controller.envoy;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import java.util.List;
 
@@ -12,7 +11,7 @@ import java.util.List;
  */
 @Data
 @Builder
-public class Cluster {
+public class ClusterTO {
     private String name;
 
     private String type;
@@ -23,7 +22,7 @@ public class Cluster {
     @JsonProperty("lb_type")
     private String lbType;
 
-    private List<ClusterHost> hosts;
+    private List<ClusterHostTO> hosts;
 
     @JsonProperty("service_name")
     private String serviceName;

@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.service.dto;
+package io.hydrosphere.serving.controller.envoy;
 
 import lombok.Data;
 
@@ -8,10 +8,10 @@ import java.util.List;
  *
  */
 @Data
-public class RouteHost {
+public class RouteHostTO {
     private String name;
 
     private List<String> domains;
 
-    private List<Route> routes;
+    private List<RouteTO> routes;
 }

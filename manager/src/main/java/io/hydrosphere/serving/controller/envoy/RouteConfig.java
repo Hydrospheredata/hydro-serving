@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.service.dto;
+package io.hydrosphere.serving.controller.envoy;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
@@ -13,5 +13,5 @@ import java.util.List;
 @ToString
 public class RouteConfig {
     @JsonProperty("virtual_hosts")
-    private List<RouteHost> virtualHosts;
+    private List<RouteHostTO> virtualHosts;
 }

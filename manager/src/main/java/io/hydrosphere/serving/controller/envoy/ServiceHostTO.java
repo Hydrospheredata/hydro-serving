@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.service.dto;
+package io.hydrosphere.serving.controller.envoy;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
@@ -7,13 +7,13 @@ import lombok.Data;
  *
  */
 @Data
-public class ServiceHost {
+public class ServiceHostTO {
     @JsonProperty("ip_address")
     private String ipAddress;
 
     private int port;
 
-    private ServiceTags tags;
+    private ServiceTagsTO tags;
     /*
     "ip_address": "...",
   "port": "...",

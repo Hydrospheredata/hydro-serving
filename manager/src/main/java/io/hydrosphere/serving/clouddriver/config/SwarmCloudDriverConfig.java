@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 @ConditionalOnProperty(havingValue = "swarm", name = "clouddriver.type")
-public class SwarmClientConfig {
+public class SwarmCloudDriverConfig {
 
     @Bean
     public SwarmRuntimeDeployService swarmRuntimeDeployService() throws DockerCertificateException {

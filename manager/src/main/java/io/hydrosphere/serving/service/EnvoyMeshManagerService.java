@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.service;
 
-import io.hydrosphere.serving.service.dto.*;
+import io.hydrosphere.serving.controller.envoy.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,19 +27,19 @@ public class EnvoyMeshManagerService implements MeshManagerService {
 
     }
 
-    private RouteHost create(String name, String cluster, String domain) {
-        RouteHost routeHost = new RouteHost();
+    private RouteHostTO create(String name, String cluster, String domain) {
+        RouteHostTO routeHost = new RouteHostTO();
         routeHost.setDomains(Collections.singletonList(domain));
         routeHost.setName(name);
-        routeHost.setRoutes(Collections.singletonList(new Route("/", cluster)));
+        routeHost.setRoutes(Collections.singletonList(new RouteTO("/", cluster)));
         return routeHost;
     }
 
     @Override
     public RouteConfig routes(String configName, ServiceType cluster, String node) {
         LOGGER.debug("routes: {},{},{}", configName, cluster, node);
-        List<RouteHost> routeHosts = new ArrayList<>();
-        Map<String, RouteHost> serviceClusters = new HashMap<>();
+        List<RouteHostTO> routeHosts = new ArrayList<>();
+        Map<String, RouteHostTO> serviceClusters = new HashMap<>();
         services.values().forEach((service) -> {
             if (service.isUseServiceGrpc() && configName.equals("grpc")) {
                 String serviceName = getServiceName(service);
@@ -66,10 +66,10 @@ public class EnvoyMeshManagerService implements MeshManagerService {
     }
 
     @Override
-    public ClusterConfig clusters(ServiceType cluster, String node) {
+    public ClusterConfigTO clusters(ServiceType cluster, String node) {
         LOGGER.debug("clusters: {}, {}", cluster, node);
-        ClusterConfig config = new ClusterConfig();
-        List<Cluster> clusters = managerClusters(node);
+        ClusterConfigTO config = new ClusterConfigTO();
+        List<ClusterTO> clusters = managerClusters(node);
         config.setClusters(clusters);
         LOGGER.debug("clusters: {}", config);
         return config;
@@ -89,7 +89,7 @@ public class EnvoyMeshManagerService implements MeshManagerService {
         return UUID.nameUUIDFromBytes(getServiceName(service).getBytes()).toString();
     }
 
-    private List<ClusterHost> getStaticHost(Service service, String forNode, boolean isHttp) {
+    private List<ClusterHostTO> getStaticHost(Service service, String forNode, boolean isHttp) {
         boolean sameNode = service.getServiceId().equals(forNode);
         StringBuilder builder = new StringBuilder("tcp://");
         if (sameNode) {
@@ -112,10 +112,10 @@ public class EnvoyMeshManagerService implements MeshManagerService {
                 builder.append(service.getSideCarGrpcPort());
             }
         }
-        return Collections.singletonList(new ClusterHost(builder.toString()));
+        return Collections.singletonList(new ClusterHostTO(builder.toString()));
     }
 
-    private List<Cluster> managerClusters(String node) {
+    private List<ClusterTO> managerClusters(String node) {
         Service nodeService = services.get(node);
         if (nodeService == null) {
             return Collections.emptyList();
@@ -123,10 +123,10 @@ public class EnvoyMeshManagerService implements MeshManagerService {
         String nodeServiceName = getServiceName(nodeService);
 
 
-        List<Cluster> result = new ArrayList<>();
-        Map<String, Cluster> serviceClusters = new HashMap<>();
-        services.forEach((id, service) -> {
-            Cluster.ClusterBuilder cluster = Cluster.builder()
+        List<ClusterTO> result = new ArrayList<>();
+        Map<String, ClusterTO> serviceClusters = new HashMap<>();
+        /*services.forEach((id, service) -> {
+            ClusterTO.ClusterBuilder cluster = ClusterTO.builder()
                     .connectTimeoutMs(500)
                     .lbType("round_robin");
 
@@ -137,7 +137,7 @@ public class EnvoyMeshManagerService implements MeshManagerService {
                         .name(grpcServiceName);
                 if (nodeServiceName.equals(grpcServiceName)) {
                     serviceClusters.computeIfAbsent(grpcServiceName, (s) -> {
-                        cluster.hosts(Collections.singletonList(new ClusterHost("tcp://127.0.0.1:" + service.getServiceGrpcPort())))
+                        cluster.hosts(Collections.singletonList(new ClusterHostTO("tcp://127.0.0.1:" + service.getServiceGrpcPort())))
                                 .type("static");
                         return cluster.build();
                     });
@@ -163,7 +163,7 @@ public class EnvoyMeshManagerService implements MeshManagerService {
 
                 if (nodeServiceName.equals(grpcServiceName)) {
                     serviceClusters.computeIfAbsent(httpServiceName, (s) -> {
-                        cluster.hosts(Collections.singletonList(new ClusterHost("tcp://127.0.0.1:" + service.getServiceHttpPort())))
+                        cluster.hosts(Collections.singletonList(new ClusterHostTO("tcp://127.0.0.1:" + service.getServiceHttpPort())))
                                 .type("static");
                         return cluster.build();
                     });
@@ -181,13 +181,13 @@ public class EnvoyMeshManagerService implements MeshManagerService {
                         .hosts(getStaticHost(service, node, true))
                         .build());
             }
-        });
+        });*/
         result.addAll(serviceClusters.values());
         return result;
     }
 
     @Override
-    public ServiceConfig services(String serviceName) {
+    public ServiceConfigTO services(String serviceName) {
         LOGGER.debug("services: {}", serviceName);
         int indexFrom = 0;
         boolean isHttp = false;
@@ -199,7 +199,7 @@ public class EnvoyMeshManagerService implements MeshManagerService {
         ServiceType serviceType = ServiceType.valueOf(serviceName.substring(indexFrom, indexName));
         String name = serviceName.substring(indexName + 1);
 
-        List<ServiceHost> hosts = new ArrayList<>();
+        List<ServiceHostTO> hosts = new ArrayList<>();
         boolean check = isHttp;
         LOGGER.debug("Current services: {}", services);
         services.values().stream()
@@ -207,7 +207,7 @@ public class EnvoyMeshManagerService implements MeshManagerService {
                 .filter(p -> p.getLastKnownStatus() == ServiceStatus.UP)
                 .filter(p -> p.getServiceName().equals(name))
                 .forEach(p -> {
-                    ServiceHost host = new ServiceHost();
+                    ServiceHostTO host = new ServiceHostTO();
                     if (check) {
                         host.setPort(p.getSideCarHttpPort());
                     } else {
@@ -216,13 +216,13 @@ public class EnvoyMeshManagerService implements MeshManagerService {
                     host.setIpAddress(p.getIp());
                     hosts.add(host);
                 });
-        ServiceConfig config = new ServiceConfig();
+        ServiceConfigTO config = new ServiceConfigTO();
         config.setHosts(hosts);
         LOGGER.debug("services result: {}", config);
         return config;
     }
 
-    @Override
+    //@Override
     public void unregisterService(String serviceId) {
         LOGGER.debug("unregisterService: {}", serviceId);
         Service service = services.get(serviceId);
@@ -236,7 +236,7 @@ public class EnvoyMeshManagerService implements MeshManagerService {
         }
     }
 
-    @Override
+    //@Override
     public void registerService(Service service) {
         LOGGER.debug("registerService: {}", service);
         service.setLastKnownStatus(ServiceStatus.DOWN);
@@ -264,15 +264,15 @@ public class EnvoyMeshManagerService implements MeshManagerService {
         }*/
     }
 
-    @Override
+    /*@Override
     public Service getService(String serviceId) {
         return services.get(serviceId);
-    }
+    }*/
 
     @Override
     public List<Service> getRuntimes() {
         return services.values().stream()
-                .filter(p -> p.getServiceType() == ServiceType.serving)
+                //.filter(p -> p.getServiceType() == ServiceType.serving)
                 .collect(Collectors.toList());
     }
 }

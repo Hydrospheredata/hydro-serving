@@ -29,6 +29,8 @@
 
         <akka.http.version>10.0.0</akka.http.version>
         <akka.version>2.4.14</akka.version>
+
+        <io.springfox.swagger.version>2.7.0</io.springfox.swagger.version>
     </properties>
 
     <dependencyManagement>
@@ -50,6 +52,17 @@
                 <artifactId>java-docker</artifactId>
                 <version>${project.version}</version>
                 <type>pom</type>
+            </dependency>
+
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${io.springfox.swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${io.springfox.swagger.version}</version>
             </dependency>
 
             <dependency>

@@ -9,6 +9,7 @@ import java.util.Map;
  */
 @Data
 public class Runtime {
+    private String id;
 
     private String name;
 
@@ -29,4 +30,6 @@ public class Runtime {
     private String imageName;
 
     private int httpPort=8080;
+
+    private int appHttpPort=9090;
 }
