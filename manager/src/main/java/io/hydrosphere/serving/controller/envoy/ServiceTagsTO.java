@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.service.dto;
+package io.hydrosphere.serving.controller.envoy;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
@@ -7,7 +7,7 @@ import lombok.Data;
  *
  */
 @Data
-public class ServiceTags {
+public class ServiceTagsTO {
     private String az;
 
     private String canary;

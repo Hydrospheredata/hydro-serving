@@ -7,5 +7,5 @@ public enum ServiceType {
     manager,
     gateway,
     repository,
-    serving
+    runtime
 }

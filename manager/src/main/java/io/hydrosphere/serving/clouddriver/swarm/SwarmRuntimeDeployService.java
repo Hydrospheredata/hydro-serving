@@ -4,15 +4,15 @@ import com.spotify.docker.client.DockerClient;
 import com.spotify.docker.client.messages.swarm.*;
 import io.hydrosphere.serving.clouddriver.Runtime;
 import io.hydrosphere.serving.clouddriver.RuntimeDeployService;
-import io.hydrosphere.serving.clouddriver.ServiceInstance;
+import io.hydrosphere.serving.clouddriver.RuntimeInstance;
 import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static io.hydrosphere.serving.clouddriver.ServiceInstance.RuntimeInstanceStatus.DOWN;
-import static io.hydrosphere.serving.clouddriver.ServiceInstance.RuntimeInstanceStatus.UP;
+import static io.hydrosphere.serving.clouddriver.RuntimeInstance.RuntimeInstanceStatus.DOWN;
+import static io.hydrosphere.serving.clouddriver.RuntimeInstance.RuntimeInstanceStatus.UP;
 
 /**
  *
@@ -24,8 +24,9 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
     private static final String LABEL_MODEL_VERSION = "modelVersion";
     private static final String LABEL_HYDRO_SERVING_TYPE = "hydroServing";
     private static final String RUNTIME_TYPE = "runtime";
-    public static final String ENV_HEADER_ENVOY_HTTP_PORT = "ENVOY_HTTP_PORT";
-    public static final String LABEL_HTTP_PORT = "httpPort";
+    private static final String ENV_HEADER_ENVOY_HTTP_PORT = "ENVOY_HTTP_PORT";
+    private static final String LABEL_HTTP_PORT = "httpPort";
+    public static final String LABEL_APP_HTTP_PORT = "appHttpPort";
 
     private final DockerClient dockerClient;
 
@@ -45,17 +46,20 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
 
             if (runtime.getEnvironments().containsKey(ENV_HEADER_ENVOY_HTTP_PORT)) {
                 labels.put(LABEL_HTTP_PORT, runtime.getEnvironments().get(ENV_HEADER_ENVOY_HTTP_PORT));
+            } else {
+                labels.put(LABEL_HTTP_PORT, String.valueOf(runtime.getHttpPort()));
             }
         } else {
             labels.put(LABEL_HTTP_PORT, String.valueOf(runtime.getHttpPort()));
         }
 
-        env.add("SERVICE_TYPE="+RUNTIME_TYPE);
+        env.add("SERVICE_TYPE=" + RUNTIME_TYPE);
 
         labels.put(LABEL_HYDRO_SERVING_TYPE, RUNTIME_TYPE);
         labels.put(LABEL_RUNTIME_TYPE, runtime.getRuntimeType());
         labels.put(LABEL_MODEL_NAME, runtime.getModelName());
         labels.put(LABEL_MODEL_VERSION, runtime.getModelVersion());
+        labels.put(LABEL_APP_HTTP_PORT, String.valueOf(runtime.getAppHttpPort()));
 
         ServiceSpec.Builder builder = ServiceSpec.builder()
                 .name(runtime.getName())
@@ -111,12 +115,12 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
         }
     }
 
-    private List<ServiceInstance> instances(Task.Criteria criteria) {
+    private List<RuntimeInstance> instances(Task.Criteria criteria) {
         try {
             String network = StringUtils.hasText(networkName) ? networkName : "bridge";
-            List<ServiceInstance> instances = new ArrayList<>();
+            List<RuntimeInstance> instances = new ArrayList<>();
             dockerClient.listTasks(criteria).forEach(p -> {
-                ServiceInstance instance = new ServiceInstance();
+                RuntimeInstance instance = new RuntimeInstance();
                 instance.setStatusText(p.status().message());
                 instance.setStatus("running".equalsIgnoreCase(p.status().state()) ? UP : DOWN);
                 p.networkAttachments().forEach(n -> {
@@ -124,7 +128,11 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
                         instance.setHost(n.addresses().get(0));
                     }
                 });
-
+                String s = p.labels().get(LABEL_HTTP_PORT);
+                if (StringUtils.hasText(s)) {
+                    instance.setHttpPort(Integer.valueOf(s));
+                }
+                instance.setRuntimeId(p.serviceId());
                 instance.setId(p.id());
                 instances.add(instance);
             });
@@ -135,7 +143,7 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
     }
 
     @Override
-    public List<ServiceInstance> runtimeInstances(String runtimeName) {
+    public List<RuntimeInstance> runtimeInstances(String runtimeName) {
         return instances(Task.Criteria.builder()
                 .serviceName(runtimeName).build());
     }
@@ -157,6 +165,7 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
     private Runtime map(Service service) {
         Runtime runtime = new Runtime();
         ServiceSpec s = service.spec();
+        runtime.setId(service.id());
         runtime.setName(s.name());
         runtime.setImageName(s.taskTemplate().containerSpec().image());
         if (s.taskTemplate().containerSpec().env() != null) {
@@ -175,6 +184,7 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
             runtime.setModelVersion(map.get(LABEL_MODEL_VERSION));
             runtime.setRuntimeType(map.get(LABEL_RUNTIME_TYPE));
             runtime.setHttpPort(Integer.valueOf(map.get(LABEL_HTTP_PORT)));
+            runtime.setAppHttpPort(Integer.valueOf(map.get(LABEL_APP_HTTP_PORT)));
         }
         runtime.setState(service.updateStatus().state());
         runtime.setStatusText(service.updateStatus().message());
