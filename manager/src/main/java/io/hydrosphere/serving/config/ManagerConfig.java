@@ -36,6 +36,10 @@ public class ManagerConfig {
     @ConfigurationProperties("manager")
     @Data
     public static class ManagerConfigurationProperties {
-        private String externalHost = "localhost";
+        private String managerServiceName = "hydro-serving-manager";
+
+        private String gatewayServiceName = "hydro-serving-gateway";
+
+        private String repositoryServiceName = "hydro-serving-repository";
     }
 }

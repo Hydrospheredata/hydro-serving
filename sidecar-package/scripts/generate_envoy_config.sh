@@ -1,12 +1,8 @@
 #!/bin/sh
 
-cat <<EOF > /hydro-serving/sidecar/envoy.json
+cat <<EOF >> /hydro-serving/sidecar/envoy.json
 {
   "listeners": [
-EOF
-
-if [ "$USE_APP_HTTP" == "true" ]; then
-cat <<EOF >> /hydro-serving/sidecar/envoy.json
     {
       "address": "tcp://0.0.0.0:$ENVOY_HTTP_PORT",
       "filters": [
@@ -37,48 +33,13 @@ cat <<EOF >> /hydro-serving/sidecar/envoy.json
           }
         }
       ]
-    },
-EOF
-fi
-
-cat <<EOF >> /hydro-serving/sidecar/envoy.json
-    {
-      "address": "tcp://0.0.0.0:$ENVOY_GRPC_PORT",
-      "filters": [
-        {
-          "type": "read",
-          "name": "http_connection_manager",
-          "config": {
-            "tracing": {
-              "operation_name": "ingress"
-            },
-            "codec_type": "http2",
-            "idle_timeout_s": 840,
-            "stat_prefix": "egress_http2",
-            "use_remote_address": true,
-            "server_name":"$SERVICE_TYPE-$SERVICE_NAME-$SERVICE_VERSION",
-            "rds":{
-              "cluster": "global-cluster-manager",
-              "route_config_name": "grpc",
-              "refresh_delay_ms": 5000
-            },
-            "filters": [
-              {
-                "type": "decoder",
-                "name": "router",
-                "config": {}
-              }
-            ]
-          }
-        }
-      ]
     }
   ],
 EOF
 
 if [ "$ZIPKIN_ENABLED" == "true" ]; then
 cat <<EOF >> /hydro-serving/sidecar/envoy.json
-"tracing": {
+  "tracing": {
     "http": {
       "driver": {
         "type": "zipkin",
@@ -94,7 +55,7 @@ fi
 
 cat <<EOF >> /hydro-serving/sidecar/envoy.json
   "admin": {
-    "access_log_path": "/var/log/envoy/admin_access.log",
+    "access_log_path": "/var/log/hydro-serving/sidecar/admin_access.log",
     "address": "tcp://0.0.0.0:$ENVOY_ADMIN_PORT"
   },
   "cluster_manager": {
