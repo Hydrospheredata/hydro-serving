@@ -1,19 +1,58 @@
 package io.hydrosphere.serving;
 
+import com.spotify.docker.client.DefaultDockerClient;
+import com.spotify.docker.client.DockerClient;
+import com.spotify.docker.client.messages.mount.Mount;
+import com.spotify.docker.client.messages.swarm.*;
 import org.junit.Test;
 
-import java.util.UUID;
+import static io.hydrosphere.serving.clouddriver.swarm.SwarmRuntimeDeployService.*;
 
 /**
  *
  */
 public class DDDD {
     @Test
-    public void test(){
-        String id="b83c562927eaa334b727b7e98328017c18459ead4176e7127668ffb2253b8873";
-        UUID uuid=UUID.nameUUIDFromBytes(id.getBytes());
+    public void test() throws Exception {
+        DockerClient client = DefaultDockerClient.fromEnv().build();
 
-
+        client.createService(ServiceSpec.builder()
+                .name("hydro-serving-manager")
+                .networks(NetworkAttachmentConfig.builder()
+                        .target("net1")
+                        .build())
+                .addLabel(LABEL_MODEL_NAME, "dummy")
+                .addLabel(LABEL_MODEL_VERSION, "222")
+                .addLabel(LABEL_RUNTIME_TYPE, "manager")
+                .addLabel(LABEL_HTTP_PORT, "8080")
+                .addLabel(LABEL_APP_HTTP_PORT, "9090")
+                .endpointSpec(EndpointSpec.builder()
+                        .addPort(PortConfig.builder()
+                                .publishedPort(8082)
+                                .targetPort(8082)
+                                .publishMode(PortConfig.PortConfigPublishMode.HOST)
+                                .build())
+                        .addPort(PortConfig.builder()
+                                .publishedPort(8080)
+                                .targetPort(8080)
+                                .publishMode(PortConfig.PortConfigPublishMode.HOST)
+                                .build())
+                        .addPort(PortConfig.builder()
+                                .publishedPort(9090)
+                                .targetPort(9090)
+                                .publishMode(PortConfig.PortConfigPublishMode.HOST)
+                                .build())
+                        .build())
+                .taskTemplate(TaskSpec.builder()
+                        .containerSpec(ContainerSpec.builder()
+                                .image("hydro-serving/manager:1.0-SNAPSHOT")
+                                .mounts(Mount.builder()
+                                        .source("/var/run/docker.sock")
+                                        .target("/var/run/docker.sock")
+                                        .build())
+                                .build())
+                        .build())
+                .build());
 
     }
 }

@@ -69,9 +69,11 @@
                                     <JAVA_XMX>256M</JAVA_XMX>
                                 </env>
                                 <runCmds>
+                                    <run>apk add --no-cache curl</run>
                                     <run>chmod +x /maven/sidecar.sh</run>
                                     <run>/maven/sidecar.sh --target /hydro-serving/sidecar -- alpine</run>
                                     <run>rm -rf /maven</run>
+                                    <run>rm -rf /var/cache/apk/*</run>
                                 </runCmds>
                                 <healthCheck>
                                     <!-- Check every 30 seconds -->
@@ -80,9 +82,13 @@
                                     <timeout>3s</timeout>
                                     <!-- Fail 3 times until the container is considerd unhealthy -->
                                     <retries>3</retries>
-                                    <cmd>wget -q http://127.0.0.1:8080/health > /dev/null 2>&amp;1</cmd>
+                                    <cmd>curl -f http://localhost:8080/health || exit 1</cmd>
                                 </healthCheck>
-                                <cmd>/hydro-serving/sidecar/start.sh</cmd>
+                                <cmd>
+                                    <exec>
+                                        <arg>/hydro-serving/sidecar/start.sh</arg>
+                                    </exec>
+                                </cmd>
                                 <workdir>/hydro-serving</workdir>
                             </build>
                         </image>

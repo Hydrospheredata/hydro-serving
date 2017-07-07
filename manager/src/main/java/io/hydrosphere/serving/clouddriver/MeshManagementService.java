@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.clouddriver;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  *
@@ -9,11 +10,11 @@ public interface MeshManagementService {
 
     List<Runtime> runtimeList();
 
-    Runtime getRuntimeByName(String name);
+    Optional<Runtime> getRuntimeByName(String name);
 
-    Runtime getRuntimeById(String id);
+    Optional<Runtime> getRuntimeById(String id);
 
     List<RuntimeInstance> getRuntimeInstancesByServiceName(String name);
 
-    RuntimeInstance getRuntimeInstance(String id);
+    Optional<RuntimeInstance> getRuntimeInstance(String id);
 }

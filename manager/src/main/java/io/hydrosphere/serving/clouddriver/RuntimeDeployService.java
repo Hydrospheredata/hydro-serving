@@ -13,6 +13,8 @@ public interface RuntimeDeployService {
 
     Runtime getRuntime(String runtimeName);
 
+    List<RuntimeInstance> runtimeInstances();
+
     List<Runtime> runtimeList();
 
     List<RuntimeInstance> runtimeInstances(String runtimeName);

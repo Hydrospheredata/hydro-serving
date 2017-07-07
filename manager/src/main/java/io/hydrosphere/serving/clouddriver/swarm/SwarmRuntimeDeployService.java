@@ -19,13 +19,13 @@ import static io.hydrosphere.serving.clouddriver.RuntimeInstance.RuntimeInstance
  */
 public class SwarmRuntimeDeployService implements RuntimeDeployService {
 
-    private static final String LABEL_RUNTIME_TYPE = "runtimeType";
-    private static final String LABEL_MODEL_NAME = "modelName";
-    private static final String LABEL_MODEL_VERSION = "modelVersion";
-    private static final String LABEL_HYDRO_SERVING_TYPE = "hydroServing";
+    public static final String LABEL_RUNTIME_TYPE = "runtimeType";
+    public static final String LABEL_MODEL_NAME = "modelName";
+    public static final String LABEL_MODEL_VERSION = "modelVersion";
+    public static final String LABEL_HYDRO_SERVING_TYPE = "hydroServing";
     private static final String RUNTIME_TYPE = "runtime";
     private static final String ENV_HEADER_ENVOY_HTTP_PORT = "ENVOY_HTTP_PORT";
-    private static final String LABEL_HTTP_PORT = "httpPort";
+    public static final String LABEL_HTTP_PORT = "httpPort";
     public static final String LABEL_APP_HTTP_PORT = "appHttpPort";
 
     private final DockerClient dockerClient;
@@ -121,19 +121,28 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
             List<RuntimeInstance> instances = new ArrayList<>();
             dockerClient.listTasks(criteria).forEach(p -> {
                 RuntimeInstance instance = new RuntimeInstance();
-                instance.setStatusText(p.status().message());
-                instance.setStatus("running".equalsIgnoreCase(p.status().state()) ? UP : DOWN);
                 p.networkAttachments().forEach(n -> {
                     if (network.equals(n.network().spec().name())) {
-                        instance.setHost(n.addresses().get(0));
+                        String host = n.addresses().get(0);
+                        if (host.contains("/")) {
+                            host = host.substring(0, host.indexOf("/"));
+                        }
+                        instance.setHost(host);
                     }
                 });
+                if (!StringUtils.hasText(instance.getHost())) {
+                    return;
+                }
+
                 String s = p.labels().get(LABEL_HTTP_PORT);
                 if (StringUtils.hasText(s)) {
                     instance.setHttpPort(Integer.valueOf(s));
                 }
+
+                instance.setStatusText(p.status().message());
+                instance.setStatus("running".equalsIgnoreCase(p.status().state()) ? UP : DOWN);
                 instance.setRuntimeId(p.serviceId());
-                instance.setId(p.id());
+                instance.setId(p.status().containerStatus().containerId());
                 instances.add(instance);
             });
             return instances;
@@ -149,11 +158,16 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
     }
 
     @Override
+    public List<RuntimeInstance> runtimeInstances() {
+        return instances(Task.Criteria.builder().build());
+    }
+
+    @Override
     public List<Runtime> runtimeList() {
         try {
             List<Runtime> runtimeList = new ArrayList<>();
             dockerClient.listServices(Service.Criteria.builder()
-                    .addLabel(LABEL_HYDRO_SERVING_TYPE, RUNTIME_TYPE)
+                    //.addLabel(LABEL_HYDRO_SERVING_TYPE, RUNTIME_TYPE)
                     .build()
             ).forEach(s -> runtimeList.add(map(s)));
             return runtimeList;
@@ -186,8 +200,12 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
             runtime.setHttpPort(Integer.valueOf(map.get(LABEL_HTTP_PORT)));
             runtime.setAppHttpPort(Integer.valueOf(map.get(LABEL_APP_HTTP_PORT)));
         }
-        runtime.setState(service.updateStatus().state());
-        runtime.setStatusText(service.updateStatus().message());
+
+        UpdateStatus updateStatus = service.updateStatus();
+        if (updateStatus != null) {
+            runtime.setState(updateStatus.state());
+            runtime.setStatusText(updateStatus.message());
+        }
 
         if (s.mode().replicated() != null) {
             runtime.setScale(s.mode().replicated().replicas().intValue());
