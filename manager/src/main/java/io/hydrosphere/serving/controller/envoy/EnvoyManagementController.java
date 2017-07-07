@@ -4,18 +4,16 @@ import io.hydrosphere.serving.clouddriver.MeshManagementService;
 import io.hydrosphere.serving.clouddriver.Runtime;
 import io.hydrosphere.serving.clouddriver.RuntimeInstance;
 import io.hydrosphere.serving.config.ManagerConfig;
-import io.hydrosphere.serving.service.MeshManagerService;
 import io.hydrosphere.serving.service.ServiceType;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
 
 /**
  *
@@ -24,8 +22,7 @@ import java.util.UUID;
 @RequestMapping("/v1")
 public class EnvoyManagementController {
 
-    @Autowired
-    private MeshManagerService managerService;
+    private static final Logger LOGGER = LogManager.getLogger();
 
     @Autowired
     private MeshManagementService meshManagementService;
@@ -37,19 +34,20 @@ public class EnvoyManagementController {
     @RequestMapping(value = "/clusters/{cluster}/{node}", method = RequestMethod.GET)
     public ClusterConfigTO clusters(@PathVariable ServiceType cluster,
                                     @PathVariable String node) {
-        ClusterConfigTO config = new ClusterConfigTO();
         List<ClusterTO> clusters = managerClusters(node);
+        LOGGER.trace("clusters: {}", clusters);
+        ClusterConfigTO config = new ClusterConfigTO();
         config.setClusters(clusters);
         return config;
     }
 
     private List<ClusterTO> managerClusters(String node) {
-        RuntimeInstance runtimeInstance = meshManagementService.getRuntimeInstance(node);
-        if (runtimeInstance == null) {
+        Optional<RuntimeInstance> runtimeInstance = meshManagementService.getRuntimeInstance(node);
+        if (!runtimeInstance.isPresent()) {
             return Collections.emptyList();
         }
-        Runtime runtime = meshManagementService.getRuntimeById(runtimeInstance.getRuntimeId());
-        if (runtime == null) {
+        Optional<Runtime> runtime = meshManagementService.getRuntimeById(runtimeInstance.get().getRuntimeId());
+        if (!runtime.isPresent()) {
             return Collections.emptyList();
         }
 
@@ -61,8 +59,9 @@ public class EnvoyManagementController {
         meshManagementService.runtimeList().forEach(r -> {
             cluster.serviceName(r.getName())
                     .name(r.getName());
-            if (r.getName().equals(runtime.getName())) {
-                cluster.hosts(Collections.singletonList(new ClusterHostTO("tcp://127.0.0.1:" + runtime.getAppHttpPort())))
+            if (r.getName().equals(runtime.get().getName())) {
+                cluster.serviceName(null)
+                        .hosts(Collections.singletonList(new ClusterHostTO("tcp://127.0.0.1:" + runtime.get().getAppHttpPort())))
                         .type("static");
             } else {
                 cluster.hosts(null)
@@ -72,16 +71,15 @@ public class EnvoyManagementController {
         });
 
 
-        Runtime gatewayRuntime = meshManagementService.getRuntimeByName(configurationProperties.getGatewayServiceName());
-        meshManagementService.getRuntimeInstancesByServiceName(configurationProperties.getGatewayServiceName())
-                .forEach(p -> {
-                    result.add(cluster.serviceName(null)
-                            //TODO change in Envoy maximum name length to 64
-                            .name(UUID.nameUUIDFromBytes(p.getId().getBytes()).toString())
-                            .type("static")
-                            .hosts(getStaticHost(gatewayRuntime, p, node))
-                            .build());
-                });
+        Optional<Runtime> gatewayRuntime = meshManagementService.getRuntimeByName(configurationProperties.getGatewayServiceName());
+        gatewayRuntime.ifPresent(r -> meshManagementService.getRuntimeInstancesByServiceName(configurationProperties.getGatewayServiceName())
+                .forEach(p -> result.add(cluster.serviceName(null)
+                        //TODO change in Envoy maximum name length to 64
+                        .name(UUID.nameUUIDFromBytes(p.getId().getBytes()).toString())
+                        .serviceName(null)
+                        .type("static")
+                        .hosts(getStaticHost(r, p, node))
+                        .build())));
         return result;
     }
 
@@ -108,17 +106,35 @@ public class EnvoyManagementController {
     public RouteConfig routes(@PathVariable String configName,
                               @PathVariable ServiceType cluster,
                               @PathVariable String node) {
+        Optional<RuntimeInstance> runtimeInstance = meshManagementService.getRuntimeInstance(node);
+        if (!runtimeInstance.isPresent()) {
+            throw new IllegalArgumentException("Node id");
+        }
+        Optional<Runtime> runtime = meshManagementService.getRuntimeById(runtimeInstance.get().getRuntimeId());
+        if (!runtime.isPresent()) {
+            throw new IllegalArgumentException("Service id");
+        }
+
         List<RouteHostTO> routeHosts = new ArrayList<>();
-        meshManagementService.runtimeList().forEach((service) -> {
-            RouteHostTO routeHost = new RouteHostTO();
-            routeHost.setDomains(Collections.singletonList(service.getName()));
-            routeHost.setName(service.getName());
-            routeHost.setRoutes(Collections.singletonList(new RouteTO("/", service.getName())));
-            routeHosts.add(routeHost);
-        });
+        meshManagementService.runtimeList().stream()
+                .filter(s -> !s.getName().equals(runtime.get().getName()))
+                .forEach((service) -> {
+                    RouteHostTO routeHost = new RouteHostTO();
+                    routeHost.setDomains(Collections.singletonList(service.getName()));
+                    routeHost.setName(service.getName());
+                    routeHost.setRoutes(Collections.singletonList(new RouteTO("/", service.getName())));
+                    routeHosts.add(routeHost);
+                });
+
+        RouteHostTO routeHost = new RouteHostTO();
+        routeHost.setDomains(Collections.singletonList("*"));
+        routeHost.setName("all");
+        routeHost.setRoutes(Collections.singletonList(new RouteTO("/", runtime.get().getName())));
+        routeHosts.add(routeHost);
+        LOGGER.trace("routes: {}", routeHosts);
         RouteConfig routeConfig = new RouteConfig();
         routeConfig.setVirtualHosts(routeHosts);
-        return managerService.routes(configName, cluster, node);
+        return routeConfig;
     }
 
     @RequestMapping(value = "/registration/{serviceName}", method = RequestMethod.GET)
@@ -131,6 +147,7 @@ public class EnvoyManagementController {
                     host.setIpAddress(p.getHost());
                     hosts.add(host);
                 });
+        LOGGER.trace("services: {}", hosts);
         ServiceConfigTO config = new ServiceConfigTO();
         config.setHosts(hosts);
         return config;
