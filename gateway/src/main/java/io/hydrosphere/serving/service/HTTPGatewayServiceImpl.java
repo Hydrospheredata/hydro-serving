@@ -42,24 +42,24 @@ public class HTTPGatewayServiceImpl {
         this.properties = properties;
     }
 
-    public DeferredResult<JsonNode> execute(EndpointDefinition definition, JsonNode jsonNode, Map<String, String> headers) {
+    public DeferredResult<JsonNode> execute(Pipeline pipeline, JsonNode jsonNode, Map<String, String> headers) {
         DeferredResult<JsonNode> r = new DeferredResult<>();
         try {
-            r.setResult(sendAll(definition, jsonNode, headers));
+            r.setResult(sendAll(pipeline, jsonNode, headers));
         } catch (Exception e) {
             r.setErrorResult(e);
         }
         return r;
     }
 
-    public JsonNode sendAll(EndpointDefinition definition, JsonNode jsonNode, Map<String, String> headers) throws IOException, InterruptedException, ExecutionException, TimeoutException {
+    public JsonNode sendAll(Pipeline pipeline, JsonNode jsonNode, Map<String, String> headers) throws IOException, InterruptedException, ExecutionException, TimeoutException {
         JsonNode result = jsonNode;
-        LOGGER.info("Request {}: {}", definition, jsonNode);
-        for (String s : definition.getChain()) {
+        LOGGER.debug("Request {}: {}", pipeline, jsonNode);
+        for (String s : pipeline.getInvocationChain()) {
             Request request = httpClient.newRequest("http://" + properties.getHost() + ":" + properties.getPort() + s.substring(s.indexOf("/")))
                     .method(HttpMethod.POST)
                     .scheme("http")
-                    .header(HttpHeader.HOST, "http-" + s.substring(0, s.indexOf("/")))
+                    .header(HttpHeader.HOST, s.substring(0, s.indexOf("/")))
                     .content(new StringContentProvider(objectMapper.writeValueAsString(jsonNode)), "application/json");
 
             headers.forEach((k, v) -> {
@@ -77,7 +77,7 @@ public class HTTPGatewayServiceImpl {
 
             jsonNode = result;
         }
-        LOGGER.info("Response {}", result);
+        LOGGER.debug("Response {}", result);
         return result;
 
     }

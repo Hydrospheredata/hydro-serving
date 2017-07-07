@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>gateway</artifactId>
+    <artifactId>runtime-dummy</artifactId>
 
     <dependencies>
         <dependency>
@@ -18,6 +18,7 @@
             <type>pom</type>
             <scope>provided</scope>
         </dependency>
+
         <dependency>
             <groupId>io.hydrosphere.serving</groupId>
             <artifactId>service-commons</artifactId>
@@ -30,6 +31,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+
             <plugin>
                 <groupId>io.fabric8</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
@@ -43,10 +45,10 @@
                                 <optimise>true</optimise>
                                 <from>hydro-serving/java-docker:${project.version}</from>
                                 <env>
-                                    <SERVICE_TYPE>gateway</SERVICE_TYPE>
+                                    <SERVICE_TYPE>runtime</SERVICE_TYPE>
                                 </env>
                                 <labels>
-                                    <serviceType>gateway</serviceType>
+                                    <serviceType>runtime</serviceType>
                                     <version>${project.version}</version>
                                     <artifactId>${project.artifactId}</artifactId>
                                 </labels>
@@ -59,6 +61,7 @@
                                                 <destName>${project.artifactId}.jar</destName>
                                                 <filtered>false</filtered>
                                             </file>
+
                                             <file>
                                                 <source>src/main/docker/start.sh</source>
                                                 <outputDirectory>/hydro-serving/app</outputDirectory>

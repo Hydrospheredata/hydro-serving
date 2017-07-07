@@ -2,8 +2,9 @@ package io.hydrosphere.serving.controller;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import io.hydrosphere.serving.service.EndpointDefinition;
-import io.hydrosphere.serving.service.EndpointService;
+import io.hydrosphere.serving.service.GatewayPipelineService;
 import io.hydrosphere.serving.service.HTTPGatewayServiceImpl;
+import io.hydrosphere.serving.service.Pipeline;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.context.request.async.DeferredResult;
@@ -32,7 +33,7 @@ public class ServingController {
     };
 
     @Autowired
-    private EndpointService endpointService;
+    private GatewayPipelineService endpointService;
 
     @Autowired
     private HTTPGatewayServiceImpl httpGatewayService;
@@ -41,16 +42,14 @@ public class ServingController {
     @RequestMapping(value = "/{endpoint}", method = RequestMethod.POST)
     public DeferredResult<JsonNode> execute(@RequestBody JsonNode jsonNode, @PathVariable String endpoint,
                                             HttpServletRequest httpServletRequest, HttpServletResponse response) {
-        EndpointDefinition definition = endpointService.endpointDefinition(endpoint);
-        if (definition == null) {
-            throw new WrongEndpointNameException();
-        }
+        Pipeline pipeline = endpointService.pipeline(endpoint)
+                .orElseThrow(WrongEndpointNameException::new);
 
         Map<String, String> headers = new HashMap<>();
         Arrays.stream(HEADERS).forEach(s -> {
             headers.put(s, httpServletRequest.getHeader(s));
         });
 
-        return httpGatewayService.execute(definition, jsonNode, headers);
+        return httpGatewayService.execute(pipeline, jsonNode, headers);
     }
 }

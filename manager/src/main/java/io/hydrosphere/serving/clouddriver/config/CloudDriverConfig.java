@@ -3,12 +3,8 @@ package io.hydrosphere.serving.clouddriver.config;
 import com.spotify.docker.client.DefaultDockerClient;
 import com.spotify.docker.client.DockerClient;
 import com.spotify.docker.client.exceptions.DockerCertificateException;
-import io.hydrosphere.serving.clouddriver.MeshManagementService;
-import io.hydrosphere.serving.clouddriver.CachedMeshManagementServiceImpl;
-import io.hydrosphere.serving.clouddriver.RuntimeDeployService;
 import io.hydrosphere.serving.clouddriver.swarm.SwarmRuntimeDeployService;
 import lombok.Data;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -19,11 +15,6 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class CloudDriverConfig {
-
-    @Bean
-    public MeshManagementService meshManagementService(@Autowired RuntimeDeployService runtimeDeployService){
-        return new CachedMeshManagementServiceImpl(runtimeDeployService);
-    }
 
     @Configuration
     @ConditionalOnProperty(havingValue = "swarm", name = "clouddriver.type")
