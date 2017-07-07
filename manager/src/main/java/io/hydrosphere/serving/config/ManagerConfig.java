@@ -41,5 +41,9 @@ public class ManagerConfig {
         private String gatewayServiceName = "hydro-serving-gateway";
 
         private String repositoryServiceName = "hydro-serving-repository";
+
+        private String exposedHost;
+
+        private int exposedPort;
     }
 }

@@ -15,7 +15,9 @@ public class Runtime {
 
     private int scale;
 
-    private String runtimeType;
+    private RuntimeType runtimeType;
+
+    private String modelType;
 
     private String modelName;
 
@@ -29,7 +31,7 @@ public class Runtime {
 
     private String imageName;
 
-    private int httpPort=8080;
+    private int httpPort = 8080;
 
-    private int appHttpPort=9090;
+    private int appHttpPort = 9090;
 }

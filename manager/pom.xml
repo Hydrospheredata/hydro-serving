@@ -56,10 +56,11 @@
                                 <from>hydro-serving/java-docker:${project.version}</from>
                                 <env>
                                     <SERVICE_TYPE>manager</SERVICE_TYPE>
-                                    <MANAGER_EXTERNAL>localhost</MANAGER_EXTERNAL>
+                                    <MANAGER_EXPOSED_HOST>localhost</MANAGER_EXPOSED_HOST>
+                                    <MANAGER_EXPOSED_PORT>8080</MANAGER_EXPOSED_PORT>
                                 </env>
                                 <labels>
-                                    <serviceType>manager</serviceType>
+                                    <runtimeType>manager</runtimeType>
                                     <version>${project.version}</version>
                                     <artifactId>${project.artifactId}</artifactId>
                                 </labels>

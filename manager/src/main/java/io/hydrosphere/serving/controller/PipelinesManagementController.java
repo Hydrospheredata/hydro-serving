@@ -3,6 +3,8 @@ package io.hydrosphere.serving.controller;
 import io.hydrosphere.serving.service.Pipeline;
 import io.hydrosphere.serving.service.PipelineService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -10,7 +12,7 @@ import java.util.List;
 /**
  *
  */
-@RestController
+@Controller
 @RequestMapping("/api/v1/pipelines")
 public class PipelinesManagementController {
 
@@ -18,6 +20,7 @@ public class PipelinesManagementController {
     private PipelineService pipelineService;
 
     @RequestMapping(method = RequestMethod.POST)
+    @ResponseStatus(HttpStatus.CREATED)
     public void create(@RequestBody Pipeline pipeline) {
         pipelineService.create(pipeline);
     }
@@ -33,11 +36,13 @@ public class PipelinesManagementController {
     }
 
     @RequestMapping(path = "/{pipelineName}", method = RequestMethod.GET)
+    @ResponseBody
     public Pipeline get(@PathVariable String pipelineName) {
         return pipelineService.getPipeline(pipelineName).orElseThrow(IllegalArgumentException::new);
     }
 
     @RequestMapping(method = RequestMethod.GET)
+    @ResponseBody
     public List<Pipeline> list() {
         return pipelineService.pipelines();
     }

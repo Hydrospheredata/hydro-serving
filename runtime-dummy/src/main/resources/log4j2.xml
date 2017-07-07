@@ -10,7 +10,7 @@
         <Root level="INFO">
             <AppenderRef ref="Console"/>
         </Root>
-        <Logger name="io.hydrosphere" level="INFO" additive="false">
+        <Logger name="io.hydrosphere" level="INFO" additivity="false">
             <AppenderRef ref="Console"/>
         </Logger>
     </Loggers>
