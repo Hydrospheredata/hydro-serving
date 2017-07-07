@@ -1,7 +1,11 @@
 package io.prototypes.ml_repository
 
+import java.nio.file.Path
+
 import akka.actor.ActorRef
-import io.prototypes.ml_repository.source.{LocalSource, ModelSource}
+import io.prototypes.ml_repository.datasource.local.LocalSource
+import io.prototypes.ml_repository.ml.Model
+import io.prototypes.ml_repository.repository.IndexEntry
 /**
   * Created by Bulat on 31.05.2017.
   */
@@ -10,15 +14,24 @@ object Messages {
     case object GetIndex
     case class GetModelIndexEntry(name: String)
     case class GetModelFiles(name: String)
-    case class RetrieveModelFiles(indexEntry: IndexEntry)
-    case class GetModelDirectory(name: String)
+    case class GetFile(modelName: String, filePath: String)
   }
 
   object Watcher {
-    case class Register(source: ModelSource)
-    case object GetModels
-    case object LookForChanges
-    case class IndexedModels(models: Seq[IndexEntry])
-    case class GetModelDirectory(indexEntry: IndexEntry)
+    case class Subscribe(actorRef: ActorRef)
+    case object Tick
+    case object ChangeDetected
   }
+
+  object Indexer {
+    case object Index
+    case class IndexedModels(models: Seq[IndexEntry])
+  }
+
+  object FileFetcher {
+
+    case class GetFile(index: IndexEntry, filePath: Path)
+
+  }
+
 }

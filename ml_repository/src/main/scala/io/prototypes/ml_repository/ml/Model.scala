@@ -1,6 +1,6 @@
-package io.prototypes.ml_repository
+package io.prototypes.ml_repository.ml
 
-import spray.json.DefaultJsonProtocol
+import spray.json.{DefaultJsonProtocol, RootJsonFormat}
 
 /**
   * Created by Bulat on 26.05.2017.
@@ -14,5 +14,5 @@ case class Model(
 
 
 object Model extends DefaultJsonProtocol{
-  implicit val modelFormat = jsonFormat4(Model.apply)
+  implicit val modelFormat: RootJsonFormat[Model] = jsonFormat4(Model.apply)
 }

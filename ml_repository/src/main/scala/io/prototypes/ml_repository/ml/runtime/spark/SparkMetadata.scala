@@ -1,4 +1,4 @@
-package io.prototypes.ml_repository.runtime.spark
+package io.prototypes.ml_repository.ml.runtime.spark
 
 /**
   * Created by Bulat on 31.05.2017.
@@ -18,7 +18,7 @@ object SparkMetadata {
   import io.prototypes.ml_repository.utils.MapAnyJson._
   import spray.json._
 
-  implicit val sparkMetadataFormat = jsonFormat8(SparkMetadata.apply)
+  implicit val sparkMetadataFormat: RootJsonFormat[SparkMetadata] = jsonFormat8(SparkMetadata.apply)
 
   def fromJson(json: String): SparkMetadata = {
     json.parseJson.convertTo[SparkMetadata]
