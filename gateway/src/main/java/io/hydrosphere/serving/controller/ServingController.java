@@ -1,7 +1,6 @@
 package io.hydrosphere.serving.controller;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import io.hydrosphere.serving.service.EndpointDefinition;
 import io.hydrosphere.serving.service.GatewayPipelineService;
 import io.hydrosphere.serving.service.HTTPGatewayServiceImpl;
 import io.hydrosphere.serving.service.Pipeline;
