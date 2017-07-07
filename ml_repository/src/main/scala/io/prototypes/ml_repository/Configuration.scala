@@ -3,7 +3,7 @@ package io.prototypes.ml_repository
 import java.io.File
 
 import com.typesafe.config.{ConfigFactory, ConfigValue}
-import io.prototypes.ml_repository.source.ModelSource
+import io.prototypes.ml_repository.datasource.DataSource
 
 import collection.JavaConverters._
 /**
@@ -18,9 +18,9 @@ object Configuration {
     val port: Int = config.getInt("repository.web.port")
   }
 
-  val dataSources: Map[String, ModelSource] =
+  val dataSources: Map[String, DataSource] =
     config.getConfig("repository.datasources").root().entrySet().asScala.map{ kv =>
       val value = kv.getValue.unwrapped().asInstanceOf[java.util.HashMap[String, String]].asScala.toMap
-      kv.getKey -> ModelSource.fromMap(value)
+      kv.getKey -> DataSource.fromMap(value)
     }.toMap
 }

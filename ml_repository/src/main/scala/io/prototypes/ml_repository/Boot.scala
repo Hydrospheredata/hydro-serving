@@ -1,30 +1,29 @@
-package io.prototypes.ml_repository.master
+package io.prototypes.ml_repository
 
-import akka.actor.{ActorRef, ActorSystem}
-import akka.pattern._
+import java.io.File
+import java.nio.file._
+
+import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport._
+import akka.http.scaladsl.model._
 import akka.http.scaladsl.server.Directives.{path, _}
+import akka.http.scaladsl.server.Route
+import akka.http.scaladsl.server.directives.BasicDirectives.extractUnmatchedPath
+import akka.pattern._
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
-import akka.event.Logging
-import akka.http.scaladsl.server.Route
 import ch.megard.akka.http.cors.CorsDirectives._
 import ch.megard.akka.http.cors.CorsSettings
-import io.prototypes.ml_repository.source.LocalSource
-import io.prototypes.ml_repository.watcher.{LocalSourceWatcher, SourceWatcher}
-import io.prototypes.ml_repository._
-
-import scala.concurrent.duration._
-import java.nio.file._
-import java.io._
-import java.net.URI
-
+import io.prototypes.ml_repository.ml.Model
+import io.prototypes.ml_repository.repository.{IndexEntry, IndexerActor, RepositoryActor}
+import org.apache.logging.log4j.scala.Logging
+import spray.json.DefaultJsonProtocol._
 import spray.json._
 import DefaultJsonProtocol._
-import org.apache.logging.log4j.scala.Logging
 
-import scala.collection.mutable
+import scala.concurrent.Future
+import scala.concurrent.duration._
 
 /**
   * Created by Bulat on 26.05.2017.
@@ -35,7 +34,6 @@ object Boot extends App with Logging {
   implicit val materializer = ActorMaterializer()
   implicit val ex = system.dispatcher
   implicit val timeout = Timeout(10.seconds)
-  private val watchers = mutable.Buffer.empty[ActorRef]
 
   logger.info(s"Repository is running @ ${Configuration.Web.address}:${Configuration.Web.port}...")
 
@@ -44,11 +42,7 @@ object Boot extends App with Logging {
   Configuration.dataSources.foreach {
     case (name, source) =>
       logger.info(s"DataSource detected: $name")
-      val watcher = source match {
-        case s: LocalSource => system.actorOf(LocalSourceWatcher.props(s), s"LocalWatcher@$name")
-        case _ => throw new IllegalArgumentException("Unknown watcher")
-      }
-      watchers += watcher
+      system.actorOf(IndexerActor.props(source), s"Indexer@$name")
   }
 
   val corsSettings: CorsSettings.Default = CorsSettings.defaultSettings
@@ -67,22 +61,35 @@ object Boot extends App with Logging {
         }
       } ~ path("files" / Segment) { modelName =>
         val mFuture = repositoryActor ? Messages.RepositoryActor.GetModelFiles(modelName)
-        onSuccess(mFuture.mapTo[Option[List[URI]]]) { fRes =>
-          complete {
-            fRes.map(_.map(_.toString))
+        onSuccess(mFuture.mapTo[Option[List[String]]]) { fRes =>
+          rejectEmptyResponse {
+            complete {
+              fRes
+            }
           }
         }
       } ~ path("metadata" / Segment) { modelName =>
         val mFuture = repositoryActor ? Messages.RepositoryActor.GetModelIndexEntry(modelName)
         onSuccess(mFuture.mapTo[Option[IndexEntry]]) { fRes =>
-          complete {
-            fRes.map(_.model)
+          rejectEmptyResponse {
+            complete {
+              fRes.map(_.model)
+            }
           }
         }
       } ~ pathPrefix("download" / Segment) { modelName =>
-        val mFuture = repositoryActor ? Messages.RepositoryActor.GetModelDirectory(modelName)
-        onSuccess(mFuture.mapTo[Path]) { fRes =>
-          getFromDirectory(fRes.toString)
+        extractUnmatchedPath { path =>
+          val pathInput = if (path.startsWithSlash) {
+            path.dropChars(1)
+          } else path
+          val mFuture = repositoryActor ? Messages.RepositoryActor.GetFile(modelName, pathInput.toString())
+          onSuccess(mFuture.mapTo[Option[File]]) {
+            case Some(file) =>
+              getFromFile(file)
+            case None => complete {
+              HttpResponse(StatusCodes.NotFound)
+            }
+          }
         }
       }
     }

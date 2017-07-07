@@ -31,6 +31,7 @@ lazy val logDependencies = Seq(
 libraryDependencies ++= akkaDependencies
 libraryDependencies ++= hdfsDependencies
 libraryDependencies ++= logDependencies
+libraryDependencies += "com.github.seratch" %% "awscala" % "0.6.+"
 
 assemblyMergeStrategy in assembly := {
   case m if m.toLowerCase.endsWith("manifest.mf") => MergeStrategy.discard
