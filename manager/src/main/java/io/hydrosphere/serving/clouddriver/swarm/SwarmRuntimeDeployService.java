@@ -5,6 +5,7 @@ import com.spotify.docker.client.messages.swarm.*;
 import io.hydrosphere.serving.service.runtime.Runtime;
 import io.hydrosphere.serving.service.runtime.RuntimeDeployService;
 import io.hydrosphere.serving.service.runtime.RuntimeInstance;
+import io.hydrosphere.serving.service.runtime.RuntimeType;
 import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 
@@ -21,6 +22,7 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
 
     public static final String LABEL_RUNTIME_TYPE = "runtimeType";
     public static final String LABEL_MODEL_NAME = "modelName";
+    public static final String LABEL_MODEL_TYPE = "modelType";
     public static final String LABEL_MODEL_VERSION = "modelVersion";
     public static final String LABEL_HYDRO_SERVING_TYPE = "hydroServing";
     private static final String RUNTIME_TYPE = "runtime";
@@ -40,26 +42,30 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
     @Override
     public String deploy(Runtime runtime) {
         Map<String, String> labels = new HashMap<>();
+        Map<String, String> envs = new HashMap<>();
         List<String> env = new ArrayList<>();
-        if (!CollectionUtils.isEmpty(runtime.getEnvironments())) {
-            runtime.getEnvironments().entrySet().forEach((e) -> env.add(e.getKey() + "=" + e.getValue()));
 
-            if (runtime.getEnvironments().containsKey(ENV_HEADER_ENVOY_HTTP_PORT)) {
-                labels.put(LABEL_HTTP_PORT, runtime.getEnvironments().get(ENV_HEADER_ENVOY_HTTP_PORT));
-            } else {
-                labels.put(LABEL_HTTP_PORT, String.valueOf(runtime.getHttpPort()));
-            }
+        if (!CollectionUtils.isEmpty(runtime.getEnvironments())) {
+            envs.putAll(runtime.getEnvironments());
+        }
+        envs.put("SERVICE_TYPE", RUNTIME_TYPE);
+        envs.entrySet().forEach((e) -> env.add(e.getKey() + "=" + e.getValue()));
+
+        if (envs.containsKey(ENV_HEADER_ENVOY_HTTP_PORT)) {
+            labels.put(LABEL_HTTP_PORT, runtime.getEnvironments().get(ENV_HEADER_ENVOY_HTTP_PORT));
         } else {
             labels.put(LABEL_HTTP_PORT, String.valueOf(runtime.getHttpPort()));
         }
 
-        env.add("SERVICE_TYPE=" + RUNTIME_TYPE);
 
         labels.put(LABEL_HYDRO_SERVING_TYPE, RUNTIME_TYPE);
-        labels.put(LABEL_RUNTIME_TYPE, runtime.getRuntimeType());
+        labels.put(LABEL_RUNTIME_TYPE, runtime.getRuntimeType().name());
+        labels.put(LABEL_MODEL_TYPE, runtime.getModelType());
         labels.put(LABEL_MODEL_NAME, runtime.getModelName());
         labels.put(LABEL_MODEL_VERSION, runtime.getModelVersion());
         labels.put(LABEL_APP_HTTP_PORT, String.valueOf(runtime.getAppHttpPort()));
+        envs.entrySet().forEach((e) -> labels.put("ENV_" + e.getKey(), e.getValue()));
+
 
         ServiceSpec.Builder builder = ServiceSpec.builder()
                 .name(runtime.getName())
@@ -194,7 +200,7 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
         if (s.taskTemplate().containerSpec().env() != null) {
             Map<String, String> map = s.taskTemplate().containerSpec().env().stream()
                     .map(en -> en.split(":"))
-                    .filter(arr -> arr.length > 0 && arr[0] != null && arr[1] != null)
+                    .filter(arr -> arr.length > 1 && arr[0] != null && arr[1] != null)
                     .collect(Collectors.toMap(arr -> arr[0], arr -> arr[1]));
             runtime.setEnvironments(map);
         } else {
@@ -205,10 +211,17 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
         if (map != null) {
             runtime.setModelName(map.get(LABEL_MODEL_NAME));
             runtime.setModelVersion(map.get(LABEL_MODEL_VERSION));
-            runtime.setRuntimeType(map.get(LABEL_RUNTIME_TYPE));
+            runtime.setModelType(map.get(LABEL_MODEL_TYPE));
+            runtime.setRuntimeType(RuntimeType.valueOf(map.get(LABEL_RUNTIME_TYPE)));
             runtime.setHttpPort(Integer.valueOf(map.get(LABEL_HTTP_PORT)));
             runtime.setAppHttpPort(Integer.valueOf(map.get(LABEL_APP_HTTP_PORT)));
         }
+
+        Map<String, String> envs = new HashMap<>();
+        map.entrySet().stream()
+                .filter(e -> e.getKey().startsWith("ENV_"))
+                .forEach(e -> envs.put(e.getKey().substring("ENV_".length()), e.getValue()));
+        runtime.setEnvironments(envs);
 
         UpdateStatus updateStatus = service.updateStatus();
         if (updateStatus != null) {

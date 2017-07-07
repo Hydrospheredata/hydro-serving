@@ -69,6 +69,7 @@ public class CachedMeshManagementServiceImpl implements MeshManagementService {
 
                 List<RuntimeInstance> instances = runtimeInstancesByServiceName.getOrDefault(runtime.getName(), new ArrayList<>());
                 instances.add(p);
+                runtimeInstancesByServiceName.put(runtime.getName(), instances);
             }
         });
         this.runtimeInstanceMap = runtimeInstance;

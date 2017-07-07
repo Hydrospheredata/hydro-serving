@@ -8,5 +8,5 @@ exec java $JAVA_OPTS -jar /hydro-serving/app/gateway.jar \
     --sideCar.host=localhost \
     --sideCar.port=$ENVOY_HTTP_PORT \
     --sideCar.serviceId=$SERVICE_ID \
-    --sideCar.managerHost=$MANAGER_HOST \
-    --sideCar.managerPort=$MANAGER_PORT
+    --gateway.managerHost=$MANAGER_HOST \
+    --gateway.managerPort=$MANAGER_PORT

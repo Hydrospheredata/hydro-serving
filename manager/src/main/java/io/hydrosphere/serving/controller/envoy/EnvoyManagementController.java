@@ -1,24 +1,25 @@
 package io.hydrosphere.serving.controller.envoy;
 
+import io.hydrosphere.serving.config.ManagerConfig;
 import io.hydrosphere.serving.service.runtime.MeshManagementService;
 import io.hydrosphere.serving.service.runtime.Runtime;
 import io.hydrosphere.serving.service.runtime.RuntimeInstance;
-import io.hydrosphere.serving.config.ManagerConfig;
 import io.hydrosphere.serving.service.runtime.RuntimeType;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.*;
 
 /**
  *
  */
-@RestController
+@Controller
 @RequestMapping("/v1")
 public class EnvoyManagementController {
 
@@ -32,6 +33,7 @@ public class EnvoyManagementController {
 
     //TODO reduce clusters based on pipelines configuration
     @RequestMapping(value = "/clusters/{cluster}/{node}", method = RequestMethod.GET)
+    @ResponseBody
     public ClusterConfigTO clusters(@PathVariable RuntimeType cluster,
                                     @PathVariable String node) {
         List<ClusterTO> clusters = managerClusters(node);
@@ -103,6 +105,7 @@ public class EnvoyManagementController {
 
     //TODO reduce routes based on pipelines configuration
     @RequestMapping(value = "/routes/{configName}/{cluster}/{node}", method = RequestMethod.GET)
+    @ResponseBody
     public RouteConfig routes(@PathVariable String configName,
                               @PathVariable RuntimeType cluster,
                               @PathVariable String node) {
@@ -138,6 +141,7 @@ public class EnvoyManagementController {
     }
 
     @RequestMapping(value = "/registration/{serviceName}", method = RequestMethod.GET)
+    @ResponseBody
     public ServiceConfigTO services(@PathVariable String serviceName) {
         List<ServiceHostTO> hosts = new ArrayList<>();
         meshManagementService.getRuntimeInstancesByServiceName(serviceName)
