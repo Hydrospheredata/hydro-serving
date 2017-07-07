@@ -1,10 +1,10 @@
 package io.hydrosphere.serving.controller.envoy;
 
-import io.hydrosphere.serving.clouddriver.MeshManagementService;
-import io.hydrosphere.serving.clouddriver.Runtime;
-import io.hydrosphere.serving.clouddriver.RuntimeInstance;
+import io.hydrosphere.serving.service.runtime.MeshManagementService;
+import io.hydrosphere.serving.service.runtime.Runtime;
+import io.hydrosphere.serving.service.runtime.RuntimeInstance;
 import io.hydrosphere.serving.config.ManagerConfig;
-import io.hydrosphere.serving.service.ServiceType;
+import io.hydrosphere.serving.service.runtime.RuntimeType;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +32,7 @@ public class EnvoyManagementController {
 
     //TODO reduce clusters based on pipelines configuration
     @RequestMapping(value = "/clusters/{cluster}/{node}", method = RequestMethod.GET)
-    public ClusterConfigTO clusters(@PathVariable ServiceType cluster,
+    public ClusterConfigTO clusters(@PathVariable RuntimeType cluster,
                                     @PathVariable String node) {
         List<ClusterTO> clusters = managerClusters(node);
         LOGGER.trace("clusters: {}", clusters);
@@ -104,7 +104,7 @@ public class EnvoyManagementController {
     //TODO reduce routes based on pipelines configuration
     @RequestMapping(value = "/routes/{configName}/{cluster}/{node}", method = RequestMethod.GET)
     public RouteConfig routes(@PathVariable String configName,
-                              @PathVariable ServiceType cluster,
+                              @PathVariable RuntimeType cluster,
                               @PathVariable String node) {
         Optional<RuntimeInstance> runtimeInstance = meshManagementService.getRuntimeInstance(node);
         if (!runtimeInstance.isPresent()) {

@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>repository</module>
-        <module>serving-java-spring</module>
+        <module>runtime-dummy</module>
         <module>gateway</module>
         <module>manager</module>
         <module>sidecar-package</module>

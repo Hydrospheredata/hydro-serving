@@ -2,17 +2,17 @@ package io.hydrosphere.serving.clouddriver.swarm;
 
 import com.spotify.docker.client.DockerClient;
 import com.spotify.docker.client.messages.swarm.*;
-import io.hydrosphere.serving.clouddriver.Runtime;
-import io.hydrosphere.serving.clouddriver.RuntimeDeployService;
-import io.hydrosphere.serving.clouddriver.RuntimeInstance;
+import io.hydrosphere.serving.service.runtime.Runtime;
+import io.hydrosphere.serving.service.runtime.RuntimeDeployService;
+import io.hydrosphere.serving.service.runtime.RuntimeInstance;
 import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static io.hydrosphere.serving.clouddriver.RuntimeInstance.RuntimeInstanceStatus.DOWN;
-import static io.hydrosphere.serving.clouddriver.RuntimeInstance.RuntimeInstanceStatus.UP;
+import static io.hydrosphere.serving.service.runtime.RuntimeInstance.RuntimeInstanceStatus.DOWN;
+import static io.hydrosphere.serving.service.runtime.RuntimeInstance.RuntimeInstanceStatus.UP;
 
 /**
  *
@@ -155,6 +155,15 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
     public List<RuntimeInstance> runtimeInstances(String runtimeName) {
         return instances(Task.Criteria.builder()
                 .serviceName(runtimeName).build());
+    }
+
+    @Override
+    public void deleteRuntime(String runtimeId) {
+        try {
+            dockerClient.removeService(runtimeId);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @Override
