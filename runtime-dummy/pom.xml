@@ -45,10 +45,10 @@
                                 <optimise>true</optimise>
                                 <from>hydro-serving/java-docker:${project.version}</from>
                                 <env>
-                                    <SERVICE_TYPE>runtime</SERVICE_TYPE>
+                                    <RUNTIME_TYPE>runtime</RUNTIME_TYPE>
                                 </env>
                                 <labels>
-                                    <serviceType>runtime</serviceType>
+                                    <runtimeType>runtime</runtimeType>
                                     <version>${project.version}</version>
                                     <artifactId>${project.artifactId}</artifactId>
                                 </labels>

@@ -56,7 +56,7 @@
                                     <MANAGER_HOST>localhost</MANAGER_HOST>
                                     <MANAGER_PORT>9090</MANAGER_PORT>
 
-                                    <SERVICE_TYPE>dummy</SERVICE_TYPE>
+                                    <RUNTIME_TYPE>dummy</RUNTIME_TYPE>
                                     <SERVICE_NAME>dummy</SERVICE_NAME>
                                     <SERVICE_VERSION>dummy</SERVICE_VERSION>
 

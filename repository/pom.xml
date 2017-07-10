@@ -117,27 +117,28 @@
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-assembly-plugin</artifactId>
-                <configuration>
-                    <descriptorRefs>
-                        <descriptorRef>jar-with-dependencies</descriptorRef>
-                    </descriptorRefs>
-                    <archive>
-                        <manifest>
-                            <mainClass>io.hydrosphere.serving.repository.master.Boot</mainClass>
-                        </manifest>
-                    </archive>
-                </configuration>
+                <artifactId>maven-shade-plugin</artifactId>
                 <executions>
                     <execution>
                         <phase>package</phase>
                         <goals>
-                            <goal>single</goal>
+                            <goal>shade</goal>
                         </goals>
+                        <configuration>
+                            <transformers>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+                                    <resource>reference.conf</resource>
+                                </transformer>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <manifestEntries>
+                                        <Main-Class>io.hydrosphere.serving.repository.master.Boot</Main-Class>
+                                    </manifestEntries>
+                                </transformer>
+                            </transformers>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
-
 
             <plugin>
                 <groupId>io.fabric8</groupId>
@@ -152,10 +153,10 @@
                                 <optimise>true</optimise>
                                 <from>hydro-serving/java-docker:${project.version}</from>
                                 <env>
-                                    <SERVICE_TYPE>repository</SERVICE_TYPE>
+                                    <RUNTIME_TYPE>repository</RUNTIME_TYPE>
                                 </env>
                                 <labels>
-                                    <serviceType>repository</serviceType>
+                                    <runtimeType>repository</runtimeType>
                                     <version>${project.version}</version>
                                     <artifactId>${project.artifactId}</artifactId>
                                 </labels>
@@ -163,7 +164,7 @@
                                     <inline>
                                         <files>
                                             <file>
-                                                <source>target/${project.artifactId}-${project.version}-jar-with-dependencies.jar</source>
+                                                <source>target/${project.artifactId}-${project.version}.jar</source>
                                                 <outputDirectory>/hydro-serving/app</outputDirectory>
                                                 <destName>${project.artifactId}.jar</destName>
                                                 <filtered>false</filtered>

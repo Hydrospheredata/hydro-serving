@@ -55,9 +55,14 @@
                                 <optimise>true</optimise>
                                 <from>hydro-serving/java-docker:${project.version}</from>
                                 <env>
-                                    <SERVICE_TYPE>manager</SERVICE_TYPE>
+                                    <RUNTIME_TYPE>manager</RUNTIME_TYPE>
                                     <MANAGER_EXPOSED_HOST>localhost</MANAGER_EXPOSED_HOST>
                                     <MANAGER_EXPOSED_PORT>8080</MANAGER_EXPOSED_PORT>
+                                    <SWARM_NETWORK_NAME>bridge</SWARM_NETWORK_NAME>
+
+                                    <MANAGER_SERVICE_NAME>hydro-serving-manager</MANAGER_SERVICE_NAME>
+                                    <GATEWAY_SERVICE_NAME>hydro-serving-gateway</GATEWAY_SERVICE_NAME>
+                                    <REPOSITORY_SERVICE_NAME>hydro-serving-repository</REPOSITORY_SERVICE_NAME>
                                 </env>
                                 <labels>
                                     <runtimeType>manager</runtimeType>
