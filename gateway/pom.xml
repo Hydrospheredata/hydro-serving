@@ -43,7 +43,7 @@
                                 <optimise>true</optimise>
                                 <from>hydro-serving/java-docker:${project.version}</from>
                                 <env>
-                                    <SERVICE_TYPE>gateway</SERVICE_TYPE>
+                                    <RUNTIME_TYPE>gateway</RUNTIME_TYPE>
                                 </env>
                                 <labels>
                                     <serviceType>gateway</serviceType>

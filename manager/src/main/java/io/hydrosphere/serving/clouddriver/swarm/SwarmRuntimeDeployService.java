@@ -6,6 +6,8 @@ import io.hydrosphere.serving.service.runtime.Runtime;
 import io.hydrosphere.serving.service.runtime.RuntimeDeployService;
 import io.hydrosphere.serving.service.runtime.RuntimeInstance;
 import io.hydrosphere.serving.service.runtime.RuntimeType;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 
@@ -19,6 +21,8 @@ import static io.hydrosphere.serving.service.runtime.RuntimeInstance.RuntimeInst
  *
  */
 public class SwarmRuntimeDeployService implements RuntimeDeployService {
+
+    private static final Logger LOGGER = LogManager.getLogger();
 
     public static final String LABEL_RUNTIME_TYPE = "runtimeType";
     public static final String LABEL_MODEL_NAME = "modelName";
@@ -184,7 +188,13 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
             dockerClient.listServices(Service.Criteria.builder()
                     //.addLabel(LABEL_HYDRO_SERVING_TYPE, RUNTIME_TYPE)
                     .build()
-            ).forEach(s -> runtimeList.add(map(s)));
+            ).forEach(s -> {
+                try {
+                    runtimeList.add(map(s));
+                } catch (Exception e) {
+                    LOGGER.error(e.getMessage(), e);
+                }
+            });
             return runtimeList;
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -212,9 +222,13 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
             runtime.setModelName(map.get(LABEL_MODEL_NAME));
             runtime.setModelVersion(map.get(LABEL_MODEL_VERSION));
             runtime.setModelType(map.get(LABEL_MODEL_TYPE));
-            runtime.setRuntimeType(RuntimeType.valueOf(map.get(LABEL_RUNTIME_TYPE)));
-            runtime.setHttpPort(Integer.valueOf(map.get(LABEL_HTTP_PORT)));
-            runtime.setAppHttpPort(Integer.valueOf(map.get(LABEL_APP_HTTP_PORT)));
+
+            String val = map.get(LABEL_RUNTIME_TYPE);
+            if (val != null) runtime.setRuntimeType(RuntimeType.valueOf(val));
+            val=map.get(LABEL_HTTP_PORT);
+            if (val != null) runtime.setHttpPort(Integer.valueOf(val));
+            val=map.get(LABEL_APP_HTTP_PORT);
+            if (val != null) runtime.setAppHttpPort(Integer.valueOf(val));
         }
 
         Map<String, String> envs = new HashMap<>();
