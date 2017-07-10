@@ -1,3 +1,6 @@
+import sbt._
+import sbt.Keys._
+
 name := "ml_repository"
 version := "1.0"
 scalaVersion := "2.11.11"
