@@ -2,6 +2,7 @@
 
 #### Manager
 * Pipeline validation: on create, on start
+* Runtime validation: on create, on start
 * shadowing for container/pipeline
 * canary for container/pipeline
 * blue-green for container/pipeline
