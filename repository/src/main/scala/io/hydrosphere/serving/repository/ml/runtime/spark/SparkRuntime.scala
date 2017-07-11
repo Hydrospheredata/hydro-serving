@@ -1,4 +1,4 @@
-package io.prototypes.ml_repository.ml.runtime.spark
+package io.hydrosphere.serving.repository.ml.runtime.spark
 
 import java.io.FileNotFoundException
 import java.nio.file.Files
@@ -11,7 +11,7 @@ import scala.collection.JavaConversions._
 /**
   * Created by Bulat on 31.05.2017.
   */
-class SparkRuntime(val source: DataSource) extends Runtime with Logging {
+class SparkRuntime(source: DataSource) extends Runtime with Logging {
   private[this] val inputCols = Array("inputCol", "featuresCol")
   private[this] val outputCols = Array("outputCol", "predictionCol", "probabilityCol", "rawPredictionCol")
   private[this] val labelCols = Array("labelCol")
@@ -87,7 +87,3 @@ class SparkRuntime(val source: DataSource) extends Runtime with Logging {
     models.map(getModel).filter(_.isDefined).map(_.get)
   }
 }
-
-
-
-

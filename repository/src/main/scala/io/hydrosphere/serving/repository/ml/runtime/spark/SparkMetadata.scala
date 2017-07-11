@@ -1,4 +1,4 @@
-package io.prototypes.ml_repository.ml.runtime.spark
+package io.hydrosphere.serving.repository.ml.runtime.spark
 
 /**
   * Created by Bulat on 31.05.2017.

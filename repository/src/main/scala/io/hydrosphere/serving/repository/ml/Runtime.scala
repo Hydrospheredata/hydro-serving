@@ -2,7 +2,7 @@ package io.hydrosphere.serving.repository.ml
 
 import io.hydrosphere.serving.repository.datasource.DataSource
 import io.hydrosphere.serving.repository.ml.runtime.scikit.ScikitRuntime
-import io.prototypes.ml_repository.ml.runtime.spark.SparkRuntime
+import io.hydrosphere.serving.repository.ml.runtime.spark.SparkRuntime
 import org.apache.logging.log4j.scala.Logging
 
 /**

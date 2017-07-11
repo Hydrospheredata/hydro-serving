@@ -4,10 +4,10 @@ package io.hydrosphere.serving.repository.ml.runtime.scikit
   * Created by Bulat on 01.06.2017.
   */
 case class ScikitMetadata(
-                         model: String,
-                         inputs: List[String],
-                         outputs: List[String]
-                         )
+  model: String,
+  inputs: List[String],
+  outputs: List[String]
+)
 
 object ScikitMetadata {
   import io.hydrosphere.serving.repository.util.MapAnyJson._

@@ -1,4 +1,4 @@
-package io.prototypes.ml_repository
+package io.hydrosphere.serving.repository
 
 import java.io.File
 
@@ -33,11 +33,13 @@ object Boot extends App with Logging {
   implicit val ex = system.dispatcher
   implicit val timeout = Timeout(10.seconds)
 
-  logger.info(s"Repository is running @ ${Configuration.Web.address}:${Configuration.Web.port}...")
+  val config = Configuration()
+
+  logger.info(s"Repository is running @ ${config.address}:${config.port}...")
 
   val repositoryActor = system.actorOf(RepositoryActor.props, "Repository")
 
-  Configuration.dataSources.foreach {
+  config.dataSources.foreach {
     case (name, source) =>
       logger.info(s"DataSource detected: $name")
       system.actorOf(IndexerActor.props(source), s"Indexer@$name")
@@ -92,5 +94,5 @@ object Boot extends App with Logging {
       }
     }
   }
-  Http().bindAndHandle(routes, Configuration.Web.address, Configuration.Web.port)
+  Http().bindAndHandle(routes, config.address, config.port)
 }
