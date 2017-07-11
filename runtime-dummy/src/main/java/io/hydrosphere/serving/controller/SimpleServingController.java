@@ -12,6 +12,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.util.Arrays;
+
 /**
  *
  */
@@ -20,11 +24,21 @@ import org.springframework.web.bind.annotation.RestController;
 public class SimpleServingController {
     private static final Logger LOGGER = LogManager.getLogger();
 
+    private final static String[] HEADERS = {
+            "X-Ot-Span-Context",
+            "X-Request-Id",
+            "X-B3-TraceId",
+            "X-B3-SpanId",
+            "X-B3-ParentSpanId",
+            "X-B3-Sampled",
+            "X-B3-Flags"
+    };
+
     @Autowired
     private SideCarConfig.SideCarConfigurationProperties configurationProperties;
 
     @RequestMapping(method = RequestMethod.POST)
-    public JsonNode serve(@RequestBody JsonNode input) {
+    public JsonNode serve(@RequestBody JsonNode input, HttpServletRequest httpRequest, HttpServletResponse httpResponse) {
         LOGGER.info("Request: {}", input);
         JsonNode jsonNode = input.deepCopy();
         ArrayNode arrayNode = (ArrayNode) jsonNode;
@@ -35,6 +49,10 @@ public class SimpleServingController {
             }
         }
         LOGGER.info("Response: {}", arrayNode);
+
+        Arrays.stream(HEADERS)
+                .filter(s -> httpRequest.getHeaders(s) != null && httpRequest.getHeaders(s).hasMoreElements())
+                .forEach(s -> httpResponse.addHeader(s, httpRequest.getHeaders(s).nextElement()));
         return arrayNode;
     }
 }

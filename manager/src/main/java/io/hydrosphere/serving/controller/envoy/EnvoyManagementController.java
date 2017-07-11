@@ -72,16 +72,17 @@ public class EnvoyManagementController {
             result.add(cluster.build());
         });
 
-
-        Optional<Runtime> gatewayRuntime = meshManagementService.getRuntimeByName(configurationProperties.getGatewayServiceName());
-        gatewayRuntime.ifPresent(r -> meshManagementService.getRuntimeInstancesByServiceName(configurationProperties.getGatewayServiceName())
-                .forEach(p -> result.add(cluster.serviceName(null)
-                        //TODO change in Envoy maximum name length to 64
-                        .name(UUID.nameUUIDFromBytes(p.getId().getBytes()).toString())
-                        .serviceName(null)
-                        .type("static")
-                        .hosts(getStaticHost(r, p, node))
-                        .build())));
+        if (runtime.get().getRuntimeType() == RuntimeType.model) {
+            Optional<Runtime> gatewayRuntime = meshManagementService.getRuntimeByName(configurationProperties.getGatewayServiceName());
+            gatewayRuntime.ifPresent(r -> meshManagementService.getRuntimeInstancesByServiceName(configurationProperties.getGatewayServiceName())
+                    .forEach(p -> result.add(cluster.serviceName(null)
+                            //TODO change in Envoy maximum name length to 64
+                            .name(UUID.nameUUIDFromBytes(p.getId().getBytes()).toString())
+                            .serviceName(null)
+                            .type("static")
+                            .hosts(getStaticHost(r, p, node))
+                            .build())));
+        }
         return result;
     }
 
@@ -126,6 +127,16 @@ public class EnvoyManagementController {
                     routeHost.setDomains(Collections.singletonList(service.getName()));
                     routeHost.setName(service.getName());
                     routeHost.setRoutes(Collections.singletonList(new RouteTO("/", service.getName())));
+                    routeHosts.add(routeHost);
+                });
+
+        meshManagementService.getRuntimeInstancesByServiceName(configurationProperties.getGatewayServiceName())
+                .forEach((service) -> {
+                    RouteHostTO routeHost = new RouteHostTO();
+                    routeHost.setDomains(Collections.singletonList(service.getId()));
+                    routeHost.setName(service.getId());
+                    routeHost.setRoutes(Collections.singletonList(new RouteTO("/",
+                            UUID.nameUUIDFromBytes(service.getId().getBytes()).toString())));
                     routeHosts.add(routeHost);
                 });
 
