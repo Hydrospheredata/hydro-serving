@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.repository.runtime.spark
+package io.prototypes.ml_repository.ml.runtime.spark
 
 /**
   * Created by Bulat on 31.05.2017.
@@ -15,10 +15,10 @@ case class SparkMetadata(
                    )
 
 object SparkMetadata {
-  import io.hydrosphere.serving.repository.utils.MapAnyJson._
+  import io.hydrosphere.serving.repository.util.MapAnyJson._
   import spray.json._
 
-  implicit val sparkMetadataFormat = jsonFormat8(SparkMetadata.apply)
+  implicit val sparkMetadataFormat: RootJsonFormat[SparkMetadata] = jsonFormat8(SparkMetadata.apply)
 
   def fromJson(json: String): SparkMetadata = {
     json.parseJson.convertTo[SparkMetadata]

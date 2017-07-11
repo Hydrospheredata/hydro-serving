@@ -1,34 +1,36 @@
-package io.hydrosphere.serving.repository.runtime.spark
+package io.prototypes.ml_repository.ml.runtime.spark
 
-import java.io.{File, FileNotFoundException}
-import java.nio.file.Paths
+import java.io.FileNotFoundException
+import java.nio.file.Files
 
-import io.hydrosphere.serving.repository.Model
-import io.hydrosphere.serving.repository.runtime.MLRuntime
-import io.hydrosphere.serving.repository.utils.FileUtils._
+import io.hydrosphere.serving.repository.datasource.DataSource
+import io.hydrosphere.serving.repository.ml.{Model, Runtime}
 import org.apache.logging.log4j.scala.Logging
 
-import scala.io.Source
-
+import scala.collection.JavaConversions._
 /**
   * Created by Bulat on 31.05.2017.
   */
-class SparkRuntime(val sparkDir: File) extends MLRuntime with Logging {
-  private def getRuntimeName(sparkMetadata: SparkMetadata): String = {
-    //s"spark-${sparkMetadata.sparkVersion}"
-    "spark"
-  }
-
-  private def getMetadata(directory: File): SparkMetadata = {
-    val metadataPath = Paths.get(directory.getAbsolutePath, "metadata", "part-00000")
-    val metadataSrc = Source.fromFile(metadataPath.toString)
-    val metadataStr = try metadataSrc.getLines mkString "/n" finally metadataSrc.close()
-    SparkMetadata.fromJson(metadataStr)
-  }
-
+class SparkRuntime(val source: DataSource) extends Runtime with Logging {
   private[this] val inputCols = Array("inputCol", "featuresCol")
   private[this] val outputCols = Array("outputCol", "predictionCol", "probabilityCol", "rawPredictionCol")
   private[this] val labelCols = Array("labelCol")
+
+  private def getRuntimeName(sparkMetadata: SparkMetadata): String = {
+    "spark"
+  }
+
+  private def getStageMetadata(model: String, stage: String): SparkMetadata = {
+    val metaFile = source.getReadableFile("spark", model, s"stages/$stage/metadata/part-00000")
+    val metaStr = Files.readAllLines(metaFile.toPath).mkString
+    SparkMetadata.fromJson(metaStr)
+  }
+
+  private def getMetadata(model: String): SparkMetadata = {
+    val metaFile = source.getReadableFile("spark", model, "metadata/part-00000")
+    val metaStr = Files.readAllLines(metaFile.toPath).mkString
+    SparkMetadata.fromJson(metaStr)
+  }
 
   private def getInputCols(stagesMetadata: Seq[SparkMetadata]): List[String] = {
     val inputs = stagesMetadata.flatMap(s => SparkMetadata.extractParams(s, inputCols))
@@ -54,21 +56,20 @@ class SparkRuntime(val sparkDir: File) extends MLRuntime with Logging {
     outputs.diff(inputs).toList
   }
 
-  override def getModel(directory: File): Option[Model] = {
-    if (!directory.exists() || !directory.isDirectory) return None
+  override def getModel(directory: String): Option[Model] = {
     try {
-      logger.debug(s"Directory: ${directory.getAbsolutePath}")
-      val subDirs = directory.getSubDirectories
-
-      val stagesDir = Paths.get(directory.getAbsolutePath, "stages").toFile
+      val fullPath = s"spark/$directory"
+      val stagesDir = s"$fullPath/stages"
 
       val pipelineMetadata = getMetadata(directory)
       logger.debug(s"Pipeline: $pipelineMetadata")
-      val stagesMetadata = stagesDir.getSubDirectories.map(getMetadata)
+      val stagesMetadata = source.getSubDirs(stagesDir).map { stage =>
+        getStageMetadata(directory, stage)
+      }
       logger.debug(s"Stages: $stagesMetadata")
 
       val model = Model(
-        directory.getName,
+        directory,
         getRuntimeName(pipelineMetadata),
         getInputCols(stagesMetadata),
         getOutputCols(stagesMetadata)
@@ -76,13 +77,13 @@ class SparkRuntime(val sparkDir: File) extends MLRuntime with Logging {
       Some(model)
     } catch {
       case e: FileNotFoundException =>
-        logger.warn(s"${directory.getCanonicalPath} in not a valid SparkML model")
+        logger.warn(s"$source $directory in not a valid SparkML model")
         None
     }
   }
 
   def getModels: Seq[Model] = {
-    val models = sparkDir.getSubDirectories
+    val models = source.getSubDirs("spark")
     models.map(getModel).filter(_.isDefined).map(_.get)
   }
 }
