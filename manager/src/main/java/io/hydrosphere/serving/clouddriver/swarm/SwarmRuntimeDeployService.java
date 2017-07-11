@@ -29,7 +29,7 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
     public static final String LABEL_MODEL_TYPE = "modelType";
     public static final String LABEL_MODEL_VERSION = "modelVersion";
     public static final String LABEL_HYDRO_SERVING_TYPE = "hydroServing";
-    private static final String RUNTIME_TYPE = "runtime";
+    private static final String RUNTIME_TYPE = "model";
     private static final String ENV_HEADER_ENVOY_HTTP_PORT = "ENVOY_HTTP_PORT";
     public static final String LABEL_HTTP_PORT = "httpPort";
     public static final String LABEL_APP_HTTP_PORT = "appHttpPort";

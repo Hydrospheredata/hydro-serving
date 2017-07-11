@@ -7,5 +7,5 @@ public enum RuntimeType {
     manager,
     gateway,
     repository,
-    runtime
+    model
 }
