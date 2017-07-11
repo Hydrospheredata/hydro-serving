@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.repository.utils
+package io.hydrosphere.serving.repository.util
 
 import java.io._
 
