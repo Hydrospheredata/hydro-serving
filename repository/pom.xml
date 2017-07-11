@@ -38,6 +38,11 @@
             <artifactId>akka-http-cors_${scalaBinaryVersion}</artifactId>
             <version>0.1.10</version>
         </dependency>
+        <dependency>
+            <groupId>com.github.seratch</groupId>
+            <artifactId>awscala_${scalaBinaryVersion}</artifactId>
+            <version>0.6.0</version>
+        </dependency>
 
         <dependency>
             <groupId>com.typesafe.akka</groupId>
@@ -63,6 +68,8 @@
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-actor_${scalaBinaryVersion}</artifactId>
         </dependency>
+
+
 
 
         <dependency>
