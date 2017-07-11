@@ -16,7 +16,6 @@ services:
     depends_on:
       - zipkin
     labels:
-      - runtimeType=manager
       - httpPort=8080
       - appHttpPort=9090
     environment:
@@ -38,7 +37,6 @@ services:
       - zipkin
       - hydro-serving-manager
     labels:
-      - runtimeType=gateway
       - httpPort=8080
       - appHttpPort=9090
     environment:
@@ -56,7 +54,6 @@ services:
       - zipkin
       - hydro-serving-manager
     labels:
-      - runtimeType=repository
       - httpPort=8080
       - appHttpPort=9090
     environment:
