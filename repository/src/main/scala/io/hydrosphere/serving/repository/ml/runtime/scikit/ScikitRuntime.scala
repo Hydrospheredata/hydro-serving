@@ -6,6 +6,7 @@ import java.nio.file.Files
 import io.hydrosphere.serving.repository.datasource.DataSource
 import io.hydrosphere.serving.repository.ml.{Model, Runtime}
 import org.apache.logging.log4j.scala.Logging
+import spray.json.JsonParser.ParsingException
 
 import scala.collection.JavaConversions._
 
@@ -25,8 +26,11 @@ class ScikitRuntime(val source: DataSource) extends Runtime with Logging {
       val model = Model(directory, "scikit", metadata.inputs, metadata.outputs)
       Some(model)
     } catch {
-      case e: FileNotFoundException =>
-        logger.warn(s"$directory in not a valid SKLearn model")
+      case _: ParsingException =>
+        logger.warn(s"$directory in not a valid SKLearn model. Invalid metadata.")
+        None
+      case _: FileNotFoundException =>
+        logger.warn(s"$directory in not a valid SKLearn model. Metadata not found.")
         None
     }
   }

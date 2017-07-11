@@ -5,14 +5,7 @@ name := "repository"
 version := "1.0"
 scalaVersion := "2.11.11"
 
-lazy val hdfsDependencies = {
-  val hadoopV = "2.8.0"
-  Seq(
-    "org.apache.hadoop" % "hadoop-client" % hadoopV,
-    "org.apache.hadoop" % "hadoop-hdfs" % hadoopV
-  )
-}
-lazy val akkaDependencies = {
+libraryDependencies ++= {
   val akkaV = "2.4.14"
   val akkaHttpV = "10.0.0"
   Seq(
@@ -21,19 +14,34 @@ lazy val akkaDependencies = {
     "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpV,
     "com.typesafe.akka" %% "akka-http-jackson" % akkaHttpV,
     "com.typesafe.akka" %% "akka-http-xml" % akkaHttpV,
+
     "com.typesafe.akka" %% "akka-actor" % akkaV,
+    "com.typesafe.akka" %% "akka-testkit" % akkaV % Test,
     "ch.megard" %% "akka-http-cors" % "0.1.10"
   )
 }
-lazy val logDependencies = Seq(
-  "org.apache.logging.log4j" % "log4j-api" % "2.8.2",
-  "org.apache.logging.log4j" % "log4j-core" % "2.8.2",
-  "org.apache.logging.log4j" %% "log4j-api-scala" % "2.8.2"
-)
-
-libraryDependencies ++= akkaDependencies
-libraryDependencies ++= hdfsDependencies
-libraryDependencies ++= logDependencies
+libraryDependencies ++= {
+  val hadoopV = "2.8.0"
+  Seq(
+    "org.apache.hadoop" % "hadoop-client" % hadoopV,
+    "org.apache.hadoop" % "hadoop-hdfs" % hadoopV
+  )
+}
+libraryDependencies ++= {
+  val loggingVersion = "2.8.2"
+  Seq(
+    "org.apache.logging.log4j" % "log4j-api" % loggingVersion,
+    "org.apache.logging.log4j" % "log4j-core" % loggingVersion,
+    "org.apache.logging.log4j" %% "log4j-api-scala" % loggingVersion
+  )
+}
+libraryDependencies ++= {
+  val scalaTestVersion = "3.0.1"
+  Seq(
+    "org.scalactic" %% "scalactic" % scalaTestVersion,
+    "org.scalatest" %% "scalatest" % scalaTestVersion % "test"
+  )
+}
 libraryDependencies += "com.github.seratch" %% "awscala" % "0.6.+"
 
 assemblyMergeStrategy in assembly := {
