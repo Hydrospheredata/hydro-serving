@@ -33,6 +33,7 @@ services:
     image: hydro-serving/gateway:1.0-SNAPSHOT
     ports:
       - "8081:8080"
+      - "8083:8082"
     depends_on:
       - zipkin
       - hydro-serving-manager
