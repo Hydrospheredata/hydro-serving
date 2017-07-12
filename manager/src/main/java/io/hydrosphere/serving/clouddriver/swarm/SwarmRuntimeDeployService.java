@@ -144,9 +144,11 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
                     return;
                 }
 
-                String s = p.labels().get(LABEL_HTTP_PORT);
-                if (StringUtils.hasText(s)) {
-                    instance.setHttpPort(Integer.valueOf(s));
+                if(p.labels()!=null){
+                    String s = p.labels().get(LABEL_HTTP_PORT);
+                    if (StringUtils.hasText(s)) {
+                        instance.setHttpPort(Integer.valueOf(s));
+                    }
                 }
 
                 instance.setStatusText(p.status().message());
