@@ -12,7 +12,7 @@ import static io.hydrosphere.serving.clouddriver.swarm.SwarmRuntimeDeployService
  *
  */
 public class DDDD {
-    @Test
+    /*@Test
     public void test() throws Exception {
         DockerClient client = DefaultDockerClient.fromEnv().build();
 
@@ -28,33 +28,33 @@ public class DDDD {
                 .addLabel(LABEL_HTTP_PORT, "8080")
                 .addLabel(LABEL_APP_HTTP_PORT, "9090")
                 .endpointSpec(EndpointSpec.builder()
-                        /*.addPort(PortConfig.builder()
+                        *//*.addPort(PortConfig.builder()
                                 .publishedPort(8082)
                                 .targetPort(8082)
                                 .publishMode(PortConfig.PortConfigPublishMode.HOST)
-                                .build())*/
+                                .build())*//*
                         .addPort(PortConfig.builder()
                                 .publishedPort(8081)
                                 .targetPort(8080)
                                 .publishMode(PortConfig.PortConfigPublishMode.HOST)
                                 .build())
-                        /*.addPort(PortConfig.builder()
+                        *//*.addPort(PortConfig.builder()
                                 .publishedPort(9090)
                                 .targetPort(9090)
                                 .publishMode(PortConfig.PortConfigPublishMode.HOST)
-                                .build())*/
+                                .build())*//*
                         .build())
                 .taskTemplate(TaskSpec.builder()
                         .containerSpec(ContainerSpec.builder()
                                 .image("hydro-serving/gateway:1.0-SNAPSHOT")
-                                /*.mounts(Mount.builder()
+                                *//*.mounts(Mount.builder()
                                         .source("/var/run/docker.sock")
                                         .target("/var/run/docker.sock")
-                                        .build())*/
+                                        .build())*//*
                                 .env("MANAGER_HOST=192.168.90.117")
                                 .build())
                         .build())
                 .build());
 
-    }
+    }*/
 }
