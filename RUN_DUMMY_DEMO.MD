@@ -2,6 +2,7 @@
 ```
 docker swarm init
 docker network create --driver overlay net1
+export MODEL_DIRECTORY=$(pwd)/../hydro-serving-runtime/models
 docker stack deploy --compose-file docker-compose.yml hydroserving
 ```
 

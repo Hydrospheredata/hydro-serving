@@ -130,32 +130,36 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
             String network = StringUtils.hasText(networkName) ? networkName : "bridge";
             List<RuntimeInstance> instances = new ArrayList<>();
             dockerClient.listTasks(criteria).forEach(p -> {
-                RuntimeInstance instance = new RuntimeInstance();
-                p.networkAttachments().forEach(n -> {
-                    if (network.equals(n.network().spec().name())) {
-                        String host = n.addresses().get(0);
-                        if (host.contains("/")) {
-                            host = host.substring(0, host.indexOf("/"));
+                try {
+                    RuntimeInstance instance = new RuntimeInstance();
+                    p.networkAttachments().forEach(n -> {
+                        if (network.equals(n.network().spec().name())) {
+                            String host = n.addresses().get(0);
+                            if (host.contains("/")) {
+                                host = host.substring(0, host.indexOf("/"));
+                            }
+                            instance.setHost(host);
                         }
-                        instance.setHost(host);
+                    });
+                    if (!StringUtils.hasText(instance.getHost())) {
+                        return;
                     }
-                });
-                if (!StringUtils.hasText(instance.getHost())) {
-                    return;
-                }
 
-                if(p.labels()!=null){
-                    String s = p.labels().get(LABEL_HTTP_PORT);
-                    if (StringUtils.hasText(s)) {
-                        instance.setHttpPort(Integer.valueOf(s));
+                    if (p.labels() != null) {
+                        String s = p.labels().get(LABEL_HTTP_PORT);
+                        if (StringUtils.hasText(s)) {
+                            instance.setHttpPort(Integer.valueOf(s));
+                        }
                     }
-                }
 
-                instance.setStatusText(p.status().message());
-                instance.setStatus("running".equalsIgnoreCase(p.status().state()) ? UP : DOWN);
-                instance.setRuntimeId(p.serviceId());
-                instance.setId(p.status().containerStatus().containerId());
-                instances.add(instance);
+                    instance.setStatusText(p.status().message());
+                    instance.setStatus("running".equalsIgnoreCase(p.status().state()) ? UP : DOWN);
+                    instance.setRuntimeId(p.serviceId());
+                    instance.setId(p.status().containerStatus().containerId());
+                    instances.add(instance);
+                } catch (Exception e) {
+                    LOGGER.error(e.getMessage(), e);
+                }
             });
             return instances;
         } catch (Exception e) {
@@ -227,9 +231,9 @@ public class SwarmRuntimeDeployService implements RuntimeDeployService {
 
             String val = map.get(LABEL_RUNTIME_TYPE);
             if (val != null) runtime.setRuntimeType(RuntimeType.valueOf(val));
-            val=map.get(LABEL_HTTP_PORT);
+            val = map.get(LABEL_HTTP_PORT);
             if (val != null) runtime.setHttpPort(Integer.valueOf(val));
-            val=map.get(LABEL_APP_HTTP_PORT);
+            val = map.get(LABEL_APP_HTTP_PORT);
             if (val != null) runtime.setAppHttpPort(Integer.valueOf(val));
         }
 
