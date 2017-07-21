@@ -1,16 +1,22 @@
 package io.hydrosphere.serving.manager.service.clouddriver
 
-import io.hydrosphere.serving.manager.model.ModelRuntime
-
-import scala.concurrent.Future
+import com.spotify.docker.client.DockerClient
+import io.hydrosphere.serving.manager.{AdvertisedConfiguration, SwarmCloudDriverConfiguration}
+import io.hydrosphere.serving.manager.model.{ModelRuntime, ModelService}
+import org.apache.logging.log4j.scala.Logging
 
 /**
   *
   */
-class SwarmRuntimeDeployService extends RuntimeDeployService {
-  override def scale(runtimeName: String, scale: Int): Future[Unit] = ???
+class SwarmRuntimeDeployService(
+  dockerClient: DockerClient,
+  swarmCloudDriverConfiguration: SwarmCloudDriverConfiguration,
+  advertisedConfiguration: AdvertisedConfiguration
+) extends RuntimeDeployService with Logging {
 
-  override def deploy(runtime: ModelRuntime): String = ???
+  //override def scale(runtimeName: String, scale: Int): Unit = ???
+
+  override def deploy(service: ModelService): String = ???
 
   override def getRuntime(runtimeName: String): ModelRuntime = ???
 

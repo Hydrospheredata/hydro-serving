@@ -28,7 +28,7 @@ class RuntimeTypeRepositoryImpl(databaseService: DatabaseService)(implicit execu
     .map { case Some(r) => Some(mapFromDb(r)) }
 
   override def create(entity: RuntimeType): Future[RuntimeType] = db
-    .run(Tables.RuntimeType returning Tables.RuntimeType += Tables.RuntimeTypeRow(entity.id.getOrElse(0), entity.name, entity.version))
+    .run(Tables.RuntimeType returning Tables.RuntimeType += Tables.RuntimeTypeRow(entity.id, entity.name, entity.version))
     .map(s => mapFromDb(s))
 
   override def get(id: Long): Future[Option[RuntimeType]] = db
@@ -46,6 +46,6 @@ class RuntimeTypeRepositoryImpl(databaseService: DatabaseService)(implicit execu
 
 object RuntimeTypeRepositoryImpl {
   def mapFromDb(dbType: Tables.RuntimeType#TableElementType): RuntimeType = {
-    RuntimeType(id = Some(dbType.runtimeTypeId), name = dbType.name, version = dbType.version)
+    RuntimeType(id = dbType.runtimeTypeId, name = dbType.name, version = dbType.version)
   }
 }

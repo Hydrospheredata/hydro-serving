@@ -44,7 +44,7 @@ class SparkModelFetcher(val source: ModelSource) extends ModelFetcher with Loggi
   private[this] val labelCols = Array("labelCol")
 
   private def getRuntimeType(sparkMetadata: SparkMetadata): RuntimeType = {
-    RuntimeType(None, "spark", "1.0.0")
+    RuntimeType(-1, "spark", "1.0.0")
   }
 
   private def getStageMetadata(model: String, stage: String): SparkMetadata = {
@@ -94,7 +94,7 @@ class SparkModelFetcher(val source: ModelSource) extends ModelFetcher with Loggi
       }
 
       Some(Model(
-        None,
+        -1,
         directory,
         fullPath,
         Some(getRuntimeType(pipelineMetadata)),
