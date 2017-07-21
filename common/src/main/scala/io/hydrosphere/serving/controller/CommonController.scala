@@ -5,12 +5,16 @@ import akka.http.scaladsl.server.Route
 
 
 /**
-  *META-INF/resources/webjars/swagger-ui/3.0.18/index.html
+  *
   */
 class CommonController {
   val routes: Route = {
-    path("swagger" / Segment) { name =>
-      getFromResource(s"swagger/$name")
+    pathPrefix("swagger") {
+      path(Segments) { segs =>
+        val path=segs.mkString("/")
+        //println(s"!!! ${segs.mkString('/')}")
+        getFromResource(s"swagger/$path")
+      }
     } ~ path("health") {
       complete {
         "OK"
