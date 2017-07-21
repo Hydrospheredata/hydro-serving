@@ -1,22 +1,20 @@
 package io.hydrosphere.serving.manager.service.clouddriver
 
-import io.hydrosphere.serving.manager.model.ModelRuntime
-
-import scala.concurrent.Future
+import io.hydrosphere.serving.manager.model.{ModelRuntime, ModelService}
 
 /**
   *
   */
 trait RuntimeDeployService {
-  def scale(runtimeName: String, scale: Int): Future[Unit]
+  //def scale(runtimeName: String, scale: Int): Future[Unit]
 
-  def deploy(runtime:ModelRuntime):String
+  def deploy(runtime: ModelService): String
 
-  def getRuntime(runtimeName:String):ModelRuntime
+  def getRuntime(runtimeName: String): ModelRuntime
 
-  def runtimeList():Seq[ModelRuntime]
+  def runtimeList(): Seq[ModelRuntime]
 
-  def deleteRuntime(runtimeName:String)
+  def deleteRuntime(runtimeName: String)
 
   /*
 

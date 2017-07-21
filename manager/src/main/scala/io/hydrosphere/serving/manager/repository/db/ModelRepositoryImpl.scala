@@ -5,6 +5,7 @@ import java.time.LocalDateTime
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.manager.model.{Model, RuntimeType}
 import io.hydrosphere.serving.manager.repository.ModelRepository
+import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -12,7 +13,7 @@ import scala.concurrent.{ExecutionContext, Future}
   *
   */
 class ModelRepositoryImpl(databaseService: DatabaseService)(implicit executionContext: ExecutionContext)
-  extends ModelRepository {
+  extends ModelRepository with Logging{
 
   import databaseService._
   import databaseService.driver.api._
@@ -25,21 +26,26 @@ class ModelRepositoryImpl(databaseService: DatabaseService)(implicit executionCo
     db.run(query.update(timestamp))
   }
 
-  override def create(entity: Model): Future[Model] = db
-    .run(Tables.Model returning Tables.Model += Tables.ModelRow(
-      -1,
-      entity.name,
-      entity.source,
-      entity.runtimeType match {
-        case Some(r) => r.id
-        case _ => None
-      },
-      entity.outputFields,
-      entity.inputFields,
-      entity.description,
-      entity.created,
-      entity.updated))
-    .map(s => mapFromDb(s, entity.runtimeType))
+  override def create(entity: Model): Future[Model] = {
+
+    db
+      .run(Tables.Model returning Tables.Model += Tables.ModelRow(
+        -1,
+        entity.name,
+        entity.source,
+        entity.runtimeType match {
+          case Some(r) => Some(r.id)
+          case _ => None
+        },
+        entity.outputFields,
+        entity.inputFields,
+        entity.description,
+        entity.created,
+        entity.updated))
+      .map(s => {
+        mapFromDb(s, entity.runtimeType)
+      })
+  }
 
   override def get(id: Long): Future[Option[Model]] = db
     .run(Tables.Model
@@ -74,7 +80,7 @@ class ModelRepositoryImpl(databaseService: DatabaseService)(implicit executionCo
 
   def mapFromDb(model: Tables.Model#TableElementType, runtimeType: Option[RuntimeType]): Model = {
     Model(
-      id = Some(model.modelId),
+      id = model.modelId,
       name = model.name,
       source = model.source,
       runtimeType = runtimeType,

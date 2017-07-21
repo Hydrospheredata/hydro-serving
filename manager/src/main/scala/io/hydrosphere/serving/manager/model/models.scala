@@ -5,6 +5,11 @@ import java.time.LocalDateTime
 import io.hydrosphere.serving.manager.model.ModelBuildStatus.ModelBuildStatus
 import io.hydrosphere.serving.manager.model.ModelServiceInstanceStatus.ModelServiceInstanceStatus
 
+object ModelServiceStatus extends Enumeration {
+  type ModelServiceInstanceStatus = Value
+  val STARTING, ERROR, STARTED = Value
+}
+
 object ModelServiceInstanceStatus extends Enumeration {
   type ModelServiceInstanceStatus = Value
   val DOWN, UP = Value
@@ -16,13 +21,13 @@ object ModelBuildStatus extends Enumeration {
 }
 
 case class RuntimeType(
-  id: Option[Long] = None,
+  id: Long,
   name: String,
   version: String
 )
 
 case class Model(
-  id: Option[Long] = None,
+  id: Long,
   name: String,
   source: String,
   runtimeType: Option[RuntimeType],
@@ -35,8 +40,8 @@ case class Model(
 
 
 case class ModelBuild(
-  id: Option[Long] = None,
-  modelId: Long,
+  id: Long,
+  model: Model,
   started: LocalDateTime,
   finished: Option[LocalDateTime] = None,
   status: ModelBuildStatus,
@@ -56,11 +61,12 @@ case class ModelServiceInstance(
 case class ModelService(
   serviceId: String,
   serviceName: String,
-  imageName: String,
-  imageMD5Tag: String
+  cloudDriverId: String,
+  modelRuntime: ModelRuntime
 )
 
 case class ModelRuntime(
+  modelRuntimeId: String,
   imageName: String,
   imageTag: String,
   imageMD5Tag: String,

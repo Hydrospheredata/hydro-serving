@@ -6,7 +6,9 @@ import io.hydrosphere.serving.manager.model.{Model, RuntimeType}
 import io.hydrosphere.serving.manager.repository.{ModelRepository, RuntimeTypeRepository}
 import org.apache.logging.log4j.scala.Logging
 
+import scala.concurrent
 import scala.concurrent.{ExecutionContext, Future}
+import scala.util.{Failure, Success}
 
 /**
   *
@@ -45,11 +47,10 @@ class ModelManagementServiceImpl(
   override def buildModel(modelId: Long, modelVersion: Option[String]): Future[Model] = ???
 
   override def updatedInModelSource(entity: Model): Future[Unit] = {
-    logger.debug(s"updatedInModelSource - $entity")
     modelRepository.fetchBySource(entity.source)
-      .map {
-        case Nil => modelRepository.create(entity).map(_ => Unit)
-        case _ => modelRepository.updateLastUpdatedTime(entity.source, LocalDateTime.now())
+      .flatMap {
+        case Nil => modelRepository.create(entity).map(p => Unit)
+        case _ => modelRepository.updateLastUpdatedTime(entity.source, LocalDateTime.now()).map(p => Unit)
       }
 
   }

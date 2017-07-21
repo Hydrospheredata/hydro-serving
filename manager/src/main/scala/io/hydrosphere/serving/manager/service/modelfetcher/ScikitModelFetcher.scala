@@ -42,7 +42,7 @@ class ScikitModelFetcher(val source: ModelSource) extends ModelFetcher with Logg
     try {
       val metadata = getMetadata(directory)
       Some(Model(
-        None,
+        -1,
         directory,
         directory,
         None,

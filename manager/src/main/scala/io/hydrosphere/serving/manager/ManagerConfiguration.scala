@@ -17,10 +17,11 @@ case class ManagerConfiguration(
   application: ApplicationConfig,
   advertised: AdvertisedConfiguration,
   modelSources: Seq[ModelSourceConfiguration],
-  database: Config
+  database: Config,
+  cloudDriver: CloudDriverConfiguration
 )
 
-abstract class ModelSourceConfiguration(){
+abstract class ModelSourceConfiguration() {
   val name: String
   val path: String
 }
@@ -38,7 +39,29 @@ case class S3ModelSourceConfiguration(
   queue: String
 ) extends ModelSourceConfiguration
 
+abstract class CloudDriverConfiguration() {
+
+}
+
+case class SwarmCloudDriverConfiguration(
+  networkName: String
+) extends CloudDriverConfiguration
+
 object ManagerConfiguration extends Configuration {
+
+  def parseCloudDriver(config: Config): CloudDriverConfiguration = {
+    val c = config.getConfig("cloudDriver")
+    //config.getAnyRef("modelSources").{ kv =>
+    config.getConfig("cloudDriver").root().entrySet().asScala.map { kv =>
+      val driverConf = c.getConfig(kv.getKey)
+      kv.getKey match {
+        case "swarm" =>
+          SwarmCloudDriverConfiguration(networkName = driverConf.getString("networkName"))
+        case x =>
+          throw new IllegalArgumentException(s"Unknown model source: $x")
+      }
+    }.head
+  }
 
   def parseAdvertised(config: Config): AdvertisedConfiguration = {
     val c = config.getConfig("manager")
@@ -86,6 +109,7 @@ object ManagerConfiguration extends Configuration {
     application = parseApplication(config),
     advertised = parseAdvertised(config),
     modelSources = parseDataSources(config),
-    database = config.getConfig("database")
+    database = config.getConfig("database"),
+    cloudDriver = parseCloudDriver(config)
   )
 }

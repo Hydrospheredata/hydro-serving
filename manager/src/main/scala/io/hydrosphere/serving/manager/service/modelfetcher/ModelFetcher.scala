@@ -8,6 +8,7 @@ import org.apache.logging.log4j.scala.Logging
   *
   */
 trait ModelFetcher {
+
   def getModel(directory: String): Option[Model]
 
   def getModels: Seq[Model]
