@@ -7,10 +7,10 @@
         </Console>
     </Appenders>
     <Loggers>
-        <Root level="INFO">
+        <Root level="DEBUG">
             <AppenderRef ref="Console"/>
         </Root>
-        <Logger name="io.hydrosphere" level="INFO" additivity="false">
+        <Logger name="slick" level="INFO" additivity="false">
             <AppenderRef ref="Console"/>
         </Logger>
     </Loggers>
