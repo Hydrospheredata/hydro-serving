@@ -26,6 +26,11 @@ case class RuntimeType(
   version: String
 )
 
+class SchematicRuntimeType(
+  name: String,
+  version: String
+) extends RuntimeType(-1, name, version)
+
 case class Model(
   id: Long,
   name: String,

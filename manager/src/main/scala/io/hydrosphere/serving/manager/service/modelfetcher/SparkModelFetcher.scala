@@ -4,7 +4,7 @@ import java.io.FileNotFoundException
 import java.nio.file.Files
 import java.time.LocalDateTime
 
-import io.hydrosphere.serving.manager.model.{Model, RuntimeType}
+import io.hydrosphere.serving.manager.model.{Model, RuntimeType, SchematicRuntimeType}
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.model.CommonJsonSupport
 import org.apache.logging.log4j.scala.Logging
@@ -44,7 +44,7 @@ class SparkModelFetcher(val source: ModelSource) extends ModelFetcher with Loggi
   private[this] val labelCols = Array("labelCol")
 
   private def getRuntimeType(sparkMetadata: SparkMetadata): RuntimeType = {
-    RuntimeType(-1, "spark", "1.0.0")
+    new SchematicRuntimeType("spark", "1.0.0")
   }
 
   private def getStageMetadata(model: String, stage: String): SparkMetadata = {
