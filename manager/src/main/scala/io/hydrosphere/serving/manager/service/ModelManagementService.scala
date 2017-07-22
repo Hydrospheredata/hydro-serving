@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.service
 
 import java.time.LocalDateTime
 
-import io.hydrosphere.serving.manager.model.{Model, RuntimeType}
+import io.hydrosphere.serving.manager.model.{Model, RuntimeType, SchematicRuntimeType}
 import io.hydrosphere.serving.manager.repository.{ModelRepository, RuntimeTypeRepository}
 import org.apache.logging.log4j.scala.Logging
 
@@ -46,10 +46,23 @@ class ModelManagementServiceImpl(
 
   override def buildModel(modelId: Long, modelVersion: Option[String]): Future[Model] = ???
 
+  private def addModel(model: Model): Future[Model] = {
+    model.runtimeType match {
+      case Some(sc: SchematicRuntimeType) =>
+        runtimeTypeRepository.fetchByNameAndVersion(sc.name, sc.version)
+          .flatMap(runtimeType =>
+            modelRepository.create(model.copy(runtimeType = runtimeType))
+          )
+      case _ =>
+        modelRepository.create(model)
+    }
+  }
+
   override def updatedInModelSource(entity: Model): Future[Unit] = {
     modelRepository.fetchBySource(entity.source)
       .flatMap {
-        case Nil => modelRepository.create(entity).map(p => Unit)
+        case Nil =>
+          addModel(entity).map(p => Unit)
         case _ => modelRepository.updateLastUpdatedTime(entity.source, LocalDateTime.now()).map(p => Unit)
       }
 
