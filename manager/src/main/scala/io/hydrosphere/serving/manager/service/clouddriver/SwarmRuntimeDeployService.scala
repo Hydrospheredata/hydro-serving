@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.service.clouddriver
 
 import com.spotify.docker.client.DockerClient
 import io.hydrosphere.serving.manager.{AdvertisedConfiguration, SwarmCloudDriverConfiguration}
-import io.hydrosphere.serving.manager.model.{ModelRuntime, ModelService}
+import io.hydrosphere.serving.manager.model.{ModelRuntime, ModelService, ModelServiceInstance}
 import org.apache.logging.log4j.scala.Logging
 
 /**
@@ -13,14 +13,14 @@ class SwarmRuntimeDeployService(
   swarmCloudDriverConfiguration: SwarmCloudDriverConfiguration,
   advertisedConfiguration: AdvertisedConfiguration
 ) extends RuntimeDeployService with Logging {
+  
+  override def deploy(runtime: ModelService): String = ???
 
-  //override def scale(runtimeName: String, scale: Int): Unit = ???
+  override def serviceList(): Seq[Long] = ???
 
-  override def deploy(service: ModelService): String = ???
+  override def deleteService(serviceId: Long): Unit = ???
 
-  override def getRuntime(runtimeName: String): ModelRuntime = ???
+  override def serviceInstances(): Seq[ModelServiceInstance] = ???
 
-  override def runtimeList(): Seq[ModelRuntime] = ???
-
-  override def deleteRuntime(runtimeName: String): Unit = ???
+  override def serviceInstances(serviceId: Long): Seq[ModelServiceInstance] = ???
 }

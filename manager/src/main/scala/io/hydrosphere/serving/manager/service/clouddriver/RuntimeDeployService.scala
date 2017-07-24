@@ -1,26 +1,18 @@
 package io.hydrosphere.serving.manager.service.clouddriver
 
-import io.hydrosphere.serving.manager.model.{ModelRuntime, ModelService}
+import io.hydrosphere.serving.manager.model.{ModelRuntime, ModelService, ModelServiceInstance}
 
 /**
   *
   */
 trait RuntimeDeployService {
-  //def scale(runtimeName: String, scale: Int): Future[Unit]
-
   def deploy(runtime: ModelService): String
 
-  def getRuntime(runtimeName: String): ModelRuntime
+  def serviceList(): Seq[Long]
 
-  def runtimeList(): Seq[ModelRuntime]
+  def deleteService(serviceId: Long)
 
-  def deleteRuntime(runtimeName: String)
+  def serviceInstances(): Seq[ModelServiceInstance]
 
-  /*
-
-
-List<RuntimeInstance> runtimeInstances();
-
-List<RuntimeInstance> runtimeInstances(String runtimeName);
-*/
+  def serviceInstances(serviceId: Long): Seq[ModelServiceInstance]
 }
