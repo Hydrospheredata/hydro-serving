@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service.modelsource
 
 import java.io.File
-import java.nio.file.Paths
+import java.nio.file.{Path, Paths}
 
 import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, ModelSourceConfiguration, S3ModelSourceConfiguration}
 
@@ -19,11 +19,15 @@ trait ModelSource {
   def getSubDirs: List[String]
 
   def getSourcePrefix():String
+
+  def configuration: ModelSourceConfiguration
+
+  def getModelPath(modelSource: String): Path
 }
 
 
 object ModelSource {
-  def fromConfig(conf: ModelSourceConfiguration): ModelSource = conf match {
+  def fromConfig[T <: ModelSourceConfiguration](conf: T): ModelSource = conf match {
     case local: LocalModelSourceConfiguration =>
       new LocalModelSource(local)
     case s3: S3ModelSourceConfiguration =>

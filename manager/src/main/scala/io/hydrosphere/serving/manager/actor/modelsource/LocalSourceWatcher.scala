@@ -7,6 +7,7 @@ import java.nio.file._
 import akka.actor.{ActorRef, Props}
 import io.hydrosphere.serving.manager.LocalModelSourceConfiguration
 import io.hydrosphere.serving.manager.actor.Indexer
+import io.hydrosphere.serving.manager.service.modelsource.LocalModelSource
 import io.hydrosphere.serving.util.FileUtils._
 
 import scala.collection.JavaConverters._
@@ -83,6 +84,6 @@ class LocalSourceWatcher(val source: LocalModelSourceConfiguration, val indexer:
 }
 
 object LocalSourceWatcher{
-  def props(source: LocalModelSourceConfiguration, indexer: ActorRef)=
+  def props(source: LocalModelSource, indexer: ActorRef)=
     Props(classOf[LocalSourceWatcher], source, indexer)
 }

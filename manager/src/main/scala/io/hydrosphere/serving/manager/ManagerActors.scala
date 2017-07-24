@@ -16,8 +16,8 @@ class ManagerActors(managerServices: ManagerServices)(
 
 
   val indexerActors: Seq[ActorRef] = managerServices.modelSources.map {
-    case (conf: ModelSourceConfiguration, modelSource: ModelSource) =>
+    case (conf, modelSource) =>
       logger.info(s"ModeSource IndexerActor initialization: ${conf.name}")
-      system.actorOf(IndexerActor.props(modelSource, conf, managerServices.modelManagementService), s"Indexer@${conf.name}")
+      system.actorOf(IndexerActor.props(modelSource, managerServices.modelManagementService), s"Indexer@${conf.name}")
   }.toSeq
 }

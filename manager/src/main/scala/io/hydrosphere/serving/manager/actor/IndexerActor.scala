@@ -5,7 +5,7 @@ import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, ModelSourc
 import io.hydrosphere.serving.manager.actor.modelsource.{LocalSourceWatcher, S3SourceWatcher}
 import io.hydrosphere.serving.manager.service.ModelManagementService
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
-import io.hydrosphere.serving.manager.service.modelsource.ModelSource
+import io.hydrosphere.serving.manager.service.modelsource.{LocalModelSource, ModelSource, S3ModelSource}
 
 import scala.concurrent.ExecutionContext
 import scala.util.{Failure, Success}
@@ -16,21 +16,20 @@ object Indexer {
 
 }
 
-class IndexerActor[S <: ModelSource, C <: ModelSourceConfiguration](
-  val source: S,
-  val config: C,
+class IndexerActor[C <: ModelSourceConfiguration](
+  val source: ModelSource,
   val modelManagementService: ModelManagementService
 ) extends Actor with ActorLogging {
 
   implicit val ec: ExecutionContext = context.dispatcher
 
-  private[this] val fsWatcher = context.actorOf(config match {
-    case (c: LocalModelSourceConfiguration) =>
+  private[this] val fsWatcher = context.actorOf(source match {
+    case (c: LocalModelSource) =>
       LocalSourceWatcher.props(c, self)
-    case (c: S3ModelSourceConfiguration) =>
+    case (c: S3ModelSource) =>
       S3SourceWatcher.props(c, self)
     case _ =>
-      throw new IllegalArgumentException(s"Unknown data config: $config")
+      throw new IllegalArgumentException(s"Unknown data config: ${source.configuration}")
   })
 
   override def preStart(): Unit = {
@@ -54,6 +53,6 @@ class IndexerActor[S <: ModelSource, C <: ModelSourceConfiguration](
 }
 
 object IndexerActor {
-  def props[S <: ModelSource, C <: ModelSourceConfiguration](source: S, config: C, modelManagementService: ModelManagementService) =
-    Props(classOf[IndexerActor[S, C]], source, config, modelManagementService)
+  def props[C <: ModelSourceConfiguration](source: ModelSource, modelManagementService: ModelManagementService) =
+    Props(classOf[IndexerActor[C]], source, modelManagementService)
 }

@@ -9,16 +9,16 @@ import io.hydrosphere.serving.util.FileUtils._
 /**
   *
   */
-class LocalModelSource(val conf: LocalModelSourceConfiguration) extends ModelSource {
-  val sourceFile = new File(conf.path.toString)
+class LocalModelSource(val configuration: LocalModelSourceConfiguration) extends ModelSource {
+  val sourceFile = new File(configuration.path.toString)
 
   override def getReadableFile(runtimeName: String, modelName: String, path: String): File = {
-    val requestedPath = Paths.get(conf.path.toString, runtimeName, modelName, path)
+    val requestedPath = Paths.get(configuration.path.toString, runtimeName, modelName, path)
     requestedPath.toFile
   }
 
   override def getSubDirs(path: String): List[String] = {
-    val fullPath = Paths.get(conf.path.toString, path)
+    val fullPath = Paths.get(configuration.path.toString, path)
     fullPath.toFile.getSubDirectories
       .map(_.getName).toList
   }
@@ -28,10 +28,16 @@ class LocalModelSource(val conf: LocalModelSourceConfiguration) extends ModelSou
   }
 
   override def getAllFiles(runtimeName: String, modelName: String): List[String] = {
-    val fullPath = Paths.get(conf.path.toString, runtimeName, modelName)
+    val fullPath = Paths.get(configuration.path.toString, runtimeName, modelName)
     val fullUri = fullPath.toUri
     fullPath.toFile.listFilesRecursively.map(p => fullUri.relativize(p.toURI).toString)
   }
 
-  override def getSourcePrefix(): String = conf.name
+  override def getSourcePrefix(): String = configuration.name
+
+  override def getModelPath(modelSource: String): Path = {
+    val args = modelSource.split("://")
+    val path = args.last
+    Paths.get(configuration.path, path)
+  }
 }

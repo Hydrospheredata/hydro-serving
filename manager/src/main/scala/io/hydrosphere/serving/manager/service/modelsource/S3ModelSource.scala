@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.service.modelsource
 
 import java.io.File
 import java.net.URI
-import java.nio.file.{Files, Paths, StandardCopyOption}
+import java.nio.file.{Files, Path, Paths, StandardCopyOption}
 
 import awscala.s3.S3
 import io.hydrosphere.serving.manager.S3ModelSourceConfiguration
@@ -12,10 +12,10 @@ import scala.collection.concurrent.TrieMap
 /**
   * Created by Bulat on 31.05.2017.
   */
-class S3ModelSource(val conf: S3ModelSourceConfiguration) extends ModelSource {
+class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends ModelSource {
   private[this] val fileCache = TrieMap.empty[String, TrieMap[String, File]]
-  private[this] implicit val s3 = S3.at(conf.region)
-  private[this] val bucketObj = s3.bucket(conf.bucket).get
+  private[this] implicit val s3 = S3.at(configuration.region)
+  private[this] val bucketObj = s3.bucket(configuration.bucket).get
 
   private def downloadObject(objectPath: String): File = {
     val fileStream = bucketObj.getObject(objectPath).get.content
@@ -62,5 +62,7 @@ class S3ModelSource(val conf: S3ModelSourceConfiguration) extends ModelSource {
     subCache.getOrElseUpdate(path, downloadObject(fullObjectPath.toString))
   }
 
-  override def getSourcePrefix(): String = conf.name
+  override def getSourcePrefix(): String = configuration.name
+
+  override def getModelPath(modelSource: String): Path = ???
 }
