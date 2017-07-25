@@ -62,6 +62,30 @@ class ModelBuildRepositoryImpl(databaseService: DatabaseService)(implicit execut
         .on({ case ((mb, m), mr) => mb.runtimeId === mr.runtimeId })
         .result
     ).map(s => mapFromDb(s))
+
+  override def listByModelId(id: Long): Future[Seq[ModelBuild]] =
+    db.run(
+      Tables.ModelBuild
+        .filter(_.modelId === id)
+        .joinLeft(Tables.Model)
+        .on({ case (mb, m) => mb.modelId === m.modelId })
+        .joinLeft(Tables.ModelRuntime)
+        .on({ case ((mb, m), mr) => mb.runtimeId === mr.runtimeId })
+        .result
+    ).map(s => mapFromDb(s))
+
+  override def lastByModelId(id: Long, maximum: Int): Future[Seq[ModelBuild]] =
+    db.run(
+      Tables.ModelBuild
+        .filter(_.modelId === id)
+        .sortBy(_.startedTimestamp.desc)
+        .joinLeft(Tables.Model)
+        .on({ case (mb, m) => mb.modelId === m.modelId })
+        .joinLeft(Tables.ModelRuntime)
+        .on({ case ((mb, m), mr) => mb.runtimeId === mr.runtimeId })
+        .take(maximum)
+        .result
+    ).map(s => mapFromDb(s))
 }
 
 object ModelBuildRepositoryImpl {

@@ -51,7 +51,9 @@ CREATE TABLE hydro_serving.model_build
 CREATE TABLE hydro_serving.model_service
 (
   service_id      BIGINT PRIMARY KEY,
-  service_name    TEXT NOT NULL UNIQUE,
+  service_name    TEXT                                         NOT NULL UNIQUE,
   cloud_driver_id TEXT,
-  runtime_id      BIGINT REFERENCES model_runtime (runtime_id) NOT NULL
+  runtime_id      BIGINT REFERENCES model_runtime (runtime_id) NOT NULL,
+  status          TEXT,
+  statusText      TEXT
 );

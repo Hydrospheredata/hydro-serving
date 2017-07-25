@@ -22,7 +22,7 @@ class EnvoyManagementController(envoyManagementService: EnvoyManagementService) 
   @ApiOperation(value = "clusters", notes = "clusters", nickname = "clusters", httpMethod = "GET")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "cluster", value = "cluster", required = true, dataType = "string", paramType = "path"),
-    new ApiImplicitParam(name = "node", value = "node", required = true, dataType = "string", paramType = "node")
+    new ApiImplicitParam(name = "node", value = "node", required = true, dataType = "string", paramType = "path")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Cluster", response = classOf[EnvoyClusterConfig]),
@@ -39,7 +39,7 @@ class EnvoyManagementController(envoyManagementService: EnvoyManagementService) 
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "configName", value = "configName", required = true, dataType = "string", paramType = "path"),
     new ApiImplicitParam(name = "cluster", value = "cluster", required = true, dataType = "string", paramType = "path"),
-    new ApiImplicitParam(name = "node", value = "node", required = true, dataType = "string", paramType = "node")
+    new ApiImplicitParam(name = "node", value = "node", required = true, dataType = "string", paramType = "path")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "RouteConfig", response = classOf[EnvoyRouteConfig]),

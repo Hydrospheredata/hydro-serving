@@ -42,7 +42,7 @@ case class Model(
 case class ModelBuild(
   id: Long,
   model: Model,
-  modelVersion:String,
+  modelVersion: String,
   started: LocalDateTime,
   finished: Option[LocalDateTime] = None,
   status: ModelBuildStatus,
@@ -59,6 +59,9 @@ case class ModelServiceInstance(
   sidecarPort: Int,
   serviceId: Long,
   modelVersion: String,
+  modelName: String,
+  runtimeTypeName: String,
+  runtimeTypeVersion: String,
   status: ModelServiceInstanceStatus,
   statusText: String
 )
@@ -67,7 +70,9 @@ case class ModelService(
   serviceId: Long,
   serviceName: String,
   cloudDriverId: Option[String],
-  modelRuntime: ModelRuntime
+  modelRuntime: ModelRuntime,
+  status: Option[String],
+  statusText: Option[String]
 )
 
 case class ModelRuntime(
