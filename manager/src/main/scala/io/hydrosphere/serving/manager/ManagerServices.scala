@@ -19,14 +19,16 @@ class ManagerServices(
 
   val modelManagementService: ModelManagementService = new ModelManagementServiceImpl(
     managerRepositories.runtimeTypeRepository,
-    managerRepositories.modelRepository
+    managerRepositories.modelRepository,
+    managerRepositories.modelRuntimeRepository,
+    managerRepositories.modelBuildRepository
   )
 
   val modelSources: Map[ModelSourceConfiguration, ModelSource] = managerConfiguration.modelSources
     .map(conf => conf -> ModelSource.fromConfig(conf)).toMap
 
   val runtimeDeployService: RuntimeDeployService = managerConfiguration.cloudDriver match {
-    case c: SwarmCloudDriverConfiguration => new SwarmRuntimeDeployService(dockerClient, c, managerConfiguration.advertised)
+    case c: SwarmCloudDriverConfiguration => new SwarmRuntimeDeployService(dockerClient, managerConfiguration)
   }
 
 }

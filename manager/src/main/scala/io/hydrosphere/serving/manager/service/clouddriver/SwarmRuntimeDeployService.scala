@@ -1,26 +1,146 @@
 package io.hydrosphere.serving.manager.service.clouddriver
 
 import com.spotify.docker.client.DockerClient
-import io.hydrosphere.serving.manager.{AdvertisedConfiguration, SwarmCloudDriverConfiguration}
-import io.hydrosphere.serving.manager.model.{ModelRuntime, ModelService, ModelServiceInstance}
+import com.spotify.docker.client.messages.swarm._
+import io.hydrosphere.serving.manager._
+import io.hydrosphere.serving.manager.model._
 import org.apache.logging.log4j.scala.Logging
+
+import collection.JavaConversions._
 
 /**
   *
   */
 class SwarmRuntimeDeployService(
   dockerClient: DockerClient,
-  swarmCloudDriverConfiguration: SwarmCloudDriverConfiguration,
-  advertisedConfiguration: AdvertisedConfiguration
+  managerConfiguration: ManagerConfiguration
 ) extends RuntimeDeployService with Logging {
-  
-  override def deploy(runtime: ModelService): String = ???
 
-  override def serviceList(): Seq[Long] = ???
+  override def deploy(runtime: ModelService): String = {
+    val conf = managerConfiguration.cloudDriver.asInstanceOf[SwarmCloudDriverConfiguration]
 
-  override def deleteService(serviceId: Long): Unit = ???
+    val labels = Map[String, String](
+      LABEL_SERVICE_ID -> runtime.serviceId.toString,
+      LABEL_HS_SERVICE_MARKER -> LABEL_HS_SERVICE_MARKER
+    )
+    val javaLabels = mapAsJavaMap(labels)
 
-  override def serviceInstances(): Seq[ModelServiceInstance] = ???
+    val env = List[String](
+      s"$ENV_HS_SERVICE_ID=${runtime.serviceId}",
 
-  override def serviceInstances(serviceId: Long): Seq[ModelServiceInstance] = ???
+      s"$ENV_MANAGER_HOST=${managerConfiguration.advertised.advertisedHost}",
+      s"$ENV_MANAGER_PORT=${managerConfiguration.advertised.advertisedPort.toString}",
+      s"$ENV_ZIPKIN_ENABLED=${managerConfiguration.zipkin.enabled.toString}",
+      s"$ENV_ZIPKIN_HOST=${managerConfiguration.zipkin.host}",
+      s"$ENV_ZIPKIN_PORT=${managerConfiguration.zipkin.port.toString}"
+    )
+
+
+    val spec: ServiceSpec = ServiceSpec.builder()
+      .name(runtime.serviceName)
+      .labels(javaLabels)
+      .networks(NetworkAttachmentConfig.builder()
+        .target(conf.networkName)
+        .build()
+      )
+      .mode(ServiceMode.withReplicas(1))
+      .endpointSpec(
+        EndpointSpec.builder()
+          .mode(EndpointSpec.Mode.RESOLUTION_MODE_VIP)
+          .build()
+      )
+      .taskTemplate(
+        TaskSpec.builder()
+          .containerSpec(ContainerSpec.builder()
+            .image(s"${runtime.modelRuntime.imageName}:${runtime.modelRuntime.imageMD5Tag}")
+            .env(env)
+            .labels(javaLabels)
+            //.placement()
+            //.networks()
+            //.resources()
+            //.restartPolicy(RestartPolicy.builder().)
+            .build()
+          ).build()
+      ).build()
+
+    dockerClient.createService(spec).id()
+  }
+
+  override def serviceList(): Seq[ServiceInfo] =
+    dockerClient.listServices(
+      Service.Criteria.builder
+        .addLabel(LABEL_HS_SERVICE_MARKER, LABEL_HS_SERVICE_MARKER)
+        .build
+    ).map(s => {
+      val id = s.spec().labels().get(LABEL_SERVICE_ID).toLong
+      if (s.updateStatus() != null) {
+        ServiceInfo(
+          id = id,
+          cloudDriveId = s.id(),
+          status = s.updateStatus().state(),
+          statusText = s.updateStatus().message()
+        )
+      } else {
+        ServiceInfo(
+          id = id,
+          cloudDriveId = s.id(),
+          status = "",
+          statusText = ""
+        )
+      }
+    })
+
+  override def deleteService(cloudDriveId: String): Unit =
+    dockerClient.removeService(cloudDriveId)
+
+  override def serviceInstances(): Seq[ModelServiceInstance] =
+    serviceInstances(Task.Criteria.builder())
+
+  override def serviceInstances(serviceName: String): Seq[ModelServiceInstance] =
+    serviceInstances(Task.Criteria.builder()
+      .serviceName(serviceName))
+
+
+  private def getInstanceHost(list: java.util.List[NetworkAttachment]): String = {
+    val conf = managerConfiguration.cloudDriver.asInstanceOf[SwarmCloudDriverConfiguration]
+    list.filter(n => conf.networkName == n.network.spec.name)
+      .map(n => {
+        val host = n.addresses().head
+        if (host.contains("/")) {
+          host.substring(0, host.indexOf("/"))
+        } else {
+          host
+        }
+      }).head
+  }
+
+
+  private def serviceInstances(criteria: Task.Criteria.Builder): Seq[ModelServiceInstance] =
+    dockerClient.listTasks(criteria
+      .label(LABEL_HS_SERVICE_MARKER)
+      .build()).map(s => {
+
+      val envMap = s.spec().containerSpec().env()
+        .map(p => p.split(":"))
+        .filter(arr => arr.length > 1 && arr(0) != null && arr(1) != null)
+        .map(arr => arr(0) -> arr(1)).toMap
+
+      ModelServiceInstance(
+        instanceId = s.status().containerStatus().containerId(),
+        host = getInstanceHost(s.networkAttachments),
+        serviceId = s.labels.get(LABEL_SERVICE_ID).toLong,
+        status = if ("running".equalsIgnoreCase(s.status.state)) {
+          ModelServiceInstanceStatus.UP
+        } else {
+          ModelServiceInstanceStatus.DOWN
+        },
+        statusText = s.status.message,
+        modelVersion = s.labels.get(LABEL_MODEL_VERSION),
+        modelName = s.labels.get(LABEL_MODEL_NAME),
+        runtimeTypeName = s.labels.get(LABEL_RUNTIME_TYPE_NAME),
+        runtimeTypeVersion = s.labels.get(LABEL_RUNTIME_TYPE_VERSION),
+        appPort = envMap.getOrDefault(ENV_APP_HTTP_PORT, "9090").toInt,
+        sidecarPort = envMap.getOrDefault(ENV_ENVOY_HTTP_PORT, "8080").toInt
+      )
+    })
 }

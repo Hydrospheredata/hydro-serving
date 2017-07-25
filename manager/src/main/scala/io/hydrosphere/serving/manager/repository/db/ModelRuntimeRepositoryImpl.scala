@@ -59,6 +59,17 @@ class ModelRuntimeRepositoryImpl(databaseService: DatabaseService)(implicit exec
         .on({ case (m, rt) => m.runtimeTypeId === rt.runtimeTypeId })
         .result
     ).map(s => mapFromDb(s))
+
+  override def lastModelRuntimeByModel(modelId: Long, max: Int): Future[Seq[ModelRuntime]] =
+    db.run(
+      Tables.ModelRuntime
+        .filter(_.modelId === modelId)
+        .joinLeft(Tables.RuntimeType)
+        .on({ case (m, rt) => m.runtimeTypeId === rt.runtimeTypeId })
+        .take(max)
+        .result
+    ).map(s => mapFromDb(s))
+
 }
 
 object ModelRuntimeRepositoryImpl {

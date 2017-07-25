@@ -89,7 +89,9 @@ object ModelServiceRepositoryImpl {
       serviceId = model.serviceId,
       serviceName = model.serviceName,
       cloudDriverId = model.cloudDriverId,
-      modelRuntime = modelRuntime.getOrElse(throw new RuntimeException())
+      modelRuntime = modelRuntime.getOrElse(throw new RuntimeException()),
+      status = model.status,
+      statusText = model.statustext
     )
   }
 }

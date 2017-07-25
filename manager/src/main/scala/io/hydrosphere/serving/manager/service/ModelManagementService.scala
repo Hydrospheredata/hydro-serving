@@ -2,8 +2,8 @@ package io.hydrosphere.serving.manager.service
 
 import java.time.LocalDateTime
 
-import io.hydrosphere.serving.manager.model.{Model, RuntimeType, SchematicRuntimeType}
-import io.hydrosphere.serving.manager.repository.{ModelRepository, RuntimeTypeRepository}
+import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.repository.{ModelBuildRepository, ModelRepository, ModelRuntimeRepository, RuntimeTypeRepository}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent
@@ -28,11 +28,25 @@ trait ModelManagementService {
   def createModel(entity: Model): Future[Model]
 
   def updatedInModelSource(entity: Model): Future[Unit]
+
+  def addModelRuntime(entity: ModelRuntime): Future[ModelRuntime]
+
+  def allModelRuntime(): Future[Seq[ModelRuntime]]
+
+  def lastModelRuntimeByModel(id:Long, maximum:Int): Future[Seq[ModelRuntime]]
+
+  def allModelBuilds():Future[Seq[ModelBuild]]
+
+  def modelBuildsByModel(id:Long):Future[Seq[ModelBuild]]
+
+  def lastModelBuildsByModel(id:Long, maximum:Int):Future[Seq[ModelBuild]]
 }
 
 class ModelManagementServiceImpl(
   runtimeTypeRepository: RuntimeTypeRepository,
-  modelRepository: ModelRepository
+  modelRepository: ModelRepository,
+  modelRuntimeRepository: ModelRuntimeRepository,
+  modelBuildRepository: ModelBuildRepository
 )(implicit val ex: ExecutionContext) extends ModelManagementService with Logging {
   override def createRuntimeType(entity: RuntimeType): Future[RuntimeType] = runtimeTypeRepository.create(entity)
 
@@ -45,6 +59,13 @@ class ModelManagementServiceImpl(
   override def updateModel(entity: Model): Future[Model] = ???
 
   override def buildModel(modelId: Long, modelVersion: Option[String]): Future[Model] = ???
+
+  override def addModelRuntime(entity: ModelRuntime): Future[ModelRuntime] = modelRuntimeRepository.create(entity)
+
+  override def allModelRuntime(): Future[Seq[ModelRuntime]] = modelRuntimeRepository.all()
+
+  override def lastModelRuntimeByModel(id: Long, maximum: Int): Future[Seq[ModelRuntime]] =
+    modelRuntimeRepository.lastModelRuntimeByModel(id: Long, maximum: Int)
 
   private def addModel(model: Model): Future[Model] = {
     model.runtimeType match {
@@ -67,4 +88,13 @@ class ModelManagementServiceImpl(
       }
 
   }
+
+  override def allModelBuilds(): Future[Seq[ModelBuild]] =
+    modelBuildRepository.all()
+
+  override def modelBuildsByModel(id: Long): Future[Seq[ModelBuild]] =
+    modelBuildRepository.listByModelId(id)
+
+  override def lastModelBuildsByModel(id: Long, maximum:Int): Future[Seq[ModelBuild]] =
+    modelBuildRepository.lastByModelId(id, maximum)
 }

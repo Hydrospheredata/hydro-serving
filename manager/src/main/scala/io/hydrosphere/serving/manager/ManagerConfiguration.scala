@@ -18,7 +18,8 @@ case class ManagerConfiguration(
   advertised: AdvertisedConfiguration,
   modelSources: Seq[ModelSourceConfiguration],
   database: Config,
-  cloudDriver: CloudDriverConfiguration
+  cloudDriver: CloudDriverConfiguration,
+  zipkin: ZipkinConfiguration
 )
 
 abstract class ModelSourceConfiguration() {
@@ -47,7 +48,22 @@ case class SwarmCloudDriverConfiguration(
   networkName: String
 ) extends CloudDriverConfiguration
 
+case class ZipkinConfiguration(
+  host: String,
+  port: Int,
+  enabled: Boolean
+)
+
 object ManagerConfiguration extends Configuration {
+
+  def parseZipkin(config: Config): ZipkinConfiguration ={
+    val c=config.getConfig("openTracing.zipkin")
+    ZipkinConfiguration(
+      host = c.getString("host"),
+      port = c.getInt("port"),
+      enabled = c.getBoolean("enabled")
+    )
+  }
 
   def parseCloudDriver(config: Config): CloudDriverConfiguration = {
     val c = config.getConfig("cloudDriver")
@@ -110,6 +126,7 @@ object ManagerConfiguration extends Configuration {
     advertised = parseAdvertised(config),
     modelSources = parseDataSources(config),
     database = config.getConfig("database"),
-    cloudDriver = parseCloudDriver(config)
+    cloudDriver = parseCloudDriver(config),
+    zipkin = parseZipkin(config)
   )
 }
