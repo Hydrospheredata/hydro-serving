@@ -27,6 +27,12 @@ lazy val gateway = project.in(file("gateway"))
 lazy val codegen = project.in(file("codegen"))
   .settings(Common.settings)
   .settings(libraryDependencies ++= Dependencies.codegenDependencies)
+  .settings(
+    PB.targets in Compile := Seq(
+      scalapb.gen(grpc = false) -> (sourceManaged in Compile).value
+    ),
+    libraryDependencies += "com.trueaccord.scalapb" %% "scalapb-runtime" % com.trueaccord.scalapb.compiler.Version.scalapbVersion % "protobuf"
+  )
 
 lazy val manager = project.in(file("manager"))
   .settings(Common.settings)

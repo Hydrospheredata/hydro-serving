@@ -14,7 +14,11 @@ trait ModelFetcher {
 }
 
 object ModelFetcher extends Logging {
-  private[this] val fetchers = List(ScikitModelFetcher, SparkModelFetcher)
+  private[this] val fetchers = List(
+    SparkModelFetcher,
+    TensorflowModelFetcher,
+    ScikitModelFetcher
+  )
 
   def getModels(source: ModelSource): Seq[Model] = {
     source.getSubDirs.map { folder =>
