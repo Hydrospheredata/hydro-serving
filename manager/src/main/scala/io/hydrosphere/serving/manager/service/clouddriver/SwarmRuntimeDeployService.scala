@@ -140,7 +140,7 @@ class SwarmRuntimeDeployService(
         runtimeTypeName = s.labels.get(LABEL_RUNTIME_TYPE_NAME),
         runtimeTypeVersion = s.labels.get(LABEL_RUNTIME_TYPE_VERSION),
         appPort = envMap.getOrDefault(ENV_APP_HTTP_PORT, "9090").toInt,
-        sidecarPort = envMap.getOrDefault(ENV_ENVOY_HTTP_PORT, "8080").toInt
+        sidecarPort = envMap.getOrDefault(ENV_SIDECAR_HTTP_PORT, "8080").toInt
       )
     })
 }
