@@ -18,7 +18,7 @@ trait RuntimeDeployService {
   val ENV_MANAGER_PORT = "MANAGER_PORT"
 
   val ENV_HS_SERVICE_ID = "HS_SERVICE_ID"
-  val ENV_ENVOY_HTTP_PORT = "ENVOY_HTTP_PORT"
+  val ENV_SIDECAR_HTTP_PORT = "SIDECAR_HTTP_PORT"
   val ENV_APP_HTTP_PORT = "APP_HTTP_PORT"
 
   val LABEL_SERVICE_ID = "hydroServingServiceId"
