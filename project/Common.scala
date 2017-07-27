@@ -8,6 +8,8 @@ object Common {
     version := appVersion,
     scalaVersion := "2.11.11",
     //crossScalaVersions := Seq("2.11.11"),
+    publishArtifact := false,
+    exportJars := true,
     organization := "io.hydrosphere.serving",
     scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature")
     /*resolvers ++= {
