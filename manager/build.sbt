@@ -10,6 +10,7 @@ import scala.collection.JavaConverters._
 name := "manager"
 
 enablePlugins(DockerSpotifyClientPlugin)
+enablePlugins(sbtdocker.DockerPlugin)
 
 lazy val dataBaseName = "docker"
 lazy val dataBaseUser = "docker"
@@ -71,4 +72,35 @@ lazy val slickCodeGenTask = (sourceManaged, dependencyClasspath in Compile, runn
   val pkg = "io.hydrosphere.serving.manager.db"
   toError(r.run("io.hydrosphere.slick.HydrosphereCodeGenerator", cp.files, Array(slickDriver, jdbcDriver, url, outputDir, pkg, dataBaseUser, dataBasePassword), s.log))
   println("Generated")
+}
+
+
+
+imageNames in docker := Seq(
+  ImageName(s"hydro-serving/manager:${version.value}")
+)
+
+dockerfile in docker := {
+  val jarFile: File = sbt.Keys.`package`.in(Compile, packageBin).value
+  val classpath = (dependencyClasspath in Compile).value
+  val dockerFilesLocation=baseDirectory.value / "src/main/docker/"
+  val jarTarget = s"/hydro-serving/app/manager.jar"
+
+  new sbtdocker.Dockerfile {
+    // Base image
+    from(s"hydro-serving/java:${version.value}")
+
+    label("hydroServingServiceId", "-20")
+    label("HS_SERVICE_MARKER", "HS_SERVICE_MARKER")
+    label("RUNTIME_TYPE_NAME", "hysroserving-java")
+    label("RUNTIME_TYPE_VERSION", version.value)
+    label("MODEL_NAME", "manager")
+    label("MODEL_VERSION", version.value)
+
+    add(dockerFilesLocation, "/hydro-serving/app/")
+    // Add all files on the classpath
+    add(classpath.files, "/hydro-serving/app/lib/")
+    // Add the JAR file
+    add(jarFile, jarTarget)
+  }
 }
