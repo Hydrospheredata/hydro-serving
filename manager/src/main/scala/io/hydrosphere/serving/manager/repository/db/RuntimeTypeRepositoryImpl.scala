@@ -3,6 +3,7 @@ package io.hydrosphere.serving.manager.repository.db
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.manager.model.RuntimeType
 import io.hydrosphere.serving.manager.repository.RuntimeTypeRepository
+import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -10,7 +11,7 @@ import scala.concurrent.{ExecutionContext, Future}
   *
   */
 class RuntimeTypeRepositoryImpl(databaseService: DatabaseService)(implicit executionContext: ExecutionContext)
-  extends RuntimeTypeRepository {
+  extends RuntimeTypeRepository with Logging{
 
   import databaseService._
   import databaseService.driver.api._

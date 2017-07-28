@@ -15,6 +15,10 @@ trait ManagerRepositories {
   def modelBuildRepository: ModelBuildRepository
 
   def modelServiceRepository: ModelServiceRepository
+
+  def pipelineRepository: PipelineRepository
+
+  def endpointRepository: EndpointRepository
 }
 
 class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit executionContext: ExecutionContext)
@@ -30,4 +34,8 @@ class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit execution
   val modelBuildRepository: ModelBuildRepository = new ModelBuildRepositoryImpl(dataService)
 
   val modelServiceRepository: ModelServiceRepository = new ModelServiceRepositoryImpl(dataService)
+
+  val pipelineRepository: PipelineRepository = new PipelineRepositoryImpl(dataService)
+
+  val endpointRepository: EndpointRepository = new EndpointRepositoryImpl(dataService)
 }
