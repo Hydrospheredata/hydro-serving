@@ -18,36 +18,36 @@ import scala.concurrent.duration._
 class EnvoyManagementController(envoyManagementService: EnvoyManagementService) extends EnvoyJsonSupport {
   implicit val timeout = Timeout(5.minutes)
 
-  @Path("/clusters/{cluster}/{node}")
+  @Path("/clusters/{serviceId}/{containerId}")
   @ApiOperation(value = "clusters", notes = "clusters", nickname = "clusters", httpMethod = "GET")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "cluster", value = "cluster", required = true, dataType = "string", paramType = "path"),
-    new ApiImplicitParam(name = "node", value = "node", required = true, dataType = "string", paramType = "path")
+    new ApiImplicitParam(name = "serviceId", value = "serviceId", required = true, dataType = "string", paramType = "path"),
+    new ApiImplicitParam(name = "containerId", value = "containerId", required = true, dataType = "string", paramType = "path")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Cluster", response = classOf[EnvoyClusterConfig]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def getClusters = get {
-    path("v1" / "clusters" / Segment / Segment) { (cluster, node) =>
-      complete(envoyManagementService.clusters(cluster, node))
+    path("v1" / "clusters" / LongNumber / Segment) { (serviceId, containerId) =>
+      complete(envoyManagementService.clusters(serviceId, containerId))
     }
   }
 
-  @Path("/routes/{configName}/{cluster}/{node}")
+  @Path("/routes/{configName}/{serviceId}/{containerId}")
   @ApiOperation(value = "routes", notes = "routes", nickname = "routes", httpMethod = "GET")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "configName", value = "configName", required = true, dataType = "string", paramType = "path"),
-    new ApiImplicitParam(name = "cluster", value = "cluster", required = true, dataType = "string", paramType = "path"),
-    new ApiImplicitParam(name = "node", value = "node", required = true, dataType = "string", paramType = "path")
+    new ApiImplicitParam(name = "serviceId", value = "serviceId", required = true, dataType = "string", paramType = "path"),
+    new ApiImplicitParam(name = "containerId", value = "containerId", required = true, dataType = "string", paramType = "path")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "RouteConfig", response = classOf[EnvoyRouteConfig]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def getRoutes = get {
-    path("v1" / "routes" / Segment / Segment / Segment) { (configName, cluster, node) =>
-      complete(envoyManagementService.routes(configName, cluster, node))
+    path("v1" / "routes" / Segment / LongNumber / Segment) { (configName, serviceId, containerId) =>
+      complete(envoyManagementService.routes(configName, serviceId, containerId))
     }
   }
 

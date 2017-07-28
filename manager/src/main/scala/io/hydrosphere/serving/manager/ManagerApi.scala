@@ -23,17 +23,23 @@ class ManagerApi(managerServices: ManagerServices)
 
   val modelRuntimeController = new ModelRuntimeController(managerServices.modelManagementService)
 
+  val modelServiceController = new ModelServiceController(managerServices.runtimeManagementService)
+
   val swaggerController = new SwaggerDocController(system) {
     override val apiTypes: Seq[ru.Type] = Seq(
       ru.typeOf[RuntimeTypeController],
       ru.typeOf[ModelController],
-      ru.typeOf[ModelRuntimeController]
+      ru.typeOf[ModelRuntimeController],
+      ru.typeOf[ModelServiceController]
     )
   }
 
   val routes: Route = {
     commonController.routes ~ swaggerController.routes ~ CorsDirectives.cors() {
-      runtimeTypeController.routes ~ modelController.routes ~ modelRuntimeController.routes
+      runtimeTypeController.routes ~
+        modelController.routes ~
+        modelRuntimeController.routes ~
+        modelServiceController.routes
     }
   }
 }

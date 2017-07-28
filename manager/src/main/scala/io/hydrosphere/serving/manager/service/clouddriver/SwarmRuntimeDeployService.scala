@@ -66,29 +66,33 @@ class SwarmRuntimeDeployService(
     dockerClient.createService(spec).id()
   }
 
+  private def mapService(s: Service): ServiceInfo = {
+    val id = s.spec().labels().get(LABEL_SERVICE_ID).toLong
+    if (s.updateStatus() != null) {
+      ServiceInfo(
+        id = id,
+        name = s.spec().name(),
+        cloudDriveId = s.id(),
+        status = s.updateStatus().state(),
+        statusText = s.updateStatus().message()
+      )
+    } else {
+      ServiceInfo(
+        id = id,
+        name = s.spec().name(),
+        cloudDriveId = s.id(),
+        status = "",
+        statusText = ""
+      )
+    }
+  }
+
   override def serviceList(): Seq[ServiceInfo] =
     dockerClient.listServices(
       Service.Criteria.builder
         .addLabel(LABEL_HS_SERVICE_MARKER, LABEL_HS_SERVICE_MARKER)
         .build
-    ).map(s => {
-      val id = s.spec().labels().get(LABEL_SERVICE_ID).toLong
-      if (s.updateStatus() != null) {
-        ServiceInfo(
-          id = id,
-          cloudDriveId = s.id(),
-          status = s.updateStatus().state(),
-          statusText = s.updateStatus().message()
-        )
-      } else {
-        ServiceInfo(
-          id = id,
-          cloudDriveId = s.id(),
-          status = "",
-          statusText = ""
-        )
-      }
-    })
+    ).map(s => mapService(s))
 
   override def deleteService(cloudDriveId: String): Unit =
     dockerClient.removeService(cloudDriveId)
@@ -96,9 +100,9 @@ class SwarmRuntimeDeployService(
   override def serviceInstances(): Seq[ModelServiceInstance] =
     serviceInstances(Task.Criteria.builder())
 
-  override def serviceInstances(serviceName: String): Seq[ModelServiceInstance] =
+  override def serviceInstances(serviceId: Long): Seq[ModelServiceInstance] =
     serviceInstances(Task.Criteria.builder()
-      .serviceName(serviceName))
+      .label(s"$LABEL_SERVICE_ID=$serviceId"))
 
 
   private def getInstanceHost(list: java.util.List[NetworkAttachment]): String = {
@@ -113,7 +117,6 @@ class SwarmRuntimeDeployService(
         }
       }).head
   }
-
 
   private def serviceInstances(criteria: Task.Criteria.Builder): Seq[ModelServiceInstance] =
     dockerClient.listTasks(criteria
@@ -143,4 +146,11 @@ class SwarmRuntimeDeployService(
         sidecarPort = envMap.getOrDefault(ENV_SIDECAR_HTTP_PORT, "8080").toInt
       )
     })
+
+  override def service(serviceId: Long): Option[ServiceInfo] = dockerClient.listServices(
+    Service.Criteria.builder
+      .addLabel(LABEL_HS_SERVICE_MARKER, LABEL_HS_SERVICE_MARKER)
+      .addLabel(LABEL_SERVICE_ID, serviceId.toString)
+      .build
+  ).headOption.map(s => mapService(s))
 }

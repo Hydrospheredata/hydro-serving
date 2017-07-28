@@ -5,6 +5,7 @@ import io.hydrosphere.serving.manager.model.{ModelRuntime, ModelService, ModelSe
 
 case class ServiceInfo(
   id: Long,
+  name: String,
   cloudDriveId: String,
   status: String,
   statusText: String
@@ -34,9 +35,12 @@ trait RuntimeDeployService {
 
   def serviceList(): Seq[ServiceInfo]
 
+  def service(serviceId:Long):Option[ServiceInfo]
+
   def deleteService(cloudDriveId: String)
 
   def serviceInstances(): Seq[ModelServiceInstance]
 
-  def serviceInstances(serviceName: String): Seq[ModelServiceInstance]
+  def serviceInstances(serviceId: Long): Seq[ModelServiceInstance]
+
 }
