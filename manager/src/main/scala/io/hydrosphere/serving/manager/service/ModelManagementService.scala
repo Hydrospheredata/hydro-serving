@@ -63,7 +63,7 @@ class ModelManagementServiceImpl(
       .flatMap {
         case Nil =>
           addModel(entity).map(p => Unit)
-        case _ => modelRepository.updateLastUpdatedTime(entity.source, LocalDateTime.now()).map(p => Unit)
+        case _ => modelRepository.updateLastUpdatedTime(entity.source, LocalDateTime.now()).map(_ => Unit)
       }
 
   }

@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.actor
 
 import akka.actor.{Actor, ActorLogging, PoisonPill, Props}
+import io.hydrosphere.serving.manager.actor.IndexerActor.Index
 import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, ModelSourceConfiguration, S3ModelSourceConfiguration}
 import io.hydrosphere.serving.manager.actor.modelsource.{LocalSourceWatcher, S3SourceWatcher}
 import io.hydrosphere.serving.manager.service.ModelManagementService
@@ -10,13 +11,7 @@ import io.hydrosphere.serving.manager.service.modelsource.{LocalModelSource, Mod
 import scala.concurrent.ExecutionContext
 import scala.util.{Failure, Success}
 
-object Indexer {
-
-  case object Index
-
-}
-
-class IndexerActor[C <: ModelSourceConfiguration](
+class IndexerActor(
   val source: ModelSource,
   val modelManagementService: ModelManagementService
 ) extends Actor with ActorLogging {
@@ -33,15 +28,15 @@ class IndexerActor[C <: ModelSourceConfiguration](
   })
 
   override def preStart(): Unit = {
-    context.system.eventStream.subscribe(self, Indexer.Index.getClass)
+    context.system.eventStream.subscribe(self, Index.getClass)
     log.info(s"IndexerActor with: $source")
-    self ! Indexer.Index
+    self ! Index
   }
 
   override def postStop(): Unit = fsWatcher ! PoisonPill
 
   override def receive: Receive = {
-    case Indexer.Index =>
+    case Index =>
       log.info("Indexing...")
       val models = ModelFetcher.getModels(source)
       models
@@ -53,6 +48,8 @@ class IndexerActor[C <: ModelSourceConfiguration](
 }
 
 object IndexerActor {
-  def props[C <: ModelSourceConfiguration](source: ModelSource, modelManagementService: ModelManagementService) =
-    Props(classOf[IndexerActor[C]], source, modelManagementService)
+  case object Index
+
+  def props(source: ModelSource, modelManagementService: ModelManagementService) =
+    Props(classOf[IndexerActor], source, modelManagementService)
 }

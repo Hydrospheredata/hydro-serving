@@ -26,7 +26,7 @@ CREATE TABLE hydro_serving.model_build
   model_version      TEXT                        NOT NULL,
   started_timestamp  TIMESTAMP WITHOUT TIME ZONE NOT NULL,
   finished_timestamp TIMESTAMP WITHOUT TIME ZONE,
-  status             TEXT                        NOT NULL,
+  STATUS             TEXT                        NOT NULL,
   status_text        TEXT,
   logs_url           TEXT
 );
@@ -45,4 +45,11 @@ CREATE TABLE hydro_serving.runtime
   image_name        TEXT                        NOT NULL,
   image_tag         TEXT                        NOT NULL,
   image_md5_tag     TEXT                        NOT NULL
+);
+
+CREATE TABLE hydro_serving.model_files
+(
+  model_id       BIGINT REFERENCES model(model_id),
+  filename       TEXT                          NOT NULL,
+  checksum       TEXT                          NOT NULL
 );
