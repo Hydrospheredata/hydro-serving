@@ -54,6 +54,25 @@ class ModelServiceRepositoryImpl(databaseService: DatabaseService)(implicit exec
         .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
         .result
     ).map(s => mapFromDb(s))
+
+  override def updateCloudDriveId(serviceId: Long, cloudDriveId: Option[String]): Future[Int] ={
+    val query = for {
+      service <- Tables.ModelService if service.serviceId === serviceId
+    } yield service.cloudDriverId
+
+    db.run(query.update(cloudDriveId))
+  }
+
+  override def getByServiceName(serviceName: String): Future[Option[ModelService]] =
+    db.run(
+      Tables.ModelService
+        .filter(_.serviceName === serviceName)
+        .joinLeft(Tables.ModelRuntime)
+        .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.RuntimeType)
+        .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
+        .result.headOption
+    ).map(m => mapFromDb(m))
 }
 
 object ModelServiceRepositoryImpl {

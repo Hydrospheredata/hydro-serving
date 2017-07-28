@@ -89,3 +89,7 @@ case class ModelRuntime(
   created: LocalDateTime,
   modelId: Option[Long]
 )
+
+class UnknownModelRuntime extends ModelRuntime(
+  -1, "", "", "", "", "", "", None, List(), List(), LocalDateTime.now(), None
+)
