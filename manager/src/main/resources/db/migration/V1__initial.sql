@@ -57,3 +57,17 @@ CREATE TABLE hydro_serving.model_service
   status          TEXT,
   statusText      TEXT
 );
+
+CREATE TABLE hydro_serving.pipeline
+(
+  pipeline_id BIGINT PRIMARY KEY,
+  name        TEXT    NOT NULL UNIQUE,
+  stages      TEXT [] NOT NULL
+);
+
+CREATE TABLE hydro_serving.endpoint
+(
+  endpoint_id   BIGINT PRIMARY KEY,
+  endpoint_name TEXT                                     NOT NULL UNIQUE,
+  pipeline_id   BIGINT REFERENCES pipeline (pipeline_id)
+);
