@@ -1,14 +1,28 @@
 package io.hydrosphere.serving.manager.service
 
-import io.hydrosphere.serving.manager.model.{ModelService, ModelServiceInstance, UnknownModelRuntime}
-import io.hydrosphere.serving.manager.repository.ModelServiceRepository
+import io.hydrosphere.serving.manager.model.{ModelRuntime, ModelService, ModelServiceInstance, UnknownModelRuntime}
+import io.hydrosphere.serving.manager.repository.{ModelRuntimeRepository, ModelServiceRepository}
 import io.hydrosphere.serving.manager.service.clouddriver.{RuntimeDeployService, ServiceInfo}
 
 import scala.concurrent.{ExecutionContext, Future}
 
-/**
-  *
-  */
+case class CreateModelServiceRequest(
+  serviceId: Long,
+  serviceName: String,
+  modelRuntimeId: Long
+) {
+  def toModelService(runtime: ModelRuntime): ModelService = {
+    ModelService(
+      serviceId = 0,
+      serviceName = this.serviceName,
+      cloudDriverId = None,
+      modelRuntime = runtime,
+      status = None,
+      statusText = None
+    )
+  }
+}
+
 trait RuntimeManagementService {
   val MANAGER_ID: Long = -20
   val GATEWAY_ID: Long = -10
@@ -21,7 +35,7 @@ trait RuntimeManagementService {
 
   def instancesForService(serviceName: String): Future[Seq[ModelServiceInstance]]
 
-  def addService(r: ModelService): Future[ModelService]
+  def addService(r: CreateModelServiceRequest): Future[ModelService]
 
   def allServices(): Future[Seq[ModelService]]
 
@@ -32,7 +46,8 @@ trait RuntimeManagementService {
 //TODO ADD cache
 class RuntimeManagementServiceImpl(
   runtimeDeployService: RuntimeDeployService,
-  modelServiceRepository: ModelServiceRepository
+  modelServiceRepository: ModelServiceRepository,
+  modelRuntimeRepository: ModelRuntimeRepository
 )(implicit val ex: ExecutionContext) extends RuntimeManagementService {
 
   override def allServices(): Future[Seq[ModelService]] =
@@ -73,17 +88,19 @@ class RuntimeManagementServiceImpl(
     Future(runtimeDeployService.serviceInstances(serviceId))
 
 
-  override def addService(r: ModelService): Future[ModelService] = {
+  override def addService(r: CreateModelServiceRequest): Future[ModelService] = {
     //if(r.serviceName) throw new IllegalArgumentException
     //TODO ADD validation for names manager,gateway + length + without space and special symbols
-
-    modelServiceRepository.create(r).flatMap(s =>
-      Future(
-        s.copy(cloudDriverId = Some(runtimeDeployService.deploy(s)))
-      ).flatMap(service =>
-        modelServiceRepository.updateCloudDriveId(service.serviceId, service.cloudDriverId)
-          .map(_ => service))
-    )
+    modelRuntimeRepository.get(r.modelRuntimeId).flatMap({
+      case None=>throw new IllegalArgumentException(s"Can't find ModelRuntime with id=${r.modelRuntimeId}")
+      case runtime=>modelServiceRepository.create(r.toModelService(runtime.get)).flatMap(s =>
+        Future(
+          s.copy(cloudDriverId = Some(runtimeDeployService.deploy(s)))
+        ).flatMap(service =>
+          modelServiceRepository.updateCloudDriveId(service.serviceId, service.cloudDriverId)
+            .map(_ => service))
+      )
+    })
   }
 
   override def instancesForService(serviceName: String): Future[Seq[ModelServiceInstance]] = {

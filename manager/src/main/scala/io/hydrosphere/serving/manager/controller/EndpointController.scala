@@ -4,7 +4,7 @@ import javax.ws.rs.Path
 
 import akka.http.scaladsl.server.Directives._
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.service.ServingManagementService
+import io.hydrosphere.serving.manager.service.{CreateEndpointRequest, ServingManagementService}
 import io.hydrosphere.serving.model.Endpoint
 import io.swagger.annotations._
 import io.swagger.annotations.Api
@@ -36,7 +36,7 @@ class EndpointController(servingManagementService: ServingManagementService) ext
   @ApiOperation(value = "Add Endpoint", notes = "Add Endpoint", nickname = "addEndpoint", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "Endpoint", required = true,
-      dataType = "io.hydrosphere.serving.model.Endpoint", paramType = "body")
+      dataType = "io.hydrosphere.serving.manager.service.CreateEndpointRequest", paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Endpoint", response = classOf[Endpoint]),
@@ -44,7 +44,7 @@ class EndpointController(servingManagementService: ServingManagementService) ext
   ))
   def add = path("api" / "v1" / "endpoints") {
     post {
-      entity(as[Endpoint]) { r =>
+      entity(as[CreateEndpointRequest]) { r =>
         complete(
           servingManagementService.addEndpoint(r)
         )

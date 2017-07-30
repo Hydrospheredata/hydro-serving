@@ -1,7 +1,8 @@
 package io.hydrosphere.serving.manager.controller
 
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.model.{CommonJsonSupport, EnumJsonConverter}
+import io.hydrosphere.serving.manager.service._
+import io.hydrosphere.serving.model._
 
 /**
   *
@@ -24,4 +25,15 @@ trait ManagerJsonSupport extends CommonJsonSupport {
 
   implicit val modelServiceInstanceFormat = jsonFormat7(ModelServiceInstance)
 
+  implicit val createEndpointRequest = jsonFormat2(CreateEndpointRequest)
+
+  implicit val createModelServiceRequest = jsonFormat3(CreateModelServiceRequest)
+
+  implicit val createRuntimeTypeRequest = jsonFormat2(CreateRuntimeTypeRequest)
+
+  implicit val createOrUpdateModelRequest = jsonFormat7(CreateOrUpdateModelRequest)
+
+  implicit val createModelRuntime = jsonFormat10(CreateModelRuntime)
+
+  implicit val updateModelRuntime = jsonFormat7(UpdateModelRuntime)
 }

@@ -6,7 +6,7 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.service.ModelManagementService
+import io.hydrosphere.serving.manager.service.{CreateOrUpdateModelRequest, ModelManagementService}
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
@@ -34,8 +34,8 @@ class ModelController(modelManagementService: ModelManagementService) extends Ma
   @Path("/")
   @ApiOperation(value = "Add model", notes = "Add model", nickname = "addModel", httpMethod = "POST")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "Model", required = true,
-      dataType = "io.hydrosphere.serving.manager.model.Model", paramType = "body")
+    new ApiImplicitParam(name = "body", value = "CreateOrUpdateModelRequest", required = true,
+      dataType = "io.hydrosphere.serving.manager.service.CreateOrUpdateModelRequest", paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Model", response = classOf[Model]),
@@ -43,7 +43,7 @@ class ModelController(modelManagementService: ModelManagementService) extends Ma
   ))
   def addModel = path("api" / "v1" / "model") {
     post {
-      entity(as[Model]) { r =>
+      entity(as[CreateOrUpdateModelRequest]) { r =>
         complete(
           modelManagementService.createModel(r)
         )
@@ -54,8 +54,8 @@ class ModelController(modelManagementService: ModelManagementService) extends Ma
   @Path("/")
   @ApiOperation(value = "Update model", notes = "Update model", nickname = "updateModel", httpMethod = "POST")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "Model", required = true,
-      dataType = "io.hydrosphere.serving.manager.model.Model", paramType = "body")
+    new ApiImplicitParam(name = "body", value = "CreateOrUpdateModelRequest", required = true,
+      dataType = "io.hydrosphere.serving.manager.service.Model", paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Model", response = classOf[Model]),
@@ -63,7 +63,7 @@ class ModelController(modelManagementService: ModelManagementService) extends Ma
   ))
   def updateModel = path("api" / "v1" / "model") {
     put {
-      entity(as[Model]) { r =>
+      entity(as[CreateOrUpdateModelRequest]) { r =>
         complete(
           modelManagementService.updateModel(r)
         )
