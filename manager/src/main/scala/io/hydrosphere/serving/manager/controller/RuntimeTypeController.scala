@@ -6,7 +6,7 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.model.RuntimeType
-import io.hydrosphere.serving.manager.service.ModelManagementService
+import io.hydrosphere.serving.manager.service.{CreateRuntimeTypeRequest, ModelManagementService}
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
@@ -35,14 +35,14 @@ class RuntimeTypeController(modelManagementService: ModelManagementService) exte
   @ApiOperation(value = "Create Runtime Type", notes = "Create Runtime Type", nickname = "createRuntimeType", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "Runtime Type Object", required = true,
-      dataType = "io.hydrosphere.serving.manager.model.RuntimeType", paramType = "body")
+      dataType = "io.hydrosphere.serving.manager.service.CreateRuntimeTypeRequest", paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Runtime", response = classOf[RuntimeType]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def createRuntime = path("api" / "v1" / "runtimeType") {
-    entity(as[RuntimeType]) { r =>
+    entity(as[CreateRuntimeTypeRequest]) { r =>
       complete(
         modelManagementService.createRuntimeType(r)
       )

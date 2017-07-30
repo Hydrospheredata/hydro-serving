@@ -6,7 +6,7 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.model.ModelService
-import io.hydrosphere.serving.manager.service.RuntimeManagementService
+import io.hydrosphere.serving.manager.service.{CreateModelServiceRequest, RuntimeManagementService}
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
@@ -34,8 +34,8 @@ class ModelServiceController (runtimeManagementService: RuntimeManagementService
   @Path("/")
   @ApiOperation(value = "Add ModelService", notes = "Add ModelService", nickname = "addModelService", httpMethod = "POST")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "ModelService", required = true,
-      dataType = "io.hydrosphere.serving.manager.model.ModelService", paramType = "body")
+    new ApiImplicitParam(name = "body", value = "CreateModelServiceRequest", required = true,
+      dataType = "io.hydrosphere.serving.manager.service.CreateModelServiceRequest", paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "ModelService", response = classOf[ModelService]),
@@ -43,7 +43,7 @@ class ModelServiceController (runtimeManagementService: RuntimeManagementService
   ))
   def addService = path("api" / "v1" / "modelService") {
     post {
-      entity(as[ModelService]) { r =>
+      entity(as[CreateModelServiceRequest]) { r =>
         complete(
           runtimeManagementService.addService(r)
         )
@@ -73,7 +73,7 @@ class ModelServiceController (runtimeManagementService: RuntimeManagementService
     new ApiImplicitParam(name = "serviceId", required = true, dataType = "long", paramType = "path", value = "serviceId")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Pipeline Deleted"),
+    new ApiResponse(code = 200, message = "Service Deleted"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def deleteService = delete {

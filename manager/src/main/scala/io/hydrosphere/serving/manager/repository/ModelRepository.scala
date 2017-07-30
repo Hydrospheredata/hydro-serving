@@ -10,6 +10,8 @@ import scala.concurrent.Future
   *
   */
 trait ModelRepository extends BaseRepository[Model, Long] {
+  def update(value: Model): Future[Int]
+
   def updateLastUpdatedTime(source: String, timestamp: LocalDateTime): Future[Int]
 
   def fetchBySource(source:String):Future[Seq[Model]]

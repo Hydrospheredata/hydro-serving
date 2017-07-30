@@ -76,6 +76,8 @@ class ModelRepositoryImpl(databaseService: DatabaseService)(implicit executionCo
         .on({ case (m, rt) => m.runtimeTypeId === rt.runtimeTypeId })
         .result
     ).map(s => mapFromDb(s))
+
+  override def update(value: Model): Future[Int] = ???
 }
 
 object ModelRepositoryImpl{

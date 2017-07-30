@@ -25,7 +25,7 @@ CREATE TABLE hydro_serving.model_runtime
   runtime_type_id   BIGINT REFERENCES runtime_type (runtime_type_id),
   modelName         TEXT                        NOT NULL,
   modelVersion      TEXT                        NOT NULL,
-  source            TEXT                        NOT NULL,
+  source            TEXT                        ,
   output_fields     TEXT []                     NOT NULL,
   input_fields      TEXT []                     NOT NULL,
   created_timestamp TIMESTAMP WITHOUT TIME ZONE NOT NULL,

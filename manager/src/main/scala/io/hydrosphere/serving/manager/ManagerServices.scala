@@ -35,7 +35,8 @@ class ManagerServices(
 
   val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(
     runtimeDeployService,
-    managerRepositories.modelServiceRepository
+    managerRepositories.modelServiceRepository,
+    managerRepositories.modelRuntimeRepository
   )
 
   val servingManagementService: ServingManagementService = new ServingManagementServiceImpl(
