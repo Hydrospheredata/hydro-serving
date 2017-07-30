@@ -48,6 +48,10 @@ case class SwarmCloudDriverConfiguration(
   networkName: String
 ) extends CloudDriverConfiguration
 
+case class DockerCloudDriverConfiguration(
+  networkName: String
+) extends CloudDriverConfiguration
+
 case class ZipkinConfiguration(
   host: String,
   port: Int,
@@ -73,6 +77,8 @@ object ManagerConfiguration extends Configuration {
       kv.getKey match {
         case "swarm" =>
           SwarmCloudDriverConfiguration(networkName = driverConf.getString("networkName"))
+        case "docker" =>
+          DockerCloudDriverConfiguration(networkName = driverConf.getString("networkName"))
         case x =>
           throw new IllegalArgumentException(s"Unknown model source: $x")
       }

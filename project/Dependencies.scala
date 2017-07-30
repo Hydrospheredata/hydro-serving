@@ -25,7 +25,7 @@ object Dependencies {
     "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
     //"com.typesafe.akka" %% "akka-http-jackson" % akkaHttpVersion,
     "com.typesafe.akka" %% "akka-http-xml" % akkaHttpVersion,
-    "com.github.swagger-akka-http" %% "swagger-akka-http" % "0.9.2",
+    "com.github.swagger-akka-http" %% "swagger-akka-http" % "0.9.2" exclude("javax.ws.rs", "jsr311-api"),
     "ch.megard" %% "akka-http-cors" % "0.2.1"
   )
 

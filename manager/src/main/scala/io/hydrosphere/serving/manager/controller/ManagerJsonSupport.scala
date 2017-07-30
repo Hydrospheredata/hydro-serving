@@ -22,6 +22,6 @@ trait ManagerJsonSupport extends CommonJsonSupport {
 
   implicit val modelServiceFormat = jsonFormat6(ModelService)
 
-  implicit val modelServiceInstanceFormat = jsonFormat11(ModelServiceInstance)
+  implicit val modelServiceInstanceFormat = jsonFormat7(ModelServiceInstance)
 
 }

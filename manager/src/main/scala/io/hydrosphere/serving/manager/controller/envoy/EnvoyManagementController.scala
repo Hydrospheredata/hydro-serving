@@ -14,7 +14,7 @@ import scala.concurrent.duration._
   *
   */
 @Path("/v1")
-@Api(value = "/v1", produces = "application/json")
+@Api(produces = "application/json", tags = Array("Envoy"))
 class EnvoyManagementController(envoyManagementService: EnvoyManagementService) extends EnvoyJsonSupport {
   implicit val timeout = Timeout(5.minutes)
 
@@ -29,8 +29,8 @@ class EnvoyManagementController(envoyManagementService: EnvoyManagementService) 
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def getClusters = get {
-    path("v1" / "clusters" / LongNumber / Segment) { (serviceId, containerId) =>
-      complete(envoyManagementService.clusters(serviceId, containerId))
+    path("v1" / "clusters" / Segment / Segment) { (serviceId, containerId) =>
+      complete(envoyManagementService.clusters(serviceId.toLong, containerId))
     }
   }
 
@@ -46,8 +46,8 @@ class EnvoyManagementController(envoyManagementService: EnvoyManagementService) 
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def getRoutes = get {
-    path("v1" / "routes" / Segment / LongNumber / Segment) { (configName, serviceId, containerId) =>
-      complete(envoyManagementService.routes(configName, serviceId, containerId))
+    path("v1" / "routes" / Segment / Segment / Segment) { (configName, serviceId, containerId) =>
+      complete(envoyManagementService.routes(configName, serviceId.toLong, containerId))
     }
   }
 

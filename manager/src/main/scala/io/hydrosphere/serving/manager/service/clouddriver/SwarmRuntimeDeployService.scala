@@ -28,6 +28,9 @@ class SwarmRuntimeDeployService(
     val env = List[String](
       s"$ENV_HS_SERVICE_ID=${runtime.serviceId}",
 
+      s"$ENV_APP_HTTP_PORT=9090",
+      s"$ENV_SIDECAR_HTTP_PORT=8080",
+
       s"$ENV_MANAGER_HOST=${managerConfiguration.advertised.advertisedHost}",
       s"$ENV_MANAGER_PORT=${managerConfiguration.advertised.advertisedPort.toString}",
       s"$ENV_ZIPKIN_ENABLED=${managerConfiguration.zipkin.enabled.toString}",
@@ -94,8 +97,12 @@ class SwarmRuntimeDeployService(
         .build
     ).map(s => mapService(s))
 
-  override def deleteService(cloudDriveId: String): Unit =
-    dockerClient.removeService(cloudDriveId)
+  override def deleteService(serviceId: Long): Unit =
+    service(serviceId)
+      .map(s => {
+        dockerClient.removeService(s.cloudDriveId)
+        Unit
+      })
 
   override def serviceInstances(): Seq[ModelServiceInstance] =
     serviceInstances(Task.Criteria.builder())
@@ -131,17 +138,13 @@ class SwarmRuntimeDeployService(
       ModelServiceInstance(
         instanceId = s.status().containerStatus().containerId(),
         host = getInstanceHost(s.networkAttachments),
-        serviceId = s.labels.get(LABEL_SERVICE_ID).toLong,
+        serviceId = s.spec().containerSpec().labels().get(LABEL_SERVICE_ID).toLong,
         status = if ("running".equalsIgnoreCase(s.status.state)) {
           ModelServiceInstanceStatus.UP
         } else {
           ModelServiceInstanceStatus.DOWN
         },
         statusText = s.status.message,
-        modelVersion = s.labels.get(LABEL_MODEL_VERSION),
-        modelName = s.labels.get(LABEL_MODEL_NAME),
-        runtimeTypeName = s.labels.get(LABEL_RUNTIME_TYPE_NAME),
-        runtimeTypeVersion = s.labels.get(LABEL_RUNTIME_TYPE_VERSION),
         appPort = envMap.getOrDefault(ENV_APP_HTTP_PORT, "9090").toInt,
         sidecarPort = envMap.getOrDefault(ENV_SIDECAR_HTTP_PORT, "8080").toInt
       )

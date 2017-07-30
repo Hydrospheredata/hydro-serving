@@ -6,6 +6,7 @@ import ch.megard.akka.http.cors.scaladsl.CorsDirectives
 import io.hydrosphere.serving.controller.{CommonController, SwaggerDocController}
 import io.hydrosphere.serving.manager.controller.{ModelRuntimeController, _}
 import akka.http.scaladsl.server.Directives._
+import io.hydrosphere.serving.manager.controller.envoy.EnvoyManagementController
 
 import scala.concurrent.ExecutionContext
 import scala.reflect.runtime.{universe => ru}
@@ -29,6 +30,8 @@ class ManagerApi(managerServices: ManagerServices)
 
   val endpointController = new EndpointController(managerServices.servingManagementService)
 
+  val envoyManagementController=new EnvoyManagementController(managerServices.envoyManagementService)
+
   val swaggerController = new SwaggerDocController(system) {
     override val apiTypes: Seq[ru.Type] = Seq(
       ru.typeOf[RuntimeTypeController],
@@ -36,7 +39,8 @@ class ManagerApi(managerServices: ManagerServices)
       ru.typeOf[ModelRuntimeController],
       ru.typeOf[PipelineController],
       ru.typeOf[EndpointController],
-      ru.typeOf[ModelServiceController]
+      ru.typeOf[ModelServiceController],
+      ru.typeOf[EnvoyManagementController]
     )
   }
 
@@ -47,7 +51,8 @@ class ManagerApi(managerServices: ManagerServices)
         modelRuntimeController.routes ~
         modelServiceController.routes ~
         endpointController.routes ~
-        pipelineController.routes
+        pipelineController.routes ~
+        envoyManagementController.routes
     }
   }
 }

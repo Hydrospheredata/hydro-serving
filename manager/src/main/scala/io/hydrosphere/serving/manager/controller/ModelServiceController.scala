@@ -15,7 +15,7 @@ import scala.concurrent.duration._
   *
   */
 @Path("/api/v1/modelService")
-@Api(value = "/api/v1/modelService", produces = "application/json")
+@Api(produces = "application/json", tags = Array("Deployment: Model Service"))
 class ModelServiceController (runtimeManagementService: RuntimeManagementService) extends ManagerJsonSupport {
   implicit val timeout = Timeout(5.minutes)
 
@@ -52,7 +52,7 @@ class ModelServiceController (runtimeManagementService: RuntimeManagementService
   }
 
 
-  @Path("/{serviceId}")
+  @Path("/instances/{serviceId}")
   @ApiOperation(value = "listInstances", notes = "listInstances", nickname = "listInstances", httpMethod = "GET")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "serviceId", required = true, dataType = "long", paramType = "path", value = "serviceId")
@@ -67,5 +67,22 @@ class ModelServiceController (runtimeManagementService: RuntimeManagementService
     }
   }
 
-  val routes: Route = listAll ~ addService ~ listInstances
+  @Path("/{serviceId}")
+  @ApiOperation(value = "deleteService", notes = "deleteService", nickname = "deleteService", httpMethod = "DELETE")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "serviceId", required = true, dataType = "long", paramType = "path", value = "serviceId")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Pipeline Deleted"),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def deleteService = delete {
+    path("api" / "v1" / "modelService" / LongNumber) { serviceId =>
+      onSuccess(runtimeManagementService.deleteService(serviceId)) {
+        complete(200, None)
+      }
+    }
+  }
+
+  val routes: Route = listAll ~ addService ~ listInstances ~ deleteService
 }

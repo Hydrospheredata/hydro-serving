@@ -21,7 +21,7 @@ class ModelServiceRepositoryImpl(databaseService: DatabaseService)(implicit exec
   override def create(entity: ModelService): Future[ModelService] =
     db.run(
       Tables.ModelService returning Tables.ModelService += Tables.ModelServiceRow(
-        -1,
+        entity.serviceId,
         entity.serviceName,
         entity.cloudDriverId,
         entity.modelRuntime.id

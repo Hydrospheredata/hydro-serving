@@ -12,9 +12,10 @@ import scala.concurrent.{ExecutionContext, Future}
 trait RuntimeManagementService {
   val MANAGER_ID: Long = -20
   val GATEWAY_ID: Long = -10
-
   val MANAGER_NAME: String = "manager"
   val GATEWAY_NAME: String = "gateway"
+
+  def deleteService(serviceId: Long): Future[Unit]
 
   def instancesForService(serviceId: Long): Future[Seq[ModelServiceInstance]]
 
@@ -116,4 +117,7 @@ class RuntimeManagementServiceImpl(
         }
       })
 
+  override def deleteService(serviceId: Long): Future[Unit] =
+    Future(runtimeDeployService.deleteService(serviceId))
+      .flatMap(p => modelServiceRepository.delete(serviceId).map(p => Unit))
 }

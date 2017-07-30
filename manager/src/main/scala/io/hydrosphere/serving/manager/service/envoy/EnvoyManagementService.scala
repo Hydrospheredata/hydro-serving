@@ -4,6 +4,7 @@ import java.util.UUID
 
 import io.hydrosphere.serving.manager.model.{ModelService, ModelServiceInstance}
 import io.hydrosphere.serving.manager.service.RuntimeManagementService
+import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.mutable
 import scala.concurrent.{ExecutionContext, Future}
@@ -18,9 +19,9 @@ case class EnvoyCluster(
   `type`: String,
   connect_timeout_ms: Long,
   lb_type: String,
-  hosts: Seq[EnvoyClusterHost],
-  service_name: String,
-  features: String
+  hosts: Option[Seq[EnvoyClusterHost]],
+  service_name: Option[String],
+  features: Option[String]
 )
 
 case class EnvoyClusterConfig(
@@ -51,7 +52,7 @@ case class EnvoyServiceTags(
 case class EnvoyServiceHost(
   ip_address: String,
   port: Int,
-  tags: Seq[EnvoyServiceTags]
+  tags: Option[Seq[EnvoyServiceTags]]
 )
 
 case class EnvoyServiceConfig(
@@ -68,7 +69,7 @@ trait EnvoyManagementService {
 
 class EnvoyManagementServiceImpl(
   runtimeManagementService: RuntimeManagementService
-)(implicit val ex: ExecutionContext) extends EnvoyManagementService {
+)(implicit val ex: ExecutionContext) extends EnvoyManagementService with Logging {
 
   private def fetchGatewayIfNeeded(modelService: ModelService): Future[Seq[ModelServiceInstance]] = {
     if (modelService.serviceId >= 0) {
@@ -123,7 +124,7 @@ class EnvoyManagementServiceImpl(
             EnvoyServiceHost(
               ip_address = s.host,
               port = s.sidecarPort,
-              tags = Seq()
+              tags = None
             )
           )
         )
@@ -144,35 +145,35 @@ class EnvoyManagementServiceImpl(
               services.foreach(s => {
                 if (s.serviceId == modelService.serviceId) {
                   clustres += EnvoyCluster(
-                    features = null,
+                    features = None,
                     connect_timeout_ms = 500,
                     lb_type = "round_robin",
-                    service_name = null,
+                    service_name = None,
                     name = s.serviceName,
                     `type` = "static",
-                    hosts = Seq(EnvoyClusterHost(s"tcp://127.0.0.1:${containerInstance.get.appPort}"))
+                    hosts = Some(Seq(EnvoyClusterHost(s"tcp://127.0.0.1:${containerInstance.get.appPort}")))
                   )
                 } else {
                   clustres += EnvoyCluster(
-                    features = null,
+                    features = None,
                     connect_timeout_ms = 500,
                     lb_type = "round_robin",
-                    service_name = s.serviceName,
+                    service_name = Some(s.serviceName),
                     name = s.serviceName,
                     `type` = "sds",
-                    hosts = null
+                    hosts = None
                   )
                 }
               })
               gatewayServiceInstances.foreach(s => {
                 clustres += EnvoyCluster(
-                  features = null,
+                  features = None,
                   connect_timeout_ms = 500,
                   lb_type = "round_robin",
-                  service_name = null,
+                  service_name = None,
                   name = UUID.nameUUIDFromBytes(s.instanceId.getBytes).toString,
                   `type` = "static",
-                  hosts = getStaticHost(modelService, s, containerId)
+                  hosts = Some(getStaticHost(modelService, s, containerId))
                 )
               })
 
