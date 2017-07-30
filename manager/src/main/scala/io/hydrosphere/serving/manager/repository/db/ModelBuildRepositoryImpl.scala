@@ -21,7 +21,7 @@ class ModelBuildRepositoryImpl(databaseService: DatabaseService)(implicit execut
   override def create(entity: ModelBuild): Future[ModelBuild] =
     db.run(
       Tables.ModelBuild returning Tables.ModelBuild += Tables.ModelBuildRow(
-        -1,
+        entity.id,
         entity.model.id,
         entity.modelVersion,
         entity.started,

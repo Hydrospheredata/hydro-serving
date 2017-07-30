@@ -30,7 +30,7 @@ class ModelRepositoryImpl(databaseService: DatabaseService)(implicit executionCo
   override def create(entity: Model): Future[Model] =
     db.run(
       Tables.Model returning Tables.Model += Tables.ModelRow(
-        -1,
+        entity.id,
         entity.name,
         entity.source,
         entity.runtimeType match {

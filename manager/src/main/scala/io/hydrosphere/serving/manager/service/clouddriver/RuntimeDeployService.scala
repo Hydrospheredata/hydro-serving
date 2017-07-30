@@ -37,7 +37,7 @@ trait RuntimeDeployService {
 
   def service(serviceId:Long):Option[ServiceInfo]
 
-  def deleteService(cloudDriveId: String)
+  def deleteService(serviceId: Long)
 
   def serviceInstances(): Seq[ModelServiceInstance]
 

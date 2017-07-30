@@ -11,7 +11,7 @@ import io.swagger.annotations._
 import scala.concurrent.duration._
 
 @Path("/api/v1/pipelines")
-@Api(value = "/api/v1/pipelines", produces = "application/json")
+@Api(produces = "application/json", tags = Array("Deployment: Pipelines"))
 class PipelineController(servingManagementService: ServingManagementService) extends ManagerJsonSupport {
   implicit val timeout = Timeout(5.seconds)
 
@@ -31,7 +31,7 @@ class PipelineController(servingManagementService: ServingManagementService) ext
   @ApiOperation(value = "Add Pipeline", notes = "Add Pipeline", nickname = "addPipeline", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "Pipeline", required = true,
-      dataType = "io.hydrosphere.serving.manager.model.Pipeline", paramType = "body")
+      dataType = "io.hydrosphere.serving.model.Pipeline", paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Pipeline", response = classOf[Pipeline]),
@@ -56,7 +56,7 @@ class PipelineController(servingManagementService: ServingManagementService) ext
     new ApiResponse(code = 200, message = "Pipeline Deleted"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def deletePipeline = get {
+  def deletePipeline = delete {
     path("api" / "v1" / "pipelines" / LongNumber) { pipelineId =>
       onSuccess(servingManagementService.deletePipeline(pipelineId)) {
         complete(200, None)

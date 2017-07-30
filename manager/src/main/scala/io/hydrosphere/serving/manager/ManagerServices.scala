@@ -1,9 +1,10 @@
 package io.hydrosphere.serving.manager
 
 import com.spotify.docker.client.DefaultDockerClient
-import io.hydrosphere.serving.manager.service.clouddriver.{RuntimeDeployService, SwarmRuntimeDeployService}
+import io.hydrosphere.serving.manager.service.clouddriver.{DockerRuntimeDeployService, RuntimeDeployService, SwarmRuntimeDeployService}
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.manager.service._
+import io.hydrosphere.serving.manager.service.envoy.EnvoyManagementServiceImpl
 
 import scala.concurrent.ExecutionContext
 
@@ -29,15 +30,20 @@ class ManagerServices(
 
   val runtimeDeployService: RuntimeDeployService = managerConfiguration.cloudDriver match {
     case c: SwarmCloudDriverConfiguration => new SwarmRuntimeDeployService(dockerClient, managerConfiguration)
+    case c: DockerCloudDriverConfiguration => new DockerRuntimeDeployService(dockerClient, managerConfiguration)
   }
 
-  val runtimeManagementService:RuntimeManagementService = new RuntimeManagementServiceImpl(
+  val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(
     runtimeDeployService,
     managerRepositories.modelServiceRepository
   )
 
-  val servingManagementService:ServingManagementService = new ServingManagementServiceImpl(
+  val servingManagementService: ServingManagementService = new ServingManagementServiceImpl(
     managerRepositories.endpointRepository,
     managerRepositories.pipelineRepository
+  )
+
+  val envoyManagementService = new EnvoyManagementServiceImpl(
+    runtimeManagementService
   )
 }

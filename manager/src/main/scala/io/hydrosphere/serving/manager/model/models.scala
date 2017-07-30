@@ -58,10 +58,6 @@ case class ModelServiceInstance(
   appPort: Int,
   sidecarPort: Int,
   serviceId: Long,
-  modelVersion: String,
-  modelName: String,
-  runtimeTypeName: String,
-  runtimeTypeVersion: String,
   status: ModelServiceInstanceStatus,
   statusText: String
 )

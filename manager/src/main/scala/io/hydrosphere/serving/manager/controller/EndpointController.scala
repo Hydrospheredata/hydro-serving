@@ -7,15 +7,15 @@ import akka.util.Timeout
 import io.hydrosphere.serving.manager.service.ServingManagementService
 import io.hydrosphere.serving.model.Endpoint
 import io.swagger.annotations._
-
 import io.swagger.annotations.Api
+
 import scala.concurrent.duration._
 
 /**
   *
   */
 @Path("/api/v1/endpoints")
-@Api(value = "/api/v1/endpoints", produces = "application/json")
+@Api(produces = "application/json", tags = Array("Deployment: Endpoints"))
 class EndpointController(servingManagementService: ServingManagementService) extends ManagerJsonSupport {
   implicit val timeout = Timeout(5.seconds)
 
@@ -36,7 +36,7 @@ class EndpointController(servingManagementService: ServingManagementService) ext
   @ApiOperation(value = "Add Endpoint", notes = "Add Endpoint", nickname = "addEndpoint", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "Endpoint", required = true,
-      dataType = "io.hydrosphere.serving.manager.model.Endpoint", paramType = "body")
+      dataType = "io.hydrosphere.serving.model.Endpoint", paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Endpoint", response = classOf[Endpoint]),
@@ -61,7 +61,7 @@ class EndpointController(servingManagementService: ServingManagementService) ext
     new ApiResponse(code = 200, message = "Endpoint Deleted"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def delete = get {
+  def deleteEndpoint = delete {
     path("api" / "v1" / "endpoints" / LongNumber) { endpointId =>
       onSuccess(servingManagementService.deleteEndpoint(endpointId)) {
         complete(200, None)
@@ -69,6 +69,6 @@ class EndpointController(servingManagementService: ServingManagementService) ext
     }
   }
 
-  val routes = listAll ~ add ~ delete
+  val routes = listAll ~ add ~ deleteEndpoint
 
 }

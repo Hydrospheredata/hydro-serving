@@ -31,7 +31,6 @@ APP_OPTS="$APP_OPTS -Dsidecar.port=$SIDECAR_HTTP_PORT"
 if [ "$CUSTOM_CONFIG" = "" ]
 then
     APP_OPTS="$APP_OPTS -Dmanager.advertisedHost=$ADVERTISED_MANAGER_HOST -Dmanager.advertisedPort=$ADVERTISED_MANAGER_PORT"
-    APP_OPTS="$APP_OPTS -DcloudDriver.swarm.networkName=$SWARM_NETWORK_NAME"
     APP_OPTS="$APP_OPTS -Ddatabase.jdbcUrl=jdbc:postgresql://$DATABASE_HOST:$DATABASE_PORT/$DATABASE_NAME"
     APP_OPTS="$APP_OPTS -Ddatabase.username=$DATABASE_USERNAME -Ddatabase.password=$DATABASE_PASSWORD"
     echo "Custom config does not exist"
@@ -42,5 +41,11 @@ fi
 echo "Running Manager with:"
 echo "JAVA_OPTS=$JAVA_OPTS"
 echo "APP_OPTS=$APP_OPTS"
+
+#TODO Dirty hack, because of jffi-1.2.9-native.jar
+mkdir -p /tmp
+unzip /hydro-serving/app/lib/jffi-*-native.jar jni/x86_64-Linux/* -d /tmp
+cp /tmp/jni/x86_64-Linux/* /usr/lib64/
+rm -rf /tmp/jni
 
 java $JAVA_OPTS $APP_OPTS -cp "/hydro-serving/app/manager.jar:/hydro-serving/app/lib/*" io.hydrosphere.serving.manager.ManagerBoot

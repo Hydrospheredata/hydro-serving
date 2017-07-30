@@ -20,7 +20,7 @@ class EndpointRepositoryImpl(databaseService: DatabaseService)(implicit executio
   override def create(entity: Endpoint): Future[Endpoint] =
     db.run(
       Tables.Endpoint returning Tables.Endpoint += Tables.EndpointRow(
-        -1,
+        entity.endpointId,
         entity.name,
         entity.currentPipeline match {
           case Some(r) => Some(r.pipelineId)

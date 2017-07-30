@@ -20,7 +20,7 @@ class ModelRuntimeRepositoryImpl(databaseService: DatabaseService)(implicit exec
   override def create(entity: ModelRuntime): Future[ModelRuntime] =
     db.run(
       Tables.ModelRuntime returning Tables.ModelRuntime += Tables.ModelRuntimeRow(
-        -1,
+        entity.id,
         entity.runtimeType match {
           case Some(r) => Some(r.id)
           case _ => None
