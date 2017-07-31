@@ -4,7 +4,7 @@ import javax.ws.rs.Path
 
 import akka.http.scaladsl.server.Directives._
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.service.ServingManagementService
+import io.hydrosphere.serving.manager.service.{CreatePipelineRequest, ServingManagementService}
 import io.hydrosphere.serving.model.Pipeline
 import io.swagger.annotations._
 
@@ -31,7 +31,7 @@ class PipelineController(servingManagementService: ServingManagementService) ext
   @ApiOperation(value = "Add Pipeline", notes = "Add Pipeline", nickname = "addPipeline", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "Pipeline", required = true,
-      dataType = "io.hydrosphere.serving.model.Pipeline", paramType = "body")
+      dataType = "io.hydrosphere.serving.manager.service.CreatePipelineRequest", paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Pipeline", response = classOf[Pipeline]),
@@ -39,7 +39,7 @@ class PipelineController(servingManagementService: ServingManagementService) ext
   ))
   def addPipeline = path("api" / "v1" / "pipelines") {
     post {
-      entity(as[Pipeline]) { r =>
+      entity(as[CreatePipelineRequest]) { r =>
         complete(
           servingManagementService.addPipeline(r)
         )

@@ -73,6 +73,17 @@ class ModelServiceRepositoryImpl(databaseService: DatabaseService)(implicit exec
         .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
         .result.headOption
     ).map(m => mapFromDb(m))
+
+  override def fetchByIds(ids: Seq[Long]): Future[Seq[ModelService]] =
+    db.run(
+      Tables.ModelService
+        .filter(_.serviceId inSetBind ids)
+        .joinLeft(Tables.ModelRuntime)
+        .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.RuntimeType)
+        .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
+        .result
+    ).map(m => mapFromDb(m))
 }
 
 object ModelServiceRepositoryImpl {
