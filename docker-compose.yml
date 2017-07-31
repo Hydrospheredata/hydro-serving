@@ -1,5 +1,10 @@
 version: "3"
 services:
+  zipkin:
+    image: openzipkin/zipkin:1.28.1
+    ports:
+      - "9411:9411"
+
   postgres:
     image: postgres:9.6-alpine
     ports:
@@ -8,8 +13,6 @@ services:
       POSTGRES_DB: "docker"
       POSTGRES_USER: "docker"
       POSTGRES_PASSWORD: "docker"
-    networks:
-      - net1
 
   hydro-serving-manager:
     image: hydro-serving/manager:0.0.1
@@ -19,24 +22,15 @@ services:
       - "9090:9090"
     depends_on:
       - postgres
+      - zipkin
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
-      SWARM_NETWORK_NAME: "net1"
       ADVERTISED_MANAGER_HOST: "hydro-serving-manager"
       DATABASE_HOST: "postgres"
-      HS_SERVICE_ID: "-20"
-      APP_HTTP_PORT: "9090"
-      SIDECAR_HTTP_PORT: "8080"
-    networks:
-      - net1
-    labels:
-      HS_SERVICE_MARKER: "HS_SERVICE_MARKER"
-      hydroServingServiceId: "-20"
-    deploy:
-      labels:
-        HS_SERVICE_MARKER: "HS_SERVICE_MARKER"
-        hydroServingServiceId: "-20"
+      ZIPKIN_ENABLED: "true"
+      ZIPKIN_HOST: "zipkin"
+      DOCKER_NETWORK_NAME: "hydro-serving_default"
 
   hydro-serving-gateway:
     image: hydro-serving/gateway:0.0.1
@@ -46,22 +40,8 @@ services:
       - "9190:9090"
     depends_on:
       - hydro-serving-manager
-      - postgres
+      - zipkin
     environment:
       MANAGER_HOST: "hydro-serving-manager"
-      HS_SERVICE_ID: "-10"
-      APP_HTTP_PORT: "9090"
-      SIDECAR_HTTP_PORT: "8080"
-    networks:
-      - net1
-    labels:
-      HS_SERVICE_MARKER: "HS_SERVICE_MARKER"
-      hydroServingServiceId: "-10"
-    deploy:
-      labels:
-        HS_SERVICE_MARKER: "HS_SERVICE_MARKER"
-        hydroServingServiceId: "-10"
-
-networks:
-  net1:
-    external: true
+      ZIPKIN_ENABLED: "true"
+      ZIPKIN_HOST: "zipkin"
