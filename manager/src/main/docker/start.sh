@@ -14,8 +14,6 @@ SERVICE_ID=$1
 [ -z "$ZIPKIN_HOST" ] && ZIPKIN_HOST="zipkin"
 [ -z "$ZIPKIN_PORT" ] && ZIPKIN_PORT="9411"
 
-[ -z "$SWARM_NETWORK_NAME" ] && SWARM_NETWORK_NAME="bridge"
-
 [ -z "$DATABASE_HOST" ] && DATABASE_HOST="postgresql"
 [ -z "$DATABASE_PORT" ] && DATABASE_PORT="5432"
 [ -z "$DATABASE_NAME" ] && DATABASE_NAME="docker"
@@ -33,6 +31,12 @@ then
     APP_OPTS="$APP_OPTS -Dmanager.advertisedHost=$ADVERTISED_MANAGER_HOST -Dmanager.advertisedPort=$ADVERTISED_MANAGER_PORT"
     APP_OPTS="$APP_OPTS -Ddatabase.jdbcUrl=jdbc:postgresql://$DATABASE_HOST:$DATABASE_PORT/$DATABASE_NAME"
     APP_OPTS="$APP_OPTS -Ddatabase.username=$DATABASE_USERNAME -Ddatabase.password=$DATABASE_PASSWORD"
+    if [ -n "$SWARM_NETWORK_NAME" ]; then
+        APP_OPTS="$APP_OPTS -DcloudDriver.swarm.networkName=$SWARM_NETWORK_NAME"
+    fi
+    if [ -n "$DOCKER_NETWORK_NAME" ]; then
+        APP_OPTS="$APP_OPTS -DcloudDriver.docker.networkName=$DOCKER_NETWORK_NAME"
+    fi
     echo "Custom config does not exist"
 else
    APP_OPTS="$APP_OPTS -Dconfig.file=$CUSTOM_CONFIG"

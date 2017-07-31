@@ -20,7 +20,7 @@ class DockerRuntimeDeployService(
   managerConfiguration: ManagerConfiguration
 ) extends RuntimeDeployService with Logging {
 
-  override def deploy(runtime: ModelService): String ={
+  override def deploy(runtime: ModelService): String = {
     val conf = managerConfiguration.cloudDriver.asInstanceOf[DockerCloudDriverConfiguration]
     val labels = Map[String, String](
       LABEL_SERVICE_ID -> runtime.serviceId.toString,
@@ -42,16 +42,18 @@ class DockerRuntimeDeployService(
       s"$ENV_ZIPKIN_PORT=${managerConfiguration.zipkin.port.toString}"
     )
 
-    val c=dockerClient.createContainer(ContainerConfig.builder()
-        .image(s"${runtime.modelRuntime.imageName}:${runtime.modelRuntime.imageMD5Tag}")
-        .labels(javaLabels)
-        .hostname(runtime.serviceName)
-        .env(env)
-        .build(),runtime.serviceName)
+    val c = dockerClient.createContainer(ContainerConfig.builder()
+      .hostConfig(HostConfig.builder()
+        .networkMode(conf.networkName).build()
+      )
+      .image(s"${runtime.modelRuntime.imageName}:${runtime.modelRuntime.imageMD5Tag}")
+      .labels(javaLabels)
+      .hostname(runtime.serviceName)
+      .env(env)
+      .build(), runtime.serviceName)
     dockerClient.startContainer(c.id())
     c.id()
   }
-
 
 
   def mapToServiceInfo(container: ContainerInfo): ServiceInfo = {
@@ -102,28 +104,34 @@ class DockerRuntimeDeployService(
       }).head
   }
 
-  private def serviceInstances(criteria: ListContainersParam): Seq[ModelServiceInstance] ={
+  private def serviceInstances(criteria: ListContainersParam): Seq[ModelServiceInstance] = {
     val conf = managerConfiguration.cloudDriver.asInstanceOf[DockerCloudDriverConfiguration]
     dockerClient.listContainers(criteria).map(s => {
-      val container = dockerClient.inspectContainer(s.id())
-      val envMap = container.config().env()
-        .map(p => p.split(":"))
-        .filter(arr => arr.length > 1 && arr(0) != null && arr(1) != null)
-        .map(arr => arr(0) -> arr(1)).toMap
+      try {
+        val container = dockerClient.inspectContainer(s.id())
+        val envMap = container.config().env()
+          .map(p => p.split(":"))
+          .filter(arr => arr.length > 1 && arr(0) != null && arr(1) != null)
+          .map(arr => arr(0) -> arr(1)).toMap
 
-      ModelServiceInstance(
-        instanceId = container.id(),
-        host = container.networkSettings().networks().get(conf.networkName).ipAddress(),
-        serviceId = container.config().labels().get(LABEL_SERVICE_ID).toLong,
-        status = if (container.state().running()) {
-          ModelServiceInstanceStatus.UP
-        } else {
-          ModelServiceInstanceStatus.DOWN
-        },
-        statusText = s.status,
-        appPort = envMap.getOrDefault(ENV_APP_HTTP_PORT, "9090").toInt,
-        sidecarPort = envMap.getOrDefault(ENV_SIDECAR_HTTP_PORT, "8080").toInt
-      )
-    })
+        Some(ModelServiceInstance(
+          instanceId = container.id(),
+          host = container.networkSettings().networks().get(conf.networkName).ipAddress(),
+          serviceId = container.config().labels().get(LABEL_SERVICE_ID).toLong,
+          status = if (container.state().running()) {
+            ModelServiceInstanceStatus.UP
+          } else {
+            ModelServiceInstanceStatus.DOWN
+          },
+          statusText = s.status,
+          appPort = envMap.getOrDefault(ENV_APP_HTTP_PORT, "9090").toInt,
+          sidecarPort = envMap.getOrDefault(ENV_SIDECAR_HTTP_PORT, "8080").toInt
+        ))
+      } catch {
+        case ex: Throwable =>
+          logger.error(s"Can't parse container $s", ex)
+          None
+      }
+    }).filter(p => p.isDefined).flatten
   }
 }
