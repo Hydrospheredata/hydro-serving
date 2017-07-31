@@ -78,7 +78,7 @@ case class ModelRuntime(
   imageMD5Tag: String,
   modelName: String,
   modelVersion: String,
-  source: String,
+  source: Option[String],
   runtimeType: Option[RuntimeType],
   outputFields: List[String],
   inputFields: List[String],
@@ -87,5 +87,5 @@ case class ModelRuntime(
 )
 
 class UnknownModelRuntime extends ModelRuntime(
-  -1, "", "", "", "", "", "", None, List(), List(), LocalDateTime.now(), None
+  -1, "", "", "", "", "", None, None, List(), List(), LocalDateTime.now(), None
 )

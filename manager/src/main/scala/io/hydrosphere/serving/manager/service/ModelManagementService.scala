@@ -79,7 +79,7 @@ case class CreateModelRuntime(
       imageMD5Tag = this.imageMD5Tag,
       modelName = this.modelName,
       modelVersion = this.modelVersion,
-      source = this.source.getOrElse("UNKNOWN"),
+      source = this.source,
       runtimeType = runtimeType,
       outputFields = this.outputFields.getOrElse(List()),
       inputFields = this.inputFields.getOrElse(List()),
