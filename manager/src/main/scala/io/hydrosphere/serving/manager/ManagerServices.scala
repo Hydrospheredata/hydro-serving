@@ -41,7 +41,8 @@ class ManagerServices(
 
   val servingManagementService: ServingManagementService = new ServingManagementServiceImpl(
     managerRepositories.endpointRepository,
-    managerRepositories.pipelineRepository
+    managerRepositories.pipelineRepository,
+    managerRepositories.modelServiceRepository
   )
 
   val envoyManagementService = new EnvoyManagementServiceImpl(

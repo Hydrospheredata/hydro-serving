@@ -43,6 +43,16 @@ class PipelineRepositoryImpl(databaseService: DatabaseService)(implicit executio
       Tables.Pipeline
         .result
     ).map(s => s.map(ss => mapFromDb(ss)))
+
+  override def fetchByIds(ids: Seq[Long]): Future[Seq[Pipeline]] = {
+    val query = for {
+      v <- Tables.Pipeline
+      if v.pipelineId inSetBind ids
+    } yield v
+
+    db.run(query.result)
+      .map(s => s.map(ss => mapFromDb(ss)))
+  }
 }
 
 object PipelineRepositoryImpl {

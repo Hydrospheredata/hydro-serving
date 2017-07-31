@@ -7,7 +7,6 @@ import io.hydrosphere.serving.manager.service.clouddriver.{RuntimeDeployService,
 import scala.concurrent.{ExecutionContext, Future}
 
 case class CreateModelServiceRequest(
-  serviceId: Long,
   serviceName: String,
   modelRuntimeId: Long
 ) {
