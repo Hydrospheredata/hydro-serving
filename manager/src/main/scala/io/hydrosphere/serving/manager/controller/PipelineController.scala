@@ -4,9 +4,11 @@ import javax.ws.rs.Path
 
 import akka.http.scaladsl.server.Directives._
 import akka.util.Timeout
+import io.hydrosphere.serving.controller.TracingHeaders
 import io.hydrosphere.serving.manager.service.{CreatePipelineRequest, ServingManagementService}
 import io.hydrosphere.serving.model.Pipeline
 import io.swagger.annotations._
+import spray.json.JsObject
 
 import scala.concurrent.duration._
 
@@ -31,7 +33,7 @@ class PipelineController(servingManagementService: ServingManagementService) ext
   @ApiOperation(value = "Add Pipeline", notes = "Add Pipeline", nickname = "addPipeline", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "Pipeline", required = true,
-      dataType = "io.hydrosphere.serving.manager.service.CreatePipelineRequest", paramType = "body")
+      dataTypeClass = classOf[CreatePipelineRequest], paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Pipeline", response = classOf[Pipeline]),
@@ -64,5 +66,28 @@ class PipelineController(servingManagementService: ServingManagementService) ext
     }
   }
 
-  val routes = listAll ~ addPipeline ~ deletePipeline
+  @Path("/serve/{pipelineId}")
+  @ApiOperation(value = "Serve Pipeline", notes = "Serve Pipeline", nickname = "ServePipeline", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "pipelineId", required = true, dataType = "long", paramType = "path", value = "pipelineId"),
+    new ApiImplicitParam(name = "body", value = "Any", required = true, paramType = "body")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Any", responseContainer = "List"),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def servePipeline = path("api" / "v1" / "pipelines" / "serve" / LongNumber) { pipelineId =>
+    post {
+      extractRequest { request =>
+        entity(as[Seq[Any]]) { r =>
+          complete(
+            servingManagementService.servePipeline(pipelineId, r, request.headers
+              .filter(h => TracingHeaders.isTracingHeaderName(h.name())))
+          )
+        }
+      }
+    }
+  }
+
+  val routes = listAll ~ addPipeline ~ deletePipeline ~ servePipeline
 }

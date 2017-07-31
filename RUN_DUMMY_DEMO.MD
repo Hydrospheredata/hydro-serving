@@ -1,5 +1,6 @@
 ## With Docker Compose
 ```
+MODEL_DIRECTORY=/path/to/hydro-serving-runtime/models
 docker-compose up
 ```
 

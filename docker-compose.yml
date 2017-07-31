@@ -31,6 +31,8 @@ services:
       ZIPKIN_ENABLED: "true"
       ZIPKIN_HOST: "zipkin"
       DOCKER_NETWORK_NAME: "hydro-serving_default"
+    volumes:
+      - ${MODEL_DIRECTORY}:/models
 
   hydro-serving-gateway:
     image: hydro-serving/gateway:0.0.1

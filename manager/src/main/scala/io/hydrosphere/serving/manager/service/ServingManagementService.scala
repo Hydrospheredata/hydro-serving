@@ -1,6 +1,8 @@
 package io.hydrosphere.serving.manager.service
 
 
+import akka.http.scaladsl.model.HttpHeader
+import io.hydrosphere.serving.connector.{ExecutionCommand, ExecutionUnit, RuntimeMeshConnector}
 import io.hydrosphere.serving.manager.model.ModelService
 import io.hydrosphere.serving.manager.repository.{EndpointRepository, ModelServiceRepository, PipelineRepository}
 import io.hydrosphere.serving.model.{Endpoint, Pipeline, PipelineStage}
@@ -63,12 +65,17 @@ trait ServingManagementService {
 
   def allPipelines(): Future[Seq[Pipeline]]
 
+  def serveModelService(serviceId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
+
+  def servePipeline(pipelineId: Long, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
+
 }
 
 class ServingManagementServiceImpl(
   endpointRepository: EndpointRepository,
   pipelineRepository: PipelineRepository,
-  modelServiceRepository: ModelServiceRepository
+  modelServiceRepository: ModelServiceRepository,
+  runtimeMeshConnector: RuntimeMeshConnector
 )(implicit val ex: ExecutionContext) extends ServingManagementService {
 
   override def deletePipeline(pipelineId: Long): Future[Unit] =
@@ -93,6 +100,34 @@ class ServingManagementServiceImpl(
 
   override def deleteEndpoint(endpointId: Long): Future[Unit] =
     endpointRepository.delete(endpointId).map(p => Unit)
+
+  override def serveModelService(serviceId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
+    modelServiceRepository.get(serviceId).flatMap({
+      case None => throw new IllegalArgumentException(s"Wrong service Id=$serviceId")
+      case Some(service) => runtimeMeshConnector.execute(ExecutionCommand(
+        headers = headers,
+        json = request,
+        pipe = Seq(ExecutionUnit(
+          serviceName = service.serviceName,
+          servicePath = servePath
+        ))
+      )).map(r => r.json)
+    })
+
+  override def servePipeline(pipelineId: Long, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
+    pipelineRepository.get(pipelineId).flatMap({
+      case None => throw new IllegalArgumentException(s"Can't find Pipeline with id $pipelineId")
+      case Some(r) =>
+        runtimeMeshConnector.execute(ExecutionCommand(
+          headers = headers,
+          json = request,
+          pipe = r.stages
+            .map(s => ExecutionUnit(
+              serviceName = s.serviceName,
+              servicePath = s.servePath
+            ))
+        )).map(r => r.json)
+    })
 
   private def fetchPipeline(id: Option[Long]): Future[Option[Pipeline]] = {
     if (id.isEmpty) {
