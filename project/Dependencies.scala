@@ -55,6 +55,7 @@ object Dependencies {
       "org.postgresql" % "postgresql" % postgresqlVersion,
       "com.typesafe.slick" %% "slick" % slickVersion,
       "com.typesafe.slick" %% "slick-hikaricp" % slickVersion,
+      "com.zaxxer" % "HikariCP" % "2.6.3",
       "com.github.tminglei" %% "slick-pg" % "0.15.1",
       "org.flywaydb" % "flyway-core" % "4.2.0",
       "com.spotify" % "docker-client" % "8.8.0" exclude("ch.qos.logback", "logback-classic")
