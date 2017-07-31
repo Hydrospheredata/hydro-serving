@@ -5,18 +5,28 @@ import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
+import io.hydrosphere.serving.controller.TracingHeaders
 import io.hydrosphere.serving.manager.model.ModelService
-import io.hydrosphere.serving.manager.service.{CreateModelServiceRequest, RuntimeManagementService}
+import io.hydrosphere.serving.manager.service.{CreateModelServiceRequest, RuntimeManagementService, ServingManagementService}
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
+
+case class ServeData(
+  id: Long,
+  path: String,
+  data: Seq[Any]
+)
 
 /**
   *
   */
 @Path("/api/v1/modelService")
 @Api(produces = "application/json", tags = Array("Deployment: Model Service"))
-class ModelServiceController (runtimeManagementService: RuntimeManagementService) extends ManagerJsonSupport {
+class ModelServiceController(
+  runtimeManagementService: RuntimeManagementService,
+  servingManagementService: ServingManagementService
+) extends ManagerJsonSupport {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/")
@@ -35,7 +45,7 @@ class ModelServiceController (runtimeManagementService: RuntimeManagementService
   @ApiOperation(value = "Add ModelService", notes = "Add ModelService", nickname = "addModelService", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "CreateModelServiceRequest", required = true,
-      dataType = "io.hydrosphere.serving.manager.service.CreateModelServiceRequest", paramType = "body")
+      dataTypeClass = classOf[CreateModelServiceRequest], paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "ModelService", response = classOf[ModelService]),
@@ -62,7 +72,7 @@ class ModelServiceController (runtimeManagementService: RuntimeManagementService
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def listInstances = get {
-    path("api" / "v1" / "modelService" / "instances" / LongNumber) { serviceId=>
+    path("api" / "v1" / "modelService" / "instances" / LongNumber) { serviceId =>
       complete(runtimeManagementService.instancesForService(serviceId))
     }
   }
@@ -84,5 +94,28 @@ class ModelServiceController (runtimeManagementService: RuntimeManagementService
     }
   }
 
-  val routes: Route = listAll ~ addService ~ listInstances ~ deleteService
+  @Path("/serve/{serviceId}")
+  @ApiOperation(value = "Serve ModelService", notes = "Serve ModelService", nickname = "ServeModelService", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "serviceId", required = true, dataType = "long", paramType = "path", value = "serviceId"),
+    new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[ServeData], required = true, paramType = "body")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Any", response=classOf[ServeData]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def serveService = path("api" / "v1" / "modelService" / "serve" / LongNumber) { serviceId =>
+    post {
+      extractRequest { request =>
+        entity(as[ServeData]) { r =>
+          complete(
+            servingManagementService.serveModelService(serviceId, r.path, r.data, request.headers
+              .filter(h => TracingHeaders.isTracingHeaderName(h.name())))
+          )
+        }
+      }
+    }
+  }
+
+  val routes: Route = listAll ~ addService ~ listInstances ~ deleteService ~ serveService
 }

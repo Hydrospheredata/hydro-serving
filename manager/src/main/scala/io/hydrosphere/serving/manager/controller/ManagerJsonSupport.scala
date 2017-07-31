@@ -40,4 +40,6 @@ trait ManagerJsonSupport extends CommonJsonSupport {
   implicit val createPipelineStageRequest = jsonFormat2(CreatePipelineStageRequest)
 
   implicit val createPipelineRequest = jsonFormat2(CreatePipelineRequest)
+
+  implicit val serveData = jsonFormat3(ServeData)
 }

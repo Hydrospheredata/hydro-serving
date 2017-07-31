@@ -1,9 +1,11 @@
 package io.hydrosphere.serving.manager.service
 
+import akka.http.scaladsl.model.HttpHeader
 import io.hydrosphere.serving.manager.model.{ModelRuntime, ModelService, ModelServiceInstance, UnknownModelRuntime}
 import io.hydrosphere.serving.manager.repository.{ModelRuntimeRepository, ModelServiceRepository}
 import io.hydrosphere.serving.manager.service.clouddriver.{RuntimeDeployService, ServiceInfo}
 
+import scala.collection.immutable
 import scala.concurrent.{ExecutionContext, Future}
 
 case class CreateModelServiceRequest(
@@ -136,4 +138,5 @@ class RuntimeManagementServiceImpl(
   override def deleteService(serviceId: Long): Future[Unit] =
     Future(runtimeDeployService.deleteService(serviceId))
       .flatMap(p => modelServiceRepository.delete(serviceId).map(p => Unit))
+  
 }

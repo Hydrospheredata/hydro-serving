@@ -24,13 +24,16 @@ class ManagerApi(managerServices: ManagerServices)
 
   val modelRuntimeController = new ModelRuntimeController(managerServices.modelManagementService)
 
-  val modelServiceController = new ModelServiceController(managerServices.runtimeManagementService)
+  val modelServiceController = new ModelServiceController(
+    managerServices.runtimeManagementService,
+    managerServices.servingManagementService
+  )
 
   val pipelineController = new PipelineController(managerServices.servingManagementService)
 
   val endpointController = new EndpointController(managerServices.servingManagementService)
 
-  val envoyManagementController=new EnvoyManagementController(managerServices.envoyManagementService)
+  val envoyManagementController = new EnvoyManagementController(managerServices.envoyManagementService)
 
   val swaggerController = new SwaggerDocController(system) {
     override val apiTypes: Seq[ru.Type] = Seq(
