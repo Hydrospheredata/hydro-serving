@@ -5,6 +5,7 @@ import java.nio.file._
 import java.nio.file.attribute.FileAttribute
 
 import com.spotify.docker.client.DockerClient
+import com.spotify.docker.client.DockerClient.BuildParam
 import com.spotify.docker.client.messages.RegistryAuth
 import io.hydrosphere.serving.manager.model.{ModelBuild, ModelRuntime}
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
@@ -96,7 +97,8 @@ class DefaultModelBuildService(
       buildPath,
       s"${modelBuild.model.name}:${modelBuild.modelVersion}",
       "Dockerfile",
-      createProgressHadlerWrapper(progressHandler)
+      createProgressHadlerWrapper(progressHandler),
+      BuildParam.noCache()
     )
   }
 
