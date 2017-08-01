@@ -15,6 +15,7 @@ class DatabaseService(config:Config) {
   hikariConfig.setPassword(config.getString("password"))
   hikariConfig.setDriverClassName("org.postgresql.Driver")
   hikariConfig.setMaximumPoolSize(config.getInt("maximumPoolSize"))
+  hikariConfig.setInitializationFailTimeout(20000)
   val dataSource = new HikariDataSource(hikariConfig)
 
   //Upgrade current schema

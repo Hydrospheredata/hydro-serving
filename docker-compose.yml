@@ -1,70 +1,49 @@
 version: "3"
 services:
   zipkin:
-    image: openzipkin/zipkin
+    image: openzipkin/zipkin:1.28.1
     ports:
       - "9411:9411"
-    networks:
-      - net1
+
+  postgres:
+    image: postgres:9.6-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: "docker"
+      POSTGRES_USER: "docker"
+      POSTGRES_PASSWORD: "docker"
 
   hydro-serving-manager:
-    image: hydro-serving/manager:1.0-SNAPSHOT
+    image: hydro-serving/manager:0.0.1
     ports:
       - "8080:8080"
+      - "8082:8082"
+      - "9090:9090"
+    depends_on:
+      - postgres
+      - zipkin
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-    depends_on:
-      - zipkin
-    labels:
-      - httpPort=8080
-      - appHttpPort=9090
     environment:
-      SWARM_NETWORK_NAME: "net1"
+      ADVERTISED_MANAGER_HOST: "hydro-serving-manager"
+      DATABASE_HOST: "postgres"
       ZIPKIN_ENABLED: "true"
       ZIPKIN_HOST: "zipkin"
-      MANAGER_EXPOSED_HOST: "hydro-serving-manager"
-      MANAGER_SERVICE_NAME: "hydroserving_hydro-serving-manager"
-      GATEWAY_SERVICE_NAME: "hydroserving_hydro-serving-gateway"
-      REPOSITORY_SERVICE_NAME: "hydroserving_hydro-serving-repository"
-    networks:
-      - net1
-
-  hydro-serving-gateway:
-    image: hydro-serving/gateway:1.0-SNAPSHOT
-    ports:
-      - "8081:8080"
-      - "8083:8082"
-    depends_on:
-      - zipkin
-      - hydro-serving-manager
-    labels:
-      - httpPort=8080
-      - appHttpPort=9090
-    environment:
-      ZIPKIN_ENABLED: "true"
-      ZIPKIN_HOST: "zipkin"
-      MANAGER_HOST: "hydro-serving-manager"
-    networks:
-      - net1
-
-  hydro-serving-repository:
-    image: hydro-serving/repository:1.0-SNAPSHOT
-    ports:
-      - "8082:8080"
-    depends_on:
-      - zipkin
-      - hydro-serving-manager
-    labels:
-      - httpPort=8080
-      - appHttpPort=9090
-    environment:
-      ZIPKIN_ENABLED: "true"
-      ZIPKIN_HOST: "zipkin"
-      MANAGER_HOST: "hydro-serving-manager"
+      DOCKER_NETWORK_NAME: "hydro-serving_default"
     volumes:
       - ${MODEL_DIRECTORY}:/models
-    networks:
-      - net1
-networks:
-  net1:
-    external: true
+
+  hydro-serving-gateway:
+    image: hydro-serving/gateway:0.0.1
+    ports:
+      - "8180:8080"
+      - "8182:8082"
+      - "9190:9090"
+    depends_on:
+      - hydro-serving-manager
+      - zipkin
+    environment:
+      MANAGER_HOST: "hydro-serving-manager"
+      ZIPKIN_ENABLED: "true"
+      ZIPKIN_HOST: "zipkin"
