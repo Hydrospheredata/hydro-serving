@@ -35,7 +35,7 @@ class ModelController(modelManagementService: ModelManagementService) extends Ma
   @ApiOperation(value = "Add model", notes = "Add model", nickname = "addModel", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "CreateOrUpdateModelRequest", required = true,
-      dataType = "io.hydrosphere.serving.manager.service.CreateOrUpdateModelRequest", paramType = "body")
+      dataTypeClass = classOf[CreateOrUpdateModelRequest], paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Model", response = classOf[Model]),
@@ -52,10 +52,10 @@ class ModelController(modelManagementService: ModelManagementService) extends Ma
   }
 
   @Path("/")
-  @ApiOperation(value = "Update model", notes = "Update model", nickname = "updateModel", httpMethod = "POST")
+  @ApiOperation(value = "Update model", notes = "Update model", nickname = "updateModel", httpMethod = "PUT")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "CreateOrUpdateModelRequest", required = true,
-      dataType = "io.hydrosphere.serving.manager.service.Model", paramType = "body")
+      dataTypeClass = classOf[CreateOrUpdateModelRequest], paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Model", response = classOf[Model]),
@@ -122,14 +122,14 @@ class ModelController(modelManagementService: ModelManagementService) extends Ma
   @ApiOperation(value = "Build model", notes = "Build model", nickname = "buildModel", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "Model", required = true,
-      dataType = "io.hydrosphere.serving.manager.controller.BuildModelRequest", paramType = "body")
+      dataTypeClass = classOf[BuildModelRequest], paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Model", response = classOf[Model]),
+    new ApiResponse(code = 200, message = "Model", response = classOf[ModelRuntime]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def buildModel = path("api" / "v1" / "model" / "build") {
-    put {
+    post {
       entity(as[BuildModelRequest]) { r =>
         complete(
           modelManagementService.buildModel(r.modelId, r.modelVersion)

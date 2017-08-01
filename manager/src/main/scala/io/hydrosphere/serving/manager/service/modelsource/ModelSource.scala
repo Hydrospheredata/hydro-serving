@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service.modelsource
 
 import java.io.File
-import java.nio.file.Paths
+import java.nio.file.{Path, Paths}
 
 import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, ModelSourceConfiguration, S3ModelSourceConfiguration}
 
@@ -9,6 +9,8 @@ import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, ModelSourc
   * Created by Bulat on 31.05.2017.
   */
 trait ModelSource {
+
+  def getLocalCopy(source: String): Path
 
   def getReadableFile(runtimeName: String, modelName: String, path: String): File
 
@@ -18,7 +20,7 @@ trait ModelSource {
 
   def getSubDirs: List[String]
 
-  def getSourcePrefix():String
+  def getSourcePrefix(): String
 }
 
 

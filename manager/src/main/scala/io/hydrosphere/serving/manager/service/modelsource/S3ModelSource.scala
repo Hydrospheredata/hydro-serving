@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.service.modelsource
 
 import java.io.File
 import java.net.URI
-import java.nio.file.{Files, Paths, StandardCopyOption}
+import java.nio.file.{Files, Path, Paths, StandardCopyOption}
 
 import awscala.s3.S3
 import io.hydrosphere.serving.manager.S3ModelSourceConfiguration
@@ -63,4 +63,6 @@ class S3ModelSource(val conf: S3ModelSourceConfiguration) extends ModelSource {
   }
 
   override def getSourcePrefix(): String = conf.name
+
+  override def getLocalCopy(source: String): Path = ???
 }

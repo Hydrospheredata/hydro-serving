@@ -8,6 +8,7 @@ import io.hydrosphere.serving.manager.service.clouddriver.{DockerRuntimeDeploySe
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.envoy.EnvoyManagementServiceImpl
+import io.hydrosphere.serving.manager.service.modelbuild.{DefaultModelBuildService, ModelBuildService}
 
 import scala.concurrent.ExecutionContext
 
@@ -27,15 +28,22 @@ class ManagerServices(
 
   val runtimeMeshConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector(managerConfiguration.sidecar)
 
+  val modelSources: Map[ModelSourceConfiguration, ModelSource] = managerConfiguration.modelSources
+    .map(conf => conf -> ModelSource.fromConfig(conf)).toMap
+
+  val modelBuildService: ModelBuildService = new DefaultModelBuildService(
+    dockerClient,
+    modelSources.values.toSeq
+  )
+
   val modelManagementService: ModelManagementService = new ModelManagementServiceImpl(
     managerRepositories.runtimeTypeRepository,
     managerRepositories.modelRepository,
     managerRepositories.modelRuntimeRepository,
-    managerRepositories.modelBuildRepository
+    managerRepositories.modelBuildRepository,
+    managerRepositories.runtimeTypeBuildScriptRepository,
+    modelBuildService
   )
-
-  val modelSources: Map[ModelSourceConfiguration, ModelSource] = managerConfiguration.modelSources
-    .map(conf => conf -> ModelSource.fromConfig(conf)).toMap
 
   val runtimeDeployService: RuntimeDeployService = managerConfiguration.cloudDriver match {
     case c: SwarmCloudDriverConfiguration => new SwarmRuntimeDeployService(dockerClient, managerConfiguration)

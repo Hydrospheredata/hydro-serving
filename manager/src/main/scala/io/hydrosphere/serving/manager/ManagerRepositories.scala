@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager
 
-import io.hydrosphere.serving.manager.repository._
+import io.hydrosphere.serving.manager.repository.{RuntimeTypeBuildScriptRepository, _}
 import io.hydrosphere.serving.manager.repository.db._
 
 import scala.concurrent.ExecutionContext
@@ -19,6 +19,8 @@ trait ManagerRepositories {
   def pipelineRepository: PipelineRepository
 
   def endpointRepository: EndpointRepository
+
+  def runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository
 }
 
 class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit executionContext: ExecutionContext)
@@ -38,4 +40,6 @@ class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit execution
   val pipelineRepository: PipelineRepository = new PipelineRepositoryImpl(dataService)
 
   val endpointRepository: EndpointRepository = new EndpointRepositoryImpl(dataService)
+
+  val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository = new RuntimeTypeBuildScriptRepositoryImpl(dataService)
 }

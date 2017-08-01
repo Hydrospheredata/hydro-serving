@@ -34,4 +34,7 @@ class LocalModelSource(val conf: LocalModelSourceConfiguration) extends ModelSou
   }
 
   override def getSourcePrefix(): String = conf.name
+
+  override def getLocalCopy(source: String): Path =
+    Paths.get(conf.path, source.split(":").last)
 }

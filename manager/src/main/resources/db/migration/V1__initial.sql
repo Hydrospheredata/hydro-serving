@@ -71,3 +71,11 @@ CREATE TABLE hydro_serving.endpoint
   endpoint_name TEXT                                     NOT NULL UNIQUE,
   pipeline_id   BIGINT REFERENCES pipeline (pipeline_id)
 );
+
+CREATE TABLE hydro_serving.runtime_type_build_script
+(
+  name            TEXT NOT NULL,
+  version         TEXT,
+  script          TEXT NOT NULL,
+  PRIMARY KEY (name, version)
+)

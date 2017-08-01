@@ -1,6 +1,9 @@
 package io.hydrosphere.serving.manager.repository.db
 
+import java.time.LocalDateTime
+
 import io.hydrosphere.serving.manager.db.Tables
+import io.hydrosphere.serving.manager.model.ModelBuildStatus.ModelBuildStatus
 import io.hydrosphere.serving.manager.model.{Model, ModelBuild, ModelBuildStatus, ModelRuntime}
 import io.hydrosphere.serving.manager.repository._
 import org.apache.logging.log4j.scala.Logging
@@ -86,6 +89,19 @@ class ModelBuildRepositoryImpl(databaseService: DatabaseService)(implicit execut
         .take(maximum)
         .result
     ).map(s => mapFromDb(s))
+
+  override def finishBuild(id: Long, status: ModelBuildStatus, statusText: String, finished: LocalDateTime,
+    modelRuntime: Option[ModelRuntime]): Future[Int] = {
+    val query = for {
+      build <- Tables.ModelBuild if build.modelBuildId === id
+    } yield (build.status, build.statusText, build.finishedTimestamp, build.runtimeId)
+
+    db.run(query.update(status.toString, Some(statusText), Some(finished), modelRuntime match {
+      case Some(r) => Some(r.id)
+      case _ => None
+    }))
+  }
+
 }
 
 object ModelBuildRepositoryImpl {
