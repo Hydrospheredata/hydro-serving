@@ -1,0 +1,14 @@
+{
+  "docExpansion": "none",
+  "apisSorter": "alpha",
+  "defaultModelRendering": "schema",
+  "supportedSubmitMethods": [
+    "get",
+    "post",
+    "put",
+    "delete",
+    "patch"
+  ],
+  "jsonEditor": false,
+  "showRequestHeaders": true
+}
