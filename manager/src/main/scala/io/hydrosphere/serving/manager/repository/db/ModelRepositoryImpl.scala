@@ -17,6 +17,7 @@ class ModelRepositoryImpl(databaseService: DatabaseService)(implicit executionCo
 
   import databaseService._
   import databaseService.driver.api._
+  import ModelRepositoryImpl._
 
   override def updateLastUpdatedTime(source: String, timestamp: LocalDateTime): Future[Int] = {
     val query = for {
@@ -29,7 +30,7 @@ class ModelRepositoryImpl(databaseService: DatabaseService)(implicit executionCo
   override def create(entity: Model): Future[Model] =
     db.run(
       Tables.Model returning Tables.Model += Tables.ModelRow(
-        -1,
+        entity.id,
         entity.name,
         entity.source,
         entity.runtimeType match {
@@ -47,7 +48,7 @@ class ModelRepositoryImpl(databaseService: DatabaseService)(implicit executionCo
   override def get(id: Long): Future[Option[Model]] =
     db.run(
       Tables.Model
-        .filter(_.runtimeTypeId === id)
+        .filter(_.modelId === id)
         .joinLeft(Tables.RuntimeType)
         .on({ case (m, rt) => m.runtimeTypeId === rt.runtimeTypeId })
         .result.headOption
@@ -76,13 +77,17 @@ class ModelRepositoryImpl(databaseService: DatabaseService)(implicit executionCo
         .result
     ).map(s => mapFromDb(s))
 
+  override def update(value: Model): Future[Int] = ???
+}
+
+object ModelRepositoryImpl{
   def mapFromDb(model: Option[(Tables.Model#TableElementType, Option[Tables.RuntimeType#TableElementType])]): Option[Model] = model match {
     case Some(tuple) =>
       Some(mapFromDb(tuple._1, tuple._2.map(t => RuntimeTypeRepositoryImpl.mapFromDb(t))))
     case _ => None
   }
 
-  private def mapFromDb(tuples: Seq[(Tables.Model#TableElementType, Option[Tables.RuntimeType#TableElementType])]): Seq[Model] = {
+  def mapFromDb(tuples: Seq[(Tables.Model#TableElementType, Option[Tables.RuntimeType#TableElementType])]): Seq[Model] = {
     tuples.map(tuple =>
       mapFromDb(tuple._1, tuple._2.map(t => RuntimeTypeRepositoryImpl.mapFromDb(t))))
   }

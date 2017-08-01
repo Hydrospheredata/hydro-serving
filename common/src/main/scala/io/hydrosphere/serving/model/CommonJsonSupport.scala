@@ -24,9 +24,9 @@ class EnumJsonConverter[T <: scala.Enumeration](enu: T) extends RootJsonFormat[T
 trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with Logging {
 
   implicit val errorResponseFormat = jsonFormat1(ErrorResponse)
-  implicit val stageFormat = jsonFormat2(PipelineStage)
+  implicit val stageFormat = jsonFormat3(PipelineStage)
   implicit val pipelineFormat = jsonFormat3(Pipeline)
-  implicit val endpointFormat = jsonFormat2(Endpoint)
+  implicit val endpointFormat = jsonFormat3(Endpoint)
 
   implicit object AnyJsonFormat extends JsonFormat[Any] {
     def write(any: Any): JsValue = any match {
