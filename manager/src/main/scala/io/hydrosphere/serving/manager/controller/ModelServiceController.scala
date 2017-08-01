@@ -94,22 +94,21 @@ class ModelServiceController(
     }
   }
 
-  @Path("/serve/{serviceId}")
+  @Path("/serve")
   @ApiOperation(value = "Serve ModelService", notes = "Serve ModelService", nickname = "ServeModelService", httpMethod = "POST")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "serviceId", required = true, dataType = "long", paramType = "path", value = "serviceId"),
     new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[ServeData], required = true, paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Any", response=classOf[ServeData]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def serveService = path("api" / "v1" / "modelService" / "serve" / LongNumber) { serviceId =>
+  def serveService = path("api" / "v1" / "modelService" / "serve" ) {
     post {
       extractRequest { request =>
         entity(as[ServeData]) { r =>
           complete(
-            servingManagementService.serveModelService(serviceId, r.path, r.data, request.headers
+            servingManagementService.serveModelService(r.id, r.path, r.data, request.headers
               .filter(h => TracingHeaders.isTracingHeaderName(h.name())))
           )
         }
