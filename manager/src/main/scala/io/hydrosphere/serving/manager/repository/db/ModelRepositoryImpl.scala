@@ -52,7 +52,7 @@ class ModelRepositoryImpl(databaseService: DatabaseService)(implicit executionCo
         .joinLeft(Tables.RuntimeType)
         .on({ case (m, rt) => m.runtimeTypeId === rt.runtimeTypeId })
         .result.headOption
-    ).map(m=>mapFromDb(m))
+    ).map(m => mapFromDb(m))
 
   override def delete(id: Long): Future[Int] =
     db.run(
@@ -77,10 +77,34 @@ class ModelRepositoryImpl(databaseService: DatabaseService)(implicit executionCo
         .result
     ).map(s => mapFromDb(s))
 
-  override def update(value: Model): Future[Int] = ???
+  override def update(value: Model): Future[Int] = {
+    val query = for {
+      models <- Tables.Model if models.modelId === value.id
+    } yield (
+      models.name,
+      models.source,
+      models.runtimeTypeId,
+      models.description,
+      models.outputFields,
+      models.inputFields
+    )
+
+    db.run(query.update(
+      value.name,
+      value.source,
+      value.runtimeType match {
+        case Some(r) => Some(r.id)
+        case _ => None
+      },
+      value.description,
+      value.outputFields,
+      value.inputFields
+    ))
+  }
+
 }
 
-object ModelRepositoryImpl{
+object ModelRepositoryImpl {
   def mapFromDb(model: Option[(Tables.Model#TableElementType, Option[Tables.RuntimeType#TableElementType])]): Option[Model] = model match {
     case Some(tuple) =>
       Some(mapFromDb(tuple._1, tuple._2.map(t => RuntimeTypeRepositoryImpl.mapFromDb(t))))
