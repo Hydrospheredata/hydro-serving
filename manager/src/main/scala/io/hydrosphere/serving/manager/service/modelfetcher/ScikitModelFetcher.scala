@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service.modelfetcher
 
 import java.io.FileNotFoundException
-import java.nio.file.Files
+import java.nio.file.{Files, NoSuchFileException}
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.manager.model.{Model, RuntimeType}
@@ -33,7 +33,7 @@ object ScikitMetadata extends CommonJsonSupport{
 object ScikitModelFetcher extends ModelFetcher with Logging {
 
   private def getMetadata(source: ModelSource, modelName: String): ScikitMetadata = {
-    val metaFile = source.getReadableFile("scikit", modelName, "metadata.json")
+    val metaFile = source.getReadableFile(modelName, "metadata.json")
     val metaStr = Files.readAllLines(metaFile.toPath).mkString
     ScikitMetadata.fromJson(metaStr)
   }
@@ -53,8 +53,11 @@ object ScikitModelFetcher extends ModelFetcher with Logging {
         LocalDateTime.now()
       ))
     } catch {
+      case e: NoSuchFileException =>
+        logger.debug(s"$directory in not a valid SKLearn model")
+        None
       case e: FileNotFoundException =>
-        logger.warn(s"$directory in not a valid SKLearn model")
+        logger.debug(s"$directory in not a valid SKLearn model")
         None
     }
   }

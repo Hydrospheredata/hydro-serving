@@ -1,25 +1,31 @@
 package io.hydrosphere.serving.manager.service.modelfetcher
-import java.nio.file.{Files, Paths}
+
+import scala.collection.JavaConversions._
+import java.io.FileNotFoundException
+import java.nio.file.{Files, NoSuchFileException}
 import java.time.LocalDateTime
 
-import io.hydrosphere.serving.manager.model.{Model, RuntimeType, SchematicRuntimeType}
+import io.hydrosphere.serving.manager.model.{Model, SchematicRuntimeType}
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
-import org.tensorflow.framework.meta_graph.MetaGraphDef
+import org.apache.logging.log4j.scala.Logging
+import org.tensorflow.framework.{SavedModel}
 /**
   * Created by bulat on 24/07/2017.
   */
-object TensorflowModelFetcher extends ModelFetcher {
+object TensorflowModelFetcher extends ModelFetcher with Logging {
   override def fetch(source: ModelSource, directory: String): Option[Model] = {
     try {
-      val fullPath = s"${source.getSourcePrefix()}:/$directory"
-      val metagraph = MetaGraphDef.parseFrom(Files.newInputStream(Paths.get("")))
-      val inputs = metagraph.signatureDef("default").inputs.keys.toList
-      val outputs = metagraph.signatureDef("default").outputs.keys.toList
+      val pbFile = source.getReadableFile(directory, "saved_model.pb")
+      val savedModel = SavedModel.parseFrom(Files.newInputStream(pbFile.toPath))
+      val metagraph = savedModel.getMetaGraphs(0)
+      val signature = metagraph.getSignatureDefMap.get("serving_default")
+      val inputs = signature.getInputsMap.keySet.toList
+      val outputs = signature.getOutputsMap.keySet.toList
       Some(
         Model(
           -1,
           directory,
-          fullPath,
+          s"${source.getSourcePrefix()}:/$directory",
           Some(
             new SchematicRuntimeType("tensorflow", "1.0")
           ),
@@ -31,7 +37,11 @@ object TensorflowModelFetcher extends ModelFetcher {
         )
       )
     } catch {
-      case e: Exception =>
+      case e: NoSuchFileException =>
+        logger.debug(s"$directory in not a valid Tensorflow model")
+        None
+      case e: FileNotFoundException =>
+        logger.debug(s"$source $directory in not a valid Tensorflow model")
         None
     }
   }

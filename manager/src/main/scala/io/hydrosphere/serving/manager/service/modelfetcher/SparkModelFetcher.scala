@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service.modelfetcher
 
 import java.io.FileNotFoundException
-import java.nio.file.Files
+import java.nio.file.{Files, NoSuchFileException}
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.manager.model.{Model, RuntimeType, SchematicRuntimeType}
@@ -48,13 +48,13 @@ object SparkModelFetcher extends ModelFetcher with Logging {
   }
 
   private def getStageMetadata(source: ModelSource, model: String, stage: String): SparkMetadata = {
-    val metaFile = source.getReadableFile("spark", model, s"stages/$stage/metadata/part-00000")
+    val metaFile = source.getReadableFile(model, s"stages/$stage/metadata/part-00000")
     val metaStr = Files.readAllLines(metaFile.toPath).mkString
     SparkMetadata.fromJson(metaStr)
   }
 
   private def getMetadata(source: ModelSource, model: String): SparkMetadata = {
-    val metaFile = source.getReadableFile("spark", model, "metadata/part-00000")
+    val metaFile = source.getReadableFile(model, "metadata/part-00000")
     val metaStr = Files.readAllLines(metaFile.toPath).mkString
     SparkMetadata.fromJson(metaStr)
   }
@@ -105,8 +105,11 @@ object SparkModelFetcher extends ModelFetcher with Logging {
         LocalDateTime.now()
       ))
     } catch {
+      case e: NoSuchFileException =>
+        logger.debug(s"$directory in not a valid SparkML model")
+        None
       case e: FileNotFoundException =>
-        logger.warn(s"$source $directory in not a valid SparkML model")
+        logger.debug(s"$source $directory in not a valid SparkML model")
         None
     }
   }
