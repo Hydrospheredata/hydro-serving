@@ -1,6 +1,6 @@
 ## With Docker Compose
 ```
-MODEL_DIRECTORY=/path/to/hydro-serving-runtime/models
+export MODEL_DIRECTORY=/path/to/hydro-serving-runtime/models
 docker-compose up
 ```
 
@@ -20,12 +20,14 @@ docker run -e POSTGRES_DB=docker \
 * Run manager
 ```
 HOST_IP=$(ifconfig en0 | grep 'inet ' |  awk '{ print $2}')
+export MODEL_DIRECTORY=/path/to/hydro-serving-runtime/models
 docker run -e ADVERTISED_MANAGER_HOST=$HOST_IP \
     -e DATABASE_HOST=$HOST_IP \
     -e ZIPKIN_ENABLED=true \
     -e ZIPKIN_HOST=$HOST_IP \
     -p 8080:8080 -p 8082:8082 -p 9090:9090 \
     -v /var/run/docker.sock:/var/run/docker.sock \
+    -v ${MODEL_DIRECTORY}:/models \
     hydro-serving/manager:0.0.1
 ```
 * Run gateway
@@ -114,7 +116,7 @@ Result:
 * Create Model Services
 ```
 curl --header 'Content-Type: application/json' --header 'Accept: */*' \
--X POST http://localhost:8080/api/v1/modelService \
+-X POST http://localhost:9090/api/v1/modelService \
 -d @- << EOF
 {
   "serviceName": "dummy1",

@@ -9,6 +9,7 @@ import com.spotify.docker.client.DockerClient.BuildParam
 import com.spotify.docker.client.messages.RegistryAuth
 import io.hydrosphere.serving.manager.model.{ModelBuild, ModelRuntime}
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
+import org.apache.commons.io.FileUtils
 
 
 case class ProgressDetail(
@@ -92,7 +93,7 @@ class DefaultModelBuildService(
 
   private def build(buildPath: Path, model: Path, dockerFile: String, progressHandler: ProgressHandler, modelBuild: ModelBuild): String = {
     Files.copy(new ByteArrayInputStream(dockerFile.getBytes), buildPath.resolve("Dockerfile"))
-    Files.copy(model, buildPath.resolve(s"$modelDir/"))
+    FileUtils.copyDirectory(model.toFile, buildPath.resolve(s"$modelDir/").toFile)
     dockerClient.build(
       buildPath,
       s"${modelBuild.model.name}:${modelBuild.modelVersion}",

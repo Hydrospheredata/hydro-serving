@@ -66,6 +66,7 @@ class ModelRuntimeRepositoryImpl(databaseService: DatabaseService)(implicit exec
         .filter(_.modelId === modelId)
         .joinLeft(Tables.RuntimeType)
         .on({ case (m, rt) => m.runtimeTypeId === rt.runtimeTypeId })
+        .sortBy(_._1.runtimeId.desc)
         .take(max)
         .result
     ).map(s => mapFromDb(s))
