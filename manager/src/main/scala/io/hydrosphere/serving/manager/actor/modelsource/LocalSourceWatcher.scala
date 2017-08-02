@@ -3,10 +3,10 @@ package io.hydrosphere.serving.manager.actor.modelsource
 import java.io.File
 import java.nio.file.StandardWatchEventKinds._
 import java.nio.file._
+import java.time.LocalDateTime
 
-import akka.actor.{ActorRef, Props}
-import io.hydrosphere.serving.manager.LocalModelSourceConfiguration
-import io.hydrosphere.serving.manager.actor.IndexerActor.Index
+import akka.actor.Props
+import com.google.common.hash.Hashing
 import io.hydrosphere.serving.manager.actor.modelsource.SourceWatcher.{FileCreated, FileDeleted, FileEvent, FileModified}
 import io.hydrosphere.serving.manager.service.modelsource.LocalModelSource
 import io.hydrosphere.serving.util.FileUtils._
@@ -18,7 +18,7 @@ import scala.collection.mutable
 /**
   * Created by Bulat on 31.05.2017.
   */
-class LocalSourceWatcher(val source: LocalModelSource, val indexer: ActorRef) extends SourceWatcher {
+class LocalSourceWatcher(val source: LocalModelSource) extends SourceWatcher {
   private[this] val watcher = FileSystems.getDefault.newWatchService()
   private[this] val keys = mutable.Map.empty[WatchKey, Path]
 
@@ -48,15 +48,17 @@ class LocalSourceWatcher(val source: LocalModelSource, val indexer: ActorRef) ex
 
       case StandardWatchEventKinds.ENTRY_CREATE =>
         log.debug(s"File system event: ENTRY_CREATE: $child")
-        Some(FileCreated(file))
+        val hash = com.google.common.io.Files.asByteSource(child.toFile).hash(Hashing.sha256()).toString
+        Some(FileCreated(source, file, hash, LocalDateTime.now()))
 
       case StandardWatchEventKinds.ENTRY_MODIFY =>
         log.debug(s"File system event: ENTRY_MODIFY: $child")
-        Some(FileModified(file))
+        val hash = com.google.common.io.Files.asByteSource(child.toFile).hash(Hashing.sha256()).toString
+        Some(FileModified(source, file, hash, LocalDateTime.now()))
 
       case StandardWatchEventKinds.ENTRY_DELETE =>
         log.debug(s"File system event: ENTRY_DELETE: $child")
-        Some(FileDeleted(file))
+        Some(FileDeleted(source, file))
 
       case x =>
         log.warning(s"File system event: Unknown: $x")
@@ -85,6 +87,6 @@ class LocalSourceWatcher(val source: LocalModelSource, val indexer: ActorRef) ex
 }
 
 object LocalSourceWatcher{
-  def props(source: LocalModelSource, indexer: ActorRef)=
-    Props(classOf[LocalSourceWatcher], source, indexer)
+  def props(source: LocalModelSource)=
+    Props(classOf[LocalSourceWatcher], source)
 }

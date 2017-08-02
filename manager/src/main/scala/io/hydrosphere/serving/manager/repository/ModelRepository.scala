@@ -10,6 +10,8 @@ import scala.concurrent.Future
   *
   */
 trait ModelRepository extends BaseRepository[Model, Long] {
+  def get(name: String): Future[Option[Model]]
+
   def update(value: Model): Future[Int]
 
   def updateLastUpdatedTime(source: String, timestamp: LocalDateTime): Future[Int]

@@ -30,6 +30,7 @@ class ManagerServices(
   val modelManagementService: ModelManagementService = new ModelManagementServiceImpl(
     managerRepositories.runtimeTypeRepository,
     managerRepositories.modelRepository,
+    managerRepositories.modelFilesRepository,
     managerRepositories.modelRuntimeRepository,
     managerRepositories.modelBuildRepository
   )

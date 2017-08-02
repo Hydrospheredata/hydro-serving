@@ -20,13 +20,19 @@ object ModelFetcher extends Logging {
     ScikitModelFetcher
   )
 
-  def getModels(source: ModelSource): Seq[Model] = {
-    source.getSubDirs.map { folder =>
-      val fetch_results = fetchers.map(_.fetch(source, folder))
-      val model = fetch_results.filter(_.isDefined).head
-      model.getOrElse {
+  def getModel(source: ModelSource, folder: String) = {
+    fetchers
+      .map(_.fetch(source, folder))
+      .filter(_.isDefined)
+      .map(_.get)
+      .headOption
+      .getOrElse {
         Model(-1, folder, "unknown", None, None, List.empty, List.empty, LocalDateTime.now(), LocalDateTime.now())
       }
-    }
+
+  }
+
+  def getModels(source: ModelSource): Seq[Model] = {
+    source.getSubDirs.map(getModel(source, _))
   }
 }

@@ -85,8 +85,7 @@ object SparkModelFetcher extends ModelFetcher with Logging {
 
   override def fetch(source: ModelSource, directory: String): Option[Model] = {
     try {
-      val fullPath = s"${source.getSourcePrefix()}:/$directory"
-      val stagesDir = s"$fullPath/stages"
+      val stagesDir = s"$directory/stages"
 
       val pipelineMetadata = getMetadata(source, directory)
       val stagesMetadata = source.getSubDirs(stagesDir).map { stage =>
@@ -96,7 +95,7 @@ object SparkModelFetcher extends ModelFetcher with Logging {
       Some(Model(
         -1,
         directory,
-        fullPath,
+        s"${source.getSourcePrefix()}:/$directory",
         Some(getRuntimeType(pipelineMetadata)),
         None,
         getOutputCols(stagesMetadata),

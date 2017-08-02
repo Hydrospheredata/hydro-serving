@@ -44,7 +44,7 @@ object ScikitModelFetcher extends ModelFetcher with Logging {
       Some(Model(
         -1,
         directory,
-        directory,
+        s"${source.getSourcePrefix()}:/$directory",
         None,
         None,
         metadata.outputs,

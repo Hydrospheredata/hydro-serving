@@ -65,6 +65,7 @@ object Dependencies {
       "com.github.tminglei" %% "slick-pg" % "0.15.1",
       "org.flywaydb" % "flyway-core" % "4.2.0",
       "com.spotify" % "docker-client" % "8.8.0" exclude("ch.qos.logback", "logback-classic"),
+      "com.google.guava" % "guava" % "22.0",
       "org.tensorflow" % "proto" % "1.2.1"
     ))
 }
