@@ -16,13 +16,15 @@ import scala.util.{Failure, Success, Try}
 
 case class CreateRuntimeTypeRequest(
   name: String,
-  version: String
+  version: String,
+  tags: Option[List[String]]
 ) {
   def toRuntimeType: RuntimeType = {
     RuntimeType(
       id = 0,
       name = this.name,
-      version = this.version
+      version = this.version,
+      tags = this.tags.getOrElse(List())
     )
   }
 }
@@ -321,7 +323,7 @@ class ModelManagementServiceImpl(
   }
 
   def deleteModel(modelName: String): Future[Model] = {
-    modelRepository.get(modelName).flatMap{
+    modelRepository.get(modelName).flatMap {
       case Some(model) =>
         modelFilesRepository.deleteModelFiles(model.id)
         modelRepository.delete(model.id)
@@ -350,7 +352,7 @@ class ModelManagementServiceImpl(
   }
 
   def updateOrCreateModelFile(source: ModelSource, fileName: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[ModelFile] = {
-    modelFilesRepository.get(fileName).flatMap{
+    modelFilesRepository.get(fileName).flatMap {
       case Some(modelFile) =>
         modelFilesRepository.update(
           ModelFile(
@@ -368,7 +370,7 @@ class ModelManagementServiceImpl(
   }
 
   def deleteModelFile(fileName: String): Future[Int] = {
-    modelFilesRepository.get(fileName).flatMap{
+    modelFilesRepository.get(fileName).flatMap {
       case Some(modelFile) =>
         modelFilesRepository.delete(modelFile.id)
       case None =>

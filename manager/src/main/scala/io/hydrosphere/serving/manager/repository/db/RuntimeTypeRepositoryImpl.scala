@@ -33,7 +33,7 @@ class RuntimeTypeRepositoryImpl(databaseService: DatabaseService)(implicit execu
 
   override def create(entity: RuntimeType): Future[RuntimeType] =
     db.run(
-      Tables.RuntimeType returning Tables.RuntimeType += Tables.RuntimeTypeRow(entity.id, entity.name, entity.version)
+      Tables.RuntimeType returning Tables.RuntimeType += Tables.RuntimeTypeRow(entity.id, entity.name, entity.version, entity.tags)
     ).map(s => mapFromDb(s))
 
   override def get(id: Long): Future[Option[RuntimeType]] =
@@ -64,6 +64,11 @@ object RuntimeTypeRepositoryImpl {
   }
 
   def mapFromDb(dbType: Tables.RuntimeType#TableElementType): RuntimeType = {
-    RuntimeType(id = dbType.runtimeTypeId, name = dbType.name, version = dbType.version)
+    RuntimeType(
+      id = dbType.runtimeTypeId,
+      name = dbType.name,
+      version = dbType.version,
+      tags = dbType.tags
+    )
   }
 }
