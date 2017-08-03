@@ -19,11 +19,13 @@ lazy val dataBaseUrl = s"jdbc:postgresql://localhost:5432/$dataBaseName"
 
 lazy val startDatabase = (sourceManaged, dependencyClasspath in Compile, runner in Compile, streams) map { (dir, cp, r, s) =>
   val cli: DockerClient = DefaultDockerClient.fromEnv().build()
+  val dbImage="postgres:9.6-alpine"
 
   cli.listContainers(DockerClient.ListContainersParam.allContainers(true)).asScala
     .filter(p => p.names().contains("/postgres_compile"))
     .foreach(p => cli.removeContainer(p.id(), DockerClient.RemoveContainerParam.forceKill(true)))
 
+  cli.pull(dbImage)
   val containerId = cli.createContainer(ContainerConfig.builder()
     .env(s"POSTGRES_DB=$dataBaseName", s"POSTGRES_USER=$dataBaseUser", s"POSTGRES_PASSWORD=$dataBasePassword")
     .hostConfig(HostConfig.builder()
@@ -31,7 +33,7 @@ lazy val startDatabase = (sourceManaged, dependencyClasspath in Compile, runner 
         util.Arrays.asList(PortBinding.of("0.0.0.0", 5432))))
       .build())
     .exposedPorts("5432")
-    .image("postgres:9.6-alpine")
+    .image(dbImage)
     .build(), "postgres_compile").id()
   cli.startContainer(containerId)
   Thread.sleep(10000)
