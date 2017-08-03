@@ -10,6 +10,8 @@ trait ManagerRepositories {
 
   def modelRepository: ModelRepository
 
+  def modelFilesRepository: ModelFilesRepository
+
   def modelRuntimeRepository: ModelRuntimeRepository
 
   def modelBuildRepository: ModelBuildRepository
@@ -30,6 +32,8 @@ class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit execution
   val runtimeTypeRepository: RuntimeTypeRepository = new RuntimeTypeRepositoryImpl(dataService)
 
   val modelRepository: ModelRepository = new ModelRepositoryImpl(dataService)
+
+  val modelFilesRepository = new ModelFilesRepositoryImpl(dataService)
 
   val modelRuntimeRepository: ModelRuntimeRepository = new ModelRuntimeRepositoryImpl(dataService)
 

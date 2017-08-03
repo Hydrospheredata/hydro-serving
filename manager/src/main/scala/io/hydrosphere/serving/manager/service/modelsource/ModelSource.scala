@@ -12,20 +12,24 @@ trait ModelSource {
 
   def getLocalCopy(source: String): Path
 
-  def getReadableFile(runtimeName: String, modelName: String, path: String): File
+  def getReadableFile(path: String): File
 
-  def getAllFiles(runtimeName: String, modelName: String): List[String]
+  def getAllFiles(folder: String): List[String]
 
   def getSubDirs(path: String): List[String]
 
   def getSubDirs: List[String]
 
-  def getSourcePrefix(): String
+  def getSourcePrefix():String
+
+  def configuration: ModelSourceConfiguration
+
+  def getModelPath(modelSource: String): Path
 }
 
 
 object ModelSource {
-  def fromConfig(conf: ModelSourceConfiguration): ModelSource = conf match {
+  def fromConfig[T <: ModelSourceConfiguration](conf: T): ModelSource = conf match {
     case local: LocalModelSourceConfiguration =>
       new LocalModelSource(local)
     case s3: S3ModelSourceConfiguration =>

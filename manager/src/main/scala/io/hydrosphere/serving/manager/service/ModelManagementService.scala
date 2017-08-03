@@ -5,6 +5,9 @@ import java.time.LocalDateTime
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ProgressHandler, ProgressMessage}
+import io.hydrosphere.serving.manager.repository._
+import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
+import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -113,6 +116,8 @@ trait ModelManagementService {
 
   def createModel(entity: CreateOrUpdateModelRequest): Future[Model]
 
+  def deleteModel(modelName: String): Future[Model]
+
   def updatedInModelSource(entity: Model): Future[Unit]
 
   def addModelRuntime(entity: CreateModelRuntime): Future[ModelRuntime]
@@ -126,12 +131,19 @@ trait ModelManagementService {
   def modelBuildsByModel(id: Long): Future[Seq[ModelBuild]]
 
   def lastModelBuildsByModel(id: Long, maximum: Int): Future[Seq[ModelBuild]]
+
+  def createFileForModel(source: ModelSource, path: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[ModelFile]
+
+  def updateOrCreateModelFile(source: ModelSource, modelName: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[ModelFile]
+
+  def deleteModelFile(fileName: String): Future[Int]
 }
 
 
 class ModelManagementServiceImpl(
   runtimeTypeRepository: RuntimeTypeRepository,
   modelRepository: ModelRepository,
+  modelFilesRepository: ModelFilesRepository,
   modelRuntimeRepository: ModelRuntimeRepository,
   modelBuildRepository: ModelBuildRepository,
   runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository,
@@ -308,4 +320,60 @@ class ModelManagementServiceImpl(
     }
   }
 
+  def deleteModel(modelName: String): Future[Model] = {
+    modelRepository.get(modelName).flatMap{
+      case Some(model) =>
+        modelFilesRepository.deleteModelFiles(model.id)
+        modelRepository.delete(model.id)
+        Future(model)
+      case None =>
+        Future.failed(new NoSuchElementException)
+    }
+  }
+
+  def createFileForModel(source: ModelSource, fileName: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[ModelFile] = {
+    val modelName = fileName.split("/").head
+    modelRepository.get(modelName).flatMap {
+      case Some(model) =>
+        modelFilesRepository.create(
+          ModelFile(-1, fileName, model, hash, createdAt, updatedAt)
+        )
+      case None =>
+        val model = ModelFetcher.getModel(source, modelName)
+        addModel(model)
+          .flatMap { model =>
+            modelFilesRepository.create(
+              ModelFile(-1, fileName, model, hash, createdAt, updatedAt)
+            )
+          }
+    }
+  }
+
+  def updateOrCreateModelFile(source: ModelSource, fileName: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[ModelFile] = {
+    modelFilesRepository.get(fileName).flatMap{
+      case Some(modelFile) =>
+        modelFilesRepository.update(
+          ModelFile(
+            modelFile.id,
+            modelFile.path,
+            modelFile.model,
+            modelFile.hashSum,
+            modelFile.createdAt,
+            modelFile.updatedAt
+          )
+        )
+      case None =>
+        createFileForModel(source, fileName, hash, updatedAt, updatedAt)
+    }
+  }
+
+  def deleteModelFile(fileName: String): Future[Int] = {
+    modelFilesRepository.get(fileName).flatMap{
+      case Some(modelFile) =>
+        modelFilesRepository.delete(modelFile.id)
+      case None =>
+        logger.error(s"No such file: $fileName")
+        Future.failed(new NoSuchElementException())
+    }
+  }
 }
