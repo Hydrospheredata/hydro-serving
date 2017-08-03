@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.repository.db
 
 import io.hydrosphere.serving.manager
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model.ModelFile
+import io.hydrosphere.serving.manager.model.{Model, ModelFile}
 import io.hydrosphere.serving.manager.repository.ModelFilesRepository
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -13,7 +13,17 @@ class ModelFilesRepositoryImpl(databaseService: DatabaseService)(implicit execut
   import databaseService._
   import databaseService.driver.api._
 
-  override def create(entity: ModelFile): Future[ModelFile] = ???
+  override def create(entity: ModelFile): Future[ModelFile] =
+    db.run(
+      Tables.ModelFiles returning Tables.ModelFiles += Tables.ModelFilesRow(
+        entity.id,
+        entity.path,
+        entity.model.id,
+        entity.hashSum,
+        entity.createdAt,
+        entity.updatedAt
+      )
+    ).map(s => mapFromDb(s, entity.model))
 
   override def get(id: Long): Future[Option[ModelFile]] = ???
 
@@ -34,9 +44,27 @@ class ModelFilesRepositoryImpl(databaseService: DatabaseService)(implicit execut
     ).map(mapFromDb)
 
   override def update(modelFile: ModelFile): Future[ModelFile] = ???
+
+  override def deleteModelFiles(modelId: Long): Future[Int] =
+    db.run(
+      Tables.ModelFiles
+        .filter(_.modelId === modelId)
+        .delete
+    )
 }
 
 object ModelFilesRepositoryImpl {
+
+  def mapFromDb(s: _root_.io.hydrosphere.serving.manager.db.Tables.ModelFilesRow, model: Model): ModelFile = {
+    ModelFile(
+      s.fileId,
+      s.filePath,
+      model,
+      s.hashSum,
+      s.createdAt,
+      s.updatedAt
+    )
+  }
 
   def mapFromDb(x: (Tables.ModelFilesRow, Tables.ModelRow)): ModelFile = {
     ModelFile(

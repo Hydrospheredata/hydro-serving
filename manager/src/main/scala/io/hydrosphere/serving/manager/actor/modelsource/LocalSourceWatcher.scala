@@ -36,33 +36,61 @@ class LocalSourceWatcher(val source: LocalModelSource) extends SourceWatcher {
     _subscribe(dirFile)
   }
 
-  private def handleWatcherEvent[T](path: Path, event: WatchEvent[T]): Option[FileEvent] = {
+  private def handleWatcherEvent[T](path: Path, event: WatchEvent[T]): List[FileEvent] = {
     val name = event.context().asInstanceOf[Path]
-    val child = path.resolve(name)
-    val file = child.relativize(source.sourceFile.toPath).toString
+    val child = source.sourceFile.toPath.resolve(name)
+    val childFile = child.toFile
+    val relativePath = source.sourceFile.toPath.relativize(child)
+    println(s"name: $name")
+    println(s"source: ${source.configuration.path}")
+    println(s"child: $child")
+    if (childFile.isHidden) {
+      Nil
+    } else {
+      val file = relativePath.toString
+      event.kind() match {
+        case StandardWatchEventKinds.OVERFLOW =>
+          log.warning(s"File system event: Overflow: $event")
+          Nil
 
-    event.kind() match {
-      case StandardWatchEventKinds.OVERFLOW =>
-        log.warning(s"File system event: Overflow: $event")
-        None
+        case StandardWatchEventKinds.ENTRY_CREATE =>
+          log.debug(s"File system event: ENTRY_CREATE: $relativePath")
+          if (Files.isDirectory(child)) {
+            // Delete all files in this directory
+            childFile
+              .listFilesRecursively
+              .map(_.toPath)
+              .map(source.sourceFile.toPath.relativize)
+              .map { file =>
+                val hash = com.google.common.io.Files
+                  .asByteSource(source.sourceFile.toPath.resolve(file).toFile)
+                  .hash(Hashing.sha256())
+                  .toString
+                FileCreated(source, file.toString, hash, LocalDateTime.now())
+              }
+          } else {
+            val hash = com.google.common.io.Files
+              .asByteSource(child.toFile)
+              .hash(Hashing.sha256())
+              .toString
+            List(FileCreated(source, file, hash, LocalDateTime.now()))
+          }
 
-      case StandardWatchEventKinds.ENTRY_CREATE =>
-        log.debug(s"File system event: ENTRY_CREATE: $child")
-        val hash = com.google.common.io.Files.asByteSource(child.toFile).hash(Hashing.sha256()).toString
-        Some(FileCreated(source, file, hash, LocalDateTime.now()))
+        case StandardWatchEventKinds.ENTRY_MODIFY =>
+          log.debug(s"File system event: ENTRY_MODIFY: $relativePath")
+          val hash = com.google.common.io.Files
+            .asByteSource(child.toFile)
+            .hash(Hashing.sha256())
+            .toString
+          List(FileModified(source, file, hash, LocalDateTime.now()))
 
-      case StandardWatchEventKinds.ENTRY_MODIFY =>
-        log.debug(s"File system event: ENTRY_MODIFY: $child")
-        val hash = com.google.common.io.Files.asByteSource(child.toFile).hash(Hashing.sha256()).toString
-        Some(FileModified(source, file, hash, LocalDateTime.now()))
-
-      case StandardWatchEventKinds.ENTRY_DELETE =>
-        log.debug(s"File system event: ENTRY_DELETE: $child")
-        Some(FileDeleted(source, file))
-
-      case x =>
-        log.warning(s"File system event: Unknown: $x")
-        None
+        case StandardWatchEventKinds.ENTRY_DELETE =>
+          log.debug(s"File system event: ENTRY_DELETE: $relativePath")
+          List(FileDeleted(source, file))
+        case x =>
+          log.warning(s"File system event: Unknown: $x")
+          Nil
+      }
     }
   }
 
@@ -82,7 +110,8 @@ class LocalSourceWatcher(val source: LocalModelSource) extends SourceWatcher {
     } yield {
       handleWatcherEvent(path, event)
     }
-    events.filter(_.isDefined).map(_.get).toList
+
+    events.flatten.toList
   }
 }
 

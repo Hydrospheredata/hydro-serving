@@ -116,6 +116,8 @@ trait ModelManagementService {
 
   def createModel(entity: CreateOrUpdateModelRequest): Future[Model]
 
+  def deleteModel(modelName: String): Future[Model]
+
   def updatedInModelSource(entity: Model): Future[Unit]
 
   def addModelRuntime(entity: CreateModelRuntime): Future[ModelRuntime]
@@ -318,9 +320,19 @@ class ModelManagementServiceImpl(
     }
   }
 
+  def deleteModel(modelName: String): Future[Model] = {
+    modelRepository.get(modelName).flatMap{
+      case Some(model) =>
+        modelFilesRepository.deleteModelFiles(model.id)
+        modelRepository.delete(model.id)
+        Future(model)
+      case None =>
+        Future.failed(new NoSuchElementException)
+    }
+  }
+
   def createFileForModel(source: ModelSource, fileName: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[ModelFile] = {
     val modelName = fileName.split("/").head
-    println(s"creating file $fileName for model $modelName")
     modelRepository.get(modelName).flatMap {
       case Some(model) =>
         modelFilesRepository.create(
@@ -328,7 +340,6 @@ class ModelManagementServiceImpl(
         )
       case None =>
         val model = ModelFetcher.getModel(source, modelName)
-        println(s"creating model ${model.name}")
         addModel(model)
           .flatMap { model =>
             modelFilesRepository.create(
@@ -361,6 +372,7 @@ class ModelManagementServiceImpl(
       case Some(modelFile) =>
         modelFilesRepository.delete(modelFile.id)
       case None =>
+        logger.error(s"No such file: $fileName")
         Future.failed(new NoSuchElementException())
     }
   }
