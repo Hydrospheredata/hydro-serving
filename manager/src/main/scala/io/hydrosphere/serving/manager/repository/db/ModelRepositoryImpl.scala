@@ -54,6 +54,15 @@ class ModelRepositoryImpl(databaseService: DatabaseService)(implicit executionCo
         .result.headOption
     ).map(m => mapFromDb(m))
 
+  override def get(name: String): Future[Option[Model]] =
+    db.run(
+      Tables.Model
+        .filter(_.name === name)
+        .joinLeft(Tables.RuntimeType)
+        .on({ case (m, rt) => m.runtimeTypeId === rt.runtimeTypeId })
+        .result.headOption
+    ).map(mapFromDb)
+
   override def delete(id: Long): Future[Int] =
     db.run(
       Tables.Model

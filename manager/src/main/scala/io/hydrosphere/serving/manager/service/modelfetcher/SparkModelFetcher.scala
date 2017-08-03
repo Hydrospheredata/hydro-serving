@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service.modelfetcher
 
 import java.io.FileNotFoundException
-import java.nio.file.Files
+import java.nio.file.{Files, NoSuchFileException}
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.manager.model.{Model, RuntimeType, SchematicRuntimeType}
@@ -38,7 +38,7 @@ object SparkMetadata extends CommonJsonSupport {
   }
 }
 
-class SparkModelFetcher(val source: ModelSource) extends ModelFetcher with Logging {
+object SparkModelFetcher extends ModelFetcher with Logging {
   private[this] val inputCols = Array("inputCol", "featuresCol")
   private[this] val outputCols = Array("outputCol", "predictionCol", "probabilityCol", "rawPredictionCol")
   private[this] val labelCols = Array("labelCol")
@@ -47,14 +47,14 @@ class SparkModelFetcher(val source: ModelSource) extends ModelFetcher with Loggi
     new SchematicRuntimeType("spark", "1.0.0")
   }
 
-  private def getStageMetadata(model: String, stage: String): SparkMetadata = {
-    val metaFile = source.getReadableFile("spark", model, s"stages/$stage/metadata/part-00000")
+  private def getStageMetadata(source: ModelSource, model: String, stage: String): SparkMetadata = {
+    val metaFile = source.getReadableFile(s"$model/stages/$stage/metadata/part-00000")
     val metaStr = Files.readAllLines(metaFile.toPath).mkString
     SparkMetadata.fromJson(metaStr)
   }
 
-  private def getMetadata(model: String): SparkMetadata = {
-    val metaFile = source.getReadableFile("spark", model, "metadata/part-00000")
+  private def getMetadata(source: ModelSource, model: String): SparkMetadata = {
+    val metaFile = source.getReadableFile(s"$model/metadata/part-00000")
     val metaStr = Files.readAllLines(metaFile.toPath).mkString
     SparkMetadata.fromJson(metaStr)
   }
@@ -83,20 +83,19 @@ class SparkModelFetcher(val source: ModelSource) extends ModelFetcher with Loggi
     outputs.diff(inputs).toList
   }
 
-  override def getModel(directory: String): Option[Model] = {
+  override def fetch(source: ModelSource, directory: String): Option[Model] = {
     try {
-      val fullPath = s"${source.getSourcePrefix()}:/spark/$directory"
-      val stagesDir = s"$fullPath/stages"
+      val stagesDir = s"$directory/stages"
 
-      val pipelineMetadata = getMetadata(directory)
+      val pipelineMetadata = getMetadata(source, directory)
       val stagesMetadata = source.getSubDirs(stagesDir).map { stage =>
-        getStageMetadata(directory, stage)
+        getStageMetadata(source, directory, stage)
       }
 
       Some(Model(
         -1,
         directory,
-        fullPath,
+        s"${source.getSourcePrefix()}:/$directory",
         Some(getRuntimeType(pipelineMetadata)),
         None,
         getOutputCols(stagesMetadata),
@@ -105,14 +104,12 @@ class SparkModelFetcher(val source: ModelSource) extends ModelFetcher with Loggi
         LocalDateTime.now()
       ))
     } catch {
+      case e: NoSuchFileException =>
+        logger.debug(s"$directory in not a valid SparkML model")
+        None
       case e: FileNotFoundException =>
-        logger.warn(s"$source $directory in not a valid SparkML model")
+        logger.debug(s"$source $directory in not a valid SparkML model")
         None
     }
-  }
-
-  def getModels: Seq[Model] = {
-    val models = source.getSubDirs("spark")
-    models.map(getModel).filter(_.isDefined).map(_.get)
   }
 }

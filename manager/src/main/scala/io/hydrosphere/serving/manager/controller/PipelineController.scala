@@ -70,10 +70,10 @@ class PipelineController(servingManagementService: ServingManagementService) ext
   @ApiOperation(value = "Serve Pipeline", notes = "Serve Pipeline", nickname = "ServePipeline", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "pipelineId", required = true, dataType = "long", paramType = "path", value = "pipelineId"),
-    new ApiImplicitParam(name = "body", value = "Any", required = true, paramType = "body")
+    new ApiImplicitParam(name = "body", value = "Any",dataTypeClass = classOf[List[_]], required = true, paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any", responseContainer = "List"),
+    new ApiResponse(code = 200, message = "Any"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def servePipeline = path("api" / "v1" / "pipelines" / "serve" / LongNumber) { pipelineId =>

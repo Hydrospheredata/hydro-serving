@@ -19,6 +19,7 @@ CREATE TABLE hydro_serving.model
   updated_timestamp TIMESTAMP WITHOUT TIME ZONE NOT NULL
 );
 
+
 CREATE TABLE hydro_serving.model_runtime
 (
   runtime_id        BIGSERIAL PRIMARY KEY,
@@ -56,6 +57,16 @@ CREATE TABLE hydro_serving.model_service
   runtime_id      BIGINT REFERENCES model_runtime (runtime_id) NOT NULL,
   status          TEXT,
   statusText      TEXT
+);
+
+CREATE TABLE hydro_serving.model_files
+(
+  file_id         BIGSERIAL PRIMARY KEY,
+  file_path       TEXT NOT NULL,
+  model_id        BIGINT REFERENCES model (model_id) NOT NULL,
+  hash_sum        TEXT NOT NULL,
+  created_at      TIMESTAMP WITHOUT TIME ZONE NOT NULL,
+  updated_at      TIMESTAMP WITHOUT TIME ZONE NOT NULL
 );
 
 CREATE TABLE hydro_serving.pipeline

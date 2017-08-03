@@ -7,6 +7,7 @@ object Dependencies {
   val log4j2Version = "2.8.2"
   val slickVersion = "3.2.0"
   val postgresqlVersion = "42.1.3"
+  val scalaTestVersion = "3.0.3"
 
   lazy val hdfsDependencies = Seq(
     "org.apache.hadoop" % "hadoop-client" % hadoopVersion,
@@ -29,6 +30,10 @@ object Dependencies {
     "ch.megard" %% "akka-http-cors" % "0.2.1"
   )
 
+  lazy val testDependencies = Seq(
+    "org.scalactic" %% "scalactic" % scalaTestVersion,
+    "org.scalatest" %% "scalatest" % scalaTestVersion % "test"
+  )
 
   lazy val logDependencies = Seq(
     "org.apache.logging.log4j" % "log4j-api" % log4j2Version,
@@ -50,6 +55,7 @@ object Dependencies {
 
   lazy val hydroServingManagerDependencies = commonDependencies
     .union(akkaHttpDependencies)
+    .union(testDependencies)
     .union(Seq(
       "com.github.seratch" %% "awscala" % "0.6.+",
       "org.postgresql" % "postgresql" % postgresqlVersion,
@@ -58,7 +64,8 @@ object Dependencies {
       "com.zaxxer" % "HikariCP" % "2.6.3",
       "com.github.tminglei" %% "slick-pg" % "0.15.1",
       "org.flywaydb" % "flyway-core" % "4.2.0",
-      "com.spotify" % "docker-client" % "8.8.0" exclude("ch.qos.logback", "logback-classic")
-    )
-    )
+      "com.spotify" % "docker-client" % "8.8.0" exclude("ch.qos.logback", "logback-classic"),
+      "com.google.guava" % "guava" % "22.0",
+      "org.tensorflow" % "proto" % "1.2.1"
+    ))
 }

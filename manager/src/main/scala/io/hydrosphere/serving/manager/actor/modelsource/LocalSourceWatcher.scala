@@ -3,10 +3,12 @@ package io.hydrosphere.serving.manager.actor.modelsource
 import java.io.File
 import java.nio.file.StandardWatchEventKinds._
 import java.nio.file._
+import java.time.LocalDateTime
 
-import akka.actor.{ActorRef, Props}
-import io.hydrosphere.serving.manager.LocalModelSourceConfiguration
-import io.hydrosphere.serving.manager.actor.Indexer
+import akka.actor.Props
+import com.google.common.hash.Hashing
+import io.hydrosphere.serving.manager.actor.modelsource.SourceWatcher.{FileCreated, FileDeleted, FileEvent, FileModified}
+import io.hydrosphere.serving.manager.service.modelsource.LocalModelSource
 import io.hydrosphere.serving.util.FileUtils._
 
 import scala.collection.JavaConverters._
@@ -16,7 +18,7 @@ import scala.collection.mutable
 /**
   * Created by Bulat on 31.05.2017.
   */
-class LocalSourceWatcher(val source: LocalModelSourceConfiguration, val indexer: ActorRef) extends SourceWatcher {
+class LocalSourceWatcher(val source: LocalModelSource) extends SourceWatcher {
   private[this] val watcher = FileSystems.getDefault.newWatchService()
   private[this] val keys = mutable.Map.empty[WatchKey, Path]
 
@@ -34,37 +36,66 @@ class LocalSourceWatcher(val source: LocalModelSourceConfiguration, val indexer:
     _subscribe(dirFile)
   }
 
-  private def handleWatcherEvent[T](path: Path, event: WatchEvent[T]) = {
-    event.kind() match {
-      case StandardWatchEventKinds.OVERFLOW =>
-        log.warning(s"File system event: Overflow: $event")
+  private def handleWatcherEvent[T](path: Path, event: WatchEvent[T]): List[FileEvent] = {
+    val name = event.context().asInstanceOf[Path]
+    val child = source.sourceFile.toPath.resolve(name)
+    val childFile = child.toFile
+    val relativePath = source.sourceFile.toPath.relativize(child)
+    println(s"name: $name")
+    println(s"source: ${source.configuration.path}")
+    println(s"child: $child")
+    if (childFile.isHidden) {
+      Nil
+    } else {
+      val file = relativePath.toString
+      event.kind() match {
+        case StandardWatchEventKinds.OVERFLOW =>
+          log.warning(s"File system event: Overflow: $event")
+          Nil
 
-      case StandardWatchEventKinds.ENTRY_CREATE =>
-        val name = event.context().asInstanceOf[Path]
-        val child = path.resolve(name)
-        log.debug(s"File system event: ENTRY_CREATE: $child")
-        indexer ! Indexer.Index
+        case StandardWatchEventKinds.ENTRY_CREATE =>
+          log.debug(s"File system event: ENTRY_CREATE: $relativePath")
+          if (Files.isDirectory(child)) {
+            // Delete all files in this directory
+            childFile
+              .listFilesRecursively
+              .map(_.toPath)
+              .map(source.sourceFile.toPath.relativize)
+              .map { file =>
+                val hash = com.google.common.io.Files
+                  .asByteSource(source.sourceFile.toPath.resolve(file).toFile)
+                  .hash(Hashing.sha256())
+                  .toString
+                FileCreated(source, file.toString, hash, LocalDateTime.now())
+              }
+          } else {
+            val hash = com.google.common.io.Files
+              .asByteSource(child.toFile)
+              .hash(Hashing.sha256())
+              .toString
+            List(FileCreated(source, file, hash, LocalDateTime.now()))
+          }
 
-      case StandardWatchEventKinds.ENTRY_MODIFY =>
-        val name = event.context().asInstanceOf[Path]
-        val child = path.resolve(name)
-        log.debug(s"File system event: ENTRY_MODIFY: $child")
-        indexer ! Indexer.Index
+        case StandardWatchEventKinds.ENTRY_MODIFY =>
+          log.debug(s"File system event: ENTRY_MODIFY: $relativePath")
+          val hash = com.google.common.io.Files
+            .asByteSource(child.toFile)
+            .hash(Hashing.sha256())
+            .toString
+          List(FileModified(source, file, hash, LocalDateTime.now()))
 
-      case StandardWatchEventKinds.ENTRY_DELETE =>
-        val name = event.context().asInstanceOf[Path]
-        val child = path.resolve(name)
-        log.debug(s"File system event: ENTRY_DELETE: $child")
-        //indexer ! Indexer.Index
-        //indexer ! Indexer.ChangeDetected
-
-      case x =>
-        log.debug(s"File system event: Unknown: $x")
+        case StandardWatchEventKinds.ENTRY_DELETE =>
+          log.debug(s"File system event: ENTRY_DELETE: $relativePath")
+          List(FileDeleted(source, file))
+        case x =>
+          log.warning(s"File system event: Unknown: $x")
+          Nil
+      }
     }
   }
 
-  override def preStart(): Unit = {
-    subscribeRecursively(new File(source.path))
+  override def watcherPreStart(): Unit = {
+    subscribeRecursively(new File(source.configuration.path))
   }
 
   override def watcherPostStop(): Unit = {
@@ -72,17 +103,19 @@ class LocalSourceWatcher(val source: LocalModelSourceConfiguration, val indexer:
     watcher.close()
   }
 
-  override def onWatcherTick(): Unit = {
-    for {
+  override def onWatcherTick(): List[FileEvent] = {
+    val events = for {
       (key, path) <- keys
       event <- key.pollEvents().asScala
-    } {
+    } yield {
       handleWatcherEvent(path, event)
     }
+
+    events.flatten.toList
   }
 }
 
 object LocalSourceWatcher{
-  def props(source: LocalModelSourceConfiguration, indexer: ActorRef)=
-    Props(classOf[LocalSourceWatcher], source, indexer)
+  def props(source: LocalModelSource)=
+    Props(classOf[LocalSourceWatcher], source)
 }
