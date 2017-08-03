@@ -1,10 +1,14 @@
 CREATE TABLE hydro_serving.runtime_type
 (
   runtime_type_id BIGSERIAL PRIMARY KEY,
-  name            TEXT NOT NULL,
-  version         TEXT NOT NULL,
+  name            TEXT    NOT NULL,
+  version         TEXT    NOT NULL,
+  tags            TEXT [] NOT NULL,
   CONSTRAINT runtime_type_name_version_unique UNIQUE (name, version)
 );
+
+INSERT INTO hydro_serving.runtime_type (name, version, tags) VALUES
+  ('hydro-serving/dummy-runtime','0.0.1','{"python","code","test"}');
 
 CREATE TABLE hydro_serving.model
 (
@@ -26,7 +30,7 @@ CREATE TABLE hydro_serving.model_runtime
   runtime_type_id   BIGINT REFERENCES runtime_type (runtime_type_id),
   modelName         TEXT                        NOT NULL,
   modelVersion      TEXT                        NOT NULL,
-  source            TEXT                        ,
+  source            TEXT,
   output_fields     TEXT []                     NOT NULL,
   input_fields      TEXT []                     NOT NULL,
   created_timestamp TIMESTAMP WITHOUT TIME ZONE NOT NULL,
@@ -61,12 +65,12 @@ CREATE TABLE hydro_serving.model_service
 
 CREATE TABLE hydro_serving.model_files
 (
-  file_id         BIGSERIAL PRIMARY KEY,
-  file_path       TEXT NOT NULL,
-  model_id        BIGINT REFERENCES model (model_id) NOT NULL,
-  hash_sum        TEXT NOT NULL,
-  created_at      TIMESTAMP WITHOUT TIME ZONE NOT NULL,
-  updated_at      TIMESTAMP WITHOUT TIME ZONE NOT NULL
+  file_id    BIGSERIAL PRIMARY KEY,
+  file_path  TEXT                               NOT NULL,
+  model_id   BIGINT REFERENCES model (model_id) NOT NULL,
+  hash_sum   TEXT                               NOT NULL,
+  created_at TIMESTAMP WITHOUT TIME ZONE        NOT NULL,
+  updated_at TIMESTAMP WITHOUT TIME ZONE        NOT NULL
 );
 
 CREATE TABLE hydro_serving.pipeline
@@ -79,14 +83,14 @@ CREATE TABLE hydro_serving.pipeline
 CREATE TABLE hydro_serving.endpoint
 (
   endpoint_id   BIGSERIAL PRIMARY KEY,
-  endpoint_name TEXT                                     NOT NULL UNIQUE,
+  endpoint_name TEXT NOT NULL UNIQUE,
   pipeline_id   BIGINT REFERENCES pipeline (pipeline_id)
 );
 
 CREATE TABLE hydro_serving.runtime_type_build_script
 (
-  name            TEXT NOT NULL,
-  version         TEXT,
-  script          TEXT NOT NULL,
+  name    TEXT NOT NULL,
+  version TEXT,
+  script  TEXT NOT NULL,
   PRIMARY KEY (name, version)
 )

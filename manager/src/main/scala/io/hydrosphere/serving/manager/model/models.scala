@@ -18,7 +18,8 @@ object ModelBuildStatus extends Enumeration {
 case class RuntimeType(
   id: Long,
   name: String,
-  version: String
+  version: String,
+  tags: List[String]
 )
 
 case class RuntimeTypeBuildScript(
@@ -30,7 +31,7 @@ case class RuntimeTypeBuildScript(
 class SchematicRuntimeType(
   name: String,
   version: String
-) extends RuntimeType(-1, name, version)
+) extends RuntimeType(-1, name, version, List())
 
 case class Model(
   id: Long,
