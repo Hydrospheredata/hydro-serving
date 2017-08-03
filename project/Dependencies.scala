@@ -31,7 +31,7 @@ object Dependencies {
   )
 
   lazy val testDependencies = Seq(
-    "org.scalactic" %% "scalactic" % scalaTestVersion,
+    "org.scalactic" %% "scalactic" % scalaTestVersion % "test",
     "org.scalatest" %% "scalatest" % scalaTestVersion % "test"
   )
 
