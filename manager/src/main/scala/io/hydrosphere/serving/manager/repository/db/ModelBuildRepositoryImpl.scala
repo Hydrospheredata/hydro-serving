@@ -102,6 +102,18 @@ class ModelBuildRepositoryImpl(databaseService: DatabaseService)(implicit execut
     }))
   }
 
+  override def lastForModels(ids: Seq[Long]): Future[Seq[ModelBuild]] =
+    db.run(
+      Tables.ModelBuild
+        .filter(_.modelId inSetBind ids)
+        .sortBy(_.startedTimestamp.desc)
+        .joinLeft(Tables.Model)
+        .on({ case (mb, m) => mb.modelId === m.modelId })
+        .joinLeft(Tables.ModelRuntime)
+        .on({ case ((mb, m), mr) => mb.runtimeId === mr.runtimeId })
+        .distinctOn(_._1._1.modelId)
+        .result
+    ).map(s => mapFromDb(s))
 }
 
 object ModelBuildRepositoryImpl {
