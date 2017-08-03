@@ -21,15 +21,17 @@ object ModelFetcher extends Logging {
   )
 
   def getModel(source: ModelSource, folder: String) = {
-    fetchers
+    val res = fetchers
       .map(_.fetch(source, folder))
+
+    val model = res
       .filter(_.isDefined)
       .map(_.get)
       .headOption
       .getOrElse {
         Model(-1, folder, "unknown", None, None, List.empty, List.empty, LocalDateTime.now(), LocalDateTime.now())
       }
-
+    model
   }
 
   def getModels(source: ModelSource): Seq[Model] = {

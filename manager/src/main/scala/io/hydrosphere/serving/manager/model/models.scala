@@ -21,6 +21,12 @@ case class RuntimeType(
   version: String
 )
 
+case class RuntimeTypeBuildScript(
+  name: String,
+  version: Option[String],
+  script: String
+)
+
 class SchematicRuntimeType(
   name: String,
   version: String

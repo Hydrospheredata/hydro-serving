@@ -12,8 +12,8 @@ import io.hydrosphere.serving.util.FileUtils._
 class LocalModelSource(val configuration: LocalModelSourceConfiguration) extends ModelSource {
   val sourceFile = new File(configuration.path.toString)
 
-  override def getReadableFile(modelName: String, path: String): File = {
-    val requestedPath = Paths.get(configuration.path.toString, modelName, path)
+  override def getReadableFile(path: String): File = {
+    val requestedPath = Paths.get(configuration.path.toString, path)
     requestedPath.toFile
   }
 
@@ -40,4 +40,7 @@ class LocalModelSource(val configuration: LocalModelSourceConfiguration) extends
     val path = args.last
     Paths.get(configuration.path, path)
   }
+
+  override def getLocalCopy(source: String): Path =
+    Paths.get(configuration.path, source.split(":").last)
 }

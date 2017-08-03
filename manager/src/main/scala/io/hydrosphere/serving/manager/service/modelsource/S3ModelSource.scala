@@ -42,21 +42,21 @@ class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends Model
     r
   }
 
-  override def getAllFiles(modelName: String): List[String] = {
-    val pUri = URI.create(s"$modelName")
+  override def getAllFiles(folder: String): List[String] = {
+    val pUri = URI.create(s"$folder")
     val modelKeys = bucketObj.keys(pUri.toString).toList
     modelKeys
       .map(k => URI.create(k))
       .map(k => pUri.relativize(k))
-      .map(k => getReadableFile(modelName, k.toString))
+      .map(k => getReadableFile(k.toString))
 
-    fileCache.getAllFiles(modelName)
+    fileCache.getAllFiles(folder)
   }
 
-  override def getReadableFile(modelName: String, path: String): File = {
-    val fullObjectPath = URI.create(s"$modelName/$path")
+  override def getReadableFile(path: String): File = {
+    val fullObjectPath = URI.create(s"$path")
     println(fullObjectPath)
-    val file = fileCache.getReadableFile(modelName, path)
+    val file = fileCache.getReadableFile(path)
     if (!file.exists()) downloadObject(fullObjectPath.toString)
     file
   }
@@ -64,4 +64,6 @@ class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends Model
   override def getSourcePrefix(): String = configuration.name
 
   override def getModelPath(modelSource: String): Path = ???
+
+  override def getLocalCopy(source: String): Path = ???
 }

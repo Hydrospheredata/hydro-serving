@@ -15,7 +15,7 @@ import org.tensorflow.framework.{SavedModel}
 object TensorflowModelFetcher extends ModelFetcher with Logging {
   override def fetch(source: ModelSource, directory: String): Option[Model] = {
     try {
-      val pbFile = source.getReadableFile(directory, "saved_model.pb")
+      val pbFile = source.getReadableFile(s"$directory/saved_model.pb")
       val savedModel = SavedModel.parseFrom(Files.newInputStream(pbFile.toPath))
       val metagraph = savedModel.getMetaGraphs(0)
       val signature = metagraph.getSignatureDefMap.get("serving_default")

@@ -48,13 +48,13 @@ object SparkModelFetcher extends ModelFetcher with Logging {
   }
 
   private def getStageMetadata(source: ModelSource, model: String, stage: String): SparkMetadata = {
-    val metaFile = source.getReadableFile(model, s"stages/$stage/metadata/part-00000")
+    val metaFile = source.getReadableFile(s"$model/stages/$stage/metadata/part-00000")
     val metaStr = Files.readAllLines(metaFile.toPath).mkString
     SparkMetadata.fromJson(metaStr)
   }
 
   private def getMetadata(source: ModelSource, model: String): SparkMetadata = {
-    val metaFile = source.getReadableFile(model, "metadata/part-00000")
+    val metaFile = source.getReadableFile(s"$model/metadata/part-00000")
     val metaStr = Files.readAllLines(metaFile.toPath).mkString
     SparkMetadata.fromJson(metaStr)
   }

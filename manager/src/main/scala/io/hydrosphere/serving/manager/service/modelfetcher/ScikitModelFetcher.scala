@@ -33,7 +33,7 @@ object ScikitMetadata extends CommonJsonSupport{
 object ScikitModelFetcher extends ModelFetcher with Logging {
 
   private def getMetadata(source: ModelSource, modelName: String): ScikitMetadata = {
-    val metaFile = source.getReadableFile(modelName, "metadata.json")
+    val metaFile = source.getReadableFile(s"$modelName/metadata.json")
     val metaStr = Files.readAllLines(metaFile.toPath).mkString
     ScikitMetadata.fromJson(metaStr)
   }

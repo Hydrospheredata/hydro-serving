@@ -2,15 +2,13 @@ package io.hydrosphere.serving.manager.actor.modelsource
 
 import java.time.LocalDateTime
 
-import akka.actor.{Actor, ActorLogging, ActorRef, Props}
+import akka.actor.{Actor, ActorLogging, Props}
 import akka.util.Timeout
+import com.google.common.hash.Hashing
 import io.hydrosphere.serving.manager.actor.modelsource.SourceWatcher._
-import io.hydrosphere.serving.manager.service.ModelManagementService
-import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelsource.{LocalModelSource, ModelSource, S3ModelSource}
 
 import scala.concurrent.duration._
-import scala.util.{Failure, Success}
 
 /**
   * Created by Bulat on 31.05.2017.
@@ -24,6 +22,8 @@ trait SourceWatcher extends Actor with ActorLogging {
     * Tick handler. Every tick Watcher looks for changes in datasource.
     */
   def onWatcherTick(): List[FileEvent]
+
+  def watcherPreStart(): Unit = {}
 
   /**
     * Custom stop logic
@@ -43,6 +43,20 @@ trait SourceWatcher extends Actor with ActorLogging {
     }
   }
 
+  final override def preStart(): Unit = {
+    source
+      .getSubDirs
+      .flatMap( f => source.getAllFiles(f).map(f + "/" + _))
+      .map(f => f -> source.getReadableFile(f))
+      .map{ case (fileName, file) =>
+        val hash = com.google.common.io.Files.asByteSource(file).hash(Hashing.sha256()).toString
+        FileDetected(source, fileName, hash)
+      }
+      .foreach(context.system.eventStream.publish)
+
+    watcherPreStart()
+  }
+
   final override def postStop(): Unit = {
     timer.cancel()
     watcherPostStop()
@@ -53,6 +67,7 @@ object SourceWatcher {
   case object Tick
 
   trait FileEvent
+  case class FileDetected(source: ModelSource, filename: String, hash: String) extends FileEvent
   case class FileDeleted(source: ModelSource, fileName: String) extends FileEvent
   case class FileCreated(source: ModelSource, fileName: String, hash: String, createdAt: LocalDateTime) extends FileEvent
   case class FileModified(source: ModelSource, fileName: String, hash: String, updatedAt: LocalDateTime) extends FileEvent

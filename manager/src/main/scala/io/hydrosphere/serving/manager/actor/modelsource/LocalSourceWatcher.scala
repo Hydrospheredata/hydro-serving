@@ -66,7 +66,7 @@ class LocalSourceWatcher(val source: LocalModelSource) extends SourceWatcher {
     }
   }
 
-  override def preStart(): Unit = {
+  override def watcherPreStart(): Unit = {
     subscribeRecursively(new File(source.configuration.path))
   }
 

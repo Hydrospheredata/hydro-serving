@@ -10,9 +10,11 @@ import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, ModelSourc
   */
 trait ModelSource {
 
-  def getReadableFile(modelName: String, path: String): File
+  def getLocalCopy(source: String): Path
 
-  def getAllFiles(modelName: String): List[String]
+  def getReadableFile(path: String): File
+
+  def getAllFiles(folder: String): List[String]
 
   def getSubDirs(path: String): List[String]
 
