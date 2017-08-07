@@ -9,7 +9,7 @@ lazy val execScript = inputKey[Unit]("Build script")
 lazy val skipScript = inputKey[Unit]("Skip script")
 
 execScript := {
-  val args = Seq("./build_all.shs", version.value)
+  val args = Seq("./build_all.sh", version.value)
   val home = baseDirectory.value
   val ps = Process(args, Some(home / "/"))
   if (ps.!(streams.value.log) != 0) {
