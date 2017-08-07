@@ -3,8 +3,10 @@ import Keys._
 
 object Common {
 
+  val scalaCommonVersion= "2.11.11"
+
   val settings: Seq[Def.Setting[_]] = Seq(
-    scalaVersion := "2.11.11",
+    scalaVersion := scalaCommonVersion,
     //crossScalaVersions := Seq("2.11.11"),
     publishArtifact := false,
     exportJars := true,

@@ -2,6 +2,8 @@ name := "hydro-serving"
 
 updateOptions := updateOptions.value.withCachedResolution(true)
 
+scalaVersion := Common.scalaCommonVersion
+
 lazy val currentAppVersion = util.Properties.propOrElse("appVersion", "0.0.1")
 
 lazy val currentSettings: Seq[Def.Setting[_]] = Seq(
