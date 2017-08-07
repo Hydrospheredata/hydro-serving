@@ -4,3 +4,4 @@
   my-maven-proxy-releases: http://repo.hydrosphere.io/repository/maven-public/
   sbt-plugins-ivy-proxy: https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact].[ext]
   sbt-typesafe-ivy-proxy: http://repo.typesafe.com/typesafe/ivy-releases, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact].[ext]
+  flywaydb-ivy-proxy: https://flywaydb.org/repo, https://flywaydb.org/repo/org/flywaydb/flyway-sbt_2.10_0.13/[revision]/flyway-sbt-[revision].jar
