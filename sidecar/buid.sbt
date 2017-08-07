@@ -12,9 +12,7 @@ execScript := {
   val args = Seq("./build_all.sh", version.value)
   val home = baseDirectory.value
   val ps = Process(args, Some(home / "/"))
-  val result=ps.!(streams.value.log)
-  if (result != 0) {
-    println(s"Result code from build script: $result")
+  if (ps.!(streams.value.log) != 0) {
     throw new IllegalStateException("Wrong result code from sidecar build")
   }
 }
