@@ -5,6 +5,6 @@ node("JenkinsOnDemand") {
     }
 
     stage('Build and test') {
-        sh "${env.WORKSPACE}/sbt/sbt -Dsbt.override.build.repos=true -Dsbt.repository.config=${env.WORKSPACE}/project/repositories clean assembly test docker"
+        sh "${env.WORKSPACE}/sbt/sbt -Dsbt.override.build.repos=true -Dsbt.repository.config=${env.WORKSPACE}/project/repositories clean compile test docker"
     }
 }
