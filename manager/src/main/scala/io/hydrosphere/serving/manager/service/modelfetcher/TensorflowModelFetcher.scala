@@ -13,7 +13,7 @@ import org.tensorflow.framework.{SavedModel}
   * Created by bulat on 24/07/2017.
   */
 object TensorflowModelFetcher extends ModelFetcher with Logging {
-  override def fetch(source: ModelSource, directory: String): Option[Model] = {
+  override def fetch(source: ModelSource, directory: String): Option[ModelMetadata] = {
     try {
       val pbFile = source.getReadableFile(s"$directory/saved_model.pb")
       val savedModel = SavedModel.parseFrom(Files.newInputStream(pbFile.toPath))
@@ -22,18 +22,11 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
       val inputs = signature.getInputsMap.keySet.toList
       val outputs = signature.getOutputsMap.keySet.toList
       Some(
-        Model(
-          -1,
+        ModelMetadata(
           directory,
-          s"${source.getSourcePrefix()}:/$directory",
-          Some(
-            new SchematicRuntimeType("tensorflow", "1.0")
-          ),
-          None,
+          Some(new SchematicRuntimeType("tensorflow", "1.0")),
           outputs,
-          inputs,
-          LocalDateTime.now(),
-          LocalDateTime.now()
+          inputs
         )
       )
     } catch {

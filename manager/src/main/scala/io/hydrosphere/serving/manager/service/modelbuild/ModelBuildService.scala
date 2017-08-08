@@ -2,13 +2,12 @@ package io.hydrosphere.serving.manager.service.modelbuild
 
 import java.io.ByteArrayInputStream
 import java.nio.file._
-import java.nio.file.attribute.FileAttribute
 
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.BuildParam
 import com.spotify.docker.client.messages.RegistryAuth
 import io.hydrosphere.serving.manager.model.{ModelBuild, ModelRuntime}
-import io.hydrosphere.serving.manager.service.modelsource.ModelSource
+import io.hydrosphere.serving.manager.service.SourceManagementService
 import org.apache.commons.io.FileUtils
 
 
@@ -62,19 +61,12 @@ trait ModelBuildService {
 
 class DefaultModelBuildService(
   dockerClient: DockerClient,
-  modelSources: Seq[ModelSource]
+  sourcesManagementServices: SourceManagementService
 ) extends ModelBuildService {
   private val modelDir="model"
 
 
-  private def findModelSource(prefix: String): ModelSource =
-    modelSources
-      .find(s => s.getSourcePrefix() == prefix)
-      .getOrElse(throw new IllegalArgumentException(s"Can't find ModelSource for prefix $prefix"))
-
-
   override def build(modelBuild: ModelBuild, script: String, progressHandler: ProgressHandler): String = {
-    val modelSource = findModelSource(modelBuild.model.source.split(":").head)
     val dockerFile = script.replaceAll("\\{" + SCRIPT_VAL_MODEL_PATH + "\\}", modelDir)
       .replaceAll("\\{" + SCRIPT_VAL_MODEL_VERSION + "\\}", modelBuild.modelVersion)
       .replaceAll("\\{" + SCRIPT_VAL_MODEL_NAME+ "\\}", modelBuild.model.name)
@@ -83,7 +75,7 @@ class DefaultModelBuildService(
 
     val tmpPath = Files.createTempDirectory(s"hydroserving-${modelBuild.id}")
     try {
-      build(tmpPath, modelSource.getLocalCopy(modelBuild.model.source), dockerFile, progressHandler, modelBuild)
+      build(tmpPath, sourcesManagementServices.getLocalPath(modelBuild.model.source), dockerFile, progressHandler, modelBuild)
     } catch {
       case ex: Throwable =>
         tmpPath.toFile.delete()

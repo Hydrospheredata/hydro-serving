@@ -63,7 +63,7 @@ class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends Model
 
   override def getSourcePrefix(): String = configuration.name
 
-  override def getModelPath(modelSource: String): Path = ???
-
-  override def getLocalCopy(source: String): Path = ???
+  override def getModelPath(modelSource: String): Path = {
+    Paths.get(localFolder, modelSource)
+  }
 }

@@ -3,7 +3,6 @@ package io.hydrosphere.serving.manager.service
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
@@ -339,7 +338,18 @@ class ModelManagementServiceImpl(
           ModelFile(-1, fileName, model, hash, createdAt, updatedAt)
         )
       case None =>
-        val model = ModelFetcher.getModel(source, modelName)
+        val modelMetadata = ModelFetcher.getModel(source, modelName)
+        val model = Model(
+          -1,
+          modelMetadata.name,
+          s"${source.getSourcePrefix}:${modelMetadata.name}",
+          modelMetadata.runtimeType,
+          None,
+          modelMetadata.outputFields,
+          modelMetadata.inputFields,
+          createdAt,
+          updatedAt
+        )
         addModel(model)
           .flatMap { model =>
             modelFilesRepository.create(

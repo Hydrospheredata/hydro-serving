@@ -28,13 +28,13 @@ class ManagerServices(
 
   val runtimeMeshConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector(managerConfiguration.sidecar)
 
-  val modelSources: Map[ModelSourceConfiguration, ModelSource] = managerConfiguration.modelSources
-    .map(conf => conf -> ModelSource.fromConfig(conf)).toMap
+  val sourceManagementService = new SourceManagementServiceImpl(managerRepositories.sourceRepository)
 
   val modelBuildService: ModelBuildService = new DefaultModelBuildService(
     dockerClient,
-    modelSources.values.toSeq
+    sourceManagementService
   )
+
 
   val modelManagementService: ModelManagementService = new ModelManagementServiceImpl(
     managerRepositories.runtimeTypeRepository,

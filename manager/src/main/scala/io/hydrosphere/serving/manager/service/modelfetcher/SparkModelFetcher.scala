@@ -83,7 +83,7 @@ object SparkModelFetcher extends ModelFetcher with Logging {
     outputs.diff(inputs).toList
   }
 
-  override def fetch(source: ModelSource, directory: String): Option[Model] = {
+  override def fetch(source: ModelSource, directory: String): Option[ModelMetadata] = {
     try {
       val stagesDir = s"$directory/stages"
 
@@ -91,18 +91,14 @@ object SparkModelFetcher extends ModelFetcher with Logging {
       val stagesMetadata = source.getSubDirs(stagesDir).map { stage =>
         getStageMetadata(source, directory, stage)
       }
-
-      Some(Model(
-        -1,
-        directory,
-        s"${source.getSourcePrefix()}:/$directory",
-        Some(getRuntimeType(pipelineMetadata)),
-        None,
-        getOutputCols(stagesMetadata),
-        getInputCols(stagesMetadata),
-        LocalDateTime.now(),
-        LocalDateTime.now()
-      ))
+      Some(
+        ModelMetadata(
+          directory,
+          Some(getRuntimeType(pipelineMetadata)),
+          getOutputCols(stagesMetadata),
+          getInputCols(stagesMetadata)
+        )
+      )
     } catch {
       case e: NoSuchFileException =>
         logger.debug(s"$directory in not a valid SparkML model")

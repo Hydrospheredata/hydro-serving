@@ -9,9 +9,6 @@ import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, ModelSourc
   * Created by Bulat on 31.05.2017.
   */
 trait ModelSource {
-
-  def getLocalCopy(source: String): Path
-
   def getReadableFile(path: String): File
 
   def getAllFiles(folder: String): List[String]
@@ -20,7 +17,7 @@ trait ModelSource {
 
   def getSubDirs: List[String]
 
-  def getSourcePrefix():String
+  def getSourcePrefix: String
 
   def configuration: ModelSourceConfiguration
 
