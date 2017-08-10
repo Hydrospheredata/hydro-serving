@@ -9,7 +9,7 @@ import akka.testkit.{ImplicitSender, TestActors, TestKit}
 
 class WatcherSpecs extends TestKit(ActorSystem("MySpec")) with ImplicitSender with Matchers with WordSpecLike with BeforeAndAfterAll {
 
-  val localSource = new LocalModelSource(LocalModelSourceConfiguration("test", "/Users/bulat/Documents/Dev/Provectus/hydro-serving/manager/src/test/resources/test_models"))
+  val localSource = new LocalModelSource(LocalModelSourceConfiguration("test", "manager/src/test/resources/test_models"))
   val localWatcher = system.actorOf(LocalSourceWatcher.props(localSource))
 
   override def afterAll(): Unit = {

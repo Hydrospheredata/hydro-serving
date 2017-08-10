@@ -7,7 +7,7 @@ import io.hydrosphere.serving.manager.service.modelsource.LocalModelSource
 import org.scalatest.{FlatSpec, Matchers}
 
 class ModelSourceSpecs extends FlatSpec with Matchers  {
-  val localSource = new LocalModelSource(LocalModelSourceConfiguration("test", "/Users/bulat/Documents/Dev/Provectus/hydro-serving/manager/src/test/resources/test_models"))
+  val localSource = new LocalModelSource(LocalModelSourceConfiguration("test", "manager/src/test/resources/test_models"))
 
   "LocalModelSource" should "list all directories" in {
     localSource.getSubDirs should contain allElementsOf List("scikit_model", "spark_model", "tensorflow_model")

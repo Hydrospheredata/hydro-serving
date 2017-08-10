@@ -5,7 +5,7 @@ import io.hydrosphere.serving.manager.service.modelsource.LocalModelSource
 import org.scalatest.{FlatSpec, Matchers}
 
 class SourceManagementServiceSpecs extends FlatSpec with Matchers {
-  val localSource = new LocalModelSource(LocalModelSourceConfiguration("test", "/Users/bulat/Documents/Dev/Provectus/hydro-serving/manager/src/test/resources/test_models"))
+  val localSource = new LocalModelSource(LocalModelSourceConfiguration("test", "manager/src/test/resources/test_models"))
 
   "SourceManagementService" should "" in {
 
