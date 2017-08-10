@@ -9,7 +9,7 @@ object Common {
     scalaVersion := scalaCommonVersion,
     //crossScalaVersions := Seq("2.11.11"),
     publishArtifact := false,
-    exportJars := true,
+    //exportJars := true,
     organization := "io.hydrosphere.serving",
     scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature")
     /*resolvers ++= {
