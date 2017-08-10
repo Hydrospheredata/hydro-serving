@@ -13,15 +13,23 @@ import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Failure, Success, Try}
 
 
+case class ModelInfo(
+  model: Model,
+  lastModelBuild: Option[ModelBuild],
+  lastModelRuntime: Option[ModelRuntime]
+)
+
 case class CreateRuntimeTypeRequest(
   name: String,
-  version: String
+  version: String,
+  tags: Option[List[String]]
 ) {
   def toRuntimeType: RuntimeType = {
     RuntimeType(
       id = 0,
       name = this.name,
-      version = this.version
+      version = this.version,
+      tags = this.tags.getOrElse(List())
     )
   }
 }
@@ -101,6 +109,7 @@ case class UpdateModelRuntime(
   modelId: Option[Long]
 )
 
+//TODO split service
 trait ModelManagementService {
 
   def createRuntimeType(entity: CreateRuntimeTypeRequest): Future[RuntimeType]
@@ -110,6 +119,8 @@ trait ModelManagementService {
   def allRuntimeTypes(): Future[Seq[RuntimeType]]
 
   def allModels(): Future[Seq[Model]]
+
+  def allModelsWithLastStatus(): Future[Seq[ModelInfo]]
 
   def updateModel(entity: CreateOrUpdateModelRequest): Future[Model]
 
@@ -386,4 +397,21 @@ class ModelManagementServiceImpl(
         Future.failed(new NoSuchElementException())
     }
   }
+
+  //TODO refactor - create specific service for UI (with repository)
+  override def allModelsWithLastStatus(): Future[Seq[ModelInfo]] =
+    modelRepository.all().flatMap(models => {
+      val ids = models.map(m => m.id)
+      modelRuntimeRepository.lastModelRuntimeForModels(models.map(m => m.id)).flatMap(runtimes => {
+        modelBuildRepository.lastForModels(ids).flatMap(builds => {
+          Future(models.map(model => {
+            ModelInfo(
+              model = model,
+              lastModelRuntime = runtimes.find(r => r.modelId.get == model.id),
+              lastModelBuild = builds.find(b => b.model.id == model.id)
+            )
+          }))
+        })
+      })
+    })
 }

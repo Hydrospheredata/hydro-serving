@@ -7,6 +7,7 @@ import io.hydrosphere.serving.controller.{CommonController, SwaggerDocController
 import io.hydrosphere.serving.manager.controller.{ModelRuntimeController, _}
 import akka.http.scaladsl.server.Directives._
 import io.hydrosphere.serving.manager.controller.envoy.EnvoyManagementController
+import io.hydrosphere.serving.manager.controller.ui.UISpecificController
 
 import scala.concurrent.ExecutionContext
 import scala.reflect.runtime.{universe => ru}
@@ -35,6 +36,8 @@ class ManagerApi(managerServices: ManagerServices)
 
   val envoyManagementController = new EnvoyManagementController(managerServices.envoyManagementService)
 
+  val uiSpecificController=new UISpecificController(managerServices.modelManagementService)
+
   val swaggerController = new SwaggerDocController(system) {
     override val apiTypes: Seq[ru.Type] = Seq(
       ru.typeOf[RuntimeTypeController],
@@ -43,6 +46,7 @@ class ManagerApi(managerServices: ManagerServices)
       ru.typeOf[PipelineController],
       ru.typeOf[EndpointController],
       ru.typeOf[ModelServiceController],
+      ru.typeOf[UISpecificController],
       ru.typeOf[EnvoyManagementController]
     )
   }
@@ -55,7 +59,8 @@ class ManagerApi(managerServices: ManagerServices)
         modelServiceController.routes ~
         endpointController.routes ~
         pipelineController.routes ~
-        envoyManagementController.routes
+        envoyManagementController.routes ~
+        uiSpecificController.routes
     }
   }
 }

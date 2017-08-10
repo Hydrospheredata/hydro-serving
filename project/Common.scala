@@ -2,11 +2,11 @@ import sbt._
 import Keys._
 
 object Common {
-  val appVersion = "0.0.1"
+
+  val scalaCommonVersion= "2.11.11"
 
   val settings: Seq[Def.Setting[_]] = Seq(
-    version := appVersion,
-    scalaVersion := "2.11.11",
+    scalaVersion := scalaCommonVersion,
     //crossScalaVersions := Seq("2.11.11"),
     publishArtifact := false,
     exportJars := true,

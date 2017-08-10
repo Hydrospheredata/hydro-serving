@@ -1,4 +1,4 @@
-version: "3"
+version: "2"
 services:
   zipkin:
     image: openzipkin/zipkin:1.28.1
@@ -25,11 +25,10 @@ services:
       - zipkin
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+      - ${MODEL_DIRECTORY}:/models
     environment:
       ADVERTISED_MANAGER_HOST: "hydro-serving-manager"
       DATABASE_HOST: "postgres"
       ZIPKIN_ENABLED: "true"
       ZIPKIN_HOST: "zipkin"
-      DOCKER_NETWORK_NAME: "hydro-serving_default"
-    volumes:
-      - ${MODEL_DIRECTORY}:/models
+      DOCKER_NETWORK_NAME: "hydroserving_default"
