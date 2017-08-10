@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager
 
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
-import com.spotify.docker.client.DefaultDockerClient
+import com.spotify.docker.client.{DefaultDockerClient, DockerClient}
 import io.hydrosphere.serving.connector.{HttpRuntimeMeshConnector, RuntimeMeshConnector}
 import io.hydrosphere.serving.manager.service.clouddriver.{DockerRuntimeDeployService, RuntimeDeployService, SwarmRuntimeDeployService}
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
@@ -24,7 +24,7 @@ class ManagerServices(
   implicit val materializer: ActorMaterializer
 ) {
 
-  val dockerClient = DefaultDockerClient.fromEnv().build()
+  val dockerClient: DockerClient = DefaultDockerClient.fromEnv().build()
 
   val runtimeMeshConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector(managerConfiguration.sidecar)
 
