@@ -35,8 +35,8 @@ class LocalModelSource(val configuration: LocalModelSourceConfiguration) extends
 
   override def getSourcePrefix(): String = configuration.name
 
-  override def getModelPath(modelSource: String): Path = {
-    Paths.get(configuration.path, modelSource.split(":").last)
+  override def getAbsolutePath(modelPath: String): Path = {
+    Paths.get(configuration.path, modelPath)
   }
 
 }

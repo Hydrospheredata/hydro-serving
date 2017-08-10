@@ -1,8 +1,7 @@
 package io.hydrosphere.serving.manager.service
 
 import java.nio.file.Path
-
-import akka.actor.{ActorContext, ActorRef, ActorSystem}
+import akka.actor.{ActorRef, ActorSystem}
 import io.hydrosphere.serving.manager.actor.modelsource.SourceWatcher
 import io.hydrosphere.serving.manager.repository.SourceConfigRepository
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
@@ -10,6 +9,7 @@ import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.Await
 import scala.concurrent.duration._
+
 trait SourceManagementService {
   def getSources: Seq[ModelSource]
 
@@ -35,7 +35,7 @@ class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository) exte
     val path = args.last
     getSources
       .find(_.getSourcePrefix == source)
-      .map(_.getModelPath(path))
+      .map(_.getAbsolutePath(path))
       .getOrElse(throw new IllegalArgumentException(s"Can't find ModelSource for prefix $source"))
 
   }

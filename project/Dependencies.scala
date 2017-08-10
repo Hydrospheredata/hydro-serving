@@ -32,7 +32,8 @@ object Dependencies {
 
   lazy val testDependencies = Seq(
     "org.scalactic" %% "scalactic" % scalaTestVersion,
-    "org.scalatest" %% "scalatest" % scalaTestVersion % "test"
+    "org.scalatest" %% "scalatest" % scalaTestVersion % "test",
+    "com.typesafe.akka" %% "akka-testkit" % akkaVersion % Test
   )
 
   lazy val logDependencies = Seq(

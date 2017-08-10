@@ -21,7 +21,7 @@ trait ModelSource {
 
   def configuration: ModelSourceConfiguration
 
-  def getModelPath(modelSource: String): Path
+  def getAbsolutePath(modelSource: String): Path
 }
 
 

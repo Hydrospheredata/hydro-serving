@@ -5,7 +5,7 @@ import io.hydrosphere.serving.manager.service.modelfetcher.{ScikitModelFetcher, 
 import io.hydrosphere.serving.manager.service.modelsource.LocalModelSource
 import org.scalatest._
 
-class FetcherTestSpecs extends FlatSpec with Matchers {
+class FetcherSpecs extends FlatSpec with Matchers {
   val localSource = new LocalModelSource(LocalModelSourceConfiguration("test", "/Users/bulat/Documents/Dev/Provectus/hydro-serving/manager/src/test/resources/test_models"))
 
   "Scikit model fetcher" should "parse correct scikit model" in {
