@@ -1,5 +1,5 @@
 node("JenkinsOnDemand") {
-    stage('Clone project ') {
+    stage('Clone project') {
         checkout scm
         sh "cd ${env.WORKSPACE}"
     }
