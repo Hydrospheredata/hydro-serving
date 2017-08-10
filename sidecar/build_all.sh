@@ -1,6 +1,8 @@
-#!/usr/bin/env sh
+#!/bin/sh
 
 VERSION=$1
+
+pwd
 
 ./side_car_package.sh $VERSION
 ./java_with_sidecar.sh $VERSION

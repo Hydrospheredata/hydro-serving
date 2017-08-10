@@ -31,8 +31,11 @@ object Dependencies {
   )
 
   lazy val testDependencies = Seq(
-    "org.scalactic" %% "scalactic" % scalaTestVersion % "test",
-    "org.scalatest" %% "scalatest" % scalaTestVersion % "test"
+    "org.mockito" % "mockito-all" % "1.10.19" % "test,it",
+    "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpVersion % "test,it",
+    "com.dimafeng" %% "testcontainers-scala" % "0.7.0" % "test,it",
+    "org.scalactic" %% "scalactic" % scalaTestVersion % "test,it",
+    "org.scalatest" %% "scalatest" % scalaTestVersion % "test,it"
   )
 
   lazy val logDependencies = Seq(
