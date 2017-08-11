@@ -1,8 +1,10 @@
 package io.hydrosphere.serving.manager
 
-import awscala.Region
+import com.amazonaws.services.s3.{AmazonS3, AmazonS3ClientBuilder}
+import com.amazonaws.services.sqs.{AmazonSQS, AmazonSQSClientBuilder}
 import com.typesafe.config.Config
 import io.hydrosphere.serving.config.{ApplicationConfig, Configuration, SidecarConfig}
+
 import collection.JavaConverters._
 
 /**
@@ -35,7 +37,8 @@ case class LocalModelSourceConfiguration(
 case class S3ModelSourceConfiguration(
   name: String,
   path: String,
-  region: Region,
+  s3Client: AmazonS3,
+  sqsClient: AmazonSQS,
   bucket: String,
   queue: String
 ) extends ModelSourceConfiguration
@@ -111,8 +114,11 @@ object ManagerConfiguration extends Configuration {
         case "local" =>
           LocalModelSourceConfiguration(name = name, path = path)
         case "s3" =>
-          S3ModelSourceConfiguration(name = name, path = path,
-            region = Region(modelSourceConfig.getString("region")),
+          S3ModelSourceConfiguration(
+            name = name,
+            path = path,
+            s3Client = AmazonS3ClientBuilder.defaultClient(),
+            sqsClient = AmazonSQSClientBuilder.defaultClient(),
             bucket = modelSourceConfig.getString("bucket"),
             queue = modelSourceConfig.getString("queue")
           )

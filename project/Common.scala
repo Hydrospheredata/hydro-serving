@@ -9,9 +9,10 @@ object Common {
     scalaVersion := scalaCommonVersion,
     //crossScalaVersions := Seq("2.11.11"),
     publishArtifact := false,
-    //exportJars := true,
     organization := "io.hydrosphere.serving",
-    scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature")
+    scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
+
+    resolvers += Resolver.bintrayRepo("findify", "maven")
     /*resolvers ++= {
       // Only add Sonatype Snapshots if this version itself is a snapshot version
       if(isSnapshot.value) {

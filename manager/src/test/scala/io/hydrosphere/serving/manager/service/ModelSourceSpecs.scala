@@ -2,43 +2,79 @@ package io.hydrosphere.serving.manager.service
 
 import java.nio.file.Files
 
+import com.amazonaws.auth.{AWSStaticCredentialsProvider, AnonymousAWSCredentials}
+import com.amazonaws.client.builder.AwsClientBuilder.EndpointConfiguration
+import com.amazonaws.services.s3.AmazonS3ClientBuilder
+import com.amazonaws.services.sqs.AmazonSQSClientBuilder
+import io.findify.s3mock.S3Mock
+import io.findify.sqsmock.SQSService
 import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, S3ModelSourceConfiguration, TestConstants}
 import io.hydrosphere.serving.manager.service.modelsource.{LocalModelSource, ModelSource, S3ModelSource}
 import org.scalatest.{FlatSpec, Matchers}
 
 class ModelSourceSpecs extends FlatSpec with Matchers  {
-  val localSource = new LocalModelSource(LocalModelSourceConfiguration("test", TestConstants.localModelsPath))
-  val s3Source = new S3ModelSource(S3ModelSourceConfiguration("s3test", "", awscala.Region.Ireland, "serving-s3-repo", "serving-s3-repo-queue"))
-
   def test(modelSource: ModelSource) = {
     modelSource.getClass.getSimpleName should "list all directories" in {
-      localSource.getSubDirs should contain allElementsOf List("scikit_model", "spark_model", "tensorflow_model")
-      localSource.getSubDirs("scikit_model") shouldBe empty
-      localSource.getSubDirs("spark_model").toSet shouldBe Set("metadata", "stages")
+      modelSource.getSubDirs should contain allElementsOf List("scikit_model", "spark_model", "tensorflow_model")
+      modelSource.getSubDirs("scikit_model") shouldBe empty
+      modelSource.getSubDirs("spark_model").toSet shouldBe Set("metadata", "stages")
     }
 
     it should "list all files " in {
-      localSource.getAllFiles("tensorflow_model").toSet should contain allElementsOf Set("saved_model.pb")
+      modelSource.getAllFiles("tensorflow_model").toSet should contain allElementsOf Set("saved_model.pb")
     }
 
     it should "have a correct prefix" in {
-      localSource.getSourcePrefix() shouldBe "test"
+      modelSource.getSourcePrefix shouldBe "test"
     }
 
     it should "return correct absolute path for model" in {
-      val path = localSource.getAbsolutePath("spark_model")
+      val path = modelSource.getAbsolutePath("spark_model")
       Files.isDirectory(path) shouldBe true
     }
 
     it should "return readable file" in {
-      val file = localSource.getReadableFile("scikit_model/metadata.json")
+      val file = modelSource.getReadableFile("scikit_model/metadata.json")
       file.exists() shouldBe true
       val content = Files.readAllLines(file.toPath)
       content should not be empty
     }
   }
 
+  val localSource = new LocalModelSource(LocalModelSourceConfiguration("test", TestConstants.localModelsPath))
   test(localSource)
+
+
+  val s3Mock = S3Mock(8089)
+  val s3Endpoint = new EndpointConfiguration("http://localhost:8089", "us-west-2")
+  val s3client = AmazonS3ClientBuilder
+    .standard
+    .withPathStyleAccessEnabled(true)
+    .withEndpointConfiguration(s3Endpoint)
+    .withCredentials(new AWSStaticCredentialsProvider(new AnonymousAWSCredentials()))
+    .build()
+
+  val sqsMock = new SQSService(8081)
+  val sqsEndpoint = new EndpointConfiguration("http://localhost:8081", "us-west-2")
+  val sqsClient = AmazonSQSClientBuilder
+    .standard
+    .withEndpointConfiguration(sqsEndpoint)
+    .withCredentials(new AWSStaticCredentialsProvider(new AnonymousAWSCredentials()))
+    .build
+
+  s3Mock.start
+  sqsMock.start
+  val s3Source = new S3ModelSource(S3ModelSourceConfiguration(
+    "test",
+    "",
+    s3client,
+    sqsClient,
+    "s3source-bucket",
+    "s3source-queue"
+  ))
+
   test(s3Source)
 
+  s3Mock.stop
+  sqsMock.shutdown
 }

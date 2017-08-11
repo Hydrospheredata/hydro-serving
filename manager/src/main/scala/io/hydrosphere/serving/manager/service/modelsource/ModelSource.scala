@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service.modelsource
 
 import java.io.File
-import java.nio.file.{Path, Paths}
+import java.nio.file.Path
 
 import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, ModelSourceConfiguration, S3ModelSourceConfiguration}
 

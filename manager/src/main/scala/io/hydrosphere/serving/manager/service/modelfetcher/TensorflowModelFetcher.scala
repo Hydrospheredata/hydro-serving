@@ -1,14 +1,14 @@
 package io.hydrosphere.serving.manager.service.modelfetcher
 
-import scala.collection.JavaConversions._
 import java.io.FileNotFoundException
 import java.nio.file.{Files, NoSuchFileException}
-import java.time.LocalDateTime
 
-import io.hydrosphere.serving.manager.model.{Model, SchematicRuntimeType}
+import io.hydrosphere.serving.manager.model.SchematicRuntimeType
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import org.apache.logging.log4j.scala.Logging
-import org.tensorflow.framework.{SavedModel}
+import org.tensorflow.framework.SavedModel
+
+import scala.collection.JavaConversions._
 /**
   * Created by bulat on 24/07/2017.
   */
