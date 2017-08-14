@@ -1,16 +1,19 @@
 package io.hydrosphere.serving.manager
 
 import akka.actor.ActorSystem
+import akka.http.scaladsl.model.HttpMethods._
 import akka.http.scaladsl.model.{HttpResponse, StatusCodes}
 import akka.http.scaladsl.server.{ExceptionHandler, RejectionHandler, Route}
 import ch.megard.akka.http.cors.scaladsl.CorsDirectives
 import io.hydrosphere.serving.controller.{CommonController, SwaggerDocController}
 import io.hydrosphere.serving.manager.controller.{ModelRuntimeController, _}
 import akka.http.scaladsl.server.Directives._
+import ch.megard.akka.http.cors.scaladsl.settings.CorsSettings
 import io.hydrosphere.serving.manager.controller.envoy.EnvoyManagementController
 import io.hydrosphere.serving.manager.controller.ui.UISpecificController
 import org.apache.logging.log4j.scala.Logging
 
+import scala.collection.immutable.Seq
 import scala.concurrent.ExecutionContext
 import scala.reflect.runtime.{universe => ru}
 
@@ -63,7 +66,9 @@ class ManagerApi(managerServices: ManagerServices)
   }
 
   val routes: Route = handleExceptions(commonExceptionHandler) {
-    commonController.routes ~ swaggerController.routes ~ CorsDirectives.cors() {
+    commonController.routes ~ swaggerController.routes ~ CorsDirectives.cors(
+      CorsSettings.defaultSettings.copy(allowedMethods = Seq(GET, POST, HEAD, OPTIONS, PUT))
+    ) {
       runtimeTypeController.routes ~
         modelController.routes ~
         modelRuntimeController.routes ~
