@@ -79,6 +79,7 @@ class UIManagementServiceImpl(
             serviceName = x.modelName,
             modelRuntimeId = x.id
           )).flatMap(res => {
+            //TODO add /health url checking
             Future(Thread.sleep(10000L)).map(c => res)
           })
       }
