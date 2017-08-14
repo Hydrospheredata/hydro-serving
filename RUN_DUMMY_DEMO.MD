@@ -19,7 +19,7 @@ docker run -e POSTGRES_DB=docker \
 ```
 * Run manager
 ```
-HOST_IP=$(ifconfig en0 | grep 'inet ' |  awk '{ print $2}')
+export HOST_IP=$(ifconfig en0 | grep 'inet ' |  awk '{ print $2}')
 export MODEL_DIRECTORY=/path/to/hydro-serving-runtime/models
 docker run -e ADVERTISED_MANAGER_HOST=$HOST_IP \
     -e DATABASE_HOST=$HOST_IP \
