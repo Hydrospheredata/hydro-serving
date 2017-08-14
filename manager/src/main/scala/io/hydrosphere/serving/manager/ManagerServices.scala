@@ -67,4 +67,13 @@ class ManagerServices(
   val envoyManagementService = new EnvoyManagementServiceImpl(
     runtimeManagementService
   )
+
+  val uiManagementService = new UIManagementServiceImpl(
+    managerRepositories.modelRepository,
+    managerRepositories.modelRuntimeRepository,
+    managerRepositories.modelBuildRepository,
+    managerRepositories.modelServiceRepository,
+    runtimeManagementService,
+    servingManagementService
+  )
 }
