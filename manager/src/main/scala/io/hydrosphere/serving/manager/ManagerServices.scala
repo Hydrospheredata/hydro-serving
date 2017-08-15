@@ -8,7 +8,7 @@ import io.hydrosphere.serving.manager.service.clouddriver.{DockerRuntimeDeploySe
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.envoy.EnvoyManagementServiceImpl
-import io.hydrosphere.serving.manager.service.modelbuild.{DefaultModelBuildService, ModelBuildService}
+import io.hydrosphere.serving.manager.service.modelbuild.{EmptyModelPushService, LocalModelBuildService, ModelBuildService, ModelPushService}
 
 import scala.concurrent.ExecutionContext
 
@@ -31,10 +31,12 @@ class ManagerServices(
   val modelSources: Map[ModelSourceConfiguration, ModelSource] = managerConfiguration.modelSources
     .map(conf => conf -> ModelSource.fromConfig(conf)).toMap
 
-  val modelBuildService: ModelBuildService = new DefaultModelBuildService(
+  val modelBuildService: ModelBuildService = new LocalModelBuildService(
     dockerClient,
     modelSources.values.toSeq
   )
+
+  val modelPushService: ModelPushService = new EmptyModelPushService
 
   val modelManagementService: ModelManagementService = new ModelManagementServiceImpl(
     managerRepositories.runtimeTypeRepository,
@@ -43,7 +45,8 @@ class ManagerServices(
     managerRepositories.modelRuntimeRepository,
     managerRepositories.modelBuildRepository,
     managerRepositories.runtimeTypeBuildScriptRepository,
-    modelBuildService
+    modelBuildService,
+    modelPushService
   )
 
   val runtimeDeployService: RuntimeDeployService = managerConfiguration.cloudDriver match {
