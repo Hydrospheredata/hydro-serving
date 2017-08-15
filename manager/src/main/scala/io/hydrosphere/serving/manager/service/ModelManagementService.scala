@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.service
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ProgressHandler, ProgressMessage}
+import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
@@ -148,7 +148,8 @@ class ModelManagementServiceImpl(
   modelRuntimeRepository: ModelRuntimeRepository,
   modelBuildRepository: ModelBuildRepository,
   runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository,
-  modelBuildService: ModelBuildService
+  modelBuildService: ModelBuildService,
+  modelPushService: ModelPushService
 )(implicit val ex: ExecutionContext) extends ModelManagementService with Logging {
 
   override def createRuntimeType(entity: CreateRuntimeTypeRequest): Future[RuntimeType] =
@@ -274,7 +275,9 @@ class ModelManagementServiceImpl(
           inputFields = modelBuild.model.inputFields,
           created = LocalDateTime.now,
           modelId = Some(modelBuild.model.id)
-        ))
+        )).flatMap(modelRuntime => {
+          Future(modelPushService.push(modelRuntime, handler)).map(l => modelRuntime)
+        })
     })
   }
 
