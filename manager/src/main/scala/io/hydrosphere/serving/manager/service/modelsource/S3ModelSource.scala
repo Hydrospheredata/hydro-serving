@@ -4,6 +4,7 @@ import java.io.File
 import java.net.URI
 import java.nio.file.{Files, Path, Paths, StandardCopyOption}
 
+import awscala.Region
 import awscala.s3.S3
 import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, S3ModelSourceConfiguration}
 
@@ -17,7 +18,7 @@ class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends Model
   private[this] val fileCache = new LocalModelSource(
     LocalModelSourceConfiguration(s"proxy-${configuration.name}", localFolder)
   )
-  private[this] implicit val s3 = S3.at(configuration.region)
+  private[this] implicit val s3 = S3.at(Region(configuration.region.getName))
   private[this] val bucketObj = s3.bucket(configuration.bucket).get
 
   private def downloadObject(objectPath: String): File = {

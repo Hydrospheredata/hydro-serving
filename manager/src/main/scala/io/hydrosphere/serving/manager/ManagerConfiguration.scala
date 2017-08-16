@@ -1,8 +1,9 @@
 package io.hydrosphere.serving.manager
 
-import awscala.Region
+import com.amazonaws.regions.Regions
 import com.typesafe.config.Config
 import io.hydrosphere.serving.config.{ApplicationConfig, Configuration, SidecarConfig}
+
 import collection.JavaConverters._
 
 /**
@@ -19,7 +20,8 @@ case class ManagerConfiguration(
   modelSources: Seq[ModelSourceConfiguration],
   database: Config,
   cloudDriver: CloudDriverConfiguration,
-  zipkin: ZipkinConfiguration
+  zipkin: ZipkinConfiguration,
+  dockerRepository: DockerRepositoryConfiguration
 )
 
 abstract class ModelSourceConfiguration() {
@@ -35,14 +37,20 @@ case class LocalModelSourceConfiguration(
 case class S3ModelSourceConfiguration(
   name: String,
   path: String,
-  region: Region,
+  region: Regions,
   bucket: String,
   queue: String
 ) extends ModelSourceConfiguration
 
-abstract class CloudDriverConfiguration() {
+abstract class DockerRepositoryConfiguration()
 
-}
+case class LocalDockerRepositoryConfiguration() extends DockerRepositoryConfiguration
+
+case class ECSDockerRepositoryConfiguration(
+  region: Regions
+) extends DockerRepositoryConfiguration
+
+abstract class CloudDriverConfiguration()
 
 case class SwarmCloudDriverConfiguration(
   networkName: String
@@ -50,6 +58,10 @@ case class SwarmCloudDriverConfiguration(
 
 case class DockerCloudDriverConfiguration(
   networkName: String
+) extends CloudDriverConfiguration
+
+case class ECSCloudDriverConfiguration(
+  region: Regions
 ) extends CloudDriverConfiguration
 
 case class ZipkinConfiguration(
@@ -60,8 +72,22 @@ case class ZipkinConfiguration(
 
 object ManagerConfiguration extends Configuration {
 
-  def parseZipkin(config: Config): ZipkinConfiguration ={
-    val c=config.getConfig("openTracing.zipkin")
+  def parseDockerRepository(config: Config): DockerRepositoryConfiguration = {
+    val repoType = config.getString("dockerRepository.type")
+    repoType match {
+      case "local" => LocalDockerRepositoryConfiguration()
+      case "ecs" =>
+        parseCloudDriver(config) match {
+          case ecs: ECSCloudDriverConfiguration => ECSDockerRepositoryConfiguration(
+            region = ecs.region
+          )
+          case _ => throw new IllegalArgumentException(s"Specify ECS configuration in cloudDriver section")
+        }
+    }
+  }
+
+  def parseZipkin(config: Config): ZipkinConfiguration = {
+    val c = config.getConfig("openTracing.zipkin")
     ZipkinConfiguration(
       host = c.getString("host"),
       port = c.getInt("port"),
@@ -79,6 +105,8 @@ object ManagerConfiguration extends Configuration {
           SwarmCloudDriverConfiguration(networkName = driverConf.getString("networkName"))
         case "docker" =>
           DockerCloudDriverConfiguration(networkName = driverConf.getString("networkName"))
+        case "ecs" =>
+          ECSCloudDriverConfiguration(region = Regions.fromName(driverConf.getString("region")))
         case x =>
           throw new IllegalArgumentException(s"Unknown model source: $x")
       }
@@ -112,7 +140,7 @@ object ManagerConfiguration extends Configuration {
           LocalModelSourceConfiguration(name = name, path = path)
         case "s3" =>
           S3ModelSourceConfiguration(name = name, path = path,
-            region = Region(modelSourceConfig.getString("region")),
+            region = Regions.fromName(modelSourceConfig.getString("region")),
             bucket = modelSourceConfig.getString("bucket"),
             queue = modelSourceConfig.getString("queue")
           )
@@ -133,6 +161,7 @@ object ManagerConfiguration extends Configuration {
     modelSources = parseDataSources(config),
     database = config.getConfig("database"),
     cloudDriver = parseCloudDriver(config),
-    zipkin = parseZipkin(config)
+    zipkin = parseZipkin(config),
+    dockerRepository = parseDockerRepository(config)
   )
 }
