@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager.service
 
 import java.time.LocalDateTime
 
+import io.hydrosphere.serving.manager.DockerRepositoryConfiguration
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.repository._
@@ -260,11 +261,12 @@ class ModelManagementServiceImpl(
         logger.info(progressMessage)
     }
 
-    Future(modelBuildService.build(modelBuild, script, handler)).flatMap({
+    val imageName = modelPushService.getImageName(modelBuild)
+    Future(modelBuildService.build(modelBuild, imageName, script, handler)).flatMap({
       md5 =>
         modelRuntimeRepository.create(ModelRuntime(
           id = 0,
-          imageName = modelBuild.model.name,
+          imageName = imageName,
           imageTag = modelBuild.modelVersion,
           imageMD5Tag = md5,
           modelName = modelBuild.model.name,

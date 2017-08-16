@@ -69,6 +69,9 @@ object Dependencies {
       "org.flywaydb" % "flyway-core" % "4.2.0",
       "com.spotify" % "docker-client" % "8.8.0" exclude("ch.qos.logback", "logback-classic"),
       "com.google.guava" % "guava" % "22.0",
-      "org.tensorflow" % "proto" % "1.2.1"
+      "org.tensorflow" % "proto" % "1.2.1",
+      "org.tensorflow" % "proto" % "1.2.1",
+      "com.amazonaws" % "aws-java-sdk-ecs" % "1.11.57",
+      "com.amazonaws" % "aws-java-sdk-ecr" % "1.11.57"
     ))
 }

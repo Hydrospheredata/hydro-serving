@@ -9,7 +9,7 @@ import com.dimafeng.testcontainers.{ForAllTestContainer, GenericContainer}
 import com.spotify.docker.client.{DefaultDockerClient, DockerClient}
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
 import io.hydrosphere.serving.manager.service.clouddriver.RuntimeDeployService
-import io.hydrosphere.serving.manager.service.modelbuild.ModelBuildService
+import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService}
 import io.hydrosphere.serving.manager.{ManagerConfiguration, ManagerRepositoriesConfig, ManagerServices}
 import org.mockito
 import org.mockito.Mockito
@@ -44,11 +44,13 @@ class CommonIntegrationSpec extends TestKit(ActorSystem("testMasterService"))
 
   /*Mocks*/
   val mockModelBuildService = mock[ModelBuildService]
+  val mockModelPushService = mock[ModelPushService]
   val mockDockerClient = mock[DockerClient]
   val mockRuntimeDeployService = mock[RuntimeDeployService]
 
 
   override protected def beforeEach(): Unit = {
+    mockito.Mockito.reset(mockModelPushService)
     mockito.Mockito.reset(mockModelBuildService)
     mockito.Mockito.reset(mockRuntimeDeployService)
     mockito.Mockito.reset(mockDockerClient)
@@ -71,6 +73,8 @@ class CommonIntegrationSpec extends TestKit(ActorSystem("testMasterService"))
     override val dockerClient: DockerClient = mockDockerClient
 
     override val modelBuildService: ModelBuildService = mockModelBuildService
+
+    override val modelPushService: ModelPushService = mockModelPushService
   }
 
   private def getScript(path: String): String = {
