@@ -4,7 +4,7 @@ import java.io.FileNotFoundException
 import java.nio.file.{Files, NoSuchFileException}
 import java.time.LocalDateTime
 
-import io.hydrosphere.serving.manager.model.{Model, RuntimeType}
+import io.hydrosphere.serving.manager.model.{Model, RuntimeType, SchematicRuntimeType}
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.model.CommonJsonSupport
 import org.apache.logging.log4j.scala.Logging
@@ -38,19 +38,14 @@ object ScikitModelFetcher extends ModelFetcher with Logging {
     ScikitMetadata.fromJson(metaStr)
   }
 
-  override def fetch(source: ModelSource, directory: String): Option[Model] = {
+  override def fetch(source: ModelSource, directory: String): Option[ModelMetadata] = {
     try {
       val metadata = getMetadata(source, directory)
-      Some(Model(
-        -1,
+      Some(ModelMetadata(
         directory,
-        s"${source.getSourcePrefix()}:/$directory",
-        None,
-        None,
+        Some(new SchematicRuntimeType("scikit", "1.0")),
         metadata.outputs,
-        metadata.inputs,
-        LocalDateTime.now(),
-        LocalDateTime.now()
+        metadata.inputs
       ))
     } catch {
       case e: NoSuchFileException =>

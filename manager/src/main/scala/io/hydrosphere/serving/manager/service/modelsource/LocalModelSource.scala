@@ -35,12 +35,8 @@ class LocalModelSource(val configuration: LocalModelSourceConfiguration) extends
 
   override def getSourcePrefix(): String = configuration.name
 
-  override def getModelPath(modelSource: String): Path = {
-    val args = modelSource.split("://")
-    val path = args.last
-    Paths.get(configuration.path, path)
+  override def getAbsolutePath(modelPath: String): Path = {
+    Paths.get(configuration.path, modelPath)
   }
 
-  override def getLocalCopy(source: String): Path =
-    Paths.get(configuration.path, source.split(":").last)
 }

@@ -7,7 +7,7 @@ import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.BuildParam
 import com.spotify.docker.client.messages.RegistryAuth
 import io.hydrosphere.serving.manager.model.{ModelBuild, ModelRuntime}
-import io.hydrosphere.serving.manager.service.modelsource.ModelSource
+import io.hydrosphere.serving.manager.service.SourceManagementService
 import org.apache.commons.io.FileUtils
 
 

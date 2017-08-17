@@ -1,19 +1,19 @@
 package io.hydrosphere.serving.manager.service.modelfetcher
 
-import scala.collection.JavaConversions._
 import java.io.FileNotFoundException
 import java.nio.file.{Files, NoSuchFileException}
-import java.time.LocalDateTime
 
-import io.hydrosphere.serving.manager.model.{Model, SchematicRuntimeType}
+import io.hydrosphere.serving.manager.model.SchematicRuntimeType
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import org.apache.logging.log4j.scala.Logging
-import org.tensorflow.framework.{SavedModel}
+import org.tensorflow.framework.SavedModel
+
+import scala.collection.JavaConversions._
 /**
   * Created by bulat on 24/07/2017.
   */
 object TensorflowModelFetcher extends ModelFetcher with Logging {
-  override def fetch(source: ModelSource, directory: String): Option[Model] = {
+  override def fetch(source: ModelSource, directory: String): Option[ModelMetadata] = {
     try {
       val pbFile = source.getReadableFile(s"$directory/saved_model.pb")
       val savedModel = SavedModel.parseFrom(Files.newInputStream(pbFile.toPath))
@@ -22,18 +22,11 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
       val inputs = signature.getInputsMap.keySet.toList
       val outputs = signature.getOutputsMap.keySet.toList
       Some(
-        Model(
-          -1,
+        ModelMetadata(
           directory,
-          s"${source.getSourcePrefix()}:/$directory",
-          Some(
-            new SchematicRuntimeType("tensorflow", "1.0")
-          ),
-          None,
+          Some(new SchematicRuntimeType("tensorflow", "1.0")),
           outputs,
-          inputs,
-          LocalDateTime.now(),
-          LocalDateTime.now()
+          inputs
         )
       )
     } catch {

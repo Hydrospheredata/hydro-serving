@@ -11,4 +11,3 @@ addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "0.9.0")
 libraryDependencies ++= Seq(
   "com.spotify" % "docker-client" % "8.8.0"
 )
-

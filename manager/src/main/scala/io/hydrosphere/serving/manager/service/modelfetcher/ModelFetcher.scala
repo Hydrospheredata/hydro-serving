@@ -10,7 +10,7 @@ import org.apache.logging.log4j.scala.Logging
   *
   */
 trait ModelFetcher {
-  def fetch(source: ModelSource, directory: String): Option[Model]
+  def fetch(source: ModelSource, directory: String): Option[ModelMetadata]
 }
 
 object ModelFetcher extends Logging {
@@ -20,7 +20,7 @@ object ModelFetcher extends Logging {
     ScikitModelFetcher
   )
 
-  def getModel(source: ModelSource, folder: String) = {
+  def getModel(source: ModelSource, folder: String): ModelMetadata = {
     val res = fetchers
       .map(_.fetch(source, folder))
 
@@ -29,12 +29,12 @@ object ModelFetcher extends Logging {
       .map(_.get)
       .headOption
       .getOrElse {
-        Model(-1, folder, "unknown", None, None, List.empty, List.empty, LocalDateTime.now(), LocalDateTime.now())
+        ModelMetadata(folder, None, List.empty, List.empty)
       }
     model
   }
 
-  def getModels(source: ModelSource): Seq[Model] = {
+  def getModels(source: ModelSource): Seq[ModelMetadata] = {
     source.getSubDirs.map(getModel(source, _))
   }
 }
