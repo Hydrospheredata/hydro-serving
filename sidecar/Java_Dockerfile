@@ -24,7 +24,6 @@ LABEL RUNTIME_TYPE_VERSION="no"
 ADD target/hydro-serving-sidecar-install-$VERSION.sh /tmp/
 
 RUN apk add --no-cache curl && \
- chmod +x /tmp/hydro-serving-sidecar-install-$VERSION.sh && \
  /tmp/hydro-serving-sidecar-install-$VERSION.sh --target /hydro-serving/sidecar -- alpine && \
  rm -rf /tmp && rm -rf /var/cache/apk/*
 
