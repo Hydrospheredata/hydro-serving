@@ -5,7 +5,7 @@ import io.hydrosphere.serving.manager.model.{Model, ModelBuild, ModelRuntime, Mo
 import io.hydrosphere.serving.manager.repository.{ModelBuildRepository, ModelRepository, ModelRuntimeRepository, ModelServiceRepository}
 import org.apache.logging.log4j.scala.Logging
 
-import scala.concurrent.{Await, ExecutionContext, Future}
+import scala.concurrent.{ExecutionContext, Future}
 
 case class ModelInfo(
   model: Model,
@@ -18,9 +18,13 @@ trait UIManagementService {
 
   def allModelsWithLastStatus(): Future[Seq[ModelInfo]]
 
+  def modelWithLastStatus(modelId: Long): Future[Option[ModelInfo]]
+
   def stopAllServices(modelId: Long): Future[Unit]
 
   def testModel(modelId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
+
+  def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelInfo]
 }
 
 class UIManagementServiceImpl(
@@ -29,7 +33,8 @@ class UIManagementServiceImpl(
   modelBuildRepository: ModelBuildRepository,
   modelServiceRepository: ModelServiceRepository,
   runtimeManagementService: RuntimeManagementService,
-  servingManagementService: ServingManagementService
+  servingManagementService: ServingManagementService,
+  modelManagementService: ModelManagementService
 )(implicit val ex: ExecutionContext) extends UIManagementService with Logging {
 
   //TODO Optimize implementation
@@ -51,6 +56,26 @@ class UIManagementServiceImpl(
         })
       })
     })
+
+
+  override def modelWithLastStatus(modelId: Long): Future[Option[ModelInfo]] =
+    modelRepository.get(modelId).flatMap({
+      case Some(x) =>
+        modelRuntimeRepository.lastModelRuntimeByModel(modelId, 1).flatMap(modelRuntimes => {
+          modelServiceRepository.getByModelIds(Seq(modelId)).flatMap(services => {
+            modelBuildRepository.lastByModelId(modelId, 1).map(builds => {
+              Some(ModelInfo(
+                model = x,
+                lastModelRuntime = modelRuntimes.headOption,
+                lastModelBuild = builds.headOption,
+                currentServices = services.toList
+              ))
+            })
+          })
+        })
+      case None => Future.successful(None)
+    })
+
 
   override def stopAllServices(modelId: Long): Future[Unit] =
     modelServiceRepository.getByModelIds(Seq(modelId)).flatMap(services => {
@@ -83,6 +108,16 @@ class UIManagementServiceImpl(
             Future(Thread.sleep(10000L)).map(c => res)
           })
       }
+    })
+
+  override def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelInfo] =
+    modelManagementService.buildModel(modelId, modelVersion).flatMap(runtime => {
+      stopAllServices(modelId).flatMap(_ => {
+        runtimeManagementService.addService(CreateModelServiceRequest(
+          serviceName = runtime.modelName,
+          modelRuntimeId = runtime.id
+        )).flatMap(_ => modelWithLastStatus(modelId).map(o => o.get))
+      })
     })
 
 }

@@ -6,7 +6,7 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Directives.{complete, get, path}
 import akka.util.Timeout
 import io.hydrosphere.serving.controller.TracingHeaders
-import io.hydrosphere.serving.manager.controller.{ManagerJsonSupport, ServeData}
+import io.hydrosphere.serving.manager.controller.{BuildModelRequest, ManagerJsonSupport, ServeData}
 import io.hydrosphere.serving.manager.service.{ModelInfo, UIManagementService}
 import io.swagger.annotations._
 
@@ -71,6 +71,27 @@ class UISpecificController(
     }
   }
 
-  val routes = modelsWithLastInfo ~ deleteServices ~ serveService
+
+  @Path("/build")
+  @ApiOperation(value = "Build model", notes = "Build model", nickname = "buildModel", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "body", value = "Model", required = true,
+      dataTypeClass = classOf[BuildModelRequest], paramType = "body")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Model", response = classOf[ModelInfo]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def buildModel = path("ui" / "v1" / "model" / "build") {
+    post {
+      entity(as[BuildModelRequest]) { r =>
+        complete(
+          uiManagementService.buildModel(r.modelId, r.modelVersion)
+        )
+      }
+    }
+  }
+
+  val routes = modelsWithLastInfo ~ deleteServices ~ serveService ~ buildModel
 
 }

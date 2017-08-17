@@ -77,6 +77,7 @@ class ManagerServices(
     managerRepositories.modelBuildRepository,
     managerRepositories.modelServiceRepository,
     runtimeManagementService,
-    servingManagementService
+    servingManagementService,
+    modelManagementService
   )
 }
