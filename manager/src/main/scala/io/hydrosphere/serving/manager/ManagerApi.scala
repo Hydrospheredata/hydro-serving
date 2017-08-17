@@ -76,7 +76,7 @@ class ManagerApi(managerServices: ManagerServices)
 
   val routes: Route = handleExceptions(commonExceptionHandler) {
     commonController.routes ~ swaggerController.routes ~ CorsDirectives.cors(
-      CorsSettings.defaultSettings.copy(allowedMethods = Seq(GET, POST, HEAD, OPTIONS, PUT))
+      CorsSettings.defaultSettings.copy(allowedMethods = Seq(GET, POST, HEAD, OPTIONS, PUT, DELETE))
     ) {
       runtimeTypeController.routes ~
         modelController.routes ~
