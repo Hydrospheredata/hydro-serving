@@ -36,10 +36,11 @@ object Dependencies {
     "com.dimafeng" %% "testcontainers-scala" % "0.7.0" % "test,it",
     "org.scalactic" %% "scalactic" % scalaTestVersion % "test,it",
     "org.scalatest" %% "scalatest" % scalaTestVersion % "test,it",
-    "com.typesafe.akka" %% "akka-testkit" % akkaVersion % Test,
-    "com.amazonaws" % "aws-java-sdk-test-utils" % "1.11.174" % "test",
-    "io.findify" %% "s3mock" % "0.2.3" % "test",
-     "io.findify" %% "sqsmock" % "0.3.2" % "test"
+    "com.typesafe.akka" %% "akka-testkit" % akkaVersion % "test,it",
+    "com.amazonaws" % "aws-java-sdk-test-utils" % "1.11.174" % "test,it",
+    "io.findify" %% "s3mock" % "0.2.3" % "test,it",
+    "io.findify" %% "sqsmock" % "0.3.2" % "test,it"
+
   )
 
   lazy val logDependencies = Seq(

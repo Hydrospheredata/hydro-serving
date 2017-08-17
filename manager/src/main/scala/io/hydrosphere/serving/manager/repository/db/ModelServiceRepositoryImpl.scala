@@ -55,7 +55,7 @@ class ModelServiceRepositoryImpl(databaseService: DatabaseService)(implicit exec
         .result
     ).map(s => mapFromDb(s))
 
-  override def updateCloudDriveId(serviceId: Long, cloudDriveId: Option[String]): Future[Int] ={
+  override def updateCloudDriveId(serviceId: Long, cloudDriveId: Option[String]): Future[Int] = {
     val query = for {
       service <- Tables.ModelService if service.serviceId === serviceId
     } yield service.cloudDriverId
@@ -82,6 +82,28 @@ class ModelServiceRepositoryImpl(databaseService: DatabaseService)(implicit exec
         .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
         .joinLeft(Tables.RuntimeType)
         .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
+        .result
+    ).map(m => mapFromDb(m))
+
+  override def getByModelIds(modelIds: Seq[Long]): Future[Seq[ModelService]] =
+    db.run(
+      Tables.ModelService
+        .joinLeft(Tables.ModelRuntime)
+        .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.RuntimeType)
+        .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
+        .filter({ case ((ms, mr), rt) => mr.flatMap(_.modelId) inSetBind modelIds })
+        .result
+    ).map(m => mapFromDb(m))
+
+  override def getByModelRuntimeIds(runtimeIds: Seq[Long]): Future[Seq[ModelService]] =
+    db.run(
+      Tables.ModelService
+        .joinLeft(Tables.ModelRuntime)
+        .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.RuntimeType)
+        .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
+        .filter({ case ((ms, mr), rt) => mr.flatMap(_.runtimeId) inSetBind runtimeIds })
         .result
     ).map(m => mapFromDb(m))
 }
@@ -119,7 +141,7 @@ object ModelServiceRepositoryImpl {
       serviceId = model.serviceId,
       serviceName = model.serviceName,
       cloudDriverId = model.cloudDriverId,
-      modelRuntime = modelRuntime.getOrElse(throw new RuntimeException()),
+      modelRuntime = modelRuntime.getOrElse(throw new RuntimeException("Can't find ModelRuntime for service")),
       status = model.status,
       statusText = model.statustext
     )

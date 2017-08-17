@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.service
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ProgressHandler, ProgressMessage}
+import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
@@ -11,13 +11,6 @@ import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Failure, Success, Try}
-
-
-case class ModelInfo(
-  model: Model,
-  lastModelBuild: Option[ModelBuild],
-  lastModelRuntime: Option[ModelRuntime]
-)
 
 case class CreateRuntimeTypeRequest(
   name: String,
@@ -120,8 +113,6 @@ trait ModelManagementService {
 
   def allModels(): Future[Seq[Model]]
 
-  def allModelsWithLastStatus(): Future[Seq[ModelInfo]]
-
   def updateModel(entity: CreateOrUpdateModelRequest): Future[Model]
 
   def createModel(entity: CreateOrUpdateModelRequest): Future[Model]
@@ -157,7 +148,8 @@ class ModelManagementServiceImpl(
   modelRuntimeRepository: ModelRuntimeRepository,
   modelBuildRepository: ModelBuildRepository,
   runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository,
-  modelBuildService: ModelBuildService
+  modelBuildService: ModelBuildService,
+  modelPushService: ModelPushService
 )(implicit val ex: ExecutionContext) extends ModelManagementService with Logging {
 
   override def createRuntimeType(entity: CreateRuntimeTypeRequest): Future[RuntimeType] =
@@ -283,7 +275,9 @@ class ModelManagementServiceImpl(
           inputFields = modelBuild.model.inputFields,
           created = LocalDateTime.now,
           modelId = Some(modelBuild.model.id)
-        ))
+        )).flatMap(modelRuntime => {
+          Future(modelPushService.push(modelRuntime, handler)).map(l => modelRuntime)
+        })
     })
   }
 
@@ -398,20 +392,4 @@ class ModelManagementServiceImpl(
     }
   }
 
-  //TODO refactor - create specific service for UI (with repository)
-  override def allModelsWithLastStatus(): Future[Seq[ModelInfo]] =
-    modelRepository.all().flatMap(models => {
-      val ids = models.map(m => m.id)
-      modelRuntimeRepository.lastModelRuntimeForModels(models.map(m => m.id)).flatMap(runtimes => {
-        modelBuildRepository.lastForModels(ids).flatMap(builds => {
-          Future(models.map(model => {
-            ModelInfo(
-              model = model,
-              lastModelRuntime = runtimes.find(r => r.modelId.get == model.id),
-              lastModelBuild = builds.find(b => b.model.id == model.id)
-            )
-          }))
-        })
-      })
-    })
 }
