@@ -24,7 +24,7 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
       Some(
         ModelMetadata(
           directory,
-          Some(new SchematicRuntimeType("tensorflow", "1.0")),
+          Some(new SchematicRuntimeType("hydro-serving/runtime-tensorflow", "0.0.1")),
           outputs,
           inputs
         )
