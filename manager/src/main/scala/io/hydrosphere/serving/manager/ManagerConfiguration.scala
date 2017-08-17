@@ -115,6 +115,7 @@ object ManagerConfiguration extends Configuration {
         case "local" =>
           LocalModelSourceConfiguration(name = name, path = path)
         case "s3" =>
+          //TODO move to service
           val s3Client = AmazonS3ClientBuilder.standard().withRegion(modelSourceConfig.getString("region")).build()
           val sqsClient = AmazonSQSClientBuilder.standard().withRegion(modelSourceConfig.getString("region")).build()
           S3ModelSourceConfiguration(

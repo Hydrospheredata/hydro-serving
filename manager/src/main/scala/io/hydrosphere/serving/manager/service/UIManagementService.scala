@@ -80,7 +80,8 @@ class UIManagementServiceImpl(
   override def stopAllServices(modelId: Long): Future[Unit] =
     modelServiceRepository.getByModelIds(Seq(modelId)).flatMap(services => {
       Future.traverse(services)(s =>
-        runtimeManagementService.deleteService(s.serviceId)).map(s => Unit)
+        runtimeManagementService.deleteService(s.serviceId)
+          .flatMap(_ => waitForContainerStop(s))).map(s => Unit)
     })
 
   override def testModel(modelId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
@@ -104,11 +105,20 @@ class UIManagementServiceImpl(
             serviceName = x.modelName,
             modelRuntimeId = x.id
           )).flatMap(res => {
-            //TODO add /health url checking
-            Future(Thread.sleep(10000L)).map(c => res)
+            waitForContainerStart(res).map(c => res)
           })
       }
     })
+
+  //TODO add /health url checking
+  private def waitForContainerStart(service: ModelService): Future[Unit] = {
+    Future(Thread.sleep(10000L))
+  }
+
+  //TODO check instances
+  private def waitForContainerStop(service: ModelService): Future[Unit] = {
+    Future(Thread.sleep(5000L))
+  }
 
   override def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelInfo] =
     modelManagementService.buildModel(modelId, modelVersion).flatMap(runtime => {
