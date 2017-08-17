@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager
 
+import com.amazonaws.auth.AWSCredentialsProvider
 import com.amazonaws.services.s3.{AmazonS3, AmazonS3ClientBuilder}
 import com.amazonaws.services.sqs.{AmazonSQS, AmazonSQSClientBuilder}
 import com.typesafe.config.Config
