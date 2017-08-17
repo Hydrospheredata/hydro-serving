@@ -32,7 +32,7 @@ class ManagerServices(
 
   val modelBuildService: ModelBuildService = new LocalModelBuildService(
     dockerClient,
-    modelSources.values.toSeq
+    sourceManagementService
   )
 
   val modelPushService: ModelPushService = new EmptyModelPushService
