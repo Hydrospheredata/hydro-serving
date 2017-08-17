@@ -3,7 +3,8 @@ package io.hydrosphere.serving.manager.actor.modelsource
 import java.io.File
 import java.nio.file.StandardWatchEventKinds._
 import java.nio.file._
-import java.time.LocalDateTime
+import java.nio.file.attribute.BasicFileAttributes
+import java.time.{LocalDateTime, ZoneId}
 
 import akka.actor.Props
 import com.google.common.hash.Hashing
@@ -37,17 +38,29 @@ class LocalSourceWatcher(val source: LocalModelSource) extends SourceWatcher {
   }
 
   private def handleWatcherEvent[T](path: Path, event: WatchEvent[T]): List[FileEvent] = {
-    val name = event.context().asInstanceOf[Path]
-    val child = source.sourceFile.toPath.resolve(name)
-    val childFile = child.toFile
-    val relativePath = source.sourceFile.toPath.relativize(child)
-    println(s"name: $name")
-    println(s"source: ${source.configuration.path}")
-    println(s"child: $child")
-    if (childFile.isHidden) {
+    def handleCreation(relativePath: Path) = {
+      val absolutePath = source.sourceFile.toPath.resolve(relativePath)
+      val hash = com.google.common.io.Files
+        .asByteSource(absolutePath.toFile)
+        .hash(Hashing.sha256())
+        .toString
+      val attributes = Files.readAttributes(absolutePath, classOf[BasicFileAttributes])
+      FileCreated(
+        source,
+        relativePath.toString,
+        hash,
+        LocalDateTime.ofInstant(attributes.creationTime().toInstant, ZoneId.systemDefault())
+      )
+    }
+
+    val filename = event.context().asInstanceOf[Path]
+    val absolutePath = source.sourceFile.toPath.resolve(filename)
+    val file = absolutePath.toFile
+    val relativePath = source.sourceFile.toPath.relativize(absolutePath)
+
+    if (file.isHidden) {
       Nil
     } else {
-      val file = relativePath.toString
       event.kind() match {
         case StandardWatchEventKinds.OVERFLOW =>
           log.warning(s"File system event: Overflow: $event")
@@ -55,38 +68,28 @@ class LocalSourceWatcher(val source: LocalModelSource) extends SourceWatcher {
 
         case StandardWatchEventKinds.ENTRY_CREATE =>
           log.debug(s"File system event: ENTRY_CREATE: $relativePath")
-          if (Files.isDirectory(child)) {
-            // Delete all files in this directory
-            childFile
+          if (Files.isDirectory(absolutePath)) {
+            file
               .listFilesRecursively
               .map(_.toPath)
               .map(source.sourceFile.toPath.relativize)
-              .map { file =>
-                val hash = com.google.common.io.Files
-                  .asByteSource(source.sourceFile.toPath.resolve(file).toFile)
-                  .hash(Hashing.sha256())
-                  .toString
-                FileCreated(source, file.toString, hash, LocalDateTime.now())
-              }
+              .map(handleCreation)
           } else {
-            val hash = com.google.common.io.Files
-              .asByteSource(child.toFile)
-              .hash(Hashing.sha256())
-              .toString
-            List(FileCreated(source, file, hash, LocalDateTime.now()))
+            List(handleCreation(relativePath))
           }
 
         case StandardWatchEventKinds.ENTRY_MODIFY =>
           log.debug(s"File system event: ENTRY_MODIFY: $relativePath")
           val hash = com.google.common.io.Files
-            .asByteSource(child.toFile)
+            .asByteSource(absolutePath.toFile)
             .hash(Hashing.sha256())
             .toString
-          List(FileModified(source, file, hash, LocalDateTime.now()))
+          val lastModified = LocalDateTime.ofInstant(Files.getLastModifiedTime(absolutePath).toInstant, ZoneId.systemDefault())
+          List(FileModified(source, relativePath.toString, hash, lastModified))
 
         case StandardWatchEventKinds.ENTRY_DELETE =>
           log.debug(s"File system event: ENTRY_DELETE: $relativePath")
-          List(FileDeleted(source, file))
+          List(FileDeleted(source, relativePath.toString))
         case x =>
           log.warning(s"File system event: Unknown: $x")
           Nil
@@ -95,7 +98,7 @@ class LocalSourceWatcher(val source: LocalModelSource) extends SourceWatcher {
   }
 
   override def watcherPreStart(): Unit = {
-    subscribeRecursively(new File(source.configuration.path))
+    subscribeRecursively(source.sourceFile)
   }
 
   override def watcherPostStop(): Unit = {

@@ -35,7 +35,12 @@ object Dependencies {
     "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpVersion % "test,it",
     "com.dimafeng" %% "testcontainers-scala" % "0.7.0" % "test,it",
     "org.scalactic" %% "scalactic" % scalaTestVersion % "test,it",
-    "org.scalatest" %% "scalatest" % scalaTestVersion % "test,it"
+    "org.scalatest" %% "scalatest" % scalaTestVersion % "test,it",
+    "com.typesafe.akka" %% "akka-testkit" % akkaVersion % "test,it",
+    "com.amazonaws" % "aws-java-sdk-test-utils" % "1.11.174" % "test,it",
+    "io.findify" %% "s3mock" % "0.2.3" % "test,it",
+    "io.findify" %% "sqsmock" % "0.3.2" % "test,it"
+
   )
 
   lazy val logDependencies = Seq(
@@ -60,7 +65,8 @@ object Dependencies {
     .union(akkaHttpDependencies)
     .union(testDependencies)
     .union(Seq(
-      "com.github.seratch" %% "awscala" % "0.6.+",
+      "com.amazonaws" % "aws-java-sdk-sqs" % "1.11.174",
+      "com.amazonaws" % "aws-java-sdk-s3" % "1.11.174",
       "org.postgresql" % "postgresql" % postgresqlVersion,
       "com.typesafe.slick" %% "slick" % slickVersion,
       "com.typesafe.slick" %% "slick-hikaricp" % slickVersion,
