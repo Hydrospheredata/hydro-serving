@@ -114,11 +114,13 @@ object ManagerConfiguration extends Configuration {
         case "local" =>
           LocalModelSourceConfiguration(name = name, path = path)
         case "s3" =>
+          val s3Client = AmazonS3ClientBuilder.standard().withRegion(modelSourceConfig.getString("region")).build()
+          val sqsClient = AmazonSQSClientBuilder.standard().withRegion(modelSourceConfig.getString("region")).build()
           S3ModelSourceConfiguration(
             name = name,
             path = path,
-            s3Client = AmazonS3ClientBuilder.defaultClient(),
-            sqsClient = AmazonSQSClientBuilder.defaultClient(),
+            s3Client = s3Client,
+            sqsClient = sqsClient,
             bucket = modelSourceConfig.getString("bucket"),
             queue = modelSourceConfig.getString("queue")
           )

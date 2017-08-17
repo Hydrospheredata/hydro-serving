@@ -21,12 +21,12 @@ class S3SourceWatcher(val source: S3ModelSource) extends SourceWatcher {
       .sqsClient
       .receiveMessage(source.configuration.queue)
       .getMessages
-      .map(m => m -> m.getBody)
+    val msgBodies = messages.map(m => m -> m.getBody)
       .map { case (m, b) => m -> SQSMessage.fromJson(b) }
       .filter { case (_, b) => b.bucket == source.configuration.bucket }
       .toMap
 
-    messages.toList.map {
+    msgBodies.toList.map {
       case (message, info) =>
         val event = info.eventName.split(':').head match {
           case "ObjectRemoved" =>

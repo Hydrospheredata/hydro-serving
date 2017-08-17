@@ -32,6 +32,7 @@ class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends Model
     val fileStream = client.getObject(configuration.bucket, objectPath).getObjectContent
 
     val folderStructure = Paths.get(localFolder, objectPath.split("/").dropRight(1).mkString("/"))
+
     Files.createDirectories(folderStructure)
 
     val file = Files.createFile(Paths.get(localFolder, objectPath))
@@ -66,11 +67,11 @@ class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends Model
 
   override def getAllFiles(folder: String): List[String] = {
     logger.debug(s"getAllFiles: $folder")
-    val pUri = URI.create(s"$folder")
     val modelKeys = client
-      .listObjects(configuration.bucket, pUri.toString)
+      .listObjects(configuration.bucket, folder)
       .getObjectSummaries
       .map(_.getKey)
+      .filterNot(_.endsWith("/")) // fix w2v/stages/0_w2v_617dd94f64cf/data/
     println(modelKeys)
     modelKeys
       .map(URI.create)
