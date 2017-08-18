@@ -31,6 +31,23 @@ class UISpecificController(
     }
   }
 
+  @Path("/withInfo/{modelId}")
+  @ApiOperation(value = "model", notes = "model", nickname = "model", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ModelInfo", response=classOf[ModelInfo]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def modelWithLastInfo = path("ui" / "v1" / "model" / "withInfo" / LongNumber) { modelId =>
+    get {
+      complete(uiManagementService.modelWithLastStatus(modelId))
+    }
+  }
+
+  ///TODO withInfo for one
+
   @Path("/stopService/{modelId}")
   @ApiOperation(value = "stopService", notes = "stopService", nickname = "stopService", httpMethod = "DELETE")
   @ApiImplicitParams(Array(
@@ -92,6 +109,6 @@ class UISpecificController(
     }
   }
 
-  val routes = modelsWithLastInfo ~ deleteServices ~ serveService ~ buildModel
+  val routes = modelsWithLastInfo ~ deleteServices ~ serveService ~ buildModel ~ modelWithLastInfo
 
 }
