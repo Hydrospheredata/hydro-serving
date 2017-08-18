@@ -1,11 +1,13 @@
 package io.hydrosphere.serving.manager.service.modelsource
 
-import java.io.{File, FileNotFoundException}
+import java.io.{File, FileNotFoundException, IOException}
 import java.net.URI
-import java.nio.file.{Files, Path, Paths, StandardCopyOption}
+import java.nio.file._
+import java.nio.file.attribute.BasicFileAttributes
 
 import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, S3ModelSourceConfiguration}
 import org.apache.logging.log4j.scala.Logging
+
 import scala.collection.JavaConversions._
 
 /**
@@ -13,7 +15,7 @@ import scala.collection.JavaConversions._
   */
 class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends ModelSource with Logging {
   private[this] val localFolder =  s"/tmp/${configuration.name}"
-  private[this] val fileCache = new LocalModelSource(
+  val cacheSource = new LocalModelSource(
     LocalModelSourceConfiguration(s"proxy-${configuration.name}", localFolder)
   )
 
@@ -22,7 +24,22 @@ class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends Model
   val proxyFolder: Path = Paths.get(localFolder)
 
   def deleteProxyObject(objectPath: String): Boolean = {
-    Files.deleteIfExists(Paths.get(localFolder, objectPath))
+    val path = Paths.get(localFolder, objectPath)
+    if (Files.exists(path) && Files.isDirectory(path)) {
+      Files.walkFileTree(path, new FileVisitor[Path] {
+        def visitFileFailed(file: Path, exc: IOException) = FileVisitResult.CONTINUE
+        def visitFile(file: Path, attrs: BasicFileAttributes) = {
+          Files.delete(file)
+          FileVisitResult.CONTINUE
+        }
+        def preVisitDirectory(dir: Path, attrs: BasicFileAttributes) = FileVisitResult.CONTINUE
+        def postVisitDirectory(dir: Path, exc: IOException) = {
+          Files.delete(dir)
+          FileVisitResult.CONTINUE
+        }
+      })
+    }
+    Files.deleteIfExists(path)
   }
 
   def downloadObject(objectPath: String): File = {
@@ -33,6 +50,10 @@ class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends Model
 
     val folderStructure = Paths.get(localFolder, objectPath.split("/").dropRight(1).mkString("/"))
 
+    if (Files.isRegularFile(folderStructure)) { // FIX sometimes s3 puts the entire folder
+      Files.delete(folderStructure)
+    }
+
     Files.createDirectories(folderStructure)
 
     val file = Files.createFile(Paths.get(localFolder, objectPath))
@@ -42,13 +63,14 @@ class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends Model
 
   override def getSubDirs(path: String): List[String] = {
     logger.debug(s"getSubDirs: $path")
-    val pUri = Paths.get(path).toUri
     client
       .listObjects(configuration.bucket)
       .getObjectSummaries
       .map(_.getKey)
-      .map(Paths.get(_).toUri)
-      .map(k => pUri.relativize(k).toString.split("/").head)
+      .filter(_.startsWith(path))
+      .map(_.split(path).last.split("/"))
+      .filterNot(_.length == 1)
+      .map(_(1))
       .distinct.toList
   }
 
@@ -78,16 +100,20 @@ class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends Model
       .map(_.toString)
       .map(getReadableFile)
 
-    val r = fileCache.getAllFiles(folder)
+    val r = cacheSource.getAllFiles(folder)
     println(r)
     r
+  }
+
+  def getAllCachedFiles(folder: String): List[String] = {
+    cacheSource.getAllFiles(folder)
   }
 
   override def getReadableFile(path: String): File = {
     logger.debug(s"getReadableFile: $path")
 
     val fullObjectPath = URI.create(s"$path")
-    val file = fileCache.getReadableFile(path)
+    val file = cacheSource.getReadableFile(path)
     if (!file.exists()) downloadObject(fullObjectPath.toString)
     file
   }

@@ -26,20 +26,41 @@ class S3SourceWatcher(val source: S3ModelSource) extends SourceWatcher {
       .filter { case (_, b) => b.bucket == source.configuration.bucket }
       .toMap
 
-    msgBodies.toList.map {
+    msgBodies.toList.flatMap {
       case (message, info) =>
         val event = info.eventName.split(':').head match {
           case "ObjectRemoved" =>
+            log.debug(s"ObjectRemoved: ${info.objKey}")
             source.deleteProxyObject(info.objKey)
-            FileDeleted(source, info.objKey)
+            if (info.objKey.endsWith("/")) {
+              source.cacheSource.getAllFiles(info.objKey).map{ f =>
+                FileDeleted(source, f)
+              }
+            } else {
+              List(FileDeleted(source, info.objKey))
+            }
           case "ObjectCreated" =>
-            source.deleteProxyObject(info.objKey)
-            val file = source.downloadObject(info.objKey)
-            val hash = com.google.common.io.Files
-              .asByteSource(file)
-              .hash(Hashing.sha256())
-              .toString
-            FileCreated(source, info.objKey, hash, info.eventTime)
+            log.debug(s"ObjectCreated: ${info.objKey}")
+            if (info.objKey.endsWith("/")) {
+              source.getAllFiles(info.objKey).map{ f =>
+                val fullpath = info.objKey + f
+                source.deleteProxyObject(fullpath)
+                val file = source.downloadObject(fullpath)
+                val hash = com.google.common.io.Files
+                  .asByteSource(file)
+                  .hash(Hashing.sha256())
+                  .toString
+                FileCreated(source, fullpath, hash, info.eventTime)
+              }
+            } else {
+              source.deleteProxyObject(info.objKey)
+              val file = source.downloadObject(info.objKey)
+              val hash = com.google.common.io.Files
+                .asByteSource(file)
+                .hash(Hashing.sha256())
+                .toString
+              List(FileCreated(source, info.objKey, hash, info.eventTime))
+            }
         }
         source.configuration.sqsClient.deleteMessage(source.configuration.queue, message.getReceiptHandle)
         event

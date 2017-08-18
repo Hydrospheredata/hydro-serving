@@ -12,22 +12,22 @@ class RepositoryActor(val modelManagementService: ModelManagementService) extend
 
   override def receive: Receive = {
     case FileCreated(source, fileName, hash, createdAt) =>
-      println(s"File created: $fileName")
+      println(s"[$source] File created: $fileName")
       modelManagementService.createFileForModel(source, fileName, hash, createdAt, createdAt).onFailure {
         case ex =>
           log.error(ex, "Cannot get model for associated file")
       }
 
     case FileModified(source, fileName, hash, updatedAt) =>
-      println(s"File edited: $fileName")
+      println(s"[$source] File edited: $fileName")
 
       modelManagementService.updateOrCreateModelFile(source, fileName, hash, updatedAt, updatedAt).onFailure {
         case ex =>
           log.error(ex, "Cannot get changed file")
       }
 
-    case FileDeleted(_, fileName) =>
-      println(s"File deleted: $fileName")
+    case FileDeleted(source, fileName) =>
+      println(s"[$source] File deleted: $fileName")
       if (fileName.split('/').length == 1) {
         modelManagementService.deleteModel(fileName)
       } else {
