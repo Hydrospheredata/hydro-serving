@@ -49,6 +49,7 @@ class HttpRuntimeMeshConnector(
     .mapAsync(1) { r =>
       if (r.status != StatusCodes.OK) {
         logger.debug(s"Wrong status from service ${r.status}")
+        throw new RuntimeException(s"Wrong status from model ${r.status}")
       }
       Unmarshal(r.entity).to[Seq[Any]]
         .map(ExecutionResult(r.headers, _))
@@ -67,10 +68,10 @@ class HttpRuntimeMeshConnector(
   }
 
   override def execute(command: ExecutionCommand): Future[ExecutionResult] = {
-    val executionUnit=command.pipe.head
+    val executionUnit = command.pipe.head
     var fAccum = execute(executionUnit.serviceName, executionUnit.servicePath, command.headers, command.json)
-    for(item <- command.pipe.drop(1)) {
-      fAccum = fAccum.flatMap(res=>{
+    for (item <- command.pipe.drop(1)) {
+      fAccum = fAccum.flatMap(res => {
         execute(item.serviceName, item.servicePath, command.headers, res.json)
       })
     }
