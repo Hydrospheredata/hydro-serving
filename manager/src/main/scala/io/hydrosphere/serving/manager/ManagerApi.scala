@@ -57,12 +57,12 @@ class ManagerApi(managerServices: ManagerServices)
     )
   }
 
-  private def getExceptionMessage(p: Throwable):String={
-      if(p.getMessage() == null){
-        "Unknown error"
-      }else{
-        p.getMessage
-      }
+  private def getExceptionMessage(p: Throwable): String = {
+    if (p.getMessage() == null) {
+      "Unknown error"
+    } else {
+      p.getMessage
+    }
   }
 
   val commonExceptionHandler = ExceptionHandler {
@@ -74,11 +74,13 @@ class ManagerApi(managerServices: ManagerServices)
       complete(HttpResponse(StatusCodes.InternalServerError, entity = getExceptionMessage(p)))
   }
 
-  val routes: Route = handleExceptions(commonExceptionHandler) {
-    commonController.routes ~ swaggerController.routes ~ CorsDirectives.cors(
-      CorsSettings.defaultSettings.copy(allowedMethods = Seq(GET, POST, HEAD, OPTIONS, PUT, DELETE))
-    ) {
-      runtimeTypeController.routes ~
+  val routes: Route = CorsDirectives.cors(
+    CorsSettings.defaultSettings.copy(allowedMethods = Seq(GET, POST, HEAD, OPTIONS, PUT, DELETE))
+  ) {
+    handleExceptions(commonExceptionHandler) {
+      commonController.routes ~
+        swaggerController.routes ~
+        runtimeTypeController.routes ~
         modelController.routes ~
         modelRuntimeController.routes ~
         modelServiceController.routes ~
@@ -86,6 +88,7 @@ class ManagerApi(managerServices: ManagerServices)
         pipelineController.routes ~
         envoyManagementController.routes ~
         uiSpecificController.routes
+
     }
   }
 }

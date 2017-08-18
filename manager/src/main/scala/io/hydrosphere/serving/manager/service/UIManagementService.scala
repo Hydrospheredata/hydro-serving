@@ -121,8 +121,8 @@ class UIManagementServiceImpl(
   }
 
   override def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelInfo] =
-    modelManagementService.buildModel(modelId, modelVersion).flatMap(runtime => {
-      stopAllServices(modelId).flatMap(_ => {
+    stopAllServices(modelId).flatMap(_ => {
+      modelManagementService.buildModel(modelId, modelVersion).flatMap(runtime => {
         runtimeManagementService.addService(CreateModelServiceRequest(
           serviceName = runtime.modelName,
           modelRuntimeId = runtime.id
