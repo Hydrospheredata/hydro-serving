@@ -2,9 +2,12 @@ package io.hydrosphere.serving.manager.service
 
 import java.nio.file.Files
 
-import io.hydrosphere.serving.manager.service.modelsource.{LocalModelSource, ModelSource}
-import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, TestConstants}
+import com.amazonaws.services.s3.AmazonS3ClientBuilder
+import com.amazonaws.services.sqs.AmazonSQSClientBuilder
+import io.hydrosphere.serving.manager.service.modelsource.{LocalModelSource, ModelSource, S3ModelSource}
+import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, S3ModelSourceConfiguration, TestConstants}
 import org.scalatest.{FlatSpec, Matchers}
+import scala.collection.JavaConversions._
 
 class ModelSourceSpecs extends FlatSpec with Matchers {
   def test(modelSource: ModelSource) = {
@@ -37,6 +40,35 @@ class ModelSourceSpecs extends FlatSpec with Matchers {
 
   val localSource = new LocalModelSource(LocalModelSourceConfiguration("test", TestConstants.localModelsPath))
   test(localSource)
+
+  "S3Source" should "be ok" in {
+      val s3client = AmazonS3ClientBuilder
+        .standard
+        .withRegion("eu-west-1")
+        .build()
+      val sqsClient = AmazonSQSClientBuilder
+        .standard
+        .withRegion("eu-west-1")
+        .build
+      val s3Source = new S3ModelSource(S3ModelSourceConfiguration(
+        "test",
+        "",
+        s3client,
+        sqsClient,
+        "serving-demo",
+        "serving-s3-repo-queue"
+      ))
+    val folders = s3Source.getAllFiles("dt4")
+    val f = s3Source.getSubDirs("dt4")
+    val t = s3Source.client
+      .listObjects(s3Source.configuration.bucket)
+      .getObjectSummaries
+      .map(_.getKey)
+      .filter(_.startsWith("dt4/stages/"))
+      .map(_.split("dt4/stages/").last.split("/"))
+    val a = s3Source.cacheSource.getSubDirs("dt")
+    println(folders)
+  }
 
 
   // TODO fix mocks

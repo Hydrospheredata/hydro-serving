@@ -24,5 +24,5 @@ class SourceConfigRepositoryImpl(sources: Seq[ModelSourceConfiguration]) extends
 
   override def delete(id: Long): Future[Int] = ???
 
-  override def all(): Future[Seq[ModelSourceConfiguration]] = Future(buffer.toSeq)
+  override def all(): Future[Seq[ModelSourceConfiguration]] = Future(buffer.toList)
 }

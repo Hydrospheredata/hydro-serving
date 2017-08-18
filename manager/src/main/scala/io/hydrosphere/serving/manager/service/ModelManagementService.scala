@@ -339,6 +339,19 @@ class ModelManagementServiceImpl(
     val modelName = fileName.split("/").head
     modelRepository.get(modelName).flatMap {
       case Some(model) =>
+        val newModel = ModelFetcher.getModel(source, modelName)
+        modelRepository.update(
+          Model(
+            model.id,
+            newModel.name,
+            s"${source.getSourcePrefix}:${newModel.name}",
+            newModel.runtimeType,
+            None,
+            newModel.outputFields,
+            newModel.inputFields,
+            createdAt,
+            updatedAt
+          ))
         modelFilesRepository.create(
           ModelFile(-1, fileName, model, hash, createdAt, updatedAt)
         )
@@ -365,7 +378,7 @@ class ModelManagementServiceImpl(
   }
 
   def updateOrCreateModelFile(source: ModelSource, fileName: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[ModelFile] = {
-    modelFilesRepository.get(fileName).flatMap{
+    modelFilesRepository.get(fileName).flatMap {
       case Some(modelFile) =>
         modelFilesRepository.update(
           ModelFile(
