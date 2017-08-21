@@ -111,7 +111,13 @@ class ServingManagementServiceImpl(
           serviceName = service.serviceName,
           servicePath = servePath
         ))
-      )).map(r => r.json)
+      )).map(r => {
+        if (r.success) {
+          r.json
+        } else {
+          throw new RuntimeException(r.json.toString())
+        }
+      })
     })
 
   override def servePipeline(pipelineId: Long, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
@@ -126,7 +132,13 @@ class ServingManagementServiceImpl(
               serviceName = s.serviceName,
               servicePath = s.servePath
             ))
-        )).map(r => r.json)
+        )).map(r => {
+          if (r.success) {
+            r.json
+          } else {
+            throw new RuntimeException(r.json.toString())
+          }
+        })
     })
 
   private def fetchPipeline(id: Option[Long]): Future[Option[Pipeline]] = {

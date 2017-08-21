@@ -88,7 +88,6 @@ class ManagerApi(managerServices: ManagerServices)
         pipelineController.routes ~
         envoyManagementController.routes ~
         uiSpecificController.routes
-
     }
   }
 }

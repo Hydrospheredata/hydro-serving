@@ -27,7 +27,8 @@ case class ExecutionCommand(
 
 case class ExecutionResult(
   headers: Seq[HttpHeader],
-  json: Seq[Any]
+  json: Seq[Any],
+  success: Boolean
 )
 
 trait RuntimeMeshConnector {
@@ -49,10 +50,16 @@ class HttpRuntimeMeshConnector(
     .mapAsync(1) { r =>
       if (r.status != StatusCodes.OK) {
         logger.debug(s"Wrong status from service ${r.status}")
-        throw new RuntimeException(s"Wrong status from model ${r.status}")
       }
-      Unmarshal(r.entity).to[Seq[Any]]
-        .map(ExecutionResult(r.headers, _))
+
+      val responseSuccess = r.status == StatusCodes.OK
+      if (r.entity.contentType == ContentTypes.`application/json`) {
+        Unmarshal(r.entity).to[Seq[Any]]
+          .map(ExecutionResult(r.headers, _, responseSuccess))
+      } else {
+        Unmarshal(r.entity).to[String]
+          .map(s => ExecutionResult(r.headers, Seq(Map("result" -> s)), responseSuccess))
+      }
     }
 
   private def execute(runtimeName: String, runtimePath: String, headers: Seq[HttpHeader], json: Seq[Any]): Future[ExecutionResult] = {
