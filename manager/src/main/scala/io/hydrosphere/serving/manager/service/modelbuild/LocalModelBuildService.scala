@@ -39,13 +39,17 @@ class LocalModelBuildService(
   private def build(buildPath: Path, model: Path, dockerFile: String, progressHandler: ProgressHandler, modelBuild: ModelBuild): String = {
     Files.copy(new ByteArrayInputStream(dockerFile.getBytes), buildPath.resolve("Dockerfile"))
     FileUtils.copyDirectory(model.toFile, buildPath.resolve(s"$modelDir/").toFile)
-    dockerClient.build(
+    val res=dockerClient.build(
       buildPath,
       s"${modelBuild.model.name}:${modelBuild.modelVersion}",
       "Dockerfile",
       createProgressHadlerWrapper(progressHandler),
       BuildParam.noCache()
     )
+    if(res==null){
+      throw new RuntimeException("Can't build model")
+    }
+    res
   }
 
   private def createProgressHadlerWrapper(progressHandler: ProgressHandler): com.spotify.docker.client.ProgressHandler = {
