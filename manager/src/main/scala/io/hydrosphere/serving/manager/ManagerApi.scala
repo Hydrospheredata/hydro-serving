@@ -38,6 +38,8 @@ class ManagerApi(managerServices: ManagerServices)
 
   val pipelineController = new PipelineController(managerServices.servingManagementService)
 
+  val weightedServiceController = new WeightedServiceController(managerServices.servingManagementService)
+
   val endpointController = new EndpointController(managerServices.servingManagementService)
 
   val envoyManagementController = new EnvoyManagementController(managerServices.envoyManagementService)
@@ -87,7 +89,8 @@ class ManagerApi(managerServices: ManagerServices)
         endpointController.routes ~
         pipelineController.routes ~
         envoyManagementController.routes ~
-        uiSpecificController.routes
+        uiSpecificController.routes ~
+        weightedServiceController.routes
     }
   }
 }

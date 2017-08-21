@@ -26,6 +26,8 @@ trait ManagerRepositories {
   def runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository
 
   def sourceRepository: SourceConfigRepository
+
+  def weightedServiceRepository: WeightedServiceRepository
 }
 
 class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit executionContext: ExecutionContext)
@@ -51,4 +53,6 @@ class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit execution
   val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository = new RuntimeTypeBuildScriptRepositoryImpl(dataService)
 
   val sourceRepository: SourceConfigRepository = new SourceConfigRepositoryImpl(config.modelSources)
+
+  val weightedServiceRepository: WeightedServiceRepository = new WeightedServiceRepositoryImpl(dataService)
 }

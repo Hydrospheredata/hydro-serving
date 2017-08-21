@@ -5,7 +5,6 @@ import akka.stream.ActorMaterializer
 import com.spotify.docker.client.{DefaultDockerClient, DockerClient}
 import io.hydrosphere.serving.connector.{HttpRuntimeMeshConnector, RuntimeMeshConnector}
 import io.hydrosphere.serving.manager.service.clouddriver.{DockerRuntimeDeployService, RuntimeDeployService, SwarmRuntimeDeployService}
-import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.envoy.EnvoyManagementServiceImpl
 import io.hydrosphere.serving.manager.service.modelbuild.{EmptyModelPushService, LocalModelBuildService, ModelBuildService, ModelPushService}
@@ -63,11 +62,13 @@ class ManagerServices(
     managerRepositories.endpointRepository,
     managerRepositories.pipelineRepository,
     managerRepositories.modelServiceRepository,
-    runtimeMeshConnector
+    runtimeMeshConnector,
+    managerRepositories.weightedServiceRepository
   )
 
   val envoyManagementService = new EnvoyManagementServiceImpl(
-    runtimeManagementService
+    runtimeManagementService,
+    servingManagementService
   )
 
   val uiManagementService = new UIManagementServiceImpl(
