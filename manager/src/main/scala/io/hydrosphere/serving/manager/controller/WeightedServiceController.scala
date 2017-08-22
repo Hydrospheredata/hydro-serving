@@ -113,6 +113,6 @@ class WeightedServiceController(servingManagementService: ServingManagementServi
     }
   }
 
-  val routes = listAll ~ create ~ update ~ deleteWeightedService
+  val routes = listAll ~ create ~ update ~ deleteWeightedService ~ serveService
 
 }

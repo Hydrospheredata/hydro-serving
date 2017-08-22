@@ -55,7 +55,8 @@ class ManagerApi(managerServices: ManagerServices)
       ru.typeOf[EndpointController],
       ru.typeOf[ModelServiceController],
       ru.typeOf[UISpecificController],
-      ru.typeOf[EnvoyManagementController]
+      ru.typeOf[EnvoyManagementController],
+      ru.typeOf[WeightedServiceController]
     )
   }
 
