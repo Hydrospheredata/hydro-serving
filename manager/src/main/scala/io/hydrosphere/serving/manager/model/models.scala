@@ -72,6 +72,7 @@ case class ModelServiceInstance(
   host: String,
   appPort: Int,
   sidecarPort: Int,
+  sidecarAdminPort: Int,
   serviceId: Long,
   status: ModelServiceInstanceStatus,
   statusText: String

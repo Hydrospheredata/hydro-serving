@@ -4,10 +4,12 @@ import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import com.spotify.docker.client.{DefaultDockerClient, DockerClient}
 import io.hydrosphere.serving.connector.{HttpRuntimeMeshConnector, RuntimeMeshConnector}
+import io.hydrosphere.serving.manager.connector.HttpEnvoyAdminConnector
 import io.hydrosphere.serving.manager.service.clouddriver.{DockerRuntimeDeployService, RuntimeDeployService, SwarmRuntimeDeployService}
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.envoy.EnvoyManagementServiceImpl
 import io.hydrosphere.serving.manager.service.modelbuild.{EmptyModelPushService, LocalModelBuildService, ModelBuildService, ModelPushService}
+import io.hydrosphere.serving.manager.service.prometheus.PrometheusMetricsServiceImpl
 
 import scala.concurrent.ExecutionContext
 
@@ -69,6 +71,13 @@ class ManagerServices(
   val envoyManagementService = new EnvoyManagementServiceImpl(
     runtimeManagementService,
     servingManagementService
+  )
+
+  val envoyAdminConnector=new HttpEnvoyAdminConnector()
+
+  val prometheusMetricsService = new PrometheusMetricsServiceImpl(
+    runtimeManagementService,
+    envoyAdminConnector
   )
 
   val uiManagementService = new UIManagementServiceImpl(
