@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.controller
 
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.service._
+import io.hydrosphere.serving.manager.service.{WeightedServiceCreateOrUpdateRequest, _}
 import io.hydrosphere.serving.model._
 
 /**
@@ -23,7 +23,7 @@ trait ManagerJsonSupport extends CommonJsonSupport {
 
   implicit val modelServiceFormat = jsonFormat6(ModelService)
 
-  implicit val modelServiceInstanceFormat = jsonFormat7(ModelServiceInstance)
+  implicit val modelServiceInstanceFormat = jsonFormat8(ModelServiceInstance)
 
   implicit val createEndpointRequest = jsonFormat2(CreateEndpointRequest)
 
@@ -44,4 +44,6 @@ trait ManagerJsonSupport extends CommonJsonSupport {
   implicit val modelInfoFormat = jsonFormat4(ModelInfo)
 
   implicit val serveData = jsonFormat3(ServeData)
+
+  implicit val weightedServiceCreateOrUpdateRequest = jsonFormat3(WeightedServiceCreateOrUpdateRequest)
 }

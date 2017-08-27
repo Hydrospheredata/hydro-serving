@@ -8,7 +8,7 @@ import akka.http.scaladsl.unmarshalling.Unmarshal
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.{Sink, Source}
 import io.hydrosphere.serving.gateway.GatewayConfiguration
-import io.hydrosphere.serving.model.{CommonJsonSupport, Endpoint}
+import io.hydrosphere.serving.model.{CommonJsonSupport, Endpoint, WeightedService}
 
 import scala.concurrent.Future
 
@@ -17,6 +17,8 @@ import scala.concurrent.Future
   */
 trait ManagerConnector {
   def getEndpoints: Future[Seq[Endpoint]]
+
+  def getWeightedService: Future[Seq[WeightedService]]
 }
 
 class HttpManagerConnector(config: GatewayConfiguration)
@@ -34,4 +36,12 @@ class HttpManagerConnector(config: GatewayConfiguration)
     source.via(flow).runWith(Sink.head)
   }
 
+  override def getWeightedService: Future[Seq[WeightedService]] = {
+    val source = Source.single(HttpRequest(uri = Uri(path = Path("/api/v1/weightedServices"))))
+    val flow = http.outgoingConnection(config.manager.host, config.manager.port)
+      .mapAsync(1) { r =>
+        Unmarshal(r.entity).to[Seq[WeightedService]]
+      }
+    source.via(flow).runWith(Sink.head)
+  }
 }

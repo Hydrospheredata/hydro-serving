@@ -146,7 +146,8 @@ class SwarmRuntimeDeployService(
         },
         statusText = s.status.message,
         appPort = envMap.getOrDefault(ENV_APP_HTTP_PORT, "9090").toInt,
-        sidecarPort = envMap.getOrDefault(ENV_SIDECAR_HTTP_PORT, "8080").toInt
+        sidecarPort = envMap.getOrDefault(ENV_SIDECAR_HTTP_PORT, "8080").toInt,
+        sidecarAdminPort = envMap.getOrDefault(ENV_SIDECAR_ADMIN_PORT, "8082").toInt
       )
     })
 

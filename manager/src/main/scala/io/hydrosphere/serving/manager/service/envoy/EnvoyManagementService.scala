@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.service.envoy
 import java.util.UUID
 
 import io.hydrosphere.serving.manager.model.{ModelService, ModelServiceInstance}
-import io.hydrosphere.serving.manager.service.RuntimeManagementService
+import io.hydrosphere.serving.manager.service.{RuntimeManagementService, ServingManagementService}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.mutable
@@ -28,9 +28,19 @@ case class EnvoyClusterConfig(
   clusters: Seq[EnvoyCluster]
 )
 
+case class EnvoyRouteWeightedCluster(
+  name: String,
+  weight: Int
+)
+
+case class EnvoyRouteWeightedClusters(
+  clusters: Seq[EnvoyRouteWeightedCluster]
+)
+
 case class EnvoyRoute(
   prefix: String,
-  cluster: String
+  cluster: Option[String],
+  weighted_clusters: Option[EnvoyRouteWeightedClusters]
 )
 
 case class EnvoyRouteHost(
@@ -68,7 +78,8 @@ trait EnvoyManagementService {
 }
 
 class EnvoyManagementServiceImpl(
-  runtimeManagementService: RuntimeManagementService
+  runtimeManagementService: RuntimeManagementService,
+  servingManagementService: ServingManagementService
 )(implicit val ex: ExecutionContext) extends EnvoyManagementService with Logging {
 
   private def fetchGatewayIfNeeded(modelService: ModelService): Future[Seq[ModelServiceInstance]] = {
@@ -82,35 +93,56 @@ class EnvoyManagementServiceImpl(
   override def routes(configName: String, serviceId: Long, containerId: String): Future[EnvoyRouteConfig] = {
     runtimeManagementService.getService(serviceId).flatMap(servOp => {
       runtimeManagementService.allServices().flatMap(services => {
-        val modelService = servOp.get
-        fetchGatewayIfNeeded(modelService).map(gatewayServiceInstances => {
+        servingManagementService.allWeightedServices().flatMap(wightedServices => {
+          val modelService = servOp.get
+          fetchGatewayIfNeeded(modelService).map(gatewayServiceInstances => {
 
-          val routeHosts = mutable.MutableList[EnvoyRouteHost]()
-          services.filter(s => s.serviceId != serviceId)
-            .foreach(s => {
+            val routeHosts = mutable.MutableList[EnvoyRouteHost]()
+
+            wightedServices.foreach(s => {
               routeHosts += EnvoyRouteHost(
                 name = s.serviceName,
                 domains = Seq(s.serviceName),
-                routes = Seq(EnvoyRoute("/", s.serviceName))
+                routes = Seq(EnvoyRoute(
+                  prefix = "/",
+                  cluster = None,
+                  weighted_clusters = Some(EnvoyRouteWeightedClusters(
+                    s.weights.map(w => EnvoyRouteWeightedCluster(
+                      //TODO optimize search
+                      name = services.find(f => f.serviceId == w.serviceId).get.serviceName,
+                      weight = w.weight
+                    ))
+                  ))))
               )
             })
-          gatewayServiceInstances.foreach(s => {
+
+            services.filter(s => s.serviceId != serviceId)
+              .foreach(s => {
+                routeHosts += EnvoyRouteHost(
+                  name = s.serviceName,
+                  domains = Seq(s.serviceName),
+                  routes = Seq(EnvoyRoute("/", Some(s.serviceName), None))
+                )
+              })
+
+            gatewayServiceInstances.foreach(s => {
+              routeHosts += EnvoyRouteHost(
+                name = s.instanceId,
+                domains = Seq(s.instanceId),
+                routes = Seq(EnvoyRoute("/", Some(UUID.nameUUIDFromBytes(s.instanceId.getBytes()).toString), None))
+              )
+            })
+
             routeHosts += EnvoyRouteHost(
-              name = s.instanceId,
-              domains = Seq(s.instanceId),
-              routes = Seq(EnvoyRoute("/", UUID.nameUUIDFromBytes(s.instanceId.getBytes()).toString))
+              name = "all",
+              domains = Seq("*"),
+              routes = Seq(EnvoyRoute("/", Some(modelService.serviceName), None))
+            )
+
+            EnvoyRouteConfig(
+              virtual_hosts = routeHosts
             )
           })
-
-          routeHosts += EnvoyRouteHost(
-            name = "all",
-            domains = Seq("*"),
-            routes = Seq(EnvoyRoute("/", modelService.serviceName))
-          )
-
-          EnvoyRouteConfig(
-            virtual_hosts = routeHosts
-          )
         })
       })
     })
