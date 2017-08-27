@@ -21,6 +21,7 @@ trait RuntimeDeployService {
   val ENV_HS_SERVICE_ID = "HS_SERVICE_ID"
   val ENV_SIDECAR_HTTP_PORT = "SIDECAR_HTTP_PORT"
   val ENV_APP_HTTP_PORT = "APP_HTTP_PORT"
+  val ENV_SIDECAR_ADMIN_PORT = "SIDECAR_ADMIN_PORT"
 
   val LABEL_SERVICE_ID = "hydroServingServiceId"
   val LABEL_HS_SERVICE_MARKER = "HS_SERVICE_MARKER"
@@ -30,12 +31,11 @@ trait RuntimeDeployService {
   val LABEL_RUNTIME_TYPE_VERSION = "RUNTIME_TYPE_VERSION"
 
 
-
   def deploy(runtime: ModelService): String
 
   def serviceList(): Seq[ServiceInfo]
 
-  def service(serviceId:Long):Option[ServiceInfo]
+  def service(serviceId: Long): Option[ServiceInfo]
 
   def deleteService(serviceId: Long)
 

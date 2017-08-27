@@ -10,6 +10,7 @@ import io.hydrosphere.serving.manager.controller.{ModelRuntimeController, _}
 import akka.http.scaladsl.server.Directives._
 import ch.megard.akka.http.cors.scaladsl.settings.CorsSettings
 import io.hydrosphere.serving.manager.controller.envoy.EnvoyManagementController
+import io.hydrosphere.serving.manager.controller.prometheus.PrometheusMetricsController
 import io.hydrosphere.serving.manager.controller.ui.UISpecificController
 import org.apache.logging.log4j.scala.Logging
 
@@ -38,9 +39,13 @@ class ManagerApi(managerServices: ManagerServices)
 
   val pipelineController = new PipelineController(managerServices.servingManagementService)
 
+  val weightedServiceController = new WeightedServiceController(managerServices.servingManagementService)
+
   val endpointController = new EndpointController(managerServices.servingManagementService)
 
   val envoyManagementController = new EnvoyManagementController(managerServices.envoyManagementService)
+
+  val prometheusMetricsController = new PrometheusMetricsController(managerServices.prometheusMetricsService)
 
   val uiSpecificController = new UISpecificController(managerServices.uiManagementService)
 
@@ -53,7 +58,9 @@ class ManagerApi(managerServices: ManagerServices)
       ru.typeOf[EndpointController],
       ru.typeOf[ModelServiceController],
       ru.typeOf[UISpecificController],
-      ru.typeOf[EnvoyManagementController]
+      ru.typeOf[EnvoyManagementController],
+      ru.typeOf[WeightedServiceController],
+      ru.typeOf[PrometheusMetricsController]
     )
   }
 
@@ -87,7 +94,9 @@ class ManagerApi(managerServices: ManagerServices)
         endpointController.routes ~
         pipelineController.routes ~
         envoyManagementController.routes ~
-        uiSpecificController.routes
+        uiSpecificController.routes ~
+        weightedServiceController.routes ~
+        prometheusMetricsController.routes
     }
   }
 }

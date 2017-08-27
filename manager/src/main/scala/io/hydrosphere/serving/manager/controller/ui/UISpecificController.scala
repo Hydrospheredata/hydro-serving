@@ -80,7 +80,7 @@ class UISpecificController(
       extractRequest { request =>
         entity(as[ServeData]) { r =>
           complete(
-            uiManagementService.testModel(r.id, r.path, r.data, request.headers
+            uiManagementService.testModel(r.id, r.path.getOrElse("/serve"), r.data, request.headers
               .filter(h => TracingHeaders.isTracingHeaderName(h.name())))
           )
         }

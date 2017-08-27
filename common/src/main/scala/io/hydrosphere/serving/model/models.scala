@@ -25,3 +25,14 @@ case class PipelineStage(
 case class ErrorResponse(
   message: String
 )
+
+case class ServiceWeight(
+  serviceId: Long,
+  weight: Int
+)
+
+case class WeightedService(
+  id: Long,
+  serviceName: String,
+  weights: List[ServiceWeight]
+)
