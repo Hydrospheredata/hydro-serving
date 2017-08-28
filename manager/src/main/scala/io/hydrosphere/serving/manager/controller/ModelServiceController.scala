@@ -14,7 +14,7 @@ import scala.concurrent.duration._
 
 case class ServeData(
   id: Long,
-  path: String,
+  path: Option[String],
   data: Seq[Any]
 )
 
@@ -108,7 +108,7 @@ class ModelServiceController(
       extractRequest { request =>
         entity(as[ServeData]) { r =>
           complete(
-            servingManagementService.serveModelService(r.id, r.path, r.data, request.headers
+            servingManagementService.serveModelService(r.id, r.path.getOrElse("/serve"), r.data, request.headers
               .filter(h => TracingHeaders.isTracingHeaderName(h.name())))
           )
         }

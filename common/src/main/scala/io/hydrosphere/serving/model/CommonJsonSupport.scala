@@ -27,6 +27,8 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
   implicit val stageFormat = jsonFormat3(PipelineStage)
   implicit val pipelineFormat = jsonFormat3(Pipeline)
   implicit val endpointFormat = jsonFormat3(Endpoint)
+  implicit val serviceWeight = jsonFormat2(ServiceWeight)
+  implicit val weightedService = jsonFormat3(WeightedService)
 
   implicit object AnyJsonFormat extends JsonFormat[Any] {
     def write(any: Any): JsValue = any match {

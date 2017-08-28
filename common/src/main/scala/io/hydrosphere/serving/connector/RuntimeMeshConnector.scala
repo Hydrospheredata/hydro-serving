@@ -27,7 +27,8 @@ case class ExecutionCommand(
 
 case class ExecutionResult(
   headers: Seq[HttpHeader],
-  json: Seq[Any]
+  json: Seq[Any],
+  success: Boolean
 )
 
 trait RuntimeMeshConnector {
@@ -50,8 +51,15 @@ class HttpRuntimeMeshConnector(
       if (r.status != StatusCodes.OK) {
         logger.debug(s"Wrong status from service ${r.status}")
       }
-      Unmarshal(r.entity).to[Seq[Any]]
-        .map(ExecutionResult(r.headers, _))
+
+      val responseSuccess = r.status == StatusCodes.OK
+      if (r.entity.contentType == ContentTypes.`application/json`) {
+        Unmarshal(r.entity).to[Seq[Any]]
+          .map(ExecutionResult(r.headers, _, responseSuccess))
+      } else {
+        Unmarshal(r.entity).to[String]
+          .map(s => ExecutionResult(r.headers, Seq(Map("result" -> s)), responseSuccess))
+      }
     }
 
   private def execute(runtimeName: String, runtimePath: String, headers: Seq[HttpHeader], json: Seq[Any]): Future[ExecutionResult] = {
@@ -67,10 +75,10 @@ class HttpRuntimeMeshConnector(
   }
 
   override def execute(command: ExecutionCommand): Future[ExecutionResult] = {
-    val executionUnit=command.pipe.head
+    val executionUnit = command.pipe.head
     var fAccum = execute(executionUnit.serviceName, executionUnit.servicePath, command.headers, command.json)
-    for(item <- command.pipe.drop(1)) {
-      fAccum = fAccum.flatMap(res=>{
+    for (item <- command.pipe.drop(1)) {
+      fAccum = fAccum.flatMap(res => {
         execute(item.serviceName, item.servicePath, command.headers, res.json)
       })
     }

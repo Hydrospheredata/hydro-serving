@@ -19,9 +19,5 @@ class ManagerActors(
 
   val repoActor = system.actorOf(RepositoryActor.props(managerServices.modelManagementService))
 
-  val indexerActors: Seq[ActorRef] = managerServices.modelSources.map {
-    case (conf, modelSource) =>
-      logger.info(s"SourceWatcher initialization: ${conf.name}")
-      system.actorOf(SourceWatcher.props(modelSource), s"Watcher@${conf.name}")
-  }.toSeq
+  val indexerActors: Seq[ActorRef] = managerServices.sourceManagementService.createWatchers(system)
 }

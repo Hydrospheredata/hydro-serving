@@ -327,7 +327,7 @@ class ModelManagementServiceImpl(
   }
 
   def deleteModel(modelName: String): Future[Model] = {
-    modelRepository.get(modelName).flatMap {
+    modelRepository.get(modelName).flatMap{
       case Some(model) =>
         modelFilesRepository.deleteModelFiles(model.id)
         modelRepository.delete(model.id)
@@ -341,11 +341,35 @@ class ModelManagementServiceImpl(
     val modelName = fileName.split("/").head
     modelRepository.get(modelName).flatMap {
       case Some(model) =>
+        val newModel = ModelFetcher.getModel(source, modelName)
+        modelRepository.update(
+          Model(
+            model.id,
+            newModel.name,
+            s"${source.getSourcePrefix}:${newModel.name}",
+            newModel.runtimeType,
+            None,
+            newModel.outputFields,
+            newModel.inputFields,
+            createdAt,
+            updatedAt
+          ))
         modelFilesRepository.create(
           ModelFile(-1, fileName, model, hash, createdAt, updatedAt)
         )
       case None =>
-        val model = ModelFetcher.getModel(source, modelName)
+        val modelMetadata = ModelFetcher.getModel(source, modelName)
+        val model = Model(
+          -1,
+          modelMetadata.name,
+          s"${source.getSourcePrefix}:${modelMetadata.name}",
+          modelMetadata.runtimeType,
+          None,
+          modelMetadata.outputFields,
+          modelMetadata.inputFields,
+          createdAt,
+          updatedAt
+        )
         addModel(model)
           .flatMap { model =>
             modelFilesRepository.create(
@@ -374,7 +398,7 @@ class ModelManagementServiceImpl(
   }
 
   def deleteModelFile(fileName: String): Future[Int] = {
-    modelFilesRepository.get(fileName).flatMap {
+    modelFilesRepository.get(fileName).flatMap{
       case Some(modelFile) =>
         modelFilesRepository.delete(modelFile.id)
       case None =>

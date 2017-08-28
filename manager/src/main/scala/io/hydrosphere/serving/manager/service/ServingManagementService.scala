@@ -4,10 +4,27 @@ package io.hydrosphere.serving.manager.service
 import akka.http.scaladsl.model.HttpHeader
 import io.hydrosphere.serving.connector.{ExecutionCommand, ExecutionUnit, RuntimeMeshConnector}
 import io.hydrosphere.serving.manager.model.ModelService
-import io.hydrosphere.serving.manager.repository.{EndpointRepository, ModelServiceRepository, PipelineRepository}
+import io.hydrosphere.serving.model.{ServiceWeight, WeightedService}
+import io.hydrosphere.serving.manager.repository.{EndpointRepository, ModelServiceRepository, PipelineRepository, WeightedServiceRepository}
 import io.hydrosphere.serving.model.{Endpoint, Pipeline, PipelineStage}
 
 import scala.concurrent.{ExecutionContext, Future}
+
+
+case class WeightedServiceCreateOrUpdateRequest(
+  id: Option[Long],
+  serviceName: String,
+  weights: List[ServiceWeight]
+) {
+
+  def toWeightedService(): WeightedService = {
+    WeightedService(
+      id = this.id.getOrElse(0),
+      serviceName = this.serviceName,
+      weights = this.weights
+    )
+  }
+}
 
 case class CreateEndpointRequest(
   name: String,
@@ -52,7 +69,19 @@ case class CreatePipelineRequest(
   }
 }
 
+
 trait ServingManagementService {
+
+  def allWeightedServices(): Future[Seq[WeightedService]]
+
+  def createWeightedServices(req: WeightedServiceCreateOrUpdateRequest): Future[WeightedService]
+
+  def updateWeightedServices(req: WeightedServiceCreateOrUpdateRequest): Future[WeightedService]
+
+  def deleteWeightedService(id: Long): Future[Unit]
+
+  def serveWeightedService(serviceId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
+
   def deleteEndpoint(endpointId: Long): Future[Unit]
 
   def addEndpoint(r: CreateEndpointRequest): Future[Endpoint]
@@ -75,7 +104,8 @@ class ServingManagementServiceImpl(
   endpointRepository: EndpointRepository,
   pipelineRepository: PipelineRepository,
   modelServiceRepository: ModelServiceRepository,
-  runtimeMeshConnector: RuntimeMeshConnector
+  runtimeMeshConnector: RuntimeMeshConnector,
+  weightedServiceRepository: WeightedServiceRepository
 )(implicit val ex: ExecutionContext) extends ServingManagementService {
 
   override def deletePipeline(pipelineId: Long): Future[Unit] =
@@ -111,7 +141,13 @@ class ServingManagementServiceImpl(
           serviceName = service.serviceName,
           servicePath = servePath
         ))
-      )).map(r => r.json)
+      )).map(r => {
+        if (r.success) {
+          r.json
+        } else {
+          throw new RuntimeException(r.json.toString())
+        }
+      })
     })
 
   override def servePipeline(pipelineId: Long, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
@@ -126,7 +162,13 @@ class ServingManagementServiceImpl(
               serviceName = s.serviceName,
               servicePath = s.servePath
             ))
-        )).map(r => r.json)
+        )).map(r => {
+          if (r.success) {
+            r.json
+          } else {
+            throw new RuntimeException(r.json.toString())
+          }
+        })
     })
 
   private def fetchPipeline(id: Option[Long]): Future[Option[Pipeline]] = {
@@ -139,4 +181,49 @@ class ServingManagementServiceImpl(
       })
     }
   }
+
+  override def allWeightedServices(): Future[Seq[WeightedService]] =
+    weightedServiceRepository.all()
+
+  override def createWeightedServices(req: WeightedServiceCreateOrUpdateRequest): Future[WeightedService] =
+    weightedServiceRepository.create(req.toWeightedService())
+
+  override def updateWeightedServices(req: WeightedServiceCreateOrUpdateRequest): Future[WeightedService] =
+    fetchAndValidate(req.weights).flatMap(_ => {
+      val service = req.toWeightedService()
+      weightedServiceRepository.update(service).map(_ => service)
+    })
+
+
+  override def deleteWeightedService(id: Long): Future[Unit] =
+    weightedServiceRepository.delete(id).map(_ => Unit)
+
+  private def fetchAndValidate(req: List[ServiceWeight]): Future[Unit] = {
+    modelServiceRepository.fetchByIds(req.map(r => r.serviceId))
+      .map(s =>
+        if (s.length != req.length) {
+          throw new IllegalArgumentException("Can't find all services")
+        })
+  }
+
+  override def serveWeightedService(
+    serviceId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
+    weightedServiceRepository.get(serviceId).flatMap({
+      case None => throw new IllegalArgumentException(s"Can't find WeightedService with id $serviceId")
+      case Some(r) =>
+        runtimeMeshConnector.execute(ExecutionCommand(
+          headers = headers,
+          json = request,
+          pipe = Seq(ExecutionUnit(
+            serviceName = r.serviceName,
+            servicePath = servePath
+          ))
+        )).map(r => {
+          if (r.success) {
+            r.json
+          } else {
+            throw new RuntimeException(r.json.toString())
+          }
+        })
+    })
 }

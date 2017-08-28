@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager
 
+import io.hydrosphere.serving.manager.repository.config.SourceConfigRepositoryImpl
 import io.hydrosphere.serving.manager.repository.{RuntimeTypeBuildScriptRepository, _}
 import io.hydrosphere.serving.manager.repository.db._
 
@@ -23,6 +24,10 @@ trait ManagerRepositories {
   def endpointRepository: EndpointRepository
 
   def runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository
+
+  def sourceRepository: SourceConfigRepository
+
+  def weightedServiceRepository: WeightedServiceRepository
 }
 
 class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit executionContext: ExecutionContext)
@@ -46,4 +51,8 @@ class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit execution
   val endpointRepository: EndpointRepository = new EndpointRepositoryImpl(dataService)
 
   val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository = new RuntimeTypeBuildScriptRepositoryImpl(dataService)
+
+  val sourceRepository: SourceConfigRepository = new SourceConfigRepositoryImpl(config.modelSources)
+
+  val weightedServiceRepository: WeightedServiceRepository = new WeightedServiceRepositoryImpl(dataService)
 }

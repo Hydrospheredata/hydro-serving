@@ -2,9 +2,8 @@ package io.hydrosphere.serving.manager.service.modelfetcher
 
 import java.io.FileNotFoundException
 import java.nio.file.{Files, NoSuchFileException}
-import java.time.LocalDateTime
 
-import io.hydrosphere.serving.manager.model.{Model, RuntimeType, SchematicRuntimeType}
+import io.hydrosphere.serving.manager.model.{RuntimeType, SchematicRuntimeType}
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.model.CommonJsonSupport
 import org.apache.logging.log4j.scala.Logging
@@ -44,7 +43,7 @@ object SparkModelFetcher extends ModelFetcher with Logging {
   private[this] val labelCols = Array("labelCol")
 
   private def getRuntimeType(sparkMetadata: SparkMetadata): RuntimeType = {
-    new SchematicRuntimeType("spark", "1.0.0")
+    new SchematicRuntimeType("hydro-serving/runtime-sparklocal", "0.0.1")
   }
 
   private def getStageMetadata(source: ModelSource, model: String, stage: String): SparkMetadata = {
@@ -83,7 +82,7 @@ object SparkModelFetcher extends ModelFetcher with Logging {
     outputs.diff(inputs).toList
   }
 
-  override def fetch(source: ModelSource, directory: String): Option[Model] = {
+  override def fetch(source: ModelSource, directory: String): Option[ModelMetadata] = {
     try {
       val stagesDir = s"$directory/stages"
 
@@ -91,18 +90,14 @@ object SparkModelFetcher extends ModelFetcher with Logging {
       val stagesMetadata = source.getSubDirs(stagesDir).map { stage =>
         getStageMetadata(source, directory, stage)
       }
-
-      Some(Model(
-        -1,
-        directory,
-        s"${source.getSourcePrefix()}:/$directory",
-        Some(getRuntimeType(pipelineMetadata)),
-        None,
-        getOutputCols(stagesMetadata),
-        getInputCols(stagesMetadata),
-        LocalDateTime.now(),
-        LocalDateTime.now()
-      ))
+      Some(
+        ModelMetadata(
+          directory,
+          Some(getRuntimeType(pipelineMetadata)),
+          getOutputCols(stagesMetadata),
+          getInputCols(stagesMetadata)
+        )
+      )
     } catch {
       case e: NoSuchFileException =>
         logger.debug(s"$directory in not a valid SparkML model")
