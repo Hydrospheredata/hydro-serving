@@ -15,7 +15,7 @@ import scala.concurrent.duration._
 @Path("/api/v1/pipelines")
 @Api(produces = "application/json", tags = Array("Deployment: Pipelines"))
 class PipelineController(servingManagementService: ServingManagementService) extends ManagerJsonSupport {
-  implicit val timeout = Timeout(5.seconds)
+  implicit val timeout = Timeout(5.minutes)
 
   @Path("/")
   @ApiOperation(value = "pipelines", notes = "pipelines", nickname = "pipelines", httpMethod = "GET")

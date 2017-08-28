@@ -64,15 +64,6 @@ object PipelineRepositoryImpl {
   }
 
   def mapFromDb(dbType: Tables.Pipeline#TableElementType): Pipeline = {
-    dbType.stages.map(s => {
-      val arr = s.split(":")
-      PipelineStage(
-        serviceId = arr(0).toLong,
-        serviceName = arr(1),
-        servePath = arr(2)
-      )
-    })
-
     Pipeline(
       pipelineId = dbType.pipelineId,
       name = dbType.name,

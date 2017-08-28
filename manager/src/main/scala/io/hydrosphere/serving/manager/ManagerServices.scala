@@ -4,11 +4,13 @@ import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import com.spotify.docker.client.{DefaultDockerClient, DockerClient}
 import io.hydrosphere.serving.connector.{HttpRuntimeMeshConnector, RuntimeMeshConnector}
+import io.hydrosphere.serving.manager.connector.HttpEnvoyAdminConnector
 import io.hydrosphere.serving.manager.service.clouddriver.{DockerRuntimeDeployService, RuntimeDeployService, SwarmRuntimeDeployService}
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.envoy.EnvoyManagementServiceImpl
 import io.hydrosphere.serving.manager.service.modelbuild._
+import io.hydrosphere.serving.manager.service.prometheus.PrometheusMetricsServiceImpl
 
 import scala.concurrent.ExecutionContext
 
@@ -28,12 +30,11 @@ class ManagerServices(
 
   val runtimeMeshConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector(managerConfiguration.sidecar)
 
-  val modelSources: Map[ModelSourceConfiguration, ModelSource] = managerConfiguration.modelSources
-    .map(conf => conf -> ModelSource.fromConfig(conf)).toMap
+  val sourceManagementService = new SourceManagementServiceImpl(managerRepositories.sourceRepository)
 
   val modelBuildService: ModelBuildService = new LocalModelBuildService(
     dockerClient,
-    modelSources.values.toSeq
+    sourceManagementService
   )
 
   val modelPushService: ModelPushService = managerConfiguration.dockerRepository match {
@@ -70,11 +71,20 @@ class ManagerServices(
     managerRepositories.endpointRepository,
     managerRepositories.pipelineRepository,
     managerRepositories.modelServiceRepository,
-    runtimeMeshConnector
+    runtimeMeshConnector,
+    managerRepositories.weightedServiceRepository
   )
 
   val envoyManagementService = new EnvoyManagementServiceImpl(
-    runtimeManagementService
+    runtimeManagementService,
+    servingManagementService
+  )
+
+  val envoyAdminConnector=new HttpEnvoyAdminConnector()
+
+  val prometheusMetricsService = new PrometheusMetricsServiceImpl(
+    runtimeManagementService,
+    envoyAdminConnector
   )
 
   val uiManagementService = new UIManagementServiceImpl(
@@ -83,6 +93,7 @@ class ManagerServices(
     managerRepositories.modelBuildRepository,
     managerRepositories.modelServiceRepository,
     runtimeManagementService,
-    servingManagementService
+    servingManagementService,
+    modelManagementService
   )
 }

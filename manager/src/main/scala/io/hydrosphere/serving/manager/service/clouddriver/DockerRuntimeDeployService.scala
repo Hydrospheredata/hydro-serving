@@ -34,6 +34,7 @@ class DockerRuntimeDeployService(
 
       s"$ENV_APP_HTTP_PORT=9090",
       s"$ENV_SIDECAR_HTTP_PORT=8080",
+      s"$ENV_SIDECAR_ADMIN_PORT=8082",
 
       s"$ENV_MANAGER_HOST=${managerConfiguration.advertised.advertisedHost}",
       s"$ENV_MANAGER_PORT=${managerConfiguration.advertised.advertisedPort.toString}",
@@ -48,9 +49,8 @@ class DockerRuntimeDeployService(
       )
       .image(s"${runtime.modelRuntime.imageName}:${runtime.modelRuntime.imageMD5Tag}")
       .labels(javaLabels)
-      .hostname(runtime.serviceName)
       .env(env)
-      .build(), runtime.serviceName)
+      .build())
     dockerClient.startContainer(c.id())
     c.id()
   }
@@ -83,7 +83,7 @@ class DockerRuntimeDeployService(
 
   override def deleteService(serviceId: Long): Unit =
     dockerClient.listContainers(ListContainersParam.withLabel(LABEL_SERVICE_ID, serviceId.toString))
-      .foreach(s => dockerClient.removeContainer(s.id(), RemoveContainerParam.forceKill()))
+      .foreach(s => dockerClient.removeContainer(s.id(), RemoveContainerParam.forceKill(true), RemoveContainerParam.removeVolumes(true)))
 
   override def serviceInstances(): Seq[ModelServiceInstance] =
     serviceInstances(ListContainersParam.withLabel(LABEL_HS_SERVICE_MARKER, LABEL_HS_SERVICE_MARKER))
@@ -125,7 +125,8 @@ class DockerRuntimeDeployService(
           },
           statusText = s.status,
           appPort = envMap.getOrDefault(ENV_APP_HTTP_PORT, "9090").toInt,
-          sidecarPort = envMap.getOrDefault(ENV_SIDECAR_HTTP_PORT, "8080").toInt
+          sidecarPort = envMap.getOrDefault(ENV_SIDECAR_HTTP_PORT, "8080").toInt,
+          sidecarAdminPort = envMap.getOrDefault(ENV_SIDECAR_ADMIN_PORT, "8082").toInt
         ))
       } catch {
         case ex: Throwable =>

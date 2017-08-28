@@ -73,5 +73,5 @@ class ModelRuntimeController (modelManagementService: ModelManagementService) ex
   }
 
 
-  val routes: Route = listModelRuntimes ~ addModelRuntime
+  val routes: Route = listModelRuntimes ~ addModelRuntime ~ lastModelBuilds
 }

@@ -8,7 +8,10 @@ CREATE TABLE hydro_serving.runtime_type
 );
 
 INSERT INTO hydro_serving.runtime_type (name, version, tags) VALUES
-  ('hydro-serving/dummy-runtime','0.0.1','{"python","code","test"}');
+  ('hydro-serving/dummy-runtime', '0.0.1', '{"python","code","test"}'),
+  ('hydro-serving/runtime-tensorflow', '0.0.1', '{"tensorflow","python","ml"}'),
+  ('hydro-serving/runtime-sparklocal', '0.0.1', '{"spark","scala","ml"}'),
+  ('hydro-serving/runtime-scikit', '0.0.1', '{"scikit","scikit","ml"}');
 
 CREATE TABLE hydro_serving.model
 (
@@ -62,6 +65,14 @@ CREATE TABLE hydro_serving.model_service
   status          TEXT,
   statusText      TEXT
 );
+
+CREATE TABLE hydro_serving.weighted_service
+(
+  id           BIGSERIAL PRIMARY KEY,
+  service_name TEXT    NOT NULL UNIQUE,
+  weights   TEXT [] NOT NULL
+);
+
 
 CREATE TABLE hydro_serving.model_files
 (

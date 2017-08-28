@@ -6,7 +6,7 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Directives.{complete, get, path}
 import akka.util.Timeout
 import io.hydrosphere.serving.controller.TracingHeaders
-import io.hydrosphere.serving.manager.controller.{ManagerJsonSupport, ServeData}
+import io.hydrosphere.serving.manager.controller.{BuildModelRequest, ManagerJsonSupport, ServeData}
 import io.hydrosphere.serving.manager.service.{ModelInfo, UIManagementService}
 import io.swagger.annotations._
 
@@ -30,6 +30,23 @@ class UISpecificController(
       complete(uiManagementService.allModelsWithLastStatus())
     }
   }
+
+  @Path("/withInfo/{modelId}")
+  @ApiOperation(value = "model", notes = "model", nickname = "model", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ModelInfo", response=classOf[ModelInfo]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def modelWithLastInfo = path("ui" / "v1" / "model" / "withInfo" / LongNumber) { modelId =>
+    get {
+      complete(uiManagementService.modelWithLastStatus(modelId))
+    }
+  }
+
+  ///TODO withInfo for one
 
   @Path("/stopService/{modelId}")
   @ApiOperation(value = "stopService", notes = "stopService", nickname = "stopService", httpMethod = "DELETE")
@@ -63,7 +80,7 @@ class UISpecificController(
       extractRequest { request =>
         entity(as[ServeData]) { r =>
           complete(
-            uiManagementService.testModel(r.id, r.path, r.data, request.headers
+            uiManagementService.testModel(r.id, r.path.getOrElse("/serve"), r.data, request.headers
               .filter(h => TracingHeaders.isTracingHeaderName(h.name())))
           )
         }
@@ -71,6 +88,27 @@ class UISpecificController(
     }
   }
 
-  val routes = modelsWithLastInfo ~ deleteServices ~ serveService
+
+  @Path("/build")
+  @ApiOperation(value = "Build model", notes = "Build model", nickname = "buildModel", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "body", value = "Model", required = true,
+      dataTypeClass = classOf[BuildModelRequest], paramType = "body")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Model", response = classOf[ModelInfo]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def buildModel = path("ui" / "v1" / "model" / "build") {
+    post {
+      entity(as[BuildModelRequest]) { r =>
+        complete(
+          uiManagementService.buildModel(r.modelId, r.modelVersion)
+        )
+      }
+    }
+  }
+
+  val routes = modelsWithLastInfo ~ deleteServices ~ serveService ~ buildModel ~ modelWithLastInfo
 
 }
