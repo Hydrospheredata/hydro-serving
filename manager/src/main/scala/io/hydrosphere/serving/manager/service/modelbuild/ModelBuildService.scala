@@ -4,9 +4,9 @@ import io.hydrosphere.serving.manager.model._
 
 
 case class ProgressDetail(
-  current: Long,
-  start: Long,
-  total: Long
+  current: Option[Long],
+  start: Option[Long],
+  total: Option[Long]
 )
 
 case class ProgressMessage(
@@ -45,7 +45,7 @@ trait ModelBuildService {
     * @param progressHandler
     * @return image md5 tag
     */
-  def build(modelBuild: ModelBuild, imageName:String,  script: String, progressHandler: ProgressHandler): String
+  def build(modelBuild: ModelBuild, imageName: String, script: String, progressHandler: ProgressHandler): String
 
 }
 
@@ -75,9 +75,9 @@ object DockerClientHelper {
           progressDetail = {
             if (progressMessage.progressDetail() != null) {
               Some(ProgressDetail(
-                current = progressMessage.progressDetail().current(),
-                start = progressMessage.progressDetail().start(),
-                total = progressMessage.progressDetail().total()
+                current = Option(progressMessage.progressDetail().current()).map(_.toLong),
+                start = Option(progressMessage.progressDetail().start()).map(_.toLong),
+                total = Option(progressMessage.progressDetail().total()).map(_.toLong)
               ))
             } else {
               None
