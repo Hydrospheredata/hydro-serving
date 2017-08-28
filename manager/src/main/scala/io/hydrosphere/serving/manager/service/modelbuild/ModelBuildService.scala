@@ -1,8 +1,6 @@
 package io.hydrosphere.serving.manager.service.modelbuild
 
-import io.hydrosphere.serving.manager.model.{ModelBuild, ModelRuntime}
-import io.hydrosphere.serving.manager.service.SourceManagementService
-import org.apache.commons.io.FileUtils
+import io.hydrosphere.serving.manager.model._
 
 
 case class ProgressDetail(

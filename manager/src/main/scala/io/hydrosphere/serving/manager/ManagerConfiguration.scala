@@ -1,11 +1,10 @@
 package io.hydrosphere.serving.manager
 
 import com.amazonaws.regions.Regions
-import com.amazonaws.auth.AWSCredentialsProvider
-import com.amazonaws.services.s3.{AmazonS3, AmazonS3ClientBuilder}
-import com.amazonaws.services.sqs.{AmazonSQS, AmazonSQSClientBuilder}
+import com.amazonaws.services.s3._
+import com.amazonaws.services.sqs._
 import com.typesafe.config.Config
-import io.hydrosphere.serving.config.{ApplicationConfig, Configuration, SidecarConfig}
+import io.hydrosphere.serving.config._
 
 import collection.JavaConverters._
 

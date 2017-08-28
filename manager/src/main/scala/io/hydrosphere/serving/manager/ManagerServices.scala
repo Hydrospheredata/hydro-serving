@@ -2,11 +2,10 @@ package io.hydrosphere.serving.manager
 
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
-import com.spotify.docker.client.{DefaultDockerClient, DockerClient}
-import io.hydrosphere.serving.connector.{HttpRuntimeMeshConnector, RuntimeMeshConnector}
+import com.spotify.docker.client._
+import io.hydrosphere.serving.connector._
 import io.hydrosphere.serving.manager.connector.HttpEnvoyAdminConnector
-import io.hydrosphere.serving.manager.service.clouddriver.{DockerRuntimeDeployService, RuntimeDeployService, SwarmRuntimeDeployService}
-import io.hydrosphere.serving.manager.service.modelsource.ModelSource
+import io.hydrosphere.serving.manager.service.clouddriver._
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.envoy.EnvoyManagementServiceImpl
 import io.hydrosphere.serving.manager.service.modelbuild._
