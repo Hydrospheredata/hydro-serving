@@ -15,7 +15,7 @@ case class ServiceTargetLabels(
   modelVersion: String,
   serviceId: String,
   instanceId: String,
-  serviceName: String,
+  serviceName: String
 )
 
 case class ServiceTargets(
