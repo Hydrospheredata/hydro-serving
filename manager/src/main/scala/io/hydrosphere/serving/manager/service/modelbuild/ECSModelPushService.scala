@@ -49,12 +49,13 @@ class ECSModelPushService(
     val req = new DescribeRepositoriesRequest
     req.setRepositoryNames(Collections.singletonList(modelName))
     req.setRegistryId(accountId)
-    req.setMaxResults(1)
-    val result = ecrClient.describeRepositories(req)
-    if (result.getRepositories.isEmpty) {
-      val createRepositoryRequest = new CreateRepositoryRequest
-      createRepositoryRequest.setRepositoryName(modelName)
-      ecrClient.createRepository(createRepositoryRequest)
+    try {
+      ecrClient.describeRepositories(req)
+    } catch {
+      case ex: RepositoryNotFoundException =>
+        val createRepositoryRequest = new CreateRepositoryRequest
+        createRepositoryRequest.setRepositoryName(modelName)
+        ecrClient.createRepository(createRepositoryRequest)
     }
   }
 
@@ -67,7 +68,7 @@ class ECSModelPushService(
     createRepositoryIfNeeded(modelRuntime.modelName)
 
     dockerClient.push(
-      s"${modelRuntime.imageName}:${modelRuntime.imageMD5Tag}",
+      s"${modelRuntime.imageName}:${modelRuntime.modelVersion}",
       DockerClientHelper.createProgressHadlerWrapper(progressHandler),
       DockerClientHelper.createRegistryAuth(getDockerRegistryAuth)
     )
