@@ -75,7 +75,7 @@ case class ModelServiceInstance(
   sidecarAdminPort: Int,
   serviceId: Long,
   status: ModelServiceInstanceStatus,
-  statusText: String
+  statusText: Option[String]
 )
 
 case class ModelService(

@@ -57,7 +57,7 @@ class ManagerServices(
     case c: SwarmCloudDriverConfiguration => new SwarmRuntimeDeployService(dockerClient, managerConfiguration)
     case c: DockerCloudDriverConfiguration => new DockerRuntimeDeployService(dockerClient, managerConfiguration)
     //TODO change
-    case c: ECSCloudDriverConfiguration => new DockerRuntimeDeployService(dockerClient, managerConfiguration)
+    case c: ECSCloudDriverConfiguration => new EcsRuntimeDeployService(c, managerConfiguration)
   }
 
   val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(
