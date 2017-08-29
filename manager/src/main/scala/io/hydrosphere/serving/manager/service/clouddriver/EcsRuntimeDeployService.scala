@@ -198,24 +198,30 @@ class EcsRuntimeDeployService(
 
       describeTasksResult.getTasks.flatMap(task => {
         task.getContainers.map(container => {
-          val instance = containerInstance.getOrElse(task.getContainerInstanceArn,
-            throw new RuntimeException(s"Can't find instance for ARN:${task.getContainerInstanceArn}"))
+          try {
+            val instance = containerInstance.getOrElse(task.getContainerInstanceArn,
+              throw new RuntimeException(s"Can't find instance for ARN:${task.getContainerInstanceArn}"))
 
-          ModelServiceInstance(
-            instanceId = container.getContainerArn,
-            host = instance.getPrivateIpAddress,
-            appPort = DEFAULT_APP_HTTP_PORT,
-            sidecarPort = findHostPort(container, DEFAULT_SIDECAR_HTTP_PORT),
-            sidecarAdminPort = findHostPort(container, DEFAULT_SIDECAR_ADMIN_PORT),
-            serviceId = service.getServiceName.split('_').last.toLong,
-            status = if ("running".equalsIgnoreCase(container.getLastStatus)) {
-              ModelServiceInstanceStatus.UP
-            } else {
-              ModelServiceInstanceStatus.DOWN
-            },
-            statusText = Option(container.getReason)
-          )
-        })
+            Some(ModelServiceInstance(
+              instanceId = container.getContainerArn,
+              host = instance.getPrivateIpAddress,
+              appPort = DEFAULT_APP_HTTP_PORT,
+              sidecarPort = findHostPort(container, DEFAULT_SIDECAR_HTTP_PORT),
+              sidecarAdminPort = findHostPort(container, DEFAULT_SIDECAR_ADMIN_PORT),
+              serviceId = service.getServiceName.split('_').last.toLong,
+              status = if ("running".equalsIgnoreCase(container.getLastStatus)) {
+                ModelServiceInstanceStatus.UP
+              } else {
+                ModelServiceInstanceStatus.DOWN
+              },
+              statusText = Option(container.getReason)
+            ))
+          } catch {
+            case ex: Throwable =>
+              logger.error(s"Can't map container $container", ex)
+              None
+          }
+        }).filter(o => o.nonEmpty).flatten
       })
     } else {
       Seq()

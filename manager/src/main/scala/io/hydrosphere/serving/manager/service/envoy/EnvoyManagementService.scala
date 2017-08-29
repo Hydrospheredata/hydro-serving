@@ -167,7 +167,7 @@ class EnvoyManagementServiceImpl(
       runtimeManagementService.instancesForService(serviceId).flatMap(instancesSame => {
         runtimeManagementService.allServices().flatMap(services => {
           val modelService = servOp.get
-          val containerInstance = instancesSame.find(p => p.instanceId == containerId)
+          val containerInstance = instancesSame.find(p => p.serviceId == serviceId)
           if (containerInstance.isEmpty) {
             Future.successful(EnvoyClusterConfig(Seq()))
           } else {
