@@ -65,7 +65,8 @@ case class DockerCloudDriverConfiguration(
 ) extends CloudDriverConfiguration
 
 case class ECSCloudDriverConfiguration(
-  region: Regions
+  region: Regions,
+  cluster: String
 ) extends CloudDriverConfiguration
 
 case class ZipkinConfiguration(
@@ -110,7 +111,10 @@ object ManagerConfiguration extends Configuration {
         case "docker" =>
           DockerCloudDriverConfiguration(networkName = driverConf.getString("networkName"))
         case "ecs" =>
-          ECSCloudDriverConfiguration(region = Regions.fromName(driverConf.getString("region")))
+          ECSCloudDriverConfiguration(
+            region = Regions.fromName(driverConf.getString("region")),
+            cluster = driverConf.getString("cluster")
+          )
         case x =>
           throw new IllegalArgumentException(s"Unknown model source: $x")
       }
