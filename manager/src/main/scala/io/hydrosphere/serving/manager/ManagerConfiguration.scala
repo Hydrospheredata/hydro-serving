@@ -51,7 +51,8 @@ abstract class DockerRepositoryConfiguration()
 case class LocalDockerRepositoryConfiguration() extends DockerRepositoryConfiguration
 
 case class ECSDockerRepositoryConfiguration(
-  region: Regions
+  region: Regions,
+  accountId: String
 ) extends DockerRepositoryConfiguration
 
 abstract class CloudDriverConfiguration()
@@ -66,7 +67,8 @@ case class DockerCloudDriverConfiguration(
 
 case class ECSCloudDriverConfiguration(
   region: Regions,
-  cluster: String
+  cluster: String,
+  accountId: String
 ) extends CloudDriverConfiguration
 
 case class ZipkinConfiguration(
@@ -84,7 +86,8 @@ object ManagerConfiguration extends Configuration {
       case "ecs" =>
         parseCloudDriver(config) match {
           case ecs: ECSCloudDriverConfiguration => ECSDockerRepositoryConfiguration(
-            region = ecs.region
+            region = ecs.region,
+            accountId = ecs.accountId
           )
           case _ => throw new IllegalArgumentException(s"Specify ECS configuration in cloudDriver section")
         }
@@ -113,7 +116,8 @@ object ManagerConfiguration extends Configuration {
         case "ecs" =>
           ECSCloudDriverConfiguration(
             region = Regions.fromName(driverConf.getString("region")),
-            cluster = driverConf.getString("cluster")
+            cluster = driverConf.getString("cluster"),
+            accountId = driverConf.getString("accountId")
           )
         case x =>
           throw new IllegalArgumentException(s"Unknown model source: $x")
