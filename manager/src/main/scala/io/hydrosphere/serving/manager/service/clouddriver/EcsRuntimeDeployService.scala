@@ -156,6 +156,13 @@ class EcsRuntimeDeployService(
   override def deleteService(serviceId: Long): Unit = {
     findById(serviceId) match {
       case Some(x) =>
+        ecsClient.updateService(new UpdateServiceRequest()
+          .withCluster(x.getClusterArn)
+          .withService(x.getServiceArn)
+          .withDesiredCount(0)
+          .withTaskDefinition(x.getTaskDefinition)
+        )
+
         ecsClient.deleteService(new DeleteServiceRequest()
           .withCluster(x.getClusterArn)
           .withService(x.getServiceArn)
