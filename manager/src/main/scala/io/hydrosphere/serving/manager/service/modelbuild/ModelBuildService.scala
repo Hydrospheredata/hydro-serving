@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.service.modelbuild
 
 import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.model._
 
 
 case class ProgressDetail(
@@ -73,15 +74,13 @@ object DockerClientHelper {
           error = progressMessage.error(),
           progress = progressMessage.progress(),
           progressDetail = {
-            if (progressMessage.progressDetail() != null) {
-              Some(ProgressDetail(
-                current = Option(progressMessage.progressDetail().current()).map(_.toLong),
-                start = Option(progressMessage.progressDetail().start()).map(_.toLong),
-                total = Option(progressMessage.progressDetail().total()).map(_.toLong)
-              ))
-            } else {
-              None
-            }
+            Option(progressMessage.progressDetail()).map(d =>
+              ProgressDetail(
+                current = Option(d.current()).map(_.toLong),
+                start = Option(d.start()).map(_.toLong),
+                total = Option(d.total()).map(_.toLong)
+              )
+            )
           }
         ))
       }

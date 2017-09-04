@@ -2,9 +2,8 @@ package io.hydrosphere.serving.manager.service.modelfetcher
 
 import java.io.FileNotFoundException
 import java.nio.file.{Files, NoSuchFileException}
-import java.time.LocalDateTime
 
-import io.hydrosphere.serving.manager.model.{Model, RuntimeType, SchematicRuntimeType}
+import io.hydrosphere.serving.manager.model.SchematicRuntimeType
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.model.CommonJsonSupport
 import org.apache.logging.log4j.scala.Logging

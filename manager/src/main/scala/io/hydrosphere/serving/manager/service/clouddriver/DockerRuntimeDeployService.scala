@@ -7,7 +7,8 @@ import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.{ListContainersParam, RemoveContainerParam}
 import com.spotify.docker.client.messages._
 import io.hydrosphere.serving.manager.{DockerCloudDriverConfiguration, ManagerConfiguration}
-import io.hydrosphere.serving.manager.model.{ModelService, ModelServiceInstance, ModelServiceInstanceStatus}
+import io.hydrosphere.serving.manager.model.{ModelServiceInstance, ModelServiceInstanceStatus}
+import io.hydrosphere.serving.model.ModelService
 import org.apache.logging.log4j.scala.Logging
 
 import collection.JavaConversions._

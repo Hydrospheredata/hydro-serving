@@ -1,8 +1,38 @@
 package io.hydrosphere.serving.model
 
-/**
-  *
-  */
+import java.time.LocalDateTime
+
+
+case class RuntimeType(
+  id: Long,
+  name: String,
+  version: String,
+  tags: List[String]
+)
+
+case class ModelRuntime(
+  id: Long,
+  imageName: String,
+  imageTag: String,
+  imageMD5Tag: String,
+  modelName: String,
+  modelVersion: String,
+  source: Option[String],
+  runtimeType: Option[RuntimeType],
+  outputFields: List[String],
+  inputFields: List[String],
+  created: LocalDateTime,
+  modelId: Option[Long]
+)
+
+case class ModelService(
+  serviceId: Long,
+  serviceName: String,
+  cloudDriverId: Option[String],
+  modelRuntime: ModelRuntime,
+  status: Option[String],
+  statusText: Option[String]
+)
 
 case class Endpoint(
   endpointId: Long,
