@@ -65,8 +65,8 @@ object Dependencies {
     .union(akkaHttpDependencies)
     .union(testDependencies)
     .union(Seq(
-      "com.amazonaws" % "aws-java-sdk-sqs" % "1.11.174",
-      "com.amazonaws" % "aws-java-sdk-s3" % "1.11.174",
+      "com.amazonaws" % "aws-java-sdk-sqs" % "1.11.184",
+      "com.amazonaws" % "aws-java-sdk-s3" % "1.11.184",
       "org.postgresql" % "postgresql" % postgresqlVersion,
       "com.typesafe.slick" %% "slick" % slickVersion,
       "com.typesafe.slick" %% "slick-hikaricp" % slickVersion,
@@ -75,6 +75,11 @@ object Dependencies {
       "org.flywaydb" % "flyway-core" % "4.2.0",
       "com.spotify" % "docker-client" % "8.8.0" exclude("ch.qos.logback", "logback-classic"),
       "com.google.guava" % "guava" % "22.0",
-      "org.tensorflow" % "proto" % "1.2.1"
+      "org.tensorflow" % "proto" % "1.2.1",
+      "org.tensorflow" % "proto" % "1.2.1",
+      "com.amazonaws" % "aws-java-sdk-ecs" % "1.11.184",
+      "com.amazonaws" % "aws-java-sdk-ec2" % "1.11.184",
+      "com.amazonaws" % "aws-java-sdk-iam" % "1.11.184",
+      "com.amazonaws" % "aws-java-sdk-ecr" % "1.11.184"
     ))
 }

@@ -32,9 +32,9 @@ class DockerRuntimeDeployService(
     val env = List[String](
       s"$ENV_HS_SERVICE_ID=${runtime.serviceId}",
 
-      s"$ENV_APP_HTTP_PORT=9090",
-      s"$ENV_SIDECAR_HTTP_PORT=8080",
-      s"$ENV_SIDECAR_ADMIN_PORT=8082",
+      s"$ENV_APP_HTTP_PORT=$DEFAULT_APP_HTTP_PORT",
+      s"$ENV_SIDECAR_HTTP_PORT=$DEFAULT_SIDECAR_HTTP_PORT",
+      s"$ENV_SIDECAR_ADMIN_PORT=$DEFAULT_SIDECAR_ADMIN_PORT",
 
       s"$ENV_MANAGER_HOST=${managerConfiguration.advertised.advertisedHost}",
       s"$ENV_MANAGER_PORT=${managerConfiguration.advertised.advertisedPort.toString}",
@@ -85,9 +85,6 @@ class DockerRuntimeDeployService(
     dockerClient.listContainers(ListContainersParam.withLabel(LABEL_SERVICE_ID, serviceId.toString))
       .foreach(s => dockerClient.removeContainer(s.id(), RemoveContainerParam.forceKill(true), RemoveContainerParam.removeVolumes(true)))
 
-  override def serviceInstances(): Seq[ModelServiceInstance] =
-    serviceInstances(ListContainersParam.withLabel(LABEL_HS_SERVICE_MARKER, LABEL_HS_SERVICE_MARKER))
-
   override def serviceInstances(serviceId: Long): Seq[ModelServiceInstance] =
     serviceInstances(ListContainersParam.withLabel(LABEL_SERVICE_ID, serviceId.toString))
 
@@ -123,10 +120,10 @@ class DockerRuntimeDeployService(
           } else {
             ModelServiceInstanceStatus.DOWN
           },
-          statusText = s.status,
-          appPort = envMap.getOrDefault(ENV_APP_HTTP_PORT, "9090").toInt,
-          sidecarPort = envMap.getOrDefault(ENV_SIDECAR_HTTP_PORT, "8080").toInt,
-          sidecarAdminPort = envMap.getOrDefault(ENV_SIDECAR_ADMIN_PORT, "8082").toInt
+          statusText = Option(s.status),
+          appPort = envMap.getOrDefault(ENV_APP_HTTP_PORT, DEFAULT_APP_HTTP_PORT.toString).toInt,
+          sidecarPort = envMap.getOrDefault(ENV_SIDECAR_HTTP_PORT, DEFAULT_SIDECAR_HTTP_PORT.toString).toInt,
+          sidecarAdminPort = envMap.getOrDefault(ENV_SIDECAR_ADMIN_PORT, DEFAULT_SIDECAR_ADMIN_PORT.toString).toInt
         ))
       } catch {
         case ex: Throwable =>
