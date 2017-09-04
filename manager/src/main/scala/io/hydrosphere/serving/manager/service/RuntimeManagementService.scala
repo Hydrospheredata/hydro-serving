@@ -1,11 +1,10 @@
 package io.hydrosphere.serving.manager.service
 
-import akka.http.scaladsl.model.HttpHeader
-import io.hydrosphere.serving.manager.model.{ModelRuntime, ModelService, ModelServiceInstance, UnknownModelRuntime}
+import io.hydrosphere.serving.manager.model.{ModelServiceInstance, UnknownModelRuntime}
+import io.hydrosphere.serving.model.{ModelRuntime, ModelService}
 import io.hydrosphere.serving.manager.repository.{ModelRuntimeRepository, ModelServiceRepository}
 import io.hydrosphere.serving.manager.service.clouddriver.{RuntimeDeployService, ServiceInfo}
 
-import scala.collection.immutable
 import scala.concurrent.{ExecutionContext, Future}
 
 case class CreateModelServiceRequest(

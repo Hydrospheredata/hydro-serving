@@ -11,17 +11,11 @@ trait ManagerJsonSupport extends CommonJsonSupport {
   implicit val modelBuildStatusFormat = new EnumJsonConverter(ModelBuildStatus)
   implicit val modelServiceInstanceStatusFormat = new EnumJsonConverter(ModelServiceInstanceStatus)
 
-  implicit val runtimeTypeFormat = jsonFormat4(RuntimeType)
-
   implicit val modelFormat = jsonFormat9(Model)
 
   implicit val buildModelRequestFormat = jsonFormat2(BuildModelRequest)
 
-  implicit val modelRuntimeFormat = jsonFormat12(ModelRuntime)
-
   implicit val modelBuildFormat = jsonFormat9(ModelBuild)
-
-  implicit val modelServiceFormat = jsonFormat6(ModelService)
 
   implicit val modelServiceInstanceFormat = jsonFormat8(ModelServiceInstance)
 

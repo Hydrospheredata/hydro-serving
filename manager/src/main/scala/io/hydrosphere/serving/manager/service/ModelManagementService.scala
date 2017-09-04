@@ -2,12 +2,12 @@ package io.hydrosphere.serving.manager.service
 
 import java.time.LocalDateTime
 
-import io.hydrosphere.serving.manager.DockerRepositoryConfiguration
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
+import io.hydrosphere.serving.model._
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}

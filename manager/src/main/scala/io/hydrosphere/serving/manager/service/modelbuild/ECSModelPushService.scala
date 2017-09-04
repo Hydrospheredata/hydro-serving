@@ -4,10 +4,10 @@ import java.util.Collections
 
 import com.amazonaws.services.ecr.{AmazonECR, AmazonECRClientBuilder}
 import com.amazonaws.services.ecr.model._
-import com.amazonaws.services.identitymanagement.{AmazonIdentityManagement, AmazonIdentityManagementClientBuilder}
 import com.spotify.docker.client.DockerClient
 import io.hydrosphere.serving.manager.ECSDockerRepositoryConfiguration
-import io.hydrosphere.serving.manager.model.{ModelBuild, ModelRuntime}
+import io.hydrosphere.serving.manager.model.ModelBuild
+import io.hydrosphere.serving.model.ModelRuntime
 
 /**
   *
