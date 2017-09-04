@@ -2,11 +2,13 @@ package io.hydrosphere.serving.manager.service
 
 import java.nio.file.Files
 
+import com.amazonaws.regions.{Region, Regions}
 import com.amazonaws.services.s3.AmazonS3ClientBuilder
 import com.amazonaws.services.sqs.AmazonSQSClientBuilder
 import io.hydrosphere.serving.manager.service.modelsource.{LocalModelSource, ModelSource, S3ModelSource}
 import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, S3ModelSourceConfiguration, TestConstants}
 import org.scalatest.{FlatSpec, Matchers}
+
 import scala.collection.JavaConversions._
 
 class ModelSourceSpecs extends FlatSpec with Matchers {
@@ -53,6 +55,7 @@ class ModelSourceSpecs extends FlatSpec with Matchers {
       val s3Source = new S3ModelSource(S3ModelSourceConfiguration(
         "test",
         "",
+        Regions.EU_WEST_1,
         s3client,
         sqsClient,
         "serving-demo",
