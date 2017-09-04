@@ -51,11 +51,11 @@ class ModelServiceController(
     new ApiResponse(code = 200, message = "ModelService", response = classOf[ModelService]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def fetchByIds = path("api" / "v1" / "modelService") {
+  def fetchByIds = path("api" / "v1" / "modelService" / "fetchByIds") {
     post {
       entity(as[Seq[Long]]) { r =>
         complete(
-          runtimeManagementService.allServices()addService(r)
+          runtimeManagementService.servicesByIds(r)
         )
       }
     }
@@ -92,8 +92,8 @@ class ModelServiceController(
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def listInstances = get {
-    path("api" / "v1" / "modelService" / "instances" / LongNumber) { serviceId =>
-      complete(runtimeManagementService.instancesForService(serviceId))
+    path("api" / "v1" / "modelService" / "instances" / Segment) { serviceId =>
+      complete(runtimeManagementService.instancesForService(serviceId.toLong))
     }
   }
 
@@ -123,9 +123,9 @@ class ModelServiceController(
     new ApiResponse(code = 200, message = "ModelService", response = classOf[ModelService]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def getService = delete {
-    path("api" / "v1" / "modelService" / LongNumber) { serviceId =>
-      complete(runtimeManagementService.getService(serviceId))
+  def getService = get {
+    path("api" / "v1" / "modelService" / Segment) { serviceId =>
+      complete(runtimeManagementService.getService(serviceId.toLong))
     }
   }
 
@@ -151,5 +151,5 @@ class ModelServiceController(
     }
   }
 
-  val routes: Route = listAll ~ addService ~ listInstances ~ deleteService ~ getService ~ serveService
+  val routes: Route = listAll ~ addService ~ listInstances ~ deleteService ~ getService ~ serveService ~ fetchByIds
 }
