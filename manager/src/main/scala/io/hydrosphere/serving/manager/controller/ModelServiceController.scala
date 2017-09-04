@@ -41,6 +41,26 @@ class ModelServiceController(
     }
   }
 
+  @Path("/fetchByIds")
+  @ApiOperation(value = "fetchById", notes = "fetchById", nickname = "fetchById", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "body", value = "ids", required = true,
+      dataTypeClass = classOf[Long], paramType = "body", collectionFormat = "List")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ModelService", response = classOf[ModelService]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def fetchByIds = path("api" / "v1" / "modelService") {
+    post {
+      entity(as[Seq[Long]]) { r =>
+        complete(
+          runtimeManagementService.allServices()addService(r)
+        )
+      }
+    }
+  }
+
   @Path("/")
   @ApiOperation(value = "Add ModelService", notes = "Add ModelService", nickname = "addModelService", httpMethod = "POST")
   @ApiImplicitParams(Array(
@@ -94,6 +114,21 @@ class ModelServiceController(
     }
   }
 
+  @Path("/{serviceId}")
+  @ApiOperation(value = "getService", notes = "getService", nickname = "getService", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "serviceId", required = true, dataType = "long", paramType = "path", value = "serviceId")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ModelService", response = classOf[ModelService]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def getService = delete {
+    path("api" / "v1" / "modelService" / LongNumber) { serviceId =>
+      complete(runtimeManagementService.getService(serviceId))
+    }
+  }
+
   @Path("/serve")
   @ApiOperation(value = "Serve ModelService", notes = "Serve ModelService", nickname = "ServeModelService", httpMethod = "POST")
   @ApiImplicitParams(Array(
@@ -116,5 +151,5 @@ class ModelServiceController(
     }
   }
 
-  val routes: Route = listAll ~ addService ~ listInstances ~ deleteService ~ serveService
+  val routes: Route = listAll ~ addService ~ listInstances ~ deleteService ~ getService ~ serveService
 }

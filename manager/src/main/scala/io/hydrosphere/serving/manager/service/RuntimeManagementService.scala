@@ -39,6 +39,8 @@ trait RuntimeManagementService {
 
   def allServices(): Future[Seq[ModelService]]
 
+  def servicesByIds(ids: Seq[Long]): Future[Seq[ModelService]]
+
   def getService(serviceId: Long): Future[Option[ModelService]]
 
 }
@@ -92,8 +94,8 @@ class RuntimeManagementServiceImpl(
     //if(r.serviceName) throw new IllegalArgumentException
     //TODO ADD validation for names manager,gateway + length + without space and special symbols
     modelRuntimeRepository.get(r.modelRuntimeId).flatMap({
-      case None=>throw new IllegalArgumentException(s"Can't find ModelRuntime with id=${r.modelRuntimeId}")
-      case runtime=>modelServiceRepository.create(r.toModelService(runtime.get)).flatMap(s =>
+      case None => throw new IllegalArgumentException(s"Can't find ModelRuntime with id=${r.modelRuntimeId}")
+      case runtime => modelServiceRepository.create(r.toModelService(runtime.get)).flatMap(s =>
         Future(
           s.copy(cloudDriverId = Some(runtimeDeployService.deploy(s)))
         ).flatMap(service =>
@@ -137,5 +139,9 @@ class RuntimeManagementServiceImpl(
   override def deleteService(serviceId: Long): Future[Unit] =
     Future(runtimeDeployService.deleteService(serviceId))
       .flatMap(p => modelServiceRepository.delete(serviceId).map(p => Unit))
-  
+
+  //TODO Optimize - fetch special services instead of all
+  override def servicesByIds(ids: Seq[Long]): Future[Seq[ModelService]] =
+    allServices().flatMap(s =>
+      Future.successful(s.filter(service => ids.contains(service.serviceId))))
 }
