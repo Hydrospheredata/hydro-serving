@@ -7,6 +7,7 @@ import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, Mod
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
+import io.hydrosphere.serving.model._
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -260,11 +261,12 @@ class ModelManagementServiceImpl(
         logger.info(progressMessage)
     }
 
-    Future(modelBuildService.build(modelBuild, script, handler)).flatMap({
+    val imageName = modelPushService.getImageName(modelBuild)
+    Future(modelBuildService.build(modelBuild, imageName, script, handler)).flatMap({
       md5 =>
         modelRuntimeRepository.create(ModelRuntime(
           id = 0,
-          imageName = modelBuild.model.name,
+          imageName = imageName,
           imageTag = modelBuild.modelVersion,
           imageMD5Tag = md5,
           modelName = modelBuild.model.name,

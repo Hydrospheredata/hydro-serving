@@ -1,7 +1,8 @@
 package io.hydrosphere.serving.manager.service
 
 import akka.http.scaladsl.model.HttpHeader
-import io.hydrosphere.serving.manager.model.{Model, ModelBuild, ModelRuntime, ModelService}
+import io.hydrosphere.serving.model.{ModelRuntime, ModelService}
+import io.hydrosphere.serving.manager.model.{Model, ModelBuild}
 import io.hydrosphere.serving.manager.repository.{ModelBuildRepository, ModelRepository, ModelRuntimeRepository, ModelServiceRepository}
 import org.apache.logging.log4j.scala.Logging
 

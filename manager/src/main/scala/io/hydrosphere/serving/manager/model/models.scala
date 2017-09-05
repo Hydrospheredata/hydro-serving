@@ -4,6 +4,7 @@ import java.time.LocalDateTime
 
 import io.hydrosphere.serving.manager.model.ModelBuildStatus.ModelBuildStatus
 import io.hydrosphere.serving.manager.model.ModelServiceInstanceStatus.ModelServiceInstanceStatus
+import io.hydrosphere.serving.model.{ModelRuntime, RuntimeType}
 
 object ModelServiceInstanceStatus extends Enumeration {
   type ModelServiceInstanceStatus = Value
@@ -14,13 +15,6 @@ object ModelBuildStatus extends Enumeration {
   type ModelBuildStatus = Value
   val STARTED, FINISHED, ERROR = Value
 }
-
-case class RuntimeType(
-  id: Long,
-  name: String,
-  version: String,
-  tags: List[String]
-)
 
 case class RuntimeTypeBuildScript(
   name: String,
@@ -75,31 +69,7 @@ case class ModelServiceInstance(
   sidecarAdminPort: Int,
   serviceId: Long,
   status: ModelServiceInstanceStatus,
-  statusText: String
-)
-
-case class ModelService(
-  serviceId: Long,
-  serviceName: String,
-  cloudDriverId: Option[String],
-  modelRuntime: ModelRuntime,
-  status: Option[String],
   statusText: Option[String]
-)
-
-case class ModelRuntime(
-  id: Long,
-  imageName: String,
-  imageTag: String,
-  imageMD5Tag: String,
-  modelName: String,
-  modelVersion: String,
-  source: Option[String],
-  runtimeType: Option[RuntimeType],
-  outputFields: List[String],
-  inputFields: List[String],
-  created: LocalDateTime,
-  modelId: Option[Long]
 )
 
 class UnknownModelRuntime extends ModelRuntime(

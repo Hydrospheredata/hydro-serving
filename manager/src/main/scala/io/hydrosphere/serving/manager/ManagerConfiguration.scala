@@ -1,10 +1,10 @@
 package io.hydrosphere.serving.manager
 
-import com.amazonaws.auth.AWSCredentialsProvider
-import com.amazonaws.services.s3.{AmazonS3, AmazonS3ClientBuilder}
-import com.amazonaws.services.sqs.{AmazonSQS, AmazonSQSClientBuilder}
+import com.amazonaws.regions.Regions
+import com.amazonaws.services.s3._
+import com.amazonaws.services.sqs._
 import com.typesafe.config.Config
-import io.hydrosphere.serving.config.{ApplicationConfig, Configuration, SidecarConfig}
+import io.hydrosphere.serving.config._
 
 import collection.JavaConverters._
 
@@ -22,7 +22,8 @@ case class ManagerConfiguration(
   modelSources: Seq[ModelSourceConfiguration],
   database: Config,
   cloudDriver: CloudDriverConfiguration,
-  zipkin: ZipkinConfiguration
+  zipkin: ZipkinConfiguration,
+  dockerRepository: DockerRepositoryConfiguration
 )
 
 abstract class ModelSourceConfiguration() {
@@ -38,15 +39,23 @@ case class LocalModelSourceConfiguration(
 case class S3ModelSourceConfiguration(
   name: String,
   path: String,
+  region: Regions,
   s3Client: AmazonS3,
   sqsClient: AmazonSQS,
   bucket: String,
   queue: String
 ) extends ModelSourceConfiguration
 
-abstract class CloudDriverConfiguration() {
+abstract class DockerRepositoryConfiguration()
 
-}
+case class LocalDockerRepositoryConfiguration() extends DockerRepositoryConfiguration
+
+case class ECSDockerRepositoryConfiguration(
+  region: Regions,
+  accountId: String
+) extends DockerRepositoryConfiguration
+
+abstract class CloudDriverConfiguration()
 
 case class SwarmCloudDriverConfiguration(
   networkName: String
@@ -54,6 +63,12 @@ case class SwarmCloudDriverConfiguration(
 
 case class DockerCloudDriverConfiguration(
   networkName: String
+) extends CloudDriverConfiguration
+
+case class ECSCloudDriverConfiguration(
+  region: Regions,
+  cluster: String,
+  accountId: String
 ) extends CloudDriverConfiguration
 
 case class ZipkinConfiguration(
@@ -64,8 +79,23 @@ case class ZipkinConfiguration(
 
 object ManagerConfiguration extends Configuration {
 
-  def parseZipkin(config: Config): ZipkinConfiguration ={
-    val c=config.getConfig("openTracing.zipkin")
+  def parseDockerRepository(config: Config): DockerRepositoryConfiguration = {
+    val repoType = config.getString("dockerRepository.type")
+    repoType match {
+      case "local" => LocalDockerRepositoryConfiguration()
+      case "ecs" =>
+        parseCloudDriver(config) match {
+          case ecs: ECSCloudDriverConfiguration => ECSDockerRepositoryConfiguration(
+            region = ecs.region,
+            accountId = ecs.accountId
+          )
+          case _ => throw new IllegalArgumentException(s"Specify ECS configuration in cloudDriver section")
+        }
+    }
+  }
+
+  def parseZipkin(config: Config): ZipkinConfiguration = {
+    val c = config.getConfig("openTracing.zipkin")
     ZipkinConfiguration(
       host = c.getString("host"),
       port = c.getInt("port"),
@@ -83,6 +113,12 @@ object ManagerConfiguration extends Configuration {
           SwarmCloudDriverConfiguration(networkName = driverConf.getString("networkName"))
         case "docker" =>
           DockerCloudDriverConfiguration(networkName = driverConf.getString("networkName"))
+        case "ecs" =>
+          ECSCloudDriverConfiguration(
+            region = Regions.fromName(driverConf.getString("region")),
+            cluster = driverConf.getString("cluster"),
+            accountId = driverConf.getString("accountId")
+          )
         case x =>
           throw new IllegalArgumentException(s"Unknown model source: $x")
       }
@@ -123,6 +159,7 @@ object ManagerConfiguration extends Configuration {
             path = path,
             s3Client = s3Client,
             sqsClient = sqsClient,
+            region = Regions.fromName(modelSourceConfig.getString("region")),
             bucket = modelSourceConfig.getString("bucket"),
             queue = modelSourceConfig.getString("queue")
           )
@@ -143,6 +180,7 @@ object ManagerConfiguration extends Configuration {
     modelSources = parseDataSources(config),
     database = config.getConfig("database"),
     cloudDriver = parseCloudDriver(config),
-    zipkin = parseZipkin(config)
+    zipkin = parseZipkin(config),
+    dockerRepository = parseDockerRepository(config)
   )
 }

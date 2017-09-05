@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.service
 
 import akka.http.scaladsl.model.HttpHeader
 import io.hydrosphere.serving.connector.{ExecutionCommand, ExecutionUnit, RuntimeMeshConnector}
-import io.hydrosphere.serving.manager.model.ModelService
+import io.hydrosphere.serving.model.ModelService
 import io.hydrosphere.serving.model.{ServiceWeight, WeightedService}
 import io.hydrosphere.serving.manager.repository.{EndpointRepository, ModelServiceRepository, PipelineRepository, WeightedServiceRepository}
 import io.hydrosphere.serving.model.{Endpoint, Pipeline, PipelineStage}

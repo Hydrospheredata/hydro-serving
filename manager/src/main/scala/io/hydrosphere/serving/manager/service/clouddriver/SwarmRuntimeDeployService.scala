@@ -4,6 +4,7 @@ import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.messages.swarm._
 import io.hydrosphere.serving.manager._
 import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.model.ModelService
 import org.apache.logging.log4j.scala.Logging
 
 import collection.JavaConversions._
@@ -28,8 +29,9 @@ class SwarmRuntimeDeployService(
     val env = List[String](
       s"$ENV_HS_SERVICE_ID=${runtime.serviceId}",
 
-      s"$ENV_APP_HTTP_PORT=9090",
-      s"$ENV_SIDECAR_HTTP_PORT=8080",
+      s"$ENV_APP_HTTP_PORT=$DEFAULT_APP_HTTP_PORT",
+      s"$ENV_SIDECAR_HTTP_PORT=$DEFAULT_SIDECAR_HTTP_PORT",
+      s"$ENV_SIDECAR_ADMIN_PORT=$DEFAULT_SIDECAR_ADMIN_PORT",
 
       s"$ENV_MANAGER_HOST=${managerConfiguration.advertised.advertisedHost}",
       s"$ENV_MANAGER_PORT=${managerConfiguration.advertised.advertisedPort.toString}",
@@ -104,9 +106,6 @@ class SwarmRuntimeDeployService(
         Unit
       })
 
-  override def serviceInstances(): Seq[ModelServiceInstance] =
-    serviceInstances(Task.Criteria.builder())
-
   override def serviceInstances(serviceId: Long): Seq[ModelServiceInstance] =
     serviceInstances(Task.Criteria.builder()
       .label(s"$LABEL_SERVICE_ID=$serviceId"))
@@ -144,10 +143,10 @@ class SwarmRuntimeDeployService(
         } else {
           ModelServiceInstanceStatus.DOWN
         },
-        statusText = s.status.message,
-        appPort = envMap.getOrDefault(ENV_APP_HTTP_PORT, "9090").toInt,
-        sidecarPort = envMap.getOrDefault(ENV_SIDECAR_HTTP_PORT, "8080").toInt,
-        sidecarAdminPort = envMap.getOrDefault(ENV_SIDECAR_ADMIN_PORT, "8082").toInt
+        statusText = Option(s.status.message),
+        appPort = envMap.getOrDefault(ENV_APP_HTTP_PORT, DEFAULT_APP_HTTP_PORT.toString).toInt,
+        sidecarPort = envMap.getOrDefault(ENV_SIDECAR_HTTP_PORT, DEFAULT_SIDECAR_HTTP_PORT.toString).toInt,
+        sidecarAdminPort = envMap.getOrDefault(ENV_SIDECAR_ADMIN_PORT, DEFAULT_SIDECAR_ADMIN_PORT.toString).toInt
       )
     })
 

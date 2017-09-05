@@ -6,7 +6,7 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.controller.TracingHeaders
-import io.hydrosphere.serving.manager.model.ModelService
+import io.hydrosphere.serving.model.ModelService
 import io.hydrosphere.serving.manager.service.{CreateModelServiceRequest, RuntimeManagementService, ServingManagementService}
 import io.swagger.annotations._
 
@@ -41,6 +41,26 @@ class ModelServiceController(
     }
   }
 
+  @Path("/fetchByIds")
+  @ApiOperation(value = "fetchById", notes = "fetchById", nickname = "fetchById", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "body", value = "ids", required = true,
+      dataTypeClass = classOf[Long], paramType = "body", collectionFormat = "List")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ModelService", response = classOf[ModelService]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def fetchByIds = path("api" / "v1" / "modelService" / "fetchByIds") {
+    post {
+      entity(as[Seq[Long]]) { r =>
+        complete(
+          runtimeManagementService.servicesByIds(r)
+        )
+      }
+    }
+  }
+
   @Path("/")
   @ApiOperation(value = "Add ModelService", notes = "Add ModelService", nickname = "addModelService", httpMethod = "POST")
   @ApiImplicitParams(Array(
@@ -72,8 +92,8 @@ class ModelServiceController(
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def listInstances = get {
-    path("api" / "v1" / "modelService" / "instances" / LongNumber) { serviceId =>
-      complete(runtimeManagementService.instancesForService(serviceId))
+    path("api" / "v1" / "modelService" / "instances" / Segment) { serviceId =>
+      complete(runtimeManagementService.instancesForService(serviceId.toLong))
     }
   }
 
@@ -91,6 +111,21 @@ class ModelServiceController(
       onSuccess(runtimeManagementService.deleteService(serviceId)) {
         complete(200, None)
       }
+    }
+  }
+
+  @Path("/{serviceId}")
+  @ApiOperation(value = "getService", notes = "getService", nickname = "getService", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "serviceId", required = true, dataType = "long", paramType = "path", value = "serviceId")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ModelService", response = classOf[ModelService]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def getService = get {
+    path("api" / "v1" / "modelService" / Segment) { serviceId =>
+      complete(runtimeManagementService.getService(serviceId.toLong))
     }
   }
 
@@ -116,5 +151,5 @@ class ModelServiceController(
     }
   }
 
-  val routes: Route = listAll ~ addService ~ listInstances ~ deleteService ~ serveService
+  val routes: Route = listAll ~ addService ~ listInstances ~ deleteService ~ getService ~ serveService ~ fetchByIds
 }
