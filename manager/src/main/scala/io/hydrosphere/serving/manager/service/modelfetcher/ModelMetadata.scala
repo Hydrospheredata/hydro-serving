@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.service.modelfetcher
 
-import io.hydrosphere.serving.manager.model.RuntimeType
+import io.hydrosphere.serving.model.RuntimeType
 
 case class ModelMetadata(
   name: String,
