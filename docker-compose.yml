@@ -31,4 +31,5 @@ services:
       DATABASE_HOST: "postgres"
       ZIPKIN_ENABLED: "true"
       ZIPKIN_HOST: "zipkin"
+      LOCAL_MODEL_PATH: "/models"
       DOCKER_NETWORK_NAME: "hydroserving_default"

@@ -31,11 +31,30 @@ then
     APP_OPTS="$APP_OPTS -Dmanager.advertisedHost=$ADVERTISED_MANAGER_HOST -Dmanager.advertisedPort=$ADVERTISED_MANAGER_PORT"
     APP_OPTS="$APP_OPTS -Ddatabase.jdbcUrl=jdbc:postgresql://$DATABASE_HOST:$DATABASE_PORT/$DATABASE_NAME"
     APP_OPTS="$APP_OPTS -Ddatabase.username=$DATABASE_USERNAME -Ddatabase.password=$DATABASE_PASSWORD"
-    if [ -n "$SWARM_NETWORK_NAME" ]; then
-        APP_OPTS="$APP_OPTS -DcloudDriver.swarm.networkName=$SWARM_NETWORK_NAME"
+
+    if [ "$CLOUD_DRIVER" = "swarm" ]; then
+        APP_OPTS="$APP_OPTS -DcloudDriver.swarm.networkName=$NETWORK_NAME"
+    elif [ "$CLOUD_DRIVER" = "ecs" ]; then
+        APP_OPTS="$APP_OPTS -DcloudDriver.ecs.region=$ECS_DEPLOY_REGION"
+        APP_OPTS="$APP_OPTS -DcloudDriver.ecs.cluster=$ECS_DEPLOY_CLUSTER"
+        APP_OPTS="$APP_OPTS -DcloudDriver.ecs.accountId=$ECS_DEPLOY_ACCOUNT"
+        APP_OPTS="$APP_OPTS -DdockerRepository.type=ecs"
+    else
+        APP_OPTS="$APP_OPTS -DcloudDriver.docker.networkName=$NETWORK_NAME"
+        APP_OPTS="$APP_OPTS -DdockerRepository.type=local"
     fi
-    if [ -n "$DOCKER_NETWORK_NAME" ]; then
-        APP_OPTS="$APP_OPTS -DcloudDriver.docker.networkName=$DOCKER_NETWORK_NAME"
+
+
+    if [ -n "$LOCAL_MODEL_PATH" ]; then
+        APP_OPTS="$APP_OPTS -DmodelSources.local.name=local"
+        APP_OPTS="$APP_OPTS -DmodelSources.local.path=$LOCAL_MODEL_PATH"
+    fi
+    if [ -n "$S3_MODEL_PATH" ]; then
+        APP_OPTS="$APP_OPTS -DmodelSources.s3.name=s3"
+        APP_OPTS="$APP_OPTS -DmodelSources.s3.path=$S3_MODEL_PATH"
+        APP_OPTS="$APP_OPTS -DmodelSources.s3.region=$S3_MODEL_REGION"
+        APP_OPTS="$APP_OPTS -DmodelSources.s3.bucket=$S3_MODEL_BUCKET"
+        APP_OPTS="$APP_OPTS -DmodelSources.s3.queue=$S3_MODEL_QUEUE"
     fi
     echo "Custom config does not exist"
 else
