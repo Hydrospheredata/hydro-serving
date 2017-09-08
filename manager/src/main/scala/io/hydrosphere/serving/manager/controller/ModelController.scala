@@ -139,5 +139,25 @@ class ModelController(modelManagementService: ModelManagementService) extends Ma
     }
   }
 
-  val routes: Route = listModels ~ updateModel ~ addModel ~ buildModel ~ listModelBuilds ~ listModelBuildsByModel ~ lastModelBuilds
+  @Path("/buildByName")
+  @ApiOperation(value = "Build model by name", notes = "Build model by name", nickname = "buildModel by name", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "body", value = "Model", required = true,
+      dataTypeClass = classOf[BuildModelByNameRequest], paramType = "body")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Model", response = classOf[ModelRuntime]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def buildByName = path("api" / "v1" / "model" / "buildByName") {
+    post {
+      entity(as[BuildModelByNameRequest]) { r =>
+        complete(
+          modelManagementService.buildModel(r.modelName, r.modelVersion)
+        )
+      }
+    }
+  }
+
+  val routes: Route = listModels ~ updateModel ~ addModel ~ buildModel ~ buildByName ~ listModelBuilds ~ listModelBuildsByModel ~ lastModelBuilds
 }

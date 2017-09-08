@@ -107,6 +107,28 @@ class ModelServiceRepositoryImpl(databaseService: DatabaseService)(implicit exec
         .filter({ case ((ms, mr), rt) => mr.flatMap(_.runtimeId) inSetBind runtimeIds })
         .result
     ).map(m => mapFromDb(m))
+
+  override def getLastModelServiceByModelName(modelName: String): Future[Option[ModelService]] =
+    db.run(
+      Tables.ModelService
+        .joinLeft(Tables.ModelRuntime)
+        .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.RuntimeType)
+        .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
+        .filter({ case ((ms, mr), rt) => mr.flatMap(_.modelname) === modelName })
+        .result.headOption
+    ).map(m => mapFromDb(m))
+
+  override def getLastModelServiceByModelNameAndVersion(modelName: String, modelVersion: String): Future[Option[ModelService]] =
+    db.run(
+      Tables.ModelService
+        .joinLeft(Tables.ModelRuntime)
+        .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.RuntimeType)
+        .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
+        .filter({ case ((ms, mr), rt) => mr.flatMap(_.modelname) === modelName && mr.flatMap(_.modelversion) === modelVersion})
+        .result.headOption
+    ).map(m => mapFromDb(m))
 }
 
 object ModelServiceRepositoryImpl {
