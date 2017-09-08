@@ -31,7 +31,7 @@ cat <<EOF >> /etc/prometheus/prometheus.yml
         replacement: $MANAGER_HOST:$MANAGER_PORT
 EOF
 
-while true; do wget -q http://$MANAGER_HOST:$MANAGER_PORT/v1/prometheus/services -O /var/targets/allServices.json; sleep 10; done &
+while true; do curl http://$MANAGER_HOST:$MANAGER_PORT/v1/prometheus/services > /var/targets/allServices.json; sleep 10; done &
 exec /bin/prometheus -config.file=/etc/prometheus/prometheus.yml \
                 -storage.local.path=/prometheus \
                 -web.console.libraries=/usr/share/prometheus/console_libraries \
