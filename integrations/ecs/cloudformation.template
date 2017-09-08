@@ -64,6 +64,10 @@
         "Ref": "AWS::Region"
       }
     },
+    "managerAlbDNSName": {
+      "Description": "DNS name",
+      "Value": {"Fn::GetAtt" : ["managerLoadBalancer", "DNSName"]}
+    },
     "cloudWatchLogsGroupName": {
       "Description": "Name of the CloudWatch Logs Group",
       "Value": {
@@ -306,6 +310,50 @@
       "Type": "AWS::EC2::SubnetRouteTableAssociation"
     },
 
+    "managerServiceRole":{
+      "Type": "AWS::IAM::Role",
+      "Properties":{
+        "Policies":[
+          {
+            "PolicyName": {"Fn::Join":["-",[{"Ref": "AWS::StackName"},"managerServiceRole"]]},
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [{
+                "Effect": "Allow",
+                "Action": [
+                  "ec2:AuthorizeSecurityGroupIngress",
+                  "ec2:Describe*",
+                  "elasticloadbalancing:DeregisterInstancesFromLoadBalancer",
+                  "elasticloadbalancing:Describe*",
+                  "elasticloadbalancing:RegisterInstancesWithLoadBalancer",
+                  "elasticloadbalancing:DeregisterTargets",
+                  "elasticloadbalancing:DescribeTargetGroups",
+                  "elasticloadbalancing:DescribeTargetHealth",
+                  "elasticloadbalancing:RegisterTargets"
+                ],
+                "Resource": "*"
+              }]
+            }
+          }
+        ],
+        "AssumeRolePolicyDocument":{
+          "Statement":[
+            {
+              "Effect":"Allow",
+              "Principal":{
+                "Service":[
+                  "ecs.amazonaws.com"
+                ]
+              },
+              "Action":[
+                "sts:AssumeRole"
+              ]
+            }
+          ]
+        },
+        "Path":"/"
+      }
+    },
     "managerTaskRole": {
       "Type": "AWS::IAM::Role",
       "Properties":{
@@ -325,19 +373,19 @@
                   ]
                 },
                 {
-                  "Action": "ec2:Describe*",
+                  "Action": "ec2:*",
                   "Effect": "Allow",
-                  "Resource": {"Fn::Join":[":",["arn:aws:ec2",{ "Ref" : "AWS::Region" },{ "Ref" : "AWS::AccountId" },"instance/*"]]}
+                  "Resource": "*"
                 },
                 {
                   "Action": "ecr:*",
                   "Effect": "Allow",
-                  "Resource": {"Fn::Join":[":",["arn:aws:ecr",{ "Ref" : "AWS::Region" },{ "Ref" : "AWS::AccountId" },"repository/*"]]}
+                  "Resource": "*"
                 },
                 {
                   "Action": "ecs:*",
                   "Effect": "Allow",
-                  "Resource": {"Fn::Join":[":",["arn:aws:ecs",{ "Ref" : "AWS::Region" },{ "Ref" : "AWS::AccountId" },"*"]]}
+                  "Resource": "*"
                 },
                 {
                   "Effect": "Allow",
@@ -369,7 +417,9 @@
               "Effect":"Allow",
               "Principal":{
                 "Service":[
-                  "ecs.amazonaws.com"
+                  "ecs.amazonaws.com",
+                  "ec2.amazonaws.com",
+                  "ecs-tasks.amazonaws.com"
                 ]
               },
               "Action":[
@@ -494,13 +544,14 @@
         "DesiredCount": 1,
         "LoadBalancers": [
           {
-            "ContainerName": "hydro-serving_-20",
+            "ContainerName": "manager",
             "ContainerPort": 8080,
             "TargetGroupArn": {
               "Ref": "managerTargetGroup"
             }
           }
         ],
+        "Role":{"Ref":"managerServiceRole"},
         "TaskDefinition": {
           "Ref": "managerTaskDefinition"
         }
@@ -655,7 +706,6 @@
       "Type" : "AWS::SQS::QueuePolicy",
       "Properties" : {
         "PolicyDocument" : {
-          "PolicyName": {"Fn::Join":["-",[{"Ref": "AWS::StackName"},"model-updates-sqs-policy"]]},
           "Version" : "2012-10-17",
           "Statement" : [{
             "Sid" : "Allow-S3-SendMessage",
@@ -665,7 +715,7 @@
             "Resource" : {"Fn::GetAtt" : ["modelsUpdatesQueue", "Arn"]},
             "Condition": {
               "ArnLike": {
-                "aws:SourceArn": [{"Fn::Join": [ "", ["arn:aws:s3:::", {"Fn::Join":["-",[{"Ref": "AWS::StackName"},"models"]]} ] ]}]
+                "aws:SourceArn": [{"Fn::Join": [ "", ["arn:aws:s3:*:*:", {"Fn::Join":["-",[{"Ref": "AWS::StackName"},"models"]]} ] ]}]
               }
             }
           }]
@@ -802,7 +852,8 @@
               "Effect": "Allow",
               "Principal": {
                 "Service": [
-                  "ec2.amazonaws.com"
+                  "ec2.amazonaws.com",
+                  "ecs.amazonaws.com"
                 ]
               }
             }
