@@ -110,6 +110,8 @@ trait ModelManagementService {
 
   def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelRuntime]
 
+  def buildModel(modelName: String, modelVersion: Option[String]): Future[ModelRuntime]
+
   def allRuntimeTypes(): Future[Seq[RuntimeType]]
 
   def allModels(): Future[Seq[Model]]
@@ -205,38 +207,42 @@ class ModelManagementServiceImpl(
   override def lastModelBuildsByModel(id: Long, maximum: Int): Future[Seq[ModelBuild]] =
     modelBuildRepository.lastByModelId(id, maximum)
 
+  private def buildNewModelVersion(model: Model, modelVersion: Option[String]): Future[ModelRuntime] = {
+    fetchLastModelVersion(model.id, modelVersion).flatMap({ version =>
+      fetchScriptForRuntime(model.runtimeType).flatMap({ script =>
+        modelBuildRepository.create(ModelBuild(
+          id = 0,
+          model = model,
+          modelVersion = version,
+          started = LocalDateTime.now(),
+          finished = None,
+          status = ModelBuildStatus.STARTED,
+          statusText = None,
+          logsUrl = None,
+          modelRuntime = None
+        )).flatMap({ modelBuid =>
+          buildModelRuntime(modelBuid, script).transform(
+            runtime => {
+              modelBuildRepository.finishBuild(modelBuid.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(runtime))
+              runtime
+            },
+            ex => {
+              logger.error(ex.getMessage, ex)
+              modelBuildRepository.finishBuild(modelBuid.id, ModelBuildStatus.ERROR, ex.getMessage, LocalDateTime.now(), None)
+              ex
+            }
+          )
+        })
+      })
+    })
+  }
+
   override def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelRuntime] =
     modelRepository.get(modelId)
       .flatMap({
         case None => throw new IllegalArgumentException(s"Can't find Model with id $modelId")
         case Some(model) =>
-          fetchLastModelVersion(modelId, modelVersion).flatMap({ version =>
-            fetchScriptForRuntime(model.runtimeType).flatMap({ script =>
-              modelBuildRepository.create(ModelBuild(
-                id = 0,
-                model = model,
-                modelVersion = version,
-                started = LocalDateTime.now(),
-                finished = None,
-                status = ModelBuildStatus.STARTED,
-                statusText = None,
-                logsUrl = None,
-                modelRuntime = None
-              )).flatMap({ modelBuid =>
-                buildModelRuntime(modelBuid, script).transform(
-                  runtime => {
-                    modelBuildRepository.finishBuild(modelBuid.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(runtime))
-                    runtime
-                  },
-                  ex => {
-                    logger.error(ex.getMessage, ex)
-                    modelBuildRepository.finishBuild(modelBuid.id, ModelBuildStatus.ERROR, ex.getMessage, LocalDateTime.now(), None)
-                    ex
-                  }
-                )
-              })
-            })
-          })
+          buildNewModelVersion(model, modelVersion)
       })
 
   private def fetchScriptForRuntime(runtimeType: Option[RuntimeType]): Future[String] = {
@@ -285,7 +291,10 @@ class ModelManagementServiceImpl(
 
   private def fetchLastModelVersion(modelId: Long, modelVersion: Option[String]): Future[String] = {
     modelVersion match {
-      case Some(x) => Future.successful(x)
+      case Some(x) => modelRuntimeRepository.modelRuntimeByModelAndVersion(modelId, x).map {
+        case None => x
+        case _ => throw new IllegalArgumentException("You already have such version")
+      }
       case _ => modelRuntimeRepository.lastModelRuntimeByModel(modelId, 1)
         .map(se => se.headOption match {
           case None => "0.0.1"
@@ -327,7 +336,7 @@ class ModelManagementServiceImpl(
   }
 
   def deleteModel(modelName: String): Future[Model] = {
-    modelRepository.get(modelName).flatMap{
+    modelRepository.get(modelName).flatMap {
       case Some(model) =>
         modelFilesRepository.deleteModelFiles(model.id)
         modelRepository.delete(model.id)
@@ -398,7 +407,7 @@ class ModelManagementServiceImpl(
   }
 
   def deleteModelFile(fileName: String): Future[Int] = {
-    modelFilesRepository.get(fileName).flatMap{
+    modelFilesRepository.get(fileName).flatMap {
       case Some(modelFile) =>
         modelFilesRepository.delete(modelFile.id)
       case None =>
@@ -407,4 +416,10 @@ class ModelManagementServiceImpl(
     }
   }
 
+  override def buildModel(modelName: String, modelVersion: Option[String]): Future[ModelRuntime] =
+    modelRepository.get(modelName).flatMap({
+      case None => throw new IllegalArgumentException(s"Can't find Model with name $modelName")
+      case Some(model) =>
+        buildNewModelVersion(model, modelVersion)
+    })
 }
