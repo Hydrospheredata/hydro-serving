@@ -31,12 +31,14 @@ class S3SourceWatcher(val source: S3ModelSource) extends SourceWatcher {
         val event = info.eventName.split(':').head match {
           case "ObjectRemoved" =>
             log.debug(s"ObjectRemoved: ${info.objKey}")
-            source.deleteProxyObject(info.objKey)
             if (info.objKey.endsWith("/")) {
-              source.cacheSource.getAllFiles(info.objKey).map{ f =>
-                FileDeleted(source, f)
+              val files = source.cacheSource.getAllFiles(info.objKey).map{ f =>
+                FileDeleted(source, info.objKey + f)
               }
+              source.deleteProxyObject(info.objKey)
+              files
             } else {
+              source.deleteProxyObject(info.objKey)
               List(FileDeleted(source, info.objKey))
             }
           case "ObjectCreated" =>

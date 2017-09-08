@@ -9,7 +9,7 @@ trait ModelFilesRepository extends BaseRepository[ModelFile, Long] {
 
   def get(filePath: String): Future[Option[ModelFile]]
 
-  def update(modelFile: ModelFile): Future[ModelFile]
+  def update(modelFile: ModelFile): Future[Int]
 
-  def modelFiles(modelId: Long): List[ModelFile]
+  def modelFiles(modelId: Long): Future[List[ModelFile]]
 }
