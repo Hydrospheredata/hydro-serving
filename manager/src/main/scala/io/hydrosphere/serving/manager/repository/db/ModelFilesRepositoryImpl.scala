@@ -27,11 +27,23 @@ class ModelFilesRepositoryImpl(databaseService: DatabaseService)(implicit execut
 
   override def get(id: Long): Future[Option[ModelFile]] = ???
 
-  override def delete(id: Long): Future[Int] = ???
+  override def delete(id: Long): Future[Int] =
+    db.run(
+      Tables.ModelFiles
+        .filter(_.fileId === id)
+        .delete
+    )
 
   override def all(): Future[Seq[ModelFile]] = ???
 
-  override def modelFiles(modelId: Long): List[ModelFile] = ???
+  override def modelFiles(modelId: Long): Future[List[ModelFile]] =
+    db.run(
+      Tables.ModelFiles
+        .filter(_.modelId === modelId)
+        .join(Tables.Model)
+        .on({case (mfid, mid) => mid.modelId === mfid.modelId})
+        .result
+    ).map(mapFromDb)
 
   override def get(filePath: String): Future[Option[ModelFile]] =
     db.run(
@@ -43,7 +55,26 @@ class ModelFilesRepositoryImpl(databaseService: DatabaseService)(implicit execut
         .headOption
     ).map(mapFromDb)
 
-  override def update(modelFile: ModelFile): Future[ModelFile] = ???
+  override def update(modelFile: ModelFile): Future[Int] = {
+    val query = for {
+      modelFiles <- Tables.ModelFiles if modelFiles.fileId === modelFile.id
+    } yield (
+      modelFiles.modelId,
+      modelFiles.filePath,
+      modelFiles.createdAt,
+      modelFiles.updatedAt,
+      modelFiles.hashSum
+    )
+
+    db.run(query.update(
+      modelFile.model.id,
+      modelFile.path,
+      modelFile.createdAt,
+      modelFile.updatedAt,
+      modelFile.hashSum
+    ))
+  }
+
 
   override def deleteModelFiles(modelId: Long): Future[Int] =
     db.run(
@@ -79,6 +110,10 @@ object ModelFilesRepositoryImpl {
 
   def mapFromDb(m: Option[(Tables.ModelFilesRow, Tables.ModelRow)]): Option[ModelFile] = {
     m.map(mapFromDb)
+  }
+
+  def mapFromDb(m: Seq[(Tables.ModelFilesRow, Tables.ModelRow)]): List[ModelFile] = {
+    m.map(mapFromDb).toList
   }
 
 }
