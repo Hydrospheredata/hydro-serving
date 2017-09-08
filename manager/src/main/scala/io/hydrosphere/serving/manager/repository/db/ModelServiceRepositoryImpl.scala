@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager.repository.db
 
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.model._
 import io.hydrosphere.serving.manager.repository.ModelServiceRepository
 import org.apache.logging.log4j.scala.Logging
 
@@ -105,6 +106,28 @@ class ModelServiceRepositoryImpl(databaseService: DatabaseService)(implicit exec
         .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
         .filter({ case ((ms, mr), rt) => mr.flatMap(_.runtimeId) inSetBind runtimeIds })
         .result
+    ).map(m => mapFromDb(m))
+
+  override def getLastModelServiceByModelName(modelName: String): Future[Option[ModelService]] =
+    db.run(
+      Tables.ModelService
+        .joinLeft(Tables.ModelRuntime)
+        .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.RuntimeType)
+        .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
+        .filter({ case ((ms, mr), rt) => mr.flatMap(_.modelname) === modelName })
+        .result.headOption
+    ).map(m => mapFromDb(m))
+
+  override def getLastModelServiceByModelNameAndVersion(modelName: String, modelVersion: String): Future[Option[ModelService]] =
+    db.run(
+      Tables.ModelService
+        .joinLeft(Tables.ModelRuntime)
+        .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.RuntimeType)
+        .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
+        .filter({ case ((ms, mr), rt) => mr.flatMap(_.modelname) === modelName && mr.flatMap(_.modelversion) === modelVersion})
+        .result.headOption
     ).map(m => mapFromDb(m))
 }
 

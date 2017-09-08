@@ -2,8 +2,9 @@ package io.hydrosphere.serving.manager.service.envoy
 
 import java.util.UUID
 
-import io.hydrosphere.serving.manager.model.{ModelService, ModelServiceInstance}
+import io.hydrosphere.serving.manager.model.ModelServiceInstance
 import io.hydrosphere.serving.manager.service.{RuntimeManagementService, ServingManagementService}
+import io.hydrosphere.serving.model.ModelService
 import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.mutable
@@ -167,7 +168,7 @@ class EnvoyManagementServiceImpl(
       runtimeManagementService.instancesForService(serviceId).flatMap(instancesSame => {
         runtimeManagementService.allServices().flatMap(services => {
           val modelService = servOp.get
-          val containerInstance = instancesSame.find(p => p.instanceId == containerId)
+          val containerInstance = instancesSame.find(p => p.serviceId == serviceId)
           if (containerInstance.isEmpty) {
             Future.successful(EnvoyClusterConfig(Seq()))
           } else {

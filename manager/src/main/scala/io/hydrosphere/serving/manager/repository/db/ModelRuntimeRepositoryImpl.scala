@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.repository.db
 
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model.{ModelRuntime, RuntimeType}
+import io.hydrosphere.serving.model.{ModelRuntime, RuntimeType}
 import io.hydrosphere.serving.manager.repository.ModelRuntimeRepository
 import org.apache.logging.log4j.scala.Logging
 
@@ -80,6 +80,17 @@ class ModelRuntimeRepositoryImpl(databaseService: DatabaseService)(implicit exec
         .sortBy(_._1.runtimeId.desc)
         .distinctOn(_._1.modelId.get)
         .result
+    ).map(s => mapFromDb(s))
+
+  override def modelRuntimeByModelAndVersion(modelId: Long, version: String): Future[Option[ModelRuntime]] =
+    db.run(
+      Tables.ModelRuntime
+        .filter(r=> r.modelId ===  modelId && r.modelversion === version)
+        .joinLeft(Tables.RuntimeType)
+        .on({ case (m, rt) => m.runtimeTypeId === rt.runtimeTypeId })
+        .sortBy(_._1.runtimeId.desc)
+        .distinctOn(_._1.modelId.get)
+        .result.headOption
     ).map(s => mapFromDb(s))
 }
 

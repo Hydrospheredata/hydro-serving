@@ -1,11 +1,10 @@
 package io.hydrosphere.serving.manager.service
 
-import akka.http.scaladsl.model.HttpHeader
-import io.hydrosphere.serving.manager.model.{ModelRuntime, ModelService, ModelServiceInstance, UnknownModelRuntime}
+import io.hydrosphere.serving.manager.model.{ModelServiceInstance, UnknownModelRuntime}
+import io.hydrosphere.serving.model.{ModelRuntime, ModelService}
 import io.hydrosphere.serving.manager.repository.{ModelRuntimeRepository, ModelServiceRepository}
 import io.hydrosphere.serving.manager.service.clouddriver.{RuntimeDeployService, ServiceInfo}
 
-import scala.collection.immutable
 import scala.concurrent.{ExecutionContext, Future}
 
 case class CreateModelServiceRequest(
@@ -39,6 +38,8 @@ trait RuntimeManagementService {
   def addService(r: CreateModelServiceRequest): Future[ModelService]
 
   def allServices(): Future[Seq[ModelService]]
+
+  def servicesByIds(ids: Seq[Long]): Future[Seq[ModelService]]
 
   def getService(serviceId: Long): Future[Option[ModelService]]
 
@@ -93,8 +94,8 @@ class RuntimeManagementServiceImpl(
     //if(r.serviceName) throw new IllegalArgumentException
     //TODO ADD validation for names manager,gateway + length + without space and special symbols
     modelRuntimeRepository.get(r.modelRuntimeId).flatMap({
-      case None=>throw new IllegalArgumentException(s"Can't find ModelRuntime with id=${r.modelRuntimeId}")
-      case runtime=>modelServiceRepository.create(r.toModelService(runtime.get)).flatMap(s =>
+      case None => throw new IllegalArgumentException(s"Can't find ModelRuntime with id=${r.modelRuntimeId}")
+      case runtime => modelServiceRepository.create(r.toModelService(runtime.get)).flatMap(s =>
         Future(
           s.copy(cloudDriverId = Some(runtimeDeployService.deploy(s)))
         ).flatMap(service =>
@@ -138,5 +139,9 @@ class RuntimeManagementServiceImpl(
   override def deleteService(serviceId: Long): Future[Unit] =
     Future(runtimeDeployService.deleteService(serviceId))
       .flatMap(p => modelServiceRepository.delete(serviceId).map(p => Unit))
-  
+
+  //TODO Optimize - fetch special services instead of all
+  override def servicesByIds(ids: Seq[Long]): Future[Seq[ModelService]] =
+    allServices().flatMap(s =>
+      Future.successful(s.filter(service => ids.contains(service.serviceId))))
 }
