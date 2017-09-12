@@ -13,7 +13,7 @@
         <Logger name="slick" level="INFO" additivity="false">
             <AppenderRef ref="Console"/>
         </Logger>
-        <Logger name="io.hydrosphere.serving" level="DEBUG" additivity="false">
+        <Logger name="io.hydrosphere.serving" level="INFO" additivity="false">
             <AppenderRef ref="Console"/>
         </Logger>
     </Loggers>
