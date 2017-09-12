@@ -226,7 +226,7 @@ class EcsRuntimeDeployService(
             ))
           } catch {
             case ex: Throwable =>
-              logger.error(s"Can't map container $container", ex)
+              logger.debug(s"Can't map container $container", ex)
               None
           }
         }).filter(o => o.nonEmpty).flatten

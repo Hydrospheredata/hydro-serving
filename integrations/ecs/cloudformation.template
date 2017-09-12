@@ -610,6 +610,17 @@
       },
       "Type": "AWS::EC2::SecurityGroup"
     },
+
+    "instancesSecurityGroupIngress" : {
+      "Type" : "AWS::EC2::SecurityGroupIngress",
+      "Properties" : {
+        "GroupName" : { "Ref" : "instancesSecurityGroup" },
+        "IpProtocol" : "tcp",
+        "ToPort" : "0",
+        "FromPort" : "65535",
+        "SourceSecurityGroupName" : { "Ref" : "instancesSecurityGroup" }
+      }
+    },
     "databaseDBSecurityGroup": {
       "Type": "AWS::RDS::DBSecurityGroup",
       "Properties": {

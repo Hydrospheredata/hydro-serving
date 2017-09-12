@@ -54,10 +54,12 @@ class ManagerServices(
   )
 
   val runtimeDeployService: RuntimeDeployService = managerConfiguration.cloudDriver match {
-    case c: SwarmCloudDriverConfiguration => new SwarmRuntimeDeployService(dockerClient, managerConfiguration)
-    case c: DockerCloudDriverConfiguration => new DockerRuntimeDeployService(dockerClient, managerConfiguration)
+    case _: SwarmCloudDriverConfiguration => new SwarmRuntimeDeployService(dockerClient, managerConfiguration)
+    case _: DockerCloudDriverConfiguration => new DockerRuntimeDeployService(dockerClient, managerConfiguration)
     //TODO change
-    case c: ECSCloudDriverConfiguration => new EcsRuntimeDeployService(c, managerConfiguration)
+    case c: ECSCloudDriverConfiguration => new CachedProxyRuntimeDeployService(
+      new EcsRuntimeDeployService(c, managerConfiguration)
+    )
   }
 
   val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(
@@ -79,7 +81,7 @@ class ManagerServices(
     servingManagementService
   )
 
-  val envoyAdminConnector=new HttpEnvoyAdminConnector()
+  val envoyAdminConnector = new HttpEnvoyAdminConnector()
 
   val prometheusMetricsService = new PrometheusMetricsServiceImpl(
     runtimeManagementService,
