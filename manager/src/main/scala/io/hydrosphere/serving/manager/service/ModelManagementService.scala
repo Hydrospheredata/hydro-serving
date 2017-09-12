@@ -362,7 +362,7 @@ class ModelManagementServiceImpl(
             runtimeTypeRepository.fetchByNameAndVersion(rt.name, rt.version)
           case None => Future(None)
         }
-        val res = runtime.flatMap{ rt =>
+        val res = runtime.flatMap { rt =>
           modelRepository.update(
             Model(
               model.id,
@@ -373,7 +373,7 @@ class ModelManagementServiceImpl(
               newModel.outputFields,
               newModel.inputFields,
               createdAt,
-              updatedAt
+              LocalDateTime.now()
             ))
         }
         println(s"Model $modelName updated")
@@ -390,7 +390,7 @@ class ModelManagementServiceImpl(
           modelMetadata.outputFields,
           modelMetadata.inputFields,
           createdAt,
-          updatedAt
+          LocalDateTime.now()
         )
         println(s"Detected model ${model.name}. Adding to db...")
         addModel(model)
@@ -416,7 +416,9 @@ class ModelManagementServiceImpl(
           modelFile.createdAt,
           modelFile.updatedAt
         )
-        modelFilesRepository.update(newFile)
+        modelFilesRepository.update(newFile).flatMap(_ =>
+          modelRepository.updateLastUpdatedTime(modelFile.model.id, LocalDateTime.now()))
+
       case None =>
         createFileForModel(source, fileName, hash, updatedAt, updatedAt)
     }
@@ -430,7 +432,7 @@ class ModelManagementServiceImpl(
         modelFilesRepository
           .delete(modelFile.id)
           .zip(modelFilesRepository.modelFiles(modelId))
-          .map{
+          .map {
             case (i, Nil) =>
               println(s"$fileName is the last file. Deleting model $modelId...")
               modelRepository.delete(modelId)

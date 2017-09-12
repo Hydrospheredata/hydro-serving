@@ -95,6 +95,7 @@ class ModelRepositoryImpl(databaseService: DatabaseService)(implicit executionCo
       models.source,
       models.runtimeTypeId,
       models.description,
+      models.updatedTimestamp,
       models.outputFields,
       models.inputFields
     )
@@ -107,9 +108,18 @@ class ModelRepositoryImpl(databaseService: DatabaseService)(implicit executionCo
         case _ => None
       },
       value.description,
+      value.updated,
       value.outputFields,
       value.inputFields
     ))
+  }
+
+  override def updateLastUpdatedTime(modelId: Long, timestamp: LocalDateTime): Future[Int] = {
+    val query = for {
+      models <- Tables.Model if models.modelId === modelId
+    } yield models.updatedTimestamp
+
+    db.run(query.update(timestamp))
   }
 
 }
