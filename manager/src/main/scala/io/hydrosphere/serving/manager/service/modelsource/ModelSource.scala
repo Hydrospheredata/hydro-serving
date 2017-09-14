@@ -22,6 +22,8 @@ trait ModelSource {
   def configuration: ModelSourceConfiguration
 
   def getAbsolutePath(modelSource: String): Path
+
+  def isExist(path: String): Boolean
 }
 
 

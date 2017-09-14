@@ -5,7 +5,7 @@ import java.time.LocalDateTime
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.repository._
-import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
+import io.hydrosphere.serving.manager.service.modelfetcher.{ModelFetcher, ModelMetadata}
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.model._
 import org.apache.logging.log4j.scala.Logging
@@ -117,6 +117,8 @@ trait ModelManagementService {
   def allModels(): Future[Seq[Model]]
 
   def updateModel(entity: CreateOrUpdateModelRequest): Future[Model]
+
+  def updateModel(modelName: String, modelSource: ModelSource): Future[Option[Model]]
 
   def createModel(entity: CreateOrUpdateModelRequest): Future[Model]
 
@@ -349,58 +351,14 @@ class ModelManagementServiceImpl(
   def createFileForModel(source: ModelSource, fileName: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[Int] = {
     val modelName = fileName.split("/").head
     println(s"Creating file $fileName for model $modelName ...")
-    modelRepository.get(modelName).flatMap {
-      case Some(model) =>
-        println(s"Model $modelName exists")
-        println(s"Create db entry $fileName for model $modelName")
+    updateModel(modelName, source).map { model =>
+      model.foreach { m =>
         modelFilesRepository.create(
-          ModelFile(-1, fileName, model, hash, createdAt, updatedAt)
+          ModelFile(-1, fileName, m, hash, createdAt, updatedAt)
         )
-        val newModel = ModelFetcher.getModel(source, modelName)
-        val runtime = newModel.runtimeType match {
-          case Some(rt) =>
-            runtimeTypeRepository.fetchByNameAndVersion(rt.name, rt.version)
-          case None => Future(None)
-        }
-        val res = runtime.flatMap { rt =>
-          modelRepository.update(
-            Model(
-              model.id,
-              newModel.name,
-              s"${source.getSourcePrefix}:${newModel.name}",
-              rt,
-              None,
-              newModel.outputFields,
-              newModel.inputFields,
-              createdAt,
-              LocalDateTime.now()
-            ))
-        }
         println(s"Model $modelName updated")
-        res
-      case None =>
-        println(s"Model $modelName doesn't exist")
-        val modelMetadata = ModelFetcher.getModel(source, modelName)
-        val model = Model(
-          -1,
-          modelMetadata.name,
-          s"${source.getSourcePrefix}:${modelMetadata.name}",
-          modelMetadata.runtimeType,
-          None,
-          modelMetadata.outputFields,
-          modelMetadata.inputFields,
-          createdAt,
-          LocalDateTime.now()
-        )
-        println(s"Detected model ${model.name}. Adding to db...")
-        addModel(model)
-          .map { model =>
-            println(s"Create db entry $fileName for new model $modelName")
-            modelFilesRepository.create(
-              ModelFile(-1, fileName, model, hash, createdAt, updatedAt)
-            )
-            1
-          }
+      }
+      1 // FIXME
     }
   }
 
@@ -453,4 +411,54 @@ class ModelManagementServiceImpl(
       case Some(model) =>
         buildNewModelVersion(model, modelVersion)
     })
+
+  override def updateModel(modelName: String, modelSource: ModelSource): Future[Option[Model]] = {
+    if (modelSource.isExist(modelName)) {
+      // model is updated
+      val modelMetadata = ModelFetcher.getModel(modelSource, modelName)
+      val fRuntime = modelMetadata.runtimeType match {
+        case Some(rt) =>
+          runtimeTypeRepository.fetchByNameAndVersion(rt.name, rt.version)
+        case None => Future(None)
+      }
+      fRuntime.flatMap { rt =>
+        modelRepository.get(modelMetadata.name).flatMap {
+          case Some(oldModel) =>
+            val newModel = Model(
+              oldModel.id,
+              modelMetadata.name,
+              s"${modelSource.getSourcePrefix}:${modelMetadata.name}",
+              rt,
+              None,
+              modelMetadata.outputFields,
+              modelMetadata.inputFields,
+              oldModel.created,
+              LocalDateTime.now()
+            )
+            modelRepository.update(newModel).map(_ => Some(newModel))
+          case None =>
+            val newModel = Model(
+              -1,
+              modelMetadata.name,
+              s"${modelSource.getSourcePrefix}:${modelMetadata.name}",
+              rt,
+              None,
+              modelMetadata.outputFields,
+              modelMetadata.inputFields,
+              LocalDateTime.now(),
+              LocalDateTime.now()
+            )
+            modelRepository.create(newModel).map(x => Some(x))
+        }
+      }
+    } else {
+      // model is deleted
+      modelRepository.get(modelName).map { opt =>
+        opt.map { model =>
+          modelRepository.delete(model.id)
+          model
+        }
+      }
+    }
+  }
 }

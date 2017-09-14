@@ -1,14 +1,13 @@
 package io.hydrosphere.serving.manager.actor
 
-import java.time.LocalDateTime
-import java.util.concurrent.ConcurrentLinkedQueue
+import java.time.{Instant, Duration => JDuration}
 
 import akka.actor.{Actor, ActorLogging, Props}
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.actor.modelsource.SourceWatcher._
 import io.hydrosphere.serving.manager.service.ModelManagementService
 
-import scala.concurrent.Await
+import scala.collection.concurrent.TrieMap
 import scala.concurrent.duration._
 
 class RepositoryActor(val modelManagementService: ModelManagementService) extends Actor with ActorLogging {
@@ -17,49 +16,30 @@ class RepositoryActor(val modelManagementService: ModelManagementService) extend
   implicit private val timeout = Timeout(10.seconds)
   private val timer = context.system.scheduler.schedule(0.seconds, 100.millis, self, Tick)
 
-  private[this] val queue = new ConcurrentLinkedQueue[FileEvent]()
-
-  def processEvents(): Unit = {
-    Option(queue.poll()).foreach{
-      case FileCreated(source, fileName, hash, createdAt) =>
-        println(s"[$source] File creation detected: $fileName")
-        val f = modelManagementService.createFileForModel(source, fileName, hash, createdAt, createdAt)
-        f.onFailure {
-          case ex =>
-            log.error(ex, "Cannot get model for associated file")
-        }
-
-      case FileModified(source, fileName, hash, updatedAt) =>
-        println(s"[$source] File edition detected: $fileName")
-
-        modelManagementService.updateOrCreateModelFile(source, fileName, hash, updatedAt, updatedAt).onFailure {
-          case ex =>
-            log.error(ex, "Cannot get changed file")
-        }
-
-      case FileDeleted(source, fileName) =>
-        println(s"[$source] File deletion detected: $fileName")
-        if (fileName.split('/').length == 1) {
-          modelManagementService.deleteModel(fileName)
-        } else {
-          modelManagementService.deleteModelFile(fileName)
-        }
-
-      case FileDetected(source, filename, hash) =>
-        println(s"[$source] File detected: $filename")
-        Await.result(
-          modelManagementService.updateOrCreateModelFile(source, filename, hash, LocalDateTime.now(), LocalDateTime.now()),
-          5.minutes
-        )
-    }
-  }
+  // model name -> last event
+  private[this] val queues = TrieMap.empty[String, FileEvent]
 
   override def receive: Receive = {
     case e: FileEvent =>
-      queue.add(e)
+      val modelName = e.filename.split("/").head
+      println(s"[${e.source.getSourcePrefix}] Detected a modification of $modelName model ...")
+      queues += modelName -> e
 
     case Tick =>
-      processEvents()
+      val now = Instant.now()
+      val upgradeable =  queues.toList.filter{
+        case (_, event) =>
+          val diff = JDuration.between(event.timestamp, now)
+          diff.getSeconds > 10 // TODO move to config
+      }
+
+      upgradeable.foreach{
+        case (modelname, event) =>
+          println(s"[${event.source.getSourcePrefix}] Reindexing $modelname ...")
+          queues -= modelname
+          val r = modelManagementService.updateModel(modelname, event.source)
+          r.foreach( x => println(s"$x is updated"))
+      }
   }
 
   final override def postStop(): Unit = {

@@ -1,10 +1,11 @@
 package io.hydrosphere.serving.manager.actor.modelsource
 
-import java.time.LocalDateTime
+import java.time.{Instant, LocalDateTime}
 
 import akka.actor.{Actor, ActorLogging, Props}
 import akka.util.Timeout
 import com.google.common.hash.Hashing
+import io.hydrosphere.serving.manager.actor.{FileDetected, FileEvent}
 import io.hydrosphere.serving.manager.actor.modelsource.SourceWatcher._
 import io.hydrosphere.serving.manager.service.modelsource.{LocalModelSource, ModelSource, S3ModelSource}
 
@@ -50,7 +51,7 @@ trait SourceWatcher extends Actor with ActorLogging {
       .map(f => f -> source.getReadableFile(f))
       .map{ case (fileName, file) =>
         val hash = com.google.common.io.Files.asByteSource(file).hash(Hashing.sha256()).toString
-        FileDetected(source, fileName, hash)
+        new FileDetected(source, fileName, Instant.now(), hash)
       }
       .foreach(context.system.eventStream.publish)
 
@@ -65,12 +66,6 @@ trait SourceWatcher extends Actor with ActorLogging {
 
 object SourceWatcher {
   case object Tick
-
-  trait FileEvent
-  case class FileDetected(source: ModelSource, filename: String, hash: String) extends FileEvent
-  case class FileDeleted(source: ModelSource, fileName: String) extends FileEvent
-  case class FileCreated(source: ModelSource, fileName: String, hash: String, createdAt: LocalDateTime) extends FileEvent
-  case class FileModified(source: ModelSource, fileName: String, hash: String, updatedAt: LocalDateTime) extends FileEvent
 
   def props(modelSource: ModelSource): Props = {
     modelSource match {

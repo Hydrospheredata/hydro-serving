@@ -21,6 +21,7 @@ object ModelFetcher extends Logging {
   )
 
   def getModel(source: ModelSource, folder: String): ModelMetadata = {
+    source.getAllFiles(folder)
     val res = fetchers
       .map(_.fetch(source, folder))
 
