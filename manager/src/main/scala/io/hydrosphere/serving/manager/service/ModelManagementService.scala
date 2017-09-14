@@ -105,6 +105,7 @@ case class UpdateModelRuntime(
 
 //TODO split service
 trait ModelManagementService {
+
   def createRuntimeType(entity: CreateRuntimeTypeRequest): Future[RuntimeType]
 
   def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelRuntime]
@@ -373,7 +374,9 @@ class ModelManagementServiceImpl(
           modelFile.createdAt,
           modelFile.updatedAt
         )
-        modelFilesRepository.update(newFile)
+        modelFilesRepository.update(newFile).flatMap(_ =>
+          modelRepository.updateLastUpdatedTime(modelFile.model.id, LocalDateTime.now()))
+
       case None =>
         createFileForModel(source, fileName, hash, updatedAt, updatedAt)
     }

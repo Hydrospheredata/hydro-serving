@@ -16,5 +16,7 @@ trait ModelRepository extends BaseRepository[Model, Long] {
 
   def updateLastUpdatedTime(source: String, timestamp: LocalDateTime): Future[Int]
 
+  def updateLastUpdatedTime(modelId: Long, timestamp: LocalDateTime): Future[Int]
+
   def fetchBySource(source:String):Future[Seq[Model]]
 }

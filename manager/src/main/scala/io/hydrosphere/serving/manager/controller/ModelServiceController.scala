@@ -41,6 +41,21 @@ class ModelServiceController(
     }
   }
 
+  @Path("/fetchByModelId/{modelId}")
+  @ApiOperation(value = "fetchByModelId", notes = "fetchByModelId", nickname = "fetchByModelId", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ModelService", response = classOf[ModelService], responseContainer = "List"),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def fetchByModelId = get {
+    path("api" / "v1" / "modelService" / "fetchByModelId"/ Segment) { modelId =>
+      complete(runtimeManagementService.getServicesByModel(modelId.toLong))
+    }
+  }
+
   @Path("/fetchByIds")
   @ApiOperation(value = "fetchById", notes = "fetchById", nickname = "fetchById", httpMethod = "POST")
   @ApiImplicitParams(Array(
@@ -48,7 +63,7 @@ class ModelServiceController(
       dataTypeClass = classOf[Long], paramType = "body", collectionFormat = "List")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "ModelService", response = classOf[ModelService]),
+    new ApiResponse(code = 200, message = "ModelService", response = classOf[ModelService], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def fetchByIds = path("api" / "v1" / "modelService" / "fetchByIds") {
@@ -199,5 +214,5 @@ class ModelServiceController(
   }
 
   val routes: Route =
-    listAll ~ addService ~ listInstances ~ deleteService ~ getService ~ serveService ~ fetchByIds ~ serveByModelNameService ~ serveByModelNameServiceAndVersion
+    listAll ~ addService ~ listInstances ~ deleteService ~ fetchByModelId ~ getService ~ serveService ~ fetchByIds ~ serveByModelNameService ~ serveByModelNameServiceAndVersion
 }

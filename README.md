@@ -1,6 +1,6 @@
 # Hydro-serving
 
-Hydro Serving is an Machine Learning Serving cluster. 
+Hydro Serving is a Machine Learning Serving cluster. 
 
 Main Features:
 * **Serverless**. It is as easy as AWS Lambda in your data center or VPC. 
