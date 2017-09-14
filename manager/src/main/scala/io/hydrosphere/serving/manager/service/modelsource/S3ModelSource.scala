@@ -124,4 +124,12 @@ class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends Model
     logger.debug(s"getAbsolutePath: $modelSource")
     Paths.get(localFolder, modelSource)
   }
+
+  override def isExist(path: String): Boolean = {
+    if (client.doesObjectExist(configuration.bucket, path)) {
+      true
+    } else {
+      client.listObjects(configuration.bucket, path).getObjectSummaries.nonEmpty
+    }
+  }
 }
