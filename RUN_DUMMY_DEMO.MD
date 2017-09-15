@@ -28,7 +28,7 @@ docker run -e ADVERTISED_MANAGER_HOST=$HOST_IP \
     -p 8080:8080 -p 8082:8082 -p 9090:9090 \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -v ${MODEL_DIRECTORY}:/models \
-    hydro-serving/manager:0.0.1
+    hydrosphere/serving-manager:0.0.1
 ```
 * Run gateway
 ```
@@ -37,7 +37,7 @@ docker run -e MANAGER_HOST=$HOST_IP \
     -e ZIPKIN_ENABLED=true \
     -e ZIPKIN_HOST=$HOST_IP \
     -p 8180:8080 -p 8182:8082 -p 9190:9090 \
-    hydro-serving/gateway:0.0.1
+    hydrosphere/serving-gateway:0.0.1
 ```
 ## Available Resources
 * jdbc:postgresql://localhost:5432/docker - Postgresql

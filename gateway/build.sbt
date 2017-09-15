@@ -3,7 +3,7 @@ name := "gateway"
 enablePlugins(sbtdocker.DockerPlugin)
 
 imageNames in docker := Seq(
-  ImageName(s"hydro-serving/gateway:${version.value}")
+  ImageName(s"hydrosphere/serving-gateway:${version.value}")
 )
 
 dockerfile in docker := {
