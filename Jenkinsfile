@@ -51,7 +51,7 @@ def isReleaseJob() {
 
 def generateTagComment(releaseVersion){
     //jenkinsLastCommit = sh(returnStdout: true, script: "git log --pretty=\"%H\" --author=jenkinsci -1").trim()
-    commitsList=sh(returnStdout: true, script: "git log --pretty=\"%b\n\r (%an)\" -1").trim()
+    commitsList=sh(returnStdout: true, script: "git log --pretty=\"%B\n\r (%an)\" -1").trim()
     return "${commitsList}"
 }
 
