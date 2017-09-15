@@ -79,7 +79,7 @@ lazy val slickCodeGenTask = (sourceManaged, dependencyClasspath in Compile, runn
 
 
 imageNames in docker := Seq(
-  ImageName(s"hydro-serving/manager:${version.value}")
+  ImageName(s"hydrosphere/serving-manager:${version.value}")
 )
 
 dockerfile in docker := {
