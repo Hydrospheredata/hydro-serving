@@ -7,7 +7,7 @@ import akka.http.scaladsl.server.{ExceptionHandler, RejectionHandler, Route}
 import ch.megard.akka.http.cors.scaladsl.CorsDirectives
 import io.hydrosphere.serving.controller.{CommonController, SwaggerDocController}
 import io.hydrosphere.serving.manager.controller.{ModelRuntimeController, _}
-import akka.http.scaladsl.server.Directives._
+import akka.http.scaladsl.server.Directives.{path, _}
 import ch.megard.akka.http.cors.scaladsl.settings.CorsSettings
 import io.hydrosphere.serving.manager.controller.envoy.EnvoyManagementController
 import io.hydrosphere.serving.manager.controller.prometheus.PrometheusMetricsController
@@ -87,16 +87,30 @@ class ManagerApi(managerServices: ManagerServices)
     handleExceptions(commonExceptionHandler) {
       commonController.routes ~
         swaggerController.routes ~
-        runtimeTypeController.routes ~
         modelController.routes ~
         modelRuntimeController.routes ~
         modelServiceController.routes ~
         endpointController.routes ~
         pipelineController.routes ~
-        envoyManagementController.routes ~
-        uiSpecificController.routes ~
         weightedServiceController.routes ~
-        prometheusMetricsController.routes
+        runtimeTypeController.routes ~
+        envoyManagementController.routes ~
+        prometheusMetricsController.routes ~
+        uiSpecificController.routes ~
+        pathPrefix("assets") {
+          path(Segments) { segs =>
+            val path = segs.mkString("/")
+            getFromResource(s"ui/assets/$path")
+          }
+        } ~
+        path(Segments) { segs =>
+          if(segs.size==1 && segs.head.endsWith("bundle.js")){
+            val path = segs.mkString("/")
+            getFromResource(s"ui/$path")
+          }else{
+            getFromResource("ui/index.html")
+          }
+        }
     }
   }
 }

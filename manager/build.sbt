@@ -1,3 +1,4 @@
+import java.io.File
 import java.util
 import java.util.Collections
 
@@ -12,10 +13,27 @@ name := "manager"
 enablePlugins(DockerSpotifyClientPlugin)
 enablePlugins(sbtdocker.DockerPlugin)
 
+lazy val uiVersion="0.0.4"
+
 lazy val dataBaseName = "docker"
 lazy val dataBaseUser = "docker"
 lazy val dataBasePassword = "docker"
 lazy val dataBaseUrl = s"jdbc:postgresql://localhost:5432/$dataBaseName"
+
+lazy val uiDownload = taskKey[Unit]("Download and extract UI")
+
+uiDownload := {
+  val zipFile=new File(s"${baseDirectory.value}/target/ui/release-$uiVersion.zip")
+  val uiArchive=s"https://github.com/Hydrospheredata/hydro-serving-ui/releases/download/$uiVersion/release-$uiVersion.zip"
+  val targetDir=new File(s"${classDirectory.in(Compile).value}/ui")
+
+  IO.delete(targetDir)
+  IO.createDirectory(targetDir)
+  if(!zipFile.exists()){
+    IO.download(new URL(uiArchive), zipFile)
+  }
+  IO.unzip(zipFile, targetDir)
+}
 
 lazy val startDatabase = (sourceManaged, dependencyClasspath in Compile, runner in Compile, streams) map { (dir, cp, r, s) =>
   val cli: DockerClient = DefaultDockerClient.fromEnv().build()
@@ -40,8 +58,8 @@ lazy val startDatabase = (sourceManaged, dependencyClasspath in Compile, runner 
   println(s"starting database...$containerId")
 }
 
-
 compile in Compile <<= (compile in Compile)
+  .dependsOn(uiDownload)
   .dependsOn(slickCodeGenTask)
   .dependsOn(flywayMigrate in migration)
   .dependsOn(startDatabase) map { analysis =>

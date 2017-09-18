@@ -9,13 +9,12 @@ import akka.http.scaladsl.server.Route
   */
 class CommonController {
   val routes: Route = {
-    pathPrefix("swagger") {
-      path(Segments) { segs =>
-        val path=segs.mkString("/")
-        //println(s"!!! ${segs.mkString('/')}")
-        getFromResource(s"swagger/$path")
-      }
-    } ~ path("health") {
+      pathPrefix("swagger") {
+        path(Segments) { segs =>
+          val path = segs.mkString("/")
+          getFromResource(s"swagger/$path")
+        }
+      } ~ path("health") {
       complete {
         "OK"
       }
