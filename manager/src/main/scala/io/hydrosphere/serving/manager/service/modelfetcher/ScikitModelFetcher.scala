@@ -42,7 +42,7 @@ object ScikitModelFetcher extends ModelFetcher with Logging {
       val metadata = getMetadata(source, directory)
       Some(ModelMetadata(
         directory,
-        Some(new SchematicRuntimeType("hydro-serving/runtime-scikit", "0.0.1")),
+        Some(new SchematicRuntimeType("hydrosphere/serving-runtime-scikit", "0.0.1")),
         metadata.outputs,
         metadata.inputs
       ))
