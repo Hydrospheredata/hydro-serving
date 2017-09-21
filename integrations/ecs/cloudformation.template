@@ -612,13 +612,26 @@
     },
 
     "instancesSecurityGroupIngress" : {
-      "Type" : "AWS::EC2::SecurityGroupIngress",
-      "Properties" : {
-        "GroupName" : { "Ref" : "instancesSecurityGroup" },
-        "IpProtocol" : "tcp",
-        "ToPort" : "0",
-        "FromPort" : "65535",
-        "SourceSecurityGroupName" : { "Ref" : "instancesSecurityGroup" }
+      "DependsOn": [
+        "instancesSecurityGroup"
+      ],
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties":{
+        "IpProtocol": "tcp",
+        "FromPort": "0",
+        "ToPort": "65535",
+        "SourceSecurityGroupId": {
+          "Fn::GetAtt": [
+            "instancesSecurityGroup",
+            "GroupId"
+          ]
+        },
+        "GroupId": {
+          "Fn::GetAtt": [
+            "instancesSecurityGroup",
+            "GroupId"
+          ]
+        }
       }
     },
     "databaseDBSecurityGroup": {
