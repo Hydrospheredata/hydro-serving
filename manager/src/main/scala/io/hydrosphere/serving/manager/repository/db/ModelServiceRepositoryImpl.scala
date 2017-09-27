@@ -25,7 +25,10 @@ class ModelServiceRepositoryImpl(databaseService: DatabaseService)(implicit exec
         entity.serviceId,
         entity.serviceName,
         entity.cloudDriverId,
-        entity.modelRuntime.id
+        entity.modelRuntime.id,
+        entity.status,
+        entity.statusText,
+        entity.configParams.map { case (k, v) => s"$k=$v" }.toList
       )
     ).map(s => mapFromDb(s, Some(entity.modelRuntime)))
 
@@ -166,7 +169,11 @@ object ModelServiceRepositoryImpl {
       cloudDriverId = model.cloudDriverId,
       modelRuntime = modelRuntime.getOrElse(throw new RuntimeException("Can't find ModelRuntime for service")),
       status = model.status,
-      statusText = model.statustext
+      statusText = model.statustext,
+      configParams = model.configParams.map(s => {
+        val arr = s.split('=')
+        arr.head -> arr.drop(1).mkString("=")
+      }).toMap
     )
   }
 }

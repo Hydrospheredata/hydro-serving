@@ -4,14 +4,15 @@ CREATE TABLE hydro_serving.runtime_type
   name            TEXT    NOT NULL,
   version         TEXT    NOT NULL,
   tags            TEXT [] NOT NULL,
+  config_params   TEXT [] NOT NULL,
   CONSTRAINT runtime_type_name_version_unique UNIQUE (name, version)
 );
 
-INSERT INTO hydro_serving.runtime_type (name, version, tags) VALUES
-  ('hydrosphere/serving-runtime-dummy', '0.0.1', '{"python","code","test"}'),
-  ('hydrosphere/serving-runtime-tensorflow', '0.0.1', '{"tensorflow","python","ml"}'),
-  ('hydrosphere/serving-runtime-sparklocal', '0.0.1', '{"spark","scala","ml"}'),
-  ('hydrosphere/serving-runtime-scikit', '0.0.1', '{"scikit","scikit","ml"}');
+INSERT INTO hydro_serving.runtime_type (name, version, tags, config_params) VALUES
+  ('hydrosphere/serving-runtime-dummy', '0.0.1', '{"python","code","test"}', '{}'),
+  ('hydrosphere/serving-runtime-tensorflow', '0.0.1', '{"tensorflow","python","ml"}', '{}'),
+  ('hydrosphere/serving-runtime-sparklocal', '0.0.1', '{"spark","scala","ml"}', '{}'),
+  ('hydrosphere/serving-runtime-scikit', '0.0.1', '{"scikit","scikit","ml"}', '{}');
 
 CREATE TABLE hydro_serving.model
 (
@@ -40,7 +41,9 @@ CREATE TABLE hydro_serving.model_runtime
   image_name        TEXT                        NOT NULL,
   image_tag         TEXT                        NOT NULL,
   image_md5_tag     TEXT                        NOT NULL,
-  model_id          BIGINT REFERENCES model (model_id)
+  model_id          BIGINT REFERENCES model (model_id),
+  tags            TEXT [] NOT NULL,
+  config_params   TEXT [] NOT NULL
 );
 
 CREATE TABLE hydro_serving.model_build
@@ -63,14 +66,16 @@ CREATE TABLE hydro_serving.model_service
   cloud_driver_id TEXT,
   runtime_id      BIGINT REFERENCES model_runtime (runtime_id) NOT NULL,
   status          TEXT,
-  statusText      TEXT
+  statusText      TEXT,
+  config_params   TEXT [] NOT NULL
 );
 
 CREATE TABLE hydro_serving.weighted_service
 (
   id           BIGSERIAL PRIMARY KEY,
-  service_name TEXT    NOT NULL UNIQUE,
-  weights   TEXT [] NOT NULL
+  service_name TEXT      NOT NULL UNIQUE,
+  weights      TEXT []   NOT NULL,
+  inputs_list  BIGINT [] NOT NULL
 );
 
 

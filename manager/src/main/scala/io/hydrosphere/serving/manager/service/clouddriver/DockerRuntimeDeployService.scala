@@ -1,8 +1,8 @@
 package io.hydrosphere.serving.manager.service.clouddriver
 
 import java.util
-import java.util.Collections
 
+import com.google.common.collect.ImmutableList
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.{ListContainersParam, RemoveContainerParam}
 import com.spotify.docker.client.messages._
@@ -30,18 +30,16 @@ class DockerRuntimeDeployService(
 
     val javaLabels = mapAsJavaMap(labels)
 
-    val env = List[String](
-      s"$ENV_HS_SERVICE_ID=${runtime.serviceId}",
-
-      s"$ENV_APP_HTTP_PORT=$DEFAULT_APP_HTTP_PORT",
-      s"$ENV_SIDECAR_HTTP_PORT=$DEFAULT_SIDECAR_HTTP_PORT",
-      s"$ENV_SIDECAR_ADMIN_PORT=$DEFAULT_SIDECAR_ADMIN_PORT",
-
-      s"$ENV_MANAGER_HOST=${managerConfiguration.advertised.advertisedHost}",
-      s"$ENV_MANAGER_PORT=${managerConfiguration.advertised.advertisedPort.toString}",
-      s"$ENV_ZIPKIN_ENABLED=${managerConfiguration.zipkin.enabled.toString}",
-      s"$ENV_ZIPKIN_HOST=${managerConfiguration.zipkin.host}",
-      s"$ENV_ZIPKIN_PORT=${managerConfiguration.zipkin.port.toString}"
+    val envMap = runtime.configParams ++ Map(
+      ENV_HS_SERVICE_ID -> runtime.serviceId,
+      ENV_APP_HTTP_PORT -> DEFAULT_APP_HTTP_PORT,
+      ENV_SIDECAR_HTTP_PORT -> DEFAULT_SIDECAR_HTTP_PORT,
+      ENV_SIDECAR_ADMIN_PORT -> DEFAULT_SIDECAR_ADMIN_PORT,
+      ENV_MANAGER_HOST -> managerConfiguration.advertised.advertisedHost,
+      ENV_MANAGER_PORT -> managerConfiguration.advertised.advertisedPort,
+      ENV_ZIPKIN_ENABLED -> managerConfiguration.zipkin.enabled,
+      ENV_ZIPKIN_HOST -> managerConfiguration.zipkin.host,
+      ENV_ZIPKIN_PORT -> managerConfiguration.zipkin.port
     )
 
     val c = dockerClient.createContainer(ContainerConfig.builder()
@@ -50,7 +48,7 @@ class DockerRuntimeDeployService(
       )
       .image(s"${runtime.modelRuntime.imageName}:${runtime.modelRuntime.imageMD5Tag}")
       .labels(javaLabels)
-      .env(env)
+      .env(envMap.map { case (k, v) => s"$k=$v" }.toList)
       .build())
     dockerClient.startContainer(c.id())
     c.id()
@@ -63,7 +61,8 @@ class DockerRuntimeDeployService(
       name = container.name(),
       cloudDriveId = container.id(),
       status = container.state().status(),
-      statusText = container.state().error()
+      statusText = container.state().error(),
+      configParams = mapEnvironments(container.config().env())
     )
   }
 
@@ -102,15 +101,18 @@ class DockerRuntimeDeployService(
       }).head
   }
 
+  private def mapEnvironments(list: ImmutableList[String]): Map[String, String] =
+    list
+      .map(p => p.split(":"))
+      .filter(arr => arr.length > 1 && arr(0) != null && arr(1) != null)
+      .map(arr => arr(0) -> arr(1)).toMap
+
   private def serviceInstances(criteria: ListContainersParam): Seq[ModelServiceInstance] = {
     val conf = managerConfiguration.cloudDriver.asInstanceOf[DockerCloudDriverConfiguration]
     dockerClient.listContainers(criteria).map(s => {
       try {
         val container = dockerClient.inspectContainer(s.id())
-        val envMap = container.config().env()
-          .map(p => p.split(":"))
-          .filter(arr => arr.length > 1 && arr(0) != null && arr(1) != null)
-          .map(arr => arr(0) -> arr(1)).toMap
+        val envMap = mapEnvironments(container.config().env())
 
         Some(ModelServiceInstance(
           instanceId = container.id(),

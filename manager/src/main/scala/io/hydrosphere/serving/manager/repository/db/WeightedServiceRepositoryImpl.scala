@@ -17,12 +17,15 @@ class WeightedServiceRepositoryImpl(databaseService: DatabaseService)(implicit e
   import databaseService.driver.api._
   import WeightedServiceRepositoryImpl.mapFromDb
 
-  private def mapWeights(l:List[ServiceWeight]):List[String]= l.map(s => s"${s.serviceId}:${s.weight}")
+  private def mapWeights(l: List[ServiceWeight]): List[String] = l.map(s => s"${s.serviceId}:${s.weight}")
 
   override def create(entity: WeightedService): Future[WeightedService] =
     db.run(
       Tables.WeightedService returning Tables.WeightedService += Tables.WeightedServiceRow(
-        entity.id, entity.serviceName, mapWeights(entity.weights)
+        entity.id,
+        entity.serviceName,
+        mapWeights(entity.weights),
+        entity.inputsList.map(v => v.toString)
       )
     ).map(s => mapFromDb(s))
 
@@ -51,12 +54,14 @@ class WeightedServiceRepositoryImpl(databaseService: DatabaseService)(implicit e
       serv <- Tables.WeightedService if serv.id === value.id
     } yield (
       serv.serviceName,
-      serv.weights
+      serv.weights,
+      serv.inputsList
     )
 
     db.run(query.update(
       value.serviceName,
-      mapWeights(value.weights)
+      mapWeights(value.weights),
+      value.inputsList.map(v => v.toString)
     ))
   }
 }
@@ -79,7 +84,8 @@ object WeightedServiceRepositoryImpl {
           serviceId = arr(0).toLong,
           weight = arr(1).toInt
         )
-      })
+      }),
+      inputsList = dbType.inputsList.map(v => v.toLong)
     )
   }
 }

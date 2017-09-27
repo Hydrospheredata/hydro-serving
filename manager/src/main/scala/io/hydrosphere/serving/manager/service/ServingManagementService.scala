@@ -21,7 +21,8 @@ case class WeightedServiceCreateOrUpdateRequest(
     WeightedService(
       id = this.id.getOrElse(0),
       serviceName = this.serviceName,
-      weights = this.weights
+      weights = this.weights,
+      inputsList = List()
     )
   }
 }
