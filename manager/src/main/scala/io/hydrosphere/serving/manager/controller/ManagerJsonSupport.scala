@@ -22,13 +22,13 @@ trait ManagerJsonSupport extends CommonJsonSupport {
 
   implicit val createEndpointRequest = jsonFormat2(CreateEndpointRequest)
 
-  implicit val createModelServiceRequest = jsonFormat2(CreateModelServiceRequest)
+  implicit val createModelServiceRequest = jsonFormat3(CreateModelServiceRequest)
 
-  implicit val createRuntimeTypeRequest = jsonFormat3(CreateRuntimeTypeRequest)
+  implicit val createRuntimeTypeRequest = jsonFormat4(CreateRuntimeTypeRequest)
 
   implicit val createOrUpdateModelRequest = jsonFormat7(CreateOrUpdateModelRequest)
 
-  implicit val createModelRuntime = jsonFormat10(CreateModelRuntime)
+  implicit val createModelRuntime = jsonFormat12(CreateModelRuntime)
 
   implicit val updateModelRuntime = jsonFormat7(UpdateModelRuntime)
 

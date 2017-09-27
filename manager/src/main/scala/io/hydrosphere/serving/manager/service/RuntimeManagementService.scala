@@ -9,7 +9,8 @@ import scala.concurrent.{ExecutionContext, Future}
 
 case class CreateModelServiceRequest(
   serviceName: String,
-  modelRuntimeId: Long
+  modelRuntimeId: Long,
+  configParams: Option[Map[String, String]]
 ) {
   def toModelService(runtime: ModelRuntime): ModelService = {
     ModelService(
@@ -18,7 +19,8 @@ case class CreateModelServiceRequest(
       cloudDriverId = None,
       modelRuntime = runtime,
       status = None,
-      statusText = None
+      statusText = None,
+      configParams = runtime.configParams ++ this.configParams.getOrElse(Map())
     )
   }
 }
@@ -66,26 +68,27 @@ class RuntimeManagementServiceImpl(
     serviceInfoList.map(info => {
       info.id match {
         case MANAGER_ID =>
-          this.mapServiceInfo(info, MANAGER_NAME)
+          this.mapServiceInfo(info, MANAGER_NAME, Map())
         case GATEWAY_ID =>
-          this.mapServiceInfo(info, GATEWAY_NAME)
+          this.mapServiceInfo(info, GATEWAY_NAME, Map())
         case _ =>
           seqInDatabase.find(s => s.serviceId == info.id) match {
-            case Some(s) => s
-            case None => this.mapServiceInfo(info, info.name)
+            case Some(s) => s.copy(configParams = s.configParams ++ info.configParams)
+            case None => this.mapServiceInfo(info, info.name, Map())
           }
       }
     })
   }
 
-  private def mapServiceInfo(info: ServiceInfo, serviceName: String): ModelService =
+  private def mapServiceInfo(info: ServiceInfo, serviceName: String, configs: Map[String, String]): ModelService =
     ModelService(
       serviceId = info.id,
       serviceName = serviceName,
       cloudDriverId = Some(info.cloudDriveId),
       modelRuntime = new UnknownModelRuntime,
       status = Some(info.status),
-      statusText = Some(info.status)
+      statusText = Some(info.status),
+      configParams = configs ++ info.configParams
     )
 
   override def instancesForService(serviceId: Long): Future[Seq[ModelServiceInstance]] =
@@ -126,9 +129,9 @@ class RuntimeManagementServiceImpl(
         val info = opt.getOrElse(throw new IllegalArgumentException(s"Can't find service with id $serviceId"))
         info.id match {
           case MANAGER_ID =>
-            Future.successful(Some(this.mapServiceInfo(info, MANAGER_NAME)))
+            Future.successful(Some(this.mapServiceInfo(info, MANAGER_NAME, Map())))
           case GATEWAY_ID =>
-            Future.successful(Some(this.mapServiceInfo(info, GATEWAY_NAME)))
+            Future.successful(Some(this.mapServiceInfo(info, GATEWAY_NAME, Map())))
           case _ =>
             modelServiceRepository.get(serviceId).map({
               case Some(service) =>

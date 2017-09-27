@@ -16,14 +16,16 @@ import scala.util.{Failure, Success, Try}
 case class CreateRuntimeTypeRequest(
   name: String,
   version: String,
-  tags: Option[List[String]]
+  tags: Option[List[String]],
+  configParams: Option[Map[String, String]]
 ) {
   def toRuntimeType: RuntimeType = {
     RuntimeType(
       id = 0,
       name = this.name,
       version = this.version,
-      tags = this.tags.getOrElse(List())
+      tags = this.tags.getOrElse(List()),
+      configParams = this.configParams.getOrElse(Map())
     )
   }
 }
@@ -73,7 +75,9 @@ case class CreateModelRuntime(
   runtimeTypeId: Option[Long],
   outputFields: Option[List[String]],
   inputFields: Option[List[String]],
-  modelId: Option[Long]
+  modelId: Option[Long],
+  tags: Option[List[String]],
+  configParams: Option[Map[String, String]]
 ) {
   def toModelRuntime(runtimeType: Option[RuntimeType]): ModelRuntime = {
     ModelRuntime(
@@ -88,7 +92,9 @@ case class CreateModelRuntime(
       outputFields = this.outputFields.getOrElse(List()),
       inputFields = this.inputFields.getOrElse(List()),
       created = LocalDateTime.now(),
-      modelId = this.modelId
+      modelId = this.modelId,
+      tags = runtimeType.map(r => r.tags).getOrElse(this.tags.getOrElse(List())),
+      configParams = runtimeType.map(r => r.configParams).getOrElse(this.configParams.getOrElse(Map()))
     )
   }
 }
@@ -284,7 +290,9 @@ class ModelManagementServiceImpl(
           outputFields = modelBuild.model.outputFields,
           inputFields = modelBuild.model.inputFields,
           created = LocalDateTime.now,
-          modelId = Some(modelBuild.model.id)
+          modelId = Some(modelBuild.model.id),
+          tags = modelBuild.model.runtimeType.map(r => r.tags).getOrElse(List()),
+          configParams = modelBuild.model.runtimeType.map(r => r.configParams).getOrElse(Map())
         )).flatMap(modelRuntime => {
           Future(modelPushService.push(modelRuntime, handler)).map(l => modelRuntime)
         })

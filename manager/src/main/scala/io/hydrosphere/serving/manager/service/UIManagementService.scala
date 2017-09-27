@@ -104,7 +104,8 @@ class UIManagementServiceImpl(
         case Some(x) =>
           runtimeManagementService.addService(CreateModelServiceRequest(
             serviceName = x.modelName,
-            modelRuntimeId = x.id
+            modelRuntimeId = x.id,
+            configParams = None
           )).flatMap(res => {
             waitForContainerStart(res).map(c => res)
           })
@@ -126,7 +127,8 @@ class UIManagementServiceImpl(
       modelManagementService.buildModel(modelId, modelVersion).flatMap(runtime => {
         runtimeManagementService.addService(CreateModelServiceRequest(
           serviceName = runtime.modelName,
-          modelRuntimeId = runtime.id
+          modelRuntimeId = runtime.id,
+          configParams = None
         )).flatMap(_ => modelWithLastStatus(modelId).map(o => o.get))
       })
     })
