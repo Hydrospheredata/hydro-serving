@@ -78,7 +78,11 @@ class ModelServiceRepositoryImpl(databaseService: DatabaseService)(implicit exec
         .result.headOption
     ).map(m => mapFromDb(m))
 
-  override def fetchByIds(ids: Seq[Long]): Future[Seq[ModelService]] =
+  override def fetchByIds(ids: Seq[Long]): Future[Seq[ModelService]] = {
+    if (ids.isEmpty) {
+      return Future.successful(Seq())
+    }
+
     db.run(
       Tables.ModelService
         .filter(_.serviceId inSetBind ids)
@@ -88,6 +92,7 @@ class ModelServiceRepositoryImpl(databaseService: DatabaseService)(implicit exec
         .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
         .result
     ).map(m => mapFromDb(m))
+  }
 
   override def getByModelIds(modelIds: Seq[Long]): Future[Seq[ModelService]] =
     db.run(
@@ -129,7 +134,7 @@ class ModelServiceRepositoryImpl(databaseService: DatabaseService)(implicit exec
         .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
         .joinLeft(Tables.RuntimeType)
         .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
-        .filter({ case ((ms, mr), rt) => mr.flatMap(_.modelname) === modelName && mr.flatMap(_.modelversion) === modelVersion})
+        .filter({ case ((ms, mr), rt) => mr.flatMap(_.modelname) === modelName && mr.flatMap(_.modelversion) === modelVersion })
         .result.headOption
     ).map(m => mapFromDb(m))
 }

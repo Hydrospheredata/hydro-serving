@@ -69,5 +69,5 @@ case class WeightedService(
   id: Long,
   serviceName: String,
   weights: List[ServiceWeight],
-  inputsList: List[Long]
+  sourcesList: List[Long]
 )

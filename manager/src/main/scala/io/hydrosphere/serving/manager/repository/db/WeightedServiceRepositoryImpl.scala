@@ -25,7 +25,7 @@ class WeightedServiceRepositoryImpl(databaseService: DatabaseService)(implicit e
         entity.id,
         entity.serviceName,
         mapWeights(entity.weights),
-        entity.inputsList.map(v => v.toString)
+        entity.sourcesList.map(v => v.toString)
       )
     ).map(s => mapFromDb(s))
 
@@ -55,13 +55,13 @@ class WeightedServiceRepositoryImpl(databaseService: DatabaseService)(implicit e
     } yield (
       serv.serviceName,
       serv.weights,
-      serv.inputsList
+      serv.sourcesList
     )
 
     db.run(query.update(
       value.serviceName,
       mapWeights(value.weights),
-      value.inputsList.map(v => v.toString)
+      value.sourcesList.map(v => v.toString)
     ))
   }
 }
@@ -85,7 +85,7 @@ object WeightedServiceRepositoryImpl {
           weight = arr(1).toInt
         )
       }),
-      inputsList = dbType.inputsList.map(v => v.toLong)
+      sourcesList = dbType.sourcesList.map(v => v.toLong)
     )
   }
 }

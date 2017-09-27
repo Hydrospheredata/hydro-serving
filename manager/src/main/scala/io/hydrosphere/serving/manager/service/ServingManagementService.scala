@@ -1,6 +1,8 @@
 package io.hydrosphere.serving.manager.service
 
 
+import java.util.UUID
+
 import akka.http.scaladsl.model.{HttpHeader, StatusCodes}
 import io.hydrosphere.serving.connector.{ExecutionCommand, ExecutionResult, ExecutionUnit, RuntimeMeshConnector}
 import io.hydrosphere.serving.model.ModelService
@@ -17,12 +19,12 @@ case class WeightedServiceCreateOrUpdateRequest(
   weights: List[ServiceWeight]
 ) {
 
-  def toWeightedService(): WeightedService = {
+  def toWeightedService: WeightedService = {
     WeightedService(
       id = this.id.getOrElse(0),
       serviceName = this.serviceName,
       weights = this.weights,
-      inputsList = List()
+      sourcesList = List()
     )
   }
 }
@@ -83,6 +85,12 @@ trait ServingManagementService {
 
   def serveWeightedService(serviceId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
 
+  def removeTrafficSourceFromWeightedService(serviceId: Long, sourceId: Long): Future[Unit]
+
+  def addTrafficSourceToWeightedService(serviceId: Long, runtimeId: Long, configParams: Option[Map[String, String]]): Future[ModelService]
+
+  def getTrafficSourceForWeightedService(serviceId: Long): Future[List[ModelService]]
+
   def deleteEndpoint(endpointId: Long): Future[Unit]
 
   def addEndpoint(r: CreateEndpointRequest): Future[Endpoint]
@@ -110,7 +118,8 @@ class ServingManagementServiceImpl(
   pipelineRepository: PipelineRepository,
   modelServiceRepository: ModelServiceRepository,
   runtimeMeshConnector: RuntimeMeshConnector,
-  weightedServiceRepository: WeightedServiceRepository
+  weightedServiceRepository: WeightedServiceRepository,
+  runtimeManagementService: RuntimeManagementService
 )(implicit val ex: ExecutionContext) extends ServingManagementService {
 
   override def deletePipeline(pipelineId: Long): Future[Unit] =
@@ -192,11 +201,11 @@ class ServingManagementServiceImpl(
     weightedServiceRepository.all()
 
   override def createWeightedServices(req: WeightedServiceCreateOrUpdateRequest): Future[WeightedService] =
-    weightedServiceRepository.create(req.toWeightedService())
+    weightedServiceRepository.create(req.toWeightedService)
 
   override def updateWeightedServices(req: WeightedServiceCreateOrUpdateRequest): Future[WeightedService] =
     fetchAndValidate(req.weights).flatMap(_ => {
-      val service = req.toWeightedService()
+      val service = req.toWeightedService
       weightedServiceRepository.update(service).map(_ => service)
     })
 
@@ -214,17 +223,15 @@ class ServingManagementServiceImpl(
 
   override def serveWeightedService(
     serviceId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
-    weightedServiceRepository.get(serviceId).flatMap({
-      case None => throw new IllegalArgumentException(s"Can't find WeightedService with id $serviceId")
-      case Some(r) =>
-        runtimeMeshConnector.execute(ExecutionCommand(
-          headers = headers,
-          json = request,
-          pipe = Seq(ExecutionUnit(
-            serviceName = r.serviceName,
-            servicePath = servePath
-          ))
-        )).map(mapMeshExecutionResult)
+    getWeightedServiceWithCheck(serviceId).flatMap(r => {
+      runtimeMeshConnector.execute(ExecutionCommand(
+        headers = headers,
+        json = request,
+        pipe = Seq(ExecutionUnit(
+          serviceName = r.serviceName,
+          servicePath = servePath
+        ))
+      )).map(mapMeshExecutionResult)
     })
 
   override def serveModelServiceByModelName(modelName: String, servePath: String,
@@ -242,4 +249,41 @@ class ServingManagementServiceImpl(
       case Some(service) =>
         serveModelService(service, servePath, request, headers)
     })
+
+  override def getTrafficSourceForWeightedService(serviceId: Long): Future[List[ModelService]] = {
+    getWeightedServiceWithCheck(serviceId).flatMap(r => {
+      modelServiceRepository.fetchByIds(r.sourcesList).map(s => s.toList)
+    })
+  }
+
+  override def removeTrafficSourceFromWeightedService(serviceId: Long, sourceId: Long): Future[Unit] = {
+    getWeightedServiceWithCheck(serviceId).flatMap(r => {
+      runtimeManagementService.deleteService(sourceId).flatMap(_ => {
+        weightedServiceRepository.update(
+          r.copy(sourcesList = r.sourcesList.filter(v => v != sourceId))
+        ).map(_ => Unit)
+      })
+    })
+  }
+
+  override def addTrafficSourceToWeightedService(serviceId: Long, runtimeId: Long, configParams: Option[Map[String, String]]): Future[ModelService] = {
+    getWeightedServiceWithCheck(serviceId).flatMap(weighted => {
+      runtimeManagementService.addService(CreateModelServiceRequest(
+        serviceName = UUID.randomUUID().toString,
+        modelRuntimeId = runtimeId,
+        configParams = configParams
+      )).flatMap(service => {
+        weightedServiceRepository.update(
+          weighted.copy(sourcesList = service.serviceId :: weighted.sourcesList)
+        ).map(_ => service)
+      })
+    })
+  }
+
+  private def getWeightedServiceWithCheck(serviceId: Long): Future[WeightedService] = {
+    weightedServiceRepository.get(serviceId).map({
+      case None => throw new IllegalArgumentException(s"Can't find WeightedService with id $serviceId")
+      case Some(r) => r
+    })
+  }
 }
