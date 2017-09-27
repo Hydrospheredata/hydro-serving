@@ -75,7 +75,7 @@ CREATE TABLE hydro_serving.weighted_service
   id           BIGSERIAL PRIMARY KEY,
   service_name TEXT      NOT NULL UNIQUE,
   weights      TEXT []   NOT NULL,
-  inputs_list  BIGINT [] NOT NULL
+  sources_list  BIGINT [] NOT NULL
 );
 
 

@@ -71,7 +71,8 @@ class ManagerServices(
     managerRepositories.pipelineRepository,
     managerRepositories.modelServiceRepository,
     runtimeMeshConnector,
-    managerRepositories.weightedServiceRepository
+    managerRepositories.weightedServiceRepository,
+    runtimeManagementService
   )
 
   val envoyManagementService = new EnvoyManagementServiceImpl(
