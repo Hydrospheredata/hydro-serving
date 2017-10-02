@@ -67,4 +67,5 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
   implicit val endpointFormat = jsonFormat3(Endpoint)
   implicit val serviceWeight = jsonFormat2(ServiceWeight)
   implicit val weightedService = jsonFormat4(WeightedService)
+
 }
