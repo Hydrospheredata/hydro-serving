@@ -60,6 +60,13 @@ class RuntimeTypeRepositoryImpl(databaseService: DatabaseService)(implicit execu
       Tables.RuntimeType
         .result
     ).map(s => s.map(ss => mapFromDb(ss)))
+
+  override def fetchByTags(tags: Seq[String]): Future[Seq[RuntimeType]] =
+    db.run(
+      Tables.RuntimeType
+        .filter(p => p.tags @> tags.toList)
+        .result
+    ).map(s => s.map(ss => mapFromDb(ss)))
 }
 
 object RuntimeTypeRepositoryImpl {

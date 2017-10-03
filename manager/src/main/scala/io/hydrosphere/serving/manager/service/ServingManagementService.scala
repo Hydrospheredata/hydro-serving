@@ -12,7 +12,6 @@ import io.hydrosphere.serving.model.{Endpoint, Pipeline, PipelineStage}
 
 import scala.concurrent.{ExecutionContext, Future}
 
-
 case class WeightedServiceCreateOrUpdateRequest(
   id: Option[Long],
   serviceName: String,
@@ -82,6 +81,8 @@ trait ServingManagementService {
   def updateWeightedServices(req: WeightedServiceCreateOrUpdateRequest): Future[WeightedService]
 
   def deleteWeightedService(id: Long): Future[Unit]
+
+  def getWeightedService(id: Long): Future[Option[WeightedService]]
 
   def serveWeightedService(serviceId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
 
@@ -211,7 +212,16 @@ class ServingManagementServiceImpl(
 
 
   override def deleteWeightedService(id: Long): Future[Unit] =
-    weightedServiceRepository.delete(id).map(_ => Unit)
+    weightedServiceRepository.get(id).flatMap({
+      case Some(x) =>
+        if (x.sourcesList.nonEmpty) {
+          Future.traverse(x.sourcesList)(s => runtimeManagementService.deleteService(s))
+            .flatMap(_ => weightedServiceRepository.delete(id).map(_ => Unit))
+        } else {
+          weightedServiceRepository.delete(id).map(_ => Unit)
+        }
+      case _ => Future.successful(())
+    })
 
   private def fetchAndValidate(req: List[ServiceWeight]): Future[Unit] = {
     modelServiceRepository.fetchByIds(req.map(r => r.serviceId))
@@ -259,6 +269,7 @@ class ServingManagementServiceImpl(
   override def removeTrafficSourceFromWeightedService(serviceId: Long, sourceId: Long): Future[Unit] = {
     getWeightedServiceWithCheck(serviceId).flatMap(r => {
       runtimeManagementService.deleteService(sourceId).flatMap(_ => {
+        //TODO change sourcesList column to link table
         weightedServiceRepository.update(
           r.copy(sourcesList = r.sourcesList.filter(v => v != sourceId))
         ).map(_ => Unit)
@@ -286,4 +297,7 @@ class ServingManagementServiceImpl(
       case Some(r) => r
     })
   }
+
+  override def getWeightedService(id: Long): Future[Option[WeightedService]] =
+    weightedServiceRepository.get(id)
 }

@@ -54,7 +54,7 @@ class StreamingKafkaService(
   private val producerSettings = ProducerSettings(system, new StringSerializer, new StringSerializer)
 
   private def mapAndSend(messages: Seq[CommittableMessage[String, String]]): Future[ExecutionResult] = {
-    Future(messages.map(m => m.record.value().parseJson.convertTo[Seq[Any]])).flatMap(marshalledMessages =>
+    Future(messages.map(m => m.record.value().parseJson.convertTo[Any])).flatMap(marshalledMessages =>
       runtimeMeshConnector.execute(ExecutionCommand(
         json = marshalledMessages,
         headers = Seq(),

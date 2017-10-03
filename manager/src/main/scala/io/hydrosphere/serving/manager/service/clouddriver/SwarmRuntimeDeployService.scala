@@ -95,7 +95,7 @@ class SwarmRuntimeDeployService(
 
   private def mapEnvironments(list: ImmutableList[String]): Map[String, String] =
     list
-      .map(p => p.split(":"))
+      .map(p => p.split("="))
       .filter(arr => arr.length > 1 && arr(0) != null && arr(1) != null)
       .map(arr => arr(0) -> arr(1)).toMap
 

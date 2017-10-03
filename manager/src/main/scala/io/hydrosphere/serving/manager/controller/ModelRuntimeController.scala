@@ -32,6 +32,27 @@ class ModelRuntimeController (modelManagementService: ModelManagementService) ex
   }
 
 
+  @Path("/byTag")
+  @ApiOperation(value = "listModelRuntimesByTag", notes = "listModelRuntimesByTag", nickname = "listModelRuntimesByTag", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "body", value = "tags", required = true,
+      dataTypeClass = classOf[String], paramType = "body", collectionFormat = "List")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ModelRuntime", response = classOf[ModelRuntime], responseContainer = "List"),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def listModelRuntimesByTag = path("api" / "v1" / "modelRuntime" / "byTag") {
+    post {
+      entity(as[Seq[String]]) { r =>
+        complete(
+          modelManagementService.modelRuntimeByTag(r)
+        )
+      }
+    }
+  }
+
+
   @Path("/")
   @ApiOperation(value = "Add ModelRuntime", notes = "Add ModelRuntime", nickname = "addModelRuntime", httpMethod = "POST")
   @ApiImplicitParams(Array(
@@ -73,5 +94,5 @@ class ModelRuntimeController (modelManagementService: ModelManagementService) ex
   }
 
 
-  val routes: Route = listModelRuntimes ~ addModelRuntime ~ lastModelBuilds
+  val routes: Route = listModelRuntimes ~ addModelRuntime ~ lastModelBuilds ~ listModelRuntimesByTag
 }
