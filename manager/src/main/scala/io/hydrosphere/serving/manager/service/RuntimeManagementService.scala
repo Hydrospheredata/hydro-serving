@@ -141,6 +141,7 @@ class RuntimeManagementServiceImpl(
         }
       })
 
+  //TODO check service in weighted service
   override def deleteService(serviceId: Long): Future[Unit] =
     Future(runtimeDeployService.deleteService(serviceId))
       .flatMap(p => modelServiceRepository.delete(serviceId).map(p => Unit))

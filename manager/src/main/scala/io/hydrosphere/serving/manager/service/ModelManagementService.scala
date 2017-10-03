@@ -120,6 +120,8 @@ trait ModelManagementService {
 
   def allRuntimeTypes(): Future[Seq[RuntimeType]]
 
+  def runtimeTypesByTag(tags: Seq[String]): Future[Seq[RuntimeType]]
+
   def allModels(): Future[Seq[Model]]
 
   def updateModel(entity: CreateOrUpdateModelRequest): Future[Model]
@@ -135,6 +137,8 @@ trait ModelManagementService {
   def addModelRuntime(entity: CreateModelRuntime): Future[ModelRuntime]
 
   def allModelRuntime(): Future[Seq[ModelRuntime]]
+
+  def modelRuntimeByTag(tags: Seq[String]): Future[Seq[ModelRuntime]]
 
   def lastModelRuntimeByModel(id: Long, maximum: Int): Future[Seq[ModelRuntime]]
 
@@ -469,4 +473,10 @@ class ModelManagementServiceImpl(
       }
     }
   }
+
+  override def runtimeTypesByTag(tags: Seq[String]): Future[Seq[RuntimeType]] =
+    runtimeTypeRepository.fetchByTags(tags)
+
+  override def modelRuntimeByTag(tags: Seq[String]): Future[Seq[ModelRuntime]] =
+    modelRuntimeRepository.fetchByTags(tags)
 }

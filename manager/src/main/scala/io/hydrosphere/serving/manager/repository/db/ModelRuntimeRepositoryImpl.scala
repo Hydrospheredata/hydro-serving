@@ -95,6 +95,15 @@ class ModelRuntimeRepositoryImpl(databaseService: DatabaseService)(implicit exec
         .distinctOn(_._1.modelId.get)
         .result.headOption
     ).map(s => mapFromDb(s))
+
+  override def fetchByTags(tags: Seq[String]): Future[Seq[ModelRuntime]] =
+    db.run(
+      Tables.ModelRuntime
+        .filter(p => p.tags @> tags.toList)
+        .joinLeft(Tables.RuntimeType)
+        .on({ case (m, rt) => m.runtimeTypeId === rt.runtimeTypeId })
+        .result
+    ).map(s => mapFromDb(s))
 }
 
 object ModelRuntimeRepositoryImpl {

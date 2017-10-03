@@ -22,6 +22,7 @@ dockerfile in docker := {
     label("MODEL_NAME", "streaming-kafka")
     label("MODEL_VERSION", version.value)
 
+    env("JAVA_XMX", "512M")
     add(dockerFilesLocation, "/hydro-serving/app/")
     // Add all files on the classpath
     add(classpath.files, "/hydro-serving/app/lib/")

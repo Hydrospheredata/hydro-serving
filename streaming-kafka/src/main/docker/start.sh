@@ -2,7 +2,7 @@
 
 SERVICE_ID=$1
 
-[ -z "$JAVA_XMX" ] && JAVA_XMX="256M"
+[ -z "$JAVA_XMX" ] && JAVA_XMX="512M"
 
 [ -z "$APP_HTTP_PORT" ] && APP_HTTP_PORT="9090"
 [ -z "$SIDECAR_HTTP_PORT" ] && SIDECAR_HTTP_PORT="8080"
