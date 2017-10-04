@@ -1,8 +1,7 @@
-package io.hydrosphere.serving.manager.service
+package io.hydrosphere.serving.manager.service.modelfetcher
 
-import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, S3ModelSourceConfiguration, TestConstants}
-import io.hydrosphere.serving.manager.service.modelfetcher.{ModelFetcher, ScikitModelFetcher, SparkModelFetcher, TensorflowModelFetcher}
-import io.hydrosphere.serving.manager.service.modelsource.{LocalModelSource, ModelSource, S3ModelSource}
+import io.hydrosphere.serving.manager.service.modelsource.LocalModelSource
+import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, TestConstants}
 import org.scalatest._
 
 class FetcherSpecs extends FlatSpec with Matchers {
