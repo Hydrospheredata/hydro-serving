@@ -21,6 +21,8 @@ class DockerRuntimeDeployService(
   managerConfiguration: ManagerConfiguration
 ) extends RuntimeDeployService with Logging {
 
+  private val dockerCloudDriverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[DockerCloudDriverConfiguration]
+
   override def deploy(runtime: ModelService): String = {
     val conf = managerConfiguration.cloudDriver.asInstanceOf[DockerCloudDriverConfiguration]
     val labels = Map[String, String](
@@ -42,8 +44,14 @@ class DockerRuntimeDeployService(
       ENV_ZIPKIN_PORT -> managerConfiguration.zipkin.port
     )
 
+    val logConfig = dockerCloudDriverConfiguration.loggingGelfHost match {
+      case None => null
+      case Some(x) => LogConfig.create("gelf", Map("gelf-address" -> x))
+    }
+
     val c = dockerClient.createContainer(ContainerConfig.builder()
       .hostConfig(HostConfig.builder()
+        .logConfig(logConfig)
         .networkMode(conf.networkName).build()
       )
       .image(s"${runtime.modelRuntime.imageName}:${runtime.modelRuntime.imageMD5Tag}")
@@ -91,8 +99,7 @@ class DockerRuntimeDeployService(
     serviceInstances(ListContainersParam.withLabel(LABEL_SERVICE_ID, serviceId.toString))
 
   private def getInstanceHost(list: util.Collection[AttachedNetwork]): String = {
-    val conf = managerConfiguration.cloudDriver.asInstanceOf[DockerCloudDriverConfiguration]
-    list.filter(n => n.aliases().contains(conf.networkName))
+    list.filter(n => n.aliases().contains(dockerCloudDriverConfiguration.networkName))
       .map(n => {
         val host = n.ipAddress()
         if (host.contains("/")) {
