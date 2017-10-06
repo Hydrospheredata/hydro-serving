@@ -57,9 +57,7 @@ class DockerRuntimeDeployService(
       .image(s"${runtime.modelRuntime.imageName}:${runtime.modelRuntime.imageMD5Tag}")
       .labels(javaLabels)
       .env(envMap.map { case (k, v) => s"$k=$v" }.toList)
-      .hostname(runtime.serviceName)
-      .domainname(runtime.serviceName)
-      .build())
+      .build(), runtime.serviceName)
     dockerClient.startContainer(c.id())
     c.id()
   }
