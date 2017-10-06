@@ -62,7 +62,8 @@ case class SwarmCloudDriverConfiguration(
 ) extends CloudDriverConfiguration
 
 case class DockerCloudDriverConfiguration(
-  networkName: String
+  networkName: String,
+  loggingGelfHost: Option[String]
 ) extends CloudDriverConfiguration
 
 case class ECSCloudDriverConfiguration(
@@ -112,7 +113,12 @@ object ManagerConfiguration extends Configuration {
         case "swarm" =>
           SwarmCloudDriverConfiguration(networkName = driverConf.getString("networkName"))
         case "docker" =>
-          DockerCloudDriverConfiguration(networkName = driverConf.getString("networkName"))
+          val hasLoggingGelfHost = driverConf.hasPath("loggingGelfHost")
+          DockerCloudDriverConfiguration(
+            networkName = driverConf.getString("networkName"),
+            loggingGelfHost = if (hasLoggingGelfHost)
+              Some(driverConf.getString("loggingGelfHost")) else None
+          )
         case "ecs" =>
           ECSCloudDriverConfiguration(
             region = Regions.fromName(driverConf.getString("region")),
