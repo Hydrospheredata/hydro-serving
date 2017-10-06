@@ -6,6 +6,8 @@ Main Features:
 * **Serverless**. It is as easy as AWS Lambda in your data center or VPC. 
 * **Multi-framework Pipelines** (e.g. Scikit-learn -> Spark ML -> TensorFlow pipeline)
 
+![Image](docs/images/mllambda.png)
+
 ##### Story
 Deploying skit-learn models for serving online user requests is pretty simple: just spin up an HTTP server, load the model and call `predict()` method. Performance wise it will satisfy most of the use cases.
 TensorFlow serving is a bit more complicated to manage but feasible as well.
