@@ -64,6 +64,13 @@ class WeightedServiceRepositoryImpl(databaseService: DatabaseService)(implicit e
       value.sourcesList.map(v => v.toString)
     ))
   }
+
+  override def byModelServiceIds(servicesIds: Seq[Long]): Future[Seq[WeightedService]] =
+    db.run(
+      Tables.WeightedService
+          //.filter(p => p.tags @> tags.toList) TODO
+        .result
+    ).map(s => s.map(ss => mapFromDb(ss)))
 }
 
 object WeightedServiceRepositoryImpl {

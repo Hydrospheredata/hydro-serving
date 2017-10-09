@@ -11,7 +11,7 @@ import akka.http.scaladsl.server.Directives.{path, _}
 import ch.megard.akka.http.cors.scaladsl.settings.CorsSettings
 import io.hydrosphere.serving.manager.controller.envoy.EnvoyManagementController
 import io.hydrosphere.serving.manager.controller.prometheus.PrometheusMetricsController
-import io.hydrosphere.serving.manager.controller.ui.{UISpecificController, UISpecificWeightServiceController}
+import io.hydrosphere.serving.manager.controller.ui.{UISpecificController, UISpecificRuntimeController, UISpecificWeightServiceController}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.Option
@@ -51,6 +51,8 @@ class ManagerApi(managerServices: ManagerServices)
 
   val uiSpecificWeightServiceController = new UISpecificWeightServiceController(managerServices.uiManagementService)
 
+  val uiSpecificRuntimeController = new UISpecificRuntimeController(managerServices.uiManagementService)
+
   val swaggerController = new SwaggerDocController(system) {
     override val apiTypes: Seq[ru.Type] = Seq(
       ru.typeOf[RuntimeTypeController],
@@ -59,11 +61,12 @@ class ManagerApi(managerServices: ManagerServices)
       ru.typeOf[PipelineController],
       ru.typeOf[EndpointController],
       ru.typeOf[ModelServiceController],
-      ru.typeOf[UISpecificController],
       ru.typeOf[EnvoyManagementController],
       ru.typeOf[WeightedServiceController],
       ru.typeOf[PrometheusMetricsController],
-      ru.typeOf[UISpecificWeightServiceController]
+      ru.typeOf[UISpecificController],
+      ru.typeOf[UISpecificWeightServiceController],
+      ru.typeOf[UISpecificRuntimeController]
     )
   }
 
@@ -101,6 +104,7 @@ class ManagerApi(managerServices: ManagerServices)
         prometheusMetricsController.routes ~
         uiSpecificController.routes ~
         uiSpecificWeightServiceController.routes ~
+        uiSpecificRuntimeController.routes ~
         pathPrefix("assets") {
           path(Segments) { segs =>
             val path = segs.mkString("/")
@@ -108,10 +112,10 @@ class ManagerApi(managerServices: ManagerServices)
           }
         } ~
         path(Segments) { segs =>
-          if(segs.size==1 && segs.head.endsWith("bundle.js")){
+          if (segs.size == 1 && segs.head.endsWith("bundle.js")) {
             val path = segs.mkString("/")
             getFromResource(s"ui/$path")
-          }else{
+          } else {
             getFromResource("ui/index.html")
           }
         }
