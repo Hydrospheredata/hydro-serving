@@ -10,11 +10,23 @@ import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 
+case class UIServiceInfo(
+  service: ModelService,
+  weightedServices: Seq[WeightedService]
+)
+
+case class UIRuntimeInfo(
+  runtime: ModelRuntime,
+  services: Seq[UIServiceInfo]
+)
+
 case class ModelInfo(
   model: Model,
   lastModelBuild: Option[ModelBuild],
   lastModelRuntime: Option[ModelRuntime],
-  currentServices: List[ModelService]
+  currentServices: List[ModelService],
+  nextVersion: String,
+  nextVersionAvailable: Boolean
 )
 
 case class KafkaStreamingParams(
@@ -69,6 +81,8 @@ trait UIManagementService {
   def testModel(modelId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
 
   def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelInfo]
+
+  def modelRuntimes(modelId: Long): Future[Seq[UIRuntimeInfo]]
 }
 
 class UIManagementServiceImpl(
@@ -89,14 +103,18 @@ class UIManagementServiceImpl(
       modelRuntimeRepository.lastModelRuntimeForModels(models.map(m => m.id)).flatMap(runtimes => {
         modelServiceRepository.getByModelIds(ids).flatMap(services => {
           modelBuildRepository.lastForModels(ids).flatMap(builds => {
-            Future(models.map(model => {
-              ModelInfo(
-                model = model,
-                lastModelRuntime = runtimes.find(r => r.modelId.get == model.id),
-                lastModelBuild = builds.find(b => b.model.id == model.id),
-                currentServices = services.filter(s => s.modelRuntime.modelId.get == model.id).toList
-              )
-            }))
+            Future(
+              models.map(model => {
+                val lastModelRuntime = runtimes.find(r => r.modelId.get == model.id)
+                ModelInfo(
+                  model = model,
+                  lastModelRuntime = lastModelRuntime,
+                  lastModelBuild = builds.find(b => b.model.id == model.id),
+                  currentServices = services.filter(s => s.modelRuntime.modelId.get == model.id).toList,
+                  nextVersion = ModelManagementService.nextVersion(lastModelRuntime),
+                  nextVersionAvailable = model.created.compareTo(model.updated) != 0
+                )
+              }))
           })
         })
       })
@@ -109,11 +127,14 @@ class UIManagementServiceImpl(
         modelRuntimeRepository.lastModelRuntimeByModel(modelId, 1).flatMap(modelRuntimes => {
           modelServiceRepository.getByModelIds(Seq(modelId)).flatMap(services => {
             modelBuildRepository.lastByModelId(modelId, 1).map(builds => {
+              val lastModelRuntime = modelRuntimes.headOption
               Some(ModelInfo(
                 model = x,
-                lastModelRuntime = modelRuntimes.headOption,
+                lastModelRuntime = lastModelRuntime,
                 lastModelBuild = builds.headOption,
-                currentServices = services.toList
+                currentServices = services.toList,
+                nextVersion = ModelManagementService.nextVersion(lastModelRuntime),
+                nextVersionAvailable = x.created.compareTo(x.updated) != 0
               ))
             })
           })
@@ -280,7 +301,7 @@ class UIManagementServiceImpl(
     })
   }
 
-  private def mapWeighetdService(services: Seq[WeightedService]): Future[Seq[WeightedServiceDetails]] = {
+  private def mapWeightedService(services: Seq[WeightedService]): Future[Seq[WeightedServiceDetails]] = {
     runtimeManagementService.servicesByIds(
       services.flatMap(s => s.weights.map(w => w.serviceId)) ++ services.flatMap(s => s.sourcesList)
     ).flatMap(ms => {
@@ -289,11 +310,38 @@ class UIManagementServiceImpl(
   }
 
   private def mapWeighetdService(service: WeightedService): Future[WeightedServiceDetails] = {
-    mapWeighetdService(Seq(service)).map(s => s.head)
+    mapWeightedService(Seq(service)).map(s => s.head)
   }
 
   override def allWeightedServicesDetails(): Future[Seq[WeightedServiceDetails]] =
     servingManagementService.allWeightedServices().flatMap(services => {
-      mapWeighetdService(services)
+      mapWeightedService(services)
     })
+
+  override def modelRuntimes(modelId: Long): Future[Seq[UIRuntimeInfo]] =
+    for (
+      runtimes <- modelRuntimeRepository.lastModelRuntimeByModel(modelId, Int.MaxValue);
+      services <- runtimeManagementService.getServicesByModel(modelId);
+      ws <- servingManagementService.weightedServicesByModelServiceIds(services.map(s => s.serviceId))
+    ) yield {
+      val wsIndex = ws.flatMap(s => s.sourcesList.map(i => i -> s))
+        .groupBy(_._1).mapValues(_.map(_._2))
+      val serviceIndex = services.map(s => s.modelRuntime.id -> s)
+        .groupBy(_._1).mapValues(_.map(_._2))
+
+      runtimes.map(r => {
+        UIRuntimeInfo(
+          runtime = r,
+          services = serviceIndex.get(r.id) match {
+            case None => Seq()
+            case Some(x) => x.map(s => {
+              UIServiceInfo(
+                service = s,
+                weightedServices = wsIndex.getOrElse(s.serviceId, Seq())
+              )
+            })
+          }
+        )
+      })
+    }
 }

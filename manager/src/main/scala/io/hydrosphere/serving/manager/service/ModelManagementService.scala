@@ -155,6 +155,22 @@ trait ModelManagementService {
   def deleteModelFile(fileName: String): Future[Int]
 }
 
+object ModelManagementService {
+  def nextVersion(lastRuntime: Option[ModelRuntime]): String = lastRuntime match {
+    case None => "0.0.1"
+    case Some(runtime) =>
+      val splitted = runtime.modelVersion.split('.')
+      splitted.lastOption match {
+        case None => runtime.modelVersion + ".1"
+        case Some(v) =>
+          Try.apply(v.toInt) match {
+            case Failure(_) => runtime.modelVersion + ".1"
+            case Success(intVersion) => splitted.dropRight(1).mkString(".") + "." + (intVersion + 1)
+          }
+      }
+  }
+}
+
 
 class ModelManagementServiceImpl(
   runtimeTypeRepository: RuntimeTypeRepository,
@@ -310,19 +326,7 @@ class ModelManagementServiceImpl(
         case _ => throw new IllegalArgumentException("You already have such version")
       }
       case _ => modelRuntimeRepository.lastModelRuntimeByModel(modelId, 1)
-        .map(se => se.headOption match {
-          case None => "0.0.1"
-          case Some(runtime) =>
-            val splitted = runtime.modelVersion.split('.')
-            splitted.lastOption match {
-              case None => runtime.modelVersion + ".1"
-              case Some(v) =>
-                Try.apply(v.toInt) match {
-                  case Failure(_) => runtime.modelVersion + ".1"
-                  case Success(intVersion) => splitted.dropRight(1).mkString(".") + "." + (intVersion + 1)
-                }
-            }
-        })
+        .map(se => ModelManagementService.nextVersion(se.headOption))
     }
   }
 

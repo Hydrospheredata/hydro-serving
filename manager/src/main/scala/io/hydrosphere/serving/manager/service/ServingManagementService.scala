@@ -76,6 +76,8 @@ trait ServingManagementService {
 
   def allWeightedServices(): Future[Seq[WeightedService]]
 
+  def weightedServicesByModelServiceIds(servicesIds:Seq[Long]): Future[Seq[WeightedService]]
+
   def createWeightedServices(req: WeightedServiceCreateOrUpdateRequest): Future[WeightedService]
 
   def updateWeightedServices(req: WeightedServiceCreateOrUpdateRequest): Future[WeightedService]
@@ -200,6 +202,9 @@ class ServingManagementServiceImpl(
 
   override def allWeightedServices(): Future[Seq[WeightedService]] =
     weightedServiceRepository.all()
+
+  override def weightedServicesByModelServiceIds(servicesIds:Seq[Long]): Future[Seq[WeightedService]] =
+    weightedServiceRepository.byModelServiceIds(servicesIds)
 
   override def createWeightedServices(req: WeightedServiceCreateOrUpdateRequest): Future[WeightedService] =
     weightedServiceRepository.create(req.toWeightedService)
