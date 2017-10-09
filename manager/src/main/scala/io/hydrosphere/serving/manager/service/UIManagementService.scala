@@ -112,7 +112,7 @@ class UIManagementServiceImpl(
                   lastModelBuild = builds.find(b => b.model.id == model.id),
                   currentServices = services.filter(s => s.modelRuntime.modelId.get == model.id).toList,
                   nextVersion = ModelManagementService.nextVersion(lastModelRuntime),
-                  nextVersionAvailable = model.created.compareTo(model.updated) != 0
+                  nextVersionAvailable = model.created.isBefore(model.updated)
                 )
               }))
           })
@@ -134,7 +134,7 @@ class UIManagementServiceImpl(
                 lastModelBuild = builds.headOption,
                 currentServices = services.toList,
                 nextVersion = ModelManagementService.nextVersion(lastModelRuntime),
-                nextVersionAvailable = x.created.compareTo(x.updated) != 0
+                nextVersionAvailable = x.created.isBefore(x.updated)
               ))
             })
           })
