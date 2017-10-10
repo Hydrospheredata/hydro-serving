@@ -188,14 +188,12 @@ class UIManagementServiceImpl(
   }
 
   override def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelInfo] =
-    stopAllServices(modelId).flatMap(_ => {
-      modelManagementService.buildModel(modelId, modelVersion).flatMap(runtime => {
-        runtimeManagementService.addService(CreateModelServiceRequest(
-          serviceName = runtime.modelName,
-          modelRuntimeId = runtime.id,
-          configParams = None
-        )).flatMap(_ => modelWithLastStatus(modelId).map(o => o.get))
-      })
+    modelManagementService.buildModel(modelId, modelVersion).flatMap(runtime => {
+      runtimeManagementService.addService(CreateModelServiceRequest(
+        serviceName = runtime.modelName,
+        modelRuntimeId = runtime.id,
+        configParams = None
+      )).flatMap(_ => modelWithLastStatus(modelId).map(o => o.get))
     })
 
   private def getDefaultKafkaImplementation(): Future[Option[ModelRuntime]] = {
