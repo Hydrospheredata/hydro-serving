@@ -46,12 +46,13 @@ So, the transport layer between model runtimes could be changed from HTTP to uni
 Additional out of the box features include Rate limiting, Load balancing, Circuit breaking, Tracing, Statistics.
 
 ## Structure
-* [envoy](/envoy) contains all envoy logic and base docker images.
+* [sidecar](/sidecar) contains implementation of the sidecar pattern for ML runtimes.
 * [mist-local-ml](/mist-local-ml) contains local SparkMl implementation. (Derived from Hydrosphere Mist)
-* [mist-serving-gateway](/mist-serving-gateway) is a simple gateway of the whole project. For now, it's just set up Nginx.
-* [ml_repository](/ml_repository) is a module that rules over all ML models, knows where they are, what they are.
-* [ml_runtimes](/ml_runtimes) contains implementations for popular ML libraries. Runtime is a small server that can import user's model and provide an HTTP API to it.
-* [models](/models) contains example ML models for implemented runtimes.
+* [gateway](/gateway) is a simple gateway of the whole project. For now, it's just set up Nginx.
+* [manager](/manager) is a module that rules over all ML models, knows where they are, what they are.
+* [runtimes and models repository](https://github.com/Hydrospheredata/hydro-serving-runtime)
+    * [runtimes](https://github.com/Hydrospheredata/hydro-serving-runtime/tree/master/runtimes) contains implementations for popular ML libraries. Runtime is a small server that can import user's model and provide an HTTP API to it.
+    * [models](https://github.com/Hydrospheredata/hydro-serving-runtime/tree/master/models) contains example ML models for implemented runtimes.
 
 
 ## How to launch demo
@@ -68,15 +69,13 @@ git clone https://github.com/provectus/hydro-serving.git
 ```
 
 You will get next docker images:
-* `hydrosphere/pipelineserving-envoy-alpine` - common image with envoy-alpine.
-* `hydrosphere/pipelineserving-java` - common image for all java applications.
-* `hydrosphere/pipelineserving-python3` - common image for python3 applications.
-* `hydrosphere/pipelineserving-gateway` - image with gateway app - will process all http requests from client.
-* `hydrosphere/pipelineserving-manager` - image with manager app - manages all pipelines and envoys configurations.
-* `hydrosphere/pipelineserving-serving-java-spring` - image with simple Spring Boot app.
-* `mist-ml-repository` - ML model storage, it scans selected directory and parses founded ML models, also provides RestAPI to access this models
-* `mist-runtime-sparklocal` - Spark ML runtime, serves spark models
-* `mist-runtime-scikit` - Scikit runtime, serves scikit models.
+* `hydrosphere/serving-manager` - ML model storage, it scans selected directory and parses founded ML models, also provides RestAPI to access this models
+* `hydrosphere/serving-gateway` - Nginx gateway.
+* `hydrosphere/serving-runtime-sparklocal` - Spark ML runtime, serves spark models
+* `hydrosphere/serving-runtime-scikit` - Scikit runtime, serves scikit models.
+* `hydrosphere/serving-runtime-tensorflow` - TF runtime.
+* `hydrosphere/serving-runtime-py2databricks` - Python 2 runtime with Databricks-like environment.
+* `hydrosphere/serving-runtime-python3` - Python 3 runtime.
 
 2. Run infrastructure and manager:
 ```
