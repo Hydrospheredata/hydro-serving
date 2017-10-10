@@ -58,12 +58,23 @@ Additional out of the box features include Rate limiting, Load balancing, Circui
 ## How to launch demo
 
 ### Build project
-0. Clone this repository
+#### Clone repositories
+
 ```
-git clone https://github.com/provectus/hydro-serving.git
+#Sidecar + manager + gateway + dummy runtime 
+git clone https://github.com/Hydrospheredata/hydro-serving
+
+#ML Runtimes + ML models repository
+git clone https://github.com/Hydrospheredata/hydro-serving-runtime
 ```
 
-1. Build project using sh script:
+#### Build modules 
+Change directory to `hydro-serving` and:
+```
+sbt compile docker
+```
+
+Change directory to `hydro-serving-runtime` and:
 ```
 ./build.sh
 ```
@@ -77,33 +88,54 @@ You will get next docker images:
 * `hydrosphere/serving-runtime-py2databricks` - Python 2 runtime with Databricks-like environment.
 * `hydrosphere/serving-runtime-python3` - Python 3 runtime.
 
-2. Run infrastructure and manager:
+#### Run
+##### With Docker Compose
 ```
-docker-compose up consul zipkin manager
+export MODEL_DIRECTORY=/path/to/hydro-serving-runtime/models
+docker-compose up
 ```
-You will get:
-* [Consul-UI](http://localhost:8500/ui/) - http://localhost:8500/ui/
-* [Zipkin-UI](http://localhost:9411/) - http://localhost:9411/
-* [Manager-RestAPI](http://localhost:8080/api/v1/pipelines) - http://localhost:8080/api/v1/pipelines
 
-4. Run repository and gateway
+##### Without Docker Compose
+* Run Zipkin
 ```
-# assuming you are in root of this repository
-export MODEL_DIRECTORY=$(pwd)/models
-docker-compose up gateway repository
+docker run -p 9411:9411 openzipkin/zipkin:1.28.1
 ```
-You will get:
-* [Gateway-RestAPI](http://localhost:8083/api/v1/serve/) - http://localhost:8083/api/v1/serve/...
-* [Repository-RestAPI](http://localhost:8087) - http://localhost:8087
-    1. `GET /metadata/<model_name>` returns metadata of specified model.
-    2. `GET /files/<model_name>` returns a list of model's files.
-    3. `GET /download/<model_name>/<file>` downloads the given file of specified model. Thus, repository also acts as a proxy between Runtime and actually the storage of models.
+* Run database
+```
+docker run -e POSTGRES_DB=docker \
+    -e POSTGRES_USER=docker \
+    -e POSTGRES_PASSWORD=docker \
+    -p 5432:5432 \
+    postgres:9.6-alpine
+```
+* Run manager
+```
+export HOST_IP=$(ifconfig en0 | grep 'inet ' |  awk '{ print $2}')
+export MODEL_DIRECTORY=/path/to/hydro-serving-runtime/models
+docker run -e ADVERTISED_MANAGER_HOST=$HOST_IP \
+    -e DATABASE_HOST=$HOST_IP \
+    -e ZIPKIN_ENABLED=true \
+    -e ZIPKIN_HOST=$HOST_IP \
+    -p 8080:8080 -p 8082:8082 -p 9090:9090 \
+    -v /var/run/docker.sock:/var/run/docker.sock \
+    -v ${MODEL_DIRECTORY}:/models \
+    hydrosphere/serving-manager:0.0.1
+```
+* Run gateway
+```
+HOST_IP=$(ifconfig en0 | grep 'inet ' |  awk '{ print $2}')
+docker run -e MANAGER_HOST=$HOST_IP \
+    -e ZIPKIN_ENABLED=true \
+    -e ZIPKIN_HOST=$HOST_IP \
+    -p 8180:8080 -p 8182:8082 -p 9190:9090 \
+    hydrosphere/serving-gateway:0.0.1
+```
+### Available Resources
+* jdbc:postgresql://localhost:5432/docker - Postgresql
+* http://localhost:9411/zipkin - OpenTracing
+* http://localhost:8080/swagger/swagger-ui.html - Manager
+* http://localhost:8180/api/v1/serve/BLABLABLA - Gateway
 
-
-5. Run runtimes for demo
-```
-docker-compose up localml-spark custom-scikit
-```
 
 ### Create and run pipeline
 
