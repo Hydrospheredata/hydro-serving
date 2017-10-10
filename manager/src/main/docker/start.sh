@@ -22,8 +22,7 @@ SERVICE_ID=$1
 
 JAVA_OPTS="-Xmx$JAVA_XMX -Xms$JAVA_XMX"
 
-APP_OPTS="-Dapplication.port=$APP_HTTP_PORT -Dapplication.appId=$SERVICE_ID"
-APP_OPTS="$APP_OPTS -Dsidecar.port=$SIDECAR_HTTP_PORT"
+APP_OPTS="-Dapplication.port=$APP_HTTP_PORT -Dapplication.appId=$SERVICE_ID -Dsidecar.port=$SIDECAR_HTTP_PORT"
 
 if [ "$CUSTOM_CONFIG" = "" ]
 then
