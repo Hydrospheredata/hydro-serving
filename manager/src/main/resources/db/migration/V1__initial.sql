@@ -26,6 +26,33 @@ CREATE TABLE hydro_serving.model
   updated_timestamp TIMESTAMP WITHOUT TIME ZONE NOT NULL
 );
 
+CREATE TABLE hydro_serving.model_source
+(
+  source_id BIGSERIAL PRIMARY KEY,
+  name TEXT NOT NULL UNIQUE,
+);
+
+CREATE TABLE hydro_serving.local_source
+(
+  source_id BIGINT REFERENCES hydro_serving.model_source(source_id),
+  path TEXT NOT NULL
+);
+
+CREATE TABLE hydro_serving.s3_source
+(
+  source_id BIGINT REFERENCES hydro_serving.model_source(source_id),
+  key_id TEXT NOT NULL,
+  secret_key TEXT NOT NULL,
+  bucket_name TEXT NOT NULL,
+  queue_name TEXT NOT NULL,
+  region TEXT NOT NULL
+);
+
+CREATE TABLE hydro_serving.hdfs_source
+(
+  source_id BIGINT REFERENCES hydro_serving.model_source(source_id),
+  fs_string TEXT NOT NULL
+);
 
 CREATE TABLE hydro_serving.model_runtime
 (

@@ -3,7 +3,8 @@ package io.hydrosphere.serving.manager.controller
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.{WeightedServiceCreateOrUpdateRequest, _}
 import io.hydrosphere.serving.model._
-
+import spray.json.{DeserializationException, JsString, JsValue, RootJsonFormat}
+import spray.json._
 /**
   *
   */
@@ -41,4 +42,25 @@ trait ManagerJsonSupport extends CommonJsonSupport {
   implicit val serveData = jsonFormat3(ServeData)
 
   implicit val weightedServiceCreateOrUpdateRequest = jsonFormat3(WeightedServiceCreateOrUpdateRequest)
+
+  implicit val localModelFormat = jsonFormat3(LocalModelSource.apply)
+  implicit val s3ModelFormat = jsonFormat7(S3ModelSource.apply)
+
+  implicit object ModelSourceJsonFormat extends RootJsonFormat[ModelSource] {
+    def write(a: ModelSource) = a match {
+      case p: LocalModelSource => p.toJson
+      case p: S3ModelSource => p.toJson
+    }
+
+    def read(value: JsValue) = {
+      val keys = value.asJsObject.fields.keys
+      if (keys.exists(_ == JsString("bucketName"))) {
+        value.convertTo[S3ModelSource]
+      } else if (keys.exists(_ == JsString("path"))) {
+        value.convertTo[LocalModelSource]
+      } else {
+        throw DeserializationException(s"$value is not a correct ModelSource")
+      }
+    }
+  }
 }

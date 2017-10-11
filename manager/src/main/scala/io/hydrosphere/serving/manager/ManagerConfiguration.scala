@@ -12,7 +12,18 @@ import collection.JavaConverters._
   *
   */
 
-case class ManagerConfiguration(
+trait ManagerConfiguration {
+  implicit val sidecar: SidecarConfig
+  implicit val application: ApplicationConfig
+  implicit val advertised: AdvertisedConfiguration
+  implicit val modelSources: Seq[ModelSourceConfiguration]
+  implicit val database: Config
+  implicit val cloudDriver: CloudDriverConfiguration
+  implicit val zipkin: ZipkinConfiguration
+  implicit val dockerRepository: DockerRepositoryConfiguration
+}
+
+case class ManagerConfigurationImpl(
   sidecar: SidecarConfig,
   application: ApplicationConfig,
   advertised: AdvertisedConfiguration,
@@ -21,7 +32,7 @@ case class ManagerConfiguration(
   cloudDriver: CloudDriverConfiguration,
   zipkin: ZipkinConfiguration,
   dockerRepository: DockerRepositoryConfiguration
-)
+) extends ManagerConfiguration
 
 case class AdvertisedConfiguration(
   advertisedHost: String,
@@ -174,7 +185,7 @@ object ManagerConfiguration extends Configuration {
 
   */
 
-  def parse(config: Config): ManagerConfiguration = ManagerConfiguration(
+  def parse(config: Config): ManagerConfigurationImpl = ManagerConfigurationImpl(
       sidecar = parseSidecar(config),
       application = parseApplication(config),
       advertised = parseAdvertised(config),

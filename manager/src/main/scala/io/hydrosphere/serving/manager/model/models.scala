@@ -75,3 +75,4 @@ case class ModelServiceInstance(
 class UnknownModelRuntime extends ModelRuntime(
   -1, "", "", "", "", "", None, None, List(), List(), LocalDateTime.now(), None
 )
+
