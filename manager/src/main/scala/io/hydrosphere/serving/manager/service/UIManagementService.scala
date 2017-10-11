@@ -43,11 +43,12 @@ case class UIWeightedServiceCreateOrUpdateRequest(
   kafkaStreamingSources: Option[List[KafkaStreamingParams]]
 ) {
 
-  def toWeightedService: WeightedServiceCreateOrUpdateRequest = {
+  def toWeightedService(sourcesList: List[Long]): WeightedServiceCreateOrUpdateRequest = {
     WeightedServiceCreateOrUpdateRequest(
       id = this.id,
       serviceName = this.serviceName,
-      weights = this.weights
+      weights = this.weights,
+      sourcesList = Option(sourcesList)
     )
   }
 }
@@ -201,22 +202,45 @@ class UIManagementServiceImpl(
       .map(s => s.headOption)
   }
 
+
+  private def addKafkaStreaming(streaming: KafkaStreamingParams, service: WeightedService, runtimeId: Long): Future[WeightedService] = {
+    val configs = Map(
+      "STREAMING_SOURCE_TOPIC" -> streaming.sourceTopic,
+      "STREAMING_DESTINATION_TOPIC" -> streaming.destinationTopic,
+      "STREAMING_BOOTSTRAP_SERVERS" -> streaming.brokerList.mkString(","),
+      "STREAMING_PROCESSOR_ROUTE" -> s"weightedservices${service.id}",
+      "STREAMING_KAFKA_GROUP_ID" -> UUID.randomUUID().toString
+    )
+    runtimeManagementService.addService(CreateModelServiceRequest(
+      serviceName = UUID.randomUUID().toString,
+      modelRuntimeId = runtimeId,
+      configParams = Option(configs)
+    )).flatMap(kafkaService => {
+      servingManagementService.updateWeightedServices(
+        WeightedServiceCreateOrUpdateRequest(
+          id = Some(service.id),
+          serviceName = service.serviceName,
+          weights = service.weights,
+          sourcesList = Some(kafkaService.serviceId :: service.sourcesList)
+        )
+      ).map(_ => service)
+    })
+  }
+
   private def createKafkaForWeightedService(service: WeightedService, list: List[KafkaStreamingParams]): Future[WeightedServiceDetails] = {
     if (list.isEmpty) {
       fetchWeightedServiceById(service.id)
     } else {
       getDefaultKafkaImplementation().flatMap {
         case Some(x) =>
-          Future.traverse(list)(streaming => {
-            val configs = Map(
-              "STREAMING_SOURCE_TOPIC" -> streaming.sourceTopic,
-              "STREAMING_DESTINATION_TOPIC" -> streaming.destinationTopic,
-              "STREAMING_BOOTSTRAP_SERVERS" -> streaming.brokerList.mkString(","),
-              "STREAMING_PROCESSOR_ROUTE" -> s"weightedservices${service.id}",
-              "STREAMING_KAFKA_GROUP_ID" -> UUID.randomUUID().toString
-            )
-            servingManagementService.addTrafficSourceToWeightedService(service.id, x.id, Option(configs))
-          }).flatMap(_ => fetchWeightedServiceById(service.id))
+          //Add service one by one
+          var fAccum = addKafkaStreaming(list.head, service, x.id)
+          for (item <- list.drop(1)) {
+            fAccum = fAccum.flatMap(res => {
+              addKafkaStreaming(item, res, x.id)
+            })
+          }
+          fAccum.flatMap(_ => fetchWeightedServiceById(service.id))
         case _ =>
           //TODO move this check to createWeightedService
           logger.error("Can't find runtime for kafka streaming")
@@ -233,22 +257,42 @@ class UIManagementServiceImpl(
       })
   }
 
+  private def removeKafka(service: WeightedService, kafkaServiceId: Long): Future[WeightedService] =
+    runtimeManagementService.deleteService(kafkaServiceId).flatMap(_ => {
+      servingManagementService.updateWeightedServices(
+        WeightedServiceCreateOrUpdateRequest(
+          id = Some(service.id),
+          serviceName = service.serviceName,
+          weights = service.weights,
+          sourcesList = Some(service.sourcesList.filter(v => v != kafkaServiceId))
+        )
+      )
+    })
+
   private def updateKafkaForWeightedService(service: WeightedService, list: List[KafkaStreamingParams]): Future[WeightedServiceDetails] = {
     val oldServices = list.filter(s => s.serviceId.nonEmpty).map(s => s.serviceId.get)
 
     val servicesToDelete = service.sourcesList.filter(s => !oldServices.contains(s))
-    if (servicesToDelete.nonEmpty) {
-      Future.traverse(servicesToDelete)(s =>
-        servingManagementService.removeTrafficSourceFromWeightedService(service.id, s)
-      ) onFailure {
-        case thr => logger.error("Can't delete all sources ", thr)
+
+    val actualService = if (servicesToDelete.nonEmpty) {
+      var fAccum = removeKafka(service, servicesToDelete.head)
+      for (item <- servicesToDelete.drop(1)) {
+        fAccum = fAccum.flatMap(res => {
+          removeKafka(res, item)
+        })
       }
+      fAccum
+    } else {
+      Future.successful(service)
     }
-    createKafkaForWeightedService(service, list.filter(s => s.serviceId.isEmpty))
+
+    actualService.flatMap(actualService => {
+      createKafkaForWeightedService(actualService, list.filter(s => s.serviceId.isEmpty))
+    })
   }
 
   override def createWeightedService(req: UIWeightedServiceCreateOrUpdateRequest): Future[WeightedServiceDetails] =
-    servingManagementService.createWeightedServices(req.toWeightedService).flatMap(service => {
+    servingManagementService.createWeightedServices(req.toWeightedService(List())).flatMap(service => {
       req.kafkaStreamingSources match {
         case Some(x) => createKafkaForWeightedService(service, x)
         case _ => mapWeighetdService(service)
@@ -257,12 +301,20 @@ class UIManagementServiceImpl(
 
 
   override def updateWeightedService(req: UIWeightedServiceCreateOrUpdateRequest): Future[WeightedServiceDetails] =
-    servingManagementService.updateWeightedServices(req.toWeightedService).flatMap(service => {
-      req.kafkaStreamingSources match {
-        case Some(x) => updateKafkaForWeightedService(service, x)
-        case _ => updateKafkaForWeightedService(service, List())
-      }
-    })
+    servingManagementService.getWeightedService(req.id match {
+      case None => throw new IllegalArgumentException(s"ID required")
+      case Some(r) => r
+    }).flatMap {
+      case None => throw new IllegalArgumentException(s"Can't find service with id=${req.id}")
+      case Some(orgServ) => servingManagementService.updateWeightedServices(req.toWeightedService(orgServ.sourcesList))
+        .flatMap(service => {
+          req.kafkaStreamingSources match {
+            case Some(x) => updateKafkaForWeightedService(service, x)
+            case _ => updateKafkaForWeightedService(service, List())
+          }
+        })
+    }
+
 
   private def mapService(weighted: Seq[WeightedService], services: Seq[ModelService]): Future[Seq[WeightedServiceDetails]] = {
     Future({

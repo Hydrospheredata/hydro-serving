@@ -15,7 +15,8 @@ import scala.concurrent.{ExecutionContext, Future}
 case class WeightedServiceCreateOrUpdateRequest(
   id: Option[Long],
   serviceName: String,
-  weights: List[ServiceWeight]
+  weights: List[ServiceWeight],
+  sourcesList: Option[List[Long]]
 ) {
 
   def toWeightedService: WeightedService = {
@@ -23,7 +24,7 @@ case class WeightedServiceCreateOrUpdateRequest(
       id = this.id.getOrElse(0),
       serviceName = this.serviceName,
       weights = this.weights,
-      sourcesList = List()
+      sourcesList = this.sourcesList.getOrElse(List())
     )
   }
 }
@@ -87,12 +88,6 @@ trait ServingManagementService {
   def getWeightedService(id: Long): Future[Option[WeightedService]]
 
   def serveWeightedService(serviceId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
-
-  def removeTrafficSourceFromWeightedService(serviceId: Long, sourceId: Long): Future[Unit]
-
-  def addTrafficSourceToWeightedService(serviceId: Long, runtimeId: Long, configParams: Option[Map[String, String]]): Future[ModelService]
-
-  def getTrafficSourceForWeightedService(serviceId: Long): Future[List[ModelService]]
 
   def deleteEndpoint(endpointId: Long): Future[Unit]
 
@@ -264,37 +259,6 @@ class ServingManagementServiceImpl(
       case Some(service) =>
         serveModelService(service, servePath, request, headers)
     })
-
-  override def getTrafficSourceForWeightedService(serviceId: Long): Future[List[ModelService]] = {
-    getWeightedServiceWithCheck(serviceId).flatMap(r => {
-      modelServiceRepository.fetchByIds(r.sourcesList).map(s => s.toList)
-    })
-  }
-
-  override def removeTrafficSourceFromWeightedService(serviceId: Long, sourceId: Long): Future[Unit] = {
-    getWeightedServiceWithCheck(serviceId).flatMap(r => {
-      runtimeManagementService.deleteService(sourceId).flatMap(_ => {
-        //TODO change sourcesList column to link table
-        weightedServiceRepository.update(
-          r.copy(sourcesList = r.sourcesList.filter(v => v != sourceId))
-        ).map(_ => Unit)
-      })
-    })
-  }
-
-  override def addTrafficSourceToWeightedService(serviceId: Long, runtimeId: Long, configParams: Option[Map[String, String]]): Future[ModelService] = {
-    getWeightedServiceWithCheck(serviceId).flatMap(weighted => {
-      runtimeManagementService.addService(CreateModelServiceRequest(
-        serviceName = UUID.randomUUID().toString,
-        modelRuntimeId = runtimeId,
-        configParams = configParams
-      )).flatMap(service => {
-        weightedServiceRepository.update(
-          weighted.copy(sourcesList = service.serviceId :: weighted.sourcesList)
-        ).map(_ => service)
-      })
-    })
-  }
 
   private def getWeightedServiceWithCheck(serviceId: Long): Future[WeightedService] = {
     weightedServiceRepository.get(serviceId).map({

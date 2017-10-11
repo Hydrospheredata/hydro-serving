@@ -36,7 +36,7 @@ class WeightedServiceController(servingManagementService: ServingManagementServi
       complete(servingManagementService.allWeightedServices())
     }
   }
-
+  
 
   @Path("/")
   @ApiOperation(value = "Add WeightedService", notes = "Add WeightedService", nickname = "addWeightedService", httpMethod = "POST")
@@ -57,7 +57,6 @@ class WeightedServiceController(servingManagementService: ServingManagementServi
       }
     }
   }
-
 
   @Path("/")
   @ApiOperation(value = "Update WeightedService", notes = "Update WeightedService", nickname = "updateWeightedService", httpMethod = "PUT")
@@ -96,60 +95,6 @@ class WeightedServiceController(servingManagementService: ServingManagementServi
     }
   }
 
-  @Path("/sources/{serviceId}/{sourceId}")
-  @ApiOperation(value = "deleteWeightedServiceSource", notes = "deleteWeightedServiceSource", nickname = "deleteWeightedServiceSource", httpMethod = "DELETE")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "serviceId", required = true, dataType = "long", paramType = "path", value = "serviceId"),
-    new ApiImplicitParam(name = "sourceId", required = true, dataType = "long", paramType = "path", value = "sourceId")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "WeightedServiceSource Deleted"),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
-  def deleteWeightedServiceSource = delete {
-    path("api" / "v1" / "weightedServices" / "sources" / LongNumber / LongNumber) { (serviceId, sourceId) =>
-      onSuccess(servingManagementService.removeTrafficSourceFromWeightedService(serviceId, sourceId)) {
-        complete(200, None)
-      }
-    }
-  }
-
-  @Path("/sources/{serviceId}")
-  @ApiOperation(value = "addWeightedServiceSource", notes = "addWeightedServiceSource", nickname = "addWeightedServiceSource", httpMethod = "POST")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "serviceId", required = true, dataType = "long", paramType = "path", value = "serviceId"),
-    new ApiImplicitParam(name = "body", value = "WeightedService", required = true, dataTypeClass = classOf[WeightedServiceCreateOrUpdateRequest], paramType = "body")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "WeightedService", response = classOf[WeightedService]),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
-  def addWeightedServiceSource = path("api" / "v1" / "weightedServices" / "sources" / LongNumber) { serviceId =>
-    post {
-      entity(as[AddWeightedServiceSourceRequest]) { r =>
-        complete(
-          servingManagementService.addTrafficSourceToWeightedService(serviceId, r.runtimeId, r.configParams)
-        )
-      }
-    }
-  }
-
-
-  @Path("/sources/{serviceId}")
-  @ApiOperation(value = "weightedServiceSources", notes = "weightedServiceSources", nickname = "weightedServiceSources", httpMethod = "GET")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "serviceId", required = true, dataType = "long", paramType = "path", value = "serviceId")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "ModelService", response = classOf[ModelService], responseContainer = "List"),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
-  def listSources = path("api" / "v1" / "weightedServices" / "sources" / LongNumber) { serviceId =>
-    get {
-      complete(servingManagementService.getTrafficSourceForWeightedService(serviceId))
-    }
-  }
-
   @Path("/serve")
   @ApiOperation(value = "Serve WeightedService", notes = "Serve WeightedService", nickname = "ServeWeightedService", httpMethod = "POST")
   @ApiImplicitParams(Array(
@@ -177,9 +122,6 @@ class WeightedServiceController(servingManagementService: ServingManagementServi
       create ~
       update ~
       deleteWeightedService ~
-      serveService ~
-      addWeightedServiceSource ~
-      deleteWeightedServiceSource ~
-      listSources
+      serveService
 
 }
