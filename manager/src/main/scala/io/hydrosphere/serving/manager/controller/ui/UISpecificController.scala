@@ -15,7 +15,7 @@ import scala.concurrent.duration._
 @Path("/ui/v1/model")
 @Api(produces = "application/json", tags = Array("UI: Model"))
 class UISpecificController(
-  uiManagementService: UIManagementService
+  implicit uiManagementService: UIManagementService
 ) extends ManagerJsonSupport {
   implicit val timeout = Timeout(5.seconds)
 

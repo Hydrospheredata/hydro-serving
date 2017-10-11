@@ -11,9 +11,6 @@ import collection.JavaConverters._
 /**
   *
   */
-case class AdvertisedConfiguration(
-  advertisedHost: String,
-  advertisedPort: Int)
 
 case class ManagerConfiguration(
   sidecar: SidecarConfig,
@@ -25,6 +22,10 @@ case class ManagerConfiguration(
   zipkin: ZipkinConfiguration,
   dockerRepository: DockerRepositoryConfiguration
 )
+
+case class AdvertisedConfiguration(
+  advertisedHost: String,
+  advertisedPort: Int)
 
 abstract class ModelSourceConfiguration() {
   val name: String
@@ -174,13 +175,14 @@ object ManagerConfiguration extends Configuration {
   */
 
   def parse(config: Config): ManagerConfiguration = ManagerConfiguration(
-    sidecar = parseSidecar(config),
-    application = parseApplication(config),
-    advertised = parseAdvertised(config),
-    modelSources = parseDataSources(config),
-    database = config.getConfig("database"),
-    cloudDriver = parseCloudDriver(config),
-    zipkin = parseZipkin(config),
-    dockerRepository = parseDockerRepository(config)
-  )
+      sidecar = parseSidecar(config),
+      application = parseApplication(config),
+      advertised = parseAdvertised(config),
+      modelSources = parseDataSources(config),
+      database = config.getConfig("database"),
+      cloudDriver = parseCloudDriver(config),
+      zipkin = parseZipkin(config),
+      dockerRepository = parseDockerRepository(config)
+    )
+
 }

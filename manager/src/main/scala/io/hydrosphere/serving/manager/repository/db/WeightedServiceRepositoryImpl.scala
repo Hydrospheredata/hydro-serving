@@ -10,7 +10,7 @@ import scala.concurrent.{ExecutionContext, Future}
 /**
   *
   */
-class WeightedServiceRepositoryImpl(databaseService: DatabaseService)(implicit executionContext: ExecutionContext)
+class WeightedServiceRepositoryImpl(implicit executionContext: ExecutionContext, databaseService: DatabaseService)
   extends WeightedServiceRepository with Logging {
 
   import databaseService._

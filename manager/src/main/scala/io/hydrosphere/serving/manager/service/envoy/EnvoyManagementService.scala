@@ -79,9 +79,10 @@ trait EnvoyManagementService {
 }
 
 class EnvoyManagementServiceImpl(
+  implicit val ex: ExecutionContext,
   runtimeManagementService: RuntimeManagementService,
   servingManagementService: ServingManagementService
-)(implicit val ex: ExecutionContext) extends EnvoyManagementService with Logging {
+) extends EnvoyManagementService with Logging {
 
   private def fetchGatewayIfNeeded(modelService: ModelService): Future[Seq[ModelServiceInstance]] = {
     if (modelService.serviceId >= 0) {

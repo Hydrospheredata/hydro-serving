@@ -36,10 +36,9 @@ trait RuntimeMeshConnector {
 }
 
 class HttpRuntimeMeshConnector(
-  config: SidecarConfig
-)(
   implicit val system: ActorSystem,
-  implicit val materializer: ActorMaterializer
+  implicit val materializer: ActorMaterializer,
+  config: SidecarConfig
 ) extends RuntimeMeshConnector with CommonJsonSupport with Logging {
   implicit val executionContext = system.dispatcher
 

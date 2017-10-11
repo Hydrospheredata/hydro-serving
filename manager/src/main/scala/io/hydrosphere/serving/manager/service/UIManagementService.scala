@@ -29,6 +29,7 @@ trait UIManagementService {
 }
 
 class UIManagementServiceImpl(
+  implicit val ex: ExecutionContext,
   modelRepository: ModelRepository,
   modelRuntimeRepository: ModelRuntimeRepository,
   modelBuildRepository: ModelBuildRepository,
@@ -36,7 +37,7 @@ class UIManagementServiceImpl(
   runtimeManagementService: RuntimeManagementService,
   servingManagementService: ServingManagementService,
   modelManagementService: ModelManagementService
-)(implicit val ex: ExecutionContext) extends UIManagementService with Logging {
+) extends UIManagementService with Logging {
 
   //TODO Optimize implementation
   override def allModelsWithLastStatus(): Future[Seq[ModelInfo]] =

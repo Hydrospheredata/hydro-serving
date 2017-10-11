@@ -147,6 +147,7 @@ trait ModelManagementService {
 
 
 class ModelManagementServiceImpl(
+  implicit val ex: ExecutionContext,
   runtimeTypeRepository: RuntimeTypeRepository,
   modelRepository: ModelRepository,
   modelFilesRepository: ModelFilesRepository,
@@ -155,7 +156,7 @@ class ModelManagementServiceImpl(
   runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository,
   modelBuildService: ModelBuildService,
   modelPushService: ModelPushService
-)(implicit val ex: ExecutionContext) extends ModelManagementService with Logging {
+) extends ModelManagementService with Logging {
 
   override def createRuntimeType(entity: CreateRuntimeTypeRequest): Future[RuntimeType] =
     runtimeTypeRepository.create(entity.toRuntimeType)

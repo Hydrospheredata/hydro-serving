@@ -17,82 +17,48 @@ import scala.concurrent.ExecutionContext
   *
   */
 class ManagerServices(
-  managerRepositories: ManagerRepositories,
-  managerConfiguration: ManagerConfiguration
-)(
   implicit val ex: ExecutionContext,
   implicit val system: ActorSystem,
-  implicit val materializer: ActorMaterializer
+  implicit val materializer: ActorMaterializer,
+  managerRepositories: ManagerRepositories,
+  managerConfiguration: ManagerConfiguration
 ) {
 
-  val dockerClient: DockerClient = DefaultDockerClient.fromEnv().build()
+  import managerRepositories._
+  import managerConfiguration._
 
-  val runtimeMeshConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector(managerConfiguration.sidecar)
+  implicit val dockerClient: DockerClient = DefaultDockerClient.fromEnv().build()
 
-  val sourceManagementService = new SourceManagementServiceImpl(managerRepositories.sourceRepository)
+  implicit val runtimeMeshConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector
 
-  val modelBuildService: ModelBuildService = new LocalModelBuildService(
-    dockerClient,
-    sourceManagementService
-  )
+  implicit val sourceManagementService = new SourceManagementServiceImpl
 
-  val modelPushService: ModelPushService = managerConfiguration.dockerRepository match {
+  implicit val modelBuildService: ModelBuildService = new LocalModelBuildService
+
+  implicit val modelPushService: ModelPushService = managerConfiguration.dockerRepository match {
     case c: ECSDockerRepositoryConfiguration => new ECSModelPushService(dockerClient, c)
     case _ => new EmptyModelPushService
   }
 
 
-  val modelManagementService: ModelManagementService = new ModelManagementServiceImpl(
-    managerRepositories.runtimeTypeRepository,
-    managerRepositories.modelRepository,
-    managerRepositories.modelFilesRepository,
-    managerRepositories.modelRuntimeRepository,
-    managerRepositories.modelBuildRepository,
-    managerRepositories.runtimeTypeBuildScriptRepository,
-    modelBuildService,
-    modelPushService
-  )
+  implicit val modelManagementService: ModelManagementService = new ModelManagementServiceImpl
 
-  val runtimeDeployService: RuntimeDeployService = managerConfiguration.cloudDriver match {
+  implicit val runtimeDeployService: RuntimeDeployService = managerConfiguration.cloudDriver match {
     case c: SwarmCloudDriverConfiguration => new SwarmRuntimeDeployService(dockerClient, managerConfiguration)
     case c: DockerCloudDriverConfiguration => new DockerRuntimeDeployService(dockerClient, managerConfiguration)
     //TODO change
     case c: ECSCloudDriverConfiguration => new EcsRuntimeDeployService(c, managerConfiguration)
   }
 
-  val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(
-    runtimeDeployService,
-    managerRepositories.modelServiceRepository,
-    managerRepositories.modelRuntimeRepository
-  )
+  implicit val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl
 
-  val servingManagementService: ServingManagementService = new ServingManagementServiceImpl(
-    managerRepositories.endpointRepository,
-    managerRepositories.pipelineRepository,
-    managerRepositories.modelServiceRepository,
-    runtimeMeshConnector,
-    managerRepositories.weightedServiceRepository
-  )
+  implicit val servingManagementService: ServingManagementService = new ServingManagementServiceImpl
 
-  val envoyManagementService = new EnvoyManagementServiceImpl(
-    runtimeManagementService,
-    servingManagementService
-  )
+  implicit val envoyManagementService = new EnvoyManagementServiceImpl
 
-  val envoyAdminConnector=new HttpEnvoyAdminConnector()
+  implicit val envoyAdminConnector=new HttpEnvoyAdminConnector()
 
-  val prometheusMetricsService = new PrometheusMetricsServiceImpl(
-    runtimeManagementService,
-    envoyAdminConnector
-  )
+  implicit val prometheusMetricsService = new PrometheusMetricsServiceImpl
 
-  val uiManagementService = new UIManagementServiceImpl(
-    managerRepositories.modelRepository,
-    managerRepositories.modelRuntimeRepository,
-    managerRepositories.modelBuildRepository,
-    managerRepositories.modelServiceRepository,
-    runtimeManagementService,
-    servingManagementService,
-    modelManagementService
-  )
+  implicit val uiManagementService = new UIManagementServiceImpl
 }

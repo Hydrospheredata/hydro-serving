@@ -20,12 +20,12 @@ object ManagerBoot extends App with Logging {
     implicit val materializer = ActorMaterializer()
     implicit val ex = system.dispatcher
 
-    val configuration = ManagerConfiguration.parse(ConfigFactory.load())
+    implicit val configuration = ManagerConfiguration.parse(ConfigFactory.load())
 
-    val managerRepositories = new ManagerRepositoriesConfig(configuration)
-    val managerServices = new ManagerServices(managerRepositories, configuration)
-    val managerApi = new ManagerApi(managerServices)
-    val managerActors = new ManagerActors(managerServices)
+    implicit val managerRepositories = new ManagerRepositoriesConfig
+    implicit val managerServices = new ManagerServices
+    implicit val managerApi = new ManagerApi
+    implicit val managerActors = new ManagerActors
 
 
     Http().bindAndHandle(managerApi.routes, "0.0.0.0", configuration.application.port)

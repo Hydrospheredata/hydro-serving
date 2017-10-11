@@ -11,10 +11,9 @@ import org.apache.logging.log4j.scala.Logging
   *
   */
 class ManagerActors(
-  managerServices: ManagerServices
-)(
   implicit val system: ActorSystem,
-  implicit val materializer: ActorMaterializer
+  implicit val materializer: ActorMaterializer,
+  managerServices: ManagerServices
 ) extends Logging {
 
   val repoActor = system.actorOf(RepositoryActor.props(managerServices.modelManagementService))

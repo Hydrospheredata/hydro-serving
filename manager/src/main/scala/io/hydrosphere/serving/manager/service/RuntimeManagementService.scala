@@ -49,10 +49,11 @@ trait RuntimeManagementService {
 
 //TODO ADD cache
 class RuntimeManagementServiceImpl(
+  implicit val ex: ExecutionContext,
   runtimeDeployService: RuntimeDeployService,
   modelServiceRepository: ModelServiceRepository,
   modelRuntimeRepository: ModelRuntimeRepository
-)(implicit val ex: ExecutionContext) extends RuntimeManagementService {
+) extends RuntimeManagementService {
 
   override def allServices(): Future[Seq[ModelService]] =
     Future(runtimeDeployService.serviceList())

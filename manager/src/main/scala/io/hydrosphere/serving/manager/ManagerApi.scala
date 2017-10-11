@@ -22,32 +22,31 @@ import scala.reflect.runtime.{universe => ru}
 /**
   *
   */
-class ManagerApi(managerServices: ManagerServices)
-  (implicit val system: ActorSystem, implicit val ex: ExecutionContext) extends Logging {
-  val commonController = new CommonController()
+class ManagerApi
+  (implicit val system: ActorSystem, implicit val ex: ExecutionContext, managerServices: ManagerServices) extends Logging {
+  import managerServices._
 
-  val runtimeTypeController = new RuntimeTypeController(managerServices.modelManagementService)
+  val commonController = new CommonController
 
-  val modelController = new ModelController(managerServices.modelManagementService)
+  val runtimeTypeController = new RuntimeTypeController
 
-  val modelRuntimeController = new ModelRuntimeController(managerServices.modelManagementService)
+  val modelController = new ModelController
 
-  val modelServiceController = new ModelServiceController(
-    managerServices.runtimeManagementService,
-    managerServices.servingManagementService
-  )
+  val modelRuntimeController = new ModelRuntimeController
 
-  val pipelineController = new PipelineController(managerServices.servingManagementService)
+  val modelServiceController = new ModelServiceController
 
-  val weightedServiceController = new WeightedServiceController(managerServices.servingManagementService)
+  val pipelineController = new PipelineController
 
-  val endpointController = new EndpointController(managerServices.servingManagementService)
+  val weightedServiceController = new WeightedServiceController
 
-  val envoyManagementController = new EnvoyManagementController(managerServices.envoyManagementService)
+  val endpointController = new EndpointController
 
-  val prometheusMetricsController = new PrometheusMetricsController(managerServices.prometheusMetricsService)
+  val envoyManagementController = new EnvoyManagementController
 
-  val uiSpecificController = new UISpecificController(managerServices.uiManagementService)
+  val prometheusMetricsController = new PrometheusMetricsController
+
+  val uiSpecificController = new UISpecificController
 
   val swaggerController = new SwaggerDocController(system) {
     override val apiTypes: Seq[ru.Type] = Seq(

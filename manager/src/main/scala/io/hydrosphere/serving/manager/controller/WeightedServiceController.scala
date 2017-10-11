@@ -17,7 +17,7 @@ import scala.concurrent.duration._
   */
 @Path("/api/v1/weightedServices")
 @Api(produces = "application/json", tags = Array("Deployment: Weighted Service"))
-class WeightedServiceController(servingManagementService: ServingManagementService) extends ManagerJsonSupport {
+class WeightedServiceController(implicit servingManagementService: ServingManagementService) extends ManagerJsonSupport {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/")

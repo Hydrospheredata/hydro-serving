@@ -105,12 +105,13 @@ trait ServingManagementService {
 }
 
 class ServingManagementServiceImpl(
+  implicit val ex: ExecutionContext,
   endpointRepository: EndpointRepository,
   pipelineRepository: PipelineRepository,
   modelServiceRepository: ModelServiceRepository,
   runtimeMeshConnector: RuntimeMeshConnector,
   weightedServiceRepository: WeightedServiceRepository
-)(implicit val ex: ExecutionContext) extends ServingManagementService {
+) extends ServingManagementService {
 
   override def deletePipeline(pipelineId: Long): Future[Unit] =
     pipelineRepository.delete(pipelineId).map(p => Unit)
