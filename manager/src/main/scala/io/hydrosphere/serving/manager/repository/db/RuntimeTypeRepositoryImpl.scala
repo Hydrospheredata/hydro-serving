@@ -11,7 +11,7 @@ import scala.concurrent.{ExecutionContext, Future}
   *
   */
 class RuntimeTypeRepositoryImpl(databaseService: DatabaseService)(implicit executionContext: ExecutionContext)
-  extends RuntimeTypeRepository with Logging{
+  extends RuntimeTypeRepository with Logging {
 
   import databaseService._
   import databaseService.driver.api._
@@ -33,7 +33,13 @@ class RuntimeTypeRepositoryImpl(databaseService: DatabaseService)(implicit execu
 
   override def create(entity: RuntimeType): Future[RuntimeType] =
     db.run(
-      Tables.RuntimeType returning Tables.RuntimeType += Tables.RuntimeTypeRow(entity.id, entity.name, entity.version, entity.tags)
+      Tables.RuntimeType returning Tables.RuntimeType += Tables.RuntimeTypeRow(
+        entity.id,
+        entity.name,
+        entity.version,
+        entity.tags,
+        entity.configParams.map { case (k, v) => s"$k=$v" }.toList
+      )
     ).map(s => mapFromDb(s))
 
   override def get(id: Long): Future[Option[RuntimeType]] =
@@ -54,6 +60,13 @@ class RuntimeTypeRepositoryImpl(databaseService: DatabaseService)(implicit execu
       Tables.RuntimeType
         .result
     ).map(s => s.map(ss => mapFromDb(ss)))
+
+  override def fetchByTags(tags: Seq[String]): Future[Seq[RuntimeType]] =
+    db.run(
+      Tables.RuntimeType
+        .filter(p => p.tags @> tags.toList)
+        .result
+    ).map(s => s.map(ss => mapFromDb(ss)))
 }
 
 object RuntimeTypeRepositoryImpl {
@@ -68,7 +81,11 @@ object RuntimeTypeRepositoryImpl {
       id = dbType.runtimeTypeId,
       name = dbType.name,
       version = dbType.version,
-      tags = dbType.tags
+      tags = dbType.tags,
+      configParams = dbType.configParams.map(s => {
+        val arr = s.split('=')
+        arr.head -> arr.drop(1).mkString("=")
+      }).toMap
     )
   }
 }
