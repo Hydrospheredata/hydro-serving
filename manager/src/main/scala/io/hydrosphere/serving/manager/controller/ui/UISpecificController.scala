@@ -6,7 +6,7 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Directives.{complete, get, path}
 import akka.util.Timeout
 import io.hydrosphere.serving.controller.TracingHeaders
-import io.hydrosphere.serving.manager.controller.{BuildModelRequest, ManagerJsonSupport, ServeData}
+import io.hydrosphere.serving.manager.controller.{BuildModelRequest, ServeData}
 import io.hydrosphere.serving.manager.service.{ModelInfo, UIManagementService}
 import io.swagger.annotations._
 
@@ -16,7 +16,7 @@ import scala.concurrent.duration._
 @Api(produces = "application/json", tags = Array("UI: Model"))
 class UISpecificController(
   uiManagementService: UIManagementService
-) extends ManagerJsonSupport {
+) extends UIJsonSupport {
   implicit val timeout = Timeout(5.seconds)
 
   @Path("/withInfo")
