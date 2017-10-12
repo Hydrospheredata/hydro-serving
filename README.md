@@ -47,7 +47,7 @@ Additional out of the box features include Rate limiting, Load balancing, Circui
 
 ## Structure
 * [sidecar](/sidecar) contains implementation of the sidecar pattern for ML runtimes.
-* [mist-local-ml](/mist-local-ml) contains local SparkMl implementation. (Derived from Hydrosphere Mist)
+* [spark-ml-serving](https://github.com/Hydrospheredata/spark-ml-serving) contains local SparkMl implementation. (Derived from Hydrosphere Mist)
 * [gateway](/gateway) is a simple gateway of the whole project. For now, it's just set up Nginx.
 * [manager](/manager) is a module that rules over all ML models, knows where they are, what they are.
 * [runtimes and models repository](https://github.com/Hydrospheredata/hydro-serving-runtime)
