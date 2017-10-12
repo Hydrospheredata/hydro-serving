@@ -11,11 +11,13 @@ case class ModelMetadata(
 
 trait FieldType
 object FieldType {
-  case object FInteger extends FieldType
-  case object FFloat extends FieldType
-  case class FList(
-    itemType: FieldType,
-    size: Long
+  trait ScalarField extends FieldType
+  case object FInteger extends ScalarField
+  case object FFloat extends ScalarField
+  case object FString extends ScalarField
+  case class FMatrix (
+    itemType: ScalarField,
+    shape: List[Long]
   ) extends FieldType
 }
 

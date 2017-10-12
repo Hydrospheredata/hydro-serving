@@ -10,23 +10,34 @@ import spray.json._
   *
   */
 trait ManagerJsonSupport extends CommonJsonSupport {
-  implicit object FieldTypeFormat extends RootJsonFormat[FieldType] {
-    override def read(json: JsValue): FieldType = json match {
+  implicit object ScalarFieldFormat extends RootJsonFormat[FieldType.ScalarField] {
+    override def read(json: JsValue): FieldType.ScalarField = json match {
       case JsString("integer") => FieldType.FInteger
       case JsString("float") => FieldType.FFloat
-      case JsObject(field) if field.get("type").isDefined && field("type") == JsString("list") =>
-        FieldType.FList(field("item_type").convertTo[FieldType], field("size").convertTo[Long])
+      case JsString("string") => FieldType.FString
+      case _ => throw DeserializationException(s"$json is not a valid scalar type definition.")
+    }
+
+    override def write(obj: FieldType.ScalarField): JsValue = obj match {
+      case FieldType.FInteger => JsString("integer")
+      case FieldType.FFloat => JsString("float")
+      case FieldType.FString => JsString("string")
+    }
+  }
+
+  implicit object FieldTypeFormat extends RootJsonFormat[FieldType] {
+    override def read(json: JsValue): FieldType = json match {
+      case JsObject(field) if field.get("type").isDefined && field("type") == JsString("matrix") =>
+        FieldType.FMatrix(field("item_type").convertTo[FieldType.ScalarField], field("shape").convertTo[List[Long]])
       case _ => throw DeserializationException(s"$json is not a valid field type definition.")
     }
 
     override def write(obj: FieldType): JsValue = obj match {
-      case FieldType.FInteger => JsString("integer")
-      case FieldType.FFloat => JsString("float")
-      case FieldType.FList(fType, size) =>
+      case FieldType.FMatrix(fType, shape) =>
         val s = Map(
-          "size" -> JsNumber(size),
+          "shape" -> JsArray(shape.map(JsNumber(_)).toVector),
           "item_type" -> fType.toJson,
-          "type" -> JsString("list")
+          "type" -> JsString("matrix")
         )
         JsObject(s)
     }
