@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.controller
 
 import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.service.modelfetcher.{FieldType, ModelField}
 import io.hydrosphere.serving.manager.service.{WeightedServiceCreateOrUpdateRequest, _}
 import io.hydrosphere.serving.model._
 import spray.json.{DeserializationException, JsString, JsValue, RootJsonFormat}
@@ -9,6 +10,43 @@ import spray.json._
   *
   */
 trait ManagerJsonSupport extends CommonJsonSupport {
+  implicit object FieldTypeFormat extends RootJsonFormat[FieldType] {
+    override def read(json: JsValue): FieldType = json match {
+      case JsString("integer") => FieldType.FInteger
+      case JsString("float") => FieldType.FFloat
+      case JsObject(field) if field.get("type").isDefined && field("type") == JsString("list") =>
+        FieldType.FList(field("item_type").convertTo[FieldType], field("size").convertTo[Long])
+      case _ => throw DeserializationException(s"$json is not a valid field type definition.")
+    }
+
+    override def write(obj: FieldType): JsValue = obj match {
+      case FieldType.FInteger => JsString("integer")
+      case FieldType.FFloat => JsString("float")
+      case FieldType.FList(fType, size) =>
+        val s = Map(
+          "size" -> JsNumber(size),
+          "item_type" -> fType.toJson,
+          "type" -> JsString("list")
+        )
+        JsObject(s)
+    }
+  }
+
+  implicit val typedFieldFormat = jsonFormat2(ModelField.TypedField)
+  implicit object ModelFieldFormat extends RootJsonFormat[ModelField] {
+    def write(a: ModelField) = a match {
+      case p: ModelField.UntypedField => JsString(p.name)
+      case p: ModelField.TypedField => p.toJson
+    }
+
+    def read(value: JsValue) = value match {
+      case JsString(name) => ModelField.UntypedField(name)
+      case obj: JsObject => obj.convertTo[ModelField.TypedField]
+      case _ => throw DeserializationException(s"$value is not a valid model field definition.")
+    }
+  }
+
+
   implicit val modelBuildStatusFormat = new EnumJsonConverter(ModelBuildStatus)
   implicit val modelServiceInstanceStatusFormat = new EnumJsonConverter(ModelServiceInstanceStatus)
 

@@ -94,8 +94,8 @@ object SparkModelFetcher extends ModelFetcher with Logging {
         ModelMetadata(
           directory,
           Some(getRuntimeType(pipelineMetadata)),
-          getOutputCols(stagesMetadata),
-          getInputCols(stagesMetadata)
+          getOutputCols(stagesMetadata).map(ModelField.UntypedField),
+          getInputCols(stagesMetadata).map(ModelField.UntypedField)
         )
       )
     } catch {

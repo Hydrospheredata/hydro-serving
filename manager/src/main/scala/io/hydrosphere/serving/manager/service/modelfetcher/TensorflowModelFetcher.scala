@@ -20,13 +20,14 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
       val metagraph = savedModel.getMetaGraphs(0)
       val signature = metagraph.getSignatureDefMap.get("serving_default")
       val inputs = signature.getInputsMap.keySet.toList
+      val fullInputs = signature.getInputsMap.entrySet().map{ e => e.getKey -> e.getValue}.toMap
       val outputs = signature.getOutputsMap.keySet.toList
       Some(
         ModelMetadata(
           directory,
           Some(new SchematicRuntimeType("hydrosphere/serving-runtime-tensorflow", "0.0.1")),
-          outputs,
-          inputs
+          outputs.map(ModelField.UntypedField),
+          inputs.map(ModelField.UntypedField)
         )
       )
     } catch {

@@ -19,8 +19,8 @@ CREATE TABLE hydro_serving.model
   name              TEXT                        NOT NULL,
   source            TEXT                        NOT NULL UNIQUE,
   runtime_type_id   BIGINT REFERENCES runtime_type (runtime_type_id),
-  output_fields     TEXT []                     NOT NULL,
-  input_fields      TEXT []                     NOT NULL,
+  output_fields     JSON                     NOT NULL,
+  input_fields      JSON                     NOT NULL,
   description       TEXT,
   created_timestamp TIMESTAMP WITHOUT TIME ZONE NOT NULL,
   updated_timestamp TIMESTAMP WITHOUT TIME ZONE NOT NULL
@@ -29,7 +29,7 @@ CREATE TABLE hydro_serving.model
 CREATE TABLE hydro_serving.model_source
 (
   source_id BIGSERIAL PRIMARY KEY,
-  name TEXT NOT NULL UNIQUE,
+  name TEXT NOT NULL UNIQUE
 );
 
 CREATE TABLE hydro_serving.local_source

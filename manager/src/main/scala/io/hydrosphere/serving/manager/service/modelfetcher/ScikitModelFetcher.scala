@@ -43,8 +43,8 @@ object ScikitModelFetcher extends ModelFetcher with Logging {
       Some(ModelMetadata(
         directory,
         Some(new SchematicRuntimeType("hydrosphere/serving-runtime-scikit", "0.0.1")),
-        metadata.outputs,
-        metadata.inputs
+        metadata.outputs.map(ModelField.UntypedField),
+        metadata.inputs.map(ModelField.UntypedField)
       ))
     } catch {
       case e: NoSuchFileException =>

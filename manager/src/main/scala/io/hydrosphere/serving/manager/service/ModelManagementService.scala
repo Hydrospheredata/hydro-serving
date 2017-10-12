@@ -5,7 +5,7 @@ import java.time.LocalDateTime
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.repository._
-import io.hydrosphere.serving.manager.service.modelfetcher.{ModelFetcher, ModelMetadata}
+import io.hydrosphere.serving.manager.service.modelfetcher.{ModelFetcher, ModelField, ModelMetadata}
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.model._
 import org.apache.logging.log4j.scala.Logging
@@ -34,8 +34,8 @@ case class CreateOrUpdateModelRequest(
   source: String,
   runtimeTypeId: Option[Long],
   description: Option[String],
-  outputFields: Option[List[String]],
-  inputFields: Option[List[String]]
+  outputFields: Option[List[ModelField]],
+  inputFields: Option[List[ModelField]]
 ) {
   def toModel(runtimeType: Option[RuntimeType]): Model = {
     Model(
@@ -282,8 +282,8 @@ class ModelManagementServiceImpl(
           modelVersion = modelBuild.modelVersion,
           source = Some(modelBuild.model.source),
           runtimeType = modelBuild.model.runtimeType,
-          outputFields = modelBuild.model.outputFields,
-          inputFields = modelBuild.model.inputFields,
+          outputFields = modelBuild.model.outputFields.map(ModelField.extractName),
+          inputFields = modelBuild.model.inputFields.map(ModelField.extractName),
           created = LocalDateTime.now,
           modelId = Some(modelBuild.model.id)
         )).flatMap(modelRuntime => {
