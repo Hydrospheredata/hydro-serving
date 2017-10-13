@@ -270,7 +270,10 @@ class UIManagementServiceImpl(
     })
 
   private def updateKafkaForWeightedService(service: WeightedService, list: List[KafkaStreamingParams]): Future[WeightedServiceDetails] = {
-    val oldServices = list.filter(s => s.serviceId.nonEmpty).map(s => s.serviceId.get)
+    val oldServices = list
+      .filter(s => s.serviceId.nonEmpty)
+      .filter(s => s.serviceId.get > 0)
+      .map(s => s.serviceId.get)
 
     val servicesToDelete = service.sourcesList.filter(s => !oldServices.contains(s))
 
