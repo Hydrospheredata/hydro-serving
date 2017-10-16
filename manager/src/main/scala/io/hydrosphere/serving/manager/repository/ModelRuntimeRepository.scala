@@ -14,4 +14,5 @@ trait ModelRuntimeRepository extends BaseRepository[ModelRuntime, Long] {
 
   def lastModelRuntimeForModels(modelIds: Seq[Long]): Future[Seq[ModelRuntime]]
 
+  def fetchByTags(tags:Seq[String]): Future[Seq[ModelRuntime]]
 }

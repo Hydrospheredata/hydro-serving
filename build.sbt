@@ -26,7 +26,8 @@ lazy val root = project.in(file("."))
     sidecar,
     common,
     manager,
-    gateway
+    gateway,
+    streamingKafka
   )
 
 lazy val sidecar = project.in(file("sidecar"))
@@ -47,6 +48,12 @@ lazy val gateway = project.in(file("gateway"))
   .settings(currentSettings)
   .settings(Common.settings)
   .settings(libraryDependencies ++= Dependencies.commonDependencies)
+  .dependsOn(sidecar, common)
+
+lazy val streamingKafka = project.in(file("streaming-kafka"))
+  .settings(currentSettings)
+  .settings(Common.settings)
+  .settings(libraryDependencies ++= Dependencies.streamingKafkaDependencies)
   .dependsOn(sidecar, common)
 
 lazy val manager = project.in(file("manager"))
