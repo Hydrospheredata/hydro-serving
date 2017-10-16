@@ -173,15 +173,19 @@ class UIManagementServiceImpl(
       runtimes.headOption match {
         case None => throw new IllegalArgumentException("Can't find runtime for model")
         case Some(x) =>
-          runtimeManagementService.addService(CreateModelServiceRequest(
-            serviceName = x.modelName,
-            modelRuntimeId = x.id,
-            configParams = None
-          )).flatMap(res => {
+          runtimeManagementService.addService(createModelServiceRequest(x)).flatMap(res => {
             waitForContainerStart(res).map(c => res)
           })
       }
     })
+
+  private def createModelServiceRequest(x:ModelRuntime):CreateModelServiceRequest={
+    CreateModelServiceRequest(
+      serviceName = s"${x.modelName}_${x.modelVersion}".replaceAll("\\.", "-"),
+      modelRuntimeId = x.id,
+      configParams = None
+    )
+  }
 
   //TODO add /health url checking
   private def waitForContainerStart(service: ModelService): Future[Unit] = {
@@ -195,11 +199,7 @@ class UIManagementServiceImpl(
 
   override def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelInfo] =
     modelManagementService.buildModel(modelId, modelVersion).flatMap(runtime => {
-      runtimeManagementService.addService(CreateModelServiceRequest(
-        serviceName = runtime.modelName,
-        modelRuntimeId = runtime.id,
-        configParams = None
-      )).flatMap(_ => modelWithLastStatus(modelId).map(o => o.get))
+      runtimeManagementService.addService(createModelServiceRequest(runtime)).flatMap(_ => modelWithLastStatus(modelId).map(o => o.get))
     })
 
   private def getDefaultKafkaImplementation(): Future[Option[ModelRuntime]] = {
@@ -302,11 +302,7 @@ class UIManagementServiceImpl(
   private def createServiceForRuntime(runtimeId: Long, runtimeToService: Map[Long, Long]): Future[Map[Long, Long]] = {
     modelRuntimeRepository.get(runtimeId).flatMap {
       case None => throw new IllegalArgumentException(s"Can't find runtime with id=$runtimeId")
-      case Some(x) => runtimeManagementService.addService(CreateModelServiceRequest(
-        serviceName = s"${x.modelName}_${x.modelVersion}".replaceAll("\\.", "-"),
-        modelRuntimeId = runtimeId,
-        configParams = None
-      )).map(ser => {
+      case Some(x) => runtimeManagementService.addService(createModelServiceRequest(x)).map(ser => {
         runtimeToService + (runtimeId -> ser.serviceId)
       })
     }
