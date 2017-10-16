@@ -36,18 +36,23 @@ case class KafkaStreamingParams(
   brokerList: List[String]
 )
 
+case class UIServiceWeight(
+  runtimeId: Long,
+  weight: Int
+)
+
 case class UIWeightedServiceCreateOrUpdateRequest(
   id: Option[Long],
   serviceName: String,
-  weights: List[ServiceWeight],
+  weights: List[UIServiceWeight],
   kafkaStreamingSources: Option[List[KafkaStreamingParams]]
 ) {
 
-  def toWeightedService(sourcesList: List[Long]): WeightedServiceCreateOrUpdateRequest = {
+  def toWeightedService(sourcesList: List[Long], weights: List[ServiceWeight]): WeightedServiceCreateOrUpdateRequest = {
     WeightedServiceCreateOrUpdateRequest(
       id = this.id,
       serviceName = this.serviceName,
-      weights = this.weights,
+      weights = weights,
       sourcesList = Option(sourcesList)
     )
   }
@@ -168,15 +173,19 @@ class UIManagementServiceImpl(
       runtimes.headOption match {
         case None => throw new IllegalArgumentException("Can't find runtime for model")
         case Some(x) =>
-          runtimeManagementService.addService(CreateModelServiceRequest(
-            serviceName = x.modelName,
-            modelRuntimeId = x.id,
-            configParams = None
-          )).flatMap(res => {
+          runtimeManagementService.addService(createModelServiceRequest(x)).flatMap(res => {
             waitForContainerStart(res).map(c => res)
           })
       }
     })
+
+  private def createModelServiceRequest(x:ModelRuntime):CreateModelServiceRequest={
+    CreateModelServiceRequest(
+      serviceName = s"${x.modelName}_${x.modelVersion}".replaceAll("\\.", "-"),
+      modelRuntimeId = x.id,
+      configParams = None
+    )
+  }
 
   //TODO add /health url checking
   private def waitForContainerStart(service: ModelService): Future[Unit] = {
@@ -190,11 +199,7 @@ class UIManagementServiceImpl(
 
   override def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelInfo] =
     modelManagementService.buildModel(modelId, modelVersion).flatMap(runtime => {
-      runtimeManagementService.addService(CreateModelServiceRequest(
-        serviceName = runtime.modelName,
-        modelRuntimeId = runtime.id,
-        configParams = None
-      )).flatMap(_ => modelWithLastStatus(modelId).map(o => o.get))
+      runtimeManagementService.addService(createModelServiceRequest(runtime)).flatMap(_ => modelWithLastStatus(modelId).map(o => o.get))
     })
 
   private def getDefaultKafkaImplementation(): Future[Option[ModelRuntime]] = {
@@ -270,7 +275,10 @@ class UIManagementServiceImpl(
     })
 
   private def updateKafkaForWeightedService(service: WeightedService, list: List[KafkaStreamingParams]): Future[WeightedServiceDetails] = {
-    val oldServices = list.filter(s => s.serviceId.nonEmpty).map(s => s.serviceId.get)
+    val oldServices = list
+      .filter(s => s.serviceId.nonEmpty)
+      .filter(s => s.serviceId.get > 0)
+      .map(s => s.serviceId.get)
 
     val servicesToDelete = service.sourcesList.filter(s => !oldServices.contains(s))
 
@@ -291,12 +299,55 @@ class UIManagementServiceImpl(
     })
   }
 
+  private def createServiceForRuntime(runtimeId: Long, runtimeToService: Map[Long, Long]): Future[Map[Long, Long]] = {
+    modelRuntimeRepository.get(runtimeId).flatMap {
+      case None => throw new IllegalArgumentException(s"Can't find runtime with id=$runtimeId")
+      case Some(x) => runtimeManagementService.addService(createModelServiceRequest(x)).map(ser => {
+        runtimeToService + (runtimeId -> ser.serviceId)
+      })
+    }
+  }
+
+  private def checkAndStartRuntime(weights: List[UIServiceWeight]): Future[List[ServiceWeight]] = {
+    //TODO optimize, avoid cycle and contains
+    val runtimesIds = weights.map(w => w.runtimeId)
+    runtimeManagementService.getServicesByRuntimes(runtimesIds)
+      .flatMap(services => {
+        val runtimeToService = services.map(s => s.modelRuntime.id -> s.serviceId).toMap
+        val toCreate = runtimesIds.filterNot(r => runtimeToService.contains(r))
+
+        val fWithMappings = {
+          if (toCreate.nonEmpty) {
+            var fAccum = createServiceForRuntime(toCreate.head, runtimeToService)
+            for (item <- toCreate.drop(1)) {
+              fAccum = fAccum.flatMap(res => {
+                createServiceForRuntime(item, res)
+              })
+            }
+            fAccum
+          } else {
+            Future.successful(runtimeToService)
+          }
+        }
+
+        fWithMappings.map(index => {
+          weights.map(w => ServiceWeight(
+            weight = w.weight,
+            serviceId = index.getOrElse(w.runtimeId, throw new RuntimeException(s"Can't find service for runtimeId=$w"))
+          ))
+        })
+      })
+  }
+
   override def createWeightedService(req: UIWeightedServiceCreateOrUpdateRequest): Future[WeightedServiceDetails] =
-    servingManagementService.createWeightedServices(req.toWeightedService(List())).flatMap(service => {
-      req.kafkaStreamingSources match {
-        case Some(x) => createKafkaForWeightedService(service, x)
-        case _ => mapWeighetdService(service)
-      }
+    checkAndStartRuntime(req.weights).flatMap(weights => {
+      servingManagementService.createWeightedServices(req.toWeightedService(List(), weights))
+        .flatMap(service => {
+          req.kafkaStreamingSources match {
+            case Some(x) => createKafkaForWeightedService(service, x)
+            case _ => mapWeighetdService(service)
+          }
+        })
     })
 
 
@@ -306,13 +357,17 @@ class UIManagementServiceImpl(
       case Some(r) => r
     }).flatMap {
       case None => throw new IllegalArgumentException(s"Can't find service with id=${req.id}")
-      case Some(orgServ) => servingManagementService.updateWeightedServices(req.toWeightedService(orgServ.sourcesList))
-        .flatMap(service => {
-          req.kafkaStreamingSources match {
-            case Some(x) => updateKafkaForWeightedService(service, x)
-            case _ => updateKafkaForWeightedService(service, List())
-          }
-        })
+      case Some(orgServ) => checkAndStartRuntime(req.weights).flatMap(weights => {
+        servingManagementService.updateWeightedServices(req.toWeightedService(orgServ.sourcesList, weights))
+          .flatMap(service => {
+            req.kafkaStreamingSources match {
+              case Some(x) => updateKafkaForWeightedService(service, x)
+              case _ => updateKafkaForWeightedService(service, List())
+            }
+          })
+      })
+
+
     }
 
 

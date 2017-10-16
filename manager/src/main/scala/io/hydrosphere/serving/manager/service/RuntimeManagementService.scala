@@ -47,6 +47,8 @@ trait RuntimeManagementService {
 
   def getServicesByModel(modelId: Long): Future[Seq[ModelService]]
 
+  def getServicesByRuntimes(runtimeId: Seq[Long]): Future[Seq[ModelService]]
+
 }
 
 //TODO ADD cache
@@ -154,4 +156,8 @@ class RuntimeManagementServiceImpl(
   override def getServicesByModel(modelId: Long): Future[Seq[ModelService]] =
     allServices().flatMap(s =>
       Future.successful(s.filter(service => service.modelRuntime.modelId.fold(false)(l => l == modelId))))
+
+  override def getServicesByRuntimes(runtimeIds: Seq[Long]): Future[Seq[ModelService]] =
+    allServices().flatMap(s =>
+      Future.successful(s.filter(service => runtimeIds.contains(service.modelRuntime.id))))
 }
