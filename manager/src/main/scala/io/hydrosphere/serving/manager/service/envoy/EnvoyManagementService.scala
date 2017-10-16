@@ -101,35 +101,47 @@ class EnvoyManagementServiceImpl(
             val routeHosts = mutable.MutableList[EnvoyRouteHost]()
 
             wightedServices.foreach(s => {
+              val weights=Some(EnvoyRouteWeightedClusters(
+                s.weights.map(w => EnvoyRouteWeightedCluster(
+                  //TODO optimize search
+                  name = services.find(f => f.serviceId == w.serviceId).get.serviceName,
+                  weight = w.weight
+                ))
+              ))
+
               routeHosts += EnvoyRouteHost(
-                name = s.serviceName,
-                domains = Seq(s.serviceName),
+                name = s.serviceName.toLowerCase,
+                domains = Seq(s.serviceName.toLowerCase),
                 routes = Seq(EnvoyRoute(
                   prefix = "/",
                   cluster = None,
-                  weighted_clusters = Some(EnvoyRouteWeightedClusters(
-                    s.weights.map(w => EnvoyRouteWeightedCluster(
-                      //TODO optimize search
-                      name = services.find(f => f.serviceId == w.serviceId).get.serviceName,
-                      weight = w.weight
-                    ))
-                  ))))
+                  weighted_clusters = weights))
               )
+              if(s.sourcesList.nonEmpty){
+                routeHosts += EnvoyRouteHost(
+                  name = s"weightedservices${s.id}",
+                  domains = Seq(s"weightedservices${s.id}"),
+                  routes = Seq(EnvoyRoute(
+                    prefix = "/",
+                    cluster = None,
+                    weighted_clusters = weights))
+                )
+              }
             })
 
             services.filter(s => s.serviceId != serviceId)
               .foreach(s => {
                 routeHosts += EnvoyRouteHost(
-                  name = s.serviceName,
-                  domains = Seq(s.serviceName),
+                  name = s.serviceName.toLowerCase,
+                  domains = Seq(s.serviceName.toLowerCase),
                   routes = Seq(EnvoyRoute("/", Some(s.serviceName), None))
                 )
               })
 
             gatewayServiceInstances.foreach(s => {
               routeHosts += EnvoyRouteHost(
-                name = s.instanceId,
-                domains = Seq(s.instanceId),
+                name = s.instanceId.toLowerCase,
+                domains = Seq(s.instanceId.toLowerCase),
                 routes = Seq(EnvoyRoute("/", Some(UUID.nameUUIDFromBytes(s.instanceId.getBytes()).toString), None))
               )
             })

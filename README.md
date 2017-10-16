@@ -6,6 +6,8 @@ Main Features:
 * **Serverless**. It is as easy as AWS Lambda in your data center or VPC. 
 * **Multi-framework Pipelines** (e.g. Scikit-learn -> Spark ML -> TensorFlow pipeline)
 
+![Image](docs/images/mllambda.png)
+
 ##### Story
 Deploying skit-learn models for serving online user requests is pretty simple: just spin up an HTTP server, load the model and call `predict()` method. Performance wise it will satisfy most of the use cases.
 TensorFlow serving is a bit more complicated to manage but feasible as well.
@@ -44,65 +46,96 @@ So, the transport layer between model runtimes could be changed from HTTP to uni
 Additional out of the box features include Rate limiting, Load balancing, Circuit breaking, Tracing, Statistics.
 
 ## Structure
-* [envoy](/envoy) contains all envoy logic and base docker images.
-* [mist-local-ml](/mist-local-ml) contains local SparkMl implementation. (Derived from Hydrosphere Mist)
-* [mist-serving-gateway](/mist-serving-gateway) is a simple gateway of the whole project. For now, it's just set up Nginx.
-* [ml_repository](/ml_repository) is a module that rules over all ML models, knows where they are, what they are.
-* [ml_runtimes](/ml_runtimes) contains implementations for popular ML libraries. Runtime is a small server that can import user's model and provide an HTTP API to it.
-* [models](/models) contains example ML models for implemented runtimes.
+* [sidecar](/sidecar) contains implementation of the sidecar pattern for ML runtimes.
+* [spark-ml-serving](https://github.com/Hydrospheredata/spark-ml-serving) contains local SparkMl implementation. (Derived from Hydrosphere Mist)
+* [gateway](/gateway) is a simple gateway of the whole project. For now, it's just set up Nginx.
+* [manager](/manager) is a module that rules over all ML models, knows where they are, what they are.
+* [runtimes and models repository](https://github.com/Hydrospheredata/hydro-serving-runtime)
+    * [runtimes](https://github.com/Hydrospheredata/hydro-serving-runtime/tree/master/runtimes) contains implementations for popular ML libraries. Runtime is a small server that can import user's model and provide an HTTP API to it.
+    * [models](https://github.com/Hydrospheredata/hydro-serving-runtime/tree/master/models) contains example ML models for implemented runtimes.
 
 
 ## How to launch demo
 
 ### Build project
-0. Clone this repository
+#### Clone repositories
+
 ```
-git clone https://github.com/provectus/hydro-serving.git
+#Sidecar + manager + gateway + dummy runtime 
+git clone https://github.com/Hydrospheredata/hydro-serving
+
+#ML Runtimes + ML models repository
+git clone https://github.com/Hydrospheredata/hydro-serving-runtime
 ```
 
-1. Build project using sh script:
+#### Build modules 
+Change directory to `hydro-serving` and:
+```
+sbt compile docker
+```
+
+Change directory to `hydro-serving-runtime` and:
 ```
 ./build.sh
 ```
 
 You will get next docker images:
-* `hydrosphere/pipelineserving-envoy-alpine` - common image with envoy-alpine.
-* `hydrosphere/pipelineserving-java` - common image for all java applications.
-* `hydrosphere/pipelineserving-python3` - common image for python3 applications.
-* `hydrosphere/pipelineserving-gateway` - image with gateway app - will process all http requests from client.
-* `hydrosphere/pipelineserving-manager` - image with manager app - manages all pipelines and envoys configurations.
-* `hydrosphere/pipelineserving-serving-java-spring` - image with simple Spring Boot app.
-* `mist-ml-repository` - ML model storage, it scans selected directory and parses founded ML models, also provides RestAPI to access this models
-* `mist-runtime-sparklocal` - Spark ML runtime, serves spark models
-* `mist-runtime-scikit` - Scikit runtime, serves scikit models.
+* `hydrosphere/serving-manager` - ML model storage, it scans selected directory and parses founded ML models, also provides RestAPI to access this models
+* `hydrosphere/serving-gateway` - Nginx gateway.
+* `hydrosphere/serving-runtime-sparklocal` - Spark ML runtime, serves spark models
+* `hydrosphere/serving-runtime-scikit` - Scikit runtime, serves scikit models.
+* `hydrosphere/serving-runtime-tensorflow` - TF runtime.
+* `hydrosphere/serving-runtime-py2databricks` - Python 2 runtime with Databricks-like environment.
+* `hydrosphere/serving-runtime-python3` - Python 3 runtime.
 
-2. Run infrastructure and manager:
+#### Run
+##### With Docker Compose
 ```
-docker-compose up consul zipkin manager
+export MODEL_DIRECTORY=/path/to/hydro-serving-runtime/models
+docker-compose up
 ```
-You will get:
-* [Consul-UI](http://localhost:8500/ui/) - http://localhost:8500/ui/
-* [Zipkin-UI](http://localhost:9411/) - http://localhost:9411/
-* [Manager-RestAPI](http://localhost:8080/api/v1/pipelines) - http://localhost:8080/api/v1/pipelines
 
-4. Run repository and gateway
+##### Without Docker Compose
+* Run Zipkin
 ```
-# assuming you are in root of this repository
-export MODEL_DIRECTORY=$(pwd)/models
-docker-compose up gateway repository
+docker run -p 9411:9411 openzipkin/zipkin:1.28.1
 ```
-You will get:
-* [Gateway-RestAPI](http://localhost:8083/api/v1/serve/) - http://localhost:8083/api/v1/serve/...
-* [Repository-RestAPI](http://localhost:8087) - http://localhost:8087
-    1. `GET /metadata/<model_name>` returns metadata of specified model.
-    2. `GET /files/<model_name>` returns a list of model's files.
-    3. `GET /download/<model_name>/<file>` downloads the given file of specified model. Thus, repository also acts as a proxy between Runtime and actually the storage of models.
+* Run database
+```
+docker run -e POSTGRES_DB=docker \
+    -e POSTGRES_USER=docker \
+    -e POSTGRES_PASSWORD=docker \
+    -p 5432:5432 \
+    postgres:9.6-alpine
+```
+* Run manager
+```
+export HOST_IP=$(ifconfig en0 | grep 'inet ' |  awk '{ print $2}')
+export MODEL_DIRECTORY=/path/to/hydro-serving-runtime/models
+docker run -e ADVERTISED_MANAGER_HOST=$HOST_IP \
+    -e DATABASE_HOST=$HOST_IP \
+    -e ZIPKIN_ENABLED=true \
+    -e ZIPKIN_HOST=$HOST_IP \
+    -p 8080:8080 -p 8082:8082 -p 9090:9090 \
+    -v /var/run/docker.sock:/var/run/docker.sock \
+    -v ${MODEL_DIRECTORY}:/models \
+    hydrosphere/serving-manager:0.0.1
+```
+* Run gateway
+```
+HOST_IP=$(ifconfig en0 | grep 'inet ' |  awk '{ print $2}')
+docker run -e MANAGER_HOST=$HOST_IP \
+    -e ZIPKIN_ENABLED=true \
+    -e ZIPKIN_HOST=$HOST_IP \
+    -p 8180:8080 -p 8182:8082 -p 9190:9090 \
+    hydrosphere/serving-gateway:0.0.1
+```
+### Available Resources
+* jdbc:postgresql://localhost:5432/docker - Postgresql
+* http://localhost:9411/zipkin - OpenTracing
+* http://localhost:8080/swagger/swagger-ui.html - Manager
+* http://localhost:8180/api/v1/serve/BLABLABLA - Gateway
 
-
-5. Run runtimes for demo
-```
-docker-compose up localml-spark custom-scikit
-```
 
 ### Create and run pipeline
 
