@@ -13,7 +13,7 @@ name := "manager"
 enablePlugins(DockerSpotifyClientPlugin)
 enablePlugins(sbtdocker.DockerPlugin)
 
-lazy val uiVersion="0.0.7"
+lazy val uiVersion="0.0.8"
 
 lazy val dataBaseName = "docker"
 lazy val dataBaseUser = "docker"
