@@ -112,7 +112,8 @@ class ManagerApi(managerServices: ManagerServices)
           }
         } ~
         path(Segments) { segs =>
-          if (segs.size == 1 && (segs.head.endsWith("bundle.js") || segs.head.endsWith("bundle.css") )) {
+          if (segs.size == 1 && //TODO change to regexp
+            (segs.head.endsWith("bundle.js") || segs.head.endsWith("bundle.css") )) {
             val path = segs.mkString("/")
             getFromResource(s"ui/$path")
           } else {
