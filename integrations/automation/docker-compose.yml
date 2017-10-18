@@ -1,0 +1,184 @@
+version: "2"
+services:
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:5.5.0
+    container_name: elasticsearch
+    ports:
+      - "9200:9200"
+    volumes:
+      - ./docker_monitoring_logging_alerting/storage/elasticsearch:/usr/share/elasticsearch/data
+    environment:
+      - cluster.name=docker-cluster
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - COMMON_DOCKER_OPTIONS
+    networks:
+      - hydronet
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash:5.5.0
+    container_name: logstash
+    ports:
+      - "5044:5044"
+      - "12201:12201/udp"
+    networks:
+      - hydronet
+    environment:
+      - COMMON_DOCKER_OPTIONS
+    volumes:
+      - ./docker_monitoring_logging_alerting/logging/logstash/patterns:/opt/logstash/extra_patterns
+      - ./docker_monitoring_logging_alerting/logging/logstash/config:/config
+    depends_on:
+      - elasticsearch
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:5.5.0
+    container_name: kibana
+    ports:
+      - "5601:5601"
+    networks:
+      - hydronet
+      - extnet
+    volumes:
+      - ./docker_monitoring_logging_alerting/logging/kibana/config/:/opt/kibana/config/
+    environment:
+      - "NODE_OPTIONS=--max-old-space-size=200"
+      - COMMON_DOCKER_OPTIONS
+    depends_on:
+      - elasticsearch
+
+  zookeeper:
+    image: confluent/zookeeper
+    container_name: zookeeper
+    ports:
+      - "2181:2181"
+    environment:
+      - COMMON_DOCKER_OPTIONS
+    networks:
+      - hydronet
+
+  kafka:
+    image: confluent/kafka
+    container_name: kafka
+    ports:
+      - "9092:9092"
+    networks:
+      - hydronet
+    environment:
+      - "KAFKA_JMX_HOSTNAME=kafka"
+      - "KAFKA_ADVERTISED_HOST_NAME=kafka"
+      - "KAFKA_AUTO_CREATE_TOPICS_ENABLE=true"
+      - COMMON_DOCKER_OPTIONS
+    depends_on:
+      - zookeeper
+
+  nodeexporter:
+    image: prom/node-exporter:v0.14.0
+    container_name: nodeexporter
+    ports:
+      - "9100:9100"
+    networks:
+      - hydronet
+    environment:
+      - COMMON_DOCKER_OPTIONS
+
+
+  cadvisor:
+    image: google/cadvisor:v0.25.0
+    container_name: cadvisor
+    networks:
+      - hydronet
+    environment:
+      - COMMON_DOCKER_OPTIONS
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+
+  prometheus:
+    build: ../prometheus
+    container_name: prometheus
+    ports:
+      - "9091:9090"
+    networks:
+      - hydronet
+    environment:
+      - COMMON_DOCKER_OPTIONS
+      - "MANAGER_PORT=9090"
+      - "MANAGER_HOST=manager"
+    depends_on:
+      - kafka
+      - cadvisor
+      - nodeexporter
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    networks:
+      - hydronet
+      - extnet
+    environment:
+      - COMMON_DOCKER_OPTIONS
+      - "GF_SECURITY_ADMIN_PASSWORD=foobar"
+      - "GF_USERS_ALLOW_SIGN_UP=false"
+
+  zipkin:
+    image: openzipkin/zipkin:1.28.1
+    container_name: zipkin
+    ports:
+      - "9411:9411"
+    networks:
+      - hydronet
+      - extnet
+    environment:
+      - COMMON_DOCKER_OPTIONS
+
+  postgres:
+    image: postgres:9.6-alpine
+    container_name: postgres
+    ports:
+      - "5432:5432"
+    networks:
+      - hydronet
+    environment:
+      - COMMON_DOCKER_OPTIONS
+      - "POSTGRES_DB=docker"
+      - "POSTGRES_USER=docker"
+      - "OSTGRES_PASSWORD=docker"
+
+  manager:
+    image: hydrosphere/serving-manager:0.0.12
+    container_name: manager
+    ports:
+      - "8080:8080"
+      - "8082:8082"
+      - "9090:9090"
+    networks:
+      - hydronet
+      - extnet
+    environment:
+      - COMMON_DOCKER_OPTIONS
+      - "ZIPKIN_ENABLED=true"
+      - "ZIPKIN_HOST=zipkin"
+      - "ADVERTISED_MANAGER_HOST=manager"
+      - "DATABASE_HOST=postgres"
+      - AWS_ACCESS_KEY_ID
+      - AWS_SECRET_KEY
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./hydro-serving-runtime/models:/models
+
+
+networks:
+  hydronet:
+    internal: true
+  extnet:
+    driver: bridge
+
+
+
+
+
