@@ -11,9 +11,15 @@ services:
     environment:
       - cluster.name=docker-cluster
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
-      - COMMON_DOCKER_OPTIONS
     networks:
       - hydronet
+    logging:
+      driver: "gelf"
+      options:
+        gelf-address: "udp://${HOSTIP}:12201"
+    depends_on:
+      - logstash
+
 
   logstash:
     image: docker.elastic.co/logstash/logstash:5.5.0
@@ -23,13 +29,11 @@ services:
       - "12201:12201/udp"
     networks:
       - hydronet
-    environment:
-      - COMMON_DOCKER_OPTIONS
+      - extnet
     volumes:
       - ./docker_monitoring_logging_alerting/logging/logstash/patterns:/opt/logstash/extra_patterns
       - ./docker_monitoring_logging_alerting/logging/logstash/config:/config
-    depends_on:
-      - elasticsearch
+
 
   kibana:
     image: docker.elastic.co/kibana/kibana:5.5.0
@@ -43,19 +47,30 @@ services:
       - ./docker_monitoring_logging_alerting/logging/kibana/config/:/opt/kibana/config/
     environment:
       - "NODE_OPTIONS=--max-old-space-size=200"
-      - COMMON_DOCKER_OPTIONS
     depends_on:
       - elasticsearch
+      - logstash
+    logging:
+      driver: "gelf"
+      options:
+        gelf-address: "udp://${HOSTIP}:12201"
+
 
   zookeeper:
     image: confluent/zookeeper
     container_name: zookeeper
     ports:
       - "2181:2181"
-    environment:
-      - COMMON_DOCKER_OPTIONS
     networks:
       - hydronet
+    logging:
+      driver: "gelf"
+      options:
+        gelf-address: "udp://${HOSTIP}:12201"
+    depends_on:
+      - logstash
+
+
 
   kafka:
     image: confluent/kafka
@@ -68,9 +83,15 @@ services:
       - "KAFKA_JMX_HOSTNAME=kafka"
       - "KAFKA_ADVERTISED_HOST_NAME=kafka"
       - "KAFKA_AUTO_CREATE_TOPICS_ENABLE=true"
-      - COMMON_DOCKER_OPTIONS
     depends_on:
       - zookeeper
+      - logstash
+    logging:
+      driver: "gelf"
+      options:
+        gelf-address: "udp://${HOSTIP}:12201"
+
+
 
   nodeexporter:
     image: prom/node-exporter:v0.14.0
@@ -79,8 +100,14 @@ services:
       - "9100:9100"
     networks:
       - hydronet
-    environment:
-      - COMMON_DOCKER_OPTIONS
+    logging:
+      driver: "gelf"
+      options:
+        gelf-address: "udp://${HOSTIP}:12201"
+    depends_on:
+      - logstash
+
+
 
 
   cadvisor:
@@ -88,13 +115,19 @@ services:
     container_name: cadvisor
     networks:
       - hydronet
-    environment:
-      - COMMON_DOCKER_OPTIONS
     volumes:
       - /:/rootfs:ro
       - /var/run:/var/run:rw
       - /sys:/sys:ro
       - /var/lib/docker/:/var/lib/docker:ro
+    logging:
+      driver: "gelf"
+      options:
+        gelf-address: "udp://${HOSTIP}:12201"
+    depends_on:
+      - logstash
+
+
 
   prometheus:
     build: ../prometheus
@@ -104,13 +137,19 @@ services:
     networks:
       - hydronet
     environment:
-      - COMMON_DOCKER_OPTIONS
       - "MANAGER_PORT=9090"
       - "MANAGER_HOST=manager"
     depends_on:
       - kafka
       - cadvisor
       - nodeexporter
+      - logstash
+    logging:
+      driver: "gelf"
+      options:
+        gelf-address: "udp://${HOSTIP}:12201"
+
+
 
   grafana:
     image: grafana/grafana
@@ -121,9 +160,16 @@ services:
       - hydronet
       - extnet
     environment:
-      - COMMON_DOCKER_OPTIONS
       - "GF_SECURITY_ADMIN_PASSWORD=foobar"
       - "GF_USERS_ALLOW_SIGN_UP=false"
+    logging:
+      driver: "gelf"
+      options:
+        gelf-address: "udp://${HOSTIP}:12201"
+    depends_on:
+      - logstash
+
+
 
   zipkin:
     image: openzipkin/zipkin:1.28.1
@@ -133,8 +179,14 @@ services:
     networks:
       - hydronet
       - extnet
-    environment:
-      - COMMON_DOCKER_OPTIONS
+    logging:
+      driver: "gelf"
+      options:
+        gelf-address: "udp://${HOSTIP}:12201"
+    depends_on:
+      - logstash
+
+
 
   postgres:
     image: postgres:9.6-alpine
@@ -144,10 +196,16 @@ services:
     networks:
       - hydronet
     environment:
-      - COMMON_DOCKER_OPTIONS
       - "POSTGRES_DB=docker"
       - "POSTGRES_USER=docker"
       - "OSTGRES_PASSWORD=docker"
+    logging:
+      driver: "gelf"
+      options:
+        gelf-address: "udp://${HOSTIP}:12201"
+    depends_on:
+      - logstash
+
 
   manager:
     image: hydrosphere/serving-manager:0.0.12
@@ -160,7 +218,6 @@ services:
       - hydronet
       - extnet
     environment:
-      - COMMON_DOCKER_OPTIONS
       - "ZIPKIN_ENABLED=true"
       - "ZIPKIN_HOST=zipkin"
       - "ADVERTISED_MANAGER_HOST=manager"
@@ -170,6 +227,12 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./hydro-serving-runtime/models:/models
+    logging:
+      driver: "gelf"
+      options:
+        gelf-address: "udp://${HOSTIP}:12201"
+    depends_on:
+      - logstash
 
 
 networks:
