@@ -17,8 +17,6 @@ services:
       driver: "gelf"
       options:
         gelf-address: "udp://${HOSTIP}:12201"
-    depends_on:
-      - logstash
 
 
   logstash:
@@ -33,6 +31,8 @@ services:
     volumes:
       - ./docker_monitoring_logging_alerting/logging/logstash/patterns:/opt/logstash/extra_patterns
       - ./docker_monitoring_logging_alerting/logging/logstash/config:/config
+    depends_on:
+      - elasticsearch
 
 
   kibana:
