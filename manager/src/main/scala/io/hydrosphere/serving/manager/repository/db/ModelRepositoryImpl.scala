@@ -7,7 +7,7 @@ import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.model.RuntimeType
 import io.hydrosphere.serving.manager.model.Model
 import io.hydrosphere.serving.manager.repository.ModelRepository
-import io.hydrosphere.serving.manager.service.modelfetcher.ModelField
+import io.hydrosphere.serving.model_api.ModelApi
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -148,8 +148,8 @@ object ModelRepositoryImpl extends ManagerJsonSupport {
       source = model.source,
       runtimeType = runtimeType,
       description = model.description,
-      outputFields = model.outputFields.convertTo[List[ModelField]],
-      inputFields = model.inputFields.convertTo[List[ModelField]],
+      outputFields = model.outputFields.convertTo[ModelApi],
+      inputFields = model.inputFields.convertTo[ModelApi],
       created = model.createdTimestamp,
       updated = model.updatedTimestamp
     )

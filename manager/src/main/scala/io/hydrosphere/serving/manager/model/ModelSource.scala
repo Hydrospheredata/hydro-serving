@@ -2,13 +2,13 @@ package io.hydrosphere.serving.manager.model
 
 trait ModelSource
 
-case class LocalModelSource (
+case class LocalModelSourceEntry (
   id: Long,
   name: String,
   path: String
 ) extends ModelSource
 
-case class S3ModelSource (
+case class S3ModelSourceEntry (
   id: Long,
   name: String,
   keyId: String,

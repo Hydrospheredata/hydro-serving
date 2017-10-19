@@ -4,6 +4,7 @@ import java.io.FileNotFoundException
 import java.nio.file.{Files, NoSuchFileException}
 
 import io.hydrosphere.serving.manager.model.SchematicRuntimeType
+import io.hydrosphere.serving.model_api._
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.model.CommonJsonSupport
 import org.apache.logging.log4j.scala.Logging
@@ -43,8 +44,8 @@ object ScikitModelFetcher extends ModelFetcher with Logging {
       Some(ModelMetadata(
         directory,
         Some(new SchematicRuntimeType("hydrosphere/serving-runtime-scikit", "0.0.1")),
-        metadata.outputs.map(ModelField.UntypedField),
-        metadata.inputs.map(ModelField.UntypedField)
+        DataFrame(metadata.outputs.map(ModelField.untyped)),
+        DataFrame(metadata.inputs.map(ModelField.untyped))
       ))
     } catch {
       case e: NoSuchFileException =>

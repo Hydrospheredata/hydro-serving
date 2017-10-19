@@ -1,8 +1,10 @@
 package io.hydrosphere.serving.manager.repository.db
 
+import io.hydrosphere.serving.manager.controller.ManagerJsonSupport
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.model.{ModelRuntime, RuntimeType}
 import io.hydrosphere.serving.manager.repository.ModelRuntimeRepository
+import io.hydrosphere.serving.model_api.ModelApi
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -11,8 +13,9 @@ import scala.concurrent.{ExecutionContext, Future}
   *
   */
 class ModelRuntimeRepositoryImpl(implicit executionContext: ExecutionContext, databaseService: DatabaseService)
-  extends ModelRuntimeRepository with Logging {
+  extends ModelRuntimeRepository with Logging with ManagerJsonSupport {
 
+  import spray.json._
   import databaseService._
   import databaseService.driver.api._
   import ModelRuntimeRepositoryImpl._
@@ -28,8 +31,8 @@ class ModelRuntimeRepositoryImpl(implicit executionContext: ExecutionContext, da
         entity.modelName,
         entity.modelVersion,
         entity.source,
-        entity.outputFields,
-        entity.inputFields,
+        entity.outputFields.toJson,
+        entity.inputFields.toJson,
         entity.created,
         entity.imageName,
         entity.imageTag,
@@ -94,7 +97,7 @@ class ModelRuntimeRepositoryImpl(implicit executionContext: ExecutionContext, da
     ).map(s => mapFromDb(s))
 }
 
-object ModelRuntimeRepositoryImpl {
+object ModelRuntimeRepositoryImpl extends ManagerJsonSupport {
   def mapFromDb(model: Option[(Tables.ModelRuntime#TableElementType, Option[Tables.RuntimeType#TableElementType])]): Option[ModelRuntime] = model match {
     case Some(tuple) =>
       Some(mapFromDb(tuple._1, tuple._2.map(t => RuntimeTypeRepositoryImpl.mapFromDb(t))))
@@ -116,8 +119,8 @@ object ModelRuntimeRepositoryImpl {
       modelVersion = model.modelversion,
       source = model.source,
       runtimeType = runtimeType,
-      outputFields = model.outputFields,
-      inputFields = model.inputFields,
+      outputFields = model.outputFields.convertTo[ModelApi],
+      inputFields = model.inputFields.convertTo[ModelApi],
       created = model.createdTimestamp,
       modelId = model.modelId
     )

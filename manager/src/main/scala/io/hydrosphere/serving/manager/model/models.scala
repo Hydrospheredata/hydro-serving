@@ -4,7 +4,7 @@ import java.time.LocalDateTime
 
 import io.hydrosphere.serving.manager.model.ModelBuildStatus.ModelBuildStatus
 import io.hydrosphere.serving.manager.model.ModelServiceInstanceStatus.ModelServiceInstanceStatus
-import io.hydrosphere.serving.manager.service.modelfetcher.ModelField
+import io.hydrosphere.serving.model_api.{DataFrame, ModelApi}
 import io.hydrosphere.serving.model.{ModelRuntime, RuntimeType}
 
 object ModelServiceInstanceStatus extends Enumeration {
@@ -34,8 +34,8 @@ case class Model(
   source: String,
   runtimeType: Option[RuntimeType],
   description: Option[String],
-  outputFields: List[ModelField],
-  inputFields: List[ModelField],
+  outputFields: ModelApi,
+  inputFields: ModelApi,
   created: LocalDateTime,
   updated: LocalDateTime
 )
@@ -74,6 +74,6 @@ case class ModelServiceInstance(
 )
 
 class UnknownModelRuntime extends ModelRuntime(
-  -1, "", "", "", "", "", None, None, List(), List(), LocalDateTime.now(), None
+  -1, "", "", "", "", "", None, None, DataFrame(List.empty), DataFrame(List.empty), LocalDateTime.now(), None
 )
 

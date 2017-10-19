@@ -102,6 +102,9 @@ trait ServingManagementService {
 
   def servePipeline(pipelineId: Long, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
 
+  def generateModelPayload(modelName: String, modelVersion: String): Future[Seq[Any]]
+
+  def generateModelPayload(modelName: String): Future[Seq[Any]]
 }
 
 class ServingManagementServiceImpl(
@@ -242,4 +245,18 @@ class ServingManagementServiceImpl(
       case Some(service) =>
         serveModelService(service, servePath, request, headers)
     })
+
+  override def generateModelPayload(modelName: String, modelVersion: String): Future[Seq[Any]] = {
+    modelServiceRepository.getLastModelServiceByModelNameAndVersion(modelName, modelVersion).map{
+      case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
+      case Some(service) => service.modelRuntime.inputFields.generate
+    }
+  }
+
+  override def generateModelPayload(modelName: String): Future[Seq[Any]] = {
+    modelServiceRepository.getLastModelServiceByModelName(modelName).map{
+      case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
+      case Some(service) => service.modelRuntime.inputFields.generate
+    }
+  }
 }

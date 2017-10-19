@@ -1,7 +1,8 @@
 package io.hydrosphere.serving.manager.service
 
+import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelFetcher
 import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, S3ModelSourceConfiguration, TestConstants}
-import io.hydrosphere.serving.manager.service.modelfetcher.{ModelFetcher, ScikitModelFetcher, SparkModelFetcher, TensorflowModelFetcher}
+import io.hydrosphere.serving.manager.service.modelfetcher.{ModelFetcher, ScikitModelFetcher, TensorflowModelFetcher}
 import io.hydrosphere.serving.manager.service.modelsource.{LocalModelSource, ModelSource, S3ModelSource}
 import org.scalatest._
 
