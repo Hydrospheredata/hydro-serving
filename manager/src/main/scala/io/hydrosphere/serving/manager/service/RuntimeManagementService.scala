@@ -150,14 +150,11 @@ class RuntimeManagementServiceImpl(
 
   //TODO Optimize - fetch special services instead of all
   override def servicesByIds(ids: Seq[Long]): Future[Seq[ModelService]] =
-    allServices().flatMap(s =>
-      Future.successful(s.filter(service => ids.contains(service.serviceId))))
+    allServices().map(s => s.filter(service => ids.contains(service.serviceId)))
 
   override def getServicesByModel(modelId: Long): Future[Seq[ModelService]] =
-    allServices().flatMap(s =>
-      Future.successful(s.filter(service => service.modelRuntime.modelId.fold(false)(l => l == modelId))))
+    allServices().map(s => s.filter(service => service.modelRuntime.modelId.fold(false)(l => l == modelId)))
 
   override def getServicesByRuntimes(runtimeIds: Seq[Long]): Future[Seq[ModelService]] =
-    allServices().flatMap(s =>
-      Future.successful(s.filter(service => runtimeIds.contains(service.modelRuntime.id))))
+    allServices().map(s => s.filter(service => runtimeIds.contains(service.modelRuntime.id)))
 }

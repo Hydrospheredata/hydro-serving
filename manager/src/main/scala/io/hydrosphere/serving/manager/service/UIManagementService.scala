@@ -429,7 +429,7 @@ class UIManagementServiceImpl(
       services <- runtimeManagementService.getServicesByModel(modelId);
       ws <- servingManagementService.weightedServicesByModelServiceIds(services.map(s => s.serviceId))
     ) yield {
-      val wsIndex = ws.flatMap(s => s.sourcesList.map(i => i -> s))
+      val wsIndex = ws.flatMap(s => s.weights.map(i => i.serviceId -> s))
         .groupBy(_._1).mapValues(_.map(_._2))
       val serviceIndex = services.map(s => s.modelRuntime.id -> s)
         .groupBy(_._1).mapValues(_.map(_._2))
