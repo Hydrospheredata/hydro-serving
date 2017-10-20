@@ -2,47 +2,52 @@ version: "2"
 services:
 
   elasticsearch:
-    image: docker.elastic.co/elasticsearch/elasticsearch:5.5.0
+    image: elasticsearch:5.5.0
     container_name: elasticsearch
     ports:
       - "9200:9200"
-    volumes:
-      - ./docker_monitoring_logging_alerting/storage/elasticsearch:/usr/share/elasticsearch/data
+    restart: always
     environment:
-      - cluster.name=docker-cluster
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - "transport.host=127.0.0.1"
     networks:
       - hydronet
     logging:
-      driver: "gelf"
+      driver: gelf
       options:
-        gelf-address: "udp://${HOSTIP}:12201"
+        gelf-address: udp://172.16.0.38:12201
 
 
   logstash:
-    image: docker.elastic.co/logstash/logstash:5.5.0
+    image: logstash:5.5.0
     container_name: logstash
     ports:
       - "5044:5044"
       - "12201:12201/udp"
     networks:
-      - hydronet
-      - extnet
+      hydronet:
+        ipv4_address: 172.16.0.38
+    restart: always
     volumes:
       - ./docker_monitoring_logging_alerting/logging/logstash/patterns:/opt/logstash/extra_patterns
       - ./docker_monitoring_logging_alerting/logging/logstash/config:/config
     depends_on:
       - elasticsearch
+    command: logstash -f /config
+    logging:
+      driver: gelf
+      options:
+        gelf-address: udp://172.16.0.38:12201
 
 
   kibana:
-    image: docker.elastic.co/kibana/kibana:5.5.0
+    image: kibana:5.5.0
     container_name: kibana
     ports:
       - "5601:5601"
     networks:
-      - hydronet
       - extnet
+      - hydronet
     volumes:
       - ./docker_monitoring_logging_alerting/logging/kibana/config/:/opt/kibana/config/
     environment:
@@ -51,9 +56,9 @@ services:
       - elasticsearch
       - logstash
     logging:
-      driver: "gelf"
+      driver: gelf
       options:
-        gelf-address: "udp://${HOSTIP}:12201"
+        gelf-address: udp://172.16.0.38:12201
 
 
   zookeeper:
@@ -63,17 +68,17 @@ services:
       - "2181:2181"
     networks:
       - hydronet
-    logging:
-      driver: "gelf"
-      options:
-        gelf-address: "udp://${HOSTIP}:12201"
     depends_on:
       - logstash
+    logging:
+      driver: gelf
+      options:
+        gelf-address: udp://172.16.0.38:12201
 
 
 
   kafka:
-    image: confluent/kafka
+    build: ./kafka
     container_name: kafka
     ports:
       - "9092:9092"
@@ -83,13 +88,14 @@ services:
       - "KAFKA_JMX_HOSTNAME=kafka"
       - "KAFKA_ADVERTISED_HOST_NAME=kafka"
       - "KAFKA_AUTO_CREATE_TOPICS_ENABLE=true"
+      - "ZOOKEEPER_IP=zookeeper"
     depends_on:
       - zookeeper
       - logstash
     logging:
-      driver: "gelf"
+      driver: gelf
       options:
-        gelf-address: "udp://${HOSTIP}:12201"
+        gelf-address: udp://172.16.0.38:12201
 
 
 
@@ -100,13 +106,12 @@ services:
       - "9100:9100"
     networks:
       - hydronet
-    logging:
-      driver: "gelf"
-      options:
-        gelf-address: "udp://${HOSTIP}:12201"
     depends_on:
       - logstash
-
+    logging:
+      driver: gelf
+      options:
+        gelf-address: udp://172.16.0.38:12201
 
 
 
@@ -120,24 +125,24 @@ services:
       - /var/run:/var/run:rw
       - /sys:/sys:ro
       - /var/lib/docker/:/var/lib/docker:ro
-    logging:
-      driver: "gelf"
-      options:
-        gelf-address: "udp://${HOSTIP}:12201"
     depends_on:
       - logstash
-
+    logging:
+      driver: gelf
+      options:
+        gelf-address: udp://172.16.0.38:12201
 
 
   prometheus:
-    build: ../prometheus
+    build: ./prometheus
     container_name: prometheus
     ports:
-      - "9091:9090"
+      - "9090:9090"
     networks:
+      - extnet
       - hydronet
     environment:
-      - "MANAGER_PORT=9090"
+      - "MANAGER_PORT=8080"
       - "MANAGER_HOST=manager"
     depends_on:
       - kafka
@@ -145,30 +150,30 @@ services:
       - nodeexporter
       - logstash
     logging:
-      driver: "gelf"
+      driver: gelf
       options:
-        gelf-address: "udp://${HOSTIP}:12201"
-
+        gelf-address: udp://172.16.0.38:12201
 
 
   grafana:
     image: grafana/grafana
     container_name: grafana
+    volumes:
+      - ./grafana:/mnt
     ports:
       - "3000:3000"
     networks:
-      - hydronet
       - extnet
+      - hydronet
     environment:
       - "GF_SECURITY_ADMIN_PASSWORD=foobar"
       - "GF_USERS_ALLOW_SIGN_UP=false"
-    logging:
-      driver: "gelf"
-      options:
-        gelf-address: "udp://${HOSTIP}:12201"
     depends_on:
       - logstash
-
+    logging:
+      driver: gelf
+      options:
+        gelf-address: udp://172.16.0.38:12201
 
 
   zipkin:
@@ -177,15 +182,14 @@ services:
     ports:
       - "9411:9411"
     networks:
-      - hydronet
       - extnet
-    logging:
-      driver: "gelf"
-      options:
-        gelf-address: "udp://${HOSTIP}:12201"
+      - hydronet
     depends_on:
       - logstash
-
+    logging:
+      driver: gelf
+      options:
+        gelf-address: udp://172.16.0.38:12201
 
 
   postgres:
@@ -199,12 +203,12 @@ services:
       - "POSTGRES_DB=docker"
       - "POSTGRES_USER=docker"
       - "OSTGRES_PASSWORD=docker"
-    logging:
-      driver: "gelf"
-      options:
-        gelf-address: "udp://${HOSTIP}:12201"
     depends_on:
       - logstash
+    logging:
+      driver: gelf
+      options:
+        gelf-address: udp://172.16.0.38:12201
 
 
   manager:
@@ -213,35 +217,30 @@ services:
     ports:
       - "8080:8080"
       - "8082:8082"
-      - "9090:9090"
     networks:
-      - hydronet
       - extnet
+      - hydronet
     environment:
       - "ZIPKIN_ENABLED=true"
       - "ZIPKIN_HOST=zipkin"
       - "ADVERTISED_MANAGER_HOST=manager"
       - "DATABASE_HOST=postgres"
-      - AWS_ACCESS_KEY_ID
-      - AWS_SECRET_KEY
+      - "DOCKER_NETWORK_NAME=automation_hydronet"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./hydro-serving-runtime/models:/models
-    logging:
-      driver: "gelf"
-      options:
-        gelf-address: "udp://${HOSTIP}:12201"
     depends_on:
       - logstash
+    logging:
+      driver: gelf
+      options:
+        gelf-address: udp://172.16.0.38:12201
 
 
 networks:
   hydronet:
-    internal: true
+    external:
+      name:  automation_hydronet
+
   extnet:
     driver: bridge
-
-
-
-
-
