@@ -244,9 +244,3 @@ networks:
 
   extnet:
     driver: bridge
-
-
-
-
-
->>>>>>> 82ac550c933f328aa2e142424a4ada31d7e3e2e7
