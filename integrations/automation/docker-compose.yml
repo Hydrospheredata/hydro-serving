@@ -2,7 +2,7 @@ version: "2"
 services:
 
   elasticsearch:
-    image: elasticsearch:5.5.0
+    image: elasticsearch:${es_version}
     container_name: elasticsearch
     ports:
       - "9200:9200"
@@ -19,7 +19,7 @@ services:
 
 
   logstash:
-    image: logstash:5.5.0
+    image: logstash:${logstash_version}
     container_name: logstash
     ports:
       - "5044:5044"
@@ -41,7 +41,7 @@ services:
 
 
   kibana:
-    image: kibana:5.5.0
+    image: kibana:${kibana_version}
     container_name: kibana
     ports:
       - "5601:5601"
@@ -100,7 +100,7 @@ services:
 
 
   nodeexporter:
-    image: prom/node-exporter:v0.14.0
+    image: prom/node-exporter:${nodeexporter_version}
     container_name: nodeexporter
     ports:
       - "9100:9100"
@@ -116,7 +116,7 @@ services:
 
 
   cadvisor:
-    image: google/cadvisor:v0.25.0
+    image: google/cadvisor:${cadvisor_version}
     container_name: cadvisor
     networks:
       - hydronet
@@ -177,7 +177,7 @@ services:
 
 
   zipkin:
-    image: openzipkin/zipkin:1.28.1
+    image: openzipkin/zipkin:${zipkin_version}
     container_name: zipkin
     ports:
       - "9411:9411"
@@ -193,7 +193,7 @@ services:
 
 
   postgres:
-    image: postgres:9.6-alpine
+    image: postgres:${postgres_version}
     container_name: postgres
     ports:
       - "5432:5432"
@@ -212,7 +212,7 @@ services:
 
 
   manager:
-    image: hydrosphere/serving-manager:0.0.12
+    image: hydrosphere/serving-manager:${manager_version}
     container_name: manager
     ports:
       - "8080:8080"
