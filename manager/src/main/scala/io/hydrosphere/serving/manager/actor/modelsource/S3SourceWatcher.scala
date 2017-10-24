@@ -4,8 +4,8 @@ import java.time.{Instant, LocalDateTime, ZoneId}
 
 import akka.actor.Props
 import com.google.common.hash.Hashing
+import io.hydrosphere.serving.manager.actor.{FileCreated, FileDeleted, FileEvent}
 import io.hydrosphere.serving.manager.actor.modelsource.S3SourceWatcher.SQSMessage
-import io.hydrosphere.serving.manager.actor.modelsource.SourceWatcher.{FileCreated, FileDeleted, FileEvent}
 import io.hydrosphere.serving.manager.service.modelsource.S3ModelSource
 import io.hydrosphere.serving.model.CommonJsonSupport
 
@@ -31,13 +31,15 @@ class S3SourceWatcher(val source: S3ModelSource) extends SourceWatcher {
         val event = info.eventName.split(':').head match {
           case "ObjectRemoved" =>
             log.debug(s"ObjectRemoved: ${info.objKey}")
-            source.deleteProxyObject(info.objKey)
             if (info.objKey.endsWith("/")) {
-              source.cacheSource.getAllFiles(info.objKey).map{ f =>
-                FileDeleted(source, f)
+              val files = source.cacheSource.getAllFiles(info.objKey).map{ f =>
+                new FileDeleted(source, info.objKey + f, Instant.now())
               }
+              source.deleteProxyObject(info.objKey)
+              files
             } else {
-              List(FileDeleted(source, info.objKey))
+              source.deleteProxyObject(info.objKey)
+              List(new FileDeleted(source, info.objKey, Instant.now()))
             }
           case "ObjectCreated" =>
             log.debug(s"ObjectCreated: ${info.objKey}")
@@ -50,7 +52,7 @@ class S3SourceWatcher(val source: S3ModelSource) extends SourceWatcher {
                   .asByteSource(file)
                   .hash(Hashing.sha256())
                   .toString
-                FileCreated(source, fullpath, hash, info.eventTime)
+                new FileCreated(source, fullpath, Instant.now(), hash, info.eventTime)
               }
             } else {
               source.deleteProxyObject(info.objKey)
@@ -59,7 +61,7 @@ class S3SourceWatcher(val source: S3ModelSource) extends SourceWatcher {
                 .asByteSource(file)
                 .hash(Hashing.sha256())
                 .toString
-              List(FileCreated(source, info.objKey, hash, info.eventTime))
+              List(new FileCreated(source, info.objKey, Instant.now(), hash, info.eventTime))
             }
         }
         source.configuration.sqsClient.deleteMessage(source.configuration.queue, message.getReceiptHandle)

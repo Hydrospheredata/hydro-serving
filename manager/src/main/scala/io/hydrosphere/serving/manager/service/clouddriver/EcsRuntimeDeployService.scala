@@ -39,35 +39,22 @@ class EcsRuntimeDeployService(
       new PortMapping().withContainerPort(DEFAULT_SIDECAR_ADMIN_PORT)
     )
 
-    val env = List[KeyValuePair](
-      new KeyValuePair()
-        .withName(ENV_HS_SERVICE_ID)
-        .withValue(runtime.serviceId.toString),
-      new KeyValuePair()
-        .withName(ENV_APP_HTTP_PORT)
-        .withValue(DEFAULT_APP_HTTP_PORT.toString),
-      new KeyValuePair()
-        .withName(ENV_SIDECAR_HTTP_PORT)
-        .withValue(DEFAULT_SIDECAR_HTTP_PORT.toString),
-      new KeyValuePair()
-        .withName(ENV_SIDECAR_ADMIN_PORT)
-        .withValue(DEFAULT_SIDECAR_ADMIN_PORT.toString),
-      new KeyValuePair()
-        .withName(ENV_MANAGER_HOST)
-        .withValue(managerConfiguration.advertised.advertisedHost),
-      new KeyValuePair()
-        .withName(ENV_MANAGER_PORT)
-        .withValue(managerConfiguration.advertised.advertisedPort.toString),
-      new KeyValuePair()
-        .withName(ENV_ZIPKIN_ENABLED)
-        .withValue(managerConfiguration.zipkin.enabled.toString),
-      new KeyValuePair()
-        .withName(ENV_ZIPKIN_HOST)
-        .withValue(managerConfiguration.zipkin.host),
-      new KeyValuePair()
-        .withName(ENV_ZIPKIN_PORT)
-        .withValue(managerConfiguration.zipkin.port.toString)
+    val envMap = runtime.configParams ++ Map(
+      ENV_HS_SERVICE_ID -> runtime.serviceId,
+      ENV_APP_HTTP_PORT -> DEFAULT_APP_HTTP_PORT,
+      ENV_SIDECAR_HTTP_PORT -> DEFAULT_SIDECAR_HTTP_PORT,
+      ENV_SIDECAR_ADMIN_PORT -> DEFAULT_SIDECAR_ADMIN_PORT,
+      ENV_MANAGER_HOST -> managerConfiguration.advertised.advertisedHost,
+      ENV_MANAGER_PORT -> managerConfiguration.advertised.advertisedPort,
+      ENV_ZIPKIN_ENABLED -> managerConfiguration.zipkin.enabled,
+      ENV_ZIPKIN_HOST -> managerConfiguration.zipkin.host,
+      ENV_ZIPKIN_PORT -> managerConfiguration.zipkin.port
     )
+
+    val env = envMap.map { case (k, v) => new KeyValuePair()
+      .withName(k)
+      .withValue(v.toString)
+    }.toList
 
     val labels = Map[String, String](
       LABEL_SERVICE_ID -> runtime.serviceId.toString,
@@ -125,7 +112,9 @@ class EcsRuntimeDeployService(
       name = arr.dropRight(1).mkString("_"),
       cloudDriveId = service.getServiceArn,
       status = service.getStatus,
-      statusText = service.getStatus
+      statusText = service.getStatus,
+      //TODO fill this information
+      configParams = Map()
     )
   }
 

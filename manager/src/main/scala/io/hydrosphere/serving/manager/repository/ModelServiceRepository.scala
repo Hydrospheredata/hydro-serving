@@ -16,5 +16,9 @@ trait ModelServiceRepository extends BaseRepository[ModelService, Long] {
 
   def getByModelIds(modelIds:Seq[Long]): Future[Seq[ModelService]]
 
+  def getLastModelServiceByModelName(modelName:String): Future[Option[ModelService]]
+
+  def getLastModelServiceByModelNameAndVersion(modelName:String, modelVersion:String): Future[Option[ModelService]]
+
   def getByModelRuntimeIds(modelIds:Seq[Long]): Future[Seq[ModelService]]
 }

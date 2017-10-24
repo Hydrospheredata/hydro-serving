@@ -7,11 +7,11 @@ import akka.http.scaladsl.server.{ExceptionHandler, RejectionHandler, Route}
 import ch.megard.akka.http.cors.scaladsl.CorsDirectives
 import io.hydrosphere.serving.controller.{CommonController, SwaggerDocController}
 import io.hydrosphere.serving.manager.controller.{ModelRuntimeController, _}
-import akka.http.scaladsl.server.Directives._
+import akka.http.scaladsl.server.Directives.{path, _}
 import ch.megard.akka.http.cors.scaladsl.settings.CorsSettings
 import io.hydrosphere.serving.manager.controller.envoy.EnvoyManagementController
 import io.hydrosphere.serving.manager.controller.prometheus.PrometheusMetricsController
-import io.hydrosphere.serving.manager.controller.ui.UISpecificController
+import io.hydrosphere.serving.manager.controller.ui.{UISpecificController, UISpecificRuntimeController, UISpecificWeightServiceController}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.Option
@@ -49,6 +49,10 @@ class ManagerApi(managerServices: ManagerServices)
 
   val uiSpecificController = new UISpecificController(managerServices.uiManagementService)
 
+  val uiSpecificWeightServiceController = new UISpecificWeightServiceController(managerServices.uiManagementService)
+
+  val uiSpecificRuntimeController = new UISpecificRuntimeController(managerServices.uiManagementService)
+
   val swaggerController = new SwaggerDocController(system) {
     override val apiTypes: Seq[ru.Type] = Seq(
       ru.typeOf[RuntimeTypeController],
@@ -57,10 +61,12 @@ class ManagerApi(managerServices: ManagerServices)
       ru.typeOf[PipelineController],
       ru.typeOf[EndpointController],
       ru.typeOf[ModelServiceController],
-      ru.typeOf[UISpecificController],
       ru.typeOf[EnvoyManagementController],
       ru.typeOf[WeightedServiceController],
-      ru.typeOf[PrometheusMetricsController]
+      ru.typeOf[PrometheusMetricsController],
+      ru.typeOf[UISpecificController],
+      ru.typeOf[UISpecificWeightServiceController],
+      ru.typeOf[UISpecificRuntimeController]
     )
   }
 
@@ -87,16 +93,33 @@ class ManagerApi(managerServices: ManagerServices)
     handleExceptions(commonExceptionHandler) {
       commonController.routes ~
         swaggerController.routes ~
-        runtimeTypeController.routes ~
         modelController.routes ~
         modelRuntimeController.routes ~
         modelServiceController.routes ~
         endpointController.routes ~
         pipelineController.routes ~
-        envoyManagementController.routes ~
-        uiSpecificController.routes ~
         weightedServiceController.routes ~
-        prometheusMetricsController.routes
+        runtimeTypeController.routes ~
+        envoyManagementController.routes ~
+        prometheusMetricsController.routes ~
+        uiSpecificController.routes ~
+        uiSpecificWeightServiceController.routes ~
+        uiSpecificRuntimeController.routes ~
+        pathPrefix("assets") {
+          path(Segments) { segs =>
+            val path = segs.mkString("/")
+            getFromResource(s"ui/assets/$path")
+          }
+        } ~
+        path(Segments) { segs =>
+          if (segs.size == 1 && //TODO change to regexp
+            (segs.head.endsWith("bundle.js") || segs.head.endsWith("bundle.css") )) {
+            val path = segs.mkString("/")
+            getFromResource(s"ui/$path")
+          } else {
+            getFromResource("ui/index.html")
+          }
+        }
     }
   }
 }

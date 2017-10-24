@@ -41,6 +41,21 @@ class ModelServiceController(
     }
   }
 
+  @Path("/fetchByModelId/{modelId}")
+  @ApiOperation(value = "fetchByModelId", notes = "fetchByModelId", nickname = "fetchByModelId", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ModelService", response = classOf[ModelService], responseContainer = "List"),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def fetchByModelId = get {
+    path("api" / "v1" / "modelService" / "fetchByModelId"/ Segment) { modelId =>
+      complete(runtimeManagementService.getServicesByModel(modelId.toLong))
+    }
+  }
+
   @Path("/fetchByIds")
   @ApiOperation(value = "fetchById", notes = "fetchById", nickname = "fetchById", httpMethod = "POST")
   @ApiImplicitParams(Array(
@@ -48,7 +63,7 @@ class ModelServiceController(
       dataTypeClass = classOf[Long], paramType = "body", collectionFormat = "List")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "ModelService", response = classOf[ModelService]),
+    new ApiResponse(code = 200, message = "ModelService", response = classOf[ModelService], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def fetchByIds = path("api" / "v1" / "modelService" / "fetchByIds") {
@@ -135,10 +150,10 @@ class ModelServiceController(
     new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[ServeData], required = true, paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any", response=classOf[ServeData]),
+    new ApiResponse(code = 200, message = "Any", response = classOf[ServeData]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def serveService = path("api" / "v1" / "modelService" / "serve" ) {
+  def serveService = path("api" / "v1" / "modelService" / "serve") {
     post {
       extractRequest { request =>
         entity(as[ServeData]) { r =>
@@ -151,5 +166,53 @@ class ModelServiceController(
     }
   }
 
-  val routes: Route = listAll ~ addService ~ listInstances ~ deleteService ~ getService ~ serveService ~ fetchByIds
+  @Path("/serve/{modelName}")
+  @ApiOperation(value = "Serve ModelService last by model", notes = "Serve ModelService last by model", nickname = "ServeModelService last by model", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "modelName", required = true, dataType = "string", paramType = "path", value = "modelName"),
+    new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[List[_]], required = true, paramType = "body")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Any", response = classOf[ServeData]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def serveByModelNameService = path("api" / "v1" / "modelService" / "serve" / Segment) { modelName =>
+    post {
+      extractRequest { request =>
+        entity(as[Seq[Any]]) { r =>
+          complete(
+            servingManagementService.serveModelServiceByModelName(modelName, "/serve", r, request.headers
+              .filter(h => TracingHeaders.isTracingHeaderName(h.name())))
+          )
+        }
+      }
+    }
+  }
+
+  @Path("/serve/{modelName}/{modelVersion}")
+  @ApiOperation(value = "Serve ModelService last by model", notes = "Serve ModelService last by model", nickname = "ServeModelService last by model", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "modelName", required = true, dataType = "string", paramType = "path", value = "modelName"),
+    new ApiImplicitParam(name = "modelVersion", required = true, dataType = "string", paramType = "path", value = "modelVersion"),
+    new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[List[_]], required = true, paramType = "body")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Any", response = classOf[ServeData]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def serveByModelNameServiceAndVersion = path("api" / "v1" / "modelService" / "serve" / Segment / Segment) { (modelName,modelVersion) =>
+    post {
+      extractRequest { request =>
+        entity(as[Seq[Any]]) { r =>
+          complete(
+            servingManagementService.serveModelServiceByModelNameAndVersion(modelName, modelVersion, "/serve", r, request.headers
+              .filter(h => TracingHeaders.isTracingHeaderName(h.name())))
+          )
+        }
+      }
+    }
+  }
+
+  val routes: Route =
+    listAll ~ addService ~ listInstances ~ deleteService ~ fetchByModelId ~ getService ~ serveService ~ fetchByIds ~ serveByModelNameService ~ serveByModelNameServiceAndVersion
 }

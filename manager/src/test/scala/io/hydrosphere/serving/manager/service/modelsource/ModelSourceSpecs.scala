@@ -1,11 +1,10 @@
-package io.hydrosphere.serving.manager.service
+package io.hydrosphere.serving.manager.service.modelsource
 
 import java.nio.file.Files
 
-import com.amazonaws.regions.{Region, Regions}
+import com.amazonaws.regions.Regions
 import com.amazonaws.services.s3.AmazonS3ClientBuilder
 import com.amazonaws.services.sqs.AmazonSQSClientBuilder
-import io.hydrosphere.serving.manager.service.modelsource.{LocalModelSource, ModelSource, S3ModelSource}
 import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, S3ModelSourceConfiguration, TestConstants}
 import org.scalatest.{FlatSpec, Matchers}
 
