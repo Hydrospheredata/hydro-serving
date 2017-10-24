@@ -3,7 +3,7 @@ package io.hydrosphere.serving.connector
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.marshalling.Marshal
-import akka.http.scaladsl.model._
+import akka.http.scaladsl.model.{StatusCode, _}
 import akka.http.scaladsl.model.headers.Host
 import akka.http.scaladsl.unmarshalling.Unmarshal
 import akka.stream.ActorMaterializer
@@ -28,7 +28,7 @@ case class ExecutionCommand(
 case class ExecutionResult(
   headers: Seq[HttpHeader],
   json: Seq[Any],
-  success: Boolean
+  status: StatusCode
 )
 
 trait RuntimeMeshConnector {
@@ -52,13 +52,12 @@ class HttpRuntimeMeshConnector(
         logger.debug(s"Wrong status from service ${r.status}")
       }
 
-      val responseSuccess = r.status == StatusCodes.OK
       if (r.entity.contentType == ContentTypes.`application/json`) {
         Unmarshal(r.entity).to[Seq[Any]]
-          .map(ExecutionResult(r.headers, _, responseSuccess))
+          .map(ExecutionResult(r.headers, _, r.status))
       } else {
         Unmarshal(r.entity).to[String]
-          .map(s => ExecutionResult(r.headers, Seq(Map("result" -> s)), responseSuccess))
+          .map(s => ExecutionResult(r.headers, Seq(Map("result" -> s)), r.status))
       }
     }
 

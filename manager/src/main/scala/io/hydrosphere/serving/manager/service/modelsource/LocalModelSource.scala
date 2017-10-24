@@ -39,4 +39,8 @@ class LocalModelSource(val configuration: LocalModelSourceConfiguration) extends
     Paths.get(configuration.path, modelPath)
   }
 
+  override def isExist(path: String): Boolean = {
+    val requestedPath = Paths.get(configuration.path.toString, path)
+    Files.exists(requestedPath)
+  }
 }

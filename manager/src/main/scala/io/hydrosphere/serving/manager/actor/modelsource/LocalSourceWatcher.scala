@@ -4,11 +4,11 @@ import java.io.File
 import java.nio.file.StandardWatchEventKinds._
 import java.nio.file._
 import java.nio.file.attribute.BasicFileAttributes
-import java.time.{LocalDateTime, ZoneId}
+import java.time.{Instant, LocalDateTime, ZoneId}
 
 import akka.actor.Props
 import com.google.common.hash.Hashing
-import io.hydrosphere.serving.manager.actor.modelsource.SourceWatcher.{FileCreated, FileDeleted, FileEvent, FileModified}
+import io.hydrosphere.serving.manager.actor.{FileCreated, FileDeleted, FileEvent, FileModified}
 import io.hydrosphere.serving.manager.service.modelsource.LocalModelSource
 import io.hydrosphere.serving.util.FileUtils._
 
@@ -45,9 +45,10 @@ class LocalSourceWatcher(val source: LocalModelSource) extends SourceWatcher {
         .hash(Hashing.sha256())
         .toString
       val attributes = Files.readAttributes(absolutePath, classOf[BasicFileAttributes])
-      FileCreated(
+      new FileCreated(
         source,
         relativePath.toString,
+        Instant.now(),
         hash,
         LocalDateTime.ofInstant(attributes.creationTime().toInstant, ZoneId.systemDefault())
       )
@@ -85,11 +86,11 @@ class LocalSourceWatcher(val source: LocalModelSource) extends SourceWatcher {
             .hash(Hashing.sha256())
             .toString
           val lastModified = LocalDateTime.ofInstant(Files.getLastModifiedTime(absolutePath).toInstant, ZoneId.systemDefault())
-          List(FileModified(source, relativePath.toString, hash, lastModified))
+          List(new FileModified(source, relativePath.toString, Instant.now(), hash, lastModified))
 
         case StandardWatchEventKinds.ENTRY_DELETE =>
           log.debug(s"File system event: ENTRY_DELETE: $relativePath")
-          List(FileDeleted(source, relativePath.toString))
+          List(new FileDeleted(source, relativePath.toString, Instant.now()))
         case x =>
           log.warning(s"File system event: Unknown: $x")
           Nil

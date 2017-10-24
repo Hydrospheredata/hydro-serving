@@ -24,12 +24,12 @@ term_handler() {
 trap "term_handler" SIGHUP SIGINT SIGTERM
 
 #Generate configuration for envoy
-chmod +x /hydro-serving/sidecar/generate_envoy_config.sh; sync;
 /hydro-serving/sidecar/generate_envoy_config.sh
 /hydro-serving/sidecar/envoy -c /hydro-serving/sidecar/envoy.json --service-cluster $HS_SERVICE_ID --service-node $CONTAINER_ID &
 ENVOY_PID=$!
 
-chmod +x $APP_START_SCRIPT; sync;
+chmod +x $APP_START_SCRIPT
+sync
 $APP_START_SCRIPT $CONTAINER_ID &
 APP_PID=$!
 

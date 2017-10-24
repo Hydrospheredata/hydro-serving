@@ -15,7 +15,7 @@ services:
       POSTGRES_PASSWORD: "docker"
 
   hydro-serving-manager:
-    image: hydro-serving/manager:0.0.1
+    image: hydrosphere/serving-manager:0.0.1
     ports:
       - "8080:8080"
       - "8082:8082"

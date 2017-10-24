@@ -5,7 +5,7 @@ import java.time.LocalDateTime
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.repository._
-import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
+import io.hydrosphere.serving.manager.service.modelfetcher.{ModelFetcher, ModelMetadata}
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.model._
 import org.apache.logging.log4j.scala.Logging
@@ -16,14 +16,16 @@ import scala.util.{Failure, Success, Try}
 case class CreateRuntimeTypeRequest(
   name: String,
   version: String,
-  tags: Option[List[String]]
+  tags: Option[List[String]],
+  configParams: Option[Map[String, String]]
 ) {
   def toRuntimeType: RuntimeType = {
     RuntimeType(
       id = 0,
       name = this.name,
       version = this.version,
-      tags = this.tags.getOrElse(List())
+      tags = this.tags.getOrElse(List()),
+      configParams = this.configParams.getOrElse(Map())
     )
   }
 }
@@ -73,7 +75,9 @@ case class CreateModelRuntime(
   runtimeTypeId: Option[Long],
   outputFields: Option[List[String]],
   inputFields: Option[List[String]],
-  modelId: Option[Long]
+  modelId: Option[Long],
+  tags: Option[List[String]],
+  configParams: Option[Map[String, String]]
 ) {
   def toModelRuntime(runtimeType: Option[RuntimeType]): ModelRuntime = {
     ModelRuntime(
@@ -88,7 +92,9 @@ case class CreateModelRuntime(
       outputFields = this.outputFields.getOrElse(List()),
       inputFields = this.inputFields.getOrElse(List()),
       created = LocalDateTime.now(),
-      modelId = this.modelId
+      modelId = this.modelId,
+      tags = runtimeType.map(r => r.tags).getOrElse(this.tags.getOrElse(List())),
+      configParams = runtimeType.map(r => r.configParams).getOrElse(this.configParams.getOrElse(Map()))
     )
   }
 }
@@ -110,11 +116,17 @@ trait ModelManagementService {
 
   def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelRuntime]
 
+  def buildModel(modelName: String, modelVersion: Option[String]): Future[ModelRuntime]
+
   def allRuntimeTypes(): Future[Seq[RuntimeType]]
+
+  def runtimeTypesByTag(tags: Seq[String]): Future[Seq[RuntimeType]]
 
   def allModels(): Future[Seq[Model]]
 
   def updateModel(entity: CreateOrUpdateModelRequest): Future[Model]
+
+  def updateModel(modelName: String, modelSource: ModelSource): Future[Option[Model]]
 
   def createModel(entity: CreateOrUpdateModelRequest): Future[Model]
 
@@ -126,6 +138,8 @@ trait ModelManagementService {
 
   def allModelRuntime(): Future[Seq[ModelRuntime]]
 
+  def modelRuntimeByTag(tags: Seq[String]): Future[Seq[ModelRuntime]]
+
   def lastModelRuntimeByModel(id: Long, maximum: Int): Future[Seq[ModelRuntime]]
 
   def allModelBuilds(): Future[Seq[ModelBuild]]
@@ -134,11 +148,27 @@ trait ModelManagementService {
 
   def lastModelBuildsByModel(id: Long, maximum: Int): Future[Seq[ModelBuild]]
 
-  def createFileForModel(source: ModelSource, path: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[ModelFile]
+  def createFileForModel(source: ModelSource, path: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[Int]
 
-  def updateOrCreateModelFile(source: ModelSource, modelName: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[ModelFile]
+  def updateOrCreateModelFile(source: ModelSource, modelName: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[Int]
 
   def deleteModelFile(fileName: String): Future[Int]
+}
+
+object ModelManagementService {
+  def nextVersion(lastRuntime: Option[ModelRuntime]): String = lastRuntime match {
+    case None => "0.0.1"
+    case Some(runtime) =>
+      val splitted = runtime.modelVersion.split('.')
+      splitted.lastOption match {
+        case None => runtime.modelVersion + ".1"
+        case Some(v) =>
+          Try.apply(v.toInt) match {
+            case Failure(_) => runtime.modelVersion + ".1"
+            case Success(intVersion) => splitted.dropRight(1).mkString(".") + "." + (intVersion + 1)
+          }
+      }
+  }
 }
 
 
@@ -205,38 +235,42 @@ class ModelManagementServiceImpl(
   override def lastModelBuildsByModel(id: Long, maximum: Int): Future[Seq[ModelBuild]] =
     modelBuildRepository.lastByModelId(id, maximum)
 
+  private def buildNewModelVersion(model: Model, modelVersion: Option[String]): Future[ModelRuntime] = {
+    fetchLastModelVersion(model.id, modelVersion).flatMap({ version =>
+      fetchScriptForRuntime(model.runtimeType).flatMap({ script =>
+        modelBuildRepository.create(ModelBuild(
+          id = 0,
+          model = model,
+          modelVersion = version,
+          started = LocalDateTime.now(),
+          finished = None,
+          status = ModelBuildStatus.STARTED,
+          statusText = None,
+          logsUrl = None,
+          modelRuntime = None
+        )).flatMap({ modelBuid =>
+          buildModelRuntime(modelBuid, script).transform(
+            runtime => {
+              modelBuildRepository.finishBuild(modelBuid.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(runtime))
+              runtime
+            },
+            ex => {
+              logger.error(ex.getMessage, ex)
+              modelBuildRepository.finishBuild(modelBuid.id, ModelBuildStatus.ERROR, ex.getMessage, LocalDateTime.now(), None)
+              ex
+            }
+          )
+        })
+      })
+    })
+  }
+
   override def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelRuntime] =
     modelRepository.get(modelId)
       .flatMap({
         case None => throw new IllegalArgumentException(s"Can't find Model with id $modelId")
         case Some(model) =>
-          fetchLastModelVersion(modelId, modelVersion).flatMap({ version =>
-            fetchScriptForRuntime(model.runtimeType).flatMap({ script =>
-              modelBuildRepository.create(ModelBuild(
-                id = 0,
-                model = model,
-                modelVersion = version,
-                started = LocalDateTime.now(),
-                finished = None,
-                status = ModelBuildStatus.STARTED,
-                statusText = None,
-                logsUrl = None,
-                modelRuntime = None
-              )).flatMap({ modelBuid =>
-                buildModelRuntime(modelBuid, script).transform(
-                  runtime => {
-                    modelBuildRepository.finishBuild(modelBuid.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(runtime))
-                    runtime
-                  },
-                  ex => {
-                    logger.error(ex.getMessage, ex)
-                    modelBuildRepository.finishBuild(modelBuid.id, ModelBuildStatus.ERROR, ex.getMessage, LocalDateTime.now(), None)
-                    ex
-                  }
-                )
-              })
-            })
-          })
+          buildNewModelVersion(model, modelVersion)
       })
 
   private def fetchScriptForRuntime(runtimeType: Option[RuntimeType]): Future[String] = {
@@ -276,7 +310,9 @@ class ModelManagementServiceImpl(
           outputFields = modelBuild.model.outputFields,
           inputFields = modelBuild.model.inputFields,
           created = LocalDateTime.now,
-          modelId = Some(modelBuild.model.id)
+          modelId = Some(modelBuild.model.id),
+          tags = modelBuild.model.runtimeType.map(r => r.tags).getOrElse(List()),
+          configParams = modelBuild.model.runtimeType.map(r => r.configParams).getOrElse(Map())
         )).flatMap(modelRuntime => {
           Future(modelPushService.push(modelRuntime, handler)).map(l => modelRuntime)
         })
@@ -285,21 +321,12 @@ class ModelManagementServiceImpl(
 
   private def fetchLastModelVersion(modelId: Long, modelVersion: Option[String]): Future[String] = {
     modelVersion match {
-      case Some(x) => Future.successful(x)
+      case Some(x) => modelRuntimeRepository.modelRuntimeByModelAndVersion(modelId, x).map {
+        case None => x
+        case _ => throw new IllegalArgumentException("You already have such version")
+      }
       case _ => modelRuntimeRepository.lastModelRuntimeByModel(modelId, 1)
-        .map(se => se.headOption match {
-          case None => "0.0.1"
-          case Some(runtime) =>
-            val splitted = runtime.modelVersion.split('.')
-            splitted.lastOption match {
-              case None => runtime.modelVersion + ".1"
-              case Some(v) =>
-                Try.apply(v.toInt) match {
-                  case Failure(_) => runtime.modelVersion + ".1"
-                  case Success(intVersion) => splitted.dropRight(1).mkString(".") + "." + (intVersion + 1)
-                }
-            }
-        })
+        .map(se => ModelManagementService.nextVersion(se.headOption))
     }
   }
 
@@ -327,84 +354,133 @@ class ModelManagementServiceImpl(
   }
 
   def deleteModel(modelName: String): Future[Model] = {
-    modelRepository.get(modelName).flatMap{
+    modelRepository.get(modelName).flatMap {
       case Some(model) =>
         modelFilesRepository.deleteModelFiles(model.id)
         modelRepository.delete(model.id)
         Future(model)
       case None =>
-        Future.failed(new NoSuchElementException)
+        Future.failed(new NoSuchElementException(s"$modelName model"))
     }
   }
 
-  def createFileForModel(source: ModelSource, fileName: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[ModelFile] = {
+  def createFileForModel(source: ModelSource, fileName: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[Int] = {
     val modelName = fileName.split("/").head
-    modelRepository.get(modelName).flatMap {
-      case Some(model) =>
-        val newModel = ModelFetcher.getModel(source, modelName)
-        modelRepository.update(
-          Model(
-            model.id,
-            newModel.name,
-            s"${source.getSourcePrefix}:${newModel.name}",
-            newModel.runtimeType,
-            None,
-            newModel.outputFields,
-            newModel.inputFields,
-            createdAt,
-            updatedAt
-          ))
+    println(s"Creating file $fileName for model $modelName ...")
+    updateModel(modelName, source).map { model =>
+      model.foreach { m =>
         modelFilesRepository.create(
-          ModelFile(-1, fileName, model, hash, createdAt, updatedAt)
+          ModelFile(-1, fileName, m, hash, createdAt, updatedAt)
         )
-      case None =>
-        val modelMetadata = ModelFetcher.getModel(source, modelName)
-        val model = Model(
-          -1,
-          modelMetadata.name,
-          s"${source.getSourcePrefix}:${modelMetadata.name}",
-          modelMetadata.runtimeType,
-          None,
-          modelMetadata.outputFields,
-          modelMetadata.inputFields,
-          createdAt,
-          updatedAt
-        )
-        addModel(model)
-          .flatMap { model =>
-            modelFilesRepository.create(
-              ModelFile(-1, fileName, model, hash, createdAt, updatedAt)
-            )
-          }
+        println(s"Model $modelName updated")
+      }
+      1 // FIXME
     }
   }
 
-  def updateOrCreateModelFile(source: ModelSource, fileName: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[ModelFile] = {
+  def updateOrCreateModelFile(source: ModelSource, fileName: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[Int] = {
     modelFilesRepository.get(fileName).flatMap {
       case Some(modelFile) =>
-        modelFilesRepository.update(
-          ModelFile(
-            modelFile.id,
-            modelFile.path,
-            modelFile.model,
-            modelFile.hashSum,
-            modelFile.createdAt,
-            modelFile.updatedAt
-          )
+        println(s"File $fileName found. Updating...")
+        val newFile = ModelFile(
+          modelFile.id,
+          modelFile.path,
+          modelFile.model,
+          modelFile.hashSum,
+          modelFile.createdAt,
+          modelFile.updatedAt
         )
+        modelFilesRepository.update(newFile).flatMap(_ =>
+          modelRepository.updateLastUpdatedTime(modelFile.model.id, LocalDateTime.now()))
+
       case None =>
         createFileForModel(source, fileName, hash, updatedAt, updatedAt)
     }
   }
 
   def deleteModelFile(fileName: String): Future[Int] = {
-    modelFilesRepository.get(fileName).flatMap{
+    modelFilesRepository.get(fileName).flatMap {
       case Some(modelFile) =>
-        modelFilesRepository.delete(modelFile.id)
+        val modelId = modelFile.model.id
+        println(s"Deleting file $fileName...")
+        modelFilesRepository
+          .delete(modelFile.id)
+          .zip(modelFilesRepository.modelFiles(modelId))
+          .map {
+            case (i, Nil) =>
+              println(s"$fileName is the last file. Deleting model $modelId...")
+              modelRepository.delete(modelId)
+              i
+            case (i, _) =>
+              println(s"$fileName is not the last file...")
+              i
+          }
       case None =>
         logger.error(s"No such file: $fileName")
         Future.failed(new NoSuchElementException())
     }
   }
 
+  override def buildModel(modelName: String, modelVersion: Option[String]): Future[ModelRuntime] =
+    modelRepository.get(modelName).flatMap({
+      case None => throw new IllegalArgumentException(s"Can't find Model with name $modelName")
+      case Some(model) =>
+        buildNewModelVersion(model, modelVersion)
+    })
+
+  override def updateModel(modelName: String, modelSource: ModelSource): Future[Option[Model]] = {
+    if (modelSource.isExist(modelName)) {
+      // model is updated
+      val modelMetadata = ModelFetcher.getModel(modelSource, modelName)
+      val fRuntime = modelMetadata.runtimeType match {
+        case Some(rt) =>
+          runtimeTypeRepository.fetchByNameAndVersion(rt.name, rt.version)
+        case None => Future(None)
+      }
+      fRuntime.flatMap { rt =>
+        modelRepository.get(modelMetadata.name).flatMap {
+          case Some(oldModel) =>
+            val newModel = Model(
+              oldModel.id,
+              modelMetadata.name,
+              s"${modelSource.getSourcePrefix}:${modelMetadata.name}",
+              rt,
+              None,
+              modelMetadata.outputFields,
+              modelMetadata.inputFields,
+              oldModel.created,
+              LocalDateTime.now()
+            )
+            modelRepository.update(newModel).map(_ => Some(newModel))
+          case None =>
+            val newModel = Model(
+              -1,
+              modelMetadata.name,
+              s"${modelSource.getSourcePrefix}:${modelMetadata.name}",
+              rt,
+              None,
+              modelMetadata.outputFields,
+              modelMetadata.inputFields,
+              LocalDateTime.now(),
+              LocalDateTime.now()
+            )
+            modelRepository.create(newModel).map(x => Some(x))
+        }
+      }
+    } else {
+      // model is deleted
+      modelRepository.get(modelName).map { opt =>
+        opt.map { model =>
+          modelRepository.delete(model.id)
+          model
+        }
+      }
+    }
+  }
+
+  override def runtimeTypesByTag(tags: Seq[String]): Future[Seq[RuntimeType]] =
+    runtimeTypeRepository.fetchByTags(tags)
+
+  override def modelRuntimeByTag(tags: Seq[String]): Future[Seq[ModelRuntime]] =
+    modelRuntimeRepository.fetchByTags(tags)
 }

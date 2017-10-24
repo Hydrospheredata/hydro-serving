@@ -43,7 +43,7 @@ object SparkModelFetcher extends ModelFetcher with Logging {
   private[this] val labelCols = Array("labelCol")
 
   private def getRuntimeType(sparkMetadata: SparkMetadata): RuntimeType = {
-    new SchematicRuntimeType("hydro-serving/runtime-sparklocal", "0.0.1")
+    new SchematicRuntimeType("hydrosphere/serving-runtime-sparklocal", "0.0.1")
   }
 
   private def getStageMetadata(source: ModelSource, model: String, stage: String): SparkMetadata = {
