@@ -210,6 +210,22 @@ services:
       options:
         gelf-address: udp://172.16.0.38:12201
 
+  mnager-ui:
+    image: serving-manager-ui:${manager-ui_version}
+    container_name: manager-ui
+    ports:
+      - "80:80"
+    networks:
+      - extnet
+    environment:
+      - "MANAGER_HOST=manager:8080"
+    depends_on:
+      - logstash
+    logging:
+      driver: gelf
+      options:
+        gelf-address: udp://172.16.0.38:12201
+
 
   manager:
     image: hydrosphere/serving-manager:${manager_version}
