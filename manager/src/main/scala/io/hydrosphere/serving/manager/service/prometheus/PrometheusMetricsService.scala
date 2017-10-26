@@ -30,10 +30,9 @@ trait PrometheusMetricsService {
 }
 
 class PrometheusMetricsServiceImpl(
-  implicit val ex: ExecutionContext,
   runtimeManagementService: RuntimeManagementService,
   envoyAdminConnector: EnvoyAdminConnector
-) extends PrometheusMetricsService with Logging {
+)(implicit val ex: ExecutionContext) extends PrometheusMetricsService with Logging {
 
   override def fetchServices(): Future[Seq[ServiceTargets]] =
     runtimeManagementService.allServices().flatMap(services => {

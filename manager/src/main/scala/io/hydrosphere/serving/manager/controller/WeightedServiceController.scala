@@ -6,18 +6,23 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Directives.{complete, get, path}
 import akka.util.Timeout
 import io.hydrosphere.serving.controller.TracingHeaders
-import io.hydrosphere.serving.model.WeightedService
+import io.hydrosphere.serving.model.{ModelService, WeightedService}
 import io.hydrosphere.serving.manager.service.{ServingManagementService, WeightedServiceCreateOrUpdateRequest}
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
+
+case class AddWeightedServiceSourceRequest(
+  runtimeId: Long,
+  configParams: Option[Map[String, String]]
+)
 
 /**
   *
   */
 @Path("/api/v1/weightedServices")
 @Api(produces = "application/json", tags = Array("Deployment: Weighted Service"))
-class WeightedServiceController(implicit servingManagementService: ServingManagementService) extends ManagerJsonSupport {
+class WeightedServiceController(servingManagementService: ServingManagementService) extends ManagerJsonSupport {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/")
@@ -31,7 +36,7 @@ class WeightedServiceController(implicit servingManagementService: ServingManage
       complete(servingManagementService.allWeightedServices())
     }
   }
-
+  
 
   @Path("/")
   @ApiOperation(value = "Add WeightedService", notes = "Add WeightedService", nickname = "addWeightedService", httpMethod = "POST")
@@ -52,7 +57,6 @@ class WeightedServiceController(implicit servingManagementService: ServingManage
       }
     }
   }
-
 
   @Path("/")
   @ApiOperation(value = "Update WeightedService", notes = "Update WeightedService", nickname = "updateWeightedService", httpMethod = "PUT")
@@ -97,10 +101,10 @@ class WeightedServiceController(implicit servingManagementService: ServingManage
     new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[ServeData], required = true, paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any", response=classOf[ServeData]),
+    new ApiResponse(code = 200, message = "Any", response = classOf[ServeData]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def serveService = path("api" / "v1" / "weightedServices" / "serve" ) {
+  def serveService = path("api" / "v1" / "weightedServices" / "serve") {
     post {
       extractRequest { request =>
         entity(as[ServeData]) { r =>
@@ -113,6 +117,11 @@ class WeightedServiceController(implicit servingManagementService: ServingManage
     }
   }
 
-  val routes = listAll ~ create ~ update ~ deleteWeightedService ~ serveService
+  val routes =
+    listAll ~
+      create ~
+      update ~
+      deleteWeightedService ~
+      serveService
 
 }

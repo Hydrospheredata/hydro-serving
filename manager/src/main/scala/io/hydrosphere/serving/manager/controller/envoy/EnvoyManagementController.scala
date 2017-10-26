@@ -15,7 +15,7 @@ import scala.concurrent.duration._
   */
 @Path("/v1")
 @Api(produces = "application/json", tags = Array("Infrastructure: Envoy"))
-class EnvoyManagementController(implicit envoyManagementService: EnvoyManagementService) extends EnvoyJsonSupport {
+class EnvoyManagementController(envoyManagementService: EnvoyManagementService) extends EnvoyJsonSupport {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/clusters/{serviceId}/{containerId}")

@@ -8,7 +8,7 @@ import io.hydrosphere.serving.manager.repository.SourceConfigRepository
 import scala.concurrent.{ExecutionContext, Future}
 import scala.collection.JavaConversions._
 
-class SourceConfigRepositoryImpl(implicit config: ManagerConfiguration, ec: ExecutionContext) extends SourceConfigRepository {
+class SourceConfigRepositoryImpl(config: ManagerConfiguration)(implicit ec: ExecutionContext) extends SourceConfigRepository {
   val buffer = new ConcurrentLinkedQueue(config.modelSources)
 
   override def create(entity: ModelSourceConfiguration): Future[ModelSourceConfiguration] = {

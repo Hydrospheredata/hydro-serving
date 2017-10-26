@@ -26,7 +26,7 @@ case class RuntimeTypeBuildScript(
 class SchematicRuntimeType(
   name: String,
   version: String
-) extends RuntimeType(-1, name, version, List())
+) extends RuntimeType(-1, name, version, List(), Map())
 
 case class Model(
   id: Long,
@@ -74,6 +74,5 @@ case class ModelServiceInstance(
 )
 
 class UnknownModelRuntime extends ModelRuntime(
-  -1, "", "", "", "", "", None, None, DataFrame(List.empty), DataFrame(List.empty), LocalDateTime.now(), None
+  -1, "", "", "", "", "", None, None, DataFrame(List.empty), DataFrame(List.empty), LocalDateTime.now(), None, Map(), List()
 )
-

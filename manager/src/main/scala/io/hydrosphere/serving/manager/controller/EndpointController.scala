@@ -16,7 +16,7 @@ import scala.concurrent.duration._
   */
 @Path("/api/v1/endpoints")
 @Api(produces = "application/json", tags = Array("Deployment: Endpoints"))
-class EndpointController(implicit servingManagementService: ServingManagementService) extends ManagerJsonSupport {
+class EndpointController(servingManagementService: ServingManagementService) extends ManagerJsonSupport {
   implicit val timeout = Timeout(5.seconds)
 
   @Path("/")

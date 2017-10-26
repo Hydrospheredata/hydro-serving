@@ -17,48 +17,74 @@ import scala.concurrent.ExecutionContext
   *
   */
 class ManagerServices(
-  implicit val ex: ExecutionContext,
-  implicit val system: ActorSystem,
-  implicit val materializer: ActorMaterializer,
   managerRepositories: ManagerRepositories,
   managerConfiguration: ManagerConfiguration
+)(
+  implicit val ex: ExecutionContext,
+  implicit val system: ActorSystem,
+  implicit val materializer: ActorMaterializer
 ) {
 
-  import managerRepositories._
-  import managerConfiguration._
+  val dockerClient: DockerClient = DefaultDockerClient.fromEnv().build()
 
-  implicit val dockerClient: DockerClient = DefaultDockerClient.fromEnv().build()
+  val runtimeMeshConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector(managerConfiguration.sidecar)
 
-  implicit val runtimeMeshConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector
+  val sourceManagementService = new SourceManagementServiceImpl(managerRepositories.sourceRepository)
 
-  implicit val sourceManagementService = new SourceManagementServiceImpl
+  val modelBuildService: ModelBuildService = new LocalModelBuildService(dockerClient, sourceManagementService)
 
-  implicit val modelBuildService: ModelBuildService = new LocalModelBuildService
-
-  implicit val modelPushService: ModelPushService = managerConfiguration.dockerRepository match {
+  val modelPushService: ModelPushService = managerConfiguration.dockerRepository match {
     case c: ECSDockerRepositoryConfiguration => new ECSModelPushService(dockerClient, c)
     case _ => new EmptyModelPushService
   }
 
 
-  implicit val modelManagementService: ModelManagementService = new ModelManagementServiceImpl
+  val modelManagementService: ModelManagementService = new ModelManagementServiceImpl(
+    managerRepositories.runtimeTypeRepository,
+    managerRepositories.modelRepository,
+    managerRepositories.modelFilesRepository,
+    managerRepositories.modelRuntimeRepository,
+    managerRepositories.modelBuildRepository,
+    managerRepositories.runtimeTypeBuildScriptRepository,
+    modelBuildService,
+    modelPushService
+  )
 
-  implicit val runtimeDeployService: RuntimeDeployService = managerConfiguration.cloudDriver match {
+  val runtimeDeployService: RuntimeDeployService = managerConfiguration.cloudDriver match {
     case c: SwarmCloudDriverConfiguration => new SwarmRuntimeDeployService(dockerClient, managerConfiguration)
     case c: DockerCloudDriverConfiguration => new DockerRuntimeDeployService(dockerClient, managerConfiguration)
     //TODO change
     case c: ECSCloudDriverConfiguration => new EcsRuntimeDeployService(c, managerConfiguration)
   }
 
-  implicit val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl
+  val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(
+    runtimeDeployService,
+    managerRepositories.modelServiceRepository,
+    managerRepositories.modelRuntimeRepository
+  )
 
-  implicit val servingManagementService: ServingManagementService = new ServingManagementServiceImpl
+  val servingManagementService: ServingManagementService = new ServingManagementServiceImpl(
+    managerRepositories.endpointRepository,
+    managerRepositories.pipelineRepository,
+    managerRepositories.modelServiceRepository,
+    runtimeMeshConnector,
+    managerRepositories.weightedServiceRepository,
+    runtimeManagementService
+  )
 
-  implicit val envoyManagementService = new EnvoyManagementServiceImpl
+  val envoyManagementService = new EnvoyManagementServiceImpl(runtimeManagementService, servingManagementService)
 
-  implicit val envoyAdminConnector=new HttpEnvoyAdminConnector()
+  val envoyAdminConnector=new HttpEnvoyAdminConnector()
 
-  implicit val prometheusMetricsService = new PrometheusMetricsServiceImpl
+  val prometheusMetricsService = new PrometheusMetricsServiceImpl(runtimeManagementService, envoyAdminConnector)
 
-  implicit val uiManagementService = new UIManagementServiceImpl
+  val uiManagementService = new UIManagementServiceImpl(
+    managerRepositories.modelRepository,
+    managerRepositories.modelRuntimeRepository,
+    managerRepositories.modelBuildRepository,
+    managerRepositories.modelServiceRepository,
+    runtimeManagementService,
+    servingManagementService,
+    modelManagementService
+  )
 }

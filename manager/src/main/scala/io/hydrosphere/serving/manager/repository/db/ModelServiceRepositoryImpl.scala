@@ -25,7 +25,10 @@ class ModelServiceRepositoryImpl(implicit executionContext: ExecutionContext, da
         entity.serviceId,
         entity.serviceName,
         entity.cloudDriverId,
-        entity.modelRuntime.id
+        entity.modelRuntime.id,
+        entity.status,
+        entity.statusText,
+        entity.configParams.map { case (k, v) => s"$k=$v" }.toList
       )
     ).map(s => mapFromDb(s, Some(entity.modelRuntime)))
 
@@ -75,7 +78,11 @@ class ModelServiceRepositoryImpl(implicit executionContext: ExecutionContext, da
         .result.headOption
     ).map(m => mapFromDb(m))
 
-  override def fetchByIds(ids: Seq[Long]): Future[Seq[ModelService]] =
+  override def fetchByIds(ids: Seq[Long]): Future[Seq[ModelService]] = {
+    if (ids.isEmpty) {
+      return Future.successful(Seq())
+    }
+
     db.run(
       Tables.ModelService
         .filter(_.serviceId inSetBind ids)
@@ -85,6 +92,7 @@ class ModelServiceRepositoryImpl(implicit executionContext: ExecutionContext, da
         .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
         .result
     ).map(m => mapFromDb(m))
+  }
 
   override def getByModelIds(modelIds: Seq[Long]): Future[Seq[ModelService]] =
     db.run(
@@ -126,7 +134,7 @@ class ModelServiceRepositoryImpl(implicit executionContext: ExecutionContext, da
         .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
         .joinLeft(Tables.RuntimeType)
         .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
-        .filter({ case ((ms, mr), rt) => mr.flatMap(_.modelname) === modelName && mr.flatMap(_.modelversion) === modelVersion})
+        .filter({ case ((ms, mr), rt) => mr.flatMap(_.modelname) === modelName && mr.flatMap(_.modelversion) === modelVersion })
         .result.headOption
     ).map(m => mapFromDb(m))
 }
@@ -166,7 +174,11 @@ object ModelServiceRepositoryImpl {
       cloudDriverId = model.cloudDriverId,
       modelRuntime = modelRuntime.getOrElse(throw new RuntimeException("Can't find ModelRuntime for service")),
       status = model.status,
-      statusText = model.statustext
+      statusText = model.statustext,
+      configParams = model.configParams.map(s => {
+        val arr = s.split('=')
+        arr.head -> arr.drop(1).mkString("=")
+      }).toMap
     )
   }
 }

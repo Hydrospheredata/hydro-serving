@@ -17,7 +17,7 @@ import scala.concurrent.duration._
 @Path("/v1/prometheus")
 @Api(produces = "application/json", tags = Array("Infrastructure: Prometheus"))
 class PrometheusMetricsController(
-  implicit prometheusMetricsService:PrometheusMetricsService
+  prometheusMetricsService:PrometheusMetricsService
 ) extends PrometheusJsonSupport {
   implicit val timeout = Timeout(5.minutes)
 

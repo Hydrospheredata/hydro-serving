@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager.service.clouddriver
 
+import com.google.common.collect.ImmutableList
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.messages.swarm._
 import io.hydrosphere.serving.manager._
@@ -10,7 +11,7 @@ import org.apache.logging.log4j.scala.Logging
 import collection.JavaConversions._
 
 /**
-  *
+  * TODO extend this class from DockerRuntimeDeployService
   */
 class SwarmRuntimeDeployService(
   dockerClient: DockerClient,
@@ -26,18 +27,16 @@ class SwarmRuntimeDeployService(
     )
     val javaLabels = mapAsJavaMap(labels)
 
-    val env = List[String](
-      s"$ENV_HS_SERVICE_ID=${runtime.serviceId}",
-
-      s"$ENV_APP_HTTP_PORT=$DEFAULT_APP_HTTP_PORT",
-      s"$ENV_SIDECAR_HTTP_PORT=$DEFAULT_SIDECAR_HTTP_PORT",
-      s"$ENV_SIDECAR_ADMIN_PORT=$DEFAULT_SIDECAR_ADMIN_PORT",
-
-      s"$ENV_MANAGER_HOST=${managerConfiguration.advertised.advertisedHost}",
-      s"$ENV_MANAGER_PORT=${managerConfiguration.advertised.advertisedPort.toString}",
-      s"$ENV_ZIPKIN_ENABLED=${managerConfiguration.zipkin.enabled.toString}",
-      s"$ENV_ZIPKIN_HOST=${managerConfiguration.zipkin.host}",
-      s"$ENV_ZIPKIN_PORT=${managerConfiguration.zipkin.port.toString}"
+    val envMap = runtime.configParams ++ Map(
+      ENV_HS_SERVICE_ID -> runtime.serviceId,
+      ENV_APP_HTTP_PORT -> DEFAULT_APP_HTTP_PORT,
+      ENV_SIDECAR_HTTP_PORT -> DEFAULT_SIDECAR_HTTP_PORT,
+      ENV_SIDECAR_ADMIN_PORT -> DEFAULT_SIDECAR_ADMIN_PORT,
+      ENV_MANAGER_HOST -> managerConfiguration.advertised.advertisedHost,
+      ENV_MANAGER_PORT -> managerConfiguration.advertised.advertisedPort,
+      ENV_ZIPKIN_ENABLED -> managerConfiguration.zipkin.enabled,
+      ENV_ZIPKIN_HOST -> managerConfiguration.zipkin.host,
+      ENV_ZIPKIN_PORT -> managerConfiguration.zipkin.port
     )
 
 
@@ -58,7 +57,7 @@ class SwarmRuntimeDeployService(
         TaskSpec.builder()
           .containerSpec(ContainerSpec.builder()
             .image(s"${runtime.modelRuntime.imageName}:${runtime.modelRuntime.imageMD5Tag}")
-            .env(env)
+            .env(envMap.map { case (k, v) => s"$k=$v" }.toList)
             .labels(javaLabels)
             //.placement()
             //.networks()
@@ -79,7 +78,8 @@ class SwarmRuntimeDeployService(
         name = s.spec().name(),
         cloudDriveId = s.id(),
         status = s.updateStatus().state(),
-        statusText = s.updateStatus().message()
+        statusText = s.updateStatus().message(),
+        configParams = mapEnvironments(s.spec().taskTemplate().containerSpec().env())
       )
     } else {
       ServiceInfo(
@@ -87,10 +87,17 @@ class SwarmRuntimeDeployService(
         name = s.spec().name(),
         cloudDriveId = s.id(),
         status = "",
-        statusText = ""
+        statusText = "",
+        configParams = Map()
       )
     }
   }
+
+  private def mapEnvironments(list: ImmutableList[String]): Map[String, String] =
+    list
+      .map(p => p.split("="))
+      .filter(arr => arr.length > 1 && arr(0) != null && arr(1) != null)
+      .map(arr => arr(0) -> arr(1)).toMap
 
   override def serviceList(): Seq[ServiceInfo] =
     dockerClient.listServices(
@@ -129,10 +136,7 @@ class SwarmRuntimeDeployService(
       .label(LABEL_HS_SERVICE_MARKER)
       .build()).map(s => {
 
-      val envMap = s.spec().containerSpec().env()
-        .map(p => p.split(":"))
-        .filter(arr => arr.length > 1 && arr(0) != null && arr(1) != null)
-        .map(arr => arr(0) -> arr(1)).toMap
+      val envMap = mapEnvironments(s.spec().containerSpec().env())
 
       ModelServiceInstance(
         instanceId = s.status().containerStatus().containerId(),

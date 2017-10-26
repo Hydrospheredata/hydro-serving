@@ -8,7 +8,8 @@ case class RuntimeType(
   id: Long,
   name: String,
   version: String,
-  tags: List[String]
+  tags: List[String],
+  configParams: Map[String, String]
 )
 
 case class ModelRuntime(
@@ -23,7 +24,9 @@ case class ModelRuntime(
   outputFields: ModelApi,
   inputFields: ModelApi,
   created: LocalDateTime,
-  modelId: Option[Long]
+  modelId: Option[Long],
+  configParams: Map[String, String],
+  tags: List[String]
 )
 
 case class ModelService(
@@ -32,7 +35,8 @@ case class ModelService(
   cloudDriverId: Option[String],
   modelRuntime: ModelRuntime,
   status: Option[String],
-  statusText: Option[String]
+  statusText: Option[String],
+  configParams: Map[String, String]
 )
 
 case class Endpoint(
@@ -65,5 +69,6 @@ case class ServiceWeight(
 case class WeightedService(
   id: Long,
   serviceName: String,
-  weights: List[ServiceWeight]
+  weights: List[ServiceWeight],
+  sourcesList: List[Long]
 )

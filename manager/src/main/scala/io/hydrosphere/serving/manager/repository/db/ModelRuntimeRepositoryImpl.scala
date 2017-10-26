@@ -37,7 +37,10 @@ class ModelRuntimeRepositoryImpl(implicit executionContext: ExecutionContext, da
         entity.imageName,
         entity.imageTag,
         entity.imageMD5Tag,
-        entity.modelId)
+        entity.modelId,
+        entity.tags,
+        entity.configParams.map { case (k, v) => s"$k=$v" }.toList
+      )
     ).map(s => mapFromDb(s, entity.runtimeType))
 
   override def get(id: Long): Future[Option[ModelRuntime]] =
@@ -77,7 +80,7 @@ class ModelRuntimeRepositoryImpl(implicit executionContext: ExecutionContext, da
   override def lastModelRuntimeForModels(modelIds: Seq[Long]): Future[Seq[ModelRuntime]] =
     db.run(
       Tables.ModelRuntime
-        .filter(_.modelId inSetBind  modelIds)
+        .filter(_.modelId inSetBind modelIds)
         .joinLeft(Tables.RuntimeType)
         .on({ case (m, rt) => m.runtimeTypeId === rt.runtimeTypeId })
         .sortBy(_._1.runtimeId.desc)
@@ -88,12 +91,21 @@ class ModelRuntimeRepositoryImpl(implicit executionContext: ExecutionContext, da
   override def modelRuntimeByModelAndVersion(modelId: Long, version: String): Future[Option[ModelRuntime]] =
     db.run(
       Tables.ModelRuntime
-        .filter(r=> r.modelId ===  modelId && r.modelversion === version)
+        .filter(r => r.modelId === modelId && r.modelversion === version)
         .joinLeft(Tables.RuntimeType)
         .on({ case (m, rt) => m.runtimeTypeId === rt.runtimeTypeId })
         .sortBy(_._1.runtimeId.desc)
         .distinctOn(_._1.modelId.get)
         .result.headOption
+    ).map(s => mapFromDb(s))
+
+  override def fetchByTags(tags: Seq[String]): Future[Seq[ModelRuntime]] =
+    db.run(
+      Tables.ModelRuntime
+        .filter(p => p.tags @> tags.toList)
+        .joinLeft(Tables.RuntimeType)
+        .on({ case (m, rt) => m.runtimeTypeId === rt.runtimeTypeId })
+        .result
     ).map(s => mapFromDb(s))
 }
 
@@ -122,7 +134,12 @@ object ModelRuntimeRepositoryImpl extends ManagerJsonSupport {
       outputFields = model.outputFields.convertTo[ModelApi],
       inputFields = model.inputFields.convertTo[ModelApi],
       created = model.createdTimestamp,
-      modelId = model.modelId
+      modelId = model.modelId,
+      tags = model.tags,
+      configParams = model.configParams.map(s => {
+        val arr = s.split('=')
+        arr.head -> arr.drop(1).mkString("=")
+      }).toMap
     )
   }
 }

@@ -7,52 +7,52 @@ import io.hydrosphere.serving.manager.repository.db._
 import scala.concurrent.ExecutionContext
 
 trait ManagerRepositories {
-  implicit val runtimeTypeRepository: RuntimeTypeRepository
+  val runtimeTypeRepository: RuntimeTypeRepository
 
-  implicit val modelRepository: ModelRepository
+  val modelRepository: ModelRepository
 
-  implicit val modelFilesRepository: ModelFilesRepository
+  val modelFilesRepository: ModelFilesRepository
 
-  implicit val modelRuntimeRepository: ModelRuntimeRepository
+  val modelRuntimeRepository: ModelRuntimeRepository
 
-  implicit val modelBuildRepository: ModelBuildRepository
+  val modelBuildRepository: ModelBuildRepository
 
-  implicit val modelServiceRepository: ModelServiceRepository
+  val modelServiceRepository: ModelServiceRepository
 
-  implicit val pipelineRepository: PipelineRepository
+  val pipelineRepository: PipelineRepository
 
-  implicit val endpointRepository: EndpointRepository
+  val endpointRepository: EndpointRepository
 
-  implicit val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository
+  val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository
 
-  implicit val sourceRepository: SourceConfigRepository
+  val sourceRepository: SourceConfigRepository
 
-  implicit val weightedServiceRepository: WeightedServiceRepository
+  val weightedServiceRepository: WeightedServiceRepository
 }
 
-class ManagerRepositoriesConfig(implicit executionContext: ExecutionContext, config: ManagerConfiguration)
+class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit executionContext: ExecutionContext)
   extends ManagerRepositories {
   implicit val dataService = new DatabaseService(config.database)
 
-  implicit val runtimeTypeRepository: RuntimeTypeRepository = new RuntimeTypeRepositoryImpl
+  val runtimeTypeRepository: RuntimeTypeRepository = new RuntimeTypeRepositoryImpl
 
-  implicit val modelRepository: ModelRepository = new ModelRepositoryImpl
+  val modelRepository: ModelRepository = new ModelRepositoryImpl
 
-  implicit val modelFilesRepository = new ModelFilesRepositoryImpl
+  val modelFilesRepository = new ModelFilesRepositoryImpl
 
-  implicit val modelRuntimeRepository: ModelRuntimeRepository = new ModelRuntimeRepositoryImpl
+  val modelRuntimeRepository: ModelRuntimeRepository = new ModelRuntimeRepositoryImpl
 
-  implicit val modelBuildRepository: ModelBuildRepository = new ModelBuildRepositoryImpl
+  val modelBuildRepository: ModelBuildRepository = new ModelBuildRepositoryImpl
 
-  implicit val modelServiceRepository: ModelServiceRepository = new ModelServiceRepositoryImpl
+  val modelServiceRepository: ModelServiceRepository = new ModelServiceRepositoryImpl
 
-  implicit val pipelineRepository: PipelineRepository = new PipelineRepositoryImpl
+  val pipelineRepository: PipelineRepository = new PipelineRepositoryImpl
 
-  implicit val endpointRepository: EndpointRepository = new EndpointRepositoryImpl
+  val endpointRepository: EndpointRepository = new EndpointRepositoryImpl
 
-  implicit val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository = new RuntimeTypeBuildScriptRepositoryImpl
+  val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository = new RuntimeTypeBuildScriptRepositoryImpl
 
-  implicit val sourceRepository: SourceConfigRepository = new SourceConfigRepositoryImpl
+  val sourceRepository: SourceConfigRepository = new SourceConfigRepositoryImpl(config)
 
-  implicit val weightedServiceRepository: WeightedServiceRepository = new WeightedServiceRepositoryImpl
+  val weightedServiceRepository: WeightedServiceRepository = new WeightedServiceRepositoryImpl
 }

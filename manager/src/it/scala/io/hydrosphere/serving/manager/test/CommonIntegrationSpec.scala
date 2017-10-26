@@ -59,15 +59,15 @@ class CommonIntegrationSpec extends TestKit(ActorSystem("testMasterService"))
   }
 
   val originalConfiguration = ManagerConfiguration.parse(ConfigFactory.load())
-  implicit val configuration = originalConfiguration.copy(database =
+  val configuration = originalConfiguration.copy(database =
     originalConfiguration.database.withValue(
       "jdbcUrl",
       ConfigValueFactory.fromAnyRef(s"jdbc:postgresql://localhost:${container.mappedPort(5432)}/docker")
     )
   )
 
-  implicit val managerRepositories = new ManagerRepositoriesConfig
-  implicit val managerServices = new ManagerServices {
+  val managerRepositories = new ManagerRepositoriesConfig(configuration)
+  val managerServices = new ManagerServices(managerRepositories, configuration) {
 
     override val runtimeDeployService: RuntimeDeployService = mockRuntimeDeployService
 

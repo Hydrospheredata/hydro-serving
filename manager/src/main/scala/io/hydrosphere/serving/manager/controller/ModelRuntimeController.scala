@@ -16,7 +16,7 @@ import scala.concurrent.duration._
   */
 @Path("/api/v1/modelRuntime")
 @Api(produces = "application/json", tags = Array("Models: Model Runtime"))
-class ModelRuntimeController (implicit modelManagementService: ModelManagementService) extends ManagerJsonSupport {
+class ModelRuntimeController (modelManagementService: ModelManagementService) extends ManagerJsonSupport {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/")
@@ -28,6 +28,27 @@ class ModelRuntimeController (implicit modelManagementService: ModelManagementSe
   def listModelRuntimes = path("api" / "v1" / "modelRuntime") {
     get {
       complete(modelManagementService.allModelRuntime())
+    }
+  }
+
+
+  @Path("/byTag")
+  @ApiOperation(value = "listModelRuntimesByTag", notes = "listModelRuntimesByTag", nickname = "listModelRuntimesByTag", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "body", value = "tags", required = true,
+      dataTypeClass = classOf[String], paramType = "body", collectionFormat = "List")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ModelRuntime", response = classOf[ModelRuntime], responseContainer = "List"),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def listModelRuntimesByTag = path("api" / "v1" / "modelRuntime" / "byTag") {
+    post {
+      entity(as[Seq[String]]) { r =>
+        complete(
+          modelManagementService.modelRuntimeByTag(r)
+        )
+      }
     }
   }
 
@@ -73,5 +94,5 @@ class ModelRuntimeController (implicit modelManagementService: ModelManagementSe
   }
 
 
-  val routes: Route = listModelRuntimes ~ addModelRuntime ~ lastModelBuilds
+  val routes: Route = listModelRuntimes ~ addModelRuntime ~ lastModelBuilds ~ listModelRuntimesByTag
 }

@@ -13,7 +13,7 @@ import org.apache.commons.io.FileUtils
   *
   */
 class LocalModelBuildService(
-  implicit dockerClient: DockerClient,
+  dockerClient: DockerClient,
   sourceManagementService: SourceManagementService
 ) extends ModelBuildService {
   private val modelDir = "model"

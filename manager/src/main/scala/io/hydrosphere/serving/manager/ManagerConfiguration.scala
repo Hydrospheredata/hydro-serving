@@ -13,14 +13,14 @@ import collection.JavaConverters._
   */
 
 trait ManagerConfiguration {
-  implicit val sidecar: SidecarConfig
-  implicit val application: ApplicationConfig
-  implicit val advertised: AdvertisedConfiguration
-  implicit val modelSources: Seq[ModelSourceConfiguration]
-  implicit val database: Config
-  implicit val cloudDriver: CloudDriverConfiguration
-  implicit val zipkin: ZipkinConfiguration
-  implicit val dockerRepository: DockerRepositoryConfiguration
+  val sidecar: SidecarConfig
+  val application: ApplicationConfig
+  val advertised: AdvertisedConfiguration
+  val modelSources: Seq[ModelSourceConfiguration]
+  val database: Config
+  val cloudDriver: CloudDriverConfiguration
+  val zipkin: ZipkinConfiguration
+  val dockerRepository: DockerRepositoryConfiguration
 }
 
 case class ManagerConfigurationImpl(
@@ -74,7 +74,8 @@ case class SwarmCloudDriverConfiguration(
 ) extends CloudDriverConfiguration
 
 case class DockerCloudDriverConfiguration(
-  networkName: String
+  networkName: String,
+  loggingGelfHost: Option[String]
 ) extends CloudDriverConfiguration
 
 case class ECSCloudDriverConfiguration(
@@ -124,7 +125,12 @@ object ManagerConfiguration extends Configuration {
         case "swarm" =>
           SwarmCloudDriverConfiguration(networkName = driverConf.getString("networkName"))
         case "docker" =>
-          DockerCloudDriverConfiguration(networkName = driverConf.getString("networkName"))
+          val hasLoggingGelfHost = driverConf.hasPath("loggingGelfHost")
+          DockerCloudDriverConfiguration(
+            networkName = driverConf.getString("networkName"),
+            loggingGelfHost = if (hasLoggingGelfHost)
+              Some(driverConf.getString("loggingGelfHost")) else None
+          )
         case "ecs" =>
           ECSCloudDriverConfiguration(
             region = Regions.fromName(driverConf.getString("region")),

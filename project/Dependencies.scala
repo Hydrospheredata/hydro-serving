@@ -55,6 +55,12 @@ object Dependencies {
     .union(akkaHttpDependencies)
     .union(logDependencies)
 
+  lazy val streamingKafkaDependencies = akkaDependencies
+    .union(commonDependencies)
+    .union(Seq(
+      "com.typesafe.akka" %% "akka-stream-kafka" % "0.17"
+    ))
+
   lazy val codegenDependencies = commonDependencies
     .union(Seq(
       "org.postgresql" % "postgresql" % postgresqlVersion,

@@ -117,15 +117,15 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
     }
   }
 
-  implicit val runtimeTypeFormat = jsonFormat4(RuntimeType)
-  implicit val modelRuntimeFormat = jsonFormat12(ModelRuntime)
-  implicit val modelServiceFormat = jsonFormat6(ModelService)
+  implicit val runtimeTypeFormat = jsonFormat5(RuntimeType)
+  implicit val modelRuntimeFormat = jsonFormat14(ModelRuntime)
+  implicit val modelServiceFormat = jsonFormat7(ModelService)
 
   implicit val errorResponseFormat = jsonFormat1(ErrorResponse)
   implicit val stageFormat = jsonFormat3(PipelineStage)
   implicit val pipelineFormat = jsonFormat3(Pipeline)
   implicit val endpointFormat = jsonFormat3(Endpoint)
   implicit val serviceWeight = jsonFormat2(ServiceWeight)
-  implicit val weightedService = jsonFormat3(WeightedService)
+  implicit val weightedService = jsonFormat4(WeightedService)
 
 }

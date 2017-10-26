@@ -17,14 +17,16 @@ import scala.util.{Failure, Success, Try}
 case class CreateRuntimeTypeRequest(
   name: String,
   version: String,
-  tags: Option[List[String]]
+  tags: Option[List[String]],
+  configParams: Option[Map[String, String]]
 ) {
   def toRuntimeType: RuntimeType = {
     RuntimeType(
       id = 0,
       name = this.name,
       version = this.version,
-      tags = this.tags.getOrElse(List())
+      tags = this.tags.getOrElse(List()),
+      configParams = this.configParams.getOrElse(Map())
     )
   }
 }
@@ -74,7 +76,9 @@ case class CreateModelRuntime(
   runtimeTypeId: Option[Long],
   outputFields: Option[ModelApi],
   inputFields: Option[ModelApi],
-  modelId: Option[Long]
+  modelId: Option[Long],
+  tags: Option[List[String]],
+  configParams: Option[Map[String, String]]
 ) {
   def toModelRuntime(runtimeType: Option[RuntimeType]): ModelRuntime = {
     ModelRuntime(
@@ -89,7 +93,9 @@ case class CreateModelRuntime(
       outputFields = this.outputFields.getOrElse(DataFrame(List.empty)),
       inputFields = this.inputFields.getOrElse(DataFrame(List.empty)),
       created = LocalDateTime.now(),
-      modelId = this.modelId
+      modelId = this.modelId,
+      tags = runtimeType.map(r => r.tags).getOrElse(this.tags.getOrElse(List())),
+      configParams = runtimeType.map(r => r.configParams).getOrElse(this.configParams.getOrElse(Map()))
     )
   }
 }
@@ -115,6 +121,8 @@ trait ModelManagementService {
 
   def allRuntimeTypes(): Future[Seq[RuntimeType]]
 
+  def runtimeTypesByTag(tags: Seq[String]): Future[Seq[RuntimeType]]
+
   def allModels(): Future[Seq[Model]]
 
   def updateModel(entity: CreateOrUpdateModelRequest): Future[Model]
@@ -130,6 +138,8 @@ trait ModelManagementService {
   def addModelRuntime(entity: CreateModelRuntime): Future[ModelRuntime]
 
   def allModelRuntime(): Future[Seq[ModelRuntime]]
+
+  def modelRuntimeByTag(tags: Seq[String]): Future[Seq[ModelRuntime]]
 
   def lastModelRuntimeByModel(id: Long, maximum: Int): Future[Seq[ModelRuntime]]
 
@@ -148,9 +158,24 @@ trait ModelManagementService {
   def generateModelPayload(modelName: String): Future[Seq[Any]]
 }
 
+object ModelManagementService {
+  def nextVersion(lastRuntime: Option[ModelRuntime]): String = lastRuntime match {
+    case None => "0.0.1"
+    case Some(runtime) =>
+      val splitted = runtime.modelVersion.split('.')
+      splitted.lastOption match {
+        case None => runtime.modelVersion + ".1"
+        case Some(v) =>
+          Try.apply(v.toInt) match {
+            case Failure(_) => runtime.modelVersion + ".1"
+            case Success(intVersion) => splitted.dropRight(1).mkString(".") + "." + (intVersion + 1)
+          }
+      }
+  }
+}
+
 
 class ModelManagementServiceImpl(
-  implicit val ex: ExecutionContext,
   runtimeTypeRepository: RuntimeTypeRepository,
   modelRepository: ModelRepository,
   modelFilesRepository: ModelFilesRepository,
@@ -159,6 +184,8 @@ class ModelManagementServiceImpl(
   runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository,
   modelBuildService: ModelBuildService,
   modelPushService: ModelPushService
+)(
+  implicit val ex: ExecutionContext
 ) extends ModelManagementService with Logging {
 
   override def createRuntimeType(entity: CreateRuntimeTypeRequest): Future[RuntimeType] =
@@ -288,7 +315,9 @@ class ModelManagementServiceImpl(
           outputFields = modelBuild.model.outputFields,
           inputFields = modelBuild.model.inputFields,
           created = LocalDateTime.now,
-          modelId = Some(modelBuild.model.id)
+          modelId = Some(modelBuild.model.id),
+          tags = modelBuild.model.runtimeType.map(r => r.tags).getOrElse(List()),
+          configParams = modelBuild.model.runtimeType.map(r => r.configParams).getOrElse(Map())
         )).flatMap(modelRuntime => {
           Future(modelPushService.push(modelRuntime, handler)).map(l => modelRuntime)
         })
@@ -302,19 +331,7 @@ class ModelManagementServiceImpl(
         case _ => throw new IllegalArgumentException("You already have such version")
       }
       case _ => modelRuntimeRepository.lastModelRuntimeByModel(modelId, 1)
-        .map(se => se.headOption match {
-          case None => "0.0.1"
-          case Some(runtime) =>
-            val splitted = runtime.modelVersion.split('.')
-            splitted.lastOption match {
-              case None => runtime.modelVersion + ".1"
-              case Some(v) =>
-                Try.apply(v.toInt) match {
-                  case Failure(_) => runtime.modelVersion + ".1"
-                  case Success(intVersion) => splitted.dropRight(1).mkString(".") + "." + (intVersion + 1)
-                }
-            }
-        })
+        .map(se => ModelManagementService.nextVersion(se.headOption))
     }
   }
 
@@ -465,6 +482,12 @@ class ModelManagementServiceImpl(
       }
     }
   }
+
+  override def runtimeTypesByTag(tags: Seq[String]): Future[Seq[RuntimeType]] =
+    runtimeTypeRepository.fetchByTags(tags)
+
+  override def modelRuntimeByTag(tags: Seq[String]): Future[Seq[ModelRuntime]] =
+    modelRuntimeRepository.fetchByTags(tags)
 
   override def generateModelPayload(modelName: String): Future[Seq[Any]] = {
     modelRepository.get(modelName).map {

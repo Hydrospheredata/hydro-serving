@@ -16,7 +16,7 @@ import scala.concurrent.duration._
   */
 @Path("/api/v1/runtimeType")
 @Api(produces = "application/json", tags = Array("Models: RuntimeType"))
-class RuntimeTypeController(implicit modelManagementService: ModelManagementService) extends ManagerJsonSupport {
+class RuntimeTypeController(modelManagementService: ModelManagementService) extends ManagerJsonSupport {
   implicit val timeout = Timeout(5.seconds)
 
   @Path("/")

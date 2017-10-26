@@ -11,7 +11,7 @@ import scala.concurrent.duration._
 /**
   *
   */
-class ModelManagementServiceSpec extends CommonIntegrationSpec with BeforeAndAfterEach {
+class ModelManagementServiceITSpec extends CommonIntegrationSpec with BeforeAndAfterEach {
 
 
   describe("Model") {
@@ -45,16 +45,6 @@ class ModelManagementServiceSpec extends CommonIntegrationSpec with BeforeAndAft
       Await.result(f, 10.seconds)
     }
   }
-
-  /*
-  id: Option[Long],
-  name: String,
-  source: String,
-  runtimeTypeId: Option[Long],
-  description: Option[String],
-  outputFields: Option[List[String]],
-  inputFields: Option[List[String]]
-  */
 
   override protected def beforeEach(): Unit = {
     executeDBScript("/db/models.sql")
