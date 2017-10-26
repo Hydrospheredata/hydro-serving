@@ -41,13 +41,30 @@ object SparkModelFetcher extends ModelFetcher with Logging {
 
       val inputs = stagesMetadata.map(SparkMlTypeMapper.getInputSchema)
       val outputs = stagesMetadata.map(SparkMlTypeMapper.getOutputSchema)
+      val labels = stagesMetadata.map(SparkMlTypeMapper.getLabels).filter(_.isDefined).map(_.get)
+
+      val allLabels = labels.flatMap(_.definition.map(x => x.name))
+      val allIns = inputs.flatMap(_.definition.map(x => x.name -> x.fieldType)).toMap
+      val allOuts = outputs.flatMap(_.definition.map(x => x.name -> x.fieldType)).toMap
+
+      val inputSchema = if (allLabels.isEmpty) {
+        DataFrame((allIns -- allOuts.keys).map{case (x,y) => ModelField(x, y)}.toList)
+      } else {
+        val trainInputs = stagesMetadata.filter { stage =>
+          val outs = SparkMlTypeMapper.getOutputSchema(stage)
+          outs.definition.map(x => x.name -> x.fieldType).toMap.keys.containsAll(allLabels)
+        }.map(SparkMlTypeMapper.getInputSchema)
+        val allTrains = trainInputs.flatMap(_.definition.map(x => x.name -> x.fieldType)).toMap
+        DataFrame((allIns -- allOuts.keys -- allTrains.keys).map{case (x,y) => ModelField(x, y)}.toList)
+      }
+      val outputSchema = DataFrame((allOuts -- allIns.keys).map{case (x,y) => ModelField(x, y)}.toList)
 
       Some(
         ModelMetadata(
           directory,
           Some(getRuntimeType(pipelineMetadata)),
-          outputs.last,
-          inputs.head
+          outputSchema,
+          inputSchema
         )
       )
     } catch {

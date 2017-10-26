@@ -11,6 +11,7 @@ import io.hydrosphere.serving.manager.service.{CreateOrUpdateModelRequest, Model
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
+import spray.json._
 
 /**
   *

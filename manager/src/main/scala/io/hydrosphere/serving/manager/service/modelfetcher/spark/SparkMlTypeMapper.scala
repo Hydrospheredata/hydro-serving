@@ -1,8 +1,5 @@
 package io.hydrosphere.serving.manager.service.modelfetcher.spark
 
-import io.hydrosphere.serving.manager.LocalModelSourceConfiguration
-import io.hydrosphere.serving.manager.controller.ManagerJsonSupport
-import io.hydrosphere.serving.manager.service.modelsource.LocalModelSource
 import io.hydrosphere.serving.model_api._
 
 trait SparkMlTypeMapper {
@@ -10,6 +7,7 @@ trait SparkMlTypeMapper {
 
   def inputSchema: SchemaGenerator
   def outputSchema: SchemaGenerator
+  def labelSchema: Option[SchemaGenerator] = None
 
   private final def getDataFrame(sparkModelMetadata: SparkModelMetadata, schemaGenerator: SchemaGenerator) = {
     DataFrame(schemaGenerator(sparkModelMetadata))
@@ -17,7 +15,10 @@ trait SparkMlTypeMapper {
 
   final def input(sparkModelMetadata: SparkModelMetadata): DataFrame = getDataFrame(sparkModelMetadata, inputSchema)
   final def output(sparkModelMetadata: SparkModelMetadata): DataFrame = getDataFrame(sparkModelMetadata, outputSchema)
+
+  final def labels(sparkModelMetadata: SparkModelMetadata): Option[DataFrame] = labelSchema.map(getDataFrame(sparkModelMetadata,_))
 }
+
 object SparkMlTypeMapper {
   def sparkVector: FMatrix = FMatrix.varvec(FDouble)
 
@@ -77,6 +78,8 @@ object SparkMlTypeMapper {
   def getInputSchema(metadata: SparkModelMetadata): DataFrame = SparkMlTypeMapper(metadata).input(metadata)
 
   def getOutputSchema(metadata: SparkModelMetadata): DataFrame = SparkMlTypeMapper(metadata).output(metadata)
+
+  def getLabels(metadata: SparkModelMetadata): Option[DataFrame] = SparkMlTypeMapper(metadata).labels(metadata)
 }
 
 trait FeaturesOutputMapper extends SparkMlTypeMapper {
@@ -107,12 +110,18 @@ trait PredictorMapper extends SparkMlTypeMapper {
   def featuresType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
   def predictionType(sparkModelMetadata: SparkModelMetadata): FieldType = FDouble
 
-  def inputSchema: SchemaGenerator = { m =>
-    List(ModelField(m.getParam("featuresCol").get, featuresType(m)))
+  override def labelSchema: Option[SchemaGenerator] = Some({ m=>
+    List(
+      ModelField.untyped(m.getParam[String]("labelCol").get)
+    )
+  })
+
+  override def inputSchema: SchemaGenerator = { m =>
+    List(ModelField(m.getParam[String]("featuresCol").get, featuresType(m)))
   }
 
-  def outputSchema: SchemaGenerator = { m =>
-    List(ModelField(m.getParam("predictionCol").get, predictionType(m)))
+  override def outputSchema: SchemaGenerator = { m =>
+    List(ModelField(m.getParam[String]("predictionCol").get, predictionType(m)))
   }
 }
 trait ClassifierMapper extends PredictorMapper {
@@ -310,6 +319,7 @@ object AFTSurvivalRegressionMapper extends PredictorMapper { }
 object IsotonicRegressionMapper extends PredictorMapper { }
 
 object KMeansMapper extends PredictorMapper {
+  override def labelSchema: Option[KMeansMapper.SchemaGenerator] = None
   override def predictionType(sparkModelMetadata: SparkModelMetadata): FieldType = FInteger
 }
 

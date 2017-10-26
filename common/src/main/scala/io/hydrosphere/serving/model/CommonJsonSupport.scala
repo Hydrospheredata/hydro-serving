@@ -103,17 +103,16 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
   implicit val typedFieldFormat = jsonFormat2(ModelField.apply)
 
   implicit val dataFrameFormat = jsonFormat1(DataFrame)
-  implicit val dataArrayFormat = jsonFormat1(DataArray)
   implicit object ModelApiFormat extends RootJsonFormat[ModelApi] {
     override def read(json: JsValue): ModelApi = json match {
       case x: JsObject => x.convertTo[DataFrame]
-      case x: JsArray => x.convertTo[DataArray]
+      case x: JsString if x == JsString("untyped") => UntypedAPI
       case value => throw new SerializationException(s"Incorrect JSON for model api definition: $value")
     }
 
     override def write(obj: ModelApi): JsValue = obj match {
       case x: DataFrame => x.toJson
-      case x: DataArray => x.toJson
+      case x: UntypedAPI.type => JsString("untyped")
       case value => throw DeserializationException(s"$value is not a valid model api definition.")
     }
   }
