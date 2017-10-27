@@ -20,13 +20,40 @@ CREATE TABLE hydro_serving.model
   name              TEXT                        NOT NULL,
   source            TEXT                        NOT NULL UNIQUE,
   runtime_type_id   BIGINT REFERENCES runtime_type (runtime_type_id),
-  output_fields     TEXT []                     NOT NULL,
-  input_fields      TEXT []                     NOT NULL,
+  output_fields     JSON                     NOT NULL,
+  input_fields      JSON                     NOT NULL,
   description       TEXT,
   created_timestamp TIMESTAMP WITHOUT TIME ZONE NOT NULL,
   updated_timestamp TIMESTAMP WITHOUT TIME ZONE NOT NULL
 );
 
+CREATE TABLE hydro_serving.model_source
+(
+  source_id BIGSERIAL PRIMARY KEY,
+  name TEXT NOT NULL UNIQUE
+);
+
+CREATE TABLE hydro_serving.local_source
+(
+  source_id BIGINT REFERENCES hydro_serving.model_source(source_id),
+  path TEXT NOT NULL
+);
+
+CREATE TABLE hydro_serving.s3_source
+(
+  source_id BIGINT REFERENCES hydro_serving.model_source(source_id),
+  key_id TEXT NOT NULL,
+  secret_key TEXT NOT NULL,
+  bucket_name TEXT NOT NULL,
+  queue_name TEXT NOT NULL,
+  region TEXT NOT NULL
+);
+
+CREATE TABLE hydro_serving.hdfs_source
+(
+  source_id BIGINT REFERENCES hydro_serving.model_source(source_id),
+  fs_string TEXT NOT NULL
+);
 
 CREATE TABLE hydro_serving.model_runtime
 (
@@ -35,8 +62,8 @@ CREATE TABLE hydro_serving.model_runtime
   modelName         TEXT                        NOT NULL,
   modelVersion      TEXT                        NOT NULL,
   source            TEXT,
-  output_fields     TEXT []                     NOT NULL,
-  input_fields      TEXT []                     NOT NULL,
+  output_fields     JSON                     NOT NULL,
+  input_fields      JSON                     NOT NULL,
   created_timestamp TIMESTAMP WITHOUT TIME ZONE NOT NULL,
   image_name        TEXT                        NOT NULL,
   image_tag         TEXT                        NOT NULL,

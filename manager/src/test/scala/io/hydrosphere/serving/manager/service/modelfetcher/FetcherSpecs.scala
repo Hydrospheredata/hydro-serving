@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager.service.modelfetcher
 
+import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelFetcher
 import io.hydrosphere.serving.manager.service.modelsource.LocalModelSource
 import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, TestConstants}
 import org.scalatest._
