@@ -12,8 +12,8 @@ import io.hydrosphere.serving.gateway.connector.{HttpManagerConnector, ManagerCo
 class GatewayActors(config: GatewayConfiguration)(implicit val system: ActorSystem,
                                                   implicit val materializer: ActorMaterializer) {
 
-  implicit val sidecar = config.sidecar
-  val sidecarConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector()
+  val sidecar = config.sidecar
+  val sidecarConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector(sidecar)
 
   val managerConnector: ManagerConnector = new HttpManagerConnector(config)
 
