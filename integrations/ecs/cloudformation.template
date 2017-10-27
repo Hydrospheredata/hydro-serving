@@ -948,7 +948,7 @@
                 }
               }
             ],
-            "Image": "hydrosphere/serving-manager-ui:0.0.11",
+            "Image": "hydrosphere/serving-manager-ui:0.0.12",
             "MemoryReservation": 128
           }
         ],
