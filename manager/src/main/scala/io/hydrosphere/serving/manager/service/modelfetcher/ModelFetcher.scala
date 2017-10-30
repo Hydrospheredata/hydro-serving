@@ -1,8 +1,7 @@
 package io.hydrosphere.serving.manager.service.modelfetcher
 
-import java.time.LocalDateTime
-
-import io.hydrosphere.serving.manager.model.Model
+import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelFetcher
+import io.hydrosphere.serving.model_api._
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import org.apache.logging.log4j.scala.Logging
 
@@ -30,7 +29,7 @@ object ModelFetcher extends Logging {
       .map(_.get)
       .headOption
       .getOrElse {
-        ModelMetadata(folder, None, List.empty, List.empty)
+        ModelMetadata(folder, None, DataFrame(List.empty), DataFrame(List.empty))
       }
     model
   }

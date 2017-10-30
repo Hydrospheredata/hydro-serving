@@ -10,7 +10,7 @@ import scala.concurrent.{ExecutionContext, Future}
 /**
   *
   */
-class EndpointRepositoryImpl(databaseService: DatabaseService)(implicit executionContext: ExecutionContext)
+class EndpointRepositoryImpl(implicit executionContext: ExecutionContext, databaseService: DatabaseService)
   extends EndpointRepository with Logging {
 
   import databaseService._
