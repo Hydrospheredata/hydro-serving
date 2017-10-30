@@ -11,7 +11,10 @@ CREATE TABLE hydro_serving.runtime_type
 INSERT INTO hydro_serving.runtime_type (name, version, tags, config_params) VALUES
   ('hydrosphere/serving-runtime-dummy', '0.0.1', '{"python","code","test"}', '{}'),
   ('hydrosphere/serving-runtime-tensorflow', '0.0.1', '{"tensorflow","python","ml"}', '{}'),
-  ('hydrosphere/serving-runtime-sparklocal', '0.0.1', '{"spark","scala","ml"}', '{}'),
+  ('hydrosphere/serving-runtime-sparklocal-2.0', '0.0.1', '{"spark 2.0","scala","ml"}', '{}'),
+  ('hydrosphere/serving-runtime-sparklocal-2.1', '0.0.1', '{"spark 2.1","scala","ml"}', '{}'),
+  ('hydrosphere/serving-runtime-sparklocal-2.2', '0.0.1', '{"spark 2.2","scala","ml"}', '{}'),
+  ('hydrosphere/serving-runtime-py2databricks', '0.0.1', '{"python2","databricks","sk-learn", "ml"}', '{}'),
   ('hydrosphere/serving-runtime-scikit', '0.0.1', '{"scikit","scikit","ml"}', '{}');
 
 CREATE TABLE hydro_serving.model
