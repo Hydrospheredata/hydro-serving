@@ -31,8 +31,8 @@ class ModelRuntimeRepositoryImpl(implicit executionContext: ExecutionContext, da
         entity.modelName,
         entity.modelVersion,
         entity.source,
-        entity.outputFields.toJson,
-        entity.inputFields.toJson,
+        entity.outputFields.toJson.toString(),
+        entity.inputFields.toJson.toString(),
         entity.created,
         entity.imageName,
         entity.imageTag,
@@ -110,6 +110,8 @@ class ModelRuntimeRepositoryImpl(implicit executionContext: ExecutionContext, da
 }
 
 object ModelRuntimeRepositoryImpl extends ManagerJsonSupport {
+  import spray.json._
+
   def mapFromDb(model: Option[(Tables.ModelRuntime#TableElementType, Option[Tables.RuntimeType#TableElementType])]): Option[ModelRuntime] = model match {
     case Some(tuple) =>
       Some(mapFromDb(tuple._1, tuple._2.map(t => RuntimeTypeRepositoryImpl.mapFromDb(t))))
@@ -131,8 +133,8 @@ object ModelRuntimeRepositoryImpl extends ManagerJsonSupport {
       modelVersion = model.modelversion,
       source = model.source,
       runtimeType = runtimeType,
-      outputFields = model.outputFields.convertTo[ModelApi],
-      inputFields = model.inputFields.convertTo[ModelApi],
+      outputFields = model.outputFields.parseJson.convertTo[ModelApi],
+      inputFields = model.inputFields.parseJson.convertTo[ModelApi],
       created = model.createdTimestamp,
       modelId = model.modelId,
       tags = model.tags,
