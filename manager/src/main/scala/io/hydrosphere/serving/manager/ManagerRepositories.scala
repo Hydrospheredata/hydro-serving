@@ -7,52 +7,52 @@ import io.hydrosphere.serving.manager.repository.db._
 import scala.concurrent.ExecutionContext
 
 trait ManagerRepositories {
-  def runtimeTypeRepository: RuntimeTypeRepository
+  val runtimeTypeRepository: RuntimeTypeRepository
 
-  def modelRepository: ModelRepository
+  val modelRepository: ModelRepository
 
-  def modelFilesRepository: ModelFilesRepository
+  val modelFilesRepository: ModelFilesRepository
 
-  def modelRuntimeRepository: ModelRuntimeRepository
+  val modelRuntimeRepository: ModelRuntimeRepository
 
-  def modelBuildRepository: ModelBuildRepository
+  val modelBuildRepository: ModelBuildRepository
 
-  def modelServiceRepository: ModelServiceRepository
+  val modelServiceRepository: ModelServiceRepository
 
-  def pipelineRepository: PipelineRepository
+  val pipelineRepository: PipelineRepository
 
-  def endpointRepository: EndpointRepository
+  val endpointRepository: EndpointRepository
 
-  def runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository
+  val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository
 
-  def sourceRepository: SourceConfigRepository
+  val sourceRepository: SourceConfigRepository
 
-  def weightedServiceRepository: WeightedServiceRepository
+  val weightedServiceRepository: WeightedServiceRepository
 }
 
 class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit executionContext: ExecutionContext)
   extends ManagerRepositories {
-  val dataService = new DatabaseService(config.database)
+  implicit val dataService = new DatabaseService(config.database)
 
-  val runtimeTypeRepository: RuntimeTypeRepository = new RuntimeTypeRepositoryImpl(dataService)
+  val runtimeTypeRepository: RuntimeTypeRepository = new RuntimeTypeRepositoryImpl
 
-  val modelRepository: ModelRepository = new ModelRepositoryImpl(dataService)
+  val modelRepository: ModelRepository = new ModelRepositoryImpl
 
-  val modelFilesRepository = new ModelFilesRepositoryImpl(dataService)
+  val modelFilesRepository = new ModelFilesRepositoryImpl
 
-  val modelRuntimeRepository: ModelRuntimeRepository = new ModelRuntimeRepositoryImpl(dataService)
+  val modelRuntimeRepository: ModelRuntimeRepository = new ModelRuntimeRepositoryImpl
 
-  val modelBuildRepository: ModelBuildRepository = new ModelBuildRepositoryImpl(dataService)
+  val modelBuildRepository: ModelBuildRepository = new ModelBuildRepositoryImpl
 
-  val modelServiceRepository: ModelServiceRepository = new ModelServiceRepositoryImpl(dataService)
+  val modelServiceRepository: ModelServiceRepository = new ModelServiceRepositoryImpl
 
-  val pipelineRepository: PipelineRepository = new PipelineRepositoryImpl(dataService)
+  val pipelineRepository: PipelineRepository = new PipelineRepositoryImpl
 
-  val endpointRepository: EndpointRepository = new EndpointRepositoryImpl(dataService)
+  val endpointRepository: EndpointRepository = new EndpointRepositoryImpl
 
-  val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository = new RuntimeTypeBuildScriptRepositoryImpl(dataService)
+  val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository = new RuntimeTypeBuildScriptRepositoryImpl
 
-  val sourceRepository: SourceConfigRepository = new SourceConfigRepositoryImpl(config.modelSources)
+  val sourceRepository: SourceConfigRepository = new SourceConfigRepositoryImpl(config)
 
-  val weightedServiceRepository: WeightedServiceRepository = new WeightedServiceRepositoryImpl(dataService)
+  val weightedServiceRepository: WeightedServiceRepository = new WeightedServiceRepositoryImpl
 }

@@ -24,7 +24,8 @@ import scala.reflect.runtime.{universe => ru}
   */
 class ManagerApi(managerServices: ManagerServices)
   (implicit val system: ActorSystem, implicit val ex: ExecutionContext) extends Logging {
-  val commonController = new CommonController()
+
+  val commonController = new CommonController
 
   val runtimeTypeController = new RuntimeTypeController(managerServices.modelManagementService)
 
@@ -32,10 +33,7 @@ class ManagerApi(managerServices: ManagerServices)
 
   val modelRuntimeController = new ModelRuntimeController(managerServices.modelManagementService)
 
-  val modelServiceController = new ModelServiceController(
-    managerServices.runtimeManagementService,
-    managerServices.servingManagementService
-  )
+  val modelServiceController = new ModelServiceController(managerServices.runtimeManagementService, managerServices.servingManagementService)
 
   val pipelineController = new PipelineController(managerServices.servingManagementService)
 

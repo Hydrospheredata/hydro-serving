@@ -5,7 +5,8 @@ import java.time.LocalDateTime
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.repository._
-import io.hydrosphere.serving.manager.service.modelfetcher.{ModelFetcher, ModelMetadata}
+import io.hydrosphere.serving.model_api.{ApiGenerator, DataFrame, ModelApi}
+import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.model._
 import org.apache.logging.log4j.scala.Logging
@@ -36,8 +37,8 @@ case class CreateOrUpdateModelRequest(
   source: String,
   runtimeTypeId: Option[Long],
   description: Option[String],
-  outputFields: Option[List[String]],
-  inputFields: Option[List[String]]
+  outputFields: Option[ModelApi],
+  inputFields: Option[ModelApi]
 ) {
   def toModel(runtimeType: Option[RuntimeType]): Model = {
     Model(
@@ -46,8 +47,8 @@ case class CreateOrUpdateModelRequest(
       source = this.source,
       runtimeType = runtimeType,
       description = this.description,
-      outputFields = this.outputFields.getOrElse(List()),
-      inputFields = this.inputFields.getOrElse(List()),
+      outputFields = this.outputFields.getOrElse(DataFrame(List.empty)),
+      inputFields = this.inputFields.getOrElse(DataFrame(List.empty)),
       created = LocalDateTime.now(),
       updated = LocalDateTime.now()
     )
@@ -59,8 +60,8 @@ case class CreateOrUpdateModelRequest(
       source = this.source,
       runtimeType = runtimeType,
       description = this.description,
-      outputFields = this.outputFields.getOrElse(List()),
-      inputFields = this.inputFields.getOrElse(List())
+      outputFields = this.outputFields.getOrElse(DataFrame(List.empty)),
+      inputFields = this.inputFields.getOrElse(DataFrame(List.empty))
     )
   }
 }
@@ -73,8 +74,8 @@ case class CreateModelRuntime(
   modelVersion: String,
   source: Option[String],
   runtimeTypeId: Option[Long],
-  outputFields: Option[List[String]],
-  inputFields: Option[List[String]],
+  outputFields: Option[ModelApi],
+  inputFields: Option[ModelApi],
   modelId: Option[Long],
   tags: Option[List[String]],
   configParams: Option[Map[String, String]]
@@ -89,8 +90,8 @@ case class CreateModelRuntime(
       modelVersion = this.modelVersion,
       source = this.source,
       runtimeType = runtimeType,
-      outputFields = this.outputFields.getOrElse(List()),
-      inputFields = this.inputFields.getOrElse(List()),
+      outputFields = this.outputFields.getOrElse(DataFrame(List.empty)),
+      inputFields = this.inputFields.getOrElse(DataFrame(List.empty)),
       created = LocalDateTime.now(),
       modelId = this.modelId,
       tags = runtimeType.map(r => r.tags).getOrElse(this.tags.getOrElse(List())),
@@ -153,6 +154,8 @@ trait ModelManagementService {
   def updateOrCreateModelFile(source: ModelSource, modelName: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[Int]
 
   def deleteModelFile(fileName: String): Future[Int]
+
+  def generateModelPayload(modelName: String): Future[Seq[Any]]
 }
 
 object ModelManagementService {
@@ -181,7 +184,9 @@ class ModelManagementServiceImpl(
   runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository,
   modelBuildService: ModelBuildService,
   modelPushService: ModelPushService
-)(implicit val ex: ExecutionContext) extends ModelManagementService with Logging {
+)(
+  implicit val ex: ExecutionContext
+) extends ModelManagementService with Logging {
 
   override def createRuntimeType(entity: CreateRuntimeTypeRequest): Future[RuntimeType] =
     runtimeTypeRepository.create(entity.toRuntimeType)
@@ -483,4 +488,11 @@ class ModelManagementServiceImpl(
 
   override def modelRuntimeByTag(tags: Seq[String]): Future[Seq[ModelRuntime]] =
     modelRuntimeRepository.fetchByTags(tags)
+
+  override def generateModelPayload(modelName: String): Future[Seq[Any]] = {
+    modelRepository.get(modelName).map {
+      case None => throw new IllegalArgumentException(s"Can't find model modelName=$modelName")
+      case Some(model) => List(new ApiGenerator(model.inputFields).generate)
+    }
+  }
 }
