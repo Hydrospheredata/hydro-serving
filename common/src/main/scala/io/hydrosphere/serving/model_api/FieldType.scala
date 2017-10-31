@@ -18,7 +18,8 @@ case class FMatrix(
 ) extends FieldType
 
 object FMatrix {
-  def varvec(scalarField: ScalarField) = FMatrix(scalarField, List(-1))
+  def varvec(scalarField: ScalarField): FMatrix = FMatrix.vec(scalarField, -1)
+  def vec(scalarField: ScalarField, size: Long): FMatrix = FMatrix(scalarField, List(size))
 }
 
 trait FieldVisitor {
