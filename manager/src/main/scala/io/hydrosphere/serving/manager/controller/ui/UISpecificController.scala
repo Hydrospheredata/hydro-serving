@@ -6,7 +6,7 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Directives.{complete, get, path}
 import akka.util.Timeout
 import io.hydrosphere.serving.controller.TracingHeaders
-import io.hydrosphere.serving.manager.controller.{BuildModelRequest, ServeData}
+import io.hydrosphere.serving.manager.controller.{BuildModelRequest, RawDataDirectives, ServeData}
 import io.hydrosphere.serving.manager.service.{ModelInfo, UIManagementService}
 import io.swagger.annotations._
 
@@ -16,7 +16,7 @@ import scala.concurrent.duration._
 @Api(produces = "application/json", tags = Array("UI: Model"))
 class UISpecificController(
   uiManagementService: UIManagementService
-) extends UIJsonSupport {
+) extends UIJsonSupport with RawDataDirectives {
   implicit val timeout = Timeout(5.seconds)
 
   @Path("/withInfo")
@@ -75,12 +75,12 @@ class UISpecificController(
     new ApiResponse(code = 200, message = "Any", response=classOf[ServeData]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def serveService = path("ui" / "v1" / "model" / "serve" ) {
+  def serveService = path("ui" / "v1" / "model" / "serve" / LongNumber) { id =>
     post {
       extractRequest { request =>
-        entity(as[ServeData]) { r =>
-          complete(
-            uiManagementService.testModel(r.id, r.path.getOrElse("/serve"), r.data, request.headers
+        extractRawData { bytes =>
+          completeRawData(
+            uiManagementService.testModel(id, "/serve", bytes, request.headers
               .filter(h => TracingHeaders.isTracingHeaderName(h.name())))
           )
         }

@@ -2,6 +2,8 @@ package io.hydrosphere.serving.model
 
 import java.time.LocalDateTime
 
+import io.hydrosphere.serving.connector.ExecutionUnit
+
 
 case class RuntimeType(
   id: Long,

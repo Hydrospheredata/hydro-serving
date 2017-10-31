@@ -12,6 +12,7 @@ import io.hydrosphere.serving.config.SidecarConfig
 import io.hydrosphere.serving.model.CommonJsonSupport
 import org.apache.logging.log4j.scala.Logging
 
+import scala.concurrent.duration._
 import scala.concurrent.Future
 
 case class ExecutionUnit(
@@ -21,13 +22,13 @@ case class ExecutionUnit(
 
 case class ExecutionCommand(
   headers: Seq[HttpHeader],
-  json: Seq[Any],
+  json: Array[Byte],
   pipe: Seq[ExecutionUnit]
 )
 
 case class ExecutionResult(
   headers: Seq[HttpHeader],
-  json: Seq[Any],
+  json: Array[Byte],
   status: StatusCode
 )
 
@@ -52,27 +53,21 @@ class HttpRuntimeMeshConnector(
         logger.debug(s"Wrong status from service ${r.status}")
       }
 
-      if (r.entity.contentType == ContentTypes.`application/json`) {
-        Unmarshal(r.entity).to[Seq[Any]]
-          .map(ExecutionResult(r.headers, _, r.status))
-      } else {
-        Unmarshal(r.entity).to[String]
-          .map(s => ExecutionResult(r.headers, Seq(Map("result" -> s)), r.status))
-      }
+      r.entity.toStrict(5.seconds)
+        .map(entity => ExecutionResult(r.headers, entity.data.toArray, r.status))
     }
 
-  private def execute(runtimeName: String, runtimePath: String, headers: Seq[HttpHeader], json: Seq[Any]): Future[ExecutionResult] = {
-    Marshal(json).to[RequestEntity].flatMap(entity => {
-      val source = Source.single(HttpRequest(
-        uri = runtimePath,
-        method = HttpMethods.POST,
-        entity = entity,
-        headers = collection.immutable.Seq(headers: _*) :+ Host.apply(runtimeName)
-      ))
-      source.via(flow).runWith(Sink.head)
-    })
+  private def execute(runtimeName: String, runtimePath: String, headers: Seq[HttpHeader], json: Array[Byte]): Future[ExecutionResult] = {
+    val source = Source.single(HttpRequest(
+      uri = runtimePath,
+      method = HttpMethods.POST,
+      entity = HttpEntity.apply(ContentTypes.`application/json`, json),
+      headers = collection.immutable.Seq(headers: _*) :+ Host.apply(runtimeName)
+    ))
+    source.via(flow).runWith(Sink.head)
   }
 
+  //TODO: should we stop call rest services if first failed?
   override def execute(command: ExecutionCommand): Future[ExecutionResult] = {
     val executionUnit = command.pipe.head
     var fAccum = execute(executionUnit.serviceName, executionUnit.servicePath, command.headers, command.json)
