@@ -37,11 +37,7 @@ class ManagerApi(managerServices: ManagerServices)
     managerServices.servingManagementService
   )
 
-  val pipelineController = new PipelineController(managerServices.servingManagementService)
-
-  val weightedServiceController = new WeightedServiceController(managerServices.servingManagementService)
-
-  val endpointController = new EndpointController(managerServices.servingManagementService)
+  val applicationController = new ApplicationController(managerServices.servingManagementService)
 
   val envoyManagementController = new EnvoyManagementController(managerServices.envoyManagementService)
 
@@ -58,11 +54,9 @@ class ManagerApi(managerServices: ManagerServices)
       ru.typeOf[RuntimeTypeController],
       ru.typeOf[ModelController],
       ru.typeOf[ModelRuntimeController],
-      ru.typeOf[PipelineController],
-      ru.typeOf[EndpointController],
       ru.typeOf[ModelServiceController],
       ru.typeOf[EnvoyManagementController],
-      ru.typeOf[WeightedServiceController],
+      ru.typeOf[ApplicationController],
       ru.typeOf[PrometheusMetricsController],
       ru.typeOf[UISpecificController],
       ru.typeOf[UISpecificWeightServiceController],
@@ -96,30 +90,13 @@ class ManagerApi(managerServices: ManagerServices)
         modelController.routes ~
         modelRuntimeController.routes ~
         modelServiceController.routes ~
-        endpointController.routes ~
-        pipelineController.routes ~
-        weightedServiceController.routes ~
+        applicationController.routes ~
         runtimeTypeController.routes ~
         envoyManagementController.routes ~
         prometheusMetricsController.routes ~
         uiSpecificController.routes ~
         uiSpecificWeightServiceController.routes ~
-        uiSpecificRuntimeController.routes ~
-        pathPrefix("assets") {
-          path(Segments) { segs =>
-            val path = segs.mkString("/")
-            getFromResource(s"ui/assets/$path")
-          }
-        } ~
-        path(Segments) { segs =>
-          if (segs.size == 1 && //TODO change to regexp
-            (segs.head.endsWith("bundle.js") || segs.head.endsWith("bundle.css") )) {
-            val path = segs.mkString("/")
-            getFromResource(s"ui/$path")
-          } else {
-            getFromResource("ui/index.html")
-          }
-        }
+        uiSpecificRuntimeController.routes
     }
   }
 }

@@ -67,11 +67,9 @@ class ManagerServices(
   )
 
   val servingManagementService: ServingManagementService = new ServingManagementServiceImpl(
-    managerRepositories.endpointRepository,
-    managerRepositories.pipelineRepository,
     managerRepositories.modelServiceRepository,
     runtimeMeshConnector,
-    managerRepositories.weightedServiceRepository,
+    managerRepositories.applicationRepository,
     runtimeManagementService
   )
 

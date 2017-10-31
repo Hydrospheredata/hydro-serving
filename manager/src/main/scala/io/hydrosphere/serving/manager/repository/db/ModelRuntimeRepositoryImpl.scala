@@ -10,7 +10,10 @@ import scala.concurrent.{ExecutionContext, Future}
 /**
   *
   */
-class ModelRuntimeRepositoryImpl(databaseService: DatabaseService)(implicit executionContext: ExecutionContext)
+class ModelRuntimeRepositoryImpl(
+  implicit val executionContext: ExecutionContext,
+  implicit val databaseService: DatabaseService
+)
   extends ModelRuntimeRepository with Logging {
 
   import databaseService._

@@ -94,39 +94,34 @@ class EnvoyManagementServiceImpl(
   override def routes(configName: String, serviceId: Long, containerId: String): Future[EnvoyRouteConfig] = {
     runtimeManagementService.getService(serviceId).flatMap(servOp => {
       runtimeManagementService.allServices().flatMap(services => {
-        servingManagementService.allWeightedServices().flatMap(wightedServices => {
+        servingManagementService.allApplications().flatMap(applications => {
           val modelService = servOp.get
           fetchGatewayIfNeeded(modelService).map(gatewayServiceInstances => {
 
             val routeHosts = mutable.MutableList[EnvoyRouteHost]()
 
-            wightedServices.foreach(s => {
-              val weights=Some(EnvoyRouteWeightedClusters(
-                s.weights.map(w => EnvoyRouteWeightedCluster(
-                  //TODO optimize search
-                  name = services.find(f => f.serviceId == w.serviceId).get.serviceName,
-                  weight = w.weight
-                ))
-              ))
+            applications.foreach(s => {
+              s.executionGraph.stages.indices.foreach(i=>{
+                val serviceName=s"app${s.id}stage$i"
 
-              routeHosts += EnvoyRouteHost(
-                name = s.serviceName.toLowerCase,
-                domains = Seq(s.serviceName.toLowerCase),
-                routes = Seq(EnvoyRoute(
-                  prefix = "/",
-                  cluster = None,
-                  weighted_clusters = weights))
-              )
-              if(s.sourcesList.nonEmpty){
+                val appStage=s.executionGraph.stages(i)
+                val weights=EnvoyRouteWeightedClusters(
+                  appStage.services.map(w => EnvoyRouteWeightedCluster(
+                    //TODO optimize search
+                    name = services.find(f => f.serviceId == w.serviceId).get.serviceName,
+                    weight = w.weight
+                  ))
+                )
+
                 routeHosts += EnvoyRouteHost(
-                  name = s"weightedservices${s.id}",
-                  domains = Seq(s"weightedservices${s.id}"),
+                  name = serviceName,
+                  domains = Seq(serviceName),
                   routes = Seq(EnvoyRoute(
                     prefix = "/",
                     cluster = None,
-                    weighted_clusters = weights))
+                    weighted_clusters = Some(weights)))
                 )
-              }
+              })
             })
 
             services.filter(s => s.serviceId != serviceId)
