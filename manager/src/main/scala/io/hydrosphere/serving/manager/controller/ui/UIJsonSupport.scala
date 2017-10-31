@@ -11,10 +11,10 @@ trait UIJsonSupport extends ManagerJsonSupport {
 
   implicit val kafkaStreamingParamsFormat = jsonFormat4(KafkaStreamingParams)
   implicit val serviceWeightDetailsFormat = jsonFormat2(ServiceWeightDetails)
-  implicit val WeightedServiceDetailsFormat = jsonFormat4(WeightedServiceDetails)
+  implicit val applicationDetailsFormat = jsonFormat4(ApplicationDetails)
 
-  implicit val uiServiceWeightFormat = jsonFormat2(UIServiceWeight)
-  implicit val uiWeightedServiceCreateOrUpdateRequestFormat = jsonFormat4(UIWeightedServiceCreateOrUpdateRequest)
+  implicit val uiApplicationFormat = jsonFormat2(UIServiceWeight)
+  implicit val uiApplicationCreateOrUpdateRequestFormat = jsonFormat4(UIApplicationCreateOrUpdateRequest)
 
   implicit val serviceInfoFormat=jsonFormat2(UIServiceInfo)
   implicit val runtimeInfoFormat=jsonFormat2(UIRuntimeInfo)

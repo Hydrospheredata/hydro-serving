@@ -4,12 +4,12 @@ import javax.ws.rs.Path
 
 import akka.http.scaladsl.server.Directives.{complete, get, path, _}
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.service.{UIManagementService, UIWeightedServiceCreateOrUpdateRequest, WeightedServiceDetails}
+import io.hydrosphere.serving.manager.service._
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
 
-@Path("/ui/v1/weightedServices")
+@Path("/ui/v1/applications")
 @Api(produces = "application/json", tags = Array("UI: Weighted Services"))
 class UISpecificWeightServiceController(
   uiManagementService: UIManagementService
@@ -17,52 +17,52 @@ class UISpecificWeightServiceController(
   implicit val timeout = Timeout(5.seconds)
 
   @Path("/")
-  @ApiOperation(value = "weightedServices", notes = "weightedServices", nickname = "weightedServices", httpMethod = "GET")
+  @ApiOperation(value = "applications", notes = "applications", nickname = "applications", httpMethod = "GET")
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "WeightedService", response = classOf[WeightedServiceDetails], responseContainer = "List"),
+    new ApiResponse(code = 200, message = "Application", response = classOf[ApplicationDetails], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def listAll = path("ui" / "v1" / "weightedServices") {
+  def listAll = path("ui" / "v1" / "applications") {
     get {
-      complete(uiManagementService.allWeightedServicesDetails())
+      complete(uiManagementService.allApplicationsDetails())
     }
   }
 
   @Path("/")
-  @ApiOperation(value = "Add WeightedService", notes = "Add WeightedService", nickname = "addWeightedService", httpMethod = "POST")
+  @ApiOperation(value = "Add Application", notes = "Add Application", nickname = "addApplication", httpMethod = "POST")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "WeightedService", required = true,
-      dataTypeClass = classOf[UIWeightedServiceCreateOrUpdateRequest], paramType = "body")
+    new ApiImplicitParam(name = "body", value = "Application", required = true,
+      dataTypeClass = classOf[UIApplicationCreateOrUpdateRequest], paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "WeightedService", response = classOf[WeightedServiceDetails]),
+    new ApiResponse(code = 200, message = "Application", response = classOf[ApplicationDetails]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def create = path("ui" / "v1" / "weightedServices") {
+  def create = path("ui" / "v1" / "applications") {
     post {
-      entity(as[UIWeightedServiceCreateOrUpdateRequest]) { r =>
+      entity(as[UIApplicationCreateOrUpdateRequest]) { r =>
         complete(
-          uiManagementService.createWeightedService(r)
+          uiManagementService.createApplication(r)
         )
       }
     }
   }
 
   @Path("/")
-  @ApiOperation(value = "Update WeightedService", notes = "Update WeightedService", nickname = "updateWeightedService", httpMethod = "PUT")
+  @ApiOperation(value = "Update Application", notes = "Update Application", nickname = "updateApplication", httpMethod = "PUT")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "WeightedServiceCreateOrUpdateRequest", required = true,
-      dataTypeClass = classOf[UIWeightedServiceCreateOrUpdateRequest], paramType = "body")
+    new ApiImplicitParam(name = "body", value = "ApplicationCreateOrUpdateRequest", required = true,
+      dataTypeClass = classOf[UIApplicationCreateOrUpdateRequest], paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "WeightedService", response = classOf[WeightedServiceDetails]),
+    new ApiResponse(code = 200, message = "Application", response = classOf[ApplicationDetails]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def update = path("ui" / "v1" / "weightedServices") {
+  def update = path("ui" / "v1" / "applications") {
     put {
-      entity(as[UIWeightedServiceCreateOrUpdateRequest]) { r =>
+      entity(as[UIApplicationCreateOrUpdateRequest]) { r =>
         complete(
-          uiManagementService.updateWeightedService(r)
+          uiManagementService.updateApplication(r)
         )
       }
     }

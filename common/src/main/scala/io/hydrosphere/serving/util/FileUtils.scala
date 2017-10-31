@@ -3,7 +3,7 @@ package io.hydrosphere.serving.util
 import java.io._
 
 /**
-  * Created by Bulat on 31.05.2017.
+  *
   */
 object FileUtils {
 

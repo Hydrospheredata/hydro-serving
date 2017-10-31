@@ -19,40 +19,32 @@ trait ManagerRepositories {
 
   def modelServiceRepository: ModelServiceRepository
 
-  def pipelineRepository: PipelineRepository
-
-  def endpointRepository: EndpointRepository
-
   def runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository
 
   def sourceRepository: SourceConfigRepository
 
-  def weightedServiceRepository: WeightedServiceRepository
+  def applicationRepository: ApplicationRepository
 }
 
 class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit executionContext: ExecutionContext)
   extends ManagerRepositories {
-  val dataService = new DatabaseService(config.database)
+  implicit val dataService = new DatabaseService(config.database)
 
-  val runtimeTypeRepository: RuntimeTypeRepository = new RuntimeTypeRepositoryImpl(dataService)
+  val runtimeTypeRepository: RuntimeTypeRepository = new RuntimeTypeRepositoryImpl
 
-  val modelRepository: ModelRepository = new ModelRepositoryImpl(dataService)
+  val modelRepository: ModelRepository = new ModelRepositoryImpl
 
-  val modelFilesRepository = new ModelFilesRepositoryImpl(dataService)
+  val modelFilesRepository = new ModelFilesRepositoryImpl
 
-  val modelRuntimeRepository: ModelRuntimeRepository = new ModelRuntimeRepositoryImpl(dataService)
+  val modelRuntimeRepository: ModelRuntimeRepository = new ModelRuntimeRepositoryImpl
 
-  val modelBuildRepository: ModelBuildRepository = new ModelBuildRepositoryImpl(dataService)
+  val modelBuildRepository: ModelBuildRepository = new ModelBuildRepositoryImpl
 
-  val modelServiceRepository: ModelServiceRepository = new ModelServiceRepositoryImpl(dataService)
+  val modelServiceRepository: ModelServiceRepository = new ModelServiceRepositoryImpl
 
-  val pipelineRepository: PipelineRepository = new PipelineRepositoryImpl(dataService)
-
-  val endpointRepository: EndpointRepository = new EndpointRepositoryImpl(dataService)
-
-  val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository = new RuntimeTypeBuildScriptRepositoryImpl(dataService)
+  val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository = new RuntimeTypeBuildScriptRepositoryImpl
 
   val sourceRepository: SourceConfigRepository = new SourceConfigRepositoryImpl(config.modelSources)
 
-  val weightedServiceRepository: WeightedServiceRepository = new WeightedServiceRepositoryImpl(dataService)
+  val applicationRepository: ApplicationRepository = new ApplicationRepositoryImpl
 }

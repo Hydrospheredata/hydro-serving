@@ -42,8 +42,8 @@ CREATE TABLE hydro_serving.model_runtime
   image_tag         TEXT                        NOT NULL,
   image_md5_tag     TEXT                        NOT NULL,
   model_id          BIGINT REFERENCES model (model_id),
-  tags            TEXT [] NOT NULL,
-  config_params   TEXT [] NOT NULL
+  tags              TEXT []                     NOT NULL,
+  config_params     TEXT []                     NOT NULL
 );
 
 CREATE TABLE hydro_serving.model_build
@@ -67,15 +67,16 @@ CREATE TABLE hydro_serving.model_service
   runtime_id      BIGINT REFERENCES model_runtime (runtime_id) NOT NULL,
   status          TEXT,
   statusText      TEXT,
-  config_params   TEXT [] NOT NULL
+  config_params   TEXT []                                      NOT NULL
 );
 
-CREATE TABLE hydro_serving.weighted_service
+CREATE TABLE hydro_serving.application
 (
-  id           BIGSERIAL PRIMARY KEY,
-  service_name TEXT      NOT NULL UNIQUE,
-  weights      TEXT []   NOT NULL,
-  sources_list  TEXT [] NOT NULL
+  id                BIGSERIAL PRIMARY KEY,
+  service_name      TEXT    NOT NULL UNIQUE,
+  execution_graph   JSON    NOT NULL,
+  sources_list      TEXT [] NOT NULL,
+  services_in_stage TEXT [] NOT NULL
 );
 
 
@@ -87,20 +88,6 @@ CREATE TABLE hydro_serving.model_files
   hash_sum   TEXT                               NOT NULL,
   created_at TIMESTAMP WITHOUT TIME ZONE        NOT NULL,
   updated_at TIMESTAMP WITHOUT TIME ZONE        NOT NULL
-);
-
-CREATE TABLE hydro_serving.pipeline
-(
-  pipeline_id BIGSERIAL PRIMARY KEY,
-  name        TEXT    NOT NULL UNIQUE,
-  stages      TEXT [] NOT NULL
-);
-
-CREATE TABLE hydro_serving.endpoint
-(
-  endpoint_id   BIGSERIAL PRIMARY KEY,
-  endpoint_name TEXT NOT NULL UNIQUE,
-  pipeline_id   BIGINT REFERENCES pipeline (pipeline_id)
 );
 
 CREATE TABLE hydro_serving.runtime_type_build_script

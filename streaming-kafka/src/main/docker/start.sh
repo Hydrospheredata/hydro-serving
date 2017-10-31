@@ -12,7 +12,7 @@ SERVICE_ID=$1
 
 [ -z "$STREAMING_SOURCE_TOPIC" ] && STREAMING_SOURCE_TOPIC="source"
 [ -z "$STREAMING_DESTINATION_TOPIC" ] && STREAMING_DESTINATION_TOPIC="destination"
-[ -z "$STREAMING_PROCESSOR_ROUTE" ] && STREAMING_PROCESSOR_ROUTE="unknow"
+[ -z "$STREAMING_PROCESSOR_APPLICATION" ] && STREAMING_PROCESSOR_APPLICATION="0"
 [ -z "$STREAMING_BOOTSTRAP_SERVERS" ] && STREAMING_BOOTSTRAP_SERVERS="kafka:9092"
 [ -z "$STREAMING_KAFKA_GROUP_ID" ] && STREAMING_KAFKA_GROUP_ID="someGroup"
 
@@ -27,7 +27,7 @@ then
    echo "Custom config does not exist"
    APP_OPTS="$APP_OPTS -Dstreaming.sourceTopic=$STREAMING_SOURCE_TOPIC"
    APP_OPTS="$APP_OPTS -Dstreaming.destinationTopic=$STREAMING_DESTINATION_TOPIC"
-   APP_OPTS="$APP_OPTS -Dstreaming.processorRoute=$STREAMING_PROCESSOR_ROUTE"
+   APP_OPTS="$APP_OPTS -Dstreaming.processorApplication=$STREAMING_PROCESSOR_APPLICATION"
 
    APP_OPTS="$APP_OPTS -Dakka.kafka.consumer.kafka-clients.client.id=$SERVICE_ID"
    APP_OPTS="$APP_OPTS -Dakka.kafka.consumer.kafka-clients.group.id=$STREAMING_KAFKA_GROUP_ID"

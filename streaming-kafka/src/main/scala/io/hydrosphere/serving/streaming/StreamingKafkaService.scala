@@ -1,5 +1,8 @@
 package io.hydrosphere.serving.streaming
 
+import java.time.LocalDateTime
+import java.time.temporal.TemporalUnit
+
 import akka.actor.ActorSystem
 import akka.http.scaladsl.model.StatusCodes
 import akka.kafka.ConsumerMessage.{CommittableMessage, CommittableOffset, CommittableOffsetBatch}
@@ -7,8 +10,8 @@ import akka.kafka.scaladsl.{Consumer, Producer}
 import akka.kafka.{ConsumerSettings, ProducerMessage, ProducerSettings, Subscriptions}
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.Sink
-import io.hydrosphere.serving.connector._
-import io.hydrosphere.serving.model.CommonJsonSupport
+import io.hydrosphere.serving.connector.{ManagerConnector, _}
+import io.hydrosphere.serving.model.{Application, CommonJsonSupport}
 import org.apache.kafka.clients.consumer.ConsumerConfig
 import org.apache.kafka.clients.producer.ProducerRecord
 import org.apache.kafka.common.serialization.{StringDeserializer, StringSerializer}
@@ -45,21 +48,24 @@ class StreamingKafkaService(
   private implicit val errorConsumerRecord = jsonFormat5(ErrorConsumerRecord)
   private implicit val errorMessages = jsonFormat2(ErrorMessages)
 
-
   private val runtimeMeshConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector(streamingKafkaConfiguration.sidecar)
+
+  private val managerConnector: ManagerConnector = new HttpManagerConnector(streamingKafkaConfiguration.manager.host, streamingKafkaConfiguration.manager.port)
+
+  private var application: Option[(Application, LocalDateTime)] = None
 
   private val consumerSettings = ConsumerSettings(system, new StringDeserializer, new StringDeserializer)
     .withProperty(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "latest")
 
   private val producerSettings = ProducerSettings(system, new StringSerializer, new StringSerializer)
 
-  private def mapAndSend(messages: Seq[CommittableMessage[String, String]]): Future[ExecutionResult] = {
+  private def mapAndSend(messages: Seq[CommittableMessage[String, String]], application: Application): Future[ExecutionResult] = {
     Future(messages.map(m => m.record.value().parseJson.convertTo[Any])).flatMap(marshalledMessages =>
       runtimeMeshConnector.execute(ExecutionCommand(
         json = marshalledMessages,
         headers = Seq(),
-        pipe = Seq(ExecutionUnit(
-          serviceName = streamingKafkaConfiguration.streaming.processorRoute,
+        pipe = application.executionGraph.stages.indices.map(stage => ExecutionUnit(
+          serviceName = s"app${application.id}stage$stage",
           servicePath = "/serve"
         ))
       ))
@@ -116,15 +122,35 @@ class StreamingKafkaService(
     })
   }
 
+  private def fetchApplication(): Future[Option[Application]] = {
+    if (application.isEmpty || application.get._2.isBefore(LocalDateTime.now().minusSeconds(30))) {
+      managerConnector.getApplications
+        .map(apps => {
+          val findApp = apps.find(a => a.id == streamingKafkaConfiguration.streaming.processorApplication)
+          findApp match {
+            case _ => findApp
+            case Some(x) =>
+              this.application = Option((x, LocalDateTime.now()))
+              findApp
+          }
+        })
+    } else {
+      Future.successful(application.map(r => r._1))
+    }
+  }
+
   //TODO batch send
   //TODO exception handling
   private def sendMessageToMesh(messages: Seq[CommittableMessage[String, String]]): Future[Seq[ProducerMessage.Message[String, String, CommittableOffset]]] = {
-    mapAndSend(messages).flatMap(
-      sentData => mapResult(sentData, messages)
-    ) recoverWith {
-      case e: Throwable =>
-        logger.error(e)
-        onFailure(e.getMessage, messages)
+    fetchApplication().flatMap {
+      case None => onFailure(s"Can't find application with id=${streamingKafkaConfiguration.streaming.processorApplication}", messages)
+      case Some(x) => mapAndSend(messages, x).flatMap(
+        sentData => mapResult(sentData, messages)
+      ) recoverWith {
+        case e: Throwable =>
+          logger.error(e)
+          onFailure(e.getMessage, messages)
+      }
     }
   }
 
