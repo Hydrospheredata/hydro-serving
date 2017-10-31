@@ -84,7 +84,7 @@ trait UIManagementService {
 
   def stopAllServices(modelId: Long): Future[Unit]
 
-  def testModel(modelId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
+  def testModel(modelId: Long, servePath: String, request: Array[Byte], headers: Seq[HttpHeader]): Future[Array[Byte]]
 
   def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelInfo]
 
@@ -156,14 +156,20 @@ class UIManagementServiceImpl(
           .flatMap(_ => waitForContainerStop(s))).map(s => Unit)
     })
 
-  override def testModel(modelId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
+  override def testModel(modelId: Long, servePath: String, request: Array[Byte], headers: Seq[HttpHeader]): Future[Array[Byte]] =
     modelServiceRepository.getByModelIds(Seq(modelId)).flatMap(services => {
       val serviceFuture = services.headOption match {
         case None => startAndWaitService(modelId)
         case Some(x) => Future.successful(x)
       }
       serviceFuture.flatMap(service => {
-        servingManagementService.serveModelService(service.serviceId, servePath, request, headers)
+        val serveRequest = ServeRequest(
+          serviceKey = ModelById(service.serviceId),
+          servePath = "/serve",
+          headers = headers,
+          inputData = request
+        )
+        servingManagementService.serve(serveRequest)
       })
     })
 

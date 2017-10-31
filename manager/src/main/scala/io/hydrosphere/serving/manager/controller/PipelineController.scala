@@ -5,16 +5,18 @@ import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.util.Timeout
 import io.hydrosphere.serving.controller.TracingHeaders
-import io.hydrosphere.serving.manager.service.{CreatePipelineRequest, ServingManagementService}
+import io.hydrosphere.serving.manager.service.{CreatePipelineRequest, PipelineKey, ServeRequest, ServingManagementService}
 import io.hydrosphere.serving.model.Pipeline
 import io.swagger.annotations._
-import spray.json.JsObject
 
 import scala.concurrent.duration._
 
 @Path("/api/v1/pipelines")
 @Api(produces = "application/json", tags = Array("Deployment: Pipelines"))
-class PipelineController(servingManagementService: ServingManagementService) extends ManagerJsonSupport {
+class PipelineController(servingManagementService: ServingManagementService)
+  extends ManagerJsonSupport
+  with RawDataDirectives {
+
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/")
@@ -79,11 +81,14 @@ class PipelineController(servingManagementService: ServingManagementService) ext
   def servePipeline = path("api" / "v1" / "pipelines" / "serve" / LongNumber) { pipelineId =>
     post {
       extractRequest { request =>
-        entity(as[Seq[Any]]) { r =>
-          complete(
-            servingManagementService.servePipeline(pipelineId, r, request.headers
-              .filter(h => TracingHeaders.isTracingHeaderName(h.name())))
+        extractRawData { bytes =>
+          val serveRequest = ServeRequest(
+            serviceKey = PipelineKey(pipelineId),
+            servePath = "/serve",
+            headers = request.headers.filter(h => TracingHeaders.isTracingHeaderName(h.name())),
+            inputData = bytes
           )
+          completeRawData(servingManagementService.serve(serveRequest))
         }
       }
     }
