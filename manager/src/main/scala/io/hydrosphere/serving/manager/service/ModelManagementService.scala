@@ -156,6 +156,8 @@ trait ModelManagementService {
   def deleteModelFile(fileName: String): Future[Int]
 
   def generateModelPayload(modelName: String): Future[Seq[Any]]
+
+  def generateInputsForRuntime(runtimeId: Long): Future[Option[Seq[Any]]]
 }
 
 object ModelManagementService {
@@ -494,5 +496,11 @@ class ModelManagementServiceImpl(
       case None => throw new IllegalArgumentException(s"Can't find model modelName=$modelName")
       case Some(model) => List(new ApiGenerator(model.inputFields).generate)
     }
+  }
+
+  override def generateInputsForRuntime(runtimeId: Long): Future[Option[Seq[Any]]] = {
+    modelRuntimeRepository.get(runtimeId).map(_.map{ runtime =>
+      List(new ApiGenerator(runtime.inputFields).generate)
+    })
   }
 }
