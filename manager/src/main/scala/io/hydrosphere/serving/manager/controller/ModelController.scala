@@ -11,6 +11,7 @@ import io.hydrosphere.serving.manager.service.{CreateOrUpdateModelRequest, Model
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
+import spray.json._
 
 /**
   *
@@ -159,5 +160,24 @@ class ModelController(modelManagementService: ModelManagementService) extends Ma
     }
   }
 
-  val routes: Route = listModels ~ updateModel ~ addModel ~ buildModel ~ buildByName ~ listModelBuilds ~ listModelBuildsByModel ~ lastModelBuilds
+  @Path("/generate/{modelName}")
+  @ApiOperation(value = "Generate payload for model", notes = "Generate payload for model", nickname = "Generate payload for model", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "modelName", required = true, dataType = "string", paramType = "path", value = "modelName")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def generatePayloadByModelNameService = path("api" / "v1" / "model" / "generate" / Segment) { modelName =>
+    get {
+      complete(
+        modelManagementService.generateModelPayload(modelName)
+      )
+    }
+  }
+
+  val routes: Route = listModels ~ updateModel ~ addModel ~ buildModel ~ buildByName ~
+    listModelBuilds ~ listModelBuildsByModel ~ lastModelBuilds ~
+    generatePayloadByModelNameService
 }

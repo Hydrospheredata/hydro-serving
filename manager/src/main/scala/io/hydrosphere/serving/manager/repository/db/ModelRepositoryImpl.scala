@@ -2,10 +2,12 @@ package io.hydrosphere.serving.manager.repository.db
 
 import java.time.LocalDateTime
 
+import io.hydrosphere.serving.manager.controller.ManagerJsonSupport
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.model.RuntimeType
 import io.hydrosphere.serving.manager.model.Model
 import io.hydrosphere.serving.manager.repository.ModelRepository
+import io.hydrosphere.serving.model_api.ModelApi
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -13,12 +15,10 @@ import scala.concurrent.{ExecutionContext, Future}
 /**
   *
   */
-class ModelRepositoryImpl(
-  implicit val executionContext: ExecutionContext,
-  implicit val databaseService: DatabaseService
-)
-  extends ModelRepository with Logging {
+class ModelRepositoryImpl(implicit executionContext: ExecutionContext, databaseService: DatabaseService)
+  extends ModelRepository with Logging with ManagerJsonSupport {
 
+  import spray.json._
   import databaseService._
   import databaseService.driver.api._
   import ModelRepositoryImpl._
@@ -41,8 +41,8 @@ class ModelRepositoryImpl(
           case Some(r) => Some(r.id)
           case _ => None
         },
-        entity.outputFields,
-        entity.inputFields,
+        entity.outputFields.toJson.toString(),
+        entity.inputFields.toJson.toString(),
         entity.description,
         entity.created,
         entity.updated)
@@ -112,8 +112,8 @@ class ModelRepositoryImpl(
       },
       value.description,
       value.updated,
-      value.outputFields,
-      value.inputFields
+      value.outputFields.toJson.toString(),
+      value.inputFields.toJson.toString()
     ))
   }
 
@@ -127,7 +127,9 @@ class ModelRepositoryImpl(
 
 }
 
-object ModelRepositoryImpl {
+object ModelRepositoryImpl extends ManagerJsonSupport {
+  import spray.json._
+
   def mapFromDb(model: Option[(Tables.Model#TableElementType, Option[Tables.RuntimeType#TableElementType])]): Option[Model] = model match {
     case Some(tuple) =>
       Some(mapFromDb(tuple._1, tuple._2.map(t => RuntimeTypeRepositoryImpl.mapFromDb(t))))
@@ -146,8 +148,8 @@ object ModelRepositoryImpl {
       source = model.source,
       runtimeType = runtimeType,
       description = model.description,
-      outputFields = model.outputFields,
-      inputFields = model.inputFields,
+      outputFields = model.outputFields.parseJson.convertTo[ModelApi],
+      inputFields = model.inputFields.parseJson.convertTo[ModelApi],
       created = model.createdTimestamp,
       updated = model.updatedTimestamp
     )

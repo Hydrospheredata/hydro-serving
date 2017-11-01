@@ -4,8 +4,10 @@ import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
+import io.hydrosphere.serving.model_api._
+import org.apache.commons.lang3.SerializationException
 import org.apache.logging.log4j.scala.Logging
-import spray.json.{DefaultJsonProtocol, DeserializationException, JsArray, JsBoolean, JsNumber, JsObject, JsString, JsValue, JsonFormat, RootJsonFormat}
+import spray.json._
 
 /**
   *
@@ -54,6 +56,64 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
     def read(value: JsValue) = value match {
       case JsString(x) => LocalDateTime.parse(x, DateTimeFormatter.ISO_DATE_TIME)
       case x => throw new RuntimeException(s"Unexpected type ${x.getClass.getName} when trying to parse LocalDateTime")
+    }
+  }
+
+  implicit object ScalarFieldFormat extends RootJsonFormat[ScalarField] {
+    override def read(json: JsValue): ScalarField = json match {
+      case JsString("integer") => FInteger
+      case JsString("double") => FDouble
+      case JsString("string") => FString
+      case JsString("any_scalar") => FAnyScalar
+      case _ => throw DeserializationException(s"$json is not a valid scalar type definition.")
+    }
+
+    override def write(obj: ScalarField): JsValue = obj match {
+      case FInteger => JsString("integer")
+      case FDouble => JsString("double")
+      case FString => JsString("string")
+      case FAnyScalar => JsString("any_scalar")
+    }
+  }
+
+  implicit val matrixFormat = jsonFormat2(FMatrix.apply)
+
+  implicit object FieldTypeFormat extends RootJsonFormat[FieldType] {
+    override def read(json: JsValue): FieldType = json match {
+      case JsObject(field) if field.get("type").isDefined && field("type") == JsString("matrix") =>
+        FMatrix(field("item_type").convertTo[ScalarField], field("shape").convertTo[List[Long]])
+      case JsString("any") => FAny
+      case x => ScalarFieldFormat.read(x)
+    }
+
+    override def write(obj: FieldType): JsValue = obj match {
+      case FMatrix(fType, shape) =>
+        val s = Map(
+          "shape" -> JsArray(shape.map(JsNumber(_)).toVector),
+          "item_type" -> fType.toJson,
+          "type" -> JsString("matrix")
+        )
+        JsObject(s)
+      case FAny => JsString("any")
+      case x: ScalarField => ScalarFieldFormat.write(x)
+    }
+  }
+
+
+  implicit val typedFieldFormat = jsonFormat2(ModelField.apply)
+
+  implicit val dataFrameFormat = jsonFormat1(DataFrame)
+  implicit object ModelApiFormat extends RootJsonFormat[ModelApi] {
+    override def read(json: JsValue): ModelApi = json match {
+      case x: JsObject if x.fields.isEmpty => UntypedAPI
+      case x: JsObject => x.convertTo[DataFrame]
+      case value => throw new SerializationException(s"Incorrect JSON for model api definition: $value")
+    }
+
+    override def write(obj: ModelApi): JsValue = obj match {
+      case x: DataFrame => x.toJson
+      case x: UntypedAPI.type => JsObject.empty
+      case value => throw DeserializationException(s"$value is not a valid model api definition.")
     }
   }
 

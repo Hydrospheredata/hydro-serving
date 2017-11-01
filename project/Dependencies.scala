@@ -65,7 +65,7 @@ object Dependencies {
   lazy val codegenDependencies = commonDependencies
     .union(Seq(
       "org.postgresql" % "postgresql" % postgresqlVersion,
-      "com.github.tminglei" %% "slick-pg" % "0.15.1",
+      "com.github.tminglei" %% "slick-pg" % slickPgVersion,
       "com.typesafe.slick" %% "slick-codegen" % slickVersion,
       "com.github.tminglei" %% "slick-pg_spray-json" % slickPgVersion
     ))

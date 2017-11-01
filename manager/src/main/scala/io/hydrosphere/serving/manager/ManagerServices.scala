@@ -31,10 +31,7 @@ class ManagerServices(
 
   val sourceManagementService = new SourceManagementServiceImpl(managerRepositories.sourceRepository)
 
-  val modelBuildService: ModelBuildService = new LocalModelBuildService(
-    dockerClient,
-    sourceManagementService
-  )
+  val modelBuildService: ModelBuildService = new LocalModelBuildService(dockerClient, sourceManagementService)
 
   val modelPushService: ModelPushService = managerConfiguration.dockerRepository match {
     case c: ECSDockerRepositoryConfiguration => new ECSModelPushService(dockerClient, c)
@@ -73,17 +70,11 @@ class ManagerServices(
     runtimeManagementService
   )
 
-  val envoyManagementService = new EnvoyManagementServiceImpl(
-    runtimeManagementService,
-    servingManagementService
-  )
+  val envoyManagementService = new EnvoyManagementServiceImpl(runtimeManagementService, servingManagementService)
 
   val envoyAdminConnector=new HttpEnvoyAdminConnector()
 
-  val prometheusMetricsService = new PrometheusMetricsServiceImpl(
-    runtimeManagementService,
-    envoyAdminConnector
-  )
+  val prometheusMetricsService = new PrometheusMetricsServiceImpl(runtimeManagementService, envoyAdminConnector)
 
   val uiManagementService = new UIManagementServiceImpl(
     managerRepositories.modelRepository,
