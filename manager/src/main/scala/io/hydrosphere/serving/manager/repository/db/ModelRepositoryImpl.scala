@@ -15,8 +15,10 @@ import scala.concurrent.{ExecutionContext, Future}
 /**
   *
   */
-class ModelRepositoryImpl(implicit executionContext: ExecutionContext, databaseService: DatabaseService)
-  extends ModelRepository with Logging with ManagerJsonSupport {
+class ModelRepositoryImpl(
+  implicit executionContext: ExecutionContext,
+  databaseService: DatabaseService
+) extends ModelRepository with Logging with ManagerJsonSupport {
 
   import spray.json._
   import databaseService._

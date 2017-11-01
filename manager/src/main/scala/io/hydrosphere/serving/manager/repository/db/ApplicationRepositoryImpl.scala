@@ -1,6 +1,5 @@
 package io.hydrosphere.serving.manager.repository.db
 
-import spray.json._
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.model.{Application, ApplicationExecutionGraph, CommonJsonSupport}
 import io.hydrosphere.serving.manager.repository.ApplicationRepository
@@ -14,9 +13,9 @@ import scala.concurrent.{ExecutionContext, Future}
 class ApplicationRepositoryImpl(
   implicit val executionContext: ExecutionContext,
   implicit val databaseService: DatabaseService
-)
-  extends ApplicationRepository with Logging with CommonJsonSupport {
+) extends ApplicationRepository with Logging with CommonJsonSupport {
 
+  import spray.json._
   import databaseService._
   import databaseService.driver.api._
   import ApplicationRepositoryImpl.mapFromDb
@@ -29,7 +28,7 @@ class ApplicationRepositoryImpl(
       Tables.Application returning Tables.Application += Tables.ApplicationRow(
         entity.id,
         entity.name,
-        entity.executionGraph.toJson,
+        entity.executionGraph.toJson.toString(),
         entity.sourcesList.map(v => v.toString),
         getServices(entity.executionGraph).map(v => v.toString)
       )
@@ -67,7 +66,7 @@ class ApplicationRepositoryImpl(
 
     db.run(query.update(
       value.name,
-      value.executionGraph.toJson,
+      value.executionGraph.toJson.toString(),
       value.sourcesList.map(v => v.toString),
       getServices(value.executionGraph).map(v => v.toString)
     ))
@@ -83,6 +82,8 @@ class ApplicationRepositoryImpl(
 
 object ApplicationRepositoryImpl {
 
+  import spray.json._
+
   def mapFromDb(dbType: Option[Tables.Application#TableElementType]): Option[Application] = dbType match {
     case Some(r: Tables.Application#TableElementType) =>
       Some(mapFromDb(r))
@@ -93,7 +94,7 @@ object ApplicationRepositoryImpl {
     Application(
       id = dbType.id,
       name = dbType.serviceName,
-      executionGraph = dbType.executionGraph.convertTo[ApplicationExecutionGraph],
+      executionGraph = dbType.executionGraph.parseJson.convertTo[ApplicationExecutionGraph],
       sourcesList = dbType.sourcesList.map(v => v.toLong)
     )
   }

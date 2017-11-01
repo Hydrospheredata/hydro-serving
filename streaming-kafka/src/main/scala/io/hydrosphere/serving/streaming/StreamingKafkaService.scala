@@ -1,7 +1,6 @@
 package io.hydrosphere.serving.streaming
 
 import java.time.LocalDateTime
-import java.time.temporal.TemporalUnit
 
 import akka.actor.ActorSystem
 import akka.http.scaladsl.model.StatusCodes
@@ -52,7 +51,7 @@ class StreamingKafkaService(
 
   private val managerConnector: ManagerConnector = new HttpManagerConnector(streamingKafkaConfiguration.manager.host, streamingKafkaConfiguration.manager.port)
 
-  private var application: Option[(Application, LocalDateTime)] = None
+  private var currentApplication: Option[(Application, LocalDateTime)] = None
 
   private val consumerSettings = ConsumerSettings(system, new StringDeserializer, new StringDeserializer)
     .withProperty(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "latest")
@@ -123,19 +122,19 @@ class StreamingKafkaService(
   }
 
   private def fetchApplication(): Future[Option[Application]] = {
-    if (application.isEmpty || application.get._2.isBefore(LocalDateTime.now().minusSeconds(30))) {
+    if (currentApplication.isEmpty || currentApplication.get._2.isBefore(LocalDateTime.now().minusSeconds(30))) {
       managerConnector.getApplications
         .map(apps => {
           val findApp = apps.find(a => a.id == streamingKafkaConfiguration.streaming.processorApplication)
           findApp match {
             case _ => findApp
             case Some(x) =>
-              this.application = Option((x, LocalDateTime.now()))
+              this.currentApplication = Option((x, LocalDateTime.now()))
               findApp
           }
         })
     } else {
-      Future.successful(application.map(r => r._1))
+      Future.successful(currentApplication.map(r => r._1))
     }
   }
 
