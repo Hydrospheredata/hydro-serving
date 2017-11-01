@@ -3,22 +3,26 @@ package io.hydrosphere.serving.manager.controller
 import akka.http.scaladsl.model.{ContentTypes, HttpEntity, HttpResponse, StatusCodes}
 import akka.http.scaladsl.server._
 import akka.http.scaladsl.server.Directives._
+import io.hydrosphere.serving.connector.{ExecutionFailure, ExecutionResult, ExecutionSuccess}
+import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.Future
 import scala.concurrent.duration._
 import scala.util._
 
-trait RawDataDirectives {
+trait ServingDataDirectives extends Logging {
 
   def extractRawData: Directive1[Array[Byte]] =
-    withoutSizeLimit & extractStrictEntity(5.seconds).map(e => e.data.toArray)
+    withoutSizeLimit & extractStrictEntity(10.seconds).map(e => e.data.toArray)
 
-  def completeRawData(f: Future[Array[Byte]]): Route = {
+  def completeExecutionResult(f: Future[ExecutionResult]): Route = {
     onComplete(f)({
-      case Success(data) =>
+      case Success(ExecutionSuccess(data)) =>
         complete(HttpResponse(entity = HttpEntity(ContentTypes.`application/json`, data)))
+      case Success(ExecutionFailure(error, statusCode)) =>
+        complete(HttpResponse(status = statusCode, entity = HttpEntity(ContentTypes.`text/plain(UTF-8)`, error)))
       case Failure(err) =>
-        //todo - use 500?
+        logger.error("Serving failed", err)
         complete(
           HttpResponse(
             status = StatusCodes.InternalServerError,
@@ -28,4 +32,4 @@ trait RawDataDirectives {
   }
 }
 
-object RawDataDirectives extends RawDataDirectives
+object ServingDataDirectives extends ServingDataDirectives

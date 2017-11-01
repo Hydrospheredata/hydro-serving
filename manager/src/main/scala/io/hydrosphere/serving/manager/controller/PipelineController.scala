@@ -15,7 +15,7 @@ import scala.concurrent.duration._
 @Api(produces = "application/json", tags = Array("Deployment: Pipelines"))
 class PipelineController(servingManagementService: ServingManagementService)
   extends ManagerJsonSupport
-  with RawDataDirectives {
+  with ServingDataDirectives {
 
   implicit val timeout = Timeout(5.minutes)
 
@@ -88,7 +88,7 @@ class PipelineController(servingManagementService: ServingManagementService)
             headers = request.headers.filter(h => TracingHeaders.isTracingHeaderName(h.name())),
             inputData = bytes
           )
-          completeRawData(servingManagementService.serve(serveRequest))
+          completeExecutionResult(servingManagementService.serve(serveRequest))
         }
       }
     }

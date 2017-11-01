@@ -9,6 +9,9 @@ trait ToPipelineStages[A] {
 
 }
 
+/**
+  * Converts different services to pipeline stages
+  */
 object ToPipelineStages {
 
   implicit val modelToStages = new ToPipelineStages[ModelService] {

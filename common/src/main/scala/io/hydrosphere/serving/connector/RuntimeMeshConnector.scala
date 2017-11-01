@@ -14,6 +14,7 @@ import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.duration._
 import scala.concurrent.Future
+import scala.util.{Failure, Success}
 
 case class ExecutionUnit(
   serviceName: String,
@@ -26,11 +27,9 @@ case class ExecutionCommand(
   pipe: Seq[ExecutionUnit]
 )
 
-case class ExecutionResult(
-  headers: Seq[HttpHeader],
-  json: Array[Byte],
-  status: StatusCode
-)
+sealed trait ExecutionResult
+case class ExecutionSuccess(json: Array[Byte]) extends ExecutionResult
+case class ExecutionFailure(error: String, status: StatusCode) extends ExecutionResult
 
 trait RuntimeMeshConnector {
   def execute(command: ExecutionCommand): Future[ExecutionResult]
@@ -46,15 +45,15 @@ class HttpRuntimeMeshConnector(
 
   //TODO ConnectionPool
   //TODO Move to streams
-  //TODO avoid Serialization/Deserialization, work with http entry
   val flow = Http(system).outgoingConnection(config.host, config.port)
     .mapAsync(1) { r =>
-      if (r.status != StatusCodes.OK) {
-        logger.debug(s"Wrong status from service ${r.status}")
-      }
-
-      r.entity.toStrict(5.seconds)
-        .map(entity => ExecutionResult(r.headers, entity.data.toArray, r.status))
+      r.entity.toStrict(10.seconds).map(entity => {
+        r.status match {
+          case StatusCodes.OK => ExecutionSuccess(entity.data.toArray)
+          case errCode =>
+            ExecutionFailure(s"Response code ${errCode.intValue()}" + new String(entity.data.toArray), errCode)
+        }
+      })
     }
 
   private def execute(runtimeName: String, runtimePath: String, headers: Seq[HttpHeader], json: Array[Byte]): Future[ExecutionResult] = {
@@ -67,15 +66,15 @@ class HttpRuntimeMeshConnector(
     source.via(flow).runWith(Sink.head)
   }
 
-  //TODO: should we stop call rest services if first failed?
   override def execute(command: ExecutionCommand): Future[ExecutionResult] = {
-    val executionUnit = command.pipe.head
-    var fAccum = execute(executionUnit.serviceName, executionUnit.servicePath, command.headers, command.json)
-    for (item <- command.pipe.drop(1)) {
-      fAccum = fAccum.flatMap(res => {
-        execute(item.serviceName, item.servicePath, command.headers, res.json)
+    val accum: Future[ExecutionResult] = Future.successful(ExecutionSuccess(command.json))
+    command.pipe.foldLeft(accum) { case (acc, item) =>
+      acc.flatMap({
+        case ExecutionSuccess(data) =>
+          execute(item.serviceName, item.servicePath, command.headers, data)
+        case failure: ExecutionFailure =>
+          Future.successful(failure)
       })
     }
-    fAccum
   }
 }
