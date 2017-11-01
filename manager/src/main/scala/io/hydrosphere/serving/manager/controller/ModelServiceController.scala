@@ -12,12 +12,6 @@ import io.swagger.annotations._
 
 import scala.concurrent.duration._
 
-case class ServeData(
-  id: Long,
-  path: Option[String],
-  data: Seq[Any]
-)
-
 /**
   *
   */
@@ -26,7 +20,7 @@ case class ServeData(
 class ModelServiceController(
   runtimeManagementService: RuntimeManagementService,
   servingManagementService: ServingManagementService
-) extends ManagerJsonSupport with RawDataDirectives {
+) extends ManagerJsonSupport with ServingDataDirectives {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/")
@@ -144,30 +138,31 @@ class ModelServiceController(
     }
   }
 
-//  @Path("/serve")
-//  @ApiOperation(value = "Serve ModelService", notes = "Serve ModelService", nickname = "ServeModelService", httpMethod = "POST")
-//  @ApiImplicitParams(Array(
-//    new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[ServeData], required = true, paramType = "body")
-//  ))
-//  @ApiResponses(Array(
-//    new ApiResponse(code = 200, message = "Any", response = classOf[ServeData]),
-//    new ApiResponse(code = 500, message = "Internal server error")
-//  ))
-//  def serveService = path("api" / "v1" / "modelService" / "serve") {
-//    post {
-//      extractRequest { request =>
-//        extractEntityData { bytes =>
-//          val serveRequest = ServeRequest(
-//            serviceKey = ModelById(modelName),
-//            servePath = "/serve",
-//            headers = request.headers.filter(h => TracingHeaders.isTracingHeaderName(h.name()),
-//            inputData = bytes
-//          )
-//          complete(servingManagementService.serve(serveRequest))
-//        }
-//      }
-//    }
-//  }
+  @Path("/serve")
+  @ApiOperation(value = "Serve ModelService", notes = "Serve ModelService", nickname = "ServeModelService", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "modelId", required = true, dataType = "string", paramType = "path", value = "modelId"),
+    new ApiImplicitParam(name = "body", value = "Any", required = true, paramType = "body")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Any"),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def serveService = path("api" / "v1" / "modelService" / "serve" / LongNumber) { id =>
+    post {
+      extractRequest { request =>
+        extractRawData { bytes =>
+          val serveRequest = ServeRequest(
+            serviceKey = ModelById(id),
+            servePath = "/serve",
+            headers = request.headers.filter(h => TracingHeaders.isTracingHeaderName(h.name())),
+            inputData = bytes
+          )
+          completeExecutionResult(servingManagementService.serve(serveRequest))
+        }
+      }
+    }
+  }
 
   @Path("/serve/{modelName}")
   @ApiOperation(value = "Serve ModelService last by model", notes = "Serve ModelService last by model", nickname = "ServeModelService last by model", httpMethod = "POST")
@@ -176,7 +171,7 @@ class ModelServiceController(
     new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[List[_]], required = true, paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any", response = classOf[ServeData]),
+    new ApiResponse(code = 200, message = "Any"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def serveByModelNameService = path("api" / "v1" / "modelService" / "serve" / Segment) { modelName =>
@@ -189,7 +184,7 @@ class ModelServiceController(
             headers = request.headers.filter(h => TracingHeaders.isTracingHeaderName(h.name())),
             inputData = bytes
           )
-          completeRawData(servingManagementService.serve(serveRequest))
+          completeExecutionResult(servingManagementService.serve(serveRequest))
         }
       }
     }
@@ -203,7 +198,7 @@ class ModelServiceController(
     new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[List[_]], required = true, paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any", response = classOf[ServeData]),
+    new ApiResponse(code = 200, message = "Any"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def serveByModelNameServiceAndVersion = path("api" / "v1" / "modelService" / "serve" / Segment / Segment) { (modelName,modelVersion) =>
@@ -217,7 +212,7 @@ class ModelServiceController(
             inputData = bytes
           )
 
-          completeRawData(servingManagementService.serve(serveRequest))
+          completeExecutionResult(servingManagementService.serve(serveRequest))
         }
       }
     }

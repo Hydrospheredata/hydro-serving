@@ -24,7 +24,7 @@ case class AddWeightedServiceSourceRequest(
 @Api(produces = "application/json", tags = Array("Deployment: Weighted Service"))
 class WeightedServiceController(servingManagementService: ServingManagementService)
   extends ManagerJsonSupport
-  with RawDataDirectives {
+  with ServingDataDirectives {
 
   implicit val timeout = Timeout(5.minutes)
 
@@ -101,10 +101,10 @@ class WeightedServiceController(servingManagementService: ServingManagementServi
   @Path("/serve")
   @ApiOperation(value = "Serve WeightedService", notes = "Serve WeightedService", nickname = "ServeWeightedService", httpMethod = "POST")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[ServeData], required = true, paramType = "body")
+    new ApiImplicitParam(name = "body", value = "Any", required = true, paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any", response = classOf[ServeData]),
+    new ApiResponse(code = 200, message = "Any"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def serveService = path("api" / "v1" / "weightedServices" / "serve" / LongNumber) { id =>
@@ -117,7 +117,7 @@ class WeightedServiceController(servingManagementService: ServingManagementServi
             headers = request.headers.filter(h => TracingHeaders.isTracingHeaderName(h.name())),
             inputData = bytes
           )
-          completeRawData(servingManagementService.serve(serveRequest))
+          completeExecutionResult(servingManagementService.serve(serveRequest))
         }
       }
     }

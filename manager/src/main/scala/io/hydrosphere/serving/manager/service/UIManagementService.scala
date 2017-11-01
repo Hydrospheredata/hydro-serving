@@ -3,6 +3,7 @@ package io.hydrosphere.serving.manager.service
 import java.util.UUID
 
 import akka.http.scaladsl.model.HttpHeader
+import io.hydrosphere.serving.connector.ExecutionResult
 import io.hydrosphere.serving.model.{ModelRuntime, ModelService, ServiceWeight, WeightedService}
 import io.hydrosphere.serving.manager.model.{Model, ModelBuild}
 import io.hydrosphere.serving.manager.repository.{ModelBuildRepository, ModelRepository, ModelRuntimeRepository, ModelServiceRepository}
@@ -84,7 +85,7 @@ trait UIManagementService {
 
   def stopAllServices(modelId: Long): Future[Unit]
 
-  def testModel(modelId: Long, servePath: String, request: Array[Byte], headers: Seq[HttpHeader]): Future[Array[Byte]]
+  def testModel(modelId: Long, servePath: String, request: Array[Byte], headers: Seq[HttpHeader]): Future[ExecutionResult]
 
   def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelInfo]
 
@@ -156,7 +157,7 @@ class UIManagementServiceImpl(
           .flatMap(_ => waitForContainerStop(s))).map(s => Unit)
     })
 
-  override def testModel(modelId: Long, servePath: String, request: Array[Byte], headers: Seq[HttpHeader]): Future[Array[Byte]] =
+  override def testModel(modelId: Long, servePath: String, request: Array[Byte], headers: Seq[HttpHeader]): Future[ExecutionResult] =
     modelServiceRepository.getByModelIds(Seq(modelId)).flatMap(services => {
       val serviceFuture = services.headOption match {
         case None => startAndWaitService(modelId)
