@@ -4,6 +4,7 @@ import java.io.FileNotFoundException
 import java.nio.file.{Files, NoSuchFileException}
 
 import io.hydrosphere.serving.manager.model.SchematicRuntimeType
+import io.hydrosphere.serving.model_api._
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.model.CommonJsonSupport
 import org.apache.logging.log4j.scala.Logging
@@ -31,20 +32,27 @@ object ScikitMetadata extends CommonJsonSupport{
   */
 object ScikitModelFetcher extends ModelFetcher with Logging {
 
-  private def getMetadata(source: ModelSource, modelName: String): ScikitMetadata = {
-    val metaFile = source.getReadableFile(s"$modelName/metadata.json")
-    val metaStr = Files.readAllLines(metaFile.toPath).mkString
-    ScikitMetadata.fromJson(metaStr)
+  private def getMetadata(source: ModelSource, modelName: String): Option[(ModelApi, ModelApi)] = {
+    if (source.isExist(s"$modelName/metadata.json")) {
+      val metaFile = source.getReadableFile(s"$modelName/metadata.json")
+      val metaStr = Files.readAllLines(metaFile.toPath).mkString
+      val metadata = ScikitMetadata.fromJson(metaStr)
+      Some(
+        DataFrame(metadata.inputs.map(ModelField.untyped)) -> DataFrame(metadata.outputs.map(ModelField.untyped))
+      )
+    } else {
+      None
+    }
   }
 
   override def fetch(source: ModelSource, directory: String): Option[ModelMetadata] = {
     try {
-      val metadata = getMetadata(source, directory)
+      val metadata: (ModelApi, ModelApi) = getMetadata(source, directory).getOrElse(UntypedAPI -> UntypedAPI)
       Some(ModelMetadata(
         directory,
         Some(new SchematicRuntimeType("hydrosphere/serving-runtime-scikit", "0.0.1")),
-        metadata.outputs,
-        metadata.inputs
+        metadata._2,
+        metadata._1
       ))
     } catch {
       case e: NoSuchFileException =>

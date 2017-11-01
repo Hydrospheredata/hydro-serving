@@ -1,8 +1,10 @@
 package io.hydrosphere.serving.manager.repository.db
 
+import io.hydrosphere.serving.manager.controller.ManagerJsonSupport
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.model.{ModelRuntime, RuntimeType}
 import io.hydrosphere.serving.manager.repository.ModelRuntimeRepository
+import io.hydrosphere.serving.model_api.ModelApi
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -10,9 +12,10 @@ import scala.concurrent.{ExecutionContext, Future}
 /**
   *
   */
-class ModelRuntimeRepositoryImpl(databaseService: DatabaseService)(implicit executionContext: ExecutionContext)
-  extends ModelRuntimeRepository with Logging {
+class ModelRuntimeRepositoryImpl(implicit executionContext: ExecutionContext, databaseService: DatabaseService)
+  extends ModelRuntimeRepository with Logging with ManagerJsonSupport {
 
+  import spray.json._
   import databaseService._
   import databaseService.driver.api._
   import ModelRuntimeRepositoryImpl._
@@ -28,8 +31,8 @@ class ModelRuntimeRepositoryImpl(databaseService: DatabaseService)(implicit exec
         entity.modelName,
         entity.modelVersion,
         entity.source,
-        entity.outputFields,
-        entity.inputFields,
+        entity.outputFields.toJson.toString(),
+        entity.inputFields.toJson.toString(),
         entity.created,
         entity.imageName,
         entity.imageTag,
@@ -106,7 +109,9 @@ class ModelRuntimeRepositoryImpl(databaseService: DatabaseService)(implicit exec
     ).map(s => mapFromDb(s))
 }
 
-object ModelRuntimeRepositoryImpl {
+object ModelRuntimeRepositoryImpl extends ManagerJsonSupport {
+  import spray.json._
+
   def mapFromDb(model: Option[(Tables.ModelRuntime#TableElementType, Option[Tables.RuntimeType#TableElementType])]): Option[ModelRuntime] = model match {
     case Some(tuple) =>
       Some(mapFromDb(tuple._1, tuple._2.map(t => RuntimeTypeRepositoryImpl.mapFromDb(t))))
@@ -128,8 +133,8 @@ object ModelRuntimeRepositoryImpl {
       modelVersion = model.modelversion,
       source = model.source,
       runtimeType = runtimeType,
-      outputFields = model.outputFields,
-      inputFields = model.inputFields,
+      outputFields = model.outputFields.parseJson.convertTo[ModelApi],
+      inputFields = model.inputFields.parseJson.convertTo[ModelApi],
       created = model.createdTimestamp,
       modelId = model.modelId,
       tags = model.tags,

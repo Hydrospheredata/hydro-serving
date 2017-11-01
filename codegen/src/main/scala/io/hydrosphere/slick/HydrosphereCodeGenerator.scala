@@ -73,7 +73,7 @@ object HydrosphereCodeGenerator {
       Class.forName(profile + "$").getField("MODULE$").get(null).asInstanceOf[HydrospherePostgresDriver]
     val dbFactory = profileInstance.api.Database
     val db = dbFactory.forURL(url, driver = jdbcDriver,
-      user = user.getOrElse(null), password = password.getOrElse(null), keepAliveConnection = true)
+      user = user.orNull, password = password.orNull, keepAliveConnection = true)
     try {
       val m = Await.result(db.run(profileInstance.createModel(None, ignoreInvalidDefaults)(ExecutionContext.global).withPinnedSession), Duration.Inf)
       new HydrosphereCodeGenerator(m).writeToFile(profile, outputDir, pkg)

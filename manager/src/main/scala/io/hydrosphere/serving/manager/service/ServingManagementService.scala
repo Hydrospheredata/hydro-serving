@@ -10,6 +10,7 @@ import io.hydrosphere.serving.model.{ServiceWeight, WeightedService}
 import io.hydrosphere.serving.manager.repository.{EndpointRepository, ModelServiceRepository, PipelineRepository, WeightedServiceRepository}
 import io.hydrosphere.serving.model.{Endpoint, Pipeline, PipelineStage}
 import org.apache.logging.log4j.scala.Logging
+import io.hydrosphere.serving.model_api.ApiGenerator
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -101,6 +102,9 @@ trait ServingManagementService {
 
   def serve(req: ServeRequest): Future[ExecutionResult]
 
+  def generateModelPayload(modelName: String, modelVersion: String): Future[Seq[Any]]
+
+  def generateModelPayload(modelName: String): Future[Seq[Any]]
 }
 
 class ServingManagementServiceImpl(
@@ -218,6 +222,20 @@ class ServingManagementServiceImpl(
         if (s.length != req.length) {
           throw new IllegalArgumentException("Can't find all services")
         })
+  }
+
+  override def generateModelPayload(modelName: String, modelVersion: String): Future[Seq[Any]] = {
+    modelServiceRepository.getLastModelServiceByModelNameAndVersion(modelName, modelVersion).map{
+      case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
+      case Some(service) => List(new ApiGenerator(service.modelRuntime.inputFields).generate)
+    }
+  }
+
+  override def generateModelPayload(modelName: String): Future[Seq[Any]] = {
+    modelServiceRepository.getLastModelServiceByModelName(modelName).map {
+      case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
+      case Some(service) => List(new ApiGenerator(service.modelRuntime.inputFields).generate)
+    }
   }
 
   override def getWeightedService(id: Long): Future[Option[WeightedService]] =
