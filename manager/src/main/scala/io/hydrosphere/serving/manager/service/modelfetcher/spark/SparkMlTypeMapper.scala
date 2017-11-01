@@ -20,7 +20,8 @@ trait SparkMlTypeMapper {
 }
 
 object SparkMlTypeMapper {
-  def sparkVector: FMatrix = FMatrix.varvec(FDouble)
+  def featuresVec(sparkModelMetadata: SparkModelMetadata): FMatrix = FMatrix.vec(FDouble, sparkModelMetadata.numFeatures.getOrElse(-1).toLong)
+  def classesVec(sparkModelMetadata: SparkModelMetadata): FMatrix = FMatrix.vec(FDouble, sparkModelMetadata.numClasses.getOrElse(-1).toLong)
 
   def apply(sparkModelMetadata: SparkModelMetadata): SparkMlTypeMapper = {
     sparkModelMetadata.`class` match {
@@ -107,7 +108,7 @@ trait InputOutputMapper extends SparkMlTypeMapper{
   }
 }
 trait PredictorMapper extends SparkMlTypeMapper {
-  def featuresType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  def featuresType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
   def predictionType(sparkModelMetadata: SparkModelMetadata): FieldType = FDouble
 
   override def labelSchema: Option[SchemaGenerator] = Some({ m=>
@@ -125,7 +126,7 @@ trait PredictorMapper extends SparkMlTypeMapper {
   }
 }
 trait ClassifierMapper extends PredictorMapper {
-  def rawPredictionType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  def rawPredictionType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.classesVec(sparkModelMetadata)
 
   override def outputSchema: SchemaGenerator = { m =>
     super.outputSchema.apply(m) ++ List(
@@ -134,7 +135,7 @@ trait ClassifierMapper extends PredictorMapper {
   }
 }
 trait ProbabilisticClassifierMapper extends ClassifierMapper {
-  def probabilityType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  def probabilityType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.classesVec(sparkModelMetadata)
 
   override def outputSchema: SchemaGenerator = { m =>
     super.outputSchema.apply(m) ++ List(
@@ -146,31 +147,26 @@ trait ProbabilisticClassifierMapper extends ClassifierMapper {
 object HashingTFMapper extends InputOutputMapper {
   override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FString)
 
-  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix(
-    FDouble,
-    List(sparkModelMetadata.numFeatures.getOrElse(-1).toLong)
-  )
+  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FDouble)
 }
 object IDFMapper extends InputOutputMapper {
-  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
 
-  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FDouble)
 }
 object Word2VecMapper extends InputOutputMapper {
   def inputType(metadata: SparkModelMetadata): FieldType = FString
 
   def outputType(metadata: SparkModelMetadata): FieldType =
-    FMatrix(
+    FMatrix.vec(
       FDouble,
-      List(
-        metadata.getParam[Double]("vectorSize").getOrElse(-1.0).toLong // NB Spark uses doubles to store vector length
-      )
+      metadata.getParam[Double]("vectorSize").getOrElse(-1.0).toLong // NB Spark uses doubles to store vector length
     )
 }
 object CountVectorizerMapper extends InputOutputMapper {
   override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FString)
 
-  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FDouble)
 }
 object TokenizerMapper extends InputOutputMapper {
   override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = FString
@@ -193,22 +189,22 @@ object BinarizerMapper extends InputOutputMapper {
   override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FDouble
 }
 object PCAMapper extends InputOutputMapper {
-  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
 
-  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix(
+  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.vec(
     FDouble,
-    List(sparkModelMetadata.getParam[Double]("k").getOrElse(-1.0).toLong)
+    sparkModelMetadata.getParam[Double]("k").getOrElse(-1.0).toLong
   )
 }
 object PolynomialExpansionMapper extends InputOutputMapper {
-  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
 
-  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FDouble)
 }
 object DCTMapper extends InputOutputMapper {
-  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
 
-  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FDouble)
 }
 object StringIndexerMapper extends InputOutputMapper {
   override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = FString
@@ -223,37 +219,37 @@ object IndexToStringMapper extends InputOutputMapper {
 object OneHotEncoderMapper extends InputOutputMapper {
   override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = FString
 
-  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FDouble)
 }
 object VectorIndexerMapper extends InputOutputMapper {
-  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
 
   override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FDouble
 }
 object InteractionMapper extends InputOutputMapper {
-  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
 
-  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FDouble)
 }
 object NormalizerMapper extends InputOutputMapper {
-  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
 
-  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FDouble)
 }
 object StandardScalerMapper extends InputOutputMapper {
-  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
 
-  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FDouble)
 }
 object MinMaxScalerMapper extends InputOutputMapper {
-  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
 
-  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FDouble)
 }
 object MaxAbsScalerMapper extends InputOutputMapper {
-  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
 
-  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FDouble)
 }
 object BucketizerMapper extends InputOutputMapper {
   override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = FDouble
@@ -261,9 +257,9 @@ object BucketizerMapper extends InputOutputMapper {
   override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FDouble
 }
 object ElementwiseProductMapper extends InputOutputMapper {
-  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
 
-  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FDouble)
 }
 object VectorAssemblerMapper extends SparkMlTypeMapper {
   override def inputSchema: VectorAssemblerMapper.SchemaGenerator = { m =>
@@ -274,9 +270,9 @@ object VectorAssemblerMapper extends SparkMlTypeMapper {
       ).toList
   }
 
-  override def outputSchema: VectorAssemblerMapper.SchemaGenerator = { m =>
+  override def outputSchema: VectorAssemblerMapper.SchemaGenerator = { sparkModelMetadata =>
     List(
-      ModelField(m.getParam("outputCol").get, SparkMlTypeMapper.sparkVector)
+      ModelField(sparkModelMetadata.getParam("outputCol").get, SparkMlTypeMapper.featuresVec(sparkModelMetadata))
     )
   }
 }
@@ -286,19 +282,19 @@ object VectorSlicerMapper extends InputOutputMapper {
   override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FAnyScalar)
 }
 object ChiSqSelectorMapper extends FeaturesOutputMapper {
-  override def featuresType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def featuresType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
 
-  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FDouble)
 }
 object BucketedRandomProjectionLSHMapper extends InputOutputMapper {
-  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
 
-  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FDouble)
 }
 object MinHashLSH extends InputOutputMapper {
-  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def inputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
 
-  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = SparkMlTypeMapper.sparkVector
+  override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FDouble)
 }
 
 object LogisticRegression extends PredictorMapper { }

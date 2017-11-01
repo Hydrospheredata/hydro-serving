@@ -41,8 +41,8 @@ class ModelRepositoryImpl(implicit executionContext: ExecutionContext, databaseS
           case Some(r) => Some(r.id)
           case _ => None
         },
-        entity.outputFields.toJson,
-        entity.inputFields.toJson,
+        entity.outputFields.toJson.toString(),
+        entity.inputFields.toJson.toString(),
         entity.description,
         entity.created,
         entity.updated)
@@ -112,8 +112,8 @@ class ModelRepositoryImpl(implicit executionContext: ExecutionContext, databaseS
       },
       value.description,
       value.updated,
-      value.outputFields.toJson,
-      value.inputFields.toJson
+      value.outputFields.toJson.toString(),
+      value.inputFields.toJson.toString()
     ))
   }
 
@@ -148,8 +148,8 @@ object ModelRepositoryImpl extends ManagerJsonSupport {
       source = model.source,
       runtimeType = runtimeType,
       description = model.description,
-      outputFields = model.outputFields.convertTo[ModelApi],
-      inputFields = model.inputFields.convertTo[ModelApi],
+      outputFields = model.outputFields.parseJson.convertTo[ModelApi],
+      inputFields = model.inputFields.parseJson.convertTo[ModelApi],
       created = model.createdTimestamp,
       updated = model.updatedTimestamp
     )
