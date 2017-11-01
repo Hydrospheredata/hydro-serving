@@ -11,11 +11,19 @@ import collection.JavaConverters._
 /**
   *
   */
-case class AdvertisedConfiguration(
-  advertisedHost: String,
-  advertisedPort: Int)
 
-case class ManagerConfiguration(
+trait ManagerConfiguration {
+  val sidecar: SidecarConfig
+  val application: ApplicationConfig
+  val advertised: AdvertisedConfiguration
+  val modelSources: Seq[ModelSourceConfiguration]
+  val database: Config
+  val cloudDriver: CloudDriverConfiguration
+  val zipkin: ZipkinConfiguration
+  val dockerRepository: DockerRepositoryConfiguration
+}
+
+case class ManagerConfigurationImpl(
   sidecar: SidecarConfig,
   application: ApplicationConfig,
   advertised: AdvertisedConfiguration,
@@ -24,7 +32,11 @@ case class ManagerConfiguration(
   cloudDriver: CloudDriverConfiguration,
   zipkin: ZipkinConfiguration,
   dockerRepository: DockerRepositoryConfiguration
-)
+) extends ManagerConfiguration
+
+case class AdvertisedConfiguration(
+  advertisedHost: String,
+  advertisedPort: Int)
 
 abstract class ModelSourceConfiguration() {
   val name: String
@@ -179,14 +191,15 @@ object ManagerConfiguration extends Configuration {
 
   */
 
-  def parse(config: Config): ManagerConfiguration = ManagerConfiguration(
-    sidecar = parseSidecar(config),
-    application = parseApplication(config),
-    advertised = parseAdvertised(config),
-    modelSources = parseDataSources(config),
-    database = config.getConfig("database"),
-    cloudDriver = parseCloudDriver(config),
-    zipkin = parseZipkin(config),
-    dockerRepository = parseDockerRepository(config)
-  )
+  def parse(config: Config): ManagerConfigurationImpl = ManagerConfigurationImpl(
+      sidecar = parseSidecar(config),
+      application = parseApplication(config),
+      advertised = parseAdvertised(config),
+      modelSources = parseDataSources(config),
+      database = config.getConfig("database"),
+      cloudDriver = parseCloudDriver(config),
+      zipkin = parseZipkin(config),
+      dockerRepository = parseDockerRepository(config)
+    )
+
 }

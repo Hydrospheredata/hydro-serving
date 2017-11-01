@@ -10,11 +10,8 @@ import scala.concurrent.{ExecutionContext, Future}
 /**
   *
   */
-class RuntimeTypeRepositoryImpl(
-  implicit val executionContext: ExecutionContext,
-  implicit val databaseService: DatabaseService
-)
-  extends RuntimeTypeRepository with Logging {
+class RuntimeTypeRepositoryImpl(implicit executionContext: ExecutionContext, databaseService: DatabaseService)
+  extends RuntimeTypeRepository with Logging{
 
   import databaseService._
   import databaseService.driver.api._

@@ -2,6 +2,7 @@ package io.hydrosphere.serving.model
 
 import java.time.LocalDateTime
 
+import io.hydrosphere.serving.model_api.ModelApi
 
 case class RuntimeType(
   id: Long,
@@ -20,8 +21,8 @@ case class ModelRuntime(
   modelVersion: String,
   source: Option[String],
   runtimeType: Option[RuntimeType],
-  outputFields: List[String],
-  inputFields: List[String],
+  outputFields: ModelApi,
+  inputFields: ModelApi,
   created: LocalDateTime,
   modelId: Option[Long],
   configParams: Map[String, String],

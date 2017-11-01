@@ -7,23 +7,23 @@ import io.hydrosphere.serving.manager.repository.db._
 import scala.concurrent.ExecutionContext
 
 trait ManagerRepositories {
-  def runtimeTypeRepository: RuntimeTypeRepository
+  val runtimeTypeRepository: RuntimeTypeRepository
 
-  def modelRepository: ModelRepository
+  val modelRepository: ModelRepository
 
-  def modelFilesRepository: ModelFilesRepository
+  val modelFilesRepository: ModelFilesRepository
 
-  def modelRuntimeRepository: ModelRuntimeRepository
+  val modelRuntimeRepository: ModelRuntimeRepository
 
-  def modelBuildRepository: ModelBuildRepository
+  val modelBuildRepository: ModelBuildRepository
 
-  def modelServiceRepository: ModelServiceRepository
+  val modelServiceRepository: ModelServiceRepository
 
   def runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository
 
-  def sourceRepository: SourceConfigRepository
+  val sourceRepository: SourceConfigRepository
 
-  def applicationRepository: ApplicationRepository
+  val applicationRepository: ApplicationRepository
 }
 
 class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit executionContext: ExecutionContext)
@@ -44,7 +44,7 @@ class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit execution
 
   val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository = new RuntimeTypeBuildScriptRepositoryImpl
 
-  val sourceRepository: SourceConfigRepository = new SourceConfigRepositoryImpl(config.modelSources)
+  val sourceRepository: SourceConfigRepository = new SourceConfigRepositoryImpl(config)
 
   val applicationRepository: ApplicationRepository = new ApplicationRepositoryImpl
 }
