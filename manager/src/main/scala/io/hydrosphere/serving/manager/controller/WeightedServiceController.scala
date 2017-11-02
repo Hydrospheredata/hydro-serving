@@ -5,7 +5,7 @@ import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Directives.{complete, get, path}
 import akka.util.Timeout
-import io.hydrosphere.serving.controller.TracingHeaders
+import io.hydrosphere.serving.controller.{ServingDataDirectives, TracingHeaders}
 import io.hydrosphere.serving.model.{ModelService, WeightedService}
 import io.hydrosphere.serving.manager.service.{ServeRequest, ServingManagementService, WeightedKey, WeightedServiceCreateOrUpdateRequest}
 import io.swagger.annotations._
