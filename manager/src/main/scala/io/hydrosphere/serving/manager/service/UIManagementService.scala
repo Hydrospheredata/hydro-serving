@@ -218,12 +218,12 @@ class UIManagementServiceImpl(
   }
 
 
-  private def addKafkaStreaming(streaming: KafkaStreamingParams, service: Application, runtimeId: Long): Future[Application] = {
+  private def addKafkaStreaming(streaming: KafkaStreamingParams, application: Application, runtimeId: Long): Future[Application] = {
     val configs = Map(
       "STREAMING_SOURCE_TOPIC" -> streaming.sourceTopic,
       "STREAMING_DESTINATION_TOPIC" -> streaming.destinationTopic,
       "STREAMING_BOOTSTRAP_SERVERS" -> streaming.brokerList.mkString(","),
-      "STREAMING_PROCESSOR_ROUTE" -> s"weightedservices${service.id}",
+      "STREAMING_PROCESSOR_APPLICATION" -> application.id.toString,
       "STREAMING_KAFKA_GROUP_ID" -> UUID.randomUUID().toString
     )
     runtimeManagementService.addService(CreateModelServiceRequest(
@@ -233,12 +233,12 @@ class UIManagementServiceImpl(
     )).flatMap(kafkaService => {
       servingManagementService.updateApplications(
         ApplicationCreateOrUpdateRequest(
-          id = Some(service.id),
-          serviceName = service.name,
-          executionGraph = service.executionGraph,
-          sourcesList = Some(kafkaService.serviceId :: service.sourcesList)
+          id = Some(application.id),
+          serviceName = application.name,
+          executionGraph = application.executionGraph,
+          sourcesList = Some(kafkaService.serviceId :: application.sourcesList)
         )
-      ).map(_ => service)
+      ).map(_ => application)
     })
   }
 
@@ -384,10 +384,10 @@ class UIManagementServiceImpl(
     }
 
 
-  private def mapService(weighted: Seq[Application], services: Seq[ModelService]): Future[Seq[ApplicationDetails]] = {
+  private def mapService(applications: Seq[Application], services: Seq[ModelService]): Future[Seq[ApplicationDetails]] = {
     Future({
       val mapService = services.map(v => v.serviceId -> v).toMap
-      weighted.map(w => {
+      applications.map(w => {
         ApplicationDetails(
           id = w.id,
           serviceName = w.name,

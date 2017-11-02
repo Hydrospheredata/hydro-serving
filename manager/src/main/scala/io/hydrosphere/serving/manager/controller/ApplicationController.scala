@@ -21,7 +21,7 @@ case class AddApplicationSourceRequest(
   *
   */
 @Path("/api/v1/applications")
-@Api(produces = "application/json", tags = Array("Deployment: Weighted Service"))
+@Api(produces = "application/json", tags = Array("Deployment: Application"))
 class ApplicationController(servingManagementService: ServingManagementService) extends ManagerJsonSupport {
   implicit val timeout = Timeout(5.minutes)
 
