@@ -147,5 +147,6 @@ node("JenkinsOnDemand") {
             docker.withRegistry('https://060183668755.dkr.ecr.eu-central-1.amazonaws.com', 'ecr:eu-central-1:Jenkins AWS User') {
               docker.image('060183668755.dkr.ecr.eu-central-1.amazonaws.com/serving-manager:${curVersion}').push()
             }
+        }
      }
 }
