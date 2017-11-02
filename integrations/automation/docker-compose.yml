@@ -228,7 +228,7 @@ services:
 
 
   manager:
-    image: hydrosphere/serving-manager:${manager_version}
+    image: ${manager_image}:${manager_version}
     container_name: manager
     ports:
       - "8080:8080"
