@@ -6,7 +6,7 @@ import akka.http.scaladsl.model.{HttpHeader, StatusCodes}
 import io.hydrosphere.serving.connector.{ExecutionCommand, ExecutionResult, ExecutionUnit, RuntimeMeshConnector}
 import io.hydrosphere.serving.model.{Application, ApplicationExecutionGraph, ModelService}
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelServiceRepository}
-import io.hydrosphere.serving.model_api.{ApiCompatibilityChecker, DataGenerator}
+import io.hydrosphere.serving.model_api.{ApiCompatibilityChecker, DataGenerator, ModelApi, UntypedAPI}
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -28,7 +28,6 @@ case class ApplicationCreateOrUpdateRequest(
 }
 
 trait ServingManagementService {
-
   def allApplications(): Future[Seq[Application]]
 
   def applicationsByModelServiceIds(servicesIds: Seq[Long]): Future[Seq[Application]]
@@ -55,6 +54,7 @@ trait ServingManagementService {
 
   def checkApplicationSchema(req: ApplicationCreateOrUpdateRequest): Future[Boolean]
 
+  def generateInputsForApplication(appId: Long): Future[Seq[Any]]
 }
 
 class ServingManagementServiceImpl(
@@ -210,6 +210,25 @@ class ServingManagementServiceImpl(
   }
 
   private def checkServicesSchemas(modelServiceA: ModelService, modelServiceB: ModelService): Boolean = {
-    ApiCompatibilityChecker(modelServiceA.modelRuntime.inputFields).check(modelServiceB.modelRuntime.outputFields)
+    ApiCompatibilityChecker.check(modelServiceA.modelRuntime.outputFields -> modelServiceB.modelRuntime.inputFields)
+  }
+
+  override def generateInputsForApplication(appId: Long): Future[Option[Seq[Any]]] = {
+    applicationRepository.get(appId).map(_.map{ app =>
+      val schema = inferAppInputSchema(app)
+      Seq(DataGenerator(schema).generate)
+    })
+  }
+
+  private def inferAppInputSchema(application: Application): ModelApi = {
+    val stages = application.executionGraph.stages.map(_.services.map(_.serviceId))
+    val headServices = Future.sequence(stages.head.map(modelServiceRepository.get))
+    val apis = headServices.map{services =>
+      services.map{
+        case Some(service) => service.modelRuntime.inputFields
+        case None => throw new IllegalArgumentException(s"Can't find service in ${application.id} in $services")
+      }
+    }
+    Future.sequence(apis)
   }
 }

@@ -1,9 +1,6 @@
 package io.hydrosphere.serving.model_api
 
-trait FieldType {
-  def accept[R](visitor: FieldType => R) = visitor(this)
-}
-
+trait FieldType
 trait ScalarField extends FieldType
 
 case object FAny extends FieldType
@@ -18,6 +15,6 @@ case class FMatrix(
 ) extends FieldType
 
 object FMatrix {
-  def varvec(scalarField: ScalarField): FMatrix = FMatrix.vec(scalarField, -1)
-  def vec(scalarField: ScalarField, size: Long): FMatrix = FMatrix(scalarField, List(size))
+  def vecVar(scalarField: ScalarField): FMatrix = FMatrix.vecFixed(scalarField, -1)
+  def vecFixed(scalarField: ScalarField, size: Long): FMatrix = FMatrix(scalarField, List(size))
 }
