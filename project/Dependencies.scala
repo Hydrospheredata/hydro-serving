@@ -42,7 +42,6 @@ object Dependencies {
     "com.amazonaws" % "aws-java-sdk-test-utils" % "1.11.174" % "test,it",
     "io.findify" %% "s3mock" % "0.2.3" % "test,it",
     "io.findify" %% "sqsmock" % "0.3.2" % "test,it"
-
   )
 
   lazy val logDependencies = Seq(

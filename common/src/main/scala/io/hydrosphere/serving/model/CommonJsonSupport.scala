@@ -102,7 +102,7 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
 
   implicit val typedFieldFormat = jsonFormat2(ModelField.apply)
 
-  implicit val dataFrameFormat = jsonFormat1(DataFrame)
+  implicit val dataFrameFormat = jsonFormat1(DataFrame.apply)
 
   implicit object ModelApiFormat extends RootJsonFormat[ModelApi] {
     override def read(json: JsValue): ModelApi = json match {

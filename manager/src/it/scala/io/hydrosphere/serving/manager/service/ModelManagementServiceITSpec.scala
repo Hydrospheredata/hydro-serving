@@ -13,7 +13,6 @@ import scala.concurrent.duration._
   */
 class ModelManagementServiceITSpec extends CommonIntegrationSpec with BeforeAndAfterEach {
 
-
   describe("Model") {
     it("Fetch all models") {
       val f = managerServices.modelManagementService.allModels().map(seq => {

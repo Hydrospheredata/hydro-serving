@@ -5,7 +5,7 @@ import java.time.LocalDateTime
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.repository._
-import io.hydrosphere.serving.model_api.{ApiGenerator, DataFrame, ModelApi}
+import io.hydrosphere.serving.model_api.{DataGenerator, DataFrame, ModelApi}
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.model._
@@ -494,13 +494,13 @@ class ModelManagementServiceImpl(
   override def generateModelPayload(modelName: String): Future[Seq[Any]] = {
     modelRepository.get(modelName).map {
       case None => throw new IllegalArgumentException(s"Can't find model modelName=$modelName")
-      case Some(model) => List(new ApiGenerator(model.inputFields).generate)
+      case Some(model) => List(DataGenerator(model.inputFields).generate)
     }
   }
 
   override def generateInputsForRuntime(runtimeId: Long): Future[Option[Seq[Any]]] = {
     modelRuntimeRepository.get(runtimeId).map(_.map{ runtime =>
-      List(new ApiGenerator(runtime.inputFields).generate)
+      List(DataGenerator(runtime.inputFields).generate)
     })
   }
 }

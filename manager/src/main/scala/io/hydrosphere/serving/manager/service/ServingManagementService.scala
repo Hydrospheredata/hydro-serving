@@ -6,7 +6,7 @@ import akka.http.scaladsl.model.{HttpHeader, StatusCodes}
 import io.hydrosphere.serving.connector.{ExecutionCommand, ExecutionResult, ExecutionUnit, RuntimeMeshConnector}
 import io.hydrosphere.serving.model.{Application, ApplicationExecutionGraph, ModelService}
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelServiceRepository}
-import io.hydrosphere.serving.model_api.ApiGenerator
+import io.hydrosphere.serving.model_api.{ApiCompatibilityChecker, DataGenerator}
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -52,6 +52,9 @@ trait ServingManagementService {
   def generateModelPayload(modelName: String, modelVersion: String): Future[Seq[Any]]
 
   def generateModelPayload(modelName: String): Future[Seq[Any]]
+
+  def checkApplicationSchema(req: ApplicationCreateOrUpdateRequest): Future[Boolean]
+
 }
 
 class ServingManagementServiceImpl(
@@ -158,14 +161,14 @@ class ServingManagementServiceImpl(
   override def generateModelPayload(modelName: String, modelVersion: String): Future[Seq[Any]] = {
     modelServiceRepository.getLastModelServiceByModelNameAndVersion(modelName, modelVersion).map{
       case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
-      case Some(service) => List(new ApiGenerator(service.modelRuntime.inputFields).generate)
+      case Some(service) => List(DataGenerator(service.modelRuntime.inputFields).generate)
     }
   }
 
   override def generateModelPayload(modelName: String): Future[Seq[Any]] = {
     modelServiceRepository.getLastModelServiceByModelName(modelName).map{
       case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
-      case Some(service) => List(new ApiGenerator(service.modelRuntime.inputFields).generate)
+      case Some(service) => List(DataGenerator(service.modelRuntime.inputFields).generate)
     }
   }
 
@@ -178,4 +181,35 @@ class ServingManagementServiceImpl(
 
   override def getApplication(id: Long): Future[Option[Application]] =
     applicationRepository.get(id)
+
+  override def checkApplicationSchema(req: ApplicationCreateOrUpdateRequest): Future[Boolean] = {
+    val services = req.executionGraph.stages.map(_.services.map(_.serviceId))
+    val serviceStatuses = services.zip(services.tail).map{
+      case (a, b) =>
+        val compMat = checkStagesSchemas(a, b)
+        val stagesStatus = compMat.map(_.forall(sub => sub.forall(_ == true)))
+        stagesStatus
+    }
+    Future.sequence(serviceStatuses).map(_.forall(_ == true))
+  }
+
+  private def checkStagesSchemas(stageA: List[Long], stageB: List[Long]): Future[List[List[Boolean]]] = {
+    val servicesA = stageA.map(modelServiceRepository.get)
+    val servicesB = stageB.map(modelServiceRepository.get)
+
+    val results = servicesA.map{ fServiceA =>
+      servicesB.map{ fServiceB =>
+        fServiceA.zip(fServiceB).map{
+          case (Some(serviceA), Some(serviceB)) =>
+            checkServicesSchemas(serviceA, serviceB)
+        }
+      }
+    }
+    val r = results.map(x => Future.sequence(x))
+    Future.sequence(r)
+  }
+
+  private def checkServicesSchemas(modelServiceA: ModelService, modelServiceB: ModelService): Boolean = {
+    ApiCompatibilityChecker(modelServiceA.modelRuntime.inputFields).check(modelServiceB.modelRuntime.outputFields)
+  }
 }
