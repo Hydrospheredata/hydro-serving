@@ -1,8 +1,8 @@
-package io.hydrosphere.serving.manager.controller
+package io.hydrosphere.serving.controller
 
 import akka.http.scaladsl.model.{ContentTypes, HttpEntity, HttpResponse, StatusCodes}
-import akka.http.scaladsl.server._
 import akka.http.scaladsl.server.Directives._
+import akka.http.scaladsl.server._
 import io.hydrosphere.serving.connector.{ExecutionFailure, ExecutionResult, ExecutionSuccess}
 import org.apache.logging.log4j.scala.Logging
 
