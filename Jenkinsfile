@@ -148,9 +148,9 @@ node("JenkinsOnDemand") {
                      returnStdout: true
             ).trim()
             sh "docker tag hydrosphere/serving-manager:${curVersion} 060183668755.dkr.ecr.eu-central-1.amazonaws.com/serving-manager"
-            docker.withRegistry('https://060183668755.dkr.ecr.eu-central-1.amazonaws.com', 'ecr:eu-central-1:jenkins_aws') {
-              docker.image('060183668755.dkr.ecr.eu-central-1.amazonaws.com/serving-manager').push("${GIT_COMMIT}")
-            }
+          //  docker.withRegistry('https://060183668755.dkr.ecr.eu-central-1.amazonaws.com', 'ecr:eu-central-1:jenkins_aws') {
+            //  docker.image('060183668755.dkr.ecr.eu-central-1.amazonaws.com/serving-manager').push("${GIT_COMMIT}")
+            //}
         }
      }
 }
