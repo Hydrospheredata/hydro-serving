@@ -1,5 +1,8 @@
 package io.hydrosphere.serving.manager.service.modelfetcher.spark
 
+import io.hydrosphere.serving.manager.LocalModelSourceConfiguration
+import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
+import io.hydrosphere.serving.manager.service.modelsource.LocalModelSource
 import io.hydrosphere.serving.model_api._
 
 trait SparkMlTypeMapper {
@@ -155,7 +158,7 @@ object IDFMapper extends InputOutputMapper {
   override def outputType(sparkModelMetadata: SparkModelMetadata): FieldType = FMatrix.varvec(FDouble)
 }
 object Word2VecMapper extends InputOutputMapper {
-  def inputType(metadata: SparkModelMetadata): FieldType = FString
+  def inputType(metadata: SparkModelMetadata): FieldType = FMatrix.varvec(FString)
 
   def outputType(metadata: SparkModelMetadata): FieldType =
     FMatrix.vec(
