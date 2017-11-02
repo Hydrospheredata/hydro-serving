@@ -80,7 +80,7 @@ class ApplicationRepositoryImpl(
     ).map(s => s.map(ss => mapFromDb(ss)))
 }
 
-object ApplicationRepositoryImpl {
+object ApplicationRepositoryImpl extends CommonJsonSupport {
 
   import spray.json._
 
