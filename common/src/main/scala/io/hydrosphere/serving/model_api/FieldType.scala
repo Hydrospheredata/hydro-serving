@@ -1,4 +1,4 @@
-gipackage io.hydrosphere.serving.model_api
+package io.hydrosphere.serving.model_api
 
 trait FieldType {
   def accept[R](visitor: FieldType => R) = visitor(this)
