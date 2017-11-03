@@ -18,7 +18,8 @@ trait SourceManagementService {
   def createWatchers(context: ActorSystem): Future[Seq[ActorRef]]
 }
 
-class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)(implicit ex: ExecutionContext) extends SourceManagementService with Logging {
+class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)
+  (implicit ex: ExecutionContext) extends SourceManagementService with Logging {
 
   override def createWatchers(system: ActorSystem): Future[Seq[ActorRef]] =
     getSources.map(_.map { conf =>
