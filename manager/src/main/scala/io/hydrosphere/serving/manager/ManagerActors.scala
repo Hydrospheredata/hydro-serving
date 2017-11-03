@@ -16,6 +16,5 @@ class ManagerActors(managerServices: ManagerServices)(
 ) extends Logging {
 
   val repoActor = system.actorOf(RepositoryActor.props(managerServices.modelManagementService))
-
   val indexerActors: Seq[ActorRef] = Await.result(managerServices.sourceManagementService.createWatchers(system), 5.minutes)
 }
