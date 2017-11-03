@@ -12,7 +12,7 @@ class SourceConfigRepositoryImpl(config: ManagerConfiguration)(implicit ec: Exec
   val buffer = new ConcurrentLinkedQueue(config.modelSources)
 
   override def create(entity: ModelSourceConfiguration): Future[ModelSourceConfiguration] = {
-    Future({
+    Future.successful({
       buffer.add(entity)
       entity
     })
@@ -22,5 +22,5 @@ class SourceConfigRepositoryImpl(config: ManagerConfiguration)(implicit ec: Exec
 
   override def delete(id: Long): Future[Int] = ???
 
-  override def all(): Future[Seq[ModelSourceConfiguration]] = Future(buffer.toList)
+  override def all(): Future[Seq[ModelSourceConfiguration]] = Future.successful(buffer.toList)
 }

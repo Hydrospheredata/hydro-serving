@@ -173,8 +173,9 @@ class UIManagementServiceImpl(
       runtimes.headOption match {
         case None => throw new IllegalArgumentException("Can't find runtime for model")
         case Some(x) =>
-          runtimeManagementService.addService(createModelServiceRequest(x)).flatMap(res => {
-            waitForContainerStart(res).map(c => res)
+          runtimeManagementService.addService(createModelServiceRequest(x)).map(res => {
+            waitForContainerStart(res)
+            res
           })
       }
     })
@@ -189,12 +190,14 @@ class UIManagementServiceImpl(
 
   //TODO add /health url checking
   private def waitForContainerStart(service: ModelService): Future[Unit] = {
-    Future(Thread.sleep(10000L))
+    //Future(Thread.sleep(10000L))
+    Future.successful()
   }
 
   //TODO check instances
   private def waitForContainerStop(service: ModelService): Future[Unit] = {
-    Future(Thread.sleep(5000L))
+    //Future(Thread.sleep(5000L))
+    Future.successful()
   }
 
   override def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelInfo] =
