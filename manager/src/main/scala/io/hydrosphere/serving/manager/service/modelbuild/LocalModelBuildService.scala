@@ -9,30 +9,33 @@ import io.hydrosphere.serving.manager.model.ModelBuild
 import io.hydrosphere.serving.manager.service.SourceManagementService
 import org.apache.commons.io.FileUtils
 
+import scala.concurrent.{ExecutionContext, Future}
+
 /**
   *
   */
 class LocalModelBuildService(
   dockerClient: DockerClient,
   sourceManagementService: SourceManagementService
-) extends ModelBuildService {
+)(implicit val ex: ExecutionContext) extends ModelBuildService {
   private val modelDir = "model"
 
-  override def build(modelBuild: ModelBuild, imageName:String, script: String, progressHandler: ProgressHandler): String = {
-    val modelSource = sourceManagementService.getLocalPath(modelBuild.model.source)
-    val dockerFile = script.replaceAll("\\{" + SCRIPT_VAL_MODEL_PATH + "\\}", modelDir)
-      .replaceAll("\\{" + SCRIPT_VAL_MODEL_VERSION + "\\}", modelBuild.modelVersion)
-      .replaceAll("\\{" + SCRIPT_VAL_MODEL_NAME + "\\}", modelBuild.model.name)
-      .replaceAll("\\{" + SCRIPT_VAL_RUNTIME_IMAGE + "\\}", modelBuild.model.runtimeType.get.name)
-      .replaceAll("\\{" + SCRIPT_VAL_RUNTIME_VERSION + "\\}", modelBuild.model.runtimeType.get.version)
+  override def build(modelBuild: ModelBuild, imageName:String, script: String, progressHandler: ProgressHandler): Future[String] = {
+    sourceManagementService.getLocalPath(modelBuild.model.source).map { modelSource =>
+      val dockerFile = script.replaceAll("\\{" + SCRIPT_VAL_MODEL_PATH + "\\}", modelDir)
+        .replaceAll("\\{" + SCRIPT_VAL_MODEL_VERSION + "\\}", modelBuild.modelVersion)
+        .replaceAll("\\{" + SCRIPT_VAL_MODEL_NAME + "\\}", modelBuild.model.name)
+        .replaceAll("\\{" + SCRIPT_VAL_RUNTIME_IMAGE + "\\}", modelBuild.model.runtimeType.get.name)
+        .replaceAll("\\{" + SCRIPT_VAL_RUNTIME_VERSION + "\\}", modelBuild.model.runtimeType.get.version)
 
-    val tmpPath = Files.createTempDirectory(s"hydroserving-${modelBuild.id}")
-    try {
-      build(tmpPath, modelSource, dockerFile, progressHandler, modelBuild, imageName)
-    } catch {
-      case ex: Throwable =>
-        tmpPath.toFile.delete()
-        throw ex
+      val tmpPath = Files.createTempDirectory(s"hydroserving-${modelBuild.id}")
+      try {
+        build(tmpPath, modelSource, dockerFile, progressHandler, modelBuild, imageName)
+      } catch {
+        case ex: Throwable =>
+          tmpPath.toFile.delete()
+          throw ex
+      }
     }
   }
 
