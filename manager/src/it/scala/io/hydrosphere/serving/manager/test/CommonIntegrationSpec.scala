@@ -10,7 +10,7 @@ import com.spotify.docker.client.{DefaultDockerClient, DockerClient}
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
 import io.hydrosphere.serving.manager.service.clouddriver.RuntimeDeployService
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService}
-import io.hydrosphere.serving.manager.{ManagerConfiguration, ManagerRepositoriesConfig, ManagerServices}
+import io.hydrosphere.serving.manager.{ManagerConfiguration, ManagerConfigurationImpl, ManagerRepositoriesConfig, ManagerServices}
 import org.mockito
 import org.mockito.Mockito
 import org.scalactic.source.Position
@@ -62,7 +62,8 @@ class CommonIntegrationSpec extends TestKit(ActorSystem("testMasterService"))
   val configuration = originalConfiguration.copy(database =
     originalConfiguration.database.withValue(
       "jdbcUrl",
-      ConfigValueFactory.fromAnyRef(s"jdbc:postgresql://localhost:${container.mappedPort(5432)}/docker"))
+      ConfigValueFactory.fromAnyRef(s"jdbc:postgresql://localhost:${container.mappedPort(5432)}/docker")
+    )
   )
 
   val managerRepositories = new ManagerRepositoriesConfig(configuration)

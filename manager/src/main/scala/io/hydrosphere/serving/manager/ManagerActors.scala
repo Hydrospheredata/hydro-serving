@@ -12,9 +12,7 @@ import scala.concurrent.duration._
 /**
   *
   */
-class ManagerActors(
-  managerServices: ManagerServices
-)(
+class ManagerActors(managerServices: ManagerServices)(
   implicit val system: ActorSystem,
   implicit val materializer: ActorMaterializer
 ) extends Logging {
