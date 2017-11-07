@@ -23,6 +23,8 @@ class S3SourceWatcher(val source: S3ModelSource) extends SourceWatcher {
       .getMessages
     val msgBodies = messages.map(m => m -> m.getBody)
       .map { case (m, b) => m -> SQSMessage.fromJson(b) }
+      .filter { case (_, opt) => opt.isDefined }
+      .map { case (m, opt) => m -> opt.get }
       .filter { case (_, b) => b.bucket == source.configuration.bucket }
       .toMap
 
@@ -32,7 +34,7 @@ class S3SourceWatcher(val source: S3ModelSource) extends SourceWatcher {
           case "ObjectRemoved" =>
             log.debug(s"ObjectRemoved: ${info.objKey}")
             if (info.objKey.endsWith("/")) {
-              val files = source.cacheSource.getAllFiles(info.objKey).map{ f =>
+              val files = source.cacheSource.getAllFiles(info.objKey).map { f =>
                 new FileDeleted(source, info.objKey + f, Instant.now())
               }
               source.deleteProxyObject(info.objKey)
@@ -44,7 +46,7 @@ class S3SourceWatcher(val source: S3ModelSource) extends SourceWatcher {
           case "ObjectCreated" =>
             log.debug(s"ObjectCreated: ${info.objKey}")
             if (info.objKey.endsWith("/")) {
-              source.getAllFiles(info.objKey).map{ f =>
+              source.getAllFiles(info.objKey).map { f =>
                 val fullpath = info.objKey + f
                 source.deleteProxyObject(fullpath)
                 val file = source.downloadObject(fullpath)
@@ -76,21 +78,28 @@ object S3SourceWatcher{
   object SQSMessage extends CommonJsonSupport {
     import spray.json._
 
-    def fromJson(json: String): SQSMessage = {
-      val map = json.parseJson.convertTo[Map[String, Any]]
-      val record = map("Records").asInstanceOf[List[Map[String, Any]]].head
-      val s3Data = record("s3").asInstanceOf[Map[String, Any]]
-      val bucketData = s3Data("bucket").asInstanceOf[Map[String, Any]]
-      val bucketName = bucketData("name").asInstanceOf[String]
-      val objectData = s3Data("object").asInstanceOf[Map[String, Any]]
-      val objKey = objectData("key").asInstanceOf[String]
-
-      val eventName = record("eventName").asInstanceOf[String]
-      val eventTimeStr = record("eventTime").asInstanceOf[String]
-      val eventTime = LocalDateTime.ofInstant(Instant.parse(eventTimeStr), ZoneId.systemDefault())
-      SQSMessage(bucketName, objKey, eventName, eventTime)
+    def fromJson(json: String): Option[SQSMessage] = {
+      if(json.parseJson.asJsObject.fields.isEmpty) {
+        None
+      } else {
+        val map = json.parseJson.convertTo[Map[String, Any]]
+        for {
+          records <- map.get("Records")
+          record <- records.asInstanceOf[List[Map[String, Any]]].headOption
+          s3 <- record.get("s3")
+          s3Data = s3.asInstanceOf[Map[String, Any]]
+          bucketData <- s3Data.get("bucket")
+          bucketName <- bucketData.asInstanceOf[Map[String, Any]].get("name")
+          objectData <- s3Data.get("object")
+          objectKey <- objectData.asInstanceOf[Map[String, Any]].get("key")
+          eventName <- record.get("eventName")
+          eventTime <- record.get("eventTime")
+        } yield {
+          val eventLocalTime = LocalDateTime.ofInstant(Instant.parse(eventTime.toString), ZoneId.systemDefault())
+          SQSMessage(bucketName.toString, objectKey.toString, eventName.toString, eventLocalTime)
+        }
+      }
     }
-
   }
 
   def props(source: S3ModelSource)=
