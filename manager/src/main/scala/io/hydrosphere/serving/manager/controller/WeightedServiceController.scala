@@ -7,7 +7,7 @@ import akka.http.scaladsl.server.Directives.{complete, get, path}
 import akka.util.Timeout
 import io.hydrosphere.serving.controller.{ServingDataDirectives, TracingHeaders}
 import io.hydrosphere.serving.model.{ModelService, WeightedService}
-import io.hydrosphere.serving.manager.service.{ServeRequest, ServingManagementService, WeightedKey, WeightedServiceCreateOrUpdateRequest}
+import io.hydrosphere.serving.manager.service._
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
@@ -98,9 +98,10 @@ class WeightedServiceController(servingManagementService: ServingManagementServi
     }
   }
 
-  @Path("/serve")
+  @Path("/serve/{serviceId}")
   @ApiOperation(value = "Serve WeightedService", notes = "Serve WeightedService", nickname = "ServeWeightedService", httpMethod = "POST")
   @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "serviceId", required = true, dataType = "long", paramType = "path", value = "serviceId"),
     new ApiImplicitParam(name = "body", value = "Any", required = true, paramType = "body")
   ))
   @ApiResponses(Array(
@@ -123,11 +124,38 @@ class WeightedServiceController(servingManagementService: ServingManagementServi
     }
   }
 
+  @Path("/serveByName/{serviceName}")
+  @ApiOperation(value = "Serve WeightedService by name", notes = "Serve WeightedService by name", nickname = "ServeWeightedService by name", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "serviceName", required = true, dataType = "string", paramType = "path", value = "serviceName"),
+    new ApiImplicitParam(name = "body", value = "Any", required = true, paramType = "body")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Any"),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def serveServiceByName = path("api" / "v1" / "weightedServices" / "serveByName" / Segment) { name =>
+    post {
+      extractRequest { request =>
+        extractRawData { bytes =>
+          val serveRequest = ServeRequest(
+            serviceKey = WeightedName(name),
+            servePath = "/serve",
+            headers = request.headers.filter(h => TracingHeaders.isTracingHeaderName(h.name())),
+            inputData = bytes
+          )
+          completeExecutionResult(servingManagementService.serve(serveRequest))
+        }
+      }
+    }
+  }
+
   val routes =
     listAll ~
       create ~
       update ~
       deleteWeightedService ~
-      serveService
+      serveService ~
+      serveServiceByName
 
 }
