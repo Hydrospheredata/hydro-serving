@@ -10,6 +10,7 @@ import io.hydrosphere.serving.model.ModelService
 import org.apache.logging.log4j.scala.Logging
 
 import collection.JavaConversions._
+import scala.util.Try
 
 /**
   *
@@ -102,7 +103,9 @@ class EcsRuntimeDeployService(
       throw new RuntimeException(response.getFailures.toString)
     }
 
-    response.getServices.map(service => map(service))
+    response.getServices.map(service => Try(map(service)))
+      .filter(t => t.isSuccess)
+      .map(t => t.get)
   }
 
   private def map(service: Service): ServiceInfo = {
@@ -119,7 +122,10 @@ class EcsRuntimeDeployService(
   }
 
   override def service(serviceId: Long): Option[ServiceInfo] = {
-    findById(serviceId).map(service => map(service))
+    findById(serviceId)
+      .map(service => Try(map(service)))
+      .filter(t => t.isSuccess)
+      .flatMap(t => t.toOption)
   }
 
   private def findById(serviceId: Long): Option[Service] = {
@@ -215,7 +221,7 @@ class EcsRuntimeDeployService(
             ))
           } catch {
             case ex: Throwable =>
-              logger.error(s"Can't map container $container", ex)
+              logger.debug(s"Can't map container $container", ex)
               None
           }
         }).filter(o => o.nonEmpty).flatten
