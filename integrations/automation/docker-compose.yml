@@ -211,7 +211,7 @@ services:
         gelf-address: udp://172.16.0.38:12201
 
   manager-ui:
-    image: hydrosphere/serving-manager-ui:${manager_ui_version}
+    image: ${manager_ui_image}:${manager_ui_version}
     container_name: manager-ui
     ports:
       - "80:80"
@@ -228,7 +228,7 @@ services:
 
 
   manager:
-    image: hydrosphere/serving-manager:${manager_version}
+    image: ${manager_image}:${manager_version}
     container_name: manager
     ports:
       - "8080:8080"
