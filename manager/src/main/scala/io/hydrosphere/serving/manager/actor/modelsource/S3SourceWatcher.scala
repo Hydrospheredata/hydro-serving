@@ -79,19 +79,25 @@ object S3SourceWatcher{
     import spray.json._
 
     def fromJson(json: String): Option[SQSMessage] = {
-      val map = json.parseJson.convertTo[Map[String, Any]]
-      map.get("Records").map{ records =>
-        val record = records.asInstanceOf[List[Map[String, Any]]].head
-        val s3Data = record("s3").asInstanceOf[Map[String, Any]]
-        val bucketData = s3Data("bucket").asInstanceOf[Map[String, Any]]
-        val bucketName = bucketData("name").asInstanceOf[String]
-        val objectData = s3Data("object").asInstanceOf[Map[String, Any]]
-        val objKey = objectData("key").asInstanceOf[String]
-
-        val eventName = record("eventName").asInstanceOf[String]
-        val eventTimeStr = record("eventTime").asInstanceOf[String]
-        val eventTime = LocalDateTime.ofInstant(Instant.parse(eventTimeStr), ZoneId.systemDefault())
-        SQSMessage(bucketName, objKey, eventName, eventTime)
+      if(json.parseJson.asJsObject.fields.isEmpty) {
+        None
+      } else {
+        val map = json.parseJson.convertTo[Map[String, Any]]
+        for {
+          records <- map.get("Records")
+          record <- records.asInstanceOf[List[Map[String, Any]]].headOption
+          s3 <- record.get("s3")
+          s3Data = s3.asInstanceOf[Map[String, Any]]
+          bucketData <- s3Data.get("bucket")
+          bucketName <- bucketData.asInstanceOf[Map[String, Any]].get("name")
+          objectData <- s3Data.get("object")
+          objectKey <- objectData.asInstanceOf[Map[String, Any]].get("key")
+          eventName <- record.get("eventName")
+          eventTime <- record.get("eventTime")
+        } yield {
+          val eventLocalTime = LocalDateTime.ofInstant(Instant.parse(eventTime.toString), ZoneId.systemDefault())
+          SQSMessage(bucketName.toString, objectKey.toString, eventName.toString, eventLocalTime)
+        }
       }
     }
   }
