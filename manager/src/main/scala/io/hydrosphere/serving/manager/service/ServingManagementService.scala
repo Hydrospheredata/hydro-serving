@@ -158,6 +158,9 @@ class ServingManagementServiceImpl(
       case WeightedKey(id) =>
         val f = getWeightedService(id)
         f.flatMap(w => buildStages(w, s"Can't find WeightedService with id: $id"))
+      case WeightedName(name) =>
+        val f = weightedServiceRepository.getByName(name)
+        f.flatMap(w => buildStages(w, s"Can't find WeightedService with name: $name"))
       case ModelById(id) =>
         val f = modelServiceRepository.get(id)
         f.flatMap(m => buildStages(m, s"Can't find model with id: $id"))

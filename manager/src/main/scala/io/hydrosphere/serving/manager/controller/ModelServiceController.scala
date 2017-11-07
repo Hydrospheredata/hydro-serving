@@ -138,7 +138,7 @@ class ModelServiceController(
     }
   }
 
-  @Path("/serve")
+  @Path("/serveByModelId/{modelId}")
   @ApiOperation(value = "Serve ModelService", notes = "Serve ModelService", nickname = "ServeModelService", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "modelId", required = true, dataType = "string", paramType = "path", value = "modelId"),
@@ -148,7 +148,7 @@ class ModelServiceController(
     new ApiResponse(code = 200, message = "Any"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def serveService = path("api" / "v1" / "modelService" / "serve" / LongNumber) { id =>
+  def serveService = path("api" / "v1" / "modelService" / "serveByModelId" / LongNumber) { id =>
     post {
       extractRequest { request =>
         extractRawData { bytes =>
