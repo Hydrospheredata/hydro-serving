@@ -55,12 +55,13 @@ class HttpRuntimeMeshConnector(config: SidecarConfig)(
     }
 
   private def execute(runtimeName: String, runtimePath: String, headers: Seq[HttpHeader], json: Array[Byte]): Future[ExecutionResult] = {
-    val source = Source.single(HttpRequest(
+    val httpRequest=HttpRequest(
       uri = runtimePath,
       method = HttpMethods.POST,
       entity = HttpEntity.apply(ContentTypes.`application/json`, json),
       headers = collection.immutable.Seq(headers: _*) :+ Host.apply(runtimeName)
-    ))
+    )
+    val source = Source.single(httpRequest)
     source.via(flow).runWith(Sink.head)
   }
 

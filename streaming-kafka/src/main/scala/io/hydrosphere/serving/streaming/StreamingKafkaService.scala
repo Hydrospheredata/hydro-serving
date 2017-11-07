@@ -55,7 +55,7 @@ class StreamingKafkaService(
 
   //question - we only expect json objects here?
   private def mapAndSend(messages: Seq[CommittableMessage[String, String]]): Future[ExecutionResult] = {
-    val batch = messages.map(m => m.record).mkString("[", ",", "]")
+    val batch = messages.map(m => m.record.value()).mkString("[", ",", "]")
     val cmd = ExecutionCommand(
       json = batch.getBytes,
       headers = Seq(),
@@ -64,7 +64,6 @@ class StreamingKafkaService(
         servicePath = "/serve"
       ))
     )
-    logger.info(s"TRY INVOKE: $cmd $batch")
     runtimeMeshConnector.execute(cmd)
   }
 
