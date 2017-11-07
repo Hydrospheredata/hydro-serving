@@ -100,7 +100,7 @@
   },
   "Parameters": {
     "ecsClusterTargetCapacity": {
-      "Default": 2,
+      "Default": 1,
       "Description": "Number of EC2 Spot instances to initially launch in the ECS cluster",
       "Type": "Number"
     },
@@ -624,7 +624,7 @@
                 }
               }
             ],
-            "Image": "060183668755.dkr.ecr.eu-west-1.amazonaws.com/manager:0.0.1",
+            "Image": "hydrosphere/serving-manager:0.0.17",
             "MemoryReservation": 256
           }
         ],
@@ -948,7 +948,7 @@
                 }
               }
             ],
-            "Image": "hydrosphere/serving-manager-ui:0.0.12",
+            "Image": "hydrosphere/serving-manager-ui:0.0.14",
             "MemoryReservation": 128
           }
         ],
