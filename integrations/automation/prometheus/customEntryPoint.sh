@@ -16,6 +16,21 @@ scrape_configs:
   - job_name: 'prometheus'
     static_configs:
       - targets: ['localhost:9090']
+  - job_name: 'node'
+    scrape_interval: 10s
+    scrape_timeout: 5s
+    static_configs:
+      - targets: ['nodeexporter:9100']
+        labels: {'host': 'host1'}
+  - job_name: 'containers'
+    scrape_interval: 10s
+    scrape_timeout: 5s
+    static_configs:
+      - targets: ['cadvisor:8080']
+        labels: {'host': 'host1'}
+  - job_name: 'kafka'
+    static_configs:
+      - targets: ['kafka:1100']
   - job_name: 'overwritten-default'
     file_sd_configs:
       - files: ['/var/targets/*.json']

@@ -6,6 +6,7 @@ object Dependencies {
   val hadoopVersion = "2.8.0"
   val log4j2Version = "2.8.2"
   val slickVersion = "3.2.0"
+  val slickPgVersion = "0.15.3"
   val postgresqlVersion = "42.1.3"
   val scalaTestVersion = "3.0.3"
 
@@ -63,8 +64,9 @@ object Dependencies {
   lazy val codegenDependencies = commonDependencies
     .union(Seq(
       "org.postgresql" % "postgresql" % postgresqlVersion,
-      "com.github.tminglei" %% "slick-pg" % "0.15.1",
-      "com.typesafe.slick" %% "slick-codegen" % slickVersion
+      "com.github.tminglei" %% "slick-pg" % slickPgVersion,
+      "com.typesafe.slick" %% "slick-codegen" % slickVersion,
+      "com.github.tminglei" %% "slick-pg_spray-json" % slickPgVersion
     ))
 
   lazy val hydroServingManagerDependencies = commonDependencies

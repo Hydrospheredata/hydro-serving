@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.service
 
 import io.hydrosphere.serving.manager.test.CommonIntegrationSpec
+import io.hydrosphere.serving.model_api._
 import org.scalactic.source.Position
 import org.scalatest.{BeforeAndAfter, BeforeAndAfterEach}
 
@@ -28,8 +29,8 @@ class ModelManagementServiceITSpec extends CommonIntegrationSpec with BeforeAndA
         "source",
         runtimeTypeId = Some(1000),
         description = Some("SSS"),
-        outputFields = Some(List("output")),
-        inputFields = Some(List("input"))
+        outputFields = Some(DataFrame(List(ModelField.untyped("output")))),
+        inputFields = Some(DataFrame(List(ModelField.untyped("input"))))
       )
       val f = managerServices.modelManagementService.createModel(request).map(model => {
         assert(model.runtimeType.isDefined && model.runtimeType.get.id == request.runtimeTypeId.get)

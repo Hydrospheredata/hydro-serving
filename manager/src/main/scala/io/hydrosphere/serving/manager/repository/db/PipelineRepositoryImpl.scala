@@ -10,7 +10,7 @@ import scala.concurrent.{ExecutionContext, Future}
 /**
   *
   */
-class PipelineRepositoryImpl(databaseService: DatabaseService)(implicit executionContext: ExecutionContext)
+class PipelineRepositoryImpl(implicit executionContext: ExecutionContext, databaseService: DatabaseService)
   extends PipelineRepository with Logging {
 
   import databaseService._
