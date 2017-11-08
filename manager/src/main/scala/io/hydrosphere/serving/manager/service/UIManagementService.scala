@@ -183,7 +183,8 @@ class UIManagementServiceImpl(
     CreateModelServiceRequest(
       serviceName = s"${x.modelName}_${x.modelVersion}".replaceAll("\\.", "-"),
       modelRuntimeId = x.id,
-      configParams = None
+      configParams = None,
+      environmentId = None
     )
   }
 
@@ -219,7 +220,8 @@ class UIManagementServiceImpl(
     runtimeManagementService.addService(CreateModelServiceRequest(
       serviceName = UUID.randomUUID().toString,
       modelRuntimeId = runtimeId,
-      configParams = Option(configs)
+      configParams = Option(configs),
+      environmentId = None
     )).flatMap(kafkaService => {
       servingManagementService.updateWeightedServices(
         WeightedServiceCreateOrUpdateRequest(

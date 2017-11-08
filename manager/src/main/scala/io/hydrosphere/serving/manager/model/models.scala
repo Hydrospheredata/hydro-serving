@@ -76,3 +76,13 @@ case class ModelServiceInstance(
 class UnknownModelRuntime extends ModelRuntime(
   -1, "", "", "", "", "", None, None, DataFrame(List.empty), DataFrame(List.empty), LocalDateTime.now(), None, Map(), List()
 )
+
+case class ServingEnvironment(
+  id: Long,
+  name: String,
+  placeholders: Seq[Any]
+)
+
+class AnyServingEnvironment extends ServingEnvironment(
+  -1, "any", Seq()
+)

@@ -1,8 +1,8 @@
 package io.hydrosphere.serving.manager.service
 
-import io.hydrosphere.serving.manager.model.{ModelServiceInstance, UnknownModelRuntime}
+import io.hydrosphere.serving.manager.model.{ModelServiceInstance, ServingEnvironment, UnknownModelRuntime}
 import io.hydrosphere.serving.model.{ModelRuntime, ModelService}
-import io.hydrosphere.serving.manager.repository.{ModelRuntimeRepository, ModelServiceRepository}
+import io.hydrosphere.serving.manager.repository.{ModelRuntimeRepository, ModelServiceRepository, ServingEnvironmentRepository}
 import io.hydrosphere.serving.manager.service.clouddriver.{RuntimeDeployService, ServiceInfo}
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -10,7 +10,8 @@ import scala.concurrent.{ExecutionContext, Future}
 case class CreateModelServiceRequest(
   serviceName: String,
   modelRuntimeId: Long,
-  configParams: Option[Map[String, String]]
+  configParams: Option[Map[String, String]],
+  environmentId: Option[Long]
 ) {
   def toModelService(runtime: ModelRuntime): ModelService = {
     ModelService(
@@ -20,7 +21,21 @@ case class CreateModelServiceRequest(
       modelRuntime = runtime,
       status = None,
       statusText = None,
+      environmentId = this.environmentId,
       configParams = runtime.configParams ++ this.configParams.getOrElse(Map())
+    )
+  }
+}
+
+case class CreateServingEnvironment(
+  name: String,
+  placeholders: Seq[Any]
+) {
+  def toServingEnvironment(): ServingEnvironment = {
+    ServingEnvironment(
+      name = this.name,
+      placeholders = this.placeholders,
+      id = 0
     )
   }
 }
@@ -49,13 +64,20 @@ trait RuntimeManagementService {
 
   def getServicesByRuntimes(runtimeId: Seq[Long]): Future[Seq[ModelService]]
 
+  def allServingEnvironments(): Future[Seq[ServingEnvironment]]
+
+  def createServingEnvironment(r: CreateServingEnvironment): Future[ServingEnvironment]
+
+  def deleteServingEnvironment(environmentId: Long): Future[Unit]
+
 }
 
 //TODO ADD cache
 class RuntimeManagementServiceImpl(
   runtimeDeployService: RuntimeDeployService,
   modelServiceRepository: ModelServiceRepository,
-  modelRuntimeRepository: ModelRuntimeRepository
+  modelRuntimeRepository: ModelRuntimeRepository,
+  servingEnvironmentRepository: ServingEnvironmentRepository
 )(implicit val ex: ExecutionContext) extends RuntimeManagementService {
 
   override def allServices(): Future[Seq[ModelService]] =
@@ -75,7 +97,10 @@ class RuntimeManagementServiceImpl(
           this.mapServiceInfo(info, GATEWAY_NAME, Map())
         case _ =>
           seqInDatabase.find(s => s.serviceId == info.id) match {
-            case Some(s) => s.copy(configParams = s.configParams ++ info.configParams)
+            case Some(s) => s.copy(
+              configParams = s.configParams ++ info.configParams,
+              environmentId = s.environmentId
+            )
             case None => this.mapServiceInfo(info, info.name, Map())
           }
       }
@@ -88,6 +113,7 @@ class RuntimeManagementServiceImpl(
       serviceName = serviceName,
       cloudDriverId = Some(info.cloudDriveId),
       modelRuntime = new UnknownModelRuntime,
+      environmentId = None,
       status = Some(info.status),
       statusText = Some(info.status),
       configParams = configs ++ info.configParams
@@ -96,19 +122,30 @@ class RuntimeManagementServiceImpl(
   override def instancesForService(serviceId: Long): Future[Seq[ModelServiceInstance]] =
     Future(runtimeDeployService.serviceInstances(serviceId))
 
+  private def fetchPlaceholders(environmentId: Option[Long]): Future[Seq[Any]] = {
+    environmentId match {
+      case Some(x) => servingEnvironmentRepository.get(x)
+        .map(s => s.getOrElse({
+          throw new IllegalArgumentException(s"Can't find ServingEnvironment with id=$x")
+        }).placeholders)
+      case None => Future.successful(Seq())
+    }
+  }
 
   override def addService(r: CreateModelServiceRequest): Future[ModelService] = {
     //if(r.serviceName) throw new IllegalArgumentException
     //TODO ADD validation for names manager,gateway + length + without space and special symbols
-    modelRuntimeRepository.get(r.modelRuntimeId).flatMap({
-      case None => throw new IllegalArgumentException(s"Can't find ModelRuntime with id=${r.modelRuntimeId}")
-      case runtime => modelServiceRepository.create(r.toModelService(runtime.get)).flatMap(s =>
-        Future(
-          s.copy(cloudDriverId = Some(runtimeDeployService.deploy(s)))
-        ).flatMap(service =>
-          modelServiceRepository.updateCloudDriveId(service.serviceId, service.cloudDriverId)
-            .map(_ => service))
-      )
+    fetchPlaceholders(r.environmentId).flatMap(pl => {
+      modelRuntimeRepository.get(r.modelRuntimeId).flatMap({
+        case None => throw new IllegalArgumentException(s"Can't find ModelRuntime with id=${r.modelRuntimeId}")
+        case runtime => modelServiceRepository.create(r.toModelService(runtime.get)).flatMap(s =>
+          Future(
+            s.copy(cloudDriverId = Some(runtimeDeployService.deploy(s, pl)))
+          ).flatMap(service =>
+            modelServiceRepository.updateCloudDriveId(service.serviceId, service.cloudDriverId)
+              .map(_ => service))
+        )
+      })
     })
   }
 
@@ -137,7 +174,10 @@ class RuntimeManagementServiceImpl(
           case _ =>
             modelServiceRepository.get(serviceId).map({
               case Some(service) =>
-                Some(service.copy(status = Some(info.status), statusText = Some(info.statusText)))
+                Some(service.copy(
+                  status = Some(info.status),
+                  statusText = Some(info.statusText))
+                )
               case _ => throw new IllegalArgumentException(s"Can't find service with id $serviceId")
             })
         }
@@ -157,4 +197,13 @@ class RuntimeManagementServiceImpl(
 
   override def getServicesByRuntimes(runtimeIds: Seq[Long]): Future[Seq[ModelService]] =
     allServices().map(s => s.filter(service => runtimeIds.contains(service.modelRuntime.id)))
+
+  override def allServingEnvironments(): Future[Seq[ServingEnvironment]] =
+    servingEnvironmentRepository.all()
+
+  override def createServingEnvironment(r: CreateServingEnvironment): Future[ServingEnvironment] =
+    servingEnvironmentRepository.create(r.toServingEnvironment())
+
+  override def deleteServingEnvironment(environmentId: Long): Future[Unit] =
+    servingEnvironmentRepository.delete(environmentId).map(p => Unit)
 }

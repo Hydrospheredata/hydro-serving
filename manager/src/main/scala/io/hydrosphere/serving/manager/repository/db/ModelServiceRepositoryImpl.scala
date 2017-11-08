@@ -26,6 +26,7 @@ class ModelServiceRepositoryImpl(implicit executionContext: ExecutionContext, da
         entity.serviceName,
         entity.cloudDriverId,
         entity.modelRuntime.id,
+        entity.environmentId,
         entity.status,
         entity.statusText,
         entity.configParams.map { case (k, v) => s"$k=$v" }.toList
@@ -173,6 +174,7 @@ object ModelServiceRepositoryImpl {
       serviceName = model.serviceName,
       cloudDriverId = model.cloudDriverId,
       modelRuntime = modelRuntime.getOrElse(throw new RuntimeException("Can't find ModelRuntime for service")),
+      environmentId = model.environmentId,
       status = model.status,
       statusText = model.statustext,
       configParams = model.configParams.map(s => {

@@ -34,6 +34,7 @@ case class ModelService(
   serviceName: String,
   cloudDriverId: Option[String],
   modelRuntime: ModelRuntime,
+  environmentId: Option[Long],
   status: Option[String],
   statusText: Option[String],
   configParams: Map[String, String]
