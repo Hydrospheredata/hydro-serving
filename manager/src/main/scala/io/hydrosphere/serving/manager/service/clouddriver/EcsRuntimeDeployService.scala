@@ -29,9 +29,9 @@ class EcsRuntimeDeployService(
     .build()
 
 
-  override def deploy(runtime: ModelService): String = {
+  override def deploy(runtime: ModelService, placeholders: Seq[Any]): String = {
     val taskDefinition = createTaskDefinition(runtime)
-    createService(runtime, taskDefinition).getServiceArn
+    createService(runtime, taskDefinition, placeholders).getServiceArn
   }
 
   private def createTaskDefinition(runtime: ModelService): TaskDefinition = {
@@ -81,11 +81,12 @@ class EcsRuntimeDeployService(
       .getTaskDefinition
   }
 
-  private def createService(runtime: ModelService, taskDefinition: TaskDefinition): Service = {
+  private def createService(runtime: ModelService, taskDefinition: TaskDefinition, placeholders: Seq[Any]): Service = {
     val createService = new CreateServiceRequest()
       .withDesiredCount(1)
       .withCluster(ecsCloudDriverConfiguration.cluster)
       .withTaskDefinition(taskDefinition.getTaskDefinitionArn)
+        //TODO .withPlacementConstraints()
       .withServiceName(s"${runtime.serviceName}_${runtime.serviceId}")
 
     ecsClient.createService(createService).getService

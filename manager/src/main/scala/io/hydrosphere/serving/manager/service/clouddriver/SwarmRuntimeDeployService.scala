@@ -18,7 +18,7 @@ class SwarmRuntimeDeployService(
   managerConfiguration: ManagerConfiguration
 ) extends RuntimeDeployService with Logging {
 
-  override def deploy(runtime: ModelService): String = {
+  override def deploy(runtime: ModelService, placeholders: Seq[Any]): String = {
     val conf = managerConfiguration.cloudDriver.asInstanceOf[SwarmCloudDriverConfiguration]
 
     val labels = Map[String, String](
