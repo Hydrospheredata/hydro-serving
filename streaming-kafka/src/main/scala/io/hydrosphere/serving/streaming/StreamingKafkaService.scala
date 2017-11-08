@@ -1,141 +1,80 @@
 package io.hydrosphere.serving.streaming
 
+import akka.Done
 import akka.actor.ActorSystem
 import akka.kafka.ConsumerMessage.{CommittableMessage, CommittableOffset, CommittableOffsetBatch}
 import akka.kafka.scaladsl.{Consumer, Producer}
 import akka.kafka.{ConsumerSettings, ProducerMessage, ProducerSettings, Subscriptions}
-import akka.stream.ActorMaterializer
-import akka.stream.scaladsl.Sink
-import io.hydrosphere.serving.connector._
-import io.hydrosphere.serving.model.CommonJsonSupport
+import akka.stream._
+import akka.stream.scaladsl.{Broadcast, GraphDSL, Keep, Merge, RunnableGraph, Sink}
 import org.apache.kafka.clients.consumer.ConsumerConfig
 import org.apache.kafka.clients.producer.ProducerRecord
 import org.apache.kafka.common.serialization.{StringDeserializer, StringSerializer}
-import spray.json._
 
 import scala.concurrent.Future
 import scala.concurrent.duration._
-import scala.util.{Failure, Success}
 
-case class ErrorConsumerRecord(
-  topic: String,
-  partition: Int,
-  offset: Long,
-  key: Option[String],
-  value: Option[String]
+case class BatchServingResult(
+  records: Seq[ProducerMessage.Message[String, String, Unit]],
+  processedOffsets: Seq[CommittableOffset]
 )
 
-case class ErrorMessages(
-  records: Seq[ErrorConsumerRecord],
-  message: String
-)
+object StreamingKafkaService {
 
-/**
-  *
-  */
-class StreamingKafkaService(
-  streamingKafkaConfiguration: StreamingKafkaConfiguration
-)(
-  implicit val system: ActorSystem,
-  implicit val materializer: ActorMaterializer
-) extends CommonJsonSupport {
-  private implicit val executionContext = system.dispatcher
+  def produceAndCommit(settings: ProducerSettings[String, String]): Sink[BatchServingResult, Future[Done]] = {
+    Sink.fromGraph(GraphDSL.create(Sink.ignore){ implicit b => sink =>
+      import GraphDSL.Implicits._
 
-  private implicit val errorConsumerRecord = jsonFormat5(ErrorConsumerRecord)
-  private implicit val errorMessages = jsonFormat2(ErrorMessages)
+      val broadcast = b.add(Broadcast[BatchServingResult](2))
+      val push = broadcast.out(0)
+        .mapConcat(_.records.toList)
+        .via(Producer.flow(settings))
 
-  private val runtimeMeshConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector(streamingKafkaConfiguration.sidecar)
+      val commit = broadcast.out(1)
+        .map(r => {
+          r.processedOffsets.foldLeft(CommittableOffsetBatch.empty) {(batch, elem) => batch.updated(elem)}
+        })
+        .mapAsync(3)(_.commitScaladsl())
 
-  private val destinationTopic = streamingKafkaConfiguration.streaming.destinationTopic
+      val merge = b.add(Merge[Any](2))
 
-  private val consumerSettings = ConsumerSettings(system, new StringDeserializer, new StringDeserializer)
-    .withProperty(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "latest")
+      push ~> merge.in(0)
+      commit ~> merge.in(1)
 
-  private val producerSettings = ProducerSettings(system, new StringSerializer, new StringSerializer)
+      merge ~> sink.in
 
-  //question - we only expect json objects here?
-  private def mapAndSend(messages: Seq[CommittableMessage[String, String]]): Future[ExecutionResult] = {
-    val batch = messages.map(m => m.record.value()).mkString("[", ",", "]")
-    val cmd = ExecutionCommand(
-      json = batch.getBytes,
-      headers = Seq(),
-      pipe = Seq(ExecutionUnit(
-        serviceName = streamingKafkaConfiguration.streaming.processorRoute,
-        servicePath = "/serve"
-      ))
-    )
-    runtimeMeshConnector.execute(cmd)
-  }
-
-  private def onFailure(
-    throwable: String,
-    messages: Seq[CommittableMessage[String, String]]
-  ): Future[ProducerMessage.Message[String, String, Seq[CommittableOffset]]] = {
-
-    Future({
-      val errors = messages.map(m => {
-        import m.record._
-        ErrorConsumerRecord(
-          topic = topic(),
-          partition = partition(),
-          offset = offset(),
-          key = Option(key()),
-          value = Option(value())
-        )
-      })
-
-      val errMessages = ErrorMessages(errors, throwable)
-      ProducerMessage.Message(
-        record = new ProducerRecord[String, String](destinationTopic, errMessages.toJson.compactPrint),
-        passThrough = messages.map(_.committableOffset)
-      )
+      SinkShape(broadcast.in)
     })
   }
 
-  private def mapResult(
-    executionResult: ExecutionResult,
-    messages: Seq[CommittableMessage[String, String]]): Future[ProducerMessage.Message[String, String, Seq[CommittableOffset]]] = {
+  /**
+    * Main entry to start kafka serving
+    */
+  def kafkaStream(topicIn: String, topicOut: String, serving: ServingProcessor)
+      (implicit sys: ActorSystem, mat: ActorMaterializer): RunnableGraph[Future[Done]] = {
 
-    executionResult match {
-      case ExecutionFailure(err, _) => Future.failed(new RuntimeException(err))
-      case ExecutionSuccess(json) =>
-        messages.map(m => m.committableOffset)
-        val message = ProducerMessage.Message(
-          record = new ProducerRecord[String, String](streamingKafkaConfiguration.streaming.destinationTopic, new String(json)),
-          passThrough = messages.map(_.committableOffset)
-        )
-        Future.successful(message)
-    }
-  }
+    implicit val ec = sys.dispatcher
 
-  //TODO exception handling
-  private def sendMessageToMesh(
-    messages: Seq[CommittableMessage[String, String]]
-  ): Future[ProducerMessage.Message[String, String, Seq[CommittableOffset]]] = {
-    mapAndSend(messages).flatMap(
-      sentData => mapResult(sentData, messages)
-    ) recoverWith {
-      case e: Throwable =>
-        logger.error(e)
-        onFailure(e.getMessage, messages)
-    }
-  }
+    val consumerSettings = ConsumerSettings(sys, new StringDeserializer, new StringDeserializer)
+      .withProperty(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "latest")
 
-  private val done =
-    Consumer.committableSource(consumerSettings, Subscriptions.topics(streamingKafkaConfiguration.streaming.sourceTopic))
-      .groupedWithin(20, 500 millisecond)
-      .mapAsync(3)(dd => sendMessageToMesh(dd))
-      .via(Producer.flow(producerSettings))
-      .map(m => {
-        val offsets = m.message.passThrough
-        offsets.foldLeft(CommittableOffsetBatch.empty) { (batch, elem) => batch.updated(elem) }
+    val producerSettings = ProducerSettings(sys, new StringSerializer, new StringSerializer)
+
+    def serve(messages: Seq[CommittableMessage[String, String]]): Future[BatchServingResult] = {
+      val input = messages.map(_.record.value())
+
+      serving.serve(input).map(output => {
+        val records = output.map(data => ProducerMessage.Message[String, String, Unit](
+          record = new ProducerRecord[String, String](topicOut, data),
+          passThrough = ()
+        ))
+        BatchServingResult(records, messages.map(_.committableOffset))
       })
-      .mapAsync(3)(_.commitScaladsl())
-      .runWith(Sink.ignore)
-      .onComplete {
-        case Failure(e) =>
-          system.log.error(e, e.getMessage)
-          system.terminate()
-        case Success(_) => system.terminate()
-      }
+    }
+
+    Consumer.committableSource(consumerSettings, Subscriptions.topics(topicIn))
+      .groupedWithin(20, 500 millisecond)
+      .mapAsync(3)(serve)
+      .toMat(produceAndCommit(producerSettings))(Keep.right)
+  }
 }
