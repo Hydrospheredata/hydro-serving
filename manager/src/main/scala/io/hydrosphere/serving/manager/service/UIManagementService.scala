@@ -86,7 +86,7 @@ trait UIManagementService {
 
   def testModel(modelId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
 
-  def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelInfo]
+  def buildModel(modelId: Long, modelVersion: Option[String], environmentId:Option[Long]): Future[ModelInfo]
 
   def modelRuntimes(modelId: Long): Future[Seq[UIRuntimeInfo]]
 }
@@ -159,7 +159,7 @@ class UIManagementServiceImpl(
   override def testModel(modelId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
     modelServiceRepository.getByModelIds(Seq(modelId)).flatMap(services => {
       val serviceFuture = services.headOption match {
-        case None => startAndWaitService(modelId)
+        case None => startAndWaitService(modelId, None)
         case Some(x) => Future.successful(x)
       }
       serviceFuture.flatMap(service => {
@@ -168,23 +168,23 @@ class UIManagementServiceImpl(
     })
 
 
-  private def startAndWaitService(modelId: Long): Future[ModelService] =
+  private def startAndWaitService(modelId: Long, environmentId:Option[Long]): Future[ModelService] =
     modelRuntimeRepository.lastModelRuntimeByModel(modelId, 1).flatMap(runtimes => {
       runtimes.headOption match {
         case None => throw new IllegalArgumentException("Can't find runtime for model")
         case Some(x) =>
-          runtimeManagementService.addService(createModelServiceRequest(x)).flatMap(res => {
+          runtimeManagementService.addService(createModelServiceRequest(x, environmentId)).flatMap(res => {
             waitForContainerStart(res).map(c => res)
           })
       }
     })
 
-  private def createModelServiceRequest(x:ModelRuntime):CreateModelServiceRequest={
+  private def createModelServiceRequest(x:ModelRuntime, environmentId:Option[Long]):CreateModelServiceRequest={
     CreateModelServiceRequest(
       serviceName = s"${x.modelName}_${x.modelVersion}".replaceAll("\\.", "-"),
       modelRuntimeId = x.id,
       configParams = None,
-      environmentId = None
+      environmentId = environmentId
     )
   }
 
@@ -198,9 +198,9 @@ class UIManagementServiceImpl(
     Future(Thread.sleep(5000L))
   }
 
-  override def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelInfo] =
+  override def buildModel(modelId: Long, modelVersion: Option[String], environmentId:Option[Long]): Future[ModelInfo] =
     modelManagementService.buildModel(modelId, modelVersion).flatMap(runtime => {
-      runtimeManagementService.addService(createModelServiceRequest(runtime)).flatMap(_ => modelWithLastStatus(modelId).map(o => o.get))
+      runtimeManagementService.addService(createModelServiceRequest(runtime, environmentId)).flatMap(_ => modelWithLastStatus(modelId).map(o => o.get))
     })
 
   private def getDefaultKafkaImplementation(): Future[Option[ModelRuntime]] = {
@@ -304,7 +304,7 @@ class UIManagementServiceImpl(
   private def createServiceForRuntime(runtimeId: Long, runtimeToService: Map[Long, Long]): Future[Map[Long, Long]] = {
     modelRuntimeRepository.get(runtimeId).flatMap {
       case None => throw new IllegalArgumentException(s"Can't find runtime with id=$runtimeId")
-      case Some(x) => runtimeManagementService.addService(createModelServiceRequest(x)).map(ser => {
+      case Some(x) => runtimeManagementService.addService(createModelServiceRequest(x, None)).map(ser => {
         runtimeToService + (runtimeId -> ser.serviceId)
       })
     }
