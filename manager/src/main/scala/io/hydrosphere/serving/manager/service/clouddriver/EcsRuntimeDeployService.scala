@@ -6,7 +6,7 @@ import com.amazonaws.services.ecs.model._
 import com.amazonaws.services.ecs.{AmazonECS, AmazonECSClientBuilder}
 import io.hydrosphere.serving.manager.{ECSCloudDriverConfiguration, ManagerConfiguration}
 import io.hydrosphere.serving.manager.model.{ModelServiceInstance, ModelServiceInstanceStatus}
-import io.hydrosphere.serving.model.ModelService
+import io.hydrosphere.serving.model.{CommonJsonSupport, ModelService}
 import org.apache.logging.log4j.scala.Logging
 
 import collection.JavaConversions._
@@ -18,7 +18,9 @@ import scala.util.Try
 class EcsRuntimeDeployService(
   ecsCloudDriverConfiguration: ECSCloudDriverConfiguration,
   managerConfiguration: ManagerConfiguration
-) extends RuntimeDeployService with Logging {
+) extends RuntimeDeployService with Logging with CommonJsonSupport{
+
+  import spray.json._
 
   val ecsClient: AmazonECS = AmazonECSClientBuilder.standard()
     .withRegion(ecsCloudDriverConfiguration.region)
@@ -81,13 +83,28 @@ class EcsRuntimeDeployService(
       .getTaskDefinition
   }
 
+  private def getField(jsObject: JsObject, fieldName: String): String = {
+    jsObject.getFields(fieldName)
+      .headOption
+      .getOrElse(throw new IllegalArgumentException(s"Can't find field '$fieldName' in $jsObject"))
+      .toString()
+  }
+
   private def createService(runtime: ModelService, taskDefinition: TaskDefinition, placeholders: Seq[Any]): Service = {
     val createService = new CreateServiceRequest()
       .withDesiredCount(1)
       .withCluster(ecsCloudDriverConfiguration.cluster)
       .withTaskDefinition(taskDefinition.getTaskDefinitionArn)
-        //TODO .withPlacementConstraints()
       .withServiceName(s"${runtime.serviceName}_${runtime.serviceId}")
+
+    if (placeholders.nonEmpty) {
+      createService.withPlacementConstraints(placeholders.map(p => {
+        val jsObject = p.toJson.asJsObject
+        new PlacementConstraint()
+          .withType(getField(jsObject, "type"))
+          .withExpression(getField(jsObject, "expression"))
+      }))
+    }
 
     ecsClient.createService(createService).getService
   }
