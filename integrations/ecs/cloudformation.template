@@ -15,37 +15,40 @@
     },
     "ecsOptimizedAmi": {
       "ap-northeast-1": {
-        "AMI": "ami-21815747"
+        "AMI": "ami-95903df3"
+      },
+      "ap-northeast-2": {
+        "AMI": "ami-70d0741e"
       },
       "ap-southeast-1": {
-        "AMI": "ami-99f588fa"
+        "AMI": "ami-c8c98bab"
       },
       "ap-southeast-2": {
-        "AMI": "ami-4f08e82d"
+        "AMI": "ami-e3b75981"
       },
       "ca-central-1": {
-        "AMI": "ami-9b54edff"
+        "AMI": "ami-fc5fe798"
       },
       "eu-central-1": {
-        "AMI": "ami-40d5672f"
+        "AMI": "ami-ebfb7e84"
       },
       "eu-west-1": {
-        "AMI": "ami-13f7226a"
+        "AMI": "ami-d65dfbaf"
       },
       "eu-west-2": {
-        "AMI": "ami-eb62708f"
+        "AMI": "ami-ee7d618a"
       },
       "us-east-1": {
-        "AMI": "ami-ec33cc96"
+        "AMI": "ami-20ff515a"
       },
       "us-east-2": {
-        "AMI": "ami-34032e51"
+        "AMI": "ami-b0527dd5"
       },
       "us-west-1": {
-        "AMI": "ami-13f7226a"
+        "AMI": "ami-b388b4d3"
       },
       "us-west-2": {
-        "AMI": "ami-eb62708f"
+        "AMI": "ami-3702ca4f"
       }
     }
   },
