@@ -87,7 +87,7 @@ class EcsRuntimeDeployService(
     jsObject.getFields(fieldName)
       .headOption
       .getOrElse(throw new IllegalArgumentException(s"Can't find field '$fieldName' in $jsObject"))
-      .toString()
+      .convertTo[String]
   }
 
   private def createService(runtime: ModelService, taskDefinition: TaskDefinition, placeholders: Seq[Any]): Service = {

@@ -84,5 +84,10 @@ case class ServingEnvironment(
 )
 
 class AnyServingEnvironment extends ServingEnvironment(
-  -1, "any", Seq()
+  AnyServingEnvironment.anyServingEnvironmentId, "any", AnyServingEnvironment.emptyPlaceholder
 )
+
+object AnyServingEnvironment {
+  val emptyPlaceholder = Seq()
+  val anyServingEnvironmentId:Long = -1
+}
