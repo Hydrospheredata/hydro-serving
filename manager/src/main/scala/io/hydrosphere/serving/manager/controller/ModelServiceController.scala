@@ -5,18 +5,12 @@ import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
-import io.hydrosphere.serving.controller.TracingHeaders
+import io.hydrosphere.serving.controller.{ServingDataDirectives, TracingHeaders}
 import io.hydrosphere.serving.model.ModelService
-import io.hydrosphere.serving.manager.service.{CreateModelServiceRequest, RuntimeManagementService, ServingManagementService}
+import io.hydrosphere.serving.manager.service._
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
-
-case class ServeData(
-  id: Long,
-  path: Option[String],
-  data: Seq[Any]
-)
 
 /**
   *
@@ -26,7 +20,7 @@ case class ServeData(
 class ModelServiceController(
   runtimeManagementService: RuntimeManagementService,
   servingManagementService: ServingManagementService
-) extends ManagerJsonSupport {
+) extends ManagerJsonSupport with ServingDataDirectives {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/")
@@ -144,23 +138,27 @@ class ModelServiceController(
     }
   }
 
-  @Path("/serve")
+  @Path("/serveByModelId/{modelId}")
   @ApiOperation(value = "Serve ModelService", notes = "Serve ModelService", nickname = "ServeModelService", httpMethod = "POST")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[ServeData], required = true, paramType = "body")
+    new ApiImplicitParam(name = "modelId", required = true, dataType = "string", paramType = "path", value = "modelId"),
+    new ApiImplicitParam(name = "body", value = "Any", required = true, paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any", response = classOf[ServeData]),
+    new ApiResponse(code = 200, message = "Any"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def serveService = path("api" / "v1" / "modelService" / "serve") {
+  def serveService = path("api" / "v1" / "modelService" / "serveByModelId" / LongNumber) { id =>
     post {
       extractRequest { request =>
-        entity(as[ServeData]) { r =>
-          complete(
-            servingManagementService.serveModelService(r.id, r.path.getOrElse("/serve"), r.data, request.headers
-              .filter(h => TracingHeaders.isTracingHeaderName(h.name())))
+        extractRawData { bytes =>
+          val serveRequest = ServeRequest(
+            serviceKey = ModelById(id),
+            servePath = "/serve",
+            headers = request.headers.filter(h => TracingHeaders.isTracingHeaderName(h.name())),
+            inputData = bytes
           )
+          completeExecutionResult(servingManagementService.serve(serveRequest))
         }
       }
     }
@@ -173,17 +171,20 @@ class ModelServiceController(
     new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[List[_]], required = true, paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any", response = classOf[ServeData]),
+    new ApiResponse(code = 200, message = "Any"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def serveByModelNameService = path("api" / "v1" / "modelService" / "serve" / Segment) { modelName =>
     post {
       extractRequest { request =>
-        entity(as[Seq[Any]]) { r =>
-          complete(
-            servingManagementService.serveModelServiceByModelName(modelName, "/serve", r, request.headers
-              .filter(h => TracingHeaders.isTracingHeaderName(h.name())))
+        extractRawData { bytes =>
+          val serveRequest = ServeRequest(
+            serviceKey = ModelByName(modelName),
+            servePath = "/serve",
+            headers = request.headers.filter(h => TracingHeaders.isTracingHeaderName(h.name())),
+            inputData = bytes
           )
+          completeExecutionResult(servingManagementService.serve(serveRequest))
         }
       }
     }
@@ -197,17 +198,21 @@ class ModelServiceController(
     new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[List[_]], required = true, paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any", response = classOf[ServeData]),
+    new ApiResponse(code = 200, message = "Any"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def serveByModelNameServiceAndVersion = path("api" / "v1" / "modelService" / "serve" / Segment / Segment) { (modelName,modelVersion) =>
     post {
       extractRequest { request =>
-        entity(as[Seq[Any]]) { r =>
-          complete(
-            servingManagementService.serveModelServiceByModelNameAndVersion(modelName, modelVersion, "/serve", r, request.headers
-              .filter(h => TracingHeaders.isTracingHeaderName(h.name())))
+        extractRawData { bytes =>
+          val serveRequest = ServeRequest(
+            serviceKey = ModelByName(modelName, Some(modelVersion)),
+            servePath = "/serve",
+            headers = request.headers.filter(h => TracingHeaders.isTracingHeaderName(h.name())),
+            inputData = bytes
           )
+
+          completeExecutionResult(servingManagementService.serve(serveRequest))
         }
       }
     }
