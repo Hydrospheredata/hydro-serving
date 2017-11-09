@@ -1,6 +1,5 @@
-ARG VERSION=latest
 FROM openjdk:8u131-jre-alpine
-
+ARG VERSION=latest
 ARG VERSION
 
 ENV JAVA_XMX=256M

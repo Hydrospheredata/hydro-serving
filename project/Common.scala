@@ -10,7 +10,15 @@ object Common {
     //crossScalaVersions := Seq("2.11.11"),
     publishArtifact := false,
     organization := "io.hydrosphere.serving",
-    scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
+    scalacOptions ++= Seq(
+      "-unchecked",
+      "-deprecation",
+      "-feature",
+      "-language:existentials",
+      "-language:higherKinds",
+      "-language:implicitConversions",
+      "-language:postfixOps"
+    ),
     exportJars := true,
     resolvers += Resolver.bintrayRepo("findify", "maven")
     /*resolvers ++= {

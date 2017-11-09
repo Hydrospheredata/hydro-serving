@@ -14,7 +14,7 @@ trait EnvoyJsonSupport extends ManagerJsonSupport {
 
   implicit val envoyRouteWeightedCluster = jsonFormat2(EnvoyRouteWeightedCluster)
   implicit val envoyRouteWeightedClusters = jsonFormat1(EnvoyRouteWeightedClusters)
-  implicit val envoyRouteFormat = jsonFormat3(EnvoyRoute)
+  implicit val envoyRouteFormat = jsonFormat4(EnvoyRoute)
   implicit val envoyRouteHostFormat = jsonFormat3(EnvoyRouteHost)
   implicit val envoyRouteConfigFormat = jsonFormat1(EnvoyRouteConfig)
 
