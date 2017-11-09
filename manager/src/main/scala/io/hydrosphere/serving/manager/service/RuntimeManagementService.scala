@@ -1,9 +1,9 @@
 package io.hydrosphere.serving.manager.service
 
-import io.hydrosphere.serving.manager.model.{ModelServiceInstance, ServingEnvironment, UnknownModelRuntime}
-import io.hydrosphere.serving.model.{ModelRuntime, ModelService}
-import io.hydrosphere.serving.manager.repository.{ModelRuntimeRepository, ModelServiceRepository, ServingEnvironmentRepository}
-import io.hydrosphere.serving.manager.service.clouddriver.{RuntimeDeployService, ServiceInfo}
+import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.model._
+import io.hydrosphere.serving.manager.repository._
+import io.hydrosphere.serving.manager.service.clouddriver._
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -124,10 +124,15 @@ class RuntimeManagementServiceImpl(
 
   private def fetchPlaceholders(environmentId: Option[Long]): Future[Seq[Any]] = {
     environmentId match {
-      case Some(x) => servingEnvironmentRepository.get(x)
-        .map(s => s.getOrElse({
-          throw new IllegalArgumentException(s"Can't find ServingEnvironment with id=$x")
-        }).placeholders)
+      case Some(x) => x match {
+        case AnyServingEnvironment.anyServingEnvironmentId =>
+          Future.successful(AnyServingEnvironment.emptyPlaceholder)
+        case _ =>
+          servingEnvironmentRepository.get(x)
+            .map(s => s.getOrElse({
+              throw new IllegalArgumentException(s"Can't find ServingEnvironment with id=$x")
+            }).placeholders)
+      }
       case None => Future.successful(Seq())
     }
   }
@@ -199,7 +204,7 @@ class RuntimeManagementServiceImpl(
     allServices().map(s => s.filter(service => runtimeIds.contains(service.modelRuntime.id)))
 
   override def allServingEnvironments(): Future[Seq[ServingEnvironment]] =
-    servingEnvironmentRepository.all()
+    servingEnvironmentRepository.all().flatMap(s => Future.successful(s :+ new AnyServingEnvironment()))
 
   override def createServingEnvironment(r: CreateServingEnvironment): Future[ServingEnvironment] =
     servingEnvironmentRepository.create(r.toServingEnvironment())
