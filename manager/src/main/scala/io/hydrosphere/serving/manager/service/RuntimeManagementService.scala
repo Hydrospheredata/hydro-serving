@@ -13,7 +13,7 @@ case class CreateModelServiceRequest(
   configParams: Option[Map[String, String]],
   environmentId: Option[Long]
 ) {
-  def toModelService(runtime: ModelRuntime): ModelService = {
+  def toModelService(runtime: ModelRuntime, environment: Option[ServingEnvironment]): ModelService = {
     ModelService(
       serviceId = 0,
       serviceName = this.serviceName,
@@ -21,7 +21,7 @@ case class CreateModelServiceRequest(
       modelRuntime = runtime,
       status = None,
       statusText = None,
-      environmentId = this.environmentId,
+      environment = environment,
       configParams = runtime.configParams ++ this.configParams.getOrElse(Map())
     )
   }
@@ -99,7 +99,7 @@ class RuntimeManagementServiceImpl(
           seqInDatabase.find(s => s.serviceId == info.id) match {
             case Some(s) => s.copy(
               configParams = s.configParams ++ info.configParams,
-              environmentId = s.environmentId
+              environment = s.environment
             )
             case None => this.mapServiceInfo(info, info.name, Map())
           }
@@ -113,7 +113,7 @@ class RuntimeManagementServiceImpl(
       serviceName = serviceName,
       cloudDriverId = Some(info.cloudDriveId),
       modelRuntime = new UnknownModelRuntime,
-      environmentId = None,
+      environment = None,
       status = Some(info.status),
       statusText = Some(info.status),
       configParams = configs ++ info.configParams
@@ -122,34 +122,35 @@ class RuntimeManagementServiceImpl(
   override def instancesForService(serviceId: Long): Future[Seq[ModelServiceInstance]] =
     Future(runtimeDeployService.serviceInstances(serviceId))
 
-  private def fetchPlaceholders(environmentId: Option[Long]): Future[Seq[Any]] = {
+  private def fetchServingEnvironment(environmentId: Option[Long]): Future[ServingEnvironment] = {
     environmentId match {
       case Some(x) => x match {
         case AnyServingEnvironment.anyServingEnvironmentId =>
-          Future.successful(AnyServingEnvironment.emptyPlaceholder)
+          Future.successful(new AnyServingEnvironment())
         case _ =>
           servingEnvironmentRepository.get(x)
             .map(s => s.getOrElse({
               throw new IllegalArgumentException(s"Can't find ServingEnvironment with id=$x")
-            }).placeholders)
+            }))
       }
-      case None => Future.successful(Seq())
+      case None => Future.successful(new AnyServingEnvironment())
     }
   }
 
   override def addService(r: CreateModelServiceRequest): Future[ModelService] = {
     //if(r.serviceName) throw new IllegalArgumentException
     //TODO ADD validation for names manager,gateway + length + without space and special symbols
-    fetchPlaceholders(r.environmentId).flatMap(pl => {
+    fetchServingEnvironment(r.environmentId).flatMap(svEnv => {
       modelRuntimeRepository.get(r.modelRuntimeId).flatMap({
         case None => throw new IllegalArgumentException(s"Can't find ModelRuntime with id=${r.modelRuntimeId}")
-        case runtime => modelServiceRepository.create(r.toModelService(runtime.get)).flatMap(s =>
-          Future(
-            s.copy(cloudDriverId = Some(runtimeDeployService.deploy(s, pl)))
-          ).flatMap(service =>
-            modelServiceRepository.updateCloudDriveId(service.serviceId, service.cloudDriverId)
-              .map(_ => service))
-        )
+        case runtime => modelServiceRepository.create(r.toModelService(runtime.get, if (svEnv.id > 0) Some(svEnv) else None))
+          .flatMap(s =>
+            Future(
+              s.copy(cloudDriverId = Some(runtimeDeployService.deploy(s, svEnv.placeholders)))
+            ).flatMap(service =>
+              modelServiceRepository.updateCloudDriveId(service.serviceId, service.cloudDriverId)
+                .map(_ => service))
+          )
       })
     })
   }
