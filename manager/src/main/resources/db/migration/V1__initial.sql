@@ -23,8 +23,8 @@ CREATE TABLE hydro_serving.model
   name              TEXT                        NOT NULL,
   source            TEXT                        NOT NULL UNIQUE,
   runtime_type_id   BIGINT REFERENCES runtime_type (runtime_type_id),
-  output_fields     TEXT                     NOT NULL,
-  input_fields      TEXT                     NOT NULL,
+  output_fields     TEXT                        NOT NULL,
+  input_fields      TEXT                        NOT NULL,
   description       TEXT,
   created_timestamp TIMESTAMP WITHOUT TIME ZONE NOT NULL,
   updated_timestamp TIMESTAMP WITHOUT TIME ZONE NOT NULL
@@ -33,28 +33,28 @@ CREATE TABLE hydro_serving.model
 CREATE TABLE hydro_serving.model_source
 (
   source_id BIGSERIAL PRIMARY KEY,
-  name TEXT NOT NULL UNIQUE
+  name      TEXT NOT NULL UNIQUE
 );
 
 CREATE TABLE hydro_serving.local_source
 (
-  source_id BIGINT REFERENCES hydro_serving.model_source(source_id),
-  path TEXT NOT NULL
+  source_id BIGINT REFERENCES hydro_serving.model_source (source_id),
+  path      TEXT NOT NULL
 );
 
 CREATE TABLE hydro_serving.s3_source
 (
-  source_id BIGINT REFERENCES hydro_serving.model_source(source_id),
-  key_id TEXT NOT NULL,
-  secret_key TEXT NOT NULL,
+  source_id   BIGINT REFERENCES hydro_serving.model_source (source_id),
+  key_id      TEXT NOT NULL,
+  secret_key  TEXT NOT NULL,
   bucket_name TEXT NOT NULL,
-  queue_name TEXT NOT NULL,
-  region TEXT NOT NULL
+  queue_name  TEXT NOT NULL,
+  region      TEXT NOT NULL
 );
 
 CREATE TABLE hydro_serving.hdfs_source
 (
-  source_id BIGINT REFERENCES hydro_serving.model_source(source_id),
+  source_id BIGINT REFERENCES hydro_serving.model_source (source_id),
   fs_string TEXT NOT NULL
 );
 
@@ -65,15 +65,15 @@ CREATE TABLE hydro_serving.model_runtime
   modelName         TEXT                        NOT NULL,
   modelVersion      TEXT                        NOT NULL,
   source            TEXT,
-  output_fields     TEXT                     NOT NULL,
-  input_fields      TEXT                     NOT NULL,
+  output_fields     TEXT                        NOT NULL,
+  input_fields      TEXT                        NOT NULL,
   created_timestamp TIMESTAMP WITHOUT TIME ZONE NOT NULL,
   image_name        TEXT                        NOT NULL,
   image_tag         TEXT                        NOT NULL,
   image_md5_tag     TEXT                        NOT NULL,
   model_id          BIGINT REFERENCES model (model_id),
-  tags            TEXT [] NOT NULL,
-  config_params   TEXT [] NOT NULL
+  tags              TEXT []                     NOT NULL,
+  config_params     TEXT []                     NOT NULL
 );
 
 CREATE TABLE hydro_serving.model_build
@@ -89,23 +89,31 @@ CREATE TABLE hydro_serving.model_build
   runtime_id         BIGINT REFERENCES model_runtime (runtime_id)
 );
 
+CREATE TABLE hydro_serving.serving_environment
+(
+  environment_id BIGSERIAL PRIMARY KEY,
+  name           TEXT    NOT NULL UNIQUE,
+  placeholders   TEXT [] NOT NULL
+);
+
 CREATE TABLE hydro_serving.model_service
 (
   service_id      BIGSERIAL PRIMARY KEY,
-  service_name    TEXT                                         NOT NULL UNIQUE,
+  service_name    TEXT                                                   NOT NULL UNIQUE,
   cloud_driver_id TEXT,
-  runtime_id      BIGINT REFERENCES model_runtime (runtime_id) NOT NULL,
+  runtime_id      BIGINT REFERENCES model_runtime (runtime_id)           NOT NULL,
+  environment_id  BIGINT REFERENCES serving_environment (environment_id),
   status          TEXT,
   statusText      TEXT,
-  config_params   TEXT [] NOT NULL
+  config_params   TEXT []                                                NOT NULL
 );
 
 CREATE TABLE hydro_serving.weighted_service
 (
   id           BIGSERIAL PRIMARY KEY,
-  service_name TEXT      NOT NULL UNIQUE,
-  weights      TEXT []   NOT NULL,
-  sources_list  TEXT [] NOT NULL
+  service_name TEXT    NOT NULL UNIQUE,
+  weights      TEXT [] NOT NULL,
+  sources_list TEXT [] NOT NULL
 );
 
 
@@ -139,4 +147,8 @@ CREATE TABLE hydro_serving.runtime_type_build_script
   version TEXT,
   script  TEXT NOT NULL,
   PRIMARY KEY (name, version)
-)
+);
+
+
+
+

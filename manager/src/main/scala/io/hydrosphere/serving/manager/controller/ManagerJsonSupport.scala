@@ -5,6 +5,7 @@ import io.hydrosphere.serving.manager.service.{WeightedServiceCreateOrUpdateRequ
 import io.hydrosphere.serving.model._
 import spray.json.{DeserializationException, JsString, JsValue, RootJsonFormat}
 import spray.json._
+
 /**
   *
   */
@@ -14,8 +15,8 @@ trait ManagerJsonSupport extends CommonJsonSupport {
 
   implicit val modelFormat = jsonFormat9(Model)
 
-  implicit val buildModelRequestFormat = jsonFormat2(BuildModelRequest)
-  implicit val buildModelByNameRequest = jsonFormat2(BuildModelByNameRequest)
+  implicit val buildModelRequestFormat = jsonFormat3(BuildModelRequest)
+  implicit val buildModelByNameRequest = jsonFormat3(BuildModelByNameRequest)
 
   implicit val modelBuildFormat = jsonFormat9(ModelBuild)
 
@@ -23,7 +24,7 @@ trait ManagerJsonSupport extends CommonJsonSupport {
 
   implicit val createEndpointRequest = jsonFormat2(CreateEndpointRequest)
 
-  implicit val createModelServiceRequest = jsonFormat3(CreateModelServiceRequest)
+  implicit val createModelServiceRequest = jsonFormat4(CreateModelServiceRequest)
 
   implicit val createRuntimeTypeRequest = jsonFormat4(CreateRuntimeTypeRequest)
 
@@ -42,6 +43,8 @@ trait ManagerJsonSupport extends CommonJsonSupport {
   implicit val localModelFormat = jsonFormat3(LocalModelSourceEntry.apply)
   implicit val s3ModelFormat = jsonFormat7(S3ModelSourceEntry.apply)
 
+  implicit val createServingEnvironmentFormat = jsonFormat2(CreateServingEnvironment)
+
   implicit object ModelSourceJsonFormat extends RootJsonFormat[ModelSource] {
     def write(a: ModelSource) = a match {
       case p: LocalModelSourceEntry => p.toJson
@@ -59,4 +62,5 @@ trait ManagerJsonSupport extends CommonJsonSupport {
       }
     }
   }
+
 }
