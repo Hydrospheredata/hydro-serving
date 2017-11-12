@@ -4,9 +4,13 @@ import java.util.UUID
 
 import akka.actor.ActorSystem
 import akka.http.scaladsl.model.HttpHeader
+import akka.pattern.ask
+import akka.util.Timeout
 import io.hydrosphere.serving.model._
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.connector._
+import io.hydrosphere.serving.manager.actor.ContainerWatcher
+import io.hydrosphere.serving.manager.actor.ContainerWatcher.{Started, Stopped, WatchForStart, WatchForStop}
 import io.hydrosphere.serving.manager.repository.{ModelBuildRepository, ModelRepository, ModelRuntimeRepository, ModelServiceRepository}
 import org.apache.logging.log4j.scala.Logging
 
@@ -95,7 +99,7 @@ trait UIManagementService {
 
   def testModel(modelId: Long, servePath: String, request: Array[Byte], headers: Seq[HttpHeader]): Future[ExecutionResult]
 
-  def buildModel(modelId: Long, modelVersion: Option[String], environmentId:Option[Long]): Future[ModelInfo]
+  def buildModel(modelId: Long, modelVersion: Option[String], environmentId: Option[Long]): Future[ModelInfo]
 
   def modelRuntimes(modelId: Long): Future[Seq[UIRuntimeInfo]]
 }
@@ -164,7 +168,7 @@ class UIManagementServiceImpl(
   override def stopAllServices(modelId: Long): Future[Unit] =
     modelServiceRepository
       .getByModelIds(Seq(modelId))
-      .flatMap{ services =>
+      .flatMap { services =>
         Future.traverse(services) { s =>
           runtimeManagementService
             .deleteService(s.serviceId)
@@ -190,7 +194,7 @@ class UIManagementServiceImpl(
     })
 
 
-  private def startAndWaitService(modelId: Long, environmentId:Option[Long]): Future[ModelService] =
+  private def startAndWaitService(modelId: Long, environmentId: Option[Long]): Future[ModelService] =
     modelRuntimeRepository
       .lastModelRuntimeByModel(modelId, 1)
       .flatMap { runtimes =>
@@ -206,7 +210,7 @@ class UIManagementServiceImpl(
         }
       }
 
-  private def createModelServiceRequest(x:ModelRuntime, environmentId:Option[Long]):CreateModelServiceRequest={
+  private def createModelServiceRequest(x: ModelRuntime, environmentId: Option[Long]): CreateModelServiceRequest = {
     CreateModelServiceRequest(
       serviceName = s"${x.modelName}_${x.modelVersion}".replaceAll("\\.", "-"),
       modelRuntimeId = x.id,
@@ -225,7 +229,7 @@ class UIManagementServiceImpl(
     Future(Thread.sleep(5000L))
   }
 
-  override def buildModel(modelId: Long, modelVersion: Option[String], environmentId:Option[Long]): Future[ModelInfo] =
+  override def buildModel(modelId: Long, modelVersion: Option[String], environmentId: Option[Long]): Future[ModelInfo] =
     modelManagementService.buildModel(modelId, modelVersion).flatMap(runtime => {
       runtimeManagementService.addService(createModelServiceRequest(runtime, environmentId)).flatMap(_ => modelWithLastStatus(modelId).map(o => o.get))
     })

@@ -8,9 +8,8 @@ import akka.stream.ActorMaterializer
 import com.typesafe.config.ConfigFactory
 import org.apache.logging.log4j.scala.Logging
 
-import scala.concurrent.{Await, Future}
+import scala.concurrent.Await
 import scala.concurrent.duration.Duration
-import scala.util.{Failure, Success}
 
 /**
   *
@@ -25,19 +24,7 @@ object StreamingKafkaBoot extends App with Logging {
     val conf = StreamingKafkaConfiguration.parse(ConfigFactory.load())
 
     val httpApi = new StreamingKafkaApi()
-    val servingProcessor = SidecarServingProcessor(conf.sidecar, conf.streaming.processorRoute)
-    val kafkaStream = {
-      import conf.streaming._
-      StreamingKafkaService.kafkaStream(sourceTopic, destinationTopic, servingProcessor)
-    }
-
-    kafkaStream.run().onComplete({
-      case Success(_) =>
-        system.terminate()
-      case Failure(e) =>
-        system.log.error(e, e.getMessage)
-        system.terminate()
-    })
+    val services = new StreamingKafkaServices(conf)
 
     Http().bindAndHandle(httpApi.routes, "0.0.0.0", conf.application.port)
 
