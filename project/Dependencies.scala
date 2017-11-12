@@ -59,7 +59,9 @@ object Dependencies {
   lazy val streamingKafkaDependencies = akkaDependencies
     .union(commonDependencies)
     .union(Seq(
-      "com.typesafe.akka" %% "akka-stream-kafka" % "0.17"
+      "com.typesafe.akka" %% "akka-stream-kafka" % "0.17",
+      "com.fasterxml.jackson.core" % "jackson-core" % "2.9.2",
+      "org.scalatest" %% "scalatest" % scalaTestVersion % "test"
     ))
 
   lazy val codegenDependencies = commonDependencies

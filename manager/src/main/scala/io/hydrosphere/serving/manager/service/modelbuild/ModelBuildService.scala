@@ -3,6 +3,8 @@ package io.hydrosphere.serving.manager.service.modelbuild
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.model._
 
+import scala.concurrent.Future
+
 
 case class ProgressDetail(
   current: Option[Long],
@@ -46,7 +48,7 @@ trait ModelBuildService {
     * @param progressHandler
     * @return image md5 tag
     */
-  def build(modelBuild: ModelBuild, imageName: String, script: String, progressHandler: ProgressHandler): String
+  def build(modelBuild: ModelBuild, imageName: String, script: String, progressHandler: ProgressHandler): Future[String]
 
 }
 

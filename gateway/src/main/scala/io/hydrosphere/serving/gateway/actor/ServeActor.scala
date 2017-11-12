@@ -14,13 +14,13 @@ case class UpdateEndpoints(
 
 case class ServeRequest(
   tracingHeaders: Seq[HttpHeader],
-  request: Seq[Any],
+  request: Array[Byte],
   endpointName: String
 )
 
 case class ServeResponse(
   tracingHeaders: Seq[HttpHeader],
-  response: Seq[Any]
+  response: Array[Byte]
 )
 
 case class ServeError(
@@ -58,19 +58,20 @@ class ServeActor(sidecarConnector: RuntimeMeshConnector) extends Actor with Acto
           headers = request.tracingHeaders,
           json = request.request,
           pipeline
-        )).onComplete({
-          case Success(res) =>
-            currentSender ! ServeResponse(
-              tracingHeaders = request.tracingHeaders,
-              response = res.json
-            )
-          case Failure(ex) =>
-            log.error(ex, ex.getMessage)
-            currentSender ! ServeError(
-              tracingHeaders = request.tracingHeaders,
-              statusCode = StatusCodes.InternalServerError,
-              errorMessage = ex.getMessage
-            )
+        )).onComplete(result => {
+          val message = result match {
+            case Success(ExecutionSuccess(data)) =>
+              ServeResponse(request.tracingHeaders, data)
+
+            case Success(ExecutionFailure(err, code)) =>
+              log.error(new RuntimeException("Serving failed"), err)
+              ServeError(request.tracingHeaders, err, code)
+
+            case Failure(ex) =>
+              log.error(ex, ex.getMessage)
+              ServeError(request.tracingHeaders, ex.getMessage, StatusCodes.InternalServerError)
+          }
+          currentSender ! message
         })
       }
   }

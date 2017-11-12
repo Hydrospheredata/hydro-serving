@@ -7,6 +7,7 @@ import io.hydrosphere.serving.connector.{ExecutionCommand, ExecutionResult, Exec
 import io.hydrosphere.serving.model.{Application, ApplicationExecutionGraph, ModelService}
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelServiceRepository}
 import io.hydrosphere.serving.model_api.ApiGenerator
+import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -41,13 +42,7 @@ trait ServingManagementService {
 
   def getApplication(id: Long): Future[Option[Application]]
 
-  def serveApplication(serviceId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
-
-  def serveModelService(serviceId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
-
-  def serveModelServiceByModelName(modelName: String, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
-
-  def serveModelServiceByModelNameAndVersion(modelName: String, modelVersion: String, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
+  def serve(req: ServeRequest): Future[ExecutionResult]
 
   def generateModelPayload(modelName: String, modelVersion: String): Future[Seq[Any]]
 
@@ -59,7 +54,7 @@ class ServingManagementServiceImpl(
   runtimeMeshConnector: RuntimeMeshConnector,
   applicationRepository: ApplicationRepository,
   runtimeManagementService: RuntimeManagementService
-)(implicit val ex: ExecutionContext) extends ServingManagementService {
+)(implicit val ex: ExecutionContext) extends ServingManagementService with Logging {
 
   private def serveModelService(service: ModelService, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
     runtimeMeshConnector.execute(ExecutionCommand(
@@ -71,22 +66,48 @@ class ServingManagementServiceImpl(
       ))
     )).map(mapMeshExecutionResult)
 
-  override def serveModelService(serviceId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
-    modelServiceRepository.get(serviceId).flatMap({
-      case None => throw new IllegalArgumentException(s"Wrong service Id=$serviceId")
-      case Some(service) =>
-        serveModelService(service, servePath, request, headers)
-    })
+  override def serve(req: ServeRequest): Future[ExecutionResult] = {
+    import ToPipelineStages._
 
-  private def mapMeshExecutionResult(r: ExecutionResult): Seq[Any] = {
-    r.status match {
-      case StatusCodes.OK =>
-        r.json
-      case StatusCodes.BadRequest =>
-        throw new IllegalArgumentException(r.json.toString())
-      case _ =>
-        throw new RuntimeException(r.json.toString())
+    def buildStages[A](target: Option[A], error: => String)
+      (implicit conv: ToPipelineStages[A]): Future[Seq[ExecutionUnit]] = {
+
+      target match  {
+        case None => Future.failed(new IllegalArgumentException(error))
+        case Some(a) => Future.successful(conv.toStages(a, req.servePath))
+      }
     }
+
+    val stagesFuture = req.serviceKey match {
+      case PipelineKey(id) =>
+        val f = pipelineRepository.get(id)
+        f.flatMap(p => buildStages(p, s"Can't find Pipeline with id: $id"))
+      case WeightedKey(id) =>
+        val f = getWeightedService(id)
+        f.flatMap(w => buildStages(w, s"Can't find WeightedService with id: $id"))
+      case WeightedName(name) =>
+        val f = weightedServiceRepository.getByName(name)
+        f.flatMap(w => buildStages(w, s"Can't find WeightedService with name: $name"))
+      case ModelById(id) =>
+        val f = modelServiceRepository.get(id)
+        f.flatMap(m => buildStages(m, s"Can't find model with id: $id"))
+      case ModelByName(name, None) =>
+        val f = modelServiceRepository.getLastModelServiceByModelName(name)
+        f.flatMap(m => buildStages(m, s"Can find model with name: $name"))
+      case ModelByName(name, Some(version)) =>
+        val f = modelServiceRepository.getLastModelServiceByModelNameAndVersion(name, version)
+        f.flatMap(m => buildStages(m, s"Can find model with name: $name, version: $version"))
+    }
+
+    stagesFuture.flatMap(stages => {
+      val cmd = ExecutionCommand(
+        headers = req.headers,
+        json = req.inputData,
+        pipe = stages
+      )
+      logger.info(s"TRY INVOKE $cmd")
+      runtimeMeshConnector.execute(cmd)
+    })
   }
 
   override def allApplications(): Future[Seq[Application]] =
@@ -139,22 +160,6 @@ class ServingManagementServiceImpl(
       )).map(mapMeshExecutionResult)
     })
 
-  override def serveModelServiceByModelName(modelName: String, servePath: String,
-    request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
-    modelServiceRepository.getLastModelServiceByModelName(modelName).flatMap({
-      case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
-      case Some(service) =>
-        serveModelService(service, servePath, request, headers)
-    })
-
-  override def serveModelServiceByModelNameAndVersion(modelName: String, modelVersion: String, servePath: String,
-    request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
-    modelServiceRepository.getLastModelServiceByModelNameAndVersion(modelName, modelVersion).flatMap({
-      case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName and version=$modelVersion")
-      case Some(service) =>
-        serveModelService(service, servePath, request, headers)
-    })
-
   override def generateModelPayload(modelName: String, modelVersion: String): Future[Seq[Any]] = {
     modelServiceRepository.getLastModelServiceByModelNameAndVersion(modelName, modelVersion).map{
       case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
@@ -163,7 +168,7 @@ class ServingManagementServiceImpl(
   }
 
   override def generateModelPayload(modelName: String): Future[Seq[Any]] = {
-    modelServiceRepository.getLastModelServiceByModelName(modelName).map{
+    modelServiceRepository.getLastModelServiceByModelName(modelName).map {
       case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
       case Some(service) => List(new ApiGenerator(service.modelRuntime.inputFields).generate)
     }

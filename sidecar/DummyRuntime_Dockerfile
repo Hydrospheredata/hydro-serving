@@ -1,6 +1,5 @@
-ARG VERSION=latest
 FROM python:3.5-alpine
-
+ARG VERSION=latest
 ARG VERSION
 
 ENV APP_START_SCRIPT=/hydro-serving/app/start.sh

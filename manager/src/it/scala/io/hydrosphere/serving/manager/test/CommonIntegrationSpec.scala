@@ -5,6 +5,7 @@ import java.time.Duration
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.testkit.TestKit
+import akka.util.Timeout
 import com.dimafeng.testcontainers.{ForAllTestContainer, GenericContainer}
 import com.spotify.docker.client.{DefaultDockerClient, DockerClient}
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
@@ -19,6 +20,7 @@ import org.scalatest.{BeforeAndAfter, BeforeAndAfterEach, FunSpec, FunSpecLike}
 import org.testcontainers.containers.wait.Wait
 
 import scala.io.Source
+import scala.concurrent.duration._
 
 /**
   *
@@ -28,6 +30,7 @@ class CommonIntegrationSpec extends TestKit(ActorSystem("testMasterService"))
 
   implicit val materializer = ActorMaterializer()
   implicit val ex = system.dispatcher
+  implicit val timeout = Timeout(5.minute)
 
 
   override val container = GenericContainer("postgres:9.6-alpine",
