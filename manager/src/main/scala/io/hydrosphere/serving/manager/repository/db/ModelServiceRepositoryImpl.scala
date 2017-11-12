@@ -1,7 +1,6 @@
 package io.hydrosphere.serving.manager.repository.db
 
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.model._
 import io.hydrosphere.serving.manager.repository.ModelServiceRepository
 import org.apache.logging.log4j.scala.Logging
@@ -28,11 +27,12 @@ class ModelServiceRepositoryImpl(
         entity.serviceName,
         entity.cloudDriverId,
         entity.modelRuntime.id,
+        entity.environment.map(e => e.id),
         entity.status,
         entity.statusText,
         entity.configParams.map { case (k, v) => s"$k=$v" }.toList
       )
-    ).map(s => mapFromDb(s, Some(entity.modelRuntime)))
+    ).map(s => mapFromDb(s, Some(entity.modelRuntime), entity.environment))
 
   override def get(id: Long): Future[Option[ModelService]] =
     db.run(
@@ -40,8 +40,10 @@ class ModelServiceRepositoryImpl(
         .filter(_.serviceId === id)
         .joinLeft(Tables.ModelRuntime)
         .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.ServingEnvironment)
+        .on({ case ((ms, mr), se) => ms.environmentId === se.environmentId })
         .joinLeft(Tables.RuntimeType)
-        .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
+        .on({ case (((ms, mr), se), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
         .result.headOption
     ).map(m => mapFromDb(m))
 
@@ -56,8 +58,10 @@ class ModelServiceRepositoryImpl(
       Tables.ModelService
         .joinLeft(Tables.ModelRuntime)
         .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.ServingEnvironment)
+        .on({ case ((ms, mr), se) => ms.environmentId === se.environmentId })
         .joinLeft(Tables.RuntimeType)
-        .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
+        .on({ case (((ms, mr), se), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
         .result
     ).map(s => mapFromDb(s))
 
@@ -75,8 +79,10 @@ class ModelServiceRepositoryImpl(
         .filter(_.serviceName === serviceName)
         .joinLeft(Tables.ModelRuntime)
         .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.ServingEnvironment)
+        .on({ case ((ms, mr), se) => ms.environmentId === se.environmentId })
         .joinLeft(Tables.RuntimeType)
-        .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
+        .on({ case (((ms, mr), se), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
         .result.headOption
     ).map(m => mapFromDb(m))
 
@@ -90,8 +96,10 @@ class ModelServiceRepositoryImpl(
         .filter(_.serviceId inSetBind ids)
         .joinLeft(Tables.ModelRuntime)
         .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.ServingEnvironment)
+        .on({ case ((ms, mr), se) => ms.environmentId === se.environmentId })
         .joinLeft(Tables.RuntimeType)
-        .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
+        .on({ case (((ms, mr), se), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
         .result
     ).map(m => mapFromDb(m))
   }
@@ -101,9 +109,11 @@ class ModelServiceRepositoryImpl(
       Tables.ModelService
         .joinLeft(Tables.ModelRuntime)
         .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.ServingEnvironment)
+        .on({ case ((ms, mr), se) => ms.environmentId === se.environmentId })
         .joinLeft(Tables.RuntimeType)
-        .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
-        .filter({ case ((ms, mr), rt) => mr.flatMap(_.modelId) inSetBind modelIds })
+        .on({ case (((ms, mr), se), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
+        .filter({ case (((ms, mr), se), rt) => mr.flatMap(_.modelId) inSetBind modelIds })
         .result
     ).map(m => mapFromDb(m))
 
@@ -112,9 +122,11 @@ class ModelServiceRepositoryImpl(
       Tables.ModelService
         .joinLeft(Tables.ModelRuntime)
         .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.ServingEnvironment)
+        .on({ case ((ms, mr), se) => ms.environmentId === se.environmentId })
         .joinLeft(Tables.RuntimeType)
-        .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
-        .filter({ case ((ms, mr), rt) => mr.flatMap(_.runtimeId) inSetBind runtimeIds })
+        .on({ case (((ms, mr), se), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
+        .filter({ case (((ms, mr), se), rt) => mr.flatMap(_.runtimeId) inSetBind runtimeIds })
         .result
     ).map(m => mapFromDb(m))
 
@@ -123,9 +135,11 @@ class ModelServiceRepositoryImpl(
       Tables.ModelService
         .joinLeft(Tables.ModelRuntime)
         .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.ServingEnvironment)
+        .on({ case ((ms, mr), se) => ms.environmentId === se.environmentId })
         .joinLeft(Tables.RuntimeType)
-        .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
-        .filter({ case ((ms, mr), rt) => mr.flatMap(_.modelname) === modelName })
+        .on({ case (((ms, mr), se), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
+        .filter({ case (((ms, mr), se), rt) => mr.flatMap(_.modelname) === modelName })
         .result.headOption
     ).map(m => mapFromDb(m))
 
@@ -134,47 +148,50 @@ class ModelServiceRepositoryImpl(
       Tables.ModelService
         .joinLeft(Tables.ModelRuntime)
         .on({ case (ms, mr) => ms.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.ServingEnvironment)
+        .on({ case ((ms, mr), se) => ms.environmentId === se.environmentId })
         .joinLeft(Tables.RuntimeType)
-        .on({ case ((ms, mr), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
-        .filter({ case ((ms, mr), rt) => mr.flatMap(_.modelname) === modelName && mr.flatMap(_.modelversion) === modelVersion })
+        .on({ case (((ms, mr), se), rt) => mr.flatMap(_.runtimeTypeId) === rt.runtimeTypeId })
+        .filter({ case (((ms, mr), se), rt) => mr.flatMap(_.modelname) === modelName && mr.flatMap(_.modelversion) === modelVersion })
         .result.headOption
     ).map(m => mapFromDb(m))
 }
 
 object ModelServiceRepositoryImpl {
 
-  def mapFromDb(model: Option[(
-    (Tables.ModelService#TableElementType, Option[Tables.ModelRuntime#TableElementType]),
-      Option[Tables.RuntimeType#TableElementType]
-    )]): Option[ModelService] = model match {
-    case Some(tuple) =>
-      Some(mapFromDb(tuple._1._1,
-        tuple._1._2.map(
+  def mapFromDb(model: Option[
+    (((Tables.ModelService#TableElementType, Option[Tables.ModelRuntime#TableElementType]), Option[Tables.ServingEnvironment#TableElementType]),
+      Option[Tables.RuntimeType#TableElementType])]): Option[ModelService] =
+    model.map(tuple=>{
+      mapFromDb(tuple._1._1._1,
+        tuple._1._1._2.map(
           t => ModelRuntimeRepositoryImpl.mapFromDb(t, RuntimeTypeRepositoryImpl.mapFromDb(tuple._2))
-        )
-      ))
-    case _ => None
-  }
+        ),
+        ServingEnvironmentRepositoryImpl.mapFromDb(tuple._1._2)
+      )
+    })
 
-  def mapFromDb(tuples: Seq[(
-    (Tables.ModelService#TableElementType, Option[Tables.ModelRuntime#TableElementType]),
-      Option[Tables.RuntimeType#TableElementType]
-    )]): Seq[ModelService] = {
+  def mapFromDb(tuples: Seq[
+    (((Tables.ModelService#TableElementType, Option[Tables.ModelRuntime#TableElementType]), Option[Tables.ServingEnvironment#TableElementType]),
+      Option[Tables.RuntimeType#TableElementType])]): Seq[ModelService] = {
     tuples.map(tuple =>
-      mapFromDb(tuple._1._1,
-        tuple._1._2.map(
+      mapFromDb(tuple._1._1._1,
+        tuple._1._1._2.map(
           t => ModelRuntimeRepositoryImpl.mapFromDb(t, RuntimeTypeRepositoryImpl.mapFromDb(tuple._2))
-        )
+        ),
+        ServingEnvironmentRepositoryImpl.mapFromDb(tuple._1._2)
       )
     )
   }
 
-  def mapFromDb(model: Tables.ModelService#TableElementType, modelRuntime: Option[ModelRuntime]): ModelService = {
+  def mapFromDb(model: Tables.ModelService#TableElementType, modelRuntime: Option[ModelRuntime],
+    servingEnvironment: Option[ServingEnvironment]): ModelService = {
     ModelService(
       serviceId = model.serviceId,
       serviceName = model.serviceName,
       cloudDriverId = model.cloudDriverId,
       modelRuntime = modelRuntime.getOrElse(throw new RuntimeException("Can't find ModelRuntime for service")),
+      environment = servingEnvironment,
       status = model.status,
       statusText = model.statustext,
       configParams = model.configParams.map(s => {

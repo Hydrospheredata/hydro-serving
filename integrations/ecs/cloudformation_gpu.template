@@ -1,0 +1,1610 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Description": "AWS CloudFormation template to create a new hydro-serving cluster.",
+  "Mappings": {
+    "CidrMappings": {
+      "public-subnet-1": {
+        "CIDR": "10.0.1.0/24"
+      },
+      "public-subnet-2": {
+        "CIDR": "10.0.2.0/24"
+      },
+      "vpc": {
+        "CIDR": "10.0.0.0/16"
+      }
+    },
+    "ecsOptimizedAmi": {
+      "ap-northeast-1": {
+        "AMI": "ami-21815747"
+      },
+      "ap-southeast-1": {
+        "AMI": "ami-99f588fa"
+      },
+      "ap-southeast-2": {
+        "AMI": "ami-4f08e82d"
+      },
+      "ca-central-1": {
+        "AMI": "ami-9b54edff"
+      },
+      "eu-central-1": {
+        "AMI": "ami-40d5672f"
+      },
+      "eu-west-1": {
+        "AMI": "ami-13f7226a"
+      },
+      "eu-west-2": {
+        "AMI": "ami-eb62708f"
+      },
+      "us-east-1": {
+        "AMI": "ami-ec33cc96"
+      },
+      "us-east-2": {
+        "AMI": "ami-34032e51"
+      },
+      "us-west-1": {
+        "AMI": "ami-13f7226a"
+      },
+      "us-west-2": {
+        "AMI": "ami-eb62708f"
+      }
+    },
+    "ecsOptimizedAmiGPU": {
+      "ap-northeast-1": {
+        "AMI": "ami-21815747"
+      },
+      "ap-southeast-1": {
+        "AMI": "ami-99f588fa"
+      },
+      "ap-southeast-2": {
+        "AMI": "ami-4f08e82d"
+      },
+      "ca-central-1": {
+        "AMI": "ami-9b54edff"
+      },
+      "eu-central-1": {
+        "AMI": "ami-40d5672f"
+      },
+      "eu-west-1": {
+        "AMI": "ami-13f7226a"
+      },
+      "eu-west-2": {
+        "AMI": "ami-eb62708f"
+      },
+      "us-east-1": {
+        "AMI": "ami-ec33cc96"
+      },
+      "us-east-2": {
+        "AMI": "ami-34032e51"
+      },
+      "us-west-1": {
+        "AMI": "ami-13f7226a"
+      },
+      "us-west-2": {
+        "AMI": "ami-eb62708f"
+      }
+    }
+  },
+
+  "Metadata": {
+    "Authors": {
+      "Description": "Eduard Dautov (edautov@provectus.com)"
+    },
+    "License": {
+      "Description": "Some Licence."
+    }
+  },
+  "Outputs": {
+    "awsRegionName": {
+      "Description": "The name of the AWS Region your template was launched in",
+      "Value": {
+        "Ref": "AWS::Region"
+      }
+    },
+    "manageruiAlbDNSName": {
+      "Description": "DNS name",
+      "Value": {
+        "Fn::GetAtt": [
+          "manageruiLoadBalancer",
+          "DNSName"
+        ]
+      }
+    },
+    "cloudWatchLogsGroupName": {
+      "Description": "Name of the CloudWatch Logs Group",
+      "Value": {
+        "Ref": "cloudWatchLogsGroup"
+      }
+    },
+    "ecsClusterName": {
+      "Description": "The name of the ECS cluster",
+      "Value": {
+        "Ref": "ecsCluster"
+      }
+    },
+    "snsTopic": {
+      "Description": "SNS Topic ARN",
+      "Value": {
+        "Ref": "snsTopic"
+      }
+    },
+    "spotFleetRequestId": {
+      "Description": "The Spot fleet Request Id",
+      "Value": {
+        "Ref": "spotFleet"
+      }
+    },
+    "spotFleetGPURequestId": {
+      "Description": "The Spot fleet GPU Request Id",
+      "Value": {
+        "Ref": "spotFleetGPU"
+      }
+    }
+  },
+  "Parameters": {
+    "ecsClusterTargetCapacity": {
+      "Default": 1,
+      "Description": "Number of EC2 Spot instances to initially launch in the ECS cluster",
+      "Type": "Number"
+    },
+    "ecsClusterTargetCapacityGPU": {
+      "Default": 1,
+      "Description": "Number of GPU-EC2 Spot instances to initially launch in the ECS cluster",
+      "Type": "Number"
+    },
+    "instanceType": {
+      "AllowedValues": [
+        "c3.large",
+        "c4.large",
+        "m3.large",
+        "m4.large",
+        "r3.large",
+        "r4.large"
+      ],
+      "Default": "c4.large",
+      "Description": "EC2 instance type to use for ECS cluster",
+      "Type": "String"
+    },
+    "instanceTypeGPU": {
+      "AllowedValues": [
+        "p2.xlarge",
+        "p2.8xlarge",
+        "p2.16xlarge"
+      ],
+      "Default": "p2.xlarge",
+      "Description": "GPU EC2 instance type to use for ECS cluster",
+      "Type": "String"
+    },
+    "keyName": {
+      "Description": "Name of an existing EC2 KeyPair to enable SSH access to the EC2 instances",
+      "Type": "AWS::EC2::KeyPair::KeyName"
+    },
+    "sourceCidr": {
+      "Default": "0.0.0.0/0",
+      "Description": "Optional - CIDR/IP range for instance ssh access - defaults to 0.0.0.0/0",
+      "Type": "String"
+    },
+    "spotBidPrice": {
+      "Default": 1,
+      "Description": "Spot Instance bid price",
+      "Type": "String"
+    },
+    "spotBidPriceGPU": {
+      "Default": 1,
+      "Description": "GPU Spot Instance bid price",
+      "Type": "String"
+    },
+    "managerDBUser": {
+      "Type": "String",
+      "Description": "",
+      "MinLength": 4
+    },
+    "managerDBPassword": {
+      "NoEcho": "true",
+      "Description": "The database admin account password",
+      "Type": "String",
+      "MinLength": "8",
+      "MaxLength": "20",
+      "AllowedPattern": "^[a-zA-Z0-9]*$"
+    }
+  },
+  "Resources": {
+    "attachGateway": {
+      "DependsOn": [
+        "vpc",
+        "internetGateway"
+      ],
+      "Properties": {
+        "InternetGatewayId": {
+          "Ref": "internetGateway"
+        },
+        "VpcId": {
+          "Ref": "vpc"
+        }
+      },
+      "Type": "AWS::EC2::VPCGatewayAttachment"
+    },
+    "cloudWatchLogsGroup": {
+      "Properties": {
+        "RetentionInDays": 7
+      },
+      "Type": "AWS::Logs::LogGroup"
+    },
+    "ecsCluster": {
+      "Type": "AWS::ECS::Cluster",
+      "Properties": {
+        "ClusterName": {
+          "Ref": "AWS::StackName"
+        }
+      }
+    },
+    "internetGateway": {
+      "DependsOn": [
+        "vpc"
+      ],
+      "Type": "AWS::EC2::InternetGateway"
+    },
+    "publicRoute": {
+      "DependsOn": [
+        "publicRouteTable",
+        "internetGateway",
+        "attachGateway"
+      ],
+      "Properties": {
+        "DestinationCidrBlock": "0.0.0.0/0",
+        "GatewayId": {
+          "Ref": "internetGateway"
+        },
+        "RouteTableId": {
+          "Ref": "publicRouteTable"
+        }
+      },
+      "Type": "AWS::EC2::Route"
+    },
+    "publicRouteTable": {
+      "DependsOn": [
+        "vpc",
+        "attachGateway"
+      ],
+      "Properties": {
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "Public Route Table"
+          }
+        ],
+        "VpcId": {
+          "Ref": "vpc"
+        }
+      },
+      "Type": "AWS::EC2::RouteTable"
+    },
+    "publicSubnet1": {
+      "DependsOn": "attachGateway",
+      "Properties": {
+        "AvailabilityZone": {
+          "Fn::Select": [
+            0,
+            {
+              "Fn::GetAZs": {
+                "Ref": "AWS::Region"
+              }
+            }
+          ]
+        },
+        "CidrBlock": {
+          "Fn::FindInMap": [
+            "CidrMappings",
+            "public-subnet-1",
+            "CIDR"
+          ]
+        },
+        "MapPublicIpOnLaunch": true,
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "Public Subnet 1"
+          }
+        ],
+        "VpcId": {
+          "Ref": "vpc"
+        }
+      },
+      "Type": "AWS::EC2::Subnet"
+    },
+    "publicSubnet1RouteTableAssociation": {
+      "DependsOn": [
+        "publicRouteTable",
+        "publicSubnet1",
+        "attachGateway"
+      ],
+      "Properties": {
+        "RouteTableId": {
+          "Ref": "publicRouteTable"
+        },
+        "SubnetId": {
+          "Ref": "publicSubnet1"
+        }
+      },
+      "Type": "AWS::EC2::SubnetRouteTableAssociation"
+    },
+    "publicSubnet2": {
+      "DependsOn": "attachGateway",
+      "Properties": {
+        "AvailabilityZone": {
+          "Fn::Select": [
+            1,
+            {
+              "Fn::GetAZs": {
+                "Ref": "AWS::Region"
+              }
+            }
+          ]
+        },
+        "CidrBlock": {
+          "Fn::FindInMap": [
+            "CidrMappings",
+            "public-subnet-2",
+            "CIDR"
+          ]
+        },
+        "MapPublicIpOnLaunch": true,
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "Public Subnet 2"
+          }
+        ],
+        "VpcId": {
+          "Ref": "vpc"
+        }
+      },
+      "Type": "AWS::EC2::Subnet"
+    },
+    "publicSubnet2RouteTableAssociation": {
+      "DependsOn": [
+        "publicRouteTable",
+        "publicSubnet2",
+        "attachGateway"
+      ],
+      "Properties": {
+        "RouteTableId": {
+          "Ref": "publicRouteTable"
+        },
+        "SubnetId": {
+          "Ref": "publicSubnet2"
+        }
+      },
+      "Type": "AWS::EC2::SubnetRouteTableAssociation"
+    },
+    "managerServiceRole": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "Policies": [
+          {
+            "PolicyName": {
+              "Fn::Join": [
+                "-",
+                [
+                  {
+                    "Ref": "AWS::StackName"
+                  },
+                  "managerServiceRole"
+                ]
+              ]
+            },
+            "PolicyDocument": {
+              "Version": "2012-10-17",
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "ec2:AuthorizeSecurityGroupIngress",
+                    "ec2:Describe*",
+                    "elasticloadbalancing:DeregisterInstancesFromLoadBalancer",
+                    "elasticloadbalancing:Describe*",
+                    "elasticloadbalancing:RegisterInstancesWithLoadBalancer",
+                    "elasticloadbalancing:DeregisterTargets",
+                    "elasticloadbalancing:DescribeTargetGroups",
+                    "elasticloadbalancing:DescribeTargetHealth",
+                    "elasticloadbalancing:RegisterTargets"
+                  ],
+                  "Resource": "*"
+                }
+              ]
+            }
+          }
+        ],
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Principal": {
+                "Service": [
+                  "ecs.amazonaws.com"
+                ]
+              },
+              "Action": [
+                "sts:AssumeRole"
+              ]
+            }
+          ]
+        },
+        "Path": "/"
+      }
+    },
+    "managerTaskRole": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "Policies": [
+          {
+            "PolicyName": {
+              "Fn::Join": [
+                "-",
+                [
+                  {
+                    "Ref": "AWS::StackName"
+                  },
+                  "manage-container-policy"
+                ]
+              ]
+            },
+            "PolicyDocument": {
+              "Statement": [
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "sqs:ReceiveMessage",
+                    "sqs:DeleteMessage"
+                  ],
+                  "Resource": [
+                    {
+                      "Fn::GetAtt": [
+                        "modelsUpdatesQueue",
+                        "Arn"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Action": "ec2:*",
+                  "Effect": "Allow",
+                  "Resource": "*"
+                },
+                {
+                  "Action": "ecr:*",
+                  "Effect": "Allow",
+                  "Resource": "*"
+                },
+                {
+                  "Action": "ecs:*",
+                  "Effect": "Allow",
+                  "Resource": "*"
+                },
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "s3:ListBucket"
+                  ],
+                  "Resource": [
+                    {
+                      "Fn::GetAtt": [
+                        "modelsS3Bucket",
+                        "Arn"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "s3:PutObject",
+                    "s3:GetObject",
+                    "s3:DeleteObject"
+                  ],
+                  "Resource": [
+                    {
+                      "Fn::Join": [
+                        "",
+                        [
+                          {
+                            "Fn::GetAtt": [
+                              "modelsS3Bucket",
+                              "Arn"
+                            ]
+                          },
+                          "/*"
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Principal": {
+                "Service": [
+                  "ecs.amazonaws.com",
+                  "ec2.amazonaws.com",
+                  "ecs-tasks.amazonaws.com"
+                ]
+              },
+              "Action": [
+                "sts:AssumeRole"
+              ]
+            }
+          ]
+        },
+        "Path": "/"
+      }
+    },
+    "managerTaskDefinition": {
+      "Type": "AWS::ECS::TaskDefinition",
+      "Properties": {
+        "TaskRoleArn": {
+          "Fn::GetAtt": [
+            "managerTaskRole",
+            "Arn"
+          ]
+        },
+        "ContainerDefinitions": [
+          {
+            "PortMappings": [
+              {
+                "HostPort": 0,
+                "ContainerPort": 8080,
+                "Protocol": "tcp"
+              },
+              {
+                "HostPort": 0,
+                "ContainerPort": 8082,
+                "Protocol": "tcp"
+              }
+            ],
+            "MountPoints": [
+              {
+                "ContainerPath": "/var/run/docker.sock",
+                "SourceVolume": "dockersock"
+              }
+            ],
+            "Name": "manager",
+            "Environment": [
+              {
+                "Name": "ADVERTISED_MANAGER_HOST",
+                "Value": {
+                  "Fn::GetAtt": [
+                    "managerLoadBalancer",
+                    "DNSName"
+                  ]
+                }
+              },
+              {
+                "Name": "ADVERTISED_MANAGER_PORT",
+                "Value": "80"
+              },
+              {
+                "Name": "DATABASE_HOST",
+                "Value": {
+                  "Fn::GetAtt": [
+                    "managerDatabase",
+                    "Endpoint.Address"
+                  ]
+                }
+              },
+              {
+                "Name": "DATABASE_PORT",
+                "Value": {
+                  "Fn::GetAtt": [
+                    "managerDatabase",
+                    "Endpoint.Port"
+                  ]
+                }
+              },
+              {
+                "Name": "DATABASE_NAME",
+                "Value": {
+                  "Fn::Join": [
+                    "_",
+                    [
+                      {
+                        "Ref": "AWS::StackName"
+                      },
+                      "manager"
+                    ]
+                  ]
+                }
+              },
+              {
+                "Name": "DATABASE_USERNAME",
+                "Value": {
+                  "Ref": "managerDBUser"
+                }
+              },
+              {
+                "Name": "DATABASE_PASSWORD",
+                "Value": {
+                  "Ref": "managerDBPassword"
+                }
+              },
+              {
+                "Name": "CLOUD_DRIVER",
+                "Value": "ecs"
+              },
+              {
+                "Name": "ECS_DEPLOY_REGION",
+                "Value": {
+                  "Ref": "AWS::Region"
+                }
+              },
+              {
+                "Name": "ECS_DEPLOY_CLUSTER",
+                "Value": {
+                  "Ref": "AWS::StackName"
+                }
+              },
+              {
+                "Name": "ECS_DEPLOY_ACCOUNT",
+                "Value": {
+                  "Ref": "AWS::AccountId"
+                }
+              },
+              {
+                "Name": "S3_MODEL_PATH",
+                "Value": "/models"
+              },
+              {
+                "Name": "S3_MODEL_REGION",
+                "Value": {
+                  "Ref": "AWS::Region"
+                }
+              },
+              {
+                "Name": "S3_MODEL_BUCKET",
+                "Value": {
+                  "Fn::Join": [
+                    "-",
+                    [
+                      {
+                        "Ref": "AWS::StackName"
+                      },
+                      "models"
+                    ]
+                  ]
+                }
+              },
+              {
+                "Name": "S3_MODEL_QUEUE",
+                "Value": {
+                  "Fn::GetAtt": [
+                    "modelsUpdatesQueue",
+                    "QueueName"
+                  ]
+                }
+              }
+            ],
+            "Image": "060183668755.dkr.ecr.eu-west-1.amazonaws.com/manager:latest",
+            "MemoryReservation": 256
+          }
+        ],
+        "Family": {
+          "Fn::Join": [
+            "-",
+            [
+              {
+                "Ref": "AWS::StackName"
+              },
+              "manager"
+            ]
+          ]
+        },
+        "Volumes": [
+          {
+            "Host": {
+              "SourcePath": "/var/run/docker.sock"
+            },
+            "Name": "dockersock"
+          }
+        ]
+      }
+    },
+    "managerService": {
+      "Type": "AWS::ECS::Service",
+      "Properties": {
+        "ServiceName": "hydro-serving_-20",
+        "Cluster": {
+          "Ref": "ecsCluster"
+        },
+        "PlacementConstraints":[
+          {
+            "Type" : "memberOf",
+            "Expression" : {
+              "Fn::Join": [
+                "",
+                [
+                  "attribute:ecs.instance-type =~ ",
+                  {
+                    "Ref": "instanceType"
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        "DeploymentConfiguration": {
+          "MaximumPercent": 200,
+          "MinimumHealthyPercent": 50
+        },
+        "DesiredCount": 1,
+        "LoadBalancers": [
+          {
+            "ContainerName": "manager",
+            "ContainerPort": 8080,
+            "TargetGroupArn": {
+              "Ref": "managerTargetGroup"
+            }
+          }
+        ],
+        "Role": {
+          "Ref": "managerServiceRole"
+        },
+        "TaskDefinition": {
+          "Ref": "managerTaskDefinition"
+        }
+      }
+    },
+    "albManagerSecurityGroup": {
+      "DependsOn": [
+        "vpc"
+      ],
+      "Properties": {
+        "GroupName": {
+          "Fn::Join": [
+            "-",
+            [
+              {
+                "Ref": "AWS::StackName"
+              },
+              "albManagerSecurityGroup"
+            ]
+          ]
+        },
+        "GroupDescription": "Manager ALB Security Group",
+        "SecurityGroupIngress": [
+          {
+            "CidrIp": "0.0.0.0/0",
+            "FromPort": 80,
+            "IpProtocol": "tcp",
+            "ToPort": 80
+          }
+        ],
+        "VpcId": {
+          "Ref": "vpc"
+        }
+      },
+      "Type": "AWS::EC2::SecurityGroup"
+    },
+    "instancesSecurityGroup": {
+      "DependsOn": [
+        "vpc"
+      ],
+      "Properties": {
+        "GroupName": {
+          "Fn::Join": [
+            "-",
+            [
+              {
+                "Ref": "AWS::StackName"
+              },
+              "instancesSecurityGroup"
+            ]
+          ]
+        },
+        "GroupDescription": "Spot fleet instance Security Group",
+        "SecurityGroupIngress": [
+          {
+            "CidrIp": {
+              "Ref": "sourceCidr"
+            },
+            "FromPort": 22,
+            "IpProtocol": "tcp",
+            "ToPort": 22
+          },
+          {
+            "IpProtocol": "tcp",
+            "FromPort": 0,
+            "ToPort": 65535,
+            "SourceSecurityGroupId": {
+              "Ref": "albManagerSecurityGroup"
+            }
+          }
+        ],
+        "VpcId": {
+          "Ref": "vpc"
+        }
+      },
+      "Type": "AWS::EC2::SecurityGroup"
+    },
+    "instancesSecurityGroupIngress": {
+      "DependsOn": [
+        "instancesSecurityGroup"
+      ],
+      "Type": "AWS::EC2::SecurityGroupIngress",
+      "Properties": {
+        "IpProtocol": "tcp",
+        "FromPort": "0",
+        "ToPort": "65535",
+        "SourceSecurityGroupId": {
+          "Fn::GetAtt": [
+            "instancesSecurityGroup",
+            "GroupId"
+          ]
+        },
+        "GroupId": {
+          "Fn::GetAtt": [
+            "instancesSecurityGroup",
+            "GroupId"
+          ]
+        }
+      }
+    },
+    "databaseDBSecurityGroup": {
+      "Type": "AWS::RDS::DBSecurityGroup",
+      "Properties": {
+        "EC2VpcId": {
+          "Ref": "vpc"
+        },
+        "DBSecurityGroupIngress": {
+          "EC2SecurityGroupId": {
+            "Fn::GetAtt": [
+              "instancesSecurityGroup",
+              "GroupId"
+            ]
+          }
+        },
+        "GroupDescription": "Frontend Access"
+      }
+    },
+    "managerDatabaseSubnetGroup": {
+      "Type": "AWS::RDS::DBSubnetGroup",
+      "Properties": {
+        "DBSubnetGroupDescription": "RDS subnet group",
+        "SubnetIds": [
+          {
+            "Ref": "publicSubnet1"
+          },
+          {
+            "Ref": "publicSubnet2"
+          }
+        ]
+      }
+    },
+    "managerDatabase": {
+      "Type": "AWS::RDS::DBInstance",
+      "DependsOn": [
+        "databaseDBSecurityGroup"
+      ],
+      "Properties": {
+        "DBSubnetGroupName": {
+          "Ref": "managerDatabaseSubnetGroup"
+        },
+        "DBSecurityGroups": [
+          {
+            "Ref": "databaseDBSecurityGroup"
+          }
+        ],
+        "DBInstanceClass": "db.t2.small",
+        "AllocatedStorage": "5",
+        "Engine": "postgres",
+        "DBName": {
+          "Fn::Join": [
+            "_",
+            [
+              {
+                "Ref": "AWS::StackName"
+              },
+              "manager"
+            ]
+          ]
+        },
+        "MasterUsername": {
+          "Ref": "managerDBUser"
+        },
+        "MasterUserPassword": {
+          "Ref": "managerDBPassword"
+        }
+      },
+      "DeletionPolicy": "Snapshot"
+    },
+    "managerLoadBalancer": {
+      "Type": "AWS::ElasticLoadBalancingV2::LoadBalancer",
+      "Properties": {
+        "Name": {
+          "Fn::Join": [
+            "-",
+            [
+              {
+                "Ref": "AWS::StackName"
+              },
+              "manager"
+            ]
+          ]
+        },
+        "Scheme": "internal",
+        "Subnets": [
+          {
+            "Ref": "publicSubnet1"
+          },
+          {
+            "Ref": "publicSubnet2"
+          }
+        ],
+        "SecurityGroups": [
+          {
+            "Ref": "albManagerSecurityGroup"
+          }
+        ]
+      }
+    },
+    "managerLoadBalancerListener": {
+      "Type": "AWS::ElasticLoadBalancingV2::Listener",
+      "Properties": {
+        "DefaultActions": [
+          {
+            "Type": "forward",
+            "TargetGroupArn": {
+              "Ref": "managerTargetGroup"
+            }
+          }
+        ],
+        "LoadBalancerArn": {
+          "Ref": "managerLoadBalancer"
+        },
+        "Port": "80",
+        "Protocol": "HTTP"
+      }
+    },
+    "manageruiService": {
+      "Type": "AWS::ECS::Service",
+      "Properties": {
+        "ServiceName": "hydro-serving_ui",
+        "Cluster": {
+          "Ref": "ecsCluster"
+        },
+        "PlacementConstraints":[
+          {
+            "Type" : "memberOf",
+            "Expression" : {
+              "Fn::Join": [
+                "",
+                [
+                  "attribute:ecs.instance-type =~ ",
+                  {
+                    "Ref": "instanceType"
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        "DeploymentConfiguration": {
+          "MaximumPercent": 200,
+          "MinimumHealthyPercent": 50
+        },
+        "DesiredCount": 1,
+        "LoadBalancers": [
+          {
+            "ContainerName": "managerui",
+            "ContainerPort": 80,
+            "TargetGroupArn": {
+              "Ref": "manageruiTargetGroup"
+            }
+          }
+        ],
+        "Role": {
+          "Ref": "managerServiceRole"
+        },
+        "TaskDefinition": {
+          "Ref": "manageruiTaskDefinition"
+        }
+      }
+    },
+    "manageruiTaskDefinition": {
+      "Type": "AWS::ECS::TaskDefinition",
+      "Properties": {
+        "TaskRoleArn": {
+          "Fn::GetAtt": [
+            "managerTaskRole",
+            "Arn"
+          ]
+        },
+        "ContainerDefinitions": [
+          {
+            "PortMappings": [
+              {
+                "HostPort": 0,
+                "ContainerPort": 80,
+                "Protocol": "tcp"
+              }
+            ],
+            "Name": "managerui",
+            "Environment": [
+              {
+                "Name": "MANAGER_HOST",
+                "Value": {
+                      "Fn::GetAtt": [
+                        "managerLoadBalancer",
+                        "DNSName"
+                      ]
+                }
+              }
+            ],
+            "Image": "hydrosphere/serving-manager-ui:0.0.14",
+            "MemoryReservation": 128
+          }
+        ],
+        "Family": {
+          "Fn::Join": [
+            "-",
+            [
+              {
+                "Ref": "AWS::StackName"
+              },
+              "managerui"
+            ]
+          ]
+        }
+      }
+    },
+    "manageruiLoadBalancer": {
+      "Type": "AWS::ElasticLoadBalancingV2::LoadBalancer",
+      "Properties": {
+        "Name": {
+          "Fn::Join": [
+            "-",
+            [
+              {
+                "Ref": "AWS::StackName"
+              },
+              "managerui"
+            ]
+          ]
+        },
+        "Scheme": "internet-facing",
+        "Subnets": [
+          {
+            "Ref": "publicSubnet1"
+          },
+          {
+            "Ref": "publicSubnet2"
+          }
+        ],
+        "SecurityGroups": [
+          {
+            "Ref": "albManagerSecurityGroup"
+          }
+        ]
+      }
+    },
+    "manageruiLoadBalancerListener": {
+      "Type": "AWS::ElasticLoadBalancingV2::Listener",
+      "Properties": {
+        "DefaultActions": [
+          {
+            "Type": "forward",
+            "TargetGroupArn": {
+              "Ref": "manageruiTargetGroup"
+            }
+          }
+        ],
+        "LoadBalancerArn": {
+          "Ref": "manageruiLoadBalancer"
+        },
+        "Port": "80",
+        "Protocol": "HTTP"
+      }
+    },
+    "manageruiTargetGroup": {
+      "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+      "Properties": {
+        "HealthCheckIntervalSeconds": 60,
+        "UnhealthyThresholdCount": 10,
+        "HealthCheckPath": "/",
+        "Name": {
+          "Fn::Join": [
+            "-",
+            [
+              {
+                "Ref": "AWS::StackName"
+              },
+              "managerui"
+            ]
+          ]
+        },
+        "Port": 80,
+        "Protocol": "HTTP",
+        "VpcId": {
+          "Ref": "vpc"
+        }
+      }
+    },
+    "managerTargetGroup": {
+      "Type": "AWS::ElasticLoadBalancingV2::TargetGroup",
+      "Properties": {
+        "HealthCheckIntervalSeconds": 60,
+        "UnhealthyThresholdCount": 10,
+        "HealthCheckPath": "/health",
+        "Name": {
+          "Fn::Join": [
+            "-",
+            [
+              {
+                "Ref": "AWS::StackName"
+              },
+              "manager"
+            ]
+          ]
+        },
+        "Port": 80,
+        "Protocol": "HTTP",
+        "VpcId": {
+          "Ref": "vpc"
+        }
+      }
+    },
+    "modelsUpdatesQueue": {
+      "Type": "AWS::SQS::Queue",
+      "Properties": {
+        "QueueName": {
+          "Fn::Join": [
+            "_",
+            [
+              {
+                "Ref": "AWS::StackName"
+              },
+              "modelsUpdates"
+            ]
+          ]
+        }
+      }
+    },
+    "modelsUpdatesSQSPolicy": {
+      "Type": "AWS::SQS::QueuePolicy",
+      "Properties": {
+        "PolicyDocument": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Sid": "Allow-S3-SendMessage",
+              "Effect": "Allow",
+              "Principal": "*",
+              "Action": [
+                "sqs:*"
+              ],
+              "Resource": {
+                "Fn::GetAtt": [
+                  "modelsUpdatesQueue",
+                  "Arn"
+                ]
+              },
+              "Condition": {
+                "ArnLike": {
+                  "aws:SourceArn": [
+                    {
+                      "Fn::Join": [
+                        "",
+                        [
+                          "arn:aws:s3:*:*:",
+                          {
+                            "Fn::Join": [
+                              "-",
+                              [
+                                {
+                                  "Ref": "AWS::StackName"
+                                },
+                                "models"
+                              ]
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "Queues": [
+          {
+            "Ref": "modelsUpdatesQueue"
+          }
+        ]
+      }
+    },
+    "modelsS3Bucket": {
+      "Type": "AWS::S3::Bucket",
+      "DependsOn": [
+        "modelsUpdatesSQSPolicy"
+      ],
+      "Properties": {
+        "BucketName": {
+          "Fn::Join": [
+            "-",
+            [
+              {
+                "Ref": "AWS::StackName"
+              },
+              "models"
+            ]
+          ]
+        },
+        "NotificationConfiguration": {
+          "QueueConfigurations": [
+            {
+              "Event": "s3:ObjectCreated:*",
+              "Queue": {
+                "Fn::GetAtt": [
+                  "modelsUpdatesQueue",
+                  "Arn"
+                ]
+              }
+            },
+            {
+              "Event": "s3:ObjectRemoved:*",
+              "Queue": {
+                "Fn::GetAtt": [
+                  "modelsUpdatesQueue",
+                  "Arn"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "snsTopic": {
+      "Type": "AWS::SNS::Topic"
+    },
+    "spotFleet": {
+      "DependsOn": [
+        "spotFleetRole",
+        "spotFleetInstanceProfile",
+        "ecsCluster",
+        "instancesSecurityGroup"
+      ],
+      "Properties": {
+        "SpotFleetRequestConfigData": {
+          "AllocationStrategy": "diversified",
+          "IamFleetRole": {
+            "Fn::GetAtt": [
+              "spotFleetRole",
+              "Arn"
+            ]
+          },
+          "LaunchSpecifications": [
+            {
+              "IamInstanceProfile": {
+                "Arn": {
+                  "Fn::GetAtt": [
+                    "spotFleetInstanceProfile",
+                    "Arn"
+                  ]
+                }
+              },
+              "ImageId": {
+                "Fn::FindInMap": [
+                  "ecsOptimizedAmi",
+                  {
+                    "Ref": "AWS::Region"
+                  },
+                  "AMI"
+                ]
+              },
+              "InstanceType": {
+                "Ref": "instanceType"
+              },
+              "KeyName": {
+                "Ref": "keyName"
+              },
+              "Monitoring": {
+                "Enabled": true
+              },
+              "SecurityGroups": [
+                {
+                  "GroupId": {
+                    "Ref": "instancesSecurityGroup"
+                  }
+                }
+              ],
+              "SubnetId": {
+                "Fn::Join": [
+                  ",",
+                  [
+                    {
+                      "Ref": "publicSubnet1"
+                    },
+                    {
+                      "Ref": "publicSubnet2"
+                    }
+                  ]
+                ]
+              },
+              "UserData": {
+                "Fn::Base64": {
+                  "Fn::Sub": [
+                    "#!/bin/bash -xe\nexport PATH=/usr/local/bin:$PATH\nyum -y --security update\nyum -y install jq\neasy_install pip\npip install awscli\naws configure set default.region ${AWS::Region}\necho ECS_CLUSTER=${ecsCluster} >> /etc/ecs/ecs.config\n\n\ncat <<EOF > /tmp/awslogs.conf\n[general]\nstate_file = /var/awslogs/state/agent-state\n\n\n[/var/log/dmesg]\nfile = /var/log/dmesg\nlog_group_name = ${cloudWatchLogsGroup}\nlog_stream_name = %ECS_CLUSTER/%CONTAINER_INSTANCE/var/log/dmesg\ninitial_position = start_of_file\n\n\n[/var/log/messages]\nfile = /var/log/messages\nlog_group_name = ${cloudWatchLogsGroup}\nlog_stream_name = %ECS_CLUSTER/%CONTAINER_INSTANCE/var/log/messages\ndatetime_format = %b %d %H:%M:%S\ninitial_position = start_of_file\n\n\n[/var/log/docker]\nfile = /var/log/docker\nlog_group_name = ${cloudWatchLogsGroup}\nlog_stream_name = %ECS_CLUSTER/%CONTAINER_INSTANCE/var/log/docker\ndatetime_format = %Y-%m-%dT%H:%M:%S.%f\ninitial_position = start_of_file\n\n\n[/var/log/ecs/ecs-init.log]\nfile = /var/log/ecs/ecs-init.log.*\nlog_group_name = ${cloudWatchLogsGroup}\nlog_stream_name = %ECS_CLUSTER/%CONTAINER_INSTANCE/var/log/ecs/ecs-init.log\ndatetime_format = %Y-%m-%dT%H:%M:%SZ\ninitial_position = start_of_file\n\n\n[/var/log/ecs/ecs-agent.log]\nfile = /var/log/ecs/ecs-agent.log.*\nlog_group_name = ${cloudWatchLogsGroup}\nlog_stream_name = %ECS_CLUSTER/%CONTAINER_INSTANCE/var/log/ecs/ecs-agent.log\ndatetime_format = %Y-%m-%dT%H:%M:%SZ\ninitial_position = start_of_file\n\n\n[/var/log/ecs/audit.log]\nfile = /var/log/ecs/audit.log.*\nlog_group_name = ${cloudWatchLogsGroup}\nlog_stream_name = %ECS_CLUSTER/%CONTAINER_INSTANCE/var/log/ecs/audit.log\ndatetime_format = %Y-%m-%dT%H:%M:%SZ\ninitial_position = start_of_file\nEOF\n\n\ncd /tmp && curl -sO https://s3.amazonaws.com/aws-cloudwatch/downloads/latest/awslogs-agent-setup.py\npython /tmp/awslogs-agent-setup.py -n -r ${AWS::Region} -c /tmp/awslogs.conf\n\n\ncat <<EOF > /etc/init/cloudwatch-logs-start.conf\ndescription \"Configure and start CloudWatch Logs agent on Amazon ECS container instance\"\nauthor \"Amazon Web Services\"\nstart on started ecs\nscript\nexec 2>>/var/log/cloudwatch-logs-start.log\nset -x\nuntil curl -s http://localhost:51678/v1/metadata; do sleep 1; done\nECS_CLUSTER=\\$(curl -s http://localhost:51678/v1/metadata | jq .Cluster | tr -d \\\")\nCONTAINER_INSTANCE=\\$(curl -s http://localhost:51678/v1/metadata | jq .ContainerInstanceArn | tr -d \\\")\nsed -i \"s|%ECS_CLUSTER|\\$ECS_CLUSTER|g\" /var/awslogs/etc/awslogs.conf\nsed -i \"s|%CONTAINER_INSTANCE|\\$CONTAINER_INSTANCE|g\" /var/awslogs/etc/awslogs.conf\nchkconfig awslogs on\nservice awslogs start\nend script\nEOF\n\n\ncat <<EOF > /etc/init/spot-instance-termination-notice-handler.conf\ndescription \"Start spot instance termination handler monitoring script\"\nauthor \"Amazon Web Services\"\nstart on started ecs\nscript\necho \\$\\$ > /var/run/spot-instance-termination-notice-handler.pid\nexec /usr/local/bin/spot-instance-termination-notice-handler.sh\nend script\npre-start script\nlogger \"[spot-instance-termination-notice-handler.sh]: spot instance termination notice handler started\"\nend script\nEOF\n\n\ncat <<EOF > /usr/local/bin/spot-instance-termination-notice-handler.sh\n#!/bin/bash\nwhile sleep 5; do\nif [ -z \\$(curl -Isf http://169.254.169.254/latest/meta-data/spot/termination-time)]; then\n/bin/false\nelse\nlogger \"[spot-instance-termination-notice-handler.sh]: spot instance termination notice detected\"\nSTATUS=DRAINING\nECS_CLUSTER=\\$(curl -s http://localhost:51678/v1/metadata | jq .Cluster | tr -d \\\")\nCONTAINER_INSTANCE=\\$(curl -s http://localhost:51678/v1/metadata | jq .ContainerInstanceArn | tr -d \\\")\nlogger \"[spot-instance-termination-notice-handler.sh]: putting instance in state \\$STATUS\"\nlogger \"[spot-instance-termination-notice-handler.sh]: running: /usr/local/bin/aws ecs update-container-instances-state --cluster \\$ECS_CLUSTER --container-instances \\$CONTAINER_INSTANCE --status \\$STATUS\"\n/usr/local/bin/aws ecs update-container-instances-state --cluster \\$ECS_CLUSTER --container-instances \\$CONTAINER_INSTANCE --status \\$STATUS\nlogger \"[spot-instance-termination-notice-handler.sh]: running: \\\"/usr/local/bin/aws sns publish --topic-arn ${snsTopic} --message \\\"Spot instance termination notice detected. Details: cluster: \\$ECS_CLUSTER, container_instance: \\$CONTAINER_INSTANCE. Putting instance in state \\$STATUS.\\\"\"\n/usr/local/bin/aws sns publish --topic-arn ${snsTopic} --message \"Spot instance termination notice detected. Details: cluster: \\$ECS_CLUSTER, container_instance: \\$CONTAINER_INSTANCE. Putting instance in state \\$STATUS.\"\nlogger \"[spot-instance-termination-notice-handler.sh]: putting myself to sleep...\"\nsleep 120\nfi\ndone\nEOF\n\n\nchmod +x /usr/local/bin/spot-instance-termination-notice-handler.sh\n",
+                    {}
+                  ]
+                }
+              }
+            }
+          ],
+          "SpotPrice": {
+            "Ref": "spotBidPrice"
+          },
+          "TargetCapacity": {
+            "Ref": "ecsClusterTargetCapacity"
+          },
+          "TerminateInstancesWithExpiration": true
+        }
+      },
+      "Type": "AWS::EC2::SpotFleet"
+    },
+    "spotFleetGPU": {
+      "DependsOn": [
+        "spotFleetRole",
+        "spotFleetInstanceProfile",
+        "ecsCluster",
+        "instancesSecurityGroup"
+      ],
+      "Properties": {
+        "SpotFleetRequestConfigData": {
+          "AllocationStrategy": "diversified",
+          "IamFleetRole": {
+            "Fn::GetAtt": [
+              "spotFleetRole",
+              "Arn"
+            ]
+          },
+          "LaunchSpecifications": [
+            {
+              "IamInstanceProfile": {
+                "Arn": {
+                  "Fn::GetAtt": [
+                    "spotFleetInstanceProfile",
+                    "Arn"
+                  ]
+                }
+              },
+              "ImageId": {
+                "Fn::FindInMap": [
+                  "ecsOptimizedAmiGPU",
+                  {
+                    "Ref": "AWS::Region"
+                  },
+                  "AMI"
+                ]
+              },
+              "InstanceType": {
+                "Ref": "instanceTypeGPU"
+              },
+              "KeyName": {
+                "Ref": "keyName"
+              },
+              "Monitoring": {
+                "Enabled": true
+              },
+              "SecurityGroups": [
+                {
+                  "GroupId": {
+                    "Ref": "instancesSecurityGroup"
+                  }
+                }
+              ],
+              "SubnetId": {
+                "Fn::Join": [
+                  ",",
+                  [
+                    {
+                      "Ref": "publicSubnet1"
+                    },
+                    {
+                      "Ref": "publicSubnet2"
+                    }
+                  ]
+                ]
+              },
+              "UserData": {
+                "Fn::Base64": {
+                  "Fn::Sub": [
+                    "#!/bin/bash -xe\nexport PATH=/usr/local/bin:$PATH\nyum -y --security update\nyum -y install jq\neasy_install pip\npip install awscli\naws configure set default.region ${AWS::Region}\necho ECS_CLUSTER=${ecsCluster} >> /etc/ecs/ecs.config\n\n\ncat <<EOF > /tmp/awslogs.conf\n[general]\nstate_file = /var/awslogs/state/agent-state\n\n\n[/var/log/dmesg]\nfile = /var/log/dmesg\nlog_group_name = ${cloudWatchLogsGroup}\nlog_stream_name = %ECS_CLUSTER/%CONTAINER_INSTANCE/var/log/dmesg\ninitial_position = start_of_file\n\n\n[/var/log/messages]\nfile = /var/log/messages\nlog_group_name = ${cloudWatchLogsGroup}\nlog_stream_name = %ECS_CLUSTER/%CONTAINER_INSTANCE/var/log/messages\ndatetime_format = %b %d %H:%M:%S\ninitial_position = start_of_file\n\n\n[/var/log/docker]\nfile = /var/log/docker\nlog_group_name = ${cloudWatchLogsGroup}\nlog_stream_name = %ECS_CLUSTER/%CONTAINER_INSTANCE/var/log/docker\ndatetime_format = %Y-%m-%dT%H:%M:%S.%f\ninitial_position = start_of_file\n\n\n[/var/log/ecs/ecs-init.log]\nfile = /var/log/ecs/ecs-init.log.*\nlog_group_name = ${cloudWatchLogsGroup}\nlog_stream_name = %ECS_CLUSTER/%CONTAINER_INSTANCE/var/log/ecs/ecs-init.log\ndatetime_format = %Y-%m-%dT%H:%M:%SZ\ninitial_position = start_of_file\n\n\n[/var/log/ecs/ecs-agent.log]\nfile = /var/log/ecs/ecs-agent.log.*\nlog_group_name = ${cloudWatchLogsGroup}\nlog_stream_name = %ECS_CLUSTER/%CONTAINER_INSTANCE/var/log/ecs/ecs-agent.log\ndatetime_format = %Y-%m-%dT%H:%M:%SZ\ninitial_position = start_of_file\n\n\n[/var/log/ecs/audit.log]\nfile = /var/log/ecs/audit.log.*\nlog_group_name = ${cloudWatchLogsGroup}\nlog_stream_name = %ECS_CLUSTER/%CONTAINER_INSTANCE/var/log/ecs/audit.log\ndatetime_format = %Y-%m-%dT%H:%M:%SZ\ninitial_position = start_of_file\nEOF\n\n\ncd /tmp && curl -sO https://s3.amazonaws.com/aws-cloudwatch/downloads/latest/awslogs-agent-setup.py\npython /tmp/awslogs-agent-setup.py -n -r ${AWS::Region} -c /tmp/awslogs.conf\n\n\ncat <<EOF > /etc/init/cloudwatch-logs-start.conf\ndescription \"Configure and start CloudWatch Logs agent on Amazon ECS container instance\"\nauthor \"Amazon Web Services\"\nstart on started ecs\nscript\nexec 2>>/var/log/cloudwatch-logs-start.log\nset -x\nuntil curl -s http://localhost:51678/v1/metadata; do sleep 1; done\nECS_CLUSTER=\\$(curl -s http://localhost:51678/v1/metadata | jq .Cluster | tr -d \\\")\nCONTAINER_INSTANCE=\\$(curl -s http://localhost:51678/v1/metadata | jq .ContainerInstanceArn | tr -d \\\")\nsed -i \"s|%ECS_CLUSTER|\\$ECS_CLUSTER|g\" /var/awslogs/etc/awslogs.conf\nsed -i \"s|%CONTAINER_INSTANCE|\\$CONTAINER_INSTANCE|g\" /var/awslogs/etc/awslogs.conf\nchkconfig awslogs on\nservice awslogs start\nend script\nEOF\n\n\ncat <<EOF > /etc/init/spot-instance-termination-notice-handler.conf\ndescription \"Start spot instance termination handler monitoring script\"\nauthor \"Amazon Web Services\"\nstart on started ecs\nscript\necho \\$\\$ > /var/run/spot-instance-termination-notice-handler.pid\nexec /usr/local/bin/spot-instance-termination-notice-handler.sh\nend script\npre-start script\nlogger \"[spot-instance-termination-notice-handler.sh]: spot instance termination notice handler started\"\nend script\nEOF\n\n\ncat <<EOF > /usr/local/bin/spot-instance-termination-notice-handler.sh\n#!/bin/bash\nwhile sleep 5; do\nif [ -z \\$(curl -Isf http://169.254.169.254/latest/meta-data/spot/termination-time)]; then\n/bin/false\nelse\nlogger \"[spot-instance-termination-notice-handler.sh]: spot instance termination notice detected\"\nSTATUS=DRAINING\nECS_CLUSTER=\\$(curl -s http://localhost:51678/v1/metadata | jq .Cluster | tr -d \\\")\nCONTAINER_INSTANCE=\\$(curl -s http://localhost:51678/v1/metadata | jq .ContainerInstanceArn | tr -d \\\")\nlogger \"[spot-instance-termination-notice-handler.sh]: putting instance in state \\$STATUS\"\nlogger \"[spot-instance-termination-notice-handler.sh]: running: /usr/local/bin/aws ecs update-container-instances-state --cluster \\$ECS_CLUSTER --container-instances \\$CONTAINER_INSTANCE --status \\$STATUS\"\n/usr/local/bin/aws ecs update-container-instances-state --cluster \\$ECS_CLUSTER --container-instances \\$CONTAINER_INSTANCE --status \\$STATUS\nlogger \"[spot-instance-termination-notice-handler.sh]: running: \\\"/usr/local/bin/aws sns publish --topic-arn ${snsTopic} --message \\\"Spot instance termination notice detected. Details: cluster: \\$ECS_CLUSTER, container_instance: \\$CONTAINER_INSTANCE. Putting instance in state \\$STATUS.\\\"\"\n/usr/local/bin/aws sns publish --topic-arn ${snsTopic} --message \"Spot instance termination notice detected. Details: cluster: \\$ECS_CLUSTER, container_instance: \\$CONTAINER_INSTANCE. Putting instance in state \\$STATUS.\"\nlogger \"[spot-instance-termination-notice-handler.sh]: putting myself to sleep...\"\nsleep 120\nfi\ndone\nEOF\n\n\nchmod +x /usr/local/bin/spot-instance-termination-notice-handler.sh\n",
+                    {}
+                  ]
+                }
+              }
+            }
+          ],
+          "SpotPrice": {
+            "Ref": "spotBidPriceGPU"
+          },
+          "TargetCapacity": {
+            "Ref": "ecsClusterTargetCapacityGPU"
+          },
+          "TerminateInstancesWithExpiration": true
+        }
+      },
+      "Type": "AWS::EC2::SpotFleet"
+    },
+    "spotFleetInstanceProfile": {
+      "DependsOn": [
+        "spotFleetInstanceRole"
+      ],
+      "Properties": {
+        "Path": "/",
+        "Roles": [
+          {
+            "Ref": "spotFleetInstanceRole"
+          }
+        ]
+      },
+      "Type": "AWS::IAM::InstanceProfile"
+    },
+    "spotFleetInstanceRole": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "sts:AssumeRole"
+              ],
+              "Effect": "Allow",
+              "Principal": {
+                "Service": [
+                  "ec2.amazonaws.com",
+                  "ecs.amazonaws.com"
+                ]
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "ManagedPolicyArns": [
+          "arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceforEC2Role"
+        ],
+        "Path": "/",
+        "Policies": [
+          {
+            "PolicyDocument": {
+              "Statement": [
+                {
+                  "Action": [
+                    "ecs:UpdateContainerInstancesState"
+                  ],
+                  "Effect": "Allow",
+                  "Resource": "*"
+                }
+              ],
+              "Version": "2012-10-17"
+            },
+            "PolicyName": {
+              "Fn::Join": [
+                "-",
+                [
+                  {
+                    "Ref": "AWS::StackName"
+                  },
+                  "ecsUpdateContainerInstancesStatePolicy"
+                ]
+              ]
+            }
+          },
+          {
+            "PolicyDocument": {
+              "Statement": [
+                {
+                  "Action": [
+                    "logs:CreateLogGroup",
+                    "logs:CreateLogStream",
+                    "logs:PutLogEvents",
+                    "logs:DescribeLogStreams"
+                  ],
+                  "Effect": "Allow",
+                  "Resource": "arn:aws:logs:*:*:*"
+                }
+              ],
+              "Version": "2012-10-17"
+            },
+            "PolicyName": {
+              "Fn::Join": [
+                "-",
+                [
+                  {
+                    "Ref": "AWS::StackName"
+                  },
+                  "cloudWatchLogsPolicy"
+                ]
+              ]
+            }
+          },
+          {
+            "PolicyDocument": {
+              "Statement": [
+                {
+                  "Action": [
+                    "sns:Publish"
+                  ],
+                  "Effect": "Allow",
+                  "Resource": {
+                    "Ref": "snsTopic"
+                  }
+                }
+              ],
+              "Version": "2012-10-17"
+            },
+            "PolicyName": {
+              "Fn::Join": [
+                "-",
+                [
+                  {
+                    "Ref": "AWS::StackName"
+                  },
+                  "snsPublishPolicy"
+                ]
+              ]
+            }
+          }
+        ]
+      },
+      "Type": "AWS::IAM::Role"
+    },
+    "spotFleetRole": {
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "sts:AssumeRole"
+              ],
+              "Effect": "Allow",
+              "Principal": {
+                "Service": [
+                  "spotfleet.amazonaws.com"
+                ]
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "ManagedPolicyArns": [
+          "arn:aws:iam::aws:policy/service-role/AmazonEC2SpotFleetRole"
+        ],
+        "Path": "/"
+      },
+      "Type": "AWS::IAM::Role"
+    },
+    "vpc": {
+      "Properties": {
+        "CidrBlock": {
+          "Fn::FindInMap": [
+            "CidrMappings",
+            "vpc",
+            "CIDR"
+          ]
+        },
+        "EnableDnsHostnames": true,
+        "EnableDnsSupport": true,
+        "Tags": [
+          {
+            "Key": "Name",
+            "Value": "VPC for ECS on EC2 Spot fleet"
+          }
+        ]
+      },
+      "Type": "AWS::EC2::VPC"
+    }
+  }
+}

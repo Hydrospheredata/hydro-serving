@@ -8,24 +8,38 @@ import akka.stream.ActorMaterializer
 import com.typesafe.config.ConfigFactory
 import org.apache.logging.log4j.scala.Logging
 
-import scala.concurrent.Await
+import scala.concurrent.{Await, Future}
 import scala.concurrent.duration.Duration
+import scala.util.{Failure, Success}
 
 /**
   *
   */
 object StreamingKafkaBoot extends App with Logging {
   try {
+
     implicit val system = ActorSystem("streaming-kafka")
     implicit val materializer = ActorMaterializer()
     implicit val ex = system.dispatcher
 
-    val configuration = StreamingKafkaConfiguration.parse(ConfigFactory.load())
+    val conf = StreamingKafkaConfiguration.parse(ConfigFactory.load())
 
     val httpApi = new StreamingKafkaApi()
-    val streamingKafkaService = new StreamingKafkaService(configuration)
+    val servingProcessor = SidecarServingProcessor(conf.sidecar, conf.streaming.processorRoute)
+    val kafkaStream = {
+      import conf.streaming._
+      StreamingKafkaService.kafkaStream(sourceTopic, destinationTopic, servingProcessor)
+    }
 
-    Http().bindAndHandle(httpApi.routes, "0.0.0.0", configuration.application.port)
+    kafkaStream.run().onComplete({
+      case Success(_) =>
+        system.terminate()
+      case Failure(e) =>
+        system.log.error(e, e.getMessage)
+        system.terminate()
+    })
+
+    Http().bindAndHandle(httpApi.routes, "0.0.0.0", conf.application.port)
 
     sys addShutdownHook {
       logger.info("Stopping all the contexts")
@@ -39,7 +53,7 @@ object StreamingKafkaBoot extends App with Logging {
       }
     }
 
-    logger.info(s"Started service on port: ${configuration.application.port}")
+    logger.info(s"Started service on port: ${conf.application.port}")
   } catch {
     case e: Throwable =>
       logger.error("Fatal error", e)

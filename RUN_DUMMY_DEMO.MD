@@ -25,6 +25,8 @@ docker run -e ADVERTISED_MANAGER_HOST=$HOST_IP \
     -e DATABASE_HOST=$HOST_IP \
     -e ZIPKIN_ENABLED=true \
     -e ZIPKIN_HOST=$HOST_IP \
+    -e LOCAL_MODEL_PATH=/models \
+    -e NETWORK_NAME=bridge
     -p 8080:8080 -p 8082:8082 -p 9090:9090 \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -v ${MODEL_DIRECTORY}:/models \
