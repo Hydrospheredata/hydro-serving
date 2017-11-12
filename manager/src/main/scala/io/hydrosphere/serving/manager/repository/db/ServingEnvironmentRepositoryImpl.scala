@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.repository.db
 
 import io.hydrosphere.serving.manager.controller.ManagerJsonSupport
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model.ServingEnvironment
+import io.hydrosphere.serving.model.ServingEnvironment
 import io.hydrosphere.serving.manager.repository.ServingEnvironmentRepository
 import org.apache.logging.log4j.scala.Logging
 
@@ -52,11 +52,8 @@ object ServingEnvironmentRepositoryImpl extends ManagerJsonSupport {
 
   import spray.json._
 
-  def mapFromDb(dbType: Option[Tables.ServingEnvironment#TableElementType]): Option[ServingEnvironment] = dbType match {
-    case Some(r: Tables.ServingEnvironment#TableElementType) =>
-      Some(mapFromDb(r))
-    case _ => None
-  }
+  def mapFromDb(dbType: Option[Tables.ServingEnvironment#TableElementType]): Option[ServingEnvironment] =
+    dbType.map(r => mapFromDb(r))
 
   def mapFromDb(dbType: Tables.ServingEnvironment#TableElementType): ServingEnvironment = {
     ServingEnvironment(

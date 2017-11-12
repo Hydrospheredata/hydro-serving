@@ -45,8 +45,6 @@ trait ManagerJsonSupport extends CommonJsonSupport {
   implicit val localModelFormat = jsonFormat3(LocalModelSourceEntry.apply)
   implicit val s3ModelFormat = jsonFormat7(S3ModelSourceEntry.apply)
 
-  implicit val servingEnvironmentFormat = jsonFormat3(ServingEnvironment)
-
   implicit val createServingEnvironmentFormat = jsonFormat2(CreateServingEnvironment)
 
   implicit object ModelSourceJsonFormat extends RootJsonFormat[ModelSource] {
