@@ -28,6 +28,8 @@ trait ManagerRepositories {
   val sourceRepository: SourceConfigRepository
 
   val weightedServiceRepository: WeightedServiceRepository
+
+  val servingEnvironmentRepository: ServingEnvironmentRepository
 }
 
 class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit executionContext: ExecutionContext)
@@ -55,4 +57,6 @@ class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit execution
   val sourceRepository: SourceConfigRepository = new SourceConfigRepositoryImpl(config)
 
   val weightedServiceRepository: WeightedServiceRepository = new WeightedServiceRepositoryImpl
+
+  val servingEnvironmentRepository: ServingEnvironmentRepository = new ServingEnvironmentRepositoryImpl
 }

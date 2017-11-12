@@ -40,8 +40,8 @@ class CachedProxyRuntimeDeployService(original: RuntimeDeployService) extends Ru
   override def service(serviceId: Long): Option[ServiceInfo] =
     serviceCache.get(serviceId)
 
-  override def deploy(runtime: ModelService): String =
-    original.deploy(runtime)
+  override def deploy(runtime: ModelService, placeholders: Seq[Any]): String =
+    original.deploy(runtime, placeholders)
 
   override def deleteService(serviceId: Long): Unit =
     original.deleteService(serviceId)

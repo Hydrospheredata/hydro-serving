@@ -29,11 +29,18 @@ case class ModelRuntime(
   tags: List[String]
 )
 
+case class ServingEnvironment(
+  id: Long,
+  name: String,
+  placeholders: Seq[Any]
+)
+
 case class ModelService(
   serviceId: Long,
   serviceName: String,
   cloudDriverId: Option[String],
   modelRuntime: ModelRuntime,
+  environment: Option[ServingEnvironment],
   status: Option[String],
   statusText: Option[String],
   configParams: Map[String, String]
