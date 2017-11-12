@@ -81,7 +81,7 @@ class RuntimeManagementServiceImpl(
 )(implicit val ex: ExecutionContext) extends RuntimeManagementService {
 
   override def allServices(): Future[Seq[ModelService]] =
-    Future(runtimeDeployService.serviceList())
+    Future.successful(runtimeDeployService.serviceList())
       .flatMap(serviceInfoList => {
         modelServiceRepository.all().map(seqInDatabase => {
           mergeServiceInfo(serviceInfoList, seqInDatabase)
@@ -141,17 +141,18 @@ class RuntimeManagementServiceImpl(
     //if(r.serviceName) throw new IllegalArgumentException
     //TODO ADD validation for names manager,gateway + length + without space and special symbols
     fetchServingEnvironment(r.environmentId).flatMap(svEnv => {
-      modelRuntimeRepository.get(r.modelRuntimeId).flatMap({
+      modelRuntimeRepository.get(r.modelRuntimeId).flatMap {
         case None => throw new IllegalArgumentException(s"Can't find ModelRuntime with id=${r.modelRuntimeId}")
-        case runtime => modelServiceRepository.create(r.toModelService(runtime.get, if (svEnv.id > 0) Some(svEnv) else None))
-          .flatMap(s =>
-            Future(
-              s.copy(cloudDriverId = Some(runtimeDeployService.deploy(s, svEnv.placeholders)))
-            ).flatMap(service =>
-              modelServiceRepository.updateCloudDriveId(service.serviceId, service.cloudDriverId)
-                .map(_ => service))
-          )
-      })
+        case runtime => modelServiceRepository
+          .create(r.toModelService(runtime.get, if (svEnv.id > 0) Some(svEnv) else None))
+          .map { s =>
+            s.copy(cloudDriverId = Some(runtimeDeployService.deploy(s, svEnv.placeholders)))
+          }
+          .flatMap { service =>
+            modelServiceRepository.updateCloudDriveId(service.serviceId, service.cloudDriverId)
+              .map(_ => service)
+          }
+      }
     })
   }
 
@@ -160,9 +161,8 @@ class RuntimeManagementServiceImpl(
       case MANAGER_NAME => Future(runtimeDeployService.serviceInstances(MANAGER_ID))
       case GATEWAY_NAME => Future(runtimeDeployService.serviceInstances(GATEWAY_ID))
       case _ => modelServiceRepository.getByServiceName(serviceName)
-        .flatMap {
-          case Some(service) =>
-            Future(runtimeDeployService.serviceInstances(service.serviceId))
+        .map {
+          case Some(service) => runtimeDeployService.serviceInstances(service.serviceId)
           case _ => throw new IllegalArgumentException(s"Can't find service for name $serviceName")
         }
     }

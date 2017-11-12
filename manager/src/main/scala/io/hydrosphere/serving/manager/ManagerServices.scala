@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager
 
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
+import akka.util.Timeout
 import com.spotify.docker.client._
 import io.hydrosphere.serving.connector._
 import io.hydrosphere.serving.manager.connector.HttpEnvoyAdminConnector
@@ -22,7 +23,8 @@ class ManagerServices(
 )(
   implicit val ex: ExecutionContext,
   implicit val system: ActorSystem,
-  implicit val materializer: ActorMaterializer
+  implicit val materializer: ActorMaterializer,
+  implicit val timeout: Timeout
 ) {
 
   val dockerClient: DockerClient = DefaultDockerClient.fromEnv().build()
