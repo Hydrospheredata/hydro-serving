@@ -111,7 +111,7 @@ CREATE TABLE hydro_serving.model_service
 CREATE TABLE hydro_serving.application
 (
   id                BIGSERIAL PRIMARY KEY,
-  service_name      TEXT    NOT NULL UNIQUE,
+  application_name      TEXT    NOT NULL UNIQUE,
   execution_graph   TEXT    NOT NULL,
   sources_list      TEXT [] NOT NULL,
   services_in_stage TEXT [] NOT NULL

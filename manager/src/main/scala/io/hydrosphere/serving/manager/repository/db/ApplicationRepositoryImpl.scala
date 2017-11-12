@@ -12,7 +12,7 @@ import scala.concurrent.{ExecutionContext, Future}
   */
 class ApplicationRepositoryImpl(
   implicit val executionContext: ExecutionContext,
-  implicit val databaseService: DatabaseService
+  databaseService: DatabaseService
 ) extends ApplicationRepository with Logging with CommonJsonSupport {
 
   import spray.json._
@@ -58,7 +58,7 @@ class ApplicationRepositoryImpl(
     val query = for {
       serv <- Tables.Application if serv.id === value.id
     } yield (
-      serv.serviceName,
+      serv.applicationName,
       serv.executionGraph,
       serv.sourcesList,
       serv.servicesInStage
@@ -78,6 +78,13 @@ class ApplicationRepositoryImpl(
         .filter(p => p.servicesInStage @> servicesIds.map(v => v.toString).toList)
         .result
     ).map(s => s.map(ss => mapFromDb(ss)))
+
+  override def getByName(name: String): Future[Option[Application]] =
+    db.run(
+      Tables.Application
+        .filter(_.applicationName === name)
+        .result.headOption
+    ).map(s => mapFromDb(s))
 }
 
 object ApplicationRepositoryImpl extends CommonJsonSupport {
@@ -93,7 +100,7 @@ object ApplicationRepositoryImpl extends CommonJsonSupport {
   def mapFromDb(dbType: Tables.Application#TableElementType): Application = {
     Application(
       id = dbType.id,
-      name = dbType.serviceName,
+      name = dbType.applicationName,
       executionGraph = dbType.executionGraph.parseJson.convertTo[ApplicationExecutionGraph],
       sourcesList = dbType.sourcesList.map(v => v.toLong)
     )

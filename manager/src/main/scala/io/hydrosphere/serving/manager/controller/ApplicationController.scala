@@ -3,11 +3,11 @@ package io.hydrosphere.serving.manager.controller
 import javax.ws.rs.Path
 
 import akka.http.scaladsl.server.Directives._
-import akka.http.scaladsl.server.Directives.{complete, get, path}
+import akka.http.scaladsl.server.Route
 import akka.util.Timeout
-import io.hydrosphere.serving.controller.TracingHeaders
-import io.hydrosphere.serving.model.{ModelService, Application}
-import io.hydrosphere.serving.manager.service.{ServingManagementService, ApplicationCreateOrUpdateRequest}
+import io.hydrosphere.serving.controller.{ServingDataDirectives, TracingHeaders}
+import io.hydrosphere.serving.model.Application
+import io.hydrosphere.serving.manager.service._
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
@@ -22,7 +22,9 @@ case class AddApplicationSourceRequest(
   */
 @Path("/api/v1/applications")
 @Api(produces = "application/json", tags = Array("Deployment: Application"))
-class ApplicationController(servingManagementService: ServingManagementService) extends ManagerJsonSupport {
+class ApplicationController(
+  servingManagementService: ServingManagementService
+) extends ManagerJsonSupport with ServingDataDirectives{
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/")
@@ -95,23 +97,53 @@ class ApplicationController(servingManagementService: ServingManagementService) 
     }
   }
 
-  @Path("/serve")
+  @Path("/serve/{applicationName}")
   @ApiOperation(value = "Serve Application", notes = "Serve Application", nickname = "ServeApplication", httpMethod = "POST")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[ServeData], required = true, paramType = "body")
+    new ApiImplicitParam(name = "applicationName", required = true, dataType = "string", paramType = "path", value = "applicationName"),
+    new ApiImplicitParam(name = "body", value = "Any", required = true, paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any", response = classOf[ServeData]),
+    new ApiResponse(code = 200, message = "Any"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def serveService = path("api" / "v1" / "applications" / "serve") {
+  def serve = path("api" / "v1" / "applications" / "serve" / Segment)  { name =>
     post {
       extractRequest { request =>
-        entity(as[ServeData]) { r =>
-          complete(
-            servingManagementService.serveApplication(r.id, r.path.getOrElse("/serve"), r.data, request.headers
-              .filter(h => TracingHeaders.isTracingHeaderName(h.name())))
+        extractRawData { bytes =>
+          val serveRequest = ServeRequest(
+            serviceKey = ApplicationName(name),
+            servePath = "/serve",
+            headers = request.headers.filter(h => TracingHeaders.isTracingHeaderName(h.name())),
+            inputData = bytes
           )
+          completeExecutionResult(servingManagementService.serve(serveRequest))
+        }
+      }
+    }
+  }
+
+  @Path("/serveById/{applicationId}")
+  @ApiOperation(value = "Serve Application", notes = "Serve Application", nickname = "ServeApplication", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "applicationId", required = true, dataType = "long", paramType = "path", value = "modelId"),
+    new ApiImplicitParam(name = "body", value = "Any", required = true, paramType = "body")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Any"),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def serveById = path("api" / "v1" / "applications" / "serveById" / LongNumber)  { id =>
+    post {
+      extractRequest { request =>
+        extractRawData { bytes =>
+          val serveRequest = ServeRequest(
+            serviceKey = ApplicationKey(id),
+            servePath = "/serve",
+            headers = request.headers.filter(h => TracingHeaders.isTracingHeaderName(h.name())),
+            inputData = bytes
+          )
+          completeExecutionResult(servingManagementService.serve(serveRequest))
         }
       }
     }
@@ -122,6 +154,7 @@ class ApplicationController(servingManagementService: ServingManagementService) 
       create ~
       update ~
       deleteApplication ~
-      serveService
+      serve ~
+      serveById
 
 }
