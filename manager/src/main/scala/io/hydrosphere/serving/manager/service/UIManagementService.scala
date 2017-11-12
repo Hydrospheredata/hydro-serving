@@ -8,6 +8,7 @@ import akka.pattern.ask
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.actor.ContainerWatcher
 import io.hydrosphere.serving.manager.actor.ContainerWatcher.{Started, Stopped, WatchForStart, WatchForStop}
+import io.hydrosphere.serving.connector.ExecutionResult
 import io.hydrosphere.serving.model.{ModelRuntime, ModelService, ServiceWeight, WeightedService}
 import io.hydrosphere.serving.manager.model.{Model, ModelBuild}
 import io.hydrosphere.serving.manager.repository.{ModelBuildRepository, ModelRepository, ModelRuntimeRepository, ModelServiceRepository}
@@ -89,7 +90,7 @@ trait UIManagementService {
 
   def stopAllServices(modelId: Long): Future[Unit]
 
-  def testModel(modelId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
+  def testModel(modelId: Long, servePath: String, request: Array[Byte], headers: Seq[HttpHeader]): Future[ExecutionResult]
 
   def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelInfo]
 
@@ -165,14 +166,20 @@ class UIManagementServiceImpl(
         }
       }.mapTo[Unit]
 
-  override def testModel(modelId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
+  override def testModel(modelId: Long, servePath: String, request: Array[Byte], headers: Seq[HttpHeader]): Future[ExecutionResult] =
     modelServiceRepository.getByModelIds(Seq(modelId)).flatMap(services => {
       val serviceFuture = services.headOption match {
         case None => startAndWaitService(modelId)
         case Some(x) => Future.successful(x)
       }
       serviceFuture.flatMap(service => {
-        servingManagementService.serveModelService(service.serviceId, servePath, request, headers)
+        val serveRequest = ServeRequest(
+          serviceKey = ModelById(service.serviceId),
+          servePath = "/serve",
+          headers = headers,
+          inputData = request
+        )
+        servingManagementService.serve(serveRequest)
       })
     })
 

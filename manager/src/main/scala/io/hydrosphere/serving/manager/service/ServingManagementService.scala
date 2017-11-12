@@ -9,6 +9,7 @@ import io.hydrosphere.serving.model.ModelService
 import io.hydrosphere.serving.model.{ServiceWeight, WeightedService}
 import io.hydrosphere.serving.manager.repository.{EndpointRepository, ModelServiceRepository, PipelineRepository, WeightedServiceRepository}
 import io.hydrosphere.serving.model.{Endpoint, Pipeline, PipelineStage}
+import org.apache.logging.log4j.scala.Logging
 import io.hydrosphere.serving.model_api.ApiGenerator
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -73,7 +74,6 @@ case class CreatePipelineRequest(
   }
 }
 
-
 trait ServingManagementService {
 
   def allWeightedServices(): Future[Seq[WeightedService]]
@@ -88,8 +88,6 @@ trait ServingManagementService {
 
   def getWeightedService(id: Long): Future[Option[WeightedService]]
 
-  def serveWeightedService(serviceId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
-
   def deleteEndpoint(endpointId: Long): Future[Unit]
 
   def addEndpoint(r: CreateEndpointRequest): Future[Endpoint]
@@ -102,13 +100,7 @@ trait ServingManagementService {
 
   def allPipelines(): Future[Seq[Pipeline]]
 
-  def serveModelService(serviceId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
-
-  def serveModelServiceByModelName(modelName: String, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
-
-  def serveModelServiceByModelNameAndVersion(modelName: String, modelVersion: String, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
-
-  def servePipeline(pipelineId: Long, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
+  def serve(req: ServeRequest): Future[ExecutionResult]
 
   def generateModelPayload(modelName: String, modelVersion: String): Future[Seq[Any]]
 
@@ -122,7 +114,7 @@ class ServingManagementServiceImpl(
   runtimeMeshConnector: RuntimeMeshConnector,
   weightedServiceRepository: WeightedServiceRepository,
   runtimeManagementService: RuntimeManagementService
-)(implicit val ex: ExecutionContext) extends ServingManagementService {
+)(implicit val ex: ExecutionContext) extends ServingManagementService with Logging {
 
   override def deletePipeline(pipelineId: Long): Future[Unit] =
     pipelineRepository.delete(pipelineId).map(p => Unit)
@@ -147,48 +139,49 @@ class ServingManagementServiceImpl(
   override def deleteEndpoint(endpointId: Long): Future[Unit] =
     endpointRepository.delete(endpointId).map(p => Unit)
 
-  private def serveModelService(service: ModelService, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
-    runtimeMeshConnector.execute(ExecutionCommand(
-      headers = headers,
-      json = request,
-      pipe = Seq(ExecutionUnit(
-        serviceName = service.serviceName,
-        servicePath = servePath
-      ))
-    )).map(mapMeshExecutionResult)
+  override def serve(req: ServeRequest): Future[ExecutionResult] = {
+    import ToPipelineStages._
 
-  override def serveModelService(serviceId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
-    modelServiceRepository.get(serviceId).flatMap({
-      case None => throw new IllegalArgumentException(s"Wrong service Id=$serviceId")
-      case Some(service) =>
-        serveModelService(service, servePath, request, headers)
-    })
+    def buildStages[A](target: Option[A], error: => String)
+      (implicit conv: ToPipelineStages[A]): Future[Seq[ExecutionUnit]] = {
 
-  private def mapMeshExecutionResult(r: ExecutionResult): Seq[Any] = {
-    r.status match {
-      case StatusCodes.OK =>
-        r.json
-      case StatusCodes.BadRequest =>
-        throw new IllegalArgumentException(r.json.toString())
-      case _ =>
-        throw new RuntimeException(r.json.toString())
+      target match  {
+        case None => Future.failed(new IllegalArgumentException(error))
+        case Some(a) => Future.successful(conv.toStages(a, req.servePath))
+      }
     }
-  }
 
-  override def servePipeline(pipelineId: Long, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
-    pipelineRepository.get(pipelineId).flatMap({
-      case None => throw new IllegalArgumentException(s"Can't find Pipeline with id $pipelineId")
-      case Some(r) =>
-        runtimeMeshConnector.execute(ExecutionCommand(
-          headers = headers,
-          json = request,
-          pipe = r.stages
-            .map(s => ExecutionUnit(
-              serviceName = s.serviceName,
-              servicePath = s.servePath
-            ))
-        )).map(mapMeshExecutionResult)
+    val stagesFuture = req.serviceKey match {
+      case PipelineKey(id) =>
+        val f = pipelineRepository.get(id)
+        f.flatMap(p => buildStages(p, s"Can't find Pipeline with id: $id"))
+      case WeightedKey(id) =>
+        val f = getWeightedService(id)
+        f.flatMap(w => buildStages(w, s"Can't find WeightedService with id: $id"))
+      case WeightedName(name) =>
+        val f = weightedServiceRepository.getByName(name)
+        f.flatMap(w => buildStages(w, s"Can't find WeightedService with name: $name"))
+      case ModelById(id) =>
+        val f = modelServiceRepository.get(id)
+        f.flatMap(m => buildStages(m, s"Can't find model with id: $id"))
+      case ModelByName(name, None) =>
+        val f = modelServiceRepository.getLastModelServiceByModelName(name)
+        f.flatMap(m => buildStages(m, s"Can find model with name: $name"))
+      case ModelByName(name, Some(version)) =>
+        val f = modelServiceRepository.getLastModelServiceByModelNameAndVersion(name, version)
+        f.flatMap(m => buildStages(m, s"Can find model with name: $name, version: $version"))
+    }
+
+    stagesFuture.flatMap(stages => {
+      val cmd = ExecutionCommand(
+        headers = req.headers,
+        json = req.inputData,
+        pipe = stages
+      )
+      logger.info(s"TRY INVOKE $cmd")
+      runtimeMeshConnector.execute(cmd)
     })
+  }
 
   private def fetchPipeline(id: Option[Long]): Future[Option[Pipeline]] = {
     if (id.isEmpty) {
@@ -214,7 +207,6 @@ class ServingManagementServiceImpl(
       weightedServiceRepository.update(service).map(_ => service)
     })
 
-
   override def deleteWeightedService(id: Long): Future[Unit] =
     weightedServiceRepository.get(id).flatMap({
       case Some(x) =>
@@ -235,35 +227,6 @@ class ServingManagementServiceImpl(
         })
   }
 
-  override def serveWeightedService(
-    serviceId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
-    getWeightedServiceWithCheck(serviceId).flatMap(r => {
-      runtimeMeshConnector.execute(ExecutionCommand(
-        headers = headers,
-        json = request,
-        pipe = Seq(ExecutionUnit(
-          serviceName = r.serviceName,
-          servicePath = servePath
-        ))
-      )).map(mapMeshExecutionResult)
-    })
-
-  override def serveModelServiceByModelName(modelName: String, servePath: String,
-    request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
-    modelServiceRepository.getLastModelServiceByModelName(modelName).flatMap({
-      case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
-      case Some(service) =>
-        serveModelService(service, servePath, request, headers)
-    })
-
-  override def serveModelServiceByModelNameAndVersion(modelName: String, modelVersion: String, servePath: String,
-    request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
-    modelServiceRepository.getLastModelServiceByModelNameAndVersion(modelName, modelVersion).flatMap({
-      case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName and version=$modelVersion")
-      case Some(service) =>
-        serveModelService(service, servePath, request, headers)
-    })
-
   override def generateModelPayload(modelName: String, modelVersion: String): Future[Seq[Any]] = {
     modelServiceRepository.getLastModelServiceByModelNameAndVersion(modelName, modelVersion).map{
       case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
@@ -272,16 +235,10 @@ class ServingManagementServiceImpl(
   }
 
   override def generateModelPayload(modelName: String): Future[Seq[Any]] = {
-    modelServiceRepository.getLastModelServiceByModelName(modelName).map{
+    modelServiceRepository.getLastModelServiceByModelName(modelName).map {
       case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
       case Some(service) => List(new ApiGenerator(service.modelRuntime.inputFields).generate)
     }
-  }
-  private def getWeightedServiceWithCheck(serviceId: Long): Future[WeightedService] = {
-    weightedServiceRepository.get(serviceId).map({
-      case None => throw new IllegalArgumentException(s"Can't find WeightedService with id $serviceId")
-      case Some(r) => r
-    })
   }
 
   override def getWeightedService(id: Long): Future[Option[WeightedService]] =
