@@ -41,6 +41,7 @@ case class EnvoyRouteWeightedClusters(
 case class EnvoyRoute(
   prefix: String,
   cluster: Option[String],
+  timeout_ms: Option[Int],
   weighted_clusters: Option[EnvoyRouteWeightedClusters]
 )
 
@@ -115,6 +116,7 @@ class EnvoyManagementServiceImpl(
                 routes = Seq(EnvoyRoute(
                   prefix = "/",
                   cluster = None,
+                  timeout_ms = Some(60000),
                   weighted_clusters = weights))
               )
               if(s.sourcesList.nonEmpty){
@@ -124,6 +126,7 @@ class EnvoyManagementServiceImpl(
                   routes = Seq(EnvoyRoute(
                     prefix = "/",
                     cluster = None,
+                    timeout_ms = Some(60000),
                     weighted_clusters = weights))
                 )
               }
@@ -134,7 +137,7 @@ class EnvoyManagementServiceImpl(
                 routeHosts += EnvoyRouteHost(
                   name = s.serviceName.toLowerCase,
                   domains = Seq(s.serviceName.toLowerCase),
-                  routes = Seq(EnvoyRoute("/", Some(s.serviceName), None))
+                  routes = Seq(EnvoyRoute("/", Some(s.serviceName), timeout_ms = Some(60000), None))
                 )
               })
 
@@ -142,14 +145,14 @@ class EnvoyManagementServiceImpl(
               routeHosts += EnvoyRouteHost(
                 name = s.instanceId.toLowerCase,
                 domains = Seq(s.instanceId.toLowerCase),
-                routes = Seq(EnvoyRoute("/", Some(UUID.nameUUIDFromBytes(s.instanceId.getBytes()).toString), None))
+                routes = Seq(EnvoyRoute("/", Some(UUID.nameUUIDFromBytes(s.instanceId.getBytes()).toString), timeout_ms = Some(60000), None))
               )
             })
 
             routeHosts += EnvoyRouteHost(
               name = "all",
               domains = Seq("*"),
-              routes = Seq(EnvoyRoute("/", Some(modelService.serviceName), None))
+              routes = Seq(EnvoyRoute("/", Some(modelService.serviceName), timeout_ms = Some(60000), None))
             )
 
             EnvoyRouteConfig(

@@ -71,6 +71,13 @@ class WeightedServiceRepositoryImpl(implicit executionContext: ExecutionContext,
           //.filter(p => p.tags @> tags.toList) TODO
         .result
     ).map(s => s.map(ss => mapFromDb(ss)))
+
+  override def getByName(name: String): Future[Option[WeightedService]] =
+    db.run(
+      Tables.WeightedService
+        .filter(_.serviceName === name)
+        .result.headOption
+    ).map(s => mapFromDb(s))
 }
 
 object WeightedServiceRepositoryImpl {

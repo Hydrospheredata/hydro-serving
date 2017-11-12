@@ -8,7 +8,9 @@ import scala.concurrent.Future
   *
   */
 trait WeightedServiceRepository extends BaseRepository[WeightedService, Long] {
+  def getByName(name: String): Future[Option[WeightedService]]
+
   def update(value: WeightedService): Future[Int]
 
-  def byModelServiceIds(servicesIds:Seq[Long]): Future[Seq[WeightedService]]
+  def byModelServiceIds(servicesIds: Seq[Long]): Future[Seq[WeightedService]]
 }

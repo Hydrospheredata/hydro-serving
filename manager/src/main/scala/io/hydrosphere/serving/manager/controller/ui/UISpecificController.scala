@@ -5,8 +5,8 @@ import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Directives.{complete, get, path}
 import akka.util.Timeout
-import io.hydrosphere.serving.controller.TracingHeaders
-import io.hydrosphere.serving.manager.controller.{BuildModelRequest, ServeData}
+import io.hydrosphere.serving.controller.{ServingDataDirectives, TracingHeaders}
+import io.hydrosphere.serving.manager.controller.BuildModelRequest
 import io.hydrosphere.serving.manager.service.{ModelInfo, UIManagementService}
 import io.swagger.annotations._
 
@@ -16,7 +16,7 @@ import scala.concurrent.duration._
 @Api(produces = "application/json", tags = Array("UI: Model"))
 class UISpecificController(
   uiManagementService: UIManagementService
-) extends UIJsonSupport {
+) extends UIJsonSupport with ServingDataDirectives {
   implicit val timeout = Timeout(5.seconds)
 
   @Path("/withInfo")
@@ -69,18 +69,18 @@ class UISpecificController(
   @Path("/serve")
   @ApiOperation(value = "Serve Model", notes = "Serve Model", nickname = "ServeModel", httpMethod = "POST")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[ServeData], required = true, paramType = "body")
+    new ApiImplicitParam(name = "body", value = "Any", required = true, paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any", response=classOf[ServeData]),
+    new ApiResponse(code = 200, message = "Any"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def serveService = path("ui" / "v1" / "model" / "serve" ) {
+  def serveService = path("ui" / "v1" / "model" / "serve" / LongNumber) { id =>
     post {
       extractRequest { request =>
-        entity(as[ServeData]) { r =>
-          complete(
-            uiManagementService.testModel(r.id, r.path.getOrElse("/serve"), r.data, request.headers
+        extractRawData { bytes =>
+          completeExecutionResult(
+            uiManagementService.testModel(id, "/serve", bytes, request.headers
               .filter(h => TracingHeaders.isTracingHeaderName(h.name())))
           )
         }
