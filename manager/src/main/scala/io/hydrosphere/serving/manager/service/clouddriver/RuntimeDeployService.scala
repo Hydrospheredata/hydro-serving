@@ -37,7 +37,7 @@ trait RuntimeDeployService {
   val LABEL_RUNTIME_TYPE_VERSION = "RUNTIME_TYPE_VERSION"
 
 
-  def deploy(runtime: ModelService): String
+  def deploy(runtime: ModelService, placeholders: Seq[Any]): String
 
   def serviceList(): Seq[ServiceInfo]
 
