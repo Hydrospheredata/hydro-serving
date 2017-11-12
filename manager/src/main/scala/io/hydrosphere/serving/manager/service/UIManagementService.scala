@@ -2,7 +2,12 @@ package io.hydrosphere.serving.manager.service
 
 import java.util.UUID
 
+import akka.actor.ActorSystem
 import akka.http.scaladsl.model.HttpHeader
+import akka.pattern.ask
+import akka.util.Timeout
+import io.hydrosphere.serving.manager.actor.ContainerWatcher
+import io.hydrosphere.serving.manager.actor.ContainerWatcher.{Started, Stopped, WatchForStart, WatchForStop}
 import io.hydrosphere.serving.connector.ExecutionResult
 import io.hydrosphere.serving.model.{ModelRuntime, ModelService, ServiceWeight, WeightedService}
 import io.hydrosphere.serving.manager.model.{Model, ModelBuild}
@@ -100,8 +105,8 @@ class UIManagementServiceImpl(
   runtimeManagementService: RuntimeManagementService,
   servingManagementService: ServingManagementService,
   modelManagementService: ModelManagementService
-)(implicit val ex: ExecutionContext) extends UIManagementService with Logging {
-
+)(implicit val ex: ExecutionContext, val actorSystem: ActorSystem, val timeout: Timeout) extends UIManagementService with Logging {
+  private val containerWatcher = actorSystem.actorOf(ContainerWatcher.props)
 
   //TODO Optimize implementation
   override def allModelsWithLastStatus(): Future[Seq[ModelInfo]] =
@@ -151,11 +156,15 @@ class UIManagementServiceImpl(
 
 
   override def stopAllServices(modelId: Long): Future[Unit] =
-    modelServiceRepository.getByModelIds(Seq(modelId)).flatMap(services => {
-      Future.traverse(services)(s =>
-        runtimeManagementService.deleteService(s.serviceId)
-          .flatMap(_ => waitForContainerStop(s))).map(s => Unit)
-    })
+    modelServiceRepository
+      .getByModelIds(Seq(modelId))
+      .flatMap{ services =>
+        Future.traverse(services) { s =>
+          runtimeManagementService
+            .deleteService(s.serviceId)
+            .flatMap(_ => containerWatcher ? WatchForStop(s))
+        }
+      }.mapTo[Unit]
 
   override def testModel(modelId: Long, servePath: String, request: Array[Byte], headers: Seq[HttpHeader]): Future[ExecutionResult] =
     modelServiceRepository.getByModelIds(Seq(modelId)).flatMap(services => {
@@ -176,15 +185,20 @@ class UIManagementServiceImpl(
 
 
   private def startAndWaitService(modelId: Long, environmentId:Option[Long]): Future[ModelService] =
-    modelRuntimeRepository.lastModelRuntimeByModel(modelId, 1).flatMap(runtimes => {
-      runtimes.headOption match {
-        case None => throw new IllegalArgumentException("Can't find runtime for model")
-        case Some(x) =>
-          runtimeManagementService.addService(createModelServiceRequest(x, environmentId)).flatMap(res => {
-            waitForContainerStart(res).map(c => res)
-          })
+    modelRuntimeRepository
+      .lastModelRuntimeByModel(modelId, 1)
+      .flatMap { runtimes =>
+        runtimes.headOption match {
+          case None => throw new IllegalArgumentException("Can't find runtime for model")
+          case Some(x) =>
+            runtimeManagementService
+              .addService(createModelServiceRequest(x, environmentId))
+              .flatMap { res =>
+                val f = containerWatcher ? WatchForStart(res)
+                f.mapTo[Started].map(_.modelService)
+              }
+        }
       }
-    })
 
   private def createModelServiceRequest(x:ModelRuntime, environmentId:Option[Long]):CreateModelServiceRequest={
     CreateModelServiceRequest(
