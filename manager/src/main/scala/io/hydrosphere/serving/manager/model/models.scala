@@ -78,7 +78,7 @@ class UnknownModelRuntime extends ModelRuntime(
 )
 
 class AnyServingEnvironment extends ServingEnvironment(
-  AnyServingEnvironment.anyServingEnvironmentId, "any", AnyServingEnvironment.emptyPlaceholder
+  AnyServingEnvironment.anyServingEnvironmentId, "Without Env", AnyServingEnvironment.emptyPlaceholder
 )
 
 object AnyServingEnvironment {
