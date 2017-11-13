@@ -12,7 +12,9 @@ import io.hydrosphere.serving.config.SidecarConfig
 import io.hydrosphere.serving.model.CommonJsonSupport
 import org.apache.logging.log4j.scala.Logging
 
+import scala.concurrent.duration._
 import scala.concurrent.Future
+import scala.util.{Failure, Success}
 
 case class ExecutionUnit(
   serviceName: String,
@@ -21,15 +23,13 @@ case class ExecutionUnit(
 
 case class ExecutionCommand(
   headers: Seq[HttpHeader],
-  json: Seq[Any],
+  json: Array[Byte],
   pipe: Seq[ExecutionUnit]
 )
 
-case class ExecutionResult(
-  headers: Seq[HttpHeader],
-  json: Seq[Any],
-  status: StatusCode
-)
+sealed trait ExecutionResult
+case class ExecutionSuccess(json: Array[Byte]) extends ExecutionResult
+case class ExecutionFailure(error: String, status: StatusCode) extends ExecutionResult
 
 trait RuntimeMeshConnector {
   def execute(command: ExecutionCommand): Future[ExecutionResult]
@@ -43,42 +43,37 @@ class HttpRuntimeMeshConnector(config: SidecarConfig)(
 
   //TODO ConnectionPool
   //TODO Move to streams
-  //TODO avoid Serialization/Deserialization, work with http entry
   val flow = Http(system).outgoingConnection(config.host, config.port)
     .mapAsync(1) { r =>
-      if (r.status != StatusCodes.OK) {
-        logger.debug(s"Wrong status from service ${r.status}")
-      }
-
-      if (r.entity.contentType == ContentTypes.`application/json`) {
-        Unmarshal(r.entity).to[Seq[Any]]
-          .map(ExecutionResult(r.headers, _, r.status))
-      } else {
-        Unmarshal(r.entity).to[String]
-          .map(s => ExecutionResult(r.headers, Seq(Map("result" -> s)), r.status))
-      }
+      r.entity.toStrict(10.seconds).map(entity => {
+        r.status match {
+          case StatusCodes.OK => ExecutionSuccess(entity.data.toArray)
+          case errCode =>
+            ExecutionFailure(s"Response code ${errCode.intValue()}" + new String(entity.data.toArray), errCode)
+        }
+      })
     }
 
-  private def execute(runtimeName: String, runtimePath: String, headers: Seq[HttpHeader], json: Seq[Any]): Future[ExecutionResult] = {
-    Marshal(json).to[RequestEntity].flatMap(entity => {
-      val source = Source.single(HttpRequest(
-        uri = runtimePath,
-        method = HttpMethods.POST,
-        entity = entity,
-        headers = collection.immutable.Seq(headers: _*) :+ Host.apply(runtimeName)
-      ))
-      source.via(flow).runWith(Sink.head)
-    })
+  private def execute(runtimeName: String, runtimePath: String, headers: Seq[HttpHeader], json: Array[Byte]): Future[ExecutionResult] = {
+    val httpRequest=HttpRequest(
+      uri = runtimePath,
+      method = HttpMethods.POST,
+      entity = HttpEntity.apply(ContentTypes.`application/json`, json),
+      headers = collection.immutable.Seq(headers: _*) :+ Host.apply(runtimeName)
+    )
+    val source = Source.single(httpRequest)
+    source.via(flow).runWith(Sink.head)
   }
 
   override def execute(command: ExecutionCommand): Future[ExecutionResult] = {
-    val executionUnit = command.pipe.head
-    var fAccum = execute(executionUnit.serviceName, executionUnit.servicePath, command.headers, command.json)
-    for (item <- command.pipe.drop(1)) {
-      fAccum = fAccum.flatMap(res => {
-        execute(item.serviceName, item.servicePath, command.headers, res.json)
+    val accum: Future[ExecutionResult] = Future.successful(ExecutionSuccess(command.json))
+    command.pipe.foldLeft(accum) { case (acc, item) =>
+      acc.flatMap({
+        case ExecutionSuccess(data) =>
+          execute(item.serviceName, item.servicePath, command.headers, data)
+        case failure: ExecutionFailure =>
+          Future.successful(failure)
       })
     }
-    fAccum
   }
 }

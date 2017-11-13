@@ -24,6 +24,8 @@ trait ManagerRepositories {
   val sourceRepository: SourceConfigRepository
 
   val applicationRepository: ApplicationRepository
+
+  val servingEnvironmentRepository: ServingEnvironmentRepository
 }
 
 class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit executionContext: ExecutionContext)
@@ -47,4 +49,6 @@ class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit execution
   val sourceRepository: SourceConfigRepository = new SourceConfigRepositoryImpl(config)
 
   val applicationRepository: ApplicationRepository = new ApplicationRepositoryImpl
+
+  val servingEnvironmentRepository: ServingEnvironmentRepository = new ServingEnvironmentRepositoryImpl
 }

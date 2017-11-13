@@ -1,12 +1,10 @@
 package io.hydrosphere.serving.manager.service
 
-import java.util.UUID
-
-import akka.http.scaladsl.model.{HttpHeader, StatusCodes}
-import io.hydrosphere.serving.connector.{ExecutionCommand, ExecutionResult, ExecutionUnit, RuntimeMeshConnector}
-import io.hydrosphere.serving.model.{Application, ApplicationExecutionGraph, ModelService}
+import io.hydrosphere.serving.connector._
+import io.hydrosphere.serving.model.{Application, ApplicationExecutionGraph}
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelServiceRepository}
 import io.hydrosphere.serving.model_api.{ApiCompatibilityChecker, DataGenerator, ModelApi, UntypedAPI}
+import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -28,6 +26,7 @@ case class ApplicationCreateOrUpdateRequest(
 }
 
 trait ServingManagementService {
+
   def allApplications(): Future[Seq[Application]]
 
   def applicationsByModelServiceIds(servicesIds: Seq[Long]): Future[Seq[Application]]
@@ -40,13 +39,7 @@ trait ServingManagementService {
 
   def getApplication(id: Long): Future[Option[Application]]
 
-  def serveApplication(serviceId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
-
-  def serveModelService(serviceId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
-
-  def serveModelServiceByModelName(modelName: String, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
-
-  def serveModelServiceByModelNameAndVersion(modelName: String, modelVersion: String, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]]
+  def serve(req: ServeRequest): Future[ExecutionResult]
 
   def generateModelPayload(modelName: String, modelVersion: String): Future[Seq[Any]]
 
@@ -62,34 +55,47 @@ class ServingManagementServiceImpl(
   runtimeMeshConnector: RuntimeMeshConnector,
   applicationRepository: ApplicationRepository,
   runtimeManagementService: RuntimeManagementService
-)(implicit val ex: ExecutionContext) extends ServingManagementService {
+)(implicit val ex: ExecutionContext) extends ServingManagementService with Logging {
 
-  private def serveModelService(service: ModelService, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
-    runtimeMeshConnector.execute(ExecutionCommand(
-      headers = headers,
-      json = request,
-      pipe = Seq(ExecutionUnit(
-        serviceName = service.serviceName,
-        servicePath = servePath
-      ))
-    )).map(mapMeshExecutionResult)
+  override def serve(req: ServeRequest): Future[ExecutionResult] = {
+    import ToPipelineStages._
 
-  override def serveModelService(serviceId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
-    modelServiceRepository.get(serviceId).flatMap({
-      case None => throw new IllegalArgumentException(s"Wrong service Id=$serviceId")
-      case Some(service) =>
-        serveModelService(service, servePath, request, headers)
-    })
+    def buildStages[A](target: Option[A], error: => String)
+      (implicit conv: ToPipelineStages[A]): Future[Seq[ExecutionUnit]] = {
 
-  private def mapMeshExecutionResult(r: ExecutionResult): Seq[Any] = {
-    r.status match {
-      case StatusCodes.OK =>
-        r.json
-      case StatusCodes.BadRequest =>
-        throw new IllegalArgumentException(r.json.toString())
-      case _ =>
-        throw new RuntimeException(r.json.toString())
+      target match {
+        case None => Future.failed(new IllegalArgumentException(error))
+        case Some(a) => Future.successful(conv.toStages(a, req.servePath))
+      }
     }
+
+    val stagesFuture = req.serviceKey match {
+      case ApplicationKey(id) =>
+        val f = getApplication(id)
+        f.flatMap(w => buildStages(w, s"Can't find Application with id: $id"))
+      case ApplicationName(name) =>
+        val f = applicationRepository.getByName(name)
+        f.flatMap(w => buildStages(w, s"Can't find Application with name: $name"))
+      case ModelById(id) =>
+        val f = modelServiceRepository.get(id)
+        f.flatMap(m => buildStages(m, s"Can't find model with id: $id"))
+      case ModelByName(name, None) =>
+        val f = modelServiceRepository.getLastModelServiceByModelName(name)
+        f.flatMap(m => buildStages(m, s"Can find model with name: $name"))
+      case ModelByName(name, Some(version)) =>
+        val f = modelServiceRepository.getLastModelServiceByModelNameAndVersion(name, version)
+        f.flatMap(m => buildStages(m, s"Can find model with name: $name, version: $version"))
+    }
+
+    stagesFuture.flatMap(stages => {
+      val cmd = ExecutionCommand(
+        headers = req.headers,
+        json = req.inputData,
+        pipe = stages
+      )
+      logger.info(s"TRY INVOKE $cmd")
+      runtimeMeshConnector.execute(cmd)
+    })
   }
 
   override def allApplications(): Future[Seq[Application]] =
@@ -121,7 +127,7 @@ class ServingManagementServiceImpl(
     })
 
   private def fetchAndValidate(req: ApplicationExecutionGraph): Future[Unit] = {
-    val servicesIds=req.stages.flatMap(s => s.services.map(c => c.serviceId))
+    val servicesIds = req.stages.flatMap(s => s.services.map(c => c.serviceId))
     modelServiceRepository.fetchByIds(servicesIds)
       .map(s =>
         if (s.length != servicesIds.length) {
@@ -129,54 +135,18 @@ class ServingManagementServiceImpl(
         })
   }
 
-  override def serveApplication(
-    applicationId: Long, servePath: String, request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
-    getApplicationWithCheck(applicationId).flatMap(r => {
-      runtimeMeshConnector.execute(ExecutionCommand(
-        headers = headers,
-        json = request,
-        pipe = r.executionGraph.stages.indices.map(stage => ExecutionUnit(
-          serviceName = s"app${r.id}stage$stage",
-          servicePath = "/serve"
-        ))
-      )).map(mapMeshExecutionResult)
-    })
-
-  override def serveModelServiceByModelName(modelName: String, servePath: String,
-    request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
-    modelServiceRepository.getLastModelServiceByModelName(modelName).flatMap({
-      case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
-      case Some(service) =>
-        serveModelService(service, servePath, request, headers)
-    })
-
-  override def serveModelServiceByModelNameAndVersion(modelName: String, modelVersion: String, servePath: String,
-    request: Seq[Any], headers: Seq[HttpHeader]): Future[Seq[Any]] =
-    modelServiceRepository.getLastModelServiceByModelNameAndVersion(modelName, modelVersion).flatMap({
-      case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName and version=$modelVersion")
-      case Some(service) =>
-        serveModelService(service, servePath, request, headers)
-    })
-
   override def generateModelPayload(modelName: String, modelVersion: String): Future[Seq[Any]] = {
-    modelServiceRepository.getLastModelServiceByModelNameAndVersion(modelName, modelVersion).map{
+    modelServiceRepository.getLastModelServiceByModelNameAndVersion(modelName, modelVersion).map {
       case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
       case Some(service) => List(DataGenerator(service.modelRuntime.inputFields).generate)
     }
   }
 
   override def generateModelPayload(modelName: String): Future[Seq[Any]] = {
-    modelServiceRepository.getLastModelServiceByModelName(modelName).map{
+    modelServiceRepository.getLastModelServiceByModelName(modelName).map {
       case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
       case Some(service) => List(DataGenerator(service.modelRuntime.inputFields).generate)
     }
-  }
-
-  private def getApplicationWithCheck(serviceId: Long): Future[Application] = {
-    applicationRepository.get(serviceId).map({
-      case None => throw new IllegalArgumentException(s"Can't find Application with id $serviceId")
-      case Some(r) => r
-    })
   }
 
   override def getApplication(id: Long): Future[Option[Application]] =

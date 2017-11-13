@@ -23,7 +23,7 @@ class DockerRuntimeDeployService(
 
   private val dockerCloudDriverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[DockerCloudDriverConfiguration]
 
-  override def deploy(runtime: ModelService): String = {
+  override def deploy(runtime: ModelService, placeholders: Seq[Any]): String = {
     val conf = managerConfiguration.cloudDriver.asInstanceOf[DockerCloudDriverConfiguration]
     val labels = Map[String, String](
       LABEL_SERVICE_ID -> runtime.serviceId.toString,

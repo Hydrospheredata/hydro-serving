@@ -6,10 +6,11 @@ import com.amazonaws.services.ecs.model._
 import com.amazonaws.services.ecs.{AmazonECS, AmazonECSClientBuilder}
 import io.hydrosphere.serving.manager.{ECSCloudDriverConfiguration, ManagerConfiguration}
 import io.hydrosphere.serving.manager.model.{ModelServiceInstance, ModelServiceInstanceStatus}
-import io.hydrosphere.serving.model.ModelService
+import io.hydrosphere.serving.model.{CommonJsonSupport, ModelService}
 import org.apache.logging.log4j.scala.Logging
 
 import collection.JavaConversions._
+import scala.util.Try
 
 /**
   *
@@ -17,7 +18,9 @@ import collection.JavaConversions._
 class EcsRuntimeDeployService(
   ecsCloudDriverConfiguration: ECSCloudDriverConfiguration,
   managerConfiguration: ManagerConfiguration
-) extends RuntimeDeployService with Logging {
+) extends RuntimeDeployService with Logging with CommonJsonSupport{
+
+  import spray.json._
 
   val ecsClient: AmazonECS = AmazonECSClientBuilder.standard()
     .withRegion(ecsCloudDriverConfiguration.region)
@@ -28,9 +31,9 @@ class EcsRuntimeDeployService(
     .build()
 
 
-  override def deploy(runtime: ModelService): String = {
+  override def deploy(runtime: ModelService, placeholders: Seq[Any]): String = {
     val taskDefinition = createTaskDefinition(runtime)
-    createService(runtime, taskDefinition).getServiceArn
+    createService(runtime, taskDefinition, placeholders).getServiceArn
   }
 
   private def createTaskDefinition(runtime: ModelService): TaskDefinition = {
@@ -80,12 +83,28 @@ class EcsRuntimeDeployService(
       .getTaskDefinition
   }
 
-  private def createService(runtime: ModelService, taskDefinition: TaskDefinition): Service = {
+  private def getField(jsObject: JsObject, fieldName: String): String = {
+    jsObject.getFields(fieldName)
+      .headOption
+      .getOrElse(throw new IllegalArgumentException(s"Can't find field '$fieldName' in $jsObject"))
+      .convertTo[String]
+  }
+
+  private def createService(runtime: ModelService, taskDefinition: TaskDefinition, placeholders: Seq[Any]): Service = {
     val createService = new CreateServiceRequest()
       .withDesiredCount(1)
       .withCluster(ecsCloudDriverConfiguration.cluster)
       .withTaskDefinition(taskDefinition.getTaskDefinitionArn)
       .withServiceName(s"${runtime.serviceName}_${runtime.serviceId}")
+
+    if (placeholders.nonEmpty) {
+      createService.withPlacementConstraints(placeholders.map(p => {
+        val jsObject = p.toJson.asJsObject
+        new PlacementConstraint()
+          .withType(getField(jsObject, "type"))
+          .withExpression(getField(jsObject, "expression"))
+      }))
+    }
 
     ecsClient.createService(createService).getService
   }
@@ -102,7 +121,9 @@ class EcsRuntimeDeployService(
       throw new RuntimeException(response.getFailures.toString)
     }
 
-    response.getServices.map(service => map(service))
+    response.getServices.map(service => Try(map(service)))
+      .filter(t => t.isSuccess)
+      .map(t => t.get)
   }
 
   private def map(service: Service): ServiceInfo = {
@@ -119,7 +140,10 @@ class EcsRuntimeDeployService(
   }
 
   override def service(serviceId: Long): Option[ServiceInfo] = {
-    findById(serviceId).map(service => map(service))
+    findById(serviceId)
+      .map(service => Try(map(service)))
+      .filter(t => t.isSuccess)
+      .flatMap(t => t.toOption)
   }
 
   private def findById(serviceId: Long): Option[Service] = {
@@ -215,7 +239,7 @@ class EcsRuntimeDeployService(
             ))
           } catch {
             case ex: Throwable =>
-              logger.error(s"Can't map container $container", ex)
+              logger.debug(s"Can't map container $container", ex)
               None
           }
         }).filter(o => o.nonEmpty).flatten

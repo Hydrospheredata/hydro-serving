@@ -47,8 +47,11 @@ class ManagerApi(managerServices: ManagerServices)
 
   val uiSpecificRuntimeController = new UISpecificRuntimeController(managerServices.uiManagementService)
 
+  val servingEnvironmentController = new ServingEnvironmentController(managerServices.runtimeManagementService)
+
   val swaggerController = new SwaggerDocController(system) {
     override val apiTypes: Seq[ru.Type] = Seq(
+      ru.typeOf[ServingEnvironmentController],
       ru.typeOf[RuntimeTypeController],
       ru.typeOf[ModelController],
       ru.typeOf[ModelRuntimeController],
@@ -94,6 +97,7 @@ class ManagerApi(managerServices: ManagerServices)
         prometheusMetricsController.routes ~
         uiSpecificController.routes ~
         uiSpecificWeightServiceController.routes ~
+        servingEnvironmentController.routes ~
         uiSpecificRuntimeController.routes
     }
   }

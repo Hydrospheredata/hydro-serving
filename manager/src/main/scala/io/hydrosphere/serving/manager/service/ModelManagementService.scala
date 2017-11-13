@@ -303,8 +303,7 @@ class ModelManagementServiceImpl(
     }
 
     val imageName = modelPushService.getImageName(modelBuild)
-    Future(modelBuildService.build(modelBuild, imageName, script, handler)).flatMap({
-      md5 =>
+    modelBuildService.build(modelBuild, imageName, script, handler).flatMap{ md5 =>
         modelRuntimeRepository.create(ModelRuntime(
           id = 0,
           imageName = imageName,
@@ -320,10 +319,10 @@ class ModelManagementServiceImpl(
           modelId = Some(modelBuild.model.id),
           tags = modelBuild.model.runtimeType.map(r => r.tags).getOrElse(List()),
           configParams = modelBuild.model.runtimeType.map(r => r.configParams).getOrElse(Map())
-        )).flatMap(modelRuntime => {
-          Future(modelPushService.push(modelRuntime, handler)).map(l => modelRuntime)
-        })
-    })
+        )).flatMap{ modelRuntime =>
+          Future(modelPushService.push(modelRuntime, handler)).map(_ => modelRuntime)
+        }
+    }
   }
 
   private def fetchLastModelVersion(modelId: Long, modelVersion: Option[String]): Future[String] = {
@@ -365,7 +364,7 @@ class ModelManagementServiceImpl(
       case Some(model) =>
         modelFilesRepository.deleteModelFiles(model.id)
         modelRepository.delete(model.id)
-        Future(model)
+        Future.successful(model)
       case None =>
         Future.failed(new NoSuchElementException(s"$modelName model"))
     }
@@ -442,7 +441,7 @@ class ModelManagementServiceImpl(
       val fRuntime = modelMetadata.runtimeType match {
         case Some(rt) =>
           runtimeTypeRepository.fetchByNameAndVersion(rt.name, rt.version)
-        case None => Future(None)
+        case None => Future.successful(None)
       }
       fRuntime.flatMap { rt =>
         modelRepository.get(modelMetadata.name).flatMap {

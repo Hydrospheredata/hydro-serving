@@ -16,16 +16,17 @@ import scala.concurrent.duration.Duration
   */
 object StreamingKafkaBoot extends App with Logging {
   try {
+
     implicit val system = ActorSystem("streaming-kafka")
     implicit val materializer = ActorMaterializer()
     implicit val ex = system.dispatcher
 
-    val configuration = StreamingKafkaConfiguration.parse(ConfigFactory.load())
+    val conf = StreamingKafkaConfiguration.parse(ConfigFactory.load())
 
     val httpApi = new StreamingKafkaApi()
-    val streamingKafkaService = new StreamingKafkaService(configuration)
+    val services = new StreamingKafkaServices(conf)
 
-    Http().bindAndHandle(httpApi.routes, "0.0.0.0", configuration.application.port)
+    Http().bindAndHandle(httpApi.routes, "0.0.0.0", conf.application.port)
 
     sys addShutdownHook {
       logger.info("Stopping all the contexts")
@@ -39,7 +40,7 @@ object StreamingKafkaBoot extends App with Logging {
       }
     }
 
-    logger.info(s"Started service on port: ${configuration.application.port}")
+    logger.info(s"Started service on port: ${conf.application.port}")
   } catch {
     case e: Throwable =>
       logger.error("Fatal error", e)

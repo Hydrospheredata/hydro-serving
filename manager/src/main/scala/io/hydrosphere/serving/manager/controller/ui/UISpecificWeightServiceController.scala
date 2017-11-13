@@ -10,7 +10,7 @@ import io.swagger.annotations._
 import scala.concurrent.duration._
 
 @Path("/ui/v1/applications")
-@Api(produces = "application/json", tags = Array("UI: Weighted Services"))
+@Api(produces = "application/json", tags = Array("UI: Applications"))
 class UISpecificWeightServiceController(
   uiManagementService: UIManagementService
 ) extends UIJsonSupport {

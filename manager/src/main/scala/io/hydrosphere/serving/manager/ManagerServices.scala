@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager
 
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
+import akka.util.Timeout
 import com.spotify.docker.client._
 import io.hydrosphere.serving.connector._
 import io.hydrosphere.serving.manager.connector.HttpEnvoyAdminConnector
@@ -22,7 +23,8 @@ class ManagerServices(
 )(
   implicit val ex: ExecutionContext,
   implicit val system: ActorSystem,
-  implicit val materializer: ActorMaterializer
+  implicit val materializer: ActorMaterializer,
+  implicit val timeout: Timeout
 ) {
 
   val dockerClient: DockerClient = DefaultDockerClient.fromEnv().build()
@@ -51,16 +53,19 @@ class ManagerServices(
   )
 
   val runtimeDeployService: RuntimeDeployService = managerConfiguration.cloudDriver match {
-    case c: SwarmCloudDriverConfiguration => new SwarmRuntimeDeployService(dockerClient, managerConfiguration)
-    case c: DockerCloudDriverConfiguration => new DockerRuntimeDeployService(dockerClient, managerConfiguration)
+    case _: SwarmCloudDriverConfiguration => new SwarmRuntimeDeployService(dockerClient, managerConfiguration)
+    case _: DockerCloudDriverConfiguration => new DockerRuntimeDeployService(dockerClient, managerConfiguration)
     //TODO change
-    case c: ECSCloudDriverConfiguration => new EcsRuntimeDeployService(c, managerConfiguration)
+    case c: ECSCloudDriverConfiguration => new CachedProxyRuntimeDeployService(
+      new EcsRuntimeDeployService(c, managerConfiguration)
+    )
   }
 
   val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(
     runtimeDeployService,
     managerRepositories.modelServiceRepository,
-    managerRepositories.modelRuntimeRepository
+    managerRepositories.modelRuntimeRepository,
+    managerRepositories.servingEnvironmentRepository
   )
 
   val servingManagementService: ServingManagementService = new ServingManagementServiceImpl(
@@ -72,7 +77,7 @@ class ManagerServices(
 
   val envoyManagementService = new EnvoyManagementServiceImpl(runtimeManagementService, servingManagementService)
 
-  val envoyAdminConnector=new HttpEnvoyAdminConnector()
+  val envoyAdminConnector = new HttpEnvoyAdminConnector()
 
   val prometheusMetricsService = new PrometheusMetricsServiceImpl(runtimeManagementService, envoyAdminConnector)
 

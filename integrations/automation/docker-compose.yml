@@ -211,7 +211,7 @@ services:
         gelf-address: udp://172.16.0.38:12201
 
   manager-ui:
-    image: hydrosphere/serving-manager-ui:${manager_ui_version}
+    image: ${manager_ui_image}:${manager_ui_version}
     container_name: manager-ui
     ports:
       - "80:80"
@@ -228,7 +228,7 @@ services:
 
 
   manager:
-    image: hydrosphere/serving-manager:${manager_version}
+    image: ${manager_image}:${manager_version}
     container_name: manager
     ports:
       - "8080:8080"
@@ -241,7 +241,8 @@ services:
       - "ZIPKIN_HOST=zipkin"
       - "ADVERTISED_MANAGER_HOST=manager"
       - "DATABASE_HOST=postgres"
-      - "DOCKER_NETWORK_NAME=automation_hydronet"
+      - "LOCAL_MODEL_PATH=/models"
+      - "NETWORK_NAME=automation_hydronet"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./hydro-serving-runtime/models:/models
