@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.streaming
+package io.hydrosphere.serving.streaming.service
 
 import com.fasterxml.jackson.core.JsonFactory
 import com.fasterxml.jackson.databind.ObjectMapper

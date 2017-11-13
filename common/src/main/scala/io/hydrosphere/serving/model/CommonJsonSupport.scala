@@ -103,6 +103,7 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
   implicit val typedFieldFormat = jsonFormat2(ModelField.apply)
 
   implicit val dataFrameFormat = jsonFormat1(DataFrame)
+
   implicit object ModelApiFormat extends RootJsonFormat[ModelApi] {
     override def read(json: JsValue): ModelApi = json match {
       case x: JsObject if x.fields.isEmpty => UntypedAPI
@@ -123,10 +124,8 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
   implicit val modelServiceFormat = jsonFormat8(ModelService)
 
   implicit val errorResponseFormat = jsonFormat1(ErrorResponse)
-  implicit val stageFormat = jsonFormat3(PipelineStage)
-  implicit val pipelineFormat = jsonFormat3(Pipeline)
-  implicit val endpointFormat = jsonFormat3(Endpoint)
-  implicit val serviceWeight = jsonFormat2(ServiceWeight)
-  implicit val weightedService = jsonFormat4(WeightedService)
-
+  implicit val serviceWeightFormat = jsonFormat2(ServiceWeight)
+  implicit val applicationStageFormat = jsonFormat1(ApplicationStage)
+  implicit val applicationExecutionGraphFormat = jsonFormat1(ApplicationExecutionGraph)
+  implicit val applicationFormat = jsonFormat4(Application)
 }

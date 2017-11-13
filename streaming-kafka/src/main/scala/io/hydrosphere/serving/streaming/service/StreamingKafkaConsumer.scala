@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.streaming
+package io.hydrosphere.serving.streaming.service
 
 import akka.Done
 import akka.actor.ActorSystem
@@ -19,7 +19,7 @@ case class BatchServingResult(
   processedOffsets: Seq[CommittableOffset]
 )
 
-object StreamingKafkaService {
+object StreamingKafkaConsumer {
 
   def produceAndCommit(settings: ProducerSettings[String, String]): Sink[BatchServingResult, Future[Done]] = {
     Sink.fromGraph(GraphDSL.create(Sink.ignore){ implicit b => sink =>

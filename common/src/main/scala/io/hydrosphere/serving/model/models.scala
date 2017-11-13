@@ -46,24 +46,6 @@ case class ModelService(
   configParams: Map[String, String]
 )
 
-case class Endpoint(
-  endpointId: Long,
-  name: String,
-  currentPipeline: Option[Pipeline]
-)
-
-case class Pipeline(
-  pipelineId: Long,
-  name: String,
-  stages: Seq[PipelineStage]
-)
-
-case class PipelineStage(
-  serviceId: Long,
-  serviceName: String,
-  servePath: String
-)
-
 case class ErrorResponse(
   message: String
 )
@@ -73,9 +55,17 @@ case class ServiceWeight(
   weight: Int
 )
 
-case class WeightedService(
+case class ApplicationStage(
+  services: List[ServiceWeight]
+)
+
+case class ApplicationExecutionGraph(
+  stages: List[ApplicationStage]
+)
+
+case class Application(
   id: Long,
-  serviceName: String,
-  weights: List[ServiceWeight],
+  name: String,
+  executionGraph: ApplicationExecutionGraph,
   sourcesList: List[Long]
 )

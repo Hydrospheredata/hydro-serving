@@ -7,7 +7,10 @@ import io.hydrosphere.serving.manager.repository.ModelFilesRepository
 
 import scala.concurrent.{ExecutionContext, Future}
 
-class ModelFilesRepositoryImpl(implicit executionContext: ExecutionContext, databaseService: DatabaseService) extends ModelFilesRepository {
+class ModelFilesRepositoryImpl(
+  implicit executionContext: ExecutionContext,
+  databaseService: DatabaseService
+) extends ModelFilesRepository {
 
   import ModelFilesRepositoryImpl._
   import databaseService._
