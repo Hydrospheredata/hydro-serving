@@ -145,7 +145,7 @@ class ModelServiceController(
     new ApiImplicitParam(name = "body", value = "Any", required = true, paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any"),
+    new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def serveService = path("api" / "v1" / "modelService" / "serveByModelId" / LongNumber) { id =>
@@ -171,7 +171,7 @@ class ModelServiceController(
     new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[List[_]], required = true, paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any"),
+    new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def serveByModelNameService = path("api" / "v1" / "modelService" / "serve" / Segment) { modelName =>
@@ -198,7 +198,7 @@ class ModelServiceController(
     new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[List[_]], required = true, paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any"),
+    new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def serveByModelNameServiceAndVersion = path("api" / "v1" / "modelService" / "serve" / Segment / Segment) { (modelName,modelVersion) =>

@@ -3,13 +3,13 @@ package io.hydrosphere.serving.gateway.actor
 import akka.actor.{Actor, ActorLogging}
 import akka.http.scaladsl.model._
 import io.hydrosphere.serving.connector._
-import io.hydrosphere.serving.model.Endpoint
+import io.hydrosphere.serving.model.Application
 
 import scala.util.{Failure, Success}
 
 
 case class UpdateEndpoints(
-  endpoints: Map[String, Endpoint]
+  appications: Map[String, Application]
 )
 
 case class ServeRequest(
@@ -32,7 +32,7 @@ case class ServeError(
 class ServeActor(sidecarConnector: RuntimeMeshConnector) extends Actor with ActorLogging {
   implicit val executionContext = context.dispatcher
 
-  var endpoints: Map[String, Endpoint] = Map()
+  var endpoints: Map[String, Application] = Map()
 
   override def receive = {
     case UpdateEndpoints(indexed) => this.endpoints = indexed
@@ -40,17 +40,17 @@ class ServeActor(sidecarConnector: RuntimeMeshConnector) extends Actor with Acto
     case request: ServeRequest =>
       val currentSender = sender()
       val endpoint = endpoints.get(request.endpointName)
-      if (endpoint.isEmpty || endpoint.get.currentPipeline.isEmpty) {
+      if (endpoint.isEmpty || endpoint.get.executionGraph.stages.isEmpty) {
         currentSender ! ServeError(
           tracingHeaders = request.tracingHeaders,
           statusCode = StatusCodes.BadRequest,
           errorMessage = "Wrong Endpoint name"
         )
       } else {
-        val pipeline = endpoint.get.currentPipeline.get.stages
+        val pipeline = endpoint.get.executionGraph.stages.indices
           .map(s => ExecutionUnit(
-            serviceName = s.serviceName,
-            servicePath = s.servePath
+            serviceName = s"app${endpoint.get.id}stage$s",
+            servicePath = "/serve"
           ))
 
 

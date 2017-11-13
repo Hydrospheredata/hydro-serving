@@ -19,15 +19,11 @@ trait ManagerRepositories {
 
   val modelServiceRepository: ModelServiceRepository
 
-  val pipelineRepository: PipelineRepository
-
-  val endpointRepository: EndpointRepository
-
-  val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository
+  def runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository
 
   val sourceRepository: SourceConfigRepository
 
-  val weightedServiceRepository: WeightedServiceRepository
+  val applicationRepository: ApplicationRepository
 
   val servingEnvironmentRepository: ServingEnvironmentRepository
 }
@@ -48,15 +44,11 @@ class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit execution
 
   val modelServiceRepository: ModelServiceRepository = new ModelServiceRepositoryImpl
 
-  val pipelineRepository: PipelineRepository = new PipelineRepositoryImpl
-
-  val endpointRepository: EndpointRepository = new EndpointRepositoryImpl
-
   val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository = new RuntimeTypeBuildScriptRepositoryImpl
 
   val sourceRepository: SourceConfigRepository = new SourceConfigRepositoryImpl(config)
 
-  val weightedServiceRepository: WeightedServiceRepository = new WeightedServiceRepositoryImpl
+  val applicationRepository: ApplicationRepository = new ApplicationRepositoryImpl
 
   val servingEnvironmentRepository: ServingEnvironmentRepository = new ServingEnvironmentRepositoryImpl
 }

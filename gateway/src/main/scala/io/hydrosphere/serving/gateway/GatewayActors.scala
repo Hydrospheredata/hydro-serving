@@ -2,9 +2,9 @@ package io.hydrosphere.serving.gateway
 
 import akka.actor.{ActorRef, ActorSystem, Props}
 import akka.stream.ActorMaterializer
-import io.hydrosphere.serving.connector.{HttpRuntimeMeshConnector, RuntimeMeshConnector}
+import io.hydrosphere.serving.connector.{HttpRuntimeMeshConnector, ManagerConnector, RuntimeMeshConnector}
 import io.hydrosphere.serving.gateway.actor.{PipelineSynchronizeActor, ServeActor}
-import io.hydrosphere.serving.gateway.connector.{HttpManagerConnector, ManagerConnector}
+import io.hydrosphere.serving.connector.HttpManagerConnector
 
 /**
   *
@@ -15,7 +15,7 @@ class GatewayActors(config: GatewayConfiguration)(implicit val system: ActorSyst
   val sidecar = config.sidecar
   val sidecarConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector(sidecar)
 
-  val managerConnector: ManagerConnector = new HttpManagerConnector(config)
+  val managerConnector: ManagerConnector = new HttpManagerConnector(config.manager.host, config.manager.port)
 
   val serveActor: ActorRef = system.actorOf(Props(classOf[ServeActor], sidecarConnector),
     "serveActor")

@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.gateway.actor
 
 import akka.actor.{Actor, ActorLogging, ActorRef}
-import io.hydrosphere.serving.gateway.connector.ManagerConnector
+import io.hydrosphere.serving.connector.ManagerConnector
 
 import scala.concurrent.duration._
 import scala.util.{Failure, Success}
@@ -23,7 +23,7 @@ class PipelineSynchronizeActor(manager: ManagerConnector, serveActor: ActorRef) 
   }
 
   override def receive: Receive = {
-    case Tick => manager.getEndpoints onComplete {
+    case Tick => manager.getApplications onComplete {
       case Success(result) =>
         val indexedEndpoints = Map(result map { a => a.name -> a }: _*)
         serveActor.tell(UpdateEndpoints(indexedEndpoints), context.self)
