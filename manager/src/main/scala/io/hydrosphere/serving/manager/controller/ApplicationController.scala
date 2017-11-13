@@ -104,7 +104,7 @@ class ApplicationController(
     new ApiImplicitParam(name = "body", value = "Any", required = true, paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any"),
+    new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def serve = path("api" / "v1" / "applications" / "serve" / Segment)  { name =>
@@ -130,7 +130,7 @@ class ApplicationController(
     new ApiImplicitParam(name = "body", value = "Any", required = true, paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any"),
+    new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def serveById = path("api" / "v1" / "applications" / "serveById" / LongNumber)  { id =>
