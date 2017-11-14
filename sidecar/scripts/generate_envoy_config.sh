@@ -7,6 +7,7 @@
 [ -z "$ZIPKIN_ENABLED" ] && ZIPKIN_ENABLED="false"
 [ -z "$ZIPKIN_HOST" ] && ZIPKIN_HOST="zipkin"
 [ -z "$ZIPKIN_PORT" ] && ZIPKIN_PORT="9411"
+[ -z "$TRACING_OP"] && TRACING_OP="ingress"
 
 [ -z "$MANAGER_HOST" ] && MANAGER_HOST="localhost"
 [ -z "$MANAGER_PORT" ] && MANAGER_PORT=$APP_HTTP_PORT
@@ -22,11 +23,11 @@ cat <<EOF >> /hydro-serving/sidecar/envoy.json
           "name": "http_connection_manager",
           "config": {
             "tracing": {
-              "operation_name": "ingress"
+              "operation_name": "$TRACING_OP"
             },
             "codec_type": "http1",
             "idle_timeout_s": 840,
-            "stat_prefix": "egress_http1",
+            "stat_prefix": "ingress_http",
             "use_remote_address": true,
             "server_name":"hydro-serving",
             "rds":{

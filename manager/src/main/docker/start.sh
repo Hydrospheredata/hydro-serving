@@ -39,7 +39,9 @@ then
         APP_OPTS="$APP_OPTS -DcloudDriver.ecs.accountId=$ECS_DEPLOY_ACCOUNT"
         APP_OPTS="$APP_OPTS -DdockerRepository.type=ecs"
     else
-        APP_OPTS="$APP_OPTS -DcloudDriver.docker.networkName=$NETWORK_NAME"
+        if [ ! -z "$NETWORK_NAME" ]; then
+            APP_OPTS="$APP_OPTS -DcloudDriver.docker.networkName=$NETWORK_NAME"
+        fi
         APP_OPTS="$APP_OPTS -DdockerRepository.type=local"
     fi
 

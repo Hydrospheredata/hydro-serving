@@ -2,19 +2,17 @@ package io.hydrosphere.serving.connector
 
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
-import akka.http.scaladsl.marshalling.Marshal
+import akka.http.scaladsl.model.headers.{Host, RawHeader}
 import akka.http.scaladsl.model.{StatusCode, _}
-import akka.http.scaladsl.model.headers.Host
-import akka.http.scaladsl.unmarshalling.Unmarshal
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.{Sink, Source}
 import io.hydrosphere.serving.config.SidecarConfig
+import io.hydrosphere.serving.controller.TracingHeaders
 import io.hydrosphere.serving.model.CommonJsonSupport
 import org.apache.logging.log4j.scala.Logging
 
-import scala.concurrent.duration._
 import scala.concurrent.Future
-import scala.util.{Failure, Success}
+import scala.concurrent.duration._
 
 case class ExecutionUnit(
   serviceName: String,
@@ -27,9 +25,21 @@ case class ExecutionCommand(
   pipe: Seq[ExecutionUnit]
 )
 
-sealed trait ExecutionResult
-case class ExecutionSuccess(json: Array[Byte]) extends ExecutionResult
-case class ExecutionFailure(error: String, status: StatusCode) extends ExecutionResult
+sealed trait ExecutionResult {
+  val headers: Seq[HttpHeader]
+  val statusCode: StatusCode
+}
+case class ExecutionSuccess(
+  json: Array[Byte],
+  headers: Seq[HttpHeader],
+  statusCode: StatusCode
+) extends ExecutionResult
+
+case class ExecutionFailure(
+  error: String,
+  headers: Seq[HttpHeader],
+  statusCode: StatusCode
+) extends ExecutionResult
 
 trait RuntimeMeshConnector {
   def execute(command: ExecutionCommand): Future[ExecutionResult]
@@ -46,10 +56,12 @@ class HttpRuntimeMeshConnector(config: SidecarConfig)(
   val flow = Http(system).outgoingConnection(config.host, config.port)
     .mapAsync(1) { r =>
       r.entity.toStrict(10.seconds).map(entity => {
+        val data = entity.data.toArray
         r.status match {
-          case StatusCodes.OK => ExecutionSuccess(entity.data.toArray)
+          case StatusCodes.OK => ExecutionSuccess(data, r.headers, r.status)
           case errCode =>
-            ExecutionFailure(s"Response code ${errCode.intValue()}" + new String(entity.data.toArray), errCode)
+            val msg = s"Response code ${errCode.intValue()} " + new String(data)
+            ExecutionFailure(msg, r.headers, r.status)
         }
       })
     }
@@ -65,12 +77,33 @@ class HttpRuntimeMeshConnector(config: SidecarConfig)(
     source.via(flow).runWith(Sink.head)
   }
 
+  private def getParentSpanId(headers: Seq[HttpHeader]): Seq[HttpHeader] = {
+    headers.find(_.name() == TracingHeaders.xB3SpanId).map(h => {
+      RawHeader(TracingHeaders.xB3ParentSpanId, h.value())
+    }).toSeq
+  }
+
   override def execute(command: ExecutionCommand): Future[ExecutionResult] = {
-    val accum: Future[ExecutionResult] = Future.successful(ExecutionSuccess(command.json))
+    val empty = ExecutionSuccess(
+      command.json,
+      command.headers ++ getParentSpanId(command.headers),
+      StatusCodes.OK
+    )
+
+    val accum: Future[ExecutionResult] = Future.successful(empty)
+
+    val pipe = command.pipe ++ command.pipe ++ command.pipe
     command.pipe.foldLeft(accum) { case (acc, item) =>
       acc.flatMap({
-        case ExecutionSuccess(data) =>
-          execute(item.serviceName, item.servicePath, command.headers, data)
+        case success: ExecutionSuccess =>
+          logger.info(s"ADASDASD headers ${success.headers}")
+          execute(
+            item.serviceName,
+            item.servicePath,
+            success.headers.filter(h => TracingHeaders.isTracingHeaderName(h.name())),
+            success.json
+          )
+
         case failure: ExecutionFailure =>
           Future.successful(failure)
       })
