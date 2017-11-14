@@ -58,6 +58,7 @@ lazy val startDatabase = (sourceManaged, dependencyClasspath in Compile, runner 
   println(s"starting database...$containerId")
 }
 
+/*
 compile in Compile <<= (compile in Compile)
   .dependsOn(uiDownload)
   .dependsOn(slickCodeGenTask)
@@ -71,6 +72,7 @@ compile in Compile <<= (compile in Compile)
 
   Analysis.Empty
 }
+*/
 
 lazy val migration = project.settings(
   flywayUrl := dataBaseUrl,
@@ -111,6 +113,7 @@ dockerfile in docker := {
     from(s"hydro-serving/java:${version.value}")
 
     env("HS_SERVICE_ID", "-20")
+    env("TRACING_OP", "egress")
 
     label("hydroServingServiceId", "-20")
     label("HS_SERVICE_MARKER", "HS_SERVICE_MARKER")

@@ -17,10 +17,14 @@ trait ServingDataDirectives extends Logging {
 
   def completeExecutionResult(f: Future[ExecutionResult]): Route = {
     onComplete(f)({
-      case Success(ExecutionSuccess(data)) =>
-        complete(HttpResponse(entity = HttpEntity(ContentTypes.`application/json`, data)))
-      case Success(ExecutionFailure(error, statusCode)) =>
-        complete(HttpResponse(status = statusCode, entity = HttpEntity(ContentTypes.`text/plain(UTF-8)`, error)))
+      case Success(result: ExecutionSuccess) =>
+        complete(HttpResponse(entity = HttpEntity(ContentTypes.`application/json`, result.json)))
+      case Success(failure: ExecutionFailure) =>
+        complete(
+          HttpResponse(
+            status = failure.statusCode,
+            entity = HttpEntity(ContentTypes.`text/plain(UTF-8)`, failure.error)
+        ))
       case Failure(err) =>
         logger.error("Serving failed", err)
         complete(
