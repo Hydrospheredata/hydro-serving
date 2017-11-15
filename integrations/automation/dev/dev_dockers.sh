@@ -6,6 +6,7 @@ function containerId() {
 }
 
 function start() {
+  OPTS=$1
   PG_ID=$(containerId "postgres:9.6-alpine")
   if [ ! -z $PG_ID ]; then
       docker start $PG_ID
@@ -19,6 +20,17 @@ function start() {
   else
       docker run -d -p 9411:9411 openzipkin/zipkin
   fi
+  
+  if [ "x$OPTS" == "xall" ]; then
+    KAFKA_ID=$(containerId "spotify/kafka")
+    if [ ! -z $KAFKA_ID ]; then
+        docker start $KAFKA_ID
+    else
+        HOST_IP=$(route | grep default | awk '{print $8}' | head -n 1 | xargs ifconfig | grep inet | head -n 1 | awk '{print $2}')
+        docker run -d -p 2181:2181 -p 9092:9092 --env ADVERTISED_HOST=$HOST_IP --env ADVERTISED_PORT=9092 spotify/kafka 
+    fi
+  fi
+
 }
 
 function stop() {
@@ -27,20 +39,28 @@ function stop() {
       docker stop $PG_ID
   fi
   ZIPKIN_ID=$(containerId "openzipkin/zipkin")
-  if [ ! -z $PG_ID ]; then
+  if [ ! -z $ZIPKIN_ID ]; then
       docker stop $ZIPKIN_ID
+  fi
+  KAFKA_ID=$(containerId "spotify/kafka")
+  if [ ! -z $KAFKA_ID ]; then
+      docker stop $KAFKA_ID
   fi
 }
 
 CMD=$1
+OPTS="$2"
+if [ -z $OPTS ]; then
+   OPTS="min"
+fi
 case $CMD in
     start)
-	start
+	start $OPTS
 	;;
     stop)
 	stop
 	;;
     *)
-        echo "Usage: ./dev_dockers.sh start/stop"
+        printf "Usage: \n./dev_dockers.sh start min/all \n ./dev_dockers stop"
 	;;
 esac

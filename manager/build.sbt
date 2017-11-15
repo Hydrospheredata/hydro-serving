@@ -58,7 +58,6 @@ lazy val startDatabase = (sourceManaged, dependencyClasspath in Compile, runner 
   println(s"starting database...$containerId")
 }
 
-/*
 compile in Compile <<= (compile in Compile)
   .dependsOn(uiDownload)
   .dependsOn(slickCodeGenTask)
@@ -72,7 +71,6 @@ compile in Compile <<= (compile in Compile)
 
   Analysis.Empty
 }
-*/
 
 lazy val migration = project.settings(
   flywayUrl := dataBaseUrl,
