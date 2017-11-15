@@ -14,73 +14,13 @@
       }
     },
     "ecsOptimizedAmi": {
-      "ap-northeast-1": {
-        "AMI": "ami-21815747"
-      },
-      "ap-southeast-1": {
-        "AMI": "ami-99f588fa"
-      },
-      "ap-southeast-2": {
-        "AMI": "ami-4f08e82d"
-      },
-      "ca-central-1": {
-        "AMI": "ami-9b54edff"
-      },
-      "eu-central-1": {
-        "AMI": "ami-40d5672f"
-      },
       "eu-west-1": {
-        "AMI": "ami-13f7226a"
-      },
-      "eu-west-2": {
-        "AMI": "ami-eb62708f"
-      },
-      "us-east-1": {
-        "AMI": "ami-ec33cc96"
-      },
-      "us-east-2": {
-        "AMI": "ami-34032e51"
-      },
-      "us-west-1": {
-        "AMI": "ami-13f7226a"
-      },
-      "us-west-2": {
-        "AMI": "ami-eb62708f"
+        "AMI": "ami-014ae578"
       }
     },
     "ecsOptimizedAmiGPU": {
-      "ap-northeast-1": {
-        "AMI": "ami-21815747"
-      },
-      "ap-southeast-1": {
-        "AMI": "ami-99f588fa"
-      },
-      "ap-southeast-2": {
-        "AMI": "ami-4f08e82d"
-      },
-      "ca-central-1": {
-        "AMI": "ami-9b54edff"
-      },
-      "eu-central-1": {
-        "AMI": "ami-40d5672f"
-      },
       "eu-west-1": {
-        "AMI": "ami-13f7226a"
-      },
-      "eu-west-2": {
-        "AMI": "ami-eb62708f"
-      },
-      "us-east-1": {
-        "AMI": "ami-ec33cc96"
-      },
-      "us-east-2": {
-        "AMI": "ami-34032e51"
-      },
-      "us-west-1": {
-        "AMI": "ami-13f7226a"
-      },
-      "us-west-2": {
-        "AMI": "ami-eb62708f"
+        "AMI": "ami-b1349cc8"
       }
     }
   },
@@ -1042,7 +982,7 @@
                 }
               }
             ],
-            "Image": "hydrosphere/serving-manager-ui:0.0.14",
+            "Image": "hydrosphere/serving-manager-ui:0.0.17",
             "MemoryReservation": 128
           }
         ],

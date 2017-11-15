@@ -18,7 +18,7 @@ import scala.util.Try
 class EcsRuntimeDeployService(
   ecsCloudDriverConfiguration: ECSCloudDriverConfiguration,
   managerConfiguration: ManagerConfiguration
-) extends RuntimeDeployService with Logging with CommonJsonSupport{
+) extends RuntimeDeployService with Logging with CommonJsonSupport {
 
   import spray.json._
 
@@ -66,11 +66,11 @@ class EcsRuntimeDeployService(
 
 
     val registerTaskDefinition = new RegisterTaskDefinitionRequest()
-      .withFamily(s"${runtime.serviceName}")
+      .withFamily(formatServiceName(s"${runtime.serviceName}"))
       .withNetworkMode(NetworkMode.Bridge)
       .withContainerDefinitions(
         new ContainerDefinition()
-          .withName(s"${runtime.serviceName}")
+          .withName(formatServiceName(s"${runtime.serviceName}"))
           .withImage(s"${runtime.modelRuntime.imageName}:${runtime.modelRuntime.imageTag}")
           .withMemoryReservation(500)
           .withEnvironment(env)
@@ -90,12 +90,17 @@ class EcsRuntimeDeployService(
       .convertTo[String]
   }
 
+  private def formatServiceName(str: String): String = {
+    str.replaceAll("\\.", "-")
+  }
+
+
   private def createService(runtime: ModelService, taskDefinition: TaskDefinition, placeholders: Seq[Any]): Service = {
     val createService = new CreateServiceRequest()
       .withDesiredCount(1)
       .withCluster(ecsCloudDriverConfiguration.cluster)
       .withTaskDefinition(taskDefinition.getTaskDefinitionArn)
-      .withServiceName(s"${runtime.serviceName}_${runtime.serviceId}")
+      .withServiceName(formatServiceName(s"${runtime.serviceName}_${runtime.serviceId}"))
 
     if (placeholders.nonEmpty) {
       createService.withPlacementConstraints(placeholders.map(p => {
