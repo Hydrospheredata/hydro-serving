@@ -21,7 +21,7 @@ class EnvoyManagementController(envoyManagementService: EnvoyManagementService) 
   @Path("/clusters/{serviceId}/{containerId}")
   @ApiOperation(value = "clusters", notes = "clusters", nickname = "clusters", httpMethod = "GET")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "serviceId", value = "serviceId", required = true, dataType = "string", paramType = "path"),
+    new ApiImplicitParam(name = "fullName", value = "fullName", required = true, dataType = "string", paramType = "path"),
     new ApiImplicitParam(name = "containerId", value = "containerId", required = true, dataType = "string", paramType = "path")
   ))
   @ApiResponses(Array(
@@ -29,8 +29,8 @@ class EnvoyManagementController(envoyManagementService: EnvoyManagementService) 
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def getClusters = get {
-    path("v1" / "clusters" / Segment / Segment) { (serviceId, containerId) =>
-      complete(envoyManagementService.clusters(serviceId.toLong, containerId))
+    path("v1" / "clusters" / Segment / Segment) { (fullName, containerId) =>
+      complete(envoyManagementService.clusters(fullName, containerId))
     }
   }
 
@@ -38,7 +38,7 @@ class EnvoyManagementController(envoyManagementService: EnvoyManagementService) 
   @ApiOperation(value = "routes", notes = "routes", nickname = "routes", httpMethod = "GET")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "configName", value = "configName", required = true, dataType = "string", paramType = "path"),
-    new ApiImplicitParam(name = "serviceId", value = "serviceId", required = true, dataType = "string", paramType = "path"),
+    new ApiImplicitParam(name = "fullName", value = "fullName", required = true, dataType = "string", paramType = "path"),
     new ApiImplicitParam(name = "containerId", value = "containerId", required = true, dataType = "string", paramType = "path")
   ))
   @ApiResponses(Array(
@@ -46,8 +46,8 @@ class EnvoyManagementController(envoyManagementService: EnvoyManagementService) 
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def getRoutes = get {
-    path("v1" / "routes" / Segment / Segment / Segment) { (configName, serviceId, containerId) =>
-      complete(envoyManagementService.routes(configName, serviceId.toLong, containerId))
+    path("v1" / "routes" / Segment / Segment / Segment) { (configName, fullName, containerId) =>
+      complete(envoyManagementService.routes(configName, fullName, containerId))
     }
   }
 

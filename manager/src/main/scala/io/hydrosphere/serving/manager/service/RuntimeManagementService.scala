@@ -70,6 +70,20 @@ trait RuntimeManagementService {
 
   def deleteServingEnvironment(environmentId: Long): Future[Unit]
 
+  def serviceByFullName(fullName: String): Future[Option[ModelService]]
+}
+
+object RuntimeManagementService {
+
+  case class FullServiceName(name: String, version: String)
+
+  private val fullServiceNameRegex = "([-a-zA-Z0-9]+)_(\\d+-\\d+-\\d+)".r
+
+  def parseServiceName(name: String): Option[FullServiceName] = name match {
+    case fullServiceNameRegex(n, v) => Some(FullServiceName(n, v.replaceAll("-", ".")))
+    case _ => None
+  }
+
 }
 
 //TODO ADD cache
@@ -212,4 +226,36 @@ class RuntimeManagementServiceImpl(
 
   override def deleteServingEnvironment(environmentId: Long): Future[Unit] =
     servingEnvironmentRepository.delete(environmentId).map(p => Unit)
+
+  private val specialNames = Map(
+    MANAGER_NAME -> MANAGER_ID,
+    GATEWAY_NAME -> GATEWAY_ID
+  )
+
+  override def serviceByFullName(fullName: String): Future[Option[ModelService]] = {
+    import RuntimeManagementService._
+
+    def fromModels(name: String): Future[Option[ModelService]] = {
+      parseServiceName(name) match {
+        case Some(parsed) =>
+          modelServiceRepository.getLastModelServiceByModelNameAndVersion(parsed.name, parsed.version)
+        case None =>
+          val msg = s"Invalid service name $name"
+          Future.failed(new IllegalArgumentException(msg))
+
+      }
+    }
+
+    def fromInternal(id: Long, name: String): Future[Option[ModelService]] = {
+      Future(runtimeDeployService.service(id)).map(_.map(info => {
+        mapServiceInfo(info, name, Map.empty)
+      }))
+    }
+
+
+    specialNames.get(fullName) match {
+      case Some(id) => fromInternal(id, fullName)
+      case None => fromModels(fullName)
+    }
+  }
 }
