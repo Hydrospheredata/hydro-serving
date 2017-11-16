@@ -18,7 +18,7 @@ import scala.util.Try
 class EcsRuntimeDeployService(
   ecsCloudDriverConfiguration: ECSCloudDriverConfiguration,
   managerConfiguration: ManagerConfiguration
-) extends RuntimeDeployService with Logging with CommonJsonSupport{
+) extends RuntimeDeployService with Logging with CommonJsonSupport {
 
   import spray.json._
 
@@ -32,11 +32,11 @@ class EcsRuntimeDeployService(
 
 
   override def deploy(runtime: ModelService, placeholders: Seq[Any]): String = {
-    val taskDefinition = createTaskDefinition(runtime)
-    createService(runtime, taskDefinition, placeholders).getServiceArn
+    val taskDefinition = createTaskDefinition(runtime, placeholders)
+    createService(runtime, taskDefinition).getServiceArn
   }
 
-  private def createTaskDefinition(runtime: ModelService): TaskDefinition = {
+  private def createTaskDefinition(runtime: ModelService, placeholders: Seq[Any]): TaskDefinition = {
     val portMappings = List[PortMapping](
       new PortMapping().withContainerPort(DEFAULT_SIDECAR_HTTP_PORT),
       new PortMapping().withContainerPort(DEFAULT_SIDECAR_ADMIN_PORT)
@@ -64,20 +64,40 @@ class EcsRuntimeDeployService(
       LABEL_HS_SERVICE_MARKER -> LABEL_HS_SERVICE_MARKER
     )
 
+    val containerDefinition = new ContainerDefinition()
+      .withName(formatServiceName(s"${runtime.serviceName}"))
+      .withImage(s"${runtime.modelRuntime.imageName}:${runtime.modelRuntime.imageTag}")
+      .withMemoryReservation(500)
+      .withEnvironment(env)
+      .withDockerLabels(labels)
+      .withPortMappings(portMappings)
+
+    ecsCloudDriverConfiguration.loggingGelfHost.foreach(host => {
+      containerDefinition.withLogConfiguration(
+        new LogConfiguration()
+          .withLogDriver(LogDriver.Gelf)
+          .withOptions(Map[String, String](
+            "gelf-address" -> host
+          ))
+      )
+      Unit
+    })
 
     val registerTaskDefinition = new RegisterTaskDefinitionRequest()
-      .withFamily(s"${runtime.serviceName}")
+      .withFamily(formatServiceName(s"${runtime.serviceName}"))
       .withNetworkMode(NetworkMode.Bridge)
       .withContainerDefinitions(
-        new ContainerDefinition()
-          .withName(s"${runtime.serviceName}")
-          .withImage(s"${runtime.modelRuntime.imageName}:${runtime.modelRuntime.imageTag}")
-          .withMemoryReservation(500)
-          .withEnvironment(env)
-          .withDockerLabels(labels)
-          .withPortMappings(portMappings)
-
+        containerDefinition
       )
+
+    if (placeholders.nonEmpty) {
+      registerTaskDefinition.withPlacementConstraints(placeholders.map(p => {
+        val jsObject = p.toJson.asJsObject
+        new TaskDefinitionPlacementConstraint()
+          .withType(getField(jsObject, "type"))
+          .withExpression(getField(jsObject, "expression"))
+      }))
+    }
 
     ecsClient.registerTaskDefinition(registerTaskDefinition)
       .getTaskDefinition
@@ -90,22 +110,17 @@ class EcsRuntimeDeployService(
       .convertTo[String]
   }
 
-  private def createService(runtime: ModelService, taskDefinition: TaskDefinition, placeholders: Seq[Any]): Service = {
+  private def formatServiceName(str: String): String = {
+    str.replaceAll("\\.", "-")
+  }
+
+
+  private def createService(runtime: ModelService, taskDefinition: TaskDefinition): Service = {
     val createService = new CreateServiceRequest()
       .withDesiredCount(1)
       .withCluster(ecsCloudDriverConfiguration.cluster)
       .withTaskDefinition(taskDefinition.getTaskDefinitionArn)
-      .withServiceName(s"${runtime.serviceName}_${runtime.serviceId}")
-
-    if (placeholders.nonEmpty) {
-      createService.withPlacementConstraints(placeholders.map(p => {
-        val jsObject = p.toJson.asJsObject
-        new PlacementConstraint()
-          .withType(getField(jsObject, "type"))
-          .withExpression(getField(jsObject, "expression"))
-      }))
-    }
-
+      .withServiceName(formatServiceName(s"${runtime.serviceName}_${runtime.serviceId}"))
     ecsClient.createService(createService).getService
   }
 

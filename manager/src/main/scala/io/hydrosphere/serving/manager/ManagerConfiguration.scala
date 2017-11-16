@@ -81,7 +81,8 @@ case class DockerCloudDriverConfiguration(
 case class ECSCloudDriverConfiguration(
   region: Regions,
   cluster: String,
-  accountId: String
+  accountId: String,
+  loggingGelfHost: Option[String]
 ) extends CloudDriverConfiguration
 
 case class ZipkinConfiguration(
@@ -132,10 +133,13 @@ object ManagerConfiguration extends Configuration {
               Some(driverConf.getString("loggingGelfHost")) else None
           )
         case "ecs" =>
+          val hasLoggingGelfHost = driverConf.hasPath("loggingGelfHost")
           ECSCloudDriverConfiguration(
             region = Regions.fromName(driverConf.getString("region")),
             cluster = driverConf.getString("cluster"),
-            accountId = driverConf.getString("accountId")
+            accountId = driverConf.getString("accountId"),
+            loggingGelfHost = if (hasLoggingGelfHost)
+              Some(driverConf.getString("loggingGelfHost")) else None
           )
         case x =>
           throw new IllegalArgumentException(s"Unknown model source: $x")

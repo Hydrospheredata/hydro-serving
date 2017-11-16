@@ -24,6 +24,13 @@ JAVA_OPTS="-Xmx$JAVA_XMX -Xms$JAVA_XMX"
 
 APP_OPTS="-Dapplication.port=$APP_HTTP_PORT -Dapplication.appId=$SERVICE_ID -Dsidecar.port=$SIDECAR_HTTP_PORT"
 
+if [ "$GELF_HOST" = "" ]
+then
+GELF_ENABLED="false"
+else
+GELF_ENABLED="true"
+fi
+
 if [ "$CUSTOM_CONFIG" = "" ]
 then
     APP_OPTS="$APP_OPTS -DopenTracing.zipkin.enabled=$ZIPKIN_ENABLED -DopenTracing.zipkin.port=$ZIPKIN_PORT -DopenTracing.zipkin.host=$ZIPKIN_HOST"
@@ -38,11 +45,17 @@ then
         APP_OPTS="$APP_OPTS -DcloudDriver.ecs.cluster=$ECS_DEPLOY_CLUSTER"
         APP_OPTS="$APP_OPTS -DcloudDriver.ecs.accountId=$ECS_DEPLOY_ACCOUNT"
         APP_OPTS="$APP_OPTS -DdockerRepository.type=ecs"
+        if [ "$GELF_ENABLED" = "true" ]; then
+            APP_OPTS="$APP_OPTS -DcloudDriver.ecs.loggingGelfHost=$GELF_HOST"
+        fi
     else
         if [ ! -z "$NETWORK_NAME" ]; then
             APP_OPTS="$APP_OPTS -DcloudDriver.docker.networkName=$NETWORK_NAME"
         fi
         APP_OPTS="$APP_OPTS -DdockerRepository.type=local"
+        if [ "$GELF_ENABLED" = "true" ]; then
+            APP_OPTS="$APP_OPTS -DcloudDriver.docker.loggingGelfHost=$GELF_HOST"
+        fi
     fi
 
 

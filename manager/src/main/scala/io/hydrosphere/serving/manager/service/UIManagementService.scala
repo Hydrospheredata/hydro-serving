@@ -313,7 +313,7 @@ class UIManagementServiceImpl(
       .filter(s => s.serviceId.get > 0)
       .map(s => s.serviceId.get)
 
-    val servicesToDelete = service.sourcesList.filter(s => !oldServices.contains(s))
+    val servicesToDelete = service.sourcesList.filter(s => !oldServices.contains(s)).distinct
 
     val actualService = if (servicesToDelete.nonEmpty) {
       var fAccum = removeKafka(service, servicesToDelete.head)
@@ -344,7 +344,7 @@ class UIManagementServiceImpl(
   private def checkAndStartRuntime(stages: List[List[UIServiceWeight]]): Future[List[List[ServiceWeight]]] = {
     //TODO optimize, avoid cycle and contains
 
-    val runtimesIds = stages.flatMap(s => s.map(c => c.runtimeId))
+    val runtimesIds = stages.flatMap(s => s.map(c => c.runtimeId)).distinct
     runtimeManagementService.getServicesByRuntimes(runtimesIds)
       .flatMap(services => {
         val runtimeToService = services.map(s => s.modelRuntime.id -> s.serviceId).toMap

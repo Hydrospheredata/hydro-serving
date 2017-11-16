@@ -241,7 +241,8 @@ services:
       - "ZIPKIN_HOST=zipkin"
       - "ADVERTISED_MANAGER_HOST=manager"
       - "DATABASE_HOST=postgres"
-      - "DOCKER_NETWORK_NAME=automation_hydronet"
+      - "LOCAL_MODEL_PATH=/models"
+      - "NETWORK_NAME=automation_hydronet"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./hydro-serving-runtime/models:/models
