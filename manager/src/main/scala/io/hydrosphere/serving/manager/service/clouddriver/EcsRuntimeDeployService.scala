@@ -43,7 +43,7 @@ class EcsRuntimeDeployService(
     )
 
     val envMap = runtime.configParams ++ Map(
-      ENV_HS_SERVICE_ID -> runtime.serviceId,
+      ENV_HS_SERVICE_ID -> runtime.serviceName,
       ENV_APP_HTTP_PORT -> DEFAULT_APP_HTTP_PORT,
       ENV_SIDECAR_HTTP_PORT -> DEFAULT_SIDECAR_HTTP_PORT,
       ENV_SIDECAR_ADMIN_PORT -> DEFAULT_SIDECAR_ADMIN_PORT,
