@@ -8,7 +8,8 @@ class RuntimeManagementServiceSpec extends FunSpec with Matchers {
 
     import RuntimeManagementService._
 
-    parseServiceName("binarizer_0-0-1") shouldBe Some(FullServiceName("binarizer", "0.0.1"))
+    parseServiceName("binarizer_0-0-1") shouldBe Some(FullServiceName("binarizer", "0-0-1"))
+    parseServiceName("binarizer_0.0.1") shouldBe Some(FullServiceName("binarizer", "0.0.1"))
     parseServiceName("binarizer_a") shouldBe None
   }
 }

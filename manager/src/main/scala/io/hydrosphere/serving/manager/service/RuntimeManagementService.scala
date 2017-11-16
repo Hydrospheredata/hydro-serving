@@ -77,10 +77,10 @@ object RuntimeManagementService {
 
   case class FullServiceName(name: String, version: String)
 
-  private val fullServiceNameRegex = "([-a-zA-Z0-9]+)_(\\d+-\\d+-\\d+)".r
+  private val fullServiceNameRegex = "([-a-zA-Z0-9]+)_(.+)".r
 
   def parseServiceName(name: String): Option[FullServiceName] = name match {
-    case fullServiceNameRegex(n, v) => Some(FullServiceName(n, v.replaceAll("-", ".")))
+    case fullServiceNameRegex(n, v) => Some(FullServiceName(n, v))
     case _ => None
   }
 
