@@ -73,19 +73,6 @@ trait RuntimeManagementService {
   def serviceByFullName(fullName: String): Future[Option[ModelService]]
 }
 
-object RuntimeManagementService {
-
-  case class FullServiceName(name: String, version: String)
-
-  private val fullServiceNameRegex = "([-a-zA-Z0-9]+)_(\\d+-\\d+-\\d+)".r
-
-  def parseServiceName(name: String): Option[FullServiceName] = name match {
-    case fullServiceNameRegex(n, v) => Some(FullServiceName(n, v.replaceAll("-", ".")))
-    case _ => None
-  }
-
-}
-
 //TODO ADD cache
 class RuntimeManagementServiceImpl(
   runtimeDeployService: RuntimeDeployService,
@@ -233,17 +220,9 @@ class RuntimeManagementServiceImpl(
   )
 
   override def serviceByFullName(fullName: String): Future[Option[ModelService]] = {
-    import RuntimeManagementService._
 
     def fromModels(name: String): Future[Option[ModelService]] = {
-      parseServiceName(name) match {
-        case Some(parsed) =>
-          modelServiceRepository.getLastModelServiceByModelNameAndVersion(parsed.name, parsed.version)
-        case None =>
-          val msg = s"Invalid service name $name"
-          Future.failed(new IllegalArgumentException(msg))
-
-      }
+      modelServiceRepository.getByServiceName(name)
     }
 
     def fromInternal(id: Long, name: String): Future[Option[ModelService]] = {
@@ -251,7 +230,6 @@ class RuntimeManagementServiceImpl(
         mapServiceInfo(info, name, Map.empty)
       }))
     }
-
 
     specialNames.get(fullName) match {
       case Some(id) => fromInternal(id, fullName)
