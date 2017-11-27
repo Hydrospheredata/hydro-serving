@@ -202,7 +202,7 @@ services:
     environment:
       - "POSTGRES_DB=docker"
       - "POSTGRES_USER=docker"
-      - "OSTGRES_PASSWORD=docker"
+      - "POSTGRES_PASSWORD=docker"
     depends_on:
       - logstash
     logging:

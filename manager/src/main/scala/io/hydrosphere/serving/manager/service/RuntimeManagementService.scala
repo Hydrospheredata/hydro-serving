@@ -220,11 +220,6 @@ class RuntimeManagementServiceImpl(
   )
 
   override def serviceByFullName(fullName: String): Future[Option[ModelService]] = {
-
-    def fromModels(name: String): Future[Option[ModelService]] = {
-      modelServiceRepository.getByServiceName(name)
-    }
-
     def fromInternal(id: Long, name: String): Future[Option[ModelService]] = {
       Future(runtimeDeployService.service(id)).map(_.map(info => {
         mapServiceInfo(info, name, Map.empty)
@@ -233,7 +228,7 @@ class RuntimeManagementServiceImpl(
 
     specialNames.get(fullName) match {
       case Some(id) => fromInternal(id, fullName)
-      case None => fromModels(fullName)
+      case None => modelServiceRepository.getByServiceName(fullName)
     }
   }
 }
