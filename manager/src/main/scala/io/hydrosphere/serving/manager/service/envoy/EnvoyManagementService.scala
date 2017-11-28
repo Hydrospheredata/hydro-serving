@@ -72,11 +72,11 @@ case class EnvoyServiceConfig(
 )
 
 trait EnvoyManagementService {
-  def clusters(serviceId: Long, containerId: String): Future[EnvoyClusterConfig]
+  def clusters(fullName: String, containerId: String): Future[EnvoyClusterConfig]
 
   def services(serviceName: String): Future[EnvoyServiceConfig]
 
-  def routes(configName: String, serviceId: Long, containerId: String): Future[EnvoyRouteConfig]
+  def routes(configName: String, fullName: String, containerId: String): Future[EnvoyRouteConfig]
 }
 
 class EnvoyManagementServiceImpl(
@@ -92,11 +92,17 @@ class EnvoyManagementServiceImpl(
     }
   }
 
-  override def routes(configName: String, serviceId: Long, containerId: String): Future[EnvoyRouteConfig] = {
-    runtimeManagementService.getService(serviceId).flatMap(servOp => {
+  private def findService(fullName: String): Future[ModelService] = {
+    runtimeManagementService.serviceByFullName(fullName).map({
+      case Some(ms) => ms
+      case None => throw new IllegalArgumentException(s"Can't find service by fullName:$fullName")
+    })
+  }
+
+  override def routes(configName: String, fullName: String, containerId: String): Future[EnvoyRouteConfig] = {
+    findService(fullName).flatMap(modelService => {
       runtimeManagementService.allServices().flatMap(services => {
         servingManagementService.allApplications().flatMap(applications => {
-          val modelService = servOp.get
           fetchGatewayIfNeeded(modelService).map(gatewayServiceInstances => {
 
             val routeHosts = mutable.MutableList[EnvoyRouteHost]()
@@ -126,7 +132,7 @@ class EnvoyManagementServiceImpl(
               })
             })
 
-            services.filter(s => s.serviceId != serviceId)
+            services.filter(s => s.serviceId != modelService.serviceId)
               .foreach(s => {
                 routeHosts += EnvoyRouteHost(
                   name = s.serviceName.toLowerCase,
@@ -172,12 +178,11 @@ class EnvoyManagementServiceImpl(
         )
       })
 
-  override def clusters(serviceId: Long, containerId: String): Future[EnvoyClusterConfig] = {
-    runtimeManagementService.getService(serviceId).flatMap(servOp => {
-      runtimeManagementService.instancesForService(serviceId).flatMap(instancesSame => {
+  override def clusters(fullName: String, containerId: String): Future[EnvoyClusterConfig] = {
+    findService(fullName).flatMap(modelService => {
+      runtimeManagementService.instancesForService(modelService.serviceId).flatMap(instancesSame => {
         runtimeManagementService.allServices().flatMap(services => {
-          val modelService = servOp.get
-          val containerInstance = instancesSame.find(p => p.serviceId == serviceId)
+          val containerInstance = instancesSame.find(p => p.serviceId == modelService.serviceId)
           if (containerInstance.isEmpty) {
             Future.successful(EnvoyClusterConfig(Seq()))
           } else {

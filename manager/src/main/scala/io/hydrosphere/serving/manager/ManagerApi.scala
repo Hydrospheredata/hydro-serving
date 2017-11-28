@@ -98,7 +98,22 @@ class ManagerApi(managerServices: ManagerServices)
         uiSpecificController.routes ~
         uiSpecificWeightServiceController.routes ~
         servingEnvironmentController.routes ~
-        uiSpecificRuntimeController.routes
-    }
+        uiSpecificRuntimeController.routes ~
+        pathPrefix("assets") {
+          path(Segments) { segs =>
+            val path = segs.mkString("/")
+            getFromResource(s"ui/assets/$path")
+          }
+        } ~
+          path(Segments) { segs =>
+            if (segs.size == 1 && //TODO change to regexp
+              (segs.head.endsWith("bundle.js") || segs.head.endsWith("bundle.css") )) {
+              val path = segs.mkString("/")
+              getFromResource(s"ui/$path")
+            } else {
+              getFromResource("ui/index.html")
+            }
+          }
+      }
   }
 }
