@@ -49,7 +49,9 @@ then
             APP_OPTS="$APP_OPTS -DcloudDriver.ecs.loggingGelfHost=$GELF_HOST"
         fi
     else
-        APP_OPTS="$APP_OPTS -DcloudDriver.docker.networkName=$NETWORK_NAME"
+        if [ ! -z "$NETWORK_NAME" ]; then
+            APP_OPTS="$APP_OPTS -DcloudDriver.docker.networkName=$NETWORK_NAME"
+        fi
         APP_OPTS="$APP_OPTS -DdockerRepository.type=local"
         if [ "$GELF_ENABLED" = "true" ]; then
             APP_OPTS="$APP_OPTS -DcloudDriver.docker.loggingGelfHost=$GELF_HOST"
