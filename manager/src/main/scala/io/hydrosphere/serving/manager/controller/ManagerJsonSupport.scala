@@ -47,7 +47,7 @@ trait ManagerJsonSupport extends CommonJsonSupport {
           LocalSourceParams(fields("path").convertTo[String])
         case JsObject(fields) if fields.isDefinedAt("queueName") && fields.isDefinedAt("bucketName") =>
           S3SourceParams(
-            awsAuth = fields("awsAuth").convertTo[Option[AWSAuthKeys]],
+            awsAuth = fields.get("awsAuth").map(_.convertTo[AWSAuthKeys]),
             bucketName = fields("bucketName").convertTo[String],
             queueName = fields("queueName").convertTo[String],
             region = fields("region").convertTo[String]
