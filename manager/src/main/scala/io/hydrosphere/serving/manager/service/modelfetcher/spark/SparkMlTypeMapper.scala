@@ -1,8 +1,7 @@
 package io.hydrosphere.serving.manager.service.modelfetcher.spark
 
-import io.hydrosphere.serving.manager.LocalModelSourceConfiguration
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
-import io.hydrosphere.serving.manager.service.modelsource.LocalModelSource
+import io.hydrosphere.serving.manager.service.modelsource.local.LocalModelSource
 import io.hydrosphere.serving.model_api._
 
 trait SparkMlTypeMapper {

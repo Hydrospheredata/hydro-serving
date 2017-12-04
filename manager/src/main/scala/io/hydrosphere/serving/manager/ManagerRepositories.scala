@@ -1,6 +1,5 @@
 package io.hydrosphere.serving.manager
 
-import io.hydrosphere.serving.manager.repository.config.SourceConfigRepositoryImpl
 import io.hydrosphere.serving.manager.repository.{RuntimeTypeBuildScriptRepository, _}
 import io.hydrosphere.serving.manager.repository.db._
 
@@ -46,7 +45,7 @@ class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit execution
 
   val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository = new RuntimeTypeBuildScriptRepositoryImpl
 
-  val sourceRepository: SourceConfigRepository = new SourceConfigRepositoryImpl(config)
+  val sourceRepository: SourceConfigRepository = new SourceConfigRepositoryImpl
 
   val applicationRepository: ApplicationRepository = new ApplicationRepositoryImpl
 

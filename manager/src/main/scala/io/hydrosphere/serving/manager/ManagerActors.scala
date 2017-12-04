@@ -23,8 +23,6 @@ class ManagerActors(managerServices: ManagerServices)(
 
   val repoActor = system.actorOf(RepositoryActor.props(managerServices.modelManagementService))
 
-  val indexerActors: Seq[ActorRef] = Await.result(managerServices.sourceManagementService.createWatchers(system), 5.minutes)
-
   //create runtimeDeployService cache refresh action
   //TODO change to event subscription
   managerServices.runtimeDeployService match {

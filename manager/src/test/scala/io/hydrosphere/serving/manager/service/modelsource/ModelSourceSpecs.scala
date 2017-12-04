@@ -2,10 +2,11 @@ package io.hydrosphere.serving.manager.service.modelsource
 
 import java.nio.file.Files
 
-import com.amazonaws.regions.Regions
 import com.amazonaws.services.s3.AmazonS3ClientBuilder
 import com.amazonaws.services.sqs.AmazonSQSClientBuilder
-import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, S3ModelSourceConfiguration, TestConstants}
+import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceDef}
+import io.hydrosphere.serving.manager.service.modelsource.s3.{S3ModelSource, S3SourceDef}
+import io.hydrosphere.serving.manager.TestConstants
 import org.scalatest.{FlatSpec, Matchers}
 
 import scala.collection.JavaConversions._
@@ -23,7 +24,7 @@ class ModelSourceSpecs extends FlatSpec with Matchers {
     }
 
     it should "have a correct prefix" in {
-      modelSource.getSourcePrefix shouldBe "test"
+      modelSource.sourceDef.prefix shouldBe "test"
     }
 
     it should "return correct absolute path for model" in {
@@ -39,31 +40,28 @@ class ModelSourceSpecs extends FlatSpec with Matchers {
     }
   }
 
-  val localSource = new LocalModelSource(LocalModelSourceConfiguration("test", TestConstants.localModelsPath))
+  val localSource = new LocalModelSource(LocalSourceDef("test", TestConstants.localModelsPath))
   test(localSource)
 
   "S3Source" should "be ok" in {
-      val s3client = AmazonS3ClientBuilder
-        .standard
-        .withRegion("eu-west-1")
-        .build()
-      val sqsClient = AmazonSQSClientBuilder
-        .standard
-        .withRegion("eu-west-1")
-        .build
-      val s3Source = new S3ModelSource(S3ModelSourceConfiguration(
-        "test",
-        "",
-        Regions.EU_WEST_1,
-        s3client,
-        sqsClient,
-        "serving-demo",
-        "serving-s3-repo-queue"
-      ))
+    val s3client = AmazonS3ClientBuilder
+      .standard
+      .withRegion("eu-west-1")
+      .build()
+    val sqsClient = AmazonSQSClientBuilder
+      .standard
+      .withRegion("eu-west-1")
+      .build
+    val s3Source = new S3ModelSource(S3SourceDef(
+      "test",
+      "serving-demo",
+      "serving-s3-repo-queue",
+      s3client,
+      sqsClient
+    ))
     val folders = s3Source.getAllFiles("dt4")
-    val f = s3Source.getSubDirs("dt4")
-    val t = s3Source.client
-      .listObjects(s3Source.configuration.bucket)
+    val t = s3Source.sourceDef.s3Client
+      .listObjects(s3Source.sourceDef.bucket)
       .getObjectSummaries
       .map(_.getKey)
       .filter(_.startsWith("dt4/stages/"))

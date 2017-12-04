@@ -1,8 +1,7 @@
 package io.hydrosphere.serving.manager.repository
 
-import io.hydrosphere.serving.manager.ModelSourceConfiguration
-import io.hydrosphere.serving.manager.service.modelsource.ModelSource
+import io.hydrosphere.serving.manager.model.ModelSourceConfigAux
 
-trait SourceConfigRepository extends BaseRepository[ModelSourceConfiguration, Long] {
+trait SourceConfigRepository extends BaseRepository[ModelSourceConfigAux, Long] {
 
 }

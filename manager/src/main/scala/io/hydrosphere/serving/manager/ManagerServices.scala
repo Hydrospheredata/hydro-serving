@@ -33,6 +33,8 @@ class ManagerServices(
 
   val sourceManagementService = new SourceManagementServiceImpl(managerRepositories.sourceRepository)
 
+  managerConfiguration.modelSources.foreach(sourceManagementService.addSource)
+
   val modelBuildService: ModelBuildService = new LocalModelBuildService(dockerClient, sourceManagementService)
 
   val modelPushService: ModelPushService = managerConfiguration.dockerRepository match {
