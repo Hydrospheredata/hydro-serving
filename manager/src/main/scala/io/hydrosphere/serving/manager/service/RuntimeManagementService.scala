@@ -70,6 +70,7 @@ trait RuntimeManagementService {
 
   def deleteServingEnvironment(environmentId: Long): Future[Unit]
 
+  def serviceByFullName(fullName: String): Future[Option[ModelService]]
 }
 
 //TODO ADD cache
@@ -212,4 +213,22 @@ class RuntimeManagementServiceImpl(
 
   override def deleteServingEnvironment(environmentId: Long): Future[Unit] =
     servingEnvironmentRepository.delete(environmentId).map(p => Unit)
+
+  private val specialNames = Map(
+    MANAGER_NAME -> MANAGER_ID,
+    GATEWAY_NAME -> GATEWAY_ID
+  )
+
+  override def serviceByFullName(fullName: String): Future[Option[ModelService]] = {
+    def fromInternal(id: Long, name: String): Future[Option[ModelService]] = {
+      Future(runtimeDeployService.service(id)).map(_.map(info => {
+        mapServiceInfo(info, name, Map.empty)
+      }))
+    }
+
+    specialNames.get(fullName) match {
+      case Some(id) => fromInternal(id, fullName)
+      case None => modelServiceRepository.getByServiceName(fullName)
+    }
+  }
 }

@@ -7,6 +7,7 @@
 [ -z "$ZIPKIN_ENABLED" ] && ZIPKIN_ENABLED="false"
 [ -z "$ZIPKIN_HOST" ] && ZIPKIN_HOST="zipkin"
 [ -z "$ZIPKIN_PORT" ] && ZIPKIN_PORT="9411"
+[ -z "$TRACING_OP"] && TRACING_OP="ingress"
 
 [ -z "$MANAGER_HOST" ] && MANAGER_HOST="localhost"
 [ -z "$MANAGER_PORT" ] && MANAGER_PORT=$APP_HTTP_PORT
@@ -26,9 +27,37 @@ cat <<EOF >> /hydro-serving/sidecar/envoy.json
             },
             "codec_type": "http1",
             "idle_timeout_s": 840,
-            "stat_prefix": "egress_http1",
+            "stat_prefix": "ingress_http",
             "use_remote_address": true,
             "server_name":"hydro-serving",
+            "rds":{
+              "cluster": "global-cluster-manager",
+              "route_config_name": "http",
+              "refresh_delay_ms": 5000
+            },
+            "filters": [
+              {
+                "type": "decoder",
+                "name": "router",
+                "config": {}
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "address": "tcp://0.0.0.0:9292",
+      "filters": [
+        {
+          "type": "read",
+          "name": "http_connection_manager",
+          "config": {
+            "tracing": {
+              "operation_name": "egress"
+            },
+            "codec_type": "http1",
+            "stat_prefix": "egress_http",
             "rds":{
               "cluster": "global-cluster-manager",
               "route_config_name": "http",

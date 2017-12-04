@@ -60,8 +60,8 @@ class ServeActor(sidecarConnector: RuntimeMeshConnector) extends Actor with Acto
           pipeline
         )).onComplete(result => {
           val message = result match {
-            case Success(ExecutionSuccess(data)) =>
-              ServeResponse(request.tracingHeaders, data)
+            case Success(succ: ExecutionSuccess) =>
+              ServeResponse(request.tracingHeaders, succ.json)
 
             case Success(ExecutionFailure(err, code)) =>
               log.error(new RuntimeException("Serving failed"), err)

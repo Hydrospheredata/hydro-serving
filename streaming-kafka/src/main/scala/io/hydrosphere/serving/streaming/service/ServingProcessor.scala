@@ -87,8 +87,8 @@ class SidecarServingProcessor(
           case ExecutionFailure(err, _) =>
             val errors = input.map(i => ErrorConsumerRecord(i, err).toJson.compactPrint)
             errors
-          case ExecutionSuccess(json) =>
-            val outputs = KafkaDataFormat.toResponseRecords(json)
+          case succ: ExecutionSuccess =>
+            val outputs = KafkaDataFormat.toResponseRecords(succ.json)
             outputs
         })
     }

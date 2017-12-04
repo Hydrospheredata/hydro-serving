@@ -110,7 +110,7 @@ dockerfile in docker := {
     // Base image
     from(s"hydro-serving/java:${version.value}")
 
-    env("HS_SERVICE_ID", "-20")
+    env("HS_SERVICE_ID", "manager")
 
     label("hydroServingServiceId", "-20")
     label("HS_SERVICE_MARKER", "HS_SERVICE_MARKER")
