@@ -14,7 +14,7 @@ import scala.concurrent.duration._
 /**
   *
   */
-class ManagerActors(managerServices: ManagerServices)(
+class ManagerActors(managerServices: ManagerServices, managerConfiguration: ManagerConfiguration)(
   implicit val system: ActorSystem,
   implicit val materializer: ActorMaterializer
 ) extends Logging {
@@ -22,6 +22,9 @@ class ManagerActors(managerServices: ManagerServices)(
   implicit private val ex: ExecutionContext = system.dispatcher
 
   val repoActor = system.actorOf(RepositoryActor.props(managerServices.modelManagementService))
+
+  managerServices.sourceManagementService.createWatchers
+  managerConfiguration.modelSources.foreach(managerServices.sourceManagementService.addSource)
 
   //create runtimeDeployService cache refresh action
   //TODO change to event subscription

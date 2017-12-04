@@ -27,7 +27,7 @@ object ManagerBoot extends App with Logging {
     val managerRepositories = new ManagerRepositoriesConfig(configuration)
     val managerServices = new ManagerServices(managerRepositories, configuration)
     val managerApi = new ManagerApi(managerServices)
-    val managerActors = new ManagerActors(managerServices)
+    val managerActors = new ManagerActors(managerServices, configuration)
 
 
     Http().bindAndHandle(managerApi.routes, "0.0.0.0", configuration.application.port)

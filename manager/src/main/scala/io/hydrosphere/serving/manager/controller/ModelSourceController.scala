@@ -26,7 +26,7 @@ class ModelSourceController(sourceService: SourceManagementService) extends Mana
       entity(as[CreateModelSourceRequest]) { r =>
         complete {
           sourceService.addSource(r)
-          "ModelSource added. Soon watcher will fetch models and display them."
+          Map("msg" -> "ModelSource added. Soon watcher will fetch models and display them.")
         }
       }
     }

@@ -18,7 +18,7 @@ import scala.concurrent.duration._
   */
 trait SourceWatcher extends Actor with ActorLogging {
   import context._
-  implicit private val timeout = Timeout(10.seconds)
+  implicit private val timeout = Timeout(30.seconds)
   private val timer = context.system.scheduler.schedule(0.seconds, 500.millis, self, Tick)
 
   /**

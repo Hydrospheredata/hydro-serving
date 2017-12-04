@@ -3,7 +3,10 @@ package io.hydrosphere.serving.manager.service
 import java.nio.file.Path
 
 import akka.actor.{ActorRef, ActorSystem}
-import io.hydrosphere.serving.manager.actor.modelsource.SourceWatcher
+import akka.pattern._
+import akka.util.Timeout
+import io.hydrosphere.serving.manager.actor.WatcherRegistryActor
+import io.hydrosphere.serving.manager.actor.WatcherRegistryActor.AddWatcher
 import io.hydrosphere.serving.manager.model.{LocalSourceParams, ModelSourceConfigAux, S3SourceParams, SourceParams}
 import io.hydrosphere.serving.manager.repository.SourceConfigRepository
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
@@ -33,7 +36,9 @@ trait SourceManagementService {
 }
 
 class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)
-  (implicit ex: ExecutionContext, actorSystem: ActorSystem) extends SourceManagementService with Logging {
+  (implicit ex: ExecutionContext, actorSystem: ActorSystem, timeout: Timeout) extends SourceManagementService with Logging {
+
+  val watcherRegistry = actorSystem.actorOf(WatcherRegistryActor.props, "WatcherRegistry")
 
   def addSource(createModelSourceRequest: CreateModelSourceRequest): Future[ModelSourceConfigAux] = {
     val config = ModelSourceConfigAux(-1, createModelSourceRequest.name, createModelSourceRequest.params)
@@ -47,9 +52,8 @@ class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)
   }
 
   def createWatcher(modelSource: ModelSource): Future[ActorRef] = {
-    logger.info(s"SourceWatcher initialization for ${modelSource.sourceDef.prefix}")
-    val watcher = actorSystem.actorOf(SourceWatcher.props(modelSource), s"Watcher@${modelSource.sourceDef.prefix}")
-    Future.successful(watcher)
+    val watcher = watcherRegistry ? AddWatcher(modelSource)
+    watcher.mapTo[ActorRef]
   }
 
   def deleteSource(modelSourceConfigAux: ModelSourceConfigAux) = {
