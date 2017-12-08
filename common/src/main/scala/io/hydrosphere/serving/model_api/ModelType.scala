@@ -1,0 +1,38 @@
+package io.hydrosphere.serving.model_api
+
+trait ModelType {
+  def toTag: String
+}
+
+object ModelType {
+  case class Tensorflow() extends ModelType {
+    override def toTag: String = "tensorflow"
+  }
+
+  case class Spark(version: String) extends ModelType {
+    override def toTag: String = s"spark:$version"
+  }
+
+  case class Scikit() extends ModelType {
+    override def toTag: String = "scikit"
+  }
+
+  case class PythonFunction(version: String) extends ModelType {
+    override def toTag: String = s"python:$version"
+  }
+
+  case class Unknown() extends ModelType {
+    override def toTag: String = "unknown"
+  }
+
+  def fromTag(tag: String): ModelType = {
+    tag.split(':').toList match {
+      case "tensorflow" :: Nil => Tensorflow()
+      case "scikit" :: Nil => Scikit()
+      case "unknown" :: Nil => Unknown()
+      case "python" :: version :: Nil => PythonFunction(version)
+      case "spark" :: modelVersion :: Nil => Spark(modelVersion)
+      case _ => throw new IllegalArgumentException(s"Cant create a ModelTag from $tag")
+    }
+  }
+}

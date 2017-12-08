@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.service
 import io.hydrosphere.serving.connector._
 import io.hydrosphere.serving.model.{Application, ApplicationExecutionGraph}
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelServiceRepository}
-import io.hydrosphere.serving.model_api.{ApiCompatibilityChecker, DataGenerator, ModelApi, UntypedAPI}
+//import io.hydrosphere.serving.model_api.{ApiCompatibilityChecker, DataGenerator, ModelApi, UntypedAPI}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -41,13 +41,13 @@ trait ServingManagementService {
 
   def serve(req: ServeRequest): Future[ExecutionResult]
 
-  def generateModelPayload(modelName: String, modelVersion: String): Future[Seq[Any]]
+//  def generateModelPayload(modelName: String, modelVersion: String): Future[Seq[Any]]
 
-  def generateModelPayload(modelName: String): Future[Seq[Any]]
+//  def generateModelPayload(modelName: String): Future[Seq[Any]]
 
-  def checkApplicationSchema(req: ApplicationCreateOrUpdateRequest): Future[Boolean]
+//  def checkApplicationSchema(req: ApplicationCreateOrUpdateRequest): Future[Boolean]
 
-  def generateInputsForApplication(appId: Long): Future[Seq[Any]]
+//  def generateInputsForApplication(appId: Long): Future[Seq[Any]]
 }
 
 class ServingManagementServiceImpl(
@@ -135,70 +135,70 @@ class ServingManagementServiceImpl(
         })
   }
 
-  override def generateModelPayload(modelName: String, modelVersion: String): Future[Seq[Any]] = {
-    modelServiceRepository.getLastModelServiceByModelNameAndVersion(modelName, modelVersion).map {
-      case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
-      case Some(service) => List(DataGenerator(service.modelRuntime.inputFields).generate)
-    }
-  }
-
-  override def generateModelPayload(modelName: String): Future[Seq[Any]] = {
-    modelServiceRepository.getLastModelServiceByModelName(modelName).map {
-      case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
-      case Some(service) => List(DataGenerator(service.modelRuntime.inputFields).generate)
-    }
-  }
+//  override def generateModelPayload(modelName: String, modelVersion: String): Future[Seq[Any]] = {
+//    modelServiceRepository.getLastModelServiceByModelNameAndVersion(modelName, modelVersion).map {
+//      case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
+//      case Some(service) => List(DataGenerator(service.modelRuntime.inputFields).generate)
+//    }
+//  }
+//
+//  override def generateModelPayload(modelName: String): Future[Seq[Any]] = {
+//    modelServiceRepository.getLastModelServiceByModelName(modelName).map {
+//      case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
+//      case Some(service) => List(DataGenerator(service.modelRuntime.inputFields).generate)
+//    }
+//  }
 
   override def getApplication(id: Long): Future[Option[Application]] =
     applicationRepository.get(id)
 
-  override def checkApplicationSchema(req: ApplicationCreateOrUpdateRequest): Future[Boolean] = {
-    val services = req.executionGraph.stages.map(_.services.map(_.serviceId))
-    val serviceStatuses = services.zip(services.tail).map{
-      case (a, b) =>
-        val compMat = checkStagesSchemas(a, b)
-        val stagesStatus = compMat.map(_.forall(sub => sub.forall(_ == true)))
-        stagesStatus
-    }
-    Future.sequence(serviceStatuses).map(_.forall(_ == true))
-  }
+//  override def checkApplicationSchema(req: ApplicationCreateOrUpdateRequest): Future[Boolean] = {
+//    val services = req.executionGraph.stages.map(_.services.map(_.serviceId))
+//    val serviceStatuses = services.zip(services.tail).map{
+//      case (a, b) =>
+//        val compMat = checkStagesSchemas(a, b)
+//        val stagesStatus = compMat.map(_.forall(sub => sub.forall(_ == true)))
+//        stagesStatus
+//    }
+//    Future.sequence(serviceStatuses).map(_.forall(_ == true))
+//  }
 
-  private def checkStagesSchemas(stageA: List[Long], stageB: List[Long]): Future[List[List[Boolean]]] = {
-    val servicesA = stageA.map(modelServiceRepository.get)
-    val servicesB = stageB.map(modelServiceRepository.get)
+//  private def checkStagesSchemas(stageA: List[Long], stageB: List[Long]): Future[List[List[Boolean]]] = {
+//    val servicesA = stageA.map(modelServiceRepository.get)
+//    val servicesB = stageB.map(modelServiceRepository.get)
+//
+//    val results = servicesA.map{ fServiceA =>
+//      servicesB.map{ fServiceB =>
+//        fServiceA.zip(fServiceB).map{
+//          case (Some(serviceA), Some(serviceB)) =>
+//            checkServicesSchemas(serviceA, serviceB)
+//        }
+//      }
+//    }
+//    val r = results.map(x => Future.sequence(x))
+//    Future.sequence(r)
+//  }
 
-    val results = servicesA.map{ fServiceA =>
-      servicesB.map{ fServiceB =>
-        fServiceA.zip(fServiceB).map{
-          case (Some(serviceA), Some(serviceB)) =>
-            checkServicesSchemas(serviceA, serviceB)
-        }
-      }
-    }
-    val r = results.map(x => Future.sequence(x))
-    Future.sequence(r)
-  }
+//  private def checkServicesSchemas(modelServiceA: ModelService, modelServiceB: ModelService): Boolean = {
+//    ApiCompatibilityChecker.check(modelServiceA.modelRuntime.outputFields -> modelServiceB.modelRuntime.inputFields)
+//  }
 
-  private def checkServicesSchemas(modelServiceA: ModelService, modelServiceB: ModelService): Boolean = {
-    ApiCompatibilityChecker.check(modelServiceA.modelRuntime.outputFields -> modelServiceB.modelRuntime.inputFields)
-  }
+//  override def generateInputsForApplication(appId: Long): Future[Option[Seq[Any]]] = {
+//    applicationRepository.get(appId).map(_.map{ app =>
+//      val schema = inferAppInputSchema(app)
+//      Seq(DataGenerator(schema).generate)
+//    })
+//  }
 
-  override def generateInputsForApplication(appId: Long): Future[Option[Seq[Any]]] = {
-    applicationRepository.get(appId).map(_.map{ app =>
-      val schema = inferAppInputSchema(app)
-      Seq(DataGenerator(schema).generate)
-    })
-  }
-
-  private def inferAppInputSchema(application: Application): ModelApi = {
-    val stages = application.executionGraph.stages.map(_.services.map(_.serviceId))
-    val headServices = Future.sequence(stages.head.map(modelServiceRepository.get))
-    val apis = headServices.map{services =>
-      services.map{
-        case Some(service) => service.modelRuntime.inputFields
-        case None => throw new IllegalArgumentException(s"Can't find service in ${application.id} in $services")
-      }
-    }
-    Future.sequence(apis)
-  }
+//  private def inferAppInputSchema(application: Application): ModelApi = {
+//    val stages = application.executionGraph.stages.map(_.services.map(_.serviceId))
+//    val headServices = Future.sequence(stages.head.map(modelServiceRepository.get))
+//    val apis = headServices.map{services =>
+//      services.map{
+//        case Some(service) => service.modelRuntime.inputFields
+//        case None => throw new IllegalArgumentException(s"Can't find service in ${application.id} in $services")
+//      }
+//    }
+//    Future.sequence(apis)
+//  }
 }

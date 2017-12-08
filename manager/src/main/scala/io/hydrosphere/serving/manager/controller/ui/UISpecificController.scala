@@ -103,7 +103,7 @@ class UISpecificController(
     post {
       entity(as[BuildModelRequest]) { r =>
         complete(
-          uiManagementService.buildModel(r.modelId, r.modelVersion, r.environmentId)
+          uiManagementService.buildModel(r.modelId, r.runtimeTypeId, r.modelVersion, r.environmentId)
         )
       }
     }

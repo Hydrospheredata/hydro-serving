@@ -113,7 +113,7 @@ class ModelBuildRepositoryImpl(
         .joinLeft(Tables.Model)
         .on({ case (mb, m) => mb.modelId === m.modelId })
         .joinLeft(Tables.ModelRuntime)
-        .on({ case ((mb, m), mr) => mb.runtimeId === mr.runtimeId })
+        .on({ case ((mb, _), mr) => mb.runtimeId === mr.runtimeId })
         .distinctOn(_._1._1.modelId)
         .result
     ).map(s => mapFromDb(s))
@@ -121,21 +121,24 @@ class ModelBuildRepositoryImpl(
 
 object ModelBuildRepositoryImpl {
 
-  def mapFromDb(model: Option[((Tables.ModelBuild#TableElementType, Option[Tables.Model#TableElementType]), Option[Tables.ModelRuntime#TableElementType])]): Option[ModelBuild] = model match {
-    case Some(tuple) =>
-      Some(mapFromDb(
-        tuple._1._1,
-        tuple._1._2.map(t => ModelRepositoryImpl.mapFromDb(t, None)),
-        tuple._2.map(t => ModelRuntimeRepositoryImpl.mapFromDb(t, None))
-      ))
-    case _ => None
-  }
+  def mapFromDb(model: Option[((Tables.ModelBuild#TableElementType, Option[Tables.Model#TableElementType]), Option[Tables.ModelRuntime#TableElementType])]): Option[ModelBuild] =
+    model.map {
+      case ((modelBuild, maybeModel), maybeModelRuntime) =>
+        mapFromDb(
+          modelBuild,
+          maybeModel.map(ModelRepositoryImpl.mapFromDb),
+          maybeModelRuntime.map(t => ModelRuntimeRepositoryImpl.mapFromDb(t, None))
+        )
+    }
 
   def mapFromDb(tuples: Seq[((Tables.ModelBuild#TableElementType, Option[Tables.Model#TableElementType]), Option[Tables.ModelRuntime#TableElementType])]): Seq[ModelBuild] = {
-    tuples.map(tuple =>
-      mapFromDb(tuple._1._1,
-        tuple._1._2.map(t => ModelRepositoryImpl.mapFromDb(t, None)),
-        tuple._2.map(t => ModelRuntimeRepositoryImpl.mapFromDb(t, None))))
+    tuples.map {
+      case ((modelBuild, maybeModel), maybeModelRuntime) =>
+        mapFromDb(
+          modelBuild,
+          maybeModel.map(ModelRepositoryImpl.mapFromDb),
+          maybeModelRuntime.map(t => ModelRuntimeRepositoryImpl.mapFromDb(t, None)))
+    }
   }
 
   def mapFromDb(modelBuild: Tables.ModelBuild#TableElementType, model: Option[Model], modelRuntime: Option[ModelRuntime]): ModelBuild = {

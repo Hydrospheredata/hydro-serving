@@ -1,10 +1,9 @@
 package io.hydrosphere.serving.model_api
 
-import io.hydrosphere.serving.model.RuntimeType
+import hydroserving.contract.model_contract.ModelContract
 
 case class ModelMetadata(
-  name: String,
-  runtimeType: Option[RuntimeType],
-  outputFields: ModelApi,
-  inputFields: ModelApi
+  modelName: String,
+  modelType: ModelType,
+  contract: ModelContract
 )

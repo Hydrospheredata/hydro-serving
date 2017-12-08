@@ -161,7 +161,8 @@ class ApplicationController(
   def generateInputsForRuntime = path("api" / "v1" / "applications" / "generateInputs" / LongNumber) { appId =>
     get {
       complete(
-        servingManagementService.generateInputsForRuntime(runtimeId)
+        ???
+        //servingManagementService.generateInputsForRuntime(runtimeId)
       )
     }
   }

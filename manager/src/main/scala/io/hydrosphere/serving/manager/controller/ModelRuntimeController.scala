@@ -105,7 +105,8 @@ class ModelRuntimeController (modelManagementService: ModelManagementService) ex
   def generateInputsForRuntime = path("api" / "v1" / "modelRuntime" / "generateInputs" / LongNumber) { runtimeId =>
     get {
       complete(
-        modelManagementService.generateInputsForRuntime(runtimeId)
+        ???
+        //modelManagementService.generateInputsForRuntime(runtimeId)
       )
     }
   }

@@ -99,7 +99,7 @@ trait UIManagementService {
 
   def testModel(modelId: Long, servePath: String, request: Array[Byte], headers: Seq[HttpHeader]): Future[ExecutionResult]
 
-  def buildModel(modelId: Long, modelVersion: Option[String], environmentId: Option[Long]): Future[ModelInfo]
+  def buildModel(modelId: Long, runtimeTypeId: Long, modelVersion: Option[String], environmentId: Option[Long]): Future[ModelInfo]
 
   def modelRuntimes(modelId: Long): Future[Seq[UIRuntimeInfo]]
 }
@@ -229,10 +229,14 @@ class UIManagementServiceImpl(
     Future(Thread.sleep(5000L))
   }
 
-  override def buildModel(modelId: Long, modelVersion: Option[String], environmentId: Option[Long]): Future[ModelInfo] =
-    modelManagementService.buildModel(modelId, modelVersion).flatMap(runtime => {
-      runtimeManagementService.addService(createModelServiceRequest(runtime, environmentId)).flatMap(_ => modelWithLastStatus(modelId).map(o => o.get))
-    })
+  override def buildModel(modelId: Long, runtimeTypeId: Long, modelVersion: Option[String], environmentId: Option[Long]): Future[ModelInfo] =
+    modelManagementService
+      .buildModel(modelId, modelVersion, runtimeTypeId)
+      .flatMap { runtime =>
+        runtimeManagementService
+          .addService(createModelServiceRequest(runtime, environmentId))
+          .flatMap { _ => modelWithLastStatus(modelId).map(_.get) }
+      }
 
   private def getDefaultKafkaImplementation(): Future[Option[ModelRuntime]] = {
     modelRuntimeRepository.fetchByTags(Seq("streaming", "kafka"))

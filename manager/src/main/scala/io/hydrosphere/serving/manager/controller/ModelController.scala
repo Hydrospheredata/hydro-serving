@@ -134,7 +134,7 @@ class ModelController(modelManagementService: ModelManagementService) extends Ma
     post {
       entity(as[BuildModelRequest]) { r =>
         complete(
-          modelManagementService.buildModel(r.modelId, r.modelVersion)
+          modelManagementService.buildModel(r.modelId, r.modelVersion, r.runtimeTypeId)
         )
       }
     }
@@ -154,7 +154,7 @@ class ModelController(modelManagementService: ModelManagementService) extends Ma
     post {
       entity(as[BuildModelByNameRequest]) { r =>
         complete(
-          modelManagementService.buildModel(r.modelName, r.modelVersion)
+          modelManagementService.buildModel(r.modelName, r.modelVersion, r.runtimeTypeId)
         )
       }
     }
@@ -172,7 +172,8 @@ class ModelController(modelManagementService: ModelManagementService) extends Ma
   def generatePayloadByModelNameService = path("api" / "v1" / "model" / "generate" / Segment) { modelName =>
     get {
       complete(
-        modelManagementService.generateModelPayload(modelName)
+        ???
+        //modelManagementService.generateModelPayload(modelName)
       )
     }
   }

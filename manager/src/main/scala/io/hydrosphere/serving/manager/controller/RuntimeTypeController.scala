@@ -6,7 +6,7 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.model.RuntimeType
-import io.hydrosphere.serving.manager.service.{CreateRuntimeTypeRequest, ModelManagementService}
+import io.hydrosphere.serving.manager.service.{CreateRuntimeTypeRequest, ModelManagementService, RuntimeTypeManagementService}
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
@@ -16,7 +16,7 @@ import scala.concurrent.duration._
   */
 @Path("/api/v1/runtimeType")
 @Api(produces = "application/json", tags = Array("Models: RuntimeType"))
-class RuntimeTypeController(modelManagementService: ModelManagementService) extends ManagerJsonSupport {
+class RuntimeTypeController(modelManagementService: ModelManagementService, runtimeTypeManagementService: RuntimeTypeManagementService) extends ManagerJsonSupport {
   implicit val timeout = Timeout(5.seconds)
 
   @Path("/")
@@ -27,6 +27,8 @@ class RuntimeTypeController(modelManagementService: ModelManagementService) exte
   ))
   def listRuntimeType = path("api" / "v1" / "runtimeType") {
     get {
+      println("123KEK123")
+
       complete(modelManagementService.allRuntimeTypes())
     }
   }
@@ -49,5 +51,22 @@ class RuntimeTypeController(modelManagementService: ModelManagementService) exte
     }
   }
 
-  val routes: Route = listRuntimeType ~ createRuntime
+  @Path("/tag/{tag}")
+  @ApiOperation(value = "Lookup by a tag", notes = "Lookup by a tag", nickname = "lookupByTag", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "tag", required = true, dataType = "string", paramType = "path", value = "tag")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Runtime", response = classOf[Seq[RuntimeType]]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def lookupByTag = path("api" / "v1" / "runtimeType" / "tag" / Segment) { tag =>
+    get {
+      complete {
+        runtimeTypeManagementService.lookupTag(tag)
+      }
+    }
+  }
+
+  val routes: Route = listRuntimeType ~ createRuntime ~ lookupByTag
 }

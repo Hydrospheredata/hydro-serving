@@ -2,10 +2,12 @@ package io.hydrosphere.serving.manager.service
 
 import java.time.LocalDateTime
 
+import hydroserving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.repository._
-import io.hydrosphere.serving.model_api.{DataGenerator, DataFrame, ModelApi}
+import io.hydrosphere.serving.model_api.ModelType
+//import io.hydrosphere.serving.model_api.{DataGenerator, DataFrame, ModelApi}
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.model._
@@ -35,33 +37,30 @@ case class CreateOrUpdateModelRequest(
   id: Option[Long],
   name: String,
   source: String,
-  runtimeTypeId: Option[Long],
+  modelType: ModelType,
   description: Option[String],
-  outputFields: Option[ModelApi],
-  inputFields: Option[ModelApi]
+  modelContract: ModelContract
 ) {
-  def toModel(runtimeType: Option[RuntimeType]): Model = {
+  def toModel: Model = {
     Model(
       id = 0,
       name = this.name,
       source = this.source,
-      runtimeType = runtimeType,
+      modelType = this.modelType,
       description = this.description,
-      outputFields = this.outputFields.getOrElse(DataFrame(List.empty)),
-      inputFields = this.inputFields.getOrElse(DataFrame(List.empty)),
+      modelContract = this.modelContract,
       created = LocalDateTime.now(),
       updated = LocalDateTime.now()
     )
   }
 
-  def toModel(model: Model, runtimeType: Option[RuntimeType]): Model = {
+  def toModel(model: Model): Model = {
     model.copy(
       name = this.name,
       source = this.source,
-      runtimeType = runtimeType,
+      modelType = this.modelType,
       description = this.description,
-      outputFields = this.outputFields.getOrElse(DataFrame(List.empty)),
-      inputFields = this.inputFields.getOrElse(DataFrame(List.empty))
+      modelContract = this.modelContract
     )
   }
 }
@@ -74,8 +73,7 @@ case class CreateModelRuntime(
   modelVersion: String,
   source: Option[String],
   runtimeTypeId: Option[Long],
-  outputFields: Option[ModelApi],
-  inputFields: Option[ModelApi],
+  modelContract: ModelContract,
   modelId: Option[Long],
   tags: Option[List[String]],
   configParams: Option[Map[String, String]]
@@ -90,8 +88,7 @@ case class CreateModelRuntime(
       modelVersion = this.modelVersion,
       source = this.source,
       runtimeType = runtimeType,
-      outputFields = this.outputFields.getOrElse(DataFrame(List.empty)),
-      inputFields = this.inputFields.getOrElse(DataFrame(List.empty)),
+      modelContract = this.modelContract,
       created = LocalDateTime.now(),
       modelId = this.modelId,
       tags = runtimeType.map(r => r.tags).getOrElse(this.tags.getOrElse(List())),
@@ -115,9 +112,9 @@ trait ModelManagementService {
 
   def createRuntimeType(entity: CreateRuntimeTypeRequest): Future[RuntimeType]
 
-  def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelRuntime]
+  def buildModel(modelId: Long, modelVersion: Option[String], runtimeTypeId: Long): Future[ModelRuntime]
 
-  def buildModel(modelName: String, modelVersion: Option[String]): Future[ModelRuntime]
+  def buildModel(modelName: String, modelVersion: Option[String], runtimeTypeId: Long): Future[ModelRuntime]
 
   def allRuntimeTypes(): Future[Seq[RuntimeType]]
 
@@ -155,9 +152,9 @@ trait ModelManagementService {
 
   def deleteModelFile(fileName: String): Future[Int]
 
-  def generateModelPayload(modelName: String): Future[Seq[Any]]
-
-  def generateInputsForRuntime(runtimeId: Long): Future[Option[Seq[Any]]]
+//  def generateModelPayload(modelName: String): Future[Seq[Any]]
+//
+//  def generateInputsForRuntime(runtimeId: Long): Future[Option[Seq[Any]]]
 }
 
 object ModelManagementService {
@@ -197,21 +194,24 @@ class ModelManagementServiceImpl(
 
   override def allModels(): Future[Seq[Model]] = modelRepository.all()
 
-  override def createModel(entity: CreateOrUpdateModelRequest): Future[Model] =
-    fetchRuntimeType(entity.runtimeTypeId).flatMap(runtimeType => {
-      modelRepository.create(entity.toModel(runtimeType))
-    })
+  override def createModel(entity: CreateOrUpdateModelRequest): Future[Model] = {
+    modelRepository.create(entity.toModel)
+  }
 
-  override def updateModel(entity: CreateOrUpdateModelRequest): Future[Model] =
-    fetchRuntimeType(entity.runtimeTypeId).flatMap(runtimeType => {
-      modelRepository.get(entity.id.getOrElse(throw new IllegalArgumentException("Id required for this action")))
-        .flatMap({
+  override def updateModel(entity: CreateOrUpdateModelRequest): Future[Model] = {
+    entity.id match {
+      case Some(modelId) =>
+        modelRepository.get(modelId).flatMap{
+          case Some(foundModel) =>
+            val newModel = entity.toModel(foundModel)
+            modelRepository
+              .update(newModel)
+              .map(_ => newModel)
           case None => throw new IllegalArgumentException(s"Can't find Model with id ${entity.id.get}")
-          case model => modelRepository.update(entity.toModel(model.get, runtimeType))
-            //TODO use returning
-            .flatMap(_ => modelRepository.get(model.get.id).map(s => s.get))
-        })
-    })
+        }
+      case None => throw new IllegalArgumentException("Id required for this action")
+    }
+  }
 
   override def addModelRuntime(entity: CreateModelRuntime): Future[ModelRuntime] =
     fetchRuntimeType(entity.runtimeTypeId).flatMap(runtimeType => {
@@ -242,20 +242,21 @@ class ModelManagementServiceImpl(
   override def lastModelBuildsByModel(id: Long, maximum: Int): Future[Seq[ModelBuild]] =
     modelBuildRepository.lastByModelId(id, maximum)
 
-  private def buildNewModelVersion(model: Model, modelVersion: Option[String]): Future[ModelRuntime] = {
-    fetchLastModelVersion(model.id, modelVersion).flatMap({ version =>
-      fetchScriptForRuntime(model.runtimeType).flatMap({ script =>
-        modelBuildRepository.create(ModelBuild(
-          id = 0,
-          model = model,
-          modelVersion = version,
-          started = LocalDateTime.now(),
-          finished = None,
-          status = ModelBuildStatus.STARTED,
-          statusText = None,
-          logsUrl = None,
-          modelRuntime = None
-        )).flatMap({ modelBuid =>
+  private def buildNewModelVersion(model: Model, modelVersion: Option[String], runtimeType: Option[RuntimeType]): Future[ModelRuntime] = {
+    fetchLastModelVersion(model.id, modelVersion).flatMap { version =>
+      fetchScriptForRuntime(runtimeType).flatMap { script =>
+        modelBuildRepository.create(
+          ModelBuild(
+            id = 0,
+            model = model,
+            modelVersion = version,
+            started = LocalDateTime.now(),
+            finished = None,
+            status = ModelBuildStatus.STARTED,
+            statusText = None,
+            logsUrl = None,
+            modelRuntime = None
+          )).flatMap { modelBuid =>
           buildModelRuntime(modelBuid, script).transform(
             runtime => {
               modelBuildRepository.finishBuild(modelBuid.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(runtime))
@@ -267,18 +268,20 @@ class ModelManagementServiceImpl(
               ex
             }
           )
-        })
-      })
-    })
+        }
+      }
+    }
   }
 
-  override def buildModel(modelId: Long, modelVersion: Option[String]): Future[ModelRuntime] =
+  override def buildModel(modelId: Long, modelVersion: Option[String], runtimeTypeId: Long): Future[ModelRuntime] =
     modelRepository.get(modelId)
-      .flatMap({
+      .flatMap {
         case None => throw new IllegalArgumentException(s"Can't find Model with id $modelId")
         case Some(model) =>
-          buildNewModelVersion(model, modelVersion)
-      })
+          runtimeTypeRepository.get(runtimeTypeId).flatMap{ rtype =>
+            buildNewModelVersion(model, modelVersion, rtype)
+          }
+      }
 
   private def fetchScriptForRuntime(runtimeType: Option[RuntimeType]): Future[String] = {
     runtimeType match {
@@ -303,25 +306,24 @@ class ModelManagementServiceImpl(
     }
 
     val imageName = modelPushService.getImageName(modelBuild)
-    modelBuildService.build(modelBuild, imageName, script, handler).flatMap{ md5 =>
-        modelRuntimeRepository.create(ModelRuntime(
-          id = 0,
-          imageName = imageName,
-          imageTag = modelBuild.modelVersion,
-          imageMD5Tag = md5,
-          modelName = modelBuild.model.name,
-          modelVersion = modelBuild.modelVersion,
-          source = Some(modelBuild.model.source),
-          runtimeType = modelBuild.model.runtimeType,
-          outputFields = modelBuild.model.outputFields,
-          inputFields = modelBuild.model.inputFields,
-          created = LocalDateTime.now,
-          modelId = Some(modelBuild.model.id),
-          tags = modelBuild.model.runtimeType.map(r => r.tags).getOrElse(List()),
-          configParams = modelBuild.model.runtimeType.map(r => r.configParams).getOrElse(Map())
-        )).flatMap{ modelRuntime =>
-          Future(modelPushService.push(modelRuntime, handler)).map(_ => modelRuntime)
-        }
+    modelBuildService.build(modelBuild, imageName, script, handler).flatMap { md5 =>
+      modelRuntimeRepository.create(ModelRuntime(
+        id = 0,
+        imageName = imageName,
+        imageTag = modelBuild.modelVersion,
+        imageMD5Tag = md5,
+        modelName = modelBuild.model.name,
+        modelVersion = modelBuild.modelVersion,
+        source = Some(modelBuild.model.source),
+        runtimeType = modelBuild.modelRuntime.flatMap(_.runtimeType),
+        modelContract = modelBuild.model.modelContract,
+        created = LocalDateTime.now,
+        modelId = Some(modelBuild.model.id),
+        tags = modelBuild.modelRuntime.flatMap(_.runtimeType).map(_.tags).getOrElse(List()),
+        configParams = modelBuild.modelRuntime.flatMap(_.runtimeType).map(_.configParams).getOrElse(Map())
+      )).flatMap { modelRuntime =>
+        Future(modelPushService.push(modelRuntime, handler)).map(_ => modelRuntime)
+      }
     }
   }
 
@@ -340,23 +342,16 @@ class ModelManagementServiceImpl(
     if (id.isEmpty) {
       Future.successful(None)
     } else {
-      runtimeTypeRepository.get(id.get).map({
-        case None => throw new IllegalArgumentException(s"Can't find RuntimeType with id ${id.get}")
-        case r => r
-      })
+      runtimeTypeRepository
+        .get(id.get)
+        .map {
+          _.orElse(throw new IllegalArgumentException(s"Can't find RuntimeType with id ${id.get}"))
+        }
     }
   }
 
   private def addModel(model: Model): Future[Model] = {
-    model.runtimeType match {
-      case Some(sc: SchematicRuntimeType) =>
-        runtimeTypeRepository.fetchByNameAndVersion(sc.name, sc.version)
-          .flatMap(runtimeType =>
-            modelRepository.create(model.copy(runtimeType = runtimeType))
-          )
-      case _ =>
-        modelRepository.create(model)
-    }
+    modelRepository.create(model)
   }
 
   def deleteModel(modelName: String): Future[Model] = {
@@ -427,51 +422,43 @@ class ModelManagementServiceImpl(
     }
   }
 
-  override def buildModel(modelName: String, modelVersion: Option[String]): Future[ModelRuntime] =
-    modelRepository.get(modelName).flatMap({
+  override def buildModel(modelName: String, modelVersion: Option[String], runtimeTypeId: Long): Future[ModelRuntime] = {
+    modelRepository.get(modelName).flatMap{
       case None => throw new IllegalArgumentException(s"Can't find Model with name $modelName")
       case Some(model) =>
-        buildNewModelVersion(model, modelVersion)
-    })
+        buildModel(model.id, modelVersion, runtimeTypeId)
+    }
+  }
 
   override def updateModel(modelName: String, modelSource: ModelSource): Future[Option[Model]] = {
     if (modelSource.isExist(modelName)) {
       // model is updated
       val modelMetadata = ModelFetcher.getModel(modelSource, modelName)
-      val fRuntime = modelMetadata.runtimeType match {
-        case Some(rt) =>
-          runtimeTypeRepository.fetchByNameAndVersion(rt.name, rt.version)
-        case None => Future.successful(None)
-      }
-      fRuntime.flatMap { rt =>
-        modelRepository.get(modelMetadata.name).flatMap {
-          case Some(oldModel) =>
-            val newModel = Model(
-              oldModel.id,
-              modelMetadata.name,
-              s"${modelSource.getSourcePrefix}:${modelMetadata.name}",
-              rt,
-              None,
-              modelMetadata.outputFields,
-              modelMetadata.inputFields,
-              oldModel.created,
-              LocalDateTime.now()
-            )
-            modelRepository.update(newModel).map(_ => Some(newModel))
-          case None =>
-            val newModel = Model(
-              -1,
-              modelMetadata.name,
-              s"${modelSource.getSourcePrefix}:${modelMetadata.name}",
-              rt,
-              None,
-              modelMetadata.outputFields,
-              modelMetadata.inputFields,
-              LocalDateTime.now(),
-              LocalDateTime.now()
-            )
-            modelRepository.create(newModel).map(x => Some(x))
-        }
+      modelRepository.get(modelMetadata.modelName).flatMap {
+        case Some(oldModel) =>
+          val newModel = Model(
+            id = oldModel.id,
+            name = modelMetadata.modelName,
+            source = s"${modelSource.getSourcePrefix}:${modelMetadata.modelName}",
+            modelType = modelMetadata.modelType,
+            description = None,
+            modelContract = modelMetadata.contract,
+            created = oldModel.created,
+            updated = LocalDateTime.now()
+          )
+          modelRepository.update(newModel).map(_ => Some(newModel))
+        case None =>
+          val newModel = Model(
+            id = -1,
+            name = modelMetadata.modelName,
+            source = s"${modelSource.getSourcePrefix}:${modelMetadata.modelName}",
+            modelType = modelMetadata.modelType,
+            description = None,
+            modelContract = modelMetadata.contract,
+            created = LocalDateTime.now(),
+            updated = LocalDateTime.now()
+          )
+          modelRepository.create(newModel).map(x => Some(x))
       }
     } else {
       // model is deleted
@@ -490,16 +477,17 @@ class ModelManagementServiceImpl(
   override def modelRuntimeByTag(tags: Seq[String]): Future[Seq[ModelRuntime]] =
     modelRuntimeRepository.fetchByTags(tags)
 
-  override def generateModelPayload(modelName: String): Future[Seq[Any]] = {
-    modelRepository.get(modelName).map {
-      case None => throw new IllegalArgumentException(s"Can't find model modelName=$modelName")
-      case Some(model) => List(DataGenerator(model.inputFields).generate)
-    }
-  }
-
-  override def generateInputsForRuntime(runtimeId: Long): Future[Option[Seq[Any]]] = {
-    modelRuntimeRepository.get(runtimeId).map(_.map{ runtime =>
-      List(DataGenerator(runtime.inputFields).generate)
-    })
-  }
+  // TODO implement input generation
+//  override def generateModelPayload(modelName: String): Future[Seq[Any]] = {
+//    modelRepository.get(modelName).map {
+//      case None => throw new IllegalArgumentException(s"Can't find model modelName=$modelName")
+//      case Some(model) => List(DataGenerator(model.inputFields).generate)
+//    }
+//  }
+//
+//  override def generateInputsForRuntime(runtimeId: Long): Future[Option[Seq[Any]]] = {
+//    modelRuntimeRepository.get(runtimeId).map(_.map{ runtime =>
+//      List(DataGenerator(runtime.inputFields).generate)
+//    })
+//  }
 }
