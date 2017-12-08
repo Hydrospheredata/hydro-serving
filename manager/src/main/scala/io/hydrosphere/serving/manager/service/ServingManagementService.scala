@@ -1,13 +1,17 @@
 package io.hydrosphere.serving.manager.service
 
+import hydroserving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.connector._
-import io.hydrosphere.serving.model.{Application, ApplicationExecutionGraph}
+import io.hydrosphere.serving.model.{Application, ApplicationExecutionGraph, ModelService}
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelServiceRepository}
-//import io.hydrosphere.serving.model_api.{ApiCompatibilityChecker, DataGenerator, ModelApi, UntypedAPI}
+import io.hydrosphere.serving.model_api.{SignatureChecker, SignatureMerger}
+
+import scala.concurrent.Await
+
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
-
+import scala.concurrent.duration._
 case class ApplicationCreateOrUpdateRequest(
   id: Option[Long],
   serviceName: String,
@@ -24,6 +28,8 @@ case class ApplicationCreateOrUpdateRequest(
     )
   }
 }
+
+case class ServiceWithSignature(s: ModelService, signatureName: String)
 
 trait ServingManagementService {
 
@@ -45,7 +51,7 @@ trait ServingManagementService {
 
 //  def generateModelPayload(modelName: String): Future[Seq[Any]]
 
-//  def checkApplicationSchema(req: ApplicationCreateOrUpdateRequest): Future[Boolean]
+  def checkApplicationSchema(req: ApplicationCreateOrUpdateRequest): Future[Boolean]
 
 //  def generateInputsForApplication(appId: Long): Future[Seq[Any]]
 }
@@ -152,36 +158,32 @@ class ServingManagementServiceImpl(
   override def getApplication(id: Long): Future[Option[Application]] =
     applicationRepository.get(id)
 
-//  override def checkApplicationSchema(req: ApplicationCreateOrUpdateRequest): Future[Boolean] = {
-//    val services = req.executionGraph.stages.map(_.services.map(_.serviceId))
-//    val serviceStatuses = services.zip(services.tail).map{
-//      case (a, b) =>
-//        val compMat = checkStagesSchemas(a, b)
-//        val stagesStatus = compMat.map(_.forall(sub => sub.forall(_ == true)))
-//        stagesStatus
-//    }
-//    Future.sequence(serviceStatuses).map(_.forall(_ == true))
-//  }
+  override def checkApplicationSchema(req: ApplicationCreateOrUpdateRequest): Future[Boolean] = {
+    val stages = req.executionGraph.stages.zipWithIndex.map {
+      case (stage, stIdx) =>
+        val servicesId = stage.services.map(s => s.serviceId -> s.signatureName).toMap
+        val services = servicesId.map {
+          case (id, sig) =>
+            Await.result(modelServiceRepository.get(id), 1.minute).getOrElse(throw new IllegalArgumentException(s"Service $id is not found.")) -> sig
+        }.map { case (s, sig) => ServiceWithSignature(s, sig) }.toSeq
+        createStageSignature(stIdx, services)
+    }
 
-//  private def checkStagesSchemas(stageA: List[Long], stageB: List[Long]): Future[List[List[Boolean]]] = {
-//    val servicesA = stageA.map(modelServiceRepository.get)
-//    val servicesB = stageB.map(modelServiceRepository.get)
-//
-//    val results = servicesA.map{ fServiceA =>
-//      servicesB.map{ fServiceB =>
-//        fServiceA.zip(fServiceB).map{
-//          case (Some(serviceA), Some(serviceB)) =>
-//            checkServicesSchemas(serviceA, serviceB)
-//        }
-//      }
-//    }
-//    val r = results.map(x => Future.sequence(x))
-//    Future.sequence(r)
-//  }
+    Future(
+      stages.zip(stages.tail).forall {
+        case (sig1, sig2) => SignatureChecker.areCompatible(sig1, sig2)
+      }
+    )
+  }
 
-//  private def checkServicesSchemas(modelServiceA: ModelService, modelServiceB: ModelService): Boolean = {
-//    ApiCompatibilityChecker.check(modelServiceA.modelRuntime.outputFields -> modelServiceB.modelRuntime.inputFields)
-//  }
+  private def createStageSignature(idx: Long, stages: Seq[ServiceWithSignature]): ModelSignature = {
+    val signatures = stages.map{ info =>
+      info.s.modelRuntime.modelContract.signatures
+        .find(_.signatureName == info.signatureName)
+        .getOrElse(throw new IllegalArgumentException(s"${info.signatureName} signature doesn't exist"))
+    }
+    signatures.fold(ModelSignature())(SignatureMerger.merge)
+  }
 
 //  override def generateInputsForApplication(appId: Long): Future[Option[Seq[Any]]] = {
 //    applicationRepository.get(appId).map(_.map{ app =>
