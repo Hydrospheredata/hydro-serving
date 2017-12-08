@@ -3,28 +3,28 @@ CREATE TABLE hydro_serving.runtime_type
   runtime_type_id BIGSERIAL PRIMARY KEY,
   name            TEXT    NOT NULL,
   version         TEXT    NOT NULL,
-  model_type      TEXT    NOT NULL,
   tags            TEXT [] NOT NULL,
   config_params   TEXT [] NOT NULL,
   CONSTRAINT runtime_type_name_version_unique UNIQUE (name, version)
 );
 
-INSERT INTO hydro_serving.runtime_type (name, version, model_type, tags, config_params) VALUES
-  ('hydrosphere/serving-runtime-dummy', '0.0.1', 'unknown', '{"python","code","test"}', '{}'),
-  ('hydrosphere/serving-runtime-tensorflow', '0.0.1', 'tensorflow', '{"tensorflow","python","ml"}', '{}'),
-  ('hydrosphere/serving-runtime-sparklocal-2.0', '0.0.1', 'spark:2.0', '{"spark:2.0","scala","ml"}', '{}'),
-  ('hydrosphere/serving-runtime-sparklocal-2.1', '0.0.1', 'spark:2.1', '{"spark:2.1","scala","ml"}', '{}'),
-  ('hydrosphere/serving-runtime-sparklocal-2.2', '0.0.1', 'spark:2.2', '{"spark:2.2","scala","ml"}', '{}'),
-  ('hydrosphere/serving-runtime-py2databricks', '0.0.1', 'python:2.7', '{"python2","databricks","sk-learn", "ml"}', '{}'),
-  ('hydrosphere/serving-runtime-scikit', '0.0.1', 'scikit', '{"scikit","ml"}', '{}');
+INSERT INTO hydro_serving.runtime_type (name, version, tags, config_params) VALUES
+  ('hydrosphere/serving-runtime-dummy', '0.0.1', '{"python","code","test"}', '{}'),
+  ('hydrosphere/serving-runtime-tensorflow', '0.0.1', '{"tensorflow","python","ml"}', '{}'),
+  ('hydrosphere/serving-runtime-sparklocal-2.0', '0.0.1', '{"spark 2.0","scala","ml"}', '{}'),
+  ('hydrosphere/serving-runtime-sparklocal-2.1', '0.0.1', '{"spark 2.1","scala","ml"}', '{}'),
+  ('hydrosphere/serving-runtime-sparklocal-2.2', '0.0.1', '{"spark 2.2","scala","ml"}', '{}'),
+  ('hydrosphere/serving-runtime-py2databricks', '0.0.1', '{"python2","databricks","sk-learn", "ml"}', '{}'),
+  ('hydrosphere/serving-runtime-scikit', '0.0.1', '{"scikit","scikit","ml"}', '{}');
 
 CREATE TABLE hydro_serving.model
 (
   model_id          BIGSERIAL PRIMARY KEY,
   name              TEXT                        NOT NULL,
   source            TEXT                        NOT NULL UNIQUE,
-  model_type        TEXT                        NOT NULL,
-  model_contract    TEXT                        NOT NULL,
+  runtime_type_id   BIGINT REFERENCES runtime_type (runtime_type_id),
+  output_fields     TEXT                        NOT NULL,
+  input_fields      TEXT                        NOT NULL,
   description       TEXT,
   created_timestamp TIMESTAMP WITHOUT TIME ZONE NOT NULL,
   updated_timestamp TIMESTAMP WITHOUT TIME ZONE NOT NULL
@@ -65,7 +65,8 @@ CREATE TABLE hydro_serving.model_runtime
   modelName         TEXT                        NOT NULL,
   modelVersion      TEXT                        NOT NULL,
   source            TEXT,
-  model_contract    TEXT                        NOT NULL,
+  output_fields     TEXT                        NOT NULL,
+  input_fields      TEXT                        NOT NULL,
   created_timestamp TIMESTAMP WITHOUT TIME ZONE NOT NULL,
   image_name        TEXT                        NOT NULL,
   image_tag         TEXT                        NOT NULL,

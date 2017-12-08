@@ -40,9 +40,9 @@ class RuntimeTypeRepositoryImpl(
         entity.id,
         entity.name,
         entity.version,
-        entity.modelType.toTag,
         entity.tags,
-        entity.configParams.map { case (k, v) => s"$k=$v" }.toList
+        entity.configParams.map { case (k, v) => s"$k=$v" }.toList,
+        entity.modelType.toTag
       )
     ).map(s => mapFromDb(s))
 
