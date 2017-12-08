@@ -3,6 +3,7 @@ package io.hydrosphere.serving.manager.repository.db
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.model.RuntimeType
 import io.hydrosphere.serving.manager.repository.RuntimeTypeRepository
+import io.hydrosphere.serving.model_api.ModelType
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -39,6 +40,7 @@ class RuntimeTypeRepositoryImpl(
         entity.id,
         entity.name,
         entity.version,
+        entity.modelType.toTag,
         entity.tags,
         entity.configParams.map { case (k, v) => s"$k=$v" }.toList
       )
@@ -83,11 +85,12 @@ object RuntimeTypeRepositoryImpl {
       id = dbType.runtimeTypeId,
       name = dbType.name,
       version = dbType.version,
+      modelType = ModelType.fromTag(dbType.modelType),
       tags = dbType.tags,
-      configParams = dbType.configParams.map(s => {
+      configParams = dbType.configParams.map{s =>
         val arr = s.split('=')
         arr.head -> arr.drop(1).mkString("=")
-      }).toMap
+      }.toMap
     )
   }
 }

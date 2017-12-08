@@ -19,6 +19,7 @@ import scala.util.{Failure, Success, Try}
 case class CreateRuntimeTypeRequest(
   name: String,
   version: String,
+  modelType: String,
   tags: Option[List[String]],
   configParams: Option[Map[String, String]]
 ) {
@@ -27,6 +28,7 @@ case class CreateRuntimeTypeRequest(
       id = 0,
       name = this.name,
       version = this.version,
+      modelType = ModelType.fromTag(modelType),
       tags = this.tags.getOrElse(List()),
       configParams = this.configParams.getOrElse(Map())
     )

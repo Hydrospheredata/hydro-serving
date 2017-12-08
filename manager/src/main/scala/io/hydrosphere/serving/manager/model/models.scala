@@ -26,8 +26,9 @@ case class RuntimeTypeBuildScript(
 
 class SchematicRuntimeType(
   name: String,
-  version: String
-) extends RuntimeType(-1, name, version, List(), Map())
+  version: String,
+  modelType: ModelType
+) extends RuntimeType(-1, name, version, modelType, List(), Map())
 
 case class Model(
   id: Long,

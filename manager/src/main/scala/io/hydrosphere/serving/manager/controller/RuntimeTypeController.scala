@@ -7,6 +7,7 @@ import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.model.RuntimeType
 import io.hydrosphere.serving.manager.service.{CreateRuntimeTypeRequest, ModelManagementService, RuntimeTypeManagementService}
+import io.hydrosphere.serving.model_api.ModelType
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
@@ -51,19 +52,19 @@ class RuntimeTypeController(modelManagementService: ModelManagementService, runt
     }
   }
 
-  @Path("/tag/{tag}")
-  @ApiOperation(value = "Lookup by a tag", notes = "Lookup by a tag", nickname = "lookupByTag", httpMethod = "GET")
+  @Path("/modelType/{modelType}")
+  @ApiOperation(value = "Lookup by a modelType", notes = "Lookup by a modelType", nickname = "lookupByModelType", httpMethod = "GET")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "tag", required = true, dataType = "string", paramType = "path", value = "tag")
+    new ApiImplicitParam(name = "modelType", required = true, dataType = "string", paramType = "path", value = "tag")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Runtime", response = classOf[Seq[RuntimeType]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def lookupByTag = path("api" / "v1" / "runtimeType" / "tag" / Segment) { tag =>
+  def lookupByTag = path("api" / "v1" / "runtimeType" / "modelType" / Segment) { tag =>
     get {
       complete {
-        runtimeTypeManagementService.lookupTag(tag)
+        ModelType.tryFromTag(tag).map(runtimeTypeManagementService.lookupRuntimeType)
       }
     }
   }

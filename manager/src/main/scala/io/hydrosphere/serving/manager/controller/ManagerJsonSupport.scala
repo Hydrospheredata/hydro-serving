@@ -24,7 +24,7 @@ trait ManagerJsonSupport extends CommonJsonSupport {
 
   implicit val createModelServiceRequest = jsonFormat4(CreateModelServiceRequest)
 
-  implicit val createRuntimeTypeRequest = jsonFormat4(CreateRuntimeTypeRequest)
+  implicit val createRuntimeTypeRequest = jsonFormat5(CreateRuntimeTypeRequest)
 
   implicit val createOrUpdateModelRequest = jsonFormat6(CreateOrUpdateModelRequest)
 

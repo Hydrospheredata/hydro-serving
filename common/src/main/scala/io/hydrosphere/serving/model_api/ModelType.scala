@@ -25,6 +25,14 @@ object ModelType {
     override def toTag: String = "unknown"
   }
 
+  def tryFromTag(tag: String): Option[ModelType] = {
+    try {
+      Some(fromTag(tag))
+    } catch {
+      case _: IllegalArgumentException => None
+    }
+  }
+
   def fromTag(tag: String): ModelType = {
     tag.split(':').toList match {
       case "tensorflow" :: Nil => Tensorflow()

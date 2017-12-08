@@ -3,12 +3,14 @@ package io.hydrosphere.serving.model
 import java.time.LocalDateTime
 
 import hydroserving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.model_api.ModelType
 
 
 case class RuntimeType(
   id: Long,
   name: String,
   version: String,
+  modelType: ModelType,
   tags: List[String],
   configParams: Map[String, String]
 )

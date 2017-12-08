@@ -18,15 +18,8 @@ import scala.collection.JavaConversions._
 
 
 object SparkModelFetcher extends ModelFetcher with Logging {
-  private def getRuntimeType(sparkMetadata: SparkModelMetadata): RuntimeType = {
-    val version = sparkMetadata.sparkVersion
-    new SchematicRuntimeType(s"hydrosphere/serving-runtime-sparklocal-${version.substring(0, version.lastIndexOf("."))}", "0.0.1")
-  }
-
   private def getStageMetadata(source: ModelSource, model: String, stage: String): SparkModelMetadata = {
-    val metaFile = source.getReadableFile(s"$model/stages/$stage/metadata/part-00000")
-    val metaStr = Files.readAllLines(metaFile.toPath).mkString
-    SparkModelMetadata.fromJson(metaStr)
+    getMetadata(source, s"$model/stages/$stage")
   }
 
   private def getMetadata(source: ModelSource, model: String): SparkModelMetadata = {
