@@ -44,6 +44,7 @@ case class KafkaStreamingParams(
 
 case class UIServiceWeight(
   runtimeId: Long,
+  signatureName: String,
   weight: Int
 )
 
@@ -350,7 +351,7 @@ class UIManagementServiceImpl(
 
     val runtimesIds = stages.flatMap(s => s.map(c => c.runtimeId)).distinct
     runtimeManagementService.getServicesByRuntimes(runtimesIds)
-      .flatMap(services => {
+      .flatMap{ services =>
         val runtimeToService = services.map(s => s.modelRuntime.id -> s.serviceId).toMap
         val toCreate = runtimesIds.filterNot(r => runtimeToService.contains(r))
 
@@ -368,15 +369,16 @@ class UIManagementServiceImpl(
           }
         }
 
-        fWithMappings.map(index => {
-          stages.map(s => {
-            s.map(w => ServiceWeight(
+        fWithMappings.map{ index =>
+          stages.map{ s =>
+            s.map{w => ServiceWeight(
               weight = w.weight,
+              signatureName = w.signatureName,
               serviceId = index.getOrElse(w.runtimeId, throw new RuntimeException(s"Can't find service for runtimeId=$w"))
-            ))
-          })
-        })
-      })
+            )}
+          }
+        }
+      }
   }
 
   override def createApplication(req: UIApplicationCreateOrUpdateRequest): Future[ApplicationDetails] =

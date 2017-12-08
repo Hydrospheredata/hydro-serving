@@ -54,7 +54,8 @@ case class ErrorResponse(
 
 case class ServiceWeight(
   serviceId: Long,
-  weight: Int
+  weight: Int,
+  signatureName: String
 )
 
 case class ApplicationStage(

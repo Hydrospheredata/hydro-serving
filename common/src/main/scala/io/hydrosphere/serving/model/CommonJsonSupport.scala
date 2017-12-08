@@ -6,7 +6,6 @@ import java.time.format.DateTimeFormatter
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 import hydroserving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.model_api.ModelType
-import io.hydrosphere.serving.model_api.ModelType.{Scikit, Spark, Tensorflow, Unknown}
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
 
@@ -64,7 +63,7 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
     override def read(json: JsValue) = {
       json match {
         case JsString(str) => ModelContract.fromAscii(str)
-        case x => throw new DeserializationException(s"$x is not a correct ModelContract message")
+        case x => throw DeserializationException(s"$x is not a correct ModelContract message")
       }
     }
 
@@ -77,7 +76,7 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
     override def read(json: JsValue) = {
       json match {
         case JsString(str) => ModelType.fromTag(str)
-        case x => throw new DeserializationException(s"$x is not a valid ModelType")
+        case x => throw DeserializationException(s"$x is not a valid ModelType")
       }
     }
 
@@ -92,7 +91,7 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
   implicit val modelServiceFormat = jsonFormat8(ModelService)
 
   implicit val errorResponseFormat = jsonFormat1(ErrorResponse)
-  implicit val serviceWeightFormat = jsonFormat2(ServiceWeight)
+  implicit val serviceWeightFormat = jsonFormat3(ServiceWeight)
   implicit val applicationStageFormat = jsonFormat1(ApplicationStage)
   implicit val applicationExecutionGraphFormat = jsonFormat1(ApplicationExecutionGraph)
   implicit val applicationFormat = jsonFormat4(Application)
