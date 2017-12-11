@@ -7,11 +7,12 @@ import hydroserving.tensorflow.tensor_info.TensorInfo
 import hydroserving.tensorflow.tensor_shape.TensorShapeProto
 
 object SignatureChecker {
-  def areCompatible(emitter: Seq[TensorShapeProto.Dim], receiver: Seq[TensorShapeProto.Dim]): Boolean = {
-    if (emitter.length != receiver.length) {
+
+  def areCompatible(first: Seq[TensorShapeProto.Dim], second: Seq[TensorShapeProto.Dim]): Boolean = {
+    if (first.length != second.length) {
       false
     } else {
-      emitter.zip(receiver).forall{
+      first.zip(second).forall{
         case (em, re) =>
           if (re.size == -1) {
             true
@@ -22,7 +23,7 @@ object SignatureChecker {
     }
   }
 
-  def areCompatible(emitter: TensorInfo, receiver: TensorInfo): Boolean = {
+  def areSequentiallyCompatible(emitter: TensorInfo, receiver: TensorInfo): Boolean = {
     if (emitter.dtype != receiver.dtype) {
       false
     } else {
@@ -36,31 +37,31 @@ object SignatureChecker {
     }
   }
 
-  def areCompatible(emitter: ModelField.Dict, receiver: ModelField.Dict): Boolean = {
+  def areSequentiallyCompatible(emitter: ModelField.Dict, receiver: ModelField.Dict): Boolean = {
     receiver.data.forall {
       case (name, field) =>
         val emitterField = emitter.data.get(name)
-        emitterField.exists(areCompatible(_, field))
+        emitterField.exists(areSequentiallyCompatible(_, field))
     }
   }
 
-  def areCompatible(emitter: ModelField, receiver: ModelField): Boolean = {
+  def areSequentiallyCompatible(emitter: ModelField, receiver: ModelField): Boolean = {
     if (emitter == receiver) {
       true
     } else if (emitter.fieldName == receiver.fieldName) {
       emitter.infoOrDict match {
-        case Empty => receiver.infoOrDict.isInfo
+        case Empty => receiver.infoOrDict.isEmpty
         case Dict(dict) =>
-          receiver.infoOrDict.dict.exists(areCompatible(dict, _))
+          receiver.infoOrDict.dict.exists(areSequentiallyCompatible(dict, _))
         case Info(tensor) =>
-          receiver.infoOrDict.info.exists(areCompatible(tensor, _))
+          receiver.infoOrDict.info.exists(areSequentiallyCompatible(tensor, _))
       }
     } else {
       false
     }
   }
 
-  def areCompatible(emitter: ModelSignature, receiver: ModelSignature): Boolean = {
+  def areSequentiallyCompatible(emitter: ModelSignature, receiver: ModelSignature): Boolean = {
     if (receiver.inputs.isEmpty) {
       false
     } else {
@@ -68,7 +69,7 @@ object SignatureChecker {
       receiver.inputs.forall { input =>
         outputMap
           .get(input.fieldName)
-          .exists(in => areCompatible(in, input))
+          .exists(in => areSequentiallyCompatible(in, input))
       }
     }
   }

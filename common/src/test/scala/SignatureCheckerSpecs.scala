@@ -29,7 +29,7 @@ class SignatureCheckerSpecs extends WordSpec {
             ModelField("out2", ModelField.InfoOrDict.Info(TensorInfo("out2", DataType.DT_STRING, None)))
           )
         )
-        assert(SignatureChecker.areCompatible(sig1, sig2))
+        assert(SignatureChecker.areSequentiallyCompatible(sig1, sig2))
       }
 
       "two identical signatures (Double[5],Double[5] -> Double[5],Double[5])" in {
@@ -75,7 +75,7 @@ class SignatureCheckerSpecs extends WordSpec {
             )
           ) :: Nil
         )
-        assert(SignatureChecker.areCompatible(sig1, sig2))
+        assert(SignatureChecker.areSequentiallyCompatible(sig1, sig2))
       }
 
       "two compatible signatures (Int32[3] -> Int32[-1])" in {
@@ -125,7 +125,7 @@ class SignatureCheckerSpecs extends WordSpec {
             )
           ) :: Nil
         )
-        assert(SignatureChecker.areCompatible(sig1, sig2))
+        assert(SignatureChecker.areSequentiallyCompatible(sig1, sig2))
       }
 
       "two identical signatures (Double[5, 2] -> Double[5, 2])" in {
@@ -175,7 +175,7 @@ class SignatureCheckerSpecs extends WordSpec {
             )
           ) :: Nil
         )
-        assert(SignatureChecker.areCompatible(sig1, sig2))
+        assert(SignatureChecker.areSequentiallyCompatible(sig1, sig2))
       }
 
       "two identical signatures (Double[5, 2] -> Double[5, -1])" in {
@@ -225,7 +225,7 @@ class SignatureCheckerSpecs extends WordSpec {
             )
           ) :: Nil
         )
-        assert(SignatureChecker.areCompatible(sig1, sig2))
+        assert(SignatureChecker.areSequentiallyCompatible(sig1, sig2))
       }
 
     }
@@ -244,7 +244,7 @@ class SignatureCheckerSpecs extends WordSpec {
             ModelField("in2", ModelField.InfoOrDict.Info(TensorInfo("in2", DataType.DT_INT32, None)))
           )
         )
-        assert(! SignatureChecker.areCompatible(sig1, sig2))
+        assert(! SignatureChecker.areSequentiallyCompatible(sig1, sig2))
       }
 
       "two completely different signatures (String[3] -> String[4])" in {
@@ -294,7 +294,7 @@ class SignatureCheckerSpecs extends WordSpec {
             )
           ) :: Nil
         )
-        assert(! SignatureChecker.areCompatible(sig1, sig2))
+        assert(! SignatureChecker.areSequentiallyCompatible(sig1, sig2))
       }
 
       "two completely different signatures (Double[4] -> Double[3])" in {
@@ -344,7 +344,7 @@ class SignatureCheckerSpecs extends WordSpec {
             )
           ) :: Nil
         )
-        assert(! SignatureChecker.areCompatible(sig1, sig2))
+        assert(! SignatureChecker.areSequentiallyCompatible(sig1, sig2))
       }
 
       "two signatures when receiver has empty input signature" in {
@@ -372,7 +372,7 @@ class SignatureCheckerSpecs extends WordSpec {
           ) :: Nil
         )
         val sig2 = ModelSignature()
-        assert(! SignatureChecker.areCompatible(sig1, sig2))
+        assert(! SignatureChecker.areSequentiallyCompatible(sig1, sig2))
       }
 
       "two signatures when emitter has empty output signature" in {
@@ -400,7 +400,7 @@ class SignatureCheckerSpecs extends WordSpec {
             )
           ) :: Nil
         )
-        assert(! SignatureChecker.areCompatible(sig1, sig2))
+        assert(! SignatureChecker.areSequentiallyCompatible(sig1, sig2))
       }
     }
   }

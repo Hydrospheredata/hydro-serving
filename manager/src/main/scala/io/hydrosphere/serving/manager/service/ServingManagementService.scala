@@ -4,7 +4,7 @@ import hydroserving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.connector._
 import io.hydrosphere.serving.model.{Application, ApplicationExecutionGraph, ModelService}
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelServiceRepository}
-import io.hydrosphere.serving.model_api.{SignatureChecker, SignatureMerger}
+import io.hydrosphere.serving.model_api.{SignatureChecker, SignatureOps}
 
 import scala.concurrent.Await
 
@@ -164,14 +164,16 @@ class ServingManagementServiceImpl(
         val servicesId = stage.services.map(s => s.serviceId -> s.signatureName).toMap
         val services = servicesId.map {
           case (id, sig) =>
-            Await.result(modelServiceRepository.get(id), 1.minute).getOrElse(throw new IllegalArgumentException(s"Service $id is not found.")) -> sig
+            val modelService = Await.result(modelServiceRepository.get(id), 1.minute)
+              .getOrElse(throw new IllegalArgumentException(s"Service $id is not found."))
+            modelService -> sig
         }.map { case (s, sig) => ServiceWithSignature(s, sig) }.toSeq
         createStageSignature(stIdx, services)
     }
 
     Future(
       stages.zip(stages.tail).forall {
-        case (sig1, sig2) => SignatureChecker.areCompatible(sig1, sig2)
+        case (sig1, sig2) => SignatureChecker.areSequentiallyCompatible(sig1, sig2)
       }
     )
   }
@@ -182,7 +184,7 @@ class ServingManagementServiceImpl(
         .find(_.signatureName == info.signatureName)
         .getOrElse(throw new IllegalArgumentException(s"${info.signatureName} signature doesn't exist"))
     }
-    signatures.fold(ModelSignature())(SignatureMerger.merge)
+    signatures.fold(ModelSignature())(SignatureOps.merge)
   }
 
 //  override def generateInputsForApplication(appId: Long): Future[Option[Seq[Any]]] = {
