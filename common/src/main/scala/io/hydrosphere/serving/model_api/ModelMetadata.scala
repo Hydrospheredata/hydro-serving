@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.model_api
 
-import hydroserving.contract.model_contract.ModelContract
+import hydrosphere.contract.model_contract.ModelContract
 
 case class ModelMetadata(
   modelName: String,

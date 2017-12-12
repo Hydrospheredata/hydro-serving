@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.service
 
-import hydroserving.contract.model_signature.ModelSignature
+import hydrosphere.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.connector._
 import io.hydrosphere.serving.model.{Application, ApplicationExecutionGraph, ModelService}
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelServiceRepository}

@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.service
 
-import hydroserving.contract.model_contract.ModelContract
+import hydrosphere.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.test.CommonIntegrationSpec
 import io.hydrosphere.serving.model_api._
 import org.scalactic.source.Position

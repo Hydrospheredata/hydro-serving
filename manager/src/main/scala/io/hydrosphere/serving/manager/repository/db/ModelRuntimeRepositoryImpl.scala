@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.repository.db
 
-import hydroserving.contract.model_contract.ModelContract
+import hydrosphere.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.controller.ManagerJsonSupport
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.model.{ModelRuntime, RuntimeType}

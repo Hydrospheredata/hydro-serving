@@ -2,7 +2,7 @@ package io.hydrosphere.serving.model
 
 import java.time.LocalDateTime
 
-import hydroserving.contract.model_contract.ModelContract
+import hydrosphere.contract.model_contract.ModelContract
 import io.hydrosphere.serving.model_api.ModelType
 
 

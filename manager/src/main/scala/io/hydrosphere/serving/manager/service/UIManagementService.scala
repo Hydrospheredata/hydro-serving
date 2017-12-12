@@ -6,18 +6,13 @@ import akka.actor.ActorSystem
 import akka.http.scaladsl.model.HttpHeader
 import akka.pattern.ask
 import akka.util.Timeout
-import hydroserving.contract.model_field.ModelField
-import hydroserving.contract.model_field.ModelField.InfoOrDict.{Dict, Empty, Info}
-import hydroserving.tensorflow.tensor_info.TensorInfo
-import hydroserving.tensorflow.types.DataType
-import io.hydrosphere.serving.model._
-import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.connector._
 import io.hydrosphere.serving.manager.actor.ContainerWatcher
-import io.hydrosphere.serving.manager.actor.ContainerWatcher.{Started, Stopped, WatchForStart, WatchForStop}
+import io.hydrosphere.serving.manager.actor.ContainerWatcher.{Started, WatchForStart, WatchForStop}
+import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.repository.{ModelBuildRepository, ModelRepository, ModelRuntimeRepository, ModelServiceRepository}
+import io.hydrosphere.serving.model._
 import io.hydrosphere.serving.model_api.ContractOps.SignatureDescription
-import io.hydrosphere.serving.model_api.ModelContractBuilders
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}

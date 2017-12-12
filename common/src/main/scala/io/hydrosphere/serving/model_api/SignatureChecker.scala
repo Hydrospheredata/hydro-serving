@@ -1,10 +1,10 @@
 package io.hydrosphere.serving.model_api
 
-import hydroserving.contract.model_field.ModelField
-import hydroserving.contract.model_field.ModelField.InfoOrDict.{Dict, Empty, Info}
-import hydroserving.contract.model_signature.ModelSignature
-import hydroserving.tensorflow.tensor_info.TensorInfo
-import hydroserving.tensorflow.tensor_shape.TensorShapeProto
+import hydrosphere.contract.model_field.ModelField
+import hydrosphere.contract.model_field.ModelField.InfoOrDict.{Dict, Empty, Info}
+import hydrosphere.contract.model_signature.ModelSignature
+import hydrosphere.tensorflow.tensor_info.TensorInfo
+import hydrosphere.tensorflow.tensor_shape.TensorShapeProto
 
 object SignatureChecker {
 

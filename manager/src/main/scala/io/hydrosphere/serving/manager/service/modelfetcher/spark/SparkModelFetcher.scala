@@ -3,9 +3,9 @@ package io.hydrosphere.serving.manager.service.modelfetcher.spark
 import java.io.FileNotFoundException
 import java.nio.file.{Files, NoSuchFileException}
 
-import hydroserving.contract.model_contract.ModelContract
-import hydroserving.contract.model_field.ModelField
-import hydroserving.contract.model_signature.ModelSignature
+import hydrosphere.contract.model_contract.ModelContract
+import hydrosphere.contract.model_field.ModelField
+import hydrosphere.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.model.SchematicRuntimeType
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers.SparkMlTypeMapper

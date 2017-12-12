@@ -3,12 +3,12 @@ package io.hydrosphere.serving.manager.service.modelfetcher
 import java.io.FileNotFoundException
 import java.nio.file.{Files, NoSuchFileException}
 
-import hydroserving.contract.model_contract.ModelContract
-import hydroserving.contract.model_field.ModelField
-import hydroserving.contract.model_signature.ModelSignature
-import hydroserving.tensorflow.tensor_info.TensorInfo
-import hydroserving.tensorflow.tensor_shape.TensorShapeProto
-import hydroserving.tensorflow.types.DataType
+import hydrosphere.contract.model_contract.ModelContract
+import hydrosphere.contract.model_field.ModelField
+import hydrosphere.contract.model_signature.ModelSignature
+import hydrosphere.tensorflow.tensor_info.TensorInfo
+import hydrosphere.tensorflow.tensor_shape.TensorShapeProto
+import hydrosphere.tensorflow.types.DataType
 import io.hydrosphere.serving.model_api._
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import org.apache.logging.log4j.scala.Logging

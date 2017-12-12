@@ -1,9 +1,9 @@
 package io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers
 
-import hydroserving.contract.model_field.ModelField
-import hydroserving.tensorflow.tensor_info.TensorInfo
-import hydroserving.tensorflow.tensor_shape.TensorShapeProto
-import hydroserving.tensorflow.types.DataType
+import hydrosphere.contract.model_field.ModelField
+import hydrosphere.tensorflow.tensor_info.TensorInfo
+import hydrosphere.tensorflow.tensor_shape.TensorShapeProto
+import hydrosphere.tensorflow.types.DataType
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelMetadata
 
 class UntypedMapper(m: SparkModelMetadata)  extends SparkMlTypeMapper(m) {
