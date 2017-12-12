@@ -6,12 +6,18 @@ import akka.actor.ActorSystem
 import akka.http.scaladsl.model.HttpHeader
 import akka.pattern.ask
 import akka.util.Timeout
+import hydroserving.contract.model_field.ModelField
+import hydroserving.contract.model_field.ModelField.InfoOrDict.{Dict, Empty, Info}
+import hydroserving.tensorflow.tensor_info.TensorInfo
+import hydroserving.tensorflow.types.DataType
 import io.hydrosphere.serving.model._
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.connector._
 import io.hydrosphere.serving.manager.actor.ContainerWatcher
 import io.hydrosphere.serving.manager.actor.ContainerWatcher.{Started, Stopped, WatchForStart, WatchForStop}
 import io.hydrosphere.serving.manager.repository.{ModelBuildRepository, ModelRepository, ModelRuntimeRepository, ModelServiceRepository}
+import io.hydrosphere.serving.model_api.ContractOps.SignatureDescription
+import io.hydrosphere.serving.model_api.ModelContractBuilders
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -85,6 +91,7 @@ case class ApplicationDetails(
 )
 
 trait UIManagementService {
+  def flattenContract(modelId: Long): Future[Option[List[SignatureDescription]]]
 
   def createApplication(req: UIApplicationCreateOrUpdateRequest): Future[ApplicationDetails]
 
@@ -351,7 +358,7 @@ class UIManagementServiceImpl(
 
     val runtimesIds = stages.flatMap(s => s.map(c => c.runtimeId)).distinct
     runtimeManagementService.getServicesByRuntimes(runtimesIds)
-      .flatMap{ services =>
+      .flatMap { services =>
         val runtimeToService = services.map(s => s.modelRuntime.id -> s.serviceId).toMap
         val toCreate = runtimesIds.filterNot(r => runtimeToService.contains(r))
 
@@ -369,13 +376,15 @@ class UIManagementServiceImpl(
           }
         }
 
-        fWithMappings.map{ index =>
-          stages.map{ s =>
-            s.map{w => ServiceWeight(
-              weight = w.weight,
-              signatureName = w.signatureName,
-              serviceId = index.getOrElse(w.runtimeId, throw new RuntimeException(s"Can't find service for runtimeId=$w"))
-            )}
+        fWithMappings.map { index =>
+          stages.map { s =>
+            s.map { w =>
+              ServiceWeight(
+                weight = w.weight,
+                signatureName = w.signatureName,
+                serviceId = index.getOrElse(w.runtimeId, throw new RuntimeException(s"Can't find service for runtimeId=$w"))
+              )
+            }
           }
         }
       }
@@ -493,4 +502,14 @@ class UIManagementServiceImpl(
         )
       })
     }
+
+  override def flattenContract(modelId: Long): Future[Option[List[SignatureDescription]]] = {
+    import io.hydrosphere.serving.model_api.ContractOps.Implicits._
+
+    modelRepository.get(modelId).map {
+      _.map {
+        _.modelContract.flatten
+      }
+    }
+  }
 }

@@ -4,10 +4,9 @@ import hydroserving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.connector._
 import io.hydrosphere.serving.model.{Application, ApplicationExecutionGraph, ModelService}
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelServiceRepository}
-import io.hydrosphere.serving.model_api.{SignatureChecker, SignatureOps}
+import io.hydrosphere.serving.model_api.{ContractOps, SignatureChecker}
 
 import scala.concurrent.Await
-
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -184,7 +183,7 @@ class ServingManagementServiceImpl(
         .find(_.signatureName == info.signatureName)
         .getOrElse(throw new IllegalArgumentException(s"${info.signatureName} signature doesn't exist"))
     }
-    signatures.fold(ModelSignature())(SignatureOps.merge)
+    signatures.fold(ModelSignature())(ContractOps.ModelSignatureOps.merge)
   }
 
 //  override def generateInputsForApplication(appId: Long): Future[Option[Seq[Any]]] = {

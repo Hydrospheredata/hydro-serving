@@ -46,6 +46,23 @@ class UISpecificController(
     }
   }
 
+  @Path("/contract/{modelId}")
+  @ApiOperation(value = "contract", notes = "contract", nickname = "contract", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ModelInfo", response=classOf[ModelInfo]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def getContract = path("ui" / "v1" / "model" / "contract" / LongNumber) { modelId =>
+    get {
+      complete {
+        uiManagementService.flattenContract(modelId)
+      }
+    }
+  }
+
   ///TODO withInfo for one
 
   @Path("/stopService/{modelId}")
@@ -109,6 +126,6 @@ class UISpecificController(
     }
   }
 
-  val routes = modelsWithLastInfo ~ deleteServices ~ serveService ~ buildModel ~ modelWithLastInfo
+  val routes = modelsWithLastInfo ~ deleteServices ~ serveService ~ buildModel ~ modelWithLastInfo ~ getContract
 
 }

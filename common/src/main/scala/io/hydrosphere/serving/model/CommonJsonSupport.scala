@@ -5,6 +5,9 @@ import java.time.format.DateTimeFormatter
 
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 import hydroserving.contract.model_contract.ModelContract
+import hydroserving.tensorflow.types.DataType
+import hydroserving.tensorflow.types.DataType.{DT_BFLOAT16, DT_BFLOAT16_REF, DT_BOOL, DT_BOOL_REF, DT_COMPLEX128, DT_COMPLEX128_REF, DT_COMPLEX64, DT_COMPLEX64_REF, DT_DOUBLE, DT_DOUBLE_REF, DT_FLOAT, DT_FLOAT_REF, DT_HALF, DT_HALF_REF, DT_INT16, DT_INT16_REF, DT_INT32, DT_INT32_REF, DT_INT64, DT_INT64_REF, DT_INT8, DT_INT8_REF, DT_INVALID, DT_QINT16, DT_QINT16_REF, DT_QINT32, DT_QINT32_REF, DT_QINT8, DT_QINT8_REF, DT_QUINT16, DT_QUINT16_REF, DT_QUINT8, DT_QUINT8_REF, DT_RESOURCE, DT_RESOURCE_REF, DT_STRING, DT_STRING_REF, DT_UINT16, DT_UINT16_REF, DT_UINT32, DT_UINT32_REF, DT_UINT64, DT_UINT64_REF, DT_UINT8, DT_UINT8_REF, DT_VARIANT, DT_VARIANT_REF, Unrecognized}
+import io.hydrosphere.serving.model_api.ContractOps.{FieldDescription, SignatureDescription}
 import io.hydrosphere.serving.model_api.ModelType
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
@@ -84,6 +87,21 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
       JsString(obj.toTag)
     }
   }
+
+  implicit val dataTypeFormat = new JsonFormat[DataType] {
+    override def read(json: JsValue) = {
+      json match {
+        case JsString(str) => DataType.fromName(str).getOrElse(throw new IllegalArgumentException(s"$str is invalid DataType"))
+        case x => throw DeserializationException(s"$x is not a correct DataType")
+      }
+    }
+
+    override def write(obj: DataType) = {
+      JsString(obj.toString())
+    }
+  }
+  implicit val fieldDescFormat = jsonFormat3(FieldDescription.apply)
+  implicit val sigDescFormat = jsonFormat3(SignatureDescription.apply)
 
   implicit val runtimeTypeFormat = jsonFormat6(RuntimeType)
   implicit val modelRuntimeFormat = jsonFormat13(ModelRuntime)
