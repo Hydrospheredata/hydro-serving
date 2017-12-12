@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.service.modelfetcher
 
-import hydrosphere.contract.model_contract.ModelContract
+import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelFetcher
 import io.hydrosphere.serving.model_api._
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource

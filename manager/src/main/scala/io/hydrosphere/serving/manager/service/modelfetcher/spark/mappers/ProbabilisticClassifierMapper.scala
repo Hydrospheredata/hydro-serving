@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers
 
-import hydrosphere.contract.model_field.ModelField
+import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelMetadata
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers.SparkMlTypeMapper.{TypeDescription, constructField}
 

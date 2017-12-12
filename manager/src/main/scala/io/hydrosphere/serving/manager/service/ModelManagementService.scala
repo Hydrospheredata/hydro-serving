@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.service
 
 import java.time.LocalDateTime
 
-import hydrosphere.contract.model_contract.ModelContract
+import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.repository._

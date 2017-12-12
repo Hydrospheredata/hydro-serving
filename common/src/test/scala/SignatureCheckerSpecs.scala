@@ -1,8 +1,8 @@
-import hydrosphere.contract.model_field.ModelField
-import hydrosphere.contract.model_signature.ModelSignature
-import hydrosphere.tensorflow.tensor_info.TensorInfo
-import hydrosphere.tensorflow.tensor_shape.TensorShapeProto
-import hydrosphere.tensorflow.types.DataType
+import io.hydrosphere.serving.contract.model_field.ModelField
+import io.hydrosphere.serving.contract.model_signature.ModelSignature
+import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
+import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
+import io.hydrosphere.serving.tensorflow.types.DataType
 import io.hydrosphere.serving.model_api.SignatureChecker
 import org.scalatest.WordSpec
 

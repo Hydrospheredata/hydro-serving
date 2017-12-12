@@ -4,8 +4,8 @@ import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
-import hydrosphere.contract.model_contract.ModelContract
-import hydrosphere.tensorflow.types.DataType
+import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.tensorflow.types.DataType
 import io.hydrosphere.serving.model_api.ContractOps.{FieldDescription, SignatureDescription}
 import io.hydrosphere.serving.model_api.ModelType
 import org.apache.logging.log4j.scala.Logging

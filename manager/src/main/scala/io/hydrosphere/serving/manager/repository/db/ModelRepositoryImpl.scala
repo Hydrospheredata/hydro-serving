@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.repository.db
 
 import java.time.LocalDateTime
 
-import hydrosphere.contract.model_contract.ModelContract
+import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.controller.ManagerJsonSupport
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.model.RuntimeType

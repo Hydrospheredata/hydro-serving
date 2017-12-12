@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers
 
-import hydrosphere.contract.model_field.ModelField
-import hydrosphere.tensorflow.types.DataType.DT_INT32
+import io.hydrosphere.serving.contract.model_field.ModelField
+import io.hydrosphere.serving.tensorflow.types.DataType.DT_INT32
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelMetadata
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers.SparkMlTypeMapper.{TypeDescription, scalar}
 

@@ -1,8 +1,8 @@
 package io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers
 
-import hydrosphere.contract.model_field.ModelField
-import hydrosphere.tensorflow.tensor_info.TensorInfo
-import hydrosphere.tensorflow.types.DataType.{DT_DOUBLE, DT_STRING}
+import io.hydrosphere.serving.contract.model_field.ModelField
+import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
+import io.hydrosphere.serving.tensorflow.types.DataType.{DT_DOUBLE, DT_STRING}
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelMetadata
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers.SparkMlTypeMapper.{TypeDescription, constructField, scalar}
 

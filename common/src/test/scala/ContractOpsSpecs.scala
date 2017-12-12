@@ -1,6 +1,6 @@
-import hydrosphere.contract.model_contract.ModelContract
-import hydrosphere.contract.model_signature.ModelSignature
-import hydrosphere.tensorflow.types.DataType
+import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.contract.model_signature.ModelSignature
+import io.hydrosphere.serving.tensorflow.types.DataType
 import io.hydrosphere.serving.model_api.ContractOps.{FieldDescription, SignatureDescription}
 import io.hydrosphere.serving.model_api.{ContractOps, ModelContractBuilders}
 import org.scalatest.WordSpec
