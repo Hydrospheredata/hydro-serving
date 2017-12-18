@@ -34,23 +34,18 @@ lazy val sidecar = project.in(file("sidecar"))
   .settings(Common.settings)
   .settings(currentSettings)
 
-lazy val hydroproto = project.in(file("hydro-serving-protos"))
-  .settings(currentSettings)
-  .settings(Common.settings)
-
 lazy val common = project.in(file("common"))
   .settings(currentSettings)
   .settings(Common.settings)
   .settings(libraryDependencies ++= Dependencies.commonDependencies)
   .settings(
     libraryDependencies ++= Seq(
+      "io.hydrosphere" %% "serving-grpc-scala" % "0.0.5",
       "org.mockito" % "mockito-all" % "1.10.19" % "test",
       "org.scalactic" %% "scalactic" % Dependencies.scalaTestVersion % "test",
       "org.scalatest" %% "scalatest" % Dependencies.scalaTestVersion % "test"
     )
   )
-  .dependsOn(hydroproto)
-
 
 lazy val codegen = project.in(file("codegen"))
   .settings(currentSettings)
