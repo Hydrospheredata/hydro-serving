@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.model_api
 
-trait ModelType {
+sealed trait ModelType {
   def toTag: String
 }
 
@@ -9,7 +9,7 @@ object ModelType {
     override def toTag: String = "tensorflow"
   }
 
-  case class Spark(version: String) extends ModelType {
+  case class Spark private(version: String) extends ModelType {
     override def toTag: String = s"spark:$version"
   }
 
@@ -39,7 +39,9 @@ object ModelType {
       case "scikit" :: Nil => Scikit()
       case "unknown" :: Nil => Unknown()
       case "python" :: version :: Nil => PythonFunction(version)
-      case "spark" :: modelVersion :: Nil => Spark(modelVersion)
+      case "spark" :: modelVersion :: Nil =>
+        val majors = modelVersion.split('.').take(2).mkString(".")
+        Spark(majors)
       case _ => throw new IllegalArgumentException(s"Cant create a ModelTag from $tag")
     }
   }

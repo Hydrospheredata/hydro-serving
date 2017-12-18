@@ -61,6 +61,19 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
     }
   }
 
+  implicit val dataTypeFormat = new JsonFormat[DataType] {
+    override def read(json: JsValue) = {
+      json match {
+        case JsString(str) => DataType.fromName(str).getOrElse(throw new IllegalArgumentException(s"$str is invalid DataType"))
+        case x => throw DeserializationException(s"$x is not a correct DataType")
+      }
+    }
+
+    override def write(obj: DataType) = {
+      JsString(obj.toString())
+    }
+  }
+
   implicit val modelContractFormat = new JsonFormat[ModelContract] {
     override def read(json: JsValue) = {
       json match {
@@ -87,18 +100,6 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
     }
   }
 
-  implicit val dataTypeFormat = new JsonFormat[DataType] {
-    override def read(json: JsValue) = {
-      json match {
-        case JsString(str) => DataType.fromName(str).getOrElse(throw new IllegalArgumentException(s"$str is invalid DataType"))
-        case x => throw DeserializationException(s"$x is not a correct DataType")
-      }
-    }
-
-    override def write(obj: DataType) = {
-      JsString(obj.toString())
-    }
-  }
   implicit val fieldDescFormat = jsonFormat3(FieldDescription.apply)
   implicit val sigDescFormat = jsonFormat3(SignatureDescription.apply)
 
