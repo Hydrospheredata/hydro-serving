@@ -3,52 +3,44 @@ package io.hydrosphere.serving.manager.service.modelfetcher
 import java.io.FileNotFoundException
 import java.nio.file.{Files, NoSuchFileException}
 
-import io.hydrosphere.serving.manager.model.SchematicRuntimeType
+import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.contract.model_field.ModelField
+import io.hydrosphere.serving.contract.model_signature.ModelSignature
+import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
+import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
+import io.hydrosphere.serving.tensorflow.types.DataType
 import io.hydrosphere.serving.model_api._
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import org.apache.logging.log4j.scala.Logging
-import org.tensorflow.framework.{DataType, SavedModel, TensorInfo}
+import org.tensorflow.framework.{SavedModel, SignatureDef, TensorInfo => TFTensorInfo}
 
 import scala.collection.JavaConversions._
 /**
   * Created by bulat on 24/07/2017.
   */
 object TensorflowModelFetcher extends ModelFetcher with Logging {
-  def getTypeFields(fields: Map[String, TensorInfo]): List[ModelField] = {
-    fields.map{
-      case (name, tensorInfo) =>
-        val tensorShape = tensorInfo.getTensorShape
-        val fieldType: ScalarField = tensorInfo.getDtype match {
-          case DataType.DT_FLOAT| DataType.DT_DOUBLE => FDouble // TODO Float support
-          case DataType.DT_STRING => FString
-          case _ => FInteger
-        }
-        val fullType = if (tensorShape.getDimCount == 0) { // rank-0 tensor = scalar
-          fieldType
-        } else {
-          FMatrix(
-            fieldType,
-            tensorShape.getDimList.map(_.getSize).toList
-          )
-        }
-        ModelField(name, fullType)
-    }.toList
-  }
 
   override def fetch(source: ModelSource, directory: String): Option[ModelMetadata] = {
     try {
       val pbFile = source.getReadableFile(s"$directory/saved_model.pb")
       val savedModel = SavedModel.parseFrom(Files.newInputStream(pbFile.toPath))
-      val metagraph = savedModel.getMetaGraphs(0)
-      val signature = metagraph.getSignatureDefMap.get("serving_default")
-      val inputs = getTypeFields(signature.getInputsMap.toMap)
-      val outputs = getTypeFields(signature.getOutputsMap.toMap)
+      val signatures = savedModel
+        .getMetaGraphsList
+        .flatMap{ metagraph =>
+          metagraph.getSignatureDefMap.map {
+            case (_, signatureDef) =>
+              convertSignature(signatureDef)
+          }.toList
+        }
+
       Some(
         ModelMetadata(
-          directory,
-          Some(new SchematicRuntimeType("hydrosphere/serving-runtime-tensorflow", "0.0.1")),
-          DataFrame(outputs),
-          DataFrame(inputs)
+          modelName = directory,
+          contract = ModelContract(
+            directory,
+            signatures
+          ),
+          modelType = ModelType.Tensorflow()
         )
       )
     } catch {
@@ -60,4 +52,44 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
         None
     }
   }
+
+  private def convertTensor(tensorInfo: TFTensorInfo): TensorInfo = {
+    val shape = if (tensorInfo.hasTensorShape) {
+      val tShape = tensorInfo.getTensorShape
+      Some(TensorShapeProto(tShape.getDimList.map(x => TensorShapeProto.Dim(x.getSize, x.getName)), tShape.getUnknownRank))
+    } else None
+    val convertedDtype = DataType.fromValue(tensorInfo.getDtypeValue)
+    TensorInfo(
+      name = tensorInfo.getName,
+      dtype = convertedDtype,
+      tensorShape = shape
+    )
+  }
+
+  private def convertTensorMap(tensorMap: Map[String, TFTensorInfo]): List[ModelField] = {
+    tensorMap.map {
+      case (inputName, inputDef) =>
+        val convertedInputDef = convertTensor(inputDef)
+        val tensorInfo = ModelField.InfoOrDict.Info(
+          TensorInfo(
+            inputName,
+            convertedInputDef.dtype,
+            convertedInputDef.tensorShape
+          )
+        )
+        ModelField(
+          fieldName = inputName,
+          infoOrDict = tensorInfo
+        )
+    }.toList
+  }
+
+  private def convertSignature(signatureDef: SignatureDef): ModelSignature = {
+    ModelSignature(
+      signatureName = signatureDef.getMethodName,
+      inputs = convertTensorMap(signatureDef.getInputsMap.toMap),
+      outputs = convertTensorMap(signatureDef.getInputsMap.toMap)
+    )
+  }
+
 }

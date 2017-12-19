@@ -38,6 +38,14 @@ lazy val common = project.in(file("common"))
   .settings(currentSettings)
   .settings(Common.settings)
   .settings(libraryDependencies ++= Dependencies.commonDependencies)
+  .settings(
+    libraryDependencies ++= Seq(
+      "io.hydrosphere" %% "serving-grpc-scala" % "0.0.5",
+      "org.mockito" % "mockito-all" % "1.10.19" % "test",
+      "org.scalactic" %% "scalactic" % Dependencies.scalaTestVersion % "test",
+      "org.scalatest" %% "scalatest" % Dependencies.scalaTestVersion % "test"
+    )
+  )
 
 lazy val codegen = project.in(file("codegen"))
   .settings(currentSettings)

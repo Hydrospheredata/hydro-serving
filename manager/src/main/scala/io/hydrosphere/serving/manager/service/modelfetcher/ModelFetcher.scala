@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager.service.modelfetcher
 
+import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelFetcher
 import io.hydrosphere.serving.model_api._
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
@@ -27,7 +28,7 @@ object ModelFetcher extends Logging {
     val model = res.flatten
       .headOption
       .getOrElse {
-        ModelMetadata(folder, None, DataFrame(List.empty), DataFrame(List.empty))
+        ModelMetadata(folder, ModelType.Unknown(), ModelContract())
       }
     model
   }

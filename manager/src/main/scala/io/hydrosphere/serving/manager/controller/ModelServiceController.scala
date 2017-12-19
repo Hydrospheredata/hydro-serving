@@ -221,16 +221,17 @@ class ModelServiceController(
   @Path("/generate/{modelName}")
   @ApiOperation(value = "Generate payload for model", notes = "Generate payload for model", nickname = "Generate payload for model", httpMethod = "GET")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "modelName", required = true, dataType = "string", paramType = "path", value = "modelName")
+    new ApiImplicitParam(name = "modelName", required = true, dataType = "string", paramType = "path", value = "modelName"),
+    new ApiImplicitParam(name = "signature", required = true, dataType = "string", paramType = "path", value = "signature")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def generatePayloadByModelNameService = path("api" / "v1" / "modelService" / "generate" / Segment) { modelName =>
+  def generatePayloadByModelNameService = path("api" / "v1" / "modelService" / "generate" / Segment / Segment) { (modelName, signature) =>
     get {
       complete(
-        servingManagementService.generateModelPayload(modelName)
+        servingManagementService.generateModelPayload(modelName, signature)
       )
     }
   }
@@ -239,16 +240,17 @@ class ModelServiceController(
   @ApiOperation(value = "Generate payload for version model", notes = "Generate payload for version model", nickname = "Generate payload for version model", httpMethod = "GET")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "modelName", required = true, dataType = "string", paramType = "path", value = "modelName"),
-    new ApiImplicitParam(name = "modelVersion", required = true, dataType = "string", paramType = "path", value = "modelVersion")
+    new ApiImplicitParam(name = "modelVersion", required = true, dataType = "string", paramType = "path", value = "modelVersion"),
+    new ApiImplicitParam(name = "signature", required = true, dataType = "string", paramType = "path", value = "signature")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def generatePayloadByModelNameServiceAndVersion = path("api" / "v1" / "modelService" / "generate" / Segment / Segment) { (modelName, modelVersion) =>
+  def generatePayloadByModelNameServiceAndVersion = path("api" / "v1" / "modelService" / "generate" / Segment / Segment / Segment) { (modelName, modelVersion, signature) =>
     get {
       complete(
-        servingManagementService.generateModelPayload(modelName, modelVersion)
+        servingManagementService.generateModelPayload(modelName, modelVersion, signature)
       )
     }
   }

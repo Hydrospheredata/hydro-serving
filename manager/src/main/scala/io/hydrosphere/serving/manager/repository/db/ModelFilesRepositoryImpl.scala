@@ -101,14 +101,17 @@ object ModelFilesRepositoryImpl {
   }
 
   def mapFromDb(x: (Tables.ModelFilesRow, Tables.ModelRow)): ModelFile = {
-    ModelFile(
-      x._1.fileId,
-      x._1.filePath,
-      ModelRepositoryImpl.mapFromDb(x._2, None),
-      x._1.hashSum,
-      x._1.createdAt,
-      x._1.updatedAt
-    )
+    x match {
+      case (modelFiles, model) =>
+        ModelFile(
+          modelFiles.fileId,
+          modelFiles.filePath,
+          ModelRepositoryImpl.mapFromDb(model),
+          modelFiles.hashSum,
+          modelFiles.createdAt,
+          modelFiles.updatedAt
+        )
+    }
   }
 
   def mapFromDb(m: Option[(Tables.ModelFilesRow, Tables.ModelRow)]): Option[ModelFile] = {
