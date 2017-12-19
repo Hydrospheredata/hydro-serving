@@ -3,8 +3,12 @@ package io.hydrosphere.serving.manager.service.modelfetcher.spark
 import java.io.FileNotFoundException
 import java.nio.file.{Files, NoSuchFileException}
 
+import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.contract.model_field.ModelField
+import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.model.SchematicRuntimeType
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
+import io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers.SparkMlTypeMapper
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.model.RuntimeType
 import io.hydrosphere.serving.model_api._
@@ -14,15 +18,8 @@ import scala.collection.JavaConversions._
 
 
 object SparkModelFetcher extends ModelFetcher with Logging {
-  private def getRuntimeType(sparkMetadata: SparkModelMetadata): RuntimeType = {
-    val version = sparkMetadata.sparkVersion
-    new SchematicRuntimeType(s"hydrosphere/serving-runtime-sparklocal-${version.substring(0, version.lastIndexOf("."))}", "0.0.1")
-  }
-
   private def getStageMetadata(source: ModelSource, model: String, stage: String): SparkModelMetadata = {
-    val metaFile = source.getReadableFile(s"$model/stages/$stage/metadata/part-00000")
-    val metaStr = Files.readAllLines(metaFile.toPath).mkString
-    SparkModelMetadata.fromJson(metaStr)
+    getMetadata(source, s"$model/stages/$stage")
   }
 
   private def getMetadata(source: ModelSource, model: String): SparkModelMetadata = {
@@ -39,40 +36,49 @@ object SparkModelFetcher extends ModelFetcher with Logging {
       val stagesMetadata = source.getSubDirs(stagesDir).map { stage =>
         getStageMetadata(source, directory, stage)
       }
+      val mappers = stagesMetadata.map(SparkMlTypeMapper.apply)
+      val inputs = mappers.map(_.inputSchema)
+      val outputs = mappers.map(_.outputSchema)
+      val labels = mappers.map(_.labelSchema).filter(_.isDefined).map(_.get)
 
-      val inputs = stagesMetadata.map(SparkMlTypeMapper.getInputSchema)
-      val outputs = stagesMetadata.map(SparkMlTypeMapper.getOutputSchema)
-      val labels = stagesMetadata.map(SparkMlTypeMapper.getLabels).filter(_.isDefined).map(_.get)
-
-      val allLabels = labels.flatMap(_.definition.map(x => x.name))
-      val allIns = inputs.flatMap(_.definition.map(x => x.name -> x.fieldType)).toMap
-      val allOuts = outputs.flatMap(_.definition.map(x => x.name -> x.fieldType)).toMap
+      val allLabels = labels.flatten.map(_.fieldName)
+      val allIns = inputs.flatten.map(x => x.fieldName -> x).toMap
+      val allOuts = outputs.flatten.map(x => x.fieldName -> x).toMap
 
       val inputSchema = if (allLabels.isEmpty) {
-        DataFrame((allIns -- allOuts.keys).map{case (x,y) => ModelField(x, y)}.toList)
+        (allIns -- allOuts.keys).map{case (_,y) => y}.toList
       } else {
         val trainInputs = stagesMetadata.filter { stage =>
-          val outs = SparkMlTypeMapper.getOutputSchema(stage)
-          outs.definition.map(x => x.name -> x.fieldType).toMap.keys.containsAll(allLabels)
-        }.map(SparkMlTypeMapper.getInputSchema)
-        val allTrains = trainInputs.flatMap(_.definition.map(x => x.name -> x.fieldType)).toMap
-        DataFrame((allIns -- allOuts.keys -- allTrains.keys).map{case (x,y) => ModelField(x, y)}.toList)
+          val mapper = SparkMlTypeMapper(stage)
+          val outs = mapper.outputSchema
+          outs.map(x => x.fieldName -> x).toMap.keys.containsAll(allLabels)
+        }.map{ stage =>
+          SparkMlTypeMapper(stage).inputSchema
+        }
+        val allTrains = trainInputs.flatten.map(x => x.fieldName -> x).toMap
+        (allIns -- allOuts.keys -- allTrains.keys).map{case (_,y) => y}.toList
       }
-      val outputSchema = DataFrame((allOuts -- allIns.keys).map{case (x,y) => ModelField(x, y)}.toList)
+      val outputSchema = (allOuts -- allIns.keys).map{case (_,y) => y}.toList
+
+      val signature = ModelSignature("default_spark", inputSchema, outputSchema)
+
+      val contract = ModelContract(
+        directory,
+        List(signature)
+      )
 
       Some(
         ModelMetadata(
-          directory,
-          Some(getRuntimeType(pipelineMetadata)),
-          outputSchema,
-          inputSchema
+          modelName = directory,
+          modelType = ModelType.Spark(pipelineMetadata.sparkVersion),
+          contract = contract
         )
       )
     } catch {
-      case e: NoSuchFileException =>
+      case _: NoSuchFileException =>
         logger.debug(s"$directory in not a valid SparkML model")
         None
-      case e: FileNotFoundException =>
+      case _: FileNotFoundException =>
         logger.debug(s"$source $directory in not a valid SparkML model")
         None
     }

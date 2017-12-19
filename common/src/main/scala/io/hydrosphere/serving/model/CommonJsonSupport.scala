@@ -4,8 +4,10 @@ import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
-import io.hydrosphere.serving.model_api._
-import org.apache.commons.lang3.SerializationException
+import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.tensorflow.types.DataType
+import io.hydrosphere.serving.model_api.ContractOps.{FieldDescription, SignatureDescription}
+import io.hydrosphere.serving.model_api.ModelType
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
 
@@ -59,72 +61,55 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
     }
   }
 
-  implicit object ScalarFieldFormat extends RootJsonFormat[ScalarField] {
-    override def read(json: JsValue): ScalarField = json match {
-      case JsString("integer") => FInteger
-      case JsString("double") => FDouble
-      case JsString("string") => FString
-      case JsString("any_scalar") => FAnyScalar
-      case _ => throw DeserializationException(s"$json is not a valid scalar type definition.")
+  implicit val dataTypeFormat = new JsonFormat[DataType] {
+    override def read(json: JsValue) = {
+      json match {
+        case JsString(str) => DataType.fromName(str).getOrElse(throw new IllegalArgumentException(s"$str is invalid DataType"))
+        case x => throw DeserializationException(s"$x is not a correct DataType")
+      }
     }
 
-    override def write(obj: ScalarField): JsValue = obj match {
-      case FInteger => JsString("integer")
-      case FDouble => JsString("double")
-      case FString => JsString("string")
-      case FAnyScalar => JsString("any_scalar")
+    override def write(obj: DataType) = {
+      JsString(obj.toString())
     }
   }
 
-  implicit val matrixFormat = jsonFormat2(FMatrix.apply)
-
-  implicit object FieldTypeFormat extends RootJsonFormat[FieldType] {
-    override def read(json: JsValue): FieldType = json match {
-      case JsObject(field) if field.get("type").isDefined && field("type") == JsString("matrix") =>
-        FMatrix(field("item_type").convertTo[ScalarField], field("shape").convertTo[List[Long]])
-      case JsString("any") => FAny
-      case x => ScalarFieldFormat.read(x)
+  implicit val modelContractFormat = new JsonFormat[ModelContract] {
+    override def read(json: JsValue) = {
+      json match {
+        case JsString(str) => ModelContract.fromAscii(str)
+        case x => throw DeserializationException(s"$x is not a correct ModelContract message")
+      }
     }
 
-    override def write(obj: FieldType): JsValue = obj match {
-      case FMatrix(fType, shape) =>
-        val s = Map(
-          "shape" -> JsArray(shape.map(JsNumber(_)).toVector),
-          "item_type" -> fType.toJson,
-          "type" -> JsString("matrix")
-        )
-        JsObject(s)
-      case FAny => JsString("any")
-      case x: ScalarField => ScalarFieldFormat.write(x)
+    override def write(obj: ModelContract) = {
+      JsString(obj.toString)
     }
   }
 
-
-  implicit val typedFieldFormat = jsonFormat2(ModelField.apply)
-
-  implicit val dataFrameFormat = jsonFormat1(DataFrame)
-
-  implicit object ModelApiFormat extends RootJsonFormat[ModelApi] {
-    override def read(json: JsValue): ModelApi = json match {
-      case x: JsObject if x.fields.isEmpty => UntypedAPI
-      case x: JsObject => x.convertTo[DataFrame]
-      case value => throw new SerializationException(s"Incorrect JSON for model api definition: $value")
+  implicit val modelTypeFormat = new JsonFormat[ModelType] {
+    override def read(json: JsValue) = {
+      json match {
+        case JsString(str) => ModelType.fromTag(str)
+        case x => throw DeserializationException(s"$x is not a valid ModelType")
+      }
     }
 
-    override def write(obj: ModelApi): JsValue = obj match {
-      case x: DataFrame => x.toJson
-      case x: UntypedAPI.type => JsObject.empty
-      case value => throw DeserializationException(s"$value is not a valid model api definition.")
+    override def write(obj: ModelType) = {
+      JsString(obj.toTag)
     }
   }
 
-  implicit val runtimeTypeFormat = jsonFormat5(RuntimeType)
-  implicit val modelRuntimeFormat = jsonFormat14(ModelRuntime)
+  implicit val fieldDescFormat = jsonFormat3(FieldDescription.apply)
+  implicit val sigDescFormat = jsonFormat3(SignatureDescription.apply)
+
+  implicit val runtimeTypeFormat = jsonFormat6(RuntimeType)
+  implicit val modelRuntimeFormat = jsonFormat13(ModelRuntime)
   implicit val servingEnvironmentFormat = jsonFormat3(ServingEnvironment)
   implicit val modelServiceFormat = jsonFormat8(ModelService)
 
   implicit val errorResponseFormat = jsonFormat1(ErrorResponse)
-  implicit val serviceWeightFormat = jsonFormat2(ServiceWeight)
+  implicit val serviceWeightFormat = jsonFormat3(ServiceWeight)
   implicit val applicationStageFormat = jsonFormat1(ApplicationStage)
   implicit val applicationExecutionGraphFormat = jsonFormat1(ApplicationExecutionGraph)
   implicit val applicationFormat = jsonFormat4(Application)

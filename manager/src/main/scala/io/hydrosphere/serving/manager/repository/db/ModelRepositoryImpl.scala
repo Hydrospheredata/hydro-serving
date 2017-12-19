@@ -2,12 +2,13 @@ package io.hydrosphere.serving.manager.repository.db
 
 import java.time.LocalDateTime
 
+import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.controller.ManagerJsonSupport
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.model.RuntimeType
 import io.hydrosphere.serving.manager.model.Model
 import io.hydrosphere.serving.manager.repository.ModelRepository
-import io.hydrosphere.serving.model_api.ModelApi
+import io.hydrosphere.serving.model_api.ModelType
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -36,36 +37,28 @@ class ModelRepositoryImpl(
   override def create(entity: Model): Future[Model] =
     db.run(
       Tables.Model returning Tables.Model += Tables.ModelRow(
-        entity.id,
-        entity.name,
-        entity.source,
-        entity.runtimeType match {
-          case Some(r) => Some(r.id)
-          case _ => None
-        },
-        entity.outputFields.toJson.toString(),
-        entity.inputFields.toJson.toString(),
-        entity.description,
-        entity.created,
-        entity.updated)
-    ).map(s => mapFromDb(s, entity.runtimeType))
+        modelId = entity.id,
+        name = entity.name,
+        source = entity.source,
+        modelType = entity.modelType.toTag,
+        modelContract = entity.modelContract.toString,
+        description = entity.description,
+        createdTimestamp = entity.created,
+        updatedTimestamp = entity.updated)
+    ).map(mapFromDb)
 
 
   override def get(id: Long): Future[Option[Model]] =
     db.run(
       Tables.Model
         .filter(_.modelId === id)
-        .joinLeft(Tables.RuntimeType)
-        .on({ case (m, rt) => m.runtimeTypeId === rt.runtimeTypeId })
         .result.headOption
-    ).map(m => mapFromDb(m))
+    ).map(mapFromDb)
 
   override def get(name: String): Future[Option[Model]] =
     db.run(
       Tables.Model
         .filter(_.name === name)
-        .joinLeft(Tables.RuntimeType)
-        .on({ case (m, rt) => m.runtimeTypeId === rt.runtimeTypeId })
         .result.headOption
     ).map(mapFromDb)
 
@@ -78,19 +71,16 @@ class ModelRepositoryImpl(
 
   override def all(): Future[Seq[Model]] =
     db.run(
-      Tables.Model.joinLeft(Tables.RuntimeType)
-        .on({ case (m, rt) => m.runtimeTypeId === rt.runtimeTypeId })
+      Tables.Model
         .result
-    ).map(s => mapFromDb(s))
+    ).map(mapFromDb)
 
   override def fetchBySource(source: String): Future[Seq[Model]] =
     db.run(
       Tables.Model
         .filter(_.source === source)
-        .joinLeft(Tables.RuntimeType)
-        .on({ case (m, rt) => m.runtimeTypeId === rt.runtimeTypeId })
         .result
-    ).map(s => mapFromDb(s))
+    ).map(mapFromDb)
 
   override def update(value: Model): Future[Int] = {
     val query = for {
@@ -98,24 +88,19 @@ class ModelRepositoryImpl(
     } yield (
       models.name,
       models.source,
-      models.runtimeTypeId,
+      models.modelType,
       models.description,
       models.updatedTimestamp,
-      models.outputFields,
-      models.inputFields
+      models.modelContract
     )
 
     db.run(query.update(
       value.name,
       value.source,
-      value.runtimeType match {
-        case Some(r) => Some(r.id)
-        case _ => None
-      },
+      value.modelType.toTag,
       value.description,
       value.updated,
-      value.outputFields.toJson.toString(),
-      value.inputFields.toJson.toString()
+      value.modelContract.toString
     ))
   }
 
@@ -130,28 +115,22 @@ class ModelRepositoryImpl(
 }
 
 object ModelRepositoryImpl extends ManagerJsonSupport {
-  import spray.json._
+  def mapFromDb(model: Option[Tables.Model#TableElementType]): Option[Model] = model.map(mapFromDb)
 
-  def mapFromDb(model: Option[(Tables.Model#TableElementType, Option[Tables.RuntimeType#TableElementType])]): Option[Model] = model match {
-    case Some(tuple) =>
-      Some(mapFromDb(tuple._1, tuple._2.map(t => RuntimeTypeRepositoryImpl.mapFromDb(t))))
-    case _ => None
+  def mapFromDb(models: Seq[Tables.Model#TableElementType]): Seq[Model] = {
+    models.map { model =>
+      mapFromDb(model)
+    }
   }
 
-  def mapFromDb(tuples: Seq[(Tables.Model#TableElementType, Option[Tables.RuntimeType#TableElementType])]): Seq[Model] = {
-    tuples.map(tuple =>
-      mapFromDb(tuple._1, tuple._2.map(t => RuntimeTypeRepositoryImpl.mapFromDb(t))))
-  }
-
-  def mapFromDb(model: Tables.Model#TableElementType, runtimeType: Option[RuntimeType]): Model = {
+  def mapFromDb(model: Tables.Model#TableElementType): Model = {
     Model(
       id = model.modelId,
       name = model.name,
       source = model.source,
-      runtimeType = runtimeType,
+      modelType = ModelType.fromTag(model.modelType),
       description = model.description,
-      outputFields = model.outputFields.parseJson.convertTo[ModelApi],
-      inputFields = model.inputFields.parseJson.convertTo[ModelApi],
+      modelContract = ModelContract.fromAscii(model.modelContract),
       created = model.createdTimestamp,
       updated = model.updatedTimestamp
     )

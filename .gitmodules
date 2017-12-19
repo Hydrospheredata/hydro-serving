@@ -1,0 +1,3 @@
+[submodule "hydro-serving-protos"]
+	path = hydro-serving-protos
+	url = https://github.com/Hydrospheredata/hydro-serving-protos.git

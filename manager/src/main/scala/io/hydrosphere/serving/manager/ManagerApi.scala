@@ -27,7 +27,7 @@ class ManagerApi(managerServices: ManagerServices)
 
   val commonController = new CommonController
 
-  val runtimeTypeController = new RuntimeTypeController(managerServices.modelManagementService)
+  val runtimeTypeController = new RuntimeTypeController(managerServices.modelManagementService, managerServices.runtimeTypeManagementService)
 
   val modelController = new ModelController(managerServices.modelManagementService)
 

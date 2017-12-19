@@ -6,12 +6,13 @@ import akka.actor.ActorSystem
 import akka.http.scaladsl.model.HttpHeader
 import akka.pattern.ask
 import akka.util.Timeout
-import io.hydrosphere.serving.model._
-import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.connector._
 import io.hydrosphere.serving.manager.actor.ContainerWatcher
-import io.hydrosphere.serving.manager.actor.ContainerWatcher.{Started, Stopped, WatchForStart, WatchForStop}
+import io.hydrosphere.serving.manager.actor.ContainerWatcher.{Started, WatchForStart, WatchForStop}
+import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.repository.{ModelBuildRepository, ModelRepository, ModelRuntimeRepository, ModelServiceRepository}
+import io.hydrosphere.serving.model._
+import io.hydrosphere.serving.model_api.ContractOps.SignatureDescription
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -44,6 +45,7 @@ case class KafkaStreamingParams(
 
 case class UIServiceWeight(
   runtimeId: Long,
+  signatureName: String,
   weight: Int
 )
 
@@ -84,6 +86,7 @@ case class ApplicationDetails(
 )
 
 trait UIManagementService {
+  def flattenContract(modelId: Long): Future[Option[List[SignatureDescription]]]
 
   def createApplication(req: UIApplicationCreateOrUpdateRequest): Future[ApplicationDetails]
 
@@ -99,7 +102,7 @@ trait UIManagementService {
 
   def testModel(modelId: Long, servePath: String, request: Array[Byte], headers: Seq[HttpHeader]): Future[ExecutionResult]
 
-  def buildModel(modelId: Long, modelVersion: Option[String], environmentId: Option[Long]): Future[ModelInfo]
+  def buildModel(modelId: Long, runtimeTypeId: Long, modelVersion: Option[String], environmentId: Option[Long]): Future[ModelInfo]
 
   def modelRuntimes(modelId: Long): Future[Seq[UIRuntimeInfo]]
 }
@@ -229,10 +232,14 @@ class UIManagementServiceImpl(
     Future(Thread.sleep(5000L))
   }
 
-  override def buildModel(modelId: Long, modelVersion: Option[String], environmentId: Option[Long]): Future[ModelInfo] =
-    modelManagementService.buildModel(modelId, modelVersion).flatMap(runtime => {
-      runtimeManagementService.addService(createModelServiceRequest(runtime, environmentId)).flatMap(_ => modelWithLastStatus(modelId).map(o => o.get))
-    })
+  override def buildModel(modelId: Long, runtimeTypeId: Long, modelVersion: Option[String], environmentId: Option[Long]): Future[ModelInfo] =
+    modelManagementService
+      .buildModel(modelId, modelVersion, runtimeTypeId)
+      .flatMap { runtime =>
+        runtimeManagementService
+          .addService(createModelServiceRequest(runtime, environmentId))
+          .flatMap { _ => modelWithLastStatus(modelId).map(_.get) }
+      }
 
   private def getDefaultKafkaImplementation(): Future[Option[ModelRuntime]] = {
     modelRuntimeRepository.fetchByTags(Seq("streaming", "kafka"))
@@ -346,7 +353,7 @@ class UIManagementServiceImpl(
 
     val runtimesIds = stages.flatMap(s => s.map(c => c.runtimeId)).distinct
     runtimeManagementService.getServicesByRuntimes(runtimesIds)
-      .flatMap(services => {
+      .flatMap { services =>
         val runtimeToService = services.map(s => s.modelRuntime.id -> s.serviceId).toMap
         val toCreate = runtimesIds.filterNot(r => runtimeToService.contains(r))
 
@@ -364,15 +371,18 @@ class UIManagementServiceImpl(
           }
         }
 
-        fWithMappings.map(index => {
-          stages.map(s => {
-            s.map(w => ServiceWeight(
-              weight = w.weight,
-              serviceId = index.getOrElse(w.runtimeId, throw new RuntimeException(s"Can't find service for runtimeId=$w"))
-            ))
-          })
-        })
-      })
+        fWithMappings.map { index =>
+          stages.map { s =>
+            s.map { w =>
+              ServiceWeight(
+                weight = w.weight,
+                signatureName = w.signatureName,
+                serviceId = index.getOrElse(w.runtimeId, throw new RuntimeException(s"Can't find service for runtimeId=$w"))
+              )
+            }
+          }
+        }
+      }
   }
 
   override def createApplication(req: UIApplicationCreateOrUpdateRequest): Future[ApplicationDetails] =
@@ -487,4 +497,14 @@ class UIManagementServiceImpl(
         )
       })
     }
+
+  override def flattenContract(modelId: Long): Future[Option[List[SignatureDescription]]] = {
+    import io.hydrosphere.serving.model_api.ContractOps.Implicits._
+
+    modelRepository.get(modelId).map {
+      _.map {
+        _.modelContract.flatten
+      }
+    }
+  }
 }

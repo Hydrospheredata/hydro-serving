@@ -162,26 +162,25 @@ object ModelServiceRepositoryImpl {
   def mapFromDb(model: Option[
     (((Tables.ModelService#TableElementType, Option[Tables.ModelRuntime#TableElementType]), Option[Tables.ServingEnvironment#TableElementType]),
       Option[Tables.RuntimeType#TableElementType])]): Option[ModelService] =
-    model.map(tuple=>{
-      mapFromDb(tuple._1._1._1,
-        tuple._1._1._2.map(
-          t => ModelRuntimeRepositoryImpl.mapFromDb(t, RuntimeTypeRepositoryImpl.mapFromDb(tuple._2))
-        ),
-        ServingEnvironmentRepositoryImpl.mapFromDb(tuple._1._2)
-      )
-    })
+    model.map(mapFromDb)
 
   def mapFromDb(tuples: Seq[
     (((Tables.ModelService#TableElementType, Option[Tables.ModelRuntime#TableElementType]), Option[Tables.ServingEnvironment#TableElementType]),
       Option[Tables.RuntimeType#TableElementType])]): Seq[ModelService] = {
-    tuples.map(tuple =>
-      mapFromDb(tuple._1._1._1,
-        tuple._1._1._2.map(
-          t => ModelRuntimeRepositoryImpl.mapFromDb(t, RuntimeTypeRepositoryImpl.mapFromDb(tuple._2))
-        ),
-        ServingEnvironmentRepositoryImpl.mapFromDb(tuple._1._2)
-      )
-    )
+    tuples.map(mapFromDb)
+  }
+
+  def mapFromDb(tuple:
+    (((Tables.ModelService#TableElementType, Option[Tables.ModelRuntime#TableElementType]), Option[Tables.ServingEnvironment#TableElementType]),
+      Option[Tables.RuntimeType#TableElementType])): ModelService = {
+    tuple match {
+      case (((modelService, modelRuntime), servingEnv), runtimeType) =>
+        mapFromDb(
+          modelService,
+          modelRuntime.map(r => ModelRuntimeRepositoryImpl.mapFromDb(r, RuntimeTypeRepositoryImpl.mapFromDb(runtimeType))),
+          ServingEnvironmentRepositoryImpl.mapFromDb(servingEnv)
+        )
+    }
   }
 
   def mapFromDb(model: Tables.ModelService#TableElementType, modelRuntime: Option[ModelRuntime],

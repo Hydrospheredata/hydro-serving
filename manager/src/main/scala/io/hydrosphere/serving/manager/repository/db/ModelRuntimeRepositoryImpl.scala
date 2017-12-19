@@ -1,10 +1,10 @@
 package io.hydrosphere.serving.manager.repository.db
 
+import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.controller.ManagerJsonSupport
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.model.{ModelRuntime, RuntimeType}
 import io.hydrosphere.serving.manager.repository.ModelRuntimeRepository
-import io.hydrosphere.serving.model_api.ModelApi
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -25,23 +25,19 @@ class ModelRuntimeRepositoryImpl(
   override def create(entity: ModelRuntime): Future[ModelRuntime] =
     db.run(
       Tables.ModelRuntime returning Tables.ModelRuntime += Tables.ModelRuntimeRow(
-        entity.id,
-        entity.runtimeType match {
-          case Some(r) => Some(r.id)
-          case _ => None
-        },
-        entity.modelName,
-        entity.modelVersion,
-        entity.source,
-        entity.outputFields.toJson.toString(),
-        entity.inputFields.toJson.toString(),
-        entity.created,
-        entity.imageName,
-        entity.imageTag,
-        entity.imageMD5Tag,
-        entity.modelId,
-        entity.tags,
-        entity.configParams.map { case (k, v) => s"$k=$v" }.toList
+        runtimeId = entity.id,
+        runtimeTypeId = entity.runtimeType.map(_.id),
+        modelname = entity.modelName,
+        modelversion = entity.modelVersion,
+        source = entity.source,
+        modelContract = entity.modelContract.toString,
+        createdTimestamp = entity.created,
+        imageName = entity.imageName,
+        imageTag = entity.imageTag,
+        imageMd5Tag = entity.imageMD5Tag,
+        modelId = entity.modelId,
+        tags = entity.tags,
+        configParams = entity.configParams.map { case (k, v) => s"$k=$v" }.toList
       )
     ).map(s => mapFromDb(s, entity.runtimeType))
 
@@ -135,15 +131,14 @@ object ModelRuntimeRepositoryImpl extends ManagerJsonSupport {
       modelVersion = model.modelversion,
       source = model.source,
       runtimeType = runtimeType,
-      outputFields = model.outputFields.parseJson.convertTo[ModelApi],
-      inputFields = model.inputFields.parseJson.convertTo[ModelApi],
+      modelContract = ModelContract.fromAscii(model.modelContract),
       created = model.createdTimestamp,
       modelId = model.modelId,
       tags = model.tags,
-      configParams = model.configParams.map(s => {
+      configParams = model.configParams.map{ s =>
         val arr = s.split('=')
         arr.head -> arr.drop(1).mkString("=")
-      }).toMap
+      }.toMap
     )
   }
 }

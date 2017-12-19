@@ -2,12 +2,15 @@ package io.hydrosphere.serving.model
 
 import java.time.LocalDateTime
 
-import io.hydrosphere.serving.model_api.ModelApi
+import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.model_api.ModelType
+
 
 case class RuntimeType(
   id: Long,
   name: String,
   version: String,
+  modelType: ModelType,
   tags: List[String],
   configParams: Map[String, String]
 )
@@ -21,8 +24,7 @@ case class ModelRuntime(
   modelVersion: String,
   source: Option[String],
   runtimeType: Option[RuntimeType],
-  outputFields: ModelApi,
-  inputFields: ModelApi,
+  modelContract: ModelContract,
   created: LocalDateTime,
   modelId: Option[Long],
   configParams: Map[String, String],
@@ -52,7 +54,8 @@ case class ErrorResponse(
 
 case class ServiceWeight(
   serviceId: Long,
-  weight: Int
+  weight: Int,
+  signatureName: String
 )
 
 case class ApplicationStage(

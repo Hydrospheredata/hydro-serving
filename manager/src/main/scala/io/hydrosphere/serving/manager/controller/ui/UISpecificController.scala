@@ -8,6 +8,7 @@ import akka.util.Timeout
 import io.hydrosphere.serving.controller.{ServingDataDirectives, TracingHeaders}
 import io.hydrosphere.serving.manager.controller.BuildModelRequest
 import io.hydrosphere.serving.manager.service.{ModelInfo, UIManagementService}
+import io.hydrosphere.serving.model_api.ContractOps.SignatureDescription
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
@@ -43,6 +44,23 @@ class UISpecificController(
   def modelWithLastInfo = path("ui" / "v1" / "model" / "withInfo" / LongNumber) { modelId =>
     get {
       complete(uiManagementService.modelWithLastStatus(modelId))
+    }
+  }
+
+  @Path("/contract/{modelId}")
+  @ApiOperation(value = "contract", notes = "contract", nickname = "contract", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "SignatureDescription", responseContainer = "List", response=classOf[SignatureDescription]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def getContract = path("ui" / "v1" / "model" / "contract" / LongNumber) { modelId =>
+    get {
+      complete {
+        uiManagementService.flattenContract(modelId)
+      }
     }
   }
 
@@ -103,12 +121,12 @@ class UISpecificController(
     post {
       entity(as[BuildModelRequest]) { r =>
         complete(
-          uiManagementService.buildModel(r.modelId, r.modelVersion, r.environmentId)
+          uiManagementService.buildModel(r.modelId, r.runtimeTypeId, r.modelVersion, r.environmentId)
         )
       }
     }
   }
 
-  val routes = modelsWithLastInfo ~ deleteServices ~ serveService ~ buildModel ~ modelWithLastInfo
+  val routes = modelsWithLastInfo ~ deleteServices ~ serveService ~ buildModel ~ modelWithLastInfo ~ getContract
 
 }

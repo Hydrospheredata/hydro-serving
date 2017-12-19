@@ -230,7 +230,8 @@ class ModelServiceController(
   def generatePayloadByModelNameService = path("api" / "v1" / "modelService" / "generate" / Segment) { modelName =>
     get {
       complete(
-        servingManagementService.generateModelPayload(modelName)
+        ???
+        //servingManagementService.generateModelPayload(modelName)
       )
     }
   }
@@ -248,7 +249,8 @@ class ModelServiceController(
   def generatePayloadByModelNameServiceAndVersion = path("api" / "v1" / "modelService" / "generate" / Segment / Segment) { (modelName, modelVersion) =>
     get {
       complete(
-        servingManagementService.generateModelPayload(modelName, modelVersion)
+        ???
+        //servingManagementService.generateModelPayload(modelName, modelVersion)
       )
     }
   }

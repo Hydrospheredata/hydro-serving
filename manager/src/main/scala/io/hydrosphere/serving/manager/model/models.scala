@@ -2,9 +2,10 @@ package io.hydrosphere.serving.manager.model
 
 import java.time.LocalDateTime
 
+import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.model.ModelBuildStatus.ModelBuildStatus
 import io.hydrosphere.serving.manager.model.ModelServiceInstanceStatus.ModelServiceInstanceStatus
-import io.hydrosphere.serving.model_api.{DataFrame, ModelApi}
+import io.hydrosphere.serving.model_api.ModelType
 import io.hydrosphere.serving.model.{ModelRuntime, RuntimeType, ServingEnvironment}
 
 object ModelServiceInstanceStatus extends Enumeration {
@@ -25,17 +26,17 @@ case class RuntimeTypeBuildScript(
 
 class SchematicRuntimeType(
   name: String,
-  version: String
-) extends RuntimeType(-1, name, version, List(), Map())
+  version: String,
+  modelType: ModelType
+) extends RuntimeType(-1, name, version, modelType, List(), Map())
 
 case class Model(
   id: Long,
   name: String,
   source: String,
-  runtimeType: Option[RuntimeType],
+  modelType: ModelType,
   description: Option[String],
-  outputFields: ModelApi,
-  inputFields: ModelApi,
+  modelContract: ModelContract,
   created: LocalDateTime,
   updated: LocalDateTime
 )
@@ -74,7 +75,13 @@ case class ModelServiceInstance(
 )
 
 class UnknownModelRuntime extends ModelRuntime(
-  -1, "", "", "", "", "", None, None, DataFrame(List.empty), DataFrame(List.empty), LocalDateTime.now(), None, Map(), List()
+  id = -1, imageName = "",
+  imageTag = "", imageMD5Tag = "",
+  modelName = "",modelVersion = "",
+  source = None, runtimeType = None,
+  modelContract = ModelContract(),
+  created = LocalDateTime.now(), modelId = None,
+  configParams = Map.empty, tags = List.empty
 )
 
 class AnyServingEnvironment extends ServingEnvironment(
