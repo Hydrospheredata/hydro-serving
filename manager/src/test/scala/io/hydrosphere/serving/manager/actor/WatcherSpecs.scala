@@ -7,9 +7,8 @@ import java.time.{LocalDateTime, ZoneId}
 import akka.actor.ActorSystem
 import akka.testkit.{ImplicitSender, TestKit, TestProbe}
 import com.google.common.hash.Hashing
-import io.hydrosphere.serving.manager.LocalModelSourceConfiguration
 import io.hydrosphere.serving.manager.actor.modelsource.SourceWatcher
-import io.hydrosphere.serving.manager.service.modelsource.LocalModelSource
+import io.hydrosphere.serving.manager.service.modelsource.local.LocalModelSource
 import org.scalatest.{BeforeAndAfterAll, Matchers, WordSpecLike}
 
 import scala.concurrent.duration._

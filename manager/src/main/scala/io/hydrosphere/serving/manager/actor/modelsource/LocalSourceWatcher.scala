@@ -9,7 +9,7 @@ import java.time.{Instant, LocalDateTime, ZoneId}
 import akka.actor.Props
 import com.google.common.hash.Hashing
 import io.hydrosphere.serving.manager.actor.{FileCreated, FileDeleted, FileEvent, FileModified}
-import io.hydrosphere.serving.manager.service.modelsource.LocalModelSource
+import io.hydrosphere.serving.manager.service.modelsource.local.LocalModelSource
 import io.hydrosphere.serving.util.FileUtils._
 
 import scala.collection.JavaConverters._

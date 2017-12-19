@@ -7,7 +7,9 @@ import akka.util.Timeout
 import com.google.common.hash.Hashing
 import io.hydrosphere.serving.manager.actor.{FileDetected, FileEvent}
 import io.hydrosphere.serving.manager.actor.modelsource.SourceWatcher._
-import io.hydrosphere.serving.manager.service.modelsource.{LocalModelSource, ModelSource, S3ModelSource}
+import io.hydrosphere.serving.manager.service.modelsource.s3.S3ModelSource
+import io.hydrosphere.serving.manager.service.modelsource.ModelSource
+import io.hydrosphere.serving.manager.service.modelsource.local.LocalModelSource
 
 import scala.concurrent.duration._
 
@@ -16,7 +18,7 @@ import scala.concurrent.duration._
   */
 trait SourceWatcher extends Actor with ActorLogging {
   import context._
-  implicit private val timeout = Timeout(10.seconds)
+  implicit private val timeout = Timeout(30.seconds)
   private val timer = context.system.scheduler.schedule(0.seconds, 500.millis, self, Tick)
 
   /**

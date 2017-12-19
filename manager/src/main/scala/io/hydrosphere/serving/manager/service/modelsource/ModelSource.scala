@@ -3,7 +3,9 @@ package io.hydrosphere.serving.manager.service.modelsource
 import java.io.File
 import java.nio.file.Path
 
-import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, ModelSourceConfiguration, S3ModelSourceConfiguration}
+import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceDef}
+import io.hydrosphere.serving.manager.service.modelsource.s3.{S3ModelSource, S3SourceDef}
 
 /**
   * Created by Bulat on 31.05.2017.
@@ -17,9 +19,7 @@ trait ModelSource {
 
   def getSubDirs: List[String]
 
-  def getSourcePrefix: String
-
-  def configuration: ModelSourceConfiguration
+  def sourceDef: SourceDef
 
   def getAbsolutePath(modelSource: String): Path
 
@@ -28,12 +28,23 @@ trait ModelSource {
 
 
 object ModelSource {
-  def fromConfig[T <: ModelSourceConfiguration](conf: T): ModelSource = conf match {
-    case local: LocalModelSourceConfiguration =>
-      new LocalModelSource(local)
-    case s3: S3ModelSourceConfiguration =>
-      new S3ModelSource(s3)
-    case x =>
-      throw new IllegalArgumentException(s"Unknown data source: $x")
+  def fromConfig(conf: ModelSourceConfigAux): ModelSource = {
+    val params = conf.params
+    params match {
+      case _: LocalSourceParams =>
+        new LocalModelSource(
+          LocalSourceDef.fromConfig(
+            conf.toTyped[LocalSourceParams]
+          )
+        )
+      case _: S3SourceParams =>
+        new S3ModelSource(
+          S3SourceDef.fromConfig(
+            conf.toTyped[S3SourceParams]
+          )
+        )
+      case x =>
+        throw new IllegalArgumentException(s"Unknown params: $x")
+    }
   }
 }

@@ -6,7 +6,7 @@ import akka.actor.Props
 import com.google.common.hash.Hashing
 import io.hydrosphere.serving.manager.actor.{FileCreated, FileDeleted, FileEvent}
 import io.hydrosphere.serving.manager.actor.modelsource.S3SourceWatcher.SQSMessage
-import io.hydrosphere.serving.manager.service.modelsource.S3ModelSource
+import io.hydrosphere.serving.manager.service.modelsource.s3.S3ModelSource
 import io.hydrosphere.serving.model.CommonJsonSupport
 
 import scala.collection.JavaConversions._
@@ -15,17 +15,17 @@ import scala.collection.JavaConversions._
   * Created by bulat on 04.07.17.
   */
 class S3SourceWatcher(val source: S3ModelSource) extends SourceWatcher {
+  private val sourceDef = source.sourceDef
   override def onWatcherTick(): List[FileEvent] = {
-    val messages = source
-      .configuration
+    val messages = sourceDef
       .sqsClient
-      .receiveMessage(source.configuration.queue)
+      .receiveMessage(sourceDef.queue)
       .getMessages
     val msgBodies = messages.map(m => m -> m.getBody)
       .map { case (m, b) => m -> SQSMessage.fromJson(b) }
       .filter { case (_, opt) => opt.isDefined }
       .map { case (m, opt) => m -> opt.get }
-      .filter { case (_, b) => b.bucket == source.configuration.bucket }
+      .filter { case (_, b) => b.bucket == sourceDef.bucket }
       .toMap
 
     msgBodies.toList.flatMap {
@@ -66,7 +66,7 @@ class S3SourceWatcher(val source: S3ModelSource) extends SourceWatcher {
               List(new FileCreated(source, info.objKey, Instant.now(), hash, info.eventTime))
             }
         }
-        source.configuration.sqsClient.deleteMessage(source.configuration.queue, message.getReceiptHandle)
+        sourceDef.sqsClient.deleteMessage(sourceDef.queue, message.getReceiptHandle)
         event
     }
   }

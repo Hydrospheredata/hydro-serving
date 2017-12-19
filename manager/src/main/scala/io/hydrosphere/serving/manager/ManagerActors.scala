@@ -14,7 +14,7 @@ import scala.concurrent.duration._
 /**
   *
   */
-class ManagerActors(managerServices: ManagerServices)(
+class ManagerActors(managerServices: ManagerServices, managerConfiguration: ManagerConfiguration)(
   implicit val system: ActorSystem,
   implicit val materializer: ActorMaterializer
 ) extends Logging {
@@ -23,7 +23,8 @@ class ManagerActors(managerServices: ManagerServices)(
 
   val repoActor = system.actorOf(RepositoryActor.props(managerServices.modelManagementService))
 
-  val indexerActors: Seq[ActorRef] = Await.result(managerServices.sourceManagementService.createWatchers(system), 5.minutes)
+  managerServices.sourceManagementService.createWatchers
+  managerConfiguration.modelSources.foreach(managerServices.sourceManagementService.addSource)
 
   //create runtimeDeployService cache refresh action
   //TODO change to event subscription
