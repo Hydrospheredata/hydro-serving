@@ -6,8 +6,8 @@ import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.repository._
-import io.hydrosphere.serving.model_api.ModelType
-//import io.hydrosphere.serving.model_api.{DataGenerator, DataFrame, ModelApi}
+import io.hydrosphere.serving.model_api.{ContractOps, DataGenerator, ModelType}
+import spray.json.JsObject
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.model._
@@ -154,9 +154,9 @@ trait ModelManagementService {
 
   def deleteModelFile(fileName: String): Future[Int]
 
-//  def generateModelPayload(modelName: String): Future[Seq[Any]]
-//
-//  def generateInputsForRuntime(runtimeId: Long): Future[Option[Seq[Any]]]
+  def generateModelPayload(modelName: String, signature: String): Future[Seq[JsObject]]
+
+  def generateInputsForRuntime(runtimeId: Long, signature: String): Future[Option[Seq[JsObject]]]
 }
 
 object ModelManagementService {
@@ -479,17 +479,19 @@ class ModelManagementServiceImpl(
   override def modelRuntimeByTag(tags: Seq[String]): Future[Seq[ModelRuntime]] =
     modelRuntimeRepository.fetchByTags(tags)
 
-  // TODO implement input generation
-//  override def generateModelPayload(modelName: String): Future[Seq[Any]] = {
-//    modelRepository.get(modelName).map {
-//      case None => throw new IllegalArgumentException(s"Can't find model modelName=$modelName")
-//      case Some(model) => List(DataGenerator(model.inputFields).generate)
-//    }
-//  }
-//
-//  override def generateInputsForRuntime(runtimeId: Long): Future[Option[Seq[Any]]] = {
-//    modelRuntimeRepository.get(runtimeId).map(_.map{ runtime =>
-//      List(DataGenerator(runtime.inputFields).generate)
-//    })
-//  }
+  override def generateModelPayload(modelName: String, signature: String): Future[Seq[JsObject]] = {
+    modelRepository.get(modelName).map {
+      case None => throw new IllegalArgumentException(s"Can't find model modelName=$modelName")
+      case Some(model) =>
+        val res = DataGenerator.forContract(model.modelContract, signature).get.generateInputs
+        Seq(ContractOps.TensorProtoOps.jsonify(res))
+    }
+  }
+
+  override def generateInputsForRuntime(runtimeId: Long, signature: String): Future[Option[Seq[JsObject]]] = {
+    modelRuntimeRepository.get(runtimeId).map(_.map{ runtime =>
+      val res = DataGenerator.forContract(runtime.modelContract, signature).get.generateInputs
+      Seq(ContractOps.TensorProtoOps.jsonify(res))
+    })
+  }
 }

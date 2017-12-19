@@ -8,6 +8,7 @@ import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 import io.hydrosphere.serving.tensorflow.types.DataType
 import DataType._
 import com.google.protobuf.ByteString
+import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 
 
@@ -23,6 +24,10 @@ class DataGenerator(val modelApi: ModelSignature) {
 
 object DataGenerator {
   def apply(modelApi: ModelSignature): DataGenerator = new DataGenerator(modelApi)
+
+  def forContract(modelContract: ModelContract, signature: String): Option[DataGenerator] = {
+    modelContract.signatures.find(_.signatureName == signature).map(DataGenerator.apply)
+  }
 
   def generateData(dataType: DataType): Any = {
     dataType match {

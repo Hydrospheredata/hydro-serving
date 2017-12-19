@@ -4,10 +4,11 @@ import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.connector._
 import io.hydrosphere.serving.model.{Application, ApplicationExecutionGraph, ModelService}
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelServiceRepository}
-import io.hydrosphere.serving.model_api.{ContractOps, SignatureChecker}
+import io.hydrosphere.serving.model_api.{ContractOps, DataGenerator, SignatureChecker}
 
 import scala.concurrent.Await
 import org.apache.logging.log4j.scala.Logging
+import spray.json.JsObject
 
 import scala.concurrent.{ExecutionContext, Future}
 import scala.concurrent.duration._
@@ -46,9 +47,9 @@ trait ServingManagementService {
 
   def serve(req: ServeRequest): Future[ExecutionResult]
 
-//  def generateModelPayload(modelName: String, modelVersion: String): Future[Seq[Any]]
+  def generateModelPayload(modelName: String, modelVersion: String, signature: String): Future[Seq[JsObject]]
 
-//  def generateModelPayload(modelName: String): Future[Seq[Any]]
+  def generateModelPayload(modelName: String, signature: String): Future[Seq[JsObject]]
 
   def checkApplicationSchema(req: ApplicationCreateOrUpdateRequest): Future[Boolean]
 
@@ -140,19 +141,23 @@ class ServingManagementServiceImpl(
         })
   }
 
-//  override def generateModelPayload(modelName: String, modelVersion: String): Future[Seq[Any]] = {
-//    modelServiceRepository.getLastModelServiceByModelNameAndVersion(modelName, modelVersion).map {
-//      case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
-//      case Some(service) => List(DataGenerator(service.modelRuntime.inputFields).generate)
-//    }
-//  }
-//
-//  override def generateModelPayload(modelName: String): Future[Seq[Any]] = {
-//    modelServiceRepository.getLastModelServiceByModelName(modelName).map {
-//      case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
-//      case Some(service) => List(DataGenerator(service.modelRuntime.inputFields).generate)
-//    }
-//  }
+  override def generateModelPayload(modelName: String, modelVersion: String, signature: String): Future[Seq[JsObject]] = {
+    modelServiceRepository.getLastModelServiceByModelNameAndVersion(modelName, modelVersion).map {
+      case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
+      case Some(service) =>
+        val res = DataGenerator.forContract(service.modelRuntime.modelContract, signature).get.generateInputs
+        Seq(ContractOps.TensorProtoOps.jsonify(res))
+    }
+  }
+
+  override def generateModelPayload(modelName: String, signature: String): Future[Seq[JsObject]] = {
+    modelServiceRepository.getLastModelServiceByModelName(modelName).map {
+      case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
+      case Some(service) =>
+        val res = DataGenerator.forContract(service.modelRuntime.modelContract, signature).get.generateInputs
+        Seq(ContractOps.TensorProtoOps.jsonify(res))
+    }
+  }
 
   override def getApplication(id: Long): Future[Option[Application]] =
     applicationRepository.get(id)

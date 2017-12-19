@@ -1,9 +1,13 @@
+import com.google.protobuf.ByteString
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.tensorflow.types.DataType
 import io.hydrosphere.serving.model_api.ContractOps.{FieldDescription, SignatureDescription}
 import io.hydrosphere.serving.model_api.{ContractOps, ModelContractBuilders}
+import io.hydrosphere.serving.tensorflow.tensor.TensorProto
 import org.scalatest.WordSpec
+import spray.json.{JsArray, JsNumber, JsObject, JsString}
+
 
 class ContractOpsSpecs extends WordSpec {
 
@@ -234,6 +238,54 @@ class ContractOpsSpecs extends WordSpec {
         )
 
         assert(contract.flatten === expected)
+      }
+    }
+
+    "jsonify" when {
+      "classical TensorProto" in {
+        val tensor = TensorProto(
+          dtype = DataType.DT_STRING,
+          tensorShape = Some(ModelContractBuilders.createTensorShape(Seq(2,2))),
+          stringVal = Seq("never", "gonna", "give", "you").map(ByteString.copyFromUtf8)
+        )
+
+        val expected = JsArray(
+          JsArray(JsString("never"), JsString("gonna")),
+          JsArray(JsString("give"), JsString("you"))
+        )
+
+        assert(tensor.jsonify === expected)
+      }
+
+      "TensorProto with maps" in {
+        val tensor = TensorProto(
+          dtype = DataType.DT_MAP,
+          tensorShape = None,
+          mapVal = Map(
+            "name" -> TensorProto(
+              dtype = DataType.DT_STRING,
+              stringVal = Seq(ByteString.copyFromUtf8("Rick"))
+            ),
+            "email" -> TensorProto(
+              dtype = DataType.DT_STRING,
+              stringVal = Seq(ByteString.copyFromUtf8("rick@roll.com"))
+            ),
+            "age" -> TensorProto(
+              dtype = DataType.DT_INT32,
+              intVal = Seq(32)
+            )
+          )
+        )
+
+        val expected = JsObject(
+          Map(
+            "name" -> JsString("Rick"),
+            "email" -> JsString("rick@roll.com"),
+            "age" -> JsNumber(32)
+          )
+        )
+
+        assert(tensor.jsonify === expected)
       }
     }
   }
