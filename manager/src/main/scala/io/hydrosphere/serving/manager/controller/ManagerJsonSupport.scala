@@ -34,27 +34,40 @@ trait ManagerJsonSupport extends CommonJsonSupport {
 
   implicit val applicationCreateOrUpdateRequest = jsonFormat4(ApplicationCreateOrUpdateRequest)
 
-  implicit val localModelFormat = jsonFormat3(LocalModelSourceEntry.apply)
-  implicit val s3ModelFormat = jsonFormat7(S3ModelSourceEntry.apply)
+  implicit val awsAuthFormat = jsonFormat2(AWSAuthKeys.apply)
 
-  implicit val createServingEnvironmentFormat = jsonFormat2(CreateServingEnvironment)
+  implicit val localSourceParamsFormat = jsonFormat1(LocalSourceParams.apply)
 
-  implicit object ModelSourceJsonFormat extends RootJsonFormat[ModelSource] {
-    def write(a: ModelSource) = a match {
-      case p: LocalModelSourceEntry => p.toJson
-      case p: S3ModelSourceEntry => p.toJson
+  implicit val s3SourceParamsFormat = jsonFormat4(S3SourceParams.apply)
+
+  implicit val sourceParamsFormat = new JsonFormat[SourceParams] {
+    override def read(json: JsValue) = {
+      json match {
+        case JsObject(fields) if fields.isDefinedAt("path") =>
+          LocalSourceParams(fields("path").convertTo[String])
+        case JsObject(fields) if fields.isDefinedAt("queueName") && fields.isDefinedAt("bucketName") =>
+          S3SourceParams(
+            awsAuth = fields.get("awsAuth").map(_.convertTo[AWSAuthKeys]),
+            bucketName = fields("bucketName").convertTo[String],
+            queueName = fields("queueName").convertTo[String],
+            region = fields("region").convertTo[String]
+          )
+      }
     }
 
-    def read(value: JsValue) = {
-      val keys = value.asJsObject.fields.keys
-      if (keys.exists(_ == JsString("bucketName"))) {
-        value.convertTo[S3ModelSourceEntry]
-      } else if (keys.exists(_ == JsString("path"))) {
-        value.convertTo[LocalModelSourceEntry]
-      } else {
-        throw DeserializationException(s"$value is not a correct ModelSource")
+    override def write(obj: SourceParams) = {
+      obj match {
+        case x: LocalSourceParams => x.toJson
+        case x: S3SourceParams => x.toJson
+        case _ => ???
       }
     }
   }
+
+  implicit val modelSourceConfigFormat = jsonFormat3(ModelSourceConfigAux.apply)
+
+  implicit val createModelSourceRequestFormat = jsonFormat2(CreateModelSourceRequest.apply)
+
+  implicit val createServingEnvironmentFormat = jsonFormat2(CreateServingEnvironment)
 
 }

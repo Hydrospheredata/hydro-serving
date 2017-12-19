@@ -1,25 +1,26 @@
-package io.hydrosphere.serving.manager.service.modelsource
+package io.hydrosphere.serving.manager.service.modelsource.s3
 
 import java.io.{File, FileNotFoundException, IOException}
 import java.net.URI
 import java.nio.file._
 import java.nio.file.attribute.BasicFileAttributes
 
-import io.hydrosphere.serving.manager.{LocalModelSourceConfiguration, S3ModelSourceConfiguration}
-import org.apache.logging.log4j.scala.Logging
-
 import scala.collection.JavaConversions._
+
+import io.hydrosphere.serving.manager.service.modelsource.ModelSource
+import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceDef}
+import org.apache.logging.log4j.scala.Logging
 
 /**
   * Created by Bulat on 31.05.2017.
   */
-class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends ModelSource with Logging {
-  private[this] val localFolder =  s"/tmp/${configuration.name}"
-  val cacheSource = new LocalModelSource(
-    LocalModelSourceConfiguration(s"proxy-${configuration.name}", localFolder)
-  )
+class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging {
+  private[this] val localFolder =  s"/tmp/${sourceDef.name}"
+  private val client = sourceDef.s3Client
 
-  val client = configuration.s3Client
+  val cacheSource = new LocalModelSource(
+    LocalSourceDef(s"proxy-${sourceDef.name}", localFolder)
+  )
 
   val proxyFolder: Path = Paths.get(localFolder)
 
@@ -44,9 +45,9 @@ class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends Model
 
   def downloadObject(objectPath: String): File = {
     logger.debug(s"downloadObject: $objectPath")
-    if (!client.doesObjectExist(configuration.bucket, objectPath))
+    if (!client.doesObjectExist(sourceDef.bucket, objectPath))
       throw new FileNotFoundException(objectPath)
-    val fileStream = client.getObject(configuration.bucket, objectPath).getObjectContent
+    val fileStream = client.getObject(sourceDef.bucket, objectPath).getObjectContent
 
     val folderStructure = Paths.get(localFolder, objectPath.split("/").dropRight(1).mkString("/"))
 
@@ -64,7 +65,7 @@ class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends Model
   override def getSubDirs(path: String): List[String] = {
     logger.debug(s"getSubDirs: $path")
     client
-      .listObjects(configuration.bucket)
+      .listObjects(sourceDef.bucket)
       .getObjectSummaries
       .map(_.getKey)
       .filter(_.startsWith(path))
@@ -77,7 +78,7 @@ class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends Model
   override def getSubDirs: List[String] = {
     logger.debug(s"getSubDirs")
     val r = client
-      .listObjects(configuration.bucket)
+      .listObjects(sourceDef.bucket)
       .getObjectSummaries
       .map(_.getKey)
       .map(_.split("/").head)
@@ -90,7 +91,7 @@ class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends Model
   override def getAllFiles(folder: String): List[String] = {
     logger.debug(s"getAllFiles: $folder")
     val modelKeys = client
-      .listObjects(configuration.bucket, folder)
+      .listObjects(sourceDef.bucket, folder)
       .getObjectSummaries
       .map(_.getKey)
       .filterNot(_.endsWith("/")) // fix w2v/stages/0_w2v_617dd94f64cf/data/
@@ -118,18 +119,16 @@ class S3ModelSource(val configuration: S3ModelSourceConfiguration) extends Model
     file
   }
 
-  override def getSourcePrefix: String = configuration.name
-
   override def getAbsolutePath(modelSource: String): Path = {
     logger.debug(s"getAbsolutePath: $modelSource")
     Paths.get(localFolder, modelSource)
   }
 
   override def isExist(path: String): Boolean = {
-    if (client.doesObjectExist(configuration.bucket, path)) {
+    if (client.doesObjectExist(sourceDef.bucket, path)) {
       true
     } else {
-      client.listObjects(configuration.bucket, path).getObjectSummaries.nonEmpty
+      client.listObjects(sourceDef.bucket, path).getObjectSummaries.nonEmpty
     }
   }
 }

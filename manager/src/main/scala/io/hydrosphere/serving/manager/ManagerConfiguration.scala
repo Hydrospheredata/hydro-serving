@@ -5,6 +5,8 @@ import com.amazonaws.services.s3._
 import com.amazonaws.services.sqs._
 import com.typesafe.config.Config
 import io.hydrosphere.serving.config._
+import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.service.modelsource.local.LocalSourceDef
 
 import collection.JavaConverters._
 
@@ -16,7 +18,7 @@ trait ManagerConfiguration {
   val sidecar: SidecarConfig
   val application: ApplicationConfig
   val advertised: AdvertisedConfiguration
-  val modelSources: Seq[ModelSourceConfiguration]
+  val modelSources: Seq[ModelSourceConfigAux]
   val database: Config
   val cloudDriver: CloudDriverConfiguration
   val zipkin: ZipkinConfiguration
@@ -27,7 +29,7 @@ case class ManagerConfigurationImpl(
   sidecar: SidecarConfig,
   application: ApplicationConfig,
   advertised: AdvertisedConfiguration,
-  modelSources: Seq[ModelSourceConfiguration],
+  modelSources: Seq[ModelSourceConfigAux],
   database: Config,
   cloudDriver: CloudDriverConfiguration,
   zipkin: ZipkinConfiguration,
@@ -37,26 +39,6 @@ case class ManagerConfigurationImpl(
 case class AdvertisedConfiguration(
   advertisedHost: String,
   advertisedPort: Int)
-
-abstract class ModelSourceConfiguration() {
-  val name: String
-  val path: String
-}
-
-case class LocalModelSourceConfiguration(
-  name: String,
-  path: String
-) extends ModelSourceConfiguration
-
-case class S3ModelSourceConfiguration(
-  name: String,
-  path: String,
-  region: Regions,
-  s3Client: AmazonS3,
-  sqsClient: AmazonSQS,
-  bucket: String,
-  queue: String
-) extends ModelSourceConfiguration
 
 abstract class DockerRepositoryConfiguration()
 
@@ -155,10 +137,9 @@ object ManagerConfiguration extends Configuration {
     )
   }
 
-  def parseDataSources(config: Config): Seq[ModelSourceConfiguration] = {
+  def parseDataSources(config: Config): Seq[ModelSourceConfigAux] = {
     val c = config.getConfig("modelSources")
-    //config.getAnyRef("modelSources").{ kv =>
-    config.getConfig("modelSources").root().entrySet().asScala.map { kv =>
+    c.root().entrySet().asScala.map { kv =>
       val modelSourceConfig = c.getConfig(kv.getKey)
       val path = modelSourceConfig.getString("path")
       val name = {
@@ -169,25 +150,28 @@ object ManagerConfiguration extends Configuration {
         }
       }
 
-      kv.getKey match {
+      val params = kv.getKey match {
         case "local" =>
-          LocalModelSourceConfiguration(name = name, path = path)
+          LocalSourceParams(path)
         case "s3" =>
-          //TODO move to service
-          val s3Client = AmazonS3ClientBuilder.standard().withRegion(modelSourceConfig.getString("region")).build()
-          val sqsClient = AmazonSQSClientBuilder.standard().withRegion(modelSourceConfig.getString("region")).build()
-          S3ModelSourceConfiguration(
-            name = name,
-            path = path,
-            s3Client = s3Client,
-            sqsClient = sqsClient,
-            region = Regions.fromName(modelSourceConfig.getString("region")),
-            bucket = modelSourceConfig.getString("bucket"),
-            queue = modelSourceConfig.getString("queue")
+          val auth = if (modelSourceConfig.hasPath("awsAuth")) {
+            val authConf = modelSourceConfig.getConfig("awsAuth")
+            val keyId = authConf.getString("keyId")
+            val secretKey = authConf.getString("secretKey")
+            Some(AWSAuthKeys(keyId, secretKey))
+          } else {
+            None
+          }
+          S3SourceParams(
+            awsAuth = auth,
+            queueName = modelSourceConfig.getString("queue"),
+            bucketName = modelSourceConfig.getString("bucket"),
+            region = modelSourceConfig.getString("region")
           )
         case x =>
           throw new IllegalArgumentException(s"Unknown model source: $x")
       }
+      ModelSourceConfig(-1, name, params).toAux
     }.toSeq
   }
 

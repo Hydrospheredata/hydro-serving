@@ -21,7 +21,7 @@ class RepositoryActor(val modelManagementService: ModelManagementService)
   override def recieveNonTick: Receive = {
     case e: FileEvent =>
       val modelName = e.filename.split("/").head
-      println(s"[${e.source.getSourcePrefix}] Detected a modification of $modelName model ...")
+      println(s"[${e.source.sourceDef.prefix}] Detected a modification of $modelName model ...")
       queues += modelName -> e
   }
 
@@ -35,7 +35,7 @@ class RepositoryActor(val modelManagementService: ModelManagementService)
 
     upgradeable.foreach{
       case (modelname, event) =>
-        println(s"[${event.source.getSourcePrefix}] Reindexing $modelname ...")
+        println(s"[${event.source.sourceDef.prefix}] Reindexing $modelname ...")
         queues -= modelname
         val r = modelManagementService.updateModel(modelname, event.source)
         r.foreach( x => println(s"$x is updated"))

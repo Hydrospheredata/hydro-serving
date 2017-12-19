@@ -449,7 +449,7 @@ class ModelManagementServiceImpl(
             val newModel = Model(
               oldModel.id,
               modelMetadata.name,
-              s"${modelSource.getSourcePrefix}:${modelMetadata.name}",
+              s"${modelSource.sourceDef.prefix}:${modelMetadata.name}",
               rt,
               None,
               modelMetadata.outputFields,
@@ -462,7 +462,7 @@ class ModelManagementServiceImpl(
             val newModel = Model(
               -1,
               modelMetadata.name,
-              s"${modelSource.getSourcePrefix}:${modelMetadata.name}",
+              s"${modelSource.sourceDef.prefix}:${modelMetadata.name}",
               rt,
               None,
               modelMetadata.outputFields,

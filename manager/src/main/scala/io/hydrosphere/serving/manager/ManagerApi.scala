@@ -49,6 +49,8 @@ class ManagerApi(managerServices: ManagerServices)
 
   val servingEnvironmentController = new ServingEnvironmentController(managerServices.runtimeManagementService)
 
+  val modelSourceController = new ModelSourceController(managerServices.sourceManagementService)
+
   val swaggerController = new SwaggerDocController(system) {
     override val apiTypes: Seq[ru.Type] = Seq(
       ru.typeOf[ServingEnvironmentController],
@@ -59,6 +61,7 @@ class ManagerApi(managerServices: ManagerServices)
       ru.typeOf[EnvoyManagementController],
       ru.typeOf[ApplicationController],
       ru.typeOf[PrometheusMetricsController],
+      ru.typeOf[ModelSourceController],
       ru.typeOf[UISpecificController],
       ru.typeOf[UISpecificWeightServiceController],
       ru.typeOf[UISpecificRuntimeController]
@@ -98,6 +101,7 @@ class ManagerApi(managerServices: ManagerServices)
         uiSpecificController.routes ~
         uiSpecificWeightServiceController.routes ~
         servingEnvironmentController.routes ~
+        modelSourceController.routes ~
         uiSpecificRuntimeController.routes ~
         pathPrefix("assets") {
           path(Segments) { segs =>
