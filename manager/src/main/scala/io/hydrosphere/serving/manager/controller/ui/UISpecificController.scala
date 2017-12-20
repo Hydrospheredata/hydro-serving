@@ -47,19 +47,19 @@ class UISpecificController(
     }
   }
 
-  @Path("/contract/{modelId}")
+  @Path("/contract/{runtimeId}")
   @ApiOperation(value = "contract", notes = "contract", nickname = "contract", httpMethod = "GET")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId")
+    new ApiImplicitParam(name = "runtimeId", required = true, dataType = "long", paramType = "path", value = "modelId")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "SignatureDescription", responseContainer = "List", response=classOf[SignatureDescription]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def getContract = path("ui" / "v1" / "model" / "contract" / LongNumber) { modelId =>
+  def getContract = path("ui" / "v1" / "model" / "contract" / LongNumber) { runtimeId =>
     get {
       complete {
-        uiManagementService.flattenContract(modelId)
+        uiManagementService.flattenContract(runtimeId)
       }
     }
   }

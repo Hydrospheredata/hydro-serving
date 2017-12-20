@@ -86,7 +86,7 @@ case class ApplicationDetails(
 )
 
 trait UIManagementService {
-  def flattenContract(modelId: Long): Future[Option[List[SignatureDescription]]]
+  def flattenContract(runtimeId: Long): Future[Option[List[SignatureDescription]]]
 
   def createApplication(req: UIApplicationCreateOrUpdateRequest): Future[ApplicationDetails]
 
@@ -498,10 +498,10 @@ class UIManagementServiceImpl(
       })
     }
 
-  override def flattenContract(modelId: Long): Future[Option[List[SignatureDescription]]] = {
+  override def flattenContract(runtimeId: Long): Future[Option[List[SignatureDescription]]] = {
     import io.hydrosphere.serving.model_api.ContractOps.Implicits._
 
-    modelRepository.get(modelId).map {
+    modelRuntimeRepository.get(runtimeId).map {
       _.map {
         _.modelContract.flatten
       }
