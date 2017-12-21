@@ -441,7 +441,7 @@ class ModelManagementServiceImpl(
           val newModel = Model(
             id = oldModel.id,
             name = modelMetadata.modelName,
-            source = s"${modelSource.getSourcePrefix}:${modelMetadata.modelName}",
+            source = s"${modelSource.sourceDef.prefix}:${modelMetadata.modelName}",
             modelType = modelMetadata.modelType,
             description = None,
             modelContract = modelMetadata.contract,
@@ -453,7 +453,7 @@ class ModelManagementServiceImpl(
           val newModel = Model(
             id = -1,
             name = modelMetadata.modelName,
-            source = s"${modelSource.getSourcePrefix}:${modelMetadata.modelName}",
+            source = s"${modelSource.sourceDef.prefix}:${modelMetadata.modelName}",
             modelType = modelMetadata.modelType,
             description = None,
             modelContract = modelMetadata.contract,
