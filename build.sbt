@@ -23,28 +23,7 @@ lazy val root = project.in(file("."))
   .settings(currentSettings)
   .settings(Common.settings)
   .aggregate(
-    sidecar,
-    common,
-    manager,
-    gateway,
-    streamingKafka
-  )
-
-lazy val sidecar = project.in(file("sidecar"))
-  .settings(Common.settings)
-  .settings(currentSettings)
-
-lazy val common = project.in(file("common"))
-  .settings(currentSettings)
-  .settings(Common.settings)
-  .settings(libraryDependencies ++= Dependencies.commonDependencies)
-  .settings(
-    libraryDependencies ++= Seq(
-      "io.hydrosphere" %% "serving-grpc-scala" % "0.0.5",
-      "org.mockito" % "mockito-all" % "1.10.19" % "test",
-      "org.scalactic" %% "scalactic" % Dependencies.scalaTestVersion % "test",
-      "org.scalatest" %% "scalatest" % Dependencies.scalaTestVersion % "test"
-    )
+    manager
   )
 
 lazy val codegen = project.in(file("codegen"))
@@ -52,17 +31,6 @@ lazy val codegen = project.in(file("codegen"))
   .settings(Common.settings)
   .settings(libraryDependencies ++= Dependencies.codegenDependencies)
 
-lazy val gateway = project.in(file("gateway"))
-  .settings(currentSettings)
-  .settings(Common.settings)
-  .settings(libraryDependencies ++= Dependencies.commonDependencies)
-  .dependsOn(sidecar, common)
-
-lazy val streamingKafka = project.in(file("streaming-kafka"))
-  .settings(currentSettings)
-  .settings(Common.settings)
-  .settings(libraryDependencies ++= Dependencies.streamingKafkaDependencies)
-  .dependsOn(sidecar, common)
 
 lazy val manager = project.in(file("manager"))
   .configs(IntegrationTest)
@@ -70,4 +38,4 @@ lazy val manager = project.in(file("manager"))
   .settings(currentSettings)
   .settings(Common.settings)
   .settings(libraryDependencies ++= Dependencies.hydroServingManagerDependencies)
-  .dependsOn(sidecar, codegen, common)
+  .dependsOn(codegen)

@@ -52,16 +52,7 @@ object Dependencies {
   )
 
   lazy val commonDependencies = akkaDependencies
-    .union(akkaHttpDependencies)
     .union(logDependencies)
-
-  lazy val streamingKafkaDependencies = akkaDependencies
-    .union(commonDependencies)
-    .union(Seq(
-      "com.typesafe.akka" %% "akka-stream-kafka" % "0.17",
-      "com.fasterxml.jackson.core" % "jackson-core" % "2.9.2",
-      "org.scalatest" %% "scalatest" % scalaTestVersion % "test"
-    ))
 
   lazy val codegenDependencies = commonDependencies
     .union(Seq(
@@ -72,9 +63,11 @@ object Dependencies {
     ))
 
   lazy val hydroServingManagerDependencies = commonDependencies
-    .union(akkaHttpDependencies)
     .union(testDependencies)
+    .union(akkaHttpDependencies)
     .union(Seq(
+      "io.hydrosphere" %% "serving-grpc-scala" % "0.0.5",
+
       "com.amazonaws" % "aws-java-sdk-ecs" % awsSdkVersion,
       "com.amazonaws" % "aws-java-sdk-ec2" % awsSdkVersion,
       "com.amazonaws" % "aws-java-sdk-iam" % awsSdkVersion,
@@ -90,7 +83,6 @@ object Dependencies {
       "org.flywaydb" % "flyway-core" % "4.2.0",
       "com.spotify" % "docker-client" % "8.8.0" exclude("ch.qos.logback", "logback-classic"),
       "com.google.guava" % "guava" % "22.0",
-      "org.tensorflow" % "proto" % "1.2.1",
       "org.tensorflow" % "proto" % "1.2.1"
     ))
 }
