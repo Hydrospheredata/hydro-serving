@@ -257,7 +257,8 @@ class ModelManagementServiceImpl(
             status = ModelBuildStatus.STARTED,
             statusText = None,
             logsUrl = None,
-            modelRuntime = None
+            modelRuntime = None,
+            runtimeType = runtimeType
           )).flatMap { modelBuid =>
           buildModelRuntime(modelBuid, script).transform(
             runtime => {

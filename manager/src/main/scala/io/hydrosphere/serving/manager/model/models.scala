@@ -51,7 +51,8 @@ case class ModelBuild(
   status: ModelBuildStatus,
   statusText: Option[String],
   logsUrl: Option[String],
-  modelRuntime: Option[ModelRuntime]
+  modelRuntime: Option[ModelRuntime],
+  runtimeType: Option[RuntimeType]
 )
 
 case class ModelFile(

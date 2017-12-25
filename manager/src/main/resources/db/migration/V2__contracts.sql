@@ -19,3 +19,5 @@ ALTER TABLE hydro_serving.model ADD COLUMN model_contract TEXT NOT NULL DEFAULT 
 ALTER TABLE hydro_serving.model_runtime DROP COLUMN input_fields;
 ALTER TABLE hydro_serving.model_runtime DROP COLUMN output_fields;
 ALTER TABLE hydro_serving.model_runtime ADD COLUMN model_contract TEXT NOT NULL DEFAULT '';
+
+ALTER TABLE hydro_serving.model_build ADD COLUMN runtime_type_id BIGINT REFERENCES hydro_serving.runtime_type;
