@@ -45,7 +45,7 @@ case class Model(
 case class ModelBuild(
   id: Long,
   model: Model,
-  modelVersion: String,
+  modelVersion: Long,
   started: LocalDateTime,
   finished: Option[LocalDateTime] = None,
   status: ModelBuildStatus,
@@ -78,7 +78,7 @@ case class ModelServiceInstance(
 class UnknownModelRuntime extends ModelRuntime(
   id = -1, imageName = "",
   imageTag = "", imageMD5Tag = "",
-  modelName = "",modelVersion = "",
+  modelName = "",modelVersion = 1,
   source = None, runtimeType = None,
   modelContract = ModelContract(),
   created = LocalDateTime.now(), modelId = None,

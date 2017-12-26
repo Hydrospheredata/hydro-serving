@@ -47,7 +47,7 @@ trait ServingManagementService {
 
   def serve(req: ServeRequest): Future[ExecutionResult]
 
-  def generateModelPayload(modelName: String, modelVersion: String, signature: String): Future[Seq[JsObject]]
+  def generateModelPayload(modelName: String, modelVersion: Long, signature: String): Future[Seq[JsObject]]
 
   def generateModelPayload(modelName: String, signature: String): Future[Seq[JsObject]]
 
@@ -141,7 +141,7 @@ class ServingManagementServiceImpl(
         })
   }
 
-  override def generateModelPayload(modelName: String, modelVersion: String, signature: String): Future[Seq[JsObject]] = {
+  override def generateModelPayload(modelName: String, modelVersion: Long, signature: String): Future[Seq[JsObject]] = {
     modelServiceRepository.getLastModelServiceByModelNameAndVersion(modelName, modelVersion).map {
       case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
       case Some(service) =>

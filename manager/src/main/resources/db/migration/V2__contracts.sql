@@ -15,9 +15,15 @@ ALTER TABLE hydro_serving.model DROP COLUMN input_fields;
 ALTER TABLE hydro_serving.model DROP COLUMN runtime_type_id;
 ALTER TABLE hydro_serving.model ADD COLUMN model_type TEXT NOT NULL DEFAULT 'unknown';
 ALTER TABLE hydro_serving.model ADD COLUMN model_contract TEXT NOT NULL DEFAULT '';
+ALTER TABLE hydro_serving.model_runtime DROP COLUMN modelVersion;
+ALTER TABLE hydro_serving.model_runtime ADD COLUMN modelVersion BIGINT NOT NULL DEFAULT 1;
 
 ALTER TABLE hydro_serving.model_runtime DROP COLUMN input_fields;
 ALTER TABLE hydro_serving.model_runtime DROP COLUMN output_fields;
 ALTER TABLE hydro_serving.model_runtime ADD COLUMN model_contract TEXT NOT NULL DEFAULT '';
+ALTER TABLE hydro_serving.model_runtime DROP COLUMN modelVersion;
+ALTER TABLE hydro_serving.model_runtime ADD COLUMN modelVersion BIGINT NOT NULL DEFAULT 1;
 
 ALTER TABLE hydro_serving.model_build ADD COLUMN runtime_type_id BIGINT REFERENCES hydro_serving.runtime_type;
+ALTER TABLE hydro_serving.model_build DROP COLUMN model_version;
+ALTER TABLE hydro_serving.model_build ADD COLUMN model_version BIGINT NOT NULL DEFAULT 1;

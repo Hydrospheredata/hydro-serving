@@ -72,7 +72,7 @@ case class CreateModelRuntime(
   imageTag: String,
   imageMD5Tag: String,
   modelName: String,
-  modelVersion: String,
+  modelVersion: Long,
   source: Option[String],
   runtimeTypeId: Option[Long],
   modelContract: ModelContract,
@@ -114,9 +114,9 @@ trait ModelManagementService {
 
   def createRuntimeType(entity: CreateRuntimeTypeRequest): Future[RuntimeType]
 
-  def buildModel(modelId: Long, modelVersion: Option[String], runtimeTypeId: Long): Future[ModelRuntime]
+  def buildModel(modelId: Long, modelVersion: Option[Long], runtimeTypeId: Long): Future[ModelRuntime]
 
-  def buildModel(modelName: String, modelVersion: Option[String], runtimeTypeId: Long): Future[ModelRuntime]
+  def buildModel(modelName: String, modelVersion: Option[Long], runtimeTypeId: Long): Future[ModelRuntime]
 
   def allRuntimeTypes(): Future[Seq[RuntimeType]]
 
@@ -160,18 +160,9 @@ trait ModelManagementService {
 }
 
 object ModelManagementService {
-  def nextVersion(lastRuntime: Option[ModelRuntime]): String = lastRuntime match {
-    case None => "0.0.1"
-    case Some(runtime) =>
-      val splitted = runtime.modelVersion.split('.')
-      splitted.lastOption match {
-        case None => runtime.modelVersion + ".1"
-        case Some(v) =>
-          Try.apply(v.toInt) match {
-            case Failure(_) => runtime.modelVersion + ".1"
-            case Success(intVersion) => splitted.dropRight(1).mkString(".") + "." + (intVersion + 1)
-          }
-      }
+  def nextVersion(lastRuntime: Option[ModelRuntime]): Long = lastRuntime match {
+    case None => 1
+    case Some(runtime) => runtime.modelVersion + 1
   }
 }
 
@@ -244,7 +235,7 @@ class ModelManagementServiceImpl(
   override def lastModelBuildsByModel(id: Long, maximum: Int): Future[Seq[ModelBuild]] =
     modelBuildRepository.lastByModelId(id, maximum)
 
-  private def buildNewModelVersion(model: Model, modelVersion: Option[String], runtimeType: Option[RuntimeType]): Future[ModelRuntime] = {
+  private def buildNewModelVersion(model: Model, modelVersion: Option[Long], runtimeType: Option[RuntimeType]): Future[ModelRuntime] = {
     fetchLastModelVersion(model.id, modelVersion).flatMap { version =>
       fetchScriptForRuntime(runtimeType).flatMap { script =>
         modelBuildRepository.create(
@@ -276,7 +267,7 @@ class ModelManagementServiceImpl(
     }
   }
 
-  override def buildModel(modelId: Long, modelVersion: Option[String], runtimeTypeId: Long): Future[ModelRuntime] =
+  override def buildModel(modelId: Long, modelVersion: Option[Long], runtimeTypeId: Long): Future[ModelRuntime] =
     modelRepository.get(modelId)
       .flatMap {
         case None => throw new IllegalArgumentException(s"Can't find Model with id $modelId")
@@ -313,7 +304,7 @@ class ModelManagementServiceImpl(
       modelRuntimeRepository.create(ModelRuntime(
         id = 0,
         imageName = imageName,
-        imageTag = modelBuild.modelVersion,
+        imageTag = modelBuild.modelVersion.toString,
         imageMD5Tag = md5,
         modelName = modelBuild.model.name,
         modelVersion = modelBuild.modelVersion,
@@ -330,7 +321,7 @@ class ModelManagementServiceImpl(
     }
   }
 
-  private def fetchLastModelVersion(modelId: Long, modelVersion: Option[String]): Future[String] = {
+  private def fetchLastModelVersion(modelId: Long, modelVersion: Option[Long]): Future[Long] = {
     modelVersion match {
       case Some(x) => modelRuntimeRepository.modelRuntimeByModelAndVersion(modelId, x).map {
         case None => x
@@ -425,7 +416,7 @@ class ModelManagementServiceImpl(
     }
   }
 
-  override def buildModel(modelName: String, modelVersion: Option[String], runtimeTypeId: Long): Future[ModelRuntime] = {
+  override def buildModel(modelName: String, modelVersion: Option[Long], runtimeTypeId: Long): Future[ModelRuntime] = {
     modelRepository.get(modelName).flatMap{
       case None => throw new IllegalArgumentException(s"Can't find Model with name $modelName")
       case Some(model) =>
