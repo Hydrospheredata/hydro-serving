@@ -62,6 +62,12 @@ object Dependencies {
       "com.github.tminglei" %% "slick-pg_spray-json" % slickPgVersion
     ))
 
+  lazy val dataPlaneApiDependencies = commonDependencies.union(Seq(
+    "com.trueaccord.scalapb" %% "compilerplugin" % com.trueaccord.scalapb.compiler.Version.scalapbVersion,
+    "com.trueaccord.scalapb" %% "scalapb-runtime-grpc" % com.trueaccord.scalapb.compiler.Version.scalapbVersion,
+    "com.google.api.grpc" % "googleapis-common-protos" % "0.0.3" % "protobuf"
+  ))
+
   lazy val hydroServingManagerDependencies = commonDependencies
     .union(testDependencies)
     .union(akkaHttpDependencies)
@@ -83,6 +89,7 @@ object Dependencies {
       "org.flywaydb" % "flyway-core" % "4.2.0",
       "com.spotify" % "docker-client" % "8.8.0" exclude("ch.qos.logback", "logback-classic"),
       "com.google.guava" % "guava" % "22.0",
-      "org.tensorflow" % "proto" % "1.2.1"
+      "org.tensorflow" % "proto" % "1.2.1",
+      "com.trueaccord.scalapb" %% "scalapb-runtime-grpc" % com.trueaccord.scalapb.compiler.Version.scalapbVersion
     ))
 }

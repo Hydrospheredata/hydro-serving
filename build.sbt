@@ -31,6 +31,11 @@ lazy val codegen = project.in(file("codegen"))
   .settings(Common.settings)
   .settings(libraryDependencies ++= Dependencies.codegenDependencies)
 
+lazy val dataPlaneApi = project.in(file("envoy-data-plane-api"))
+  .settings(currentSettings)
+  .settings(Common.settings)
+  .settings(libraryDependencies ++= Dependencies.dataPlaneApiDependencies)
+
 
 lazy val manager = project.in(file("manager"))
   .configs(IntegrationTest)
@@ -38,4 +43,4 @@ lazy val manager = project.in(file("manager"))
   .settings(currentSettings)
   .settings(Common.settings)
   .settings(libraryDependencies ++= Dependencies.hydroServingManagerDependencies)
-  .dependsOn(codegen)
+  .dependsOn(codegen, dataPlaneApi)
