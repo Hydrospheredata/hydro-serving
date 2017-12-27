@@ -10,7 +10,6 @@ import io.hydrosphere.serving.tensorflow.tensor.TensorProto
 import io.hydrosphere.serving.tensorflow.types.DataType.DT_STRING
 import org.apache.logging.log4j.scala.Logging
 import spray.json.JsArray
-import spray.json._
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -22,7 +21,6 @@ class ManagerGrpcApi(managerServices: ManagerServices)
     request.modelSpec match {
       case Some(x) =>
         val packedData = JsArray(ContractOps.TensorProtoOps.jsonify(request.inputs))
-        logger.info(packedData.compactPrint)
         val serveRequest = ServeRequest(
           serviceKey = ModelByName(x.name, x.version),
           servePath = "/serve",

@@ -28,7 +28,7 @@ object ManagerBoot extends App with Logging {
 
     val managerRepositories = new ManagerRepositoriesConfig(configuration)
     val managerServices = new ManagerServices(managerRepositories, configuration)
-    val managerApi = new ManagerWebApi(managerServices)
+    val managerApi = new ManagerHttpApi(managerServices)
     val managerActors = new ManagerActors(managerServices, configuration)
     val managerGrpc = new ManagerGrpcApi(managerServices)
 
@@ -59,7 +59,7 @@ object ManagerBoot extends App with Logging {
 
 
     logger.info(s"Started HTTP service on port: ${configuration.application.http.port}")
-    logger.info(s"Started GRPC service on port: ${configuration.application.grpc.port}")
+    logger.info(s"Started gRPC service on port: ${configuration.application.grpc.port}")
   } catch {
     case e: Throwable =>
       logger.error("Fatal error", e)

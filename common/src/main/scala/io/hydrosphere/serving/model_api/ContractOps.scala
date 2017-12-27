@@ -11,6 +11,8 @@ import io.hydrosphere.serving.tensorflow.types.DataType
 import io.hydrosphere.serving.tensorflow.types.DataType._
 import spray.json.{JsArray, JsBoolean, JsNumber, JsObject, JsString, JsValue}
 
+import scala.annotation.tailrec
+
 
 object ContractOps {
 
@@ -161,7 +163,6 @@ object ContractOps {
   }
 
   object TensorProtoOps {
-    def fromJson(parseJson: JsObject): Map[String, TensorProto] = ???
 
     def jsonify(tensorProto: TensorProto): JsValue = {
       if (tensorProto.dtype == DT_MAP) {
@@ -213,7 +214,8 @@ object ContractOps {
         }
       }
 
-      def shapeGrouped(data: JsArray, shapeIter: Iterator[Long]): JsArray = {
+      @tailrec
+      final def shapeGrouped(data: JsArray, shapeIter: Iterator[Long]): JsArray = {
         if (shapeIter.nonEmpty) {
           val dimShape = shapeIter.next()
           if (dimShape == -1) {
