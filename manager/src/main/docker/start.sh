@@ -5,6 +5,8 @@ SERVICE_ID=$1
 [ -z "$JAVA_XMX" ] && JAVA_XMX="256M"
 
 [ -z "$APP_HTTP_PORT" ] && APP_HTTP_PORT="9090"
+[ -z "$APP_GRPC_PORT" ] && APP_GRPC_PORT="9091"
+
 [ -z "$SIDECAR_HTTP_PORT" ] && SIDECAR_HTTP_PORT="8080"
 
 [ -z "$ADVERTISED_MANAGER_HOST" ] && ADVERTISED_MANAGER_HOST="manager"
@@ -22,7 +24,7 @@ SERVICE_ID=$1
 
 JAVA_OPTS="-Xmx$JAVA_XMX -Xms$JAVA_XMX"
 
-APP_OPTS="-Dapplication.port=$APP_HTTP_PORT -Dapplication.appId=$SERVICE_ID -Dsidecar.port=$SIDECAR_HTTP_PORT"
+APP_OPTS="-Dapplication.grpc.port=$APP_GRPC_PORT -Dapplication.http.port=$APP_HTTP_PORT -Dapplication.http.appId=$SERVICE_ID -Dsidecar.port=$SIDECAR_HTTP_PORT"
 
 if [ "$GELF_HOST" = "" ]
 then

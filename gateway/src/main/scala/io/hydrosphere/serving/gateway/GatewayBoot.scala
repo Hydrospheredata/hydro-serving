@@ -25,7 +25,7 @@ object GatewayBoot extends App with Logging {
     val actors = new GatewayActors(configuration)
     val httpApi = new GatewayApi(actors.serveActor)
 
-    Http().bindAndHandle(httpApi.routes, "0.0.0.0", configuration.application.port)
+    Http().bindAndHandle(httpApi.routes, "0.0.0.0", configuration.application.http.port)
 
     sys addShutdownHook {
       logger.info("Stopping all the contexts")
@@ -39,7 +39,7 @@ object GatewayBoot extends App with Logging {
       }
     }
 
-    logger.info(s"Started service on port: ${configuration.application.port}")
+    logger.info(s"Started service on port: ${configuration.application.http.port}")
   } catch {
     case e: Throwable =>
       logger.error("Fatal error", e)

@@ -5,8 +5,15 @@ import com.typesafe.config.Config
 /**
   *
   */
-case class ApplicationConfig(port: Int,
-                             appId: String)
+case class ApplicationConfig(
+  http: HttpConfig,
+  grpc: GrpcConfig,
+  appId: String
+)
+
+case class HttpConfig(port: Int)
+
+case class GrpcConfig(port: Int)
 
 case class SidecarConfig(host: String,
                          port: Int)
@@ -21,10 +28,18 @@ trait Configuration {
   }
 
   def parseApplication(config: Config): ApplicationConfig = {
-    val c = config.getConfig("application")
+    val appConfig = config.getConfig("application")
+    val httpConfig = appConfig.getConfig("http")
+    val grpcConfig = appConfig.getConfig("grpc")
+
     ApplicationConfig(
-      port = c.getInt("port"),
-      appId = c.getString("appId")
+      appId = appConfig.getString("appId"),
+      http = HttpConfig(
+        port = httpConfig.getInt("port")
+      ),
+      grpc = GrpcConfig(
+        port = grpcConfig.getInt("port")
+      )
     )
   }
 }

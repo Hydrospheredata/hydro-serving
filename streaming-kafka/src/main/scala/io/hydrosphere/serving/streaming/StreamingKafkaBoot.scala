@@ -26,7 +26,7 @@ object StreamingKafkaBoot extends App with Logging {
     val httpApi = new StreamingKafkaApi()
     val services = new StreamingKafkaServices(conf)
 
-    Http().bindAndHandle(httpApi.routes, "0.0.0.0", conf.application.port)
+    Http().bindAndHandle(httpApi.routes, "0.0.0.0", conf.application.http.port)
 
     sys addShutdownHook {
       logger.info("Stopping all the contexts")
@@ -40,7 +40,7 @@ object StreamingKafkaBoot extends App with Logging {
       }
     }
 
-    logger.info(s"Started service on port: ${conf.application.port}")
+    logger.info(s"Started service on port: ${conf.application.http.port}")
   } catch {
     case e: Throwable =>
       logger.error("Fatal error", e)

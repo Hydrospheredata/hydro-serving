@@ -161,6 +161,8 @@ object ContractOps {
   }
 
   object TensorProtoOps {
+    def fromJson(parseJson: JsObject): Map[String, TensorProto] = ???
+
     def jsonify(tensorProto: TensorProto): JsValue = {
       if (tensorProto.dtype == DT_MAP) {
         JsObject(
