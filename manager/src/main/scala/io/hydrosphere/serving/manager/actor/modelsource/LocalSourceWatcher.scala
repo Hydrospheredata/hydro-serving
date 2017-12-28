@@ -10,7 +10,7 @@ import akka.actor.Props
 import com.google.common.hash.Hashing
 import io.hydrosphere.serving.manager.actor.{FileCreated, FileDeleted, FileEvent, FileModified}
 import io.hydrosphere.serving.manager.service.modelsource.local.LocalModelSource
-import io.hydrosphere.serving.util.FileUtils._
+import io.hydrosphere.serving.manager.util.FileUtils._
 
 import scala.collection.JavaConverters._
 import scala.collection.mutable

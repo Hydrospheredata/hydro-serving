@@ -4,8 +4,8 @@ import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.spotify.docker.client._
-import io.hydrosphere.serving.connector._
-import io.hydrosphere.serving.manager.connector.HttpEnvoyAdminConnector
+import io.hydrosphere.serving.manager.connector._
+import io.hydrosphere.serving.manager.connector.{HttpEnvoyAdminConnector, HttpRuntimeMeshConnector, RuntimeMeshConnector}
 import io.hydrosphere.serving.manager.service.clouddriver._
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.envoy.EnvoyManagementServiceImpl

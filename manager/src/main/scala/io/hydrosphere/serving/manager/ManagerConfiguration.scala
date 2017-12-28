@@ -1,12 +1,8 @@
 package io.hydrosphere.serving.manager
 
 import com.amazonaws.regions.Regions
-import com.amazonaws.services.s3._
-import com.amazonaws.services.sqs._
 import com.typesafe.config.Config
-import io.hydrosphere.serving.config._
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.service.modelsource.local.LocalSourceDef
 
 import collection.JavaConverters._
 
@@ -73,7 +69,30 @@ case class ZipkinConfiguration(
   enabled: Boolean
 )
 
-object ManagerConfiguration extends Configuration {
+case class ApplicationConfig(
+  port: Int
+)
+
+case class SidecarConfig(
+  host: String,
+  port: Int
+)
+
+object ManagerConfiguration {
+  def parseSidecar(config: Config): SidecarConfig = {
+    val c = config.getConfig("sidecar")
+    SidecarConfig(
+      host = c.getString("host"),
+      port = c.getInt("port")
+    )
+  }
+
+  def parseApplication(config: Config): ApplicationConfig = {
+    val c = config.getConfig("application")
+    ApplicationConfig(
+      port = c.getInt("port")
+    )
+  }
 
   def parseDockerRepository(config: Config): DockerRepositoryConfiguration = {
     val repoType = config.getString("dockerRepository.type")

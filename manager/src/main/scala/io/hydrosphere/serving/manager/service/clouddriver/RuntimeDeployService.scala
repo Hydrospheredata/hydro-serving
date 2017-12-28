@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service.clouddriver
 
 import io.hydrosphere.serving.manager.model.ModelServiceInstance
-import io.hydrosphere.serving.model.ModelService
+import io.hydrosphere.serving.manager.model.ModelService
 
 
 case class ServiceInfo(

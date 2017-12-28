@@ -4,9 +4,10 @@ import com.amazonaws.services.ec2.model.DescribeInstancesRequest
 import com.amazonaws.services.ec2.{AmazonEC2, AmazonEC2ClientBuilder}
 import com.amazonaws.services.ecs.model._
 import com.amazonaws.services.ecs.{AmazonECS, AmazonECSClientBuilder}
+import io.hydrosphere.serving.manager.controller.CommonJsonSupport
 import io.hydrosphere.serving.manager.{ECSCloudDriverConfiguration, ManagerConfiguration}
 import io.hydrosphere.serving.manager.model.{ModelServiceInstance, ModelServiceInstanceStatus}
-import io.hydrosphere.serving.model.{CommonJsonSupport, ModelService}
+import io.hydrosphere.serving.manager.model.ModelService
 import org.apache.logging.log4j.scala.Logging
 
 import collection.JavaConversions._

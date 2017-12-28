@@ -6,13 +6,14 @@ import akka.actor.ActorSystem
 import akka.http.scaladsl.model.HttpHeader
 import akka.pattern.ask
 import akka.util.Timeout
-import io.hydrosphere.serving.connector._
+import io.hydrosphere.serving.manager.connector._
 import io.hydrosphere.serving.manager.actor.ContainerWatcher
 import io.hydrosphere.serving.manager.actor.ContainerWatcher.{Started, WatchForStart, WatchForStop}
+import io.hydrosphere.serving.manager.connector.ExecutionResult
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.repository.{ModelBuildRepository, ModelRepository, ModelRuntimeRepository, ModelServiceRepository}
-import io.hydrosphere.serving.model._
-import io.hydrosphere.serving.model_api.ContractOps.SignatureDescription
+import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.api.ContractOps.SignatureDescription
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -499,7 +500,7 @@ class UIManagementServiceImpl(
     }
 
   override def flattenContract(runtimeId: Long): Future[Option[List[SignatureDescription]]] = {
-    import io.hydrosphere.serving.model_api.ContractOps.Implicits._
+    import io.hydrosphere.serving.manager.model.api.ContractOps.Implicits._
 
     modelRuntimeRepository.get(runtimeId).map {
       _.map {

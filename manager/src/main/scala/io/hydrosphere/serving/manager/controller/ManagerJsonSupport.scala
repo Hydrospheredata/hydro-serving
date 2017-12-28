@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.controller
 
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service._
-import io.hydrosphere.serving.model._
+import io.hydrosphere.serving.manager.model._
 import spray.json.{DeserializationException, JsString, JsValue, RootJsonFormat}
 import spray.json._
 

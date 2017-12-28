@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.repository
 
-import io.hydrosphere.serving.model.ModelRuntime
+import io.hydrosphere.serving.manager.model.ModelRuntime
 
 import scala.concurrent.Future
 

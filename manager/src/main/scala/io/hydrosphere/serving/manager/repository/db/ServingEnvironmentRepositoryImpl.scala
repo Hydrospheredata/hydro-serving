@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.repository.db
 
 import io.hydrosphere.serving.manager.controller.ManagerJsonSupport
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.model.ServingEnvironment
+import io.hydrosphere.serving.manager.model.ServingEnvironment
 import io.hydrosphere.serving.manager.repository.ServingEnvironmentRepository
 import org.apache.logging.log4j.scala.Logging
 

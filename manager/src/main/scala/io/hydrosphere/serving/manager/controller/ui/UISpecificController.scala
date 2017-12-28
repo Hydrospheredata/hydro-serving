@@ -5,10 +5,9 @@ import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Directives.{complete, get, path}
 import akka.util.Timeout
-import io.hydrosphere.serving.controller.{ServingDataDirectives, TracingHeaders}
-import io.hydrosphere.serving.manager.controller.BuildModelRequest
+import io.hydrosphere.serving.manager.controller.{BuildModelRequest, ServingDataDirectives, TracingHeaders}
 import io.hydrosphere.serving.manager.service.{ModelInfo, UIManagementService}
-import io.hydrosphere.serving.model_api.ContractOps.SignatureDescription
+import io.hydrosphere.serving.manager.model.api.ContractOps.SignatureDescription
 import io.swagger.annotations._
 
 import scala.concurrent.duration._

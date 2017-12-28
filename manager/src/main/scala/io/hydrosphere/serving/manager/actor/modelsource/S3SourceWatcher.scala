@@ -6,8 +6,8 @@ import akka.actor.Props
 import com.google.common.hash.Hashing
 import io.hydrosphere.serving.manager.actor.{FileCreated, FileDeleted, FileEvent}
 import io.hydrosphere.serving.manager.actor.modelsource.S3SourceWatcher.SQSMessage
+import io.hydrosphere.serving.manager.controller.CommonJsonSupport
 import io.hydrosphere.serving.manager.service.modelsource.s3.S3ModelSource
-import io.hydrosphere.serving.model.CommonJsonSupport
 
 import scala.collection.JavaConversions._
 

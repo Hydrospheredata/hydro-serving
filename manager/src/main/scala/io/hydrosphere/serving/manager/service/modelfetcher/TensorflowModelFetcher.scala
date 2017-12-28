@@ -6,10 +6,11 @@ import java.nio.file.{Files, NoSuchFileException}
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
+import io.hydrosphere.serving.manager.model.api.ModelMetadata
 import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
 import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 import io.hydrosphere.serving.tensorflow.types.DataType
-import io.hydrosphere.serving.model_api._
+import io.hydrosphere.serving.manager.model.api._
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import org.apache.logging.log4j.scala.Logging
 import org.tensorflow.framework.{SavedModel, SignatureDef, TensorInfo => TFTensorInfo}

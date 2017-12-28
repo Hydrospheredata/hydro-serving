@@ -4,7 +4,7 @@ import java.io.File
 import java.nio.file._
 
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
-import io.hydrosphere.serving.util.FileUtils._
+import io.hydrosphere.serving.manager.util.FileUtils._
 
 /**
   *

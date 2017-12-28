@@ -1,9 +1,9 @@
 package io.hydrosphere.serving.manager.service.modelfetcher
 
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelFetcher
-import io.hydrosphere.serving.model_api.ModelType
 import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceDef}
 import io.hydrosphere.serving.manager.TestConstants
+import io.hydrosphere.serving.manager.model.api.ModelType
 import org.scalatest._
 
 class FetcherSpecs extends FlatSpec with Matchers {

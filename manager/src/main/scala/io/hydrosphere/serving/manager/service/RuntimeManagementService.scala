@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service
 
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.model._
+import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.clouddriver._
 

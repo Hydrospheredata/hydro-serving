@@ -1,10 +1,10 @@
 package io.hydrosphere.serving.manager.service
 
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.connector._
-import io.hydrosphere.serving.model.{Application, ApplicationExecutionGraph, ModelService}
+import io.hydrosphere.serving.manager.connector._
+import io.hydrosphere.serving.manager.model.api.{ContractOps, DataGenerator, SignatureChecker}
+import io.hydrosphere.serving.manager.model.{Application, ApplicationExecutionGraph, ModelService}
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelServiceRepository}
-import io.hydrosphere.serving.model_api.{ContractOps, DataGenerator, SignatureChecker}
 
 import scala.concurrent.Await
 import org.apache.logging.log4j.scala.Logging

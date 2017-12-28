@@ -9,6 +9,7 @@ object Dependencies {
   val postgresqlVersion = "42.1.3"
   val scalaTestVersion = "3.0.3"
   val slickPgVersion = "0.15.4"
+  val scalaPBVersion = "0.6.7"
   val awsSdkVersion = "1.11.184"
 
   lazy val hdfsDependencies = Seq(
@@ -62,17 +63,12 @@ object Dependencies {
       "com.github.tminglei" %% "slick-pg_spray-json" % slickPgVersion
     ))
 
-  lazy val dataPlaneApiDependencies = commonDependencies.union(Seq(
-    "com.trueaccord.scalapb" %% "compilerplugin" % com.trueaccord.scalapb.compiler.Version.scalapbVersion,
-    "com.trueaccord.scalapb" %% "scalapb-runtime-grpc" % com.trueaccord.scalapb.compiler.Version.scalapbVersion,
-    "com.google.api.grpc" % "googleapis-common-protos" % "0.0.3" % "protobuf"
-  ))
-
   lazy val hydroServingManagerDependencies = commonDependencies
     .union(testDependencies)
     .union(akkaHttpDependencies)
     .union(Seq(
       "io.hydrosphere" %% "serving-grpc-scala" % "0.0.5",
+      "io.hydrosphere" %% "envoy-data-plane-api" % "v1.5.0_1",
 
       "com.amazonaws" % "aws-java-sdk-ecs" % awsSdkVersion,
       "com.amazonaws" % "aws-java-sdk-ec2" % awsSdkVersion,
@@ -90,6 +86,6 @@ object Dependencies {
       "com.spotify" % "docker-client" % "8.8.0" exclude("ch.qos.logback", "logback-classic"),
       "com.google.guava" % "guava" % "22.0",
       "org.tensorflow" % "proto" % "1.2.1",
-      "com.trueaccord.scalapb" %% "scalapb-runtime-grpc" % com.trueaccord.scalapb.compiler.Version.scalapbVersion
+      "com.trueaccord.scalapb" %% "scalapb-runtime-grpc" % scalaPBVersion
     ))
 }

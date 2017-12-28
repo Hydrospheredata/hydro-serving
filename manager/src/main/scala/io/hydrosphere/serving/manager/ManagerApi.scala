@@ -5,11 +5,9 @@ import akka.http.scaladsl.model.HttpMethods._
 import akka.http.scaladsl.model.{HttpResponse, ResponseEntity, StatusCodes}
 import akka.http.scaladsl.server.{ExceptionHandler, RejectionHandler, Route}
 import ch.megard.akka.http.cors.scaladsl.CorsDirectives
-import io.hydrosphere.serving.controller.{CommonController, SwaggerDocController}
-import io.hydrosphere.serving.manager.controller.{ModelRuntimeController, _}
+import io.hydrosphere.serving.manager.controller.{ModelRuntimeController, SwaggerDocController, _}
 import akka.http.scaladsl.server.Directives.{path, _}
 import ch.megard.akka.http.cors.scaladsl.settings.CorsSettings
-import io.hydrosphere.serving.manager.controller.envoy.EnvoyManagementController
 import io.hydrosphere.serving.manager.controller.prometheus.PrometheusMetricsController
 import io.hydrosphere.serving.manager.controller.ui.{UISpecificController, UISpecificRuntimeController, UISpecificWeightServiceController}
 import org.apache.logging.log4j.scala.Logging
@@ -25,8 +23,6 @@ import scala.reflect.runtime.{universe => ru}
 class ManagerApi(managerServices: ManagerServices)
   (implicit val system: ActorSystem, implicit val ex: ExecutionContext) extends Logging {
 
-  val commonController = new CommonController
-
   val runtimeTypeController = new RuntimeTypeController(managerServices.modelManagementService, managerServices.runtimeTypeManagementService)
 
   val modelController = new ModelController(managerServices.modelManagementService)
@@ -36,8 +32,6 @@ class ManagerApi(managerServices: ManagerServices)
   val modelServiceController = new ModelServiceController(managerServices.runtimeManagementService, managerServices.servingManagementService)
 
   val applicationController = new ApplicationController(managerServices.servingManagementService)
-
-  val envoyManagementController = new EnvoyManagementController(managerServices.envoyManagementService)
 
   val prometheusMetricsController = new PrometheusMetricsController(managerServices.prometheusMetricsService)
 
@@ -58,7 +52,6 @@ class ManagerApi(managerServices: ManagerServices)
       ru.typeOf[ModelController],
       ru.typeOf[ModelRuntimeController],
       ru.typeOf[ModelServiceController],
-      ru.typeOf[EnvoyManagementController],
       ru.typeOf[ApplicationController],
       ru.typeOf[PrometheusMetricsController],
       ru.typeOf[ModelSourceController],
@@ -89,35 +82,28 @@ class ManagerApi(managerServices: ManagerServices)
     CorsSettings.defaultSettings.copy(allowedMethods = Seq(GET, POST, HEAD, OPTIONS, PUT, DELETE))
   ) {
     handleExceptions(commonExceptionHandler) {
-      commonController.routes ~
-        swaggerController.routes ~
+      swaggerController.routes ~
         modelController.routes ~
         modelRuntimeController.routes ~
         modelServiceController.routes ~
         applicationController.routes ~
         runtimeTypeController.routes ~
-        envoyManagementController.routes ~
         prometheusMetricsController.routes ~
         uiSpecificController.routes ~
         uiSpecificWeightServiceController.routes ~
         servingEnvironmentController.routes ~
         modelSourceController.routes ~
         uiSpecificRuntimeController.routes ~
-        pathPrefix("assets") {
+        pathPrefix("swagger") {
           path(Segments) { segs =>
             val path = segs.mkString("/")
-            getFromResource(s"ui/assets/$path")
+            getFromResource(s"swagger/$path")
           }
-        } ~
-          path(Segments) { segs =>
-            if (segs.size == 1 && //TODO change to regexp
-              (segs.head.endsWith("bundle.js") || segs.head.endsWith("bundle.css") )) {
-              val path = segs.mkString("/")
-              getFromResource(s"ui/$path")
-            } else {
-              getFromResource("ui/index.html")
-            }
-          }
+        } ~ path("health") {
+        complete {
+          "OK"
+        }
       }
+    }
   }
 }

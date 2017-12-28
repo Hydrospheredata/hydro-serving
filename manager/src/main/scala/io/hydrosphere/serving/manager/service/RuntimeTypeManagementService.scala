@@ -1,8 +1,8 @@
 package io.hydrosphere.serving.manager.service
 
+import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.repository.RuntimeTypeRepository
-import io.hydrosphere.serving.model.RuntimeType
-import io.hydrosphere.serving.model_api.ModelType
+import io.hydrosphere.serving.manager.model.RuntimeType
 
 import scala.concurrent.Future
 

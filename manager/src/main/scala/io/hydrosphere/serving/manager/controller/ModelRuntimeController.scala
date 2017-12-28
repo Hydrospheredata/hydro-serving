@@ -5,7 +5,7 @@ import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
-import io.hydrosphere.serving.model.ModelRuntime
+import io.hydrosphere.serving.manager.model.ModelRuntime
 import io.hydrosphere.serving.manager.service.{CreateModelRuntime, ModelManagementService}
 import io.swagger.annotations._
 

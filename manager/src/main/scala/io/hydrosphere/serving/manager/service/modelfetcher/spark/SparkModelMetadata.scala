@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.service.modelfetcher.spark
 
-import io.hydrosphere.serving.model.CommonJsonSupport
+import io.hydrosphere.serving.manager.controller.CommonJsonSupport
 
 case class SparkModelMetadata(
   `class`: String,

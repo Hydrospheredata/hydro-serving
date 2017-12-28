@@ -4,7 +4,7 @@ import java.util.UUID
 
 import io.hydrosphere.serving.manager.model.ModelServiceInstance
 import io.hydrosphere.serving.manager.service.{RuntimeManagementService, ServingManagementService}
-import io.hydrosphere.serving.model.ModelService
+import io.hydrosphere.serving.manager.model.ModelService
 import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.mutable

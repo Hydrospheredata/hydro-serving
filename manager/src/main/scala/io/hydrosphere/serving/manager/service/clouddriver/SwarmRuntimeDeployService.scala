@@ -5,7 +5,7 @@ import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.messages.swarm._
 import io.hydrosphere.serving.manager._
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.model.ModelService
+import io.hydrosphere.serving.manager.model.ModelService
 import org.apache.logging.log4j.scala.Logging
 
 import collection.JavaConversions._
