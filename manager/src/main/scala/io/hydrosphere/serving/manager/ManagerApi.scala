@@ -1,12 +1,14 @@
 package io.hydrosphere.serving.manager
 
 import akka.actor.ActorSystem
+import akka.http.scaladsl.Http
 import akka.http.scaladsl.model.HttpMethods._
 import akka.http.scaladsl.model.{HttpResponse, ResponseEntity, StatusCodes}
 import akka.http.scaladsl.server.{ExceptionHandler, RejectionHandler, Route}
 import ch.megard.akka.http.cors.scaladsl.CorsDirectives
 import io.hydrosphere.serving.manager.controller.{ModelRuntimeController, SwaggerDocController, _}
 import akka.http.scaladsl.server.Directives.{path, _}
+import akka.stream.ActorMaterializer
 import ch.megard.akka.http.cors.scaladsl.settings.CorsSettings
 import io.hydrosphere.serving.manager.controller.prometheus.PrometheusMetricsController
 import io.hydrosphere.serving.manager.controller.ui.{UISpecificController, UISpecificRuntimeController, UISpecificWeightServiceController}
@@ -20,8 +22,14 @@ import scala.reflect.runtime.{universe => ru}
 /**
   *
   */
-class ManagerApi(managerServices: ManagerServices)
-  (implicit val system: ActorSystem, implicit val ex: ExecutionContext) extends Logging {
+class ManagerApi(
+  managerServices: ManagerServices,
+  managerConfiguration: ManagerConfiguration
+)(
+  implicit val system: ActorSystem,
+  implicit val ex: ExecutionContext,
+  implicit val materializer: ActorMaterializer
+) extends Logging {
 
   val runtimeTypeController = new RuntimeTypeController(managerServices.modelManagementService, managerServices.runtimeTypeManagementService)
 
@@ -106,4 +114,6 @@ class ManagerApi(managerServices: ManagerServices)
       }
     }
   }
+
+  val serverBinding=Http().bindAndHandle(routes, "0.0.0.0", managerConfiguration.application.port)
 }

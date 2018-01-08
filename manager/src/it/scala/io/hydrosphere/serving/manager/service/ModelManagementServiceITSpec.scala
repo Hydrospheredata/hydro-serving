@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.service
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.test.CommonIntegrationSpec
-import io.hydrosphere.serving.model_api._
+import io.hydrosphere.serving.manager.model.api._
 import org.scalactic.source.Position
 import org.scalatest.{BeforeAndAfter, BeforeAndAfterEach}
 

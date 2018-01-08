@@ -70,7 +70,8 @@ case class ZipkinConfiguration(
 )
 
 case class ApplicationConfig(
-  port: Int
+  port: Int,
+  grpcPort: Int
 )
 
 case class SidecarConfig(
@@ -90,7 +91,8 @@ object ManagerConfiguration {
   def parseApplication(config: Config): ApplicationConfig = {
     val c = config.getConfig("application")
     ApplicationConfig(
-      port = c.getInt("port")
+      port = c.getInt("port"),
+      grpcPort=c.getInt("grpcPort")
     )
   }
 

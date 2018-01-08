@@ -3,7 +3,6 @@ package io.hydrosphere.serving.manager
 import java.util.concurrent.TimeUnit
 
 import akka.actor.ActorSystem
-import akka.http.scaladsl.Http
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.typesafe.config.ConfigFactory
@@ -26,17 +25,17 @@ object ManagerBoot extends App with Logging {
 
     val managerRepositories = new ManagerRepositoriesConfig(configuration)
     val managerServices = new ManagerServices(managerRepositories, configuration)
-    val managerApi = new ManagerApi(managerServices)
+    val managerApi = new ManagerApi(managerServices, configuration)
     val managerActors = new ManagerActors(managerServices, configuration)
-
-
-    Http().bindAndHandle(managerApi.routes, "0.0.0.0", configuration.application.port)
+    val managerGRPC = new ManagerGRPC(managerServices, configuration)
 
     sys addShutdownHook {
-      logger.info("Stopping all the contexts")
+      managerGRPC.server.shutdown()
+      logger.info("Stopping all contexts")
       system.terminate()
       try {
-        Await.ready(system.whenTerminated, Duration(30, TimeUnit.MINUTES))
+        managerGRPC.server.awaitTermination(30, TimeUnit.SECONDS)
+        Await.ready(system.whenTerminated, Duration(30, TimeUnit.SECONDS))
       } catch {
         case e: Throwable =>
           logger.error("Error on terminate", e)
@@ -44,7 +43,7 @@ object ManagerBoot extends App with Logging {
       }
     }
 
-    logger.info(s"Started service on port: ${configuration.application.port}")
+    logger.info(s"Started http service on port: ${configuration.application.port} and grpc service on ${configuration.application.grpcPort}")
   } catch {
     case e: Throwable =>
       logger.error("Fatal error", e)

@@ -9,7 +9,7 @@ object Dependencies {
   val postgresqlVersion = "42.1.3"
   val scalaTestVersion = "3.0.3"
   val slickPgVersion = "0.15.4"
-  val scalaPBVersion = "0.6.7"
+  val scalaPBVersion = "0.6.6"
   val awsSdkVersion = "1.11.184"
 
   lazy val hdfsDependencies = Seq(
