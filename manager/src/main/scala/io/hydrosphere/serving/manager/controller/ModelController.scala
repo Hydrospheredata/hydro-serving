@@ -173,7 +173,6 @@ class ModelController(modelManagementService: ModelManagementService) extends Ma
   def generatePayloadByModelNameService = path("api" / "v1" / "model" / "generate" / Segment / Segment) { (modelName, signature) =>
     get {
       complete {
-        println("YA TUT")
         modelManagementService.generateModelPayload(modelName, signature)
       }
     }
