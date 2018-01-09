@@ -32,7 +32,7 @@ case class ModelInfo(
   lastModelBuild: Option[ModelBuild],
   lastModelRuntime: Option[ModelRuntime],
   currentServices: List[ModelService],
-  nextVersion: String,
+  nextVersion: Long,
   nextVersionAvailable: Boolean
 )
 
@@ -102,7 +102,7 @@ trait UIManagementService {
 
   def testModel(modelId: Long, servePath: String, request: Array[Byte], headers: Seq[HttpHeader]): Future[ExecutionResult]
 
-  def buildModel(modelId: Long, runtimeTypeId: Long, modelVersion: Option[String], environmentId: Option[Long]): Future[ModelInfo]
+  def buildModel(modelId: Long, runtimeTypeId: Long, modelVersion: Option[Long], environmentId: Option[Long]): Future[ModelInfo]
 
   def modelRuntimes(modelId: Long): Future[Seq[UIRuntimeInfo]]
 }
@@ -232,7 +232,7 @@ class UIManagementServiceImpl(
     Future(Thread.sleep(5000L))
   }
 
-  override def buildModel(modelId: Long, runtimeTypeId: Long, modelVersion: Option[String], environmentId: Option[Long]): Future[ModelInfo] =
+  override def buildModel(modelId: Long, runtimeTypeId: Long, modelVersion: Option[Long], environmentId: Option[Long]): Future[ModelInfo] =
     modelManagementService
       .buildModel(modelId, modelVersion, runtimeTypeId)
       .flatMap { runtime =>

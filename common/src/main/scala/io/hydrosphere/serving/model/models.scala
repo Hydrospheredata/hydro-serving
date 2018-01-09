@@ -21,7 +21,7 @@ case class ModelRuntime(
   imageTag: String,
   imageMD5Tag: String,
   modelName: String,
-  modelVersion: String,
+  modelVersion: Long,
   source: Option[String],
   runtimeType: Option[RuntimeType],
   modelContract: ModelContract,

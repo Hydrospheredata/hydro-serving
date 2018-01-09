@@ -9,7 +9,7 @@ case class ApplicationName(name: String) extends ServiceKey
 
 sealed trait ModelKey extends ServiceKey
 case class ModelById(id: Long) extends ModelKey
-case class ModelByName(name: String, version: Option[String] = None) extends ModelKey
+case class ModelByName(name: String, version: Option[Long] = None) extends ModelKey
 
 case class ServeRequest(
   serviceKey: ServiceKey,

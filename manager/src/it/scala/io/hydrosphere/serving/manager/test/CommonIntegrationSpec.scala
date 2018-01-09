@@ -1,31 +1,27 @@
 package io.hydrosphere.serving.manager.test
 
-import java.time.Duration
-
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.testkit.TestKit
 import akka.util.Timeout
 import com.dimafeng.testcontainers.{ForAllTestContainer, GenericContainer}
-import com.spotify.docker.client.{DefaultDockerClient, DockerClient}
+import com.spotify.docker.client.DockerClient
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
 import io.hydrosphere.serving.manager.service.clouddriver.RuntimeDeployService
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService}
-import io.hydrosphere.serving.manager.{ManagerConfiguration, ManagerConfigurationImpl, ManagerRepositoriesConfig, ManagerServices}
+import io.hydrosphere.serving.manager.{ManagerConfiguration, ManagerRepositoriesConfig, ManagerServices}
 import org.mockito
-import org.mockito.Mockito
-import org.scalactic.source.Position
 import org.scalatest.mockito.MockitoSugar
-import org.scalatest.{BeforeAndAfter, BeforeAndAfterEach, FunSpec, FunSpecLike}
+import org.scalatest.{BeforeAndAfterEach, FunSpecLike}
 import org.testcontainers.containers.wait.Wait
 
-import scala.io.Source
 import scala.concurrent.duration._
+import scala.io.Source
 
 /**
   *
   */
-class CommonIntegrationSpec extends TestKit(ActorSystem("testMasterService"))
+abstract class CommonIntegrationSpec extends TestKit(ActorSystem("testMasterService"))
   with FunSpecLike with ForAllTestContainer with MockitoSugar with BeforeAndAfterEach {
 
   implicit val materializer = ActorMaterializer()
@@ -61,15 +57,22 @@ class CommonIntegrationSpec extends TestKit(ActorSystem("testMasterService"))
     super.beforeEach()
   }
 
-  val originalConfiguration = ManagerConfiguration.parse(ConfigFactory.load())
-  val configuration = originalConfiguration.copy(database =
-    originalConfiguration.database.withValue(
+  var rawConfig = ConfigFactory.load()
+
+  rawConfig = rawConfig.withValue(
+    "database",
+    rawConfig.getConfig("database").withValue(
       "jdbcUrl",
       ConfigValueFactory.fromAnyRef(s"jdbc:postgresql://localhost:${container.mappedPort(5432)}/docker")
-    )
+    ).root()
   )
 
+  val originalConfiguration = ManagerConfiguration.parse(rawConfig)
+
+  val configuration = originalConfiguration
+
   val managerRepositories = new ManagerRepositoriesConfig(configuration)
+
   val managerServices = new ManagerServices(managerRepositories, configuration) {
 
     override val runtimeDeployService: RuntimeDeployService = mockRuntimeDeployService

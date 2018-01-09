@@ -7,9 +7,11 @@ import akka.http.scaladsl.Http
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.typesafe.config.ConfigFactory
+import io.grpc.ServerBuilder
+import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
 import org.apache.logging.log4j.scala.Logging
 
-import scala.concurrent.Await
+import scala.concurrent.{Await, ExecutionContext}
 import scala.concurrent.duration._
 
 /**
@@ -26,17 +28,28 @@ object ManagerBoot extends App with Logging {
 
     val managerRepositories = new ManagerRepositoriesConfig(configuration)
     val managerServices = new ManagerServices(managerRepositories, configuration)
-    val managerApi = new ManagerApi(managerServices)
+    val managerApi = new ManagerHttpApi(managerServices)
     val managerActors = new ManagerActors(managerServices, configuration)
+    val managerGrpc = new ManagerGrpcApi(managerServices)
 
+    val grpcServer = ServerBuilder
+      .forPort(configuration.application.grpc.port)
+      .addService(PredictionServiceGrpc.bindService(managerGrpc, ExecutionContext.global))
+      .build()
 
-    Http().bindAndHandle(managerApi.routes, "0.0.0.0", configuration.application.port)
+    grpcServer.start()
+
+    Http().bindAndHandle(managerApi.routes, "0.0.0.0", configuration.application.http.port)
 
     sys addShutdownHook {
       logger.info("Stopping all the contexts")
       system.terminate()
+      grpcServer.shutdown()
       try {
         Await.ready(system.whenTerminated, Duration(30, TimeUnit.MINUTES))
+        if (grpcServer.isShutdown) {
+          grpcServer.shutdownNow()
+        }
       } catch {
         case e: Throwable =>
           logger.error("Error on terminate", e)
@@ -44,7 +57,9 @@ object ManagerBoot extends App with Logging {
       }
     }
 
-    logger.info(s"Started service on port: ${configuration.application.port}")
+
+    logger.info(s"Started HTTP service on port: ${configuration.application.http.port}")
+    logger.info(s"Started gRPC service on port: ${configuration.application.grpc.port}")
   } catch {
     case e: Throwable =>
       logger.error("Fatal error", e)

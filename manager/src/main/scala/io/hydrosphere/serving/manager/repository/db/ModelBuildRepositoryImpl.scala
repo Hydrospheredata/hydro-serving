@@ -27,18 +27,17 @@ class ModelBuildRepositoryImpl(
   override def create(entity: ModelBuild): Future[ModelBuild] =
     db.run(
       Tables.ModelBuild returning Tables.ModelBuild += Tables.ModelBuildRow(
-        entity.id,
-        entity.model.id,
-        entity.modelVersion,
-        entity.started,
-        entity.finished,
-        entity.status.toString,
-        entity.statusText,
-        entity.logsUrl,
-        entity.modelRuntime match {
-          case Some(r) => Some(r.id)
-          case _ => None
-        })
+        modelBuildId = entity.id,
+        modelId = entity.model.id,
+        startedTimestamp = entity.started,
+        finishedTimestamp = entity.finished,
+        status = entity.status.toString,
+        statusText = entity.statusText,
+        logsUrl = entity.logsUrl,
+        runtimeId = entity.modelRuntime.map(_.id),
+        runtimeTypeId = entity.runtimeType.map(_.id),
+        modelVersion = entity.modelVersion
+      )
     ).map(s => mapFromDb(s, Some(entity.model), entity.modelRuntime, entity.runtimeType))
 
   override def get(id: Long): Future[Option[ModelBuild]] =
@@ -157,7 +156,7 @@ object ModelBuildRepositoryImpl {
   def mapFromDb(modelBuild: Tables.ModelBuild#TableElementType, model: Option[Model], modelRuntime: Option[ModelRuntime], runtimeType: Option[RuntimeType]): ModelBuild = {
     ModelBuild(
       id = modelBuild.modelBuildId,
-      model = model.getOrElse(throw new RuntimeException()),
+      model = model.get,
       started = modelBuild.startedTimestamp,
       finished = modelBuild.finishedTimestamp,
       status = ModelBuildStatus.withName(modelBuild.status),

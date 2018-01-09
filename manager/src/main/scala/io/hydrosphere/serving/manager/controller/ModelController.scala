@@ -160,7 +160,7 @@ class ModelController(modelManagementService: ModelManagementService) extends Ma
     }
   }
 
-  @Path("/generate/{modelName}")
+  @Path("/generate/{modelName}/{signature}")
   @ApiOperation(value = "Generate payload for model", notes = "Generate payload for model", nickname = "Generate payload for model", httpMethod = "GET")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "modelName", required = true, dataType = "string", paramType = "path", value = "modelName"),
@@ -172,9 +172,9 @@ class ModelController(modelManagementService: ModelManagementService) extends Ma
   ))
   def generatePayloadByModelNameService = path("api" / "v1" / "model" / "generate" / Segment / Segment) { (modelName, signature) =>
     get {
-      complete(
+      complete {
         modelManagementService.generateModelPayload(modelName, signature)
-      )
+      }
     }
   }
 

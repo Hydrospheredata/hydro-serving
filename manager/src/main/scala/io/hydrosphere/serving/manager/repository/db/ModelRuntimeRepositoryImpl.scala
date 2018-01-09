@@ -86,7 +86,7 @@ class ModelRuntimeRepositoryImpl(
         .result
     ).map(s => mapFromDb(s))
 
-  override def modelRuntimeByModelAndVersion(modelId: Long, version: String): Future[Option[ModelRuntime]] =
+  override def modelRuntimeByModelAndVersion(modelId: Long, version: Long): Future[Option[ModelRuntime]] =
     db.run(
       Tables.ModelRuntime
         .filter(r => r.modelId === modelId && r.modelversion === version)

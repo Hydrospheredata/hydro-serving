@@ -22,7 +22,7 @@ import scala.reflect.runtime.{universe => ru}
 /**
   *
   */
-class ManagerApi(managerServices: ManagerServices)
+class ManagerHttpApi(managerServices: ManagerServices)
   (implicit val system: ActorSystem, implicit val ex: ExecutionContext) extends Logging {
 
   val commonController = new CommonController

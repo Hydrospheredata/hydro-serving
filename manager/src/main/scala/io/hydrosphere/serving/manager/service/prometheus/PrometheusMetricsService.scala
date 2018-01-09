@@ -12,7 +12,7 @@ import scala.concurrent.{ExecutionContext, Future}
 case class ServiceTargetLabels(
   job: String,
   modelName: String,
-  modelVersion: String,
+  modelVersion: Long,
   serviceId: String,
   instanceId: String,
   serviceName: String
