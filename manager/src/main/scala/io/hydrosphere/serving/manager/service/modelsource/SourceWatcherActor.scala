@@ -1,22 +1,20 @@
-package io.hydrosphere.serving.manager.actor.modelsource
+package io.hydrosphere.serving.manager.service.modelsource
 
-import java.time.{Instant, LocalDateTime}
+import java.time.Instant
 
 import akka.actor.{Actor, ActorLogging, Props}
 import akka.util.Timeout
 import com.google.common.hash.Hashing
-import io.hydrosphere.serving.manager.actor.{FileDetected, FileEvent}
-import io.hydrosphere.serving.manager.actor.modelsource.SourceWatcher._
-import io.hydrosphere.serving.manager.service.modelsource.s3.S3ModelSource
-import io.hydrosphere.serving.manager.service.modelsource.ModelSource
-import io.hydrosphere.serving.manager.service.modelsource.local.LocalModelSource
+import io.hydrosphere.serving.manager.service.modelsource.SourceWatcherActor.Tick
+import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceWatcherActor}
+import io.hydrosphere.serving.manager.service.modelsource.s3.{S3ModelSource, S3SourceWatcherActor}
 
 import scala.concurrent.duration._
 
 /**
   * Created by Bulat on 31.05.2017.
   */
-trait SourceWatcher extends Actor with ActorLogging {
+trait SourceWatcherActor extends Actor with ActorLogging {
   import context._
   implicit private val timeout = Timeout(30.seconds)
   private val timer = context.system.scheduler.schedule(0.seconds, 500.millis, self, Tick)
@@ -66,15 +64,15 @@ trait SourceWatcher extends Actor with ActorLogging {
   }
 }
 
-object SourceWatcher {
+object SourceWatcherActor {
   case object Tick
 
   def props(modelSource: ModelSource): Props = {
     modelSource match {
       case x: LocalModelSource =>
-        LocalSourceWatcher.props(x)
+        LocalSourceWatcherActor.props(x)
       case x: S3ModelSource =>
-        S3SourceWatcher.props(x)
+        S3SourceWatcherActor.props(x)
     }
   }
 }

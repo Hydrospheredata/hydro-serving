@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.service
+package io.hydrosphere.serving.manager.service.ui
 
 import java.util.UUID
 
@@ -6,14 +6,12 @@ import akka.actor.ActorSystem
 import akka.http.scaladsl.model.HttpHeader
 import akka.pattern.ask
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.connector._
-import io.hydrosphere.serving.manager.actor.ContainerWatcher
-import io.hydrosphere.serving.manager.actor.ContainerWatcher.{Started, WatchForStart, WatchForStop}
 import io.hydrosphere.serving.manager.connector.ExecutionResult
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.repository.{ModelBuildRepository, ModelRepository, ModelRuntimeRepository, ModelServiceRepository}
-import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.ContractOps.SignatureDescription
+import io.hydrosphere.serving.manager.repository.{ModelBuildRepository, ModelRepository, ModelRuntimeRepository, ModelServiceRepository}
+import io.hydrosphere.serving.manager.service._
+import io.hydrosphere.serving.manager.service.ui.ContainerWatcherActor.{Started, WatchForStart, WatchForStop}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -117,7 +115,7 @@ class UIManagementServiceImpl(
   servingManagementService: ServingManagementService,
   modelManagementService: ModelManagementService
 )(implicit val ex: ExecutionContext, val actorSystem: ActorSystem, val timeout: Timeout) extends UIManagementService with Logging {
-  private val containerWatcher = actorSystem.actorOf(ContainerWatcher.props)
+  private val containerWatcher = actorSystem.actorOf(ContainerWatcherActor.props)
 
   //TODO Optimize implementation
   override def allModelsWithLastStatus(): Future[Seq[ModelInfo]] =

@@ -1,8 +1,6 @@
-package io.hydrosphere.serving.manager.actor
+package io.hydrosphere.serving.manager.service.modelsource
 
 import java.time.{Instant, LocalDateTime}
-
-import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 
 abstract class FileEvent(val source: ModelSource, val filename: String, val timestamp: Instant)
 

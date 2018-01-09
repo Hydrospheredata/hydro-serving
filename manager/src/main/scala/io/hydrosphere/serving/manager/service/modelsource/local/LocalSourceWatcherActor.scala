@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.actor.modelsource
+package io.hydrosphere.serving.manager.service.modelsource.local
 
 import java.io.File
 import java.nio.file.StandardWatchEventKinds._
@@ -8,8 +8,7 @@ import java.time.{Instant, LocalDateTime, ZoneId}
 
 import akka.actor.Props
 import com.google.common.hash.Hashing
-import io.hydrosphere.serving.manager.actor.{FileCreated, FileDeleted, FileEvent, FileModified}
-import io.hydrosphere.serving.manager.service.modelsource.local.LocalModelSource
+import io.hydrosphere.serving.manager.service.modelsource._
 import io.hydrosphere.serving.manager.util.FileUtils._
 
 import scala.collection.JavaConverters._
@@ -19,7 +18,7 @@ import scala.collection.mutable
 /**
   * Created by Bulat on 31.05.2017.
   */
-class LocalSourceWatcher(val source: LocalModelSource) extends SourceWatcher {
+class LocalSourceWatcherActor(val source: LocalModelSource) extends SourceWatcherActor {
   private[this] val watcher = FileSystems.getDefault.newWatchService()
   private[this] val keys = mutable.Map.empty[WatchKey, Path]
 
@@ -119,7 +118,7 @@ class LocalSourceWatcher(val source: LocalModelSource) extends SourceWatcher {
   }
 }
 
-object LocalSourceWatcher{
+object LocalSourceWatcherActor{
   def props(source: LocalModelSource)=
-    Props(classOf[LocalSourceWatcher], source)
+    Props(classOf[LocalSourceWatcherActor], source)
 }

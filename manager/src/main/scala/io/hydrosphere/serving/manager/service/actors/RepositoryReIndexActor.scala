@@ -1,16 +1,16 @@
-package io.hydrosphere.serving.manager.actor
+package io.hydrosphere.serving.manager.service.actors
 
 import java.time.{Instant, Duration => JDuration}
 
-import akka.actor.{Actor, ActorLogging, Props}
+import akka.actor.Props
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.actor.modelsource.SourceWatcher._
 import io.hydrosphere.serving.manager.service.ModelManagementService
+import io.hydrosphere.serving.manager.service.modelsource.FileEvent
 
 import scala.collection.concurrent.TrieMap
 import scala.concurrent.duration._
 
-class RepositoryActor(val modelManagementService: ModelManagementService)
+class RepositoryReIndexActor(val modelManagementService: ModelManagementService)
   extends SelfScheduledActor(0.seconds, 100.millis)(Timeout(30.seconds)) {
   import context._
   context.system.eventStream.subscribe(self, classOf[FileEvent])
@@ -44,6 +44,6 @@ class RepositoryActor(val modelManagementService: ModelManagementService)
 
 }
 
-object RepositoryActor {
-  def props(modelManagementService: ModelManagementService) = Props(classOf[RepositoryActor], modelManagementService)
+object RepositoryReIndexActor {
+  def props(modelManagementService: ModelManagementService) = Props(classOf[RepositoryReIndexActor], modelManagementService)
 }

@@ -5,11 +5,10 @@ import java.nio.file.Path
 import akka.actor.{ActorRef, ActorSystem}
 import akka.pattern._
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.actor.WatcherRegistryActor
-import io.hydrosphere.serving.manager.actor.WatcherRegistryActor.AddWatcher
 import io.hydrosphere.serving.manager.model.{LocalSourceParams, ModelSourceConfigAux, S3SourceParams, SourceParams}
 import io.hydrosphere.serving.manager.repository.SourceConfigRepository
-import io.hydrosphere.serving.manager.service.modelsource.ModelSource
+import io.hydrosphere.serving.manager.service.modelsource.WatcherRegistryActor.AddWatcher
+import io.hydrosphere.serving.manager.service.modelsource.{ModelSource, WatcherRegistryActor}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}

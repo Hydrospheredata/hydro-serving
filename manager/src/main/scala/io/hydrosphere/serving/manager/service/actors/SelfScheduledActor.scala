@@ -1,8 +1,8 @@
-package io.hydrosphere.serving.manager.actor
+package io.hydrosphere.serving.manager.service.actors
 
 import akka.actor.{Actor, ActorLogging}
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.actor.SelfScheduledActor.Tick
+import io.hydrosphere.serving.manager.service.actors.SelfScheduledActor.Tick
 
 import scala.concurrent.duration._
 

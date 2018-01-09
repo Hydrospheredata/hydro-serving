@@ -26,7 +26,6 @@ object ManagerBoot extends App with Logging {
     val managerRepositories = new ManagerRepositoriesConfig(configuration)
     val managerServices = new ManagerServices(managerRepositories, configuration)
     val managerApi = new ManagerApi(managerServices, configuration)
-    val managerActors = new ManagerActors(managerServices, configuration)
     val managerGRPC = new ManagerGRPC(managerServices, configuration)
 
     sys addShutdownHook {

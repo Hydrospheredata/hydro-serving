@@ -1,20 +1,19 @@
-package io.hydrosphere.serving.manager.actor.modelsource
+package io.hydrosphere.serving.manager.service.modelsource.s3
 
 import java.time.{Instant, LocalDateTime, ZoneId}
 
 import akka.actor.Props
 import com.google.common.hash.Hashing
-import io.hydrosphere.serving.manager.actor.{FileCreated, FileDeleted, FileEvent}
-import io.hydrosphere.serving.manager.actor.modelsource.S3SourceWatcher.SQSMessage
 import io.hydrosphere.serving.manager.controller.CommonJsonSupport
-import io.hydrosphere.serving.manager.service.modelsource.s3.S3ModelSource
+import io.hydrosphere.serving.manager.service.modelsource.s3.S3SourceWatcherActor.SQSMessage
+import io.hydrosphere.serving.manager.service.modelsource.{FileCreated, FileDeleted, FileEvent, SourceWatcherActor}
 
 import scala.collection.JavaConversions._
 
 /**
   * Created by bulat on 04.07.17.
   */
-class S3SourceWatcher(val source: S3ModelSource) extends SourceWatcher {
+class S3SourceWatcherActor(val source: S3ModelSource) extends SourceWatcherActor {
   private val sourceDef = source.sourceDef
   override def onWatcherTick(): List[FileEvent] = {
     val messages = sourceDef
@@ -72,7 +71,7 @@ class S3SourceWatcher(val source: S3ModelSource) extends SourceWatcher {
   }
 }
 
-object S3SourceWatcher{
+object S3SourceWatcherActor{
   case class SQSMessage(bucket: String, objKey: String, eventName: String, eventTime: LocalDateTime)
 
   object SQSMessage extends CommonJsonSupport {
@@ -103,5 +102,5 @@ object S3SourceWatcher{
   }
 
   def props(source: S3ModelSource)=
-    Props(classOf[S3SourceWatcher], source)
+    Props(classOf[S3SourceWatcherActor], source)
 }

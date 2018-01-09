@@ -1,9 +1,7 @@
-package io.hydrosphere.serving.manager.actor
+package io.hydrosphere.serving.manager.service.modelsource
 
 import akka.actor.{Actor, ActorLogging, ActorRef, Props}
-import io.hydrosphere.serving.manager.actor.WatcherRegistryActor.{AddWatcher, ListWatchers}
-import io.hydrosphere.serving.manager.actor.modelsource.SourceWatcher
-import io.hydrosphere.serving.manager.service.modelsource.ModelSource
+import io.hydrosphere.serving.manager.service.modelsource.WatcherRegistryActor.{AddWatcher, ListWatchers}
 
 import scala.collection.concurrent.TrieMap
 
@@ -18,7 +16,7 @@ class WatcherRegistryActor extends Actor with ActorLogging {
       val origin = sender()
       val watcherRef = watchers.getOrElseUpdate(
         source.sourceDef.prefix,
-        context.actorOf(SourceWatcher.props(source), s"Watcher@${source.sourceDef.prefix}")
+        context.actorOf(SourceWatcherActor.props(source), s"Watcher@${source.sourceDef.prefix}")
       )
       origin ! watcherRef
   }

@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager.controller.ui
 
 import io.hydrosphere.serving.manager.controller.ManagerJsonSupport
 import io.hydrosphere.serving.manager.service._
+import io.hydrosphere.serving.manager.service.ui._
 
 /**
   *

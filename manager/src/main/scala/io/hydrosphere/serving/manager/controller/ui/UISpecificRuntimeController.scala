@@ -4,7 +4,7 @@ import javax.ws.rs.Path
 
 import akka.http.scaladsl.server.Directives.{complete, get, path, _}
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.service.{UIRuntimeInfo, UIManagementService}
+import io.hydrosphere.serving.manager.service.ui.{UIManagementService, UIRuntimeInfo}
 import io.swagger.annotations._
 
 import scala.concurrent.duration._

@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager
 
 import java.time.{Instant, LocalDateTime, ZoneId}
 
-import io.hydrosphere.serving.manager.actor.modelsource.S3SourceWatcher.SQSMessage
+import io.hydrosphere.serving.manager.service.modelsource.s3.S3SourceWatcherActor.SQSMessage
 import org.scalatest.WordSpec
 
 class SQSMessageSpec extends WordSpec {
