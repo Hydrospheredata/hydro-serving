@@ -7,7 +7,7 @@ import io.hydrosphere.serving.manager.service._
   *
   */
 trait UIJsonSupport extends ManagerJsonSupport {
-  implicit val modelInfoFormat = jsonFormat6(ModelInfo)
+  implicit val modelInfoFormat = jsonFormat5(ModelInfo)
 
   implicit val kafkaStreamingParamsFormat = jsonFormat4(KafkaStreamingParams)
   implicit val serviceWeightDetailsFormat = jsonFormat2(ServiceWeightDetails)
