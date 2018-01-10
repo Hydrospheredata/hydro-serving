@@ -93,7 +93,7 @@ class ModelRuntimeController (modelManagementService: ModelManagementService) ex
     }
   }
 
-  @Path("/generateInputs/{runtimeId}")
+  @Path("/generateInputs/{runtimeId}/{signatureName}")
   @ApiOperation(value = "Generate payload for model runtime", notes = "Generate payload for model runtime", nickname = "Generate payload for model runtime", httpMethod = "GET")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "runtimeId", required = true, dataType = "string", paramType = "path", value = "runtimeId")
@@ -102,11 +102,10 @@ class ModelRuntimeController (modelManagementService: ModelManagementService) ex
     new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def generateInputsForRuntime = path("api" / "v1" / "modelRuntime" / "generateInputs" / LongNumber) { runtimeId =>
+  def generateInputsForRuntime = path("api" / "v1" / "modelRuntime" / "generateInputs" / LongNumber / Segment) { (runtimeId, signature) =>
     get {
       complete(
-        ???
-        //modelManagementService.generateInputsForRuntime(runtimeId)
+        modelManagementService.generateInputsForRuntime(runtimeId, signature)
       )
     }
   }
