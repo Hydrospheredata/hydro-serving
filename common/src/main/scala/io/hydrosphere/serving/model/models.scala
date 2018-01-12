@@ -29,7 +29,9 @@ case class ModelRuntime(
   modelId: Option[Long],
   configParams: Map[String, String],
   tags: List[String]
-)
+) {
+  def toImageDef: String = s"$imageName:$imageTag"
+}
 
 case class ServingEnvironment(
   id: Long,
