@@ -19,7 +19,8 @@ services:
     ports:
       - "8080:8080"
       - "8082:8082"
-      - "9090:9090"
+      - "9090:9090" # HTTP API
+      - "9091:9091" # GRPC API
     depends_on:
       - postgres
       - zipkin
@@ -32,4 +33,4 @@ services:
       ZIPKIN_ENABLED: "true"
       ZIPKIN_HOST: "zipkin"
       LOCAL_MODEL_PATH: "/models"
-      DOCKER_NETWORK_NAME: "hydroserving_default"
+      NETWORK_NAME: "hydroserving_default"
