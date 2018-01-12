@@ -65,8 +65,8 @@ class EcsRuntimeDeployService(
     )
 
     val containerDefinition = new ContainerDefinition()
-      .withName(formatServiceName(s"${runtime.serviceName}"))
-      .withImage(s"${runtime.modelRuntime.imageName}:${runtime.modelRuntime.imageTag}")
+      .withName(formatServiceName(runtime.serviceName))
+      .withImage(runtime.modelRuntime.toImageDef)
       .withMemoryReservation(500)
       .withEnvironment(env)
       .withDockerLabels(labels)
@@ -84,7 +84,7 @@ class EcsRuntimeDeployService(
     })
 
     val registerTaskDefinition = new RegisterTaskDefinitionRequest()
-      .withFamily(formatServiceName(s"${runtime.serviceName}"))
+      .withFamily(formatServiceName(runtime.serviceName))
       .withNetworkMode(NetworkMode.Bridge)
       .withContainerDefinitions(
         containerDefinition
