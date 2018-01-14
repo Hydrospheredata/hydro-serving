@@ -17,7 +17,7 @@ class ManagerGRPC
   implicit val ex: ExecutionContext //TODO change to thread pool
 ) {
 
-  val aggregatedDiscoveryServiceGrpc=new AggregatedDiscoveryServiceGrpcImpl
+  val aggregatedDiscoveryServiceGrpc = new AggregatedDiscoveryServiceGrpcImpl(managerServices.envoyDiscoveryService)
 
   val server = ServerBuilder.forPort(managerConfiguration.application.grpcPort)
     .addService(AggregatedDiscoveryServiceGrpc.bindService(aggregatedDiscoveryServiceGrpc, ex))
