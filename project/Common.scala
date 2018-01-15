@@ -3,7 +3,7 @@ import Keys._
 
 object Common {
 
-  val scalaCommonVersion= "2.11.11"
+  val scalaCommonVersion= "2.12.4"
 
   val settings: Seq[Def.Setting[_]] = Seq(
     scalaVersion := scalaCommonVersion,

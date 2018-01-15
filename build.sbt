@@ -1,13 +1,16 @@
+import sbt.Keys._
+
 name := "hydro-serving"
 
 updateOptions := updateOptions.value.withCachedResolution(true)
 
 scalaVersion := Common.scalaCommonVersion
 
-lazy val currentAppVersion = util.Properties.propOrElse("appVersion", "0.0.1")
+lazy val appVersion = settingKey[String]("Manager version")
+appVersion := {appVersion ?? "0.0.1"}.value
 
 lazy val currentSettings: Seq[Def.Setting[_]] = Seq(
-  version := currentAppVersion,
+  version := sys.props.getOrElse("appVersion", "0.1.0"),
 
   parallelExecution in Test := false,
   parallelExecution in IntegrationTest := false,
@@ -40,7 +43,7 @@ lazy val common = project.in(file("common"))
   .settings(libraryDependencies ++= Dependencies.commonDependencies)
   .settings(
     libraryDependencies ++= Seq(
-      "io.hydrosphere" %% "serving-grpc-scala" % "0.0.8",
+      "io.hydrosphere" %% "serving-grpc-scala" % "0.0.10",
       "org.mockito" % "mockito-all" % "1.10.19" % "test",
       "org.scalactic" %% "scalactic" % Dependencies.scalaTestVersion % "test",
       "org.scalatest" %% "scalatest" % Dependencies.scalaTestVersion % "test"

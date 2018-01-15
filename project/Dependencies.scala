@@ -4,7 +4,7 @@ object Dependencies {
   val akkaVersion = "2.5.3"
   val akkaHttpVersion = "10.0.9"
   val hadoopVersion = "2.8.0"
-  val log4j2Version = "2.8.2"
+  val log4j2Version = "2.10.0"
   val slickVersion = "3.2.1"
   val postgresqlVersion = "42.1.3"
   val scalaTestVersion = "3.0.3"
@@ -28,7 +28,7 @@ object Dependencies {
     "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
     //"com.typesafe.akka" %% "akka-http-jackson" % akkaHttpVersion,
     "com.typesafe.akka" %% "akka-http-xml" % akkaHttpVersion,
-    "com.github.swagger-akka-http" %% "swagger-akka-http" % "0.9.2" exclude("javax.ws.rs", "jsr311-api"),
+    "com.github.swagger-akka-http" %% "swagger-akka-http" % "0.11.0" exclude("javax.ws.rs", "jsr311-api"),
     "ch.megard" %% "akka-http-cors" % "0.2.1"
   )
 
@@ -48,7 +48,7 @@ object Dependencies {
     "org.apache.logging.log4j" % "log4j-api" % log4j2Version,
     "org.apache.logging.log4j" % "log4j-core" % log4j2Version,
     "org.apache.logging.log4j" % "log4j-slf4j-impl" % log4j2Version,
-    "org.apache.logging.log4j" %% "log4j-api-scala" % log4j2Version
+    "org.apache.logging.log4j" %% "log4j-api-scala" % "11.0"
   )
 
   lazy val commonDependencies = akkaDependencies
