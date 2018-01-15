@@ -52,7 +52,7 @@ class DataGeneratorSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           List(
-            ModelContractBuilders.createDictModelField("in1",
+            ModelContractBuilders.flatDictField("in1",
               Map(
                 "a" -> ModelContractBuilders.createTensorInfo("a", DataType.DT_STRING, None),
                 "b" -> ModelContractBuilders.createTensorInfo("b", DataType.DT_STRING, None)

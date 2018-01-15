@@ -185,7 +185,7 @@ class ContractOpsSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           List(
-            ModelContractBuilders.createDictModelField(
+            ModelContractBuilders.flatDictField(
               "in",
               Map(
                 "a" -> ModelContractBuilders.createTensorInfo("in1", DataType.DT_STRING, None),
@@ -194,7 +194,7 @@ class ContractOpsSpecs extends WordSpec {
             )
           ),
           List(
-            ModelContractBuilders.createDictModelField(
+            ModelContractBuilders.flatDictField(
               "out",
               Map(
                 "x" -> ModelContractBuilders.createTensorInfo("out1", DataType.DT_DOUBLE, Some(List(-1))),
@@ -238,6 +238,70 @@ class ContractOpsSpecs extends WordSpec {
         )
 
         assert(contract.flatten === expected)
+      }
+    }
+
+    "unflatten" when {
+      "non-nested contract" in {
+        val sig1 = ModelSignature(
+          "sig1",
+          List(
+            ModelContractBuilders.createTensorModelField("in1", DataType.DT_STRING, None)
+          ),
+          List(
+            ModelContractBuilders.createTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+          )
+        )
+
+        val flatSignature = SignatureDescription(
+          "sig1",
+          inputs = List(
+            FieldDescription("/in1", DataType.DT_STRING, None)
+          ),
+          outputs = List(
+            FieldDescription("/out1", DataType.DT_DOUBLE, Some(List(-1)))
+          )
+        )
+
+        assert(ContractOps.SignatureDescription.toSignature(flatSignature) === sig1)
+      }
+      "contract is nested" in {
+        val signature = ModelSignature(
+          "sig1",
+          List(
+            ModelContractBuilders.flatDictField(
+              "in",
+              Map(
+                "a" -> ModelContractBuilders.createTensorInfo("in1", DataType.DT_STRING, None),
+                "b" -> ModelContractBuilders.createTensorInfo("in2", DataType.DT_INT32, None)
+              )
+            )
+          ),
+          List(
+            ModelContractBuilders.flatDictField(
+              "out",
+              Map(
+                "x" -> ModelContractBuilders.createTensorInfo("out1", DataType.DT_DOUBLE, Some(List(-1))),
+                "y" -> ModelContractBuilders.createTensorInfo("out2", DataType.DT_INT32, None)
+              )
+            )
+          )
+        )
+
+        val signatureDescription = SignatureDescription(
+            "sig1",
+            inputs = List(
+              FieldDescription("/in/a/in1", DataType.DT_STRING, None),
+              FieldDescription("/in/b/in2", DataType.DT_INT32, None)
+            ),
+            outputs = List(
+              FieldDescription("/out/x/out1", DataType.DT_DOUBLE, Some(List(-1))),
+              FieldDescription("/out/y/out2", DataType.DT_INT32, None)
+            )
+          )
+
+
+        assert(ContractOps.SignatureDescription.toSignature(signatureDescription) === signature)
       }
     }
 

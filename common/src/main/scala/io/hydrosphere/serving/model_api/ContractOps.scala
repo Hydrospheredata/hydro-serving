@@ -12,13 +12,107 @@ import io.hydrosphere.serving.tensorflow.types.DataType._
 import spray.json.{JsArray, JsBoolean, JsNumber, JsObject, JsString, JsValue}
 
 import scala.annotation.tailrec
+import scala.collection.mutable
 
 
 object ContractOps {
 
-  case class SignatureDescription(signatureName: String, inputs: List[FieldDescription], outputs: List[FieldDescription])
+  case class SignatureDescription(
+    signatureName: String,
+    inputs: List[FieldDescription],
+    outputs: List[FieldDescription]
+  )
 
-  case class FieldDescription(fieldName: String, dataType: DataType, shape: Option[List[Long]])
+  object SignatureDescription {
+    class Converter() {
+      sealed trait ANode {
+        def toInfoOrDict: ModelField.InfoOrDict
+      }
+
+      case class FTensor(tensorInfo: TensorInfo) extends ANode {
+        override def toInfoOrDict: ModelField.InfoOrDict = {
+          ModelField.InfoOrDict.Info(tensorInfo)
+        }
+      }
+
+      case class FMap(data: mutable.Map[String, ANode] = mutable.Map.empty) extends ANode {
+        def getOrUpdate(segment: String, map: FMap): ANode = {
+          data.getOrElseUpdate(segment, map)
+        }
+
+        def +=(kv: (String, ANode)): data.type = kv match {
+          case (name, node) => data += name -> node
+        }
+
+        override def toInfoOrDict: ModelField.InfoOrDict = {
+          ModelField.InfoOrDict.Dict(
+            ModelField.Dict(
+              data.toMap.map {
+                case (name, node) =>
+                  name -> ModelField(name, node.toInfoOrDict)
+              }
+            )
+          )
+        }
+      }
+
+      private val tree = mutable.Map.empty[String, ANode]
+
+      /**
+        * Mutates tree to represent contract field in tree-like structure.
+        * Inner state is contained in `tree` variable.
+        * @param field flattened field description
+        */
+      def acceptField(field: FieldDescription): Unit = {
+          field.fieldName.split("/").drop(1).toList match {
+          case (tensorName :: Nil) =>
+            tree += tensorName -> FTensor(
+              ModelContractBuilders.createTensorInfo(tensorName, field.dataType, field.shape)
+            )
+          case (root :: segments) =>
+            var last = tree.getOrElseUpdate(root, FMap()).asInstanceOf[FMap] // Assume that this is map. Otherwise contract is invalid.
+
+            segments.init.foreach{ segment =>
+              val segField = last.getOrUpdate(segment, FMap()).asInstanceOf[FMap]
+              last += segment -> segField
+              last = segField
+            }
+
+            val lastName = segments.last
+            last += lastName -> FTensor(
+              ModelContractBuilders.createTensorInfo(lastName, field.dataType, field.shape)
+            )
+        }
+      }
+
+      def result: Seq[ModelField] = {
+        tree.map{
+          case (name, node) =>
+            ModelField(name, node.toInfoOrDict)
+        }.toSeq
+      }
+    }
+
+    def toSignature(signatureDescription: SignatureDescription): ModelSignature = {
+      ModelSignature(
+        signatureName = signatureDescription.signatureName,
+        inputs = SignatureDescription.toFields(signatureDescription.inputs),
+        outputs = SignatureDescription.toFields(signatureDescription.outputs)
+      )
+    }
+
+    def toFields(fields: Seq[FieldDescription]): Seq[ModelField] = {
+      val converter = new Converter()
+      fields.foreach(converter.acceptField)
+      converter.result
+    }
+  }
+
+  case class FieldDescription(
+    fieldName: String,
+    dataType: DataType,
+    shape: Option[List[Long]]
+  )
 
   object Implicits {
 
@@ -32,6 +126,41 @@ object ContractOps {
       def +++(other: ModelSignature): ModelSignature = {
         ModelSignatureOps.merge(modelSignature, other)
       }
+    }
+
+    implicit class ModelFieldPumped(modelField: ModelField) {
+      def insert(name: String, fieldInfo: ModelField): Option[ModelField] = {
+        modelField.infoOrDict match {
+          case Dict(value) =>
+            value.data.get(name) match {
+              case Some(_) =>
+                None
+              case None =>
+                val newData = value.data ++ Map(name -> fieldInfo)
+                Some(ModelContractBuilders.dictField(modelField.fieldName, newData))
+            }
+          case _ => None
+        }
+      }
+
+      def child(name: String): Option[ModelField] = {
+        modelField.infoOrDict match {
+          case Dict(value) =>
+            value.data.get(name)
+          case _ => None
+        }
+      }
+
+      def search(name: String): Option[ModelField] = {
+        modelField.infoOrDict match {
+          case Dict(value) =>
+            value.data.get(name).orElse {
+              value.data.values.flatMap(_.search(name)).headOption
+            }
+          case _ => None
+        }
+      }
+
     }
 
     implicit class TensorShapeProtoPumped(tensorShapeProto: TensorShapeProto) {
@@ -238,7 +367,7 @@ object ContractOps {
 
   object TensorShapeProtoOps {
     def merge(first: TensorShapeProto, second: TensorShapeProto): Option[TensorShapeProto] = {
-      if (first.dim.length != second.dim.length) {
+      if (first.dim.lengthCompare(second.dim.length) != 0) {
         None
       } else {
         val dims = first.dim.zip(second.dim).map {

@@ -24,7 +24,18 @@ object ModelContractBuilders {
     TensorInfo(name, dataType, shape.map(createTensorShape))
   }
 
-  def createDictModelField(name: String, map: Map[String, TensorInfo]): ModelField = {
+  def dictField(name: String, map: Map[String, ModelField]): ModelField = {
+    ModelField(
+      name,
+      ModelField.InfoOrDict.Dict(
+        ModelField.Dict(
+          map
+        )
+      )
+    )
+  }
+
+  def flatDictField(name: String, map: Map[String, TensorInfo]): ModelField = {
     ModelField(
       name,
       ModelField.InfoOrDict.Dict(
