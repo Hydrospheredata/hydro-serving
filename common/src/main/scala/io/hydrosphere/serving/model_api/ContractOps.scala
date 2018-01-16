@@ -17,11 +17,28 @@ import scala.collection.mutable
 
 object ContractOps {
 
+  case class ContractDescription(
+    signatures: List[SignatureDescription]
+  ) {
+    def toContract: ModelContract = ContractDescription.toContract(this)
+  }
+
+  object ContractDescription {
+    def toContract(contractDescription: ContractDescription): ModelContract = {
+      ModelContract(
+        modelName = "",
+        signatures = contractDescription.signatures.map(SignatureDescription.toSignature)
+      )
+    }
+  }
+
   case class SignatureDescription(
     signatureName: String,
     inputs: List[FieldDescription],
     outputs: List[FieldDescription]
-  )
+  ) {
+    def toSignature: ModelSignature = SignatureDescription.toSignature(this)
+  }
 
   object SignatureDescription {
     class Converter() {

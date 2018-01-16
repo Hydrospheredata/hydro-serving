@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.tensorflow.types.DataType
-import io.hydrosphere.serving.model_api.ContractOps.{FieldDescription, SignatureDescription}
+import io.hydrosphere.serving.model_api.ContractOps.{ContractDescription, FieldDescription, SignatureDescription}
 import io.hydrosphere.serving.model_api.ModelType
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
@@ -102,6 +102,7 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
 
   implicit val fieldDescFormat = jsonFormat3(FieldDescription.apply)
   implicit val sigDescFormat = jsonFormat3(SignatureDescription.apply)
+  implicit val contractDescFormat = jsonFormat1(ContractDescription.apply)
 
   implicit val runtimeTypeFormat = jsonFormat6(RuntimeType)
   implicit val modelRuntimeFormat = jsonFormat13(ModelRuntime)

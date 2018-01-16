@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager.service
 
 import java.time.LocalDateTime
 
+import akka.http.scaladsl.marshalling.ToResponseMarshallable
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
@@ -111,6 +112,11 @@ case class UpdateModelRuntime(
 
 //TODO split service
 trait ModelManagementService {
+  def submitBinaryContract(modelId: Long, bytes: Array[Byte]): Future[Option[Model]]
+
+  def submitFlatContract(modelId: Long, contractDescription: ContractOps.ContractDescription): Future[Option[Model]]
+
+  def submitContract(modelId: Long, prototext: String): Future[Option[Model]]
 
   def createRuntimeType(entity: CreateRuntimeTypeRequest): Future[RuntimeType]
 
@@ -485,5 +491,36 @@ class ModelManagementServiceImpl(
       val res = DataGenerator.forContract(runtime.modelContract, signature).get.generateInputs
       Seq(ContractOps.TensorProtoOps.jsonify(res))
     })
+  }
+
+  override def submitContract(modelId: Long, prototext: String): Future[Option[Model]] = {
+    ModelContract.validateAscii(prototext) match {
+      case Left(a) => Future.failed(new IllegalArgumentException(a.msg))
+      case Right(b) => updateModelContract(modelId, b)
+    }
+  }
+
+  override def submitFlatContract(
+    modelId: Long,
+    contractDescription: ContractOps.ContractDescription
+  ): Future[Option[Model]] = {
+    val contract = contractDescription.toContract // TODO Error handling
+    updateModelContract(modelId, contract)
+  }
+
+  override def submitBinaryContract(modelId: Long, bytes: Array[Byte]): Future[Option[Model]] = {
+    ModelContract.validate(bytes) match {
+      case Failure(exception) => Future.failed(exception)
+      case Success(value) => updateModelContract(modelId, value)
+    }
+  }
+
+  private def updateModelContract(modelId: Long, modelContract: ModelContract): Future[Option[Model]] = {
+    modelRepository.get(modelId).flatMap {
+      case Some(model) =>
+        val newModel = model.copy(modelContract = modelContract) // TODO contract validation (?)
+        modelRepository.update(newModel).map { _ => Some(newModel) }
+      case None => Future.successful(None)
+    }
   }
 }
