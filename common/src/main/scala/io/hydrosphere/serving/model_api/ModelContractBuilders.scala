@@ -20,35 +20,22 @@ object ModelContractBuilders {
     )
   }
 
-  def createTensorInfo(name: String, dataType: DataType, shape: Option[Seq[Long]]): TensorInfo = {
-    TensorInfo(name, dataType, shape.map(createTensorShape))
+  def createTensorInfo(dataType: DataType, shape: Option[Seq[Long]]): TensorInfo = {
+    TensorInfo(dataType, shape.map(createTensorShape))
   }
 
-  def dictField(name: String, map: Map[String, ModelField]): ModelField = {
+  def complexField(name: String, subFields: Seq[ModelField]): ModelField = {
     ModelField(
       name,
-      ModelField.InfoOrDict.Dict(
-        ModelField.Dict(
-          map
-        )
-      )
-    )
-  }
-
-  def flatDictField(name: String, map: Map[String, TensorInfo]): ModelField = {
-    ModelField(
-      name,
-      ModelField.InfoOrDict.Dict(
-        ModelField.Dict(
-          map.map{
-            case (key, value) =>  key -> createTensorModelField(value.name, value.dtype, value.tensorShape.map(_.toDimList))
-          }
+      ModelField.InfoOrSubfields.Subfields(
+        ModelField.ComplexField(
+          subFields
         )
       )
     )
   }
 
   def createTensorModelField(name: String, dataType: DataType, shape: Option[Seq[Long]]): ModelField = {
-    ModelField(name, ModelField.InfoOrDict.Info(createTensorInfo(name, dataType, shape)))
+    ModelField(name, ModelField.InfoOrSubfields.Info(createTensorInfo(dataType, shape)))
   }
 }

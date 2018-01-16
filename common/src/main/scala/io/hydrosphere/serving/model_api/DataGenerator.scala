@@ -1,7 +1,6 @@
 package io.hydrosphere.serving.model_api
 
 import io.hydrosphere.serving.contract.model_field.ModelField
-import io.hydrosphere.serving.contract.model_field.ModelField.InfoOrDict.{Dict, Empty, Info}
 import io.hydrosphere.serving.tensorflow.tensor.TensorProto
 import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
 import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
@@ -9,6 +8,7 @@ import io.hydrosphere.serving.tensorflow.types.DataType
 import DataType._
 import com.google.protobuf.ByteString
 import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.contract.model_field.ModelField.InfoOrSubfields.{Empty, Info, Subfields}
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 
 
@@ -87,16 +87,13 @@ object DataGenerator {
   }
 
   def generateField(field: ModelField): Map[String, TensorProto] = {
-    val tensor = field.infoOrDict match {
+    val tensor = field.infoOrSubfields match {
       case Empty => TensorProto()
       case Info(value) => generateTensor(value)
-      case Dict(value) =>
+      case Subfields(value) =>
         val tensor = TensorProto(dtype = DataType.DT_MAP)
         tensor.withMapVal(
-          value.data.flatMap {
-            case (_, subField) =>
-              generateField(subField)
-          }
+          value.data.flatMap(generateField).toMap
         )
     }
     Map(field.fieldName -> tensor)

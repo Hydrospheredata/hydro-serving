@@ -2,7 +2,7 @@ package io.hydrosphere.serving.model_api
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
-import io.hydrosphere.serving.contract.model_field.ModelField.InfoOrDict.{Dict, Empty, Info}
+import io.hydrosphere.serving.contract.model_field.ModelField.InfoOrSubfields.{Empty, Info, Subfields}
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.tensorflow.tensor.TensorProto
 import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
@@ -25,71 +25,80 @@ object ContractOps {
 
   object SignatureDescription {
     class Converter() {
+
       sealed trait ANode {
-        def toInfoOrDict: ModelField.InfoOrDict
+        def name: String
+
+        def toInfoOrDict: ModelField.InfoOrSubfields
       }
 
-      case class FTensor(tensorInfo: TensorInfo) extends ANode {
-        override def toInfoOrDict: ModelField.InfoOrDict = {
-          ModelField.InfoOrDict.Info(tensorInfo)
+      case class FTensor(name: String, tensorInfo: TensorInfo) extends ANode {
+        override def toInfoOrDict: ModelField.InfoOrSubfields = {
+          ModelField.InfoOrSubfields.Info(tensorInfo)
         }
       }
 
-      case class FMap(data: mutable.Map[String, ANode] = mutable.Map.empty) extends ANode {
+      case class FMap(name: String = "", data: mutable.ListBuffer[ANode] = mutable.ListBuffer.empty) extends ANode {
         def getOrUpdate(segment: String, map: FMap): ANode = {
-          data.getOrElseUpdate(segment, map)
+          data.find(_.name == segment) match {
+            case Some(x) =>
+              x
+            case None =>
+              data += map
+              map
+          }
         }
 
-        def +=(kv: (String, ANode)): data.type = kv match {
-          case (name, node) => data += name -> node
-        }
+        def +=(node: ANode): data.type = data += node
 
-        override def toInfoOrDict: ModelField.InfoOrDict = {
-          ModelField.InfoOrDict.Dict(
-            ModelField.Dict(
-              data.toMap.map {
-                case (name, node) =>
-                  name -> ModelField(name, node.toInfoOrDict)
+        override def toInfoOrDict: ModelField.InfoOrSubfields = {
+          ModelField.InfoOrSubfields.Subfields(
+            ModelField.ComplexField(
+              data.map { node =>
+                ModelField(node.name, node.toInfoOrDict)
               }
             )
           )
         }
       }
 
-      private val tree = mutable.Map.empty[String, ANode]
+      private val tree = FMap()
 
       /**
         * Mutates tree to represent contract field in tree-like structure.
         * Inner state is contained in `tree` variable.
+        *
         * @param field flattened field description
         */
       def acceptField(field: FieldDescription): Unit = {
-          field.fieldName.split("/").drop(1).toList match {
+        field.fieldName.split("/").drop(1).toList match {
           case (tensorName :: Nil) =>
-            tree += tensorName -> FTensor(
-              ModelContractBuilders.createTensorInfo(tensorName, field.dataType, field.shape)
+            tree += FTensor(
+              tensorName,
+              ModelContractBuilders.createTensorInfo(field.dataType, field.shape)
             )
           case (root :: segments) =>
-            var last = tree.getOrElseUpdate(root, FMap()).asInstanceOf[FMap] // Assume that this is map. Otherwise contract is invalid.
+            var last = tree.getOrUpdate(root, FMap(root)).asInstanceOf[FMap]
 
-            segments.init.foreach{ segment =>
-              val segField = last.getOrUpdate(segment, FMap()).asInstanceOf[FMap]
-              last += segment -> segField
+            segments.init.foreach { segment =>
+              val segField = last.getOrUpdate(segment, FMap(segment)).asInstanceOf[FMap]
+              last += segField
               last = segField
             }
 
             val lastName = segments.last
-            last += lastName -> FTensor(
-              ModelContractBuilders.createTensorInfo(lastName, field.dataType, field.shape)
+            last += FTensor(
+              lastName,
+              ModelContractBuilders.createTensorInfo(field.dataType, field.shape)
             )
+          case Nil => throw new IllegalArgumentException(s"Field name '${field.fieldName}' in flattened contract is incorrect.")
         }
       }
 
       def result: Seq[ModelField] = {
-        tree.map{
-          case (name, node) =>
-            ModelField(name, node.toInfoOrDict)
-        }.toSeq
+        tree.data.map { node =>
+          ModelField(node.name, node.toInfoOrDict)
+        }
       }
     }
 
@@ -130,32 +139,32 @@ object ContractOps {
 
     implicit class ModelFieldPumped(modelField: ModelField) {
       def insert(name: String, fieldInfo: ModelField): Option[ModelField] = {
-        modelField.infoOrDict match {
-          case Dict(value) =>
-            value.data.get(name) match {
+        modelField.infoOrSubfields match {
+          case Subfields(fields) =>
+            fields.data.find(_.fieldName == name) match {
               case Some(_) =>
                 None
               case None =>
-                val newData = value.data ++ Map(name -> fieldInfo)
-                Some(ModelContractBuilders.dictField(modelField.fieldName, newData))
+                val newData = fields.data :+ fieldInfo
+                Some(ModelContractBuilders.complexField(modelField.fieldName, newData))
             }
           case _ => None
         }
       }
 
       def child(name: String): Option[ModelField] = {
-        modelField.infoOrDict match {
-          case Dict(value) =>
-            value.data.get(name)
+        modelField.infoOrSubfields match {
+          case Subfields(value) =>
+            value.data.find(_.fieldName == name)
           case _ => None
         }
       }
 
       def search(name: String): Option[ModelField] = {
-        modelField.infoOrDict match {
-          case Dict(value) =>
-            value.data.get(name).orElse {
-              value.data.values.flatMap(_.search(name)).headOption
+        modelField.infoOrSubfields match {
+          case Subfields(value) =>
+            value.data.find(_.fieldName == name).orElse {
+              value.data.flatMap(_.search(name)).headOption
             }
           case _ => None
         }
@@ -218,11 +227,11 @@ object ContractOps {
       if (first == second) {
         Some(first)
       } else if (first.fieldName == second.fieldName) {
-        val fieldContents = first.infoOrDict -> second.infoOrDict match {
-          case (Dict(fDict), Dict(sDict)) =>
-            mergeDicts(fDict, sDict).map(ModelField.InfoOrDict.Dict.apply)
+        val fieldContents = first.infoOrSubfields -> second.infoOrSubfields match {
+          case (Subfields(fDict), Subfields(sDict)) =>
+            mergeComplexFields(fDict, sDict).map(ModelField.InfoOrSubfields.Subfields.apply)
           case (Info(fInfo), Info(sInfo)) =>
-            TensorInfoOps.merge(fInfo, sInfo).map(ModelField.InfoOrDict.Info.apply)
+            TensorInfoOps.merge(fInfo, sInfo).map(ModelField.InfoOrSubfields.Info.apply)
           case _ => None
         }
         fieldContents.map(ModelField(first.fieldName, _))
@@ -231,17 +240,14 @@ object ContractOps {
       }
     }
 
-    def mergeDicts(first: ModelField.Dict, second: ModelField.Dict): Option[ModelField.Dict] = {
-      val fields = second.data.map {
-        case (name, field) =>
-          val emitterField = first.data.get(name)
-          name -> emitterField.flatMap(merge(_, field))
+    def mergeComplexFields(first: ModelField.ComplexField, second: ModelField.ComplexField): Option[ModelField.ComplexField] = {
+      val fields = second.data.map { field =>
+          val emitterField = first.data.find(_.fieldName == field.fieldName)
+          emitterField.flatMap(merge(_, field))
       }
-      if (fields.forall(_._2.isDefined)) {
-        val exactFields = fields.map {
-          case (name, field) => name -> field.get
-        }
-        Some(ModelField.Dict(exactFields))
+      if (fields.forall(_.isDefined)) {
+        val exactFields = fields.flatten
+        Some(ModelField.ComplexField(exactFields))
       } else {
         None
       }
@@ -251,15 +257,14 @@ object ContractOps {
       fields.flatMap(flatten(rootName, _)).toList
     }
 
-    def flatten(rootName: String, field: ModelField): List[FieldDescription] = {
+    def flatten(rootName: String, field: ModelField): Seq[FieldDescription] = {
       val name = s"$rootName/${field.fieldName}"
-      field.infoOrDict match {
+      field.infoOrSubfields match {
         case Empty => List.empty
-        case Dict(value) =>
-          value.data.flatMap {
-            case (key, subfield) =>
-              flatten(s"$name/$key", subfield)
-          }.toList
+        case Subfields(value) =>
+          value.data.flatMap { subfield =>
+              flatten(name, subfield)
+          }
         case Info(value) =>
           List(TensorInfoOps.flatten(name, value))
       }
@@ -276,7 +281,7 @@ object ContractOps {
           case (Some(em), Some(re)) if re.unknownRank == em.unknownRank && re.unknownRank => Some(first)
           case (Some(em), Some(re)) =>
             val shape = TensorShapeProtoOps.merge(em, re)
-            Some(TensorInfo(first.name, first.dtype, shape))
+            Some(TensorInfo(first.dtype, shape))
           case _ => None
         }
       }

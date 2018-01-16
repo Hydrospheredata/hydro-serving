@@ -185,20 +185,20 @@ class ContractOpsSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           List(
-            ModelContractBuilders.flatDictField(
+            ModelContractBuilders.complexField(
               "in",
-              Map(
-                "a" -> ModelContractBuilders.createTensorInfo("in1", DataType.DT_STRING, None),
-                "b" -> ModelContractBuilders.createTensorInfo("in2", DataType.DT_INT32, None)
+              Seq(
+                ModelContractBuilders.createTensorModelField("in1", DataType.DT_STRING, None),
+                ModelContractBuilders.createTensorModelField("in2", DataType.DT_INT32, None)
               )
             )
           ),
           List(
-            ModelContractBuilders.flatDictField(
+            ModelContractBuilders.complexField(
               "out",
-              Map(
-                "x" -> ModelContractBuilders.createTensorInfo("out1", DataType.DT_DOUBLE, Some(List(-1))),
-                "y" -> ModelContractBuilders.createTensorInfo("out2", DataType.DT_INT32, None)
+              Seq(
+                ModelContractBuilders.createTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1))),
+                ModelContractBuilders.createTensorModelField("out2", DataType.DT_INT32, None)
               )
             )
           )
@@ -218,12 +218,12 @@ class ContractOpsSpecs extends WordSpec {
           SignatureDescription(
             "sig1",
             inputs = List(
-              FieldDescription("/in/a/in1", DataType.DT_STRING, None),
-              FieldDescription("/in/b/in2", DataType.DT_INT32, None)
+              FieldDescription("/in/in1", DataType.DT_STRING, None),
+              FieldDescription("/in/in2", DataType.DT_INT32, None)
             ),
             outputs = List(
-              FieldDescription("/out/x/out1", DataType.DT_DOUBLE, Some(List(-1))),
-              FieldDescription("/out/y/out2", DataType.DT_INT32, None)
+              FieldDescription("/out/out1", DataType.DT_DOUBLE, Some(List(-1))),
+              FieldDescription("/out/out2", DataType.DT_INT32, None)
             )
           ),
           SignatureDescription(
@@ -269,20 +269,21 @@ class ContractOpsSpecs extends WordSpec {
         val signature = ModelSignature(
           "sig1",
           List(
-            ModelContractBuilders.flatDictField(
+            ModelContractBuilders.complexField(
               "in",
-              Map(
-                "a" -> ModelContractBuilders.createTensorInfo("in1", DataType.DT_STRING, None),
-                "b" -> ModelContractBuilders.createTensorInfo("in2", DataType.DT_INT32, None)
+              Seq(
+                ModelContractBuilders.createTensorModelField("in1", DataType.DT_STRING, None),
+                ModelContractBuilders.createTensorModelField("in2", DataType.DT_INT32, None)
               )
             )
           ),
           List(
-            ModelContractBuilders.flatDictField(
+            ModelContractBuilders.complexField(
               "out",
-              Map(
-                "x" -> ModelContractBuilders.createTensorInfo("out1", DataType.DT_DOUBLE, Some(List(-1))),
-                "y" -> ModelContractBuilders.createTensorInfo("out2", DataType.DT_INT32, None)
+              Seq(
+                ModelContractBuilders.createTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1))),
+                ModelContractBuilders.createTensorModelField("out2", DataType.DT_INT32, None)
+
               )
             )
           )
@@ -291,17 +292,18 @@ class ContractOpsSpecs extends WordSpec {
         val signatureDescription = SignatureDescription(
             "sig1",
             inputs = List(
-              FieldDescription("/in/a/in1", DataType.DT_STRING, None),
-              FieldDescription("/in/b/in2", DataType.DT_INT32, None)
+              FieldDescription("/in/in1", DataType.DT_STRING, None),
+              FieldDescription("/in/in2", DataType.DT_INT32, None)
             ),
             outputs = List(
-              FieldDescription("/out/x/out1", DataType.DT_DOUBLE, Some(List(-1))),
-              FieldDescription("/out/y/out2", DataType.DT_INT32, None)
+              FieldDescription("/out/out1", DataType.DT_DOUBLE, Some(List(-1))),
+              FieldDescription("/out/out2", DataType.DT_INT32, None)
             )
           )
 
+        val restored = ContractOps.SignatureDescription.toSignature(signatureDescription)
 
-        assert(ContractOps.SignatureDescription.toSignature(signatureDescription) === signature)
+        assert(restored === signature)
       }
     }
 

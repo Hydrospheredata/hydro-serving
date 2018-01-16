@@ -1,4 +1,5 @@
 import com.google.protobuf.ByteString
+import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.model_api.{DataGenerator, ModelContractBuilders}
 import io.hydrosphere.serving.tensorflow.tensor.TensorProto
@@ -52,10 +53,10 @@ class DataGeneratorSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           List(
-            ModelContractBuilders.flatDictField("in1",
-              Map(
-                "a" -> ModelContractBuilders.createTensorInfo("a", DataType.DT_STRING, None),
-                "b" -> ModelContractBuilders.createTensorInfo("b", DataType.DT_STRING, None)
+            ModelContractBuilders.complexField("in1",
+              Seq(
+                ModelContractBuilders.createTensorModelField("a", DataType.DT_STRING, None),
+                ModelContractBuilders.createTensorModelField("b", DataType.DT_STRING, None)
               )
             )
           ),
