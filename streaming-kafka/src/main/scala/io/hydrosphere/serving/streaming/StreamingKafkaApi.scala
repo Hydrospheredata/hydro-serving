@@ -1,6 +1,5 @@
 package io.hydrosphere.serving.streaming
 
-import scala.reflect.runtime.{universe => ru}
 import akka.actor.ActorSystem
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
@@ -12,7 +11,7 @@ import io.hydrosphere.serving.controller.{CommonController, SwaggerDocController
 class StreamingKafkaApi () (implicit val system: ActorSystem){
 
   val swaggerController = new SwaggerDocController(system) {
-    override val apiTypes: Seq[ru.Type] = Seq(/*ru.typeOf[ServeController]*/)
+    override val apiClasses = Set(/*ru.typeOf[ServeController]*/)
   }
 
   val commonController = new CommonController()

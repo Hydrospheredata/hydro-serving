@@ -52,28 +52,24 @@ class ManagerHttpApi(managerServices: ManagerServices)
   val modelSourceController = new ModelSourceController(managerServices.sourceManagementService)
 
   val swaggerController = new SwaggerDocController(system) {
-    override val apiTypes: Seq[ru.Type] = Seq(
-      ru.typeOf[ServingEnvironmentController],
-      ru.typeOf[RuntimeTypeController],
-      ru.typeOf[ModelController],
-      ru.typeOf[ModelRuntimeController],
-      ru.typeOf[ModelServiceController],
-      ru.typeOf[EnvoyManagementController],
-      ru.typeOf[ApplicationController],
-      ru.typeOf[PrometheusMetricsController],
-      ru.typeOf[ModelSourceController],
-      ru.typeOf[UISpecificController],
-      ru.typeOf[UISpecificWeightServiceController],
-      ru.typeOf[UISpecificRuntimeController]
+    override val apiClasses = Set(
+      classOf[ServingEnvironmentController],
+      classOf[RuntimeTypeController],
+      classOf[ModelController],
+      classOf[ModelRuntimeController],
+      classOf[ModelServiceController],
+      classOf[EnvoyManagementController],
+      classOf[ApplicationController],
+      classOf[PrometheusMetricsController],
+      classOf[ModelSourceController],
+      classOf[UISpecificController],
+      classOf[UISpecificWeightServiceController],
+      classOf[UISpecificRuntimeController]
     )
   }
 
   private def getExceptionMessage(p: Throwable): String = {
-    if (p.getMessage() == null) {
-      "Unknown error"
-    } else {
-      p.getMessage
-    }
+    Option(p.getMessage).getOrElse("Unknown error")
   }
 
   val commonExceptionHandler = ExceptionHandler {
@@ -110,7 +106,7 @@ class ManagerHttpApi(managerServices: ManagerServices)
           }
         } ~
           path(Segments) { segs =>
-            if (segs.size == 1 && //TODO change to regexp
+            if (segs.lengthCompare(1) == 0 && //TODO change to regexp
               (segs.head.endsWith("bundle.js") || segs.head.endsWith("bundle.css") )) {
               val path = segs.mkString("/")
               getFromResource(s"ui/$path")

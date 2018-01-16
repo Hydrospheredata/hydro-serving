@@ -15,7 +15,7 @@ import io.hydrosphere.serving.controller.{CommonController, SwaggerDocController
 class GatewayApi(serveActor: ActorRef) (implicit val system: ActorSystem){
 
   val swaggerController = new SwaggerDocController(system) {
-    override val apiTypes: Seq[ru.Type] = Seq(ru.typeOf[ServeController])
+    override val apiClasses = Set(classOf[ServeController])
   }
 
   val commonController = new CommonController()
