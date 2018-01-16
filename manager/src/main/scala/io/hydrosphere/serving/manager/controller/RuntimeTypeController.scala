@@ -28,8 +28,6 @@ class RuntimeTypeController(modelManagementService: ModelManagementService, runt
   ))
   def listRuntimeType = path("api" / "v1" / "runtimeType") {
     get {
-      println("123KEK123")
-
       complete(modelManagementService.allRuntimeTypes())
     }
   }

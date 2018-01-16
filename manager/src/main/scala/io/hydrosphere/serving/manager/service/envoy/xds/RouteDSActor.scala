@@ -7,13 +7,13 @@ import io.grpc.stub.StreamObserver
 /**
   *
   */
-class RouteDSActor extends AbstractDSActor {
+class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.googleapis.com/envoy.api.v2.RouteConfiguration") {
 
   private def createRoute(name: String): RouteConfiguration =
     RouteConfiguration(
       name = name,
       virtualHosts = Seq(VirtualHost(
-        name = name,
+        name = "all",
         domains = Seq("*"),
         routes = Seq(Route(
           `match` = Some(RouteMatch(
@@ -26,33 +26,6 @@ class RouteDSActor extends AbstractDSActor {
       ))
     )
 
-  /*
-   virtual_hosts:
-    - name: local_service
-      domains: ["*"]
-      routes:
-      - match: { prefix: "/" }
-        route: { cluster: some_service }
-  */
-
-
-  private def sendRoutes(stream: StreamObserver[DiscoveryResponse]): Unit = {
-    val list = Seq(createRoute("ingress"), createRoute("egress"))
-
-    send(DiscoveryResponse(
-      typeUrl = "type.googleapis.com/envoy.api.v2.RouteConfiguration",
-      versionInfo = "0",
-      resources = list.map(s => com.google.protobuf.any.Any.pack(s))
-    ), stream)
-  }
-
-  override def receive: Receive = {
-    case subscribe: SubscribeMsg =>
-      observers += subscribe.responseObserver
-      sendRoutes(subscribe.responseObserver)
-
-    case unsubcribe: UnsubscribeMsg =>
-      observers -= unsubcribe.responseObserver
-
-  }
+  override protected def formResources(responseObserver: StreamObserver[DiscoveryResponse]): Seq[RouteConfiguration] =
+    Seq(createRoute("mesh"))
 }

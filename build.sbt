@@ -23,7 +23,8 @@ lazy val root = project.in(file("."))
   .settings(currentSettings)
   .settings(Common.settings)
   .aggregate(
-    manager
+    manager,
+    dummyRuntime
   )
 
 lazy val codegen = project.in(file("codegen"))
@@ -38,3 +39,11 @@ lazy val manager = project.in(file("manager"))
   .settings(Common.settings)
   .settings(libraryDependencies ++= Dependencies.hydroServingManagerDependencies)
   .dependsOn(codegen)
+
+
+lazy val dummyRuntime = project.in(file("dummy-runtime"))
+  .configs(IntegrationTest)
+  .settings(Defaults.itSettings: _*)
+  .settings(currentSettings)
+  .settings(Common.settings)
+  .settings(libraryDependencies ++= Dependencies.hydroServingDummyRuntimeDependencies)

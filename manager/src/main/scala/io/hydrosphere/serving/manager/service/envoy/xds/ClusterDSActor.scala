@@ -4,28 +4,25 @@ import com.google.protobuf.duration.Duration
 import envoy.api.v2.Cluster.EdsClusterConfig
 import envoy.api.v2.ConfigSource.ConfigSourceSpecifier
 import envoy.api.v2.{AggregatedConfigSource, Cluster, ConfigSource, DiscoveryResponse}
+import io.grpc.stub.StreamObserver
 
-import scala.collection.mutable.ListBuffer
+import scala.collection.mutable
 
-case class ClusterAdded(names: Seq[String])
+case class ClusterAdded(names: Set[String])
 
-case class ClusterRemoved(names: Seq[String])
+case class ClusterRemoved(names: Set[String])
 
-class ClusterDSActor extends AbstractDSActor {
+case class SyncCluster(names: Set[String])
 
-  private val clusters = new ListBuffer[Cluster]()
+class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis.com/envoy.api.v2.Cluster") {
 
-  override def receive: Receive = {
-    case subscribe: SubscribeMsg =>
-      observers += subscribe.responseObserver
-      send(createDiscoveryResponse(), subscribe.responseObserver)
+  private val clusters = new mutable.ListBuffer[Cluster]()
 
-    case unsubcribe: UnsubscribeMsg =>
-      observers -= unsubcribe.responseObserver
+  private val clustersNames = new mutable.HashSet[String]()
 
-    case add: ClusterAdded =>
-
-      add.names.foreach(name => {
+  private def addClusters(names: Set[String]): Set[Boolean] =
+    names.map(name => {
+      if (clustersNames.add(name)) {
         clusters += Cluster(
           name = name,
           `type` = Cluster.DiscoveryType.EDS,
@@ -40,30 +37,42 @@ class ClusterDSActor extends AbstractDSActor {
             )
           )
         )
-      })
-
-      sendClusters()
-
-    case rem: ClusterRemoved =>
-      rem.names.foreach(name => {
-        clusters --= clusters.filter(c => c.name == name)
-      })
-      sendClusters()
-
-  }
-
-  private def createDiscoveryResponse(): DiscoveryResponse = {
-    DiscoveryResponse(
-      typeUrl = "type.googleapis.com/envoy.api.v2.Cluster",
-      versionInfo = "0",
-      resources = clusters.map(s => com.google.protobuf.any.Any.pack(s))
-    )
-  }
-
-  private def sendClusters(): Unit = {
-    val discoveryResponse = createDiscoveryResponse()
-    observers.foreach(s => {
-      send(discoveryResponse, s)
+        true
+      } else {
+        false
+      }
     })
+
+  private def removeClusters(names: Set[String]): Set[Boolean] =
+    names.map(name => {
+      if (clustersNames.remove(name)) {
+        clusters --= clusters.filter(c => !clustersNames.contains(c.name))
+        true
+      } else {
+        false
+      }
+    })
+
+
+  private def syncClusters(names: Set[String]): Set[Boolean] = {
+    val toRemove = clustersNames.toSet -- names
+    val toAdd = names -- clustersNames
+
+    removeClusters(toRemove) ++ addClusters(toAdd)
   }
+
+  override def receiveStoreChangeEvents(mes: Any): Boolean = {
+    val results = mes match {
+      case ClusterAdded(names) =>
+        addClusters(names)
+      case ClusterRemoved(names) =>
+        removeClusters(names)
+      case SyncCluster(names) =>
+        removeClusters(names)
+    }
+    results.contains(true)
+  }
+
+  override protected def formResources(responseObserver: StreamObserver[DiscoveryResponse]): Seq[Cluster] =
+    clusters
 }

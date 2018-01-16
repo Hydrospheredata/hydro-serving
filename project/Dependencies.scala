@@ -10,7 +10,10 @@ object Dependencies {
   val scalaTestVersion = "3.0.3"
   val slickPgVersion = "0.15.4"
   val scalaPBVersion = "0.6.6"
+  val grpcNettyVersion = "1.8.0"
   val awsSdkVersion = "1.11.184"
+  val servingGrpcScala = "0.0.11"
+
 
   lazy val hdfsDependencies = Seq(
     "org.apache.hadoop" % "hadoop-client" % hadoopVersion,
@@ -63,11 +66,18 @@ object Dependencies {
       "com.github.tminglei" %% "slick-pg_spray-json" % slickPgVersion
     ))
 
+  lazy val hydroServingDummyRuntimeDependencies = commonDependencies
+    .union(Seq(
+      "com.trueaccord.scalapb" %% "scalapb-runtime-grpc" % scalaPBVersion,
+      "io.hydrosphere" %% "serving-grpc-scala" % servingGrpcScala,
+      "io.grpc" % "grpc-netty" % grpcNettyVersion
+    ))
+
   lazy val hydroServingManagerDependencies = commonDependencies
     .union(testDependencies)
     .union(akkaHttpDependencies)
     .union(Seq(
-      "io.hydrosphere" %% "serving-grpc-scala" % "0.0.5",
+      "io.hydrosphere" %% "serving-grpc-scala" % servingGrpcScala,
       "io.hydrosphere" %% "envoy-data-plane-api" % "v1.5.0_1",
 
       "com.amazonaws" % "aws-java-sdk-ecs" % awsSdkVersion,
@@ -86,6 +96,7 @@ object Dependencies {
       "com.spotify" % "docker-client" % "8.8.0" exclude("ch.qos.logback", "logback-classic"),
       "com.google.guava" % "guava" % "22.0",
       "org.tensorflow" % "proto" % "1.2.1",
-      "com.trueaccord.scalapb" %% "scalapb-runtime-grpc" % scalaPBVersion
+      "com.trueaccord.scalapb" %% "scalapb-runtime-grpc" % scalaPBVersion,
+      "io.grpc" % "grpc-netty" % grpcNettyVersion
     ))
 }

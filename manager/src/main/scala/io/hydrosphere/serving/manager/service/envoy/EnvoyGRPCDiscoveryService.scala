@@ -6,17 +6,16 @@ import io.grpc.stub.StreamObserver
 import io.hydrosphere.serving.manager.service.envoy.xds._
 import org.apache.logging.log4j.scala.Logging
 
-trait EnvoyDiscoveryService {
-
+trait EnvoyGRPCDiscoveryService {
   def subscribe(discoveryRequest: DiscoveryRequest, responseObserver: StreamObserver[DiscoveryResponse]): Unit
 
   def unsubscribe(responseObserver: StreamObserver[DiscoveryResponse]): Unit
 }
 
-class EnvoyDiscoveryServiceImpl
+class EnvoyGRPCDiscoveryServiceImpl
 (
   implicit val system: ActorSystem
-) extends EnvoyDiscoveryService with Logging {
+) extends EnvoyGRPCDiscoveryService with Logging {
 
   private val clusterDSActor: ActorRef = system.actorOf(Props(new ClusterDSActor))
 
@@ -33,14 +32,7 @@ class EnvoyDiscoveryServiceImpl
     "type.googleapis.com/envoy.api.v2.Listener" -> listenerDSActor
   )
 
-  clusterDSActor ! ClusterAdded(Seq("manager"))
-  endpointDSActor ! RenewEndpoints(Seq(ClusterInfo(
-    name = "manager",
-    endpoints = Seq(ClusterEndpoint(
-      host="192.168.90.68",
-      port = 9091
-    ))
-  )))
+
 
   override def subscribe(discoveryRequest: DiscoveryRequest, responseObserver: StreamObserver[DiscoveryResponse]): Unit = {
     discoveryRequest.node.foreach(n => {
@@ -48,8 +40,7 @@ class EnvoyDiscoveryServiceImpl
         .fold(logger.info(s"Unknown typeUrl: $discoveryRequest"))(actor => {
 
           actor ! SubscribeMsg(
-            node = n,
-            resources = discoveryRequest.resourceNames,
+            discoveryRequest = discoveryRequest,
             responseObserver = responseObserver
           )
         })
@@ -62,5 +53,15 @@ class EnvoyDiscoveryServiceImpl
     actors.values.foreach(actor => {
       actor ! msg
     })
+
+
+    clusterDSActor ! ClusterAdded(Set("manager"))
+    endpointDSActor ! RenewEndpoints(Seq(ClusterInfo(
+      name = "manager",
+      endpoints = Set(ClusterEndpoint(
+        host = "192.168.90.68",
+        port = 9090
+      ))
+    )))
   }
 }

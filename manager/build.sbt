@@ -20,21 +20,6 @@ lazy val dataBaseUser = "docker"
 lazy val dataBasePassword = "docker"
 lazy val dataBaseUrl = s"jdbc:postgresql://localhost:5432/$dataBaseName"
 
-lazy val uiDownload = taskKey[Unit]("Download and extract UI")
-
-uiDownload := {
-  val zipFile=new File(s"${baseDirectory.value}/target/ui/release-$uiVersion.zip")
-  val uiArchive=s"https://github.com/Hydrospheredata/hydro-serving-ui/releases/download/$uiVersion/release-$uiVersion.zip"
-  val targetDir=new File(s"${classDirectory.in(Compile).value}/ui")
-
-  IO.delete(targetDir)
-  IO.createDirectory(targetDir)
-  if(!zipFile.exists()){
-    IO.download(new URL(uiArchive), zipFile)
-  }
-  IO.unzip(zipFile, targetDir)
-}
-
 lazy val startDatabase = (sourceManaged, dependencyClasspath in Compile, runner in Compile, streams) map { (dir, cp, r, s) =>
   val cli: DockerClient = DefaultDockerClient.fromEnv().build()
   val dbImage="postgres:9.6-alpine"
@@ -59,7 +44,6 @@ lazy val startDatabase = (sourceManaged, dependencyClasspath in Compile, runner 
 }
 
 compile in Compile <<= (compile in Compile)
-  .dependsOn(uiDownload)
   .dependsOn(slickCodeGenTask)
   .dependsOn(flywayMigrate in migration)
   .dependsOn(startDatabase) map { analysis =>
@@ -108,7 +92,7 @@ dockerfile in docker := {
 
   new sbtdocker.Dockerfile {
     // Base image
-    from(s"hydro-serving/java:${version.value}")
+    from("openjdk:8u151-jre-alpine")
 
     env("HS_SERVICE_ID", "manager")
 

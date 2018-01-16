@@ -8,7 +8,7 @@ import io.hydrosphere.serving.manager.connector.{HttpEnvoyAdminConnector, HttpRu
 import io.hydrosphere.serving.manager.service.clouddriver._
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.actors.{RepositoryReIndexActor, ServiceCacheUpdateActor}
-import io.hydrosphere.serving.manager.service.envoy.{EnvoyDiscoveryServiceImpl, EnvoyManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.envoy.EnvoyGRPCDiscoveryServiceImpl
 import io.hydrosphere.serving.manager.service.modelbuild._
 import io.hydrosphere.serving.manager.service.prometheus.PrometheusMetricsServiceImpl
 import io.hydrosphere.serving.manager.service.ui.UIManagementServiceImpl
@@ -89,7 +89,7 @@ class ManagerServices(
     runtimeManagementService
   )
 
-  val envoyManagementService = new EnvoyManagementServiceImpl(runtimeManagementService, servingManagementService)
+  val envoyGRPCDiscoveryService = new EnvoyGRPCDiscoveryServiceImpl
 
   val envoyAdminConnector = new HttpEnvoyAdminConnector()
 
@@ -105,9 +105,5 @@ class ManagerServices(
     modelManagementService
   )
 
-
   val repoActor:ActorRef = system.actorOf(RepositoryReIndexActor.props(modelManagementService))
-
-
-  val envoyDiscoveryService = new EnvoyDiscoveryServiceImpl()
 }

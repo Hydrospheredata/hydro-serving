@@ -13,27 +13,79 @@ case class ClusterEndpoint(
 
 case class ClusterInfo(
   name: String,
-  endpoints: Seq[ClusterEndpoint]
+  endpoints: Set[ClusterEndpoint]
 )
 
 case class RenewEndpoints(
   clusters: Seq[ClusterInfo]
 )
 
-class EndpointDSActor extends AbstractDSActor {
+class EndpointDSActor(
+  val specialCluster: Boolean = false,
+  val specialHost: String = "mainapplication",
+  val specialPort: Int = 9091
+) extends AbstractDSActor[ClusterLoadAssignment](
+  typeUrl = "type.googleapis.com/envoy.api.v2.ClusterLoadAssignment"
+) {
+
   private val endpoints = mutable.Map[String, ClusterLoadAssignment]()
+
+  private val clusterEndpoints = mutable.Map[String, Set[ClusterEndpoint]]()
 
   private val observerNode = mutable.Map[StreamObserver[DiscoveryResponse], Node]()
 
-  private def renewEndpoints(r: RenewEndpoints): Unit = {
-    val clusters = r.clusters.map(d => d.name).toSet
-    val toRemove = clusters -- endpoints.keySet
-    toRemove.foreach(d => endpoints.remove(d))
+  override protected def formResources(responseObserver: StreamObserver[DiscoveryResponse]): Seq[ClusterLoadAssignment] =
+    observerNode.get(responseObserver).map(node => {
+      endpoints.values.map(e => {
+        if (specialCluster && e.clusterName == node.id) {
+          mainApplicationEndpoint.withClusterName(node.id)
+        } else {
+          e
+        }
+      })
+    }).getOrElse(Seq()).toSeq
 
-    r.clusters.foreach(cluster => {
-      val cl = createCluster(cluster)
-      endpoints.put(cl.clusterName, cl)
+  override protected def streamAdded(responseObserver: StreamObserver[DiscoveryResponse], discoveryRequest: DiscoveryRequest) =
+    discoveryRequest.node.foreach(n => {
+      observerNode.put(responseObserver, n)
     })
+
+  override protected def streamRemoved(responseObserver: StreamObserver[DiscoveryResponse]) =
+    observerNode.remove(responseObserver)
+
+  override def receiveStoreChangeEvents(mes: Any): Boolean =
+    mes match {
+      case r: RenewEndpoints =>
+        renewEndpoints(r.clusters)
+      case _ => false
+    }
+
+
+  private def renewEndpoints(clusters: Seq[ClusterInfo]): Boolean = {
+    val toRemove = clusters.map(p => p.name).toSet -- endpoints.keySet
+    val r = removeClusters(toRemove) ++ createOrUpdate(clusters)
+    r.contains(true)
+  }
+
+  private def removeClusters(toRemove: Set[String]): Set[Boolean] =
+    toRemove.map(r => {
+      clusterEndpoints.remove(r)
+        .map(_ => endpoints.remove(r)).isDefined
+    })
+
+
+  private def createOrUpdate(clusters: Seq[ClusterInfo]): Set[Boolean] = {
+    clusters.map(p => {
+      val currentEndpoints = clusterEndpoints.get(p.name)
+      if (currentEndpoints.isEmpty || (currentEndpoints.get &~ p.endpoints).nonEmpty) {
+        val cl = createCluster(p)
+        endpoints.put(cl.clusterName, cl)
+        clusterEndpoints.put(p.name, p.endpoints)
+        true
+      } else {
+        false
+      }
+    }).toSet
   }
 
   private def createCluster(cluster: ClusterInfo): ClusterLoadAssignment = ClusterLoadAssignment(
@@ -51,7 +103,7 @@ class EndpointDSActor extends AbstractDSActor {
             ))
           ))
         )
-      })
+      }).toSeq
     ))
   )
 
@@ -62,8 +114,8 @@ class EndpointDSActor extends AbstractDSActor {
           address = Some(Address(
             address = Address.Address.SocketAddress(
               SocketAddress(
-                address = "192.168.90.68",
-                portSpecifier = PortSpecifier.PortValue(9090)
+                address = specialHost,
+                portSpecifier = PortSpecifier.PortValue(specialPort)
               )
             )
           ))
@@ -71,40 +123,4 @@ class EndpointDSActor extends AbstractDSActor {
       ))
     ))
   )
-
-  private def sendEndpoints(responseObserver: StreamObserver[DiscoveryResponse]): Unit = {
-    observerNode.get(responseObserver).foreach(node => {
-      val toSend = endpoints.values.map(e => {
-        mainApplicationEndpoint.withClusterName(node.id)
-        /*if (e.clusterName == node.id) {
-          mainApplicationEndpoint.withClusterName(node.id)
-        } else {
-          e
-        }*/
-      })
-
-      send(DiscoveryResponse(
-        typeUrl = "type.googleapis.com/envoy.api.v2.ClusterLoadAssignment",
-        versionInfo = "0",
-        resources = toSend.map(s => com.google.protobuf.any.Any.pack(s)).toSeq
-      ), responseObserver)
-    })
-  }
-
-  private def sendEndpoints(): Unit = observers.foreach(o => sendEndpoints(o))
-
-  override def receive: Receive = {
-    case subscribe: SubscribeMsg =>
-      observers += subscribe.responseObserver
-      observerNode.put(subscribe.responseObserver, subscribe.node)
-      sendEndpoints(subscribe.responseObserver)
-
-    case unsubcribe: UnsubscribeMsg =>
-      observers -= unsubcribe.responseObserver
-      observerNode.remove(unsubcribe.responseObserver)
-
-    case r: RenewEndpoints =>
-      renewEndpoints(r)
-      sendEndpoints()
-  }
 }

@@ -30,6 +30,7 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
 
   implicit object AnyJsonFormat extends JsonFormat[Any] {
     def write(any: Any): JsValue = any match {
+      case n: JsValue => n
       case n: Int => JsNumber(n)
       case n: Long => JsNumber(n)
       case n: Float => JsNumber(n)
@@ -40,7 +41,7 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
       case list: List[_] => seqFormat[Any].write(list)
       case array: Array[_] => seqFormat[Any].write(array.toList)
       case map: Map[String, _]@unchecked => mapFormat[String, Any] write map
-      case e => logger.error(s"${e.toString}"); throw DeserializationException(e.toString)
+      case e => throw DeserializationException(e.toString)
     }
 
     def read(value: JsValue): Any = value match {
