@@ -1,10 +1,10 @@
 package io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers
 
 import io.hydrosphere.serving.contract.model_field.ModelField
-import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
 import io.hydrosphere.serving.tensorflow.types.DataType.{DT_DOUBLE, DT_STRING}
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelMetadata
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers.SparkMlTypeMapper.{TypeDescription, constructField, scalar}
+import io.hydrosphere.serving.model_api.ModelContractBuilders
 
 abstract class PredictorMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
   def featuresType(sparkModelMetadata: SparkModelMetadata): TypeDescription = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
@@ -14,16 +14,7 @@ abstract class PredictorMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(
     val name = m.getParam[String]("labelCol").get
     Some(
       List(
-        ModelField(
-          name,
-          ModelField.InfoOrDict.Info(
-            TensorInfo(
-              name,
-              DT_STRING,
-              None
-            )
-          )
-        )
+        ModelContractBuilders.rawTensorModelField(name, DT_STRING, None)
       )
     )
   }
