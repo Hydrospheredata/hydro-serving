@@ -39,9 +39,7 @@ object Dependencies {
     "org.scalactic" %% "scalactic" % scalaTestVersion % "test,it",
     "org.scalatest" %% "scalatest" % scalaTestVersion % "test,it",
     "com.typesafe.akka" %% "akka-testkit" % akkaVersion % "test,it",
-    "com.amazonaws" % "aws-java-sdk-test-utils" % "1.11.174" % "test,it",
-    "io.findify" %% "s3mock" % "0.2.3" % "test,it",
-    "io.findify" %% "sqsmock" % "0.3.2" % "test,it"
+    "com.amazonaws" % "aws-java-sdk-test-utils" % "1.11.174" % "test,it"
   )
 
   lazy val logDependencies = Seq(
@@ -90,7 +88,6 @@ object Dependencies {
       "org.flywaydb" % "flyway-core" % "4.2.0",
       "com.spotify" % "docker-client" % "8.8.0" exclude("ch.qos.logback", "logback-classic"),
       "com.google.guava" % "guava" % "22.0",
-      "org.tensorflow" % "proto" % "1.2.1",
       "org.tensorflow" % "proto" % "1.2.1"
     ))
 }
