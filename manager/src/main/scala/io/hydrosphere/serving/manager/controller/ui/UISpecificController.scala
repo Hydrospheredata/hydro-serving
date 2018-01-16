@@ -8,7 +8,7 @@ import akka.util.Timeout
 import io.hydrosphere.serving.controller.{ServingDataDirectives, TracingHeaders}
 import io.hydrosphere.serving.manager.controller.BuildModelRequest
 import io.hydrosphere.serving.manager.service.{ModelInfo, UIManagementService}
-import io.hydrosphere.serving.model_api.ContractOps.SignatureDescription
+import io.hydrosphere.serving.model_api.ContractOps.{ContractDescription, SignatureDescription}
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
@@ -53,7 +53,7 @@ class UISpecificController(
     new ApiImplicitParam(name = "runtimeId", required = true, dataType = "long", paramType = "path", value = "modelId")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "SignatureDescription", responseContainer = "List", response=classOf[SignatureDescription]),
+    new ApiResponse(code = 200, message = "ContractDescription", response=classOf[ContractDescription]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def getContract = path("ui" / "v1" / "model" / "contract" / LongNumber) { runtimeId =>

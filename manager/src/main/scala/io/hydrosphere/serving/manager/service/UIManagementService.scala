@@ -12,7 +12,7 @@ import io.hydrosphere.serving.manager.actor.ContainerWatcher.{Started, WatchForS
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.repository.{ModelBuildRepository, ModelRepository, ModelRuntimeRepository, ModelServiceRepository}
 import io.hydrosphere.serving.model._
-import io.hydrosphere.serving.model_api.ContractOps.SignatureDescription
+import io.hydrosphere.serving.model_api.ContractOps.{ContractDescription, SignatureDescription}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -85,7 +85,7 @@ case class ApplicationDetails(
 )
 
 trait UIManagementService {
-  def flattenContract(runtimeId: Long): Future[Option[List[SignatureDescription]]]
+  def flattenContract(runtimeId: Long): Future[Option[ContractDescription]]
 
   def createApplication(req: UIApplicationCreateOrUpdateRequest): Future[ApplicationDetails]
 
@@ -494,7 +494,7 @@ class UIManagementServiceImpl(
       })
     }
 
-  override def flattenContract(runtimeId: Long): Future[Option[List[SignatureDescription]]] = {
+  override def flattenContract(runtimeId: Long): Future[Option[ContractDescription]] = {
     import io.hydrosphere.serving.model_api.ContractOps.Implicits._
 
     modelRuntimeRepository.get(runtimeId).map {

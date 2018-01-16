@@ -72,13 +72,18 @@ class ModelManagementServiceITSpec extends CommonIntegrationSpec with BeforeAndA
     }
 
     it("should update a text model contract") {
-      val contract = ModelSignature(
-        "sig1",
-        List(
-          ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
-        ),
-        List(
-          ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+      val contract = ModelContract(
+        modelName = "",
+        signatures = List(
+          ModelSignature(
+            "sig1",
+            List(
+              ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
+            ),
+            List(
+              ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+            )
+          )
         )
       )
 
@@ -94,13 +99,18 @@ class ModelManagementServiceITSpec extends CommonIntegrationSpec with BeforeAndA
     }
 
     it("should update a binary model contract") {
-      val contract = ModelSignature(
-        "sig1",
-        List(
-          ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
-        ),
-        List(
-          ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+      val contract = ModelContract(
+        modelName = "",
+        signatures = List(
+          ModelSignature(
+            "sig1",
+            List(
+              ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
+            ),
+            List(
+              ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+            )
+          )
         )
       )
 

@@ -143,8 +143,10 @@ object ContractOps {
   object Implicits {
 
     implicit class ModelContractPumped(modelContract: ModelContract) {
-      def flatten: List[SignatureDescription] = {
-        ModelContractOps.flatten(modelContract)
+      def flatten: ContractDescription = {
+        ContractDescription(
+          ModelContractOps.flatten(modelContract)
+        )
       }
     }
 
