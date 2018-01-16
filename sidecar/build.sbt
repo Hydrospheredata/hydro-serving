@@ -5,8 +5,8 @@ import scala.sys.process.Process
 
 name := "sidecar"
 
-lazy val skipSidecarBuild = settingKey[String]("skipSidecarBuild")
-skipSidecarBuild := {skipSidecarBuild ?? "false"}.value
+lazy val skipSidecarBuild = settingKey[Boolean]("skipSidecarBuild")
+skipSidecarBuild := {skipSidecarBuild ?? false}.value
 
 lazy val execScript = inputKey[Unit]("Build script")
 lazy val skipScript = inputKey[Unit]("Skip script")
@@ -26,7 +26,8 @@ skipScript := {
 }
 
 lazy val someScript = Def.taskDyn{
-  if ("true".equalsIgnoreCase(skipSidecarBuild.value))
+  println()
+  if (skipSidecarBuild.value)
     skipScript.toTask("")
   else
     execScript.toTask("")

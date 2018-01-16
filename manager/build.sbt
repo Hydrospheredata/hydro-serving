@@ -9,7 +9,6 @@ import scala.collection.JavaConverters._
 
 name := "manager"
 
-enablePlugins(DockerSpotifyClientPlugin)
 enablePlugins(sbtdocker.DockerPlugin)
 
 lazy val uiVersion="0.0.8"
@@ -20,6 +19,8 @@ lazy val dataBasePassword = "docker"
 lazy val dataBaseUrl = s"jdbc:postgresql://localhost:5432/$dataBaseName"
 
 lazy val uiDownload = taskKey[Unit]("Download and extract UI")
+lazy val startDatabase = taskKey[Unit]("Start database")
+lazy val slickCodeGenTask = taskKey[Unit]("Slick codegen")
 
 uiDownload := {
   val zipFile=new File(s"${baseDirectory.value}/target/ui/release-$uiVersion.zip")
@@ -34,7 +35,7 @@ uiDownload := {
   IO.unzip(zipFile, targetDir)
 }
 
-lazy val startDatabase = {
+startDatabase := {
   val dir = sourceManaged.value
   val cp = (dependencyClasspath in Compile).value
   val r = (runner in Compile).value
@@ -62,17 +63,41 @@ lazy val startDatabase = {
   println(s"starting database...$containerId")
 }
 
+slickCodeGenTask := {
+  val dir = sourceManaged.value
+  val cp = (dependencyClasspath in Compile).value
+  val r = (runner in Compile).value
+  val s = streams.value
+  val outputDir = dir.getPath
+  val url = dataBaseUrl
+  val jdbcDriver = "org.postgresql.Driver"
+  val slickDriver = "io.hydrosphere.slick.HydrospherePostgresDriver"
+  val pkg = "io.hydrosphere.serving.manager.db"
+  val runResult = r.run(
+    "io.hydrosphere.slick.HydrosphereCodeGenerator",
+    cp.files,
+    Array(slickDriver, jdbcDriver, url, outputDir, pkg, dataBaseUser, dataBasePassword),
+    s.log
+  )
+  runResult.recover{
+    case err: Throwable => sys.error(err.getMessage)
+  }
+  println("Generated")
+}
+
 compile in Compile := (compile in Compile)
-  .dependsOn(uiDownload)
-  .dependsOn(slickCodeGenTask)
-  .dependsOn(flywayMigrate in migration).value
-  //.dependsOn(startDatabase) map { analysis =>
-  //Stop database
-  //val cli: DockerClient = DefaultDockerClient.fromEnv().build()
-  //cli.listContainers(DockerClient.ListContainersParam.allContainers(true)).asScala
-  //  .filter(p => p.names().contains("/postgres_compile"))
-  //  .foreach(p => cli.removeContainer(p.id(), DockerClient.RemoveContainerParam.forceKill(true)))
-//}
+    .dependsOn(uiDownload)
+    .dependsOn(uiDownload)
+    .dependsOn(slickCodeGenTask)
+    .dependsOn(flywayMigrate in migration)
+    .dependsOn(startDatabase)
+    .andFinally({
+      val cli: DockerClient = DefaultDockerClient.fromEnv().build()
+      cli.listContainers(DockerClient.ListContainersParam.allContainers(true)).asScala
+        .filter(p => p.names().contains("/postgres_compile"))
+        .foreach(p => cli.removeContainer(p.id(), DockerClient.RemoveContainerParam.forceKill(true)))
+    }).value
+
 
 lazy val migration = project.settings(
   flywayUrl := dataBaseUrl,
@@ -85,22 +110,6 @@ lazy val migration = project.settings(
 
 //This helps to Idea
 unmanagedSourceDirectories in Compile += sourceManaged.value
-
-lazy val slickCodeGenTask = {
-  val dir = sourceManaged.value
-  val cp = (dependencyClasspath in Compile).value
-  val r = (runner in Compile).value
-  val s = streams.value
-  val outputDir = dir.getPath
-  val url = dataBaseUrl
-  val jdbcDriver = "org.postgresql.Driver"
-  val slickDriver = "io.hydrosphere.slick.HydrospherePostgresDriver"
-  val pkg = "io.hydrosphere.serving.manager.db"
-  toError(r.run("io.hydrosphere.slick.HydrosphereCodeGenerator", cp.files, Array(slickDriver, jdbcDriver, url, outputDir, pkg, dataBaseUser, dataBasePassword), s.log))
-  println("Generated")
-}
-
-
 
 imageNames in docker := Seq(
   ImageName(s"hydrosphere/serving-manager:${version.value}")
