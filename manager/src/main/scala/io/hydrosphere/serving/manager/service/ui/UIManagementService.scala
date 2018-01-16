@@ -8,7 +8,7 @@ import akka.pattern.ask
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.connector.ExecutionResult
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.ContractOps.SignatureDescription
+import io.hydrosphere.serving.manager.model.api.ContractOps.{ContractDescription, SignatureDescription}
 import io.hydrosphere.serving.manager.repository.{ModelBuildRepository, ModelRepository, ModelRuntimeRepository, ModelServiceRepository}
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.ui.ContainerWatcherActor.{Started, WatchForStart, WatchForStop}
@@ -493,7 +493,7 @@ class UIManagementServiceImpl(
       })
     }
 
-  override def flattenContract(runtimeId: Long): Future[Option[List[SignatureDescription]]] = {
+  override def flattenContract(runtimeId: Long): Future[Option[ContractDescription]] = {
     import io.hydrosphere.serving.manager.model.api.ContractOps.Implicits._
 
     modelRuntimeRepository.get(runtimeId).map {

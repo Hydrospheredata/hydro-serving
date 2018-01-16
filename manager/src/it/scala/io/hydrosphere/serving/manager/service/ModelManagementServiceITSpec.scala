@@ -2,12 +2,10 @@ package io.hydrosphere.serving.manager.service
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.test.CommonIntegrationSpec
+import io.hydrosphere.serving.manager.model.api.ContractOps.{ContractDescription, FieldDescription, SignatureDescription}
 import io.hydrosphere.serving.manager.model.api._
-import org.scalactic.source.Position
-import io.hydrosphere.serving.model_api.ContractOps.{ContractDescription, FieldDescription, SignatureDescription}
-import io.hydrosphere.serving.model_api._
 import io.hydrosphere.serving.tensorflow.types.DataType
-import org.scalatest.{BeforeAndAfter, BeforeAndAfterEach}
+import org.scalatest.BeforeAndAfterEach
 import ContractOps.Implicits._
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 

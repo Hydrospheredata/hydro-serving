@@ -22,7 +22,7 @@ case class ModelRuntime(
   imageTag: String,
   imageMD5Tag: String,
   modelName: String,
-  modelVersion: String,
+  modelVersion: Long,
   source: Option[String],
   runtimeType: Option[RuntimeType],
   modelContract: ModelContract,
@@ -30,7 +30,9 @@ case class ModelRuntime(
   modelId: Option[Long],
   configParams: Map[String, String],
   tags: List[String]
-)
+) {
+  def toImageDef: String = s"$imageName:$imageTag"
+}
 
 case class ServingEnvironment(
   id: Long,

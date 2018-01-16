@@ -5,11 +5,10 @@ import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
-import io.hydrosphere.serving.controller.ServingDataDirectives
+import io.hydrosphere.serving.manager.controller.ServingDataDirectives
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.api.ContractOps.ContractDescription
 import io.hydrosphere.serving.manager.service.{CreateOrUpdateModelRequest, ModelManagementService}
-import io.hydrosphere.serving.model._
 import io.swagger.annotations._
 
 import scala.concurrent.duration._

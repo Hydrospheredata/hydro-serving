@@ -47,7 +47,7 @@ class PrometheusMetricsServiceImpl(
               labels = ServiceTargetLabels(
                 job = tuple._1.serviceName,
                 modelName = tuple._1.modelRuntime.modelName,
-                modelVersion = tuple._1.modelRuntime.modelVersion,
+                modelVersion = tuple._1.modelRuntime.modelVersion.toLong,
                 serviceId = tuple._1.serviceId.toString,
                 instanceId = instance.instanceId,
                 serviceName = tuple._1.serviceName

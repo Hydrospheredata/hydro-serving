@@ -3,7 +3,6 @@ package io.hydrosphere.serving.manager
 import com.amazonaws.regions.Regions
 import com.typesafe.config.Config
 import com.zaxxer.hikari.HikariConfig
-import io.hydrosphere.serving.config._
 import io.hydrosphere.serving.manager.model._
 
 import collection.JavaConverters._

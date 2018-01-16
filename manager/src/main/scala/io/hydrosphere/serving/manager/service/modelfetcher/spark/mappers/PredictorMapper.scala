@@ -4,7 +4,7 @@ import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.tensorflow.types.DataType.{DT_DOUBLE, DT_STRING}
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelMetadata
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers.SparkMlTypeMapper.{TypeDescription, constructField, scalar}
-import io.hydrosphere.serving.model_api.ModelContractBuilders
+import io.hydrosphere.serving.manager.model.api.ModelContractBuilders
 
 abstract class PredictorMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
   def featuresType(sparkModelMetadata: SparkModelMetadata): TypeDescription = SparkMlTypeMapper.featuresVec(sparkModelMetadata)

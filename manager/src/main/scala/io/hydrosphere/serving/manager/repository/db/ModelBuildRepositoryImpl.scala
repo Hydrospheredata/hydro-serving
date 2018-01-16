@@ -5,7 +5,7 @@ import java.time.LocalDateTime
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.manager.model.ModelBuildStatus.ModelBuildStatus
 import io.hydrosphere.serving.manager.model.ModelRuntime
-import io.hydrosphere.serving.model.{ModelRuntime, RuntimeType}
+import io.hydrosphere.serving.manager.model.{ModelRuntime, RuntimeType}
 import io.hydrosphere.serving.manager.model.{Model, ModelBuild, ModelBuildStatus}
 import io.hydrosphere.serving.manager.repository._
 import org.apache.logging.log4j.scala.Logging
