@@ -47,13 +47,13 @@ trait ServingManagementService {
 
   def serve(req: ServeRequest): Future[ExecutionResult]
 
-  def generateModelPayload(modelName: String, modelVersion: String, signature: String): Future[Seq[JsObject]]
+  def generateModelPayload(modelName: String, modelVersion: Long, signature: String): Future[Seq[JsObject]]
 
   def generateModelPayload(modelName: String, signature: String): Future[Seq[JsObject]]
 
   def checkApplicationSchema(req: ApplicationCreateOrUpdateRequest): Future[Boolean]
 
-//  def generateInputsForApplication(appId: Long): Future[Seq[Any]]
+  def generateInputsForApplication(appId: Long): Future[Option[Seq[JsObject]]]
 }
 
 class ServingManagementServiceImpl(
@@ -141,7 +141,7 @@ class ServingManagementServiceImpl(
         })
   }
 
-  override def generateModelPayload(modelName: String, modelVersion: String, signature: String): Future[Seq[JsObject]] = {
+  override def generateModelPayload(modelName: String, modelVersion: Long, signature: String): Future[Seq[JsObject]] = {
     modelServiceRepository.getLastModelServiceByModelNameAndVersion(modelName, modelVersion).map {
       case None => throw new IllegalArgumentException(s"Can't find service for modelName=$modelName")
       case Some(service) =>
@@ -183,30 +183,44 @@ class ServingManagementServiceImpl(
   }
 
   private def createStageSignature(idx: Long, stages: Seq[ServiceWithSignature]): ModelSignature = {
-    val signatures = stages.map{ info =>
+    val signatures = stages.map { info =>
       info.s.modelRuntime.modelContract.signatures
         .find(_.signatureName == info.signatureName)
         .getOrElse(throw new IllegalArgumentException(s"${info.signatureName} signature doesn't exist"))
     }
-    signatures.fold(ModelSignature())(ContractOps.ModelSignatureOps.merge)
+    signatures.fold(ModelSignature.defaultInstance)(ContractOps.ModelSignatureOps.merge)
   }
 
-//  override def generateInputsForApplication(appId: Long): Future[Option[Seq[Any]]] = {
-//    applicationRepository.get(appId).map(_.map{ app =>
-//      val schema = inferAppInputSchema(app)
-//      Seq(DataGenerator(schema).generate)
-//    })
-//  }
+  override def generateInputsForApplication(appId: Long): Future[Option[Seq[JsObject]]] = {
+    applicationRepository.get(appId).flatMap {
+      case Some(app) =>
+        inferAppInputSchema(app).map { schema =>
+          val data = DataGenerator(schema).generateInputs
+          Some(Seq(ContractOps.TensorProtoOps.jsonify(data)))
+        }
+      case None =>
+        Future.successful(None)
+    }
+  }
 
-//  private def inferAppInputSchema(application: Application): ModelApi = {
-//    val stages = application.executionGraph.stages.map(_.services.map(_.serviceId))
-//    val headServices = Future.sequence(stages.head.map(modelServiceRepository.get))
-//    val apis = headServices.map{services =>
-//      services.map{
-//        case Some(service) => service.modelRuntime.inputFields
-//        case None => throw new IllegalArgumentException(s"Can't find service in ${application.id} in $services")
-//      }
-//    }
-//    Future.sequence(apis)
-//  }
+  private def inferAppInputSchema(application: Application): Future[ModelSignature] = {
+    val stages = application.executionGraph.stages.map(_.services.map(s => s.serviceId -> s.signatureName).toMap)
+    val headServices = Future.sequence {
+      stages.head.map {
+        case (sId, signature) =>
+          modelServiceRepository.get(sId).map { maybeService =>
+            val service = maybeService
+              .getOrElse(throw new IllegalArgumentException(s"Service with id $sId is not found"))
+            service.modelRuntime.modelContract.signatures
+              .find(_.signatureName == signature)
+              .getOrElse(throw new IllegalArgumentException(s"Signature $signature for service $sId is not found"))
+          }
+      }.toList
+    }
+    headServices.map {
+      _.foldRight(ModelSignature()) {
+        case (sig1, sig2) => ContractOps.ModelSignatureOps.merge(sig1, sig2)
+      }
+    }
+  }
 }

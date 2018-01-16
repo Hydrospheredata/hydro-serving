@@ -200,7 +200,7 @@ class ModelServiceController(
     new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def serveByModelNameServiceAndVersion = path("api" / "v1" / "modelService" / "serve" / Segment / Segment) { (modelName,modelVersion) =>
+  def serveByModelNameServiceAndVersion = path("api" / "v1" / "modelService" / "serve" / Segment / LongNumber) { (modelName,modelVersion) =>
     post {
       extractRequest { request =>
         extractRawData { bytes =>
@@ -246,7 +246,7 @@ class ModelServiceController(
     new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def generatePayloadByModelNameServiceAndVersion = path("api" / "v1" / "modelService" / "generate" / Segment / Segment / Segment) { (modelName, modelVersion, signature) =>
+  def generatePayloadByModelNameServiceAndVersion = path("api" / "v1" / "modelService" / "generate" / Segment / LongNumber / Segment) { (modelName, modelVersion, signature) =>
     get {
       complete(
         servingManagementService.generateModelPayload(modelName, modelVersion, signature)

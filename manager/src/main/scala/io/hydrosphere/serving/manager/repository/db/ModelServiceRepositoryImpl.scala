@@ -143,7 +143,7 @@ class ModelServiceRepositoryImpl(
         .result.headOption
     ).map(m => mapFromDb(m))
 
-  override def getLastModelServiceByModelNameAndVersion(modelName: String, modelVersion: String): Future[Option[ModelService]] =
+  override def getLastModelServiceByModelNameAndVersion(modelName: String, modelVersion: Long): Future[Option[ModelService]] =
     db.run(
       Tables.ModelService
         .joinLeft(Tables.ModelRuntime)

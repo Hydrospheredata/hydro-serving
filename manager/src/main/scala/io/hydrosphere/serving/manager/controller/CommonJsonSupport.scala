@@ -30,7 +30,6 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
 
   implicit object AnyJsonFormat extends JsonFormat[Any] {
     def write(any: Any): JsValue = any match {
-      case n: JsValue => n
       case n: Int => JsNumber(n)
       case n: Long => JsNumber(n)
       case n: Float => JsNumber(n)
@@ -104,6 +103,7 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
 
   implicit val fieldDescFormat = jsonFormat3(FieldDescription.apply)
   implicit val sigDescFormat = jsonFormat3(SignatureDescription.apply)
+  implicit val contractDescFormat = jsonFormat1(ContractDescription.apply)
 
   implicit val runtimeTypeFormat = jsonFormat6(RuntimeType)
   implicit val modelRuntimeFormat = jsonFormat13(ModelRuntime)

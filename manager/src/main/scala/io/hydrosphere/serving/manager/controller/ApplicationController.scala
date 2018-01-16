@@ -148,20 +148,19 @@ class ApplicationController(
     }
   }
 
-  @Path("/generateInputs/{runtimeId}")
+  @Path("/generateInputs/{appId}")
   @ApiOperation(value = "Generate payload for application", notes = "Generate payload for application", nickname = "Generate payload for application", httpMethod = "GET")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "runtimeId", required = true, dataType = "string", paramType = "path", value = "runtimeId")
+    new ApiImplicitParam(name = "appId", required = true, dataType = "string", paramType = "path", value = "appId")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def generateInputsForRuntime = path("api" / "v1" / "applications" / "generateInputs" / LongNumber) { appId =>
+  def generateInputsForApp = path("api" / "v1" / "applications" / "generateInputs" / LongNumber) { appId =>
     get {
       complete(
-        ???
-        //servingManagementService.generateInputsForRuntime(runtimeId)
+        servingManagementService.generateInputsForApplication(appId)
       )
     }
   }
@@ -172,6 +171,7 @@ class ApplicationController(
       update ~
       deleteApplication ~
       serve ~
-      serveById
+      serveById ~
+      generateInputsForApp
 
 }

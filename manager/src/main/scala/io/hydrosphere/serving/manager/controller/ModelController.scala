@@ -5,20 +5,22 @@ import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
+import io.hydrosphere.serving.controller.ServingDataDirectives
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.{CreateOrUpdateModelRequest, ModelManagementService}
+import io.hydrosphere.serving.model._
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
-import spray.json._
 
 /**
   *
   */
 @Path("/api/v1/model")
 @Api(produces = "application/json", tags = Array("Models: Model"))
-class ModelController(modelManagementService: ModelManagementService) extends ManagerJsonSupport {
+class ModelController(modelManagementService: ModelManagementService)
+  extends ManagerJsonSupport with ServingDataDirectives {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/")
@@ -160,7 +162,7 @@ class ModelController(modelManagementService: ModelManagementService) extends Ma
     }
   }
 
-  @Path("/generate/{modelName}")
+  @Path("/generate/{modelName}/{signature}")
   @ApiOperation(value = "Generate payload for model", notes = "Generate payload for model", nickname = "Generate payload for model", httpMethod = "GET")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "modelName", required = true, dataType = "string", paramType = "path", value = "modelName"),
@@ -172,13 +174,76 @@ class ModelController(modelManagementService: ModelManagementService) extends Ma
   ))
   def generatePayloadByModelNameService = path("api" / "v1" / "model" / "generate" / Segment / Segment) { (modelName, signature) =>
     get {
-      complete(
+      complete {
         modelManagementService.generateModelPayload(modelName, signature)
-      )
+      }
     }
   }
 
+  @Path("{modelId}/contract/text")
+  @ApiOperation(value = "Submit a new contract for a model", notes = "Submit a new contract for a model", nickname = "Submit a new contract for a model", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId"),
+    new ApiImplicitParam(name = "body", value = "ModelContract text message", required = true, dataTypeClass = classOf[String], paramType = "body")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Any", response = classOf[Model]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def submitTextContract = path("api" / "v1" / "model" / LongNumber / "contract" / "text") { modelId =>
+    post {
+      entity(as[String]) { prototext =>
+        complete {
+          modelManagementService.submitContract(modelId, prototext)
+        }
+      }
+    }
+  }
+
+  @Path("{modelId}/contract/binary")
+  @ApiOperation(value = "Submit a new binary contract for a model", notes = "Submit a new binary contract for a model", nickname = "Submit a new binary contract for a model", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId"),
+    new ApiImplicitParam(name = "body", value = "ModelContract binary message", required = true, paramType = "body")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Any", response = classOf[Model]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def submitBinaryContract = path("api" / "v1" / "model" / LongNumber / "contract" / "binary") { modelId =>
+    post {
+      extractRequest { request =>
+        extractRawData { bytes =>
+          complete {
+            modelManagementService.submitBinaryContract(modelId, bytes)
+          }
+        }
+      }
+    }
+  }
+
+  @Path("{modelId}/contract/flat")
+  @ApiOperation(value = "Submit a new flat contract for a model", notes = "Submit a flat new contract for a model", nickname = "Submit a new flat contract for a model", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId"),
+    new ApiImplicitParam(name = "body", value = "ContractDescription", required = true, dataTypeClass = classOf[ContractDescription] , paramType = "body")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Any", response = classOf[Model]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def submitFlatContract = path("api" / "v1" / "model" / LongNumber / "contract" / "flat") { modelId =>
+    post {
+      entity(as[ContractDescription]) { contractDescription =>
+        complete {
+          modelManagementService.submitFlatContract(modelId, contractDescription)
+        }
+      }
+    }
+  }
+
+
   val routes: Route = listModels ~ updateModel ~ addModel ~ buildModel ~ buildByName ~
     listModelBuilds ~ listModelBuildsByModel ~ lastModelBuilds ~
-    generatePayloadByModelNameService
+    generatePayloadByModelNameService ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract
 }

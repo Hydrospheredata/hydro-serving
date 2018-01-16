@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.model.api
 
 import io.hydrosphere.serving.contract.model_field.ModelField
-import io.hydrosphere.serving.contract.model_field.ModelField.InfoOrDict.{Dict, Empty, Info}
+import io.hydrosphere.serving.contract.model_field.ModelField.InfoOrSubfields.{Empty, Info, Subfields}
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
 import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
@@ -9,7 +9,7 @@ import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 object SignatureChecker {
 
   def areCompatible(first: Seq[TensorShapeProto.Dim], second: Seq[TensorShapeProto.Dim]): Boolean = {
-    if (first.length != second.length) {
+    if (first.lengthCompare(second.length) != 0) {
       false
     } else {
       first.zip(second).forall{
@@ -37,10 +37,9 @@ object SignatureChecker {
     }
   }
 
-  def areSequentiallyCompatible(emitter: ModelField.Dict, receiver: ModelField.Dict): Boolean = {
-    receiver.data.forall {
-      case (name, field) =>
-        val emitterField = emitter.data.get(name)
+  def areSequentiallyCompatible(emitter: ModelField.ComplexField, receiver: ModelField.ComplexField): Boolean = {
+    receiver.data.forall { field =>
+        val emitterField = emitter.data.find(_.fieldName == field.fieldName)
         emitterField.exists(areSequentiallyCompatible(_, field))
     }
   }
@@ -49,12 +48,12 @@ object SignatureChecker {
     if (emitter == receiver) {
       true
     } else if (emitter.fieldName == receiver.fieldName) {
-      emitter.infoOrDict match {
-        case Empty => receiver.infoOrDict.isEmpty
-        case Dict(dict) =>
-          receiver.infoOrDict.dict.exists(areSequentiallyCompatible(dict, _))
+      emitter.infoOrSubfields match {
+        case Empty => receiver.infoOrSubfields.isEmpty
+        case Subfields(fields) =>
+          receiver.infoOrSubfields.subfields.exists(areSequentiallyCompatible(fields, _))
         case Info(tensor) =>
-          receiver.infoOrDict.info.exists(areSequentiallyCompatible(tensor, _))
+          receiver.infoOrSubfields.info.exists(areSequentiallyCompatible(tensor, _))
       }
     } else {
       false

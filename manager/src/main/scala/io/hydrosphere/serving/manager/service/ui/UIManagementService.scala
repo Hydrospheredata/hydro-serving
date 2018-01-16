@@ -31,8 +31,7 @@ case class ModelInfo(
   lastModelBuild: Option[ModelBuild],
   lastModelRuntime: Option[ModelRuntime],
   currentServices: List[ModelService],
-  nextVersion: String,
-  nextVersionAvailable: Boolean
+  nextVersion: Option[Long]
 )
 
 case class KafkaStreamingParams(
@@ -85,7 +84,7 @@ case class ApplicationDetails(
 )
 
 trait UIManagementService {
-  def flattenContract(runtimeId: Long): Future[Option[List[SignatureDescription]]]
+  def flattenContract(runtimeId: Long): Future[Option[ContractDescription]]
 
   def createApplication(req: UIApplicationCreateOrUpdateRequest): Future[ApplicationDetails]
 
@@ -95,13 +94,13 @@ trait UIManagementService {
 
   def allModelsWithLastStatus(): Future[Seq[ModelInfo]]
 
-  def modelWithLastStatus(modelId: Long): Future[Option[ModelInfo]]
+  def modelWithLastStatus(modelId: Long): Future[Seq[ModelInfo]]
 
   def stopAllServices(modelId: Long): Future[Unit]
 
   def testModel(modelId: Long, servePath: String, request: Array[Byte], headers: Seq[HttpHeader]): Future[ExecutionResult]
 
-  def buildModel(modelId: Long, runtimeTypeId: Long, modelVersion: Option[String], environmentId: Option[Long]): Future[ModelInfo]
+  def buildModel(modelId: Long, runtimeTypeId: Long, modelVersion: Option[Long], environmentId: Option[Long]): Future[ModelInfo]
 
   def modelRuntimes(modelId: Long): Future[Seq[UIRuntimeInfo]]
 }
@@ -117,55 +116,52 @@ class UIManagementServiceImpl(
 )(implicit val ex: ExecutionContext, val actorSystem: ActorSystem, val timeout: Timeout) extends UIManagementService with Logging {
   private val containerWatcher = actorSystem.actorOf(ContainerWatcherActor.props)
 
-  //TODO Optimize implementation
-  override def allModelsWithLastStatus(): Future[Seq[ModelInfo]] =
-    modelRepository.all().flatMap(models => {
-      val ids = models.map(m => m.id)
-      modelRuntimeRepository.lastModelRuntimeForModels(models.map(m => m.id)).flatMap(runtimes => {
-        modelServiceRepository.getByModelIds(ids).flatMap(services => {
-          modelBuildRepository.lastForModels(ids).flatMap(builds => {
-            Future(
-              models.map(model => {
-                val lastModelRuntime = runtimes.find(r => r.modelId.get == model.id)
-                ModelInfo(
-                  model = model,
-                  lastModelRuntime = lastModelRuntime,
-                  lastModelBuild = builds.find(b => b.model.id == model.id),
-                  currentServices = services.filter(s => s.modelRuntime.modelId.get == model.id).toList,
-                  nextVersion = ModelManagementService.nextVersion(lastModelRuntime),
-                  nextVersionAvailable = model.created.isBefore(model.updated)
-                )
-              }))
-          })
-        })
-      })
-    })
+  def nextVersion(model: Model, modelBuild: Option[ModelBuild]): Option[Long] = {
+    modelBuild match {
+      case Some(lastBuild) =>
+        lastBuild.finished match {
+          case Some(lastFinish) if model.updated.isAfter(lastFinish) => Some(lastBuild.modelVersion + 1)
+          case _ => None
+        }
+      case None =>
+        Some(1L)
+    }
+  }
 
+  override def allModelsWithLastStatus(): Future[Seq[ModelInfo]] = {
+    modelRepository.all().flatMap(getModelsStatus)
+  }
 
-  override def modelWithLastStatus(modelId: Long): Future[Option[ModelInfo]] =
-    modelRepository.get(modelId).flatMap({
-      case Some(x) =>
-        modelRuntimeRepository.lastModelRuntimeByModel(modelId, 1).flatMap(modelRuntimes => {
-          modelServiceRepository.getByModelIds(Seq(modelId)).flatMap(services => {
-            modelBuildRepository.lastByModelId(modelId, 1).map(builds => {
-              val lastModelRuntime = modelRuntimes.headOption
-              Some(ModelInfo(
-                model = x,
-                lastModelRuntime = lastModelRuntime,
-                lastModelBuild = builds.headOption,
-                currentServices = services.toList,
-                nextVersion = ModelManagementService.nextVersion(lastModelRuntime),
-                nextVersionAvailable = lastModelRuntime match {
-                  case None => true
-                  case Some(lastMR) => x.updated.isAfter(lastMR.created)
-                }
-              ))
-            })
-          })
-        })
-      case None => Future.successful(None)
-    })
+  override def modelWithLastStatus(modelId: Long): Future[Seq[ModelInfo]] = {
+    modelRepository.get(modelId).flatMap { model =>
+      getModelsStatus(model.toSeq)
+    }
+  }
 
+  def getModelsStatus(models: Seq[Model]): Future[Seq[ModelInfo]] = {
+    if (models.isEmpty) {
+      Future.successful(Seq.empty)
+    } else {
+      val ids = models.map(_.id)
+      for {
+        runtimes <- modelRuntimeRepository.lastModelRuntimeForModels(ids)
+        services <- modelServiceRepository.getByModelIds(ids)
+        builds <- modelBuildRepository.lastForModels(ids)
+      } yield {
+        models.map { model =>
+          val lastModelRuntime = runtimes.find(_.modelId.get == model.id)
+          val lastModelBuild = builds.find(_.model.id == model.id)
+          ModelInfo(
+            model = model,
+            lastModelRuntime = lastModelRuntime,
+            lastModelBuild = lastModelBuild,
+            currentServices = services.filter(s => s.modelRuntime.modelId.get == model.id).toList,
+            nextVersion = nextVersion(model, lastModelBuild)
+          )
+        }
+      }
+    }
+  }
 
   override def stopAllServices(modelId: Long): Future[Unit] =
     modelServiceRepository
@@ -231,13 +227,13 @@ class UIManagementServiceImpl(
     Future(Thread.sleep(5000L))
   }
 
-  override def buildModel(modelId: Long, runtimeTypeId: Long, modelVersion: Option[String], environmentId: Option[Long]): Future[ModelInfo] =
+  override def buildModel(modelId: Long, runtimeTypeId: Long, modelVersion: Option[Long], environmentId: Option[Long]): Future[ModelInfo] =
     modelManagementService
       .buildModel(modelId, modelVersion, runtimeTypeId)
       .flatMap { runtime =>
         runtimeManagementService
           .addService(createModelServiceRequest(runtime, environmentId))
-          .flatMap { _ => modelWithLastStatus(modelId).map(_.get) }
+          .flatMap { _ => modelWithLastStatus(modelId).map(_.head) }
       }
 
   private def getDefaultKafkaImplementation(): Future[Option[ModelRuntime]] = {

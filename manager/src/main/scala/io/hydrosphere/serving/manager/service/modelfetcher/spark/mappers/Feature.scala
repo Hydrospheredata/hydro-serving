@@ -4,9 +4,10 @@ import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
 import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 import io.hydrosphere.serving.tensorflow.types.DataType
-import io.hydrosphere.serving.tensorflow.types.DataType.{DT_DOUBLE, DT_STRING}
+import io.hydrosphere.serving.tensorflow.types.DataType.{DT_DOUBLE, DT_STRING, DT_VARIANT}
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelMetadata
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers.SparkMlTypeMapper._
+import io.hydrosphere.serving.model_api.ModelContractBuilders
 
 class HashingTFMapper(m: SparkModelMetadata)  extends InputOutputMapper(m) {
   override def inputType(sparkModelMetadata: SparkModelMetadata): TypeDescription = varVec(DT_STRING)
@@ -129,16 +130,7 @@ class VectorAssemblerMapper(m: SparkModelMetadata)  extends SparkMlTypeMapper(m)
     m.getParam[Seq[String]]("inputCols")
       .map{
         _.map{ col =>
-          ModelField(
-            col,
-            ModelField.InfoOrDict.Info(
-              TensorInfo(
-                col,
-                DataType.DT_VARIANT,
-                Some(TensorShapeProto(unknownRank = true))
-              )
-            )
-          )
+          ModelContractBuilders.simpleTensorModelField(col, DT_VARIANT, Some(Seq.empty), unknownRank = true)
         }
       }
       .getOrElse(

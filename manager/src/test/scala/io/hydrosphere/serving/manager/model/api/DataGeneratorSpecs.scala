@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.model.api
 
 import com.google.protobuf.ByteString
+import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.tensorflow.tensor.TensorProto
 import io.hydrosphere.serving.tensorflow.types.DataType
@@ -13,10 +14,10 @@ class DataGeneratorSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           List(
-            ModelContractBuilders.createTensorModelField("in1", DataType.DT_STRING, None)
+            ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
           ),
           List(
-            ModelContractBuilders.createTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+            ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
           )
         )
 
@@ -32,11 +33,11 @@ class DataGeneratorSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           List(
-            ModelContractBuilders.createTensorModelField("in1", DataType.DT_STRING, Some(List(-1))),
-            ModelContractBuilders.createTensorModelField("in2", DataType.DT_INT32, Some(List(3)))
+            ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, Some(List(-1))),
+            ModelContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, Some(List(3)))
           ),
           List(
-            ModelContractBuilders.createTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+            ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
           )
         )
 
@@ -53,15 +54,15 @@ class DataGeneratorSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           List(
-            ModelContractBuilders.createDictModelField("in1",
-              Map(
-                "a" -> ModelContractBuilders.createTensorInfo("a", DataType.DT_STRING, None),
-                "b" -> ModelContractBuilders.createTensorInfo("b", DataType.DT_STRING, None)
+            ModelContractBuilders.complexField("in1",
+              Seq(
+                ModelContractBuilders.simpleTensorModelField("a", DataType.DT_STRING, None),
+                ModelContractBuilders.simpleTensorModelField("b", DataType.DT_STRING, None)
               )
             )
           ),
           List(
-            ModelContractBuilders.createTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+            ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
           )
         )
 

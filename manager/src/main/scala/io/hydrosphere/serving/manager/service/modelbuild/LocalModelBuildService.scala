@@ -23,10 +23,10 @@ class LocalModelBuildService(
   override def build(modelBuild: ModelBuild, imageName:String, script: String, progressHandler: ProgressHandler): Future[String] = {
     sourceManagementService.getLocalPath(modelBuild.model.source).map { modelSource =>
       val dockerFile = script.replaceAll("\\{" + SCRIPT_VAL_MODEL_PATH + "\\}", modelDir)
-        .replaceAll("\\{" + SCRIPT_VAL_MODEL_VERSION + "\\}", modelBuild.modelVersion)
+        .replaceAll("\\{" + SCRIPT_VAL_MODEL_VERSION + "\\}", modelBuild.modelVersion.toString)
         .replaceAll("\\{" + SCRIPT_VAL_MODEL_NAME + "\\}", modelBuild.model.name)
-        .replaceAll("\\{" + SCRIPT_VAL_RUNTIME_IMAGE + "\\}", modelBuild.modelRuntime.flatMap(_.runtimeType).get.name)
-        .replaceAll("\\{" + SCRIPT_VAL_RUNTIME_VERSION + "\\}", modelBuild.modelRuntime.flatMap(_.runtimeType).get.version)
+        .replaceAll("\\{" + SCRIPT_VAL_RUNTIME_IMAGE + "\\}", modelBuild.runtimeType.map(_.name).get)
+        .replaceAll("\\{" + SCRIPT_VAL_RUNTIME_VERSION + "\\}", modelBuild.runtimeType.map(_.version).get)
 
       val tmpPath = Files.createTempDirectory(s"hydroserving-${modelBuild.id}")
       try {

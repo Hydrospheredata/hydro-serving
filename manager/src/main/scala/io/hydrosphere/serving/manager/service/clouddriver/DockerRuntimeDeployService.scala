@@ -54,7 +54,7 @@ class DockerRuntimeDeployService(
         .logConfig(logConfig)
         .networkMode(conf.networkName).build()
       )
-      .image(s"${runtime.modelRuntime.imageName}:${runtime.modelRuntime.imageMD5Tag}")
+      .image(runtime.modelRuntime.toImageDef)
       .labels(javaLabels)
       .env(envMap.map { case (k, v) => s"$k=$v" }.toList)
       .build(), runtime.serviceName)

@@ -74,6 +74,7 @@ class LocalSourceWatcherActor(val source: LocalModelSource) extends SourceWatche
               .map(_.toPath)
               .map(source.sourceFile.toPath.relativize)
               .map(handleCreation)
+              .toList
           } else {
             List(handleCreation(relativePath))
           }

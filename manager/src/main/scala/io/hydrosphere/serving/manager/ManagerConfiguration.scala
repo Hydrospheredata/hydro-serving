@@ -2,6 +2,8 @@ package io.hydrosphere.serving.manager
 
 import com.amazonaws.regions.Regions
 import com.typesafe.config.Config
+import com.zaxxer.hikari.HikariConfig
+import io.hydrosphere.serving.config._
 import io.hydrosphere.serving.manager.model._
 
 import collection.JavaConverters._
@@ -15,7 +17,7 @@ trait ManagerConfiguration {
   val application: ApplicationConfig
   val advertised: AdvertisedConfiguration
   val modelSources: Seq[ModelSourceConfigAux]
-  val database: Config
+  val database: HikariConfig
   val cloudDriver: CloudDriverConfiguration
   val zipkin: ZipkinConfiguration
   val dockerRepository: DockerRepositoryConfiguration
@@ -26,7 +28,7 @@ case class ManagerConfigurationImpl(
   application: ApplicationConfig,
   advertised: AdvertisedConfiguration,
   modelSources: Seq[ModelSourceConfigAux],
-  database: Config,
+  database: HikariConfig,
   cloudDriver: CloudDriverConfiguration,
   zipkin: ZipkinConfiguration,
   dockerRepository: DockerRepositoryConfiguration
@@ -196,16 +198,24 @@ object ManagerConfiguration {
     }.toSeq
   }
 
-  /*
-
-  */
+  def parseDatabase(config: Config): HikariConfig = {
+    val database = config.getConfig("database")
+    val hikariConfig = new HikariConfig()
+    hikariConfig.setJdbcUrl(database.getString("jdbcUrl"))
+    hikariConfig.setUsername(database.getString("username"))
+    hikariConfig.setPassword(database.getString("password"))
+    hikariConfig.setDriverClassName("org.postgresql.Driver")
+    hikariConfig.setMaximumPoolSize(database.getInt("maximumPoolSize"))
+    hikariConfig.setInitializationFailTimeout(20000)
+    hikariConfig
+  }
 
   def parse(config: Config): ManagerConfigurationImpl = ManagerConfigurationImpl(
       sidecar = parseSidecar(config),
       application = parseApplication(config),
       advertised = parseAdvertised(config),
       modelSources = parseDataSources(config),
-      database = config.getConfig("database"),
+      database = parseDatabase(config),
       cloudDriver = parseCloudDriver(config),
       zipkin = parseZipkin(config),
       dockerRepository = parseDockerRepository(config)

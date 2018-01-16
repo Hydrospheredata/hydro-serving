@@ -56,7 +56,7 @@ class SwarmRuntimeDeployService(
       .taskTemplate(
         TaskSpec.builder()
           .containerSpec(ContainerSpec.builder()
-            .image(s"${runtime.modelRuntime.imageName}:${runtime.modelRuntime.imageMD5Tag}")
+            .image(runtime.modelRuntime.toImageDef)
             .env(envMap.map { case (k, v) => s"$k=$v" }.toList)
             .labels(javaLabels)
             //.placement()

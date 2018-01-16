@@ -5,6 +5,7 @@ import java.time.LocalDateTime
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.manager.model.ModelBuildStatus.ModelBuildStatus
 import io.hydrosphere.serving.manager.model.ModelRuntime
+import io.hydrosphere.serving.model.{ModelRuntime, RuntimeType}
 import io.hydrosphere.serving.manager.model.{Model, ModelBuild, ModelBuildStatus}
 import io.hydrosphere.serving.manager.repository._
 import org.apache.logging.log4j.scala.Logging
@@ -27,19 +28,18 @@ class ModelBuildRepositoryImpl(
   override def create(entity: ModelBuild): Future[ModelBuild] =
     db.run(
       Tables.ModelBuild returning Tables.ModelBuild += Tables.ModelBuildRow(
-        entity.id,
-        entity.model.id,
-        entity.modelVersion,
-        entity.started,
-        entity.finished,
-        entity.status.toString,
-        entity.statusText,
-        entity.logsUrl,
-        entity.modelRuntime match {
-          case Some(r) => Some(r.id)
-          case _ => None
-        })
-    ).map(s => mapFromDb(s, Some(entity.model), entity.modelRuntime))
+        modelBuildId = entity.id,
+        modelId = entity.model.id,
+        startedTimestamp = entity.started,
+        finishedTimestamp = entity.finished,
+        status = entity.status.toString,
+        statusText = entity.statusText,
+        logsUrl = entity.logsUrl,
+        runtimeId = entity.modelRuntime.map(_.id),
+        runtimeTypeId = entity.runtimeType.map(_.id),
+        modelVersion = entity.modelVersion
+      )
+    ).map(s => mapFromDb(s, Some(entity.model), entity.modelRuntime, entity.runtimeType))
 
   override def get(id: Long): Future[Option[ModelBuild]] =
     db.run(
@@ -49,6 +49,8 @@ class ModelBuildRepositoryImpl(
         .on({ case (mb, m) => mb.modelId === m.modelId })
         .joinLeft(Tables.ModelRuntime)
         .on({ case ((mb, m), mr) => mb.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.RuntimeType)
+        .on({ case (((mb, _), _), mrt) => mb.runtimeTypeId === mrt.runtimeTypeId })
         .result.headOption
     ).map(m => mapFromDb(m))
 
@@ -66,6 +68,8 @@ class ModelBuildRepositoryImpl(
         .on({ case (mb, m) => mb.modelId === m.modelId })
         .joinLeft(Tables.ModelRuntime)
         .on({ case ((mb, m), mr) => mb.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.RuntimeType)
+        .on({ case (((mb, _), _), mrt) => mb.runtimeTypeId === mrt.runtimeTypeId })
         .result
     ).map(s => mapFromDb(s))
 
@@ -77,6 +81,8 @@ class ModelBuildRepositoryImpl(
         .on({ case (mb, m) => mb.modelId === m.modelId })
         .joinLeft(Tables.ModelRuntime)
         .on({ case ((mb, m), mr) => mb.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.RuntimeType)
+        .on({ case (((mb, _), _), mrt) => mb.runtimeTypeId === mrt.runtimeTypeId })
         .result
     ).map(s => mapFromDb(s))
 
@@ -89,6 +95,8 @@ class ModelBuildRepositoryImpl(
         .on({ case (mb, m) => mb.modelId === m.modelId })
         .joinLeft(Tables.ModelRuntime)
         .on({ case ((mb, m), mr) => mb.runtimeId === mr.runtimeId })
+        .joinLeft(Tables.RuntimeType)
+        .on({ case (((mb, _), _), mrt) => mb.runtimeTypeId === mrt.runtimeTypeId })
         .take(maximum)
         .result
     ).map(s => mapFromDb(s))
@@ -114,44 +122,50 @@ class ModelBuildRepositoryImpl(
         .on({ case (mb, m) => mb.modelId === m.modelId })
         .joinLeft(Tables.ModelRuntime)
         .on({ case ((mb, _), mr) => mb.runtimeId === mr.runtimeId })
-        .distinctOn(_._1._1.modelId)
+        .joinLeft(Tables.RuntimeType)
+        .on({ case (((mb, _), _), mrt) => mb.runtimeTypeId === mrt.runtimeTypeId })
+        .distinctOn(_._1._1._1.modelId)
         .result
     ).map(s => mapFromDb(s))
 }
 
 object ModelBuildRepositoryImpl {
 
-  def mapFromDb(model: Option[((Tables.ModelBuild#TableElementType, Option[Tables.Model#TableElementType]), Option[Tables.ModelRuntime#TableElementType])]): Option[ModelBuild] =
+  def mapFromDb(model: Option[(((Tables.ModelBuild#TableElementType, Option[Tables.Model#TableElementType]), Option[Tables.ModelRuntime#TableElementType]), Option[Tables.RuntimeType#TableElementType])]): Option[ModelBuild] =
     model.map {
-      case ((modelBuild, maybeModel), maybeModelRuntime) =>
+      case (((modelBuild, maybeModel), maybeModelRuntime), maybeRuntimeType) =>
         mapFromDb(
           modelBuild,
           maybeModel.map(ModelRepositoryImpl.mapFromDb),
-          maybeModelRuntime.map(t => ModelRuntimeRepositoryImpl.mapFromDb(t, None))
+          maybeModelRuntime.map(t => ModelRuntimeRepositoryImpl.mapFromDb(t, None)),
+          maybeRuntimeType.map(RuntimeTypeRepositoryImpl.mapFromDb)
         )
     }
 
-  def mapFromDb(tuples: Seq[((Tables.ModelBuild#TableElementType, Option[Tables.Model#TableElementType]), Option[Tables.ModelRuntime#TableElementType])]): Seq[ModelBuild] = {
+  def mapFromDb(tuples: Seq[(((Tables.ModelBuild#TableElementType, Option[Tables.Model#TableElementType]), Option[Tables.ModelRuntime#TableElementType]), Option[Tables.RuntimeType#TableElementType])]): Seq[ModelBuild] = {
     tuples.map {
-      case ((modelBuild, maybeModel), maybeModelRuntime) =>
+      case (((modelBuild, maybeModel), maybeModelRuntime), maybeRuntimeType) =>
         mapFromDb(
           modelBuild,
           maybeModel.map(ModelRepositoryImpl.mapFromDb),
-          maybeModelRuntime.map(t => ModelRuntimeRepositoryImpl.mapFromDb(t, None)))
+          maybeModelRuntime.map(t => ModelRuntimeRepositoryImpl.mapFromDb(t, None)),
+          maybeRuntimeType.map(RuntimeTypeRepositoryImpl.mapFromDb)
+        )
     }
   }
 
-  def mapFromDb(modelBuild: Tables.ModelBuild#TableElementType, model: Option[Model], modelRuntime: Option[ModelRuntime]): ModelBuild = {
+  def mapFromDb(modelBuild: Tables.ModelBuild#TableElementType, model: Option[Model], modelRuntime: Option[ModelRuntime], runtimeType: Option[RuntimeType]): ModelBuild = {
     ModelBuild(
       id = modelBuild.modelBuildId,
-      model = model.getOrElse(throw new RuntimeException()),
+      model = model.get,
       started = modelBuild.startedTimestamp,
       finished = modelBuild.finishedTimestamp,
       status = ModelBuildStatus.withName(modelBuild.status),
       statusText = modelBuild.statusText,
       logsUrl = modelBuild.logsUrl,
       modelRuntime = modelRuntime,
-      modelVersion = modelBuild.modelVersion
+      modelVersion = modelBuild.modelVersion,
+      runtimeType = runtimeType
     )
   }
 }

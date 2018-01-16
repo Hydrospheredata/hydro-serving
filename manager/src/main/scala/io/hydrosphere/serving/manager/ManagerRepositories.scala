@@ -18,7 +18,7 @@ trait ManagerRepositories {
 
   val modelServiceRepository: ModelServiceRepository
 
-  def runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository
+  val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository
 
   val sourceRepository: SourceConfigRepository
 

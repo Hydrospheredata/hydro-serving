@@ -61,7 +61,6 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
     } else None
     val convertedDtype = DataType.fromValue(tensorInfo.getDtypeValue)
     TensorInfo(
-      name = tensorInfo.getName,
       dtype = convertedDtype,
       tensorShape = shape
     )
@@ -71,16 +70,15 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
     tensorMap.map {
       case (inputName, inputDef) =>
         val convertedInputDef = convertTensor(inputDef)
-        val tensorInfo = ModelField.InfoOrDict.Info(
+        val tensorInfo = ModelField.InfoOrSubfields.Info(
           TensorInfo(
-            inputName,
             convertedInputDef.dtype,
             convertedInputDef.tensorShape
           )
         )
         ModelField(
           fieldName = inputName,
-          infoOrDict = tensorInfo
+          infoOrSubfields = tensorInfo
         )
     }.toList
   }

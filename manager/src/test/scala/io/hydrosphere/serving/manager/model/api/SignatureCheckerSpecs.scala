@@ -15,19 +15,19 @@ class SignatureCheckerSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           List(
-            ModelField("in1", ModelField.InfoOrDict.Info(TensorInfo("in1", DataType.DT_STRING, None)))
+            ModelField("in1", ModelField.InfoOrSubfields.Info(TensorInfo(DataType.DT_STRING, None)))
           ),
           List(
-            ModelField("out1", ModelField.InfoOrDict.Info(TensorInfo("out1", DataType.DT_STRING, None)))
+            ModelField("out1", ModelField.InfoOrSubfields.Info(TensorInfo(DataType.DT_STRING, None)))
           )
         )
         val sig2 = ModelSignature(
           "sig2",
           List(
-            ModelField("out1", ModelField.InfoOrDict.Info(TensorInfo("out1", DataType.DT_STRING, None)))
+            ModelField("out1", ModelField.InfoOrSubfields.Info(TensorInfo(DataType.DT_STRING, None)))
           ),
           List(
-            ModelField("out2", ModelField.InfoOrDict.Info(TensorInfo("out2", DataType.DT_STRING, None)))
+            ModelField("out2", ModelField.InfoOrSubfields.Info(TensorInfo(DataType.DT_STRING, None)))
           )
         )
         assert(SignatureChecker.areSequentiallyCompatible(sig1, sig2))
@@ -37,18 +37,16 @@ class SignatureCheckerSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
             ModelField("in1",
-              ModelField.InfoOrDict.Info(
+              ModelField.InfoOrSubfields.Info(
                 TensorInfo(
-                  "in1",
                   DataType.DT_DOUBLE,
                   Some(TensorShapeProto(TensorShapeProto.Dim(5) :: Nil))
                 )
               )
             ) :: Nil,
           ModelField("out1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "out1",
                 DataType.DT_DOUBLE,
                 Some(TensorShapeProto(TensorShapeProto.Dim(5) :: Nil))
               )
@@ -58,18 +56,16 @@ class SignatureCheckerSpecs extends WordSpec {
         val sig2 = ModelSignature(
           "sig2",
             ModelField("out1",
-              ModelField.InfoOrDict.Info(
+              ModelField.InfoOrSubfields.Info(
                 TensorInfo(
-                  "out1",
                   DataType.DT_DOUBLE,
                   Some(TensorShapeProto(TensorShapeProto.Dim(5) :: Nil))
                 )
               )
             ) :: Nil,
           ModelField("out2",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "out2",
                 DataType.DT_DOUBLE,
                 Some(TensorShapeProto(TensorShapeProto.Dim(5) :: Nil))
               )
@@ -84,9 +80,8 @@ class SignatureCheckerSpecs extends WordSpec {
           "sig1",
 
           ModelField("in1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "in1",
                 DataType.DT_INT32,
                 Some(TensorShapeProto(TensorShapeProto.Dim(3) :: Nil))
               )
@@ -94,9 +89,8 @@ class SignatureCheckerSpecs extends WordSpec {
           ) :: Nil,
 
           ModelField("out1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "out1",
                 DataType.DT_INT32,
                 Some(TensorShapeProto(TensorShapeProto.Dim(3) :: Nil))
               )
@@ -107,9 +101,8 @@ class SignatureCheckerSpecs extends WordSpec {
           "sig2",
 
           ModelField("out1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "out1",
                 DataType.DT_INT32,
                 Some(TensorShapeProto(TensorShapeProto.Dim(-1) :: Nil))
               )
@@ -117,9 +110,8 @@ class SignatureCheckerSpecs extends WordSpec {
           ) :: Nil,
 
           ModelField("out2",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "out2",
                 DataType.DT_INT32,
                 Some(TensorShapeProto(TensorShapeProto.Dim(-1) :: Nil))
               )
@@ -134,9 +126,8 @@ class SignatureCheckerSpecs extends WordSpec {
           "sig1",
 
           ModelField("in1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "in1",
                 DataType.DT_INT32,
                 Some(TensorShapeProto(TensorShapeProto.Dim(5) :: TensorShapeProto.Dim(2) :: Nil))
               )
@@ -144,9 +135,8 @@ class SignatureCheckerSpecs extends WordSpec {
           ) :: Nil,
 
           ModelField("out1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "out1",
                 DataType.DT_INT32,
                 Some(TensorShapeProto(TensorShapeProto.Dim(5) :: TensorShapeProto.Dim(2) :: Nil))
               )
@@ -157,9 +147,8 @@ class SignatureCheckerSpecs extends WordSpec {
           "sig2",
 
           ModelField("out1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "out1",
                 DataType.DT_INT32,
                 Some(TensorShapeProto(TensorShapeProto.Dim(5) :: TensorShapeProto.Dim(2) :: Nil))
               )
@@ -167,9 +156,8 @@ class SignatureCheckerSpecs extends WordSpec {
           ) :: Nil,
 
           ModelField("out2",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "out2",
                 DataType.DT_INT32,
                 Some(TensorShapeProto(TensorShapeProto.Dim(5) :: TensorShapeProto.Dim(2) :: Nil))
               )
@@ -184,9 +172,8 @@ class SignatureCheckerSpecs extends WordSpec {
           "sig1",
 
           ModelField("in1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "in1",
                 DataType.DT_INT32,
                 Some(TensorShapeProto(TensorShapeProto.Dim(5) :: TensorShapeProto.Dim(2) :: Nil))
               )
@@ -194,9 +181,8 @@ class SignatureCheckerSpecs extends WordSpec {
           ) :: Nil,
 
           ModelField("out1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "out1",
                 DataType.DT_INT32,
                 Some(TensorShapeProto(TensorShapeProto.Dim(5) :: TensorShapeProto.Dim(2) :: Nil))
               )
@@ -207,9 +193,8 @@ class SignatureCheckerSpecs extends WordSpec {
           "sig2",
 
           ModelField("out1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "out1",
                 DataType.DT_INT32,
                 Some(TensorShapeProto(TensorShapeProto.Dim(5) :: TensorShapeProto.Dim(-1) :: Nil))
               )
@@ -217,9 +202,8 @@ class SignatureCheckerSpecs extends WordSpec {
           ) :: Nil,
 
           ModelField("out2",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "out2",
                 DataType.DT_INT32,
                 Some(TensorShapeProto(TensorShapeProto.Dim(5) :: TensorShapeProto.Dim(-1) :: Nil))
               )
@@ -236,13 +220,13 @@ class SignatureCheckerSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           List(
-            ModelField("in1", ModelField.InfoOrDict.Info(TensorInfo("in1", DataType.DT_STRING, None)))
+            ModelField("in1", ModelField.InfoOrSubfields.Info(TensorInfo(DataType.DT_STRING, None)))
           )
         )
         val sig2 = ModelSignature(
           "sig2",
           List(
-            ModelField("in2", ModelField.InfoOrDict.Info(TensorInfo("in2", DataType.DT_INT32, None)))
+            ModelField("in2", ModelField.InfoOrSubfields.Info(TensorInfo(DataType.DT_INT32, None)))
           )
         )
         assert(! SignatureChecker.areSequentiallyCompatible(sig1, sig2))
@@ -253,9 +237,8 @@ class SignatureCheckerSpecs extends WordSpec {
           "sig1",
 
           ModelField("in1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "in1",
                 DataType.DT_STRING,
                 Some(TensorShapeProto(TensorShapeProto.Dim(3) :: Nil))
               )
@@ -263,9 +246,8 @@ class SignatureCheckerSpecs extends WordSpec {
           ) :: Nil,
 
           ModelField("out1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "out1",
                 DataType.DT_STRING,
                 Some(TensorShapeProto(TensorShapeProto.Dim(3) :: Nil))
               )
@@ -276,9 +258,8 @@ class SignatureCheckerSpecs extends WordSpec {
           "sig2",
 
           ModelField("out1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "out1",
                 DataType.DT_STRING,
                 Some(TensorShapeProto(TensorShapeProto.Dim(4) :: Nil))
               )
@@ -286,9 +267,8 @@ class SignatureCheckerSpecs extends WordSpec {
           ) :: Nil,
 
           ModelField("out2",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "out2",
                 DataType.DT_STRING,
                 Some(TensorShapeProto(TensorShapeProto.Dim(4) :: Nil))
               )
@@ -303,9 +283,8 @@ class SignatureCheckerSpecs extends WordSpec {
           "sig1",
 
           ModelField("in1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "in1",
                 DataType.DT_STRING,
                 Some(TensorShapeProto(TensorShapeProto.Dim(4) :: Nil))
               )
@@ -313,9 +292,8 @@ class SignatureCheckerSpecs extends WordSpec {
           ) :: Nil,
 
           ModelField("out1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "out1",
                 DataType.DT_STRING,
                 Some(TensorShapeProto(TensorShapeProto.Dim(4) :: Nil))
               )
@@ -326,9 +304,8 @@ class SignatureCheckerSpecs extends WordSpec {
           "sig2",
 
           ModelField("out1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "out1",
                 DataType.DT_DOUBLE,
                 Some(TensorShapeProto(TensorShapeProto.Dim(3) :: Nil))
               )
@@ -336,9 +313,8 @@ class SignatureCheckerSpecs extends WordSpec {
           ) :: Nil,
 
           ModelField("out2",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "out2",
                 DataType.DT_DOUBLE,
                 Some(TensorShapeProto(TensorShapeProto.Dim(3) :: Nil))
               )
@@ -353,9 +329,8 @@ class SignatureCheckerSpecs extends WordSpec {
           "sig1",
 
           ModelField("in1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "in1",
                 DataType.DT_STRING,
                 Some(TensorShapeProto(TensorShapeProto.Dim(3) :: Nil))
               )
@@ -363,9 +338,8 @@ class SignatureCheckerSpecs extends WordSpec {
           ) :: Nil,
 
           ModelField("out1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "out1",
                 DataType.DT_STRING,
                 Some(TensorShapeProto(TensorShapeProto.Dim(3) :: Nil))
               )
@@ -380,9 +354,8 @@ class SignatureCheckerSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           ModelField("in1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "in1",
                 DataType.DT_STRING,
                 Some(TensorShapeProto(TensorShapeProto.Dim(3) :: Nil))
               )
@@ -392,9 +365,8 @@ class SignatureCheckerSpecs extends WordSpec {
         val sig2 = ModelSignature(
           "sig2",
           ModelField("in1",
-            ModelField.InfoOrDict.Info(
+            ModelField.InfoOrSubfields.Info(
               TensorInfo(
-                "in1",
                 DataType.DT_STRING,
                 Some(TensorShapeProto(TensorShapeProto.Dim(3) :: Nil))
               )
