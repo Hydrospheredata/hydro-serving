@@ -12,16 +12,17 @@ object ModelContractBuilders {
     TensorShapeProto(unknownRank = true)
   }
 
-  def createTensorShape(dims: Seq[Long]): TensorShapeProto = {
+  def createTensorShape(dims: Seq[Long], unknownRank: Boolean = false): TensorShapeProto = {
     TensorShapeProto(
-      dims.map { d =>
+      dim = dims.map { d =>
         TensorShapeProto.Dim(d)
-      }
+      },
+      unknownRank = unknownRank
     )
   }
 
-  def createTensorInfo(dataType: DataType, shape: Option[Seq[Long]]): TensorInfo = {
-    TensorInfo(dataType, shape.map(createTensorShape))
+  def createTensorInfo(dataType: DataType, shape: Option[Seq[Long]], unknownRank: Boolean = false): TensorInfo = {
+    TensorInfo(dataType, shape.map(s => createTensorShape(s, unknownRank)))
   }
 
   def complexField(name: String, subFields: Seq[ModelField]): ModelField = {
@@ -35,7 +36,11 @@ object ModelContractBuilders {
     )
   }
 
-  def createTensorModelField(name: String, dataType: DataType, shape: Option[Seq[Long]]): ModelField = {
-    ModelField(name, ModelField.InfoOrSubfields.Info(createTensorInfo(dataType, shape)))
+  def rawTensorModelField(name: String, dataType: DataType, shape: Option[TensorShapeProto]): ModelField = {
+    ModelField(name, ModelField.InfoOrSubfields.Info(TensorInfo(dataType, shape)))
+  }
+
+  def simpleTensorModelField(name: String, dataType: DataType, shape: Option[Seq[Long]], unknownRank: Boolean = false): ModelField = {
+    ModelField(name, ModelField.InfoOrSubfields.Info(createTensorInfo(dataType, shape, unknownRank)))
   }
 }

@@ -5,6 +5,7 @@ import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
 import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 import io.hydrosphere.serving.tensorflow.types.DataType
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelMetadata
+import io.hydrosphere.serving.model_api.ModelContractBuilders
 
 class UntypedMapper(m: SparkModelMetadata)  extends SparkMlTypeMapper(m) {
   private[this] val inputCols = Array("inputCol", "featuresCol")
@@ -14,50 +15,34 @@ class UntypedMapper(m: SparkModelMetadata)  extends SparkMlTypeMapper(m) {
   override def inputSchema: List[ModelField] = {
     inputCols
       .map(m.getParam[String])
-      .map {
+      .flatMap {
         _.map {
           inputName =>
-            ModelField(
+            ModelContractBuilders.simpleTensorModelField(
               inputName,
-              ModelField.InfoOrDict.Info(
-                TensorInfo(
-                  inputName,
-                  DataType.DT_STRING,
-                  Some(
-                    TensorShapeProto(unknownRank = true)
-                  )
-                )
-              )
+              DataType.DT_STRING,
+              Some(Seq.empty),
+              unknownRank = true
             )
         }
       }
-      .filter(_.isDefined)
-      .map(_.get)
       .toList
   }
 
   override def outputSchema: List[ModelField] = {
     outputCols
       .map(m.getParam[String])
-      .map {
+      .flatMap {
         _.map {
           inputName =>
-            ModelField(
+            ModelContractBuilders.simpleTensorModelField(
               inputName,
-              ModelField.InfoOrDict.Info(
-                TensorInfo(
-                  inputName,
-                  DataType.DT_STRING,
-                  Some(
-                    TensorShapeProto(unknownRank = true)
-                  )
-                )
-              )
+              DataType.DT_STRING,
+              Some(Seq.empty),
+              unknownRank = true
             )
         }
       }
-      .filter(_.isDefined)
-      .map(_.get)
       .toList
   }
 }

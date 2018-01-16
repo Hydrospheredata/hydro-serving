@@ -13,10 +13,10 @@ class DataGeneratorSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           List(
-            ModelContractBuilders.createTensorModelField("in1", DataType.DT_STRING, None)
+            ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
           ),
           List(
-            ModelContractBuilders.createTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+            ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
           )
         )
 
@@ -32,11 +32,11 @@ class DataGeneratorSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           List(
-            ModelContractBuilders.createTensorModelField("in1", DataType.DT_STRING, Some(List(-1))),
-            ModelContractBuilders.createTensorModelField("in2", DataType.DT_INT32, Some(List(3)))
+            ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, Some(List(-1))),
+            ModelContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, Some(List(3)))
           ),
           List(
-            ModelContractBuilders.createTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+            ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
           )
         )
 
@@ -55,13 +55,13 @@ class DataGeneratorSpecs extends WordSpec {
           List(
             ModelContractBuilders.complexField("in1",
               Seq(
-                ModelContractBuilders.createTensorModelField("a", DataType.DT_STRING, None),
-                ModelContractBuilders.createTensorModelField("b", DataType.DT_STRING, None)
+                ModelContractBuilders.simpleTensorModelField("a", DataType.DT_STRING, None),
+                ModelContractBuilders.simpleTensorModelField("b", DataType.DT_STRING, None)
               )
             )
           ),
           List(
-            ModelContractBuilders.createTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+            ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
           )
         )
 

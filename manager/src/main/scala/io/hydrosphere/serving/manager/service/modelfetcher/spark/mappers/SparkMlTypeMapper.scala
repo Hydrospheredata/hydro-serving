@@ -5,6 +5,7 @@ import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
 import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 import io.hydrosphere.serving.tensorflow.types.DataType
 import io.hydrosphere.serving.manager.service.modelfetcher.spark._
+import io.hydrosphere.serving.model_api.ModelContractBuilders
 
 abstract class SparkMlTypeMapper(val m: SparkModelMetadata) {
 
@@ -17,8 +18,7 @@ object SparkMlTypeMapper {
   type TypeDescription = (DataType, Option[TensorShapeProto])
 
   def constructField(name: String, typeDescription: TypeDescription): ModelField = {
-    val tensorInfo = TensorInfo(name, typeDescription._1, typeDescription._2)
-    ModelField(name, ModelField.InfoOrDict.Info(tensorInfo))
+    ModelContractBuilders.rawTensorModelField(name, typeDescription._1, typeDescription._2)
   }
 
   def scalar(dataType: DataType): TypeDescription = {
