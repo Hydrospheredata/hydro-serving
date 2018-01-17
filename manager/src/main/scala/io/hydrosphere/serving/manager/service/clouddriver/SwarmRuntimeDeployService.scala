@@ -143,9 +143,9 @@ class SwarmRuntimeDeployService(
         host = getInstanceHost(s.networkAttachments),
         serviceId = s.spec().containerSpec().labels().get(LABEL_SERVICE_ID).toLong,
         status = if ("running".equalsIgnoreCase(s.status.state)) {
-          ModelServiceInstanceStatus.UP
+          ServiceInstanceStatus.UP
         } else {
-          ModelServiceInstanceStatus.DOWN
+          ServiceInstanceStatus.DOWN
         },
         statusText = Option(s.status.message),
         appPort = envMap.getOrDefault(ENV_APP_HTTP_PORT, DEFAULT_APP_HTTP_PORT.toString).toInt,

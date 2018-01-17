@@ -5,7 +5,6 @@ import java.time.LocalDateTime
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.controller.ManagerJsonSupport
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model.RuntimeType
 import io.hydrosphere.serving.manager.model.Model
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.repository.ModelRepository
@@ -21,7 +20,6 @@ class ModelRepositoryImpl(
   databaseService: DatabaseService
 ) extends ModelRepository with Logging with ManagerJsonSupport {
 
-  import spray.json._
   import databaseService._
   import databaseService.driver.api._
   import ModelRepositoryImpl._
@@ -115,15 +113,15 @@ class ModelRepositoryImpl(
 }
 
 object ModelRepositoryImpl extends ManagerJsonSupport {
-  def mapFromDb(model: Option[Tables.Model#TableElementType]): Option[Model] = model.map(mapFromDb)
+  def mapFromDb(model: Option[Tables.Model#TableElementType]): Option[Model] =
+    model.map(mapFromDb)
 
-  def mapFromDb(models: Seq[Tables.Model#TableElementType]): Seq[Model] = {
+  def mapFromDb(models: Seq[Tables.Model#TableElementType]): Seq[Model] =
     models.map { model =>
       mapFromDb(model)
     }
-  }
 
-  def mapFromDb(model: Tables.Model#TableElementType): Model = {
+  def mapFromDb(model: Tables.Model#TableElementType): Model =
     Model(
       id = model.modelId,
       name = model.name,
@@ -134,5 +132,4 @@ object ModelRepositoryImpl extends ManagerJsonSupport {
       created = model.createdTimestamp,
       updated = model.updatedTimestamp
     )
-  }
 }

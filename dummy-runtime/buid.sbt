@@ -16,12 +16,15 @@ dockerfile in docker := {
     env("APP_PORT","9090")
     env("SIDECAR_PORT","8080")
     env("SIDECAR_HOST","localhost")
+    env("MODEL_DIR","/models")
 
     add(dockerFilesLocation, "/hydro-serving/app/")
     // Add all files on the classpath
     add(classpath.files, "/hydro-serving/app/lib/")
     // Add the JAR file
     add(jarFile, jarTarget)
+
+    volume("/models")
 
     cmd("/hydro-serving/app/start.sh")
   }

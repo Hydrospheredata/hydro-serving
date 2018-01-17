@@ -128,7 +128,7 @@ class ModelController(modelManagementService: ModelManagementService)
       dataTypeClass = classOf[BuildModelRequest], paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Model", response = classOf[ModelRuntime]),
+    new ApiResponse(code = 200, message = "Model", response = classOf[ModelVersion]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def buildModel = path("api" / "v1" / "model" / "build") {
@@ -148,7 +148,7 @@ class ModelController(modelManagementService: ModelManagementService)
       dataTypeClass = classOf[BuildModelByNameRequest], paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Model", response = classOf[ModelRuntime]),
+    new ApiResponse(code = 200, message = "Model", response = classOf[ModelVersion]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def buildByName = path("api" / "v1" / "model" / "buildByName") {

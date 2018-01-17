@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.repository
 
 import java.time.LocalDateTime
 
-import io.hydrosphere.serving.manager.model.ModelRuntime
+import io.hydrosphere.serving.manager.model.ModelVersion
 import io.hydrosphere.serving.manager.model.ModelBuild
 import io.hydrosphere.serving.manager.model.ModelBuildStatus.ModelBuildStatus
 
@@ -19,5 +19,5 @@ trait ModelBuildRepository extends BaseRepository[ModelBuild, Long] {
   def listByModelId(id: Long): Future[Seq[ModelBuild]]
 
   def finishBuild(id: Long, status: ModelBuildStatus, statusText: String, finished: LocalDateTime,
-    modelRuntime: Option[ModelRuntime]): Future[Int]
+    modelRuntime: Option[ModelVersion]): Future[Int]
 }

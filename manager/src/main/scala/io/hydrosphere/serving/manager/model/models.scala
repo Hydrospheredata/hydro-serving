@@ -4,49 +4,59 @@ import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.model.ModelBuildStatus.ModelBuildStatus
-import io.hydrosphere.serving.manager.model.ModelServiceInstanceStatus.ModelServiceInstanceStatus
+import io.hydrosphere.serving.manager.model.ServiceInstanceStatus.ServiceInstanceStatus
 import io.hydrosphere.serving.manager.model.api.ModelType
 
-case class RuntimeType(
+case class Runtime(
   id: Long,
   name: String,
   version: String,
-  modelType: ModelType,
+  suitableModelType: List[ModelType],
   tags: List[String],
   configParams: Map[String, String]
 )
 
-case class ModelRuntime(
+case class Model(
+  id: Long,
+  name: String,
+  source: String,
+  modelType: ModelType,
+  description: Option[String],
+  modelContract: ModelContract,
+  created: LocalDateTime,
+  updated: LocalDateTime
+)
+
+case class ModelVersion(
   id: Long,
   imageName: String,
   imageTag: String,
-  imageMD5Tag: String,
+  imageMD5: String,
+  created: LocalDateTime,
   modelName: String,
   modelVersion: Long,
+  modelType: ModelType,
   source: Option[String],
-  runtimeType: Option[RuntimeType],
-  modelContract: ModelContract,
-  created: LocalDateTime,
-  modelId: Option[Long],
-  configParams: Map[String, String],
-  tags: List[String]
+  model: Option[Model],
+  modelContract: ModelContract
 ) {
   def toImageDef: String = s"$imageName:$imageTag"
 }
 
-case class ServingEnvironment(
+case class Environment(
   id: Long,
   name: String,
   placeholders: Seq[Any]
 )
 
-case class ModelService(
-  serviceId: Long,
+case class Service(
+  id: Long,
   serviceName: String,
   cloudDriverId: Option[String],
-  modelRuntime: ModelRuntime,
-  environment: Option[ServingEnvironment],
-  status: Option[String],
+  runtime: Runtime,
+  model: Option[ModelVersion],
+  environment: Option[Environment],
+  status: String,
   statusText: Option[String],
   configParams: Map[String, String]
 )
@@ -76,8 +86,8 @@ case class Application(
   sourcesList: List[Long]
 )
 
-object ModelServiceInstanceStatus extends Enumeration {
-  type ModelServiceInstanceStatus = Value
+object ServiceInstanceStatus extends Enumeration {
+  type ServiceInstanceStatus = Value
   val DOWN, UP = Value
 }
 
@@ -86,41 +96,29 @@ object ModelBuildStatus extends Enumeration {
   val STARTED, FINISHED, ERROR = Value
 }
 
-case class RuntimeTypeBuildScript(
+case class ModelBuildScript(
   name: String,
   version: Option[String],
   script: String
 )
 
-class SchematicRuntimeType(
+class SchematicRuntime(
   name: String,
   version: String,
-  modelType: ModelType
-) extends RuntimeType(-1, name, version, modelType, List(), Map())
-
-case class Model(
-  id: Long,
-  name: String,
-  source: String,
-  modelType: ModelType,
-  description: Option[String],
-  modelContract: ModelContract,
-  created: LocalDateTime,
-  updated: LocalDateTime
-)
+  suitableModelType: List[ModelType]
+) extends Runtime(-1, name, version, suitableModelType, List(), Map())
 
 
 case class ModelBuild(
   id: Long,
   model: Model,
-  modelVersion: Long,
+  version: Long,
   started: LocalDateTime,
   finished: Option[LocalDateTime] = None,
   status: ModelBuildStatus,
   statusText: Option[String],
   logsUrl: Option[String],
-  modelRuntime: Option[ModelRuntime],
-  runtimeType: Option[RuntimeType]
+  modelVersion: Option[ModelVersion]
 )
 
 case class ModelFile(
@@ -139,25 +137,29 @@ case class ModelServiceInstance(
   sidecarPort: Int,
   sidecarAdminPort: Int,
   serviceId: Long,
-  status: ModelServiceInstanceStatus,
+  status: ServiceInstanceStatus,
   statusText: Option[String]
 )
 
-class UnknownModelRuntime extends ModelRuntime(
-  id = -1, imageName = "",
-  imageTag = "", imageMD5Tag = "",
-  modelName = "",modelVersion = 1,
-  source = None, runtimeType = None,
+class UnknownModelRuntime extends ModelVersion(
+  id = -1,
+  imageName = "",
+  imageTag = "",
+  imageMD5 = "",
+  modelName = "",
+  modelVersion = 1,
+  source = None,
   modelContract = ModelContract(),
-  created = LocalDateTime.now(), modelId = None,
-  configParams = Map.empty, tags = List.empty
+  created = LocalDateTime.now(),
+  modelType = ModelType.Unknown(),
+  model = None
 )
 
-class AnyServingEnvironment extends ServingEnvironment(
-  AnyServingEnvironment.anyServingEnvironmentId, "Without Env", AnyServingEnvironment.emptyPlaceholder
+class AnyEnvironment extends Environment(
+  AnyEnvironment.anyEnvironmentId, "Without Env", AnyEnvironment.emptyPlaceholder
 )
 
-object AnyServingEnvironment {
+object AnyEnvironment {
   val emptyPlaceholder = Seq()
-  val anyServingEnvironmentId:Long = -1
+  val anyEnvironmentId: Long = -1
 }

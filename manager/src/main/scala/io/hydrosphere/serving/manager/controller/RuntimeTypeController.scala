@@ -6,7 +6,7 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.model.api.ModelType
-import io.hydrosphere.serving.manager.model.RuntimeType
+import io.hydrosphere.serving.manager.model.Runtime
 import io.hydrosphere.serving.manager.service.{CreateRuntimeTypeRequest, ModelManagementService, RuntimeTypeManagementService}
 import io.swagger.annotations._
 
@@ -23,7 +23,7 @@ class RuntimeTypeController(modelManagementService: ModelManagementService, runt
   @Path("/")
   @ApiOperation(value = "listRuntimeType", notes = "listRuntimeType", nickname = "listRuntimeType", httpMethod = "GET")
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Runtime Types", response = classOf[RuntimeType], responseContainer = "List"),
+    new ApiResponse(code = 200, message = "Runtime Types", response = classOf[Runtime], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def listRuntimeType = path("api" / "v1" / "runtimeType") {
@@ -39,7 +39,7 @@ class RuntimeTypeController(modelManagementService: ModelManagementService, runt
       dataType = "io.hydrosphere.serving.manager.service.CreateRuntimeTypeRequest", paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Runtime", response = classOf[RuntimeType]),
+    new ApiResponse(code = 200, message = "Runtime", response = classOf[Runtime]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def createRuntime = path("api" / "v1" / "runtimeType") {
@@ -56,7 +56,7 @@ class RuntimeTypeController(modelManagementService: ModelManagementService, runt
     new ApiImplicitParam(name = "modelType", required = true, dataType = "string", paramType = "path", value = "tag")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Runtime", response = classOf[Seq[RuntimeType]]),
+    new ApiResponse(code = 200, message = "Runtime", response = classOf[Seq[Runtime]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def lookupByTag = path("api" / "v1" / "runtimeType" / "modelType" / Segment) { tag =>

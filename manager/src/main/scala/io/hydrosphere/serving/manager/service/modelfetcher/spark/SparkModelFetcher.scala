@@ -6,12 +6,12 @@ import java.nio.file.{Files, NoSuchFileException}
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.model.SchematicRuntimeType
+import io.hydrosphere.serving.manager.model.SchematicRuntime
 import io.hydrosphere.serving.manager.model.api.ModelMetadata
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers.SparkMlTypeMapper
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
-import io.hydrosphere.serving.manager.model.RuntimeType
+import io.hydrosphere.serving.manager.model.Runtime
 import io.hydrosphere.serving.manager.model.api._
 import org.apache.logging.log4j.scala.Logging
 

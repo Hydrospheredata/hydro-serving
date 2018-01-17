@@ -4,9 +4,7 @@ import java.time.LocalDateTime
 
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.manager.model.ModelBuildStatus.ModelBuildStatus
-import io.hydrosphere.serving.manager.model.ModelRuntime
-import io.hydrosphere.serving.manager.model.{ModelRuntime, RuntimeType}
-import io.hydrosphere.serving.manager.model.{Model, ModelBuild, ModelBuildStatus}
+import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.repository._
 import org.apache.logging.log4j.scala.Logging
 
@@ -24,22 +22,20 @@ class ModelBuildRepositoryImpl(
   import databaseService.driver.api._
   import ModelBuildRepositoryImpl._
 
-  //// status: String, statusText: Option[String] = None, logsUrl: Option[String] = None, runtimeId: Option[Long] = None)
   override def create(entity: ModelBuild): Future[ModelBuild] =
     db.run(
       Tables.ModelBuild returning Tables.ModelBuild += Tables.ModelBuildRow(
         modelBuildId = entity.id,
         modelId = entity.model.id,
+        modelVersionId = entity.modelVersion.map(m => m.id),
+        modelVersion = entity.version,
         startedTimestamp = entity.started,
         finishedTimestamp = entity.finished,
         status = entity.status.toString,
         statusText = entity.statusText,
-        logsUrl = entity.logsUrl,
-        runtimeId = entity.modelRuntime.map(_.id),
-        runtimeTypeId = entity.runtimeType.map(_.id),
-        modelVersion = entity.modelVersion
+        logsUrl = entity.logsUrl
       )
-    ).map(s => mapFromDb(s, Some(entity.model), entity.modelRuntime, entity.runtimeType))
+    ).map(s => mapFromDb(s, Some(entity.model), entity.modelVersion))
 
   override def get(id: Long): Future[Option[ModelBuild]] =
     db.run(
@@ -47,10 +43,8 @@ class ModelBuildRepositoryImpl(
         .filter(_.modelBuildId === id)
         .joinLeft(Tables.Model)
         .on({ case (mb, m) => mb.modelId === m.modelId })
-        .joinLeft(Tables.ModelRuntime)
-        .on({ case ((mb, m), mr) => mb.runtimeId === mr.runtimeId })
-        .joinLeft(Tables.RuntimeType)
-        .on({ case (((mb, _), _), mrt) => mb.runtimeTypeId === mrt.runtimeTypeId })
+        .joinLeft(Tables.ModelVersion)
+        .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
         .result.headOption
     ).map(m => mapFromDb(m))
 
@@ -66,10 +60,8 @@ class ModelBuildRepositoryImpl(
       Tables.ModelBuild
         .joinLeft(Tables.Model)
         .on({ case (mb, m) => mb.modelId === m.modelId })
-        .joinLeft(Tables.ModelRuntime)
-        .on({ case ((mb, m), mr) => mb.runtimeId === mr.runtimeId })
-        .joinLeft(Tables.RuntimeType)
-        .on({ case (((mb, _), _), mrt) => mb.runtimeTypeId === mrt.runtimeTypeId })
+        .joinLeft(Tables.ModelVersion)
+        .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
         .result
     ).map(s => mapFromDb(s))
 
@@ -79,10 +71,8 @@ class ModelBuildRepositoryImpl(
         .filter(_.modelId === id)
         .joinLeft(Tables.Model)
         .on({ case (mb, m) => mb.modelId === m.modelId })
-        .joinLeft(Tables.ModelRuntime)
-        .on({ case ((mb, m), mr) => mb.runtimeId === mr.runtimeId })
-        .joinLeft(Tables.RuntimeType)
-        .on({ case (((mb, _), _), mrt) => mb.runtimeTypeId === mrt.runtimeTypeId })
+        .joinLeft(Tables.ModelVersion)
+        .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
         .result
     ).map(s => mapFromDb(s))
 
@@ -93,19 +83,17 @@ class ModelBuildRepositoryImpl(
         .sortBy(_.startedTimestamp.desc)
         .joinLeft(Tables.Model)
         .on({ case (mb, m) => mb.modelId === m.modelId })
-        .joinLeft(Tables.ModelRuntime)
-        .on({ case ((mb, m), mr) => mb.runtimeId === mr.runtimeId })
-        .joinLeft(Tables.RuntimeType)
-        .on({ case (((mb, _), _), mrt) => mb.runtimeTypeId === mrt.runtimeTypeId })
+        .joinLeft(Tables.ModelVersion)
+        .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
         .take(maximum)
         .result
     ).map(s => mapFromDb(s))
 
   override def finishBuild(id: Long, status: ModelBuildStatus, statusText: String, finished: LocalDateTime,
-    modelRuntime: Option[ModelRuntime]): Future[Int] = {
+    modelRuntime: Option[ModelVersion]): Future[Int] = {
     val query = for {
       build <- Tables.ModelBuild if build.modelBuildId === id
-    } yield (build.status, build.statusText, build.finishedTimestamp, build.runtimeId)
+    } yield (build.status, build.statusText, build.finishedTimestamp, build.modelVersionId)
 
     db.run(query.update(status.toString, Some(statusText), Some(finished), modelRuntime match {
       case Some(r) => Some(r.id)
@@ -120,41 +108,39 @@ class ModelBuildRepositoryImpl(
         .sortBy(_.startedTimestamp.desc)
         .joinLeft(Tables.Model)
         .on({ case (mb, m) => mb.modelId === m.modelId })
-        .joinLeft(Tables.ModelRuntime)
-        .on({ case ((mb, _), mr) => mb.runtimeId === mr.runtimeId })
-        .joinLeft(Tables.RuntimeType)
-        .on({ case (((mb, _), _), mrt) => mb.runtimeTypeId === mrt.runtimeTypeId })
-        .distinctOn(_._1._1._1.modelId)
+        .joinLeft(Tables.ModelVersion)
+        .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
+        .distinctOn(_._1._1.modelId)
         .result
     ).map(s => mapFromDb(s))
 }
 
 object ModelBuildRepositoryImpl {
 
-  def mapFromDb(model: Option[(((Tables.ModelBuild#TableElementType, Option[Tables.Model#TableElementType]), Option[Tables.ModelRuntime#TableElementType]), Option[Tables.RuntimeType#TableElementType])]): Option[ModelBuild] =
+  def mapFromDb(model: Option[((Tables.ModelBuild#TableElementType, Option[Tables.Model#TableElementType]), Option[Tables.ModelVersion#TableElementType])]): Option[ModelBuild] =
     model.map {
-      case (((modelBuild, maybeModel), maybeModelRuntime), maybeRuntimeType) =>
+      case ((modelBuild, maybeModel), modelVersion) =>
+        val model = maybeModel.map(ModelRepositoryImpl.mapFromDb)
         mapFromDb(
           modelBuild,
-          maybeModel.map(ModelRepositoryImpl.mapFromDb),
-          maybeModelRuntime.map(t => ModelRuntimeRepositoryImpl.mapFromDb(t, None)),
-          maybeRuntimeType.map(RuntimeTypeRepositoryImpl.mapFromDb)
+          model,
+          modelVersion.map(m => ModelVersionRepositoryImpl.mapFromDb(m, model))
         )
     }
 
-  def mapFromDb(tuples: Seq[(((Tables.ModelBuild#TableElementType, Option[Tables.Model#TableElementType]), Option[Tables.ModelRuntime#TableElementType]), Option[Tables.RuntimeType#TableElementType])]): Seq[ModelBuild] = {
+  def mapFromDb(tuples: Seq[((Tables.ModelBuild#TableElementType, Option[Tables.Model#TableElementType]), Option[Tables.ModelVersion#TableElementType])]): Seq[ModelBuild] = {
     tuples.map {
-      case (((modelBuild, maybeModel), maybeModelRuntime), maybeRuntimeType) =>
+      case ((modelBuild, maybeModel), modelVersion) =>
+        val model = maybeModel.map(ModelRepositoryImpl.mapFromDb)
         mapFromDb(
           modelBuild,
-          maybeModel.map(ModelRepositoryImpl.mapFromDb),
-          maybeModelRuntime.map(t => ModelRuntimeRepositoryImpl.mapFromDb(t, None)),
-          maybeRuntimeType.map(RuntimeTypeRepositoryImpl.mapFromDb)
+          model,
+          modelVersion.map(m => ModelVersionRepositoryImpl.mapFromDb(m, model))
         )
     }
   }
 
-  def mapFromDb(modelBuild: Tables.ModelBuild#TableElementType, model: Option[Model], modelRuntime: Option[ModelRuntime], runtimeType: Option[RuntimeType]): ModelBuild = {
+  def mapFromDb(modelBuild: Tables.ModelBuild#TableElementType, model: Option[Model], modelVersion: Option[ModelVersion]): ModelBuild = {
     ModelBuild(
       id = modelBuild.modelBuildId,
       model = model.get,
@@ -163,9 +149,8 @@ object ModelBuildRepositoryImpl {
       status = ModelBuildStatus.withName(modelBuild.status),
       statusText = modelBuild.statusText,
       logsUrl = modelBuild.logsUrl,
-      modelRuntime = modelRuntime,
-      modelVersion = modelBuild.modelVersion,
-      runtimeType = runtimeType
+      version = modelBuild.modelVersion,
+      modelVersion = modelVersion
     )
   }
 }

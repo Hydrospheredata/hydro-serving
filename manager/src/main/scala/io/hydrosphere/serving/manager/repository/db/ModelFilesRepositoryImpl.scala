@@ -1,6 +1,5 @@
 package io.hydrosphere.serving.manager.repository.db
 
-import io.hydrosphere.serving.manager
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.manager.model.{Model, ModelFile}
 import io.hydrosphere.serving.manager.repository.ModelFilesRepository
@@ -28,7 +27,8 @@ class ModelFilesRepositoryImpl(
       )
     ).map(s => mapFromDb(s, entity.model))
 
-  override def get(id: Long): Future[Option[ModelFile]] = ???
+  override def get(id: Long): Future[Option[ModelFile]] =
+    throw new UnsupportedOperationException
 
   override def delete(id: Long): Future[Int] =
     db.run(
@@ -37,14 +37,15 @@ class ModelFilesRepositoryImpl(
         .delete
     )
 
-  override def all(): Future[Seq[ModelFile]] = ???
+  override def all(): Future[Seq[ModelFile]] =
+    throw new UnsupportedOperationException
 
   override def modelFiles(modelId: Long): Future[List[ModelFile]] =
     db.run(
       Tables.ModelFiles
         .filter(_.modelId === modelId)
         .join(Tables.Model)
-        .on({case (mfid, mid) => mid.modelId === mfid.modelId})
+        .on({ case (mfid, mid) => mid.modelId === mfid.modelId })
         .result
     ).map(mapFromDb)
 
@@ -53,7 +54,7 @@ class ModelFilesRepositoryImpl(
       Tables.ModelFiles
         .filter(_.filePath === filePath)
         .join(Tables.Model)
-        .on({case (mfid, mid) => mid.modelId === mfid.modelId})
+        .on({ case (mfid, mid) => mid.modelId === mfid.modelId })
         .result
         .headOption
     ).map(mapFromDb)
@@ -89,7 +90,7 @@ class ModelFilesRepositoryImpl(
 
 object ModelFilesRepositoryImpl {
 
-  def mapFromDb(s: _root_.io.hydrosphere.serving.manager.db.Tables.ModelFilesRow, model: Model): ModelFile = {
+  def mapFromDb(s: _root_.io.hydrosphere.serving.manager.db.Tables.ModelFilesRow, model: Model): ModelFile =
     ModelFile(
       s.fileId,
       s.filePath,
@@ -98,9 +99,9 @@ object ModelFilesRepositoryImpl {
       s.createdAt,
       s.updatedAt
     )
-  }
 
-  def mapFromDb(x: (Tables.ModelFilesRow, Tables.ModelRow)): ModelFile = {
+
+  def mapFromDb(x: (Tables.ModelFilesRow, Tables.ModelRow)): ModelFile =
     x match {
       case (modelFiles, model) =>
         ModelFile(
@@ -112,14 +113,14 @@ object ModelFilesRepositoryImpl {
           modelFiles.updatedAt
         )
     }
-  }
 
-  def mapFromDb(m: Option[(Tables.ModelFilesRow, Tables.ModelRow)]): Option[ModelFile] = {
+
+  def mapFromDb(m: Option[(Tables.ModelFilesRow, Tables.ModelRow)]): Option[ModelFile] =
     m.map(mapFromDb)
-  }
 
-  def mapFromDb(m: Seq[(Tables.ModelFilesRow, Tables.ModelRow)]): List[ModelFile] = {
+
+  def mapFromDb(m: Seq[(Tables.ModelFilesRow, Tables.ModelRow)]): List[ModelFile] =
     m.map(mapFromDb).toList
-  }
+
 
 }

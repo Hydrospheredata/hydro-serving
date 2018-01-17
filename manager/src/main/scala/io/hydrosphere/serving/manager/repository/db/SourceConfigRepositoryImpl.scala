@@ -16,7 +16,7 @@ class SourceConfigRepositoryImpl(implicit ec: ExecutionContext, databaseService:
   import databaseService.driver.api._
   import SourceConfigRepositoryImpl._
 
-  override def create(entity: ModelSourceConfigAux) = db.run(
+  override def create(entity: ModelSourceConfigAux): Future[ModelSourceConfigAux] = db.run(
     Tables.ModelSource returning Tables.ModelSource += Tables.ModelSourceRow(
       entity.id,
       entity.name,
@@ -24,7 +24,7 @@ class SourceConfigRepositoryImpl(implicit ec: ExecutionContext, databaseService:
     )
   ).map(mapFromDb)
 
-  override def get(id: Long) = db.run(
+  override def get(id: Long):Future[Option[ModelSourceConfigAux]] = db.run(
     Tables.ModelSource.filter(_.sourceId === id).result.headOption
   ).map(mapFromDb)
 
@@ -53,8 +53,8 @@ object SourceConfigRepositoryImpl extends ManagerJsonSupport {
     )
   }
 
-  def mapFromDb(dbType: Seq[Tables.ModelSource#TableElementType]): Seq[ModelSourceConfigAux] = {
+  def mapFromDb(dbType: Seq[Tables.ModelSource#TableElementType]): Seq[ModelSourceConfigAux] =
     dbType.map(mapFromDb)
-  }
+
 }
 

@@ -92,11 +92,8 @@ object ApplicationRepositoryImpl extends CommonJsonSupport {
 
   import spray.json._
 
-  def mapFromDb(dbType: Option[Tables.Application#TableElementType]): Option[Application] = dbType match {
-    case Some(r: Tables.Application#TableElementType) =>
-      Some(mapFromDb(r))
-    case _ => None
-  }
+  def mapFromDb(dbType: Option[Tables.Application#TableElementType]): Option[Application] =
+    dbType.map(r => mapFromDb(r))
 
   def mapFromDb(dbType: Tables.Application#TableElementType): Application = {
     Application(

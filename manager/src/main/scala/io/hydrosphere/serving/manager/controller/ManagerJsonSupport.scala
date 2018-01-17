@@ -11,7 +11,7 @@ import spray.json._
   */
 trait ManagerJsonSupport extends CommonJsonSupport {
   implicit val modelBuildStatusFormat = new EnumJsonConverter(ModelBuildStatus)
-  implicit val modelServiceInstanceStatusFormat = new EnumJsonConverter(ModelServiceInstanceStatus)
+  implicit val modelServiceInstanceStatusFormat = new EnumJsonConverter(ServiceInstanceStatus)
 
   implicit val modelFormat = jsonFormat8(Model.apply)
 

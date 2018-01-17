@@ -105,8 +105,8 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
   implicit val sigDescFormat = jsonFormat3(SignatureDescription.apply)
   implicit val contractDescFormat = jsonFormat1(ContractDescription.apply)
 
-  implicit val runtimeTypeFormat = jsonFormat6(RuntimeType)
-  implicit val modelRuntimeFormat = jsonFormat13(ModelRuntime)
+  implicit val runtimeTypeFormat = jsonFormat6(Runtime)
+  implicit val modelRuntimeFormat = jsonFormat13(ModelVersion)
   implicit val servingEnvironmentFormat = jsonFormat3(ServingEnvironment)
   implicit val modelServiceFormat = jsonFormat8(ModelService)
 

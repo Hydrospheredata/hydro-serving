@@ -13,7 +13,7 @@ case class CreateModelServiceRequest(
   configParams: Option[Map[String, String]],
   environmentId: Option[Long]
 ) {
-  def toModelService(runtime: ModelRuntime, environment: Option[ServingEnvironment]): ModelService = {
+  def toModelService(runtime: ModelVersion, environment: Option[ServingEnvironment]): ModelService = {
     ModelService(
       serviceId = 0,
       serviceName = this.serviceName,
@@ -126,15 +126,15 @@ class RuntimeManagementServiceImpl(
   private def fetchServingEnvironment(environmentId: Option[Long]): Future[ServingEnvironment] = {
     environmentId match {
       case Some(x) => x match {
-        case AnyServingEnvironment.anyServingEnvironmentId =>
-          Future.successful(new AnyServingEnvironment())
+        case AnyEnvironment.`anyEnvironmentId` =>
+          Future.successful(new AnyEnvironment())
         case _ =>
           servingEnvironmentRepository.get(x)
             .map(s => s.getOrElse({
               throw new IllegalArgumentException(s"Can't find ServingEnvironment with id=$x")
             }))
       }
-      case None => Future.successful(new AnyServingEnvironment())
+      case None => Future.successful(new AnyEnvironment())
     }
   }
 
@@ -206,7 +206,7 @@ class RuntimeManagementServiceImpl(
     allServices().map(s => s.filter(service => runtimeIds.contains(service.modelRuntime.id)))
 
   override def allServingEnvironments(): Future[Seq[ServingEnvironment]] =
-    servingEnvironmentRepository.all().flatMap(s => Future.successful(s :+ new AnyServingEnvironment()))
+    servingEnvironmentRepository.all().flatMap(s => Future.successful(s :+ new AnyEnvironment()))
 
   override def createServingEnvironment(r: CreateServingEnvironment): Future[ServingEnvironment] =
     servingEnvironmentRepository.create(r.toServingEnvironment())

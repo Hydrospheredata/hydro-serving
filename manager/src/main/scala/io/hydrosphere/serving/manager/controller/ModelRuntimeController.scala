@@ -5,7 +5,7 @@ import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.model.ModelRuntime
+import io.hydrosphere.serving.manager.model.ModelVersion
 import io.hydrosphere.serving.manager.service.{CreateModelRuntime, ModelManagementService}
 import io.swagger.annotations._
 
@@ -22,7 +22,7 @@ class ModelRuntimeController (modelManagementService: ModelManagementService) ex
   @Path("/")
   @ApiOperation(value = "listModelRuntimes", notes = "listModelRuntimes", nickname = "listModelRuntimes", httpMethod = "GET")
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "ModelRuntime", response = classOf[ModelRuntime], responseContainer = "List"),
+    new ApiResponse(code = 200, message = "ModelRuntime", response = classOf[ModelVersion], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def listModelRuntimes = path("api" / "v1" / "modelRuntime") {
@@ -39,7 +39,7 @@ class ModelRuntimeController (modelManagementService: ModelManagementService) ex
       dataTypeClass = classOf[String], paramType = "body", collectionFormat = "List")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "ModelRuntime", response = classOf[ModelRuntime], responseContainer = "List"),
+    new ApiResponse(code = 200, message = "ModelRuntime", response = classOf[ModelVersion], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def listModelRuntimesByTag = path("api" / "v1" / "modelRuntime" / "byTag") {
@@ -60,7 +60,7 @@ class ModelRuntimeController (modelManagementService: ModelManagementService) ex
       dataType = "io.hydrosphere.serving.manager.service.CreateModelRuntime", paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "ModelRuntime", response = classOf[ModelRuntime]),
+    new ApiResponse(code = 200, message = "ModelRuntime", response = classOf[ModelVersion]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def addModelRuntime = path("api" / "v1" / "modelRuntime") {
@@ -80,7 +80,7 @@ class ModelRuntimeController (modelManagementService: ModelManagementService) ex
     new ApiImplicitParam(name = "maximum", required = false, dataType = "int", paramType = "query", value = "maximum", defaultValue = "10")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "ModelRuntime", response = classOf[ModelRuntime], responseContainer = "List"),
+    new ApiResponse(code = 200, message = "ModelRuntime", response = classOf[ModelVersion], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def lastModelBuilds = get {

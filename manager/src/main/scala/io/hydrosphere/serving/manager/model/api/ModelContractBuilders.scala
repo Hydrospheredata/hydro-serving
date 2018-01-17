@@ -6,8 +6,6 @@ import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 import io.hydrosphere.serving.tensorflow.types.DataType
 
 object ModelContractBuilders {
-  import io.hydrosphere.serving.manager.model.api.ContractOps.Implicits._
-
   def createUnknownTensorShape(): TensorShapeProto = {
     TensorShapeProto(unknownRank = true)
   }

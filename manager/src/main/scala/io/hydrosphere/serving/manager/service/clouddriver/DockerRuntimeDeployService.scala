@@ -7,7 +7,7 @@ import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.{ListContainersParam, RemoveContainerParam}
 import com.spotify.docker.client.messages._
 import io.hydrosphere.serving.manager.{DockerCloudDriverConfiguration, ManagerConfiguration}
-import io.hydrosphere.serving.manager.model.{ModelServiceInstance, ModelServiceInstanceStatus}
+import io.hydrosphere.serving.manager.model.{ModelServiceInstance, ServiceInstanceStatus}
 import io.hydrosphere.serving.manager.model.ModelService
 import org.apache.logging.log4j.scala.Logging
 
@@ -126,9 +126,9 @@ class DockerRuntimeDeployService(
           host = container.networkSettings().networks().get(conf.networkName).ipAddress(),
           serviceId = container.config().labels().get(LABEL_SERVICE_ID).toLong,
           status = if (container.state().running()) {
-            ModelServiceInstanceStatus.UP
+            ServiceInstanceStatus.UP
           } else {
-            ModelServiceInstanceStatus.DOWN
+            ServiceInstanceStatus.DOWN
           },
           statusText = Option(s.status),
           appPort = envMap.getOrDefault(ENV_APP_HTTP_PORT, DEFAULT_APP_HTTP_PORT.toString).toInt,

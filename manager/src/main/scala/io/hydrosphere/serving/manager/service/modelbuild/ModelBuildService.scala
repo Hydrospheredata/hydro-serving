@@ -57,11 +57,11 @@ trait ModelPushService {
     modelBuild.model.name
   }
 
-  def push(modelRuntime: ModelRuntime, progressHandler: ProgressHandler)
+  def push(modelRuntime: ModelVersion, progressHandler: ProgressHandler)
 }
 
 class EmptyModelPushService extends ModelPushService {
-  override def push(modelRuntime: ModelRuntime, progressHandler: ProgressHandler): Unit = {}
+  override def push(modelRuntime: ModelVersion, progressHandler: ProgressHandler): Unit = {}
 }
 
 object DockerClientHelper {

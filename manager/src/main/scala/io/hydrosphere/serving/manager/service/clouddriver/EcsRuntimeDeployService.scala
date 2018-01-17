@@ -6,7 +6,7 @@ import com.amazonaws.services.ecs.model._
 import com.amazonaws.services.ecs.{AmazonECS, AmazonECSClientBuilder}
 import io.hydrosphere.serving.manager.controller.CommonJsonSupport
 import io.hydrosphere.serving.manager.{ECSCloudDriverConfiguration, ManagerConfiguration}
-import io.hydrosphere.serving.manager.model.{ModelServiceInstance, ModelServiceInstanceStatus}
+import io.hydrosphere.serving.manager.model.{ModelServiceInstance, ServiceInstanceStatus}
 import io.hydrosphere.serving.manager.model.ModelService
 import org.apache.logging.log4j.scala.Logging
 
@@ -247,9 +247,9 @@ class EcsRuntimeDeployService(
               sidecarAdminPort = findHostPort(container, DEFAULT_SIDECAR_ADMIN_PORT),
               serviceId = service.getServiceName.split('_').last.toLong,
               status = if ("running".equalsIgnoreCase(container.getLastStatus)) {
-                ModelServiceInstanceStatus.UP
+                ServiceInstanceStatus.UP
               } else {
-                ModelServiceInstanceStatus.DOWN
+                ServiceInstanceStatus.DOWN
               },
               statusText = Option(container.getReason)
             ))

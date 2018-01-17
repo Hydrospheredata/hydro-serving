@@ -22,14 +22,14 @@ case class UIServiceInfo(
 )
 
 case class UIRuntimeInfo(
-  runtime: ModelRuntime,
+  runtime: ModelVersion,
   services: Seq[UIServiceInfo]
 )
 
 case class ModelInfo(
   model: Model,
   lastModelBuild: Option[ModelBuild],
-  lastModelRuntime: Option[ModelRuntime],
+  lastModelRuntime: Option[ModelVersion],
   currentServices: List[ModelService],
   nextVersion: Option[Long]
 )
@@ -208,7 +208,7 @@ class UIManagementServiceImpl(
         }
       }
 
-  private def createModelServiceRequest(x: ModelRuntime, environmentId: Option[Long]): CreateModelServiceRequest = {
+  private def createModelServiceRequest(x: ModelVersion, environmentId: Option[Long]): CreateModelServiceRequest = {
     CreateModelServiceRequest(
       serviceName = s"${x.modelName}_${x.modelVersion}".replaceAll("\\.", "-"),
       modelRuntimeId = x.id,
@@ -236,7 +236,7 @@ class UIManagementServiceImpl(
           .flatMap { _ => modelWithLastStatus(modelId).map(_.head) }
       }
 
-  private def getDefaultKafkaImplementation(): Future[Option[ModelRuntime]] = {
+  private def getDefaultKafkaImplementation(): Future[Option[ModelVersion]] = {
     modelRuntimeRepository.fetchByTags(Seq("streaming", "kafka"))
       .map(s => s.headOption)
   }

@@ -7,7 +7,7 @@ import com.amazonaws.services.ecr.model._
 import com.spotify.docker.client.DockerClient
 import io.hydrosphere.serving.manager.ECSDockerRepositoryConfiguration
 import io.hydrosphere.serving.manager.model.ModelBuild
-import io.hydrosphere.serving.manager.model.ModelRuntime
+import io.hydrosphere.serving.manager.model.ModelVersion
 
 /**
   *
@@ -57,7 +57,7 @@ class ECSModelPushService(
     s"${ecsDockerRepositoryConfiguration.accountId}.dkr.ecr.${ecsDockerRepositoryConfiguration.region.getName}.amazonaws.com/${modelBuild.model.name}"
   }
 
-  override def push(modelRuntime: ModelRuntime, progressHandler: ProgressHandler): Unit = {
+  override def push(modelRuntime: ModelVersion, progressHandler: ProgressHandler): Unit = {
     createRepositoryIfNeeded(modelRuntime.modelName)
 
     dockerClient.push(

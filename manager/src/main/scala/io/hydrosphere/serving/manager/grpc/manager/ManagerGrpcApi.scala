@@ -1,9 +1,10 @@
-package io.hydrosphere.serving.manager
+package io.hydrosphere.serving.manager.grpc.manager
 
 import com.google.protobuf.ByteString
+import io.hydrosphere.serving.manager.ManagerServices
 import io.hydrosphere.serving.manager.connector.{ExecutionFailure, ExecutionSuccess}
-import io.hydrosphere.serving.manager.service.{ModelByName, ServeRequest}
 import io.hydrosphere.serving.manager.model.api.ContractOps
+import io.hydrosphere.serving.manager.service.{ModelByName, ServeRequest}
 import io.hydrosphere.serving.tensorflow.api.predict.{PredictRequest, PredictResponse}
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc.PredictionService
 import io.hydrosphere.serving.tensorflow.tensor.TensorProto
