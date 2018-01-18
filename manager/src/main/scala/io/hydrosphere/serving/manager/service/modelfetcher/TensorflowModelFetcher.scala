@@ -16,8 +16,9 @@ import org.apache.logging.log4j.scala.Logging
 import org.tensorflow.framework.{SavedModel, SignatureDef, TensorInfo => TFTensorInfo}
 
 import scala.collection.JavaConversions._
+
 /**
-  * Created by bulat on 24/07/2017.
+  *
   */
 object TensorflowModelFetcher extends ModelFetcher with Logging {
 
@@ -45,10 +46,10 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
         )
       )
     } catch {
-      case e: NoSuchFileException =>
+      case _: NoSuchFileException =>
         logger.debug(s"$directory in not a valid Tensorflow model")
         None
-      case e: FileNotFoundException =>
+      case _: FileNotFoundException =>
         logger.debug(s"$source $directory in not a valid Tensorflow model")
         None
     }

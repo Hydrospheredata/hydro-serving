@@ -17,7 +17,7 @@ import scala.concurrent.duration._
 @Path("/api/v1/servingEnvironment")
 @Api(produces = "application/json", tags = Array("Deployment: Serving Environment"))
 class ServingEnvironmentController(
-  runtimeManagementService: RuntimeManagementService
+  runtimeManagementService: DDRuntimeManagementService
 ) extends ManagerJsonSupport {
   implicit val timeout = Timeout(5.seconds)
 

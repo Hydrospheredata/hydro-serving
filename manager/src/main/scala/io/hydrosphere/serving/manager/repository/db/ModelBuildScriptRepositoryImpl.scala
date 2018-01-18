@@ -23,22 +23,21 @@ class ModelBuildScriptRepositoryImpl(
     db.run(
       Tables.ModelBuildScript returning Tables.ModelBuildScript += Tables.ModelBuildScriptRow(
         entity.name,
-        mapVersion(entity.version),
         entity.script
       )
     ).map(s => mapFromDb(s))
 
-  override def get(name: String, version: Option[String]): Future[Option[ModelBuildScript]] =
+  override def get(name: String): Future[Option[ModelBuildScript]] =
     db.run(
       Tables.ModelBuildScript
-        .filter(p => p.name === name && p.version === version)
+        .filter(p => p.name === name)
         .result.headOption
     ).map(s => mapFromDb(s))
 
-  override def delete(name: String, version: Option[String]): Future[Int] =
+  override def delete(name: String): Future[Int] =
     db.run(
       Tables.ModelBuildScript
-        .filter(p => p.name === name && p.version === version)
+        .filter(p => p.name === name)
         .delete
     )
 
@@ -67,8 +66,7 @@ object ModelBuildScriptRepositoryImpl {
   def mapFromDb(dbType: Tables.ModelBuildScript#TableElementType): ModelBuildScript = {
     ModelBuildScript(
       name = dbType.name,
-      script = dbType.script,
-      version = mapVersion(dbType.version)
+      script = dbType.script
     )
   }
 }

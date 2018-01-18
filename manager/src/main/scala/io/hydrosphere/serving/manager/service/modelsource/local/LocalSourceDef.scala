@@ -7,7 +7,7 @@ case class LocalSourceDef(
   name: String,
   path: String
 ) extends SourceDef {
-  override def prefix = name
+  override def prefix:String = name
 }
 
 object LocalSourceDef{

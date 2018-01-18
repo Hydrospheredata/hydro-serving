@@ -1,53 +1,54 @@
 package io.hydrosphere.serving.manager
 
-import io.hydrosphere.serving.manager.repository.{RuntimeTypeBuildScriptRepository, _}
+import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.repository.db._
 
 import scala.concurrent.ExecutionContext
 
 trait ManagerRepositories {
-  val runtimeTypeRepository: RuntimeTypeRepository
+
+  val runtimeRepository: RuntimeRepository
 
   val modelRepository: ModelRepository
 
   val modelFilesRepository: ModelFilesRepository
 
-  val modelRuntimeRepository: ModelRuntimeRepository
+  val modelVersionRepository: ModelVersionRepository
 
   val modelBuildRepository: ModelBuildRepository
 
-  val modelServiceRepository: ModelServiceRepository
+  val serviceRepository: ServiceRepository
 
-  val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository
+  val modelBuildScriptRepository: ModelBuildScriptRepository
 
   val sourceRepository: SourceConfigRepository
 
   val applicationRepository: ApplicationRepository
 
-  val servingEnvironmentRepository: ServingEnvironmentRepository
+  val environmentRepository: EnvironmentRepository
 }
 
 class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit executionContext: ExecutionContext)
   extends ManagerRepositories {
   implicit val dataService = new DatabaseService(config.database)
 
-  val runtimeTypeRepository: RuntimeTypeRepository = new RuntimeTypeRepositoryImpl
+  val runtimeRepository: RuntimeRepository = new RuntimeRepositoryImpl
 
   val modelRepository: ModelRepository = new ModelRepositoryImpl
 
   val modelFilesRepository = new ModelFilesRepositoryImpl
 
-  val modelRuntimeRepository: ModelRuntimeRepository = new ModelRuntimeRepositoryImpl
+  val modelVersionRepository: ModelVersionRepository = new ModelVersionRepositoryImpl
 
   val modelBuildRepository: ModelBuildRepository = new ModelBuildRepositoryImpl
 
-  val modelServiceRepository: ModelServiceRepository = new ModelServiceRepositoryImpl
+  val serviceRepository: ServiceRepository = new ServiceRepositoryImpl
 
-  val runtimeTypeBuildScriptRepository: RuntimeTypeBuildScriptRepository = new RuntimeTypeBuildScriptRepositoryImpl
+  val modelBuildScriptRepository: ModelBuildScriptRepository = new ModelBuildScriptRepositoryImpl
 
   val sourceRepository: SourceConfigRepository = new SourceConfigRepositoryImpl
 
   val applicationRepository: ApplicationRepository = new ApplicationRepositoryImpl
 
-  val servingEnvironmentRepository: ServingEnvironmentRepository = new ServingEnvironmentRepositoryImpl
+  val environmentRepository: EnvironmentRepository = new EnvironmentRepositoryImpl
 }

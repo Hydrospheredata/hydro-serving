@@ -11,7 +11,7 @@ import io.hydrosphere.serving.manager.service.modelsource.{FileCreated, FileDele
 import scala.collection.JavaConversions._
 
 /**
-  * Created by bulat on 04.07.17.
+  *
   */
 class S3SourceWatcherActor(val source: S3ModelSource) extends SourceWatcherActor {
   private val sourceDef = source.sourceDef
@@ -102,5 +102,5 @@ object S3SourceWatcherActor{
   }
 
   def props(source: S3ModelSource)=
-    Props(classOf[S3SourceWatcherActor], source)
+    Props(new S3SourceWatcherActor(source))
 }

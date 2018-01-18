@@ -98,7 +98,6 @@ object ModelBuildStatus extends Enumeration {
 
 case class ModelBuildScript(
   name: String,
-  version: Option[String],
   script: String
 )
 

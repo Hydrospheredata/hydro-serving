@@ -12,7 +12,7 @@ import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSourc
 import org.apache.logging.log4j.scala.Logging
 
 /**
-  * Created by Bulat on 31.05.2017.
+  *
   */
 class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging {
   private[this] val localFolder =  s"/tmp/${sourceDef.name}"
@@ -29,12 +29,12 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
     if (Files.exists(path) && Files.isDirectory(path)) {
       Files.walkFileTree(path, new FileVisitor[Path] {
         def visitFileFailed(file: Path, exc: IOException) = FileVisitResult.CONTINUE
-        def visitFile(file: Path, attrs: BasicFileAttributes) = {
+        def visitFile(file: Path, attrs: BasicFileAttributes): FileVisitResult = {
           Files.delete(file)
           FileVisitResult.CONTINUE
         }
         def preVisitDirectory(dir: Path, attrs: BasicFileAttributes) = FileVisitResult.CONTINUE
-        def postVisitDirectory(dir: Path, exc: IOException) = {
+        def postVisitDirectory(dir: Path, exc: IOException): FileVisitResult = {
           Files.delete(dir)
           FileVisitResult.CONTINUE
         }

@@ -110,7 +110,7 @@ class UIManagementServiceImpl(
   modelRuntimeRepository: ModelRuntimeRepository,
   modelBuildRepository: ModelBuildRepository,
   modelServiceRepository: ModelServiceRepository,
-  runtimeManagementService: RuntimeManagementService,
+  runtimeManagementService: DDRuntimeManagementService,
   servingManagementService: ServingManagementService,
   modelManagementService: ModelManagementService
 )(implicit val ex: ExecutionContext, val actorSystem: ActorSystem, val timeout: Timeout) extends UIManagementService with Logging {

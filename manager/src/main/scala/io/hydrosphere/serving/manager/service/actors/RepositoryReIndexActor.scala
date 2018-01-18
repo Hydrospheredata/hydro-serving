@@ -45,5 +45,5 @@ class RepositoryReIndexActor(val modelManagementService: ModelManagementService)
 }
 
 object RepositoryReIndexActor {
-  def props(modelManagementService: ModelManagementService) = Props(classOf[RepositoryReIndexActor], modelManagementService)
+  def props(modelManagementService: ModelManagementService) = Props(new RepositoryReIndexActor(modelManagementService))
 }

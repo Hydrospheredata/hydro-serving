@@ -7,7 +7,7 @@ import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.Runtime
-import io.hydrosphere.serving.manager.service.{CreateRuntimeTypeRequest, ModelManagementService, RuntimeTypeManagementService}
+import io.hydrosphere.serving.manager.service.{CreateRuntimeTypeRequest, ModelManagementService, RuntimeManagementService}
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
@@ -17,7 +17,7 @@ import scala.concurrent.duration._
   */
 @Path("/api/v1/runtimeType")
 @Api(produces = "application/json", tags = Array("Models: RuntimeType"))
-class RuntimeTypeController(modelManagementService: ModelManagementService, runtimeTypeManagementService: RuntimeTypeManagementService) extends ManagerJsonSupport {
+class RuntimeTypeController(modelManagementService: ModelManagementService, runtimeTypeManagementService: RuntimeManagementService) extends ManagerJsonSupport {
   implicit val timeout = Timeout(5.seconds)
 
   @Path("/")
@@ -62,7 +62,7 @@ class RuntimeTypeController(modelManagementService: ModelManagementService, runt
   def lookupByTag = path("api" / "v1" / "runtimeType" / "modelType" / Segment) { tag =>
     get {
       complete {
-        ModelType.tryFromTag(tag).map(runtimeTypeManagementService.lookupRuntimeType)
+        ModelType.tryFromTag(tag).map(runtimeTypeManagementService.lookupRuntime)
       }
     }
   }

@@ -71,6 +71,13 @@ class RuntimeRepositoryImpl(
         .filter(p => p.tags @> tags.toList)
         .result
     ).map(s => s.map(ss => mapFromDb(ss)))
+
+  override def fetchByModelType(modelType: Seq[ModelType]): Future[Seq[Runtime]] =
+    db.run(
+      Tables.Runtime
+        .filter(p => p.tags @> modelType.map(p=>p.toTag).toList)
+        .result
+    ).map(s => s.map(ss => mapFromDb(ss)))
 }
 
 object RuntimeRepositoryImpl {

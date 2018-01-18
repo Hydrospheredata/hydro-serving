@@ -73,9 +73,9 @@ class ManagerServices(
       None
   }
 
-  val runtimeTypeManagementService: RuntimeTypeManagementService = new RuntimeTypeManagementServiceImpl(managerRepositories.runtimeTypeRepository)
+  val runtimeTypeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(managerRepositories.runtimeTypeRepository)
 
-  val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(
+  val runtimeManagementService: DDRuntimeManagementService = new DDRuntimeManagementServiceImpl(
     runtimeDeployService,
     managerRepositories.modelServiceRepository,
     managerRepositories.modelRuntimeRepository,

@@ -102,9 +102,8 @@ CREATE TABLE hydro_serving.model_files
 CREATE TABLE hydro_serving.model_build_script
 (
   name    TEXT NOT NULL,
-  version TEXT,
   script  TEXT NOT NULL,
-  PRIMARY KEY (name, version)
+  PRIMARY KEY (name)
 );
 
 

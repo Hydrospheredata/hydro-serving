@@ -8,7 +8,7 @@ import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSourc
 import io.hydrosphere.serving.manager.service.modelsource.s3.{S3ModelSource, S3SourceDef}
 
 /**
-  * Created by Bulat on 31.05.2017.
+  *
   */
 trait ModelSource {
   def getReadableFile(path: String): File

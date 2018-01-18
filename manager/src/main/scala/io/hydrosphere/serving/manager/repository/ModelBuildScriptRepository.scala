@@ -8,11 +8,11 @@ import scala.concurrent.Future
   *
   */
 trait ModelBuildScriptRepository {
-  def create(entity: ModelBuildScript ): Future[ModelBuildScript ]
+  def create(entity: ModelBuildScript): Future[ModelBuildScript]
 
-  def get(name: String, version: Option[String]): Future[Option[ModelBuildScript ]]
+  def get(name: String): Future[Option[ModelBuildScript]]
 
-  def delete(name: String, version: Option[String]): Future[Int]
+  def delete(name: String): Future[Int]
 
-  def all(): Future[Seq[ModelBuildScript ]]
+  def all(): Future[Seq[ModelBuildScript]]
 }

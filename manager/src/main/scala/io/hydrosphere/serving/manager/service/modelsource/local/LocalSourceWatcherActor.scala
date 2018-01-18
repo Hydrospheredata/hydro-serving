@@ -16,7 +16,7 @@ import scala.collection.mutable
 
 
 /**
-  * Created by Bulat on 31.05.2017.
+  *
   */
 class LocalSourceWatcherActor(val source: LocalModelSource) extends SourceWatcherActor {
   private[this] val watcher = FileSystems.getDefault.newWatchService()
@@ -121,5 +121,5 @@ class LocalSourceWatcherActor(val source: LocalModelSource) extends SourceWatche
 
 object LocalSourceWatcherActor{
   def props(source: LocalModelSource)=
-    Props(classOf[LocalSourceWatcherActor], source)
+    Props(new LocalSourceWatcherActor(source))
 }

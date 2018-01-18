@@ -8,7 +8,7 @@ import scala.collection.concurrent.TrieMap
 class WatcherRegistryActor extends Actor with ActorLogging {
   private[this] val watchers = TrieMap.empty[String, ActorRef]
 
-  override def receive = {
+  override def receive: Actor.Receive = {
     case ListWatchers =>
       watchers.toMap
     case AddWatcher(source) =>
@@ -26,5 +26,5 @@ object WatcherRegistryActor {
   case object ListWatchers
   case class AddWatcher(source: ModelSource)
 
-  def props = Props(classOf[WatcherRegistryActor])
+  def props = Props(new WatcherRegistryActor())
 }

@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.service.modelsource.s3
 
-import com.amazonaws.auth.{AWSCredentialsProvider, AWSStaticCredentialsProvider, BasicAWSCredentials}
+import com.amazonaws.auth.{AWSStaticCredentialsProvider, BasicAWSCredentials}
 import com.amazonaws.services.s3.{AmazonS3, AmazonS3ClientBuilder}
 import com.amazonaws.services.sqs.{AmazonSQS, AmazonSQSClientBuilder}
 import io.hydrosphere.serving.manager.model.{ModelSourceConfig, S3SourceParams}
@@ -13,7 +13,7 @@ case class S3SourceDef(
   s3Client: AmazonS3,
   sqsClient: AmazonSQS
 ) extends SourceDef {
-  override def prefix = name
+  override def prefix:String = name
 }
 
 object S3SourceDef{

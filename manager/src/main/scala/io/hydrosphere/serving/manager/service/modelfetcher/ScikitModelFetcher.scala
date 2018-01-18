@@ -11,7 +11,7 @@ import org.apache.logging.log4j.scala.Logging
 import scala.collection.JavaConversions._
 
 /**
-  * Created by Bulat on 31.05.2017.
+  *
   */
 object ScikitModelFetcher extends ModelFetcher with Logging {
   override def fetch(source: ModelSource, directory: String): Option[ModelMetadata] = {

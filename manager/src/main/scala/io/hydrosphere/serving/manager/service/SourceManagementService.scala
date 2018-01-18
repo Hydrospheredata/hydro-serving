@@ -37,7 +37,7 @@ trait SourceManagementService {
 class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)
   (implicit ex: ExecutionContext, actorSystem: ActorSystem, timeout: Timeout) extends SourceManagementService with Logging {
 
-  val watcherRegistry = actorSystem.actorOf(WatcherRegistryActor.props, "WatcherRegistry")
+  private val watcherRegistry = actorSystem.actorOf(WatcherRegistryActor.props, "WatcherRegistry")
 
   def addSource(createModelSourceRequest: CreateModelSourceRequest): Future[ModelSourceConfigAux] = {
     val config = ModelSourceConfigAux(-1, createModelSourceRequest.name, createModelSourceRequest.params)
@@ -55,15 +55,15 @@ class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)
     watcher.mapTo[ActorRef]
   }
 
-  def deleteSource(modelSourceConfigAux: ModelSourceConfigAux) = {
+  /*def deleteSource(modelSourceConfigAux: ModelSourceConfigAux) = {
     ???
-  }
+  }*/
 
-  override def getSourceConfigs = {
-    sourceRepository.all().map{
-      _.map{ s =>
+  override def getSourceConfigs: Future[List[ModelSourceConfigAux]] = {
+    sourceRepository.all().map {
+      _.map { s =>
         s.params match {
-          case x: LocalSourceParams => s
+          case _: LocalSourceParams => s
           case x: S3SourceParams =>
             ModelSourceConfigAux(
               s.id,
@@ -86,7 +86,9 @@ class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)
 
   override def createWatchers: Future[Seq[ActorRef]] = {
     getSources.flatMap { sources =>
-      val watchers = sources.map { createWatcher }
+      val watchers = sources.map {
+        createWatcher
+      }
       Future.sequence(watchers)
     }
   }

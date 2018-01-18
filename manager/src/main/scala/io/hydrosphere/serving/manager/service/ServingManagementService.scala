@@ -60,7 +60,7 @@ class ServingManagementServiceImpl(
   modelServiceRepository: ModelServiceRepository,
   runtimeMeshConnector: RuntimeMeshConnector,
   applicationRepository: ApplicationRepository,
-  runtimeManagementService: RuntimeManagementService
+  runtimeManagementService: DDRuntimeManagementService
 )(implicit val ex: ExecutionContext) extends ServingManagementService with Logging {
 
   override def serve(req: ServeRequest): Future[ExecutionResult] = {

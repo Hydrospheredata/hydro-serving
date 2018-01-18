@@ -1,7 +1,6 @@
 package io.hydrosphere.serving.manager.service.modelbuild
 
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model._
 
 import scala.concurrent.Future
 
@@ -36,18 +35,10 @@ trait ProgressHandler {
 
 trait ModelBuildService {
   val SCRIPT_VAL_MODEL_PATH = "MODEL_PATH"
-  val SCRIPT_VAL_RUNTIME_IMAGE = "RUNTIME_IMAGE"
-  val SCRIPT_VAL_RUNTIME_VERSION = "RUNTIME_VERSION"
+  val SCRIPT_VAL_MODEL_TYPE = "MODEL_TYPE"
   val SCRIPT_VAL_MODEL_NAME = "MODEL_NAME"
   val SCRIPT_VAL_MODEL_VERSION = "MODEL_VERSION"
 
-  /**
-    *
-    * @param modelBuild
-    *
-    * @param progressHandler
-    * @return image md5 tag
-    */
   def build(modelBuild: ModelBuild, imageName: String, script: String, progressHandler: ProgressHandler): Future[String]
 
 }

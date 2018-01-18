@@ -110,6 +110,12 @@ class ModelRepositoryImpl(
     db.run(query.update(timestamp))
   }
 
+  override def fetchByModelType(types: Seq[ModelType]): Future[Seq[Model]] =
+    db.run(
+      Tables.Model
+        .filter(_.modelType inSetBind types.map(ModelType.toTag))
+        .result
+    ).map(mapFromDb)
 }
 
 object ModelRepositoryImpl extends ManagerJsonSupport {

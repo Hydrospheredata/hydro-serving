@@ -45,7 +45,7 @@ class ECSModelPushService(
     try {
       ecrClient.describeRepositories(req)
     } catch {
-      case ex: RepositoryNotFoundException =>
+      case _: RepositoryNotFoundException =>
         val createRepositoryRequest = new CreateRepositoryRequest
         createRepositoryRequest.setRepositoryName(modelName)
         ecrClient.createRepository(createRepositoryRequest)

@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.service.prometheus
 
 import io.hydrosphere.serving.manager.connector.EnvoyAdminConnector
 import io.hydrosphere.serving.manager.model.ModelServiceInstance
-import io.hydrosphere.serving.manager.service.RuntimeManagementService
+import io.hydrosphere.serving.manager.service.DDRuntimeManagementService
 import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.mutable
@@ -30,7 +30,7 @@ trait PrometheusMetricsService {
 }
 
 class PrometheusMetricsServiceImpl(
-  runtimeManagementService: RuntimeManagementService,
+  runtimeManagementService: DDRuntimeManagementService,
   envoyAdminConnector: EnvoyAdminConnector
 )(implicit val ex: ExecutionContext) extends PrometheusMetricsService with Logging {
 
