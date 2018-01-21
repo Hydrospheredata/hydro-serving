@@ -109,16 +109,15 @@ trait ModelManagementService {
 
   def deleteModelFile(fileName: String): Future[Int]
 
-  def generateModelPayload(modelName: String, signature: String): Future[Seq[JsObject]]
+  def generateModelPayload(modelId: Long, signature: String): Future[Seq[JsObject]]
 
-  def generateInputsForVersion(versionId: Long, signature: String): Future[Option[Seq[JsObject]]]
+  def generateInputsForVersion(versionId: Long, signature: String): Future[Seq[JsObject]]
 
   def lastModelVersionByModelId(id: Long, maximum: Int): Future[Seq[ModelVersion]]
 
   def modelBuildsByModelId(id: Long): Future[Seq[ModelBuild]]
 
   def lastModelBuildsByModelId(id: Long, maximum: Int): Future[Seq[ModelBuild]]
-
 
   def modelsByType(types: Set[String]): Future[Seq[Model]]
 }
@@ -191,7 +190,6 @@ class ModelManagementServiceImpl(
 
   override def lastModelBuildsByModelId(id: Long, maximum: Int): Future[Seq[ModelBuild]] =
     modelBuildRepository.lastByModelId(id, maximum)
-
 
   private def buildNewModelVersion(model: Model, modelVersion: Option[Long]): Future[ModelVersion] = {
     fetchLastModelVersion(model.id, modelVersion).flatMap { version =>
@@ -405,21 +403,26 @@ class ModelManagementServiceImpl(
     }
   }
 
-  override def generateModelPayload(modelName: String, signature: String): Future[Seq[JsObject]] = {
-    modelRepository.get(modelName).map {
-      case None => throw new IllegalArgumentException(s"Can't find model modelName=$modelName")
+  override def generateModelPayload(modelId: Long, signature: String): Future[Seq[JsObject]] =
+    modelRepository.get(modelId).map {
+      case None => throw new IllegalArgumentException(s"Can't find model modelId=$modelId")
       case Some(model) =>
-        val res = DataGenerator.forContract(model.modelContract, signature).get.generateInputs
-        Seq(ContractOps.TensorProtoOps.jsonify(res))
+        generatePayload(model.modelContract, signature)
     }
+
+
+  private def generatePayload(contract: ModelContract, signature: String): Seq[JsObject] = {
+    val res = DataGenerator.forContract(contract, signature)
+      .getOrElse(throw new IllegalArgumentException(s"Can't find signature model signature=$signature"))
+    Seq(ContractOps.TensorProtoOps.jsonify(res.generateInputs))
   }
 
-  override def generateInputsForVersion(versionId: Long, signature: String): Future[Option[Seq[JsObject]]] = {
-    modelVersionRepository.get(versionId).map(_.map { runtime =>
-      val res = DataGenerator.forContract(runtime.modelContract, signature).get.generateInputs
-      Seq(ContractOps.TensorProtoOps.jsonify(res))
-    })
-  }
+  override def generateInputsForVersion(versionId: Long, signature: String): Future[Seq[JsObject]] =
+    modelVersionRepository.get(versionId).map {
+      case None => throw new IllegalArgumentException(s"Can't find model version id=$versionId")
+      case Some(version) =>
+        generatePayload(version.modelContract, signature)
+    }
 
   override def submitContract(modelId: Long, prototext: String): Future[Option[Model]] = {
     ModelContract.validateAscii(prototext) match {

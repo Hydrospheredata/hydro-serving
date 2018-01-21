@@ -4,9 +4,10 @@ import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.manager.model.api.{ContractOps, DataGenerator, ModelType}
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.clouddriver._
+import spray.json.JsObject
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -70,6 +71,9 @@ trait ServiceManagementService {
   def createEnvironment(r: CreateEnvironmentRequest): Future[Environment]
 
   def deleteEnvironment(environmentId: Long): Future[Unit]
+
+  def serveService(serviceId: Long, inputData: Array[Byte]): Future[Array[Byte]]
+
 }
 
 //TODO ADD cache
@@ -231,4 +235,7 @@ class ServiceManagementServiceImpl(
 
   override def deleteEnvironment(environmentId: Long): Future[Unit] =
     environmentRepository.delete(environmentId).map(_ => Unit)
+
+  override def serveService(serviceId: Long, inputData: Array[Byte]): Future[Array[Byte]] =
+    Future.failed(new UnsupportedOperationException) //TODO
 }

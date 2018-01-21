@@ -1,18 +1,14 @@
 package io.hydrosphere.serving.manager.service
 
-import akka.http.scaladsl.model.HttpHeader
+sealed trait ServeKey
 
-sealed trait ServiceKey
-case class ApplicationKey(id: Long) extends ServiceKey
-case class ApplicationName(name: String) extends ServiceKey
+case class ApplicationKey(id: Long) extends ServeKey
 
-sealed trait ModelKey extends ServiceKey
-case class ModelById(id: Long) extends ModelKey
-case class ModelByName(name: String, version: Option[Long] = None) extends ModelKey
+case class ApplicationName(name: String) extends ServeKey
+
+case class ServiceById(id: Long) extends ServeKey
 
 case class ServeRequest(
-  serviceKey: ServiceKey,
-  servePath: String,
-  headers: Seq[HttpHeader],
+  serviceKey: ServeKey,
   inputData: Array[Byte]
 )

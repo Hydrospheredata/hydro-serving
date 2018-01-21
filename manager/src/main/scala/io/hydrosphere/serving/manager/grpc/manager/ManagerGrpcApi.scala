@@ -1,10 +1,7 @@
 package io.hydrosphere.serving.manager.grpc.manager
 
-import com.google.protobuf.ByteString
 import io.hydrosphere.serving.manager.ManagerServices
-import io.hydrosphere.serving.manager.connector.{ExecutionFailure, ExecutionSuccess}
 import io.hydrosphere.serving.manager.model.api.ContractOps
-import io.hydrosphere.serving.manager.service.{ModelByName, ServeRequest}
 import io.hydrosphere.serving.tensorflow.api.predict.{PredictRequest, PredictResponse}
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc.PredictionService
 import io.hydrosphere.serving.tensorflow.tensor.TensorProto
@@ -19,7 +16,8 @@ class ManagerGrpcApi(managerServices: ManagerServices)
 
   override def predict(request: PredictRequest) = {
     logger.info(request)
-    request.modelSpec match {
+    Future.failed(new RuntimeException())
+    /*TODO request.modelSpec match {
       case Some(x) =>
         val packedData = JsArray(ContractOps.TensorProtoOps.jsonify(request.inputs))
         val serveRequest = ServeRequest(
@@ -29,8 +27,8 @@ class ManagerGrpcApi(managerServices: ManagerServices)
           inputData = packedData.compactPrint.getBytes
         )
 
-        Future.failed(new RuntimeException())
-        /*TODO managerServices.servingManagementService.serve(serveRequest).flatMap {
+
+        managerServices.servingManagementService.serve(serveRequest).flatMap {
           case ExecutionSuccess(json, _) => Future.successful(
             PredictResponse(
               Map(
@@ -42,8 +40,8 @@ class ManagerGrpcApi(managerServices: ManagerServices)
             )
           )
           case ExecutionFailure(error, _) => Future.failed(new RuntimeException(error))
-        }*/
+        }
       case None => Future.failed(new IllegalArgumentException("ModelSpec is not defined"))
-    }
+    }*/
   }
 }
