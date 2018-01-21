@@ -50,7 +50,7 @@ case class CreateOrUpdateModelRequest(
 case class CreateModelVersionRequest(
   imageName: String,
   imageTag: String,
-  imageMD5: String,
+  imageSHA256: String,
   modelName: String,
   modelVersion: Long,
   source: Option[String],
@@ -67,7 +67,7 @@ case class CreateModelVersionRequest(
       id = 0,
       imageName = this.imageName,
       imageTag = this.imageTag,
-      imageMD5 = this.imageMD5,
+      imageSHA256 = this.imageSHA256,
       modelName = this.modelName,
       modelVersion = this.modelVersion,
       source = this.source,
@@ -250,12 +250,12 @@ class ModelManagementServiceImpl(
     }
 
     val imageName = modelPushService.getImageName(modelBuild)
-    modelBuildService.build(modelBuild, imageName, script, handler).flatMap { md5 =>
+    modelBuildService.build(modelBuild, imageName, script, handler).flatMap { sha256 =>
       modelVersionRepository.create(ModelVersion(
         id = 0,
         imageName = imageName,
-        imageTag = modelBuild.modelVersion.toString,
-        imageMD5 = md5,
+        imageTag = modelBuild.version.toString,
+        imageSHA256 = sha256,
         modelName = modelBuild.model.name,
         modelVersion = modelBuild.version,
         source = Some(modelBuild.model.source),

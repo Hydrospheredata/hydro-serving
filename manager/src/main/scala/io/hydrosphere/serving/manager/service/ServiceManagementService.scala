@@ -108,7 +108,7 @@ class ServiceManagementServiceImpl(
         id = m.modelId,
         imageName = m.imageName,
         imageTag = m.imageTag,
-        imageMD5 = s"${m.imageName}:${m.imageTag}",
+        imageSHA256 = s"${m.imageName}:${m.imageTag}",
         created = LocalDateTime.now(),
         modelName = m.modelName,
         modelVersion = m.modelVersion,

@@ -43,7 +43,7 @@ class LocalModelBuildService(
     FileUtils.copyDirectory(model.toFile, buildPath.resolve(s"$modelDir/").toFile)
     val res=dockerClient.build(
       buildPath,
-      s"$imageName:${modelBuild.modelVersion}",
+      s"$imageName:${modelBuild.version}",
       "Dockerfile",
       DockerClientHelper.createProgressHadlerWrapper(progressHandler),
       BuildParam.noCache()
@@ -51,6 +51,6 @@ class LocalModelBuildService(
     if(res==null){
       throw new RuntimeException("Can't build model")
     }
-    res
+    dockerClient.inspectImage(res).id().stripPrefix("sha256:")
   }
 }

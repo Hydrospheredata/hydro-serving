@@ -36,7 +36,7 @@ CREATE TABLE hydro_serving.model_version
   created_timestamp TIMESTAMP WITHOUT TIME ZONE NOT NULL,
   image_name        TEXT                        NOT NULL,
   image_tag         TEXT                        NOT NULL,
-  image_md5         TEXT                        NOT NULL
+  image_sha256         TEXT                        NOT NULL
 );
 
 CREATE TABLE hydro_serving.model_source
