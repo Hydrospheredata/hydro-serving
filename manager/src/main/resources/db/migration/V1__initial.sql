@@ -1,6 +1,6 @@
 CREATE TABLE hydro_serving.runtime
 (
-  runtime_id      BIGSERIAL PRIMARY KEY,
+  runtime_id           BIGSERIAL PRIMARY KEY,
   name                 TEXT    NOT NULL,
   version              TEXT    NOT NULL,
   tags                 TEXT [] NOT NULL,
@@ -74,8 +74,7 @@ CREATE TABLE hydro_serving.service
   runtime_id       BIGINT REFERENCES runtime (runtime_id)           NOT NULL,
   environment_id   BIGINT REFERENCES environment (environment_id),
   model_version_id BIGINT REFERENCES model_version (model_version_id),
-  status           TEXT                                             NOT NULL,
-  status_text       TEXT,
+  status_text      TEXT                                             NOT NULL,
   config_params    TEXT []                                          NOT NULL
 );
 
@@ -101,8 +100,8 @@ CREATE TABLE hydro_serving.model_files
 
 CREATE TABLE hydro_serving.model_build_script
 (
-  name    TEXT NOT NULL,
-  script  TEXT NOT NULL,
+  name   TEXT NOT NULL,
+  script TEXT NOT NULL,
   PRIMARY KEY (name)
 );
 

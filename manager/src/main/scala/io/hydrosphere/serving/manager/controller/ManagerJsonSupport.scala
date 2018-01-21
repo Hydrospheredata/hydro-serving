@@ -1,44 +1,33 @@
 package io.hydrosphere.serving.manager.controller
 
+import io.hydrosphere.serving.manager.service.{CreateServiceRequest, _}
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.service._
-import io.hydrosphere.serving.manager.model._
-import spray.json.{DeserializationException, JsString, JsValue, RootJsonFormat}
 import spray.json._
 
 /**
   *
   */
 trait ManagerJsonSupport extends CommonJsonSupport {
-  implicit val modelBuildStatusFormat = new EnumJsonConverter(ModelBuildStatus)
   implicit val modelServiceInstanceStatusFormat = new EnumJsonConverter(ServiceInstanceStatus)
 
-  implicit val modelFormat = jsonFormat8(Model.apply)
 
-  implicit val buildModelRequestFormat = jsonFormat4(BuildModelRequest.apply)
-  implicit val buildModelByNameRequest = jsonFormat4(BuildModelByNameRequest.apply)
+  implicit val buildModelRequestFormat = jsonFormat2(BuildModelRequest)
 
-  implicit val modelBuildFormat = jsonFormat10(ModelBuild)
+  implicit val createServiceRequest = jsonFormat5(CreateServiceRequest)
 
-  implicit val modelServiceInstanceFormat = jsonFormat8(ModelServiceInstance)
-
-  implicit val createModelServiceRequest = jsonFormat4(CreateModelServiceRequest)
-
-  implicit val createRuntimeTypeRequest = jsonFormat5(CreateRuntimeTypeRequest)
+  implicit val createRuntimeRequest = jsonFormat5(CreateRuntimeRequest)
 
   implicit val createOrUpdateModelRequest = jsonFormat6(CreateOrUpdateModelRequest)
 
-  implicit val createModelRuntime = jsonFormat11(CreateModelRuntime)
-
-  implicit val updateModelRuntime = jsonFormat7(UpdateModelRuntime)
+  implicit val createModelVersionRequest = jsonFormat12(CreateModelVersionRequest)
 
   implicit val applicationCreateOrUpdateRequest = jsonFormat4(ApplicationCreateOrUpdateRequest)
 
-  implicit val awsAuthFormat = jsonFormat2(AWSAuthKeys.apply)
+  implicit val awsAuthFormat = jsonFormat2(AWSAuthKeys)
 
-  implicit val localSourceParamsFormat = jsonFormat1(LocalSourceParams.apply)
+  implicit val localSourceParamsFormat = jsonFormat1(LocalSourceParams)
 
-  implicit val s3SourceParamsFormat = jsonFormat4(S3SourceParams.apply)
+  implicit val s3SourceParamsFormat = jsonFormat4(S3SourceParams)
 
   implicit val sourceParamsFormat = new JsonFormat[SourceParams] {
     override def read(json: JsValue) = {
@@ -64,10 +53,10 @@ trait ManagerJsonSupport extends CommonJsonSupport {
     }
   }
 
-  implicit val modelSourceConfigFormat = jsonFormat3(ModelSourceConfigAux.apply)
+  implicit val modelSourceConfigFormat = jsonFormat3(ModelSourceConfigAux)
 
-  implicit val createModelSourceRequestFormat = jsonFormat2(CreateModelSourceRequest.apply)
+  implicit val createModelSourceRequestFormat = jsonFormat2(CreateModelSourceRequest)
 
-  implicit val createServingEnvironmentFormat = jsonFormat2(CreateServingEnvironment)
+  implicit val createEnvironmentRequest = jsonFormat2(CreateEnvironmentRequest)
 
 }

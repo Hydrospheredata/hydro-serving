@@ -29,7 +29,8 @@ class ManagerGrpcApi(managerServices: ManagerServices)
           inputData = packedData.compactPrint.getBytes
         )
 
-        managerServices.servingManagementService.serve(serveRequest).flatMap {
+        Future.failed(new RuntimeException())
+        /*TODO managerServices.servingManagementService.serve(serveRequest).flatMap {
           case ExecutionSuccess(json, _) => Future.successful(
             PredictResponse(
               Map(
@@ -41,7 +42,7 @@ class ManagerGrpcApi(managerServices: ManagerServices)
             )
           )
           case ExecutionFailure(error, _) => Future.failed(new RuntimeException(error))
-        }
+        }*/
       case None => Future.failed(new IllegalArgumentException("ModelSpec is not defined"))
     }
   }

@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.connector
 
-import io.hydrosphere.serving.manager.model.{Application, ModelService}
+import io.hydrosphere.serving.manager.model.{Application, Service}
 
 trait ToPipelineStages[A] {
 
@@ -13,8 +13,8 @@ trait ToPipelineStages[A] {
   */
 object ToPipelineStages {
 
-  implicit val modelToStages = new ToPipelineStages[ModelService] {
-    def toStages(model: ModelService, servePath: String): Seq[ExecutionUnit] = {
+  implicit val modelToStages = new ToPipelineStages[Service] {
+    def toStages(model: Service, servePath: String): Seq[ExecutionUnit] = {
       Seq(ExecutionUnit(model.serviceName, servePath))
     }
   }

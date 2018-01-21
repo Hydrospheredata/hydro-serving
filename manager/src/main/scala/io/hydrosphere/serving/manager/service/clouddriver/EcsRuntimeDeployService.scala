@@ -6,8 +6,6 @@ import com.amazonaws.services.ecs.model._
 import com.amazonaws.services.ecs.{AmazonECS, AmazonECSClientBuilder}
 import io.hydrosphere.serving.manager.controller.CommonJsonSupport
 import io.hydrosphere.serving.manager.{ECSCloudDriverConfiguration, ManagerConfiguration}
-import io.hydrosphere.serving.manager.model.{ModelServiceInstance, ServiceInstanceStatus}
-import io.hydrosphere.serving.manager.model.ModelService
 import org.apache.logging.log4j.scala.Logging
 
 import collection.JavaConversions._
@@ -21,7 +19,7 @@ class EcsRuntimeDeployService(
   managerConfiguration: ManagerConfiguration
 ) extends RuntimeDeployService with Logging with CommonJsonSupport {
 
-  import spray.json._
+  /*import spray.json._
 
   val ecsClient: AmazonECS = AmazonECSClientBuilder.standard()
     .withRegion(ecsCloudDriverConfiguration.region)
@@ -278,5 +276,5 @@ class EcsRuntimeDeployService(
       case Some(x) => fetchModelServiceInstances(x)
       case None => Seq()
     }
-  }
+  }*/
 }

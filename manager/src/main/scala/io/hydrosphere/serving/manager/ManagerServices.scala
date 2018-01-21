@@ -11,7 +11,6 @@ import io.hydrosphere.serving.manager.service.actors.{RepositoryReIndexActor, Se
 import io.hydrosphere.serving.manager.service.envoy.EnvoyGRPCDiscoveryServiceImpl
 import io.hydrosphere.serving.manager.service.modelbuild._
 import io.hydrosphere.serving.manager.service.prometheus.PrometheusMetricsServiceImpl
-import io.hydrosphere.serving.manager.service.ui.UIManagementServiceImpl
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.ExecutionContext
@@ -44,14 +43,12 @@ class ManagerServices(
     case _ => new EmptyModelPushService
   }
 
-
   val modelManagementService: ModelManagementService = new ModelManagementServiceImpl(
-    managerRepositories.runtimeTypeRepository,
     managerRepositories.modelRepository,
     managerRepositories.modelFilesRepository,
-    managerRepositories.modelRuntimeRepository,
+    managerRepositories.modelVersionRepository,
     managerRepositories.modelBuildRepository,
-    managerRepositories.runtimeTypeBuildScriptRepository,
+    managerRepositories.modelBuildScriptRepository,
     modelBuildService,
     modelPushService
   )
@@ -65,6 +62,8 @@ class ManagerServices(
     )
   }
 
+  val cloudDriverService:CloudDriverService=new LocalCloudDriverService
+
   val cacheUpdateActor: Option[ActorRef] = runtimeDeployService match {
     case c: CachedProxyRuntimeDeployService =>
       Some(system.actorOf(ServiceCacheUpdateActor.props(c)))
@@ -73,37 +72,28 @@ class ManagerServices(
       None
   }
 
-  val runtimeTypeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(managerRepositories.runtimeTypeRepository)
+  val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(managerRepositories.runtimeRepository)
 
-  val runtimeManagementService: DDRuntimeManagementService = new DDRuntimeManagementServiceImpl(
-    runtimeDeployService,
-    managerRepositories.modelServiceRepository,
-    managerRepositories.modelRuntimeRepository,
-    managerRepositories.servingEnvironmentRepository
+  val serviceManagementService: ServiceManagementService = new ServiceManagementServiceImpl(
+    cloudDriverService,
+    managerRepositories.serviceRepository,
+    managerRepositories.runtimeRepository,
+    managerRepositories.modelVersionRepository,
+    managerRepositories.environmentRepository
   )
 
-  val servingManagementService: ServingManagementService = new ServingManagementServiceImpl(
-    managerRepositories.modelServiceRepository,
+  val applicationManagementService: ApplicationManagementService = new ApplicationManagementServiceImpl(
+    managerRepositories.serviceRepository,
     runtimeMeshConnector,
     managerRepositories.applicationRepository,
-    runtimeManagementService
+    serviceManagementService
   )
 
   val envoyGRPCDiscoveryService = new EnvoyGRPCDiscoveryServiceImpl
 
   val envoyAdminConnector = new HttpEnvoyAdminConnector()
 
-  val prometheusMetricsService = new PrometheusMetricsServiceImpl(runtimeManagementService, envoyAdminConnector)
+  val prometheusMetricsService = new PrometheusMetricsServiceImpl(serviceManagementService, envoyAdminConnector)
 
-  val uiManagementService = new UIManagementServiceImpl(
-    managerRepositories.modelRepository,
-    managerRepositories.modelRuntimeRepository,
-    managerRepositories.modelBuildRepository,
-    managerRepositories.modelServiceRepository,
-    runtimeManagementService,
-    servingManagementService,
-    modelManagementService
-  )
-
-  val repoActor:ActorRef = system.actorOf(RepositoryReIndexActor.props(modelManagementService))
+  val repoActor: ActorRef = system.actorOf(RepositoryReIndexActor.props(modelManagementService))
 }

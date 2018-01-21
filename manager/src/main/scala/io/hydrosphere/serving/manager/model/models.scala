@@ -56,8 +56,7 @@ case class Service(
   runtime: Runtime,
   model: Option[ModelVersion],
   environment: Option[Environment],
-  status: String,
-  statusText: Option[String],
+  statusText: String,
   configParams: Map[String, String]
 )
 
@@ -129,7 +128,7 @@ case class ModelFile(
   updatedAt: LocalDateTime
 )
 
-case class ModelServiceInstance(
+case class ServiceInstance(
   instanceId: String,
   host: String,
   appPort: Int,

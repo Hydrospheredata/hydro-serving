@@ -21,7 +21,7 @@ class ModelSourceController(sourceService: SourceManagementService) extends Mana
     new ApiResponse(code = 200, message = "ModelSourceConfigAux", response = classOf[ModelSourceConfigAux]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def addSource = path("api" / "v1" / "modelSource") {
+  def addModelSource = path("api" / "v1" / "modelSource") {
     post {
       entity(as[CreateModelSourceRequest]) { r =>
         complete {
@@ -38,11 +38,11 @@ class ModelSourceController(sourceService: SourceManagementService) extends Mana
     new ApiResponse(code = 200, message = "ModelSourceConfigAux", response = classOf[ModelSourceConfigAux], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def listSources = path("api" / "v1" / "modelSource") {
+  def listModelSources = path("api" / "v1" / "modelSource") {
     get {
       complete(sourceService.getSourceConfigs)
     }
   }
 
-  val routes = addSource ~ listSources
+  val routes = addModelSource ~ listModelSources
 }

@@ -6,8 +6,8 @@ SERVICE_ID=$1
 
 [ -z "$APP_HTTP_PORT" ] && APP_HTTP_PORT="9090"
 [ -z "$APP_GRPC_PORT" ] && APP_GRPC_PORT="9091"
-
-[ -z "$SIDECAR_HTTP_PORT" ] && SIDECAR_HTTP_PORT="8080"
+[ -z "$SIDECAR_PORT" ] && SIDECAR_PORT="8080"
+[ -z "$SIDECAR_HOST" ] && SIDECAR_HOST="localhost"
 
 [ -z "$ADVERTISED_MANAGER_HOST" ] && ADVERTISED_MANAGER_HOST="manager"
 [ -z "$ADVERTISED_MANAGER_PORT" ] && ADVERTISED_MANAGER_PORT="8080"
@@ -24,7 +24,7 @@ SERVICE_ID=$1
 
 JAVA_OPTS="-Xmx$JAVA_XMX -Xms$JAVA_XMX"
 
-APP_OPTS="-Dapplication.grpc.port=$APP_GRPC_PORT -Dapplication.http.port=$APP_HTTP_PORT -Dapplication.http.appId=$SERVICE_ID -Dsidecar.port=$SIDECAR_HTTP_PORT"
+APP_OPTS="-Dapplication.grpcPort=$APP_GRPC_PORT -Dapplication.port=$APP_HTTP_PORT -Dsidecar.port=$SIDECAR_PORT -Dsidecar.host=$SIDECAR_HOST"
 
 if [ "$GELF_HOST" = "" ]
 then
@@ -53,6 +53,8 @@ then
     else
         if [ ! -z "$NETWORK_NAME" ]; then
             APP_OPTS="$APP_OPTS -DcloudDriver.docker.networkName=$NETWORK_NAME"
+        else
+            APP_OPTS="$APP_OPTS -DcloudDriver.docker.networkName=bridge"
         fi
         APP_OPTS="$APP_OPTS -DdockerRepository.type=local"
         if [ "$GELF_ENABLED" = "true" ]; then

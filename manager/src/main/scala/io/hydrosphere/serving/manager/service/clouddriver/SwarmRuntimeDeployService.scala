@@ -5,7 +5,6 @@ import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.messages.swarm._
 import io.hydrosphere.serving.manager._
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.ModelService
 import org.apache.logging.log4j.scala.Logging
 
 import collection.JavaConversions._
@@ -18,7 +17,7 @@ class SwarmRuntimeDeployService(
   managerConfiguration: ManagerConfiguration
 ) extends RuntimeDeployService with Logging {
 
-  override def deploy(runtime: ModelService, placeholders: Seq[Any]): String = {
+  /*override def deploy(runtime: ModelService, placeholders: Seq[Any]): String = {
     val conf = managerConfiguration.cloudDriver.asInstanceOf[SwarmCloudDriverConfiguration]
 
     val labels = Map[String, String](
@@ -159,5 +158,5 @@ class SwarmRuntimeDeployService(
       .addLabel(LABEL_HS_SERVICE_MARKER, LABEL_HS_SERVICE_MARKER)
       .addLabel(LABEL_SERVICE_ID, serviceId.toString)
       .build
-  ).headOption.map(s => mapService(s))
+  ).headOption.map(s => mapService(s))*/
 }

@@ -1,8 +1,5 @@
 package io.hydrosphere.serving.manager.service.clouddriver
 
-import io.hydrosphere.serving.manager.model.ModelServiceInstance
-import io.hydrosphere.serving.manager.model.ModelService
-
 
 case class ServiceInfo(
   id: Long,
@@ -37,7 +34,7 @@ trait RuntimeDeployService {
   val LABEL_RUNTIME_TYPE_VERSION = "RUNTIME_TYPE_VERSION"
 
 
-  def deploy(runtime: ModelService, placeholders: Seq[Any]): String
+  /*def deploy(runtime: ModelService, placeholders: Seq[Any]): String
 
   def serviceList(): Seq[ServiceInfo]
 
@@ -45,6 +42,6 @@ trait RuntimeDeployService {
 
   def deleteService(serviceId: Long)
 
-  def serviceInstances(serviceId: Long): Seq[ModelServiceInstance]
+  def serviceInstances(serviceId: Long): Seq[ModelServiceInstance]*/
 
 }

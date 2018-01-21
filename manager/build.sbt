@@ -108,5 +108,6 @@ dockerfile in docker := {
     add(classpath.files, "/hydro-serving/app/lib/")
     // Add the JAR file
     add(jarFile, jarTarget)
+    cmd("/hydro-serving/app/start.sh")
   }
 }

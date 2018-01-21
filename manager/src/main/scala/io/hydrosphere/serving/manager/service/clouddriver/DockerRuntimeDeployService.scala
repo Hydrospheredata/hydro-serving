@@ -7,8 +7,6 @@ import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.{ListContainersParam, RemoveContainerParam}
 import com.spotify.docker.client.messages._
 import io.hydrosphere.serving.manager.{DockerCloudDriverConfiguration, ManagerConfiguration}
-import io.hydrosphere.serving.manager.model.{ModelServiceInstance, ServiceInstanceStatus}
-import io.hydrosphere.serving.manager.model.ModelService
 import org.apache.logging.log4j.scala.Logging
 
 import collection.JavaConversions._
@@ -21,7 +19,7 @@ class DockerRuntimeDeployService(
   managerConfiguration: ManagerConfiguration
 ) extends RuntimeDeployService with Logging {
 
-  private val dockerCloudDriverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[DockerCloudDriverConfiguration]
+  /*private val dockerCloudDriverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[DockerCloudDriverConfiguration]
 
   override def deploy(runtime: ModelService, placeholders: Seq[Any]): String = {
     val conf = managerConfiguration.cloudDriver.asInstanceOf[DockerCloudDriverConfiguration]
@@ -141,5 +139,5 @@ class DockerRuntimeDeployService(
           None
       }
     }).filter(p => p.isDefined).flatten
-  }
+  }*/
 }

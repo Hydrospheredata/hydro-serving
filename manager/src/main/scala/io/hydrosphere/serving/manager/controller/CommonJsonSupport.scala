@@ -12,6 +12,7 @@ import io.hydrosphere.serving.tensorflow.types.DataType
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
 
+
 /**
   *
   */
@@ -101,14 +102,19 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
     }
   }
 
-  implicit val fieldDescFormat = jsonFormat3(FieldDescription.apply)
+  implicit val modelBuildStatusFormat = new EnumJsonConverter(ModelBuildStatus)
+
+
+  implicit val fieldDescFormat = jsonFormat3(FieldDescription)
   implicit val sigDescFormat = jsonFormat3(SignatureDescription.apply)
   implicit val contractDescFormat = jsonFormat1(ContractDescription.apply)
 
-  implicit val runtimeTypeFormat = jsonFormat6(Runtime)
-  implicit val modelRuntimeFormat = jsonFormat13(ModelVersion)
-  implicit val servingEnvironmentFormat = jsonFormat3(ServingEnvironment)
-  implicit val modelServiceFormat = jsonFormat8(ModelService)
+  implicit val modelFormat = jsonFormat8(Model)
+  implicit val runtimeFormat = jsonFormat6(Runtime)
+  implicit val modelVersionFormat = jsonFormat11(ModelVersion)
+  implicit val environmentFormat = jsonFormat3(Environment)
+  implicit val serviceFormat = jsonFormat8(Service)
+  implicit val modelBuildFormat = jsonFormat9(ModelBuild)
 
   implicit val errorResponseFormat = jsonFormat1(ErrorResponse)
   implicit val serviceWeightFormat = jsonFormat3(ServiceWeight)

@@ -88,7 +88,7 @@ class ModelVersionRepositoryImpl(
   override def modelVersionByModelAndVersion(modelId: Long, version: Long): Future[Option[ModelVersion]] =
     db.run(
       Tables.ModelVersion
-        .filter(r => r.modelId === modelId && r.modelersion === version)
+        .filter(r => r.modelId === modelId && r.modelVersion === version)
         .joinLeft(Tables.Model)
         .on({ case (m, rt) => m.modelId === rt.modelId })
         .sortBy(_._1.modelVersionId.desc)

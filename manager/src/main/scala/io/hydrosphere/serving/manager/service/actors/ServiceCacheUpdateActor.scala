@@ -10,7 +10,8 @@ class ServiceCacheUpdateActor(val cachedProxyRuntimeDeployService: CachedProxyRu
   extends SelfScheduledActor(0.seconds, 5.seconds)(Timeout(30.seconds)) {
 
   override def onTick(): Unit = {
-    cachedProxyRuntimeDeployService.refreshCache()
+    //TODO
+    //cachedProxyRuntimeDeployService.refreshCache()
   }
 
   override def recieveNonTick: Receive = {

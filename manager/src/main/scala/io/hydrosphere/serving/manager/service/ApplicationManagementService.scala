@@ -3,8 +3,8 @@ package io.hydrosphere.serving.manager.service
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.connector._
 import io.hydrosphere.serving.manager.model.api.{ContractOps, DataGenerator, SignatureChecker}
-import io.hydrosphere.serving.manager.model.{Application, ApplicationExecutionGraph, ModelService}
-import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelServiceRepository}
+import io.hydrosphere.serving.manager.model.{Application, ApplicationExecutionGraph, Service}
+import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ServiceRepository}
 
 import scala.concurrent.Await
 import org.apache.logging.log4j.scala.Logging
@@ -12,6 +12,7 @@ import spray.json.JsObject
 
 import scala.concurrent.{ExecutionContext, Future}
 import scala.concurrent.duration._
+
 case class ApplicationCreateOrUpdateRequest(
   id: Option[Long],
   serviceName: String,
@@ -29,11 +30,11 @@ case class ApplicationCreateOrUpdateRequest(
   }
 }
 
-case class ServiceWithSignature(s: ModelService, signatureName: String)
+case class ServiceWithSignature(s: Service, signatureName: String)
 
-trait ServingManagementService {
+trait ApplicationManagementService {
 
-  def allApplications(): Future[Seq[Application]]
+  /*def allApplications(): Future[Seq[Application]]
 
   def applicationsByModelServiceIds(servicesIds: Seq[Long]): Future[Seq[Application]]
 
@@ -53,17 +54,17 @@ trait ServingManagementService {
 
   def checkApplicationSchema(req: ApplicationCreateOrUpdateRequest): Future[Boolean]
 
-  def generateInputsForApplication(appId: Long): Future[Option[Seq[JsObject]]]
+  def generateInputsForApplication(appId: Long): Future[Option[Seq[JsObject]]]*/
 }
 
-class ServingManagementServiceImpl(
-  modelServiceRepository: ModelServiceRepository,
+class ApplicationManagementServiceImpl(
+  serviceRepository: ServiceRepository,
   runtimeMeshConnector: RuntimeMeshConnector,
   applicationRepository: ApplicationRepository,
-  runtimeManagementService: DDRuntimeManagementService
-)(implicit val ex: ExecutionContext) extends ServingManagementService with Logging {
+  serviceManagementService: ServiceManagementService
+)(implicit val ex: ExecutionContext) extends ApplicationManagementService with Logging {
 
-  override def serve(req: ServeRequest): Future[ExecutionResult] = {
+  /*override def serve(req: ServeRequest): Future[ExecutionResult] = {
     import ToPipelineStages._
 
     def buildStages[A](target: Option[A], error: => String)
@@ -222,5 +223,5 @@ class ServingManagementServiceImpl(
         case (sig1, sig2) => ContractOps.ModelSignatureOps.merge(sig1, sig2)
       }
     }
-  }
+  }*/
 }

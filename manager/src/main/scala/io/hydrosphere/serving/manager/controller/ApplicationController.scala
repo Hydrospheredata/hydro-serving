@@ -22,11 +22,11 @@ case class AddApplicationSourceRequest(
 @Path("/api/v1/applications")
 @Api(produces = "application/json", tags = Array("Deployment: Application"))
 class ApplicationController(
-  servingManagementService: ServingManagementService
+  servingManagementService: ApplicationManagementService
 ) extends ManagerJsonSupport with ServingDataDirectives{
   implicit val timeout = Timeout(5.minutes)
 
-  @Path("/")
+  /*@Path("/")
   @ApiOperation(value = "applications", notes = "applications", nickname = "applications", httpMethod = "GET")
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Application", response = classOf[Application], responseContainer = "List"),
@@ -173,5 +173,5 @@ class ApplicationController(
       serve ~
       serveById ~
       generateInputsForApp
-
+*/
 }

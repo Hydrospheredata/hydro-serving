@@ -3,18 +3,16 @@ package io.hydrosphere.serving.manager
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.model.HttpMethods._
-import akka.http.scaladsl.model.{HttpResponse, ResponseEntity, StatusCodes}
-import akka.http.scaladsl.server.{ExceptionHandler, RejectionHandler, Route}
+import akka.http.scaladsl.model.{HttpResponse, StatusCodes}
+import akka.http.scaladsl.server.{ExceptionHandler, Route}
 import ch.megard.akka.http.cors.scaladsl.CorsDirectives
-import io.hydrosphere.serving.manager.controller.{ModelRuntimeController, SwaggerDocController, _}
+import io.hydrosphere.serving.manager.controller._
 import akka.http.scaladsl.server.Directives.{path, _}
 import akka.stream.ActorMaterializer
 import ch.megard.akka.http.cors.scaladsl.settings.CorsSettings
 import io.hydrosphere.serving.manager.controller.prometheus.PrometheusMetricsController
-import io.hydrosphere.serving.manager.controller.ui.{UISpecificController, UISpecificRuntimeController, UISpecificWeightServiceController}
 import org.apache.logging.log4j.scala.Logging
 
-import scala.Option
 import scala.collection.immutable.Seq
 import scala.concurrent.ExecutionContext
 import scala.reflect.runtime.{universe => ru}
@@ -31,41 +29,32 @@ class ManagerApi(
   implicit val materializer: ActorMaterializer
 ) extends Logging {
 
-  val runtimeTypeController = new RuntimeTypeController(managerServices.modelManagementService, managerServices.runtimeTypeManagementService)
+  val environmentController = new EnvironmentController(managerServices.serviceManagementService)
 
-  val modelController = new ModelController(managerServices.modelManagementService)
-
-  val modelRuntimeController = new ModelRuntimeController(managerServices.modelManagementService)
-
-  val modelServiceController = new ModelServiceController(managerServices.runtimeManagementService, managerServices.servingManagementService)
-
-  val applicationController = new ApplicationController(managerServices.servingManagementService)
-
-  val prometheusMetricsController = new PrometheusMetricsController(managerServices.prometheusMetricsService)
-
-  val uiSpecificController = new UISpecificController(managerServices.uiManagementService)
-
-  val uiSpecificWeightServiceController = new UISpecificWeightServiceController(managerServices.uiManagementService)
-
-  val uiSpecificRuntimeController = new UISpecificRuntimeController(managerServices.uiManagementService)
-
-  val servingEnvironmentController = new ServingEnvironmentController(managerServices.runtimeManagementService)
+  val runtimeController = new RuntimeController(managerServices.runtimeManagementService)
 
   val modelSourceController = new ModelSourceController(managerServices.sourceManagementService)
 
+  val modelController = new ModelController(managerServices.modelManagementService)
+
+  val serviceController = new ServiceController(
+    managerServices.serviceManagementService,
+    managerServices.applicationManagementService
+  )
+
+  val applicationController = new ApplicationController(managerServices.applicationManagementService)
+
+  val prometheusMetricsController = new PrometheusMetricsController(managerServices.prometheusMetricsService)
+
   val swaggerController = new SwaggerDocController(system) {
     override val apiTypes: Seq[ru.Type] = Seq(
-      ru.typeOf[ServingEnvironmentController],
-      ru.typeOf[RuntimeTypeController],
+      ru.typeOf[EnvironmentController],
+      ru.typeOf[RuntimeController],
       ru.typeOf[ModelController],
-      ru.typeOf[ModelRuntimeController],
-      ru.typeOf[ModelServiceController],
-      ru.typeOf[ApplicationController],
+      //ru.typeOf[ServiceController],
+      //ru.typeOf[ApplicationController],
       ru.typeOf[PrometheusMetricsController],
-      ru.typeOf[ModelSourceController],
-      ru.typeOf[UISpecificController],
-      ru.typeOf[UISpecificWeightServiceController],
-      ru.typeOf[UISpecificRuntimeController]
+      ru.typeOf[ModelSourceController]
     )
   }
 
@@ -92,16 +81,12 @@ class ManagerApi(
     handleExceptions(commonExceptionHandler) {
       swaggerController.routes ~
         modelController.routes ~
-        modelRuntimeController.routes ~
-        modelServiceController.routes ~
-        applicationController.routes ~
-        runtimeTypeController.routes ~
+        //modelServiceController.routes ~
+        //applicationController.routes ~
+        runtimeController.routes ~
         prometheusMetricsController.routes ~
-        uiSpecificController.routes ~
-        uiSpecificWeightServiceController.routes ~
-        servingEnvironmentController.routes ~
+        environmentController.routes ~
         modelSourceController.routes ~
-        uiSpecificRuntimeController.routes ~
         pathPrefix("swagger") {
           path(Segments) { segs =>
             val path = segs.mkString("/")

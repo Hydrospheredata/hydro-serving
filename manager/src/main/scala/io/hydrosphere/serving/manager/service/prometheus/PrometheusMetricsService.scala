@@ -1,8 +1,7 @@
 package io.hydrosphere.serving.manager.service.prometheus
 
 import io.hydrosphere.serving.manager.connector.EnvoyAdminConnector
-import io.hydrosphere.serving.manager.model.ModelServiceInstance
-import io.hydrosphere.serving.manager.service.DDRuntimeManagementService
+import io.hydrosphere.serving.manager.service.ServiceManagementService
 import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.mutable
@@ -30,12 +29,13 @@ trait PrometheusMetricsService {
 }
 
 class PrometheusMetricsServiceImpl(
-  runtimeManagementService: DDRuntimeManagementService,
+  serviceManagementService: ServiceManagementService,
   envoyAdminConnector: EnvoyAdminConnector
 )(implicit val ex: ExecutionContext) extends PrometheusMetricsService with Logging {
 
   override def fetchServices(): Future[Seq[ServiceTargets]] =
-    runtimeManagementService.allServices().flatMap(services => {
+    Future.failed(new RuntimeException)
+    /*runtimeManagementService.allServices().flatMap(services => {
       Future.traverse(services)(s =>
         runtimeManagementService.instancesForService(s.serviceId)
           .map(inst => Tuple2(s, inst))
@@ -58,18 +58,19 @@ class PrometheusMetricsServiceImpl(
         })
         clusters
       })
-    })
+    })*/
 
   override def fetchMetrics(serviceId: Long, instanceId: String): Future[String] =
-    runtimeManagementService.instancesForService(serviceId)
-      .flatMap(instances => {
-        instances.find(i => i.instanceId == instanceId) match {
-          case Some(x) =>
-            fetchAndMapMetrics(x)
-          case _ =>
-            throw new IllegalArgumentException(s"Can't find instance=$instanceId in service=$serviceId")
-        }
-      })
+    Future.failed(new RuntimeException)
+  /*runtimeManagementService.instancesForService(serviceId)
+        .flatMap(instances => {
+          instances.find(i => i.instanceId == instanceId) match {
+            case Some(x) =>
+              fetchAndMapMetrics(x)
+            case _ =>
+              throw new IllegalArgumentException(s"Can't find instance=$instanceId in service=$serviceId")
+          }
+        })*/
 
   private case class PrometheusMetric(
     name: String,
@@ -82,9 +83,9 @@ class PrometheusMetricsServiceImpl(
     value: String
   )
 
-  private def fetchAndMapMetrics(instance: ModelServiceInstance): Future[String] =
+  /*private def fetchAndMapMetrics(instance: ModelServiceInstance): Future[String] =
     envoyAdminConnector.stats(instance.host, instance.sidecarAdminPort)
-      .map(response => mapToPrometheusMetrics(response))
+      .map(response => mapToPrometheusMetrics(response))*/
 
 
   private def mapToPrometheusMetrics(envoyMetrics: String): String = {

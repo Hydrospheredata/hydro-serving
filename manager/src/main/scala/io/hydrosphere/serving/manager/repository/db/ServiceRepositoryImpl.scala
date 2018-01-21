@@ -30,7 +30,6 @@ class ServiceRepositoryImpl(
         runtimeId = entity.runtime.id,
         environmentId = entity.environment.map(e => e.id),
         modelVersionId = entity.model.map(m => m.id),
-        status = entity.status,
         statusText = entity.statusText,
         configParams = entity.configParams.map { case (k, v) => s"$k=$v" }.toList
       )
@@ -234,7 +233,6 @@ object ServiceRepositoryImpl {
       runtime = runtime,
       environment = environment,
       model = modelVersion,
-      status = model.status,
       statusText = model.statusText,
       configParams = model.configParams.map(s => {
         val arr = s.split('=')

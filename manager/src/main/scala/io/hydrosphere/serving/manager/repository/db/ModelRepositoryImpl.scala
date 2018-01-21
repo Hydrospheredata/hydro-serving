@@ -113,7 +113,7 @@ class ModelRepositoryImpl(
   override def fetchByModelType(types: Seq[ModelType]): Future[Seq[Model]] =
     db.run(
       Tables.Model
-        .filter(_.modelType inSetBind types.map(ModelType.toTag))
+        .filter(_.modelType inSetBind types.map(p=>p.toTag))
         .result
     ).map(mapFromDb)
 }

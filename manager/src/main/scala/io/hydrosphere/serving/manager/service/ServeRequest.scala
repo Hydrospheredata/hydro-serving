@@ -3,7 +3,6 @@ package io.hydrosphere.serving.manager.service
 import akka.http.scaladsl.model.HttpHeader
 
 sealed trait ServiceKey
-
 case class ApplicationKey(id: Long) extends ServiceKey
 case class ApplicationName(name: String) extends ServiceKey
 

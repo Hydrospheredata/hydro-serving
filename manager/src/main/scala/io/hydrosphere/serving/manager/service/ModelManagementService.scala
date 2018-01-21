@@ -15,6 +15,70 @@ import org.apache.logging.log4j.scala.Logging
 import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Failure, Success}
 
+case class CreateOrUpdateModelRequest(
+  id: Option[Long],
+  name: String,
+  source: String,
+  modelType: ModelType,
+  description: Option[String],
+  modelContract: ModelContract
+) {
+  def toModel: Model = {
+    Model(
+      id = 0,
+      name = this.name,
+      source = this.source,
+      modelType = this.modelType,
+      description = this.description,
+      modelContract = this.modelContract,
+      created = LocalDateTime.now(),
+      updated = LocalDateTime.now()
+    )
+  }
+
+  def toModel(model: Model): Model = {
+    model.copy(
+      name = this.name,
+      source = this.source,
+      modelType = this.modelType,
+      description = this.description,
+      modelContract = this.modelContract
+    )
+  }
+}
+
+case class CreateModelVersionRequest(
+  imageName: String,
+  imageTag: String,
+  imageMD5: String,
+  modelName: String,
+  modelVersion: Long,
+  source: Option[String],
+  runtimeTypeId: Option[Long],
+  modelContract: ModelContract,
+  modelId: Option[Long],
+  tags: Option[List[String]],
+  configParams: Option[Map[String, String]],
+  modelType: String
+) {
+
+  def toModelVersion(model: Option[Model]): ModelVersion = {
+    ModelVersion(
+      id = 0,
+      imageName = this.imageName,
+      imageTag = this.imageTag,
+      imageMD5 = this.imageMD5,
+      modelName = this.modelName,
+      modelVersion = this.modelVersion,
+      source = this.source,
+      modelContract = this.modelContract,
+      created = LocalDateTime.now(),
+      model = model,
+      modelType = ModelType.fromTag(this.modelType)
+    )
+  }
+}
+
 trait ModelManagementService {
 
   def submitBinaryContract(modelId: Long, bytes: Array[Byte]): Future[Option[Model]]
@@ -23,7 +87,7 @@ trait ModelManagementService {
 
   def submitContract(modelId: Long, prototext: String): Future[Option[Model]]
 
-  def buildModel(modelId: Long, modelVersion: Option[Long]): Future[ModelBuild]
+  def buildModel(modelId: Long, modelVersion: Option[Long]): Future[ModelVersion]
 
   def allModels(): Future[Seq[Model]]
 
@@ -35,7 +99,7 @@ trait ModelManagementService {
 
   def updatedInModelSource(entity: Model): Future[Unit]
 
-  def addModelVersion(entity: CreateModelVersion): Future[ModelVersion]
+  def addModelVersion(entity: CreateModelVersionRequest): Future[ModelVersion]
 
   def allModelVersion(): Future[Seq[ModelVersion]]
 
@@ -57,72 +121,6 @@ trait ModelManagementService {
 
 
   def modelsByType(types: Set[String]): Future[Seq[Model]]
-
-
-  case class CreateOrUpdateModelRequest(
-    id: Option[Long],
-    name: String,
-    source: String,
-    modelType: ModelType,
-    description: Option[String],
-    modelContract: ModelContract
-  ) {
-    def toModel: Model = {
-      Model(
-        id = 0,
-        name = this.name,
-        source = this.source,
-        modelType = this.modelType,
-        description = this.description,
-        modelContract = this.modelContract,
-        created = LocalDateTime.now(),
-        updated = LocalDateTime.now()
-      )
-    }
-
-    def toModel(model: Model): Model = {
-      model.copy(
-        name = this.name,
-        source = this.source,
-        modelType = this.modelType,
-        description = this.description,
-        modelContract = this.modelContract
-      )
-    }
-  }
-
-  case class CreateModelVersion(
-    imageName: String,
-    imageTag: String,
-    imageMD5: String,
-    modelName: String,
-    modelVersion: Long,
-    source: Option[String],
-    runtimeTypeId: Option[Long],
-    modelContract: ModelContract,
-    modelId: Option[Long],
-    tags: Option[List[String]],
-    configParams: Option[Map[String, String]],
-    modelType: String
-  ) {
-
-    def toModelVersion(model: Option[Model]): ModelVersion = {
-      ModelVersion(
-        id = 0,
-        imageName = this.imageName,
-        imageTag = this.imageTag,
-        imageMD5 = this.imageMD5,
-        modelName = this.modelName,
-        modelVersion = this.modelVersion,
-        source = this.source,
-        modelContract = this.modelContract,
-        created = LocalDateTime.now(),
-        model = model,
-        modelType = ModelType.fromTag(this.modelType)
-      )
-    }
-  }
-
 }
 
 object ModelManagementService {
@@ -166,7 +164,7 @@ class ModelManagementServiceImpl(
     }
   }
 
-  override def addModelVersion(entity: CreateModelVersion): Future[ModelVersion] =
+  override def addModelVersion(entity: CreateModelVersionRequest): Future[ModelVersion] =
     fetchModel(entity.modelId).flatMap(model => {
       modelVersionRepository.create(entity.toModelVersion(model))
     })

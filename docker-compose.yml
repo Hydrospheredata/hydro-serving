@@ -1,10 +1,5 @@
 version: "2"
 services:
-  zipkin:
-    image: openzipkin/zipkin:1.28.1
-    ports:
-      - "9411:9411"
-
   postgres:
     image: postgres:9.6-alpine
     ports:
@@ -15,7 +10,7 @@ services:
       POSTGRES_PASSWORD: "docker"
 
   hydro-serving-manager:
-    image: hydrosphere/serving-manager:0.0.1
+    image: hydrosphere/serving-manager:latest
     ports:
       - "8080:8080"
       - "8082:8082"
@@ -23,14 +18,11 @@ services:
       - "9091:9091" # GRPC API
     depends_on:
       - postgres
-      - zipkin
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ${MODEL_DIRECTORY}:/models
     environment:
       ADVERTISED_MANAGER_HOST: "hydro-serving-manager"
       DATABASE_HOST: "postgres"
-      ZIPKIN_ENABLED: "true"
-      ZIPKIN_HOST: "zipkin"
       LOCAL_MODEL_PATH: "/models"
       NETWORK_NAME: "hydroserving_default"

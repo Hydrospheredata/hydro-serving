@@ -1,14 +1,12 @@
 package io.hydrosphere.serving.manager.service.clouddriver
 
-import io.hydrosphere.serving.manager.model.ModelServiceInstance
-import io.hydrosphere.serving.manager.model.ModelService
 import org.apache.logging.log4j.scala.Logging
 
 /**
   *
   */
 class CachedProxyRuntimeDeployService(original: RuntimeDeployService) extends RuntimeDeployService with Logging {
-  private var serviceCache: Map[Long, ServiceInfo] = Map()
+  /*private var serviceCache: Map[Long, ServiceInfo] = Map()
 
   private var instancesCache: Map[Long, Seq[ModelServiceInstance]] = Map()
 
@@ -44,5 +42,5 @@ class CachedProxyRuntimeDeployService(original: RuntimeDeployService) extends Ru
     original.deploy(runtime, placeholders)
 
   override def deleteService(serviceId: Long): Unit =
-    original.deleteService(serviceId)
+    original.deleteService(serviceId)*/
 }

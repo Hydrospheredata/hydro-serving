@@ -2,16 +2,20 @@ package io.hydrosphere.serving.manager.controller
 
 import javax.ws.rs.Path
 
+import io.hydrosphere.serving.manager.service.{CreateModelVersionRequest, CreateOrUpdateModelRequest, ModelManagementService}
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.controller.ServingDataDirectives
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.ContractOps.ContractDescription
-import io.hydrosphere.serving.manager.service.{CreateOrUpdateModelRequest, ModelManagementService}
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
+
+case class BuildModelRequest(
+  modelId: Long,
+  modelVersion: Option[Long]
+)
 
 /**
   *
@@ -20,7 +24,7 @@ import scala.concurrent.duration._
 @Api(produces = "application/json", tags = Array("Models: Model"))
 class ModelController(modelManagementService: ModelManagementService)
   extends ManagerJsonSupport with ServingDataDirectives {
-  implicit val timeout = Timeout(5.minutes)
+  implicit val timeout = Timeout(10.minutes)
 
   @Path("/")
   @ApiOperation(value = "listModels", notes = "listModels", nickname = "listModels", httpMethod = "GET")
@@ -74,18 +78,6 @@ class ModelController(modelManagementService: ModelManagementService)
     }
   }
 
-  @Path("/builds")
-  @ApiOperation(value = "listModelBuilds", notes = "listModelBuilds", nickname = "listModelBuilds", httpMethod = "GET")
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "ModelBuild", response = classOf[ModelBuild], responseContainer = "List"),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
-  def listModelBuilds = path("api" / "v1" / "model" / "builds") {
-    get {
-      complete(modelManagementService.allModelBuilds())
-    }
-  }
-
   @Path("/builds/{modelId}")
   @ApiOperation(value = "listModelBuildsByModel", notes = "listModelBuildsByModel", nickname = "listModelBuildsByModel", httpMethod = "GET")
   @ApiImplicitParams(Array(
@@ -97,7 +89,7 @@ class ModelController(modelManagementService: ModelManagementService)
   ))
   def listModelBuildsByModel = get {
     path("api" / "v1" / "model" / "builds" / LongNumber) { s =>
-      complete(modelManagementService.modelBuildsByModel(s))
+      complete(modelManagementService.modelBuildsByModelId(s))
     }
   }
 
@@ -115,7 +107,7 @@ class ModelController(modelManagementService: ModelManagementService)
     path("api" / "v1" / "model" / "builds" / LongNumber / "last") { s =>
       parameters('maximum.as[Int]) { (maximum) =>
         complete(
-          modelManagementService.lastModelBuildsByModel(s, maximum)
+          modelManagementService.lastModelBuildsByModelId(s, maximum)
         )
       }
     }
@@ -135,27 +127,47 @@ class ModelController(modelManagementService: ModelManagementService)
     post {
       entity(as[BuildModelRequest]) { r =>
         complete(
-          modelManagementService.buildModel(r.modelId, r.modelVersion, r.runtimeTypeId)
+          modelManagementService.buildModel(r.modelId, r.modelVersion)
         )
       }
     }
   }
 
-  @Path("/buildByName")
-  @ApiOperation(value = "Build model by name", notes = "Build model by name", nickname = "buildModel by name", httpMethod = "POST")
+  @Path("version/{modelId}/last")
+  @ApiOperation(value = "lastModelVersions", notes = "lastModelVersions", nickname = "lastModelVersions", httpMethod = "GET")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "Model", required = true,
-      dataTypeClass = classOf[BuildModelByNameRequest], paramType = "body")
+    new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId"),
+    new ApiImplicitParam(name = "maximum", required = false, dataType = "int", paramType = "query", value = "maximum", defaultValue = "10")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Model", response = classOf[ModelVersion]),
+    new ApiResponse(code = 200, message = "ModelVersion", response = classOf[ModelVersion], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def buildByName = path("api" / "v1" / "model" / "buildByName") {
-    post {
-      entity(as[BuildModelByNameRequest]) { r =>
+  def lastModelVersions = get {
+    path("api" / "v1" / "model" / "version" / LongNumber / "last") { s =>
+      parameters('maximum.as[Int]) { (maximum) =>
         complete(
-          modelManagementService.buildModel(r.modelName, r.modelVersion, r.runtimeTypeId)
+          modelManagementService.lastModelVersionByModelId(s, maximum)
+        )
+      }
+    }
+  }
+
+  @Path("version")
+  @ApiOperation(value = "Add ModelVersion", notes = "Add ModelVersion", nickname = "addModelVersion", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "body", value = "ModelVersion", required = true,
+      dataType = "io.hydrosphere.serving.manager.service.CreateModelVersionRequest", paramType = "body")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ModelVersion", response = classOf[ModelVersion]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def addModelVersion = path("api" / "v1" / "model" / "version") {
+    post {
+      entity(as[CreateModelVersionRequest]) { r =>
+        complete(
+          modelManagementService.addModelVersion(r)
         )
       }
     }
@@ -225,7 +237,7 @@ class ModelController(modelManagementService: ModelManagementService)
   @ApiOperation(value = "Submit a new flat contract for a model", notes = "Submit a flat new contract for a model", nickname = "Submit a new flat contract for a model", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId"),
-    new ApiImplicitParam(name = "body", value = "ContractDescription", required = true, dataTypeClass = classOf[ContractDescription] , paramType = "body")
+    new ApiImplicitParam(name = "body", value = "ContractDescription", required = true, dataTypeClass = classOf[ContractDescription], paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Any", response = classOf[Model]),
@@ -241,8 +253,25 @@ class ModelController(modelManagementService: ModelManagementService)
     }
   }
 
+  @Path("version/generateInputs/{runtimeId}/{signatureName}")
+  @ApiOperation(value = "Generate payload for model version", notes = "Generate payload for model version", nickname = "Generate payload for model version", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "versionId", required = true, dataType = "string", paramType = "path", value = "versionId")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def generateInputsForVersion = path("api" / "v1" / "model" / "version" / "generateInputs" / LongNumber / Segment) { (versionId, signature) =>
+    get {
+      complete(
+        modelManagementService.generateInputsForVersion(versionId, signature)
+      )
+    }
+  }
 
-  val routes: Route = listModels ~ updateModel ~ addModel ~ buildModel ~ buildByName ~
-    listModelBuilds ~ listModelBuildsByModel ~ lastModelBuilds ~
-    generatePayloadByModelNameService ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract
+
+  val routes: Route = listModels ~ updateModel ~ addModel ~ buildModel ~ listModelBuildsByModel ~ lastModelBuilds ~
+    generatePayloadByModelNameService ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract ~ generateInputsForVersion ~
+    lastModelVersions ~ addModelVersion
 }

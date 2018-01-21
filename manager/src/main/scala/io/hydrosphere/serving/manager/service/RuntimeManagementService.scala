@@ -6,6 +6,27 @@ import io.hydrosphere.serving.manager.model.Runtime
 
 import scala.concurrent.Future
 
+case class CreateRuntimeRequest(
+  name: String,
+  version: String,
+  modelTypes: Option[List[String]] = None,
+  tags: Option[List[String]] = None,
+  configParams: Option[Map[String, String]] = None
+) {
+  def toRuntimeType: Runtime = {
+    Runtime(
+      id = 0,
+      name = this.name,
+      version = this.version,
+      suitableModelType = this.tags
+        .getOrElse(List())
+        .map(ModelType.fromTag),
+      tags = this.tags.getOrElse(List()),
+      configParams = this.configParams.getOrElse(Map())
+    )
+  }
+}
+
 trait RuntimeManagementService {
   def lookupByModelType(modelType: Set[String]): Future[Seq[Runtime]]
 
@@ -16,28 +37,6 @@ trait RuntimeManagementService {
   def create(entity: CreateRuntimeRequest): Future[Runtime]
 
   def get(id: Long): Future[Option[Runtime]]
-
-  case class CreateRuntimeRequest(
-    name: String,
-    version: String,
-    modelTypes: Option[List[String]] = None,
-    tags: Option[List[String]] = None,
-    configParams: Option[Map[String, String]] = None
-  ) {
-    def toRuntimeType: Runtime = {
-      Runtime(
-        id = 0,
-        name = this.name,
-        version = this.version,
-        suitableModelType = this.tags
-          .getOrElse(List())
-          .map(ModelType.fromTag),
-        tags = this.tags.getOrElse(List()),
-        configParams = this.configParams.getOrElse(Map())
-      )
-    }
-  }
-
 }
 
 class RuntimeManagementServiceImpl(
