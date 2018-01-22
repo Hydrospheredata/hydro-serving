@@ -12,14 +12,14 @@ import collection.JavaConverters._
   */
 
 trait ManagerConfiguration {
-  val sidecar: SidecarConfig
-  val application: ApplicationConfig
-  val advertised: AdvertisedConfiguration
-  val modelSources: Seq[ModelSourceConfigAux]
-  val database: HikariConfig
-  val cloudDriver: CloudDriverConfiguration
-  val zipkin: ZipkinConfiguration
-  val dockerRepository: DockerRepositoryConfiguration
+  def sidecar: SidecarConfig
+  def application: ApplicationConfig
+  def advertised: AdvertisedConfiguration
+  def modelSources: Seq[ModelSourceConfigAux]
+  def database: HikariConfig
+  def cloudDriver: CloudDriverConfiguration
+  def zipkin: ZipkinConfiguration
+  def dockerRepository: DockerRepositoryConfiguration
 }
 
 case class ManagerConfigurationImpl(

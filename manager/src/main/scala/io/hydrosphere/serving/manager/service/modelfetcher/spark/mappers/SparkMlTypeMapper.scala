@@ -5,46 +5,50 @@ import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 import io.hydrosphere.serving.tensorflow.types.DataType
 import io.hydrosphere.serving.manager.service.modelfetcher.spark._
 import io.hydrosphere.serving.manager.model.api.ModelContractBuilders
+import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
 
 abstract class SparkMlTypeMapper(val m: SparkModelMetadata) {
 
   def inputSchema: List[ModelField]
   def outputSchema: List[ModelField]
-  def labelSchema: Option[List[ModelField]] = None
+  def labelSchema: Option[ModelField] = None
 }
 
 object SparkMlTypeMapper {
-  type TypeDescription = (DataType, Option[TensorShapeProto])
 
-  def constructField(name: String, typeDescription: TypeDescription): ModelField = {
-    ModelContractBuilders.rawTensorModelField(name, typeDescription._1, typeDescription._2)
+  def constructField(name: String, tensorInfo: TensorInfo): ModelField = {
+    ModelContractBuilders.rawTensorModelField(name, tensorInfo.dtype, tensorInfo.tensorShape)
   }
 
-  def scalar(dataType: DataType): TypeDescription = {
-    dataType -> None
+  def scalar(dataType: DataType): TensorInfo = {
+    TensorInfo(dataType, None)
   }
 
-  def varVec(dataType: DataType): TypeDescription = {
-    dataType -> Some(TensorShapeProto(
-      List(TensorShapeProto.Dim(-1))
-    ))
+  def fixedVec(dataType: DataType, size: Long): TensorInfo = {
+    TensorInfo(
+      dataType,
+      Some(
+        TensorShapeProto(
+          List(TensorShapeProto.Dim(size))
+        )
+      )
+    )
   }
 
-  def fixedVec(dataType: DataType, size: Long): TypeDescription = {
-    dataType -> Some(TensorShapeProto(
-      List(TensorShapeProto.Dim(size))
-    ))
+  def varVec(dataType: DataType): TensorInfo = fixedVec(dataType, -1)
+
+  def featuresVec(sparkModelMetadata: SparkModelMetadata): TensorInfo = {
+    fixedVec(
+      DataType.DT_DOUBLE,
+      sparkModelMetadata.numFeatures.getOrElse(-1).toLong
+    )
   }
 
-  def featuresVec(sparkModelMetadata: SparkModelMetadata): TypeDescription = {
-    DataType.DT_DOUBLE -> Some(TensorShapeProto(
-      List(TensorShapeProto.Dim(sparkModelMetadata.numFeatures.getOrElse(-1).toLong))
-    ))
-  }
-  def classesVec(sparkModelMetadata: SparkModelMetadata): TypeDescription = {
-    DataType.DT_DOUBLE -> Some(TensorShapeProto(
-      List(TensorShapeProto.Dim(sparkModelMetadata.numFeatures.getOrElse(-1).toLong))
-    ))
+  def classesVec(sparkModelMetadata: SparkModelMetadata): TensorInfo = {
+    fixedVec(
+      DataType.DT_DOUBLE,
+      sparkModelMetadata.numFeatures.getOrElse(-1).toLong
+    )
   }
 
   def apply(sparkModelMetadata: SparkModelMetadata): SparkMlTypeMapper = {
