@@ -6,6 +6,6 @@ import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelMetad
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers.SparkMlTypeMapper.{TypeDescription, scalar}
 
 class KMeansMapper(m: SparkModelMetadata)  extends PredictorMapper(m) {
-  override def labelSchema: Option[List[ModelField]] = None
+  override def labelSchema: Option[ModelField] = None
   override def predictionType(sparkModelMetadata: SparkModelMetadata): TypeDescription = scalar(DT_INT32)
 }

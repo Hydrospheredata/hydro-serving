@@ -8,7 +8,18 @@ import io.hydrosphere.serving.manager.model.api.ModelContractBuilders
 class UntypedMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
   private[this] val inputCols = Array("inputCol", "featuresCol")
   private[this] val outputCols = Array("outputCol", "predictionCol", "probabilityCol", "rawPredictionCol")
-  //private[this] val labelCols = Array("labelCol")
+  private[this] val labelCol = "labelCol"
+
+  override def labelSchema: Option[ModelField] = {
+    m.getParam[String](labelCol)
+      .map { label =>
+        ModelContractBuilders.simpleTensorModelField(
+          label,
+          DataType.DT_STRING,
+          None
+        )
+      }
+  }
 
   override def inputSchema: List[ModelField] = {
     inputCols

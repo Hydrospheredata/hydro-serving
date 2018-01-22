@@ -10,12 +10,10 @@ abstract class PredictorMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(
   def featuresType(sparkModelMetadata: SparkModelMetadata): TypeDescription = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
   def predictionType(sparkModelMetadata: SparkModelMetadata): TypeDescription = scalar(DT_DOUBLE)
 
-  override def labelSchema: Option[List[ModelField]] = {
+  override def labelSchema: Option[ModelField] = {
     val name = m.getParam[String]("labelCol").get
     Some(
-      List(
         ModelContractBuilders.rawTensorModelField(name, DT_STRING, None)
-      )
     )
   }
 

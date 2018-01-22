@@ -10,7 +10,7 @@ abstract class SparkMlTypeMapper(val m: SparkModelMetadata) {
 
   def inputSchema: List[ModelField]
   def outputSchema: List[ModelField]
-  def labelSchema: Option[List[ModelField]] = None
+  def labelSchema: Option[ModelField] = None
 }
 
 object SparkMlTypeMapper {
