@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager
 
 import envoy.api.v2._
 import io.grpc.ServerBuilder
+import io.grpc.internal.AbstractServerImplBuilder
 import io.hydrosphere.serving.manager.grpc.envoy.AggregatedDiscoveryServiceGrpcImpl
 
 import scala.concurrent.ExecutionContext
