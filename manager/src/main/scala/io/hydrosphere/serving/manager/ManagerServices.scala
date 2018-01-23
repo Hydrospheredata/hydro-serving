@@ -11,6 +11,7 @@ import io.hydrosphere.serving.manager.service.actors.{RepositoryReIndexActor, Se
 import io.hydrosphere.serving.manager.service.envoy.EnvoyGRPCDiscoveryServiceImpl
 import io.hydrosphere.serving.manager.service.modelbuild._
 import io.hydrosphere.serving.manager.service.prometheus.PrometheusMetricsServiceImpl
+import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.ExecutionContext
@@ -20,7 +21,8 @@ import scala.concurrent.ExecutionContext
   */
 class ManagerServices(
   managerRepositories: ManagerRepositories,
-  managerConfiguration: ManagerConfiguration
+  managerConfiguration: ManagerConfiguration,
+  grpcClient: PredictionServiceGrpc.PredictionServiceStub
 )(
   implicit val ex: ExecutionContext,
   implicit val system: ActorSystem,
@@ -86,7 +88,8 @@ class ManagerServices(
     managerRepositories.serviceRepository,
     runtimeMeshConnector,
     managerRepositories.applicationRepository,
-    serviceManagementService
+    serviceManagementService,
+    grpcClient
   )
 
   val envoyGRPCDiscoveryService = new EnvoyGRPCDiscoveryServiceImpl

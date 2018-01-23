@@ -7,17 +7,46 @@ import io.hydrosphere.serving.tensorflow.types.DataType.{DT_BOOL, DT_COMPLEX128,
 
 import scala.reflect.ClassTag
 
+/**
+  * At one time, `TensorProto` can only have one type of data.
+  * `TypedTensor` is a wrapper that ensures it, and provides simple access.
+  * @tparam T type of data field
+  */
 sealed trait TypedTensor[T] {
+  /**
+    * Returns tensor contents from a field as flat `Seq`
+    * @param tensorProto target tensor
+    * @return flat data `Seq`
+    */
   def get(tensorProto: TensorProto): Seq[T]
 
+  /**
+    * Puts data to a field
+    * @param tensorProto target tensor
+    * @param data data
+    * @return tensor with new data
+    */
   def put(tensorProto: TensorProto, data: Seq[T]): TensorProto
 
+  /**
+    * Tries to convert data to tensor-specific type and puts it to a field
+    * @param tensorProto target tensor
+    * @param data data
+    * @param ct class tag to retrieve class info
+    * @return tensor with new data or error
+    */
   def putAny(tensorProto: TensorProto, data: Seq[Any])(implicit ct: ClassTag[T]): Either[ValidationError, TensorProto] = {
     castData(data).right.map { converted =>
       put(tensorProto, converted)
     }
   }
 
+  /**
+    * Tries to convert `data` to tensor-specific type.
+    * @param data target data
+    * @param ct class tag to retrieve class info
+    * @return converted data or error
+    */
   def castData(data: Seq[Any])(implicit ct: ClassTag[T]): Either[ValidationError, Seq[T]] = {
     try {
       Right(data.map(_.asInstanceOf[T]))
@@ -28,6 +57,12 @@ sealed trait TypedTensor[T] {
 }
 
 object TypedTensor{
+  /**
+    * Creates tensor with `data` and `tensorInfo`
+    * @param data contents to be put in tensor
+    * @param tensorInfo tensor info
+    * @return tensor with data or error
+    */
   def constructTensor(data: Seq[Any], tensorInfo: TensorInfo): Either[ValidationError, TensorProto] = {
     val typedTensor = tensorInfo.dtype match {
       case DT_FLOAT => FloatTensor

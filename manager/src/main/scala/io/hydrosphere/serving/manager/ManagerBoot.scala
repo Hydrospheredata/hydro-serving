@@ -6,6 +6,9 @@ import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.typesafe.config.ConfigFactory
+import io.grpc.ManagedChannelBuilder
+import io.hydrosphere.serving.manager.grpc.manager.AuthorityReplacerInterceptor
+import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.Await
@@ -23,10 +26,18 @@ object ManagerBoot extends App with Logging {
 
     val configuration = ManagerConfiguration.parse(ConfigFactory.load())
 
+    val channel = ManagedChannelBuilder
+      .forAddress(configuration.sidecar.host, configuration.sidecar.port)
+      .usePlaintext(true)
+      .build
+    val managerGrpcClient = PredictionServiceGrpc.stub(channel)
+
+
     val managerRepositories = new ManagerRepositoriesConfig(configuration)
-    val managerServices = new ManagerServices(managerRepositories, configuration)
+    val managerServices = new ManagerServices(managerRepositories, configuration, managerGrpcClient)
     val managerApi = new ManagerHttpApi(managerServices, configuration)
-    val managerGRPC = new ManagerGRPC(managerServices, configuration)
+
+    val managerGRPC = new ManagerGRPC(managerServices, configuration, managerGrpcClient)
 
     sys addShutdownHook {
       managerGRPC.server.shutdown()

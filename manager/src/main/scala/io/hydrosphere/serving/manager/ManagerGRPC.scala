@@ -14,7 +14,8 @@ import scala.concurrent.ExecutionContext
 class ManagerGRPC
 (
   managerServices: ManagerServices,
-  managerConfiguration: ManagerConfiguration
+  managerConfiguration: ManagerConfiguration,
+  grpcClient: PredictionServiceGrpc.PredictionServiceStub
 )(
   implicit val ex: ExecutionContext
 ) {
@@ -29,7 +30,7 @@ class ManagerGRPC
   }
 
   val aggregatedDiscoveryServiceGrpc = new AggregatedDiscoveryServiceGrpcImpl(managerServices.envoyGRPCDiscoveryService)
-  val managerGrpcApi = new ManagerGrpcApi(managerServices)
+  val managerGrpcApi = new ManagerGrpcApi(managerServices, grpcClient)
 
   val builder = BuilderWrapper(ServerBuilder.forPort(managerConfiguration.application.grpcPort))
     .addService(AggregatedDiscoveryServiceGrpc.bindService(aggregatedDiscoveryServiceGrpc, ex))
