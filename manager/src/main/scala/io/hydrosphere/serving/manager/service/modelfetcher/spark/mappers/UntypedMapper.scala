@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.tensorflow.types.DataType
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelMetadata
-import io.hydrosphere.serving.manager.model.api.ModelContractBuilders
+import io.hydrosphere.serving.manager.model.api.ContractBuilders
 
 class UntypedMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
   private[this] val inputCols = Array("inputCol", "featuresCol")
@@ -16,7 +16,7 @@ class UntypedMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
       .flatMap {
         _.map {
           inputName =>
-            ModelContractBuilders.simpleTensorModelField(
+            ContractBuilders.simpleTensorModelField(
               inputName,
               DataType.DT_STRING,
               Some(Seq.empty),
@@ -33,7 +33,7 @@ class UntypedMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
       .flatMap {
         _.map {
           inputName =>
-            ModelContractBuilders.simpleTensorModelField(
+            ContractBuilders.simpleTensorModelField(
               inputName,
               DataType.DT_STRING,
               Some(Seq.empty),

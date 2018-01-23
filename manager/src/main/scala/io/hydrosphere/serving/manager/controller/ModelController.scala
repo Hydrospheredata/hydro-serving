@@ -7,7 +7,7 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.ContractOps.ContractDescription
+import io.hydrosphere.serving.manager.model.api.description.ContractDescription
 import io.swagger.annotations._
 
 import scala.concurrent.duration._

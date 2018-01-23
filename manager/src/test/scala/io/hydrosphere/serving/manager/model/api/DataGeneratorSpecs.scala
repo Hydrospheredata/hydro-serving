@@ -14,10 +14,10 @@ class DataGeneratorSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           List(
-            ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
+            ContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
           ),
           List(
-            ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+            ContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
           )
         )
 
@@ -33,17 +33,17 @@ class DataGeneratorSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           List(
-            ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, Some(List(-1))),
-            ModelContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, Some(List(3)))
+            ContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, Some(List(-1))),
+            ContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, Some(List(3)))
           ),
           List(
-            ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+            ContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
           )
         )
 
         val expected = Map(
-          "in1" -> TensorProto(dtype = DataType.DT_STRING, tensorShape = Some(ModelContractBuilders.createTensorShape(List(-1))), stringVal = List(ByteString.copyFromUtf8("foo"))),
-          "in2" -> TensorProto(dtype = DataType.DT_INT32, tensorShape = Some(ModelContractBuilders.createTensorShape(List(3))), intVal = List(1, 1, 1))
+          "in1" -> TensorProto(dtype = DataType.DT_STRING, tensorShape = Some(ContractBuilders.createTensorShape(List(-1))), stringVal = List(ByteString.copyFromUtf8("foo"))),
+          "in2" -> TensorProto(dtype = DataType.DT_INT32, tensorShape = Some(ContractBuilders.createTensorShape(List(3))), intVal = List(1, 1, 1))
         )
 
         val generated = DataGenerator(sig1).generateInputs
@@ -54,15 +54,15 @@ class DataGeneratorSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           List(
-            ModelContractBuilders.complexField("in1",
+            ContractBuilders.complexField("in1",
               Seq(
-                ModelContractBuilders.simpleTensorModelField("a", DataType.DT_STRING, None),
-                ModelContractBuilders.simpleTensorModelField("b", DataType.DT_STRING, None)
+                ContractBuilders.simpleTensorModelField("a", DataType.DT_STRING, None),
+                ContractBuilders.simpleTensorModelField("b", DataType.DT_STRING, None)
               )
             )
           ),
           List(
-            ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+            ContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
           )
         )
 
