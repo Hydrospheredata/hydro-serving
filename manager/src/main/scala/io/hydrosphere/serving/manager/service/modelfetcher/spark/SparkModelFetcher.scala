@@ -37,9 +37,9 @@ object SparkModelFetcher extends ModelFetcher with Logging {
       val mappers = stagesMetadata.map(SparkMlTypeMapper.apply)
       val inputs = mappers.map(_.inputSchema)
       val outputs = mappers.map(_.outputSchema)
-      val labels = mappers.map(_.labelSchema).filter(_.isDefined).map(_.get)
+      val labels = mappers.flatMap(_.labelSchema)
 
-      val allLabels = labels.flatten.map(_.fieldName)
+      val allLabels = labels.map(_.fieldName)
       val allIns = inputs.flatten.map(x => x.fieldName -> x).toMap
       val allOuts = outputs.flatten.map(x => x.fieldName -> x).toMap
 
