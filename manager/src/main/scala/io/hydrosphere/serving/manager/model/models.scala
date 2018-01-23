@@ -14,7 +14,9 @@ case class Runtime(
   suitableModelType: List[ModelType],
   tags: List[String],
   configParams: Map[String, String]
-)
+){
+  def toImageDef: String = s"$name:$version"
+}
 
 case class Model(
   id: Long,

@@ -173,6 +173,20 @@ class ModelController(modelManagementService: ModelManagementService)
     }
   }
 
+  @Path("version")
+  @ApiOperation(value = "All ModelVersion", notes = "All ModelVersion", nickname = "allModelVersions", httpMethod = "GET")
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ModelVersion", response = classOf[ModelVersion], responseContainer = "List"),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def allModelVersions = path("api" / "v1" / "model" / "version") {
+    get {
+      complete(
+        modelManagementService.allModelVersion()
+      )
+    }
+  }
+
   @Path("/generate/{modelId}/{signature}")
   @ApiOperation(value = "Generate payload for model", notes = "Generate payload for model", nickname = "Generate payload for model", httpMethod = "GET")
   @ApiImplicitParams(Array(
@@ -273,5 +287,5 @@ class ModelController(modelManagementService: ModelManagementService)
 
   val routes: Route = listModels ~ updateModel ~ addModel ~ buildModel ~ listModelBuildsByModel ~ lastModelBuilds ~
     generatePayloadByModelId ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract ~ generateInputsForVersion ~
-    lastModelVersions ~ addModelVersion
+    lastModelVersions ~ addModelVersion ~ allModelVersions
 }

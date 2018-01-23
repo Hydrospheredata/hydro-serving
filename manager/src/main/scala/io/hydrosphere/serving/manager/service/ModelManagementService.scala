@@ -238,6 +238,7 @@ class ModelManagementServiceImpl(
            LABEL MODEL_TYPE={MODEL_TYPE}
            LABEL MODEL_NAME={MODEL_NAME}
            LABEL MODEL_VERSION={MODEL_VERSION}
+           VOLUME /model
            ADD {MODEL_PATH} /model""")
     })
 

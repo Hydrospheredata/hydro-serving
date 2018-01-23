@@ -75,7 +75,7 @@ abstract class CommonIntegrationSpec extends TestKit(ActorSystem("testMasterServ
 
   val managerServices = new ManagerServices(managerRepositories, configuration) {
 
-    override val runtimeDeployService: RuntimeDeployService = mockRuntimeDeployService
+    //override val runtimeDeployService: RuntimeDeployService = mockRuntimeDeployService
 
     override val dockerClient: DockerClient = mockDockerClient
 

@@ -53,25 +53,18 @@ class ManagerServices(
     modelPushService
   )
 
-  val runtimeDeployService: RuntimeDeployService = managerConfiguration.cloudDriver match {
-    case _: SwarmCloudDriverConfiguration => new SwarmRuntimeDeployService(dockerClient, managerConfiguration)
-    case _: DockerCloudDriverConfiguration => new DockerRuntimeDeployService(dockerClient, managerConfiguration)
-    //TODO change
-    case c: ECSCloudDriverConfiguration => new CachedProxyRuntimeDeployService(
-      new EcsRuntimeDeployService(c, managerConfiguration)
-    )
+  val cloudDriverService:CloudDriverService=managerConfiguration.cloudDriver match {
+    case _: LocalDockerCloudDriverConfiguration => new LocalDockerCloudDriverService(dockerClient, managerConfiguration)
   }
 
-  val cloudDriverService:CloudDriverService=new LocalCloudDriverService
-
-  val cacheUpdateActor: Option[ActorRef] = runtimeDeployService match {
+  /*val cacheUpdateActor: Option[ActorRef] = runtimeDeployService match {
     case c: CachedProxyRuntimeDeployService =>
       Some(system.actorOf(ServiceCacheUpdateActor.props(c)))
     case _ =>
       logger.info(s"Cache disabled for RuntimeDeployService")
       None
   }
-
+*/
   val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(managerRepositories.runtimeRepository)
 
   val serviceManagementService: ServiceManagementService = new ServiceManagementServiceImpl(

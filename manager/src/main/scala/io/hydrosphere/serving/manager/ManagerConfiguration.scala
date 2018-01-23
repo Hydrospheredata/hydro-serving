@@ -57,6 +57,10 @@ case class DockerCloudDriverConfiguration(
   loggingGelfHost: Option[String]
 ) extends CloudDriverConfiguration
 
+case class LocalDockerCloudDriverConfiguration(
+
+) extends CloudDriverConfiguration
+
 case class ECSCloudDriverConfiguration(
   region: Regions,
   cluster: String,
@@ -77,7 +81,9 @@ case class ApplicationConfig(
 
 case class SidecarConfig(
   host: String,
-  port: Int
+  ingressPort: Int,
+  egressPort: Int,
+  adminPort: Int
 )
 
 object ManagerConfiguration {
@@ -85,7 +91,9 @@ object ManagerConfiguration {
     val c = config.getConfig("sidecar")
     SidecarConfig(
       host = c.getString("host"),
-      port = c.getInt("port")
+      ingressPort = c.getInt("ingressPort"),
+      egressPort = c.getInt("egressPort"),
+      adminPort = c.getInt("adminPort")
     )
   }
 
@@ -93,7 +101,7 @@ object ManagerConfiguration {
     val c = config.getConfig("application")
     ApplicationConfig(
       port = c.getInt("port"),
-      grpcPort=c.getInt("grpcPort")
+      grpcPort = c.getInt("grpcPort")
     )
   }
 
@@ -129,6 +137,8 @@ object ManagerConfiguration {
       kv.getKey match {
         case "swarm" =>
           SwarmCloudDriverConfiguration(networkName = driverConf.getString("networkName"))
+        case "localDocker" =>
+          LocalDockerCloudDriverConfiguration()
         case "docker" =>
           val hasLoggingGelfHost = driverConf.hasPath("loggingGelfHost")
           DockerCloudDriverConfiguration(
@@ -210,14 +220,14 @@ object ManagerConfiguration {
   }
 
   def parse(config: Config): ManagerConfigurationImpl = ManagerConfigurationImpl(
-      sidecar = parseSidecar(config),
-      application = parseApplication(config),
-      advertised = parseAdvertised(config),
-      modelSources = parseDataSources(config),
-      database = parseDatabase(config),
-      cloudDriver = parseCloudDriver(config),
-      zipkin = parseZipkin(config),
-      dockerRepository = parseDockerRepository(config)
-    )
+    sidecar = parseSidecar(config),
+    application = parseApplication(config),
+    advertised = parseAdvertised(config),
+    modelSources = parseDataSources(config),
+    database = parseDatabase(config),
+    cloudDriver = parseCloudDriver(config),
+    zipkin = parseZipkin(config),
+    dockerRepository = parseDockerRepository(config)
+  )
 
 }

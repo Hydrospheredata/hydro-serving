@@ -4,4 +4,4 @@
 
 JAVA_OPTS="-Xmx$JAVA_XMX -Xms$JAVA_XMX"
 
-java $JAVA_OPTS -cp "/hydro-serving/app/app.jar:/hydro-serving/app/lib/*" io.hydrosphere.serving.manager.ManagerBoot
+java $JAVA_OPTS -cp "/hydro-serving/app/app.jar:/hydro-serving/app/lib/*" io.hydrosphere.serving.dummy_runtime.DummyRuntimeApp

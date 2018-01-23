@@ -4,10 +4,9 @@ import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.{ContractOps, DataGenerator, ModelType}
+import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.clouddriver._
-import spray.json.JsObject
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -127,7 +126,7 @@ class ServiceManagementServiceImpl(
   }
 
   private def syncServices(services: Seq[Service]): Future[Seq[Service]] =
-    cloudDriverService.services(services.map(s => s.id)).map(cloudServices => {
+    cloudDriverService.services(services.map(s => s.id).toSet).map(cloudServices => {
       val map = cloudServices.map(p => p.id -> p).toMap
       services.map(s => {
         map.get(s.id) match {
@@ -151,17 +150,14 @@ class ServiceManagementServiceImpl(
       case None => Future.successful(None)
     }
 
-  private def fetchServingEnvironment(environmentId: Option[Long]): Future[Environment] = environmentId match {
+  private def fetchServingEnvironment(environmentId: Option[Long]): Future[Option[Environment]] = environmentId match {
     case Some(x) => x match {
       case AnyEnvironment.`anyEnvironmentId` =>
-        Future.successful(new AnyEnvironment())
+        Future.successful(None)
       case _ =>
         environmentRepository.get(x)
-          .map(s => s.getOrElse({
-            throw new IllegalArgumentException(s"Can't find ServingEnvironment with id=$x")
-          }))
     }
-    case None => Future.successful(new AnyEnvironment())
+    case None => Future.successful(None)
   }
 
   override def addService(r: CreateServiceRequest): Future[Service] = {
@@ -172,9 +168,9 @@ class ServiceManagementServiceImpl(
         runtimeRepository.get(r.runtimeId).flatMap {
           case None => throw new IllegalArgumentException(s"Can't find ModelRuntime with id=${r.runtimeId}")
           case Some(runtime) =>
-            serviceRepository.create(r.toService(runtime, modelVersion, Some(svEnv)))
+            serviceRepository.create(r.toService(runtime, modelVersion, svEnv))
               .flatMap(newService => {
-                cloudDriverService.deployService(newService, svEnv).flatMap(cloudService => {
+                cloudDriverService.deployService(newService).flatMap(cloudService => {
                   serviceRepository.updateCloudDriveId(cloudService.id, Some(cloudService.cloudDriverId))
                     .map(_ => newService.copy(cloudDriverId = Some(cloudService.cloudDriverId)))
                 })
@@ -185,7 +181,7 @@ class ServiceManagementServiceImpl(
   }
 
   override def getService(serviceId: Long): Future[Option[Service]] =
-    cloudDriverService.services(Seq(serviceId))
+    cloudDriverService.services(Set(serviceId))
       .flatMap(opt => {
         val info = opt.headOption.getOrElse(throw new IllegalArgumentException(s"Can't find service with id $serviceId"))
         info.id match {
@@ -222,7 +218,7 @@ class ServiceManagementServiceImpl(
   override def serviceByFullName(fullName: String): Future[Option[Service]] =
     specialNames.get(fullName) match {
       case Some(id) =>
-        cloudDriverService.services(Seq(id))
+        cloudDriverService.services(Set(id))
           .map(p => p.headOption.map(mapInternalService))
       case None => serviceRepository.getByServiceName(fullName)
     }
