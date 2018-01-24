@@ -3,6 +3,7 @@ package io.hydrosphere.serving.manager.model.api.validation
 import com.google.protobuf.ByteString
 import io.hydrosphere.serving.tensorflow.tensor.TensorProto
 import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
+import io.hydrosphere.serving.tensorflow.types.DataType
 import io.hydrosphere.serving.tensorflow.types.DataType.{DT_BOOL, DT_COMPLEX128, DT_COMPLEX64, DT_DOUBLE, DT_FLOAT, DT_INT16, DT_INT32, DT_INT64, DT_INT8, DT_QINT16, DT_QINT32, DT_QINT8, DT_QUINT16, DT_QUINT8, DT_STRING, DT_UINT16, DT_UINT32, DT_UINT64, DT_UINT8}
 
 import scala.reflect.ClassTag
@@ -57,14 +58,8 @@ sealed trait TypedTensor[T] {
 }
 
 object TypedTensor{
-  /**
-    * Creates tensor with `data` and `tensorInfo`
-    * @param data contents to be put in tensor
-    * @param tensorInfo tensor info
-    * @return tensor with data or error
-    */
-  def constructTensor(data: Seq[Any], tensorInfo: TensorInfo): Either[ValidationError, TensorProto] = {
-    val typedTensor = tensorInfo.dtype match {
+  def apply(dataType: DataType): TypedTensor[_] = {
+    dataType match {
       case DT_FLOAT => FloatTensor
 
       case DT_DOUBLE => DoubleTensor
@@ -87,6 +82,15 @@ object TypedTensor{
 
       case x => throw new UnsupportedFieldTypeError(x)
     }
+  }
+  /**
+    * Creates tensor with `data` and `tensorInfo`
+    * @param data contents to be put in tensor
+    * @param tensorInfo tensor info
+    * @return tensor with data or error
+    */
+  def constructTensor(data: Seq[Any], tensorInfo: TensorInfo): Either[ValidationError, TensorProto] = {
+    val typedTensor = TypedTensor(tensorInfo.dtype)
 
     val tensor = TensorProto(dtype = tensorInfo.dtype, tensorShape = tensorInfo.tensorShape)
     typedTensor.putAny(tensor, data)

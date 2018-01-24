@@ -3,6 +3,8 @@ package io.hydrosphere.serving.manager.model.api.validation
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_field.ModelField.InfoOrSubfields.{Empty, Info, Subfields}
+import io.hydrosphere.serving.contract.model_signature.ModelSignature
+import io.hydrosphere.serving.manager.model.api.validation.TypedTensor._
 import io.hydrosphere.serving.manager.service.JsonPredictRequest
 import io.hydrosphere.serving.tensorflow.api.predict.PredictRequest
 import io.hydrosphere.serving.tensorflow.tensor.TensorProto
@@ -15,33 +17,40 @@ class PredictRequestContractValidator(val contract: ModelContract) {
   def convert(data: JsonPredictRequest): Either[ValidationError, PredictRequest] = {
     contract.signatures.find(_.signatureName == data.signatureName) match {
       case Some(signature) =>
-        // rootField is a virtual field that aggregates all request inputs
-        val rootField = ModelField(
-          "root",
-          ModelField.InfoOrSubfields.Subfields(
-            ModelField.ComplexField(
-              signature.inputs
-            )
+        val validator = new SignatureValidator(signature)
+        validator.convert(data.inputs).right.map { tensors =>
+          PredictRequest(
+            modelSpec = Some(data.toModelSpec),
+            inputs = tensors
           )
-        )
-
-        val fieldValidator = new ComplexFieldValidator(rootField, signature.inputs)
-        fieldValidator.convert(data.inputs) match {
-          case Left(errors) =>
-            Left(new SignatureValidationError(errors, signature))
-          case Right(tensor) =>
-            Right(
-              PredictRequest(
-                modelSpec = Some(data.toModelSpec),
-                inputs = tensor.mapVal
-              )
-            )
         }
 
       case None => Left(new SignatureMissingError(data.signatureName, contract))
     }
   }
 
+}
+
+class SignatureValidator(val signature: ModelSignature) {
+  def convert(data: JsObject): Either[ValidationError, Map[String, TensorProto]] = {
+    // rootField is a virtual field that aggregates all request inputs
+    val rootField = ModelField(
+      "root",
+      ModelField.InfoOrSubfields.Subfields(
+        ModelField.ComplexField(
+          signature.inputs
+        )
+      )
+    )
+
+    val fieldValidator = new ComplexFieldValidator(rootField, signature.inputs)
+    fieldValidator.convert(data) match {
+      case Left(errors) =>
+        Left(new SignatureValidationError(errors, signature))
+      case Right(tensor) =>
+        Right(tensor.mapVal)
+    }
+  }
 }
 
 class ModelFieldValidator(val modelField: ModelField) {
@@ -104,33 +113,41 @@ class InfoFieldValidator(val field: ModelField, val tensorInfo: TensorInfo) {
   def convert(data: JsValue): Either[ValidationError, TensorProto] = {
     data match {
       // collection
-      case arr: JsArray => arrayToTensor(arr, tensorInfo)
+      case JsArray(elements) => process(elements)
       // scalar
-      case JsString(value) => toTensor(Seq(value), tensorInfo)
-      case JsNumber(value) => toTensor(Seq(value.doubleValue()), tensorInfo)
-      case bool: JsBoolean => toTensor(Seq(bool), tensorInfo)
+      case str: JsString => process(Seq(str))
+      case num: JsNumber => process(Seq(num))
+      case bool: JsBoolean => process(Seq(bool))
       // invalid
-      case other => Left(new IncompatibleFieldTypeError(field.fieldName, tensorInfo.dtype))
+      case _ => Left(new IncompatibleFieldTypeError(field.fieldName, tensorInfo.dtype))
     }
   }
 
-  def arrayToTensor(data: JsArray, tensorInfo: TensorInfo): Either[ValidationError, TensorProto] = {
+  def process(data: Seq[JsValue]): Either[ValidationError, TensorProto] = {
     val reshapedData = tensorInfo.tensorShape match {
       case Some(_) => flatten(data)
-      case None => List(data)
+      case None => data
     }
-
-    toTensor(reshapedData, tensorInfo)
+    val convertedData = TypedTensor(tensorInfo.dtype) match {
+      case FloatTensor | SComplexTensor => reshapedData.map(_.asInstanceOf[JsNumber].value.floatValue())
+      case DoubleTensor | DComplexTensor => reshapedData.map(_.asInstanceOf[JsNumber].value.doubleValue())
+      case Uint64Tensor | Int64Tensor => reshapedData.map(_.asInstanceOf[JsNumber].value.longValue())
+      case IntTensor | UintTensor => reshapedData.map(_.asInstanceOf[JsNumber].value.intValue())
+      case StringTensor => reshapedData.map(_.asInstanceOf[JsString].value)
+      case BoolTensor => reshapedData.map(_.asInstanceOf[JsBoolean].value)
+    }
+    toTensor(convertedData)
   }
 
-  def toTensor(flatData: Seq[Any], tensorInfo: TensorInfo): Either[ValidationError, TensorProto] = {
+  def toTensor(flatData: Seq[Any]): Either[ValidationError, TensorProto] = {
     TypedTensor.constructTensor(flatData, tensorInfo)
   }
 
-  private def flatten(arr: JsArray): List[Any] = {
-    arr.elements.flatMap {
-      case arr: JsArray => flatten(arr)
-    }.toList
+  private def flatten(arr: Seq[JsValue]): Seq[JsValue] = {
+    arr.flatMap {
+      case arr: JsArray => flatten(arr.elements)
+      case value => List(value)
+    }
   }
 
 }
