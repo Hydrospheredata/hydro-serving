@@ -26,18 +26,11 @@ object ManagerBoot extends App with Logging {
 
     val configuration = ManagerConfiguration.parse(ConfigFactory.load())
 
-    val channel = ManagedChannelBuilder
-      .forAddress(configuration.sidecar.host, configuration.sidecar.port)
-      .usePlaintext(true)
-      .build
-    val managerGrpcClient = PredictionServiceGrpc.stub(channel)
-
-
     val managerRepositories = new ManagerRepositoriesConfig(configuration)
-    val managerServices = new ManagerServices(managerRepositories, configuration, managerGrpcClient)
+    val managerServices = new ManagerServices(managerRepositories, configuration)
     val managerApi = new ManagerHttpApi(managerServices, configuration)
 
-    val managerGRPC = new ManagerGRPC(managerServices, configuration, managerGrpcClient)
+    val managerGRPC = new ManagerGRPC(managerServices, configuration)
 
     sys addShutdownHook {
       managerGRPC.server.shutdown()

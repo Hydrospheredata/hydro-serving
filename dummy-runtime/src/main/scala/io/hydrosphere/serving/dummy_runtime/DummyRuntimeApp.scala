@@ -13,7 +13,7 @@ object DummyRuntimeApp extends App with Logging {
   val dummyImpl = new DummyServiceImpl()
   val service = PredictionServiceGrpc.bindService(dummyImpl, ExecutionContext.global)
 
-  val port = Try(sys.env("APP_PORT").toInt).getOrElse(9090)
+  val port = Try(sys.env("APP_PORT").toInt).getOrElse(9091)
 
   val server = ServerBuilder.forPort(port).addService(service).build()
 

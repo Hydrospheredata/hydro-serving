@@ -21,7 +21,7 @@ case class BuildModelRequest(
   *
   */
 @Path("/api/v1/model")
-@Api(produces = "application/json", tags = Array("Models: Model"))
+@Api(produces = "application/json", tags = Array("Model and Model Versions"))
 class ModelController(modelManagementService: ModelManagementService)
   extends ManagerJsonSupport with ServingDataDirectives {
   implicit val timeout = Timeout(10.minutes)
@@ -173,17 +173,31 @@ class ModelController(modelManagementService: ModelManagementService)
     }
   }
 
-  @Path("/generate/{modelName}/{signature}")
+  @Path("version")
+  @ApiOperation(value = "All ModelVersion", notes = "All ModelVersion", nickname = "allModelVersions", httpMethod = "GET")
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ModelVersion", response = classOf[ModelVersion], responseContainer = "List"),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def allModelVersions = path("api" / "v1" / "model" / "version") {
+    get {
+      complete(
+        modelManagementService.allModelVersion()
+      )
+    }
+  }
+
+  @Path("/generate/{modelId}/{signature}")
   @ApiOperation(value = "Generate payload for model", notes = "Generate payload for model", nickname = "Generate payload for model", httpMethod = "GET")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "modelName", required = true, dataType = "string", paramType = "path", value = "modelName"),
+    new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId"),
     new ApiImplicitParam(name = "signature", required = true, dataType = "string", paramType = "path", value = "signature")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def generatePayloadByModelNameService = path("api" / "v1" / "model" / "generate" / Segment / Segment) { (modelName, signature) =>
+  def generatePayloadByModelId = path("api" / "v1" / "model" / "generate" / LongNumber / Segment) { (modelName, signature) =>
     get {
       complete {
         modelManagementService.generateModelPayload(modelName, signature)
@@ -253,7 +267,7 @@ class ModelController(modelManagementService: ModelManagementService)
     }
   }
 
-  @Path("version/generateInputs/{runtimeId}/{signatureName}")
+  @Path("version/generate/{versionId}/{signatureName}")
   @ApiOperation(value = "Generate payload for model version", notes = "Generate payload for model version", nickname = "Generate payload for model version", httpMethod = "GET")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "versionId", required = true, dataType = "string", paramType = "path", value = "versionId")
@@ -262,7 +276,7 @@ class ModelController(modelManagementService: ModelManagementService)
     new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def generateInputsForVersion = path("api" / "v1" / "model" / "version" / "generateInputs" / LongNumber / Segment) { (versionId, signature) =>
+  def generateInputsForVersion = path("api" / "v1" / "model" / "version" / "generate" / LongNumber / Segment) { (versionId, signature) =>
     get {
       complete(
         modelManagementService.generateInputsForVersion(versionId, signature)
@@ -272,6 +286,6 @@ class ModelController(modelManagementService: ModelManagementService)
 
 
   val routes: Route = listModels ~ updateModel ~ addModel ~ buildModel ~ listModelBuildsByModel ~ lastModelBuilds ~
-    generatePayloadByModelNameService ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract ~ generateInputsForVersion ~
-    lastModelVersions ~ addModelVersion
+    generatePayloadByModelId ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract ~ generateInputsForVersion ~
+    lastModelVersions ~ addModelVersion ~ allModelVersions
 }

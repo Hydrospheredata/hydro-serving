@@ -33,7 +33,7 @@ class ModelVersionRepositoryImpl(
         createdTimestamp = entity.created,
         imageName = entity.imageName,
         imageTag = entity.imageTag,
-        imageMd5 = entity.imageMD5,
+        imageSha256 = entity.imageSHA256,
         modelId = entity.model.map(m=>m.id),
         modelType = entity.modelType.toTag
       )
@@ -122,7 +122,7 @@ object ModelVersionRepositoryImpl extends ManagerJsonSupport {
       id = modelVersion.modelVersionId,
       imageName = modelVersion.imageName,
       imageTag = modelVersion.imageTag,
-      imageMD5 = modelVersion.imageMd5,
+      imageSHA256 = modelVersion.imageSha256,
       modelName = modelVersion.modelName,
       modelVersion = modelVersion.modelVersion,
       source = modelVersion.source,

@@ -16,16 +16,10 @@ trait ServingDataDirectives extends Logging {
   def extractRawData: Directive1[Array[Byte]] =
     withoutSizeLimit & extractStrictEntity(10.seconds).map(e => e.data.toArray)
 
-  def completeExecutionResult(f: Future[ExecutionResult]): Route = {
+  def completeExecutionResult(f: Future[Array[Byte]]): Route = {
     onComplete(f)({
-      case Success(result: ExecutionSuccess) =>
-        complete(HttpResponse(entity = HttpEntity(ContentTypes.`application/json`, result.json)))
-      case Success(failure: ExecutionFailure) =>
-        complete(
-          HttpResponse(
-            status = failure.statusCode,
-            entity = HttpEntity(ContentTypes.`text/plain(UTF-8)`, failure.error)
-        ))
+      case Success(result) =>
+        complete(HttpResponse(entity = HttpEntity(ContentTypes.`application/json`, result)))
       case Failure(err) =>
         logger.error("Serving failed", err)
         complete(

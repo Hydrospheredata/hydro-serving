@@ -16,7 +16,7 @@ import scala.concurrent.duration._
   *
   */
 @Path("/api/v1/runtime")
-@Api(produces = "application/json", tags = Array("Models: Runtime"))
+@Api(produces = "application/json", tags = Array("Runtime"))
 class RuntimeController(
   runtimeManagementService: RuntimeManagementService
 ) extends ManagerJsonSupport {

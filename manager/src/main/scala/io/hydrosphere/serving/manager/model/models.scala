@@ -14,7 +14,9 @@ case class Runtime(
   suitableModelType: List[ModelType],
   tags: List[String],
   configParams: Map[String, String]
-)
+){
+  def toImageDef: String = s"$name:$version"
+}
 
 case class Model(
   id: Long,
@@ -31,7 +33,7 @@ case class ModelVersion(
   id: Long,
   imageName: String,
   imageTag: String,
-  imageMD5: String,
+  imageSHA256: String,
   created: LocalDateTime,
   modelName: String,
   modelVersion: Long,
@@ -143,7 +145,7 @@ class UnknownModelRuntime extends ModelVersion(
   id = -1,
   imageName = "",
   imageTag = "",
-  imageMD5 = "",
+  imageSHA256 = "",
   modelName = "",
   modelVersion = 1,
   source = None,

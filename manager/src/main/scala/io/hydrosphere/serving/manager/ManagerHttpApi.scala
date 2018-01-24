@@ -51,7 +51,7 @@ class ManagerHttpApi(
       ru.typeOf[EnvironmentController],
       ru.typeOf[RuntimeController],
       ru.typeOf[ModelController],
-      //ru.typeOf[ServiceController],
+      ru.typeOf[ServiceController],
       //ru.typeOf[ApplicationController],
       ru.typeOf[PrometheusMetricsController],
       ru.typeOf[ModelSourceController]
@@ -81,7 +81,7 @@ class ManagerHttpApi(
     handleExceptions(commonExceptionHandler) {
       swaggerController.routes ~
         modelController.routes ~
-        //modelServiceController.routes ~
+        serviceController.routes ~
         //applicationController.routes ~
         runtimeController.routes ~
         prometheusMetricsController.routes ~

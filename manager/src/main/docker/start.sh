@@ -5,8 +5,11 @@ SERVICE_ID=$1
 [ -z "$JAVA_XMX" ] && JAVA_XMX="256M"
 
 [ -z "$APP_HTTP_PORT" ] && APP_HTTP_PORT="9090"
-[ -z "$APP_GRPC_PORT" ] && APP_GRPC_PORT="9091"
+[ -z "$APP_PORT" ] && APP_PORT="9091"
 [ -z "$SIDECAR_PORT" ] && SIDECAR_PORT="8080"
+[ -z "$SIDECAR_INGRESS_PORT" ] && SIDECAR_INGRESS_PORT="8080"
+[ -z "$SIDECAR_EGRESS_PORT" ] && SIDECAR_EGRESS_PORT="8081"
+[ -z "$SIDECAR_ADMIN_PORT" ] && SIDECAR_ADMIN_PORT="8082"
 [ -z "$SIDECAR_HOST" ] && SIDECAR_HOST="localhost"
 
 [ -z "$ADVERTISED_MANAGER_HOST" ] && ADVERTISED_MANAGER_HOST="manager"
@@ -24,7 +27,7 @@ SERVICE_ID=$1
 
 JAVA_OPTS="-Xmx$JAVA_XMX -Xms$JAVA_XMX"
 
-APP_OPTS="-Dapplication.grpcPort=$APP_GRPC_PORT -Dapplication.port=$APP_HTTP_PORT -Dsidecar.port=$SIDECAR_PORT -Dsidecar.host=$SIDECAR_HOST"
+APP_OPTS="-Dapplication.grpcPort=$APP_PORT -Dapplication.port=$APP_HTTP_PORT -Dsidecar.adminPort=$SIDECAR_ADMIN_PORT -Dsidecar.ingressPort=$SIDECAR_INGRESS_PORT -Dsidecar.egressPort=$SIDECAR_EGRESS_PORT -Dsidecar.host=$SIDECAR_HOST"
 
 if [ "$GELF_HOST" = "" ]
 then
