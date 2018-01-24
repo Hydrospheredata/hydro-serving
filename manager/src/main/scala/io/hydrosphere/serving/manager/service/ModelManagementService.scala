@@ -3,13 +3,16 @@ package io.hydrosphere.serving.manager.service
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.model.api.{ContractOps, DataGenerator, ModelType}
+import io.hydrosphere.serving.manager.model.api.{DataGenerator, ModelType}
+import io.hydrosphere.serving.manager.model.api.description._
+import io.hydrosphere.serving.manager.model.api.ops.Implicits._
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.repository._
 import spray.json.JsObject
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.api.ops.TensorProtoOps
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -83,7 +86,7 @@ trait ModelManagementService {
 
   def submitBinaryContract(modelId: Long, bytes: Array[Byte]): Future[Option[Model]]
 
-  def submitFlatContract(modelId: Long, contractDescription: ContractOps.ContractDescription): Future[Option[Model]]
+  def submitFlatContract(modelId: Long, contractDescription: ContractDescription): Future[Option[Model]]
 
   def submitContract(modelId: Long, prototext: String): Future[Option[Model]]
 
@@ -410,14 +413,14 @@ class ModelManagementServiceImpl(
       case None => throw new IllegalArgumentException(s"Can't find model modelName=$modelName")
       case Some(model) =>
         val res = DataGenerator.forContract(model.modelContract, signature).get.generateInputs
-        Seq(ContractOps.TensorProtoOps.jsonify(res))
+        Seq(TensorProtoOps.jsonify(res))
     }
   }
 
   override def generateInputsForVersion(versionId: Long, signature: String): Future[Option[Seq[JsObject]]] = {
     modelVersionRepository.get(versionId).map(_.map { runtime =>
       val res = DataGenerator.forContract(runtime.modelContract, signature).get.generateInputs
-      Seq(ContractOps.TensorProtoOps.jsonify(res))
+      Seq(TensorProtoOps.jsonify(res))
     })
   }
 
@@ -430,7 +433,7 @@ class ModelManagementServiceImpl(
 
   override def submitFlatContract(
     modelId: Long,
-    contractDescription: ContractOps.ContractDescription
+    contractDescription: ContractDescription
   ): Future[Option[Model]] = {
     val contract = contractDescription.toContract // TODO Error handling
     updateModelContract(modelId, contract)

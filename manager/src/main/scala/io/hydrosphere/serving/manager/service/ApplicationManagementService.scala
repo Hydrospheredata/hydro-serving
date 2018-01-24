@@ -1,17 +1,17 @@
 package io.hydrosphere.serving.manager.service
 
-import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.connector._
-import io.hydrosphere.serving.manager.model.api.{ContractOps, DataGenerator, SignatureChecker}
+import io.hydrosphere.serving.manager.grpc.manager.AuthorityReplacerInterceptor
 import io.hydrosphere.serving.manager.model.{Application, ApplicationExecutionGraph, Service}
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ServiceRepository}
-
-import scala.concurrent.Await
+import io.hydrosphere.serving.tensorflow.api.model.ModelSpec
+import io.hydrosphere.serving.tensorflow.api.predict.{PredictRequest, PredictResponse}
+import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
+import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc.PredictionServiceStub
 import org.apache.logging.log4j.scala.Logging
-import spray.json.JsObject
 
 import scala.concurrent.{ExecutionContext, Future}
-import scala.concurrent.duration._
+import scala.util.{Failure, Success}
 
 case class ApplicationCreateOrUpdateRequest(
   id: Option[Long],
@@ -33,6 +33,7 @@ case class ApplicationCreateOrUpdateRequest(
 case class ServiceWithSignature(s: Service, signatureName: String)
 
 trait ApplicationManagementService {
+  def serveGrpcApplication(data: PredictRequest): Future[PredictResponse]
 
   /*def allApplications(): Future[Seq[Application]]
 
@@ -57,12 +58,56 @@ trait ApplicationManagementService {
   def generateInputsForApplication(appId: Long): Future[Option[Seq[JsObject]]]*/
 }
 
+case class ExecutionStep(
+  serviceName: String,
+  serviceSignature: String
+)
+
 class ApplicationManagementServiceImpl(
   serviceRepository: ServiceRepository,
   runtimeMeshConnector: RuntimeMeshConnector,
   applicationRepository: ApplicationRepository,
-  serviceManagementService: ServiceManagementService
+  serviceManagementService: ServiceManagementService,
+  grpcClient: PredictionServiceGrpc.PredictionServiceStub
 )(implicit val ex: ExecutionContext) extends ApplicationManagementService with Logging {
+
+  def createRequest(data: PredictResponse, signature: String): PredictRequest = {
+    PredictRequest(
+      modelSpec = Some(
+        ModelSpec(
+          signatureName = signature
+        )
+      ),
+      inputs = data.outputs
+    )
+  }
+
+  def serveGrpcStages(units: Seq[ExecutionUnit], data: PredictRequest): Future[PredictResponse] = {
+    val empty = Future.successful(PredictResponse(outputs = data.inputs))
+
+    units.foldLeft(empty) {
+      case (a, b) =>
+        a.flatMap { resp =>
+          grpcClient
+            .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, b.serviceName)
+            .predict(createRequest(resp, b.servicePath))
+        }
+    }
+  }
+
+  def serveGrpcApplication(data: PredictRequest): Future[PredictResponse] = {
+    import ToPipelineStages._
+    data.modelSpec match {
+      case Some(modelSpec) =>
+        applicationRepository.getByName(modelSpec.name).flatMap{
+          case Some(app) =>
+            serveGrpcStages(app.toPipelineStages(""), data)
+          case None => Future.failed(new IllegalArgumentException(s"Application '${modelSpec.name}' is not found"))
+        }
+      case None => Future.failed(new IllegalArgumentException("ModelSpec is not defined"))
+    }
+  }
+
 
   /*override def serve(req: ServeRequest): Future[ExecutionResult] = {
     import ToPipelineStages._

@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.model.api
 import com.google.protobuf.ByteString
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.model.api.ContractOps.{ContractDescription, FieldDescription, SignatureDescription}
+import io.hydrosphere.serving.manager.model.api.description._
 import io.hydrosphere.serving.tensorflow.tensor.TensorProto
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.scalatest.WordSpec
@@ -12,7 +12,7 @@ import spray.json.{JsArray, JsNumber, JsObject, JsString}
 
 class ContractOpsSpecs extends WordSpec {
 
-  import io.hydrosphere.serving.manager.model.api.ContractOps.Implicits._
+  import io.hydrosphere.serving.manager.model.api.ops.Implicits._
 
   "ContractOps" can {
     "merge" should {
@@ -21,31 +21,31 @@ class ContractOpsSpecs extends WordSpec {
           val sig1 = ModelSignature(
             "sig1",
             List(
-              ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
+              ContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
             ),
             List(
-              ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+              ContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
             )
           )
           val sig2 = ModelSignature(
             "sig2",
             List(
-              ModelContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, None)
+              ContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, None)
             ),
             List(
-              ModelContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, Some(List(3)))
+              ContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, Some(List(3)))
             )
           )
 
           val expectedSig = ModelSignature(
             "sig1&sig2",
             List(
-              ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None),
-              ModelContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, None)
+              ContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None),
+              ContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, None)
             ),
             List(
-              ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1))),
-              ModelContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, Some(List(3)))
+              ContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1))),
+              ContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, Some(List(3)))
             )
           )
 
@@ -56,30 +56,30 @@ class ContractOpsSpecs extends WordSpec {
           val sig1 = ModelSignature(
             "sig1",
             List(
-              ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_INT32, Some(List(-1)))
+              ContractBuilders.simpleTensorModelField("in1", DataType.DT_INT32, Some(List(-1)))
             ),
             List(
-              ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+              ContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
             )
           )
           val sig2 = ModelSignature(
             "sig2",
             List(
-              ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_INT32, Some(List(3)))
+              ContractBuilders.simpleTensorModelField("in1", DataType.DT_INT32, Some(List(3)))
             ),
             List(
-              ModelContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, Some(List(3)))
+              ContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, Some(List(3)))
             )
           )
 
           val expectedSig = ModelSignature(
             "sig1&sig2",
             List(
-              ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_INT32, Some(List(3)))
+              ContractBuilders.simpleTensorModelField("in1", DataType.DT_INT32, Some(List(3)))
             ),
             List(
-              ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1))),
-              ModelContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, Some(List(3)))
+              ContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1))),
+              ContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, Some(List(3)))
             )
           )
 
@@ -92,19 +92,19 @@ class ContractOpsSpecs extends WordSpec {
           val sig1 = ModelSignature(
             "sig1",
             List(
-              ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
+              ContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
             ),
             List(
-              ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+              ContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
             )
           )
           val sig2 = ModelSignature(
             "sig2",
             List(
-              ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_INT32, None)
+              ContractBuilders.simpleTensorModelField("in1", DataType.DT_INT32, None)
             ),
             List(
-              ModelContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, Some(List(3)))
+              ContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, Some(List(3)))
             )
           )
 
@@ -115,19 +115,19 @@ class ContractOpsSpecs extends WordSpec {
           val sig1 = ModelSignature(
             "sig1",
             List(
-              ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
+              ContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
             ),
             List(
-              ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+              ContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
             )
           )
           val sig2 = ModelSignature(
             "sig2",
             List(
-              ModelContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, None)
+              ContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, None)
             ),
             List(
-              ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_INT32, Some(List(3)))
+              ContractBuilders.simpleTensorModelField("out1", DataType.DT_INT32, Some(List(3)))
             )
           )
 
@@ -141,19 +141,19 @@ class ContractOpsSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           List(
-            ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
+            ContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
           ),
           List(
-            ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+            ContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
           )
         )
         val sig2 = ModelSignature(
           "sig2",
           List(
-            ModelContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, None)
+            ContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, None)
           ),
           List(
-            ModelContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, Some(List(3)))
+            ContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, Some(List(3)))
           )
         )
         val contract = ModelContract("test", List(sig1, sig2))
@@ -188,20 +188,20 @@ class ContractOpsSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           List(
-            ModelContractBuilders.complexField(
+            ContractBuilders.complexField(
               "in",
               Seq(
-                ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None),
-                ModelContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, None)
+                ContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None),
+                ContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, None)
               )
             )
           ),
           List(
-            ModelContractBuilders.complexField(
+            ContractBuilders.complexField(
               "out",
               Seq(
-                ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1))),
-                ModelContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, None)
+                ContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1))),
+                ContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, None)
               )
             )
           )
@@ -209,10 +209,10 @@ class ContractOpsSpecs extends WordSpec {
         val sig2 = ModelSignature(
           "sig2",
           List(
-            ModelContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, None)
+            ContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, None)
           ),
           List(
-            ModelContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, Some(List(3)))
+            ContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, Some(List(3)))
           )
         )
         val contract = ModelContract("test", List(sig1, sig2))
@@ -251,10 +251,10 @@ class ContractOpsSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           List(
-            ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
+            ContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
           ),
           List(
-            ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+            ContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
           )
         )
 
@@ -268,26 +268,26 @@ class ContractOpsSpecs extends WordSpec {
           )
         )
 
-        assert(ContractOps.SignatureDescription.toSignature(flatSignature) === sig1)
+        assert(SignatureDescription.toSignature(flatSignature) === sig1)
       }
       "contract is nested" in {
         val signature = ModelSignature(
           "sig1",
           List(
-            ModelContractBuilders.complexField(
+            ContractBuilders.complexField(
               "in",
               Seq(
-                ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None),
-                ModelContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, None)
+                ContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None),
+                ContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, None)
               )
             )
           ),
           List(
-            ModelContractBuilders.complexField(
+            ContractBuilders.complexField(
               "out",
               Seq(
-                ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1))),
-                ModelContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, None)
+                ContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1))),
+                ContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, None)
 
               )
             )
@@ -306,7 +306,7 @@ class ContractOpsSpecs extends WordSpec {
             )
           )
 
-        val restored = ContractOps.SignatureDescription.toSignature(signatureDescription)
+        val restored = SignatureDescription.toSignature(signatureDescription)
 
         assert(restored === signature)
       }
@@ -316,7 +316,7 @@ class ContractOpsSpecs extends WordSpec {
       "classical TensorProto" in {
         val tensor = TensorProto(
           dtype = DataType.DT_STRING,
-          tensorShape = Some(ModelContractBuilders.createTensorShape(Seq(2,2))),
+          tensorShape = Some(ContractBuilders.createTensorShape(Seq(2,2))),
           stringVal = Seq("never", "gonna", "give", "you").map(ByteString.copyFromUtf8)
         )
 

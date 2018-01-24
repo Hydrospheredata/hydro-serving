@@ -1,4 +1,4 @@
-INSERT INTO hydro_serving.runtime_type (runtime_type_id, "name", version, tags, config_params) VALUES
+INSERT INTO hydro_serving.runtime (runtime_id, "name", version, tags, config_params) VALUES
   (1000,'hydro-serving/test','0.0.1','{"python","code","test"}','{"test"}'),
   (1001,'hydro-serving/test','0.0.2','{"python","test"}','{"test"}'),
   (1002,'hydro-serving/test2','0.0.1','{"code","test"}','{"test2"}');

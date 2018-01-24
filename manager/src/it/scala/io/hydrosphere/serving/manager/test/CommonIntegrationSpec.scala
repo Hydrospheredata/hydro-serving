@@ -7,9 +7,11 @@ import akka.util.Timeout
 import com.dimafeng.testcontainers.{ForAllTestContainer, GenericContainer}
 import com.spotify.docker.client.DockerClient
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
+import io.grpc.ManagedChannelBuilder
 import io.hydrosphere.serving.manager.service.clouddriver.RuntimeDeployService
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService}
 import io.hydrosphere.serving.manager.{ManagerConfiguration, ManagerRepositoriesConfig, ManagerServices}
+import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
 import org.mockito
 import org.scalatest.mockito.MockitoSugar
 import org.scalatest.{BeforeAndAfterEach, FunSpecLike}
@@ -73,7 +75,13 @@ abstract class CommonIntegrationSpec extends TestKit(ActorSystem("testMasterServ
 
   val managerRepositories = new ManagerRepositoriesConfig(configuration)
 
-  val managerServices = new ManagerServices(managerRepositories, configuration) {
+  val channel = ManagedChannelBuilder
+    .forAddress(configuration.sidecar.host, configuration.sidecar.port)
+    .usePlaintext(true)
+    .build
+  val managerGrpcClient = PredictionServiceGrpc.stub(channel)
+
+  val managerServices = new ManagerServices(managerRepositories, configuration, managerGrpcClient) {
 
     override val runtimeDeployService: RuntimeDeployService = mockRuntimeDeployService
 

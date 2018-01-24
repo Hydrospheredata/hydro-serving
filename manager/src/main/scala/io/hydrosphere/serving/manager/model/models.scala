@@ -66,12 +66,12 @@ case class ErrorResponse(
 
 case class ServiceWeight(
   serviceId: Long,
-  weight: Int,
-  signatureName: String
+  weight: Int
 )
 
 case class ApplicationStage(
-  services: List[ServiceWeight]
+  services: List[ServiceWeight],
+  signatureName: String
 )
 
 case class ApplicationExecutionGraph(
