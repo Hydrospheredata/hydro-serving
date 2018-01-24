@@ -7,25 +7,25 @@ import scala.concurrent.ExecutionContext
 
 trait ManagerRepositories {
 
-  val runtimeRepository: RuntimeRepository
+  def runtimeRepository: RuntimeRepository
 
-  val modelRepository: ModelRepository
+  def modelRepository: ModelRepository
 
-  val modelFilesRepository: ModelFilesRepository
+  def modelFilesRepository: ModelFilesRepository
 
-  val modelVersionRepository: ModelVersionRepository
+  def modelVersionRepository: ModelVersionRepository
 
-  val modelBuildRepository: ModelBuildRepository
+  def modelBuildRepository: ModelBuildRepository
 
-  val serviceRepository: ServiceRepository
+  def serviceRepository: ServiceRepository
 
-  val modelBuildScriptRepository: ModelBuildScriptRepository
+  def modelBuildScriptRepository: ModelBuildScriptRepository
 
-  val sourceRepository: SourceConfigRepository
+  def sourceRepository: SourceConfigRepository
 
-  val applicationRepository: ApplicationRepository
+  def applicationRepository: ApplicationRepository
 
-  val environmentRepository: EnvironmentRepository
+  def environmentRepository: EnvironmentRepository
 }
 
 class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit executionContext: ExecutionContext)

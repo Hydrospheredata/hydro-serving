@@ -20,7 +20,7 @@ import scala.reflect.runtime.{universe => ru}
 /**
   *
   */
-class ManagerApi(
+class ManagerHttpApi(
   managerServices: ManagerServices,
   managerConfiguration: ManagerConfiguration
 )(

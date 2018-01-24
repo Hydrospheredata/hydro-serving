@@ -2,12 +2,12 @@ package io.hydrosphere.serving.manager.service
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.test.CommonIntegrationSpec
-import io.hydrosphere.serving.manager.model.api.ContractOps.{ContractDescription, FieldDescription, SignatureDescription}
-import io.hydrosphere.serving.manager.model.api._
+import io.hydrosphere.serving.manager.model.api.description._
+import io.hydrosphere.serving.manager.model.api.ops.Implicits._
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.scalatest.BeforeAndAfterEach
-import ContractOps.Implicits._
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
+import io.hydrosphere.serving.manager.model.api.{ContractBuilders, ModelType}
 
 import scala.concurrent.Await
 import scala.concurrent.duration._
@@ -78,10 +78,10 @@ class ModelManagementServiceITSpec extends CommonIntegrationSpec with BeforeAndA
           ModelSignature(
             "sig1",
             List(
-              ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
+              ContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
             ),
             List(
-              ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+              ContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
             )
           )
         )
@@ -105,10 +105,10 @@ class ModelManagementServiceITSpec extends CommonIntegrationSpec with BeforeAndA
           ModelSignature(
             "sig1",
             List(
-              ModelContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
+              ContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None)
             ),
             List(
-              ModelContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
+              ContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1)))
             )
           )
         )

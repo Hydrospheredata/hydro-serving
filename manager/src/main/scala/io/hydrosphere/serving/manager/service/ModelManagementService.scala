@@ -3,13 +3,16 @@ package io.hydrosphere.serving.manager.service
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.model.api.{ContractOps, DataGenerator, ModelType}
+import io.hydrosphere.serving.manager.model.api.{DataGenerator, ModelType}
+import io.hydrosphere.serving.manager.model.api.description._
+import io.hydrosphere.serving.manager.model.api.ops.Implicits._
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.repository._
 import spray.json.JsObject
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.api.ops.TensorProtoOps
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -83,7 +86,7 @@ trait ModelManagementService {
 
   def submitBinaryContract(modelId: Long, bytes: Array[Byte]): Future[Option[Model]]
 
-  def submitFlatContract(modelId: Long, contractDescription: ContractOps.ContractDescription): Future[Option[Model]]
+  def submitFlatContract(modelId: Long, contractDescription: ContractDescription): Future[Option[Model]]
 
   def submitContract(modelId: Long, prototext: String): Future[Option[Model]]
 
@@ -411,12 +414,12 @@ class ModelManagementServiceImpl(
         generatePayload(model.modelContract, signature)
     }
 
-
   private def generatePayload(contract: ModelContract, signature: String): Seq[JsObject] = {
     val res = DataGenerator.forContract(contract, signature)
       .getOrElse(throw new IllegalArgumentException(s"Can't find signature model signature=$signature"))
-    Seq(ContractOps.TensorProtoOps.jsonify(res.generateInputs))
+    Seq(TensorProtoOps.jsonify(res.generateInputs))
   }
+
 
   override def generateInputsForVersion(versionId: Long, signature: String): Future[Seq[JsObject]] =
     modelVersionRepository.get(versionId).map {
@@ -434,7 +437,7 @@ class ModelManagementServiceImpl(
 
   override def submitFlatContract(
     modelId: Long,
-    contractDescription: ContractOps.ContractDescription
+    contractDescription: ContractDescription
   ): Future[Option[Model]] = {
     val contract = contractDescription.toContract // TODO Error handling
     updateModelContract(modelId, contract)

@@ -5,7 +5,7 @@ CREATE TABLE hydro_serving.runtime
   version              TEXT    NOT NULL,
   tags                 TEXT [] NOT NULL,
   config_params        TEXT [] NOT NULL,
-  suitable_model_types TEXT [] NOT NULL,
+  suitable_model_types TEXT [] NOT NULL DEFAULT '{"unknown"}',
   CONSTRAINT runtime_type_name_version_unique UNIQUE (name, version)
 );
 
