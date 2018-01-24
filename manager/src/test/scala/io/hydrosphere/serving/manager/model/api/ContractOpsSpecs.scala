@@ -156,25 +156,27 @@ class ContractOpsSpecs extends WordSpec {
             ContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, Some(List(3)))
           )
         )
-        val contract = ModelContract("test",List(sig1, sig2))
+        val contract = ModelContract("test", List(sig1, sig2))
 
-        val expected = List(
-          SignatureDescription(
-            "sig1",
-            inputs = List(
-              FieldDescription("/in1", DataType.DT_STRING, None)
+        val expected = ContractDescription(
+          List(
+            SignatureDescription(
+              "sig1",
+              inputs = List(
+                FieldDescription("/in1", DataType.DT_STRING, None)
+              ),
+              outputs = List(
+                FieldDescription("/out1", DataType.DT_DOUBLE, Some(List(-1)))
+              )
             ),
-            outputs = List(
-              FieldDescription("/out1", DataType.DT_DOUBLE, Some(List(-1)))
-            )
-          ),
-          SignatureDescription(
-            "sig2",
-            inputs = List(
-              FieldDescription("/in2", DataType.DT_INT32, None)
-            ),
-            outputs = List(
-              FieldDescription("/out2", DataType.DT_INT32, Some(List(3)))
+            SignatureDescription(
+              "sig2",
+              inputs = List(
+                FieldDescription("/in2", DataType.DT_INT32, None)
+              ),
+              outputs = List(
+                FieldDescription("/out2", DataType.DT_INT32, Some(List(3)))
+              )
             )
           )
         )
@@ -213,27 +215,29 @@ class ContractOpsSpecs extends WordSpec {
             ContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, Some(List(3)))
           )
         )
-        val contract = ModelContract("test",List(sig1, sig2))
+        val contract = ModelContract("test", List(sig1, sig2))
 
-        val expected = List(
-          SignatureDescription(
-            "sig1",
-            inputs = List(
-              FieldDescription("/in/in1", DataType.DT_STRING, None),
-              FieldDescription("/in/in2", DataType.DT_INT32, None)
+        val expected = ContractDescription(
+          List(
+            SignatureDescription(
+              "sig1",
+              inputs = List(
+                FieldDescription("/in/in1", DataType.DT_STRING, None),
+                FieldDescription("/in/in2", DataType.DT_INT32, None)
+              ),
+              outputs = List(
+                FieldDescription("/out/out1", DataType.DT_DOUBLE, Some(List(-1))),
+                FieldDescription("/out/out2", DataType.DT_INT32, None)
+              )
             ),
-            outputs = List(
-              FieldDescription("/out/out1", DataType.DT_DOUBLE, Some(List(-1))),
-              FieldDescription("/out/out2", DataType.DT_INT32, None)
-            )
-          ),
-          SignatureDescription(
-            "sig2",
-            inputs = List(
-              FieldDescription("/in2", DataType.DT_INT32, None)
-            ),
-            outputs = List(
-              FieldDescription("/out2", DataType.DT_INT32, Some(List(3)))
+            SignatureDescription(
+              "sig2",
+              inputs = List(
+                FieldDescription("/in2", DataType.DT_INT32, None)
+              ),
+              outputs = List(
+                FieldDescription("/out2", DataType.DT_INT32, Some(List(3)))
+              )
             )
           )
         )
