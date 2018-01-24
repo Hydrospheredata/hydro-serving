@@ -210,15 +210,15 @@ class ModelManagementServiceImpl(
             statusText = None,
             logsUrl = None,
             modelVersion = None
-          )).flatMap { modelBuid =>
-          buildModelRuntime(modelBuid, script).transform(
+          )).flatMap { modelBuild =>
+          buildModelRuntime(modelBuild, script).transform(
             runtime => {
-              modelBuildRepository.finishBuild(modelBuid.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(runtime))
+              modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(runtime))
               runtime
             },
             ex => {
               logger.error(ex.getMessage, ex)
-              modelBuildRepository.finishBuild(modelBuid.id, ModelBuildStatus.ERROR, ex.getMessage, LocalDateTime.now(), None)
+              modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.ERROR, ex.getMessage, LocalDateTime.now(), None)
               ex
             }
           )
@@ -236,15 +236,17 @@ class ModelManagementServiceImpl(
       }
 
   private def fetchScriptForModel(model: Model): Future[String] =
-    modelBuildScriptRepository.get(model.name).flatMap({
+    modelBuildScriptRepository.get(model.name).flatMap {
       case Some(script) => Future.successful(script.script)
       case None => Future.successful(
-        """FROM busybox:1.28.0
-           LABEL MODEL_TYPE={MODEL_TYPE}
-           LABEL MODEL_NAME={MODEL_NAME}
-           LABEL MODEL_VERSION={MODEL_VERSION}
-           ADD {MODEL_PATH} /model""")
-    })
+        """
+          |FROM busybox:1.28.0
+          |LABEL MODEL_TYPE={MODEL_TYPE}
+          |LABEL MODEL_NAME={MODEL_NAME}
+          |LABEL MODEL_VERSION={MODEL_VERSION}
+          |ADD {MODEL_PATH} /model
+        """.stripMargin)
+    }
 
   private def buildModelRuntime(modelBuild: ModelBuild, script: String): Future[ModelVersion] = {
     val handler = new ProgressHandler {
