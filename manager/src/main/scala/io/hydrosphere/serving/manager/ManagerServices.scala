@@ -4,10 +4,11 @@ import akka.actor.{ActorRef, ActorSystem}
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.spotify.docker.client._
+import io.grpc.ManagedChannelBuilder
 import io.hydrosphere.serving.manager.connector.{HttpEnvoyAdminConnector, HttpRuntimeMeshConnector, RuntimeMeshConnector}
 import io.hydrosphere.serving.manager.service.clouddriver._
 import io.hydrosphere.serving.manager.service._
-import io.hydrosphere.serving.manager.service.actors.{RepositoryReIndexActor, ServiceCacheUpdateActor}
+import io.hydrosphere.serving.manager.service.actors.RepositoryReIndexActor
 import io.hydrosphere.serving.manager.service.envoy.EnvoyGRPCDiscoveryServiceImpl
 import io.hydrosphere.serving.manager.service.modelbuild._
 import io.hydrosphere.serving.manager.service.prometheus.PrometheusMetricsServiceImpl
@@ -21,8 +22,7 @@ import scala.concurrent.ExecutionContext
   */
 class ManagerServices(
   managerRepositories: ManagerRepositories,
-  managerConfiguration: ManagerConfiguration,
-  grpcClient: PredictionServiceGrpc.PredictionServiceStub
+  managerConfiguration: ManagerConfiguration
 )(
   implicit val ex: ExecutionContext,
   implicit val system: ActorSystem,
@@ -31,6 +31,11 @@ class ManagerServices(
 ) extends Logging {
 
   val dockerClient: DockerClient = DefaultDockerClient.fromEnv().build()
+
+  val servingMeshGrpcClient = PredictionServiceGrpc.stub(ManagedChannelBuilder
+    .forAddress(managerConfiguration.sidecar.host, managerConfiguration.sidecar.egressPort)
+    .usePlaintext(true)
+    .build)
 
   val runtimeMeshConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector(managerConfiguration.sidecar)
 
@@ -55,8 +60,10 @@ class ManagerServices(
     modelPushService
   )
 
-  val cloudDriverService:CloudDriverService=managerConfiguration.cloudDriver match {
-    case _: LocalDockerCloudDriverConfiguration => new LocalDockerCloudDriverService(dockerClient, managerConfiguration)
+  val cloudDriverService: CloudDriverService = managerConfiguration.cloudDriver match {
+//    case _: LocalDockerCloudDriverConfiguration => new LocalDockerCloudDriverService(dockerClient, managerConfiguration)
+    case _ => new LocalDockerCloudDriverService(dockerClient, managerConfiguration)
+
   }
 
   /*val cacheUpdateActor: Option[ActorRef] = runtimeDeployService match {
@@ -82,7 +89,7 @@ class ManagerServices(
     runtimeMeshConnector,
     managerRepositories.applicationRepository,
     serviceManagementService,
-    grpcClient
+    servingMeshGrpcClient
   )
 
   val envoyGRPCDiscoveryService = new EnvoyGRPCDiscoveryServiceImpl
