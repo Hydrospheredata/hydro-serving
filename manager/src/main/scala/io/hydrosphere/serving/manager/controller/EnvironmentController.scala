@@ -15,7 +15,7 @@ import scala.concurrent.duration._
   *
   */
 @Path("/api/v1/environment")
-@Api(produces = "application/json", tags = Array("Deployment: Serving Environment"))
+@Api(produces = "application/json", tags = Array("Environment"))
 class EnvironmentController(
   serviceManagementService: ServiceManagementService
 ) extends ManagerJsonSupport {

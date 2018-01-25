@@ -47,14 +47,17 @@ class LocalModelBuildService(
     FileUtils.copyDirectory(model.toFile, buildPath.resolve(modelFilesDir).toFile)
     Files.write(buildPath.resolve(contractFile), modelBuild.model.modelContract.toByteArray)
 
-    Option {
+    val dockerContainer = Option {
       dockerClient.build(
         buildPath,
-        s"$imageName:${modelBuild.modelVersion}",
+        s"$imageName:${modelBuild.version}",
         "Dockerfile",
         DockerClientHelper.createProgressHadlerWrapper(progressHandler),
         BuildParam.noCache()
       )
     }.getOrElse(throw new RuntimeException("Can't build model"))
+
+    dockerClient.inspectImage(dockerContainer).id().stripPrefix("sha256:")
   }
+
 }

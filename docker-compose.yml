@@ -12,8 +12,6 @@ services:
   hydro-serving-manager:
     image: hydrosphere/serving-manager:latest
     ports:
-      - "8080:8080"
-      - "8082:8082"
       - "9090:9090" # HTTP API
       - "9091:9091" # GRPC API
     depends_on:
@@ -25,4 +23,7 @@ services:
       ADVERTISED_MANAGER_HOST: "hydro-serving-manager"
       DATABASE_HOST: "postgres"
       LOCAL_MODEL_PATH: "/models"
+      ADVERTISED_MANAGER_HOST: ${HOST_IP}
+      MANAGER_HOST: ${HOST_IP}
+      SIDECAR_HOST: ${HOST_IP}
       NETWORK_NAME: "hydroserving_default"
