@@ -8,7 +8,7 @@ import io.grpc.ManagedChannelBuilder
 import io.hydrosphere.serving.manager.connector.{HttpEnvoyAdminConnector, HttpRuntimeMeshConnector, RuntimeMeshConnector}
 import io.hydrosphere.serving.manager.service.clouddriver._
 import io.hydrosphere.serving.manager.service._
-import io.hydrosphere.serving.manager.service.actors.RepositoryReIndexActor
+import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
 import io.hydrosphere.serving.manager.service.envoy.EnvoyGRPCDiscoveryServiceImpl
 import io.hydrosphere.serving.manager.service.modelbuild._
 import io.hydrosphere.serving.manager.service.prometheus.PrometheusMetricsServiceImpl
@@ -21,16 +21,15 @@ import scala.concurrent.ExecutionContext
   *
   */
 class ManagerServices(
-  managerRepositories: ManagerRepositories,
-  managerConfiguration: ManagerConfiguration
+  val managerRepositories: ManagerRepositories,
+  val managerConfiguration: ManagerConfiguration,
+  val dockerClient: DockerClient
 )(
   implicit val ex: ExecutionContext,
   implicit val system: ActorSystem,
   implicit val materializer: ActorMaterializer,
   implicit val timeout: Timeout
 ) extends Logging {
-
-  val dockerClient: DockerClient = DefaultDockerClient.fromEnv().build()
 
   val servingMeshGrpcClient = PredictionServiceGrpc.stub(ManagedChannelBuilder
     .forAddress(managerConfiguration.sidecar.host, managerConfiguration.sidecar.egressPort)
@@ -52,7 +51,6 @@ class ManagerServices(
 
   val modelManagementService: ModelManagementService = new ModelManagementServiceImpl(
     managerRepositories.modelRepository,
-    managerRepositories.modelFilesRepository,
     managerRepositories.modelVersionRepository,
     managerRepositories.modelBuildRepository,
     managerRepositories.modelBuildScriptRepository,
@@ -98,5 +96,5 @@ class ManagerServices(
 
   val prometheusMetricsService = new PrometheusMetricsServiceImpl(serviceManagementService, envoyAdminConnector)
 
-  val repoActor: ActorRef = system.actorOf(RepositoryReIndexActor.props(modelManagementService))
+  val repoActor: ActorRef = system.actorOf(RepositoryIndexActor.props(modelManagementService))
 }

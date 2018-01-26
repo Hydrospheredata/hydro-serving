@@ -121,15 +121,6 @@ case class ModelBuild(
   modelVersion: Option[ModelVersion]
 )
 
-case class ModelFile(
-  id: Long,
-  path: String,
-  model: Model,
-  hashSum: String,
-  createdAt: LocalDateTime,
-  updatedAt: LocalDateTime
-)
-
 case class ServiceInstance(
   instanceId: String,
   host: String,

@@ -52,7 +52,7 @@ class LocalModelBuildService(
         buildPath,
         s"$imageName:${modelBuild.version}",
         "Dockerfile",
-        DockerClientHelper.createProgressHadlerWrapper(progressHandler),
+        DockerClientHelper.createProgressHandlerWrapper(progressHandler),
         BuildParam.noCache()
       )
     }.getOrElse(throw new RuntimeException("Can't build model"))

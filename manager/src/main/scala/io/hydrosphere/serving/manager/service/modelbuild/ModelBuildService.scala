@@ -57,7 +57,7 @@ class EmptyModelPushService extends ModelPushService {
 
 object DockerClientHelper {
 
-  def createProgressHadlerWrapper(progressHandler: ProgressHandler): com.spotify.docker.client.ProgressHandler = {
+  def createProgressHandlerWrapper(progressHandler: ProgressHandler): com.spotify.docker.client.ProgressHandler = {
     new com.spotify.docker.client.ProgressHandler {
       override def progress(progressMessage: com.spotify.docker.client.messages.ProgressMessage): Unit = {
         progressHandler.handle(ProgressMessage(

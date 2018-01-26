@@ -62,7 +62,7 @@ class ECSModelPushService(
 
     dockerClient.push(
       s"${modelRuntime.imageName}:${modelRuntime.modelVersion}",
-      DockerClientHelper.createProgressHadlerWrapper(progressHandler),
+      DockerClientHelper.createProgressHandlerWrapper(progressHandler),
       DockerClientHelper.createRegistryAuth(getDockerRegistryAuth)
     )
   }
