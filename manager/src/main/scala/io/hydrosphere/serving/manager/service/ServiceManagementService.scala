@@ -59,7 +59,7 @@ trait ServiceManagementService {
 
   def getServicesByModel(modelId: Long): Future[Seq[Service]]
 
-  def getServicesByRuntimes(runtimeId: Seq[Long]): Future[Seq[Service]]
+  def getServicesByRuntimes(runtimeId: Set[Long]): Future[Seq[Service]]
 
   def getService(serviceId: Long): Future[Option[Service]]
 
@@ -73,6 +73,7 @@ trait ServiceManagementService {
 
   def serveService(serviceId: Long, inputData: Array[Byte]): Future[Array[Byte]]
 
+  def fetchServicesUnsync(services: Set[ServiceKeyDescription]): Future[Seq[Service]]
 }
 
 //TODO ADD cache
@@ -211,8 +212,8 @@ class ServiceManagementServiceImpl(
     serviceRepository.getByModelIds(Seq(modelId))
       .flatMap(syncServices)
 
-  override def getServicesByRuntimes(runtimeIds: Seq[Long]): Future[Seq[Service]] =
-    serviceRepository.getByModelRuntimeIds(runtimeIds)
+  override def getServicesByRuntimes(runtimeIds: Set[Long]): Future[Seq[Service]] =
+    serviceRepository.getByRuntimeIds(runtimeIds)
       .flatMap(syncServices)
 
   override def serviceByFullName(fullName: String): Future[Option[Service]] =
@@ -234,4 +235,7 @@ class ServiceManagementServiceImpl(
 
   override def serveService(serviceId: Long, inputData: Array[Byte]): Future[Array[Byte]] =
     Future.failed(new UnsupportedOperationException) //TODO
+
+  override def fetchServicesUnsync(services: Set[ServiceKeyDescription]): Future[Seq[Service]] =
+    serviceRepository.fetchServices(services)
 }

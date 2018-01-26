@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.repository
 
-import io.hydrosphere.serving.manager.model.Service
+import io.hydrosphere.serving.manager.model.{Service, ServiceKeyDescription}
 
 import scala.concurrent.Future
 
@@ -8,6 +8,8 @@ import scala.concurrent.Future
   *
   */
 trait ServiceRepository extends BaseRepository[Service, Long] {
+  def fetchServices(services: Set[ServiceKeyDescription]): Future[Seq[Service]]
+
   def fetchByIds(seq: Seq[Long]): Future[Seq[Service]]
 
   def updateCloudDriveId(serviceId: Long, cloudDriveId: Option[String]): Future[Int]
@@ -22,5 +24,5 @@ trait ServiceRepository extends BaseRepository[Service, Long] {
 
   def getByModelVersionIds(modelIds: Seq[Long]): Future[Seq[Service]]
 
-  def getByModelRuntimeIds(runtimeIds: Seq[Long]): Future[Seq[Service]]
+  def getByRuntimeIds(runtimeIds: Set[Long]): Future[Seq[Service]]
 }

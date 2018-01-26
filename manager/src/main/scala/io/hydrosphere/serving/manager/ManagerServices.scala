@@ -32,7 +32,7 @@ class ManagerServices(
 
   val dockerClient: DockerClient = DefaultDockerClient.fromEnv().build()
 
-  val servingMeshGrpcClient = PredictionServiceGrpc.stub(ManagedChannelBuilder
+  val servingMeshGrpcClient: PredictionServiceGrpc.PredictionServiceStub = PredictionServiceGrpc.stub(ManagedChannelBuilder
     .forAddress(managerConfiguration.sidecar.host, managerConfiguration.sidecar.egressPort)
     .usePlaintext(true)
     .build)
@@ -61,7 +61,7 @@ class ManagerServices(
   )
 
   val cloudDriverService: CloudDriverService = managerConfiguration.cloudDriver match {
-//    case _: LocalDockerCloudDriverConfiguration => new LocalDockerCloudDriverService(dockerClient, managerConfiguration)
+    //    case _: LocalDockerCloudDriverConfiguration => new LocalDockerCloudDriverService(dockerClient, managerConfiguration)
     case _ => new LocalDockerCloudDriverService(dockerClient, managerConfiguration)
 
   }
@@ -85,7 +85,6 @@ class ManagerServices(
   )
 
   val applicationManagementService: ApplicationManagementService = new ApplicationManagementServiceImpl(
-    managerRepositories.serviceRepository,
     runtimeMeshConnector,
     managerRepositories.applicationRepository,
     serviceManagementService,
