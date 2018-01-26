@@ -5,14 +5,10 @@ import envoy.api.v2.Cluster.EdsClusterConfig
 import envoy.api.v2.ConfigSource.ConfigSourceSpecifier
 import envoy.api.v2.{AggregatedConfigSource, Cluster, ConfigSource, DiscoveryResponse}
 import io.grpc.stub.StreamObserver
+import io.hydrosphere.serving.manager.service.envoy.xds.ClusterDSActor.{ClusterAdded, ClusterRemoved, SyncCluster}
 
 import scala.collection.mutable
 
-case class ClusterAdded(names: Set[String])
-
-case class ClusterRemoved(names: Set[String])
-
-case class SyncCluster(names: Set[String])
 
 class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis.com/envoy.api.v2.Cluster") {
 
@@ -21,37 +17,36 @@ class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis
   private val clustersNames = new mutable.HashSet[String]()
 
   private def addClusters(names: Set[String]): Set[Boolean] =
-    names.map(name => {
+    names.map { name =>
       if (clustersNames.add(name)) {
+        val edsClusterConfig = EdsClusterConfig(
+          edsConfig = Some(ConfigSource(
+            configSourceSpecifier = ConfigSourceSpecifier.Ads(
+              AggregatedConfigSource()
+            ))
+          )
+        )
         clusters += Cluster(
           name = name,
           `type` = Cluster.DiscoveryType.EDS,
           connectTimeout = Some(Duration(seconds = 0, nanos = 25000000)),
-          edsClusterConfig = Some(
-            EdsClusterConfig(
-              edsConfig = Some(ConfigSource(
-                configSourceSpecifier = ConfigSourceSpecifier.Ads(
-                  AggregatedConfigSource()
-                ))
-              )
-            )
-          )
+          edsClusterConfig = Some(edsClusterConfig)
         )
         true
       } else {
         false
       }
-    })
+    }
 
   private def removeClusters(names: Set[String]): Set[Boolean] =
-    names.map(name => {
+    names.map { name =>
       if (clustersNames.remove(name)) {
         clusters --= clusters.filter(c => !clustersNames.contains(c.name))
         true
       } else {
         false
       }
-    })
+    }
 
 
   private def syncClusters(names: Set[String]): Set[Boolean] = {
@@ -75,4 +70,12 @@ class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis
 
   override protected def formResources(responseObserver: StreamObserver[DiscoveryResponse]): Seq[Cluster] =
     clusters
+}
+
+object ClusterDSActor {
+  case class ClusterAdded(names: Set[String])
+
+  case class ClusterRemoved(names: Set[String])
+
+  case class SyncCluster(names: Set[String])
 }

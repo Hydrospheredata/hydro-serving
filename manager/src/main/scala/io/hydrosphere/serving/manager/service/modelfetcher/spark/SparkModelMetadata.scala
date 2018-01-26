@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.service.modelfetcher.spark
 
-import io.hydrosphere.serving.manager.controller.CommonJsonSupport
+import io.hydrosphere.serving.manager.util.CommonJsonSupport._
 
 case class SparkModelMetadata(
   `class`: String,
@@ -17,7 +17,7 @@ case class SparkModelMetadata(
   }
 }
 
-object SparkModelMetadata extends CommonJsonSupport {
+object SparkModelMetadata {
   import spray.json._
   implicit val sparkMetadataFormat: RootJsonFormat[SparkModelMetadata] = jsonFormat8(SparkModelMetadata.apply)
 

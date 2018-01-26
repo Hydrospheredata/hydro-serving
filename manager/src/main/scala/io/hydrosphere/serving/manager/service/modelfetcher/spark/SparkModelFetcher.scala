@@ -5,11 +5,11 @@ import java.nio.file.{Files, NoSuchFileException}
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.model.api.ModelMetadata
+import io.hydrosphere.serving.manager.service.contract.ModelMetadata
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers.SparkMlTypeMapper
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
-import io.hydrosphere.serving.manager.model.api._
+import io.hydrosphere.serving.manager.service.contract._
 import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.JavaConversions._

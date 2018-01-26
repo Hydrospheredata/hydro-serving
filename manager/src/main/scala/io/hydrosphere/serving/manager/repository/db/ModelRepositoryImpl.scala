@@ -3,10 +3,10 @@ package io.hydrosphere.serving.manager.repository.db
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.controller.ManagerJsonSupport
+import io.hydrosphere.serving.manager.util.CommonJsonSupport._
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.manager.model.Model
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.manager.service.contract.ModelType
 import io.hydrosphere.serving.manager.repository.ModelRepository
 import org.apache.logging.log4j.scala.Logging
 
@@ -18,7 +18,7 @@ import scala.concurrent.{ExecutionContext, Future}
 class ModelRepositoryImpl(
   implicit executionContext: ExecutionContext,
   databaseService: DatabaseService
-) extends ModelRepository with Logging with ManagerJsonSupport {
+) extends ModelRepository with Logging {
 
   import databaseService._
   import databaseService.driver.api._
@@ -118,7 +118,7 @@ class ModelRepositoryImpl(
     ).map(mapFromDb)
 }
 
-object ModelRepositoryImpl extends ManagerJsonSupport {
+object ModelRepositoryImpl {
   def mapFromDb(model: Option[Tables.Model#TableElementType]): Option[Model] =
     model.map(mapFromDb)
 

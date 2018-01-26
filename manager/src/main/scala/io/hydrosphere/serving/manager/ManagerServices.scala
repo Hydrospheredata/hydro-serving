@@ -5,12 +5,20 @@ import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.spotify.docker.client._
 import io.grpc.ManagedChannelBuilder
-import io.hydrosphere.serving.manager.connector.{HttpEnvoyAdminConnector, HttpRuntimeMeshConnector, RuntimeMeshConnector}
-import io.hydrosphere.serving.manager.service.clouddriver._
-import io.hydrosphere.serving.manager.service._
+import io.hydrosphere.serving.manager.configuration.DockerRepositoryConfiguration.ECSDockerRepositoryConfiguration
+import io.hydrosphere.serving.manager.configuration.ManagerConfiguration
+import io.hydrosphere.serving.manager.connector.envoy.HttpEnvoyAdminConnector
+import io.hydrosphere.serving.manager.connector.runtime_mesh.{HttpRuntimeMeshConnector, RuntimeMeshConnector}
 import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
+import io.hydrosphere.serving.manager.service.clouddriver._
 import io.hydrosphere.serving.manager.service.envoy.EnvoyGRPCDiscoveryServiceImpl
+import io.hydrosphere.serving.manager.service.management.application.{ApplicationManagementService, ApplicationManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.management.model.{ModelManagementService, ModelManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.management.runtime.{RuntimeManagementService, RuntimeManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.management.service.{ServiceManagementService, ServiceManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.management.source.SourceManagementServiceImpl
 import io.hydrosphere.serving.manager.service.modelbuild._
+import io.hydrosphere.serving.manager.service.modelpush.{ECSModelPushService, EmptyModelPushService, ModelPushService}
 import io.hydrosphere.serving.manager.service.prometheus.PrometheusMetricsServiceImpl
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
 import org.apache.logging.log4j.scala.Logging

@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.service.actors
 
 import akka.actor.Props
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.service.clouddriver.CachedProxyRuntimeDeployService
+import io.hydrosphere.serving.manager.service.deploy.CachedProxyRuntimeDeployService
 
 import scala.concurrent.duration._
 

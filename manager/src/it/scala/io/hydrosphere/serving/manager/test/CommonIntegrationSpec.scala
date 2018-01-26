@@ -2,14 +2,16 @@ package io.hydrosphere.serving.manager.test
 
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
-import akka.testkit.{TestKit, TestKitBase}
+import akka.testkit.TestKit
 import akka.util.Timeout
 import com.dimafeng.testcontainers.{ForAllTestContainer, GenericContainer}
 import com.spotify.docker.client.DockerClient
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
-import io.hydrosphere.serving.manager.service.clouddriver.RuntimeDeployService
-import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService}
-import io.hydrosphere.serving.manager.{ManagerConfiguration, ManagerRepositoriesConfig, ManagerServices}
+import io.hydrosphere.serving.manager.configuration.ManagerConfigurationImpl
+import io.hydrosphere.serving.manager.service.deploy.RuntimeDeployService
+import io.hydrosphere.serving.manager.service.modelbuild.ModelBuildService
+import io.hydrosphere.serving.manager.service.modelpush.ModelPushService
+import io.hydrosphere.serving.manager.{ManagerRepositoriesConfig, ManagerServices}
 import org.mockito
 import org.scalatest.mockito.MockitoSugar
 import org.scalatest.{BeforeAndAfterEach, FunSpecLike}
@@ -18,9 +20,7 @@ import org.testcontainers.containers.wait.Wait
 import scala.concurrent.duration._
 import scala.io.Source
 
-/**
-  *
-  */
+
 abstract class CommonIntegrationSpec extends TestKit(ActorSystem("testMasterService"))
   with FunSpecLike with ForAllTestContainer with MockitoSugar with BeforeAndAfterEach {
 
@@ -67,7 +67,7 @@ abstract class CommonIntegrationSpec extends TestKit(ActorSystem("testMasterServ
     ).root()
   )
 
-  val originalConfiguration = ManagerConfiguration.parse(rawConfig)
+  val originalConfiguration = ManagerConfigurationImpl.parse(rawConfig)
 
   val configuration = originalConfiguration
 

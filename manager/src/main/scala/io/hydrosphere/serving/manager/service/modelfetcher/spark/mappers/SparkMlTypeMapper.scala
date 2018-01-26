@@ -4,7 +4,7 @@ import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 import io.hydrosphere.serving.tensorflow.types.DataType
 import io.hydrosphere.serving.manager.service.modelfetcher.spark._
-import io.hydrosphere.serving.manager.model.api.ContractBuilders
+import io.hydrosphere.serving.manager.service.contract.ContractBuilders
 import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
 
 abstract class SparkMlTypeMapper(val m: SparkModelMetadata) {

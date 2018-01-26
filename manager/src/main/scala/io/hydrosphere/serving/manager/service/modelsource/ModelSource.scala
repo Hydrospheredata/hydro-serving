@@ -3,6 +3,7 @@ package io.hydrosphere.serving.manager.service.modelsource
 import java.io.File
 import java.nio.file.Path
 
+import io.hydrosphere.serving.manager.model.SourceParams.{LocalSourceParams, S3SourceParams}
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceDef}
 import io.hydrosphere.serving.manager.service.modelsource.s3.{S3ModelSource, S3SourceDef}

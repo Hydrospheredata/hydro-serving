@@ -10,7 +10,15 @@ import io.hydrosphere.serving.manager.controller._
 import akka.http.scaladsl.server.Directives.{path, _}
 import akka.stream.ActorMaterializer
 import ch.megard.akka.http.cors.scaladsl.settings.CorsSettings
+import io.hydrosphere.serving.manager.configuration.ManagerConfiguration
+import io.hydrosphere.serving.manager.controller.application.ApplicationController
+import io.hydrosphere.serving.manager.controller.environment.EnvironmentController
+import io.hydrosphere.serving.manager.controller.model.ModelController
+import io.hydrosphere.serving.manager.controller.modelsource.ModelSourceController
 import io.hydrosphere.serving.manager.controller.prometheus.PrometheusMetricsController
+import io.hydrosphere.serving.manager.controller.runtime.RuntimeController
+import io.hydrosphere.serving.manager.controller.service.ServiceController
+import io.hydrosphere.serving.manager.controller.swagger.SwaggerDocController
 import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.immutable.Seq

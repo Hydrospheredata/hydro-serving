@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager
 
 import envoy.api.v2._
 import io.grpc.{Server, ServerBuilder, ServerServiceDefinition}
+import io.hydrosphere.serving.manager.configuration.ManagerConfiguration
 import io.hydrosphere.serving.manager.grpc.envoy.AggregatedDiscoveryServiceGrpcImpl
 import io.hydrosphere.serving.manager.grpc.manager.ManagerGrpcApi
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc

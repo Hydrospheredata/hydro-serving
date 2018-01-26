@@ -13,8 +13,6 @@ name := "manager"
 enablePlugins(DockerSpotifyClientPlugin)
 enablePlugins(sbtdocker.DockerPlugin)
 
-lazy val uiVersion="0.0.8"
-
 lazy val dataBaseName = "docker"
 lazy val dataBaseUser = "docker"
 lazy val dataBasePassword = "docker"
@@ -74,7 +72,8 @@ lazy val slickCodeGenTask = (sourceManaged, dependencyClasspath in Compile, runn
   val jdbcDriver = "org.postgresql.Driver"
   val slickDriver = "io.hydrosphere.slick.HydrospherePostgresDriver"
   val pkg = "io.hydrosphere.serving.manager.db"
-  toError(r.run("io.hydrosphere.slick.HydrosphereCodeGenerator", cp.files, Array(slickDriver, jdbcDriver, url, outputDir, pkg, dataBaseUser, dataBasePassword), s.log))
+  val res = r.run("io.hydrosphere.slick.HydrosphereCodeGenerator", cp.files, Array(slickDriver, jdbcDriver, url, outputDir, pkg, dataBaseUser, dataBasePassword), s.log)
+  res foreach sys.error
   println("Generated")
 }
 

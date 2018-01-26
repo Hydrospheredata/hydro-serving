@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager
 
+import io.hydrosphere.serving.manager.configuration.ManagerConfiguration
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.repository.db._
 
