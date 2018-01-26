@@ -3,7 +3,8 @@ package io.hydrosphere.serving.manager.service.modelsource.s3
 import com.amazonaws.auth.{AWSStaticCredentialsProvider, BasicAWSCredentials}
 import com.amazonaws.services.s3.{AmazonS3, AmazonS3ClientBuilder}
 import com.amazonaws.services.sqs.{AmazonSQS, AmazonSQSClientBuilder}
-import io.hydrosphere.serving.manager.model.{ModelSourceConfig, S3SourceParams}
+import io.hydrosphere.serving.manager.model.ModelSourceConfig
+import io.hydrosphere.serving.manager.model.SourceParams.S3SourceParams
 import io.hydrosphere.serving.manager.service.modelsource.SourceDef
 
 case class S3SourceDef(

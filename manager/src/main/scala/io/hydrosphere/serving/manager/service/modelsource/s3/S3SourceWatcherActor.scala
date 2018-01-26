@@ -4,9 +4,10 @@ import java.time.{Instant, LocalDateTime, ZoneId}
 
 import akka.actor.Props
 import com.google.common.hash.Hashing
-import io.hydrosphere.serving.manager.controller.CommonJsonSupport
+import io.hydrosphere.serving.manager.service.modelsource.FileEvent.{FileCreated, FileDeleted}
+import io.hydrosphere.serving.manager.util.CommonJsonSupport._
 import io.hydrosphere.serving.manager.service.modelsource.s3.S3SourceWatcherActor.SQSMessage
-import io.hydrosphere.serving.manager.service.modelsource.{FileCreated, FileDeleted, FileEvent, SourceWatcherActor}
+import io.hydrosphere.serving.manager.service.modelsource.{FileEvent, SourceWatcherActor}
 
 import scala.collection.JavaConversions._
 
@@ -74,7 +75,7 @@ class S3SourceWatcherActor(val source: S3ModelSource) extends SourceWatcherActor
 object S3SourceWatcherActor{
   case class SQSMessage(bucket: String, objKey: String, eventName: String, eventTime: LocalDateTime)
 
-  object SQSMessage extends CommonJsonSupport {
+  object SQSMessage {
     import spray.json._
 
     def fromJson(json: String): Option[SQSMessage] = {

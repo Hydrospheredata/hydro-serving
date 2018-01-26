@@ -1,11 +1,18 @@
 package io.hydrosphere.serving.manager.model
 
+import io.hydrosphere.serving.manager.util.CommonJsonSupport._
+import spray.json.JsonFormat
+
 case class ModelSourceConfigAux(
   id: Long,
   name: String,
   params: SourceParams
 ){
   def toTyped[T <: SourceParams]: ModelSourceConfig[T] = ModelSourceConfig(id, name, params.asInstanceOf[T])
+}
+
+object ModelSourceConfigAux {
+  implicit val modelSourceConfigFormat: JsonFormat[ModelSourceConfigAux] = jsonFormat3(ModelSourceConfigAux.apply)
 }
 
 case class ModelSourceConfig[T <: SourceParams](
@@ -17,20 +24,3 @@ case class ModelSourceConfig[T <: SourceParams](
     ModelSourceConfigAux(id, name, params)
   }
 }
-
-trait SourceParams
-
-case class LocalSourceParams (
-  path: String
-) extends SourceParams
-
-case class AWSAuthKeys(keyId: String, secretKey: String) {
-  def hide: AWSAuthKeys = AWSAuthKeys("***************", "***************")
-}
-
-case class S3SourceParams (
-  awsAuth: Option[AWSAuthKeys],
-  bucketName: String,
-  queueName: String,
-  region: String
-) extends SourceParams

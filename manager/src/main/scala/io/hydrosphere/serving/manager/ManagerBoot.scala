@@ -8,6 +8,7 @@ import akka.util.Timeout
 import com.spotify.docker.client.{DefaultDockerClient, DockerClient}
 import com.typesafe.config.ConfigFactory
 import io.grpc.ManagedChannelBuilder
+import io.hydrosphere.serving.manager.configuration.{ManagerConfiguration, ManagerConfigurationImpl}
 import io.hydrosphere.serving.manager.grpc.manager.AuthorityReplacerInterceptor
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
 import org.apache.logging.log4j.scala.Logging
@@ -25,7 +26,7 @@ object ManagerBoot extends App with Logging {
     implicit val ex = system.dispatcher
     implicit val timeout = Timeout(5.minute)
 
-    val configuration = ManagerConfiguration.parse(ConfigFactory.load())
+    val configuration = ManagerConfigurationImpl.parse(ConfigFactory.load())
 
     val dockerClient = DefaultDockerClient.fromEnv().build() // move to config?
 

@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.repository
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.manager.model.Model
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.manager.service.contract.ModelType
 
 import scala.concurrent.Future
 

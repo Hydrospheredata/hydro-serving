@@ -4,8 +4,8 @@ import java.time.{Instant, Duration => JDuration}
 
 import akka.actor.Props
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.service.ModelManagementService
 import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor.{IndexFinished, IndexStart}
+import io.hydrosphere.serving.manager.service.management.model.ModelManagementService
 import io.hydrosphere.serving.manager.service.modelsource.{FileEvent, ModelSource}
 
 import scala.collection.concurrent.TrieMap

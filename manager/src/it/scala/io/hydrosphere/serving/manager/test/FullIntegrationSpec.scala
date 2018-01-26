@@ -6,6 +6,7 @@ import akka.util.Timeout
 import com.dimafeng.testcontainers.{ForAllTestContainer, GenericContainer}
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
 import io.hydrosphere.serving.manager._
+import io.hydrosphere.serving.manager.configuration.{ManagerConfiguration, ManagerConfigurationImpl}
 import io.hydrosphere.serving.manager.util.IsolatedDockerClient
 import org.scalatest._
 import org.testcontainers.containers.wait.Wait
@@ -43,7 +44,7 @@ trait FullIntegrationSpec extends AsyncWordSpecLike
     ).root()
   )
 
-  private[this] val originalConfiguration = ManagerConfiguration.parse(rawConfig)
+  private[this] val originalConfiguration = ManagerConfigurationImpl.parse(rawConfig)
 
   val configuration = originalConfiguration
 

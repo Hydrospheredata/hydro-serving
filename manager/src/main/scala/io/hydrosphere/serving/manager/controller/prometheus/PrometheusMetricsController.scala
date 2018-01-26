@@ -8,7 +8,7 @@ import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.service.prometheus.{PrometheusMetricsService, ServiceTargets}
 import io.swagger.annotations._
-
+import io.hydrosphere.serving.manager.util.CommonJsonSupport._
 import scala.concurrent.duration._
 
 /**
@@ -18,7 +18,7 @@ import scala.concurrent.duration._
 @Api(produces = "application/json", tags = Array("Infrastructure: Prometheus"))
 class PrometheusMetricsController(
   prometheusMetricsService:PrometheusMetricsService
-) extends PrometheusJsonSupport {
+) {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/services")

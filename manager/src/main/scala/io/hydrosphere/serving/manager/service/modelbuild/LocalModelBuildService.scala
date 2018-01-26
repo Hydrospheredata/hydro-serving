@@ -6,7 +6,8 @@ import java.nio.file.{Files, Path}
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.BuildParam
 import io.hydrosphere.serving.manager.model.ModelBuild
-import io.hydrosphere.serving.manager.service.SourceManagementService
+import io.hydrosphere.serving.manager.service.management.source.SourceManagementService
+import io.hydrosphere.serving.manager.service.modelbuild.docker.{DockerClientHelper, ProgressHandler}
 import org.apache.commons.io.FileUtils
 
 import scala.concurrent.{ExecutionContext, Future}

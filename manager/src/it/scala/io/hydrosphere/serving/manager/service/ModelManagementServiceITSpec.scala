@@ -2,12 +2,13 @@ package io.hydrosphere.serving.manager.service
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.test.CommonIntegrationSpec
-import io.hydrosphere.serving.manager.model.api.description._
-import io.hydrosphere.serving.manager.model.api.ops.Implicits._
+import io.hydrosphere.serving.manager.service.contract.description._
+import io.hydrosphere.serving.manager.service.contract.ops.Implicits._
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.scalatest.BeforeAndAfterEach
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.model.api.{ContractBuilders, ModelType}
+import io.hydrosphere.serving.manager.service.contract.{ContractBuilders, ModelType}
+import io.hydrosphere.serving.manager.service.management.model.CreateOrUpdateModelRequest
 
 import scala.concurrent.Await
 import scala.concurrent.duration._

@@ -5,8 +5,8 @@ import java.util
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.{ListContainersParam, RemoveContainerParam}
 import com.spotify.docker.client.messages.{Container, ContainerConfig, HostConfig, PortBinding}
-import io.hydrosphere.serving.manager.ManagerConfiguration
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.manager.configuration.ManagerConfiguration
+import io.hydrosphere.serving.manager.service.contract.ModelType
 import io.hydrosphere.serving.manager.model.Service
 
 import scala.concurrent.{ExecutionContext, Future}
