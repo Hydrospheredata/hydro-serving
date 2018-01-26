@@ -1,8 +1,8 @@
 import sbt._
 
 object Dependencies {
-  val akkaVersion = "2.5.3"
-  val akkaHttpVersion = "10.0.9"
+  val akkaVersion = "2.5.9"
+  val akkaHttpVersion = "10.0.11"
   val hadoopVersion = "2.8.0"
   val log4j2Version = "2.8.2"
   val slickVersion = "3.2.1"

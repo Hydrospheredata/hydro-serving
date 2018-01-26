@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.test
 
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
-import akka.testkit.TestKit
+import akka.testkit.{TestKit, TestKitBase}
 import akka.util.Timeout
 import com.dimafeng.testcontainers.{ForAllTestContainer, GenericContainer}
 import com.spotify.docker.client.DockerClient
@@ -73,7 +73,7 @@ abstract class CommonIntegrationSpec extends TestKit(ActorSystem("testMasterServ
 
   val managerRepositories = new ManagerRepositoriesConfig(configuration)
 
-  val managerServices = new ManagerServices(managerRepositories, configuration) {
+  val managerServices = new ManagerServices(managerRepositories, configuration, mockDockerClient) {
 
     //override val runtimeDeployService: RuntimeDeployService = mockRuntimeDeployService
 

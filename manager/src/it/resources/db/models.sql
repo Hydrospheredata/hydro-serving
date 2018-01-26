@@ -6,4 +6,4 @@ INSERT INTO hydro_serving.runtime (runtime_id, "name", version, tags, config_par
 
 INSERT INTO hydro_serving.model (model_id, "name", source,
   model_contract, description, created_timestamp, updated_timestamp)  VALUES
-  (1000, 'Test','local:/source','','desc','2004-10-19 10:23:54','2004-10-19 10:23:54');
+  (1000, 'Test','itsource:/model','','desc','2004-10-19 10:23:54','2004-10-19 10:23:54');

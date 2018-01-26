@@ -105,13 +105,7 @@ trait ModelManagementService {
   def addModelVersion(entity: CreateModelVersionRequest): Future[ModelVersion]
 
   def allModelVersion(): Future[Seq[ModelVersion]]
-
-  def createFileForModel(source: ModelSource, path: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[Int]
-
-  def updateOrCreateModelFile(source: ModelSource, modelName: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[Int]
-
-  def deleteModelFile(fileName: String): Future[Int]
-
+  
   def generateModelPayload(modelId: Long, signature: String): Future[Seq[JsObject]]
 
   def generateInputsForVersion(versionId: Long, signature: String): Future[Seq[JsObject]]
@@ -135,7 +129,6 @@ object ModelManagementService {
 
 class ModelManagementServiceImpl(
   modelRepository: ModelRepository,
-  modelFilesRepository: ModelFilesRepository,
   modelVersionRepository: ModelVersionRepository,
   modelBuildRepository: ModelBuildRepository,
   modelBuildScriptRepository: ModelBuildScriptRepository,
@@ -208,15 +201,15 @@ class ModelManagementServiceImpl(
             statusText = None,
             logsUrl = None,
             modelVersion = None
-          )).flatMap { modelBuid =>
-          buildModelRuntime(modelBuid, script).transform(
+          )).flatMap { modelBuild =>
+          buildModelRuntime(modelBuild, script).transform(
             runtime => {
-              modelBuildRepository.finishBuild(modelBuid.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(runtime))
+              modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(runtime))
               runtime
             },
             ex => {
               logger.error(ex.getMessage, ex)
-              modelBuildRepository.finishBuild(modelBuid.id, ModelBuildStatus.ERROR, ex.getMessage, LocalDateTime.now(), None)
+              modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.ERROR, ex.getMessage, LocalDateTime.now(), None)
               ex
             }
           )
@@ -234,7 +227,7 @@ class ModelManagementServiceImpl(
       }
 
   private def fetchScriptForModel(model: Model): Future[String] =
-    modelBuildScriptRepository.get(model.name).flatMap({
+    modelBuildScriptRepository.get(model.name).flatMap {
       case Some(script) => Future.successful(script.script)
       case None => Future.successful(
         """FROM busybox:1.28.0
@@ -243,7 +236,7 @@ class ModelManagementServiceImpl(
            LABEL MODEL_VERSION={MODEL_VERSION}
            VOLUME /model
            ADD {MODEL_PATH} /model""")
-    })
+    }
 
   private def buildModelRuntime(modelBuild: ModelBuild, script: String): Future[ModelVersion] = {
     val handler = new ProgressHandler {
@@ -301,68 +294,10 @@ class ModelManagementServiceImpl(
   def deleteModel(modelName: String): Future[Model] = {
     modelRepository.get(modelName).flatMap {
       case Some(model) =>
-        modelFilesRepository.deleteModelFiles(model.id)
         modelRepository.delete(model.id)
         Future.successful(model)
       case None =>
         Future.failed(new NoSuchElementException(s"$modelName model"))
-    }
-  }
-
-  def createFileForModel(source: ModelSource, fileName: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[Int] = {
-    val modelName = fileName.split("/").head
-    println(s"Creating file $fileName for model $modelName ...")
-    updateModel(modelName, source).map { model =>
-      model.foreach { m =>
-        modelFilesRepository.create(
-          ModelFile(-1, fileName, m, hash, createdAt, updatedAt)
-        )
-        println(s"Model $modelName updated")
-      }
-      1 // FIXME
-    }
-  }
-
-  def updateOrCreateModelFile(source: ModelSource, fileName: String, hash: String, createdAt: LocalDateTime, updatedAt: LocalDateTime): Future[Int] = {
-    modelFilesRepository.get(fileName).flatMap {
-      case Some(modelFile) =>
-        println(s"File $fileName found. Updating...")
-        val newFile = ModelFile(
-          modelFile.id,
-          modelFile.path,
-          modelFile.model,
-          modelFile.hashSum,
-          modelFile.createdAt,
-          modelFile.updatedAt
-        )
-        modelFilesRepository.update(newFile).flatMap(_ =>
-          modelRepository.updateLastUpdatedTime(modelFile.model.id, LocalDateTime.now()))
-
-      case None =>
-        createFileForModel(source, fileName, hash, updatedAt, updatedAt)
-    }
-  }
-
-  def deleteModelFile(fileName: String): Future[Int] = {
-    modelFilesRepository.get(fileName).flatMap {
-      case Some(modelFile) =>
-        val modelId = modelFile.model.id
-        println(s"Deleting file $fileName...")
-        modelFilesRepository
-          .delete(modelFile.id)
-          .zip(modelFilesRepository.modelFiles(modelId))
-          .map {
-            case (i, Nil) =>
-              println(s"$fileName is the last file. Deleting model $modelId...")
-              modelRepository.delete(modelId)
-              i
-            case (i, _) =>
-              println(s"$fileName is not the last file...")
-              i
-          }
-      case None =>
-        logger.error(s"No such file: $fileName")
-        Future.failed(new NoSuchElementException())
     }
   }
 
