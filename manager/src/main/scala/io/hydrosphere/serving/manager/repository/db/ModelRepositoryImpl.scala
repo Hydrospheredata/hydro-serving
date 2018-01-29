@@ -3,9 +3,8 @@ package io.hydrosphere.serving.manager.repository.db
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.controller.ManagerJsonSupport
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model.Model
+import io.hydrosphere.serving.manager.model.{ManagerJsonSupport, Model}
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.repository.ModelRepository
 import org.apache.logging.log4j.scala.Logging

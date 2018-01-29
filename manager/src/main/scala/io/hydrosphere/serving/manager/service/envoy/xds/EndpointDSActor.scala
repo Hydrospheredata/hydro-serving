@@ -20,6 +20,14 @@ case class RenewEndpoints(
   clusters: Seq[ClusterInfo]
 )
 
+case class AddEndpoints(
+  clusters: Seq[ClusterInfo]
+)
+
+case class RemoveEndpoints(
+  names: Set[String]
+)
+
 class EndpointDSActor(
   val specialCluster: Boolean = false,
   val specialHost: String = "mainapplication",
@@ -32,10 +40,8 @@ class EndpointDSActor(
 
   private val clusterEndpoints = mutable.Map[String, Set[ClusterEndpoint]]()
 
-  private val observerNode = mutable.Map[StreamObserver[DiscoveryResponse], Node]()
-
   override protected def formResources(responseObserver: StreamObserver[DiscoveryResponse]): Seq[ClusterLoadAssignment] =
-    observerNode.get(responseObserver).map(node => {
+    getObserverNode(responseObserver).map(node => {
       endpoints.values.map(e => {
         if (specialCluster && e.clusterName == node.id) {
           mainApplicationEndpoint.withClusterName(node.id)
@@ -45,18 +51,14 @@ class EndpointDSActor(
       })
     }).getOrElse(Seq()).toSeq
 
-  override protected def streamAdded(responseObserver: StreamObserver[DiscoveryResponse], discoveryRequest: DiscoveryRequest) =
-    discoveryRequest.node.foreach(n => {
-      observerNode.put(responseObserver, n)
-    })
-
-  override protected def streamRemoved(responseObserver: StreamObserver[DiscoveryResponse]) =
-    observerNode.remove(responseObserver)
-
   override def receiveStoreChangeEvents(mes: Any): Boolean =
     mes match {
       case r: RenewEndpoints =>
         renewEndpoints(r.clusters)
+      case d: RemoveEndpoints =>
+        removeClusters(d.names).contains(true)
+      case d:AddEndpoints=>
+        createOrUpdate(d.clusters).contains(true)
       case _ => false
     }
 

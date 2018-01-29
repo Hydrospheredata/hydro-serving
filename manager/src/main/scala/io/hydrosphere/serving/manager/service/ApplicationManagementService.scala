@@ -64,7 +64,8 @@ class ApplicationManagementServiceImpl(
   runtimeMeshConnector: RuntimeMeshConnector,
   applicationRepository: ApplicationRepository,
   serviceManagementService: ServiceManagementService,
-  grpcClient: PredictionServiceGrpc.PredictionServiceStub
+  grpcClient: PredictionServiceGrpc.PredictionServiceStub,
+  internalManagerEventsPublisher:InternalManagerEventsPublisher
 )(implicit val ex: ExecutionContext) extends ApplicationManagementService with Logging {
 
   def createRequest(data: PredictResponse, signature: String): PredictRequest =

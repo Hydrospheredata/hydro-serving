@@ -42,7 +42,9 @@ case class ServiceInstance(
   instanceId: String,
   mainApplication: MainApplicationInstance,
   sidecar: SidecarInstance,
-  model: Option[ModelInstance]
+  model: Option[ModelInstance],
+  advertisedHost:String,
+  advertisedPort:Int
 )
 
 case class CloudService(

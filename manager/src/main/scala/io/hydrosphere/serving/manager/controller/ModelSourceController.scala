@@ -3,8 +3,7 @@ package io.hydrosphere.serving.manager.controller
 import javax.ws.rs.Path
 
 import akka.http.scaladsl.server.Directives._
-
-import io.hydrosphere.serving.manager.model.ModelSourceConfigAux
+import io.hydrosphere.serving.manager.model.{ManagerJsonSupport, ModelSourceConfigAux}
 import io.hydrosphere.serving.manager.service.{CreateModelSourceRequest, SourceManagementService}
 import io.swagger.annotations._
 

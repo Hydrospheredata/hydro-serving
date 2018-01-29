@@ -3,29 +3,96 @@ package io.hydrosphere.serving.manager.service.envoy.xds
 import envoy.api.v2.RouteAction.ClusterSpecifier
 import envoy.api.v2._
 import io.grpc.stub.StreamObserver
+import io.hydrosphere.serving.manager.model.Application
+import io.hydrosphere.serving.manager.service.{ApplicationChanged, ApplicationRemoved}
 
-/**
-  *
-  */
+import scala.collection.mutable
+
+case class SyncApplications(applications: Seq[Application])
+
 class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.googleapis.com/envoy.api.v2.RouteConfiguration") {
 
-  private def createRoute(name: String): RouteConfiguration =
-    RouteConfiguration(
+  private val applications = mutable.Map[Long, Seq[VirtualHost]]()
+
+  private def createRoutes(application: Application): Seq[VirtualHost] =
+    application.executionGraph.stages.zipWithIndex.map { case (appStage, i) =>
+      val weights = ClusterSpecifier.WeightedClusters(WeightedCluster(
+        clusters = appStage.services.map(w => {
+          WeightedCluster.ClusterWeight(
+            name = w.serviceDescription.toServiceName(),
+            weight = Some(w.weight)
+          )
+        })
+      ))
+      //TODO generate unique ID
+      createVirtualHost(s"app${application.id}stage$i", weights)
+    }
+
+  private def createVirtualHost(name: String, weights: ClusterSpecifier.WeightedClusters): VirtualHost =
+    VirtualHost(
       name = name,
-      virtualHosts = Seq(VirtualHost(
-        name = "all",
-        domains = Seq("*"),
-        routes = Seq(Route(
-          `match` = Some(RouteMatch(
-            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/")
-          )),
-          action = Route.Action.Route(RouteAction(
-            clusterSpecifier = ClusterSpecifier.Cluster("manager")
-          ))
+      domains = Seq(name),
+      routes = Seq(Route(
+        `match` = Some(RouteMatch(
+          pathSpecifier = RouteMatch.PathSpecifier.Prefix("/")
+        )),
+        action = Route.Action.Route(RouteAction(
+          clusterSpecifier = weights
         ))
       ))
     )
 
-  override protected def formResources(responseObserver: StreamObserver[DiscoveryResponse]): Seq[RouteConfiguration] =
-    Seq(createRoute("mesh"))
+  private def addOrUpdateApplication(application: Application): Unit =
+    applications.put(application.id, createRoutes(application))
+
+
+  private def removeApplications(ids: Set[Long]): Set[Boolean] =
+    ids.map(id => applications.remove(id).nonEmpty)
+
+
+  private def renewApplications(apps: Seq[Application]): Unit = {
+    applications.clear()
+    apps.foreach(addOrUpdateApplication)
+  }
+
+  override def receiveStoreChangeEvents(mes: Any): Boolean =
+    mes match {
+      case a: SyncApplications =>
+        renewApplications(a.applications)
+        true
+      case a: ApplicationChanged =>
+        addOrUpdateApplication(a.application)
+        true
+      case a: ApplicationRemoved =>
+        removeApplications(Set(a.application.id))
+          .contains(true)
+      case _ => false
+    }
+
+  private def createRoute(name: String, defaultRoute: VirtualHost): RouteConfiguration =
+    RouteConfiguration(
+      name = name,
+      virtualHosts = applications.values.flatten.toSeq :+ defaultRoute
+    )
+
+
+  override protected def formResources(responseObserver: StreamObserver[DiscoveryResponse]): Seq[RouteConfiguration] = {
+    val clusterName = getObserverNode(responseObserver).fold("manager_xds_cluster")(_.id)
+
+    val defaultRoute=VirtualHost(
+      name = "all",
+      domains = Seq("*"),
+      routes = Seq(Route(
+        `match` = Some(RouteMatch(
+          pathSpecifier = RouteMatch.PathSpecifier.Prefix("/")
+        )),
+        action = Route.Action.Route(RouteAction(
+          clusterSpecifier = ClusterSpecifier.Cluster(clusterName)
+        ))
+      ))
+    )
+
+    Seq(createRoute(ROUTE_CONFIG_NAME, defaultRoute))
+  }
+
 }

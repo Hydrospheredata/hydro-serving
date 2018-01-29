@@ -82,7 +82,8 @@ class ServiceManagementServiceImpl(
   serviceRepository: ServiceRepository,
   runtimeRepository: RuntimeRepository,
   modelVersionRepository: ModelVersionRepository,
-  environmentRepository: EnvironmentRepository
+  environmentRepository: EnvironmentRepository,
+  internalManagerEventsPublisher:InternalManagerEventsPublisher
 )(implicit val ex: ExecutionContext) extends ServiceManagementService {
 
   private val specialNames = Map(

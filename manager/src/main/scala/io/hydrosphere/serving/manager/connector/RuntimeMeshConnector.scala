@@ -7,7 +7,7 @@ import akka.http.scaladsl.model.{StatusCode, _}
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.{Sink, Source}
 import io.hydrosphere.serving.manager.SidecarConfig
-import io.hydrosphere.serving.manager.controller.CommonJsonSupport
+import io.hydrosphere.serving.manager.model.CommonJsonSupport
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.Future
