@@ -60,7 +60,14 @@ case class Service(
   environment: Option[Environment],
   statusText: String,
   configParams: Map[String, String]
-)
+) {
+  def toServiceKeyDescription: ServiceKeyDescription =
+    ServiceKeyDescription(
+      runtimeId = runtime.id,
+      modelVersionId = model.map(_.id),
+      environmentId = environment.map(_.id)
+    )
+}
 
 case class ErrorResponse(
   message: String

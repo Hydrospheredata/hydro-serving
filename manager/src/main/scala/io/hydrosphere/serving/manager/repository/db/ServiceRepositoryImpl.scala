@@ -193,11 +193,7 @@ class ServiceRepositoryImpl(
       k.runtimeId
     })).map(s => {
       s.filter(service => {
-        services.contains(ServiceKeyDescription(
-          runtimeId = service.id,
-          modelVersionId = service.model.map(_.id),
-          environmentId = service.environment.map(_.id)
-        ))
+        services.contains(service.toServiceKeyDescription)
       })
     })
   }

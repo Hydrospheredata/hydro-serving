@@ -19,14 +19,14 @@ import scala.util.{Failure, Success}
 
 case class ApplicationCreateOrUpdateRequest(
   id: Option[Long],
-  serviceName: String,
+  name: String,
   executionGraph: ApplicationExecutionGraph
 ) {
 
   def toApplication: Application =
     Application(
       id = this.id.getOrElse(0),
-      name = this.serviceName,
+      name = this.name,
       executionGraph = this.executionGraph
     )
 }
@@ -186,11 +186,7 @@ class ApplicationManagementServiceImpl(
   override def createApplications(req: ApplicationCreateOrUpdateRequest): Future[Application] = executeWithSync(() => {
     val keysSet = req.executionGraph.stages.flatMap(_.services.map(_.serviceDescription)).toSet
     serviceManagementService.fetchServicesUnsync(keysSet).flatMap(s => {
-      val existedServices = s.map(service => ServiceKeyDescription(
-        runtimeId = service.id,
-        modelVersionId = service.model.map(_.id),
-        environmentId = service.environment.map(_.id)
-      ))
+      val existedServices = s.map(_.toServiceKeyDescription)
 
       val toAdd = keysSet -- existedServices
       startServices(toAdd).flatMap(_ => {
@@ -215,14 +211,18 @@ class ApplicationManagementServiceImpl(
 
 
   private def startServices(keysSet: Set[ServiceKeyDescription]): Future[Seq[Service]] =
-    Future.traverse(keysSet.toSeq)(key => {
-      serviceManagementService.addService(CreateServiceRequest(
-        serviceName = key.toServiceName(),
-        runtimeId = key.runtimeId,
-        configParams = None,
-        environmentId = key.environmentId,
-        modelVersionId = key.modelVersionId
-      ))
+    serviceManagementService.fetchServicesUnsync(keysSet).flatMap(services => {
+      val toAdd = keysSet -- services.map(_.toServiceKeyDescription)
+
+      Future.traverse(toAdd.toSeq)(key => {
+        serviceManagementService.addService(CreateServiceRequest(
+          serviceName = key.toServiceName(),
+          runtimeId = key.runtimeId,
+          configParams = None,
+          environmentId = key.environmentId,
+          modelVersionId = key.modelVersionId
+        ))
+      })
     })
 
   private def removeServiceIfNeeded(keysSet: Set[ServiceKeyDescription], applicationId: Long): Future[Unit] =

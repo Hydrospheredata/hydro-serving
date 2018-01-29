@@ -15,7 +15,7 @@ import scala.concurrent.duration._
   *
   */
 @Path("/api/v1/applications")
-@Api(produces = "application/json", tags = Array("Deployment: Application"))
+@Api(produces = "application/json", tags = Array("Application"))
 class ApplicationController(
   servingManagementService: ApplicationManagementService
 ) extends ManagerJsonSupport with ServingDataDirectives{
