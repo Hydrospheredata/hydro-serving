@@ -19,13 +19,14 @@ class ManagerGRPC
   implicit val ex: ExecutionContext
 ) {
 
-   case class BuilderWrapper[T <: ServerBuilder[T]](builder: ServerBuilder[T]) {
+  case class BuilderWrapper[T <: ServerBuilder[T]](builder: ServerBuilder[T]) {
     def addService(service: ServerServiceDefinition): BuilderWrapper[T] = {
       BuilderWrapper(builder.addService(service))
     }
-     def build: Server = {
-       builder.build()
-     }
+
+    def build: Server = {
+      builder.build()
+    }
   }
 
   val aggregatedDiscoveryServiceGrpc = new AggregatedDiscoveryServiceGrpcImpl(managerServices.envoyGRPCDiscoveryService)

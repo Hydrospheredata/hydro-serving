@@ -19,7 +19,7 @@ object Common {
       "-language:implicitConversions",
       "-language:postfixOps"
     ),
-    exportJars := true,
+    //exportJars := true,
     resolvers += Resolver.bintrayRepo("findify", "maven")
     /*resolvers ++= {
       // Only add Sonatype Snapshots if this version itself is a snapshot version
