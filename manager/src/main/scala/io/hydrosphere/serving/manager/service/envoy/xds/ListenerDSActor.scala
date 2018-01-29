@@ -17,7 +17,7 @@ class ListenerDSActor extends AbstractDSActor[Listener](typeUrl = "type.googleap
 
   private def createRDS(): Value =
     Value(Value.Kind.StructValue(Struct(Map(
-      "route_config_name" -> Value(Value.Kind.StringValue("mesh")),
+      "route_config_name" -> Value(Value.Kind.StringValue(ROUTE_CONFIG_NAME)),
       "config_source" -> Value(Value.Kind.StructValue(Struct(Map(
         "ads" -> Value(Value.Kind.StructValue(Struct()))
       ))))

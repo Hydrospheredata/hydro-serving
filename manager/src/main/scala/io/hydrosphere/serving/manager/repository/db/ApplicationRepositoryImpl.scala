@@ -1,8 +1,7 @@
 package io.hydrosphere.serving.manager.repository.db
 
-import io.hydrosphere.serving.manager.controller.CommonJsonSupport
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model.{Application, ApplicationExecutionGraph, ServiceKeyDescription}
+import io.hydrosphere.serving.manager.model.{Application, ApplicationExecutionGraph, CommonJsonSupport, ServiceKeyDescription}
 import io.hydrosphere.serving.manager.repository.ApplicationRepository
 import org.apache.logging.log4j.scala.Logging
 

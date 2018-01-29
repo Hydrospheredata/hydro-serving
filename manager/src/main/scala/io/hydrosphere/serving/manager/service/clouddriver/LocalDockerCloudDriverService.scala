@@ -127,6 +127,8 @@ class LocalDockerCloudDriverService(
       }),
       instances = Seq(
         ServiceInstance(
+          advertisedHost=managerConfiguration.sidecar.host,
+          advertisedPort=containerApp.ports().head.publicPort(),
           instanceId = containerApp.id(),
           mainApplication = MainApplicationInstance(
             instanceId = containerApp.id(),

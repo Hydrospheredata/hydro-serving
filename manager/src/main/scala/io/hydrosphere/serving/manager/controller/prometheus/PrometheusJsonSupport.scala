@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.controller.prometheus
 
-import io.hydrosphere.serving.manager.controller.ManagerJsonSupport
+import io.hydrosphere.serving.manager.model.ManagerJsonSupport
 import io.hydrosphere.serving.manager.service.prometheus._
 
 /**

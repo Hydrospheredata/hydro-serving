@@ -9,7 +9,7 @@ import io.hydrosphere.serving.manager.connector.{HttpEnvoyAdminConnector, HttpRu
 import io.hydrosphere.serving.manager.service.clouddriver._
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
-import io.hydrosphere.serving.manager.service.envoy.EnvoyGRPCDiscoveryServiceImpl
+import io.hydrosphere.serving.manager.service.envoy.{EnvoyGRPCDiscoveryService, EnvoyGRPCDiscoveryServiceImpl}
 import io.hydrosphere.serving.manager.service.modelbuild._
 import io.hydrosphere.serving.manager.service.prometheus.PrometheusMetricsServiceImpl
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
@@ -31,7 +31,7 @@ class ManagerServices(
   implicit val timeout: Timeout
 ) extends Logging {
 
-  val servingMeshGrpcClient:PredictionServiceGrpc.PredictionServiceStub = PredictionServiceGrpc.stub(ManagedChannelBuilder
+  val servingMeshGrpcClient: PredictionServiceGrpc.PredictionServiceStub = PredictionServiceGrpc.stub(ManagedChannelBuilder
     .forAddress(managerConfiguration.sidecar.host, managerConfiguration.sidecar.egressPort)
     .usePlaintext(true)
     .build)
@@ -48,6 +48,8 @@ class ManagerServices(
     case c: ECSDockerRepositoryConfiguration => new ECSModelPushService(dockerClient, c)
     case _ => new EmptyModelPushService
   }
+
+  val internalManagerEventsPublisher = new InternalManagerEventsPublisher
 
   val modelManagementService: ModelManagementService = new ModelManagementServiceImpl(
     managerRepositories.modelRepository,
@@ -79,17 +81,24 @@ class ManagerServices(
     managerRepositories.serviceRepository,
     managerRepositories.runtimeRepository,
     managerRepositories.modelVersionRepository,
-    managerRepositories.environmentRepository
+    managerRepositories.environmentRepository,
+    internalManagerEventsPublisher
   )
 
   val applicationManagementService: ApplicationManagementService = new ApplicationManagementServiceImpl(
     runtimeMeshConnector,
     managerRepositories.applicationRepository,
     serviceManagementService,
-    servingMeshGrpcClient
+    servingMeshGrpcClient,
+    internalManagerEventsPublisher
   )
 
-  val envoyGRPCDiscoveryService = new EnvoyGRPCDiscoveryServiceImpl
+  val envoyGRPCDiscoveryService: EnvoyGRPCDiscoveryService = new EnvoyGRPCDiscoveryServiceImpl(
+    serviceManagementService,
+    applicationManagementService,
+    cloudDriverService,
+    managerConfiguration
+  )
 
   val envoyAdminConnector = new HttpEnvoyAdminConnector()
 

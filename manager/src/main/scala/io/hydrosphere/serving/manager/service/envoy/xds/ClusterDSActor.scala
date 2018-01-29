@@ -8,9 +8,9 @@ import io.grpc.stub.StreamObserver
 
 import scala.collection.mutable
 
-case class ClusterAdded(names: Set[String])
+case class AddCluster(names: Set[String])
 
-case class ClusterRemoved(names: Set[String])
+case class RemoveClusters(names: Set[String])
 
 case class SyncCluster(names: Set[String])
 
@@ -63,9 +63,9 @@ class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis
 
   override def receiveStoreChangeEvents(mes: Any): Boolean = {
     val results = mes match {
-      case ClusterAdded(names) =>
+      case AddCluster(names) =>
         addClusters(names)
-      case ClusterRemoved(names) =>
+      case RemoveClusters(names) =>
         removeClusters(names)
       case SyncCluster(names) =>
         removeClusters(names)

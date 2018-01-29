@@ -1,7 +1,7 @@
-package io.hydrosphere.serving.manager.controller
+package io.hydrosphere.serving.manager.model
 
+import io.hydrosphere.serving.manager.controller.BuildModelRequest
 import io.hydrosphere.serving.manager.service.{CreateServiceRequest, _}
-import io.hydrosphere.serving.manager.model._
 import spray.json._
 
 /**

@@ -20,7 +20,10 @@ case class UnsubscribeMsg(
 )
 
 abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUrl: String) extends Actor with ActorLogging {
-  private val observers = new mutable.HashSet[StreamObserver[DiscoveryResponse]]()
+
+  protected val ROUTE_CONFIG_NAME="mesh"
+
+  private val observerNode = mutable.Map[StreamObserver[DiscoveryResponse], Node]()
 
   private val version = new AtomicLong(1L)
 
@@ -32,10 +35,13 @@ abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUr
     t match {
       case Failure(e) =>
         log.error(s"Can't send message to $stream", e)
-        observers -= stream
+        observerNode.remove(stream)
       case _ =>
     }
   }
+
+  protected def getObserverNode(responseObserver: StreamObserver[DiscoveryResponse]): Option[Node] =
+    observerNode.get(responseObserver)
 
   private def sendToObserver(responseObserver: StreamObserver[DiscoveryResponse]) = {
     send(DiscoveryResponse(
@@ -48,22 +54,18 @@ abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUr
 
   private def increaseVersion() = {
     version.incrementAndGet()
-    observers.foreach(o => sendToObserver(o))
+    observerNode.keys.foreach(o => sendToObserver(o))
   }
 
   override def receive: Receive = {
     case subscribe: SubscribeMsg =>
-      if (observers.add(subscribe.responseObserver)) {
-        streamAdded(subscribe.responseObserver, subscribe.discoveryRequest)
-      }
+      observerNode.put(subscribe.responseObserver, subscribe.discoveryRequest.node.getOrElse(Node.defaultInstance))
       if (needToExecute(subscribe.discoveryRequest)) {
         sendToObserver(subscribe.responseObserver)
       }
 
     case unsubcribe: UnsubscribeMsg =>
-      if (observers.remove(unsubcribe.responseObserver)) {
-        streamRemoved(unsubcribe.responseObserver)
-      }
+      observerNode.remove(unsubcribe.responseObserver)
 
     case x =>
       if (receiveStoreChangeEvents(x)) {
@@ -72,10 +74,6 @@ abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUr
   }
 
   protected def receiveStoreChangeEvents(mes: Any): Boolean = false
-
-  protected def streamAdded(responseObserver: StreamObserver[DiscoveryResponse], discoveryRequest: DiscoveryRequest) = {}
-
-  protected def streamRemoved(responseObserver: StreamObserver[DiscoveryResponse]) = {}
 
   protected def formResources(responseObserver: StreamObserver[DiscoveryResponse]): Seq[A]
 }

@@ -1,10 +1,9 @@
 package io.hydrosphere.serving.manager.repository.db
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.controller.ManagerJsonSupport
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.manager.model.api.ModelType
-import io.hydrosphere.serving.manager.model.{Model, ModelVersion}
+import io.hydrosphere.serving.manager.model.{ManagerJsonSupport, Model, ModelVersion}
 import io.hydrosphere.serving.manager.repository.ModelVersionRepository
 import org.apache.logging.log4j.scala.Logging
 
