@@ -11,22 +11,17 @@ import io.swagger.annotations._
 
 import scala.concurrent.duration._
 
-case class AddApplicationSourceRequest(
-  runtimeId: Long,
-  configParams: Option[Map[String, String]]
-)
-
 /**
   *
   */
 @Path("/api/v1/applications")
-@Api(produces = "application/json", tags = Array("Deployment: Application"))
+@Api(produces = "application/json", tags = Array("Application"))
 class ApplicationController(
   servingManagementService: ApplicationManagementService
 ) extends ManagerJsonSupport with ServingDataDirectives{
   implicit val timeout = Timeout(5.minutes)
 
-  /*@Path("/")
+  @Path("/")
   @ApiOperation(value = "applications", notes = "applications", nickname = "applications", httpMethod = "GET")
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Application", response = classOf[Application], responseContainer = "List"),
@@ -96,7 +91,24 @@ class ApplicationController(
     }
   }
 
-  @Path("/serve/{applicationName}")
+  @Path("/generateInputs/{appId}")
+  @ApiOperation(value = "Generate payload for application", notes = "Generate payload for application", nickname = "Generate payload for application", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "appId", required = true, dataType = "string", paramType = "path", value = "appId")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def generateInputsForApp = path("api" / "v1" / "applications" / "generateInputs" / LongNumber) { appId =>
+    get {
+      complete(
+        servingManagementService.generateInputsForApplication(appId)
+      )
+    }
+  }
+
+  /*@Path("/serve/{applicationName}")
   @ApiOperation(value = "Serve Application", notes = "Serve Application", nickname = "ServeApplication", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "applicationName", required = true, dataType = "string", paramType = "path", value = "applicationName"),
@@ -146,32 +158,15 @@ class ApplicationController(
         }
       }
     }
-  }
-
-  @Path("/generateInputs/{appId}")
-  @ApiOperation(value = "Generate payload for application", notes = "Generate payload for application", nickname = "Generate payload for application", httpMethod = "GET")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "appId", required = true, dataType = "string", paramType = "path", value = "appId")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
-  def generateInputsForApp = path("api" / "v1" / "applications" / "generateInputs" / LongNumber) { appId =>
-    get {
-      complete(
-        servingManagementService.generateInputsForApplication(appId)
-      )
-    }
-  }
+  }*/
 
   val routes =
     listAll ~
       create ~
       update ~
       deleteApplication ~
-      serve ~
-      serveById ~
       generateInputsForApp
-*/
+      //serve ~
+      //serveById ~
+
 }

@@ -14,7 +14,7 @@ case class Runtime(
   suitableModelType: List[ModelType],
   tags: List[String],
   configParams: Map[String, String]
-){
+) {
   def toImageDef: String = s"$name:$version"
 }
 
@@ -60,14 +60,29 @@ case class Service(
   environment: Option[Environment],
   statusText: String,
   configParams: Map[String, String]
-)
+) {
+  def toServiceKeyDescription: ServiceKeyDescription =
+    ServiceKeyDescription(
+      runtimeId = runtime.id,
+      modelVersionId = model.map(_.id),
+      environmentId = environment.map(_.id)
+    )
+}
 
 case class ErrorResponse(
   message: String
 )
 
+case class ServiceKeyDescription(
+  runtimeId: Long,
+  modelVersionId: Option[Long],
+  environmentId: Option[Long]
+) {
+  def toServiceName(): String = s"r${runtimeId}m${modelVersionId.getOrElse(0)}e${environmentId.getOrElse(0)}"
+}
+
 case class ServiceWeight(
-  serviceId: Long,
+  serviceDescription: ServiceKeyDescription,
   weight: Int
 )
 
@@ -83,8 +98,7 @@ case class ApplicationExecutionGraph(
 case class Application(
   id: Long,
   name: String,
-  executionGraph: ApplicationExecutionGraph,
-  sourcesList: List[Long]
+  executionGraph: ApplicationExecutionGraph
 )
 
 object ServiceInstanceStatus extends Enumeration {

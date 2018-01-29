@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.repository.db
 
 import io.hydrosphere.serving.manager.controller.CommonJsonSupport
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model.{Application, ApplicationExecutionGraph}
+import io.hydrosphere.serving.manager.model.{Application, ApplicationExecutionGraph, ServiceKeyDescription}
 import io.hydrosphere.serving.manager.repository.ApplicationRepository
 import org.apache.logging.log4j.scala.Logging
 
@@ -21,8 +21,8 @@ class ApplicationRepositoryImpl(
   import databaseService.driver.api._
   import ApplicationRepositoryImpl.mapFromDb
 
-  private def getServices(l: ApplicationExecutionGraph): List[Long] =
-    l.stages.flatMap(s => s.services.map(c => c.serviceId))
+  private def getServices(l: ApplicationExecutionGraph): List[String] =
+    l.stages.flatMap(s => s.services.map(c => c.serviceDescription.toServiceName()))
 
   override def create(entity: Application): Future[Application] =
     db.run(
@@ -30,7 +30,6 @@ class ApplicationRepositoryImpl(
         entity.id,
         entity.name,
         entity.executionGraph.toJson.toString(),
-        entity.sourcesList.map(v => v.toString),
         getServices(entity.executionGraph).map(v => v.toString)
       )
     ).map(s => mapFromDb(s))
@@ -61,24 +60,15 @@ class ApplicationRepositoryImpl(
     } yield (
       serv.applicationName,
       serv.executionGraph,
-      serv.sourcesList,
       serv.servicesInStage
     )
 
     db.run(query.update(
       value.name,
       value.executionGraph.toJson.toString(),
-      value.sourcesList.map(v => v.toString),
-      getServices(value.executionGraph).map(v => v.toString)
+      getServices(value.executionGraph)
     ))
   }
-
-  override def byModelServiceIds(servicesIds: Seq[Long]): Future[Seq[Application]] =
-    db.run(
-      Tables.Application
-        .filter(p => p.servicesInStage @> servicesIds.map(v => v.toString).toList)
-        .result
-    ).map(s => s.map(ss => mapFromDb(ss)))
 
   override def getByName(name: String): Future[Option[Application]] =
     db.run(
@@ -86,6 +76,19 @@ class ApplicationRepositoryImpl(
         .filter(_.applicationName === name)
         .result.headOption
     ).map(s => mapFromDb(s))
+
+  override def getLockForApplications(): Future[Any] =
+    Future.successful(Unit)
+
+  override def returnLockForApplications(lockInfo: Any): Future[Unit] =
+    Future.successful(Unit)
+
+  override def getKeysNotInApplication(keysSet: Set[ServiceKeyDescription], applicationId: Long): Future[Seq[Application]] =
+    db.run(
+      Tables.Application
+        .filter(p => {p.servicesInStage @> keysSet.map(v => v.toServiceName()).toList && p.id =!= applicationId})
+        .result
+    ).map(s => s.map(ss => mapFromDb(ss)))
 }
 
 object ApplicationRepositoryImpl extends CommonJsonSupport {
@@ -99,8 +102,7 @@ object ApplicationRepositoryImpl extends CommonJsonSupport {
     Application(
       id = dbType.id,
       name = dbType.applicationName,
-      executionGraph = dbType.executionGraph.parseJson.convertTo[ApplicationExecutionGraph],
-      sourcesList = dbType.sourcesList.map(v => v.toLong)
+      executionGraph = dbType.executionGraph.parseJson.convertTo[ApplicationExecutionGraph]
     )
   }
 }

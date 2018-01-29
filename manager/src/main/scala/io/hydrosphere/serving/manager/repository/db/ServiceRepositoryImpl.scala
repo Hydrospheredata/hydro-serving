@@ -40,13 +40,13 @@ class ServiceRepositoryImpl(
       Tables.Service
         .filter(_.serviceId === id)
         .joinLeft(Tables.Runtime)
-        .on{ case (s, r) => s.runtimeId === r.runtimeId }
+        .on { case (s, r) => s.runtimeId === r.runtimeId }
         .joinLeft(Tables.Environment)
-        .on{ case ((s, _), e) => s.environmentId === e.environmentId }
+        .on { case ((s, _), e) => s.environmentId === e.environmentId }
         .joinLeft(Tables.ModelVersion)
-        .on{ case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
+        .on { case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
         .joinLeft(Tables.Model)
-        .on{ case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
+        .on { case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
         .result.headOption
     ).map(mapFromDb)
 
@@ -60,13 +60,13 @@ class ServiceRepositoryImpl(
     db.run(
       Tables.Service
         .joinLeft(Tables.Runtime)
-        .on{ case (s, r) => s.runtimeId === r.runtimeId }
+        .on { case (s, r) => s.runtimeId === r.runtimeId }
         .joinLeft(Tables.Environment)
-        .on{ case ((s, _), e) => s.environmentId === e.environmentId }
+        .on { case ((s, _), e) => s.environmentId === e.environmentId }
         .joinLeft(Tables.ModelVersion)
-        .on{ case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
+        .on { case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
         .joinLeft(Tables.Model)
-        .on{ case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
+        .on { case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
         .result
     ).map(mapFromDb)
 
@@ -83,13 +83,13 @@ class ServiceRepositoryImpl(
       Tables.Service
         .filter(_.serviceName === serviceName)
         .joinLeft(Tables.Runtime)
-        .on{ case (s, r) => s.runtimeId === r.runtimeId }
+        .on { case (s, r) => s.runtimeId === r.runtimeId }
         .joinLeft(Tables.Environment)
-        .on{ case ((s, _), e) => s.environmentId === e.environmentId }
+        .on { case ((s, _), e) => s.environmentId === e.environmentId }
         .joinLeft(Tables.ModelVersion)
-        .on{ case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
+        .on { case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
         .joinLeft(Tables.Model)
-        .on{ case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
+        .on { case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
         .result.headOption
     ).map(mapFromDb)
 
@@ -102,13 +102,13 @@ class ServiceRepositoryImpl(
       Tables.Service
         .filter(_.serviceId inSetBind ids)
         .joinLeft(Tables.Runtime)
-        .on{ case (s, r) => s.runtimeId === r.runtimeId }
+        .on { case (s, r) => s.runtimeId === r.runtimeId }
         .joinLeft(Tables.Environment)
-        .on{ case ((s, _), e) => s.environmentId === e.environmentId }
+        .on { case ((s, _), e) => s.environmentId === e.environmentId }
         .joinLeft(Tables.ModelVersion)
-        .on{ case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
+        .on { case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
         .joinLeft(Tables.Model)
-        .on{ case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
+        .on { case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
         .result
     ).map(mapFromDb)
   }
@@ -117,29 +117,29 @@ class ServiceRepositoryImpl(
     db.run(
       Tables.Service
         .joinLeft(Tables.Runtime)
-        .on{ case (s, r) => s.runtimeId === r.runtimeId }
+        .on { case (s, r) => s.runtimeId === r.runtimeId }
         .joinLeft(Tables.Environment)
-        .on{ case ((s, _), e) => s.environmentId === e.environmentId }
+        .on { case ((s, _), e) => s.environmentId === e.environmentId }
         .joinLeft(Tables.ModelVersion)
-        .on{ case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
+        .on { case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
         .joinLeft(Tables.Model)
-        .on{ case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
-        .filter{ case ((_, mv), _) => mv.flatMap(_.modelId) inSetBind modelIds }
+        .on { case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
+        .filter { case ((_, mv), _) => mv.flatMap(_.modelId) inSetBind modelIds }
         .result
     ).map(mapFromDb)
 
-  override def getByModelRuntimeIds(runtimeIds: Seq[Long]): Future[Seq[Service]] =
+  override def getByRuntimeIds(runtimeIds: Set[Long]): Future[Seq[Service]] =
     db.run(
       Tables.Service
         .joinLeft(Tables.Runtime)
-        .on{ case (s, r) => s.runtimeId === r.runtimeId }
+        .on { case (s, r) => s.runtimeId === r.runtimeId }
         .joinLeft(Tables.Environment)
-        .on{ case ((s, _), e) => s.environmentId === e.environmentId }
+        .on { case ((s, _), e) => s.environmentId === e.environmentId }
         .joinLeft(Tables.ModelVersion)
-        .on{ case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
+        .on { case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
         .joinLeft(Tables.Model)
-        .on{ case ((((_, _), _), mv), m) => mv.flatMap(_.modelId) === m.modelId }
-        .filter{ case ((((_, r), _), _), _) => r.map(_.runtimeId) inSetBind runtimeIds }
+        .on { case ((((_, _), _), mv), m) => mv.flatMap(_.modelId) === m.modelId }
+        .filter { case ((((_, r), _), _), _) => r.map(_.runtimeId) inSetBind runtimeIds }
         .result
     ).map(mapFromDb)
 
@@ -147,14 +147,14 @@ class ServiceRepositoryImpl(
     db.run(
       Tables.Service
         .joinLeft(Tables.Runtime)
-        .on{ case (s, r) => s.runtimeId === r.runtimeId }
+        .on { case (s, r) => s.runtimeId === r.runtimeId }
         .joinLeft(Tables.Environment)
-        .on{ case ((s, _), e) => s.environmentId === e.environmentId }
+        .on { case ((s, _), e) => s.environmentId === e.environmentId }
         .joinLeft(Tables.ModelVersion)
-        .on{ case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
+        .on { case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
         .joinLeft(Tables.Model)
-        .on{ case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
-        .filter{ case ((_, mv), _) => mv.map(_.modelName) === modelName }
+        .on { case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
+        .filter { case ((_, mv), _) => mv.map(_.modelName) === modelName }
         .result.headOption
     ).map(mapFromDb)
 
@@ -162,14 +162,14 @@ class ServiceRepositoryImpl(
     db.run(
       Tables.Service
         .joinLeft(Tables.Runtime)
-        .on{ case (s, r) => s.runtimeId === r.runtimeId }
+        .on { case (s, r) => s.runtimeId === r.runtimeId }
         .joinLeft(Tables.Environment)
-        .on{ case ((s, _), e) => s.environmentId === e.environmentId }
+        .on { case ((s, _), e) => s.environmentId === e.environmentId }
         .joinLeft(Tables.ModelVersion)
-        .on{ case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
+        .on { case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
         .joinLeft(Tables.Model)
-        .on{ case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
-        .filter{ case ((_, mv), _) => mv.map(_.modelName) === modelName && mv.map(_.modelVersion) === modelVersion }
+        .on { case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
+        .filter { case ((_, mv), _) => mv.map(_.modelName) === modelName && mv.map(_.modelVersion) === modelVersion }
         .result.headOption
     ).map(mapFromDb)
 
@@ -177,16 +177,26 @@ class ServiceRepositoryImpl(
     db.run(
       Tables.Service
         .joinLeft(Tables.Runtime)
-        .on{ case (s, r) => s.runtimeId === r.runtimeId }
+        .on { case (s, r) => s.runtimeId === r.runtimeId }
         .joinLeft(Tables.Environment)
-        .on{ case ((s, _), e) => s.environmentId === e.environmentId }
+        .on { case ((s, _), e) => s.environmentId === e.environmentId }
         .joinLeft(Tables.ModelVersion)
-        .on{ case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
+        .on { case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
         .joinLeft(Tables.Model)
-        .on{ case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
-        .filter{ case ((_, mv), _) => mv.map(_.modelVersionId) inSetBind modelIds }
+        .on { case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
+        .filter { case ((_, mv), _) => mv.map(_.modelVersionId) inSetBind modelIds }
         .result
     ).map(mapFromDb)
+
+  override def fetchServices(services: Set[ServiceKeyDescription]): Future[Seq[Service]] = {
+    getByRuntimeIds(services.map(k => {
+      k.runtimeId
+    })).map(s => {
+      s.filter(service => {
+        services.contains(service.toServiceKeyDescription)
+      })
+    })
+  }
 }
 
 object ServiceRepositoryImpl {
