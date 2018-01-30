@@ -8,6 +8,7 @@ import com.spotify.docker.client.messages.{Container, ContainerConfig, HostConfi
 import io.hydrosphere.serving.manager.ManagerConfiguration
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.Service
+import io.hydrosphere.serving.manager.service.InternalManagerEventsPublisher
 
 import scala.concurrent.{ExecutionContext, Future}
 import collection.JavaConversions._
@@ -16,17 +17,20 @@ import scala.util.Try
 /**
   *
   */
-class LocalDockerCloudDriverService(
+class LocalCloudDriverService(
   dockerClient: DockerClient,
-  managerConfiguration: ManagerConfiguration
+  managerConfiguration: ManagerConfiguration,
+  internalManagerEventsPublisher: InternalManagerEventsPublisher
 )(implicit val ex: ExecutionContext) extends CloudDriverService {
-  override def serviceList(): Future[Seq[CloudService]] = Future.apply({
-    collectCloudService(
+
+  override def serviceList(): Future[Seq[CloudService]] = Future({
+    val realServices = collectCloudService(
       dockerClient.listContainers(
         ListContainersParam.withLabel(LABEL_HS_SERVICE_MARKER, LABEL_HS_SERVICE_MARKER),
         ListContainersParam.allContainers()
       ).toSeq
     )
+    realServices :+ createManagerCloudService() :+ createManagerHttpCloudService()
   })
 
   private def startModel(service: Service): String = {
@@ -76,7 +80,9 @@ class LocalDockerCloudDriverService(
       .build(), s"s${service.id}app${service.serviceName}")
     dockerClient.startContainer(c.id())
 
-    fetchById(service.id)
+    val cloudService = fetchById(service.id)
+    internalManagerEventsPublisher.cloudServiceDetected(Seq(cloudService))
+    cloudService
   })
 
   private def createPortBindingsMap(): util.Map[String, util.List[PortBinding]] = {
@@ -127,8 +133,8 @@ class LocalDockerCloudDriverService(
       }),
       instances = Seq(
         ServiceInstance(
-          advertisedHost=managerConfiguration.sidecar.host,
-          advertisedPort=containerApp.ports().head.publicPort(),
+          advertisedHost = managerConfiguration.sidecar.host,
+          advertisedPort = containerApp.ports().head.publicPort(),
           instanceId = containerApp.id(),
           mainApplication = MainApplicationInstance(
             instanceId = containerApp.id(),
@@ -152,13 +158,83 @@ class LocalDockerCloudDriverService(
     )
   }
 
+  private def createSystemCloudService(name: String, id: Long, host: String,
+    port: Int, image: String): CloudService =
+    CloudService(
+      id = id,
+      serviceName = name,
+      statusText = "OK",
+      cloudDriverId = name,
+      environmentName = None,
+      configParams = Map(),
+      runtimeInfo = MainApplicationInstanceInfo(
+        runtimeId = id,
+        runtimeName = image,
+        runtimeVersion = "latest"
+      ),
+      modelInfo = None,
+      instances = Seq(ServiceInstance(
+        instanceId = name,
+        mainApplication = MainApplicationInstance(
+          instanceId = name,
+          host = host,
+          port = port
+        ),
+        sidecar = SidecarInstance(
+          instanceId = "managerConfiguration.sidecar",
+          host = managerConfiguration.sidecar.host,
+          ingressPort = managerConfiguration.sidecar.ingressPort,
+          egressPort = managerConfiguration.sidecar.egressPort,
+          adminPort = managerConfiguration.sidecar.adminPort
+        ),
+        model = None,
+        advertisedHost = host,
+        advertisedPort = port
+      ))
+    )
+
+
+  private def createManagerCloudService(): CloudService =
+    createSystemCloudService(
+      CloudDriverService.MANAGER_NAME,
+      CloudDriverService.MANAGER_ID,
+      managerConfiguration.advertised.advertisedHost,
+      managerConfiguration.application.grpcPort,
+      "hydrosphere/serving-manager"
+    )
+
+  private def createManagerHttpCloudService(): CloudService =
+    createSystemCloudService(
+      CloudDriverService.MANAGER_HTTP_NAME,
+      CloudDriverService.MANAGER_HTTP_ID,
+      managerConfiguration.advertised.advertisedHost,
+      managerConfiguration.application.port,
+      "hydrosphere/serving-manager"
+    )
+
   private def fetchById(serviceId: Long): CloudService = {
-    collectCloudService(
-      dockerClient.listContainers(
-        ListContainersParam.withLabel(LABEL_SERVICE_ID, serviceId.toString),
-        ListContainersParam.allContainers()
-      )
-    ).headOption.getOrElse(throw new IllegalArgumentException(s"Can't find service with id=$serviceId"))
+    serviceId match {
+      case CloudDriverService.GATEWAY_ID =>
+        //TODO add gateway
+        createSystemCloudService(
+          CloudDriverService.GATEWAY_NAME,
+          CloudDriverService.GATEWAY_ID,
+          managerConfiguration.advertised.advertisedHost,
+          managerConfiguration.advertised.advertisedPort,
+          "hydrosphere/serving-manager"
+        )
+      case CloudDriverService.MANAGER_ID =>
+        createManagerCloudService()
+      case CloudDriverService.MANAGER_HTTP_ID =>
+        createManagerHttpCloudService()
+      case _ =>
+        collectCloudService(
+          dockerClient.listContainers(
+            ListContainersParam.withLabel(LABEL_SERVICE_ID, serviceId.toString),
+            ListContainersParam.allContainers()
+          )
+        ).headOption.getOrElse(throw new IllegalArgumentException(s"Can't find service with id=$serviceId"))
+    }
   }
 
   override def services(serviceIds: Set[Long]): Future[Seq[CloudService]] = Future.apply({

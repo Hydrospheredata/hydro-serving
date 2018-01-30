@@ -57,7 +57,7 @@ class EndpointDSActor(
         renewEndpoints(r.clusters)
       case d: RemoveEndpoints =>
         removeClusters(d.names).contains(true)
-      case d:AddEndpoints=>
+      case d: AddEndpoints =>
         createOrUpdate(d.clusters).contains(true)
       case _ => false
     }
@@ -81,7 +81,7 @@ class EndpointDSActor(
       val currentEndpoints = clusterEndpoints.get(p.name)
       if (currentEndpoints.isEmpty || (currentEndpoints.get &~ p.endpoints).nonEmpty) {
         val cl = createCluster(p)
-        endpoints.put(cl.clusterName, cl)
+        endpoints.put(p.name, cl)
         clusterEndpoints.put(p.name, p.endpoints)
         true
       } else {
@@ -91,6 +91,7 @@ class EndpointDSActor(
   }
 
   private def createCluster(cluster: ClusterInfo): ClusterLoadAssignment = ClusterLoadAssignment(
+    clusterName = cluster.name,
     endpoints = Seq(LocalityLbEndpoints(
       lbEndpoints = cluster.endpoints.map(endpoint => {
         LbEndpoint(

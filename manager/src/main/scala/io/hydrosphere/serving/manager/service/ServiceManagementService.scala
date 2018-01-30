@@ -7,6 +7,7 @@ import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.clouddriver._
+import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -44,10 +45,6 @@ case class CreateEnvironmentRequest(
 }
 
 trait ServiceManagementService {
-  val MANAGER_ID: Long = -20
-  val GATEWAY_ID: Long = -10
-  val MANAGER_NAME: String = "manager"
-  val GATEWAY_NAME: String = "gateway"
 
   def deleteService(serviceId: Long): Future[Unit]
 
@@ -83,13 +80,8 @@ class ServiceManagementServiceImpl(
   runtimeRepository: RuntimeRepository,
   modelVersionRepository: ModelVersionRepository,
   environmentRepository: EnvironmentRepository,
-  internalManagerEventsPublisher:InternalManagerEventsPublisher
-)(implicit val ex: ExecutionContext) extends ServiceManagementService {
-
-  private val specialNames = Map(
-    MANAGER_NAME -> MANAGER_ID,
-    GATEWAY_NAME -> GATEWAY_ID
-  )
+  internalManagerEventsPublisher: InternalManagerEventsPublisher
+)(implicit val ex: ExecutionContext) extends ServiceManagementService with Logging{
 
   private def mapInternalService(cloudService: CloudService): Service = {
     Service(
@@ -142,7 +134,19 @@ class ServiceManagementServiceImpl(
 
 
   override def allServices(): Future[Seq[Service]] =
-    serviceRepository.all().flatMap(syncServices)
+    cloudDriverService.serviceList().flatMap(cloudServices => {
+      serviceRepository.all().flatMap(services => {
+        val map = services.map(p => p.id -> p).toMap
+        Future.successful(cloudServices.map(s => {
+          map.get(s.id) match {
+            case Some(cs) =>
+              cs.copy(statusText = s.statusText)
+            case _ =>
+              mapInternalService(s)
+          }
+        }))
+      })
+    })
 
   private def fetchModel(modelId: Option[Long]): Future[Option[ModelVersion]] =
     modelId match {
@@ -174,7 +178,11 @@ class ServiceManagementServiceImpl(
               .flatMap(newService => {
                 cloudDriverService.deployService(newService).flatMap(cloudService => {
                   serviceRepository.updateCloudDriveId(cloudService.id, Some(cloudService.cloudDriverId))
-                    .map(_ => newService.copy(cloudDriverId = Some(cloudService.cloudDriverId)))
+                    .map(_ => {
+                      val s = newService.copy(cloudDriverId = Some(cloudService.cloudDriverId))
+                      internalManagerEventsPublisher.serviceChanged(s)
+                      s
+                    })
                 })
               })
         }
@@ -187,9 +195,9 @@ class ServiceManagementServiceImpl(
       .flatMap(opt => {
         val info = opt.headOption.getOrElse(throw new IllegalArgumentException(s"Can't find service with id $serviceId"))
         info.id match {
-          case MANAGER_ID =>
+          case CloudDriverService.MANAGER_ID =>
             Future.successful(Some(mapInternalService(info)))
-          case GATEWAY_ID =>
+          case CloudDriverService.GATEWAY_ID =>
             Future.successful(Some(mapInternalService(info)))
           case _ =>
             serviceRepository.get(serviceId).map({
@@ -202,8 +210,16 @@ class ServiceManagementServiceImpl(
 
   //TODO check service in applications before delete
   override def deleteService(serviceId: Long): Future[Unit] =
-    cloudDriverService.removeService(serviceId)
-      .flatMap(_ => serviceRepository.delete(serviceId)).map(_ => Unit)
+    serviceRepository.get(serviceId).flatMap({
+      case Some(x) =>
+        cloudDriverService.removeService(serviceId)
+          .flatMap(_ => serviceRepository.delete(serviceId)).map(_ =>
+          internalManagerEventsPublisher.serviceRemoved(x)
+        )
+      case None =>
+        Future.successful(Unit)
+    })
+
 
   override def servicesByIds(ids: Seq[Long]): Future[Seq[Service]] =
     serviceRepository.fetchByIds(ids)
@@ -218,7 +234,7 @@ class ServiceManagementServiceImpl(
       .flatMap(syncServices)
 
   override def serviceByFullName(fullName: String): Future[Option[Service]] =
-    specialNames.get(fullName) match {
+    CloudDriverService.specialNames.get(fullName) match {
       case Some(id) =>
         cloudDriverService.services(Set(id))
           .map(p => p.headOption.map(mapInternalService))

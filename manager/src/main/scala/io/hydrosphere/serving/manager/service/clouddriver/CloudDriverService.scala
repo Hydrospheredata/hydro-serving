@@ -146,3 +146,18 @@ trait CloudDriverService {
       instances = instances
     )
 }
+
+object CloudDriverService{
+  val MANAGER_ID: Long = -20
+  val MANAGER_HTTP_ID: Long = -21
+  val GATEWAY_ID: Long = -10
+  val MANAGER_NAME: String = "manager"
+  val MANAGER_HTTP_NAME: String = "manager-http"
+  val GATEWAY_NAME: String = "gateway"
+
+  val specialNames = Map(
+    MANAGER_NAME -> MANAGER_ID,
+    MANAGER_HTTP_NAME -> MANAGER_HTTP_ID,
+    GATEWAY_NAME -> GATEWAY_ID
+  )
+}

@@ -62,7 +62,7 @@ class ManagerServices(
 
   val cloudDriverService: CloudDriverService = managerConfiguration.cloudDriver match {
     //    case _: LocalDockerCloudDriverConfiguration => new LocalDockerCloudDriverService(dockerClient, managerConfiguration)
-    case _ => new LocalDockerCloudDriverService(dockerClient, managerConfiguration)
+    case _ => new LocalCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
 
   }
 

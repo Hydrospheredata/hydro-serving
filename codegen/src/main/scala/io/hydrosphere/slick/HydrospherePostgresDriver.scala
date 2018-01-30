@@ -6,7 +6,6 @@ import slick.basic.Capability
 trait HydrospherePostgresDriver extends ExPostgresProfile
   with PgArraySupport
   with PgDate2Support
-  with PgSprayJsonSupport
   {
     def pgjson = "jsonb"
 
@@ -19,7 +18,6 @@ trait HydrospherePostgresDriver extends ExPostgresProfile
   trait MyAPI extends API
     with ArrayImplicits
     with DateTimeImplicits
-    with JsonImplicits
 }
 
 object HydrospherePostgresDriver extends HydrospherePostgresDriver

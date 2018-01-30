@@ -68,7 +68,7 @@ class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis
       case RemoveClusters(names) =>
         removeClusters(names)
       case SyncCluster(names) =>
-        removeClusters(names)
+        syncClusters(names)
     }
     results.contains(true)
   }

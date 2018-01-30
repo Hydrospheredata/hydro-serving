@@ -1,7 +1,7 @@
 import sbt._
 
 object Dependencies {
-  val akkaVersion = "2.5.9"
+  val akkaVersion = "2.5.8"
   val akkaHttpVersion = "10.0.11"
   val hadoopVersion = "2.8.0"
   val log4j2Version = "2.8.2"
@@ -62,8 +62,7 @@ object Dependencies {
     .union(Seq(
       "org.postgresql" % "postgresql" % postgresqlVersion,
       "com.github.tminglei" %% "slick-pg" % slickPgVersion,
-      "com.typesafe.slick" %% "slick-codegen" % slickVersion,
-      "com.github.tminglei" %% "slick-pg_spray-json" % slickPgVersion
+      "com.typesafe.slick" %% "slick-codegen" % slickVersion
     ))
 
   lazy val hydroServingDummyRuntimeDependencies = commonDependencies

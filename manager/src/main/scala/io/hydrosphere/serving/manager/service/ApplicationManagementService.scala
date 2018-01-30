@@ -65,7 +65,7 @@ class ApplicationManagementServiceImpl(
   applicationRepository: ApplicationRepository,
   serviceManagementService: ServiceManagementService,
   grpcClient: PredictionServiceGrpc.PredictionServiceStub,
-  internalManagerEventsPublisher:InternalManagerEventsPublisher
+  internalManagerEventsPublisher: InternalManagerEventsPublisher
 )(implicit val ex: ExecutionContext) extends ApplicationManagementService with Logging {
 
   def createRequest(data: PredictResponse, signature: String): PredictRequest =
@@ -192,6 +192,10 @@ class ApplicationManagementServiceImpl(
       val toAdd = keysSet -- existedServices
       startServices(toAdd).flatMap(_ => {
         applicationRepository.create(req.toApplication)
+          .flatMap(a => {
+            internalManagerEventsPublisher.applicationChanged(a)
+            Future.successful(a)
+          })
       })
     })
   })
@@ -244,7 +248,7 @@ class ApplicationManagementServiceImpl(
         applicationRepository.delete(id)
           .flatMap(_ =>
             removeServiceIfNeeded(keysSet, id)
-              .map(_ => Unit)
+              .map(_ => internalManagerEventsPublisher.applicationRemoved(application))
           )
       case _ =>
         Future.successful(Unit)
