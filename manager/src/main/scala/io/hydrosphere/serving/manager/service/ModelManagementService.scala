@@ -5,7 +5,6 @@ import java.time.LocalDateTime
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.model.api.{DataGenerator, ModelType}
 import io.hydrosphere.serving.manager.model.api.description._
-import io.hydrosphere.serving.manager.model.api.ops.Implicits._
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.repository._
 import spray.json.JsObject
@@ -82,6 +81,14 @@ case class CreateModelVersionRequest(
   }
 }
 
+
+case class AggregatedModelInfo(
+  model: Model,
+  lastModelBuild: Option[ModelBuild],
+  lastModelVersion: Option[ModelVersion]
+)
+
+
 trait ModelManagementService {
 
   def submitBinaryContract(modelId: Long, bytes: Array[Byte]): Future[Option[Model]]
@@ -94,6 +101,12 @@ trait ModelManagementService {
 
   def allModels(): Future[Seq[Model]]
 
+  def getModel(id: Long): Future[Option[Model]]
+
+  def allModelsAggregatedInfo(): Future[Seq[AggregatedModelInfo]]
+
+  def getModelAggregatedInfo(id: Long): Future[Option[AggregatedModelInfo]]
+
   def updateModel(entity: CreateOrUpdateModelRequest): Future[Model]
 
   def updateModel(modelName: String, modelSource: ModelSource): Future[Option[Model]]
@@ -105,7 +118,7 @@ trait ModelManagementService {
   def addModelVersion(entity: CreateModelVersionRequest): Future[ModelVersion]
 
   def allModelVersion(): Future[Seq[ModelVersion]]
-  
+
   def generateModelPayload(modelId: Long, signature: String): Future[Seq[JsObject]]
 
   def generateInputsForVersion(versionId: Long, signature: String): Future[Seq[JsObject]]
@@ -396,4 +409,40 @@ class ModelManagementServiceImpl(
 
   override def modelsByType(types: Set[String]): Future[Seq[Model]] =
     modelRepository.fetchByModelType(types.map(ModelType.fromTag).toSeq)
+
+  override def getModel(id: Long): Future[Option[Model]] =
+    modelRepository.get(id)
+
+  override def allModelsAggregatedInfo(): Future[Seq[AggregatedModelInfo]] =
+    modelRepository.all().flatMap(models=>{
+      val ids=models.map(_.id)
+      modelBuildRepository.lastForModels(ids).flatMap(builds=>{
+        val buildsMap=builds.map(p=>p.model.id->p).toMap
+        modelVersionRepository.lastModelVersionForModels(ids).map(versions=>{
+          val versionsMap=versions.map(p=>p.model.get.id->p).toMap
+
+          models.map(m=>{
+            AggregatedModelInfo(
+              model = m,
+              lastModelBuild = buildsMap.get(m.id),
+              lastModelVersion = versionsMap.get(m.id)
+            )
+          })
+        })
+      })
+    })
+
+  override def getModelAggregatedInfo(id: Long): Future[Option[AggregatedModelInfo]] =
+    modelRepository.get(id).flatMap({
+      case None => Future.successful(None)
+      case Some(model) => modelBuildRepository.lastByModelId(id, 1).flatMap(s => {
+        modelVersionRepository.lastModelVersionByModel(id, 1).map(v => {
+          Some(AggregatedModelInfo(
+            model = model,
+            lastModelBuild = s.headOption,
+            lastModelVersion = v.headOption
+          ))
+        })
+      })
+    })
 }

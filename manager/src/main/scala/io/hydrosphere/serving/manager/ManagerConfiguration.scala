@@ -13,12 +13,19 @@ import collection.JavaConverters._
 
 trait ManagerConfiguration {
   def sidecar: SidecarConfig
+
   def application: ApplicationConfig
+
   def advertised: AdvertisedConfiguration
+
   def modelSources: Seq[ModelSourceConfigAux]
+
   def database: HikariConfig
+
   def cloudDriver: CloudDriverConfiguration
+
   def zipkin: ZipkinConfiguration
+
   def dockerRepository: DockerRepositoryConfiguration
 }
 
@@ -108,15 +115,15 @@ object ManagerConfiguration {
   def parseDockerRepository(config: Config): DockerRepositoryConfiguration = {
     val repoType = config.getString("dockerRepository.type")
     repoType match {
-      case "local" => LocalDockerRepositoryConfiguration()
       case "ecs" =>
         parseCloudDriver(config) match {
           case ecs: ECSCloudDriverConfiguration => ECSDockerRepositoryConfiguration(
             region = ecs.region,
             accountId = ecs.accountId
           )
-          case _ => throw new IllegalArgumentException(s"Specify ECS configuration in cloudDriver section")
+          case _ => LocalDockerRepositoryConfiguration()
         }
+      case _ => LocalDockerRepositoryConfiguration()
     }
   }
 
@@ -137,8 +144,6 @@ object ManagerConfiguration {
       kv.getKey match {
         case "swarm" =>
           SwarmCloudDriverConfiguration(networkName = driverConf.getString("networkName"))
-        case "localDocker" =>
-          LocalDockerCloudDriverConfiguration()
         case "docker" =>
           val hasLoggingGelfHost = driverConf.hasPath("loggingGelfHost")
           DockerCloudDriverConfiguration(
@@ -155,10 +160,10 @@ object ManagerConfiguration {
             loggingGelfHost = if (hasLoggingGelfHost)
               Some(driverConf.getString("loggingGelfHost")) else None
           )
-        case x =>
-          throw new IllegalArgumentException(s"Unknown model source: $x")
+        case _ =>
+          LocalDockerCloudDriverConfiguration()
       }
-    }.head
+    }.headOption.getOrElse(LocalDockerCloudDriverConfiguration())
   }
 
   def parseAdvertised(config: Config): AdvertisedConfiguration = {

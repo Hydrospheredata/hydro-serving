@@ -4,8 +4,9 @@ import akka.actor.{ActorRef, ActorSystem}
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.spotify.docker.client._
-import io.grpc.ManagedChannelBuilder
+import io.grpc.{Channel, ClientInterceptors, ManagedChannelBuilder}
 import io.hydrosphere.serving.manager.connector.{HttpEnvoyAdminConnector, HttpRuntimeMeshConnector, RuntimeMeshConnector}
+import io.hydrosphere.serving.manager.grpc.manager.AuthorityReplacerInterceptor
 import io.hydrosphere.serving.manager.service.clouddriver._
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
@@ -31,10 +32,14 @@ class ManagerServices(
   implicit val timeout: Timeout
 ) extends Logging {
 
-  val servingMeshGrpcClient: PredictionServiceGrpc.PredictionServiceStub = PredictionServiceGrpc.stub(ManagedChannelBuilder
+  val managedChannel=ManagedChannelBuilder
     .forAddress(managerConfiguration.sidecar.host, managerConfiguration.sidecar.egressPort)
     .usePlaintext(true)
-    .build)
+    .build
+
+  val channel: Channel = ClientInterceptors.intercept(managedChannel, new AuthorityReplacerInterceptor)
+
+  val servingMeshGrpcClient: PredictionServiceGrpc.PredictionServiceStub = PredictionServiceGrpc.stub(channel)
 
   val runtimeMeshConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector(managerConfiguration.sidecar)
 
@@ -62,7 +67,7 @@ class ManagerServices(
 
   val cloudDriverService: CloudDriverService = managerConfiguration.cloudDriver match {
     //    case _: LocalDockerCloudDriverConfiguration => new LocalDockerCloudDriverService(dockerClient, managerConfiguration)
-    case _ => new LocalDockerCloudDriverService(dockerClient, managerConfiguration)
+    case _ => new LocalCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
 
   }
 

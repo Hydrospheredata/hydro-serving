@@ -1,10 +1,11 @@
 package io.hydrosphere.serving.manager.service.envoy.xds
 
 import com.google.protobuf.duration.Duration
-import envoy.api.v2.Cluster.EdsClusterConfig
+import envoy.api.v2.Cluster.{EdsClusterConfig, ProtocolOptions}
 import envoy.api.v2.ConfigSource.ConfigSourceSpecifier
-import envoy.api.v2.{AggregatedConfigSource, Cluster, ConfigSource, DiscoveryResponse}
+import envoy.api.v2._
 import io.grpc.stub.StreamObserver
+import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService
 
 import scala.collection.mutable
 
@@ -20,23 +21,35 @@ class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis
 
   private val clustersNames = new mutable.HashSet[String]()
 
+  private val httClusters = Set(CloudDriverService.MANAGER_HTTP_NAME)
+
+  private def createCluster(name: String): Cluster = {
+    val res = Cluster(
+      name = name,
+      `type` = Cluster.DiscoveryType.EDS,
+      connectTimeout = Some(Duration(seconds = 0, nanos = 25000000)),
+      edsClusterConfig = Some(
+        EdsClusterConfig(
+          edsConfig = Some(ConfigSource(
+            configSourceSpecifier = ConfigSourceSpecifier.Ads(
+              AggregatedConfigSource()
+            ))
+          )
+        )
+      )
+    )
+
+    if (httClusters.contains(name)) {
+      res
+    } else {
+      res.withHttp2ProtocolOptions(Http2ProtocolOptions())
+    }
+  }
+
   private def addClusters(names: Set[String]): Set[Boolean] =
     names.map(name => {
       if (clustersNames.add(name)) {
-        clusters += Cluster(
-          name = name,
-          `type` = Cluster.DiscoveryType.EDS,
-          connectTimeout = Some(Duration(seconds = 0, nanos = 25000000)),
-          edsClusterConfig = Some(
-            EdsClusterConfig(
-              edsConfig = Some(ConfigSource(
-                configSourceSpecifier = ConfigSourceSpecifier.Ads(
-                  AggregatedConfigSource()
-                ))
-              )
-            )
-          )
-        )
+        clusters += createCluster(name)
         true
       } else {
         false
@@ -68,7 +81,7 @@ class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis
       case RemoveClusters(names) =>
         removeClusters(names)
       case SyncCluster(names) =>
-        removeClusters(names)
+        syncClusters(names)
     }
     results.contains(true)
   }

@@ -5,13 +5,14 @@ import io.hydrosphere.serving.manager.connector._
 import io.hydrosphere.serving.manager.grpc.manager.AuthorityReplacerInterceptor
 import io.hydrosphere.serving.manager.model.api.{DataGenerator, SignatureChecker}
 import io.hydrosphere.serving.manager.model.api.ops.{ModelSignatureOps, TensorProtoOps}
-import io.hydrosphere.serving.manager.model.{Application, ApplicationExecutionGraph, Service, ServiceKeyDescription}
+import io.hydrosphere.serving.manager.model.api.validation.SignatureValidator
+import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.repository.ApplicationRepository
 import io.hydrosphere.serving.tensorflow.api.model.ModelSpec
 import io.hydrosphere.serving.tensorflow.api.predict.{PredictRequest, PredictResponse}
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
 import org.apache.logging.log4j.scala.Logging
-import spray.json.JsObject
+import spray.json.{JsObject, JsValue}
 
 import scala.concurrent.{Await, ExecutionContext, Future}
 import scala.concurrent.duration._
@@ -39,6 +40,8 @@ case class ExecutionStep(
 )
 
 trait ApplicationManagementService {
+  def serveJsonApplication(jsonServeRequest: JsonServeRequest): Future[JsValue]
+
   def serveGrpcApplication(data: PredictRequest): Future[PredictResponse]
 
   def allApplications(): Future[Seq[Application]]
@@ -54,10 +57,6 @@ trait ApplicationManagementService {
   def deleteApplication(id: Long): Future[Unit]
 
   def updateApplications(req: ApplicationCreateOrUpdateRequest): Future[Application]
-
-  /*
-  def serve(req: ServeRequest): Future[ExecutionResult]
-  */
 }
 
 class ApplicationManagementServiceImpl(
@@ -65,8 +64,8 @@ class ApplicationManagementServiceImpl(
   applicationRepository: ApplicationRepository,
   serviceManagementService: ServiceManagementService,
   grpcClient: PredictionServiceGrpc.PredictionServiceStub,
-  internalManagerEventsPublisher:InternalManagerEventsPublisher
-)(implicit val ex: ExecutionContext) extends ApplicationManagementService with Logging {
+  internalManagerEventsPublisher: InternalManagerEventsPublisher
+)(implicit val ex: ExecutionContext) extends ApplicationManagementService with ManagerJsonSupport with Logging {
 
   def createRequest(data: PredictResponse, signature: String): PredictRequest =
     PredictRequest(
@@ -102,6 +101,35 @@ class ApplicationManagementServiceImpl(
         }
       case None => Future.failed(new IllegalArgumentException("ModelSpec is not defined"))
     }
+  }
+
+  override def serveJsonApplication(jsonServeRequest: JsonServeRequest): Future[JsValue] = {
+    import ToPipelineStages._
+
+    applicationRepository.get(jsonServeRequest.targetId)
+      .flatMap({
+        case Some(x) =>
+          inferAppInputSchema(x).flatMap(signature => {
+            val ds = new SignatureValidator(signature).convert(jsonServeRequest.inputs).right.map { tensors =>
+              PredictRequest(
+                modelSpec = None,
+                inputs = tensors
+              )
+            }.right.map { grpcRequest => {
+              serveGrpcStages(x.toPipelineStages(""), grpcRequest)
+            }
+            }
+
+            ds match {
+              case Left(l) =>
+                Future.failed(new IllegalArgumentException(s"Can't map request $l"))
+              case Right(r) =>
+                r.map(TensorProtoOps.jsonify)
+            }
+          })
+        case None =>
+          Future.failed(new IllegalArgumentException(s"Can't find Application with id=${jsonServeRequest.targetId}"))
+      })
   }
 
   override def allApplications(): Future[Seq[Application]] =
@@ -192,6 +220,10 @@ class ApplicationManagementServiceImpl(
       val toAdd = keysSet -- existedServices
       startServices(toAdd).flatMap(_ => {
         applicationRepository.create(req.toApplication)
+          .flatMap(a => {
+            internalManagerEventsPublisher.applicationChanged(a)
+            Future.successful(a)
+          })
       })
     })
   })
@@ -244,7 +276,7 @@ class ApplicationManagementServiceImpl(
         applicationRepository.delete(id)
           .flatMap(_ =>
             removeServiceIfNeeded(keysSet, id)
-              .map(_ => Unit)
+              .map(_ => internalManagerEventsPublisher.applicationRemoved(application))
           )
       case _ =>
         Future.successful(Unit)
@@ -262,7 +294,10 @@ class ApplicationManagementServiceImpl(
             .flatMap(_ =>
               startServices(keysSetNew -- keysSetOld).flatMap(_ => {
                 val app = req.toApplication
-                applicationRepository.update(app).map(_ => app)
+                applicationRepository.update(app).map(_ => {
+                  internalManagerEventsPublisher.applicationChanged(app)
+                  app
+                })
               })
             )
         case None =>

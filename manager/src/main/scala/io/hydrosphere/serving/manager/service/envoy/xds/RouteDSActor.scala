@@ -4,6 +4,7 @@ import envoy.api.v2.RouteAction.ClusterSpecifier
 import envoy.api.v2._
 import io.grpc.stub.StreamObserver
 import io.hydrosphere.serving.manager.model.Application
+import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService
 import io.hydrosphere.serving.manager.service.{ApplicationChanged, ApplicationRemoved}
 
 import scala.collection.mutable
@@ -76,10 +77,8 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
     )
 
 
-  override protected def formResources(responseObserver: StreamObserver[DiscoveryResponse]): Seq[RouteConfiguration] = {
-    val clusterName = getObserverNode(responseObserver).fold("manager_xds_cluster")(_.id)
-
-    val defaultRoute=VirtualHost(
+  private def defaultVirtualHost(clusterName: String): VirtualHost =
+    VirtualHost(
       name = "all",
       domains = Seq("*"),
       routes = Seq(Route(
@@ -92,7 +91,44 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
       ))
     )
 
+  private def defaultManagerVirtualHost(): VirtualHost =
+    VirtualHost(
+      name = "all",
+      domains = Seq("*"),
+      routes = Seq(
+        Route(
+          `match` = Some(RouteMatch(
+            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/"),
+            headers = Seq(HeaderMatcher(
+              name = "content-type",
+              value = "application/grpc"
+            ))
+          )),
+          action = Route.Action.Route(RouteAction(
+            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_NAME)
+          ))
+        ),
+        Route(
+          `match` = Some(RouteMatch(
+            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/")
+          )),
+          action = Route.Action.Route(RouteAction(
+            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_HTTP_NAME)
+          ))
+        )
+      )
+    )
+
+  override protected def formResources(responseObserver: StreamObserver[DiscoveryResponse]): Seq[RouteConfiguration] = {
+    val clusterName = getObserverNode(responseObserver).fold("manager_xds_cluster")(_.id)
+
+    val defaultRoute = clusterName match {
+      case CloudDriverService.MANAGER_NAME =>
+        defaultManagerVirtualHost()
+      case _ =>
+        defaultVirtualHost(clusterName)
+    }
+
     Seq(createRoute(ROUTE_CONFIG_NAME, defaultRoute))
   }
-
 }

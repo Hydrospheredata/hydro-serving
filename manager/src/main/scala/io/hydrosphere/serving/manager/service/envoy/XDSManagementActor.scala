@@ -5,7 +5,8 @@ import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.clouddriver.{CloudDriverService, CloudService}
 import io.hydrosphere.serving.manager.service.envoy.xds._
 
-import scala.concurrent.ExecutionContext
+import scala.concurrent.{Await, ExecutionContext}
+import scala.concurrent.duration._
 
 class XDSManagementActor(
   serviceManagementService: ServiceManagementService,
@@ -59,14 +60,17 @@ class XDSManagementActor(
   }
 
   override def preStart(): Unit = {
-    serviceManagementService.allServices()
-      .foreach(v => clusterDSActor ! AddCluster(v.map(_.serviceName).toSet))
-
-    applicationManagementService.allApplications()
-      .foreach(v => routeDSActor ! SyncApplications(v))
-
-    cloudDriverService.serviceList()
-      .foreach(c => endpointDSActor ! AddEndpoints(mapCloudService(c)))
+    val f = {
+      for {
+        f1 <- serviceManagementService.allServices()
+          .map(v => clusterDSActor ! SyncCluster(v.map(_.serviceName).toSet))
+        f2 <- applicationManagementService.allApplications()
+          .map(v => routeDSActor ! SyncApplications(v))
+        f3 <- cloudDriverService.serviceList()
+          .map(c => endpointDSActor ! RenewEndpoints(mapCloudService(c)))
+      } yield (f1, f2, f3)
+    }
+    Await.result(f, 10 second)
     super.preStart()
   }
 
