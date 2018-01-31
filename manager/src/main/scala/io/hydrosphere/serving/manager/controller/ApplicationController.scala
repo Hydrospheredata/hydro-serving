@@ -8,6 +8,7 @@ import akka.util.Timeout
 import io.hydrosphere.serving.manager.model.{Application, ManagerJsonSupport}
 import io.hydrosphere.serving.manager.service._
 import io.swagger.annotations._
+import spray.json.JsObject
 
 import scala.concurrent.duration._
 
@@ -17,7 +18,7 @@ import scala.concurrent.duration._
 @Path("/api/v1/applications")
 @Api(produces = "application/json", tags = Array("Application"))
 class ApplicationController(
-  servingManagementService: ApplicationManagementService
+  applicationManagementService: ApplicationManagementService
 ) extends ManagerJsonSupport with ServingDataDirectives{
   implicit val timeout = Timeout(5.minutes)
 
@@ -29,10 +30,10 @@ class ApplicationController(
   ))
   def listAll = path("api" / "v1" / "applications") {
     get {
-      complete(servingManagementService.allApplications())
+      complete(applicationManagementService.allApplications())
     }
   }
-  
+
 
   @Path("/")
   @ApiOperation(value = "Add Application", notes = "Add Application", nickname = "addApplication", httpMethod = "POST")
@@ -48,7 +49,7 @@ class ApplicationController(
     post {
       entity(as[ApplicationCreateOrUpdateRequest]) { r =>
         complete(
-          servingManagementService.createApplications(r)
+          applicationManagementService.createApplications(r)
         )
       }
     }
@@ -68,7 +69,7 @@ class ApplicationController(
     put {
       entity(as[ApplicationCreateOrUpdateRequest]) { r =>
         complete(
-          servingManagementService.updateApplications(r)
+          applicationManagementService.updateApplications(r)
         )
       }
     }
@@ -85,7 +86,7 @@ class ApplicationController(
   ))
   def deleteApplication = delete {
     path("api" / "v1" / "applications" / LongNumber) { serviceId =>
-      onSuccess(servingManagementService.deleteApplication(serviceId)) {
+      onSuccess(applicationManagementService.deleteApplication(serviceId)) {
         complete(200, None)
       }
     }
@@ -103,70 +104,39 @@ class ApplicationController(
   def generateInputsForApp = path("api" / "v1" / "applications" / "generateInputs" / LongNumber) { appId =>
     get {
       complete(
-        servingManagementService.generateInputsForApplication(appId)
+        applicationManagementService.generateInputsForApplication(appId)
       )
     }
   }
 
-  /*@Path("/serve/{applicationName}")
-  @ApiOperation(value = "Serve Application", notes = "Serve Application", nickname = "ServeApplication", httpMethod = "POST")
+  @Path("/serve/{applicationId}")
+  @ApiOperation(value = "Serve Application by id", notes = "Serve Application by id", nickname = "Serve Application by id", httpMethod = "POST")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "applicationName", required = true, dataType = "string", paramType = "path", value = "applicationName"),
-    new ApiImplicitParam(name = "body", value = "Any", required = true, paramType = "body")
+    new ApiImplicitParam(name = "applicationId", required = true, dataType = "long", paramType = "path", value = "applicationId"),
+    new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[List[_]], required = true, paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
+    new ApiResponse(code = 200, message = "Any"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def serve = path("api" / "v1" / "applications" / "serve" / Segment)  { name =>
+  def serveById = path("api" / "v1" / "applications" / "serve" / LongNumber) { (serviceId) =>
     post {
-      extractRequest { request =>
-        extractRawData { bytes =>
-          val serveRequest = ServeRequest(
-            serviceKey = ApplicationName(name),
-            servePath = "/serve",
-            headers = request.headers.filter(h => TracingHeaders.isTracingHeaderName(h.name())),
-            inputData = bytes
-          )
-          completeExecutionResult(servingManagementService.serve(serveRequest))
-        }
+      entity(as[JsObject]) { bytes =>
+        complete(applicationManagementService.serveJsonApplication(JsonServeRequest(
+          targetId=serviceId,
+          signatureName="predict",
+          inputs=bytes
+        )))
       }
     }
   }
-
-  @Path("/serveById/{applicationId}")
-  @ApiOperation(value = "Serve Application", notes = "Serve Application", nickname = "ServeApplication", httpMethod = "POST")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "applicationId", required = true, dataType = "long", paramType = "path", value = "modelId"),
-    new ApiImplicitParam(name = "body", value = "Any", required = true, paramType = "body")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
-  def serveById = path("api" / "v1" / "applications" / "serveById" / LongNumber)  { id =>
-    post {
-      extractRequest { request =>
-        extractRawData { bytes =>
-          val serveRequest = ServeRequest(
-            serviceKey = ApplicationKey(id),
-            servePath = "/serve",
-            headers = request.headers.filter(h => TracingHeaders.isTracingHeaderName(h.name())),
-            inputData = bytes
-          )
-          completeExecutionResult(servingManagementService.serve(serveRequest))
-        }
-      }
-    }
-  }*/
 
   val routes =
     listAll ~
       create ~
       update ~
       deleteApplication ~
-      generateInputsForApp
-      //serve ~
-      //serveById ~
+      generateInputsForApp ~
+      serveById
 
 }

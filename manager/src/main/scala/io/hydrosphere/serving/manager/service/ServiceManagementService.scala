@@ -8,6 +8,7 @@ import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.clouddriver._
 import org.apache.logging.log4j.scala.Logging
+import spray.json.JsObject
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -44,6 +45,12 @@ case class CreateEnvironmentRequest(
   }
 }
 
+case class JsonServeRequest(
+  targetId: Long,
+  signatureName: String,
+  inputs: JsObject
+)
+
 trait ServiceManagementService {
 
   def deleteService(serviceId: Long): Future[Unit]
@@ -68,8 +75,6 @@ trait ServiceManagementService {
 
   def deleteEnvironment(environmentId: Long): Future[Unit]
 
-  def serveService(serviceId: Long, inputData: Array[Byte]): Future[Array[Byte]]
-
   def fetchServicesUnsync(services: Set[ServiceKeyDescription]): Future[Seq[Service]]
 }
 
@@ -81,7 +86,7 @@ class ServiceManagementServiceImpl(
   modelVersionRepository: ModelVersionRepository,
   environmentRepository: EnvironmentRepository,
   internalManagerEventsPublisher: InternalManagerEventsPublisher
-)(implicit val ex: ExecutionContext) extends ServiceManagementService with Logging{
+)(implicit val ex: ExecutionContext) extends ServiceManagementService with Logging {
 
   private def mapInternalService(cloudService: CloudService): Service = {
     Service(
@@ -172,7 +177,7 @@ class ServiceManagementServiceImpl(
     fetchServingEnvironment(r.environmentId).flatMap(svEnv => {
       fetchModel(r.modelVersionId).flatMap(modelVersion => {
         runtimeRepository.get(r.runtimeId).flatMap {
-          case None => throw new IllegalArgumentException(s"Can't find ModelRuntime with id=${r.runtimeId}")
+          case None => throw new IllegalArgumentException(s"Can't find Runtime with id=${r.runtimeId}")
           case Some(runtime) =>
             serviceRepository.create(r.toService(runtime, modelVersion, svEnv))
               .flatMap(newService => {
@@ -250,9 +255,35 @@ class ServiceManagementServiceImpl(
   override def deleteEnvironment(environmentId: Long): Future[Unit] =
     environmentRepository.delete(environmentId).map(_ => Unit)
 
-  override def serveService(serviceId: Long, inputData: Array[Byte]): Future[Array[Byte]] =
-    Future.failed(new UnsupportedOperationException) //TODO
-
   override def fetchServicesUnsync(services: Set[ServiceKeyDescription]): Future[Seq[Service]] =
     serviceRepository.fetchServices(services)
+
+  /*override def serveService(jsonServeRequest: JsonServeRequest): Future[JsObject] =
+    serviceRepository.get(jsonServeRequest.targetId)
+      .flatMap(s => {
+        val service = s.getOrElse(throw new IllegalArgumentException(s"Can't find service with id=${jsonServeRequest.targetId}"))
+        val model = service.model.getOrElse(throw new IllegalArgumentException(s"Can't find ModelContract for service $service"))
+        val validator = new PredictRequestContractValidator(model.modelContract)
+        validator.convert(JsonPredictRequest(
+          modelName = model.modelName,
+          version = Some(model.modelVersion),
+          signatureName = jsonServeRequest.signatureName,
+          inputs = jsonServeRequest.inputs
+        )).right.map{ grpcRequest=>{
+          grpcClient
+            .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, service.serviceName)
+            .predict(grpcRequest)
+        }}
+
+        Future.failed(new UnsupportedOperationException)
+      })
+*/
+  /*
+  JsonPredictRequest.fromServeRequest(req).map{ jsonRequest =>
+      val validator = new PredictRequestContractValidator(??? /*ModelContract*/)
+      validator.convert(jsonRequest).right.map{ grpcRequest =>
+        // send to service grpcRequest
+      }
+    }
+  */
 }

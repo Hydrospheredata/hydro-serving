@@ -131,5 +131,4 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
 
     Seq(createRoute(ROUTE_CONFIG_NAME, defaultRoute))
   }
-
 }

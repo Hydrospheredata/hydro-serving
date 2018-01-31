@@ -13,12 +13,6 @@ trait ToPipelineStages[A] {
   */
 object ToPipelineStages {
 
-  implicit val modelToStages = new ToPipelineStages[Service] {
-    def toStages(service: Service, servePath: String): Seq[ExecutionUnit] = {
-      Seq(ExecutionUnit(service.serviceName, servePath))
-    }
-  }
-
   implicit val applicationToStages = new ToPipelineStages[Application] {
     def toStages(application: Application, servePath: String): Seq[ExecutionUnit] =
       application.executionGraph.stages.zipWithIndex.map {

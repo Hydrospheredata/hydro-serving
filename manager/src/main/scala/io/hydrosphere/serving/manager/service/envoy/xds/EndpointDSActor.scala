@@ -77,7 +77,7 @@ class EndpointDSActor(
 
 
   private def createOrUpdate(clusters: Seq[ClusterInfo]): Set[Boolean] = {
-    clusters.map(p => {
+    val res=clusters.map(p => {
       val currentEndpoints = clusterEndpoints.get(p.name)
       if (currentEndpoints.isEmpty || (currentEndpoints.get &~ p.endpoints).nonEmpty) {
         val cl = createCluster(p)
@@ -88,6 +88,7 @@ class EndpointDSActor(
         false
       }
     }).toSet
+    res
   }
 
   private def createCluster(cluster: ClusterInfo): ClusterLoadAssignment = ClusterLoadAssignment(

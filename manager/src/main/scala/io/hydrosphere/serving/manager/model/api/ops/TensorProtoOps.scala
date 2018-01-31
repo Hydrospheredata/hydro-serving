@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager.model.api.ops
 
+import io.hydrosphere.serving.tensorflow.api.predict.PredictResponse
 import io.hydrosphere.serving.tensorflow.tensor.TensorProto
 import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 import io.hydrosphere.serving.tensorflow.types.DataType._
@@ -57,6 +58,10 @@ object TensorProtoOps {
           name -> jsonify(tensor)
       }
     )
+  }
+
+  def jsonify(predictResponse: PredictResponse): JsObject = {
+    jsonify(predictResponse.outputs)
   }
 
   case class ColumnShaper(tensorShapeProto: Option[TensorShapeProto]) {

@@ -25,7 +25,7 @@ abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUr
 
   private val observerNode = mutable.Map[StreamObserver[DiscoveryResponse], Node]()
 
-  private val version = new AtomicLong(1L)
+  private val version = new AtomicLong(System.currentTimeMillis())
 
   private def needToExecute(v: DiscoveryRequest): Boolean =
     !v.versionInfo.contains(version.toString)

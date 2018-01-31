@@ -49,7 +49,7 @@ class ServiceController(
     }
   }
 
-  @Path("/{serviceId}")
+  /*@Path("/{serviceId}")
   @ApiOperation(value = "deleteService", notes = "deleteService", nickname = "deleteService", httpMethod = "DELETE")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "serviceId", required = true, dataType = "long", paramType = "path", value = "serviceId")
@@ -64,7 +64,7 @@ class ServiceController(
         complete(200, None)
       }
     }
-  }
+  }*/
 
   @Path("/{serviceId}")
   @ApiOperation(value = "getService", notes = "getService", nickname = "getService", httpMethod = "GET")
@@ -101,7 +101,7 @@ class ServiceController(
     }
   }
 
-  @Path("/")
+  /*@Path("/")
   @ApiOperation(value = "Add Service", notes = "Add Service", nickname = "addService", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "CreateServiceRequest", required = true,
@@ -141,7 +141,10 @@ class ServiceController(
   }
 
 
+
+  */
+
   val routes: Route =
-    listAll ~ addService ~ deleteService ~ getService ~
-      fetchByModelId ~  fetchByIds ~ serveByServiceId
+    listAll ~ /*addService ~ deleteService ~*/ getService ~
+      fetchByModelId ~  fetchByIds
 }
