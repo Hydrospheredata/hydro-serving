@@ -28,6 +28,7 @@ lazy val root = project.in(file("."))
   )
 
 lazy val codegen = project.in(file("codegen"))
+  .settings(exportJars := true)
   .settings(currentSettings)
   .settings(Common.settings)
   .settings(libraryDependencies ++= Dependencies.codegenDependencies)
