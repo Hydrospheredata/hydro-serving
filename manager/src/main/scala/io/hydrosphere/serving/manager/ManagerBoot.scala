@@ -15,9 +15,6 @@ import org.apache.logging.log4j.scala.Logging
 import scala.concurrent.Await
 import scala.concurrent.duration._
 
-/**
-  *
-  */
 object ManagerBoot extends App with Logging {
   try {
     implicit val system = ActorSystem("manager")

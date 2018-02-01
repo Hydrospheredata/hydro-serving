@@ -51,10 +51,10 @@ class ModelManagementServiceITSpec extends CommonIntegrationSpec with BeforeAndA
           SignatureDescription(
             "sig1",
             inputs = List(
-              FieldDescription("/in1", DataType.DT_STRING, None)
+              FieldDescription("/in1", DataType.DT_STRING.toString(), None)
             ),
             outputs = List(
-              FieldDescription("/out1", DataType.DT_DOUBLE, Some(List(-1)))
+              FieldDescription("/out1", DataType.DT_DOUBLE.toString(), Some(List(-1)))
             )
           )
         )

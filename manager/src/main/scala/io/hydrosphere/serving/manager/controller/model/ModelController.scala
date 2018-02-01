@@ -1,40 +1,39 @@
-package io.hydrosphere.serving.manager.controller
+package io.hydrosphere.serving.manager.controller.model
 
 import javax.ws.rs.Path
 
-import io.hydrosphere.serving.manager.service.{AggregatedModelInfo, CreateModelVersionRequest, CreateOrUpdateModelRequest, ModelManagementService}
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
+import io.hydrosphere.serving.manager.controller._
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.description.ContractDescription
+import io.hydrosphere.serving.manager.service.{CreateModelVersionRequest, CreateOrUpdateModelRequest, ModelManagementService}
 import io.swagger.annotations._
 
+import scala.concurrent.ExecutionContext
 import scala.concurrent.duration._
 
-case class BuildModelRequest(
-  modelId: Long,
-  modelVersion: Option[Long]
-)
-
-/**
-  *
-  */
 @Path("/api/v1/model")
 @Api(produces = "application/json", tags = Array("Model and Model Versions"))
 class ModelController(modelManagementService: ModelManagementService)
+  (implicit ec: ExecutionContext)
   extends ManagerJsonSupport with ServingDataDirectives {
   implicit val timeout = Timeout(10.minutes)
 
   @Path("/")
   @ApiOperation(value = "listModels", notes = "listModels", nickname = "listModels", httpMethod = "GET")
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Model", response = classOf[AggregatedModelInfo], responseContainer = "List"),
+    new ApiResponse(code = 200, message = "Model", response = classOf[SimplifiedAggregatedModelInfo], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def listModels = path("api" / "v1" / "model") {
     get {
-      complete(modelManagementService.allModelsAggregatedInfo())
+      complete {
+        modelManagementService.allModelsAggregatedInfo().map { infoSeq =>
+          infoSeq.map(SimplifiedAggregatedModelInfo.convertFrom)
+        }
+      }
     }
   }
 
@@ -44,12 +43,16 @@ class ModelController(modelManagementService: ModelManagementService)
     new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Model", response = classOf[AggregatedModelInfo]),
+    new ApiResponse(code = 200, message = "Model", response = classOf[SimplifiedAggregatedModelInfo]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def getModel = path("api" / "v1" / "model" / LongNumber) { id=>
     get {
-      complete(modelManagementService.getModelAggregatedInfo(id))
+      complete{
+        modelManagementService.getModelAggregatedInfo(id).map { maybeSeq =>
+          maybeSeq.map(SimplifiedAggregatedModelInfo.convertFrom)
+        }
+      }
     }
   }
 
@@ -60,15 +63,15 @@ class ModelController(modelManagementService: ModelManagementService)
       dataTypeClass = classOf[CreateOrUpdateModelRequest], paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Model", response = classOf[Model]),
+    new ApiResponse(code = 200, message = "Model", response = classOf[SimplifiedModel]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def addModel = path("api" / "v1" / "model") {
     post {
       entity(as[CreateOrUpdateModelRequest]) { r =>
-        complete(
-          modelManagementService.createModel(r)
-        )
+        complete {
+          modelManagementService.createModel(r).map(SimplifiedModel.convertFrom)
+        }
       }
     }
   }
@@ -80,15 +83,15 @@ class ModelController(modelManagementService: ModelManagementService)
       dataTypeClass = classOf[CreateOrUpdateModelRequest], paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Model", response = classOf[Model]),
+    new ApiResponse(code = 200, message = "Model", response = classOf[SimplifiedModel]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def updateModel = path("api" / "v1" / "model") {
     put {
       entity(as[CreateOrUpdateModelRequest]) { r =>
-        complete(
-          modelManagementService.updateModel(r)
-        )
+        complete {
+          modelManagementService.updateModel(r).map(SimplifiedModel.convertFrom)
+        }
       }
     }
   }
@@ -99,12 +102,16 @@ class ModelController(modelManagementService: ModelManagementService)
     new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "ModelBuild", response = classOf[ModelBuild], responseContainer = "List"),
+    new ApiResponse(code = 200, message = "ModelBuild", response = classOf[SimplifiedModelBuild], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def listModelBuildsByModel = get {
-    path("api" / "v1" / "model" / "builds" / LongNumber) { s =>
-      complete(modelManagementService.modelBuildsByModelId(s))
+  def listModelBuildsByModel = path("api" / "v1" / "model" / "builds" / LongNumber) { s =>
+    get {
+      complete {
+        modelManagementService.modelBuildsByModelId(s).map{ buildSeq =>
+          buildSeq.map(SimplifiedModelBuild.convertFrom)
+        }
+      }
     }
   }
 
@@ -115,15 +122,17 @@ class ModelController(modelManagementService: ModelManagementService)
     new ApiImplicitParam(name = "maximum", required = false, dataType = "integer", paramType = "query", value = "maximum", defaultValue = "10")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "ModelBuild", response = classOf[ModelBuild], responseContainer = "List"),
+    new ApiResponse(code = 200, message = "ModelBuild", response = classOf[SimplifiedModelBuild], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def lastModelBuilds = get {
-    path("api" / "v1" / "model" / "builds" / LongNumber / "last") { s =>
+  def lastModelBuilds = path("api" / "v1" / "model" / "builds" / LongNumber / "last") { s =>
+    get {
       parameters('maximum.as[Int]) { (maximum) =>
-        complete(
-          modelManagementService.lastModelBuildsByModelId(s, maximum)
-        )
+        complete {
+          modelManagementService.lastModelBuildsByModelId(s, maximum).map { buildSeq =>
+            buildSeq.map(SimplifiedModelBuild.convertFrom)
+          }
+        }
       }
     }
   }
@@ -135,15 +144,15 @@ class ModelController(modelManagementService: ModelManagementService)
       dataTypeClass = classOf[BuildModelRequest], paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Model", response = classOf[ModelVersion]),
+    new ApiResponse(code = 200, message = "Model", response = classOf[SimplifiedModelVersion]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def buildModel = path("api" / "v1" / "model" / "build") {
     post {
       entity(as[BuildModelRequest]) { r =>
-        complete(
-          modelManagementService.buildModel(r.modelId, r.modelVersion)
-        )
+        complete {
+          modelManagementService.buildModel(r.modelId, r.modelVersion).map(SimplifiedModelVersion.convertFrom)
+        }
       }
     }
   }
@@ -155,15 +164,17 @@ class ModelController(modelManagementService: ModelManagementService)
     new ApiImplicitParam(name = "maximum", required = false, dataType = "integer", paramType = "query", value = "maximum", defaultValue = "10")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "ModelVersion", response = classOf[ModelVersion], responseContainer = "List"),
+    new ApiResponse(code = 200, message = "ModelVersion", response = classOf[SimplifiedModelVersion], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def lastModelVersions = get {
-    path("api" / "v1" / "model" / "version" / LongNumber / "last") { s =>
+  def lastModelVersions = path("api" / "v1" / "model" / "version" / LongNumber / "last") { s =>
+    get {
       parameters('maximum.as[Int]) { (maximum) =>
-        complete(
-          modelManagementService.lastModelVersionByModelId(s, maximum)
-        )
+        complete {
+          modelManagementService.lastModelVersionByModelId(s, maximum).map { versionSeq =>
+            versionSeq.map(SimplifiedModelVersion.convertFrom)
+          }
+        }
       }
     }
   }
@@ -175,14 +186,14 @@ class ModelController(modelManagementService: ModelManagementService)
       dataTypeClass = classOf[CreateModelVersionRequest], paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "ModelVersion", response = classOf[ModelVersion]),
+    new ApiResponse(code = 200, message = "ModelVersion", response = classOf[SimplifiedModelVersion]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def addModelVersion = path("api" / "v1" / "model" / "version") {
     post {
       entity(as[CreateModelVersionRequest]) { r =>
         complete(
-          modelManagementService.addModelVersion(r)
+          modelManagementService.addModelVersion(r).map(SimplifiedModelVersion.convertFrom)
         )
       }
     }
@@ -191,14 +202,16 @@ class ModelController(modelManagementService: ModelManagementService)
   @Path("version")
   @ApiOperation(value = "All ModelVersion", notes = "All ModelVersion", nickname = "allModelVersions", httpMethod = "GET")
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "ModelVersion", response = classOf[ModelVersion], responseContainer = "List"),
+    new ApiResponse(code = 200, message = "ModelVersion", response = classOf[SimplifiedModelVersion], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def allModelVersions = path("api" / "v1" / "model" / "version") {
     get {
-      complete(
-        modelManagementService.allModelVersion()
-      )
+      complete {
+        modelManagementService.allModelVersion().map { versionSeq =>
+          versionSeq.map(SimplifiedModelVersion.convertFrom)
+        }
+      }
     }
   }
 

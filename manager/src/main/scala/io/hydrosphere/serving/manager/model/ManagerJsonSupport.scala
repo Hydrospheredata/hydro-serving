@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.model
 
-import io.hydrosphere.serving.manager.controller.BuildModelRequest
+import io.hydrosphere.serving.manager.controller.model.BuildModelRequest
 import io.hydrosphere.serving.manager.service.{CreateServiceRequest, _}
 import spray.json._
 
@@ -60,3 +60,5 @@ trait ManagerJsonSupport extends CommonJsonSupport {
 
   implicit val aggregatedModelInfoFormat=jsonFormat3(AggregatedModelInfo)
 }
+
+object ManagerJsonSupport extends ManagerJsonSupport
