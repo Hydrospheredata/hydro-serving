@@ -4,6 +4,7 @@ import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.model.api.ContractBuilders
 import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
+import io.hydrosphere.serving.tensorflow.types.DataType
 
 import scala.collection.mutable
 
@@ -67,7 +68,10 @@ object SignatureDescription {
         case (tensorName :: Nil) =>
           tree += FTensor(
             tensorName,
-            ContractBuilders.createTensorInfo(field.dataType, field.shape)
+            ContractBuilders.createTensorInfo(
+              DataType.fromName(field.dataType).getOrElse(throw new IllegalArgumentException(s"Invalid Datatype: ${field.dataType}")),
+              field.shape
+            )
           )
         case (root :: segments) =>
           var last = tree.getOrUpdate(root, FMap(root)).asInstanceOf[FMap]
@@ -81,7 +85,10 @@ object SignatureDescription {
           val lastName = segments.last
           last += FTensor(
             lastName,
-            ContractBuilders.createTensorInfo(field.dataType, field.shape)
+            ContractBuilders.createTensorInfo(
+              DataType.fromName(field.dataType).getOrElse(throw new IllegalArgumentException(s"Invalid Datatype: ${field.dataType}")),
+              field.shape
+            )
           )
         case Nil => throw new IllegalArgumentException(s"Field name '${field.fieldName}' in flattened contract is incorrect.")
       }

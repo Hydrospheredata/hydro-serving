@@ -30,7 +30,7 @@ object TensorInfoOps {
   def flatten(rootName: String, tensor: TensorInfo): FieldDescription = {
     FieldDescription(
       rootName,
-      tensor.dtype,
+      tensor.dtype.toString(),
       TensorShapeProtoOps.shapeToList(tensor.tensorShape)
     )
   }

@@ -4,6 +4,6 @@ import io.hydrosphere.serving.tensorflow.types.DataType
 
 case class FieldDescription(
   fieldName: String,
-  dataType: DataType,
+  dataType: String,
   shape: Option[List[Long]]
 )
