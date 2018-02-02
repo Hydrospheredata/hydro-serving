@@ -80,11 +80,11 @@ class ModelBuildRepositoryImpl(
     db.run(
       Tables.ModelBuild
         .filter(_.modelId === id)
-        .sortBy(_.startedTimestamp.desc)
         .joinLeft(Tables.Model)
         .on({ case (mb, m) => mb.modelId === m.modelId })
         .joinLeft(Tables.ModelVersion)
         .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
+        .sortBy(_._1._1.startedTimestamp.desc)
         .take(maximum)
         .result
     ).map(s => mapFromDb(s))

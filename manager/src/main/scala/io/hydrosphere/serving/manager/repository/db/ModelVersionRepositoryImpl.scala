@@ -66,9 +66,9 @@ class ModelVersionRepositoryImpl(
     db.run(
       Tables.ModelVersion
         .filter(_.modelId === modelId)
+        .sortBy(_.modelVersion.desc)
         .joinLeft(Tables.Model)
         .on({ case (m, rt) => m.modelId === rt.modelId })
-        .sortBy(_._1.modelVersionId.desc)
         .take(max)
         .result
     ).map(s => mapFromDb(s))
@@ -77,9 +77,9 @@ class ModelVersionRepositoryImpl(
     db.run(
       Tables.ModelVersion
         .filter(_.modelId inSetBind modelIds)
+        .sortBy(_.modelVersion.desc)
         .joinLeft(Tables.Model)
         .on({ case (m, rt) => m.modelId === rt.modelId })
-        .sortBy(_._1.modelVersionId.desc)
         .distinctOn(_._1.modelId.get)
         .result
     ).map(s => mapFromDb(s))
@@ -88,9 +88,9 @@ class ModelVersionRepositoryImpl(
     db.run(
       Tables.ModelVersion
         .filter(r => r.modelId === modelId && r.modelVersion === version)
+        .sortBy(_.modelVersion.desc)
         .joinLeft(Tables.Model)
         .on({ case (m, rt) => m.modelId === rt.modelId })
-        .sortBy(_._1.modelVersionId.desc)
         .distinctOn(_._1.modelId.get)
         .result.headOption
     ).map(s => mapFromDb(s))
