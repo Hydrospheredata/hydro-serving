@@ -53,7 +53,6 @@ case class CloudService(
   statusText: String,
   cloudDriverId: String,
   environmentName: Option[String],
-  configParams: Map[String, String],
   runtimeInfo: MainApplicationInstanceInfo,
   modelInfo: Option[ModelInstanceInfo],
   instances: Seq[ServiceInstance]
@@ -61,14 +60,14 @@ case class CloudService(
 
 trait CloudDriverService {
 
-  val LABEL_SERVICE_ID = "hydroServingServiceId"
-  val LABEL_SERVICE_NAME = "LABEL_SERVICE_NAME"
+  val LABEL_SERVICE_ID = "SERVICE_ID"
+  val LABEL_SERVICE_NAME = "SERVICE_NAME"
   val LABEL_HS_SERVICE_MARKER = "HS_SERVICE_MARKER"
   val LABEL_MODEL_VERSION_ID = "MODEL_VERSION_ID"
   val LABEL_MODEL_VERSION = "MODEL_VERSION"
   val LABEL_MODEL_NAME = "MODEL_NAME"
   val LABEL_MODEL_TYPE = "MODEL_TYPE"
-  val LABEL_RUNTIME_ID = "MODEL_RUNTIME_ID"
+  val LABEL_RUNTIME_ID = "RUNTIME_ID"
 
   val LABEL_DEPLOYMENT_TYPE="DEPLOYMENT_TYPE"
 
@@ -127,7 +126,6 @@ trait CloudDriverService {
       statusText = statusText,
       cloudDriverId = cloudDriverId,
       environmentName = service.environment.map(e => e.name),
-      configParams = service.configParams,
       runtimeInfo = MainApplicationInstanceInfo(
         runtimeId = service.runtime.id,
         runtimeName = service.runtime.name,

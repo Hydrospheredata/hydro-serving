@@ -87,5 +87,9 @@ class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis
   }
 
   override protected def formResources(responseObserver: StreamObserver[DiscoveryResponse]): Seq[Cluster] =
+  {
+    log.info(s"$clusters")
     clusters
+  }
+
 }
