@@ -49,6 +49,7 @@ class ModelServiceSpec extends FullIntegrationSpec with BeforeAndAfterAll {
               val exec = dockerClient.execCreate(
                 container.id(),
                 Array("find", "/model"),
+                DockerClient.ExecCreateParam.attachStdin(),
                 DockerClient.ExecCreateParam.attachStdout()
               )
               val logs = dockerClient.execStart(exec.id()).readFully().split("\n").toSet
