@@ -15,7 +15,7 @@ import org.apache.logging.log4j.scala.Logging
   *
   */
 class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging {
-  private[this] val localFolder =  s"/tmp/${sourceDef.name}"
+  private[this] val localFolder = s"/tmp/${sourceDef.name}"
   private val client = sourceDef.s3Client
 
   val cacheSource = new LocalModelSource(
@@ -29,11 +29,14 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
     if (Files.exists(path) && Files.isDirectory(path)) {
       Files.walkFileTree(path, new FileVisitor[Path] {
         def visitFileFailed(file: Path, exc: IOException) = FileVisitResult.CONTINUE
+
         def visitFile(file: Path, attrs: BasicFileAttributes): FileVisitResult = {
           Files.delete(file)
           FileVisitResult.CONTINUE
         }
+
         def preVisitDirectory(dir: Path, attrs: BasicFileAttributes) = FileVisitResult.CONTINUE
+
         def postVisitDirectory(dir: Path, exc: IOException): FileVisitResult = {
           Files.delete(dir)
           FileVisitResult.CONTINUE
@@ -71,12 +74,11 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
       .filter(_.startsWith(path))
       .map(_.split(path).last.split("/"))
       .filterNot(_.length == 1)
-      .map(_(1))
+      .map(_ (1))
       .distinct.toList
   }
 
   override def getSubDirs: List[String] = {
-    logger.debug(s"getSubDirs")
     val r = client
       .listObjects(sourceDef.bucket)
       .getObjectSummaries
@@ -84,7 +86,7 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
       .map(_.split("/").head)
       .distinct
       .toList
-    println(r)
+    logger.debug(s"getSubDirs $r")
     r
   }
 
@@ -95,14 +97,14 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
       .getObjectSummaries
       .map(_.getKey)
       .filterNot(_.endsWith("/")) // fix w2v/stages/0_w2v_617dd94f64cf/data/
-    println(modelKeys)
+    logger.debug(s"modelKeys=$modelKeys")
     modelKeys
       .map(URI.create)
       .map(_.toString)
       .map(getReadableFile)
 
     val r = cacheSource.getAllFiles(folder)
-    println(r)
+    logger.debug(s"getAllFiles=$r")
     r
   }
 

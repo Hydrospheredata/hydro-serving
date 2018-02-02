@@ -99,7 +99,7 @@ class ServiceManagementServiceImpl(
         version = cloudService.runtimeInfo.runtimeVersion,
         suitableModelType = List(ModelType.Unknown()),
         tags = List(),
-        configParams = cloudService.configParams
+        configParams = Map()
       ),
       environment = cloudService.environmentName.map(n => Environment(
         id = -1L,
@@ -120,7 +120,7 @@ class ServiceManagementServiceImpl(
         modelContract = ModelContract.defaultInstance
       )),
       statusText = cloudService.statusText,
-      configParams = cloudService.configParams
+      configParams = Map()
     )
   }
 

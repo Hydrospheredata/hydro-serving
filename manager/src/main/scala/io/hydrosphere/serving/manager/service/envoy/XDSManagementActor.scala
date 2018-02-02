@@ -41,7 +41,7 @@ class XDSManagementActor(
     case s: SubscribeMsg =>
       s.discoveryRequest.node.foreach(_ => {
         actors.get(s.discoveryRequest.typeUrl)
-          .fold(log.info(s"Unknown typeUrl: ${s.discoveryRequest}"))(actor =>
+          .fold(log.error(s"Unknown typeUrl: ${s.discoveryRequest}"))(actor =>
             actor ! s
           )
       })
