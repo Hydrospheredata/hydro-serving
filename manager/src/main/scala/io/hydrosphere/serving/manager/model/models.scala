@@ -98,6 +98,7 @@ case class ApplicationExecutionGraph(
 case class Application(
   id: Long,
   name: String,
+  contract: ModelContract,
   executionGraph: ApplicationExecutionGraph
 )
 

@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager.repository.db
 
+import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.manager.model.{Application, ApplicationExecutionGraph, CommonJsonSupport, ServiceKeyDescription}
 import io.hydrosphere.serving.manager.repository.ApplicationRepository
@@ -26,10 +27,11 @@ class ApplicationRepositoryImpl(
   override def create(entity: Application): Future[Application] =
     db.run(
       Tables.Application returning Tables.Application += Tables.ApplicationRow(
-        entity.id,
-        entity.name,
-        entity.executionGraph.toJson.toString(),
-        getServices(entity.executionGraph).map(v => v.toString)
+        id = entity.id,
+        applicationName = entity.name,
+        applicationContract = entity.contract.toString(),
+        executionGraph = entity.executionGraph.toJson.toString(),
+        servicesInStage = getServices(entity.executionGraph).map(v => v.toString)
       )
     ).map(s => mapFromDb(s))
 
@@ -101,7 +103,8 @@ object ApplicationRepositoryImpl extends CommonJsonSupport {
     Application(
       id = dbType.id,
       name = dbType.applicationName,
-      executionGraph = dbType.executionGraph.parseJson.convertTo[ApplicationExecutionGraph]
+      executionGraph = dbType.executionGraph.parseJson.convertTo[ApplicationExecutionGraph],
+      contract = ModelContract.fromAscii(dbType.applicationContract)
     )
   }
 }
