@@ -45,14 +45,22 @@ So, the transport layer between model runtimes could be changed from HTTP to uni
 
 Additional out of the box features include Rate limiting, Load balancing, Circuit breaking, Tracing, Statistics.
 
-## Structure
-* [sidecar](/sidecar) contains implementation of the sidecar pattern for ML runtimes.
-* [spark-ml-serving](https://github.com/Hydrospheredata/spark-ml-serving) contains local SparkMl implementation. (Derived from Hydrosphere Mist)
-* [gateway](/gateway) is a simple gateway of the whole project. For now, it's just set up Nginx.
-* [manager](/manager) is a module that rules over all ML models, knows where they are, what they are.
-* [runtimes and models repository](https://github.com/Hydrospheredata/hydro-serving-runtime)
-    * [runtimes](https://github.com/Hydrospheredata/hydro-serving-runtime/tree/master/runtimes) contains implementations for popular ML libraries. Runtime is a small server that can import user's model and provide an HTTP API to it.
-    * [models](https://github.com/Hydrospheredata/hydro-serving-runtime/tree/master/models) contains example ML models for implemented runtimes.
+## Repository structure
+* [manager](/manager) is a module that rules over all ML models, knows where they are, what they are
+* [codegen](/codegen) is a module that handles code-generation (e.g. generate schema from db)
+* [dummy-runtime](/dummy-runtime) is a module with runtime that is used in testing purposes
+* [integrations](/integrations) is a folder with startup and env setup scripts
+
+## Related repositories
+ * Runtimes:
+   * Tensorflow: https://github.com/Hydrospheredata/hydro-serving-tensorflow
+   * Python: https://github.com/Hydrospheredata/hydro-serving-python
+   * Spark: https://github.com/Hydrospheredata/hydro-serving-spark
+     * Spark local inference implementation: https://github.com/Hydrospheredata/spark-ml-serving
+ * Protobuf messages: https://github.com/Hydrospheredata/hydro-serving-protos
+ * Sidecar implementation: https://github.com/Hydrospheredata/hydro-serving-sidecar
+ * Example models: https://github.com/Hydrospheredata/hydro-serving-runtime/tree/master/models
+    
 
 
 ## How to launch demo
