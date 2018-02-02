@@ -22,11 +22,23 @@ class EnvironmentController(
   implicit val timeout = Timeout(5.seconds)
 
   @Path("/")
-  @ApiOperation(value = "listEnvironment", notes = "listEnvironment", nickname = "listEnvironment", httpMethod = "GET")
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Serving Environments", response = classOf[Environment], responseContainer = "List"),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
+  @ApiOperation(
+    value      = "listEnvironment",
+    notes      = "listEnvironment",
+    nickname   = "listEnvironment",
+    httpMethod = "GET"
+  )
+  @ApiResponses(
+    Array(
+      new ApiResponse(
+        code              = 200,
+        message           = "Serving Environments",
+        response          = classOf[Environment],
+        responseContainer = "List"
+      ),
+      new ApiResponse(code = 500, message = "Internal server error")
+    )
+  )
   def listEnvironment = path("api" / "v1" / "environment") {
     get {
       complete(serviceManagementService.allEnvironments())
@@ -34,15 +46,29 @@ class EnvironmentController(
   }
 
   @Path("/")
-  @ApiOperation(value = "Create Environment", notes = "Create Environment", nickname = "createEnvironment", httpMethod = "POST")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "Environment Object", required = true,
-      dataType = "io.hydrosphere.serving.manager.service.CreateEnvironmentRequest", paramType = "body")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Environment", response = classOf[Environment]),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
+  @ApiOperation(
+    value      = "Create Environment",
+    notes      = "Create Environment",
+    nickname   = "createEnvironment",
+    httpMethod = "POST"
+  )
+  @ApiImplicitParams(
+    Array(
+      new ApiImplicitParam(
+        name      = "body",
+        value     = "Environment Object",
+        required  = true,
+        dataType  = "io.hydrosphere.serving.manager.service.CreateEnvironmentRequest",
+        paramType = "body"
+      )
+    )
+  )
+  @ApiResponses(
+    Array(
+      new ApiResponse(code = 200, message = "Environment", response = classOf[Environment]),
+      new ApiResponse(code = 500, message = "Internal server error")
+    )
+  )
   def createEnvironment = path("api" / "v1" / "environment") {
     entity(as[CreateEnvironmentRequest]) { r =>
       complete(
@@ -52,14 +78,29 @@ class EnvironmentController(
   }
 
   @Path("/{environmentId}")
-  @ApiOperation(value = "deleteEnvironment", notes = "deleteEnvironment", nickname = "deleteEnvironment", httpMethod = "DELETE")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "environmentId", required = true, dataType = "long", paramType = "path", value = "environmentId")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Environment Deleted"),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
+  @ApiOperation(
+    value      = "deleteEnvironment",
+    notes      = "deleteEnvironment",
+    nickname   = "deleteEnvironment",
+    httpMethod = "DELETE"
+  )
+  @ApiImplicitParams(
+    Array(
+      new ApiImplicitParam(
+        name      = "environmentId",
+        required  = true,
+        dataType  = "long",
+        paramType = "path",
+        value     = "environmentId"
+      )
+    )
+  )
+  @ApiResponses(
+    Array(
+      new ApiResponse(code = 200, message = "Environment Deleted"),
+      new ApiResponse(code = 500, message = "Internal server error")
+    )
+  )
   def deleteEnvironment = delete {
     path("api" / "v1" / "environment" / LongNumber) { environmentId =>
       onSuccess(serviceManagementService.deleteEnvironment(environmentId)) {

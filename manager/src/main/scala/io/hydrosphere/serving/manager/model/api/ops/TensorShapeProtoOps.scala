@@ -19,9 +19,9 @@ object TensorShapeProtoOps {
     } else {
       val dims = first.dim.zip(second.dim).map {
         case (fDim, sDim) if fDim.size == sDim.size => Some(fDim)
-        case (fDim, sDim) if fDim.size == -1 => Some(sDim)
-        case (fDim, sDim) if sDim.size == -1 => Some(fDim)
-        case _ => None
+        case (fDim, sDim) if fDim.size == -1        => Some(sDim)
+        case (fDim, sDim) if sDim.size == -1        => Some(fDim)
+        case _                                      => None
       }
       if (dims.forall(_.isDefined)) {
         Some(TensorShapeProto(dims.map(_.get)))

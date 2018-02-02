@@ -15,7 +15,8 @@ case class RemoveClusters(names: Set[String])
 
 case class SyncCluster(names: Set[String])
 
-class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis.com/envoy.api.v2.Cluster") {
+class ClusterDSActor
+  extends AbstractDSActor[Cluster](typeUrl = "type.googleapis.com/envoy.api.v2.Cluster") {
 
   private val clusters = new mutable.ListBuffer[Cluster]()
 
@@ -25,15 +26,17 @@ class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis
 
   private def createCluster(name: String): Cluster = {
     val res = Cluster(
-      name = name,
-      `type` = Cluster.DiscoveryType.EDS,
+      name           = name,
+      `type`         = Cluster.DiscoveryType.EDS,
       connectTimeout = Some(Duration(seconds = 0, nanos = 25000000)),
       edsClusterConfig = Some(
         EdsClusterConfig(
-          edsConfig = Some(ConfigSource(
-            configSourceSpecifier = ConfigSourceSpecifier.Ads(
-              AggregatedConfigSource()
-            ))
+          edsConfig = Some(
+            ConfigSource(
+              configSourceSpecifier = ConfigSourceSpecifier.Ads(
+                AggregatedConfigSource()
+              )
+            )
           )
         )
       )
@@ -66,10 +69,9 @@ class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis
       }
     })
 
-
   private def syncClusters(names: Set[String]): Set[Boolean] = {
     val toRemove = clustersNames.toSet -- names
-    val toAdd = names -- clustersNames
+    val toAdd    = names -- clustersNames
 
     removeClusters(toRemove) ++ addClusters(toAdd)
   }
@@ -86,8 +88,9 @@ class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis
     results.contains(true)
   }
 
-  override protected def formResources(responseObserver: StreamObserver[DiscoveryResponse]): Seq[Cluster] =
-  {
+  override protected def formResources(
+    responseObserver: StreamObserver[DiscoveryResponse]
+  ): Seq[Cluster] = {
     log.info(s"$clusters")
     clusters
   }

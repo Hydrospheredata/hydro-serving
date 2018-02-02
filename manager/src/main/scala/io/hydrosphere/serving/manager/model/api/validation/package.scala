@@ -10,16 +10,24 @@ package object validation {
   abstract class ValidationError(message: String) extends Exception(message)
 
   class SignatureMissingError(val expectedSignature: String, val modelContract: ModelContract)
-    extends ValidationError(s"Couldn't find '$expectedSignature' signature in '${modelContract.modelName} model contract'") { }
+    extends ValidationError(
+      s"Couldn't find '$expectedSignature' signature in '${modelContract.modelName} model contract'"
+    ) {}
 
-  class SignatureValidationError(val suberrors: Seq[ValidationError], val modelSignature: ModelSignature)
-    extends ValidationError(s"Errors while validating data for '${modelSignature.signatureName}' signature: ${suberrors.mkString("\n")}") { }
+  class SignatureValidationError(
+    val suberrors: Seq[ValidationError],
+    val modelSignature: ModelSignature
+  ) extends ValidationError(
+      s"Errors while validating data for '${modelSignature.signatureName}' signature: ${suberrors.mkString("\n")}"
+    ) {}
 
   class FieldMissingError(val expectedField: String)
-    extends ValidationError(s"Couldn't find '$expectedField' field") { }
+    extends ValidationError(s"Couldn't find '$expectedField' field") {}
 
-  class ComplexFieldValidationError(val suberrors: Seq[ValidationError] , val field: ModelField)
-    extends ValidationError(s"Errors while validating subfields for '${field.fieldName}' field: ${suberrors.mkString("\n")}")
+  class ComplexFieldValidationError(val suberrors: Seq[ValidationError], val field: ModelField)
+    extends ValidationError(
+      s"Errors while validating subfields for '${field.fieldName}' field: ${suberrors.mkString("\n")}"
+    )
 
   class IncompatibleFieldTypeError(val field: String, val expectedType: DataType)
     extends ValidationError(s"'$field' got data with incompatible type, expected $expectedType")

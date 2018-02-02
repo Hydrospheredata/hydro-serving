@@ -2,7 +2,12 @@ package io.hydrosphere.serving.manager.repository.db
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model.{Application, ApplicationExecutionGraph, CommonJsonSupport, ServiceKeyDescription}
+import io.hydrosphere.serving.manager.model.{
+  Application,
+  ApplicationExecutionGraph,
+  CommonJsonSupport,
+  ServiceKeyDescription
+}
 import io.hydrosphere.serving.manager.repository.ApplicationRepository
 import org.apache.logging.log4j.scala.Logging
 
@@ -14,7 +19,9 @@ import scala.concurrent.{ExecutionContext, Future}
 class ApplicationRepositoryImpl(
   implicit val executionContext: ExecutionContext,
   databaseService: DatabaseService
-) extends ApplicationRepository with Logging with CommonJsonSupport {
+) extends ApplicationRepository
+  with Logging
+  with CommonJsonSupport {
 
   import spray.json._
   import databaseService._
@@ -26,21 +33,24 @@ class ApplicationRepositoryImpl(
 
   override def create(entity: Application): Future[Application] =
     db.run(
-      Tables.Application returning Tables.Application += Tables.ApplicationRow(
-        id = entity.id,
-        applicationName = entity.name,
-        applicationContract = entity.contract.toString(),
-        executionGraph = entity.executionGraph.toJson.toString(),
-        servicesInStage = getServices(entity.executionGraph).map(v => v.toString)
+        Tables.Application returning Tables.Application += Tables.ApplicationRow(
+          id                  = entity.id,
+          applicationName     = entity.name,
+          applicationContract = entity.contract.toString(),
+          executionGraph      = entity.executionGraph.toJson.toString(),
+          servicesInStage     = getServices(entity.executionGraph).map(v => v.toString)
+        )
       )
-    ).map(s => mapFromDb(s))
+      .map(s => mapFromDb(s))
 
   override def get(id: Long): Future[Option[Application]] =
     db.run(
-      Tables.Application
-        .filter(_.id === id)
-        .result.headOption
-    ).map(s => mapFromDb(s))
+        Tables.Application
+          .filter(_.id === id)
+          .result
+          .headOption
+      )
+      .map(s => mapFromDb(s))
 
   override def delete(id: Long): Future[Int] =
     db.run(
@@ -51,32 +61,37 @@ class ApplicationRepositoryImpl(
 
   override def all(): Future[Seq[Application]] =
     db.run(
-      Tables.Application
-        .result
-    ).map(s => s.map(ss => mapFromDb(ss)))
+        Tables.Application.result
+      )
+      .map(s => s.map(ss => mapFromDb(ss)))
 
   override def update(value: Application): Future[Int] = {
     val query = for {
       serv <- Tables.Application if serv.id === value.id
-    } yield (
-      serv.applicationName,
-      serv.executionGraph,
-      serv.servicesInStage
-    )
+    } yield
+      (
+        serv.applicationName,
+        serv.executionGraph,
+        serv.servicesInStage
+      )
 
-    db.run(query.update(
-      value.name,
-      value.executionGraph.toJson.toString(),
-      getServices(value.executionGraph)
-    ))
+    db.run(
+      query.update(
+        value.name,
+        value.executionGraph.toJson.toString(),
+        getServices(value.executionGraph)
+      )
+    )
   }
 
   override def getByName(name: String): Future[Option[Application]] =
     db.run(
-      Tables.Application
-        .filter(_.applicationName === name)
-        .result.headOption
-    ).map(s => mapFromDb(s))
+        Tables.Application
+          .filter(_.applicationName === name)
+          .result
+          .headOption
+      )
+      .map(s => mapFromDb(s))
 
   override def getLockForApplications(): Future[Any] =
     Future.successful(Unit)
@@ -84,12 +99,20 @@ class ApplicationRepositoryImpl(
   override def returnLockForApplications(lockInfo: Any): Future[Unit] =
     Future.successful(Unit)
 
-  override def getKeysNotInApplication(keysSet: Set[ServiceKeyDescription], applicationId: Long): Future[Seq[Application]] =
+  override def getKeysNotInApplication(
+    keysSet: Set[ServiceKeyDescription],
+    applicationId: Long
+  ): Future[Seq[Application]] =
     db.run(
-      Tables.Application
-        .filter(p => {p.servicesInStage @> keysSet.map(v => v.toServiceName()).toList && p.id =!= applicationId})
-        .result
-    ).map(s => s.map(ss => mapFromDb(ss)))
+        Tables.Application
+          .filter(p => {
+            p.servicesInStage @> keysSet
+              .map(v => v.toServiceName())
+              .toList && p.id =!= applicationId
+          })
+          .result
+      )
+      .map(s => s.map(ss => mapFromDb(ss)))
 }
 
 object ApplicationRepositoryImpl extends CommonJsonSupport {
@@ -101,10 +124,10 @@ object ApplicationRepositoryImpl extends CommonJsonSupport {
 
   def mapFromDb(dbType: Tables.Application#TableElementType): Application = {
     Application(
-      id = dbType.id,
-      name = dbType.applicationName,
+      id             = dbType.id,
+      name           = dbType.applicationName,
       executionGraph = dbType.executionGraph.parseJson.convertTo[ApplicationExecutionGraph],
-      contract = ModelContract.fromAscii(dbType.applicationContract)
+      contract       = ModelContract.fromAscii(dbType.applicationContract)
     )
   }
 }

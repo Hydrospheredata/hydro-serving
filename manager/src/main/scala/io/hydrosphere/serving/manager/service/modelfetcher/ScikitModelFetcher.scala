@@ -21,7 +21,7 @@ object ScikitModelFetcher extends ModelFetcher with Logging {
         ModelMetadata(
           modelName = directory,
           modelType = ModelType.Scikit(),
-          contract = contract
+          contract  = contract
         )
       )
     } else {
@@ -32,7 +32,7 @@ object ScikitModelFetcher extends ModelFetcher with Logging {
   private def getContract(source: ModelSource, modelName: String): ModelContract = {
     if (source.isExist(s"$modelName/metadata.prototxt")) {
       val metaFile = source.getReadableFile(s"$modelName/metadata.prototxt")
-      val metaStr = Files.readAllLines(metaFile.toPath).mkString
+      val metaStr  = Files.readAllLines(metaFile.toPath).mkString
       ModelContract.fromAscii(metaStr)
     } else {
       ModelContract()

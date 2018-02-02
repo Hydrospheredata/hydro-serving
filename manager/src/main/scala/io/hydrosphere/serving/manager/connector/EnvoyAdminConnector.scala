@@ -19,12 +19,14 @@ trait EnvoyAdminConnector {
 class HttpEnvoyAdminConnector(
   implicit val system: ActorSystem,
   implicit val materializer: ActorMaterializer
-) extends EnvoyAdminConnector with Logging {
+) extends EnvoyAdminConnector
+  with Logging {
 
   implicit val executionContext = system.dispatcher
 
   override def stats(host: String, port: Int): Future[String] = {
-    val flow = Http(system).outgoingConnection(host, port)
+    val flow = Http(system)
+      .outgoingConnection(host, port)
       .mapAsync(1) { r =>
         if (r.status != StatusCodes.OK) {
           logger.debug(s"Wrong status from service ${r.status}")
@@ -32,10 +34,12 @@ class HttpEnvoyAdminConnector(
         Unmarshal(r.entity).to[String]
       }
 
-    val source = Source.single(HttpRequest(
-      uri = "/stats",
-      method = HttpMethods.GET
-    ))
+    val source = Source.single(
+      HttpRequest(
+        uri    = "/stats",
+        method = HttpMethods.GET
+      )
+    )
     source.via(flow).runWith(Sink.head)
   }
 }

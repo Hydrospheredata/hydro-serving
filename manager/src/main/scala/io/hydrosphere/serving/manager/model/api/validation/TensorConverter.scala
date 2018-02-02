@@ -2,7 +2,11 @@ package io.hydrosphere.serving.manager.model.api.validation
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
-import io.hydrosphere.serving.contract.model_field.ModelField.InfoOrSubfields.{Empty, Info, Subfields}
+import io.hydrosphere.serving.contract.model_field.ModelField.InfoOrSubfields.{
+  Empty,
+  Info,
+  Subfields
+}
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.model.api.validation.TypedTensor._
 import io.hydrosphere.serving.manager.service.JsonPredictRequest
@@ -21,7 +25,7 @@ class PredictRequestContractValidator(val contract: ModelContract) {
         validator.convert(data.inputs).right.map { tensors =>
           PredictRequest(
             modelSpec = Some(data.toModelSpec),
-            inputs = tensors
+            inputs    = tensors
           )
         }
 
@@ -96,7 +100,7 @@ class ComplexFieldValidator(val modelField: ModelField, val subfields: Seq[Model
           val tensors = a.collect { case Right((name, tensor)) => name -> tensor }.toMap
           Right(
             TensorProto(
-              dtype = DataType.DT_MAP,
+              dtype  = DataType.DT_MAP,
               mapVal = tensors
             )
           )
@@ -115,8 +119,8 @@ class InfoFieldValidator(val field: ModelField, val tensorInfo: TensorInfo) {
       // collection
       case JsArray(elements) => process(elements)
       // scalar
-      case str: JsString => process(Seq(str))
-      case num: JsNumber => process(Seq(num))
+      case str: JsString   => process(Seq(str))
+      case num: JsNumber   => process(Seq(num))
       case bool: JsBoolean => process(Seq(bool))
       // invalid
       case _ => Left(new IncompatibleFieldTypeError(field.fieldName, tensorInfo.dtype))
@@ -126,15 +130,18 @@ class InfoFieldValidator(val field: ModelField, val tensorInfo: TensorInfo) {
   def process(data: Seq[JsValue]): Either[ValidationError, TensorProto] = {
     val reshapedData = tensorInfo.tensorShape match {
       case Some(_) => flatten(data)
-      case None => data
+      case None    => data
     }
     val convertedData = TypedTensor(tensorInfo.dtype) match {
-      case FloatTensor | SComplexTensor => reshapedData.map(_.asInstanceOf[JsNumber].value.floatValue())
-      case DoubleTensor | DComplexTensor => reshapedData.map(_.asInstanceOf[JsNumber].value.doubleValue())
-      case Uint64Tensor | Int64Tensor => reshapedData.map(_.asInstanceOf[JsNumber].value.longValue())
+      case FloatTensor | SComplexTensor =>
+        reshapedData.map(_.asInstanceOf[JsNumber].value.floatValue())
+      case DoubleTensor | DComplexTensor =>
+        reshapedData.map(_.asInstanceOf[JsNumber].value.doubleValue())
+      case Uint64Tensor | Int64Tensor =>
+        reshapedData.map(_.asInstanceOf[JsNumber].value.longValue())
       case IntTensor | UintTensor => reshapedData.map(_.asInstanceOf[JsNumber].value.intValue())
-      case StringTensor => reshapedData.map(_.asInstanceOf[JsString].value)
-      case BoolTensor => reshapedData.map(_.asInstanceOf[JsBoolean].value)
+      case StringTensor           => reshapedData.map(_.asInstanceOf[JsString].value)
+      case BoolTensor             => reshapedData.map(_.asInstanceOf[JsBoolean].value)
     }
     toTensor(convertedData)
   }
@@ -146,7 +153,7 @@ class InfoFieldValidator(val field: ModelField, val tensorInfo: TensorInfo) {
   private def flatten(arr: Seq[JsValue]): Seq[JsValue] = {
     arr.flatMap {
       case arr: JsArray => flatten(arr.elements)
-      case value => List(value)
+      case value        => List(value)
     }
   }
 

@@ -33,12 +33,13 @@ trait ManagerJsonSupport extends CommonJsonSupport {
       json match {
         case JsObject(fields) if fields.isDefinedAt("path") =>
           LocalSourceParams(fields("path").convertTo[String])
-        case JsObject(fields) if fields.isDefinedAt("queueName") && fields.isDefinedAt("bucketName") =>
+        case JsObject(fields)
+            if fields.isDefinedAt("queueName") && fields.isDefinedAt("bucketName") =>
           S3SourceParams(
-            awsAuth = fields.get("awsAuth").map(_.convertTo[AWSAuthKeys]),
+            awsAuth    = fields.get("awsAuth").map(_.convertTo[AWSAuthKeys]),
             bucketName = fields("bucketName").convertTo[String],
-            queueName = fields("queueName").convertTo[String],
-            region = fields("region").convertTo[String]
+            queueName  = fields("queueName").convertTo[String],
+            region     = fields("region").convertTo[String]
           )
       }
     }
@@ -46,8 +47,8 @@ trait ManagerJsonSupport extends CommonJsonSupport {
     override def write(obj: SourceParams) = {
       obj match {
         case x: LocalSourceParams => x.toJson
-        case x: S3SourceParams => x.toJson
-        case _ => ???
+        case x: S3SourceParams    => x.toJson
+        case _                    => ???
       }
     }
   }
@@ -58,5 +59,5 @@ trait ManagerJsonSupport extends CommonJsonSupport {
 
   implicit val createEnvironmentRequest = jsonFormat2(CreateEnvironmentRequest)
 
-  implicit val aggregatedModelInfoFormat=jsonFormat3(AggregatedModelInfo)
+  implicit val aggregatedModelInfoFormat = jsonFormat3(AggregatedModelInfo)
 }

@@ -16,7 +16,8 @@ import scala.concurrent.{ExecutionContext, Future}
 class ModelBuildRepositoryImpl(
   implicit executionContext: ExecutionContext,
   databaseService: DatabaseService
-) extends ModelBuildRepository with Logging {
+) extends ModelBuildRepository
+  with Logging {
 
   import databaseService._
   import databaseService.driver.api._
@@ -24,29 +25,32 @@ class ModelBuildRepositoryImpl(
 
   override def create(entity: ModelBuild): Future[ModelBuild] =
     db.run(
-      Tables.ModelBuild returning Tables.ModelBuild += Tables.ModelBuildRow(
-        modelBuildId = entity.id,
-        modelId = entity.model.id,
-        modelVersionId = entity.modelVersion.map(m => m.id),
-        modelVersion = entity.version,
-        startedTimestamp = entity.started,
-        finishedTimestamp = entity.finished,
-        status = entity.status.toString,
-        statusText = entity.statusText,
-        logsUrl = entity.logsUrl
+        Tables.ModelBuild returning Tables.ModelBuild += Tables.ModelBuildRow(
+          modelBuildId      = entity.id,
+          modelId           = entity.model.id,
+          modelVersionId    = entity.modelVersion.map(m => m.id),
+          modelVersion      = entity.version,
+          startedTimestamp  = entity.started,
+          finishedTimestamp = entity.finished,
+          status            = entity.status.toString,
+          statusText        = entity.statusText,
+          logsUrl           = entity.logsUrl
+        )
       )
-    ).map(s => mapFromDb(s, Some(entity.model), entity.modelVersion))
+      .map(s => mapFromDb(s, Some(entity.model), entity.modelVersion))
 
   override def get(id: Long): Future[Option[ModelBuild]] =
     db.run(
-      Tables.ModelBuild
-        .filter(_.modelBuildId === id)
-        .joinLeft(Tables.Model)
-        .on({ case (mb, m) => mb.modelId === m.modelId })
-        .joinLeft(Tables.ModelVersion)
-        .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
-        .result.headOption
-    ).map(m => mapFromDb(m))
+        Tables.ModelBuild
+          .filter(_.modelBuildId === id)
+          .joinLeft(Tables.Model)
+          .on({ case (mb, m) => mb.modelId === m.modelId })
+          .joinLeft(Tables.ModelVersion)
+          .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
+          .result
+          .headOption
+      )
+      .map(m => mapFromDb(m))
 
   override def delete(id: Long): Future[Int] =
     db.run(
@@ -57,67 +61,83 @@ class ModelBuildRepositoryImpl(
 
   override def all(): Future[Seq[ModelBuild]] =
     db.run(
-      Tables.ModelBuild
-        .joinLeft(Tables.Model)
-        .on({ case (mb, m) => mb.modelId === m.modelId })
-        .joinLeft(Tables.ModelVersion)
-        .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
-        .result
-    ).map(s => mapFromDb(s))
+        Tables.ModelBuild
+          .joinLeft(Tables.Model)
+          .on({ case (mb, m) => mb.modelId === m.modelId })
+          .joinLeft(Tables.ModelVersion)
+          .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
+          .result
+      )
+      .map(s => mapFromDb(s))
 
   override def listByModelId(id: Long): Future[Seq[ModelBuild]] =
     db.run(
-      Tables.ModelBuild
-        .filter(_.modelId === id)
-        .joinLeft(Tables.Model)
-        .on({ case (mb, m) => mb.modelId === m.modelId })
-        .joinLeft(Tables.ModelVersion)
-        .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
-        .result
-    ).map(s => mapFromDb(s))
+        Tables.ModelBuild
+          .filter(_.modelId === id)
+          .joinLeft(Tables.Model)
+          .on({ case (mb, m) => mb.modelId === m.modelId })
+          .joinLeft(Tables.ModelVersion)
+          .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
+          .result
+      )
+      .map(s => mapFromDb(s))
 
   override def lastByModelId(id: Long, maximum: Int): Future[Seq[ModelBuild]] =
     db.run(
-      Tables.ModelBuild
-        .filter(_.modelId === id)
-        .sortBy(_.startedTimestamp.desc)
-        .joinLeft(Tables.Model)
-        .on({ case (mb, m) => mb.modelId === m.modelId })
-        .joinLeft(Tables.ModelVersion)
-        .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
-        .take(maximum)
-        .result
-    ).map(s => mapFromDb(s))
+        Tables.ModelBuild
+          .filter(_.modelId === id)
+          .sortBy(_.startedTimestamp.desc)
+          .joinLeft(Tables.Model)
+          .on({ case (mb, m) => mb.modelId === m.modelId })
+          .joinLeft(Tables.ModelVersion)
+          .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
+          .take(maximum)
+          .result
+      )
+      .map(s => mapFromDb(s))
 
-  override def finishBuild(id: Long, status: ModelBuildStatus, statusText: String, finished: LocalDateTime,
-    modelRuntime: Option[ModelVersion]): Future[Int] = {
+  override def finishBuild(
+    id: Long,
+    status: ModelBuildStatus,
+    statusText: String,
+    finished: LocalDateTime,
+    modelRuntime: Option[ModelVersion]
+  ): Future[Int] = {
     val query = for {
       build <- Tables.ModelBuild if build.modelBuildId === id
     } yield (build.status, build.statusText, build.finishedTimestamp, build.modelVersionId)
 
     db.run(query.update(status.toString, Some(statusText), Some(finished), modelRuntime match {
       case Some(r) => Some(r.id)
-      case _ => None
+      case _       => None
     }))
   }
 
   override def lastForModels(ids: Seq[Long]): Future[Seq[ModelBuild]] =
     db.run(
-      Tables.ModelBuild
-        .filter(_.modelId inSetBind ids)
-        .sortBy(_.startedTimestamp.desc)
-        .joinLeft(Tables.Model)
-        .on({ case (mb, m) => mb.modelId === m.modelId })
-        .joinLeft(Tables.ModelVersion)
-        .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
-        .distinctOn(_._1._1.modelId)
-        .result
-    ).map(s => mapFromDb(s))
+        Tables.ModelBuild
+          .filter(_.modelId inSetBind ids)
+          .sortBy(_.startedTimestamp.desc)
+          .joinLeft(Tables.Model)
+          .on({ case (mb, m) => mb.modelId === m.modelId })
+          .joinLeft(Tables.ModelVersion)
+          .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
+          .distinctOn(_._1._1.modelId)
+          .result
+      )
+      .map(s => mapFromDb(s))
 }
 
 object ModelBuildRepositoryImpl {
 
-  def mapFromDb(model: Option[((Tables.ModelBuild#TableElementType, Option[Tables.Model#TableElementType]), Option[Tables.ModelVersion#TableElementType])]): Option[ModelBuild] =
+  def mapFromDb(
+    model: Option[
+      (
+        (Tables.ModelBuild#TableElementType, Option[Tables.Model#TableElementType]),
+        Option[Tables.ModelVersion#TableElementType]
+      )
+    ]
+  ): Option[ModelBuild] =
     model.map {
       case ((modelBuild, maybeModel), modelVersion) =>
         val model = maybeModel.map(ModelRepositoryImpl.mapFromDb)
@@ -128,7 +148,14 @@ object ModelBuildRepositoryImpl {
         )
     }
 
-  def mapFromDb(tuples: Seq[((Tables.ModelBuild#TableElementType, Option[Tables.Model#TableElementType]), Option[Tables.ModelVersion#TableElementType])]): Seq[ModelBuild] = {
+  def mapFromDb(
+    tuples: Seq[
+      (
+        (Tables.ModelBuild#TableElementType, Option[Tables.Model#TableElementType]),
+        Option[Tables.ModelVersion#TableElementType]
+      )
+    ]
+  ): Seq[ModelBuild] = {
     tuples.map {
       case ((modelBuild, maybeModel), modelVersion) =>
         val model = maybeModel.map(ModelRepositoryImpl.mapFromDb)
@@ -140,16 +167,20 @@ object ModelBuildRepositoryImpl {
     }
   }
 
-  def mapFromDb(modelBuild: Tables.ModelBuild#TableElementType, model: Option[Model], modelVersion: Option[ModelVersion]): ModelBuild = {
+  def mapFromDb(
+    modelBuild: Tables.ModelBuild#TableElementType,
+    model: Option[Model],
+    modelVersion: Option[ModelVersion]
+  ): ModelBuild = {
     ModelBuild(
-      id = modelBuild.modelBuildId,
-      model = model.get,
-      started = modelBuild.startedTimestamp,
-      finished = modelBuild.finishedTimestamp,
-      status = ModelBuildStatus.withName(modelBuild.status),
-      statusText = modelBuild.statusText,
-      logsUrl = modelBuild.logsUrl,
-      version = modelBuild.modelVersion,
+      id           = modelBuild.modelBuildId,
+      model        = model.get,
+      started      = modelBuild.startedTimestamp,
+      finished     = modelBuild.finishedTimestamp,
+      status       = ModelBuildStatus.withName(modelBuild.status),
+      statusText   = modelBuild.statusText,
+      logsUrl      = modelBuild.logsUrl,
+      version      = modelBuild.modelVersion,
       modelVersion = modelVersion
     )
   }

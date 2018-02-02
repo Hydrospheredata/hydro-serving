@@ -17,7 +17,9 @@ import scala.util.Try
 class EcsRuntimeDeployService(
   ecsCloudDriverConfiguration: ECSCloudDriverConfiguration,
   managerConfiguration: ManagerConfiguration
-) extends RuntimeDeployService with Logging with CommonJsonSupport {
+) extends RuntimeDeployService
+  with Logging
+  with CommonJsonSupport {
 
   /*import spray.json._
 

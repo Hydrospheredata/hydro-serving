@@ -16,7 +16,7 @@ import org.apache.logging.log4j.scala.Logging
   */
 class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging {
   private[this] val localFolder = s"/tmp/${sourceDef.name}"
-  private val client = sourceDef.s3Client
+  private val client            = sourceDef.s3Client
 
   val cacheSource = new LocalModelSource(
     LocalSourceDef(s"proxy-${sourceDef.name}", localFolder)
@@ -27,21 +27,24 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
   def deleteProxyObject(objectPath: String): Boolean = {
     val path = Paths.get(localFolder, objectPath)
     if (Files.exists(path) && Files.isDirectory(path)) {
-      Files.walkFileTree(path, new FileVisitor[Path] {
-        def visitFileFailed(file: Path, exc: IOException) = FileVisitResult.CONTINUE
+      Files.walkFileTree(
+        path,
+        new FileVisitor[Path] {
+          def visitFileFailed(file: Path, exc: IOException) = FileVisitResult.CONTINUE
 
-        def visitFile(file: Path, attrs: BasicFileAttributes): FileVisitResult = {
-          Files.delete(file)
-          FileVisitResult.CONTINUE
+          def visitFile(file: Path, attrs: BasicFileAttributes): FileVisitResult = {
+            Files.delete(file)
+            FileVisitResult.CONTINUE
+          }
+
+          def preVisitDirectory(dir: Path, attrs: BasicFileAttributes) = FileVisitResult.CONTINUE
+
+          def postVisitDirectory(dir: Path, exc: IOException): FileVisitResult = {
+            Files.delete(dir)
+            FileVisitResult.CONTINUE
+          }
         }
-
-        def preVisitDirectory(dir: Path, attrs: BasicFileAttributes) = FileVisitResult.CONTINUE
-
-        def postVisitDirectory(dir: Path, exc: IOException): FileVisitResult = {
-          Files.delete(dir)
-          FileVisitResult.CONTINUE
-        }
-      })
+      )
     }
     Files.deleteIfExists(path)
   }
@@ -74,8 +77,9 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
       .filter(_.startsWith(path))
       .map(_.split(path).last.split("/"))
       .filterNot(_.length == 1)
-      .map(_ (1))
-      .distinct.toList
+      .map(_(1))
+      .distinct
+      .toList
   }
 
   override def getSubDirs: List[String] = {
@@ -116,7 +120,7 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
     logger.debug(s"getReadableFile: $path")
 
     val fullObjectPath = URI.create(s"$path")
-    val file = cacheSource.getReadableFile(path)
+    val file           = cacheSource.getReadableFile(path)
     if (!file.exists()) downloadObject(fullObjectPath.toString)
     file
   }

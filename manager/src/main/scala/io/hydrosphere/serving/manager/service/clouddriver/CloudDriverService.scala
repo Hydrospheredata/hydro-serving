@@ -43,8 +43,8 @@ case class ServiceInstance(
   mainApplication: MainApplicationInstance,
   sidecar: SidecarInstance,
   model: Option[ModelInstance],
-  advertisedHost:String,
-  advertisedPort:Int
+  advertisedHost: String,
+  advertisedPort: Int
 )
 
 case class CloudService(
@@ -60,34 +60,32 @@ case class CloudService(
 
 trait CloudDriverService {
 
-  val LABEL_SERVICE_ID = "SERVICE_ID"
-  val LABEL_SERVICE_NAME = "SERVICE_NAME"
+  val LABEL_SERVICE_ID        = "SERVICE_ID"
+  val LABEL_SERVICE_NAME      = "SERVICE_NAME"
   val LABEL_HS_SERVICE_MARKER = "HS_SERVICE_MARKER"
-  val LABEL_MODEL_VERSION_ID = "MODEL_VERSION_ID"
-  val LABEL_MODEL_VERSION = "MODEL_VERSION"
-  val LABEL_MODEL_NAME = "MODEL_NAME"
-  val LABEL_MODEL_TYPE = "MODEL_TYPE"
-  val LABEL_RUNTIME_ID = "RUNTIME_ID"
+  val LABEL_MODEL_VERSION_ID  = "MODEL_VERSION_ID"
+  val LABEL_MODEL_VERSION     = "MODEL_VERSION"
+  val LABEL_MODEL_NAME        = "MODEL_NAME"
+  val LABEL_MODEL_TYPE        = "MODEL_TYPE"
+  val LABEL_RUNTIME_ID        = "RUNTIME_ID"
 
-  val LABEL_DEPLOYMENT_TYPE="DEPLOYMENT_TYPE"
+  val LABEL_DEPLOYMENT_TYPE = "DEPLOYMENT_TYPE"
 
-  val DEPLOYMENT_TYPE_MODEL="MODEL"
-  val DEPLOYMENT_TYPE_APP="APP"
-  val DEPLOYMENT_TYPE_SIDECAR="SIDECAR"
+  val DEPLOYMENT_TYPE_MODEL   = "MODEL"
+  val DEPLOYMENT_TYPE_APP     = "APP"
+  val DEPLOYMENT_TYPE_SIDECAR = "SIDECAR"
 
-
-  val ENV_APP_PORT = "APP_PORT"
+  val ENV_APP_PORT     = "APP_PORT"
   val ENV_SIDECAR_PORT = "SIDECAR_PORT"
   val ENV_SIDECAR_HOST = "SIDECAR_HOST"
 
   val ENV_MODEL_DIR = "MODEL_DIR"
 
-  val DEFAULT_MODEL_DIR = "/model"
-  val DEFAULT_APP_PORT = 9091
+  val DEFAULT_MODEL_DIR            = "/model"
+  val DEFAULT_APP_PORT             = 9091
   val DEFAULT_SIDECAR_INGRESS_PORT = 8080
-  val DEFAULT_SIDECAR_EGRESS_PORT = 8081
-  val DEFAULT_SIDECAR_ADMIN_PORT = 8082
-
+  val DEFAULT_SIDECAR_EGRESS_PORT  = 8081
+  val DEFAULT_SIDECAR_ADMIN_PORT   = 8082
 
   def serviceList(): Future[Seq[CloudService]]
 
@@ -100,62 +98,67 @@ trait CloudDriverService {
   protected def getModelLabels(service: Service): Map[String, String] = {
     val model = service.model.getOrElse(throw new IllegalArgumentException("ModelVersion required"))
     Map[String, String](
-      LABEL_SERVICE_ID -> service.id.toString,
+      LABEL_SERVICE_ID        -> service.id.toString,
       LABEL_HS_SERVICE_MARKER -> LABEL_HS_SERVICE_MARKER,
-      LABEL_MODEL_NAME -> model.modelName,
-      LABEL_MODEL_VERSION -> model.modelVersion.toString,
-      LABEL_MODEL_VERSION_ID -> model.id.toString,
-      LABEL_MODEL_TYPE -> model.modelType.toTag,
-      LABEL_DEPLOYMENT_TYPE -> DEPLOYMENT_TYPE_MODEL
+      LABEL_MODEL_NAME        -> model.modelName,
+      LABEL_MODEL_VERSION     -> model.modelVersion.toString,
+      LABEL_MODEL_VERSION_ID  -> model.id.toString,
+      LABEL_MODEL_TYPE        -> model.modelType.toTag,
+      LABEL_DEPLOYMENT_TYPE   -> DEPLOYMENT_TYPE_MODEL
     )
   }
 
   protected def getRuntimeLabels(service: Service): Map[String, String] = {
     Map[String, String](
-      LABEL_SERVICE_ID -> service.id.toString,
+      LABEL_SERVICE_ID        -> service.id.toString,
       LABEL_HS_SERVICE_MARKER -> LABEL_HS_SERVICE_MARKER,
-      LABEL_RUNTIME_ID -> service.runtime.id.toString,
-      LABEL_DEPLOYMENT_TYPE -> DEPLOYMENT_TYPE_APP
+      LABEL_RUNTIME_ID        -> service.runtime.id.toString,
+      LABEL_DEPLOYMENT_TYPE   -> DEPLOYMENT_TYPE_APP
     )
   }
 
-  protected def createCloudService(service: Service, statusText: String, cloudDriverId: String, instances: Seq[ServiceInstance]): CloudService =
+  protected def createCloudService(
+    service: Service,
+    statusText: String,
+    cloudDriverId: String,
+    instances: Seq[ServiceInstance]
+  ): CloudService =
     CloudService(
-      id = service.id,
-      serviceName = service.serviceName,
-      statusText = statusText,
-      cloudDriverId = cloudDriverId,
+      id              = service.id,
+      serviceName     = service.serviceName,
+      statusText      = statusText,
+      cloudDriverId   = cloudDriverId,
       environmentName = service.environment.map(e => e.name),
       runtimeInfo = MainApplicationInstanceInfo(
-        runtimeId = service.runtime.id,
-        runtimeName = service.runtime.name,
+        runtimeId      = service.runtime.id,
+        runtimeName    = service.runtime.name,
         runtimeVersion = service.runtime.version
       ),
       modelInfo = service.model.map(model => {
         ModelInstanceInfo(
-          modelType = model.modelType,
-          modelId = model.id,
-          modelName = model.modelName,
+          modelType    = model.modelType,
+          modelId      = model.id,
+          modelName    = model.modelName,
           modelVersion = model.modelVersion,
-          imageName = model.imageName,
-          imageTag = model.imageTag
+          imageName    = model.imageName,
+          imageTag     = model.imageTag
         )
       }),
       instances = instances
     )
 }
 
-object CloudDriverService{
-  val MANAGER_ID: Long = -20
-  val MANAGER_HTTP_ID: Long = -21
-  val GATEWAY_ID: Long = -10
-  val MANAGER_NAME: String = "manager"
+object CloudDriverService {
+  val MANAGER_ID: Long          = -20
+  val MANAGER_HTTP_ID: Long     = -21
+  val GATEWAY_ID: Long          = -10
+  val MANAGER_NAME: String      = "manager"
   val MANAGER_HTTP_NAME: String = "manager-http"
-  val GATEWAY_NAME: String = "gateway"
+  val GATEWAY_NAME: String      = "gateway"
 
   val specialNames = Map(
-    MANAGER_NAME -> MANAGER_ID,
+    MANAGER_NAME      -> MANAGER_ID,
     MANAGER_HTTP_NAME -> MANAGER_HTTP_ID,
-    GATEWAY_NAME -> GATEWAY_ID
+    GATEWAY_NAME      -> GATEWAY_ID
   )
 }

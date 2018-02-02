@@ -7,10 +7,15 @@ case class LocalSourceDef(
   name: String,
   path: String
 ) extends SourceDef {
-  override def prefix:String = name
+  override def prefix: String = name
 }
 
-object LocalSourceDef{
-  def fromConfig(localModelSourceConfiguration: ModelSourceConfig[LocalSourceParams]): LocalSourceDef =
-    new LocalSourceDef(localModelSourceConfiguration.name, localModelSourceConfiguration.params.path)
+object LocalSourceDef {
+  def fromConfig(
+    localModelSourceConfiguration: ModelSourceConfig[LocalSourceParams]
+  ): LocalSourceDef =
+    new LocalSourceDef(
+      localModelSourceConfiguration.name,
+      localModelSourceConfiguration.params.path
+    )
 }

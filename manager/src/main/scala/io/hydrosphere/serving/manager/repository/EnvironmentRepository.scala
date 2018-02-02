@@ -5,6 +5,4 @@ import io.hydrosphere.serving.manager.model.Environment
 /**
   *
   */
-trait EnvironmentRepository  extends BaseRepository[Environment, Long] {
-
-}
+trait EnvironmentRepository extends BaseRepository[Environment, Long] {}

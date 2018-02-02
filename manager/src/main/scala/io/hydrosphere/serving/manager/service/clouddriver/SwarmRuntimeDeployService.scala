@@ -15,7 +15,8 @@ import collection.JavaConversions._
 class SwarmRuntimeDeployService(
   dockerClient: DockerClient,
   managerConfiguration: ManagerConfiguration
-) extends RuntimeDeployService with Logging {
+) extends RuntimeDeployService
+  with Logging {
 
   /*override def deploy(runtime: ModelService, placeholders: Seq[Any]): String = {
     val conf = managerConfiguration.cloudDriver.asInstanceOf[SwarmCloudDriverConfiguration]

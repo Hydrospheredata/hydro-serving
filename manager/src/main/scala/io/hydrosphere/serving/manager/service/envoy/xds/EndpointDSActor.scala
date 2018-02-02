@@ -30,27 +30,31 @@ case class RemoveEndpoints(
 
 class EndpointDSActor(
   val specialCluster: Boolean = false,
-  val specialHost: String = "mainapplication",
-  val specialPort: Int = 9091
+  val specialHost: String     = "mainapplication",
+  val specialPort: Int        = 9091
 ) extends AbstractDSActor[ClusterLoadAssignment](
-  typeUrl = "type.googleapis.com/envoy.api.v2.ClusterLoadAssignment"
-) {
+    typeUrl = "type.googleapis.com/envoy.api.v2.ClusterLoadAssignment"
+  ) {
 
   private val endpoints = mutable.Map[String, ClusterLoadAssignment]()
 
   private val clusterEndpoints = mutable.Map[String, Set[ClusterEndpoint]]()
 
-  override protected def formResources(responseObserver: StreamObserver[DiscoveryResponse]): Seq[ClusterLoadAssignment] =
-    getObserverNode(responseObserver).map(node => {
-      endpoints.values.map(e => {
-        if (specialCluster && e.clusterName == node.id) {
-          mainApplicationEndpoint.withClusterName(node.id)
-        } else {
-          e
-        }
+  override protected def formResources(
+    responseObserver: StreamObserver[DiscoveryResponse]
+  ): Seq[ClusterLoadAssignment] =
+    getObserverNode(responseObserver)
+      .map(node => {
+        endpoints.values.map(e => {
+          if (specialCluster && e.clusterName == node.id) {
+            mainApplicationEndpoint.withClusterName(node.id)
+          } else {
+            e
+          }
+        })
       })
-    }).getOrElse(Seq()).toSeq
-
+      .getOrElse(Seq())
+      .toSeq
 
   override def receiveStoreChangeEvents(mes: Any): Boolean =
     mes match {
@@ -63,69 +67,87 @@ class EndpointDSActor(
       case _ => false
     }
 
-
   private def renewEndpoints(clusters: Seq[ClusterInfo]): Boolean = {
     val toRemove = clusters.map(p => p.name).toSet -- endpoints.keySet
-    val r = removeClusters(toRemove) ++ createOrUpdate(clusters)
+    val r        = removeClusters(toRemove) ++ createOrUpdate(clusters)
     r.contains(true)
   }
 
   private def removeClusters(toRemove: Set[String]): Set[Boolean] =
     toRemove.map(r => {
-      clusterEndpoints.remove(r)
-        .map(_ => endpoints.remove(r)).isDefined
+      clusterEndpoints
+        .remove(r)
+        .map(_ => endpoints.remove(r))
+        .isDefined
     })
 
-
   private def createOrUpdate(clusters: Seq[ClusterInfo]): Set[Boolean] = {
-    val res=clusters.map(p => {
-      val currentEndpoints = clusterEndpoints.get(p.name)
-      if (currentEndpoints.isEmpty || (currentEndpoints.get &~ p.endpoints).nonEmpty) {
-        val cl = createCluster(p)
-        endpoints.put(p.name, cl)
-        clusterEndpoints.put(p.name, p.endpoints)
-        true
-      } else {
-        false
-      }
-    }).toSet
+    val res = clusters
+      .map(p => {
+        val currentEndpoints = clusterEndpoints.get(p.name)
+        if (currentEndpoints.isEmpty || (currentEndpoints.get &~ p.endpoints).nonEmpty) {
+          val cl = createCluster(p)
+          endpoints.put(p.name, cl)
+          clusterEndpoints.put(p.name, p.endpoints)
+          true
+        } else {
+          false
+        }
+      })
+      .toSet
     res
   }
 
   private def createCluster(cluster: ClusterInfo): ClusterLoadAssignment = ClusterLoadAssignment(
     clusterName = cluster.name,
-    endpoints = Seq(LocalityLbEndpoints(
-      lbEndpoints = cluster.endpoints.map(endpoint => {
-        LbEndpoint(
-          endpoint = Some(Endpoint(
-            address = Some(Address(
-              address = Address.Address.SocketAddress(
-                SocketAddress(
-                  address = endpoint.host,
-                  portSpecifier = PortSpecifier.PortValue(endpoint.port)
+    endpoints = Seq(
+      LocalityLbEndpoints(
+        lbEndpoints = cluster.endpoints
+          .map(endpoint => {
+            LbEndpoint(
+              endpoint = Some(
+                Endpoint(
+                  address = Some(
+                    Address(
+                      address = Address.Address.SocketAddress(
+                        SocketAddress(
+                          address       = endpoint.host,
+                          portSpecifier = PortSpecifier.PortValue(endpoint.port)
+                        )
+                      )
+                    )
+                  )
                 )
               )
-            ))
-          ))
-        )
-      }).toSeq
-    ))
+            )
+          })
+          .toSeq
+      )
+    )
   )
 
   private val mainApplicationEndpoint: ClusterLoadAssignment = ClusterLoadAssignment(
-    endpoints = Seq(LocalityLbEndpoints(
-      lbEndpoints = Seq(LbEndpoint(
-        endpoint = Some(Endpoint(
-          address = Some(Address(
-            address = Address.Address.SocketAddress(
-              SocketAddress(
-                address = specialHost,
-                portSpecifier = PortSpecifier.PortValue(specialPort)
+    endpoints = Seq(
+      LocalityLbEndpoints(
+        lbEndpoints = Seq(
+          LbEndpoint(
+            endpoint = Some(
+              Endpoint(
+                address = Some(
+                  Address(
+                    address = Address.Address.SocketAddress(
+                      SocketAddress(
+                        address       = specialHost,
+                        portSpecifier = PortSpecifier.PortValue(specialPort)
+                      )
+                    )
+                  )
+                )
               )
             )
-          ))
-        ))
-      ))
-    ))
+          )
+        )
+      )
+    )
   )
 }

@@ -13,14 +13,13 @@ private val containerWatcher = actorSystem.actorOf(ContainerWatcherActor.props)
 
 val f = containerWatcher ? WatchForStart(res)
                 f.mapTo[Started].map(_.modelService)
-*/
+ */
 
 class ContainerWatcherActor(timeout: Timeout)
   extends SelfScheduledActor(0.seconds, 1000.millis)(timeout) {
 
   private[this] val starts = TrieMap.empty[ActorRef, Service]
-  private[this] val stops = TrieMap.empty[ActorRef, Service]
-
+  private[this] val stops  = TrieMap.empty[ActorRef, Service]
 
   override def recieveNonTick: Receive = {
     case WatchForStart(service) =>
@@ -33,11 +32,11 @@ class ContainerWatcherActor(timeout: Timeout)
   }
 
   override def onTick(): Unit = {
-    starts.foreach{
+    starts.foreach {
       case (receiver, service) =>
         receiver ! Started(service)
     }
-    stops.foreach{
+    stops.foreach {
       case (receiver, service) =>
         receiver ! Stopped(service)
     }

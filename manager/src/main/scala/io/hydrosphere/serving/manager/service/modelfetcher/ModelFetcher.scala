@@ -26,8 +26,7 @@ object ModelFetcher extends Logging {
     val res = fetchers
       .map(_.fetch(source, folder))
 
-    val model = res.flatten
-      .headOption
+    val model = res.flatten.headOption
       .getOrElse {
         ModelMetadata(folder, ModelType.Unknown(), ModelContract())
       }

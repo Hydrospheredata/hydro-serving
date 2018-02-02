@@ -10,8 +10,12 @@ import scala.concurrent.{ExecutionContext, Future}
 /**
   *
   */
-class EnvironmentRepositoryImpl(implicit executionContext: ExecutionContext, databaseService: DatabaseService)
-  extends EnvironmentRepository with Logging with ManagerJsonSupport {
+class EnvironmentRepositoryImpl(
+  implicit executionContext: ExecutionContext,
+  databaseService: DatabaseService
+) extends EnvironmentRepository
+  with Logging
+  with ManagerJsonSupport {
 
   import spray.json._
   import databaseService._
@@ -20,31 +24,33 @@ class EnvironmentRepositoryImpl(implicit executionContext: ExecutionContext, dat
 
   override def create(entity: Environment): Future[Environment] =
     db.run(
-      Tables.Environment returning Tables.Environment += Tables.EnvironmentRow(
-        entity.id,
-        entity.name,
-        entity.placeholders.map(p => p.toJson.toString()).toList
+        Tables.Environment returning Tables.Environment += Tables.EnvironmentRow(
+          entity.id,
+          entity.name,
+          entity.placeholders.map(p => p.toJson.toString()).toList
+        )
       )
-    ).map(s => mapFromDb(s))
+      .map(s => mapFromDb(s))
 
   override def get(id: Long): Future[Option[Environment]] =
     db.run(
-      Tables.Environment
-        .filter(_.environmentId === id)
-        .result.headOption
-    ).map(s => mapFromDb(s))
+        Tables.Environment
+          .filter(_.environmentId === id)
+          .result
+          .headOption
+      )
+      .map(s => mapFromDb(s))
 
   override def delete(id: Long): Future[Int] =
     db.run(
-      Tables.Environment.filter(_.environmentId === id)
-        .delete
+      Tables.Environment.filter(_.environmentId === id).delete
     )
 
   override def all(): Future[Seq[Environment]] =
     db.run(
-      Tables.Environment
-        .result
-    ).map(s => s.map(ss => mapFromDb(ss)))
+        Tables.Environment.result
+      )
+      .map(s => s.map(ss => mapFromDb(ss)))
 }
 
 object EnvironmentRepositoryImpl extends ManagerJsonSupport {
@@ -56,8 +62,8 @@ object EnvironmentRepositoryImpl extends ManagerJsonSupport {
 
   def mapFromDb(dbType: Tables.Environment#TableElementType): Environment = {
     Environment(
-      id = dbType.environmentId,
-      name = dbType.name,
+      id           = dbType.environmentId,
+      name         = dbType.name,
       placeholders = dbType.placeholders.map(p => p.parseJson.convertTo[Any])
     )
   }

@@ -1,18 +1,25 @@
 package io.hydrosphere.serving.manager.model.api
 
 import io.hydrosphere.serving.contract.model_field.ModelField
-import io.hydrosphere.serving.contract.model_field.ModelField.InfoOrSubfields.{Empty, Info, Subfields}
+import io.hydrosphere.serving.contract.model_field.ModelField.InfoOrSubfields.{
+  Empty,
+  Info,
+  Subfields
+}
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
 import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 
 object SignatureChecker {
 
-  def areCompatible(first: Seq[TensorShapeProto.Dim], second: Seq[TensorShapeProto.Dim]): Boolean = {
+  def areCompatible(
+    first: Seq[TensorShapeProto.Dim],
+    second: Seq[TensorShapeProto.Dim]
+  ): Boolean = {
     if (first.lengthCompare(second.length) != 0) {
       false
     } else {
-      first.zip(second).forall{
+      first.zip(second).forall {
         case (em, re) =>
           if (re.size == -1) {
             true
@@ -29,18 +36,23 @@ object SignatureChecker {
     } else {
       emitter.tensorShape -> receiver.tensorShape match {
         case (em, re) if em == re => true // two identical tensors
-        case (em, re) if em.isDefined != re.isDefined => false // comparing scalar and dimensional tensor
-        case (Some(_), Some(re)) if re.unknownRank => true // receiver has unknown rank - runtime check
+        case (em, re) if em.isDefined != re.isDefined =>
+          false // comparing scalar and dimensional tensor
+        case (Some(_), Some(re)) if re.unknownRank =>
+          true // receiver has unknown rank - runtime check
         case (Some(em), Some(_)) if em.unknownRank => false
-        case (Some(em), Some(re)) => areCompatible(em.dim, re.dim)
+        case (Some(em), Some(re))                  => areCompatible(em.dim, re.dim)
       }
     }
   }
 
-  def areSequentiallyCompatible(emitter: ModelField.ComplexField, receiver: ModelField.ComplexField): Boolean = {
+  def areSequentiallyCompatible(
+    emitter: ModelField.ComplexField,
+    receiver: ModelField.ComplexField
+  ): Boolean = {
     receiver.data.forall { field =>
-        val emitterField = emitter.data.find(_.fieldName == field.fieldName)
-        emitterField.exists(areSequentiallyCompatible(_, field))
+      val emitterField = emitter.data.find(_.fieldName == field.fieldName)
+      emitterField.exists(areSequentiallyCompatible(_, field))
     }
   }
 

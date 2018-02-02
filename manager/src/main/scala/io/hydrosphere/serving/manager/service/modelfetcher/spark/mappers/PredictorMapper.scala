@@ -7,8 +7,10 @@ import io.hydrosphere.serving.manager.model.api.ContractBuilders
 import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
 
 abstract class PredictorMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
-  def featuresType(sparkModelMetadata: SparkModelMetadata): TensorInfo = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
-  def predictionType(sparkModelMetadata: SparkModelMetadata): TensorInfo = SparkMlTypeMapper.scalar(DT_DOUBLE)
+  def featuresType(sparkModelMetadata: SparkModelMetadata): TensorInfo =
+    SparkMlTypeMapper.featuresVec(sparkModelMetadata)
+  def predictionType(sparkModelMetadata: SparkModelMetadata): TensorInfo =
+    SparkMlTypeMapper.scalar(DT_DOUBLE)
 
   override def labelSchema: Option[ModelField] = {
     val name = m.getParam[String]("labelCol").get
@@ -22,6 +24,8 @@ abstract class PredictorMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(
   }
 
   override def outputSchema: List[ModelField] = {
-    List(SparkMlTypeMapper.constructField(m.getParam[String]("predictionCol").get, predictionType(m)))
+    List(
+      SparkMlTypeMapper.constructField(m.getParam[String]("predictionCol").get, predictionType(m))
+    )
   }
 }

@@ -13,7 +13,7 @@ abstract class FeaturesOutputMapper(m: SparkModelMetadata) extends SparkMlTypeMa
     List(constructField(m.getParam("featuresCol").get, featuresType(m)))
   }
 
-  final def outputSchema: List[ModelField]= {
+  final def outputSchema: List[ModelField] = {
     List(constructField(m.getParam("outputCol").get, outputType(m)))
   }
 }

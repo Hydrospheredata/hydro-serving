@@ -26,7 +26,6 @@ trait ModelSource {
   def isExist(path: String): Boolean
 }
 
-
 object ModelSource {
   def fromConfig(conf: ModelSourceConfigAux): ModelSource = {
     val params = conf.params

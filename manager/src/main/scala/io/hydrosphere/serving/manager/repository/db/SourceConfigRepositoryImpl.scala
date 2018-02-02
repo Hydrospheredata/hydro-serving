@@ -8,24 +8,30 @@ import org.apache.logging.log4j.scala.Logging
 import scala.concurrent.{ExecutionContext, Future}
 
 class SourceConfigRepositoryImpl(implicit ec: ExecutionContext, databaseService: DatabaseService)
-  extends SourceConfigRepository with Logging with ManagerJsonSupport {
+  extends SourceConfigRepository
+  with Logging
+  with ManagerJsonSupport {
 
   import spray.json._
   import databaseService._
   import databaseService.driver.api._
   import SourceConfigRepositoryImpl._
 
-  override def create(entity: ModelSourceConfigAux): Future[ModelSourceConfigAux] = db.run(
-    Tables.ModelSource returning Tables.ModelSource += Tables.ModelSourceRow(
-      entity.id,
-      entity.name,
-      entity.params.toJson.toString
-    )
-  ).map(mapFromDb)
+  override def create(entity: ModelSourceConfigAux): Future[ModelSourceConfigAux] =
+    db.run(
+        Tables.ModelSource returning Tables.ModelSource += Tables.ModelSourceRow(
+          entity.id,
+          entity.name,
+          entity.params.toJson.toString
+        )
+      )
+      .map(mapFromDb)
 
-  override def get(id: Long):Future[Option[ModelSourceConfigAux]] = db.run(
-    Tables.ModelSource.filter(_.sourceId === id).result.headOption
-  ).map(mapFromDb)
+  override def get(id: Long): Future[Option[ModelSourceConfigAux]] =
+    db.run(
+        Tables.ModelSource.filter(_.sourceId === id).result.headOption
+      )
+      .map(mapFromDb)
 
   override def delete(id: Long): Future[Int] = db.run(
     Tables.ModelSource.filter(_.sourceId === id).delete
@@ -33,8 +39,9 @@ class SourceConfigRepositoryImpl(implicit ec: ExecutionContext, databaseService:
 
   override def all(): Future[Seq[ModelSourceConfigAux]] = {
     db.run(
-      Tables.ModelSource.result
-    ).map(mapFromDb)
+        Tables.ModelSource.result
+      )
+      .map(mapFromDb)
   }
 }
 
@@ -46,8 +53,8 @@ object SourceConfigRepositoryImpl extends ManagerJsonSupport {
 
   def mapFromDb(dbType: Tables.ModelSource#TableElementType): ModelSourceConfigAux = {
     ModelSourceConfigAux(
-      id = dbType.sourceId,
-      name = dbType.name,
+      id     = dbType.sourceId,
+      name   = dbType.name,
       params = dbType.params.parseJson.convertTo[SourceParams]
     )
   }
@@ -56,4 +63,3 @@ object SourceConfigRepositoryImpl extends ManagerJsonSupport {
     dbType.map(mapFromDb)
 
 }
-

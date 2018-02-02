@@ -20,7 +20,6 @@ class ServiceCacheUpdateActor(val cachedProxyRuntimeDeployService: CachedProxyRu
 }
 
 object ServiceCacheUpdateActor {
-  def props(cachedProxyRuntimeDeployService: CachedProxyRuntimeDeployService) = Props(new ServiceCacheUpdateActor(cachedProxyRuntimeDeployService))
+  def props(cachedProxyRuntimeDeployService: CachedProxyRuntimeDeployService) =
+    Props(new ServiceCacheUpdateActor(cachedProxyRuntimeDeployService))
 }
-
-

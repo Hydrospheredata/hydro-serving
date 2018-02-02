@@ -9,7 +9,7 @@ object ModelType {
     override def toTag: String = "tensorflow"
   }
 
-  case class Spark private(version: String) extends ModelType {
+  case class Spark private (version: String) extends ModelType {
     override def toTag: String = s"spark:$version"
   }
 
@@ -35,9 +35,9 @@ object ModelType {
 
   def fromTag(tag: String): ModelType = {
     tag.split(':').toList match {
-      case "tensorflow" :: Nil => Tensorflow()
-      case "scikit" :: Nil => Scikit()
-      case "unknown" :: Nil => Unknown()
+      case "tensorflow" :: Nil        => Tensorflow()
+      case "scikit" :: Nil            => Scikit()
+      case "unknown" :: Nil           => Unknown()
       case "python" :: version :: Nil => PythonFunction(version)
       case "spark" :: modelVersion :: Nil =>
         val majors = modelVersion.split('.').take(2).mkString(".")

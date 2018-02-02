@@ -5,7 +5,8 @@ import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelMetad
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers.SparkMlTypeMapper.constructField
 
 abstract class ClassifierMapper(m: SparkModelMetadata) extends PredictorMapper(m) {
-  def rawPredictionType(sparkModelMetadata: SparkModelMetadata) = SparkMlTypeMapper.classesVec(sparkModelMetadata)
+  def rawPredictionType(sparkModelMetadata: SparkModelMetadata) =
+    SparkMlTypeMapper.classesVec(sparkModelMetadata)
 
   override def outputSchema: List[ModelField] = {
     super.outputSchema ++ List(

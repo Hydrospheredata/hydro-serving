@@ -17,7 +17,9 @@ import scala.concurrent.{ExecutionContext, Future}
 class ModelRepositoryImpl(
   implicit executionContext: ExecutionContext,
   databaseService: DatabaseService
-) extends ModelRepository with Logging with ManagerJsonSupport {
+) extends ModelRepository
+  with Logging
+  with ManagerJsonSupport {
 
   import databaseService._
   import databaseService.driver.api._
@@ -33,31 +35,36 @@ class ModelRepositoryImpl(
 
   override def create(entity: Model): Future[Model] =
     db.run(
-      Tables.Model returning Tables.Model += Tables.ModelRow(
-        modelId = entity.id,
-        name = entity.name,
-        source = entity.source,
-        modelType = entity.modelType.toTag,
-        modelContract = entity.modelContract.toString,
-        description = entity.description,
-        createdTimestamp = entity.created,
-        updatedTimestamp = entity.updated)
-    ).map(mapFromDb)
-
+        Tables.Model returning Tables.Model += Tables.ModelRow(
+          modelId          = entity.id,
+          name             = entity.name,
+          source           = entity.source,
+          modelType        = entity.modelType.toTag,
+          modelContract    = entity.modelContract.toString,
+          description      = entity.description,
+          createdTimestamp = entity.created,
+          updatedTimestamp = entity.updated
+        )
+      )
+      .map(mapFromDb)
 
   override def get(id: Long): Future[Option[Model]] =
     db.run(
-      Tables.Model
-        .filter(_.modelId === id)
-        .result.headOption
-    ).map(mapFromDb)
+        Tables.Model
+          .filter(_.modelId === id)
+          .result
+          .headOption
+      )
+      .map(mapFromDb)
 
   override def get(name: String): Future[Option[Model]] =
     db.run(
-      Tables.Model
-        .filter(_.name === name)
-        .result.headOption
-    ).map(mapFromDb)
+        Tables.Model
+          .filter(_.name === name)
+          .result
+          .headOption
+      )
+      .map(mapFromDb)
 
   override def delete(id: Long): Future[Int] =
     db.run(
@@ -68,37 +75,41 @@ class ModelRepositoryImpl(
 
   override def all(): Future[Seq[Model]] =
     db.run(
-      Tables.Model
-        .result
-    ).map(mapFromDb)
+        Tables.Model.result
+      )
+      .map(mapFromDb)
 
   override def fetchBySource(source: String): Future[Seq[Model]] =
     db.run(
-      Tables.Model
-        .filter(_.source === source)
-        .result
-    ).map(mapFromDb)
+        Tables.Model
+          .filter(_.source === source)
+          .result
+      )
+      .map(mapFromDb)
 
   override def update(value: Model): Future[Int] = {
     val query = for {
       models <- Tables.Model if models.modelId === value.id
-    } yield (
-      models.name,
-      models.source,
-      models.modelType,
-      models.description,
-      models.updatedTimestamp,
-      models.modelContract
-    )
+    } yield
+      (
+        models.name,
+        models.source,
+        models.modelType,
+        models.description,
+        models.updatedTimestamp,
+        models.modelContract
+      )
 
-    db.run(query.update(
-      value.name,
-      value.source,
-      value.modelType.toTag,
-      value.description,
-      value.updated,
-      value.modelContract.toString
-    ))
+    db.run(
+      query.update(
+        value.name,
+        value.source,
+        value.modelType.toTag,
+        value.description,
+        value.updated,
+        value.modelContract.toString
+      )
+    )
   }
 
   override def updateLastUpdatedTime(modelId: Long, timestamp: LocalDateTime): Future[Int] = {
@@ -111,10 +122,11 @@ class ModelRepositoryImpl(
 
   override def fetchByModelType(types: Seq[ModelType]): Future[Seq[Model]] =
     db.run(
-      Tables.Model
-        .filter(_.modelType inSetBind types.map(p=>p.toTag))
-        .result
-    ).map(mapFromDb)
+        Tables.Model
+          .filter(_.modelType inSetBind types.map(p => p.toTag))
+          .result
+      )
+      .map(mapFromDb)
 }
 
 object ModelRepositoryImpl extends ManagerJsonSupport {
@@ -128,13 +140,13 @@ object ModelRepositoryImpl extends ManagerJsonSupport {
 
   def mapFromDb(model: Tables.Model#TableElementType): Model =
     Model(
-      id = model.modelId,
-      name = model.name,
-      source = model.source,
-      modelType = ModelType.fromTag(model.modelType),
-      description = model.description,
+      id            = model.modelId,
+      name          = model.name,
+      source        = model.source,
+      modelType     = ModelType.fromTag(model.modelType),
+      description   = model.description,
       modelContract = ModelContract.fromAscii(model.modelContract),
-      created = model.createdTimestamp,
-      updated = model.updatedTimestamp
+      created       = model.createdTimestamp,
+      updated       = model.updatedTimestamp
     )
 }

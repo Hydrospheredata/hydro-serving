@@ -7,10 +7,6 @@ import io.hydrosphere.serving.manager.model._
 
 import collection.JavaConverters._
 
-/**
-  *
-  */
-
 trait ManagerConfiguration {
   def sidecar: SidecarConfig
 
@@ -40,9 +36,7 @@ case class ManagerConfigurationImpl(
   dockerRepository: DockerRepositoryConfiguration
 ) extends ManagerConfiguration
 
-case class AdvertisedConfiguration(
-  advertisedHost: String,
-  advertisedPort: Int)
+case class AdvertisedConfiguration(advertisedHost: String, advertisedPort: Int)
 
 abstract class DockerRepositoryConfiguration()
 
@@ -65,8 +59,8 @@ case class DockerCloudDriverConfiguration(
 ) extends CloudDriverConfiguration
 
 case class LocalDockerCloudDriverConfiguration(
-
-) extends CloudDriverConfiguration
+  )
+  extends CloudDriverConfiguration
 
 case class ECSCloudDriverConfiguration(
   region: Regions,
@@ -97,17 +91,17 @@ object ManagerConfiguration {
   def parseSidecar(config: Config): SidecarConfig = {
     val c = config.getConfig("sidecar")
     SidecarConfig(
-      host = c.getString("host"),
+      host        = c.getString("host"),
       ingressPort = c.getInt("ingressPort"),
-      egressPort = c.getInt("egressPort"),
-      adminPort = c.getInt("adminPort")
+      egressPort  = c.getInt("egressPort"),
+      adminPort   = c.getInt("adminPort")
     )
   }
 
   def parseApplication(config: Config): ApplicationConfig = {
     val c = config.getConfig("application")
     ApplicationConfig(
-      port = c.getInt("port"),
+      port     = c.getInt("port"),
       grpcPort = c.getInt("grpcPort")
     )
   }
@@ -117,10 +111,11 @@ object ManagerConfiguration {
     repoType match {
       case "ecs" =>
         parseCloudDriver(config) match {
-          case ecs: ECSCloudDriverConfiguration => ECSDockerRepositoryConfiguration(
-            region = ecs.region,
-            accountId = ecs.accountId
-          )
+          case ecs: ECSCloudDriverConfiguration =>
+            ECSDockerRepositoryConfiguration(
+              region    = ecs.region,
+              accountId = ecs.accountId
+            )
           case _ => LocalDockerRepositoryConfiguration()
         }
       case _ => LocalDockerRepositoryConfiguration()
@@ -130,8 +125,8 @@ object ManagerConfiguration {
   def parseZipkin(config: Config): ZipkinConfiguration = {
     val c = config.getConfig("openTracing.zipkin")
     ZipkinConfiguration(
-      host = c.getString("host"),
-      port = c.getInt("port"),
+      host    = c.getString("host"),
+      port    = c.getInt("port"),
       enabled = c.getBoolean("enabled")
     )
   }
@@ -139,31 +134,42 @@ object ManagerConfiguration {
   def parseCloudDriver(config: Config): CloudDriverConfiguration = {
     val c = config.getConfig("cloudDriver")
     //config.getAnyRef("modelSources").{ kv =>
-    config.getConfig("cloudDriver").root().entrySet().asScala.map { kv =>
-      val driverConf = c.getConfig(kv.getKey)
-      kv.getKey match {
-        case "swarm" =>
-          SwarmCloudDriverConfiguration(networkName = driverConf.getString("networkName"))
-        case "docker" =>
-          val hasLoggingGelfHost = driverConf.hasPath("loggingGelfHost")
-          DockerCloudDriverConfiguration(
-            networkName = driverConf.getString("networkName"),
-            loggingGelfHost = if (hasLoggingGelfHost)
-              Some(driverConf.getString("loggingGelfHost")) else None
-          )
-        case "ecs" =>
-          val hasLoggingGelfHost = driverConf.hasPath("loggingGelfHost")
-          ECSCloudDriverConfiguration(
-            region = Regions.fromName(driverConf.getString("region")),
-            cluster = driverConf.getString("cluster"),
-            accountId = driverConf.getString("accountId"),
-            loggingGelfHost = if (hasLoggingGelfHost)
-              Some(driverConf.getString("loggingGelfHost")) else None
-          )
-        case _ =>
-          LocalDockerCloudDriverConfiguration()
+    config
+      .getConfig("cloudDriver")
+      .root()
+      .entrySet()
+      .asScala
+      .map { kv =>
+        val driverConf = c.getConfig(kv.getKey)
+        kv.getKey match {
+          case "swarm" =>
+            SwarmCloudDriverConfiguration(networkName = driverConf.getString("networkName"))
+          case "docker" =>
+            val hasLoggingGelfHost = driverConf.hasPath("loggingGelfHost")
+            DockerCloudDriverConfiguration(
+              networkName = driverConf.getString("networkName"),
+              loggingGelfHost =
+                if (hasLoggingGelfHost)
+                  Some(driverConf.getString("loggingGelfHost"))
+                else None
+            )
+          case "ecs" =>
+            val hasLoggingGelfHost = driverConf.hasPath("loggingGelfHost")
+            ECSCloudDriverConfiguration(
+              region    = Regions.fromName(driverConf.getString("region")),
+              cluster   = driverConf.getString("cluster"),
+              accountId = driverConf.getString("accountId"),
+              loggingGelfHost =
+                if (hasLoggingGelfHost)
+                  Some(driverConf.getString("loggingGelfHost"))
+                else None
+            )
+          case _ =>
+            LocalDockerCloudDriverConfiguration()
+        }
       }
-    }.headOption.getOrElse(LocalDockerCloudDriverConfiguration())
+      .headOption
+      .getOrElse(LocalDockerCloudDriverConfiguration())
   }
 
   def parseAdvertised(config: Config): AdvertisedConfiguration = {
@@ -176,44 +182,48 @@ object ManagerConfiguration {
 
   def parseDataSources(config: Config): Seq[ModelSourceConfigAux] = {
     val c = config.getConfig("modelSources")
-    c.root().entrySet().asScala.map { kv =>
-      val modelSourceConfig = c.getConfig(kv.getKey)
-      val path = modelSourceConfig.getString("path")
-      val name = {
-        if (modelSourceConfig.hasPath("name")) {
-          modelSourceConfig.getString("name")
-        } else {
-          kv.getKey
-        }
-      }
-
-      val params = kv.getKey match {
-        case "local" =>
-          LocalSourceParams(path)
-        case "s3" =>
-          val auth = if (modelSourceConfig.hasPath("awsAuth")) {
-            val authConf = modelSourceConfig.getConfig("awsAuth")
-            val keyId = authConf.getString("keyId")
-            val secretKey = authConf.getString("secretKey")
-            Some(AWSAuthKeys(keyId, secretKey))
+    c.root()
+      .entrySet()
+      .asScala
+      .map { kv =>
+        val modelSourceConfig = c.getConfig(kv.getKey)
+        val path              = modelSourceConfig.getString("path")
+        val name = {
+          if (modelSourceConfig.hasPath("name")) {
+            modelSourceConfig.getString("name")
           } else {
-            None
+            kv.getKey
           }
-          S3SourceParams(
-            awsAuth = auth,
-            queueName = modelSourceConfig.getString("queue"),
-            bucketName = modelSourceConfig.getString("bucket"),
-            region = modelSourceConfig.getString("region")
-          )
-        case x =>
-          throw new IllegalArgumentException(s"Unknown model source: $x")
+        }
+
+        val params = kv.getKey match {
+          case "local" =>
+            LocalSourceParams(path)
+          case "s3" =>
+            val auth = if (modelSourceConfig.hasPath("awsAuth")) {
+              val authConf  = modelSourceConfig.getConfig("awsAuth")
+              val keyId     = authConf.getString("keyId")
+              val secretKey = authConf.getString("secretKey")
+              Some(AWSAuthKeys(keyId, secretKey))
+            } else {
+              None
+            }
+            S3SourceParams(
+              awsAuth    = auth,
+              queueName  = modelSourceConfig.getString("queue"),
+              bucketName = modelSourceConfig.getString("bucket"),
+              region     = modelSourceConfig.getString("region")
+            )
+          case x =>
+            throw new IllegalArgumentException(s"Unknown model source: $x")
+        }
+        ModelSourceConfig(-1, name, params).toAux
       }
-      ModelSourceConfig(-1, name, params).toAux
-    }.toSeq
+      .toSeq
   }
 
   def parseDatabase(config: Config): HikariConfig = {
-    val database = config.getConfig("database")
+    val database     = config.getConfig("database")
     val hikariConfig = new HikariConfig()
     hikariConfig.setJdbcUrl(database.getString("jdbcUrl"))
     hikariConfig.setUsername(database.getString("username"))
@@ -225,13 +235,13 @@ object ManagerConfiguration {
   }
 
   def parse(config: Config): ManagerConfigurationImpl = ManagerConfigurationImpl(
-    sidecar = parseSidecar(config),
-    application = parseApplication(config),
-    advertised = parseAdvertised(config),
-    modelSources = parseDataSources(config),
-    database = parseDatabase(config),
-    cloudDriver = parseCloudDriver(config),
-    zipkin = parseZipkin(config),
+    sidecar          = parseSidecar(config),
+    application      = parseApplication(config),
+    advertised       = parseAdvertised(config),
+    modelSources     = parseDataSources(config),
+    database         = parseDatabase(config),
+    cloudDriver      = parseCloudDriver(config),
+    zipkin           = parseZipkin(config),
     dockerRepository = parseDockerRepository(config)
   )
 

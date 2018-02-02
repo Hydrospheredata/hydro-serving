@@ -24,11 +24,10 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
 
   override def fetch(source: ModelSource, directory: String): Option[ModelMetadata] = {
     try {
-      val pbFile = source.getReadableFile(s"$directory/saved_model.pb")
+      val pbFile     = source.getReadableFile(s"$directory/saved_model.pb")
       val savedModel = SavedModel.parseFrom(Files.newInputStream(pbFile.toPath))
-      val signatures = savedModel
-        .getMetaGraphsList
-        .flatMap{ metagraph =>
+      val signatures = savedModel.getMetaGraphsList
+        .flatMap { metagraph =>
           metagraph.getSignatureDefMap.map {
             case (_, signatureDef) =>
               convertSignature(signatureDef)
@@ -58,11 +57,16 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
   private def convertTensor(tensorInfo: TFTensorInfo): TensorInfo = {
     val shape = if (tensorInfo.hasTensorShape) {
       val tShape = tensorInfo.getTensorShape
-      Some(TensorShapeProto(tShape.getDimList.map(x => TensorShapeProto.Dim(x.getSize, x.getName)), tShape.getUnknownRank))
+      Some(
+        TensorShapeProto(
+          tShape.getDimList.map(x => TensorShapeProto.Dim(x.getSize, x.getName)),
+          tShape.getUnknownRank
+        )
+      )
     } else None
     val convertedDtype = DataType.fromValue(tensorInfo.getDtypeValue)
     TensorInfo(
-      dtype = convertedDtype,
+      dtype       = convertedDtype,
       tensorShape = shape
     )
   }
@@ -78,7 +82,7 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
           )
         )
         ModelField(
-          fieldName = inputName,
+          fieldName       = inputName,
           infoOrSubfields = tensorInfo
         )
     }.toList
@@ -87,8 +91,8 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
   private def convertSignature(signatureDef: SignatureDef): ModelSignature = {
     ModelSignature(
       signatureName = signatureDef.getMethodName,
-      inputs = convertTensorMap(signatureDef.getInputsMap.toMap),
-      outputs = convertTensorMap(signatureDef.getInputsMap.toMap)
+      inputs        = convertTensorMap(signatureDef.getInputsMap.toMap),
+      outputs       = convertTensorMap(signatureDef.getInputsMap.toMap)
     )
   }
 

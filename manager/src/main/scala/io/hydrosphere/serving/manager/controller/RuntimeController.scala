@@ -23,11 +23,23 @@ class RuntimeController(
   implicit val timeout = Timeout(5.seconds)
 
   @Path("/")
-  @ApiOperation(value = "listRuntime", notes = "listRuntime", nickname = "listRuntime", httpMethod = "GET")
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Runtimes", response = classOf[Runtime], responseContainer = "List"),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
+  @ApiOperation(
+    value      = "listRuntime",
+    notes      = "listRuntime",
+    nickname   = "listRuntime",
+    httpMethod = "GET"
+  )
+  @ApiResponses(
+    Array(
+      new ApiResponse(
+        code              = 200,
+        message           = "Runtimes",
+        response          = classOf[Runtime],
+        responseContainer = "List"
+      ),
+      new ApiResponse(code = 500, message = "Internal server error")
+    )
+  )
   def listRuntime = path("api" / "v1" / "runtime") {
     get {
       complete(runtimeManagementService.all())
@@ -35,15 +47,29 @@ class RuntimeController(
   }
 
   @Path("/")
-  @ApiOperation(value = "Create Runtime", notes = "Create Runtime", nickname = "createRuntime", httpMethod = "POST")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "Runtime Object", required = true,
-      dataType = "io.hydrosphere.serving.manager.service.CreateRuntimeRequest", paramType = "body")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Runtime", response = classOf[Runtime]),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
+  @ApiOperation(
+    value      = "Create Runtime",
+    notes      = "Create Runtime",
+    nickname   = "createRuntime",
+    httpMethod = "POST"
+  )
+  @ApiImplicitParams(
+    Array(
+      new ApiImplicitParam(
+        name      = "body",
+        value     = "Runtime Object",
+        required  = true,
+        dataType  = "io.hydrosphere.serving.manager.service.CreateRuntimeRequest",
+        paramType = "body"
+      )
+    )
+  )
+  @ApiResponses(
+    Array(
+      new ApiResponse(code = 200, message = "Runtime", response = classOf[Runtime]),
+      new ApiResponse(code = 500, message = "Internal server error")
+    )
+  )
   def createRuntime = path("api" / "v1" / "runtime") {
     entity(as[CreateRuntimeRequest]) { r =>
       complete(
@@ -53,14 +79,29 @@ class RuntimeController(
   }
 
   @Path("/modelType/{modelType}")
-  @ApiOperation(value = "Lookup by a modelType", notes = "Lookup by a modelType", nickname = "lookupByModelType", httpMethod = "GET")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "modelType", required = true, dataType = "string", paramType = "path", value = "tag")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Runtime", response = classOf[Seq[Runtime]]),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
+  @ApiOperation(
+    value      = "Lookup by a modelType",
+    notes      = "Lookup by a modelType",
+    nickname   = "lookupByModelType",
+    httpMethod = "GET"
+  )
+  @ApiImplicitParams(
+    Array(
+      new ApiImplicitParam(
+        name      = "modelType",
+        required  = true,
+        dataType  = "string",
+        paramType = "path",
+        value     = "tag"
+      )
+    )
+  )
+  @ApiResponses(
+    Array(
+      new ApiResponse(code = 200, message = "Runtime", response = classOf[Seq[Runtime]]),
+      new ApiResponse(code = 500, message = "Internal server error")
+    )
+  )
   def lookupRuntimeByTag = path("api" / "v1" / "runtime" / "modelType" / Segment) { tag =>
     get {
       complete {

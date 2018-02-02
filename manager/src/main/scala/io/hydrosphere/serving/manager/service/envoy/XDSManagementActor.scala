@@ -18,7 +18,8 @@ class XDSManagementActor(
   routeDSActor: ActorRef
 )(
   implicit val ex: ExecutionContext
-) extends Actor with ActorLogging {
+) extends Actor
+  with ActorLogging {
 
   context.system.eventStream.subscribe(self, classOf[ApplicationChanged])
   context.system.eventStream.subscribe(self, classOf[ApplicationRemoved])
@@ -27,10 +28,10 @@ class XDSManagementActor(
   context.system.eventStream.subscribe(self, classOf[CloudServiceDetected])
 
   private val actors = Map(
-    "type.googleapis.com/envoy.api.v2.Cluster" -> clusterDSActor,
+    "type.googleapis.com/envoy.api.v2.Cluster"               -> clusterDSActor,
     "type.googleapis.com/envoy.api.v2.ClusterLoadAssignment" -> endpointDSActor,
-    "type.googleapis.com/envoy.api.v2.RouteConfiguration" -> routeDSActor,
-    "type.googleapis.com/envoy.api.v2.Listener" -> listenerDSActor
+    "type.googleapis.com/envoy.api.v2.RouteConfiguration"    -> routeDSActor,
+    "type.googleapis.com/envoy.api.v2.Listener"              -> listenerDSActor
   )
 
   override def receive: Receive = {
@@ -40,10 +41,9 @@ class XDSManagementActor(
       })
     case s: SubscribeMsg =>
       s.discoveryRequest.node.foreach(_ => {
-        actors.get(s.discoveryRequest.typeUrl)
-          .fold(log.error(s"Unknown typeUrl: ${s.discoveryRequest}"))(actor =>
-            actor ! s
-          )
+        actors
+          .get(s.discoveryRequest.typeUrl)
+          .fold(log.error(s"Unknown typeUrl: ${s.discoveryRequest}"))(actor => actor ! s)
       })
     case app: ApplicationChanged =>
       routeDSActor ! app
@@ -62,11 +62,14 @@ class XDSManagementActor(
   override def preStart(): Unit = {
     val f = {
       for {
-        f1 <- serviceManagementService.allServices()
+        f1 <- serviceManagementService
+          .allServices()
           .map(v => clusterDSActor ! SyncCluster(v.map(_.serviceName).toSet))
-        f2 <- applicationManagementService.allApplications()
+        f2 <- applicationManagementService
+          .allApplications()
           .map(v => routeDSActor ! SyncApplications(v))
-        f3 <- cloudDriverService.serviceList()
+        f3 <- cloudDriverService
+          .serviceList()
           .map(c => endpointDSActor ! RenewEndpoints(mapCloudService(c)))
       } yield (f1, f2, f3)
     }
@@ -78,12 +81,14 @@ class XDSManagementActor(
     c.map(t => {
       ClusterInfo(
         name = t.serviceName,
-        endpoints = t.instances.map(i => {
-          ClusterEndpoint(
-            host = i.advertisedHost,
-            port = i.advertisedPort
-          )
-        }).toSet
+        endpoints = t.instances
+          .map(i => {
+            ClusterEndpoint(
+              host = i.advertisedHost,
+              port = i.advertisedPort
+            )
+          })
+          .toSet
       )
     })
 

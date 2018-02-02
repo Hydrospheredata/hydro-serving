@@ -6,7 +6,12 @@ import akka.actor.Props
 import com.google.common.hash.Hashing
 import io.hydrosphere.serving.manager.model.CommonJsonSupport
 import io.hydrosphere.serving.manager.service.modelsource.s3.S3SourceWatcherActor.SQSMessage
-import io.hydrosphere.serving.manager.service.modelsource.{FileCreated, FileDeleted, FileEvent, SourceWatcherActor}
+import io.hydrosphere.serving.manager.service.modelsource.{
+  FileCreated,
+  FileDeleted,
+  FileEvent,
+  SourceWatcherActor
+}
 
 import scala.collection.JavaConversions._
 
@@ -16,11 +21,11 @@ import scala.collection.JavaConversions._
 class S3SourceWatcherActor(val source: S3ModelSource) extends SourceWatcherActor {
   private val sourceDef = source.sourceDef
   override def onWatcherTick(): List[FileEvent] = {
-    val messages = sourceDef
-      .sqsClient
+    val messages = sourceDef.sqsClient
       .receiveMessage(sourceDef.queue)
       .getMessages
-    val msgBodies = messages.map(m => m -> m.getBody)
+    val msgBodies = messages
+      .map(m => m -> m.getBody)
       .map { case (m, b) => m -> SQSMessage.fromJson(b) }
       .filter { case (_, opt) => opt.isDefined }
       .map { case (m, opt) => m -> opt.get }
@@ -71,36 +76,37 @@ class S3SourceWatcherActor(val source: S3ModelSource) extends SourceWatcherActor
   }
 }
 
-object S3SourceWatcherActor{
+object S3SourceWatcherActor {
   case class SQSMessage(bucket: String, objKey: String, eventName: String, eventTime: LocalDateTime)
 
   object SQSMessage extends CommonJsonSupport {
     import spray.json._
 
     def fromJson(json: String): Option[SQSMessage] = {
-      if(json.parseJson.asJsObject.fields.isEmpty) {
+      if (json.parseJson.asJsObject.fields.isEmpty) {
         None
       } else {
         val map = json.parseJson.convertTo[Map[String, Any]]
         for {
           records <- map.get("Records")
-          record <- records.asInstanceOf[List[Map[String, Any]]].headOption
-          s3 <- record.get("s3")
+          record  <- records.asInstanceOf[List[Map[String, Any]]].headOption
+          s3      <- record.get("s3")
           s3Data = s3.asInstanceOf[Map[String, Any]]
           bucketData <- s3Data.get("bucket")
           bucketName <- bucketData.asInstanceOf[Map[String, Any]].get("name")
           objectData <- s3Data.get("object")
-          objectKey <- objectData.asInstanceOf[Map[String, Any]].get("key")
-          eventName <- record.get("eventName")
-          eventTime <- record.get("eventTime")
+          objectKey  <- objectData.asInstanceOf[Map[String, Any]].get("key")
+          eventName  <- record.get("eventName")
+          eventTime  <- record.get("eventTime")
         } yield {
-          val eventLocalTime = LocalDateTime.ofInstant(Instant.parse(eventTime.toString), ZoneId.systemDefault())
+          val eventLocalTime =
+            LocalDateTime.ofInstant(Instant.parse(eventTime.toString), ZoneId.systemDefault())
           SQSMessage(bucketName.toString, objectKey.toString, eventName.toString, eventLocalTime)
         }
       }
     }
   }
 
-  def props(source: S3ModelSource)=
+  def props(source: S3ModelSource) =
     Props(new S3SourceWatcherActor(source))
 }

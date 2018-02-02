@@ -18,7 +18,8 @@ object TensorInfoOps {
     } else {
       first.tensorShape -> second.tensorShape match {
         case (em, re) if em == re => Some(first)
-        case (Some(em), Some(re)) if re.unknownRank == em.unknownRank && re.unknownRank => Some(first)
+        case (Some(em), Some(re)) if re.unknownRank == em.unknownRank && re.unknownRank =>
+          Some(first)
         case (Some(em), Some(re)) =>
           val shape = TensorShapeProtoOps.merge(em, re)
           Some(TensorInfo(first.dtype, shape))

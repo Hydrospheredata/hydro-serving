@@ -10,8 +10,18 @@ class FileDetected(source: ModelSource, filename: String, timestamp: Instant, va
 class FileDeleted(source: ModelSource, filename: String, timestamp: Instant)
   extends FileEvent(source, filename, timestamp)
 
-class FileCreated(source: ModelSource, filename: String, timestamp: Instant, val hash: String, val createdAt: LocalDateTime)
-  extends FileEvent(source, filename, timestamp)
+class FileCreated(
+  source: ModelSource,
+  filename: String,
+  timestamp: Instant,
+  val hash: String,
+  val createdAt: LocalDateTime
+) extends FileEvent(source, filename, timestamp)
 
-class FileModified(source: ModelSource, filename: String, timestamp: Instant, val hash: String, val updatedAt: LocalDateTime)
-  extends FileEvent(source, filename, timestamp)
+class FileModified(
+  source: ModelSource,
+  filename: String,
+  timestamp: Instant,
+  val hash: String,
+  val updatedAt: LocalDateTime
+) extends FileEvent(source, filename, timestamp)

@@ -15,23 +15,20 @@ import org.apache.logging.log4j.scala.Logging
 import scala.concurrent.Await
 import scala.concurrent.duration._
 
-/**
-  *
-  */
 object ManagerBoot extends App with Logging {
   try {
-    implicit val system = ActorSystem("manager")
+    implicit val system       = ActorSystem("manager")
     implicit val materializer = ActorMaterializer()
-    implicit val ex = system.dispatcher
-    implicit val timeout = Timeout(5.minute)
+    implicit val ex           = system.dispatcher
+    implicit val timeout      = Timeout(5.minute)
 
     val configuration = ManagerConfiguration.parse(ConfigFactory.load())
 
     val dockerClient = DefaultDockerClient.fromEnv().build() // move to config?
 
     val managerRepositories = new ManagerRepositoriesConfig(configuration)
-    val managerServices = new ManagerServices(managerRepositories, configuration, dockerClient)
-    val managerApi = new ManagerHttpApi(managerServices, configuration)
+    val managerServices     = new ManagerServices(managerRepositories, configuration, dockerClient)
+    val managerApi          = new ManagerHttpApi(managerServices, configuration)
 
     val managerGRPC = new ManagerGRPC(managerServices, configuration)
 
@@ -49,7 +46,9 @@ object ManagerBoot extends App with Logging {
       }
     }
 
-    logger.info(s"Started http service on port: ${configuration.application.port} and grpc service on ${configuration.application.grpcPort}")
+    logger.info(
+      s"Started http service on port: ${configuration.application.port} and grpc service on ${configuration.application.grpcPort}"
+    )
   } catch {
     case e: Throwable =>
       logger.error("Fatal error", e)

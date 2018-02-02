@@ -8,11 +8,7 @@ import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServic
 
 import scala.concurrent.ExecutionContext
 
-/**
-  *
-  */
-class ManagerGRPC
-(
+class ManagerGRPC(
   managerServices: ManagerServices,
   managerConfiguration: ManagerConfiguration
 )(
@@ -29,7 +25,9 @@ class ManagerGRPC
     }
   }
 
-  val aggregatedDiscoveryServiceGrpc = new AggregatedDiscoveryServiceGrpcImpl(managerServices.envoyGRPCDiscoveryService)
+  val aggregatedDiscoveryServiceGrpc = new AggregatedDiscoveryServiceGrpcImpl(
+    managerServices.envoyGRPCDiscoveryService
+  )
   val managerGrpcApi = new ManagerGrpcApi(managerServices, managerServices.servingMeshGrpcClient)
 
   val builder = BuilderWrapper(ServerBuilder.forPort(managerConfiguration.application.grpcPort))
@@ -39,4 +37,3 @@ class ManagerGRPC
 
   server.start()
 }
-

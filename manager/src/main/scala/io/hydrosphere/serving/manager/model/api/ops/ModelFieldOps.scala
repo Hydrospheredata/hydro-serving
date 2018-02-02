@@ -1,7 +1,11 @@
 package io.hydrosphere.serving.manager.model.api.ops
 
 import io.hydrosphere.serving.contract.model_field.ModelField
-import io.hydrosphere.serving.contract.model_field.ModelField.InfoOrSubfields.{Empty, Info, Subfields}
+import io.hydrosphere.serving.contract.model_field.ModelField.InfoOrSubfields.{
+  Empty,
+  Info,
+  Subfields
+}
 import io.hydrosphere.serving.manager.model.api.ContractBuilders
 import io.hydrosphere.serving.manager.model.api.description.FieldDescription
 
@@ -54,7 +58,8 @@ object ModelFieldOps {
     inputs.zip(inputs1).flatMap {
       case (in1, in2) =>
         if (in1.fieldName == in2.fieldName) {
-          val merged = merge(in1, in2).getOrElse(throw new IllegalArgumentException(s"$in1 and $in2 aren't mergeable"))
+          val merged = merge(in1, in2)
+            .getOrElse(throw new IllegalArgumentException(s"$in1 and $in2 aren't mergeable"))
           List(merged)
         } else {
           List(in1, in2)
@@ -79,7 +84,10 @@ object ModelFieldOps {
     }
   }
 
-  def mergeComplexFields(first: ModelField.ComplexField, second: ModelField.ComplexField): Option[ModelField.ComplexField] = {
+  def mergeComplexFields(
+    first: ModelField.ComplexField,
+    second: ModelField.ComplexField
+  ): Option[ModelField.ComplexField] = {
     val fields = second.data.map { field =>
       val emitterField = first.data.find(_.fieldName == field.fieldName)
       emitterField.flatMap(merge(_, field))

@@ -63,9 +63,9 @@ case class Service(
 ) {
   def toServiceKeyDescription: ServiceKeyDescription =
     ServiceKeyDescription(
-      runtimeId = runtime.id,
+      runtimeId      = runtime.id,
       modelVersionId = model.map(_.id),
-      environmentId = environment.map(_.id)
+      environmentId  = environment.map(_.id)
     )
 }
 
@@ -78,7 +78,8 @@ case class ServiceKeyDescription(
   modelVersionId: Option[Long],
   environmentId: Option[Long]
 ) {
-  def toServiceName(): String = s"r${runtimeId}m${modelVersionId.getOrElse(0)}e${environmentId.getOrElse(0)}"
+  def toServiceName(): String =
+    s"r${runtimeId}m${modelVersionId.getOrElse(0)}e${environmentId.getOrElse(0)}"
 }
 
 case class ServiceWeight(
@@ -123,7 +124,6 @@ class SchematicRuntime(
   suitableModelType: List[ModelType]
 ) extends Runtime(-1, name, version, suitableModelType, List(), Map())
 
-
 case class ModelBuild(
   id: Long,
   model: Model,
@@ -147,25 +147,29 @@ case class ServiceInstance(
   statusText: Option[String]
 )
 
-class UnknownModelRuntime extends ModelVersion(
-  id = -1,
-  imageName = "",
-  imageTag = "",
-  imageSHA256 = "",
-  modelName = "",
-  modelVersion = 1,
-  source = None,
-  modelContract = ModelContract(),
-  created = LocalDateTime.now(),
-  modelType = ModelType.Unknown(),
-  model = None
-)
+class UnknownModelRuntime
+  extends ModelVersion(
+    id            = -1,
+    imageName     = "",
+    imageTag      = "",
+    imageSHA256   = "",
+    modelName     = "",
+    modelVersion  = 1,
+    source        = None,
+    modelContract = ModelContract(),
+    created       = LocalDateTime.now(),
+    modelType     = ModelType.Unknown(),
+    model         = None
+  )
 
-class AnyEnvironment extends Environment(
-  AnyEnvironment.anyEnvironmentId, "Without Env", AnyEnvironment.emptyPlaceholder
-)
+class AnyEnvironment
+  extends Environment(
+    AnyEnvironment.anyEnvironmentId,
+    "Without Env",
+    AnyEnvironment.emptyPlaceholder
+  )
 
 object AnyEnvironment {
-  val emptyPlaceholder = Seq()
+  val emptyPlaceholder       = Seq()
   val anyEnvironmentId: Long = -1
 }

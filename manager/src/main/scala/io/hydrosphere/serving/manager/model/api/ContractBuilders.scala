@@ -19,7 +19,11 @@ object ContractBuilders {
     )
   }
 
-  def createTensorInfo(dataType: DataType, shape: Option[Seq[Long]], unknownRank: Boolean = false): TensorInfo = {
+  def createTensorInfo(
+    dataType: DataType,
+    shape: Option[Seq[Long]],
+    unknownRank: Boolean = false
+  ): TensorInfo = {
     TensorInfo(dataType, shape.map(s => createTensorShape(s, unknownRank)))
   }
 
@@ -34,11 +38,23 @@ object ContractBuilders {
     )
   }
 
-  def rawTensorModelField(name: String, dataType: DataType, shape: Option[TensorShapeProto]): ModelField = {
+  def rawTensorModelField(
+    name: String,
+    dataType: DataType,
+    shape: Option[TensorShapeProto]
+  ): ModelField = {
     ModelField(name, ModelField.InfoOrSubfields.Info(TensorInfo(dataType, shape)))
   }
 
-  def simpleTensorModelField(name: String, dataType: DataType, shape: Option[Seq[Long]], unknownRank: Boolean = false): ModelField = {
-    ModelField(name, ModelField.InfoOrSubfields.Info(createTensorInfo(dataType, shape, unknownRank)))
+  def simpleTensorModelField(
+    name: String,
+    dataType: DataType,
+    shape: Option[Seq[Long]],
+    unknownRank: Boolean = false
+  ): ModelField = {
+    ModelField(
+      name,
+      ModelField.InfoOrSubfields.Info(createTensorInfo(dataType, shape, unknownRank))
+    )
   }
 }

@@ -1,7 +1,10 @@
 package io.hydrosphere.serving.manager.model.api.ops
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.model.api.description.{ContractDescription, SignatureDescription}
+import io.hydrosphere.serving.manager.model.api.description.{
+  ContractDescription,
+  SignatureDescription
+}
 
 trait ModelContractOps {
   implicit class ModelContractPumped(modelContract: ModelContract) {
