@@ -1,5 +1,7 @@
 # Hydro-serving
 
+[![Join the chat at https://gitter.im/Hydrospheredata/hydro-serving](https://badges.gitter.im/Hydrospheredata/hydro-serving.svg)](https://gitter.im/Hydrospheredata/hydro-serving?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Hydro Serving is a Machine Learning Serving cluster. 
 
 Main Features:
