@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager.service
 
+import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.connector._
 import io.hydrosphere.serving.manager.grpc.manager.AuthorityReplacerInterceptor
@@ -22,15 +23,7 @@ case class ApplicationCreateOrUpdateRequest(
   id: Option[Long],
   name: String,
   executionGraph: ApplicationExecutionGraph
-) {
-
-  def toApplication: Application =
-    Application(
-      id = this.id.getOrElse(0),
-      name = this.name,
-      executionGraph = this.executionGraph
-    )
-}
+)
 
 case class ServiceWithSignature(s: Service, signatureName: String)
 
@@ -48,7 +41,7 @@ trait ApplicationManagementService {
 
   def getApplication(id: Long): Future[Option[Application]]
 
-  def generateInputsForApplication(appId: Long): Future[Option[Seq[JsObject]]]
+  def generateInputsForApplication(appId: Long, signatureName: String): Future[Option[Seq[JsObject]]]
 
   def checkApplicationSchema(req: ApplicationCreateOrUpdateRequest): Future[Boolean]
 
@@ -67,119 +60,115 @@ class ApplicationManagementServiceImpl(
   internalManagerEventsPublisher: InternalManagerEventsPublisher
 )(implicit val ex: ExecutionContext) extends ApplicationManagementService with ManagerJsonSupport with Logging {
 
-  def createRequest(data: PredictResponse, signature: String): PredictRequest =
-    PredictRequest(
-      modelSpec = Some(
-        ModelSpec(
-          signatureName = signature
-        )
-      ),
-      inputs = data.outputs
-    )
+  def serve(unit: ExecutionUnit, request: PredictRequest): Future[PredictResponse] = {
+    grpcClient
+      .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, unit.serviceName)
+      .predict(request)
+  }
 
-  def serveGrpcStages(units: Seq[ExecutionUnit], data: PredictRequest): Future[PredictResponse] = {
+  def servePipeline(units: Seq[ExecutionUnit], data: PredictRequest): Future[PredictResponse] = {
     val empty = Future.successful(PredictResponse(outputs = data.inputs))
-
     units.foldLeft(empty) {
       case (a, b) =>
         a.flatMap { resp =>
-          grpcClient
-            .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, b.serviceName)
-            .predict(createRequest(resp, b.servicePath))
+          val request = PredictRequest(
+            modelSpec = Some(
+              ModelSpec(
+                signatureName = b.servicePath
+              )
+            ),
+            inputs = resp.outputs
+          )
+          serve(b, request)
         }
     }
   }
 
+  def serveApplication(application: Application, request: PredictRequest): Future[PredictResponse] = {
+    application.executionGraph.stages match {
+      case stage :: Nil if stage.services.lengthCompare(1) == 0 => // single stage with single service
+        val unit = ExecutionUnit(
+          serviceName = s"app${application.id}stage0",
+          servicePath = request.modelSpec.getOrElse(throw new IllegalArgumentException(s"ModelSpec in request is not specified")).signatureName
+        )
+        serve(unit, request)
+      case stages => // pipeline
+        val execUnits = stages.zipWithIndex.map {
+          case (stage, idx) => ExecutionUnit(
+            serviceName = s"app${application.id}stage$idx",
+            servicePath = stage.signatureName
+          )
+        }
+        servePipeline(execUnits, request)
+    }
+  }
+
   def serveGrpcApplication(data: PredictRequest): Future[PredictResponse] = {
-    import ToPipelineStages._
     data.modelSpec match {
       case Some(modelSpec) =>
         applicationRepository.getByName(modelSpec.name).flatMap {
           case Some(app) =>
-            serveGrpcStages(app.toPipelineStages(""), data)
+            serveApplication(app, data)
           case None => Future.failed(new IllegalArgumentException(s"Application '${modelSpec.name}' is not found"))
         }
       case None => Future.failed(new IllegalArgumentException("ModelSpec is not defined"))
     }
   }
 
-  override def serveJsonApplication(jsonServeRequest: JsonServeRequest): Future[JsValue] = {
-    import ToPipelineStages._
-
+  def serveJsonApplication(jsonServeRequest: JsonServeRequest): Future[JsValue] = {
     applicationRepository.get(jsonServeRequest.targetId)
-      .flatMap({
-        case Some(x) =>
-          inferAppInputSchema(x).flatMap(signature => {
-            val ds = new SignatureValidator(signature).convert(jsonServeRequest.inputs).right.map { tensors =>
-              PredictRequest(
-                modelSpec = None,
-                inputs = tensors
-              )
-            }.right.map { grpcRequest => {
-              serveGrpcStages(x.toPipelineStages(""), grpcRequest)
-            }
-            }
+      .flatMap {
+        case Some(application) =>
+          val signature = application.contract.signatures
+            .find(_.signatureName == jsonServeRequest.signatureName)
+            .getOrElse(throw new IllegalArgumentException(s"Application ${jsonServeRequest.targetId} doesn't have a ${jsonServeRequest.signatureName} signature"))
 
-            ds match {
-              case Left(l) =>
-                Future.failed(new IllegalArgumentException(s"Can't map request $l"))
-              case Right(r) =>
-                r.map(TensorProtoOps.jsonify)
-            }
-          })
+          val ds = new SignatureValidator(signature).convert(jsonServeRequest.inputs).right.map { tensors =>
+            PredictRequest(
+              modelSpec = Some(
+                ModelSpec(
+                  name = application.name,
+                  signatureName = jsonServeRequest.signatureName,
+                  version = None
+                )
+              ),
+              inputs = tensors
+            )
+          }.right.map { grpcRequest =>
+            serveApplication(application, grpcRequest)
+          }
+
+          ds match {
+            case Left(l) =>
+              Future.failed(new IllegalArgumentException(s"Can't map request $l"))
+            case Right(r) =>
+              r.map(TensorProtoOps.jsonify)
+          }
         case None =>
           Future.failed(new IllegalArgumentException(s"Can't find Application with id=${jsonServeRequest.targetId}"))
-      })
+      }
   }
 
-  override def allApplications(): Future[Seq[Application]] =
+  def allApplications(): Future[Seq[Application]] =
     applicationRepository.all()
 
-  override def getApplication(id: Long): Future[Option[Application]] =
+  def getApplication(id: Long): Future[Option[Application]] =
     applicationRepository.get(id)
 
 
-  override def generateInputsForApplication(appId: Long): Future[Option[Seq[JsObject]]] = {
-    applicationRepository.get(appId).flatMap {
+  def generateInputsForApplication(appId: Long, signatureName: String): Future[Option[Seq[JsObject]]] = {
+    applicationRepository.get(appId).map {
       case Some(app) =>
-        inferAppInputSchema(app).map { schema =>
-          val data = DataGenerator(schema).generateInputs
-          Some(Seq(TensorProtoOps.jsonify(data)))
+        app.contract.signatures.find(_.signatureName == signatureName).map { signature =>
+          val data = DataGenerator(signature).generateInputs
+          Seq(TensorProtoOps.jsonify(data))
         }
       case None =>
-        Future.successful(None)
+        None
     }
   }
 
-  private def inferAppInputSchema(application: Application): Future[ModelSignature] = {
-    val stages = application.executionGraph.stages.map(st => st.services.map(s => s.serviceDescription -> st.signatureName).toMap)
-    val headServices = Future.sequence {
-      stages.head.map {
-        case (sId, signature) =>
-          serviceManagementService.fetchServicesUnsync(Set(sId)).map(maybeService => {
-            val service = maybeService
-              .headOption
-              .getOrElse(throw new IllegalArgumentException(s"Service with id $sId is not found"))
-            service.model.map(m => {
-              m.modelContract.signatures
-                .find(_.signatureName == signature)
-                .getOrElse(throw new IllegalArgumentException(s"Signature $signature for service $sId is not found"))
-            })
-          })
-      }.toList
-    }
-    headServices.map(services => {
-      services
-        .filter(_.nonEmpty)
-        .map(_.get)
-        .foldRight(ModelSignature()) {
-          case (sig1, sig2) => ModelSignatureOps.merge(sig1, sig2)
-        }
-    })
-  }
-
-
-  override def checkApplicationSchema(req: ApplicationCreateOrUpdateRequest): Future[Boolean] = {
+  def checkApplicationSchema(req: ApplicationCreateOrUpdateRequest): Future[Boolean] = {
     val stages = req.executionGraph.stages.zipWithIndex.map {
       case (stage, stIdx) =>
         val servicesId = stage.services.map(s => s.serviceDescription -> stage.signatureName).toMap
@@ -202,36 +191,67 @@ class ApplicationManagementServiceImpl(
     )
   }
 
-  private def createStageSignature(idx: Long, stages: Seq[ServiceWithSignature]): ModelSignature = {
-    val signatures = stages.map { info =>
-      info.s.model.getOrElse(throw new IllegalArgumentException(s"Can't find contract for service $info"))
-        .modelContract.signatures
-        .find(_.signatureName == info.signatureName)
-        .getOrElse(throw new IllegalArgumentException(s"${info.signatureName} signature doesn't exist"))
+  def createApplications(req: ApplicationCreateOrUpdateRequest): Future[Application] = executeWithSync {
+    val keys = for {
+      stage <- req.executionGraph.stages
+      service <- stage.services
+    } yield {
+      service.serviceDescription
     }
-    signatures.fold(ModelSignature.defaultInstance)(ModelSignatureOps.merge)
+    val keySet = keys.toSet
+
+    for {
+      services <- serviceManagementService.fetchServicesUnsync(keySet)
+      existedServices = services.map(_.toServiceKeyDescription)
+      _ <- startServices(keySet -- existedServices)
+      inferredApp <- reqToApplication(req)
+      createdApp <- applicationRepository.create(inferredApp)
+    } yield {
+      internalManagerEventsPublisher.applicationChanged(createdApp)
+      createdApp
+    }
   }
 
-  override def createApplications(req: ApplicationCreateOrUpdateRequest): Future[Application] = executeWithSync(() => {
-    val keysSet = req.executionGraph.stages.flatMap(_.services.map(_.serviceDescription)).toSet
-    serviceManagementService.fetchServicesUnsync(keysSet).flatMap(s => {
-      val existedServices = s.map(_.toServiceKeyDescription)
+  def deleteApplication(id: Long): Future[Unit] =
+    executeWithSync {
+      applicationRepository.get(id).flatMap {
+        case Some(application) =>
+          val keysSet = application.executionGraph.stages.flatMap(_.services.map(_.serviceDescription)).toSet
+          applicationRepository.delete(id)
+            .flatMap(_ =>
+              removeServiceIfNeeded(keysSet, id)
+                .map(_ => internalManagerEventsPublisher.applicationRemoved(application))
+            )
+        case _ =>
+          Future.successful(Unit)
+      }
+    }
 
-      val toAdd = keysSet -- existedServices
-      startServices(toAdd).flatMap(_ => {
-        applicationRepository.create(req.toApplication)
-          .flatMap(a => {
-            internalManagerEventsPublisher.applicationChanged(a)
-            Future.successful(a)
-          })
-      })
-    })
-  })
+  def updateApplications(req: ApplicationCreateOrUpdateRequest): Future[Application] =
+    executeWithSync {
+      applicationRepository.get(req.id.getOrElse(throw new IllegalArgumentException(s"id required $req")))
+        .flatMap {
+          case Some(application) =>
+            val keysSetOld = application.executionGraph.stages.flatMap(_.services.map(_.serviceDescription)).toSet
+            val keysSetNew = req.executionGraph.stages.flatMap(_.services.map(_.serviceDescription)).toSet
 
+            for {
+              _ <- removeServiceIfNeeded(keysSetOld -- keysSetNew, application.id)
+              _ <- startServices(keysSetNew -- keysSetOld)
+              app <- reqToApplication(req)
+              _ <- applicationRepository.update(app)
+            } yield {
+              internalManagerEventsPublisher.applicationChanged(app)
+              app
+            }
+          case None =>
+            throw new IllegalArgumentException(s"Can't find application $req")
+        }
+    }
 
-  private def executeWithSync[A](func: () => Future[A]): Future[A] = {
-    applicationRepository.getLockForApplications().flatMap(lockInfo => {
-      func() andThen {
+  private def executeWithSync[A](func: => Future[A]): Future[A] = {
+    applicationRepository.getLockForApplications().flatMap { lockInfo =>
+      func andThen {
         case Success(r) =>
           applicationRepository.returnLockForApplications(lockInfo)
             .map(_ => r)
@@ -239,9 +259,8 @@ class ApplicationManagementServiceImpl(
           applicationRepository.returnLockForApplications(lockInfo)
             .map(_ => throw f)
       }
-    })
+    }
   }
-
 
   private def startServices(keysSet: Set[ServiceKeyDescription]): Future[Seq[Service]] =
     serviceManagementService.fetchServicesUnsync(keysSet).flatMap(services => {
@@ -268,85 +287,78 @@ class ApplicationManagementServiceImpl(
         serviceManagementService.deleteService(serv.id)
       }).map(_ => Unit))
 
-
-  override def deleteApplication(id: Long): Future[Unit] =
-    executeWithSync(() => applicationRepository.get(id).flatMap {
-      case Some(application) =>
-        val keysSet = application.executionGraph.stages.flatMap(_.services.map(_.serviceDescription)).toSet
-        applicationRepository.delete(id)
-          .flatMap(_ =>
-            removeServiceIfNeeded(keysSet, id)
-              .map(_ => internalManagerEventsPublisher.applicationRemoved(application))
-          )
-      case _ =>
-        Future.successful(Unit)
-    })
-
-  def updateApplications(req: ApplicationCreateOrUpdateRequest): Future[Application] =
-    executeWithSync(() => applicationRepository.get(req.id.getOrElse(throw new IllegalArgumentException(s"id required $req")))
-      .flatMap {
-        case Some(application) =>
-          val keysSetOld = application.executionGraph.stages.flatMap(_.services.map(_.serviceDescription)).toSet
-          val keysSetNew = req.executionGraph.stages.flatMap(_.services.map(_.serviceDescription)).toSet
-
-
-          removeServiceIfNeeded(keysSetOld -- keysSetNew, application.id)
-            .flatMap(_ =>
-              startServices(keysSetNew -- keysSetOld).flatMap(_ => {
-                val app = req.toApplication
-                applicationRepository.update(app).map(_ => {
-                  internalManagerEventsPublisher.applicationChanged(app)
-                  app
-                })
-              })
-            )
-        case None =>
-          throw new IllegalArgumentException(s"Can't find application $req")
-      })
-
-
-  /*
-
-  override def serve(req: ServeRequest): Future[ExecutionResult] = {
-    import ToPipelineStages._
-
-    def buildStages[A](target: Option[A], error: => String)
-      (implicit conv: ToPipelineStages[A]): Future[Seq[ExecutionUnit]] = {
-
-      target match {
-        case None => Future.failed(new IllegalArgumentException(error))
-        case Some(a) => Future.successful(conv.toStages(a, req.servePath))
-      }
-    }
-
-    val stagesFuture = req.serviceKey match {
-      case ApplicationKey(id) =>
-        val f = getApplication(id)
-        f.flatMap(w => buildStages(w, s"Can't find Application with id: $id"))
-      case ApplicationName(name) =>
-        val f = applicationRepository.getByName(name)
-        f.flatMap(w => buildStages(w, s"Can't find Application with name: $name"))
-      case ModelById(id) =>
-        val f = modelServiceRepository.get(id)
-        f.flatMap(m => buildStages(m, s"Can't find model with id: $id"))
-      case ModelByName(name, None) =>
-        val f = modelServiceRepository.getLastModelServiceByModelName(name)
-        f.flatMap(m => buildStages(m, s"Can find model with name: $name"))
-      case ModelByName(name, Some(version)) =>
-        val f = modelServiceRepository.getLastModelServiceByModelNameAndVersion(name, version)
-        f.flatMap(m => buildStages(m, s"Can find model with name: $name, version: $version"))
-    }
-
-    stagesFuture.flatMap(stages => {
-      val cmd = ExecutionCommand(
-        headers = req.headers,
-        json = req.inputData,
-        pipe = stages
+  private def reqToApplication(appReq: ApplicationCreateOrUpdateRequest): Future[Application] = {
+    inferAppContract(appReq).map { inferredContract =>
+      Application(
+        id = appReq.id.getOrElse(0),
+        name = appReq.name,
+        contract = inferredContract,
+        executionGraph = appReq.executionGraph
       )
-      logger.info(s"TRY INVOKE $cmd")
-      runtimeMeshConnector.execute(cmd)
-    })
+    }
   }
 
-  */
+  private def inferAppContract(application: ApplicationCreateOrUpdateRequest): Future[ModelContract] = {
+    application.executionGraph.stages match {
+      case stage :: Nil if stage.services.lengthCompare(1) == 0 => // single model version
+        val serviceDesc = stage.services.head
+        serviceManagementService.fetchServicesUnsync(Set(serviceDesc.serviceDescription)).map { services =>
+          services.head.model match {
+            case Some(model) => model.modelContract
+            case None => throw new IllegalArgumentException(s"Service $serviceDesc has no related model.")
+          }
+        }
+      case _ => inferPipelineSignature(application).map(sig => ModelContract(application.name, Seq(sig)))
+    }
+  }
+
+  private def inferStageSignature(stage: Map[ServiceKeyDescription, String]): Future[ModelSignature] = {
+    Future.sequence {
+      stage.map {
+        case (sId, signature) =>
+          serviceManagementService.fetchServicesUnsync(Set(sId)).map { maybeService =>
+            val service = maybeService
+              .headOption
+              .getOrElse(throw new IllegalArgumentException(s"Service with id $sId is not found"))
+            val m = service.model.getOrElse(throw new IllegalArgumentException(s"Service with id $sId doesn't have a Model"))
+            m.modelContract.signatures
+              .find(_.signatureName == signature)
+              .getOrElse(throw new IllegalArgumentException(s"Signature $signature for service $sId is not found"))
+
+          }
+      }.toList
+    }.map {
+      _.foldRight(ModelSignature.defaultInstance) {
+        case (sig1, sig2) => ModelSignatureOps.merge(sig1, sig2)
+      }
+    }
+  }
+
+  private def inferPipelineSignature(application: ApplicationCreateOrUpdateRequest): Future[ModelSignature] = {
+    val stages = application.executionGraph.stages.map { st =>
+      st.services.map { s =>
+        s.serviceDescription -> st.signatureName
+      }.toMap
+    }
+    for {
+      inputs <- inferStageSignature(stages.head)
+      outputs <- inferStageSignature(stages.last)
+    } yield {
+      ModelSignature(
+        application.name,
+        inputs.inputs,
+        outputs.outputs
+      )
+    }
+  }
+
+  private def createStageSignature(idx: Long, stages: Seq[ServiceWithSignature]): ModelSignature = {
+    val signatures = stages.map { info =>
+      info.s.model.getOrElse(throw new IllegalArgumentException(s"Can't find contract for service $info"))
+        .modelContract.signatures
+        .find(_.signatureName == info.signatureName)
+        .getOrElse(throw new IllegalArgumentException(s"${info.signatureName} signature doesn't exist"))
+    }
+    signatures.fold(ModelSignature.defaultInstance)(ModelSignatureOps.merge)
+  }
 }
