@@ -17,7 +17,7 @@ import scala.concurrent.duration._
 
 object ManagerBoot extends App with Logging {
   try {
-    implicit val system       = ActorSystem("manager")
+    implicit val system = ActorSystem("manager")
     implicit val materializer = ActorMaterializer()
     implicit val ex           = system.dispatcher
     implicit val timeout      = Timeout(5.minute)
