@@ -24,14 +24,20 @@ class LocalCloudDriverService(
 )(implicit val ex: ExecutionContext) extends CloudDriverService {
 
   override def serviceList(): Future[Seq[CloudService]] = Future({
-    val realServices = collectCloudService(
+    postProcessAllServiceList(getAllServices())
+  })
+
+  protected def postProcessAllServiceList(services: Seq[CloudService]): Seq[CloudService] = {
+    services :+ createManagerCloudService() :+ createManagerHttpCloudService()
+  }
+
+  protected def getAllServices(): Seq[CloudService] =
+    collectCloudService(
       dockerClient.listContainers(
         ListContainersParam.withLabel(LABEL_HS_SERVICE_MARKER, LABEL_HS_SERVICE_MARKER),
         ListContainersParam.allContainers()
       ).toSeq
     )
-    realServices :+ createManagerCloudService() :+ createManagerHttpCloudService()
-  })
 
   private def startModel(service: Service): String = {
     val model = service.model.getOrElse(throw new IllegalArgumentException("ModelVersion required"))
@@ -50,6 +56,18 @@ class LocalCloudDriverService(
     s"s${service.id}model${model.modelName}"
   }
 
+  protected def createMainApplicationHostConfigBuilder(): HostConfig.Builder =
+    HostConfig.builder()
+      .portBindings(createPortBindingsMap())
+
+  private def createPortBindingsMap(): util.Map[String, util.List[PortBinding]] = {
+    val publishPorts = new util.HashMap[String, util.List[PortBinding]]()
+    val bindingsList = new util.ArrayList[PortBinding]()
+    bindingsList.add(PortBinding.randomPort("0.0.0.0"))
+    publishPorts.put(DEFAULT_APP_PORT.toString, bindingsList)
+    publishPorts
+  }
+
   override def deployService(service: Service): Future[CloudService] = Future.apply({
     val modelContainerId = service.model.map(_ => startModel(service))
     val javaLabels = mapAsJavaMap(getRuntimeLabels(service) ++ Map(
@@ -64,8 +82,7 @@ class LocalCloudDriverService(
       LABEL_SERVICE_ID -> service.id.toString
     )
 
-    val builder = HostConfig.builder()
-      .portBindings(createPortBindingsMap())
+    val builder = createMainApplicationHostConfigBuilder()
 
     modelContainerId.foreach(_ => {
       builder.volumesFrom(generateModelContainerName(service))
@@ -85,37 +102,37 @@ class LocalCloudDriverService(
     cloudService
   })
 
-  private def createPortBindingsMap(): util.Map[String, util.List[PortBinding]] = {
-    val publishPorts = new util.HashMap[String, util.List[PortBinding]]()
-    val bindingsList = new util.ArrayList[PortBinding]()
-    bindingsList.add(PortBinding.randomPort("0.0.0.0"))
-    publishPorts.put(DEFAULT_APP_PORT.toString, bindingsList)
-    publishPorts
-  }
-
   private def collectCloudService(containers: Seq[Container]): Seq[CloudService] = {
     val map = containers.groupBy(c => c.labels().get(LABEL_SERVICE_ID))
     map.entrySet().map(p => {
-      mapToCloudService(
+      Try(mapToCloudService(
         p.getKey.toLong,
         p.getValue
-      )
-    }).toSeq
+      ))
+    }).filter(_.isSuccess).map(_.get).toSeq
   }
 
-  private def mapToCloudService(serviceId: Long, seq: Seq[Container]): CloudService = {
+  protected def mapMainApplicationInstance(containerApp: Container): MainApplicationInstance =
+    MainApplicationInstance(
+      instanceId = containerApp.id(),
+      host = managerConfiguration.sidecar.host,
+      port = containerApp.ports().head.publicPort()
+    )
+
+  protected def mapToCloudService(serviceId: Long, seq: Seq[Container]): CloudService = {
     val map = seq.map(c => c.labels().get(LABEL_DEPLOYMENT_TYPE) -> c).toMap
 
     val containerApp = map.getOrElse(DEPLOYMENT_TYPE_APP, throw new RuntimeException(s"Can't find APP for service $serviceId in $seq"))
     val containerModel = map.get(DEPLOYMENT_TYPE_MODEL)
 
+    val mainApplicationInstance = mapMainApplicationInstance(containerApp)
     CloudService(
       id = serviceId,
-      serviceName = containerApp.labels().get(LABEL_SERVICE_NAME),
+      serviceName = Option(containerApp.labels().get(LABEL_SERVICE_NAME))
+        .getOrElse(throw new RuntimeException(s"$LABEL_SERVICE_NAME required $containerApp")),
       statusText = containerApp.status(),
       cloudDriverId = containerApp.id(),
       environmentName = None,
-      configParams = Map(), //TODO fetch from somewhere!
       runtimeInfo = MainApplicationInstanceInfo(
         runtimeId = containerApp.labels().get(LABEL_RUNTIME_ID).toLong,
         runtimeName = containerApp.image(),
@@ -133,14 +150,10 @@ class LocalCloudDriverService(
       }),
       instances = Seq(
         ServiceInstance(
-          advertisedHost = managerConfiguration.sidecar.host,
-          advertisedPort = containerApp.ports().head.publicPort(),
+          advertisedHost = mainApplicationInstance.host,
+          advertisedPort = mainApplicationInstance.port,
           instanceId = containerApp.id(),
-          mainApplication = MainApplicationInstance(
-            instanceId = containerApp.id(),
-            host = managerConfiguration.sidecar.host,
-            port = containerApp.ports().head.publicPort()
-          ),
+          mainApplication = mainApplicationInstance,
           sidecar = SidecarInstance(
             instanceId = "managerConfiguration.sidecar",
             host = managerConfiguration.sidecar.host,
@@ -166,7 +179,6 @@ class LocalCloudDriverService(
       statusText = "OK",
       cloudDriverId = name,
       environmentName = None,
-      configParams = Map(),
       runtimeInfo = MainApplicationInstanceInfo(
         runtimeId = id,
         runtimeName = image,
@@ -251,13 +263,15 @@ class LocalCloudDriverService(
   })
 
   override def removeService(serviceId: Long): Future[Unit] = Future.apply({
-    dockerClient.listContainers(
-      ListContainersParam.withLabel(LABEL_SERVICE_ID, serviceId.toString),
-      ListContainersParam.allContainers()
-    ).foreach(s => dockerClient.removeContainer(
-      s.id(),
-      RemoveContainerParam.forceKill(true),
-      RemoveContainerParam.removeVolumes(true)
-    ))
+    if (serviceId > 0) {
+      dockerClient.listContainers(
+        ListContainersParam.withLabel(LABEL_SERVICE_ID, serviceId.toString),
+        ListContainersParam.allContainers()
+      ).foreach(s => dockerClient.removeContainer(
+        s.id(),
+        RemoveContainerParam.forceKill(true),
+        RemoveContainerParam.removeVolumes(true)
+      ))
+    }
   })
 }

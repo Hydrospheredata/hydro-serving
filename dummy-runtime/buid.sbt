@@ -18,6 +18,8 @@ dockerfile in docker := {
     env("SIDECAR_HOST","localhost")
     env("MODEL_DIR","/model")
 
+    label("DEPLOYMENT_TYPE", "APP")
+
     add(dockerFilesLocation, "/hydro-serving/app/")
     // Add all files on the classpath
     add(classpath.files, "/hydro-serving/app/lib/")

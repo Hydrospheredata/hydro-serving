@@ -94,14 +94,12 @@ dockerfile in docker := {
     // Base image
     from("openjdk:8u151-jre-alpine")
 
-    env("HS_SERVICE_ID", "manager")
-
-    label("hydroServingServiceId", "-20")
+    label("SERVICE_ID", "-20")
     label("HS_SERVICE_MARKER", "HS_SERVICE_MARKER")
-    label("RUNTIME_TYPE_NAME", "hysroserving-java")
-    label("RUNTIME_TYPE_VERSION", version.value)
-    label("MODEL_NAME", "manager")
-    label("MODEL_VERSION", version.value)
+    label("DEPLOYMENT_TYPE", "APP")
+    label("RUNTIME_ID", "-20")
+    label("SERVICE_NAME", "manager")
+
 
     add(dockerFilesLocation, "/hydro-serving/app/")
     // Add all files on the classpath

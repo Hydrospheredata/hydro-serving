@@ -51,6 +51,7 @@ class EndpointDSActor(
       })
     }).getOrElse(Seq()).toSeq
 
+
   override def receiveStoreChangeEvents(mes: Any): Boolean =
     mes match {
       case r: RenewEndpoints =>
