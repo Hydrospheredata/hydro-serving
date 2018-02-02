@@ -4,7 +4,6 @@ import com.zaxxer.hikari.{HikariConfig, HikariDataSource}
 import io.hydrosphere.slick.HydrospherePostgresDriver
 import org.flywaydb.core.Flyway
 
-
 class DatabaseService(hikariConfig: HikariConfig) {
   val dataSource = new HikariDataSource(hikariConfig)
 

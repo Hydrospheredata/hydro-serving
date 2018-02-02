@@ -18,6 +18,11 @@ trait ModelBuildRepository extends BaseRepository[ModelBuild, Long] {
 
   def listByModelId(id: Long): Future[Seq[ModelBuild]]
 
-  def finishBuild(id: Long, status: ModelBuildStatus, statusText: String, finished: LocalDateTime,
-    modelRuntime: Option[ModelVersion]): Future[Int]
+  def finishBuild(
+    id: Long,
+    status: ModelBuildStatus,
+    statusText: String,
+    finished: LocalDateTime,
+    modelRuntime: Option[ModelVersion]
+  ): Future[Int]
 }

@@ -4,7 +4,11 @@ import akka.http.scaladsl.model.{ContentTypes, HttpEntity, HttpResponse, StatusC
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server._
 import io.hydrosphere.serving.manager.connector.{ExecutionFailure, ExecutionSuccess}
-import io.hydrosphere.serving.manager.connector.{ExecutionFailure, ExecutionResult, ExecutionSuccess}
+import io.hydrosphere.serving.manager.connector.{
+  ExecutionFailure,
+  ExecutionResult,
+  ExecutionSuccess
+}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.Future
@@ -25,8 +29,10 @@ trait ServingDataDirectives extends Logging {
         complete(
           HttpResponse(
             status = StatusCodes.InternalServerError,
-            entity = HttpEntity(ContentTypes.`text/plain(UTF-8)`, s"Serving failed ${err.getMessage}")
-          ))
+            entity =
+              HttpEntity(ContentTypes.`text/plain(UTF-8)`, s"Serving failed ${err.getMessage}")
+          )
+        )
     })
   }
 }

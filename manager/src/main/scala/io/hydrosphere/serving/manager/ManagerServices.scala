@@ -5,12 +5,19 @@ import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.spotify.docker.client._
 import io.grpc.{Channel, ClientInterceptors, ManagedChannelBuilder}
-import io.hydrosphere.serving.manager.connector.{HttpEnvoyAdminConnector, HttpRuntimeMeshConnector, RuntimeMeshConnector}
+import io.hydrosphere.serving.manager.connector.{
+  HttpEnvoyAdminConnector,
+  HttpRuntimeMeshConnector,
+  RuntimeMeshConnector
+}
 import io.hydrosphere.serving.manager.grpc.manager.AuthorityReplacerInterceptor
 import io.hydrosphere.serving.manager.service.clouddriver._
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
-import io.hydrosphere.serving.manager.service.envoy.{EnvoyGRPCDiscoveryService, EnvoyGRPCDiscoveryServiceImpl}
+import io.hydrosphere.serving.manager.service.envoy.{
+  EnvoyGRPCDiscoveryService,
+  EnvoyGRPCDiscoveryServiceImpl
+}
 import io.hydrosphere.serving.manager.service.modelbuild._
 import io.hydrosphere.serving.manager.service.prometheus.PrometheusMetricsServiceImpl
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
@@ -18,9 +25,6 @@ import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.ExecutionContext
 
-/**
-  *
-  */
 class ManagerServices(
   val managerRepositories: ManagerRepositories,
   val managerConfiguration: ManagerConfiguration,
@@ -37,21 +41,28 @@ class ManagerServices(
     .usePlaintext(true)
     .build
 
-  val channel: Channel = ClientInterceptors.intercept(managedChannel, new AuthorityReplacerInterceptor)
+  val channel: Channel =
+    ClientInterceptors.intercept(managedChannel, new AuthorityReplacerInterceptor)
 
-  val servingMeshGrpcClient: PredictionServiceGrpc.PredictionServiceStub = PredictionServiceGrpc.stub(channel)
+  val servingMeshGrpcClient: PredictionServiceGrpc.PredictionServiceStub =
+    PredictionServiceGrpc.stub(channel)
 
-  val runtimeMeshConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector(managerConfiguration.sidecar)
+  val runtimeMeshConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector(
+    managerConfiguration.sidecar
+  )
 
-  val sourceManagementService = new SourceManagementServiceImpl(managerRepositories.sourceRepository)
+  val sourceManagementService = new SourceManagementServiceImpl(
+    managerRepositories.sourceRepository
+  )
   sourceManagementService.createWatchers
   managerConfiguration.modelSources.foreach(sourceManagementService.addSource)
 
-  val modelBuildService: ModelBuildService = new LocalModelBuildService(dockerClient, sourceManagementService)
+  val modelBuildService: ModelBuildService =
+    new LocalModelBuildService(dockerClient, sourceManagementService)
 
   val modelPushService: ModelPushService = managerConfiguration.dockerRepository match {
     case c: ECSDockerRepositoryConfiguration => new ECSModelPushService(dockerClient, c)
-    case _ => new EmptyModelPushService
+    case _                                   => new EmptyModelPushService
   }
 
   val internalManagerEventsPublisher = new InternalManagerEventsPublisher
@@ -66,8 +77,18 @@ class ManagerServices(
   )
 
   val cloudDriverService: CloudDriverService = managerConfiguration.cloudDriver match {
-    case _: DockerCloudDriverConfiguration => new DockerComposeCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
-    case _ => new LocalCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
+    case _: DockerCloudDriverConfiguration =>
+      new DockerComposeCloudDriverService(
+        dockerClient,
+        managerConfiguration,
+        internalManagerEventsPublisher
+      )
+    case _ =>
+      new LocalCloudDriverService(
+        dockerClient,
+        managerConfiguration,
+        internalManagerEventsPublisher
+      )
 
   }
 
@@ -78,8 +99,10 @@ class ManagerServices(
       logger.info(s"Cache disabled for RuntimeDeployService")
       None
   }
-*/
-  val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(managerRepositories.runtimeRepository)
+   */
+  val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(
+    managerRepositories.runtimeRepository
+  )
 
   val serviceManagementService: ServiceManagementService = new ServiceManagementServiceImpl(
     cloudDriverService,
@@ -90,13 +113,14 @@ class ManagerServices(
     internalManagerEventsPublisher
   )
 
-  val applicationManagementService: ApplicationManagementService = new ApplicationManagementServiceImpl(
-    runtimeMeshConnector,
-    managerRepositories.applicationRepository,
-    serviceManagementService,
-    servingMeshGrpcClient,
-    internalManagerEventsPublisher
-  )
+  val applicationManagementService: ApplicationManagementService =
+    new ApplicationManagementServiceImpl(
+      runtimeMeshConnector,
+      managerRepositories.applicationRepository,
+      serviceManagementService,
+      servingMeshGrpcClient,
+      internalManagerEventsPublisher
+    )
 
   val envoyGRPCDiscoveryService: EnvoyGRPCDiscoveryService = new EnvoyGRPCDiscoveryServiceImpl(
     serviceManagementService,
@@ -107,7 +131,8 @@ class ManagerServices(
 
   val envoyAdminConnector = new HttpEnvoyAdminConnector()
 
-  val prometheusMetricsService = new PrometheusMetricsServiceImpl(serviceManagementService, envoyAdminConnector)
+  val prometheusMetricsService =
+    new PrometheusMetricsServiceImpl(serviceManagementService, envoyAdminConnector)
 
   val repoActor: ActorRef = system.actorOf(RepositoryIndexActor.props(modelManagementService))
 }

@@ -14,15 +14,18 @@ import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.JavaConversions._
 
-
 object SparkModelFetcher extends ModelFetcher with Logging {
-  private def getStageMetadata(source: ModelSource, model: String, stage: String): SparkModelMetadata = {
+  private def getStageMetadata(
+    source: ModelSource,
+    model: String,
+    stage: String
+  ): SparkModelMetadata = {
     getMetadata(source, s"$model/stages/$stage")
   }
 
   private def getMetadata(source: ModelSource, model: String): SparkModelMetadata = {
     val metaFile = source.getReadableFile(s"$model/metadata/part-00000")
-    val metaStr = Files.readAllLines(metaFile.toPath).mkString
+    val metaStr  = Files.readAllLines(metaFile.toPath).mkString
     SparkModelMetadata.fromJson(metaStr)
   }
 
@@ -35,28 +38,30 @@ object SparkModelFetcher extends ModelFetcher with Logging {
         getStageMetadata(source, directory, stage)
       }
       val mappers = stagesMetadata.map(SparkMlTypeMapper.apply)
-      val inputs = mappers.map(_.inputSchema)
+      val inputs  = mappers.map(_.inputSchema)
       val outputs = mappers.map(_.outputSchema)
-      val labels = mappers.flatMap(_.labelSchema)
+      val labels  = mappers.flatMap(_.labelSchema)
 
       val allLabels = labels.map(_.fieldName)
-      val allIns = inputs.flatten.map(x => x.fieldName -> x).toMap
-      val allOuts = outputs.flatten.map(x => x.fieldName -> x).toMap
+      val allIns    = inputs.flatten.map(x => x.fieldName -> x).toMap
+      val allOuts   = outputs.flatten.map(x => x.fieldName -> x).toMap
 
       val inputSchema = if (allLabels.isEmpty) {
-        (allIns -- allOuts.keys).map{case (_,y) => y}.toList
+        (allIns -- allOuts.keys).map { case (_, y) => y }.toList
       } else {
-        val trainInputs = stagesMetadata.filter { stage =>
-          val mapper = SparkMlTypeMapper(stage)
-          val outs = mapper.outputSchema
-          outs.map(x => x.fieldName -> x).toMap.keys.containsAll(allLabels)
-        }.map{ stage =>
-          SparkMlTypeMapper(stage).inputSchema
-        }
+        val trainInputs = stagesMetadata
+          .filter { stage =>
+            val mapper = SparkMlTypeMapper(stage)
+            val outs   = mapper.outputSchema
+            outs.map(x => x.fieldName -> x).toMap.keys.containsAll(allLabels)
+          }
+          .map { stage =>
+            SparkMlTypeMapper(stage).inputSchema
+          }
         val allTrains = trainInputs.flatten.map(x => x.fieldName -> x).toMap
-        (allIns -- allOuts.keys -- allTrains.keys).map{case (_,y) => y}.toList
+        (allIns -- allOuts.keys -- allTrains.keys).map { case (_, y) => y }.toList
       }
-      val outputSchema = (allOuts -- allIns.keys).map{case (_,y) => y}.toList
+      val outputSchema = (allOuts -- allIns.keys).map { case (_, y) => y }.toList
 
       val signature = ModelSignature("default_spark", inputSchema, outputSchema)
 
@@ -69,7 +74,7 @@ object SparkModelFetcher extends ModelFetcher with Logging {
         ModelMetadata(
           modelName = directory,
           modelType = ModelType.Spark(pipelineMetadata.sparkVersion),
-          contract = contract
+          contract  = contract
         )
       )
     } catch {
@@ -82,4 +87,3 @@ object SparkModelFetcher extends ModelFetcher with Logging {
     }
   }
 }
-

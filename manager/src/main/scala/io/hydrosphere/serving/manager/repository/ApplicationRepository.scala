@@ -16,5 +16,8 @@ trait ApplicationRepository extends BaseRepository[Application, Long] {
 
   def returnLockForApplications(lockInfo: Any): Future[Unit]
 
-  def getKeysNotInApplication(keysSet: Set[ServiceKeyDescription], applicationId: Long):Future[Seq[Application]]
+  def getKeysNotInApplication(
+    keysSet: Set[ServiceKeyDescription],
+    applicationId: Long
+  ): Future[Seq[Application]]
 }

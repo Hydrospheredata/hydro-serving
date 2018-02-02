@@ -17,7 +17,8 @@ import collection.JavaConversions._
 class DockerRuntimeDeployService(
   dockerClient: DockerClient,
   managerConfiguration: ManagerConfiguration
-) extends RuntimeDeployService with Logging {
+) extends RuntimeDeployService
+  with Logging {
 
   /*private val dockerCloudDriverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[DockerCloudDriverConfiguration]
 

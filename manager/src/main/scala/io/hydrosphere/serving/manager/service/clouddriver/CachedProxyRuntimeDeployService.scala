@@ -5,7 +5,9 @@ import org.apache.logging.log4j.scala.Logging
 /**
   *
   */
-class CachedProxyRuntimeDeployService(original: RuntimeDeployService) extends RuntimeDeployService with Logging {
+class CachedProxyRuntimeDeployService(original: RuntimeDeployService)
+  extends RuntimeDeployService
+  with Logging {
   /*private var serviceCache: Map[Long, ServiceInfo] = Map()
 
   private var instancesCache: Map[Long, Seq[ModelServiceInstance]] = Map()

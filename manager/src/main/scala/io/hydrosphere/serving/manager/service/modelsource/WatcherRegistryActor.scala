@@ -1,7 +1,10 @@
 package io.hydrosphere.serving.manager.service.modelsource
 
 import akka.actor.{Actor, ActorLogging, ActorRef, Props}
-import io.hydrosphere.serving.manager.service.modelsource.WatcherRegistryActor.{AddWatcher, ListWatchers}
+import io.hydrosphere.serving.manager.service.modelsource.WatcherRegistryActor.{
+  AddWatcher,
+  ListWatchers
+}
 
 import scala.collection.concurrent.TrieMap
 

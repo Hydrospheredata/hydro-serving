@@ -11,15 +11,33 @@ import io.swagger.annotations._
 @Api(produces = "application/json", tags = Array("Model Sources"))
 class ModelSourceController(sourceService: SourceManagementService) extends ManagerJsonSupport {
   @Path("/")
-  @ApiOperation(value = "Add model source", notes = "Add model source", nickname = "addSource", httpMethod = "POST")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "CreateModelSourceRequest", required = true,
-      dataTypeClass = classOf[CreateModelSourceRequest], paramType = "body")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "ModelSourceConfigAux", response = classOf[ModelSourceConfigAux]),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
+  @ApiOperation(
+    value      = "Add model source",
+    notes      = "Add model source",
+    nickname   = "addSource",
+    httpMethod = "POST"
+  )
+  @ApiImplicitParams(
+    Array(
+      new ApiImplicitParam(
+        name          = "body",
+        value         = "CreateModelSourceRequest",
+        required      = true,
+        dataTypeClass = classOf[CreateModelSourceRequest],
+        paramType     = "body"
+      )
+    )
+  )
+  @ApiResponses(
+    Array(
+      new ApiResponse(
+        code     = 200,
+        message  = "ModelSourceConfigAux",
+        response = classOf[ModelSourceConfigAux]
+      ),
+      new ApiResponse(code = 500, message = "Internal server error")
+    )
+  )
   def addModelSource = path("api" / "v1" / "modelSource") {
     post {
       entity(as[CreateModelSourceRequest]) { r =>
@@ -32,11 +50,23 @@ class ModelSourceController(sourceService: SourceManagementService) extends Mana
   }
 
   @Path("/")
-  @ApiOperation(value = "listModelSources", notes = "listModelSources", nickname = "listModelSources", httpMethod = "GET")
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "ModelSourceConfigAux", response = classOf[ModelSourceConfigAux], responseContainer = "List"),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
+  @ApiOperation(
+    value      = "listModelSources",
+    notes      = "listModelSources",
+    nickname   = "listModelSources",
+    httpMethod = "GET"
+  )
+  @ApiResponses(
+    Array(
+      new ApiResponse(
+        code              = 200,
+        message           = "ModelSourceConfigAux",
+        response          = classOf[ModelSourceConfigAux],
+        responseContainer = "List"
+      ),
+      new ApiResponse(code = 500, message = "Internal server error")
+    )
+  )
   def listModelSources = path("api" / "v1" / "modelSource") {
     get {
       complete(sourceService.getSourceConfigs)

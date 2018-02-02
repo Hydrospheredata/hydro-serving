@@ -17,9 +17,6 @@ import scala.collection.immutable.Seq
 import scala.concurrent.ExecutionContext
 import scala.reflect.runtime.{universe => ru}
 
-/**
-  *
-  */
 class ManagerHttpApi(
   managerServices: ManagerServices,
   managerConfiguration: ManagerConfiguration
@@ -42,9 +39,13 @@ class ManagerHttpApi(
     managerServices.applicationManagementService
   )
 
-  val applicationController = new ApplicationController(managerServices.applicationManagementService)
+  val applicationController = new ApplicationController(
+    managerServices.applicationManagementService
+  )
 
-  val prometheusMetricsController = new PrometheusMetricsController(managerServices.prometheusMetricsService)
+  val prometheusMetricsController = new PrometheusMetricsController(
+    managerServices.prometheusMetricsService
+  )
 
   val swaggerController = new SwaggerDocController(system) {
     override val apiTypes: Seq[ru.Type] = Seq(
@@ -100,5 +101,5 @@ class ManagerHttpApi(
     }
   }
 
-  val serverBinding=Http().bindAndHandle(routes, "0.0.0.0", managerConfiguration.application.port)
+  val serverBinding = Http().bindAndHandle(routes, "0.0.0.0", managerConfiguration.application.port)
 }

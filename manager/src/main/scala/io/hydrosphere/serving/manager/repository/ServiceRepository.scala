@@ -20,7 +20,10 @@ trait ServiceRepository extends BaseRepository[Service, Long] {
 
   def getLastServiceByModelName(modelName: String): Future[Option[Service]]
 
-  def getLastServiceByModelNameAndVersion(modelName: String, modelVersion: Long): Future[Option[Service]]
+  def getLastServiceByModelNameAndVersion(
+    modelName: String,
+    modelVersion: Long
+  ): Future[Option[Service]]
 
   def getByModelVersionIds(modelIds: Seq[Long]): Future[Seq[Service]]
 

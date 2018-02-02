@@ -11,7 +11,7 @@ import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.Future
 
-class DummyServiceImpl extends PredictionService with Logging{
+class DummyServiceImpl extends PredictionService with Logging {
 
   import scala.concurrent.ExecutionContext.Implicits._
 

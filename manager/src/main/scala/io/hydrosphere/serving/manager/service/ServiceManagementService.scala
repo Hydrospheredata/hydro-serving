@@ -19,16 +19,20 @@ case class CreateServiceRequest(
   environmentId: Option[Long],
   modelVersionId: Option[Long]
 ) {
-  def toService(runtime: Runtime, model: Option[ModelVersion], environment: Option[Environment]): Service =
+  def toService(
+    runtime: Runtime,
+    model: Option[ModelVersion],
+    environment: Option[Environment]
+  ): Service =
     Service(
-      id = 0,
-      serviceName = this.serviceName,
+      id            = 0,
+      serviceName   = this.serviceName,
       cloudDriverId = None,
-      runtime = runtime,
-      model = model,
-      statusText = "New",
-      environment = environment,
-      configParams = runtime.configParams ++ this.configParams.getOrElse(Map())
+      runtime       = runtime,
+      model         = model,
+      statusText    = "New",
+      environment   = environment,
+      configParams  = runtime.configParams ++ this.configParams.getOrElse(Map())
     )
 }
 
@@ -38,9 +42,9 @@ case class CreateEnvironmentRequest(
 ) {
   def toEnvironment: Environment = {
     Environment(
-      name = this.name,
+      name         = this.name,
       placeholders = this.placeholders,
-      id = 0
+      id           = 0
     )
   }
 }
@@ -86,90 +90,108 @@ class ServiceManagementServiceImpl(
   modelVersionRepository: ModelVersionRepository,
   environmentRepository: EnvironmentRepository,
   internalManagerEventsPublisher: InternalManagerEventsPublisher
-)(implicit val ex: ExecutionContext) extends ServiceManagementService with Logging {
+)(implicit val ex: ExecutionContext)
+  extends ServiceManagementService
+  with Logging {
 
   private def mapInternalService(cloudService: CloudService): Service = {
     Service(
-      id = cloudService.id,
-      serviceName = cloudService.serviceName,
+      id            = cloudService.id,
+      serviceName   = cloudService.serviceName,
       cloudDriverId = Some(cloudService.cloudDriverId),
       runtime = Runtime(
-        id = cloudService.runtimeInfo.runtimeId,
-        name = cloudService.runtimeInfo.runtimeName,
-        version = cloudService.runtimeInfo.runtimeVersion,
+        id                = cloudService.runtimeInfo.runtimeId,
+        name              = cloudService.runtimeInfo.runtimeName,
+        version           = cloudService.runtimeInfo.runtimeVersion,
         suitableModelType = List(ModelType.Unknown()),
-        tags = List(),
-        configParams = Map()
+        tags              = List(),
+        configParams      = Map()
       ),
-      environment = cloudService.environmentName.map(n => Environment(
-        id = -1L,
-        name = n,
-        placeholders = Seq()
-      )),
-      model = cloudService.modelInfo.map(m => ModelVersion(
-        id = m.modelId,
-        imageName = m.imageName,
-        imageTag = m.imageTag,
-        imageSHA256 = s"${m.imageName}:${m.imageTag}",
-        created = LocalDateTime.now(),
-        modelName = m.modelName,
-        modelVersion = m.modelVersion,
-        modelType = m.modelType,
-        source = None,
-        model = None,
-        modelContract = ModelContract.defaultInstance
-      )),
-      statusText = cloudService.statusText,
+      environment = cloudService.environmentName.map(
+        n =>
+          Environment(
+            id           = -1L,
+            name         = n,
+            placeholders = Seq()
+        )
+      ),
+      model = cloudService.modelInfo.map(
+        m =>
+          ModelVersion(
+            id            = m.modelId,
+            imageName     = m.imageName,
+            imageTag      = m.imageTag,
+            imageSHA256   = s"${m.imageName}:${m.imageTag}",
+            created       = LocalDateTime.now(),
+            modelName     = m.modelName,
+            modelVersion  = m.modelVersion,
+            modelType     = m.modelType,
+            source        = None,
+            model         = None,
+            modelContract = ModelContract.defaultInstance
+        )
+      ),
+      statusText   = cloudService.statusText,
       configParams = Map()
     )
   }
 
   private def syncServices(services: Seq[Service]): Future[Seq[Service]] =
-    cloudDriverService.services(services.map(s => s.id).toSet).map(cloudServices => {
-      val map = cloudServices.map(p => p.id -> p).toMap
-      services.map(s => {
-        map.get(s.id) match {
-          case Some(cs) =>
-            s.copy(statusText = cs.statusText)
-          case _ =>
-            s.copy(statusText = "Unknown")
-        }
-      })
-    })
-
-
-  override def allServices(): Future[Seq[Service]] =
-    cloudDriverService.serviceList().flatMap(cloudServices => {
-      serviceRepository.all().flatMap(services => {
-        val map = services.map(p => p.id -> p).toMap
-        Future.successful(cloudServices.map(s => {
+    cloudDriverService
+      .services(services.map(s => s.id).toSet)
+      .map(cloudServices => {
+        val map = cloudServices.map(p => p.id -> p).toMap
+        services.map(s => {
           map.get(s.id) match {
             case Some(cs) =>
-              cs.copy(statusText = s.statusText)
+              s.copy(statusText = cs.statusText)
             case _ =>
-              mapInternalService(s)
+              s.copy(statusText = "Unknown")
           }
-        }))
+        })
       })
-    })
+
+  override def allServices(): Future[Seq[Service]] =
+    cloudDriverService
+      .serviceList()
+      .flatMap(cloudServices => {
+        serviceRepository
+          .all()
+          .flatMap(services => {
+            val map = services.map(p => p.id -> p).toMap
+            Future.successful(cloudServices.map(s => {
+              map.get(s.id) match {
+                case Some(cs) =>
+                  cs.copy(statusText = s.statusText)
+                case _ =>
+                  mapInternalService(s)
+              }
+            }))
+          })
+      })
 
   private def fetchModel(modelId: Option[Long]): Future[Option[ModelVersion]] =
     modelId match {
       case Some(x) =>
-        modelVersionRepository.get(x)
-          .map(s => s.orElse(throw new IllegalArgumentException(s"Can't find ModelVersion with id=$x")))
+        modelVersionRepository
+          .get(x)
+          .map(
+            s => s.orElse(throw new IllegalArgumentException(s"Can't find ModelVersion with id=$x"))
+          )
       case None => Future.successful(None)
     }
 
-  private def fetchServingEnvironment(environmentId: Option[Long]): Future[Option[Environment]] = environmentId match {
-    case Some(x) => x match {
-      case AnyEnvironment.`anyEnvironmentId` =>
-        Future.successful(None)
-      case _ =>
-        environmentRepository.get(x)
+  private def fetchServingEnvironment(environmentId: Option[Long]): Future[Option[Environment]] =
+    environmentId match {
+      case Some(x) =>
+        x match {
+          case AnyEnvironment.`anyEnvironmentId` =>
+            Future.successful(None)
+          case _ =>
+            environmentRepository.get(x)
+        }
+      case None => Future.successful(None)
     }
-    case None => Future.successful(None)
-  }
 
   override def addService(r: CreateServiceRequest): Future[Service] = {
     //if(r.serviceName) throw new IllegalArgumentException
@@ -177,18 +199,23 @@ class ServiceManagementServiceImpl(
     fetchServingEnvironment(r.environmentId).flatMap(svEnv => {
       fetchModel(r.modelVersionId).flatMap(modelVersion => {
         runtimeRepository.get(r.runtimeId).flatMap {
-          case None => throw new IllegalArgumentException(s"Can't find Runtime with id=${r.runtimeId}")
+          case None =>
+            throw new IllegalArgumentException(s"Can't find Runtime with id=${r.runtimeId}")
           case Some(runtime) =>
-            serviceRepository.create(r.toService(runtime, modelVersion, svEnv))
+            serviceRepository
+              .create(r.toService(runtime, modelVersion, svEnv))
               .flatMap(newService => {
-                cloudDriverService.deployService(newService).flatMap(cloudService => {
-                  serviceRepository.updateCloudDriveId(cloudService.id, Some(cloudService.cloudDriverId))
-                    .map(_ => {
-                      val s = newService.copy(cloudDriverId = Some(cloudService.cloudDriverId))
-                      internalManagerEventsPublisher.serviceChanged(s)
-                      s
-                    })
-                })
+                cloudDriverService
+                  .deployService(newService)
+                  .flatMap(cloudService => {
+                    serviceRepository
+                      .updateCloudDriveId(cloudService.id, Some(cloudService.cloudDriverId))
+                      .map(_ => {
+                        val s = newService.copy(cloudDriverId = Some(cloudService.cloudDriverId))
+                        internalManagerEventsPublisher.serviceChanged(s)
+                        s
+                      })
+                  })
               })
         }
       })
@@ -196,52 +223,62 @@ class ServiceManagementServiceImpl(
   }
 
   override def getService(serviceId: Long): Future[Option[Service]] =
-    cloudDriverService.services(Set(serviceId))
+    cloudDriverService
+      .services(Set(serviceId))
       .flatMap(opt => {
-        val info = opt.headOption.getOrElse(throw new IllegalArgumentException(s"Can't find service with id $serviceId"))
+        val info = opt.headOption
+          .getOrElse(throw new IllegalArgumentException(s"Can't find service with id $serviceId"))
         info.id match {
           case CloudDriverService.MANAGER_ID =>
             Future.successful(Some(mapInternalService(info)))
           case CloudDriverService.GATEWAY_ID =>
             Future.successful(Some(mapInternalService(info)))
           case _ =>
-            serviceRepository.get(serviceId).map({
-              case Some(service) =>
-                Some(service.copy(statusText = info.statusText))
-              case _ => throw new IllegalArgumentException(s"Can't find service with id $serviceId")
-            })
+            serviceRepository
+              .get(serviceId)
+              .map({
+                case Some(service) =>
+                  Some(service.copy(statusText = info.statusText))
+                case _ =>
+                  throw new IllegalArgumentException(s"Can't find service with id $serviceId")
+              })
         }
       })
 
   //TODO check service in applications before delete
   override def deleteService(serviceId: Long): Future[Unit] =
-    serviceRepository.get(serviceId).flatMap({
-      case Some(x) =>
-        cloudDriverService.removeService(serviceId)
-          .flatMap(_ => serviceRepository.delete(serviceId)).map(_ =>
-          internalManagerEventsPublisher.serviceRemoved(x)
-        )
-      case None =>
-        Future.successful(Unit)
-    })
-
+    serviceRepository
+      .get(serviceId)
+      .flatMap({
+        case Some(x) =>
+          cloudDriverService
+            .removeService(serviceId)
+            .flatMap(_ => serviceRepository.delete(serviceId))
+            .map(_ => internalManagerEventsPublisher.serviceRemoved(x))
+        case None =>
+          Future.successful(Unit)
+      })
 
   override def servicesByIds(ids: Seq[Long]): Future[Seq[Service]] =
-    serviceRepository.fetchByIds(ids)
+    serviceRepository
+      .fetchByIds(ids)
       .flatMap(syncServices)
 
   override def getServicesByModel(modelId: Long): Future[Seq[Service]] =
-    serviceRepository.getByModelIds(Seq(modelId))
+    serviceRepository
+      .getByModelIds(Seq(modelId))
       .flatMap(syncServices)
 
   override def getServicesByRuntimes(runtimeIds: Set[Long]): Future[Seq[Service]] =
-    serviceRepository.getByRuntimeIds(runtimeIds)
+    serviceRepository
+      .getByRuntimeIds(runtimeIds)
       .flatMap(syncServices)
 
   override def serviceByFullName(fullName: String): Future[Option[Service]] =
     CloudDriverService.specialNames.get(fullName) match {
       case Some(id) =>
-        cloudDriverService.services(Set(id))
+        cloudDriverService
+          .services(Set(id))
           .map(p => p.headOption.map(mapInternalService))
       case None => serviceRepository.getByServiceName(fullName)
     }
@@ -277,7 +314,7 @@ class ServiceManagementServiceImpl(
 
         Future.failed(new UnsupportedOperationException)
       })
-*/
+   */
   /*
   JsonPredictRequest.fromServeRequest(req).map{ jsonRequest =>
       val validator = new PredictRequestContractValidator(??? /*ModelContract*/)
@@ -285,5 +322,5 @@ class ServiceManagementServiceImpl(
         // send to service grpcRequest
       }
     }
-  */
+ */
 }

@@ -7,7 +7,8 @@ import io.hydrosphere.serving.manager.model.api.ContractBuilders
 
 class UntypedMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
   private[this] val inputCols = Array("inputCol", "featuresCol")
-  private[this] val outputCols = Array("outputCol", "predictionCol", "probabilityCol", "rawPredictionCol")
+  private[this] val outputCols =
+    Array("outputCol", "predictionCol", "probabilityCol", "rawPredictionCol")
   private[this] val labelCol = "labelCol"
 
   override def labelSchema: Option[ModelField] = {
@@ -25,14 +26,13 @@ class UntypedMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
     inputCols
       .map(m.getParam[String])
       .flatMap {
-        _.map {
-          inputName =>
-            ContractBuilders.simpleTensorModelField(
-              inputName,
-              DataType.DT_STRING,
-              Some(Seq.empty),
-              unknownRank = true
-            )
+        _.map { inputName =>
+          ContractBuilders.simpleTensorModelField(
+            inputName,
+            DataType.DT_STRING,
+            Some(Seq.empty),
+            unknownRank = true
+          )
         }
       }
       .toList
@@ -42,14 +42,13 @@ class UntypedMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
     outputCols
       .map(m.getParam[String])
       .flatMap {
-        _.map {
-          inputName =>
-            ContractBuilders.simpleTensorModelField(
-              inputName,
-              DataType.DT_STRING,
-              Some(Seq.empty),
-              unknownRank = true
-            )
+        _.map { inputName =>
+          ContractBuilders.simpleTensorModelField(
+            inputName,
+            DataType.DT_STRING,
+            Some(Seq.empty),
+            unknownRank = true
+          )
         }
       }
       .toList

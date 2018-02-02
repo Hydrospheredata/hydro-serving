@@ -11,7 +11,9 @@ import scala.concurrent.{ExecutionContext, Future}
 class ManagerGrpcApi(
   managerServices: ManagerServices,
   grpcClient: PredictionServiceGrpc.PredictionServiceStub
-)(implicit ec: ExecutionContext) extends PredictionService with Logging {
+)(implicit ec: ExecutionContext)
+  extends PredictionService
+  with Logging {
 
   override def predict(request: PredictRequest): Future[PredictResponse] = {
     logger.info(request)

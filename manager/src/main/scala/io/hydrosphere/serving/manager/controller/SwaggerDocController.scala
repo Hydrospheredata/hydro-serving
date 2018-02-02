@@ -6,10 +6,11 @@ import com.github.swagger.akka._
 import com.github.swagger.akka.model.Info
 import io.swagger.models.ExternalDocs
 
-
-abstract class SwaggerDocController(system: ActorSystem) extends SwaggerHttpService with HasActorSystem {
-  override implicit val actorSystem: ActorSystem = system
+abstract class SwaggerDocController(system: ActorSystem)
+  extends SwaggerHttpService
+  with HasActorSystem {
+  override implicit val actorSystem: ActorSystem        = system
   override implicit val materializer: ActorMaterializer = ActorMaterializer()
-  override val info = Info(version = "1.0")
-  override val externalDocs = Some(new ExternalDocs("Core Docs", "http://acme.com/docs"))
+  override val info                                     = Info(version = "1.0")
+  override val externalDocs                             = Some(new ExternalDocs("Core Docs", "http://acme.com/docs"))
 }

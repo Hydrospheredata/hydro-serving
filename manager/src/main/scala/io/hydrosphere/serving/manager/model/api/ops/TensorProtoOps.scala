@@ -31,21 +31,22 @@ object TensorProtoOps {
     } else {
       val shaper = ColumnShaper(tensorProto.tensorShape)
       val data = tensorProto.dtype match {
-        case DT_FLOAT => tensorProto.floatVal.map(JsNumber.apply(_))
-        case DT_DOUBLE => tensorProto.doubleVal.map(JsNumber.apply)
-        case DT_INT8 | DT_INT16 | DT_INT32 => tensorProto.intVal.map(JsNumber.apply)
+        case DT_FLOAT                         => tensorProto.floatVal.map(JsNumber.apply(_))
+        case DT_DOUBLE                        => tensorProto.doubleVal.map(JsNumber.apply)
+        case DT_INT8 | DT_INT16 | DT_INT32    => tensorProto.intVal.map(JsNumber.apply)
         case DT_UINT8 | DT_UINT16 | DT_UINT32 => tensorProto.uint32Val.map(JsNumber.apply)
-        case DT_INT64 => tensorProto.int64Val.map(JsNumber.apply)
-        case DT_UINT64 => tensorProto.uint64Val.map(JsNumber.apply)
+        case DT_INT64                         => tensorProto.int64Val.map(JsNumber.apply)
+        case DT_UINT64                        => tensorProto.uint64Val.map(JsNumber.apply)
 
         case DT_QINT8 | DT_QINT16 | DT_QINT32 => tensorProto.intVal.map(JsNumber.apply)
-        case DT_QUINT8 | DT_QUINT16 => tensorProto.uint32Val.map(JsNumber.apply)
-        case DT_COMPLEX64 => tensorProto.scomplexVal.map(JsNumber.apply(_))
-        case DT_COMPLEX128 => tensorProto.dcomplexVal.map(JsNumber.apply)
+        case DT_QUINT8 | DT_QUINT16           => tensorProto.uint32Val.map(JsNumber.apply)
+        case DT_COMPLEX64                     => tensorProto.scomplexVal.map(JsNumber.apply(_))
+        case DT_COMPLEX128                    => tensorProto.dcomplexVal.map(JsNumber.apply)
 
         case DT_STRING => tensorProto.stringVal.map(_.toStringUtf8()).map(JsString.apply)
-        case DT_BOOL => tensorProto.boolVal.map(JsBoolean.apply)
-        case x => throw new IllegalArgumentException(s"Can't jsonify unsupported TensorProto dtype $x")
+        case DT_BOOL   => tensorProto.boolVal.map(JsBoolean.apply)
+        case x =>
+          throw new IllegalArgumentException(s"Can't jsonify unsupported TensorProto dtype $x")
       }
       shaper(data)
     }
@@ -81,13 +82,15 @@ object TensorProtoOps {
         if (dimShape == -1) {
           shapeGrouped(data, shapeIter)
         } else {
-          shapeGrouped(JsArray(
-            data
-              .elements
-              .grouped(dimShape.toInt)
-              .map(JsArray.apply)
-              .toVector),
-            shapeIter)
+          shapeGrouped(
+            JsArray(
+              data.elements
+                .grouped(dimShape.toInt)
+                .map(JsArray.apply)
+                .toVector
+            ),
+            shapeIter
+          )
         }
       } else {
         data

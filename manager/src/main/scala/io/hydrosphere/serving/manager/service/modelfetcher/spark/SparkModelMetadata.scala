@@ -19,7 +19,9 @@ case class SparkModelMetadata(
 
 object SparkModelMetadata extends CommonJsonSupport {
   import spray.json._
-  implicit val sparkMetadataFormat: RootJsonFormat[SparkModelMetadata] = jsonFormat8(SparkModelMetadata.apply)
+  implicit val sparkMetadataFormat: RootJsonFormat[SparkModelMetadata] = jsonFormat8(
+    SparkModelMetadata.apply
+  )
 
   def fromJson(json: String): SparkModelMetadata = {
     json.parseJson.convertTo[SparkModelMetadata]

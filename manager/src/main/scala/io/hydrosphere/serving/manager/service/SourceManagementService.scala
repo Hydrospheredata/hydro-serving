@@ -5,7 +5,12 @@ import java.nio.file.Path
 import akka.actor.{ActorRef, ActorSystem}
 import akka.pattern._
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.model.{LocalSourceParams, ModelSourceConfigAux, S3SourceParams, SourceParams}
+import io.hydrosphere.serving.manager.model.{
+  LocalSourceParams,
+  ModelSourceConfigAux,
+  S3SourceParams,
+  SourceParams
+}
 import io.hydrosphere.serving.manager.repository.SourceConfigRepository
 import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
 import io.hydrosphere.serving.manager.service.modelsource.WatcherRegistryActor.AddWatcher
@@ -35,13 +40,20 @@ trait SourceManagementService {
   def createWatchers: Future[Seq[ActorRef]]
 }
 
-class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)
-  (implicit ex: ExecutionContext, actorSystem: ActorSystem, timeout: Timeout) extends SourceManagementService with Logging {
+class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)(
+  implicit ex: ExecutionContext,
+  actorSystem: ActorSystem,
+  timeout: Timeout
+) extends SourceManagementService
+  with Logging {
 
   private val watcherRegistry = actorSystem.actorOf(WatcherRegistryActor.props, "WatcherRegistry")
 
-  def addSource(createModelSourceRequest: CreateModelSourceRequest): Future[ModelSourceConfigAux] = {
-    val config = ModelSourceConfigAux(-1, createModelSourceRequest.name, createModelSourceRequest.params)
+  def addSource(
+    createModelSourceRequest: CreateModelSourceRequest
+  ): Future[ModelSourceConfigAux] = {
+    val config =
+      ModelSourceConfigAux(-1, createModelSourceRequest.name, createModelSourceRequest.params)
     addSource(config).map(_ => config)
   }
 
@@ -95,18 +107,20 @@ class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)
   }
 
   override def getLocalPath(url: String): Future[Path] = {
-    val args = url.split(':')
+    val args   = url.split(':')
     val source = args.head
-    val path = args.last
+    val path   = args.last
     getSources.map {
       _.find(_.sourceDef.prefix == source)
         .map(_.getAbsolutePath(path))
-        .getOrElse(throw new IllegalArgumentException(s"ModelSource for $url with prefix $source is not found"))
+        .getOrElse(
+          throw new IllegalArgumentException(
+            s"ModelSource for $url with prefix $source is not found"
+          )
+        )
     }
   }
 
 }
 
-object SourceManagementServiceImpl {
-
-}
+object SourceManagementServiceImpl {}

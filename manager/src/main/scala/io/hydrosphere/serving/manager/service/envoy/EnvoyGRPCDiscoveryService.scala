@@ -12,7 +12,10 @@ import org.apache.logging.log4j.scala.Logging
 import scala.concurrent.ExecutionContext
 
 trait EnvoyGRPCDiscoveryService {
-  def subscribe(discoveryRequest: DiscoveryRequest, responseObserver: StreamObserver[DiscoveryResponse]): Unit
+  def subscribe(
+    discoveryRequest: DiscoveryRequest,
+    responseObserver: StreamObserver[DiscoveryResponse]
+  ): Unit
 
   def unsubscribe(responseObserver: StreamObserver[DiscoveryResponse]): Unit
 }
@@ -25,30 +28,34 @@ class EnvoyGRPCDiscoveryServiceImpl(
 )(
   implicit val ex: ExecutionContext,
   actorSystem: ActorSystem
-) extends EnvoyGRPCDiscoveryService with Logging {
+) extends EnvoyGRPCDiscoveryService
+  with Logging {
 
   private val clusterDSActor: ActorRef = actorSystem.actorOf(Props[ClusterDSActor])
   //TODO use managerConfiguration for endpoint configuration
-  private val endpointDSActor: ActorRef = actorSystem.actorOf(Props(classOf[EndpointDSActor],
-    false,
-    "mainapplication",
-    9091
-  ))
+  private val endpointDSActor: ActorRef =
+    actorSystem.actorOf(Props(classOf[EndpointDSActor], false, "mainapplication", 9091))
   private val listenerDSActor: ActorRef = actorSystem.actorOf(Props[ListenerDSActor])
-  private val routeDSActor: ActorRef = actorSystem.actorOf(Props[RouteDSActor])
+  private val routeDSActor: ActorRef    = actorSystem.actorOf(Props[RouteDSActor])
 
-  private val xdsManagementActor: ActorRef = actorSystem.actorOf(Props(classOf[XDSManagementActor],
-    serviceManagementService,
-    applicationManagementService,
-    cloudDriverService,
-    clusterDSActor,
-    endpointDSActor,
-    listenerDSActor,
-    routeDSActor,
-    ex
-  ))
+  private val xdsManagementActor: ActorRef = actorSystem.actorOf(
+    Props(
+      classOf[XDSManagementActor],
+      serviceManagementService,
+      applicationManagementService,
+      cloudDriverService,
+      clusterDSActor,
+      endpointDSActor,
+      listenerDSActor,
+      routeDSActor,
+      ex
+    )
+  )
 
-  override def subscribe(discoveryRequest: DiscoveryRequest, responseObserver: StreamObserver[DiscoveryResponse]): Unit =
+  override def subscribe(
+    discoveryRequest: DiscoveryRequest,
+    responseObserver: StreamObserver[DiscoveryResponse]
+  ): Unit =
     discoveryRequest.node.foreach(_ => {
       xdsManagementActor ! SubscribeMsg(
         discoveryRequest = discoveryRequest,

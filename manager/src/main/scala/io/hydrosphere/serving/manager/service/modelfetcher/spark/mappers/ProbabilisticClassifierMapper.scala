@@ -6,7 +6,8 @@ import io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers.SparkMl
 import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
 
 abstract class ProbabilisticClassifierMapper(m: SparkModelMetadata) extends ClassifierMapper(m) {
-  def probabilityType(sparkModelMetadata: SparkModelMetadata): TensorInfo = SparkMlTypeMapper.classesVec(sparkModelMetadata)
+  def probabilityType(sparkModelMetadata: SparkModelMetadata): TensorInfo =
+    SparkMlTypeMapper.classesVec(sparkModelMetadata)
 
   override def outputSchema: List[ModelField] = {
     super.outputSchema ++ List(

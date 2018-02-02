@@ -4,7 +4,6 @@ import io.hydrosphere.serving.manager.model._
 
 import scala.concurrent.Future
 
-
 case class ProgressDetail(
   current: Option[Long],
   start: Option[Long],
@@ -34,12 +33,17 @@ trait ProgressHandler {
 }
 
 trait ModelBuildService {
-  val SCRIPT_VAL_MODEL_PATH = "MODEL_PATH"
-  val SCRIPT_VAL_MODEL_TYPE = "MODEL_TYPE"
-  val SCRIPT_VAL_MODEL_NAME = "MODEL_NAME"
+  val SCRIPT_VAL_MODEL_PATH    = "MODEL_PATH"
+  val SCRIPT_VAL_MODEL_TYPE    = "MODEL_TYPE"
+  val SCRIPT_VAL_MODEL_NAME    = "MODEL_NAME"
   val SCRIPT_VAL_MODEL_VERSION = "MODEL_VERSION"
 
-  def build(modelBuild: ModelBuild, imageName: String, script: String, progressHandler: ProgressHandler): Future[String]
+  def build(
+    modelBuild: ModelBuild,
+    imageName: String,
+    script: String,
+    progressHandler: ProgressHandler
+  ): Future[String]
 
 }
 
@@ -57,30 +61,39 @@ class EmptyModelPushService extends ModelPushService {
 
 object DockerClientHelper {
 
-  def createProgressHandlerWrapper(progressHandler: ProgressHandler): com.spotify.docker.client.ProgressHandler = {
+  def createProgressHandlerWrapper(
+    progressHandler: ProgressHandler
+  ): com.spotify.docker.client.ProgressHandler = {
     new com.spotify.docker.client.ProgressHandler {
-      override def progress(progressMessage: com.spotify.docker.client.messages.ProgressMessage): Unit = {
-        progressHandler.handle(ProgressMessage(
-          id = progressMessage.id(),
-          status = progressMessage.status(),
-          stream = progressMessage.stream(),
-          error = progressMessage.error(),
-          progress = progressMessage.progress(),
-          progressDetail = {
-            Option(progressMessage.progressDetail()).map(d =>
-              ProgressDetail(
-                current = Option(d.current()).map(_.toLong),
-                start = Option(d.start()).map(_.toLong),
-                total = Option(d.total()).map(_.toLong)
+      override def progress(
+        progressMessage: com.spotify.docker.client.messages.ProgressMessage
+      ): Unit = {
+        progressHandler.handle(
+          ProgressMessage(
+            id       = progressMessage.id(),
+            status   = progressMessage.status(),
+            stream   = progressMessage.stream(),
+            error    = progressMessage.error(),
+            progress = progressMessage.progress(),
+            progressDetail = {
+              Option(progressMessage.progressDetail()).map(
+                d =>
+                  ProgressDetail(
+                    current = Option(d.current()).map(_.toLong),
+                    start   = Option(d.start()).map(_.toLong),
+                    total   = Option(d.total()).map(_.toLong)
+                )
               )
-            )
-          }
-        ))
+            }
+          )
+        )
       }
     }
   }
 
-  def createRegistryAuth(registryAuth: DockerRegistryAuth): com.spotify.docker.client.messages.RegistryAuth = {
+  def createRegistryAuth(
+    registryAuth: DockerRegistryAuth
+  ): com.spotify.docker.client.messages.RegistryAuth = {
     com.spotify.docker.client.messages.RegistryAuth.create(
       registryAuth.username.orNull,
       registryAuth.password.orNull,

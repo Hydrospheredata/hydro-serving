@@ -8,6 +8,6 @@ import io.hydrosphere.serving.manager.service.prometheus._
   */
 trait PrometheusJsonSupport extends ManagerJsonSupport {
   implicit val serviceTargetLabels = jsonFormat6(ServiceTargetLabels)
-  implicit val serviceTargets = jsonFormat2(ServiceTargets)
+  implicit val serviceTargets      = jsonFormat2(ServiceTargets)
 
 }

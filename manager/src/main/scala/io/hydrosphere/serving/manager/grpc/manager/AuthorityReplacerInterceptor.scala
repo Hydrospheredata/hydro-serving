@@ -9,7 +9,7 @@ class AuthorityReplacerInterceptor extends ClientInterceptor {
     callOptions: CallOptions,
     next: Channel
   ): ClientCall[ReqT, RespT] = {
-    val destination = callOptions.getOption(AuthorityReplacerInterceptor.DESTINATION_KEY)
+    val destination    = callOptions.getOption(AuthorityReplacerInterceptor.DESTINATION_KEY)
     val newCallOptions = callOptions.withAuthority(destination)
     next.newCall(method, newCallOptions)
   }

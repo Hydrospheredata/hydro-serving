@@ -10,9 +10,12 @@ import org.apache.logging.log4j.scala.Logging
   */
 class AggregatedDiscoveryServiceGrpcImpl(
   envoyGRPCDiscoveryService: EnvoyGRPCDiscoveryService
-) extends AggregatedDiscoveryServiceGrpc.AggregatedDiscoveryService with Logging {
+) extends AggregatedDiscoveryServiceGrpc.AggregatedDiscoveryService
+  with Logging {
 
-  override def streamAggregatedResources(responseObserver: StreamObserver[DiscoveryResponse]): StreamObserver[DiscoveryRequest] = {
+  override def streamAggregatedResources(
+    responseObserver: StreamObserver[DiscoveryResponse]
+  ): StreamObserver[DiscoveryRequest] = {
     new StreamObserver[DiscoveryRequest] {
 
       override def onError(t: Throwable): Unit = {

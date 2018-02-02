@@ -14,13 +14,12 @@ import io.hydrosphere.serving.manager.util.FileUtils._
 import scala.collection.JavaConverters._
 import scala.collection.mutable
 
-
 /**
   *
   */
 class LocalSourceWatcherActor(val source: LocalModelSource) extends SourceWatcherActor {
   private[this] val watcher = FileSystems.getDefault.newWatchService()
-  private[this] val keys = mutable.Map.empty[WatchKey, Path]
+  private[this] val keys    = mutable.Map.empty[WatchKey, Path]
 
   private def subscribeRecursively(dirFile: File): Unit = {
     val maxDepth = 2
@@ -53,9 +52,9 @@ class LocalSourceWatcherActor(val source: LocalModelSource) extends SourceWatche
       )
     }
 
-    val filename = event.context().asInstanceOf[Path]
+    val filename     = event.context().asInstanceOf[Path]
     val absolutePath = source.sourceFile.toPath.resolve(filename)
-    val file = absolutePath.toFile
+    val file         = absolutePath.toFile
     val relativePath = source.sourceFile.toPath.relativize(absolutePath)
 
     if (file.isHidden) {
@@ -69,8 +68,7 @@ class LocalSourceWatcherActor(val source: LocalModelSource) extends SourceWatche
         case StandardWatchEventKinds.ENTRY_CREATE =>
           log.debug(s"File system event: ENTRY_CREATE: $relativePath")
           if (Files.isDirectory(absolutePath)) {
-            file
-              .listFilesRecursively
+            file.listFilesRecursively
               .map(_.toPath)
               .map(source.sourceFile.toPath.relativize)
               .map(handleCreation)
@@ -85,7 +83,10 @@ class LocalSourceWatcherActor(val source: LocalModelSource) extends SourceWatche
             .asByteSource(absolutePath.toFile)
             .hash(Hashing.sha256())
             .toString
-          val lastModified = LocalDateTime.ofInstant(Files.getLastModifiedTime(absolutePath).toInstant, ZoneId.systemDefault())
+          val lastModified = LocalDateTime.ofInstant(
+            Files.getLastModifiedTime(absolutePath).toInstant,
+            ZoneId.systemDefault()
+          )
           List(new FileModified(source, relativePath.toString, Instant.now(), hash, lastModified))
 
         case StandardWatchEventKinds.ENTRY_DELETE =>
@@ -110,7 +111,7 @@ class LocalSourceWatcherActor(val source: LocalModelSource) extends SourceWatche
   override def onWatcherTick(): List[FileEvent] = {
     val events = for {
       (key, path) <- keys
-      event <- key.pollEvents().asScala
+      event       <- key.pollEvents().asScala
     } yield {
       handleWatcherEvent(path, event)
     }
@@ -119,7 +120,7 @@ class LocalSourceWatcherActor(val source: LocalModelSource) extends SourceWatche
   }
 }
 
-object LocalSourceWatcherActor{
-  def props(source: LocalModelSource)=
+object LocalSourceWatcherActor {
+  def props(source: LocalModelSource) =
     Props(new LocalSourceWatcherActor(source))
 }

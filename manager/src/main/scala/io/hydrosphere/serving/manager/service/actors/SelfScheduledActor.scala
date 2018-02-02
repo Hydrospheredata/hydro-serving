@@ -6,15 +6,17 @@ import io.hydrosphere.serving.manager.service.actors.SelfScheduledActor.Tick
 
 import scala.concurrent.duration._
 
-abstract class SelfScheduledActor(val initialDelay: FiniteDuration, val interval: FiniteDuration)
-  (implicit val timeout: Timeout) extends Actor with ActorLogging {
+abstract class SelfScheduledActor(val initialDelay: FiniteDuration, val interval: FiniteDuration)(
+  implicit val timeout: Timeout
+) extends Actor
+  with ActorLogging {
 
   import context._
 
   private val timer = context.system.scheduler.schedule(initialDelay, interval, self, Tick)
 
   final override def receive: Receive = {
-    val tick: Receive = {case Tick => onTick()}
+    val tick: Receive = { case Tick => onTick() }
     tick.orElse(recieveNonTick)
   }
 

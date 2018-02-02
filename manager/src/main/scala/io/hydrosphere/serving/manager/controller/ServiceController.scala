@@ -19,15 +19,28 @@ import scala.concurrent.duration._
 class ServiceController(
   serviceManagementService: ServiceManagementService,
   applicationManagementService: ApplicationManagementService
-) extends ManagerJsonSupport with ServingDataDirectives {
+) extends ManagerJsonSupport
+  with ServingDataDirectives {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/")
-  @ApiOperation(value = "listServices", notes = "listServices", nickname = "listServices", httpMethod = "GET")
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Service", response = classOf[Service], responseContainer = "List"),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
+  @ApiOperation(
+    value      = "listServices",
+    notes      = "listServices",
+    nickname   = "listServices",
+    httpMethod = "GET"
+  )
+  @ApiResponses(
+    Array(
+      new ApiResponse(
+        code              = 200,
+        message           = "Service",
+        response          = classOf[Service],
+        responseContainer = "List"
+      ),
+      new ApiResponse(code = 500, message = "Internal server error")
+    )
+  )
   def listAll = path("api" / "v1" / "service") {
     get {
       complete(serviceManagementService.allServices())
@@ -35,16 +48,36 @@ class ServiceController(
   }
 
   @Path("/fetchByModelId/{modelId}")
-  @ApiOperation(value = "fetchByModelId", notes = "fetchByModelId", nickname = "fetchByModelId", httpMethod = "GET")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Service", response = classOf[Service], responseContainer = "List"),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
+  @ApiOperation(
+    value      = "fetchByModelId",
+    notes      = "fetchByModelId",
+    nickname   = "fetchByModelId",
+    httpMethod = "GET"
+  )
+  @ApiImplicitParams(
+    Array(
+      new ApiImplicitParam(
+        name      = "modelId",
+        required  = true,
+        dataType  = "long",
+        paramType = "path",
+        value     = "modelId"
+      )
+    )
+  )
+  @ApiResponses(
+    Array(
+      new ApiResponse(
+        code              = 200,
+        message           = "Service",
+        response          = classOf[Service],
+        responseContainer = "List"
+      ),
+      new ApiResponse(code = 500, message = "Internal server error")
+    )
+  )
   def fetchByModelId = get {
-    path("api" / "v1" / "service" / "fetchByModelId"/ Segment) { modelId =>
+    path("api" / "v1" / "service" / "fetchByModelId" / Segment) { modelId =>
       complete(serviceManagementService.getServicesByModel(modelId.toLong))
     }
   }
@@ -67,14 +100,29 @@ class ServiceController(
   }*/
 
   @Path("/{serviceId}")
-  @ApiOperation(value = "getService", notes = "getService", nickname = "getService", httpMethod = "GET")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "serviceId", required = true, dataType = "long", paramType = "path", value = "serviceId")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Service", response = classOf[Service]),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
+  @ApiOperation(
+    value      = "getService",
+    notes      = "getService",
+    nickname   = "getService",
+    httpMethod = "GET"
+  )
+  @ApiImplicitParams(
+    Array(
+      new ApiImplicitParam(
+        name      = "serviceId",
+        required  = true,
+        dataType  = "long",
+        paramType = "path",
+        value     = "serviceId"
+      )
+    )
+  )
+  @ApiResponses(
+    Array(
+      new ApiResponse(code = 200, message = "Service", response = classOf[Service]),
+      new ApiResponse(code = 500, message = "Internal server error")
+    )
+  )
   def getService = get {
     path("api" / "v1" / "service" / Segment) { serviceId =>
       complete(serviceManagementService.getService(serviceId.toLong))
@@ -82,15 +130,35 @@ class ServiceController(
   }
 
   @Path("/fetchByIds")
-  @ApiOperation(value = "fetchById", notes = "fetchById", nickname = "fetchById", httpMethod = "POST")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "ids", required = true,
-      dataTypeClass = classOf[Long], paramType = "body", collectionFormat = "List")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Service", response = classOf[Service], responseContainer = "List"),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
+  @ApiOperation(
+    value      = "fetchById",
+    notes      = "fetchById",
+    nickname   = "fetchById",
+    httpMethod = "POST"
+  )
+  @ApiImplicitParams(
+    Array(
+      new ApiImplicitParam(
+        name             = "body",
+        value            = "ids",
+        required         = true,
+        dataTypeClass    = classOf[Long],
+        paramType        = "body",
+        collectionFormat = "List"
+      )
+    )
+  )
+  @ApiResponses(
+    Array(
+      new ApiResponse(
+        code              = 200,
+        message           = "Service",
+        response          = classOf[Service],
+        responseContainer = "List"
+      ),
+      new ApiResponse(code = 500, message = "Internal server error")
+    )
+  )
   def fetchByIds = path("api" / "v1" / "service" / "fetchByIds") {
     post {
       entity(as[Seq[Long]]) { r =>
@@ -142,9 +210,9 @@ class ServiceController(
 
 
 
-  */
+   */
 
   val routes: Route =
     listAll ~ /*addService ~ deleteService ~*/ getService ~
-      fetchByModelId ~  fetchByIds
+      fetchByModelId ~ fetchByIds
 }

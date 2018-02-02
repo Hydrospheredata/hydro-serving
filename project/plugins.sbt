@@ -1,5 +1,7 @@
 logLevel := Level.Info
 
+addSbtPlugin("com.lucidchart" % "sbt-scalafmt" % "1.15")
+
 resolvers += "Flyway" at "https://flywaydb.org/repo"
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-native-packager" % "1.2.0")

@@ -5,7 +5,10 @@ import java.time.{Instant, Duration => JDuration}
 import akka.actor.Props
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.service.ModelManagementService
-import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor.{IndexFinished, IndexStart}
+import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor.{
+  IndexFinished,
+  IndexStart
+}
 import io.hydrosphere.serving.manager.service.modelsource.FileEvent
 
 import scala.collection.concurrent.TrieMap
@@ -40,7 +43,8 @@ class RepositoryIndexActor(val modelManagementService: ModelManagementService)
         log.debug(s"[${event.source.sourceDef.prefix}] Reindexing $modelName ...")
         queues -= modelName
         modelManagementService.updateModel(modelName, event.source).foreach { maybeModel =>
-          context.system.eventStream.publish(IndexFinished(modelName, event.source.sourceDef.prefix))
+          context.system.eventStream
+            .publish(IndexFinished(modelName, event.source.sourceDef.prefix))
           log.debug(s"$maybeModel is updated")
         }
     }
@@ -52,5 +56,6 @@ object RepositoryIndexActor {
   case class IndexStart(modelName: String, sourcePrefix: String)
   case class IndexFinished(modelName: String, sourcePrefix: String)
 
-  def props(modelManagementService: ModelManagementService) = Props(new RepositoryIndexActor(modelManagementService))
+  def props(modelManagementService: ModelManagementService) =
+    Props(new RepositoryIndexActor(modelManagementService))
 }

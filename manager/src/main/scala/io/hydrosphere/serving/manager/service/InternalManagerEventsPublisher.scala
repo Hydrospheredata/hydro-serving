@@ -31,5 +31,3 @@ class InternalManagerEventsPublisher(implicit actorSystem: ActorSystem) {
   def cloudServiceDetected(cloudService: Seq[CloudService]): Unit =
     actorSystem.eventStream.publish(CloudServiceDetected(cloudService))
 }
-
-

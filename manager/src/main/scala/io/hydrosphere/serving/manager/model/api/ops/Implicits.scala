@@ -9,10 +9,11 @@ import io.hydrosphere.serving.tensorflow.tensor.TensorProto
 import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 import spray.json.JsValue
 
-trait Implicits extends ModelContractOps with ModelSignatureOps
-  with ModelFieldOps with TensorShapeProtoOps with TensorProtoOps {
-
-
-}
+trait Implicits
+  extends ModelContractOps
+  with ModelSignatureOps
+  with ModelFieldOps
+  with TensorShapeProtoOps
+  with TensorProtoOps {}
 
 object Implicits extends Implicits

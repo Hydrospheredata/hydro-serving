@@ -6,7 +6,10 @@ import akka.actor.{Actor, ActorLogging, Props}
 import akka.util.Timeout
 import com.google.common.hash.Hashing
 import io.hydrosphere.serving.manager.service.modelsource.SourceWatcherActor.Tick
-import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceWatcherActor}
+import io.hydrosphere.serving.manager.service.modelsource.local.{
+  LocalModelSource,
+  LocalSourceWatcherActor
+}
 import io.hydrosphere.serving.manager.service.modelsource.s3.{S3ModelSource, S3SourceWatcherActor}
 
 import scala.concurrent.duration._
@@ -17,7 +20,7 @@ import scala.concurrent.duration._
 trait SourceWatcherActor extends Actor with ActorLogging {
   import context._
   implicit private val timeout = Timeout(30.seconds)
-  private val timer = context.system.scheduler.schedule(0.seconds, 500.millis, self, Tick)
+  private val timer            = context.system.scheduler.schedule(0.seconds, 500.millis, self, Tick)
 
   /**
     * Tick handler. Every tick Watcher looks for changes in datasource.
@@ -45,13 +48,13 @@ trait SourceWatcherActor extends Actor with ActorLogging {
   }
 
   final override def preStart(): Unit = {
-    source
-      .getSubDirs
-      .flatMap( f => source.getAllFiles(f).map(f + "/" + _))
+    source.getSubDirs
+      .flatMap(f => source.getAllFiles(f).map(f + "/" + _))
       .map(f => f -> source.getReadableFile(f))
-      .map{ case (fileName, file) =>
-        val hash = com.google.common.io.Files.asByteSource(file).hash(Hashing.sha256()).toString
-        new FileDetected(source, fileName, Instant.now(), hash)
+      .map {
+        case (fileName, file) =>
+          val hash = com.google.common.io.Files.asByteSource(file).hash(Hashing.sha256()).toString
+          new FileDetected(source, fileName, Instant.now(), hash)
       }
       .foreach(context.system.eventStream.publish)
 
@@ -76,4 +79,3 @@ object SourceWatcherActor {
     }
   }
 }
-

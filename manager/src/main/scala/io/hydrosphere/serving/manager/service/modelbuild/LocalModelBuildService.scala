@@ -17,18 +17,24 @@ import scala.concurrent.{ExecutionContext, Future}
 class LocalModelBuildService(
   dockerClient: DockerClient,
   sourceManagementService: SourceManagementService
-)(implicit val ex: ExecutionContext) extends ModelBuildService {
-  private val modelRootDir = "model"
+)(implicit val ex: ExecutionContext)
+  extends ModelBuildService {
+  private val modelRootDir  = "model"
   private val modelFilesDir = s"$modelRootDir/files/"
-  private val contractFile = s"$modelRootDir/contract.protobin"
+  private val contractFile  = s"$modelRootDir/contract.protobin"
 
-  override def build(modelBuild: ModelBuild, imageName: String, script: String, progressHandler: ProgressHandler): Future[String] = {
+  override def build(
+    modelBuild: ModelBuild,
+    imageName: String,
+    script: String,
+    progressHandler: ProgressHandler
+  ): Future[String] = {
     sourceManagementService.getLocalPath(modelBuild.model.source).map { localModelPath =>
       val dockerFile = script
-        .replaceAll("\\{"  +   SCRIPT_VAL_MODEL_PATH     +  "\\}", modelRootDir)
-        .replaceAll("\\{"  +   SCRIPT_VAL_MODEL_VERSION  +  "\\}", modelBuild.modelVersion.toString)
-        .replaceAll("\\{"  +   SCRIPT_VAL_MODEL_NAME     +  "\\}", modelBuild.model.name)
-        .replaceAll("\\{"  +   SCRIPT_VAL_MODEL_TYPE     +  "\\}", modelBuild.model.modelType.toTag)
+        .replaceAll("\\{" + SCRIPT_VAL_MODEL_PATH + "\\}", modelRootDir)
+        .replaceAll("\\{" + SCRIPT_VAL_MODEL_VERSION + "\\}", modelBuild.modelVersion.toString)
+        .replaceAll("\\{" + SCRIPT_VAL_MODEL_NAME + "\\}", modelBuild.model.name)
+        .replaceAll("\\{" + SCRIPT_VAL_MODEL_TYPE + "\\}", modelBuild.model.modelType.toTag)
 
       val tmpBuildPath = Files.createTempDirectory(s"hydroserving-${modelBuild.id}")
       try {
@@ -41,7 +47,14 @@ class LocalModelBuildService(
     }
   }
 
-  private def build(buildPath: Path, model: Path, dockerFile: String, progressHandler: ProgressHandler, modelBuild: ModelBuild, imageName: String): String = {
+  private def build(
+    buildPath: Path,
+    model: Path,
+    dockerFile: String,
+    progressHandler: ProgressHandler,
+    modelBuild: ModelBuild,
+    imageName: String
+  ): String = {
     Files.copy(new ByteArrayInputStream(dockerFile.getBytes), buildPath.resolve("Dockerfile"))
     Files.createDirectories(buildPath.resolve(modelRootDir))
     FileUtils.copyDirectory(model.toFile, buildPath.resolve(modelFilesDir).toFile)

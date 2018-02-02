@@ -11,45 +11,58 @@ import scala.collection.mutable
 
 case class SyncApplications(applications: Seq[Application])
 
-class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.googleapis.com/envoy.api.v2.RouteConfiguration") {
+class RouteDSActor
+  extends AbstractDSActor[RouteConfiguration](
+    typeUrl = "type.googleapis.com/envoy.api.v2.RouteConfiguration"
+  ) {
 
   private val applications = mutable.Map[Long, Seq[VirtualHost]]()
 
   private def createRoutes(application: Application): Seq[VirtualHost] =
-    application.executionGraph.stages.zipWithIndex.map { case (appStage, i) =>
-      val weights = ClusterSpecifier.WeightedClusters(WeightedCluster(
-        clusters = appStage.services.map(w => {
-          WeightedCluster.ClusterWeight(
-            name = w.serviceDescription.toServiceName(),
-            weight = Some(w.weight)
+    application.executionGraph.stages.zipWithIndex.map {
+      case (appStage, i) =>
+        val weights = ClusterSpecifier.WeightedClusters(
+          WeightedCluster(
+            clusters = appStage.services.map(w => {
+              WeightedCluster.ClusterWeight(
+                name   = w.serviceDescription.toServiceName(),
+                weight = Some(w.weight)
+              )
+            })
           )
-        })
-      ))
-      //TODO generate unique ID
-      createVirtualHost(s"app${application.id}stage$i", weights)
+        )
+        //TODO generate unique ID
+        createVirtualHost(s"app${application.id}stage$i", weights)
     }
 
-  private def createVirtualHost(name: String, weights: ClusterSpecifier.WeightedClusters): VirtualHost =
+  private def createVirtualHost(
+    name: String,
+    weights: ClusterSpecifier.WeightedClusters
+  ): VirtualHost =
     VirtualHost(
-      name = name,
+      name    = name,
       domains = Seq(name),
-      routes = Seq(Route(
-        `match` = Some(RouteMatch(
-          pathSpecifier = RouteMatch.PathSpecifier.Prefix("/")
-        )),
-        action = Route.Action.Route(RouteAction(
-          clusterSpecifier = weights
-        ))
-      ))
+      routes = Seq(
+        Route(
+          `match` = Some(
+            RouteMatch(
+              pathSpecifier = RouteMatch.PathSpecifier.Prefix("/")
+            )
+          ),
+          action = Route.Action.Route(
+            RouteAction(
+              clusterSpecifier = weights
+            )
+          )
+        )
+      )
     )
 
   private def addOrUpdateApplication(application: Application): Unit =
     applications.put(application.id, createRoutes(application))
 
-
   private def removeApplications(ids: Set[Long]): Set[Boolean] =
     ids.map(id => applications.remove(id).nonEmpty)
-
 
   private def renewApplications(apps: Seq[Application]): Unit = {
     applications.clear()
@@ -72,54 +85,71 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
 
   private def createRoute(name: String, defaultRoute: VirtualHost): RouteConfiguration =
     RouteConfiguration(
-      name = name,
+      name         = name,
       virtualHosts = applications.values.flatten.toSeq :+ defaultRoute
     )
 
-
   private def defaultVirtualHost(clusterName: String): VirtualHost =
     VirtualHost(
-      name = "all",
-      domains = Seq("*"),
-      routes = Seq(Route(
-        `match` = Some(RouteMatch(
-          pathSpecifier = RouteMatch.PathSpecifier.Prefix("/")
-        )),
-        action = Route.Action.Route(RouteAction(
-          clusterSpecifier = ClusterSpecifier.Cluster(clusterName)
-        ))
-      ))
-    )
-
-  private def defaultManagerVirtualHost(): VirtualHost =
-    VirtualHost(
-      name = "all",
+      name    = "all",
       domains = Seq("*"),
       routes = Seq(
         Route(
-          `match` = Some(RouteMatch(
-            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/"),
-            headers = Seq(HeaderMatcher(
-              name = "content-type",
-              value = "application/grpc"
-            ))
-          )),
-          action = Route.Action.Route(RouteAction(
-            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_NAME)
-          ))
-        ),
-        Route(
-          `match` = Some(RouteMatch(
-            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/")
-          )),
-          action = Route.Action.Route(RouteAction(
-            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_HTTP_NAME)
-          ))
+          `match` = Some(
+            RouteMatch(
+              pathSpecifier = RouteMatch.PathSpecifier.Prefix("/")
+            )
+          ),
+          action = Route.Action.Route(
+            RouteAction(
+              clusterSpecifier = ClusterSpecifier.Cluster(clusterName)
+            )
+          )
         )
       )
     )
 
-  override protected def formResources(responseObserver: StreamObserver[DiscoveryResponse]): Seq[RouteConfiguration] = {
+  private def defaultManagerVirtualHost(): VirtualHost =
+    VirtualHost(
+      name    = "all",
+      domains = Seq("*"),
+      routes = Seq(
+        Route(
+          `match` = Some(
+            RouteMatch(
+              pathSpecifier = RouteMatch.PathSpecifier.Prefix("/"),
+              headers = Seq(
+                HeaderMatcher(
+                  name  = "content-type",
+                  value = "application/grpc"
+                )
+              )
+            )
+          ),
+          action = Route.Action.Route(
+            RouteAction(
+              clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_NAME)
+            )
+          )
+        ),
+        Route(
+          `match` = Some(
+            RouteMatch(
+              pathSpecifier = RouteMatch.PathSpecifier.Prefix("/")
+            )
+          ),
+          action = Route.Action.Route(
+            RouteAction(
+              clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_HTTP_NAME)
+            )
+          )
+        )
+      )
+    )
+
+  override protected def formResources(
+    responseObserver: StreamObserver[DiscoveryResponse]
+  ): Seq[RouteConfiguration] = {
     val clusterName = getObserverNode(responseObserver).fold("manager_xds_cluster")(_.id)
 
     val defaultRoute = clusterName match {

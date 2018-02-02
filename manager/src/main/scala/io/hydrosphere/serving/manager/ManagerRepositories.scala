@@ -26,8 +26,9 @@ trait ManagerRepositories {
   def environmentRepository: EnvironmentRepository
 }
 
-class ManagerRepositoriesConfig(config: ManagerConfiguration)(implicit executionContext: ExecutionContext)
-  extends ManagerRepositories {
+class ManagerRepositoriesConfig(config: ManagerConfiguration)(
+  implicit executionContext: ExecutionContext
+) extends ManagerRepositories {
   implicit val dataService = new DatabaseService(config.database)
 
   val runtimeRepository: RuntimeRepository = new RuntimeRepositoryImpl

@@ -19,17 +19,22 @@ case class UnsubscribeMsg(
   responseObserver: StreamObserver[DiscoveryResponse]
 )
 
-abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUrl: String) extends Actor with ActorLogging {
+abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUrl: String)
+  extends Actor
+  with ActorLogging {
 
   protected val ROUTE_CONFIG_NAME = "mesh"
 
-  private val observerNode = mutable.Map[StreamObserver[DiscoveryResponse], Node]()
+  private val observerNode      = mutable.Map[StreamObserver[DiscoveryResponse], Node]()
   private val observerResources = mutable.Map[StreamObserver[DiscoveryResponse], Set[String]]()
 
-  private val version = new AtomicLong(System.currentTimeMillis())
+  private val version     = new AtomicLong(System.currentTimeMillis())
   private val sentRequest = new AtomicLong(1)
 
-  protected def send(discoveryResponse: DiscoveryResponse, stream: StreamObserver[DiscoveryResponse]): Unit = {
+  protected def send(
+    discoveryResponse: DiscoveryResponse,
+    stream: StreamObserver[DiscoveryResponse]
+  ): Unit = {
     val t = Try(stream.onNext(discoveryResponse))
     t match {
       case Failure(e) =>
@@ -43,12 +48,15 @@ abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUr
     observerNode.get(responseObserver)
 
   private def sendToObserver(responseObserver: StreamObserver[DiscoveryResponse]) = {
-    send(DiscoveryResponse(
-      typeUrl = typeUrl,
-      versionInfo = version.toString,
-      nonce = sentRequest.getAndIncrement().toString,
-      resources = formResources(responseObserver).map(s => com.google.protobuf.any.Any.pack(s))
-    ), responseObserver)
+    send(
+      DiscoveryResponse(
+        typeUrl     = typeUrl,
+        versionInfo = version.toString,
+        nonce       = sentRequest.getAndIncrement().toString,
+        resources   = formResources(responseObserver).map(s => com.google.protobuf.any.Any.pack(s))
+      ),
+      responseObserver
+    )
   }
 
   private def increaseVersion() = {
@@ -58,7 +66,10 @@ abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUr
 
   override def receive: Receive = {
     case subscribe: SubscribeMsg =>
-      observerNode.put(subscribe.responseObserver, subscribe.discoveryRequest.node.getOrElse(Node.defaultInstance))
+      observerNode.put(
+        subscribe.responseObserver,
+        subscribe.discoveryRequest.node.getOrElse(Node.defaultInstance)
+      )
 
       val needUpdateResource = observerResources.get(subscribe.responseObserver) match {
         case Some(x) =>
@@ -67,7 +78,10 @@ abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUr
           true
       }
       if (needUpdateResource) {
-        observerResources.put(subscribe.responseObserver, subscribe.discoveryRequest.resourceNames.toSet)
+        observerResources.put(
+          subscribe.responseObserver,
+          subscribe.discoveryRequest.resourceNames.toSet
+        )
       }
       val differentVersion = {
         !subscribe.discoveryRequest.versionInfo.contains(version.toString)

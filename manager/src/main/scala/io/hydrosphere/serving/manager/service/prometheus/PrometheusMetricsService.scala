@@ -31,11 +31,13 @@ trait PrometheusMetricsService {
 class PrometheusMetricsServiceImpl(
   serviceManagementService: ServiceManagementService,
   envoyAdminConnector: EnvoyAdminConnector
-)(implicit val ex: ExecutionContext) extends PrometheusMetricsService with Logging {
+)(implicit val ex: ExecutionContext)
+  extends PrometheusMetricsService
+  with Logging {
 
   override def fetchServices(): Future[Seq[ServiceTargets]] =
     Future.failed(new RuntimeException)
-    /*runtimeManagementService.allServices().flatMap(services => {
+  /*runtimeManagementService.allServices().flatMap(services => {
       Future.traverse(services)(s =>
         runtimeManagementService.instancesForService(s.serviceId)
           .map(inst => Tuple2(s, inst))
@@ -87,15 +89,17 @@ class PrometheusMetricsServiceImpl(
     envoyAdminConnector.stats(instance.host, instance.sidecarAdminPort)
       .map(response => mapToPrometheusMetrics(response))*/
 
-
   private def mapToPrometheusMetrics(envoyMetrics: String): String = {
-    val map = scala.collection.mutable.HashMap.empty[PrometheusMetric, mutable.MutableList[PrometheusMetricValue]]
+    val map = scala.collection.mutable.HashMap
+      .empty[PrometheusMetric, mutable.MutableList[PrometheusMetricValue]]
 
-    envoyMetrics.split("\n").foreach(metricRow => {
-      val tuple = parseEnvoyMetric(metricRow)
-      val list = map.getOrElseUpdate(tuple._1, mutable.MutableList.empty)
-      list += tuple._2
-    })
+    envoyMetrics
+      .split("\n")
+      .foreach(metricRow => {
+        val tuple = parseEnvoyMetric(metricRow)
+        val list  = map.getOrElseUpdate(tuple._1, mutable.MutableList.empty)
+        list += tuple._2
+      })
 
     val builder = new StringBuilder()
     map.foreach(tuple => {
@@ -105,7 +109,11 @@ class PrometheusMetricsServiceImpl(
   }
 
   //TODO add this to envoy
-  private def formatToPrometheus(prometheusMetric: PrometheusMetric, values: mutable.MutableList[PrometheusMetricValue], builder: StringBuilder) = {
+  private def formatToPrometheus(
+    prometheusMetric: PrometheusMetric,
+    values: mutable.MutableList[PrometheusMetricValue],
+    builder: StringBuilder
+  ) = {
     builder.append("# HELP ")
     builder.append(prometheusMetric.name)
     builder.append(" ")
@@ -121,9 +129,10 @@ class PrometheusMetricsServiceImpl(
     values.foreach(value => {
       builder.append(prometheusMetric.name)
       if (value.groups.nonEmpty) {
-        builder.append(value.groups
-          .map(t => t._1 + "=\"" + t._2 + "\"")
-          .mkString("{", ",", "}")
+        builder.append(
+          value.groups
+            .map(t => t._1 + "=\"" + t._2 + "\"")
+            .mkString("{", ",", "}")
         )
       }
       builder.append(" ")
@@ -134,27 +143,33 @@ class PrometheusMetricsServiceImpl(
   }
 
   private def parseEnvoyMetric(metricRow: String): (PrometheusMetric, PrometheusMetricValue) = {
-    val arr = metricRow.split(':')
+    val arr  = metricRow.split(':')
     val name = arr.head
-    val sp = name.split('.')
+    val sp   = name.split('.')
     //TODO refactor
-    var prometheusMetric = PrometheusMetric(name = sp.mkString("_").replaceAll("-", "_"), metricType = "counter", help = name)
+    var prometheusMetric = PrometheusMetric(
+      name       = sp.mkString("_").replaceAll("-", "_"),
+      metricType = "counter",
+      help       = name
+    )
     var groups = immutable.Map[String, String]()
     if (name.startsWith("http.async-client.")) {
       //Do nothing
     } else if (name.startsWith("http.") || name.startsWith("cluster.")) {
       val newName = (sp(0) + "_" + sp.drop(2).mkString("_")).replaceAll("-", "_")
       prometheusMetric = PrometheusMetric(name = newName, metricType = "counter", help = newName)
-      groups = immutable.Map(sp(0) -> sp(1))
+      groups           = immutable.Map(sp(0) -> sp(1))
     } else if (name.startsWith("listener.")) {
       var index = name.indexOf(".downstream")
       if (-1 == index) {
         index = name.indexOf(".server")
       }
-      val newName = ("listener_" + name.substring(index + 1).replaceAll("-", "_")).replaceAll("\\.", "_")
+      val newName =
+        ("listener_" + name.substring(index + 1).replaceAll("-", "_")).replaceAll("\\.", "_")
       prometheusMetric = PrometheusMetric(name = newName, metricType = "counter", help = newName)
     } else if (name.startsWith("server.")) {
-      prometheusMetric = PrometheusMetric(name = sp.mkString("_"), metricType = "gauge", help = name)
+      prometheusMetric =
+        PrometheusMetric(name = sp.mkString("_"), metricType = "gauge", help = name)
     }
     Tuple2(prometheusMetric, PrometheusMetricValue(groups, arr.last))
   }

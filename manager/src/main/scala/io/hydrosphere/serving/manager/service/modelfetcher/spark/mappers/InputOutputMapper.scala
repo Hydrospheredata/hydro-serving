@@ -13,7 +13,7 @@ abstract class InputOutputMapper(m: SparkModelMetadata) extends SparkMlTypeMappe
     List(constructField(m.getParam("inputCol").get, inputType(m)))
   }
 
-  final def outputSchema: List[ModelField]= {
+  final def outputSchema: List[ModelField] = {
     List(constructField(m.getParam("outputCol").get, outputType(m)))
   }
 }

@@ -17,24 +17,27 @@ class ECSModelPushService(
   ecsDockerRepositoryConfiguration: ECSDockerRepositoryConfiguration
 ) extends ModelPushService {
 
-  val ecrClient: AmazonECR = AmazonECRClientBuilder.standard()
+  val ecrClient: AmazonECR = AmazonECRClientBuilder
+    .standard()
     .withRegion(ecsDockerRepositoryConfiguration.region)
     .build()
 
   private def getDockerRegistryAuth: DockerRegistryAuth = {
     val getAuthorizationTokenRequest = new GetAuthorizationTokenRequest
-    getAuthorizationTokenRequest.setRegistryIds(Collections.singletonList(ecsDockerRepositoryConfiguration.accountId))
+    getAuthorizationTokenRequest.setRegistryIds(
+      Collections.singletonList(ecsDockerRepositoryConfiguration.accountId)
+    )
     val result = ecrClient.getAuthorizationToken(getAuthorizationTokenRequest)
 
     val authorizationData = result.getAuthorizationData.get(0)
 
     DockerRegistryAuth(
-      username = None,
-      password = None,
-      email = None,
+      username      = None,
+      password      = None,
+      email         = None,
       identityToken = None,
       serverAddress = Some(authorizationData.getProxyEndpoint),
-      auth = Some(authorizationData.getAuthorizationToken)
+      auth          = Some(authorizationData.getAuthorizationToken)
     )
   }
 
@@ -51,7 +54,6 @@ class ECSModelPushService(
         ecrClient.createRepository(createRepositoryRequest)
     }
   }
-
 
   override def getImageName(modelBuild: ModelBuild): String = {
     s"${ecsDockerRepositoryConfiguration.accountId}.dkr.ecr.${ecsDockerRepositoryConfiguration.region.getName}.amazonaws.com/${modelBuild.model.name}"

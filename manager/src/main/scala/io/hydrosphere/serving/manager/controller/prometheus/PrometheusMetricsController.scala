@@ -17,16 +17,23 @@ import scala.concurrent.duration._
 @Path("/v1/prometheus")
 @Api(produces = "application/json", tags = Array("Infrastructure: Prometheus"))
 class PrometheusMetricsController(
-  prometheusMetricsService:PrometheusMetricsService
+  prometheusMetricsService: PrometheusMetricsService
 ) extends PrometheusJsonSupport {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/services")
   @ApiOperation(value = "services", notes = "services", nickname = "services", httpMethod = "GET")
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "services", response = classOf[ServiceTargets], responseContainer = "List"),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
+  @ApiResponses(
+    Array(
+      new ApiResponse(
+        code              = 200,
+        message           = "services",
+        response          = classOf[ServiceTargets],
+        responseContainer = "List"
+      ),
+      new ApiResponse(code = 500, message = "Internal server error")
+    )
+  )
   def getServices = get {
     path("v1" / "prometheus" / "services") {
       complete(prometheusMetricsService.fetchServices())
@@ -34,20 +41,42 @@ class PrometheusMetricsController(
   }
 
   @Path("/proxyMetrics/{serviceId}/{containerId}")
-  @ApiOperation(value = "proxyMetrics", notes = "proxyMetrics", nickname = "proxyMetrics", httpMethod = "GET")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "serviceId", value = "serviceId", required = true, dataType = "string", paramType = "path"),
-    new ApiImplicitParam(name = "containerId", value = "containerId", required = true, dataType = "string", paramType = "path")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "metrics"),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
+  @ApiOperation(
+    value      = "proxyMetrics",
+    notes      = "proxyMetrics",
+    nickname   = "proxyMetrics",
+    httpMethod = "GET"
+  )
+  @ApiImplicitParams(
+    Array(
+      new ApiImplicitParam(
+        name      = "serviceId",
+        value     = "serviceId",
+        required  = true,
+        dataType  = "string",
+        paramType = "path"
+      ),
+      new ApiImplicitParam(
+        name      = "containerId",
+        value     = "containerId",
+        required  = true,
+        dataType  = "string",
+        paramType = "path"
+      )
+    )
+  )
+  @ApiResponses(
+    Array(
+      new ApiResponse(code = 200, message = "metrics"),
+      new ApiResponse(code = 500, message = "Internal server error")
+    )
+  )
   def proxyMetrics = get {
-    path("v1" / "prometheus" / "proxyMetrics" / Segment / Segment ) { (serviceId, instanceId) =>
-      extractRequest { request => {
-        complete(prometheusMetricsService.fetchMetrics(serviceId.toLong, instanceId))
-      }
+    path("v1" / "prometheus" / "proxyMetrics" / Segment / Segment) { (serviceId, instanceId) =>
+      extractRequest { request =>
+        {
+          complete(prometheusMetricsService.fetchMetrics(serviceId.toLong, instanceId))
+        }
       }
     }
   }

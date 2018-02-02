@@ -30,7 +30,8 @@ object SignatureDescription {
       }
     }
 
-    case class FMap(name: String = "", data: mutable.ListBuffer[ANode] = mutable.ListBuffer.empty) extends ANode {
+    case class FMap(name: String = "", data: mutable.ListBuffer[ANode] = mutable.ListBuffer.empty)
+      extends ANode {
       def getOrUpdate(segment: String, map: FMap): ANode = {
         data.find(_.name == segment) match {
           case Some(x) =>
@@ -83,7 +84,10 @@ object SignatureDescription {
             lastName,
             ContractBuilders.createTensorInfo(field.dataType, field.shape)
           )
-        case Nil => throw new IllegalArgumentException(s"Field name '${field.fieldName}' in flattened contract is incorrect.")
+        case Nil =>
+          throw new IllegalArgumentException(
+            s"Field name '${field.fieldName}' in flattened contract is incorrect."
+          )
       }
     }
 
@@ -97,8 +101,8 @@ object SignatureDescription {
   def toSignature(signatureDescription: SignatureDescription): ModelSignature = {
     ModelSignature(
       signatureName = signatureDescription.signatureName,
-      inputs = SignatureDescription.toFields(signatureDescription.inputs),
-      outputs = SignatureDescription.toFields(signatureDescription.outputs)
+      inputs        = SignatureDescription.toFields(signatureDescription.inputs),
+      outputs       = SignatureDescription.toFields(signatureDescription.outputs)
     )
   }
 

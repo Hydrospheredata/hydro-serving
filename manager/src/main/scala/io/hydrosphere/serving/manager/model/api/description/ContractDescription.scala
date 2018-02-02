@@ -2,7 +2,6 @@ package io.hydrosphere.serving.manager.model.api.description
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 
-
 case class ContractDescription(
   signatures: List[SignatureDescription]
 ) {
@@ -12,9 +11,8 @@ case class ContractDescription(
 object ContractDescription {
   def toContract(contractDescription: ContractDescription): ModelContract = {
     ModelContract(
-      modelName = "",
+      modelName  = "",
       signatures = contractDescription.signatures.map(SignatureDescription.toSignature)
     )
   }
 }
-
