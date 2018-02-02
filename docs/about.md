@@ -16,15 +16,15 @@ Production data and predictions quality should be carefully monitored and the sy
 
 To build a natural language processing pipeline that takes input JSON from online web application, extracts simple features, classifies a document into particular category and then applies a neural network pre-trained for detected category you’ll need something like this:
 
-![Image](docs/images/NLP-serving-pipeline.png)
+![Image](/docs/images/NLP-serving-pipeline.png)
 
 Then you've decided to try embedding word2vec into DL4J neural network as a first two layers. Your production experiment will look this way:
 
-![Image](docs/images/serving-experiment.png) 
+![Image](/docs/images/serving-experiment.png) 
 
 Then you've decided to execute the same serving pipline in a streaming context, i.e. deploy a prediction pipeline into Kafka. 
 
-![Image](docs/images/serving-pipelines-in-kafka.png)
+![Image](/docs/images/serving-pipelines-in-kafka.png)
 
 How would you do that as a data scientist? There is an option to ask engineers to re-implement it in Java/Spark that takes another 6 months and unpredictable outcome. There is another solution described below.
 
@@ -33,6 +33,6 @@ Hydro Serving manages multiple serverless runtimes and allows chaining them into
 It implements side-car architecture that decouples machine learning logic from networking, service discovery, load balancing. 
 So, the transport layer between model runtimes could be changed from HTTP to unix sockets and even to Kafka without changing containers with actual machine learning code.
 
-![Image](docs/images/Diagrams.png?raw=true)
+![Image](/docs/images/Diagrams.png?raw=true)
 
 Additional out of the box features include Rate limiting, Load balancing, Circuit breaking, Tracing, Statistics.
