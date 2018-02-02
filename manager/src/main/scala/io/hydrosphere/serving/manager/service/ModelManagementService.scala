@@ -97,7 +97,7 @@ trait ModelManagementService {
 
   def submitContract(modelId: Long, prototext: String): Future[Option[Model]]
 
-  def buildModel(modelId: Long, modelVersion: Option[Long]): Future[ModelVersion]
+  def buildModel(modelId: Long, modelVersion: Option[Long] = None): Future[ModelVersion]
 
   def allModels(): Future[Seq[Model]]
 

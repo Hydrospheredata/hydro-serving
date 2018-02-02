@@ -2,28 +2,50 @@ version: "2"
 services:
   postgres:
     image: postgres:9.6-alpine
-    ports:
-      - "5432:5432"
+    container_name: postgres
+    networks:
+      - hydronet
     environment:
-      POSTGRES_DB: "docker"
-      POSTGRES_USER: "docker"
-      POSTGRES_PASSWORD: "docker"
+      - "POSTGRES_DB=docker"
+      - "POSTGRES_USER=docker"
+      - "POSTGRES_PASSWORD=docker"
 
-  hydro-serving-manager:
+  manager:
     image: hydrosphere/serving-manager:latest
-    ports:
-      - "9090:9090" # HTTP API
-      - "9091:9091" # GRPC API
-    depends_on:
-      - postgres
+    container_name: manager
+    networks:
+      - hydronet
+    environment:
+      - "ADVERTISED_MANAGER_HOST=manager"
+      - "ADVERTISED_MANAGER_PORT=9091"
+      - "DATABASE_HOST=postgres"
+      - "LOCAL_MODEL_PATH=/models"
+      - "SIDECAR_HOST=sidecar"
+      - "NETWORK_NAME=automation_hydronet"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ${MODEL_DIRECTORY}:/models
+
+
+  sidecar:
+    image: hydrosphere/serving-sidecar:latest
+    container_name: sidecar
+    ports:
+      - "8080:8080"
+      - "8082:8082"
+    networks:
+      - extnet
+      - hydronet
     environment:
-      ADVERTISED_MANAGER_HOST: "hydro-serving-manager"
-      DATABASE_HOST: "postgres"
-      LOCAL_MODEL_PATH: "/models"
-      ADVERTISED_MANAGER_HOST: ${HOST_IP}
-      MANAGER_HOST: ${HOST_IP}
-      SIDECAR_HOST: ${HOST_IP}
-      NETWORK_NAME: "hydroserving_default"
+      - "MANAGER_HOST=manager"
+      - "MANAGER_PORT=9091"
+      - "SERVICE_ID=-20"
+      - "SERVICE_NAME=manager"
+
+networks:
+  hydronet:
+    external:
+      name:  automation_hydronet
+
+  extnet:
+    driver: bridge

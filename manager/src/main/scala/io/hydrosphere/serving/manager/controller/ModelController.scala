@@ -13,8 +13,7 @@ import io.swagger.annotations._
 import scala.concurrent.duration._
 
 case class BuildModelRequest(
-  modelId: Long,
-  modelVersion: Option[Long]
+  modelId: Long
 )
 
 /**
@@ -47,7 +46,7 @@ class ModelController(modelManagementService: ModelManagementService)
     new ApiResponse(code = 200, message = "Model", response = classOf[AggregatedModelInfo]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def getModel = path("api" / "v1" / "model" / LongNumber) { id=>
+  def getModel = path("api" / "v1" / "model" / LongNumber) { id =>
     get {
       complete(modelManagementService.getModelAggregatedInfo(id))
     }
@@ -142,7 +141,7 @@ class ModelController(modelManagementService: ModelManagementService)
     post {
       entity(as[BuildModelRequest]) { r =>
         complete(
-          modelManagementService.buildModel(r.modelId, r.modelVersion)
+          modelManagementService.buildModel(r.modelId)
         )
       }
     }

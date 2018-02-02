@@ -10,7 +10,7 @@ import spray.json._
 trait ManagerJsonSupport extends CommonJsonSupport {
   implicit val modelServiceInstanceStatusFormat = new EnumJsonConverter(ServiceInstanceStatus)
 
-  implicit val buildModelRequestFormat = jsonFormat2(BuildModelRequest)
+  implicit val buildModelRequestFormat = jsonFormat1(BuildModelRequest.apply)
 
   implicit val createServiceRequest = jsonFormat5(CreateServiceRequest)
 

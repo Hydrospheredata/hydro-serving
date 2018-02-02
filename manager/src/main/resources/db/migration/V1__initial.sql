@@ -82,6 +82,7 @@ CREATE TABLE hydro_serving.application
 (
   id                BIGSERIAL PRIMARY KEY,
   application_name  TEXT    NOT NULL UNIQUE,
+  application_contract TEXT NOT NULL,
   execution_graph   TEXT    NOT NULL,
   services_in_stage TEXT [] NOT NULL
 );

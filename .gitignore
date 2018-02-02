@@ -1,6 +1,6 @@
 .testcontainers-tmp-*
 .idea
-.me_devenv.sh
+dev.docker-compose.yml
 
 ### Maven template
 target/
@@ -67,7 +67,6 @@ fabric.properties
 .history
 .lib/
 dist/*
-target/
 lib_managed/
 src_managed/
 project/boot/
