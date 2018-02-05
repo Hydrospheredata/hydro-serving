@@ -35,6 +35,7 @@ abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUr
       case Failure(e) =>
         log.error(s"Can't send message to $stream", e)
         observerNode.remove(stream)
+        observerResources.remove(stream)
       case _ =>
     }
   }
