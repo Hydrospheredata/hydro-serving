@@ -16,8 +16,7 @@ Developer documentation is placed is [here](/docs/docs_main.md).
 
 
 ## Demo
-
-[Here](/docs/demo.md) can find instructions about launching a demo.
+[These](/docs/demo.md) are instruction for launching a demo.
 
 ---
 
