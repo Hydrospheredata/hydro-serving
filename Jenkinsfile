@@ -155,6 +155,9 @@ node("JenkinsOnDemand") {
         }
         if (env.BRANCH_NAME == "master") {
             stage('Push latest docker') {
+              def curVersion = currentVersion()
+              sh "docker tag hydrosphere/serving-manager:${curVersion} hydrosphere/serving-manager:latest"
+              sh "docker tag hydrosphere/serving-runtime-dummy:${curVersion} hydrosphere/serving-runtime-dummy:latest"
               sh "docker push hydrosphere/serving-manager:latest"
               sh "docker push hydrosphere/serving-runtime-dummy:latest"
             }
