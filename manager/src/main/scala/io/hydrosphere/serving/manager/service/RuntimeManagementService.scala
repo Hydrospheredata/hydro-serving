@@ -18,11 +18,11 @@ case class CreateRuntimeRequest(
       id = 0,
       name = this.name,
       version = this.version,
-      suitableModelType = this.tags
-        .getOrElse(List())
+      suitableModelType = this.modelTypes
+        .getOrElse(List.empty)
         .map(ModelType.fromTag),
-      tags = this.tags.getOrElse(List()),
-      configParams = this.configParams.getOrElse(Map())
+      tags = this.tags.getOrElse(List.empty),
+      configParams = this.configParams.getOrElse(Map.empty)
     )
   }
 }
