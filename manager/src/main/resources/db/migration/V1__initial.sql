@@ -10,7 +10,7 @@ CREATE TABLE hydro_serving.runtime
 );
 
 INSERT INTO hydro_serving.runtime (name, version, tags, config_params, suitable_model_types) VALUES
-  ('hydrosphere/dummy-runtime', 'latest', '{"python","code","test"}', '{}', '{"unknown"}');
+  ('hydrosphere/serving-runtime-dummy', 'latest', '{"python","code","test"}', '{}', '{"unknown"}');
 
 CREATE TABLE hydro_serving.model
 (
