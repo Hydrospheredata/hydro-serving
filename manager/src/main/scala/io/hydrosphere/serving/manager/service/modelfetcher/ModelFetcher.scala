@@ -29,7 +29,7 @@ object ModelFetcher extends Logging {
     val model = res.flatten
       .headOption
       .getOrElse {
-        ModelMetadata(folder, ModelType.Unknown(), ModelContract())
+        ModelMetadata(folder, ModelType.Unknown("unknown"), ModelContract())
       }
     model
   }
