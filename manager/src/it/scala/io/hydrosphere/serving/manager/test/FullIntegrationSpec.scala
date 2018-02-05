@@ -1,5 +1,7 @@
 package io.hydrosphere.serving.manager.test
 
+import java.util.concurrent.TimeUnit
+
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
@@ -10,6 +12,7 @@ import io.hydrosphere.serving.manager.util.IsolatedDockerClient
 import org.scalatest._
 import org.testcontainers.containers.wait.Wait
 
+import scala.concurrent.Await
 import scala.concurrent.duration._
 import scala.io.Source
 import scala.util.{Failure, Success, Try}
@@ -60,6 +63,8 @@ trait FullIntegrationSpec extends AsyncWordSpecLike
       case ex: Throwable => throw ex
     } finally {
       dockerClient.close()
+      managerGRPC.server.shutdown()
+      system.terminate()
     }
   }
 
