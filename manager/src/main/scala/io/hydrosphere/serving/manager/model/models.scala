@@ -157,7 +157,7 @@ class UnknownModelRuntime extends ModelVersion(
   source = None,
   modelContract = ModelContract(),
   created = LocalDateTime.now(),
-  modelType = ModelType.Unknown(),
+  modelType = ModelType.Unknown("unknown"),
   model = None
 )
 

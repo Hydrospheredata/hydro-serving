@@ -21,8 +21,8 @@ object ModelType {
     override def toTag: String = s"python:$version"
   }
 
-  case class Unknown() extends ModelType {
-    override def toTag: String = "unknown"
+  case class Unknown(unknownTag: String) extends ModelType {
+    override def toTag: String = s"unknown:$unknownTag"
   }
 
   def tryFromTag(tag: String): Option[ModelType] = {
@@ -37,12 +37,12 @@ object ModelType {
     tag.split(':').toList match {
       case "tensorflow" :: Nil => Tensorflow()
       case "scikit" :: Nil => Scikit()
-      case "unknown" :: Nil => Unknown()
+      case "unknown":: subtag => Unknown(subtag.mkString(":"))
       case "python" :: version :: Nil => PythonFunction(version)
       case "spark" :: modelVersion :: Nil =>
         val majors = modelVersion.split('.').take(2).mkString(".")
         Spark(majors)
-      case _ => throw new IllegalArgumentException(s"Cant create a ModelTag from $tag")
+      case _ => Unknown(tag)
     }
   }
 }

@@ -33,5 +33,5 @@ dockerfile in docker := {
 }
 
 imageNames in docker := Seq(
-  ImageName("hydrosphere/dummy-runtime:latest")
+  ImageName(s"hydrosphere/serving-runtime-dummy:${version.value}")
 )
