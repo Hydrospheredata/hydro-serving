@@ -176,6 +176,26 @@ class ServiceManagementServiceImpl(
     }
   }
 
+  def createAndDeploy(
+    r: CreateServiceRequest,
+    runtime: Runtime,
+    modelVersion: Option[ModelVersion],
+    svEnv: Option[Environment]
+  ): Future[Service] = {
+    val dService = r.toService(runtime, modelVersion, svEnv)
+    serviceRepository.create(dService).flatMap { newService =>
+      val future = cloudDriverService.deployService(newService).flatMap { cloudService =>
+        serviceRepository.updateCloudDriveId(cloudService.id, Some(cloudService.cloudDriverId)).map { _ =>
+          newService.copy(cloudDriverId = Some(cloudService.cloudDriverId))
+        }
+      }
+      future.onFailure {
+        case _ => serviceRepository.delete(dService.id)
+      }
+      future
+    }
+  }
+
   override def addService(r: CreateServiceRequest): Future[Service] = {
     logger.debug(r.toString)
     //TODO ADD validation for names manager,gateway + length + without space and special symbols
@@ -184,14 +204,10 @@ class ServiceManagementServiceImpl(
       modelVersion <- fetchModel(r.modelVersionId)
       maybeRuntime <- runtimeRepository.get(r.runtimeId)
       runtime = maybeRuntime.getOrElse(throw new IllegalArgumentException(s"Can't find Runtime with id=${r.runtimeId}"))
-      dService = r.toService(runtime, modelVersion, svEnv)
-      cloudService <- cloudDriverService.deployService(dService)
-      newService <- serviceRepository.create(dService)
-      _ <- serviceRepository.updateCloudDriveId(cloudService.id, Some(cloudService.cloudDriverId))
+      asd <- createAndDeploy(r, runtime, modelVersion, svEnv)
     } yield {
-      val s = newService.copy(cloudDriverId = Some(cloudService.cloudDriverId))
-      internalManagerEventsPublisher.serviceChanged(s)
-      s
+      internalManagerEventsPublisher.serviceChanged(asd)
+      asd
     }
   }
 
