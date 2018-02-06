@@ -77,10 +77,10 @@ class ModelVersionRepositoryImpl(
     db.run(
       Tables.ModelVersion
         .filter(_.modelId inSetBind modelIds)
-        .sortBy(_.modelVersion.desc)
         .joinLeft(Tables.Model)
         .on({ case (m, rt) => m.modelId === rt.modelId })
         .distinctOn(_._1.modelId.get)
+        .sortBy(_._1.modelVersion.desc)
         .result
     ).map(s => mapFromDb(s))
 

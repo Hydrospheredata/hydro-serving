@@ -12,6 +12,7 @@ import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.ops.TensorProtoOps
+import io.hydrosphere.serving.manager.model.api.ops.Implicits._
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -90,6 +91,9 @@ case class AggregatedModelInfo(
 
 
 trait ModelManagementService {
+  def versionContractDescription(versionId: Long): Future[Option[ContractDescription]]
+
+  def modelContractDescription(modelId: Long): Future[Option[ContractDescription]]
 
   def submitBinaryContract(modelId: Long, bytes: Array[Byte]): Future[Option[Model]]
 
@@ -414,14 +418,14 @@ class ModelManagementServiceImpl(
     modelRepository.get(id)
 
   override def allModelsAggregatedInfo(): Future[Seq[AggregatedModelInfo]] =
-    modelRepository.all().flatMap(models=>{
-      val ids=models.map(_.id)
-      modelBuildRepository.lastForModels(ids).flatMap(builds=>{
-        val buildsMap=builds.map(p=>p.model.id->p).toMap
-        modelVersionRepository.lastModelVersionForModels(ids).map(versions=>{
-          val versionsMap=versions.map(p=>p.model.get.id->p).toMap
+    modelRepository.all().flatMap(models => {
+      val ids = models.map(_.id)
+      modelBuildRepository.lastForModels(ids).flatMap(builds => {
+        val buildsMap = builds.map(p => p.model.id -> p).toMap
+        modelVersionRepository.lastModelVersionForModels(ids).map(versions => {
+          val versionsMap = versions.map(p => p.model.get.id -> p).toMap
 
-          models.map(m=>{
+          models.map(m => {
             AggregatedModelInfo(
               model = m,
               lastModelBuild = buildsMap.get(m.id),
@@ -445,4 +449,20 @@ class ModelManagementServiceImpl(
         })
       })
     })
+
+  override def modelContractDescription(modelId: Long): Future[Option[ContractDescription]] = {
+    modelRepository.get(modelId).map { maybeModel =>
+      maybeModel.map { model =>
+        model.modelContract.flatten
+      }
+    }
+  }
+
+  override def versionContractDescription(versionId: Long): Future[Option[ContractDescription]] = {
+    modelVersionRepository.get(versionId).map { maybeVersion =>
+      maybeVersion.map { version =>
+        version.modelContract.flatten
+      }
+    }
+  }
 }

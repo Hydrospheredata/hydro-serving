@@ -298,8 +298,41 @@ class ModelController(modelManagementService: ModelManagementService)
     }
   }
 
+  @Path("{modelId}/flatContract")
+  @ApiOperation(value = "Get flatten contract", notes = "Get flatten contract", nickname = "Get flatten contract", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ContractDescription", response = classOf[ContractDescription]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def modelContractDescription = path("api" / "v1" / "model" / LongNumber / "flatContract" ) { (modelId) =>
+    get {
+      complete {
+        modelManagementService.modelContractDescription(modelId)
+      }
+    }
+  }
+
+  @Path("/version/{versionId}/flatContract")
+  @ApiOperation(value = "Get flatten contract", notes = "Get flatten contract", nickname = "Get flatten contract", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "versionId", required = true, dataType = "long", paramType = "path", value = "versionId")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ContractDescription", response = classOf[ContractDescription]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def versionContractDescription = path("api" / "v1" / "model" / "version" / LongNumber / "flatContract" ) { (versionId) =>
+    get {
+      complete {
+        modelManagementService.versionContractDescription(versionId)
+      }
+    }
+  }
 
   val routes: Route = listModels ~ getModel ~ updateModel ~ addModel ~ buildModel ~ listModelBuildsByModel ~ lastModelBuilds ~
     generatePayloadByModelId ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract ~ generateInputsForVersion ~
-    lastModelVersions ~ addModelVersion ~ allModelVersions
+    lastModelVersions ~ addModelVersion ~ allModelVersions ~ modelContractDescription ~ versionContractDescription
 }
