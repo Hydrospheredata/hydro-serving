@@ -54,9 +54,9 @@ trait ManagerJsonSupport extends CommonJsonSupport {
 
   implicit val modelSourceConfigFormat = jsonFormat3(ModelSourceConfigAux)
 
-  implicit val createModelSourceRequestFormat = jsonFormat2(CreateModelSourceRequest)
-
   implicit val createEnvironmentRequest = jsonFormat2(CreateEnvironmentRequest)
 
   implicit val aggregatedModelInfoFormat=jsonFormat3(AggregatedModelInfo)
 }
+
+object ManagerJsonSupport extends ManagerJsonSupport
