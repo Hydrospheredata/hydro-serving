@@ -45,11 +45,11 @@ trait ApplicationManagementService {
 
   def checkApplicationSchema(req: ApplicationCreateOrUpdateRequest): Future[Boolean]
 
-  def createApplications(req: ApplicationCreateOrUpdateRequest): Future[Application]
+  def createApplication(req: ApplicationCreateOrUpdateRequest): Future[Application]
 
   def deleteApplication(id: Long): Future[Unit]
 
-  def updateApplications(req: ApplicationCreateOrUpdateRequest): Future[Application]
+  def updateApplication(req: ApplicationCreateOrUpdateRequest): Future[Application]
 }
 
 class ApplicationManagementServiceImpl(
@@ -191,7 +191,7 @@ class ApplicationManagementServiceImpl(
     )
   }
 
-  def createApplications(req: ApplicationCreateOrUpdateRequest): Future[Application] = executeWithSync {
+  def createApplication(req: ApplicationCreateOrUpdateRequest): Future[Application] = executeWithSync {
     val keys = for {
       stage <- req.executionGraph.stages
       service <- stage.services
@@ -203,7 +203,7 @@ class ApplicationManagementServiceImpl(
     for {
       services <- serviceManagementService.fetchServicesUnsync(keySet)
       existedServices = services.map(_.toServiceKeyDescription)
-      _ <- startServices(keySet -- existedServices)
+      s <- startServices(keySet -- existedServices)
       inferredApp <- reqToApplication(req)
       createdApp <- applicationRepository.create(inferredApp)
     } yield {
@@ -227,7 +227,7 @@ class ApplicationManagementServiceImpl(
       }
     }
 
-  def updateApplications(req: ApplicationCreateOrUpdateRequest): Future[Application] =
+  def updateApplication(req: ApplicationCreateOrUpdateRequest): Future[Application] =
     executeWithSync {
       applicationRepository.get(req.id.getOrElse(throw new IllegalArgumentException(s"id required $req")))
         .flatMap {
@@ -262,11 +262,12 @@ class ApplicationManagementServiceImpl(
     }
   }
 
-  private def startServices(keysSet: Set[ServiceKeyDescription]): Future[Seq[Service]] =
-    serviceManagementService.fetchServicesUnsync(keysSet).flatMap(services => {
+  private def startServices(keysSet: Set[ServiceKeyDescription]): Future[Seq[Service]] = {
+    logger.debug(keysSet)
+    serviceManagementService.fetchServicesUnsync(keysSet).flatMap { services =>
       val toAdd = keysSet -- services.map(_.toServiceKeyDescription)
 
-      Future.traverse(toAdd.toSeq)(key => {
+      Future.traverse(toAdd.toSeq) { key =>
         serviceManagementService.addService(CreateServiceRequest(
           serviceName = key.toServiceName(),
           runtimeId = key.runtimeId,
@@ -274,8 +275,9 @@ class ApplicationManagementServiceImpl(
           environmentId = key.environmentId,
           modelVersionId = key.modelVersionId
         ))
-      })
-    })
+      }
+    }
+  }
 
   private def removeServiceIfNeeded(keysSet: Set[ServiceKeyDescription], applicationId: Long): Future[Unit] =
     applicationRepository.getKeysNotInApplication(keysSet, applicationId)
@@ -299,6 +301,7 @@ class ApplicationManagementServiceImpl(
   }
 
   private def inferAppContract(application: ApplicationCreateOrUpdateRequest): Future[ModelContract] = {
+    logger.debug(application)
     application.executionGraph.stages match {
       case stage :: Nil if stage.services.lengthCompare(1) == 0 => // single model version
         val serviceDesc = stage.services.head

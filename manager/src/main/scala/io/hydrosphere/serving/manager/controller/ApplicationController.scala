@@ -47,7 +47,7 @@ class ApplicationController(
     post {
       entity(as[ApplicationCreateOrUpdateRequest]) { r =>
         complete(
-          applicationManagementService.createApplications(r)
+          applicationManagementService.createApplication(r)
         )
       }
     }
@@ -67,7 +67,7 @@ class ApplicationController(
     put {
       entity(as[ApplicationCreateOrUpdateRequest]) { r =>
         complete(
-          applicationManagementService.updateApplications(r)
+          applicationManagementService.updateApplication(r)
         )
       }
     }
