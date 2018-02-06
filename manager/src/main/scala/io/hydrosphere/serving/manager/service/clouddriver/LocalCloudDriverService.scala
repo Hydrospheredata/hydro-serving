@@ -9,6 +9,7 @@ import io.hydrosphere.serving.manager.ManagerConfiguration
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.Service
 import io.hydrosphere.serving.manager.service.InternalManagerEventsPublisher
+import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 import collection.JavaConversions._
@@ -21,7 +22,7 @@ class LocalCloudDriverService(
   dockerClient: DockerClient,
   managerConfiguration: ManagerConfiguration,
   internalManagerEventsPublisher: InternalManagerEventsPublisher
-)(implicit val ex: ExecutionContext) extends CloudDriverService {
+)(implicit val ex: ExecutionContext) extends CloudDriverService with Logging {
 
   override def serviceList(): Future[Seq[CloudService]] = Future({
     postProcessAllServiceList(getAllServices())
@@ -68,11 +69,12 @@ class LocalCloudDriverService(
     publishPorts
   }
 
-  override def deployService(service: Service): Future[CloudService] = Future.apply({
+  override def deployService(service: Service): Future[CloudService] = Future.apply{
+    logger.debug(service)
     val modelContainerId = service.model.map(_ => startModel(service))
-    val javaLabels = mapAsJavaMap(getRuntimeLabels(service) ++ Map(
+    val javaLabels = getRuntimeLabels(service) ++ Map(
       LABEL_SERVICE_NAME -> service.serviceName
-    ))
+    )
 
     val envMap = service.configParams ++ Map(
       ENV_MODEL_DIR -> DEFAULT_MODEL_DIR.toString,
@@ -84,9 +86,9 @@ class LocalCloudDriverService(
 
     val builder = createMainApplicationHostConfigBuilder()
 
-    modelContainerId.foreach(_ => {
+    modelContainerId.foreach{_ =>
       builder.volumesFrom(generateModelContainerName(service))
-    })
+    }
 
     val c = dockerClient.createContainer(ContainerConfig.builder()
       .image(service.runtime.toImageDef)
@@ -100,7 +102,7 @@ class LocalCloudDriverService(
     val cloudService = fetchById(service.id)
     internalManagerEventsPublisher.cloudServiceDetected(Seq(cloudService))
     cloudService
-  })
+  }
 
   private def collectCloudService(containers: Seq[Container]): Seq[CloudService] = {
     val map = containers.groupBy(c => c.labels().get(LABEL_SERVICE_ID))
