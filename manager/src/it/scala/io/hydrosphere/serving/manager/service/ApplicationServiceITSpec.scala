@@ -47,6 +47,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
   override def beforeAll(): Unit = {
     super.beforeAll()
+    dockerClient.pull("hydrosphere/serving-runtime-dummy:latest")
     val indexProbe = TestProbe()
     system.eventStream.subscribe(indexProbe.ref, classOf[RepositoryIndexActor.IndexFinished])
     managerServices.sourceManagementService.addSource(
