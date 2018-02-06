@@ -37,6 +37,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         )
         app <- managerServices.applicationManagementService.createApplication(appRequest)
       } yield {
+        println(app)
         assert(app.name === appRequest.name)
         assert(app.contract === version.modelContract)
         assert(app.executionGraph === appRequest.executionGraph)
