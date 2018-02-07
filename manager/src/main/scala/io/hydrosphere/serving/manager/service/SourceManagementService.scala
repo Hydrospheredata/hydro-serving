@@ -5,7 +5,8 @@ import java.nio.file.Path
 import akka.actor.{ActorRef, ActorSystem}
 import akka.pattern._
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.model.{LocalSourceParams, ModelSourceConfigAux, S3SourceParams, SourceParams}
+import io.hydrosphere.serving.manager.controller.model_source.{AddLocalSourceRequest, AddS3SourceRequest}
+import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.repository.SourceConfigRepository
 import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
 import io.hydrosphere.serving.manager.service.modelsource.WatcherRegistryActor.AddWatcher
@@ -14,13 +15,10 @@ import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 
-case class CreateModelSourceRequest(
-  name: String,
-  params: SourceParams
-)
-
 trait SourceManagementService {
-  def addSource(createModelSourceRequest: CreateModelSourceRequest): Future[ModelSourceConfigAux]
+  def addS3Source(r: AddS3SourceRequest): Future[Option[ModelSourceConfigAux]]
+
+  def addLocalSource(r: AddLocalSourceRequest): Future[Option[ModelSourceConfigAux]]
 
   def addSource(modelSourceConfigAux: ModelSourceConfigAux): Future[ActorRef]
 
@@ -39,11 +37,6 @@ class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)
   (implicit ex: ExecutionContext, actorSystem: ActorSystem, timeout: Timeout) extends SourceManagementService with Logging {
 
   private val watcherRegistry = actorSystem.actorOf(WatcherRegistryActor.props, "WatcherRegistry")
-
-  def addSource(createModelSourceRequest: CreateModelSourceRequest): Future[ModelSourceConfigAux] = {
-    val config = ModelSourceConfigAux(-1, createModelSourceRequest.name, createModelSourceRequest.params)
-    addSource(config).map(_ => config)
-  }
 
   def addSource(modelSourceConfigAux: ModelSourceConfigAux): Future[ActorRef] = {
     val modelSource = ModelSource.fromConfig(modelSourceConfigAux)
@@ -105,6 +98,30 @@ class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)
     }
   }
 
+  override def addS3Source(r: AddS3SourceRequest): Future[Option[ModelSourceConfigAux]] = {
+    val config = ModelSourceConfig(
+      id = -1,
+      name = r.name,
+      params = S3SourceParams(
+        awsAuth = r.key,
+        bucketName = r.bucket,
+        queueName = r.queue,
+        region = r.region
+      )
+    ).toAux
+    addSource(config).map(_ => Some(config))
+  }
+
+  override def addLocalSource(r: AddLocalSourceRequest): Future[Option[ModelSourceConfigAux]] = {
+    val config = ModelSourceConfig(
+      id = -1,
+      name = r.name,
+      params = LocalSourceParams(
+        path = r.path
+      )
+    ).toAux
+    addSource(config).map(_ => Some(config))
+  }
 }
 
 object SourceManagementServiceImpl {
