@@ -22,7 +22,8 @@ import scala.util.{Failure, Success}
 case class ApplicationCreateOrUpdateRequest(
   id: Option[Long],
   name: String,
-  executionGraph: ApplicationExecutionGraph
+  executionGraph: ApplicationExecutionGraph,
+  kafkaStream: Option[Seq[ApplicationKafkaStream]]
 )
 
 case class ServiceWithSignature(s: Service, signatureName: String)
@@ -88,15 +89,15 @@ class ApplicationManagementServiceImpl(
     application.executionGraph.stages match {
       case stage :: Nil if stage.services.lengthCompare(1) == 0 => // single stage with single service
         val unit = ExecutionUnit(
-          serviceName = s"app${application.id}stage0",
+          serviceName = ApplicationStage.stageId(application.id, 0),
           servicePath = request.modelSpec.getOrElse(throw new IllegalArgumentException(s"ModelSpec in request is not specified")).signatureName
         )
         serve(unit, request)
       case stages => // pipeline
         val execUnits = stages.zipWithIndex.map {
           case (stage, idx) => ExecutionUnit(
-            serviceName = s"app${application.id}stage$idx",
-            servicePath = stage.signatureName
+            serviceName = ApplicationStage.stageId(application.id, idx),
+            servicePath = stage.signatureName.getOrElse(ApplicationStage.EMPTY_SIGNATURE)
           )
         }
         servePipeline(execUnits, request)
@@ -180,7 +181,7 @@ class ApplicationManagementServiceImpl(
               .getOrElse(throw new IllegalArgumentException(s"Service $id is not found."))
             modelService -> sig
         }.filterKeys(p => p.model.nonEmpty)
-          .map { case (s, sig) => ServiceWithSignature(s, sig) }.toSeq
+          .map { case (s, sig) => ServiceWithSignature(s, sig.getOrElse(ApplicationStage.EMPTY_SIGNATURE)) }.toSeq
         createStageSignature(stIdx, services)
     }
 
@@ -295,7 +296,8 @@ class ApplicationManagementServiceImpl(
         id = appReq.id.getOrElse(0),
         name = appReq.name,
         contract = inferredContract,
-        executionGraph = appReq.executionGraph
+        executionGraph = appReq.executionGraph,
+        kafkaStreaming = appReq.kafkaStream.getOrElse(List()).toList
       )
     }
   }
@@ -315,7 +317,11 @@ class ApplicationManagementServiceImpl(
     }
   }
 
-  private def inferStageSignature(stage: Map[ServiceKeyDescription, String]): Future[ModelSignature] = {
+  private def fillStageSignature(stage: Seq[ApplicationStage]): Future[Seq[ApplicationStage]] =
+    //TODO fetch stage signature and safe it to ApplicationStage
+    Future.successful(stage)
+
+  private def inferStageSignature(stage: Map[ServiceKeyDescription, Option[String]]): Future[ModelSignature] = {
     Future.sequence {
       stage.map {
         case (sId, signature) =>
@@ -325,7 +331,7 @@ class ApplicationManagementServiceImpl(
               .getOrElse(throw new IllegalArgumentException(s"Service with id $sId is not found"))
             val m = service.model.getOrElse(throw new IllegalArgumentException(s"Service with id $sId doesn't have a Model"))
             m.modelContract.signatures
-              .find(_.signatureName == signature)
+              .find(_.signatureName == signature.getOrElse(ApplicationStage.EMPTY_SIGNATURE))
               .getOrElse(throw new IllegalArgumentException(s"Signature $signature for service $sId is not found"))
 
           }

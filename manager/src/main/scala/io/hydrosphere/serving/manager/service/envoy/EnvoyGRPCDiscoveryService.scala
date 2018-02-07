@@ -36,6 +36,7 @@ class EnvoyGRPCDiscoveryServiceImpl(
   ))
   private val listenerDSActor: ActorRef = actorSystem.actorOf(Props[ListenerDSActor])
   private val routeDSActor: ActorRef = actorSystem.actorOf(Props[RouteDSActor])
+  private val applicationDSActor: ActorRef = actorSystem.actorOf(Props[ApplicationDSActor])
 
   private val xdsManagementActor: ActorRef = actorSystem.actorOf(Props(classOf[XDSManagementActor],
     serviceManagementService,
@@ -45,6 +46,7 @@ class EnvoyGRPCDiscoveryServiceImpl(
     endpointDSActor,
     listenerDSActor,
     routeDSActor,
+    applicationDSActor,
     ex
   ))
 
