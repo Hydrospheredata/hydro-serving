@@ -1,25 +1,19 @@
-package io.hydrosphere.serving.manager.controller
+package io.hydrosphere.serving.manager.controller.model
 
 import javax.ws.rs.Path
 
-import io.hydrosphere.serving.manager.service.{AggregatedModelInfo, CreateModelVersionRequest, CreateOrUpdateModelRequest, ModelManagementService}
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
+import io.hydrosphere.serving.manager.controller.ServingDataDirectives
+import io.hydrosphere.serving.manager.model.CommonJsonSupport._
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.description.ContractDescription
-import CommonJsonSupport._
+import io.hydrosphere.serving.manager.service.{AggregatedModelInfo, CreateModelVersionRequest, CreateOrUpdateModelRequest, ModelManagementService}
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
 
-case class BuildModelRequest(
-  modelId: Long
-)
-
-/**
-  *
-  */
 @Path("/api/v1/model")
 @Api(produces = "application/json", tags = Array("Model and Model Versions"))
 class ModelController(modelManagementService: ModelManagementService)

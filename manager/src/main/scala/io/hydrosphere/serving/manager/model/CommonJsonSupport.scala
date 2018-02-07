@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.controller.BuildModelRequest
+import io.hydrosphere.serving.manager.controller.model.BuildModelRequest
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.api.description._
 import io.hydrosphere.serving.manager.service._
@@ -136,8 +136,6 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
   implicit val applicationFormat = jsonFormat5(Application)
 
   implicit val modelServiceInstanceStatusFormat = enumFormat(ServiceInstanceStatus)
-
-  implicit val buildModelRequestFormat = jsonFormat1(BuildModelRequest.apply)
 
   implicit val createServiceRequest = jsonFormat5(CreateServiceRequest)
 
