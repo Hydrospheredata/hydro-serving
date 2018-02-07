@@ -8,6 +8,7 @@ import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.description.ContractDescription
+import CommonJsonSupport._
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
@@ -22,7 +23,7 @@ case class BuildModelRequest(
 @Path("/api/v1/model")
 @Api(produces = "application/json", tags = Array("Model and Model Versions"))
 class ModelController(modelManagementService: ModelManagementService)
-  extends ManagerJsonSupport with ServingDataDirectives {
+  extends ServingDataDirectives {
   implicit val timeout = Timeout(10.minutes)
 
   @Path("/")

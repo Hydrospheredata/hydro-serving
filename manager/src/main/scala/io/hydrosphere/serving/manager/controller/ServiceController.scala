@@ -5,7 +5,8 @@ import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.model.{ManagerJsonSupport, Service}
+import io.hydrosphere.serving.manager.model.CommonJsonSupport._
+import io.hydrosphere.serving.manager.model.Service
 import io.hydrosphere.serving.manager.service._
 import io.swagger.annotations._
 
@@ -19,7 +20,7 @@ import scala.concurrent.duration._
 class ServiceController(
   serviceManagementService: ServiceManagementService,
   applicationManagementService: ApplicationManagementService
-) extends ManagerJsonSupport with ServingDataDirectives {
+) extends ServingDataDirectives {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/")

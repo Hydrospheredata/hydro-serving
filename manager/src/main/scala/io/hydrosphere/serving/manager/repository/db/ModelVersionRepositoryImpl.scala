@@ -3,8 +3,9 @@ package io.hydrosphere.serving.manager.repository.db
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.manager.model.api.ModelType
-import io.hydrosphere.serving.manager.model.{ManagerJsonSupport, Model, ModelVersion}
+import io.hydrosphere.serving.manager.model.{Model, ModelVersion}
 import io.hydrosphere.serving.manager.repository.ModelVersionRepository
+import io.hydrosphere.serving.manager.model.CommonJsonSupport._
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -15,7 +16,7 @@ import scala.concurrent.{ExecutionContext, Future}
 class ModelVersionRepositoryImpl(
   implicit executionContext: ExecutionContext,
   databaseService: DatabaseService
-) extends ModelVersionRepository with Logging with ManagerJsonSupport {
+) extends ModelVersionRepository with Logging {
 
   import databaseService._
   import databaseService.driver.api._
@@ -96,7 +97,7 @@ class ModelVersionRepositoryImpl(
     ).map(s => mapFromDb(s))
 }
 
-object ModelVersionRepositoryImpl extends ManagerJsonSupport {
+object ModelVersionRepositoryImpl {
 
   def mapFromDb(option: Option[(Tables.ModelVersion#TableElementType, Option[Tables.Model#TableElementType])]): Option[ModelVersion] =
     option.map {

@@ -12,6 +12,7 @@ import io.hydrosphere.serving.manager.repository.ApplicationRepository
 import io.hydrosphere.serving.tensorflow.api.model.ModelSpec
 import io.hydrosphere.serving.tensorflow.api.predict.{PredictRequest, PredictResponse}
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
+import CommonJsonSupport._
 import org.apache.logging.log4j.scala.Logging
 import spray.json.{JsObject, JsValue}
 
@@ -59,7 +60,7 @@ class ApplicationManagementServiceImpl(
   serviceManagementService: ServiceManagementService,
   grpcClient: PredictionServiceGrpc.PredictionServiceStub,
   internalManagerEventsPublisher: InternalManagerEventsPublisher
-)(implicit val ex: ExecutionContext) extends ApplicationManagementService with ManagerJsonSupport with Logging {
+)(implicit val ex: ExecutionContext) extends ApplicationManagementService with Logging {
 
   def serve(unit: ExecutionUnit, request: PredictRequest): Future[PredictResponse] = {
     grpcClient
