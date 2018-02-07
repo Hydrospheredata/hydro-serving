@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.repository.db
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model.{Application, ApplicationExecutionGraph, CommonJsonSupport, ServiceKeyDescription}
+import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.repository.ApplicationRepository
 import org.apache.logging.log4j.scala.Logging
 
@@ -31,7 +31,8 @@ class ApplicationRepositoryImpl(
         applicationName = entity.name,
         applicationContract = entity.contract.toString(),
         executionGraph = entity.executionGraph.toJson.toString(),
-        servicesInStage = getServices(entity.executionGraph).map(v => v.toString)
+        servicesInStage = getServices(entity.executionGraph).map(v => v.toString),
+        kafkaStreams = entity.kafkaStreaming.map(p=>p.toJson.toString())
       )
     ).map(s => mapFromDb(s))
 
@@ -104,7 +105,8 @@ object ApplicationRepositoryImpl extends CommonJsonSupport {
       id = dbType.id,
       name = dbType.applicationName,
       executionGraph = dbType.executionGraph.parseJson.convertTo[ApplicationExecutionGraph],
-      contract = ModelContract.fromAscii(dbType.applicationContract)
+      contract = ModelContract.fromAscii(dbType.applicationContract),
+      kafkaStreaming = dbType.kafkaStreams.map(p=>p.parseJson.convertTo[ApplicationKafkaStream])
     )
   }
 }

@@ -8,7 +8,7 @@ import org.scalatest.BeforeAndAfterAll
 
 import scala.concurrent.duration._
 
-class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll{
+class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
 
   "Application service" should {
     "create a simple application" in {
@@ -30,10 +30,12 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                     weight = 100
                   )
                 ),
-                signatureName = "default"
+                signatureName = Some("default"),
+                signature = None
               )
             )
-          )
+          ),
+          kafkaStream = None
         )
         app <- managerServices.applicationManagementService.createApplication(appRequest)
       } yield {

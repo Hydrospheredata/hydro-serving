@@ -15,7 +15,8 @@ class XDSManagementActor(
   clusterDSActor: ActorRef,
   endpointDSActor: ActorRef,
   listenerDSActor: ActorRef,
-  routeDSActor: ActorRef
+  routeDSActor: ActorRef,
+  applicationDSActor: ActorRef
 )(
   implicit val ex: ExecutionContext
 ) extends Actor with ActorLogging {
@@ -30,7 +31,8 @@ class XDSManagementActor(
     "type.googleapis.com/envoy.api.v2.Cluster" -> clusterDSActor,
     "type.googleapis.com/envoy.api.v2.ClusterLoadAssignment" -> endpointDSActor,
     "type.googleapis.com/envoy.api.v2.RouteConfiguration" -> routeDSActor,
-    "type.googleapis.com/envoy.api.v2.Listener" -> listenerDSActor
+    "type.googleapis.com/envoy.api.v2.Listener" -> listenerDSActor,
+    "type.googleapis.com/io.hydrosphere.serving.manager.grpc.applications.Application" -> applicationDSActor
   )
 
   override def receive: Receive = {
@@ -47,8 +49,10 @@ class XDSManagementActor(
       })
     case app: ApplicationChanged =>
       routeDSActor ! app
+      applicationDSActor ! app
     case app: ApplicationRemoved =>
       routeDSActor ! app
+      applicationDSActor ! app
     case c: CloudServiceDetected =>
       endpointDSActor ! AddEndpoints(mapCloudService(c.cloudServices))
     case s: ServiceChanged =>
@@ -65,7 +69,11 @@ class XDSManagementActor(
         f1 <- serviceManagementService.allServices()
           .map(v => clusterDSActor ! SyncCluster(v.map(_.serviceName).toSet))
         f2 <- applicationManagementService.allApplications()
-          .map(v => routeDSActor ! SyncApplications(v))
+          .map(v => {
+            val m=SyncApplications(v)
+            routeDSActor ! m
+            applicationDSActor ! m
+          })
         f3 <- cloudDriverService.serviceList()
           .map(c => endpointDSActor ! RenewEndpoints(mapCloudService(c)))
       } yield (f1, f2, f3)

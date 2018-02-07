@@ -5,6 +5,7 @@ import java.time.format.DateTimeFormatter
 
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.api.description._
 import io.hydrosphere.serving.tensorflow.types.DataType
@@ -88,6 +89,19 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
     }
   }
 
+  implicit val modelSignatureFormat = new JsonFormat[ModelSignature] {
+    override def read(json: JsValue) = {
+      json match {
+        case JsString(str) => ModelSignature.fromAscii(str)
+        case x => throw DeserializationException(s"$x is not a correct ModelSignature message")
+      }
+    }
+
+    override def write(obj: ModelSignature) = {
+      JsString(obj.toString)
+    }
+  }
+
   implicit val modelTypeFormat = new JsonFormat[ModelType] {
     override def read(json: JsValue) = {
       json match {
@@ -119,7 +133,8 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
 
   implicit val serviceKeyDescriptionFormat = jsonFormat3(ServiceKeyDescription)
   implicit val serviceWeightFormat = jsonFormat2(ServiceWeight)
-  implicit val applicationStageFormat = jsonFormat2(ApplicationStage)
+  implicit val applicationStageFormat = jsonFormat3(ApplicationStage.apply)
   implicit val applicationExecutionGraphFormat = jsonFormat1(ApplicationExecutionGraph)
-  implicit val applicationFormat = jsonFormat4(Application)
+  implicit val applicationKafkaStreamingFormat = jsonFormat4(ApplicationKafkaStream)
+  implicit val applicationFormat = jsonFormat5(Application)
 }

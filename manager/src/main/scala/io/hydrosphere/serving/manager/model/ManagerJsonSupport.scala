@@ -20,7 +20,7 @@ trait ManagerJsonSupport extends CommonJsonSupport {
 
   implicit val createModelVersionRequest = jsonFormat12(CreateModelVersionRequest)
 
-  implicit val applicationCreateOrUpdateRequest = jsonFormat3(ApplicationCreateOrUpdateRequest)
+  implicit val applicationCreateOrUpdateRequest = jsonFormat4(ApplicationCreateOrUpdateRequest)
 
   implicit val awsAuthFormat = jsonFormat2(AWSAuthKeys)
 
