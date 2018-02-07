@@ -1,4 +1,4 @@
-version: "2"
+version: "3"
 services:
   postgres:
     image: postgres:9.6-alpine
@@ -15,6 +15,9 @@ services:
     container_name: manager
     networks:
       - hydronet
+    depends_on:
+      - postgres
+      - sidecar
     environment:
       - "ADVERTISED_MANAGER_HOST=manager"
       - "ADVERTISED_MANAGER_PORT=9091"
