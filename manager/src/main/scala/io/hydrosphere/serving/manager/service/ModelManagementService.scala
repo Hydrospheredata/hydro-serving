@@ -418,23 +418,23 @@ class ModelManagementServiceImpl(
     modelRepository.get(id)
 
   override def allModelsAggregatedInfo(): Future[Seq[AggregatedModelInfo]] =
-    modelRepository.all().flatMap(models => {
-      val ids = models.map(_.id)
-      modelBuildRepository.lastForModels(ids).flatMap(builds => {
-        val buildsMap = builds.map(p => p.model.id -> p).toMap
-        modelVersionRepository.lastModelVersionForModels(ids).map(versions => {
-          val versionsMap = versions.map(p => p.model.get.id -> p).toMap
+    for {
+      models <- modelRepository.all()
+      ids = models.map(_.id)
+      builds <- modelBuildRepository.lastForModels(ids)
+      buildsMap = builds.groupBy(_.model.id)
+      versions <- modelVersionRepository.lastModelVersionForModels(ids)
+      versionsMap = versions.groupBy(_.model.get.id)
+    } yield {
+      models.map { model =>
+        AggregatedModelInfo(
+          model = model,
+          lastModelBuild = buildsMap.get(model.id).map(_.maxBy(_.version)),
+          lastModelVersion = versionsMap.get(model.id).map(_.maxBy(_.modelVersion))
+        )
+      }
+    }
 
-          models.map(m => {
-            AggregatedModelInfo(
-              model = m,
-              lastModelBuild = buildsMap.get(m.id),
-              lastModelVersion = versionsMap.get(m.id)
-            )
-          })
-        })
-      })
-    })
 
   override def getModelAggregatedInfo(id: Long): Future[Option[AggregatedModelInfo]] =
     modelRepository.get(id).flatMap({

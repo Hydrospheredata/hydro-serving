@@ -3,19 +3,17 @@ package io.hydrosphere.serving.manager.repository.db
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.manager.model.api.ModelType
-import io.hydrosphere.serving.manager.model.{ManagerJsonSupport, Model, ModelVersion}
+import io.hydrosphere.serving.manager.model.{Model, ModelVersion}
 import io.hydrosphere.serving.manager.repository.ModelVersionRepository
+import io.hydrosphere.serving.manager.model.CommonJsonSupport._
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 
-/**
-  *
-  */
 class ModelVersionRepositoryImpl(
   implicit executionContext: ExecutionContext,
   databaseService: DatabaseService
-) extends ModelVersionRepository with Logging with ManagerJsonSupport {
+) extends ModelVersionRepository with Logging {
 
   import databaseService._
   import databaseService.driver.api._
@@ -45,7 +43,7 @@ class ModelVersionRepositoryImpl(
         .joinLeft(Tables.Model)
         .on({ case (m, rt) => m.modelId === rt.modelId })
         .result.headOption
-    ).map(m => mapFromDb(m))
+    ).map( mapFromDb)
 
   override def delete(id: Long): Future[Int] =
     db.run(
@@ -60,7 +58,7 @@ class ModelVersionRepositoryImpl(
         .joinLeft(Tables.Model)
         .on({ case (m, rt) => m.modelId === rt.modelId })
         .result
-    ).map(s => mapFromDb(s))
+    ).map(mapFromDb)
 
   override def lastModelVersionByModel(modelId: Long, max: Int): Future[Seq[ModelVersion]] =
     db.run(
@@ -71,18 +69,30 @@ class ModelVersionRepositoryImpl(
         .on({ case (m, rt) => m.modelId === rt.modelId })
         .take(max)
         .result
-    ).map(s => mapFromDb(s))
+    ).map(mapFromDb)
 
-  override def lastModelVersionForModels(modelIds: Seq[Long]): Future[Seq[ModelVersion]] =
-    db.run(
-      Tables.ModelVersion
-        .filter(_.modelId inSetBind modelIds)
-        .joinLeft(Tables.Model)
-        .on({ case (m, rt) => m.modelId === rt.modelId })
-        .distinctOn(_._1.modelId.get)
-        .sortBy(_._1.modelVersion.desc)
-        .result
-    ).map(s => mapFromDb(s))
+  override def lastModelVersionForModels(modelIds: Seq[Long]): Future[Seq[ModelVersion]] = {
+    val latestBuilds = for {
+      (id, versions) <- Tables.ModelVersion.groupBy(_.modelId)
+    } yield {
+      id -> versions.map(_.modelVersion).max
+    }
+
+    val action = Tables.ModelVersion
+      .filter {
+        _.modelId inSetBind modelIds
+      }
+      .join(latestBuilds)
+      .on { case (version, (modelId, _)) => modelId === version.modelId }
+      .filter { case (version, (_, latestVersion)) => version.modelVersion === latestVersion }
+      .joinLeft(Tables.Model)
+      .on { case ((modelVersion, _), model) => modelVersion.modelId === model.modelId }
+      .map { case ((version, _), model) => version -> model }
+      .result
+
+    db.run(action).map(mapFromDb)
+  }
+
 
   override def modelVersionByModelAndVersion(modelId: Long, version: Long): Future[Option[ModelVersion]] =
     db.run(
@@ -93,10 +103,10 @@ class ModelVersionRepositoryImpl(
         .on({ case (m, rt) => m.modelId === rt.modelId })
         .distinctOn(_._1.modelId.get)
         .result.headOption
-    ).map(s => mapFromDb(s))
+    ).map(mapFromDb)
 }
 
-object ModelVersionRepositoryImpl extends ManagerJsonSupport {
+object ModelVersionRepositoryImpl {
 
   def mapFromDb(option: Option[(Tables.ModelVersion#TableElementType, Option[Tables.Model#TableElementType])]): Option[ModelVersion] =
     option.map {

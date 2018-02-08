@@ -77,6 +77,23 @@ class ModelServiceSpec extends FullIntegrationSpec with BeforeAndAfterAll {
           }
       }
     }
+
+    "return last version" when {
+      "for all models" in {
+        for {
+          _ <- managerServices.modelManagementService.buildModel(1, None)
+          v2 <- managerServices.modelManagementService.buildModel(1, None)
+          versions <- managerServices.modelManagementService.allModelsAggregatedInfo()
+        } yield {
+          val maybeModelInfo = versions.find(_.model.id == 1)
+          assert(maybeModelInfo.isDefined)
+          val modelInfo = maybeModelInfo.get
+          assert(modelInfo.lastModelVersion.isDefined)
+          val lastModelVersion = modelInfo.lastModelVersion.get
+          assert(v2.modelVersion === lastModelVersion.modelVersion)
+        }
+      }
+    }
   }
 
   override def beforeAll(): Unit = {

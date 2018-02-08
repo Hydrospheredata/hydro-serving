@@ -6,26 +6,14 @@ import java.time.format.DateTimeFormatter
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
+import io.hydrosphere.serving.manager.controller.model.BuildModelRequest
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.api.description._
+import io.hydrosphere.serving.manager.service._
+import io.hydrosphere.serving.manager.service.prometheus.{ServiceTargetLabels, ServiceTargets}
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
-
-
-/**
-  *
-  */
-class EnumJsonConverter[T <: scala.Enumeration](enu: T) extends RootJsonFormat[T#Value] {
-  override def write(obj: T#Value): JsValue = JsString(obj.toString)
-
-  override def read(json: JsValue): T#Value = {
-    json match {
-      case JsString(txt) => enu.withName(txt)
-      case somethingElse => throw DeserializationException(s"Expected a value from enum $enu instead of $somethingElse")
-    }
-  }
-}
 
 trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with Logging {
 
@@ -51,6 +39,15 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
       case _: JsArray => listFormat[Any].read(value)
       case _: JsObject => mapFormat[String, Any].read(value)
       case e => throw DeserializationException(e.toString)
+    }
+  }
+
+  implicit def enumFormat[T <: scala.Enumeration](enum: T) = new RootJsonFormat[T#Value] {
+    override def write(obj: T#Value): JsValue = JsString(obj.toString)
+
+    override def read(json: JsValue): T#Value = json match {
+      case JsString(txt) => enum.withName(txt)
+      case somethingElse => throw DeserializationException(s"Expected a value from enum $enum instead of $somethingElse")
     }
   }
 
@@ -115,7 +112,7 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
     }
   }
 
-  implicit val modelBuildStatusFormat = new EnumJsonConverter(ModelBuildStatus)
+  implicit val modelBuildStatusFormat = enumFormat(ModelBuildStatus)
 
 
   implicit val fieldDescFormat = jsonFormat3(FieldDescription)
@@ -137,4 +134,57 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
   implicit val applicationExecutionGraphFormat = jsonFormat1(ApplicationExecutionGraph)
   implicit val applicationKafkaStreamingFormat = jsonFormat4(ApplicationKafkaStream)
   implicit val applicationFormat = jsonFormat5(Application)
+
+  implicit val modelServiceInstanceStatusFormat = enumFormat(ServiceInstanceStatus)
+
+  implicit val createServiceRequest = jsonFormat5(CreateServiceRequest)
+
+  implicit val createRuntimeRequest = jsonFormat5(CreateRuntimeRequest)
+
+  implicit val createOrUpdateModelRequest = jsonFormat6(CreateOrUpdateModelRequest)
+
+  implicit val createModelVersionRequest = jsonFormat12(CreateModelVersionRequest)
+
+  implicit val applicationCreateOrUpdateRequest = jsonFormat4(ApplicationCreateOrUpdateRequest)
+
+  implicit val awsAuthFormat = jsonFormat2(AWSAuthKeys)
+
+  implicit val localSourceParamsFormat = jsonFormat1(LocalSourceParams)
+
+  implicit val s3SourceParamsFormat = jsonFormat4(S3SourceParams)
+
+  implicit val sourceParamsFormat = new JsonFormat[SourceParams] {
+    override def read(json: JsValue) = {
+      json match {
+        case JsObject(fields) if fields.isDefinedAt("path") =>
+          LocalSourceParams(fields("path").convertTo[String])
+        case JsObject(fields) if fields.isDefinedAt("queueName") && fields.isDefinedAt("bucketName") =>
+          S3SourceParams(
+            awsAuth = fields.get("awsAuth").map(_.convertTo[AWSAuthKeys]),
+            bucketName = fields("bucketName").convertTo[String],
+            queueName = fields("queueName").convertTo[String],
+            region = fields("region").convertTo[String]
+          )
+      }
+    }
+
+    override def write(obj: SourceParams) = {
+      obj match {
+        case x: LocalSourceParams => x.toJson
+        case x: S3SourceParams => x.toJson
+        case _ => ???
+      }
+    }
+  }
+
+  implicit val modelSourceConfigFormat = jsonFormat3(ModelSourceConfigAux)
+
+  implicit val createEnvironmentRequest = jsonFormat2(CreateEnvironmentRequest)
+
+  implicit val aggregatedModelInfoFormat=jsonFormat3(AggregatedModelInfo)
+
+  implicit val serviceTargetLabels = jsonFormat6(ServiceTargetLabels)
+  implicit val serviceTargets = jsonFormat2(ServiceTargets)
 }
+
+object CommonJsonSupport extends CommonJsonSupport

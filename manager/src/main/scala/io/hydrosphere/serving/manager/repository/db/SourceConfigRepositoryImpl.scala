@@ -1,14 +1,15 @@
 package io.hydrosphere.serving.manager.repository.db
 
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model.{ManagerJsonSupport, ModelSourceConfigAux, SourceParams}
+import io.hydrosphere.serving.manager.model.{ModelSourceConfigAux, SourceParams}
 import io.hydrosphere.serving.manager.repository.SourceConfigRepository
+import io.hydrosphere.serving.manager.model.CommonJsonSupport._
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 
 class SourceConfigRepositoryImpl(implicit ec: ExecutionContext, databaseService: DatabaseService)
-  extends SourceConfigRepository with Logging with ManagerJsonSupport {
+  extends SourceConfigRepository with Logging {
 
   import spray.json._
   import databaseService._
@@ -38,7 +39,7 @@ class SourceConfigRepositoryImpl(implicit ec: ExecutionContext, databaseService:
   }
 }
 
-object SourceConfigRepositoryImpl extends ManagerJsonSupport {
+object SourceConfigRepositoryImpl {
   import spray.json._
 
   def mapFromDb(dbType: Option[Tables.ModelSource#TableElementType]): Option[ModelSourceConfigAux] =

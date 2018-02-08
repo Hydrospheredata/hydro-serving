@@ -6,20 +6,17 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.model.api.ModelType
-import io.hydrosphere.serving.manager.model.{ManagerJsonSupport, Runtime}
+import io.hydrosphere.serving.manager.model.Runtime
 import io.hydrosphere.serving.manager.service._
 import io.swagger.annotations._
-
+import io.hydrosphere.serving.manager.model.CommonJsonSupport._
 import scala.concurrent.duration._
 
-/**
-  *
-  */
 @Path("/api/v1/runtime")
 @Api(produces = "application/json", tags = Array("Runtime"))
 class RuntimeController(
   runtimeManagementService: RuntimeManagementService
-) extends ManagerJsonSupport {
+) {
   implicit val timeout = Timeout(5.seconds)
 
   @Path("/")

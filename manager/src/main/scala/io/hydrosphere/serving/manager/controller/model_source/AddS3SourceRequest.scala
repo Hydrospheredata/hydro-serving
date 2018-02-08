@@ -11,7 +11,7 @@ case class AddS3SourceRequest(
 )
 
 object AddS3SourceRequest {
-  import io.hydrosphere.serving.manager.model.ManagerJsonSupport._
+  import io.hydrosphere.serving.manager.model.CommonJsonSupport._
 
   implicit val format = jsonFormat5(AddS3SourceRequest.apply)
 }
