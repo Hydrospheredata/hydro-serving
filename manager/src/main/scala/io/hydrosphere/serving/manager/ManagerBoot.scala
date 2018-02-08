@@ -5,19 +5,13 @@ import java.util.concurrent.TimeUnit
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
-import com.spotify.docker.client.{DefaultDockerClient, DockerClient}
+import com.spotify.docker.client.DefaultDockerClient
 import com.typesafe.config.ConfigFactory
-import io.grpc.ManagedChannelBuilder
-import io.hydrosphere.serving.manager.grpc.manager.AuthorityReplacerInterceptor
-import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.Await
 import scala.concurrent.duration._
 
-/**
-  *
-  */
 object ManagerBoot extends App with Logging {
   try {
     implicit val system = ActorSystem("manager")

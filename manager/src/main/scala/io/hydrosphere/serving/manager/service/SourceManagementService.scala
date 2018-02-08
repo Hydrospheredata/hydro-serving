@@ -44,14 +44,15 @@ class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)
     createWatcher(modelSource)
   }
 
+  def createWatcher(modelSourceConfigAux: ModelSourceConfigAux): Future[ActorRef] = {
+    val modelSource = ModelSource.fromConfig(modelSourceConfigAux)
+    createWatcher(modelSource)
+  }
+
   def createWatcher(modelSource: ModelSource): Future[ActorRef] = {
     val watcher = watcherRegistry ? AddWatcher(modelSource)
     watcher.mapTo[ActorRef]
   }
-
-  /*def deleteSource(modelSourceConfigAux: ModelSourceConfigAux) = {
-    ???
-  }*/
 
   override def getSourceConfigs: Future[List[ModelSourceConfigAux]] = {
     sourceRepository.all().map {

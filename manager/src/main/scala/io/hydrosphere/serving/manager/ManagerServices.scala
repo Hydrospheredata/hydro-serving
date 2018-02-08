@@ -45,7 +45,7 @@ class ManagerServices(
 
   val sourceManagementService = new SourceManagementServiceImpl(managerRepositories.sourceRepository)
   sourceManagementService.createWatchers
-  managerConfiguration.modelSources.foreach(sourceManagementService.addSource)
+  managerConfiguration.modelSources.foreach(sourceManagementService.createWatcher)
 
   val modelBuildService: ModelBuildService = new LocalModelBuildService(dockerClient, sourceManagementService)
 
