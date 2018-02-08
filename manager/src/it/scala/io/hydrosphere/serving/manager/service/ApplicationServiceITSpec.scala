@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.service
 
 import akka.testkit.TestProbe
+import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.controller.application.{CreateApplicationRequest, ExecutionGraphRequest, ExecutionStepRequest}
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
@@ -39,9 +40,26 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         app <- managerServices.applicationManagementService.createApplication(appRequest)
       } yield {
         println(app)
+        val expectedGraph = ApplicationExecutionGraph(
+          List(
+            ApplicationStage(
+              List(
+                WeightedService(
+                  ServiceKeyDescription(
+                    1,
+                    Some(1),
+                    None
+                  ),
+                  100
+                )
+              ),
+              None
+            )
+          )
+        )
         assert(app.name === appRequest.name)
         assert(app.contract === version.modelContract)
-        assert(app.executionGraph === appRequest.executionGraph)
+        assert(app.executionGraph === expectedGraph)
       }
     }
   }

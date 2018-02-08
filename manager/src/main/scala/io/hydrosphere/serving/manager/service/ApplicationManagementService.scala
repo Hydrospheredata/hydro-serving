@@ -91,7 +91,7 @@ class ApplicationManagementServiceImpl(
         val execUnits = stages.zipWithIndex.map {
           case (stage, idx) => ExecutionUnit(
             serviceName = ApplicationStage.stageId(application.id, idx),
-            servicePath = stage.signature.signatureName
+            servicePath = stage.signature.getOrElse(throw new IllegalArgumentException(s"$stage doesn't have a signature")).signatureName
           )
         }
         servePipeline(execUnits, request)
@@ -166,7 +166,7 @@ class ApplicationManagementServiceImpl(
   def checkApplicationSchema(graph: ApplicationExecutionGraph): Future[Boolean] = {
     val stages = graph.stages.zipWithIndex.map {
       case (stage, stIdx) =>
-        val servicesId = stage.services.map(s => s.serviceDescription -> stage.signature.signatureName).toMap
+        val servicesId = stage.services.map(s => s.serviceDescription -> stage.signature.get.signatureName).toMap
         val services = servicesId.map {
           case (id, sig) =>
             //TODO change to batch fetch
@@ -315,17 +315,31 @@ class ApplicationManagementServiceImpl(
   }
 
   private def inferGraph(executionGraphRequest: ExecutionGraphRequest) : Future[ApplicationExecutionGraph] = {
-    val stageSigs = Future.sequence {
-      executionGraphRequest.stages.map { stage =>
-        inferStageSignature(stage.signatureName, stage.services.map(_.serviceDescription)).map { stageSig =>
-          ApplicationStage(
-            services = stage.services,
-            signature = stageSig
-          )
-        }
+    val appStages =
+      executionGraphRequest.stages match {
+        case singleStage :: Nil if singleStage.services.lengthCompare(1) == 0 =>
+          Future.successful {
+            Seq(
+              ApplicationStage(
+                services = singleStage.services,
+                signature = None
+              )
+            )
+          }
+        case stages =>
+          Future.sequence {
+            stages.map { stage =>
+              inferStageSignature(stage.signatureName, stage.services.map(_.serviceDescription)).map { stageSig =>
+                ApplicationStage(
+                  services = stage.services,
+                  signature = Some(stageSig)
+                )
+              }
+            }
+          }
       }
-    }
-    stageSigs.map { sigs =>
+
+    appStages.map { sigs =>
       ApplicationExecutionGraph(sigs.toList)
     }
   }
@@ -369,8 +383,8 @@ class ApplicationManagementServiceImpl(
   private def inferPipelineSignature(name: String, graph: ApplicationExecutionGraph): ModelSignature = {
     ModelSignature(
       name,
-      graph.stages.head.signature.inputs,
-      graph.stages.last.signature.outputs
+      graph.stages.head.signature.get.inputs,
+      graph.stages.last.signature.get.outputs
     )
   }
 

@@ -89,7 +89,7 @@ case class WeightedService(
 
 case class ApplicationStage(
   services: List[WeightedService],
-  signature: ModelSignature
+  signature: Option[ModelSignature]
 )
 
 object ApplicationStage {
