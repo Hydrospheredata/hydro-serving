@@ -36,7 +36,7 @@ class ApplicationDSActor extends AbstractDSActor[Application](typeUrl = "type.go
         p.executionGraph.stages.zipWithIndex.map {
           case (stage, idx) => ExecutionStage(
             stageId = ApplicationStage.stageId(p.id, idx),
-            signature = stage.signature
+            signature = Some(stage.signature)
           )
         }
       )),

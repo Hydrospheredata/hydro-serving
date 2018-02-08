@@ -1,10 +1,10 @@
-package io.hydrosphere.serving.manager.controller
+package io.hydrosphere.serving.manager.controller.application
 
 import javax.ws.rs.Path
 
 import akka.http.scaladsl.server.Directives._
-import akka.http.scaladsl.server.Route
 import akka.util.Timeout
+import io.hydrosphere.serving.manager.controller.ServingDataDirectives
 import io.hydrosphere.serving.manager.model.Application
 import io.hydrosphere.serving.manager.model.CommonJsonSupport._
 import io.hydrosphere.serving.manager.service._
@@ -38,7 +38,7 @@ class ApplicationController(
   @ApiOperation(value = "Add Application", notes = "Add Application", nickname = "addApplication", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "Application", required = true,
-      dataTypeClass = classOf[ApplicationCreateOrUpdateRequest], paramType = "body")
+      dataTypeClass = classOf[CreateApplicationRequest], paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Application", response = classOf[Application]),
@@ -46,7 +46,7 @@ class ApplicationController(
   ))
   def create = path("api" / "v1" / "applications") {
     post {
-      entity(as[ApplicationCreateOrUpdateRequest]) { r =>
+      entity(as[CreateApplicationRequest]) { r =>
         complete(
           applicationManagementService.createApplication(r)
         )
@@ -58,7 +58,7 @@ class ApplicationController(
   @ApiOperation(value = "Update Application", notes = "Update Application", nickname = "updateApplication", httpMethod = "PUT")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "ApplicationCreateOrUpdateRequest", required = true,
-      dataTypeClass = classOf[ApplicationCreateOrUpdateRequest], paramType = "body")
+      dataTypeClass = classOf[UpdateApplicationRequest], paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Application", response = classOf[Application]),
@@ -66,7 +66,7 @@ class ApplicationController(
   ))
   def update = path("api" / "v1" / "applications") {
     put {
-      entity(as[ApplicationCreateOrUpdateRequest]) { r =>
+      entity(as[UpdateApplicationRequest]) { r =>
         complete(
           applicationManagementService.updateApplication(r)
         )
