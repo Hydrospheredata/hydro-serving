@@ -18,9 +18,6 @@ import org.testcontainers.containers.wait.Wait
 import scala.concurrent.duration._
 import scala.io.Source
 
-/**
-  *
-  */
 abstract class CommonIntegrationSpec extends TestKit(ActorSystem("testMasterService"))
   with FunSpecLike with ForAllTestContainer with MockitoSugar with BeforeAndAfterEach {
 

@@ -429,8 +429,8 @@ class ModelManagementServiceImpl(
       models.map { model =>
         AggregatedModelInfo(
           model = model,
-          lastModelBuild = buildsMap.get(model.id).map(_.last),
-          lastModelVersion = versionsMap.get(model.id).map(_.last)
+          lastModelBuild = buildsMap.get(model.id).map(_.maxBy(_.version)),
+          lastModelVersion = versionsMap.get(model.id).map(_.maxBy(_.modelVersion))
         )
       }
     }
