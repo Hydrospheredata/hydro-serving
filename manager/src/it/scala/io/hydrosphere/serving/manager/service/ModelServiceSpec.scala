@@ -94,6 +94,7 @@ class ModelServiceSpec extends FullIntegrationSpec with BeforeAndAfterAll {
         }
       }
     }
+
   }
 
   override def beforeAll(): Unit = {
