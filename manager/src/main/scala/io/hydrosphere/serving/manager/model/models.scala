@@ -82,20 +82,17 @@ case class ServiceKeyDescription(
   def toServiceName(): String = s"r${runtimeId}m${modelVersionId.getOrElse(0)}e${environmentId.getOrElse(0)}"
 }
 
-case class ServiceWeight(
+case class WeightedService(
   serviceDescription: ServiceKeyDescription,
   weight: Int
 )
 
 case class ApplicationStage(
-  services: List[ServiceWeight],
-  signatureName: Option[String],
+  services: List[WeightedService],
   signature: Option[ModelSignature]
 )
 
 object ApplicationStage {
-  val EMPTY_SIGNATURE="_"
-
   def stageId(applicationId: Long, stageIndex: Int): String =
     s"app${applicationId}stage$stageIndex"
 }

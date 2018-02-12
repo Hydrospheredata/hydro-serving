@@ -1,6 +1,8 @@
 package io.hydrosphere.serving.manager.service
 
 import akka.testkit.TestProbe
+import io.hydrosphere.serving.contract.model_signature.ModelSignature
+import io.hydrosphere.serving.manager.controller.application.{CreateApplicationRequest, ExecutionGraphRequest, ExecutionStepRequest}
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
@@ -14,14 +16,13 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     "create a simple application" in {
       for {
         version <- managerServices.modelManagementService.buildModel(1, None)
-        appRequest = ApplicationCreateOrUpdateRequest(
-          id = None,
+        appRequest = CreateApplicationRequest(
           name = "testapp",
-          executionGraph = ApplicationExecutionGraph(
+          executionGraph = ExecutionGraphRequest(
             stages = List(
-              ApplicationStage(
+              ExecutionStepRequest(
                 services = List(
-                  ServiceWeight(
+                  WeightedService(
                     serviceDescription = ServiceKeyDescription(
                       runtimeId = 1, // dummy runtime id
                       modelVersionId = Some(version.id),
@@ -30,19 +31,35 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                     weight = 100
                   )
                 ),
-                signatureName = Some("default"),
-                signature = None
+                signatureName = "default"
               )
             )
           ),
-          kafkaStream = None
+          kafkaStreaming = List.empty
         )
         app <- managerServices.applicationManagementService.createApplication(appRequest)
       } yield {
         println(app)
+        val expectedGraph = ApplicationExecutionGraph(
+          List(
+            ApplicationStage(
+              List(
+                WeightedService(
+                  ServiceKeyDescription(
+                    1,
+                    Some(1),
+                    None
+                  ),
+                  100
+                )
+              ),
+              None
+            )
+          )
+        )
         assert(app.name === appRequest.name)
         assert(app.contract === version.modelContract)
-        assert(app.executionGraph === appRequest.executionGraph)
+        assert(app.executionGraph === expectedGraph)
       }
     }
   }
