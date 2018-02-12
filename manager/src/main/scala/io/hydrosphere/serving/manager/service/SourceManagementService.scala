@@ -20,7 +20,7 @@ trait SourceManagementService {
 
   def addLocalSource(r: AddLocalSourceRequest): Future[Option[ModelSourceConfigAux]]
 
-  def addSource(modelSourceConfigAux: ModelSourceConfigAux): Future[ActorRef]
+  def addSource(modelSourceConfigAux: ModelSourceConfigAux): Future[Option[ModelSourceConfigAux]]
 
   def createWatcher(modelSource: ModelSource): Future[ActorRef]
 
@@ -38,10 +38,22 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
 
   private val watcherRegistry = actorSystem.actorOf(WatcherRegistryActor.props, "WatcherRegistry")
 
-  def addSource(modelSourceConfigAux: ModelSourceConfigAux): Future[ActorRef] = {
-    val modelSource = ModelSource.fromConfig(modelSourceConfigAux)
-    sourceRepository.create(modelSourceConfigAux)
-    createWatcher(modelSource)
+  def addSource(modelSourceConfigAux: ModelSourceConfigAux): Future[Option[ModelSourceConfigAux]] = {
+    getSourceConfig(modelSourceConfigAux.name).flatMap {
+      case Some(_) => Future.successful(None)
+      case None =>
+        val modelSource = ModelSource.fromConfig(modelSourceConfigAux)
+        for {
+          config <- sourceRepository.create(modelSourceConfigAux)
+          _ <- createWatcher(modelSource)
+        } yield {
+          Some(config)
+        }
+    }
+  }
+
+  def getSourceConfig(name: String): Future[Option[ModelSourceConfigAux]] = {
+    allSourceConfigs.map { sources => sources.find(_.name == name) }
   }
 
   def createWatcher(modelSourceConfigAux: ModelSourceConfigAux): Future[ActorRef] = {
@@ -56,17 +68,13 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
 
   override def getSources: Future[List[ModelSource]] = {
     allSourceConfigs.map { sources =>
-      sources.map { s =>
-        ModelSource.fromConfig(s)
-      }.toList
+      sources.map(ModelSource.fromConfig).toList
     }
   }
 
   override def createWatchers: Future[Seq[ActorRef]] = {
     getSources.flatMap { sources =>
-      val watchers = sources.map {
-        createWatcher
-      }
+      val watchers = sources.map(createWatcher)
       Future.sequence(watchers)
     }
   }
@@ -93,7 +101,7 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
         region = r.region
       )
     ).toAux
-    addSource(config).map(_ => Some(config))
+    addSource(config)
   }
 
   override def addLocalSource(r: AddLocalSourceRequest): Future[Option[ModelSourceConfigAux]] = {
@@ -104,7 +112,7 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
         path = r.path
       )
     ).toAux
-    addSource(config).map(_ => Some(config))
+    addSource(config)
   }
 
   override def allSourceConfigs: Future[Seq[ModelSourceConfigAux]] = {
@@ -112,8 +120,4 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
       managerConfiguration.modelSources ++ dbSources
     }
   }
-}
-
-object SourceManagementServiceImpl {
-
 }
