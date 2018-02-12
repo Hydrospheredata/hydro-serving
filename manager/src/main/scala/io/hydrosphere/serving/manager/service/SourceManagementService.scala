@@ -20,7 +20,7 @@ trait SourceManagementService {
 
   def addLocalSource(r: AddLocalSourceRequest): Future[Option[ModelSourceConfigAux]]
 
-  def addSource(modelSourceConfigAux: ModelSourceConfigAux): Future[ActorRef]
+  def addSource(modelSourceConfigAux: ModelSourceConfigAux): Future[Option[ModelSourceConfigAux]]
 
   def createWatcher(modelSource: ModelSource): Future[ActorRef]
 
@@ -52,7 +52,9 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
     }
   }
 
-  def getSourceConfig(name: String): Future[Option[ModelSourceConfigAux]] = ???
+  def getSourceConfig(name: String): Future[Option[ModelSourceConfigAux]] = {
+    allSourceConfigs.map { sources => sources.find(_.name == name) }
+  }
 
   def createWatcher(modelSourceConfigAux: ModelSourceConfigAux): Future[ActorRef] = {
     val modelSource = ModelSource.fromConfig(modelSourceConfigAux)
@@ -66,17 +68,13 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
 
   override def getSources: Future[List[ModelSource]] = {
     allSourceConfigs.map { sources =>
-      sources.map { s =>
-        ModelSource.fromConfig(s)
-      }.toList
+      sources.map(ModelSource.fromConfig).toList
     }
   }
 
   override def createWatchers: Future[Seq[ActorRef]] = {
     getSources.flatMap { sources =>
-      val watchers = sources.map {
-        createWatcher
-      }
+      val watchers = sources.map(createWatcher)
       Future.sequence(watchers)
     }
   }
