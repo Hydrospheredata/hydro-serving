@@ -43,9 +43,9 @@ class ManagerServices(
 
   val runtimeMeshConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector(managerConfiguration.sidecar)
 
-  val sourceManagementService = new SourceManagementServiceImpl(managerRepositories.sourceRepository)
+  val sourceManagementService = new SourceManagementServiceImpl(managerConfiguration, managerRepositories.sourceRepository)
+
   sourceManagementService.createWatchers
-  managerConfiguration.modelSources.foreach(sourceManagementService.createWatcher)
 
   val modelBuildService: ModelBuildService = new LocalModelBuildService(dockerClient, sourceManagementService)
 
