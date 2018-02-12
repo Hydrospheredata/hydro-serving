@@ -38,11 +38,21 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
 
   private val watcherRegistry = actorSystem.actorOf(WatcherRegistryActor.props, "WatcherRegistry")
 
-  def addSource(modelSourceConfigAux: ModelSourceConfigAux): Future[ActorRef] = {
-    val modelSource = ModelSource.fromConfig(modelSourceConfigAux)
-    sourceRepository.create(modelSourceConfigAux)
-    createWatcher(modelSource)
+  def addSource(modelSourceConfigAux: ModelSourceConfigAux): Future[Option[ModelSourceConfigAux]] = {
+    getSourceConfig(modelSourceConfigAux.name).flatMap {
+      case Some(_) => Future.successful(None)
+      case None =>
+        val modelSource = ModelSource.fromConfig(modelSourceConfigAux)
+        for {
+          config <- sourceRepository.create(modelSourceConfigAux)
+          _ <- createWatcher(modelSource)
+        } yield {
+          Some(config)
+        }
+    }
   }
+
+  def getSourceConfig(name: String): Future[Option[ModelSourceConfigAux]] = ???
 
   def createWatcher(modelSourceConfigAux: ModelSourceConfigAux): Future[ActorRef] = {
     val modelSource = ModelSource.fromConfig(modelSourceConfigAux)
@@ -93,7 +103,7 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
         region = r.region
       )
     ).toAux
-    addSource(config).map(_ => Some(config))
+    addSource(config)
   }
 
   override def addLocalSource(r: AddLocalSourceRequest): Future[Option[ModelSourceConfigAux]] = {
@@ -104,7 +114,7 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
         path = r.path
       )
     ).toAux
-    addSource(config).map(_ => Some(config))
+    addSource(config)
   }
 
   override def allSourceConfigs: Future[Seq[ModelSourceConfigAux]] = {
@@ -112,8 +122,4 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
       managerConfiguration.modelSources ++ dbSources
     }
   }
-}
-
-object SourceManagementServiceImpl {
-
 }
