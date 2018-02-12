@@ -19,9 +19,6 @@ import scala.collection.immutable.Seq
 import scala.concurrent.ExecutionContext
 import scala.reflect.runtime.{universe => ru}
 
-/**
-  *
-  */
 class ManagerHttpApi(
   managerServices: ManagerServices,
   managerConfiguration: ManagerConfiguration

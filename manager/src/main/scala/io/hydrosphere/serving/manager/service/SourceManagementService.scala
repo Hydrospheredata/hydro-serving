@@ -5,10 +5,10 @@ import java.nio.file.Path
 import akka.actor.{ActorRef, ActorSystem}
 import akka.pattern._
 import akka.util.Timeout
+import io.hydrosphere.serving.manager.ManagerConfiguration
 import io.hydrosphere.serving.manager.controller.model_source.{AddLocalSourceRequest, AddS3SourceRequest}
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.repository.SourceConfigRepository
-import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
 import io.hydrosphere.serving.manager.service.modelsource.WatcherRegistryActor.AddWatcher
 import io.hydrosphere.serving.manager.service.modelsource.{ModelSource, WatcherRegistryActor}
 import org.apache.logging.log4j.scala.Logging
@@ -26,14 +26,14 @@ trait SourceManagementService {
 
   def getSources: Future[List[ModelSource]]
 
-  def getSourceConfigs: Future[List[ModelSourceConfigAux]]
-
   def getLocalPath(url: String): Future[Path]
 
   def createWatchers: Future[Seq[ActorRef]]
+
+  def allSourceConfigs: Future[Seq[ModelSourceConfigAux]]
 }
 
-class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)
+class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, sourceRepository: SourceConfigRepository)
   (implicit ex: ExecutionContext, actorSystem: ActorSystem, timeout: Timeout) extends SourceManagementService with Logging {
 
   private val watcherRegistry = actorSystem.actorOf(WatcherRegistryActor.props, "WatcherRegistry")
@@ -54,26 +54,9 @@ class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)
     watcher.mapTo[ActorRef]
   }
 
-  override def getSourceConfigs: Future[List[ModelSourceConfigAux]] = {
-    sourceRepository.all().map {
-      _.map { s =>
-        s.params match {
-          case _: LocalSourceParams => s
-          case x: S3SourceParams =>
-            ModelSourceConfigAux(
-              s.id,
-              s.name,
-              x.copy(awsAuth = x.awsAuth.map(_.hide))
-            )
-        }
-
-      }.toList
-    }
-  }
-
   override def getSources: Future[List[ModelSource]] = {
-    sourceRepository.all().map {
-      _.map { s =>
+    allSourceConfigs.map { sources =>
+      sources.map { s =>
         ModelSource.fromConfig(s)
       }.toList
     }
@@ -122,6 +105,12 @@ class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)
       )
     ).toAux
     addSource(config).map(_ => Some(config))
+  }
+
+  override def allSourceConfigs: Future[Seq[ModelSourceConfigAux]] = {
+    sourceRepository.all().map { dbSources =>
+      managerConfiguration.modelSources ++ dbSources
+    }
   }
 }
 

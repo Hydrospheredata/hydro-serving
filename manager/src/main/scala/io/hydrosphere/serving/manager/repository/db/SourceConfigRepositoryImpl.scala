@@ -24,7 +24,7 @@ class SourceConfigRepositoryImpl(implicit ec: ExecutionContext, databaseService:
     )
   ).map(mapFromDb)
 
-  override def get(id: Long):Future[Option[ModelSourceConfigAux]] = db.run(
+  override def get(id: Long): Future[Option[ModelSourceConfigAux]] = db.run(
     Tables.ModelSource.filter(_.sourceId === id).result.headOption
   ).map(mapFromDb)
 
@@ -37,6 +37,10 @@ class SourceConfigRepositoryImpl(implicit ec: ExecutionContext, databaseService:
       Tables.ModelSource.result
     ).map(mapFromDb)
   }
+
+  override def get(name: String): Future[Option[ModelSourceConfigAux]] = db.run {
+    Tables.ModelSource.filter(_.name === name).result.headOption
+  }.map(mapFromDb)
 }
 
 object SourceConfigRepositoryImpl {

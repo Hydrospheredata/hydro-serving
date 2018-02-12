@@ -2,6 +2,8 @@ package io.hydrosphere.serving.manager.repository
 
 import io.hydrosphere.serving.manager.model.ModelSourceConfigAux
 
-trait SourceConfigRepository extends BaseRepository[ModelSourceConfigAux, Long] {
+import scala.concurrent.Future
 
+trait SourceConfigRepository extends BaseRepository[ModelSourceConfigAux, Long] {
+  def get(name: String): Future[Option[ModelSourceConfigAux]]
 }
