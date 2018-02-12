@@ -179,7 +179,7 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
 
   implicit val createEnvironmentRequest = jsonFormat2(CreateEnvironmentRequest)
 
-  implicit val aggregatedModelInfoFormat=jsonFormat3(AggregatedModelInfo)
+  implicit val aggregatedModelInfoFormat=jsonFormat4(AggregatedModelInfo)
 
   implicit val serviceTargetLabels = jsonFormat6(ServiceTargetLabels)
   implicit val serviceTargets = jsonFormat2(ServiceTargets)
