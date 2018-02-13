@@ -84,7 +84,8 @@ case class ServiceKeyDescription(
 
 case class WeightedService(
   serviceDescription: ServiceKeyDescription,
-  weight: Int
+  weight: Int,
+  signature: Option[ModelSignature]
 )
 
 case class ApplicationStage(
