@@ -70,7 +70,7 @@ object TensorProtoOps {
         case Some(shape) =>
           val dims = shape.dim.map(_.size).reverseIterator
           shapeGrouped(JsArray(data.toVector), dims).elements.head
-        case None => data.head // as-is because None shape is a scalar
+        case None => data.headOption.getOrElse(JsObject.empty)
       }
     }
 
