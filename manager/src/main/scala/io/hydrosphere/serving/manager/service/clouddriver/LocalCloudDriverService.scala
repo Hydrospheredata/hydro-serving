@@ -3,12 +3,13 @@ package io.hydrosphere.serving.manager.service.clouddriver
 import java.util
 
 import com.spotify.docker.client.DockerClient
-import com.spotify.docker.client.DockerClient.{ListContainersParam, RemoveContainerParam}
+import com.spotify.docker.client.DockerClient.{ListContainersParam, ListImagesParam, RemoveContainerParam}
 import com.spotify.docker.client.messages.{Container, ContainerConfig, HostConfig, PortBinding}
 import io.hydrosphere.serving.manager.ManagerConfiguration
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.Service
 import io.hydrosphere.serving.manager.service.InternalManagerEventsPublisher
+import io.hydrosphere.serving.manager.service.modelbuild.{DockerClientHelper, ProgressHandler, ProgressMessage}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -69,8 +70,23 @@ class LocalCloudDriverService(
     publishPorts
   }
 
-  override def deployService(service: Service): Future[CloudService] = Future.apply{
+  private def pullImage(service: Service): Unit = {
+    if (dockerClient.listImages(ListImagesParam.byName(service.runtime.toImageDef)).isEmpty) {
+      val handler=new ProgressHandler {
+        override def handle(progressMessage: ProgressMessage): Unit = logger.info(progressMessage)
+      }
+
+      dockerClient.pull(service.runtime.toImageDef,
+        DockerClientHelper.createProgressHandlerWrapper(handler))
+    }
+    Unit
+  }
+
+  override def deployService(service: Service): Future[CloudService] = Future.apply {
     logger.debug(service)
+
+    pullImage(service)
+
     val modelContainerId = service.model.map(_ => startModel(service))
     val javaLabels = getRuntimeLabels(service) ++ Map(
       LABEL_SERVICE_NAME -> service.serviceName
@@ -86,7 +102,7 @@ class LocalCloudDriverService(
 
     val builder = createMainApplicationHostConfigBuilder()
 
-    modelContainerId.foreach{_ =>
+    modelContainerId.foreach { _ =>
       builder.volumesFrom(generateModelContainerName(service))
     }
 
