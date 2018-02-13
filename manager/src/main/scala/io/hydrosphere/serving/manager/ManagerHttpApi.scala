@@ -46,24 +46,20 @@ class ManagerHttpApi(
 
   val prometheusMetricsController = new PrometheusMetricsController(managerServices.prometheusMetricsService)
 
-  val swaggerController = new SwaggerDocController(system) {
-    override val apiTypes: Seq[ru.Type] = Seq(
-      ru.typeOf[EnvironmentController],
-      ru.typeOf[RuntimeController],
-      ru.typeOf[ModelController],
-      ru.typeOf[ServiceController],
-      ru.typeOf[ApplicationController],
-      ru.typeOf[PrometheusMetricsController],
-      ru.typeOf[ModelSourceController]
+  val swaggerController = new SwaggerDocController(
+    Set(
+      classOf[EnvironmentController],
+      classOf[RuntimeController],
+      classOf[ModelController],
+      classOf[ServiceController],
+      classOf[ApplicationController],
+      classOf[PrometheusMetricsController],
+      classOf[ModelSourceController]
     )
-  }
+  )
 
   private def getExceptionMessage(p: Throwable): String = {
-    if (p.getMessage() == null) {
-      "Unknown error"
-    } else {
-      p.getMessage
-    }
+    Option(p.getMessage).getOrElse("Unknown error")
   }
 
   val commonExceptionHandler = ExceptionHandler {

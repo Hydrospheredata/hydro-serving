@@ -35,7 +35,7 @@ class EnvironmentController(
   @ApiOperation(value = "Create Environment", notes = "Create Environment", nickname = "createEnvironment", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "Environment Object", required = true,
-      dataType = "io.hydrosphere.serving.manager.service.CreateEnvironmentRequest", paramType = "body")
+      dataTypeClass = classOf[CreateEnvironmentRequest], paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Environment", response = classOf[Environment]),

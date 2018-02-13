@@ -8,9 +8,6 @@ import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServic
 
 import scala.concurrent.ExecutionContext
 
-/**
-  *
-  */
 class ManagerGRPC
 (
   managerServices: ManagerServices,
@@ -39,4 +36,3 @@ class ManagerGRPC
 
   server.start()
 }
-
