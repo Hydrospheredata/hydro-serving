@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.service
 
 import akka.testkit.TestProbe
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.controller.application.{CreateApplicationRequest, ExecutionGraphRequest, ExecutionStepRequest}
+import io.hydrosphere.serving.manager.controller.application.{CreateApplicationRequest, ExecutionGraphRequest, ExecutionStepRequest, SimpleServiceDescription}
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
@@ -22,16 +22,14 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
             stages = List(
               ExecutionStepRequest(
                 services = List(
-                  WeightedService(
-                    serviceDescription = ServiceKeyDescription(
-                      runtimeId = 1, // dummy runtime id
-                      modelVersionId = Some(version.id),
-                      environmentId = None
-                    ),
-                    weight = 100
+                  SimpleServiceDescription(
+                    runtimeId = 1, // dummy runtime id
+                    modelVersionId = Some(version.id),
+                    environmentId = None,
+                    weight = 100,
+                    signatureName = "default"
                   )
-                ),
-                signatureName = "default"
+                )
               )
             )
           ),
@@ -46,11 +44,12 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
               List(
                 WeightedService(
                   ServiceKeyDescription(
-                    1,
-                    Some(1),
-                    None
+                    runtimeId = 1,
+                    modelVersionId = Some(1),
+                    environmentId = None
                   ),
-                  100
+                  weight = 100,
+                  signature = None
                 )
               ),
               None
