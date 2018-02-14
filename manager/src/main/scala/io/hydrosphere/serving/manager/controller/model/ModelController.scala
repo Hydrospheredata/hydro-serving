@@ -238,7 +238,7 @@ class ModelController(modelManagementService: ModelManagementService)
   @ApiOperation(value = "Submit a new binary contract for a model", notes = "Submit a new binary contract for a model", nickname = "Submit a new binary contract for a model", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId"),
-    new ApiImplicitParam(name = "body", value = "ModelContract binary message", required = true, paramType = "body")
+    new ApiImplicitParam(name = "body", value = "ModelContract binary message", required = true, paramType = "body", dataType = "binary")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Any", response = classOf[Model]),
