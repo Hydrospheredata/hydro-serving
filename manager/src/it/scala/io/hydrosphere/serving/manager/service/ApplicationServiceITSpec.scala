@@ -1,7 +1,6 @@
 package io.hydrosphere.serving.manager.service
 
 import akka.testkit.TestProbe
-import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.controller.application.{CreateApplicationRequest, ExecutionGraphRequest, ExecutionStepRequest, SimpleServiceDescription}
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
@@ -53,6 +52,70 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 )
               ),
               None
+            )
+          )
+        )
+        assert(app.name === appRequest.name)
+        assert(app.contract === version.modelContract)
+        assert(app.executionGraph === expectedGraph)
+      }
+    }
+    "create a multi-service stage" in {
+      for {
+        version <- managerServices.modelManagementService.buildModel(1, None)
+        appRequest = CreateApplicationRequest(
+          name = "MultiServiceStage",
+          executionGraph = ExecutionGraphRequest(
+            stages = List(
+              ExecutionStepRequest(
+                services = List(
+                  SimpleServiceDescription(
+                    runtimeId = 1, // dummy runtime id
+                    modelVersionId = Some(version.id),
+                    environmentId = None,
+                    weight = 50,
+                    signatureName = "default_spark"
+                  ),
+                  SimpleServiceDescription(
+                    runtimeId = 1, // dummy runtime id
+                    modelVersionId = Some(version.id),
+                    environmentId = None,
+                    weight = 50,
+                    signatureName = "default_spark"
+                  )
+                )
+              )
+            )
+          ),
+          kafkaStreaming = List.empty
+        )
+        app <- managerServices.applicationManagementService.createApplication(appRequest)
+      } yield {
+        println(app)
+        val expectedGraph = ApplicationExecutionGraph(
+          List(
+            ApplicationStage(
+              List(
+                WeightedService(
+                  ServiceKeyDescription(
+                    runtimeId = 1,
+                    modelVersionId = Some(1),
+                    environmentId = None
+                  ),
+                  weight = 50,
+                  signature = version.modelContract.signatures.find(_.signatureName == "default_spark")
+                ),
+                WeightedService(
+                  ServiceKeyDescription(
+                    runtimeId = 1,
+                    modelVersionId = Some(1),
+                    environmentId = None
+                  ),
+                  weight = 50,
+                  signature = version.modelContract.signatures.find(_.signatureName == "default_spark")
+                )
+              ),
+              version.modelContract.signatures.find(_.signatureName == "default_spark")
             )
           )
         )
