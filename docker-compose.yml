@@ -1,4 +1,4 @@
-version: "3"
+version: "3.5"
 services:
   postgres:
     image: postgres:9.6-alpine
@@ -35,6 +35,7 @@ services:
     container_name: sidecar
     ports:
       - "8080:8080"
+      - "8082:8082"
     networks:
       - extnet
       - hydronet
@@ -44,10 +45,21 @@ services:
       - "SERVICE_ID=-20"
       - "SERVICE_NAME=manager"
 
+  managerui:
+    image: hydrosphere/serving-manager-ui:latest
+    container_name: managerui
+    ports:
+      - "8083:80"
+    networks:
+      - extnet
+      - hydronet
+    environment:
+      - "MANAGER_HOST=sidecar:8080"
+
 networks:
   hydronet:
-    external:
-      name:  automation_hydronet
+    name: automation_hydronet
+    internal: true
 
   extnet:
     driver: bridge

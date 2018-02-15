@@ -84,67 +84,21 @@ Change directory to `hydro-serving` and:
 sbt compile docker
 ```
 
-Change directory to `hydro-serving-runtime` and:
-```
-./build.sh
-```
-
-You will get next docker images:
-* `hydrosphere/serving-manager` - ML model storage, it scans selected directory and parses founded ML models, also provides RestAPI to access this models
-* `hydrosphere/serving-gateway` - Nginx gateway.
-* `hydrosphere/serving-runtime-sparklocal` - Spark ML runtime, serves spark models
-* `hydrosphere/serving-runtime-scikit` - Scikit runtime, serves scikit models.
-* `hydrosphere/serving-runtime-tensorflow` - TF runtime.
-* `hydrosphere/serving-runtime-py2databricks` - Python 2 runtime with Databricks-like environment.
-* `hydrosphere/serving-runtime-python3` - Python 3 runtime.
-
 #### Run
 ##### With Docker Compose
 ```
 export MODEL_DIRECTORY=/path/to/hydro-serving-runtime/models
 docker-compose up
 ```
+##### Other variants
+- [Deploy to ECS](docs/deployment/depoyment_amazonecs.md)
+- [Development environment](docs/deployment/depoyment_dev.md)
+- [Docker Compose (with Full Description)](docs/deployment/depoyment_docker_compose.md)
 
-##### Without Docker Compose
-* Run Zipkin
-```
-docker run -p 9411:9411 openzipkin/zipkin:1.28.1
-```
-* Run database
-```
-docker run -e POSTGRES_DB=docker \
-    -e POSTGRES_USER=docker \
-    -e POSTGRES_PASSWORD=docker \
-    -p 5432:5432 \
-    postgres:9.6-alpine
-```
-* Run manager
-```
-export HOST_IP=$(ifconfig en0 | grep 'inet ' |  awk '{ print $2}')
-export MODEL_DIRECTORY=/path/to/hydro-serving-runtime/models
-docker run -e ADVERTISED_MANAGER_HOST=$HOST_IP \
-    -e DATABASE_HOST=$HOST_IP \
-    -e ZIPKIN_ENABLED=true \
-    -e ZIPKIN_HOST=$HOST_IP \
-    -p 8080:8080 -p 8082:8082 -p 9090:9090 \
-    -v /var/run/docker.sock:/var/run/docker.sock \
-    -v ${MODEL_DIRECTORY}:/models \
-    hydrosphere/serving-manager:0.0.1
-```
-* Run gateway
-```
-HOST_IP=$(ifconfig en0 | grep 'inet ' |  awk '{ print $2}')
-docker run -e MANAGER_HOST=$HOST_IP \
-    -e ZIPKIN_ENABLED=true \
-    -e ZIPKIN_HOST=$HOST_IP \
-    -p 8180:8080 -p 8182:8082 -p 9190:9090 \
-    hydrosphere/serving-gateway:0.0.1
-```
 ### Available Resources
-* jdbc:postgresql://localhost:5432/docker - Postgresql
-* http://localhost:9411/zipkin - OpenTracing
 * http://localhost:8080/swagger/swagger-ui.html - Manager
-* http://localhost:8180/api/v1/serve/BLABLABLA - Gateway
+* http://localhost:8083/ - UI
+* localhost 8080 - Ingress port to ServiceMesh
 
 
 ### Create and run pipeline
