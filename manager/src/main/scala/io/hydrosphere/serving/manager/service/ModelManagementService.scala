@@ -86,7 +86,8 @@ case class CreateModelVersionRequest(
 case class AggregatedModelInfo(
   model: Model,
   lastModelBuild: Option[ModelBuild],
-  lastModelVersion: Option[ModelVersion]
+  lastModelVersion: Option[ModelVersion],
+  nextVersion: Option[Long]
 )
 
 
@@ -137,7 +138,7 @@ trait ModelManagementService {
 }
 
 object ModelManagementService {
-  def nextVersion(lastRuntime: Option[ModelVersion]): Long = lastRuntime match {
+  def nextVersion(lastModel: Option[ModelVersion]): Long = lastModel match {
     case None => 1
     case Some(runtime) => runtime.modelVersion + 1
   }
@@ -281,6 +282,19 @@ class ModelManagementServiceImpl(
     }
   }
 
+  private def getNextVersion(model: Model, modelVersion: Option[ModelVersion]): Option[Long] = {
+    modelVersion match {
+      case Some(version) =>
+        if (model.updated.isAfter(version.created)) {
+          Some(version.modelVersion + 1)
+        } else {
+          None
+        }
+      case None =>
+        Some(1L)
+    }
+  }
+
   private def fetchLastModelVersion(modelId: Long, modelVersion: Option[Long]): Future[Long] = {
     modelVersion match {
       case Some(x) => modelVersionRepository.modelVersionByModelAndVersion(modelId, x).map {
@@ -417,38 +431,37 @@ class ModelManagementServiceImpl(
   override def getModel(id: Long): Future[Option[Model]] =
     modelRepository.get(id)
 
-  override def allModelsAggregatedInfo(): Future[Seq[AggregatedModelInfo]] =
+  def aggregatedInfo(models: Model*): Future[Seq[AggregatedModelInfo]] = {
+    val ids = models.map(_.id)
     for {
-      models <- modelRepository.all()
-      ids = models.map(_.id)
       builds <- modelBuildRepository.lastForModels(ids)
       buildsMap = builds.groupBy(_.model.id)
       versions <- modelVersionRepository.lastModelVersionForModels(ids)
       versionsMap = versions.groupBy(_.model.get.id)
     } yield {
       models.map { model =>
+        val lastVersion = versionsMap.get(model.id).map(_.maxBy(_.modelVersion))
+        val lastBuild = buildsMap.get(model.id).map(_.maxBy(_.version))
         AggregatedModelInfo(
           model = model,
-          lastModelBuild = buildsMap.get(model.id).map(_.maxBy(_.version)),
-          lastModelVersion = versionsMap.get(model.id).map(_.maxBy(_.modelVersion))
+          lastModelBuild = lastBuild,
+          lastModelVersion = lastVersion,
+          nextVersion = getNextVersion(model, lastVersion)
         )
       }
     }
+  }
 
+  override def allModelsAggregatedInfo(): Future[Seq[AggregatedModelInfo]] = {
+    modelRepository.all().flatMap(aggregatedInfo)
+  }
 
-  override def getModelAggregatedInfo(id: Long): Future[Option[AggregatedModelInfo]] =
-    modelRepository.get(id).flatMap({
+  override def getModelAggregatedInfo(id: Long): Future[Option[AggregatedModelInfo]] = {
+    modelRepository.get(id).flatMap {
       case None => Future.successful(None)
-      case Some(model) => modelBuildRepository.lastByModelId(id, 1).flatMap(s => {
-        modelVersionRepository.lastModelVersionByModel(id, 1).map(v => {
-          Some(AggregatedModelInfo(
-            model = model,
-            lastModelBuild = s.headOption,
-            lastModelVersion = v.headOption
-          ))
-        })
-      })
-    })
+      case Some(model) => aggregatedInfo(model).map(_.headOption)
+    }
+  }
 
   override def modelContractDescription(modelId: Long): Future[Option[ContractDescription]] = {
     modelRepository.get(modelId).map { maybeModel =>

@@ -10,6 +10,7 @@ import io.hydrosphere.serving.manager.controller._
 import akka.http.scaladsl.server.Directives.{path, _}
 import akka.stream.ActorMaterializer
 import ch.megard.akka.http.cors.scaladsl.settings.CorsSettings
+import io.hydrosphere.serving.manager.controller.application.ApplicationController
 import io.hydrosphere.serving.manager.controller.model.ModelController
 import io.hydrosphere.serving.manager.controller.model_source.ModelSourceController
 import io.hydrosphere.serving.manager.controller.prometheus.PrometheusMetricsController
@@ -19,9 +20,6 @@ import scala.collection.immutable.Seq
 import scala.concurrent.ExecutionContext
 import scala.reflect.runtime.{universe => ru}
 
-/**
-  *
-  */
 class ManagerHttpApi(
   managerServices: ManagerServices,
   managerConfiguration: ManagerConfiguration
@@ -48,24 +46,20 @@ class ManagerHttpApi(
 
   val prometheusMetricsController = new PrometheusMetricsController(managerServices.prometheusMetricsService)
 
-  val swaggerController = new SwaggerDocController(system) {
-    override val apiTypes: Seq[ru.Type] = Seq(
-      ru.typeOf[EnvironmentController],
-      ru.typeOf[RuntimeController],
-      ru.typeOf[ModelController],
-      ru.typeOf[ServiceController],
-      ru.typeOf[ApplicationController],
-      ru.typeOf[PrometheusMetricsController],
-      ru.typeOf[ModelSourceController]
+  val swaggerController = new SwaggerDocController(
+    Set(
+      classOf[EnvironmentController],
+      classOf[RuntimeController],
+      classOf[ModelController],
+      classOf[ServiceController],
+      classOf[ApplicationController],
+      classOf[PrometheusMetricsController],
+      classOf[ModelSourceController]
     )
-  }
+  )
 
   private def getExceptionMessage(p: Throwable): String = {
-    if (p.getMessage() == null) {
-      "Unknown error"
-    } else {
-      p.getMessage
-    }
+    Option(p.getMessage).getOrElse("Unknown error")
   }
 
   val commonExceptionHandler = ExceptionHandler {

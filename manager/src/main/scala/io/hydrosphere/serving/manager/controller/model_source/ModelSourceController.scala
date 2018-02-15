@@ -60,7 +60,7 @@ class ModelSourceController(sourceService: SourceManagementService) {
   ))
   def listModelSources = path("api" / "v1" / "modelSource") {
     get {
-      complete(sourceService.getSourceConfigs)
+      complete(sourceService.allSourceConfigs)
     }
   }
 
