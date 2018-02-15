@@ -91,7 +91,6 @@ export MODEL_DIRECTORY=/path/to/hydro-serving-runtime/models
 docker-compose up
 ```
 ##### Other variants
-- [Deploy to ECS](docs/deployment/depoyment_amazonecs.md)
 - [Development environment](docs/deployment/depoyment_dev.md)
 - [Docker Compose (with Full Description)](docs/deployment/depoyment_docker_compose.md)
 
