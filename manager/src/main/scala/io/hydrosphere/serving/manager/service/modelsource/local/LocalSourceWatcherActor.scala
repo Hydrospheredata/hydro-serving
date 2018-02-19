@@ -14,10 +14,6 @@ import io.hydrosphere.serving.manager.util.FileUtils._
 import scala.collection.JavaConverters._
 import scala.collection.mutable
 
-
-/**
-  *
-  */
 class LocalSourceWatcherActor(val source: LocalModelSource) extends SourceWatcherActor {
   private[this] val watcher = FileSystems.getDefault.newWatchService()
   private[this] val keys = mutable.Map.empty[WatchKey, Path]
@@ -32,33 +28,14 @@ class LocalSourceWatcherActor(val source: LocalModelSource) extends SourceWatche
         dirFile.getSubDirectories.foreach(d => _subscribe(d, depth + 1))
       }
     }
-
     _subscribe(dirFile)
   }
 
-  private def handleWatcherEvent[T](path: Path, event: WatchEvent[T]): List[FileEvent] = {
-    def handleCreation(relativePath: Path) = {
-      val absolutePath = source.sourceFile.toPath.resolve(relativePath)
-      val hash = com.google.common.io.Files
-        .asByteSource(absolutePath.toFile)
-        .hash(Hashing.sha256())
-        .toString
-      val attributes = Files.readAttributes(absolutePath, classOf[BasicFileAttributes])
-      new FileCreated(
-        source,
-        relativePath.toString,
-        Instant.now(),
-        hash,
-        LocalDateTime.ofInstant(attributes.creationTime().toInstant, ZoneId.systemDefault())
-      )
-    }
-
+  private def handleWatcherEvent[T](path: Path, event: WatchEvent[T]): Seq[FileEvent] = {
     val filename = event.context().asInstanceOf[Path]
-    val absolutePath = source.sourceFile.toPath.resolve(filename)
-    val file = absolutePath.toFile
-    val relativePath = source.sourceFile.toPath.relativize(absolutePath)
+    val absolutePath = path.resolve(filename)
 
-    if (file.isHidden) {
+    if (absolutePath.toFile.isHidden) {
       Nil
     } else {
       event.kind() match {
@@ -67,35 +44,90 @@ class LocalSourceWatcherActor(val source: LocalModelSource) extends SourceWatche
           Nil
 
         case StandardWatchEventKinds.ENTRY_CREATE =>
-          log.debug(s"File system event: ENTRY_CREATE: $relativePath")
-          if (Files.isDirectory(absolutePath)) {
-            file
-              .listFilesRecursively
-              .map(_.toPath)
-              .map(source.sourceFile.toPath.relativize)
-              .map(handleCreation)
-              .toList
-          } else {
-            List(handleCreation(relativePath))
-          }
+          log.debug(s"File system event: ENTRY_CREATE: $absolutePath")
+          handleCreation(absolutePath)
 
         case StandardWatchEventKinds.ENTRY_MODIFY =>
-          log.debug(s"File system event: ENTRY_MODIFY: $relativePath")
-          val hash = com.google.common.io.Files
-            .asByteSource(absolutePath.toFile)
-            .hash(Hashing.sha256())
-            .toString
-          val lastModified = LocalDateTime.ofInstant(Files.getLastModifiedTime(absolutePath).toInstant, ZoneId.systemDefault())
-          List(new FileModified(source, relativePath.toString, Instant.now(), hash, lastModified))
+          log.debug(s"File system event: ENTRY_MODIFY: $absolutePath")
+          handleModification(absolutePath)
 
         case StandardWatchEventKinds.ENTRY_DELETE =>
-          log.debug(s"File system event: ENTRY_DELETE: $relativePath")
-          List(new FileDeleted(source, relativePath.toString, Instant.now()))
+          log.debug(s"File system event: ENTRY_DELETE: $absolutePath")
+          handleDeletion(absolutePath)
+
         case x =>
           log.warning(s"File system event: Unknown: $x")
           Nil
       }
     }
+  }
+
+  private def handleDeletion[T](absolutePath: Path) = {
+    List(
+      FileDeleted(
+        source,
+        source.sourceFile.toPath.relativize(absolutePath).toString,
+        Instant.now()
+      )
+    )
+  }
+
+  private def handleModification[T](absolutePath: Path) = {
+    if (Files.isDirectory(absolutePath)) {
+      absolutePath.toFile
+        .listFilesRecursively
+        .map(_.toPath)
+        .map(handleFileModification)
+        .toList
+    } else {
+      Seq(handleFileModification(absolutePath))
+    }
+  }
+
+
+  private def handleFileModification(absolutePath: Path) = {
+    val hash = com.google.common.io.Files
+      .asByteSource(absolutePath.toFile)
+      .hash(Hashing.sha256())
+      .toString
+    val lastModified = LocalDateTime.ofInstant(
+      Files.getLastModifiedTime(absolutePath).toInstant,
+      ZoneId.systemDefault()
+    )
+    FileModified(
+      source,
+      source.sourceFile.toPath.relativize(absolutePath).toString,
+      Instant.now(),
+      hash,
+      lastModified
+    )
+  }
+
+  private def handleCreation(absolutePath: Path) = {
+    if (Files.isDirectory(absolutePath)) {
+      absolutePath.toFile
+        .listFilesRecursively
+        .map(_.toPath)
+        .map(handleFileCreation)
+        .toList
+    } else {
+      List(handleFileCreation(absolutePath))
+    }
+  }
+
+  private def handleFileCreation(absolutePath: Path): FileCreated = {
+    val hash = com.google.common.io.Files
+      .asByteSource(absolutePath.toFile)
+      .hash(Hashing.sha256())
+      .toString
+    val attributes = Files.readAttributes(absolutePath, classOf[BasicFileAttributes])
+    FileCreated(
+      source,
+      source.sourceFile.toPath.relativize(absolutePath).toString,
+      Instant.now(),
+      hash,
+      LocalDateTime.ofInstant(attributes.creationTime().toInstant, ZoneId.systemDefault())
+    )
   }
 
   override def watcherPreStart(): Unit = {
@@ -107,7 +139,7 @@ class LocalSourceWatcherActor(val source: LocalModelSource) extends SourceWatche
     watcher.close()
   }
 
-  override def onWatcherTick(): List[FileEvent] = {
+  override def onWatcherTick(): Seq[FileEvent] = {
     val events = for {
       (key, path) <- keys
       event <- key.pollEvents().asScala
