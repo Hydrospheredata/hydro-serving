@@ -31,7 +31,7 @@ trait FullIntegrationSpec extends DatabaseAccessIT
 
   private[this] val originalConfiguration = ManagerConfiguration.parse(rawConfig)
 
-  val configuration = originalConfiguration
+  def configuration = originalConfiguration
 
   var managerRepositories: ManagerRepositoriesConfig = _
   var managerServices: ManagerServices = _
