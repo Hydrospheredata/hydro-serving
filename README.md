@@ -92,8 +92,8 @@ export MODEL_DIRECTORY=/path/to/hydro-serving-runtime/models
 docker-compose up
 ```
 ##### Other variants
-- [Development environment](docs/deployment/depoyment_dev.md)
-- [Docker Compose (with Full Description)](docs/deployment/depoyment_docker_compose.md)
+- [Development environment](docs/deployment/deployment_dev.md)
+- [Docker Compose (with Full Description)](docs/deployment/deployment_docker_compose.md)
 
 ### Available Resources
 * http://localhost:8080/swagger/swagger-ui.html - Manager
