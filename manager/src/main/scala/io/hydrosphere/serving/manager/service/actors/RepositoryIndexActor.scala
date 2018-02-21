@@ -6,7 +6,7 @@ import akka.actor.Props
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.service.ModelManagementService
 import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor.{IndexFinished, IndexStart}
-import io.hydrosphere.serving.manager.service.modelsource.FileEvent
+import io.hydrosphere.serving.manager.service.modelsource.events.FileEvent
 
 import scala.collection.concurrent.TrieMap
 import scala.concurrent.duration._
@@ -22,7 +22,7 @@ class RepositoryIndexActor(val modelManagementService: ModelManagementService)
   override def recieveNonTick: Receive = {
     case e: FileEvent =>
       val modelName = e.filename.split("/").head
-      log.debug(s"[${e.source.sourceDef.prefix}] Detected a modification of $modelName model ...")
+      log.debug(s"[${e.source.sourceDef.name}] Detected a modification of $modelName model ...")
       queues += modelName -> e
   }
 
@@ -36,11 +36,11 @@ class RepositoryIndexActor(val modelManagementService: ModelManagementService)
 
     upgradeable.foreach {
       case (modelName, event) =>
-        context.system.eventStream.publish(IndexStart(modelName, event.source.sourceDef.prefix))
-        log.debug(s"[${event.source.sourceDef.prefix}] Reindexing $modelName ...")
+        context.system.eventStream.publish(IndexStart(modelName, event.source.sourceDef.name))
+        log.debug(s"[${event.source.sourceDef.name}] Reindexing $modelName ...")
         queues -= modelName
         modelManagementService.updateModel(modelName, event.source).foreach { maybeModel =>
-          context.system.eventStream.publish(IndexFinished(modelName, event.source.sourceDef.prefix))
+          context.system.eventStream.publish(IndexFinished(modelName, event.source.sourceDef.name))
           log.debug(s"$maybeModel is updated")
         }
     }

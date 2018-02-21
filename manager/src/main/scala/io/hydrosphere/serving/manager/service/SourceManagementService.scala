@@ -84,7 +84,7 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
     val source = args.head
     val path = args.last
     getSources.map {
-      _.find(_.sourceDef.prefix == source)
+      _.find(_.sourceDef.name == source)
         .map(_.getAbsolutePath(path))
         .getOrElse(throw new IllegalArgumentException(s"ModelSource for $url with prefix $source is not found"))
     }

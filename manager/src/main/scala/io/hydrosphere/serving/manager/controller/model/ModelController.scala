@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager.controller.model
 
+import java.io.File
 import javax.ws.rs.Path
 
 import akka.http.scaladsl.server.Directives._
@@ -11,6 +12,7 @@ import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.description.ContractDescription
 import io.hydrosphere.serving.manager.service.{AggregatedModelInfo, CreateModelVersionRequest, CreateOrUpdateModelRequest, ModelManagementService}
 import io.swagger.annotations._
+import org.apache.commons.compress.compressors.gzip.GzipUtils
 
 import scala.concurrent.duration._
 
@@ -57,12 +59,10 @@ class ModelController(modelManagementService: ModelManagementService)
     new ApiResponse(code = 200, message = "Model", response = classOf[Model]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def addModel = path("api" / "v1" / "model") {
+  def addModel = path("api" / "v1" / "model" / Segment) { sourceName =>
     post {
-      entity(as[CreateOrUpdateModelRequest]) { r =>
-        complete(
-          modelManagementService.createModel(r)
-        )
+      uploadedFile("file") {
+        case (fileInfo, file) =>
       }
     }
   }

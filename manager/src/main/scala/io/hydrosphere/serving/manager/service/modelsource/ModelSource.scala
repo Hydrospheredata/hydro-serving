@@ -7,9 +7,6 @@ import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceDef}
 import io.hydrosphere.serving.manager.service.modelsource.s3.{S3ModelSource, S3SourceDef}
 
-/**
-  *
-  */
 trait ModelSource {
   def getReadableFile(path: String): File
 
@@ -24,6 +21,8 @@ trait ModelSource {
   def getAbsolutePath(modelSource: String): Path
 
   def isExist(path: String): Boolean
+
+  def writeFile(path: String, localFile: File)
 }
 
 
