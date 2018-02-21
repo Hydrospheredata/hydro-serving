@@ -45,6 +45,7 @@ public class IsolatedDockerClient extends DefaultDockerClient {
         for (String container : containerStorage) {
             try {
                 super.removeContainer(container, RemoveContainerParam.forceKill());
+                containerStorage.remove(container);
             } catch (DockerException | InterruptedException e) {
                 e.printStackTrace();
             }
@@ -52,6 +53,7 @@ public class IsolatedDockerClient extends DefaultDockerClient {
         for (String image : imageStorage) {
             try {
                 super.removeImage(image, true, true);
+                imageStorage.remove(image);
             } catch (DockerException | InterruptedException e) {
                 e.printStackTrace();
             }

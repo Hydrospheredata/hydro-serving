@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager.service.clouddriver
 
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.Service
+import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.Future
 
@@ -58,7 +59,7 @@ case class CloudService(
   instances: Seq[ServiceInstance]
 )
 
-trait CloudDriverService {
+trait CloudDriverService extends Logging {
 
   val LABEL_SERVICE_ID = "SERVICE_ID"
   val LABEL_SERVICE_NAME = "SERVICE_NAME"
@@ -111,6 +112,7 @@ trait CloudDriverService {
   }
 
   protected def getRuntimeLabels(service: Service): Map[String, String] = {
+
     Map[String, String](
       LABEL_SERVICE_ID -> service.id.toString,
       LABEL_HS_SERVICE_MARKER -> LABEL_HS_SERVICE_MARKER,

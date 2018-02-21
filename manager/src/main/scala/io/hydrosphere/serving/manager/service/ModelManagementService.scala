@@ -12,6 +12,7 @@ import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.ops.TensorProtoOps
+import io.hydrosphere.serving.manager.model.api.ops.Implicits._
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -85,11 +86,15 @@ case class CreateModelVersionRequest(
 case class AggregatedModelInfo(
   model: Model,
   lastModelBuild: Option[ModelBuild],
-  lastModelVersion: Option[ModelVersion]
+  lastModelVersion: Option[ModelVersion],
+  nextVersion: Option[Long]
 )
 
 
 trait ModelManagementService {
+  def versionContractDescription(versionId: Long): Future[Option[ContractDescription]]
+
+  def modelContractDescription(modelId: Long): Future[Option[ContractDescription]]
 
   def submitBinaryContract(modelId: Long, bytes: Array[Byte]): Future[Option[Model]]
 
@@ -133,7 +138,7 @@ trait ModelManagementService {
 }
 
 object ModelManagementService {
-  def nextVersion(lastRuntime: Option[ModelVersion]): Long = lastRuntime match {
+  def nextVersion(lastModel: Option[ModelVersion]): Long = lastModel match {
     case None => 1
     case Some(runtime) => runtime.modelVersion + 1
   }
@@ -277,6 +282,19 @@ class ModelManagementServiceImpl(
     }
   }
 
+  private def getNextVersion(model: Model, modelVersion: Option[ModelVersion]): Option[Long] = {
+    modelVersion match {
+      case Some(version) =>
+        if (model.updated.isAfter(version.created)) {
+          Some(version.modelVersion + 1)
+        } else {
+          None
+        }
+      case None =>
+        Some(1L)
+    }
+  }
+
   private def fetchLastModelVersion(modelId: Long, modelVersion: Option[Long]): Future[Long] = {
     modelVersion match {
       case Some(x) => modelVersionRepository.modelVersionByModelAndVersion(modelId, x).map {
@@ -413,36 +431,51 @@ class ModelManagementServiceImpl(
   override def getModel(id: Long): Future[Option[Model]] =
     modelRepository.get(id)
 
-  override def allModelsAggregatedInfo(): Future[Seq[AggregatedModelInfo]] =
-    modelRepository.all().flatMap(models=>{
-      val ids=models.map(_.id)
-      modelBuildRepository.lastForModels(ids).flatMap(builds=>{
-        val buildsMap=builds.map(p=>p.model.id->p).toMap
-        modelVersionRepository.lastModelVersionForModels(ids).map(versions=>{
-          val versionsMap=versions.map(p=>p.model.get.id->p).toMap
+  def aggregatedInfo(models: Model*): Future[Seq[AggregatedModelInfo]] = {
+    val ids = models.map(_.id)
+    for {
+      builds <- modelBuildRepository.lastForModels(ids)
+      buildsMap = builds.groupBy(_.model.id)
+      versions <- modelVersionRepository.lastModelVersionForModels(ids)
+      versionsMap = versions.groupBy(_.model.get.id)
+    } yield {
+      models.map { model =>
+        val lastVersion = versionsMap.get(model.id).map(_.maxBy(_.modelVersion))
+        val lastBuild = buildsMap.get(model.id).map(_.maxBy(_.version))
+        AggregatedModelInfo(
+          model = model,
+          lastModelBuild = lastBuild,
+          lastModelVersion = lastVersion,
+          nextVersion = getNextVersion(model, lastVersion)
+        )
+      }
+    }
+  }
 
-          models.map(m=>{
-            AggregatedModelInfo(
-              model = m,
-              lastModelBuild = buildsMap.get(m.id),
-              lastModelVersion = versionsMap.get(m.id)
-            )
-          })
-        })
-      })
-    })
+  override def allModelsAggregatedInfo(): Future[Seq[AggregatedModelInfo]] = {
+    modelRepository.all().flatMap(aggregatedInfo)
+  }
 
-  override def getModelAggregatedInfo(id: Long): Future[Option[AggregatedModelInfo]] =
-    modelRepository.get(id).flatMap({
+  override def getModelAggregatedInfo(id: Long): Future[Option[AggregatedModelInfo]] = {
+    modelRepository.get(id).flatMap {
       case None => Future.successful(None)
-      case Some(model) => modelBuildRepository.lastByModelId(id, 1).flatMap(s => {
-        modelVersionRepository.lastModelVersionByModel(id, 1).map(v => {
-          Some(AggregatedModelInfo(
-            model = model,
-            lastModelBuild = s.headOption,
-            lastModelVersion = v.headOption
-          ))
-        })
-      })
-    })
+      case Some(model) => aggregatedInfo(model).map(_.headOption)
+    }
+  }
+
+  override def modelContractDescription(modelId: Long): Future[Option[ContractDescription]] = {
+    modelRepository.get(modelId).map { maybeModel =>
+      maybeModel.map { model =>
+        model.modelContract.flatten
+      }
+    }
+  }
+
+  override def versionContractDescription(versionId: Long): Future[Option[ContractDescription]] = {
+    modelVersionRepository.get(versionId).map { maybeVersion =>
+      maybeVersion.map { version =>
+        version.modelContract.flatten
+      }
+    }
+  }
 }

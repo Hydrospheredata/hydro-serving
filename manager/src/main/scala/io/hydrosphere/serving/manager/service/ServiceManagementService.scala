@@ -153,46 +153,62 @@ class ServiceManagementServiceImpl(
       })
     })
 
-  private def fetchModel(modelId: Option[Long]): Future[Option[ModelVersion]] =
+  private def fetchModel(modelId: Option[Long]): Future[Option[ModelVersion]] = {
+    logger.debug(modelId)
     modelId match {
       case Some(x) =>
         modelVersionRepository.get(x)
           .map(s => s.orElse(throw new IllegalArgumentException(s"Can't find ModelVersion with id=$x")))
       case None => Future.successful(None)
     }
+  }
 
-  private def fetchServingEnvironment(environmentId: Option[Long]): Future[Option[Environment]] = environmentId match {
-    case Some(x) => x match {
-      case AnyEnvironment.`anyEnvironmentId` =>
-        Future.successful(None)
-      case _ =>
-        environmentRepository.get(x)
+  private def fetchServingEnvironment(environmentId: Option[Long]): Future[Option[Environment]] = {
+    logger.debug(environmentId)
+    environmentId match {
+      case Some(x) => x match {
+        case AnyEnvironment.`anyEnvironmentId` =>
+          Future.successful(None)
+        case _ =>
+          environmentRepository.get(x)
+      }
+      case None => Future.successful(None)
     }
-    case None => Future.successful(None)
+  }
+
+  def createAndDeploy(
+    r: CreateServiceRequest,
+    runtime: Runtime,
+    modelVersion: Option[ModelVersion],
+    svEnv: Option[Environment]
+  ): Future[Service] = {
+    val dService = r.toService(runtime, modelVersion, svEnv)
+    serviceRepository.create(dService).flatMap { newService =>
+      val future = cloudDriverService.deployService(newService).flatMap { cloudService =>
+        serviceRepository.updateCloudDriveId(cloudService.id, Some(cloudService.cloudDriverId)).map { _ =>
+          newService.copy(cloudDriverId = Some(cloudService.cloudDriverId))
+        }
+      }
+      future.onFailure {
+        case _ => serviceRepository.delete(dService.id)
+      }
+      future
+    }
   }
 
   override def addService(r: CreateServiceRequest): Future[Service] = {
-    //if(r.serviceName) throw new IllegalArgumentException
+    logger.debug(r.toString)
     //TODO ADD validation for names manager,gateway + length + without space and special symbols
-    fetchServingEnvironment(r.environmentId).flatMap(svEnv => {
-      fetchModel(r.modelVersionId).flatMap(modelVersion => {
-        runtimeRepository.get(r.runtimeId).flatMap {
-          case None => throw new IllegalArgumentException(s"Can't find Runtime with id=${r.runtimeId}")
-          case Some(runtime) =>
-            serviceRepository.create(r.toService(runtime, modelVersion, svEnv))
-              .flatMap(newService => {
-                cloudDriverService.deployService(newService).flatMap(cloudService => {
-                  serviceRepository.updateCloudDriveId(cloudService.id, Some(cloudService.cloudDriverId))
-                    .map(_ => {
-                      val s = newService.copy(cloudDriverId = Some(cloudService.cloudDriverId))
-                      internalManagerEventsPublisher.serviceChanged(s)
-                      s
-                    })
-                })
-              })
-        }
-      })
-    })
+    for {
+      svEnv <- fetchServingEnvironment(r.environmentId)
+      modelVersion <- fetchModel(r.modelVersionId)
+      maybeRuntime <- runtimeRepository.get(r.runtimeId)
+      runtime = maybeRuntime.getOrElse(throw new IllegalArgumentException(s"Can't find Runtime with id=${r.runtimeId}"))
+      asd <- createAndDeploy(r, runtime, modelVersion, svEnv)
+    } yield {
+      internalManagerEventsPublisher.serviceChanged(asd)
+      asd
+    }
   }
 
   override def getService(serviceId: Long): Future[Option[Service]] =

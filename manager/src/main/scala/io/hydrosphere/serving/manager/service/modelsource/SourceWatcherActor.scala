@@ -22,7 +22,7 @@ trait SourceWatcherActor extends Actor with ActorLogging {
   /**
     * Tick handler. Every tick Watcher looks for changes in datasource.
     */
-  def onWatcherTick(): List[FileEvent]
+  def onWatcherTick(): Seq[FileEvent]
 
   def watcherPreStart(): Unit = {}
 
@@ -51,7 +51,7 @@ trait SourceWatcherActor extends Actor with ActorLogging {
       .map(f => f -> source.getReadableFile(f))
       .map{ case (fileName, file) =>
         val hash = com.google.common.io.Files.asByteSource(file).hash(Hashing.sha256()).toString
-        new FileDetected(source, fileName, Instant.now(), hash)
+        FileDetected(source, fileName, Instant.now(), hash)
       }
       .foreach(context.system.eventStream.publish)
 

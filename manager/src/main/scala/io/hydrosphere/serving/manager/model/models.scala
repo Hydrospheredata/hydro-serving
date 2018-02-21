@@ -3,6 +3,7 @@ package io.hydrosphere.serving.manager.model
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.model.ModelBuildStatus.ModelBuildStatus
 import io.hydrosphere.serving.manager.model.ServiceInstanceStatus.ServiceInstanceStatus
 import io.hydrosphere.serving.manager.model.api.ModelType
@@ -81,25 +82,38 @@ case class ServiceKeyDescription(
   def toServiceName(): String = s"r${runtimeId}m${modelVersionId.getOrElse(0)}e${environmentId.getOrElse(0)}"
 }
 
-case class ServiceWeight(
+case class WeightedService(
   serviceDescription: ServiceKeyDescription,
   weight: Int
 )
 
 case class ApplicationStage(
-  services: List[ServiceWeight],
-  signatureName: String
+  services: List[WeightedService],
+  signature: Option[ModelSignature]
 )
+
+object ApplicationStage {
+  def stageId(applicationId: Long, stageIndex: Int): String =
+    s"app${applicationId}stage$stageIndex"
+}
 
 case class ApplicationExecutionGraph(
   stages: List[ApplicationStage]
+)
+
+case class ApplicationKafkaStream(
+  sourceTopic: String,
+  destinationTopic: String,
+  consumerId: Option[String],
+  errorTopic: Option[String]
 )
 
 case class Application(
   id: Long,
   name: String,
   contract: ModelContract,
-  executionGraph: ApplicationExecutionGraph
+  executionGraph: ApplicationExecutionGraph,
+  kafkaStreaming: List[ApplicationKafkaStream]
 )
 
 object ServiceInstanceStatus extends Enumeration {

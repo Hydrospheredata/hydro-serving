@@ -84,7 +84,8 @@ CREATE TABLE hydro_serving.application
   application_name  TEXT    NOT NULL UNIQUE,
   application_contract TEXT NOT NULL,
   execution_graph   TEXT    NOT NULL,
-  services_in_stage TEXT [] NOT NULL
+  services_in_stage TEXT [] NOT NULL,
+  kafka_streams TEXT [] NOT NULL
 );
 
 CREATE TABLE hydro_serving.model_build_script

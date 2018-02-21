@@ -1,28 +1,23 @@
-package io.hydrosphere.serving.manager.controller
+package io.hydrosphere.serving.manager.controller.model
 
 import javax.ws.rs.Path
 
-import io.hydrosphere.serving.manager.service.{AggregatedModelInfo, CreateModelVersionRequest, CreateOrUpdateModelRequest, ModelManagementService}
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
+import io.hydrosphere.serving.manager.controller.ServingDataDirectives
+import io.hydrosphere.serving.manager.model.CommonJsonSupport._
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.description.ContractDescription
+import io.hydrosphere.serving.manager.service.{AggregatedModelInfo, CreateModelVersionRequest, CreateOrUpdateModelRequest, ModelManagementService}
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
 
-case class BuildModelRequest(
-  modelId: Long
-)
-
-/**
-  *
-  */
 @Path("/api/v1/model")
 @Api(produces = "application/json", tags = Array("Model and Model Versions"))
 class ModelController(modelManagementService: ModelManagementService)
-  extends ManagerJsonSupport with ServingDataDirectives {
+  extends ServingDataDirectives {
   implicit val timeout = Timeout(10.minutes)
 
   @Path("/")
@@ -243,7 +238,7 @@ class ModelController(modelManagementService: ModelManagementService)
   @ApiOperation(value = "Submit a new binary contract for a model", notes = "Submit a new binary contract for a model", nickname = "Submit a new binary contract for a model", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId"),
-    new ApiImplicitParam(name = "body", value = "ModelContract binary message", required = true, paramType = "body")
+    new ApiImplicitParam(name = "body", value = "ModelContract binary message", required = true, paramType = "body", dataType = "binary")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Any", response = classOf[Model]),
@@ -298,8 +293,41 @@ class ModelController(modelManagementService: ModelManagementService)
     }
   }
 
+  @Path("{modelId}/flatContract")
+  @ApiOperation(value = "Get flatten contract", notes = "Get flatten contract", nickname = "Get flatten contract", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ContractDescription", response = classOf[ContractDescription]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def modelContractDescription = path("api" / "v1" / "model" / LongNumber / "flatContract" ) { (modelId) =>
+    get {
+      complete {
+        modelManagementService.modelContractDescription(modelId)
+      }
+    }
+  }
+
+  @Path("/version/{versionId}/flatContract")
+  @ApiOperation(value = "Get flatten contract", notes = "Get flatten contract", nickname = "Get flatten contract", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "versionId", required = true, dataType = "long", paramType = "path", value = "versionId")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ContractDescription", response = classOf[ContractDescription]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def versionContractDescription = path("api" / "v1" / "model" / "version" / LongNumber / "flatContract" ) { (versionId) =>
+    get {
+      complete {
+        modelManagementService.versionContractDescription(versionId)
+      }
+    }
+  }
 
   val routes: Route = listModels ~ getModel ~ updateModel ~ addModel ~ buildModel ~ listModelBuildsByModel ~ lastModelBuilds ~
     generatePayloadByModelId ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract ~ generateInputsForVersion ~
-    lastModelVersions ~ addModelVersion ~ allModelVersions
+    lastModelVersions ~ addModelVersion ~ allModelVersions ~ modelContractDescription ~ versionContractDescription
 }

@@ -12,7 +12,7 @@ object Dependencies {
   val scalaPBVersion = "0.6.7"
   val grpcNettyVersion = "1.8.0"
   val awsSdkVersion = "1.11.184"
-  val servingGrpcScala = "0.0.11"
+  val servingGrpcScala = "0.0.12"
 
 
   lazy val hdfsDependencies = Seq(
@@ -32,7 +32,7 @@ object Dependencies {
     "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
     //"com.typesafe.akka" %% "akka-http-jackson" % akkaHttpVersion,
     "com.typesafe.akka" %% "akka-http-xml" % akkaHttpVersion,
-    "com.github.swagger-akka-http" %% "swagger-akka-http" % "0.9.2" exclude("javax.ws.rs", "jsr311-api"),
+    "com.github.swagger-akka-http" %% "swagger-akka-http" % "0.11.0" exclude("javax.ws.rs", "jsr311-api"),
     "ch.megard" %% "akka-http-cors" % "0.2.1"
   )
 

@@ -33,9 +33,11 @@ abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUr
     val t = Try(stream.onNext(discoveryResponse))
     t match {
       case Failure(e) =>
-        log.error(s"Can't send message to $stream", e)
+        log.error("Can't send message to {}, error {}:", stream, e)
         observerNode.remove(stream)
         observerResources.remove(stream)
+        //TODO am I right? could I invoke onClose after error in onNext?
+        stream.onError(e)
       case _ =>
     }
   }

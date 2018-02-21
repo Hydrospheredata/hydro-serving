@@ -5,20 +5,18 @@ import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.model.{Environment, ManagerJsonSupport}
+import io.hydrosphere.serving.manager.model.Environment
 import io.hydrosphere.serving.manager.service._
 import io.swagger.annotations._
-
+import io.hydrosphere.serving.manager.model.CommonJsonSupport._
 import scala.concurrent.duration._
 
-/**
-  *
-  */
+
 @Path("/api/v1/environment")
 @Api(produces = "application/json", tags = Array("Environment"))
 class EnvironmentController(
   serviceManagementService: ServiceManagementService
-) extends ManagerJsonSupport {
+) {
   implicit val timeout = Timeout(5.seconds)
 
   @Path("/")
@@ -37,7 +35,7 @@ class EnvironmentController(
   @ApiOperation(value = "Create Environment", notes = "Create Environment", nickname = "createEnvironment", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "Environment Object", required = true,
-      dataType = "io.hydrosphere.serving.manager.service.CreateEnvironmentRequest", paramType = "body")
+      dataTypeClass = classOf[CreateEnvironmentRequest], paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Environment", response = classOf[Environment]),

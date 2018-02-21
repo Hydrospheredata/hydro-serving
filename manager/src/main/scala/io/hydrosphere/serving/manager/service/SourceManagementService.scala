@@ -5,49 +5,59 @@ import java.nio.file.Path
 import akka.actor.{ActorRef, ActorSystem}
 import akka.pattern._
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.model.{LocalSourceParams, ModelSourceConfigAux, S3SourceParams, SourceParams}
+import io.hydrosphere.serving.manager.ManagerConfiguration
+import io.hydrosphere.serving.manager.controller.model_source.{AddLocalSourceRequest, AddS3SourceRequest}
+import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.repository.SourceConfigRepository
-import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
 import io.hydrosphere.serving.manager.service.modelsource.WatcherRegistryActor.AddWatcher
 import io.hydrosphere.serving.manager.service.modelsource.{ModelSource, WatcherRegistryActor}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 
-case class CreateModelSourceRequest(
-  name: String,
-  params: SourceParams
-)
-
 trait SourceManagementService {
-  def addSource(createModelSourceRequest: CreateModelSourceRequest): Future[ModelSourceConfigAux]
+  def addS3Source(r: AddS3SourceRequest): Future[Option[ModelSourceConfigAux]]
 
-  def addSource(modelSourceConfigAux: ModelSourceConfigAux): Future[ActorRef]
+  def addLocalSource(r: AddLocalSourceRequest): Future[Option[ModelSourceConfigAux]]
+
+  def addSource(modelSourceConfigAux: ModelSourceConfigAux): Future[Option[ModelSourceConfigAux]]
 
   def createWatcher(modelSource: ModelSource): Future[ActorRef]
 
   def getSources: Future[List[ModelSource]]
 
-  def getSourceConfigs: Future[List[ModelSourceConfigAux]]
-
   def getLocalPath(url: String): Future[Path]
 
   def createWatchers: Future[Seq[ActorRef]]
+
+  def allSourceConfigs: Future[Seq[ModelSourceConfigAux]]
 }
 
-class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)
+class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, sourceRepository: SourceConfigRepository)
   (implicit ex: ExecutionContext, actorSystem: ActorSystem, timeout: Timeout) extends SourceManagementService with Logging {
 
   private val watcherRegistry = actorSystem.actorOf(WatcherRegistryActor.props, "WatcherRegistry")
 
-  def addSource(createModelSourceRequest: CreateModelSourceRequest): Future[ModelSourceConfigAux] = {
-    val config = ModelSourceConfigAux(-1, createModelSourceRequest.name, createModelSourceRequest.params)
-    addSource(config).map(_ => config)
+  def addSource(modelSourceConfigAux: ModelSourceConfigAux): Future[Option[ModelSourceConfigAux]] = {
+    getSourceConfig(modelSourceConfigAux.name).flatMap {
+      case Some(_) => Future.successful(None)
+      case None =>
+        val modelSource = ModelSource.fromConfig(modelSourceConfigAux)
+        for {
+          config <- sourceRepository.create(modelSourceConfigAux)
+          _ <- createWatcher(modelSource)
+        } yield {
+          Some(config)
+        }
+    }
   }
 
-  def addSource(modelSourceConfigAux: ModelSourceConfigAux): Future[ActorRef] = {
+  def getSourceConfig(name: String): Future[Option[ModelSourceConfigAux]] = {
+    allSourceConfigs.map { sources => sources.find(_.name == name) }
+  }
+
+  def createWatcher(modelSourceConfigAux: ModelSourceConfigAux): Future[ActorRef] = {
     val modelSource = ModelSource.fromConfig(modelSourceConfigAux)
-    sourceRepository.create(modelSourceConfigAux)
     createWatcher(modelSource)
   }
 
@@ -56,40 +66,15 @@ class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)
     watcher.mapTo[ActorRef]
   }
 
-  /*def deleteSource(modelSourceConfigAux: ModelSourceConfigAux) = {
-    ???
-  }*/
-
-  override def getSourceConfigs: Future[List[ModelSourceConfigAux]] = {
-    sourceRepository.all().map {
-      _.map { s =>
-        s.params match {
-          case _: LocalSourceParams => s
-          case x: S3SourceParams =>
-            ModelSourceConfigAux(
-              s.id,
-              s.name,
-              x.copy(awsAuth = x.awsAuth.map(_.hide))
-            )
-        }
-
-      }.toList
-    }
-  }
-
   override def getSources: Future[List[ModelSource]] = {
-    sourceRepository.all().map {
-      _.map { s =>
-        ModelSource.fromConfig(s)
-      }.toList
+    allSourceConfigs.map { sources =>
+      sources.map(ModelSource.fromConfig).toList
     }
   }
 
   override def createWatchers: Future[Seq[ActorRef]] = {
     getSources.flatMap { sources =>
-      val watchers = sources.map {
-        createWatcher
-      }
+      val watchers = sources.map(createWatcher)
       Future.sequence(watchers)
     }
   }
@@ -105,8 +90,34 @@ class SourceManagementServiceImpl(sourceRepository: SourceConfigRepository)
     }
   }
 
-}
+  override def addS3Source(r: AddS3SourceRequest): Future[Option[ModelSourceConfigAux]] = {
+    val config = ModelSourceConfig(
+      id = -1,
+      name = r.name,
+      params = S3SourceParams(
+        awsAuth = r.key,
+        bucketName = r.bucket,
+        queueName = r.queue,
+        region = r.region
+      )
+    ).toAux
+    addSource(config)
+  }
 
-object SourceManagementServiceImpl {
+  override def addLocalSource(r: AddLocalSourceRequest): Future[Option[ModelSourceConfigAux]] = {
+    val config = ModelSourceConfig(
+      id = -1,
+      name = r.name,
+      params = LocalSourceParams(
+        path = r.path
+      )
+    ).toAux
+    addSource(config)
+  }
 
+  override def allSourceConfigs: Future[Seq[ModelSourceConfigAux]] = {
+    sourceRepository.all().map { dbSources =>
+      managerConfiguration.modelSources ++ dbSources
+    }
+  }
 }

@@ -15,7 +15,8 @@ class ModelServiceSpec extends FullIntegrationSpec with BeforeAndAfterAll {
   "ModelService" should {
     "fetch all models" in {
       managerServices.modelManagementService.allModels().map { seq =>
-        assert(seq.lengthCompare(1) == 0)
+        println(seq)
+        assert(seq.lengthCompare(2) == 0)
       }
     }
 
@@ -77,6 +78,23 @@ class ModelServiceSpec extends FullIntegrationSpec with BeforeAndAfterAll {
           }
       }
     }
+
+    "return last version" when {
+      "for all models" in {
+        for {
+          _ <- managerServices.modelManagementService.buildModel(1, None)
+          v2 <- managerServices.modelManagementService.buildModel(1, None)
+          versions <- managerServices.modelManagementService.allModelsAggregatedInfo()
+        } yield {
+          val maybeModelInfo = versions.find(_.model.id == 1)
+          assert(maybeModelInfo.isDefined)
+          val modelInfo = maybeModelInfo.get
+          assert(modelInfo.lastModelVersion.isDefined)
+          val lastModelVersion = modelInfo.lastModelVersion.get
+          assert(v2.modelVersion === lastModelVersion.modelVersion)
+        }
+      }
+    }
   }
 
   override def beforeAll(): Unit = {
@@ -86,6 +104,10 @@ class ModelServiceSpec extends FullIntegrationSpec with BeforeAndAfterAll {
     managerServices.sourceManagementService.addSource(
       ModelSourceConfig(1, "itsource", LocalSourceParams(getClass.getResource("/models").getPath)).toAux
     )
-    indexProbe.expectMsg(15.seconds, RepositoryIndexActor.IndexFinished("dummy_model", "itsource"))
+    indexProbe.expectMsgAllOf(
+      20.seconds,
+      RepositoryIndexActor.IndexFinished("dummy_model", "itsource"),
+      RepositoryIndexActor.IndexFinished("dummy_model_2", "itsource")
+    )
   }
 }

@@ -1,17 +1,14 @@
 package io.hydrosphere.serving.manager.repository.db
 
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model.{Environment, ManagerJsonSupport}
+import io.hydrosphere.serving.manager.model.Environment
 import io.hydrosphere.serving.manager.repository.EnvironmentRepository
 import org.apache.logging.log4j.scala.Logging
-
+import io.hydrosphere.serving.manager.model.CommonJsonSupport._
 import scala.concurrent.{ExecutionContext, Future}
 
-/**
-  *
-  */
 class EnvironmentRepositoryImpl(implicit executionContext: ExecutionContext, databaseService: DatabaseService)
-  extends EnvironmentRepository with Logging with ManagerJsonSupport {
+  extends EnvironmentRepository with Logging {
 
   import spray.json._
   import databaseService._
@@ -47,7 +44,7 @@ class EnvironmentRepositoryImpl(implicit executionContext: ExecutionContext, dat
     ).map(s => s.map(ss => mapFromDb(ss)))
 }
 
-object EnvironmentRepositoryImpl extends ManagerJsonSupport {
+object EnvironmentRepositoryImpl {
 
   import spray.json._
 
