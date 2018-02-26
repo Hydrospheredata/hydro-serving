@@ -107,7 +107,12 @@ class ManagerServices(
 
   val envoyAdminConnector = new HttpEnvoyAdminConnector()
 
-  val prometheusMetricsService = new PrometheusMetricsServiceImpl(serviceManagementService, envoyAdminConnector)
+  val prometheusMetricsService = new PrometheusMetricsServiceImpl(
+    cloudDriverService,
+    envoyAdminConnector,
+    serviceManagementService,
+    applicationManagementService
+  )
 
   val repoActor: ActorRef = system.actorOf(RepositoryIndexActor.props(modelManagementService))
 }

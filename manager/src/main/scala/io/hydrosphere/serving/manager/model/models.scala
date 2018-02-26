@@ -82,6 +82,25 @@ case class ServiceKeyDescription(
   def toServiceName(): String = s"r${runtimeId}m${modelVersionId.getOrElse(0)}e${environmentId.getOrElse(0)}"
 }
 
+object ServiceKeyDescription {
+  val serviceKeyDescriptionPattern = """r(\d+)m(\d+)e(\d+)""".r
+
+  def fromServiceName(name: String): Option[ServiceKeyDescription] = {
+    name match {
+      case serviceKeyDescriptionPattern(runtime, version, environment) =>
+        val v = version.toLong
+        val e = version.toLong
+
+        Some(ServiceKeyDescription(
+          runtimeId = runtime.toLong,
+          modelVersionId = if (v <= 0) None else Some(v),
+          environmentId = if (e <= 0) None else Some(e)
+        ))
+      case _ => None
+    }
+  }
+}
+
 case class WeightedService(
   serviceDescription: ServiceKeyDescription,
   weight: Int
@@ -148,17 +167,6 @@ case class ModelBuild(
   statusText: Option[String],
   logsUrl: Option[String],
   modelVersion: Option[ModelVersion]
-)
-
-case class ServiceInstance(
-  instanceId: String,
-  host: String,
-  appPort: Int,
-  sidecarPort: Int,
-  sidecarAdminPort: Int,
-  serviceId: Long,
-  status: ServiceInstanceStatus,
-  statusText: Option[String]
 )
 
 class UnknownModelRuntime extends ModelVersion(

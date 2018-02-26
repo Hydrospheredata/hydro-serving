@@ -10,32 +10,15 @@ global:
   scrape_interval:     15s
   evaluation_interval: 15s
 
-rule_files:
-# - "first.rules"
 scrape_configs:
   - job_name: 'prometheus'
     static_configs:
       - targets: ['localhost:9090']
-  - job_name: 'node'
-    scrape_interval: 10s
-    scrape_timeout: 5s
-    static_configs:
-      - targets: ['nodeexporter:9100']
-        labels: {'host': 'host1'}
-  - job_name: 'containers'
-    scrape_interval: 10s
-    scrape_timeout: 5s
-    static_configs:
-      - targets: ['cadvisor:8080']
-        labels: {'host': 'host1'}
-  - job_name: 'kafka'
-    static_configs:
-      - targets: ['kafka:1100']
   - job_name: 'overwritten-default'
     file_sd_configs:
       - files: ['/var/targets/*.json']
     relabel_configs:
-      - source_labels: [serviceId,instanceId]
+      - source_labels: [serviceId,instanceId,serviceType]
         target_label: __metrics_path__
         separator: /
         replacement: /v1/prometheus/proxyMetrics/$1
@@ -46,7 +29,7 @@ cat <<EOF >> /etc/prometheus/prometheus.yml
         replacement: $MANAGER_HOST:$MANAGER_PORT
 EOF
 
-while true; do curl http://$MANAGER_HOST:$MANAGER_PORT/v1/prometheus/services > /var/targets/allServices.json; sleep 10; done &
+while true; do curl -s http://$MANAGER_HOST:$MANAGER_PORT/v1/prometheus/services > /tmp/allServices.json; cp /tmp/allServices.json /var/targets/allServices.json; sleep 30; done &
 exec /bin/prometheus -config.file=/etc/prometheus/prometheus.yml \
                 -storage.local.path=/prometheus \
                 -web.console.libraries=/usr/share/prometheus/console_libraries \
