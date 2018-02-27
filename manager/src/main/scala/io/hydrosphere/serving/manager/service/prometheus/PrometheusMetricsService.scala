@@ -1,161 +1,131 @@
 package io.hydrosphere.serving.manager.service.prometheus
 
 import io.hydrosphere.serving.manager.connector.EnvoyAdminConnector
-import io.hydrosphere.serving.manager.service.ServiceManagementService
+import io.hydrosphere.serving.manager.model.{Service, ServiceKeyDescription}
+import io.hydrosphere.serving.manager.service.{ApplicationManagementService, ServiceManagementService}
+import io.hydrosphere.serving.manager.service.clouddriver.{CloudDriverService, CloudService, MetricServiceTargets, ServiceInstance}
 import org.apache.logging.log4j.scala.Logging
 
+import scala.collection.concurrent.TrieMap
 import scala.collection.mutable
-import scala.collection.immutable
+import scala.collection.mutable.ListBuffer
 import scala.concurrent.{ExecutionContext, Future}
 
-case class ServiceTargetLabels(
-  job: String,
-  modelName: String,
-  modelVersion: Long,
-  serviceId: String,
-  instanceId: String,
-  serviceName: String
-)
-
-case class ServiceTargets(
-  targets: List[String],
-  labels: ServiceTargetLabels
-)
 
 trait PrometheusMetricsService {
-  def fetchServices(): Future[Seq[ServiceTargets]]
+  def fetchServices(): Future[Seq[MetricServiceTargets]]
 
-  def fetchMetrics(serviceId: Long, instanceId: String): Future[String]
+  def fetchMetrics(serviceId: Long, instanceId: String, serviceType: String): Future[String]
 }
 
 class PrometheusMetricsServiceImpl(
+  cloudDriverService: CloudDriverService,
+  envoyAdminConnector: EnvoyAdminConnector,
   serviceManagementService: ServiceManagementService,
-  envoyAdminConnector: EnvoyAdminConnector
+  applicationManagementService: ApplicationManagementService
 )(implicit val ex: ExecutionContext) extends PrometheusMetricsService with Logging {
 
-  override def fetchServices(): Future[Seq[ServiceTargets]] =
-    Future.failed(new RuntimeException)
-    /*runtimeManagementService.allServices().flatMap(services => {
-      Future.traverse(services)(s =>
-        runtimeManagementService.instancesForService(s.serviceId)
-          .map(inst => Tuple2(s, inst))
-      ).map(allServices => {
-        val clusters = mutable.MutableList[ServiceTargets]()
-        allServices.foreach(tuple => {
-          tuple._2.foreach(instance => {
-            clusters += ServiceTargets(
-              labels = ServiceTargetLabels(
-                job = tuple._1.serviceName,
-                modelName = tuple._1.modelRuntime.modelName,
-                modelVersion = tuple._1.modelRuntime.modelVersion.toLong,
-                serviceId = tuple._1.serviceId.toString,
-                instanceId = instance.instanceId,
-                serviceName = tuple._1.serviceName
-              ),
-              targets = List(s"${instance.host}:${instance.sidecarAdminPort}")
-            )
+  override def fetchServices(): Future[Seq[MetricServiceTargets]] =
+    cloudDriverService.getMetricServiceTargets()
+
+  private def fetchAndMapMetrics(service: CloudService, instance: ServiceInstance): Future[String] =
+    envoyAdminConnector.stats(instance.sidecar.host, instance.sidecar.adminPort)
+      .flatMap(m => mapToPrometheusMetrics(m))
+
+  def fetchMetrics(serviceId: Long, instanceId: String, serviceType: String): Future[String] =
+    cloudDriverService.services(Set(serviceId)).flatMap(s => {
+      val service = s.headOption
+        .getOrElse(throw new IllegalArgumentException(s"Can't find service=$serviceId"))
+      val instance = service.instances
+        .find(p => p.sidecar.instanceId == instanceId)
+        .getOrElse(throw new IllegalArgumentException(s"Can't find instance=$instanceId in service=$service"))
+
+      serviceType match {
+        case CloudDriverService.DEPLOYMENT_TYPE_SIDECAR =>
+          fetchAndMapMetrics(service, instance)
+        case _ =>
+          throw new IllegalArgumentException(s"Illegal serviceType=$serviceType")
+      }
+    })
+
+  private def changeLineIfNeeded(line: String, map: Map[String, Service]): String = {
+    val searchString = "envoy_cluster_name=\""
+
+    val index = line.lastIndexOf(searchString)
+    if (index == -1) {
+      line
+    } else {
+      val startIndex = index + searchString.length
+      val clusterName = line.substring(startIndex, line.indexOf("\"", startIndex))
+
+      ServiceKeyDescription.fromServiceName(clusterName) match {
+        case None => line
+        case Some(key) =>
+          map.get(clusterName) match {
+            case None => line
+            case Some(service) =>
+              val builder = new StringBuilder
+              builder.append("targetServiceId=\"")
+              builder.append(service.id)
+              builder.append("\",targetRuntimeName=\"")
+              builder.append(service.runtime.name)
+              builder.append("\",targetRuntimeVersion=\"")
+              builder.append(service.runtime.version)
+              builder.append("\",targetModelName=\"")
+              builder.append(service.model.map(_.modelName).getOrElse("_"))
+              builder.append("\",targetModelVersion=\"")
+              builder.append(service.model.map(_.modelVersion).getOrElse("_"))
+              builder.append("\",targetEnvironment=\"")
+              builder.append(service.environment.map(_.name).getOrElse("_"))
+              builder.append("\",")
+
+              line.substring(0, index) + builder.toString() + line.substring(index)
+          }
+      }
+    }
+  }
+
+  private def mapToPrometheusMetrics(envoyMetrics: String): Future[String] = {
+    applicationManagementService.allApplications().flatMap(apps => {
+      val keys = for {
+        app <- apps
+        stage <- app.executionGraph.stages
+        service <- stage.services
+      } yield {
+        service.serviceDescription
+      }
+      //TODO cache this
+      serviceManagementService.fetchServicesUnsync(keys.toSet)
+        .flatMap(services => {
+          Future({
+            val map = services.map(s => s.toServiceKeyDescription.toServiceName() -> s).toMap
+
+
+            val metricsMap = new mutable.HashMap[String, mutable.ListBuffer[String]]()
+            envoyMetrics.split("#").foreach(t => {
+              val l = t.split("\n")
+
+              l.drop(1).foreach(line => {
+                val buff = metricsMap.getOrElseUpdate(l.head, new ListBuffer[String])
+                buff += changeLineIfNeeded(line, map)
+              })
+            })
+
+            // Because of https://github.com/envoyproxy/envoy/issues/2597
+            val builder = new StringBuilder()
+            metricsMap.foreach(f => {
+              builder.append("#")
+                .append(f._1)
+                .append("\n")
+              f._2.foreach(s => {
+                builder.append(s)
+                  .append("\n")
+              })
+            })
+
+            builder.toString()
           })
         })
-        clusters
-      })
-    })*/
-
-  override def fetchMetrics(serviceId: Long, instanceId: String): Future[String] =
-    Future.failed(new RuntimeException)
-  /*runtimeManagementService.instancesForService(serviceId)
-        .flatMap(instances => {
-          instances.find(i => i.instanceId == instanceId) match {
-            case Some(x) =>
-              fetchAndMapMetrics(x)
-            case _ =>
-              throw new IllegalArgumentException(s"Can't find instance=$instanceId in service=$serviceId")
-          }
-        })*/
-
-  private case class PrometheusMetric(
-    name: String,
-    metricType: String,
-    help: String
-  )
-
-  private case class PrometheusMetricValue(
-    groups: Map[String, String],
-    value: String
-  )
-
-  /*private def fetchAndMapMetrics(instance: ModelServiceInstance): Future[String] =
-    envoyAdminConnector.stats(instance.host, instance.sidecarAdminPort)
-      .map(response => mapToPrometheusMetrics(response))*/
-
-
-  private def mapToPrometheusMetrics(envoyMetrics: String): String = {
-    val map = scala.collection.mutable.HashMap.empty[PrometheusMetric, mutable.MutableList[PrometheusMetricValue]]
-
-    envoyMetrics.split("\n").foreach(metricRow => {
-      val tuple = parseEnvoyMetric(metricRow)
-      val list = map.getOrElseUpdate(tuple._1, mutable.MutableList.empty)
-      list += tuple._2
     })
-
-    val builder = new StringBuilder()
-    map.foreach(tuple => {
-      formatToPrometheus(tuple._1, tuple._2, builder)
-    })
-    builder.toString()
-  }
-
-  //TODO add this to envoy
-  private def formatToPrometheus(prometheusMetric: PrometheusMetric, values: mutable.MutableList[PrometheusMetricValue], builder: StringBuilder) = {
-    builder.append("# HELP ")
-    builder.append(prometheusMetric.name)
-    builder.append(" ")
-    builder.append(prometheusMetric.help)
-    builder.append("\n")
-
-    builder.append("# TYPE ")
-    builder.append(prometheusMetric.name)
-    builder.append(" ")
-    builder.append(prometheusMetric.metricType)
-    builder.append("\n")
-
-    values.foreach(value => {
-      builder.append(prometheusMetric.name)
-      if (value.groups.nonEmpty) {
-        builder.append(value.groups
-          .map(t => t._1 + "=\"" + t._2 + "\"")
-          .mkString("{", ",", "}")
-        )
-      }
-      builder.append(" ")
-      builder.append(value.value)
-      builder.append("\n")
-    })
-
-  }
-
-  private def parseEnvoyMetric(metricRow: String): (PrometheusMetric, PrometheusMetricValue) = {
-    val arr = metricRow.split(':')
-    val name = arr.head
-    val sp = name.split('.')
-    //TODO refactor
-    var prometheusMetric = PrometheusMetric(name = sp.mkString("_").replaceAll("-", "_"), metricType = "counter", help = name)
-    var groups = immutable.Map[String, String]()
-    if (name.startsWith("http.async-client.")) {
-      //Do nothing
-    } else if (name.startsWith("http.") || name.startsWith("cluster.")) {
-      val newName = (sp(0) + "_" + sp.drop(2).mkString("_")).replaceAll("-", "_")
-      prometheusMetric = PrometheusMetric(name = newName, metricType = "counter", help = newName)
-      groups = immutable.Map(sp(0) -> sp(1))
-    } else if (name.startsWith("listener.")) {
-      var index = name.indexOf(".downstream")
-      if (-1 == index) {
-        index = name.indexOf(".server")
-      }
-      val newName = ("listener_" + name.substring(index + 1).replaceAll("-", "_")).replaceAll("\\.", "_")
-      prometheusMetric = PrometheusMetric(name = newName, metricType = "counter", help = newName)
-    } else if (name.startsWith("server.")) {
-      prometheusMetric = PrometheusMetric(name = sp.mkString("_"), metricType = "gauge", help = name)
-    }
-    Tuple2(prometheusMetric, PrometheusMetricValue(groups, arr.last))
   }
 }

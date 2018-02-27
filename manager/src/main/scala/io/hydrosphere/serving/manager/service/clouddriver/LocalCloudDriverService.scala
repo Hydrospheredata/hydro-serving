@@ -72,7 +72,7 @@ class LocalCloudDriverService(
 
   private def pullImage(service: Service): Unit = {
     if (dockerClient.listImages(ListImagesParam.byName(service.runtime.toImageDef)).isEmpty) {
-      val handler=new ProgressHandler {
+      val handler = new ProgressHandler {
         override def handle(progressMessage: ProgressMessage): Unit = logger.info(progressMessage)
       }
 
@@ -138,10 +138,10 @@ class LocalCloudDriverService(
     )
 
   protected def mapToCloudService(serviceId: Long, seq: Seq[Container]): CloudService = {
-    val map = seq.map(c => c.labels().get(LABEL_DEPLOYMENT_TYPE) -> c).toMap
+    val map = seq.map(c => c.labels().get(CloudDriverService.LABEL_DEPLOYMENT_TYPE) -> c).toMap
 
-    val containerApp = map.getOrElse(DEPLOYMENT_TYPE_APP, throw new RuntimeException(s"Can't find APP for service $serviceId in $seq"))
-    val containerModel = map.get(DEPLOYMENT_TYPE_MODEL)
+    val containerApp = map.getOrElse(CloudDriverService.DEPLOYMENT_TYPE_APP, throw new RuntimeException(s"Can't find APP for service $serviceId in $seq"))
+    val containerModel = map.get(CloudDriverService.DEPLOYMENT_TYPE_MODEL)
 
     val mainApplicationInstance = mapMainApplicationInstance(containerApp)
     CloudService(
@@ -268,7 +268,7 @@ class LocalCloudDriverService(
   }
 
   override def services(serviceIds: Set[Long]): Future[Seq[CloudService]] = Future.apply({
-    collectCloudService(
+    val services = collectCloudService(
       dockerClient.listContainers(
         ListContainersParam.withLabel(LABEL_HS_SERVICE_MARKER, LABEL_HS_SERVICE_MARKER),
         ListContainersParam.allContainers()
@@ -278,6 +278,12 @@ class LocalCloudDriverService(
           .getOrElse(false)
       })
     )
+
+    if (serviceIds.contains(CloudDriverService.MANAGER_ID)) {
+      services :+ createManagerCloudService()
+    } else {
+      services
+    }
   })
 
   override def removeService(serviceId: Long): Future[Unit] = Future.apply({
@@ -292,4 +298,24 @@ class LocalCloudDriverService(
       ))
     }
   })
+
+  override def getMetricServiceTargets(): Future[Seq[MetricServiceTargets]] =
+    Future.successful(Seq(
+      MetricServiceTargets(
+        targets = List(s"${managerConfiguration.sidecar.host}:${managerConfiguration.sidecar.adminPort}"),
+        labels = MetricServiceTargetLabels(
+          job = "sidecar",
+          modelName = None,
+          modelVersion = None,
+          environment = None,
+          runtimeName = "hydrosphere/serving-manager",
+          runtimeVersion = "latest",
+          serviceName = CloudDriverService.MANAGER_NAME,
+          serviceId = CloudDriverService.MANAGER_ID.toString,
+          serviceCloudDriverId = "managerConfiguration.sidecar",
+          serviceType = CloudDriverService.DEPLOYMENT_TYPE_SIDECAR,
+          instanceId = "managerConfiguration.sidecar"
+        )
+      )
+    ))
 }

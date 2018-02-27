@@ -33,7 +33,7 @@ class HttpEnvoyAdminConnector(
       }
 
     val source = Source.single(HttpRequest(
-      uri = "/stats",
+      uri = "/stats?format=prometheus",
       method = HttpMethods.GET
     ))
     source.via(flow).runWith(Sink.head)
