@@ -3,21 +3,20 @@ package io.hydrosphere.serving.manager.service
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.connector._
+import io.hydrosphere.serving.manager.controller.application._
 import io.hydrosphere.serving.manager.grpc.manager.AuthorityReplacerInterceptor
-import io.hydrosphere.serving.manager.model.api.{DataGenerator, SignatureChecker}
+import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.api.DataGenerator
 import io.hydrosphere.serving.manager.model.api.ops.{ModelSignatureOps, TensorProtoOps}
 import io.hydrosphere.serving.manager.model.api.validation.SignatureValidator
-import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.repository.ApplicationRepository
+import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelVersionRepository}
 import io.hydrosphere.serving.tensorflow.api.model.ModelSpec
 import io.hydrosphere.serving.tensorflow.api.predict.{PredictRequest, PredictResponse}
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
-import io.hydrosphere.serving.manager.controller.application.{CreateApplicationRequest, ExecutionGraphRequest, UpdateApplicationRequest}
 import org.apache.logging.log4j.scala.Logging
 import spray.json.{JsObject, JsValue}
 
-import scala.concurrent.{Await, ExecutionContext, Future}
-import scala.concurrent.duration._
+import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Failure, Success}
 
 case class ServiceWithSignature(s: Service, signatureName: String)
@@ -38,8 +37,6 @@ trait ApplicationManagementService {
 
   def generateInputsForApplication(appId: Long, signatureName: String): Future[Option[Seq[JsObject]]]
 
-  def checkApplicationSchema(req: ApplicationExecutionGraph): Future[Boolean]
-
   def createApplication(req: CreateApplicationRequest): Future[Application]
 
   def deleteApplication(id: Long): Future[Unit]
@@ -50,6 +47,7 @@ trait ApplicationManagementService {
 class ApplicationManagementServiceImpl(
   runtimeMeshConnector: RuntimeMeshConnector,
   applicationRepository: ApplicationRepository,
+  modelVersionRepository: ModelVersionRepository,
   serviceManagementService: ServiceManagementService,
   grpcClient: PredictionServiceGrpc.PredictionServiceStub,
   internalManagerEventsPublisher: InternalManagerEventsPublisher
@@ -163,42 +161,19 @@ class ApplicationManagementServiceImpl(
     }
   }
 
-  def checkApplicationSchema(graph: ApplicationExecutionGraph): Future[Boolean] = {
-    val stages = graph.stages.zipWithIndex.map {
-      case (stage, stIdx) =>
-        val servicesId = stage.services.map(s => s.serviceDescription -> stage.signature.get.signatureName).toMap
-        val services = servicesId.map {
-          case (id, sig) =>
-            //TODO change to batch fetch
-            val modelService = Await.result(serviceManagementService.fetchServicesUnsync(Set(id)), 5.seconds)
-              .headOption
-              .getOrElse(throw new IllegalArgumentException(s"Service $id is not found."))
-            modelService -> sig
-        }.filterKeys(p => p.model.nonEmpty)
-          .map { case (s, sig) => ServiceWithSignature(s, sig) }.toSeq
-        createStageSignature(stIdx, services)
-    }
-
-    Future(
-      stages.zip(stages.tail).forall {
-        case (sig1, sig2) => SignatureChecker.areSequentiallyCompatible(sig1, sig2)
-      }
-    )
-  }
-
   def createApplication(req: CreateApplicationRequest): Future[Application] = executeWithSync {
     val keys = for {
       stage <- req.executionGraph.stages
       service <- stage.services
     } yield {
-      service.serviceDescription
+      service.toDescription
     }
     val keySet = keys.toSet
 
     for {
       services <- serviceManagementService.fetchServicesUnsync(keySet)
       existedServices = services.map(_.toServiceKeyDescription)
-      s <- startServices(keySet -- existedServices)
+      _ <- startServices(keySet -- existedServices)
       inferredApp <- composeApp(req)
       createdApp <- applicationRepository.create(inferredApp)
     } yield {
@@ -228,7 +203,7 @@ class ApplicationManagementServiceImpl(
         .flatMap {
           case Some(application) =>
             val keysSetOld = application.executionGraph.stages.flatMap(_.services.map(_.serviceDescription)).toSet
-            val keysSetNew = req.executionGraph.stages.flatMap(_.services.map(_.serviceDescription)).toSet
+            val keysSetNew = req.executionGraph.stages.flatMap(_.services.map(_.toDescription)).toSet
 
             for {
               _ <- removeServiceIfNeeded(keysSetOld -- keysSetNew, application.id)
@@ -318,29 +293,56 @@ class ApplicationManagementServiceImpl(
     val appStages =
       executionGraphRequest.stages match {
         case singleStage :: Nil if singleStage.services.lengthCompare(1) == 0 =>
-          Future.successful {
-            Seq(
-              ApplicationStage(
-                services = singleStage.services,
-                signature = None
-              )
-            )
-          }
+          inferSimpleApp(singleStage)
         case stages =>
-          Future.sequence {
-            stages.map { stage =>
-              inferStageSignature(stage.signatureName, stage.services.map(_.serviceDescription)).map { stageSig =>
-                ApplicationStage(
-                  services = stage.services,
-                  signature = Some(stageSig)
-                )
-              }
-            }
-          }
+          inferPipelineApp(stages)
       }
-
     appStages.map { sigs =>
       ApplicationExecutionGraph(sigs.toList)
+    }
+  }
+
+  private def inferSimpleApp(singleStage: ExecutionStepRequest) = {
+    Future.successful {
+      Seq(
+        ApplicationStage(
+          services = singleStage.services.map(_.toWeighedService),
+          signature = None
+        )
+      )
+    }
+  }
+
+  private def inferPipelineApp(stages: Seq[ExecutionStepRequest]) = {
+    Future.sequence {
+      stages.zipWithIndex.map {
+        case (stage, id) =>
+          for {
+            services <- inferServices(stage.services)
+            stageSig <- inferStageSignature(services)
+          } yield {
+            ApplicationStage(
+              services = services,
+              signature = Some(stageSig.withSignatureName(id.toString))
+            )
+          }
+      }
+    }
+  }
+
+  def inferServices(services: List[SimpleServiceDescription]): Future[List[WeightedService]] = {
+    Future.sequence {
+      services.map { s =>
+        val versionId = s.modelVersionId.getOrElse(throw new IllegalArgumentException(s"$s doesn't have a modelversion"))
+        modelVersionRepository.get(versionId).map {
+          case Some(version) =>
+            val signature = version.modelContract.signatures
+              .find(_.signatureName == s.signatureName)
+              .getOrElse(throw new IllegalArgumentException(s"$s doesn't contain such signature"))
+            s.toWeighedService.copy(signature = Some(signature))
+          case None => throw new IllegalArgumentException(s"$s contains non-existant modelversion")
+        }
+      }
     }
   }
 
@@ -365,16 +367,12 @@ class ApplicationManagementServiceImpl(
     }
   }
 
-  private def inferStageSignature(signatureName: String, stage: Seq[ServiceKeyDescription]): Future[ModelSignature] = {
-    serviceManagementService.fetchServicesUnsync(stage.toSet).map { services =>
-      services.map { service =>
-        val m = service.model.getOrElse(throw new IllegalArgumentException(s"Service with id ${service.id} doesn't have a Model"))
-        m.modelContract.signatures
-          .find(_.signatureName == signatureName)
-          .getOrElse(throw new IllegalArgumentException(s"Signature $signatureName for service ${service.id} is not found"))
+  private def inferStageSignature(serviceDescs: Seq[WeightedService]): Future[ModelSignature] = {
+    Future {
+      val signatures = serviceDescs.map { service =>
+        service.signature.getOrElse(throw new IllegalArgumentException(s"$service doesn't have a signature"))
       }
-    }.map {
-      _.foldRight(ModelSignature.defaultInstance) {
+      signatures.foldRight(ModelSignature.defaultInstance) {
         case (sig1, sig2) => ModelSignatureOps.merge(sig1, sig2)
       }
     }
@@ -386,15 +384,5 @@ class ApplicationManagementServiceImpl(
       graph.stages.head.signature.get.inputs,
       graph.stages.last.signature.get.outputs
     )
-  }
-
-  private def createStageSignature(idx: Long, stages: Seq[ServiceWithSignature]): ModelSignature = {
-    val signatures = stages.map { info =>
-      info.s.model.getOrElse(throw new IllegalArgumentException(s"Can't find contract for service $info"))
-        .modelContract.signatures
-        .find(_.signatureName == info.signatureName)
-        .getOrElse(throw new IllegalArgumentException(s"${info.signatureName} signature doesn't exist"))
-    }
-    signatures.fold(ModelSignature.defaultInstance)(ModelSignatureOps.merge)
   }
 }

@@ -1,13 +1,10 @@
 package io.hydrosphere.serving.manager.controller.application
 
-import io.hydrosphere.serving.manager.model.WeightedService
-
 case class ExecutionStepRequest(
-  services: List[WeightedService],
-  signatureName: String
+  services: List[SimpleServiceDescription]
 )
 
 object ExecutionStepRequest {
   import io.hydrosphere.serving.manager.model.CommonJsonSupport._
-  implicit val format = jsonFormat2(ExecutionStepRequest.apply)
+  implicit val format = jsonFormat1(ExecutionStepRequest.apply)
 }

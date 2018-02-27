@@ -1,8 +1,7 @@
 package io.hydrosphere.serving.manager.service
 
 import akka.testkit.TestProbe
-import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.controller.application.{CreateApplicationRequest, ExecutionGraphRequest, ExecutionStepRequest}
+import io.hydrosphere.serving.manager.controller.application.{CreateApplicationRequest, ExecutionGraphRequest, ExecutionStepRequest, SimpleServiceDescription}
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
@@ -22,16 +21,14 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
             stages = List(
               ExecutionStepRequest(
                 services = List(
-                  WeightedService(
-                    serviceDescription = ServiceKeyDescription(
-                      runtimeId = 1, // dummy runtime id
-                      modelVersionId = Some(version.id),
-                      environmentId = None
-                    ),
-                    weight = 100
+                  SimpleServiceDescription(
+                    runtimeId = 1, // dummy runtime id
+                    modelVersionId = Some(version.id),
+                    environmentId = None,
+                    weight = 100,
+                    signatureName = "default"
                   )
-                ),
-                signatureName = "default"
+                )
               )
             )
           ),
@@ -46,11 +43,12 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
               List(
                 WeightedService(
                   ServiceKeyDescription(
-                    1,
-                    Some(1),
-                    None
+                    runtimeId = 1,
+                    modelVersionId = Some(1),
+                    environmentId = None
                   ),
-                  100
+                  weight = 100,
+                  signature = None
                 )
               ),
               None
@@ -59,6 +57,69 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         )
         assert(app.name === appRequest.name)
         assert(app.contract === version.modelContract)
+        assert(app.executionGraph === expectedGraph)
+      }
+    }
+    "create a multi-service stage" in {
+      for {
+        version <- managerServices.modelManagementService.buildModel(1, None)
+        appRequest = CreateApplicationRequest(
+          name = "MultiServiceStage",
+          executionGraph = ExecutionGraphRequest(
+            stages = List(
+              ExecutionStepRequest(
+                services = List(
+                  SimpleServiceDescription(
+                    runtimeId = 1, // dummy runtime id
+                    modelVersionId = Some(version.id),
+                    environmentId = None,
+                    weight = 50,
+                    signatureName = "default_spark"
+                  ),
+                  SimpleServiceDescription(
+                    runtimeId = 1, // dummy runtime id
+                    modelVersionId = Some(version.id),
+                    environmentId = None,
+                    weight = 50,
+                    signatureName = "default_spark"
+                  )
+                )
+              )
+            )
+          ),
+          kafkaStreaming = List.empty
+        )
+        app <- managerServices.applicationManagementService.createApplication(appRequest)
+      } yield {
+        println(app)
+        val expectedGraph = ApplicationExecutionGraph(
+          List(
+            ApplicationStage(
+              List(
+                WeightedService(
+                  ServiceKeyDescription(
+                    runtimeId = 1,
+                    modelVersionId = Some(version.id),
+                    environmentId = None
+                  ),
+                  weight = 50,
+                  signature = version.modelContract.signatures.find(_.signatureName == "default_spark")
+                ),
+                WeightedService(
+                  ServiceKeyDescription(
+                    runtimeId = 1,
+                    modelVersionId = Some(version.id),
+                    environmentId = None
+                  ),
+                  weight = 50,
+                  signature = version.modelContract.signatures.find(_.signatureName == "default_spark")
+                )
+              ),
+              version.modelContract.signatures.find(_.signatureName == "default_spark").map(_.withSignatureName("0"))
+            )
+          )
+        )
+        assert(app.name === appRequest.name)
         assert(app.executionGraph === expectedGraph)
       }
     }
