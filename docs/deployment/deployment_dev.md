@@ -54,11 +54,19 @@ export HOST_IP=$(ifconfig en0 | grep 'inet ' |  awk '{ print $2}')
 docker run -p 8083:80 -e MANAGER_HOST=$HOST_IP:8080 hydrosphere/serving-manager-ui:latest
 ```
 
+##### Run `prometheus` (optional).
+```
+docker build --no-cache -t hydro-serving/prometheus integrations/automation/prometheus
+export HOST_IP=$(ifconfig en0 | grep 'inet ' |  awk '{ print $2}')
+docker run -p 9093:9090 -e MANAGER_HOST=$HOST_IP -e MANAGER_PORT=8080 hydro-serving/prometheus:latest
+```
+
 #### Resources
  - http://localhost:8080/swagger/swagger-ui.html - Swagger UI through Sidecar
  - http://localhost:9090/swagger/swagger-ui.html - Direct access to Swagger UI through Manager Http Port
  - http://localhost:8082 - Sidecar admin console
  - http://localhost:8083 - Manager UI
+ - http://localhost:9093/graph - Prometheus UI
  - localhost:8080 - Sidecar Ingress Port HTTP/GRPC requests
  - localhost:8081 - Sidecar Egress Port HTTP/GRPC requests
  - localhost:9090 - Manager Http Port

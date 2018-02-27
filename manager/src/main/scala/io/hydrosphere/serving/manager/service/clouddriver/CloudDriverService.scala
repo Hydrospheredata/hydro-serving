@@ -59,6 +59,27 @@ case class CloudService(
   instances: Seq[ServiceInstance]
 )
 
+
+case class MetricServiceTargetLabels(
+  job: String,
+  modelName: Option[String],
+  modelVersion: Option[String],
+  environment: Option[String],
+  runtimeName: String,
+  runtimeVersion: String,
+  serviceName: String,
+  serviceId: String,
+  serviceCloudDriverId: String,
+  serviceType: String,
+  instanceId: String
+)
+
+case class MetricServiceTargets(
+  targets: List[String],
+  labels: MetricServiceTargetLabels
+)
+
+
 trait CloudDriverService extends Logging {
 
   val LABEL_SERVICE_ID = "SERVICE_ID"
@@ -69,13 +90,6 @@ trait CloudDriverService extends Logging {
   val LABEL_MODEL_NAME = "MODEL_NAME"
   val LABEL_MODEL_TYPE = "MODEL_TYPE"
   val LABEL_RUNTIME_ID = "RUNTIME_ID"
-
-  val LABEL_DEPLOYMENT_TYPE="DEPLOYMENT_TYPE"
-
-  val DEPLOYMENT_TYPE_MODEL="MODEL"
-  val DEPLOYMENT_TYPE_APP="APP"
-  val DEPLOYMENT_TYPE_SIDECAR="SIDECAR"
-
 
   val ENV_APP_PORT = "APP_PORT"
   val ENV_SIDECAR_PORT = "SIDECAR_PORT"
@@ -89,6 +103,7 @@ trait CloudDriverService extends Logging {
   val DEFAULT_SIDECAR_EGRESS_PORT = 8081
   val DEFAULT_SIDECAR_ADMIN_PORT = 8082
 
+  def getMetricServiceTargets(): Future[Seq[MetricServiceTargets]]
 
   def serviceList(): Future[Seq[CloudService]]
 
@@ -107,7 +122,7 @@ trait CloudDriverService extends Logging {
       LABEL_MODEL_VERSION -> model.modelVersion.toString,
       LABEL_MODEL_VERSION_ID -> model.id.toString,
       LABEL_MODEL_TYPE -> model.modelType.toTag,
-      LABEL_DEPLOYMENT_TYPE -> DEPLOYMENT_TYPE_MODEL
+      CloudDriverService.LABEL_DEPLOYMENT_TYPE -> CloudDriverService.DEPLOYMENT_TYPE_MODEL
     )
   }
 
@@ -117,7 +132,7 @@ trait CloudDriverService extends Logging {
       LABEL_SERVICE_ID -> service.id.toString,
       LABEL_HS_SERVICE_MARKER -> LABEL_HS_SERVICE_MARKER,
       LABEL_RUNTIME_ID -> service.runtime.id.toString,
-      LABEL_DEPLOYMENT_TYPE -> DEPLOYMENT_TYPE_APP
+      CloudDriverService.LABEL_DEPLOYMENT_TYPE -> CloudDriverService.DEPLOYMENT_TYPE_APP
     )
   }
 
@@ -148,6 +163,12 @@ trait CloudDriverService extends Logging {
 }
 
 object CloudDriverService{
+  val LABEL_DEPLOYMENT_TYPE="DEPLOYMENT_TYPE"
+
+  val DEPLOYMENT_TYPE_MODEL="MODEL"
+  val DEPLOYMENT_TYPE_APP="APP"
+  val DEPLOYMENT_TYPE_SIDECAR="SIDECAR"
+
   val MANAGER_ID: Long = -20
   val MANAGER_HTTP_ID: Long = -21
   val GATEWAY_ID: Long = -10

@@ -6,11 +6,10 @@ import java.time.format.DateTimeFormatter
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.controller.model.BuildModelRequest
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.api.description._
 import io.hydrosphere.serving.manager.service._
-import io.hydrosphere.serving.manager.service.prometheus.{ServiceTargetLabels, ServiceTargets}
+import io.hydrosphere.serving.manager.service.clouddriver.{MetricServiceTargetLabels, MetricServiceTargets}
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
@@ -128,7 +127,7 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
 
   implicit val errorResponseFormat = jsonFormat1(ErrorResponse)
 
-  implicit val serviceKeyDescriptionFormat = jsonFormat3(ServiceKeyDescription)
+  implicit val serviceKeyDescriptionFormat = jsonFormat3(ServiceKeyDescription.apply)
   implicit val serviceWeightFormat = jsonFormat2(WeightedService)
   implicit val applicationStageFormat = jsonFormat2(ApplicationStage.apply)
   implicit val applicationExecutionGraphFormat = jsonFormat1(ApplicationExecutionGraph)
@@ -181,8 +180,8 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
 
   implicit val aggregatedModelInfoFormat=jsonFormat4(AggregatedModelInfo)
 
-  implicit val serviceTargetLabels = jsonFormat6(ServiceTargetLabels)
-  implicit val serviceTargets = jsonFormat2(ServiceTargets)
+  implicit val metricServiceTargetLabelsFormat = jsonFormat11(MetricServiceTargetLabels)
+  implicit val metricServiceTargetsFormat = jsonFormat2(MetricServiceTargets)
 }
 
 object CommonJsonSupport extends CommonJsonSupport
