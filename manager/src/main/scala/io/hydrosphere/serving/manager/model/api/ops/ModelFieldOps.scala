@@ -51,14 +51,19 @@ trait ModelFieldOps {
 
 object ModelFieldOps {
   def merge(inputs: Seq[ModelField], inputs1: Seq[ModelField]): Seq[ModelField] = {
-    inputs.zip(inputs1).flatMap {
-      case (in1, in2) =>
-        if (in1.fieldName == in2.fieldName) {
-          val merged = merge(in1, in2).getOrElse(throw new IllegalArgumentException(s"$in1 and $in2 aren't mergeable"))
-          List(merged)
-        } else {
-          List(in1, in2)
-        }
+    (inputs, inputs1) match {
+      case (Nil, x) => x
+      case (x, Nil) => x
+      case (x, y) if x == y => x
+      case _ => inputs.zip(inputs1).flatMap {
+        case (in1, in2) =>
+          if (in1.fieldName == in2.fieldName) {
+            val merged = merge(in1, in2).getOrElse(throw new IllegalArgumentException(s"$in1 and $in2 aren't mergeable"))
+            List(merged)
+          } else {
+            List(in1, in2)
+          }
+      }
     }
   }
 

@@ -91,11 +91,12 @@ class ManagerServices(
   )
 
   val applicationManagementService: ApplicationManagementService = new ApplicationManagementServiceImpl(
-    runtimeMeshConnector,
-    managerRepositories.applicationRepository,
-    serviceManagementService,
-    servingMeshGrpcClient,
-    internalManagerEventsPublisher
+    runtimeMeshConnector = runtimeMeshConnector,
+    applicationRepository = managerRepositories.applicationRepository,
+    serviceManagementService = serviceManagementService,
+    grpcClient = servingMeshGrpcClient,
+    internalManagerEventsPublisher = internalManagerEventsPublisher,
+    modelVersionRepository = managerRepositories.modelVersionRepository
   )
 
   val envoyGRPCDiscoveryService: EnvoyGRPCDiscoveryService = new EnvoyGRPCDiscoveryServiceImpl(

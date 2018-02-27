@@ -99,7 +99,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 WeightedService(
                   ServiceKeyDescription(
                     runtimeId = 1,
-                    modelVersionId = Some(1),
+                    modelVersionId = Some(version.id),
                     environmentId = None
                   ),
                   weight = 50,
@@ -108,19 +108,18 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 WeightedService(
                   ServiceKeyDescription(
                     runtimeId = 1,
-                    modelVersionId = Some(1),
+                    modelVersionId = Some(version.id),
                     environmentId = None
                   ),
                   weight = 50,
                   signature = version.modelContract.signatures.find(_.signatureName == "default_spark")
                 )
               ),
-              version.modelContract.signatures.find(_.signatureName == "default_spark")
+              version.modelContract.signatures.find(_.signatureName == "default_spark").map(_.withSignatureName("0"))
             )
           )
         )
         assert(app.name === appRequest.name)
-        assert(app.contract === version.modelContract)
         assert(app.executionGraph === expectedGraph)
       }
     }
