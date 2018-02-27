@@ -10,7 +10,11 @@ trait IsolatedDockerAccessIT extends AsyncWordSpecLike with BeforeAndAfterAll wi
 
   override protected def afterAll(): Unit = {
     logger.info("Cleaning up images and containers.")
-    dockerClient.close()
+    dockerClient.clear()
     super.beforeAll()
+  }
+
+  sys.addShutdownHook{
+    dockerClient.clear()
   }
 }

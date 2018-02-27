@@ -10,12 +10,9 @@ import io.hydrosphere.serving.manager.service.modelsource.{FileCreated, FileDele
 
 import scala.collection.JavaConversions._
 
-/**
-  *
-  */
 class S3SourceWatcherActor(val source: S3ModelSource) extends SourceWatcherActor {
   private val sourceDef = source.sourceDef
-  override def onWatcherTick(): List[FileEvent] = {
+  override def onWatcherTick(): Seq[FileEvent] = {
     val messages = sourceDef
       .sqsClient
       .receiveMessage(sourceDef.queue)
@@ -34,13 +31,13 @@ class S3SourceWatcherActor(val source: S3ModelSource) extends SourceWatcherActor
             log.debug(s"ObjectRemoved: ${info.objKey}")
             if (info.objKey.endsWith("/")) {
               val files = source.cacheSource.getAllFiles(info.objKey).map { f =>
-                new FileDeleted(source, info.objKey + f, Instant.now())
+                FileDeleted(source, info.objKey + f, Instant.now())
               }
               source.deleteProxyObject(info.objKey)
               files
             } else {
               source.deleteProxyObject(info.objKey)
-              List(new FileDeleted(source, info.objKey, Instant.now()))
+              List(FileDeleted(source, info.objKey, Instant.now()))
             }
           case "ObjectCreated" =>
             log.debug(s"ObjectCreated: ${info.objKey}")
@@ -53,7 +50,7 @@ class S3SourceWatcherActor(val source: S3ModelSource) extends SourceWatcherActor
                   .asByteSource(file)
                   .hash(Hashing.sha256())
                   .toString
-                new FileCreated(source, fullpath, Instant.now(), hash, info.eventTime)
+                FileCreated(source, fullpath, Instant.now(), hash, info.eventTime)
               }
             } else {
               source.deleteProxyObject(info.objKey)
@@ -62,7 +59,7 @@ class S3SourceWatcherActor(val source: S3ModelSource) extends SourceWatcherActor
                 .asByteSource(file)
                 .hash(Hashing.sha256())
                 .toString
-              List(new FileCreated(source, info.objKey, Instant.now(), hash, info.eventTime))
+              List(FileCreated(source, info.objKey, Instant.now(), hash, info.eventTime))
             }
         }
         sourceDef.sqsClient.deleteMessage(sourceDef.queue, message.getReceiptHandle)
