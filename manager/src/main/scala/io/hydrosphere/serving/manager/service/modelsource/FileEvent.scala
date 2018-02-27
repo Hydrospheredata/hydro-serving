@@ -2,16 +2,40 @@ package io.hydrosphere.serving.manager.service.modelsource
 
 import java.time.{Instant, LocalDateTime}
 
-abstract class FileEvent(val source: ModelSource, val filename: String, val timestamp: Instant)
+trait WatcherEvent {
+  def source: ModelSource
+  def timestamp: Instant
+}
 
-class FileDetected(source: ModelSource, filename: String, timestamp: Instant, val hash: String)
-  extends FileEvent(source, filename, timestamp)
+trait FileEvent extends WatcherEvent {
+  def filename: String
+}
 
-class FileDeleted(source: ModelSource, filename: String, timestamp: Instant)
-  extends FileEvent(source, filename, timestamp)
+case class FileDetected(
+  source: ModelSource,
+  filename: String,
+  timestamp: Instant,
+  hash: String
+) extends FileEvent
 
-class FileCreated(source: ModelSource, filename: String, timestamp: Instant, val hash: String, val createdAt: LocalDateTime)
-  extends FileEvent(source, filename, timestamp)
+case class FileDeleted(
+  source: ModelSource,
+  filename: String,
+  timestamp: Instant
+) extends FileEvent
 
-class FileModified(source: ModelSource, filename: String, timestamp: Instant, val hash: String, val updatedAt: LocalDateTime)
-  extends FileEvent(source, filename, timestamp)
+case class FileCreated(
+  source: ModelSource,
+  filename: String,
+  timestamp: Instant,
+  hash: String,
+  createdAt: LocalDateTime
+) extends FileEvent
+
+case class FileModified(
+  source: ModelSource,
+  filename: String,
+  timestamp: Instant,
+  hash: String,
+  updatedAt: LocalDateTime
+) extends FileEvent

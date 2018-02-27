@@ -72,6 +72,10 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     managerServices.sourceManagementService.addSource(
       ModelSourceConfig(1, "itsource", LocalSourceParams(getClass.getResource("/models").getPath)).toAux
     )
-    indexProbe.expectMsg(15.seconds, RepositoryIndexActor.IndexFinished("dummy_model", "itsource"))
+    indexProbe.expectMsgAllOf(
+      20.seconds,
+      RepositoryIndexActor.IndexFinished("dummy_model", "itsource"),
+      RepositoryIndexActor.IndexFinished("dummy_model_2", "itsource")
+    )
   }
 }

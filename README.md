@@ -63,7 +63,8 @@ Additional out of the box features include Rate limiting, Load balancing, Circui
  * Sidecar implementation: https://github.com/Hydrospheredata/hydro-serving-sidecar
  * Example models: https://github.com/Hydrospheredata/hydro-serving-runtime/tree/master/models
     
-
+## Developer docs
+Developer documentation is [here](/docs/docs_main.md).
 
 ## How to launch demo
 
@@ -71,10 +72,10 @@ Additional out of the box features include Rate limiting, Load balancing, Circui
 #### Clone repositories
 
 ```
-#Sidecar + manager + gateway + dummy runtime 
+#Sidecar + manager + dummy runtime 
 git clone https://github.com/Hydrospheredata/hydro-serving
 
-#ML Runtimes + ML models repository
+# example ML models repository
 git clone https://github.com/Hydrospheredata/hydro-serving-runtime
 ```
 
@@ -91,8 +92,8 @@ export MODEL_DIRECTORY=/path/to/hydro-serving-runtime/models
 docker-compose up
 ```
 ##### Other variants
-- [Development environment](docs/deployment/depoyment_dev.md)
-- [Docker Compose (with Full Description)](docs/deployment/depoyment_docker_compose.md)
+- [Development environment](docs/deployment/deployment_dev.md)
+- [Docker Compose (with Full Description)](docs/deployment/deployment_docker_compose.md)
 
 ### Available Resources
 * http://localhost:8080/swagger/swagger-ui.html - Manager
