@@ -171,7 +171,7 @@ services:
       driver: gelf
       options:
         gelf-address: "udp://172.16.0.38:12201"
-        labels: "zipkin"
+        labels: "postgres"
 
   grafana:
     image: grafana/grafana:4.6.3
@@ -198,9 +198,10 @@ services:
     image: ${manager_image}:${manager_version}
     container_name: manager
     ports:
-      - "9090:9090"
+      - "9091:9090"
     networks:
       - hydronet
+      - extnet
     depends_on:
       - postgres
       - sidecar
@@ -208,9 +209,14 @@ services:
       - "ADVERTISED_MANAGER_HOST=manager"
       - "ADVERTISED_MANAGER_PORT=9091"
       - "DATABASE_HOST=postgres"
-      - "LOCAL_MODEL_PATH=/models"
       - "SIDECAR_HOST=sidecar"
       - "NETWORK_NAME=demo_hydronet"
+      - "AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}"
+      - "AWS_SECRET_KEY=${AWS_SECRET_KEY}"
+      - "S3_MODEL_REGION=${S3_MODEL_REGION}"
+      - "S3_MODEL_BUCKET=${S3_MODEL_BUCKET}"
+      - "S3_MODEL_QUEUE=${S3_MODEL_QUEUE}"
+      - "S3_MODEL_PATH=/models"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ${MODEL_DIRECTORY}:/models
@@ -219,7 +225,6 @@ services:
       options:
         gelf-address: "udp://172.16.0.38:12201"
         labels: "manager"
-
 
   sidecar:
     image: ${sidecar_image}:${sidecar_version}
@@ -256,6 +261,24 @@ services:
       options:
         gelf-address: "udp://172.16.0.38:12201"
         labels: "managerui"
+
+  tensorflow:
+    image: tensorflow/tensorflow:latest-py3
+    container_name: tensorflow
+    ports:
+      - "8888:8888"
+    networks:
+      - extnet
+      - hydronet
+    environment:
+      - PASSWORD=${tensorflow_password}"
+    volumes:
+      - ./noteboks/:/notebooks
+    logging:
+      driver: gelf
+      options:
+        gelf-address: "udp://172.16.0.38:12201"
+        labels: "tensorflow"
 
 networks:
   hydronet:
