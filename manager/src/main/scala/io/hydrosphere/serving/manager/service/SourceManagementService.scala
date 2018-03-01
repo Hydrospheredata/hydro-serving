@@ -31,6 +31,8 @@ trait SourceManagementService {
   def createWatchers: Future[Seq[ActorRef]]
 
   def allSourceConfigs: Future[Seq[ModelSourceConfigAux]]
+
+  def getSource(name: String): Future[Option[ModelSource]]
 }
 
 class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, sourceRepository: SourceConfigRepository)
@@ -118,6 +120,12 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
   override def allSourceConfigs: Future[Seq[ModelSourceConfigAux]] = {
     sourceRepository.all().map { dbSources =>
       managerConfiguration.modelSources ++ dbSources
+    }
+  }
+
+  override def getSource(name: String): Future[Option[ModelSource]] = {
+    sourceRepository.get(name).map { maybeSource =>
+      maybeSource.map(ModelSource.fromConfig)
     }
   }
 }

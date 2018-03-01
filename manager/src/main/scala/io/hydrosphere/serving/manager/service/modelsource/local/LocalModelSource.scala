@@ -48,7 +48,12 @@ class LocalModelSource(val sourceDef: LocalSourceDef) extends ModelSource {
     Files.exists(requestedPath)
   }
 
-  override def writeFile(path: String, localFile: File): Path = {
-    Files.copy(localFile.toPath, getAbsolutePath(path))
+  override def writeFile(path: String, localFile: File) = {
+    val destPath = getAbsolutePath(path)
+    val parentPath = destPath.getParent
+    if (!Files.exists(parentPath)) {
+      Files.createDirectories(parentPath)
+    }
+    Files.copy(localFile.toPath, destPath, StandardCopyOption.REPLACE_EXISTING)
   }
 }
