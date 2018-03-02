@@ -217,6 +217,7 @@ services:
       - "S3_MODEL_BUCKET=${S3_MODEL_BUCKET}"
       - "S3_MODEL_QUEUE=${S3_MODEL_QUEUE}"
       - "S3_MODEL_PATH=/models"
+      - "LOCAL_MODEL_PATH=/models"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ${MODEL_DIRECTORY}:/models
