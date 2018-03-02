@@ -12,11 +12,11 @@ class WatcherRegistryActor extends Actor with ActorLogging {
     case ListWatchers =>
       watchers.toMap
     case AddWatcher(source) =>
-      log.info(s"Creating Watcher for ${source.sourceDef.prefix}")
+      log.info(s"Creating Watcher for ${source.sourceDef.name}")
       val origin = sender()
       val watcherRef = watchers.getOrElseUpdate(
-        source.sourceDef.prefix,
-        context.actorOf(SourceWatcherActor.props(source), s"Watcher@${source.sourceDef.prefix}")
+        source.sourceDef.name,
+        context.actorOf(SourceWatcherActor.props(source), s"Watcher@${source.sourceDef.name}")
       )
       origin ! watcherRef
   }

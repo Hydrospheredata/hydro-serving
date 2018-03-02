@@ -5,7 +5,7 @@ import java.time.{Instant, LocalDateTime}
 import akka.testkit.TestProbe
 import io.hydrosphere.serving.manager.model.{LocalSourceParams, Model, ModelSourceConfig}
 import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
-import io.hydrosphere.serving.manager.service.modelsource.{FileCreated, FileDetected}
+import io.hydrosphere.serving.manager.service.modelsource.events.FileCreated
 import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceDef}
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
 import org.scalatest.BeforeAndAfterAll

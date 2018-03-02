@@ -6,9 +6,6 @@ import java.nio.file._
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.manager.util.FileUtils._
 
-/**
-  *
-  */
 class LocalModelSource(val sourceDef: LocalSourceDef) extends ModelSource {
   val sourceFile = new File(sourceDef.path.toString)
 
@@ -49,5 +46,14 @@ class LocalModelSource(val sourceDef: LocalSourceDef) extends ModelSource {
   override def isExist(path: String): Boolean = {
     val requestedPath = Paths.get(sourceDef.path.toString, path)
     Files.exists(requestedPath)
+  }
+
+  override def writeFile(path: String, localFile: File) = {
+    val destPath = getAbsolutePath(path)
+    val parentPath = destPath.getParent
+    if (!Files.exists(parentPath)) {
+      Files.createDirectories(parentPath)
+    }
+    Files.copy(localFile.toPath, destPath, StandardCopyOption.REPLACE_EXISTING)
   }
 }

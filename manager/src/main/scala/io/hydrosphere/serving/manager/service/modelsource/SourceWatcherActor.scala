@@ -6,6 +6,7 @@ import akka.actor.{Actor, ActorLogging, Props}
 import akka.util.Timeout
 import com.google.common.hash.Hashing
 import io.hydrosphere.serving.manager.service.modelsource.SourceWatcherActor.Tick
+import io.hydrosphere.serving.manager.service.modelsource.events.{FileDetected, FileEvent}
 import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceWatcherActor}
 import io.hydrosphere.serving.manager.service.modelsource.s3.{S3ModelSource, S3SourceWatcherActor}
 

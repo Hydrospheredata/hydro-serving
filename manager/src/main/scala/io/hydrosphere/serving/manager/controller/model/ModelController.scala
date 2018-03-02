@@ -1,22 +1,32 @@
 package io.hydrosphere.serving.manager.controller.model
 
+import java.nio.file.{Files, OpenOption, StandardOpenOption}
 import javax.ws.rs.Path
 
+import akka.actor.ActorSystem
+import akka.http.scaladsl.marshalling.ToResponseMarshallable
+import akka.http.scaladsl.model.{HttpResponse, Multipart, StatusCodes}
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
+import akka.stream.ActorMaterializer
+import akka.stream.scaladsl.FileIO
 import akka.util.Timeout
+import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.controller.ServingDataDirectives
+import io.hydrosphere.serving.manager.controller.model.UploadedEntity._
 import io.hydrosphere.serving.manager.model.CommonJsonSupport._
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.description.ContractDescription
 import io.hydrosphere.serving.manager.service.{AggregatedModelInfo, CreateModelVersionRequest, CreateOrUpdateModelRequest, ModelManagementService}
 import io.swagger.annotations._
 
+import scala.concurrent.{ExecutionContext, Future}
 import scala.concurrent.duration._
 
 @Path("/api/v1/model")
 @Api(produces = "application/json", tags = Array("Model and Model Versions"))
 class ModelController(modelManagementService: ModelManagementService)
+  (implicit system: ActorSystem,  materializer: ActorMaterializer, executionContext: ExecutionContext)
   extends ServingDataDirectives {
   implicit val timeout = Timeout(10.minutes)
 
@@ -59,13 +69,69 @@ class ModelController(modelManagementService: ModelManagementService)
   ))
   def addModel = path("api" / "v1" / "model") {
     post {
-      entity(as[CreateOrUpdateModelRequest]) { r =>
-        complete(
-          modelManagementService.createModel(r)
-        )
+      entity(as[Multipart.FormData]) { (formdata: Multipart.FormData) ⇒
+        val fileNamesFuture = formdata.parts.flatMapConcat { p ⇒
+          logger.debug(s"Got part. Name: ${p.name} Filename: ${p.filename}")
+          p.name match {
+            case "model_type" if p.filename.isEmpty =>
+              p.entity.dataBytes
+                .map(_.decodeString("UTF-8"))
+                .map(r => ModelType(modelType = r))
+
+            case "target_source" if p.filename.isEmpty =>
+              p.entity.dataBytes
+                .map(_.decodeString("UTF-8"))
+                .map(r => TargetSource(source = r))
+
+            case "model_contract" if p.filename.isEmpty =>
+              p.entity.dataBytes
+                .map(b => ModelContract.parseFrom(b.toByteBuffer.array()))
+                .map(p => Contract(modelContract = p))
+
+            case "model_description" if p.filename.isEmpty =>
+              p.entity.dataBytes
+                .map(_.decodeString("UTF-8"))
+                .map(r => Description(description = r))
+
+            case "model_name" if p.filename.isEmpty =>
+              p.entity.dataBytes
+                .map(_.decodeString("UTF-8"))
+                .map(r => ModelName(modelName = r))
+
+            case "payload" if p.filename.isDefined =>
+              val filename = p.filename.get
+              val tempPath = Files.createTempFile("upload", filename)
+              p.entity.dataBytes
+                .map { fileBytes =>
+                  Files.write(tempPath, fileBytes.toArray, StandardOpenOption.APPEND)
+                  Tarball(path = tempPath)
+                }
+            case _ =>
+              logger.warn(s"Unknown part. Name: ${p.name} Filename: ${p.filename}")
+              p.entity.dataBytes.map { _ =>
+                UnknownPart(p.name)
+              }
+          }
+        }
+        val dicts = fileNamesFuture.runFold(Map.empty[String, UploadedEntity]) {
+          case (a, b) => a + (b.name -> b)
+        }
+
+        def uploadModel(): Future[Option[Model]] = {
+          dicts.map(ModelUpload.fromMap).flatMap {
+            case Some(upload) => modelManagementService.uploadModelTarball(upload)
+            case None => Future.successful(None)
+          }
+        }
+
+        onSuccess(uploadModel()) {
+          case None => complete(400, "Incorrect input data")
+          case Some(m) => complete(200, m)
+        }
       }
     }
   }
+
 
   @Path("/")
   @ApiOperation(value = "Update model", notes = "Update model", nickname = "updateModel", httpMethod = "PUT")

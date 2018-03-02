@@ -47,6 +47,8 @@ class ManagerServices(
 
   sourceManagementService.createWatchers
 
+  val repoActor: ActorRef = system.actorOf(RepositoryIndexActor.props(managerRepositories.modelRepository))
+
   val modelBuildService: ModelBuildService = new LocalModelBuildService(dockerClient, sourceManagementService)
 
   val modelPushService: ModelPushService = managerConfiguration.dockerRepository match {
@@ -62,7 +64,9 @@ class ManagerServices(
     managerRepositories.modelBuildRepository,
     managerRepositories.modelBuildScriptRepository,
     modelBuildService,
-    modelPushService
+    modelPushService,
+    sourceManagementService,
+    repoActor
   )
 
   val cloudDriverService: CloudDriverService = managerConfiguration.cloudDriver match {
@@ -114,6 +118,4 @@ class ManagerServices(
     serviceManagementService,
     applicationManagementService
   )
-
-  val repoActor: ActorRef = system.actorOf(RepositoryIndexActor.props(modelManagementService))
 }

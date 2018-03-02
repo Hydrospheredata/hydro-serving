@@ -1,19 +1,25 @@
 package io.hydrosphere.serving.manager.service
 
+import java.io.File
+import java.nio.file.{Files, Path, Paths}
 import java.time.LocalDateTime
 
+import akka.actor.ActorRef
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.model.api.{DataGenerator, ModelType}
+import io.hydrosphere.serving.manager.controller.model.UploadedEntity
+import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.description._
-import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
+import io.hydrosphere.serving.manager.model.api.ops.Implicits._
+import io.hydrosphere.serving.manager.model.api.ops.TensorProtoOps
+import io.hydrosphere.serving.manager.model.api.{DataGenerator, ModelType}
 import io.hydrosphere.serving.manager.repository._
-import spray.json.JsObject
+import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor.IgnoreModel
+import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
-import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.ops.TensorProtoOps
-import io.hydrosphere.serving.manager.model.api.ops.Implicits._
+import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.apache.logging.log4j.scala.Logging
+import spray.json.JsObject
 
 import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Failure, Success}
@@ -92,6 +98,8 @@ case class AggregatedModelInfo(
 
 
 trait ModelManagementService {
+  def uploadModelTarball(upload: UploadedEntity.ModelUpload): Future[Option[Model]]
+
   def versionContractDescription(versionId: Long): Future[Option[ContractDescription]]
 
   def modelContractDescription(modelId: Long): Future[Option[ContractDescription]]
@@ -113,8 +121,6 @@ trait ModelManagementService {
   def getModelAggregatedInfo(id: Long): Future[Option[AggregatedModelInfo]]
 
   def updateModel(entity: CreateOrUpdateModelRequest): Future[Model]
-
-  def updateModel(modelName: String, modelSource: ModelSource): Future[Option[Model]]
 
   def createModel(entity: CreateOrUpdateModelRequest): Future[Model]
 
@@ -151,7 +157,9 @@ class ModelManagementServiceImpl(
   modelBuildRepository: ModelBuildRepository,
   modelBuildScriptRepository: ModelBuildScriptRepository,
   modelBuildService: ModelBuildService,
-  modelPushService: ModelPushService
+  modelPushService: ModelPushService,
+  sourceManagementService: SourceManagementService,
+  repoActor: ActorRef
 )(
   implicit val ex: ExecutionContext
 ) extends ModelManagementService with Logging {
@@ -332,47 +340,6 @@ class ModelManagementServiceImpl(
     }
   }
 
-  override def updateModel(modelName: String, modelSource: ModelSource): Future[Option[Model]] = {
-    if (modelSource.isExist(modelName)) {
-      // model is updated
-      val modelMetadata = ModelFetcher.getModel(modelSource, modelName)
-      modelRepository.get(modelMetadata.modelName).flatMap {
-        case Some(oldModel) =>
-          val newModel = Model(
-            id = oldModel.id,
-            name = modelMetadata.modelName,
-            source = s"${modelSource.sourceDef.prefix}:${modelMetadata.modelName}",
-            modelType = modelMetadata.modelType,
-            description = None,
-            modelContract = modelMetadata.contract,
-            created = oldModel.created,
-            updated = LocalDateTime.now()
-          )
-          modelRepository.update(newModel).map(_ => Some(newModel))
-        case None =>
-          val newModel = Model(
-            id = -1,
-            name = modelMetadata.modelName,
-            source = s"${modelSource.sourceDef.prefix}:${modelMetadata.modelName}",
-            modelType = modelMetadata.modelType,
-            description = None,
-            modelContract = modelMetadata.contract,
-            created = LocalDateTime.now(),
-            updated = LocalDateTime.now()
-          )
-          modelRepository.create(newModel).map(x => Some(x))
-      }
-    } else {
-      // model is deleted
-      modelRepository.get(modelName).map { opt =>
-        opt.map { model =>
-          modelRepository.delete(model.id)
-          model
-        }
-      }
-    }
-  }
-
   override def generateModelPayload(modelId: Long, signature: String): Future[Seq[JsObject]] =
     modelRepository.get(modelId).map {
       case None => throw new IllegalArgumentException(s"Can't find model modelId=$modelId")
@@ -476,6 +443,60 @@ class ModelManagementServiceImpl(
       maybeVersion.map { version =>
         version.modelContract.flatten
       }
+    }
+  }
+
+  def writeFilesToSource(source: ModelSource, files: Map[Path, Path]) = {
+    files.foreach {
+      case (src, dest) =>
+        source.writeFile(dest.toString, src.toFile)
+    }
+  }
+
+
+  def uploadToSource(upload: UploadedEntity.ModelUpload): Future[Option[CreateOrUpdateModelRequest]] = {
+    val fMaybeSource = upload.source match {
+      case Some(sourceName) => sourceManagementService.getSource(sourceName)
+      case None => sourceManagementService.getSources.map(_.headOption)
+    }
+    fMaybeSource.map { maybeSource =>
+      maybeSource.map { source =>
+        val unpackDir = Files.createTempDirectory(upload.name)
+        val rootDir = Paths.get(upload.name)
+        val uploadedFiles = TarGzUtils.decompress(upload.tarballPath, unpackDir)
+        val localFiles = uploadedFiles
+          .filter(_.startsWith(unpackDir))
+          .map { path =>
+            val relPath = unpackDir.relativize(path)
+            path -> rootDir.resolve(relPath)
+          }
+          .toMap
+
+        repoActor ! IgnoreModel(upload.name) // Add model name to blacklist to ignore watcher events
+
+        writeFilesToSource(source, localFiles)
+        CreateOrUpdateModelRequest(
+          id = None,
+          name = upload.name,
+          source = source.sourceDef.name,
+          modelType = ModelType.fromTag(upload.modelType),
+          description = upload.description,
+          modelContract = upload.contract
+        )
+      }
+    }
+  }
+
+
+  override def uploadModelTarball(upload: UploadedEntity.ModelUpload): Future[Option[Model]] = {
+    uploadToSource(upload).flatMap {
+      case Some(request) =>
+        val res = modelRepository.get(upload.name).flatMap {
+          case Some(model) => updateModel(request.copy(id = Some(model.id), source = model.source))
+          case None => createModel(request)
+        }
+        res.map(Some(_))
+      case None => Future.successful(None)
     }
   }
 }

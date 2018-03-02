@@ -6,20 +6,17 @@ import java.nio.file._
 import java.nio.file.attribute.BasicFileAttributes
 
 import scala.collection.JavaConversions._
-
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceDef}
+import io.hydrosphere.serving.manager.service.modelsource.s3.S3ModelSource.RecursiveRemover
 import org.apache.logging.log4j.scala.Logging
 
-/**
-  *
-  */
 class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging {
   private[this] val localFolder = s"/tmp/${sourceDef.name}"
   private val client = sourceDef.s3Client
 
   val cacheSource = new LocalModelSource(
-    LocalSourceDef(s"proxy-${sourceDef.name}", localFolder)
+    LocalSourceDef(s"s3-proxy-${sourceDef.name}", localFolder)
   )
 
   val proxyFolder: Path = Paths.get(localFolder)
@@ -27,21 +24,7 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
   def deleteProxyObject(objectPath: String): Boolean = {
     val path = Paths.get(localFolder, objectPath)
     if (Files.exists(path) && Files.isDirectory(path)) {
-      Files.walkFileTree(path, new FileVisitor[Path] {
-        def visitFileFailed(file: Path, exc: IOException) = FileVisitResult.CONTINUE
-
-        def visitFile(file: Path, attrs: BasicFileAttributes): FileVisitResult = {
-          Files.delete(file)
-          FileVisitResult.CONTINUE
-        }
-
-        def preVisitDirectory(dir: Path, attrs: BasicFileAttributes) = FileVisitResult.CONTINUE
-
-        def postVisitDirectory(dir: Path, exc: IOException): FileVisitResult = {
-          Files.delete(dir)
-          FileVisitResult.CONTINUE
-        }
-      })
+      Files.walkFileTree(path, new RecursiveRemover())
     }
     Files.deleteIfExists(path)
   }
@@ -96,7 +79,7 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
       .listObjects(sourceDef.bucket, folder)
       .getObjectSummaries
       .map(_.getKey)
-      .filterNot(_.endsWith("/")) // fix w2v/stages/0_w2v_617dd94f64cf/data/
+      .filterNot(_.endsWith("/"))
     logger.debug(s"modelKeys=$modelKeys")
     modelKeys
       .map(URI.create)
@@ -133,4 +116,34 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
       client.listObjects(sourceDef.bucket, path).getObjectSummaries.nonEmpty
     }
   }
+
+  override def writeFile(path: String, localFile: File): Unit = {
+    client.putObject(sourceDef.bucket, path, localFile)
+  }
+}
+
+object S3ModelSource {
+
+  class RecursiveRemover extends FileVisitor[Path] with Logging {
+    def visitFileFailed(file: Path, exc: IOException) = {
+      logger.warn(s"Error while visiting file: ${exc.getMessage}")
+      FileVisitResult.CONTINUE
+    }
+
+    def visitFile(file: Path, attrs: BasicFileAttributes): FileVisitResult = {
+      Files.delete(file)
+      FileVisitResult.CONTINUE
+    }
+
+    def preVisitDirectory(dir: Path, attrs: BasicFileAttributes) = FileVisitResult.CONTINUE
+
+    def postVisitDirectory(dir: Path, exc: IOException): FileVisitResult = {
+      Option(exc).foreach { ex =>
+        logger.warn(s"Error in post visiting directory: ${ex.getMessage}")
+      }
+      Files.delete(dir)
+      FileVisitResult.CONTINUE
+    }
+  }
+
 }

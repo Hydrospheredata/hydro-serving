@@ -6,9 +6,7 @@ import io.hydrosphere.serving.manager.service.modelsource.SourceDef
 case class LocalSourceDef(
   name: String,
   path: String
-) extends SourceDef {
-  override def prefix:String = name
-}
+) extends SourceDef
 
 object LocalSourceDef{
   def fromConfig(localModelSourceConfiguration: ModelSourceConfig[LocalSourceParams]): LocalSourceDef =
