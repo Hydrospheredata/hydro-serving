@@ -263,6 +263,33 @@ services:
         gelf-address: "udp://172.16.0.38:12201"
         labels: "managerui"
 
+kafka_serving:
+    image: hydrosphere/serving-kafka-gateway:latest
+    container_name: serving-kafka-gateway
+    networks:
+      - extnet
+      - hydronet
+    links:
+      - kafka
+      - sidecar
+      - manager
+    ports:
+      - "9091:9091"
+    depends_on:
+      - sidecar
+      - kafka
+      - manager
+    command: ["/app/wait-for-manager.sh", "sidecar", "8081", "/app/start.sh"]
+    environment:
+      - "SIDECAR_INGRESS_PORT=8080"
+      - "SIDECAR_EGRESS_PORT=8081"
+      - "SIDECAR_ADMIN_PORT=8082"
+      - "SIDECAR_HOST=sidecar"
+      - "KAFKA_HOST=kafka"
+      - "KAFKA_PORT=9092"
+      - "APP_ID=hydro-serving-kafka"
+      - "APP_PORT=9091"
+
   tensorflow:
     image: tensorflow/tensorflow:latest-py3
     container_name: tensorflow

@@ -244,14 +244,14 @@ class LocalCloudDriverService(
 
   private def fetchById(serviceId: Long): CloudService = {
     serviceId match {
-      case CloudDriverService.GATEWAY_ID =>
+      case CloudDriverService.GATEWAY_HTTP_ID =>
         //TODO add gateway
         createSystemCloudService(
-          CloudDriverService.GATEWAY_NAME,
-          CloudDriverService.GATEWAY_ID,
+          CloudDriverService.GATEWAY_HTTP_NAME,
+          CloudDriverService.GATEWAY_HTTP_ID,
           managerConfiguration.advertised.advertisedHost,
           managerConfiguration.advertised.advertisedPort,
-          "hydrosphere/serving-manager"
+          "hydrosphere/serving-gateway"
         )
       case CloudDriverService.MANAGER_ID =>
         createManagerCloudService()

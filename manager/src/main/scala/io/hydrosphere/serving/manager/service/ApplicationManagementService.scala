@@ -1,15 +1,17 @@
 package io.hydrosphere.serving.manager.service
 
+import io.grpc.Context
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.connector._
+import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, KafkaTopicServerInterceptor}
+import io.hydrosphere.serving.manager.ApplicationConfig
 import io.hydrosphere.serving.manager.controller.application._
-import io.hydrosphere.serving.manager.grpc.manager.AuthorityReplacerInterceptor
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.DataGenerator
 import io.hydrosphere.serving.manager.model.api.ops.{ModelSignatureOps, TensorProtoOps}
 import io.hydrosphere.serving.manager.model.api.validation.SignatureValidator
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelVersionRepository}
+import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService
 import io.hydrosphere.serving.tensorflow.api.model.ModelSpec
 import io.hydrosphere.serving.tensorflow.api.predict.{PredictRequest, PredictResponse}
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
@@ -24,6 +26,11 @@ case class ServiceWithSignature(s: Service, signatureName: String)
 case class ExecutionStep(
   serviceName: String,
   serviceSignature: String
+)
+
+case class ExecutionUnit(
+  serviceName: String,
+  servicePath: String
 )
 
 trait ApplicationManagementService {
@@ -45,18 +52,43 @@ trait ApplicationManagementService {
 }
 
 class ApplicationManagementServiceImpl(
-  runtimeMeshConnector: RuntimeMeshConnector,
   applicationRepository: ApplicationRepository,
   modelVersionRepository: ModelVersionRepository,
   serviceManagementService: ServiceManagementService,
   grpcClient: PredictionServiceGrpc.PredictionServiceStub,
-  internalManagerEventsPublisher: InternalManagerEventsPublisher
+  internalManagerEventsPublisher: InternalManagerEventsPublisher,
+  applicationConfig: ApplicationConfig
 )(implicit val ex: ExecutionContext) extends ApplicationManagementService with Logging {
+
+  //TODO REMOVE!
+  def sendToDebug(request: PredictResponse, predictRequest: PredictRequest): Unit = {
+    if(applicationConfig.shadowingOn){
+      val req=PredictRequest(
+        modelSpec=predictRequest.modelSpec,
+        inputs=request.outputs
+      )
+
+      grpcClient
+        .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, CloudDriverService.GATEWAY_KAFKA_NAME)
+        .withOption(KafkaTopicServerInterceptor.KAFKA_TOPIC_KEY, "shadow_topic") //TODO where can i get this
+        .predict(req)
+        .onComplete({
+          case Failure(thr)=>
+            logger.error("Can't send message to GATEWAY_KAFKA", thr)
+          case _=>
+            Unit
+        })
+    }
+  }
 
   def serve(unit: ExecutionUnit, request: PredictRequest): Future[PredictResponse] = {
     grpcClient
       .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, unit.serviceName)
       .predict(request)
+      .map(r => {
+        sendToDebug(r, request)
+        r
+      })
   }
 
   def servePipeline(units: Seq[ExecutionUnit], data: PredictRequest): Future[PredictResponse] = {
@@ -289,7 +321,7 @@ class ApplicationManagementServiceImpl(
     }
   }
 
-  private def inferGraph(executionGraphRequest: ExecutionGraphRequest) : Future[ApplicationExecutionGraph] = {
+  private def inferGraph(executionGraphRequest: ExecutionGraphRequest): Future[ApplicationExecutionGraph] = {
     val appStages =
       executionGraphRequest.stages match {
         case singleStage :: Nil if singleStage.services.lengthCompare(1) == 0 =>

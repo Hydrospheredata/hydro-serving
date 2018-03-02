@@ -4,6 +4,7 @@
 
 #[ -z "$APP_HTTP_PORT" ] && APP_HTTP_PORT="9090"
 #[ -z "$APP_PORT" ] && APP_PORT="9091"
+[ -z "$APP_SHADOWING_ON" ] && APP_SHADOWING_ON="false"
 [ -z "$SIDECAR_INGRESS_PORT" ] && SIDECAR_INGRESS_PORT="8080"
 [ -z "$SIDECAR_EGRESS_PORT" ] && SIDECAR_EGRESS_PORT="8081"
 [ -z "$SIDECAR_ADMIN_PORT" ] && SIDECAR_ADMIN_PORT="8082"
@@ -24,7 +25,7 @@
 
 JAVA_OPTS="-Xmx$JAVA_XMX -Xms$JAVA_XMX"
 
-APP_OPTS="-Dapplication.grpcPort=9091 -Dapplication.port=9090 -Dsidecar.adminPort=$SIDECAR_ADMIN_PORT -Dsidecar.ingressPort=$SIDECAR_INGRESS_PORT -Dsidecar.egressPort=$SIDECAR_EGRESS_PORT -Dsidecar.host=$SIDECAR_HOST"
+APP_OPTS="-Dapplication.grpcPort=9091 -Dapplication.port=9090 -Dapplication.shadowingOn=$APP_SHADOWING_ON -Dsidecar.adminPort=$SIDECAR_ADMIN_PORT -Dsidecar.ingressPort=$SIDECAR_INGRESS_PORT -Dsidecar.egressPort=$SIDECAR_EGRESS_PORT -Dsidecar.host=$SIDECAR_HOST"
 
 if [ "$GELF_HOST" = "" ]
 then
