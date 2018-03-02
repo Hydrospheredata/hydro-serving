@@ -14,7 +14,7 @@ class ManagerGrpcApi(
 )(implicit ec: ExecutionContext) extends PredictionService with Logging {
 
   override def predict(request: PredictRequest): Future[PredictResponse] = {
-    logger.info(request)
+    logger.debug(request)
     request.modelSpec match {
       case Some(modelSpec) =>
         managerServices.applicationManagementService.serveGrpcApplication(request)

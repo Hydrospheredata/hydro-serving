@@ -253,7 +253,7 @@ class ModelManagementServiceImpl(
       }
 
   private def fetchScriptForModel(model: Model): Future[String] =
-    modelBuildScriptRepository.get(model.name).flatMap {
+    modelBuildScriptRepository.get(model.modelType.toTag).flatMap {
       case Some(script) => Future.successful(script.script)
       case None => Future.successful(
         """FROM busybox:1.28.0

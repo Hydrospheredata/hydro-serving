@@ -34,7 +34,7 @@ class RepositoryIndexActor(modelRepository: ModelRepository)
     case e: FileEvent =>
       val modelName = e.filename.split("/").head
       if (!blacklist.contains(modelName)) {
-        log.info(s"[${e.source.sourceDef.name}] Detected a modification of $modelName model ...")
+        log.debug(s"[${e.source.sourceDef.name}] Detected a modification of $modelName model ...")
         queues += modelName -> e
       }
   }
@@ -54,7 +54,7 @@ class RepositoryIndexActor(modelRepository: ModelRepository)
         queues -= modelName
         updateModel(modelName, event.source).foreach { maybeModel =>
           context.system.eventStream.publish(IndexFinished(modelName, event.source.sourceDef.name))
-          log.info(s"${maybeModel.map(_.name)} is updated")
+          log.debug(s"${maybeModel.map(_.name)} is updated")
         }
     }
   }
