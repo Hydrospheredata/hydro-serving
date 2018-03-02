@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service
 
 import akka.testkit.TestProbe
-import io.hydrosphere.serving.manager.controller.application.{CreateApplicationRequest, ExecutionGraphRequest, ExecutionStepRequest, SimpleServiceDescription}
+import io.hydrosphere.serving.manager.controller.application._
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
@@ -60,6 +60,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         assert(app.executionGraph === expectedGraph)
       }
     }
+
     "create a multi-service stage" in {
       for {
         version <- managerServices.modelManagementService.buildModel(1, None)
@@ -121,6 +122,51 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         )
         assert(app.name === appRequest.name)
         assert(app.executionGraph === expectedGraph)
+      }
+    }
+
+    "create and update an application with kafkaStreaming" in {
+      for {
+        version <- managerServices.modelManagementService.buildModel(1, None)
+        appRequest = CreateApplicationRequest(
+          name = "kafka_app",
+          executionGraph = ExecutionGraphRequest(
+            stages = List(
+              ExecutionStepRequest(
+                services = List(
+                  SimpleServiceDescription(
+                    runtimeId = 1, // dummy runtime id
+                    modelVersionId = Some(version.id),
+                    environmentId = None,
+                    weight = 100,
+                    signatureName = "default"
+                  )
+                )
+              )
+            )
+          ),
+          kafkaStreaming = List(
+            ApplicationKafkaStream(
+              sourceTopic = "source",
+              destinationTopic = "dest",
+              consumerId = None,
+              errorTopic = None
+            )
+          )
+        )
+        app <- managerServices.applicationManagementService.createApplication(appRequest)
+        appUpdate = UpdateApplicationRequest(
+          id = app.id,
+          name = app.name,
+          executionGraph = appRequest.executionGraph,
+          kafkaStream = None
+        )
+        appNew <- managerServices.applicationManagementService.updateApplication(appUpdate)
+        maybeGotNewApp <- managerServices.applicationManagementService.getApplication(appNew.id)
+      } yield {
+        assert(maybeGotNewApp.isDefined, "Couldn't find updated application in repository")
+        assert(appNew === maybeGotNewApp.get)
+        assert(appNew.kafkaStreaming.isEmpty, appNew)
       }
     }
   }
