@@ -62,13 +62,15 @@ class ApplicationRepositoryImpl(
     } yield (
       serv.applicationName,
       serv.executionGraph,
-      serv.servicesInStage
+      serv.servicesInStage,
+      serv.kafkaStreams
     )
 
     db.run(query.update(
       value.name,
       value.executionGraph.toJson.toString(),
-      getServices(value.executionGraph)
+      getServices(value.executionGraph),
+      value.kafkaStreaming.map(_.toJson.toString)
     ))
   }
 
