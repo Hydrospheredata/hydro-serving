@@ -30,7 +30,12 @@ abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUr
   private val sentRequest = new AtomicLong(1)
 
   protected def send(discoveryResponse: DiscoveryResponse, stream: StreamObserver[DiscoveryResponse]): Unit = {
-    val t = Try(stream.onNext(discoveryResponse))
+    val t = Try({
+      stream.synchronized{
+        //TODO quick fix - wrong fix, need to refactor ...DSActors
+        stream.onNext(discoveryResponse)
+      }
+    })
     t match {
       case Failure(e) =>
         log.error("Can't send message to {}, error {}:", stream, e)
