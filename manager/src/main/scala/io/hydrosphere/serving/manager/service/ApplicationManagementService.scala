@@ -64,7 +64,7 @@ class ApplicationManagementServiceImpl(
   type FutureMap[T] = Future[Map[Long, T]]
 
   //TODO REMOVE!
-  def sendToDebug(request: PredictResponse, predictRequest: PredictRequest): Unit = {
+  private def sendToDebug(request: PredictResponse, predictRequest: PredictRequest): Unit = {
     if(applicationConfig.shadowingOn){
       val req=PredictRequest(
         modelSpec=predictRequest.modelSpec,
@@ -88,6 +88,10 @@ class ApplicationManagementServiceImpl(
     grpcClient
       .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, unit.serviceName)
       .predict(request)
+      .map(s=>{
+        sendToDebug(s, request)
+        s
+      })
   }
 
   def servePipeline(units: Seq[ExecutionUnit], data: PredictRequest): Future[PredictResponse] = {
