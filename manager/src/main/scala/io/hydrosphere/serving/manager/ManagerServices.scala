@@ -100,7 +100,8 @@ class ManagerServices(
     serviceManagementService = serviceManagementService,
     grpcClient = servingMeshGrpcClient,
     internalManagerEventsPublisher = internalManagerEventsPublisher,
-    modelVersionRepository = managerRepositories.modelVersionRepository
+    modelVersionRepository = managerRepositories.modelVersionRepository,
+    runtimeRepository = managerRepositories.runtimeRepository
   )
 
   val envoyGRPCDiscoveryService: EnvoyGRPCDiscoveryService = new EnvoyGRPCDiscoveryServiceImpl(

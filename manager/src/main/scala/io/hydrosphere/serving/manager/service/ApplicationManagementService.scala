@@ -5,11 +5,11 @@ import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.connector._
 import io.hydrosphere.serving.manager.controller.application._
 import io.hydrosphere.serving.manager.grpc.manager.AuthorityReplacerInterceptor
-import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.{ServiceKeyDescription, _}
 import io.hydrosphere.serving.manager.model.api.DataGenerator
 import io.hydrosphere.serving.manager.model.api.ops.{ModelSignatureOps, TensorProtoOps}
 import io.hydrosphere.serving.manager.model.api.validation.SignatureValidator
-import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelVersionRepository}
+import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelVersionRepository, RuntimeRepository}
 import io.hydrosphere.serving.tensorflow.api.model.ModelSpec
 import io.hydrosphere.serving.tensorflow.api.predict.{PredictRequest, PredictResponse}
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
@@ -22,9 +22,9 @@ import scala.util.{Failure, Success}
 case class ServiceWithSignature(s: Service, signatureName: String)
 
 case class ExecutionStep(
-  serviceName: String,
-  serviceSignature: String
-)
+                          serviceName: String,
+                          serviceSignature: String
+                        )
 
 trait ApplicationManagementService {
   def serveJsonApplication(jsonServeRequest: JsonServeRequest): Future[JsValue]
@@ -45,13 +45,14 @@ trait ApplicationManagementService {
 }
 
 class ApplicationManagementServiceImpl(
-  runtimeMeshConnector: RuntimeMeshConnector,
-  applicationRepository: ApplicationRepository,
-  modelVersionRepository: ModelVersionRepository,
-  serviceManagementService: ServiceManagementService,
-  grpcClient: PredictionServiceGrpc.PredictionServiceStub,
-  internalManagerEventsPublisher: InternalManagerEventsPublisher
-)(implicit val ex: ExecutionContext) extends ApplicationManagementService with Logging {
+                                        runtimeMeshConnector: RuntimeMeshConnector,
+                                        applicationRepository: ApplicationRepository,
+                                        modelVersionRepository: ModelVersionRepository,
+                                        serviceManagementService: ServiceManagementService,
+                                        grpcClient: PredictionServiceGrpc.PredictionServiceStub,
+                                        internalManagerEventsPublisher: InternalManagerEventsPublisher,
+                                        runtimeRepository: RuntimeRepository
+                                      )(implicit val ex: ExecutionContext) extends ApplicationManagementService with Logging {
 
   def serve(unit: ExecutionUnit, request: PredictRequest): Future[PredictResponse] = {
     grpcClient
@@ -142,8 +143,55 @@ class ApplicationManagementServiceImpl(
       }
   }
 
-  def allApplications(): Future[Seq[Application]] =
-    applicationRepository.all()
+  def allApplications(): Future[Seq[Application]] = {
+    val futureApps = applicationRepository.all()
+
+    type FutureMap[T] = Future[Map[Long, T]]
+
+    def extractServiceField[E](extractor: ServiceKeyDescription => E):Future[Seq[E]] = futureApps.map( apps =>
+      for{
+        app <- apps
+        stage <- app.executionGraph.stages
+        service <- stage.services
+      } yield extractor(service.serviceDescription)
+    )
+
+    def groupBy[K,V](seq:Seq[V])(idExtractor:V => K):Map[K,V] = seq
+      .groupBy(idExtractor(_))
+      .mapValues(_.headOption)
+      .filter(_._2.isDefined)
+      .mapValues(_.get)
+
+    val futureModelIds = extractServiceField{_.modelVersionId}.map(_.filter(_.isDefined).map(_.get))
+
+    val modelsAndVersionsById:FutureMap[ModelVersion] = futureModelIds
+      .flatMap(modelVersionRepository.lastModelVersionForModels)
+      .map{groupBy(_){_.id}}
+
+    val runtimesById:FutureMap[Runtime] = runtimeRepository.all().map(groupBy(_){_.id})
+
+    def zoomApp(app:Application):Application = app.copy(executionGraph = zoomGraph(app.executionGraph))
+    def zoomGraph(graph:ApplicationExecutionGraph):ApplicationExecutionGraph = graph.copy(stages=graph.stages.map(zoomStage(_)))
+    def zoomStage(stage:ApplicationStage):ApplicationStage = stage.copy(services = stage.services.map(zoomService(_)))
+    def zoomService(service:WeightedService):WeightedService = service.copy(serviceDescription = zoomKey(service.serviceDescription))
+    def zoomKey(key:ServiceKeyDescription)(implicit enrich:ServiceKeyDescription => ServiceKeyDescription):ServiceKeyDescription =
+      enrich(key)
+
+    for{
+      apps <- futureApps
+      modelData <- modelsAndVersionsById
+      runtimeData <- runtimesById
+    } yield {
+      implicit val enrichment:ServiceKeyDescription => ServiceKeyDescription = {
+        key => key.copy(
+          modelName = key.modelVersionId.flatMap(modelData.get(_).map(_.modelName)),
+          runtimeName = runtimeData.get(key.runtimeId).map(_.name)
+        )
+      }
+      apps.map(zoomApp)
+    }
+  }
+
 
   def getApplication(id: Long): Future[Option[Application]] =
     applicationRepository.get(id)
@@ -289,7 +337,7 @@ class ApplicationManagementServiceImpl(
     }
   }
 
-  private def inferGraph(executionGraphRequest: ExecutionGraphRequest) : Future[ApplicationExecutionGraph] = {
+  private def inferGraph(executionGraphRequest: ExecutionGraphRequest): Future[ApplicationExecutionGraph] = {
     val appStages =
       executionGraphRequest.stages match {
         case singleStage :: Nil if singleStage.services.lengthCompare(1) == 0 =>
@@ -352,7 +400,8 @@ class ApplicationManagementServiceImpl(
       case stage :: Nil if stage.services.lengthCompare(1) == 0 => // single model version
         val serviceDesc = stage.services.head
         serviceManagementService.fetchServicesUnsync(Set(serviceDesc.serviceDescription)).map { services =>
-          services.head.model match {
+          val maybeService = Option(services.head).flatMap(_.model)
+          maybeService match {
             case Some(model) => model.modelContract
             case None => throw new IllegalArgumentException(s"Service $serviceDesc has no related model.")
           }
