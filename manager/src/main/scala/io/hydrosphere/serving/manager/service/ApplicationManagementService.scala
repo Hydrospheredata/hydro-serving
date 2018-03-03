@@ -16,7 +16,7 @@ import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServic
 import org.apache.logging.log4j.scala.Logging
 import spray.json.{JsObject, JsValue}
 
-import scala.concurrent.{ExecutionContext, Future}
+import scala.concurrent.{Await, ExecutionContext, Future}
 import scala.util.{Failure, Success}
 
 case class ServiceWithSignature(s: Service, signatureName: String)
@@ -53,6 +53,8 @@ class ApplicationManagementServiceImpl(
                                         internalManagerEventsPublisher: InternalManagerEventsPublisher,
                                         runtimeRepository: RuntimeRepository
                                       )(implicit val ex: ExecutionContext) extends ApplicationManagementService with Logging {
+
+  type FutureMap[T] = Future[Map[Long, T]]
 
   def serve(unit: ExecutionUnit, request: PredictRequest): Future[PredictResponse] = {
     grpcClient
@@ -146,7 +148,7 @@ class ApplicationManagementServiceImpl(
   def allApplications(): Future[Seq[Application]] = {
     val futureApps = applicationRepository.all()
 
-    type FutureMap[T] = Future[Map[Long, T]]
+
 
     def extractServiceField[E](extractor: ServiceKeyDescription => E):Future[Seq[E]] = futureApps.map( apps =>
       for{
@@ -165,30 +167,44 @@ class ApplicationManagementServiceImpl(
     val futureModelIds = extractServiceField{_.modelVersionId}.map(_.filter(_.isDefined).map(_.get))
 
     val modelsAndVersionsById:FutureMap[ModelVersion] = futureModelIds
-      .flatMap(modelVersionRepository.lastModelVersionForModels)
-      .map{groupBy(_){_.id}}
+      .flatMap(modelVersionRepository.modelVersionsByModelVersionIds)
+      .map{groupBy(_){_.modelVersion}}
 
     val runtimesById:FutureMap[Runtime] = runtimeRepository.all().map(groupBy(_){_.id})
 
-    def zoomApp(app:Application):Application = app.copy(executionGraph = zoomGraph(app.executionGraph))
-    def zoomGraph(graph:ApplicationExecutionGraph):ApplicationExecutionGraph = graph.copy(stages=graph.stages.map(zoomStage(_)))
-    def zoomStage(stage:ApplicationStage):ApplicationStage = stage.copy(services = stage.services.map(zoomService(_)))
-    def zoomService(service:WeightedService):WeightedService = service.copy(serviceDescription = zoomKey(service.serviceDescription))
-    def zoomKey(key:ServiceKeyDescription)(implicit enrich:ServiceKeyDescription => ServiceKeyDescription):ServiceKeyDescription =
-      enrich(key)
+    enrichServiceKeyDescription(futureApps, runtimesById, modelsAndVersionsById)
+  }
 
-    for{
+  def enrichServiceKeyDescription(futureApps:Future[Seq[Application]],
+                                  futureRuntimes:FutureMap[Runtime],
+                                  futureModels:FutureMap[ModelVersion]) = {
+
+    def enrichApps(apps:Seq[Application])
+               (enrich:ServiceKeyDescription => ServiceKeyDescription):Seq[Application] = apps.map{
+      app => app.copy(
+        executionGraph = app.executionGraph.copy(
+          stages = app.executionGraph.stages.map{
+            stage => stage.copy(
+              services = stage.services.map{
+                service => service.copy(
+                  serviceDescription = enrich(service.serviceDescription)
+                )
+              }
+            )
+          }
+        )
+      )
+    }
+
+    for {
       apps <- futureApps
-      modelData <- modelsAndVersionsById
-      runtimeData <- runtimesById
-    } yield {
-      implicit val enrichment:ServiceKeyDescription => ServiceKeyDescription = {
-        key => key.copy(
+      modelData <- futureModels
+      runtimeData <- futureRuntimes
+    } yield enrichApps(apps){
+      key => key.copy(
           modelName = key.modelVersionId.flatMap(modelData.get(_).map(_.modelName)),
           runtimeName = runtimeData.get(key.runtimeId).map(_.name)
         )
-      }
-      apps.map(zoomApp)
     }
   }
 

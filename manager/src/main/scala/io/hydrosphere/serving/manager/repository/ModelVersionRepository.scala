@@ -14,4 +14,6 @@ trait ModelVersionRepository extends BaseRepository[ModelVersion, Long] {
 
   def lastModelVersionForModels(modelIds: Seq[Long]): Future[Seq[ModelVersion]]
 
+  def modelVersionsByModelVersionIds(modelVersionIds: Seq[Long]): Future[Seq[ModelVersion]]
+
 }

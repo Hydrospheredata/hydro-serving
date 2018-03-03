@@ -71,6 +71,16 @@ class ModelVersionRepositoryImpl(
         .result
     ).map(mapFromDb)
 
+  override def modelVersionsByModelVersionIds(modelVersionIds: Seq[Long]): Future[Seq[ModelVersion]] = {
+    val action = Tables.ModelVersion
+      .filter {
+        _.modelVersion inSetBind modelVersionIds
+      }
+      .result
+
+    db.run(action).map(mv => mapFromDb(mv.map((_, None))))
+  }
+
   override def lastModelVersionForModels(modelIds: Seq[Long]): Future[Seq[ModelVersion]] = {
     val latestBuilds = for {
       (id, versions) <- Tables.ModelVersion.groupBy(_.modelId)
