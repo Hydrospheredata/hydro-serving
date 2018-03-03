@@ -83,7 +83,8 @@ case class ZipkinConfiguration(
 
 case class ApplicationConfig(
   port: Int,
-  grpcPort: Int
+  grpcPort: Int,
+  shadowingOn:Boolean
 )
 
 case class SidecarConfig(
@@ -108,7 +109,8 @@ object ManagerConfiguration {
     val c = config.getConfig("application")
     ApplicationConfig(
       port = c.getInt("port"),
-      grpcPort = c.getInt("grpcPort")
+      grpcPort = c.getInt("grpcPort"),
+      shadowingOn = c.getBoolean("shadowingOn")
     )
   }
 

@@ -36,7 +36,7 @@ export HOST_IP=$(ifconfig en0 | grep 'inet ' |  awk '{ print $2}')
 curl --header 'Content-Type: application/json' \
  --header 'Accept: */*' \
  -X POST http://admin:foobar@$HOST_IP:3000/api/dashboards/db \
- --data-binary @./integrations/automation/grafana/local/models.json
+ --data-binary @./integrations/grafana/simple_model.json
 ```
 
 ##### Open new [Dashboard http://localhost:3000/dashboard/db/simple-models](http://localhost:3000/dashboard/db/simple-models)

@@ -15,6 +15,8 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
 
   private val applications = mutable.Map[Long, Seq[VirtualHost]]()
 
+  private val kafkaGatewayHost=createGatewayHost(CloudDriverService.GATEWAY_KAFKA_NAME)
+
   private def createRoutes(application: Application): Seq[VirtualHost] =
     application.executionGraph.stages.zipWithIndex.map { case (appStage, i) =>
       val weights = ClusterSpecifier.WeightedClusters(WeightedCluster(
@@ -73,9 +75,22 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
   private def createRoute(name: String, defaultRoute: VirtualHost): RouteConfiguration =
     RouteConfiguration(
       name = name,
-      virtualHosts = applications.values.flatten.toSeq :+ defaultRoute
+      virtualHosts = applications.values.flatten.toSeq :+ defaultRoute :+ kafkaGatewayHost
     )
 
+  private def createGatewayHost(name: String): VirtualHost =
+    VirtualHost(
+      name = name,
+      domains = Seq(name),
+      routes = Seq(Route(
+        `match` = Some(RouteMatch(
+          pathSpecifier = RouteMatch.PathSpecifier.Prefix("/")
+        )),
+        action = Route.Action.Route(RouteAction(
+          clusterSpecifier = ClusterSpecifier.Cluster(name)
+        ))
+      ))
+    )
 
   private def defaultVirtualHost(clusterName: String): VirtualHost =
     VirtualHost(

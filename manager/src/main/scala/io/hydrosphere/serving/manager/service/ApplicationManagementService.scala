@@ -1,11 +1,13 @@
 package io.hydrosphere.serving.manager.service
 
+import io.grpc.Context
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.connector._
+import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, KafkaTopicServerInterceptor}
+import io.hydrosphere.serving.manager.ApplicationConfig
 import io.hydrosphere.serving.manager.controller.application._
 import io.hydrosphere.serving.manager.grpc.manager.AuthorityReplacerInterceptor
-import io.hydrosphere.serving.manager.model.{ServiceKeyDescription, _}
+import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.DataGenerator
 import io.hydrosphere.serving.manager.model.api.ops.{ModelSignatureOps, TensorProtoOps}
 import io.hydrosphere.serving.manager.model.api.validation.SignatureValidator
@@ -16,15 +18,20 @@ import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServic
 import org.apache.logging.log4j.scala.Logging
 import spray.json.{JsObject, JsValue}
 
-import scala.concurrent.{Await, ExecutionContext, Future}
+import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Failure, Success}
 
 case class ServiceWithSignature(s: Service, signatureName: String)
 
 case class ExecutionStep(
-                          serviceName: String,
-                          serviceSignature: String
-                        )
+  serviceName: String,
+  serviceSignature: String
+)
+
+case class ExecutionUnit(
+  serviceName: String,
+  servicePath: String
+)
 
 trait ApplicationManagementService {
   def serveJsonApplication(jsonServeRequest: JsonServeRequest): Future[JsValue]
@@ -45,16 +52,37 @@ trait ApplicationManagementService {
 }
 
 class ApplicationManagementServiceImpl(
-                                        runtimeMeshConnector: RuntimeMeshConnector,
-                                        applicationRepository: ApplicationRepository,
-                                        modelVersionRepository: ModelVersionRepository,
-                                        serviceManagementService: ServiceManagementService,
-                                        grpcClient: PredictionServiceGrpc.PredictionServiceStub,
-                                        internalManagerEventsPublisher: InternalManagerEventsPublisher,
-                                        runtimeRepository: RuntimeRepository
-                                      )(implicit val ex: ExecutionContext) extends ApplicationManagementService with Logging {
+  applicationRepository: ApplicationRepository,
+  modelVersionRepository: ModelVersionRepository,
+  serviceManagementService: ServiceManagementService,
+  grpcClient: PredictionServiceGrpc.PredictionServiceStub,
+  internalManagerEventsPublisher: InternalManagerEventsPublisher,
+  applicationConfig: ApplicationConfig,
+  runtimeRepository: RuntimeRepository
+)(implicit val ex: ExecutionContext) extends ApplicationManagementService with Logging {
 
   type FutureMap[T] = Future[Map[Long, T]]
+
+  //TODO REMOVE!
+  def sendToDebug(request: PredictResponse, predictRequest: PredictRequest): Unit = {
+    if(applicationConfig.shadowingOn){
+      val req=PredictRequest(
+        modelSpec=predictRequest.modelSpec,
+        inputs=request.outputs
+      )
+
+      grpcClient
+        .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, CloudDriverService.GATEWAY_KAFKA_NAME)
+        .withOption(KafkaTopicServerInterceptor.KAFKA_TOPIC_KEY, "shadow_topic") //TODO where can i get this
+        .predict(req)
+        .onComplete({
+          case Failure(thr)=>
+            logger.error("Can't send message to GATEWAY_KAFKA", thr)
+          case _=>
+            Unit
+        })
+    }
+  }
 
   def serve(unit: ExecutionUnit, request: PredictRequest): Future[PredictResponse] = {
     grpcClient
@@ -416,8 +444,7 @@ class ApplicationManagementServiceImpl(
       case stage :: Nil if stage.services.lengthCompare(1) == 0 => // single model version
         val serviceDesc = stage.services.head
         serviceManagementService.fetchServicesUnsync(Set(serviceDesc.serviceDescription)).map { services =>
-          val maybeService = Option(services.head).flatMap(_.model)
-          maybeService match {
+          services.head.model match {
             case Some(model) => model.modelContract
             case None => throw new IllegalArgumentException(s"Service $serviceDesc has no related model.")
           }

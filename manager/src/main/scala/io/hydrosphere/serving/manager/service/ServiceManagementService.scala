@@ -218,7 +218,7 @@ class ServiceManagementServiceImpl(
         info.id match {
           case CloudDriverService.MANAGER_ID =>
             Future.successful(Some(mapInternalService(info)))
-          case CloudDriverService.GATEWAY_ID =>
+          case CloudDriverService.GATEWAY_HTTP_ID =>
             Future.successful(Some(mapInternalService(info)))
           case _ =>
             serviceRepository.get(serviceId).map({

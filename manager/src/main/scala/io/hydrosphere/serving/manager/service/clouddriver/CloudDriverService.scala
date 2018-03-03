@@ -171,14 +171,17 @@ object CloudDriverService{
 
   val MANAGER_ID: Long = -20
   val MANAGER_HTTP_ID: Long = -21
-  val GATEWAY_ID: Long = -10
+  val GATEWAY_HTTP_ID: Long = -10
+  val GATEWAY_KAFKA_ID: Long = -12
   val MANAGER_NAME: String = "manager"
   val MANAGER_HTTP_NAME: String = "manager-http"
-  val GATEWAY_NAME: String = "gateway"
+  val GATEWAY_HTTP_NAME: String = "gateway-http"
+  val GATEWAY_KAFKA_NAME: String = "gateway-kafka"
 
   val specialNames = Map(
     MANAGER_NAME -> MANAGER_ID,
     MANAGER_HTTP_NAME -> MANAGER_HTTP_ID,
-    GATEWAY_NAME -> GATEWAY_ID
+    GATEWAY_HTTP_NAME -> GATEWAY_HTTP_ID,
+    GATEWAY_KAFKA_NAME -> GATEWAY_KAFKA_ID
   )
 }

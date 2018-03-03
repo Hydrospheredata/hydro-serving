@@ -5,8 +5,8 @@ import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.spotify.docker.client._
 import io.grpc.{Channel, ClientInterceptors, ManagedChannelBuilder}
-import io.hydrosphere.serving.manager.connector.{HttpEnvoyAdminConnector, HttpRuntimeMeshConnector, RuntimeMeshConnector}
-import io.hydrosphere.serving.manager.grpc.manager.AuthorityReplacerInterceptor
+import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, KafkaTopicServerInterceptor}
+import io.hydrosphere.serving.manager.connector.HttpEnvoyAdminConnector
 import io.hydrosphere.serving.manager.service.clouddriver._
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
@@ -37,11 +37,10 @@ class ManagerServices(
     .usePlaintext(true)
     .build
 
-  val channel: Channel = ClientInterceptors.intercept(managedChannel, new AuthorityReplacerInterceptor)
+  val channel: Channel = ClientInterceptors
+    .intercept(managedChannel, new AuthorityReplacerInterceptor, new KafkaTopicServerInterceptor)
 
   val servingMeshGrpcClient: PredictionServiceGrpc.PredictionServiceStub = PredictionServiceGrpc.stub(channel)
-
-  val runtimeMeshConnector: RuntimeMeshConnector = new HttpRuntimeMeshConnector(managerConfiguration.sidecar)
 
   val sourceManagementService = new SourceManagementServiceImpl(managerConfiguration, managerRepositories.sourceRepository)
 
@@ -95,13 +94,12 @@ class ManagerServices(
   )
 
   val applicationManagementService: ApplicationManagementService = new ApplicationManagementServiceImpl(
-    runtimeMeshConnector = runtimeMeshConnector,
     applicationRepository = managerRepositories.applicationRepository,
     serviceManagementService = serviceManagementService,
     grpcClient = servingMeshGrpcClient,
     internalManagerEventsPublisher = internalManagerEventsPublisher,
     modelVersionRepository = managerRepositories.modelVersionRepository,
-    runtimeRepository = managerRepositories.runtimeRepository
+    applicationConfig = managerConfiguration.application
   )
 
   val envoyGRPCDiscoveryService: EnvoyGRPCDiscoveryService = new EnvoyGRPCDiscoveryServiceImpl(
