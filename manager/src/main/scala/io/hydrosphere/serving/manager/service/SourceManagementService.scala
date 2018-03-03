@@ -31,6 +31,8 @@ trait SourceManagementService {
   def createWatchers: Future[Seq[ActorRef]]
 
   def allSourceConfigs: Future[Seq[ModelSourceConfigAux]]
+
+  def getSource(name: String): Future[Option[ModelSource]]
 }
 
 class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, sourceRepository: SourceConfigRepository)
@@ -84,7 +86,7 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
     val source = args.head
     val path = args.last
     getSources.map {
-      _.find(_.sourceDef.prefix == source)
+      _.find(_.sourceDef.name == source)
         .map(_.getAbsolutePath(path))
         .getOrElse(throw new IllegalArgumentException(s"ModelSource for $url with prefix $source is not found"))
     }
@@ -118,6 +120,12 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
   override def allSourceConfigs: Future[Seq[ModelSourceConfigAux]] = {
     sourceRepository.all().map { dbSources =>
       managerConfiguration.modelSources ++ dbSources
+    }
+  }
+
+  override def getSource(name: String): Future[Option[ModelSource]] = {
+    sourceRepository.get(name).map { maybeSource =>
+      maybeSource.map(ModelSource.fromConfig)
     }
   }
 }

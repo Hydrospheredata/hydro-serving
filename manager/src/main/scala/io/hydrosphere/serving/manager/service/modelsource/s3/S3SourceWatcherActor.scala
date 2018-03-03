@@ -5,8 +5,9 @@ import java.time.{Instant, LocalDateTime, ZoneId}
 import akka.actor.Props
 import com.google.common.hash.Hashing
 import io.hydrosphere.serving.manager.model.CommonJsonSupport
+import io.hydrosphere.serving.manager.service.modelsource.events.{FileCreated, FileDeleted, FileEvent}
 import io.hydrosphere.serving.manager.service.modelsource.s3.S3SourceWatcherActor.SQSMessage
-import io.hydrosphere.serving.manager.service.modelsource.{FileCreated, FileDeleted, FileEvent, SourceWatcherActor}
+import io.hydrosphere.serving.manager.service.modelsource.SourceWatcherActor
 
 import scala.collection.JavaConversions._
 
