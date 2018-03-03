@@ -10,7 +10,7 @@ import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.DataGenerator
 import io.hydrosphere.serving.manager.model.api.ops.{ModelSignatureOps, TensorProtoOps}
 import io.hydrosphere.serving.manager.model.api.validation.SignatureValidator
-import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelVersionRepository}
+import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelVersionRepository, RuntimeRepository}
 import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService
 import io.hydrosphere.serving.tensorflow.api.model.ModelSpec
 import io.hydrosphere.serving.tensorflow.api.predict.{PredictRequest, PredictResponse}
@@ -57,8 +57,11 @@ class ApplicationManagementServiceImpl(
   serviceManagementService: ServiceManagementService,
   grpcClient: PredictionServiceGrpc.PredictionServiceStub,
   internalManagerEventsPublisher: InternalManagerEventsPublisher,
-  applicationConfig: ApplicationConfig
+  applicationConfig: ApplicationConfig,
+  runtimeRepository: RuntimeRepository
 )(implicit val ex: ExecutionContext) extends ApplicationManagementService with Logging {
+
+  type FutureMap[T] = Future[Map[Long, T]]
 
   //TODO REMOVE!
   def sendToDebug(request: PredictResponse, predictRequest: PredictRequest): Unit = {
@@ -85,10 +88,6 @@ class ApplicationManagementServiceImpl(
     grpcClient
       .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, unit.serviceName)
       .predict(request)
-      .map(r => {
-        sendToDebug(r, request)
-        r
-      })
   }
 
   def servePipeline(units: Seq[ExecutionUnit], data: PredictRequest): Future[PredictResponse] = {
@@ -174,8 +173,69 @@ class ApplicationManagementServiceImpl(
       }
   }
 
-  def allApplications(): Future[Seq[Application]] =
-    applicationRepository.all()
+  def allApplications(): Future[Seq[Application]] = {
+    val futureApps = applicationRepository.all()
+
+
+
+    def extractServiceField[E](extractor: ServiceKeyDescription => E):Future[Seq[E]] = futureApps.map( apps =>
+      for{
+        app <- apps
+        stage <- app.executionGraph.stages
+        service <- stage.services
+      } yield extractor(service.serviceDescription)
+    )
+
+    def groupBy[K,V](seq:Seq[V])(idExtractor:V => K):Map[K,V] = seq
+      .groupBy(idExtractor(_))
+      .mapValues(_.headOption)
+      .filter(_._2.isDefined)
+      .mapValues(_.get)
+
+    val futureModelIds = extractServiceField{_.modelVersionId}.map(_.filter(_.isDefined).map(_.get))
+
+    val modelsAndVersionsById:FutureMap[ModelVersion] = futureModelIds
+      .flatMap(modelVersionRepository.modelVersionsByModelVersionIds)
+      .map{groupBy(_){_.modelVersion}}
+
+    val runtimesById:FutureMap[Runtime] = runtimeRepository.all().map(groupBy(_){_.id})
+
+    enrichServiceKeyDescription(futureApps, runtimesById, modelsAndVersionsById)
+  }
+
+  def enrichServiceKeyDescription(futureApps:Future[Seq[Application]],
+                                  futureRuntimes:FutureMap[Runtime],
+                                  futureModels:FutureMap[ModelVersion]) = {
+
+    def enrichApps(apps:Seq[Application])
+               (enrich:ServiceKeyDescription => ServiceKeyDescription):Seq[Application] = apps.map{
+      app => app.copy(
+        executionGraph = app.executionGraph.copy(
+          stages = app.executionGraph.stages.map{
+            stage => stage.copy(
+              services = stage.services.map{
+                service => service.copy(
+                  serviceDescription = enrich(service.serviceDescription)
+                )
+              }
+            )
+          }
+        )
+      )
+    }
+
+    for {
+      apps <- futureApps
+      modelData <- futureModels
+      runtimeData <- futureRuntimes
+    } yield enrichApps(apps){
+      key => key.copy(
+          modelName = key.modelVersionId.flatMap(modelData.get(_).map(_.modelName)),
+          runtimeName = runtimeData.get(key.runtimeId).map(_.name)
+        )
+    }
+  }
+
 
   def getApplication(id: Long): Future[Option[Application]] =
     applicationRepository.get(id)

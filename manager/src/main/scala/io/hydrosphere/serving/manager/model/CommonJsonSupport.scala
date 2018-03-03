@@ -127,7 +127,7 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
 
   implicit val errorResponseFormat = jsonFormat1(ErrorResponse)
 
-  implicit val serviceKeyDescriptionFormat = jsonFormat3(ServiceKeyDescription.apply)
+  implicit val serviceKeyDescriptionFormat = jsonFormat5(ServiceKeyDescription.apply)
   implicit val serviceWeightFormat = jsonFormat3(WeightedService)
   implicit val applicationStageFormat = jsonFormat2(ApplicationStage.apply)
   implicit val applicationExecutionGraphFormat = jsonFormat1(ApplicationExecutionGraph)

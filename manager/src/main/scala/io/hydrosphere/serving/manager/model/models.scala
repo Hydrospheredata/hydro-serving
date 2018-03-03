@@ -77,7 +77,9 @@ case class ErrorResponse(
 case class ServiceKeyDescription(
   runtimeId: Long,
   modelVersionId: Option[Long],
-  environmentId: Option[Long]
+  environmentId: Option[Long],
+  modelName: Option[String] = None,
+  runtimeName: Option[String] = None
 ) {
   def toServiceName(): String = s"r${runtimeId}m${modelVersionId.getOrElse(0)}e${environmentId.getOrElse(0)}"
 }
