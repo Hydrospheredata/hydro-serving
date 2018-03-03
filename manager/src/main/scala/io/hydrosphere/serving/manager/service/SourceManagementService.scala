@@ -124,8 +124,8 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
   }
 
   override def getSource(name: String): Future[Option[ModelSource]] = {
-    sourceRepository.get(name).map { maybeSource =>
-      maybeSource.map(ModelSource.fromConfig)
+    allSourceConfigs.map { configs =>
+      configs.find(_.name == name).map(ModelSource.fromConfig)
     }
   }
 }
