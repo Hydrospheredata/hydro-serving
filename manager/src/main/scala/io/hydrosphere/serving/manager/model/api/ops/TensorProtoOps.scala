@@ -69,7 +69,7 @@ object TensorProtoOps {
       tensorShapeProto match {
         case Some(shape) =>
           val dims = shape.dim.map(_.size).reverseIterator
-          shapeGrouped(JsArray(data.toVector), dims).elements.head
+          shapeGrouped(JsArray(data.toVector), dims)
         case None => data.headOption.getOrElse(JsObject.empty)
       }
     }
@@ -78,17 +78,19 @@ object TensorProtoOps {
     final def shapeGrouped(data: JsArray, shapeIter: Iterator[Long]): JsArray = {
       if (shapeIter.nonEmpty) {
         val dimShape = shapeIter.next()
-        if (dimShape == -1) {
-          shapeGrouped(data, shapeIter)
-        } else {
-          shapeGrouped(JsArray(
+        val dataDim = data.elements.length
+        val maybeReshaped = dimShape match {
+          case -1 => data
+          case `dataDim` => data
+          case toReshape => JsArray(
             data
               .elements
-              .grouped(dimShape.toInt)
+              .grouped(toReshape.toInt)
               .map(JsArray.apply)
-              .toVector),
-            shapeIter)
+              .toVector
+          )
         }
+        shapeGrouped(maybeReshaped, shapeIter)
       } else {
         data
       }

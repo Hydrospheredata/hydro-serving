@@ -91,7 +91,7 @@ class ApplicationController(
     }
   }
 
-  @Path("/generateInputs/{appId}")
+  @Path("/generateInputs/{appId}/{signatureName}")
   @ApiOperation(value = "Generate payload for application", notes = "Generate payload for application", nickname = "Generate payload for application", httpMethod = "GET")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "appId", required = true, dataType = "long", paramType = "path", value = "appId"),
