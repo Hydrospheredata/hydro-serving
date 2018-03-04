@@ -23,7 +23,7 @@ class LocalModelBuildService(
   private val contractFile = s"$modelRootDir/contract.protobin"
 
   override def build(modelBuild: ModelBuild, imageName: String, script: String, progressHandler: ProgressHandler): Future[String] = {
-    sourceManagementService.getLocalPath(modelBuild.model.source).map { localModelPath =>
+    sourceManagementService.getLocalPath(modelBuild.model.source, modelBuild.model.name).map { localModelPath =>
       val dockerFile = script
         .replaceAll("\\{"  +   SCRIPT_VAL_MODEL_PATH     +  "\\}", modelRootDir)
         .replaceAll("\\{"  +   SCRIPT_VAL_MODEL_VERSION  +  "\\}", modelBuild.modelVersion.toString)

@@ -16,7 +16,7 @@ CREATE TABLE hydro_serving.model
 (
   model_id          BIGSERIAL PRIMARY KEY,
   name              TEXT                        NOT NULL,
-  source            TEXT                        NOT NULL UNIQUE,
+  source            TEXT                        NOT NULL,
   description       TEXT,
   model_type        TEXT                        NOT NULL DEFAULT 'unknown',
   model_contract    TEXT                        NOT NULL DEFAULT '',

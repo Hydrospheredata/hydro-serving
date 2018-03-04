@@ -68,7 +68,7 @@ class RepositoryIndexActor(modelRepository: ModelRepository)
           val newModel = Model(
             id = oldModel.id,
             name = modelMetadata.modelName,
-            source = s"${modelSource.sourceDef.name}:${modelMetadata.modelName}",
+            source = modelSource.sourceDef.name,
             modelType = modelMetadata.modelType,
             description = None,
             modelContract = modelMetadata.contract,
@@ -80,7 +80,7 @@ class RepositoryIndexActor(modelRepository: ModelRepository)
           val newModel = Model(
             id = -1,
             name = modelMetadata.modelName,
-            source = s"${modelSource.sourceDef.name}:${modelMetadata.modelName}",
+            source = modelSource.sourceDef.name,
             modelType = modelMetadata.modelType,
             description = None,
             modelContract = modelMetadata.contract,

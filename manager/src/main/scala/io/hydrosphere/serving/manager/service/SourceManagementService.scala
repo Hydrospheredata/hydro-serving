@@ -26,7 +26,7 @@ trait SourceManagementService {
 
   def getSources: Future[List[ModelSource]]
 
-  def getLocalPath(url: String): Future[Path]
+  def getLocalPath(source: String, path: String): Future[Path]
 
   def createWatchers: Future[Seq[ActorRef]]
 
@@ -81,14 +81,11 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
     }
   }
 
-  override def getLocalPath(url: String): Future[Path] = {
-    val args = url.split(':')
-    val source = args.head
-    val path = args.last
+  override def getLocalPath(source: String, path: String): Future[Path] = {
     getSources.map {
       _.find(_.sourceDef.name == source)
         .map(_.getAbsolutePath(path))
-        .getOrElse(throw new IllegalArgumentException(s"ModelSource for $url with prefix $source is not found"))
+        .getOrElse(throw new IllegalArgumentException(s"ModelSource for $path with prefix $source is not found"))
     }
   }
 
