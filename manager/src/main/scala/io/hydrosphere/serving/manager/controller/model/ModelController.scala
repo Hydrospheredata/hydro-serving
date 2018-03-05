@@ -202,7 +202,7 @@ class ModelController(modelManagementService: ModelManagementService)
     post {
       entity(as[BuildModelRequest]) { r =>
         complete(
-          modelManagementService.buildModel(r.modelId)
+          modelManagementService.buildModel(r.modelId, r.flatContract)
         )
       }
     }

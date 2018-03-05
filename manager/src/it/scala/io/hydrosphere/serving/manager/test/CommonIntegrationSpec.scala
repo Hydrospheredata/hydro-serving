@@ -7,7 +7,6 @@ import akka.util.Timeout
 import com.dimafeng.testcontainers.{ForAllTestContainer, GenericContainer}
 import com.spotify.docker.client.DockerClient
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
-import io.hydrosphere.serving.manager.service.clouddriver.RuntimeDeployService
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService}
 import io.hydrosphere.serving.manager.{ManagerConfiguration, ManagerRepositoriesConfig, ManagerServices}
 import org.mockito
@@ -42,13 +41,11 @@ abstract class CommonIntegrationSpec extends TestKit(ActorSystem("testMasterServ
   val mockModelBuildService = mock[ModelBuildService]
   val mockModelPushService = mock[ModelPushService]
   val mockDockerClient = mock[DockerClient]
-  val mockRuntimeDeployService = mock[RuntimeDeployService]
 
 
   override protected def beforeEach(): Unit = {
     mockito.Mockito.reset(mockModelPushService)
     mockito.Mockito.reset(mockModelBuildService)
-    mockito.Mockito.reset(mockRuntimeDeployService)
     mockito.Mockito.reset(mockDockerClient)
 
     super.beforeEach()

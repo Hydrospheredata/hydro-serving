@@ -110,7 +110,7 @@ trait ModelManagementService {
 
   def submitContract(modelId: Long, prototext: String): Future[Option[Model]]
 
-  def buildModel(modelId: Long, modelVersion: Option[Long] = None): Future[ModelVersion]
+  def buildModel(modelId: Long, flatContract: Option[ContractDescription] = None, modelVersion: Option[Long] = None): Future[ModelVersion]
 
   def allModels(): Future[Seq[Model]]
 
@@ -244,12 +244,22 @@ class ModelManagementServiceImpl(
     }
   }
 
-  override def buildModel(modelId: Long, modelVersion: Option[Long]): Future[ModelVersion] =
+  override def buildModel(modelId: Long, flatContract: Option[ContractDescription], modelVersion: Option[Long]): Future[ModelVersion] =
     modelRepository.get(modelId)
       .flatMap {
         case None => throw new IllegalArgumentException(s"Can't find Model with id $modelId")
         case Some(model) =>
-          buildNewModelVersion(model, modelVersion)
+          val modelFuture = flatContract match {
+            case Some(contract) =>
+              submitFlatContract(modelId, contract).map(m =>
+                m.getOrElse(throw new IllegalArgumentException(s"Can't find Model with id $modelId")))
+            case _ => Future.successful(model)
+          }
+
+          modelFuture.flatMap(m =>
+            buildNewModelVersion(m, modelVersion)
+          )
+
       }
 
   private def fetchScriptForModel(model: Model): Future[String] =
