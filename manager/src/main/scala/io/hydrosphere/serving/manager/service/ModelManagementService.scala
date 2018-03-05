@@ -493,7 +493,9 @@ class ModelManagementServiceImpl(
       case Some(request) =>
         val res = modelRepository.get(upload.name).flatMap {
           case Some(model) => updateModel(request.copy(id = Some(model.id), source = model.source))
-          case None => createModel(request)
+          case None =>
+            val newSource = s"${upload.source}:${upload.name}"
+            createModel(request.copy(source = newSource))
         }
         res.map(Some(_))
       case None => Future.successful(None)
