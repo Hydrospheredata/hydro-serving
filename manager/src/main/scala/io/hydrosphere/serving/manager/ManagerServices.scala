@@ -74,14 +74,6 @@ class ManagerServices(
 
   }
 
-  /*val cacheUpdateActor: Option[ActorRef] = runtimeDeployService match {
-    case c: CachedProxyRuntimeDeployService =>
-      Some(system.actorOf(ServiceCacheUpdateActor.props(c)))
-    case _ =>
-      logger.info(s"Cache disabled for RuntimeDeployService")
-      None
-  }
-*/
   val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(managerRepositories.runtimeRepository)
 
   val serviceManagementService: ServiceManagementService = new ServiceManagementServiceImpl(

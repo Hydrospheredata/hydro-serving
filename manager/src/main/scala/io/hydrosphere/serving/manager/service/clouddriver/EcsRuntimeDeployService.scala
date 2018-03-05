@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager.service.clouddriver
 
+/*
 import com.amazonaws.services.ec2.model.DescribeInstancesRequest
 import com.amazonaws.services.ec2.{AmazonEC2, AmazonEC2ClientBuilder}
 import com.amazonaws.services.ecs.model._
@@ -10,14 +11,15 @@ import org.apache.logging.log4j.scala.Logging
 
 import collection.JavaConversions._
 import scala.util.Try
+*/
 
 /**
   *
   */
-class EcsRuntimeDeployService(
+class EcsRuntimeDeployService{/*(
   ecsCloudDriverConfiguration: ECSCloudDriverConfiguration,
   managerConfiguration: ManagerConfiguration
-) extends RuntimeDeployService with Logging with CommonJsonSupport {
+) extends RuntimeDeployService with Logging with CommonJsonSupport {*/
 
   /*import spray.json._
 

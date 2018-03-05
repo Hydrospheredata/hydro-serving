@@ -24,7 +24,7 @@ class ModelServiceSpec extends FullIntegrationSpec with BeforeAndAfterAll {
       managerRepositories.modelRepository.get(1).flatMap {
         case None => Future.failed(new IllegalArgumentException("Model is not found"))
         case Some(model) =>
-          managerServices.modelManagementService.buildModel(model.id, Some(1)).flatMap { _ =>
+          managerServices.modelManagementService.buildModel(model.id, None, Some(1)).flatMap { _ =>
             Thread.sleep(1000)
             managerServices.modelManagementService.lastModelBuildsByModelId(model.id, 1).map { lastBuilds =>
               val lastBuild = lastBuilds.head

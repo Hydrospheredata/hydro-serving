@@ -1,6 +1,6 @@
 #####  Build docker with `Prometheus`
 ```
-docker build --no-cache -t hydro-serving/prometheus integrations/automation/prometheus
+docker build --no-cache -t hydro-serving/prometheus integrations/prometheus
 ```
 
 ##### Start `Prometheus`
