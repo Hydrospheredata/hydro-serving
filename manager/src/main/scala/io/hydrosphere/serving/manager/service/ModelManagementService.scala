@@ -492,8 +492,15 @@ class ModelManagementServiceImpl(
     uploadToSource(upload).flatMap {
       case Some(request) =>
         val res = modelRepository.get(upload.name).flatMap {
-          case Some(model) => updateModel(request.copy(id = Some(model.id), source = model.source))
-          case None => createModel(request)
+          case Some(model) =>
+            val updateRequest = request.copy(id = Some(model.id), source = model.source)
+            logger.info(s"Updating uploaded model with id: ${updateRequest.id} name: ${updateRequest.name}, source: ${updateRequest.source}, type: ${updateRequest.modelType} ")
+            updateModel(updateRequest)
+          case None =>
+            val newSource = s"${request.source}:${upload.name}"
+            val createRequest = request.copy(source = newSource)
+            logger.info(s"Creating uploaded model with name: ${createRequest.name}, source: ${createRequest.source}, type: ${createRequest.modelType}")
+            createModel(createRequest)
         }
         res.map(Some(_))
       case None => Future.successful(None)
