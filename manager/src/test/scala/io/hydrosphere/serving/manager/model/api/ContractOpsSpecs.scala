@@ -328,6 +328,20 @@ class ContractOpsSpecs extends WordSpec {
         assert(tensor.jsonify === expected)
       }
 
+      "TensorProto with [-1]" in {
+        val tensor = TensorProto(
+          dtype = DataType.DT_STRING,
+          tensorShape = Some(ContractBuilders.createTensorShape(Seq(-1))),
+          stringVal = Seq("never", "gonna", "give", "you").map(ByteString.copyFromUtf8)
+        )
+
+        val expected = JsArray(
+          JsString("never"), JsString("gonna"),JsString("give"), JsString("you")
+        )
+
+        assert(tensor.jsonify === expected)
+      }
+
       "TensorProto with maps" in {
         val tensor = TensorProto(
           dtype = DataType.DT_MAP,

@@ -42,7 +42,7 @@ trait ApplicationManagementService {
 
   def getApplication(id: Long): Future[Option[Application]]
 
-  def generateInputsForApplication(appId: Long, signatureName: String): Future[Option[Seq[JsObject]]]
+  def generateInputsForApplication(appId: Long, signatureName: String): Future[Option[JsObject]]
 
   def createApplication(req: CreateApplicationRequest): Future[Application]
 
@@ -245,12 +245,12 @@ class ApplicationManagementServiceImpl(
     applicationRepository.get(id)
 
 
-  def generateInputsForApplication(appId: Long, signatureName: String): Future[Option[Seq[JsObject]]] = {
+  def generateInputsForApplication(appId: Long, signatureName: String): Future[Option[JsObject]] = {
     applicationRepository.get(appId).map {
       case Some(app) =>
         app.contract.signatures.find(_.signatureName == signatureName).map { signature =>
           val data = DataGenerator(signature).generateInputs
-          Seq(TensorProtoOps.jsonify(data))
+          TensorProtoOps.jsonify(data)
         }
       case None =>
         None
