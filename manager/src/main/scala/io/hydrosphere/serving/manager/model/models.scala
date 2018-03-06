@@ -8,6 +8,9 @@ import io.hydrosphere.serving.manager.model.ModelBuildStatus.ModelBuildStatus
 import io.hydrosphere.serving.manager.model.ServiceInstanceStatus.ServiceInstanceStatus
 import io.hydrosphere.serving.manager.model.api.ModelType
 
+import scala.runtime
+import scala.runtime.ScalaRunTime
+
 case class Runtime(
   id: Long,
   name: String,
@@ -82,6 +85,18 @@ case class ServiceKeyDescription(
   runtimeName: Option[String] = None
 ) {
   def toServiceName(): String = s"r${runtimeId}m${modelVersionId.getOrElse(0)}e${environmentId.getOrElse(0)}"
+
+
+  override def hashCode(): Int =
+    runtime.ScalaRunTime.hash(ServiceKeyDescription.this.runtimeId) * 41 +
+      runtime.ScalaRunTime.hash(ServiceKeyDescription.this.modelVersionId) * 41 +
+      runtime.ScalaRunTime.hash(ServiceKeyDescription.this.environmentId)
+
+  override def equals(obj: scala.Any): Boolean = obj match {
+    case that: ServiceKeyDescription =>
+      this.environmentId == that.environmentId && this.runtimeId == that.runtimeId && this.modelVersionId == that.modelVersionId
+    case _ => false
+  }
 }
 
 object ServiceKeyDescription {
