@@ -207,7 +207,7 @@ class ApplicationManagementServiceImpl(
 
     val modelsAndVersionsById:FutureMap[ModelVersion] = futureModelIds
       .flatMap(modelVersionRepository.modelVersionsByModelVersionIds)
-      .map{groupBy(_){_.modelVersion}}
+      .map{groupBy(_){_.id}}
 
     val runtimesById:FutureMap[Runtime] = runtimeRepository.all().map(groupBy(_){_.id})
 
