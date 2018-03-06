@@ -74,7 +74,7 @@ class ModelVersionRepositoryImpl(
   override def modelVersionsByModelVersionIds(modelVersionIds: Seq[Long]): Future[Seq[ModelVersion]] = {
     val action = Tables.ModelVersion
       .filter {
-        _.modelVersion inSetBind modelVersionIds
+        _.modelVersionId inSetBind modelVersionIds
       }
       .result
 
