@@ -177,9 +177,16 @@ class ApplicationManagementServiceImpl(
       }
   }
 
-  def allApplications(): Future[Seq[Application]] = {
-    val futureApps = applicationRepository.all()
+  def allApplications(): Future[Seq[Application]] =
+    enrichApplications(applicationRepository.all())
 
+
+
+  def enrichApplication(app:Future[Option[Application]]) =
+    enrichApplications(app.map(_.map(Seq(_)).getOrElse(Seq()))).map(_.headOption)
+
+
+  def enrichApplications(futureApps:Future[Seq[Application]]):Future[Seq[Application]] = {
 
 
     def extractServiceField[E](extractor: ServiceKeyDescription => E):Future[Seq[E]] = futureApps.map( apps =>
@@ -205,6 +212,7 @@ class ApplicationManagementServiceImpl(
     val runtimesById:FutureMap[Runtime] = runtimeRepository.all().map(groupBy(_){_.id})
 
     enrichServiceKeyDescription(futureApps, runtimesById, modelsAndVersionsById)
+
   }
 
   def enrichServiceKeyDescription(futureApps:Future[Seq[Application]],
@@ -234,7 +242,7 @@ class ApplicationManagementServiceImpl(
       runtimeData <- futureRuntimes
     } yield enrichApps(apps){
       key => key.copy(
-          modelName = key.modelVersionId.flatMap(modelData.get(_).map(_.modelName)),
+          modelName = key.modelVersionId.flatMap(modelData.get(_).map(mv => s"${mv.modelName}:${mv.modelVersion}")),
           runtimeName = runtimeData.get(key.runtimeId).map(_.name)
         )
     }
@@ -242,7 +250,7 @@ class ApplicationManagementServiceImpl(
 
 
   def getApplication(id: Long): Future[Option[Application]] =
-    applicationRepository.get(id)
+    enrichApplication(applicationRepository.get(id))
 
 
   def generateInputsForApplication(appId: Long, signatureName: String): Future[Option[JsObject]] = {
@@ -266,7 +274,7 @@ class ApplicationManagementServiceImpl(
     }
     val keySet = keys.toSet
 
-    for {
+    val created = for {
       services <- serviceManagementService.fetchServicesUnsync(keySet)
       existedServices = services.map(_.toServiceKeyDescription)
       _ <- startServices(keySet -- existedServices)
@@ -276,6 +284,8 @@ class ApplicationManagementServiceImpl(
       internalManagerEventsPublisher.applicationChanged(createdApp)
       createdApp
     }
+
+    enrichApplication(created.map(Some(_))).map(_.get)
   }
 
   def deleteApplication(id: Long): Future[Unit] =
@@ -293,8 +303,8 @@ class ApplicationManagementServiceImpl(
       }
     }
 
-  def updateApplication(req: UpdateApplicationRequest): Future[Application] =
-    executeWithSync {
+  def updateApplication(req: UpdateApplicationRequest): Future[Application] ={
+    val updated = executeWithSync {
       applicationRepository.get(req.id)
         .flatMap {
           case Some(application) =>
@@ -314,6 +324,10 @@ class ApplicationManagementServiceImpl(
             throw new IllegalArgumentException(s"Can't find application $req")
         }
     }
+
+    enrichApplication(updated.map(Some(_))).map(_.get)
+  }
+
 
   private def executeWithSync[A](func: => Future[A]): Future[A] = {
     applicationRepository.getLockForApplications().flatMap { lockInfo =>

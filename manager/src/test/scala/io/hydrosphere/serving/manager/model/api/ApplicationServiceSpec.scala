@@ -26,7 +26,7 @@ class ApplicationServiceSpec extends FlatSpec {
     val result = Await.result(appService.enrichServiceKeyDescription(apps, runtimeMap, modelsMap), 1 second)
     val serviceDescription = result.head.executionGraph.stages.head.services.head.serviceDescription
     assert(serviceDescription.runtimeName == Some("runtime"))
-    assert(serviceDescription.modelName == Some("model_name"))
+    assert(serviceDescription.modelName == Some("model_name:1"))
 
   }
 
