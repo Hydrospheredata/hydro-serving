@@ -76,11 +76,13 @@ class ModelController(modelManagementService: ModelManagementService)
             case "model_type" if p.filename.isEmpty =>
               p.entity.dataBytes
                 .map(_.decodeString("UTF-8"))
+                .filterNot(_.isEmpty)
                 .map(r => ModelType(modelType = r))
 
             case "target_source" if p.filename.isEmpty =>
               p.entity.dataBytes
                 .map(_.decodeString("UTF-8"))
+                .filterNot(_.isEmpty)
                 .map(r => TargetSource(source = r))
 
             case "model_contract" if p.filename.isEmpty =>
@@ -91,11 +93,13 @@ class ModelController(modelManagementService: ModelManagementService)
             case "model_description" if p.filename.isEmpty =>
               p.entity.dataBytes
                 .map(_.decodeString("UTF-8"))
+                .filterNot(_.isEmpty)
                 .map(r => Description(description = r))
 
             case "model_name" if p.filename.isEmpty =>
               p.entity.dataBytes
                 .map(_.decodeString("UTF-8"))
+                .filterNot(_.isEmpty)
                 .map(r => ModelName(modelName = r))
 
             case "payload" if p.filename.isDefined =>
@@ -116,7 +120,6 @@ class ModelController(modelManagementService: ModelManagementService)
         val dicts = fileNamesFuture.runFold(Map.empty[String, UploadedEntity]) {
           case (a, b) => a + (b.name -> b)
         }
-
         def uploadModel(): Future[Option[Model]] = {
           dicts.map(ModelUpload.fromMap).flatMap {
             case Some(upload) => modelManagementService.uploadModelTarball(upload)
