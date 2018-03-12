@@ -416,7 +416,7 @@ class ApplicationManagementServiceImpl(
     Future.successful {
       Seq(
         ApplicationStage(
-          services = singleStage.services.map(_.toWeighedService),
+          services = singleStage.services.map(_.toWeighedService.copy(weight = 100)),
           signature = None
         )
       )
