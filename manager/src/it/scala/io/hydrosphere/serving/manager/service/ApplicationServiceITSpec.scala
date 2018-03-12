@@ -25,7 +25,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                     runtimeId = 1, // dummy runtime id
                     modelVersionId = Some(version.id),
                     environmentId = None,
-                    weight = 100,
+                    weight = 0,
                     signatureName = "default"
                   )
                 )
