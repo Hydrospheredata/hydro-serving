@@ -8,9 +8,6 @@ import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 
-/**
-  *
-  */
 class ApplicationRepositoryImpl(
   implicit val executionContext: ExecutionContext,
   databaseService: DatabaseService

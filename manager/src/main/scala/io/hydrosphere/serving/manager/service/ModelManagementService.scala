@@ -6,17 +6,16 @@ import java.time.LocalDateTime
 
 import akka.actor.ActorRef
 import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.contract.utils.DataGenerator
+import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.model.UploadedEntity
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.description._
-import io.hydrosphere.serving.manager.model.api.ops.Implicits._
-import io.hydrosphere.serving.manager.model.api.ops.TensorProtoOps
-import io.hydrosphere.serving.manager.model.api.{DataGenerator, ModelType}
+import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor.IgnoreModel
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
-import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
+import io.hydrosphere.serving.contract.utils.ops.ModelContractOps._
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.apache.logging.log4j.scala.Logging
 import spray.json.JsObject

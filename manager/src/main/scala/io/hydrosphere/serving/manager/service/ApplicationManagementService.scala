@@ -7,9 +7,8 @@ import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, KafkaTopicServ
 import io.hydrosphere.serving.manager.ApplicationConfig
 import io.hydrosphere.serving.manager.controller.application._
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.DataGenerator
+import io.hydrosphere.serving.manager.model.api.{DataGenerator, SignatureValidator}
 import io.hydrosphere.serving.manager.model.api.ops.{ModelSignatureOps, TensorProtoOps}
-import io.hydrosphere.serving.manager.model.api.validation.SignatureValidator
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelVersionRepository, RuntimeRepository}
 import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService
 import io.hydrosphere.serving.tensorflow.api.model.ModelSpec
