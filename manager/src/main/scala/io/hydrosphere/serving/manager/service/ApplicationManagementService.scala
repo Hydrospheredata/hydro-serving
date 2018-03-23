@@ -7,8 +7,9 @@ import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, KafkaTopicServ
 import io.hydrosphere.serving.manager.ApplicationConfig
 import io.hydrosphere.serving.manager.controller.application._
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.{DataGenerator, SignatureValidator}
+import io.hydrosphere.serving.manager.model.api.DataGenerator
 import io.hydrosphere.serving.manager.model.api.ops.{ModelSignatureOps, TensorProtoOps}
+import io.hydrosphere.serving.manager.model.api.tensor_builder.SignatureBuilder
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelVersionRepository, RuntimeRepository}
 import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService
 import io.hydrosphere.serving.tensorflow.api.model.ModelSpec
@@ -150,7 +151,7 @@ class ApplicationManagementServiceImpl(
             .find(_.signatureName == jsonServeRequest.signatureName)
             .getOrElse(throw new IllegalArgumentException(s"Application ${jsonServeRequest.targetId} doesn't have a ${jsonServeRequest.signatureName} signature"))
 
-          val ds = new SignatureValidator(signature).convert(jsonServeRequest.inputs).right.map { tensors =>
+          val ds = new SignatureBuilder(signature).convert(jsonServeRequest.inputs).right.map { tensors =>
             PredictRequest(
               modelSpec = Some(
                 ModelSpec(

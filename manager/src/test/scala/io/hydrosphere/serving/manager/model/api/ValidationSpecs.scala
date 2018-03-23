@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager.model.api
 
 import com.google.protobuf.ByteString
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
+import io.hydrosphere.serving.manager.model.api.tensor_builder.{PredictRequestContractValidator, SignatureBuilder}
 import io.hydrosphere.serving.manager.model.api.validation.SignatureValidator
 import io.hydrosphere.serving.tensorflow.types.DataType.{DT_BOOL, DT_FLOAT, DT_INT16, DT_STRING}
 import org.scalatest.WordSpec
@@ -32,7 +33,7 @@ class ValidationSpecs extends WordSpec {
           )
         )
 
-        val validator = new SignatureValidator(signature)
+        val validator = new SignatureBuilder(signature)
         val result = validator.convert(input).right.get
 
         assert(result("age").intVal === Seq(2))
@@ -70,7 +71,7 @@ class ValidationSpecs extends WordSpec {
           )
         )
 
-        val validator = new SignatureValidator(signature)
+        val validator = new SignatureBuilder(signature)
         val result = validator.convert(input).right.get
 
         assert(result("isOk").boolVal === Seq(true))
@@ -102,7 +103,7 @@ class ValidationSpecs extends WordSpec {
           )
         )
 
-        val validator = new SignatureValidator(signature)
+        val validator = new SignatureBuilder(signature)
         val result = validator.convert(input)
 
         assert(result.isLeft, result)
@@ -138,7 +139,7 @@ class ValidationSpecs extends WordSpec {
           )
         )
 
-        val validator = new SignatureValidator(signature)
+        val validator = new SignatureBuilder(signature)
         val result = validator.convert(input)
 
         assert(result.isLeft, result)

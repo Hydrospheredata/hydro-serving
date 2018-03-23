@@ -1,5 +1,8 @@
 package io.hydrosphere.serving.manager.model.api.json
 
-object BoolToJson extends TensorToJson[BoolTensor] {
+import io.hydrosphere.serving.tensorflow.tensor.BoolTensor
+import spray.json.{JsBoolean, JsValue}
+
+object BoolToJson extends TensorJsonLens[BoolTensor] {
   override def convert = JsBoolean.apply
 }

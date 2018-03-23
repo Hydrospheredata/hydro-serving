@@ -1,18 +1,20 @@
 package io.hydrosphere.serving.manager.model.api.json
 
 import io.hydrosphere.serving.tensorflow.tensor._
-import spray.json.{JsBoolean, JsNumber, JsObject, JsString, JsValue}
+import spray.json.{JsObject, JsValue}
 
-trait TensorToJson[T <: TypedTensor[_]]{
+trait TensorJsonLens[T <: TypedTensor[_]]{
   def convert: (T#Self#DataT) => JsValue
+  
+  final def get(tensor: T): Seq[JsValue] = tensor.data.map(convert)
 
   final def toJson(tensor: T): JsValue = {
     val shaper = ColumnShaper(tensor.shape)
-    shaper(tensor.data.map(convert))
+    shaper(get(tensor))
   }
 }
 
-object TensorToJson {
+object TensorJsonLens {
   def toJson(t: TypedTensor[_]): JsValue = {
     t match {
       case x: MapTensor => MapToJson.toJson(x)
@@ -29,7 +31,7 @@ object TensorToJson {
     }
   }
 
-  def jsonify(tensors: Map[String, TypedTensor[_]]): JsObject = {
+  def mapToJson(tensors: Map[String, TypedTensor[_]]): JsObject = {
     JsObject(
       tensors.mapValues(toJson)
     )

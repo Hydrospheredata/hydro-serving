@@ -1,5 +1,5 @@
 package io.hydrosphere.serving.manager.model.api.json
 
-object FloatToJson extends TensorToJson[FloatTensor] {
+object FloatToJson extends TensorJsonLens[FloatTensor] {
   override def convert = JsNumber.apply(_)
 }
