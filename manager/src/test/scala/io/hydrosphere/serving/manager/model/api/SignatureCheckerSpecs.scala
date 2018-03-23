@@ -2,7 +2,6 @@ package io.hydrosphere.serving.manager.model.api
 
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
 import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.scalatest.WordSpec
@@ -15,19 +14,19 @@ class SignatureCheckerSpecs extends WordSpec {
         val sig1 = ModelSignature(
           "sig1",
           List(
-            ModelField("in1", ModelField.InfoOrSubfields.Info(TensorInfo(DataType.DT_STRING, None)))
+            ModelField("in1", None, ModelField.TypeOrSubfields.Dtype(DataType.DT_STRING))
           ),
           List(
-            ModelField("out1", ModelField.InfoOrSubfields.Info(TensorInfo(DataType.DT_STRING, None)))
+            ModelField("out1", None, ModelField.TypeOrSubfields.Dtype(DataType.DT_STRING))
           )
         )
         val sig2 = ModelSignature(
           "sig2",
           List(
-            ModelField("out1", ModelField.InfoOrSubfields.Info(TensorInfo(DataType.DT_STRING, None)))
+            ModelField("out1", None, ModelField.TypeOrSubfields.Dtype(DataType.DT_STRING))
           ),
           List(
-            ModelField("out2", ModelField.InfoOrSubfields.Info(TensorInfo(DataType.DT_STRING, None)))
+            ModelField("out2", None, ModelField.TypeOrSubfields.Dtype(DataType.DT_STRING))
           )
         )
         assert(SignatureChecker.areSequentiallyCompatible(sig1, sig2))

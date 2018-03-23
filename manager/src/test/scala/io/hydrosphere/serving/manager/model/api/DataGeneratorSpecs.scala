@@ -3,7 +3,9 @@ package io.hydrosphere.serving.manager.model.api
 import com.google.protobuf.ByteString
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.tensorflow.tensor.TensorProto
+import io.hydrosphere.serving.contract.utils.{ContractBuilders, DataGenerator}
+import io.hydrosphere.serving.tensorflow.TensorShape
+import io.hydrosphere.serving.tensorflow.tensor.{MapTensor, StringTensor, TensorProto}
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.scalatest.WordSpec
 
@@ -42,8 +44,8 @@ class DataGeneratorSpecs extends WordSpec {
         )
 
         val expected = Map(
-          "in1" -> TensorProto(dtype = DataType.DT_STRING, tensorShape = Some(ContractBuilders.createTensorShape(List(-1))), stringVal = List(ByteString.copyFromUtf8("foo"))),
-          "in2" -> TensorProto(dtype = DataType.DT_INT32, tensorShape = Some(ContractBuilders.createTensorShape(List(3))), intVal = List(1, 1, 1))
+          "in1" -> TensorProto(dtype = DataType.DT_STRING, tensorShape = TensorShape.vector(-1).toProto, stringVal = List(ByteString.copyFromUtf8("foo"))),
+          "in2" -> TensorProto(dtype = DataType.DT_INT32, tensorShape = TensorShape.vector(3).toProto, intVal = List(1, 1, 1))
         )
 
         val generated = DataGenerator(sig1).generateInputs
@@ -55,6 +57,7 @@ class DataGeneratorSpecs extends WordSpec {
           "sig1",
           List(
             ContractBuilders.complexField("in1",
+              None,
               Seq(
                 ContractBuilders.simpleTensorModelField("a", DataType.DT_STRING, None),
                 ContractBuilders.simpleTensorModelField("b", DataType.DT_STRING, None)
@@ -67,12 +70,19 @@ class DataGeneratorSpecs extends WordSpec {
         )
 
         val expected = Map(
-          "in1" -> TensorProto(
-            dtype = DataType.DT_MAP,
-            tensorShape = None,
-            mapVal = Map(
-              "a" -> TensorProto(DataType.DT_STRING, None, stringVal = List(ByteString.copyFromUtf8("foo"))),
-              "b" -> TensorProto(DataType.DT_STRING, None, stringVal = List(ByteString.copyFromUtf8("foo")))
+          "in1" -> MapTensor(
+            TensorShape.scalar,
+            Seq(
+              Map(
+                "a" -> StringTensor(
+                  TensorShape.scalar,
+                  Seq("foo")
+                ),
+                "b" -> StringTensor(
+                  TensorShape.scalar,
+                  Seq("foo")
+                )
+              )
             )
           )
         )

@@ -1,16 +1,12 @@
 package io.hydrosphere.serving.manager.model.api
 
-import com.google.protobuf.ByteString
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.contract.utils.ContractBuilders
 import io.hydrosphere.serving.contract.utils.description._
 import io.hydrosphere.serving.contract.utils.ops.ModelSignatureOps
-import io.hydrosphere.serving.tensorflow.TensorShape
-import io.hydrosphere.serving.tensorflow.tensor.TensorProto
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.scalatest.WordSpec
-import spray.json.{JsArray, JsNumber, JsObject, JsString}
 
 
 class ContractOpsSpecs extends WordSpec {
