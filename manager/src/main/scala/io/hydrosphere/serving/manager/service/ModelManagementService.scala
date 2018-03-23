@@ -16,6 +16,7 @@ import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor.Ignore
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.contract.utils.ops.ModelContractOps._
+import io.hydrosphere.serving.manager.model.api.json.TensorJsonLens
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.apache.logging.log4j.scala.Logging
 import spray.json.JsObject
@@ -359,7 +360,7 @@ class ModelManagementServiceImpl(
   private def generatePayload(contract: ModelContract, signature: String): Seq[JsObject] = {
     val res = DataGenerator.forContract(contract, signature)
       .getOrElse(throw new IllegalArgumentException(s"Can't find signature model signature=$signature"))
-    Seq(TensorProtoOps.jsonify(res.generateInputs))
+    Seq(TensorJsonLens.mapToJson(res.generateInputs))
   }
 
 

@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.controller.model
 
-import io.hydrosphere.serving.manager.model.api.description.ContractDescription
+import io.hydrosphere.serving.contract.utils.description.ContractDescription
 
 case class BuildModelRequest(
   modelId: Long,
