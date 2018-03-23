@@ -3,7 +3,10 @@ package io.hydrosphere.serving.manager.model.api
 import com.google.protobuf.ByteString
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.model.api.description._
+import io.hydrosphere.serving.contract.utils.ContractBuilders
+import io.hydrosphere.serving.contract.utils.description._
+import io.hydrosphere.serving.contract.utils.ops.ModelSignatureOps
+import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.tensor.TensorProto
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.scalatest.WordSpec
@@ -12,7 +15,7 @@ import spray.json.{JsArray, JsNumber, JsObject, JsString}
 
 class ContractOpsSpecs extends WordSpec {
 
-  import io.hydrosphere.serving.manager.model.api.ops.Implicits._
+  import io.hydrosphere.serving.contract.utils.ops.Implicits._
 
   "ContractOps" can {
     "merge" should {
@@ -49,7 +52,7 @@ class ContractOpsSpecs extends WordSpec {
             )
           )
 
-          assert(sig1 +++ sig2 === expectedSig)
+          assert(ModelSignatureOps.merge(sig1, sig2) === expectedSig)
         }
 
         "inputs are overlapping and compatible" in {
@@ -83,7 +86,7 @@ class ContractOpsSpecs extends WordSpec {
             )
           )
 
-          assert(sig1 +++ sig2 === expectedSig)
+          assert(ModelSignatureOps.merge(sig1, sig2) === expectedSig)
         }
       }
 
@@ -108,7 +111,7 @@ class ContractOpsSpecs extends WordSpec {
             )
           )
 
-          assertThrows[IllegalArgumentException](sig1 +++ sig2)
+          assertThrows[IllegalArgumentException](ModelSignatureOps.merge(sig1, sig2))
         }
 
         "outputs overlap is conflicting" in {
@@ -131,7 +134,7 @@ class ContractOpsSpecs extends WordSpec {
             )
           )
 
-          assertThrows[IllegalArgumentException](sig1 +++ sig2)
+          assertThrows[IllegalArgumentException](ModelSignatureOps.merge(sig1, sig2))
         }
       }
     }
@@ -190,6 +193,7 @@ class ContractOpsSpecs extends WordSpec {
           List(
             ContractBuilders.complexField(
               "in",
+              None,
               Seq(
                 ContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None),
                 ContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, None)
@@ -199,6 +203,7 @@ class ContractOpsSpecs extends WordSpec {
           List(
             ContractBuilders.complexField(
               "out",
+              None,
               Seq(
                 ContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1))),
                 ContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, None)
@@ -276,6 +281,7 @@ class ContractOpsSpecs extends WordSpec {
           List(
             ContractBuilders.complexField(
               "in",
+              None,
               Seq(
                 ContractBuilders.simpleTensorModelField("in1", DataType.DT_STRING, None),
                 ContractBuilders.simpleTensorModelField("in2", DataType.DT_INT32, None)
@@ -285,6 +291,7 @@ class ContractOpsSpecs extends WordSpec {
           List(
             ContractBuilders.complexField(
               "out",
+              None,
               Seq(
                 ContractBuilders.simpleTensorModelField("out1", DataType.DT_DOUBLE, Some(List(-1))),
                 ContractBuilders.simpleTensorModelField("out2", DataType.DT_INT32, None)
@@ -312,66 +319,5 @@ class ContractOpsSpecs extends WordSpec {
       }
     }
 
-    "jsonify" when {
-      "classical TensorProto" in {
-        val tensor = TensorProto(
-          dtype = DataType.DT_STRING,
-          tensorShape = Some(ContractBuilders.createTensorShape(Seq(2,2))),
-          stringVal = Seq("never", "gonna", "give", "you").map(ByteString.copyFromUtf8)
-        )
-
-        val expected = JsArray(
-          JsArray(JsString("never"), JsString("gonna")),
-          JsArray(JsString("give"), JsString("you"))
-        )
-
-        assert(tensor.jsonify === expected)
-      }
-
-      "TensorProto with [-1]" in {
-        val tensor = TensorProto(
-          dtype = DataType.DT_STRING,
-          tensorShape = Some(ContractBuilders.createTensorShape(Seq(-1))),
-          stringVal = Seq("never", "gonna", "give", "you").map(ByteString.copyFromUtf8)
-        )
-
-        val expected = JsArray(
-          JsString("never"), JsString("gonna"),JsString("give"), JsString("you")
-        )
-
-        assert(tensor.jsonify === expected)
-      }
-
-      "TensorProto with maps" in {
-        val tensor = TensorProto(
-          dtype = DataType.DT_MAP,
-          tensorShape = None,
-          mapVal = Map(
-            "name" -> TensorProto(
-              dtype = DataType.DT_STRING,
-              stringVal = Seq(ByteString.copyFromUtf8("Rick"))
-            ),
-            "email" -> TensorProto(
-              dtype = DataType.DT_STRING,
-              stringVal = Seq(ByteString.copyFromUtf8("rick@roll.com"))
-            ),
-            "age" -> TensorProto(
-              dtype = DataType.DT_INT32,
-              intVal = Seq(32)
-            )
-          )
-        )
-
-        val expected = JsObject(
-          Map(
-            "name" -> JsString("Rick"),
-            "email" -> JsString("rick@roll.com"),
-            "age" -> JsNumber(32)
-          )
-        )
-
-        assert(tensor.jsonify === expected)
-      }
-    }
   }
 }
