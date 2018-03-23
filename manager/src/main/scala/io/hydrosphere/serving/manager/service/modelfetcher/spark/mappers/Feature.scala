@@ -1,11 +1,11 @@
 package io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers
 
 import io.hydrosphere.serving.contract.model_field.ModelField
+import io.hydrosphere.serving.contract.utils.ContractBuilders
 import io.hydrosphere.serving.tensorflow.types.DataType
 import io.hydrosphere.serving.tensorflow.types.DataType.{DT_DOUBLE, DT_STRING, DT_VARIANT}
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelMetadata
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers.SparkMlTypeMapper._
-import io.hydrosphere.serving.manager.model.api.ContractBuilders
 
 class HashingTFMapper(m: SparkModelMetadata)  extends InputOutputMapper(m) {
   override def inputType(sparkModelMetadata: SparkModelMetadata) = varVec(DT_STRING)

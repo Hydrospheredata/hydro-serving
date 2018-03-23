@@ -42,7 +42,7 @@ class InfoFieldBuilder(val field: ModelField, val dataType: DataType) {
     toTensor(factory, convertedData)
   }
 
-  def toTensor[T](factory: TypedTensorFactory[T], flatData: Seq[Any]): Either[ValidationError, T] = {
+  def toTensor[T <: TypedTensor[_]](factory: TypedTensorFactory[T], flatData: Seq[Any]): Either[ValidationError, T] = {
     factory.createFromAny(flatData, TensorShape.fromProto(field.shape)) match {
       case Some(tensor) => Right(tensor)
       case None => Left(new ValidationError(s"Can't create a tensor with $dataType type and ${field.shape} shape for [$flatData]") {})

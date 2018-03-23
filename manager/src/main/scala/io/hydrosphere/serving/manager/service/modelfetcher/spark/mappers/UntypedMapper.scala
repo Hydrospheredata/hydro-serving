@@ -1,9 +1,9 @@
 package io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers
 
 import io.hydrosphere.serving.contract.model_field.ModelField
+import io.hydrosphere.serving.contract.utils.ContractBuilders
 import io.hydrosphere.serving.tensorflow.types.DataType
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelMetadata
-import io.hydrosphere.serving.manager.model.api.ContractBuilders
 
 class UntypedMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
   private[this] val inputCols = Array("inputCol", "featuresCol")

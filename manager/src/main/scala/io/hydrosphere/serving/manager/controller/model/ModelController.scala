@@ -12,6 +12,7 @@ import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.FileIO
 import akka.util.Timeout
 import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.ServingDataDirectives
 import io.hydrosphere.serving.manager.controller.model.UploadedEntity._
 import io.hydrosphere.serving.manager.model.CommonJsonSupport._
