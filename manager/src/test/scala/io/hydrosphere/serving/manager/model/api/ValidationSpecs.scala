@@ -2,8 +2,8 @@ package io.hydrosphere.serving.manager.model.api
 
 import com.google.protobuf.ByteString
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
+import io.hydrosphere.serving.contract.utils.ContractBuilders
 import io.hydrosphere.serving.manager.model.api.tensor_builder.{PredictRequestContractValidator, SignatureBuilder}
-import io.hydrosphere.serving.manager.model.api.validation.SignatureValidator
 import io.hydrosphere.serving.tensorflow.types.DataType.{DT_BOOL, DT_FLOAT, DT_INT16, DT_STRING}
 import org.scalatest.WordSpec
 import spray.json._
@@ -34,7 +34,7 @@ class ValidationSpecs extends WordSpec {
         )
 
         val validator = new SignatureBuilder(signature)
-        val result = validator.convert(input).right.get
+        val result = validator.convert(input).right.get.mapValues(_.toProto)
 
         assert(result("age").intVal === Seq(2))
         assert(result("name").stringVal === Seq(ByteString.copyFromUtf8("Vasya")))
@@ -60,7 +60,9 @@ class ValidationSpecs extends WordSpec {
           signatureName = "test",
           inputs = Seq(
             ContractBuilders.simpleTensorModelField("isOk", DT_BOOL, None),
-            ContractBuilders.complexField("person",
+            ContractBuilders.complexField(
+              "person",
+              None,
               Seq(
                 ContractBuilders.simpleTensorModelField("name", DT_STRING, None),
                 ContractBuilders.simpleTensorModelField("age", DT_INT16, None),
@@ -72,11 +74,11 @@ class ValidationSpecs extends WordSpec {
         )
 
         val validator = new SignatureBuilder(signature)
-        val result = validator.convert(input).right.get
+        val result = validator.convert(input).right.get.mapValues(_.toProto)
 
         assert(result("isOk").boolVal === Seq(true))
 
-        val person = result("person").mapVal
+        val person = result("person").mapVal.head.subtensors
         assert(person("age").intVal === Seq(18))
         assert(person("name").stringVal === Seq(ByteString.copyFromUtf8("Vasya")))
         assert(person("isEmployed").boolVal === Seq(true))
@@ -128,7 +130,9 @@ class ValidationSpecs extends WordSpec {
           signatureName = "test",
           inputs = Seq(
             ContractBuilders.simpleTensorModelField("isOk", DT_BOOL, None),
-            ContractBuilders.complexField("person",
+            ContractBuilders.complexField(
+              "person",
+              None,
               Seq(
                 ContractBuilders.simpleTensorModelField("surname", DT_STRING, None),
                 ContractBuilders.simpleTensorModelField("age", DT_INT16, None),
