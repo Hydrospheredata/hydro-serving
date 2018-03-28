@@ -42,7 +42,7 @@ class TensorJson extends WordSpec{
             ),
             "email" -> StringTensor(
               TensorShape.scalar,
-              Seq("Rick")
+              Seq("rick@roll.com")
             ),
             "age" -> Int32Tensor(
               TensorShape.scalar,
