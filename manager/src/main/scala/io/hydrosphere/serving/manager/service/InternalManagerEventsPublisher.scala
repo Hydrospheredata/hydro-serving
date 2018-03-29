@@ -14,6 +14,8 @@ case class ServiceRemoved(service: Service)
 
 case class CloudServiceDetected(cloudServices: Seq[CloudService])
 
+case class CloudServiceRemoved(cloudServices: Seq[CloudService])
+
 class InternalManagerEventsPublisher(implicit actorSystem: ActorSystem) {
 
   def applicationChanged(application: Application): Unit =
@@ -30,6 +32,9 @@ class InternalManagerEventsPublisher(implicit actorSystem: ActorSystem) {
 
   def cloudServiceDetected(cloudService: Seq[CloudService]): Unit =
     actorSystem.eventStream.publish(CloudServiceDetected(cloudService))
+
+  def cloudServiceRemoved(cloudService: Seq[CloudService]): Unit =
+    actorSystem.eventStream.publish(CloudServiceRemoved(cloudService))
 }
 
 

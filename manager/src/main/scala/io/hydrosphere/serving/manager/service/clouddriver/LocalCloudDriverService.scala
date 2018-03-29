@@ -15,6 +15,7 @@ import org.apache.logging.log4j.scala.Logging
 import scala.concurrent.{ExecutionContext, Future}
 import collection.JavaConversions._
 import scala.util.Try
+import CloudDriverService._
 
 /**
   *
@@ -101,6 +102,7 @@ class LocalCloudDriverService(
     )
 
     val builder = createMainApplicationHostConfigBuilder()
+
 
     modelContainerId.foreach { _ =>
       builder.volumesFrom(generateModelContainerName(service))
@@ -304,17 +306,17 @@ class LocalCloudDriverService(
       MetricServiceTargets(
         targets = List(s"${managerConfiguration.sidecar.host}:${managerConfiguration.sidecar.adminPort}"),
         labels = MetricServiceTargetLabels(
-          job = "sidecar",
+          job = Some("sidecar"),
           modelName = None,
           modelVersion = None,
           environment = None,
-          runtimeName = "hydrosphere/serving-manager",
-          runtimeVersion = "latest",
-          serviceName = CloudDriverService.MANAGER_NAME,
-          serviceId = CloudDriverService.MANAGER_ID.toString,
-          serviceCloudDriverId = "managerConfiguration.sidecar",
-          serviceType = CloudDriverService.DEPLOYMENT_TYPE_SIDECAR,
-          instanceId = "managerConfiguration.sidecar"
+          runtimeName = Some("hydrosphere/serving-manager"),
+          runtimeVersion = Some("latest"),
+          serviceName = Some(CloudDriverService.MANAGER_NAME),
+          serviceId = Some(CloudDriverService.MANAGER_ID.toString),
+          serviceCloudDriverId = Some("managerConfiguration.sidecar"),
+          serviceType = Some(CloudDriverService.DEPLOYMENT_TYPE_SIDECAR),
+          instanceId = Some("managerConfiguration.sidecar")
         )
       )
     ))

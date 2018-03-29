@@ -42,8 +42,6 @@ services:
     environment:
       - "MANAGER_HOST=manager"
       - "MANAGER_PORT=9091"
-      - "SERVICE_ID=-20"
-      - "SERVICE_NAME=manager"
 
   managerui:
     image: hydrosphere/serving-manager-ui:latest

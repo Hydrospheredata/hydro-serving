@@ -7,6 +7,7 @@ import io.hydrosphere.serving.manager.service.InternalManagerEventsPublisher
 
 import collection.JavaConversions._
 import scala.concurrent.ExecutionContext
+import CloudDriverService._
 
 class DockerComposeCloudDriverService(
   dockerClient: DockerClient,
@@ -29,9 +30,9 @@ class DockerComposeCloudDriverService(
     val builder = HostConfig.builder()
       .networkMode(driverConfiguration.networkName)
 
-    driverConfiguration.loggingGelfHost match {
+    driverConfiguration.loggingConfiguration match {
       case Some(x) =>
-        builder.logConfig(LogConfig.create("gelf", Map("gelf-address" -> x)))
+        builder.logConfig(LogConfig.create(x.driver, x.params))
       case _ =>
     }
     builder
