@@ -12,7 +12,7 @@ object Dependencies {
   val scalaPBVersion = "0.6.7"
   val grpcNettyVersion = "1.8.0"
   val awsSdkVersion = "1.11.184"
-  val servingGrpcScala = "0.1.0"
+  val servingGrpcScala = "0.1.2"
 
 
   lazy val hdfsDependencies = Seq(
