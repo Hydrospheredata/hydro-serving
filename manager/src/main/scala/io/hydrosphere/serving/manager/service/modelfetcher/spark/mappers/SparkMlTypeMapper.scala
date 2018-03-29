@@ -1,11 +1,12 @@
 package io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers
 
 import io.hydrosphere.serving.contract.model_field.ModelField
+import io.hydrosphere.serving.contract.utils.ContractBuilders
+import io.hydrosphere.serving.manager.service.modelfetcher.FieldInfo
 import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 import io.hydrosphere.serving.tensorflow.types.DataType
 import io.hydrosphere.serving.manager.service.modelfetcher.spark._
-import io.hydrosphere.serving.manager.model.api.ContractBuilders
-import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
+import io.hydrosphere.serving.tensorflow.TensorShape
 
 abstract class SparkMlTypeMapper(val m: SparkModelMetadata) {
 
@@ -16,35 +17,31 @@ abstract class SparkMlTypeMapper(val m: SparkModelMetadata) {
 
 object SparkMlTypeMapper {
 
-  def constructField(name: String, tensorInfo: TensorInfo): ModelField = {
-    ContractBuilders.rawTensorModelField(name, tensorInfo.dtype, tensorInfo.tensorShape)
+  def constructField(name: String, tensorInfo: FieldInfo): ModelField = {
+    ContractBuilders.rawTensorModelField(name, tensorInfo.dataType, tensorInfo.shape.toProto)
   }
 
-  def scalar(dataType: DataType): TensorInfo = {
-    TensorInfo(dataType, None)
+  def scalar(dataType: DataType): FieldInfo = {
+    FieldInfo(dataType, TensorShape.scalar)
   }
 
-  def fixedVec(dataType: DataType, size: Long): TensorInfo = {
-    TensorInfo(
+  def fixedVec(dataType: DataType, size: Long): FieldInfo = {
+    FieldInfo(
       dataType,
-      Some(
-        TensorShapeProto(
-          List(TensorShapeProto.Dim(size))
-        )
-      )
+      TensorShape.vector(size)
     )
   }
 
-  def varVec(dataType: DataType): TensorInfo = fixedVec(dataType, -1)
+  def varVec(dataType: DataType): FieldInfo = fixedVec(dataType, -1)
 
-  def featuresVec(sparkModelMetadata: SparkModelMetadata): TensorInfo = {
+  def featuresVec(sparkModelMetadata: SparkModelMetadata): FieldInfo = {
     fixedVec(
       DataType.DT_DOUBLE,
       sparkModelMetadata.numFeatures.getOrElse(-1).toLong
     )
   }
 
-  def classesVec(sparkModelMetadata: SparkModelMetadata): TensorInfo = {
+  def classesVec(sparkModelMetadata: SparkModelMetadata): FieldInfo = {
     fixedVec(
       DataType.DT_DOUBLE,
       sparkModelMetadata.numFeatures.getOrElse(-1).toLong

@@ -39,9 +39,9 @@ object SparkModelFetcher extends ModelFetcher with Logging {
       val outputs = mappers.map(_.outputSchema)
       val labels = mappers.flatMap(_.labelSchema)
 
-      val allLabels = labels.map(_.fieldName)
-      val allIns = inputs.flatten.map(x => x.fieldName -> x).toMap
-      val allOuts = outputs.flatten.map(x => x.fieldName -> x).toMap
+      val allLabels = labels.map(_.name)
+      val allIns = inputs.flatten.map(x => x.name -> x).toMap
+      val allOuts = outputs.flatten.map(x => x.name -> x).toMap
 
       val inputSchema = if (allLabels.isEmpty) {
         (allIns -- allOuts.keys).map{case (_,y) => y}.toList
@@ -49,11 +49,11 @@ object SparkModelFetcher extends ModelFetcher with Logging {
         val trainInputs = stagesMetadata.filter { stage =>
           val mapper = SparkMlTypeMapper(stage)
           val outs = mapper.outputSchema
-          outs.map(x => x.fieldName -> x).toMap.keys.containsAll(allLabels)
+          outs.map(x => x.name -> x).toMap.keys.containsAll(allLabels)
         }.map{ stage =>
           SparkMlTypeMapper(stage).inputSchema
         }
-        val allTrains = trainInputs.flatten.map(x => x.fieldName -> x).toMap
+        val allTrains = trainInputs.flatten.map(x => x.name -> x).toMap
         (allIns -- allOuts.keys -- allTrains.keys).map{case (_,y) => y}.toList
       }
       val outputSchema = (allOuts -- allIns.keys).map{case (_,y) => y}.toList

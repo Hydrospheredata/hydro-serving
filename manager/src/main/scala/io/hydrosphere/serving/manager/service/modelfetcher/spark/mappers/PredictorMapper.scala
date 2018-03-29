@@ -1,14 +1,14 @@
 package io.hydrosphere.serving.manager.service.modelfetcher.spark.mappers
 
 import io.hydrosphere.serving.contract.model_field.ModelField
+import io.hydrosphere.serving.contract.utils.ContractBuilders
+import io.hydrosphere.serving.manager.service.modelfetcher.FieldInfo
 import io.hydrosphere.serving.tensorflow.types.DataType.{DT_DOUBLE, DT_STRING}
 import io.hydrosphere.serving.manager.service.modelfetcher.spark.SparkModelMetadata
-import io.hydrosphere.serving.manager.model.api.ContractBuilders
-import io.hydrosphere.serving.tensorflow.tensor_info.TensorInfo
 
 abstract class PredictorMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
-  def featuresType(sparkModelMetadata: SparkModelMetadata): TensorInfo = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
-  def predictionType(sparkModelMetadata: SparkModelMetadata): TensorInfo = SparkMlTypeMapper.scalar(DT_DOUBLE)
+  def featuresType(sparkModelMetadata: SparkModelMetadata): FieldInfo = SparkMlTypeMapper.featuresVec(sparkModelMetadata)
+  def predictionType(sparkModelMetadata: SparkModelMetadata): FieldInfo = SparkMlTypeMapper.scalar(DT_DOUBLE)
 
   override def labelSchema: Option[ModelField] = {
     val name = m.getParam[String]("labelCol").get

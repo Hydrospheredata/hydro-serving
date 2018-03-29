@@ -1,20 +1,21 @@
 package io.hydrosphere.serving.manager.service
 
-import io.grpc.Context
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
+import io.hydrosphere.serving.contract.utils.DataGenerator
+import io.hydrosphere.serving.contract.utils.ops.ModelSignatureOps
 import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, KafkaTopicServerInterceptor}
 import io.hydrosphere.serving.manager.ApplicationConfig
 import io.hydrosphere.serving.manager.controller.application._
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.DataGenerator
-import io.hydrosphere.serving.manager.model.api.ops.{ModelSignatureOps, TensorProtoOps}
-import io.hydrosphere.serving.manager.model.api.validation.SignatureValidator
+import io.hydrosphere.serving.manager.model.api.json.TensorJsonLens
+import io.hydrosphere.serving.manager.model.api.tensor_builder.SignatureBuilder
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, ModelVersionRepository, RuntimeRepository}
 import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService
 import io.hydrosphere.serving.tensorflow.api.model.ModelSpec
 import io.hydrosphere.serving.tensorflow.api.predict.{PredictRequest, PredictResponse}
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
+import io.hydrosphere.serving.tensorflow.tensor.TypedTensorFactory
 import org.apache.logging.log4j.scala.Logging
 import spray.json.{JsObject, JsValue}
 
@@ -143,7 +144,7 @@ class ApplicationManagementServiceImpl(
     }
   }
 
-  def serveJsonApplication(jsonServeRequest: JsonServeRequest): Future[JsValue] = {
+  def serveJsonApplication(jsonServeRequest: JsonServeRequest): Future[JsObject] = {
     applicationRepository.get(jsonServeRequest.targetId)
       .flatMap {
         case Some(application) =>
@@ -151,7 +152,7 @@ class ApplicationManagementServiceImpl(
             .find(_.signatureName == jsonServeRequest.signatureName)
             .getOrElse(throw new IllegalArgumentException(s"Application ${jsonServeRequest.targetId} doesn't have a ${jsonServeRequest.signatureName} signature"))
 
-          val ds = new SignatureValidator(signature).convert(jsonServeRequest.inputs).right.map { tensors =>
+          val ds = new SignatureBuilder(signature).convert(jsonServeRequest.inputs).right.map { tensors =>
             PredictRequest(
               modelSpec = Some(
                 ModelSpec(
@@ -160,7 +161,7 @@ class ApplicationManagementServiceImpl(
                   version = None
                 )
               ),
-              inputs = tensors
+              inputs = tensors.mapValues(_.toProto)
             )
           }.right.map { grpcRequest =>
             serveApplication(application, grpcRequest)
@@ -170,16 +171,20 @@ class ApplicationManagementServiceImpl(
             case Left(l) =>
               Future.failed(new IllegalArgumentException(s"Can't map request $l"))
             case Right(r) =>
-              r.map(TensorProtoOps.jsonify)
+              r.map(rr => qwqe(rr))
           }
         case None =>
           Future.failed(new IllegalArgumentException(s"Can't find Application with id=${jsonServeRequest.targetId}"))
       }
   }
 
+  private def qwqe(rr: PredictResponse): JsObject = {
+    val fields = rr.outputs.mapValues(v => TensorJsonLens.toJson(TypedTensorFactory.create(v)))
+    JsObject(fields)
+  }
+
   def allApplications(): Future[Seq[Application]] =
     enrichApplications(applicationRepository.all())
-
 
 
   def enrichApplication(app:Future[Option[Application]]) =
@@ -258,7 +263,7 @@ class ApplicationManagementServiceImpl(
       case Some(app) =>
         app.contract.signatures.find(_.signatureName == signatureName).map { signature =>
           val data = DataGenerator(signature).generateInputs
-          TensorProtoOps.jsonify(data)
+          TensorJsonLens.mapToJson(data)
         }
       case None =>
         None
@@ -495,4 +500,5 @@ class ApplicationManagementServiceImpl(
       graph.stages.last.signature.get.outputs
     )
   }
+
 }
