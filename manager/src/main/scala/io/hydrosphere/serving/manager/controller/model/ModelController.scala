@@ -58,7 +58,7 @@ class ModelController(modelManagementService: ModelManagementService)
   }
 
   @Path("/")
-  @ApiOperation(value = "Add model", notes = "Add model", nickname = "addModel", httpMethod = "POST")
+  @ApiOperation(value = "Upload model", notes = "Upload model", nickname = "uploadModel", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "CreateOrUpdateModelRequest", required = true,
       dataTypeClass = classOf[CreateOrUpdateModelRequest], paramType = "body")
@@ -67,7 +67,7 @@ class ModelController(modelManagementService: ModelManagementService)
     new ApiResponse(code = 200, message = "Model", response = classOf[Model]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def addModel = path("api" / "v1" / "model") {
+  def uploadModel = path("api" / "v1" / "model") {
     post {
       entity(as[Multipart.FormData]) { (formdata: Multipart.FormData) ⇒
         val fileNamesFuture = formdata.parts.flatMapConcat { p ⇒
@@ -135,6 +135,21 @@ class ModelController(modelManagementService: ModelManagementService)
     }
   }
 
+  @Path("/")
+  @ApiOperation(value = "Add model", notes = "Add model", nickname = "uploadModel", httpMethod = "POST")
+  def addModel = path("api"/ "v1" / "model") {
+    post {
+      ???
+    }
+  }
+
+  @Path("/index")
+  @ApiOperation(value = "Add model", notes = "Add model", nickname = "uploadModel", httpMethod = "POST")
+  def indexModels = path("api"/ "v1" / "model" / "index") {
+    post {
+      ???
+    }
+  }
 
   @Path("/")
   @ApiOperation(value = "Update model", notes = "Update model", nickname = "updateModel", httpMethod = "PUT")
@@ -396,7 +411,7 @@ class ModelController(modelManagementService: ModelManagementService)
     }
   }
 
-  val routes: Route = listModels ~ getModel ~ updateModel ~ addModel ~ buildModel ~ listModelBuildsByModel ~ lastModelBuilds ~
+  val routes: Route = listModels ~ getModel ~ updateModel ~ uploadModel ~ buildModel ~ listModelBuildsByModel ~ lastModelBuilds ~
     generatePayloadByModelId ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract ~ generateInputsForVersion ~
     lastModelVersions ~ addModelVersion ~ allModelVersions ~ modelContractDescription ~ versionContractDescription
 }
