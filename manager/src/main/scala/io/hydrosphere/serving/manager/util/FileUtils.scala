@@ -55,4 +55,8 @@ object FileUtils {
     }
   }
 
+
+  def getResourcePath(resPath: String): String = {
+    getClass.getResource(resPath).getPath
+  }
 }

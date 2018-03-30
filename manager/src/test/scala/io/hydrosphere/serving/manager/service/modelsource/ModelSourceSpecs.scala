@@ -1,17 +1,15 @@
 package io.hydrosphere.serving.manager.service.modelsource
 
 import java.nio.file.Files
-
-import io.hydrosphere.serving.manager.TestConstants
 import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceDef}
+import io.hydrosphere.serving.manager.util.FileUtils
 import org.scalatest.{FlatSpec, Matchers}
 
 class ModelSourceSpecs extends FlatSpec with Matchers {
   def test(modelSource: ModelSource) = {
     modelSource.getClass.getSimpleName should "list all directories" in {
-      modelSource.getSubDirs should contain allElementsOf List("scikit_model", "spark_model", "tensorflow_model")
-      modelSource.getSubDirs("scikit_model") shouldBe empty
-      modelSource.getSubDirs("spark_model").toSet shouldBe Set("metadata", "stages")
+      modelSource.getSubDirs(FileUtils.getResourcePath("scikit_model")) shouldBe empty
+      modelSource.getSubDirs(FileUtils.getResourcePath("spark_model")).toSet shouldBe Set("metadata", "stages")
     }
 
     it should "list all files " in {
@@ -35,7 +33,7 @@ class ModelSourceSpecs extends FlatSpec with Matchers {
     }
   }
 
-  val localSource = new LocalModelSource(LocalSourceDef("test", TestConstants.localModelsPath))
+  val localSource = new LocalModelSource(LocalSourceDef("test"))
   test(localSource)
 
 //  "S3Source" should "be ok" in {

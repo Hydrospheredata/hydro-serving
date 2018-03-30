@@ -7,30 +7,21 @@ import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.manager.util.FileUtils._
 
 class LocalModelSource(val sourceDef: LocalSourceDef) extends ModelSource {
-  val sourceFile = new File(sourceDef.path.toString)
-
   override def getReadableFile(path: String): File = {
-    val requestedPath = Paths.get(sourceDef.path.toString, path)
+    val requestedPath = Paths.get(path)
     requestedPath.toFile
   }
 
   override def getSubDirs(path: String): List[String] = {
-    Paths.get(sourceDef.path.toString, path)
+    Paths.get(path)
       .toFile
       .getSubDirectories
       .map(_.getName)
       .toList
   }
 
-  override def getSubDirs: List[String] = {
-    sourceFile
-      .getSubDirectories
-      .map(_.getName)
-      .toList
-  }
-
-  override def getAllFiles(modelName: String): List[String] = {
-    val fullPath = Paths.get(sourceDef.path.toString, modelName)
+  override def getAllFiles(path: String): List[String] = {
+    val fullPath = Paths.get(path)
     val fullUri = fullPath.toUri
     fullPath
       .toFile
@@ -40,11 +31,11 @@ class LocalModelSource(val sourceDef: LocalSourceDef) extends ModelSource {
   }
 
   override def getAbsolutePath(modelPath: String): Path = {
-    Paths.get(sourceDef.path, modelPath)
+    Paths.get(modelPath)
   }
 
   override def isExist(path: String): Boolean = {
-    val requestedPath = Paths.get(sourceDef.path.toString, path)
+    val requestedPath = Paths.get(path)
     Files.exists(requestedPath)
   }
 

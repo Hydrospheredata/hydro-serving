@@ -6,46 +6,17 @@ import java.nio.file._
 
 import scala.collection.JavaConversions._
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
-import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceDef}
+import io.hydrosphere.serving.manager.service.modelsource.local._
 import io.hydrosphere.serving.manager.util.FileUtils.RecursiveRemover
 import org.apache.logging.log4j.scala.Logging
 
 class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging {
-  private[this] val localFolder = s"/tmp/${sourceDef.name}"
-  private val client = sourceDef.s3Client
-
-  val cacheSource = new LocalModelSource(
-    LocalSourceDef(s"s3-proxy-${sourceDef.name}", localFolder)
+  private[this] val localFolder = Paths.get("tmp", sourceDef.name)
+  private[this]val localSource = new LocalModelSource(
+    LocalSourceDef(s"s3-proxy-${sourceDef.name}")
   )
 
-  val proxyFolder: Path = Paths.get(localFolder)
-
-  def deleteProxyObject(objectPath: String): Boolean = {
-    val path = Paths.get(localFolder, objectPath)
-    if (Files.exists(path) && Files.isDirectory(path)) {
-      Files.walkFileTree(path, new RecursiveRemover())
-    }
-    Files.deleteIfExists(path)
-  }
-
-  def downloadObject(objectPath: String): File = {
-    logger.debug(s"downloadObject: $objectPath")
-    if (!client.doesObjectExist(sourceDef.bucket, objectPath))
-      throw new FileNotFoundException(objectPath)
-    val fileStream = client.getObject(sourceDef.bucket, objectPath).getObjectContent
-
-    val folderStructure = Paths.get(localFolder, objectPath.split("/").dropRight(1).mkString("/"))
-
-    if (Files.isRegularFile(folderStructure)) { // FIX sometimes s3 puts the entire folder
-      Files.delete(folderStructure)
-    }
-
-    Files.createDirectories(folderStructure)
-
-    val file = Files.createFile(Paths.get(localFolder, objectPath))
-    Files.copy(fileStream, file, StandardCopyOption.REPLACE_EXISTING)
-    file.toFile
-  }
+  private val client = sourceDef.s3Client
 
   override def getSubDirs(path: String): List[String] = {
     logger.debug(s"getSubDirs: $path")
@@ -58,18 +29,6 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
       .filterNot(_.length == 1)
       .map(_ (1))
       .distinct.toList
-  }
-
-  override def getSubDirs: List[String] = {
-    val r = client
-      .listObjects(sourceDef.bucket)
-      .getObjectSummaries
-      .map(_.getKey)
-      .map(_.split("/").head)
-      .distinct
-      .toList
-    logger.debug(s"getSubDirs $r")
-    r
   }
 
   override def getAllFiles(folder: String): List[String] = {
@@ -85,27 +44,22 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
       .map(_.toString)
       .map(getReadableFile)
 
-    val r = cacheSource.getAllFiles(folder)
+    val r = localSource.getAllFiles(localFolder.resolve(folder).toString)
     logger.debug(s"getAllFiles=$r")
     r
   }
 
-  def getAllCachedFiles(folder: String): List[String] = {
-    cacheSource.getAllFiles(folder)
-  }
-
   override def getReadableFile(path: String): File = {
     logger.debug(s"getReadableFile: $path")
-
     val fullObjectPath = URI.create(s"$path")
-    val file = cacheSource.getReadableFile(path)
-    if (!file.exists()) downloadObject(fullObjectPath.toString)
-    file
+    val file = localFolder.resolve(path)
+    if (Files.exists(file)) downloadObject(fullObjectPath.toString)
+    file.toFile
   }
 
-  override def getAbsolutePath(modelSource: String): Path = {
-    logger.debug(s"getAbsolutePath: $modelSource")
-    Paths.get(localFolder, modelSource)
+  override def getAbsolutePath(path: String): Path = {
+    logger.debug(s"getAbsolutePath: $path")
+    localFolder.resolve(path)
   }
 
   override def isExist(path: String): Boolean = {
@@ -118,5 +72,32 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
 
   override def writeFile(path: String, localFile: File): Unit = {
     client.putObject(sourceDef.bucket, path, localFile)
+  }
+
+  private def deleteProxyObject(objectPath: String): Boolean = {
+    val path = localFolder.resolve(objectPath)
+    if (Files.exists(path) && Files.isDirectory(path)) {
+      Files.walkFileTree(path, new RecursiveRemover())
+    }
+    Files.deleteIfExists(path)
+  }
+
+  private def downloadObject(objectPath: String): File = {
+    logger.debug(s"downloadObject: $objectPath")
+    if (!client.doesObjectExist(sourceDef.bucket, objectPath))
+      throw new FileNotFoundException(objectPath)
+    val fileStream = client.getObject(sourceDef.bucket, objectPath).getObjectContent
+
+    val folderStructure = localFolder.resolve(objectPath.split("/").dropRight(1).mkString("/"))
+
+    if (Files.isRegularFile(folderStructure)) { // FIX sometimes s3 puts the entire folder
+      Files.delete(folderStructure)
+    }
+
+    Files.createDirectories(folderStructure)
+
+    val file = Files.createFile(localFolder.resolve(objectPath))
+    Files.copy(fileStream, file, StandardCopyOption.REPLACE_EXISTING)
+    file.toFile
   }
 }

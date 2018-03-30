@@ -14,8 +14,6 @@ trait ModelSource {
 
   def getSubDirs(path: String): List[String]
 
-  def getSubDirs: List[String]
-
   def sourceDef: SourceDef
 
   def getAbsolutePath(modelSource: String): Path
