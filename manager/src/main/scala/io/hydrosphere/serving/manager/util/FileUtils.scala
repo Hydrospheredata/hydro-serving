@@ -57,6 +57,8 @@ object FileUtils {
 
 
   def getResourcePath(resPath: String): String = {
-    getClass.getResource(resPath).getPath
+    Option(getClass.getClassLoader.getResource(resPath))
+      .map(_.getPath)
+      .getOrElse(throw new FileNotFoundException(s"$resPath not found in resources"))
   }
 }
