@@ -1,6 +1,5 @@
 package io.hydrosphere.serving.manager.service
 
-import java.io.File
 import java.nio.file.{Files, Path, Paths}
 import java.time.LocalDateTime
 
@@ -12,7 +11,6 @@ import io.hydrosphere.serving.manager.controller.model.UploadedEntity
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.repository._
-import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor.IgnoreModel
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.contract.utils.ops.ModelContractOps._
@@ -158,8 +156,7 @@ class ModelManagementServiceImpl(
   modelBuildScriptRepository: ModelBuildScriptRepository,
   modelBuildService: ModelBuildService,
   modelPushService: ModelPushService,
-  sourceManagementService: SourceManagementService,
-  repoActor: ActorRef
+  sourceManagementService: SourceManagementService
 )(
   implicit val ex: ExecutionContext
 ) extends ModelManagementService with Logging {
@@ -456,7 +453,7 @@ class ModelManagementServiceImpl(
     }
   }
 
-  def writeFilesToSource(source: ModelSource, files: Map[Path, Path]) = {
+  def writeFilesToSource(source: ModelSource, files: Map[Path, Path]): Unit = {
     files.foreach {
       case (src, dest) =>
         source.writeFile(dest.toString, src.toFile)
@@ -481,8 +478,6 @@ class ModelManagementServiceImpl(
             path -> rootDir.resolve(relPath)
           }
           .toMap
-
-        repoActor ! IgnoreModel(upload.name) // Add model name to blacklist to ignore watcher events
 
         writeFilesToSource(source, localFiles)
         CreateOrUpdateModelRequest(

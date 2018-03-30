@@ -9,7 +9,6 @@ import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, KafkaTopicServ
 import io.hydrosphere.serving.manager.connector.HttpEnvoyAdminConnector
 import io.hydrosphere.serving.manager.service.clouddriver._
 import io.hydrosphere.serving.manager.service._
-import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
 import io.hydrosphere.serving.manager.service.envoy.{EnvoyGRPCDiscoveryService, EnvoyGRPCDiscoveryServiceImpl}
 import io.hydrosphere.serving.manager.service.modelbuild._
 import io.hydrosphere.serving.manager.service.prometheus.PrometheusMetricsServiceImpl
@@ -44,10 +43,6 @@ class ManagerServices(
 
   val sourceManagementService = new SourceManagementServiceImpl(managerConfiguration, managerRepositories.sourceRepository)
 
-  sourceManagementService.createWatchers
-
-  val repoActor: ActorRef = system.actorOf(RepositoryIndexActor.props(managerRepositories.modelRepository))
-
   val modelBuildService: ModelBuildService = new LocalModelBuildService(dockerClient, sourceManagementService)
 
   val modelPushService: ModelPushService = managerConfiguration.dockerRepository match {
@@ -64,8 +59,7 @@ class ManagerServices(
     managerRepositories.modelBuildScriptRepository,
     modelBuildService,
     modelPushService,
-    sourceManagementService,
-    repoActor
+    sourceManagementService
   )
 
   val cloudDriverService: CloudDriverService = managerConfiguration.cloudDriver match {

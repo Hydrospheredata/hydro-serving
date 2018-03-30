@@ -6,7 +6,7 @@ case class AddS3SourceRequest(
   name: String,
   key: Option[AWSAuthKeys],
   bucket: String,
-  queue: String,
+  path: String,
   region: String
 )
 

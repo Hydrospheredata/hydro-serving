@@ -153,15 +153,11 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
   implicit val sourceParamsFormat = new JsonFormat[SourceParams] {
     override def read(json: JsValue) = {
       json match {
-        case JsObject(fields) if fields.isDefinedAt("path") =>
-          LocalSourceParams(fields("path").convertTo[String])
-        case JsObject(fields) if fields.isDefinedAt("queueName") && fields.isDefinedAt("bucketName") =>
-          S3SourceParams(
-            awsAuth = fields.get("awsAuth").map(_.convertTo[AWSAuthKeys]),
-            bucketName = fields("bucketName").convertTo[String],
-            queueName = fields("queueName").convertTo[String],
-            region = fields("region").convertTo[String]
-          )
+        case obj@ JsObject(fields) if fields.isDefinedAt("path") =>
+          obj.convertTo[LocalSourceParams]
+        case obj@ JsObject(fields) if fields.isDefinedAt("bucketName") =>
+          obj.convertTo[S3SourceParams]
+        case x => throw new DeserializationException(s"Can't read ModelSource: $x")
       }
     }
 
@@ -169,7 +165,7 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
       obj match {
         case x: LocalSourceParams => x.toJson
         case x: S3SourceParams => x.toJson
-        case _ => ???
+        case x => throw new SerializationException(s"Can't write ModelSource: $x")
       }
     }
   }
@@ -181,6 +177,7 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
   implicit val aggregatedModelInfoFormat=jsonFormat4(AggregatedModelInfo)
 
   implicit val metricServiceTargetLabelsFormat = jsonFormat11(MetricServiceTargetLabels)
+
   implicit val metricServiceTargetsFormat = jsonFormat2(MetricServiceTargets)
 }
 

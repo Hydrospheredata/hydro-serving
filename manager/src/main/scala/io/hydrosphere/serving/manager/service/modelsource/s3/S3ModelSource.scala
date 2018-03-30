@@ -1,14 +1,13 @@
 package io.hydrosphere.serving.manager.service.modelsource.s3
 
-import java.io.{File, FileNotFoundException, IOException}
+import java.io.{File, FileNotFoundException}
 import java.net.URI
 import java.nio.file._
-import java.nio.file.attribute.BasicFileAttributes
 
 import scala.collection.JavaConversions._
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceDef}
-import io.hydrosphere.serving.manager.service.modelsource.s3.S3ModelSource.RecursiveRemover
+import io.hydrosphere.serving.manager.util.FileUtils.RecursiveRemover
 import org.apache.logging.log4j.scala.Logging
 
 class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging {
@@ -120,30 +119,4 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
   override def writeFile(path: String, localFile: File): Unit = {
     client.putObject(sourceDef.bucket, path, localFile)
   }
-}
-
-object S3ModelSource {
-
-  class RecursiveRemover extends FileVisitor[Path] with Logging {
-    def visitFileFailed(file: Path, exc: IOException) = {
-      logger.warn(s"Error while visiting file: ${exc.getMessage}")
-      FileVisitResult.CONTINUE
-    }
-
-    def visitFile(file: Path, attrs: BasicFileAttributes): FileVisitResult = {
-      Files.delete(file)
-      FileVisitResult.CONTINUE
-    }
-
-    def preVisitDirectory(dir: Path, attrs: BasicFileAttributes) = FileVisitResult.CONTINUE
-
-    def postVisitDirectory(dir: Path, exc: IOException): FileVisitResult = {
-      Option(exc).foreach { ex =>
-        logger.warn(s"Error in post visiting directory: ${ex.getMessage}")
-      }
-      Files.delete(dir)
-      FileVisitResult.CONTINUE
-    }
-  }
-
 }

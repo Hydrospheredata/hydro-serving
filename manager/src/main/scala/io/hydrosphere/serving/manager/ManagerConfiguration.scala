@@ -193,17 +193,9 @@ object ManagerConfiguration {
         case "local" =>
           LocalSourceParams(path)
         case "s3" =>
-          val auth = if (modelSourceConfig.hasPath("awsAuth")) {
-            val authConf = modelSourceConfig.getConfig("awsAuth")
-            val keyId = authConf.getString("keyId")
-            val secretKey = authConf.getString("secretKey")
-            Some(AWSAuthKeys(keyId, secretKey))
-          } else {
-            None
-          }
           S3SourceParams(
-            awsAuth = auth,
-            queueName = modelSourceConfig.getString("queue"),
+            awsAuth = parseAWSAuth(modelSourceConfig),
+            path = path,
             bucketName = modelSourceConfig.getString("bucket"),
             region = modelSourceConfig.getString("region")
           )
@@ -212,6 +204,17 @@ object ManagerConfiguration {
       }
       ModelSourceConfig(-1, name, params).toAux
     }.toSeq
+  }
+
+  private def parseAWSAuth(modelSourceConfig: Config) = {
+    if (modelSourceConfig.hasPath("awsAuth")) {
+      val authConf = modelSourceConfig.getConfig("awsAuth")
+      val keyId = authConf.getString("keyId")
+      val secretKey = authConf.getString("secretKey")
+      Some(AWSAuthKeys(keyId, secretKey))
+    } else {
+      None
+    }
   }
 
   def parseDatabase(config: Config): HikariConfig = {

@@ -4,7 +4,6 @@ import akka.testkit.TestProbe
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.messages.ContainerConfig
 import io.hydrosphere.serving.manager.model.{LocalSourceParams, ModelBuildStatus, ModelSourceConfig}
-import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
 import org.scalatest.BeforeAndAfterAll
 
@@ -99,15 +98,15 @@ class ModelServiceSpec extends FullIntegrationSpec with BeforeAndAfterAll {
 
   override def beforeAll(): Unit = {
     super.beforeAll()
-    val indexProbe = TestProbe()
-    system.eventStream.subscribe(indexProbe.ref, classOf[RepositoryIndexActor.IndexFinished])
-    managerServices.sourceManagementService.addSource(
-      ModelSourceConfig(1, "itsource", LocalSourceParams(getClass.getResource("/models").getPath)).toAux
-    )
-    indexProbe.expectMsgAllOf(
-      20.seconds,
-      RepositoryIndexActor.IndexFinished("dummy_model", "itsource"),
-      RepositoryIndexActor.IndexFinished("dummy_model_2", "itsource")
-    )
+//    val indexProbe = TestProbe()
+//    system.eventStream.subscribe(indexProbe.ref, classOf[RepositoryIndexActor.IndexFinished])
+//    managerServices.sourceManagementService.addSource(
+//      ModelSourceConfig(1, "itsource", LocalSourceParams(getClass.getResource("/models").getPath)).toAux
+//    )
+//    indexProbe.expectMsgAllOf(
+//      20.seconds,
+//      RepositoryIndexActor.IndexFinished("dummy_model", "itsource"),
+//      RepositoryIndexActor.IndexFinished("dummy_model_2", "itsource")
+//    )
   }
 }

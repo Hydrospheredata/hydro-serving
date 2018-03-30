@@ -31,6 +31,6 @@ case class AWSAuthKeys(keyId: String, secretKey: String) {
 case class S3SourceParams (
   awsAuth: Option[AWSAuthKeys],
   bucketName: String,
-  queueName: String,
+  path: String,
   region: String
 ) extends SourceParams
