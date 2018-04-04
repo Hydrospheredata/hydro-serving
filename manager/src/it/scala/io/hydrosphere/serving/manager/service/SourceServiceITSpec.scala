@@ -11,7 +11,7 @@ class SourceServiceITSpec extends FullIntegrationSpec {
       ModelSourceConfig[LocalSourceParams](
         1,
         "test_config",
-        LocalSourceParams()
+        LocalSourceParams(None)
       ).toAux
     )
     super.configuration.copy(modelSources = sources)

@@ -14,6 +14,8 @@ import io.hydrosphere.serving.tensorflow.types.DataType
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
 
+import scala.language.reflectiveCalls
+
 trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with Logging {
 
   implicit object AnyJsonFormat extends JsonFormat[Any] {
@@ -146,7 +148,7 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
 
   implicit val awsAuthFormat = jsonFormat2(AWSAuthKeys)
 
-  implicit val localSourceParamsFormat = jsonFormat0(LocalSourceParams)
+  implicit val localSourceParamsFormat = jsonFormat1(LocalSourceParams)
 
   implicit val s3SourceParamsFormat = jsonFormat4(S3SourceParams)
 

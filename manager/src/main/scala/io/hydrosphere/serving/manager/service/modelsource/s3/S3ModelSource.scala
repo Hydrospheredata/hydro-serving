@@ -11,9 +11,9 @@ import io.hydrosphere.serving.manager.util.FileUtils.RecursiveRemover
 import org.apache.logging.log4j.scala.Logging
 
 class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging {
-  private[this] val localFolder = Paths.get("tmp", sourceDef.name)
+  private[this] val lf = Paths.get("tmp", sourceDef.name)
   private[this]val localSource = new LocalModelSource(
-    LocalSourceDef(s"s3-proxy-${sourceDef.name}")
+    LocalSourceDef(s"s3-proxy-${sourceDef.name}", Some(lf.toString))
   )
 
   private val client = sourceDef.s3Client
@@ -44,7 +44,7 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
       .map(_.toString)
       .map(getReadableFile)
 
-    val r = localSource.getAllFiles(localFolder.resolve(folder).toString)
+    val r = localSource.getAllFiles(folder)
     logger.debug(s"getAllFiles=$r")
     r
   }
@@ -52,14 +52,14 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
   override def getReadableFile(path: String): File = {
     logger.debug(s"getReadableFile: $path")
     val fullObjectPath = URI.create(s"$path")
-    val file = localFolder.resolve(path)
-    if (Files.exists(file)) downloadObject(fullObjectPath.toString)
-    file.toFile
+    val file = localSource.getReadableFile(path)
+    if (!file.exists()) downloadObject(fullObjectPath.toString)
+    file
   }
 
   override def getAbsolutePath(path: String): Path = {
     logger.debug(s"getAbsolutePath: $path")
-    localFolder.resolve(path)
+    localSource.getAbsolutePath(path)
   }
 
   override def isExist(path: String): Boolean = {
@@ -75,7 +75,7 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
   }
 
   private def deleteProxyObject(objectPath: String): Boolean = {
-    val path = localFolder.resolve(objectPath)
+    val path = localSource.getReadableFile(objectPath).toPath
     if (Files.exists(path) && Files.isDirectory(path)) {
       Files.walkFileTree(path, new RecursiveRemover())
     }
@@ -88,7 +88,7 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
       throw new FileNotFoundException(objectPath)
     val fileStream = client.getObject(sourceDef.bucket, objectPath).getObjectContent
 
-    val folderStructure = localFolder.resolve(objectPath.split("/").dropRight(1).mkString("/"))
+    val folderStructure = localSource.getAbsolutePath(objectPath.split("/").dropRight(1).mkString("/"))
 
     if (Files.isRegularFile(folderStructure)) { // FIX sometimes s3 puts the entire folder
       Files.delete(folderStructure)
@@ -96,7 +96,7 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
 
     Files.createDirectories(folderStructure)
 
-    val file = Files.createFile(localFolder.resolve(objectPath))
+    val file = Files.createFile(localSource.getAbsolutePath(objectPath))
     Files.copy(fileStream, file, StandardCopyOption.REPLACE_EXISTING)
     file.toFile
   }

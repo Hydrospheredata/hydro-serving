@@ -187,7 +187,10 @@ object ManagerConfiguration {
 
       val params = kv.getKey match {
         case "local" =>
-          LocalSourceParams()
+          val prefix = if (modelSourceConfig.hasPath("pathPrefix")) {
+            Some(modelSourceConfig.getString("pathPrefix"))
+          } else { None }
+          LocalSourceParams(prefix)
         case "s3" =>
           S3SourceParams(
             awsAuth = parseAWSAuth(modelSourceConfig),
