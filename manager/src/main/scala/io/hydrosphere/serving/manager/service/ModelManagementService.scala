@@ -8,12 +8,13 @@ import io.hydrosphere.serving.contract.utils.DataGenerator
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.model.UploadedEntity
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.manager.model.api.{ModelMetadata, ModelType}
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.contract.utils.ops.ModelContractOps._
 import io.hydrosphere.serving.manager.model.api.json.TensorJsonLens
+import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.apache.logging.log4j.scala.Logging
 import spray.json.JsObject
@@ -127,11 +128,11 @@ trait ModelManagementService {
 
   def getModelAggregatedInfo(id: Long): Future[Option[AggregatedModelInfo]]
 
-  def updateModel(entity: CreateOrUpdateModelRequest): Future[Model]
+  def updateModel(entity: CreateOrUpdateModelRequest): Future[Option[Model]]
 
-  def createModel(entity: CreateOrUpdateModelRequest): Future[Model]
+  def createModel(entity: CreateOrUpdateModelRequest): Future[Option[Model]]
 
-  def updatedInModelSource(entity: Model): Future[Unit]
+  def addModel(sourceName: String, modelPath: String): Future[Option[Model]]
 
   def addModelVersion(entity: CreateModelVersionRequest): Future[ModelVersion]
 
@@ -169,14 +170,17 @@ class ModelManagementServiceImpl(
 )(
   implicit val ex: ExecutionContext
 ) extends ModelManagementService with Logging {
-
   override def allModels(): Future[Seq[Model]] =
     modelRepository.all()
 
-  override def createModel(entity: CreateOrUpdateModelRequest): Future[Model] =
-    modelRepository.create(entity.toModel)
+  override def createModel(entity: CreateOrUpdateModelRequest): Future[Option[Model]] = {
+    modelRepository.get(entity.name).flatMap {
+      case Some(_) => Future.successful(None)
+      case None => modelRepository.create(entity.toModel).map(Some(_))
+    }
+  }
 
-  override def updateModel(entity: CreateOrUpdateModelRequest): Future[Model] = {
+  override def updateModel(entity: CreateOrUpdateModelRequest): Future[Option[Model]] = {
     entity.id match {
       case Some(modelId) =>
         modelRepository.get(modelId).flatMap {
@@ -184,17 +188,17 @@ class ModelManagementServiceImpl(
             val newModel = entity.toModel(foundModel)
             modelRepository
               .update(newModel)
-              .map(_ => newModel)
-          case None => throw new IllegalArgumentException(s"Can't find Model with id ${entity.id.get}")
+              .map(_ => Some(newModel))
+          case None => Future.successful(None)
         }
       case None => throw new IllegalArgumentException("Id required for this action")
     }
   }
 
   override def addModelVersion(entity: CreateModelVersionRequest): Future[ModelVersion] =
-    fetchModel(entity.modelId).flatMap(model => {
+    fetchModel(entity.modelId).flatMap { model =>
       modelVersionRepository.create(entity.toModelVersion(model))
-    })
+    }
 
   override def allModelVersion(): Future[Seq[ModelVersion]] =
     modelVersionRepository.all()
@@ -202,53 +206,11 @@ class ModelManagementServiceImpl(
   override def lastModelVersionByModelId(id: Long, maximum: Int): Future[Seq[ModelVersion]] =
     modelVersionRepository.lastModelVersionByModel(id: Long, maximum: Int)
 
-  override def updatedInModelSource(entity: Model): Future[Unit] = {
-    modelRepository.fetchBySource(entity.source)
-      .flatMap {
-        case Nil =>
-          addModel(entity).map(_ => Unit)
-        case _ => modelRepository.updateLastUpdatedTime(entity.source, LocalDateTime.now())
-          .map(_ => Unit)
-      }
-
-  }
-
   override def modelBuildsByModelId(id: Long): Future[Seq[ModelBuild]] =
     modelBuildRepository.listByModelId(id)
 
   override def lastModelBuildsByModelId(id: Long, maximum: Int): Future[Seq[ModelBuild]] =
     modelBuildRepository.lastByModelId(id, maximum)
-
-  private def buildNewModelVersion(model: Model, modelVersion: Option[Long]): Future[ModelVersion] = {
-    fetchLastModelVersion(model.id, modelVersion).flatMap { version =>
-      fetchScriptForModel(model).flatMap { script =>
-        modelBuildRepository.create(
-          ModelBuild(
-            id = 0,
-            model = model,
-            version = version,
-            started = LocalDateTime.now(),
-            finished = None,
-            status = ModelBuildStatus.STARTED,
-            statusText = None,
-            logsUrl = None,
-            modelVersion = None
-          )).flatMap { modelBuild =>
-          buildModelRuntime(modelBuild, script).transform(
-            runtime => {
-              modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(runtime))
-              runtime
-            },
-            ex => {
-              logger.error(ex.getMessage, ex)
-              modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.ERROR, ex.getMessage, LocalDateTime.now(), None)
-              ex
-            }
-          )
-        }
-      }
-    }
-  }
 
   override def buildModel(modelId: Long, flatContract: Option[ContractDescription], modelVersion: Option[Long]): Future[ModelVersion] =
     modelRepository.get(modelId)
@@ -262,89 +224,10 @@ class ModelManagementServiceImpl(
             case _ => Future.successful(model)
           }
 
-          modelFuture.flatMap(m =>
+          modelFuture.flatMap { m =>
             buildNewModelVersion(m, modelVersion)
-          )
-
+          }
       }
-
-  private def fetchScriptForModel(model: Model): Future[String] =
-    modelBuildScriptRepository.get(model.modelType.toTag).flatMap {
-      case Some(script) => Future.successful(script.script)
-      case None => Future.successful(
-        """FROM busybox:1.28.0
-           LABEL MODEL_TYPE={MODEL_TYPE}
-           LABEL MODEL_NAME={MODEL_NAME}
-           LABEL MODEL_VERSION={MODEL_VERSION}
-           VOLUME /model
-           ADD {MODEL_PATH} /model""")
-    }
-
-  private def buildModelRuntime(modelBuild: ModelBuild, script: String): Future[ModelVersion] = {
-    val handler = new ProgressHandler {
-      override def handle(progressMessage: ProgressMessage): Unit =
-        logger.info(progressMessage)
-    }
-
-    val imageName = modelPushService.getImageName(modelBuild)
-    modelBuildService.build(modelBuild, imageName, script, handler).flatMap { sha256 =>
-      modelVersionRepository.create(ModelVersion(
-        id = 0,
-        imageName = imageName,
-        imageTag = modelBuild.version.toString,
-        imageSHA256 = sha256,
-        modelName = modelBuild.model.name,
-        modelVersion = modelBuild.version,
-        source = Some(modelBuild.model.source),
-        modelContract = modelBuild.model.modelContract,
-        created = LocalDateTime.now,
-        model = Some(modelBuild.model),
-        modelType = modelBuild.model.modelType
-      )).flatMap { modelRuntime =>
-        Future(modelPushService.push(modelRuntime, handler)).map(_ => modelRuntime)
-      }
-    }
-  }
-
-  private def getNextVersion(model: Model, modelVersion: Option[ModelVersion]): Option[Long] = {
-    modelVersion match {
-      case Some(version) =>
-        if (model.updated.isAfter(version.created)) {
-          Some(version.modelVersion + 1)
-        } else {
-          None
-        }
-      case None =>
-        Some(1L)
-    }
-  }
-
-  private def fetchLastModelVersion(modelId: Long, modelVersion: Option[Long]): Future[Long] = {
-    modelVersion match {
-      case Some(x) => modelVersionRepository.modelVersionByModelAndVersion(modelId, x).map {
-        case None => x
-        case _ => throw new IllegalArgumentException("You already have such version")
-      }
-      case _ => modelVersionRepository.lastModelVersionByModel(modelId, 1)
-        .map(se => ModelManagementService.nextVersion(se.headOption))
-    }
-  }
-
-  private def fetchModel(id: Option[Long]): Future[Option[Model]] = {
-    if (id.isEmpty) {
-      Future.successful(None)
-    } else {
-      modelRepository
-        .get(id.get)
-        .map {
-          _.orElse(throw new IllegalArgumentException(s"Can't find Model with id ${id.get}"))
-        }
-    }
-  }
-
-  private def addModel(model: Model): Future[Model] = {
-    modelRepository.create(model)
-  }
 
   def deleteModel(modelName: String): Future[Model] = {
     modelRepository.get(modelName).flatMap {
@@ -362,13 +245,6 @@ class ModelManagementServiceImpl(
       case Some(model) =>
         generatePayload(model.modelContract, signature)
     }
-
-  private def generatePayload(contract: ModelContract, signature: String): Seq[JsObject] = {
-    val res = DataGenerator.forContract(contract, signature)
-      .getOrElse(throw new IllegalArgumentException(s"Can't find signature model signature=$signature"))
-    Seq(TensorJsonLens.mapToJson(res.generateInputs))
-  }
-
 
   override def generateInputsForVersion(versionId: Long, signature: String): Future[Seq[JsObject]] =
     modelVersionRepository.get(versionId).map {
@@ -399,41 +275,11 @@ class ModelManagementServiceImpl(
     }
   }
 
-  private def updateModelContract(modelId: Long, modelContract: ModelContract): Future[Option[Model]] = {
-    modelRepository.get(modelId).flatMap {
-      case Some(model) =>
-        val newModel = model.copy(modelContract = modelContract) // TODO contract validation (?)
-        modelRepository.update(newModel).map { _ => Some(newModel) }
-      case None => Future.successful(None)
-    }
-  }
-
   override def modelsByType(types: Set[String]): Future[Seq[Model]] =
     modelRepository.fetchByModelType(types.map(ModelType.fromTag).toSeq)
 
   override def getModel(id: Long): Future[Option[Model]] =
     modelRepository.get(id)
-
-  def aggregatedInfo(models: Model*): Future[Seq[AggregatedModelInfo]] = {
-    val ids = models.map(_.id)
-    for {
-      builds <- modelBuildRepository.lastForModels(ids)
-      buildsMap = builds.groupBy(_.model.id)
-      versions <- modelVersionRepository.lastModelVersionForModels(ids)
-      versionsMap = versions.groupBy(_.model.get.id)
-    } yield {
-      models.map { model =>
-        val lastVersion = versionsMap.get(model.id).map(_.maxBy(_.modelVersion))
-        val lastBuild = buildsMap.get(model.id).map(_.maxBy(_.version))
-        AggregatedModelInfo(
-          model = model,
-          lastModelBuild = lastBuild,
-          lastModelVersion = lastVersion,
-          nextVersion = getNextVersion(model, lastVersion)
-        )
-      }
-    }
-  }
 
   override def allModelsAggregatedInfo(): Future[Seq[AggregatedModelInfo]] = {
     modelRepository.all().flatMap(aggregatedInfo)
@@ -515,7 +361,7 @@ class ModelManagementServiceImpl(
             logger.info(s"Creating uploaded model with name: ${createRequest.name}, source: ${createRequest.source}, type: ${createRequest.modelType}")
             createModel(createRequest)
         }
-        res.map(Some(_))
+        res
       case None => Future.successful(None)
     }
   }
@@ -527,16 +373,7 @@ class ModelManagementServiceImpl(
           case Success(maybeMetadata) =>
             maybeMetadata match {
               case Some(metadata) =>
-                val newModel = Model(
-                  id = model.id,
-                  name = metadata.modelName,
-                  source = model.source,
-                  modelType = metadata.modelType,
-                  description = None,
-                  modelContract = metadata.contract,
-                  created = model.created,
-                  updated = LocalDateTime.now()
-                )
+                val newModel = applyModelMetadata(metadata, model)
                 modelRepository.update(newModel).map(_ => ModelUpdated(newModel))
 
               case None =>
@@ -545,6 +382,183 @@ class ModelManagementServiceImpl(
             }
           case Failure(err) =>
             Future.successful(IndexError(model, err))
+        }
+      }
+    }
+  }
+
+  override def addModel(sourceName: String, modelPath: String): Future[Option[Model]] = {
+    sourceManagementService.getSource(sourceName).flatMap {
+      case Some(source) =>
+        if (source.isExist(modelPath)) {
+          val metadata = ModelFetcher.fetch(source, modelPath)
+          val createReq = metadataToCreate(metadata, sourceName)
+          createModel(createReq)
+        } else {
+          Future.successful(None)
+        }
+      case None =>
+        Future.successful(None)
+    }
+  }
+
+  private def updateModelContract(modelId: Long, modelContract: ModelContract): Future[Option[Model]] = {
+    modelRepository.get(modelId).flatMap {
+      case Some(model) =>
+        val newModel = model.copy(modelContract = modelContract) // TODO contract validation (?)
+        modelRepository.update(newModel).map { _ => Some(newModel) }
+      case None => Future.successful(None)
+    }
+  }
+
+  private def generatePayload(contract: ModelContract, signature: String): Seq[JsObject] = {
+    val res = DataGenerator.forContract(contract, signature)
+      .getOrElse(throw new IllegalArgumentException(s"Can't find signature model signature=$signature"))
+    Seq(TensorJsonLens.mapToJson(res.generateInputs))
+  }
+
+  private def metadataToCreate(modelMetadata: ModelMetadata, source: String): CreateOrUpdateModelRequest = {
+    CreateOrUpdateModelRequest(
+      id = None,
+      name = modelMetadata.modelName,
+      source = source,
+      modelType = modelMetadata.modelType,
+      description = None,
+      modelContract = modelMetadata.contract
+    )
+  }
+
+  private def applyModelMetadata(modelMetadata: ModelMetadata, model:Model, updated: LocalDateTime = LocalDateTime.now()): Model = {
+    model.copy(
+      name = modelMetadata.modelName,
+      modelType = modelMetadata.modelType,
+      modelContract = modelMetadata.contract,
+      updated = updated
+    )
+  }
+
+
+  private def fetchScriptForModel(model: Model): Future[String] =
+    modelBuildScriptRepository.get(model.modelType.toTag).flatMap {
+      case Some(script) => Future.successful(script.script)
+      case None => Future.successful(
+        """FROM busybox:1.28.0
+           LABEL MODEL_TYPE={MODEL_TYPE}
+           LABEL MODEL_NAME={MODEL_NAME}
+           LABEL MODEL_VERSION={MODEL_VERSION}
+           VOLUME /model
+           ADD {MODEL_PATH} /model""")
+    }
+
+  private def buildModelRuntime(modelBuild: ModelBuild, script: String): Future[ModelVersion] = {
+    val handler = new ProgressHandler {
+      override def handle(progressMessage: ProgressMessage): Unit =
+        logger.info(progressMessage)
+    }
+
+    val imageName = modelPushService.getImageName(modelBuild)
+    modelBuildService.build(modelBuild, imageName, script, handler).flatMap { sha256 =>
+      modelVersionRepository.create(ModelVersion(
+        id = 0,
+        imageName = imageName,
+        imageTag = modelBuild.version.toString,
+        imageSHA256 = sha256,
+        modelName = modelBuild.model.name,
+        modelVersion = modelBuild.version,
+        source = Some(modelBuild.model.source),
+        modelContract = modelBuild.model.modelContract,
+        created = LocalDateTime.now,
+        model = Some(modelBuild.model),
+        modelType = modelBuild.model.modelType
+      )).flatMap { modelRuntime =>
+        Future(modelPushService.push(modelRuntime, handler)).map(_ => modelRuntime)
+      }
+    }
+  }
+
+  private def getNextVersion(model: Model, modelVersion: Option[ModelVersion]): Option[Long] = {
+    modelVersion match {
+      case Some(version) =>
+        if (model.updated.isAfter(version.created)) {
+          Some(version.modelVersion + 1)
+        } else {
+          None
+        }
+      case None =>
+        Some(1L)
+    }
+  }
+
+  private def fetchLastModelVersion(modelId: Long, modelVersion: Option[Long]): Future[Long] = {
+    modelVersion match {
+      case Some(x) => modelVersionRepository.modelVersionByModelAndVersion(modelId, x).map {
+        case None => x
+        case _ => throw new IllegalArgumentException("You already have such version")
+      }
+      case _ => modelVersionRepository.lastModelVersionByModel(modelId, 1)
+        .map(se => ModelManagementService.nextVersion(se.headOption))
+    }
+  }
+
+  private def fetchModel(id: Option[Long]): Future[Option[Model]] = {
+    if (id.isEmpty) {
+      Future.successful(None)
+    } else {
+      modelRepository
+        .get(id.get)
+        .map {
+          _.orElse(throw new IllegalArgumentException(s"Can't find Model with id ${id.get}"))
+        }
+    }
+  }
+
+  private def aggregatedInfo(models: Model*): Future[Seq[AggregatedModelInfo]] = {
+    val ids = models.map(_.id)
+    for {
+      builds <- modelBuildRepository.lastForModels(ids)
+      buildsMap = builds.groupBy(_.model.id)
+      versions <- modelVersionRepository.lastModelVersionForModels(ids)
+      versionsMap = versions.groupBy(_.model.get.id)
+    } yield {
+      models.map { model =>
+        val lastVersion = versionsMap.get(model.id).map(_.maxBy(_.modelVersion))
+        val lastBuild = buildsMap.get(model.id).map(_.maxBy(_.version))
+        AggregatedModelInfo(
+          model = model,
+          lastModelBuild = lastBuild,
+          lastModelVersion = lastVersion,
+          nextVersion = getNextVersion(model, lastVersion)
+        )
+      }
+    }
+  }
+
+  private def buildNewModelVersion(model: Model, modelVersion: Option[Long]): Future[ModelVersion] = {
+    fetchLastModelVersion(model.id, modelVersion).flatMap { version =>
+      fetchScriptForModel(model).flatMap { script =>
+        modelBuildRepository.create(
+          ModelBuild(
+            id = 0,
+            model = model,
+            version = version,
+            started = LocalDateTime.now(),
+            finished = None,
+            status = ModelBuildStatus.STARTED,
+            statusText = None,
+            logsUrl = None,
+            modelVersion = None
+          )).flatMap { modelBuild =>
+          buildModelRuntime(modelBuild, script).transform(
+            runtime => {
+              modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(runtime))
+              runtime
+            },
+            ex => {
+              logger.error(ex.getMessage, ex)
+              modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.ERROR, ex.getMessage, LocalDateTime.now(), None)
+              ex
+            }
+          )
         }
       }
     }

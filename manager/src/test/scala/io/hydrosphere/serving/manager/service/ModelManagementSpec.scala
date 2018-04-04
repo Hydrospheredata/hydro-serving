@@ -6,10 +6,9 @@ import java.time.LocalDateTime
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.controller.model.UploadedEntity.ModelUpload
-import io.hydrosphere.serving.manager.model.{Model, api}
+import io.hydrosphere.serving.manager.model.Model
 import io.hydrosphere.serving.manager.model.api.{ModelMetadata, ModelType}
 import io.hydrosphere.serving.manager.repository.ModelRepository
-import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceDef}
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.mockito.{Matchers, Mockito}
@@ -31,6 +30,12 @@ class ModelManagementSpec extends GenericUnitTest with MockitoSugar {
     updated = LocalDateTime.now()
   )
   import scala.concurrent.ExecutionContext.Implicits._
+
+  def packModel(str: String): Path = {
+    val temptar = Files.createTempFile("test_tf_model", ".tar.gz")
+    TarGzUtils.compress(Paths.get(getClass.getResource(str).getPath), temptar, None)
+    temptar
+  }
 
   "Model management service" should "index deleted models" in {
     val modelRepo = mock[ModelRepository]
@@ -186,13 +191,18 @@ class ModelManagementSpec extends GenericUnitTest with MockitoSugar {
     Await.result(f, 20 seconds)
   }
 
-  def packModel(str: String): Path = {
-    val temptar = Files.createTempFile("test_tf_model", ".tar.gz")
-    TarGzUtils.compress(Paths.get(getClass.getResource(str).getPath), temptar, None)
-    temptar
+  it should "add a new model" in {
+    val modelRepo = mock[ModelRepository]
+    val sourceMock = mock[SourceManagementService]
+
+    val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, null, null, null, null, sourceMock)
+
+    val sourceName = "test"
+    val modelPath = "asdad"
+    modelManagementService.addModel(sourceName, modelPath)
   }
 
-  it should "add model" in {
+  it should "reject an addition of existing model" in {
     pending
   }
 }
