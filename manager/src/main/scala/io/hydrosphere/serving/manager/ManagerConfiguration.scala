@@ -7,10 +7,6 @@ import io.hydrosphere.serving.manager.model._
 
 import collection.JavaConverters._
 
-/**
-  *
-  */
-
 trait ManagerConfiguration {
   def sidecar: SidecarConfig
 
@@ -191,7 +187,7 @@ object ManagerConfiguration {
 
       val params = kv.getKey match {
         case "local" =>
-          LocalSourceParams(path)
+          LocalSourceParams()
         case "s3" =>
           S3SourceParams(
             awsAuth = parseAWSAuth(modelSourceConfig),

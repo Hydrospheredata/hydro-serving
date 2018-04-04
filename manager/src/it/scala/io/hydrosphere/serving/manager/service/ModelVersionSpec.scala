@@ -14,7 +14,7 @@ import scala.concurrent.duration._
 class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
   var dummy_1: Model = _
   var dummy_2: Model = _
-  val source = ModelSourceConfig(1, "itsource", LocalSourceParams(getClass.getResource("/models").getPath))
+  val source = ModelSourceConfig(1, "itsource", LocalSourceParams())
 
   "Model version" should {
     "calculate next model version" when {

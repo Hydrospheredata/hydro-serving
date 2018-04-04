@@ -3,7 +3,6 @@ package io.hydrosphere.serving.manager.service
 import java.nio.file.{Files, Path, Paths}
 import java.time.LocalDateTime
 
-import akka.actor.ActorRef
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.utils.DataGenerator
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
@@ -21,6 +20,14 @@ import spray.json.JsObject
 
 import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Failure, Success}
+
+sealed trait IndexStatus extends Product {
+  def model: Model
+}
+
+case class ModelUpdated(model: Model) extends IndexStatus
+case class ModelDeleted(model: Model) extends IndexStatus
+case class IndexError(model: Model, error: Throwable) extends IndexStatus
 
 case class CreateOrUpdateModelRequest(
   id: Option[Long],
@@ -96,6 +103,8 @@ case class AggregatedModelInfo(
 
 
 trait ModelManagementService {
+  def indexModels(ids: Set[Long]): Future[Seq[IndexStatus]]
+
   def uploadModelTarball(upload: UploadedEntity.ModelUpload): Future[Option[Model]]
 
   def versionContractDescription(versionId: Long): Future[Option[ContractDescription]]
@@ -509,6 +518,36 @@ class ModelManagementServiceImpl(
         }
         res.map(Some(_))
       case None => Future.successful(None)
+    }
+  }
+
+  override def indexModels(ids: Set[Long]): Future[Seq[IndexStatus]] = {
+    modelRepository.getMany(ids).flatMap { models =>
+      Future.traverse(models) { model =>
+        sourceManagementService.index(model.source).flatMap {
+          case Success(maybeMetadata) =>
+            maybeMetadata match {
+              case Some(metadata) =>
+                val newModel = Model(
+                  id = model.id,
+                  name = metadata.modelName,
+                  source = model.source,
+                  modelType = metadata.modelType,
+                  description = None,
+                  modelContract = metadata.contract,
+                  created = model.created,
+                  updated = LocalDateTime.now()
+                )
+                modelRepository.update(newModel).map(_ => ModelUpdated(newModel))
+
+              case None =>
+                // NB delete model if no files?
+                modelRepository.delete(model.id).map(_ => ModelDeleted(model))
+            }
+          case Failure(err) =>
+            Future.successful(IndexError(model, err))
+        }
+      }
     }
   }
 }

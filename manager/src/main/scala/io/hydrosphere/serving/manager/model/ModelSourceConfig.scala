@@ -20,9 +20,7 @@ case class ModelSourceConfig[T <: SourceParams](
 
 trait SourceParams
 
-case class LocalSourceParams (
-  path: String
-) extends SourceParams
+case class LocalSourceParams() extends SourceParams
 
 case class AWSAuthKeys(keyId: String, secretKey: String) {
   def hide: AWSAuthKeys = AWSAuthKeys("***************", "***************")

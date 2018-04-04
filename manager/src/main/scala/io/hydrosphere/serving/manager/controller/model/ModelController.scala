@@ -135,6 +135,8 @@ class ModelController(modelManagementService: ModelManagementService)
     }
   }
 
+  // TODO implement
+  // TODO tests
   @Path("/")
   @ApiOperation(value = "Add model", notes = "Add model", nickname = "uploadModel", httpMethod = "POST")
   def addModel = path("api"/ "v1" / "model") {
@@ -143,11 +145,16 @@ class ModelController(modelManagementService: ModelManagementService)
     }
   }
 
+  // TODO tests
   @Path("/index")
-  @ApiOperation(value = "Add model", notes = "Add model", nickname = "uploadModel", httpMethod = "POST")
+  @ApiOperation(value = "Index models", notes = "Index model", nickname = "indexModels", httpMethod = "POST")
   def indexModels = path("api"/ "v1" / "model" / "index") {
     post {
-      ???
+      entity(as[Set[Long]]) { ids =>
+        complete(
+          modelManagementService.indexModels(ids)
+        )
+      }
     }
   }
 
