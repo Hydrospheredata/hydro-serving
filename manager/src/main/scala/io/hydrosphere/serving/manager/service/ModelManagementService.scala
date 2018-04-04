@@ -469,7 +469,6 @@ class ModelManagementServiceImpl(
     }
   }
 
-
   def uploadToSource(upload: UploadedEntity.ModelUpload): Future[Option[CreateOrUpdateModelRequest]] = {
     val fMaybeSource = upload.source match {
       case Some(sourceName) => sourceManagementService.getSource(sourceName)
