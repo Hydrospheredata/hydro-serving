@@ -63,11 +63,7 @@ class SourceManagementServiceImpl(
     getSourceConfig(modelSourceConfigAux.name).flatMap {
       case Some(_) => Future.successful(None)
       case None =>
-        for {
-          config <- sourceRepository.create(modelSourceConfigAux)
-        } yield {
-          Some(config)
-        }
+        sourceRepository.create(modelSourceConfigAux).map(Some.apply)
     }
   }
 
