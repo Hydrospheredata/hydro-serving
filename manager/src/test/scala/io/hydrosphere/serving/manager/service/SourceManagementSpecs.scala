@@ -75,7 +75,7 @@ class SourceManagementSpecs extends GenericUnitTest {
     val sourceService = new SourceManagementServiceImpl(confMock, sourceRepoMock)
 
     val req = AddLocalSourceRequest(
-      "test_api", getClass.getResource("/models").getPath
+      "test_api", getClass.getResource("/test_models").getPath
     )
     val f = sourceService.addLocalSource(req).map { maybeSourceConfig =>
       maybeSourceConfig shouldBe defined
