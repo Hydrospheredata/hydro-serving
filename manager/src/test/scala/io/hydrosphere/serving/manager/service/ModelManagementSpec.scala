@@ -11,6 +11,8 @@ import io.hydrosphere.serving.manager.model.api.{ModelMetadata, ModelType}
 import io.hydrosphere.serving.manager.repository.ModelRepository
 import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceDef}
 import io.hydrosphere.serving.manager.util.TarGzUtils
+import org.mockito.invocation.InvocationOnMock
+import org.mockito.stubbing.Answer
 import org.mockito.{Matchers, Mockito}
 import org.scalatest.mockito.MockitoSugar
 
@@ -192,14 +194,35 @@ class ModelManagementSpec extends GenericUnitTest with MockitoSugar {
   }
 
   it should "add a new model" in {
+    val sourceName = "test"
+    val modelName = "tensorflow_model"
+    val modelPath = getClass.getResource("/test_models/tensorflow_model").getPath
+
     val modelRepo = mock[ModelRepository]
     val sourceMock = mock[SourceManagementService]
 
+    Mockito.when(sourceMock.getSource(sourceName)).thenReturn(Future.successful(Some(
+      new LocalModelSource(LocalSourceDef(sourceName, None))
+    )))
+    Mockito.when(modelRepo.get(Matchers.any())).thenReturn(
+      Future.successful(None)
+    )
+    Mockito.when(modelRepo.create(Matchers.any())).thenAnswer(new Answer[Future[Model]] {
+      override def answer(invocation: InvocationOnMock): Future[Model] = {
+        val model = invocation.getArguments.head.asInstanceOf[Model]
+        Future.successful(model.copy(id = 1))
+      }
+    })
+
     val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, null, null, null, null, sourceMock)
 
-    val sourceName = "test"
-    val modelPath = "asdad"
-    modelManagementService.addModel(sourceName, modelPath)
+    val f = modelManagementService.addModel(sourceName, modelPath).map{ maybeModel =>
+      maybeModel shouldBe defined
+      val model = maybeModel.get
+      model.name should equal(modelPath)
+    }
+
+    Await.result(f, 20 seconds)
   }
 
   it should "reject an addition of existing model" in {
