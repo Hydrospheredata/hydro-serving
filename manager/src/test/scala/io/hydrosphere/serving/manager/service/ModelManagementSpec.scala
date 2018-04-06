@@ -14,13 +14,12 @@ import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.mockito.invocation.InvocationOnMock
 import org.mockito.stubbing.Answer
 import org.mockito.{Matchers, Mockito}
-import org.scalatest.mockito.MockitoSugar
 
 import scala.concurrent.duration._
 import scala.concurrent.{Await, Future}
 import scala.util.Success
 
-class ModelManagementSpec extends GenericUnitTest with MockitoSugar {
+class ModelManagementSpec extends GenericUnitTest {
   private[this] val dummyModel = Model(
     id = 1,
     name = "test1",
@@ -64,7 +63,7 @@ class ModelManagementSpec extends GenericUnitTest with MockitoSugar {
       assert(statuses.forall(_.isInstanceOf[ModelDeleted]))
     }
 
-    Await.result(f, 10 seconds)
+    Await.result(f, futureTimeout)
   }
 
   it should "index updated models" in {
@@ -98,7 +97,7 @@ class ModelManagementSpec extends GenericUnitTest with MockitoSugar {
       assert(statuses.forall(_.isInstanceOf[ModelUpdated]))
     }
 
-    Await.result(f, 10 seconds)
+    Await.result(f, futureTimeout)
   }
 
   it should "upload new model" in {
@@ -149,7 +148,7 @@ class ModelManagementSpec extends GenericUnitTest with MockitoSugar {
       rModel.name should equal("test")
       rModel.source should equal("test:test")
     }
-    Await.result(f, 20 seconds)
+    Await.result(f, futureTimeout)
   }
 
   it should "upload existing model" in {
@@ -196,7 +195,7 @@ class ModelManagementSpec extends GenericUnitTest with MockitoSugar {
       rModel.name should equal("test")
       rModel.source should equal("test:tensorflow_model")
     }
-    Await.result(f, 20 seconds)
+    Await.result(f, futureTimeout)
   }
 
   it should "add a new model" in {
@@ -228,7 +227,7 @@ class ModelManagementSpec extends GenericUnitTest with MockitoSugar {
       model.name should equal(modelPath)
     }
 
-    Await.result(f, 20 seconds)
+    Await.result(f, futureTimeout)
   }
 
   it should "reject an addition of existing model" in {
