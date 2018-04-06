@@ -15,8 +15,9 @@ import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.ServingDataDirectives
 import io.hydrosphere.serving.manager.controller.model.UploadedEntity._
-import io.hydrosphere.serving.manager.model.CommonJsonSupport._
+import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service._
 import io.swagger.annotations._
 
@@ -77,7 +78,7 @@ class ModelController(modelManagementService: ModelManagementService)
               p.entity.dataBytes
                 .map(_.decodeString("UTF-8"))
                 .filterNot(_.isEmpty)
-                .map(r => ModelType(modelType = r))
+                .map(r => UploadType(modelType = r))
 
             case "target_source" if p.filename.isEmpty =>
               p.entity.dataBytes

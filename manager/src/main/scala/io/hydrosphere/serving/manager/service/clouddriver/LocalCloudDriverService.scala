@@ -7,7 +7,7 @@ import com.spotify.docker.client.DockerClient.{ListContainersParam, ListImagesPa
 import com.spotify.docker.client.messages.{Container, ContainerConfig, HostConfig, PortBinding}
 import io.hydrosphere.serving.manager.ManagerConfiguration
 import io.hydrosphere.serving.manager.model.api.ModelType
-import io.hydrosphere.serving.manager.model.Service
+import io.hydrosphere.serving.manager.model.db.Service
 import io.hydrosphere.serving.manager.service.InternalManagerEventsPublisher
 import io.hydrosphere.serving.manager.service.modelbuild.{DockerClientHelper, ProgressHandler, ProgressMessage}
 import org.apache.logging.log4j.scala.Logging

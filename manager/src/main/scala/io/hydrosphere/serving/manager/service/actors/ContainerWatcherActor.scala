@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.service.actors
 
 import akka.actor.{ActorRef, Props}
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.model.Service
+import io.hydrosphere.serving.manager.model.db.Service
 import io.hydrosphere.serving.manager.service.actors.ContainerWatcherActor._
 
 import scala.collection.concurrent.TrieMap

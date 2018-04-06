@@ -6,8 +6,8 @@ import java.time.LocalDateTime
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.controller.model.UploadedEntity.ModelUpload
-import io.hydrosphere.serving.manager.model.Model
 import io.hydrosphere.serving.manager.model.api.{ModelMetadata, ModelType}
+import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.repository.ModelRepository
 import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceDef}
 import io.hydrosphere.serving.manager.util.TarGzUtils

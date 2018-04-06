@@ -1,18 +1,19 @@
 package io.hydrosphere.serving.manager.service
 
 import io.hydrosphere.serving.manager.ManagerConfigurationImpl
-import io.hydrosphere.serving.manager.model.{LocalSourceParams, ModelSourceConfig}
+import io.hydrosphere.serving.manager.model.db.ModelSourceConfig
+import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.LocalSourceParams
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
 
 class SourceServiceITSpec extends FullIntegrationSpec {
 
   override def configuration: ManagerConfigurationImpl = {
     val sources = Seq(
-      ModelSourceConfig[LocalSourceParams](
+      ModelSourceConfig(
         1,
         "test_config",
         LocalSourceParams(None)
-      ).toAux
+      )
     )
     super.configuration.copy(modelSources = sources)
   }

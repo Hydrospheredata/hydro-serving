@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager
 
-import akka.actor.{ActorRef, ActorSystem}
+import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.spotify.docker.client._
@@ -17,9 +17,6 @@ import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.ExecutionContext
 
-/**
-  *
-  */
 class ManagerServices(
   val managerRepositories: ManagerRepositories,
   val managerConfiguration: ManagerConfiguration,
@@ -65,7 +62,6 @@ class ManagerServices(
   val cloudDriverService: CloudDriverService = managerConfiguration.cloudDriver match {
     case _: DockerCloudDriverConfiguration => new DockerComposeCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
     case _ => new LocalCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
-
   }
 
   val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(managerRepositories.runtimeRepository)

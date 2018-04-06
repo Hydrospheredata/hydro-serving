@@ -5,10 +5,11 @@ import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.model.Environment
 import io.hydrosphere.serving.manager.service._
 import io.swagger.annotations._
-import io.hydrosphere.serving.manager.model.CommonJsonSupport._
+import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
+import io.hydrosphere.serving.manager.model.db.Environment
+
 import scala.concurrent.duration._
 
 

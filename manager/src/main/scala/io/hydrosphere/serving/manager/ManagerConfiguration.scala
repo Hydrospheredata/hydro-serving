@@ -4,6 +4,8 @@ import com.amazonaws.regions.Regions
 import com.typesafe.config.Config
 import com.zaxxer.hikari.HikariConfig
 import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.db.ModelSourceConfig
+import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.{AWSAuthKeys, LocalSourceParams, S3SourceParams}
 
 import collection.JavaConverters._
 
@@ -14,7 +16,7 @@ trait ManagerConfiguration {
 
   def advertised: AdvertisedConfiguration
 
-  def modelSources: Seq[ModelSourceConfigAux]
+  def modelSources: Seq[ModelSourceConfig]
 
   def database: HikariConfig
 
@@ -29,7 +31,7 @@ case class ManagerConfigurationImpl(
   sidecar: SidecarConfig,
   application: ApplicationConfig,
   advertised: AdvertisedConfiguration,
-  modelSources: Seq[ModelSourceConfigAux],
+  modelSources: Seq[ModelSourceConfig],
   database: HikariConfig,
   cloudDriver: CloudDriverConfiguration,
   zipkin: ZipkinConfiguration,
@@ -172,7 +174,7 @@ object ManagerConfiguration {
     )
   }
 
-  def parseDataSources(config: Config): Seq[ModelSourceConfigAux] = {
+  def parseDataSources(config: Config): Seq[ModelSourceConfig] = {
     val c = config.getConfig("modelSources")
     c.root().entrySet().asScala.map { kv =>
       val modelSourceConfig = c.getConfig(kv.getKey)
@@ -201,7 +203,7 @@ object ManagerConfiguration {
         case x =>
           throw new IllegalArgumentException(s"Unknown model source: $x")
       }
-      ModelSourceConfig(-1, name, params).toAux
+      ModelSourceConfig(-1, name, params)
     }.toSeq
   }
 

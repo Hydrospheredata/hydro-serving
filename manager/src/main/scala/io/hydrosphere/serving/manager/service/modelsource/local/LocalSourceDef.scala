@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.service.modelsource.local
 
-import io.hydrosphere.serving.manager.model.{LocalSourceParams, ModelSourceConfig}
+import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.LocalSourceParams
 import io.hydrosphere.serving.manager.service.modelsource.SourceDef
 
 case class LocalSourceDef(
@@ -9,6 +9,6 @@ case class LocalSourceDef(
 ) extends SourceDef
 
 object LocalSourceDef{
-  def fromConfig(localSourceConfig: ModelSourceConfig[LocalSourceParams]): LocalSourceDef =
-    new LocalSourceDef(localSourceConfig.name, localSourceConfig.params.pathPrefix)
+  def fromConfig(name: String, localSourceParams: LocalSourceParams): LocalSourceDef =
+    new LocalSourceDef(name, localSourceParams.pathPrefix)
 }

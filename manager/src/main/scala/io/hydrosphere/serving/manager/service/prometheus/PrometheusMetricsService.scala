@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service.prometheus
 
 import io.hydrosphere.serving.manager.connector.EnvoyAdminConnector
-import io.hydrosphere.serving.manager.model.{Service, ServiceKeyDescription}
+import io.hydrosphere.serving.manager.model.db.{Service, ServiceKeyDescription}
 import io.hydrosphere.serving.manager.service.{ApplicationManagementService, ServiceManagementService}
 import io.hydrosphere.serving.manager.service.clouddriver.{CloudDriverService, CloudService, MetricServiceTargets, ServiceInstance}
 import org.apache.logging.log4j.scala.Logging

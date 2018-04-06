@@ -3,6 +3,7 @@ package io.hydrosphere.serving.manager.service
 import akka.testkit.TestProbe
 import io.hydrosphere.serving.manager.controller.application._
 import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
 import org.scalatest.BeforeAndAfterAll
 

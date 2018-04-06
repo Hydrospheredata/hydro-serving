@@ -6,8 +6,7 @@ import com.amazonaws.services.ecr.{AmazonECR, AmazonECRClientBuilder}
 import com.amazonaws.services.ecr.model._
 import com.spotify.docker.client.DockerClient
 import io.hydrosphere.serving.manager.ECSDockerRepositoryConfiguration
-import io.hydrosphere.serving.manager.model.ModelBuild
-import io.hydrosphere.serving.manager.model.ModelVersion
+import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
 
 /**
   *

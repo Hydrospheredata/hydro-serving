@@ -1,10 +1,13 @@
 package io.hydrosphere.serving.manager.service
 
 import java.nio.file.Path
+
 import io.hydrosphere.serving.manager.ManagerConfiguration
 import io.hydrosphere.serving.manager.controller.model_source.AddS3SourceRequest
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.ModelMetadata
+import io.hydrosphere.serving.manager.model.db.ModelSourceConfig
+import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.S3SourceParams
 import io.hydrosphere.serving.manager.repository.SourceConfigRepository
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
@@ -36,15 +39,15 @@ object SourcePath {
 trait SourceManagementService {
   def index(source: String): Future[Try[Option[ModelMetadata]]]
 
-  def addS3Source(r: AddS3SourceRequest): Future[Option[ModelSourceConfigAux]]
+  def addS3Source(r: AddS3SourceRequest): Future[Option[ModelSourceConfig]]
 
-  def addSource(modelSourceConfigAux: ModelSourceConfigAux): Future[Option[ModelSourceConfigAux]]
+  def addSource(modelSourceConfigAux: ModelSourceConfig): Future[Option[ModelSourceConfig]]
 
   def getSources: Future[List[ModelSource]]
 
   def getLocalPath(url: String): Future[Path]
 
-  def allSourceConfigs: Future[Seq[ModelSourceConfigAux]]
+  def allSourceConfigs: Future[Seq[ModelSourceConfig]]
 
   def getSource(name: String): Future[Option[ModelSource]]
 }
@@ -54,7 +57,7 @@ class SourceManagementServiceImpl(
   sourceRepository: SourceConfigRepository)
   (implicit ex: ExecutionContext) extends SourceManagementService with Logging {
 
-  def addSource(modelSourceConfigAux: ModelSourceConfigAux): Future[Option[ModelSourceConfigAux]] = {
+  def addSource(modelSourceConfigAux: ModelSourceConfig): Future[Option[ModelSourceConfig]] = {
     getSourceConfig(modelSourceConfigAux.name).flatMap {
       case Some(_) => Future.successful(None)
       case None =>
@@ -66,7 +69,7 @@ class SourceManagementServiceImpl(
     }
   }
 
-  def getSourceConfig(name: String): Future[Option[ModelSourceConfigAux]] = {
+  def getSourceConfig(name: String): Future[Option[ModelSourceConfig]] = {
     allSourceConfigs.map { sources => sources.find(_.name == name) }
   }
 
@@ -85,7 +88,7 @@ class SourceManagementServiceImpl(
     }
   }
 
-  override def addS3Source(r: AddS3SourceRequest): Future[Option[ModelSourceConfigAux]] = {
+  override def addS3Source(r: AddS3SourceRequest): Future[Option[ModelSourceConfig]] = {
     val config = ModelSourceConfig(
       id = -1,
       name = r.name,
@@ -95,11 +98,11 @@ class SourceManagementServiceImpl(
         path = r.path,
         region = r.region
       )
-    ).toAux
+    )
     addSource(config)
   }
 
-  override def allSourceConfigs: Future[Seq[ModelSourceConfigAux]] = {
+  override def allSourceConfigs: Future[Seq[ModelSourceConfig]] = {
     sourceRepository.all().map { dbSources =>
       managerConfiguration.modelSources ++ dbSources
     }

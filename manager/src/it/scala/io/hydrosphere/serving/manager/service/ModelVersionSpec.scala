@@ -1,15 +1,9 @@
 package io.hydrosphere.serving.manager.service
 
-import java.time.{Instant, LocalDateTime}
-
-import akka.testkit.TestProbe
-import io.hydrosphere.serving.manager.model.{LocalSourceParams, Model, ModelSourceConfig}
-import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceDef}
+import io.hydrosphere.serving.manager.model.db.{Model, ModelSourceConfig}
+import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.LocalSourceParams
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
 import org.scalatest.BeforeAndAfterAll
-
-import scala.concurrent.Await
-import scala.concurrent.duration._
 
 class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
   var dummy_1: Model = _

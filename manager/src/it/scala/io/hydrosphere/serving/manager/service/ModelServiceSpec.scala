@@ -1,14 +1,12 @@
 package io.hydrosphere.serving.manager.service
 
-import akka.testkit.TestProbe
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.messages.ContainerConfig
-import io.hydrosphere.serving.manager.model.{LocalSourceParams, ModelBuildStatus, ModelSourceConfig}
+import io.hydrosphere.serving.manager.model.ModelBuildStatus
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
 import org.scalatest.BeforeAndAfterAll
 
 import scala.concurrent.Future
-import scala.concurrent.duration._
 
 class ModelServiceSpec extends FullIntegrationSpec with BeforeAndAfterAll {
   "ModelService" should {

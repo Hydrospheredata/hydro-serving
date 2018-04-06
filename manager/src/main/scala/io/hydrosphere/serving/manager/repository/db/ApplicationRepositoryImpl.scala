@@ -3,6 +3,8 @@ package io.hydrosphere.serving.manager.repository.db
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.db.{Application, ApplicationExecutionGraph, ApplicationKafkaStream, ServiceKeyDescription}
+import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol
 import io.hydrosphere.serving.manager.repository.ApplicationRepository
 import org.apache.logging.log4j.scala.Logging
 
@@ -11,7 +13,7 @@ import scala.concurrent.{ExecutionContext, Future}
 class ApplicationRepositoryImpl(
   implicit val executionContext: ExecutionContext,
   databaseService: DatabaseService
-) extends ApplicationRepository with Logging with CommonJsonSupport {
+) extends ApplicationRepository with Logging with CompleteJsonProtocol {
 
   import spray.json._
   import databaseService._
@@ -92,7 +94,7 @@ class ApplicationRepositoryImpl(
     ).map(s => s.map(ss => mapFromDb(ss)))
 }
 
-object ApplicationRepositoryImpl extends CommonJsonSupport {
+object ApplicationRepositoryImpl extends CompleteJsonProtocol {
 
   import spray.json._
 
