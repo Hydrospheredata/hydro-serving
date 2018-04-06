@@ -226,6 +226,26 @@ class ModelManagementSpec extends GenericUnitTest with MockitoSugar {
   }
 
   it should "reject an addition of existing model" in {
-    pending
+    val sourceName = "test"
+    val modelName = "tensorflow_model"
+    val modelPath = getClass.getResource("/test_models/tensorflow_model").getPath
+
+    val modelRepo = mock[ModelRepository]
+    val sourceMock = mock[SourceManagementService]
+
+    Mockito.when(sourceMock.getSource(sourceName)).thenReturn(Future.successful(Some(
+      new LocalModelSource(LocalSourceDef(sourceName, None))
+    )))
+    Mockito.when(modelRepo.get(Matchers.any())).thenReturn(
+      Future.successful(Some(dummyModel))
+    )
+
+    val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, null, null, null, null, sourceMock)
+
+    val f = modelManagementService.addModel(sourceName, modelPath).map{ maybeModel =>
+      maybeModel shouldBe empty
+    }
+
+    Await.result(f, 20 seconds)
   }
 }
