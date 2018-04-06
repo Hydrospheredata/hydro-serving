@@ -5,6 +5,9 @@ import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.LocalSourcePara
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
 import org.scalatest.BeforeAndAfterAll
 
+import scala.concurrent.Await
+import scala.concurrent.duration._
+
 class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
   var dummy_1: Model = _
   var dummy_2: Model = _
@@ -76,21 +79,15 @@ class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
 
   override def beforeAll(): Unit = {
     super.beforeAll()
-//    val indexProbe = TestProbe()
-//    system.eventStream.subscribe(indexProbe.ref, classOf[RepositoryIndexActor.IndexFinished])
-//    managerServices.sourceManagementService.addSource(source.toAux)
-//    indexProbe.expectMsgAllOf(
-//      20.seconds,
-//      RepositoryIndexActor.IndexFinished("dummy_model", "itsource"),
-//      RepositoryIndexActor.IndexFinished("dummy_model_2", "itsource")
-//    )
-//    val f1 = managerRepositories.modelRepository.get("dummy_model").map{ model =>
-//      dummy_1 = model.get
-//    }
-//    val f2 = managerRepositories.modelRepository.get("dummy_model_2").map{ model =>
-//      dummy_2 = model.get
-//    }
-//    Await.result(f1, 10.seconds)
-//    Await.result(f2, 10.seconds)
+    super.beforeAll()
+    dockerClient.pull("hydrosphere/serving-runtime-dummy:latest")
+    val sourceConf = ModelSourceConfig(1, "itsource", LocalSourceParams(Some(getClass.getResource("/models").getPath)))
+    val f = for {
+      _ <- managerServices.sourceManagementService.addSource(sourceConf)
+      m <- managerServices.modelManagementService.addModel("itsource", getClass.getResource("dummy_model").getPath)
+      m2 <- managerServices.modelManagementService.addModel("itsource", getClass.getResource("dummy_model_2").getPath)
+    } yield m2
+
+    Await.result(f, 30 seconds)
   }
 }
