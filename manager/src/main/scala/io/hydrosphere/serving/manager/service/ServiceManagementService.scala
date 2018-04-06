@@ -255,7 +255,7 @@ class ServiceManagementServiceImpl(
       .flatMap(syncServices)
 
   override def serviceByFullName(fullName: String): Future[Option[Service]] =
-    CloudDriverService.specialNames.get(fullName) match {
+    CloudDriverService.specialIdsByNames.get(fullName) match {
       case Some(id) =>
         cloudDriverService.services(Set(id))
           .map(p => p.headOption.map(mapInternalService))

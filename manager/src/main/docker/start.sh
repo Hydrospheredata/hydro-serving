@@ -2,8 +2,6 @@
 
 [ -z "$JAVA_XMX" ] && JAVA_XMX="256M"
 
-#[ -z "$APP_HTTP_PORT" ] && APP_HTTP_PORT="9090"
-#[ -z "$APP_PORT" ] && APP_PORT="9091"
 [ -z "$APP_SHADOWING_ON" ] && APP_SHADOWING_ON="false"
 [ -z "$SIDECAR_INGRESS_PORT" ] && SIDECAR_INGRESS_PORT="8080"
 [ -z "$SIDECAR_EGRESS_PORT" ] && SIDECAR_EGRESS_PORT="8081"
@@ -25,14 +23,7 @@
 
 JAVA_OPTS="-Xmx$JAVA_XMX -Xms$JAVA_XMX"
 
-APP_OPTS="-Dapplication.grpcPort=9091 -Dapplication.port=9090 -Dapplication.shadowingOn=$APP_SHADOWING_ON -Dsidecar.adminPort=$SIDECAR_ADMIN_PORT -Dsidecar.ingressPort=$SIDECAR_INGRESS_PORT -Dsidecar.egressPort=$SIDECAR_EGRESS_PORT -Dsidecar.host=$SIDECAR_HOST"
-
-if [ "$GELF_HOST" = "" ]
-then
-GELF_ENABLED="false"
-else
-GELF_ENABLED="true"
-fi
+APP_OPTS="-Dapplication.grpcPort=9091 -Dapplication.port=9090"
 
 if [ "$CUSTOM_CONFIG" = "" ]
 then
@@ -44,13 +35,14 @@ then
     if [ "$CLOUD_DRIVER" = "swarm" ]; then
         APP_OPTS="$APP_OPTS -DcloudDriver.swarm.networkName=$NETWORK_NAME"
     elif [ "$CLOUD_DRIVER" = "ecs" ]; then
+        [ -z "$ECS_DEPLOY_MEMORY_RESERVATION" ] && ECS_DEPLOY_MEMORY_RESERVATION="200"
+        SIDECAR_HOST=$(wget -q -O - http://169.254.169.254/latest/meta-data/local-ipv4)
+
         APP_OPTS="$APP_OPTS -DcloudDriver.ecs.region=$ECS_DEPLOY_REGION"
         APP_OPTS="$APP_OPTS -DcloudDriver.ecs.cluster=$ECS_DEPLOY_CLUSTER"
         APP_OPTS="$APP_OPTS -DcloudDriver.ecs.accountId=$ECS_DEPLOY_ACCOUNT"
+        APP_OPTS="$APP_OPTS -DcloudDriver.ecs.memoryReservation=$ECS_DEPLOY_MEMORY_RESERVATION"
         APP_OPTS="$APP_OPTS -DdockerRepository.type=ecs"
-        if [ "$GELF_ENABLED" = "true" ]; then
-            APP_OPTS="$APP_OPTS -DcloudDriver.ecs.loggingGelfHost=$GELF_HOST"
-        fi
     else
         if [ ! -z "$NETWORK_NAME" ]; then
             APP_OPTS="$APP_OPTS -DcloudDriver.docker.networkName=$NETWORK_NAME"
@@ -58,9 +50,6 @@ then
             APP_OPTS="$APP_OPTS -DcloudDriver.docker.networkName=bridge"
         fi
         APP_OPTS="$APP_OPTS -DdockerRepository.type=local"
-        if [ "$GELF_ENABLED" = "true" ]; then
-            APP_OPTS="$APP_OPTS -DcloudDriver.docker.loggingGelfHost=$GELF_HOST"
-        fi
     fi
 
 
@@ -79,6 +68,8 @@ then
 else
    APP_OPTS="$APP_OPTS -Dconfig.file=$CUSTOM_CONFIG"
 fi
+
+APP_OPTS="$APP_OPTS -Dapplication.shadowingOn=$APP_SHADOWING_ON -Dsidecar.adminPort=$SIDECAR_ADMIN_PORT -Dsidecar.ingressPort=$SIDECAR_INGRESS_PORT -Dsidecar.egressPort=$SIDECAR_EGRESS_PORT -Dsidecar.host=$SIDECAR_HOST"
 
 echo "Running Manager with:"
 echo "JAVA_OPTS=$JAVA_OPTS"

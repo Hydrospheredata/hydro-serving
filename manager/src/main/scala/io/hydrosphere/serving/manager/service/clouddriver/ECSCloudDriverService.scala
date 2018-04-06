@@ -16,24 +16,24 @@ import scala.collection.JavaConversions._
 import scala.concurrent.{ExecutionContext, Future}
 import scala.concurrent.duration._
 import spray.json._
-import akka.actor._
+//import akka.actor._
 import akka.pattern.ask
 import CloudDriverService._
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.service.clouddriver.ContainerWatcherActor._
+import io.hydrosphere.serving.manager.service.clouddriver.ECSServiceWatcherActor._
 
 import scala.collection.mutable
 
 class ECSCloudDriverService(
-    internalManagerEventsPublisher: InternalManagerEventsPublisher,
-    managerConfiguration: ManagerConfiguration
+    managerConfiguration: ManagerConfiguration,
+    internalManagerEventsPublisher: InternalManagerEventsPublisher
 )(
     implicit val ex: ExecutionContext,
     actorSystem: ActorSystem
 ) extends CloudDriverService with Logging with CommonJsonSupport {
   implicit val timeout = Timeout(30.seconds)
 
-  private val ecsSyncActor: ActorRef = actorSystem.actorOf(Props(classOf[ContainerWatcherActor], internalManagerEventsPublisher, managerConfiguration))
+  private val ecsSyncActor: ActorRef = actorSystem.actorOf(Props(classOf[ECSServiceWatcherActor], internalManagerEventsPublisher, managerConfiguration))
 
   override def removeService(serviceId: Long): Future[Unit] =
     (ecsSyncActor ? RemoveService(serviceId)).mapTo[Unit]
@@ -51,7 +51,7 @@ class ECSCloudDriverService(
     (ecsSyncActor ? ServiceList()).mapTo[Seq[CloudService]]
 }
 
-object ContainerWatcherActor {
+object ECSServiceWatcherActor {
 
   case class RemoveService(serviceId: Long)
 
@@ -65,7 +65,7 @@ object ContainerWatcherActor {
 
 }
 
-class ContainerWatcherActor(
+class ECSServiceWatcherActor(
     internalManagerEventsPublisher: InternalManagerEventsPublisher,
     managerConfiguration: ManagerConfiguration
 ) extends SelfScheduledActor(0.seconds, 10.seconds)(10.seconds) with CommonJsonSupport {
@@ -103,33 +103,61 @@ class ContainerWatcherActor(
       sender ! Seq[MetricServiceTargets]()
   }
 
-  override def onTick(): Unit = {
-    val fetchedServices = fetchCloudServices()
-
-    val fetchedMap = fetchedServices.map(s => s.cloudService.id -> s).toMap
-    val currentMap = services.map(s => s.cloudService.id -> s).toMap
-
-    val toRemoveKeys = currentMap.keySet -- fetchedMap.keySet
-    val toAddKeys = fetchedMap.keySet -- currentMap.keySet
-
-    val toRemove = toRemoveKeys.toSeq.map(s => currentMap(s).cloudService)
-    val toAdd = toAddKeys.toSeq.map(s => fetchedMap(s).cloudService)
-
-    val equalKeys = fetchedMap.keySet -- toRemoveKeys
-    val changed=equalKeys.toSeq
-      .map(s=> (fetchedMap(s), currentMap(s)))
-      .filterNot(t=>t._1.cloudService.equals(t._2.cloudService))
-      .map(_._1.cloudService)
-
-    services.clear()
-    services.addAll(fetchedServices)
-
-    if (toRemove.nonEmpty) {
-      internalManagerEventsPublisher.cloudServiceRemoved(toRemove)
+  private def createFakeServices(services: Seq[StoredService]): Seq[StoredService] = {
+    val specials = services.filter(s => specialNamesByIds.keySet.contains(s.cloudService.id))
+    specials.find(_.cloudService.id == MANAGER_HTTP_ID) match {
+      case Some(x) =>
+        Seq()
+      case None =>
+        specials.filter(_.cloudService.id == MANAGER_ID)
+          .map(s => {
+            val copyCloudService = s.cloudService.copy(
+              id = MANAGER_HTTP_ID,
+              serviceName = MANAGER_HTTP_NAME,
+              instances = s.cloudService.instances.map(i => {
+                i.copy(mainApplication = i.mainApplication.copy(port = DEFAULT_HTTP_PORT))
+              })
+            )
+            s.copy(cloudService = copyCloudService)
+          })
     }
-    val notifySeq = toAdd ++ changed
-    if (notifySeq.nonEmpty) {
-      internalManagerEventsPublisher.cloudServiceDetected(notifySeq)
+  }
+
+  override def onTick(): Unit = {
+    try {
+      val tmp = fetchCloudServices()
+      val fetchedServices = tmp ++ createFakeServices(tmp)
+
+      val fetchedMap = fetchedServices.map(s => s.cloudService.id -> s).toMap
+      val currentMap = services.map(s => s.cloudService.id -> s).toMap
+
+      val toRemoveKeys = currentMap.keySet -- fetchedMap.keySet
+      val toAddKeys = fetchedMap.keySet -- currentMap.keySet
+
+      val toRemove = toRemoveKeys.toSeq.map(s => currentMap(s).cloudService)
+      val toAdd = toAddKeys.toSeq.map(s => fetchedMap(s).cloudService)
+
+      val equalKeys = fetchedMap.keySet -- toRemoveKeys -- toAddKeys
+      val changed = equalKeys.toSeq
+        .map(s => (fetchedMap(s), currentMap(s)))
+        .filterNot(t => t._1.cloudService.equals(t._2.cloudService))
+        .map(_._1.cloudService)
+
+      services.clear()
+      services.addAll(fetchedServices)
+
+      if (toRemove.nonEmpty) {
+        log.debug(s"CloudService removed: $toRemove")
+        internalManagerEventsPublisher.cloudServiceRemoved(toRemove)
+      }
+      val notifySeq = toAdd ++ changed
+      if (notifySeq.nonEmpty) {
+        log.debug(s"CloudService changed: $notifySeq")
+        internalManagerEventsPublisher.cloudServiceDetected(notifySeq)
+      }
+    } catch {
+      case e: Exception =>
+        log.error(e, e.getMessage)
     }
   }
 
@@ -188,9 +216,10 @@ class ContainerWatcherActor(
         .withImage(model.toImageDef)
         .withMemoryReservation(10)
         .withEssential(false)
-        .withMountPoints(new MountPoint()
+        /*.withMountPoints(new MountPoint()
           .withContainerPath(DEFAULT_MODEL_DIR)
-        )
+          .withSourceVolume("model")
+        )*/
         .withDockerLabels(labels)
     })
 
@@ -223,7 +252,9 @@ class ContainerWatcherActor(
       )
 
     modelContainerDefinition.map(cd => {
-      registerTaskDefinition.withContainerDefinitions(cd)
+      registerTaskDefinition
+        .withContainerDefinitions(cd)
+      //.withVolumes(new Volume().withName("model"))
     })
 
     service.environment.map(e => {
@@ -374,13 +405,32 @@ class ContainerWatcherActor(
 
   private def fetchFilteredAndEnrichedTasks(): Seq[EnrichedTask] = {
     val tasks = fetchAllTasks()
+    if (tasks.isEmpty) {
+      return Seq()
+    }
+
     val services = fetchAllServices().map(s => s.getServiceName -> s).toMap
+    if (services.isEmpty) {
+      return Seq()
+    }
+
     val taskDefinitions = fetchTaskDefinitions(services.values.map(s => {
       s.getTaskDefinition
     }).toSet).map(t => t.getTaskDefinitionArn -> t).toMap
+    if (taskDefinitions.isEmpty) {
+      return Seq()
+    }
 
     val instances = fetchClusterInstances()
+    if (instances.isEmpty) {
+      return Seq()
+    }
+
     val network = fetchAllNetworks(instances.keys.toSeq)
+    if (network.isEmpty) {
+      return Seq()
+    }
+
     val privateIPs = instances.map(entry =>
       entry._2 -> InstanceInfo(
         ip = network.getOrElse(entry._1, ""),
@@ -477,6 +527,10 @@ class ContainerWatcherActor(
     val sidecars = mapSidecars(tasks).sortBy(_.host)
     val hostToSidecar = sidecars.map(s => s.host -> s).toMap
 
+    if (sidecars.isEmpty) {
+      throw new RuntimeException("Can't find sidecars")
+    }
+
     val applicationInfos = mapApplicationInfo(tasks)
       .groupBy(_.task.service.get.getServiceArn)
 
@@ -493,9 +547,11 @@ class ContainerWatcherActor(
       val image = imageArray.head
       val version = if (imageArray.size > 1) imageArray.last else "latest"
 
+      val serviceId = serviceLabels.get(LABEL_SERVICE_ID).toLong
+
       StoredService(CloudService(
-        id = serviceLabels.get(LABEL_SERVICE_ID).toLong,
-        serviceName = service.getServiceName,
+        id = serviceId,
+        serviceName = specialNamesByIds.getOrElse(serviceId, service.getServiceName),
         statusText = service.getStatus,
         cloudDriverId = service.getServiceArn,
         environmentName = if (environment == "") None else Some(environment),
