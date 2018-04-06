@@ -5,3 +5,8 @@ case class AddLocalSourceRequest(
   path: String
 )
 
+object AddLocalSourceRequest {
+  import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
+
+  implicit val format = jsonFormat2(AddLocalSourceRequest.apply)
+}
