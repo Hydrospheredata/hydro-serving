@@ -3,11 +3,11 @@ package io.hydrosphere.serving.manager.service
 import java.nio.file.Path
 
 import io.hydrosphere.serving.manager.ManagerConfiguration
-import io.hydrosphere.serving.manager.controller.model_source.AddS3SourceRequest
+import io.hydrosphere.serving.manager.controller.model_source.{AddLocalSourceRequest, AddS3SourceRequest}
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.ModelMetadata
 import io.hydrosphere.serving.manager.model.db.ModelSourceConfig
-import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.S3SourceParams
+import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.{LocalSourceParams, S3SourceParams}
 import io.hydrosphere.serving.manager.repository.SourceConfigRepository
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
@@ -40,6 +40,8 @@ trait SourceManagementService {
   def index(source: String): Future[Try[Option[ModelMetadata]]]
 
   def addS3Source(r: AddS3SourceRequest): Future[Option[ModelSourceConfig]]
+
+  def addLocalSource(r: AddLocalSourceRequest): Future[Option[ModelSourceConfig]]
 
   def addSource(modelSourceConfigAux: ModelSourceConfig): Future[Option[ModelSourceConfig]]
 
@@ -86,6 +88,15 @@ class SourceManagementServiceImpl(
         .map(_.getAbsolutePath(sourcePath.path))
         .getOrElse(throw new IllegalArgumentException(s"ModelSource for $url with prefix ${sourcePath.sourceName} is not found"))
     }
+  }
+
+  override def addLocalSource(r: AddLocalSourceRequest): Future[Option[ModelSourceConfig]] = {
+    val config = ModelSourceConfig(
+      id = -1,
+      name = r.name,
+      params = LocalSourceParams(Some(r.path))
+    )
+    addSource(config)
   }
 
   override def addS3Source(r: AddS3SourceRequest): Future[Option[ModelSourceConfig]] = {
