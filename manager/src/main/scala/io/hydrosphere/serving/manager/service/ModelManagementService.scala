@@ -393,7 +393,7 @@ class ModelManagementServiceImpl(
       case Some(source) =>
         if (source.isExist(modelPath)) {
           val metadata = ModelFetcher.fetch(source, modelPath)
-          val createReq = metadataToCreate(metadata, sourceName)
+          val createReq = metadataToCreate(metadata, s"$sourceName:$modelPath")
           createModel(createReq)
         } else {
           Future.successful(None)

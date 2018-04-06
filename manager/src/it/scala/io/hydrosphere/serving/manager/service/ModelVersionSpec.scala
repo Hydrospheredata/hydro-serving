@@ -37,31 +37,21 @@ class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
       }
 
       "model changed after last version" in {
-        pending
-//        val f = new FileCreated(
-//          new LocalModelSource(LocalSourceDef.fromConfig(source)),
-//          "dummy_model/test",
-//          Instant.now(),
-//          "asdasd",
-//          LocalDateTime.now()
-//        )
-//        val indexProbe = TestProbe()
-//        system.eventStream.subscribe(indexProbe.ref, classOf[RepositoryIndexActor.IndexFinished])
-//        system.eventStream.publish(f)
-//        indexProbe.expectMsg(20.seconds, RepositoryIndexActor.IndexFinished("dummy_model", "itsource"))
-//        managerServices.modelManagementService.getModelAggregatedInfo(dummy_2.id).map{ maybeModel =>
-//          assert(maybeModel.isDefined)
-//          val model = maybeModel.get
-//          println(model)
-//          assert(model.nextVersion.isEmpty, model.nextVersion)
-//        }
-//        managerServices.modelManagementService.getModelAggregatedInfo(dummy_1.id).map{ maybeModel =>
-//          assert(maybeModel.isDefined)
-//          val model = maybeModel.get
-//          assert(model.nextVersion.isDefined)
-//          assert(model.nextVersion.get === 2)
-//          assert(model.lastModelVersion.get.modelVersion === 1)
-//        }
+        managerServices.modelManagementService.indexModels(Set(dummy_1.id)).flatMap { _ =>
+          managerServices.modelManagementService.getModelAggregatedInfo(dummy_2.id).map { maybeModel =>
+            assert(maybeModel.isDefined)
+            val model = maybeModel.get
+            println(model)
+            assert(model.nextVersion.isEmpty, model.nextVersion)
+          }
+          managerServices.modelManagementService.getModelAggregatedInfo(dummy_1.id).map { maybeModel =>
+            assert(maybeModel.isDefined)
+            val model = maybeModel.get
+            assert(model.nextVersion.isDefined)
+            assert(model.nextVersion.get === 2)
+            assert(model.lastModelVersion.get.modelVersion === 1)
+          }
+        }
       }
 
       "return info for all models" in {
@@ -79,14 +69,17 @@ class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
 
   override def beforeAll(): Unit = {
     super.beforeAll()
-    super.beforeAll()
     dockerClient.pull("hydrosphere/serving-runtime-dummy:latest")
     val sourceConf = ModelSourceConfig(1, "itsource", LocalSourceParams(Some(getClass.getResource("/models").getPath)))
-    val f = for {
-      _ <- managerServices.sourceManagementService.addSource(sourceConf)
-      m <- managerServices.modelManagementService.addModel("itsource", getClass.getResource("dummy_model").getPath)
-      m2 <- managerServices.modelManagementService.addModel("itsource", getClass.getResource("dummy_model_2").getPath)
-    } yield m2
+    val f = managerServices.sourceManagementService.addSource(sourceConf).flatMap { _ =>
+      managerServices.modelManagementService.addModel("itsource", "dummy_model").flatMap { d1 =>
+        dummy_1 = d1.get
+        managerServices.modelManagementService.addModel("itsource", "dummy_model_2").map { d2 =>
+          dummy_2 = d2.get
+          d2
+        }
+      }
+    }
 
     Await.result(f, 30 seconds)
   }

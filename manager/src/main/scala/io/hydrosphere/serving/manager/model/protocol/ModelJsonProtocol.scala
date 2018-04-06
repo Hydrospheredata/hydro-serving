@@ -43,7 +43,7 @@ trait ModelJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol {
   implicit val sourceParamsFormat = new JsonFormat[SourceParams] {
     override def read(json: JsValue) = {
       json match {
-        case obj@ JsObject(fields) if fields.isDefinedAt("path") =>
+        case obj@ JsObject(fields) if fields.isDefinedAt("pathPrefix") =>
           obj.convertTo[LocalSourceParams]
         case obj@ JsObject(fields) if fields.isDefinedAt("bucketName") =>
           obj.convertTo[S3SourceParams]

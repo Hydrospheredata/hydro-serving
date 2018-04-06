@@ -177,7 +177,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     val sourceConf = ModelSourceConfig(1, "itsource", LocalSourceParams(Some(getClass.getResource("/models").getPath)))
     val f = for {
       _ <- managerServices.sourceManagementService.addSource(sourceConf)
-      m <- managerServices.modelManagementService.addModel("itsource", getClass.getResource("dummy_model").getPath)
+      m <- managerServices.modelManagementService.addModel("itsource", "dummy_model")
     } yield m
 
     Await.result(f, 30 seconds)

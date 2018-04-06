@@ -16,7 +16,7 @@ class ModelServiceSpec extends FullIntegrationSpec with BeforeAndAfterAll {
     "fetch all models" in {
       managerServices.modelManagementService.allModels().map { seq =>
         println(seq)
-        assert(seq.lengthCompare(2) == 0)
+        assert(seq.lengthCompare(1) == 0)
       }
     }
 
@@ -103,7 +103,7 @@ class ModelServiceSpec extends FullIntegrationSpec with BeforeAndAfterAll {
     val sourceConf = ModelSourceConfig(1, "itsource", LocalSourceParams(Some(getClass.getResource("/models").getPath)))
     val f = for {
       _ <- managerServices.sourceManagementService.addSource(sourceConf)
-      m <- managerServices.modelManagementService.addModel("itsource", getClass.getResource("dummy_model").getPath)
+      m <- managerServices.modelManagementService.addModel("itsource", "dummy_model")
     } yield m
 
     Await.result(f, 30 seconds)
