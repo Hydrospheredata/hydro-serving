@@ -120,17 +120,15 @@ class ModelController(modelManagementService: ModelManagementService)
         val dicts = fileNamesFuture.runFold(Map.empty[String, UploadedEntity]) {
           case (a, b) => a + (b.name -> b)
         }
-        def uploadModel(): Future[Option[Model]] = {
-          dicts.map(ModelUpload.fromMap).flatMap {
-            case Some(upload) => modelManagementService.uploadModelTarball(upload)
-            case None => Future.successful(None)
+
+        def uploadModel(dd: Future[Map[String, UploadedEntity]]): HFResult[Model] = {
+          dd.map(ModelUpload.fromMap).flatMap {
+            case Left(a) => Future.successful(Left(a))
+            case Right(b) => modelManagementService.uploadModelTarball(b)
           }
         }
 
-        onSuccess(uploadModel()) {
-          case None => complete(400, "Incorrect input data")
-          case Some(m) => complete(200, m)
-        }
+        completeFRes(uploadModel(dicts))
       }
     }
   }
@@ -149,7 +147,7 @@ class ModelController(modelManagementService: ModelManagementService)
   def updateModel = path("api" / "v1" / "model") {
     put {
       entity(as[CreateOrUpdateModelRequest]) { r =>
-        complete(
+        completeFRes(
           modelManagementService.updateModel(r)
         )
       }

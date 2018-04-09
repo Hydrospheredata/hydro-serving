@@ -98,7 +98,7 @@ case class AggregatedModelInfo(
 
 
 trait ModelManagementService {
-  def uploadModelTarball(upload: UploadedEntity.ModelUpload): Future[Option[Model]]
+  def uploadModelTarball(upload: UploadedEntity.ModelUpload): HFResult[Model]
 
   def versionContractDescription(versionId: Long): Future[Option[ContractDescription]]
 
@@ -120,9 +120,9 @@ trait ModelManagementService {
 
   def getModelAggregatedInfo(id: Long): Future[Option[AggregatedModelInfo]]
 
-  def updateModel(entity: CreateOrUpdateModelRequest): Future[Model]
+  def updateModel(entity: CreateOrUpdateModelRequest): HFResult[Model]
 
-  def createModel(entity: CreateOrUpdateModelRequest): Future[Model]
+  def createModel(entity: CreateOrUpdateModelRequest): HFResult[Model]
 
   def updatedInModelSource(entity: Model): Future[Unit]
 
@@ -167,10 +167,10 @@ class ModelManagementServiceImpl(
   override def allModels(): Future[Seq[Model]] =
     modelRepository.all()
 
-  override def createModel(entity: CreateOrUpdateModelRequest): Future[Model] =
-    modelRepository.create(entity.toModel)
+  override def createModel(entity: CreateOrUpdateModelRequest): HFResult[Model] =
+    modelRepository.create(entity.toModel).map(Right.apply)
 
-  override def updateModel(entity: CreateOrUpdateModelRequest): Future[Model] = {
+  override def updateModel(entity: CreateOrUpdateModelRequest): HFResult[Model] = {
     entity.id match {
       case Some(modelId) =>
         modelRepository.get(modelId).flatMap {
@@ -178,10 +178,10 @@ class ModelManagementServiceImpl(
             val newModel = entity.toModel(foundModel)
             modelRepository
               .update(newModel)
-              .map(_ => newModel)
-          case None => throw new IllegalArgumentException(s"Can't find Model with id ${entity.id.get}")
+              .map(_ => Right(newModel))
+          case None => Result.clientErrorF(s"Can't find Model with id ${entity.id.get}")
         }
-      case None => throw new IllegalArgumentException("Id required for this action")
+      case None => Result.clientErrorF("Id is required for this action")
     }
   }
 
@@ -464,13 +464,13 @@ class ModelManagementServiceImpl(
   }
 
 
-  def uploadToSource(upload: UploadedEntity.ModelUpload): Future[Option[CreateOrUpdateModelRequest]] = {
+  def uploadToSource(upload: UploadedEntity.ModelUpload): HFResult[CreateOrUpdateModelRequest] = {
     val fMaybeSource = upload.source match {
       case Some(sourceName) => sourceManagementService.getSource(sourceName)
       case None => sourceManagementService.getSources.map(_.headOption)
     }
-    fMaybeSource.map { maybeSource =>
-      maybeSource.map { source =>
+    fMaybeSource.map {
+      case Some(source) =>
         val unpackDir = Files.createTempDirectory(upload.name)
         val rootDir = Paths.get(upload.name)
         val uploadedFiles = TarGzUtils.decompress(upload.tarballPath, unpackDir)
@@ -485,23 +485,25 @@ class ModelManagementServiceImpl(
         repoActor ! IgnoreModel(upload.name) // Add model name to blacklist to ignore watcher events
 
         writeFilesToSource(source, localFiles)
-        CreateOrUpdateModelRequest(
-          id = None,
-          name = upload.name,
-          source = source.sourceDef.name,
-          modelType = ModelType.fromTag(upload.modelType),
-          description = upload.description,
-          modelContract = upload.contract
+        Right(
+          CreateOrUpdateModelRequest(
+            id = None,
+            name = upload.name,
+            source = source.sourceDef.name,
+            modelType = ModelType.fromTag(upload.modelType),
+            description = upload.description,
+            modelContract = upload.contract
+          )
         )
-      }
+      case None => Result.clientError("Can't find sources to upload model")
     }
   }
 
 
-  override def uploadModelTarball(upload: UploadedEntity.ModelUpload): Future[Option[Model]] = {
+  override def uploadModelTarball(upload: UploadedEntity.ModelUpload): HFResult[Model] = {
     uploadToSource(upload).flatMap {
-      case Some(request) =>
-        val res = modelRepository.get(upload.name).flatMap {
+      case Right(request) =>
+        modelRepository.get(upload.name).flatMap {
           case Some(model) =>
             val updateRequest = request.copy(id = Some(model.id), source = model.source)
             logger.info(s"Updating uploaded model with id: ${updateRequest.id} name: ${updateRequest.name}, source: ${updateRequest.source}, type: ${updateRequest.modelType} ")
@@ -512,8 +514,7 @@ class ModelManagementServiceImpl(
             logger.info(s"Creating uploaded model with name: ${createRequest.name}, source: ${createRequest.source}, type: ${createRequest.modelType}")
             createModel(createRequest)
         }
-        res.map(Some(_))
-      case None => Future.successful(None)
+      case Left(err) => Future.successful(Left(err))
     }
   }
 }
