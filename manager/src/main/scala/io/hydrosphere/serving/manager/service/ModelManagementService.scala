@@ -18,6 +18,8 @@ import io.hydrosphere.serving.contract.utils.ops.ModelContractOps._
 import io.hydrosphere.serving.manager.model.api.json.TensorJsonLens
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.apache.logging.log4j.scala.Logging
+import Result.Implicits._
+import io.hydrosphere.serving.manager.model.Result.ClientError
 import spray.json.JsObject
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -470,10 +472,10 @@ class ModelManagementServiceImpl(
   def uploadToSource(upload: UploadedEntity.ModelUpload): HFResult[CreateOrUpdateModelRequest] = {
     val fMaybeSource = upload.source match {
       case Some(sourceName) => sourceManagementService.getSource(sourceName)
-      case None => sourceManagementService.getSources.map(_.headOption)
+      case None => sourceManagementService.getSources.map(_.headOption.toHResult(ClientError("No sources available")))
     }
-    fMaybeSource.map {
-      case Some(source) =>
+    fMaybeSource.map { result =>
+      result.right.map { source =>
         val unpackDir = Files.createTempDirectory(upload.name)
         val rootDir = Paths.get(upload.name)
         val uploadedFiles = TarGzUtils.decompress(upload.tarballPath, unpackDir)
@@ -488,17 +490,15 @@ class ModelManagementServiceImpl(
         repoActor ! IgnoreModel(upload.name) // Add model name to blacklist to ignore watcher events
 
         writeFilesToSource(source, localFiles)
-        Right(
-          CreateOrUpdateModelRequest(
-            id = None,
-            name = upload.name,
-            source = source.sourceDef.name,
-            modelType = ModelType.fromTag(upload.modelType),
-            description = upload.description,
-            modelContract = upload.contract
-          )
+        CreateOrUpdateModelRequest(
+          id = None,
+          name = upload.name,
+          source = source.sourceDef.name,
+          modelType = ModelType.fromTag(upload.modelType),
+          description = upload.description,
+          modelContract = upload.contract
         )
-      case None => Result.clientError("Can't find sources to upload model")
+      }
     }
   }
 

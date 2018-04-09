@@ -24,8 +24,8 @@ class SourceServiceITSpec extends FullIntegrationSpec {
         "test_api", getClass.getResource("/models").getPath
       )
       managerServices.sourceManagementService.addLocalSource(req).map { maybeSourceConfig =>
-        assert(maybeSourceConfig.isDefined)
-        val modelSourceConfig = maybeSourceConfig.get
+        assert(maybeSourceConfig.isRight)
+        val modelSourceConfig = maybeSourceConfig.right.get
         assert(modelSourceConfig.name === req.name)
         assert(modelSourceConfig.params.isInstanceOf[LocalSourceParams], modelSourceConfig.params)
         assert(modelSourceConfig.params.asInstanceOf[LocalSourceParams].path === req.path)
@@ -43,8 +43,8 @@ class SourceServiceITSpec extends FullIntegrationSpec {
         successSource <- managerServices.sourceManagementService.addLocalSource(reqSuccess)
         failSource <- managerServices.sourceManagementService.addLocalSource(reqFail)
       } yield {
-        assert(successSource.isDefined)
-        assert(failSource.isEmpty)
+        assert(successSource.isRight)
+        assert(failSource.isLeft)
       }
     }
 
