@@ -4,15 +4,36 @@ import akka.http.scaladsl.marshalling.ToResponseMarshaller
 import akka.http.scaladsl.model.{ContentTypes, HttpEntity, HttpResponse, StatusCodes}
 import akka.http.scaladsl.server.Directives.{complete, onComplete}
 import akka.http.scaladsl.server.Route
-import io.hydrosphere.serving.manager.model.{HFResult, HResult}
-import io.hydrosphere.serving.manager.model.Result.{HError, InternalError}
-import org.apache.logging.log4j.scala.Logging
+import io.hydrosphere.serving.manager.model.{CommonJsonSupport, HFResult, HResult}
+import io.hydrosphere.serving.manager.model.Result.{ClientError, HError, InternalError}
 import spray.json._
 
+import scala.concurrent.Future
 import scala.util.{Failure, Success}
 
-trait GenericController extends Logging {
-  final def completeRes[T](res: HResult[T])(implicit responseMarshaller: ToResponseMarshaller[T]): Route = {
+
+trait GenericController extends CommonJsonSupport {
+  final def withF[T: ToResponseMarshaller](res: Future[T])(f: T => Route): Route = {
+    onComplete(res){
+      case Success(result) =>
+        f(result)
+      case Failure(err) =>
+        logger.error("Future failed", err)
+        val error: HError = InternalError(err, Some("Future failed"))
+        complete(
+          HttpResponse(
+            status = StatusCodes.InternalServerError,
+            entity = HttpEntity(ContentTypes.`application/json`, error.toJson.toString)
+          )
+        )
+    }
+  }
+
+  final def completeF[T: ToResponseMarshaller](res: Future[T]): Route = {
+    withF(res)(complete(_))
+  }
+
+  final def completeRes[T: ToResponseMarshaller](res: HResult[T]): Route = {
     res match {
       case Left(a) =>
         complete(
@@ -25,20 +46,8 @@ trait GenericController extends Logging {
     }
   }
 
-  final def completeFRes[T](res: HFResult[T])(implicit responseMarshaller: ToResponseMarshaller[T]): Route = {
-    onComplete(res){
-      case Success(result) =>
-        completeRes(result)
-      case Failure(err) =>
-        logger.error("Future failed", err)
-        val error: HError = InternalError(err, Some("Future failed"))
-        complete(
-          HttpResponse(
-            status = StatusCodes.InternalServerError,
-            entity = HttpEntity(ContentTypes.`text/plain(UTF-8)`, error.toJson.toString)
-          )
-        )
-    }
+  final def completeFRes[T: ToResponseMarshaller](res: HFResult[T]): Route = {
+    withF(res)(completeRes(_))
   }
 
   def routes: Route

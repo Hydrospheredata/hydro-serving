@@ -1,6 +1,5 @@
 package io.hydrosphere.serving.manager.service
 
-import java.io.File
 import java.nio.file.{Files, Path, Paths}
 import java.time.LocalDateTime
 
@@ -71,7 +70,7 @@ case class CreateModelVersionRequest(
   modelType: String
 ) {
 
-  def toModelVersion(model: Option[Model]): ModelVersion = {
+  def toModelVersion(model: Model): ModelVersion = {
     ModelVersion(
       id = 0,
       imageName = this.imageName,
@@ -82,7 +81,7 @@ case class CreateModelVersionRequest(
       source = this.source,
       modelContract = this.modelContract,
       created = LocalDateTime.now(),
-      model = model,
+      model = Some(model),
       modelType = ModelType.fromTag(this.modelType)
     )
   }
@@ -114,7 +113,9 @@ trait ModelManagementService {
 
   def allModels(): Future[Seq[Model]]
 
-  def getModel(id: Long): Future[Option[Model]]
+  def getModel(id: Long): HFResult[Model]
+
+  def getModelVersion(id: Long): HFResult[ModelVersion]
 
   def allModelsAggregatedInfo(): Future[Seq[AggregatedModelInfo]]
 
@@ -126,7 +127,7 @@ trait ModelManagementService {
 
   def updatedInModelSource(entity: Model): Future[Unit]
 
-  def addModelVersion(entity: CreateModelVersionRequest): Future[ModelVersion]
+  def addModelVersion(entity: CreateModelVersionRequest): HFResult[ModelVersion]
 
   def allModelVersion(): Future[Seq[ModelVersion]]
 
@@ -185,10 +186,15 @@ class ModelManagementServiceImpl(
     }
   }
 
-  override def addModelVersion(entity: CreateModelVersionRequest): Future[ModelVersion] =
-    fetchModel(entity.modelId).flatMap(model => {
-      modelVersionRepository.create(entity.toModelVersion(model))
-    })
+  override def addModelVersion(entity: CreateModelVersionRequest): HFResult[ModelVersion] =
+    entity.modelId match {
+      case Some(id) =>
+        getModel(id).flatMap {
+          case Left(a) => Future.successful(Left(a))
+          case Right(b) => modelVersionRepository.create(entity.toModelVersion(b)).map(Right.apply)
+        }
+      case None => Result.clientErrorF("Model ID is not specified")
+    }
 
   override def allModelVersion(): Future[Seq[ModelVersion]] =
     modelVersionRepository.all()
@@ -324,18 +330,6 @@ class ModelManagementServiceImpl(
     }
   }
 
-  private def fetchModel(id: Option[Long]): Future[Option[Model]] = {
-    if (id.isEmpty) {
-      Future.successful(None)
-    } else {
-      modelRepository
-        .get(id.get)
-        .map {
-          _.orElse(throw new IllegalArgumentException(s"Can't find Model with id ${id.get}"))
-        }
-    }
-  }
-
   private def addModel(model: Model): Future[Model] = {
     modelRepository.create(model)
   }
@@ -405,8 +399,17 @@ class ModelManagementServiceImpl(
   override def modelsByType(types: Set[String]): Future[Seq[Model]] =
     modelRepository.fetchByModelType(types.map(ModelType.fromTag).toSeq)
 
-  override def getModel(id: Long): Future[Option[Model]] =
-    modelRepository.get(id)
+  override def getModel(id: Long): HFResult[Model] =
+    modelRepository.get(id).map {
+      case Some(model) => Right(model)
+      case None => Result.clientError(s"Can't find a model with id: $id")
+    }
+
+  override def getModelVersion(id: Long): HFResult[ModelVersion] =
+    modelVersionRepository.get(id).map {
+      case Some(model) => Right(model)
+      case None => Result.clientError(s"Can't find a model with id: $id")
+    }
 
   def aggregatedInfo(models: Model*): Future[Seq[AggregatedModelInfo]] = {
     val ids = models.map(_.id)

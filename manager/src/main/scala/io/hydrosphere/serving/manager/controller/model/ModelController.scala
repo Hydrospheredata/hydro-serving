@@ -242,7 +242,7 @@ class ModelController(modelManagementService: ModelManagementService)
   def addModelVersion = path("api" / "v1" / "model" / "version") {
     post {
       entity(as[CreateModelVersionRequest]) { r =>
-        complete(
+        completeF(
           modelManagementService.addModelVersion(r)
         )
       }

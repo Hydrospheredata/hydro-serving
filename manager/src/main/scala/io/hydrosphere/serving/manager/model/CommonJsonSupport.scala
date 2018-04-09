@@ -7,6 +7,7 @@ import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.contract.utils.description._
+import io.hydrosphere.serving.manager.model.Result.{ClientError, HError, InternalError}
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.clouddriver.{MetricServiceTargetLabels, MetricServiceTargets}
@@ -182,6 +183,40 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
 
   implicit val metricServiceTargetLabelsFormat = jsonFormat11(MetricServiceTargetLabels)
   implicit val metricServiceTargetsFormat = jsonFormat2(MetricServiceTargets)
+
+  implicit def internalErrorFormat[T <: Throwable] = new RootJsonFormat[InternalError[T]] {
+    override def write(obj: InternalError[T]): JsValue = {
+      val fields = Map(
+        "exception" -> JsString(obj.exception.getMessage)
+      )
+      val reasonField = obj.reason.map { r =>
+        Map("reason" -> JsString(r))
+      }.getOrElse(Map.empty)
+
+      JsObject(fields ++ reasonField)
+    }
+
+    override def read(json: JsValue): InternalError[T] = ???
+  }
+
+  implicit val clientErrorFormat = jsonFormat1(ClientError.apply)
+
+  implicit val errorFormat = new RootJsonFormat[HError] {
+    override def write(obj: HError): JsValue = {
+      obj match {
+        case x: ClientError => JsObject(Map(
+          "error" -> JsString("Client"),
+          "information" -> x.toJson
+        ))
+        case x: InternalError[_] => JsObject(Map(
+          "error" -> JsString("Internal"),
+          "information" -> x.toJson
+        ))
+      }
+    }
+
+    override def read(json: JsValue): HError = ???
+  }
 }
 
 object CommonJsonSupport extends CommonJsonSupport
