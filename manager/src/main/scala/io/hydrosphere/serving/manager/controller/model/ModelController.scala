@@ -13,7 +13,7 @@ import akka.stream.scaladsl.FileIO
 import akka.util.Timeout
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
-import io.hydrosphere.serving.manager.controller.ServingDataDirectives
+import io.hydrosphere.serving.manager.controller.{GenericController, ServingDataDirectives}
 import io.hydrosphere.serving.manager.controller.model.UploadedEntity._
 import io.hydrosphere.serving.manager.model.CommonJsonSupport._
 import io.hydrosphere.serving.manager.model._
@@ -27,7 +27,7 @@ import scala.concurrent.duration._
 @Api(produces = "application/json", tags = Array("Model and Model Versions"))
 class ModelController(modelManagementService: ModelManagementService)
   (implicit system: ActorSystem,  materializer: ActorMaterializer, executionContext: ExecutionContext)
-  extends ServingDataDirectives {
+  extends GenericController with ServingDataDirectives {
   implicit val timeout = Timeout(10.minutes)
 
   @Path("/")

@@ -16,7 +16,7 @@ import scala.concurrent.duration._
 @Api(produces = "application/json", tags = Array("Environment"))
 class EnvironmentController(
   serviceManagementService: ServiceManagementService
-) {
+) extends GenericController {
   implicit val timeout = Timeout(5.seconds)
 
   @Path("/")

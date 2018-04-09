@@ -20,7 +20,7 @@ import scala.concurrent.duration._
 class ServiceController(
   serviceManagementService: ServiceManagementService,
   applicationManagementService: ApplicationManagementService
-) extends ServingDataDirectives {
+) extends GenericController {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/")

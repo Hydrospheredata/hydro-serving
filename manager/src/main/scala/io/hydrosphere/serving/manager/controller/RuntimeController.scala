@@ -16,7 +16,7 @@ import scala.concurrent.duration._
 @Api(produces = "application/json", tags = Array("Runtime"))
 class RuntimeController(
   runtimeManagementService: RuntimeManagementService
-) {
+) extends GenericController {
   implicit val timeout = Timeout(5.seconds)
 
   @Path("/")
