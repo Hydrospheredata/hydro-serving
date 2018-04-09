@@ -41,7 +41,7 @@ object UploadedEntity {
       map.get(fieldName) match {
         case Some(field) =>
           field match {
-            case ct(x: T) => Right(x)
+            case ct(x) => Right(x)
             case x => Result.clientError(s"'$fieldName' has incompatible type. Expected: ${ct.runtimeClass}, got ${x.getClass}")
           }
         case None => Result.clientError(s"'$fieldName' part is missing")

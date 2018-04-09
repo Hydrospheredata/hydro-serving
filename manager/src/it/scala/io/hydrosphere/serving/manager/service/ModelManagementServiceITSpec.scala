@@ -31,7 +31,8 @@ class ModelManagementServiceITSpec extends CommonIntegrationSpec with BeforeAndA
         modelContract = ModelContract(),
         modelType = ModelType.Unknown("test")
       )
-      val f = managerServices.modelManagementService.createModel(request).map{ model =>
+      val f = managerServices.modelManagementService.createModel(request).map{ mResult =>
+        val model = mResult.right.get
         assert(model.name === request.name)
         assert(model.source === request.source)
         assert(model.description === request.description)
