@@ -35,7 +35,12 @@ class ManagerHttpApi(
 
   val modelSourceController = new ModelSourceController(managerServices.sourceManagementService)
 
-  val modelController = new ModelController(managerServices.modelManagementService)
+  val modelController = new ModelController(
+    managerServices.modelManagementService,
+    managerServices.aggregatedInfoUtilityService,
+    managerServices.modelBuildManagmentService,
+    managerServices.modelVersionManagementService
+  )
 
   val serviceController = new ServiceController(
     managerServices.serviceManagementService,

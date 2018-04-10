@@ -40,7 +40,6 @@ trait ModelBuildService {
   val SCRIPT_VAL_MODEL_VERSION = "MODEL_VERSION"
 
   def build(modelBuild: ModelBuild, imageName: String, script: String, progressHandler: ProgressHandler): HFResult[String]
-
 }
 
 trait ModelPushService {

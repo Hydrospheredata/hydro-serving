@@ -14,7 +14,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
   "Application service" should {
     "create a simple application" in {
       for {
-        version <- managerServices.modelManagementService.buildModel(1, None)
+        version <- managerServices.modelBuildManagmentService.buildModel(1, None)
         appRequest = CreateApplicationRequest(
           name = "testapp",
           executionGraph = ExecutionGraphRequest(
@@ -63,7 +63,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
     "create a multi-service stage" in {
       for {
-        versionResult <- managerServices.modelManagementService.buildModel(1, None)
+        versionResult <- managerServices.modelBuildManagmentService.buildModel(1, None)
         version = versionResult.right.get
         appRequest = CreateApplicationRequest(
           name = "MultiServiceStage",
@@ -128,7 +128,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
     "create and update an application with kafkaStreaming" in {
       for {
-        version <- managerServices.modelManagementService.buildModel(1, None)
+        version <- managerServices.modelBuildManagmentService.buildModel(1, None)
         appRequest = CreateApplicationRequest(
           name = "kafka_app",
           executionGraph = ExecutionGraphRequest(

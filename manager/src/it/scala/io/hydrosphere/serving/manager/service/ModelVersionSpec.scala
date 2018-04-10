@@ -21,7 +21,7 @@ class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
   "Model version" should {
     "calculate next model version" when {
       "model is fresh" in {
-        managerServices.modelManagementService.getModelAggregatedInfo(dummy_1.id).map{ maybeModel =>
+        managerServices.aggregatedInfoUtilityService.getModelAggregatedInfo(dummy_1.id).map{ maybeModel =>
           assert(maybeModel.isRight)
           val model = maybeModel.right.get
           assert(model.nextVersion.isDefined)
@@ -31,9 +31,9 @@ class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
 
       "model was already build" in {
         for {
-          _ <- managerServices.modelManagementService.buildModel(dummy_1.id)
-          _ <- managerServices.modelManagementService.buildModel(dummy_2.id)
-          modelInfo <- managerServices.modelManagementService.getModelAggregatedInfo(dummy_1.id)
+          _ <- managerServices.modelBuildManagmentService.buildModel(dummy_1.id)
+          _ <- managerServices.modelBuildManagmentService.buildModel(dummy_2.id)
+          modelInfo <- managerServices.aggregatedInfoUtilityService.getModelAggregatedInfo(dummy_1.id)
         } yield {
           assert(modelInfo.isRight)
           val model = modelInfo.right.get
@@ -53,13 +53,13 @@ class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
         system.eventStream.subscribe(indexProbe.ref, classOf[RepositoryIndexActor.IndexFinished])
         system.eventStream.publish(f)
         indexProbe.expectMsg(20.seconds, RepositoryIndexActor.IndexFinished("dummy_model", "itsource"))
-        managerServices.modelManagementService.getModelAggregatedInfo(dummy_2.id).map{ maybeModel =>
+        managerServices.aggregatedInfoUtilityService.getModelAggregatedInfo(dummy_2.id).map{ maybeModel =>
           assert(maybeModel.isRight)
           val model = maybeModel.right.get
           println(model)
           assert(model.nextVersion.isEmpty, model.nextVersion)
         }
-        managerServices.modelManagementService.getModelAggregatedInfo(dummy_1.id).map{ maybeModel =>
+        managerServices.aggregatedInfoUtilityService.getModelAggregatedInfo(dummy_1.id).map{ maybeModel =>
           assert(maybeModel.isRight)
           val model = maybeModel.right.get
           assert(model.nextVersion.isDefined)
@@ -69,7 +69,7 @@ class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
       }
 
       "return info for all models" in {
-        managerServices.modelManagementService.allModelsAggregatedInfo().map{ info =>
+        managerServices.aggregatedInfoUtilityService.allModelsAggregatedInfo().map{ info =>
           val d1Info = info.find(_.model.id == dummy_1.id).get
           val d2Info = info.find(_.model.id == dummy_2.id).get
 

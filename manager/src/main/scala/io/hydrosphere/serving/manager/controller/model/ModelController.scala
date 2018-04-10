@@ -25,8 +25,16 @@ import scala.concurrent.duration._
 
 @Path("/api/v1/model")
 @Api(produces = "application/json", tags = Array("Model and Model Versions"))
-class ModelController(modelManagementService: ModelManagementService)
-  (implicit system: ActorSystem,  materializer: ActorMaterializer, executionContext: ExecutionContext)
+class ModelController(
+  modelManagementService: ModelManagementService,
+  aggregatedInfoUtilityService: AggregatedInfoUtilityService,
+  modelBuildManagementService: ModelBuildManagmentService,
+  modelVersionManagementService: ModelVersionManagementService
+)(
+  implicit system: ActorSystem,
+  materializer: ActorMaterializer,
+  executionContext: ExecutionContext
+)
   extends GenericController with ServingDataDirectives {
   implicit val timeout = Timeout(10.minutes)
 
@@ -38,7 +46,7 @@ class ModelController(modelManagementService: ModelManagementService)
   ))
   def listModels = path("api" / "v1" / "model") {
     get {
-      complete(modelManagementService.allModelsAggregatedInfo())
+      complete(aggregatedInfoUtilityService.allModelsAggregatedInfo())
     }
   }
 
@@ -53,7 +61,7 @@ class ModelController(modelManagementService: ModelManagementService)
   ))
   def getModel = path("api" / "v1" / "model" / LongNumber) { id =>
     get {
-      complete(modelManagementService.getModelAggregatedInfo(id))
+      complete(aggregatedInfoUtilityService.getModelAggregatedInfo(id))
     }
   }
 
@@ -165,7 +173,7 @@ class ModelController(modelManagementService: ModelManagementService)
   ))
   def listModelBuildsByModel = get {
     path("api" / "v1" / "model" / "builds" / LongNumber) { s =>
-      complete(modelManagementService.modelBuildsByModelId(s))
+      complete(modelBuildManagementService.modelBuildsByModelId(s))
     }
   }
 
@@ -183,7 +191,7 @@ class ModelController(modelManagementService: ModelManagementService)
     path("api" / "v1" / "model" / "builds" / LongNumber / "last") { s =>
       parameters('maximum.as[Int]) { (maximum) =>
         complete(
-          modelManagementService.lastModelBuildsByModelId(s, maximum)
+          modelBuildManagementService.lastModelBuildsByModelId(s, maximum)
         )
       }
     }
@@ -203,7 +211,7 @@ class ModelController(modelManagementService: ModelManagementService)
     post {
       entity(as[BuildModelRequest]) { r =>
         complete(
-          modelManagementService.buildModel(r.modelId, r.flatContract)
+          modelBuildManagementService.buildModel(r.modelId, r.flatContract)
         )
       }
     }
@@ -223,7 +231,7 @@ class ModelController(modelManagementService: ModelManagementService)
     path("api" / "v1" / "model" / "version" / LongNumber / "last") { s =>
       parameters('maximum.as[Int]) { (maximum) =>
         complete(
-          modelManagementService.lastModelVersionByModelId(s, maximum)
+          modelVersionManagementService.lastModelVersionByModelId(s, maximum)
         )
       }
     }
@@ -243,7 +251,7 @@ class ModelController(modelManagementService: ModelManagementService)
     post {
       entity(as[CreateModelVersionRequest]) { r =>
         completeF(
-          modelManagementService.addModelVersion(r)
+          modelVersionManagementService.addModelVersion(r)
         )
       }
     }
@@ -258,7 +266,7 @@ class ModelController(modelManagementService: ModelManagementService)
   def allModelVersions = path("api" / "v1" / "model" / "version") {
     get {
       complete(
-        modelManagementService.allModelVersion()
+        modelVersionManagementService.list
       )
     }
   }
@@ -355,7 +363,7 @@ class ModelController(modelManagementService: ModelManagementService)
   def generateInputsForVersion = path("api" / "v1" / "model" / "version" / "generate" / LongNumber / Segment) { (versionId, signature) =>
     get {
       complete(
-        modelManagementService.generateInputsForVersion(versionId, signature)
+        modelVersionManagementService.generateInputsForVersion(versionId, signature)
       )
     }
   }
@@ -389,7 +397,7 @@ class ModelController(modelManagementService: ModelManagementService)
   def versionContractDescription = path("api" / "v1" / "model" / "version" / LongNumber / "flatContract" ) { (versionId) =>
     get {
       complete {
-        modelManagementService.versionContractDescription(versionId)
+        modelVersionManagementService.versionContractDescription(versionId)
       }
     }
   }

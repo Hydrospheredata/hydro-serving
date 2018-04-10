@@ -7,7 +7,7 @@ import akka.pattern._
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.ManagerConfiguration
 import io.hydrosphere.serving.manager.controller.model_source.{AddLocalSourceRequest, AddS3SourceRequest}
-import io.hydrosphere.serving.manager.model.Result.{ClientError}
+import io.hydrosphere.serving.manager.model.Result.ClientError
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.repository.SourceConfigRepository
 import io.hydrosphere.serving.manager.service.modelsource.WatcherRegistryActor.AddWatcher

@@ -48,6 +48,8 @@ class ManagerServices(
 
   val repoActor: ActorRef = system.actorOf(RepositoryIndexActor.props(managerRepositories.modelRepository))
 
+  val contractUtilityService = new ContractUtilityServiceImpl
+
   val modelBuildService: ModelBuildService = new LocalModelBuildService(dockerClient, sourceManagementService)
 
   val modelPushService: ModelPushService = managerConfiguration.dockerRepository match {
@@ -60,12 +62,34 @@ class ManagerServices(
   val modelManagementService: ModelManagementService = new ModelManagementServiceImpl(
     managerRepositories.modelRepository,
     managerRepositories.modelVersionRepository,
-    managerRepositories.modelBuildRepository,
-    managerRepositories.modelBuildScriptRepository,
-    modelBuildService,
-    modelPushService,
     sourceManagementService,
+    contractUtilityService,
     repoActor
+  )
+
+  val buildScriptManagementService: BuildScriptManagementService = new BuildScriptManagementServiceImpl(
+    managerRepositories.modelBuildScriptRepository
+  )
+
+  val modelVersionManagementService: ModelVersionManagementService = new ModelVersionManagementServiceImpl(
+    managerRepositories.modelVersionRepository,
+    modelManagementService,
+    contractUtilityService
+  )
+
+  val modelBuildManagmentService: ModelBuildManagmentService = new ModelBuildManagmentServiceImpl(
+    managerRepositories.modelBuildRepository,
+    buildScriptManagementService,
+    modelVersionManagementService,
+    modelManagementService,
+    modelPushService,
+    modelBuildService
+  )
+
+  val aggregatedInfoUtilityService: AggregatedInfoUtilityService = new AggregatedInfoUtilityServiceImpl(
+    modelManagementService,
+    modelBuildManagmentService,
+    modelVersionManagementService
   )
 
   val cloudDriverService: CloudDriverService = managerConfiguration.cloudDriver match {
