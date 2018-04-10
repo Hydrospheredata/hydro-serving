@@ -85,9 +85,7 @@ class ApplicationController(
   ))
   def deleteApplication = delete {
     path("api" / "v1" / "applications" / LongNumber) { serviceId =>
-      onSuccess(applicationManagementService.deleteApplication(serviceId)) {
-        complete(200, None)
-      }
+      completeFRes(applicationManagementService.deleteApplication(serviceId))
     }
   }
 

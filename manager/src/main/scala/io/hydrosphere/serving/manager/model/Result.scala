@@ -5,6 +5,7 @@ import scala.concurrent.Future
 object Result {
 
   object Implicits {
+
     implicit class OptResult[T](opt: Option[T]) {
       def toHResult(error: HError): HResult[T] = {
         opt match {
@@ -13,6 +14,7 @@ object Result {
         }
       }
     }
+
   }
 
   def ok[T](t: T): HResult[T] = Right(t)
@@ -40,4 +42,15 @@ object Result {
   def internalErrorF[T <: Throwable](ex: T): HFResult[T] = errorF(InternalError(ex, None))
 
   def internalErrorF[T <: Throwable](ex: T, reason: String): HFResult[T] = errorF(InternalError(ex, Some(reason)))
+
+  def sequence[T](reSeq: Seq[HResult[T]]): HResult[Seq[T]] = {
+    val errors = reSeq.filter(_.isLeft).map(_.left.get)
+
+    if (errors.nonEmpty) {
+      Result.clientError(s"Errors: $errors")
+    } else {
+      val values = reSeq.filter(_.isRight).map(_.right.get)
+      Result.ok(values)
+    }
+  }
 }

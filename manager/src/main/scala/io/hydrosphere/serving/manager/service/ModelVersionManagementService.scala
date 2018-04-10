@@ -45,6 +45,8 @@ case class CreateModelVersionRequest(
 }
 
 trait ModelVersionManagementService {
+  def modelVersionsByModelVersionIds(modelIds: Seq[Long]): Future[Seq[ModelVersion]]
+
   def lastModelVersionForModels(ids: Seq[Long]): Future[Seq[ModelVersion]]
 
   def create(version: ModelVersion): HFResult[ModelVersion]
@@ -138,5 +140,9 @@ class ModelVersionManagementServiceImpl(
 
   override def lastModelVersionForModels(ids: Seq[Long]): Future[Seq[ModelVersion]] = {
     modelVersionRepository.lastModelVersionForModels(ids)
+  }
+
+  override def modelVersionsByModelVersionIds(modelIds: Seq[Long]): Future[Seq[ModelVersion]] = {
+    modelVersionRepository.modelVersionsByModelVersionIds(modelIds)
   }
 }

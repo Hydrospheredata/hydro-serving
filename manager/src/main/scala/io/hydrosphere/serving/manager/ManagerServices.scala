@@ -111,10 +111,10 @@ class ManagerServices(
 
   val applicationManagementService: ApplicationManagementService = new ApplicationManagementServiceImpl(
     applicationRepository = managerRepositories.applicationRepository,
+    modelVersionManagementService = modelVersionManagementService,
     serviceManagementService = serviceManagementService,
     grpcClient = servingMeshGrpcClient,
     internalManagerEventsPublisher = internalManagerEventsPublisher,
-    modelVersionRepository = managerRepositories.modelVersionRepository,
     applicationConfig = managerConfiguration.application,
     runtimeRepository = managerRepositories.runtimeRepository
   )

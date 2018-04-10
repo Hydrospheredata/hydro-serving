@@ -14,7 +14,6 @@ import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor.IgnoreModel
-import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService}
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.apache.logging.log4j.scala.Logging

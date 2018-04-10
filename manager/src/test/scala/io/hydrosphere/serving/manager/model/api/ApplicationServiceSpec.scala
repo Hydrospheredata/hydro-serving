@@ -19,14 +19,14 @@ class ApplicationServiceSpec extends FlatSpec {
 
     val modelsMap = Future.successful(models())
     val runtimeMap = Future.successful(runtime())
-    val apps = Future.successful(Seq(app()))
+    val apps = Seq(app())
 
     import scala.concurrent.duration._
 
     val result = Await.result(appService.enrichServiceKeyDescription(apps, runtimeMap, modelsMap), 1 second)
     val serviceDescription = result.head.executionGraph.stages.head.services.head.serviceDescription
-    assert(serviceDescription.runtimeName == Some("runtime"))
-    assert(serviceDescription.modelName == Some("model_name:1"))
+    assert(serviceDescription.runtimeName.contains("runtime"))
+    assert(serviceDescription.modelName.contains("model_name:1"))
 
   }
 

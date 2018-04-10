@@ -34,8 +34,9 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           ),
           kafkaStreaming = List.empty
         )
-        app <- managerServices.applicationManagementService.createApplication(appRequest)
+        appResult <- managerServices.applicationManagementService.createApplication(appRequest)
       } yield {
+        val app = appResult.right.get
         println(app)
         val expectedGraph = ApplicationExecutionGraph(
           List(
@@ -91,8 +92,9 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           ),
           kafkaStreaming = List.empty
         )
-        app <- managerServices.applicationManagementService.createApplication(appRequest)
+        appRes <- managerServices.applicationManagementService.createApplication(appRequest)
       } yield {
+        val app = appRes.right.get
         println(app)
         val expectedGraph = ApplicationExecutionGraph(
           List(
@@ -155,18 +157,22 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
             )
           )
         )
-        app <- managerServices.applicationManagementService.createApplication(appRequest)
+        appRes <- managerServices.applicationManagementService.createApplication(appRequest)
+        app = appRes.right.get
         appUpdate = UpdateApplicationRequest(
           id = app.id,
           name = app.name,
           executionGraph = appRequest.executionGraph,
           kafkaStream = None
         )
-        appNew <- managerServices.applicationManagementService.updateApplication(appUpdate)
+
+        appResNew <- managerServices.applicationManagementService.updateApplication(appUpdate)
+        appNew = appResNew.right.get
+
         maybeGotNewApp <- managerServices.applicationManagementService.getApplication(appNew.id)
       } yield {
-        assert(maybeGotNewApp.isDefined, "Couldn't find updated application in repository")
-        assert(appNew === maybeGotNewApp.get)
+        assert(maybeGotNewApp.isRight, "Couldn't find updated application in repository")
+        assert(appNew === maybeGotNewApp.right.get)
         assert(appNew.kafkaStreaming.isEmpty, appNew)
       }
     }

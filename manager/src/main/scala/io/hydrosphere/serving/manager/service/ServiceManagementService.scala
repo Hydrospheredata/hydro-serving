@@ -52,8 +52,7 @@ case class JsonServeRequest(
 )
 
 trait ServiceManagementService {
-
-  def deleteService(serviceId: Long): Future[Unit]
+  def deleteService(serviceId: Long): HFResult[Unit]
 
   def addService(r: CreateServiceRequest): Future[Service]
 
@@ -230,17 +229,17 @@ class ServiceManagementServiceImpl(
       })
 
   //TODO check service in applications before delete
-  override def deleteService(serviceId: Long): Future[Unit] =
-    serviceRepository.get(serviceId).flatMap({
+  override def deleteService(serviceId: Long): HFResult[Unit] =
+    serviceRepository.get(serviceId).flatMap{
       case Some(x) =>
-        cloudDriverService.removeService(serviceId)
-          .flatMap(_ => serviceRepository.delete(serviceId)).map(_ =>
-          internalManagerEventsPublisher.serviceRemoved(x)
-        )
+        cloudDriverService.removeService(serviceId).flatMap{ _ =>
+          serviceRepository.delete(serviceId)
+        }.map { _ =>
+          Result.ok(internalManagerEventsPublisher.serviceRemoved(x))
+        }
       case None =>
-        Future.successful(Unit)
-    })
-
+        Result.clientErrorF("Can't find service")
+    }
 
   override def servicesByIds(ids: Seq[Long]): Future[Seq[Service]] =
     serviceRepository.fetchByIds(ids)
@@ -274,32 +273,4 @@ class ServiceManagementServiceImpl(
   override def fetchServicesUnsync(services: Set[ServiceKeyDescription]): Future[Seq[Service]] =
     serviceRepository.fetchServices(services)
 
-  /*override def serveService(jsonServeRequest: JsonServeRequest): Future[JsObject] =
-    serviceRepository.get(jsonServeRequest.targetId)
-      .flatMap(s => {
-        val service = s.getOrElse(throw new IllegalArgumentException(s"Can't find service with id=${jsonServeRequest.targetId}"))
-        val model = service.model.getOrElse(throw new IllegalArgumentException(s"Can't find ModelContract for service $service"))
-        val validator = new PredictRequestContractValidator(model.modelContract)
-        validator.convert(JsonPredictRequest(
-          modelName = model.modelName,
-          version = Some(model.modelVersion),
-          signatureName = jsonServeRequest.signatureName,
-          inputs = jsonServeRequest.inputs
-        )).right.map{ grpcRequest=>{
-          grpcClient
-            .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, service.serviceName)
-            .predict(grpcRequest)
-        }}
-
-        Future.failed(new UnsupportedOperationException)
-      })
-*/
-  /*
-  JsonPredictRequest.fromServeRequest(req).map{ jsonRequest =>
-      val validator = new PredictRequestContractValidator(??? /*ModelContract*/)
-      validator.convert(jsonRequest).right.map{ grpcRequest =>
-        // send to service grpcRequest
-      }
-    }
-  */
 }
