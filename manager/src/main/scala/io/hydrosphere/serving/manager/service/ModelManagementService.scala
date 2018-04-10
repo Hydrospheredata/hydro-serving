@@ -101,17 +101,17 @@ case class AggregatedModelInfo(
 trait ModelManagementService {
   def uploadModelTarball(upload: UploadedEntity.ModelUpload): HFResult[Model]
 
-  def versionContractDescription(versionId: Long): Future[Option[ContractDescription]]
+  def versionContractDescription(versionId: Long): HFResult[ContractDescription]
 
-  def modelContractDescription(modelId: Long): Future[Option[ContractDescription]]
+  def modelContractDescription(modelId: Long): HFResult[ContractDescription]
 
-  def submitBinaryContract(modelId: Long, bytes: Array[Byte]): Future[Option[Model]]
+  def submitBinaryContract(modelId: Long, bytes: Array[Byte]): HFResult[Model]
 
-  def submitFlatContract(modelId: Long, contractDescription: ContractDescription): Future[Option[Model]]
+  def submitFlatContract(modelId: Long, contractDescription: ContractDescription): HFResult[Model]
 
-  def submitContract(modelId: Long, prototext: String): Future[Option[Model]]
+  def submitContract(modelId: Long, prototext: String): HFResult[Model]
 
-  def buildModel(modelId: Long, flatContract: Option[ContractDescription] = None, modelVersion: Option[Long] = None): Future[ModelVersion]
+  def buildModel(modelId: Long, flatContract: Option[ContractDescription] = None, modelVersion: Option[Long] = None): HFResult[ModelVersion]
 
   def allModels(): Future[Seq[Model]]
 
@@ -121,7 +121,7 @@ trait ModelManagementService {
 
   def allModelsAggregatedInfo(): Future[Seq[AggregatedModelInfo]]
 
-  def getModelAggregatedInfo(id: Long): Future[Option[AggregatedModelInfo]]
+  def getModelAggregatedInfo(id: Long): HFResult[AggregatedModelInfo]
 
   def updateModel(entity: CreateOrUpdateModelRequest): HFResult[Model]
 
@@ -133,9 +133,9 @@ trait ModelManagementService {
 
   def allModelVersion(): Future[Seq[ModelVersion]]
 
-  def generateModelPayload(modelId: Long, signature: String): Future[Seq[JsObject]]
+  def generateModelPayload(modelId: Long, signature: String): HFResult[JsObject]
 
-  def generateInputsForVersion(versionId: Long, signature: String): Future[Seq[JsObject]]
+  def generateInputsForVersion(versionId: Long, signature: String): HFResult[JsObject]
 
   def lastModelVersionByModelId(id: Long, maximum: Int): Future[Seq[ModelVersion]]
 
@@ -221,54 +221,55 @@ class ModelManagementServiceImpl(
   override def lastModelBuildsByModelId(id: Long, maximum: Int): Future[Seq[ModelBuild]] =
     modelBuildRepository.lastByModelId(id, maximum)
 
-  private def buildNewModelVersion(model: Model, modelVersion: Option[Long]): Future[ModelVersion] = {
-    fetchLastModelVersion(model.id, modelVersion).flatMap { version =>
-      fetchScriptForModel(model).flatMap { script =>
-        modelBuildRepository.create(
-          ModelBuild(
-            id = 0,
-            model = model,
-            version = version,
-            started = LocalDateTime.now(),
-            finished = None,
-            status = ModelBuildStatus.STARTED,
-            statusText = None,
-            logsUrl = None,
-            modelVersion = None
-          )).flatMap { modelBuild =>
-          buildModelRuntime(modelBuild, script).transform(
-            runtime => {
-              modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(runtime))
-              runtime
-            },
-            ex => {
-              logger.error(ex.getMessage, ex)
-              modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.ERROR, ex.getMessage, LocalDateTime.now(), None)
-              ex
-            }
-          )
+  private def buildNewModelVersion(model: Model, modelVersion: Option[Long]): HFResult[ModelVersion] = {
+    fetchLastModelVersion(model.id, modelVersion).flatMap {
+      case Right(version) =>
+        val build = ModelBuild(
+          id = 0,
+          model = model,
+          version = version,
+          started = LocalDateTime.now(),
+          finished = None,
+          status = ModelBuildStatus.STARTED,
+          statusText = None,
+          logsUrl = None,
+          modelVersion = None
+        )
+        fetchScriptForModel(model).flatMap { script =>
+          modelBuildRepository.create(build).flatMap { modelBuild =>
+            buildModelRuntime(modelBuild, script).transform(
+              {
+                case Right(runtime) =>
+                  modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(runtime))
+                  Right(runtime)
+                case Left(err) => Result.error(err)
+              },
+              { ex =>
+                logger.error(ex.getMessage, ex)
+                modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.ERROR, ex.getMessage, LocalDateTime.now(), None)
+                ex
+              })
+          }
         }
-      }
+      case Left(err) => Result.errorF(err)
     }
   }
 
-  override def buildModel(modelId: Long, flatContract: Option[ContractDescription], modelVersion: Option[Long]): Future[ModelVersion] =
-    modelRepository.get(modelId)
-      .flatMap {
-        case None => throw new IllegalArgumentException(s"Can't find Model with id $modelId")
-        case Some(model) =>
-          val modelFuture = flatContract match {
-            case Some(contract) =>
-              submitFlatContract(modelId, contract).map(m =>
-                m.getOrElse(throw new IllegalArgumentException(s"Can't find Model with id $modelId")))
-            case _ => Future.successful(model)
-          }
-
-          modelFuture.flatMap(m =>
-            buildNewModelVersion(m, modelVersion)
-          )
-
-      }
+  override def buildModel(modelId: Long, flatContract: Option[ContractDescription], modelVersion: Option[Long]): HFResult[ModelVersion] = {
+    getModel(modelId).flatMap {
+      case Left(err) => Result.errorF(err)
+      case Right(model) =>
+        val newModel = flatContract match {
+          case Some(newContract) =>
+            submitFlatContract(model.id, newContract)
+          case None => Result.okF(model)
+        }
+        newModel.flatMap {
+          case Left(err) => Result.errorF(err)
+          case Right(rModel) => buildNewModelVersion(rModel, modelVersion)
+        }
+    }
+  }
 
   private def fetchScriptForModel(model: Model): Future[String] =
     modelBuildScriptRepository.get(model.modelType.toTag).flatMap {
@@ -282,29 +283,33 @@ class ModelManagementServiceImpl(
            ADD {MODEL_PATH} /model""")
     }
 
-  private def buildModelRuntime(modelBuild: ModelBuild, script: String): Future[ModelVersion] = {
+  private def buildModelRuntime(modelBuild: ModelBuild, script: String): HFResult[ModelVersion] = {
     val handler = new ProgressHandler {
       override def handle(progressMessage: ProgressMessage): Unit =
         logger.info(progressMessage)
     }
 
     val imageName = modelPushService.getImageName(modelBuild)
-    modelBuildService.build(modelBuild, imageName, script, handler).flatMap { sha256 =>
-      modelVersionRepository.create(ModelVersion(
-        id = 0,
-        imageName = imageName,
-        imageTag = modelBuild.version.toString,
-        imageSHA256 = sha256,
-        modelName = modelBuild.model.name,
-        modelVersion = modelBuild.version,
-        source = Some(modelBuild.model.source),
-        modelContract = modelBuild.model.modelContract,
-        created = LocalDateTime.now,
-        model = Some(modelBuild.model),
-        modelType = modelBuild.model.modelType
-      )).flatMap { modelRuntime =>
-        Future(modelPushService.push(modelRuntime, handler)).map(_ => modelRuntime)
-      }
+    modelBuildService.build(modelBuild, imageName, script, handler).flatMap {
+      case Left(err) => Result.errorF(err)
+      case Right(sha256) =>
+        val version = ModelVersion(
+          id = 0,
+          imageName = imageName,
+          imageTag = modelBuild.version.toString,
+          imageSHA256 = sha256,
+          modelName = modelBuild.model.name,
+          modelVersion = modelBuild.version,
+          source = Some(modelBuild.model.source),
+          modelContract = modelBuild.model.modelContract,
+          created = LocalDateTime.now,
+          model = Some(modelBuild.model),
+          modelType = modelBuild.model.modelType
+        )
+        modelVersionRepository.create(version).map { modelVersion =>
+          modelPushService.push(modelVersion, handler)
+          Right(modelVersion)
+        }
     }
   }
 
@@ -321,14 +326,15 @@ class ModelManagementServiceImpl(
     }
   }
 
-  private def fetchLastModelVersion(modelId: Long, modelVersion: Option[Long]): Future[Long] = {
+  private def fetchLastModelVersion(modelId: Long, modelVersion: Option[Long]): HFResult[Long] = {
     modelVersion match {
       case Some(x) => modelVersionRepository.modelVersionByModelAndVersion(modelId, x).map {
-        case None => x
-        case _ => throw new IllegalArgumentException("You already have such version")
+        case None => Right(x)
+        case _ => Result.clientError(s"$modelVersion already exists")
       }
-      case _ => modelVersionRepository.lastModelVersionByModel(modelId, 1)
-        .map(se => ModelManagementService.nextVersion(se.headOption))
+      case None => modelVersionRepository.lastModelVersionByModel(modelId, 1).map { se =>
+        Right(ModelManagementService.nextVersion(se.headOption))
+      }
     }
   }
 
@@ -346,30 +352,33 @@ class ModelManagementServiceImpl(
     }
   }
 
-  override def generateModelPayload(modelId: Long, signature: String): Future[Seq[JsObject]] =
-    modelRepository.get(modelId).map {
-      case None => throw new IllegalArgumentException(s"Can't find model modelId=$modelId")
-      case Some(model) =>
+  override def generateModelPayload(modelId: Long, signature: String): HFResult[JsObject] = {
+    getModel(modelId).map { result =>
+      result.right.flatMap { model =>
         generatePayload(model.modelContract, signature)
+      }
     }
+  }
 
-  private def generatePayload(contract: ModelContract, signature: String): Seq[JsObject] = {
-    val res = DataGenerator.forContract(contract, signature)
-      .getOrElse(throw new IllegalArgumentException(s"Can't find signature model signature=$signature"))
-    Seq(TensorJsonLens.mapToJson(res.generateInputs))
+  private def generatePayload(contract: ModelContract, signature: String): HResult[JsObject] = {
+    DataGenerator.forContract(contract, signature) match {
+      case Some(generator) => Result.ok(TensorJsonLens.mapToJson(generator.generateInputs))
+      case None => Result.clientError(s"Can't find '$signature' signature in contract")
+    }
   }
 
 
-  override def generateInputsForVersion(versionId: Long, signature: String): Future[Seq[JsObject]] =
-    modelVersionRepository.get(versionId).map {
-      case None => throw new IllegalArgumentException(s"Can't find model version id=$versionId")
-      case Some(version) =>
+  override def generateInputsForVersion(versionId: Long, signature: String): HFResult[JsObject] = {
+    getModelVersion(versionId).map { result =>
+      result.right.flatMap { version =>
         generatePayload(version.modelContract, signature)
+      }
     }
+  }
 
-  override def submitContract(modelId: Long, prototext: String): Future[Option[Model]] = {
+  override def submitContract(modelId: Long, prototext: String): HFResult[Model] = {
     ModelContract.validateAscii(prototext) match {
-      case Left(a) => Future.failed(new IllegalArgumentException(a.msg))
+      case Left(a) => Result.clientErrorF(a.msg)
       case Right(b) => updateModelContract(modelId, b)
     }
   }
@@ -377,24 +386,28 @@ class ModelManagementServiceImpl(
   override def submitFlatContract(
     modelId: Long,
     contractDescription: ContractDescription
-  ): Future[Option[Model]] = {
-    val contract = contractDescription.toContract // TODO Error handling
-    updateModelContract(modelId, contract)
+  ): HFResult[Model] = {
+    try {
+      val contract = contractDescription.toContract // TODO Error handling
+      updateModelContract(modelId, contract)
+    } catch {
+      case ex: IllegalArgumentException => Result.clientErrorF("Incorrect contract description")
+    }
   }
 
-  override def submitBinaryContract(modelId: Long, bytes: Array[Byte]): Future[Option[Model]] = {
+  override def submitBinaryContract(modelId: Long, bytes: Array[Byte]): HFResult[Model] = {
     ModelContract.validate(bytes) match {
-      case Failure(exception) => Future.failed(exception)
+      case Failure(exception) => Result.clientErrorF(s"Incorrect model contract: ${exception.getMessage}")
       case Success(value) => updateModelContract(modelId, value)
     }
   }
 
-  private def updateModelContract(modelId: Long, modelContract: ModelContract): Future[Option[Model]] = {
-    modelRepository.get(modelId).flatMap {
-      case Some(model) =>
-        val newModel = model.copy(modelContract = modelContract) // TODO contract validation (?)
-        modelRepository.update(newModel).map { _ => Some(newModel) }
-      case None => Future.successful(None)
+  private def updateModelContract(modelId: Long, modelContract: ModelContract): HFResult[Model] = {
+    getModel(modelId).flatMap {
+      case Left(err) => Result.errorF(err)
+      case Right(model) =>
+        val newModel = model.copy(modelContract = modelContract)
+        modelRepository.update(newModel).map { _ => Right(newModel) }
     }
   }
 
@@ -438,30 +451,30 @@ class ModelManagementServiceImpl(
     modelRepository.all().flatMap(aggregatedInfo)
   }
 
-  override def getModelAggregatedInfo(id: Long): Future[Option[AggregatedModelInfo]] = {
-    modelRepository.get(id).flatMap {
-      case None => Future.successful(None)
-      case Some(model) => aggregatedInfo(model).map(_.headOption)
+  override def getModelAggregatedInfo(id: Long): HFResult[AggregatedModelInfo] = {
+    getModel(id).flatMap {
+      case Left(err) => Result.errorF(err)
+      case Right(model) =>
+        aggregatedInfo(model).map(_.headOption).map{
+          case Some(info) => Result.ok(info)
+          case None => Result.clientError(s"Can't find aggregated info for model $id")
+        }
     }
   }
 
-  override def modelContractDescription(modelId: Long): Future[Option[ContractDescription]] = {
-    modelRepository.get(modelId).map { maybeModel =>
-      maybeModel.map { model =>
-        model.modelContract.flatten
-      }
+  override def modelContractDescription(modelId: Long): HFResult[ContractDescription] = {
+    getMap(getModel(modelId)) { model =>
+      model.modelContract.flatten
     }
   }
 
-  override def versionContractDescription(versionId: Long): Future[Option[ContractDescription]] = {
-    modelVersionRepository.get(versionId).map { maybeVersion =>
-      maybeVersion.map { version =>
-        version.modelContract.flatten
-      }
+  override def versionContractDescription(versionId: Long): HFResult[ContractDescription] = {
+    getMap(getModelVersion(versionId)) { version =>
+      version.modelContract.flatten
     }
   }
 
-  def writeFilesToSource(source: ModelSource, files: Map[Path, Path]) = {
+  def writeFilesToSource(source: ModelSource, files: Map[Path, Path]): Unit = {
     files.foreach {
       case (src, dest) =>
         source.writeFile(dest.toString, src.toFile)
@@ -520,4 +533,11 @@ class ModelManagementServiceImpl(
       case Left(err) => Future.successful(Left(err))
     }
   }
+
+  private def getMap[T, R](generator: => HFResult[T])(callback: T => R): HFResult[R] = {
+    generator.map { result =>
+      result.right.map(callback)
+    }
+  }
+
 }

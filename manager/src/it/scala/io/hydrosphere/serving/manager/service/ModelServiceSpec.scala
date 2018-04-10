@@ -91,7 +91,7 @@ class ModelServiceSpec extends FullIntegrationSpec with BeforeAndAfterAll {
           val modelInfo = maybeModelInfo.get
           assert(modelInfo.lastModelVersion.isDefined)
           val lastModelVersion = modelInfo.lastModelVersion.get
-          assert(v2.modelVersion === lastModelVersion.modelVersion)
+          assert(v2.right.get.modelVersion === lastModelVersion.modelVersion)
         }
       }
     }

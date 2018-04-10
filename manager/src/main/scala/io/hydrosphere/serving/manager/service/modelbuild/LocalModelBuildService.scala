@@ -5,13 +5,11 @@ import java.nio.file.{Files, Path}
 
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.BuildParam
-import io.hydrosphere.serving.manager.model.ModelBuild
-import io.hydrosphere.serving.manager.model.Result.ClientError
+import io.hydrosphere.serving.manager.model.{HFResult, ModelBuild}
 import io.hydrosphere.serving.manager.service.SourceManagementService
 import org.apache.commons.io.FileUtils
 
-import scala.concurrent.{ExecutionContext, Future}
-import io.hydrosphere.serving.manager.model.Result.InternalError
+import scala.concurrent.ExecutionContext
 
 class LocalModelBuildService(
   dockerClient: DockerClient,
@@ -21,27 +19,25 @@ class LocalModelBuildService(
   private val modelFilesDir = s"$modelRootDir/files/"
   private val contractFile = s"$modelRootDir/contract.protobin"
 
-  override def build(modelBuild: ModelBuild, imageName: String, script: String, progressHandler: ProgressHandler): Future[String] = {
-    sourceManagementService.getLocalPath(modelBuild.model.source).flatMap {
-      case Right(localModelPath) =>
-          val dockerFile = script
-            .replaceAll("\\{"  +   SCRIPT_VAL_MODEL_PATH     +  "\\}", modelRootDir)
-            .replaceAll("\\{"  +   SCRIPT_VAL_MODEL_VERSION  +  "\\}", modelBuild.modelVersion.toString)
-            .replaceAll("\\{"  +   SCRIPT_VAL_MODEL_NAME     +  "\\}", modelBuild.model.name)
-            .replaceAll("\\{"  +   SCRIPT_VAL_MODEL_TYPE     +  "\\}", modelBuild.model.modelType.toTag)
+  override def build(modelBuild: ModelBuild, imageName: String, script: String, progressHandler: ProgressHandler): HFResult[String] = {
+    sourceManagementService.getLocalPath(modelBuild.model.source).map { result =>
+      result.right.map { localModelPath =>
+        val dockerFile = script
+          .replaceAll("\\{" + SCRIPT_VAL_MODEL_PATH + "\\}", modelRootDir)
+          .replaceAll("\\{" + SCRIPT_VAL_MODEL_VERSION + "\\}", modelBuild.modelVersion.toString)
+          .replaceAll("\\{" + SCRIPT_VAL_MODEL_NAME + "\\}", modelBuild.model.name)
+          .replaceAll("\\{" + SCRIPT_VAL_MODEL_TYPE + "\\}", modelBuild.model.modelType.toTag)
 
-          val tmpBuildPath = Files.createTempDirectory(s"hydroserving-${modelBuild.id}")
-          try {
-            Future.successful(build(tmpBuildPath, localModelPath, dockerFile, progressHandler, modelBuild, imageName))
-          } catch {
-            case ex: Throwable =>
-              tmpBuildPath.toFile.delete()
-              throw ex
-          }
-      case Left(ClientError(e)) => Future.failed(new IllegalArgumentException(e))
-      case Left(x: InternalError[_]) => Future.failed(x.exception)
+        val tmpBuildPath = Files.createTempDirectory(s"hydroserving-${modelBuild.id}")
+        try {
+          build(tmpBuildPath, localModelPath, dockerFile, progressHandler, modelBuild, imageName)
+        } catch {
+          case ex: Throwable =>
+            tmpBuildPath.toFile.delete()
+            throw ex
+        }
+      }
     }
-
   }
 
   private def build(buildPath: Path, model: Path, dockerFile: String, progressHandler: ProgressHandler, modelBuild: ModelBuild, imageName: String): String = {

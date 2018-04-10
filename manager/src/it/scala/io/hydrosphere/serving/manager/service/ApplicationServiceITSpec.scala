@@ -23,7 +23,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 services = List(
                   SimpleServiceDescription(
                     runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(version.id),
+                    modelVersionId = Some(version.right.get.id),
                     environmentId = None,
                     weight = 0,
                     signatureName = "default"
@@ -56,14 +56,15 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           )
         )
         assert(app.name === appRequest.name)
-        assert(app.contract === version.modelContract)
+        assert(app.contract === version.right.get.modelContract)
         assert(app.executionGraph === expectedGraph)
       }
     }
 
     "create a multi-service stage" in {
       for {
-        version <- managerServices.modelManagementService.buildModel(1, None)
+        versionResult <- managerServices.modelManagementService.buildModel(1, None)
+        version = versionResult.right.get
         appRequest = CreateApplicationRequest(
           name = "MultiServiceStage",
           executionGraph = ExecutionGraphRequest(
@@ -136,7 +137,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 services = List(
                   SimpleServiceDescription(
                     runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(version.id),
+                    modelVersionId = Some(version.right.get.id),
                     environmentId = None,
                     weight = 100,
                     signatureName = "default"

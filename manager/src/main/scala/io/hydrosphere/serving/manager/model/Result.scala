@@ -15,6 +15,10 @@ object Result {
     }
   }
 
+  def ok[T](t: T): HResult[T] = Right(t)
+
+  def okF[T](t: T): HFResult[T] = Future.successful(Right(t))
+
   trait HError
 
   case class ClientError(message: String) extends HError

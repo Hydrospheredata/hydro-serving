@@ -22,8 +22,8 @@ class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
     "calculate next model version" when {
       "model is fresh" in {
         managerServices.modelManagementService.getModelAggregatedInfo(dummy_1.id).map{ maybeModel =>
-          assert(maybeModel.isDefined)
-          val model = maybeModel.get
+          assert(maybeModel.isRight)
+          val model = maybeModel.right.get
           assert(model.nextVersion.isDefined)
           assert(model.nextVersion.get === 1)
         }
@@ -35,8 +35,8 @@ class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
           _ <- managerServices.modelManagementService.buildModel(dummy_2.id)
           modelInfo <- managerServices.modelManagementService.getModelAggregatedInfo(dummy_1.id)
         } yield {
-          assert(modelInfo.isDefined)
-          val model = modelInfo.get
+          assert(modelInfo.isRight)
+          val model = modelInfo.right.get
           assert(model.nextVersion.isEmpty)
         }
       }
@@ -54,14 +54,14 @@ class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
         system.eventStream.publish(f)
         indexProbe.expectMsg(20.seconds, RepositoryIndexActor.IndexFinished("dummy_model", "itsource"))
         managerServices.modelManagementService.getModelAggregatedInfo(dummy_2.id).map{ maybeModel =>
-          assert(maybeModel.isDefined)
-          val model = maybeModel.get
+          assert(maybeModel.isRight)
+          val model = maybeModel.right.get
           println(model)
           assert(model.nextVersion.isEmpty, model.nextVersion)
         }
         managerServices.modelManagementService.getModelAggregatedInfo(dummy_1.id).map{ maybeModel =>
-          assert(maybeModel.isDefined)
-          val model = maybeModel.get
+          assert(maybeModel.isRight)
+          val model = maybeModel.right.get
           assert(model.nextVersion.isDefined)
           assert(model.nextVersion.get === 2)
           assert(model.lastModelVersion.get.modelVersion === 1)

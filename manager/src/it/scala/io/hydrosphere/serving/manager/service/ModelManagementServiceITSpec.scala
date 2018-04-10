@@ -60,7 +60,7 @@ class ModelManagementServiceITSpec extends CommonIntegrationSpec with BeforeAndA
 
       val f = managerServices.modelManagementService.submitFlatContract(1000, flatContract)
       val maybeModel = Await.result(f, 10.seconds)
-      assert(maybeModel.isDefined)
+      assert(maybeModel.isRight)
 
       val newF = managerRepositories.modelRepository.get(1000)
       val maybeNewModel = Await.result(newF, 10.seconds)
@@ -87,7 +87,7 @@ class ModelManagementServiceITSpec extends CommonIntegrationSpec with BeforeAndA
 
       val f = managerServices.modelManagementService.submitContract(1000, contract.toString())
       val maybeModel = Await.result(f, 10.seconds)
-      assert(maybeModel.isDefined)
+      assert(maybeModel.isRight)
 
       val newF = managerRepositories.modelRepository.get(1000)
       val maybeNewModel = Await.result(newF, 10.seconds)
@@ -114,7 +114,7 @@ class ModelManagementServiceITSpec extends CommonIntegrationSpec with BeforeAndA
 
       val f = managerServices.modelManagementService.submitBinaryContract(1000, contract.toByteArray)
       val maybeModel = Await.result(f, 10.seconds)
-      assert(maybeModel.isDefined)
+      assert(maybeModel.isRight)
 
       val newF = managerRepositories.modelRepository.get(1000)
       val maybeNewModel = Await.result(newF, 10.seconds)
