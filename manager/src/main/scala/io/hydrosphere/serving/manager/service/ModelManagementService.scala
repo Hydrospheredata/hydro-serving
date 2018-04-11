@@ -175,6 +175,13 @@ class ModelManagementServiceImpl(
   override def createModel(entity: CreateOrUpdateModelRequest): HFResult[Model] =
     modelRepository.create(entity.toModel).map(Right.apply)
 
+  def create(model: Model): HFResult[Model] = {
+    getModel(model.id).flatMap{
+      case Left(_) => modelRepository.create(model).map(Right.apply)
+      case Right(_) => Result.clientErrorF(s"Model id ${model.id} already exists")
+    }
+  }
+
   override def updateModel(entity: CreateOrUpdateModelRequest): HFResult[Model] = {
     entity.id match {
       case Some(modelId) =>
@@ -251,6 +258,13 @@ class ModelManagementServiceImpl(
       case Some(model) => Result.ok(model)
       case None => Result.clientError(s"Can't find a model with id: $id")
     }
+
+  def getModel(name: String): HFResult[Model] = {
+    modelRepository.get(name).map {
+      case Some(model) => Result.ok(model)
+      case None => Result.clientError(s"Can't find a model with name: $name")
+    }
+  }
 
   override def modelContractDescription(modelId: Long): HFResult[ContractDescription] = {
     getMap(getModel(modelId)) { model =>
@@ -335,7 +349,11 @@ class ModelManagementServiceImpl(
         if (source.isExist(modelPath)) {
           val metadata = ModelFetcher.fetch(source, modelPath)
           val createReq = metadataToCreate(metadata, s"$sourceName:$modelPath")
-          createModel(createReq)
+          getModel(metadata.modelName).flatMap{
+            case Left(_) => createModel(createReq)
+            case Right(_) => Result.clientErrorF(s"Model $modelPath already exists")
+          }
+
         } else {
           Result.clientErrorF(s"Path $modelPath doesn't exist in $sourceName source")
         }

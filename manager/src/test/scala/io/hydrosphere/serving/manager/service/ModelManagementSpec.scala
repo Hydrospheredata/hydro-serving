@@ -23,7 +23,7 @@ class ModelManagementSpec extends GenericUnitTest {
   val contractSerice = mock[ContractUtilityService]
   private[this] val dummyModel = Model(
     id = 1,
-    name = "test1",
+    name = "/test_models/tensorflow_model",
     source = "local:test1",
     modelType = ModelType.Unknown("test"),
     description = None,
