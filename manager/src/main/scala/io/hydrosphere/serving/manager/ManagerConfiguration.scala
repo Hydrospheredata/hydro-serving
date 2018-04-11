@@ -84,7 +84,9 @@ case class ECSCloudDriverConfiguration(
     cluster: String,
     accountId: String,
     loggingConfiguration: Option[ModelLoggingConfiguration],
-    memoryReservation: Int = 200
+    memoryReservation: Int = 200,
+    internalDomainName: String,
+    vpcId: String
 ) extends CloudDriverConfiguration(loggingConfiguration)
 
 case class ZipkinConfiguration(
@@ -190,7 +192,9 @@ object ManagerConfiguration {
             region = Regions.fromName(driverConf.getString("region")),
             cluster = driverConf.getString("cluster"),
             accountId = driverConf.getString("accountId"),
-            memoryReservation=driverConf.getInt("memoryReservation"),
+            internalDomainName = driverConf.getString("internalDomainName"),
+            vpcId = driverConf.getString("vpcId"),
+            memoryReservation = driverConf.getInt("memoryReservation"),
             loggingConfiguration = loggingConfiguration
           )
         case _ =>

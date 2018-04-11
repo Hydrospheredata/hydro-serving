@@ -1,5 +1,7 @@
 package io.hydrosphere.serving.manager.service.clouddriver
 
+import java.util.UUID
+
 import akka.actor.{ActorRef, ActorSystem, Props}
 import com.amazonaws.services.ec2.model.DescribeInstancesRequest
 import com.amazonaws.services.ec2.{AmazonEC2, AmazonEC2ClientBuilder}
@@ -16,10 +18,11 @@ import scala.collection.JavaConversions._
 import scala.concurrent.{ExecutionContext, Future}
 import scala.concurrent.duration._
 import spray.json._
-//import akka.actor._
 import akka.pattern.ask
 import CloudDriverService._
 import akka.util.Timeout
+import com.amazonaws.services.route53.model.{RRType, _}
+import com.amazonaws.services.route53.{AmazonRoute53, AmazonRoute53ClientBuilder}
 import io.hydrosphere.serving.manager.service.clouddriver.ECSServiceWatcherActor._
 
 import scala.collection.mutable
@@ -68,12 +71,13 @@ object ECSServiceWatcherActor {
 class ECSServiceWatcherActor(
     internalManagerEventsPublisher: InternalManagerEventsPublisher,
     managerConfiguration: ManagerConfiguration
-) extends SelfScheduledActor(0.seconds, 10.seconds)(10.seconds) with CommonJsonSupport {
+) extends SelfScheduledActor(0.seconds, 30.seconds)(30.seconds) with CommonJsonSupport {
 
   val ecsCloudDriverConfiguration: ECSCloudDriverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[ECSCloudDriverConfiguration]
 
+  val route53Client: AmazonRoute53 = AmazonRoute53ClientBuilder.standard()
+    .build()
 
-  //TODO change to async
   val ecsClient: AmazonECS = AmazonECSClientBuilder.standard()
     .withRegion(ecsCloudDriverConfiguration.region)
     .build()
@@ -83,6 +87,11 @@ class ECSServiceWatcherActor(
     .build()
 
   private val services = new mutable.ListBuffer[StoredService]()
+
+  val hostedZone = getOrCreateHostedZone()
+  val hostedZoneId = hostedZone.getId.substring("/hostedzone/".length)
+
+  val managerDomainName = s"$MANAGER_NAME.${ecsCloudDriverConfiguration.internalDomainName}."
 
   override def recieveNonTick: Receive = {
     case RemoveService(serviceId) =>
@@ -155,12 +164,95 @@ class ECSServiceWatcherActor(
         log.debug(s"CloudService changed: $notifySeq")
         internalManagerEventsPublisher.cloudServiceDetected(notifySeq)
       }
+      syncManagerDomainName(fetchedMap.values
+        .filter(_.cloudService.id == MANAGER_ID)
+        .map(_.cloudService)
+        .toSeq
+      )
     } catch {
       case e: Exception =>
         log.error(e, e.getMessage)
     }
   }
 
+  private def getOrCreateHostedZone(): HostedZone = {
+    val res = route53Client.listHostedZonesByName(new ListHostedZonesByNameRequest()
+      .withDNSName(ecsCloudDriverConfiguration.internalDomainName)
+    )
+    if (res.getHostedZones == null || res.getHostedZones.isEmpty) {
+      route53Client.createHostedZone(new CreateHostedZoneRequest()
+        .withName(ecsCloudDriverConfiguration.internalDomainName)
+        .withCallerReference(UUID.randomUUID().toString)
+        //.withDelegationSetId()
+        .withHostedZoneConfig(new HostedZoneConfig()
+        .withComment("Serving DNS name")
+        .withPrivateZone(true)
+      ).withVPC(new VPC()
+        .withVPCId(ecsCloudDriverConfiguration.vpcId)
+        .withVPCRegion(VPCRegion.fromValue(ecsCloudDriverConfiguration.region.getName))
+      )).getHostedZone
+    } else {
+      res.getHostedZones.head
+    }
+  }
+
+  private def fetchAllResourceRecordSets(startRecordName: String = null, startRRType: String = null): Seq[ResourceRecordSet] = {
+    val listResult = route53Client.listResourceRecordSets(new ListResourceRecordSetsRequest()
+      .withStartRecordType(startRRType)
+      .withStartRecordName(startRecordName)
+      .withHostedZoneId(hostedZoneId)
+    )
+
+    if (listResult.getNextRecordName != null) {
+      listResult.getResourceRecordSets ++ fetchAllResourceRecordSets(listResult.getNextRecordName, listResult.getNextRecordType)
+    } else {
+      listResult.getResourceRecordSets
+    }
+  }
+
+  private def syncManagerDomainName(managers: Seq[CloudService]): Unit = {
+    val ips = managers.flatMap(_.instances.map(_.mainApplication.host)).toSet
+
+    val awsNames = fetchAllResourceRecordSets()
+      .filter(p => p.getMultiValueAnswer != null && p.getMultiValueAnswer == true)
+      .filter(_.getType == RRType.A.name())
+      .filter(r => r.getName.equals(managerDomainName))
+      .map(s => s.getResourceRecords.head.getValue -> s)
+      .toMap
+
+    val toAdd = ips -- awsNames.keySet
+
+    val toRemove = awsNames.keySet -- ips
+
+    val changes = toRemove.map(ip => {
+      val change = new Change()
+      change.setAction(ChangeAction.DELETE)
+      change.setResourceRecordSet(awsNames(ip))
+      change
+    }) ++ toAdd.map(ip => {
+      val change = new Change()
+      change.setAction(ChangeAction.CREATE)
+      change.setResourceRecordSet(new ResourceRecordSet()
+        .withMultiValueAnswer(true)
+        .withResourceRecords(new ResourceRecord().withValue(ip))
+        .withName(managerDomainName)
+        .withSetIdentifier(UUID.randomUUID().toString)
+        .withTTL(0L)
+        .withType(RRType.A)
+      )
+      change
+    })
+
+    if (changes.nonEmpty) {
+      route53Client.changeResourceRecordSets(new ChangeResourceRecordSetsRequest()
+        .withHostedZoneId(hostedZoneId)
+        .withChangeBatch(new ChangeBatch()
+          .withChanges(changes)
+          .withComment("Update manager IPs in DNS")
+        )
+      )
+    }
+  }
 
   private def findAmazonServiceById(serviceId: Long): Option[com.amazonaws.services.ecs.model.Service] =
     services.find(s => s.cloudService.id == serviceId).map(_.ecsService)

@@ -35,12 +35,20 @@ then
     if [ "$CLOUD_DRIVER" = "swarm" ]; then
         APP_OPTS="$APP_OPTS -DcloudDriver.swarm.networkName=$NETWORK_NAME"
     elif [ "$CLOUD_DRIVER" = "ecs" ]; then
+        META_DATA_URL=http://169.254.169.254/latest
+        SIDECAR_HOST=$(wget -q -O - $META_DATA_URL/meta-data/local-ipv4)
+        LOCALITY_ZONE=$(wget -q -O - $META_DATA_URL/meta-data/placement/availability-zone)
+        INTERFACE=$(wget -q -O - $META_DATA_URL/meta-data/network/interfaces/macs/)
+        [ -z "$ECS_DEPLOY_REGION" ] && ECS_DEPLOY_REGION=$(echo $LOCALITY_ZONE | sed 's/[a-z]$//')
+        [ -z "$ECS_DEPLOY_ACCOUNT" ] && ECS_DEPLOY_ACCOUNT=$(wget -q -O - $META_DATA_URL/dynamic/instance-identity/document| jq -r ".accountId")
+        [ -z "$ECS_VPC_ID" ] && ECS_VPC_ID=$(wget -q -O - $META_DATA_URL/meta-data/network/interfaces/macs/${INTERFACE}/vpc-id)
         [ -z "$ECS_DEPLOY_MEMORY_RESERVATION" ] && ECS_DEPLOY_MEMORY_RESERVATION="200"
-        SIDECAR_HOST=$(wget -q -O - http://169.254.169.254/latest/meta-data/local-ipv4)
 
+        APP_OPTS="$APP_OPTS -DcloudDriver.ecs.internalDomainName=$ECS_INTERNAL_DOMAIN_NAME"
         APP_OPTS="$APP_OPTS -DcloudDriver.ecs.region=$ECS_DEPLOY_REGION"
         APP_OPTS="$APP_OPTS -DcloudDriver.ecs.cluster=$ECS_DEPLOY_CLUSTER"
         APP_OPTS="$APP_OPTS -DcloudDriver.ecs.accountId=$ECS_DEPLOY_ACCOUNT"
+        APP_OPTS="$APP_OPTS -DcloudDriver.ecs.vpcId=$ECS_VPC_ID"
         APP_OPTS="$APP_OPTS -DcloudDriver.ecs.memoryReservation=$ECS_DEPLOY_MEMORY_RESERVATION"
         APP_OPTS="$APP_OPTS -DdockerRepository.type=ecs"
     else
