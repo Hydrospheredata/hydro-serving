@@ -27,7 +27,7 @@ object SourcePath {
     if (args.length == 2) {
       for {
         sourceName <- args.headOption.toHResult(ClientError("Source name is not defined")).right
-        path <- args.headOption.toHResult(ClientError("Source path is not defined")).right
+        path <- args.lastOption.toHResult(ClientError("Source path is not defined")).right
       } yield SourcePath(sourceName, path)
     } else {
       Result.clientError("Incorrect source path")
@@ -178,6 +178,7 @@ class SourceManagementServiceImpl(
       sourcePath <- EitherT(Future.successful(SourcePath.parse(modelSource)))
       source <- EitherT(getSource(sourcePath.sourceName))
     } yield {
+      println(sourcePath)
       if (source.isExist(sourcePath.path)) {
         Some(ModelFetcher.fetch(source, sourcePath.path))
       } else {

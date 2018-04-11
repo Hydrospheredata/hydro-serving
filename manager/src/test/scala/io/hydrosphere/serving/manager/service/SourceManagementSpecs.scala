@@ -30,6 +30,7 @@ class SourceManagementSpecs extends GenericUnitTest {
 
     val f = sourceService.index("test:tensorflow_model").map { result =>
       val maybeModel = result.right.get
+      println(maybeModel)
       maybeModel shouldBe defined
       val model = maybeModel.get
       model.modelName should equal("tensorflow_model")
