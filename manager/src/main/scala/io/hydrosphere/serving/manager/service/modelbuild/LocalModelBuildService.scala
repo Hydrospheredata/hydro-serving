@@ -12,7 +12,6 @@ import io.hydrosphere.serving.manager.model.{HFResult, ModelBuild, Result}
 import io.hydrosphere.serving.manager.service.SourceManagementService
 import org.apache.commons.io.FileUtils
 import io.hydrosphere.serving.manager.model.Result.Implicits._
-import sun.plugin.dom.exception.InvalidStateException
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -49,7 +48,7 @@ class LocalModelBuildService(
           DockerClientHelper.createProgressHandlerWrapper(progressHandler),
           BuildParam.noCache()
         )
-      }.toHResult(Result.InternalError(new InvalidStateException("Can't build docker container")))
+      }.toHResult(Result.InternalError(new RuntimeException("Can't build docker container")))
 
       Future.successful(
         dockerContainer.right.map { container =>
