@@ -11,6 +11,8 @@ import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.clouddriver._
 import org.apache.logging.log4j.scala.Logging
 import spray.json.JsObject
+import Result.Implicits._
+import io.hydrosphere.serving.manager.model.Result.ClientError
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -66,9 +68,7 @@ trait ServiceManagementService {
 
   def getServicesByRuntimes(runtimeId: Set[Long]): Future[Seq[Service]]
 
-  def getService(serviceId: Long): Future[Option[Service]]
-
-  def serviceByFullName(fullName: String): Future[Option[Service]]
+  def getService(serviceId: Long): HFResult[Service]
 
   def fetchServicesUnsync(services: Set[ServiceKeyDescription]): Future[Seq[Service]]
 }
@@ -188,23 +188,27 @@ class ServiceManagementServiceImpl(
     f.value
   }
 
-  override def getService(serviceId: Long): Future[Option[Service]] =
-    cloudDriverService.services(Set(serviceId))
-      .flatMap(opt => {
-        val info = opt.headOption.getOrElse(throw new IllegalArgumentException(s"Can't find service with id $serviceId"))
-        info.id match {
-          case CloudDriverService.MANAGER_ID =>
-            Future.successful(Some(mapInternalService(info)))
-          case CloudDriverService.GATEWAY_HTTP_ID =>
-            Future.successful(Some(mapInternalService(info)))
-          case _ =>
-            serviceRepository.get(serviceId).map({
-              case Some(service) =>
-                Some(service.copy(statusText = info.statusText))
-              case _ => throw new IllegalArgumentException(s"Can't find service with id $serviceId")
-            })
-        }
-      })
+  override def getService(serviceId: Long): HFResult[Service] = {
+    val serviceRes = cloudDriverService
+      .services(Set(serviceId))
+      .map(_.headOption.toHResult(ClientError(s"Can't find cloud service with id $serviceId")))
+
+    EitherT(serviceRes).flatMap { info =>
+      val res = info.id match {
+        case CloudDriverService.`MANAGER_ID` =>
+          Result.okF(mapInternalService(info))
+        case CloudDriverService.`GATEWAY_HTTP_ID` =>
+          Result.okF(mapInternalService(info))
+
+        case _ =>
+          serviceRepository
+            .get(serviceId)
+            .map(s => s.map(_.copy(statusText = info.statusText)))
+            .map(_.toHResult(ClientError(s"Can't find service with id $serviceId")))
+      }
+      EitherT(res)
+    }.value
+  }
 
   //TODO check service in applications before delete
   override def deleteService(serviceId: Long): HFResult[Service] =
@@ -232,17 +236,8 @@ class ServiceManagementServiceImpl(
     serviceRepository.getByRuntimeIds(runtimeIds)
       .flatMap(syncServices)
 
-  override def serviceByFullName(fullName: String): Future[Option[Service]] =
-    CloudDriverService.specialNames.get(fullName) match {
-      case Some(id) =>
-        cloudDriverService.services(Set(id))
-          .map(p => p.headOption.map(mapInternalService))
-      case None => serviceRepository.getByServiceName(fullName)
-    }
-
   override def fetchServicesUnsync(services: Set[ServiceKeyDescription]): Future[Seq[Service]] =
     serviceRepository.fetchServices(services)
-
 
   private def fetchModel(modelId: Option[Long]): HFResult[Option[ModelVersion]] = {
     logger.debug(modelId)
