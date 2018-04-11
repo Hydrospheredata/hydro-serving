@@ -3,9 +3,9 @@ package io.hydrosphere.serving.manager.repository.db
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.manager.model.api.ModelType
-import io.hydrosphere.serving.manager.model.{Model, ModelVersion}
 import io.hydrosphere.serving.manager.repository.ModelVersionRepository
-import io.hydrosphere.serving.manager.model.CommonJsonSupport._
+import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
+import io.hydrosphere.serving.manager.model.db.{Model, ModelVersion}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}

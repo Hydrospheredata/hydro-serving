@@ -5,7 +5,7 @@ import java.nio.file.{Files, Path}
 
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.BuildParam
-import io.hydrosphere.serving.manager.model.ModelBuild
+import io.hydrosphere.serving.manager.model.db.ModelBuild
 import io.hydrosphere.serving.manager.service.SourceManagementService
 import org.apache.commons.io.FileUtils
 

@@ -1,15 +1,12 @@
 package io.hydrosphere.serving.manager.repository.db
 
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.repository.ServiceRepository
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 
-/**
-  *
-  */
 class ServiceRepositoryImpl(
   implicit executionContext: ExecutionContext,
   databaseService: DatabaseService

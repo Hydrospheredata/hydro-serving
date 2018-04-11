@@ -3,7 +3,8 @@ package io.hydrosphere.serving.manager.service.envoy.xds
 import envoy.api.v2.DiscoveryResponse
 import io.grpc.stub.StreamObserver
 import io.hydrosphere.serving.manager.grpc.applications.{Application, ExecutionGraph, ExecutionStage, KafkaStreaming}
-import io.hydrosphere.serving.manager.model.ApplicationStage
+import io.hydrosphere.serving.manager.model.db
+import io.hydrosphere.serving.manager.model.db.ApplicationStage
 import io.hydrosphere.serving.manager.service.{ApplicationChanged, ApplicationRemoved}
 
 import scala.collection.mutable
@@ -27,7 +28,7 @@ class ApplicationDSActor extends AbstractDSActor[Application](typeUrl = "type.go
       case _ => false
     }
 
-  private def addOrUpdateApplications(apps: Seq[io.hydrosphere.serving.manager.model.Application]): Unit =
+  private def addOrUpdateApplications(apps: Seq[db.Application]): Unit =
     apps.map(p => Application(
       id = p.id,
       name = p.name,

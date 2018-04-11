@@ -7,9 +7,6 @@ import io.hydrosphere.serving.manager.model.api._
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import org.apache.logging.log4j.scala.Logging
 
-/**
-  *
-  */
 trait ModelFetcher {
   def fetch(source: ModelSource, directory: String): Option[ModelMetadata]
 }
@@ -21,7 +18,7 @@ object ModelFetcher extends Logging {
     ScikitModelFetcher
   )
 
-  def getModel(source: ModelSource, folder: String): ModelMetadata = {
+  def fetch(source: ModelSource, folder: String): ModelMetadata = {
     source.getAllFiles(folder)
     val res = fetchers
       .map(_.fetch(source, folder))
@@ -32,9 +29,5 @@ object ModelFetcher extends Logging {
         ModelMetadata(folder, ModelType.Unknown("unknown"), ModelContract())
       }
     model
-  }
-
-  def getModels(source: ModelSource): Seq[ModelMetadata] = {
-    source.getSubDirs.map(getModel(source, _))
   }
 }

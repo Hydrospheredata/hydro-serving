@@ -5,6 +5,6 @@ case class ExecutionGraphRequest(
 )
 
 object ExecutionGraphRequest {
-  import io.hydrosphere.serving.manager.model.CommonJsonSupport._
+  import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
   implicit val format = jsonFormat1(ExecutionGraphRequest.apply)
 }

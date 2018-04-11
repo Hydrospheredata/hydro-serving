@@ -15,8 +15,9 @@ import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.ServingDataDirectives
 import io.hydrosphere.serving.manager.controller.model.UploadedEntity._
-import io.hydrosphere.serving.manager.model.CommonJsonSupport._
+import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service._
 import io.swagger.annotations._
 
@@ -58,7 +59,7 @@ class ModelController(modelManagementService: ModelManagementService)
   }
 
   @Path("/")
-  @ApiOperation(value = "Add model", notes = "Add model", nickname = "addModel", httpMethod = "POST")
+  @ApiOperation(value = "Upload model", notes = "Upload model", nickname = "uploadModel", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "CreateOrUpdateModelRequest", required = true,
       dataTypeClass = classOf[CreateOrUpdateModelRequest], paramType = "body")
@@ -67,7 +68,7 @@ class ModelController(modelManagementService: ModelManagementService)
     new ApiResponse(code = 200, message = "Model", response = classOf[Model]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def addModel = path("api" / "v1" / "model") {
+  def uploadModel = path("api" / "v1" / "model") {
     post {
       entity(as[Multipart.FormData]) { (formdata: Multipart.FormData) ⇒
         val fileNamesFuture = formdata.parts.flatMapConcat { p ⇒
@@ -77,7 +78,7 @@ class ModelController(modelManagementService: ModelManagementService)
               p.entity.dataBytes
                 .map(_.decodeString("UTF-8"))
                 .filterNot(_.isEmpty)
-                .map(r => ModelType(modelType = r))
+                .map(r => UploadType(modelType = r))
 
             case "target_source" if p.filename.isEmpty =>
               p.entity.dataBytes
@@ -135,6 +136,28 @@ class ModelController(modelManagementService: ModelManagementService)
     }
   }
 
+  // TODO implement
+  // TODO tests
+  @Path("/")
+  @ApiOperation(value = "Add model", notes = "Add model", nickname = "uploadModel", httpMethod = "POST")
+  def addModel = path("api"/ "v1" / "model") {
+    post {
+      ???
+    }
+  }
+
+  // TODO tests
+  @Path("/index")
+  @ApiOperation(value = "Index models", notes = "Index model", nickname = "indexModels", httpMethod = "POST")
+  def indexModels = path("api"/ "v1" / "model" / "index") {
+    post {
+      entity(as[Set[Long]]) { ids =>
+        complete(
+          modelManagementService.indexModels(ids)
+        )
+      }
+    }
+  }
 
   @Path("/")
   @ApiOperation(value = "Update model", notes = "Update model", nickname = "updateModel", httpMethod = "PUT")
@@ -396,7 +419,7 @@ class ModelController(modelManagementService: ModelManagementService)
     }
   }
 
-  val routes: Route = listModels ~ getModel ~ updateModel ~ addModel ~ buildModel ~ listModelBuildsByModel ~ lastModelBuilds ~
+  val routes: Route = listModels ~ getModel ~ updateModel ~ uploadModel ~ buildModel ~ listModelBuildsByModel ~ lastModelBuilds ~
     generatePayloadByModelId ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract ~ generateInputsForVersion ~
     lastModelVersions ~ addModelVersion ~ allModelVersions ~ modelContractDescription ~ versionContractDescription
 }

@@ -3,6 +3,7 @@ package io.hydrosphere.serving.manager.service
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
 
+// TODO move to unittest
 class RuntimeITSpec extends FullIntegrationSpec {
   "Runtime service" should {
     "add a runtime" when {

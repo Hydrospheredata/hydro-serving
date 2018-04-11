@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service
 
 import akka.actor.ActorSystem
-import io.hydrosphere.serving.manager.model.{Application, Service}
+import io.hydrosphere.serving.manager.model.db.{Application, Service}
 import io.hydrosphere.serving.manager.service.clouddriver.CloudService
 
 case class ApplicationChanged(application: Application)

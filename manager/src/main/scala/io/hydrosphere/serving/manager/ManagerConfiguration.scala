@@ -4,12 +4,10 @@ import com.amazonaws.regions.Regions
 import com.typesafe.config.Config
 import com.zaxxer.hikari.HikariConfig
 import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.db.ModelSourceConfig
+import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.{AWSAuthKeys, LocalSourceParams, S3SourceParams}
 
 import collection.JavaConverters._
-
-/**
-  *
-  */
 
 trait ManagerConfiguration {
   def sidecar: SidecarConfig
@@ -18,7 +16,7 @@ trait ManagerConfiguration {
 
   def advertised: AdvertisedConfiguration
 
-  def modelSources: Seq[ModelSourceConfigAux]
+  def modelSources: Seq[ModelSourceConfig]
 
   def database: HikariConfig
 
@@ -33,7 +31,7 @@ case class ManagerConfigurationImpl(
   sidecar: SidecarConfig,
   application: ApplicationConfig,
   advertised: AdvertisedConfiguration,
-  modelSources: Seq[ModelSourceConfigAux],
+  modelSources: Seq[ModelSourceConfig],
   database: HikariConfig,
   cloudDriver: CloudDriverConfiguration,
   zipkin: ZipkinConfiguration,
@@ -176,7 +174,7 @@ object ManagerConfiguration {
     )
   }
 
-  def parseDataSources(config: Config): Seq[ModelSourceConfigAux] = {
+  def parseDataSources(config: Config): Seq[ModelSourceConfig] = {
     val c = config.getConfig("modelSources")
     c.root().entrySet().asScala.map { kv =>
       val modelSourceConfig = c.getConfig(kv.getKey)
@@ -191,27 +189,33 @@ object ManagerConfiguration {
 
       val params = kv.getKey match {
         case "local" =>
-          LocalSourceParams(path)
+          val prefix = if (modelSourceConfig.hasPath("pathPrefix")) {
+            Some(modelSourceConfig.getString("pathPrefix"))
+          } else { None }
+          LocalSourceParams(prefix)
         case "s3" =>
-          val auth = if (modelSourceConfig.hasPath("awsAuth")) {
-            val authConf = modelSourceConfig.getConfig("awsAuth")
-            val keyId = authConf.getString("keyId")
-            val secretKey = authConf.getString("secretKey")
-            Some(AWSAuthKeys(keyId, secretKey))
-          } else {
-            None
-          }
           S3SourceParams(
-            awsAuth = auth,
-            queueName = modelSourceConfig.getString("queue"),
+            awsAuth = parseAWSAuth(modelSourceConfig),
+            path = path,
             bucketName = modelSourceConfig.getString("bucket"),
             region = modelSourceConfig.getString("region")
           )
         case x =>
           throw new IllegalArgumentException(s"Unknown model source: $x")
       }
-      ModelSourceConfig(-1, name, params).toAux
+      ModelSourceConfig(-1, name, params)
     }.toSeq
+  }
+
+  private def parseAWSAuth(modelSourceConfig: Config) = {
+    if (modelSourceConfig.hasPath("awsAuth")) {
+      val authConf = modelSourceConfig.getConfig("awsAuth")
+      val keyId = authConf.getString("keyId")
+      val secretKey = authConf.getString("secretKey")
+      Some(AWSAuthKeys(keyId, secretKey))
+    } else {
+      None
+    }
   }
 
   def parseDatabase(config: Config): HikariConfig = {

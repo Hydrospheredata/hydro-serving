@@ -1,28 +1,35 @@
 package io.hydrosphere.serving.manager.service
 
-import java.io.File
 import java.nio.file.{Files, Path, Paths}
 import java.time.LocalDateTime
 
-import akka.actor.ActorRef
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.utils.DataGenerator
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.model.UploadedEntity
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.manager.model.api.{ModelMetadata, ModelType}
 import io.hydrosphere.serving.manager.repository._
-import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor.IgnoreModel
 import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.contract.utils.ops.ModelContractOps._
 import io.hydrosphere.serving.manager.model.api.json.TensorJsonLens
+import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
+import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.apache.logging.log4j.scala.Logging
 import spray.json.JsObject
 
 import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Failure, Success}
+
+sealed trait IndexStatus extends Product {
+  def model: Model
+}
+
+case class ModelUpdated(model: Model) extends IndexStatus
+case class ModelDeleted(model: Model) extends IndexStatus
+case class IndexError(model: Model, error: Throwable) extends IndexStatus
 
 case class CreateOrUpdateModelRequest(
   id: Option[Long],
@@ -98,6 +105,8 @@ case class AggregatedModelInfo(
 
 
 trait ModelManagementService {
+  def indexModels(ids: Set[Long]): Future[Seq[IndexStatus]]
+
   def uploadModelTarball(upload: UploadedEntity.ModelUpload): Future[Option[Model]]
 
   def versionContractDescription(versionId: Long): Future[Option[ContractDescription]]
@@ -120,11 +129,11 @@ trait ModelManagementService {
 
   def getModelAggregatedInfo(id: Long): Future[Option[AggregatedModelInfo]]
 
-  def updateModel(entity: CreateOrUpdateModelRequest): Future[Model]
+  def updateModel(entity: CreateOrUpdateModelRequest): Future[Option[Model]]
 
-  def createModel(entity: CreateOrUpdateModelRequest): Future[Model]
+  def createModel(entity: CreateOrUpdateModelRequest): Future[Option[Model]]
 
-  def updatedInModelSource(entity: Model): Future[Unit]
+  def addModel(sourceName: String, modelPath: String): Future[Option[Model]]
 
   def addModelVersion(entity: CreateModelVersionRequest): Future[ModelVersion]
 
@@ -158,19 +167,21 @@ class ModelManagementServiceImpl(
   modelBuildScriptRepository: ModelBuildScriptRepository,
   modelBuildService: ModelBuildService,
   modelPushService: ModelPushService,
-  sourceManagementService: SourceManagementService,
-  repoActor: ActorRef
+  sourceManagementService: SourceManagementService
 )(
   implicit val ex: ExecutionContext
 ) extends ModelManagementService with Logging {
-
   override def allModels(): Future[Seq[Model]] =
     modelRepository.all()
 
-  override def createModel(entity: CreateOrUpdateModelRequest): Future[Model] =
-    modelRepository.create(entity.toModel)
+  override def createModel(entity: CreateOrUpdateModelRequest): Future[Option[Model]] = {
+    modelRepository.get(entity.name).flatMap {
+      case Some(_) => Future.successful(None)
+      case None => modelRepository.create(entity.toModel).map(Some(_))
+    }
+  }
 
-  override def updateModel(entity: CreateOrUpdateModelRequest): Future[Model] = {
+  override def updateModel(entity: CreateOrUpdateModelRequest): Future[Option[Model]] = {
     entity.id match {
       case Some(modelId) =>
         modelRepository.get(modelId).flatMap {
@@ -178,17 +189,17 @@ class ModelManagementServiceImpl(
             val newModel = entity.toModel(foundModel)
             modelRepository
               .update(newModel)
-              .map(_ => newModel)
-          case None => throw new IllegalArgumentException(s"Can't find Model with id ${entity.id.get}")
+              .map(_ => Some(newModel))
+          case None => Future.successful(None)
         }
       case None => throw new IllegalArgumentException("Id required for this action")
     }
   }
 
   override def addModelVersion(entity: CreateModelVersionRequest): Future[ModelVersion] =
-    fetchModel(entity.modelId).flatMap(model => {
+    fetchModel(entity.modelId).flatMap { model =>
       modelVersionRepository.create(entity.toModelVersion(model))
-    })
+    }
 
   override def allModelVersion(): Future[Seq[ModelVersion]] =
     modelVersionRepository.all()
@@ -196,53 +207,11 @@ class ModelManagementServiceImpl(
   override def lastModelVersionByModelId(id: Long, maximum: Int): Future[Seq[ModelVersion]] =
     modelVersionRepository.lastModelVersionByModel(id: Long, maximum: Int)
 
-  override def updatedInModelSource(entity: Model): Future[Unit] = {
-    modelRepository.fetchBySource(entity.source)
-      .flatMap {
-        case Nil =>
-          addModel(entity).map(_ => Unit)
-        case _ => modelRepository.updateLastUpdatedTime(entity.source, LocalDateTime.now())
-          .map(_ => Unit)
-      }
-
-  }
-
   override def modelBuildsByModelId(id: Long): Future[Seq[ModelBuild]] =
     modelBuildRepository.listByModelId(id)
 
   override def lastModelBuildsByModelId(id: Long, maximum: Int): Future[Seq[ModelBuild]] =
     modelBuildRepository.lastByModelId(id, maximum)
-
-  private def buildNewModelVersion(model: Model, modelVersion: Option[Long]): Future[ModelVersion] = {
-    fetchLastModelVersion(model.id, modelVersion).flatMap { version =>
-      fetchScriptForModel(model).flatMap { script =>
-        modelBuildRepository.create(
-          ModelBuild(
-            id = 0,
-            model = model,
-            version = version,
-            started = LocalDateTime.now(),
-            finished = None,
-            status = ModelBuildStatus.STARTED,
-            statusText = None,
-            logsUrl = None,
-            modelVersion = None
-          )).flatMap { modelBuild =>
-          buildModelRuntime(modelBuild, script).transform(
-            runtime => {
-              modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(runtime))
-              runtime
-            },
-            ex => {
-              logger.error(ex.getMessage, ex)
-              modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.ERROR, ex.getMessage, LocalDateTime.now(), None)
-              ex
-            }
-          )
-        }
-      }
-    }
-  }
 
   override def buildModel(modelId: Long, flatContract: Option[ContractDescription], modelVersion: Option[Long]): Future[ModelVersion] =
     modelRepository.get(modelId)
@@ -256,11 +225,219 @@ class ModelManagementServiceImpl(
             case _ => Future.successful(model)
           }
 
-          modelFuture.flatMap(m =>
+          modelFuture.flatMap { m =>
             buildNewModelVersion(m, modelVersion)
-          )
-
+          }
       }
+
+  def deleteModel(modelName: String): Future[Model] = {
+    modelRepository.get(modelName).flatMap {
+      case Some(model) =>
+        modelRepository.delete(model.id)
+        Future.successful(model)
+      case None =>
+        Future.failed(new NoSuchElementException(s"$modelName model"))
+    }
+  }
+
+  override def generateModelPayload(modelId: Long, signature: String): Future[Seq[JsObject]] =
+    modelRepository.get(modelId).map {
+      case None => throw new IllegalArgumentException(s"Can't find model modelId=$modelId")
+      case Some(model) =>
+        generatePayload(model.modelContract, signature)
+    }
+
+  override def generateInputsForVersion(versionId: Long, signature: String): Future[Seq[JsObject]] =
+    modelVersionRepository.get(versionId).map {
+      case None => throw new IllegalArgumentException(s"Can't find model version id=$versionId")
+      case Some(version) =>
+        generatePayload(version.modelContract, signature)
+    }
+
+  override def submitContract(modelId: Long, prototext: String): Future[Option[Model]] = {
+    ModelContract.validateAscii(prototext) match {
+      case Left(a) => Future.failed(new IllegalArgumentException(a.msg))
+      case Right(b) => updateModelContract(modelId, b)
+    }
+  }
+
+  override def submitFlatContract(
+    modelId: Long,
+    contractDescription: ContractDescription
+  ): Future[Option[Model]] = {
+    val contract = contractDescription.toContract // TODO Error handling
+    updateModelContract(modelId, contract)
+  }
+
+  override def submitBinaryContract(modelId: Long, bytes: Array[Byte]): Future[Option[Model]] = {
+    ModelContract.validate(bytes) match {
+      case Failure(exception) => Future.failed(exception)
+      case Success(value) => updateModelContract(modelId, value)
+    }
+  }
+
+  override def modelsByType(types: Set[String]): Future[Seq[Model]] =
+    modelRepository.fetchByModelType(types.map(ModelType.fromTag).toSeq)
+
+  override def getModel(id: Long): Future[Option[Model]] =
+    modelRepository.get(id)
+
+  override def allModelsAggregatedInfo(): Future[Seq[AggregatedModelInfo]] = {
+    modelRepository.all().flatMap(aggregatedInfo)
+  }
+
+  override def getModelAggregatedInfo(id: Long): Future[Option[AggregatedModelInfo]] = {
+    modelRepository.get(id).flatMap {
+      case None => Future.successful(None)
+      case Some(model) => aggregatedInfo(model).map(_.headOption)
+    }
+  }
+
+  override def modelContractDescription(modelId: Long): Future[Option[ContractDescription]] = {
+    modelRepository.get(modelId).map { maybeModel =>
+      maybeModel.map { model =>
+        model.modelContract.flatten
+      }
+    }
+  }
+
+  override def versionContractDescription(versionId: Long): Future[Option[ContractDescription]] = {
+    modelVersionRepository.get(versionId).map { maybeVersion =>
+      maybeVersion.map { version =>
+        version.modelContract.flatten
+      }
+    }
+  }
+
+  def writeFilesToSource(source: ModelSource, files: Map[Path, Path]): Unit = {
+    files.foreach {
+      case (src, dest) =>
+        source.writeFile(dest.toString, src.toFile)
+    }
+  }
+
+  def uploadToSource(upload: UploadedEntity.ModelUpload): Future[Option[CreateOrUpdateModelRequest]] = {
+    val fMaybeSource = upload.source match {
+      case Some(sourceName) => sourceManagementService.getSource(sourceName)
+      case None => sourceManagementService.getSources.map(_.headOption)
+    }
+    fMaybeSource.map { maybeSource =>
+      maybeSource.map { source =>
+        val unpackDir = Files.createTempDirectory(upload.name)
+        val rootDir = Paths.get(upload.name)
+        val uploadedFiles = TarGzUtils.decompress(upload.tarballPath, unpackDir)
+        val localFiles = uploadedFiles
+          .filter(_.startsWith(unpackDir))
+          .map { path =>
+            val relPath = unpackDir.relativize(path)
+            path -> rootDir.resolve(relPath)
+          }
+          .toMap
+
+        writeFilesToSource(source, localFiles)
+        CreateOrUpdateModelRequest(
+          id = None,
+          name = upload.name,
+          source = source.sourceDef.name,
+          modelType = ModelType.fromTag(upload.modelType),
+          description = upload.description,
+          modelContract = upload.contract
+        )
+      }
+    }
+  }
+
+
+  override def uploadModelTarball(upload: UploadedEntity.ModelUpload): Future[Option[Model]] = {
+    uploadToSource(upload).flatMap {
+      case Some(request) =>
+        val res = modelRepository.get(upload.name).flatMap {
+          case Some(model) =>
+            val updateRequest = request.copy(id = Some(model.id), source = model.source)
+            logger.info(s"Updating uploaded model with id: ${updateRequest.id} name: ${updateRequest.name}, source: ${updateRequest.source}, type: ${updateRequest.modelType} ")
+            updateModel(updateRequest)
+          case None =>
+            val newSource = s"${request.source}:${upload.name}"
+            val createRequest = request.copy(source = newSource)
+            logger.info(s"Creating uploaded model with name: ${createRequest.name}, source: ${createRequest.source}, type: ${createRequest.modelType}")
+            createModel(createRequest)
+        }
+        res
+      case None => Future.successful(None)
+    }
+  }
+
+  override def indexModels(ids: Set[Long]): Future[Seq[IndexStatus]] = {
+    modelRepository.getMany(ids).flatMap { models =>
+      Future.traverse(models) { model =>
+        sourceManagementService.index(model.source).flatMap {
+          case Success(maybeMetadata) =>
+            maybeMetadata match {
+              case Some(metadata) =>
+                val newModel = applyModelMetadata(metadata, model)
+                modelRepository.update(newModel).map(_ => ModelUpdated(newModel))
+
+              case None =>
+                // NB delete model if no files?
+                modelRepository.delete(model.id).map(_ => ModelDeleted(model))
+            }
+          case Failure(err) =>
+            Future.successful(IndexError(model, err))
+        }
+      }
+    }
+  }
+
+  override def addModel(sourceName: String, modelPath: String): Future[Option[Model]] = {
+    sourceManagementService.getSource(sourceName).flatMap {
+      case Some(source) =>
+        if (source.isExist(modelPath)) {
+          val metadata = ModelFetcher.fetch(source, modelPath)
+          val createReq = metadataToCreate(metadata, s"$sourceName:$modelPath")
+          createModel(createReq)
+        } else {
+          Future.successful(None)
+        }
+      case None =>
+        Future.successful(None)
+    }
+  }
+
+  private def updateModelContract(modelId: Long, modelContract: ModelContract): Future[Option[Model]] = {
+    modelRepository.get(modelId).flatMap {
+      case Some(model) =>
+        val newModel = model.copy(modelContract = modelContract) // TODO contract validation (?)
+        modelRepository.update(newModel).map { _ => Some(newModel) }
+      case None => Future.successful(None)
+    }
+  }
+
+  private def generatePayload(contract: ModelContract, signature: String): Seq[JsObject] = {
+    val res = DataGenerator.forContract(contract, signature)
+      .getOrElse(throw new IllegalArgumentException(s"Can't find signature model signature=$signature"))
+    Seq(TensorJsonLens.mapToJson(res.generateInputs))
+  }
+
+  private def metadataToCreate(modelMetadata: ModelMetadata, source: String): CreateOrUpdateModelRequest = {
+    CreateOrUpdateModelRequest(
+      id = None,
+      name = modelMetadata.modelName,
+      source = source,
+      modelType = modelMetadata.modelType,
+      description = None,
+      modelContract = modelMetadata.contract
+    )
+  }
+
+  private def applyModelMetadata(modelMetadata: ModelMetadata, model:Model, updated: LocalDateTime = LocalDateTime.now()): Model = {
+    model.copy(
+      name = modelMetadata.modelName,
+      modelType = modelMetadata.modelType,
+      modelContract = modelMetadata.contract,
+      updated = updated
+    )
+  }
+
 
   private def fetchScriptForModel(model: Model): Future[String] =
     modelBuildScriptRepository.get(model.modelType.toTag).flatMap {
@@ -336,79 +513,7 @@ class ModelManagementServiceImpl(
     }
   }
 
-  private def addModel(model: Model): Future[Model] = {
-    modelRepository.create(model)
-  }
-
-  def deleteModel(modelName: String): Future[Model] = {
-    modelRepository.get(modelName).flatMap {
-      case Some(model) =>
-        modelRepository.delete(model.id)
-        Future.successful(model)
-      case None =>
-        Future.failed(new NoSuchElementException(s"$modelName model"))
-    }
-  }
-
-  override def generateModelPayload(modelId: Long, signature: String): Future[Seq[JsObject]] =
-    modelRepository.get(modelId).map {
-      case None => throw new IllegalArgumentException(s"Can't find model modelId=$modelId")
-      case Some(model) =>
-        generatePayload(model.modelContract, signature)
-    }
-
-  private def generatePayload(contract: ModelContract, signature: String): Seq[JsObject] = {
-    val res = DataGenerator.forContract(contract, signature)
-      .getOrElse(throw new IllegalArgumentException(s"Can't find signature model signature=$signature"))
-    Seq(TensorJsonLens.mapToJson(res.generateInputs))
-  }
-
-
-  override def generateInputsForVersion(versionId: Long, signature: String): Future[Seq[JsObject]] =
-    modelVersionRepository.get(versionId).map {
-      case None => throw new IllegalArgumentException(s"Can't find model version id=$versionId")
-      case Some(version) =>
-        generatePayload(version.modelContract, signature)
-    }
-
-  override def submitContract(modelId: Long, prototext: String): Future[Option[Model]] = {
-    ModelContract.validateAscii(prototext) match {
-      case Left(a) => Future.failed(new IllegalArgumentException(a.msg))
-      case Right(b) => updateModelContract(modelId, b)
-    }
-  }
-
-  override def submitFlatContract(
-    modelId: Long,
-    contractDescription: ContractDescription
-  ): Future[Option[Model]] = {
-    val contract = contractDescription.toContract // TODO Error handling
-    updateModelContract(modelId, contract)
-  }
-
-  override def submitBinaryContract(modelId: Long, bytes: Array[Byte]): Future[Option[Model]] = {
-    ModelContract.validate(bytes) match {
-      case Failure(exception) => Future.failed(exception)
-      case Success(value) => updateModelContract(modelId, value)
-    }
-  }
-
-  private def updateModelContract(modelId: Long, modelContract: ModelContract): Future[Option[Model]] = {
-    modelRepository.get(modelId).flatMap {
-      case Some(model) =>
-        val newModel = model.copy(modelContract = modelContract) // TODO contract validation (?)
-        modelRepository.update(newModel).map { _ => Some(newModel) }
-      case None => Future.successful(None)
-    }
-  }
-
-  override def modelsByType(types: Set[String]): Future[Seq[Model]] =
-    modelRepository.fetchByModelType(types.map(ModelType.fromTag).toSeq)
-
-  override def getModel(id: Long): Future[Option[Model]] =
-    modelRepository.get(id)
-
-  def aggregatedInfo(models: Model*): Future[Seq[AggregatedModelInfo]] = {
+  private def aggregatedInfo(models: Model*): Future[Seq[AggregatedModelInfo]] = {
     val ids = models.map(_.id)
     for {
       builds <- modelBuildRepository.lastForModels(ids)
@@ -429,91 +534,34 @@ class ModelManagementServiceImpl(
     }
   }
 
-  override def allModelsAggregatedInfo(): Future[Seq[AggregatedModelInfo]] = {
-    modelRepository.all().flatMap(aggregatedInfo)
-  }
-
-  override def getModelAggregatedInfo(id: Long): Future[Option[AggregatedModelInfo]] = {
-    modelRepository.get(id).flatMap {
-      case None => Future.successful(None)
-      case Some(model) => aggregatedInfo(model).map(_.headOption)
-    }
-  }
-
-  override def modelContractDescription(modelId: Long): Future[Option[ContractDescription]] = {
-    modelRepository.get(modelId).map { maybeModel =>
-      maybeModel.map { model =>
-        model.modelContract.flatten
-      }
-    }
-  }
-
-  override def versionContractDescription(versionId: Long): Future[Option[ContractDescription]] = {
-    modelVersionRepository.get(versionId).map { maybeVersion =>
-      maybeVersion.map { version =>
-        version.modelContract.flatten
-      }
-    }
-  }
-
-  def writeFilesToSource(source: ModelSource, files: Map[Path, Path]) = {
-    files.foreach {
-      case (src, dest) =>
-        source.writeFile(dest.toString, src.toFile)
-    }
-  }
-
-
-  def uploadToSource(upload: UploadedEntity.ModelUpload): Future[Option[CreateOrUpdateModelRequest]] = {
-    val fMaybeSource = upload.source match {
-      case Some(sourceName) => sourceManagementService.getSource(sourceName)
-      case None => sourceManagementService.getSources.map(_.headOption)
-    }
-    fMaybeSource.map { maybeSource =>
-      maybeSource.map { source =>
-        val unpackDir = Files.createTempDirectory(upload.name)
-        val rootDir = Paths.get(upload.name)
-        val uploadedFiles = TarGzUtils.decompress(upload.tarballPath, unpackDir)
-        val localFiles = uploadedFiles
-          .filter(_.startsWith(unpackDir))
-          .map { path =>
-            val relPath = unpackDir.relativize(path)
-            path -> rootDir.resolve(relPath)
-          }
-          .toMap
-
-        repoActor ! IgnoreModel(upload.name) // Add model name to blacklist to ignore watcher events
-
-        writeFilesToSource(source, localFiles)
-        CreateOrUpdateModelRequest(
-          id = None,
-          name = upload.name,
-          source = source.sourceDef.name,
-          modelType = ModelType.fromTag(upload.modelType),
-          description = upload.description,
-          modelContract = upload.contract
-        )
-      }
-    }
-  }
-
-
-  override def uploadModelTarball(upload: UploadedEntity.ModelUpload): Future[Option[Model]] = {
-    uploadToSource(upload).flatMap {
-      case Some(request) =>
-        val res = modelRepository.get(upload.name).flatMap {
-          case Some(model) =>
-            val updateRequest = request.copy(id = Some(model.id), source = model.source)
-            logger.info(s"Updating uploaded model with id: ${updateRequest.id} name: ${updateRequest.name}, source: ${updateRequest.source}, type: ${updateRequest.modelType} ")
-            updateModel(updateRequest)
-          case None =>
-            val newSource = s"${request.source}:${upload.name}"
-            val createRequest = request.copy(source = newSource)
-            logger.info(s"Creating uploaded model with name: ${createRequest.name}, source: ${createRequest.source}, type: ${createRequest.modelType}")
-            createModel(createRequest)
+  private def buildNewModelVersion(model: Model, modelVersion: Option[Long]): Future[ModelVersion] = {
+    fetchLastModelVersion(model.id, modelVersion).flatMap { version =>
+      fetchScriptForModel(model).flatMap { script =>
+        modelBuildRepository.create(
+          ModelBuild(
+            id = 0,
+            model = model,
+            version = version,
+            started = LocalDateTime.now(),
+            finished = None,
+            status = ModelBuildStatus.STARTED,
+            statusText = None,
+            logsUrl = None,
+            modelVersion = None
+          )).flatMap { modelBuild =>
+          buildModelRuntime(modelBuild, script).transform(
+            runtime => {
+              modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(runtime))
+              runtime
+            },
+            ex => {
+              logger.error(ex.getMessage, ex)
+              modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.ERROR, ex.getMessage, LocalDateTime.now(), None)
+              ex
+            }
+          )
         }
-        res.map(Some(_))
-      case None => Future.successful(None)
+      }
     }
   }
 }

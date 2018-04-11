@@ -4,10 +4,10 @@ import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model.Model
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.repository.ModelRepository
-import io.hydrosphere.serving.manager.model.CommonJsonSupport._
+import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
+import io.hydrosphere.serving.manager.model.db.Model
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -110,9 +110,17 @@ class ModelRepositoryImpl(
   override def fetchByModelType(types: Seq[ModelType]): Future[Seq[Model]] =
     db.run(
       Tables.Model
-        .filter(_.modelType inSetBind types.map(p=>p.toTag))
+        .filter(_.modelType inSetBind types.map(p => p.toTag))
         .result
     ).map(mapFromDb)
+
+  override def getMany(ids: Set[Long]): Future[Seq[Model]] = {
+    db.run(
+      Tables.Model
+        .filter(_.modelId inSetBind ids)
+        .result
+    ).map(mapFromDb)
+  }
 }
 
 object ModelRepositoryImpl {

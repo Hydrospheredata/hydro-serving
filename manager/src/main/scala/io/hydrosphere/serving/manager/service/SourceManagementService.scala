@@ -2,70 +2,73 @@ package io.hydrosphere.serving.manager.service
 
 import java.nio.file.Path
 
-import akka.actor.{ActorRef, ActorSystem}
-import akka.pattern._
-import akka.util.Timeout
 import io.hydrosphere.serving.manager.ManagerConfiguration
 import io.hydrosphere.serving.manager.controller.model_source.{AddLocalSourceRequest, AddS3SourceRequest}
 import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.api.ModelMetadata
+import io.hydrosphere.serving.manager.model.db.ModelSourceConfig
+import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.{LocalSourceParams, S3SourceParams}
 import io.hydrosphere.serving.manager.repository.SourceConfigRepository
-import io.hydrosphere.serving.manager.service.modelsource.WatcherRegistryActor.AddWatcher
-import io.hydrosphere.serving.manager.service.modelsource.{ModelSource, WatcherRegistryActor}
+import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
+import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
+import scala.util.{Failure, Success, Try}
+
+case class SourcePath(sourceName: String, path: String)
+
+object SourcePath {
+  def parse(source: String): Option[SourcePath] = {
+    val args = source.split(':')
+    if (args.length == 2) {
+      for {
+        sourceName <- args.headOption
+        path <- args.lastOption
+      } yield SourcePath(sourceName, path)
+    } else {
+      None
+    }
+  }
+
+  def parseOrEx(source: String): SourcePath = {
+    parse(source).getOrElse(throw new IllegalArgumentException(s"Invalid source: $source"))
+  }
+}
 
 trait SourceManagementService {
-  def addS3Source(r: AddS3SourceRequest): Future[Option[ModelSourceConfigAux]]
+  def index(source: String): Future[Try[Option[ModelMetadata]]]
 
-  def addLocalSource(r: AddLocalSourceRequest): Future[Option[ModelSourceConfigAux]]
+  def addS3Source(r: AddS3SourceRequest): Future[Option[ModelSourceConfig]]
 
-  def addSource(modelSourceConfigAux: ModelSourceConfigAux): Future[Option[ModelSourceConfigAux]]
+  def addLocalSource(r: AddLocalSourceRequest): Future[Option[ModelSourceConfig]]
 
-  def createWatcher(modelSource: ModelSource): Future[ActorRef]
+  def addSource(modelSourceConfigAux: ModelSourceConfig): Future[Option[ModelSourceConfig]]
 
   def getSources: Future[List[ModelSource]]
 
   def getLocalPath(url: String): Future[Path]
 
-  def createWatchers: Future[Seq[ActorRef]]
-
-  def allSourceConfigs: Future[Seq[ModelSourceConfigAux]]
+  def allSourceConfigs: Future[Seq[ModelSourceConfig]]
 
   def getSource(name: String): Future[Option[ModelSource]]
 }
 
-class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, sourceRepository: SourceConfigRepository)
-  (implicit ex: ExecutionContext, actorSystem: ActorSystem, timeout: Timeout) extends SourceManagementService with Logging {
+class SourceManagementServiceImpl(
+  managerConfiguration: ManagerConfiguration,
+  sourceRepository: SourceConfigRepository)
+  (implicit ex: ExecutionContext) extends SourceManagementService with Logging {
 
-  private val watcherRegistry = actorSystem.actorOf(WatcherRegistryActor.props, "WatcherRegistry")
-
-  def addSource(modelSourceConfigAux: ModelSourceConfigAux): Future[Option[ModelSourceConfigAux]] = {
+  def addSource(modelSourceConfigAux: ModelSourceConfig): Future[Option[ModelSourceConfig]] = {
     getSourceConfig(modelSourceConfigAux.name).flatMap {
       case Some(_) => Future.successful(None)
       case None =>
-        val modelSource = ModelSource.fromConfig(modelSourceConfigAux)
-        for {
-          config <- sourceRepository.create(modelSourceConfigAux)
-          _ <- createWatcher(modelSource)
-        } yield {
-          Some(config)
-        }
+        sourceRepository.create(modelSourceConfigAux).map(Some.apply)
     }
   }
 
-  def getSourceConfig(name: String): Future[Option[ModelSourceConfigAux]] = {
+  def getSourceConfig(name: String): Future[Option[ModelSourceConfig]] = {
     allSourceConfigs.map { sources => sources.find(_.name == name) }
-  }
-
-  def createWatcher(modelSourceConfigAux: ModelSourceConfigAux): Future[ActorRef] = {
-    val modelSource = ModelSource.fromConfig(modelSourceConfigAux)
-    createWatcher(modelSource)
-  }
-
-  def createWatcher(modelSource: ModelSource): Future[ActorRef] = {
-    val watcher = watcherRegistry ? AddWatcher(modelSource)
-    watcher.mapTo[ActorRef]
   }
 
   override def getSources: Future[List[ModelSource]] = {
@@ -74,50 +77,39 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
     }
   }
 
-  override def createWatchers: Future[Seq[ActorRef]] = {
-    getSources.flatMap { sources =>
-      val watchers = sources.map(createWatcher)
-      Future.sequence(watchers)
-    }
-  }
-
   override def getLocalPath(url: String): Future[Path] = {
-    val args = url.split(':')
-    val source = args.head
-    val path = args.last
+    val sourcePath = SourcePath.parseOrEx(url)
     getSources.map {
-      _.find(_.sourceDef.name == source)
-        .map(_.getAbsolutePath(path))
-        .getOrElse(throw new IllegalArgumentException(s"ModelSource for $url with prefix $source is not found"))
+      _.find(_.sourceDef.name == sourcePath.sourceName)
+        .map(_.getAbsolutePath(sourcePath.path))
+        .getOrElse(throw new IllegalArgumentException(s"ModelSource for $url with prefix ${sourcePath.sourceName} is not found"))
     }
   }
 
-  override def addS3Source(r: AddS3SourceRequest): Future[Option[ModelSourceConfigAux]] = {
+  override def addLocalSource(r: AddLocalSourceRequest): Future[Option[ModelSourceConfig]] = {
+    val config = ModelSourceConfig(
+      id = -1,
+      name = r.name,
+      params = LocalSourceParams(Some(r.path))
+    )
+    addSource(config)
+  }
+
+  override def addS3Source(r: AddS3SourceRequest): Future[Option[ModelSourceConfig]] = {
     val config = ModelSourceConfig(
       id = -1,
       name = r.name,
       params = S3SourceParams(
         awsAuth = r.key,
         bucketName = r.bucket,
-        queueName = r.queue,
+        path = r.path,
         region = r.region
       )
-    ).toAux
+    )
     addSource(config)
   }
 
-  override def addLocalSource(r: AddLocalSourceRequest): Future[Option[ModelSourceConfigAux]] = {
-    val config = ModelSourceConfig(
-      id = -1,
-      name = r.name,
-      params = LocalSourceParams(
-        path = r.path
-      )
-    ).toAux
-    addSource(config)
-  }
-
-  override def allSourceConfigs: Future[Seq[ModelSourceConfigAux]] = {
+  override def allSourceConfigs: Future[Seq[ModelSourceConfig]] = {
     sourceRepository.all().map { dbSources =>
       managerConfiguration.modelSources ++ dbSources
     }
@@ -126,6 +118,20 @@ class SourceManagementServiceImpl(managerConfiguration: ManagerConfiguration, so
   override def getSource(name: String): Future[Option[ModelSource]] = {
     allSourceConfigs.map { configs =>
       configs.find(_.name == name).map(ModelSource.fromConfig)
+    }
+  }
+
+  override def index(modelSource: String): Future[Try[Option[ModelMetadata]]] = {
+    val sourcePath = SourcePath.parseOrEx(modelSource)
+    getSource(sourcePath.sourceName).map {
+      case Some(source) =>
+        if (source.isExist(sourcePath.path)) {
+          Success(Some(ModelFetcher.fetch(source, sourcePath.path)))
+        } else {
+          Success(None)
+        }
+      case None =>
+        Failure(new IllegalArgumentException(s"Cant find ModelSource for $modelSource"))
     }
   }
 }

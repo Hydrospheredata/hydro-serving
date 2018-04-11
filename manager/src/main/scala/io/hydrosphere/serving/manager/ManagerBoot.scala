@@ -23,7 +23,7 @@ object ManagerBoot extends App with Logging {
 
     val dockerClient = DefaultDockerClient.fromEnv().build() // move to config?
 
-    val managerRepositories = new ManagerRepositoriesConfig(configuration)
+    val managerRepositories = new ManagerRepositories(configuration)
     val managerServices = new ManagerServices(managerRepositories, configuration, dockerClient)
     val managerApi = new ManagerHttpApi(managerServices, configuration)
 

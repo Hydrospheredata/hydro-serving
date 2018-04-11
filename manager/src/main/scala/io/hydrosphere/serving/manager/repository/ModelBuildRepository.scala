@@ -2,9 +2,8 @@ package io.hydrosphere.serving.manager.repository
 
 import java.time.LocalDateTime
 
-import io.hydrosphere.serving.manager.model.ModelVersion
-import io.hydrosphere.serving.manager.model.ModelBuild
 import io.hydrosphere.serving.manager.model.ModelBuildStatus.ModelBuildStatus
+import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
 
 import scala.concurrent.Future
 

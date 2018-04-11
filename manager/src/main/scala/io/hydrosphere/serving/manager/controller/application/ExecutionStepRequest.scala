@@ -5,6 +5,6 @@ case class ExecutionStepRequest(
 )
 
 object ExecutionStepRequest {
-  import io.hydrosphere.serving.manager.model.CommonJsonSupport._
+  import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
   implicit val format = jsonFormat1(ExecutionStepRequest.apply)
 }

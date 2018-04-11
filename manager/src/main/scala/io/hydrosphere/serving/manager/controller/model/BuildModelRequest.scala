@@ -8,7 +8,7 @@ case class BuildModelRequest(
 )
 
 object BuildModelRequest {
-  import io.hydrosphere.serving.manager.model.CommonJsonSupport._
+  import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 
   implicit val buildModelRequestFormat = jsonFormat2(BuildModelRequest.apply)
 }

@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.repository
 
-import io.hydrosphere.serving.manager.model.{Service, ServiceKeyDescription}
+import io.hydrosphere.serving.manager.model.db.{Service, ServiceKeyDescription}
 
 import scala.concurrent.Future
 
