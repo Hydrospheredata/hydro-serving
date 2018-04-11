@@ -377,7 +377,7 @@ class ApplicationManagementServiceImpl(
     logger.debug(keysSet)
     serviceManagementService.fetchServicesUnsync(keysSet).flatMap { services =>
       val toAdd = keysSet -- services.map(_.toServiceKeyDescription)
-      Future.traverse(toAdd.toSeq) { key =>
+      Result.traverseF(toAdd.toSeq) { key =>
         serviceManagementService.addService(
           CreateServiceRequest(
             serviceName = key.toServiceName(),
@@ -386,8 +386,8 @@ class ApplicationManagementServiceImpl(
             environmentId = key.environmentId,
             modelVersionId = key.modelVersionId
           )
-        ).map(Result.ok)
-      }.map(Result.sequence)
+        )
+      }
     }
   }
 

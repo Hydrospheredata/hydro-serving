@@ -2,6 +2,8 @@ package io.hydrosphere.serving.manager.service
 
 import java.time.LocalDateTime
 
+import cats.data.EitherT
+import cats.implicits._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.ModelType
@@ -54,7 +56,7 @@ case class JsonServeRequest(
 trait ServiceManagementService {
   def deleteService(serviceId: Long): HFResult[Service]
 
-  def addService(r: CreateServiceRequest): Future[Service]
+  def addService(r: CreateServiceRequest): HFResult[Service]
 
   def allServices(): Future[Seq[Service]]
 
@@ -68,12 +70,6 @@ trait ServiceManagementService {
 
   def serviceByFullName(fullName: String): Future[Option[Service]]
 
-  def allEnvironments(): Future[Seq[Environment]]
-
-  def createEnvironment(r: CreateEnvironmentRequest): Future[Environment]
-
-  def deleteEnvironment(environmentId: Long): Future[Unit]
-
   def fetchServicesUnsync(services: Set[ServiceKeyDescription]): Future[Seq[Service]]
 }
 
@@ -81,9 +77,9 @@ trait ServiceManagementService {
 class ServiceManagementServiceImpl(
   cloudDriverService: CloudDriverService,
   serviceRepository: ServiceRepository,
-  runtimeRepository: RuntimeRepository,
-  modelVersionRepository: ModelVersionRepository,
-  environmentRepository: EnvironmentRepository,
+  runtimeManagementService: RuntimeManagementService,
+  versionManagementService: ModelVersionManagementService,
+  environmentManagementService: EnvironmentManagementService,
   internalManagerEventsPublisher: InternalManagerEventsPublisher
 )(implicit val ex: ExecutionContext) extends ServiceManagementService with Logging {
 
@@ -152,36 +148,18 @@ class ServiceManagementServiceImpl(
       })
     })
 
-  private def fetchModel(modelId: Option[Long]): Future[Option[ModelVersion]] = {
-    logger.debug(modelId)
-    modelId match {
-      case Some(x) =>
-        modelVersionRepository.get(x)
-          .map(s => s.orElse(throw new IllegalArgumentException(s"Can't find ModelVersion with id=$x")))
-      case None => Future.successful(None)
-    }
-  }
-
-  private def fetchServingEnvironment(environmentId: Option[Long]): Future[Option[Environment]] = {
-    logger.debug(environmentId)
-    environmentId match {
-      case Some(x) => x match {
-        case AnyEnvironment.`anyEnvironmentId` =>
-          Future.successful(None)
-        case _ =>
-          environmentRepository.get(x)
-      }
-      case None => Future.successful(None)
-    }
-  }
-
   def createAndDeploy(
     r: CreateServiceRequest,
     runtime: Runtime,
     modelVersion: Option[ModelVersion],
-    svEnv: Option[Environment]
+    svEnv: Environment
   ): Future[Service] = {
-    val dService = r.toService(runtime, modelVersion, svEnv)
+    val env = if (svEnv.id == AnyEnvironment.id) {
+      None
+    } else {
+      Some(svEnv)
+    }
+    val dService = r.toService(runtime, modelVersion, env)
     serviceRepository.create(dService).flatMap { newService =>
       val future = cloudDriverService.deployService(newService).flatMap { cloudService =>
         serviceRepository.updateCloudDriveId(cloudService.id, Some(cloudService.cloudDriverId)).map { _ =>
@@ -195,19 +173,19 @@ class ServiceManagementServiceImpl(
     }
   }
 
-  override def addService(r: CreateServiceRequest): Future[Service] = {
+  override def addService(r: CreateServiceRequest): HFResult[Service] = {
     logger.debug(r.toString)
     //TODO ADD validation for names manager,gateway + length + without space and special symbols
-    for {
-      svEnv <- fetchServingEnvironment(r.environmentId)
-      modelVersion <- fetchModel(r.modelVersionId)
-      maybeRuntime <- runtimeRepository.get(r.runtimeId)
-      runtime = maybeRuntime.getOrElse(throw new IllegalArgumentException(s"Can't find Runtime with id=${r.runtimeId}"))
-      asd <- createAndDeploy(r, runtime, modelVersion, svEnv)
+    val f = for {
+      svEnv <- EitherT(environmentManagementService.get(r.environmentId))
+      modelVersion <- EitherT(fetchModel(r.modelVersionId))
+      runtime <- EitherT(runtimeManagementService.get(r.runtimeId))
+      asd <- EitherT(createAndDeploy(r, runtime, modelVersion, svEnv).map(Result.ok))
     } yield {
       internalManagerEventsPublisher.serviceChanged(asd)
       asd
     }
+    f.value
   }
 
   override def getService(serviceId: Long): Future[Option[Service]] =
@@ -262,16 +240,15 @@ class ServiceManagementServiceImpl(
       case None => serviceRepository.getByServiceName(fullName)
     }
 
-  override def allEnvironments(): Future[Seq[Environment]] =
-    environmentRepository.all().flatMap(s => Future.successful(s :+ new AnyEnvironment()))
-
-  override def createEnvironment(r: CreateEnvironmentRequest): Future[Environment] =
-    environmentRepository.create(r.toEnvironment)
-
-  override def deleteEnvironment(environmentId: Long): Future[Unit] =
-    environmentRepository.delete(environmentId).map(_ => Unit)
-
   override def fetchServicesUnsync(services: Set[ServiceKeyDescription]): Future[Seq[Service]] =
     serviceRepository.fetchServices(services)
 
+
+  private def fetchModel(modelId: Option[Long]): HFResult[Option[ModelVersion]] = {
+    logger.debug(modelId)
+    modelId match {
+      case Some(x) => versionManagementService.get(x).map(_.right.map(Some.apply))
+      case None => Result.okF(None)
+    }
+  }
 }

@@ -196,12 +196,3 @@ class UnknownModelRuntime extends ModelVersion(
   modelType = ModelType.Unknown("unknown"),
   model = None
 )
-
-class AnyEnvironment extends Environment(
-  AnyEnvironment.anyEnvironmentId, "Without Env", AnyEnvironment.emptyPlaceholder
-)
-
-object AnyEnvironment {
-  val emptyPlaceholder = Seq()
-  val anyEnvironmentId: Long = -1
-}

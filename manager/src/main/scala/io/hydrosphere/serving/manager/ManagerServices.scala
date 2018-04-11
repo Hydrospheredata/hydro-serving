@@ -95,17 +95,18 @@ class ManagerServices(
   val cloudDriverService: CloudDriverService = managerConfiguration.cloudDriver match {
     case _: DockerCloudDriverConfiguration => new DockerComposeCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
     case _ => new LocalCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
-
   }
 
   val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(managerRepositories.runtimeRepository)
 
+  val environmentManagementService: EnvironmentManagementService = new EnvironmentManagementServiceImpl(managerRepositories.environmentRepository)
+
   val serviceManagementService: ServiceManagementService = new ServiceManagementServiceImpl(
     cloudDriverService,
     managerRepositories.serviceRepository,
-    managerRepositories.runtimeRepository,
-    managerRepositories.modelVersionRepository,
-    managerRepositories.environmentRepository,
+    runtimeManagementService,
+    modelVersionManagementService,
+    environmentManagementService,
     internalManagerEventsPublisher
   )
 

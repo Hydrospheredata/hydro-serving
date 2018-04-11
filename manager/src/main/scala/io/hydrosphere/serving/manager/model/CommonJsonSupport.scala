@@ -7,7 +7,7 @@ import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.contract.utils.description._
-import io.hydrosphere.serving.manager.model.Result.{ClientError, HError, InternalError}
+import io.hydrosphere.serving.manager.model.Result.{ClientError, ErrorCollection, HError, InternalError}
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.clouddriver.{MetricServiceTargetLabels, MetricServiceTargets}
@@ -211,6 +211,10 @@ trait CommonJsonSupport extends SprayJsonSupport with DefaultJsonProtocol with L
         case x: InternalError[_] => JsObject(Map(
           "error" -> JsString("Internal"),
           "information" -> x.toJson
+        ))
+        case ErrorCollection(errors) => JsObject(Map(
+          "error" -> JsString("Multiple"),
+          "information" -> JsArray(errors.map(write).toVector)
         ))
       }
     }

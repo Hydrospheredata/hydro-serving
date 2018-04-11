@@ -56,11 +56,9 @@ class ModelBuildManagmentServiceImpl(
         buildScriptManagementService.fetchScriptForModel(model).flatMap { script =>
           modelBuildRepository.create(build).flatMap { modelBuild =>
             buildModelRuntime(modelBuild, script).transform(
-              {
-                case Right(runtime) =>
-                  modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(runtime))
-                  Right(runtime)
-                case Left(err) => Result.error(err)
+              _.right.map { runtime =>
+                modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(runtime))
+                runtime
               },
               { ex =>
                 logger.error(ex.getMessage, ex)
