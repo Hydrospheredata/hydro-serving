@@ -13,7 +13,7 @@ object Dependencies {
   val grpcNettyVersion = "1.8.0"
   val awsSdkVersion = "1.11.184"
   val servingGrpcScala = "0.1.2"
-
+  val catsV = "1.1.0"
 
   lazy val hdfsDependencies = Seq(
     "org.apache.hadoop" % "hadoop-client" % hadoopVersion,
@@ -76,6 +76,7 @@ object Dependencies {
     .union(testDependencies)
     .union(akkaHttpDependencies)
     .union(Seq(
+      "org.typelevel" %% "cats-core" % catsV,
       "io.hydrosphere" %% "serving-grpc-scala" % servingGrpcScala,
       "io.hydrosphere" %% "envoy-data-plane-api" % "v1.5.0_1",
 

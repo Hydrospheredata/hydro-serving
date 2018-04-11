@@ -17,7 +17,8 @@ object Common {
       "-language:existentials",
       "-language:higherKinds",
       "-language:implicitConversions",
-      "-language:postfixOps"
+      "-language:postfixOps",
+      "-Ypartial-unification"
     ),
     //exportJars := true,
     resolvers += Resolver.bintrayRepo("findify", "maven")

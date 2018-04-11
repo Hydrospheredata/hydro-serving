@@ -22,6 +22,8 @@ import spray.json.{JsObject, JsValue}
 import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Failure, Success}
 import Result.Implicits._
+import cats.data.EitherT
+import cats.implicits._
 import io.hydrosphere.serving.manager.model.Result.ClientError
 
 case class ServiceWithSignature(s: Service, signatureName: String)
@@ -142,12 +144,10 @@ class ApplicationManagementServiceImpl(
             }
         }
 
-        val errors = execUnits.filter(_.isLeft)
-        if (errors.nonEmpty) {
-          Result.clientErrorF(s"Encountered errors: $errors") // TODO multiple errors?
-        } else {
-          val units = execUnits.map(_.right.get)
-          servePipeline(units, request).map(Result.ok)
+        Result.sequence(execUnits) match {
+          case Left(err) => Result.errorF(err)
+          case Right(units) =>
+            servePipeline(units, request).map(Result.ok)
         }
     }
   }
@@ -165,14 +165,16 @@ class ApplicationManagementServiceImpl(
   }
 
   def serveJsonApplication(jsonServeRequest: JsonServeRequest): HFResult[JsObject] = {
-    applicationRepository.get(jsonServeRequest.targetId)
-      .flatMap {
-        case Some(application) =>
-          val signature = application.contract.signatures
-            .find(_.signatureName == jsonServeRequest.signatureName)
-            .getOrElse(throw new IllegalArgumentException(s"Application ${jsonServeRequest.targetId} doesn't have a ${jsonServeRequest.signatureName} signature"))
+    getApplication(jsonServeRequest.targetId).flatMap {
+      case Right(application) =>
+        val signature = application.contract.signatures
+          .find(_.signatureName == jsonServeRequest.signatureName)
+          .toHResult(
+            ClientError(s"Application ${jsonServeRequest.targetId} doesn't have a ${jsonServeRequest.signatureName} signature")
+          )
 
-          val ds = new SignatureBuilder(signature).convert(jsonServeRequest.inputs).right.map { tensors =>
+        val ds = signature.right.map { sig =>
+          new SignatureBuilder(sig).convert(jsonServeRequest.inputs).right.map { tensors =>
             PredictRequest(
               modelSpec = Some(
                 ModelSpec(
@@ -184,22 +186,25 @@ class ApplicationManagementServiceImpl(
               inputs = tensors.mapValues(_.toProto)
             )
           }
-          ds match {
-            case Left(validationError) => Result.clientErrorF(s"Tensor validation errors: ${validationError.getMessage}")
-            case Right(request) =>
-              serveApplication(application, request).map { result =>
-                result.right.map(responseToJsObject)
-              }
-          }
-        case None =>
-          Future.failed(new IllegalArgumentException(s"Can't find Application with id=${jsonServeRequest.targetId}"))
-      }
+        }
+
+        ds match {
+          case Left(err) => Result.errorF(err)
+          case Right(Left(tensorError)) => Result.clientErrorF(s"Tensor validation error: $tensorError")
+          case Right(Right(request)) =>
+            serveApplication(application, request).map { result =>
+              result.right.map(responseToJsObject)
+            }
+        }
+      case Left(error) =>
+        Result.errorF(error)
+    }
   }
 
-  def get(appId: Long): HFResult[Application] = {
-    applicationRepository.get(appId).map {
-      case Some(app) => Result.ok(app)
-      case None => Result.clientError(s"Can't find application with ID $appId")
+  override def getApplication(appId: Long): HFResult[Application] = {
+    applicationRepository.get(appId).flatMap {
+      case Some(app) => enrichApplication(app)
+      case None => Result.clientErrorF(s"Can't find application with ID $appId")
     }
   }
 
@@ -207,14 +212,13 @@ class ApplicationManagementServiceImpl(
     applicationRepository.all().flatMap(enrichApplications)
   }
 
-  def enrichApplication(app: Application): Future[Option[Application]] = {
-    enrichApplications(Seq(app)).map(_.headOption)
+  def enrichApplication(app: Application): HFResult[Application] = {
+    enrichApplications(Seq(app)).map(_.headOption.toHResult(ClientError("Can't enrich application")))
   }
 
   def enrichApplication(app: Option[Application]): Future[Option[Application]] = {
     enrichApplications(app.toSeq).map(_.headOption)
   }
-
 
   def enrichApplications(apps: Seq[Application]): Future[Seq[Application]] = {
 
@@ -283,18 +287,8 @@ class ApplicationManagementServiceImpl(
     }
   }
 
-
-  def getApplication(id: Long): HFResult[Application] = {
-    get(id).flatMap {
-      case Left(err) => Result.errorF(err)
-      case Right(app) =>
-        enrichApplication(app).map(_.toHResult(ClientError("Can't enrich application")))
-    }
-  }
-
-
   def generateInputsForApplication(appId: Long, signatureName: String): HFResult[JsObject] = {
-    get(appId).map { result =>
+    getApplication(appId).map { result =>
       result.right.flatMap { app =>
         app.contract.signatures.find(_.signatureName == signatureName) match {
           case Some(signature) =>
@@ -315,28 +309,23 @@ class ApplicationManagementServiceImpl(
     }
     val keySet = keys.toSet
 
-    serviceManagementService.fetchServicesUnsync(keySet).flatMap { services =>
-      val existedServices = services.map(_.toServiceKeyDescription)
-      startServices(keySet -- existedServices).flatMap { _ =>
-        composeApp(req).flatMap {
-          case Left(err) => Result.errorF(err)
-          case Right(inferredApp) =>
-            applicationRepository.create(inferredApp).flatMap { created =>
-              enrichApplication(created).map {
-                case Some(enriched) =>
-                  internalManagerEventsPublisher.applicationChanged(created)
-                  Result.ok(enriched)
-                case None => Result.clientError("Can't enrich application")
-              }
-            }
-        }
-      }
+    val f = for {
+      services <- EitherT(serviceManagementService.fetchServicesUnsync(keySet).map(Result.ok))
+      existedServices = services.map(_.toServiceKeyDescription)
+      _ <- EitherT(startServices(keySet -- existedServices))
+      inferredApp <- EitherT(composeApp(req))
+      createdApp <- EitherT(applicationRepository.create(inferredApp).map(Result.ok))
+      enriched <- EitherT(enrichApplication(createdApp))
+    } yield {
+      internalManagerEventsPublisher.applicationChanged(createdApp)
+      enriched
     }
+    f.value
   }
 
   def deleteApplication(id: Long): HFResult[Application] =
     executeWithSync {
-      get(id).flatMap {
+      getApplication(id).flatMap {
         case Right(application) =>
           val keysSet = application.executionGraph.stages.flatMap(_.services.map(_.serviceDescription)).toSet
           applicationRepository.delete(id)
@@ -354,35 +343,24 @@ class ApplicationManagementServiceImpl(
 
   def updateApplication(req: UpdateApplicationRequest): HFResult[Application] = {
     executeWithSync {
-      get(req.id)
-        .flatMap {
-          case Right(application) =>
-            val keysSetOld = application.executionGraph.stages.flatMap(_.services.map(_.serviceDescription)).toSet
-            val keysSetNew = req.executionGraph.stages.flatMap(_.services.map(_.toDescription)).toSet
-
-            removeServiceIfNeeded(keysSetOld -- keysSetNew, application.id).flatMap { _ =>
-              startServices(keysSetNew -- keysSetOld).flatMap { _ =>
-                composeApp(req).flatMap {
-                  case Left(err) => Result.errorF(err)
-                  case Right(app) =>
-                    applicationRepository.update(app).flatMap { _ =>
-                      enrichApplication(app).map {
-                        case Some(enriched) =>
-                          internalManagerEventsPublisher.applicationChanged(app)
-                          Result.ok(enriched)
-                        case None => Result.clientError("Can't enrich application")
-                      }
-                    }
-                }
-              }
-            }
-          case Left(error) => Result.errorF(error)
-        }
+      val res = for {
+        application <- EitherT(getApplication(req.id))
+        keysSetOld = application.executionGraph.stages.flatMap(_.services.map(_.serviceDescription)).toSet
+        keysSetNew = req.executionGraph.stages.flatMap(_.services.map(_.toDescription)).toSet
+        _ <- EitherT(removeServiceIfNeeded(keysSetOld -- keysSetNew, application.id))
+        _ <- EitherT(startServices(keysSetNew -- keysSetOld))
+        composedApp <- EitherT(composeApp(req))
+        _ <- EitherT(applicationRepository.update(composedApp).map(Result.ok))
+      } yield {
+        internalManagerEventsPublisher.applicationChanged(composedApp)
+        composedApp
+      }
+      res.value
     }
   }
 
 
-  private def executeWithSync[A](func: => Future[A]): Future[A] = {
+  private def executeWithSync[A](func: => HFResult[A]): HFResult[A] = {
     applicationRepository.getLockForApplications().flatMap { lockInfo =>
       func andThen {
         case Success(r) =>
@@ -390,37 +368,42 @@ class ApplicationManagementServiceImpl(
             .map(_ => r)
         case Failure(f) =>
           applicationRepository.returnLockForApplications(lockInfo)
-            .map(_ => throw f)
+            .map(_ => Result.internalError(f, "executeWithSync failed"))
       }
     }
   }
 
-  private def startServices(keysSet: Set[ServiceKeyDescription]): Future[Seq[Service]] = {
+  private def startServices(keysSet: Set[ServiceKeyDescription]): HFResult[Seq[Service]] = {
     logger.debug(keysSet)
     serviceManagementService.fetchServicesUnsync(keysSet).flatMap { services =>
       val toAdd = keysSet -- services.map(_.toServiceKeyDescription)
-
       Future.traverse(toAdd.toSeq) { key =>
-        serviceManagementService.addService(CreateServiceRequest(
-          serviceName = key.toServiceName(),
-          runtimeId = key.runtimeId,
-          configParams = None,
-          environmentId = key.environmentId,
-          modelVersionId = key.modelVersionId
-        ))
-      }
+        serviceManagementService.addService(
+          CreateServiceRequest(
+            serviceName = key.toServiceName(),
+            runtimeId = key.runtimeId,
+            configParams = None,
+            environmentId = key.environmentId,
+            modelVersionId = key.modelVersionId
+          )
+        ).map(Result.ok)
+      }.map(Result.sequence)
     }
   }
 
-  private def removeServiceIfNeeded(keysSet: Set[ServiceKeyDescription], applicationId: Long): Future[Unit] =
-    applicationRepository.getKeysNotInApplication(keysSet, applicationId)
-      .flatMap(apps => {
-        val keysSetOld = apps.flatMap(_.executionGraph.stages.flatMap(_.services.map(_.serviceDescription))).toSet
-        serviceManagementService.fetchServicesUnsync(keysSet -- keysSetOld)
-      })
-      .flatMap(services => Future.traverse(services)(serv => {
-        serviceManagementService.deleteService(serv.id)
-      }).map(_ => Unit))
+  private def removeServiceIfNeeded(keysSet: Set[ServiceKeyDescription], applicationId: Long): HFResult[Seq[Service]] = {
+    val servicesF = for {
+      apps <- applicationRepository.getKeysNotInApplication(keysSet, applicationId)
+      keysSetOld = apps.flatMap(_.executionGraph.stages.flatMap(_.services.map(_.serviceDescription))).toSet
+      services <- serviceManagementService.fetchServicesUnsync(keysSet -- keysSetOld)
+    } yield services
+
+    servicesF.flatMap { services =>
+      Future.traverse(services) { service =>
+        serviceManagementService.deleteService(service.id)
+      }.map(Result.sequence)
+    }
+  }
 
   private def composeApp(id: Long = 0, name: String, executionGraph: ExecutionGraphRequest, kafkaStreaming: List[ApplicationKafkaStream]): HFResult[Application] = {
     inferGraph(executionGraph).flatMap {

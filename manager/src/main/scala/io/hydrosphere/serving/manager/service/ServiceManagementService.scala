@@ -52,7 +52,7 @@ case class JsonServeRequest(
 )
 
 trait ServiceManagementService {
-  def deleteService(serviceId: Long): HFResult[Unit]
+  def deleteService(serviceId: Long): HFResult[Service]
 
   def addService(r: CreateServiceRequest): Future[Service]
 
@@ -229,13 +229,14 @@ class ServiceManagementServiceImpl(
       })
 
   //TODO check service in applications before delete
-  override def deleteService(serviceId: Long): HFResult[Unit] =
-    serviceRepository.get(serviceId).flatMap{
+  override def deleteService(serviceId: Long): HFResult[Service] =
+    serviceRepository.get(serviceId).flatMap {
       case Some(x) =>
-        cloudDriverService.removeService(serviceId).flatMap{ _ =>
+        cloudDriverService.removeService(serviceId).flatMap { _ =>
           serviceRepository.delete(serviceId)
         }.map { _ =>
-          Result.ok(internalManagerEventsPublisher.serviceRemoved(x))
+          internalManagerEventsPublisher.serviceRemoved(x)
+          Result.ok(x)
         }
       case None =>
         Result.clientErrorF("Can't find service")

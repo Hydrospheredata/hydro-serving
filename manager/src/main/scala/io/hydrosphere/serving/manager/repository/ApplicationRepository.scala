@@ -4,9 +4,6 @@ import io.hydrosphere.serving.manager.model.{Application, ServiceKeyDescription}
 
 import scala.concurrent.Future
 
-/**
-  *
-  */
 trait ApplicationRepository extends BaseRepository[Application, Long] {
   def update(value: Application): Future[Int]
 

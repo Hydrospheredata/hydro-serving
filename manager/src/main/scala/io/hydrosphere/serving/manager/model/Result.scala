@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.model
 
-import scala.concurrent.Future
+import scala.concurrent.{ExecutionContext, Future}
 
 object Result {
 
@@ -27,7 +27,11 @@ object Result {
 
   case class InternalError[T <: Throwable](exception: T, reason: Option[String] = None) extends HError
 
+  case class ErrorCollection(errors: Seq[HError]) extends HError
+
   def error[T](err: HError): HResult[T] = Left(err)
+
+  def errors[T](errors: Seq[HError]): HResult[T] = error(ErrorCollection(errors))
 
   def clientError[T](message: String): HResult[T] = error(ClientError(message))
 
@@ -37,6 +41,8 @@ object Result {
 
   def errorF[T](err: HError): HFResult[T] = Future.successful(error(err))
 
+  def errorsF[T](errors: Seq[HError]): HFResult[T] = errorF(ErrorCollection(errors))
+
   def clientErrorF[T](message: String): HFResult[T] = errorF(ClientError(message))
 
   def internalErrorF[T <: Throwable](ex: T): HFResult[T] = errorF(InternalError(ex, None))
@@ -45,12 +51,23 @@ object Result {
 
   def sequence[T](reSeq: Seq[HResult[T]]): HResult[Seq[T]] = {
     val errors = reSeq.filter(_.isLeft).map(_.left.get)
-
     if (errors.nonEmpty) {
-      Result.clientError(s"Errors: $errors")
+      Result.errors(errors)
     } else {
       val values = reSeq.filter(_.isRight).map(_.right.get)
       Result.ok(values)
     }
+  }
+
+  def sequenceF[T](reSeq: Seq[HFResult[T]])(implicit ec: ExecutionContext): HFResult[Seq[T]] = {
+    Future.sequence(reSeq).map(sequence)
+  }
+
+  def traverse[A, T](seq: Seq[A])(func: A => HResult[T]): HResult[Seq[T]] = {
+    sequence(seq.map(func))
+  }
+
+  def traverseF[A, T](seq: Seq[A])(func: A => HFResult[T])(implicit ec: ExecutionContext): HFResult[Seq[T]] = {
+    Future.traverse(seq)(func).map(sequence)
   }
 }

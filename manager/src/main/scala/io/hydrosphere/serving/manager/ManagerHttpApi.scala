@@ -101,5 +101,5 @@ class ManagerHttpApi(
     }
   }
 
-  val serverBinding=Http().bindAndHandle(routes, "0.0.0.0", managerConfiguration.application.port)
+  val serverBinding = Http().bindAndHandle(routes, "0.0.0.0", managerConfiguration.application.port)
 }
