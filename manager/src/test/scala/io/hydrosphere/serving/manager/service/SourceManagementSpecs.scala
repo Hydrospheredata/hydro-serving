@@ -29,7 +29,8 @@ class SourceManagementSpecs extends GenericUnitTest {
     val sourceService = new SourceManagementServiceImpl(confMock, sourceRepoMock)
 
     val f = sourceService.index("test:tensorflow_model").map { result =>
-      val maybeModel = result.get
+      val maybeModel = result.right.get
+      println(maybeModel)
       maybeModel shouldBe defined
       val model = maybeModel.get
       model.modelName should equal("tensorflow_model")
@@ -78,8 +79,8 @@ class SourceManagementSpecs extends GenericUnitTest {
       "test_api", getClass.getResource("/test_models").getPath
     )
     val f = sourceService.addLocalSource(req).map { maybeSourceConfig =>
-      maybeSourceConfig shouldBe defined
-      val modelSourceConfig = maybeSourceConfig.get
+      maybeSourceConfig.isRight should equal(true)
+      val modelSourceConfig = maybeSourceConfig.right.get
       modelSourceConfig.name should equal(req.name)
 
       assert(modelSourceConfig.params.isInstanceOf[LocalSourceParams], modelSourceConfig.params)
@@ -112,7 +113,7 @@ class SourceManagementSpecs extends GenericUnitTest {
     val f = for {
       failSource <- sourceService.addLocalSource(reqFail)
     } yield {
-      assert(failSource.isEmpty)
+      assert(failSource.isLeft)
     }
 
     Await.result(f, futureTimeout)

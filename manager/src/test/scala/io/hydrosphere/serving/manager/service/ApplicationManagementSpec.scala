@@ -18,7 +18,7 @@ class ApplicationManagementSpec extends GenericUnitTest {
 
     val modelsMap = Future.successful(models())
     val runtimeMap = Future.successful(runtime())
-    val apps = Future.successful(Seq(app()))
+    val apps = Seq(app())
 
     import scala.concurrent.duration._
 

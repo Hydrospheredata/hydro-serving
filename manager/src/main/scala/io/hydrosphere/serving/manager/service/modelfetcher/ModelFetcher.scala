@@ -7,6 +7,7 @@ import io.hydrosphere.serving.manager.model.api._
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import org.apache.logging.log4j.scala.Logging
 
+
 trait ModelFetcher {
   def fetch(source: ModelSource, directory: String): Option[ModelMetadata]
 }

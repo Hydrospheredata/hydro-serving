@@ -13,6 +13,7 @@ object Dependencies {
   val grpcNettyVersion = "1.8.0"
   val awsSdkVersion = "1.11.184"
   val servingGrpcScala = "0.1.2"
+  val catsV = "1.1.0"
 
   lazy val awsDependencies = Seq(
     "com.amazonaws" % "aws-java-sdk-ecs" % awsSdkVersion,
@@ -83,6 +84,7 @@ object Dependencies {
     awsDependencies ++
     grpcDependencies ++
     Seq(
+      "org.typelevel" %% "cats-core" % catsV,
       "io.hydrosphere" %% "envoy-data-plane-api" % "v1.5.0_1",
       "org.postgresql" % "postgresql" % postgresqlVersion,
       "com.typesafe.slick" %% "slick" % slickVersion,

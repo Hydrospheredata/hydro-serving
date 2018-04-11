@@ -14,11 +14,12 @@ import io.hydrosphere.serving.manager.controller.application.ApplicationControll
 import io.hydrosphere.serving.manager.controller.model.ModelController
 import io.hydrosphere.serving.manager.controller.model_source.ModelSourceController
 import io.hydrosphere.serving.manager.controller.prometheus.PrometheusMetricsController
+import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import org.apache.logging.log4j.scala.Logging
+import spray.json._
 
 import scala.collection.immutable.Seq
 import scala.concurrent.ExecutionContext
-import scala.reflect.runtime.{universe => ru}
 
 class ManagerHttpApi(
   managerServices: ManagerServices,
@@ -29,13 +30,18 @@ class ManagerHttpApi(
   implicit val materializer: ActorMaterializer
 ) extends Logging {
 
-  val environmentController = new EnvironmentController(managerServices.serviceManagementService)
+  val environmentController = new EnvironmentController(managerServices.environmentManagementService)
 
   val runtimeController = new RuntimeController(managerServices.runtimeManagementService)
 
   val modelSourceController = new ModelSourceController(managerServices.sourceManagementService)
 
-  val modelController = new ModelController(managerServices.modelManagementService)
+  val modelController = new ModelController(
+    managerServices.modelManagementService,
+    managerServices.aggregatedInfoUtilityService,
+    managerServices.modelBuildManagmentService,
+    managerServices.modelVersionManagementService
+  )
 
   val serviceController = new ServiceController(
     managerServices.serviceManagementService,
@@ -58,17 +64,18 @@ class ManagerHttpApi(
     )
   )
 
-  private def getExceptionMessage(p: Throwable): String = {
-    Option(p.getMessage).getOrElse("Unknown error")
-  }
-
   val commonExceptionHandler = ExceptionHandler {
-    case x: IllegalArgumentException =>
-      logger.error(x.getMessage, x)
-      complete(HttpResponse(StatusCodes.BadRequest, entity = getExceptionMessage(x)))
     case p: Throwable =>
       logger.error(p.getMessage, p)
-      complete(HttpResponse(StatusCodes.InternalServerError, entity = getExceptionMessage(p)))
+      complete(
+        HttpResponse(
+          StatusCodes.InternalServerError,
+          entity = Map(
+            "error" -> "InternalUncatched",
+            "information" -> Option(p.getMessage).getOrElse("Unknown error (exception message == null)")
+          ).toJson.toString()
+        )
+      )
   }
 
   val routes: Route = CorsDirectives.cors(
@@ -96,5 +103,5 @@ class ManagerHttpApi(
     }
   }
 
-  val serverBinding=Http().bindAndHandle(routes, "0.0.0.0", managerConfiguration.application.port)
+  val serverBinding = Http().bindAndHandle(routes, "0.0.0.0", managerConfiguration.application.port)
 }

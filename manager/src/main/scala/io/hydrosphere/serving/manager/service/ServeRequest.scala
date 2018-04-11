@@ -29,21 +29,3 @@ case class JsonPredictRequest(
 ) {
   def toModelSpec: ModelSpec = ModelSpec(modelName, version, signatureName)
 }
-
-object JsonPredictRequest{
-  import spray.json._
-  def fromServeRequest(serveRequest: ServeRequest): Try[JsonPredictRequest] = {
-    serveRequest.serviceKey match {
-      case ModelByName(name, version) =>
-        Success(
-          JsonPredictRequest(
-            modelName = name,
-            version = version,
-            signatureName = serveRequest.servePath,
-            inputs = serveRequest.inputData.toString.parseJson.asJsObject
-          )
-        )
-      case _ => Failure(new IllegalArgumentException("Only 'ModelByName' is supported as 'serviceKey'"))
-    }
-  }
-}

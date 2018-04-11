@@ -6,6 +6,7 @@ import java.time.LocalDateTime
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.controller.model.UploadedEntity.ModelUpload
+import io.hydrosphere.serving.manager.model.Result
 import io.hydrosphere.serving.manager.model.api.{ModelMetadata, ModelType}
 import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.repository.ModelRepository
@@ -17,12 +18,12 @@ import org.mockito.{Matchers, Mockito}
 
 import scala.concurrent.duration._
 import scala.concurrent.{Await, Future}
-import scala.util.Success
 
 class ModelManagementSpec extends GenericUnitTest {
+  val contractSerice = mock[ContractUtilityService]
   private[this] val dummyModel = Model(
     id = 1,
-    name = "test1",
+    name = "/test_models/tensorflow_model",
     source = "local:test1",
     modelType = ModelType.Unknown("test"),
     description = None,
@@ -42,11 +43,7 @@ class ModelManagementSpec extends GenericUnitTest {
     val modelRepo = mock[ModelRepository]
     val sourceMock = mock[SourceManagementService]
 
-    Mockito.when(sourceMock.index("local:test1")).thenReturn(
-      Future.successful(
-        Success(None)
-      )
-    )
+    Mockito.when(sourceMock.index("local:test1")).thenReturn(Result.okF(None))
     Mockito.when(modelRepo.delete(1L)).thenReturn(Future.successful(1))
     Mockito.when(modelRepo.getMany(Set(1L))).thenReturn(
       Future.successful(
@@ -54,7 +51,7 @@ class ModelManagementSpec extends GenericUnitTest {
       )
     )
 
-    val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, null, null, null, null, sourceMock)
+    val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
 
     val f = modelManagementService.indexModels(Set(1L)).map { statuses =>
       println(statuses)
@@ -71,14 +68,14 @@ class ModelManagementSpec extends GenericUnitTest {
     val sourceMock = mock[SourceManagementService]
 
     Mockito.when(sourceMock.index("local:test1")).thenReturn(
-      Future.successful(
-        Success(Some(
+      Result.okF(
+        Some(
           ModelMetadata(
             "newModel",
             ModelType.Unknown("test2"),
             ModelContract.defaultInstance.copy(modelName = "newmodel")
           )
-        ))
+        )
       )
     )
     Mockito.when(modelRepo.update(Matchers.any(classOf[Model]))).thenReturn(Future.successful(1))
@@ -88,7 +85,7 @@ class ModelManagementSpec extends GenericUnitTest {
       )
     )
 
-    val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, null, null, null, null, sourceMock)
+    val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
 
     val f = modelManagementService.indexModels(Set(1L)).map { statuses =>
       println(statuses)
@@ -140,11 +137,11 @@ class ModelManagementSpec extends GenericUnitTest {
       }
     })
 
-    val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, null, null, null, null, sourceMock)
+    val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
 
     val f = modelManagementService.uploadModelTarball(upload).map{ maybeModel =>
-      maybeModel shouldBe defined
-      val rModel = maybeModel.get
+      maybeModel.isRight should equal(true)
+      val rModel = maybeModel.right.get
       rModel.name should equal("test")
       rModel.source should equal("test:test")
     }
@@ -187,11 +184,11 @@ class ModelManagementSpec extends GenericUnitTest {
     Mockito.when(modelRepo.get("test")).thenReturn(Future.successful(Some(model)))
     Mockito.when(modelRepo.get(1)).thenReturn(Future.successful(Some(model)))
 
-    val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, null, null, null, null, sourceMock)
+    val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
 
     val f = modelManagementService.uploadModelTarball(upload).map{ maybeModel =>
-      maybeModel shouldBe defined
-      val rModel = maybeModel.get
+      maybeModel.isRight should equal(true)
+      val rModel = maybeModel.right.get
       rModel.name should equal("test")
       rModel.source should equal("test:tensorflow_model")
     }
@@ -206,9 +203,11 @@ class ModelManagementSpec extends GenericUnitTest {
     val modelRepo = mock[ModelRepository]
     val sourceMock = mock[SourceManagementService]
 
-    Mockito.when(sourceMock.getSource(sourceName)).thenReturn(Future.successful(Some(
-      new LocalModelSource(LocalSourceDef(sourceName, None))
-    )))
+    Mockito.when(sourceMock.getSource(sourceName)).thenReturn(
+      Result.okF(
+        new LocalModelSource(LocalSourceDef(sourceName, None))
+      )
+    )
     Mockito.when(modelRepo.get(Matchers.any())).thenReturn(
       Future.successful(None)
     )
@@ -219,11 +218,11 @@ class ModelManagementSpec extends GenericUnitTest {
       }
     })
 
-    val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, null, null, null, null, sourceMock)
+    val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
 
     val f = modelManagementService.addModel(sourceName, modelPath).map{ maybeModel =>
-      maybeModel shouldBe defined
-      val model = maybeModel.get
+      maybeModel.isRight should equal(true)
+      val model = maybeModel.right.get
       model.name should equal(modelPath)
     }
 
@@ -237,17 +236,19 @@ class ModelManagementSpec extends GenericUnitTest {
     val modelRepo = mock[ModelRepository]
     val sourceMock = mock[SourceManagementService]
 
-    Mockito.when(sourceMock.getSource(sourceName)).thenReturn(Future.successful(Some(
-      new LocalModelSource(LocalSourceDef(sourceName, None))
-    )))
+    Mockito.when(sourceMock.getSource(sourceName)).thenReturn(
+      Result.okF(
+        new LocalModelSource(LocalSourceDef(sourceName, None))
+      )
+    )
     Mockito.when(modelRepo.get(Matchers.any())).thenReturn(
       Future.successful(Some(dummyModel))
     )
 
-    val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, null, null, null, null, sourceMock)
+    val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
 
     val f = modelManagementService.addModel(sourceName, modelPath).map{ maybeModel =>
-      maybeModel shouldBe empty
+      maybeModel.isLeft should equal(true)
     }
 
     Await.result(f, 20 seconds)

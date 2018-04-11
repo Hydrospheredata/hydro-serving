@@ -1,10 +1,13 @@
 package io.hydrosphere.serving.manager.service
 
+import io.hydrosphere.serving.manager.model.Result.ClientError
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.Runtime
 import io.hydrosphere.serving.manager.repository.RuntimeRepository
+import io.hydrosphere.serving.manager.model.{HFResult}
+import io.hydrosphere.serving.manager.model.Result.Implicits._
 
-import scala.concurrent.Future
+import scala.concurrent.{ExecutionContext, Future}
 
 case class CreateRuntimeRequest(
   name: String,
@@ -36,11 +39,13 @@ trait RuntimeManagementService {
 
   def create(entity: CreateRuntimeRequest): Future[Runtime]
 
-  def get(id: Long): Future[Option[Runtime]]
+  def get(id: Long): HFResult[Runtime]
 }
 
 class RuntimeManagementServiceImpl(
   runtimeRepository: RuntimeRepository
+)(
+  implicit ex: ExecutionContext
 ) extends RuntimeManagementService {
 
   override def lookupByModelType(modelTypes: Set[String]): Future[Seq[Runtime]] =
@@ -57,6 +62,6 @@ class RuntimeManagementServiceImpl(
   override def create(entity: CreateRuntimeRequest): Future[Runtime] =
     runtimeRepository.create(entity.toRuntimeType)
 
-  override def get(id: Long): Future[Option[Runtime]] =
-    runtimeRepository.get(id)
+  override def get(id: Long): HFResult[Runtime] =
+    runtimeRepository.get(id).map(_.toHResult(ClientError(s"Can't find Runtime with id $id")))
 }

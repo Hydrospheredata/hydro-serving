@@ -6,6 +6,7 @@ import akka.http.scaladsl.model.StatusCodes.InternalServerError
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
+import io.hydrosphere.serving.manager.controller.GenericController
 import io.hydrosphere.serving.manager.service.prometheus.PrometheusMetricsService
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import io.hydrosphere.serving.manager.service.clouddriver.MetricServiceTargets
@@ -17,7 +18,7 @@ import scala.concurrent.duration._
 @Api(produces = "application/json", tags = Array("Infrastructure: Prometheus"))
 class PrometheusMetricsController(
   prometheusMetricsService:PrometheusMetricsService
-) {
+) extends GenericController {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/services")

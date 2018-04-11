@@ -2,6 +2,8 @@ package io.hydrosphere.serving.manager.service
 
 import java.time.LocalDateTime
 
+import cats.data.EitherT
+import cats.implicits._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.ModelType
@@ -10,6 +12,8 @@ import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.clouddriver._
 import org.apache.logging.log4j.scala.Logging
 import spray.json.JsObject
+import Result.Implicits._
+import io.hydrosphere.serving.manager.model.Result.ClientError
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -53,10 +57,9 @@ case class JsonServeRequest(
 )
 
 trait ServiceManagementService {
+  def deleteService(serviceId: Long): HFResult[Service]
 
-  def deleteService(serviceId: Long): Future[Unit]
-
-  def addService(r: CreateServiceRequest): Future[Service]
+  def addService(r: CreateServiceRequest): HFResult[Service]
 
   def allServices(): Future[Seq[Service]]
 
@@ -66,15 +69,7 @@ trait ServiceManagementService {
 
   def getServicesByRuntimes(runtimeId: Set[Long]): Future[Seq[Service]]
 
-  def getService(serviceId: Long): Future[Option[Service]]
-
-  def serviceByFullName(fullName: String): Future[Option[Service]]
-
-  def allEnvironments(): Future[Seq[Environment]]
-
-  def createEnvironment(r: CreateEnvironmentRequest): Future[Environment]
-
-  def deleteEnvironment(environmentId: Long): Future[Unit]
+  def getService(serviceId: Long): HFResult[Service]
 
   def fetchServicesUnsync(services: Set[ServiceKeyDescription]): Future[Seq[Service]]
 }
@@ -83,9 +78,9 @@ trait ServiceManagementService {
 class ServiceManagementServiceImpl(
   cloudDriverService: CloudDriverService,
   serviceRepository: ServiceRepository,
-  runtimeRepository: RuntimeRepository,
-  modelVersionRepository: ModelVersionRepository,
-  environmentRepository: EnvironmentRepository,
+  runtimeManagementService: RuntimeManagementService,
+  versionManagementService: ModelVersionManagementService,
+  environmentManagementService: EnvironmentManagementService,
   internalManagerEventsPublisher: InternalManagerEventsPublisher
 )(implicit val ex: ExecutionContext) extends ServiceManagementService with Logging {
 
@@ -154,36 +149,20 @@ class ServiceManagementServiceImpl(
       })
     })
 
-  private def fetchModel(modelId: Option[Long]): Future[Option[ModelVersion]] = {
-    logger.debug(modelId)
-    modelId match {
-      case Some(x) =>
-        modelVersionRepository.get(x)
-          .map(s => s.orElse(throw new IllegalArgumentException(s"Can't find ModelVersion with id=$x")))
-      case None => Future.successful(None)
-    }
-  }
-
-  private def fetchServingEnvironment(environmentId: Option[Long]): Future[Option[Environment]] = {
-    logger.debug(environmentId)
-    environmentId match {
-      case Some(x) => x match {
-        case AnyEnvironment.`anyEnvironmentId` =>
-          Future.successful(None)
-        case _ =>
-          environmentRepository.get(x)
-      }
-      case None => Future.successful(None)
-    }
-  }
-
   def createAndDeploy(
     r: CreateServiceRequest,
     runtime: Runtime,
     modelVersion: Option[ModelVersion],
     svEnv: Option[Environment]
   ): Future[Service] = {
-    val dService = r.toService(runtime, modelVersion, svEnv)
+    val env = svEnv.flatMap { app =>
+      if (app.id == AnyEnvironment.id) {
+        None
+      } else {
+        Some(app)
+      }
+    }
+    val dService = r.toService(runtime, modelVersion, env)
     serviceRepository.create(dService).flatMap { newService =>
       val future = cloudDriverService.deployService(newService).flatMap { cloudService =>
         serviceRepository.updateCloudDriveId(cloudService.id, Some(cloudService.cloudDriverId)).map { _ =>
@@ -197,51 +176,56 @@ class ServiceManagementServiceImpl(
     }
   }
 
-  override def addService(r: CreateServiceRequest): Future[Service] = {
+  override def addService(r: CreateServiceRequest): HFResult[Service] = {
     logger.debug(r.toString)
     //TODO ADD validation for names manager,gateway + length + without space and special symbols
-    for {
-      svEnv <- fetchServingEnvironment(r.environmentId)
-      modelVersion <- fetchModel(r.modelVersionId)
-      maybeRuntime <- runtimeRepository.get(r.runtimeId)
-      runtime = maybeRuntime.getOrElse(throw new IllegalArgumentException(s"Can't find Runtime with id=${r.runtimeId}"))
-      asd <- createAndDeploy(r, runtime, modelVersion, svEnv)
+    val f = for {
+      svEnv <- EitherT(extractEnvironment(r.environmentId))
+      modelVersion <- EitherT(fetchModel(r.modelVersionId))
+      runtime <- EitherT(runtimeManagementService.get(r.runtimeId))
+      asd <- EitherT(createAndDeploy(r, runtime, modelVersion, svEnv).map(Result.ok))
     } yield {
       internalManagerEventsPublisher.serviceChanged(asd)
       asd
     }
+    f.value
   }
 
-  override def getService(serviceId: Long): Future[Option[Service]] =
-    cloudDriverService.services(Set(serviceId))
-      .flatMap(opt => {
-        val info = opt.headOption.getOrElse(throw new IllegalArgumentException(s"Can't find service with id $serviceId"))
-        info.id match {
-          case CloudDriverService.MANAGER_ID =>
-            Future.successful(Some(mapInternalService(info)))
-          case CloudDriverService.GATEWAY_HTTP_ID =>
-            Future.successful(Some(mapInternalService(info)))
-          case _ =>
-            serviceRepository.get(serviceId).map({
-              case Some(service) =>
-                Some(service.copy(statusText = info.statusText))
-              case _ => throw new IllegalArgumentException(s"Can't find service with id $serviceId")
-            })
-        }
-      })
+  override def getService(serviceId: Long): HFResult[Service] = {
+    val serviceRes = cloudDriverService
+      .services(Set(serviceId))
+      .map(_.headOption.toHResult(ClientError(s"Can't find cloud service with id $serviceId")))
+
+    EitherT(serviceRes).flatMap { info =>
+      val res = info.id match {
+        case CloudDriverService.`MANAGER_ID` =>
+          Result.okF(mapInternalService(info))
+        case CloudDriverService.`GATEWAY_HTTP_ID` =>
+          Result.okF(mapInternalService(info))
+
+        case _ =>
+          serviceRepository
+            .get(serviceId)
+            .map(s => s.map(_.copy(statusText = info.statusText)))
+            .map(_.toHResult(ClientError(s"Can't find service with id $serviceId")))
+      }
+      EitherT(res)
+    }.value
+  }
 
   //TODO check service in applications before delete
-  override def deleteService(serviceId: Long): Future[Unit] =
-    serviceRepository.get(serviceId).flatMap({
+  override def deleteService(serviceId: Long): HFResult[Service] =
+    serviceRepository.get(serviceId).flatMap {
       case Some(x) =>
-        cloudDriverService.removeService(serviceId)
-          .flatMap(_ => serviceRepository.delete(serviceId)).map(_ =>
+        cloudDriverService.removeService(serviceId).flatMap { _ =>
+          serviceRepository.delete(serviceId)
+        }.map { _ =>
           internalManagerEventsPublisher.serviceRemoved(x)
-        )
+          Result.ok(x)
+        }
       case None =>
-        Future.successful(Unit)
-    })
-
+        Result.clientErrorF("Can't find service")
+    }
 
   override def servicesByIds(ids: Seq[Long]): Future[Seq[Service]] =
     serviceRepository.fetchByIds(ids)
@@ -255,52 +239,24 @@ class ServiceManagementServiceImpl(
     serviceRepository.getByRuntimeIds(runtimeIds)
       .flatMap(syncServices)
 
-  override def serviceByFullName(fullName: String): Future[Option[Service]] =
-    CloudDriverService.specialNames.get(fullName) match {
-      case Some(id) =>
-        cloudDriverService.services(Set(id))
-          .map(p => p.headOption.map(mapInternalService))
-      case None => serviceRepository.getByServiceName(fullName)
-    }
-
-  override def allEnvironments(): Future[Seq[Environment]] =
-    environmentRepository.all().flatMap(s => Future.successful(s :+ new AnyEnvironment()))
-
-  override def createEnvironment(r: CreateEnvironmentRequest): Future[Environment] =
-    environmentRepository.create(r.toEnvironment)
-
-  override def deleteEnvironment(environmentId: Long): Future[Unit] =
-    environmentRepository.delete(environmentId).map(_ => Unit)
-
   override def fetchServicesUnsync(services: Set[ServiceKeyDescription]): Future[Seq[Service]] =
     serviceRepository.fetchServices(services)
 
-  /*override def serveService(jsonServeRequest: JsonServeRequest): Future[JsObject] =
-    serviceRepository.get(jsonServeRequest.targetId)
-      .flatMap(s => {
-        val service = s.getOrElse(throw new IllegalArgumentException(s"Can't find service with id=${jsonServeRequest.targetId}"))
-        val model = service.model.getOrElse(throw new IllegalArgumentException(s"Can't find ModelContract for service $service"))
-        val validator = new PredictRequestContractValidator(model.modelContract)
-        validator.convert(JsonPredictRequest(
-          modelName = model.modelName,
-          version = Some(model.modelVersion),
-          signatureName = jsonServeRequest.signatureName,
-          inputs = jsonServeRequest.inputs
-        )).right.map{ grpcRequest=>{
-          grpcClient
-            .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, service.serviceName)
-            .predict(grpcRequest)
-        }}
-
-        Future.failed(new UnsupportedOperationException)
-      })
-*/
-  /*
-  JsonPredictRequest.fromServeRequest(req).map{ jsonRequest =>
-      val validator = new PredictRequestContractValidator(??? /*ModelContract*/)
-      validator.convert(jsonRequest).right.map{ grpcRequest =>
-        // send to service grpcRequest
-      }
+  private def fetchModel(modelId: Option[Long]): HFResult[Option[ModelVersion]] = {
+    logger.debug(modelId)
+    modelId match {
+      case Some(x) => versionManagementService.get(x).map(_.right.map(Some.apply))
+      case None => Result.okF(None)
     }
-  */
+  }
+
+  private def extractEnvironment(envId: Option[Long]): HFResult[Option[Environment]] = {
+    envId match {
+      case Some(id) =>
+        environmentManagementService.get(id).map { res =>
+          res.right.map(Some.apply)
+        }
+      case None => Result.okF(None)
+    }
+  }
 }

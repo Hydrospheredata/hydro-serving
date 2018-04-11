@@ -15,8 +15,11 @@ class ManagerGrpcApi(
 
   override def predict(request: PredictRequest): Future[PredictResponse] = {
     request.modelSpec match {
-      case Some(modelSpec) =>
-        managerServices.applicationManagementService.serveGrpcApplication(request)
+      case Some(_) =>
+        managerServices.applicationManagementService.serveGrpcApplication(request).flatMap {
+          case Left(err) => Future.failed(new RuntimeException(err.toString))
+          case Right(value) => Future.successful(value)
+        }
 
       case None => Future.failed(new IllegalArgumentException("ModelSpec is not defined"))
     }

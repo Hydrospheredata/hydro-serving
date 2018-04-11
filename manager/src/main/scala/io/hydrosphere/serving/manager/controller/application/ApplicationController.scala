@@ -4,7 +4,7 @@ import javax.ws.rs.Path
 
 import akka.http.scaladsl.server.Directives._
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.controller.ServingDataDirectives
+import io.hydrosphere.serving.manager.controller.{GenericController, ServingDataDirectives}
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import io.hydrosphere.serving.manager.model.db.Application
 import io.hydrosphere.serving.manager.service._
@@ -18,7 +18,7 @@ import scala.concurrent.duration._
 @Api(produces = "application/json", tags = Array("Application"))
 class ApplicationController(
   applicationManagementService: ApplicationManagementService
-) extends ServingDataDirectives{
+) extends GenericController with ServingDataDirectives {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/")
@@ -85,9 +85,7 @@ class ApplicationController(
   ))
   def deleteApplication = delete {
     path("api" / "v1" / "applications" / LongNumber) { serviceId =>
-      onSuccess(applicationManagementService.deleteApplication(serviceId)) {
-        complete(200, None)
-      }
+      completeFRes(applicationManagementService.deleteApplication(serviceId))
     }
   }
 

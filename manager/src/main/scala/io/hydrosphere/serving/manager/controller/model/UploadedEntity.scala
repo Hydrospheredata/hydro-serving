@@ -3,6 +3,10 @@ package io.hydrosphere.serving.manager.controller.model
 import java.nio.file.Path
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.manager.model.{HResult, Result}
+
+import scala.reflect.ClassTag
 
 sealed trait UploadedEntity {
   def name: String
@@ -34,12 +38,24 @@ object UploadedEntity {
   ) extends UploadedEntity
 
   object ModelUpload {
-    def fromMap(map: Map[String, UploadedEntity]): Option[ModelUpload] = {
+    def extractAs[T](map: Map[String, UploadedEntity], fieldName: String)(implicit ct: ClassTag[T]): HResult[T] = {
+      map.get(fieldName) match {
+        case Some(field) =>
+          field match {
+            case ct(x) => Right(x)
+            case x => Result.clientError(s"'$fieldName' has incompatible type. Expected: ${ct.runtimeClass}, got ${x.getClass}")
+          }
+        case None => Result.clientError(s"'$fieldName' part is missing")
+      }
+    }
+
+
+    def fromMap(map: Map[String, UploadedEntity]): HResult[ModelUpload] = {
       for {
-        modelType <- map.get("model_type")
-        modelName <- map.get("model_name")
-        contract <- map.get("model_contract")
-        tarball <- map.get("payload")
+        modelType <- extractAs[UploadType](map, "model_type").right
+        modelName <- extractAs[ModelName](map, "model_name").right
+        contract <- extractAs[Contract](map, "model_contract").right
+        tarball <- extractAs[Tarball](map, "payload").right
       } yield ModelUpload(
         name = modelName.asInstanceOf[ModelName].modelName,
         modelType = modelType.asInstanceOf[UploadType].modelType,

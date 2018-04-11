@@ -14,7 +14,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
   "Application service" should {
     "create a simple application" in {
       for {
-        version <- managerServices.modelManagementService.buildModel(1, None)
+        version <- managerServices.modelBuildManagmentService.buildModel(1, None)
         appRequest = CreateApplicationRequest(
           name = "testapp",
           executionGraph = ExecutionGraphRequest(
@@ -23,7 +23,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 services = List(
                   SimpleServiceDescription(
                     runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(version.id),
+                    modelVersionId = Some(version.right.get.id),
                     environmentId = None,
                     weight = 0,
                     signatureName = "default"
@@ -34,8 +34,10 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           ),
           kafkaStreaming = List.empty
         )
-        app <- managerServices.applicationManagementService.createApplication(appRequest)
+        appResult <- managerServices.applicationManagementService.createApplication(appRequest)
       } yield {
+        println(appResult)
+        val app = appResult.right.get
         println(app)
         val expectedGraph = ApplicationExecutionGraph(
           List(
@@ -56,14 +58,15 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           )
         )
         assert(app.name === appRequest.name)
-        assert(app.contract === version.modelContract)
+        assert(app.contract === version.right.get.modelContract)
         assert(app.executionGraph === expectedGraph)
       }
     }
 
     "create a multi-service stage" in {
       for {
-        version <- managerServices.modelManagementService.buildModel(1, None)
+        versionResult <- managerServices.modelBuildManagmentService.buildModel(1, None)
+        version = versionResult.right.get
         appRequest = CreateApplicationRequest(
           name = "MultiServiceStage",
           executionGraph = ExecutionGraphRequest(
@@ -90,8 +93,9 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           ),
           kafkaStreaming = List.empty
         )
-        app <- managerServices.applicationManagementService.createApplication(appRequest)
+        appRes <- managerServices.applicationManagementService.createApplication(appRequest)
       } yield {
+        val app = appRes.right.get
         println(app)
         val expectedGraph = ApplicationExecutionGraph(
           List(
@@ -127,7 +131,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
     "create and update an application with kafkaStreaming" in {
       for {
-        version <- managerServices.modelManagementService.buildModel(1, None)
+        version <- managerServices.modelBuildManagmentService.buildModel(1, None)
         appRequest = CreateApplicationRequest(
           name = "kafka_app",
           executionGraph = ExecutionGraphRequest(
@@ -136,7 +140,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 services = List(
                   SimpleServiceDescription(
                     runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(version.id),
+                    modelVersionId = Some(version.right.get.id),
                     environmentId = None,
                     weight = 100,
                     signatureName = "default"
@@ -154,18 +158,22 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
             )
           )
         )
-        app <- managerServices.applicationManagementService.createApplication(appRequest)
+        appRes <- managerServices.applicationManagementService.createApplication(appRequest)
+        app = appRes.right.get
         appUpdate = UpdateApplicationRequest(
           id = app.id,
           name = app.name,
           executionGraph = appRequest.executionGraph,
           kafkaStream = None
         )
-        appNew <- managerServices.applicationManagementService.updateApplication(appUpdate)
+
+        appResNew <- managerServices.applicationManagementService.updateApplication(appUpdate)
+        appNew = appResNew.right.get
+
         maybeGotNewApp <- managerServices.applicationManagementService.getApplication(appNew.id)
       } yield {
-        assert(maybeGotNewApp.isDefined, "Couldn't find updated application in repository")
-        assert(appNew === maybeGotNewApp.get)
+        assert(maybeGotNewApp.isRight, "Couldn't find updated application in repository")
+        assert(appNew === maybeGotNewApp.right.get)
         assert(appNew.kafkaStreaming.isEmpty, appNew)
       }
     }

@@ -16,8 +16,8 @@ import scala.concurrent.duration._
 @Path("/api/v1/environment")
 @Api(produces = "application/json", tags = Array("Environment"))
 class EnvironmentController(
-  serviceManagementService: ServiceManagementService
-) {
+  environmentManagementService: EnvironmentManagementService
+) extends GenericController {
   implicit val timeout = Timeout(5.seconds)
 
   @Path("/")
@@ -28,7 +28,7 @@ class EnvironmentController(
   ))
   def listEnvironment = path("api" / "v1" / "environment") {
     get {
-      complete(serviceManagementService.allEnvironments())
+      complete(environmentManagementService.all())
     }
   }
 
@@ -45,7 +45,7 @@ class EnvironmentController(
   def createEnvironment = path("api" / "v1" / "environment") {
     entity(as[CreateEnvironmentRequest]) { r =>
       complete(
-        serviceManagementService.createEnvironment(r)
+        environmentManagementService.create(r)
       )
     }
   }
@@ -61,7 +61,7 @@ class EnvironmentController(
   ))
   def deleteEnvironment = delete {
     path("api" / "v1" / "environment" / LongNumber) { environmentId =>
-      onSuccess(serviceManagementService.deleteEnvironment(environmentId)) {
+      onSuccess(environmentManagementService.delete(environmentId)) {
         complete(200, None)
       }
     }

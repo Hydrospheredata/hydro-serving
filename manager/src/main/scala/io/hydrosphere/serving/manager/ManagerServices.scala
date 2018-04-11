@@ -40,6 +40,8 @@ class ManagerServices(
 
   val sourceManagementService = new SourceManagementServiceImpl(managerConfiguration, managerRepositories.sourceRepository)
 
+  val contractUtilityService = new ContractUtilityServiceImpl
+
   val modelBuildService: ModelBuildService = new LocalModelBuildService(dockerClient, sourceManagementService)
 
   val modelPushService: ModelPushService = managerConfiguration.dockerRepository match {
@@ -52,11 +54,33 @@ class ManagerServices(
   val modelManagementService: ModelManagementService = new ModelManagementServiceImpl(
     managerRepositories.modelRepository,
     managerRepositories.modelVersionRepository,
+    sourceManagementService,
+    contractUtilityService
+  )
+
+  val buildScriptManagementService: BuildScriptManagementService = new BuildScriptManagementServiceImpl(
+    managerRepositories.modelBuildScriptRepository
+  )
+
+  val modelVersionManagementService: ModelVersionManagementService = new ModelVersionManagementServiceImpl(
+    managerRepositories.modelVersionRepository,
+    modelManagementService,
+    contractUtilityService
+  )
+
+  val modelBuildManagmentService: ModelBuildManagmentService = new ModelBuildManagmentServiceImpl(
     managerRepositories.modelBuildRepository,
-    managerRepositories.modelBuildScriptRepository,
-    modelBuildService,
+    buildScriptManagementService,
+    modelVersionManagementService,
+    modelManagementService,
     modelPushService,
-    sourceManagementService
+    modelBuildService
+  )
+
+  val aggregatedInfoUtilityService: AggregatedInfoUtilityService = new AggregatedInfoUtilityServiceImpl(
+    modelManagementService,
+    modelBuildManagmentService,
+    modelVersionManagementService
   )
 
   val cloudDriverService: CloudDriverService = managerConfiguration.cloudDriver match {
@@ -66,21 +90,23 @@ class ManagerServices(
 
   val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(managerRepositories.runtimeRepository)
 
+  val environmentManagementService: EnvironmentManagementService = new EnvironmentManagementServiceImpl(managerRepositories.environmentRepository)
+
   val serviceManagementService: ServiceManagementService = new ServiceManagementServiceImpl(
     cloudDriverService,
     managerRepositories.serviceRepository,
-    managerRepositories.runtimeRepository,
-    managerRepositories.modelVersionRepository,
-    managerRepositories.environmentRepository,
+    runtimeManagementService,
+    modelVersionManagementService,
+    environmentManagementService,
     internalManagerEventsPublisher
   )
 
   val applicationManagementService: ApplicationManagementService = new ApplicationManagementServiceImpl(
     applicationRepository = managerRepositories.applicationRepository,
+    modelVersionManagementService = modelVersionManagementService,
     serviceManagementService = serviceManagementService,
     grpcClient = servingMeshGrpcClient,
     internalManagerEventsPublisher = internalManagerEventsPublisher,
-    modelVersionRepository = managerRepositories.modelVersionRepository,
     applicationConfig = managerConfiguration.application,
     runtimeRepository = managerRepositories.runtimeRepository
   )

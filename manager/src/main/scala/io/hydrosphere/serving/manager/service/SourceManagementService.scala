@@ -2,8 +2,12 @@ package io.hydrosphere.serving.manager.service
 
 import java.nio.file.Path
 
+import cats.data.EitherT
+import cats.implicits._
+import io.hydrosphere.serving.manager.model.Result.Implicits._
 import io.hydrosphere.serving.manager.ManagerConfiguration
 import io.hydrosphere.serving.manager.controller.model_source.{AddLocalSourceRequest, AddS3SourceRequest}
+import io.hydrosphere.serving.manager.model.Result.ClientError
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.ModelMetadata
 import io.hydrosphere.serving.manager.model.db.ModelSourceConfig
@@ -14,44 +18,77 @@ import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
-import scala.util.{Failure, Success, Try}
 
 case class SourcePath(sourceName: String, path: String)
 
 object SourcePath {
-  def parse(source: String): Option[SourcePath] = {
+  def parse(source: String): HResult[SourcePath] = {
     val args = source.split(':')
     if (args.length == 2) {
       for {
-        sourceName <- args.headOption
-        path <- args.lastOption
+        sourceName <- args.headOption.toHResult(ClientError("Source name is not defined")).right
+        path <- args.lastOption.toHResult(ClientError("Source path is not defined")).right
       } yield SourcePath(sourceName, path)
     } else {
-      None
+      Result.clientError("Incorrect source path")
     }
-  }
-
-  def parseOrEx(source: String): SourcePath = {
-    parse(source).getOrElse(throw new IllegalArgumentException(s"Invalid source: $source"))
   }
 }
 
 trait SourceManagementService {
-  def index(source: String): Future[Try[Option[ModelMetadata]]]
+  /***
+    * Try to add a S3 source
+    * @param r config that defines a S3 source
+    * @return config representation from db
+    */
+  def addS3Source(r: AddS3SourceRequest): HFResult[ModelSourceConfig]
 
-  def addS3Source(r: AddS3SourceRequest): Future[Option[ModelSourceConfig]]
+  /***
+    * Try to add a local source
+    * @param r config that defines a local source
+    * @return config representation from db
+    */
+  def addLocalSource(r: AddLocalSourceRequest): HFResult[ModelSourceConfig]
 
-  def addLocalSource(r: AddLocalSourceRequest): Future[Option[ModelSourceConfig]]
+  /***
+    * Try to fetch a model metadata from specified source path
+    * @param source string which describes a path inside a source
+    * @return If path doesn't exist - None. Some metadata otherwise
+    */
+  def index(source: String): HFResult[Option[ModelMetadata]]
 
-  def addSource(modelSourceConfigAux: ModelSourceConfig): Future[Option[ModelSourceConfig]]
+  /***
+    * Try to add a source
+    * @param modelSourceConfigAux config that defines a source
+    * @return config representation from db
+    */
+  def addSource(modelSourceConfigAux: ModelSourceConfig): HFResult[ModelSourceConfig]
 
+  /***
+    * List all the sources (db ++ config)
+    * @return List of all sources
+    */
   def getSources: Future[List[ModelSource]]
 
-  def getLocalPath(url: String): Future[Path]
+  /***
+    * Get readable path from url
+    * @param url in-source url that defines some resource
+    * @return readable path object
+    */
+  def getLocalPath(url: String): HFResult[Path]
 
+  /***
+    * List all the source configs (db ++ config)
+    * @return List of all sources configs
+    */
   def allSourceConfigs: Future[Seq[ModelSourceConfig]]
 
-  def getSource(name: String): Future[Option[ModelSource]]
+  /***
+    * Try to get source by name
+    * @param name name of a source
+    * @return source
+    */
+  def getSource(name: String): HFResult[ModelSource]
 }
 
 class SourceManagementServiceImpl(
@@ -59,16 +96,26 @@ class SourceManagementServiceImpl(
   sourceRepository: SourceConfigRepository)
   (implicit ex: ExecutionContext) extends SourceManagementService with Logging {
 
-  def addSource(modelSourceConfigAux: ModelSourceConfig): Future[Option[ModelSourceConfig]] = {
+  def addSource(modelSourceConfigAux: ModelSourceConfig): HFResult[ModelSourceConfig] = {
     getSourceConfig(modelSourceConfigAux.name).flatMap {
-      case Some(_) => Future.successful(None)
-      case None =>
-        sourceRepository.create(modelSourceConfigAux).map(Some.apply)
+      case Right(_) => Result.clientErrorF(s"ModelSource with name ${modelSourceConfigAux.name} already exists")
+      case Left(ClientError(_)) => // consider more specific NotFound error?
+        val modelSource = ModelSource.fromConfig(modelSourceConfigAux)
+        for {
+          config <- sourceRepository.create(modelSourceConfigAux)
+        } yield {
+          Right(config)
+        }
+      case Left(x) => Result.errorF(x)
     }
   }
 
-  def getSourceConfig(name: String): Future[Option[ModelSourceConfig]] = {
-    allSourceConfigs.map { sources => sources.find(_.name == name) }
+  def getSourceConfig(name: String): HFResult[ModelSourceConfig] = {
+    allSourceConfigs.map { sources =>
+      sources.find(_.name == name)
+        .map(Right.apply)
+        .getOrElse(Result.clientError(s"Can't find a '$name' source"))
+    }
   }
 
   override def getSources: Future[List[ModelSource]] = {
@@ -77,16 +124,19 @@ class SourceManagementServiceImpl(
     }
   }
 
-  override def getLocalPath(url: String): Future[Path] = {
-    val sourcePath = SourcePath.parseOrEx(url)
+  override def getLocalPath(url: String): HFResult[Path] = {
+    val args = url.split(':')
+    val source = args.head
+    val path = args.last
     getSources.map {
-      _.find(_.sourceDef.name == sourcePath.sourceName)
-        .map(_.getAbsolutePath(sourcePath.path))
-        .getOrElse(throw new IllegalArgumentException(s"ModelSource for $url with prefix ${sourcePath.sourceName} is not found"))
+      _.find(_.sourceDef.name == source)
+        .map(_.getAbsolutePath(path))
+        .map(Right.apply)
+        .getOrElse(Result.clientError(s"ModelSource for $url with prefix $source is not found"))
     }
   }
 
-  override def addLocalSource(r: AddLocalSourceRequest): Future[Option[ModelSourceConfig]] = {
+  override def addLocalSource(r: AddLocalSourceRequest): HFResult[ModelSourceConfig] = {
     val config = ModelSourceConfig(
       id = -1,
       name = r.name,
@@ -95,7 +145,7 @@ class SourceManagementServiceImpl(
     addSource(config)
   }
 
-  override def addS3Source(r: AddS3SourceRequest): Future[Option[ModelSourceConfig]] = {
+  override def addS3Source(r: AddS3SourceRequest): HFResult[ModelSourceConfig] = {
     val config = ModelSourceConfig(
       id = -1,
       name = r.name,
@@ -115,23 +165,27 @@ class SourceManagementServiceImpl(
     }
   }
 
-  override def getSource(name: String): Future[Option[ModelSource]] = {
-    allSourceConfigs.map { configs =>
-      configs.find(_.name == name).map(ModelSource.fromConfig)
+  override def getSource(name: String): HFResult[ModelSource] = {
+    getSourceConfig(name).map { res =>
+      res.right.map { config =>
+        ModelSource.fromConfig(config)
+      }
     }
   }
 
-  override def index(modelSource: String): Future[Try[Option[ModelMetadata]]] = {
-    val sourcePath = SourcePath.parseOrEx(modelSource)
-    getSource(sourcePath.sourceName).map {
-      case Some(source) =>
-        if (source.isExist(sourcePath.path)) {
-          Success(Some(ModelFetcher.fetch(source, sourcePath.path)))
-        } else {
-          Success(None)
-        }
-      case None =>
-        Failure(new IllegalArgumentException(s"Cant find ModelSource for $modelSource"))
+  override def index(modelSource: String): HFResult[Option[ModelMetadata]] = {
+    val f = for {
+      sourcePath <- EitherT(Future.successful(SourcePath.parse(modelSource)))
+      source <- EitherT(getSource(sourcePath.sourceName))
+    } yield {
+      println(sourcePath)
+      if (source.isExist(sourcePath.path)) {
+        Some(ModelFetcher.fetch(source, sourcePath.path))
+      } else {
+        None
+      }
     }
+    f.value
   }
+
 }

@@ -25,7 +25,8 @@ object Common {
       "-language:existentials",
       "-language:higherKinds",
       "-language:implicitConversions",
-      "-language:postfixOps"
+      "-language:postfixOps",
+      "-Ypartial-unification"
     ),
     resolvers += Resolver.bintrayRepo("findify", "maven")
   ) ++ testSettings

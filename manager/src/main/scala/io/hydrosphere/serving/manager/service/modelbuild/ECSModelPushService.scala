@@ -8,9 +8,6 @@ import com.spotify.docker.client.DockerClient
 import io.hydrosphere.serving.manager.ECSDockerRepositoryConfiguration
 import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
 
-/**
-  *
-  */
 class ECSModelPushService(
   dockerClient: DockerClient,
   ecsDockerRepositoryConfiguration: ECSDockerRepositoryConfiguration
