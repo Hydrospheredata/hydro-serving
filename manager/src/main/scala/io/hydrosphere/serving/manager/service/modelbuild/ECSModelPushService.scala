@@ -9,9 +9,6 @@ import io.hydrosphere.serving.manager.ECSDockerRepositoryConfiguration
 import io.hydrosphere.serving.manager.model.ModelBuild
 import io.hydrosphere.serving.manager.model.ModelVersion
 
-/**
-  *
-  */
 class ECSModelPushService(
   dockerClient: DockerClient,
   ecsDockerRepositoryConfiguration: ECSDockerRepositoryConfiguration

@@ -35,9 +35,9 @@ object Result {
 
   def clientError[T](message: String): HResult[T] = error(ClientError(message))
 
-  def internalError[T <: Throwable](ex: T): HResult[T] = error(InternalError(ex, None))
+  def internalError[T, E <: Throwable](ex: E): HResult[T] = error(InternalError(ex, None))
 
-  def internalError[T <: Throwable](ex: T, reason: String): HResult[T] = error(InternalError(ex, Some(reason)))
+  def internalError[T, E <: Throwable](ex: E, reason: String): HResult[T] = error(InternalError(ex, Some(reason)))
 
   def errorF[T](err: HError): HFResult[T] = Future.successful(error(err))
 
@@ -45,9 +45,9 @@ object Result {
 
   def clientErrorF[T](message: String): HFResult[T] = errorF(ClientError(message))
 
-  def internalErrorF[T <: Throwable](ex: T): HFResult[T] = errorF(InternalError(ex, None))
+  def internalErrorF[T, E <: Throwable](ex: E): HFResult[T] = errorF(InternalError(ex, None))
 
-  def internalErrorF[T <: Throwable](ex: T, reason: String): HFResult[T] = errorF(InternalError(ex, Some(reason)))
+  def internalErrorF[T, E <: Throwable](ex: E, reason: String): HFResult[T] = errorF(InternalError(ex, Some(reason)))
 
   def sequence[T](reSeq: Seq[HResult[T]]): HResult[Seq[T]] = {
     val errors = reSeq.filter(_.isLeft).map(_.left.get)
