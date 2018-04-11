@@ -152,12 +152,14 @@ class ServiceManagementServiceImpl(
     r: CreateServiceRequest,
     runtime: Runtime,
     modelVersion: Option[ModelVersion],
-    svEnv: Environment
+    svEnv: Option[Environment]
   ): Future[Service] = {
-    val env = if (svEnv.id == AnyEnvironment.id) {
-      None
-    } else {
-      Some(svEnv)
+    val env = svEnv.flatMap { app =>
+      if (app.id == AnyEnvironment.id) {
+        None
+      } else {
+        Some(app)
+      }
     }
     val dService = r.toService(runtime, modelVersion, env)
     serviceRepository.create(dService).flatMap { newService =>
@@ -177,7 +179,7 @@ class ServiceManagementServiceImpl(
     logger.debug(r.toString)
     //TODO ADD validation for names manager,gateway + length + without space and special symbols
     val f = for {
-      svEnv <- EitherT(environmentManagementService.get(r.environmentId))
+      svEnv <- EitherT(extractEnvironment(r.environmentId))
       modelVersion <- EitherT(fetchModel(r.modelVersionId))
       runtime <- EitherT(runtimeManagementService.get(r.runtimeId))
       asd <- EitherT(createAndDeploy(r, runtime, modelVersion, svEnv).map(Result.ok))
@@ -243,6 +245,16 @@ class ServiceManagementServiceImpl(
     logger.debug(modelId)
     modelId match {
       case Some(x) => versionManagementService.get(x).map(_.right.map(Some.apply))
+      case None => Result.okF(None)
+    }
+  }
+
+  private def extractEnvironment(envId: Option[Long]): HFResult[Option[Environment]] = {
+    envId match {
+      case Some(id) =>
+        environmentManagementService.get(id).map { res =>
+          res.right.map(Some.apply)
+        }
       case None => Result.okF(None)
     }
   }

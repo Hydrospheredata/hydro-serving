@@ -15,7 +15,7 @@ trait EnvironmentManagementService {
 
   def delete(environmentId: Long): Future[Unit]
 
-  def get(environmentId: Option[Long]): HFResult[Environment]
+  def get(environmentId: Long): HFResult[Environment]
 }
 
 class EnvironmentManagementServiceImpl(
@@ -23,16 +23,12 @@ class EnvironmentManagementServiceImpl(
 )(
   implicit ec: ExecutionContext
 ) extends EnvironmentManagementService with Logging {
-  override def get(environmentId: Option[Long]): HFResult[Environment] = {
-    logger.debug(environmentId)
+  override def get(environmentId: Long): HFResult[Environment] = {
     environmentId match {
-      case Some(x) => x match {
-        case AnyEnvironment.`id` =>
-          Result.okF(AnyEnvironment)
-        case _ =>
-          environmentRepository.get(x).map(_.toHResult(ClientError(s"Can't find environment with id $environmentId")))
-      }
-      case None => Result.clientErrorF(s"Environment isn't defined")
+      case AnyEnvironment.`id` =>
+        Result.okF(AnyEnvironment)
+      case _ =>
+        environmentRepository.get(environmentId).map(_.toHResult(ClientError(s"Can't find environment with id $environmentId")))
     }
   }
 

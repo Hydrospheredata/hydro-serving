@@ -36,6 +36,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         )
         appResult <- managerServices.applicationManagementService.createApplication(appRequest)
       } yield {
+        println(appResult)
         val app = appResult.right.get
         println(app)
         val expectedGraph = ApplicationExecutionGraph(
