@@ -155,7 +155,7 @@ class ModelManagementServiceImpl(
       val contract = contractDescription.toContract // TODO Error handling
       updateModelContract(modelId, contract)
     } catch {
-      case ex: IllegalArgumentException => Result.clientErrorF("Incorrect contract description")
+      case _: IllegalArgumentException => Result.clientErrorF("Incorrect contract description")
     }
   }
 
@@ -171,7 +171,7 @@ class ModelManagementServiceImpl(
       case Left(err) => Result.errorF(err)
       case Right(model) =>
         val newModel = model.copy(modelContract = modelContract)
-        modelRepository.update(newModel).map { _ => Right(newModel) }
+        modelRepository.update(newModel).map { _ => Result.ok(newModel) }
     }
   }
 
@@ -180,7 +180,7 @@ class ModelManagementServiceImpl(
 
   override def getModel(id: Long): HFResult[Model] =
     modelRepository.get(id).map {
-      case Some(model) => Right(model)
+      case Some(model) => Result.ok(model)
       case None => Result.clientError(s"Can't find a model with id: $id")
     }
 
