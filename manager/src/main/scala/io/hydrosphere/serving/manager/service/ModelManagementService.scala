@@ -11,13 +11,10 @@ import io.hydrosphere.serving.manager.model.Result.ClientError
 import io.hydrosphere.serving.manager.model.Result.Implicits._
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.{ModelMetadata, ModelType}
+import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.repository._
-import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
-import io.hydrosphere.serving.manager.service.modelsource.ModelSource
-import io.hydrosphere.serving.contract.utils.ops.ModelContractOps._
-import io.hydrosphere.serving.manager.model.api.json.TensorJsonLens
-import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
+import io.hydrosphere.serving.manager.service.modelsource.ModelSource
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.apache.logging.log4j.scala.Logging
 import spray.json.JsObject
@@ -66,32 +63,100 @@ case class CreateOrUpdateModelRequest(
 }
 
 trait ModelManagementService {
+  /***
+    * Update information about models. Only works with models that been added to manager.
+    * Can delete them, if they no longer exists in source.
+    * @param ids ids of model to be indexed
+    * @return sequence of index results
+    */
   def indexModels(ids: Set[Long]): Future[Seq[IndexStatus]]
 
-  def versionContractDescription(versionId: Long): Future[Option[ContractDescription]]
-
+  /***
+    * Uploads the tarball to source and creates a model entry in manager.
+    * @param upload tarball with metadata
+    * @return uploaded model
+    */
   def uploadModelTarball(upload: UploadedEntity.ModelUpload): HFResult[Model]
 
+  /***
+    * Get flat contract description
+    * @param modelId model id
+    * @return contract description
+    */
   def modelContractDescription(modelId: Long): HFResult[ContractDescription]
 
+  /***
+    * Submit contract in binary encoding
+    * @param modelId model id
+    * @param bytes contract
+    * @return updated model
+    */
   def submitBinaryContract(modelId: Long, bytes: Array[Byte]): HFResult[Model]
 
+  /***
+    * Submit contract in flat encoding
+    * @param modelId model id
+    * @param contractDescription contract
+    * @return updated model
+    */
   def submitFlatContract(modelId: Long, contractDescription: ContractDescription): HFResult[Model]
 
+  /***
+    * Submit contract in ASCII encoding
+    * @param modelId model id
+    * @param prototext contract
+    * @return updated model
+    */
   def submitContract(modelId: Long, prototext: String): HFResult[Model]
 
+  /***
+    * Get all models
+    * @return
+    */
   def allModels(): Future[Seq[Model]]
 
+  /***
+    * Try to get model by id
+    * @param id
+    * @return
+    */
   def getModel(id: Long): HFResult[Model]
 
+  /***
+    * Try to update a model by request
+    * @param entity
+    * @return
+    */
   def updateModel(entity: CreateOrUpdateModelRequest): HFResult[Model]
 
+  /***
+    * Try to create a model by request
+    * @param entity
+    * @return
+    */
   def createModel(entity: CreateOrUpdateModelRequest): HFResult[Model]
 
-  def addModel(sourceName: String, modelPath: String): Future[Option[Model]]
+  /***
+    * Add a model from specified source
+    * @param sourceName
+    * @param modelPath
+    * @return
+    */
+  def addModel(sourceName: String, modelPath: String): HFResult[Model]
 
+  /***
+    * Try to generate an example input for a model
+    * @param modelId
+    * @param signature
+    * @return
+    */
   def generateModelPayload(modelId: Long, signature: String): HFResult[JsObject]
 
+  /***
+    * Get all models with specified ModelType
+    * @param types
+    * @return
+    */
   def modelsByType(types: Set[String]): Future[Seq[Model]]
 }
 
@@ -256,38 +321,26 @@ class ModelManagementServiceImpl(
   }
 
   override def indexModels(ids: Set[Long]): Future[Seq[IndexStatus]] = {
-    modelRepository.getMany(ids).flatMap { models =>
-      Future.traverse(models) { model =>
-        sourceManagementService.index(model.source).flatMap {
-          case Success(maybeMetadata) =>
-            maybeMetadata match {
-              case Some(metadata) =>
-                val newModel = applyModelMetadata(metadata, model)
-                modelRepository.update(newModel).map(_ => ModelUpdated(newModel))
-
-              case None =>
-                // NB delete model if no files?
-                modelRepository.delete(model.id).map(_ => ModelDeleted(model))
-            }
-          case Failure(err) =>
-            Future.successful(IndexError(model, err))
-        }
-      }
+    for {
+      models <- modelRepository.getMany(ids)
+      metadata <- sourceIndex(models)
+    } yield {
+      metadata
     }
   }
 
-  override def addModel(sourceName: String, modelPath: String): Future[Option[Model]] = {
+  override def addModel(sourceName: String, modelPath: String): HFResult[Model] = {
     sourceManagementService.getSource(sourceName).flatMap {
-      case Some(source) =>
+      case Right(source) =>
         if (source.isExist(modelPath)) {
           val metadata = ModelFetcher.fetch(source, modelPath)
           val createReq = metadataToCreate(metadata, s"$sourceName:$modelPath")
           createModel(createReq)
         } else {
-          Future.successful(None)
+          Result.clientErrorF(s"Path $modelPath doesn't exist in $sourceName source")
         }
-      case None =>
-        Future.successful(None)
+      case Left(err) =>
+        Result.errorF(err)
     }
   }
 
@@ -302,12 +355,28 @@ class ModelManagementServiceImpl(
     )
   }
 
-  private def applyModelMetadata(modelMetadata: ModelMetadata, model:Model, updated: LocalDateTime = LocalDateTime.now()): Model = {
+  private def applyModelMetadata(modelMetadata: ModelMetadata, model: Model, updated: LocalDateTime = LocalDateTime.now()): Model = {
     model.copy(
       name = modelMetadata.modelName,
       modelType = modelMetadata.modelType,
       modelContract = modelMetadata.contract,
       updated = updated
     )
+  }
+
+  private def sourceIndex(models: Seq[Model]): Future[Seq[IndexStatus]] = {
+    Future.traverse(models) { model =>
+      sourceManagementService.index(model.source).flatMap {
+        case Left(err) => Future.successful(IndexError(model, new IllegalArgumentException(err.toString)))
+        case Right(optMetadata) =>
+          optMetadata match {
+            case Some(metadata) =>
+              val newModel = applyModelMetadata(metadata, model)
+              modelRepository.update(newModel).map(_ => ModelUpdated(newModel))
+            case None =>
+              modelRepository.delete(model.id).map(_ => ModelDeleted(model))
+          }
+      }
+    }
   }
 }

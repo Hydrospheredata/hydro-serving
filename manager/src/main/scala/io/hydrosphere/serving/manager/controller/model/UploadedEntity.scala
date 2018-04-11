@@ -3,6 +3,7 @@ package io.hydrosphere.serving.manager.controller.model
 import java.nio.file.Path
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.{HResult, Result}
 
 import scala.reflect.ClassTag
@@ -51,7 +52,7 @@ object UploadedEntity {
 
     def fromMap(map: Map[String, UploadedEntity]): HResult[ModelUpload] = {
       for {
-        modelType <- extractAs[ModelType](map, "model_type").right
+        modelType <- extractAs[UploadType](map, "model_type").right
         modelName <- extractAs[ModelName](map, "model_name").right
         contract <- extractAs[Contract](map, "model_contract").right
         tarball <- extractAs[Tarball](map, "payload").right

@@ -14,10 +14,9 @@ import io.hydrosphere.serving.manager.controller.application.ApplicationControll
 import io.hydrosphere.serving.manager.controller.model.ModelController
 import io.hydrosphere.serving.manager.controller.model_source.ModelSourceController
 import io.hydrosphere.serving.manager.controller.prometheus.PrometheusMetricsController
+import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import org.apache.logging.log4j.scala.Logging
-
 import spray.json._
-import io.hydrosphere.serving.manager.model.CommonJsonSupport._
 
 import scala.collection.immutable.Seq
 import scala.concurrent.ExecutionContext

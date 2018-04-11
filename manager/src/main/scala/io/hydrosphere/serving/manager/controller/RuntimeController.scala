@@ -7,7 +7,6 @@ import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.service._
 import io.swagger.annotations._
-import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import io.hydrosphere.serving.manager.model.db.Runtime
 
 import scala.concurrent.duration._
@@ -27,7 +26,7 @@ class RuntimeController(
   ))
   def listRuntime = path("api" / "v1" / "runtime") {
     get {
-      complete(runtimeManagementService.all())
+      completeF(runtimeManagementService.all())
     }
   }
 
@@ -43,7 +42,7 @@ class RuntimeController(
   ))
   def createRuntime = path("api" / "v1" / "runtime") {
     entity(as[CreateRuntimeRequest]) { r =>
-      complete(
+      completeF(
         runtimeManagementService.create(r)
       )
     }
@@ -60,7 +59,7 @@ class RuntimeController(
   ))
   def lookupRuntimeByTag = path("api" / "v1" / "runtime" / "modelType" / Segment) { tag =>
     get {
-      complete {
+      completeF {
         runtimeManagementService.lookupByModelType(Set(tag))
       }
     }

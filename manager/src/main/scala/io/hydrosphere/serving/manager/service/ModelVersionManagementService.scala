@@ -4,11 +4,12 @@ import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
-import io.hydrosphere.serving.manager.model.{HFResult, Model, ModelVersion, Result}
+import io.hydrosphere.serving.manager.model.{HFResult, Result}
 import io.hydrosphere.serving.manager.repository.ModelVersionRepository
 import spray.json.JsObject
 import io.hydrosphere.serving.contract.utils.ops.ModelContractOps._
 import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.manager.model.db.{Model, ModelVersion}
 
 import scala.concurrent.{ExecutionContext, Future}
 

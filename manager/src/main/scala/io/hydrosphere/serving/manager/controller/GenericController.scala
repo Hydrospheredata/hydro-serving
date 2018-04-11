@@ -4,15 +4,17 @@ import akka.http.scaladsl.marshalling.ToResponseMarshaller
 import akka.http.scaladsl.model.{ContentTypes, HttpEntity, HttpResponse, StatusCodes}
 import akka.http.scaladsl.server.Directives.{complete, onComplete}
 import akka.http.scaladsl.server.Route
-import io.hydrosphere.serving.manager.model.{CommonJsonSupport, HFResult, HResult}
-import io.hydrosphere.serving.manager.model.Result.{ClientError, HError, InternalError}
+import io.hydrosphere.serving.manager.model.{HFResult, HResult}
+import io.hydrosphere.serving.manager.model.Result.{HError, InternalError}
+import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol
+import org.apache.logging.log4j.scala.Logging
 import spray.json._
 
 import scala.concurrent.Future
 import scala.util.{Failure, Success}
 
 
-trait GenericController extends CommonJsonSupport {
+trait GenericController extends CompleteJsonProtocol with Logging {
   final def withF[T: ToResponseMarshaller](res: Future[T])(f: T => Route): Route = {
     onComplete(res){
       case Success(result) =>

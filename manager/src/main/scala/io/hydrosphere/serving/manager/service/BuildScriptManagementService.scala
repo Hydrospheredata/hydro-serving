@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.service
 
-import io.hydrosphere.serving.manager.model.Model
+import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.repository.ModelBuildScriptRepository
 
 import scala.concurrent.{ExecutionContext, Future}

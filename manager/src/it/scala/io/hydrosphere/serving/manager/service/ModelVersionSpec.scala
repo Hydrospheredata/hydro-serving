@@ -38,15 +38,15 @@ class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
 
       "model changed after last version" in {
         managerServices.modelManagementService.indexModels(Set(dummy_1.id)).flatMap { _ =>
-          managerServices.modelManagementService.getModelAggregatedInfo(dummy_2.id).map { maybeModel =>
-            assert(maybeModel.isDefined)
-            val model = maybeModel.get
+          managerServices.aggregatedInfoUtilityService.getModelAggregatedInfo(dummy_2.id).map { maybeModel =>
+            assert(maybeModel.isRight)
+            val model = maybeModel.right.get
             println(model)
             assert(model.nextVersion.isEmpty, model.nextVersion)
           }
-          managerServices.modelManagementService.getModelAggregatedInfo(dummy_1.id).map { maybeModel =>
-            assert(maybeModel.isDefined)
-            val model = maybeModel.get
+          managerServices.aggregatedInfoUtilityService.getModelAggregatedInfo(dummy_1.id).map { maybeModel =>
+            assert(maybeModel.isRight)
+            val model = maybeModel.right.get
             assert(model.nextVersion.isDefined)
             assert(model.nextVersion.get === 2)
             assert(model.lastModelVersion.get.modelVersion === 1)
@@ -73,9 +73,9 @@ class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
     val sourceConf = ModelSourceConfig(1, "itsource", LocalSourceParams(Some(getClass.getResource("/models").getPath)))
     val f = managerServices.sourceManagementService.addSource(sourceConf).flatMap { _ =>
       managerServices.modelManagementService.addModel("itsource", "dummy_model").flatMap { d1 =>
-        dummy_1 = d1.get
+        dummy_1 = d1.right.get
         managerServices.modelManagementService.addModel("itsource", "dummy_model_2").map { d2 =>
-          dummy_2 = d2.get
+          dummy_2 = d2.right.get
           d2
         }
       }
