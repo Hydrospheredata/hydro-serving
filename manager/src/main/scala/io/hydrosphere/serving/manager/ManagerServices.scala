@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager
 
-import akka.actor.{ActorRef, ActorSystem}
+import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.spotify.docker.client._
@@ -9,7 +9,6 @@ import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, KafkaTopicServ
 import io.hydrosphere.serving.manager.connector.HttpEnvoyAdminConnector
 import io.hydrosphere.serving.manager.service.clouddriver._
 import io.hydrosphere.serving.manager.service._
-import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
 import io.hydrosphere.serving.manager.service.envoy.{EnvoyGRPCDiscoveryService, EnvoyGRPCDiscoveryServiceImpl}
 import io.hydrosphere.serving.manager.service.modelbuild._
 import io.hydrosphere.serving.manager.service.prometheus.PrometheusMetricsServiceImpl
@@ -18,9 +17,6 @@ import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.ExecutionContext
 
-/**
-  *
-  */
 class ManagerServices(
   val managerRepositories: ManagerRepositories,
   val managerConfiguration: ManagerConfiguration,
@@ -44,10 +40,6 @@ class ManagerServices(
 
   val sourceManagementService = new SourceManagementServiceImpl(managerConfiguration, managerRepositories.sourceRepository)
 
-  sourceManagementService.createWatchers
-
-  val repoActor: ActorRef = system.actorOf(RepositoryIndexActor.props(managerRepositories.modelRepository))
-
   val contractUtilityService = new ContractUtilityServiceImpl
 
   val modelBuildService: ModelBuildService = new LocalModelBuildService(dockerClient, sourceManagementService)
@@ -63,8 +55,7 @@ class ManagerServices(
     managerRepositories.modelRepository,
     managerRepositories.modelVersionRepository,
     sourceManagementService,
-    contractUtilityService,
-    repoActor
+    contractUtilityService
   )
 
   val buildScriptManagementService: BuildScriptManagementService = new BuildScriptManagementServiceImpl(

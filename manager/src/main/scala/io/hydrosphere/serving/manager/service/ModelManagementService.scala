@@ -3,7 +3,6 @@ package io.hydrosphere.serving.manager.service
 import java.nio.file.{Files, Path, Paths}
 import java.time.LocalDateTime
 
-import akka.actor.ActorRef
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.contract.utils.ops.ModelContractOps._
@@ -11,16 +10,28 @@ import io.hydrosphere.serving.manager.controller.model.UploadedEntity
 import io.hydrosphere.serving.manager.model.Result.ClientError
 import io.hydrosphere.serving.manager.model.Result.Implicits._
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.manager.model.api.{ModelMetadata, ModelType}
 import io.hydrosphere.serving.manager.repository._
-import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor.IgnoreModel
+import io.hydrosphere.serving.manager.service.modelbuild.{ModelBuildService, ModelPushService, ProgressHandler, ProgressMessage}
 import io.hydrosphere.serving.manager.service.modelsource.ModelSource
+import io.hydrosphere.serving.contract.utils.ops.ModelContractOps._
+import io.hydrosphere.serving.manager.model.api.json.TensorJsonLens
+import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
+import io.hydrosphere.serving.manager.service.modelfetcher.ModelFetcher
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.apache.logging.log4j.scala.Logging
 import spray.json.JsObject
 
 import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Failure, Success}
+
+sealed trait IndexStatus extends Product {
+  def model: Model
+}
+
+case class ModelUpdated(model: Model) extends IndexStatus
+case class ModelDeleted(model: Model) extends IndexStatus
+case class IndexError(model: Model, error: Throwable) extends IndexStatus
 
 case class CreateOrUpdateModelRequest(
   id: Option[Long],
@@ -55,6 +66,10 @@ case class CreateOrUpdateModelRequest(
 }
 
 trait ModelManagementService {
+  def indexModels(ids: Set[Long]): Future[Seq[IndexStatus]]
+
+  def versionContractDescription(versionId: Long): Future[Option[ContractDescription]]
+
   def uploadModelTarball(upload: UploadedEntity.ModelUpload): HFResult[Model]
 
   def modelContractDescription(modelId: Long): HFResult[ContractDescription]
@@ -73,7 +88,7 @@ trait ModelManagementService {
 
   def createModel(entity: CreateOrUpdateModelRequest): HFResult[Model]
 
-  def updatedInModelSource(entity: Model): Future[Unit]
+  def addModel(sourceName: String, modelPath: String): Future[Option[Model]]
 
   def generateModelPayload(modelId: Long, signature: String): HFResult[JsObject]
 
@@ -84,8 +99,7 @@ class ModelManagementServiceImpl(
   modelRepository: ModelRepository,
   modelVersionRepository: ModelVersionRepository,
   sourceManagementService: SourceManagementService,
-  contractService: ContractUtilityService,
-  repoActor: ActorRef
+  contractService: ContractUtilityService
 )(
   implicit val ex: ExecutionContext
 ) extends ModelManagementService with Logging {
@@ -109,17 +123,6 @@ class ModelManagementServiceImpl(
         }
       case None => Result.clientErrorF("Id is required for this action")
     }
-  }
-
-  override def updatedInModelSource(entity: Model): Future[Unit] = {
-    modelRepository.fetchBySource(entity.source)
-      .flatMap {
-        case Nil =>
-          modelRepository.create(entity).map(_ => Unit)
-        case _ => modelRepository.updateLastUpdatedTime(entity.source, LocalDateTime.now())
-          .map(_ => Unit)
-      }
-
   }
 
   def deleteModel(modelName: String): Future[Model] = {
@@ -215,8 +218,6 @@ class ModelManagementServiceImpl(
           }
           .toMap
 
-        repoActor ! IgnoreModel(upload.name) // Add model name to blacklist to ignore watcher events
-
         writeFilesToSource(source, localFiles)
         CreateOrUpdateModelRequest(
           id = None,
@@ -252,5 +253,61 @@ class ModelManagementServiceImpl(
     generator.map { result =>
       result.right.map(callback)
     }
+  }
+
+  override def indexModels(ids: Set[Long]): Future[Seq[IndexStatus]] = {
+    modelRepository.getMany(ids).flatMap { models =>
+      Future.traverse(models) { model =>
+        sourceManagementService.index(model.source).flatMap {
+          case Success(maybeMetadata) =>
+            maybeMetadata match {
+              case Some(metadata) =>
+                val newModel = applyModelMetadata(metadata, model)
+                modelRepository.update(newModel).map(_ => ModelUpdated(newModel))
+
+              case None =>
+                // NB delete model if no files?
+                modelRepository.delete(model.id).map(_ => ModelDeleted(model))
+            }
+          case Failure(err) =>
+            Future.successful(IndexError(model, err))
+        }
+      }
+    }
+  }
+
+  override def addModel(sourceName: String, modelPath: String): Future[Option[Model]] = {
+    sourceManagementService.getSource(sourceName).flatMap {
+      case Some(source) =>
+        if (source.isExist(modelPath)) {
+          val metadata = ModelFetcher.fetch(source, modelPath)
+          val createReq = metadataToCreate(metadata, s"$sourceName:$modelPath")
+          createModel(createReq)
+        } else {
+          Future.successful(None)
+        }
+      case None =>
+        Future.successful(None)
+    }
+  }
+
+  private def metadataToCreate(modelMetadata: ModelMetadata, source: String): CreateOrUpdateModelRequest = {
+    CreateOrUpdateModelRequest(
+      id = None,
+      name = modelMetadata.modelName,
+      source = source,
+      modelType = modelMetadata.modelType,
+      description = None,
+      modelContract = modelMetadata.contract
+    )
+  }
+
+  private def applyModelMetadata(modelMetadata: ModelMetadata, model:Model, updated: LocalDateTime = LocalDateTime.now()): Model = {
+    model.copy(
+      name = modelMetadata.modelName,
+      modelType = modelMetadata.modelType,
+      modelContract = modelMetadata.contract,
+      updated = updated
+    )
   }
 }

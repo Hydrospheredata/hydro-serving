@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.repository.db
 
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model.ModelBuildScript
+import io.hydrosphere.serving.manager.model.db.ModelBuildScript
 import io.hydrosphere.serving.manager.repository.ModelBuildScriptRepository
 import org.apache.logging.log4j.scala.Logging
 

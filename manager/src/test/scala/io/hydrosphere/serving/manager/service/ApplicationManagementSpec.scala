@@ -1,17 +1,16 @@
-package io.hydrosphere.serving.manager.model.api
+package io.hydrosphere.serving.manager.service
 
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.ModelType.Tensorflow
-import io.hydrosphere.serving.manager.service.ApplicationManagementServiceImpl
-import org.scalatest.FlatSpec
-
+import io.hydrosphere.serving.manager.model.db._
 
 import scala.concurrent.{Await, ExecutionContext, Future}
 
-class ApplicationServiceSpec extends FlatSpec {
+class ApplicationManagementSpec extends GenericUnitTest {
 
   implicit val ctx = ExecutionContext.global
 

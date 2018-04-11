@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.repository
 
-import io.hydrosphere.serving.manager.model.Environment
+import io.hydrosphere.serving.manager.model.db.Environment
 
 /**
   *

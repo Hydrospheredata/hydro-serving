@@ -19,7 +19,7 @@ object UploadedEntity {
 
   case class ModelName(name: String = "model_name", modelName: String) extends UploadedEntity
 
-  case class ModelType(name: String = "model_type", modelType: String) extends UploadedEntity
+  case class UploadType(name: String = "model_type", modelType: String) extends UploadedEntity
 
   case class TargetSource(name: String = "target_source", source: String) extends UploadedEntity
 
@@ -57,7 +57,7 @@ object UploadedEntity {
         tarball <- extractAs[Tarball](map, "payload").right
       } yield ModelUpload(
         name = modelName.asInstanceOf[ModelName].modelName,
-        modelType = modelType.asInstanceOf[ModelType].modelType,
+        modelType = modelType.asInstanceOf[UploadType].modelType,
         tarballPath = tarball.asInstanceOf[Tarball].path,
         contract = contract.asInstanceOf[Contract].modelContract,
         source = map.get("target_source").map(_.asInstanceOf[TargetSource].source),

@@ -1,15 +1,12 @@
 package io.hydrosphere.slick
 
-
-import slick.codegen.SourceCodeGenerator
-
-import slick.sql.SqlProfile.ColumnOption
-
 import java.net.URI
 
 import scala.concurrent.{ExecutionContext, Await}
 import scala.concurrent.duration.Duration
 
+import slick.codegen.SourceCodeGenerator
+import slick.sql.SqlProfile.ColumnOption
 import slick.basic.DatabaseConfig
 import slick.{model => m}
 import slick.util.ConfigExtensionMethods.configExtensionMethods
@@ -24,14 +21,14 @@ class HydrosphereCodeGenerator(model: m.Model) extends SourceCodeGenerator(model
 
   override def packageCode(profile: String, pkg: String, container: String, parentType: Option[String]) : String = {
     s"""
-package ${pkg}
+package $pkg
 // AUTO-GENERATED Slick data model
 /** Stand-alone Slick data model for immediate use */
-object ${container} extends {
-  val profile = ${profile}
-} with ${container}
+object $container extends {
+  val profile = $profile
+} with $container
 /** Slick data model trait for extension, choice of backend or usage in the cake pattern. (Make sure to initialize this late.) */
-trait ${container}${parentType.map(t => s" extends $t").getOrElse("")} {
+trait $container${parentType.map(t => s" extends $t").getOrElse("")} {
   val profile: $profile
   import profile.api._
   ${indent(code)}
@@ -66,8 +63,6 @@ trait ${container}${parentType.map(t => s" extends $t").getOrElse("")} {
 
 object HydrosphereCodeGenerator {
 
-  import scala.concurrent.ExecutionContext.Implicits.global
-
   def run(profile: String, jdbcDriver: String, url: String, outputDir: String, pkg: String, user: Option[String], password: Option[String], ignoreInvalidDefaults: Boolean): Unit = {
     val profileInstance: HydrospherePostgresDriver =
       Class.forName(profile + "$").getField("MODULE$").get(null).asInstanceOf[HydrospherePostgresDriver]
@@ -98,12 +93,12 @@ object HydrosphereCodeGenerator {
       case uri :: outputDir :: Nil =>
         run(new URI(uri), Some(outputDir))
       case profile :: jdbcDriver :: url :: outputDir :: pkg :: Nil =>
-        run(profile, jdbcDriver, url, outputDir, pkg, None, None, true)
+        run(profile, jdbcDriver, url, outputDir, pkg, None, None, ignoreInvalidDefaults = true)
       case profile :: jdbcDriver :: url :: outputDir :: pkg :: user :: password :: Nil =>
-        run(profile, jdbcDriver, url, outputDir, pkg, Some(user), Some(password), true)
+        run(profile, jdbcDriver, url, outputDir, pkg, Some(user), Some(password), ignoreInvalidDefaults = true)
       case profile :: jdbcDriver :: url :: outputDir :: pkg :: user :: password :: ignoreInvalidDefaults :: Nil =>
         run(profile, jdbcDriver, url, outputDir, pkg, Some(user), Some(password), ignoreInvalidDefaults.toBoolean)
-      case _ => {
+      case _ =>
         println(
           """
             |Usage:
@@ -127,7 +122,6 @@ object HydrosphereCodeGenerator {
             |"codegen.outputDir". The latter can be overridden on the command line.
           """.stripMargin.trim)
         System.exit(1)
-      }
     }
   }
 }

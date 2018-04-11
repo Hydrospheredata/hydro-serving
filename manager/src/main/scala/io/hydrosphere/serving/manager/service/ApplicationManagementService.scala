@@ -7,9 +7,10 @@ import io.hydrosphere.serving.contract.utils.ops.ModelSignatureOps
 import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, KafkaTopicServerInterceptor}
 import io.hydrosphere.serving.manager.ApplicationConfig
 import io.hydrosphere.serving.manager.controller.application._
-import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.{db, _}
 import io.hydrosphere.serving.manager.model.api.json.TensorJsonLens
 import io.hydrosphere.serving.manager.model.api.tensor_builder.SignatureBuilder
+import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, RuntimeRepository}
 import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService
 import io.hydrosphere.serving.tensorflow.api.model.ModelSpec
@@ -243,7 +244,7 @@ class ApplicationManagementServiceImpl(
         _.id
       })
 
-    val runtimesById: FutureMap[Runtime] = runtimeRepository.all().map(groupBy(_) {
+    val runtimesById: FutureMap[db.Runtime] = runtimeRepository.all().map(groupBy(_) {
       _.id
     })
 

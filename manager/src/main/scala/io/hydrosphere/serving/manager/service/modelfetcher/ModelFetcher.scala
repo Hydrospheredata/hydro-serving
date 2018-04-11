@@ -19,7 +19,7 @@ object ModelFetcher extends Logging {
     ScikitModelFetcher
   )
 
-  def getModel(source: ModelSource, folder: String): ModelMetadata = {
+  def fetch(source: ModelSource, folder: String): ModelMetadata = {
     source.getAllFiles(folder)
     val res = fetchers
       .map(_.fetch(source, folder))
@@ -30,9 +30,5 @@ object ModelFetcher extends Logging {
         ModelMetadata(folder, ModelType.Unknown("unknown"), ModelContract())
       }
     model
-  }
-
-  def getModels(source: ModelSource): Seq[ModelMetadata] = {
-    source.getSubDirs.map(getModel(source, _))
   }
 }

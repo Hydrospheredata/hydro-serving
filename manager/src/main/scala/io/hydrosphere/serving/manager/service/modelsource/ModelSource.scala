@@ -3,7 +3,8 @@ package io.hydrosphere.serving.manager.service.modelsource
 import java.io.File
 import java.nio.file.Path
 
-import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.db.ModelSourceConfig
+import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.{LocalSourceParams, S3SourceParams}
 import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceDef}
 import io.hydrosphere.serving.manager.service.modelsource.s3.{S3ModelSource, S3SourceDef}
 
@@ -13,8 +14,6 @@ trait ModelSource {
   def getAllFiles(folder: String): List[String]
 
   def getSubDirs(path: String): List[String]
-
-  def getSubDirs: List[String]
 
   def sourceDef: SourceDef
 
@@ -27,20 +26,16 @@ trait ModelSource {
 
 
 object ModelSource {
-  def fromConfig(conf: ModelSourceConfigAux): ModelSource = {
+  def fromConfig(conf: ModelSourceConfig): ModelSource = {
     val params = conf.params
     params match {
-      case _: LocalSourceParams =>
+      case x: LocalSourceParams =>
         new LocalModelSource(
-          LocalSourceDef.fromConfig(
-            conf.toTyped[LocalSourceParams]
-          )
+          LocalSourceDef.fromConfig(conf.name, x)
         )
-      case _: S3SourceParams =>
+      case x: S3SourceParams =>
         new S3ModelSource(
-          S3SourceDef.fromConfig(
-            conf.toTyped[S3SourceParams]
-          )
+          S3SourceDef.fromConfig(conf.name, x)
         )
       case x =>
         throw new IllegalArgumentException(s"Unknown params: $x")

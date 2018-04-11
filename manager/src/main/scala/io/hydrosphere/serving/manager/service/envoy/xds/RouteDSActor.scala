@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.service.envoy.xds
 import envoy.api.v2.RouteAction.ClusterSpecifier
 import envoy.api.v2._
 import io.grpc.stub.StreamObserver
-import io.hydrosphere.serving.manager.model.Application
+import io.hydrosphere.serving.manager.model.db.Application
 import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService
 import io.hydrosphere.serving.manager.service.{ApplicationChanged, ApplicationRemoved}
 

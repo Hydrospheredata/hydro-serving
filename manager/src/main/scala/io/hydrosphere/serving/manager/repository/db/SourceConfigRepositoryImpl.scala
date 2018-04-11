@@ -1,9 +1,10 @@
 package io.hydrosphere.serving.manager.repository.db
 
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model.{ModelSourceConfigAux, SourceParams}
+import io.hydrosphere.serving.manager.model.db.ModelSourceConfig
+import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.SourceParams
 import io.hydrosphere.serving.manager.repository.SourceConfigRepository
-import io.hydrosphere.serving.manager.model.CommonJsonSupport._
+import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -16,7 +17,7 @@ class SourceConfigRepositoryImpl(implicit ec: ExecutionContext, databaseService:
   import databaseService.driver.api._
   import SourceConfigRepositoryImpl._
 
-  override def create(entity: ModelSourceConfigAux): Future[ModelSourceConfigAux] = db.run(
+  override def create(entity: ModelSourceConfig): Future[ModelSourceConfig] = db.run(
     Tables.ModelSource returning Tables.ModelSource += Tables.ModelSourceRow(
       entity.id,
       entity.name,
@@ -24,7 +25,7 @@ class SourceConfigRepositoryImpl(implicit ec: ExecutionContext, databaseService:
     )
   ).map(mapFromDb)
 
-  override def get(id: Long): Future[Option[ModelSourceConfigAux]] = db.run(
+  override def get(id: Long): Future[Option[ModelSourceConfig]] = db.run(
     Tables.ModelSource.filter(_.sourceId === id).result.headOption
   ).map(mapFromDb)
 
@@ -32,13 +33,13 @@ class SourceConfigRepositoryImpl(implicit ec: ExecutionContext, databaseService:
     Tables.ModelSource.filter(_.sourceId === id).delete
   )
 
-  override def all(): Future[Seq[ModelSourceConfigAux]] = {
+  override def all(): Future[Seq[ModelSourceConfig]] = {
     db.run(
       Tables.ModelSource.result
     ).map(mapFromDb)
   }
 
-  override def get(name: String): Future[Option[ModelSourceConfigAux]] = db.run {
+  override def getByName(name: String): Future[Option[ModelSourceConfig]] = db.run {
     Tables.ModelSource.filter(_.name === name).result.headOption
   }.map(mapFromDb)
 }
@@ -46,18 +47,18 @@ class SourceConfigRepositoryImpl(implicit ec: ExecutionContext, databaseService:
 object SourceConfigRepositoryImpl {
   import spray.json._
 
-  def mapFromDb(dbType: Option[Tables.ModelSource#TableElementType]): Option[ModelSourceConfigAux] =
+  def mapFromDb(dbType: Option[Tables.ModelSource#TableElementType]): Option[ModelSourceConfig] =
     dbType.map(r => mapFromDb(r))
 
-  def mapFromDb(dbType: Tables.ModelSource#TableElementType): ModelSourceConfigAux = {
-    ModelSourceConfigAux(
+  def mapFromDb(dbType: Tables.ModelSource#TableElementType): ModelSourceConfig = {
+    ModelSourceConfig(
       id = dbType.sourceId,
       name = dbType.name,
       params = dbType.params.parseJson.convertTo[SourceParams]
     )
   }
 
-  def mapFromDb(dbType: Seq[Tables.ModelSource#TableElementType]): Seq[ModelSourceConfigAux] =
+  def mapFromDb(dbType: Seq[Tables.ModelSource#TableElementType]): Seq[ModelSourceConfig] =
     dbType.map(mapFromDb)
 
 }
