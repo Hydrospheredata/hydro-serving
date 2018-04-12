@@ -172,24 +172,19 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           appRequest.kafkaStreaming
         )
         app = appRes.right.get
-        appUpdate = UpdateApplicationRequest(
-          id = app.id,
-          name = app.name,
-          executionGraph = appRequest.executionGraph,
-          kafkaStream = None
-        )
 
         appResNew <- managerServices.applicationManagementService.updateApplication(
-          appUpdate.id,
-          appUpdate.name,
-          appUpdate.executionGraph,
-          appUpdate.kafkaStream.getOrElse(Seq.empty)
+          app.id,
+          app.name,
+          appRequest.executionGraph,
+          Seq.empty
         )
         appNew = appResNew.right.get
 
         maybeGotNewApp <- managerServices.applicationManagementService.getApplication(appNew.id)
       } yield {
-        assert(maybeGotNewApp.isRight, "Couldn't find updated application in repository")
+        println(app)
+        assert(maybeGotNewApp.isRight, s"Couldn't find updated application in repository ${appNew}")
         assert(appNew === maybeGotNewApp.right.get)
         assert(appNew.kafkaStreaming.isEmpty, appNew)
       }

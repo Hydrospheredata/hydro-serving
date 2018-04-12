@@ -342,7 +342,7 @@ class ApplicationManagementServiceImpl(
 
         graph <- EitherT(inferGraph(executionGraph))
         contract <- EitherT(inferAppContract(name, graph))
-        newApplication <- EitherT(composeAppF(name, graph, contract, kafkaStreaming))
+        newApplication <- EitherT(composeAppF(name, graph, contract, kafkaStreaming, id))
 
         _ <- EitherT(applicationRepository.update(newApplication).map(Result.ok))
         enriched <- EitherT(enrichApplication(newApplication))
