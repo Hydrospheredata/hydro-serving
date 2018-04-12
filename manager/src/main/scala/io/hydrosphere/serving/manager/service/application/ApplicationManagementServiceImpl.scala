@@ -335,9 +335,9 @@ class ApplicationManagementServiceImpl(
         oldApplication <- EitherT(getApplication(id))
 
         keysSetOld = oldApplication.executionGraph.stages.flatMap(_.services.map(_.serviceDescription)).toSet
-        keysSetNew = newApplication.executionGraph.stages.flatMap(_.services.map(_.serviceDescription)).toSet
+        keysSetNew = executionGraph.stages.flatMap(_.services.map(_.toDescription)).toSet
 
-        _ <- EitherT(removeServiceIfNeeded(keysSetOld -- keysSetNew, newApplication.id))
+        _ <- EitherT(removeServiceIfNeeded(keysSetOld -- keysSetNew, id))
         _ <- EitherT(startServices(keysSetNew -- keysSetOld))
 
         graph <- EitherT(inferGraph(executionGraph))
