@@ -289,13 +289,13 @@ class ApplicationManagementServiceImpl(
     val keySet = keys.toSet
 
     val f = for {
-      graph <- EitherT(inferGraph(executionGraph))
-      contract <- EitherT(inferAppContract(name, graph))
-      app <- EitherT(composeAppF(name, graph, contract, kafkaStreaming))
-
       services <- EitherT(serviceManagementService.fetchServicesUnsync(keySet).map(Result.ok))
       existedServices = services.map(_.toServiceKeyDescription)
       _ <- EitherT(startServices(keySet -- existedServices))
+
+      graph <- EitherT(inferGraph(executionGraph))
+      contract <- EitherT(inferAppContract(name, graph))
+      app <- EitherT(composeAppF(name, graph, contract, kafkaStreaming))
 
       createdApp <- EitherT(applicationRepository.create(app).map(Result.ok))
       enriched <- EitherT(enrichApplication(createdApp))
@@ -333,15 +333,16 @@ class ApplicationManagementServiceImpl(
     executeWithSync {
       val res = for {
         oldApplication <- EitherT(getApplication(id))
-        graph <- EitherT(inferGraph(executionGraph))
-        contract <- EitherT(inferAppContract(name, graph))
-        newApplication <- EitherT(composeAppF(name, graph, contract, kafkaStreaming))
 
         keysSetOld = oldApplication.executionGraph.stages.flatMap(_.services.map(_.serviceDescription)).toSet
         keysSetNew = newApplication.executionGraph.stages.flatMap(_.services.map(_.serviceDescription)).toSet
 
         _ <- EitherT(removeServiceIfNeeded(keysSetOld -- keysSetNew, newApplication.id))
         _ <- EitherT(startServices(keysSetNew -- keysSetOld))
+
+        graph <- EitherT(inferGraph(executionGraph))
+        contract <- EitherT(inferAppContract(name, graph))
+        newApplication <- EitherT(composeAppF(name, graph, contract, kafkaStreaming))
 
         _ <- EitherT(applicationRepository.update(newApplication).map(Result.ok))
         enriched <- EitherT(enrichApplication(newApplication))
@@ -484,13 +485,21 @@ class ApplicationManagementServiceImpl(
     logger.debug(applicationName)
     graph.stages match {
       case stage :: Nil if stage.services.lengthCompare(1) == 0 => // single model version
-        val serviceDesc = stage.services.head
-        serviceManagementService.fetchServicesUnsync(Set(serviceDesc.serviceDescription)).map { services =>
-          services.head.model match {
-            case Some(model) => Result.ok(model.modelContract)
-            case None => Result.clientError(s"Service $serviceDesc has no related model.")
-          }
+        stage.services.headOption match {
+          case Some(serviceDesc) =>
+            serviceManagementService.fetchServicesUnsync(Set(serviceDesc.serviceDescription)).map { services =>
+              services.headOption match {
+                case Some(service) =>
+                  service.model match {
+                    case Some(model) => Result.ok(model.modelContract)
+                    case None => Result.clientError(s"Service $serviceDesc has no related model.")
+                  }
+                case None => Result.clientError(s"Can't find '${serviceDesc.serviceDescription}' service information")
+              }
+            }
+          case None => Result.clientErrorF(s"Can't infer contract for an empty stage")
         }
+
       case _ =>
         Result.okF(
           ModelContract(
