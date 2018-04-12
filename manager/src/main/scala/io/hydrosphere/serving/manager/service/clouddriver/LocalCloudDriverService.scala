@@ -8,8 +8,8 @@ import com.spotify.docker.client.messages.{Container, ContainerConfig, HostConfi
 import io.hydrosphere.serving.manager.ManagerConfiguration
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.Service
-import io.hydrosphere.serving.manager.service.InternalManagerEventsPublisher
-import io.hydrosphere.serving.manager.service.modelbuild.{DockerClientHelper, ProgressHandler, ProgressMessage}
+import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
+import io.hydrosphere.serving.manager.service.model_build.builders.{DockerClientHelper, ProgressHandler, ProgressMessage}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}

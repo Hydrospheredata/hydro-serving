@@ -34,7 +34,11 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           ),
           kafkaStreaming = List.empty
         )
-        appResult <- managerServices.applicationManagementService.createApplication(appRequest)
+        appResult <- managerServices.applicationManagementService.createApplication(
+          appRequest.name,
+          appRequest.executionGraph,
+          appRequest.kafkaStreaming
+        )
       } yield {
         println(appResult)
         val app = appResult.right.get
@@ -93,7 +97,11 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           ),
           kafkaStreaming = List.empty
         )
-        appRes <- managerServices.applicationManagementService.createApplication(appRequest)
+        appRes <- managerServices.applicationManagementService.createApplication(
+          appRequest.name,
+          appRequest.executionGraph,
+          appRequest.kafkaStreaming
+        )
       } yield {
         val app = appRes.right.get
         println(app)
@@ -158,7 +166,11 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
             )
           )
         )
-        appRes <- managerServices.applicationManagementService.createApplication(appRequest)
+        appRes <- managerServices.applicationManagementService.createApplication(
+          appRequest.name,
+          appRequest.executionGraph,
+          appRequest.kafkaStreaming
+        )
         app = appRes.right.get
         appUpdate = UpdateApplicationRequest(
           id = app.id,
@@ -167,7 +179,12 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           kafkaStream = None
         )
 
-        appResNew <- managerServices.applicationManagementService.updateApplication(appUpdate)
+        appResNew <- managerServices.applicationManagementService.updateApplication(
+          appUpdate.id,
+          appUpdate.name,
+          appUpdate.executionGraph,
+          appUpdate.kafkaStream.getOrElse(Seq.empty)
+        )
         appNew = appResNew.right.get
 
         maybeGotNewApp <- managerServices.applicationManagementService.getApplication(appNew.id)

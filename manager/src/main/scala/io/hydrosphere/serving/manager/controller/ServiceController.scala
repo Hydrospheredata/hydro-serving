@@ -8,6 +8,8 @@ import akka.util.Timeout
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import io.hydrosphere.serving.manager.model.db.Service
 import io.hydrosphere.serving.manager.service._
+import io.hydrosphere.serving.manager.service.application.ApplicationManagementService
+import io.hydrosphere.serving.manager.service.service.ServiceManagementService
 import io.swagger.annotations._
 
 import scala.concurrent.duration._

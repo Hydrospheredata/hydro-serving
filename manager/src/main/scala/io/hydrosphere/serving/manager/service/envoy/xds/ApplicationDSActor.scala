@@ -5,7 +5,7 @@ import io.grpc.stub.StreamObserver
 import io.hydrosphere.serving.manager.grpc.applications.{Application, ExecutionGraph, ExecutionStage, KafkaStreaming}
 import io.hydrosphere.serving.manager.model.db
 import io.hydrosphere.serving.manager.model.db.ApplicationStage
-import io.hydrosphere.serving.manager.service.{ApplicationChanged, ApplicationRemoved}
+import io.hydrosphere.serving.manager.service.internal_events.{ApplicationChanged, ApplicationRemoved}
 
 import scala.collection.mutable
 

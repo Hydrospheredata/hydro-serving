@@ -4,6 +4,7 @@ import io.hydrosphere.serving.manager.controller.model_source.AddLocalSourceRequ
 import io.hydrosphere.serving.manager.model.db.ModelSourceConfig
 import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.LocalSourceParams
 import io.hydrosphere.serving.manager.repository.SourceConfigRepository
+import io.hydrosphere.serving.manager.service.source.SourceManagementServiceImpl
 import io.hydrosphere.serving.manager.{GenericUnitTest, ManagerConfiguration}
 import org.mockito.invocation.InvocationOnMock
 import org.mockito.stubbing.Answer

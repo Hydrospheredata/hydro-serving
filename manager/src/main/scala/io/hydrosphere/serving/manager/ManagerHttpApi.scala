@@ -11,9 +11,11 @@ import akka.http.scaladsl.server.Directives.{path, _}
 import akka.stream.ActorMaterializer
 import ch.megard.akka.http.cors.scaladsl.settings.CorsSettings
 import io.hydrosphere.serving.manager.controller.application.ApplicationController
+import io.hydrosphere.serving.manager.controller.environment.EnvironmentController
 import io.hydrosphere.serving.manager.controller.model.ModelController
 import io.hydrosphere.serving.manager.controller.model_source.ModelSourceController
 import io.hydrosphere.serving.manager.controller.prometheus.PrometheusMetricsController
+import io.hydrosphere.serving.manager.controller.runtime.RuntimeController
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import org.apache.logging.log4j.scala.Logging
 import spray.json._

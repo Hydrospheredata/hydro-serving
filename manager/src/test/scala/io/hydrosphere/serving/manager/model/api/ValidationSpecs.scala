@@ -3,13 +3,13 @@ package io.hydrosphere.serving.manager.model.api
 import com.google.protobuf.ByteString
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.contract.utils.ContractBuilders
-import io.hydrosphere.serving.manager.model.api.tensor_builder.{PredictRequestContractValidator, SignatureBuilder}
+import io.hydrosphere.serving.manager.model.api.tensor_builder.SignatureBuilder
 import io.hydrosphere.serving.tensorflow.types.DataType.{DT_BOOL, DT_FLOAT, DT_INT16, DT_STRING}
 import org.scalatest.WordSpec
 import spray.json._
 
 class ValidationSpecs extends WordSpec {
-  classOf[PredictRequestContractValidator].getSimpleName should {
+  classOf[SignatureBuilder].getSimpleName should {
     "convert" when {
       "flat json is compatible with contract" in {
         val input =
