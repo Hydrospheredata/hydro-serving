@@ -5,7 +5,7 @@ import envoy.api.v2._
 import io.grpc.stub.StreamObserver
 import io.hydrosphere.serving.manager.model.db.Application
 import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService
-import io.hydrosphere.serving.manager.service.{ApplicationChanged, ApplicationRemoved}
+import io.hydrosphere.serving.manager.service.internal_events.{ApplicationChanged, ApplicationRemoved}
 
 import scala.collection.mutable
 

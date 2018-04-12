@@ -8,6 +8,7 @@ import io.hydrosphere.serving.manager.controller.{GenericController, ServingData
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import io.hydrosphere.serving.manager.model.db.Application
 import io.hydrosphere.serving.manager.service._
+import io.hydrosphere.serving.manager.service.application.{ApplicationManagementService, JsonServeRequest}
 import io.swagger.annotations._
 import spray.json.JsObject
 
@@ -47,8 +48,8 @@ class ApplicationController(
   def create = path("api" / "v1" / "applications") {
     post {
       entity(as[CreateApplicationRequest]) { r =>
-        complete(
-          applicationManagementService.createApplication(r)
+        completeFRes(
+          applicationManagementService.createApplication(r.name,r.executionGraph, r.kafkaStreaming)
         )
       }
     }
@@ -67,8 +68,8 @@ class ApplicationController(
   def update = path("api" / "v1" / "applications") {
     put {
       entity(as[UpdateApplicationRequest]) { r =>
-        complete(
-          applicationManagementService.updateApplication(r)
+        completeFRes(
+          applicationManagementService.updateApplication(r.id, r.name, r.executionGraph, r.kafkaStream.map(_.toList).getOrElse(List.empty))
         )
       }
     }

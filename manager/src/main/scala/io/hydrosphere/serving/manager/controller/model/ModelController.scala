@@ -19,6 +19,10 @@ import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service._
+import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedModelInfo}
+import io.hydrosphere.serving.manager.service.model.{CreateOrUpdateModelRequest, ModelManagementService}
+import io.hydrosphere.serving.manager.service.model_build.ModelBuildManagmentService
+import io.hydrosphere.serving.manager.service.model_version.{CreateModelVersionRequest, ModelVersionManagementService}
 import io.swagger.annotations._
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -142,17 +146,18 @@ class ModelController(
     }
   }
 
-  // TODO implement
-  // TODO tests
   @Path("/")
   @ApiOperation(value = "Add model", notes = "Add model", nickname = "uploadModel", httpMethod = "POST")
   def addModel = path("api"/ "v1" / "model") {
     post {
-      ???
+      entity(as[AddModelRequest]) { req =>
+        completeFRes(
+          modelManagementService.addModel(req.sourceName, req.modelPath)
+        )
+      }
     }
   }
 
-  // TODO tests
   @Path("/index")
   @ApiOperation(value = "Index models", notes = "Index model", nickname = "indexModels", httpMethod = "POST")
   def indexModels = path("api"/ "v1" / "model" / "index") {

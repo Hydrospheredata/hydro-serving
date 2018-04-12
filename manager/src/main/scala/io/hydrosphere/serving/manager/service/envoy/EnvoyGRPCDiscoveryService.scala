@@ -5,8 +5,10 @@ import envoy.api.v2.{DiscoveryRequest, DiscoveryResponse}
 import io.grpc.stub.StreamObserver
 import io.hydrosphere.serving.manager.ManagerConfiguration
 import io.hydrosphere.serving.manager.service._
+import io.hydrosphere.serving.manager.service.application.ApplicationManagementService
 import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService
 import io.hydrosphere.serving.manager.service.envoy.xds._
+import io.hydrosphere.serving.manager.service.service.ServiceManagementService
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.ExecutionContext

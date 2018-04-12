@@ -10,7 +10,10 @@ import io.hydrosphere.serving.manager.model.Result
 import io.hydrosphere.serving.manager.model.api.{ModelMetadata, ModelType}
 import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.repository.ModelRepository
-import io.hydrosphere.serving.manager.service.modelsource.local.{LocalModelSource, LocalSourceDef}
+import io.hydrosphere.serving.manager.service.contract.ContractUtilityService
+import io.hydrosphere.serving.manager.service.model.{IndexError, ModelDeleted, ModelManagementServiceImpl, ModelUpdated}
+import io.hydrosphere.serving.manager.service.source.sources.local.{LocalModelSource, LocalSourceDef}
+import io.hydrosphere.serving.manager.service.source.SourceManagementService
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.mockito.invocation.InvocationOnMock
 import org.mockito.stubbing.Answer

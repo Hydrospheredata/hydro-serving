@@ -5,8 +5,8 @@ import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import io.hydrosphere.serving.manager.controller.GenericController
 import io.hydrosphere.serving.manager.model.db.ModelSourceConfig
-import io.hydrosphere.serving.manager.service.SourceManagementService
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
+import io.hydrosphere.serving.manager.service.source.SourceManagementService
 import io.swagger.annotations._
 
 

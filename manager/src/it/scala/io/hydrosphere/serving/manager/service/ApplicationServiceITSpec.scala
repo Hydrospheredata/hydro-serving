@@ -34,7 +34,11 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           ),
           kafkaStreaming = List.empty
         )
-        appResult <- managerServices.applicationManagementService.createApplication(appRequest)
+        appResult <- managerServices.applicationManagementService.createApplication(
+          appRequest.name,
+          appRequest.executionGraph,
+          appRequest.kafkaStreaming
+        )
       } yield {
         println(appResult)
         val app = appResult.right.get
@@ -93,7 +97,11 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           ),
           kafkaStreaming = List.empty
         )
-        appRes <- managerServices.applicationManagementService.createApplication(appRequest)
+        appRes <- managerServices.applicationManagementService.createApplication(
+          appRequest.name,
+          appRequest.executionGraph,
+          appRequest.kafkaStreaming
+        )
       } yield {
         val app = appRes.right.get
         println(app)
@@ -158,21 +166,25 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
             )
           )
         )
-        appRes <- managerServices.applicationManagementService.createApplication(appRequest)
-        app = appRes.right.get
-        appUpdate = UpdateApplicationRequest(
-          id = app.id,
-          name = app.name,
-          executionGraph = appRequest.executionGraph,
-          kafkaStream = None
+        appRes <- managerServices.applicationManagementService.createApplication(
+          appRequest.name,
+          appRequest.executionGraph,
+          appRequest.kafkaStreaming
         )
+        app = appRes.right.get
 
-        appResNew <- managerServices.applicationManagementService.updateApplication(appUpdate)
+        appResNew <- managerServices.applicationManagementService.updateApplication(
+          app.id,
+          app.name,
+          appRequest.executionGraph,
+          Seq.empty
+        )
         appNew = appResNew.right.get
 
         maybeGotNewApp <- managerServices.applicationManagementService.getApplication(appNew.id)
       } yield {
-        assert(maybeGotNewApp.isRight, "Couldn't find updated application in repository")
+        println(app)
+        assert(maybeGotNewApp.isRight, s"Couldn't find updated application in repository ${appNew}")
         assert(appNew === maybeGotNewApp.right.get)
         assert(appNew.kafkaStreaming.isEmpty, appNew)
       }

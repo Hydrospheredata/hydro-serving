@@ -9,9 +9,21 @@ import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, KafkaTopicServ
 import io.hydrosphere.serving.manager.connector.HttpEnvoyAdminConnector
 import io.hydrosphere.serving.manager.service.clouddriver._
 import io.hydrosphere.serving.manager.service._
+import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedInfoUtilityServiceImpl}
+import io.hydrosphere.serving.manager.service.application.{ApplicationManagementService, ApplicationManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.build_script.{BuildScriptManagementService, BuildScriptManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.contract.ContractUtilityServiceImpl
+import io.hydrosphere.serving.manager.service.environment.{EnvironmentManagementService, EnvironmentManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.envoy.{EnvoyGRPCDiscoveryService, EnvoyGRPCDiscoveryServiceImpl}
-import io.hydrosphere.serving.manager.service.modelbuild._
+import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
+import io.hydrosphere.serving.manager.service.model.{ModelManagementService, ModelManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.model_build.{ModelBuildManagmentService, ModelBuildManagmentServiceImpl}
+import io.hydrosphere.serving.manager.service.model_build.builders._
+import io.hydrosphere.serving.manager.service.model_version.{ModelVersionManagementService, ModelVersionManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.prometheus.PrometheusMetricsServiceImpl
+import io.hydrosphere.serving.manager.service.runtime.{RuntimeManagementService, RuntimeManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.service.{ServiceManagementService, ServiceManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.source.SourceManagementServiceImpl
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
 import org.apache.logging.log4j.scala.Logging
 

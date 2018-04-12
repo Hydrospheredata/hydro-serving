@@ -7,6 +7,7 @@ import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.ModelType.Tensorflow
 import io.hydrosphere.serving.manager.model.db._
+import io.hydrosphere.serving.manager.service.application.ApplicationManagementServiceImpl
 
 import scala.concurrent.{Await, ExecutionContext, Future}
 

@@ -1,11 +1,18 @@
 package io.hydrosphere.serving.manager.model.protocol
 
+import io.hydrosphere.serving.manager.controller.environment.CreateEnvironmentRequest
+import io.hydrosphere.serving.manager.controller.model.AddModelRequest
+import io.hydrosphere.serving.manager.controller.runtime.CreateRuntimeRequest
 import io.hydrosphere.serving.manager.model.ModelBuildStatus
 import io.hydrosphere.serving.manager.model.Result.{ClientError, ErrorCollection, HError, InternalError}
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.service._
+import io.hydrosphere.serving.manager.service.aggregated_info.AggregatedModelInfo
 import io.hydrosphere.serving.manager.service.clouddriver.{MetricServiceTargetLabels, MetricServiceTargets}
+import io.hydrosphere.serving.manager.service.model._
+import io.hydrosphere.serving.manager.service.model_version.CreateModelVersionRequest
+import io.hydrosphere.serving.manager.service.service.CreateServiceRequest
 import spray.json.{DeserializationException, JsObject, JsString, JsValue, JsonFormat}
 import spray.json._
 
@@ -19,6 +26,8 @@ trait CompleteJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol 
   implicit val createModelVersionRequest = jsonFormat12(CreateModelVersionRequest)
 
   implicit val createEnvironmentRequest = jsonFormat2(CreateEnvironmentRequest)
+
+  implicit val addModelFormat = jsonFormat2(AddModelRequest.apply)
 
   implicit val aggregatedModelInfoFormat=jsonFormat4(AggregatedModelInfo)
 
