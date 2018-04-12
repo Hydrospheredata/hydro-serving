@@ -11,7 +11,7 @@ import org.scalatest.BeforeAndAfterAll
 import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
 
-class ModelServiceSpec extends FullIntegrationSpec with BeforeAndAfterAll {
+class ModelServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
   "ModelService" should {
     "fetch all models" in {
       managerServices.modelManagementService.allModels().map { seq =>

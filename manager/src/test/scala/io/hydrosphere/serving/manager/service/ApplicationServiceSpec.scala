@@ -11,7 +11,7 @@ import io.hydrosphere.serving.manager.service.application.ApplicationManagementS
 
 import scala.concurrent.{Await, ExecutionContext, Future}
 
-class ApplicationManagementSpec extends GenericUnitTest {
+class ApplicationServiceSpec extends GenericUnitTest {
 
   implicit val ctx = ExecutionContext.global
 

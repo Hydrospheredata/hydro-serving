@@ -22,7 +22,7 @@ import org.mockito.{Matchers, Mockito}
 import scala.concurrent.duration._
 import scala.concurrent.{Await, Future}
 
-class ModelManagementSpec extends GenericUnitTest {
+class ModelServiceSpec extends GenericUnitTest {
   val contractSerice = mock[ContractUtilityService]
   private[this] val dummyModel = Model(
     id = 1,

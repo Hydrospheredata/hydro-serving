@@ -12,7 +12,7 @@ import org.mockito.{Matchers, Mockito}
 
 import scala.concurrent.{Await, Future}
 
-class SourceManagementSpecs extends GenericUnitTest {
+class SourceServiceSpec extends GenericUnitTest {
 
   import scala.concurrent.ExecutionContext.Implicits._
 
