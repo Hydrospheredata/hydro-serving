@@ -56,14 +56,12 @@ class ModelServiceSpec extends GenericUnitTest {
 
     val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
 
-    val f = modelManagementService.indexModels(Set(1L)).map { statuses =>
+    modelManagementService.indexModels(Set(1L)).map { statuses =>
       println(statuses)
       assert(statuses.nonEmpty)
       assert(!statuses.exists(_.isInstanceOf[IndexError]))
       assert(statuses.forall(_.isInstanceOf[ModelDeleted]))
     }
-
-    Await.result(f, futureTimeout)
   }
 
   it should "index updated models" in {
@@ -90,14 +88,12 @@ class ModelServiceSpec extends GenericUnitTest {
 
     val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
 
-    val f = modelManagementService.indexModels(Set(1L)).map { statuses =>
+    modelManagementService.indexModels(Set(1L)).map { statuses =>
       println(statuses)
       assert(statuses.nonEmpty)
       assert(!statuses.exists(_.isInstanceOf[IndexError]))
       assert(statuses.forall(_.isInstanceOf[ModelUpdated]))
     }
-
-    Await.result(f, futureTimeout)
   }
 
   it should "upload new model" in {
@@ -142,13 +138,12 @@ class ModelServiceSpec extends GenericUnitTest {
 
     val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
 
-    val f = modelManagementService.uploadModelTarball(upload).map{ maybeModel =>
+    modelManagementService.uploadModelTarball(upload).map{ maybeModel =>
       maybeModel.isRight should equal(true)
       val rModel = maybeModel.right.get
       rModel.name should equal("test")
       rModel.source should equal("test:test")
     }
-    Await.result(f, futureTimeout)
   }
 
   it should "upload existing model" in {
@@ -189,13 +184,12 @@ class ModelServiceSpec extends GenericUnitTest {
 
     val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
 
-    val f = modelManagementService.uploadModelTarball(upload).map{ maybeModel =>
+    modelManagementService.uploadModelTarball(upload).map{ maybeModel =>
       maybeModel.isRight should equal(true)
       val rModel = maybeModel.right.get
       rModel.name should equal("test")
       rModel.source should equal("test:tensorflow_model")
     }
-    Await.result(f, futureTimeout)
   }
 
   it should "add a new model" in {
@@ -223,13 +217,11 @@ class ModelServiceSpec extends GenericUnitTest {
 
     val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
 
-    val f = modelManagementService.addModel(sourceName, modelPath).map{ maybeModel =>
+    modelManagementService.addModel(sourceName, modelPath).map{ maybeModel =>
       maybeModel.isRight should equal(true)
       val model = maybeModel.right.get
       model.name should equal(modelPath)
     }
-
-    Await.result(f, futureTimeout)
   }
 
   it should "reject an addition of existing model" in {
@@ -250,10 +242,8 @@ class ModelServiceSpec extends GenericUnitTest {
 
     val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
 
-    val f = modelManagementService.addModel(sourceName, modelPath).map{ maybeModel =>
+    modelManagementService.addModel(sourceName, modelPath).map{ maybeModel =>
       maybeModel.isLeft should equal(true)
     }
-
-    Await.result(f, 20 seconds)
   }
 }

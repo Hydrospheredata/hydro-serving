@@ -27,7 +27,6 @@ class ApplicationServiceSpec extends GenericUnitTest {
     val serviceDescription = result.head.executionGraph.stages.head.services.head.serviceDescription
     assert(serviceDescription.runtimeName.contains("runtime"))
     assert(serviceDescription.modelName.contains("model_name:1"))
-
   }
 
   def models() = Map(1l -> ModelVersion(

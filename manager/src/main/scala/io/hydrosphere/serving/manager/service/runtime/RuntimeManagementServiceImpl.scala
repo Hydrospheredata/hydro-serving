@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.service.runtime
 
-import io.hydrosphere.serving.manager.model.HFResult
+import io.hydrosphere.serving.manager.model.{HFResult, Result}
 import io.hydrosphere.serving.manager.model.Result.ClientError
 import io.hydrosphere.serving.manager.model.Result.Implicits._
 import io.hydrosphere.serving.manager.model.api.ModelType
@@ -32,17 +32,21 @@ class RuntimeManagementServiceImpl(
     modelTypes: List[String] = List.empty,
     tags: List[String] = List.empty,
     configParams: Map[String, String] = Map.empty
-  ): Future[Runtime] = {
-    val rType = Runtime(
-      id = 0,
-      name = name,
-      version = version,
-      suitableModelType = modelTypes
-        .map(ModelType.fromTag),
-      tags = tags,
-      configParams = configParams
-    )
-    runtimeRepository.create(rType)
+  ): HFResult[Runtime] = {
+    runtimeRepository.fetchByNameAndVersion(name, version).flatMap {
+      case Some(_) => Result.clientErrorF(s"Runtime $name:$version already exists")
+      case None =>
+        val rType = Runtime(
+          id = 0,
+          name = name,
+          version = version,
+          suitableModelType = modelTypes
+            .map(ModelType.fromTag),
+          tags = tags,
+          configParams = configParams
+        )
+        runtimeRepository.create(rType).map(Result.ok)
+    }
   }
 
   override def get(id: Long): HFResult[Runtime] =

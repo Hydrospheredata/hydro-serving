@@ -18,7 +18,7 @@ trait RuntimeManagementService {
     modelTypes: List[String] = List.empty,
     tags: List[String] = List.empty,
     configParams: Map[String, String] = Map.empty
-  ): Future[Runtime]
+  ): HFResult[Runtime]
 
   def get(id: Long): HFResult[Runtime]
 }
