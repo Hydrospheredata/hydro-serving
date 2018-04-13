@@ -49,7 +49,7 @@ services:
     image: hydrosphere/serving-manager-ui:latest
     container_name: managerui
     ports:
-      - "8083:80"
+      - "8083:9091"
     networks:
       - extnet
       - hydronet
