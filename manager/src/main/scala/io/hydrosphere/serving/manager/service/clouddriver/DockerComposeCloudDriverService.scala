@@ -2,8 +2,8 @@ package io.hydrosphere.serving.manager.service.clouddriver
 
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.messages.{Container, HostConfig, LogConfig}
+import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
 import io.hydrosphere.serving.manager.{DockerCloudDriverConfiguration, ManagerConfiguration}
-import io.hydrosphere.serving.manager.service.InternalManagerEventsPublisher
 
 import collection.JavaConversions._
 import scala.concurrent.ExecutionContext

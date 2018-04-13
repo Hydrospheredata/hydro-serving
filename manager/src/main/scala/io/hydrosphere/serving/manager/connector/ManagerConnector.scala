@@ -7,7 +7,8 @@ import akka.http.scaladsl.model.{HttpRequest, Uri}
 import akka.http.scaladsl.unmarshalling.Unmarshal
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.{Sink, Source}
-import io.hydrosphere.serving.manager.model.{Application, CommonJsonSupport}
+import io.hydrosphere.serving.manager.model.db.Application
+import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol
 
 import scala.concurrent.Future
 
@@ -21,7 +22,7 @@ trait ManagerConnector {
 
 class HttpManagerConnector(host: String, port: Int = 80)
                           (implicit val system: ActorSystem,
-                           implicit val materializer: ActorMaterializer) extends ManagerConnector with CommonJsonSupport {
+                           implicit val materializer: ActorMaterializer) extends ManagerConnector with CompleteJsonProtocol {
 
   val http = Http(system)
 

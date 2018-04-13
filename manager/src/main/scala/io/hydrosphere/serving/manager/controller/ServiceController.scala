@@ -5,22 +5,22 @@ import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.model.CommonJsonSupport._
-import io.hydrosphere.serving.manager.model.Service
+import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
+import io.hydrosphere.serving.manager.model.db.Service
 import io.hydrosphere.serving.manager.service._
+import io.hydrosphere.serving.manager.service.application.ApplicationManagementService
+import io.hydrosphere.serving.manager.service.service.ServiceManagementService
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
 
-/**
-  *
-  */
+
 @Path("/api/v1/service")
 @Api(produces = "application/json", tags = Array("Service"))
 class ServiceController(
   serviceManagementService: ServiceManagementService,
   applicationManagementService: ApplicationManagementService
-) extends ServingDataDirectives {
+) extends GenericController {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/")

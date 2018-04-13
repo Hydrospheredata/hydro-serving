@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service.clouddriver
 
 import io.hydrosphere.serving.manager.model.api.ModelType
-import io.hydrosphere.serving.manager.model.Service
+import io.hydrosphere.serving.manager.model.db.Service
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.Future

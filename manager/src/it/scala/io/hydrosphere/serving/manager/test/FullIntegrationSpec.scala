@@ -33,14 +33,14 @@ trait FullIntegrationSpec extends DatabaseAccessIT
 
   def configuration = originalConfiguration
 
-  var managerRepositories: ManagerRepositoriesConfig = _
+  var managerRepositories: ManagerRepositories = _
   var managerServices: ManagerServices = _
   var managerApi: ManagerHttpApi = _
   var managerGRPC: ManagerGRPC = _
 
   override protected def beforeAll(): Unit = {
     super.beforeAll()
-    managerRepositories = new ManagerRepositoriesConfig(configuration)
+    managerRepositories = new ManagerRepositories(configuration)
     managerServices = new ManagerServices(managerRepositories, configuration, dockerClient)
     managerApi = new ManagerHttpApi(managerServices, configuration)
     managerGRPC = new ManagerGRPC(managerServices, configuration)

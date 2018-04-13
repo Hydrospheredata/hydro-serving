@@ -1,10 +1,11 @@
 package io.hydrosphere.serving.manager.repository.db
 
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model.Environment
 import io.hydrosphere.serving.manager.repository.EnvironmentRepository
 import org.apache.logging.log4j.scala.Logging
-import io.hydrosphere.serving.manager.model.CommonJsonSupport._
+import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
+import io.hydrosphere.serving.manager.model.db.Environment
+
 import scala.concurrent.{ExecutionContext, Future}
 
 class EnvironmentRepositoryImpl(implicit executionContext: ExecutionContext, databaseService: DatabaseService)

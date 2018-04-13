@@ -2,18 +2,11 @@ package io.hydrosphere.serving.manager.service.actors
 
 import akka.actor.{ActorRef, Props}
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.model.Service
+import io.hydrosphere.serving.manager.model.db.Service
 import io.hydrosphere.serving.manager.service.actors.ContainerWatcherActor._
 
 import scala.collection.concurrent.TrieMap
 import scala.concurrent.duration._
-
-/*
-private val containerWatcher = actorSystem.actorOf(ContainerWatcherActor.props)
-
-val f = containerWatcher ? WatchForStart(res)
-                f.mapTo[Started].map(_.modelService)
-*/
 
 class ContainerWatcherActor(timeout: Timeout)
   extends SelfScheduledActor(0.seconds, 1000.millis)(timeout) {

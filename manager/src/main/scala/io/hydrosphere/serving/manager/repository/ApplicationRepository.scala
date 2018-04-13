@@ -1,12 +1,9 @@
 package io.hydrosphere.serving.manager.repository
 
-import io.hydrosphere.serving.manager.model.{Application, ServiceKeyDescription}
+import io.hydrosphere.serving.manager.model.db.{Application, ServiceKeyDescription}
 
 import scala.concurrent.Future
 
-/**
-  *
-  */
 trait ApplicationRepository extends BaseRepository[Application, Long] {
   def update(value: Application): Future[Int]
 

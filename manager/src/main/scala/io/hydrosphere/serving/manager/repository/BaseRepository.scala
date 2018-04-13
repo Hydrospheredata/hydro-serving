@@ -2,9 +2,6 @@ package io.hydrosphere.serving.manager.repository
 
 import scala.concurrent.Future
 
-/**
-  *
-  */
 trait BaseRepository[T, ID] {
   def create(entity: T): Future[T]
 

@@ -1,12 +1,12 @@
 package io.hydrosphere.serving.manager.service
 
-import akka.testkit.TestProbe
 import io.hydrosphere.serving.manager.controller.application._
-import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.service.actors.RepositoryIndexActor
+import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.LocalSourceParams
+import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
 import org.scalatest.BeforeAndAfterAll
 
+import scala.concurrent.Await
 import scala.concurrent.duration._
 
 class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
@@ -14,7 +14,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
   "Application service" should {
     "create a simple application" in {
       for {
-        version <- managerServices.modelManagementService.buildModel(1, None)
+        version <- managerServices.modelBuildManagmentService.buildModel(1, None)
         appRequest = CreateApplicationRequest(
           name = "testapp",
           executionGraph = ExecutionGraphRequest(
@@ -23,7 +23,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 services = List(
                   SimpleServiceDescription(
                     runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(version.id),
+                    modelVersionId = Some(version.right.get.id),
                     environmentId = None,
                     weight = 0,
                     signatureName = "default"
@@ -34,8 +34,14 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           ),
           kafkaStreaming = List.empty
         )
-        app <- managerServices.applicationManagementService.createApplication(appRequest)
+        appResult <- managerServices.applicationManagementService.createApplication(
+          appRequest.name,
+          appRequest.executionGraph,
+          appRequest.kafkaStreaming
+        )
       } yield {
+        println(appResult)
+        val app = appResult.right.get
         println(app)
         val expectedGraph = ApplicationExecutionGraph(
           List(
@@ -56,14 +62,15 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           )
         )
         assert(app.name === appRequest.name)
-        assert(app.contract === version.modelContract)
+        assert(app.contract === version.right.get.modelContract)
         assert(app.executionGraph === expectedGraph)
       }
     }
 
     "create a multi-service stage" in {
       for {
-        version <- managerServices.modelManagementService.buildModel(1, None)
+        versionResult <- managerServices.modelBuildManagmentService.buildModel(1, None)
+        version = versionResult.right.get
         appRequest = CreateApplicationRequest(
           name = "MultiServiceStage",
           executionGraph = ExecutionGraphRequest(
@@ -90,8 +97,13 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           ),
           kafkaStreaming = List.empty
         )
-        app <- managerServices.applicationManagementService.createApplication(appRequest)
+        appRes <- managerServices.applicationManagementService.createApplication(
+          appRequest.name,
+          appRequest.executionGraph,
+          appRequest.kafkaStreaming
+        )
       } yield {
+        val app = appRes.right.get
         println(app)
         val expectedGraph = ApplicationExecutionGraph(
           List(
@@ -127,7 +139,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
     "create and update an application with kafkaStreaming" in {
       for {
-        version <- managerServices.modelManagementService.buildModel(1, None)
+        version <- managerServices.modelBuildManagmentService.buildModel(1, None)
         appRequest = CreateApplicationRequest(
           name = "kafka_app",
           executionGraph = ExecutionGraphRequest(
@@ -136,7 +148,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 services = List(
                   SimpleServiceDescription(
                     runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(version.id),
+                    modelVersionId = Some(version.right.get.id),
                     environmentId = None,
                     weight = 100,
                     signatureName = "default"
@@ -154,18 +166,26 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
             )
           )
         )
-        app <- managerServices.applicationManagementService.createApplication(appRequest)
-        appUpdate = UpdateApplicationRequest(
-          id = app.id,
-          name = app.name,
-          executionGraph = appRequest.executionGraph,
-          kafkaStream = None
+        appRes <- managerServices.applicationManagementService.createApplication(
+          appRequest.name,
+          appRequest.executionGraph,
+          appRequest.kafkaStreaming
         )
-        appNew <- managerServices.applicationManagementService.updateApplication(appUpdate)
+        app = appRes.right.get
+
+        appResNew <- managerServices.applicationManagementService.updateApplication(
+          app.id,
+          app.name,
+          appRequest.executionGraph,
+          Seq.empty
+        )
+        appNew = appResNew.right.get
+
         maybeGotNewApp <- managerServices.applicationManagementService.getApplication(appNew.id)
       } yield {
-        assert(maybeGotNewApp.isDefined, "Couldn't find updated application in repository")
-        assert(appNew === maybeGotNewApp.get)
+        println(app)
+        assert(maybeGotNewApp.isRight, s"Couldn't find updated application in repository ${appNew}")
+        assert(appNew === maybeGotNewApp.right.get)
         assert(appNew.kafkaStreaming.isEmpty, appNew)
       }
     }
@@ -174,15 +194,12 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
   override def beforeAll(): Unit = {
     super.beforeAll()
     dockerClient.pull("hydrosphere/serving-runtime-dummy:latest")
-    val indexProbe = TestProbe()
-    system.eventStream.subscribe(indexProbe.ref, classOf[RepositoryIndexActor.IndexFinished])
-    managerServices.sourceManagementService.addSource(
-      ModelSourceConfig(1, "itsource", LocalSourceParams(getClass.getResource("/models").getPath)).toAux
-    )
-    indexProbe.expectMsgAllOf(
-      20.seconds,
-      RepositoryIndexActor.IndexFinished("dummy_model", "itsource"),
-      RepositoryIndexActor.IndexFinished("dummy_model_2", "itsource")
-    )
+    val sourceConf = ModelSourceConfig(1, "itsource", LocalSourceParams(Some(getClass.getResource("/models").getPath)))
+    val f = for {
+      _ <- managerServices.sourceManagementService.addSource(sourceConf)
+      m <- managerServices.modelManagementService.addModel("itsource", "dummy_model")
+    } yield m
+
+    Await.result(f, 30 seconds)
   }
 }
