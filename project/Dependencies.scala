@@ -21,8 +21,8 @@ object Dependencies {
     "com.amazonaws" % "aws-java-sdk-iam" % awsSdkVersion,
     "com.amazonaws" % "aws-java-sdk-ecr" % awsSdkVersion,
     "com.amazonaws" % "aws-java-sdk-sqs" % awsSdkVersion,
-    "com.amazonaws" % "aws-java-sdk-s3" % awsSdkVersion
-    "com.amazonaws" % "aws-java-sdk-route53" % awsSdkVersion,
+    "com.amazonaws" % "aws-java-sdk-s3" % awsSdkVersion,
+    "com.amazonaws" % "aws-java-sdk-route53" % awsSdkVersion
   )
 
   lazy val hdfsDependencies = Seq(

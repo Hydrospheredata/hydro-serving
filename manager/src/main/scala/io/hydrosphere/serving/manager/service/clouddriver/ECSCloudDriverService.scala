@@ -7,9 +7,9 @@ import com.amazonaws.services.ec2.model.DescribeInstancesRequest
 import com.amazonaws.services.ec2.{AmazonEC2, AmazonEC2ClientBuilder}
 import com.amazonaws.services.ecs.model._
 import com.amazonaws.services.ecs.{AmazonECS, AmazonECSClientBuilder}
-import io.hydrosphere.serving.manager.model.{CommonJsonSupport, Service}
+import io.hydrosphere.serving.manager.model.db.Service
 import io.hydrosphere.serving.manager.model.api.ModelType
-import io.hydrosphere.serving.manager.service.InternalManagerEventsPublisher
+import io.hydrosphere.serving.manager.service.internal_events._
 import io.hydrosphere.serving.manager.service.actors.SelfScheduledActor
 import io.hydrosphere.serving.manager.{ECSCloudDriverConfiguration, ManagerConfiguration}
 import org.apache.logging.log4j.scala.Logging
@@ -23,6 +23,7 @@ import CloudDriverService._
 import akka.util.Timeout
 import com.amazonaws.services.route53.model.{RRType, _}
 import com.amazonaws.services.route53.{AmazonRoute53, AmazonRoute53ClientBuilder}
+import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol
 import io.hydrosphere.serving.manager.service.clouddriver.ECSServiceWatcherActor._
 
 import scala.collection.mutable
@@ -33,7 +34,7 @@ class ECSCloudDriverService(
 )(
     implicit val ex: ExecutionContext,
     actorSystem: ActorSystem
-) extends CloudDriverService with Logging with CommonJsonSupport {
+) extends CloudDriverService with Logging {
   implicit val timeout = Timeout(30.seconds)
 
   private val ecsSyncActor: ActorRef = actorSystem.actorOf(Props(classOf[ECSServiceWatcherActor], internalManagerEventsPublisher, managerConfiguration))
@@ -71,7 +72,7 @@ object ECSServiceWatcherActor {
 class ECSServiceWatcherActor(
     internalManagerEventsPublisher: InternalManagerEventsPublisher,
     managerConfiguration: ManagerConfiguration
-) extends SelfScheduledActor(0.seconds, 30.seconds)(30.seconds) with CommonJsonSupport {
+) extends SelfScheduledActor(0.seconds, 30.seconds)(30.seconds) with CompleteJsonProtocol {
 
   val ecsCloudDriverConfiguration: ECSCloudDriverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[ECSCloudDriverConfiguration]
 
