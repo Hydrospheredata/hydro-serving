@@ -31,11 +31,7 @@ class EnvoyGRPCDiscoveryServiceImpl(
 
   private val clusterDSActor: ActorRef = actorSystem.actorOf(Props[ClusterDSActor])
   //TODO use managerConfiguration for endpoint configuration
-  private val endpointDSActor: ActorRef = actorSystem.actorOf(Props(classOf[EndpointDSActor],
-    false,
-    "mainapplication",
-    9091
-  ))
+  private val endpointDSActor: ActorRef = actorSystem.actorOf(Props[EndpointDSActor])
   private val listenerDSActor: ActorRef = actorSystem.actorOf(Props[ListenerDSActor])
   private val routeDSActor: ActorRef = actorSystem.actorOf(Props[RouteDSActor])
   private val applicationDSActor: ActorRef = actorSystem.actorOf(Props[ApplicationDSActor])

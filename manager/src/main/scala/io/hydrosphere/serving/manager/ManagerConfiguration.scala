@@ -39,57 +39,71 @@ case class ManagerConfigurationImpl(
 ) extends ManagerConfiguration
 
 case class AdvertisedConfiguration(
-  advertisedHost: String,
-  advertisedPort: Int)
+    advertisedHost: String,
+    advertisedPort: Int
+)
 
-abstract class DockerRepositoryConfiguration()
+case class ModelLoggingConfiguration(
+    driver: String,
+    params: Map[String, String]
+)
 
-case class LocalDockerRepositoryConfiguration() extends DockerRepositoryConfiguration
+abstract class DockerRepositoryConfiguration(
+)
 
-case class ECSDockerRepositoryConfiguration(
-  region: Regions,
-  accountId: String
+case class LocalDockerRepositoryConfiguration(
 ) extends DockerRepositoryConfiguration
 
-abstract class CloudDriverConfiguration()
+case class ECSDockerRepositoryConfiguration(
+    region: Regions,
+    accountId: String
+) extends DockerRepositoryConfiguration
+
+abstract class CloudDriverConfiguration(
+    loggingConfiguration: Option[ModelLoggingConfiguration]
+)
 
 case class SwarmCloudDriverConfiguration(
-  networkName: String
-) extends CloudDriverConfiguration
+    networkName: String,
+    loggingConfiguration: Option[ModelLoggingConfiguration]
+) extends CloudDriverConfiguration(loggingConfiguration)
 
 case class DockerCloudDriverConfiguration(
-  networkName: String,
-  loggingGelfHost: Option[String]
-) extends CloudDriverConfiguration
+    networkName: String,
+    loggingConfiguration: Option[ModelLoggingConfiguration]
+) extends CloudDriverConfiguration(loggingConfiguration)
 
 case class LocalDockerCloudDriverConfiguration(
-
-) extends CloudDriverConfiguration
+    loggingConfiguration: Option[ModelLoggingConfiguration]
+) extends CloudDriverConfiguration(loggingConfiguration)
 
 case class ECSCloudDriverConfiguration(
-  region: Regions,
-  cluster: String,
-  accountId: String,
-  loggingGelfHost: Option[String]
-) extends CloudDriverConfiguration
+    region: Regions,
+    cluster: String,
+    accountId: String,
+    loggingConfiguration: Option[ModelLoggingConfiguration],
+    memoryReservation: Int = 200,
+    internalDomainName: String,
+    vpcId: String
+) extends CloudDriverConfiguration(loggingConfiguration)
 
 case class ZipkinConfiguration(
-  host: String,
-  port: Int,
-  enabled: Boolean
+    host: String,
+    port: Int,
+    enabled: Boolean
 )
 
 case class ApplicationConfig(
-  port: Int,
-  grpcPort: Int,
-  shadowingOn:Boolean
+    port: Int,
+    grpcPort: Int,
+    shadowingOn: Boolean
 )
 
 case class SidecarConfig(
-  host: String,
-  ingressPort: Int,
-  egressPort: Int,
-  adminPort: Int
+    host: String,
+    ingressPort: Int,
+    egressPort: Int,
+    adminPort: Int
 )
 
 object ManagerConfiguration {
@@ -136,34 +150,55 @@ object ManagerConfiguration {
     )
   }
 
+  def parseLoggingConfiguration(config: Config): Option[ModelLoggingConfiguration] = {
+    if (!config.hasPath("logging")) {
+      return None
+    }
+    val c = config.getConfig("logging")
+    if (!c.hasPath("driver")) {
+      return None
+    }
+
+    Some(ModelLoggingConfiguration(
+      driver = c.getString("driver"),
+      params = c.root().entrySet().asScala
+        .filter(_.getKey != "driver")
+        .map(kv => kv.getKey -> c.getString(kv.getKey)).toMap
+    ))
+  }
+
   def parseCloudDriver(config: Config): CloudDriverConfiguration = {
     val c = config.getConfig("cloudDriver")
     //config.getAnyRef("modelSources").{ kv =>
     config.getConfig("cloudDriver").root().entrySet().asScala.map { kv =>
       val driverConf = c.getConfig(kv.getKey)
+
+      val loggingConfiguration = parseLoggingConfiguration(driverConf)
       kv.getKey match {
         case "swarm" =>
-          SwarmCloudDriverConfiguration(networkName = driverConf.getString("networkName"))
+          SwarmCloudDriverConfiguration(
+            networkName = driverConf.getString("networkName"),
+            loggingConfiguration = loggingConfiguration
+          )
         case "docker" =>
-          val hasLoggingGelfHost = driverConf.hasPath("loggingGelfHost")
           DockerCloudDriverConfiguration(
             networkName = driverConf.getString("networkName"),
-            loggingGelfHost = if (hasLoggingGelfHost)
-              Some(driverConf.getString("loggingGelfHost")) else None
+            loggingConfiguration = loggingConfiguration
           )
         case "ecs" =>
-          val hasLoggingGelfHost = driverConf.hasPath("loggingGelfHost")
           ECSCloudDriverConfiguration(
             region = Regions.fromName(driverConf.getString("region")),
             cluster = driverConf.getString("cluster"),
             accountId = driverConf.getString("accountId"),
-            loggingGelfHost = if (hasLoggingGelfHost)
-              Some(driverConf.getString("loggingGelfHost")) else None
+            internalDomainName = driverConf.getString("internalDomainName"),
+            vpcId = driverConf.getString("vpcId"),
+            memoryReservation = driverConf.getInt("memoryReservation"),
+            loggingConfiguration = loggingConfiguration
           )
         case _ =>
-          LocalDockerCloudDriverConfiguration()
+          LocalDockerCloudDriverConfiguration(loggingConfiguration)
       }
-    }.headOption.getOrElse(LocalDockerCloudDriverConfiguration())
+    }.headOption.getOrElse(LocalDockerCloudDriverConfiguration(None))
   }
 
   def parseAdvertised(config: Config): AdvertisedConfiguration = {

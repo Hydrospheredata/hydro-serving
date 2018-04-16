@@ -96,6 +96,7 @@ class ManagerServices(
   )
 
   val cloudDriverService: CloudDriverService = managerConfiguration.cloudDriver match {
+    case _: ECSCloudDriverConfiguration=> new ECSCloudDriverService(managerConfiguration, internalManagerEventsPublisher)
     case _: DockerCloudDriverConfiguration => new DockerComposeCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
     case _ => new LocalCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
   }

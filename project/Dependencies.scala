@@ -11,7 +11,7 @@ object Dependencies {
   val slickPgVersion = "0.15.4"
   val scalaPBVersion = "0.6.7"
   val grpcNettyVersion = "1.8.0"
-  val awsSdkVersion = "1.11.184"
+  val awsSdkVersion = "1.11.312"
   val servingGrpcScala = "0.1.2"
   val catsV = "1.1.0"
 
@@ -21,7 +21,8 @@ object Dependencies {
     "com.amazonaws" % "aws-java-sdk-iam" % awsSdkVersion,
     "com.amazonaws" % "aws-java-sdk-ecr" % awsSdkVersion,
     "com.amazonaws" % "aws-java-sdk-sqs" % awsSdkVersion,
-    "com.amazonaws" % "aws-java-sdk-s3" % awsSdkVersion
+    "com.amazonaws" % "aws-java-sdk-s3" % awsSdkVersion,
+    "com.amazonaws" % "aws-java-sdk-route53" % awsSdkVersion
   )
 
   lazy val hdfsDependencies = Seq(

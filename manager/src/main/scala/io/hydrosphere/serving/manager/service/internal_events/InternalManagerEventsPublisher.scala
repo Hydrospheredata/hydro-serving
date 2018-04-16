@@ -20,6 +20,9 @@ class InternalManagerEventsPublisher(implicit actorSystem: ActorSystem) {
 
   def cloudServiceDetected(cloudService: Seq[CloudService]): Unit =
     actorSystem.eventStream.publish(CloudServiceDetected(cloudService))
+
+  def cloudServiceRemoved(cloudService: Seq[CloudService]): Unit =
+    actorSystem.eventStream.publish(CloudServiceRemoved(cloudService))
 }
 
 

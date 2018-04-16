@@ -33,6 +33,8 @@ abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUr
     val t = Try({
       stream.synchronized{
         //TODO quick fix - wrong fix, need to refactor ...DSActors
+        log.debug(s"DiscoveryResponse: $discoveryResponse")
+
         stream.onNext(discoveryResponse)
       }
     })
@@ -42,7 +44,9 @@ abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUr
         observerNode.remove(stream)
         observerResources.remove(stream)
         //TODO am I right? could I invoke onClose after error in onNext?
-        stream.onError(e)
+        stream.synchronized{
+          stream.onError(e)
+        }
       case _ =>
     }
   }
