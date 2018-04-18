@@ -69,7 +69,7 @@ class ApplicationController(
     put {
       entity(as[UpdateApplicationRequest]) { r =>
         completeFRes(
-          applicationManagementService.updateApplication(r.id, r.name, r.executionGraph, r.kafkaStream.map(_.toList).getOrElse(List.empty))
+          applicationManagementService.updateApplication(r.id, r.name, r.executionGraph, r.kafkaStreaming.map(_.toList).getOrElse(List.empty))
         )
       }
     }
