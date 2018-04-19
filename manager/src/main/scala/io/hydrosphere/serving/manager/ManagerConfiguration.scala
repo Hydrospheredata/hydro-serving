@@ -213,7 +213,6 @@ object ManagerConfiguration {
     val c = config.getConfig("modelSources")
     c.root().entrySet().asScala.map { kv =>
       val modelSourceConfig = c.getConfig(kv.getKey)
-      val path = modelSourceConfig.getString("path")
       val name = {
         if (modelSourceConfig.hasPath("name")) {
           modelSourceConfig.getString("name")
@@ -231,7 +230,7 @@ object ManagerConfiguration {
         case "s3" =>
           S3SourceParams(
             awsAuth = parseAWSAuth(modelSourceConfig),
-            path = path,
+            path = modelSourceConfig.getString("path"),
             bucketName = modelSourceConfig.getString("bucket"),
             region = modelSourceConfig.getString("region")
           )
