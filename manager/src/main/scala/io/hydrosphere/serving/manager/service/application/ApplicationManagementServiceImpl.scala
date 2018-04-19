@@ -112,7 +112,7 @@ class ApplicationManagementServiceImpl(
                 Result.ok(
                   ExecutionUnit(
                     serviceName = ApplicationStage.stageId(application.id, idx),
-                    servicePath = signature.signatureName
+                    servicePath = stage.services.head.signature.get.signatureName // FIXME dirty hack to fix service signatures
                   )
                 )
               case None => Result.clientError(s"$stage doesn't have a signature")
