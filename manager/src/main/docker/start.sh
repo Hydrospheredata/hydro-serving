@@ -63,7 +63,7 @@ then
 
     if [ -n "$LOCAL_MODEL_PATH" ]; then
         APP_OPTS="$APP_OPTS -DmodelSources.local.name=local"
-        APP_OPTS="$APP_OPTS -DmodelSources.local.path=$LOCAL_MODEL_PATH"
+        APP_OPTS="$APP_OPTS -DmodelSources.local.pathPrefix=$LOCAL_MODEL_PATH"
     fi
     if [ -n "$S3_MODEL_PATH" ]; then
         APP_OPTS="$APP_OPTS -DmodelSources.s3.name=s3"
