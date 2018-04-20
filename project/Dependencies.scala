@@ -14,6 +14,7 @@ object Dependencies {
   val awsSdkVersion = "1.11.312"
   val servingGrpcScala = "0.1.2"
   val catsV = "1.1.0"
+  val elastic4sVersion = "6.2.4"
 
   lazy val awsDependencies = Seq(
     "com.amazonaws" % "aws-java-sdk-ecs" % awsSdkVersion,
@@ -75,6 +76,11 @@ object Dependencies {
       "com.typesafe.slick" %% "slick-codegen" % slickVersion
     )
 
+  lazy val elastic4sDependencies = Seq(
+    "com.sksamuel.elastic4s" %% "elastic4s-core" % elastic4sVersion,
+    "com.sksamuel.elastic4s" %% "elastic4s-http" % elastic4sVersion
+  )
+
   lazy val hydroServingDummyRuntimeDependencies = logDependencies ++
     grpcDependencies
 
@@ -84,6 +90,7 @@ object Dependencies {
     akkaHttpDependencies ++
     awsDependencies ++
     grpcDependencies ++
+    elastic4sDependencies ++
     Seq(
       "org.typelevel" %% "cats-core" % catsV,
       "io.hydrosphere" %% "envoy-data-plane-api" % "v1.5.0_1",

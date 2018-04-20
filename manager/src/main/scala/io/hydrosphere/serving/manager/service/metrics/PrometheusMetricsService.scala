@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.service.prometheus
+package io.hydrosphere.serving.manager.service.metrics
 
 import io.hydrosphere.serving.manager.connector.EnvoyAdminConnector
 import io.hydrosphere.serving.manager.model.HFResult

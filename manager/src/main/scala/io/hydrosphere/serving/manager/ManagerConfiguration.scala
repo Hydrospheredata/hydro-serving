@@ -3,7 +3,6 @@ package io.hydrosphere.serving.manager
 import com.amazonaws.regions.Regions
 import com.typesafe.config.Config
 import com.zaxxer.hikari.HikariConfig
-import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.ModelSourceConfig
 import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.{AWSAuthKeys, LocalSourceParams, S3SourceParams}
 
@@ -25,18 +24,31 @@ trait ManagerConfiguration {
   def zipkin: ZipkinConfiguration
 
   def dockerRepository: DockerRepositoryConfiguration
+
+  def metrics: MetricsConfiguration
 }
 
 case class ManagerConfigurationImpl(
-  sidecar: SidecarConfig,
-  application: ApplicationConfig,
-  advertised: AdvertisedConfiguration,
-  modelSources: Seq[ModelSourceConfig],
-  database: HikariConfig,
-  cloudDriver: CloudDriverConfiguration,
-  zipkin: ZipkinConfiguration,
-  dockerRepository: DockerRepositoryConfiguration
+    sidecar: SidecarConfig,
+    application: ApplicationConfig,
+    advertised: AdvertisedConfiguration,
+    modelSources: Seq[ModelSourceConfig],
+    database: HikariConfig,
+    cloudDriver: CloudDriverConfiguration,
+    zipkin: ZipkinConfiguration,
+    dockerRepository: DockerRepositoryConfiguration,
+    metrics: MetricsConfiguration
 ) extends ManagerConfiguration
+
+case class ElasticSearchMetricsConfiguration(
+    indexName: String,
+    mappingName: String,
+    clientUri: String
+)
+
+case class MetricsConfiguration(
+    elasticSearch: Option[ElasticSearchMetricsConfiguration]
+)
 
 case class AdvertisedConfiguration(
     advertisedHost: String,
@@ -225,7 +237,9 @@ object ManagerConfiguration {
         case "local" =>
           val prefix = if (modelSourceConfig.hasPath("pathPrefix")) {
             Some(modelSourceConfig.getString("pathPrefix"))
-          } else { None }
+          } else {
+            None
+          }
           LocalSourceParams(prefix)
         case "s3" =>
           S3SourceParams(
@@ -264,6 +278,26 @@ object ManagerConfiguration {
     hikariConfig
   }
 
+  def parseElasticSearchMetrics(config: Config): Option[ElasticSearchMetricsConfiguration] = {
+    if (config.hasPath("elastic")) {
+      val elasticConfig=config.getConfig("elastic")
+      Some(ElasticSearchMetricsConfiguration(
+        indexName=elasticConfig.getString("indexName"),
+        mappingName=elasticConfig.getString("mappingName"),
+        clientUri=elasticConfig.getString("clientUri")
+      ))
+    } else {
+      None
+    }
+  }
+
+  def parseMetrics(config: Config): MetricsConfiguration = {
+    val metrics = config.getConfig("metrics")
+    MetricsConfiguration(
+      elasticSearch = parseElasticSearchMetrics(metrics)
+    )
+  }
+
   def parse(config: Config): ManagerConfigurationImpl = ManagerConfigurationImpl(
     sidecar = parseSidecar(config),
     application = parseApplication(config),
@@ -272,7 +306,8 @@ object ManagerConfiguration {
     database = parseDatabase(config),
     cloudDriver = parseCloudDriver(config),
     zipkin = parseZipkin(config),
-    dockerRepository = parseDockerRepository(config)
+    dockerRepository = parseDockerRepository(config),
+    metrics = parseMetrics(config)
   )
 
 }
