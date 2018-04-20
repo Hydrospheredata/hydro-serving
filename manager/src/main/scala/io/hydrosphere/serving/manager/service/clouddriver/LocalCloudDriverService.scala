@@ -243,6 +243,7 @@ class LocalCloudDriverService(
     Future.successful(Seq(
       MetricServiceTargets(
         targets = List(s"${managerConfiguration.sidecar.host}:${managerConfiguration.sidecar.adminPort}"),
+
         labels = MetricServiceTargetLabels(
           job = Some("sidecar"),
           modelName = None,

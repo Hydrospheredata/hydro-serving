@@ -72,6 +72,17 @@ then
         APP_OPTS="$APP_OPTS -DmodelSources.s3.bucket=$S3_MODEL_BUCKET"
         APP_OPTS="$APP_OPTS -DmodelSources.s3.queue=$S3_MODEL_QUEUE"
     fi
+
+    if [ -n "$METRICS_ELASTIC_URI" ]; then
+        [ -z "$METRICS_ELASTIC_INDEX_NAME" ] && METRICS_ELASTIC_INDEX_NAME="metrics"
+        [ -z "$METRICS_ELASTIC_MAPPING_NAME" ] && METRICS_ELASTIC_MAPPING_NAME="system"
+        APP_OPTS="$APP_OPTS -Dmetrics.elastic.clientUri=$METRICS_ELASTIC_URI"
+        APP_OPTS="$APP_OPTS -Dmetrics.elastic.indexName=$METRICS_ELASTIC_INDEX_NAME"
+        APP_OPTS="$APP_OPTS -Dmetrics.elastic.mappingName=$METRICS_ELASTIC_MAPPING_NAME"
+    fi
+
+    #  indexName=metrics
+  #  mappingName=system
     echo "Custom config does not exist"
 else
    APP_OPTS="$APP_OPTS -Dconfig.file=$CUSTOM_CONFIG"

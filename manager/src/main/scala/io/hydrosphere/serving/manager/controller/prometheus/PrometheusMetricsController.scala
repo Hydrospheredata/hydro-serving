@@ -7,7 +7,7 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.controller.GenericController
-import io.hydrosphere.serving.manager.service.prometheus.PrometheusMetricsService
+import io.hydrosphere.serving.manager.service.metrics.PrometheusMetricsService
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import io.hydrosphere.serving.manager.service.clouddriver.MetricServiceTargets
 import io.swagger.annotations._

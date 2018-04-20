@@ -1,8 +1,10 @@
 package io.hydrosphere.serving.manager
 
-import akka.actor.ActorSystem
+import akka.actor.{ActorRef, ActorSystem, Props}
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
+import com.sksamuel.elastic4s.ElasticsearchClientUri
+import com.sksamuel.elastic4s.http.HttpClient
 import com.spotify.docker.client._
 import io.grpc.{Channel, ClientInterceptors, ManagedChannelBuilder}
 import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, KafkaTopicServerInterceptor}
@@ -20,7 +22,7 @@ import io.hydrosphere.serving.manager.service.model.{ModelManagementService, Mod
 import io.hydrosphere.serving.manager.service.model_build.{ModelBuildManagmentService, ModelBuildManagmentServiceImpl}
 import io.hydrosphere.serving.manager.service.model_build.builders._
 import io.hydrosphere.serving.manager.service.model_version.{ModelVersionManagementService, ModelVersionManagementServiceImpl}
-import io.hydrosphere.serving.manager.service.prometheus.PrometheusMetricsServiceImpl
+import io.hydrosphere.serving.manager.service.metrics.{ElasticSearchMetricsService, PrometheusMetricsServiceImpl}
 import io.hydrosphere.serving.manager.service.runtime.{RuntimeManagementService, RuntimeManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.service.{ServiceManagementService, ServiceManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.source.SourceManagementServiceImpl
@@ -30,14 +32,14 @@ import org.apache.logging.log4j.scala.Logging
 import scala.concurrent.ExecutionContext
 
 class ManagerServices(
-  val managerRepositories: ManagerRepositories,
-  val managerConfiguration: ManagerConfiguration,
-  val dockerClient: DockerClient
+    val managerRepositories: ManagerRepositories,
+    val managerConfiguration: ManagerConfiguration,
+    val dockerClient: DockerClient
 )(
-  implicit val ex: ExecutionContext,
-  implicit val system: ActorSystem,
-  implicit val materializer: ActorMaterializer,
-  implicit val timeout: Timeout
+    implicit val ex: ExecutionContext,
+    implicit val system: ActorSystem,
+    implicit val materializer: ActorMaterializer,
+    implicit val timeout: Timeout
 ) extends Logging {
 
   val managedChannel = ManagedChannelBuilder
@@ -96,7 +98,7 @@ class ManagerServices(
   )
 
   val cloudDriverService: CloudDriverService = managerConfiguration.cloudDriver match {
-    case _: ECSCloudDriverConfiguration=> new ECSCloudDriverService(managerConfiguration, internalManagerEventsPublisher)
+    case _: ECSCloudDriverConfiguration => new ECSCloudDriverService(managerConfiguration, internalManagerEventsPublisher)
     case _: DockerCloudDriverConfiguration => new DockerComposeCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
     case _ => new LocalCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
   }
@@ -139,4 +141,19 @@ class ManagerServices(
     serviceManagementService,
     applicationManagementService
   )
+
+  if (managerConfiguration.metrics.elasticSearch.isDefined) {
+    val conf = managerConfiguration.metrics.elasticSearch.get
+    val elasticClient = HttpClient(ElasticsearchClientUri(conf.clientUri))
+
+    val xdsManagementActor: ActorRef = system.actorOf(Props(classOf[ElasticSearchMetricsService],
+      managerConfiguration: ManagerConfiguration,
+      envoyAdminConnector,
+      cloudDriverService,
+      serviceManagementService,
+      applicationManagementService,
+      elasticClient
+    ))
+
+  }
 }
