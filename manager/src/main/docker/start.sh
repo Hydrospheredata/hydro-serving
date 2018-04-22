@@ -76,13 +76,14 @@ then
     if [ -n "$METRICS_ELASTIC_URI" ]; then
         [ -z "$METRICS_ELASTIC_INDEX_NAME" ] && METRICS_ELASTIC_INDEX_NAME="metrics"
         [ -z "$METRICS_ELASTIC_MAPPING_NAME" ] && METRICS_ELASTIC_MAPPING_NAME="system"
+        [ -z "$METRICS_ELASTIC_COLLECT_TIMEOUT" ] && METRICS_ELASTIC_COLLECT_TIMEOUT="30"
+
+        APP_OPTS="$APP_OPTS -Dmetrics.elastic.collectTimeout=$METRICS_ELASTIC_COLLECT_TIMEOUT"
         APP_OPTS="$APP_OPTS -Dmetrics.elastic.clientUri=$METRICS_ELASTIC_URI"
         APP_OPTS="$APP_OPTS -Dmetrics.elastic.indexName=$METRICS_ELASTIC_INDEX_NAME"
         APP_OPTS="$APP_OPTS -Dmetrics.elastic.mappingName=$METRICS_ELASTIC_MAPPING_NAME"
     fi
 
-    #  indexName=metrics
-  #  mappingName=system
     echo "Custom config does not exist"
 else
    APP_OPTS="$APP_OPTS -Dconfig.file=$CUSTOM_CONFIG"

@@ -2,8 +2,6 @@ name := "hydro-serving"
 
 updateOptions := updateOptions.value.withCachedResolution(true)
 
-lazy val currentAppVersion = util.Properties.propOrElse("appVersion", "latest")
-
 lazy val root = project.in(file("."))
   .configs(IntegrationTest)
   .settings(Defaults.itSettings: _*)

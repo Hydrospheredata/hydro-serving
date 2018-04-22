@@ -149,7 +149,9 @@ class LocalCloudDriverService(
     MainApplicationInstance(
       instanceId = containerApp.id(),
       host = managerConfiguration.sidecar.host,
-      port = containerApp.ports().head.publicPort()
+      port = containerApp.ports()
+        .filter(_.privatePort() == DEFAULT_APP_PORT)
+        .head.publicPort()
     )
 
   protected def mapToCloudService(serviceId: Long, seq: Seq[Container]): CloudService = {
