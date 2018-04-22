@@ -41,6 +41,7 @@ case class ManagerConfigurationImpl(
 ) extends ManagerConfiguration
 
 case class ElasticSearchMetricsConfiguration(
+    collectTimeout:Int,
     indexName: String,
     mappingName: String,
     clientUri: String
@@ -282,6 +283,7 @@ object ManagerConfiguration {
     if (config.hasPath("elastic")) {
       val elasticConfig=config.getConfig("elastic")
       Some(ElasticSearchMetricsConfiguration(
+        collectTimeout=elasticConfig.getInt("collectTimeout"),
         indexName=elasticConfig.getString("indexName"),
         mappingName=elasticConfig.getString("mappingName"),
         clientUri=elasticConfig.getString("clientUri")

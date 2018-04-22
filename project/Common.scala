@@ -14,7 +14,10 @@ object Common {
     fork in(IntegrationTest, testOnly) := true
   )
 
+  lazy val currentAppVersion = util.Properties.propOrElse("appVersion", "latest")
+
   val settings: Seq[Def.Setting[_]] = Seq(
+    version := currentAppVersion,
     scalaVersion := scalaVer,
     publishArtifact := false,
     organization := "io.hydrosphere.serving",

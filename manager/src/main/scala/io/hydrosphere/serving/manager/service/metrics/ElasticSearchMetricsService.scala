@@ -1,5 +1,7 @@
 package io.hydrosphere.serving.manager.service.metrics
 
+import java.time.LocalDate
+
 import com.sksamuel.elastic4s.http.HttpClient
 import com.sksamuel.elastic4s.http.ElasticDsl._
 import com.sksamuel.elastic4s.mappings.BasicFieldDefinition
@@ -23,13 +25,16 @@ class ElasticSearchMetricsService(
     serviceManagementService: ServiceManagementService,
     applicationManagementService: ApplicationManagementService,
     elasticClient: HttpClient
-) extends SelfScheduledActor(0.seconds, 30.seconds)(30.seconds) {
+) extends SelfScheduledActor(
+  initialDelay=managerConfiguration.metrics.elasticSearch.get.collectTimeout.seconds,
+  interval=managerConfiguration.metrics.elasticSearch.get.collectTimeout.seconds
+)(30.seconds) {
 
   private implicit val ex: ExecutionContext = context.system.dispatcher
 
   private val elasticConfig = managerConfiguration.metrics.elasticSearch.get
 
-  override def preStart(): Unit =
+  def createIndexIfNeeded(): Unit =
     elasticClient.execute {
       indexExists(elasticConfig.indexName)
     }.await.right.map(r => {
@@ -53,6 +58,7 @@ class ElasticSearchMetricsService(
 
   override def onTick(): Unit = {
     try {
+      createIndexIfNeeded()
 
       applicationManagementService.allApplications().flatMap { apps =>
         val keys = for {
@@ -128,11 +134,12 @@ class ElasticSearchMetricsService(
       .map(m => addTagsIfNeeded(m, targetHost, labels, map))
 
     val date = System.currentTimeMillis()
+    val localDate=LocalDate.now()
 
     elasticClient.execute {
       bulk(
         metricsSeq.map(metric => {
-          indexInto(elasticConfig.indexName / elasticConfig.mappingName)
+          indexInto(elasticConfig.indexName / s"elasticConfig.mappingName_${localDate.getYear}_${localDate.getMonthValue}_${localDate.getDayOfMonth}")
             .fields(metricToJson(metric, date))
         })
       )
@@ -176,7 +183,7 @@ class ElasticSearchMetricsService(
         }
 
 
-        val trVal=Try(
+        val trVal = Try(
           if (labelStart != -1) {
             m.substring(labelEnd + 1).trim.toLong
           } else {
