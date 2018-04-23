@@ -70,7 +70,7 @@ class ModelController(
     }
   }
 
-  @Path("/")
+  @Path("/upload")
   @ApiOperation(value = "Upload model", notes = "Upload model", nickname = "uploadModel", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "CreateOrUpdateModelRequest", required = true,
@@ -80,7 +80,7 @@ class ModelController(
     new ApiResponse(code = 200, message = "Model", response = classOf[Model]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def uploadModel = path("api" / "v1" / "model") {
+  def uploadModel = path("api" / "v1" / "model" / "upload") {
     post {
       entity(as[Multipart.FormData]) { (formdata: Multipart.FormData) ⇒
         val fileNamesFuture = formdata.parts.flatMapConcat { p ⇒
@@ -148,6 +148,10 @@ class ModelController(
 
   @Path("/")
   @ApiOperation(value = "Add model", notes = "Add model", nickname = "uploadModel", httpMethod = "POST")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "body", value = "AddModelRequest", required = true,
+      dataTypeClass = classOf[AddModelRequest], paramType = "body")
+  ))
   def addModel = path("api"/ "v1" / "model") {
     post {
       entity(as[AddModelRequest]) { req =>
@@ -430,7 +434,7 @@ class ModelController(
     }
   }
 
-  val routes: Route = listModels ~ getModel ~ updateModel ~ uploadModel ~ buildModel ~ listModelBuildsByModel ~ lastModelBuilds ~
+  val routes: Route = listModels ~ getModel ~ updateModel ~ addModel ~ uploadModel ~ buildModel ~ listModelBuildsByModel ~ lastModelBuilds ~
     generatePayloadByModelId ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract ~ generateInputsForVersion ~
     lastModelVersions ~ addModelVersion ~ allModelVersions ~ modelContractDescription ~ versionContractDescription
 }
