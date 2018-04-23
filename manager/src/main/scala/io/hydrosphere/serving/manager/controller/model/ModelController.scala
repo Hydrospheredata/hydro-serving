@@ -411,7 +411,7 @@ class ModelController(
   ))
   def modelContractDescription = path("api" / "v1" / "model" / LongNumber / "flatContract" ) { (modelId) =>
     get {
-      completeFRes {
+      complete {
         modelManagementService.modelContractDescription(modelId)
       }
     }
