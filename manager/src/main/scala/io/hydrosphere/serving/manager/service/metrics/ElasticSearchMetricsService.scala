@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.service.metrics
 
 import java.time.LocalDate
+import java.time.format.DateTimeFormatter
 
 import com.sksamuel.elastic4s.http.HttpClient
 import com.sksamuel.elastic4s.http.ElasticDsl._
@@ -26,21 +27,22 @@ class ElasticSearchMetricsService(
     applicationManagementService: ApplicationManagementService,
     elasticClient: HttpClient
 ) extends SelfScheduledActor(
-  initialDelay=managerConfiguration.metrics.elasticSearch.get.collectTimeout.seconds,
-  interval=managerConfiguration.metrics.elasticSearch.get.collectTimeout.seconds
+  initialDelay = managerConfiguration.metrics.elasticSearch.get.collectTimeout.seconds,
+  interval = managerConfiguration.metrics.elasticSearch.get.collectTimeout.seconds
 )(30.seconds) {
 
   private implicit val ex: ExecutionContext = context.system.dispatcher
 
   private val elasticConfig = managerConfiguration.metrics.elasticSearch.get
 
-  def createIndexIfNeeded(): Unit =
+  def createIndexIfNeeded(): Unit ={
+    val localDate = LocalDate.now()
     elasticClient.execute {
-      indexExists(elasticConfig.indexName)
+      indexExists(s"${elasticConfig.indexName}-${localDate.getYear}.${localDate.getMonthValue}.${localDate.getDayOfMonth}")
     }.await.right.map(r => {
       if (!r.result.exists) {
         elasticClient.execute {
-          createIndex(elasticConfig.indexName).mappings(
+          createIndex(s"${elasticConfig.indexName}-${localDate.format(DateTimeFormatter.BASIC_ISO_DATE)}").mappings(
             mapping(elasticConfig.mappingName).fields(
               dateField("@timestamp"),
               textField("name"),
@@ -55,6 +57,7 @@ class ElasticSearchMetricsService(
         }.await
       }
     })
+  }
 
   override def onTick(): Unit = {
     try {
@@ -134,12 +137,12 @@ class ElasticSearchMetricsService(
       .map(m => addTagsIfNeeded(m, targetHost, labels, map))
 
     val date = System.currentTimeMillis()
-    val localDate=LocalDate.now()
+    val localDate = LocalDate.now()
 
     elasticClient.execute {
       bulk(
         metricsSeq.map(metric => {
-          indexInto(elasticConfig.indexName / s"elasticConfig.mappingName_${localDate.getYear}_${localDate.getMonthValue}_${localDate.getDayOfMonth}")
+          indexInto(s"${elasticConfig.indexName}-${localDate.format(DateTimeFormatter.BASIC_ISO_DATE)}" / elasticConfig.mappingName)
             .fields(metricToJson(metric, date))
         })
       )
