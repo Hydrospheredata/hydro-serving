@@ -59,6 +59,7 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
 
   override def getAbsolutePath(path: String): Path = {
     logger.debug(s"getAbsolutePath: $path")
+    getAllFiles(path)
     localSource.getAbsolutePath(path)
   }
 
