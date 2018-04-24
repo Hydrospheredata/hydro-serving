@@ -52,7 +52,7 @@ class PrometheusMetricsServiceImpl(
   private def extractInstance(service: CloudService, instanceId: String) = {
     val f = Future.successful(
       service.instances
-        .find(_.instanceId == instanceId)
+        .find(_.sidecar.instanceId == instanceId)
         .toHResult(ClientError(s"Can't find instance=$instanceId in service=$service"))
     )
     EitherT(f)
