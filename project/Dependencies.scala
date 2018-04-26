@@ -71,14 +71,18 @@ object Dependencies {
   )
 
   lazy val codegenDependencies = Seq(
-      "org.postgresql" % "postgresql" % postgresqlVersion,
-      "com.github.tminglei" %% "slick-pg" % slickPgVersion,
-      "com.typesafe.slick" %% "slick-codegen" % slickVersion
-    )
+    "org.postgresql" % "postgresql" % postgresqlVersion,
+    "com.github.tminglei" %% "slick-pg" % slickPgVersion,
+    "com.typesafe.slick" %% "slick-codegen" % slickVersion
+  )
 
   lazy val elastic4sDependencies = Seq(
     "com.sksamuel.elastic4s" %% "elastic4s-core" % elastic4sVersion,
     "com.sksamuel.elastic4s" %% "elastic4s-http" % elastic4sVersion
+  )
+
+  lazy val influxDBClientDependencies = Seq(
+    "com.paulgoldbaum" %% "scala-influxdb-client" % "0.6.0" exclude("io.netty", "*")
   )
 
   lazy val hydroServingDummyRuntimeDependencies = logDependencies ++
@@ -91,6 +95,7 @@ object Dependencies {
     awsDependencies ++
     grpcDependencies ++
     elastic4sDependencies ++
+    influxDBClientDependencies ++
     Seq(
       "org.typelevel" %% "cats-core" % catsV,
       "io.hydrosphere" %% "envoy-data-plane-api" % "v1.5.0_1",

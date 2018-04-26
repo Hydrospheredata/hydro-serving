@@ -19,6 +19,23 @@ class DockerComposeCloudDriverService(
 
   private val driverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[DockerCloudDriverConfiguration]
 
+  override protected def postProcessAllServiceList(services: Seq[CloudService]): Seq[CloudService] = {
+    val managerHttp = services.find(_.id == MANAGER_ID).map(p => p.copy(
+      id = MANAGER_HTTP_ID,
+      serviceName = MANAGER_HTTP_NAME,
+      instances = p.instances.map(s => s.copy(
+        advertisedPort = DEFAULT_HTTP_PORT,
+        mainApplication = s.mainApplication.copy(port = DEFAULT_HTTP_PORT)
+      ))
+    ))
+
+    if (managerHttp.nonEmpty) {
+      services :+ managerHttp.get
+    } else {
+      services
+    }
+  }
+
   override protected def createMainApplicationHostConfigBuilder(): HostConfig.Builder = {
     val builder = HostConfig.builder()
       .networkMode(driverConfiguration.networkName)

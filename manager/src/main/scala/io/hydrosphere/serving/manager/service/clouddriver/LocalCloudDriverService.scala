@@ -31,20 +31,17 @@ class LocalCloudDriverService(
   })
 
   protected def postProcessAllServiceList(services: Seq[CloudService]): Seq[CloudService] = {
-    val managerHttp = services.find(_.id == MANAGER_ID).map(p => p.copy(
+    val manager=createManagerCloudService()
+    val managerHttp = manager.copy(
       id = MANAGER_HTTP_ID,
       serviceName = MANAGER_HTTP_NAME,
-      instances = p.instances.map(s => s.copy(
+      instances = manager.instances.map(s => s.copy(
         advertisedPort = DEFAULT_HTTP_PORT,
         mainApplication = s.mainApplication.copy(port = DEFAULT_HTTP_PORT)
       ))
-    ))
+    )
 
-    if (managerHttp.nonEmpty) {
-      services :+ managerHttp.get
-    } else {
-      services
-    }
+    services :+ managerHttp :+ manager
   }
 
   protected def getAllServices(): Seq[CloudService] =
@@ -205,6 +202,50 @@ class LocalCloudDriverService(
       )
     )
   }
+
+  private def createSystemCloudService(name: String, id: Long, host: String,
+      port: Int, image: String): CloudService =
+    CloudService(
+      id = id,
+      serviceName = name,
+      statusText = "OK",
+      cloudDriverId = name,
+      environmentName = None,
+      runtimeInfo = MainApplicationInstanceInfo(
+        runtimeId = id,
+        runtimeName = image,
+        runtimeVersion = "latest"
+      ),
+      modelInfo = None,
+      instances = Seq(ServiceInstance(
+        instanceId = name,
+        mainApplication = MainApplicationInstance(
+          instanceId = name,
+          host = host,
+          port = port
+        ),
+        sidecar = SidecarInstance(
+          instanceId = "managerConfiguration.sidecar",
+          host = managerConfiguration.sidecar.host,
+          ingressPort = managerConfiguration.sidecar.ingressPort,
+          egressPort = managerConfiguration.sidecar.egressPort,
+          adminPort = managerConfiguration.sidecar.adminPort
+        ),
+        model = None,
+        advertisedHost = host,
+        advertisedPort = port
+      ))
+    )
+
+
+  private def createManagerCloudService(): CloudService =
+    createSystemCloudService(
+      CloudDriverService.MANAGER_NAME,
+      CloudDriverService.MANAGER_ID,
+      managerConfiguration.advertised.advertisedHost,
+      managerConfiguration.application.grpcPort,
+      "hydrosphere/serving-manager"
+    )
 
   private def fetchById(serviceId: Long): CloudService = {
     collectCloudService(
