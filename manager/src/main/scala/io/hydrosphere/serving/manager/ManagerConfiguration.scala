@@ -47,8 +47,16 @@ case class ElasticSearchMetricsConfiguration(
     clientUri: String
 )
 
+case class InfluxDBMetricsConfiguration(
+    collectTimeout:Int,
+    port:Int,
+    host: String,
+    dataBaseName:String
+)
+
 case class MetricsConfiguration(
-    elasticSearch: Option[ElasticSearchMetricsConfiguration]
+    elasticSearch: Option[ElasticSearchMetricsConfiguration],
+    influxDB: Option[InfluxDBMetricsConfiguration]
 )
 
 case class AdvertisedConfiguration(
@@ -293,10 +301,25 @@ object ManagerConfiguration {
     }
   }
 
+  def parseInfluxDBMetrics(config: Config): Option[InfluxDBMetricsConfiguration] = {
+    if (config.hasPath("influxDB")) {
+      val influxConfig=config.getConfig("influxDB")
+      Some(InfluxDBMetricsConfiguration(
+        port=influxConfig.getInt("port"),
+        host=influxConfig.getString("host"),
+        collectTimeout=influxConfig.getInt("collectTimeout"),
+        dataBaseName=influxConfig.getString("dataBaseName")
+      ))
+    } else {
+      None
+    }
+  }
+
   def parseMetrics(config: Config): MetricsConfiguration = {
     val metrics = config.getConfig("metrics")
     MetricsConfiguration(
-      elasticSearch = parseElasticSearchMetrics(metrics)
+      elasticSearch = parseElasticSearchMetrics(metrics),
+      influxDB = parseInfluxDBMetrics(metrics)
     )
   }
 

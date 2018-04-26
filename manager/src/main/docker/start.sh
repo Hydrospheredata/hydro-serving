@@ -84,6 +84,17 @@ then
         APP_OPTS="$APP_OPTS -Dmetrics.elastic.mappingName=$METRICS_ELASTIC_MAPPING_NAME"
     fi
 
+    if [ -n "$METRICS_INFLUXDB_HOST" ]; then
+        [ -z "$METRICS_INFLUXDB_DATABASE_NAME" ] && METRICS_INFLUXDB_DATABASE_NAME="metrics"
+        [ -z "$METRICS_INFLUXDB_PORT" ] && METRICS_INFLUXDB_PORT="8086"
+        [ -z "$METRICS_INFLUXDB_COLLECT_TIMEOUT" ] && METRICS_INFLUXDB_COLLECT_TIMEOUT="30"
+
+        APP_OPTS="$APP_OPTS -Dmetrics.influxDB.collectTimeout=$METRICS_INFLUXDB_COLLECT_TIMEOUT"
+        APP_OPTS="$APP_OPTS -Dmetrics.influxDB.dataBaseName=$METRICS_INFLUXDB_DATABASE_NAME"
+        APP_OPTS="$APP_OPTS -Dmetrics.influxDB.host=$METRICS_INFLUXDB_HOST"
+        APP_OPTS="$APP_OPTS -Dmetrics.influxDB.port=$METRICS_INFLUXDB_PORT"
+    fi
+
     echo "Custom config does not exist"
 else
    APP_OPTS="$APP_OPTS -Dconfig.file=$CUSTOM_CONFIG"
