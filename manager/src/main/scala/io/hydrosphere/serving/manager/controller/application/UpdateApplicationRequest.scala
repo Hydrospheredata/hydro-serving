@@ -6,7 +6,7 @@ case class UpdateApplicationRequest (
     id: Long,
     name: String,
     executionGraph: ExecutionGraphRequest,
-    kafkaStream: Option[Seq[ApplicationKafkaStream]]
+    kafkaStreaming: Option[Seq[ApplicationKafkaStream]]
 )
 
 object UpdateApplicationRequest {

@@ -7,7 +7,7 @@ TBD
 #### How to start
 ##### Export directory with models
 ```
-export MODEL_DIRECTORY=/path/to/hydro-serving-runtime/models
+export MODEL_DIRECTORY=/path/to/hydro-serving-example/models
 ```
 
 ##### Run docker-compose

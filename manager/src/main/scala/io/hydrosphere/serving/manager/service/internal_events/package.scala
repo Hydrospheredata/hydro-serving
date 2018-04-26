@@ -13,4 +13,6 @@ package object internal_events {
   case class ServiceRemoved(service: Service)
 
   case class CloudServiceDetected(cloudServices: Seq[CloudService])
+
+  case class CloudServiceRemoved(cloudServices: Seq[CloudService])
 }

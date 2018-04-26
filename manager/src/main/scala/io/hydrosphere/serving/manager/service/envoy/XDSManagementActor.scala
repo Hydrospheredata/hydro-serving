@@ -91,8 +91,10 @@ class XDSManagementActor(
         name = t.serviceName,
         endpoints = t.instances.map(i => {
           ClusterEndpoint(
-            host = i.advertisedHost,
-            port = i.advertisedPort
+            host = i.mainApplication.host,
+            port = i.mainApplication.port,
+            advertisedHost = i.advertisedHost,
+            advertisedPort = i.advertisedPort
           )
         }).toSet
       )

@@ -1,18 +1,12 @@
 package io.hydrosphere.serving.manager.model.protocol
 
-import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.contract.utils.description.{ContractDescription, FieldDescription, SignatureDescription}
 import io.hydrosphere.serving.tensorflow.types.DataType
-import org.apache.logging.log4j.scala.Logging
-import spray.json.{DefaultJsonProtocol, DeserializationException, JsString, JsValue, JsonFormat}
+import spray.json.{DeserializationException, JsString, JsValue, JsonFormat}
 
-trait ContractJsonProtocol extends SprayJsonSupport with DefaultJsonProtocol with Logging {
-  implicit val fieldDescFormat = jsonFormat3(FieldDescription)
-  implicit val sigDescFormat = jsonFormat3(SignatureDescription.apply)
-  implicit val contractDescFormat = jsonFormat1(ContractDescription.apply)
-
+trait ContractJsonProtocol extends CommonJsonProtocol {
   implicit val dataTypeFormat = new JsonFormat[DataType] {
     override def read(json: JsValue) = {
       json match {
@@ -25,6 +19,10 @@ trait ContractJsonProtocol extends SprayJsonSupport with DefaultJsonProtocol wit
       JsString(obj.toString())
     }
   }
+
+  implicit val fieldDescFormat = jsonFormat3(FieldDescription)
+  implicit val sigDescFormat = jsonFormat3(SignatureDescription.apply)
+  implicit val contractDescFormat = jsonFormat1(ContractDescription.apply)
 
   implicit val modelContractFormat = new JsonFormat[ModelContract] {
     override def read(json: JsValue) = {

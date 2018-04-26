@@ -7,14 +7,14 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.controller.GenericController
-import io.hydrosphere.serving.manager.service.prometheus.PrometheusMetricsService
+import io.hydrosphere.serving.manager.service.metrics.PrometheusMetricsService
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import io.hydrosphere.serving.manager.service.clouddriver.MetricServiceTargets
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
 
-@Path("/v1/prometheus")
+@Path("/api/v1/prometheus")
 @Api(produces = "application/json", tags = Array("Infrastructure: Prometheus"))
 class PrometheusMetricsController(
   prometheusMetricsService:PrometheusMetricsService
@@ -28,7 +28,7 @@ class PrometheusMetricsController(
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def getServices = get {
-    path("v1" / "prometheus" / "services") {
+    path("api" / "v1" / "prometheus" / "services") {
       complete(prometheusMetricsService.fetchServices())
     }
   }
@@ -45,7 +45,7 @@ class PrometheusMetricsController(
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def proxyMetrics = get {
-    path("v1" / "prometheus" / "proxyMetrics" / Segment / Segment / Segment) { (serviceId, instanceId, serviceType) =>
+    path("api" / "v1" / "prometheus" / "proxyMetrics" / Segment / Segment / Segment) { (serviceId, instanceId, serviceType) =>
       extractRequest { request =>
         complete(prometheusMetricsService.fetchMetrics(serviceId.toLong, instanceId, serviceType))
       }

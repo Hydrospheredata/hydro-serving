@@ -15,14 +15,15 @@ import org.apache.logging.log4j.scala.Logging
 import scala.concurrent.{ExecutionContext, Future}
 import collection.JavaConversions._
 import scala.util.Try
+import CloudDriverService._
 
 /**
   *
   */
 class LocalCloudDriverService(
-  dockerClient: DockerClient,
-  managerConfiguration: ManagerConfiguration,
-  internalManagerEventsPublisher: InternalManagerEventsPublisher
+    dockerClient: DockerClient,
+    managerConfiguration: ManagerConfiguration,
+    internalManagerEventsPublisher: InternalManagerEventsPublisher
 )(implicit val ex: ExecutionContext) extends CloudDriverService with Logging {
 
   override def serviceList(): Future[Seq[CloudService]] = Future({
@@ -30,7 +31,17 @@ class LocalCloudDriverService(
   })
 
   protected def postProcessAllServiceList(services: Seq[CloudService]): Seq[CloudService] = {
-    services :+ createManagerCloudService() :+ createManagerHttpCloudService()
+    val manager=createManagerCloudService()
+    val managerHttp = manager.copy(
+      id = MANAGER_HTTP_ID,
+      serviceName = MANAGER_HTTP_NAME,
+      instances = manager.instances.map(s => s.copy(
+        advertisedPort = DEFAULT_HTTP_PORT,
+        mainApplication = s.mainApplication.copy(port = DEFAULT_HTTP_PORT)
+      ))
+    )
+
+    services :+ managerHttp :+ manager
   }
 
   protected def getAllServices(): Seq[CloudService] =
@@ -102,6 +113,7 @@ class LocalCloudDriverService(
 
     val builder = createMainApplicationHostConfigBuilder()
 
+
     modelContainerId.foreach { _ =>
       builder.volumesFrom(generateModelContainerName(service))
     }
@@ -133,8 +145,12 @@ class LocalCloudDriverService(
   protected def mapMainApplicationInstance(containerApp: Container): MainApplicationInstance =
     MainApplicationInstance(
       instanceId = containerApp.id(),
-      host = managerConfiguration.sidecar.host,
-      port = containerApp.ports().head.publicPort()
+      host = Option(containerApp.networkSettings().networks().get("bridge"))
+        .map(_.ipAddress()).getOrElse(managerConfiguration.sidecar.host),
+      port = containerApp.ports()
+        .filter(_.privatePort() == DEFAULT_APP_PORT)
+        .find(_.publicPort() != null)
+        .map(_.publicPort().toInt).getOrElse(DEFAULT_APP_PORT)
     )
 
   protected def mapToCloudService(serviceId: Long, seq: Seq[Container]): CloudService = {
@@ -190,7 +206,7 @@ class LocalCloudDriverService(
   }
 
   private def createSystemCloudService(name: String, id: Long, host: String,
-    port: Int, image: String): CloudService =
+      port: Int, image: String): CloudService =
     CloudService(
       id = id,
       serviceName = name,
@@ -233,42 +249,17 @@ class LocalCloudDriverService(
       "hydrosphere/serving-manager"
     )
 
-  private def createManagerHttpCloudService(): CloudService =
-    createSystemCloudService(
-      CloudDriverService.MANAGER_HTTP_NAME,
-      CloudDriverService.MANAGER_HTTP_ID,
-      managerConfiguration.advertised.advertisedHost,
-      managerConfiguration.application.port,
-      "hydrosphere/serving-manager"
-    )
-
   private def fetchById(serviceId: Long): CloudService = {
-    serviceId match {
-      case CloudDriverService.GATEWAY_HTTP_ID =>
-        //TODO add gateway
-        createSystemCloudService(
-          CloudDriverService.GATEWAY_HTTP_NAME,
-          CloudDriverService.GATEWAY_HTTP_ID,
-          managerConfiguration.advertised.advertisedHost,
-          managerConfiguration.advertised.advertisedPort,
-          "hydrosphere/serving-gateway"
-        )
-      case CloudDriverService.MANAGER_ID =>
-        createManagerCloudService()
-      case CloudDriverService.MANAGER_HTTP_ID =>
-        createManagerHttpCloudService()
-      case _ =>
-        collectCloudService(
-          dockerClient.listContainers(
-            ListContainersParam.withLabel(LABEL_SERVICE_ID, serviceId.toString),
-            ListContainersParam.allContainers()
-          )
-        ).headOption.getOrElse(throw new IllegalArgumentException(s"Can't find service with id=$serviceId"))
-    }
+    collectCloudService(
+      dockerClient.listContainers(
+        ListContainersParam.withLabel(LABEL_SERVICE_ID, serviceId.toString),
+        ListContainersParam.allContainers()
+      )
+    ).headOption.getOrElse(throw new IllegalArgumentException(s"Can't find service with id=$serviceId"))
   }
 
   override def services(serviceIds: Set[Long]): Future[Seq[CloudService]] = Future.apply({
-    val services = collectCloudService(
+    collectCloudService(
       dockerClient.listContainers(
         ListContainersParam.withLabel(LABEL_HS_SERVICE_MARKER, LABEL_HS_SERVICE_MARKER),
         ListContainersParam.allContainers()
@@ -278,12 +269,6 @@ class LocalCloudDriverService(
           .getOrElse(false)
       })
     )
-
-    if (serviceIds.contains(CloudDriverService.MANAGER_ID)) {
-      services :+ createManagerCloudService()
-    } else {
-      services
-    }
   })
 
   override def removeService(serviceId: Long): Future[Unit] = Future.apply({
@@ -303,18 +288,19 @@ class LocalCloudDriverService(
     Future.successful(Seq(
       MetricServiceTargets(
         targets = List(s"${managerConfiguration.sidecar.host}:${managerConfiguration.sidecar.adminPort}"),
+
         labels = MetricServiceTargetLabels(
-          job = "sidecar",
+          job = Some("sidecar"),
           modelName = None,
           modelVersion = None,
           environment = None,
-          runtimeName = "hydrosphere/serving-manager",
-          runtimeVersion = "latest",
-          serviceName = CloudDriverService.MANAGER_NAME,
-          serviceId = CloudDriverService.MANAGER_ID.toString,
-          serviceCloudDriverId = "managerConfiguration.sidecar",
-          serviceType = CloudDriverService.DEPLOYMENT_TYPE_SIDECAR,
-          instanceId = "managerConfiguration.sidecar"
+          runtimeName = Some("hydrosphere/serving-manager"),
+          runtimeVersion = Some("latest"),
+          serviceName = Some(CloudDriverService.MANAGER_NAME),
+          serviceId = Some(CloudDriverService.MANAGER_ID.toString),
+          serviceCloudDriverId = Some("managerConfiguration.sidecar"),
+          serviceType = Some(CloudDriverService.DEPLOYMENT_TYPE_SIDECAR),
+          instanceId = Some("managerConfiguration.sidecar")
         )
       )
     ))

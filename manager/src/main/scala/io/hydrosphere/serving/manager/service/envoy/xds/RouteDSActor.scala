@@ -125,10 +125,42 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
         ),
         Route(
           `match` = Some(RouteMatch(
-            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/")
+            pathSpecifier = RouteMatch.PathSpecifier.Path("/health")
           )),
           action = Route.Action.Route(RouteAction(
             clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_HTTP_NAME)
+          ))
+        ),
+        Route(
+          `match` = Some(RouteMatch(
+            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/api-docs")
+          )),
+          action = Route.Action.Route(RouteAction(
+            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_HTTP_NAME)
+          ))
+        ),
+        Route(
+          `match` = Some(RouteMatch(
+            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/swagger")
+          )),
+          action = Route.Action.Route(RouteAction(
+            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_HTTP_NAME)
+          ))
+        ),
+        Route(
+          `match` = Some(RouteMatch(
+            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/api")
+          )),
+          action = Route.Action.Route(RouteAction(
+            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_HTTP_NAME)
+          ))
+        ),
+        Route(
+          `match` = Some(RouteMatch(
+            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/")
+          )),
+          action = Route.Action.Route(RouteAction(
+            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_UI_NAME)
           ))
         )
       )

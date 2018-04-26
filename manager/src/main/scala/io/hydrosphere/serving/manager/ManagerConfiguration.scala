@@ -3,7 +3,6 @@ package io.hydrosphere.serving.manager
 import com.amazonaws.regions.Regions
 import com.typesafe.config.Config
 import com.zaxxer.hikari.HikariConfig
-import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.ModelSourceConfig
 import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.{AWSAuthKeys, LocalSourceParams, S3SourceParams}
 
@@ -25,71 +24,107 @@ trait ManagerConfiguration {
   def zipkin: ZipkinConfiguration
 
   def dockerRepository: DockerRepositoryConfiguration
+
+  def metrics: MetricsConfiguration
 }
 
 case class ManagerConfigurationImpl(
-  sidecar: SidecarConfig,
-  application: ApplicationConfig,
-  advertised: AdvertisedConfiguration,
-  modelSources: Seq[ModelSourceConfig],
-  database: HikariConfig,
-  cloudDriver: CloudDriverConfiguration,
-  zipkin: ZipkinConfiguration,
-  dockerRepository: DockerRepositoryConfiguration
+    sidecar: SidecarConfig,
+    application: ApplicationConfig,
+    advertised: AdvertisedConfiguration,
+    modelSources: Seq[ModelSourceConfig],
+    database: HikariConfig,
+    cloudDriver: CloudDriverConfiguration,
+    zipkin: ZipkinConfiguration,
+    dockerRepository: DockerRepositoryConfiguration,
+    metrics: MetricsConfiguration
 ) extends ManagerConfiguration
 
+case class ElasticSearchMetricsConfiguration(
+    collectTimeout:Int,
+    indexName: String,
+    mappingName: String,
+    clientUri: String
+)
+
+case class InfluxDBMetricsConfiguration(
+    collectTimeout:Int,
+    port:Int,
+    host: String,
+    dataBaseName:String
+)
+
+case class MetricsConfiguration(
+    elasticSearch: Option[ElasticSearchMetricsConfiguration],
+    influxDB: Option[InfluxDBMetricsConfiguration]
+)
+
 case class AdvertisedConfiguration(
-  advertisedHost: String,
-  advertisedPort: Int)
+    advertisedHost: String,
+    advertisedPort: Int
+)
 
-abstract class DockerRepositoryConfiguration()
+case class ModelLoggingConfiguration(
+    driver: String,
+    params: Map[String, String]
+)
 
-case class LocalDockerRepositoryConfiguration() extends DockerRepositoryConfiguration
+abstract class DockerRepositoryConfiguration(
+)
 
-case class ECSDockerRepositoryConfiguration(
-  region: Regions,
-  accountId: String
+case class LocalDockerRepositoryConfiguration(
 ) extends DockerRepositoryConfiguration
 
-abstract class CloudDriverConfiguration()
+case class ECSDockerRepositoryConfiguration(
+    region: Regions,
+    accountId: String
+) extends DockerRepositoryConfiguration
+
+abstract class CloudDriverConfiguration(
+    loggingConfiguration: Option[ModelLoggingConfiguration]
+)
 
 case class SwarmCloudDriverConfiguration(
-  networkName: String
-) extends CloudDriverConfiguration
+    networkName: String,
+    loggingConfiguration: Option[ModelLoggingConfiguration]
+) extends CloudDriverConfiguration(loggingConfiguration)
 
 case class DockerCloudDriverConfiguration(
-  networkName: String,
-  loggingGelfHost: Option[String]
-) extends CloudDriverConfiguration
+    networkName: String,
+    loggingConfiguration: Option[ModelLoggingConfiguration]
+) extends CloudDriverConfiguration(loggingConfiguration)
 
 case class LocalDockerCloudDriverConfiguration(
-
-) extends CloudDriverConfiguration
+    loggingConfiguration: Option[ModelLoggingConfiguration]
+) extends CloudDriverConfiguration(loggingConfiguration)
 
 case class ECSCloudDriverConfiguration(
-  region: Regions,
-  cluster: String,
-  accountId: String,
-  loggingGelfHost: Option[String]
-) extends CloudDriverConfiguration
+    region: Regions,
+    cluster: String,
+    accountId: String,
+    loggingConfiguration: Option[ModelLoggingConfiguration],
+    memoryReservation: Int = 200,
+    internalDomainName: String,
+    vpcId: String
+) extends CloudDriverConfiguration(loggingConfiguration)
 
 case class ZipkinConfiguration(
-  host: String,
-  port: Int,
-  enabled: Boolean
+    host: String,
+    port: Int,
+    enabled: Boolean
 )
 
 case class ApplicationConfig(
-  port: Int,
-  grpcPort: Int,
-  shadowingOn:Boolean
+    port: Int,
+    grpcPort: Int,
+    shadowingOn: Boolean
 )
 
 case class SidecarConfig(
-  host: String,
-  ingressPort: Int,
-  egressPort: Int,
-  adminPort: Int
+    host: String,
+    ingressPort: Int,
+    egressPort: Int,
+    adminPort: Int
 )
 
 object ManagerConfiguration {
@@ -136,34 +171,55 @@ object ManagerConfiguration {
     )
   }
 
+  def parseLoggingConfiguration(config: Config): Option[ModelLoggingConfiguration] = {
+    if (!config.hasPath("logging")) {
+      return None
+    }
+    val c = config.getConfig("logging")
+    if (!c.hasPath("driver")) {
+      return None
+    }
+
+    Some(ModelLoggingConfiguration(
+      driver = c.getString("driver"),
+      params = c.root().entrySet().asScala
+        .filter(_.getKey != "driver")
+        .map(kv => kv.getKey -> c.getString(kv.getKey)).toMap
+    ))
+  }
+
   def parseCloudDriver(config: Config): CloudDriverConfiguration = {
     val c = config.getConfig("cloudDriver")
     //config.getAnyRef("modelSources").{ kv =>
     config.getConfig("cloudDriver").root().entrySet().asScala.map { kv =>
       val driverConf = c.getConfig(kv.getKey)
+
+      val loggingConfiguration = parseLoggingConfiguration(driverConf)
       kv.getKey match {
         case "swarm" =>
-          SwarmCloudDriverConfiguration(networkName = driverConf.getString("networkName"))
+          SwarmCloudDriverConfiguration(
+            networkName = driverConf.getString("networkName"),
+            loggingConfiguration = loggingConfiguration
+          )
         case "docker" =>
-          val hasLoggingGelfHost = driverConf.hasPath("loggingGelfHost")
           DockerCloudDriverConfiguration(
             networkName = driverConf.getString("networkName"),
-            loggingGelfHost = if (hasLoggingGelfHost)
-              Some(driverConf.getString("loggingGelfHost")) else None
+            loggingConfiguration = loggingConfiguration
           )
         case "ecs" =>
-          val hasLoggingGelfHost = driverConf.hasPath("loggingGelfHost")
           ECSCloudDriverConfiguration(
             region = Regions.fromName(driverConf.getString("region")),
             cluster = driverConf.getString("cluster"),
             accountId = driverConf.getString("accountId"),
-            loggingGelfHost = if (hasLoggingGelfHost)
-              Some(driverConf.getString("loggingGelfHost")) else None
+            internalDomainName = driverConf.getString("internalDomainName"),
+            vpcId = driverConf.getString("vpcId"),
+            memoryReservation = driverConf.getInt("memoryReservation"),
+            loggingConfiguration = loggingConfiguration
           )
         case _ =>
-          LocalDockerCloudDriverConfiguration()
+          LocalDockerCloudDriverConfiguration(loggingConfiguration)
       }
-    }.headOption.getOrElse(LocalDockerCloudDriverConfiguration())
+    }.headOption.getOrElse(LocalDockerCloudDriverConfiguration(None))
   }
 
   def parseAdvertised(config: Config): AdvertisedConfiguration = {
@@ -178,7 +234,6 @@ object ManagerConfiguration {
     val c = config.getConfig("modelSources")
     c.root().entrySet().asScala.map { kv =>
       val modelSourceConfig = c.getConfig(kv.getKey)
-      val path = modelSourceConfig.getString("path")
       val name = {
         if (modelSourceConfig.hasPath("name")) {
           modelSourceConfig.getString("name")
@@ -191,12 +246,14 @@ object ManagerConfiguration {
         case "local" =>
           val prefix = if (modelSourceConfig.hasPath("pathPrefix")) {
             Some(modelSourceConfig.getString("pathPrefix"))
-          } else { None }
+          } else {
+            None
+          }
           LocalSourceParams(prefix)
         case "s3" =>
           S3SourceParams(
             awsAuth = parseAWSAuth(modelSourceConfig),
-            path = path,
+            path = modelSourceConfig.getString("path"),
             bucketName = modelSourceConfig.getString("bucket"),
             region = modelSourceConfig.getString("region")
           )
@@ -230,6 +287,42 @@ object ManagerConfiguration {
     hikariConfig
   }
 
+  def parseElasticSearchMetrics(config: Config): Option[ElasticSearchMetricsConfiguration] = {
+    if (config.hasPath("elastic")) {
+      val elasticConfig=config.getConfig("elastic")
+      Some(ElasticSearchMetricsConfiguration(
+        collectTimeout=elasticConfig.getInt("collectTimeout"),
+        indexName=elasticConfig.getString("indexName"),
+        mappingName=elasticConfig.getString("mappingName"),
+        clientUri=elasticConfig.getString("clientUri")
+      ))
+    } else {
+      None
+    }
+  }
+
+  def parseInfluxDBMetrics(config: Config): Option[InfluxDBMetricsConfiguration] = {
+    if (config.hasPath("influxDB")) {
+      val influxConfig=config.getConfig("influxDB")
+      Some(InfluxDBMetricsConfiguration(
+        port=influxConfig.getInt("port"),
+        host=influxConfig.getString("host"),
+        collectTimeout=influxConfig.getInt("collectTimeout"),
+        dataBaseName=influxConfig.getString("dataBaseName")
+      ))
+    } else {
+      None
+    }
+  }
+
+  def parseMetrics(config: Config): MetricsConfiguration = {
+    val metrics = config.getConfig("metrics")
+    MetricsConfiguration(
+      elasticSearch = parseElasticSearchMetrics(metrics),
+      influxDB = parseInfluxDBMetrics(metrics)
+    )
+  }
+
   def parse(config: Config): ManagerConfigurationImpl = ManagerConfigurationImpl(
     sidecar = parseSidecar(config),
     application = parseApplication(config),
@@ -238,7 +331,8 @@ object ManagerConfiguration {
     database = parseDatabase(config),
     cloudDriver = parseCloudDriver(config),
     zipkin = parseZipkin(config),
-    dockerRepository = parseDockerRepository(config)
+    dockerRepository = parseDockerRepository(config),
+    metrics = parseMetrics(config)
   )
 
 }

@@ -42,14 +42,14 @@ services:
     environment:
       - "MANAGER_HOST=manager"
       - "MANAGER_PORT=9091"
-      - "SERVICE_ID=-20"
       - "SERVICE_NAME=manager"
+      - "SERVICE_ID=-20"
 
   managerui:
     image: hydrosphere/serving-manager-ui:latest
     container_name: managerui
     ports:
-      - "8083:80"
+      - "8083:9091"
     networks:
       - extnet
       - hydronet

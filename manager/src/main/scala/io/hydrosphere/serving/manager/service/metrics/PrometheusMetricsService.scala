@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.service.prometheus
+package io.hydrosphere.serving.manager.service.metrics
 
 import io.hydrosphere.serving.manager.connector.EnvoyAdminConnector
 import io.hydrosphere.serving.manager.model.HFResult
@@ -52,7 +52,7 @@ class PrometheusMetricsServiceImpl(
   private def extractInstance(service: CloudService, instanceId: String) = {
     val f = Future.successful(
       service.instances
-        .find(_.instanceId == instanceId)
+        .find(_.sidecar.instanceId == instanceId)
         .toHResult(ClientError(s"Can't find instance=$instanceId in service=$service"))
     )
     EitherT(f)

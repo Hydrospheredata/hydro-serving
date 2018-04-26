@@ -11,9 +11,10 @@ object Dependencies {
   val slickPgVersion = "0.15.4"
   val scalaPBVersion = "0.6.7"
   val grpcNettyVersion = "1.8.0"
-  val awsSdkVersion = "1.11.184"
+  val awsSdkVersion = "1.11.312"
   val servingGrpcScala = "0.1.2"
   val catsV = "1.1.0"
+  val elastic4sVersion = "6.2.4"
 
   lazy val awsDependencies = Seq(
     "com.amazonaws" % "aws-java-sdk-ecs" % awsSdkVersion,
@@ -21,7 +22,8 @@ object Dependencies {
     "com.amazonaws" % "aws-java-sdk-iam" % awsSdkVersion,
     "com.amazonaws" % "aws-java-sdk-ecr" % awsSdkVersion,
     "com.amazonaws" % "aws-java-sdk-sqs" % awsSdkVersion,
-    "com.amazonaws" % "aws-java-sdk-s3" % awsSdkVersion
+    "com.amazonaws" % "aws-java-sdk-s3" % awsSdkVersion,
+    "com.amazonaws" % "aws-java-sdk-route53" % awsSdkVersion
   )
 
   lazy val hdfsDependencies = Seq(
@@ -69,10 +71,19 @@ object Dependencies {
   )
 
   lazy val codegenDependencies = Seq(
-      "org.postgresql" % "postgresql" % postgresqlVersion,
-      "com.github.tminglei" %% "slick-pg" % slickPgVersion,
-      "com.typesafe.slick" %% "slick-codegen" % slickVersion
-    )
+    "org.postgresql" % "postgresql" % postgresqlVersion,
+    "com.github.tminglei" %% "slick-pg" % slickPgVersion,
+    "com.typesafe.slick" %% "slick-codegen" % slickVersion
+  )
+
+  lazy val elastic4sDependencies = Seq(
+    "com.sksamuel.elastic4s" %% "elastic4s-core" % elastic4sVersion,
+    "com.sksamuel.elastic4s" %% "elastic4s-http" % elastic4sVersion
+  )
+
+  lazy val influxDBClientDependencies = Seq(
+    "com.paulgoldbaum" %% "scala-influxdb-client" % "0.6.0" exclude("io.netty", "*")
+  )
 
   lazy val hydroServingDummyRuntimeDependencies = logDependencies ++
     grpcDependencies
@@ -83,6 +94,8 @@ object Dependencies {
     akkaHttpDependencies ++
     awsDependencies ++
     grpcDependencies ++
+    elastic4sDependencies ++
+    influxDBClientDependencies ++
     Seq(
       "org.typelevel" %% "cats-core" % catsV,
       "io.hydrosphere" %% "envoy-data-plane-api" % "v1.5.0_1",
