@@ -145,10 +145,12 @@ class LocalCloudDriverService(
   protected def mapMainApplicationInstance(containerApp: Container): MainApplicationInstance =
     MainApplicationInstance(
       instanceId = containerApp.id(),
-      host = managerConfiguration.sidecar.host,
+      host = Option(containerApp.networkSettings().networks().get("bridge"))
+        .map(_.ipAddress()).getOrElse(managerConfiguration.sidecar.host),
       port = containerApp.ports()
         .filter(_.privatePort() == DEFAULT_APP_PORT)
-        .head.publicPort()
+        .find(_.publicPort() != null)
+        .map(_.publicPort().toInt).getOrElse(DEFAULT_APP_PORT)
     )
 
   protected def mapToCloudService(serviceId: Long, seq: Seq[Container]): CloudService = {
