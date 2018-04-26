@@ -188,7 +188,7 @@ class ModelController(
     put {
       entity(as[CreateOrUpdateModelRequest]) { r =>
         completeFRes(
-          modelManagementService.updateModel(r)
+          modelManagementService.updateModelRequest(r)
         )
       }
     }
