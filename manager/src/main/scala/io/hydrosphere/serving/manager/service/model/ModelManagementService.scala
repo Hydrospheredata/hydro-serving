@@ -68,12 +68,20 @@ trait ModelManagementService {
     */
   def getModel(id: Long): HFResult[Model]
 
+
+  /***
+    * Try to update a model
+    * @param model
+    * @return Updated model
+    */
+  def updateModel(model: Model): HFResult[Model]
+
   /***
     * Try to update a model by request
     * @param entity
     * @return
     */
-  def updateModel(entity: CreateOrUpdateModelRequest): HFResult[Model]
+  def updateModelRequest(entity: CreateOrUpdateModelRequest): HFResult[Model]
 
   /***
     * Try to create a model by request

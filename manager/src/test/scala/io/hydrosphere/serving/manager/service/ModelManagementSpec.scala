@@ -82,6 +82,7 @@ class ModelManagementSpec extends GenericUnitTest {
       )
     )
     Mockito.when(modelRepo.update(Matchers.any(classOf[Model]))).thenReturn(Future.successful(1))
+    Mockito.when(modelRepo.get(Matchers.anyLong())).thenReturn(Future.successful(Some(dummyModel)))
     Mockito.when(modelRepo.getMany(Set(1L))).thenReturn(
       Future.successful(
         Seq(dummyModel)
