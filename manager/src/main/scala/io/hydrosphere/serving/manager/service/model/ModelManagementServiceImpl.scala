@@ -171,13 +171,18 @@ class ModelManagementServiceImpl(
           .toMap
 
         writeFilesToSource(source, localFiles)
+
+        val contract = upload.contract
+          .getOrElse(ModelFetcher.fetch(source, unpackDir.toString).contract)
+          .copy(modelName = upload.name)
+
         CreateOrUpdateModelRequest(
           id = None,
           name = upload.name,
           source = source.sourceDef.name,
           modelType = ModelType.fromTag(upload.modelType),
           description = upload.description,
-          modelContract = upload.contract
+          modelContract = contract
         )
       }
     }
