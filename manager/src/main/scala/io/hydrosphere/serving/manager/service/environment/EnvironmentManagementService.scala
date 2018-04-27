@@ -8,7 +8,7 @@ import scala.concurrent.Future
 trait EnvironmentManagementService {
   def all(): Future[Seq[Environment]]
 
-  def create(name: String, placeholders: Seq[Any]): Future[Environment]
+  def create(name: String, placeholders: Seq[Any]): HFResult[Environment]
 
   def delete(environmentId: Long): Future[Unit]
 

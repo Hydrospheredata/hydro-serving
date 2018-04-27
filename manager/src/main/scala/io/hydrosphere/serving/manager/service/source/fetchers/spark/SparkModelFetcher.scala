@@ -1,85 +1,104 @@
 package io.hydrosphere.serving.manager.service.source.fetchers.spark
 
-import java.io.FileNotFoundException
-import java.nio.file.{Files, NoSuchFileException}
+import java.nio.file.Files
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.model.api.ModelMetadata
+import io.hydrosphere.serving.manager.model.api.{ModelMetadata, _}
+import io.hydrosphere.serving.manager.model.{HResult, Result}
 import io.hydrosphere.serving.manager.service.source.fetchers.ModelFetcher
 import io.hydrosphere.serving.manager.service.source.fetchers.spark.mappers.SparkMlTypeMapper
 import io.hydrosphere.serving.manager.service.source.sources.ModelSource
-import io.hydrosphere.serving.manager.model.api._
 import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.JavaConversions._
 
 
 object SparkModelFetcher extends ModelFetcher with Logging {
-  private def getStageMetadata(source: ModelSource, model: String, stage: String): SparkModelMetadata = {
+  private def getStageMetadata(source: ModelSource, model: String, stage: String): HResult[SparkModelMetadata] = {
     getMetadata(source, s"$model/stages/$stage")
   }
 
-  private def getMetadata(source: ModelSource, model: String): SparkModelMetadata = {
-    val metaFile = source.getReadableFile(s"$model/metadata/part-00000")
-    val metaStr = Files.readAllLines(metaFile.toPath).mkString
-    SparkModelMetadata.fromJson(metaStr)
+  private def getMetadata(source: ModelSource, model: String): HResult[SparkModelMetadata] = {
+    source.getReadableFile(s"$model/metadata/part-00000") match {
+      case Left(error) =>
+        logger.debug(s"'$model/metadata/part-00000' in '${source.sourceDef.name}' doesn't exist")
+        Result.error(error)
+      case Right(metaFile) =>
+        val metaStr = Files.readAllLines(metaFile.toPath).mkString
+        Result.ok(SparkModelMetadata.fromJson(metaStr))
+    }
   }
 
   override def fetch(source: ModelSource, directory: String): Option[ModelMetadata] = {
-    try {
-      val stagesDir = s"$directory/stages"
+    val stagesDir = s"$directory/stages"
 
-      val pipelineMetadata = getMetadata(source, directory)
-      val stagesMetadata = source.getSubDirs(stagesDir).map { stage =>
-        getStageMetadata(source, directory, stage)
-      }
-      val mappers = stagesMetadata.map(SparkMlTypeMapper.apply)
-      val inputs = mappers.map(_.inputSchema)
-      val outputs = mappers.map(_.outputSchema)
-      val labels = mappers.flatMap(_.labelSchema)
-
-      val allLabels = labels.map(_.name)
-      val allIns = inputs.flatten.map(x => x.name -> x).toMap
-      val allOuts = outputs.flatten.map(x => x.name -> x).toMap
-
-      val inputSchema = if (allLabels.isEmpty) {
-        (allIns -- allOuts.keys).map{case (_,y) => y}.toList
-      } else {
-        val trainInputs = stagesMetadata.filter { stage =>
-          val mapper = SparkMlTypeMapper(stage)
-          val outs = mapper.outputSchema
-          outs.map(x => x.name -> x).toMap.keys.containsAll(allLabels)
-        }.map{ stage =>
-          SparkMlTypeMapper(stage).inputSchema
-        }
-        val allTrains = trainInputs.flatten.map(x => x.name -> x).toMap
-        (allIns -- allOuts.keys -- allTrains.keys).map{case (_,y) => y}.toList
-      }
-      val outputSchema = (allOuts -- allIns.keys).map{case (_,y) => y}.toList
-
-      val signature = ModelSignature("default_spark", inputSchema, outputSchema)
-
-      val contract = ModelContract(
-        directory,
-        List(signature)
-      )
-
-      Some(
-        ModelMetadata(
-          modelName = directory,
-          modelType = ModelType.Spark(pipelineMetadata.sparkVersion),
-          contract = contract
-        )
-      )
-    } catch {
-      case _: NoSuchFileException =>
-        logger.debug(s"$directory in not a valid SparkML model")
+    getMetadata(source, directory) match {
+      case Left(error) =>
+        logger.warn(s"Unexpected fetch error: $error")
         None
-      case _: FileNotFoundException =>
-        logger.debug(s"$source $directory in not a valid SparkML model")
-        None
+      case Right(pipelineMetadata) =>
+        processPipeline(source, directory, stagesDir, pipelineMetadata)
     }
   }
+
+  private def processPipeline(source: ModelSource, directory: String, stagesDir: String, pipelineMetadata: SparkModelMetadata) = {
+    source.getSubDirs(stagesDir) match {
+      case Left(error) =>
+        logger.warn(s"Unexpected fetch error: $error")
+        None
+      case Right(stages) =>
+        val sM = Result.traverse(stages) { stage =>
+          getStageMetadata(source, directory, stage)
+        }
+        sM match {
+          case Left(error) =>
+            logger.warn(s"Unexpected fetch error: $error")
+            None
+          case Right(stagesMetadata) =>
+            Some(
+              ModelMetadata(
+                modelName = directory,
+                modelType = ModelType.Spark(pipelineMetadata.sparkVersion),
+                contract = ModelContract(
+                  directory,
+                  Seq(processStages(stagesMetadata))
+                )
+              )
+            )
+        }
+    }
+  }
+
+  private def processStages(stagesMetadata: Seq[SparkModelMetadata]) = {
+    val mappers = stagesMetadata.map(SparkMlTypeMapper.apply)
+    val inputs = mappers.map(_.inputSchema)
+    val outputs = mappers.map(_.outputSchema)
+    val labels = mappers.flatMap(_.labelSchema)
+
+    val allLabels = labels.map(_.name)
+    val allIns = inputs.flatten.map(x => x.name -> x).toMap
+    val allOuts = outputs.flatten.map(x => x.name -> x).toMap
+
+    val inputSchema = if (allLabels.isEmpty) {
+      (allIns -- allOuts.keys).map { case (_, y) => y }.toList
+    } else {
+      val trainInputs = stagesMetadata.filter { stage =>
+        val mapper = SparkMlTypeMapper(stage)
+        val outs = mapper.outputSchema
+        outs.map(x => x.name -> x).toMap.keys.containsAll(allLabels)
+      }.map { stage =>
+        SparkMlTypeMapper(stage).inputSchema
+      }
+      val allTrains = trainInputs.flatten.map(x => x.name -> x).toMap
+      (allIns -- allOuts.keys -- allTrains.keys).map { case (_, y) => y }.toList
+    }
+    val outputSchema = (allOuts -- allIns.keys).map { case (_, y) => y }.toList
+
+    val signature = ModelSignature("default_spark", inputSchema, outputSchema)
+    signature
+  }
 }
+
+
 

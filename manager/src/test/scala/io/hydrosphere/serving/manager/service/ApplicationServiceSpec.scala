@@ -11,7 +11,7 @@ import io.hydrosphere.serving.manager.service.application.ApplicationManagementS
 
 import scala.concurrent.{Await, ExecutionContext, Future}
 
-class ApplicationManagementSpec extends GenericUnitTest {
+class ApplicationServiceSpec extends GenericUnitTest {
 
   implicit val ctx = ExecutionContext.global
 
@@ -27,7 +27,6 @@ class ApplicationManagementSpec extends GenericUnitTest {
     val serviceDescription = result.head.executionGraph.stages.head.services.head.serviceDescription
     assert(serviceDescription.runtimeName.contains("runtime"))
     assert(serviceDescription.modelName.contains("model_name:1"))
-
   }
 
   def models() = Map(1l -> ModelVersion(

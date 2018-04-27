@@ -12,7 +12,7 @@ import org.mockito.{Matchers, Mockito}
 
 import scala.concurrent.{Await, Future}
 
-class SourceManagementSpecs extends GenericUnitTest {
+class SourceServiceSpec extends GenericUnitTest {
 
   import scala.concurrent.ExecutionContext.Implicits._
 
@@ -29,16 +29,14 @@ class SourceManagementSpecs extends GenericUnitTest {
 
     val sourceService = new SourceManagementServiceImpl(confMock, sourceRepoMock)
 
-    val f = sourceService.index("test:tensorflow_model").map { result =>
+    sourceService.index("test:tensorflow_model").map { result =>
       val maybeModel = result.right.get
       println(maybeModel)
       maybeModel shouldBe defined
       val model = maybeModel.get
-      model.modelName should equal("tensorflow_model")
       println(model)
+      model.modelName should equal("tensorflow_model")
     }
-
-    Await.result(f, futureTimeout)
   }
 
   it should "list all (config+db) sources" in {
@@ -52,13 +50,10 @@ class SourceManagementSpecs extends GenericUnitTest {
     Mockito.when(sourceRepoMock.all()).thenReturn(Future.successful(Seq(s2)))
 
     val sourceService = new SourceManagementServiceImpl(confMock, sourceRepoMock)
-
-    val f = sourceService.allSourceConfigs.map { result =>
-      result should contain allOf(s1, s2)
+    sourceService.allSourceConfigs.map { result =>
       println(result)
+      result should contain allOf(s1, s2)
     }
-
-    Await.result(f, futureTimeout)
   }
 
   it should "add a local source" in {
@@ -79,7 +74,7 @@ class SourceManagementSpecs extends GenericUnitTest {
     val req = AddLocalSourceRequest(
       "test_api", getClass.getResource("/test_models").getPath
     )
-    val f = sourceService.addLocalSource(req).map { maybeSourceConfig =>
+    sourceService.addLocalSource(req).map { maybeSourceConfig =>
       maybeSourceConfig.isRight should equal(true)
       val modelSourceConfig = maybeSourceConfig.right.get
       modelSourceConfig.name should equal(req.name)
@@ -87,8 +82,6 @@ class SourceManagementSpecs extends GenericUnitTest {
       assert(modelSourceConfig.params.isInstanceOf[LocalSourceParams], modelSourceConfig.params)
       assert(modelSourceConfig.params.asInstanceOf[LocalSourceParams].pathPrefix.get === req.path)
     }
-
-    Await.result(f, futureTimeout)
   }
 
   it should "reject similar source" in {
@@ -101,22 +94,14 @@ class SourceManagementSpecs extends GenericUnitTest {
 
     Mockito.when(confMock.modelSources).thenReturn(Seq(s1))
     Mockito.when(sourceRepoMock.all()).thenReturn(Future.successful(Seq.empty))
-    Mockito.when(sourceRepoMock.create(Matchers.any())).thenAnswer(new Answer[Future[ModelSourceConfig]] {
-      override def answer(invocation: InvocationOnMock): Future[ModelSourceConfig] = {
-        val s = invocation.getArguments.head.asInstanceOf[ModelSourceConfig]
-        Future.successful(s)
-      }
-    })
 
     val reqFail = AddLocalSourceRequest(
       s1.name, "I MUST FAIL"
     )
-    val f = for {
+    for {
       failSource <- sourceService.addLocalSource(reqFail)
     } yield {
       assert(failSource.isLeft)
     }
-
-    Await.result(f, futureTimeout)
   }
 }

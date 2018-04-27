@@ -5,9 +5,6 @@ import io.hydrosphere.serving.manager.model.db.Runtime
 
 import scala.concurrent.Future
 
-/**
-  *
-  */
 trait RuntimeRepository extends BaseRepository[Runtime, Long] {
   def fetchByModelType(modelType: Seq[ModelType]): Future[Seq[Runtime]]
 

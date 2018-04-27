@@ -19,21 +19,26 @@ class EnvironmentManagementServiceImpl(
       case AnyEnvironment.`id` =>
         Result.okF(AnyEnvironment)
       case _ =>
-        environmentRepository.get(environmentId).map(_.toHResult(ClientError(s"Can't find environment with id $environmentId")))
+        environmentRepository
+          .get(environmentId)
+          .map(_.toHResult(ClientError(s"Can't find environment with id $environmentId")))
     }
   }
 
   override def all(): Future[Seq[Environment]] =
     environmentRepository.all().map(_ :+ AnyEnvironment)
 
-  override def create(name: String, placeholders: Seq[Any]): Future[Environment] = {
-    val environment = Environment(
-      name = name,
-      placeholders = placeholders,
-      id = 0
-    )
-    environmentRepository.create(environment
-    )
+  override def create(name: String, placeholders: Seq[Any]): HFResult[Environment] = {
+    environmentRepository.get(name).flatMap {
+      case Some(_) => Result.clientErrorF(s"Environment '$name' already exists")
+      case None =>
+        val environment = Environment(
+          name = name,
+          placeholders = placeholders,
+          id = 0
+        )
+        environmentRepository.create(environment).map(Result.ok)
+    }
   }
 
   override def delete(environmentId: Long): Future[Unit] =

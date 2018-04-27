@@ -28,7 +28,6 @@ class SourceManagementServiceImpl(
       getSourceConfig(modelSourceConfigAux.name).flatMap {
         case Right(_) => Result.clientErrorF(s"ModelSource with name ${modelSourceConfigAux.name} already exists")
         case Left(ClientError(_)) => // consider more specific NotFound error?
-          val modelSource = ModelSource.fromConfig(modelSourceConfigAux)
           for {
             config <- sourceRepository.create(modelSourceConfigAux)
           } yield {
@@ -52,16 +51,12 @@ class SourceManagementServiceImpl(
       }
     }
 
-    override def getLocalPath(url: String): HFResult[Path] = {
-      val args = url.split(':')
-      val source = args.head
-      val path = args.last
-      getSources.map {
-        _.find(_.sourceDef.name == source)
-          .map(_.getAbsolutePath(path))
-          .map(Right.apply)
-          .getOrElse(Result.clientError(s"ModelSource for $url with prefix $source is not found"))
-      }
+    override def getLocalPath(sourcePath: SourcePath): HFResult[Path] = {
+      val f = for {
+        s <- EitherT(getSource(sourcePath.sourceName))
+        file <- EitherT(Future.successful(s.getReadableFile(sourcePath.path)))
+      } yield file.toPath
+      f.value
     }
 
     override def addLocalSource(r: AddLocalSourceRequest): HFResult[ModelSourceConfig] = {
@@ -94,11 +89,7 @@ class SourceManagementServiceImpl(
     }
 
     override def getSource(name: String): HFResult[ModelSource] = {
-      getSourceConfig(name).map { res =>
-        res.right.map { config =>
-          ModelSource.fromConfig(config)
-        }
-      }
+      EitherT(getSourceConfig(name)).map(ModelSource.fromConfig).value
     }
 
     override def index(modelSource: String): HFResult[Option[ModelMetadata]] = {
@@ -107,7 +98,7 @@ class SourceManagementServiceImpl(
         source <- EitherT(getSource(sourcePath.sourceName))
       } yield {
         println(sourcePath)
-        if (source.isExist(sourcePath.path)) {
+        if (source.exists(sourcePath.path)) {
           Some(ModelFetcher.fetch(source, sourcePath.path))
         } else {
           None
