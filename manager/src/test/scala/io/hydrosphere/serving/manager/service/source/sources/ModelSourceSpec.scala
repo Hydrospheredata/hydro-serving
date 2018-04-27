@@ -9,7 +9,7 @@ abstract class ModelSourceSpec(val modelSource: ModelSource) extends GenericUnit
   def getSourceFile(path: String): String
 
   modelSource.getClass.getSimpleName should "list all directories" in {
-    assert(modelSource.getSubDirs(getSourceFile("scikit_model")).isLeft)
+    assert(modelSource.getSubDirs(getSourceFile("scikit_model")).isRight)
 
     val sparkFilesResult = modelSource.getSubDirs(getSourceFile("spark_model"))
     assert(sparkFilesResult.isRight)
