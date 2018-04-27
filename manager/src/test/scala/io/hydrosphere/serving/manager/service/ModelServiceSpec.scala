@@ -103,7 +103,7 @@ class ModelServiceSpec extends GenericUnitTest {
     val upload = ModelUpload(
       "test",
       "unknown:unknown",
-      ModelContract.defaultInstance,
+      Some(ModelContract.defaultInstance),
       None,
       None,
       packModel("/test_models/tensorflow_model")
@@ -153,7 +153,7 @@ class ModelServiceSpec extends GenericUnitTest {
     val upload = ModelUpload(
       "test",
       "unknown:unknown",
-      ModelContract.defaultInstance,
+      Some(ModelContract.defaultInstance),
       None,
       None,
       packModel("/test_models/tensorflow_model")
