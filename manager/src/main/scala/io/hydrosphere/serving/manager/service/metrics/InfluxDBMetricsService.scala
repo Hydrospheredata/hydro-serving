@@ -1,5 +1,7 @@
 package io.hydrosphere.serving.manager.service.metrics
 
+import com.paulgoldbaum.influxdbclient.Parameter.Precision
+import com.paulgoldbaum.influxdbclient.Parameter.Precision.Precision
 import com.paulgoldbaum.influxdbclient._
 import io.hydrosphere.serving.manager.ManagerConfiguration
 import io.hydrosphere.serving.manager.connector.EnvoyAdminConnector
@@ -83,7 +85,7 @@ class InfluxDBMetricsService(
       Seq(LongField("value", m.value))
     ))
 
-    database.bulkWrite(mappedMetrics).map(_ => Unit)
+    database.bulkWrite(mappedMetrics, Precision.MILLISECONDS).map(_ => Unit)
   }
 
   override def recieveNonTick: Receive = {
