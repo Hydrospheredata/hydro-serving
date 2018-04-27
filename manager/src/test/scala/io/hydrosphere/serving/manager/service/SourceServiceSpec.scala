@@ -94,12 +94,6 @@ class SourceServiceSpec extends GenericUnitTest {
 
     Mockito.when(confMock.modelSources).thenReturn(Seq(s1))
     Mockito.when(sourceRepoMock.all()).thenReturn(Future.successful(Seq.empty))
-    Mockito.when(sourceRepoMock.create(Matchers.any())).thenAnswer(new Answer[Future[ModelSourceConfig]] {
-      override def answer(invocation: InvocationOnMock): Future[ModelSourceConfig] = {
-        val s = invocation.getArguments.head.asInstanceOf[ModelSourceConfig]
-        Future.successful(s)
-      }
-    })
 
     val reqFail = AddLocalSourceRequest(
       s1.name, "I MUST FAIL"
