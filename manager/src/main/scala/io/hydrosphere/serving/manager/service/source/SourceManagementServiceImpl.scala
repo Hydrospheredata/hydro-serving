@@ -28,7 +28,6 @@ class SourceManagementServiceImpl(
       getSourceConfig(modelSourceConfigAux.name).flatMap {
         case Right(_) => Result.clientErrorF(s"ModelSource with name ${modelSourceConfigAux.name} already exists")
         case Left(ClientError(_)) => // consider more specific NotFound error?
-          val modelSource = ModelSource.fromConfig(modelSourceConfigAux)
           for {
             config <- sourceRepository.create(modelSourceConfigAux)
           } yield {

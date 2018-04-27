@@ -23,14 +23,20 @@ class EnvironmentRepositoryImpl(implicit executionContext: ExecutionContext, dat
         entity.name,
         entity.placeholders.map(p => p.toJson.toString()).toList
       )
-    ).map(s => mapFromDb(s))
+    ).map(mapFromDb)
 
   override def get(id: Long): Future[Option[Environment]] =
     db.run(
       Tables.Environment
         .filter(_.environmentId === id)
         .result.headOption
-    ).map(s => mapFromDb(s))
+    ).map(mapFromDb)
+
+  override def get(name: String): Future[Option[Environment]] = db.run(
+    Tables.Environment
+      .filter(_.name === name)
+      .result.headOption
+  ).map(mapFromDb)
 
   override def delete(id: Long): Future[Int] =
     db.run(
@@ -42,7 +48,7 @@ class EnvironmentRepositoryImpl(implicit executionContext: ExecutionContext, dat
     db.run(
       Tables.Environment
         .result
-    ).map(s => s.map(ss => mapFromDb(ss)))
+    ).map(s => s.map(mapFromDb))
 }
 
 object EnvironmentRepositoryImpl {
