@@ -24,6 +24,10 @@ class SourceManagementServiceImpl(
   sourceRepository: SourceConfigRepository)
   (implicit ex: ExecutionContext) extends SourceManagementService with Logging {
 
+    managerConfiguration.modelSources.foreach{ src =>
+      logger.info(s"Detected config source: $src")
+    }
+
     def addSource(modelSourceConfigAux: ModelSourceConfig): HFResult[ModelSourceConfig] = {
       getSourceConfig(modelSourceConfigAux.name).flatMap {
         case Right(_) => Result.clientErrorF(s"ModelSource with name ${modelSourceConfigAux.name} already exists")

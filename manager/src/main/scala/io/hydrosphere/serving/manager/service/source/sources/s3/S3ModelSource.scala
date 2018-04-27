@@ -1,17 +1,16 @@
 package io.hydrosphere.serving.manager.service.source.sources.s3
 
-import java.io.{File, FileNotFoundException}
+import java.io.File
 import java.net.URI
 import java.nio.file._
 
 import com.amazonaws.{AmazonServiceException, SdkClientException}
 import io.hydrosphere.serving.manager.model.{HResult, Result}
-
-import scala.collection.JavaConversions._
 import io.hydrosphere.serving.manager.service.source.sources.ModelSource
 import io.hydrosphere.serving.manager.service.source.sources.local._
-import io.hydrosphere.serving.manager.util.FileUtils.RecursiveRemover
 import org.apache.logging.log4j.scala.Logging
+
+import scala.collection.JavaConversions._
 
 class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging {
   private[this] val lf = Files.createTempDirectory(sourceDef.name)
@@ -58,10 +57,9 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
   override def getReadableFile(path: String): HResult[File] = {
     logger.debug(s"getReadableFile: $path")
     if (client.doesObjectExist(sourceDef.bucket, path)) {
-      localSource.getReadableFile(path).right.map { file =>
-        if (!file.exists()) downloadObject(path.toString)
-        file
-      }
+      downloadObject(path.toString)
+    } else if (client.listObjects(sourceDef.bucket, path).getObjectSummaries.nonEmpty) {
+      downloadPrefix(path)
     } else {
       Result.clientError(s"File $path doesn't exist in ${sourceDef.name}")
     }
@@ -83,6 +81,25 @@ class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging
     } catch {
       case sdkEx: SdkClientException => Result.internalError(sdkEx)
       case serviceEx: AmazonServiceException => Result.internalError(serviceEx)
+    }
+  }
+
+  private def downloadPrefix(prefix: String): HResult[File] = {
+    logger.debug(s"downloadPrefix: $prefix")
+    val objects = client.listObjects(sourceDef.bucket, prefix)
+    if (objects.getObjectSummaries.nonEmpty) {
+      val folderStructure = lf.resolve(prefix)
+
+      if (Files.isRegularFile(folderStructure)) { // FIX sometimes s3 puts the entire folder
+        Files.delete(folderStructure)
+      }
+      Files.createDirectories(folderStructure)
+
+      getAllFiles(prefix).right.map { _ =>
+        folderStructure.toFile
+      }
+    } else {
+      Result.clientError(s"No objects in '$prefix' path exist in ${sourceDef.name}")
     }
   }
 
