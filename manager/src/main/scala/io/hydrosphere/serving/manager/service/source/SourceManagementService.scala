@@ -47,10 +47,10 @@ trait SourceManagementService {
 
   /***
     * Get readable path from url
-    * @param url in-source url that defines some resource
+    * @param sourcePath in-source url that defines some resource
     * @return readable path object
     */
-  def getLocalPath(url: String): HFResult[Path]
+  def getLocalPath(sourcePath: SourcePath): HFResult[Path]
 
   /***
     * List all the source configs (db ++ config)

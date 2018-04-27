@@ -10,12 +10,9 @@ import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.JavaConversions._
 
-/**
-  *
-  */
 object ScikitModelFetcher extends ModelFetcher with Logging {
   override def fetch(source: ModelSource, directory: String): Option[ModelMetadata] = {
-    if (source.isExist(s"$directory/model.pkl")) {
+    if (source.exists(s"$directory/model.pkl")) {
       val contract = getContract(source, directory)
       Some(
         ModelMetadata(
@@ -30,8 +27,9 @@ object ScikitModelFetcher extends ModelFetcher with Logging {
   }
 
   private def getContract(source: ModelSource, modelName: String): ModelContract = {
-    if (source.isExist(s"$modelName/metadata.prototxt")) {
-      val metaFile = source.getReadableFile(s"$modelName/metadata.prototxt")
+    val fileResult = source.getReadableFile(s"$modelName/metadata.prototxt")
+    if (fileResult.isRight) {
+      val metaFile = fileResult.right.get
       val metaStr = Files.readAllLines(metaFile.toPath).mkString
       ModelContract.fromAscii(metaStr)
     } else {

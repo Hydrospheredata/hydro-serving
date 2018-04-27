@@ -21,35 +21,31 @@ import scala.collection.JavaConversions._
 object TensorflowModelFetcher extends ModelFetcher with Logging {
 
   override def fetch(source: ModelSource, directory: String): Option[ModelMetadata] = {
-    try {
-      val pbFile = source.getReadableFile(s"$directory/saved_model.pb")
-      val savedModel = SavedModel.parseFrom(Files.newInputStream(pbFile.toPath))
-      val signatures = savedModel
-        .getMetaGraphsList
-        .flatMap{ metagraph =>
-          metagraph.getSignatureDefMap.map {
-            case (_, signatureDef) =>
-              convertSignature(signatureDef)
-          }.toList
-        }
+    source.getReadableFile(s"$directory/saved_model.pb") match {
+      case Left(error) =>
+        logger.debug(s"Fetch error: $error. $directory in not a valid Tensorflow model")
+        None
+      case Right(pbFile) =>
+        val savedModel = SavedModel.parseFrom(Files.newInputStream(pbFile.toPath))
+        val signatures = savedModel
+          .getMetaGraphsList
+          .flatMap { metagraph =>
+            metagraph.getSignatureDefMap.map {
+              case (_, signatureDef) =>
+                convertSignature(signatureDef)
+            }.toList
+          }
 
-      Some(
-        ModelMetadata(
-          modelName = directory,
-          contract = ModelContract(
-            directory,
-            signatures
-          ),
-          modelType = ModelType.Tensorflow()
+        Some(
+          ModelMetadata(
+            modelName = directory,
+            contract = ModelContract(
+              directory,
+              signatures
+            ),
+            modelType = ModelType.Tensorflow()
+          )
         )
-      )
-    } catch {
-      case _: NoSuchFileException =>
-        logger.debug(s"$directory in not a valid Tensorflow model")
-        None
-      case _: FileNotFoundException =>
-        logger.debug(s"$source $directory in not a valid Tensorflow model")
-        None
     }
   }
 

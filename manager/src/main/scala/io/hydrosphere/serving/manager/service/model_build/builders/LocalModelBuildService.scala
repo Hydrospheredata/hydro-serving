@@ -12,7 +12,7 @@ import io.hydrosphere.serving.manager.model.{HFResult, Result}
 import io.hydrosphere.serving.manager.model.db.ModelBuild
 import org.apache.commons.io.FileUtils
 import io.hydrosphere.serving.manager.model.Result.Implicits._
-import io.hydrosphere.serving.manager.service.source.SourceManagementService
+import io.hydrosphere.serving.manager.service.source.{SourceManagementService, SourcePath}
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -27,7 +27,8 @@ class LocalModelBuildService(
   override def build(modelBuild: ModelBuild, imageName: String, script: String, progressHandler: ProgressHandler): HFResult[String] = {
     val tmpBuildPath = Files.createTempDirectory(s"hydroserving-${modelBuild.id}")
     val fT = for {
-      localPath <- EitherT(sourceManagementService.getLocalPath(modelBuild.model.source))
+      sourcePath <- EitherT(Future.successful(SourcePath.parse(modelBuild.model.source)))
+      localPath <- EitherT(sourceManagementService.getLocalPath(sourcePath))
       dockerFile = prepareScript(modelBuild, script)
       buildRes <- EitherT(build(tmpBuildPath, localPath, dockerFile, progressHandler, modelBuild, imageName))
     } yield buildRes

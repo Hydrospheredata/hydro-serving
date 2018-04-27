@@ -219,7 +219,7 @@ class ModelManagementServiceImpl(
   override def addModel(sourceName: String, modelPath: String): HFResult[Model] = {
     sourceManagementService.getSource(sourceName).flatMap {
       case Right(source) =>
-        if (source.isExist(modelPath)) {
+        if (source.exists(modelPath)) {
           val metadata = ModelFetcher.fetch(source, modelPath)
           val createReq = metadataToCreate(metadata, s"$sourceName:$modelPath")
           getModel(metadata.modelName).flatMap{
