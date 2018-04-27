@@ -47,15 +47,23 @@ class ModelManagementServiceImpl(
     }
   }
 
-  override def updateModel(entity: CreateOrUpdateModelRequest): HFResult[Model] = {
+
+  override def updateModel(model: Model): HFResult[Model] = {
+    modelRepository.get(model.id).flatMap {
+      case Some(existingModel) =>
+        val newModel = model.copy(created = existingModel.created, updated = LocalDateTime.now())
+        modelRepository.update(newModel).map(_ => Result.ok(newModel))
+      case None => Result.clientErrorF(s"Can't find Model with id ${model.id}")
+    }
+  }
+
+  override def updateModelRequest(entity: CreateOrUpdateModelRequest): HFResult[Model] = {
     entity.id match {
       case Some(modelId) =>
         modelRepository.get(modelId).flatMap {
           case Some(foundModel) =>
             val newModel = entity.toModel(foundModel)
-            modelRepository
-              .update(newModel)
-              .map(_ => Right(newModel))
+            updateModel(newModel)
           case None => Result.clientErrorF(s"Can't find Model with id ${entity.id.get}")
         }
       case None => Result.clientErrorF("Id is required for this action")
@@ -111,7 +119,7 @@ class ModelManagementServiceImpl(
       case Left(err) => Result.errorF(err)
       case Right(model) =>
         val newModel = model.copy(modelContract = modelContract)
-        modelRepository.update(newModel).map { _ => Result.ok(newModel) }
+        updateModel(newModel)
     }
   }
 
@@ -182,7 +190,7 @@ class ModelManagementServiceImpl(
           case Some(model) =>
             val updateRequest = request.copy(id = Some(model.id), source = model.source)
             logger.info(s"Updating uploaded model with id: ${updateRequest.id} name: ${updateRequest.name}, source: ${updateRequest.source}, type: ${updateRequest.modelType} ")
-            updateModel(updateRequest)
+            updateModelRequest(updateRequest)
           case None =>
             val newSource = s"${request.source}:${upload.name}"
             val createRequest = request.copy(source = newSource)
@@ -218,7 +226,6 @@ class ModelManagementServiceImpl(
             case Left(_) => createModel(createReq)
             case Right(_) => Result.clientErrorF(s"Model $modelPath already exists")
           }
-
         } else {
           Result.clientErrorF(s"Path $modelPath doesn't exist in $sourceName source")
         }
@@ -255,7 +262,7 @@ class ModelManagementServiceImpl(
           optMetadata match {
             case Some(metadata) =>
               val newModel = applyModelMetadata(metadata, model)
-              modelRepository.update(newModel).map(_ => ModelUpdated(newModel))
+              updateModel(newModel).map(_ => ModelUpdated(newModel))
             case None =>
               modelRepository.delete(model.id).map(_ => ModelDeleted(model))
           }
