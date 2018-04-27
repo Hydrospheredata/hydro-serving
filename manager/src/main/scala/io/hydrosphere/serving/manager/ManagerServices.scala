@@ -7,8 +7,8 @@ import com.sksamuel.elastic4s.ElasticsearchClientUri
 import com.sksamuel.elastic4s.http.HttpClient
 import com.paulgoldbaum.influxdbclient._
 import com.spotify.docker.client._
-import io.grpc.{Channel, ClientInterceptors, ManagedChannelBuilder}
-import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, KafkaTopicServerInterceptor}
+import io.grpc.{Channel, ClientInterceptor, ClientInterceptors, ManagedChannelBuilder}
+import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, Headers}
 import io.hydrosphere.serving.manager.connector.HttpEnvoyAdminConnector
 import io.hydrosphere.serving.manager.service.clouddriver._
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedInfoUtilityServiceImpl}
@@ -30,6 +30,7 @@ import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServic
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.ExecutionContext
+import scala.collection.JavaConverters._
 
 class ManagerServices(
     val managerRepositories: ManagerRepositories,
@@ -47,8 +48,7 @@ class ManagerServices(
     .usePlaintext(true)
     .build
 
-  val channel: Channel = ClientInterceptors
-    .intercept(managedChannel, new AuthorityReplacerInterceptor, new KafkaTopicServerInterceptor)
+  val channel: Channel = ClientInterceptors.intercept(managedChannel, new AuthorityReplacerInterceptor +: Headers.interceptors: _*)
 
   val servingMeshGrpcClient: PredictionServiceGrpc.PredictionServiceStub = PredictionServiceGrpc.stub(channel)
 

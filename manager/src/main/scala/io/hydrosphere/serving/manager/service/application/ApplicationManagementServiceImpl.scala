@@ -6,7 +6,7 @@ import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.contract.utils.DataGenerator
 import io.hydrosphere.serving.contract.utils.ops.ModelSignatureOps
-import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, KafkaTopicServerInterceptor}
+import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, Headers}
 import io.hydrosphere.serving.manager.ApplicationConfig
 import io.hydrosphere.serving.manager.controller.application._
 import io.hydrosphere.serving.manager.model.Result.ClientError
@@ -44,7 +44,7 @@ class ApplicationManagementServiceImpl(
   type FutureMap[T] = Future[Map[Long, T]]
 
   //TODO REMOVE!
-  private def sendToDebug(request: PredictResponse, predictRequest: PredictRequest): Unit = {
+  private def sendToDebug(request: PredictResponse, predictRequest: PredictRequest, executionUnit: ExecutionUnit): Unit = {
     if (applicationConfig.shadowingOn) {
       val req = PredictRequest(
         modelSpec = predictRequest.modelSpec,
@@ -53,7 +53,11 @@ class ApplicationManagementServiceImpl(
 
       grpcClient
         .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, CloudDriverService.GATEWAY_KAFKA_NAME)
-        .withOption(KafkaTopicServerInterceptor.KAFKA_TOPIC_KEY, "shadow_topic") //TODO where can i get this
+        .withOption(Headers.KafkaTopic.callOptionsKey, "shadow_topic") //TODO where can i get this
+        .withOption(Headers.ApplicationId.callOptionsKey, executionUnit.stageInfo.applicationId)
+        .withOption(Headers.TraceId.callOptionsKey, executionUnit.stageInfo.traceId)
+        .withOption(Headers.StageId.callOptionsKey, executionUnit.stageInfo.stageId)
+        .withOption(Headers.StageName.callOptionsKey, executionUnit.stageInfo.stageName)
         .predict(req)
         .onComplete {
           case Failure(thr) =>
@@ -69,7 +73,7 @@ class ApplicationManagementServiceImpl(
       .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, unit.serviceName)
       .predict(request)
       .map { response =>
-        sendToDebug(response, request)
+        sendToDebug(response, request, unit)
         response
       }
   }
@@ -97,9 +101,17 @@ class ApplicationManagementServiceImpl(
       case stage :: Nil if stage.services.lengthCompare(1) == 0 => // single stage with single service
         request.modelSpec match {
           case Some(servicePath) =>
+            val stageId = ApplicationStage.stageId(application.id, 0)
+            val stageInfo = StageInfo(
+              traceId = "", // TODO get real traceId
+              applicationId = application.id.toString,
+              stageId = stageId,
+              stageName = stageId
+            )
             val unit = ExecutionUnit(
-              serviceName = ApplicationStage.stageId(application.id, 0),
-              servicePath = servicePath.signatureName
+              serviceName = stageId,
+              servicePath = servicePath.signatureName,
+              stageInfo = stageInfo
             )
             serve(unit, request).map(Result.ok)
           case None => Result.clientErrorF("ModelSpec in request is not specified")
@@ -109,10 +121,17 @@ class ApplicationManagementServiceImpl(
           case (stage, idx) =>
             stage.signature match {
               case Some(signature) =>
+                val stageInfo = StageInfo(
+                  traceId = "", // TODO get real traceId
+                  applicationId = application.id.toString,
+                  stageId = signature.signatureName,
+                  stageName = signature.signatureName
+                )
                 Result.ok(
                   ExecutionUnit(
                     serviceName = ApplicationStage.stageId(application.id, idx),
-                    servicePath = stage.services.head.signature.get.signatureName // FIXME dirty hack to fix service signatures
+                    servicePath = stage.services.head.signature.get.signatureName, // FIXME dirty hack to fix service signatures
+                    stageInfo = stageInfo
                   )
                 )
               case None => Result.clientError(s"$stage doesn't have a signature")
