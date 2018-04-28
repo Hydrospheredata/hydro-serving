@@ -42,14 +42,9 @@ hs upload
 
 #### Check UI - explore, deploy and test models
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=oXBjnR2LCh4
-" target="_blank"><img src="http://img.youtube.com/vi/oXBjnR2LCh4/0.jpg" 
-alt="Hydrosphere Serving in Action" width="240" height="180" border="10" /></a>
+<iframe src="https://giphy.com/embed/KyEVbxQEr4IGLuaQlR" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/KyEVbxQEr4IGLuaQlR">via GIPHY</a></p>
 
-## Model Mesh Architecture
-![Image](docs/images/deployment/HydroServingDeployemnt_ECS.png)
-
-## Model Service Architecture
+## Model Server Architecture
 ![Image](docs/images/high-level-architecture.png)
 
 
