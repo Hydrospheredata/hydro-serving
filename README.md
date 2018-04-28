@@ -42,7 +42,7 @@ hs upload
 
 #### Check UI - explore, deploy and test models
 
-<iframe src="https://giphy.com/embed/KyEVbxQEr4IGLuaQlR" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/KyEVbxQEr4IGLuaQlR">via GIPHY</a></p>
+![Hydrosphere Serving in Action](https://media.giphy.com/media/KyEVbxQEr4IGLuaQlR/giphy.gif)
 
 ## Model Server Architecture
 ![Image](docs/images/high-level-architecture.png)
