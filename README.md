@@ -44,6 +44,8 @@ hs upload
 
 ![Hydrosphere Serving in Action](https://media.giphy.com/media/KyEVbxQEr4IGLuaQlR/giphy.gif)
 
+![Hydrosphere Serving in Action](https://media.giphy.com/media/1dHWK2HJjdheyqB8lZ/giphy.gif)
+
 ## Model Server Architecture
 ![Image](docs/images/high-level-architecture.png)
 
