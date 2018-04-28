@@ -46,7 +46,7 @@ hs upload
 
 ![Hydrosphere Serving Create an AI application](https://media.giphy.com/media/1dHWK2HJjdheyqB8lZ/giphy.gif)
 
-![Hydrosphere Serving Test ML Models](https://media.giphy.com/media/2A67Wd88zQTcZk4lEs/giphy.gif
+![Hydrosphere Serving Test ML Models](https://media.giphy.com/media/2A67Wd88zQTcZk4lEs/giphy.gif)
 
 ## Model Server Architecture
 ![Image](docs/images/high-level-architecture.png)
