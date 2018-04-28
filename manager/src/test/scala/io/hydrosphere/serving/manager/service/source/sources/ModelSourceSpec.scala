@@ -8,6 +8,9 @@ abstract class ModelSourceSpec(val modelSource: ModelSource) extends GenericUnit
 
   def getSourceFile(path: String): String
 
+  val tempDir = Files.createTempDirectory("local-tests")
+  val filePath = tempDir.resolve("new_file.json")
+
   modelSource.getClass.getSimpleName should "list all directories" in {
     assert(modelSource.getSubDirs(getSourceFile("scikit_model")).isRight)
 
@@ -36,5 +39,25 @@ abstract class ModelSourceSpec(val modelSource: ModelSource) extends GenericUnit
     file.exists() shouldBe true
     val content = Files.readAllLines(file.toPath)
     content should not be empty
+  }
+
+  it should "write new file" in {
+    modelSource.writeFile(filePath.toString, modelSource.getReadableFile(getSourceFile("scikit_model/metadata.json")).right.get)
+    val fileRes = modelSource.getReadableFile(filePath.toString)
+    val f = assert(fileRes.isRight, fileRes)
+    val file = fileRes.right.get
+    Files.delete(file.toPath)
+    f
+  }
+
+  it should "overwrite a file" in {
+    modelSource.writeFile(filePath.toString, modelSource.getReadableFile(getSourceFile("scikit_model/metadata.json")).right.get)
+    val oldFile = modelSource.getReadableFile(filePath.toString).right.get
+    modelSource.writeFile(filePath.toString, modelSource.getReadableFile(getSourceFile("scikit_model/metadata.json")).right.get)
+    val fileRes = modelSource.getReadableFile(filePath.toString)
+    val f = assert(fileRes.isRight, fileRes)
+    val file = fileRes.right.get
+    Files.delete(file.toPath)
+    f
   }
 }
