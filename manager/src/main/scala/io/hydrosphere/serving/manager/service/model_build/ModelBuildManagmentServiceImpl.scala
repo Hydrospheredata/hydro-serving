@@ -49,14 +49,14 @@ class ModelBuildManagmentServiceImpl(
         modelVersion = None
       )
       modelBuild <- EitherT.liftF(modelBuildRepository.create(build))
-      modelVersion <- EitherT(buildModelRuntime(modelBuild, script))
+      modelVersion <- EitherT(buildModelVersion(modelBuild, script))
     } yield {
       modelVersion
     }
     f.value
   }
 
-  def buildModelRuntime(modelBuild: ModelBuild, script: String): HFResult[ModelVersion] = {
+  def buildModelVersion(modelBuild: ModelBuild, script: String): HFResult[ModelVersion] = {
     val imageName = modelPushService.getImageName(modelBuild)
     modelBuildService.build(modelBuild, imageName, script, InfoProgressHandler).flatMap {
       case Left(err) =>
@@ -93,7 +93,6 @@ class ModelBuildManagmentServiceImpl(
       newModel <- EitherT(maybeUpdateContract(model, flatContract))
       version <- EitherT(buildNewModelVersion(newModel, modelVersion))
     } yield version
-
     f.value
   }
 

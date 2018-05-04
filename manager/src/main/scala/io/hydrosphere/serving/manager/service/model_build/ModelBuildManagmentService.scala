@@ -15,7 +15,7 @@ trait ModelBuildManagmentService {
 
   def buildModel(modelId: Long, flatContract: Option[ContractDescription] = None, modelVersion: Option[Long] = None): HFResult[ModelVersion]
 
-  def buildModelRuntime(modelBuild: ModelBuild, script: String): HFResult[ModelVersion]
+  def buildModelVersion(modelBuild: ModelBuild, script: String): HFResult[ModelVersion]
 }
 
 

@@ -6,5 +6,4 @@ import org.scalatest.{AsyncFlatSpecLike, Matchers}
 import scala.concurrent.duration._
 
 trait GenericUnitTest extends AsyncFlatSpecLike with Matchers with MockitoSugar {
-  def futureTimeout = 30 seconds
 }
