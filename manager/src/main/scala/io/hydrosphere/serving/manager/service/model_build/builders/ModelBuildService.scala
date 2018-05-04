@@ -2,9 +2,7 @@ package io.hydrosphere.serving.manager.service.model_build.builders
 
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
-
-import scala.concurrent.Future
-
+import org.apache.logging.log4j.scala.Logging
 
 case class ProgressDetail(
   current: Option[Long],
@@ -32,6 +30,11 @@ case class DockerRegistryAuth(
 
 trait ProgressHandler {
   def handle(progressMessage: ProgressMessage)
+}
+
+object InfoProgressHandler extends ProgressHandler with Logging {
+  override def handle(progressMessage: ProgressMessage): Unit =
+    logger.info(progressMessage)
 }
 
 trait ModelBuildService {
