@@ -21,13 +21,19 @@ object Result {
 
   def okF[T](t: T): HFResult[T] = Future.successful(Right(t))
 
-  trait HError
+  trait HError {
+    def message: String
+  }
 
   case class ClientError(message: String) extends HError
 
-  case class InternalError[T <: Throwable](exception: T, reason: Option[String] = None) extends HError
+  case class InternalError[T <: Throwable](exception: T, reason: Option[String] = None) extends HError {
+    override def message: String = exception.getMessage
+  }
 
-  case class ErrorCollection(errors: Seq[HError]) extends HError
+  case class ErrorCollection(errors: Seq[HError]) extends HError {
+    override def message: String = errors.map(_.message).mkString("\n")
+  }
 
   def error[T](err: HError): HResult[T] = Left(err)
 

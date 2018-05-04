@@ -15,6 +15,7 @@ import io.hydrosphere.serving.manager.model.Result.Implicits._
 import io.hydrosphere.serving.manager.service.source.{SourceManagementService, SourcePath}
 
 import scala.concurrent.{ExecutionContext, Future}
+import scala.util.control.NonFatal
 
 class LocalModelBuildService(
   dockerClient: DockerClient,
@@ -58,9 +59,11 @@ class LocalModelBuildService(
         }
       )
     } catch {
-      case dEx: DockerException =>
-        Files.deleteIfExists(buildPath)
-        Result.internalErrorF(dEx)
+      case NonFatal(e) =>
+        if (Files.isDirectory(buildPath)) {
+          FileUtils.deleteDirectory(buildPath.toFile)
+        }
+        Result.internalErrorF(e)
     }
   }
 

@@ -9,7 +9,7 @@ import io.hydrosphere.serving.manager.ManagerConfiguration
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.Service
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
-import io.hydrosphere.serving.manager.service.model_build.builders.{DockerClientHelper, ProgressHandler, ProgressMessage}
+import io.hydrosphere.serving.manager.service.model_build.builders.{DockerClientHelper, InfoProgressHandler, ProgressHandler, ProgressMessage}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -83,12 +83,8 @@ class LocalCloudDriverService(
 
   private def pullImage(service: Service): Unit = {
     if (dockerClient.listImages(ListImagesParam.byName(service.runtime.toImageDef)).isEmpty) {
-      val handler = new ProgressHandler {
-        override def handle(progressMessage: ProgressMessage): Unit = logger.info(progressMessage)
-      }
-
       dockerClient.pull(service.runtime.toImageDef,
-        DockerClientHelper.createProgressHandlerWrapper(handler))
+        DockerClientHelper.createProgressHandlerWrapper(InfoProgressHandler))
     }
     Unit
   }
