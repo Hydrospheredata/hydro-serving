@@ -43,13 +43,12 @@ class LocalModelSource(val sourceDef: LocalSourceDef) extends ModelSource {
   }
 
   override def writeFile(path: String, localFile: File): HResult[Path] = {
-    getReadableFile(path).right.map { destFile =>
-      val destPath = destFile.toPath
-      val parentPath = destPath.getParent
-      if (!Files.exists(parentPath)) {
-        Files.createDirectories(parentPath)
-      }
-      Files.copy(localFile.toPath, destPath, StandardCopyOption.REPLACE_EXISTING)
+    val destFile = rootDir.resolve(path)
+    val destPath = destFile
+    val parentPath = destPath.getParent
+    if (!Files.exists(parentPath)) {
+      Files.createDirectories(parentPath)
     }
+    Result.ok(Files.copy(localFile.toPath, destPath, StandardCopyOption.REPLACE_EXISTING))
   }
 }

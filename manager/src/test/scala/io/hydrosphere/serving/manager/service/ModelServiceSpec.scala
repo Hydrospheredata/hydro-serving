@@ -103,10 +103,10 @@ class ModelServiceSpec extends GenericUnitTest {
     val upload = ModelUpload(
       "test",
       "unknown:unknown",
-      ModelContract.defaultInstance,
       None,
       None,
-      packModel("/test_models/tensorflow_model")
+      None,
+      packModel("/test_models/tensorflow_model/saved_model.pb")
     )
     println(upload)
     val model = Model(
@@ -142,8 +142,11 @@ class ModelServiceSpec extends GenericUnitTest {
     modelManagementService.uploadModelTarball(upload).map{ maybeModel =>
       maybeModel.isRight should equal(true)
       val rModel = maybeModel.right.get
+      println(rModel)
       rModel.name should equal("test")
       rModel.source should equal("test:test")
+      assert(rModel.modelContract.modelName === "test")
+      assert(rModel.modelContract.signatures.nonEmpty)
     }
   }
 
@@ -153,7 +156,7 @@ class ModelServiceSpec extends GenericUnitTest {
     val upload = ModelUpload(
       "test",
       "unknown:unknown",
-      ModelContract.defaultInstance,
+      Some(ModelContract.defaultInstance),
       None,
       None,
       packModel("/test_models/tensorflow_model")
