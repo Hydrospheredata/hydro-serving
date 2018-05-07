@@ -122,14 +122,14 @@ class AggregatedInfoServiceSpec extends GenericUnitTest {
       List(
         ApplicationStage(
           List(WeightedService(
-              ServiceKeyDescription(1,Some(mVersion1.id), None, Some(mVersion1.modelName), None),
+              ServiceKeyDescription(1,Some(mVersion1.id), None, Some(mVersion1.fullName), None),
               100,
               None
             )), None
         ),
         ApplicationStage(
           List(WeightedService(
-            ServiceKeyDescription(2,Some(mVersion2.id), None, Some(mVersion2.modelName), None),
+            ServiceKeyDescription(2,Some(mVersion2.id), None, Some(mVersion2.fullName), None),
             100,
             None
           )), None
@@ -141,12 +141,12 @@ class AggregatedInfoServiceSpec extends GenericUnitTest {
       List(ApplicationStage(
         List(
           WeightedService(
-          ServiceKeyDescription(1,Some(mVersion1.id), None, Some(mVersion1.modelName), None),
+          ServiceKeyDescription(1,Some(mVersion1.id), None, Some(mVersion1.fullName), None),
           100,
           None
         ),
           WeightedService(
-            ServiceKeyDescription(1,Some(mVersion2.id), None, Some(mVersion2.modelName), None),
+            ServiceKeyDescription(1,Some(mVersion2.id), None, Some(mVersion2.fullName), None),
             100,
             None
           )

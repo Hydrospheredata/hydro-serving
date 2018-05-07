@@ -275,8 +275,8 @@ class ApplicationManagementServiceImpl(
     } yield enrichApps(apps) {
       key =>
         key.copy(
-          modelName = key.modelVersionId.flatMap(modelData.get(_).map(mv => s"${mv.modelName}:${mv.modelVersion}")),
-          runtimeName = runtimeData.get(key.runtimeId).map(_.name)
+          modelName = key.modelVersionId.flatMap(modelData.get(_).map(_.fullName)),
+          runtimeName = runtimeData.get(key.runtimeId).map(_.toImageDef)
         )
     }
   }

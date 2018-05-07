@@ -4,9 +4,6 @@ import io.hydrosphere.serving.manager.model.db.ModelVersion
 
 import scala.concurrent.Future
 
-/**
-  *
-  */
 trait ModelVersionRepository extends BaseRepository[ModelVersion, Long] {
   def lastModelVersionByModel(modelId: Long, max: Int): Future[Seq[ModelVersion]]
 

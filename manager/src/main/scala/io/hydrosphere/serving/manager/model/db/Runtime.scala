@@ -10,5 +10,5 @@ case class Runtime(
   tags: List[String],
   configParams: Map[String, String]
 ) {
-  def toImageDef: String = s"$name:$version"
+  def toImageDef: String = name + ":" + version
 }

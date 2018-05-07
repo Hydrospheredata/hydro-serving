@@ -18,5 +18,6 @@ case class ModelVersion(
   model: Option[Model],
   modelContract: ModelContract
 ) {
-  def toImageDef: String = s"$imageName:$imageTag"
+  def toImageDef: String = imageName + ":" + imageTag
+  def fullName: String = modelName + ":" + modelVersion
 }

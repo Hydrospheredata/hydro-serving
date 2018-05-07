@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.service.aggregated_info
 import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.db.{Application, Model, ModelVersion}
+import io.hydrosphere.serving.manager.model.db.{Application, Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service.application.ApplicationManagementService
 import io.hydrosphere.serving.manager.service.model.ModelManagementService
 import io.hydrosphere.serving.manager.service.model_build.ModelBuildManagmentService
@@ -36,7 +36,9 @@ class AggregatedInfoUtilityServiceImpl(
     apps.filter { app =>
       app.executionGraph.stages.exists { stage =>
         stage.services.exists { service =>
-          service.serviceDescription.modelName.contains(model.name)
+          service.serviceDescription.modelName.exists { name =>
+            name.split(':').headOption.contains(model.name)
+          }
         }
       }
     }
