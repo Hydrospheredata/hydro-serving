@@ -6,6 +6,5 @@ case class AggregatedModelInfo(
   model: Model,
   lastModelBuild: Option[ModelBuild],
   lastModelVersion: Option[ModelVersion],
-  applications: Seq[Application],
   nextVersion: Option[Long]
 )

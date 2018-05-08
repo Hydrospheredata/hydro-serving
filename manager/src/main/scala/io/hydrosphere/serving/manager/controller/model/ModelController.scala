@@ -205,7 +205,7 @@ class ModelController(
   ))
   def listModelBuildsByModel = get {
     path("api" / "v1" / "model" / "builds" / LongNumber) { s =>
-      completeF(modelBuildManagementService.modelBuildsByModelId(s))
+      completeF(aggregatedInfoUtilityService.getModelBuilds(s))
     }
   }
 
@@ -298,7 +298,7 @@ class ModelController(
   def allModelVersions = path("api" / "v1" / "model" / "version") {
     get {
       completeF(
-        modelVersionManagementService.list
+        aggregatedInfoUtilityService.allModelVersions
       )
     }
   }

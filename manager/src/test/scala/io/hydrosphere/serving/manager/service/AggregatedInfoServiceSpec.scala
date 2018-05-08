@@ -104,7 +104,7 @@ class AggregatedInfoServiceSpec extends GenericUnitTest {
     }
   }
 
-  it should "return info for models in applications" in {
+  it should "return  apps info for model versions" in {
     val createdTime = LocalDateTime.now()
 
     val unbuiltModel = Model(1, "model1", "test", ModelType.Tensorflow(), None, ModelContract.defaultInstance, createdTime, createdTime)
@@ -173,13 +173,12 @@ class AggregatedInfoServiceSpec extends GenericUnitTest {
     )
 
     val buildMock = mock[ModelBuildManagmentService]
-    Mockito.when(buildMock.lastForModels(Matchers.any())).thenReturn(
-      Future.successful(Seq(mBuild1, mBuild2))
-    )
+
     val versionMock = mock[ModelVersionManagementService]
-    Mockito.when(versionMock.lastModelVersionForModels(Matchers.any())).thenReturn(
+    Mockito.when(versionMock.list).thenReturn(
       Future.successful(Seq(mVersion1, mVersion2))
     )
+
     val appMock = mock[ApplicationManagementService]
     Mockito.when(appMock.allApplications()).thenReturn(
       Future.successful(Seq(app1, app2, app3))
@@ -187,28 +186,15 @@ class AggregatedInfoServiceSpec extends GenericUnitTest {
 
     val aggService = new AggregatedInfoUtilityServiceImpl(modelMock, buildMock, versionMock, appMock)
 
-    aggService.allModelsAggregatedInfo().map{ result =>
+    aggService.allModelVersions.map{ result =>
       assert(result.nonEmpty)
-      val m1 = result.find(_.model.name == "model1").get
-      val m2 = result.find(_.model.name == "model2").get
-      val m3 = result.find(_.model.name == "model3").get
+      val m2 = result.find(_.modelName == "model2").get
+      val m3 = result.find(_.modelName == "model3").get
 
-      assert(m1.model === unbuiltModel)
-      assert(m1.lastModelVersion.isEmpty)
-      assert(m1.lastModelBuild.isEmpty)
-      assert(m1.nextVersion.get === 1)
-      assert(m1.applications.isEmpty)
-
-      assert(m2.model === builtModel1)
-      assert(m2.lastModelBuild.get === mBuild1)
-      assert(m2.lastModelVersion.get === mVersion1)
-      assert(m2.nextVersion.isEmpty)
+      assert(m2.model.get === builtModel1)
       assert(m2.applications === Seq(app1, app2))
 
-      assert(m3.model === builtModel2)
-      assert(m3.lastModelBuild.get === mBuild2)
-      assert(m3.lastModelVersion.get === mVersion2)
-      assert(m3.nextVersion.isEmpty)
+      assert(m3.model.get === builtModel2)
       assert(m3.applications === Seq(app1, app2))
     }
   }

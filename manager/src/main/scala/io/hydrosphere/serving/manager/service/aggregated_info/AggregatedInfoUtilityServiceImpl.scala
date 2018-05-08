@@ -32,13 +32,34 @@ class AggregatedInfoUtilityServiceImpl(
     f.value
   }
 
-  private def findAppsUsage(model: Model, apps: Seq[Application]): Seq[Application] = {
+  override def allModelVersions: Future[Seq[AggregatedModelVersion]] = {
+    for {
+      apps <- applicationManagementService.allApplications()
+      versions <- modelVersionManagementService.list
+    } yield {
+      versions.map { version =>
+        AggregatedModelVersion.fromModelVersion(version, findAppsUsage(version, apps))
+      }
+    }
+  }
+
+
+  override def getModelBuilds(modelId: Long): Future[Seq[AggregatedModelBuild]] = {
+    for {
+      apps <- applicationManagementService.allApplications()
+      builds <- modelBuildManagementService.modelBuildsByModelId(modelId)
+    } yield {
+      builds.map { build =>
+        AggregatedModelBuild.fromModelBuild(build, build.modelVersion.map(findAppsUsage(_, apps)).getOrElse(Seq.empty))
+      }
+    }
+  }
+
+  private def findAppsUsage(version: ModelVersion, apps: Seq[Application]): Seq[Application] = {
     apps.filter { app =>
       app.executionGraph.stages.exists { stage =>
         stage.services.exists { service =>
-          service.serviceDescription.modelName.exists { name =>
-            name.split(':').headOption.contains(model.name)
-          }
+          service.serviceDescription.modelVersionId.contains(version.id)
         }
       }
     }
@@ -51,7 +72,6 @@ class AggregatedInfoUtilityServiceImpl(
       buildsMap = builds.groupBy(_.model.id)
       versions <- modelVersionManagementService.lastModelVersionForModels(ids)
       versionsMap = versions.groupBy(_.model.get.id)
-      apps <- applicationManagementService.allApplications()
     } yield {
       models.map { model =>
         val lastVersion = versionsMap.get(model.id).map(_.maxBy(_.modelVersion))
@@ -60,8 +80,7 @@ class AggregatedInfoUtilityServiceImpl(
           model = model,
           lastModelBuild = lastBuild,
           lastModelVersion = lastVersion,
-          nextVersion = getNextVersion(model, lastVersion),
-          applications = findAppsUsage(model, apps)
+          nextVersion = getNextVersion(model, lastVersion)
         )
       }
     }
