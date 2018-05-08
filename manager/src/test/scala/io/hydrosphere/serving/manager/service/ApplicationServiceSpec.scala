@@ -25,7 +25,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
 
     val result = Await.result(appService.enrichServiceKeyDescription(apps, runtimeMap, modelsMap), 1 second)
     val serviceDescription = result.head.executionGraph.stages.head.services.head.serviceDescription
-    assert(serviceDescription.runtimeName.contains("runtime"))
+    assert(serviceDescription.runtimeName.contains("runtime:latest"))
     assert(serviceDescription.modelName.contains("model_name:1"))
   }
 
@@ -47,7 +47,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
     Map(1l -> Runtime(
       id = 1,
       name = "runtime",
-      version = "",
+      version = "latest",
       suitableModelType = List(),
       tags = List(),
       configParams = Map()

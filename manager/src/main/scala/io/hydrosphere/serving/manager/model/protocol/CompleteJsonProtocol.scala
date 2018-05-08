@@ -29,7 +29,7 @@ trait CompleteJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol 
 
   implicit val addModelFormat = jsonFormat2(AddModelRequest.apply)
 
-  implicit val aggregatedModelInfoFormat=jsonFormat4(AggregatedModelInfo)
+  implicit val aggregatedModelInfoFormat=jsonFormat5(AggregatedModelInfo)
 
   implicit val metricServiceTargetLabelsFormat = jsonFormat11(MetricServiceTargetLabels)
 

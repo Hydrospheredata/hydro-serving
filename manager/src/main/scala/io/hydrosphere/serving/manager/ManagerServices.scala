@@ -91,12 +91,6 @@ class ManagerServices(
     modelBuildService
   )
 
-  val aggregatedInfoUtilityService: AggregatedInfoUtilityService = new AggregatedInfoUtilityServiceImpl(
-    modelManagementService,
-    modelBuildManagmentService,
-    modelVersionManagementService
-  )
-
   val cloudDriverService: CloudDriverService = managerConfiguration.cloudDriver match {
     case _: ECSCloudDriverConfiguration => new ECSCloudDriverService(managerConfiguration, internalManagerEventsPublisher)
     case _: DockerCloudDriverConfiguration => new DockerComposeCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
@@ -124,6 +118,13 @@ class ManagerServices(
     internalManagerEventsPublisher = internalManagerEventsPublisher,
     applicationConfig = managerConfiguration.application,
     runtimeRepository = managerRepositories.runtimeRepository
+  )
+
+  val aggregatedInfoUtilityService: AggregatedInfoUtilityService = new AggregatedInfoUtilityServiceImpl(
+    modelManagementService,
+    modelBuildManagmentService,
+    modelVersionManagementService,
+    applicationManagementService
   )
 
   val envoyGRPCDiscoveryService: EnvoyGRPCDiscoveryService = new EnvoyGRPCDiscoveryServiceImpl(
