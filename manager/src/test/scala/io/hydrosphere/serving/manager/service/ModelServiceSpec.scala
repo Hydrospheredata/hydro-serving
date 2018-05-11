@@ -5,7 +5,7 @@ import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.GenericUnitTest
-import io.hydrosphere.serving.manager.controller.model.UploadedEntity.ModelUpload
+import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model.Result
 import io.hydrosphere.serving.manager.model.api.{ModelMetadata, ModelType}
 import io.hydrosphere.serving.manager.model.db.Model
@@ -101,12 +101,12 @@ class ModelServiceSpec extends GenericUnitTest {
     val testSourcePath = Files.createTempDirectory("upload-test").toString
     println("Test source path: " + testSourcePath)
     val upload = ModelUpload(
-      "test",
-      "unknown:unknown",
+      packModel("/test_models/tensorflow_model/saved_model.pb"),
+      Some("test"),
+      Some("unknown:unknown"),
       None,
       None,
-      None,
-      packModel("/test_models/tensorflow_model/saved_model.pb")
+      None
     )
     println(upload)
     val model = Model(
@@ -154,12 +154,12 @@ class ModelServiceSpec extends GenericUnitTest {
     val testSourcePath = Files.createTempDirectory("upload-test").toString
     println("Test source path: " + testSourcePath)
     val upload = ModelUpload(
-      "test",
-      "unknown:unknown",
+      packModel("/test_models/tensorflow_model"),
+      Some("test"),
+      Some("unknown:unknown"),
       Some(ModelContract.defaultInstance),
       None,
-      None,
-      packModel("/test_models/tensorflow_model")
+      None
     )
     println(upload)
     val model = Model(

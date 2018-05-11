@@ -6,7 +6,7 @@ import java.time.LocalDateTime
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.contract.utils.ops.ModelContractOps._
-import io.hydrosphere.serving.manager.controller.model.UploadedEntity
+import io.hydrosphere.serving.manager.controller.model.{ModelUpload, UploadedEntity}
 import io.hydrosphere.serving.manager.model.Result.ClientError
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.{ModelMetadata, ModelType}
@@ -152,7 +152,7 @@ class ModelManagementServiceImpl(
     }
   }
 
-  def uploadToSource(upload: UploadedEntity.ModelUpload): HFResult[CreateOrUpdateModelRequest] = {
+  def uploadToSource(upload: ModelUpload): HFResult[CreateOrUpdateModelRequest] = {
     val fMaybeSource = upload.source match {
       case Some(sourceName) => sourceManagementService.getSource(sourceName)
       case None => sourceManagementService.getSources.map(_.headOption.toHResult(ClientError("No sources available")))
@@ -190,7 +190,7 @@ class ModelManagementServiceImpl(
     }
   }
 
-  override def uploadModelTarball(upload: UploadedEntity.ModelUpload): HFResult[Model] = {
+  override def uploadModelTarball(upload: ModelUpload): HFResult[Model] = {
     uploadToSource(upload).flatMap {
       case Right(request) =>
         modelRepository.get(request.name).flatMap {

@@ -14,7 +14,7 @@ import akka.util.Timeout
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.{GenericController, ServingDataDirectives}
-import io.hydrosphere.serving.manager.controller.model.UploadedEntity._
+import io.hydrosphere.serving.manager.controller.model._
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
@@ -90,30 +90,30 @@ class ModelController(
               p.entity.dataBytes
                 .map(_.decodeString("UTF-8"))
                 .filterNot(_.isEmpty)
-                .map(r => UploadType(modelType = r))
+                .map(r => UploadModelType(modelType = r))
 
             case "target_source" if p.filename.isEmpty =>
               p.entity.dataBytes
                 .map(_.decodeString("UTF-8"))
                 .filterNot(_.isEmpty)
-                .map(r => TargetSource(source = r))
+                .map(r => UploadTargetSource(source = r))
 
             case "model_contract" if p.filename.isEmpty =>
               p.entity.dataBytes
                 .map(b => ModelContract.parseFrom(b.toByteBuffer.array()))
-                .map(p => Contract(modelContract = p))
+                .map(p => UploadContract(modelContract = p))
 
             case "model_description" if p.filename.isEmpty =>
               p.entity.dataBytes
                 .map(_.decodeString("UTF-8"))
                 .filterNot(_.isEmpty)
-                .map(r => Description(description = r))
+                .map(r => UploadDescription(description = r))
 
             case "model_name" if p.filename.isEmpty =>
               p.entity.dataBytes
                 .map(_.decodeString("UTF-8"))
                 .filterNot(_.isEmpty)
-                .map(r => ModelName(modelName = r))
+                .map(r => UploadModelName(modelName = r))
 
             case "payload" if p.filename.isDefined =>
               val filename = p.filename.get
@@ -121,7 +121,7 @@ class ModelController(
               p.entity.dataBytes
                 .map { fileBytes =>
                   Files.write(tempPath, fileBytes.toArray, StandardOpenOption.APPEND)
-                  Tarball(path = tempPath)
+                  UploadTarball(path = tempPath)
                 }
             case _ =>
               logger.warn(s"Unknown part. Name: ${p.name} Filename: ${p.filename}")
@@ -130,18 +130,19 @@ class ModelController(
               }
           }
         }
-        val dicts = fileNamesFuture.runFold(Map.empty[String, UploadedEntity]) {
-          case (a, b) => a + (b.name -> b)
+
+        val entities = fileNamesFuture.runFold(List.empty[UploadedEntity]) {
+          case (a, b) => a :+ b
         }
 
-        def uploadModel(dd: Future[Map[String, UploadedEntity]]): HFResult[Model] = {
-          dd.map(ModelUpload.fromMap).flatMap {
+        def uploadModel(dd: Future[List[UploadedEntity]]): HFResult[Model] = {
+          dd.map(ModelUpload.fromUploadEntities).flatMap {
             case Left(a) => Future.successful(Left(a))
             case Right(b) => modelManagementService.uploadModelTarball(b)
           }
         }
 
-        completeFRes(uploadModel(dicts))
+        completeFRes(uploadModel(entities))
       }
     }
   }
