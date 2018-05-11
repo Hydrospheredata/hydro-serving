@@ -12,11 +12,11 @@ import org.mockito.{Matchers, Mockito}
 
 import scala.concurrent.{Await, Future}
 
-class SourceServiceSpec extends GenericUnitTest {
+class StorageServiceSpec extends GenericUnitTest {
 
   import scala.concurrent.ExecutionContext.Implicits._
 
-  "Source management service" should "index specified source path" in {
+  "Storage management service" should "index specified source path" in {
     val confMock = mock[ManagerConfiguration]
     val sourceRepoMock = mock[SourceConfigRepository]
 

@@ -4,12 +4,12 @@ import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.model.api.ModelMetadata
 import io.hydrosphere.serving.manager.service.source.fetchers.spark.SparkModelFetcher
 import io.hydrosphere.serving.manager.model.api._
-import io.hydrosphere.serving.manager.service.source.sources.ModelSource
+import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import org.apache.logging.log4j.scala.Logging
 
 
 trait ModelFetcher {
-  def fetch(source: ModelSource, directory: String): Option[ModelMetadata]
+  def fetch(source: ModelStorage, directory: String): Option[ModelMetadata]
 }
 
 object ModelFetcher extends Logging {
@@ -19,7 +19,7 @@ object ModelFetcher extends Logging {
     ScikitModelFetcher
   )
 
-  def fetch(source: ModelSource, folder: String): ModelMetadata = {
+  def fetch(source: ModelStorage, folder: String): ModelMetadata = {
     source.getAllFiles(folder)
     val res = fetchers
       .map(_.fetch(source, folder))

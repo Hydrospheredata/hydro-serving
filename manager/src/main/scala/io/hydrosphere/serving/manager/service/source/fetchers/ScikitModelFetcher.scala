@@ -5,13 +5,13 @@ import java.nio.file.Files
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.model.api.ModelMetadata
 import io.hydrosphere.serving.manager.model.api._
-import io.hydrosphere.serving.manager.service.source.sources.ModelSource
+import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.JavaConversions._
 
 object ScikitModelFetcher extends ModelFetcher with Logging {
-  override def fetch(source: ModelSource, directory: String): Option[ModelMetadata] = {
+  override def fetch(source: ModelStorage, directory: String): Option[ModelMetadata] = {
     if (source.exists(s"$directory/model.pkl")) {
       val contract = getContract(source, directory)
       Some(
@@ -26,7 +26,7 @@ object ScikitModelFetcher extends ModelFetcher with Logging {
     }
   }
 
-  private def getContract(source: ModelSource, modelName: String): ModelContract = {
+  private def getContract(source: ModelStorage, modelName: String): ModelContract = {
     val fileResult = source.getReadableFile(s"$modelName/metadata.prototxt")
     if (fileResult.isRight) {
       val metaFile = fileResult.right.get

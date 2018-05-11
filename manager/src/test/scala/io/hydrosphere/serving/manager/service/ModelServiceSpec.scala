@@ -12,7 +12,7 @@ import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.repository.ModelRepository
 import io.hydrosphere.serving.manager.service.contract.ContractUtilityService
 import io.hydrosphere.serving.manager.service.model.{IndexError, ModelDeleted, ModelManagementServiceImpl, ModelUpdated}
-import io.hydrosphere.serving.manager.service.source.sources.local.{LocalModelSource, LocalSourceDef}
+import io.hydrosphere.serving.manager.service.source.storages.local.{LocalModelStorage, LocalModelStorageDefinition}
 import io.hydrosphere.serving.manager.service.source.ModelStorageManagementService
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.mockito.invocation.InvocationOnMock
@@ -125,7 +125,7 @@ class ModelServiceSpec extends GenericUnitTest {
     Mockito.when(sourceMock.getSources).thenReturn(
       Future.successful(
         List(
-          new LocalModelSource(LocalSourceDef("test", Some(testSourcePath)))
+          new LocalModelStorage(LocalModelStorageDefinition("test", Some(testSourcePath)))
         )
       )
     )
@@ -178,7 +178,7 @@ class ModelServiceSpec extends GenericUnitTest {
     Mockito.when(sourceMock.getSources).thenReturn(
       Future.successful(
         List(
-          new LocalModelSource(LocalSourceDef("test", Some(testSourcePath)))
+          new LocalModelStorage(LocalModelStorageDefinition("test", Some(testSourcePath)))
         )
       )
     )
@@ -206,7 +206,7 @@ class ModelServiceSpec extends GenericUnitTest {
 
     Mockito.when(sourceMock.getSource(sourceName)).thenReturn(
       Result.okF(
-        new LocalModelSource(LocalSourceDef(sourceName, None))
+        new LocalModelStorage(LocalModelStorageDefinition(sourceName, None))
       )
     )
     Mockito.when(modelRepo.get(Matchers.any())).thenReturn(
@@ -237,7 +237,7 @@ class ModelServiceSpec extends GenericUnitTest {
 
     Mockito.when(sourceMock.getSource(sourceName)).thenReturn(
       Result.okF(
-        new LocalModelSource(LocalSourceDef(sourceName, None))
+        new LocalModelStorage(LocalModelStorageDefinition(sourceName, None))
       )
     )
     Mockito.when(modelRepo.get(Matchers.any())).thenReturn(

@@ -15,7 +15,7 @@ import io.hydrosphere.serving.manager.model.db.ModelSourceConfig
 import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.{LocalSourceParams, S3SourceParams}
 import io.hydrosphere.serving.manager.repository.SourceConfigRepository
 import io.hydrosphere.serving.manager.service.source.fetchers.ModelFetcher
-import io.hydrosphere.serving.manager.service.source.sources.ModelSource
+import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.apache.logging.log4j.scala.Logging
 
@@ -26,16 +26,16 @@ class ModelStorageManagementServiceImpl(
   sourceRepository: SourceConfigRepository)
   (implicit ex: ExecutionContext) extends ModelStorageManagementService with Logging {
 
-  def upload(upload: ModelUpload): HFResult[SourceUploadResult] = {
+  def upload(upload: ModelUpload): HFResult[StorageUploadResult] = {
     val fMaybeSource = upload.source match {
       case Some(sourceName) => getSource(sourceName)
       case None => getSources.map(_.headOption.toHResult(ClientError("No sources available")))
     }
     fMaybeSource.map { result =>
       result.right.map { source =>
-        val uploadName = upload.tarballPath.getFileName.toString
-        val unpackDir = Files.createTempDirectory(uploadName)
-        val rootDir = Paths.get(uploadName)
+        val modelName = upload.name.getOrElse(upload.tarballPath.getFileName.toString)
+        val unpackDir = Files.createTempDirectory(modelName)
+        val rootDir = Paths.get(modelName)
         val uploadedFiles = TarGzUtils.decompress(upload.tarballPath, unpackDir)
         val localFiles = uploadedFiles
           .filter(_.startsWith(unpackDir))
@@ -48,11 +48,9 @@ class ModelStorageManagementServiceImpl(
         writeFilesToSource(source, localFiles)
 
         val inferredMeta = ModelFetcher.fetch(source, unpackDir.toString)
-        val contract = upload.contract.getOrElse(inferredMeta.contract)
+        val contract = upload.contract.getOrElse(inferredMeta.contract).copy(modelName = modelName)
         val modelType = upload.modelType.map(ModelType.fromTag).getOrElse(inferredMeta.modelType)
-        val modelName = upload.name.getOrElse(inferredMeta.modelName)
-
-        SourceUploadResult(
+        StorageUploadResult(
           name = modelName,
           source = source.sourceDef.name,
           modelType = modelType,
@@ -85,13 +83,13 @@ class ModelStorageManagementServiceImpl(
     }
   }
 
-  override def getSources: Future[List[ModelSource]] = {
+  override def getSources: Future[List[ModelStorage]] = {
     allSourceConfigs.map { sources =>
-      sources.map(ModelSource.fromConfig).toList
+      sources.map(ModelStorage.fromConfig).toList
     }
   }
 
-  override def getLocalPath(sourcePath: SourcePath): HFResult[Path] = {
+  override def getLocalPath(sourcePath: StoragePath): HFResult[Path] = {
     val f = for {
       s <- EitherT(getSource(sourcePath.sourceName))
       file <- EitherT(Future.successful(s.getReadableFile(sourcePath.path)))
@@ -131,14 +129,14 @@ class ModelStorageManagementServiceImpl(
     }
   }
 
-  override def getSource(name: String): HFResult[ModelSource] = {
-    EitherT(getSourceConfig(name)).map(ModelSource.fromConfig).value
+  override def getSource(name: String): HFResult[ModelStorage] = {
+    EitherT(getSourceConfig(name)).map(ModelStorage.fromConfig).value
   }
 
   // TODO remove
   override def index(modelSource: String): HFResult[Option[ModelMetadata]] = {
     val f = for {
-      sourcePath <- EitherT(Future.successful(SourcePath.parse(modelSource)))
+      sourcePath <- EitherT(Future.successful(StoragePath.parse(modelSource)))
       source <- EitherT(getSource(sourcePath.sourceName))
     } yield {
       println(sourcePath)
@@ -151,7 +149,7 @@ class ModelStorageManagementServiceImpl(
     f.value
   }
 
-  private def writeFilesToSource(source: ModelSource, files: Map[Path, Path]): Unit = {
+  private def writeFilesToSource(source: ModelStorage, files: Map[Path, Path]): Unit = {
     files.foreach {
       case (src, dest) =>
         source.writeFile(dest.toString, src.toFile)
