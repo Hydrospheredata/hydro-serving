@@ -29,8 +29,8 @@ object UploadedEntity {
   case class Contract(name: String = "model_contract", modelContract: ModelContract) extends UploadedEntity
 
   case class ModelUpload(
-    name: String,
-    modelType: String,
+    name: Option[String],
+    modelType: Option[String],
     contract: Option[ModelContract],
     description: Option[String] = None,
     source: Option[String] = None,
@@ -51,12 +51,10 @@ object UploadedEntity {
 
     def fromMap(map: Map[String, UploadedEntity]): HResult[ModelUpload] = {
       for {
-        modelType <- extractAs[UploadType](map, "model_type").right
-        modelName <- extractAs[ModelName](map, "model_name").right
         tarball <- extractAs[Tarball](map, "payload").right
       } yield ModelUpload(
-        name = modelName.asInstanceOf[ModelName].modelName,
-        modelType = modelType.asInstanceOf[UploadType].modelType,
+        name = map.get("model_name").map(_.asInstanceOf[ModelName].modelName),
+        modelType = map.get("model_type").map(_.asInstanceOf[UploadType].modelType),
         tarballPath = tarball.asInstanceOf[Tarball].path,
         contract = map.get("model_contract").map(_.asInstanceOf[Contract].modelContract),
         source = map.get("target_source").map(_.asInstanceOf[TargetSource].source),

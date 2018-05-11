@@ -159,8 +159,9 @@ class ModelManagementServiceImpl(
     }
     fMaybeSource.map { result =>
       result.right.map { source =>
-        val unpackDir = Files.createTempDirectory(upload.name)
-        val rootDir = Paths.get(upload.name)
+        val uploadName = upload.tarballPath.getFileName.toString
+        val unpackDir = Files.createTempDirectory(uploadName)
+        val rootDir = Paths.get(uploadName)
         val uploadedFiles = TarGzUtils.decompress(upload.tarballPath, unpackDir)
         val localFiles = uploadedFiles
           .filter(_.startsWith(unpackDir))
@@ -172,15 +173,16 @@ class ModelManagementServiceImpl(
 
         writeFilesToSource(source, localFiles)
 
-        val contract = upload.contract
-          .getOrElse(ModelFetcher.fetch(source, unpackDir.toString).contract)
-          .copy(modelName = upload.name)
+        val inferredMeta = ModelFetcher.fetch(source, unpackDir.toString)
+        val contract = upload.contract.getOrElse(inferredMeta.contract)
+        val modelType = upload.modelType.map(ModelType.fromTag).getOrElse(inferredMeta.modelType)
+        val modelName = upload.name.getOrElse(inferredMeta.modelName)
 
         CreateOrUpdateModelRequest(
           id = None,
-          name = upload.name,
+          name = modelName,
           source = source.sourceDef.name,
-          modelType = ModelType.fromTag(upload.modelType),
+          modelType = modelType,
           description = upload.description,
           modelContract = contract
         )
@@ -191,7 +193,7 @@ class ModelManagementServiceImpl(
   override def uploadModelTarball(upload: UploadedEntity.ModelUpload): HFResult[Model] = {
     uploadToSource(upload).flatMap {
       case Right(request) =>
-        modelRepository.get(upload.name).flatMap {
+        modelRepository.get(request.name).flatMap {
           case Some(model) =>
             val updateRequest = request.copy(id = Some(model.id), source = model.source)
             logger.info(s"Updating uploaded model with id: ${updateRequest.id} name: ${updateRequest.name}, source: ${updateRequest.source}, type: ${updateRequest.modelType} ")
