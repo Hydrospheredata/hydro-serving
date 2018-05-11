@@ -22,7 +22,7 @@ trait ModelManagementService {
     * @param upload tarball with metadata
     * @return uploaded model
     */
-  def uploadModelTarball(upload: ModelUpload): HFResult[Model]
+  def uploadModel(upload: ModelUpload): HFResult[Model]
 
   /***
     * Get flat contract description

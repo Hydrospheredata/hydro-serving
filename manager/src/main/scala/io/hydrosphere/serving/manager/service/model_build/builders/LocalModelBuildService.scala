@@ -12,14 +12,14 @@ import io.hydrosphere.serving.manager.model.{HFResult, Result}
 import io.hydrosphere.serving.manager.model.db.ModelBuild
 import org.apache.commons.io.FileUtils
 import io.hydrosphere.serving.manager.model.Result.Implicits._
-import io.hydrosphere.serving.manager.service.source.{SourceManagementService, SourcePath}
+import io.hydrosphere.serving.manager.service.source.{ModelStorageManagementService, SourcePath}
 
 import scala.concurrent.{ExecutionContext, Future}
 import scala.util.control.NonFatal
 
 class LocalModelBuildService(
   dockerClient: DockerClient,
-  sourceManagementService: SourceManagementService
+  sourceManagementService: ModelStorageManagementService
 )(implicit val ex: ExecutionContext) extends ModelBuildService {
   private val modelRootDir = "model"
   private val modelFilesDir = s"$modelRootDir/files/"

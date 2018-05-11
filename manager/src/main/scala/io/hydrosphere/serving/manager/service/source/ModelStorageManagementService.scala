@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager.service.source
 
 import java.nio.file.Path
 
+import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.controller.model_source.{AddLocalSourceRequest, AddS3SourceRequest}
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.ModelMetadata
@@ -10,7 +11,13 @@ import io.hydrosphere.serving.manager.service.source.sources.ModelSource
 
 import scala.concurrent.Future
 
-trait SourceManagementService {
+trait ModelStorageManagementService {
+  /**
+    * Perform an upload operation and return inferred metadata
+    * @param upload
+    * @return
+    */
+  def upload(upload: ModelUpload): HFResult[SourceUploadResult]
   /***
     * Try to add a S3 source
     * @param r config that defines a S3 source

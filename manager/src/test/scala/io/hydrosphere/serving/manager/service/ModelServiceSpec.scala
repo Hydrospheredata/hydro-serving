@@ -13,7 +13,7 @@ import io.hydrosphere.serving.manager.repository.ModelRepository
 import io.hydrosphere.serving.manager.service.contract.ContractUtilityService
 import io.hydrosphere.serving.manager.service.model.{IndexError, ModelDeleted, ModelManagementServiceImpl, ModelUpdated}
 import io.hydrosphere.serving.manager.service.source.sources.local.{LocalModelSource, LocalSourceDef}
-import io.hydrosphere.serving.manager.service.source.SourceManagementService
+import io.hydrosphere.serving.manager.service.source.ModelStorageManagementService
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.mockito.invocation.InvocationOnMock
 import org.mockito.stubbing.Answer
@@ -44,7 +44,7 @@ class ModelServiceSpec extends GenericUnitTest {
 
   "Model management service" should "index deleted models" in {
     val modelRepo = mock[ModelRepository]
-    val sourceMock = mock[SourceManagementService]
+    val sourceMock = mock[ModelStorageManagementService]
 
     Mockito.when(sourceMock.index("local:test1")).thenReturn(Result.okF(None))
     Mockito.when(modelRepo.delete(1L)).thenReturn(Future.successful(1))
@@ -66,7 +66,7 @@ class ModelServiceSpec extends GenericUnitTest {
 
   it should "index updated models" in {
     val modelRepo = mock[ModelRepository]
-    val sourceMock = mock[SourceManagementService]
+    val sourceMock = mock[ModelStorageManagementService]
 
     Mockito.when(sourceMock.index("local:test1")).thenReturn(
       Result.okF(
@@ -120,7 +120,7 @@ class ModelServiceSpec extends GenericUnitTest {
       updated = LocalDateTime.now()
     )
     val modelRepo = mock[ModelRepository]
-    val sourceMock = mock[SourceManagementService]
+    val sourceMock = mock[ModelStorageManagementService]
 
     Mockito.when(sourceMock.getSources).thenReturn(
       Future.successful(
@@ -139,7 +139,7 @@ class ModelServiceSpec extends GenericUnitTest {
 
     val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
 
-    modelManagementService.uploadModelTarball(upload).map{ maybeModel =>
+    modelManagementService.uploadModel(upload).map{ maybeModel =>
       maybeModel.isRight should equal(true)
       val rModel = maybeModel.right.get
       println(rModel)
@@ -173,7 +173,7 @@ class ModelServiceSpec extends GenericUnitTest {
       updated = LocalDateTime.now()
     )
     val modelRepo = mock[ModelRepository]
-    val sourceMock = mock[SourceManagementService]
+    val sourceMock = mock[ModelStorageManagementService]
 
     Mockito.when(sourceMock.getSources).thenReturn(
       Future.successful(
@@ -188,7 +188,7 @@ class ModelServiceSpec extends GenericUnitTest {
 
     val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
 
-    modelManagementService.uploadModelTarball(upload).map{ maybeModel =>
+    modelManagementService.uploadModel(upload).map{ maybeModel =>
       maybeModel.isRight should equal(true)
       val rModel = maybeModel.right.get
       rModel.name should equal("test")
@@ -202,7 +202,7 @@ class ModelServiceSpec extends GenericUnitTest {
     val modelPath = getClass.getResource("/test_models/tensorflow_model").getPath
 
     val modelRepo = mock[ModelRepository]
-    val sourceMock = mock[SourceManagementService]
+    val sourceMock = mock[ModelStorageManagementService]
 
     Mockito.when(sourceMock.getSource(sourceName)).thenReturn(
       Result.okF(
@@ -233,7 +233,7 @@ class ModelServiceSpec extends GenericUnitTest {
     val modelPath = getClass.getResource("/test_models/tensorflow_model").getPath
 
     val modelRepo = mock[ModelRepository]
-    val sourceMock = mock[SourceManagementService]
+    val sourceMock = mock[ModelStorageManagementService]
 
     Mockito.when(sourceMock.getSource(sourceName)).thenReturn(
       Result.okF(

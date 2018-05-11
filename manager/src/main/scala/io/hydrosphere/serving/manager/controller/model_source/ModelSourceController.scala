@@ -6,13 +6,13 @@ import akka.http.scaladsl.server.Directives._
 import io.hydrosphere.serving.manager.controller.GenericController
 import io.hydrosphere.serving.manager.model.db.ModelSourceConfig
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
-import io.hydrosphere.serving.manager.service.source.SourceManagementService
+import io.hydrosphere.serving.manager.service.source.ModelStorageManagementService
 import io.swagger.annotations._
 
 
 @Path("/api/v1/modelSource")
 @Api(produces = "application/json", tags = Array("Model Sources"))
-class ModelSourceController(sourceService: SourceManagementService) extends GenericController {
+class ModelSourceController(sourceService: ModelStorageManagementService) extends GenericController {
   @Path("/local")
   @ApiOperation(value = "Add local model source", notes = "Add local model source", nickname = "addLocalSource", httpMethod = "POST")
   @ApiImplicitParams(Array(
