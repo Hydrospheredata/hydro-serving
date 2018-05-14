@@ -4,7 +4,7 @@ import io.hydrosphere.serving.manager.controller.model_source.AddLocalSourceRequ
 import io.hydrosphere.serving.manager.model.db.ModelSourceConfig
 import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.LocalSourceParams
 import io.hydrosphere.serving.manager.repository.SourceConfigRepository
-import io.hydrosphere.serving.manager.service.source.SourceManagementServiceImpl
+import io.hydrosphere.serving.manager.service.source.ModelStorageManagementServiceImpl
 import io.hydrosphere.serving.manager.{GenericUnitTest, ManagerConfiguration}
 import org.mockito.invocation.InvocationOnMock
 import org.mockito.stubbing.Answer
@@ -12,11 +12,11 @@ import org.mockito.{Matchers, Mockito}
 
 import scala.concurrent.{Await, Future}
 
-class SourceServiceSpec extends GenericUnitTest {
+class StorageServiceSpec extends GenericUnitTest {
 
   import scala.concurrent.ExecutionContext.Implicits._
 
-  "Source management service" should "index specified source path" in {
+  "Storage management service" should "index specified source path" in {
     val confMock = mock[ManagerConfiguration]
     val sourceRepoMock = mock[SourceConfigRepository]
 
@@ -27,7 +27,7 @@ class SourceServiceSpec extends GenericUnitTest {
     )
     Mockito.when(sourceRepoMock.all()).thenReturn(Future.successful(Seq.empty))
 
-    val sourceService = new SourceManagementServiceImpl(confMock, sourceRepoMock)
+    val sourceService = new ModelStorageManagementServiceImpl(confMock, sourceRepoMock)
 
     sourceService.index("test:tensorflow_model").map { result =>
       val maybeModel = result.right.get
@@ -49,7 +49,7 @@ class SourceServiceSpec extends GenericUnitTest {
     Mockito.when(confMock.modelSources).thenReturn(Seq(s1))
     Mockito.when(sourceRepoMock.all()).thenReturn(Future.successful(Seq(s2)))
 
-    val sourceService = new SourceManagementServiceImpl(confMock, sourceRepoMock)
+    val sourceService = new ModelStorageManagementServiceImpl(confMock, sourceRepoMock)
     sourceService.allSourceConfigs.map { result =>
       println(result)
       result should contain allOf(s1, s2)
@@ -69,7 +69,7 @@ class SourceServiceSpec extends GenericUnitTest {
       }
     })
 
-    val sourceService = new SourceManagementServiceImpl(confMock, sourceRepoMock)
+    val sourceService = new ModelStorageManagementServiceImpl(confMock, sourceRepoMock)
 
     val req = AddLocalSourceRequest(
       "test_api", getClass.getResource("/test_models").getPath
@@ -88,7 +88,7 @@ class SourceServiceSpec extends GenericUnitTest {
     val confMock = mock[ManagerConfiguration]
     val sourceRepoMock = mock[SourceConfigRepository]
 
-    val sourceService = new SourceManagementServiceImpl(confMock, sourceRepoMock)
+    val sourceService = new ModelStorageManagementServiceImpl(confMock, sourceRepoMock)
 
     val s1 = ModelSourceConfig(1, "test", LocalSourceParams(Some(getClass.getResource("/test_models").getPath)))
 
