@@ -27,8 +27,6 @@ services:
       - "NETWORK_NAME=automation_hydronet"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - ${MODEL_DIRECTORY}:/models
-
 
   sidecar:
     image: hydrosphere/serving-sidecar:latest
