@@ -71,7 +71,6 @@ class ModelBuildManagmentServiceImpl(
           imageSHA256 = sha256,
           modelName = modelBuild.model.name,
           modelVersion = modelBuild.version,
-          source = Some(modelBuild.model.source),
           modelContract = modelBuild.model.modelContract,
           created = LocalDateTime.now,
           model = Some(modelBuild.model),

@@ -24,7 +24,6 @@ class ModelBuildServiceSpec extends GenericUnitTest {
   private[this] val dummyModel = Model(
     id = 1,
     name = "/test_models/tensorflow_model",
-    source = "local:test1",
     modelType = ModelType.Unknown("test"),
     description = None,
     modelContract = ModelContract.defaultInstance,
@@ -70,7 +69,6 @@ class ModelBuildServiceSpec extends GenericUnitTest {
           "modelName",
           1,
           ModelType.Unknown("test"),
-          Some("source"),
           Some(dummyModel),
           ModelContract.defaultInstance
         )
@@ -140,7 +138,6 @@ class ModelBuildServiceSpec extends GenericUnitTest {
           "modelName",
           1,
           ModelType.Unknown("test"),
-          Some("source"),
           Some(model.copy(modelContract = rawContract)),
           rawContract
         )
@@ -213,7 +210,6 @@ class ModelBuildServiceSpec extends GenericUnitTest {
           "modelName",
           1,
           ModelType.Unknown("test"),
-          Some("source"),
           Some(model),
           ModelContract.defaultInstance
         )

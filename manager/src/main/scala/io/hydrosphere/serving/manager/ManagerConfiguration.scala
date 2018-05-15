@@ -1,9 +1,11 @@
 package io.hydrosphere.serving.manager
 
+import java.nio.file.Paths
+
 import com.amazonaws.regions.Regions
 import com.typesafe.config.Config
 import com.zaxxer.hikari.HikariConfig
-import io.hydrosphere.serving.manager.service.source.sources.local.LocalSourceDef
+import io.hydrosphere.serving.manager.service.source.storages.local.LocalModelStorageDefinition
 
 import collection.JavaConverters._
 
@@ -14,7 +16,7 @@ trait ManagerConfiguration {
 
   def advertised: AdvertisedConfiguration
 
-  def modelSource: LocalSourceDef
+  def localStorage: LocalModelStorageDefinition
 
   def database: HikariConfig
 
@@ -31,7 +33,7 @@ case class ManagerConfigurationImpl(
     sidecar: SidecarConfig,
     application: ApplicationConfig,
     advertised: AdvertisedConfiguration,
-    modelSource: LocalSourceDef,
+    localStorage: LocalModelStorageDefinition,
     database: HikariConfig,
     cloudDriver: CloudDriverConfiguration,
     zipkin: ZipkinConfiguration,
@@ -229,10 +231,10 @@ object ManagerConfiguration {
     )
   }
 
-  def parseLocalStorage(config: Config): LocalSourceDef = {
+  def parseLocalStorage(config: Config): LocalModelStorageDefinition = {
     val c = config.getConfig("localStorage")
-    val storagePath = c.getString("path")
-    LocalSourceDef("localStorage", storagePath)
+    val storagePath = Paths.get(c.getString("path"))
+    LocalModelStorageDefinition("localStorage", storagePath)
   }
 
   def parseDatabase(config: Config): HikariConfig = {
@@ -287,7 +289,7 @@ object ManagerConfiguration {
     sidecar = parseSidecar(config),
     application = parseApplication(config),
     advertised = parseAdvertised(config),
-    modelSource = parseLocalStorage(config),
+    localStorage = parseLocalStorage(config),
     database = parseDatabase(config),
     cloudDriver = parseCloudDriver(config),
     zipkin = parseZipkin(config),

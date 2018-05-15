@@ -11,8 +11,7 @@ import io.hydrosphere.serving.manager.model.api.{ModelMetadata, ModelType}
 import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.contract.ContractUtilityService
-import io.hydrosphere.serving.manager.service.source.fetchers.ModelFetcher
-import io.hydrosphere.serving.manager.service.source.ModelStorageManagementService
+import io.hydrosphere.serving.manager.service.source.ModelStorageService
 import cats.data.EitherT
 import cats.implicits._
 import org.apache.logging.log4j.scala.Logging
@@ -25,7 +24,7 @@ import scala.util.{Failure, Success}
 class ModelManagementServiceImpl(
   modelRepository: ModelRepository,
   modelVersionRepository: ModelVersionRepository,
-  sourceManagementService: ModelStorageManagementService,
+  sourceManagementService: ModelStorageService,
   contractService: ContractUtilityService
 )(
   implicit val ex: ExecutionContext
@@ -149,7 +148,6 @@ class ModelManagementServiceImpl(
       request = CreateOrUpdateModelRequest(
         id = None,
         name = result.name,
-        source = result.source,
         modelType = result.modelType,
         description = result.description,
         modelContract = result.modelContract
@@ -159,38 +157,10 @@ class ModelManagementServiceImpl(
     f.value
   }
 
-  override def indexModels(ids: Set[Long]): Future[Seq[IndexStatus]] = {
-    for {
-      models <- modelRepository.getMany(ids)
-      metadata <- sourceIndex(models)
-    } yield {
-      metadata
-    }
-  }
-
-  override def addModel(sourceName: String, modelPath: String): HFResult[Model] = {
-    sourceManagementService.getSource(sourceName).flatMap {
-      case Right(source) =>
-        if (source.exists(modelPath)) {
-          val metadata = ModelFetcher.fetch(source, modelPath)
-          val createReq = metadataToCreate(metadata, s"$sourceName:$modelPath")
-          getModel(metadata.modelName).flatMap{
-            case Left(_) => createModel(createReq)
-            case Right(_) => Result.clientErrorF(s"Model $modelPath already exists")
-          }
-        } else {
-          Result.clientErrorF(s"Path $modelPath doesn't exist in $sourceName source")
-        }
-      case Left(err) =>
-        Result.errorF(err)
-    }
-  }
-
   private def metadataToCreate(modelMetadata: ModelMetadata, source: String): CreateOrUpdateModelRequest = {
     CreateOrUpdateModelRequest(
       id = None,
       name = modelMetadata.modelName,
-      source = source,
       modelType = modelMetadata.modelType,
       description = None,
       modelContract = modelMetadata.contract
@@ -206,33 +176,16 @@ class ModelManagementServiceImpl(
     )
   }
 
-  private def sourceIndex(models: Seq[Model]): Future[Seq[IndexStatus]] = {
-    Future.traverse(models) { model =>
-      sourceManagementService.index(model.source).flatMap {
-        case Left(err) => Future.successful(IndexError(model, new IllegalArgumentException(err.toString)))
-        case Right(optMetadata) =>
-          optMetadata match {
-            case Some(metadata) =>
-              val newModel = applyModelMetadata(metadata, model)
-              updateModel(newModel).map(_ => ModelUpdated(newModel))
-            case None =>
-              modelRepository.delete(model.id).map(_ => ModelDeleted(model))
-          }
-      }
-    }
-  }
 
   private def upsertRequest(request: CreateOrUpdateModelRequest): Future[Either[Result.HError, Model]] = {
     modelRepository.get(request.name).flatMap {
       case Some(model) =>
-        val updateRequest = request.copy(id = Some(model.id), source = model.source)
-        logger.info(s"Updating uploaded model with id: ${updateRequest.id} name: ${updateRequest.name}, source: ${updateRequest.source}, type: ${updateRequest.modelType}")
+        val updateRequest = request.copy(id = Some(model.id))
+        logger.info(s"Updating uploaded model with id: ${updateRequest.id} name: ${updateRequest.name}, type: ${updateRequest.modelType}")
         updateModelRequest(updateRequest)
       case None =>
-        val newSource = s"${request.source}:${request.name}"
-        val createRequest = request.copy(source = newSource)
-        logger.info(s"Creating uploaded model with name: ${createRequest.name}, source: ${createRequest.source}, type: ${createRequest.modelType}")
-        createModel(createRequest)
+        logger.info(s"Creating uploaded model with name: ${request.name}, type: ${request.modelType}")
+        createModel(request)
     }
   }
 }

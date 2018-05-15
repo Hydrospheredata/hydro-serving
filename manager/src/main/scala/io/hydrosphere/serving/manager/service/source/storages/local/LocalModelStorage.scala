@@ -8,7 +8,7 @@ import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import io.hydrosphere.serving.manager.util.FileUtils._
 
 class LocalModelStorage(val sourceDef: LocalModelStorageDefinition) extends ModelStorage {
-  val rootDir = sourceDef.pathPrefix.map(Paths.get(_)).getOrElse(Paths.get("/"))
+  val rootDir = sourceDef.path
 
   override def getReadableFile(path: String): HResult[File] = {
     val requestedPath = rootDir.resolve(path)

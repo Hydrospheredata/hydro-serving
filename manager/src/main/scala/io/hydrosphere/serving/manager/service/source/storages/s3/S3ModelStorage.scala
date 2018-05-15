@@ -15,7 +15,7 @@ import scala.collection.JavaConversions._
 class S3ModelStorage(val sourceDef: S3ModelStorageDefinition) extends ModelStorage with Logging {
   private[this] val lf = Files.createTempDirectory(sourceDef.name)
   private[this] val localSource = new LocalModelStorage(
-    LocalModelStorageDefinition(s"s3-proxy-${sourceDef.name}", Some(lf.toString))
+    LocalModelStorageDefinition(s"s3-proxy-${sourceDef.name}", lf)
   )
 
   private val client = sourceDef.s3Client

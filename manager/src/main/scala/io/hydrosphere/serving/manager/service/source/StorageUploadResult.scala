@@ -5,7 +5,6 @@ import io.hydrosphere.serving.manager.model.api.ModelType
 
 case class StorageUploadResult(
   name: String,
-  source: String,
   modelType: ModelType,
   description: Option[String],
   modelContract: ModelContract

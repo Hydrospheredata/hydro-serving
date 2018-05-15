@@ -8,17 +8,15 @@ import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model.Result
-import io.hydrosphere.serving.manager.model.api.{ModelMetadata, ModelType}
+import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.repository.ModelRepository
 import io.hydrosphere.serving.manager.service.contract.ContractUtilityService
-import io.hydrosphere.serving.manager.service.model.{IndexError, ModelDeleted, ModelManagementServiceImpl, ModelUpdated}
-import io.hydrosphere.serving.manager.service.source.storages.local.{LocalModelStorage, LocalModelStorageDefinition}
-import io.hydrosphere.serving.manager.service.source.{ModelStorageManagementService, StorageUploadResult}
+import io.hydrosphere.serving.manager.service.model.ModelManagementServiceImpl
+import io.hydrosphere.serving.manager.service.source.{ModelStorageService, StorageUploadResult}
 import io.hydrosphere.serving.manager.util.TarGzUtils
-import org.mockito.invocation.InvocationOnMock
-import org.mockito.stubbing.Answer
 import org.mockito.{Matchers, Mockito}
+
 import scala.concurrent.Future
 
 class ModelServiceSpec extends GenericUnitTest {
@@ -26,7 +24,6 @@ class ModelServiceSpec extends GenericUnitTest {
   private[this] val dummyModel = Model(
     id = 1,
     name = "/test_models/tensorflow_model",
-    source = "local:test1",
     modelType = ModelType.Unknown("test"),
     description = None,
     modelContract = ModelContract.defaultInstance,
@@ -41,62 +38,7 @@ class ModelServiceSpec extends GenericUnitTest {
     temptar
   }
 
-  "Model management service" should "index deleted models" in {
-    val modelRepo = mock[ModelRepository]
-    val sourceMock = mock[ModelStorageManagementService]
-
-    Mockito.when(sourceMock.index("local:test1")).thenReturn(Result.okF(None))
-    Mockito.when(modelRepo.delete(1L)).thenReturn(Future.successful(1))
-    Mockito.when(modelRepo.getMany(Set(1L))).thenReturn(
-      Future.successful(
-        Seq(dummyModel)
-      )
-    )
-
-    val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
-
-    modelManagementService.indexModels(Set(1L)).map { statuses =>
-      println(statuses)
-      assert(statuses.nonEmpty)
-      assert(!statuses.exists(_.isInstanceOf[IndexError]))
-      assert(statuses.forall(_.isInstanceOf[ModelDeleted]))
-    }
-  }
-
-  it should "index updated models" in {
-    val modelRepo = mock[ModelRepository]
-    val sourceMock = mock[ModelStorageManagementService]
-
-    Mockito.when(sourceMock.index("local:test1")).thenReturn(
-      Result.okF(
-        Some(
-          ModelMetadata(
-            "newModel",
-            ModelType.Unknown("test2"),
-            ModelContract.defaultInstance.copy(modelName = "newmodel")
-          )
-        )
-      )
-    )
-    Mockito.when(modelRepo.update(Matchers.any(classOf[Model]))).thenReturn(Future.successful(1))
-    Mockito.when(modelRepo.get(Matchers.anyLong())).thenReturn(Future.successful(Some(dummyModel)))
-    Mockito.when(modelRepo.getMany(Set(1L))).thenReturn(
-      Future.successful(
-        Seq(dummyModel)
-      )
-    )
-
-    val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
-
-    modelManagementService.indexModels(Set(1L)).map { statuses =>
-      println(statuses)
-      assert(statuses.nonEmpty)
-      assert(!statuses.exists(_.isInstanceOf[IndexError]))
-      assert(statuses.forall(_.isInstanceOf[ModelUpdated]))
-    }
-  }
-
-  it should "upload new model" in {
+  "Model management service" should "upload new model" in {
     val testSourcePath = Files.createTempDirectory("upload-test").toString
     println("Test source path: " + testSourcePath)
     val upload = ModelUpload(
@@ -111,7 +53,6 @@ class ModelServiceSpec extends GenericUnitTest {
     val model = Model(
       id = 1,
       name = "tf-model",
-      source = "test:tf-model",
       modelType = ModelType.Tensorflow(),
       description = None,
       modelContract = ModelContract.defaultInstance,
@@ -119,19 +60,11 @@ class ModelServiceSpec extends GenericUnitTest {
       updated = LocalDateTime.now()
     )
     val modelRepo = mock[ModelRepository]
-    val sourceMock = mock[ModelStorageManagementService]
+    val sourceMock = mock[ModelStorageService]
 
-    Mockito.when(sourceMock.getSources).thenReturn(
-      Future.successful(
-        List(
-          new LocalModelStorage(LocalModelStorageDefinition("test", Some(testSourcePath)))
-        )
-      )
-    )
     Mockito.when(sourceMock.upload(Matchers.any())).thenReturn(
       Result.okF(StorageUploadResult(
         "tf-model",
-        "test:tf-model",
         ModelType.Tensorflow(),
         None,
         ModelContract("tf-model", Seq(ModelSignature()))
@@ -149,7 +82,6 @@ class ModelServiceSpec extends GenericUnitTest {
       val rModel = maybeModel.right.get
       println(rModel)
       rModel.name should equal("tf-model")
-      rModel.source should equal("test:tf-model")
     }
   }
 
@@ -158,7 +90,7 @@ class ModelServiceSpec extends GenericUnitTest {
     println("Test source path: " + testSourcePath)
     val upload = ModelUpload(
       packModel("/test_models/tensorflow_model"),
-      Some("tf-model"),
+      Some("test"),
       Some("unknown:unknown"),
       Some(ModelContract.defaultInstance),
       None,
@@ -168,7 +100,6 @@ class ModelServiceSpec extends GenericUnitTest {
     val model = Model(
       id = 1,
       name = "tf-model",
-      source = "test:tf-model",
       modelType = ModelType.Tensorflow(),
       description = None,
       modelContract = ModelContract.defaultInstance,
@@ -176,19 +107,11 @@ class ModelServiceSpec extends GenericUnitTest {
       updated = LocalDateTime.now()
     )
     val modelRepo = mock[ModelRepository]
-    val sourceMock = mock[ModelStorageManagementService]
+    val sourceMock = mock[ModelStorageService]
 
-    Mockito.when(sourceMock.getSources).thenReturn(
-      Future.successful(
-        List(
-          new LocalModelStorage(LocalModelStorageDefinition("test", Some(testSourcePath)))
-        )
-      )
-    )
     Mockito.when(sourceMock.upload(Matchers.any())).thenReturn(
       Result.okF(StorageUploadResult(
         "tf-model",
-        "test:tf-model",
         ModelType.Tensorflow(),
         None,
         ModelContract("tf-model", Seq(ModelSignature()))
@@ -204,62 +127,6 @@ class ModelServiceSpec extends GenericUnitTest {
       maybeModel.isRight should equal(true)
       val rModel = maybeModel.right.get
       rModel.name should equal("tf-model")
-      rModel.source should equal("test:tf-model")
-    }
-  }
-
-  it should "add a new model" in {
-    val sourceName = "test"
-    val modelName = "tensorflow_model"
-    val modelPath = getClass.getResource("/test_models/tensorflow_model").getPath
-
-    val modelRepo = mock[ModelRepository]
-    val sourceMock = mock[ModelStorageManagementService]
-
-    Mockito.when(sourceMock.getSource(sourceName)).thenReturn(
-      Result.okF(
-        new LocalModelStorage(LocalModelStorageDefinition(sourceName, None))
-      )
-    )
-    Mockito.when(modelRepo.get(Matchers.any())).thenReturn(
-      Future.successful(None)
-    )
-    Mockito.when(modelRepo.create(Matchers.any())).thenAnswer(new Answer[Future[Model]] {
-      override def answer(invocation: InvocationOnMock): Future[Model] = {
-        val model = invocation.getArguments.head.asInstanceOf[Model]
-        Future.successful(model.copy(id = 1))
-      }
-    })
-
-    val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
-
-    modelManagementService.addModel(sourceName, modelPath).map{ maybeModel =>
-      maybeModel.isRight should equal(true)
-      val model = maybeModel.right.get
-      model.name should equal(modelPath)
-    }
-  }
-
-  it should "reject an addition of existing model" in {
-    val sourceName = "test"
-    val modelPath = getClass.getResource("/test_models/tensorflow_model").getPath
-
-    val modelRepo = mock[ModelRepository]
-    val sourceMock = mock[ModelStorageManagementService]
-
-    Mockito.when(sourceMock.getSource(sourceName)).thenReturn(
-      Result.okF(
-        new LocalModelStorage(LocalModelStorageDefinition(sourceName, None))
-      )
-    )
-    Mockito.when(modelRepo.get(Matchers.any())).thenReturn(
-      Future.successful(Some(dummyModel))
-    )
-
-    val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
-
-    modelManagementService.addModel(sourceName, modelPath).map{ maybeModel =>
-      maybeModel.isLeft should equal(true)
     }
   }
 }

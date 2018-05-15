@@ -9,13 +9,6 @@ import spray.json.JsObject
 import scala.concurrent.Future
 
 trait ModelManagementService {
-  /***
-    * Update information about models. Only works with models that been added to manager.
-    * Can delete them, if they no longer exists in source.
-    * @param ids ids of model to be indexed
-    * @return sequence of index results
-    */
-  def indexModels(ids: Set[Long]): Future[Seq[IndexStatus]]
 
   /***
     * Uploads the tarball to source and creates a model entry in manager.
@@ -89,14 +82,6 @@ trait ModelManagementService {
     * @return
     */
   def createModel(entity: CreateOrUpdateModelRequest): HFResult[Model]
-
-  /***
-    * Add a model from specified source
-    * @param sourceName
-    * @param modelPath
-    * @return
-    */
-  def addModel(sourceName: String, modelPath: String): HFResult[Model]
 
   /***
     * Try to generate an example input for a model

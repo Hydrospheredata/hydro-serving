@@ -151,34 +151,6 @@ class ModelController(
   }
 
   @Path("/")
-  @ApiOperation(value = "Add model", notes = "Add model", nickname = "uploadModel", httpMethod = "POST")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "AddModelRequest", required = true,
-      dataTypeClass = classOf[AddModelRequest], paramType = "body")
-  ))
-  def addModel = path("api"/ "v1" / "model") {
-    post {
-      entity(as[AddModelRequest]) { req =>
-        completeFRes(
-          modelManagementService.addModel(req.sourceName, req.modelPath)
-        )
-      }
-    }
-  }
-
-  @Path("/index")
-  @ApiOperation(value = "Index models", notes = "Index model", nickname = "indexModels", httpMethod = "POST")
-  def indexModels = path("api"/ "v1" / "model" / "index") {
-    post {
-      entity(as[Set[Long]]) { ids =>
-        completeF(
-          modelManagementService.indexModels(ids)
-        )
-      }
-    }
-  }
-
-  @Path("/")
   @ApiOperation(value = "Update model", notes = "Update model", nickname = "updateModel", httpMethod = "PUT")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "CreateOrUpdateModelRequest", required = true,
@@ -438,7 +410,7 @@ class ModelController(
     }
   }
 
-  val routes: Route = listModels ~ getModel ~ updateModel ~ addModel ~ uploadModel ~ buildModel ~ listModelBuildsByModel ~ lastModelBuilds ~
+  val routes: Route = listModels ~ getModel ~ updateModel ~ uploadModel ~ buildModel ~ listModelBuildsByModel ~ lastModelBuilds ~
     generatePayloadByModelId ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract ~ generateInputsForVersion ~
     lastModelVersions ~ addModelVersion ~ allModelVersions ~ modelContractDescription ~ versionContractDescription
 }

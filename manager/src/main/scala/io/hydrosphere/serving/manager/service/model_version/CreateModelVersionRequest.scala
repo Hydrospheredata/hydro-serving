@@ -29,7 +29,6 @@ case class CreateModelVersionRequest(
       imageSHA256 = this.imageSHA256,
       modelName = this.modelName,
       modelVersion = this.modelVersion,
-      source = this.source,
       modelContract = this.modelContract,
       created = LocalDateTime.now(),
       model = Some(model),
