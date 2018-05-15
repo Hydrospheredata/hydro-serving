@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager
 import java.nio.file.{Files, Paths}
 
 import com.amazonaws.regions.Regions
-import com.typesafe.config.Config
+import com.typesafe.config.{Config, ConfigException}
 import com.zaxxer.hikari.HikariConfig
 import io.hydrosphere.serving.manager.service.source.storages.local.LocalModelStorageDefinition
 
@@ -232,14 +232,7 @@ object ManagerConfiguration {
   }
 
   def parseLocalStorage(config: Config): LocalModelStorageDefinition = {
-    val c = config.getConfig("localStorage")
-    val storagePath = if (c.hasPath("path")) {
-      Paths.get(c.getString("path"))
-
-    } else {
-      Files.createTempDirectory("hydroservingLocalStorage")
-    }
-    LocalModelStorageDefinition("localStorage", storagePath)
+    LocalModelStorageDefinition("localStorage", getStoragePathOrTemp(config))
   }
 
   def parseDatabase(config: Config): HikariConfig = {
@@ -301,5 +294,15 @@ object ManagerConfiguration {
     dockerRepository = parseDockerRepository(config),
     metrics = parseMetrics(config)
   )
+
+  def getStoragePathOrTemp(config: Config) = {
+    try {
+      val c = config.getConfig("localStorage")
+      Paths.get(c.getString("path"))
+    } catch {
+      case ex: ConfigException.Missing =>
+        Files.createTempDirectory("hydroservingLocalStorage")
+    }
+  }
 
 }

@@ -12,10 +12,12 @@ import scala.concurrent.duration._
 
 class ModelVersionServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
   val upload1 = ModelUpload(
-    packModel("/models/dummy_model")
+    packModel("/models/dummy_model"),
+    name = Some("m1")
   )
   val upload2 = ModelUpload(
-    packModel("/models/dummy_model_2")
+    packModel("/models/dummy_model_2"),
+    name = Some("m2")
   )
 
   var dummy_1: Model = _
@@ -34,11 +36,13 @@ class ModelVersionServiceITSpec extends FullIntegrationSpec with BeforeAndAfterA
 
       "model was already build" in {
         for {
-          _ <- managerServices.modelBuildManagmentService.buildModel(dummy_1.id)
-          _ <- managerServices.modelBuildManagmentService.buildModel(dummy_2.id)
+          r1 <- managerServices.modelBuildManagmentService.buildModel(dummy_1.id)
+          r2 <- managerServices.modelBuildManagmentService.buildModel(dummy_2.id)
           modelInfo <- managerServices.aggregatedInfoUtilityService.getModelAggregatedInfo(dummy_1.id)
         } yield {
-          assert(modelInfo.isRight)
+          assert(r1.isRight, r1)
+          assert(r2.isRight, r2)
+          assert(modelInfo.isRight, modelInfo)
           val model = modelInfo.right.get
           assert(model.nextVersion.isEmpty)
         }
@@ -83,11 +87,17 @@ class ModelVersionServiceITSpec extends FullIntegrationSpec with BeforeAndAfterA
       d1 <- EitherT(managerServices.modelManagementService.uploadModel(upload1))
       d2 <- EitherT(managerServices.modelManagementService.uploadModel(upload2))
     } yield {
+      println("UPLOADED:")
+      println(d1)
+      println(d2)
       dummy_1 = d1
       dummy_2 = d2
       d2
     }
 
-    Await.result(f.value, 30 seconds)
+    println(s"RESULT: ${Await.result(f.value, 1.minute)}")
+
+    println(dummy_1)
+    println(dummy_2)
   }
 }
