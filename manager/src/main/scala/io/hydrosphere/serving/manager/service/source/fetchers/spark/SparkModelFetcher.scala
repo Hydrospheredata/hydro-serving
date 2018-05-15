@@ -8,18 +8,18 @@ import io.hydrosphere.serving.manager.model.api.{ModelMetadata, _}
 import io.hydrosphere.serving.manager.model.{HResult, Result}
 import io.hydrosphere.serving.manager.service.source.fetchers.ModelFetcher
 import io.hydrosphere.serving.manager.service.source.fetchers.spark.mappers.SparkMlTypeMapper
-import io.hydrosphere.serving.manager.service.source.sources.ModelSource
+import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.JavaConversions._
 
 
 object SparkModelFetcher extends ModelFetcher with Logging {
-  private def getStageMetadata(source: ModelSource, model: String, stage: String): HResult[SparkModelMetadata] = {
+  private def getStageMetadata(source: ModelStorage, model: String, stage: String): HResult[SparkModelMetadata] = {
     getMetadata(source, s"$model/stages/$stage")
   }
 
-  private def getMetadata(source: ModelSource, model: String): HResult[SparkModelMetadata] = {
+  private def getMetadata(source: ModelStorage, model: String): HResult[SparkModelMetadata] = {
     source.getReadableFile(s"$model/metadata/part-00000") match {
       case Left(error) =>
         logger.debug(s"'$model/metadata/part-00000' in '${source.sourceDef.name}' doesn't exist")
@@ -30,7 +30,7 @@ object SparkModelFetcher extends ModelFetcher with Logging {
     }
   }
 
-  override def fetch(source: ModelSource, directory: String): Option[ModelMetadata] = {
+  override def fetch(source: ModelStorage, directory: String): Option[ModelMetadata] = {
     val stagesDir = s"$directory/stages"
 
     getMetadata(source, directory) match {
@@ -42,7 +42,7 @@ object SparkModelFetcher extends ModelFetcher with Logging {
     }
   }
 
-  private def processPipeline(source: ModelSource, directory: String, stagesDir: String, pipelineMetadata: SparkModelMetadata) = {
+  private def processPipeline(source: ModelStorage, directory: String, stagesDir: String, pipelineMetadata: SparkModelMetadata) = {
     source.getSubDirs(stagesDir) match {
       case Left(error) =>
         logger.warn(s"Unexpected fetch error: $error")

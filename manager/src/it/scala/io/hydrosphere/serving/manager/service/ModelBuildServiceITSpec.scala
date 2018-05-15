@@ -1,26 +1,25 @@
 package io.hydrosphere.serving.manager.service
 
+import cats.data.EitherT
+import cats.instances.all._
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.messages.ContainerConfig
+import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model.ModelBuildStatus
-import io.hydrosphere.serving.manager.model.db.ModelSourceConfig
-import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.LocalSourceParams
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
 import org.scalatest.BeforeAndAfterAll
 
 import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
 
-class ModelServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
-  "ModelService" should {
-    "fetch all models" in {
-      managerServices.modelManagementService.allModels().map { seq =>
-        println(seq)
-        assert(seq.lengthCompare(1) == 0)
-      }
-    }
+class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
+  val upload1 = ModelUpload(
+    packModel("/models/dummy_model"),
+    name = Some("m1")
+  )
 
-    "build a modelversion" in {
+  "ModelBuild serivce" should {
+    "build a model" in {
       managerRepositories.modelRepository.get(1).flatMap {
         case None => Future.failed(new IllegalArgumentException("Model is not found"))
         case Some(model) =>
@@ -100,12 +99,13 @@ class ModelServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
   override def beforeAll(): Unit = {
     super.beforeAll()
     dockerClient.pull("hydrosphere/serving-runtime-dummy:latest")
-    val sourceConf = ModelSourceConfig(1, "itsource", LocalSourceParams(Some(getClass.getResource("/models").getPath)))
-    val f = for {
-      _ <- managerServices.sourceManagementService.addSource(sourceConf)
-      m <- managerServices.modelManagementService.addModel("itsource", "dummy_model")
-    } yield m
 
-    Await.result(f, 30 seconds)
+    val f = for {
+      d1 <- EitherT(managerServices.modelManagementService.uploadModel(upload1))
+    } yield {
+      d1
+    }
+
+    Await.result(f.value, 30 seconds)
   }
 }

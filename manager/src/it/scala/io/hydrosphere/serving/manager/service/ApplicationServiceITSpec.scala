@@ -1,7 +1,9 @@
 package io.hydrosphere.serving.manager.service
 
+import cats.data.EitherT
+import cats.instances.all._
 import io.hydrosphere.serving.manager.controller.application._
-import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.LocalSourceParams
+import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
 import org.scalatest.BeforeAndAfterAll
@@ -10,6 +12,14 @@ import scala.concurrent.Await
 import scala.concurrent.duration._
 
 class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
+  val upload1 = ModelUpload(
+    packModel("/models/dummy_model"),
+    name = Some("m1")
+  )
+  val upload2 = ModelUpload(
+    packModel("/models/dummy_model_2"),
+    name = Some("m2")
+  )
 
   "Application service" should {
     "create a simple application" in {
@@ -103,6 +113,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           appRequest.kafkaStreaming
         )
       } yield {
+        assert(appRes.isRight, appRes)
         val app = appRes.right.get
         println(app)
         val expectedGraph = ApplicationExecutionGraph(
@@ -193,13 +204,17 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
   override def beforeAll(): Unit = {
     super.beforeAll()
-    dockerClient.pull("hydrosphere/serving-runtime-dummy:latest")
-    val sourceConf = ModelSourceConfig(1, "itsource", LocalSourceParams(Some(getClass.getResource("/models").getPath)))
-    val f = for {
-      _ <- managerServices.sourceManagementService.addSource(sourceConf)
-      m <- managerServices.modelManagementService.addModel("itsource", "dummy_model")
-    } yield m
 
-    Await.result(f, 30 seconds)
+    dockerClient.pull("hydrosphere/serving-runtime-dummy:latest")
+
+    val f = for {
+      d1 <- EitherT(managerServices.modelManagementService.uploadModel(upload1))
+      d2 <- EitherT(managerServices.modelManagementService.uploadModel(upload2))
+    } yield {
+      println(s"UPLOADED: $d1")
+      d2
+    }
+
+    Await.result(f.value, 30 seconds)
   }
 }

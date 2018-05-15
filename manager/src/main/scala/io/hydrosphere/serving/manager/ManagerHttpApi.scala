@@ -13,7 +13,6 @@ import ch.megard.akka.http.cors.scaladsl.settings.CorsSettings
 import io.hydrosphere.serving.manager.controller.application.ApplicationController
 import io.hydrosphere.serving.manager.controller.environment.EnvironmentController
 import io.hydrosphere.serving.manager.controller.model.ModelController
-import io.hydrosphere.serving.manager.controller.model_source.ModelSourceController
 import io.hydrosphere.serving.manager.controller.prometheus.PrometheusMetricsController
 import io.hydrosphere.serving.manager.controller.runtime.RuntimeController
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
@@ -35,8 +34,6 @@ class ManagerHttpApi(
   val environmentController = new EnvironmentController(managerServices.environmentManagementService)
 
   val runtimeController = new RuntimeController(managerServices.runtimeManagementService)
-
-  val modelSourceController = new ModelSourceController(managerServices.sourceManagementService)
 
   val modelController = new ModelController(
     managerServices.modelManagementService,
@@ -61,8 +58,7 @@ class ManagerHttpApi(
       classOf[ModelController],
       classOf[ServiceController],
       classOf[ApplicationController],
-      classOf[PrometheusMetricsController],
-      classOf[ModelSourceController]
+      classOf[PrometheusMetricsController]
     )
   )
 
@@ -91,7 +87,6 @@ class ManagerHttpApi(
         runtimeController.routes ~
         prometheusMetricsController.routes ~
         environmentController.routes ~
-        modelSourceController.routes ~
         pathPrefix("swagger") {
           path(Segments) { segs =>
             val path = segs.mkString("/")

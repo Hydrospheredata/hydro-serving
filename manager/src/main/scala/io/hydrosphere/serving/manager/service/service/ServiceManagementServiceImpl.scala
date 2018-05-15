@@ -58,7 +58,6 @@ class ServiceManagementServiceImpl(
         modelName = m.modelName,
         modelVersion = m.modelVersion,
         modelType = m.modelType,
-        source = None,
         model = None,
         modelContract = ModelContract.defaultInstance
       )),

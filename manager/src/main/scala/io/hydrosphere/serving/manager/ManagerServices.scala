@@ -25,7 +25,7 @@ import io.hydrosphere.serving.manager.service.model_version.{ModelVersionManagem
 import io.hydrosphere.serving.manager.service.metrics.{ElasticSearchMetricsService, InfluxDBMetricsService, PrometheusMetricsServiceImpl}
 import io.hydrosphere.serving.manager.service.runtime.{RuntimeManagementService, RuntimeManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.service.{ServiceManagementService, ServiceManagementServiceImpl}
-import io.hydrosphere.serving.manager.service.source.SourceManagementServiceImpl
+import io.hydrosphere.serving.manager.service.source.ModelStorageServiceImpl
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
 import org.apache.logging.log4j.scala.Logging
 
@@ -52,7 +52,7 @@ class ManagerServices(
 
   val servingMeshGrpcClient: PredictionServiceGrpc.PredictionServiceStub = PredictionServiceGrpc.stub(channel)
 
-  val sourceManagementService = new SourceManagementServiceImpl(managerConfiguration, managerRepositories.sourceRepository)
+  val sourceManagementService = new ModelStorageServiceImpl(managerConfiguration)
 
   val contractUtilityService = new ContractUtilityServiceImpl
 

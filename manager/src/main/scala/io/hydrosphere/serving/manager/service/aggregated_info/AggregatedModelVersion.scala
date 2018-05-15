@@ -15,7 +15,6 @@ case class AggregatedModelVersion(
   modelName: String,
   modelVersion: Long,
   modelType: ModelType,
-  source: Option[String],
   model: Option[Model],
   modelContract: ModelContract,
   applications: Seq[Application]
@@ -32,7 +31,6 @@ object AggregatedModelVersion {
       modelName = modelVersion.modelName,
       modelVersion = modelVersion.modelVersion,
       modelType = modelVersion.modelType,
-      source = modelVersion.source,
       model = modelVersion.model,
       modelContract = modelVersion.modelContract,
       applications = apps

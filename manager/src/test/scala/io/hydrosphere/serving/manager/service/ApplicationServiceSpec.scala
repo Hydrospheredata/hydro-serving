@@ -38,7 +38,6 @@ class ApplicationServiceSpec extends GenericUnitTest {
     modelName = "model_name",
     modelVersion = 1,
     modelType = Tensorflow(),
-    source = None,
     model = None,
     modelContract = ModelContract()
   ))

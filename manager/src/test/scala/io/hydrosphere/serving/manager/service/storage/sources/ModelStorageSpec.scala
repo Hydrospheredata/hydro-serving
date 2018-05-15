@@ -1,10 +1,11 @@
-package io.hydrosphere.serving.manager.service.source.sources
+package io.hydrosphere.serving.manager.service.storage.sources
 
 import java.nio.file.Files
 
 import io.hydrosphere.serving.manager.GenericUnitTest
+import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 
-abstract class ModelSourceSpec(val modelSource: ModelSource) extends GenericUnitTest {
+abstract class ModelStorageSpec(val modelSource: ModelStorage) extends GenericUnitTest {
 
   def getSourceFile(path: String): String
 

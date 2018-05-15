@@ -14,7 +14,6 @@ case class ModelVersion(
   modelName: String,
   modelVersion: Long,
   modelType: ModelType,
-  source: Option[String],
   model: Option[Model],
   modelContract: ModelContract
 ) {

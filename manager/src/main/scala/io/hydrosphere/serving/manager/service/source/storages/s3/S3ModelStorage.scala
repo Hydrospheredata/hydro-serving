@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.service.source.sources.s3
+package io.hydrosphere.serving.manager.service.source.storages.s3
 
 import java.io.File
 import java.net.URI
@@ -6,16 +6,16 @@ import java.nio.file._
 
 import com.amazonaws.{AmazonServiceException, SdkClientException}
 import io.hydrosphere.serving.manager.model.{HResult, Result}
-import io.hydrosphere.serving.manager.service.source.sources.ModelSource
-import io.hydrosphere.serving.manager.service.source.sources.local._
+import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
+import io.hydrosphere.serving.manager.service.source.storages.local._
 import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.JavaConversions._
 
-class S3ModelSource(val sourceDef: S3SourceDef) extends ModelSource with Logging {
+class S3ModelStorage(val sourceDef: S3ModelStorageDefinition) extends ModelStorage with Logging {
   private[this] val lf = Files.createTempDirectory(sourceDef.name)
-  private[this] val localSource = new LocalModelSource(
-    LocalSourceDef(s"s3-proxy-${sourceDef.name}", Some(lf.toString))
+  private[this] val localSource = new LocalModelStorage(
+    LocalModelStorageDefinition(s"s3-proxy-${sourceDef.name}", lf)
   )
 
   private val client = sourceDef.s3Client

@@ -21,9 +21,9 @@ class ModelRepositoryImpl(
   import databaseService.driver.api._
   import ModelRepositoryImpl._
 
-  override def updateLastUpdatedTime(source: String, timestamp: LocalDateTime): Future[Int] = {
+  override def updateLastUpdatedTime(timestamp: LocalDateTime): Future[Int] = {
     val query = for {
-      models <- Tables.Model if models.source === source
+      models <- Tables.Model
     } yield models.updatedTimestamp
 
     db.run(query.update(timestamp))
@@ -34,7 +34,6 @@ class ModelRepositoryImpl(
       Tables.Model returning Tables.Model += Tables.ModelRow(
         modelId = entity.id,
         name = entity.name,
-        source = entity.source,
         modelType = entity.modelType.toTag,
         modelContract = entity.modelContract.toString,
         description = entity.description,
@@ -70,19 +69,11 @@ class ModelRepositoryImpl(
         .result
     ).map(mapFromDb)
 
-  override def fetchBySource(source: String): Future[Seq[Model]] =
-    db.run(
-      Tables.Model
-        .filter(_.source === source)
-        .result
-    ).map(mapFromDb)
-
   override def update(value: Model): Future[Int] = {
     val query = for {
       models <- Tables.Model if models.modelId === value.id
     } yield (
       models.name,
-      models.source,
       models.modelType,
       models.description,
       models.updatedTimestamp,
@@ -91,7 +82,6 @@ class ModelRepositoryImpl(
 
     db.run(query.update(
       value.name,
-      value.source,
       value.modelType.toTag,
       value.description,
       value.updated,
@@ -136,7 +126,6 @@ object ModelRepositoryImpl {
     Model(
       id = model.modelId,
       name = model.name,
-      source = model.source,
       modelType = ModelType.fromTag(model.modelType),
       description = model.description,
       modelContract = ModelContract.fromAscii(model.modelContract),

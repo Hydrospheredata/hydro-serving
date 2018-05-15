@@ -11,7 +11,7 @@ import io.hydrosphere.serving.manager.model.api.ModelMetadata
 import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 import io.hydrosphere.serving.tensorflow.types.DataType
 import io.hydrosphere.serving.manager.model.api._
-import io.hydrosphere.serving.manager.service.source.sources.ModelSource
+import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import io.hydrosphere.serving.tensorflow.TensorShape
 import org.apache.logging.log4j.scala.Logging
 import org.tensorflow.framework.{SavedModel, SignatureDef, TensorInfo}
@@ -20,7 +20,7 @@ import scala.collection.JavaConversions._
 
 object TensorflowModelFetcher extends ModelFetcher with Logging {
 
-  override def fetch(source: ModelSource, directory: String): Option[ModelMetadata] = {
+  override def fetch(source: ModelStorage, directory: String): Option[ModelMetadata] = {
     source.getReadableFile(s"$directory/saved_model.pb") match {
       case Left(error) =>
         logger.debug(s"Fetch error: $error. $directory in not a valid Tensorflow model")

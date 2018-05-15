@@ -20,8 +20,6 @@ class ManagerRepositories(config: ManagerConfiguration)(implicit executionContex
 
   val modelBuildScriptRepository: ModelBuildScriptRepository = new ModelBuildScriptRepositoryImpl
 
-  val sourceRepository: SourceConfigRepository = new SourceConfigRepositoryImpl
-
   val applicationRepository: ApplicationRepository = new ApplicationRepositoryImpl
 
   val environmentRepository: EnvironmentRepository = new EnvironmentRepositoryImpl

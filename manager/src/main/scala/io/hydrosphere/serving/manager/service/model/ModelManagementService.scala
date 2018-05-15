@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service.model
 
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
-import io.hydrosphere.serving.manager.controller.model.UploadedEntity
+import io.hydrosphere.serving.manager.controller.model.{ModelUpload, UploadedEntity}
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.Model
 import spray.json.JsObject
@@ -9,20 +9,13 @@ import spray.json.JsObject
 import scala.concurrent.Future
 
 trait ModelManagementService {
-  /***
-    * Update information about models. Only works with models that been added to manager.
-    * Can delete them, if they no longer exists in source.
-    * @param ids ids of model to be indexed
-    * @return sequence of index results
-    */
-  def indexModels(ids: Set[Long]): Future[Seq[IndexStatus]]
 
   /***
     * Uploads the tarball to source and creates a model entry in manager.
     * @param upload tarball with metadata
     * @return uploaded model
     */
-  def uploadModelTarball(upload: UploadedEntity.ModelUpload): HFResult[Model]
+  def uploadModel(upload: ModelUpload): HFResult[Model]
 
   /***
     * Get flat contract description
@@ -89,14 +82,6 @@ trait ModelManagementService {
     * @return
     */
   def createModel(entity: CreateOrUpdateModelRequest): HFResult[Model]
-
-  /***
-    * Add a model from specified source
-    * @param sourceName
-    * @param modelPath
-    * @return
-    */
-  def addModel(sourceName: String, modelPath: String): HFResult[Model]
 
   /***
     * Try to generate an example input for a model

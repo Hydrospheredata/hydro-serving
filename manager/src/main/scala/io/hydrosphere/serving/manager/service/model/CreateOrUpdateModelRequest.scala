@@ -9,7 +9,6 @@ import io.hydrosphere.serving.manager.model.db.Model
 case class CreateOrUpdateModelRequest(
   id: Option[Long],
   name: String,
-  source: String,
   modelType: ModelType,
   description: Option[String],
   modelContract: ModelContract
@@ -18,7 +17,6 @@ case class CreateOrUpdateModelRequest(
     Model(
       id = 0,
       name = this.name,
-      source = this.source,
       modelType = this.modelType,
       description = this.description,
       modelContract = this.modelContract,
@@ -30,7 +28,6 @@ case class CreateOrUpdateModelRequest(
   def toModel(model: Model): Model = {
     model.copy(
       name = this.name,
-      source = this.source,
       modelType = this.modelType,
       description = this.description,
       modelContract = this.modelContract

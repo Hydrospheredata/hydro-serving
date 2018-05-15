@@ -1,17 +1,27 @@
 package io.hydrosphere.serving.manager.service
 
-import io.hydrosphere.serving.manager.model.db.{Model, ModelSourceConfig}
-import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.LocalSourceParams
+import cats.data.EitherT
+import cats.instances.all._
+import io.hydrosphere.serving.manager.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
 import org.scalatest.BeforeAndAfterAll
 
 import scala.concurrent.Await
 import scala.concurrent.duration._
 
-class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
+class ModelVersionServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
+  val upload1 = ModelUpload(
+    packModel("/models/dummy_model"),
+    name = Some("m1")
+  )
+  val upload2 = ModelUpload(
+    packModel("/models/dummy_model_2"),
+    name = Some("m2")
+  )
+
   var dummy_1: Model = _
   var dummy_2: Model = _
-  val source = ModelSourceConfig(1, "itsource", LocalSourceParams(None))
 
   "Model version" should {
     "calculate next model version" when {
@@ -26,18 +36,20 @@ class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
 
       "model was already build" in {
         for {
-          _ <- managerServices.modelBuildManagmentService.buildModel(dummy_1.id)
-          _ <- managerServices.modelBuildManagmentService.buildModel(dummy_2.id)
+          r1 <- managerServices.modelBuildManagmentService.buildModel(dummy_1.id)
+          r2 <- managerServices.modelBuildManagmentService.buildModel(dummy_2.id)
           modelInfo <- managerServices.aggregatedInfoUtilityService.getModelAggregatedInfo(dummy_1.id)
         } yield {
-          assert(modelInfo.isRight)
+          assert(r1.isRight, r1)
+          assert(r2.isRight, r2)
+          assert(modelInfo.isRight, modelInfo)
           val model = modelInfo.right.get
           assert(model.nextVersion.isEmpty)
         }
       }
 
       "model changed after last version" in {
-        managerServices.modelManagementService.indexModels(Set(dummy_1.id)).flatMap { _ =>
+        managerServices.modelManagementService.uploadModel(upload1).flatMap { _ =>
           managerServices.aggregatedInfoUtilityService.getModelAggregatedInfo(dummy_2.id).map { maybeModel =>
             assert(maybeModel.isRight)
             val model = maybeModel.right.get
@@ -70,17 +82,22 @@ class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
   override def beforeAll(): Unit = {
     super.beforeAll()
     dockerClient.pull("hydrosphere/serving-runtime-dummy:latest")
-    val sourceConf = ModelSourceConfig(1, "itsource", LocalSourceParams(Some(getClass.getResource("/models").getPath)))
-    val f = managerServices.sourceManagementService.addSource(sourceConf).flatMap { _ =>
-      managerServices.modelManagementService.addModel("itsource", "dummy_model").flatMap { d1 =>
-        dummy_1 = d1.right.get
-        managerServices.modelManagementService.addModel("itsource", "dummy_model_2").map { d2 =>
-          dummy_2 = d2.right.get
-          d2
-        }
-      }
+
+    val f = for {
+      d1 <- EitherT(managerServices.modelManagementService.uploadModel(upload1))
+      d2 <- EitherT(managerServices.modelManagementService.uploadModel(upload2))
+    } yield {
+      println("UPLOADED:")
+      println(d1)
+      println(d2)
+      dummy_1 = d1
+      dummy_2 = d2
+      d2
     }
 
-    Await.result(f, 30 seconds)
+    println(s"RESULT: ${Await.result(f.value, 1.minute)}")
+
+    println(dummy_1)
+    println(dummy_2)
   }
 }

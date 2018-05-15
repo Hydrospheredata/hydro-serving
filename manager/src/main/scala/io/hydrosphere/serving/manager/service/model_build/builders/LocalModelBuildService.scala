@@ -12,14 +12,14 @@ import io.hydrosphere.serving.manager.model.{HFResult, Result}
 import io.hydrosphere.serving.manager.model.db.ModelBuild
 import org.apache.commons.io.FileUtils
 import io.hydrosphere.serving.manager.model.Result.Implicits._
-import io.hydrosphere.serving.manager.service.source.{SourceManagementService, SourcePath}
+import io.hydrosphere.serving.manager.service.source.ModelStorageService
 
 import scala.concurrent.{ExecutionContext, Future}
 import scala.util.control.NonFatal
 
 class LocalModelBuildService(
   dockerClient: DockerClient,
-  sourceManagementService: SourceManagementService
+  sourceManagementService: ModelStorageService
 )(implicit val ex: ExecutionContext) extends ModelBuildService {
   private val modelRootDir = "model"
   private val modelFilesDir = s"$modelRootDir/files/"
@@ -28,8 +28,7 @@ class LocalModelBuildService(
   override def build(modelBuild: ModelBuild, imageName: String, script: String, progressHandler: ProgressHandler): HFResult[String] = {
     val tmpBuildPath = Files.createTempDirectory(s"hydroserving-${modelBuild.id}")
     val fT = for {
-      sourcePath <- EitherT(Future.successful(SourcePath.parse(modelBuild.model.source)))
-      localPath <- EitherT(sourceManagementService.getLocalPath(sourcePath))
+      localPath <- EitherT(sourceManagementService.getLocalPath(modelBuild.model.name))
       dockerFile = prepareScript(modelBuild, script)
       buildRes <- EitherT(build(tmpBuildPath, localPath, dockerFile, progressHandler, modelBuild, imageName))
     } yield buildRes

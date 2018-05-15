@@ -1,10 +1,13 @@
 package io.hydrosphere.serving.manager.test
 
+import java.nio.file.{Files, Path, Paths}
+
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
 import io.hydrosphere.serving.manager._
+import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.scalatest._
 
 import scala.concurrent.duration._
@@ -75,5 +78,11 @@ trait FullIntegrationSpec extends DatabaseAccessIT
       }
       res.flatten.get
     }
+  }
+
+  protected def packModel(str: String): Path = {
+    val temptar = Files.createTempFile("packedModel", ".tar.gz")
+    TarGzUtils.compressFolder(Paths.get(getClass.getResource(str).getPath), temptar)
+    temptar
   }
 }

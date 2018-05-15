@@ -1,10 +1,11 @@
 package io.hydrosphere.serving.manager
 
+import java.nio.file.{Files, Paths}
+
 import com.amazonaws.regions.Regions
-import com.typesafe.config.Config
+import com.typesafe.config.{Config, ConfigException}
 import com.zaxxer.hikari.HikariConfig
-import io.hydrosphere.serving.manager.model.db.ModelSourceConfig
-import io.hydrosphere.serving.manager.model.db.ModelSourceConfig.{AWSAuthKeys, LocalSourceParams, S3SourceParams}
+import io.hydrosphere.serving.manager.service.source.storages.local.LocalModelStorageDefinition
 
 import collection.JavaConverters._
 
@@ -15,7 +16,7 @@ trait ManagerConfiguration {
 
   def advertised: AdvertisedConfiguration
 
-  def modelSources: Seq[ModelSourceConfig]
+  def localStorage: LocalModelStorageDefinition
 
   def database: HikariConfig
 
@@ -32,7 +33,7 @@ case class ManagerConfigurationImpl(
     sidecar: SidecarConfig,
     application: ApplicationConfig,
     advertised: AdvertisedConfiguration,
-    modelSources: Seq[ModelSourceConfig],
+    localStorage: LocalModelStorageDefinition,
     database: HikariConfig,
     cloudDriver: CloudDriverConfiguration,
     zipkin: ZipkinConfiguration,
@@ -230,49 +231,8 @@ object ManagerConfiguration {
     )
   }
 
-  def parseDataSources(config: Config): Seq[ModelSourceConfig] = {
-    val c = config.getConfig("modelSources")
-    c.root().entrySet().asScala.map { kv =>
-      val modelSourceConfig = c.getConfig(kv.getKey)
-      val name = {
-        if (modelSourceConfig.hasPath("name")) {
-          modelSourceConfig.getString("name")
-        } else {
-          kv.getKey
-        }
-      }
-
-      val params = kv.getKey match {
-        case "local" =>
-          val prefix = if (modelSourceConfig.hasPath("pathPrefix")) {
-            Some(modelSourceConfig.getString("pathPrefix"))
-          } else {
-            None
-          }
-          LocalSourceParams(prefix)
-        case "s3" =>
-          S3SourceParams(
-            awsAuth = parseAWSAuth(modelSourceConfig),
-            path = modelSourceConfig.getString("path"),
-            bucketName = modelSourceConfig.getString("bucket"),
-            region = modelSourceConfig.getString("region")
-          )
-        case x =>
-          throw new IllegalArgumentException(s"Unknown model source: $x")
-      }
-      ModelSourceConfig(-1, name, params)
-    }.toSeq
-  }
-
-  private def parseAWSAuth(modelSourceConfig: Config) = {
-    if (modelSourceConfig.hasPath("awsAuth")) {
-      val authConf = modelSourceConfig.getConfig("awsAuth")
-      val keyId = authConf.getString("keyId")
-      val secretKey = authConf.getString("secretKey")
-      Some(AWSAuthKeys(keyId, secretKey))
-    } else {
-      None
-    }
+  def parseLocalStorage(config: Config): LocalModelStorageDefinition = {
+    LocalModelStorageDefinition("localStorage", getStoragePathOrTemp(config))
   }
 
   def parseDatabase(config: Config): HikariConfig = {
@@ -289,12 +249,12 @@ object ManagerConfiguration {
 
   def parseElasticSearchMetrics(config: Config): Option[ElasticSearchMetricsConfiguration] = {
     if (config.hasPath("elastic")) {
-      val elasticConfig=config.getConfig("elastic")
+      val elasticConfig = config.getConfig("elastic")
       Some(ElasticSearchMetricsConfiguration(
-        collectTimeout=elasticConfig.getInt("collectTimeout"),
-        indexName=elasticConfig.getString("indexName"),
-        mappingName=elasticConfig.getString("mappingName"),
-        clientUri=elasticConfig.getString("clientUri")
+        collectTimeout = elasticConfig.getInt("collectTimeout"),
+        indexName = elasticConfig.getString("indexName"),
+        mappingName = elasticConfig.getString("mappingName"),
+        clientUri = elasticConfig.getString("clientUri")
       ))
     } else {
       None
@@ -303,12 +263,12 @@ object ManagerConfiguration {
 
   def parseInfluxDBMetrics(config: Config): Option[InfluxDBMetricsConfiguration] = {
     if (config.hasPath("influxDB")) {
-      val influxConfig=config.getConfig("influxDB")
+      val influxConfig = config.getConfig("influxDB")
       Some(InfluxDBMetricsConfiguration(
-        port=influxConfig.getInt("port"),
-        host=influxConfig.getString("host"),
-        collectTimeout=influxConfig.getInt("collectTimeout"),
-        dataBaseName=influxConfig.getString("dataBaseName")
+        port = influxConfig.getInt("port"),
+        host = influxConfig.getString("host"),
+        collectTimeout = influxConfig.getInt("collectTimeout"),
+        dataBaseName = influxConfig.getString("dataBaseName")
       ))
     } else {
       None
@@ -327,12 +287,22 @@ object ManagerConfiguration {
     sidecar = parseSidecar(config),
     application = parseApplication(config),
     advertised = parseAdvertised(config),
-    modelSources = parseDataSources(config),
+    localStorage = parseLocalStorage(config),
     database = parseDatabase(config),
     cloudDriver = parseCloudDriver(config),
     zipkin = parseZipkin(config),
     dockerRepository = parseDockerRepository(config),
     metrics = parseMetrics(config)
   )
+
+  def getStoragePathOrTemp(config: Config) = {
+    try {
+      val c = config.getConfig("localStorage")
+      Paths.get(c.getString("path"))
+    } catch {
+      case ex: ConfigException.Missing =>
+        Files.createTempDirectory("hydroservingLocalStorage")
+    }
+  }
 
 }

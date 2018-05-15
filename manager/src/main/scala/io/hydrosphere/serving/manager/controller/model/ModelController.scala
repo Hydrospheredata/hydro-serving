@@ -1,24 +1,20 @@
 package io.hydrosphere.serving.manager.controller.model
 
-import java.nio.file.{Files, OpenOption, StandardOpenOption}
+import java.nio.file.{Files, StandardOpenOption}
 import javax.ws.rs.Path
 
 import akka.actor.ActorSystem
-import akka.http.scaladsl.marshalling.ToResponseMarshallable
-import akka.http.scaladsl.model.{HttpResponse, Multipart, StatusCodes}
+import akka.http.scaladsl.model.Multipart
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.stream.ActorMaterializer
-import akka.stream.scaladsl.FileIO
 import akka.util.Timeout
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.{GenericController, ServingDataDirectives}
-import io.hydrosphere.serving.manager.controller.model.UploadedEntity._
-import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
+import io.hydrosphere.serving.manager.controller.model._
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
-import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedModelInfo}
 import io.hydrosphere.serving.manager.service.model.{CreateOrUpdateModelRequest, ModelManagementService}
 import io.hydrosphere.serving.manager.service.model_build.ModelBuildManagmentService
@@ -86,43 +82,50 @@ class ModelController(
         val fileNamesFuture = formdata.parts.flatMapConcat { p ⇒
           logger.debug(s"Got part. Name: ${p.name} Filename: ${p.filename}")
           p.name match {
-            case "model_type" if p.filename.isEmpty =>
+            case Entities.`modelType` if p.filename.isEmpty =>
               p.entity.dataBytes
                 .map(_.decodeString("UTF-8"))
                 .filterNot(_.isEmpty)
-                .map(r => UploadType(modelType = r))
+                .map(r => UploadModelType(r))
 
-            case "target_source" if p.filename.isEmpty =>
+            case Entities.`targetSource` if p.filename.isEmpty =>
               p.entity.dataBytes
                 .map(_.decodeString("UTF-8"))
                 .filterNot(_.isEmpty)
-                .map(r => TargetSource(source = r))
+                .map(r => UploadTargetSource(r))
 
-            case "model_contract" if p.filename.isEmpty =>
+            case Entities.`modelContract` if p.filename.isEmpty =>
               p.entity.dataBytes
                 .map(b => ModelContract.parseFrom(b.toByteBuffer.array()))
-                .map(p => Contract(modelContract = p))
+                .map(p => UploadContract(p))
 
-            case "model_description" if p.filename.isEmpty =>
+            case Entities.`modelDescription` if p.filename.isEmpty =>
               p.entity.dataBytes
                 .map(_.decodeString("UTF-8"))
                 .filterNot(_.isEmpty)
-                .map(r => Description(description = r))
+                .map(r => UploadDescription(description = r))
 
-            case "model_name" if p.filename.isEmpty =>
+            case Entities.`modelName` if p.filename.isEmpty =>
               p.entity.dataBytes
                 .map(_.decodeString("UTF-8"))
                 .filterNot(_.isEmpty)
-                .map(r => ModelName(modelName = r))
+                .map(r => UploadModelName(r))
 
-            case "payload" if p.filename.isDefined =>
+            case Entities.`payload` if p.filename.isDefined =>
               val filename = p.filename.get
               val tempPath = Files.createTempFile("upload", filename)
               p.entity.dataBytes
                 .map { fileBytes =>
                   Files.write(tempPath, fileBytes.toArray, StandardOpenOption.APPEND)
-                  Tarball(path = tempPath)
+                  UploadTarball(tempPath)
                 }
+
+            case Entities.`remotePayload` if p.filename.isEmpty =>
+              p.entity.dataBytes
+                .map(_.decodeString("UTF-8"))
+                .filterNot(_.isEmpty)
+                .map(r => UploadRemotePayload(r))
+
             case _ =>
               logger.warn(s"Unknown part. Name: ${p.name} Filename: ${p.filename}")
               p.entity.dataBytes.map { _ =>
@@ -130,46 +133,19 @@ class ModelController(
               }
           }
         }
-        val dicts = fileNamesFuture.runFold(Map.empty[String, UploadedEntity]) {
-          case (a, b) => a + (b.name -> b)
+
+        val entities = fileNamesFuture.runFold(List.empty[UploadedEntity]) {
+          case (a, b) => a :+ b
         }
 
-        def uploadModel(dd: Future[Map[String, UploadedEntity]]): HFResult[Model] = {
-          dd.map(ModelUpload.fromMap).flatMap {
+        def uploadModel(dd: Future[List[UploadedEntity]]): HFResult[Model] = {
+          dd.map(ModelUpload.fromUploadEntities).flatMap {
             case Left(a) => Future.successful(Left(a))
-            case Right(b) => modelManagementService.uploadModelTarball(b)
+            case Right(b) => modelManagementService.uploadModel(b)
           }
         }
 
-        completeFRes(uploadModel(dicts))
-      }
-    }
-  }
-
-  @Path("/")
-  @ApiOperation(value = "Add model", notes = "Add model", nickname = "uploadModel", httpMethod = "POST")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "AddModelRequest", required = true,
-      dataTypeClass = classOf[AddModelRequest], paramType = "body")
-  ))
-  def addModel = path("api"/ "v1" / "model") {
-    post {
-      entity(as[AddModelRequest]) { req =>
-        completeFRes(
-          modelManagementService.addModel(req.sourceName, req.modelPath)
-        )
-      }
-    }
-  }
-
-  @Path("/index")
-  @ApiOperation(value = "Index models", notes = "Index model", nickname = "indexModels", httpMethod = "POST")
-  def indexModels = path("api"/ "v1" / "model" / "index") {
-    post {
-      entity(as[Set[Long]]) { ids =>
-        completeF(
-          modelManagementService.indexModels(ids)
-        )
+        completeFRes(uploadModel(entities))
       }
     }
   }
@@ -434,7 +410,7 @@ class ModelController(
     }
   }
 
-  val routes: Route = listModels ~ getModel ~ updateModel ~ addModel ~ uploadModel ~ buildModel ~ listModelBuildsByModel ~ lastModelBuilds ~
+  val routes: Route = listModels ~ getModel ~ updateModel ~ uploadModel ~ buildModel ~ listModelBuildsByModel ~ lastModelBuilds ~
     generatePayloadByModelId ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract ~ generateInputsForVersion ~
     lastModelVersions ~ addModelVersion ~ allModelVersions ~ modelContractDescription ~ versionContractDescription
 }
