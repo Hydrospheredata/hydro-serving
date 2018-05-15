@@ -99,8 +99,6 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
   override def beforeAll(): Unit = {
     super.beforeAll()
     dockerClient.pull("hydrosphere/serving-runtime-dummy:latest")
-    super.beforeAll()
-    dockerClient.pull("hydrosphere/serving-runtime-dummy:latest")
 
     val f = for {
       d1 <- EitherT(managerServices.modelManagementService.uploadModel(upload1))
