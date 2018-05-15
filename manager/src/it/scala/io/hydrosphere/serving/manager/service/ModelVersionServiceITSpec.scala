@@ -1,12 +1,10 @@
 package io.hydrosphere.serving.manager.service
 
-import java.nio.file.{Files, Path, Paths}
-
 import cats.data.EitherT
+import cats.instances.all._
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
-import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.scalatest.BeforeAndAfterAll
 
 import scala.concurrent.Await

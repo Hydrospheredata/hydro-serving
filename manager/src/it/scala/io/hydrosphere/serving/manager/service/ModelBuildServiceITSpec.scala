@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.service
 
 import cats.data.EitherT
+import cats.instances.all._
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.messages.ContainerConfig
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
