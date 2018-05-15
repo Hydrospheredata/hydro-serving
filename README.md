@@ -20,10 +20,15 @@ Features:
 ## Quick Start
 
 #### Run
-```
+```bash
 #Clone repository
 git clone https://github.com/Hydrospheredata/hydro-serving
 
+# Full environment with kafka and Sonar
+cd ./hydro-serving/integrations
+docker-compose up
+
+#Or lightweight environment
 cd ./hydro-serving
 docker-compose up
 ```
