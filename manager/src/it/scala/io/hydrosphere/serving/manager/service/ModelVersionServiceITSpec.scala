@@ -12,7 +12,7 @@ import org.scalatest.BeforeAndAfterAll
 import scala.concurrent.Await
 import scala.concurrent.duration._
 
-class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
+class ModelVersionServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
   val upload1 = ModelUpload(
     packModel("/models/dummy_model")
   )
@@ -91,11 +91,5 @@ class ModelVersionSpec extends FullIntegrationSpec with BeforeAndAfterAll {
     }
 
     Await.result(f.value, 30 seconds)
-  }
-
-  def packModel(str: String): Path = {
-    val temptar = Files.createTempFile("packedModel", ".tar.gz")
-    TarGzUtils.compress(Paths.get(getClass.getResource(str).getPath), temptar, None)
-    temptar
   }
 }
