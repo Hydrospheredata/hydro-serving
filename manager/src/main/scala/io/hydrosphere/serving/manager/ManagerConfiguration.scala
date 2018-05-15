@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager
 
-import java.nio.file.Paths
+import java.nio.file.{Files, Paths}
 
 import com.amazonaws.regions.Regions
 import com.typesafe.config.Config
@@ -233,7 +233,12 @@ object ManagerConfiguration {
 
   def parseLocalStorage(config: Config): LocalModelStorageDefinition = {
     val c = config.getConfig("localStorage")
-    val storagePath = Paths.get(c.getString("path"))
+    val storagePath = if (c.hasPath("path")) {
+      Paths.get(c.getString("path"))
+
+    } else {
+      Files.createTempDirectory("hydroservingLocalStorage")
+    }
     LocalModelStorageDefinition("localStorage", storagePath)
   }
 
@@ -251,12 +256,12 @@ object ManagerConfiguration {
 
   def parseElasticSearchMetrics(config: Config): Option[ElasticSearchMetricsConfiguration] = {
     if (config.hasPath("elastic")) {
-      val elasticConfig=config.getConfig("elastic")
+      val elasticConfig = config.getConfig("elastic")
       Some(ElasticSearchMetricsConfiguration(
-        collectTimeout=elasticConfig.getInt("collectTimeout"),
-        indexName=elasticConfig.getString("indexName"),
-        mappingName=elasticConfig.getString("mappingName"),
-        clientUri=elasticConfig.getString("clientUri")
+        collectTimeout = elasticConfig.getInt("collectTimeout"),
+        indexName = elasticConfig.getString("indexName"),
+        mappingName = elasticConfig.getString("mappingName"),
+        clientUri = elasticConfig.getString("clientUri")
       ))
     } else {
       None
@@ -265,12 +270,12 @@ object ManagerConfiguration {
 
   def parseInfluxDBMetrics(config: Config): Option[InfluxDBMetricsConfiguration] = {
     if (config.hasPath("influxDB")) {
-      val influxConfig=config.getConfig("influxDB")
+      val influxConfig = config.getConfig("influxDB")
       Some(InfluxDBMetricsConfiguration(
-        port=influxConfig.getInt("port"),
-        host=influxConfig.getString("host"),
-        collectTimeout=influxConfig.getInt("collectTimeout"),
-        dataBaseName=influxConfig.getString("dataBaseName")
+        port = influxConfig.getInt("port"),
+        host = influxConfig.getString("host"),
+        collectTimeout = influxConfig.getInt("collectTimeout"),
+        dataBaseName = influxConfig.getString("dataBaseName")
       ))
     } else {
       None
