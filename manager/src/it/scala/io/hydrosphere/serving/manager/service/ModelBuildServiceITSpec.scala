@@ -14,7 +14,8 @@ import scala.concurrent.duration._
 
 class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
   val upload1 = ModelUpload(
-    packModel("/models/dummy_model")
+    packModel("/models/dummy_model"),
+    name = Some("m1")
   )
 
   "ModelBuild serivce" should {

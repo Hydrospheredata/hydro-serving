@@ -13,10 +13,12 @@ import scala.concurrent.duration._
 
 class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
   val upload1 = ModelUpload(
-    packModel("/models/dummy_model")
+    packModel("/models/dummy_model"),
+    name = Some("m1")
   )
   val upload2 = ModelUpload(
-    packModel("/models/dummy_model_2")
+    packModel("/models/dummy_model_2"),
+    name = Some("m2")
   )
 
   "Application service" should {
