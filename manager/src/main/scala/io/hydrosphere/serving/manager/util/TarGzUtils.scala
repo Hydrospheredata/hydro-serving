@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.util
 
 import java.io._
-import java.nio.file.{Files, Path}
+import java.nio.file.{Files, NotDirectoryException, Path}
 
 import org.apache.commons.compress.archivers.tar.{TarArchiveEntry, TarArchiveInputStream, TarArchiveOutputStream}
 import org.apache.commons.compress.compressors.gzip.{GzipCompressorInputStream, GzipCompressorOutputStream}
@@ -10,6 +10,21 @@ import org.apache.commons.compress.utils.IOUtils
 import scala.collection.mutable
 
 object TarGzUtils {
+  def compressFolder(folder: Path, tarballPath: Path): Unit = {
+    if (! Files.isDirectory(folder)) {
+      throw new NotDirectoryException(folder.toString)
+    }
+    val fout = Option(new TarArchiveOutputStream(new GzipCompressorOutputStream(new FileOutputStream(tarballPath.toFile))))
+    fout.foreach { stream =>
+      stream.setAddPaxHeadersForNonAsciiNames(true)
+      stream.setLongFileMode(TarArchiveOutputStream.LONGFILE_GNU)
+      folder.toFile.listFiles().foreach { subFile =>
+        compressItem(stream, subFile, None)
+      }
+      stream.close()
+    }
+  }
+
   def compress(input: Path, tarballPath: Path, dir: Option[String] = None): Unit = {
     val fout = Option(new TarArchiveOutputStream(new GzipCompressorOutputStream(new FileOutputStream(tarballPath.toFile))))
     fout.foreach { stream =>

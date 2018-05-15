@@ -113,6 +113,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           appRequest.kafkaStreaming
         )
       } yield {
+        assert(appRes.isRight, appRes)
         val app = appRes.right.get
         println(app)
         val expectedGraph = ApplicationExecutionGraph(
@@ -210,6 +211,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
       d1 <- EitherT(managerServices.modelManagementService.uploadModel(upload1))
       d2 <- EitherT(managerServices.modelManagementService.uploadModel(upload2))
     } yield {
+      println(s"UPLOADED: $d1")
       d2
     }
 
