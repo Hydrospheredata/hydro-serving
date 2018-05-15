@@ -60,19 +60,6 @@ then
         APP_OPTS="$APP_OPTS -DdockerRepository.type=local"
     fi
 
-
-    if [ -n "$LOCAL_MODEL_PATH" ]; then
-        APP_OPTS="$APP_OPTS -DmodelSources.local.name=local"
-        APP_OPTS="$APP_OPTS -DmodelSources.local.pathPrefix=$LOCAL_MODEL_PATH"
-    fi
-    if [ -n "$S3_MODEL_PATH" ]; then
-        APP_OPTS="$APP_OPTS -DmodelSources.s3.name=s3"
-        APP_OPTS="$APP_OPTS -DmodelSources.s3.path=$S3_MODEL_PATH"
-        APP_OPTS="$APP_OPTS -DmodelSources.s3.region=$S3_MODEL_REGION"
-        APP_OPTS="$APP_OPTS -DmodelSources.s3.bucket=$S3_MODEL_BUCKET"
-        APP_OPTS="$APP_OPTS -DmodelSources.s3.queue=$S3_MODEL_QUEUE"
-    fi
-
     if [ -n "$METRICS_ELASTIC_URI" ]; then
         [ -z "$METRICS_ELASTIC_INDEX_NAME" ] && METRICS_ELASTIC_INDEX_NAME="metrics"
         [ -z "$METRICS_ELASTIC_MAPPING_NAME" ] && METRICS_ELASTIC_MAPPING_NAME="system"
