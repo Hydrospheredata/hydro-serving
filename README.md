@@ -21,10 +21,10 @@ Features:
 
 #### Run
 ```
-#Clone integration repository
-git clone https://github.com/Hydrospheredata/hydro-serving-example
+#Clone repository
+git clone https://github.com/Hydrospheredata/hydro-serving
 
-cd ./hydro-serving-example
+cd ./hydro-serving
 docker-compose up
 ```
 
@@ -33,10 +33,13 @@ Go to UI: http://localhost/
 #### Deploy your first model
 
 ```bash
-#install Serving CLI
+#Install Serving CLI
 pip install hs
 
-cd stateful_lstm_example/pipeline/lstm
+# Clone repo with example models
+git clone https://github.com/Hydrospheredata/hydro-serving-examples
+cd hydro-serving-examples/stateful_lstm_example/pipeline/lstm
+# Upload model to the server
 hs upload
 ```
 
