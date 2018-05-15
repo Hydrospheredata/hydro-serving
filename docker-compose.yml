@@ -1,37 +1,122 @@
 version: "3.5"
 services:
-  postgres:
-    image: postgres:9.6-alpine
-    container_name: postgres
+
+  elasticsearch:
+    image: elasticsearch:5.6.8-alpine
+    container_name: elasticsearch
+    ports:
+      - "9200:9200"
+    restart: always
+    environment:
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    command: elasticsearch -Etransport.host=127.0.0.1 -Ehttp.cors.enabled=true -Ehttp.cors.allow-origin="*"
     networks:
       - hydronet
-    environment:
-      - "POSTGRES_DB=docker"
-      - "POSTGRES_USER=docker"
-      - "POSTGRES_PASSWORD=docker"
+      - extnet
 
-  manager:
-    image: hydrosphere/serving-manager:latest
-    container_name: manager
+  influxdb:
+    image: influxdb:1.5.2
+    container_name: influxdb
+    ports:
+      - "8086:8086"
+    restart: always
     networks:
+      - hydronet
+      - extnet
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:4.0.0
+    container_name: zookeeper
+    ports:
+      - "2181:2181"
+    networks:
+      - extnet
+      - hydronet
+    environment:
+      - "ZOOKEEPER_CLIENT_PORT=2181"
+
+  kafka:
+    image: confluentinc/cp-kafka:4.0.0
+    container_name: kafka
+    ports:
+      - "19092:19092"
+      - "9092:9092"
+    networks:
+      - extnet
+      - hydronet
+    environment:
+      - "KAFKA_JMX_HOSTNAME=kafka"
+      - "KAFKA_AUTO_CREATE_TOPICS_ENABLE=true"
+      - "KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181"
+      - "KAFKA_LISTENER_SECURITY_PROTOCOL_MAP=INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT"
+      - "KAFKA_ADVERTISED_LISTENERS=INSIDE://kafka:9092,OUTSIDE://${KAFKA_ADVERTISED_HOST}:19092"
+      - "KAFKA_INTER_BROKER_LISTENER_NAME=INSIDE"
+      - "KAFKA_DEFAULT_REPLICATION_FACTOR=1"
+      - "KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1"
+    depends_on:
+      - zookeeper
+
+  prometheus:
+    build: ./integrations/prometheus
+    container_name: prometheus
+    ports:
+      - "9090:9090"
+    networks:
+      - extnet
       - hydronet
     depends_on:
-      - postgres
-      - sidecar
+      - kafka
     environment:
+      - "MANAGER_HOST=sidecar"
+      - "MANAGER_PORT=8080"
+
+  grafana:
+    image: grafana/grafana:5.0.4
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    networks:
+      - extnet
+      - hydronet
+    environment:
+      - "GF_SECURITY_ADMIN_PASSWORD=foobar"
+      - "GF_USERS_ALLOW_SIGN_UP=false"
+
+  postgres:
+      image: postgres:9.6-alpine
+      container_name: postgres
+      ports:
+        - "5432:5432"
+      networks:
+        - hydronet
+      environment:
+        - "POSTGRES_DB=docker"
+        - "POSTGRES_USER=docker"
+        - "POSTGRES_PASSWORD=docker"
+
+  manager:
+    image: ${manager_image}:${manager_version}
+    container_name: manager
+    ports:
+      - "19091:9091"
+    networks:
+      - hydronet
+      - extnet
+    depends_on:
+      - postgres
+    environment:
+      - "APP_SHADOWING_ON=true"
       - "ADVERTISED_MANAGER_HOST=manager"
       - "ADVERTISED_MANAGER_PORT=9091"
       - "DATABASE_HOST=postgres"
-      - "LOCAL_MODEL_PATH=/models"
       - "SIDECAR_HOST=sidecar"
-      - "NETWORK_NAME=automation_hydronet"
+      - "NETWORK_NAME=demo_hydronet"
+      - "METRICS_INFLUXDB_HOST=influxdb"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - ${MODEL_DIRECTORY}:/models
-
 
   sidecar:
-    image: hydrosphere/serving-sidecar:latest
+    image: ${sidecar_image}:${sidecar_version}
     container_name: sidecar
     ports:
       - "8080:8080"
@@ -40,26 +125,71 @@ services:
       - extnet
       - hydronet
     environment:
+      #- "SIDECAR_LOG_LEVEL=trace"
       - "MANAGER_HOST=manager"
       - "MANAGER_PORT=9091"
-      - "SERVICE_NAME=manager"
       - "SERVICE_ID=-20"
+      - "SERVICE_NAME=manager"
 
   managerui:
-    image: hydrosphere/serving-manager-ui:latest
+    image: ${manager_ui_image}:${manager_ui_version}
     container_name: managerui
     ports:
-      - "8083:9091"
+      - "80:9091"
     networks:
       - extnet
       - hydronet
+    labels:
+      - "RUNTIME_ID=-22"
     environment:
       - "MANAGER_HOST=sidecar:8080"
+      - "SONAR_HOST=serving-sonar:9090"
+      - "ELASTIC_HOST=elasticsearch:9200"
+      - "INFLUX_HOST=influxdb:8086"
+    depends_on:
+      - sidecar
+      - serving-sonar
+
+  kafka-serving:
+    image: ${gateway_kafka_image}:${gateway_kafka_version}
+    container_name: kafka-serving
+    networks:
+      - hydronet
+    ports:
+      - "19093:9091"
+    depends_on:
+      - sidecar
+      - kafka
+    environment:
+      - "SIDECAR_INGRESS_PORT=8080"
+      - "SIDECAR_EGRESS_PORT=8081"
+      - "SIDECAR_ADMIN_PORT=8082"
+      - "SIDECAR_HOST=sidecar"
+      - "KAFKA_HOST=kafka"
+      - "KAFKA_PORT=9092"
+
+  serving-sonar:
+    image: hydrosphere/serving-sonar:v0.0.2
+    container_name: serving-sonar
+    networks:
+      - extnet
+      - hydronet
+    depends_on:
+      - kafka
+    links:
+      - kafka
+    ports:
+      - "9999:9999"
+    volumes:
+      - ./integrations/sonar/sonar.conf:/etc/sonar.conf
 
 networks:
   hydronet:
-    name: automation_hydronet
+    name: demo_hydronet
     internal: true
+    ipam:
+      config:
+        - subnet: 172.16.0.0/24
 
   extnet:
     driver: bridge
