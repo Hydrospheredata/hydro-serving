@@ -52,7 +52,7 @@ class ManagerServices(
 
   val servingMeshGrpcClient: PredictionServiceGrpc.PredictionServiceStub = PredictionServiceGrpc.stub(channel)
 
-  val sourceManagementService = new SourceManagementServiceImpl(managerConfiguration, managerRepositories.sourceRepository)
+  val sourceManagementService = new SourceManagementServiceImpl(managerConfiguration)
 
   val contractUtilityService = new ContractUtilityServiceImpl
 
