@@ -53,7 +53,7 @@ class ModelServiceSpec extends GenericUnitTest {
     val model = Model(
       id = 1,
       name = "tf-model",
-      modelType = ModelType.Tensorflow(),
+      modelType = ModelType.Tensorflow("1.1.0"),
       description = None,
       modelContract = ModelContract.defaultInstance,
       created = LocalDateTime.now(),
@@ -65,7 +65,7 @@ class ModelServiceSpec extends GenericUnitTest {
     Mockito.when(sourceMock.upload(Matchers.any())).thenReturn(
       Result.okF(StorageUploadResult(
         "tf-model",
-        ModelType.Tensorflow(),
+        ModelType.Tensorflow("1.1.0"),
         None,
         ModelContract("tf-model", Seq(ModelSignature()))
       ))
@@ -98,7 +98,7 @@ class ModelServiceSpec extends GenericUnitTest {
     val model = Model(
       id = 1,
       name = "tf-model",
-      modelType = ModelType.Tensorflow(),
+      modelType = ModelType.Tensorflow("1.1.0"),
       description = None,
       modelContract = ModelContract.defaultInstance,
       created = LocalDateTime.now(),
@@ -110,7 +110,7 @@ class ModelServiceSpec extends GenericUnitTest {
     Mockito.when(sourceMock.upload(Matchers.any())).thenReturn(
       Result.okF(StorageUploadResult(
         "tf-model",
-        ModelType.Tensorflow(),
+        ModelType.Tensorflow("1.1.0"),
         None,
         ModelContract("tf-model", Seq(ModelSignature()))
       ))
