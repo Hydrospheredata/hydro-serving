@@ -63,7 +63,7 @@ class RuntimeServiceSpec extends GenericUnitTest {
       val runtime = runtimeResult.right.get
       assert("unknown_test" === runtime.name, runtime.name)
       assert(runtime.suitableModelType.lengthCompare(1) === 0, "tensorLUL:1337")
-      assert(ModelType.Unknown("tensorLUL:1337") === runtime.suitableModelType.head)
+      assert(ModelType.Unknown("tensorLUL", "1337") === runtime.suitableModelType.head)
       assert(Map.empty[String, String] === runtime.configParams)
       assert("0.0.1" === runtime.version)
       assert(List.empty[String] === runtime.tags)
