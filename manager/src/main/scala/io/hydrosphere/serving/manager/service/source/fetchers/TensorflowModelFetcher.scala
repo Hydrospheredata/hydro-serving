@@ -74,7 +74,7 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
     ModelSignature(
       signatureName = signatureDef.getMethodName,
       inputs = convertTensorMap(signatureDef.getInputsMap.toMap),
-      outputs = convertTensorMap(signatureDef.getInputsMap.toMap)
+      outputs = convertTensorMap(signatureDef.getOutputsMap.toMap)
     )
   }
 
