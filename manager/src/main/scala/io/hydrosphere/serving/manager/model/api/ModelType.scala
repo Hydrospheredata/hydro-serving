@@ -5,8 +5,8 @@ sealed trait ModelType {
 }
 
 object ModelType {
-  case class Tensorflow() extends ModelType {
-    override def toTag: String = "tensorflow"
+  case class Tensorflow(version: String) extends ModelType {
+    override def toTag: String = s"tensorflow:$version"
   }
 
   case class Spark private(version: String) extends ModelType {
@@ -21,8 +21,8 @@ object ModelType {
     override def toTag: String = s"python:$version"
   }
 
-  case class Unknown(unknownTag: String) extends ModelType {
-    override def toTag: String = s"unknown:$unknownTag"
+  case class Unknown(unknownType: String = "unknown", unknownTag: String = "unknown") extends ModelType {
+    override def toTag: String = s"$unknownType:$unknownTag"
   }
 
   def tryFromTag(tag: String): Option[ModelType] = {
@@ -35,14 +35,14 @@ object ModelType {
 
   def fromTag(tag: String): ModelType = {
     tag.split(':').toList match {
-      case "tensorflow" :: Nil => Tensorflow()
+      case "tensorflow" :: version :: Nil => Tensorflow(version)
       case "scikit" :: Nil => Scikit()
-      case "unknown":: subtag => Unknown(subtag.mkString(":"))
       case "python" :: version :: Nil => PythonFunction(version)
       case "spark" :: modelVersion :: Nil =>
         val majors = modelVersion.split('.').take(2).mkString(".")
         Spark(majors)
-      case _ => Unknown(tag)
+      case unknownType :: unknownTag :: Nil => Unknown(unknownType, unknownTag)
+      case x => Unknown("unknown", x.mkString)
     }
   }
 }

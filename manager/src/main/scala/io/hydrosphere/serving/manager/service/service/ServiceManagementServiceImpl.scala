@@ -40,7 +40,7 @@ class ServiceManagementServiceImpl(
         id = cloudService.runtimeInfo.runtimeId,
         name = cloudService.runtimeInfo.runtimeName,
         version = cloudService.runtimeInfo.runtimeVersion,
-        suitableModelType = List(ModelType.Unknown("unknown")),
+        suitableModelType = List(ModelType.Unknown("unknown", "un")),
         tags = List(),
         configParams = Map()
       ),

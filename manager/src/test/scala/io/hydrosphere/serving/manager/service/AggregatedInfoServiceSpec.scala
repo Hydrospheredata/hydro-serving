@@ -22,8 +22,8 @@ class AggregatedInfoServiceSpec extends GenericUnitTest {
     val createdTime = LocalDateTime.now()
 
     val models = Seq(
-      Model(1, "model1", ModelType.Tensorflow(), None, ModelContract.defaultInstance, createdTime, createdTime),
-      Model(2, "model2", ModelType.Tensorflow(), None, ModelContract.defaultInstance, createdTime, createdTime)
+      Model(1, "model1", ModelType.Tensorflow("1.1.0"), None, ModelContract.defaultInstance, createdTime, createdTime),
+      Model(2, "model2", ModelType.Tensorflow("1.1.0"), None, ModelContract.defaultInstance, createdTime, createdTime)
     )
 
     val modelMock = mock[ModelManagementService]
@@ -60,9 +60,9 @@ class AggregatedInfoServiceSpec extends GenericUnitTest {
   it should "return info for built models" in {
     val createdTime = LocalDateTime.now()
 
-    val unbuiltModel = Model(2, "model2", ModelType.Tensorflow(), None, ModelContract.defaultInstance, createdTime, createdTime)
-    val builtModel = Model(1, "model1", ModelType.Tensorflow(), None, ModelContract.defaultInstance, createdTime, createdTime)
-    val mVersion = ModelVersion(1, "image", "tag", "sha256", createdTime, builtModel.name, 1, ModelType.Tensorflow(), Some(builtModel), builtModel.modelContract)
+    val unbuiltModel = Model(2, "model2", ModelType.Tensorflow("1.1.0"), None, ModelContract.defaultInstance, createdTime, createdTime)
+    val builtModel = Model(1, "model1", ModelType.Tensorflow("1.1.0"), None, ModelContract.defaultInstance, createdTime, createdTime)
+    val mVersion = ModelVersion(1, "image", "tag", "sha256", createdTime, builtModel.name, 1, ModelType.Tensorflow("1.1.0"), Some(builtModel), builtModel.modelContract)
     val mBuild = ModelBuild(1, builtModel, 1, createdTime, Some(LocalDateTime.now()), ModelBuildStatus.FINISHED, None, None, Some(mVersion))
 
     val models = Seq(builtModel, unbuiltModel)
@@ -107,14 +107,14 @@ class AggregatedInfoServiceSpec extends GenericUnitTest {
   it should "return  apps info for model versions" in {
     val createdTime = LocalDateTime.now()
 
-    val unbuiltModel = Model(1, "model1", ModelType.Tensorflow(), None, ModelContract.defaultInstance, createdTime, createdTime)
+    val unbuiltModel = Model(1, "model1", ModelType.Tensorflow("1.1.0"), None, ModelContract.defaultInstance, createdTime, createdTime)
 
-    val builtModel1 = Model(2, "model2", ModelType.Tensorflow(), None, ModelContract.defaultInstance, createdTime, createdTime)
-    val mVersion1 = ModelVersion(1, "image", "tag", "sha256", createdTime, builtModel1.name, 1, ModelType.Tensorflow(), Some(builtModel1), builtModel1.modelContract)
+    val builtModel1 = Model(2, "model2", ModelType.Tensorflow("1.1.0"), None, ModelContract.defaultInstance, createdTime, createdTime)
+    val mVersion1 = ModelVersion(1, "image", "tag", "sha256", createdTime, builtModel1.name, 1, ModelType.Tensorflow("1.1.0"), Some(builtModel1), builtModel1.modelContract)
     val mBuild1 = ModelBuild(1, builtModel1, 1, createdTime, Some(LocalDateTime.now()), ModelBuildStatus.FINISHED, None, None, Some(mVersion1))
 
-    val builtModel2 = Model(3, "model3", ModelType.Tensorflow(), None, ModelContract.defaultInstance, createdTime, createdTime)
-    val mVersion2 = ModelVersion(2, "image", "tag", "sha256", createdTime, builtModel2.name, 1, ModelType.Tensorflow(), Some(builtModel2), builtModel2.modelContract)
+    val builtModel2 = Model(3, "model3", ModelType.Tensorflow("1.1.0"), None, ModelContract.defaultInstance, createdTime, createdTime)
+    val mVersion2 = ModelVersion(2, "image", "tag", "sha256", createdTime, builtModel2.name, 1, ModelType.Tensorflow("1.1.0"), Some(builtModel2), builtModel2.modelContract)
     val mBuild2 = ModelBuild(2, builtModel2, 1, createdTime, Some(LocalDateTime.now()), ModelBuildStatus.FINISHED, None, None, Some(mVersion2))
 
 
