@@ -21,6 +21,10 @@ object ModelType {
     override def toTag: String = s"python:$version"
   }
 
+  case class ONNX(producerName: String, producerVersion: String) extends ModelType {
+    override def toTag: String = s"onnx:$producerName:$producerVersion"
+  }
+
   case class Unknown(unknownType: String = "unknown", unknownTag: String = "unknown") extends ModelType {
     override def toTag: String = s"$unknownType:$unknownTag"
   }
@@ -37,12 +41,14 @@ object ModelType {
     tag.split(':').toList match {
       case "tensorflow" :: version :: Nil => Tensorflow(version)
       case "scikit" :: Nil => Scikit()
+      case "unknown":: subtag => Unknown(subtag.mkString(":"))
       case "python" :: version :: Nil => PythonFunction(version)
       case "spark" :: modelVersion :: Nil =>
         val majors = modelVersion.split('.').take(2).mkString(".")
         Spark(majors)
+      case "onnx" :: producer :: version :: Nil => ONNX(producer, version)
       case unknownType :: unknownTag :: Nil => Unknown(unknownType, unknownTag)
-      case x => Unknown("unknown", x.mkString)
+      case _ => Unknown(tag)
     }
   }
 }
