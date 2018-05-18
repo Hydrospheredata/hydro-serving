@@ -37,7 +37,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
     created = LocalDateTime.now(),
     modelName = "model_name",
     modelVersion = 1,
-    modelType = Tensorflow(),
+    modelType = Tensorflow("1.1.0"),
     model = None,
     modelContract = ModelContract()
   ))

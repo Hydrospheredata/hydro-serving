@@ -27,6 +27,7 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
         None
       case Right(pbFile) =>
         val savedModel = SavedModel.parseFrom(Files.newInputStream(pbFile.toPath))
+        val version = savedModel.getMetaGraphsList.headOption.map(_.getMetaInfoDef.getTensorflowVersion).getOrElse("unknown")
         val signatures = savedModel
           .getMetaGraphsList
           .flatMap { metagraph =>
@@ -43,7 +44,7 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
               directory,
               signatures
             ),
-            modelType = ModelType.Tensorflow()
+            modelType = ModelType.Tensorflow(version)
           )
         )
     }
@@ -74,7 +75,7 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
     ModelSignature(
       signatureName = signatureDef.getMethodName,
       inputs = convertTensorMap(signatureDef.getInputsMap.toMap),
-      outputs = convertTensorMap(signatureDef.getInputsMap.toMap)
+      outputs = convertTensorMap(signatureDef.getOutputsMap.toMap)
     )
   }
 
