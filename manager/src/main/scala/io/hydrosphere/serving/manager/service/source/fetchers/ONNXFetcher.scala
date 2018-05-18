@@ -11,6 +11,7 @@ import io.hydrosphere.serving.onnx.onnx.TensorProto.DataType._
 import io.hydrosphere.serving.onnx.onnx._
 import io.hydrosphere.serving.tensorflow.tensor_shape
 import io.hydrosphere.serving.tensorflow.types.DataType
+import org.apache.commons.io.FilenameUtils
 
 object ONNXFetcher extends ModelFetcher {
   val signature = "infer"
@@ -55,31 +56,31 @@ object ONNXFetcher extends ModelFetcher {
     )
   }
 
-  def graphToContract(graph: GraphProto): ModelContract = {
-    ModelContract(
-      graph.name,
-      Seq(ModelSignature(
-        signature,
-        graph.input.map(valueInfoToField),
-        graph.output.map(valueInfoToField)
-      ))
-    )
+  def extractSignatures(graph: GraphProto): Seq[ModelSignature] = {
+    Seq(ModelSignature(
+      signature,
+      graph.input.map(valueInfoToField),
+      graph.output.map(valueInfoToField)
+    ))
   }
 
   def findFile(source: ModelStorage, directory: String): Option[Path] = {
-    source.getReadableFile(directory + "/model.onnx").right.toOption.map(_.toPath)
+    source.getReadableFile(directory).right.toOption.flatMap { dirFile =>
+      dirFile.listFiles().find(f => f.isFile && f.getName.endsWith(".onnx")).map(_.toPath)
+    }
   }
 
   override def fetch(source: ModelStorage, directory: String): Option[ModelMetadata] = {
     for {
       filePath <- findFile(source, directory)
+      fileName = FilenameUtils.getBaseName(filePath.getFileName.toString)
       model <- ModelProto.validate(Files.readAllBytes(filePath)).toOption
       graph <- model.graph
     } yield {
       ModelMetadata(
-        graph.name,
+        fileName,
         ONNX(model.producerName, model.producerVersion),
-        graphToContract(graph)
+        ModelContract(fileName, extractSignatures(graph))
       )
     }
   }
