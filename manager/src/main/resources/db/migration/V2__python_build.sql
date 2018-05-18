@@ -1,5 +1,5 @@
 INSERT INTO hydro_serving.model_build_script(name, script) VALUES (
-'unknown:ssd_demo',
+'python:3.6',
 'FROM python:3.6-slim' || E'\n' ||
 'LABEL MODEL_TYPE={MODEL_TYPE}' || E'\n' ||
 'LABEL MODEL_NAME={MODEL_NAME}' || E'\n' ||
