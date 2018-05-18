@@ -12,7 +12,6 @@ import akka.util.Timeout
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.{GenericController, ServingDataDirectives}
-import io.hydrosphere.serving.manager.controller.model._
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedModelInfo}
@@ -205,26 +204,6 @@ class ModelController(
     }
   }
 
-  @Path("/build")
-  @ApiOperation(value = "Build model", notes = "Build model", nickname = "buildModel", httpMethod = "POST")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "Model", required = true,
-      dataTypeClass = classOf[BuildModelRequest], paramType = "body")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Model", response = classOf[ModelVersion]),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
-  def buildModel = path("api" / "v1" / "model" / "build") {
-    post {
-      entity(as[BuildModelRequest]) { r =>
-        completeFRes(
-          modelBuildManagementService.buildModel(r.modelId, r.flatContract)
-        )
-      }
-    }
-  }
-
   @Path("version/{modelId}/last")
   @ApiOperation(value = "lastModelVersions", notes = "lastModelVersions", nickname = "lastModelVersions", httpMethod = "GET")
   @ApiImplicitParams(Array(
@@ -410,7 +389,7 @@ class ModelController(
     }
   }
 
-  val routes: Route = listModels ~ getModel ~ updateModel ~ uploadModel ~ buildModel ~ listModelBuildsByModel ~ lastModelBuilds ~
+  val routes: Route = listModels ~ getModel ~ updateModel ~ uploadModel ~ listModelBuildsByModel ~ lastModelBuilds ~
     generatePayloadByModelId ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract ~ generateInputsForVersion ~
     lastModelVersions ~ addModelVersion ~ allModelVersions ~ modelContractDescription ~ versionContractDescription
 }
