@@ -12,7 +12,7 @@ object Dependencies {
   val scalaPBVersion = "0.6.7"
   val grpcNettyVersion = "1.8.0"
   val awsSdkVersion = "1.11.312"
-  val servingGrpcScala = "0.1.4"
+  val servingGrpcScala = "0.1.5"
   val catsV = "1.1.0"
   val elastic4sVersion = "6.2.4"
 

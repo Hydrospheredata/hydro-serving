@@ -21,6 +21,10 @@ object ModelType {
     override def toTag: String = s"python:$version"
   }
 
+  case class ONNX(producerName: String, producerVersion: String) extends ModelType {
+    override def toTag: String = s"onnx:$producerName:$producerVersion"
+  }
+
   case class Unknown(unknownTag: String) extends ModelType {
     override def toTag: String = s"unknown:$unknownTag"
   }
@@ -42,6 +46,7 @@ object ModelType {
       case "spark" :: modelVersion :: Nil =>
         val majors = modelVersion.split('.').take(2).mkString(".")
         Spark(majors)
+      case "onnx" :: producer :: version :: Nil => ONNX(producer, version)
       case _ => Unknown(tag)
     }
   }

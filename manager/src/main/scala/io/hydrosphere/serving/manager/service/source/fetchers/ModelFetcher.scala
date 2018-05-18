@@ -16,6 +16,7 @@ object ModelFetcher extends Logging {
   private[this] val fetchers = List(
     SparkModelFetcher,
     TensorflowModelFetcher,
+    ONNXFetcher,
     ScikitModelFetcher
   )
 
