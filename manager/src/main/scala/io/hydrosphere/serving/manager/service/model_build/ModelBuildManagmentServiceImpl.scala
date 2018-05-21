@@ -49,7 +49,8 @@ class ModelBuildManagmentServiceImpl(
         logsUrl = None,
         modelVersion = None
       )
-      modelBuild <- EitherT.liftF(modelBuildRepository.create(build))
+      uniqueBuild <- EitherT(ensureUniqueBuild(build))
+      modelBuild <- EitherT.liftF(modelBuildRepository.create(uniqueBuild))
       modelVersion <- EitherT(buildModelVersion(modelBuild, script))
     } yield {
       modelVersion
@@ -58,15 +59,7 @@ class ModelBuildManagmentServiceImpl(
   }
 
   def buildModelVersion(modelBuild: ModelBuild, script: String): HFResult[ModelVersion] = {
-    val f = for {
-      uniqueBuild <- EitherT(ensureUniqueBuild(modelBuild))
-      imageName = modelPushService.getImageName(uniqueBuild)
-      buildResult <- EitherT(buildModelImage(uniqueBuild, script, imageName))
-    } yield buildResult
-    f.value
-  }
-
-  private def buildModelImage(modelBuild: ModelBuild, script: String, imageName: String) = {
+    val imageName = modelPushService.getImageName(modelBuild)
     modelBuildService.build(modelBuild, imageName, script, InfoProgressHandler).flatMap {
       case Left(err) =>
         logger.error(err)
