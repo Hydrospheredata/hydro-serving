@@ -34,7 +34,7 @@ class ModelServiceSpec extends GenericUnitTest {
 
   def packModel(str: String): Path = {
     val temptar = Files.createTempFile("test_tf_model", ".tar.gz")
-    TarGzUtils.compress(Paths.get(getClass.getResource(str).getPath), temptar, None)
+    TarGzUtils.compressFolder(Paths.get(getClass.getResource(str).getPath), temptar)
     temptar
   }
 
