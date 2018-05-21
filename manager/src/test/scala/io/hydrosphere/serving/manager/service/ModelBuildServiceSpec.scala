@@ -238,4 +238,8 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       assert(result.left.get.message === "cant find file")
     }
   }
+
+  it should "upload and release a model" in {
+    pending
+  }
 }
