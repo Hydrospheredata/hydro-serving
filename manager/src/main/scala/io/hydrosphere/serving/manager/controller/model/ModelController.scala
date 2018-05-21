@@ -78,7 +78,7 @@ class ModelController(
   def uploadModel = path("api" / "v1" / "model" / "upload") {
     post {
       entity(as[Multipart.FormData]) { (formdata: Multipart.FormData) ⇒
-        val fileNamesFuture = formdata.parts.flatMapConcat { p ⇒
+        val fileNamesFuture = formdata.parts.flatMapConcat { p =>
           logger.debug(s"Got part. Name: ${p.name} Filename: ${p.filename}")
           p.name match {
             case Entities.`modelType` if p.filename.isEmpty =>
@@ -86,12 +86,6 @@ class ModelController(
                 .map(_.decodeString("UTF-8"))
                 .filterNot(_.isEmpty)
                 .map(r => UploadModelType(r))
-
-            case Entities.`targetSource` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(_.decodeString("UTF-8"))
-                .filterNot(_.isEmpty)
-                .map(r => UploadTargetSource(r))
 
             case Entities.`modelContract` if p.filename.isEmpty =>
               p.entity.dataBytes

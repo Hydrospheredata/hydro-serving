@@ -17,8 +17,6 @@ case class UploadModelName(modelName: String) extends UploadedEntity
 
 case class UploadModelType(modelType: String) extends UploadedEntity
 
-case class UploadTargetSource(source: String) extends UploadedEntity
-
 case class UploadDescription(description: String) extends UploadedEntity
 
 case class UploadContract(modelContract: ModelContract) extends UploadedEntity
@@ -27,7 +25,6 @@ case class UploadRemotePayload(link: String) extends UploadedEntity
 
 object Entities {
   val modelType = "model_type"
-  val targetSource = "target_source"
   val modelContract = "model_contract"
   val modelDescription = "model_description"
   val modelName = "model_name"

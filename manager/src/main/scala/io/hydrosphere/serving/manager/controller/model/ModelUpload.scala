@@ -12,8 +12,7 @@ case class ModelUpload(
   name: Option[String] = None,
   modelType: Option[String] = None,
   contract: Option[ModelContract] = None,
-  description: Option[String] = None,
-  source: Option[String] = None
+  description: Option[String] = None
 )
 
 object ModelUpload {
@@ -25,7 +24,6 @@ object ModelUpload {
       name = extractOpt[UploadModelName](entities).map(_.modelName),
       modelType = extractOpt[UploadModelType](entities).map(_.modelType),
       contract = extractOpt[UploadContract](entities).map(_.modelContract),
-      source = extractOpt[UploadTargetSource](entities).map(_.source),
       description = extractOpt[UploadDescription](entities).map(_.description),
       tarballPath = tarball.path
     )

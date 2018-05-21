@@ -46,7 +46,6 @@ class ModelServiceSpec extends GenericUnitTest {
       Some("tf-model"),
       Some("unknown:unknown"),
       None,
-      None,
       None
     )
     println(upload)
@@ -91,7 +90,6 @@ class ModelServiceSpec extends GenericUnitTest {
       Some("test"),
       Some("unknown:unknown"),
       Some(ModelContract.defaultInstance),
-      None,
       None
     )
     println(upload)

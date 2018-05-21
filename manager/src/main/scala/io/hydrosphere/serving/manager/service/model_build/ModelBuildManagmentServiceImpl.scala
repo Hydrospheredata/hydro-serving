@@ -126,6 +126,7 @@ class ModelBuildManagmentServiceImpl(
 
   /**
     * Ensures there is no build unfinished build for given modelId and version
+    *
     * @param modelBuild build to check
     * @return Right if there is no duplicating build. Left otherwise
     */
