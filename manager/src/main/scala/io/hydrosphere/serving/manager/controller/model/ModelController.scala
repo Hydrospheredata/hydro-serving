@@ -66,13 +66,13 @@ class ModelController(
   }
 
   @Path("/upload")
-  @ApiOperation(value = "Upload model", notes = "Upload model", nickname = "uploadModel", httpMethod = "POST")
+  @ApiOperation(value = "Upload and release a model", notes = "Upload and release a model", nickname = "uploadModel", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "CreateOrUpdateModelRequest", required = true,
       dataTypeClass = classOf[CreateOrUpdateModelRequest], paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Model", response = classOf[Model]),
+    new ApiResponse(code = 200, message = "Model", response = classOf[ModelVersion]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def uploadModel = path("api" / "v1" / "model" / "upload") {
@@ -137,10 +137,10 @@ class ModelController(
           case (a, b) => a :+ b
         }
 
-        def uploadModel(dd: Future[List[UploadedEntity]]): HFResult[Model] = {
+        def uploadModel(dd: Future[List[UploadedEntity]]) = {
           dd.map(ModelUpload.fromUploadEntities).flatMap {
             case Left(a) => Future.successful(Left(a))
-            case Right(b) => modelManagementService.uploadModel(b)
+            case Right(b) => modelBuildManagementService.uploadAndBuild(b)
           }
         }
 

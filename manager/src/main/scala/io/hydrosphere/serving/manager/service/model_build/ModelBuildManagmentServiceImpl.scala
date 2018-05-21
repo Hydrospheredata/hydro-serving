@@ -5,6 +5,7 @@ import java.time.LocalDateTime
 import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
+import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.repository.ModelBuildRepository
@@ -105,5 +106,13 @@ class ModelBuildManagmentServiceImpl(
 
   override def lastForModels(ids: Seq[Long]): Future[Seq[ModelBuild]] = {
     modelBuildRepository.lastForModels(ids)
+  }
+
+  def uploadAndBuild(modelUpload: ModelUpload): HFResult[ModelVersion] = {
+    val f = for {
+      model <- EitherT(modelManagementService.uploadModel(modelUpload))
+      version <- EitherT(buildModel(model.id))
+    } yield version
+    f.value
   }
 }
