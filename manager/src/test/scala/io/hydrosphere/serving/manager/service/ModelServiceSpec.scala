@@ -42,7 +42,7 @@ class ModelServiceSpec extends GenericUnitTest {
     val testSourcePath = Files.createTempDirectory("upload-test").toString
     println("Test source path: " + testSourcePath)
     val upload = ModelUpload(
-      packModel("/test_models/tensorflow_model/saved_model.pb"),
+      packModel("/test_models/tensorflow_model"),
       Some("tf-model"),
       Some("unknown:unknown"),
       None,
