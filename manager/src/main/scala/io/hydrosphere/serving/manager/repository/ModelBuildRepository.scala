@@ -7,9 +7,6 @@ import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
 
 import scala.concurrent.Future
 
-/**
-  *
-  */
 trait ModelBuildRepository extends BaseRepository[ModelBuild, Long] {
   def lastForModels(id: Seq[Long]): Future[Seq[ModelBuild]]
 
@@ -19,4 +16,6 @@ trait ModelBuildRepository extends BaseRepository[ModelBuild, Long] {
 
   def finishBuild(id: Long, status: ModelBuildStatus, statusText: String, finished: LocalDateTime,
     modelRuntime: Option[ModelVersion]): Future[Int]
+
+  def getRunningBuild(modelId: Long, modelVersion: Long): Future[Option[ModelBuild]]
 }

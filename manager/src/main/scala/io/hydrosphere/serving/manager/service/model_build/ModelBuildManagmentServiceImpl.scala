@@ -58,7 +58,15 @@ class ModelBuildManagmentServiceImpl(
   }
 
   def buildModelVersion(modelBuild: ModelBuild, script: String): HFResult[ModelVersion] = {
-    val imageName = modelPushService.getImageName(modelBuild)
+    val f = for {
+      uniqueBuild <- EitherT(ensureUniqueBuild(modelBuild))
+      imageName = modelPushService.getImageName(uniqueBuild)
+      buildResult <- EitherT(buildModelImage(uniqueBuild, script, imageName))
+    } yield buildResult
+    f.value
+  }
+
+  private def buildModelImage(modelBuild: ModelBuild, script: String, imageName: String) = {
     modelBuildService.build(modelBuild, imageName, script, InfoProgressHandler).flatMap {
       case Left(err) =>
         logger.error(err)
@@ -114,5 +122,12 @@ class ModelBuildManagmentServiceImpl(
       version <- EitherT(buildModel(model.id))
     } yield version
     f.value
+  }
+
+  def ensureUniqueBuild(modelBuild: ModelBuild): HFResult[ModelBuild] = {
+    modelBuildRepository.getRunningBuild(modelBuild.model.id, modelBuild.version).map {
+      case Some(x) => Result.clientError(s"There is already a running build for a model ${x.model.name} version ${x.version}")
+      case None => Result.ok(modelBuild)
+    }
   }
 }
