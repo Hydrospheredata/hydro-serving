@@ -12,7 +12,6 @@ import akka.util.Timeout
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.{GenericController, ServingDataDirectives}
-import io.hydrosphere.serving.manager.controller.model._
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedModelInfo}
@@ -67,19 +66,19 @@ class ModelController(
   }
 
   @Path("/upload")
-  @ApiOperation(value = "Upload model", notes = "Upload model", nickname = "uploadModel", httpMethod = "POST")
+  @ApiOperation(value = "Upload and release a model", notes = "Upload and release a model", nickname = "uploadModel", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "CreateOrUpdateModelRequest", required = true,
       dataTypeClass = classOf[CreateOrUpdateModelRequest], paramType = "body")
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Model", response = classOf[Model]),
+    new ApiResponse(code = 200, message = "Model", response = classOf[ModelVersion]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def uploadModel = path("api" / "v1" / "model" / "upload") {
     post {
       entity(as[Multipart.FormData]) { (formdata: Multipart.FormData) ⇒
-        val fileNamesFuture = formdata.parts.flatMapConcat { p ⇒
+        val fileNamesFuture = formdata.parts.flatMapConcat { p =>
           logger.debug(s"Got part. Name: ${p.name} Filename: ${p.filename}")
           p.name match {
             case Entities.`modelType` if p.filename.isEmpty =>
@@ -87,12 +86,6 @@ class ModelController(
                 .map(_.decodeString("UTF-8"))
                 .filterNot(_.isEmpty)
                 .map(r => UploadModelType(r))
-
-            case Entities.`targetSource` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(_.decodeString("UTF-8"))
-                .filterNot(_.isEmpty)
-                .map(r => UploadTargetSource(r))
 
             case Entities.`modelContract` if p.filename.isEmpty =>
               p.entity.dataBytes
@@ -138,10 +131,10 @@ class ModelController(
           case (a, b) => a :+ b
         }
 
-        def uploadModel(dd: Future[List[UploadedEntity]]): HFResult[Model] = {
+        def uploadModel(dd: Future[List[UploadedEntity]]) = {
           dd.map(ModelUpload.fromUploadEntities).flatMap {
             case Left(a) => Future.successful(Left(a))
-            case Right(b) => modelManagementService.uploadModel(b)
+            case Right(b) => modelBuildManagementService.uploadAndBuild(b)
           }
         }
 
@@ -200,26 +193,6 @@ class ModelController(
       parameters('maximum.as[Int]) { (maximum) =>
         completeF(
           modelBuildManagementService.lastModelBuildsByModelId(s, maximum)
-        )
-      }
-    }
-  }
-
-  @Path("/build")
-  @ApiOperation(value = "Build model", notes = "Build model", nickname = "buildModel", httpMethod = "POST")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "Model", required = true,
-      dataTypeClass = classOf[BuildModelRequest], paramType = "body")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Model", response = classOf[ModelVersion]),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
-  def buildModel = path("api" / "v1" / "model" / "build") {
-    post {
-      entity(as[BuildModelRequest]) { r =>
-        completeFRes(
-          modelBuildManagementService.buildModel(r.modelId, r.flatContract)
         )
       }
     }
@@ -410,7 +383,7 @@ class ModelController(
     }
   }
 
-  val routes: Route = listModels ~ getModel ~ updateModel ~ uploadModel ~ buildModel ~ listModelBuildsByModel ~ lastModelBuilds ~
+  val routes: Route = listModels ~ getModel ~ updateModel ~ uploadModel ~ listModelBuildsByModel ~ lastModelBuilds ~
     generatePayloadByModelId ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract ~ generateInputsForVersion ~
     lastModelVersions ~ addModelVersion ~ allModelVersions ~ modelContractDescription ~ versionContractDescription
 }

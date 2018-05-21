@@ -37,12 +37,11 @@ class ModelManagementServiceImpl(
     modelRepository.create(entity.toModel).map(Right.apply)
 
   def create(model: Model): HFResult[Model] = {
-    getModel(model.id).flatMap{
+    getModel(model.id).flatMap {
       case Left(_) => modelRepository.create(model).map(Right.apply)
       case Right(_) => Result.clientErrorF(s"Model id ${model.id} already exists")
     }
   }
-
 
   override def updateModel(model: Model): HFResult[Model] = {
     modelRepository.get(model.id).flatMap {
@@ -156,26 +155,6 @@ class ModelManagementServiceImpl(
     } yield r
     f.value
   }
-
-  private def metadataToCreate(modelMetadata: ModelMetadata, source: String): CreateOrUpdateModelRequest = {
-    CreateOrUpdateModelRequest(
-      id = None,
-      name = modelMetadata.modelName,
-      modelType = modelMetadata.modelType,
-      description = None,
-      modelContract = modelMetadata.contract
-    )
-  }
-
-  private def applyModelMetadata(modelMetadata: ModelMetadata, model: Model, updated: LocalDateTime = LocalDateTime.now()): Model = {
-    model.copy(
-      name = modelMetadata.modelName,
-      modelType = modelMetadata.modelType,
-      modelContract = modelMetadata.contract,
-      updated = updated
-    )
-  }
-
 
   private def upsertRequest(request: CreateOrUpdateModelRequest): Future[Either[Result.HError, Model]] = {
     modelRepository.get(request.name).flatMap {

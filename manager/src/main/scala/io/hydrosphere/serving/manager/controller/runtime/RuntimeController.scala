@@ -35,8 +35,7 @@ class RuntimeController(
   @Path("/")
   @ApiOperation(value = "Create Runtime", notes = "Create Runtime", nickname = "createRuntime", httpMethod = "POST")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "Runtime Object", required = true,
-      dataType = "io.hydrosphere.serving.manager.service.CreateRuntimeRequest", paramType = "body")
+    new ApiImplicitParam(name = "body", value = "Runtime Object", required = true, dataTypeClass = classOf[CreateRuntimeRequest], paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Runtime", response = classOf[Runtime]),

@@ -114,6 +114,17 @@ class ModelBuildRepositoryImpl(
         .distinctOn(_._1._1.modelId)
         .result
     ).map(s => mapFromDb(s))
+
+  def getRunningBuild(modelId: Long, modelVersion: Long): Future[Option[ModelBuild]] = db.run {
+    Tables.ModelBuild
+      .filter(x => x.modelId === modelId && x.modelVersion === modelVersion)
+      .filter(_.finishedTimestamp.isEmpty)
+      .joinLeft(Tables.Model)
+      .on({ case (mb, m) => mb.modelId === m.modelId })
+      .joinLeft(Tables.ModelVersion)
+      .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
+      .result.headOption
+  }.map(mapFromDb)
 }
 
 object ModelBuildRepositoryImpl {

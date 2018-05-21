@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.service.model_build
 
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
+import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
 
@@ -16,6 +17,8 @@ trait ModelBuildManagmentService {
   def buildModel(modelId: Long, flatContract: Option[ContractDescription] = None, modelVersion: Option[Long] = None): HFResult[ModelVersion]
 
   def buildModelVersion(modelBuild: ModelBuild, script: String): HFResult[ModelVersion]
+
+  def uploadAndBuild(modelUpload: ModelUpload): HFResult[ModelVersion]
 }
 
 

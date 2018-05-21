@@ -5,6 +5,7 @@ import java.time.LocalDateTime
 import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
+import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.repository.ModelBuildRepository
@@ -48,7 +49,8 @@ class ModelBuildManagmentServiceImpl(
         logsUrl = None,
         modelVersion = None
       )
-      modelBuild <- EitherT.liftF(modelBuildRepository.create(build))
+      uniqueBuild <- EitherT(ensureUniqueBuild(build))
+      modelBuild <- EitherT.liftF(modelBuildRepository.create(uniqueBuild))
       modelVersion <- EitherT(buildModelVersion(modelBuild, script))
     } yield {
       modelVersion
@@ -105,5 +107,26 @@ class ModelBuildManagmentServiceImpl(
 
   override def lastForModels(ids: Seq[Long]): Future[Seq[ModelBuild]] = {
     modelBuildRepository.lastForModels(ids)
+  }
+
+  def uploadAndBuild(modelUpload: ModelUpload): HFResult[ModelVersion] = {
+    val f = for {
+      model <- EitherT(modelManagementService.uploadModel(modelUpload))
+      version <- EitherT(buildModel(model.id))
+    } yield version
+    f.value
+  }
+
+  /**
+    * Ensures there is no build unfinished build for given modelId and version
+    *
+    * @param modelBuild build to check
+    * @return Right if there is no duplicating build. Left otherwise
+    */
+  def ensureUniqueBuild(modelBuild: ModelBuild): HFResult[ModelBuild] = {
+    modelBuildRepository.getRunningBuild(modelBuild.model.id, modelBuild.version).map {
+      case Some(x) => Result.clientError(s"There is already a running build for a model ${x.model.name} version ${x.version}")
+      case None => Result.ok(modelBuild)
+    }
   }
 }

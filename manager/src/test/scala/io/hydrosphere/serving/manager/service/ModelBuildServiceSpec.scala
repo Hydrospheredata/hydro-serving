@@ -1,12 +1,14 @@
 package io.hydrosphere.serving.manager.service
 
 import java.io.FileNotFoundException
+import java.nio.file.{Files, Path, Paths}
 import java.time.LocalDateTime
 
 import cats.instances.all._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.utils.ops.ModelContractOps._
 import io.hydrosphere.serving.manager.GenericUnitTest
+import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model.{ModelBuildStatus, Result}
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
@@ -16,6 +18,7 @@ import io.hydrosphere.serving.manager.service.model.ModelManagementService
 import io.hydrosphere.serving.manager.service.model_build.ModelBuildManagmentServiceImpl
 import io.hydrosphere.serving.manager.service.model_build.builders.{ModelBuildService, ModelPushService}
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
+import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.mockito.{Matchers, Mockito}
 
 import scala.concurrent.Future
@@ -48,6 +51,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
         )
       )
     )
+    Mockito.when(buildRepo.getRunningBuild(Matchers.any(), Matchers.any())).thenReturn(Future.successful(None))
 
     val scriptS = mock[BuildScriptManagementService]
     Mockito.when(scriptS.fetchScriptForModel(Matchers.any())).thenReturn(
@@ -117,6 +121,8 @@ class ModelBuildServiceSpec extends GenericUnitTest {
         )
       )
     )
+    Mockito.when(buildRepo.getRunningBuild(Matchers.any(), Matchers.any())).thenReturn(Future.successful(None))
+
 
     val scriptS = mock[BuildScriptManagementService]
     Mockito.when(scriptS.fetchScriptForModel(Matchers.any())).thenReturn(
@@ -189,6 +195,8 @@ class ModelBuildServiceSpec extends GenericUnitTest {
         )
       )
     )
+    Mockito.when(buildRepo.getRunningBuild(Matchers.any(), Matchers.any())).thenReturn(Future.successful(None))
+
 
     val scriptS = mock[BuildScriptManagementService]
     Mockito.when(scriptS.fetchScriptForModel(Matchers.any())).thenReturn(
@@ -236,6 +244,86 @@ class ModelBuildServiceSpec extends GenericUnitTest {
     service.buildModel(1338, None, None).map { result =>
       assert(result.isLeft, result)
       assert(result.left.get.message === "cant find file")
+    }
+  }
+
+  it should "upload and release a model" in {
+    val upload = ModelUpload(
+      Paths.get("."),
+      Some("test"),
+      Some("unknown:unknown"),
+      Some(ModelContract.defaultInstance),
+      None
+    )
+    val model = dummyModel.copy(id = 1337, name = "tmodel")
+    val rawContract = ModelContract("new_contract_test")
+    val contract = rawContract.flatten
+
+    val build = ModelBuild(
+        1,
+        model,
+        1,
+        LocalDateTime.now(),
+        None,
+        ModelBuildStatus.STARTED,
+        None,
+        None,
+        None
+      )
+    val buildRepo = mock[ModelBuildRepository]
+    Mockito.when(buildRepo.create(Matchers.any())).thenReturn(Future.successful(build))
+    Mockito.when(buildRepo.getRunningBuild(Matchers.any(), Matchers.any())).thenReturn(Future.successful(None))
+
+    val scriptS = mock[BuildScriptManagementService]
+    Mockito.when(scriptS.fetchScriptForModel(Matchers.any())).thenReturn(
+      Future.successful(BuildScriptManagementServiceImpl.defaultBuildScript)
+    )
+
+    val versionS = mock[ModelVersionManagementService]
+    Mockito.when(versionS.fetchLastModelVersion(1337L, None)).thenReturn(
+      Result.okF(1L)
+    )
+    Mockito.when(versionS.create(Matchers.any())).thenReturn(
+      Result.okF(
+        ModelVersion(
+          1,
+          "image",
+          "tag",
+          "sha256",
+          LocalDateTime.now(),
+          "modelName",
+          1,
+          ModelType.Unknown("test"),
+          Some(model.copy(modelContract = rawContract)),
+          rawContract
+        )
+      )
+    )
+
+    val modelS = mock[ModelManagementService]
+    Mockito.when(modelS.getModel(1337L)).thenReturn(
+      Result.okF(model)
+    )
+    Mockito.when(modelS.submitFlatContract(Matchers.any(), Matchers.any())).thenReturn(
+      Result.okF(model.copy(modelContract = rawContract))
+    )
+    Mockito.when(modelS.uploadModel(Matchers.any())).thenReturn(Result.okF(model))
+
+    val pushS = mock[ModelPushService]
+
+    val builder = mock[ModelBuildService]
+    Mockito.when(builder.build(Matchers.any(), Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
+      Result.okF("kek")
+    )
+
+    val service = new ModelBuildManagmentServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
+
+    service.uploadAndBuild(upload).map { result =>
+      assert(result.isRight, result)
+      val version = result.right.get
+      assert(version.model.get.id === 1337L)
+      assert(version.model.get.modelContract === rawContract)
+      assert(version.modelContract === rawContract)
     }
   }
 }

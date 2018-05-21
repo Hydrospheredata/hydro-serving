@@ -34,7 +34,7 @@ class ModelServiceSpec extends GenericUnitTest {
 
   def packModel(str: String): Path = {
     val temptar = Files.createTempFile("test_tf_model", ".tar.gz")
-    TarGzUtils.compress(Paths.get(getClass.getResource(str).getPath), temptar, None)
+    TarGzUtils.compressFolder(Paths.get(getClass.getResource(str).getPath), temptar)
     temptar
   }
 
@@ -42,10 +42,9 @@ class ModelServiceSpec extends GenericUnitTest {
     val testSourcePath = Files.createTempDirectory("upload-test").toString
     println("Test source path: " + testSourcePath)
     val upload = ModelUpload(
-      packModel("/test_models/tensorflow_model/saved_model.pb"),
+      packModel("/test_models/tensorflow_model"),
       Some("tf-model"),
       Some("unknown:unknown"),
-      None,
       None,
       None
     )
@@ -91,7 +90,6 @@ class ModelServiceSpec extends GenericUnitTest {
       Some("test"),
       Some("unknown:unknown"),
       Some(ModelContract.defaultInstance),
-      None,
       None
     )
     println(upload)
