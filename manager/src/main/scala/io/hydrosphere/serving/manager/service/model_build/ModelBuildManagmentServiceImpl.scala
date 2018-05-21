@@ -124,6 +124,11 @@ class ModelBuildManagmentServiceImpl(
     f.value
   }
 
+  /**
+    * Ensures there is no build unfinished build for given modelId and version
+    * @param modelBuild build to check
+    * @return Right if there is no duplicating build. Left otherwise
+    */
   def ensureUniqueBuild(modelBuild: ModelBuild): HFResult[ModelBuild] = {
     modelBuildRepository.getRunningBuild(modelBuild.model.id, modelBuild.version).map {
       case Some(x) => Result.clientError(s"There is already a running build for a model ${x.model.name} version ${x.version}")
