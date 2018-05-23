@@ -28,7 +28,7 @@ class ApplicationRepositoryImpl(
       Tables.Application returning Tables.Application += Tables.ApplicationRow(
         id = entity.id,
         applicationName = entity.name,
-        applicationContract = entity.contract.toString(),
+        applicationContract = entity.contract.toProtoString,
         executionGraph = entity.executionGraph.toJson.toString(),
         servicesInStage = getServices(entity.executionGraph).map(v => v.toString),
         kafkaStreams = entity.kafkaStreaming.map(p=>p.toJson.toString())

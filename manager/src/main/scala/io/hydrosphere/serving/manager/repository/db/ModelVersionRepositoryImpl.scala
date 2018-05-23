@@ -25,7 +25,7 @@ class ModelVersionRepositoryImpl(
         modelVersionId = entity.id,
         modelName = entity.modelName,
         modelVersion = entity.modelVersion,
-        modelContract = entity.modelContract.toString,
+        modelContract = entity.modelContract.toProtoString,
         createdTimestamp = entity.created,
         imageName = entity.imageName,
         imageTag = entity.imageTag,

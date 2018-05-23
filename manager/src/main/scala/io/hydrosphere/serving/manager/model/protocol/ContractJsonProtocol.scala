@@ -33,7 +33,7 @@ trait ContractJsonProtocol extends CommonJsonProtocol {
     }
 
     override def write(obj: ModelContract) = {
-      JsString(obj.toString)
+      JsString(obj.toProtoString)
     }
   }
 
@@ -46,7 +46,7 @@ trait ContractJsonProtocol extends CommonJsonProtocol {
     }
 
     override def write(obj: ModelSignature) = {
-      JsString(obj.toString)
+      JsString(obj.toProtoString)
     }
   }
 

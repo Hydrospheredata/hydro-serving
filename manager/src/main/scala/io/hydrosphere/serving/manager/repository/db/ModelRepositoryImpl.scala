@@ -35,7 +35,7 @@ class ModelRepositoryImpl(
         modelId = entity.id,
         name = entity.name,
         modelType = entity.modelType.toTag,
-        modelContract = entity.modelContract.toString,
+        modelContract = entity.modelContract.toProtoString,
         description = entity.description,
         createdTimestamp = entity.created,
         updatedTimestamp = entity.updated)
@@ -85,7 +85,7 @@ class ModelRepositoryImpl(
       value.modelType.toTag,
       value.description,
       value.updated,
-      value.modelContract.toString
+      value.modelContract.toProtoString
     ))
   }
 
