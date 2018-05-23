@@ -1,9 +1,10 @@
 package io.hydrosphere.serving.manager.service.envoy.xds
 
 import com.google.protobuf.duration.Duration
-import envoy.api.v2.Cluster.{EdsClusterConfig, ProtocolOptions}
-import envoy.api.v2.ConfigSource.ConfigSourceSpecifier
+import envoy.api.v2.Cluster.EdsClusterConfig
 import envoy.api.v2._
+import envoy.api.v2.core.{AggregatedConfigSource, ConfigSource, Http2ProtocolOptions}
+import envoy.api.v2.core.ConfigSource.ConfigSourceSpecifier
 import io.grpc.stub.StreamObserver
 import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService
 

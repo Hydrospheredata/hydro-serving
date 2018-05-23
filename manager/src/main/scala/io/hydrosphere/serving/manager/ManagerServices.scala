@@ -45,7 +45,7 @@ class ManagerServices(
 
   val managedChannel = ManagedChannelBuilder
     .forAddress(managerConfiguration.sidecar.host, managerConfiguration.sidecar.egressPort)
-    .usePlaintext(true)
+    .usePlaintext()
     .build
 
   val channel: Channel = ClientInterceptors.intercept(managedChannel, new AuthorityReplacerInterceptor +: Headers.interceptors: _*)

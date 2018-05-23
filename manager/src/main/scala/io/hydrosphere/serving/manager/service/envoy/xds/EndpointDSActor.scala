@@ -1,7 +1,9 @@
 package io.hydrosphere.serving.manager.service.envoy.xds
 
-import envoy.api.v2.SocketAddress.PortSpecifier
 import envoy.api.v2._
+import envoy.api.v2.core.SocketAddress.PortSpecifier
+import envoy.api.v2.core.{Address, Node, SocketAddress}
+import envoy.api.v2.endpoint.{Endpoint, LbEndpoint, LocalityLbEndpoints}
 import io.grpc.stub.StreamObserver
 
 import scala.collection.mutable

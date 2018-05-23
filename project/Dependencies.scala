@@ -9,12 +9,11 @@ object Dependencies {
   val postgresqlVersion = "42.1.3"
   val scalaTestVersion = "3.0.3"
   val slickPgVersion = "0.15.4"
-  val scalaPBVersion = "0.6.7"
-  val grpcNettyVersion = "1.8.0"
   val awsSdkVersion = "1.11.312"
-  val servingGrpcScala = "0.1.5"
+  val servingGrpcScala = "0.1.6"
   val catsV = "1.1.0"
   val elastic4sVersion = "6.2.4"
+  val envoyDataPlaneApi = "v1.6.0_1"
 
   lazy val awsDependencies = Seq(
     "com.amazonaws" % "aws-java-sdk-ecs" % awsSdkVersion,
@@ -47,9 +46,9 @@ object Dependencies {
   )
 
   lazy val grpcDependencies = Seq(
-    "com.trueaccord.scalapb" %% "scalapb-runtime-grpc" % scalaPBVersion,
+    "com.thesamet.scalapb" %% "scalapb-runtime-grpc" % com.trueaccord.scalapb.compiler.Version.scalapbVersion,
     "io.hydrosphere" %% "serving-grpc-scala" % servingGrpcScala,
-    "io.grpc" % "grpc-netty" % grpcNettyVersion
+    "io.grpc" % "grpc-netty" % com.trueaccord.scalapb.compiler.Version.grpcJavaVersion
   )
 
   lazy val testDependencies = Seq(
@@ -98,7 +97,7 @@ object Dependencies {
     influxDBClientDependencies ++
     Seq(
       "org.typelevel" %% "cats-core" % catsV,
-      "io.hydrosphere" %% "envoy-data-plane-api" % "v1.5.0_1",
+      "io.hydrosphere" %% "envoy-data-plane-api" % envoyDataPlaneApi,
       "org.postgresql" % "postgresql" % postgresqlVersion,
       "com.typesafe.slick" %% "slick" % slickVersion,
       "com.typesafe.slick" %% "slick-hikaricp" % slickVersion,

@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager
 
-import envoy.api.v2._
+import envoy.service.discovery.v2.AggregatedDiscoveryServiceGrpc
 import io.hydrosphere.serving.grpc.BuilderWrapper
 import io.hydrosphere.serving.manager.grpc.envoy.AggregatedDiscoveryServiceGrpcImpl
 import io.hydrosphere.serving.manager.grpc.manager.ManagerGrpcApi

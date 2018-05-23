@@ -1,9 +1,11 @@
 package io.hydrosphere.serving.manager.service.envoy.xds
 
 import com.google.protobuf.struct.{Struct, Value}
-import envoy.api.v2.SocketAddress.PortSpecifier
 import envoy.api.v2._
-import envoy.api.v2.filter.network.HttpConnectionManager.Tracing.OperationName
+import envoy.api.v2.core.{Address, SocketAddress}
+import envoy.api.v2.core.SocketAddress.PortSpecifier
+import envoy.api.v2.listener.{Filter, FilterChain, FilterChainMatch}
+import envoy.config.filter.network.http_connection_manager.v2.HttpConnectionManager.Tracing.OperationName
 import io.grpc.stub.StreamObserver
 
 

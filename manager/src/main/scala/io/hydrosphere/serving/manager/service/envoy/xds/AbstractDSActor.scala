@@ -3,8 +3,9 @@ package io.hydrosphere.serving.manager.service.envoy.xds
 import java.util.concurrent.atomic.AtomicLong
 
 import akka.actor.{Actor, ActorLogging}
-import com.trueaccord.scalapb.{GeneratedMessage, Message}
+import scalapb.{GeneratedMessage, Message}
 import envoy.api.v2._
+import envoy.api.v2.core.Node
 import io.grpc.stub.StreamObserver
 
 import scala.collection.mutable

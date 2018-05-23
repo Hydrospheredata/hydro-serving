@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.grpc.envoy
 
-import envoy.api.v2.{AggregatedDiscoveryServiceGrpc, DiscoveryRequest, DiscoveryResponse}
+import envoy.api.v2.{DiscoveryRequest, DiscoveryResponse}
+import envoy.service.discovery.v2.AggregatedDiscoveryServiceGrpc
 import io.grpc.stub.StreamObserver
 import io.hydrosphere.serving.manager.service.envoy.EnvoyGRPCDiscoveryService
 import org.apache.logging.log4j.scala.Logging

@@ -1,7 +1,6 @@
 package io.hydrosphere.serving.manager.service.envoy
 
 import akka.actor.{Actor, ActorLogging, ActorRef}
-import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.application.ApplicationManagementService
 import io.hydrosphere.serving.manager.service.clouddriver.{CloudDriverService, CloudService}
 import io.hydrosphere.serving.manager.service.envoy.xds._
