@@ -70,7 +70,7 @@ class ModelVersionRepositoryImpl(
         .result
     ).map(mapFromDb)
 
-  override def modelVersionsByModelVersionIds(modelVersionIds: Seq[Long]): Future[Seq[ModelVersion]] = {
+  override def modelVersionsByModelVersionIds(modelVersionIds: Set[Long]): Future[Seq[ModelVersion]] = {
     val action = Tables.ModelVersion
       .filter {
         _.modelVersionId inSetBind modelVersionIds

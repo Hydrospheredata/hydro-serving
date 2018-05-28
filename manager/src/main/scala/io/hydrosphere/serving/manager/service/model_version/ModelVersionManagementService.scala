@@ -8,7 +8,7 @@ import spray.json.JsObject
 import scala.concurrent.Future
 
 trait ModelVersionManagementService {
-  def modelVersionsByModelVersionIds(modelIds: Seq[Long]): Future[Seq[ModelVersion]]
+  def modelVersionsByModelVersionIds(modelIds: Set[Long]): Future[Seq[ModelVersion]]
 
   def lastModelVersionForModels(ids: Seq[Long]): Future[Seq[ModelVersion]]
 
