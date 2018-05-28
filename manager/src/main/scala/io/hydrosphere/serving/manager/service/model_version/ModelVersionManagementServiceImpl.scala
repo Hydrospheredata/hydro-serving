@@ -91,7 +91,7 @@ class ModelVersionManagementServiceImpl(
     modelVersionRepository.lastModelVersionForModels(ids)
   }
 
-  override def modelVersionsByModelVersionIds(modelIds: Seq[Long]): Future[Seq[ModelVersion]] = {
+  override def modelVersionsByModelVersionIds(modelIds: Set[Long]): Future[Seq[ModelVersion]] = {
     modelVersionRepository.modelVersionsByModelVersionIds(modelIds)
   }
 }

@@ -78,7 +78,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
 
 
   val appService = new ApplicationManagementServiceImpl(
-    null, null, null, null, null, null, null
+    null, null, null, null,null, null, null, null
   )
 
 }

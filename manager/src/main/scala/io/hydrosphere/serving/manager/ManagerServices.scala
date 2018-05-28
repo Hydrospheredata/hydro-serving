@@ -7,7 +7,7 @@ import com.sksamuel.elastic4s.ElasticsearchClientUri
 import com.sksamuel.elastic4s.http.HttpClient
 import com.paulgoldbaum.influxdbclient._
 import com.spotify.docker.client._
-import io.grpc.{Channel, ClientInterceptor, ClientInterceptors, ManagedChannelBuilder}
+import io.grpc._
 import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, Headers}
 import io.hydrosphere.serving.manager.connector.HttpEnvoyAdminConnector
 import io.hydrosphere.serving.manager.service.clouddriver._
@@ -26,6 +26,7 @@ import io.hydrosphere.serving.manager.service.metrics.{ElasticSearchMetricsServi
 import io.hydrosphere.serving.manager.service.runtime.{RuntimeManagementService, RuntimeManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.service.{ServiceManagementService, ServiceManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.source.ModelStorageServiceImpl
+import io.hydrosphere.serving.monitoring.monitoring.MonitoringServiceGrpc
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
 import org.apache.logging.log4j.scala.Logging
 
@@ -51,6 +52,7 @@ class ManagerServices(
   val channel: Channel = ClientInterceptors.intercept(managedChannel, new AuthorityReplacerInterceptor +: Headers.interceptors: _*)
 
   val servingMeshGrpcClient: PredictionServiceGrpc.PredictionServiceStub = PredictionServiceGrpc.stub(channel)
+  val monitoringServiceClient: MonitoringServiceGrpc.MonitoringServiceStub = MonitoringServiceGrpc.stub(channel)
 
   val sourceManagementService = new ModelStorageServiceImpl(managerConfiguration)
 
@@ -115,6 +117,7 @@ class ManagerServices(
     modelVersionManagementService = modelVersionManagementService,
     serviceManagementService = serviceManagementService,
     grpcClient = servingMeshGrpcClient,
+    grpcClientForMonitoring = monitoringServiceClient,
     internalManagerEventsPublisher = internalManagerEventsPublisher,
     applicationConfig = managerConfiguration.application,
     runtimeRepository = managerRepositories.runtimeRepository

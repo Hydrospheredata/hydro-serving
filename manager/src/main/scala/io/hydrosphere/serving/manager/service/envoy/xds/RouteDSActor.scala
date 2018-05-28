@@ -1,9 +1,11 @@
 package io.hydrosphere.serving.manager.service.envoy.xds
 
+import envoy.api.v2.core.{HeaderValue, HeaderValueOption}
 import envoy.api.v2.{DiscoveryResponse, RouteConfiguration}
 import envoy.api.v2.route.RouteAction.ClusterSpecifier
 import envoy.api.v2.route._
 import io.grpc.stub.StreamObserver
+import io.hydrosphere.serving.grpc.Headers
 import io.hydrosphere.serving.manager.model.db.Application
 import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService
 import io.hydrosphere.serving.manager.service.internal_events.{ApplicationChanged, ApplicationRemoved}
@@ -16,7 +18,7 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
 
   private val applications = mutable.Map[Long, Seq[VirtualHost]]()
 
-  private val kafkaGatewayHost=createGatewayHost(CloudDriverService.GATEWAY_KAFKA_NAME)
+  private val kafkaGatewayHost = createGatewayHost(CloudDriverService.GATEWAY_KAFKA_NAME)
 
   private def createRoutes(application: Application): Seq[VirtualHost] =
     application.executionGraph.stages.zipWithIndex.map { case (appStage, i) =>
@@ -24,7 +26,13 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
         clusters = appStage.services.map(w => {
           WeightedCluster.ClusterWeight(
             name = w.serviceDescription.toServiceName(),
-            weight = Some(w.weight)
+            weight = Some(w.weight),
+            responseHeadersToAdd = Seq(HeaderValueOption(
+              header = Some(HeaderValue(
+                key = Headers.XServingModelVersionId.name,
+                value = w.serviceDescription.modelVersionId.map(_.toString).getOrElse(""))),
+              append = Some(true)
+            ))
           )
         })
       ))
