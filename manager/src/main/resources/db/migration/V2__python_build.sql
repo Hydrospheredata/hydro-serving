@@ -5,6 +5,6 @@ INSERT INTO hydro_serving.model_build_script(name, script) VALUES (
 'LABEL MODEL_NAME={MODEL_NAME}' || E'\n' ||
 'LABEL MODEL_VERSION={MODEL_VERSION}' || E'\n' ||
 'ADD {MODEL_PATH} /model' || E'\n' ||
-'RUN pip install -r /model/files/requirements.txt --target /model/lib' || E'\n' ||
+'RUN ls /model/files/requirements.txt && pip install -r /model/files/requirements.txt --target /model/lib || echo "no requirements"' || E'\n' ||
 'VOLUME /model'
 );
