@@ -10,9 +10,9 @@ import scala.concurrent.Future
 
 
 trait ApplicationManagementService {
-  def serveJsonApplication(jsonServeRequest: JsonServeRequest): HFResult[JsValue]
+  def serveJsonApplication(jsonServeRequest: JsonServeRequest, tracingInfo: Option[RequestTracingInfo]): HFResult[JsValue]
 
-  def serveGrpcApplication(data: PredictRequest): HFResult[PredictResponse]
+  def serveGrpcApplication(data: PredictRequest, tracingInfo: Option[RequestTracingInfo]): HFResult[PredictResponse]
 
   def allApplications(): Future[Seq[Application]]
 

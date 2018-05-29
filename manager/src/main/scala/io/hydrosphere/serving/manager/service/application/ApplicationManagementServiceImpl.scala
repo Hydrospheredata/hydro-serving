@@ -44,7 +44,7 @@ private case class ExecutionUnit(
 )
 
 private case class StageInfo(
-  applicationRequestId: String,
+  applicationRequestId: Option[String],
   signatureName: String,
   applicationId: Long,
   modelVersionId: Option[Long],
@@ -73,8 +73,8 @@ class ApplicationManagementServiceImpl(
           stageId = executionUnit.stageInfo.stageId,
           modelVersionId = executionUnit.stageInfo.modelVersionId.getOrElse(-1),
           signatureName = executionUnit.stageInfo.signatureName,
-          applicationRequestId = executionUnit.stageInfo.applicationRequestId,
-          requestId = executionUnit.stageInfo.applicationRequestId //todo fetch from response
+          applicationRequestId = executionUnit.stageInfo.applicationRequestId.getOrElse(""),
+          requestId = executionUnit.stageInfo.applicationRequestId.getOrElse("") //todo fetch from response
         )),
         request = Option(predictRequest),
         responseOrError = responseOrError
@@ -113,14 +113,32 @@ class ApplicationManagementServiceImpl(
   }
 
 
-  def serve(unit: ExecutionUnit, request: PredictRequest): Future[PredictResponse] = {
+  def serve(unit: ExecutionUnit, request: PredictRequest, tracingInfo: Option[RequestTracingInfo]): Future[PredictResponse] = {
     val modelVersionIdHeaderValue = new AtomicReference[String](null)
     val latencyHeaderValue = new AtomicReference[String](null)
 
-    grpcClient
+    var requestBuilder=grpcClient
       .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, unit.serviceName)
       .withOption(Headers.XServingModelVersionId.callOptionsClientResponseWrapperKey, modelVersionIdHeaderValue)
       .withOption(Headers.XEnvoyUpstreamServiceTime.callOptionsClientResponseWrapperKey, latencyHeaderValue)
+
+    if(tracingInfo.isDefined){
+      val tr=tracingInfo.get
+      requestBuilder=requestBuilder
+        .withOption(Headers.XRequestId.callOptionsKey, tr.xRequestId)
+
+      if(tr.xB3requestId.isDefined){
+        requestBuilder=requestBuilder
+          .withOption(Headers.XB3TraceId.callOptionsKey, tr.xB3requestId.get)
+      }
+
+      if(tr.xB3SpanId.isDefined){
+        requestBuilder=requestBuilder
+          .withOption(Headers.XB3ParentSpanId.callOptionsKey, tr.xB3SpanId.get)
+      }
+    }
+
+    requestBuilder
       .predict(request)
       .transform(
         response => {
@@ -144,7 +162,8 @@ class ApplicationManagementServiceImpl(
       )
   }
 
-  def servePipeline(units: Seq[ExecutionUnit], data: PredictRequest): Future[PredictResponse] = {
+  def servePipeline(units: Seq[ExecutionUnit], data: PredictRequest, tracingInfo: Option[RequestTracingInfo]): Future[PredictResponse] = {
+    //TODO Add request id for step
     val empty = Future.successful(PredictResponse(outputs = data.inputs))
     units.foldLeft(empty) {
       case (a, b) =>
@@ -157,13 +176,13 @@ class ApplicationManagementServiceImpl(
             ),
             inputs = resp.outputs
           )
-          serve(b, request)
+          serve(b, request, tracingInfo)
         }
     }
   }
 
 
-  def serveApplication(application: Application, request: PredictRequest): HFResult[PredictResponse] = {
+  def serveApplication(application: Application, request: PredictRequest, tracingInfo: Option[RequestTracingInfo]): HFResult[PredictResponse] = {
     application.executionGraph.stages match {
       case stage :: Nil if stage.services.lengthCompare(1) == 0 => // single stage with single service
         request.modelSpec match {
@@ -175,7 +194,7 @@ class ApplicationManagementServiceImpl(
 
             val stageInfo = StageInfo(
               modelVersionId = modelVersionId,
-              applicationRequestId = "", // TODO get real traceId
+              applicationRequestId = tracingInfo.map(_.xRequestId), // TODO get real traceId
               applicationId = application.id,
               signatureName = servicePath.signatureName,
               stageId = stageId
@@ -185,7 +204,7 @@ class ApplicationManagementServiceImpl(
               servicePath = servicePath.signatureName,
               stageInfo = stageInfo
             )
-            serve(unit, request).map(Result.ok)
+            serve(unit, request, tracingInfo).map(Result.ok)
           case None => Result.clientErrorF("ModelSpec in request is not specified")
         }
       case stages => // pipeline
@@ -197,7 +216,7 @@ class ApplicationManagementServiceImpl(
                   //TODO will be wrong modelVersionId during blue-green
                   //TODO Get this value from sidecar or in sidecar
                   modelVersionId = stage.services.headOption.flatMap(_.serviceDescription.modelVersionId),
-                  applicationRequestId = "", // TODO get real traceId
+                  applicationRequestId = tracingInfo.map(_.xRequestId), // TODO get real traceId
                   applicationId = application.id,
                   signatureName = signature.signatureName,
                   stageId = ApplicationStage.stageId(application.id, idx)
@@ -216,24 +235,24 @@ class ApplicationManagementServiceImpl(
         Result.sequence(execUnits) match {
           case Left(err) => Result.errorF(err)
           case Right(units) =>
-            servePipeline(units, request).map(Result.ok)
+            servePipeline(units, request, tracingInfo).map(Result.ok)
         }
     }
   }
 
-  def serveGrpcApplication(data: PredictRequest): HFResult[PredictResponse] = {
+  def serveGrpcApplication(data: PredictRequest, tracingInfo: Option[RequestTracingInfo]): HFResult[PredictResponse] = {
     data.modelSpec match {
       case Some(modelSpec) =>
         applicationRepository.getByName(modelSpec.name).flatMap {
           case Some(app) =>
-            serveApplication(app, data)
+            serveApplication(app, data, tracingInfo)
           case None => Future.failed(new IllegalArgumentException(s"Application '${modelSpec.name}' is not found"))
         }
       case None => Future.failed(new IllegalArgumentException("ModelSpec is not defined"))
     }
   }
 
-  def serveJsonApplication(jsonServeRequest: JsonServeRequest): HFResult[JsObject] = {
+  def serveJsonApplication(jsonServeRequest: JsonServeRequest, tracingInfo: Option[RequestTracingInfo]): HFResult[JsObject] = {
     getApplication(jsonServeRequest.targetId).flatMap {
       case Right(application) =>
         val signature = application.contract.signatures
@@ -261,7 +280,7 @@ class ApplicationManagementServiceImpl(
           case Left(err) => Result.errorF(err)
           case Right(Left(tensorError)) => Result.clientErrorF(s"Tensor validation error: $tensorError")
           case Right(Right(request)) =>
-            serveApplication(application, request).map { result =>
+            serveApplication(application, request, tracingInfo).map { result =>
               result.right.map(responseToJsObject)
             }
         }
