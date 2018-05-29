@@ -16,7 +16,7 @@ enablePlugins(sbtdocker.DockerPlugin)
 lazy val dataBaseName = "docker"
 lazy val dataBaseUser = "docker"
 lazy val dataBasePassword = "docker"
-lazy val dataBaseUrl = s"jdbc:postgresql://localhost:5432/$dataBaseName"
+lazy val dataBaseUrl = s"jdbc:postgresql://localhost:15432/$dataBaseName"
 
 lazy val startDatabase = (sourceManaged, dependencyClasspath in Compile, runner in Compile, streams) map { (dir, cp, r, s) =>
   val cli: DockerClient = DefaultDockerClient.fromEnv().build()
@@ -31,7 +31,7 @@ lazy val startDatabase = (sourceManaged, dependencyClasspath in Compile, runner 
     .env(s"POSTGRES_DB=$dataBaseName", s"POSTGRES_USER=$dataBaseUser", s"POSTGRES_PASSWORD=$dataBasePassword")
     .hostConfig(HostConfig.builder()
       .portBindings(Collections.singletonMap("5432",
-        util.Arrays.asList(PortBinding.of("0.0.0.0", 5432))))
+        util.Arrays.asList(PortBinding.of("0.0.0.0", 15432))))
       .build())
     .exposedPorts("5432")
     .image(dbImage)
