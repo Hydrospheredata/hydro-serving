@@ -114,23 +114,20 @@ class ECSServiceWatcherActor(
   }
 
   private def createFakeServices(services: Seq[StoredService]): Seq[StoredService] = {
-    val specials = services.filter(s => specialNamesByIds.keySet.contains(s.cloudService.id))
-    specials.find(_.cloudService.id == MANAGER_HTTP_ID) match {
-      case Some(x) =>
-        Seq()
-      case None =>
-        specials.filter(_.cloudService.id == MANAGER_ID)
-          .map(s => {
-            val copyCloudService = s.cloudService.copy(
-              id = MANAGER_HTTP_ID,
-              serviceName = MANAGER_HTTP_NAME,
-              instances = s.cloudService.instances.map(i => {
-                i.copy(mainApplication = i.mainApplication.copy(port = DEFAULT_HTTP_PORT))
-              })
-            )
-            s.copy(cloudService = copyCloudService)
+    services ++ services.filter(cs => fakeHttpServices.contains(cs.cloudService.id))
+      .map(cs => {
+        val fakeId = fakeHttpServices(cs.cloudService.id)
+        val fakeName = specialNamesByIds(fakeId)
+
+        val copyCloudService = cs.cloudService.copy(
+          id = fakeId,
+          serviceName = fakeName,
+          instances = cs.cloudService.instances.map(i => {
+            i.copy(mainApplication = i.mainApplication.copy(port = DEFAULT_HTTP_PORT))
           })
-    }
+        )
+        cs.copy(cloudService = copyCloudService)
+      })
   }
 
   override def onTick(): Unit = {

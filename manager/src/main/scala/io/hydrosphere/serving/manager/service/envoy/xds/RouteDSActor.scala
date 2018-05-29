@@ -18,7 +18,8 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
 
   private val applications = mutable.Map[Long, Seq[VirtualHost]]()
 
-  private val kafkaGatewayHost = createGatewayHost(CloudDriverService.GATEWAY_KAFKA_NAME)
+  private val kafkaGatewayHost = createSystemHost(CloudDriverService.GATEWAY_KAFKA_NAME)
+  private val monitoringHost = createSystemHost(CloudDriverService.MONITORING_NAME)
 
   private def createRoutes(application: Application): Seq[VirtualHost] =
     application.executionGraph.stages.zipWithIndex.map { case (appStage, i) =>
@@ -84,10 +85,10 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
   private def createRoute(name: String, defaultRoute: VirtualHost): RouteConfiguration =
     RouteConfiguration(
       name = name,
-      virtualHosts = applications.values.flatten.toSeq :+ defaultRoute :+ kafkaGatewayHost
+      virtualHosts = applications.values.flatten.toSeq :+ defaultRoute :+ kafkaGatewayHost :+ monitoringHost
     )
 
-  private def createGatewayHost(name: String): VirtualHost =
+  private def createSystemHost(name: String): VirtualHost =
     VirtualHost(
       name = name,
       domains = Seq(name),
@@ -162,6 +163,14 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
           )),
           action = Route.Action.Route(RouteAction(
             clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_HTTP_NAME)
+          ))
+        ),
+        Route(
+          `match` = Some(RouteMatch(
+            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/monitoring")
+          )),
+          action = Route.Action.Route(RouteAction(
+            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MONITORING_HTTP_NAME)
           ))
         ),
         Route(

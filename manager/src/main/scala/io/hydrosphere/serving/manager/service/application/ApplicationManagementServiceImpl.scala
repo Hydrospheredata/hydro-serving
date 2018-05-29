@@ -81,9 +81,7 @@ class ApplicationManagementServiceImpl(
       )
 
       grpcClientForMonitoring
-        .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, CloudDriverService.GATEWAY_KAFKA_NAME)
-        .withOption(Headers.XServingKafkaProduceTopic.callOptionsKey, "shadow_topic") //TODO where can i get this
-        //.withOption(Headers.TraceId.callOptionsKey, executionUnit.stageInfo.applicationRequestId)
+        .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, CloudDriverService.MONITORING_NAME)
         .analyze(execInfo)
         .onComplete {
           case Failure(thr) =>

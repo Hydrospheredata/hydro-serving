@@ -7,76 +7,76 @@ import org.apache.logging.log4j.scala.Logging
 import scala.concurrent.Future
 
 case class ModelInstanceInfo(
-    modelType: ModelType,
-    modelId: Long,
-    modelName: String,
-    modelVersion: Long,
-    imageName: String,
-    imageTag: String
+  modelType: ModelType,
+  modelId: Long,
+  modelName: String,
+  modelVersion: Long,
+  imageName: String,
+  imageTag: String
 )
 
 case class ModelInstance(
-    instanceId: String
+  instanceId: String
 )
 
 case class SidecarInstance(
-    instanceId: String,
-    host: String,
-    ingressPort: Int,
-    egressPort: Int,
-    adminPort: Int
+  instanceId: String,
+  host: String,
+  ingressPort: Int,
+  egressPort: Int,
+  adminPort: Int
 )
 
 case class MainApplicationInstanceInfo(
-    runtimeId: Long,
-    runtimeName: String,
-    runtimeVersion: String
+  runtimeId: Long,
+  runtimeName: String,
+  runtimeVersion: String
 )
 
 case class MainApplicationInstance(
-    instanceId: String,
-    host: String,
-    port: Int
+  instanceId: String,
+  host: String,
+  port: Int
 )
 
 case class ServiceInstance(
-    instanceId: String,
-    mainApplication: MainApplicationInstance,
-    sidecar: SidecarInstance,
-    model: Option[ModelInstance],
-    advertisedHost: String,
-    advertisedPort: Int
+  instanceId: String,
+  mainApplication: MainApplicationInstance,
+  sidecar: SidecarInstance,
+  model: Option[ModelInstance],
+  advertisedHost: String,
+  advertisedPort: Int
 )
 
 case class CloudService(
-    id: Long,
-    serviceName: String,
-    statusText: String,
-    cloudDriverId: String,
-    environmentName: Option[String],
-    runtimeInfo: MainApplicationInstanceInfo,
-    modelInfo: Option[ModelInstanceInfo],
-    instances: Seq[ServiceInstance]
+  id: Long,
+  serviceName: String,
+  statusText: String,
+  cloudDriverId: String,
+  environmentName: Option[String],
+  runtimeInfo: MainApplicationInstanceInfo,
+  modelInfo: Option[ModelInstanceInfo],
+  instances: Seq[ServiceInstance]
 )
 
 
 case class MetricServiceTargetLabels(
-    job: Option[String],
-    modelName: Option[String],
-    modelVersion: Option[String],
-    environment: Option[String],
-    runtimeName: Option[String],
-    runtimeVersion: Option[String],
-    serviceName: Option[String],
-    serviceId: Option[String],
-    serviceCloudDriverId: Option[String],
-    serviceType: Option[String],
-    instanceId: Option[String]
+  job: Option[String],
+  modelName: Option[String],
+  modelVersion: Option[String],
+  environment: Option[String],
+  runtimeName: Option[String],
+  runtimeVersion: Option[String],
+  serviceName: Option[String],
+  serviceId: Option[String],
+  serviceCloudDriverId: Option[String],
+  serviceType: Option[String],
+  instanceId: Option[String]
 )
 
 case class MetricServiceTargets(
-    targets: List[String],
-    labels: MetricServiceTargetLabels
+  targets: List[String],
+  labels: MetricServiceTargetLabels
 )
 
 
@@ -123,11 +123,15 @@ object CloudDriverService {
   val DEPLOYMENT_TYPE_APP = "APP"
   val DEPLOYMENT_TYPE_SIDECAR = "SIDECAR"
 
+  val MONITORING_ID: Long = -30
+  val MONITORING_HTTP_ID: Long = -31
   val MANAGER_ID: Long = -20
   val MANAGER_HTTP_ID: Long = -21
   val MANAGER_UI_ID: Long = -22
   val GATEWAY_HTTP_ID: Long = -10
   val GATEWAY_KAFKA_ID: Long = -12
+  val MONITORING_NAME: String = "monitoring"
+  val MONITORING_HTTP_NAME: String = "monitoring-http"
   val MANAGER_NAME: String = "manager"
   val MANAGER_HTTP_NAME: String = "manager-http"
   val MANAGER_UI_NAME: String = "manager-ui"
@@ -135,6 +139,8 @@ object CloudDriverService {
   val GATEWAY_KAFKA_NAME: String = "gateway-kafka"
 
   val specialIdsByNames = Map(
+    MONITORING_NAME -> MONITORING_ID,
+    MANAGER_HTTP_NAME -> MANAGER_HTTP_ID,
     MANAGER_NAME -> MANAGER_ID,
     MANAGER_HTTP_NAME -> MANAGER_HTTP_ID,
     MANAGER_UI_NAME -> MANAGER_UI_ID,
@@ -142,7 +148,14 @@ object CloudDriverService {
     GATEWAY_KAFKA_NAME -> GATEWAY_KAFKA_ID
   )
 
+  val fakeHttpServices = Map(
+    MONITORING_ID -> MONITORING_HTTP_ID,
+    MANAGER_ID -> MANAGER_HTTP_ID
+  )
+
   val specialNamesByIds = Map(
+    MONITORING_ID -> MONITORING_NAME,
+    MONITORING_HTTP_ID -> MONITORING_HTTP_NAME,
     MANAGER_ID -> MANAGER_NAME,
     MANAGER_HTTP_ID -> MANAGER_HTTP_NAME,
     MANAGER_UI_ID -> MANAGER_UI_NAME,
@@ -196,4 +209,21 @@ object CloudDriverService {
       }),
       instances = instances
     )
+
+
+  def createFakeHttpServices(services: Seq[CloudService]): Seq[CloudService] =
+    services.filter(cs => fakeHttpServices.contains(cs.id))
+      .map(cs => {
+        val fakeId = fakeHttpServices(cs.id)
+        val fakeName = specialNamesByIds(fakeId)
+
+        cs.copy(
+          id = fakeId,
+          serviceName = fakeName,
+          instances = cs.instances.map(s => s.copy(
+            advertisedPort = DEFAULT_HTTP_PORT,
+            mainApplication = s.mainApplication.copy(port = DEFAULT_HTTP_PORT)
+          ))
+        )
+      })
 }
