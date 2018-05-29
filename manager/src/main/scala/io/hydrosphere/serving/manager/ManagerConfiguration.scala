@@ -95,8 +95,16 @@ case class DockerCloudDriverConfiguration(
     loggingConfiguration: Option[ModelLoggingConfiguration]
 ) extends CloudDriverConfiguration(loggingConfiguration)
 
+
+case class LocalDockerCloudDriverMonitoringConfiguration(
+  host:String,
+  port:Int,
+  httpPort:Int
+)
+
 case class LocalDockerCloudDriverConfiguration(
-    loggingConfiguration: Option[ModelLoggingConfiguration]
+    loggingConfiguration: Option[ModelLoggingConfiguration],
+    monitoring:Option[LocalDockerCloudDriverMonitoringConfiguration]
 ) extends CloudDriverConfiguration(loggingConfiguration)
 
 case class ECSCloudDriverConfiguration(
@@ -218,9 +226,24 @@ object ManagerConfiguration {
             loggingConfiguration = loggingConfiguration
           )
         case _ =>
-          LocalDockerCloudDriverConfiguration(loggingConfiguration)
+          val monitroing=if(driverConf.hasPath("monitoring")){
+            val c=driverConf.getConfig("monitoring")
+            Some(
+              LocalDockerCloudDriverMonitoringConfiguration(
+                host=c.getString("host"),
+                port=c.getInt("port"),
+                httpPort=c.getInt("httpPort")
+              )
+            )
+          }else{
+            None
+          }
+          LocalDockerCloudDriverConfiguration(
+            loggingConfiguration,
+            monitroing
+          )
       }
-    }.headOption.getOrElse(LocalDockerCloudDriverConfiguration(None))
+    }.headOption.getOrElse(LocalDockerCloudDriverConfiguration(None, None))
   }
 
   def parseAdvertised(config: Config): AdvertisedConfiguration = {
