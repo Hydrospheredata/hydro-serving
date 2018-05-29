@@ -5,7 +5,7 @@ import java.util
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.{ListContainersParam, ListImagesParam, RemoveContainerParam}
 import com.spotify.docker.client.messages.{Container, ContainerConfig, HostConfig, PortBinding}
-import io.hydrosphere.serving.manager.ManagerConfiguration
+import io.hydrosphere.serving.manager.{LocalDockerCloudDriverConfiguration, LocalDockerCloudDriverMonitoringConfiguration, ManagerConfiguration}
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.Service
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
@@ -26,6 +26,8 @@ class LocalCloudDriverService(
     internalManagerEventsPublisher: InternalManagerEventsPublisher
 )(implicit val ex: ExecutionContext) extends CloudDriverService with Logging {
 
+  private val localDockerCloudDriverConfiguration=managerConfiguration.cloudDriver.asInstanceOf[LocalDockerCloudDriverConfiguration]
+
   override def serviceList(): Future[Seq[CloudService]] = Future({
     postProcessAllServiceList(getAllServices())
   })
@@ -36,12 +38,28 @@ class LocalCloudDriverService(
       id = MANAGER_HTTP_ID,
       serviceName = MANAGER_HTTP_NAME,
       instances = manager.instances.map(s => s.copy(
-        advertisedPort = DEFAULT_HTTP_PORT,
-        mainApplication = s.mainApplication.copy(port = DEFAULT_HTTP_PORT)
+        advertisedPort = managerConfiguration.application.port,
+        mainApplication = s.mainApplication.copy(port = managerConfiguration.application.port)
       ))
     )
 
-    services :+ managerHttp :+ manager
+
+    if(localDockerCloudDriverConfiguration.monitoring.isDefined){
+      val mConf=localDockerCloudDriverConfiguration.monitoring.get
+      val monitoring=createMonitoringCloudService(mConf)
+      val monitoringHttp=monitoring.copy(
+        id = MONITORING_HTTP_ID,
+        serviceName = MONITORING_HTTP_NAME,
+        instances = manager.instances.map(s => s.copy(
+          advertisedPort = mConf.httpPort,
+          mainApplication = s.mainApplication.copy(port = mConf.httpPort)
+        ))
+      )
+
+      services :+ managerHttp :+ manager :+ monitoring :+ monitoringHttp
+    }else{
+      services :+ managerHttp :+ manager
+    }
   }
 
   protected def getAllServices(): Seq[CloudService] =
@@ -243,6 +261,15 @@ class LocalCloudDriverService(
       managerConfiguration.advertised.advertisedHost,
       managerConfiguration.application.grpcPort,
       "hydrosphere/serving-manager"
+    )
+
+  private def createMonitoringCloudService(cfg:LocalDockerCloudDriverMonitoringConfiguration): CloudService =
+    createSystemCloudService(
+      CloudDriverService.MONITORING_NAME,
+      CloudDriverService.MONITORING_ID,
+      cfg.host,
+      cfg.port,
+      "hydrosphere/serving-monitoring"
     )
 
   private def fetchById(serviceId: Long): CloudService = {

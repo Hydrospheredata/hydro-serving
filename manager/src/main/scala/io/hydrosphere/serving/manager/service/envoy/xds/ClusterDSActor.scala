@@ -22,7 +22,11 @@ class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis
 
   private val clustersNames = new mutable.HashSet[String]()
 
-  private val httClusters = Set(CloudDriverService.MANAGER_HTTP_NAME, CloudDriverService.MANAGER_UI_NAME)
+  private val httClusters = Set(
+    CloudDriverService.MANAGER_HTTP_NAME,
+    CloudDriverService.MANAGER_UI_NAME,
+    CloudDriverService.MONITORING_HTTP_NAME
+    )
 
   private def createCluster(name: String): Cluster = {
     val res = Cluster(
