@@ -48,7 +48,8 @@ private case class StageInfo(
   signatureName: String,
   applicationId: Long,
   modelVersionId: Option[Long],
-  stageId: String
+  stageId: String,
+  applicationNamespace: Option[String]
 )
 
 class ApplicationManagementServiceImpl(
@@ -74,7 +75,8 @@ class ApplicationManagementServiceImpl(
           modelVersionId = executionUnit.stageInfo.modelVersionId.getOrElse(-1),
           signatureName = executionUnit.stageInfo.signatureName,
           applicationRequestId = executionUnit.stageInfo.applicationRequestId.getOrElse(""),
-          requestId = executionUnit.stageInfo.applicationRequestId.getOrElse("") //todo fetch from response
+          requestId = executionUnit.stageInfo.applicationRequestId.getOrElse(""), //todo fetch from response,
+          applicationNamespace = executionUnit.stageInfo.applicationNamespace.getOrElse("")
         )),
         request = Option(predictRequest),
         responseOrError = responseOrError
@@ -115,23 +117,23 @@ class ApplicationManagementServiceImpl(
     val modelVersionIdHeaderValue = new AtomicReference[String](null)
     val latencyHeaderValue = new AtomicReference[String](null)
 
-    var requestBuilder=grpcClient
+    var requestBuilder = grpcClient
       .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, unit.serviceName)
       .withOption(Headers.XServingModelVersionId.callOptionsClientResponseWrapperKey, modelVersionIdHeaderValue)
       .withOption(Headers.XEnvoyUpstreamServiceTime.callOptionsClientResponseWrapperKey, latencyHeaderValue)
 
-    if(tracingInfo.isDefined){
-      val tr=tracingInfo.get
-      requestBuilder=requestBuilder
+    if (tracingInfo.isDefined) {
+      val tr = tracingInfo.get
+      requestBuilder = requestBuilder
         .withOption(Headers.XRequestId.callOptionsKey, tr.xRequestId)
 
-      if(tr.xB3requestId.isDefined){
-        requestBuilder=requestBuilder
+      if (tr.xB3requestId.isDefined) {
+        requestBuilder = requestBuilder
           .withOption(Headers.XB3TraceId.callOptionsKey, tr.xB3requestId.get)
       }
 
-      if(tr.xB3SpanId.isDefined){
-        requestBuilder=requestBuilder
+      if (tr.xB3SpanId.isDefined) {
+        requestBuilder = requestBuilder
           .withOption(Headers.XB3ParentSpanId.callOptionsKey, tr.xB3SpanId.get)
       }
     }
@@ -195,7 +197,8 @@ class ApplicationManagementServiceImpl(
               applicationRequestId = tracingInfo.map(_.xRequestId), // TODO get real traceId
               applicationId = application.id,
               signatureName = servicePath.signatureName,
-              stageId = stageId
+              stageId = stageId,
+              applicationNamespace=application.namespace
             )
             val unit = ExecutionUnit(
               serviceName = stageId,
@@ -210,14 +213,16 @@ class ApplicationManagementServiceImpl(
           case (stage, idx) =>
             stage.signature match {
               case Some(signature) =>
+                val vers=stage.services.headOption.flatMap(_.serviceDescription.modelVersionId)
                 val stageInfo = StageInfo(
                   //TODO will be wrong modelVersionId during blue-green
                   //TODO Get this value from sidecar or in sidecar
-                  modelVersionId = stage.services.headOption.flatMap(_.serviceDescription.modelVersionId),
+                  modelVersionId = vers,
                   applicationRequestId = tracingInfo.map(_.xRequestId), // TODO get real traceId
                   applicationId = application.id,
                   signatureName = signature.signatureName,
-                  stageId = ApplicationStage.stageId(application.id, idx)
+                  stageId = ApplicationStage.stageId(application.id, idx),
+                  applicationNamespace=application.namespace
                 )
                 Result.ok(
                   ExecutionUnit(
@@ -388,6 +393,7 @@ class ApplicationManagementServiceImpl(
 
   def createApplication(
     name: String,
+    namespace: Option[String],
     executionGraph: ExecutionGraphRequest,
     kafkaStreaming: Seq[ApplicationKafkaStream]
   ): HFResult[Application] = executeWithSync {
@@ -406,7 +412,7 @@ class ApplicationManagementServiceImpl(
 
       graph <- EitherT(inferGraph(executionGraph))
       contract <- EitherT(inferAppContract(name, graph))
-      app <- EitherT(composeAppF(name, graph, contract, kafkaStreaming))
+      app <- EitherT(composeAppF(name, namespace, graph, contract, kafkaStreaming))
 
       createdApp <- EitherT(applicationRepository.create(app).map(Result.ok))
       enriched <- EitherT(enrichApplication(createdApp))
@@ -438,6 +444,7 @@ class ApplicationManagementServiceImpl(
   def updateApplication(
     id: Long,
     name: String,
+    namespace: Option[String],
     executionGraph: ExecutionGraphRequest,
     kafkaStreaming: Seq[ApplicationKafkaStream]
   ): HFResult[Application] = {
@@ -453,7 +460,7 @@ class ApplicationManagementServiceImpl(
 
         graph <- EitherT(inferGraph(executionGraph))
         contract <- EitherT(inferAppContract(name, graph))
-        newApplication <- EitherT(composeAppF(name, graph, contract, kafkaStreaming, id))
+        newApplication <- EitherT(composeAppF(name, namespace, graph, contract, kafkaStreaming, id))
 
         _ <- EitherT(applicationRepository.update(newApplication).map(Result.ok))
         enriched <- EitherT(enrichApplication(newApplication))
@@ -511,11 +518,12 @@ class ApplicationManagementServiceImpl(
     }
   }
 
-  private def composeAppF(name: String, graph: ApplicationExecutionGraph, contract: ModelContract, kafkaStreaming: Seq[ApplicationKafkaStream], id: Long = 0) = {
+  private def composeAppF(name: String, namespace: Option[String], graph: ApplicationExecutionGraph, contract: ModelContract, kafkaStreaming: Seq[ApplicationKafkaStream], id: Long = 0) = {
     Result.okF(
       Application(
         id = id,
         name = name,
+        namespace = namespace,
         contract = contract,
         executionGraph = graph,
         kafkaStreaming = kafkaStreaming.toList

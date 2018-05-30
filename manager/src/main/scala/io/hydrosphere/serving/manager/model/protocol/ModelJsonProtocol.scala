@@ -34,7 +34,7 @@ trait ModelJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol {
   implicit val applicationStageFormat = jsonFormat2(ApplicationStage.apply)
   implicit val applicationExecutionGraphFormat = jsonFormat1(ApplicationExecutionGraph)
   implicit val applicationKafkaStreamingFormat = jsonFormat4(ApplicationKafkaStream)
-  implicit val applicationFormat = jsonFormat5(Application)
+  implicit val applicationFormat = jsonFormat6(Application)
 }
 
 object ModelJsonProtocol extends ModelJsonProtocol

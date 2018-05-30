@@ -27,6 +27,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         version <- managerServices.modelBuildManagmentService.buildModel(1, None)
         appRequest = CreateApplicationRequest(
           name = "testapp",
+          namespace=None,
           executionGraph = ExecutionGraphRequest(
             stages = List(
               ExecutionStepRequest(
@@ -46,6 +47,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         )
         appResult <- managerServices.applicationManagementService.createApplication(
           appRequest.name,
+          appRequest.namespace,
           appRequest.executionGraph,
           appRequest.kafkaStreaming
         )
@@ -83,6 +85,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         version = versionResult.right.get
         appRequest = CreateApplicationRequest(
           name = "MultiServiceStage",
+          namespace=None,
           executionGraph = ExecutionGraphRequest(
             stages = List(
               ExecutionStepRequest(
@@ -109,6 +112,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         )
         appRes <- managerServices.applicationManagementService.createApplication(
           appRequest.name,
+          appRequest.namespace,
           appRequest.executionGraph,
           appRequest.kafkaStreaming
         )
@@ -153,6 +157,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         version <- managerServices.modelBuildManagmentService.buildModel(1, None)
         appRequest = CreateApplicationRequest(
           name = "kafka_app",
+          namespace=None,
           executionGraph = ExecutionGraphRequest(
             stages = List(
               ExecutionStepRequest(
@@ -179,6 +184,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         )
         appRes <- managerServices.applicationManagementService.createApplication(
           appRequest.name,
+          appRequest.namespace,
           appRequest.executionGraph,
           appRequest.kafkaStreaming
         )
@@ -187,6 +193,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         appResNew <- managerServices.applicationManagementService.updateApplication(
           app.id,
           app.name,
+          app.namespace,
           appRequest.executionGraph,
           Seq.empty
         )

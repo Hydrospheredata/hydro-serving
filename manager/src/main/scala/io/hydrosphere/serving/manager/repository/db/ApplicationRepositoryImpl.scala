@@ -28,10 +28,11 @@ class ApplicationRepositoryImpl(
       Tables.Application returning Tables.Application += Tables.ApplicationRow(
         id = entity.id,
         applicationName = entity.name,
+        namespace = entity.namespace,
         applicationContract = entity.contract.toProtoString,
         executionGraph = entity.executionGraph.toJson.toString(),
         servicesInStage = getServices(entity.executionGraph).map(v => v.toString),
-        kafkaStreams = entity.kafkaStreaming.map(p=>p.toJson.toString())
+        kafkaStreams = entity.kafkaStreaming.map(p => p.toJson.toString())
       )
     ).map(s => mapFromDb(s))
 
@@ -62,14 +63,16 @@ class ApplicationRepositoryImpl(
       serv.applicationName,
       serv.executionGraph,
       serv.servicesInStage,
-      serv.kafkaStreams
+      serv.kafkaStreams,
+      serv.namespace
     )
 
     db.run(query.update(
       value.name,
       value.executionGraph.toJson.toString(),
       getServices(value.executionGraph),
-      value.kafkaStreaming.map(_.toJson.toString)
+      value.kafkaStreaming.map(_.toJson.toString),
+      value.namespace
     ))
   }
 
@@ -89,7 +92,9 @@ class ApplicationRepositoryImpl(
   override def getKeysNotInApplication(keysSet: Set[ServiceKeyDescription], applicationId: Long): Future[Seq[Application]] =
     db.run(
       Tables.Application
-        .filter(p => {p.servicesInStage @> keysSet.map(v => v.toServiceName()).toList && p.id =!= applicationId})
+        .filter(p => {
+          p.servicesInStage @> keysSet.map(v => v.toServiceName()).toList && p.id =!= applicationId
+        })
         .result
     ).map(s => s.map(ss => mapFromDb(ss)))
 }
@@ -107,7 +112,8 @@ object ApplicationRepositoryImpl extends CompleteJsonProtocol {
       name = dbType.applicationName,
       executionGraph = dbType.executionGraph.parseJson.convertTo[ApplicationExecutionGraph],
       contract = ModelContract.fromAscii(dbType.applicationContract),
-      kafkaStreaming = dbType.kafkaStreams.map(p=>p.parseJson.convertTo[ApplicationKafkaStream])
+      kafkaStreaming = dbType.kafkaStreams.map(p => p.parseJson.convertTo[ApplicationKafkaStream]),
+      namespace = dbType.namespace
     )
   }
 }
