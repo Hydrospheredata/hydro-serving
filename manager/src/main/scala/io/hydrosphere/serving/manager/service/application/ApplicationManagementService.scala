@@ -22,6 +22,7 @@ trait ApplicationManagementService {
 
   def createApplication(
     name: String,
+    namespace:Option[String],
     executionGraph: ExecutionGraphRequest,
     kafkaStreaming: Seq[ApplicationKafkaStream]
   ): HFResult[Application]
@@ -31,6 +32,7 @@ trait ApplicationManagementService {
   def updateApplication(
     id: Long,
     name: String,
+    namespace:Option[String],
     executionGraph: ExecutionGraphRequest,
     kafkaStreaming: Seq[ApplicationKafkaStream]
   ): HFResult[Application]
