@@ -26,7 +26,7 @@ class LocalCloudDriverService(
     internalManagerEventsPublisher: InternalManagerEventsPublisher
 )(implicit val ex: ExecutionContext) extends CloudDriverService with Logging {
 
-  private val localDockerCloudDriverConfiguration=managerConfiguration.cloudDriver.asInstanceOf[LocalDockerCloudDriverConfiguration]
+//  private val localDockerCloudDriverConfiguration=managerConfiguration.cloudDriver.asInstanceOf[LocalDockerCloudDriverConfiguration]
 
   override def serviceList(): Future[Seq[CloudService]] = Future({
     postProcessAllServiceList(getAllServices())
@@ -43,7 +43,7 @@ class LocalCloudDriverService(
       ))
     )
 
-
+    val localDockerCloudDriverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[LocalDockerCloudDriverConfiguration]
     if(localDockerCloudDriverConfiguration.monitoring.isDefined){
       val mConf=localDockerCloudDriverConfiguration.monitoring.get
       val monitoring=createMonitoringCloudService(mConf)
