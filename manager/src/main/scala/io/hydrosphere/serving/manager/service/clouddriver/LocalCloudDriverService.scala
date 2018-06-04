@@ -21,19 +21,17 @@ import CloudDriverService._
   *
   */
 class LocalCloudDriverService(
-    dockerClient: DockerClient,
-    managerConfiguration: ManagerConfiguration,
-    internalManagerEventsPublisher: InternalManagerEventsPublisher
+  dockerClient: DockerClient,
+  managerConfiguration: ManagerConfiguration,
+  internalManagerEventsPublisher: InternalManagerEventsPublisher
 )(implicit val ex: ExecutionContext) extends CloudDriverService with Logging {
-
-//  private val localDockerCloudDriverConfiguration=managerConfiguration.cloudDriver.asInstanceOf[LocalDockerCloudDriverConfiguration]
 
   override def serviceList(): Future[Seq[CloudService]] = Future({
     postProcessAllServiceList(getAllServices())
   })
 
   protected def postProcessAllServiceList(services: Seq[CloudService]): Seq[CloudService] = {
-    val manager=createManagerCloudService()
+    val manager = createManagerCloudService()
     val managerHttp = manager.copy(
       id = MANAGER_HTTP_ID,
       serviceName = MANAGER_HTTP_NAME,
@@ -44,10 +42,10 @@ class LocalCloudDriverService(
     )
 
     val localDockerCloudDriverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[LocalDockerCloudDriverConfiguration]
-    if(localDockerCloudDriverConfiguration.monitoring.isDefined){
-      val mConf=localDockerCloudDriverConfiguration.monitoring.get
-      val monitoring=createMonitoringCloudService(mConf)
-      val monitoringHttp=monitoring.copy(
+    if (localDockerCloudDriverConfiguration.monitoring.isDefined) {
+      val mConf = localDockerCloudDriverConfiguration.monitoring.get
+      val monitoring = createMonitoringCloudService(mConf)
+      val monitoringHttp = monitoring.copy(
         id = MONITORING_HTTP_ID,
         serviceName = MONITORING_HTTP_NAME,
         instances = manager.instances.map(s => s.copy(
@@ -57,7 +55,7 @@ class LocalCloudDriverService(
       )
 
       services :+ managerHttp :+ manager :+ monitoring :+ monitoringHttp
-    }else{
+    } else {
       services :+ managerHttp :+ manager
     }
   }
@@ -75,10 +73,10 @@ class LocalCloudDriverService(
 
     val javaLabels = mapAsJavaMap(getModelLabels(service))
     val container = dockerClient.createContainer(ContainerConfig.builder()
-      .image(model.toImageDef)
-      .addVolume(DEFAULT_MODEL_DIR)
-      .labels(javaLabels)
-      .build(), generateModelContainerName(service))
+                                                   .image(model.toImageDef)
+                                                   .addVolume(DEFAULT_MODEL_DIR)
+                                                   .labels(javaLabels)
+                                                   .build(), generateModelContainerName(service))
     container.id()
   }
 
@@ -102,7 +100,7 @@ class LocalCloudDriverService(
   private def pullImage(service: Service): Unit = {
     if (dockerClient.listImages(ListImagesParam.byName(service.runtime.toImageDef)).isEmpty) {
       dockerClient.pull(service.runtime.toImageDef,
-        DockerClientHelper.createProgressHandlerWrapper(InfoProgressHandler))
+                        DockerClientHelper.createProgressHandlerWrapper(InfoProgressHandler))
     }
     Unit
   }
@@ -133,12 +131,12 @@ class LocalCloudDriverService(
     }
 
     val c = dockerClient.createContainer(ContainerConfig.builder()
-      .image(service.runtime.toImageDef)
-      .exposedPorts(DEFAULT_APP_PORT.toString)
-      .labels(javaLabels)
-      .hostConfig(builder.build())
-      .env(envMap.map { case (k, v) => s"$k=$v" }.toList)
-      .build(), s"s${service.id}app${service.serviceName}")
+                                           .image(service.runtime.toImageDef)
+                                           .exposedPorts(DEFAULT_APP_PORT.toString)
+                                           .labels(javaLabels)
+                                           .hostConfig(builder.build())
+                                           .env(envMap.map { case (k, v) => s"$k=$v" }.toList)
+                                           .build(), s"s${service.id}app${service.serviceName}")
     dockerClient.startContainer(c.id())
 
     val cloudService = fetchById(service.id)
@@ -147,24 +145,38 @@ class LocalCloudDriverService(
   }
 
   private def collectCloudService(containers: Seq[Container]): Seq[CloudService] = {
-    val map = containers.groupBy(c => c.labels().get(LABEL_SERVICE_ID))
-    map.entrySet().map(p => {
-      Try(mapToCloudService(
-        p.getKey.toLong,
-        p.getValue
-      ))
-    }).filter(_.isSuccess).map(_.get).toSeq
+    val map = containers
+      .groupBy(c => c.labels().get(LABEL_SERVICE_ID))
+    map.entrySet()
+      .filter(p=>{
+        p.getValue.exists(c => {
+          val depType = c.labels().get(CloudDriverService.LABEL_DEPLOYMENT_TYPE)
+          depType == CloudDriverService.DEPLOYMENT_TYPE_APP && c.state() == "running"
+        })
+      })
+      .map(p => {
+        Try(mapToCloudService(
+          p.getKey.toLong,
+          p.getValue.filterNot(c=>{
+            val depType = c.labels().get(CloudDriverService.LABEL_DEPLOYMENT_TYPE)
+            depType == CloudDriverService.DEPLOYMENT_TYPE_APP && c.state() != "running"
+          })
+        ))
+      }).filter(_.isSuccess).map(_.get).toSeq
   }
 
   protected def mapMainApplicationInstance(containerApp: Container): MainApplicationInstance =
     MainApplicationInstance(
       instanceId = containerApp.id(),
       host = Option(containerApp.networkSettings().networks().get("bridge"))
-        .map(_.ipAddress()).getOrElse(managerConfiguration.sidecar.host),
+        .map(_.ipAddress())
+        .getOrElse(managerConfiguration.sidecar.host),
       port = containerApp.ports()
         .filter(_.privatePort() == DEFAULT_APP_PORT)
         .find(_.publicPort() != null)
-        .map(_.publicPort().toInt).getOrElse(DEFAULT_APP_PORT)
+        .map(_.publicPort().toInt)
+        .filter(p => p != 0)
+        .getOrElse(DEFAULT_APP_PORT)
     )
 
   protected def mapToCloudService(serviceId: Long, seq: Seq[Container]): CloudService = {
@@ -220,7 +232,7 @@ class LocalCloudDriverService(
   }
 
   private def createSystemCloudService(name: String, id: Long, host: String,
-      port: Int, image: String): CloudService =
+    port: Int, image: String): CloudService =
     CloudService(
       id = id,
       serviceName = name,
@@ -263,7 +275,7 @@ class LocalCloudDriverService(
       "hydrosphere/serving-manager"
     )
 
-  private def createMonitoringCloudService(cfg:LocalDockerCloudDriverMonitoringConfiguration): CloudService =
+  private def createMonitoringCloudService(cfg: LocalDockerCloudDriverMonitoringConfiguration): CloudService =
     createSystemCloudService(
       CloudDriverService.MONITORING_NAME,
       CloudDriverService.MONITORING_ID,
