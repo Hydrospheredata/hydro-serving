@@ -46,9 +46,10 @@ object Dependencies {
   )
 
   lazy val grpcDependencies = Seq(
-    "com.thesamet.scalapb" %% "scalapb-runtime-grpc" % com.trueaccord.scalapb.compiler.Version.scalapbVersion,
-    "io.hydrosphere" %% "serving-grpc-scala" % servingGrpcScala,
-    "io.grpc" % "grpc-netty" % com.trueaccord.scalapb.compiler.Version.grpcJavaVersion
+    "com.thesamet.scalapb" %% "scalapb-runtime-grpc" % com.trueaccord.scalapb.compiler.Version.scalapbVersion exclude("com.google.api.grpc", "proto-google-common-protos"),
+    "io.hydrosphere" %% "serving-grpc-scala" % servingGrpcScala exclude("com.google.api.grpc", "proto-google-common-protos"),
+    "io.grpc" % "grpc-netty" % com.trueaccord.scalapb.compiler.Version.grpcJavaVersion exclude("com.google.api.grpc", "proto-google-common-protos"),
+    "io.hydrosphere" %% "envoy-data-plane-api" % envoyDataPlaneApi exclude("com.google.api.grpc", "proto-google-common-protos")
   )
 
   lazy val testDependencies = Seq(
@@ -97,7 +98,6 @@ object Dependencies {
     influxDBClientDependencies ++
     Seq(
       "org.typelevel" %% "cats-core" % catsV,
-      "io.hydrosphere" %% "envoy-data-plane-api" % envoyDataPlaneApi,
       "org.postgresql" % "postgresql" % postgresqlVersion,
       "com.typesafe.slick" %% "slick" % slickVersion,
       "com.typesafe.slick" %% "slick-hikaricp" % slickVersion,
