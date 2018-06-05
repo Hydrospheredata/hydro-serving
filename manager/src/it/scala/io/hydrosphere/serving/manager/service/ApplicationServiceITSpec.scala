@@ -6,6 +6,11 @@ import io.hydrosphere.serving.manager.controller.application._
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
+import io.hydrosphere.serving.onnx.onnx.TensorProto
+import io.hydrosphere.serving.tensorflow.TensorShape
+import io.hydrosphere.serving.tensorflow.api.model.ModelSpec
+import io.hydrosphere.serving.tensorflow.api.predict.PredictRequest
+import io.hydrosphere.serving.tensorflow.tensor.DoubleTensor
 import org.scalatest.BeforeAndAfterAll
 
 import scala.concurrent.Await
@@ -27,7 +32,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         version <- managerServices.modelBuildManagmentService.buildModel(1, None)
         appRequest = CreateApplicationRequest(
           name = "testapp",
-          namespace=None,
+          namespace = None,
           executionGraph = ExecutionGraphRequest(
             stages = List(
               ExecutionStepRequest(
@@ -85,7 +90,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         version = versionResult.right.get
         appRequest = CreateApplicationRequest(
           name = "MultiServiceStage",
-          namespace=None,
+          namespace = None,
           executionGraph = ExecutionGraphRequest(
             stages = List(
               ExecutionStepRequest(
@@ -157,7 +162,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         version <- managerServices.modelBuildManagmentService.buildModel(1, None)
         appRequest = CreateApplicationRequest(
           name = "kafka_app",
-          namespace=None,
+          namespace = None,
           executionGraph = ExecutionGraphRequest(
             stages = List(
               ExecutionStepRequest(
@@ -205,6 +210,51 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         assert(maybeGotNewApp.isRight, s"Couldn't find updated application in repository ${appNew}")
         assert(appNew === maybeGotNewApp.right.get)
         assert(appNew.kafkaStreaming.isEmpty, appNew)
+      }
+    }
+
+    "serve an dummy application via GRPC" in {
+      for {
+        version <- managerServices.modelBuildManagmentService.buildModel(1, None)
+        appRequest = CreateApplicationRequest(
+          name = "testapp",
+          namespace = None,
+          executionGraph = ExecutionGraphRequest(
+            stages = List(
+              ExecutionStepRequest(
+                services = List(
+                  SimpleServiceDescription(
+                    runtimeId = 1, // dummy runtime id
+                    modelVersionId = Some(version.right.get.id),
+                    environmentId = None,
+                    weight = 0,
+                    signatureName = "default"
+                  )
+                )
+              )
+            )
+          ),
+          kafkaStreaming = List.empty
+        )
+        appResult <- managerServices.applicationManagementService.createApplication(
+          appRequest.name,
+          appRequest.namespace,
+          appRequest.executionGraph,
+          appRequest.kafkaStreaming
+        )
+
+        serveRequest = PredictRequest(
+          modelSpec = Some(ModelSpec(name = "testapp", signatureName = "default")),
+          inputs = Map(
+            "the_answer" -> DoubleTensor(TensorShape.scalar, Seq(42)).toProto
+          )
+        )
+        serveResult <- managerServices.applicationManagementService.serveGrpcApplication(serveRequest, None)
+      } yield {
+        assert(serveResult.isRight, serveResult)
+        val result = serveResult.right.get
+        assert(result.outputs.contains("the_answer"))
+        assert(result.outputs("the_answer").doubleVal === Seq(42))
       }
     }
   }
