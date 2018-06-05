@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager.test
 
+import java.net.InetAddress
 import java.nio.file.{Files, Path, Paths}
 
 import akka.actor.ActorSystem
@@ -34,7 +35,16 @@ trait FullIntegrationSpec extends DatabaseAccessIT
 
   private[this] val originalConfiguration = ManagerConfiguration.parse(rawConfig)
 
-  def configuration = originalConfiguration
+  def configuration = originalConfiguration.copy(
+    sidecar = SidecarConfig(
+      "127.0.0.1", 8080, 8081, 8082
+    ),
+    advertised = AdvertisedConfiguration(
+      InetAddress.getLocalHost.getHostAddress, 9091
+    )
+  )
+
+  println(configuration)
 
   var managerRepositories: ManagerRepositories = _
   var managerServices: ManagerServices = _
