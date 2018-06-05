@@ -4,7 +4,7 @@ import com.spotify.docker.client.messages.{ContainerConfig, HostConfig, PortBind
 
 import scala.collection.JavaConverters._
 
-trait DatabaseAccessIT extends IsolatedDockerAccessIT {
+trait DatabaseAccessIT extends SidecarAccessIT {
   def config = ContainerConfig.builder()
     .image("postgres:9.6-alpine")
     .hostConfig(

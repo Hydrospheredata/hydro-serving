@@ -213,11 +213,11 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
       }
     }
 
-    "serve an dummy application via GRPC" in {
+    "serve a dummy application via GRPC" in {
       for {
         version <- managerServices.modelBuildManagmentService.buildModel(1, None)
         appRequest = CreateApplicationRequest(
-          name = "testapp",
+          name = "servingtestapp",
           namespace = None,
           executionGraph = ExecutionGraphRequest(
             stages = List(
@@ -244,7 +244,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         )
 
         serveRequest = PredictRequest(
-          modelSpec = Some(ModelSpec(name = "testapp", signatureName = "default")),
+          modelSpec = Some(ModelSpec(name = "servingtestapp", signatureName = "default")),
           inputs = Map(
             "the_answer" -> DoubleTensor(TensorShape.scalar, Seq(42)).toProto
           )
