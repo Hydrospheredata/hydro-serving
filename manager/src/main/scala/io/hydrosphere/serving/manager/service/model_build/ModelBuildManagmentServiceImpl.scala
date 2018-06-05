@@ -5,14 +5,17 @@ import java.time.LocalDateTime
 import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
-import io.hydrosphere.serving.manager.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.controller.application.{ExecutionGraphRequest, ExecutionStepRequest, SimpleServiceDescription}
+import io.hydrosphere.serving.manager.controller.model.{ModelDeploy, ModelUpload}
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
+import io.hydrosphere.serving.manager.model.db.{Application, Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.repository.ModelBuildRepository
+import io.hydrosphere.serving.manager.service.application.ApplicationManagementService
 import io.hydrosphere.serving.manager.service.build_script.BuildScriptManagementService
 import io.hydrosphere.serving.manager.service.model_build.builders._
 import io.hydrosphere.serving.manager.service.model.ModelManagementService
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
+import io.hydrosphere.serving.manager.service.runtime.RuntimeManagementService
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -23,7 +26,9 @@ class ModelBuildManagmentServiceImpl(
   modelVersionManagementService: ModelVersionManagementService,
   modelManagementService: ModelManagementService,
   modelPushService: ModelPushService,
-  modelBuildService: ModelBuildService
+  modelBuildService: ModelBuildService,
+  runtimeManagementService: RuntimeManagementService,
+  applicationManagementService: ApplicationManagementService
 )(
   implicit executionContext: ExecutionContext
 ) extends ModelBuildManagmentService with Logging {
@@ -128,5 +133,35 @@ class ModelBuildManagmentServiceImpl(
       case Some(x) => Result.clientError(s"There is already a running build for a model ${x.model.name} version ${x.version}")
       case None => Result.ok(modelBuild)
     }
+  }
+
+  /**
+    * Multipurpose method that uploades, releases a model, and creates a simple app with it
+    * @param deploy deployment definition
+    * @return created application
+    */
+  override def uploadAndDeploy(deploy: ModelDeploy): HFResult[Application] = {
+    val f = for {
+      version <- EitherT(uploadAndBuild(deploy.modelUpload))
+      runtime <- EitherT(runtimeManagementService.get(deploy.runtimeName, deploy.runtimeVersion))
+      executionGraphRequest = ExecutionGraphRequest(
+        Seq(ExecutionStepRequest(
+            List(SimpleServiceDescription(
+              runtimeId = runtime.id,
+              modelVersionId = Some(version.id),
+              None,
+              100,
+              "default"
+            ))
+          ))
+      )
+      app <- EitherT(applicationManagementService.createApplication(
+        version.fullName,
+        version.model.flatMap(_.namespace),
+        executionGraphRequest,
+        Seq.empty
+      ))
+    } yield app
+    f.value
   }
 }

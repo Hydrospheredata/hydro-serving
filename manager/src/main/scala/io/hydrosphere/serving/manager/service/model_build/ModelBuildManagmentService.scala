@@ -1,9 +1,9 @@
 package io.hydrosphere.serving.manager.service.model_build
 
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
-import io.hydrosphere.serving.manager.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.controller.model.{ModelDeploy, ModelUpload}
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
+import io.hydrosphere.serving.manager.model.db.{Application, ModelBuild, ModelVersion}
 
 import scala.concurrent.Future
 
@@ -19,6 +19,8 @@ trait ModelBuildManagmentService {
   def buildModelVersion(modelBuild: ModelBuild, script: String): HFResult[ModelVersion]
 
   def uploadAndBuild(modelUpload: ModelUpload): HFResult[ModelVersion]
+
+  def uploadAndDeploy(modelUpload: ModelDeploy): HFResult[Application]
 }
 
 

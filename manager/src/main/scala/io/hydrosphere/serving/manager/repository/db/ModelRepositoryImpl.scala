@@ -130,6 +130,7 @@ object ModelRepositoryImpl {
       description = model.description,
       modelContract = ModelContract.fromAscii(model.modelContract),
       created = model.createdTimestamp,
-      updated = model.updatedTimestamp
+      updated = model.updatedTimestamp,
+      namespace = model.namespace
     )
 }

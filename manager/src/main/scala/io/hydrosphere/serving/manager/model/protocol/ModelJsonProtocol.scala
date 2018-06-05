@@ -22,7 +22,7 @@ trait ModelJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol {
     }
   }
 
-  implicit val modelFormat = jsonFormat7(Model)
+  implicit val modelFormat = jsonFormat8(Model)
   implicit val runtimeFormat = jsonFormat6(Runtime)
   implicit val modelVersionFormat = jsonFormat10(ModelVersion)
   implicit val environmentFormat = jsonFormat3(Environment)

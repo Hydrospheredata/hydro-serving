@@ -91,7 +91,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       Result.okF("kek")
     )
 
-    val service = new ModelBuildManagmentServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
+    val service = new ModelBuildManagmentServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder, null, null)
 
     service.buildModel(1, None, None).map { result =>
       assert(result.isRight, result)
@@ -165,7 +165,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       Result.okF("kek")
     )
 
-    val service = new ModelBuildManagmentServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
+    val service = new ModelBuildManagmentServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder, null, null)
 
     service.buildModel(1337, Some(contract), None).map { result =>
       assert(result.isRight, result)
@@ -239,7 +239,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       Result.internalErrorF(new FileNotFoundException("cant find file"))
     )
 
-    val service = new ModelBuildManagmentServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
+    val service = new ModelBuildManagmentServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder, null, null)
 
     service.buildModel(1338, None, None).map { result =>
       assert(result.isLeft, result)
@@ -316,7 +316,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       Result.okF("kek")
     )
 
-    val service = new ModelBuildManagmentServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
+    val service = new ModelBuildManagmentServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder, null, null)
 
     service.uploadAndBuild(upload).map { result =>
       assert(result.isRight, result)

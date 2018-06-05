@@ -23,6 +23,12 @@ case class UploadContract(modelContract: ModelContract) extends UploadedEntity
 
 case class UploadRemotePayload(link: String) extends UploadedEntity
 
+case class UploadNamespace(namespace: String) extends UploadedEntity
+
+case class DeployRuntimeName(runtimeName: String) extends UploadedEntity
+
+case class DeployRuntimeVersion(runtimeVersion: String) extends UploadedEntity
+
 object Entities {
   val modelType = "model_type"
   val modelContract = "model_contract"
@@ -30,4 +36,7 @@ object Entities {
   val modelName = "model_name"
   val payload = "payload"
   val remotePayload = "remote_payload"
+  val namespace = "namespace"
+  val runtimeName = "runtime_name"
+  val runtimeVersion = "runtime_version"
 }

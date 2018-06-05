@@ -21,4 +21,6 @@ trait RuntimeManagementService {
   ): HFResult[Runtime]
 
   def get(id: Long): HFResult[Runtime]
+
+  def get(name: String, version: String): HFResult[Runtime]
 }

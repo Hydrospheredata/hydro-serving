@@ -51,4 +51,8 @@ class RuntimeManagementServiceImpl(
 
   override def get(id: Long): HFResult[Runtime] =
     runtimeRepository.get(id).map(_.toHResult(ClientError(s"Can't find Runtime with id $id")))
+
+  override def get(name: String, version: String): HFResult[Runtime] = {
+    runtimeRepository.fetchByNameAndVersion(name, version).map(_.toHResult(ClientError(s"Can't find Runtime with name=$name version=$version")))
+  }
 }

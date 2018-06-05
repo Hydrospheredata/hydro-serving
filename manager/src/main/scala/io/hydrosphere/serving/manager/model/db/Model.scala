@@ -12,5 +12,6 @@ case class Model(
   description: Option[String],
   modelContract: ModelContract,
   created: LocalDateTime,
-  updated: LocalDateTime
+  updated: LocalDateTime,
+  namespace: Option[String] = None
 )

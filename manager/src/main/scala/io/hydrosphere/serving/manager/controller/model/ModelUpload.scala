@@ -12,7 +12,14 @@ case class ModelUpload(
   name: Option[String] = None,
   modelType: Option[String] = None,
   contract: Option[ModelContract] = None,
-  description: Option[String] = None
+  description: Option[String] = None,
+  namespace: Option[String] = None
+)
+
+case class ModelDeploy(
+  modelUpload: ModelUpload,
+  runtimeName: String,
+  runtimeVersion: String
 )
 
 object ModelUpload {
@@ -25,11 +32,12 @@ object ModelUpload {
       modelType = extractOpt[UploadModelType](entities).map(_.modelType),
       contract = extractOpt[UploadContract](entities).map(_.modelContract),
       description = extractOpt[UploadDescription](entities).map(_.description),
+      namespace = extractOpt[UploadNamespace](entities).map(_.namespace),
       tarballPath = tarball.path
     )
   }
 
-  private def extractRes[T](map: Seq[UploadedEntity])(implicit ct: ClassTag[T]): HResult[T] = {
+  def extractRes[T](map: Seq[UploadedEntity])(implicit ct: ClassTag[T]): HResult[T] = {
     map.find(ct.runtimeClass.isInstance) match {
       case Some(field) =>
         field match {
@@ -40,7 +48,22 @@ object ModelUpload {
     }
   }
 
-  private def extractOpt[T](map: Seq[UploadedEntity])(implicit ct: ClassTag[T]): Option[T] = {
+  def extractOpt[T](map: Seq[UploadedEntity])(implicit ct: ClassTag[T]): Option[T] = {
     extractRes[T](map).right.toOption
+  }
+}
+
+object ModelDeploy {
+
+  def fromUploadEntities(entities: Seq[UploadedEntity]): HResult[ModelDeploy] = {
+    for {
+      upload <- ModelUpload.fromUploadEntities(entities).right
+      name <- ModelUpload.extractRes[DeployRuntimeName](entities).right
+      version <- ModelUpload.extractRes[DeployRuntimeVersion](entities).right
+    } yield ModelDeploy(
+      modelUpload = upload,
+      runtimeName = name.runtimeName,
+      runtimeVersion = version.runtimeVersion
+    )
   }
 }

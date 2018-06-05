@@ -21,7 +21,8 @@ case class CreateOrUpdateModelRequest(
       description = this.description,
       modelContract = this.modelContract,
       created = LocalDateTime.now(),
-      updated = LocalDateTime.now()
+      updated = LocalDateTime.now(),
+      namespace = None
     )
   }
 
