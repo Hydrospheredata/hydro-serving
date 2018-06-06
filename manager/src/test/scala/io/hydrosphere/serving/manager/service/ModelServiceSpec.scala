@@ -126,4 +126,16 @@ class ModelServiceSpec extends GenericUnitTest {
       rModel.name should equal("test")
     }
   }
+
+  it should "deploy new model" in {
+    pending
+  }
+
+  it should "deploy updated model" in {
+    pending
+  }
+
+  it should "deploy model with the same namespace" in {
+    pending
+  }
 }
