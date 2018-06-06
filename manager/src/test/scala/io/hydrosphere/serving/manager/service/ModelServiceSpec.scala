@@ -30,6 +30,7 @@ class ModelServiceSpec extends GenericUnitTest {
     created = LocalDateTime.now(),
     updated = LocalDateTime.now()
   )
+
   import scala.concurrent.ExecutionContext.Implicits._
 
   def packModel(str: String): Path = {
@@ -69,7 +70,7 @@ class ModelServiceSpec extends GenericUnitTest {
         ModelContract("tf-model", Seq(ModelSignature()))
       ))
     )
-    Mockito.when(modelRepo.get("tf-model")).thenReturn(Future.successful(None))
+    Mockito.when(modelRepo.get(Matchers.any())).thenReturn(Future.successful(None))
     Mockito.when(modelRepo.create(Matchers.any())).thenReturn(
       Future.successful(model)
     )
@@ -114,7 +115,7 @@ class ModelServiceSpec extends GenericUnitTest {
       ))
     )
     Mockito.when(modelRepo.update(Matchers.any(classOf[Model]))).thenReturn(Future.successful(1))
-    Mockito.when(modelRepo.get("tf-model")).thenReturn(Future.successful(Some(model)))
+    Mockito.when(modelRepo.get("test")).thenReturn(Future.successful(Some(model)))
     Mockito.when(modelRepo.get(1)).thenReturn(Future.successful(Some(model)))
 
     val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
@@ -122,7 +123,7 @@ class ModelServiceSpec extends GenericUnitTest {
     modelManagementService.uploadModel(f, upload).map { maybeModel =>
       maybeModel.isRight should equal(true)
       val rModel = maybeModel.right.get
-      rModel.name should equal("tf-model")
+      rModel.name should equal("test")
     }
   }
 }
