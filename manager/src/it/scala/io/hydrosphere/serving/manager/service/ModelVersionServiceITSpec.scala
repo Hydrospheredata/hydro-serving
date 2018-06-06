@@ -11,12 +11,12 @@ import scala.concurrent.Await
 import scala.concurrent.duration._
 
 class ModelVersionServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
+  val file1 = packModel("/models/dummy_model")
   val upload1 = ModelUpload(
-    packModel("/models/dummy_model"),
     name = Some("m1")
   )
+  val file2 =  packModel("/models/dummy_model_2")
   val upload2 = ModelUpload(
-    packModel("/models/dummy_model_2"),
     name = Some("m2")
   )
 
@@ -49,7 +49,7 @@ class ModelVersionServiceITSpec extends FullIntegrationSpec with BeforeAndAfterA
       }
 
       "model changed after last version" in {
-        managerServices.modelManagementService.uploadModel(upload1).flatMap { _ =>
+        managerServices.modelManagementService.uploadModel(file1, upload1).flatMap { _ =>
           managerServices.aggregatedInfoUtilityService.getModelAggregatedInfo(dummy_2.id).map { maybeModel =>
             assert(maybeModel.isRight)
             val model = maybeModel.right.get
@@ -84,8 +84,8 @@ class ModelVersionServiceITSpec extends FullIntegrationSpec with BeforeAndAfterA
     dockerClient.pull("hydrosphere/serving-runtime-dummy:latest")
 
     val f = for {
-      d1 <- EitherT(managerServices.modelManagementService.uploadModel(upload1))
-      d2 <- EitherT(managerServices.modelManagementService.uploadModel(upload2))
+      d1 <- EitherT(managerServices.modelManagementService.uploadModel(file1, upload1))
+      d2 <- EitherT(managerServices.modelManagementService.uploadModel(file2, upload2))
     } yield {
       println("UPLOADED:")
       println(d1)

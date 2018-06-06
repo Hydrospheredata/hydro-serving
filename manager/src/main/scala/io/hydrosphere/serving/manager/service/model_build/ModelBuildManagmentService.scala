@@ -1,5 +1,7 @@
 package io.hydrosphere.serving.manager.service.model_build
 
+import java.nio.file.Path
+
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.model.{ModelDeploy, ModelUpload}
 import io.hydrosphere.serving.manager.model._
@@ -18,9 +20,9 @@ trait ModelBuildManagmentService {
 
   def buildModelVersion(modelBuild: ModelBuild, script: String): HFResult[ModelVersion]
 
-  def uploadAndBuild(modelUpload: ModelUpload): HFResult[ModelVersion]
+  def uploadAndBuild(file: Path, modelUpload: ModelUpload): HFResult[ModelVersion]
 
-  def uploadAndDeploy(modelUpload: ModelDeploy): HFResult[Application]
+  def uploadAndDeploy(file: Path, modelUpload: ModelDeploy): HFResult[Application]
 }
 
 

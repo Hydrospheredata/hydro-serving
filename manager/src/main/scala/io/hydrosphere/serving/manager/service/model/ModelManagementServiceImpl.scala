@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager.service.model
 
+import java.nio.file.Path
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
@@ -11,7 +12,7 @@ import io.hydrosphere.serving.manager.model.api.{ModelMetadata, ModelType}
 import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.contract.ContractUtilityService
-import io.hydrosphere.serving.manager.service.source.ModelStorageService
+import io.hydrosphere.serving.manager.service.source.{ModelStorageService, StorageUploadResult}
 import cats.data.EitherT
 import cats.implicits._
 import org.apache.logging.log4j.scala.Logging
@@ -141,19 +142,23 @@ class ModelManagementServiceImpl(
     f.value
   }
 
-  override def uploadModel(upload: ModelUpload): HFResult[Model] = {
+  override def uploadModel(modelTarball: Path, upload: ModelUpload): HFResult[Model] = {
     val f = for {
-      result <- EitherT(sourceManagementService.upload(upload))
-      request = CreateOrUpdateModelRequest(
-        id = None,
-        name = result.name,
-        modelType = result.modelType,
-        description = result.description,
-        modelContract = result.modelContract
-      )
+      result <- EitherT(sourceManagementService.upload(modelTarball, upload.name))
+      request = combineMetaUpload(upload, result)
       r <- EitherT(upsertRequest(request))
     } yield r
     f.value
+  }
+
+  private def combineMetaUpload(upload: ModelUpload, storageUploadResult: StorageUploadResult) = {
+    CreateOrUpdateModelRequest(
+      id = None,
+      name = upload.name.getOrElse(storageUploadResult.name),
+      modelType = upload.modelType.map(ModelType.fromTag).getOrElse(storageUploadResult.modelType),
+      description = upload.description,
+      modelContract = upload.contract.getOrElse(storageUploadResult.modelContract)
+    )
   }
 
   private def upsertRequest(request: CreateOrUpdateModelRequest): Future[Either[Result.HError, Model]] = {

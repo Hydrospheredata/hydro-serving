@@ -41,8 +41,8 @@ class ModelServiceSpec extends GenericUnitTest {
   "Model management service" should "upload new model" in {
     val testSourcePath = Files.createTempDirectory("upload-test").toString
     println("Test source path: " + testSourcePath)
+    val file = packModel("/test_models/tensorflow_model")
     val upload = ModelUpload(
-      packModel("/test_models/tensorflow_model"),
       Some("tf-model"),
       Some("unknown:unknown"),
       None,
@@ -61,7 +61,7 @@ class ModelServiceSpec extends GenericUnitTest {
     val modelRepo = mock[ModelRepository]
     val sourceMock = mock[ModelStorageService]
 
-    Mockito.when(sourceMock.upload(Matchers.any())).thenReturn(
+    Mockito.when(sourceMock.upload(Matchers.any(), Matchers.any())).thenReturn(
       Result.okF(StorageUploadResult(
         "tf-model",
         ModelType.Tensorflow("1.1.0"),
@@ -76,7 +76,7 @@ class ModelServiceSpec extends GenericUnitTest {
 
     val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
 
-    modelManagementService.uploadModel(upload).map { maybeModel =>
+    modelManagementService.uploadModel(file, upload).map { maybeModel =>
       maybeModel.isRight should equal(true)
       val rModel = maybeModel.right.get
       println(rModel)
@@ -85,8 +85,8 @@ class ModelServiceSpec extends GenericUnitTest {
   }
 
   it should "upload existing model" in {
+    val f = packModel("/test_models/tensorflow_model")
     val upload = ModelUpload(
-      packModel("/test_models/tensorflow_model"),
       Some("test"),
       Some("unknown:unknown"),
       Some(ModelContract.defaultInstance),
@@ -105,7 +105,7 @@ class ModelServiceSpec extends GenericUnitTest {
     val modelRepo = mock[ModelRepository]
     val sourceMock = mock[ModelStorageService]
 
-    Mockito.when(sourceMock.upload(Matchers.any())).thenReturn(
+    Mockito.when(sourceMock.upload(Matchers.any(), Matchers.any())).thenReturn(
       Result.okF(StorageUploadResult(
         "tf-model",
         ModelType.Tensorflow("1.1.0"),
@@ -119,7 +119,7 @@ class ModelServiceSpec extends GenericUnitTest {
 
     val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
 
-    modelManagementService.uploadModel(upload).map { maybeModel =>
+    modelManagementService.uploadModel(f, upload).map { maybeModel =>
       maybeModel.isRight should equal(true)
       val rModel = maybeModel.right.get
       rModel.name should equal("tf-model")

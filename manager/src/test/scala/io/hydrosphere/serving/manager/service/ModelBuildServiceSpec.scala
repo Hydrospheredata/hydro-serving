@@ -248,8 +248,8 @@ class ModelBuildServiceSpec extends GenericUnitTest {
   }
 
   it should "upload and release a model" in {
+    val file = Paths.get(".")
     val upload = ModelUpload(
-      Paths.get("."),
       Some("test"),
       Some("unknown:unknown"),
       Some(ModelContract.defaultInstance),
@@ -307,7 +307,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
     Mockito.when(modelS.submitFlatContract(Matchers.any(), Matchers.any())).thenReturn(
       Result.okF(model.copy(modelContract = rawContract))
     )
-    Mockito.when(modelS.uploadModel(Matchers.any())).thenReturn(Result.okF(model))
+    Mockito.when(modelS.uploadModel(Matchers.any(), Matchers.any())).thenReturn(Result.okF(model))
 
     val pushS = mock[ModelPushService]
 
@@ -318,7 +318,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
 
     val service = new ModelBuildManagmentServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder, null, null)
 
-    service.uploadAndBuild(upload).map { result =>
+    service.uploadAndBuild(file, upload).map { result =>
       assert(result.isRight, result)
       val version = result.right.get
       assert(version.model.get.id === 1337L)

@@ -1,14 +1,11 @@
 package io.hydrosphere.serving.manager.controller.model
 
-import java.nio.file.Path
-
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.model.{HResult, Result}
 
 import scala.reflect.ClassTag
 
 case class ModelUpload(
-  tarballPath: Path,
   name: Option[String] = None,
   modelType: Option[String] = None,
   contract: Option[ModelContract] = None,
@@ -17,7 +14,7 @@ case class ModelUpload(
 )
 
 case class ModelDeploy(
-  modelUpload: ModelUpload,
+  model: ModelUpload,
   runtimeName: String,
   runtimeVersion: String
 )
@@ -25,15 +22,14 @@ case class ModelDeploy(
 object ModelUpload {
 
   def fromUploadEntities(entities: Seq[UploadedEntity]): HResult[ModelUpload] = {
-    for {
-      tarball <- extractRes[UploadTarball](entities).right
-    } yield ModelUpload(
-      name = extractOpt[UploadModelName](entities).map(_.modelName),
-      modelType = extractOpt[UploadModelType](entities).map(_.modelType),
-      contract = extractOpt[UploadContract](entities).map(_.modelContract),
-      description = extractOpt[UploadDescription](entities).map(_.description),
-      namespace = extractOpt[UploadNamespace](entities).map(_.namespace),
-      tarballPath = tarball.path
+    Result.ok(
+      ModelUpload(
+        name = extractOpt[UploadModelName](entities).map(_.modelName),
+        modelType = extractOpt[UploadModelType](entities).map(_.modelType),
+        contract = extractOpt[UploadContract](entities).map(_.modelContract),
+        description = extractOpt[UploadDescription](entities).map(_.description),
+        namespace = extractOpt[UploadNamespace](entities).map(_.namespace)
+      )
     )
   }
 
@@ -61,7 +57,7 @@ object ModelDeploy {
       name <- ModelUpload.extractRes[DeployRuntimeName](entities).right
       version <- ModelUpload.extractRes[DeployRuntimeVersion](entities).right
     } yield ModelDeploy(
-      modelUpload = upload,
+      model = upload,
       runtimeName = name.runtimeName,
       runtimeVersion = version.runtimeVersion
     )

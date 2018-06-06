@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager.service.model_build
 
+import java.nio.file.Path
 import java.time.LocalDateTime
 
 import cats.data.EitherT
@@ -114,9 +115,9 @@ class ModelBuildManagmentServiceImpl(
     modelBuildRepository.lastForModels(ids)
   }
 
-  def uploadAndBuild(modelUpload: ModelUpload): HFResult[ModelVersion] = {
+  def uploadAndBuild(modelTarball: Path, modelUpload: ModelUpload): HFResult[ModelVersion] = {
     val f = for {
-      model <- EitherT(modelManagementService.uploadModel(modelUpload))
+      model <- EitherT(modelManagementService.uploadModel(modelTarball, modelUpload))
       version <- EitherT(buildModel(model.id))
     } yield version
     f.value
@@ -140,9 +141,9 @@ class ModelBuildManagmentServiceImpl(
     * @param deploy deployment definition
     * @return created application
     */
-  override def uploadAndDeploy(deploy: ModelDeploy): HFResult[Application] = {
+  override def uploadAndDeploy(file: Path, deploy: ModelDeploy): HFResult[Application] = {
     val f = for {
-      version <- EitherT(uploadAndBuild(deploy.modelUpload))
+      version <- EitherT(uploadAndBuild(file, deploy.model))
       runtime <- EitherT(runtimeManagementService.get(deploy.runtimeName, deploy.runtimeVersion))
       executionGraphRequest = ExecutionGraphRequest(
         Seq(ExecutionStepRequest(

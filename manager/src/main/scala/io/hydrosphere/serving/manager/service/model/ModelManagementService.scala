@@ -1,5 +1,7 @@
 package io.hydrosphere.serving.manager.service.model
 
+import java.nio.file.Path
+
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.model.{ModelUpload, UploadedEntity}
 import io.hydrosphere.serving.manager.model._
@@ -15,7 +17,7 @@ trait ModelManagementService {
     * @param upload tarball with metadata
     * @return uploaded model
     */
-  def uploadModel(upload: ModelUpload): HFResult[Model]
+  def uploadModel(modelTarball: Path, upload: ModelUpload): HFResult[Model]
 
   /***
     * Get flat contract description

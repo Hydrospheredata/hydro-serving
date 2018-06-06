@@ -35,6 +35,7 @@ object Entities {
   val modelDescription = "model_description"
   val modelName = "model_name"
   val payload = "payload"
+  val metadata = "metadata"
   val remotePayload = "remote_payload"
   val namespace = "namespace"
   val runtimeName = "runtime_name"

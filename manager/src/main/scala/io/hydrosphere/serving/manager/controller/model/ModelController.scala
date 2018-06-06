@@ -1,19 +1,23 @@
 package io.hydrosphere.serving.manager.controller.model
 
+import java.nio.charset.Charset
 import java.nio.file.{Files, StandardOpenOption}
-import javax.ws.rs.Path
 
+import javax.ws.rs.Path
 import akka.actor.ActorSystem
 import akka.http.scaladsl.model.Multipart
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
+import akka.http.scaladsl.server.directives.FileInfo
 import akka.stream.ActorMaterializer
-import akka.util.Timeout
+import akka.stream.scaladsl.{Sink, Source}
+import akka.util.{ByteString, Timeout}
+import spray.json._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.{GenericController, ServingDataDirectives}
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
+import io.hydrosphere.serving.manager.model.db.{Application, Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedModelInfo}
 import io.hydrosphere.serving.manager.service.model.{CreateOrUpdateModelRequest, ModelManagementService}
 import io.hydrosphere.serving.manager.service.model_build.ModelBuildManagmentService
@@ -77,74 +81,9 @@ class ModelController(
   ))
   def uploadModel = path("api" / "v1" / "model" / "upload") {
     post {
-      entity(as[Multipart.FormData]) { (formdata: Multipart.FormData) ⇒
-        val fileNamesFuture = formdata.parts.flatMapConcat { p =>
-          logger.debug(s"Got part. Name: ${p.name} Filename: ${p.filename}")
-          p.name match {
-            case Entities.`modelType` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(_.decodeString("UTF-8"))
-                .filterNot(_.isEmpty)
-                .map(r => UploadModelType(r))
-
-            case Entities.`modelContract` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(b => ModelContract.parseFrom(b.toByteBuffer.array()))
-                .map(p => UploadContract(p))
-
-            case Entities.`modelDescription` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(_.decodeString("UTF-8"))
-                .filterNot(_.isEmpty)
-                .map(r => UploadDescription(description = r))
-
-            case Entities.`modelName` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(_.decodeString("UTF-8"))
-                .filterNot(_.isEmpty)
-                .map(r => UploadModelName(r))
-
-            case Entities.`namespace` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(_.decodeString("UTF-8"))
-                .filterNot(_.isEmpty)
-                .map(UploadNamespace)
-
-            case Entities.`payload` if p.filename.isDefined =>
-              val filename = p.filename.get
-              val tempPath = Files.createTempFile("upload", filename)
-              p.entity.dataBytes
-                .map { fileBytes =>
-                  Files.write(tempPath, fileBytes.toArray, StandardOpenOption.APPEND)
-                  UploadTarball(tempPath)
-                }
-
-            case Entities.`remotePayload` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(_.decodeString("UTF-8"))
-                .filterNot(_.isEmpty)
-                .map(r => UploadRemotePayload(r))
-
-            case _ =>
-              logger.warn(s"Unknown part. Name: ${p.name} Filename: ${p.filename}")
-              p.entity.dataBytes.map { _ =>
-                UnknownPart(p.name)
-              }
-          }
-        }
-
-        val entities = fileNamesFuture.runFold(List.empty[UploadedEntity]) {
-          case (a, b) => a :+ b
-        }
-
-        def uploadModel(dd: Future[List[UploadedEntity]]) = {
-          dd.map(ModelUpload.fromUploadEntities).flatMap {
-            case Left(a) => Future.successful(Left(a))
-            case Right(b) => modelBuildManagementService.uploadAndBuild(b)
-          }
-        }
-
-        completeFRes(uploadModel(entities))
+      getFileWithMeta[ModelUpload, ModelVersion] {
+        case (Some(file), maybeMeta) =>
+          modelBuildManagementService.uploadAndBuild(file, maybeMeta.getOrElse(ModelUpload()))
       }
     }
   }
@@ -161,86 +100,9 @@ class ModelController(
   ))
   def deployModel = path("api" / "v1" / "model" / "deploy") {
     post {
-      entity(as[Multipart.FormData]) { (formdata: Multipart.FormData) ⇒
-        val fileNamesFuture = formdata.parts.flatMapConcat { p =>
-          logger.debug(s"Got part. Name: ${p.name} Filename: ${p.filename}")
-          p.name match {
-            case Entities.`modelType` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(_.decodeString("UTF-8"))
-                .filterNot(_.isEmpty)
-                .map(r => UploadModelType(r))
-
-            case Entities.`modelContract` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(b => ModelContract.parseFrom(b.toByteBuffer.array()))
-                .map(p => UploadContract(p))
-
-            case Entities.`modelDescription` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(_.decodeString("UTF-8"))
-                .filterNot(_.isEmpty)
-                .map(r => UploadDescription(description = r))
-
-            case Entities.`modelName` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(_.decodeString("UTF-8"))
-                .filterNot(_.isEmpty)
-                .map(r => UploadModelName(r))
-
-            case Entities.`namespace` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(_.decodeString("UTF-8"))
-                .filterNot(_.isEmpty)
-                .map(UploadNamespace)
-
-            case Entities.`runtimeName` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(_.decodeString("UTF-8"))
-                .filterNot(_.isEmpty)
-                .map(DeployRuntimeName)
-
-            case Entities.`runtimeVersion` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(_.decodeString("UTF-8"))
-                .filterNot(_.isEmpty)
-                .map(DeployRuntimeVersion)
-
-            case Entities.`payload` if p.filename.isDefined =>
-              val filename = p.filename.get
-              val tempPath = Files.createTempFile("upload", filename)
-              p.entity.dataBytes
-                .map { fileBytes =>
-                  Files.write(tempPath, fileBytes.toArray, StandardOpenOption.APPEND)
-                  UploadTarball(tempPath)
-                }
-
-            case Entities.`remotePayload` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(_.decodeString("UTF-8"))
-                .filterNot(_.isEmpty)
-                .map(r => UploadRemotePayload(r))
-
-            case _ =>
-              logger.warn(s"Unknown part. Name: ${p.name} Filename: ${p.filename}")
-              p.entity.dataBytes.map { _ =>
-                UnknownPart(p.name)
-              }
-          }
-        }
-
-        val entities = fileNamesFuture.runFold(List.empty[UploadedEntity]) {
-          case (a, b) => a :+ b
-        }
-
-        def uploadModel(dd: Future[List[UploadedEntity]]) = {
-          dd.map(ModelDeploy.fromUploadEntities).flatMap {
-            case Left(a) => Future.successful(Left(a))
-            case Right(b) => modelBuildManagementService.uploadAndDeploy(b)
-          }
-        }
-
-        completeFRes(uploadModel(entities))
+      getFileWithMeta[ModelDeploy, Application] {
+        case (Some(file), Some(meta)) =>
+          modelBuildManagementService.uploadAndDeploy(file, meta)
       }
     }
   }
