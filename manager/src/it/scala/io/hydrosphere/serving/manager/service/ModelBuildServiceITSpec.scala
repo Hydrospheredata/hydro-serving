@@ -4,7 +4,7 @@ import cats.data.EitherT
 import cats.instances.all._
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.messages.ContainerConfig
-import io.hydrosphere.serving.manager.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.controller.model.{ModelDeploy, ModelUpload}
 import io.hydrosphere.serving.manager.model.ModelBuildStatus
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
 import org.scalatest.BeforeAndAfterAll
@@ -92,6 +92,25 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
           val lastModelVersion = modelInfo.lastModelVersion.get
           assert(v2.right.get.modelVersion === lastModelVersion.modelVersion)
         }
+      }
+    }
+
+    "deploy a model" in {
+      val deploy = ModelDeploy(
+        ModelUpload(
+          name = Some("test_system_model"),
+          namespace = Some("system")
+        ),
+        "hydrosphere/serving-runtime-dummy", "latest"
+      )
+      for {
+        appResult <- managerServices.modelBuildManagmentService.uploadAndDeploy(file, deploy)
+      } yield {
+        assert(appResult.isRight, appResult)
+        val app = appResult.right.get
+        assert(app.namespace === upload1.namespace, app.namespace)
+        assert(app.name === "test_system_model:1", app.name)
+        assert(app.kafkaStreaming.isEmpty, app.kafkaStreaming)
       }
     }
   }

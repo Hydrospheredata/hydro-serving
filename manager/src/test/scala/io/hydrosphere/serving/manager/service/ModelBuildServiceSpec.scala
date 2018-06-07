@@ -8,17 +8,19 @@ import cats.instances.all._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.utils.ops.ModelContractOps._
 import io.hydrosphere.serving.manager.GenericUnitTest
+import io.hydrosphere.serving.manager.controller.application.{ExecutionGraphRequest, ExecutionStepRequest, SimpleServiceDescription}
 import io.hydrosphere.serving.manager.controller.model.{ModelDeploy, ModelUpload}
 import io.hydrosphere.serving.manager.model.{ModelBuildStatus, Result}
 import io.hydrosphere.serving.manager.model.api.ModelType
-import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
+import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.repository.ModelBuildRepository
+import io.hydrosphere.serving.manager.service.application.{ApplicationManagementService, ApplicationManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.build_script.{BuildScriptManagementService, BuildScriptManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.model.ModelManagementService
 import io.hydrosphere.serving.manager.service.model_build.ModelBuildManagmentServiceImpl
 import io.hydrosphere.serving.manager.service.model_build.builders.{ModelBuildService, ModelPushService}
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
-import io.hydrosphere.serving.manager.util.TarGzUtils
+import io.hydrosphere.serving.manager.service.runtime.{RuntimeManagementService, RuntimeManagementServiceImpl}
 import org.mockito.{Matchers, Mockito}
 
 import scala.concurrent.Future
@@ -333,15 +335,16 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       Some("test"),
       Some("unknown:unknown"),
       Some(ModelContract.defaultInstance),
-      None
+      Some("system")
     )
 
     val deploy = ModelDeploy(
       upload,
-      "hydrosphere/serving-runtime-dummy",
+      "dummy",
       "latest"
     )
-    val model = dummyModel.copy(id = 1337, name = "tmodel")
+
+    val model = dummyModel.copy(id = 1337, name = "test", namespace = Some("system"))
     val rawContract = ModelContract("new_contract_test")
     val contract = rawContract.flatten
 
@@ -377,7 +380,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
           "tag",
           "sha256",
           LocalDateTime.now(),
-          "modelName",
+          "test",
           1,
           ModelType.Unknown("test"),
           Some(model.copy(modelContract = rawContract)),
@@ -390,9 +393,6 @@ class ModelBuildServiceSpec extends GenericUnitTest {
     Mockito.when(modelS.getModel(1337L)).thenReturn(
       Result.okF(model)
     )
-    Mockito.when(modelS.submitFlatContract(Matchers.any(), Matchers.any())).thenReturn(
-      Result.okF(model.copy(modelContract = rawContract))
-    )
     Mockito.when(modelS.uploadModel(Matchers.any(), Matchers.any())).thenReturn(Result.okF(model))
 
     val pushS = mock[ModelPushService]
@@ -402,20 +402,34 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       Result.okF("kek")
     )
 
-    val service = new ModelBuildManagmentServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder, null, null)
+    val runtimeS = mock[RuntimeManagementService]
+    Mockito.when(runtimeS.get("dummy", "latest")).thenReturn(
+      Result.okF(Runtime(1, "dummy", "latest", List.empty, List.empty, Map.empty))
+    )
+
+    val appS = mock[ApplicationManagementService]
+    val expectedGraph = ExecutionGraphRequest(
+      Seq(ExecutionStepRequest(
+        List(SimpleServiceDescription(
+          1,
+          Some(1),
+          None,
+          100,
+          "default"
+        ))
+      ))
+    )
+    Mockito.when(appS.createApplication("test:1", Some("system"), expectedGraph, Seq.empty)).thenReturn(
+      Result.okF(Application(1, "test:1", Some("system"), ModelContract.defaultInstance, ApplicationExecutionGraph(List.empty), List.empty))
+    )
+
+    val service = new ModelBuildManagmentServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder, runtimeS, appS)
 
     service.uploadAndDeploy(file, deploy).map { result =>
       assert(result.isRight, result)
       val application = result.right.get
       assert(application.id === 1)
+      assert(application.namespace.contains("system"), application.namespace)
     }
-  }
-
-  it should "deploy updated model" in {
-    pending
-  }
-
-  it should "deploy model with the same namespace" in {
-    pending
   }
 }
