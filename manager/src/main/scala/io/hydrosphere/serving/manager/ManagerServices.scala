@@ -19,7 +19,7 @@ import io.hydrosphere.serving.manager.service.environment.{EnvironmentManagement
 import io.hydrosphere.serving.manager.service.envoy.{EnvoyGRPCDiscoveryService, EnvoyGRPCDiscoveryServiceImpl}
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
 import io.hydrosphere.serving.manager.service.model.{ModelManagementService, ModelManagementServiceImpl}
-import io.hydrosphere.serving.manager.service.model_build.{ModelBuildManagmentService, ModelBuildManagmentServiceImpl}
+import io.hydrosphere.serving.manager.service.model_build.{ModelBuildManagementServiceImpl, ModelBuildManagmentService}
 import io.hydrosphere.serving.manager.service.model_build.builders._
 import io.hydrosphere.serving.manager.service.model_version.{ModelVersionManagementService, ModelVersionManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.metrics.{ElasticSearchMetricsService, InfluxDBMetricsService, PrometheusMetricsServiceImpl}
@@ -84,7 +84,7 @@ class ManagerServices(
     contractUtilityService
   )
 
-  val modelBuildManagmentService: ModelBuildManagmentService = new ModelBuildManagmentServiceImpl(
+  val modelBuildManagmentService: ModelBuildManagmentService = new ModelBuildManagementServiceImpl(
     managerRepositories.modelBuildRepository,
     buildScriptManagementService,
     modelVersionManagementService,

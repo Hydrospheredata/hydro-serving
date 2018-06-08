@@ -15,7 +15,7 @@ import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.repository.ModelBuildRepository
 import io.hydrosphere.serving.manager.service.build_script.{BuildScriptManagementService, BuildScriptManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.model.ModelManagementService
-import io.hydrosphere.serving.manager.service.model_build.ModelBuildManagmentServiceImpl
+import io.hydrosphere.serving.manager.service.model_build.ModelBuildManagementServiceImpl
 import io.hydrosphere.serving.manager.service.model_build.builders.{ModelBuildService, ModelPushService}
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import io.hydrosphere.serving.manager.util.TarGzUtils
@@ -91,7 +91,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       Result.okF("kek")
     )
 
-    val service = new ModelBuildManagmentServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
+    val service = new ModelBuildManagementServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
 
     service.buildModel(1, None, None).map { result =>
       assert(result.isRight, result)
@@ -165,7 +165,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       Result.okF("kek")
     )
 
-    val service = new ModelBuildManagmentServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
+    val service = new ModelBuildManagementServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
 
     service.buildModel(1337, Some(contract), None).map { result =>
       assert(result.isRight, result)
@@ -239,7 +239,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       Result.internalErrorF(new FileNotFoundException("cant find file"))
     )
 
-    val service = new ModelBuildManagmentServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
+    val service = new ModelBuildManagementServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
 
     service.buildModel(1338, None, None).map { result =>
       assert(result.isLeft, result)
@@ -316,7 +316,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       Result.okF("kek")
     )
 
-    val service = new ModelBuildManagmentServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
+    val service = new ModelBuildManagementServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
 
     service.uploadAndBuild(upload).map { result =>
       assert(result.isRight, result)
