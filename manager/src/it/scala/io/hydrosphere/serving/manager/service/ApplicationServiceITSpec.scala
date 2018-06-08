@@ -13,6 +13,7 @@ import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
 
 class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
+  implicit val awaitTimeout = 50.seconds
   val upload1 = ModelUpload(
     packModel("/models/dummy_model"),
     name = Some("m1")
