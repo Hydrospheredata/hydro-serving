@@ -4,11 +4,12 @@ import cats.data.EitherT
 import cats.instances.all._
 import io.hydrosphere.serving.manager.controller.application._
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.model.ModelBuildStatus
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
 import org.scalatest.BeforeAndAfterAll
 
-import scala.concurrent.Await
+import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
 
 class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
@@ -27,7 +28,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         modelBuild <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
         appRequest = CreateApplicationRequest(
           name = "testapp",
-          namespace=None,
+          namespace = None,
           executionGraph = ExecutionGraphRequest(
             stages = List(
               ExecutionStepRequest(
@@ -45,6 +46,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           ),
           kafkaStreaming = List.empty
         )
+        version = awaitVersion(modelBuild.right.get.id)
         appResult <- managerServices.applicationManagementService.createApplication(
           appRequest.name,
           appRequest.namespace,
@@ -62,7 +64,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 WeightedService(
                   ServiceKeyDescription(
                     runtimeId = 1,
-                    modelVersionId = Some(1),
+                    modelVersionId = Some(version.id),
                     environmentId = None
                   ),
                   weight = 100,
@@ -81,25 +83,26 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
     "create a multi-service stage" in {
       for {
-        versionResult <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
-        modelBuild = versionResult.right.get
+        buildResult <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
+        build = buildResult.right.get
+        version = awaitVersion(build.id)
         appRequest = CreateApplicationRequest(
           name = "MultiServiceStage",
-          namespace=None,
+          namespace = None,
           executionGraph = ExecutionGraphRequest(
             stages = List(
               ExecutionStepRequest(
                 services = List(
                   SimpleServiceDescription(
                     runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(modelBuild.id),
+                    modelVersionId = Some(version.id),
                     environmentId = None,
                     weight = 50,
                     signatureName = "default_spark"
                   ),
                   SimpleServiceDescription(
                     runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(modelBuild.id),
+                    modelVersionId = Some(version.id),
                     environmentId = None,
                     weight = 50,
                     signatureName = "default_spark"
@@ -127,23 +130,23 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 WeightedService(
                   ServiceKeyDescription(
                     runtimeId = 1,
-                    modelVersionId = Some(modelBuild.id),
+                    modelVersionId = Some(version.id),
                     environmentId = None
                   ),
                   weight = 50,
-                  signature = modelBuild.model.modelContract.signatures.find(_.signatureName == "default_spark")
+                  signature = build.model.modelContract.signatures.find(_.signatureName == "default_spark")
                 ),
                 WeightedService(
                   ServiceKeyDescription(
                     runtimeId = 1,
-                    modelVersionId = Some(modelBuild.id),
+                    modelVersionId = Some(version.id),
                     environmentId = None
                   ),
                   weight = 50,
-                  signature = modelBuild.model.modelContract.signatures.find(_.signatureName == "default_spark")
+                  signature = build.model.modelContract.signatures.find(_.signatureName == "default_spark")
                 )
               ),
-              modelBuild.model.modelContract.signatures.find(_.signatureName == "default_spark").map(_.withSignatureName("0"))
+              build.model.modelContract.signatures.find(_.signatureName == "default_spark").map(_.withSignatureName("0"))
             )
           )
         )
@@ -154,17 +157,18 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
     "create and update an application with kafkaStreaming" in {
       for {
-        version <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
+        buildResult <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
+        version = awaitVersion(buildResult.right.get.id)
         appRequest = CreateApplicationRequest(
           name = "kafka_app",
-          namespace=None,
+          namespace = None,
           executionGraph = ExecutionGraphRequest(
             stages = List(
               ExecutionStepRequest(
                 services = List(
                   SimpleServiceDescription(
                     runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(version.right.get.id),
+                    modelVersionId = Some(version.id),
                     environmentId = None,
                     weight = 100,
                     signatureName = "default"
@@ -223,5 +227,26 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     }
 
     Await.result(f.value, 30 seconds)
+  }
+
+  private def awaitBuild(modelBuildId: Long)(implicit timeout: Duration): ModelBuild = {
+    var result = Option.empty[ModelBuild]
+
+    while (result.isEmpty) {
+      val buildOptF = managerRepositories.modelBuildRepository.get(modelBuildId)
+      val buildOpt = Await.result(buildOptF, timeout)
+      buildOpt.get.status match {
+        case ModelBuildStatus.FINISHED => result = buildOpt
+      }
+    }
+    assert(result.isDefined)
+    result.get
+  }
+
+  private def awaitVersion(modelBuildId: Long)(implicit timeout: Duration): ModelVersion = {
+    val finishedBuild = awaitBuild(modelBuildId)
+    val versionOpt = finishedBuild.modelVersion
+    assert(versionOpt.isDefined)
+    versionOpt.get
   }
 }

@@ -24,7 +24,7 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
         case None => Future.failed(new IllegalArgumentException("Model is not found"))
         case Some(model) =>
           managerServices.modelBuildManagmentService.buildAndOverrideContract(model.id, None, Some(1)).flatMap { _ =>
-            Thread.sleep(1000)
+            Thread.sleep(2000)
             managerServices.modelBuildManagmentService.lastModelBuildsByModelId(model.id, 1).map { lastBuilds =>
               val lastBuild = lastBuilds.head
               // check that build is successful
