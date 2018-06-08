@@ -238,6 +238,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
       val buildOpt = Await.result(buildOptF, timeout)
       buildOpt.get.status match {
         case ModelBuildStatus.FINISHED => result = buildOpt
+        case _ => Unit
       }
     }
     assert(result.isDefined)
