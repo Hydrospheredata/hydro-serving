@@ -143,13 +143,12 @@ services:
     labels:
       - "RUNTIME_ID=-22"
     environment:
+      - "APP_SHADOWING_ON=true"
       - "MANAGER_HOST=sidecar:8080"
-      - "SONAR_HOST=serving-sonar:9090"
       - "ELASTIC_HOST=elasticsearch:9200"
       - "INFLUX_HOST=influxdb:8086"
     depends_on:
       - sidecar
-      - serving-sonar
 
   kafka-serving:
     image: ${gateway_kafka_image}:${gateway_kafka_version}
@@ -169,18 +168,18 @@ services:
       - "KAFKA_HOST=kafka"
       - "KAFKA_PORT=9092"
 
-  serving-sonar:
-    image: hydrosphere/serving-sonar:v0.0.2
+serving-sonar:
+    image: ${sonar_image}:${sonar_version}
     container_name: serving-sonar
     networks:
       - extnet
       - hydronet
     depends_on:
-      - kafka
-    links:
-      - kafka
+      - elasticsearch
+      - influxdb
     ports:
-      - "9999:9999"
+      - "8014:8014"
+      - "8015:8015"
     volumes:
       - ./sonar/sonar.conf:/etc/sonar.conf
 
