@@ -24,7 +24,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
   "Application service" should {
     "create a simple application" in {
       for {
-        modelBuild <- managerServices.modelBuildManagmentService.buildModel(1, None)
+        modelBuild <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
         appRequest = CreateApplicationRequest(
           name = "testapp",
           namespace=None,
@@ -81,7 +81,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
     "create a multi-service stage" in {
       for {
-        versionResult <- managerServices.modelBuildManagmentService.buildModel(1, None)
+        versionResult <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
         modelBuild = versionResult.right.get
         appRequest = CreateApplicationRequest(
           name = "MultiServiceStage",
@@ -154,7 +154,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
     "create and update an application with kafkaStreaming" in {
       for {
-        version <- managerServices.modelBuildManagmentService.buildModel(1, None)
+        version <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
         appRequest = CreateApplicationRequest(
           name = "kafka_app",
           namespace=None,

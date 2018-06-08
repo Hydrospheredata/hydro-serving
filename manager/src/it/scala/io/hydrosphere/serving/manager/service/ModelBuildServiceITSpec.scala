@@ -23,7 +23,7 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
       managerRepositories.modelRepository.get(1).flatMap {
         case None => Future.failed(new IllegalArgumentException("Model is not found"))
         case Some(model) =>
-          managerServices.modelBuildManagmentService.buildModel(model.id, None, Some(1)).flatMap { _ =>
+          managerServices.modelBuildManagmentService.buildAndOverrideContract(model.id, None, Some(1)).flatMap { _ =>
             Thread.sleep(1000)
             managerServices.modelBuildManagmentService.lastModelBuildsByModelId(model.id, 1).map { lastBuilds =>
               val lastBuild = lastBuilds.head
@@ -81,8 +81,8 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
     "return last version" when {
       "for all models" in {
         for {
-          _ <- managerServices.modelBuildManagmentService.buildModel(1, None)
-          v2 <- managerServices.modelBuildManagmentService.buildModel(1, None)
+          _ <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
+          v2 <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
           versions <- managerServices.aggregatedInfoUtilityService.allModelsAggregatedInfo()
         } yield {
           val maybeModelInfo = versions.find(_.model.id == 1)
