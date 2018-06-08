@@ -18,7 +18,7 @@ import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 
-class ModelBuildManagmentServiceImpl(
+class ModelBuildManagementServiceImpl(
   modelBuildRepository: ModelBuildRepository,
   buildScriptManagementService: BuildScriptManagementService,
   modelVersionManagementService: ModelVersionManagementService,
@@ -55,7 +55,7 @@ class ModelBuildManagmentServiceImpl(
       uniqueBuild <- EitherT(ensureUniqueBuild(build))
       modelBuild <- EitherT.liftF[Future, HError, ModelBuild](modelBuildRepository.create(uniqueBuild))
     } yield {
-      buildModelVersion(modelBuild, script)
+      Future(buildModelVersion(modelBuild, script))
       logger.debug(build)
       modelBuild
     }
@@ -67,8 +67,7 @@ class ModelBuildManagmentServiceImpl(
     logger.debug(modelBuild)
     val imageName = modelPushService.getImageName(modelBuild)
     val messageHandler = new HistoricProgressHandler()
-    val buildF = modelBuildService.build(modelBuild, imageName, script, messageHandler)
-    buildF.flatMap {
+    modelBuildService.build(modelBuild, imageName, script, messageHandler).flatMap {
       case Left(err) =>
         logger.error(s"Errors while building ${modelBuild.model.name} v${modelBuild.version}:")
         logger.error(err)
@@ -132,7 +131,7 @@ class ModelBuildManagmentServiceImpl(
   }
 
   /**
-    * Ensures there is no build unfinished build for given modelId and version
+    * Ensures there is no unfinished build for given modelId and version
     *
     * @param modelBuild build to check
     * @return Right if there is no duplicating build. Left otherwise
