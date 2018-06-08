@@ -95,8 +95,8 @@ class ModelBuildServiceSpec extends GenericUnitTest {
 
     service.buildModel(1, None, None).map { result =>
       assert(result.isRight, result)
-      val version = result.right.get
-      assert(version.model.get.id === 1L)
+      val modelBuild = result.right.get
+      assert(modelBuild.model.id === 1L)
     }
   }
 
@@ -169,10 +169,10 @@ class ModelBuildServiceSpec extends GenericUnitTest {
 
     service.buildModel(1337, Some(contract), None).map { result =>
       assert(result.isRight, result)
-      val version = result.right.get
-      assert(version.model.get.id === 1337L)
-      assert(version.model.get.modelContract === rawContract)
-      assert(version.modelContract === rawContract)
+      val modelBuild = result.right.get
+      assert(modelBuild.model.id === 1337L)
+      assert(modelBuild.model.modelContract === rawContract)
+      assert(modelBuild.model.modelContract === rawContract)
     }
   }
 
@@ -320,10 +320,10 @@ class ModelBuildServiceSpec extends GenericUnitTest {
 
     service.uploadAndBuild(upload).map { result =>
       assert(result.isRight, result)
-      val version = result.right.get
-      assert(version.model.get.id === 1337L)
-      assert(version.model.get.modelContract === rawContract)
-      assert(version.modelContract === rawContract)
+      val modelBuild = result.right.get
+      assert(modelBuild.model.id === 1337L)
+      assert(modelBuild.model.modelContract === rawContract)
+      assert(modelBuild.model.modelContract === rawContract)
     }
   }
 }

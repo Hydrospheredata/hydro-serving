@@ -4,6 +4,8 @@ import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
 import org.apache.logging.log4j.scala.Logging
 
+import scala.collection.mutable.ListBuffer
+
 case class ProgressDetail(
   current: Option[Long],
   start: Option[Long],
@@ -32,9 +34,19 @@ trait ProgressHandler {
   def handle(progressMessage: ProgressMessage)
 }
 
+class HistoricProgressHandler extends ProgressHandler {
+  private val messageList = ListBuffer.empty[ProgressMessage]
+
+  override def handle(progressMessage: ProgressMessage): Unit = {
+    messageList += progressMessage
+  }
+
+  def messages = messageList.toList
+}
+
 object InfoProgressHandler extends ProgressHandler with Logging {
   override def handle(progressMessage: ProgressMessage): Unit =
-    logger.info(progressMessage)
+    logger.debug(progressMessage)
 }
 
 trait ModelBuildService {

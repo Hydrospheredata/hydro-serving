@@ -24,7 +24,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
   "Application service" should {
     "create a simple application" in {
       for {
-        version <- managerServices.modelBuildManagmentService.buildModel(1, None)
+        modelBuild <- managerServices.modelBuildManagmentService.buildModel(1, None)
         appRequest = CreateApplicationRequest(
           name = "testapp",
           namespace=None,
@@ -34,7 +34,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 services = List(
                   SimpleServiceDescription(
                     runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(version.right.get.id),
+                    modelVersionId = Some(modelBuild.right.get.id),
                     environmentId = None,
                     weight = 0,
                     signatureName = "default"
@@ -74,7 +74,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           )
         )
         assert(app.name === appRequest.name)
-        assert(app.contract === version.right.get.modelContract)
+        assert(app.contract === modelBuild.right.get.model.modelContract)
         assert(app.executionGraph === expectedGraph)
       }
     }
@@ -82,7 +82,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     "create a multi-service stage" in {
       for {
         versionResult <- managerServices.modelBuildManagmentService.buildModel(1, None)
-        version = versionResult.right.get
+        modelBuild = versionResult.right.get
         appRequest = CreateApplicationRequest(
           name = "MultiServiceStage",
           namespace=None,
@@ -92,14 +92,14 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 services = List(
                   SimpleServiceDescription(
                     runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(version.id),
+                    modelVersionId = Some(modelBuild.id),
                     environmentId = None,
                     weight = 50,
                     signatureName = "default_spark"
                   ),
                   SimpleServiceDescription(
                     runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(version.id),
+                    modelVersionId = Some(modelBuild.id),
                     environmentId = None,
                     weight = 50,
                     signatureName = "default_spark"
@@ -127,23 +127,23 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 WeightedService(
                   ServiceKeyDescription(
                     runtimeId = 1,
-                    modelVersionId = Some(version.id),
+                    modelVersionId = Some(modelBuild.id),
                     environmentId = None
                   ),
                   weight = 50,
-                  signature = version.modelContract.signatures.find(_.signatureName == "default_spark")
+                  signature = modelBuild.model.modelContract.signatures.find(_.signatureName == "default_spark")
                 ),
                 WeightedService(
                   ServiceKeyDescription(
                     runtimeId = 1,
-                    modelVersionId = Some(version.id),
+                    modelVersionId = Some(modelBuild.id),
                     environmentId = None
                   ),
                   weight = 50,
-                  signature = version.modelContract.signatures.find(_.signatureName == "default_spark")
+                  signature = modelBuild.model.modelContract.signatures.find(_.signatureName == "default_spark")
                 )
               ),
-              version.modelContract.signatures.find(_.signatureName == "default_spark").map(_.withSignatureName("0"))
+              modelBuild.model.modelContract.signatures.find(_.signatureName == "default_spark").map(_.withSignatureName("0"))
             )
           )
         )

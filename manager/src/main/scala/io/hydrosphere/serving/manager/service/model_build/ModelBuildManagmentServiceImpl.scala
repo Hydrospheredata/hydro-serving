@@ -6,6 +6,7 @@ import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.model.Result.HError
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.repository.ModelBuildRepository
@@ -34,7 +35,9 @@ class ModelBuildManagmentServiceImpl(
   override def lastModelBuildsByModelId(id: Long, maximum: Int): Future[Seq[ModelBuild]] =
     modelBuildRepository.lastByModelId(id, maximum)
 
-  def buildNewModelVersion(model: Model, modelVersion: Option[Long]): HFResult[ModelVersion] = {
+  def buildNewModelVersion(model: Model, modelVersion: Option[Long]): HFResult[ModelBuild] = {
+    logger.debug(model)
+    logger.debug(modelVersion)
     val f = for {
       version <- EitherT(modelVersionManagementService.fetchLastModelVersion(model.id, modelVersion))
       script <- EitherT.liftF(buildScriptManagementService.fetchScriptForModel(model))
@@ -50,18 +53,24 @@ class ModelBuildManagmentServiceImpl(
         modelVersion = None
       )
       uniqueBuild <- EitherT(ensureUniqueBuild(build))
-      modelBuild <- EitherT.liftF(modelBuildRepository.create(uniqueBuild))
-      modelVersion <- EitherT(buildModelVersion(modelBuild, script))
+      modelBuild <- EitherT.liftF[Future, HError, ModelBuild](modelBuildRepository.create(uniqueBuild))
     } yield {
-      modelVersion
+      buildModelVersion(modelBuild, script)
+      logger.debug(build)
+      modelBuild
     }
     f.value
   }
 
   def buildModelVersion(modelBuild: ModelBuild, script: String): HFResult[ModelVersion] = {
+    logger.info(s"Building ${modelBuild.model.name} v${modelBuild.version}")
+    logger.debug(modelBuild)
     val imageName = modelPushService.getImageName(modelBuild)
-    modelBuildService.build(modelBuild, imageName, script, InfoProgressHandler).flatMap {
+    val messageHandler = new HistoricProgressHandler()
+    val buildF = modelBuildService.build(modelBuild, imageName, script, messageHandler)
+    buildF.flatMap {
       case Left(err) =>
+        logger.error(s"Errors while building ${modelBuild.model.name} v${modelBuild.version}:")
         logger.error(err)
         modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.ERROR, err.toString, LocalDateTime.now(), None)
         Result.errorF(err)
@@ -82,13 +91,15 @@ class ModelBuildManagmentServiceImpl(
           result.right.map { modelVersion =>
             modelPushService.push(modelVersion, InfoProgressHandler)
             modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(modelVersion))
+            logger.info(s"${modelBuild.model.name} v${modelBuild.version} built successfully")
             modelVersion
           }
         }
     }
   }
 
-  override def buildModel(modelId: Long, flatContract: Option[ContractDescription], modelVersion: Option[Long]): HFResult[ModelVersion] = {
+  override def buildModel(modelId: Long, flatContract: Option[ContractDescription], modelVersion: Option[Long]): HFResult[ModelBuild] = {
+    logger.debug(s"modelId=$modelId,flatContract=$flatContract modelVersion=$modelVersion")
     val f = for {
       model <- EitherT(modelManagementService.getModel(modelId))
       newModel <- EitherT(maybeUpdateContract(model, flatContract))
@@ -100,8 +111,11 @@ class ModelBuildManagmentServiceImpl(
   private def maybeUpdateContract(model: Model, flatContract: Option[ContractDescription]) = {
     flatContract match {
       case Some(newContract) =>
+        logger.debug("New contract applied")
         modelManagementService.submitFlatContract(model.id, newContract)
-      case None => Result.okF(model)
+      case None =>
+        logger.debug("Old contract intact")
+        Result.okF(model)
     }
   }
 
@@ -109,7 +123,7 @@ class ModelBuildManagmentServiceImpl(
     modelBuildRepository.lastForModels(ids)
   }
 
-  def uploadAndBuild(modelUpload: ModelUpload): HFResult[ModelVersion] = {
+  def uploadAndBuild(modelUpload: ModelUpload): HFResult[ModelBuild] = {
     val f = for {
       model <- EitherT(modelManagementService.uploadModel(modelUpload))
       version <- EitherT(buildModel(model.id))

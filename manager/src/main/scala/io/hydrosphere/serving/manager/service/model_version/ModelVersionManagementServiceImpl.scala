@@ -11,6 +11,7 @@ import io.hydrosphere.serving.manager.model.{HFResult, Result}
 import io.hydrosphere.serving.manager.repository.ModelVersionRepository
 import io.hydrosphere.serving.manager.service.contract.ContractUtilityService
 import io.hydrosphere.serving.manager.service.model.ModelManagementService
+import org.apache.logging.log4j.scala.Logging
 import spray.json.JsObject
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -21,7 +22,7 @@ class ModelVersionManagementServiceImpl(
   contractService: ContractUtilityService
 )(
   implicit executionContext: ExecutionContext
-) extends ModelVersionManagementService {
+) extends ModelVersionManagementService with Logging {
 
   override def versionContractDescription(versionId: Long): HFResult[ContractDescription] = {
     getMap(get(versionId)) { version =>
@@ -50,11 +51,17 @@ class ModelVersionManagementServiceImpl(
   override def fetchLastModelVersion(modelId: Long, modelVersion: Option[Long]): HFResult[Long] = {
     modelVersion match {
       case Some(x) => modelVersionRepository.modelVersionByModelAndVersion(modelId, x).map {
-        case None => Right(x)
-        case _ => Result.clientError(s"$modelVersion already exists")
+        case None =>
+          logger.debug(s"modelId=$modelId modelVersion=$modelVersion result=$x")
+          Right(x)
+        case _ =>
+          logger.error(s"$modelVersion already exists")
+          Result.clientError(s"$modelVersion already exists")
       }
       case None => modelVersionRepository.lastModelVersionByModel(modelId, 1).map { se =>
-        Right(nextVersion(se.headOption))
+        val result = nextVersion(se.headOption)
+        logger.debug(s"modelId=$modelId modelVersion=$modelVersion result=$result")
+        Right(result)
       }
     }
   }
