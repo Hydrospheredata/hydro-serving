@@ -229,26 +229,4 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
     Await.result(f.value, 30 seconds)
   }
-
-  private def awaitBuild(modelBuildId: Long)(implicit timeout: Duration): ModelBuild = {
-    var result = Option.empty[ModelBuild]
-
-    while (result.isEmpty) {
-      val buildOptF = managerRepositories.modelBuildRepository.get(modelBuildId)
-      val buildOpt = Await.result(buildOptF, timeout)
-      buildOpt.get.status match {
-        case ModelBuildStatus.FINISHED => result = buildOpt
-        case _ => Unit
-      }
-    }
-    assert(result.isDefined)
-    result.get
-  }
-
-  private def awaitVersion(modelBuildId: Long)(implicit timeout: Duration): ModelVersion = {
-    val finishedBuild = awaitBuild(modelBuildId)
-    val versionOpt = finishedBuild.modelVersion
-    assert(versionOpt.isDefined)
-    versionOpt.get
-  }
 }

@@ -7,9 +7,12 @@ import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
 import io.hydrosphere.serving.manager._
+import io.hydrosphere.serving.manager.model.ModelBuildStatus
+import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.scalatest._
 
+import scala.concurrent.Await
 import scala.concurrent.duration._
 import scala.io.Source
 import scala.util.{Failure, Success, Try}
@@ -84,5 +87,27 @@ trait FullIntegrationSpec extends DatabaseAccessIT
     val temptar = Files.createTempFile("packedModel", ".tar.gz")
     TarGzUtils.compressFolder(Paths.get(getClass.getResource(str).getPath), temptar)
     temptar
+  }
+
+  protected def awaitBuild(modelBuildId: Long)(implicit timeout: Duration): ModelBuild = {
+    var result = Option.empty[ModelBuild]
+
+    while (result.isEmpty) {
+      val buildOptF = managerRepositories.modelBuildRepository.get(modelBuildId)
+      val buildOpt = Await.result(buildOptF, timeout)
+      buildOpt.get.status match {
+        case ModelBuildStatus.FINISHED => result = buildOpt
+        case _ => Unit
+      }
+    }
+    assert(result.isDefined)
+    result.get
+  }
+
+  protected def awaitVersion(modelBuildId: Long)(implicit timeout: Duration): ModelVersion = {
+    val finishedBuild = awaitBuild(modelBuildId)
+    val versionOpt = finishedBuild.modelVersion
+    assert(versionOpt.isDefined)
+    versionOpt.get
   }
 }
