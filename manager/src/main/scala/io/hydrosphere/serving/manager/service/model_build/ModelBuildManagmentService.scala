@@ -14,11 +14,9 @@ trait ModelBuildManagmentService {
 
   def lastModelBuildsByModelId(id: Long, maximum: Int): Future[Seq[ModelBuild]]
 
-  def buildModel(modelId: Long, flatContract: Option[ContractDescription] = None, modelVersion: Option[Long] = None): HFResult[ModelVersion]
+  def buildAndOverrideContract(modelId: Long, flatContract: Option[ContractDescription] = None, modelVersion: Option[Long] = None): HFResult[ModelBuild]
 
-  def buildModelVersion(modelBuild: ModelBuild, script: String): HFResult[ModelVersion]
-
-  def uploadAndBuild(modelUpload: ModelUpload): HFResult[ModelVersion]
+  def uploadAndBuild(modelUpload: ModelUpload): HFResult[ModelBuild]
 }
 
 

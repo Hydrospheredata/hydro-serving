@@ -11,6 +11,8 @@ import scala.concurrent.Await
 import scala.concurrent.duration._
 
 class ModelVersionServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
+  implicit val awaitTimeout = 50.seconds
+
   val upload1 = ModelUpload(
     packModel("/models/dummy_model"),
     name = Some("m1")
@@ -36,8 +38,10 @@ class ModelVersionServiceITSpec extends FullIntegrationSpec with BeforeAndAfterA
 
       "model was already build" in {
         for {
-          r1 <- managerServices.modelBuildManagmentService.buildModel(dummy_1.id)
-          r2 <- managerServices.modelBuildManagmentService.buildModel(dummy_2.id)
+          r1 <- managerServices.modelBuildManagmentService.buildAndOverrideContract(dummy_1.id)
+          cr1 = awaitVersion(r1.right.get.id)
+          r2 <- managerServices.modelBuildManagmentService.buildAndOverrideContract(dummy_2.id)
+          cr2 = awaitVersion(r2.right.get.id)
           modelInfo <- managerServices.aggregatedInfoUtilityService.getModelAggregatedInfo(dummy_1.id)
         } yield {
           assert(r1.isRight, r1)

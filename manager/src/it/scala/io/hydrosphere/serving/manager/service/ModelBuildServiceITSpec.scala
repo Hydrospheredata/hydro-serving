@@ -13,6 +13,8 @@ import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
 
 class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
+  implicit val awaitTimeout = 50.seconds
+
   val upload1 = ModelUpload(
     packModel("/models/dummy_model"),
     name = Some("m1")
@@ -23,8 +25,8 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
       managerRepositories.modelRepository.get(1).flatMap {
         case None => Future.failed(new IllegalArgumentException("Model is not found"))
         case Some(model) =>
-          managerServices.modelBuildManagmentService.buildModel(model.id, None, Some(1)).flatMap { _ =>
-            Thread.sleep(1000)
+          managerServices.modelBuildManagmentService.buildAndOverrideContract(model.id, None, Some(1)).flatMap { b =>
+            val version = awaitVersion(b.right.get.id)
             managerServices.modelBuildManagmentService.lastModelBuildsByModelId(model.id, 1).map { lastBuilds =>
               val lastBuild = lastBuilds.head
               // check that build is successful
@@ -81,8 +83,10 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
     "return last version" when {
       "for all models" in {
         for {
-          _ <- managerServices.modelBuildManagmentService.buildModel(1, None)
-          v2 <- managerServices.modelBuildManagmentService.buildModel(1, None)
+          v1 <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
+          cv1 = awaitVersion(v1.right.get.id)
+          v2 <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
+          cv2 = awaitVersion(v2.right.get.id)
           versions <- managerServices.aggregatedInfoUtilityService.allModelsAggregatedInfo()
         } yield {
           val maybeModelInfo = versions.find(_.model.id == 1)
@@ -90,7 +94,7 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
           val modelInfo = maybeModelInfo.get
           assert(modelInfo.lastModelVersion.isDefined)
           val lastModelVersion = modelInfo.lastModelVersion.get
-          assert(v2.right.get.modelVersion === lastModelVersion.modelVersion)
+          assert(cv2.modelVersion === lastModelVersion.modelVersion)
         }
       }
     }
