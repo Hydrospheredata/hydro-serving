@@ -358,7 +358,7 @@ class ModelController(
     new ApiResponse(code = 200, message = "ContractDescription", response = classOf[ContractDescription]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def modelContractDescription = path("api" / "v1" / "model" / LongNumber / "flatContract" ) { (modelId) =>
+  def modelContractDescription = path("api" / "v1" / "model" / LongNumber / "flatContract") { (modelId) =>
     get {
       complete {
         modelManagementService.modelContractDescription(modelId)
@@ -375,15 +375,32 @@ class ModelController(
     new ApiResponse(code = 200, message = "ContractDescription", response = classOf[ContractDescription]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def versionContractDescription = path("api" / "v1" / "model" / "version" / LongNumber / "flatContract" ) { (versionId) =>
+  def versionContractDescription = path("api" / "v1" / "model" / "version" / LongNumber / "flatContract") { (versionId) =>
     get {
-      completeFRes{
+      completeFRes {
         modelVersionManagementService.versionContractDescription(versionId)
+      }
+    }
+  }
+
+  @Path("/{modelId}")
+  @ApiOperation(value = "Delete model if not in app", notes = "Fails if any version of the model is deployed", nickname = "deleteModel", httpMethod = "DELETE")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Model", response = classOf[Model]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def deleteModel = path("api" / "v1" / "model" / LongNumber) { modelId =>
+    delete {
+      completeFRes {
+        aggregatedInfoUtilityService.deleteModel(modelId)
       }
     }
   }
 
   val routes: Route = listModels ~ getModel ~ updateModel ~ uploadModel ~ listModelBuildsByModel ~ lastModelBuilds ~
     generatePayloadByModelId ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract ~ generateInputsForVersion ~
-    lastModelVersions ~ addModelVersion ~ allModelVersions ~ modelContractDescription ~ versionContractDescription
+    lastModelVersions ~ addModelVersion ~ allModelVersions ~ modelContractDescription ~ versionContractDescription ~ deleteModel
 }

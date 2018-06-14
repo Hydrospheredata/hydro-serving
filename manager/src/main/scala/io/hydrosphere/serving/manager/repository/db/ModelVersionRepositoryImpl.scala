@@ -30,7 +30,7 @@ class ModelVersionRepositoryImpl(
         imageName = entity.imageName,
         imageTag = entity.imageTag,
         imageSha256 = entity.imageSHA256,
-        modelId = entity.model.map(m=>m.id),
+        modelId = entity.model.map(m => m.id),
         modelType = entity.modelType.toTag
       )
     ).map(s => mapFromDb(s, entity.model))
@@ -42,7 +42,7 @@ class ModelVersionRepositoryImpl(
         .joinLeft(Tables.Model)
         .on({ case (m, rt) => m.modelId === rt.modelId })
         .result.headOption
-    ).map( mapFromDb)
+    ).map(mapFromDb)
 
   override def delete(id: Long): Future[Int] =
     db.run(
@@ -113,6 +113,15 @@ class ModelVersionRepositoryImpl(
         .distinctOn(_._1.modelId.get)
         .result.headOption
     ).map(mapFromDb)
+
+  override def listForModel(modelId: Long): Future[Seq[ModelVersion]] = db.run {
+    Tables.ModelVersion
+      .filter(_.modelId === modelId)
+      .sortBy(_.modelVersion)
+      .joinLeft(Tables.Model)
+      .on({ case (m, rt) => m.modelId === rt.modelId })
+      .result
+  }.map(mapFromDb)
 }
 
 object ModelVersionRepositoryImpl {

@@ -43,13 +43,15 @@ class ModelManagementServiceImpl(
     }
   }
 
-  override def updateModel(model: Model): HFResult[Model] = {
-    modelRepository.get(model.id).flatMap {
-      case Some(existingModel) =>
-        val newModel = model.copy(created = existingModel.created, updated = LocalDateTime.now())
-        modelRepository.update(newModel).map(_ => Result.ok(newModel))
-      case None => Result.clientErrorF(s"Can't find Model with id ${model.id}")
-    }
+  override def updateModel(newModelInfo: Model): HFResult[Model] = {
+    val f = for {
+      targetModel <- EitherT(getModel(newModelInfo.id))
+      uniqueModel <- EitherT(checkIfUnique(targetModel, newModelInfo))
+      newModel = newModelInfo.copy(created = uniqueModel.created, updated = LocalDateTime.now())
+      _ <- EitherT(sourceManagementService.rename(targetModel.name, newModelInfo.name))
+      _ <- EitherT.liftF(modelRepository.update(newModel))
+    } yield newModel
+    f.value
   }
 
   override def updateModelRequest(entity: CreateOrUpdateModelRequest): HFResult[Model] = {
@@ -165,6 +167,16 @@ class ModelManagementServiceImpl(
       case None =>
         logger.info(s"Creating uploaded model with name: ${request.name}, type: ${request.modelType}")
         createModel(request)
+    }
+  }
+
+  private def checkIfUnique(targetModel: Model, newModelInfo: Model): HFResult[Model] = {
+    if (targetModel.name != newModelInfo.name) {
+      Result.okF(targetModel)
+    } else {
+      val errMsg = s"There is already a model with same name: ${targetModel.name}(${targetModel.id}) -> ${newModelInfo.name}(${newModelInfo.id})"
+      logger.error(errMsg)
+      Result.clientErrorF(errMsg)
     }
   }
 }

@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.service.source
 
-import java.nio.file.{Files, Path, Paths}
+import java.nio.file.{Files, Path, Paths, StandardCopyOption}
 
 import cats.data.EitherT
 import cats.implicits._
@@ -62,6 +62,15 @@ class ModelStorageServiceImpl(
     f.value
   }
 
+  override def rename(oldFolder: String, newFolder: String): HFResult[Path] = {
+    val f = for {
+      oldPath <- EitherT(getLocalPath(oldFolder))
+      newPath = storage.rootDir.resolve(newFolder)
+      result <- EitherT(moveFolder(oldPath, newPath))
+    } yield result
+    f.value
+  }
+
   private def writeFilesToSource(source: ModelStorage, files: Map[Path, Path]): Unit = {
     files.foreach {
       case (src, dest) =>
@@ -69,4 +78,14 @@ class ModelStorageServiceImpl(
     }
   }
 
+  private def moveFolder(oldPath: Path, newPath: Path) = {
+    try {
+      Result.okF(Files.move(oldPath, newPath, StandardCopyOption.ATOMIC_MOVE))
+    } catch {
+      case ex: Exception =>
+        val errMsg = s"Error while moving oldPath=$oldPath newPath=$newPath"
+        logger.error(errMsg)
+        Result.internalErrorF(ex, errMsg)
+    }
+  }
 }

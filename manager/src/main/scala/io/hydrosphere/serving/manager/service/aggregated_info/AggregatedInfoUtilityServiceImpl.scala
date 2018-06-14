@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager.service.aggregated_info
 
 import cats.data.EitherT
 import cats.implicits._
+import io.hydrosphere.serving.manager.model.Result.HError
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{Application, Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service.application.ApplicationManagementService
@@ -43,7 +44,6 @@ class AggregatedInfoUtilityServiceImpl(
     }
   }
 
-
   override def getModelBuilds(modelId: Long): Future[Seq[AggregatedModelBuild]] = {
     for {
       apps <- applicationManagementService.allApplications()
@@ -53,6 +53,18 @@ class AggregatedInfoUtilityServiceImpl(
         AggregatedModelBuild.fromModelBuild(build, build.modelVersion.map(findAppsUsage(_, apps)).getOrElse(Seq.empty))
       }
     }
+  }
+
+  override def deleteModel(modelId: Long): HFResult[Model] = {
+    val f = for {
+      model <- EitherT(modelManagementService.getModel(modelId))
+      versions <- EitherT(modelVersionManagementService.listForModel(model.id))
+      _ <- EitherT(checkIfNoApps(versions))
+      _ <- EitherT(deleteVersions(versions))
+    } yield {
+      model
+    }
+    f.value
   }
 
   private def findAppsUsage(version: ModelVersion, apps: Seq[Application]): Seq[Application] = {
@@ -104,5 +116,30 @@ class AggregatedInfoUtilityServiceImpl(
       case None =>
         Some(1L)
     }
+  }
+
+  private def deleteVersions(versions: Seq[ModelVersion]): HFResult[Seq[ModelVersion]] = {
+    Result.traverseF(versions) { version =>
+      modelVersionManagementService.delete(version.id)
+    }
+  }
+
+  private def checkIfNoApps(versions: Seq[ModelVersion]): HFResult[Unit] = {
+    def _checkApps(usedApps: Seq[Seq[Application]]): HFResult[Unit] = {
+      if (usedApps.isEmpty) {
+        Result.okF(Unit)
+      } else {
+        val appNames = usedApps.flatten.map(_.name).mkString(", ")
+        Result.clientErrorF(s"Can't delete the model. It's used in [$appNames].")
+      }
+    }
+
+    val f = for {
+      apps <- EitherT.liftF[Future, HError, Seq[Application]](applicationManagementService.allApplications())
+      usedApps = versions.map(findAppsUsage(_, apps))
+      _ <- EitherT(_checkApps(usedApps))
+    } yield {}
+
+    f.value
   }
 }

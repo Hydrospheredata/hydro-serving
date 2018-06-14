@@ -61,7 +61,6 @@ trait ModelManagementService {
     */
   def getModel(id: Long): HFResult[Model]
 
-
   /***
     * Try to update a model
     * @param model
