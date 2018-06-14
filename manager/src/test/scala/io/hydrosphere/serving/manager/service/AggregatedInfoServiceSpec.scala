@@ -109,6 +109,7 @@ class AggregatedInfoServiceSpec extends GenericUnitTest {
       it("fails when model has at least one version in application") {
         val model = Model(1, "model", ModelType.Tensorflow("1.1.0"), None, ModelContract.defaultInstance, LocalDateTime.now(), LocalDateTime.now())
         val version = ModelVersion(1, "image", "tag", "sha256", LocalDateTime.now(), "model", 1, ModelType.Tensorflow("1.1.0"), Some(model), ModelContract.defaultInstance)
+        val app = Application(1, "app", None, ModelContract.defaultInstance, ApplicationExecutionGraph(List.empty), List.empty)
 
         val modelMock = mock[ModelManagementService]
         when(modelMock.getModel(1)).thenReturn(Result.okF(model))
@@ -116,16 +117,38 @@ class AggregatedInfoServiceSpec extends GenericUnitTest {
         val versionMock = mock[ModelVersionManagementService]
         when(versionMock.listForModel(1)).thenReturn(Result.okF(Seq(version)))
 
-        val service = new AggregatedInfoUtilityServiceImpl(modelMock, null, versionMock, null)
+        val appMock = mock[ApplicationManagementService]
+        when(appMock.findVersionUsage(1)).thenReturn(Future.successful(Seq(app)))
+
+        val service = new AggregatedInfoUtilityServiceImpl(modelMock, null, versionMock, appMock)
 
         service.deleteModel(1).map{ result =>
+          info(result.toString)
           assert(result.isLeft, result)
+          val err = result.left.get.message
+          assert(err.contains("Can't delete the model"))
+          assert(err.contains("app"))
         }
       }
-      it("succeeds when model doesn't have versions in applications"){
-        val service = new AggregatedInfoUtilityServiceImpl(null, null, null, null)
 
-        service.deleteModel(1).map{ result =>
+      it("succeeds when model doesn't have versions in applications") {
+        val model = Model(1, "model", ModelType.Tensorflow("1.1.0"), None, ModelContract.defaultInstance, LocalDateTime.now(), LocalDateTime.now())
+        val version = ModelVersion(1, "image", "tag", "sha256", LocalDateTime.now(), "model", 1, ModelType.Tensorflow("1.1.0"), Some(model), ModelContract.defaultInstance)
+
+        val modelMock = mock[ModelManagementService]
+        when(modelMock.getModel(1)).thenReturn(Result.okF(model))
+
+        val versionMock = mock[ModelVersionManagementService]
+        when(versionMock.listForModel(1)).thenReturn(Result.okF(Seq(version)))
+        when(versionMock.delete(1)).thenReturn(Result.okF(version))
+
+        val appMock = mock[ApplicationManagementService]
+        when(appMock.findVersionUsage(1)).thenReturn(Future.successful(Seq.empty))
+
+        val service1 = new AggregatedInfoUtilityServiceImpl(modelMock, null, versionMock, appMock)
+
+        service1.deleteModel(1).map{ result =>
+          info(result.toString)
           assert(result.isRight, result)
         }
       }

@@ -120,10 +120,11 @@ class AggregatedInfoUtilityServiceImpl(
 
   private def checkIfNoApps(versions: Seq[ModelVersion]): HFResult[Unit] = {
     def _checkApps(usedApps: Seq[Seq[Application]]): HFResult[Unit] = {
-      if (usedApps.isEmpty) {
+      val allApps = usedApps.flatten.map(_.name)
+      if (allApps.isEmpty) {
         Result.okF(Unit)
       } else {
-        val appNames = usedApps.flatten.map(_.name).mkString(", ")
+        val appNames = allApps.mkString(", ")
         Result.clientErrorF(s"Can't delete the model. It's used in [$appNames].")
       }
     }
