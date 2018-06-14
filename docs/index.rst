@@ -1,20 +1,30 @@
-.. Hydrosphere Serving documentation master file, created by
-   sphinx-quickstart on Thu Jun 14 13:02:46 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Welcome to Hydrosphere's documentation!
+=======================================
 
-Welcome to Hydrosphere Serving's documentation!
-===============================================
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+Eager to get started? Soon we will publish a more detailed documentation, 
+but for now you can check out :ref:`trouble-shooting` section. 
 
 
+.. _trouble-shooting:
 
-Indices and tables
-==================
+Trouble Shooting
+----------------
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+Sometimes there might occur some weird problems while working with 
+``hydro-serving``. Down below listed some workarounds that may help you 
+to resolve your issues. If those do not help, you can ask a question
+via gitter.
+
+Connection Refused Error
+^^^^^^^^^^^^^^^^^^^^^^^^
+  When working with ``hydro-serving`` in your local environment you may
+  encounter some weird connection error, when uploading model via cli-tool ``hs upload``::
+
+    Failed to establish a new connection: [Errno 61] Connection refused.
+
+  This can be resolved by stopping your docker instance
+  and rebuilding existing containters::
+
+    $ docker stop $(docker ps -aq)
+    $ docker rm $(docker ps -aq)
+    $ docker-compose up
