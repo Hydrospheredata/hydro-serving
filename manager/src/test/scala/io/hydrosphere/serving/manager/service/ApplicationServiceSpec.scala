@@ -4,7 +4,6 @@ import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.GenericUnitTest
-import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.ModelType.Tensorflow
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.service.application.ApplicationManagementServiceImpl
@@ -15,18 +14,20 @@ class ApplicationServiceSpec extends GenericUnitTest {
 
   implicit val ctx = ExecutionContext.global
 
-  "Applications" should "be enriched" in {
+  describe("Application management service") {
+    it("should be enriched") {
 
-    val modelsMap = Future.successful(models())
-    val runtimeMap = Future.successful(runtime())
-    val apps = Seq(app())
+      val modelsMap = Future.successful(models())
+      val runtimeMap = Future.successful(runtime())
+      val apps = Seq(app())
 
-    import scala.concurrent.duration._
+      import scala.concurrent.duration._
 
-    val result = Await.result(appService.enrichServiceKeyDescription(apps, runtimeMap, modelsMap), 1 second)
-    val serviceDescription = result.head.executionGraph.stages.head.services.head.serviceDescription
-    assert(serviceDescription.runtimeName.contains("runtime:latest"))
-    assert(serviceDescription.modelName.contains("model_name:1"))
+      val result = Await.result(appService.enrichServiceKeyDescription(apps, runtimeMap, modelsMap), 1 second)
+      val serviceDescription = result.head.executionGraph.stages.head.services.head.serviceDescription
+      assert(serviceDescription.runtimeName.contains("runtime:latest"))
+      assert(serviceDescription.modelName.contains("model_name:1"))
+    }
   }
 
   def models() = Map(1l -> ModelVersion(
@@ -53,12 +54,12 @@ class ApplicationServiceSpec extends GenericUnitTest {
     ))
 
 
-  def app()  = Application(
+  def app() = Application(
     id = 1,
     name = "app",
     contract = ModelContract(),
     kafkaStreaming = List(),
-    namespace=None,
+    namespace = None,
     executionGraph = ApplicationExecutionGraph(
       stages = List(
         ApplicationStage(
@@ -79,7 +80,6 @@ class ApplicationServiceSpec extends GenericUnitTest {
 
 
   val appService = new ApplicationManagementServiceImpl(
-    null, null, null, null,null, null, null, null
+    null, null, null, null, null, null, null, null
   )
-
 }

@@ -33,147 +33,148 @@ class ModelBuildServiceSpec extends GenericUnitTest {
     updated = LocalDateTime.now()
   )
 
-  "ModelBuildService" should "build a correct model without new contract" in {
-    val buildRepo = mock[ModelBuildRepository]
-    Mockito.when(buildRepo.create(Matchers.any())).thenReturn(
-      Future.successful(
-        ModelBuild(
-          1,
-          dummyModel,
-          1,
-          LocalDateTime.now(),
-          None,
-          ModelBuildStatus.STARTED,
-          None,
-          None,
-          None
+  describe("Model build service") {
+    it("builds a model without contract") {
+      val buildRepo = mock[ModelBuildRepository]
+      Mockito.when(buildRepo.create(Matchers.any())).thenReturn(
+        Future.successful(
+          ModelBuild(
+            1,
+            dummyModel,
+            1,
+            LocalDateTime.now(),
+            None,
+            ModelBuildStatus.STARTED,
+            None,
+            None,
+            None
+          )
         )
       )
-    )
-    Mockito.when(buildRepo.getRunningBuild(Matchers.any(), Matchers.any())).thenReturn(Future.successful(None))
+      Mockito.when(buildRepo.getRunningBuild(Matchers.any(), Matchers.any())).thenReturn(Future.successful(None))
 
-    val scriptS = mock[BuildScriptManagementService]
-    Mockito.when(scriptS.fetchScriptForModel(Matchers.any())).thenReturn(
-      Future.successful(BuildScriptManagementServiceImpl.defaultBuildScript)
-    )
+      val scriptS = mock[BuildScriptManagementService]
+      Mockito.when(scriptS.fetchScriptForModel(Matchers.any())).thenReturn(
+        Future.successful(BuildScriptManagementServiceImpl.defaultBuildScript)
+      )
 
-    val versionS = mock[ModelVersionManagementService]
-    Mockito.when(versionS.fetchLastModelVersion(1L, None)).thenReturn(
-      Result.okF(1L)
-    )
-    Mockito.when(versionS.create(Matchers.any())).thenReturn(
-      Result.okF(
-        ModelVersion(
-          1,
-          "image",
-          "tag",
-          "sha256",
-          LocalDateTime.now(),
-          "modelName",
-          1,
-          ModelType.Unknown("test"),
-          Some(dummyModel),
-          ModelContract.defaultInstance
+      val versionS = mock[ModelVersionManagementService]
+      Mockito.when(versionS.fetchLastModelVersion(1L, None)).thenReturn(
+        Result.okF(1L)
+      )
+      Mockito.when(versionS.create(Matchers.any())).thenReturn(
+        Result.okF(
+          ModelVersion(
+            1,
+            "image",
+            "tag",
+            "sha256",
+            LocalDateTime.now(),
+            "modelName",
+            1,
+            ModelType.Unknown("test"),
+            Some(dummyModel),
+            ModelContract.defaultInstance
+          )
         )
       )
-    )
 
-    val modelS = mock[ModelManagementService]
-    Mockito.when(modelS.getModel(1L)).thenReturn(
-      Result.okF(dummyModel)
-    )
+      val modelS = mock[ModelManagementService]
+      Mockito.when(modelS.getModel(1L)).thenReturn(
+        Result.okF(dummyModel)
+      )
 
-    val pushS = mock[ModelPushService]
 
-    val builder = mock[ModelBuildService]
-    Mockito.when(builder.build(Matchers.any(), Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
-      Result.okF("kek")
-    )
+      val builder = mock[ModelBuildService]
+      Mockito.when(builder.build(Matchers.any(), Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
+        Result.okF("kek")
+      )
 
-    val service = new ModelBuildManagementServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
+      val service = new ModelBuildManagementServiceImpl(buildRepo, scriptS, versionS, modelS, null, builder)
 
-    service.buildAndOverrideContract(1, None, None).map { result =>
-      assert(result.isRight, result)
-      val modelBuild = result.right.get
-      assert(modelBuild.model.id === 1L)
+      service.buildAndOverrideContract(1, None, None).map { result =>
+        assert(result.isRight, result)
+        val modelBuild = result.right.get
+        assert(modelBuild.model.id === 1L)
+      }
+    }
+
+    it("starts a build") {
+      val model = dummyModel.copy(id = 1337, name = "tmodel")
+      val rawContract = ModelContract("new_contract_test")
+      val contract = rawContract.flatten
+
+      val buildRepo = mock[ModelBuildRepository]
+      Mockito.when(buildRepo.create(Matchers.any())).thenReturn(
+        Future.successful(
+          ModelBuild(
+            1,
+            model.copy(modelContract = rawContract),
+            1,
+            LocalDateTime.now(),
+            None,
+            ModelBuildStatus.STARTED,
+            None,
+            None,
+            None
+          )
+        )
+      )
+      Mockito.when(buildRepo.getRunningBuild(Matchers.any(), Matchers.any())).thenReturn(Future.successful(None))
+
+      val scriptS = mock[BuildScriptManagementService]
+      Mockito.when(scriptS.fetchScriptForModel(Matchers.any())).thenReturn(
+        Future.successful(BuildScriptManagementServiceImpl.defaultBuildScript)
+      )
+
+      val versionS = mock[ModelVersionManagementService]
+      Mockito.when(versionS.fetchLastModelVersion(1337L, None)).thenReturn(
+        Result.okF(1L)
+      )
+      Mockito.when(versionS.create(Matchers.any())).thenReturn(
+        Result.okF(
+          ModelVersion(
+            1,
+            "image",
+            "tag",
+            "sha256",
+            LocalDateTime.now(),
+            "modelName",
+            1,
+            ModelType.Unknown("test"),
+            Some(model.copy(modelContract = rawContract)),
+            rawContract
+          )
+        )
+      )
+
+      val modelS = mock[ModelManagementService]
+      Mockito.when(modelS.getModel(1337L)).thenReturn(
+        Result.okF(model)
+      )
+      Mockito.when(modelS.submitFlatContract(Matchers.any(), Matchers.any())).thenReturn(
+        Result.okF(model.copy(modelContract = rawContract))
+      )
+
+      val pushS = mock[ModelPushService]
+
+      val builder = mock[ModelBuildService]
+      Mockito.when(builder.build(Matchers.any(), Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
+        Result.okF("kek")
+      )
+
+      val service = new ModelBuildManagementServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
+
+      service.buildAndOverrideContract(1337, Some(contract), None).map { result =>
+        assert(result.isRight, result)
+        val modelBuild = result.right.get
+        assert(modelBuild.model.id === 1337L)
+        assert(modelBuild.model.modelContract === rawContract)
+      }
     }
   }
 
-  it should "start a build" in {
-    val model = dummyModel.copy(id = 1337, name = "tmodel")
-    val rawContract = ModelContract("new_contract_test")
-    val contract = rawContract.flatten
-
-    val buildRepo = mock[ModelBuildRepository]
-    Mockito.when(buildRepo.create(Matchers.any())).thenReturn(
-      Future.successful(
-        ModelBuild(
-          1,
-          model.copy(modelContract = rawContract),
-          1,
-          LocalDateTime.now(),
-          None,
-          ModelBuildStatus.STARTED,
-          None,
-          None,
-          None
-        )
-      )
-    )
-    Mockito.when(buildRepo.getRunningBuild(Matchers.any(), Matchers.any())).thenReturn(Future.successful(None))
-
-    val scriptS = mock[BuildScriptManagementService]
-    Mockito.when(scriptS.fetchScriptForModel(Matchers.any())).thenReturn(
-      Future.successful(BuildScriptManagementServiceImpl.defaultBuildScript)
-    )
-
-    val versionS = mock[ModelVersionManagementService]
-    Mockito.when(versionS.fetchLastModelVersion(1337L, None)).thenReturn(
-      Result.okF(1L)
-    )
-    Mockito.when(versionS.create(Matchers.any())).thenReturn(
-      Result.okF(
-        ModelVersion(
-          1,
-          "image",
-          "tag",
-          "sha256",
-          LocalDateTime.now(),
-          "modelName",
-          1,
-          ModelType.Unknown("test"),
-          Some(model.copy(modelContract = rawContract)),
-          rawContract
-        )
-      )
-    )
-
-    val modelS = mock[ModelManagementService]
-    Mockito.when(modelS.getModel(1337L)).thenReturn(
-      Result.okF(model)
-    )
-    Mockito.when(modelS.submitFlatContract(Matchers.any(), Matchers.any())).thenReturn(
-      Result.okF(model.copy(modelContract = rawContract))
-    )
-
-    val pushS = mock[ModelPushService]
-
-    val builder = mock[ModelBuildService]
-    Mockito.when(builder.build(Matchers.any(), Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
-      Result.okF("kek")
-    )
-
-    val service = new ModelBuildManagementServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
-
-    service.buildAndOverrideContract(1337, Some(contract), None).map { result =>
-      assert(result.isRight, result)
-      val modelBuild = result.right.get
-      assert(modelBuild.model.id === 1337L)
-      assert(modelBuild.model.modelContract === rawContract)
-    }
-  }
-
-  it should "handle a successful build" in {
+  it("should handle a successful build") {
     val model = dummyModel.copy(id = 1337, name = "tmodel")
     val rawContract = ModelContract("new_contract_test")
     val contract = rawContract.flatten
@@ -244,7 +245,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
     }
   }
 
-  it should "handle a failed build" in {
+  it("should handle a failed build") {
     val model = dummyModel.copy(id = 1337, name = "tmodel")
     val rawContract = ModelContract("new_contract_test")
     val contract = rawContract.flatten
@@ -312,7 +313,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
     }
   }
 
-  it should "upload and release a model" in {
+  it("should upload and release a model") {
     val rawContract = ModelContract("new_contract_test")
     val model = dummyModel.copy(id = 1337, name = "tmodel", modelContract = rawContract)
     val upload = ModelUpload(
