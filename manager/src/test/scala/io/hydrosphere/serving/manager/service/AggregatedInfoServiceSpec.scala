@@ -4,7 +4,7 @@ import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.GenericUnitTest
-import io.hydrosphere.serving.manager.model.ModelBuildStatus
+import io.hydrosphere.serving.manager.model.{ModelBuildStatus, Result}
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.service.aggregated_info.AggregatedInfoUtilityServiceImpl
@@ -105,98 +105,29 @@ class AggregatedInfoServiceSpec extends GenericUnitTest {
       }
     }
 
-    it("should return  apps info for model versions") {
-      val createdTime = LocalDateTime.now()
+    describe("delete") {
+      it("fails when model has at least one version in application") {
+        val model = Model(1, "model", ModelType.Tensorflow("1.1.0"), None, ModelContract.defaultInstance, LocalDateTime.now(), LocalDateTime.now())
+        val version = ModelVersion(1, "image", "tag", "sha256", LocalDateTime.now(), "model", 1, ModelType.Tensorflow("1.1.0"), Some(model), ModelContract.defaultInstance)
 
-      val unbuiltModel = Model(1, "model1", ModelType.Tensorflow("1.1.0"), None, ModelContract.defaultInstance, createdTime, createdTime)
+        val modelMock = mock[ModelManagementService]
+        when(modelMock.getModel(1)).thenReturn(Result.okF(model))
 
-      val builtModel1 = Model(2, "model2", ModelType.Tensorflow("1.1.0"), None, ModelContract.defaultInstance, createdTime, createdTime)
-      val mVersion1 = ModelVersion(1, "image", "tag", "sha256", createdTime, builtModel1.name, 1, ModelType.Tensorflow("1.1.0"), Some(builtModel1), builtModel1.modelContract)
-      val mBuild1 = ModelBuild(1, builtModel1, 1, createdTime, Some(LocalDateTime.now()), ModelBuildStatus.FINISHED, None, None, Some(mVersion1))
+        val versionMock = mock[ModelVersionManagementService]
+        when(versionMock.listForModel(1)).thenReturn(Result.okF(Seq(version)))
 
-      val builtModel2 = Model(3, "model3", ModelType.Tensorflow("1.1.0"), None, ModelContract.defaultInstance, createdTime, createdTime)
-      val mVersion2 = ModelVersion(2, "image", "tag", "sha256", createdTime, builtModel2.name, 1, ModelType.Tensorflow("1.1.0"), Some(builtModel2), builtModel2.modelContract)
-      val mBuild2 = ModelBuild(2, builtModel2, 1, createdTime, Some(LocalDateTime.now()), ModelBuildStatus.FINISHED, None, None, Some(mVersion2))
+        val service = new AggregatedInfoUtilityServiceImpl(modelMock, null, versionMock, null)
 
+        service.deleteModel(1).map{ result =>
+          assert(result.isLeft, result)
+        }
+      }
+      it("succeeds when model doesn't have versions in applications"){
+        val service = new AggregatedInfoUtilityServiceImpl(null, null, null, null)
 
-      val graph1 = ApplicationExecutionGraph(
-        List(
-          ApplicationStage(
-            List(WeightedService(
-              ServiceKeyDescription(1, Some(mVersion1.id), None, Some(mVersion1.fullName), None),
-              100,
-              None
-            )), None
-          ),
-          ApplicationStage(
-            List(WeightedService(
-              ServiceKeyDescription(2, Some(mVersion2.id), None, Some(mVersion2.fullName), None),
-              100,
-              None
-            )), None
-          )
-        )
-      )
-      val app1 = Application(1, "testapp1", None, ModelContract.defaultInstance, graph1, List.empty)
-      val graph2 = ApplicationExecutionGraph(
-        List(ApplicationStage(
-          List(
-            WeightedService(
-              ServiceKeyDescription(1, Some(mVersion1.id), None, Some(mVersion1.fullName), None),
-              100,
-              None
-            ),
-            WeightedService(
-              ServiceKeyDescription(1, Some(mVersion2.id), None, Some(mVersion2.fullName), None),
-              100,
-              None
-            )
-          ), None
-        ))
-      )
-      val app2 = Application(2, "testapp2", None, ModelContract.defaultInstance, graph2, List.empty)
-      val graph3 = ApplicationExecutionGraph(
-        List(ApplicationStage(
-          List(
-            WeightedService(
-              ServiceKeyDescription(1, None, None, None, None),
-              100,
-              None
-            )
-          ), None
-        ))
-      )
-      val app3 = Application(3, "testapp3", None, ModelContract.defaultInstance, graph3, List.empty)
-
-      val modelMock = mock[ModelManagementService]
-      Mockito.when(modelMock.allModels()).thenReturn(
-        Future.successful(Seq(unbuiltModel, builtModel1, builtModel2))
-      )
-
-      val buildMock = mock[ModelBuildManagmentService]
-
-      val versionMock = mock[ModelVersionManagementService]
-      Mockito.when(versionMock.list).thenReturn(
-        Future.successful(Seq(mVersion1, mVersion2))
-      )
-
-      val appMock = mock[ApplicationManagementService]
-      Mockito.when(appMock.allApplications()).thenReturn(
-        Future.successful(Seq(app1, app2, app3))
-      )
-
-      val aggService = new AggregatedInfoUtilityServiceImpl(modelMock, buildMock, versionMock, appMock)
-
-      aggService.allModelVersions.map { result =>
-        assert(result.nonEmpty)
-        val m2 = result.find(_.modelName == "model2").get
-        val m3 = result.find(_.modelName == "model3").get
-
-        assert(m2.model.get === builtModel1)
-        assert(m2.applications === Seq(app1, app2))
-
-        assert(m3.model.get === builtModel2)
-        assert(m3.applications === Seq(app1, app2))
+        service.deleteModel(1).map{ result =>
+          assert(result.isRight, result)
+        }
       }
     }
   }

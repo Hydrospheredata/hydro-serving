@@ -20,14 +20,14 @@ trait ApplicationManagementService {
 
   def generateInputsForApplication(appId: Long, signatureName: String): HFResult[JsObject]
 
+  def findVersionUsage(versionId: Long): Future[Seq[Application]]
+
   def createApplication(
     name: String,
     namespace:Option[String],
     executionGraph: ExecutionGraphRequest,
     kafkaStreaming: Seq[ApplicationKafkaStream]
   ): HFResult[Application]
-
-  def deleteApplication(id: Long): HFResult[Application]
 
   def updateApplication(
     id: Long,
@@ -36,6 +36,8 @@ trait ApplicationManagementService {
     executionGraph: ExecutionGraphRequest,
     kafkaStreaming: Seq[ApplicationKafkaStream]
   ): HFResult[Application]
+
+  def deleteApplication(id: Long): HFResult[Application]
 }
 
 

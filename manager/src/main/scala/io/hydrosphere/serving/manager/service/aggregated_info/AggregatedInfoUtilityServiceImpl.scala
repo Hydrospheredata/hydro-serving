@@ -34,23 +34,25 @@ class AggregatedInfoUtilityServiceImpl(
   }
 
   override def allModelVersions: Future[Seq[AggregatedModelVersion]] = {
-    for {
-      apps <- applicationManagementService.allApplications()
-      versions <- modelVersionManagementService.list
-    } yield {
-      versions.map { version =>
-        AggregatedModelVersion.fromModelVersion(version, findAppsUsage(version, apps))
+    modelVersionManagementService.list.flatMap { versions =>
+      Future.traverse(versions) { version =>
+        applicationManagementService.findVersionUsage(version.id).map { apps =>
+          AggregatedModelVersion.fromModelVersion(version, apps)
+        }
       }
     }
   }
 
   override def getModelBuilds(modelId: Long): Future[Seq[AggregatedModelBuild]] = {
-    for {
-      apps <- applicationManagementService.allApplications()
-      builds <- modelBuildManagementService.modelBuildsByModelId(modelId)
-    } yield {
-      builds.map { build =>
-        AggregatedModelBuild.fromModelBuild(build, build.modelVersion.map(findAppsUsage(_, apps)).getOrElse(Seq.empty))
+    modelBuildManagementService.modelBuildsByModelId(modelId).flatMap { builds =>
+      Future.traverse(builds) { build =>
+        val appsF = build.modelVersion.map { version =>
+          applicationManagementService.findVersionUsage(version.id)
+        }.getOrElse(Future.successful(Seq.empty))
+
+        appsF.map { apps =>
+          AggregatedModelBuild.fromModelBuild(build, apps)
+        }
       }
     }
   }
@@ -67,15 +69,7 @@ class AggregatedInfoUtilityServiceImpl(
     f.value
   }
 
-  private def findAppsUsage(version: ModelVersion, apps: Seq[Application]): Seq[Application] = {
-    apps.filter { app =>
-      app.executionGraph.stages.exists { stage =>
-        stage.services.exists { service =>
-          service.serviceDescription.modelVersionId.contains(version.id)
-        }
-      }
-    }
-  }
+
 
   private def aggregatedInfo(models: Seq[Model]): Future[Seq[AggregatedModelInfo]] = {
     val ids = models.map(_.id)
@@ -135,8 +129,7 @@ class AggregatedInfoUtilityServiceImpl(
     }
 
     val f = for {
-      apps <- EitherT.liftF[Future, HError, Seq[Application]](applicationManagementService.allApplications())
-      usedApps = versions.map(findAppsUsage(_, apps))
+      usedApps <- EitherT.liftF[Future, HError, Seq[Seq[Application]]](Future.traverse(versions.map(_.id))(applicationManagementService.findVersionUsage))
       _ <- EitherT(_checkApps(usedApps))
     } yield {}
 
