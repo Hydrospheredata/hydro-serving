@@ -10,9 +10,10 @@ import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model.Result
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.Model
-import io.hydrosphere.serving.manager.repository.ModelRepository
+import io.hydrosphere.serving.manager.repository.{ModelRepository, ModelVersionRepository}
 import io.hydrosphere.serving.manager.service.contract.ContractUtilityService
-import io.hydrosphere.serving.manager.service.model.ModelManagementServiceImpl
+import io.hydrosphere.serving.manager.service.model.{CreateModelRequest, ModelManagementServiceImpl, UpdateModelRequest}
+import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import io.hydrosphere.serving.manager.service.source.{ModelStorageService, StorageUploadResult}
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.mockito.{Matchers, Mockito}
@@ -120,9 +121,38 @@ class ModelServiceSpec extends GenericUnitTest {
     val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, contractSerice)
 
     modelManagementService.uploadModel(upload).map { maybeModel =>
-      maybeModel.isRight should equal(true)
+      assert(maybeModel.isRight, maybeModel)
       val rModel = maybeModel.right.get
       rModel.name should equal("tf-model")
     }
+  }
+
+  it should "fail to update nonexistent model" in {
+    val updateRequest = UpdateModelRequest(
+      id = 100,
+      name = "new_model",
+      ModelType.Tensorflow("1.1.0"),
+      description = None,
+      modelContract = ModelContract.defaultInstance
+    )
+
+    val modelRepoMock = mock[ModelRepository]
+    val versionRepoMock = mock[ModelVersionRepository]
+    val storageMock = mock[ModelStorageService]
+    val contractMock = mock[ContractUtilityService]
+
+    val modelService = new ModelManagementServiceImpl(modelRepoMock, versionRepoMock, storageMock, contractMock)
+
+    modelService.updateModel(updateRequest).map { result =>
+      assert(result.isLeft, result)
+    }
+  }
+
+  it should "fail to update model with non-unique name" in {
+    ???
+  }
+
+  it should "update model with unique name" in {
+    ???
   }
 }
