@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.test
+package io.hydrosphere.serving.manager.it
 
 import io.hydrosphere.serving.manager.util.IsolatedDockerClient
 import org.apache.logging.log4j.scala.Logging

@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.test
+package io.hydrosphere.serving.manager.it
 
 import com.spotify.docker.client.messages.{ContainerConfig, HostConfig, PortBinding}
 
