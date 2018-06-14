@@ -5,7 +5,7 @@ import java.nio.file.Path
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.model.{ModelDeploy, ModelUpload}
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.db.{Application, ModelBuild, ModelVersion}
+import io.hydrosphere.serving.manager.model.db.{Application, ModelBuild}
 
 import scala.concurrent.Future
 
@@ -16,11 +16,9 @@ trait ModelBuildManagmentService {
 
   def lastModelBuildsByModelId(id: Long, maximum: Int): Future[Seq[ModelBuild]]
 
-  def buildModel(modelId: Long, flatContract: Option[ContractDescription] = None, modelVersion: Option[Long] = None): HFResult[ModelVersion]
+  def buildAndOverrideContract(modelId: Long, flatContract: Option[ContractDescription] = None, modelVersion: Option[Long] = None): HFResult[ModelBuild]
 
-  def buildModelVersion(modelBuild: ModelBuild, script: String): HFResult[ModelVersion]
-
-  def uploadAndBuild(file: Path, modelUpload: ModelUpload): HFResult[ModelVersion]
+  def uploadAndBuild(file: Path, modelUpload: ModelUpload): HFResult[ModelBuild]
 
   def uploadAndDeploy(file: Path, modelUpload: ModelDeploy): HFResult[Application]
 }

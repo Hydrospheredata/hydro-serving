@@ -42,16 +42,18 @@ class RuntimeController(
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def createRuntime = path("api" / "v1" / "runtime") {
-    entity(as[CreateRuntimeRequest]) { r =>
-      completeF(
-        runtimeManagementService.create(
-          r.name,
-          r.version,
-          r.modelTypes.getOrElse(List.empty),
-          r.tags.getOrElse(List.empty),
-          r.configParams.getOrElse(Map.empty)
+    post{
+      entity(as[CreateRuntimeRequest]) { r =>
+        completeF(
+          runtimeManagementService.create(
+            r.name,
+            r.version,
+            r.modelTypes.getOrElse(List.empty),
+            r.tags.getOrElse(List.empty),
+            r.configParams.getOrElse(Map.empty)
+          )
         )
-      )
+      }
     }
   }
 

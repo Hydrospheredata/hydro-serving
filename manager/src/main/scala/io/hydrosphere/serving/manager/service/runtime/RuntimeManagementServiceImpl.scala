@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager.service.runtime
 
+import com.spotify.docker.client.DockerClient
 import io.hydrosphere.serving.manager.model.{HFResult, Result}
 import io.hydrosphere.serving.manager.model.Result.ClientError
 import io.hydrosphere.serving.manager.model.Result.Implicits._

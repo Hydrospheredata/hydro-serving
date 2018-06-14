@@ -4,14 +4,16 @@ import cats.data.EitherT
 import cats.instances.all._
 import io.hydrosphere.serving.manager.controller.application._
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.model.ModelBuildStatus
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.test.FullIntegrationSpec
 import org.scalatest.BeforeAndAfterAll
 
-import scala.concurrent.Await
+import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
 
 class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
+  implicit val awaitTimeout = 50.seconds
   val file1 = packModel("/models/dummy_model")
   val upload1 = ModelUpload(
     name = Some("m1")
@@ -25,7 +27,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
   "Application service" should {
     "create a simple application" in {
       for {
-        version <- managerServices.modelBuildManagmentService.buildModel(1, None)
+        modelBuild <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
         appRequest = CreateApplicationRequest(
           name = "testapp",
           namespace = None,
@@ -35,7 +37,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 services = List(
                   SimpleServiceDescription(
                     runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(version.right.get.id),
+                    modelVersionId = Some(modelBuild.right.get.id),
                     environmentId = None,
                     weight = 0,
                     signatureName = "default"
@@ -46,6 +48,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           ),
           kafkaStreaming = List.empty
         )
+        version = awaitVersion(modelBuild.right.get.id)
         appResult <- managerServices.applicationManagementService.createApplication(
           appRequest.name,
           appRequest.namespace,
@@ -63,7 +66,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 WeightedService(
                   ServiceKeyDescription(
                     runtimeId = 1,
-                    modelVersionId = Some(1),
+                    modelVersionId = Some(version.id),
                     environmentId = None
                   ),
                   weight = 100,
@@ -75,15 +78,16 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           )
         )
         assert(app.name === appRequest.name)
-        assert(app.contract === version.right.get.modelContract)
+        assert(app.contract === modelBuild.right.get.model.modelContract)
         assert(app.executionGraph === expectedGraph)
       }
     }
 
     "create a multi-service stage" in {
       for {
-        versionResult <- managerServices.modelBuildManagmentService.buildModel(1, None)
-        version = versionResult.right.get
+        buildResult <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
+        build = buildResult.right.get
+        version = awaitVersion(build.id)
         appRequest = CreateApplicationRequest(
           name = "MultiServiceStage",
           namespace = None,
@@ -132,7 +136,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                     environmentId = None
                   ),
                   weight = 50,
-                  signature = version.modelContract.signatures.find(_.signatureName == "default_spark")
+                  signature = build.model.modelContract.signatures.find(_.signatureName == "default_spark")
                 ),
                 WeightedService(
                   ServiceKeyDescription(
@@ -141,10 +145,10 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                     environmentId = None
                   ),
                   weight = 50,
-                  signature = version.modelContract.signatures.find(_.signatureName == "default_spark")
+                  signature = build.model.modelContract.signatures.find(_.signatureName == "default_spark")
                 )
               ),
-              version.modelContract.signatures.find(_.signatureName == "default_spark").map(_.withSignatureName("0"))
+              build.model.modelContract.signatures.find(_.signatureName == "default_spark").map(_.withSignatureName("0"))
             )
           )
         )
@@ -155,7 +159,8 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
     "create and update an application with kafkaStreaming" in {
       for {
-        version <- managerServices.modelBuildManagmentService.buildModel(1, None)
+        buildResult <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
+        version = awaitVersion(buildResult.right.get.id)
         appRequest = CreateApplicationRequest(
           name = "kafka_app",
           namespace = None,
@@ -165,7 +170,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 services = List(
                   SimpleServiceDescription(
                     runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(version.right.get.id),
+                    modelVersionId = Some(version.id),
                     environmentId = None,
                     weight = 100,
                     signatureName = "default"
