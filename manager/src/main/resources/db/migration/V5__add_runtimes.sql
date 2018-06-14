@@ -1,14 +1,3 @@
-CREATE TABLE hydro_serving.runtime
-(
-  runtime_id           BIGSERIAL PRIMARY KEY,
-  name                 TEXT    NOT NULL,
-  version              TEXT    NOT NULL,
-  tags                 TEXT [] NOT NULL,
-  config_params        TEXT [] NOT NULL,
-  suitable_model_types TEXT [] NOT NULL DEFAULT '{"unknown"}',
-  CONSTRAINT runtime_type_name_version_unique UNIQUE (name, version)
-);
-
 -- SPARK RUNTIMES
 
 INSERT INTO hydro_serving.runtime(name, version, tags, config_params, suitable_model_types) VALUES (
