@@ -146,8 +146,8 @@ class ModelController(
   @Path("/")
   @ApiOperation(value = "Update model", notes = "Update model", nickname = "updateModel", httpMethod = "PUT")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "CreateOrUpdateModelRequest", required = true,
-      dataTypeClass = classOf[CreateModelRequest], paramType = "body")
+    new ApiImplicitParam(name = "body", value = "UpdateModelRequest", required = true,
+      dataTypeClass = classOf[UpdateModelRequest], paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Model", response = classOf[Model]),

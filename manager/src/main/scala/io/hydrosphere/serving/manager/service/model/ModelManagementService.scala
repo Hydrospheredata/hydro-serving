@@ -89,4 +89,11 @@ trait ModelManagementService {
     * @return
     */
   def modelsByType(types: Set[String]): Future[Seq[Model]]
+
+  /**
+    * Deletes a model if possible. Fails if there are dependencies for the model.
+    * @param modelId
+    * @return
+    */
+  def delete(modelId: Long): HFResult[Model]
 }

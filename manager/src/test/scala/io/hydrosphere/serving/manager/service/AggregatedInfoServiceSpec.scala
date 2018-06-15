@@ -134,9 +134,15 @@ class AggregatedInfoServiceSpec extends GenericUnitTest {
       it("succeeds when model doesn't have versions in applications") {
         val model = Model(1, "model", ModelType.Tensorflow("1.1.0"), None, ModelContract.defaultInstance, LocalDateTime.now(), LocalDateTime.now())
         val version = ModelVersion(1, "image", "tag", "sha256", LocalDateTime.now(), "model", 1, ModelType.Tensorflow("1.1.0"), Some(model), ModelContract.defaultInstance)
+        val build = ModelBuild(1, model, 1, LocalDateTime.now(), Some(LocalDateTime.now()), ModelBuildStatus.FINISHED, None, None, Some(version))
 
         val modelMock = mock[ModelManagementService]
         when(modelMock.getModel(1)).thenReturn(Result.okF(model))
+        when(modelMock.delete(1)).thenReturn(Result.okF(model))
+
+        val buildMock = mock[ModelBuildManagmentService]
+        when(buildMock.listForModel(1)).thenReturn(Result.okF(Seq(build)))
+        when(buildMock.delete(1)).thenReturn(Result.okF(build))
 
         val versionMock = mock[ModelVersionManagementService]
         when(versionMock.listForModel(1)).thenReturn(Result.okF(Seq(version)))
@@ -145,7 +151,7 @@ class AggregatedInfoServiceSpec extends GenericUnitTest {
         val appMock = mock[ApplicationManagementService]
         when(appMock.findVersionUsage(1)).thenReturn(Future.successful(Seq.empty))
 
-        val service1 = new AggregatedInfoUtilityServiceImpl(modelMock, null, versionMock, appMock)
+        val service1 = new AggregatedInfoUtilityServiceImpl(modelMock, buildMock, versionMock, appMock)
 
         service1.deleteModel(1).map{ result =>
           info(result.toString)

@@ -1,15 +1,11 @@
 package io.hydrosphere.serving.manager.service.model_version
 
-import java.time.LocalDateTime
-
 import cats.data.EitherT
 import cats.implicits._
-import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.contract.utils.ops.ModelContractOps._
 import io.hydrosphere.serving.manager.model.Result.HError
-import io.hydrosphere.serving.manager.model.api.ModelType
-import io.hydrosphere.serving.manager.model.db.{Model, ModelVersion}
+import io.hydrosphere.serving.manager.model.db.ModelVersion
 import io.hydrosphere.serving.manager.model.{HFResult, Result}
 import io.hydrosphere.serving.manager.repository.ModelVersionRepository
 import io.hydrosphere.serving.manager.service.contract.ContractUtilityService

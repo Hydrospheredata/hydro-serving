@@ -192,4 +192,12 @@ class ModelManagementServiceImpl(
         Result.ok(targetModel)
     }
   }
+
+  override def delete(modelId: Long): HFResult[Model] = {
+    val f = for {
+      model <- EitherT(getModel(modelId))
+      _ <- EitherT.liftF[Future, HError, Int](modelRepository.delete(modelId))
+    } yield model
+    f.value
+  }
 }

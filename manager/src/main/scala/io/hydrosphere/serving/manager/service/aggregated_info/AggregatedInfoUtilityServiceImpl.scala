@@ -62,7 +62,10 @@ class AggregatedInfoUtilityServiceImpl(
       model <- EitherT(modelManagementService.getModel(modelId))
       versions <- EitherT(modelVersionManagementService.listForModel(model.id))
       _ <- EitherT(checkIfNoApps(versions))
+      builds <- EitherT(modelBuildManagementService.listForModel(model.id))
+      _ <- EitherT(deleteBuilds(builds))
       _ <- EitherT(deleteVersions(versions))
+      _ <- EitherT(modelManagementService.delete(model.id))
     } yield {
       model
     }
@@ -109,6 +112,12 @@ class AggregatedInfoUtilityServiceImpl(
         }
       case None =>
         Some(1L)
+    }
+  }
+
+  private def deleteBuilds(builds: Seq[ModelBuild]): HFResult[Seq[ModelBuild]] = {
+    Result.traverseF(builds) { build =>
+      modelBuildManagementService.delete(build.id)
     }
   }
 

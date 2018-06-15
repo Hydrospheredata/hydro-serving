@@ -6,7 +6,7 @@ import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
-import io.hydrosphere.serving.manager.model.Result.HError
+import io.hydrosphere.serving.manager.model.Result.{ClientError, HError}
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.repository.ModelBuildRepository
@@ -15,6 +15,7 @@ import io.hydrosphere.serving.manager.service.model_build.builders._
 import io.hydrosphere.serving.manager.service.model.ModelManagementService
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import org.apache.logging.log4j.scala.Logging
+import Result.Implicits._
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -28,6 +29,12 @@ class ModelBuildManagementServiceImpl(
 )(
   implicit executionContext: ExecutionContext
 ) extends ModelBuildManagmentService with Logging {
+
+  def get(buildId: Long): HFResult[ModelBuild] = {
+    modelBuildRepository.get(buildId).map { maybeBuild =>
+      maybeBuild.toHResult(ClientError(s"Can't find build for id=$buildId"))
+    }
+  }
 
   override def modelBuildsByModelId(id: Long): Future[Seq[ModelBuild]] =
     modelBuildRepository.listByModelId(id)
@@ -141,5 +148,21 @@ class ModelBuildManagementServiceImpl(
       case Some(x) => Result.clientError(s"There is already a running build for a model ${x.model.name} version ${x.version}")
       case None => Result.ok(modelBuild)
     }
+  }
+
+  override def delete(buildId: Long): HFResult[ModelBuild] = {
+    val f = for {
+      build <- EitherT(get(buildId))
+      _ <- EitherT.liftF[Future, HError, Int](modelBuildRepository.delete(buildId))
+    } yield build
+    f.value
+  }
+
+  override def listForModel(modelId: Long): HFResult[Seq[ModelBuild]] = {
+    val f = for {
+      model <- EitherT(modelManagementService.getModel(modelId))
+      builds <- EitherT.liftF[Future, HError, Seq[ModelBuild]](modelBuildRepository.listByModelId(model.id))
+    } yield builds
+    f.value
   }
 }
