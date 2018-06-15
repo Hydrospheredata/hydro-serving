@@ -1,9 +1,9 @@
 package io.hydrosphere.serving.manager
 
+import org.mockito.Mockito
 import org.scalatest.mockito.MockitoSugar
-import org.scalatest.{AsyncFlatSpecLike, Matchers}
+import org.scalatest.{AsyncFunSpecLike, Matchers}
 
-import scala.concurrent.duration._
-
-trait GenericUnitTest extends AsyncFlatSpecLike with Matchers with MockitoSugar {
+trait GenericUnitTest extends AsyncFunSpecLike with Matchers with MockitoSugar {
+  def when[T](methodCall: T) = Mockito.when(methodCall)
 }

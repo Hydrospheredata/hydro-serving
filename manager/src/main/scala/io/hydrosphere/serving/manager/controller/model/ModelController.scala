@@ -1,8 +1,8 @@
 package io.hydrosphere.serving.manager.controller.model
 
 import java.nio.file.{Files, StandardOpenOption}
-import javax.ws.rs.Path
 
+import javax.ws.rs.Path
 import akka.actor.ActorSystem
 import akka.http.scaladsl.model.Multipart
 import akka.http.scaladsl.server.Directives._
@@ -15,7 +15,7 @@ import io.hydrosphere.serving.manager.controller.{GenericController, ServingData
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedModelInfo}
-import io.hydrosphere.serving.manager.service.model.{CreateOrUpdateModelRequest, ModelManagementService}
+import io.hydrosphere.serving.manager.service.model.{CreateModelRequest, ModelManagementService, UpdateModelRequest}
 import io.hydrosphere.serving.manager.service.model_build.ModelBuildManagmentService
 import io.hydrosphere.serving.manager.service.model_version.{CreateModelVersionRequest, ModelVersionManagementService}
 import io.swagger.annotations._
@@ -69,7 +69,7 @@ class ModelController(
   @ApiOperation(value = "Upload and release a model", notes = "Upload and release a model", nickname = "uploadModel", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "CreateOrUpdateModelRequest", required = true,
-      dataTypeClass = classOf[CreateOrUpdateModelRequest], paramType = "body")
+      dataTypeClass = classOf[CreateModelRequest], paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Model", response = classOf[ModelVersion]),
@@ -146,8 +146,8 @@ class ModelController(
   @Path("/")
   @ApiOperation(value = "Update model", notes = "Update model", nickname = "updateModel", httpMethod = "PUT")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "body", value = "CreateOrUpdateModelRequest", required = true,
-      dataTypeClass = classOf[CreateOrUpdateModelRequest], paramType = "body")
+    new ApiImplicitParam(name = "body", value = "UpdateModelRequest", required = true,
+      dataTypeClass = classOf[UpdateModelRequest], paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Model", response = classOf[Model]),
@@ -155,9 +155,9 @@ class ModelController(
   ))
   def updateModel = path("api" / "v1" / "model") {
     put {
-      entity(as[CreateOrUpdateModelRequest]) { r =>
+      entity(as[UpdateModelRequest]) { r =>
         completeFRes(
-          modelManagementService.updateModelRequest(r)
+          modelManagementService.updateModel(r)
         )
       }
     }
@@ -358,7 +358,7 @@ class ModelController(
     new ApiResponse(code = 200, message = "ContractDescription", response = classOf[ContractDescription]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def modelContractDescription = path("api" / "v1" / "model" / LongNumber / "flatContract" ) { (modelId) =>
+  def modelContractDescription = path("api" / "v1" / "model" / LongNumber / "flatContract") { (modelId) =>
     get {
       complete {
         modelManagementService.modelContractDescription(modelId)
@@ -375,15 +375,32 @@ class ModelController(
     new ApiResponse(code = 200, message = "ContractDescription", response = classOf[ContractDescription]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def versionContractDescription = path("api" / "v1" / "model" / "version" / LongNumber / "flatContract" ) { (versionId) =>
+  def versionContractDescription = path("api" / "v1" / "model" / "version" / LongNumber / "flatContract") { (versionId) =>
     get {
-      completeFRes{
+      completeFRes {
         modelVersionManagementService.versionContractDescription(versionId)
+      }
+    }
+  }
+
+  @Path("/{modelId}")
+  @ApiOperation(value = "Delete model if not in app", notes = "Fails if any version of the model is deployed", nickname = "deleteModel", httpMethod = "DELETE")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Model", response = classOf[Model]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def deleteModel = path("api" / "v1" / "model" / LongNumber) { modelId =>
+    delete {
+      completeFRes {
+        aggregatedInfoUtilityService.deleteModel(modelId)
       }
     }
   }
 
   val routes: Route = listModels ~ getModel ~ updateModel ~ uploadModel ~ listModelBuildsByModel ~ lastModelBuilds ~
     generatePayloadByModelId ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract ~ generateInputsForVersion ~
-    lastModelVersions ~ addModelVersion ~ allModelVersions ~ modelContractDescription ~ versionContractDescription
+    lastModelVersions ~ addModelVersion ~ allModelVersions ~ modelContractDescription ~ versionContractDescription ~ deleteModel
 }

@@ -7,13 +7,14 @@ import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.contract.utils.ops.ModelContractOps._
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.{ModelMetadata, ModelType}
+import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.contract.ContractUtilityService
 import io.hydrosphere.serving.manager.service.source.ModelStorageService
 import cats.data.EitherT
 import cats.implicits._
+import io.hydrosphere.serving.manager.model.Result.HError
 import org.apache.logging.log4j.scala.Logging
 import spray.json.JsObject
 
@@ -33,36 +34,33 @@ class ModelManagementServiceImpl(
   override def allModels(): Future[Seq[Model]] =
     modelRepository.all()
 
-  override def createModel(entity: CreateOrUpdateModelRequest): HFResult[Model] =
-    modelRepository.create(entity.toModel).map(Right.apply)
+  override def createModel(entity: CreateModelRequest): HFResult[Model] = {
+    val now = LocalDateTime.now()
+    val inputModel = Model(
+      id = 0,
+      name = entity.name,
+      modelType = entity.modelType,
+      description = entity.description,
+      modelContract = entity.modelContract,
+      created = now,
+      updated = now
+    )
 
-  def create(model: Model): HFResult[Model] = {
-    getModel(model.id).flatMap {
-      case Left(_) => modelRepository.create(model).map(Right.apply)
-      case Right(_) => Result.clientErrorF(s"Model id ${model.id} already exists")
+    getModel(inputModel.id).flatMap {
+      case Left(_) => modelRepository.create(inputModel).map(Result.ok)
+      case Right(_) => Result.clientErrorF(s"Model id ${inputModel.id} already exists")
     }
   }
 
-  override def updateModel(model: Model): HFResult[Model] = {
-    modelRepository.get(model.id).flatMap {
-      case Some(existingModel) =>
-        val newModel = model.copy(created = existingModel.created, updated = LocalDateTime.now())
-        modelRepository.update(newModel).map(_ => Result.ok(newModel))
-      case None => Result.clientErrorF(s"Can't find Model with id ${model.id}")
-    }
-  }
-
-  override def updateModelRequest(entity: CreateOrUpdateModelRequest): HFResult[Model] = {
-    entity.id match {
-      case Some(modelId) =>
-        modelRepository.get(modelId).flatMap {
-          case Some(foundModel) =>
-            val newModel = entity.toModel(foundModel)
-            updateModel(newModel)
-          case None => Result.clientErrorF(s"Can't find Model with id ${entity.id.get}")
-        }
-      case None => Result.clientErrorF("Id is required for this action")
-    }
+  override def updateModel(entity: UpdateModelRequest): HFResult[Model] = {
+    val f = for {
+      foundModel <- EitherT(getModel(entity.id))
+      filledModel = entity.fillModel(foundModel).copy(updated = LocalDateTime.now())
+      _ <- EitherT(checkIfUnique(foundModel, filledModel))
+      _ <- EitherT(sourceManagementService.rename(foundModel.name, filledModel.name))
+      _ <- EitherT.liftF[Future, HError, Int](modelRepository.update(filledModel))
+    } yield filledModel
+    f.value
   }
 
   def deleteModel(modelName: String): Future[Model] = {
@@ -109,13 +107,19 @@ class ModelManagementServiceImpl(
     }
   }
 
-  private def updateModelContract(modelId: Long, modelContract: ModelContract): HFResult[Model] = {
-    getModel(modelId).flatMap {
-      case Left(err) => Result.errorF(err)
-      case Right(model) =>
-        val newModel = model.copy(modelContract = modelContract)
-        updateModel(newModel)
-    }
+  private def updateModelContract(modelId: Long, newModelContract: ModelContract): HFResult[Model] = {
+    val f = for {
+      model <- EitherT(getModel(modelId))
+      updateRequest = UpdateModelRequest(
+        id = model.id,
+        name = model.name,
+        modelType = model.modelType,
+        description = model.description,
+        modelContract = newModelContract
+      )
+      updatedModel <- EitherT(updateModel(updateRequest))
+    } yield updatedModel
+    f.value
   }
 
   override def modelsByType(types: Set[String]): Future[Seq[Model]] =
@@ -144,8 +148,7 @@ class ModelManagementServiceImpl(
   override def uploadModel(upload: ModelUpload): HFResult[Model] = {
     val f = for {
       result <- EitherT(sourceManagementService.upload(upload))
-      request = CreateOrUpdateModelRequest(
-        id = None,
+      request = CreateModelRequest(
         name = result.name,
         modelType = result.modelType,
         description = result.description,
@@ -156,15 +159,45 @@ class ModelManagementServiceImpl(
     f.value
   }
 
-  private def upsertRequest(request: CreateOrUpdateModelRequest): Future[Either[Result.HError, Model]] = {
+  private def upsertRequest(request: CreateModelRequest): HFResult[Model] = {
     modelRepository.get(request.name).flatMap {
       case Some(model) =>
-        val updateRequest = request.copy(id = Some(model.id))
+        val updateRequest = UpdateModelRequest(
+          id = model.id,
+          name = request.name,
+          modelType = request.modelType,
+          description = request.description,
+          modelContract = request.modelContract
+        )
         logger.info(s"Updating uploaded model with id: ${updateRequest.id} name: ${updateRequest.name}, type: ${updateRequest.modelType}")
-        updateModelRequest(updateRequest)
+        updateModel(updateRequest)
+
       case None =>
         logger.info(s"Creating uploaded model with name: ${request.name}, type: ${request.modelType}")
         createModel(request)
     }
+  }
+
+  private def checkIfUnique(targetModel: Model, newModelInfo: Model): HFResult[Model] = {
+    modelRepository.get(newModelInfo.name).map {
+      case Some(model) if model.id == targetModel.id => // it's the same model - ok
+        Result.ok(targetModel)
+
+      case Some(model) => // it's other model - not ok
+        val errMsg = s"There is already a model with same name: ${model.name}(${model.id}) -> ${newModelInfo.name}(${newModelInfo.id})"
+        logger.error(errMsg)
+        Result.clientError(errMsg)
+
+      case None => // name is unique - ok
+        Result.ok(targetModel)
+    }
+  }
+
+  override def delete(modelId: Long): HFResult[Model] = {
+    val f = for {
+      model <- EitherT(getModel(modelId))
+      _ <- EitherT.liftF[Future, HError, Int](modelRepository.delete(modelId))
+    } yield model
+    f.value
   }
 }

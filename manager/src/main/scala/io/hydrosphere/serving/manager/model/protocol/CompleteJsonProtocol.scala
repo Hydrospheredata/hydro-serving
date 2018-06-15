@@ -17,7 +17,9 @@ trait CompleteJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol 
 
   implicit val createRuntimeRequest = jsonFormat5(CreateRuntimeRequest)
 
-  implicit val createOrUpdateModelRequest = jsonFormat5(CreateOrUpdateModelRequest)
+  implicit val createModelRequest = jsonFormat4(CreateModelRequest)
+
+  implicit val updateModelRequest = jsonFormat5(UpdateModelRequest)
 
   implicit val createModelVersionRequest = jsonFormat12(CreateModelVersionRequest)
 
