@@ -18,6 +18,8 @@ trait ModelVersionManagementService {
 
   def list: Future[Seq[ModelVersion]]
 
+  def listForModel(modelId: Long): HFResult[Seq[ModelVersion]]
+
   def versionContractDescription(versionId: Long): HFResult[ContractDescription]
 
   def addModelVersion(entity: CreateModelVersionRequest): HFResult[ModelVersion]
@@ -27,6 +29,8 @@ trait ModelVersionManagementService {
   def lastModelVersionByModelId(id: Long, maximum: Int): Future[Seq[ModelVersion]]
 
   def fetchLastModelVersion(modelId: Long, modelVersion: Option[Long]): HFResult[Long]
+
+  def delete(versionId: Long): HFResult[ModelVersion]
 }
 
 

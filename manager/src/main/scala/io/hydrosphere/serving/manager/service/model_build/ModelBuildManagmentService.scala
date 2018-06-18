@@ -8,6 +8,8 @@ import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
 import scala.concurrent.Future
 
 trait ModelBuildManagmentService {
+  def listForModel(modelId: Long): HFResult[Seq[ModelBuild]]
+
   def lastForModels(ids: Seq[Long]): Future[Seq[ModelBuild]]
 
   def modelBuildsByModelId(id: Long): Future[Seq[ModelBuild]]
@@ -17,6 +19,8 @@ trait ModelBuildManagmentService {
   def buildAndOverrideContract(modelId: Long, flatContract: Option[ContractDescription] = None, modelVersion: Option[Long] = None): HFResult[ModelBuild]
 
   def uploadAndBuild(modelUpload: ModelUpload): HFResult[ModelBuild]
+
+  def delete(buildId: Long): HFResult[ModelBuild]
 }
 
 

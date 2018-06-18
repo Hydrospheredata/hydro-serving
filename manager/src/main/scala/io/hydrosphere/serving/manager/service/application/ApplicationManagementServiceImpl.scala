@@ -303,6 +303,18 @@ class ApplicationManagementServiceImpl(
     applicationRepository.all().flatMap(enrichApplications)
   }
 
+  def findVersionUsage(versionId: Long): Future[Seq[Application]] = {
+    allApplications().map { apps =>
+      apps.filter { app =>
+        app.executionGraph.stages.exists { stage =>
+          stage.services.exists { service =>
+            service.serviceDescription.modelVersionId.contains(versionId)
+          }
+        }
+      }
+    }
+  }
+
   def enrichApplication(app: Application): HFResult[Application] = {
     enrichApplications(Seq(app)).map(_.headOption.toHResult(ClientError("Can't enrich application")))
   }

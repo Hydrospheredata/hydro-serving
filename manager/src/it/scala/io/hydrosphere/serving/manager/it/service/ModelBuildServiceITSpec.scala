@@ -1,12 +1,12 @@
-package io.hydrosphere.serving.manager.service
+package io.hydrosphere.serving.manager.it.service
 
 import cats.data.EitherT
 import cats.instances.all._
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.messages.ContainerConfig
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.it.FullIntegrationSpec
 import io.hydrosphere.serving.manager.model.ModelBuildStatus
-import io.hydrosphere.serving.manager.test.FullIntegrationSpec
 import org.scalatest.BeforeAndAfterAll
 
 import scala.concurrent.{Await, Future}

@@ -1,12 +1,11 @@
 package io.hydrosphere.serving.manager.service.model_version
 
-import java.time.LocalDateTime
-
-import io.hydrosphere.serving.contract.model_contract.ModelContract
+import cats.data.EitherT
+import cats.implicits._
 import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.contract.utils.ops.ModelContractOps._
-import io.hydrosphere.serving.manager.model.api.ModelType
-import io.hydrosphere.serving.manager.model.db.{Model, ModelVersion}
+import io.hydrosphere.serving.manager.model.Result.HError
+import io.hydrosphere.serving.manager.model.db.ModelVersion
 import io.hydrosphere.serving.manager.model.{HFResult, Result}
 import io.hydrosphere.serving.manager.repository.ModelVersionRepository
 import io.hydrosphere.serving.manager.service.contract.ContractUtilityService
@@ -100,5 +99,19 @@ class ModelVersionManagementServiceImpl(
 
   override def modelVersionsByModelVersionIds(modelIds: Set[Long]): Future[Seq[ModelVersion]] = {
     modelVersionRepository.modelVersionsByModelVersionIds(modelIds)
+  }
+
+  override def listForModel(modelId: Long): HFResult[Seq[ModelVersion]] = {
+    modelVersionRepository.listForModel(modelId).map(Result.ok)
+  }
+
+  override def delete(versionId: Long): HFResult[ModelVersion] = {
+    val f = for {
+      version <- EitherT(get(versionId))
+      _ <- EitherT.liftF[Future, HError, Int](modelVersionRepository.delete(versionId))
+    } yield {
+      version
+    }
+    f.value
   }
 }

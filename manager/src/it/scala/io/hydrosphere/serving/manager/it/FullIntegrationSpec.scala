@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.test
+package io.hydrosphere.serving.manager.it
 
 import java.nio.file.{Files, Path, Paths}
 
