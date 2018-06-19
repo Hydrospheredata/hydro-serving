@@ -6,35 +6,26 @@ permalink: 'why-ml-lambda.html'
 ---
 
 
-Have you ever questioned yourself if the work of building ml-models and deploying
-them to the cloud was quite simple or a little exhausting? Maybe not a little? 
+Have you ever questioned yourself if the work of building ml-models and deploying them to the cloud was quite simple or a little exhausting? Maybe not a little? Deploying small scikit-learn models might be the easiest one to mention. You just spin up an HTTP-server, initiate a model, define a handler for calling `predict()` method and you're all set. Performance wise it will satisfy most of the use cases. TensorFlow serving is a bit more complicated but feasible as well.
 
-Deploying small scikit-learn models might be the easiest one to mention.
-You just spin up an HTTP-server, initiate a model, define a handler for calling
-`predict()` method and you're all set. Performance wise it will satisfy most of
-the use cases. TensorFlow serving is a bit more complicated but feasible as
-well.
-
-Although this might be a solution, it will greatly reduce
-configuration/deployment time when the case becomes more complicated. In real
-projects you would have to deploy pipelines of different models and custom
-functions rather than one simple model. Locking yourself under strict limits to
-a certain amount of technologies or computational power is quite unreasonable.
-Allocating additional time on devOps type of job to just make your models work
-doesn't seem like an effective way to use the time. Data scientists need to
-`build` → `test` → `deploy` models to production quickly and easily. Not to
+Although this might be a solution, it will greatly reduce configuration/deployment time when the case becomes more complicated. In real projects you would have to deploy pipelines of different models and custom functions rather than one simple model. Locking yourself under strict limits to a certain amount of technologies or computational power is quite unreasonable. Allocating additional time on devOps type of job to just make your models work doesn't seem like an effective way to use the time. Data scientists need to `build → test → deploy` models to production quickly and easily. Not to
 mention that this should work continuously.
 
-Assume you have to build a natural language processing pipeline that takes
-JSON-file as an input from web application, extracts simple feautres,
-classifies them into particular category then for that particular category
-picks a pre-trained neural network, applies it and returns the output. 
+# Example
 
-![]({{site.baseurl}}{%link /assets/example-pipeline.png%})
+Assume you have to build up a natural language processing pipeline that takes JSON-file as an input from a web application, extracts simple feautres, classifies them into particular category then for that particular category picks a pre-trained neural network, applies it and returns the output. 
 
-Now imagine you've decided to optimize your pipeline and embedded word2vec as
-first two layers in a new DL4J neural network. To analyze the performance of the
-new solution you decided to split your traffic and let 10% of the traffic flow
-through your new NN. Your production experiment now should look like this. 
+![]({{site.baseurl}}{%link /assets/example-nlp-pipeline.png%})
 
-![]({{site.baseurl}}{%link /assets/example-pipeline-modified.png%})
+Now imagine you've decided to optimize your pipeline and embedded word2vec as first two layers in a new NN. To analyze the performance of the new solution you've decided to split your traffic and let 10% of the traffic flow through your new NN. Your production experiment now should look like the following. 
+
+![]({{site.baseurl}}{%link /assets/example-nlp-pipeline-modified.png%})
+
+And then another amazing idea came to your mind and you've decided to transform your serving pipeline to work in a streaming context, i.e. deploy a prediction pipeline into Apache Kafka.
+
+Have you already imagined the whole architecture in your mind? How many hours would you spend on configuring this? 10 hours? 20? 100? There's an option to ask engineers to re-implement it in Java/Spark which can take a couple more months and an unpredictable outcome. But there's a much simplier way. 
+
+
+# Solution
+
+ML Lambda manages multiple serverless runtimes and allows chaining them into end-to-end serving pipelines. Monitoring, versioning, auto-scalling, models auto discovery and user friendly interface goes on top. It implements side-car architecture that decouples machine learning logic from networking, service dicsovery, load balancing. So, the trasport layer between model runtimes could be changed from HTTP to Unix sockets and even to Kafka without changing containers with actual machine learning code. 
