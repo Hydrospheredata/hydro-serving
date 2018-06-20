@@ -4,7 +4,7 @@ import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.Runtime
 import io.hydrosphere.serving.manager.repository.RuntimeRepository
-import io.hydrosphere.serving.manager.service.runtime.RuntimeManagementServiceImpl
+import io.hydrosphere.serving.manager.service.runtime.{CreateRuntimeRequest, RuntimeManagementServiceImpl}
 import org.mockito.invocation.InvocationOnMock
 import org.mockito.stubbing.Answer
 import org.mockito.{Matchers, Mockito}
@@ -26,21 +26,24 @@ class RuntimeServiceSpec extends GenericUnitTest {
             }
           })
           Mockito.when(runtimeRepo.fetchByNameAndVersion(Matchers.any(), Matchers.any())).thenReturn(Future.successful(None))
-          val runtimeManagementService = new RuntimeManagementServiceImpl(runtimeRepo)
-          runtimeManagementService.create(
+          val runtimeManagementService = new RuntimeManagementServiceImpl(runtimeRepo, null)
+          val createReq = CreateRuntimeRequest(
             name = "known_test",
             version = "0.0.1",
-            modelTypes = List("spark:2.1"),
+            modelTypes = List(ModelType.Spark("2.1")),
             tags = List.empty,
             configParams = Map.empty
-          ).map { runtimeResult =>
+          )
+          runtimeManagementService.create(createReq).map { runtimeResult =>
             val runtime = runtimeResult.right.get
-            assert("known_test" === runtime.name, runtime.name)
-            assert(runtime.suitableModelType.lengthCompare(1) === 0, "spark:2.1")
-            assert(ModelType.fromTag("spark:2.1") === runtime.suitableModelType.head)
-            assert(Map.empty[String, String] === runtime.configParams)
-            assert("0.0.1" === runtime.version)
-            assert(List.empty[String] === runtime.tags)
+            assert(runtime.request === createReq)
+
+            //            assert("known_test" === runtime.name, runtime.name)
+//            assert(runtime.suitableModelType.lengthCompare(1) === 0, "spark:2.1")
+//            assert(ModelType.fromTag("spark:2.1") === runtime.suitableModelType.head)
+//            assert(Map.empty[String, String] === runtime.configParams)
+//            assert("0.0.1" === runtime.version)
+//            assert(List.empty[String] === runtime.tags)
           }
         }
         it("with unsupported runtime") {
@@ -54,21 +57,23 @@ class RuntimeServiceSpec extends GenericUnitTest {
           })
           Mockito.when(runtimeRepo.fetchByNameAndVersion(Matchers.any(), Matchers.any())).thenReturn(Future.successful(None))
 
-          val runtimeManagementService = new RuntimeManagementServiceImpl(runtimeRepo)
-          runtimeManagementService.create(
+          val runtimeManagementService = new RuntimeManagementServiceImpl(runtimeRepo, null)
+          val createReq = CreateRuntimeRequest(
             name = "unknown_test",
             version = "0.0.1",
-            modelTypes = List("tensorLUL:1337"),
+            modelTypes = List(ModelType.Unknown("tensorLUL","1337")),
             tags = List.empty,
             configParams = Map.empty
-          ).map { runtimeResult =>
+          )
+          runtimeManagementService.create(createReq).map { runtimeResult =>
             val runtime = runtimeResult.right.get
-            assert("unknown_test" === runtime.name, runtime.name)
-            assert(runtime.suitableModelType.lengthCompare(1) === 0, "tensorLUL:1337")
-            assert(ModelType.Unknown("tensorLUL", "1337") === runtime.suitableModelType.head)
-            assert(Map.empty[String, String] === runtime.configParams)
-            assert("0.0.1" === runtime.version)
-            assert(List.empty[String] === runtime.tags)
+            assert(runtime.request === createReq)
+//            assert("unknown_test" === runtime.name, runtime.name)
+//            assert(runtime.suitableModelType.lengthCompare(1) === 0, "tensorLUL:1337")
+//            assert(ModelType.Unknown("tensorLUL", "1337") === runtime.suitableModelType.head)
+//            assert(Map.empty[String, String] === runtime.configParams)
+//            assert("0.0.1" === runtime.version)
+//            assert(List.empty[String] === runtime.tags)
           }
         }
       }
@@ -84,14 +89,15 @@ class RuntimeServiceSpec extends GenericUnitTest {
             )
           )
 
-          val runtimeManagementService = new RuntimeManagementServiceImpl(runtimeRepo)
-          runtimeManagementService.create(
+          val runtimeManagementService = new RuntimeManagementServiceImpl(runtimeRepo, null)
+          val createReq = CreateRuntimeRequest(
             name = "test",
             version = "latest",
-            modelTypes = List("tensorLUL:1337"),
+            modelTypes = List(ModelType.Unknown("tensorLUL","1337")),
             tags = List.empty,
             configParams = Map.empty
-          ).map { runtimeResult =>
+          )
+          runtimeManagementService.create(createReq).map { runtimeResult =>
             assert(runtimeResult.isLeft, runtimeResult)
           }
         }
@@ -111,7 +117,7 @@ class RuntimeServiceSpec extends GenericUnitTest {
         }
       })
 
-      val runtimeManagementService = new RuntimeManagementServiceImpl(runtimeRepo)
+      val runtimeManagementService = new RuntimeManagementServiceImpl(runtimeRepo, null)
       runtimeManagementService.all().map { runtimes =>
         println(runtimes)
         assert(runtimes.exists(_.name == "test2"))

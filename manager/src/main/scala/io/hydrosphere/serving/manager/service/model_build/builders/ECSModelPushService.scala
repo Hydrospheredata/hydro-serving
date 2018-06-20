@@ -4,9 +4,10 @@ import java.util.Collections
 
 import com.amazonaws.services.ecr.{AmazonECR, AmazonECRClientBuilder}
 import com.amazonaws.services.ecr.model._
-import com.spotify.docker.client.DockerClient
+import com.spotify.docker.client.{DockerClient, ProgressHandler}
 import io.hydrosphere.serving.manager.ECSDockerRepositoryConfiguration
 import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
+import io.hydrosphere.serving.manager.util.docker.{DockerClientHelper, DockerRegistryAuth}
 
 class ECSModelPushService(
   dockerClient: DockerClient,
@@ -58,7 +59,7 @@ class ECSModelPushService(
 
     dockerClient.push(
       s"${modelRuntime.imageName}:${modelRuntime.modelVersion}",
-      DockerClientHelper.createProgressHandlerWrapper(progressHandler),
+      progressHandler,
       DockerClientHelper.createRegistryAuth(getDockerRegistryAuth)
     )
   }

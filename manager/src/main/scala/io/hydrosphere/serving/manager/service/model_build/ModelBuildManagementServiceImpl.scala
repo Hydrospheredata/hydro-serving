@@ -16,6 +16,7 @@ import io.hydrosphere.serving.manager.service.model.ModelManagementService
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import org.apache.logging.log4j.scala.Logging
 import Result.Implicits._
+import io.hydrosphere.serving.manager.util.docker.{HistoricProgressHandler, InfoProgressHandler}
 
 import scala.concurrent.{ExecutionContext, Future}
 

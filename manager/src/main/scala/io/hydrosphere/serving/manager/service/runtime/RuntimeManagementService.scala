@@ -1,5 +1,7 @@
 package io.hydrosphere.serving.manager.service.runtime
 
+import java.util.UUID
+
 import io.hydrosphere.serving.manager.model.HFResult
 import io.hydrosphere.serving.manager.model.db.Runtime
 
@@ -12,13 +14,9 @@ trait RuntimeManagementService {
 
   def all(): Future[Seq[Runtime]]
 
-  def create(
-    name: String,
-    version: String,
-    modelTypes: List[String] = List.empty,
-    tags: List[String] = List.empty,
-    configParams: Map[String, String] = Map.empty
-  ): HFResult[Runtime]
+  def create(request: CreateRuntimeRequest): HFResult[RuntimeCreationInProgress]
 
   def get(id: Long): HFResult[Runtime]
+
+  def getCreationStatus(requestId: UUID): HFResult[RuntimeCreateStatus]
 }
