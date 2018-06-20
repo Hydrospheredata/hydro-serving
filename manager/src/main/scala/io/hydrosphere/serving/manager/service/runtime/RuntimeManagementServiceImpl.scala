@@ -39,7 +39,7 @@ class RuntimeManagementServiceImpl(
   override def all(): Future[Seq[Runtime]] =
     runtimeRepository.all()
 
-  override def create(request: CreateRuntimeRequest): HFResult[RuntimeCreationInProgress] = {
+  override def create(request: CreateRuntimeRequest): HFResult[RuntimeCreationRunning] = {
     logger.debug(request)
     runtimeRepository.fetchByNameAndVersion(request.name, request.version).flatMap {
       case Some(_) =>
@@ -122,7 +122,7 @@ class RuntimeManagementServiceImpl(
   def register(request: CreateRuntimeRequest) = {
     val startedAt = LocalDateTime.now()
     val id = UUID.randomUUID()
-    val status = RuntimeCreationInProgress(id, startedAt, request)
+    val status = RuntimeCreationRunning(id, startedAt, request)
     tasks += id -> status
     status
   }

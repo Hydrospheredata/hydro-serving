@@ -3,19 +3,13 @@ package io.hydrosphere.serving.manager.service.runtime
 import java.time.LocalDateTime
 import java.util.UUID
 
-sealed trait ServiceTaskStatus
-case object ServiceTaskRegistered extends ServiceTaskStatus
-case object ServiceTaskInProgress extends ServiceTaskStatus
-case object ServiceTaskFinished extends ServiceTaskStatus
-case object ServiceTaskFailed extends ServiceTaskStatus
-
 trait ServiceRequest
 
 trait ServiceTaskResult[R <: ServiceRequest] {
   def id: UUID
   def startedAt: LocalDateTime
   def request: R
-  def status: ServiceTaskStatus
+  def status: String
 }
 
 trait ServiceTaskFailed[R <: ServiceRequest] extends ServiceTaskResult[R] {
@@ -25,11 +19,11 @@ trait ServiceTaskFailed[R <: ServiceRequest] extends ServiceTaskResult[R] {
 
 sealed trait RuntimeCreateStatus extends ServiceTaskResult[CreateRuntimeRequest]
 
-case class RuntimeCreationInProgress(
+case class RuntimeCreationRunning(
   id: UUID,
   startedAt: LocalDateTime,
   request: CreateRuntimeRequest,
-  final val status: ServiceTaskStatus = ServiceTaskInProgress
+  final val status: String = "Running"
 ) extends RuntimeCreateStatus
 
 case class RuntimeCreationFailed(
@@ -38,7 +32,7 @@ case class RuntimeCreationFailed(
   startedAt: LocalDateTime,
   message: String,
   reason: Option[Throwable],
-  final val status: ServiceTaskStatus = ServiceTaskFailed
+  final val status: String = "Failed"
 ) extends RuntimeCreateStatus
 
 case class RuntimeCreated(
@@ -47,5 +41,5 @@ case class RuntimeCreated(
   startedAt: LocalDateTime,
   finishedAt: LocalDateTime,
   result: String,
-  final val status: ServiceTaskStatus = ServiceTaskFinished
+  final val status: String = "Finished"
 ) extends RuntimeCreateStatus

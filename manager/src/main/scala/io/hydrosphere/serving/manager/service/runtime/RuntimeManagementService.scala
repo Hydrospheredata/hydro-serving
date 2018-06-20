@@ -14,7 +14,7 @@ trait RuntimeManagementService {
 
   def all(): Future[Seq[Runtime]]
 
-  def create(request: CreateRuntimeRequest): HFResult[RuntimeCreationInProgress]
+  def create(request: CreateRuntimeRequest): HFResult[RuntimeCreationRunning]
 
   def get(id: Long): HFResult[Runtime]
 
