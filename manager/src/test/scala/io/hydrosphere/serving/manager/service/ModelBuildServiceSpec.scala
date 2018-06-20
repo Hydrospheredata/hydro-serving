@@ -15,7 +15,7 @@ import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.repository.ModelBuildRepository
 import io.hydrosphere.serving.manager.service.build_script.{BuildScriptManagementService, BuildScriptManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.model.ModelManagementService
-import io.hydrosphere.serving.manager.service.model_build.ModelBuildManagementServiceImpl
+import io.hydrosphere.serving.manager.service.model_build.{BuildModelRequest, ModelBuildManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.model_build.builders.{ModelBuildService, ModelPushService}
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import org.mockito.{Matchers, Mockito}
@@ -92,7 +92,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
 
       val service = new ModelBuildManagementServiceImpl(buildRepo, scriptS, versionS, modelS, null, builder)
 
-      service.buildAndOverrideContract(1, None, None).map { result =>
+      service.buildModel(BuildModelRequest(1)).map { result =>
         assert(result.isRight, result)
         val modelBuild = result.right.get
         assert(modelBuild.model.id === 1L)
@@ -165,7 +165,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
 
       val service = new ModelBuildManagementServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
 
-      service.buildAndOverrideContract(1337, Some(contract), None).map { result =>
+      service.buildModel(BuildModelRequest(1337, Some(contract))).map { result =>
         assert(result.isRight, result)
         val modelBuild = result.right.get
         assert(modelBuild.model.id === 1337L)

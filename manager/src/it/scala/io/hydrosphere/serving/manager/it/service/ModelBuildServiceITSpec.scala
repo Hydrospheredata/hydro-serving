@@ -7,6 +7,7 @@ import com.spotify.docker.client.messages.ContainerConfig
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.it.FullIntegrationSpec
 import io.hydrosphere.serving.manager.model.ModelBuildStatus
+import io.hydrosphere.serving.manager.service.model_build.BuildModelRequest
 import org.scalatest.BeforeAndAfterAll
 
 import scala.concurrent.{Await, Future}
@@ -25,7 +26,7 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
       managerRepositories.modelRepository.get(1).flatMap {
         case None => Future.failed(new IllegalArgumentException("Model is not found"))
         case Some(model) =>
-          managerServices.modelBuildManagmentService.buildAndOverrideContract(model.id, None, Some(1)).flatMap { b =>
+          managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1, None, Some(1))).flatMap { b =>
             val version = awaitVersion(b.right.get.id)
             managerServices.modelBuildManagmentService.lastModelBuildsByModelId(model.id, 1).map { lastBuilds =>
               val lastBuild = lastBuilds.head
@@ -83,9 +84,9 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
     "return last version" when {
       "for all models" in {
         for {
-          v1 <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
+          v1 <- managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1))
           cv1 = awaitVersion(v1.right.get.id)
-          v2 <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
+          v2 <- managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1))
           cv2 = awaitVersion(v2.right.get.id)
           versions <- managerServices.aggregatedInfoUtilityService.allModelsAggregatedInfo()
         } yield {
