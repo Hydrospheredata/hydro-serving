@@ -3,6 +3,7 @@ package io.hydrosphere.serving.manager.model.protocol
 import io.hydrosphere.serving.manager.controller.environment.CreateEnvironmentRequest
 import io.hydrosphere.serving.manager.controller.model.AddModelRequest
 import io.hydrosphere.serving.manager.model.Result.{ClientError, ErrorCollection, HError, InternalError}
+import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedModelBuild, AggregatedModelInfo, AggregatedModelVersion}
 import io.hydrosphere.serving.manager.service.clouddriver.{MetricServiceTargetLabels, MetricServiceTargets}
 import io.hydrosphere.serving.manager.service.model._
@@ -15,16 +16,29 @@ trait CompleteJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol 
   implicit val createServiceRequest = jsonFormat5(CreateServiceRequest)
 
   implicit val createRuntimeRequest = jsonFormat5(CreateRuntimeRequest)
-  implicit val createRuntimeInProgress = jsonFormat4(RuntimeCreationRunning.apply)
-  implicit val runtimeFailed = jsonFormat6(RuntimeCreationFailed.apply)
-  implicit val runtimeCreated = jsonFormat6(RuntimeCreated.apply)
 
-  implicit val createRuntimeStatus = new RootJsonWriter[RuntimeCreateStatus] {
-    override def write(obj: RuntimeCreateStatus): JsValue = {
-      obj match {
-        case x: RuntimeCreationRunning => x.toJson
-        case x: RuntimeCreationFailed => x.toJson
-        case x: RuntimeCreated => x.toJson
+  implicit def serviceTaskRunnningFormat[Req <: ServiceRequest, Res]
+    (implicit j1: JsonFormat[Req], j2: JsonFormat[Res]) = {
+    jsonFormat4(ServiceTaskRunning.apply[Req, Res])
+  }
+  implicit def serviceTaskFailedFormat[Req <: ServiceRequest, Res]
+    (implicit j1: JsonFormat[Req], j2: JsonFormat[Res]) = {
+    jsonFormat6(ServiceTaskFailed.apply[Req, Res])
+  }
+  implicit def serviceTaskFinishedFormat[Req <: ServiceRequest, Res]
+    (implicit j1: JsonFormat[Req], j2: JsonFormat[Res])  = {
+    jsonFormat6(ServiceTaskFinished.apply[Req, Res])
+  }
+
+  implicit def serviceTask[Req <: ServiceRequest, Res]
+    (implicit j1: JsonFormat[Req], j2: JsonFormat[Res]) = {
+    new RootJsonWriter[ServiceTask[Req, Res]] {
+      override def write(obj: ServiceTask[Req, Res]): JsValue = {
+        obj match {
+          case x: ServiceTaskRunning[Req, Res] => x.toJson
+          case x: ServiceTaskFailed[Req, Res] => x.toJson
+          case x: ServiceTaskFinished[Req, Res] => x.toJson
+        }
       }
     }
   }

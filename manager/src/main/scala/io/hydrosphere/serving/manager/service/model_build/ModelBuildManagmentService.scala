@@ -22,5 +22,3 @@ trait ModelBuildManagmentService {
 
   def delete(buildId: Long): HFResult[ModelBuild]
 }
-
-

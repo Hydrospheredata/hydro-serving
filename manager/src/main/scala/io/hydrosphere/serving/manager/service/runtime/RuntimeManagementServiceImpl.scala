@@ -12,6 +12,7 @@ import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.Runtime
 import io.hydrosphere.serving.manager.model.{HFResult, Result}
 import io.hydrosphere.serving.manager.repository.RuntimeRepository
+import io.hydrosphere.serving.manager.service.{ServiceTask, ServiceTaskFailed, ServiceTaskFinished, ServiceTaskRunning}
 import io.hydrosphere.serving.manager.util.docker.HistoricProgressHandler
 import org.apache.logging.log4j.scala.Logging
 
@@ -26,7 +27,7 @@ class RuntimeManagementServiceImpl(
   implicit ex: ExecutionContext
 ) extends RuntimeManagementService with Logging {
 
-  val tasks = TrieMap.empty[UUID, RuntimeCreateStatus]
+  val tasks = TrieMap.empty[UUID, ServiceTask[CreateRuntimeRequest, Runtime]]
 
   override def lookupByModelType(modelTypes: Set[String]): Future[Seq[Runtime]] =
     runtimeRepository.fetchByModelType(
@@ -39,7 +40,7 @@ class RuntimeManagementServiceImpl(
   override def all(): Future[Seq[Runtime]] =
     runtimeRepository.all()
 
-  override def create(request: CreateRuntimeRequest): HFResult[RuntimeCreationRunning] = {
+  override def create(request: CreateRuntimeRequest): HFResult[ServiceTaskRunning[CreateRuntimeRequest, Runtime]] = {
     logger.debug(request)
     runtimeRepository.fetchByNameAndVersion(request.name, request.version).flatMap {
       case Some(_) =>
@@ -63,14 +64,14 @@ class RuntimeManagementServiceImpl(
               configParams = request.configParams
             )
             runtimeRepository.create(rType).map { runtime =>
-              tasks += registeredRequest.id -> RuntimeCreated(request, registeredRequest.id, registeredRequest.startedAt, LocalDateTime.now(), rType.toImageDef)
+              tasks += registeredRequest.id -> ServiceTaskFinished(request, registeredRequest.id, registeredRequest.startedAt, LocalDateTime.now(), rType)
               logger.info(s"[${registeredRequest.id}] Runtime added: $runtime")
             }
           } catch {
             case NonFatal(err) =>
               val newFailStatus = err match {
                 case ex: ImageNotFoundException =>
-                  RuntimeCreationFailed(
+                  ServiceTaskFailed[CreateRuntimeRequest, Runtime](
                     registeredRequest.request,
                     registeredRequest.id,
                     registeredRequest.startedAt,
@@ -79,7 +80,7 @@ class RuntimeManagementServiceImpl(
                   )
 
                 case ex: DockerException =>
-                  RuntimeCreationFailed(
+                  ServiceTaskFailed[CreateRuntimeRequest, Runtime](
                     registeredRequest.request,
                     registeredRequest.id,
                     registeredRequest.startedAt,
@@ -88,7 +89,7 @@ class RuntimeManagementServiceImpl(
                   )
 
                 case e =>
-                  RuntimeCreationFailed(
+                  ServiceTaskFailed[CreateRuntimeRequest, Runtime](
                     registeredRequest.request,
                     registeredRequest.id,
                     registeredRequest.startedAt,
@@ -111,7 +112,7 @@ class RuntimeManagementServiceImpl(
   override def get(id: Long): HFResult[Runtime] =
     runtimeRepository.get(id).map(_.toHResult(ClientError(s"Can't find Runtime with id $id")))
 
-  override def getCreationStatus(requestId: UUID): HFResult[RuntimeCreateStatus] = {
+  override def getCreationStatus(requestId: UUID): HFResult[ServiceTask[CreateRuntimeRequest, Runtime]] = {
     Future.successful {
       val res = tasks.get(requestId).toHResult(ClientError(s"Can't find request ${requestId.toString}"))
       logger.debug(s"Status for runtime creation request $requestId = $res")
@@ -119,10 +120,10 @@ class RuntimeManagementServiceImpl(
     }
   }
 
-  def register(request: CreateRuntimeRequest) = {
+  def register(request: CreateRuntimeRequest): ServiceTaskRunning[CreateRuntimeRequest, Runtime] = {
     val startedAt = LocalDateTime.now()
     val id = UUID.randomUUID()
-    val status = RuntimeCreationRunning(id, startedAt, request)
+    val status = ServiceTaskRunning[CreateRuntimeRequest, Runtime](id, startedAt, request)
     tasks += id -> status
     status
   }

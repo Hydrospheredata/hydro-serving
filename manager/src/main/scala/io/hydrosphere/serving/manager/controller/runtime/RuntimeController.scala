@@ -9,7 +9,7 @@ import akka.util.Timeout
 import io.hydrosphere.serving.manager.controller.GenericController
 import io.hydrosphere.serving.manager.model.db.Runtime
 import io.hydrosphere.serving.manager.service._
-import io.hydrosphere.serving.manager.service.runtime.{CreateRuntimeRequest, RuntimeCreated, RuntimeCreationFailed, RuntimeManagementService}
+import io.hydrosphere.serving.manager.service.runtime.{CreateRuntimeRequest, RuntimeManagementService}
 import io.hydrosphere.serving.manager.util.UUIDUtils
 import io.swagger.annotations._
 
@@ -40,8 +40,8 @@ class RuntimeController(
     new ApiImplicitParam(name = "requestId", value = "Request UUID", required = true, dataTypeClass = classOf[UUID], paramType = "path", defaultValue = UUIDUtils.zerosStr)
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "RuntimeCreated", response = classOf[RuntimeCreated]),
-    new ApiResponse(code = 200, message = "RuntimeCreationFailed", response = classOf[RuntimeCreationFailed]),
+    new ApiResponse(code = 200, message = "RuntimeCreated", response = classOf[Any]),
+    new ApiResponse(code = 200, message = "RuntimeCreationFailed", response = classOf[Any]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def getStatus = path("api" / "v1" / "runtime" / "status" / JavaUUID) { uuid =>

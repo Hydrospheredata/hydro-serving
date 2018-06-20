@@ -4,6 +4,7 @@ import java.util.UUID
 
 import io.hydrosphere.serving.manager.model.HFResult
 import io.hydrosphere.serving.manager.model.db.Runtime
+import io.hydrosphere.serving.manager.service.{ServiceTask, ServiceTaskRunning}
 
 import scala.concurrent.Future
 
@@ -14,9 +15,9 @@ trait RuntimeManagementService {
 
   def all(): Future[Seq[Runtime]]
 
-  def create(request: CreateRuntimeRequest): HFResult[RuntimeCreationRunning]
+  def create(request: CreateRuntimeRequest): HFResult[ServiceTaskRunning[CreateRuntimeRequest, Runtime]]
 
   def get(id: Long): HFResult[Runtime]
 
-  def getCreationStatus(requestId: UUID): HFResult[RuntimeCreateStatus]
+  def getCreationStatus(requestId: UUID): HFResult[ServiceTask[CreateRuntimeRequest, Runtime]]
 }
