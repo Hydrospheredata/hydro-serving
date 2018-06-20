@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Trouble Shooting"
-date:   2018-06-15 13:57:31 +0300
+date:   2018-06-15
 permalink: 'troubleshooting.html'
 ---
 
