@@ -3,6 +3,8 @@ services:
   postgres:
     image: postgres:9.6-alpine
     container_name: postgres
+    ports:
+      - "5432:5432"
     networks:
       - hydronet
     environment:
@@ -13,18 +15,19 @@ services:
   manager:
     image: hydrosphere/serving-manager:latest
     container_name: manager
+    ports:
+      - "19091:9091"
     networks:
       - hydronet
+      - extnet
     depends_on:
       - postgres
-      - sidecar
     environment:
       - "ADVERTISED_MANAGER_HOST=manager"
       - "ADVERTISED_MANAGER_PORT=9091"
       - "DATABASE_HOST=postgres"
-      - "LOCAL_MODEL_PATH=/models"
       - "SIDECAR_HOST=sidecar"
-      - "NETWORK_NAME=automation_hydronet"
+      - "NETWORK_NAME=demo_hydronet"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
 
@@ -38,26 +41,34 @@ services:
       - extnet
       - hydronet
     environment:
+      #- "SIDECAR_LOG_LEVEL=trace"
       - "MANAGER_HOST=manager"
       - "MANAGER_PORT=9091"
-      - "SERVICE_NAME=manager"
       - "SERVICE_ID=-20"
+      - "SERVICE_NAME=manager"
 
   managerui:
     image: hydrosphere/serving-manager-ui:latest
     container_name: managerui
     ports:
-      - "8083:9091"
+      - "80:9091"
     networks:
       - extnet
       - hydronet
+    labels:
+      - "RUNTIME_ID=-22"
     environment:
       - "MANAGER_HOST=sidecar:8080"
+    depends_on:
+      - sidecar
 
 networks:
   hydronet:
-    name: automation_hydronet
+    name: demo_hydronet
     internal: true
+    ipam:
+      config:
+        - subnet: 172.16.0.0/24
 
   extnet:
     driver: bridge
