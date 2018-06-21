@@ -3,7 +3,6 @@ package io.hydrosphere.serving.manager.service.runtime
 import java.time.LocalDateTime
 import java.util.UUID
 
-import cats.data.EitherT
 import com.amazonaws.services.ecr.model.ImageNotFoundException
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.exceptions.DockerException
@@ -27,6 +26,9 @@ class RuntimeManagementServiceImpl(
 )(
   implicit ex: ExecutionContext
 ) extends RuntimeManagementService with Logging {
+
+  // Initialize env with default runtimes
+  DefaultRuntimes.all.foreach(create)
 
   val createTasks = TrieMap.empty[UUID, ServiceTask[CreateRuntimeRequest, Runtime]]
   val syncTasks = TrieMap.empty[UUID, ServiceTask[SyncRuntimeRequest, Runtime]]
@@ -155,58 +157,71 @@ class RuntimeManagementServiceImpl(
     logger.debug(request)
     get(request.runtimeId).map { getResult =>
       getResult.right.flatMap { runtime =>
-        registerSync(request).right.map { registeredRequest =>
-          logger.debug(s"[${registeredRequest.id}] Registered: $registeredRequest")
-          Future {
-            val logHandler = new HistoricProgressHandler()
-            try {
-              logger.info(s"[${registeredRequest.id}] Start docker pull ${runtime.toImageDef}")
-              val request = registeredRequest.request
-              dockerClient.pull(runtime.toImageDef, logHandler)
+        sync(runtime)
+      }
+    }
+  }
 
-              syncTasks += registeredRequest.id -> ServiceTaskFinished(request, registeredRequest.id, registeredRequest.startedAt, LocalDateTime.now(), runtime)
-              logger.info(s"[${registeredRequest.id}] Docker pull finished ${runtime.toImageDef}")
-            } catch {
-              case NonFatal(err) =>
-                val newFailStatus = err match {
-                  case ex: ImageNotFoundException =>
-                    ServiceTaskFailed[SyncRuntimeRequest, Runtime](
-                      registeredRequest.request,
-                      registeredRequest.id,
-                      registeredRequest.startedAt,
-                      s"Couldn't find an image ${runtime.toImageDef}",
-                      Some(ex)
-                    )
+  override def syncAll(): HFResult[Seq[ServiceTaskRunning[SyncRuntimeRequest, Runtime]]] = {
+    runtimeRepository.all().map { runtimes =>
+      Result.traverse(runtimes) { runtime =>
+        sync(runtime)
+      }
+    }
+  }
 
-                  case ex: DockerException =>
-                    ServiceTaskFailed[SyncRuntimeRequest, Runtime](
-                      registeredRequest.request,
-                      registeredRequest.id,
-                      registeredRequest.startedAt,
-                      s"Internal docker error",
-                      Some(ex)
-                    )
+  def sync(runtime: Runtime): HResult[ServiceTaskRunning[SyncRuntimeRequest, Runtime]] = {
+    val request = SyncRuntimeRequest(runtime.id)
+    registerSync(request).right.map { registeredRequest =>
+      logger.debug(s"[${registeredRequest.id}] Registered: $registeredRequest")
+      Future {
+        val logHandler = new HistoricProgressHandler()
+        try {
+          logger.info(s"[${registeredRequest.id}] Start docker pull ${runtime.toImageDef}")
+          val request = registeredRequest.request
+          dockerClient.pull(runtime.toImageDef, logHandler)
 
-                  case e =>
-                    ServiceTaskFailed[SyncRuntimeRequest, Runtime](
-                      registeredRequest.request,
-                      registeredRequest.id,
-                      registeredRequest.startedAt,
-                      s"Unexpected exception",
-                      Some(e)
-                    )
-                }
+          syncTasks += registeredRequest.id -> ServiceTaskFinished(request, registeredRequest.id, registeredRequest.startedAt, LocalDateTime.now(), runtime)
+          logger.info(s"[${registeredRequest.id}] Docker pull finished ${runtime.toImageDef}")
+        } catch {
+          case NonFatal(err) =>
+            val newFailStatus = err match {
+              case ex: ImageNotFoundException =>
+                ServiceTaskFailed[SyncRuntimeRequest, Runtime](
+                  registeredRequest.request,
+                  registeredRequest.id,
+                  registeredRequest.startedAt,
+                  s"Couldn't find an image ${runtime.toImageDef}",
+                  Some(ex)
+                )
 
-                // TODO cleanup after fail?
+              case ex: DockerException =>
+                ServiceTaskFailed[SyncRuntimeRequest, Runtime](
+                  registeredRequest.request,
+                  registeredRequest.id,
+                  registeredRequest.startedAt,
+                  s"Internal docker error",
+                  Some(ex)
+                )
 
-                syncTasks.update(registeredRequest.id, newFailStatus)
-                logger.warn(s"[${registeredRequest.id}] Docker pull failed: $newFailStatus")
-                logger.warn(s"[${registeredRequest.id}] Docker pull logs: ${logHandler.messages.mkString("\n")}")
+              case e =>
+                ServiceTaskFailed[SyncRuntimeRequest, Runtime](
+                  registeredRequest.request,
+                  registeredRequest.id,
+                  registeredRequest.startedAt,
+                  s"Unexpected exception",
+                  Some(e)
+                )
             }
-          }
-          registeredRequest
+
+            // TODO cleanup after fail?
+
+            syncTasks.update(registeredRequest.id, newFailStatus)
+            logger.warn(s"[${registeredRequest.id}] Docker pull failed: $newFailStatus")
+            logger.warn(s"[${registeredRequest.id}] Docker pull logs: ${logHandler.messages.mkString("\n")}")
         }
       }
+      registeredRequest
     }
   }
 }

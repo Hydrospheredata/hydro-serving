@@ -102,6 +102,7 @@ class ManagerServices(
     managerRepositories.runtimeRepository,
     dockerClient
   )
+  runtimeManagementService.syncAll()
 
   val environmentManagementService: EnvironmentManagementService = new EnvironmentManagementServiceImpl(managerRepositories.environmentRepository)
 
