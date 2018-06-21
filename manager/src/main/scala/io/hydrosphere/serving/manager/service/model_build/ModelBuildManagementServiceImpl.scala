@@ -16,6 +16,7 @@ import io.hydrosphere.serving.manager.service.model.ModelManagementService
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import org.apache.logging.log4j.scala.Logging
 import Result.Implicits._
+import io.hydrosphere.serving.manager.util.docker.{HistoricProgressHandler, InfoProgressHandler}
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -104,12 +105,16 @@ class ModelBuildManagementServiceImpl(
     }
   }
 
-  override def buildAndOverrideContract(modelId: Long, flatContract: Option[ContractDescription], modelVersion: Option[Long]): HFResult[ModelBuild] = {
-    logger.debug(s"modelId=$modelId,flatContract=$flatContract modelVersion=$modelVersion")
+  override def buildModel(buildModelRequest: BuildModelRequest): HFResult[ModelBuild] = {
+    logger.debug(
+      s"modelId=${buildModelRequest.modelId}," +
+      s"flatContract=${buildModelRequest.flatContract}" +
+      s" modelVersion=${buildModelRequest.modelVersion}"
+    )
     val f = for {
-      model <- EitherT(modelManagementService.getModel(modelId))
-      newModel <- EitherT(maybeUpdateContract(model, flatContract))
-      version <- EitherT(build(newModel, modelVersion))
+      model <- EitherT(modelManagementService.getModel(buildModelRequest.modelId))
+      newModel <- EitherT(maybeUpdateContract(model, buildModelRequest.flatContract))
+      version <- EitherT(build(newModel, buildModelRequest.modelVersion))
     } yield version
     f.value
   }
@@ -132,7 +137,7 @@ class ModelBuildManagementServiceImpl(
   def uploadAndBuild(modelUpload: ModelUpload): HFResult[ModelBuild] = {
     val f = for {
       model <- EitherT(modelManagementService.uploadModel(modelUpload))
-      version <- EitherT(buildAndOverrideContract(model.id))
+      version <- EitherT(buildModel(BuildModelRequest(model.id)))
     } yield version
     f.value
   }

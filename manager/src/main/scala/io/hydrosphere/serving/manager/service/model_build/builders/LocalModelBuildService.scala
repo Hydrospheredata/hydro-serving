@@ -5,7 +5,7 @@ import java.nio.file.{Files, Path}
 
 import cats.data.EitherT
 import cats.implicits._
-import com.spotify.docker.client.DockerClient
+import com.spotify.docker.client.{DockerClient, ProgressHandler}
 import com.spotify.docker.client.DockerClient.BuildParam
 import com.spotify.docker.client.exceptions.DockerException
 import io.hydrosphere.serving.manager.model.{HFResult, Result}
@@ -13,6 +13,7 @@ import io.hydrosphere.serving.manager.model.db.ModelBuild
 import org.apache.commons.io.FileUtils
 import io.hydrosphere.serving.manager.model.Result.Implicits._
 import io.hydrosphere.serving.manager.service.source.ModelStorageService
+import io.hydrosphere.serving.manager.util.docker.DockerClientHelper
 
 import scala.concurrent.{ExecutionContext, Future}
 import scala.util.control.NonFatal
@@ -47,7 +48,7 @@ class LocalModelBuildService(
           buildPath,
           s"$imageName:${modelBuild.version}",
           "Dockerfile",
-          DockerClientHelper.createProgressHandlerWrapper(progressHandler),
+          progressHandler,
           BuildParam.noCache()
         )
       }.toHResult(Result.InternalError(new RuntimeException("Can't build docker container")))

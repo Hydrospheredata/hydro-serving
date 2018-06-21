@@ -6,6 +6,7 @@ import io.hydrosphere.serving.manager.controller.application._
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.it.FullIntegrationSpec
 import io.hydrosphere.serving.manager.model.db._
+import io.hydrosphere.serving.manager.service.model_build.BuildModelRequest
 import org.scalatest.BeforeAndAfterAll
 
 import scala.concurrent.{Await, Future}
@@ -25,7 +26,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
   "Application service" should {
     "create a simple application" in {
       for {
-        modelBuild <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
+        modelBuild <- managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1))
         appRequest = CreateApplicationRequest(
           name = "testapp",
           namespace = None,
@@ -83,7 +84,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
     "create a multi-service stage" in {
       for {
-        buildResult <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
+        buildResult <- managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1))
         build = buildResult.right.get
         version = awaitVersion(build.id)
         appRequest = CreateApplicationRequest(
@@ -157,7 +158,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
     "create and update an application with kafkaStreaming" in {
       for {
-        buildResult <- managerServices.modelBuildManagmentService.buildAndOverrideContract(1, None)
+        buildResult <- managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1))
         version = awaitVersion(buildResult.right.get.id)
         appRequest = CreateApplicationRequest(
           name = "kafka_app",

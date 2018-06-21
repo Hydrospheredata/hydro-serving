@@ -5,6 +5,7 @@ import cats.instances.all._
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.it.FullIntegrationSpec
 import io.hydrosphere.serving.manager.model.db.Model
+import io.hydrosphere.serving.manager.service.model_build.BuildModelRequest
 import org.scalatest.BeforeAndAfterAll
 
 import scala.concurrent.Await
@@ -38,9 +39,9 @@ class ModelVersionServiceITSpec extends FullIntegrationSpec with BeforeAndAfterA
 
       "model was already build" in {
         for {
-          r1 <- managerServices.modelBuildManagmentService.buildAndOverrideContract(dummy_1.id)
+          r1 <- managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(dummy_1.id))
           cr1 = awaitVersion(r1.right.get.id)
-          r2 <- managerServices.modelBuildManagmentService.buildAndOverrideContract(dummy_2.id)
+          r2 <- managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(dummy_2.id))
           cr2 = awaitVersion(r2.right.get.id)
           modelInfo <- managerServices.aggregatedInfoUtilityService.getModelAggregatedInfo(dummy_1.id)
         } yield {

@@ -1,29 +1,29 @@
 package io.hydrosphere.serving.manager
 
-import akka.actor.{ActorRef, ActorSystem, Props}
+import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
+import com.paulgoldbaum.influxdbclient._
 import com.sksamuel.elastic4s.ElasticsearchClientUri
 import com.sksamuel.elastic4s.http.HttpClient
-import com.paulgoldbaum.influxdbclient._
 import com.spotify.docker.client._
 import io.grpc._
 import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, Headers}
 import io.hydrosphere.serving.manager.connector.HttpEnvoyAdminConnector
-import io.hydrosphere.serving.manager.service.clouddriver._
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedInfoUtilityServiceImpl}
 import io.hydrosphere.serving.manager.service.application.{ApplicationManagementService, ApplicationManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.build_script.{BuildScriptManagementService, BuildScriptManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.clouddriver._
 import io.hydrosphere.serving.manager.service.contract.ContractUtilityServiceImpl
 import io.hydrosphere.serving.manager.service.environment.{EnvironmentManagementService, EnvironmentManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.envoy.{EnvoyGRPCDiscoveryService, EnvoyGRPCDiscoveryServiceImpl}
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
-import io.hydrosphere.serving.manager.service.model.{ModelManagementService, ModelManagementServiceImpl}
-import io.hydrosphere.serving.manager.service.model_build.{ModelBuildManagementServiceImpl, ModelBuildManagmentService}
-import io.hydrosphere.serving.manager.service.model_build.builders._
-import io.hydrosphere.serving.manager.service.model_version.{ModelVersionManagementService, ModelVersionManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.metrics.{ElasticSearchMetricsService, InfluxDBMetricsService, PrometheusMetricsServiceImpl}
-import io.hydrosphere.serving.manager.service.runtime.{RuntimeManagementService, RuntimeManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.model.{ModelManagementService, ModelManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.model_build.builders._
+import io.hydrosphere.serving.manager.service.model_build.{ModelBuildManagementServiceImpl, ModelBuildManagmentService}
+import io.hydrosphere.serving.manager.service.model_version.{ModelVersionManagementService, ModelVersionManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.runtime.{DefaultRuntimes, RuntimeManagementService, RuntimeManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.service.{ServiceManagementService, ServiceManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.source.ModelStorageServiceImpl
 import io.hydrosphere.serving.monitoring.monitoring.MonitoringServiceGrpc
@@ -31,17 +31,16 @@ import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServic
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.ExecutionContext
-import scala.collection.JavaConverters._
 
 class ManagerServices(
-    val managerRepositories: ManagerRepositories,
-    val managerConfiguration: ManagerConfiguration,
-    val dockerClient: DockerClient
+  val managerRepositories: ManagerRepositories,
+  val managerConfiguration: ManagerConfiguration,
+  val dockerClient: DockerClient
 )(
-    implicit val ex: ExecutionContext,
-    implicit val system: ActorSystem,
-    implicit val materializer: ActorMaterializer,
-    implicit val timeout: Timeout
+  implicit val ex: ExecutionContext,
+  implicit val system: ActorSystem,
+  implicit val materializer: ActorMaterializer,
+  implicit val timeout: Timeout
 ) extends Logging {
 
   val managedChannel = ManagedChannelBuilder
@@ -99,7 +98,11 @@ class ManagerServices(
     case _ => new LocalCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
   }
 
-  val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(managerRepositories.runtimeRepository)
+  val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(
+    managerRepositories.runtimeRepository,
+    dockerClient
+  )
+  managerConfiguration.runtimesStarterPack.foreach(runtimeManagementService.create)
 
   val environmentManagementService: EnvironmentManagementService = new EnvironmentManagementServiceImpl(managerRepositories.environmentRepository)
 
@@ -146,10 +149,10 @@ class ManagerServices(
     applicationManagementService
   )
 
-  managerConfiguration.metrics.elasticSearch.foreach(conf=>{
+  managerConfiguration.metrics.elasticSearch.foreach { conf =>
     val elasticClient = HttpClient(ElasticsearchClientUri(conf.clientUri))
 
-    val elasticSearchMetricsActor: ActorRef = system.actorOf(Props(classOf[ElasticSearchMetricsService],
+    val elasticActor = system.actorOf(ElasticSearchMetricsService.props(
       managerConfiguration: ManagerConfiguration,
       envoyAdminConnector,
       cloudDriverService,
@@ -157,18 +160,18 @@ class ManagerServices(
       applicationManagementService,
       elasticClient
     ))
-  })
+  }
 
-  managerConfiguration.metrics.influxDB.foreach(conf=>{
+  managerConfiguration.metrics.influxDB.foreach { conf =>
     val influxDBClient = InfluxDB.connect(conf.host, conf.port)
 
-    val influxDBMetricsActor: ActorRef = system.actorOf(Props(classOf[InfluxDBMetricsService],
-      managerConfiguration: ManagerConfiguration,
+    val influxActor = system.actorOf(InfluxDBMetricsService.props(
+      managerConfiguration,
       envoyAdminConnector,
       cloudDriverService,
       serviceManagementService,
       applicationManagementService,
       influxDBClient
     ))
-  })
+  }
 }

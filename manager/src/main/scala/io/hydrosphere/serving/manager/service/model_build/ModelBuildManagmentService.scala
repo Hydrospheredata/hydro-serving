@@ -16,11 +16,9 @@ trait ModelBuildManagmentService {
 
   def lastModelBuildsByModelId(id: Long, maximum: Int): Future[Seq[ModelBuild]]
 
-  def buildAndOverrideContract(modelId: Long, flatContract: Option[ContractDescription] = None, modelVersion: Option[Long] = None): HFResult[ModelBuild]
+  def buildModel(buildModelRequest: BuildModelRequest): HFResult[ModelBuild]
 
   def uploadAndBuild(modelUpload: ModelUpload): HFResult[ModelBuild]
 
   def delete(buildId: Long): HFResult[ModelBuild]
 }
-
-

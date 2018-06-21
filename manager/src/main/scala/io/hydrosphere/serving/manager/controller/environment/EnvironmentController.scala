@@ -63,7 +63,7 @@ class EnvironmentController(
   def deleteEnvironment = delete {
     path("api" / "v1" / "environment" / LongNumber) { environmentId =>
       onSuccess(environmentManagementService.delete(environmentId)) {
-        complete(200, None)
+        complete(200, environmentId)
       }
     }
   }

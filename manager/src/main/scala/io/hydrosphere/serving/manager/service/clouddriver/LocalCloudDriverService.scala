@@ -9,17 +9,15 @@ import io.hydrosphere.serving.manager.{LocalDockerCloudDriverConfiguration, Loca
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.Service
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
-import io.hydrosphere.serving.manager.service.model_build.builders.{DockerClientHelper, InfoProgressHandler, ProgressHandler, ProgressMessage}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 import collection.JavaConversions._
 import scala.util.Try
 import CloudDriverService._
+import io.hydrosphere.serving.manager.util.docker.{DockerClientHelper, InfoProgressHandler}
 
-/**
-  *
-  */
+
 class LocalCloudDriverService(
   dockerClient: DockerClient,
   managerConfiguration: ManagerConfiguration,
@@ -97,18 +95,8 @@ class LocalCloudDriverService(
     publishPorts
   }
 
-  private def pullImage(service: Service): Unit = {
-    if (dockerClient.listImages(ListImagesParam.byName(service.runtime.toImageDef)).isEmpty) {
-      dockerClient.pull(service.runtime.toImageDef,
-                        DockerClientHelper.createProgressHandlerWrapper(InfoProgressHandler))
-    }
-    Unit
-  }
-
   override def deployService(service: Service): Future[CloudService] = Future.apply {
     logger.debug(service)
-
-    pullImage(service)
 
     val modelContainerId = service.model.map(_ => startModel(service))
     val javaLabels = getRuntimeLabels(service) ++ Map(
