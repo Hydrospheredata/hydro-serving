@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.model.api
 
-sealed trait ModelType {
+sealed trait ModelType extends Serializable with Product {
   def toTag: String
 }
 

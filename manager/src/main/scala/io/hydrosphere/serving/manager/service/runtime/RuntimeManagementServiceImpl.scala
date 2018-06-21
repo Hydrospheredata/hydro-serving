@@ -59,7 +59,7 @@ class RuntimeManagementServiceImpl(
               id = 0,
               name = request.name,
               version = request.version,
-              suitableModelType = request.modelTypes,
+              suitableModelType = request.modelTypes.map(ModelType.fromTag),
               tags = request.tags,
               configParams = request.configParams
             )
