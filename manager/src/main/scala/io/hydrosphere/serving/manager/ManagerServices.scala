@@ -23,7 +23,7 @@ import io.hydrosphere.serving.manager.service.model.{ModelManagementService, Mod
 import io.hydrosphere.serving.manager.service.model_build.builders._
 import io.hydrosphere.serving.manager.service.model_build.{ModelBuildManagementServiceImpl, ModelBuildManagmentService}
 import io.hydrosphere.serving.manager.service.model_version.{ModelVersionManagementService, ModelVersionManagementServiceImpl}
-import io.hydrosphere.serving.manager.service.runtime.{RuntimeManagementService, RuntimeManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.runtime.{DefaultRuntimes, RuntimeManagementService, RuntimeManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.service.{ServiceManagementService, ServiceManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.source.ModelStorageServiceImpl
 import io.hydrosphere.serving.monitoring.monitoring.MonitoringServiceGrpc
@@ -102,7 +102,7 @@ class ManagerServices(
     managerRepositories.runtimeRepository,
     dockerClient
   )
-  runtimeManagementService.syncAll()
+  managerConfiguration.runtimesStarterPack.foreach(runtimeManagementService.create)
 
   val environmentManagementService: EnvironmentManagementService = new EnvironmentManagementServiceImpl(managerRepositories.environmentRepository)
 

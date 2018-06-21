@@ -130,16 +130,12 @@ class RuntimeServiceSpec extends GenericUnitTest {
 
     it("lists all runtimes") {
       val runtimeRepo = mock[RuntimeRepository]
-      Mockito.when(runtimeRepo.all()).thenAnswer(new Answer[Future[Seq[Runtime]]] {
-        override def answer(invocation: InvocationOnMock): Future[Seq[Runtime]] = {
-          Future.successful(
-            Seq(
-              Runtime(0, "test1", "latest", List.empty, List.empty, Map.empty),
-              Runtime(1, "test2", "latest", List.empty, List.empty, Map.empty)
-            )
-          )
-        }
-      })
+      Mockito.when(runtimeRepo.all()).thenReturn(Future.successful(
+        Seq(
+          Runtime(0, "test1", "latest", List.empty, List.empty, Map.empty),
+          Runtime(1, "test2", "latest", List.empty, List.empty, Map.empty)
+        )
+      ))
 
       val runtimeManagementService = new RuntimeManagementServiceImpl(runtimeRepo, null)
       runtimeManagementService.all().map { runtimes =>

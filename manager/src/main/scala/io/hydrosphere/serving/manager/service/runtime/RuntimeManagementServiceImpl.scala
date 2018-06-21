@@ -27,9 +27,6 @@ class RuntimeManagementServiceImpl(
   implicit ex: ExecutionContext
 ) extends RuntimeManagementService with Logging {
 
-  // Initialize env with default runtimes
-  DefaultRuntimes.all.foreach(create)
-
   val createTasks = TrieMap.empty[UUID, ServiceTask[CreateRuntimeRequest, Runtime]]
   val syncTasks = TrieMap.empty[UUID, ServiceTask[SyncRuntimeRequest, Runtime]]
 

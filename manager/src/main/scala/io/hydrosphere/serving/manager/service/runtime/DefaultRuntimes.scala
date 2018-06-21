@@ -3,6 +3,16 @@ package io.hydrosphere.serving.manager.service.runtime
 import io.hydrosphere.serving.manager.model.api.ModelType
 
 object DefaultRuntimes {
+  final val dummies = List(
+    CreateRuntimeRequest(
+      name = "hydrosphere/serving-runtime-dummy",
+      version = "latest",
+      modelTypes = List(ModelType.Unknown().toTag),
+      tags = List("dummy"),
+      configParams = Map.empty
+    )
+  )
+
   final val sparkRuntimes = List(
     CreateRuntimeRequest(
       name = "hydrosphere/serving-runtime-spark",
@@ -47,5 +57,12 @@ object DefaultRuntimes {
     )
   )
 
-  final val all = sparkRuntimes ++ tensorflowRuntimes ++ pythonRuntimes
+  final val all = dummies ++ sparkRuntimes ++ tensorflowRuntimes ++ pythonRuntimes
+
+  def getConfig(name: String): List[CreateRuntimeRequest] = {
+    name match {
+      case "dummy" => dummies
+      case _ => all
+    }
+  }
 }

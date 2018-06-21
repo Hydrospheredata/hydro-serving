@@ -9,9 +9,6 @@ CREATE TABLE hydro_serving.runtime
   CONSTRAINT runtime_type_name_version_unique UNIQUE (name, version)
 );
 
-INSERT INTO hydro_serving.runtime (name, version, tags, config_params, suitable_model_types) VALUES
-  ('hydrosphere/serving-runtime-dummy', 'latest', '{"python","code","test"}', '{}', '{"unknown"}');
-
 CREATE TABLE hydro_serving.model
 (
   model_id          BIGSERIAL PRIMARY KEY,
@@ -94,7 +91,3 @@ CREATE TABLE hydro_serving.model_build_script
   script TEXT NOT NULL,
   PRIMARY KEY (name)
 );
-
-
-
-
