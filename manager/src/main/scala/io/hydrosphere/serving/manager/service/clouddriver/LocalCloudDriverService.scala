@@ -95,17 +95,8 @@ class LocalCloudDriverService(
     publishPorts
   }
 
-  private def pullImage(service: Service): Unit = {
-    if (dockerClient.listImages(ListImagesParam.byName(service.runtime.toImageDef)).isEmpty) {
-      dockerClient.pull(service.runtime.toImageDef, InfoProgressHandler)
-    }
-    Unit
-  }
-
   override def deployService(service: Service): Future[CloudService] = Future.apply {
     logger.debug(service)
-
-    pullImage(service)
 
     val modelContainerId = service.model.map(_ => startModel(service))
     val javaLabels = getRuntimeLabels(service) ++ Map(
