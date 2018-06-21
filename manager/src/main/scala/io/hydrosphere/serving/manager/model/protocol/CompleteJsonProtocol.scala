@@ -1,7 +1,6 @@
 package io.hydrosphere.serving.manager.model.protocol
 
 import io.hydrosphere.serving.manager.controller.environment.CreateEnvironmentRequest
-import io.hydrosphere.serving.manager.controller.model.AddModelRequest
 import io.hydrosphere.serving.manager.model.Result.{ClientError, ErrorCollection, HError, InternalError}
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedModelBuild, AggregatedModelInfo, AggregatedModelVersion}
@@ -16,6 +15,8 @@ trait CompleteJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol 
   implicit val createServiceRequest = jsonFormat5(CreateServiceRequest)
 
   implicit val createRuntimeRequest = jsonFormat5(CreateRuntimeRequest)
+
+  implicit val serviceTaskStatusFormat = enumFormat(ServiceTaskStatus)
 
   implicit def serviceTaskRunnningFormat[Req <: ServiceRequest, Res]
     (implicit j1: JsonFormat[Req], j2: JsonFormat[Res]) = {
@@ -50,8 +51,6 @@ trait CompleteJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol 
   implicit val createModelVersionRequest = jsonFormat12(CreateModelVersionRequest)
 
   implicit val createEnvironmentRequest = jsonFormat2(CreateEnvironmentRequest)
-
-  implicit val addModelFormat = jsonFormat2(AddModelRequest.apply)
 
   implicit val aggregatedModelInfoFormat = jsonFormat4(AggregatedModelInfo)
 

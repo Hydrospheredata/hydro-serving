@@ -11,3 +11,7 @@ case class CreateRuntimeRequest(
 ) extends ServiceRequest {
   def fullImage = name + ":" + version
 }
+
+case class SyncRuntimeRequest(
+  runtimeId: Long
+) extends ServiceRequest

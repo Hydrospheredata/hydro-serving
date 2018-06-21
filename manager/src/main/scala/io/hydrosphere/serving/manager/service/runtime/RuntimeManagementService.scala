@@ -17,6 +17,8 @@ trait RuntimeManagementService {
 
   def create(request: CreateRuntimeRequest): HFResult[ServiceTaskRunning[CreateRuntimeRequest, Runtime]]
 
+  def sync(request: SyncRuntimeRequest): HFResult[ServiceTaskRunning[SyncRuntimeRequest, Runtime]]
+
   def get(id: Long): HFResult[Runtime]
 
   def getCreationStatus(requestId: UUID): HFResult[ServiceTask[CreateRuntimeRequest, Runtime]]

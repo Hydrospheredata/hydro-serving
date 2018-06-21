@@ -8,7 +8,6 @@ import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.controller.GenericController
 import io.hydrosphere.serving.manager.model.db.Runtime
-import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.runtime.{CreateRuntimeRequest, RuntimeManagementService}
 import io.hydrosphere.serving.manager.util.UUIDUtils
 import io.swagger.annotations._
