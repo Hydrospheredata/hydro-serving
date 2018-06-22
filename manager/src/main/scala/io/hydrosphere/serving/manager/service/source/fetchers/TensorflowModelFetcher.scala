@@ -1,18 +1,15 @@
 package io.hydrosphere.serving.manager.service.source.fetchers
 
-import java.io.FileNotFoundException
-import java.nio.file.{Files, NoSuchFileException}
+import java.nio.file.Files
 
-import com.sun.xml.internal.ws.util.InjectionPlan.FieldInjectionPlan
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.model.api.ModelMetadata
-import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
-import io.hydrosphere.serving.tensorflow.types.DataType
-import io.hydrosphere.serving.manager.model.api._
+import io.hydrosphere.serving.manager.model.api.{ModelMetadata, _}
 import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import io.hydrosphere.serving.tensorflow.TensorShape
+import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
+import io.hydrosphere.serving.tensorflow.types.DataType
 import org.apache.logging.log4j.scala.Logging
 import org.tensorflow.framework.{SavedModel, SignatureDef, TensorInfo}
 
@@ -31,10 +28,7 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
         val signatures = savedModel
           .getMetaGraphsList
           .flatMap { metagraph =>
-            metagraph.getSignatureDefMap.map {
-              case (_, signatureDef) =>
-                convertSignature(signatureDef)
-            }.toList
+            metagraph.getSignatureDefMap.map(convertSignature).toList
           }
 
         Some(
@@ -71,12 +65,11 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
     }.toList
   }
 
-  private def convertSignature(signatureDef: SignatureDef): ModelSignature = {
+  private def convertSignature(signatureKV: (String, SignatureDef)): ModelSignature = {
     ModelSignature(
-      signatureName = signatureDef.getMethodName,
-      inputs = convertTensorMap(signatureDef.getInputsMap.toMap),
-      outputs = convertTensorMap(signatureDef.getOutputsMap.toMap)
+      signatureName = signatureKV._1,
+      inputs = convertTensorMap(signatureKV._2.getInputsMap.toMap),
+      outputs = convertTensorMap(signatureKV._2.getOutputsMap.toMap)
     )
   }
-
 }
