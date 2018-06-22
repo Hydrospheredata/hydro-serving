@@ -22,7 +22,7 @@ class ComplexFieldBuilder(val modelField: ModelField, val subfields: Seq[ModelFi
           Right(
             MapTensor(
               TensorShape.fromProto(modelField.shape),
-              results.map(_.data.head) // since we know that submaps are NONE shape
+              results.map(_.data.head)
             )
           )
         }
