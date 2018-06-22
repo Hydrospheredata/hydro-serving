@@ -31,9 +31,8 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
         val signatures = savedModel
           .getMetaGraphsList
           .flatMap { metagraph =>
-            metagraph.getSignatureDefMap.map {
-              case (_, signatureDef) =>
-                convertSignature(signatureDef)
+            metagraph.getSignatureDefMap.map { x =>
+              convertSignature(x)
             }.toList
           }
 
@@ -71,12 +70,11 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
     }.toList
   }
 
-  private def convertSignature(signatureDef: SignatureDef): ModelSignature = {
+  private def convertSignature(signatureKV: (String, SignatureDef)): ModelSignature = {
     ModelSignature(
-      signatureName = signatureDef.getMethodName,
-      inputs = convertTensorMap(signatureDef.getInputsMap.toMap),
-      outputs = convertTensorMap(signatureDef.getOutputsMap.toMap)
+      signatureName = signatureKV._1,
+      inputs = convertTensorMap(signatureKV._2.getInputsMap.toMap),
+      outputs = convertTensorMap(signatureKV._2.getOutputsMap.toMap)
     )
   }
-
 }
