@@ -4,6 +4,7 @@ import com.google.protobuf.ByteString
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.contract.utils.ContractBuilders
 import io.hydrosphere.serving.manager.model.api.tensor_builder.SignatureBuilder
+import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.types.DataType.{DT_BOOL, DT_FLOAT, DT_INT16, DT_STRING}
 import org.scalatest.WordSpec
 import spray.json._
@@ -26,10 +27,10 @@ class ValidationSpecs extends WordSpec {
         val signature = ModelSignature(
           signatureName = "test",
           inputs = Seq(
-            ContractBuilders.simpleTensorModelField("name", DT_STRING, None),
-            ContractBuilders.simpleTensorModelField("age", DT_INT16, None),
-            ContractBuilders.simpleTensorModelField("isEmployed", DT_BOOL, None),
-            ContractBuilders.simpleTensorModelField("features", DT_FLOAT, Some(Seq(4L)))
+            ContractBuilders.simpleTensorModelField("name", DT_STRING, TensorShape.scalar),
+            ContractBuilders.simpleTensorModelField("age", DT_INT16, TensorShape.scalar),
+            ContractBuilders.simpleTensorModelField("isEmployed", DT_BOOL, TensorShape.scalar),
+            ContractBuilders.simpleTensorModelField("features", DT_FLOAT, TensorShape.vector(4))
           )
         )
 
@@ -59,15 +60,15 @@ class ValidationSpecs extends WordSpec {
         val signature = ModelSignature(
           signatureName = "test",
           inputs = Seq(
-            ContractBuilders.simpleTensorModelField("isOk", DT_BOOL, None),
+            ContractBuilders.simpleTensorModelField("isOk", DT_BOOL, TensorShape.scalar),
             ContractBuilders.complexField(
               "person",
               None,
               Seq(
-                ContractBuilders.simpleTensorModelField("name", DT_STRING, None),
-                ContractBuilders.simpleTensorModelField("age", DT_INT16, None),
-                ContractBuilders.simpleTensorModelField("isEmployed", DT_BOOL, None),
-                ContractBuilders.simpleTensorModelField("features", DT_FLOAT, Some(Seq(4L)))
+                ContractBuilders.simpleTensorModelField("name", DT_STRING, TensorShape.scalar),
+                ContractBuilders.simpleTensorModelField("age", DT_INT16, TensorShape.scalar),
+                ContractBuilders.simpleTensorModelField("isEmployed", DT_BOOL, TensorShape.scalar),
+                ContractBuilders.simpleTensorModelField("features", DT_FLOAT, TensorShape.scalar)
               )
             )
           )
@@ -100,8 +101,8 @@ class ValidationSpecs extends WordSpec {
         val signature = ModelSignature(
           signatureName = "test",
           inputs = Seq(
-            ContractBuilders.simpleTensorModelField("name", DT_STRING, None),
-            ContractBuilders.simpleTensorModelField("birthday", DT_STRING, None)
+            ContractBuilders.simpleTensorModelField("name", DT_STRING, TensorShape.scalar),
+            ContractBuilders.simpleTensorModelField("birthday", DT_STRING, TensorShape.scalar)
           )
         )
 
@@ -109,7 +110,7 @@ class ValidationSpecs extends WordSpec {
         val result = validator.convert(input)
 
         assert(result.isLeft, result)
-        assert(result.left.get.getMessage.contains("Couldn't find 'birthday' field"))
+        assert(result.left.get.message.contains("Couldn't find 'birthday' field"))
       }
 
       "nested json is incompatible with contract" in {
@@ -129,15 +130,15 @@ class ValidationSpecs extends WordSpec {
         val signature = ModelSignature(
           signatureName = "test",
           inputs = Seq(
-            ContractBuilders.simpleTensorModelField("isOk", DT_BOOL, None),
+            ContractBuilders.simpleTensorModelField("isOk", DT_BOOL, TensorShape.scalar),
             ContractBuilders.complexField(
               "person",
               None,
               Seq(
-                ContractBuilders.simpleTensorModelField("surname", DT_STRING, None),
-                ContractBuilders.simpleTensorModelField("age", DT_INT16, None),
-                ContractBuilders.simpleTensorModelField("isEmployed", DT_BOOL, None),
-                ContractBuilders.simpleTensorModelField("features", DT_FLOAT, Some(Seq(4L)))
+                ContractBuilders.simpleTensorModelField("surname", DT_STRING, TensorShape.scalar),
+                ContractBuilders.simpleTensorModelField("age", DT_INT16, TensorShape.scalar),
+                ContractBuilders.simpleTensorModelField("isEmployed", DT_BOOL, TensorShape.scalar),
+                ContractBuilders.simpleTensorModelField("features", DT_FLOAT, TensorShape.vector(4))
               )
             )
           )
@@ -147,7 +148,7 @@ class ValidationSpecs extends WordSpec {
         val result = validator.convert(input)
 
         assert(result.isLeft, result)
-        val errorMsg = result.left.get.getMessage
+        val errorMsg = result.left.get.message
         assert(errorMsg contains "Errors while validating subfields for 'person' field")
         assert(errorMsg contains "Couldn't find 'surname' field")
       }

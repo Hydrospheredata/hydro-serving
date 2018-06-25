@@ -1,15 +1,15 @@
 package io.hydrosphere.serving.manager.util
 
 import io.hydrosphere.serving.manager.model.{HResult, Result}
-import io.hydrosphere.serving.tensorflow.TensorShape
+import io.hydrosphere.serving.tensorflow.TensorShape.{AnyDims, Dims}
 import io.hydrosphere.serving.tensorflow.tensor.{TensorProto, TypedTensor, TypedTensorFactory}
 
 object TensorUtil {
   def verifyShape[T](tensor: TypedTensor[T]): HResult[TypedTensor[T]] = {
-    tensor.shape.dims match {
-      case Some(Nil) => Result.ok(tensor)
-      case None => Result.ok(tensor)
-      case Some(tensorDims) =>
+    tensor.shape match {
+      case AnyDims() => Result.ok(tensor)
+      case Dims(tensorDims, _) if tensorDims.isEmpty => Result.ok(tensor)
+      case Dims(tensorDims, _) =>
         if (tensorDims.isEmpty && tensor.data.length <= 1) {
           Result.ok(tensor)
         } else {
@@ -38,7 +38,7 @@ object TensorUtil {
           }
 
           if (isShapeOk) {
-            val rawTensor = tensor.toProto.copy(tensorShape = TensorShape.fromSeq(Some(actualDims)).toProto)
+            val rawTensor = tensor.toProto.copy(tensorShape = Dims(actualDims).toProto)
             val result = tensor.factory.fromProto(rawTensor)
             Result.ok(result)
           } else {

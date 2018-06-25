@@ -3,8 +3,7 @@ package io.hydrosphere.serving.manager.service.model
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.contract.utils.description.ContractDescription
-import io.hydrosphere.serving.contract.utils.ops.ModelContractOps._
+import io.hydrosphere.serving.manager.model.api.ops.ModelContractOps._
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.ModelType
@@ -15,6 +14,7 @@ import io.hydrosphere.serving.manager.service.source.ModelStorageService
 import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.manager.model.Result.HError
+import io.hydrosphere.serving.manager.model.api.description.ContractDescription
 import org.apache.logging.log4j.scala.Logging
 import spray.json.JsObject
 

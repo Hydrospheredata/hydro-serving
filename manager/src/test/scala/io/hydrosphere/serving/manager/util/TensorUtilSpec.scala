@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager.util
 
 import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.tensorflow.TensorShape
+import io.hydrosphere.serving.tensorflow.TensorShape.Dims
 import io.hydrosphere.serving.tensorflow.tensor.DoubleTensor
 
 class TensorUtilSpec extends GenericUnitTest {
@@ -35,7 +36,7 @@ class TensorUtilSpec extends GenericUnitTest {
       val shapeRes = TensorUtil.verifyShape(tensor)
       assert(shapeRes.isRight, shapeRes)
       val shaped = shapeRes.right.get
-      assert(shaped.shape.dims === Some(Seq(2, 2, 3)))
+      assert(shaped.shape === Dims(Seq(2, 2, 3)))
     }
 
     it("should fill dynamic dims and return it for correct shape") {
@@ -43,7 +44,7 @@ class TensorUtilSpec extends GenericUnitTest {
       val shapeRes = TensorUtil.verifyShape(tensor)
       assert(shapeRes.isRight, shapeRes)
       val shaped = shapeRes.right.get
-      assert(shaped.shape.dims === Some(Seq(1, 3, 2)))
+      assert(shaped.shape === Dims(Seq(1, 3, 2)))
     }
 
     it("should fail on incorrect shape") {

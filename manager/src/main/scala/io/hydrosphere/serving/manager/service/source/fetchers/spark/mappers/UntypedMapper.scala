@@ -4,6 +4,7 @@ import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.utils.ContractBuilders
 import io.hydrosphere.serving.tensorflow.types.DataType
 import io.hydrosphere.serving.manager.service.source.fetchers.spark.SparkModelMetadata
+import io.hydrosphere.serving.tensorflow.TensorShape.AnyDims
 
 class UntypedMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
   private[this] val inputCols = Array("inputCol", "featuresCol")
@@ -16,7 +17,7 @@ class UntypedMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
         ContractBuilders.simpleTensorModelField(
           label,
           DataType.DT_STRING,
-          None
+          AnyDims()
         )
       }
   }
@@ -30,8 +31,7 @@ class UntypedMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
             ContractBuilders.simpleTensorModelField(
               inputName,
               DataType.DT_STRING,
-              Some(Seq.empty),
-              unknownRank = true
+              AnyDims()
             )
         }
       }
@@ -47,8 +47,7 @@ class UntypedMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
             ContractBuilders.simpleTensorModelField(
               inputName,
               DataType.DT_STRING,
-              Some(Seq.empty),
-              unknownRank = true
+              AnyDims()
             )
         }
       }

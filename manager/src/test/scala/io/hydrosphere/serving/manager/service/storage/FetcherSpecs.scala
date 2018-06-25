@@ -63,10 +63,10 @@ class FetcherSpecs extends GenericUnitTest {
         Seq(ModelSignature(
           "infer",
           Seq(
-            ContractBuilders.simpleTensorModelField("Input73", DataType.DT_FLOAT, Some(Seq(1, 1, 28, 28)))
+            ContractBuilders.simpleTensorModelField("Input73", DataType.DT_FLOAT, TensorShape.mat(1, 1, 28, 28))
           ),
           Seq(
-            ContractBuilders.simpleTensorModelField("Plus422_Output_0", DataType.DT_FLOAT, Some(Seq(1, 10)))
+            ContractBuilders.simpleTensorModelField("Plus422_Output_0", DataType.DT_FLOAT, TensorShape.mat(1, 10))
           ))
         )
       )

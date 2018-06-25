@@ -4,7 +4,6 @@ import java.time.LocalDateTime
 
 import cats.data.EitherT
 import cats.implicits._
-import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model.Result.{ClientError, HError}
 import io.hydrosphere.serving.manager.model._
@@ -16,6 +15,7 @@ import io.hydrosphere.serving.manager.service.model.ModelManagementService
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import org.apache.logging.log4j.scala.Logging
 import Result.Implicits._
+import io.hydrosphere.serving.manager.model.api.description.ContractDescription
 import io.hydrosphere.serving.manager.util.docker.{HistoricProgressHandler, InfoProgressHandler}
 
 import scala.concurrent.{ExecutionContext, Future}

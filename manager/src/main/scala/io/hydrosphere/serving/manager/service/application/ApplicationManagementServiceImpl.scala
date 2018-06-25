@@ -6,14 +6,14 @@ import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.contract.utils.DataGenerator
-import io.hydrosphere.serving.contract.utils.ops.ModelSignatureOps
 import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, Header, Headers}
 import io.hydrosphere.serving.manager.ApplicationConfig
 import io.hydrosphere.serving.manager.controller.application._
 import io.hydrosphere.serving.manager.model.Result.ClientError
 import io.hydrosphere.serving.manager.model.Result.Implicits._
+import io.hydrosphere.serving.manager.model.api.TensorExampleGenerator
 import io.hydrosphere.serving.manager.model.api.json.TensorJsonLens
+import io.hydrosphere.serving.manager.model.api.ops.ModelSignatureOps
 import io.hydrosphere.serving.manager.model.api.tensor_builder.SignatureBuilder
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.model.{db, _}
@@ -418,7 +418,7 @@ class ApplicationManagementServiceImpl(
       result.right.flatMap { app =>
         app.contract.signatures.find(_.signatureName == signatureName) match {
           case Some(signature) =>
-            val data = DataGenerator(signature).generateInputs
+            val data = TensorExampleGenerator(signature).inputs
             Result.ok(TensorJsonLens.mapToJson(data))
           case None => Result.clientError(s"Can't find signature '$signatureName")
         }
