@@ -11,7 +11,6 @@ import org.mockito.stubbing.Answer
 import org.mockito.{Matchers, Mockito}
 
 import scala.concurrent.Future
-import scala.concurrent.ExecutionContext.Implicits._
 
 class RuntimeServiceSpec extends GenericUnitTest {
   describe("Runtime service") {
@@ -19,12 +18,10 @@ class RuntimeServiceSpec extends GenericUnitTest {
       describe("succeeds") {
         it("with supported runtime") {
           val runtimeRepo = mock[RuntimeRepository]
-          when(runtimeRepo.create(Matchers.any())).thenAnswer(new Answer[Future[Runtime]] {
-            override def answer(invocation: InvocationOnMock): Future[Runtime] = {
-              Future.successful(
-                invocation.getArgumentAt(0, classOf[Runtime])
-              )
-            }
+          when(runtimeRepo.create(Matchers.any())).thenAnswer((invocation: InvocationOnMock) => {
+            Future.successful(
+              invocation.getArgumentAt(0, classOf[Runtime])
+            )
           })
 
           val dockerMock = mock[DockerClient]

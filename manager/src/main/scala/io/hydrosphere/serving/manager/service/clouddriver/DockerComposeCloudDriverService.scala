@@ -5,7 +5,7 @@ import com.spotify.docker.client.messages.{Container, HostConfig, LogConfig}
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
 import io.hydrosphere.serving.manager.{DockerCloudDriverConfiguration, ManagerConfiguration}
 
-import collection.JavaConversions._
+import collection.JavaConverters._
 import scala.concurrent.ExecutionContext
 import CloudDriverService._
 
@@ -29,7 +29,7 @@ class DockerComposeCloudDriverService(
 
     driverConfiguration.loggingConfiguration match {
       case Some(x) =>
-        builder.logConfig(LogConfig.create(x.driver, x.params))
+        builder.logConfig(LogConfig.create(x.driver, x.params.asJava))
       case _ =>
     }
     builder
