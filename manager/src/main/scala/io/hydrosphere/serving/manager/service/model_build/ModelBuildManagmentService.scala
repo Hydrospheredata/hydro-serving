@@ -1,6 +1,5 @@
 package io.hydrosphere.serving.manager.service.model_build
 
-import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}

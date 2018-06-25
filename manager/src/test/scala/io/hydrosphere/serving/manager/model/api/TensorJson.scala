@@ -1,17 +1,15 @@
 package io.hydrosphere.serving.manager.model.api
 
-import com.google.protobuf.ByteString
 import io.hydrosphere.serving.manager.model.api.json.TensorJsonLens
 import io.hydrosphere.serving.tensorflow.TensorShape
-import io.hydrosphere.serving.tensorflow.tensor.{Int32Tensor, MapTensor, StringTensor, TensorProto}
-import io.hydrosphere.serving.tensorflow.types.DataType
+import io.hydrosphere.serving.tensorflow.tensor.{Int32Tensor, MapTensor, StringTensor}
 import org.scalatest.WordSpec
 import spray.json.{JsArray, JsNumber, JsObject, JsString}
 
 class TensorJson extends WordSpec{
   "Tensors should convert to JSON" when {
-    "classical TensorProto" in {
-      val stensor = StringTensor(TensorShape(Some(List(2, 2))), Seq("never", "gonna", "give", "you"))
+    "TensorProto matrix" in {
+      val stensor = StringTensor(TensorShape.mat(2, 2), Seq("never", "gonna", "give", "you"))
 
       val expected = JsArray(
         JsArray(JsString("never"), JsString("gonna")),
@@ -21,13 +19,19 @@ class TensorJson extends WordSpec{
       assert(TensorJsonLens.toJson(stensor) === expected)
     }
 
-    "TensorProto with [-1]" in {
+    "TensorProto vector [-1]" in {
       val stensor = StringTensor(TensorShape.vector(-1) , Seq("never", "gonna", "give", "you"))
 
       val expected = JsArray(
         JsString("never"), JsString("gonna"),JsString("give"), JsString("you")
       )
 
+      assert(TensorJsonLens.toJson(stensor) === expected)
+    }
+
+    "TensorProto scalar" in {
+      val stensor = StringTensor(TensorShape.scalar , Seq("never"))
+      val expected = JsString("never")
       assert(TensorJsonLens.toJson(stensor) === expected)
     }
 

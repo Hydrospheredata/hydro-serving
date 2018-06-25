@@ -50,7 +50,7 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
       Some(TensorShapeProto(tShape.getDimList.map(x => TensorShapeProto.Dim(x.getSize, x.getName)), tShape.getUnknownRank))
     } else None
     val convertedDtype = DataType.fromValue(tensorInfo.getDtypeValue)
-    FieldInfo(convertedDtype, TensorShape.fromProto(shape))
+    FieldInfo(convertedDtype, TensorShape(shape))
   }
 
   private def convertTensorMap(tensorMap: Map[String, TensorInfo]): List[ModelField] = {

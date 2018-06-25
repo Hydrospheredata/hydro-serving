@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.model.api.tensor_builder
 
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_field.ModelField.TypeOrSubfields._
-import io.hydrosphere.serving.contract.utils.validation.{ComplexFieldValidationError, ValidationError}
+import io.hydrosphere.serving.manager.model.api.validation.{ComplexFieldValidationError, ValidationError}
 import io.hydrosphere.serving.tensorflow.tensor.TypedTensor
 import spray.json.JsValue
 

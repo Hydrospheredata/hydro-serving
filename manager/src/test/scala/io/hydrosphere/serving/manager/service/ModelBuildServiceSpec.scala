@@ -6,7 +6,7 @@ import java.time.LocalDateTime
 
 import cats.instances.all._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.contract.utils.ops.ModelContractOps._
+import io.hydrosphere.serving.manager.model.api.ops.ModelContractOps._
 import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model.{ModelBuildStatus, Result}

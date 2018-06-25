@@ -4,7 +4,7 @@ import io.hydrosphere.serving.tensorflow.tensor._
 import spray.json.{JsObject, JsValue}
 
 trait TensorJsonLens[T <: TypedTensor[_]]{
-  def convert: (T#Self#DataT) => JsValue
+  def convert: T#Self#DataT => JsValue
   
   final def get(tensor: T): Seq[JsValue] = tensor.data.map(convert)
 
