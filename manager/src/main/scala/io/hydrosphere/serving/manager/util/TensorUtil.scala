@@ -6,41 +6,45 @@ import io.hydrosphere.serving.tensorflow.tensor.{TensorProto, TypedTensor, Typed
 
 object TensorUtil {
   def verifyShape[T](tensor: TypedTensor[T]): HResult[TypedTensor[T]] = {
-    if (tensor.shape.dims.isEmpty && tensor.data.length <= 1) { // allow empty scalar tensors?
-      Result.ok(tensor)
-    } else {
-      val tensorDims = tensor.shape.dims.get
-      val reverseTensorDimIter = tensorDims.reverseIterator
+    tensor.shape.dims match {
+      case Some(Nil) => Result.ok(tensor)
+      case None => Result.ok(tensor)
+      case Some(tensorDims) =>
+        if (tensorDims.isEmpty && tensor.data.length <= 1) {
+          Result.ok(tensor)
+        } else {
+          val reverseTensorDimIter = tensorDims.reverseIterator
 
-      val actualDims = Array.fill(tensorDims.length)(0L)
-      var actualDimId = actualDims.indices.last
-      var dimLen = tensor.data.length
+          val actualDims = Array.fill(tensorDims.length)(0L)
+          var actualDimId = actualDims.indices.last
+          var dimLen = tensor.data.length
 
-      var isShapeOk = true
+          var isShapeOk = true
 
-      while (isShapeOk && reverseTensorDimIter.hasNext) {
-        val currentDim = reverseTensorDimIter.next()
-        val subCount = dimLen.toDouble / currentDim.toDouble
-        if (subCount.isWhole()) { // ok
-          dimLen = subCount.toInt
-          if (subCount < 0) {
-            actualDims(actualDimId) = dimLen.abs
-          } else {
-            actualDims(actualDimId) = currentDim
+          while (isShapeOk && reverseTensorDimIter.hasNext) {
+            val currentDim = reverseTensorDimIter.next()
+            val subCount = dimLen.toDouble / currentDim.toDouble
+            if (subCount.isWhole()) { // ok
+              dimLen = subCount.toInt
+              if (subCount < 0) {
+                actualDims(actualDimId) = dimLen.abs
+              } else {
+                actualDims(actualDimId) = currentDim
+              }
+              actualDimId -= 1
+            } else { // not ok
+              isShapeOk = false
+            }
           }
-          actualDimId -= 1
-        } else { // not ok
-          isShapeOk = false
-        }
-      }
 
-      if (isShapeOk) {
-        val rawTensor = tensor.toProto.copy(tensorShape = TensorShape.fromSeq(Some(actualDims)).toProto)
-        val result = tensor.factory.fromProto(rawTensor)
-        Result.ok(result)
-      } else {
-        Result.clientError(s"Invalid shape $tensorDims for data ${tensor.data}")
-      }
+          if (isShapeOk) {
+            val rawTensor = tensor.toProto.copy(tensorShape = TensorShape.fromSeq(Some(actualDims)).toProto)
+            val result = tensor.factory.fromProto(rawTensor)
+            Result.ok(result)
+          } else {
+            Result.clientError(s"Invalid shape $tensorDims for data ${tensor.data}")
+          }
+        }
     }
   }
 
