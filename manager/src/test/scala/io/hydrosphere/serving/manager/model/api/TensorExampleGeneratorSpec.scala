@@ -28,7 +28,7 @@ class TensorExampleGeneratorSpec extends GenericUnitTest {
           "in1" -> TypedTensorFactory.create(
             TensorProto(
               dtype = DataType.DT_STRING,
-              tensorShape = None,
+              tensorShape = TensorShape.scalar.toProto,
               stringVal = List(fooString)
             )
           )
@@ -77,7 +77,7 @@ class TensorExampleGeneratorSpec extends GenericUnitTest {
           List(
             ContractBuilders.complexField(
               "in1",
-              None,
+              TensorShape.scalar.toProto,
               Seq(
                 ContractBuilders.simpleTensorModelField("a", DataType.DT_STRING, TensorShape.scalar),
                 ContractBuilders.simpleTensorModelField("b", DataType.DT_STRING, TensorShape.scalar)
@@ -94,12 +94,12 @@ class TensorExampleGeneratorSpec extends GenericUnitTest {
             TypedTensorFactory.create(
               TensorProto(
                 dtype = DataType.DT_MAP,
-                tensorShape = None,
+                tensorShape = TensorShape.scalar.toProto,
                 mapVal = Seq(
                   MapTensorData(
                     Map(
-                      "a" -> TensorProto(DataType.DT_STRING, None, stringVal = List(fooString)),
-                      "b" -> TensorProto(DataType.DT_STRING, None, stringVal = List(fooString))
+                      "a" -> TensorProto(DataType.DT_STRING, TensorShape.scalar.toProto, stringVal = List(fooString)),
+                      "b" -> TensorProto(DataType.DT_STRING, TensorShape.scalar.toProto, stringVal = List(fooString))
                     )
                   )
                 )
@@ -137,20 +137,20 @@ class TensorExampleGeneratorSpec extends GenericUnitTest {
               mapVal = Seq(
                 MapTensorData(
                   Map(
-                    "a" -> TensorProto(DataType.DT_STRING, None, stringVal = List(fooString)),
-                    "b" -> TensorProto(DataType.DT_STRING, None, stringVal = List(fooString))
+                    "a" -> TensorProto(DataType.DT_STRING, TensorShape.scalar.toProto, stringVal = List(fooString)),
+                    "b" -> TensorProto(DataType.DT_STRING, TensorShape.scalar.toProto, stringVal = List(fooString))
                   )
                 ),
                 MapTensorData(
                   Map(
-                    "a" -> TensorProto(DataType.DT_STRING, None, stringVal = List(fooString)),
-                    "b" -> TensorProto(DataType.DT_STRING, None, stringVal = List(fooString))
+                    "a" -> TensorProto(DataType.DT_STRING, TensorShape.scalar.toProto, stringVal = List(fooString)),
+                    "b" -> TensorProto(DataType.DT_STRING, TensorShape.scalar.toProto, stringVal = List(fooString))
                   )
                 ),
                 MapTensorData(
                   Map(
-                    "a" -> TensorProto(DataType.DT_STRING, None, stringVal = List(fooString)),
-                    "b" -> TensorProto(DataType.DT_STRING, None, stringVal = List(fooString))
+                    "a" -> TensorProto(DataType.DT_STRING, TensorShape.scalar.toProto, stringVal = List(fooString)),
+                    "b" -> TensorProto(DataType.DT_STRING, TensorShape.scalar.toProto, stringVal = List(fooString))
                   )
                 )
               )

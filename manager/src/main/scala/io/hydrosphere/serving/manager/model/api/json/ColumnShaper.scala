@@ -10,6 +10,7 @@ case class ColumnShaper(tensorShape: TensorShape) {
   def apply(data: Seq[JsValue]): JsValue = {
     tensorShape match {
       case AnyDims() => data.headOption.getOrElse(JsObject.empty)
+      case Dims(dims, _) if dims.isEmpty => data.headOption.getOrElse(JsObject.empty)
       case Dims(dims, _) =>
         val reverseDims = dims.reverseIterator
         shapeGrouped(JsArray(data.toVector), reverseDims)

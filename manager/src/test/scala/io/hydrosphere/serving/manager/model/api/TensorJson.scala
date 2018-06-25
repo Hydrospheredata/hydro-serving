@@ -8,7 +8,7 @@ import spray.json.{JsArray, JsNumber, JsObject, JsString}
 
 class TensorJson extends WordSpec{
   "Tensors should convert to JSON" when {
-    "classical TensorProto" in {
+    "TensorProto matrix" in {
       val stensor = StringTensor(TensorShape.mat(2, 2), Seq("never", "gonna", "give", "you"))
 
       val expected = JsArray(
@@ -19,13 +19,19 @@ class TensorJson extends WordSpec{
       assert(TensorJsonLens.toJson(stensor) === expected)
     }
 
-    "TensorProto with [-1]" in {
+    "TensorProto vector [-1]" in {
       val stensor = StringTensor(TensorShape.vector(-1) , Seq("never", "gonna", "give", "you"))
 
       val expected = JsArray(
         JsString("never"), JsString("gonna"),JsString("give"), JsString("you")
       )
 
+      assert(TensorJsonLens.toJson(stensor) === expected)
+    }
+
+    "TensorProto scalar" in {
+      val stensor = StringTensor(TensorShape.scalar , Seq("never"))
+      val expected = JsString("never")
       assert(TensorJsonLens.toJson(stensor) === expected)
     }
 

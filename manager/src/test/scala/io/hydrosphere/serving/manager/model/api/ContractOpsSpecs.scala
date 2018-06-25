@@ -192,7 +192,7 @@ class ContractOpsSpecs extends WordSpec {
             SignatureDescription(
               "sig1",
               inputs = List(
-                FieldDescription("/in1", DataType.DT_STRING, None)
+                FieldDescription("/in1", DataType.DT_STRING, Some(Seq.empty))
               ),
               outputs = List(
                 FieldDescription("/out1", DataType.DT_DOUBLE, Some(List(-1)))
@@ -201,7 +201,7 @@ class ContractOpsSpecs extends WordSpec {
             SignatureDescription(
               "sig2",
               inputs = List(
-                FieldDescription("/in2", DataType.DT_INT32, None)
+                FieldDescription("/in2", DataType.DT_INT32, Some(Seq.empty))
               ),
               outputs = List(
                 FieldDescription("/out2", DataType.DT_INT32, Some(List(3)))
@@ -253,18 +253,18 @@ class ContractOpsSpecs extends WordSpec {
             SignatureDescription(
               "sig1",
               inputs = List(
-                FieldDescription("/in/in1", DataType.DT_STRING, None),
-                FieldDescription("/in/in2", DataType.DT_INT32, None)
+                FieldDescription("/in/in1", DataType.DT_STRING, Some(Seq.empty)),
+                FieldDescription("/in/in2", DataType.DT_INT32, Some(Seq.empty))
               ),
               outputs = List(
                 FieldDescription("/out/out1", DataType.DT_DOUBLE, Some(List(-1))),
-                FieldDescription("/out/out2", DataType.DT_INT32, None)
+                FieldDescription("/out/out2", DataType.DT_INT32, Some(Seq.empty))
               )
             ),
             SignatureDescription(
               "sig2",
               inputs = List(
-                FieldDescription("/in2", DataType.DT_INT32, None)
+                FieldDescription("/in2", DataType.DT_INT32, Some(Seq.empty))
               ),
               outputs = List(
                 FieldDescription("/out2", DataType.DT_INT32, Some(List(3)))
@@ -292,7 +292,7 @@ class ContractOpsSpecs extends WordSpec {
         val flatSignature = SignatureDescription(
           "sig1",
           inputs = List(
-            FieldDescription("/in1", DataType.DT_STRING, None)
+            FieldDescription("/in1", DataType.DT_STRING, Some(Seq.empty))
           ),
           outputs = List(
             FieldDescription("/out1", DataType.DT_DOUBLE, Some(List(-1)))
@@ -329,12 +329,12 @@ class ContractOpsSpecs extends WordSpec {
         val signatureDescription = SignatureDescription(
           "sig1",
           inputs = List(
-            FieldDescription("/in/in1", DataType.DT_STRING, None),
-            FieldDescription("/in/in2", DataType.DT_INT32, None)
+            FieldDescription("/in/in1", DataType.DT_STRING, Some(Seq.empty)),
+            FieldDescription("/in/in2", DataType.DT_INT32, Some(Seq.empty))
           ),
           outputs = List(
             FieldDescription("/out/out1", DataType.DT_DOUBLE, Some(List(-1))),
-            FieldDescription("/out/out2", DataType.DT_INT32, None)
+            FieldDescription("/out/out2", DataType.DT_INT32, Some(Seq.empty))
           )
         )
 

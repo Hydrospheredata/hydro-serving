@@ -19,7 +19,7 @@ package object validation {
     val suberrors: Seq[ValidationError],
     val modelSignature: ModelSignature
   ) extends ValidationError(
-      s"Errors while validating data for '${modelSignature.signatureName}' signature: ${suberrors.mkString("\n")}"
+      s"Errors while validating data for '${modelSignature.signatureName}' signature: ${suberrors.map(_.message).mkString("\n")}"
     ) {}
 
   class FieldMissingError(val expectedField: String)
@@ -27,7 +27,7 @@ package object validation {
 
   class ComplexFieldValidationError(val suberrors: Seq[ValidationError], val field: ModelField)
     extends ValidationError(
-      s"Errors while validating subfields for '${field.name}' field: ${suberrors.mkString("\n")}"
+      s"Errors while validating subfields for '${field.name}' field: ${suberrors.map(_.message).mkString("\n")}"
     )
 
   class IncompatibleFieldTypeError(val field: String, val expectedType: DataType)
