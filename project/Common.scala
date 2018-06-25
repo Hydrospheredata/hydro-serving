@@ -3,7 +3,7 @@ import Keys._
 
 object Common {
 
-  val scalaVer = "2.11.11"
+  val scalaVer = "2.12.6"
 
   val testSettings = Seq(
     parallelExecution in Test := false,
@@ -14,7 +14,7 @@ object Common {
     fork in(IntegrationTest, testOnly) := true
   )
 
-  lazy val currentAppVersion = util.Properties.propOrElse("appVersion", "latest")
+  lazy val currentAppVersion = sys.props.getOrElse("appVersion", "latest")
 
   val settings: Seq[Def.Setting[_]] = Seq(
     version := currentAppVersion,
