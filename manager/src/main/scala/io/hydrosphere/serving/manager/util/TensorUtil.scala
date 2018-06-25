@@ -5,51 +5,29 @@ import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.tensor.{TensorProto, TypedTensor, TypedTensorFactory}
 
 object TensorUtil {
-  def verifyShape[T](tensor: TensorProto): HResult[TensorProto] = {
-    val ttensor = TypedTensorFactory.create(tensor)
-    val data = ttensor.data.toArray
-    if (ttensor.shape.dims.isEmpty && data.length <= 1) { // allow empty scalar tensors?
+  def verifyShape[T](tensor: TypedTensor[T]): HResult[TypedTensor[T]] = {
+    if (tensor.shape.dims.isEmpty && tensor.data.length <= 1) { // allow empty scalar tensors?
       Result.ok(tensor)
     } else {
-      val dims = ttensor.shape.dims.get.reverseIterator
+      val tensorDims = tensor.shape.dims.get
+      val reverseTensorDimIter = tensorDims.reverseIterator
 
-      val actualDims = new Array[Long](dims.length)
-      var actualDimId = actualDims.length
-      var dimDataLen = data.length
+      val actualDims = Array.fill(tensorDims.length)(0L)
+      var actualDimId = actualDims.indices.last
+      var dimLen = tensor.data.length
 
       var isShapeOk = true
 
-      // test cases
-
-      // [-1, 2, 3]
-
-      // a b c d e f g h k l - 10
-      // 1. 10 % 3 != 0
-      // 2. Fail
-
-      // a b c d e f g h k - 9
-      // 1. 9 % 3 == 0; 9 / 3 == 3
-      // 2. 3 % 2 != 0
-      // 3. Fail
-
-      // a b c d e f g - 6
-      // 1. 6 % 3 == 0; 6 / 3 == 2
-      // 2. 2 % 2 == 0; 2 / 2 == 1
-      // 3. 1 % x == 0
-      // 4. ok
-
-      // a b c d e f g h k l q w - 12
-      // 1. 12 % 3 == 0; 12 / 3 == 4
-      // 2. 4 % 2 == 0; 4 / 2 == 2
-      // 3. 2 % x == 0
-      // 4. ok
-
-      while (isShapeOk && dims.hasNext) {
-        val currentDim = dims.next()
-        val subCount = dimDataLen.toDouble / currentDim.toDouble
+      while (isShapeOk && reverseTensorDimIter.hasNext) {
+        val currentDim = reverseTensorDimIter.next()
+        val subCount = dimLen.toDouble / currentDim.toDouble
         if (subCount.isWhole()) { // ok
-          dimDataLen = subCount.toInt
-          actualDims(actualDimId) = dimDataLen
+          dimLen = subCount.toInt
+          if (subCount < 0) {
+            actualDims(actualDimId) = dimLen.abs
+          } else {
+            actualDims(actualDimId) = currentDim
+          }
           actualDimId -= 1
         } else { // not ok
           isShapeOk = false
@@ -57,11 +35,16 @@ object TensorUtil {
       }
 
       if (isShapeOk) {
-        Result.clientError(s"Invalid shape ${ttensor.shape.dims} for data $data")
+        val rawTensor = tensor.toProto.copy(tensorShape = TensorShape.fromSeq(Some(actualDims)).toProto)
+        val result = tensor.factory.fromProto(rawTensor)
+        Result.ok(result)
       } else {
-        val trueShapedTensor = tensor.copy(tensorShape = TensorShape.fromSeq(Some(actualDims)).toProto)
-        Result.ok(trueShapedTensor)
+        Result.clientError(s"Invalid shape $tensorDims for data ${tensor.data}")
       }
     }
+  }
+
+  def verifyShape(tensor: TensorProto): HResult[TensorProto] = {
+    verifyShape(TypedTensorFactory.create(tensor)).right.map(_.toProto)
   }
 }
