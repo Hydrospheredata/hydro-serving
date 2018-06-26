@@ -17,20 +17,30 @@ This document presents a quick way to set everything up and deploy your first mo
 
 To get started, download [Docker][docker-install] on your machine if you don't have one. 
 
-Next, clone ML Lambda (_hydro-serving_) into desired directory.
+Next, clone ML Lambda (the working name is _hydro-serving_) into desired directory.
 
 ```sh
 $ git clone https://github.com/Hydrospheredata/hydro-serving
 ```
 
-Now set up a docker environment. This will take a while. 
+Now set up a docker environment. You have 2 options: This will take a while. 
 
-```sh
-$ cd ./hydro-serving/integrations/
-$ docker-compose up # --no-start if you don't want to launch an image instanly
-```
+1. Lightweight version that doesn't contain any metrics and doesn't support Kafka. It will only allow you to deploy and run your models in a continuous manner. 
 
-Now, that you're ready with the docker, let's go ahead and deploy your first model. For this purpose we've built a handful [cli-tool][hydro-serving-cli].
+	```sh
+	$ cd ./hydro-serving/
+	$ docker-compose up # --no-start if you don't want to launch an image instanly
+	```
+
+2. Full version of ML Lambda with integrations to Kafka, Graphana, different metrics, etc. 
+	```sh
+	$ cd ./hydro-serving/integrations/
+	$ docker-compose up # --no-start if you don't want to launch an image instanly
+	```
+
+>Note: If you are already installed one of the versions and want to install the other one, you may need to clean existing containers with `docker container rm $(docker container ls -aq)`.
+
+Now, that you're ready with the docker, let's go ahead and deploy your first model. For this purpose we've built a handful [cli-tool][hydro-serving-cli]. 
 
 ```sh
 $ pip install hs
@@ -45,7 +55,7 @@ $ cd ./hydro-serving-examples/models/$MODEL_OF_YOUR_CHOICE
 
 For the purpose of this tutorial we chose [stateful LSTM][stateful-lstm]. All you have to do is just to upload the model to the server. 
 
-> Note, at this stage you must start your docker image with `docker-compose up` in `hydro-serving/integrations` folder.
+> Note: At this stage you must start your docker image with `docker-compose up` in `hydro-serving/integrations` folder if you haven't done that yet.
 
 ```sh
 $ hs upload
@@ -53,25 +63,7 @@ $ hs upload
 
 Additionally Stateful LSTM needs [pre][stateful-lstm-pre] and [post][stateful-lstm-post] processing stages. So we upload them as well.
 
-Now your models are uploaded to the server. You can find them here - [http://127.0.0.1/models][models]. Let's go and create an application that can use your models. But before we can do that, we need to install _runtimes_. 
-
-_Runtime_ is an environment with the pre-installed dependencies. Those can be [Python][docker-hub-python], [Spark][docker-hub-spark], [Tensorflow][docker-hub-tensorflow] and so on. All of them are stored in our [Docker Hub][docker-hub] and have _runtime_ in the name of the directory. By default you have only pre-installed `hydrosphere/serving-runtime-dummy:latest` runtime. To install additional ones execute:
-
-```sh
-curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
-   "name": "hydrosphere/serving-runtime-python",
-   "version": "3.6-latest",
-   "modelTypes": [
-     "string"
-   ],
-   "tags": [
-     "string"
-   ],
-   "configParams": {}
- }' 'http://localhost:8080/api/v1/runtime'
-```
-
-This particular command will add Python 3.6 to you runtimes. 
+Your models now have been uploaded to ML Lambda. You can find them here - [http://127.0.0.1/models][models]. Let's go and create an application that can use your models. 
 
 [docker-install]: https://docs.docker.com/install/
 [docker-hub]: https://hub.docker.com/u/hydrosphere/
