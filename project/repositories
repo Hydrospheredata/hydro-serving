@@ -5,3 +5,4 @@
   sbt-plugins-ivy-proxy: https://dl.bintray.com/sbt/sbt-plugin-releases/ , [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact].[ext]
   sbt-bintray-ivy-proxy: http://dl.bintray.com/typesafe/ivy-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
   flyway-proxy-releases: https://flywaydb.org/repo
+  flyway-plugin: https://davidmweber.github.io/flyway-sbt.repo/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact].[ext]

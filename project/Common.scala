@@ -30,8 +30,7 @@ object Common {
       "-language:implicitConversions",
       "-language:postfixOps",
       "-Ypartial-unification"
-    ),
-    resolvers += Resolver.bintrayRepo("findify", "maven")
+    )
   ) ++ testSettings
 }
 
