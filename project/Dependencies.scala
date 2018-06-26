@@ -10,7 +10,7 @@ object Dependencies {
   val scalaTestVersion = "3.0.3"
   val slickPgVersion = "0.15.4"
   val awsSdkVersion = "1.11.312"
-  val servingGrpcScala = "0.1.12"
+  val servingGrpcScala = "0.1.13"
   val catsV = "1.1.0"
   val elastic4sVersion = "6.2.4"
   val envoyDataPlaneApi = "v1.6.0_1"
@@ -46,9 +46,9 @@ object Dependencies {
   )
 
   lazy val grpcDependencies = Seq(
-    "com.thesamet.scalapb" %% "scalapb-runtime-grpc" % com.trueaccord.scalapb.compiler.Version.scalapbVersion exclude("com.google.api.grpc", "proto-google-common-protos"),
+    "com.thesamet.scalapb" %% "scalapb-runtime-grpc" % scalapb.compiler.Version.scalapbVersion exclude("com.google.api.grpc", "proto-google-common-protos"),
     "io.hydrosphere" %% "serving-grpc-scala" % servingGrpcScala exclude("com.google.api.grpc", "proto-google-common-protos"),
-    "io.grpc" % "grpc-netty" % com.trueaccord.scalapb.compiler.Version.grpcJavaVersion exclude("com.google.api.grpc", "proto-google-common-protos"),
+    "io.grpc" % "grpc-netty" % scalapb.compiler.Version.grpcJavaVersion exclude("com.google.api.grpc", "proto-google-common-protos"),
     "io.hydrosphere" %% "envoy-data-plane-api" % envoyDataPlaneApi exclude("com.google.api.grpc", "proto-google-common-protos")
   )
 

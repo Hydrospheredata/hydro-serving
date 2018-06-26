@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service.model_version
 
-import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.model.HFResult
+import io.hydrosphere.serving.manager.model.api.description.ContractDescription
 import io.hydrosphere.serving.manager.model.db.ModelVersion
 import spray.json.JsObject
 

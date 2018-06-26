@@ -1,10 +1,11 @@
 package io.hydrosphere.serving.manager.service.metrics
 
+import akka.actor.Props
 import com.paulgoldbaum.influxdbclient.Parameter.Precision
 import com.paulgoldbaum.influxdbclient.Parameter.Precision.Precision
 import com.paulgoldbaum.influxdbclient._
 import io.hydrosphere.serving.manager.ManagerConfiguration
-import io.hydrosphere.serving.manager.connector.EnvoyAdminConnector
+import io.hydrosphere.serving.manager.connector.{EnvoyAdminConnector, HttpEnvoyAdminConnector}
 import io.hydrosphere.serving.manager.model.db.Service
 import io.hydrosphere.serving.manager.service.actors.SelfScheduledActor
 import io.hydrosphere.serving.manager.service.application.ApplicationManagementService
@@ -91,4 +92,23 @@ class InfluxDBMetricsService(
   override def recieveNonTick: Receive = {
     case _ =>
   }
+}
+
+object InfluxDBMetricsService {
+  def props(
+    managerConfiguration: ManagerConfiguration,
+    envoyAdminConnector: HttpEnvoyAdminConnector,
+    cloudDriverService: CloudDriverService,
+    serviceManagementService: ServiceManagementService,
+    applicationManagementService: ApplicationManagementService,
+    influxDBClient: InfluxDB
+  ): Props = Props(classOf[InfluxDBMetricsService],
+    managerConfiguration: ManagerConfiguration,
+    envoyAdminConnector,
+    cloudDriverService,
+    serviceManagementService,
+    applicationManagementService,
+    influxDBClient
+  )
+
 }

@@ -1,14 +1,16 @@
 package io.hydrosphere.serving.manager.controller.runtime
 
-import javax.ws.rs.Path
+import java.util.UUID
 
+import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.controller.GenericController
 import io.hydrosphere.serving.manager.model.db.Runtime
-import io.hydrosphere.serving.manager.service._
-import io.hydrosphere.serving.manager.service.runtime.RuntimeManagementService
+import io.hydrosphere.serving.manager.service.{ServiceTask, ServiceTaskFailed, ServiceTaskFinished, ServiceTaskRunning}
+import io.hydrosphere.serving.manager.service.runtime.{CreateRuntimeRequest, RuntimeManagementService}
+import io.hydrosphere.serving.manager.util.UUIDUtils
 import io.swagger.annotations._
 
 import scala.concurrent.duration._
@@ -32,6 +34,23 @@ class RuntimeController(
     }
   }
 
+  @Path("/status/{requestId}")
+  @ApiOperation(value = "Get creation status", notes = "Returns runtime status", nickname = "getStatus", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "requestId", value = "Request UUID", required = true, dataTypeClass = classOf[UUID], paramType = "path", defaultValue = UUIDUtils.zerosStr)
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "TaskFinished", response = classOf[ServiceTaskFinished[CreateRuntimeRequest, Runtime]]),
+    new ApiResponse(code = 200, message = "TaskRunning", response = classOf[ServiceTaskRunning[CreateRuntimeRequest, Runtime]]),
+    new ApiResponse(code = 200, message = "TaskFailed", response = classOf[ServiceTaskFailed[CreateRuntimeRequest, Runtime]]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def getStatus = path("api" / "v1" / "runtime" / "status" / JavaUUID) { uuid =>
+    get {
+      completeFRes(runtimeManagementService.getCreationStatus(uuid))
+    }
+  }
+
   @Path("/")
   @ApiOperation(value = "Create Runtime", notes = "Create Runtime", nickname = "createRuntime", httpMethod = "POST")
   @ApiImplicitParams(Array(
@@ -45,13 +64,7 @@ class RuntimeController(
     post{
       entity(as[CreateRuntimeRequest]) { r =>
         completeF(
-          runtimeManagementService.create(
-            r.name,
-            r.version,
-            r.modelTypes.getOrElse(List.empty),
-            r.tags.getOrElse(List.empty),
-            r.configParams.getOrElse(Map.empty)
-          )
+          runtimeManagementService.create(r)
         )
       }
     }
@@ -74,5 +87,5 @@ class RuntimeController(
     }
   }
 
-  val routes: Route = listRuntime ~ createRuntime ~ lookupRuntimeByTag
+  val routes: Route = listRuntime ~ createRuntime ~ lookupRuntimeByTag ~ getStatus
 }

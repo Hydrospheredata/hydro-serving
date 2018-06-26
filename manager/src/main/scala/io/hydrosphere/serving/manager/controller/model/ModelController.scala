@@ -10,9 +10,9 @@ import akka.http.scaladsl.server.Route
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.{GenericController, ServingDataDirectives}
 import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.api.description.ContractDescription
 import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedModelInfo}
 import io.hydrosphere.serving.manager.service.model.{CreateModelRequest, ModelManagementService, UpdateModelRequest}

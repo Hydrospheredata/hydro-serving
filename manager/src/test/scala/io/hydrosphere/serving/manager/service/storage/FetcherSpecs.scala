@@ -38,7 +38,7 @@ class FetcherSpecs extends GenericUnitTest {
     it("should parse correct tensorflow model") {
       val expectedSigs = Seq(
         ModelSignature(
-          "tensorflow/serving/predict",
+          "serving_default",
           Seq(ModelField("images", TensorShape.mat(-1, 784).toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_FLOAT))),
           Seq(
             ModelField("labels", TensorShape.vector(-1).toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_INT64)),
@@ -63,10 +63,10 @@ class FetcherSpecs extends GenericUnitTest {
         Seq(ModelSignature(
           "infer",
           Seq(
-            ContractBuilders.simpleTensorModelField("Input73", DataType.DT_FLOAT, Some(Seq(1, 1, 28, 28)))
+            ContractBuilders.simpleTensorModelField("Input73", DataType.DT_FLOAT, TensorShape.mat(1, 1, 28, 28))
           ),
           Seq(
-            ContractBuilders.simpleTensorModelField("Plus422_Output_0", DataType.DT_FLOAT, Some(Seq(1, 10)))
+            ContractBuilders.simpleTensorModelField("Plus422_Output_0", DataType.DT_FLOAT, TensorShape.mat(1, 10))
           ))
         )
       )

@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager.model.protocol
 
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
+import java.util.UUID
 
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 import org.apache.logging.log4j.scala.Logging
@@ -34,6 +35,23 @@ trait CommonJsonProtocol extends SprayJsonSupport with DefaultJsonProtocol with 
       case _: JsObject => mapFormat[String, Any].read(value)
       case e => throw DeserializationException(e.toString)
     }
+  }
+
+  implicit val uuidFormat = new RootJsonFormat[UUID] {
+    override def write(obj: UUID): JsValue = JsString(obj.toString)
+
+    override def read(json: JsValue): UUID = {
+      json match {
+        case JsString(str) => UUID.fromString(str)
+        case x => throw DeserializationException(s"Invalid JsValue for UUID. Expected string, got $x")
+      }
+    }
+  }
+
+  implicit val throwableWriter = new RootJsonFormat[Throwable] {
+    override def write(obj: Throwable): JsValue = JsString(obj.getMessage)
+
+    override def read(json: JsValue): Throwable = throw DeserializationException("Can't deserealize exceptions")
   }
 
   implicit def enumFormat[T <: scala.Enumeration](enum: T) = new RootJsonFormat[T#Value] {

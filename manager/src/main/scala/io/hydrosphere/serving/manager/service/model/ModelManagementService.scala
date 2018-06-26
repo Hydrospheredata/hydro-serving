@@ -1,8 +1,8 @@
 package io.hydrosphere.serving.manager.service.model
 
-import io.hydrosphere.serving.contract.utils.description.ContractDescription
 import io.hydrosphere.serving.manager.controller.model.{ModelUpload, UploadedEntity}
 import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.api.description.ContractDescription
 import io.hydrosphere.serving.manager.model.db.Model
 import spray.json.JsObject
 

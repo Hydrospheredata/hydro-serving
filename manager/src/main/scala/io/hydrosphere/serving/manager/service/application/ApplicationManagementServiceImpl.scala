@@ -6,14 +6,14 @@ import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.contract.utils.DataGenerator
-import io.hydrosphere.serving.contract.utils.ops.ModelSignatureOps
 import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, Header, Headers}
 import io.hydrosphere.serving.manager.ApplicationConfig
 import io.hydrosphere.serving.manager.controller.application._
 import io.hydrosphere.serving.manager.model.Result.ClientError
 import io.hydrosphere.serving.manager.model.Result.Implicits._
+import io.hydrosphere.serving.manager.model.api.TensorExampleGenerator
 import io.hydrosphere.serving.manager.model.api.json.TensorJsonLens
+import io.hydrosphere.serving.manager.model.api.ops.ModelSignatureOps
 import io.hydrosphere.serving.manager.model.api.tensor_builder.SignatureBuilder
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.model.{db, _}
@@ -23,6 +23,7 @@ import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import io.hydrosphere.serving.manager.service.service.{CreateServiceRequest, ServiceManagementService}
+import io.hydrosphere.serving.manager.util.TensorUtil
 import io.hydrosphere.serving.monitoring.monitoring.ExecutionInformation.ResponseOrError
 import io.hydrosphere.serving.monitoring.monitoring.{ExecutionError, ExecutionInformation, ExecutionMetadata, MonitoringServiceGrpc}
 import io.hydrosphere.serving.tensorflow.api.model.ModelSpec
@@ -113,61 +114,83 @@ class ApplicationManagementServiceImpl(
   }
 
 
-  def serve(unit: ExecutionUnit, request: PredictRequest, tracingInfo: Option[RequestTracingInfo]): Future[PredictResponse] = {
-    val modelVersionIdHeaderValue = new AtomicReference[String](null)
-    val latencyHeaderValue = new AtomicReference[String](null)
-
-    var requestBuilder = grpcClient
-      .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, unit.serviceName)
-      .withOption(Headers.XServingModelVersionId.callOptionsClientResponseWrapperKey, modelVersionIdHeaderValue)
-      .withOption(Headers.XEnvoyUpstreamServiceTime.callOptionsClientResponseWrapperKey, latencyHeaderValue)
-
-    if (tracingInfo.isDefined) {
-      val tr = tracingInfo.get
-      requestBuilder = requestBuilder
-        .withOption(Headers.XRequestId.callOptionsKey, tr.xRequestId)
-
-      if (tr.xB3requestId.isDefined) {
-        requestBuilder = requestBuilder
-          .withOption(Headers.XB3TraceId.callOptionsKey, tr.xB3requestId.get)
-      }
-
-      if (tr.xB3SpanId.isDefined) {
-        requestBuilder = requestBuilder
-          .withOption(Headers.XB3ParentSpanId.callOptionsKey, tr.xB3SpanId.get)
-      }
+  def serve(unit: ExecutionUnit, request: PredictRequest, tracingInfo: Option[RequestTracingInfo]): HFResult[PredictResponse] = {
+    val verificationResults = request.inputs.map {
+      case (name, tensor) => name -> TensorUtil.verifyShape(tensor)
     }
 
-    requestBuilder
-      .predict(request)
-      .transform(
-        response => {
-          val latency = getLatency(latencyHeaderValue)
-          val res = if (latency.isSuccess) {
-            response.addInternalInfo(
-              "system.latency" -> latency.get
-            )
-          } else {
-            response
-          }
+    val errors = verificationResults.filter {
+      case (_, t) => t.isLeft
+    }.mapValues(_.left.get)
 
-          sendToDebug(ResponseOrError.Response(res), request, getCurrentExecutionUnit(unit, modelVersionIdHeaderValue))
-          response
-        },
-        thr => {
-          logger.error("Can't send message to GATEWAY_KAFKA", thr)
-          sendToDebug(ResponseOrError.Error(ExecutionError(thr.toString)), request, getCurrentExecutionUnit(unit, modelVersionIdHeaderValue))
-          thr
+    if (errors.isEmpty) {
+      val modelVersionIdHeaderValue = new AtomicReference[String](null)
+      val latencyHeaderValue = new AtomicReference[String](null)
+
+      var requestBuilder = grpcClient
+        .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, unit.serviceName)
+        .withOption(Headers.XServingModelVersionId.callOptionsClientResponseWrapperKey, modelVersionIdHeaderValue)
+        .withOption(Headers.XEnvoyUpstreamServiceTime.callOptionsClientResponseWrapperKey, latencyHeaderValue)
+
+      if (tracingInfo.isDefined) {
+        val tr = tracingInfo.get
+        requestBuilder = requestBuilder
+          .withOption(Headers.XRequestId.callOptionsKey, tr.xRequestId)
+
+        if (tr.xB3requestId.isDefined) {
+          requestBuilder = requestBuilder
+            .withOption(Headers.XB3TraceId.callOptionsKey, tr.xB3requestId.get)
         }
+
+        if (tr.xB3SpanId.isDefined) {
+          requestBuilder = requestBuilder
+            .withOption(Headers.XB3ParentSpanId.callOptionsKey, tr.xB3SpanId.get)
+        }
+      }
+
+      val verifiedInputs = verificationResults.mapValues(_.right.get)
+      val verifiedRequest = request.copy(inputs = verifiedInputs)
+
+      requestBuilder
+        .predict(verifiedRequest)
+        .transform(
+          response => {
+            val latency = getLatency(latencyHeaderValue)
+            val res = if (latency.isSuccess) {
+              response.addInternalInfo(
+                "system.latency" -> latency.get
+              )
+            } else {
+              response
+            }
+
+            sendToDebug(ResponseOrError.Response(res), verifiedRequest, getCurrentExecutionUnit(unit, modelVersionIdHeaderValue))
+            Result.ok(response)
+          },
+          thr => {
+            logger.error("Can't send message to GATEWAY_KAFKA", thr)
+            sendToDebug(ResponseOrError.Error(ExecutionError(thr.toString)), verifiedRequest, getCurrentExecutionUnit(unit, modelVersionIdHeaderValue))
+            thr
+          }
+        )
+    } else {
+      Future.successful(
+        Result.errors(
+          errors.map {
+            case (name, err) =>
+              ClientError(s"Shape verification error for input $name: $err")
+          }.toSeq
+        )
       )
+    }
   }
 
-  def servePipeline(units: Seq[ExecutionUnit], data: PredictRequest, tracingInfo: Option[RequestTracingInfo]): Future[PredictResponse] = {
+  def servePipeline(units: Seq[ExecutionUnit], data: PredictRequest, tracingInfo: Option[RequestTracingInfo]): HFResult[PredictResponse] = {
     //TODO Add request id for step
-    val empty = Future.successful(PredictResponse(outputs = data.inputs))
+    val empty = Result.okF(PredictResponse(outputs = data.inputs))
     units.foldLeft(empty) {
       case (a, b) =>
-        a.flatMap { resp =>
+        EitherT(a).flatMap { resp =>
           val request = PredictRequest(
             modelSpec = Some(
               ModelSpec(
@@ -176,8 +199,8 @@ class ApplicationManagementServiceImpl(
             ),
             inputs = resp.outputs
           )
-          serve(b, request, tracingInfo)
-        }
+          EitherT(serve(b, request, tracingInfo))
+        }.value
     }
   }
 
@@ -205,7 +228,7 @@ class ApplicationManagementServiceImpl(
               servicePath = servicePath.signatureName,
               stageInfo = stageInfo
             )
-            serve(unit, request, tracingInfo).map(Result.ok)
+            serve(unit, request, tracingInfo)
           case None => Result.clientErrorF("ModelSpec in request is not specified")
         }
       case stages => // pipeline
@@ -238,7 +261,7 @@ class ApplicationManagementServiceImpl(
         Result.sequence(execUnits) match {
           case Left(err) => Result.errorF(err)
           case Right(units) =>
-            servePipeline(units, request, tracingInfo).map(Result.ok)
+            servePipeline(units, request, tracingInfo)
         }
     }
   }
@@ -395,7 +418,7 @@ class ApplicationManagementServiceImpl(
       result.right.flatMap { app =>
         app.contract.signatures.find(_.signatureName == signatureName) match {
           case Some(signature) =>
-            val data = DataGenerator(signature).generateInputs
+            val data = TensorExampleGenerator(signature).inputs
             Result.ok(TensorJsonLens.mapToJson(data))
           case None => Result.clientError(s"Can't find signature '$signatureName")
         }

@@ -1,17 +1,19 @@
 package io.hydrosphere.serving.manager.model.api.json
 
 import io.hydrosphere.serving.tensorflow.TensorShape
+import io.hydrosphere.serving.tensorflow.TensorShape.{AnyDims, Dims}
 import spray.json.{JsArray, JsObject, JsValue}
 
 import scala.annotation.tailrec
 
-case class ColumnShaper(tensorShapeProto: TensorShape) {
+case class ColumnShaper(tensorShape: TensorShape) {
   def apply(data: Seq[JsValue]): JsValue = {
-    tensorShapeProto.dims match {
-      case Some(shape) =>
-        val dims = shape.reverseIterator
-        shapeGrouped(JsArray(data.toVector), dims)
-      case None => data.headOption.getOrElse(JsObject.empty)
+    tensorShape match {
+      case AnyDims() => data.headOption.getOrElse(JsObject.empty)
+      case Dims(dims, _) if dims.isEmpty => data.headOption.getOrElse(JsObject.empty)
+      case Dims(dims, _) =>
+        val reverseDims = dims.reverseIterator
+        shapeGrouped(JsArray(data.toVector), reverseDims)
     }
   }
 

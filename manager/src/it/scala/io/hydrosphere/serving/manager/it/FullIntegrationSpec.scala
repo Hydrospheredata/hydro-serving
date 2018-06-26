@@ -9,6 +9,7 @@ import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
 import io.hydrosphere.serving.manager._
 import io.hydrosphere.serving.manager.model.ModelBuildStatus
 import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
+import io.hydrosphere.serving.manager.service.runtime.DefaultRuntimes
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.scalatest._
 
@@ -37,7 +38,7 @@ trait FullIntegrationSpec extends DatabaseAccessIT
 
   private[this] val originalConfiguration = ManagerConfiguration.parse(rawConfig)
 
-  def configuration = originalConfiguration
+  def configuration = originalConfiguration.copy(runtimesStarterPack = DefaultRuntimes.dummies)
 
   var managerRepositories: ManagerRepositories = _
   var managerServices: ManagerServices = _

@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.model.api.tensor_builder
 
 import io.hydrosphere.serving.contract.model_field.ModelField
-import io.hydrosphere.serving.contract.utils.validation.{FieldMissingError, IncompatibleFieldTypeError, ValidationError}
+import io.hydrosphere.serving.manager.model.api.validation.{FieldMissingError, IncompatibleFieldTypeError, ValidationError}
 import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.tensor.MapTensor
 import io.hydrosphere.serving.tensorflow.types.DataType
@@ -21,8 +21,8 @@ class ComplexFieldBuilder(val modelField: ModelField, val subfields: Seq[ModelFi
           val results = eithers.map(_.right.get)
           Right(
             MapTensor(
-              TensorShape.fromProto(modelField.shape),
-              results.map(_.data.head) // since we know that submaps are NONE shape
+              TensorShape(modelField.shape),
+              results.map(_.data.head)
             )
           )
         }
@@ -46,7 +46,7 @@ class ComplexFieldBuilder(val modelField: ModelField, val subfields: Seq[ModelFi
           val tensors = a.collect { case Right((name, tensor)) => name -> tensor }.toMap
           Right(
             MapTensor(
-              TensorShape.fromProto(modelField.shape),
+              TensorShape(modelField.shape),
               Seq(tensors)
             )
           )

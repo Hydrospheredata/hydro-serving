@@ -5,6 +5,7 @@ import java.nio.file.{Files, Paths}
 import com.amazonaws.regions.Regions
 import com.typesafe.config.{Config, ConfigException}
 import com.zaxxer.hikari.HikariConfig
+import io.hydrosphere.serving.manager.service.runtime.{CreateRuntimeRequest, DefaultRuntimes}
 import io.hydrosphere.serving.manager.service.source.storages.local.LocalModelStorageDefinition
 
 import collection.JavaConverters._
@@ -27,18 +28,21 @@ trait ManagerConfiguration {
   def dockerRepository: DockerRepositoryConfiguration
 
   def metrics: MetricsConfiguration
+
+  def runtimesStarterPack: List[CreateRuntimeRequest]
 }
 
 case class ManagerConfigurationImpl(
-    sidecar: SidecarConfig,
-    application: ApplicationConfig,
-    advertised: AdvertisedConfiguration,
-    localStorage: LocalModelStorageDefinition,
-    database: HikariConfig,
-    cloudDriver: CloudDriverConfiguration,
-    zipkin: ZipkinConfiguration,
-    dockerRepository: DockerRepositoryConfiguration,
-    metrics: MetricsConfiguration
+  sidecar: SidecarConfig,
+  application: ApplicationConfig,
+  advertised: AdvertisedConfiguration,
+  localStorage: LocalModelStorageDefinition,
+  database: HikariConfig,
+  cloudDriver: CloudDriverConfiguration,
+  zipkin: ZipkinConfiguration,
+  dockerRepository: DockerRepositoryConfiguration,
+  metrics: MetricsConfiguration,
+  runtimesStarterPack: List[CreateRuntimeRequest]
 ) extends ManagerConfiguration
 
 case class ElasticSearchMetricsConfiguration(
@@ -306,6 +310,11 @@ object ManagerConfiguration {
     )
   }
 
+  def parseInitRuntimes(config: Config): List[CreateRuntimeRequest] = {
+    val initRuntimes = config.getConfig("runtimes")
+    DefaultRuntimes.getConfig(initRuntimes.getString("starterPack"))
+  }
+
   def parse(config: Config): ManagerConfigurationImpl = ManagerConfigurationImpl(
     sidecar = parseSidecar(config),
     application = parseApplication(config),
@@ -315,7 +324,8 @@ object ManagerConfiguration {
     cloudDriver = parseCloudDriver(config),
     zipkin = parseZipkin(config),
     dockerRepository = parseDockerRepository(config),
-    metrics = parseMetrics(config)
+    metrics = parseMetrics(config),
+    runtimesStarterPack = parseInitRuntimes(config)
   )
 
   def getStoragePathOrTemp(config: Config) = {
