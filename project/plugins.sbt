@@ -1,6 +1,6 @@
 logLevel := Level.Info
 
-resolvers += "Flyway" at "https://flywaydb.org/repo"
+resolvers += "Flyway" at "https://davidmweber.github.io/flyway-sbt.repo"
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-native-packager" % "1.3.5")
 addSbtPlugin("org.flywaydb" % "flyway-sbt" % "4.2.0")
