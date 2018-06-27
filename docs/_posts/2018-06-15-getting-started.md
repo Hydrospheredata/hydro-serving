@@ -1,29 +1,25 @@
 ---
 layout: post
-title:  "Quickstart"
+title:  "Getting Started"
 date:   2018-06-15
-permalink: 'quickstart.html'
+permalink: 'getting-started.html'
 ---
 
-This document presents a quick way to set everything up and deploy your first model on various environments.
-
-* [Localhost](#localhost)
-* AWS
-* Google Cloud Engine
+This document presents a quick way to set everything up and deploy your first model.
 
 
-# Localhost
-{: #localhost}
+# Installation
+{: #installation}
 
 To get started, download [Docker][docker-install] on your machine if you don't have one. 
 
-Next, clone ML Lambda (the working name is _hydro-serving_) into desired directory.
+Next, clone ML Lambda (working name is _hydro-serving_) into desired directory.
 
 ```sh
 $ git clone https://github.com/Hydrospheredata/hydro-serving
 ```
 
-Now set up a docker environment. You have 2 options: This will take a while. 
+Now set up a docker environment. You have 2 options:
 
 1. Lightweight version that doesn't contain any metrics and doesn't support Kafka. It will only allow you to deploy and run your models in a continuous manner. 
 
@@ -32,13 +28,13 @@ Now set up a docker environment. You have 2 options: This will take a while.
 	$ docker-compose up # --no-start if you don't want to launch an image instanly
 	```
 
-2. Full version of ML Lambda with integrations to Kafka, Graphana, different metrics, etc. 
+2. Full version of ML Lambda with integrations to Kafka, Graphana, different metrics, etc. This will take a while. 
 	```sh
 	$ cd ./hydro-serving/integrations/
 	$ docker-compose up # --no-start if you don't want to launch an image instanly
 	```
 
->Note: If you are already installed one of the versions and want to install the other one, you may need to clean existing containers with `docker container rm $(docker container ls -aq)`.
+>Note: If you have already installed one of the versions and want to install the other one, you may need to clean existing containers with `docker container rm $(docker container ls -aq)`.
 
 Now, that you're ready with the docker, let's go ahead and deploy your first model. For this purpose we've built a handful [cli-tool][hydro-serving-cli]. 
 
@@ -64,6 +60,12 @@ $ hs upload
 Additionally Stateful LSTM needs [pre][stateful-lstm-pre] and [post][stateful-lstm-post] processing stages. So we upload them as well.
 
 Your models now have been uploaded to ML Lambda. You can find them here - [http://127.0.0.1/models][models]. Let's go and create an application that can use your models. 
+
+# Running Demo 
+{: #running-demo-model}
+
+# Running Own Model 
+{: #running-demo-model}
 
 [docker-install]: https://docs.docker.com/install/
 [docker-hub]: https://hub.docker.com/u/hydrosphere/
