@@ -8,7 +8,7 @@ import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.controller.GenericController
 import io.hydrosphere.serving.manager.model.db.Runtime
-import io.hydrosphere.serving.manager.service.{ServiceTask, ServiceTaskFailed, ServiceTaskFinished, ServiceTaskRunning}
+import io.hydrosphere.serving.manager.service.{ServiceTask}
 import io.hydrosphere.serving.manager.service.runtime.{CreateRuntimeRequest, RuntimeManagementService}
 import io.hydrosphere.serving.manager.util.UUIDUtils
 import io.swagger.annotations._
@@ -40,14 +40,12 @@ class RuntimeController(
     new ApiImplicitParam(name = "requestId", value = "Request UUID", required = true, dataTypeClass = classOf[UUID], paramType = "path", defaultValue = UUIDUtils.zerosStr)
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "TaskFinished", response = classOf[ServiceTaskFinished[CreateRuntimeRequest, Runtime]]),
-    new ApiResponse(code = 200, message = "TaskRunning", response = classOf[ServiceTaskRunning[CreateRuntimeRequest, Runtime]]),
-    new ApiResponse(code = 200, message = "TaskFailed", response = classOf[ServiceTaskFailed[CreateRuntimeRequest, Runtime]]),
+    new ApiResponse(code = 200, message = "TaskStatus", response = classOf[ServiceTask[CreateRuntimeRequest, Runtime]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def getStatus = path("api" / "v1" / "runtime" / "status" / JavaUUID) { uuid =>
     get {
-      completeFRes(runtimeManagementService.getCreationStatus(uuid))
+      completeRes(runtimeManagementService.getCreationStatus(uuid))
     }
   }
 

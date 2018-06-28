@@ -40,9 +40,9 @@ class RuntimeServiceSpec extends GenericUnitTest {
             val task = runtimeResult.right.get
             assert(task.request === createReq)
 
-            val result = runtimeManagementService.createTasks(task.id)
+            val result = runtimeManagementService.dockerPullExecutor.taskInfos(task.id)
 
-            assert(result.isInstanceOf[ServiceTaskRunning[CreateRuntimeRequest, Runtime]])
+            assert(result.isInstanceOf[ServiceTask[CreateRuntimeRequest, Runtime]])
             //            val finished = result.asInstanceOf[ServiceTaskFinished[CreateRuntimeRequest, Runtime]]
             //
             //            val runtime = finished.result
@@ -83,9 +83,9 @@ class RuntimeServiceSpec extends GenericUnitTest {
             assert(task.request === createReq)
 
             Thread.sleep(1000)
-            val result = runtimeManagementService.createTasks(task.id)
+            val result = runtimeManagementService.dockerPullExecutor.taskInfos(task.id)
 
-            assert(result.isInstanceOf[ServiceTaskRunning[CreateRuntimeRequest, Runtime]])
+            assert(result.isInstanceOf[ServiceTask[CreateRuntimeRequest, Runtime]])
             //            val finished = result.asInstanceOf[ServiceTaskFinished[CreateRuntimeRequest, Runtime]]
             //
             //            val runtime = finished.result
