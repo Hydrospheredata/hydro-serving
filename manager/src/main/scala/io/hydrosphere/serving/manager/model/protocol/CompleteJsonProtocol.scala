@@ -7,6 +7,7 @@ import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedModelBuild, AggregatedModelInfo, AggregatedModelVersion}
 import io.hydrosphere.serving.manager.service.clouddriver.{MetricServiceTargetLabels, MetricServiceTargets}
 import io.hydrosphere.serving.manager.service.model._
+import io.hydrosphere.serving.manager.service.model_build.BuildModelWithScript
 import io.hydrosphere.serving.manager.service.model_version.CreateModelVersionRequest
 import io.hydrosphere.serving.manager.service.runtime._
 import io.hydrosphere.serving.manager.service.service.CreateServiceRequest
@@ -18,6 +19,8 @@ trait CompleteJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol 
   implicit val createRuntimeRequest = jsonFormat5(CreateRuntimeRequest)
 
   implicit val serviceTaskStatusFormat = enumFormat(ServiceTaskStatus)
+
+  implicit val buildWithScript = jsonFormat2(BuildModelWithScript.apply)
 
   implicit def serviceTask[Req, Res](implicit j1: JsonFormat[Req], j2: JsonFormat[Res]) = {
     jsonFormat8(ServiceTask.apply[Req, Res])

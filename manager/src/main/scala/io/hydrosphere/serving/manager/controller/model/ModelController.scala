@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.controller.model
 
 import java.nio.file.{Files, StandardOpenOption}
+import java.util.UUID
 
 import javax.ws.rs.Path
 import akka.actor.ActorSystem
@@ -14,10 +15,12 @@ import io.hydrosphere.serving.manager.controller.{GenericController, ServingData
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.description.ContractDescription
 import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
+import io.hydrosphere.serving.manager.service.ServiceTask
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedModelInfo}
 import io.hydrosphere.serving.manager.service.model.{CreateModelRequest, ModelManagementService, UpdateModelRequest}
-import io.hydrosphere.serving.manager.service.model_build.ModelBuildManagmentService
+import io.hydrosphere.serving.manager.service.model_build.{BuildModelWithScript, ModelBuildManagmentService}
 import io.hydrosphere.serving.manager.service.model_version.{CreateModelVersionRequest, ModelVersionManagementService}
+import io.hydrosphere.serving.manager.util.UUIDUtils
 import io.swagger.annotations._
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -400,7 +403,23 @@ class ModelController(
     }
   }
 
+  @Path("/build/{id}")
+  @ApiOperation(value = "Get build status", notes = "", nickname = "buildStatus", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "id", value = "Request UUID", required = true, dataTypeClass = classOf[UUID], paramType = "path", defaultValue = UUIDUtils.zerosStr)
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "TaskStatus", response = classOf[ServiceTask[BuildModelWithScript, ModelVersion]]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def buildStatus = path("api" / "v1" / "model" / "build" / JavaUUID) { uuid =>
+    get {
+      complete(modelBuildManagementService.getBuildStatus(uuid))
+    }
+  }
+
   val routes: Route = listModels ~ getModel ~ updateModel ~ uploadModel ~ listModelBuildsByModel ~ lastModelBuilds ~
     generatePayloadByModelId ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract ~ generateInputsForVersion ~
-    lastModelVersions ~ addModelVersion ~ allModelVersions ~ modelContractDescription ~ versionContractDescription ~ deleteModel
+    lastModelVersions ~ addModelVersion ~ allModelVersions ~ modelContractDescription ~ versionContractDescription ~
+    deleteModel ~ buildStatus
 }

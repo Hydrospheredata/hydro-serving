@@ -40,9 +40,9 @@ class ModelVersionServiceITSpec extends FullIntegrationSpec with BeforeAndAfterA
       "model was already build" in {
         for {
           r1 <- managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(dummy_1.id))
-          cr1 = awaitVersion(r1.right.get.id)
+          cr1 = awaitVersion(r1.right.get.request.modelBuild.id)
           r2 <- managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(dummy_2.id))
-          cr2 = awaitVersion(r2.right.get.id)
+          cr2 = awaitVersion(r2.right.get.request.modelBuild.id)
           modelInfo <- managerServices.aggregatedInfoUtilityService.getModelAggregatedInfo(dummy_1.id)
         } yield {
           assert(r1.isRight, r1)

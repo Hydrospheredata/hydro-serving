@@ -15,12 +15,12 @@ import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.repository.ModelBuildRepository
 import io.hydrosphere.serving.manager.service.build_script.{BuildScriptManagementService, BuildScriptManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.model.ModelManagementService
-import io.hydrosphere.serving.manager.service.model_build.{BuildModelRequest, ModelBuildManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.model_build.{BuildModelRequest, BuildModelWithScript, ModelBuildManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.model_build.builders.{ModelBuildService, ModelPushService}
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import org.mockito.{Matchers, Mockito}
 
-import scala.concurrent.Future
+import scala.concurrent.{ExecutionContext, Future}
 
 class ModelBuildServiceSpec extends GenericUnitTest {
   private[this] val dummyModel = Model(
@@ -95,7 +95,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       service.buildModel(BuildModelRequest(1)).map { result =>
         assert(result.isRight, result)
         val modelBuild = result.right.get
-        assert(modelBuild.model.id === 1L)
+        assert(modelBuild.request.modelBuild.id === 1L)
       }
     }
 
@@ -168,8 +168,8 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       service.buildModel(BuildModelRequest(1337, Some(contract))).map { result =>
         assert(result.isRight, result)
         val modelBuild = result.right.get
-        assert(modelBuild.model.id === 1337L)
-        assert(modelBuild.model.modelContract === rawContract)
+        assert(modelBuild.request.modelBuild.id === 1337L)
+        assert(modelBuild.request.modelBuild.model.modelContract === rawContract)
       }
     }
   }
@@ -237,7 +237,9 @@ class ModelBuildServiceSpec extends GenericUnitTest {
 
     val service = new ModelBuildManagementServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
 
-    service.handleBuild(build, "test").map { result =>
+    val b = BuildModelWithScript(build, "test")
+
+    service.handleBuild(b, null, ExecutionContext.global).map { result =>
       assert(result.isRight, result)
       val modelVersion = result.right.get
       println(modelVersion)
@@ -307,8 +309,9 @@ class ModelBuildServiceSpec extends GenericUnitTest {
     )
 
     val service = new ModelBuildManagementServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
+    val b = BuildModelWithScript(build, "test")
 
-    service.handleBuild(build, "test").map { result =>
+    service.handleBuild(b, null, ExecutionContext.global).map { result =>
       assert(result.isLeft, result)
     }
   }
@@ -387,9 +390,9 @@ class ModelBuildServiceSpec extends GenericUnitTest {
     service.uploadAndBuild(upload).map { result =>
       assert(result.isRight, result)
       val modelBuild = result.right.get
-      assert(modelBuild.model.id === 1337L)
-      assert(modelBuild.model.modelContract === rawContract)
-      assert(modelBuild.model.modelContract === rawContract)
+      assert(modelBuild.request.modelBuild.model.id === 1337L)
+      assert(modelBuild.request.modelBuild.model.modelContract === rawContract)
+      assert(modelBuild.request.modelBuild.model.modelContract === rawContract)
     }
   }
 }

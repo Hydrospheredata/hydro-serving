@@ -4,7 +4,7 @@ import java.time.LocalDateTime
 import java.util.UUID
 import java.util.concurrent.Executors
 
-import io.hydrosphere.serving.manager.model.HResult
+import io.hydrosphere.serving.manager.model.{HFResult, HResult}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.concurrent.TrieMap
@@ -15,20 +15,33 @@ case class ExecFuture[Req, Res](taskStatus: ServiceTask[Req, Res], future: Futur
 class ServiceTaskExecutor[Req, Res] private (val executionContext: ExecutionContext) extends Logging {
   val taskInfos = TrieMap.empty[UUID, ServiceTask[Req, Res]]
 
-  def runRequest(request: Req)
-    (body: (ServiceTask[Req, Res], ServiceTaskUpdater[Req, Res]) => HResult[Res])
-  : ExecFuture[Req, Res] = {
+  def runRequestF(request: Req)
+    (bodyF: (Req, ServiceTaskUpdater[Req, Res], ExecutionContext) => HFResult[Res]) = {
     val startedAt = LocalDateTime.now()
     val id = UUID.randomUUID()
-    val taskStatus = ServiceTask.create[Req, Res](id, startedAt, request)
-    taskInfos += id -> taskStatus
+    taskInfos += id -> ServiceTask.create[Req, Res](id, startedAt, request)
     val updater = ServiceTaskUpdater(id, this)
-    val future = Future(body(taskStatus, updater))(executionContext)
+    val future = bodyF(request, updater, executionContext)
     future.failed.foreach { ex =>
       logger.warn(s"[$id] Service task failed: $ex")
       taskInfos += id -> taskInfos(id).fail(ex.getMessage, LocalDateTime.now())
     }(executionContext)
-    ExecFuture(taskStatus, future)
+    ExecFuture(updater.task, future)
+  }
+
+  def runRequest(request: Req)
+    (body: (Req, ServiceTaskUpdater[Req, Res]) => HResult[Res])
+  : ExecFuture[Req, Res] = {
+    val startedAt = LocalDateTime.now()
+    val id = UUID.randomUUID()
+    taskInfos += id -> ServiceTask.create[Req, Res](id, startedAt, request)
+    val updater = ServiceTaskUpdater(id, this)
+    val future = Future(body(request, updater))(executionContext)
+    future.failed.foreach { ex =>
+      logger.warn(s"[$id] Service task failed: $ex")
+      taskInfos += id -> taskInfos(id).fail(ex.getMessage, LocalDateTime.now())
+    }(executionContext)
+    ExecFuture(updater.task, future)
   }
 }
 

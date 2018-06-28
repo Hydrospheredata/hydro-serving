@@ -1,24 +1,33 @@
 package io.hydrosphere.serving.manager.service.model_build
 
 import java.time.LocalDateTime
+import java.util.UUID
 
 import cats.data.EitherT
 import cats.implicits._
+import com.spotify.docker.client.ProgressHandler
+import com.spotify.docker.client.messages.ProgressMessage
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.model.Result.Implicits._
 import io.hydrosphere.serving.manager.model.Result.{ClientError, HError}
 import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.api.description.ContractDescription
 import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.repository.ModelBuildRepository
 import io.hydrosphere.serving.manager.service.build_script.BuildScriptManagementService
-import io.hydrosphere.serving.manager.service.model_build.builders._
 import io.hydrosphere.serving.manager.service.model.ModelManagementService
+import io.hydrosphere.serving.manager.service.model_build.builders._
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
+import io.hydrosphere.serving.manager.service.{ServiceTask, ServiceTaskExecutor, ServiceTaskUpdater}
+import io.hydrosphere.serving.manager.util.docker.InfoProgressHandler
 import org.apache.logging.log4j.scala.Logging
-import Result.Implicits._
-import io.hydrosphere.serving.manager.model.api.description.ContractDescription
-import io.hydrosphere.serving.manager.util.docker.{HistoricProgressHandler, InfoProgressHandler}
 
 import scala.concurrent.{ExecutionContext, Future}
+
+case class BuildModelWithScript(
+  modelBuild: ModelBuild,
+  script: String
+)
 
 class ModelBuildManagementServiceImpl(
   modelBuildRepository: ModelBuildRepository,
@@ -30,6 +39,7 @@ class ModelBuildManagementServiceImpl(
 )(
   implicit executionContext: ExecutionContext
 ) extends ModelBuildManagmentService with Logging {
+  val buildTaskExecutor = ServiceTaskExecutor.withFixedPool[BuildModelWithScript, ModelVersion](4)
 
   def get(buildId: Long): HFResult[ModelBuild] = {
     modelBuildRepository.get(buildId).map { maybeBuild =>
@@ -43,7 +53,7 @@ class ModelBuildManagementServiceImpl(
   override def lastModelBuildsByModelId(id: Long, maximum: Int): Future[Seq[ModelBuild]] =
     modelBuildRepository.lastByModelId(id, maximum)
 
-  def build(model: Model, modelVersion: Option[Long]): HFResult[ModelBuild] = {
+  def build(model: Model, modelVersion: Option[Long]): HFResult[ServiceTask[BuildModelWithScript, ModelVersion]] = {
     logger.debug(model)
     logger.debug(modelVersion)
     val f = for {
@@ -63,19 +73,45 @@ class ModelBuildManagementServiceImpl(
       uniqueBuild <- EitherT(ensureUniqueBuild(build))
       modelBuild <- EitherT.liftF[Future, HError, ModelBuild](modelBuildRepository.create(uniqueBuild))
     } yield {
-      Future(handleBuild(modelBuild, script))
+      val b = BuildModelWithScript(modelBuild, script)
       logger.debug(build)
-      modelBuild
+      val f = buildTaskExecutor.runRequestF(b)(handleBuild)
+      f.taskStatus
     }
     f.value
   }
 
-  def handleBuild(modelBuild: ModelBuild, script: String): HFResult[ModelVersion] = {
+  def handleBuild(
+    buildWithScript: BuildModelWithScript,
+    updater: ServiceTaskUpdater[BuildModelWithScript, ModelVersion],
+    ec: ExecutionContext): HFResult[ModelVersion] = {
+
+    updater.running()
+    val modelBuild = buildWithScript.modelBuild
+    val script = buildWithScript.script
     logger.info(s"Building ${modelBuild.model.name} v${modelBuild.version}")
     logger.debug(modelBuild)
     val imageName = modelPushService.getImageName(modelBuild)
-    val messageHandler = new HistoricProgressHandler()
-    modelBuildService.build(modelBuild, imageName, script, messageHandler).flatMap {
+    val messageHandler = new ProgressHandler {
+      override def progress(message: ProgressMessage): Unit = {
+        val msg = Option(message.stream()).getOrElse("")
+        updater.log(msg)
+      }
+    }
+
+    modelBuildService.build(modelBuild, imageName, script, messageHandler)
+      .flatMap(afterBuild(modelBuild, imageName, _))(ec).map { res =>
+      res match {
+        case Left(value) => updater.failed(value.message, LocalDateTime.now())
+        case Right(value) => updater.finished(value)
+      }
+      res
+    }
+
+  }
+
+  def afterBuild(modelBuild: ModelBuild, imageName: String, res: HResult[String]): HFResult[ModelVersion] = {
+    res match {
       case Left(err) =>
         logger.error(s"Errors while building ${modelBuild.model.name} v${modelBuild.version}:")
         logger.error(err)
@@ -105,11 +141,11 @@ class ModelBuildManagementServiceImpl(
     }
   }
 
-  override def buildModel(buildModelRequest: BuildModelRequest): HFResult[ModelBuild] = {
+  override def buildModel(buildModelRequest: BuildModelRequest): HFResult[ServiceTask[BuildModelWithScript, ModelVersion]] = {
     logger.debug(
       s"modelId=${buildModelRequest.modelId}," +
-      s"flatContract=${buildModelRequest.flatContract}" +
-      s" modelVersion=${buildModelRequest.modelVersion}"
+        s"flatContract=${buildModelRequest.flatContract}" +
+        s" modelVersion=${buildModelRequest.modelVersion}"
     )
     val f = for {
       model <- EitherT(modelManagementService.getModel(buildModelRequest.modelId))
@@ -134,7 +170,7 @@ class ModelBuildManagementServiceImpl(
     modelBuildRepository.lastForModels(ids)
   }
 
-  def uploadAndBuild(modelUpload: ModelUpload): HFResult[ModelBuild] = {
+  def uploadAndBuild(modelUpload: ModelUpload): HFResult[ServiceTask[BuildModelWithScript, ModelVersion]] = {
     val f = for {
       model <- EitherT(modelManagementService.uploadModel(modelUpload))
       version <- EitherT(buildModel(BuildModelRequest(model.id)))
@@ -169,5 +205,11 @@ class ModelBuildManagementServiceImpl(
       builds <- EitherT.liftF[Future, HError, Seq[ModelBuild]](modelBuildRepository.listByModelId(model.id))
     } yield builds
     f.value
+  }
+
+  override def getBuildStatus(id: UUID): HResult[ServiceTask[BuildModelWithScript, ModelVersion]] = {
+    val res = buildTaskExecutor.taskInfos.get(id).toHResult(ClientError(s"Can't find request ${id.toString}"))
+    logger.debug(s"Status for runtime creation request $id = $res")
+    res
   }
 }

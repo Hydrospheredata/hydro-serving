@@ -36,7 +36,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 services = List(
                   SimpleServiceDescription(
                     runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(modelBuild.right.get.id),
+                    modelVersionId = Some(modelBuild.right.get.request.modelBuild.id),
                     environmentId = None,
                     weight = 0,
                     signatureName = "default"
@@ -47,7 +47,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           ),
           kafkaStreaming = List.empty
         )
-        version = awaitVersion(modelBuild.right.get.id)
+        version = awaitVersion(modelBuild.right.get.request.modelBuild.id)
         appResult <- managerServices.applicationManagementService.createApplication(
           appRequest.name,
           appRequest.namespace,
@@ -77,7 +77,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           )
         )
         assert(app.name === appRequest.name)
-        assert(app.contract === modelBuild.right.get.model.modelContract)
+        assert(app.contract === modelBuild.right.get.request.modelBuild.model.modelContract)
         assert(app.executionGraph === expectedGraph)
       }
     }
@@ -86,7 +86,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
       for {
         buildResult <- managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1))
         build = buildResult.right.get
-        version = awaitVersion(build.id)
+        version = awaitVersion(build.request.modelBuild.id)
         appRequest = CreateApplicationRequest(
           name = "MultiServiceStage",
           namespace = None,
@@ -135,7 +135,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                     environmentId = None
                   ),
                   weight = 50,
-                  signature = build.model.modelContract.signatures.find(_.signatureName == "default_spark")
+                  signature = build.request.modelBuild.model.modelContract.signatures.find(_.signatureName == "default_spark")
                 ),
                 WeightedService(
                   ServiceKeyDescription(
@@ -144,10 +144,10 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                     environmentId = None
                   ),
                   weight = 50,
-                  signature = build.model.modelContract.signatures.find(_.signatureName == "default_spark")
+                  signature = build.request.modelBuild.model.modelContract.signatures.find(_.signatureName == "default_spark")
                 )
               ),
-              build.model.modelContract.signatures.find(_.signatureName == "default_spark").map(_.withSignatureName("0"))
+              build.request.modelBuild.model.modelContract.signatures.find(_.signatureName == "default_spark").map(_.withSignatureName("0"))
             )
           )
         )
@@ -159,7 +159,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     "create and update an application with kafkaStreaming" in {
       for {
         buildResult <- managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1))
-        version = awaitVersion(buildResult.right.get.id)
+        version = awaitVersion(buildResult.right.get.request.modelBuild.id)
         appRequest = CreateApplicationRequest(
           name = "kafka_app",
           namespace = None,

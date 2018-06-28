@@ -74,14 +74,13 @@ class RuntimeManagementServiceImpl(
     }
   }
 
-  def pullDockerImage(registeredRequest: ServiceTask[PullDocker, String], updater: ServiceTaskUpdater[PullDocker, String]) = {
+  def pullDockerImage(request: PullDocker, updater: ServiceTaskUpdater[PullDocker, String]) = {
     try {
       updater.running()
       val logHandler = new ProgressHandler {
         override def progress(message: ProgressMessage): Unit = updater.log(message.status())
       }
-      logger.info(s"[${registeredRequest.id}] Start docker pull ${registeredRequest.request.fullImage}")
-      val request = registeredRequest.request
+      logger.info(s"Start docker pull ${request.fullImage}")
       dockerClient.pull(request.fullImage, logHandler)
       updater.finished(request.fullImage)
       Result.ok(request.fullImage)
@@ -89,7 +88,7 @@ class RuntimeManagementServiceImpl(
       case NonFatal(err) =>
         val newFailStatus = err match {
           case ex: ImageNotFoundException =>
-            updater.failed(s"Couldn't find an image ${registeredRequest.request.fullImage}")
+            updater.failed(s"Couldn't find an image ${request.fullImage}")
             ex
           case ex: DockerException =>
             updater.failed(s"Internal docker error")
@@ -98,7 +97,7 @@ class RuntimeManagementServiceImpl(
             updater.failed(s"Unexpected exception")
             ex
         }
-        logger.warn(s"[${registeredRequest.id}] Docker pull failed: $newFailStatus")
+        logger.warn(s"Docker pull failed: $newFailStatus")
         throw newFailStatus
     }
   }
