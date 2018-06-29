@@ -3,17 +3,15 @@ package io.hydrosphere.serving.manager.repository.db
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model.ModelBuildStatus.ModelBuildStatus
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.repository._
+import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
+import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus.ServiceTaskStatus
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 
-/**
-  *
-  */
 class ModelBuildRepositoryImpl(
   implicit executionContext: ExecutionContext,
   databaseService: DatabaseService
@@ -34,7 +32,8 @@ class ModelBuildRepositoryImpl(
         finishedTimestamp = entity.finished,
         status = entity.status.toString,
         statusText = entity.statusText,
-        logsUrl = entity.logsUrl
+        logsUrl = entity.logsUrl,
+        script = entity.script
       )
     ).map(s => mapFromDb(s, Some(entity.model), entity.modelVersion))
 
@@ -90,7 +89,7 @@ class ModelBuildRepositoryImpl(
         .result
     ).map(s => mapFromDb(s))
 
-  override def finishBuild(id: Long, status: ModelBuildStatus, statusText: String, finished: LocalDateTime,
+  def finishBuild(id: Long, status: ServiceTaskStatus, statusText: String, finished: LocalDateTime,
     modelRuntime: Option[ModelVersion]): Future[Int] = {
     val query = for {
       build <- Tables.ModelBuild if build.modelBuildId === id
@@ -125,6 +124,8 @@ class ModelBuildRepositoryImpl(
       .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
       .result.headOption
   }.map(mapFromDb)
+
+  override def update(entity: ModelBuild): Future[Int] = ???
 }
 
 object ModelBuildRepositoryImpl {
@@ -158,11 +159,12 @@ object ModelBuildRepositoryImpl {
       model = model.get,
       started = modelBuild.startedTimestamp,
       finished = modelBuild.finishedTimestamp,
-      status = ModelBuildStatus.withName(modelBuild.status),
+      status = ServiceTaskStatus.withName(modelBuild.status),
       statusText = modelBuild.statusText,
       logsUrl = modelBuild.logsUrl,
       version = modelBuild.modelVersion,
-      modelVersion = modelVersion
+      modelVersion = modelVersion,
+      script = modelBuild.script
     )
   }
 }

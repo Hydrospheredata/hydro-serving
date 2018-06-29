@@ -1,24 +1,24 @@
 package io.hydrosphere.serving.manager.service
 
-import java.io.FileNotFoundException
 import java.nio.file.Paths
 import java.time.LocalDateTime
 
-import cats.instances.all._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.model.api.ops.ModelContractOps._
 import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
-import io.hydrosphere.serving.manager.model.{ModelBuildStatus, Result}
+import io.hydrosphere.serving.manager.model.Result
 import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.manager.model.api.ops.ModelContractOps._
 import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.repository.ModelBuildRepository
 import io.hydrosphere.serving.manager.service.build_script.{BuildScriptManagementService, BuildScriptManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.model.ModelManagementService
-import io.hydrosphere.serving.manager.service.model_build.{BuildModelRequest, BuildModelWithScript, ModelBuildManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.model_build.builders.{ModelBuildService, ModelPushService}
+import io.hydrosphere.serving.manager.service.model_build.{BuildModelRequest, ModelBuildManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
+import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
 import org.mockito.{Matchers, Mockito}
+import org.scalatest.concurrent.ScalaFutures
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -44,10 +44,11 @@ class ModelBuildServiceSpec extends GenericUnitTest {
             1,
             LocalDateTime.now(),
             None,
-            ModelBuildStatus.STARTED,
+            ServiceTaskStatus.Running,
             None,
             None,
-            None
+            None,
+            ""
           )
         )
       )
@@ -86,7 +87,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
 
 
       val builder = mock[ModelBuildService]
-      Mockito.when(builder.build(Matchers.any(), Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
+      Mockito.when(builder.build(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
         Result.okF("kek")
       )
 
@@ -95,7 +96,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       service.buildModel(BuildModelRequest(1)).map { result =>
         assert(result.isRight, result)
         val modelBuild = result.right.get
-        assert(modelBuild.request.modelBuild.id === 1L)
+        assert(modelBuild.id === 1L)
       }
     }
 
@@ -113,10 +114,11 @@ class ModelBuildServiceSpec extends GenericUnitTest {
             1,
             LocalDateTime.now(),
             None,
-            ModelBuildStatus.STARTED,
+            ServiceTaskStatus.Running,
             None,
             None,
-            None
+            None,
+            ""
           )
         )
       )
@@ -159,7 +161,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       val pushS = mock[ModelPushService]
 
       val builder = mock[ModelBuildService]
-      Mockito.when(builder.build(Matchers.any(), Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
+      Mockito.when(builder.build(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
         Result.okF("kek")
       )
 
@@ -168,8 +170,8 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       service.buildModel(BuildModelRequest(1337, Some(contract))).map { result =>
         assert(result.isRight, result)
         val modelBuild = result.right.get
-        assert(modelBuild.request.modelBuild.id === 1337L)
-        assert(modelBuild.request.modelBuild.model.modelContract === rawContract)
+        assert(modelBuild.id === 1337L)
+        assert(modelBuild.model.modelContract === rawContract)
       }
     }
   }
@@ -184,10 +186,11 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       1,
       LocalDateTime.now(),
       None,
-      ModelBuildStatus.STARTED,
+      ServiceTaskStatus.Running,
       None,
       None,
-      None
+      None,
+      ""
     )
 
     val buildRepo = mock[ModelBuildRepository]
@@ -231,17 +234,14 @@ class ModelBuildServiceSpec extends GenericUnitTest {
     val pushS = mock[ModelPushService]
 
     val builder = mock[ModelBuildService]
-    Mockito.when(builder.build(Matchers.any(), Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
+    Mockito.when(builder.build(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
       Result.okF("sha256")
     )
 
     val service = new ModelBuildManagementServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
 
-    val b = BuildModelWithScript(build, "test")
 
-    service.handleBuild(b, null, ExecutionContext.global).map { result =>
-      assert(result.isRight, result)
-      val modelVersion = result.right.get
+    service.buildTaskExecutor.execute(null).future.map { modelVersion =>
       println(modelVersion)
       assert(modelVersion.modelName === build.model.name)
     }
@@ -257,10 +257,11 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       1,
       LocalDateTime.now(),
       None,
-      ModelBuildStatus.STARTED,
+      ServiceTaskStatus.Running,
       None,
       None,
-      None
+      None,
+      ""
     )
 
     val buildRepo = mock[ModelBuildRepository]
@@ -304,15 +305,15 @@ class ModelBuildServiceSpec extends GenericUnitTest {
     val pushS = mock[ModelPushService]
 
     val builder = mock[ModelBuildService]
-    Mockito.when(builder.build(Matchers.any(), Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
+    Mockito.when(builder.build(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
       Result.internalErrorF(new RuntimeException("Something bad happened"))
     )
 
     val service = new ModelBuildManagementServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
-    val b = BuildModelWithScript(build, "test")
 
-    service.handleBuild(b, null, ExecutionContext.global).map { result =>
-      assert(result.isLeft, result)
+    val f = service.buildTaskExecutor.execute(null)
+    ScalaFutures.whenReady(f.future.failed) { ex =>
+      assert(ex.getMessage === "Something bad happened")
     }
   }
 
@@ -329,16 +330,17 @@ class ModelBuildServiceSpec extends GenericUnitTest {
     val contract = rawContract.flatten
 
     val build = ModelBuild(
-        1,
-        model,
-        1,
-        LocalDateTime.now(),
-        None,
-        ModelBuildStatus.STARTED,
-        None,
-        None,
-        None
-      )
+      1,
+      model,
+      1,
+      LocalDateTime.now(),
+      None,
+      ServiceTaskStatus.Running,
+      None,
+      None,
+      None,
+      ""
+    )
     val buildRepo = mock[ModelBuildRepository]
     Mockito.when(buildRepo.create(Matchers.any())).thenReturn(Future.successful(build))
     Mockito.when(buildRepo.getRunningBuild(Matchers.any(), Matchers.any())).thenReturn(Future.successful(None))
@@ -381,7 +383,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
     val pushS = mock[ModelPushService]
 
     val builder = mock[ModelBuildService]
-    Mockito.when(builder.build(Matchers.any(), Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
+    Mockito.when(builder.build(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
       Result.okF("kek")
     )
 
@@ -390,9 +392,9 @@ class ModelBuildServiceSpec extends GenericUnitTest {
     service.uploadAndBuild(upload).map { result =>
       assert(result.isRight, result)
       val modelBuild = result.right.get
-      assert(modelBuild.request.modelBuild.model.id === 1337L)
-      assert(modelBuild.request.modelBuild.model.modelContract === rawContract)
-      assert(modelBuild.request.modelBuild.model.modelContract === rawContract)
+      assert(modelBuild.model.id === 1337L)
+      assert(modelBuild.model.modelContract === rawContract)
+      assert(modelBuild.model.modelContract === rawContract)
     }
   }
 }

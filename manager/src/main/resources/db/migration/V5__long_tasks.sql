@@ -1,0 +1,1 @@
+ALTER TABLE hydro_serving.model_build ADD COLUMN script TEXT NOT NULL;

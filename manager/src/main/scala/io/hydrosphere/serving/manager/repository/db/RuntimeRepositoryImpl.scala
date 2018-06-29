@@ -8,9 +8,6 @@ import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 
-/**
-  *
-  */
 class RuntimeRepositoryImpl(
   implicit executionContext: ExecutionContext,
   databaseService: DatabaseService
@@ -78,6 +75,8 @@ class RuntimeRepositoryImpl(
         .filter(p => p.tags @> modelType.map(p=>p.toTag).toList)
         .result
     ).map(s => s.map(ss => mapFromDb(ss)))
+
+  override def update(entity: Runtime): Future[Int] = ???
 }
 
 object RuntimeRepositoryImpl {

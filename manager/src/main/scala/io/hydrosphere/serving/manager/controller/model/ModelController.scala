@@ -15,12 +15,12 @@ import io.hydrosphere.serving.manager.controller.{GenericController, ServingData
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.description.ContractDescription
 import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
-import io.hydrosphere.serving.manager.service.ServiceTask
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedModelInfo}
 import io.hydrosphere.serving.manager.service.model.{CreateModelRequest, ModelManagementService, UpdateModelRequest}
-import io.hydrosphere.serving.manager.service.model_build.{BuildModelWithScript, ModelBuildManagmentService}
+import io.hydrosphere.serving.manager.service.model_build.ModelBuildManagmentService
 import io.hydrosphere.serving.manager.service.model_version.{CreateModelVersionRequest, ModelVersionManagementService}
 import io.hydrosphere.serving.manager.util.UUIDUtils
+import io.hydrosphere.serving.manager.util.task.ServiceTask
 import io.swagger.annotations._
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -409,12 +409,12 @@ class ModelController(
     new ApiImplicitParam(name = "id", value = "Request UUID", required = true, dataTypeClass = classOf[UUID], paramType = "path", defaultValue = UUIDUtils.zerosStr)
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "TaskStatus", response = classOf[ServiceTask[BuildModelWithScript, ModelVersion]]),
+    new ApiResponse(code = 200, message = "ModelBuild", response = classOf[ModelBuild]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def buildStatus = path("api" / "v1" / "model" / "build" / JavaUUID) { uuid =>
+  def buildStatus = path("api" / "v1" / "model" / "build" / LongNumber) { id =>
     get {
-      complete(modelBuildManagementService.getBuildStatus(uuid))
+      complete(modelBuildManagementService.get(id))
     }
   }
 

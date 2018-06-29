@@ -1,14 +1,12 @@
 package io.hydrosphere.serving.manager.model.protocol
 
-import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db._
+import io.hydrosphere.serving.manager.service.model.CreateModelRequest
 import spray.json._
 
 
 trait ModelJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol {
-  implicit val modelBuildStatusFormat = enumFormat(ModelBuildStatus)
-
   implicit val modelTypeFormat = new JsonFormat[ModelType] {
     override def read(json: JsValue) = {
       json match {
@@ -25,9 +23,10 @@ trait ModelJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol {
   implicit val modelFormat = jsonFormat7(Model)
   implicit val runtimeFormat = jsonFormat6(Runtime)
   implicit val modelVersionFormat = jsonFormat10(ModelVersion)
+  implicit val modelBuildFormat = jsonFormat10(ModelBuild.apply)
   implicit val environmentFormat = jsonFormat3(Environment)
   implicit val serviceFormat = jsonFormat8(Service)
-  implicit val modelBuildFormat = jsonFormat9(ModelBuild)
+  implicit val createModelFormat = jsonFormat4(CreateModelRequest)
 
   implicit val serviceKeyDescriptionFormat = jsonFormat5(ServiceKeyDescription.apply)
   implicit val serviceWeightFormat = jsonFormat3(WeightedService)

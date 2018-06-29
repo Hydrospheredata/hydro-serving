@@ -2,15 +2,16 @@ package io.hydrosphere.serving.manager.model.protocol
 
 import io.hydrosphere.serving.manager.controller.environment.CreateEnvironmentRequest
 import io.hydrosphere.serving.manager.model.Result.{ClientError, ErrorCollection, HError, InternalError}
-import io.hydrosphere.serving.manager.service.ServiceTask.ServiceTaskStatus
+import io.hydrosphere.serving.manager.model.db.{CreateRuntimeRequest, PullRuntime}
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedModelBuild, AggregatedModelInfo, AggregatedModelVersion}
 import io.hydrosphere.serving.manager.service.clouddriver.{MetricServiceTargetLabels, MetricServiceTargets}
 import io.hydrosphere.serving.manager.service.model._
-import io.hydrosphere.serving.manager.service.model_build.BuildModelWithScript
 import io.hydrosphere.serving.manager.service.model_version.CreateModelVersionRequest
 import io.hydrosphere.serving.manager.service.runtime._
 import io.hydrosphere.serving.manager.service.service.CreateServiceRequest
+import io.hydrosphere.serving.manager.util.task.ServiceTask
+import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
 import spray.json.{JsObject, JsString, JsValue, _}
 
 trait CompleteJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol with ModelJsonProtocol {
@@ -18,17 +19,13 @@ trait CompleteJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol 
 
   implicit val createRuntimeRequest = jsonFormat5(CreateRuntimeRequest)
 
-  implicit val serviceTaskStatusFormat = enumFormat(ServiceTaskStatus)
-
-  implicit val buildWithScript = jsonFormat2(BuildModelWithScript.apply)
-
   implicit def serviceTask[Req, Res](implicit j1: JsonFormat[Req], j2: JsonFormat[Res]) = {
     jsonFormat8(ServiceTask.apply[Req, Res])
   }
 
   implicit val createModelRequest = jsonFormat4(CreateModelRequest)
 
-  implicit val pullDockerRequest = jsonFormat2(PullDocker.apply)
+  implicit val pullDockerRequest = jsonFormat12(PullRuntime.apply)
 
   implicit val updateModelRequest = jsonFormat5(UpdateModelRequest)
 

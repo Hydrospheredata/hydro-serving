@@ -7,10 +7,10 @@ import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
 import io.hydrosphere.serving.manager._
-import io.hydrosphere.serving.manager.model.ModelBuildStatus
 import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service.runtime.DefaultRuntimes
 import io.hydrosphere.serving.manager.util.TarGzUtils
+import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
 import org.scalatest._
 
 import scala.concurrent.Await
@@ -97,7 +97,7 @@ trait FullIntegrationSpec extends DatabaseAccessIT
       val buildOptF = managerRepositories.modelBuildRepository.get(modelBuildId)
       val buildOpt = Await.result(buildOptF, timeout)
       buildOpt.get.status match {
-        case ModelBuildStatus.FINISHED => result = buildOpt
+        case ServiceTaskStatus.Finished => result = buildOpt
         case _ => Unit
       }
     }

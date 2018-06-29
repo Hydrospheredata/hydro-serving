@@ -1,17 +1,16 @@
-package io.hydrosphere.serving.manager.service
+package io.hydrosphere.serving.manager.util.task
 
 import java.time.LocalDateTime
-import java.util.UUID
 
-import io.hydrosphere.serving.manager.service.ServiceTask.ServiceTaskStatus
-import io.hydrosphere.serving.manager.service.ServiceTask.ServiceTaskStatus.ServiceTaskStatus
+import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
+import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus.ServiceTaskStatus
 
 case class ServiceTask[Request, Result](
-  id: UUID,
+  id: Long,
   startedAt: LocalDateTime,
   request: Request,
   status: ServiceTaskStatus,
-  logs: List[String] = List.empty,
+  logsUrl: Option[String] = None,
   result: Option[Result] = None,
   finishedAt: Option[LocalDateTime] = None,
   message: Option[String] = None
@@ -27,10 +26,6 @@ case class ServiceTask[Request, Result](
   def fail(message: String, time: LocalDateTime) = {
     this.copy(status = ServiceTaskStatus.Failed, message = Some(message), finishedAt = Some(time))
   }
-
-  def log(logStr: String) = {
-    this.copy(logs = this.logs :+ logStr)
-  }
 }
 
 object ServiceTask {
@@ -40,7 +35,7 @@ object ServiceTask {
     val Pending, Running, Failed, Finished = Value
   }
 
-  def create[Req, Res](id: UUID, startedAt: LocalDateTime, request: Req) = {
+  def create[Req, Res](id: Long, startedAt: LocalDateTime, request: Req) = {
     ServiceTask[Req, Res](id, startedAt, request, ServiceTaskStatus.Pending)
   }
 }

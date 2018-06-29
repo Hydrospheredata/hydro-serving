@@ -6,8 +6,8 @@ import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.messages.ContainerConfig
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.it.FullIntegrationSpec
-import io.hydrosphere.serving.manager.model.ModelBuildStatus
 import io.hydrosphere.serving.manager.service.model_build.BuildModelRequest
+import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
 import org.scalatest.BeforeAndAfterAll
 
 import scala.concurrent.{Await, Future}
@@ -27,11 +27,11 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
         case None => Future.failed(new IllegalArgumentException("Model is not found"))
         case Some(model) =>
           managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1, None, Some(1))).flatMap { b =>
-            val version = awaitVersion(b.right.get.request.modelBuild.id)
+            val version = awaitVersion(b.right.get.id)
             managerServices.modelBuildManagmentService.lastModelBuildsByModelId(model.id, 1).map { lastBuilds =>
               val lastBuild = lastBuilds.head
               // check that build is successful
-              assert(lastBuild.status == ModelBuildStatus.FINISHED)
+              assert(lastBuild.status == ServiceTaskStatus.Finished)
               assert(lastBuild.finished.isDefined)
               assert(lastBuild.version == 1)
               val modelVersion = lastBuild.modelVersion.get
@@ -85,9 +85,9 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
       "for all models" in {
         for {
           v1 <- managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1))
-          cv1 = awaitVersion(v1.right.get.request.modelBuild.id)
+          cv1 = awaitVersion(v1.right.get.id)
           v2 <- managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1))
-          cv2 = awaitVersion(v2.right.get.request.modelBuild.id)
+          cv2 = awaitVersion(v2.right.get.id)
           versions <- managerServices.aggregatedInfoUtilityService.allModelsAggregatedInfo()
         } yield {
           val maybeModelInfo = versions.find(_.model.id == 1)
