@@ -46,7 +46,7 @@ class ModelBuildRepositoryImpl(
         .joinLeft(Tables.ModelVersion)
         .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
         .result.headOption
-    ).map(m => mapFromDb(m))
+    ).map(mapFromDb)
 
   override def delete(id: Long): Future[Int] =
     db.run(
@@ -63,7 +63,7 @@ class ModelBuildRepositoryImpl(
         .joinLeft(Tables.ModelVersion)
         .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
         .result
-    ).map(s => mapFromDb(s))
+    ).map(mapFromDb)
 
   override def listByModelId(id: Long): Future[Seq[ModelBuild]] =
     db.run(
@@ -87,18 +87,15 @@ class ModelBuildRepositoryImpl(
         .sortBy(_._1._1.startedTimestamp.desc)
         .take(maximum)
         .result
-    ).map(s => mapFromDb(s))
+    ).map(mapFromDb)
 
   def finishBuild(id: Long, status: ServiceTaskStatus, statusText: String, finished: LocalDateTime,
-    modelRuntime: Option[ModelVersion]): Future[Int] = {
+    modelVersion: Option[ModelVersion]): Future[Int] = {
     val query = for {
       build <- Tables.ModelBuild if build.modelBuildId === id
     } yield (build.status, build.statusText, build.finishedTimestamp, build.modelVersionId)
 
-    db.run(query.update(status.toString, Some(statusText), Some(finished), modelRuntime match {
-      case Some(r) => Some(r.id)
-      case _ => None
-    }))
+    db.run(query.update(status.toString, Some(statusText), Some(finished), modelVersion.map(_.id)))
   }
 
   override def lastForModels(ids: Seq[Long]): Future[Seq[ModelBuild]] =
@@ -125,7 +122,22 @@ class ModelBuildRepositoryImpl(
       .result.headOption
   }.map(mapFromDb)
 
-  override def update(entity: ModelBuild): Future[Int] = ???
+  override def update(entity: ModelBuild): Future[Int] = {
+    val query = for {
+      build <- Tables.ModelBuild if build.modelBuildId === entity.id
+    } yield (
+      build.finishedTimestamp,
+      build.status,
+      build.statusText,
+      build.modelVersionId
+    )
+    db.run(query.update(
+      entity.finished,
+      entity.status.toString,
+      entity.statusText,
+      entity.modelVersion.map(_.id)
+    ))
+  }
 }
 
 object ModelBuildRepositoryImpl {

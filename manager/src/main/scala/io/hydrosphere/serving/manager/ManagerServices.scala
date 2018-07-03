@@ -100,7 +100,7 @@ class ManagerServices(
 
   val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(
     managerRepositories.runtimeRepository,
-    ???,
+    managerRepositories.runtimePullRepository,
     dockerClient
   )
   managerConfiguration.runtimesStarterPack.foreach(runtimeManagementService.create)

@@ -1,6 +1,5 @@
 package io.hydrosphere.serving.manager.service.model_build
 
-import java.time.LocalDateTime
 import java.util.concurrent.Executors
 
 import cats.data.EitherT
@@ -16,7 +15,7 @@ import io.hydrosphere.serving.manager.service.build_script.BuildScriptManagement
 import io.hydrosphere.serving.manager.service.model.ModelManagementService
 import io.hydrosphere.serving.manager.service.model_build.builders._
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
-import io.hydrosphere.serving.manager.util.task.{ExecFuture, ServiceTask}
+import io.hydrosphere.serving.manager.util.task.ExecFuture
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -34,6 +33,7 @@ class ModelBuildManagementServiceImpl(
   val buildTaskExecutor = new ModelBuildExecutor(
     ExecutionContext.fromExecutor(Executors.newFixedThreadPool(4)),
     modelBuildRepository,
+    modelVersionManagementService,
     modelBuildService
   )
 

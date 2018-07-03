@@ -6,8 +6,9 @@ import com.spotify.docker.client.ProgressHandler
 import com.spotify.docker.client.messages.ProgressMessage
 import io.hydrosphere.serving.manager.model.{HFResult, HResult, Result}
 import io.hydrosphere.serving.manager.model.db.{BuildRequest, ModelBuild, ModelVersion}
-import io.hydrosphere.serving.manager.repository.ModelBuildRepository
+import io.hydrosphere.serving.manager.repository.{ModelBuildRepository, ModelVersionRepository}
 import io.hydrosphere.serving.manager.service.model_build.builders.ModelBuildService
+import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import io.hydrosphere.serving.manager.util.task.{ExecFuture, ServiceTask, ServiceTaskExecutor, ServiceTaskUpdater}
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -15,6 +16,7 @@ import scala.concurrent.{ExecutionContext, Future}
 class ModelBuildExecutor(
   val executionContext: ExecutionContext,
   val modelBuildRepository: ModelBuildRepository,
+  val modelVersionSerivce: ModelVersionManagementService,
   val modelBuildService: ModelBuildService
 ) extends ServiceTaskExecutor[BuildRequest, ModelVersion] {
   implicit val ec = executionContext
@@ -45,29 +47,32 @@ class ModelBuildExecutor(
       }
     }
 
-    updater.task().flatMap { task =>
+    updater.running().flatMap { task =>
       val modelBuild = ModelBuild.fromBuildTask(task)
-      modelBuildService.build(modelBuild, buildRequest.script, messageHandler)
-        .flatMap(afterBuild(updater, _))(ec).map {
-        case Left(value) =>
-          updater.failed(value.message, LocalDateTime.now())
-          throw new IllegalStateException(value.message)
-        case Right(value) =>
-          updater.finished(value)
-          value
-      }
+      modelBuildService
+        .build(modelBuild, buildRequest.script, messageHandler)
+        .flatMap(afterBuild(updater, _))(ec)
+        .flatMap {
+          case Left(value) =>
+            updater.failed(value.message, LocalDateTime.now())
+            throw new IllegalStateException(value.message)
+          case Right(value) =>
+            updater.finished(value).map(r =>
+              value
+            )
+        }
     }
   }
 
   def afterBuild(updater: ServiceTaskUpdater[BuildRequest, ModelVersion], res: HResult[String]): HFResult[ModelVersion] = {
-    updater.task().map { task =>
+    updater.task().flatMap { task =>
       val modelBuild = task.request
       res match {
         case Left(err) =>
           logger.error(s"Errors while building ${modelBuild.model.name} v${modelBuild.version}:")
           logger.error(err)
           updater.failed(err.toString)
-          Result.error(err)
+          Result.errorF(err)
         case Right(sha256) =>
           val flatBuild = ModelBuild.fromBuildTask(task)
           val version = ModelVersion(
@@ -82,7 +87,7 @@ class ModelBuildExecutor(
             model = Some(modelBuild.model),
             modelType = modelBuild.model.modelType
           )
-          Result.ok(version)
+          modelVersionSerivce.create(version)
       }
     }
   }
