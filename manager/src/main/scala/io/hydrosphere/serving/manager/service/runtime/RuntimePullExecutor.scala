@@ -6,45 +6,54 @@ import com.amazonaws.services.ecr.model.ImageNotFoundException
 import com.spotify.docker.client.exceptions.DockerException
 import com.spotify.docker.client.messages.ProgressMessage
 import com.spotify.docker.client.{DockerClient, ProgressHandler}
-import io.hydrosphere.serving.manager.model.Result
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.{CreateRuntimeRequest, PullRuntime, Runtime}
 import io.hydrosphere.serving.manager.repository.RuntimePullRepository
 import io.hydrosphere.serving.manager.util.task.{ExecFuture, ServiceTask, ServiceTaskExecutor, ServiceTaskUpdater}
+import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 import scala.util.control.NonFatal
 
 class RuntimePullExecutor(
+  val pullRepository: RuntimePullRepository,
   val dockerClient: DockerClient,
   val executionContext: ExecutionContext
 ) extends ServiceTaskExecutor[CreateRuntimeRequest, Runtime] {
   implicit val lightEC = ExecutionContext.global
 
-  override def makeUpdater(task: CreateRuntimeRequest): Future[ServiceTaskUpdater[CreateRuntimeRequest, Runtime]] = ???
+  override def makeUpdater(request: CreateRuntimeRequest): Future[ServiceTaskUpdater[CreateRuntimeRequest, Runtime]] = {
+    val originalTask = ServiceTask.create[CreateRuntimeRequest, Runtime](0, LocalDateTime.now(), request)
+
+    pullRepository.create(PullRuntime.fromServiceTask(originalTask)).map { actualTask =>
+      RuntimePullUpdater(actualTask.id, this, pullRepository)
+    }
+  }
 
   override def execute(request: CreateRuntimeRequest): ExecFuture[CreateRuntimeRequest, Runtime] = {
-    runRequest(request)(pullDockerImage)
+    runRequestF(request)(pullDockerImage)
   }
 
   def pullDockerImage(request: CreateRuntimeRequest, updater: ServiceTaskUpdater[CreateRuntimeRequest, Runtime]) = {
     try {
-      updater.running()
-      val logHandler = new ProgressHandler {
-        override def progress(message: ProgressMessage): Unit = updater.log(message.status())
+      updater.running().flatMap { t =>
+        val logHandler = new ProgressHandler {
+          override def progress(message: ProgressMessage): Unit = updater.log(message.status())
+        }
+        logger.info(s"Start docker pull ${request.fullImage}")
+        dockerClient.pull(request.fullImage, logHandler)
+        val runtime = Runtime(
+          id = 0,
+          name = request.name,
+          version = request.version,
+          suitableModelType = request.modelTypes.map(ModelType.fromTag),
+          tags = request.tags,
+          configParams = request.configParams
+        )
+        updater.finished(runtime).map { _ =>
+          runtime
+        }
       }
-      logger.info(s"Start docker pull ${request.fullImage}")
-      dockerClient.pull(request.fullImage, logHandler)
-      val runtime = Runtime(
-        id = 0,
-        name = request.name,
-        version = request.version,
-        suitableModelType = request.modelTypes.map(ModelType.fromTag),
-        tags = request.tags,
-        configParams = request.configParams
-      )
-      updater.finished(runtime)
-      runtime
     } catch {
       case NonFatal(err) =>
         val newFailStatus = err match {
@@ -67,14 +76,14 @@ class RuntimePullExecutor(
 case class RuntimePullUpdater(
   taskId: Long,
   executor: RuntimePullExecutor,
-  runtimePullRepository: RuntimePullRepository) extends ServiceTaskUpdater[CreateRuntimeRequest, Runtime] {
+  runtimePullRepository: RuntimePullRepository) extends ServiceTaskUpdater[CreateRuntimeRequest, Runtime] with Logging{
   override def task()(implicit ec: ExecutionContext): Future[ServiceTask[CreateRuntimeRequest, Runtime]] = {
     runtimePullRepository.get(taskId).map(_.get.toServiceTask)
   }
 
-  override protected def updateTaskStorage(task: ServiceTask[CreateRuntimeRequest, Runtime])(implicit ec: ExecutionContext): Unit = {
-    runtimePullRepository.update(PullRuntime.fromServiceTask(task))
+  override protected def updateTaskStorage(task: ServiceTask[CreateRuntimeRequest, Runtime])(implicit ec: ExecutionContext): Future[Unit] = {
+    runtimePullRepository.update(PullRuntime.fromServiceTask(task)).map(_ => Unit)
   }
 
-  override def log(log: String): Unit = ???
+  override def log(log: String): Unit = logger.info(s"Runtime pull $taskId: " + log)
 }

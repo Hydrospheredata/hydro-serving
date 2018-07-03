@@ -24,6 +24,7 @@ class RuntimeManagementServiceImpl(
   implicit ex: ExecutionContext
 ) extends RuntimeManagementService with Logging {
   val dockerPullExecutor = new RuntimePullExecutor(
+    runtimePullRepository,
     dockerClient,
     ExecutionContext.fromExecutor(Executors.newFixedThreadPool(4))
   )

@@ -21,6 +21,6 @@ case class ModelBuildUpdater(
   }
 
   override protected def updateTaskStorage(task: ServiceTask[BuildRequest, ModelVersion])(implicit ec: ExecutionContext) = {
-    modelBuildRepository.update(ModelBuild.fromBuildTask(task))
+    modelBuildRepository.update(ModelBuild.fromBuildTask(task)).map(_ => Unit)
   }
 }

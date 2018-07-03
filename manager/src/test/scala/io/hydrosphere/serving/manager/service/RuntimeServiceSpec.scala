@@ -1,16 +1,19 @@
 package io.hydrosphere.serving.manager.service
 
+import java.time.LocalDateTime
+
 import com.spotify.docker.client.{DockerClient, ProgressHandler}
 import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.model.api.ModelType
-import io.hydrosphere.serving.manager.model.db.{CreateRuntimeRequest, Runtime}
-import io.hydrosphere.serving.manager.repository.RuntimeRepository
-import io.hydrosphere.serving.manager.service.runtime.RuntimeManagementServiceImpl
-import io.hydrosphere.serving.manager.util.task.ServiceTask
+import io.hydrosphere.serving.manager.model.db.{CreateRuntimeRequest, PullRuntime, Runtime}
+import io.hydrosphere.serving.manager.repository.{RuntimePullRepository, RuntimeRepository}
+import io.hydrosphere.serving.manager.service.runtime.{RuntimeManagementServiceImpl, RuntimePullExecutor}
+import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
 import org.mockito.invocation.InvocationOnMock
 import org.mockito.stubbing.Answer
 import org.mockito.{Matchers, Mockito}
 
+import scala.collection.mutable.ListBuffer
 import scala.concurrent.Future
 
 class RuntimeServiceSpec extends GenericUnitTest {
@@ -25,11 +28,31 @@ class RuntimeServiceSpec extends GenericUnitTest {
             )
           })
 
+          val pullStatus = PullRuntime(
+            id = 0,
+            name = "known_test",
+            version = "0.0.1",
+            suitableModelType = List("spark:2.1"),
+            tags = List.empty,
+            configParams = Map.empty,
+            startedAt = LocalDateTime.now(),
+            finishedAt = None,
+            status = ServiceTaskStatus.Pending
+          )
+          val runtimePullRepo = mock[RuntimePullRepository]
+          when(runtimePullRepo.create(Matchers.any())).thenReturn(
+            Future.successful(pullStatus.copy(id = 1))
+          )
+          when(runtimePullRepo.get(1)).thenReturn(Future.successful(Some(pullStatus)))
+          when(runtimePullRepo.getRunningPull("known_test", "0.0.1")).thenReturn(
+            Future.successful(None)
+          )
+
           val dockerMock = mock[DockerClient]
           Mockito.doNothing().when(dockerMock).pull(Matchers.eq("known_test:0.0.1"), Matchers.any(classOf[ProgressHandler]))
 
           when(runtimeRepo.fetchByNameAndVersion(Matchers.any(), Matchers.any())).thenReturn(Future.successful(None))
-          val runtimeManagementService = new RuntimeManagementServiceImpl(runtimeRepo, null, dockerMock)
+          val runtimeManagementService = new RuntimeManagementServiceImpl(runtimeRepo, runtimePullRepo, dockerMock)
           val createReq = CreateRuntimeRequest(
             name = "known_test",
             version = "0.0.1",
@@ -43,19 +66,6 @@ class RuntimeServiceSpec extends GenericUnitTest {
             assert(task.version === createReq.version)
             assert(task.configParams === createReq.configParams)
             assert(task.tags === createReq.tags)
-
-            //            val result = runtimeManagementService.dockerPullExecutor.taskInfos(task.id)
-            //
-            //            assert(result.isInstanceOf[ServiceTask[CreateRuntimeRequest, Runtime]])
-            //            val finished = result.asInstanceOf[ServiceTaskFinished[CreateRuntimeRequest, Runtime]]
-            //
-            //            val runtime = finished.result
-            //            assert("known_test" === runtime.name, runtime.name)
-            //            assert(runtime.suitableModelType.lengthCompare(1) === 0, "spark:2.1")
-            //            assert(ModelType.fromTag("spark:2.1") === runtime.suitableModelType.head)
-            //            assert(Map.empty[String, String] === runtime.configParams)
-            //            assert("0.0.1" === runtime.version)
-            //            assert(List.empty[String] === runtime.tags)
           }
         }
 
@@ -71,10 +81,30 @@ class RuntimeServiceSpec extends GenericUnitTest {
           })
           Mockito.when(runtimeRepo.fetchByNameAndVersion(Matchers.any(), Matchers.any())).thenReturn(Future.successful(None))
 
+          val pullStatus = PullRuntime(
+            id = 0,
+            name = "unknown_test",
+            version = "0.0.1",
+            suitableModelType = List("tensorLUL:1337"),
+            tags = List.empty,
+            configParams = Map.empty,
+            startedAt = LocalDateTime.now(),
+            finishedAt = None,
+            status = ServiceTaskStatus.Pending
+          )
+          val runtimePullRepo = mock[RuntimePullRepository]
+          when(runtimePullRepo.create(Matchers.any())).thenReturn(
+            Future.successful(pullStatus.copy(id = 1))
+          )
+          when(runtimePullRepo.get(1)).thenReturn(Future.successful(Some(pullStatus)))
+          when(runtimePullRepo.getRunningPull("unknown_test", "0.0.1")).thenReturn(
+            Future.successful(None)
+          )
+
           val dockerMock = mock[DockerClient]
           Mockito.doNothing().when(dockerMock).pull(Matchers.eq("unknown_test:0.0.1"), Matchers.any(classOf[ProgressHandler]))
 
-          val runtimeManagementService = new RuntimeManagementServiceImpl(runtimeRepo, null, dockerMock)
+          val runtimeManagementService = new RuntimeManagementServiceImpl(runtimeRepo, runtimePullRepo, dockerMock)
           val createReq = CreateRuntimeRequest(
             name = "unknown_test",
             version = "0.0.1",
@@ -89,19 +119,6 @@ class RuntimeServiceSpec extends GenericUnitTest {
             assert(task.configParams === createReq.configParams)
             assert(task.tags === createReq.tags)
 
-            //            Thread.sleep(1000)
-            //            val result = runtimeManagementService.dockerPullExecutor.taskInfos(task.id)
-            //
-            //            assert(result.isInstanceOf[ServiceTask[CreateRuntimeRequest, Runtime]])
-            //            val finished = result.asInstanceOf[ServiceTaskFinished[CreateRuntimeRequest, Runtime]]
-            //
-            //            val runtime = finished.result
-            //            assert("unknown_test" === runtime.name, runtime.name)
-            //            assert(runtime.suitableModelType.lengthCompare(1) === 0, "tensorLUL:1337")
-            //            assert(ModelType.Unknown("tensorLUL", "1337") === runtime.suitableModelType.head)
-            //            assert(Map.empty[String, String] === runtime.configParams)
-            //            assert("0.0.1" === runtime.version)
-            //            assert(List.empty[String] === runtime.tags)
           }
         }
       }
@@ -113,8 +130,7 @@ class RuntimeServiceSpec extends GenericUnitTest {
               Runtime(
                 0, "test", "latest", List.empty, List.empty, Map.empty
               )
-            )
-            )
+            ))
           )
 
           val runtimeManagementService = new RuntimeManagementServiceImpl(runtimeRepo, null, null)
@@ -146,6 +162,66 @@ class RuntimeServiceSpec extends GenericUnitTest {
         println(runtimes)
         assert(runtimes.exists(_.name == "test2"))
         assert(runtimes.exists(_.name == "test1"))
+      }
+    }
+  }
+
+  describe("RuntimePullExecutor") {
+    it("should perform a pull task") {
+      val pullStatus = PullRuntime(
+        id = 1,
+        name = "myname",
+        version = "myversion",
+        suitableModelType = List.empty,
+        tags = List.empty,
+        configParams = Map.empty,
+        startedAt = LocalDateTime.now(),
+        finishedAt = None,
+        status = ServiceTaskStatus.Pending
+      )
+
+      val updateHistory = ListBuffer.empty[PullRuntime]
+
+      val pullRepo = mock[RuntimePullRepository]
+      when(pullRepo.create(Matchers.any())).thenReturn(Future.successful(
+        pullStatus
+      ))
+      when(pullRepo.get(1L)).thenReturn(Future.successful(Some(
+        pullStatus
+      )))
+      when(pullRepo.update(Matchers.any())).thenAnswer { invocation: InvocationOnMock =>
+        updateHistory += invocation.getArguments.head.asInstanceOf[PullRuntime]
+        Future.successful(1)
+      }
+
+      val dockerClient = mock[DockerClient]
+      val executor = new RuntimePullExecutor(pullRepo, dockerClient, this.executionContext)
+
+      val request = CreateRuntimeRequest(
+        "myname",
+        "myversion"
+      )
+      val f = executor.execute(request)
+
+      for {
+        status <- f.taskStatus
+        runtime <- f.future
+      } yield {
+        assert(runtime.name === "myname")
+        assert(runtime.version === "myversion")
+
+        assert(updateHistory.exists(_.status == ServiceTaskStatus.Running))
+        assert(updateHistory.exists(_.status == ServiceTaskStatus.Finished))
+        assert(!updateHistory.exists(_.status == ServiceTaskStatus.Failed))
+
+        val maybePullRuntime = updateHistory.lastOption
+        assert(maybePullRuntime.isDefined, maybePullRuntime)
+
+        val finalStatus = maybePullRuntime.get
+
+        assert(finalStatus.name === "myname")
+        assert(finalStatus.version === "myversion")
+        assert(finalStatus.status === ServiceTaskStatus.Finished)
       }
     }
   }
