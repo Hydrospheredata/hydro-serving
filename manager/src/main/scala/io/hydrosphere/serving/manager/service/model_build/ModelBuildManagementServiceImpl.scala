@@ -16,7 +16,7 @@ import io.hydrosphere.serving.manager.service.build_script.BuildScriptManagement
 import io.hydrosphere.serving.manager.service.model.ModelManagementService
 import io.hydrosphere.serving.manager.service.model_build.builders._
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
-import io.hydrosphere.serving.manager.util.task.ServiceTask
+import io.hydrosphere.serving.manager.util.task.{ExecFuture, ServiceTask}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -49,7 +49,7 @@ class ModelBuildManagementServiceImpl(
   override def lastModelBuildsByModelId(id: Long, maximum: Int): Future[Seq[ModelBuild]] =
     modelBuildRepository.lastByModelId(id, maximum)
 
-  def build(model: Model, modelVersion: Option[Long]): HFResult[ModelBuild] = {
+  def build(model: Model, modelVersion: Option[Long]): HFResult[ExecFuture[BuildRequest, ModelVersion]] = {
     logger.debug(model)
     logger.debug(modelVersion)
     val f = for {
@@ -61,15 +61,14 @@ class ModelBuildManagementServiceImpl(
         script = script
       )
       uniqueBuild <- EitherT(ensureUniqueBuild(build))
-      taskStatus <- EitherT(buildTaskExecutor.execute(uniqueBuild).taskStatus.map(Result.ok))
     } yield {
       logger.debug(build)
-      ModelBuild.fromBuildTask(taskStatus)
+      buildTaskExecutor.execute(uniqueBuild)
     }
     f.value
   }
 
-  override def buildModel(buildModelRequest: BuildModelRequest): HFResult[ModelBuild] = {
+  override def buildModel(buildModelRequest: BuildModelRequest): HFResult[ExecFuture[BuildRequest, ModelVersion]] = {
     logger.debug(
       s"modelId=${buildModelRequest.modelId}," +
         s"flatContract=${buildModelRequest.flatContract}" +
@@ -98,7 +97,7 @@ class ModelBuildManagementServiceImpl(
     modelBuildRepository.lastForModels(ids)
   }
 
-  def uploadAndBuild(modelUpload: ModelUpload): HFResult[ModelBuild] = {
+  def uploadAndBuild(modelUpload: ModelUpload): HFResult[ExecFuture[BuildRequest, ModelVersion]] = {
     val f = for {
       model <- EitherT(modelManagementService.uploadModel(modelUpload))
       version <- EitherT(buildModel(BuildModelRequest(model.id)))

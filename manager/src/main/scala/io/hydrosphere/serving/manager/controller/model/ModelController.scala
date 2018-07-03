@@ -10,11 +10,14 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
+import cats.data.EitherT
+import cats.implicits._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.controller.{GenericController, ServingDataDirectives}
+import io.hydrosphere.serving.manager.model.Result.HError
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.description.ContractDescription
-import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
+import io.hydrosphere.serving.manager.model.db.{BuildRequest, Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedModelInfo}
 import io.hydrosphere.serving.manager.service.model.{CreateModelRequest, ModelManagementService, UpdateModelRequest}
 import io.hydrosphere.serving.manager.service.model_build.ModelBuildManagmentService
@@ -141,7 +144,12 @@ class ModelController(
           }
         }
 
-        completeFRes(uploadModel(entities))
+        val taskStatus = for {
+          taskResponse <- EitherT(uploadModel(entities))
+          taskStatus <- EitherT.liftF[Future, HError, ServiceTask[BuildRequest, ModelVersion]](taskResponse.taskStatus)
+        } yield ModelBuild.fromBuildTask(taskStatus)
+
+        completeFRes(taskStatus.value)
       }
     }
   }
