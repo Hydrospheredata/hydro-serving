@@ -19,7 +19,7 @@ case class PullRuntime(
   id: Long,
   name: String,
   version: String,
-  suitableModelType: List[String] = List.empty,
+  suitableModelTypes: List[String] = List.empty,
   tags: List[String],
   configParams: Map[String, String] = Map.empty,
   startedAt: LocalDateTime,
@@ -42,7 +42,7 @@ case class PullRuntime(
       request = CreateRuntimeRequest(
         name = this.name,
         version = this.version,
-        modelTypes = this.suitableModelType,
+        modelTypes = this.suitableModelTypes,
         tags = this.tags,
         configParams = this.configParams
       ),
@@ -57,7 +57,7 @@ object PullRuntime {
       id = task.id,
       name = task.request.name,
       version = task.request.version,
-      suitableModelType = task.request.modelTypes,
+      suitableModelTypes = task.request.modelTypes,
       tags = task.request.tags,
       configParams = task.request.configParams,
       startedAt = task.startedAt,

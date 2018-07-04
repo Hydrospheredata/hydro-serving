@@ -57,9 +57,7 @@ class ModelBuildExecutor(
             updater.failed(value.message, LocalDateTime.now())
             throw new IllegalStateException(value.message)
           case Right(value) =>
-            updater.finished(value).map(r =>
-              value
-            )
+            updater.finished(value).map(_ => value)
         }
     }
   }
@@ -74,10 +72,9 @@ class ModelBuildExecutor(
           updater.failed(err.toString)
           Result.errorF(err)
         case Right(sha256) =>
-          val flatBuild = ModelBuild.fromBuildTask(task)
           val version = ModelVersion(
             id = 0,
-            imageName = flatBuild.imageName,
+            imageName = modelBuild.model.name,
             imageTag = modelBuild.version.toString,
             imageSHA256 = sha256,
             modelName = modelBuild.model.name,

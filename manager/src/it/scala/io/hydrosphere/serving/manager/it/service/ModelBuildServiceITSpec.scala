@@ -28,7 +28,7 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
           model <- EitherT(managerServices.modelManagementService.getModel(1))
           buildRequest = BuildModelRequest(1, None, Some(1))
           build <- EitherT(managerServices.modelBuildManagmentService.buildModel(buildRequest))
-          _ <- EitherT.liftF(build.future)
+          modelVersion <- EitherT.liftF(build.future)
           lastBuilds <- EitherT.liftF(managerServices.modelBuildManagmentService.lastModelBuildsByModelId(model.id, 1))
         } yield {
           val lastBuild = lastBuilds.head
@@ -36,7 +36,6 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
           assert(lastBuild.status == ServiceTaskStatus.Finished)
           assert(lastBuild.finished.isDefined)
           assert(lastBuild.version == 1)
-          val modelVersion = lastBuild.modelVersion.get
 
           // check files in container
           val config = ContainerConfig.builder()

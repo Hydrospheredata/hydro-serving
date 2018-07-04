@@ -24,8 +24,6 @@ case class ModelBuild(
   modelVersion: Option[ModelVersion],
   script: String
 ) {
-  def imageName: String = model.name + version.toString
-
   def toBuildTask: BuildStatus = {
     ServiceTask[BuildRequest, ModelVersion](
       id = this.id,

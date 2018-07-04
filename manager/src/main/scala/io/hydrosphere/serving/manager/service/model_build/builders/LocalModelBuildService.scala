@@ -46,7 +46,7 @@ class LocalModelBuildService(
       val dockerContainer = Option {
         dockerClient.build(
           buildPath,
-          modelBuild.imageName,
+          modelBuild.model.name + ":" + modelBuild.version,
           "Dockerfile",
           progressHandler,
           BuildParam.noCache()
