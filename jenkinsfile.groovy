@@ -95,7 +95,6 @@ node("JenkinsOnDemand") {
         }
     }
 
-
     stage('Build') {
         def curVersion = currentVersion()
         sh "sbt -DappVersion=${curVersion} compile docker"
