@@ -26,13 +26,13 @@ def isReleaseJob() {
 def generateTagComment(releaseVersion) {
     commitsList = sh(
         returnStdout: true,
-        script: "git log `git tag --sort=-taggerdate | head -1`..HEAD --pretty=\"%B\n\r (%an)\""
+            script: "git log `git tag --sort=-taggerdate | head -1`..HEAD --pretty=\"@%an %h %B\""
     ).trim()
     return "${commitsList}"
 }
 
 def createReleaseInGithub(gitCredentialId, organization, repository, releaseVersion, message) {
-    bodyMessage = message.replaceAll("\n", "<br />").replace("\r", "")
+    bodyMessage = message.replaceAll("\r", "").replaceAll("\n", "<br/>").replaceAll("<br/><br/>", "<br/>")
     withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: gitCredentialId, usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD']]) {
         def request = """
             {
@@ -78,7 +78,7 @@ def calculateNextDevVersion(releaseVersion) {
 node("JenkinsOnDemand") {
     def repository = 'hydro-serving'
     def organization = 'Hydrospheredata'
-    def gitCredentialId = 'HydrospheredataGithubAccessKey'
+    def gitCredentialId = 'HydroRobot_AccessToken'
 
     stage('Checkout') {
         deleteDir()
@@ -98,13 +98,13 @@ node("JenkinsOnDemand") {
 
     stage('Build') {
         def curVersion = currentVersion()
-        sh "${env.WORKSPACE}/sbt/sbt -DappVersion=${curVersion} -Dsbt.override.build.repos=true -Dsbt.repository.config=${env.WORKSPACE}/project/repositories compile docker"
+        sh "sbt -DappVersion=${curVersion} compile docker"
     }
 
     stage('Test') {
         try {
             def curVersion = currentVersion()
-            sh "${env.WORKSPACE}/sbt/sbt -DappVersion=${curVersion} -Dsbt.override.build.repos=true -Dsbt.repository.config=${env.WORKSPACE}/project/repositories test it:test-only"
+            sh "sbt -DappVersion=${curVersion} test it:test-only"
         } finally {
             junit testResults: '**/target/test-reports/io.hydrosphere*.xml', allowEmptyResults: true
         }
@@ -137,25 +137,12 @@ node("JenkinsOnDemand") {
 
             pushSource(gitCredentialId, organization, repository, "")
             pushSource(gitCredentialId, organization, repository, "refs/tags/${curVersion}")
-
             createReleaseInGithub(gitCredentialId, organization, repository, curVersion, tagComment)
         }
     } else {
         if (env.BRANCH_NAME == "master") {
-            stage("Publish_snapshoot"){
-                def curVersion = currentVersion()
-                GIT_COMMIT = sh (
-                         script: 'git rev-parse --short HEAD',
-                         returnStdout: true
-                ).trim()
-                sh "docker tag hydrosphere/serving-manager:${curVersion} 060183668755.dkr.ecr.eu-central-1.amazonaws.com/serving-manager:${GIT_COMMIT}"
-                IMAGE = "060183668755.dkr.ecr.eu-central-1.amazonaws.com/serving-manager:${GIT_COMMIT}"
-                docker.withRegistry('https://060183668755.dkr.ecr.eu-central-1.amazonaws.com', 'ecr:eu-central-1:jenkins_aws') {
-                  docker.image(IMAGE).push()
-                }
-            }
 
-            stage('Push latest docker') {
+            stage('Push docker') {
               def curVersion = currentVersion()
               sh "docker tag hydrosphere/serving-manager:${curVersion} hydrosphere/serving-manager:latest"
               sh "docker tag hydrosphere/serving-runtime-dummy:${curVersion} hydrosphere/serving-runtime-dummy:latest"
