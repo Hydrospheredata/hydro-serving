@@ -137,7 +137,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
         when(buildRepo.create(Matchers.any())).thenReturn(Future.successful(build))
         when(buildRepo.update(Matchers.any())).thenAnswer { inv =>
           statusHistory += inv.getArgumentAt(0, classOf[ModelBuild])
-          1
+          Future.successful(1)
         }
         when(buildRepo.getRunningBuild(Matchers.any(), Matchers.any())).thenReturn(Future.successful(None))
 
