@@ -9,15 +9,15 @@ import com.spotify.docker.client.DefaultDockerClient
 import com.typesafe.config.ConfigFactory
 import org.apache.logging.log4j.scala.Logging
 
-import scala.concurrent.{Await, ExecutionContext, ExecutionContextExecutor}
+import scala.concurrent.{Await, ExecutionContext}
 import scala.concurrent.duration._
 
 object ManagerBoot extends App with Logging {
   try {
     implicit val system: ActorSystem = ActorSystem("manager")
     implicit val materializer: ActorMaterializer = ActorMaterializer()
-    implicit val serviceExecutionContext: ExecutionContextExecutor = ExecutionContext.global
     implicit val timeout: Timeout = Timeout(5.minute)
+    implicit val serviceExecutionContext: ExecutionContext = ExecutionContext.global
 
     val configuration = ManagerConfiguration.parse(ConfigFactory.load())
 

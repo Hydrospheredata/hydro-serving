@@ -4,9 +4,9 @@ import java.time.LocalDateTime
 
 import com.spotify.docker.client.ProgressHandler
 import com.spotify.docker.client.messages.ProgressMessage
-import io.hydrosphere.serving.manager.model.{HFResult, HResult, Result}
 import io.hydrosphere.serving.manager.model.db.{BuildRequest, ModelBuild, ModelVersion}
-import io.hydrosphere.serving.manager.repository.{ModelBuildRepository, ModelVersionRepository}
+import io.hydrosphere.serving.manager.model.{HFResult, HResult, Result}
+import io.hydrosphere.serving.manager.repository.ModelBuildRepository
 import io.hydrosphere.serving.manager.service.model_build.builders.ModelBuildService
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import io.hydrosphere.serving.manager.util.task.{ExecFuture, ServiceTask, ServiceTaskExecutor, ServiceTaskUpdater}
@@ -34,8 +34,10 @@ class ModelBuildExecutor(
     runRequestF(request)(handleBuild)
   }
 
-  def handleBuild(buildRequest: BuildRequest,
-    updater: ServiceTaskUpdater[BuildRequest, ModelVersion]): Future[ModelVersion] = {
+  def handleBuild(
+    buildRequest: BuildRequest,
+    updater: ServiceTaskUpdater[BuildRequest, ModelVersion]
+  ): Future[ModelVersion] = {
 
     logger.info(s"Building ${buildRequest.model.name} v${buildRequest.version}")
     logger.debug(buildRequest)
@@ -62,7 +64,10 @@ class ModelBuildExecutor(
     }
   }
 
-  def afterBuild(updater: ServiceTaskUpdater[BuildRequest, ModelVersion], res: HResult[String]): HFResult[ModelVersion] = {
+  def afterBuild(
+    updater: ServiceTaskUpdater[BuildRequest, ModelVersion],
+    res: HResult[String]
+  ): HFResult[ModelVersion] = {
     updater.task().flatMap { task =>
       val modelBuild = task.request
       res match {
@@ -89,5 +94,3 @@ class ModelBuildExecutor(
     }
   }
 }
-
-

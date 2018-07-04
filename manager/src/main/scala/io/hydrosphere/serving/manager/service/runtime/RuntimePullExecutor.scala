@@ -8,7 +8,7 @@ import com.spotify.docker.client.messages.ProgressMessage
 import com.spotify.docker.client.{DockerClient, ProgressHandler}
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.{CreateRuntimeRequest, PullRuntime, Runtime}
-import io.hydrosphere.serving.manager.repository.RuntimePullRepository
+import io.hydrosphere.serving.manager.repository.{RuntimePullRepository, RuntimeRepository}
 import io.hydrosphere.serving.manager.util.task.{ExecFuture, ServiceTask, ServiceTaskExecutor, ServiceTaskUpdater}
 import org.apache.logging.log4j.scala.Logging
 
@@ -17,6 +17,7 @@ import scala.util.control.NonFatal
 
 class RuntimePullExecutor(
   val pullRepository: RuntimePullRepository,
+  val runtimeRepository: RuntimeRepository,
   val dockerClient: DockerClient,
   val executionContext: ExecutionContext
 ) extends ServiceTaskExecutor[CreateRuntimeRequest, Runtime] {
@@ -50,8 +51,11 @@ class RuntimePullExecutor(
           tags = request.tags,
           configParams = request.configParams
         )
-        updater.finished(runtime).map { _ =>
-          runtime
+        for {
+          newRuntime <- runtimeRepository.create(runtime)
+          _ <- updater.finished(newRuntime)
+        } yield {
+          newRuntime
         }
       }
     } catch {

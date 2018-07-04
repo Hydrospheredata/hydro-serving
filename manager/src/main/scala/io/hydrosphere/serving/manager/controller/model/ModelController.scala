@@ -37,11 +37,11 @@ class ModelController(
   modelBuildManagementService: ModelBuildManagmentService,
   modelVersionManagementService: ModelVersionManagementService
 )(
-  implicit system: ActorSystem,
-  materializer: ActorMaterializer,
-  executionContext: ExecutionContext
+  implicit val system: ActorSystem,
+  val materializer: ActorMaterializer,
 )
   extends GenericController with ServingDataDirectives {
+  implicit val ec = system.dispatcher
   implicit val timeout = Timeout(10.minutes)
 
   @Path("/")

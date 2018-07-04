@@ -180,7 +180,19 @@ class RuntimeServiceSpec extends GenericUnitTest {
         status = ServiceTaskStatus.Pending
       )
 
+      val runtime = Runtime(
+        id = 1,
+        name = "myname",
+        version = "myversion",
+        suitableModelType = List.empty,
+        tags = List.empty,
+        configParams = Map.empty
+      )
+
       val updateHistory = ListBuffer.empty[PullRuntime]
+
+      val runtimeRepo = mock[RuntimeRepository]
+      when(runtimeRepo.create(Matchers.any())).thenReturn(Future.successful(runtime))
 
       val pullRepo = mock[RuntimePullRepository]
       when(pullRepo.create(Matchers.any())).thenReturn(Future.successful(
@@ -195,7 +207,7 @@ class RuntimeServiceSpec extends GenericUnitTest {
       }
 
       val dockerClient = mock[DockerClient]
-      val executor = new RuntimePullExecutor(pullRepo, dockerClient, this.executionContext)
+      val executor = new RuntimePullExecutor(pullRepo, runtimeRepo, dockerClient, this.executionContext)
 
       val request = CreateRuntimeRequest(
         "myname",
