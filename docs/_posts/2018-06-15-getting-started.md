@@ -46,10 +46,7 @@ After all images will be pulled, start ML Lambda.
 $ docker-compose up
 ```
 
-Go the web-interface [http://127.0.0.1/][ml-lambda]. If everything was fine, you should see this: 
-
-![]({{site.baseurl}}{%link /assets/ui-hydrosphere-main.png%})
-<sup>__Pic. 1__: Web interface.</sup>
+Open web-interface [http://127.0.0.1/][ml-lambda]
 
 ## CLI
 
@@ -61,14 +58,14 @@ $ pip install hs
 
 For more details about on how to use CLI, check specified section. 
 
-# Running models
+# Uploading models
 
-To get the notion of ML Lambda we recommend you to go through 2 bellow tutorials of running demo models and deploying your own models. This will show you different aspects of working with CLI, configuring model, etc. 
+To get the notion of ML Lambda we recommend you to go through 2 bellow tutorials of uploading demo and own models. This will show you different aspects of working with configuring model, etc. 
 
-## Running demo
+## Uploading demo
 {: #running-demo}
 
-### Uploading Models
+### Fetching & uploading example models
 
 We've already created a few different [examples][hydro-serving-examples] that you can run to see, how everything works. Let's clone them and pick a model. 
 
@@ -79,29 +76,28 @@ $ cd ./hydro-serving-example/models/$MODEL_OF_YOUR_CHOICE
 
 For the purpose of this tutorial we chose [stateful LSTM][stateful-lstm]. All you have to do is just to upload models to the server. 
 
-> Note: At this stage you must start ML Lambda with `docker-compose up` in `hydro-serving` folder if you haven't done that yet.
+> Note: At this stage you should have your ML Lambda instance running.
 
 ```sh
 $ cd ./hydro-serving-example/models/stateful_lstm
 $ hs upload
 ```
 
-Additionally Stateful LSTM needs [pre][stateful-lstm-pre] and [post][stateful-lstm-post] processing stages. So we upload them as well.
+Stateful LSTM is actually a __Multi-Staged__ application, and includes additional parts: [pre][stateful-lstm-pre] and [post][stateful-lstm-post] processing stages. So we upload them as well.
 
 ```sh
 $ cd ../stateful_lstm_preprocessing
 $ hs upload
+...
 $ cd ../stateful_lstm_postprocessing
 $ hs upload
 ```
 
-Your models now have been uploaded to ML Lambda. You can find them here - [http://127.0.0.1/models][models]. 
+Your models now have been uploaded to ML Lambda. You can find them here - [http://127.0.0.1/models][models] 
 
-### Creating Application
+### Creating application
 
-Let's go ahead and create an application that can use our models. Open `Applications` page and press `ADD NEW`. 
-
-Stateful LSTM is actually a __Multi-Staged__ application, and consists of the following parts:
+Let's go ahead and create an application that can use our models. Open `Applications` page and press `ADD NEW`. Reproduce the following structure in the `Models` framework and create an application. 
 
 | Stage | Model | Runtime | Description |
 | ----- | ----- | ------- | ----------- |
@@ -109,34 +105,203 @@ Stateful LSTM is actually a __Multi-Staged__ application, and consists of the fo
 | 2 | stateful_lstm | hydrosphere/serving-runtime-tensorflow:1.7:latest | ... |
 | 3 | demo_postprocessing | hydrosphere/serving-runtime-python:3.6:latest | ... |
 
-Reproduce described structure in the `Models` framework and create an application. Set _Application Name_ to `demo_lstm`. ML Lambda will automatically detect and fill models' signatures for you.
+Set _Application Name_ to `demo_lstm`. ML Lambda will automatically detect and fill models' signatures for you.
 
->Note: There's an option to add multiple models to one stage, which might be confusing, because you may include all pipeline steps(pre, lstm, post) into a signle stage. Adding new stage is performed via `ADD NEW STAGE` button.
+>Note: There's an option to add multiple models to one stage, which might be confusing, because you may include all pipeline steps(pre, lstm, post) into a signle stage. Make sure, you've added new steps via `ADD NEW STAGE` button.
 
-### Running Application
+>Note, because we created a __Multi-staged__ application, ML Lambda automatically referred its contract. By default, the name of the signature in that contract is the name of the app. 
 
-After you've created an app you're able to invoke it via different interfaces.
 
-#### Test-request
-
-You can test your application via web-interface. Press `Test` button in the application's page. Test data will be automatically pulled from model's contract. 
-
-#### HTTP-request
-
-Send `POST` request to ML Lambda.
-
->Note, __demo_lstm__ is the name of your newly created application. If you named it differently, adjust request accordingly.
-
-```sh
-$ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
-   "data": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1] 
- }' 'http://localhost:8080/api/v1/applications/serve/1/demo_lstm'
-```
-
-## Running Own Application
+## Uploading own model
 {: #running-own-app}
 
+Because our examples are already configured, there isn't much work to do with them rather than just to upload. In this tutorial we will start from scratch, create a simple linear regression model, configure it, upload to the server, and create an application to run it. 
 
+Create a directory for the model and add `model.py` inside it.
+
+```sh
+$ mkdir model
+$ cd ./model 
+$ touch model.py
+```
+
+### Creating model 
+
+Inside `model.py` we will define our model and train it.
+
+`model.py`
+```python
+import os
+import tensorflow as tf
+
+from keras.models import Sequential
+from keras.layers import Dense
+from sklearn.datasets import make_regression
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import MinMaxScaler
+
+# initialize data
+n_samples = 1000
+X, y = make_regression(n_samples=n_samples, n_features=2, noise=0.5, random_state=112)
+
+scallar_x, scallar_y = MinMaxScaler(), MinMaxScaler()
+scallar_x.fit(X)
+scallar_y.fit(y.reshape(n_samples, 1))
+X = scallar_x.transform(X)
+y = scallar_y.transform(y.reshape(n_samples, 1))
+
+# create a model
+model = Sequential()
+model.add(Dense(4, input_dim=2, activation='relu'))
+model.add(Dense(4, activation='relu'))
+model.add(Dense(1, activation='linear'))
+
+model.compile(loss='mse', optimizer='adam')
+model.fit(X, y, epochs=1000, verbose=0)
+```
+
+There's actually 2 ways on running keras models inside ML Lambda: 
+1. If Keras is used with TensorFlow backend, then it's possible to export `tf.session` and use it inside `hydrosphere/serving-runtime-tensorflow` runtime. 
+2. Otherwize it's possible to use `hydrosphere/serving-runtime-python` runtime and define the work with the model in a python script. 
+
+>Note: For this tutorial we will do second approach, but if you want to get familiar with the first one, you can see this lnik. 
+
+### Creating handler 
+
+For running this model we will use Python Runtime. Internal structure of a model for this runtime should have `src` directory, and contain `func_main.py` file inside it. 
+
+```sh
+$ mkdir src 
+$ cd ./src
+$ touch func_main.py
+```
+
+By default `manager` will put all of the files of our model inside `/model/files/` directory.
+
+`func_main.py`
+```python
+import hydro_serving_grpc as hs
+import numpy as np
+from keras.models import load_model
+
+model = load_model('/model/files/model.h5')
+
+def infer(x):
+    # 1. Prepare data points
+    data = np.array(x.double_val)
+    data = data.reshape(1, x.tensor_shape.dim[0].size)
+
+    # 2. Make prediction
+    result = model.predict(data)
+    y = hs.TensorProto(
+        double_val=result.reshape(len(result)).tolist(),
+        tensor_shape=hs.TensorShapeProto(
+            dim=[hs.TensorShapeProto.Dim(size=1)]),
+        dtype=hs.DT_DOUBLE)
+
+    # 3. Return the result
+    return hs.PredictResponse(outputs={"y": y})
+```
+
+### Defining model 
+
+Because our model will be run inside a raw python container, it won't contain any required dependencies such as `keras` or `tensorflow`. Let's create a `requirements.txt` for that.
+
+`requirements.txt`
+```
+keras==2.2.0
+tensorflow==1.8.0
+numpy==1.13.3
+```
+
+Right now ML Lambda does not understand what our model expects. Let's define `contract.prototxt` and `serving.yaml`. 
+
+`contract.prototxt` describes the data, that will be feed to the model.
+
+```
+signatures {
+    signature_name: "infer"
+    inputs {
+        name: "x"
+        shape: {
+    	    dim: {
+    	        size: 2
+    	    }
+    	}
+    	dtype: DT_DOUBLE
+    }
+    outputs {
+        name: "y"
+        shape: {
+            dim: {
+                size: 1
+            }
+        }
+        dtype: DT_DOUBLE
+    }
+}
+```
+
+`serving.yaml` describes the model itself.
+```yaml
+model:
+  name: "linear_regression"
+  type: "python:3.6"
+  contract: "contract.prototxt"
+  payload:
+    - "src/"
+    - "requirements.txt"
+    - "model.h5"
+```
+
+Overall structure of our model now should look like this:
+
+```sh
+model
+├── contract.prototxt
+├── model.h5
+├── model.py
+├── requirements.txt
+├── serving.yaml
+└── src
+    └── func_main.py
+```
+
+> Note: although, we have `model.py` inside our directory, it won't be uploaded to ML Lambda since we didn't specify it in `serving.yaml`
+
+### Uploading model
+
+Now we're ready to upload our model.
+
+```sh
+$ hs upload
+```
+
+You can open [http://127.0.0.1/models][models] page to see, that your model was uploaded. 
+
+>Note: You can use your models, only when they're fully built and released. That is shown in their Status fields. 
+
+### Creating Applicaion
+
+Open `Applications` page and press `ADD NEW` button. As a runtime select `hydrosphere/serving-runtime-python` runtime and create application. 
+
+## Running Application
+
+After you've created an app you're now able to invoke it via different interfaces.
+
+1. __Test-request__
+
+	You can test your application via web-interface. Press `Test` button in the application's page. Test data will be automatically pulled from model's contract. 
+
+2. __HTTP-request__
+
+	Send `POST` request to ML Lambda.
+
+	```sh
+	$ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
+	   "data": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1] 
+	 }' 'http://localhost:8080/api/v1/applications/serve/1/demo_lstm'
+	```
 
 [docker-install]: https://docs.docker.com/install/
 [docker-hub]: https://hub.docker.com/u/hydrosphere/
