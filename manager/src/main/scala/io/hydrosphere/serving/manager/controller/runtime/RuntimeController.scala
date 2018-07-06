@@ -7,9 +7,8 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
 import io.hydrosphere.serving.manager.controller.GenericController
-import io.hydrosphere.serving.manager.model.db.Runtime
-import io.hydrosphere.serving.manager.service.{ServiceTask, ServiceTaskFailed, ServiceTaskFinished, ServiceTaskRunning}
-import io.hydrosphere.serving.manager.service.runtime.{CreateRuntimeRequest, RuntimeManagementService}
+import io.hydrosphere.serving.manager.model.db.{CreateRuntimeRequest, PullRuntime, Runtime}
+import io.hydrosphere.serving.manager.service.runtime.RuntimeManagementService
 import io.hydrosphere.serving.manager.util.UUIDUtils
 import io.swagger.annotations._
 
@@ -40,14 +39,12 @@ class RuntimeController(
     new ApiImplicitParam(name = "requestId", value = "Request UUID", required = true, dataTypeClass = classOf[UUID], paramType = "path", defaultValue = UUIDUtils.zerosStr)
   ))
   @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "TaskFinished", response = classOf[ServiceTaskFinished[CreateRuntimeRequest, Runtime]]),
-    new ApiResponse(code = 200, message = "TaskRunning", response = classOf[ServiceTaskRunning[CreateRuntimeRequest, Runtime]]),
-    new ApiResponse(code = 200, message = "TaskFailed", response = classOf[ServiceTaskFailed[CreateRuntimeRequest, Runtime]]),
+    new ApiResponse(code = 200, message = "TaskStatus", response = classOf[PullRuntime]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def getStatus = path("api" / "v1" / "runtime" / "status" / JavaUUID) { uuid =>
+  def getStatus = path("api" / "v1" / "runtime" / "status" / LongNumber) { id =>
     get {
-      completeFRes(runtimeManagementService.getCreationStatus(uuid))
+      completeFRes(runtimeManagementService.getPullStatus(id))
     }
   }
 

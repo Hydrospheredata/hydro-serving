@@ -122,6 +122,8 @@ class ModelVersionRepositoryImpl(
       .on({ case (m, rt) => m.modelId === rt.modelId })
       .result
   }.map(mapFromDb)
+
+  override def update(entity: ModelVersion): Future[Int] = ???
 }
 
 object ModelVersionRepositoryImpl {

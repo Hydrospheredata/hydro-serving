@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.service.runtime
 
 import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.manager.model.db.CreateRuntimeRequest
 
 object DefaultRuntimes {
   final val dummies = List(

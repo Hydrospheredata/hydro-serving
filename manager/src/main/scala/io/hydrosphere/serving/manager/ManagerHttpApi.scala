@@ -27,7 +27,6 @@ class ManagerHttpApi(
   managerConfiguration: ManagerConfiguration
 )(
   implicit val system: ActorSystem,
-  implicit val ex: ExecutionContext,
   implicit val materializer: ActorMaterializer
 ) extends Logging {
 

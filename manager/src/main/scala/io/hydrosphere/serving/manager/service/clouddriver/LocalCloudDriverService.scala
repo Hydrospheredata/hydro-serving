@@ -12,7 +12,7 @@ import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEve
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
-import collection.JavaConversions._
+import collection.JavaConverters._
 import scala.util.Try
 import CloudDriverService._
 import io.hydrosphere.serving.manager.util.docker.{DockerClientHelper, InfoProgressHandler}
@@ -63,7 +63,7 @@ class LocalCloudDriverService(
       dockerClient.listContainers(
         ListContainersParam.withLabel(LABEL_HS_SERVICE_MARKER, LABEL_HS_SERVICE_MARKER),
         ListContainersParam.allContainers()
-      ).toSeq
+      ).asScala.toSeq
     )
 
   private def startModel(service: Service): String = {
@@ -121,9 +121,9 @@ class LocalCloudDriverService(
     val c = dockerClient.createContainer(ContainerConfig.builder()
                                            .image(service.runtime.toImageDef)
                                            .exposedPorts(DEFAULT_APP_PORT.toString)
-                                           .labels(javaLabels)
+                                           .labels(javaLabels.asJava)
                                            .hostConfig(builder.build())
-                                           .env(envMap.map { case (k, v) => s"$k=$v" }.toList)
+                                           .env(envMap.map { case (k, v) => s"$k=$v" }.toList.asJava)
                                            .build(), s"s${service.id}app${service.serviceName}")
     dockerClient.startContainer(c.id())
 
@@ -133,24 +133,26 @@ class LocalCloudDriverService(
   }
 
   private def collectCloudService(containers: Seq[Container]): Seq[CloudService] = {
-    val map = containers
-      .groupBy(c => c.labels().get(LABEL_SERVICE_ID))
-    map.entrySet()
-      .filter(p=>{
-        p.getValue.exists(c => {
-          val depType = c.labels().get(CloudDriverService.LABEL_DEPLOYMENT_TYPE)
-          depType == CloudDriverService.DEPLOYMENT_TYPE_APP && c.state() == "running"
-        })
-      })
-      .map(p => {
-        Try(mapToCloudService(
-          p.getKey.toLong,
-          p.getValue.filterNot(c=>{
+    containers
+      .groupBy(_.labels().get(LABEL_SERVICE_ID))
+      .filter {
+        case (_, v) =>
+          v.exists { c =>
             val depType = c.labels().get(CloudDriverService.LABEL_DEPLOYMENT_TYPE)
-            depType == CloudDriverService.DEPLOYMENT_TYPE_APP && c.state() != "running"
-          })
-        ))
-      }).filter(_.isSuccess).map(_.get).toSeq
+            depType == CloudDriverService.DEPLOYMENT_TYPE_APP && c.state() == "running"
+          }
+      }
+      .map {
+        case (k, v) =>
+          Try(mapToCloudService(
+            k.toLong,
+            v.filterNot { c =>
+              val depType = c.labels().get(CloudDriverService.LABEL_DEPLOYMENT_TYPE)
+              depType == CloudDriverService.DEPLOYMENT_TYPE_APP && c.state() != "running"
+            }
+          ))
+      }
+      .filter(_.isSuccess).map(_.get).toSeq
   }
 
   protected def mapMainApplicationInstance(containerApp: Container): MainApplicationInstance =
@@ -159,11 +161,11 @@ class LocalCloudDriverService(
       host = Option(containerApp.networkSettings().networks().get("bridge"))
         .map(_.ipAddress())
         .getOrElse(managerConfiguration.sidecar.host),
-      port = containerApp.ports()
+      port = containerApp.ports().asScala
         .filter(_.privatePort() == DEFAULT_APP_PORT)
         .find(_.publicPort() != null)
         .map(_.publicPort().toInt)
-        .filter(p => p != 0)
+        .filter(_ != 0)
         .getOrElse(DEFAULT_APP_PORT)
     )
 
@@ -277,35 +279,38 @@ class LocalCloudDriverService(
       dockerClient.listContainers(
         ListContainersParam.withLabel(LABEL_SERVICE_ID, serviceId.toString),
         ListContainersParam.allContainers()
-      )
+      ).asScala
     ).headOption.getOrElse(throw new IllegalArgumentException(s"Can't find service with id=$serviceId"))
   }
 
-  override def services(serviceIds: Set[Long]): Future[Seq[CloudService]] = Future.apply({
+  override def services(serviceIds: Set[Long]): Future[Seq[CloudService]] = Future {
     collectCloudService(
       dockerClient.listContainers(
         ListContainersParam.withLabel(LABEL_HS_SERVICE_MARKER, LABEL_HS_SERVICE_MARKER),
         ListContainersParam.allContainers()
-      ).filter(c => {
-        Try(c.labels().get(LABEL_SERVICE_ID).toLong)
-          .map(i => serviceIds.contains(i))
-          .getOrElse(false)
-      })
+      ).asScala
+        .filter { c =>
+          Try(c.labels().get(LABEL_SERVICE_ID).toLong)
+            .map(serviceIds.contains)
+            .getOrElse(false)
+        }
     )
-  })
+  }
 
-  override def removeService(serviceId: Long): Future[Unit] = Future.apply({
+  override def removeService(serviceId: Long): Future[Unit] = Future {
     if (serviceId > 0) {
       dockerClient.listContainers(
         ListContainersParam.withLabel(LABEL_SERVICE_ID, serviceId.toString),
         ListContainersParam.allContainers()
-      ).foreach(s => dockerClient.removeContainer(
-        s.id(),
-        RemoveContainerParam.forceKill(true),
-        RemoveContainerParam.removeVolumes(true)
-      ))
+      ).asScala.foreach { s =>
+        dockerClient.removeContainer(
+          s.id(),
+          RemoveContainerParam.forceKill(true),
+          RemoveContainerParam.removeVolumes(true)
+        )
+      }
     }
-  })
+  }
 
   override def getMetricServiceTargets(): Future[Seq[MetricServiceTargets]] =
     Future.successful(Seq(

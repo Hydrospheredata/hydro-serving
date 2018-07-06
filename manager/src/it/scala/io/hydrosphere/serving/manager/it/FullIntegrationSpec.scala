@@ -5,15 +5,18 @@ import java.nio.file.{Files, Path, Paths}
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
+import cats.data.EitherT
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
 import io.hydrosphere.serving.manager._
-import io.hydrosphere.serving.manager.model.ModelBuildStatus
+import io.hydrosphere.serving.manager.model.HFResult
+import io.hydrosphere.serving.manager.model.Result.HError
 import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service.runtime.DefaultRuntimes
 import io.hydrosphere.serving.manager.util.TarGzUtils
+import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
 import org.scalatest._
 
-import scala.concurrent.Await
+import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
 import scala.io.Source
 import scala.util.{Failure, Success, Try}
@@ -90,25 +93,16 @@ trait FullIntegrationSpec extends DatabaseAccessIT
     temptar
   }
 
-  protected def awaitBuild(modelBuildId: Long)(implicit timeout: Duration): ModelBuild = {
-    var result = Option.empty[ModelBuild]
-
-    while (result.isEmpty) {
-      val buildOptF = managerRepositories.modelBuildRepository.get(modelBuildId)
-      val buildOpt = Await.result(buildOptF, timeout)
-      buildOpt.get.status match {
-        case ModelBuildStatus.FINISHED => result = buildOpt
-        case _ => Unit
-      }
+  protected def eitherAssert(body: => HFResult[Assertion]): Future[Assertion] = {
+    body.map {
+      case Left(err) =>
+        fail(err.message)
+      case Right(asserts) =>
+        asserts
     }
-    assert(result.isDefined)
-    result.get
   }
 
-  protected def awaitVersion(modelBuildId: Long)(implicit timeout: Duration): ModelVersion = {
-    val finishedBuild = awaitBuild(modelBuildId)
-    val versionOpt = finishedBuild.modelVersion
-    assert(versionOpt.isDefined)
-    versionOpt.get
+  protected def eitherTAssert(body: => EitherT[Future, HError, Assertion]): Future[Assertion] = {
+    eitherAssert(body.value)
   }
 }

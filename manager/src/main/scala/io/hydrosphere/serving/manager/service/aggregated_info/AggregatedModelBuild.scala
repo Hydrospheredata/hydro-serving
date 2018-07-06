@@ -2,8 +2,8 @@ package io.hydrosphere.serving.manager.service.aggregated_info
 
 import java.time.LocalDateTime
 
-import io.hydrosphere.serving.manager.model.ModelBuildStatus.ModelBuildStatus
 import io.hydrosphere.serving.manager.model.db.{Application, Model, ModelBuild}
+import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus.ServiceTaskStatus
 
 case class AggregatedModelBuild(
   id: Long,
@@ -11,7 +11,7 @@ case class AggregatedModelBuild(
   version: Long,
   started: LocalDateTime,
   finished: Option[LocalDateTime] = None,
-  status: ModelBuildStatus,
+  status: ServiceTaskStatus,
   statusText: Option[String],
   logsUrl: Option[String],
   modelVersion: Option[AggregatedModelVersion]

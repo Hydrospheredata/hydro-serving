@@ -10,6 +10,8 @@ class ManagerRepositories(config: ManagerConfiguration)(implicit executionContex
 
   val runtimeRepository: RuntimeRepository = new RuntimeRepositoryImpl
 
+  val runtimePullRepository: RuntimePullRepository = new RuntimePullRepositoryImpl
+
   val modelRepository: ModelRepository = new ModelRepositoryImpl
 
   val modelVersionRepository: ModelVersionRepository = new ModelVersionRepositoryImpl

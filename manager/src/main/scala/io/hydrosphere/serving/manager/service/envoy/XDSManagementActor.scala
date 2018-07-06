@@ -7,7 +7,7 @@ import io.hydrosphere.serving.manager.service.envoy.xds._
 import io.hydrosphere.serving.manager.service.internal_events._
 import io.hydrosphere.serving.manager.service.service.ServiceManagementService
 
-import scala.concurrent.{Await, ExecutionContext}
+import scala.concurrent.{Await, ExecutionContext, Future}
 import scala.concurrent.duration._
 
 class XDSManagementActor(
@@ -39,16 +39,12 @@ class XDSManagementActor(
 
   override def receive: Receive = {
     case u: UnsubscribeMsg =>
-      actors.values.foreach(actor => {
-        actor ! u
-      })
+      actors.values.foreach(_ ! u)
     case s: SubscribeMsg =>
-      s.discoveryRequest.node.foreach(_ => {
+      s.discoveryRequest.node.foreach { _ =>
         actors.get(s.discoveryRequest.typeUrl)
-          .fold(log.error(s"Unknown typeUrl: ${s.discoveryRequest}"))(actor =>
-            actor ! s
-          )
-      })
+          .fold(log.error(s"Unknown typeUrl: ${s.discoveryRequest}"))(_ ! s)
+      }
     case app: ApplicationChanged =>
       routeDSActor ! app
       applicationDSActor ! app
@@ -66,37 +62,36 @@ class XDSManagementActor(
   }
 
   override def preStart(): Unit = {
-    val f = {
-      for {
-        f1 <- serviceManagementService.allServices()
-          .map(v => clusterDSActor ! SyncCluster(v.map(_.serviceName).toSet))
-        f2 <- applicationManagementService.allApplications()
-          .map(v => {
-            val m=SyncApplications(v)
-            routeDSActor ! m
-            applicationDSActor ! m
-          })
-        f3 <- cloudDriverService.serviceList()
-          .map(c => endpointDSActor ! RenewEndpoints(mapCloudService(c)))
-      } yield (f1, f2, f3)
-    }
-    Await.result(f, 10 second)
+    val f1 = serviceManagementService.allServices()
+      .map(v => clusterDSActor ! SyncCluster(v.map(_.serviceName).toSet))
+
+    val f2 = applicationManagementService.allApplications()
+      .map { v =>
+        val m = SyncApplications(v)
+        routeDSActor ! m
+        applicationDSActor ! m
+      }
+
+    val f3 = cloudDriverService.serviceList()
+      .map(c => endpointDSActor ! RenewEndpoints(mapCloudService(c)))
+
+    val f = Future.sequence(List(f1,f2,f3))
+    Await.result(f, 30 seconds)
     super.preStart()
   }
 
   private def mapCloudService(c: Seq[CloudService]): Seq[ClusterInfo] =
-    c.map(t => {
+    c.map { t =>
       ClusterInfo(
         name = t.serviceName,
-        endpoints = t.instances.map(i => {
+        endpoints = t.instances.map { i =>
           ClusterEndpoint(
             host = i.mainApplication.host,
             port = i.mainApplication.port,
             advertisedHost = i.advertisedHost,
             advertisedPort = i.advertisedPort
           )
-        }).toSet
+        }.toSet
       )
-    })
-
+    }
 }
