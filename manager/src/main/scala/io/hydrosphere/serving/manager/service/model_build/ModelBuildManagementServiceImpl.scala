@@ -1,22 +1,22 @@
 package io.hydrosphere.serving.manager.service.model_build
 
-import java.time.LocalDateTime
+import java.util.concurrent.Executors
 
 import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.model.Result.Implicits._
 import io.hydrosphere.serving.manager.model.Result.{ClientError, HError}
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
+import io.hydrosphere.serving.manager.model.api.description.ContractDescription
+import io.hydrosphere.serving.manager.model.db.{BuildRequest, Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.repository.ModelBuildRepository
 import io.hydrosphere.serving.manager.service.build_script.BuildScriptManagementService
-import io.hydrosphere.serving.manager.service.model_build.builders._
 import io.hydrosphere.serving.manager.service.model.ModelManagementService
+import io.hydrosphere.serving.manager.service.model_build.builders._
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
+import io.hydrosphere.serving.manager.util.task.ExecFuture
 import org.apache.logging.log4j.scala.Logging
-import Result.Implicits._
-import io.hydrosphere.serving.manager.model.api.description.ContractDescription
-import io.hydrosphere.serving.manager.util.docker.{HistoricProgressHandler, InfoProgressHandler}
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -30,8 +30,14 @@ class ModelBuildManagementServiceImpl(
 )(
   implicit executionContext: ExecutionContext
 ) extends ModelBuildManagmentService with Logging {
+  val buildTaskExecutor = new ModelBuildExecutor(
+    ExecutionContext.fromExecutor(Executors.newFixedThreadPool(4)),
+    modelBuildRepository,
+    modelVersionManagementService,
+    modelBuildService
+  )
 
-  def get(buildId: Long): HFResult[ModelBuild] = {
+  override def get(buildId: Long): HFResult[ModelBuild] = {
     modelBuildRepository.get(buildId).map { maybeBuild =>
       maybeBuild.toHResult(ClientError(s"Can't find build for id=$buildId"))
     }
@@ -43,73 +49,30 @@ class ModelBuildManagementServiceImpl(
   override def lastModelBuildsByModelId(id: Long, maximum: Int): Future[Seq[ModelBuild]] =
     modelBuildRepository.lastByModelId(id, maximum)
 
-  def build(model: Model, modelVersion: Option[Long]): HFResult[ModelBuild] = {
+  def build(model: Model, modelVersion: Option[Long]): HFResult[ExecFuture[BuildRequest, ModelVersion]] = {
     logger.debug(model)
     logger.debug(modelVersion)
     val f = for {
       version <- EitherT(modelVersionManagementService.fetchLastModelVersion(model.id, modelVersion))
       script <- EitherT.liftF(buildScriptManagementService.fetchScriptForModel(model))
-      build = ModelBuild(
-        id = 0,
+      build = BuildRequest(
         model = model,
         version = version,
-        started = LocalDateTime.now(),
-        finished = None,
-        status = ModelBuildStatus.STARTED,
-        statusText = None,
-        logsUrl = None,
-        modelVersion = None
+        script = script
       )
       uniqueBuild <- EitherT(ensureUniqueBuild(build))
-      modelBuild <- EitherT.liftF[Future, HError, ModelBuild](modelBuildRepository.create(uniqueBuild))
     } yield {
-      Future(handleBuild(modelBuild, script))
       logger.debug(build)
-      modelBuild
+      buildTaskExecutor.execute(uniqueBuild)
     }
     f.value
   }
 
-  def handleBuild(modelBuild: ModelBuild, script: String): HFResult[ModelVersion] = {
-    logger.info(s"Building ${modelBuild.model.name} v${modelBuild.version}")
-    logger.debug(modelBuild)
-    val imageName = modelPushService.getImageName(modelBuild)
-    val messageHandler = new HistoricProgressHandler()
-    modelBuildService.build(modelBuild, imageName, script, messageHandler).flatMap {
-      case Left(err) =>
-        logger.error(s"Errors while building ${modelBuild.model.name} v${modelBuild.version}:")
-        logger.error(err)
-        modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.ERROR, err.toString, LocalDateTime.now(), None)
-        Result.errorF(err)
-      case Right(sha256) =>
-        val version = ModelVersion(
-          id = 0,
-          imageName = imageName,
-          imageTag = modelBuild.version.toString,
-          imageSHA256 = sha256,
-          modelName = modelBuild.model.name,
-          modelVersion = modelBuild.version,
-          modelContract = modelBuild.model.modelContract,
-          created = LocalDateTime.now,
-          model = Some(modelBuild.model),
-          modelType = modelBuild.model.modelType
-        )
-        modelVersionManagementService.create(version).map { result =>
-          result.right.map { modelVersion =>
-            modelPushService.push(modelVersion, InfoProgressHandler)
-            modelBuildRepository.finishBuild(modelBuild.id, ModelBuildStatus.FINISHED, "OK", LocalDateTime.now(), Some(modelVersion))
-            logger.info(s"${modelBuild.model.name} v${modelBuild.version} built successfully")
-            modelVersion
-          }
-        }
-    }
-  }
-
-  override def buildModel(buildModelRequest: BuildModelRequest): HFResult[ModelBuild] = {
+  override def buildModel(buildModelRequest: BuildModelRequest): HFResult[ExecFuture[BuildRequest, ModelVersion]] = {
     logger.debug(
       s"modelId=${buildModelRequest.modelId}," +
-      s"flatContract=${buildModelRequest.flatContract}" +
-      s" modelVersion=${buildModelRequest.modelVersion}"
+        s"flatContract=${buildModelRequest.flatContract}" +
+        s" modelVersion=${buildModelRequest.modelVersion}"
     )
     val f = for {
       model <- EitherT(modelManagementService.getModel(buildModelRequest.modelId))
@@ -134,7 +97,7 @@ class ModelBuildManagementServiceImpl(
     modelBuildRepository.lastForModels(ids)
   }
 
-  def uploadAndBuild(modelUpload: ModelUpload): HFResult[ModelBuild] = {
+  def uploadAndBuild(modelUpload: ModelUpload): HFResult[ExecFuture[BuildRequest, ModelVersion]] = {
     val f = for {
       model <- EitherT(modelManagementService.uploadModel(modelUpload))
       version <- EitherT(buildModel(BuildModelRequest(model.id)))
@@ -148,7 +111,7 @@ class ModelBuildManagementServiceImpl(
     * @param modelBuild build to check
     * @return Right if there is no duplicating build. Left otherwise
     */
-  def ensureUniqueBuild(modelBuild: ModelBuild): HFResult[ModelBuild] = {
+  def ensureUniqueBuild(modelBuild: BuildRequest): HFResult[BuildRequest] = {
     modelBuildRepository.getRunningBuild(modelBuild.model.id, modelBuild.version).map {
       case Some(x) => Result.clientError(s"There is already a running build for a model ${x.model.name} version ${x.version}")
       case None => Result.ok(modelBuild)

@@ -3,17 +3,15 @@ package io.hydrosphere.serving.manager.repository.db
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model.ModelBuildStatus.ModelBuildStatus
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.repository._
+import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
+import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus.ServiceTaskStatus
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 
-/**
-  *
-  */
 class ModelBuildRepositoryImpl(
   implicit executionContext: ExecutionContext,
   databaseService: DatabaseService
@@ -34,7 +32,8 @@ class ModelBuildRepositoryImpl(
         finishedTimestamp = entity.finished,
         status = entity.status.toString,
         statusText = entity.statusText,
-        logsUrl = entity.logsUrl
+        logsUrl = entity.logsUrl,
+        script = entity.script
       )
     ).map(s => mapFromDb(s, Some(entity.model), entity.modelVersion))
 
@@ -47,7 +46,7 @@ class ModelBuildRepositoryImpl(
         .joinLeft(Tables.ModelVersion)
         .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
         .result.headOption
-    ).map(m => mapFromDb(m))
+    ).map(mapFromDb)
 
   override def delete(id: Long): Future[Int] =
     db.run(
@@ -64,7 +63,7 @@ class ModelBuildRepositoryImpl(
         .joinLeft(Tables.ModelVersion)
         .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
         .result
-    ).map(s => mapFromDb(s))
+    ).map(mapFromDb)
 
   override def listByModelId(id: Long): Future[Seq[ModelBuild]] =
     db.run(
@@ -88,18 +87,15 @@ class ModelBuildRepositoryImpl(
         .sortBy(_._1._1.startedTimestamp.desc)
         .take(maximum)
         .result
-    ).map(s => mapFromDb(s))
+    ).map(mapFromDb)
 
-  override def finishBuild(id: Long, status: ModelBuildStatus, statusText: String, finished: LocalDateTime,
-    modelRuntime: Option[ModelVersion]): Future[Int] = {
+  def finishBuild(id: Long, status: ServiceTaskStatus, statusText: String, finished: LocalDateTime,
+    modelVersion: Option[ModelVersion]): Future[Int] = {
     val query = for {
       build <- Tables.ModelBuild if build.modelBuildId === id
     } yield (build.status, build.statusText, build.finishedTimestamp, build.modelVersionId)
 
-    db.run(query.update(status.toString, Some(statusText), Some(finished), modelRuntime match {
-      case Some(r) => Some(r.id)
-      case _ => None
-    }))
+    db.run(query.update(status.toString, Some(statusText), Some(finished), modelVersion.map(_.id)))
   }
 
   override def lastForModels(ids: Seq[Long]): Future[Seq[ModelBuild]] =
@@ -125,6 +121,23 @@ class ModelBuildRepositoryImpl(
       .on({ case ((mb, m), mv) => mb.modelVersionId === mv.modelVersionId })
       .result.headOption
   }.map(mapFromDb)
+
+  override def update(entity: ModelBuild): Future[Int] = {
+    val query = for {
+      build <- Tables.ModelBuild if build.modelBuildId === entity.id
+    } yield (
+      build.finishedTimestamp,
+      build.status,
+      build.statusText,
+      build.modelVersionId
+    )
+    db.run(query.update(
+      entity.finished,
+      entity.status.toString,
+      entity.statusText,
+      entity.modelVersion.map(_.id)
+    ))
+  }
 }
 
 object ModelBuildRepositoryImpl {
@@ -158,11 +171,12 @@ object ModelBuildRepositoryImpl {
       model = model.get,
       started = modelBuild.startedTimestamp,
       finished = modelBuild.finishedTimestamp,
-      status = ModelBuildStatus.withName(modelBuild.status),
+      status = ServiceTaskStatus.withName(modelBuild.status),
       statusText = modelBuild.statusText,
       logsUrl = modelBuild.logsUrl,
       version = modelBuild.modelVersion,
-      modelVersion = modelVersion
+      modelVersion = modelVersion,
+      script = modelBuild.script
     )
   }
 }

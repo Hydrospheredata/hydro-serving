@@ -4,12 +4,23 @@ def collectTestResults() {
 
 def checkoutSource(gitCredentialId, organization, repository) {
     withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: gitCredentialId, usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD']]) {
-        git url: "https://github.com/${organization}/${repository}.git", branch: env.BRANCH_NAME, credentialsId: gitCredentialId
+        git url: "https://github.com/${organization}/${repository}.git", credentialsId: gitCredentialId
         sh """
             git config --global push.default simple
             git config --global user.name '${GIT_USERNAME}'
             git config --global user.email '${GIT_USERNAME}'
         """
+        if (env.CHANGE_ID) {
+            sh """
+             git fetch origin +refs/pull/*/head:refs/remotes/origin/pr/*
+             git checkout pr/\$(echo ${env.BRANCH_NAME} | cut -d - -f 2)
+             git merge origin/${env.CHANGE_TARGET}
+       """
+        } else {
+            sh """
+            git checkout ${env.BRANCH_NAME}
+        """
+        }
     }
 }
 
@@ -95,7 +106,6 @@ node("JenkinsOnDemand") {
         }
     }
 
-
     stage('Build') {
         def curVersion = currentVersion()
         sh "sbt -DappVersion=${curVersion} compile docker"
@@ -151,5 +161,4 @@ node("JenkinsOnDemand") {
             }
         }
     }
-
 }

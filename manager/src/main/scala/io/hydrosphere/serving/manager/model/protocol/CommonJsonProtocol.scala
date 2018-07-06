@@ -5,6 +5,7 @@ import java.time.format.DateTimeFormatter
 import java.util.UUID
 
 import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
+import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
 
@@ -62,6 +63,8 @@ trait CommonJsonProtocol extends SprayJsonSupport with DefaultJsonProtocol with 
       case somethingElse => throw DeserializationException(s"Expected a value from enum $enum instead of $somethingElse")
     }
   }
+
+  implicit val serviceTaskStatusFormat = enumFormat(ServiceTaskStatus)
 
   implicit val localDateTimeFormat = new JsonFormat[LocalDateTime] {
     def write(x: LocalDateTime) = JsString(DateTimeFormatter.ISO_DATE_TIME.format(x))

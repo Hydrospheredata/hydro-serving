@@ -2,9 +2,13 @@
 <Configuration monitorInterval="30" status="WARN">
     <Appenders>
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="[%-5level] %c{1.} %C{1.}.%M.%L %msg%n">
+            <PatternLayout pattern="[%d{yyyy-MM-dd HH:mm:ss.SSS}][%level] %c{1.} %C{1.}.%M.%L %msg%n">
             </PatternLayout>
         </Console>
+        <!--<File name="LogFile" fileName="logs/app.log">-->
+            <!--<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] %c{1.} %C{1.}.%M.%L %msg%n">-->
+            <!--</PatternLayout>-->
+        <!--</File>-->
     </Appenders>
     <Loggers>
         <Root level="INFO">

@@ -14,7 +14,7 @@ import io.hydrosphere.serving.manager.service.actors.SelfScheduledActor
 import io.hydrosphere.serving.manager.{ECSCloudDriverConfiguration, ManagerConfiguration}
 import org.apache.logging.log4j.scala.Logging
 
-import scala.collection.JavaConversions._
+import scala.collection.JavaConverters._
 import scala.concurrent.{ExecutionContext, Future}
 import scala.concurrent.duration._
 import spray.json._
@@ -151,7 +151,7 @@ class ECSServiceWatcherActor(
         .map(_._1.cloudService)
 
       services.clear()
-      services.addAll(fetchedServices)
+      services ++= fetchedServices
 
       if (toRemove.nonEmpty) {
         log.debug(s"CloudService removed: $toRemove")
@@ -190,7 +190,7 @@ class ECSServiceWatcherActor(
         .withVPCRegion(VPCRegion.fromValue(ecsCloudDriverConfiguration.region.getName))
       )).getHostedZone
     } else {
-      res.getHostedZones.head
+      res.getHostedZones.asScala.head
     }
   }
 
@@ -202,9 +202,9 @@ class ECSServiceWatcherActor(
     )
 
     if (listResult.getNextRecordName != null) {
-      listResult.getResourceRecordSets ++ fetchAllResourceRecordSets(listResult.getNextRecordName, listResult.getNextRecordType)
+      listResult.getResourceRecordSets.asScala ++ fetchAllResourceRecordSets(listResult.getNextRecordName, listResult.getNextRecordType)
     } else {
-      listResult.getResourceRecordSets
+      listResult.getResourceRecordSets.asScala
     }
   }
 
@@ -215,7 +215,7 @@ class ECSServiceWatcherActor(
       .filter(p => p.getMultiValueAnswer != null && p.getMultiValueAnswer == true)
       .filter(_.getType == RRType.A.name())
       .filter(r => r.getName.equals(managerDomainName))
-      .map(s => s.getResourceRecords.head.getValue -> s)
+      .map(s => s.getResourceRecords.asScala.head.getValue -> s)
       .toMap
 
     val toAdd = ips -- awsNames.keySet
@@ -245,7 +245,7 @@ class ECSServiceWatcherActor(
       route53Client.changeResourceRecordSets(new ChangeResourceRecordSetsRequest()
         .withHostedZoneId(hostedZoneId)
         .withChangeBatch(new ChangeBatch()
-          .withChanges(changes)
+          .withChanges(changes.asJava)
           .withComment("Update manager IPs in DNS")
         )
       )
@@ -310,16 +310,16 @@ class ECSServiceWatcherActor(
           .withContainerPath(DEFAULT_MODEL_DIR)
           .withSourceVolume("model")
         )*/
-        .withDockerLabels(labels)
+        .withDockerLabels(labels.asJava)
     })
 
     val containerDefinition = new ContainerDefinition()
       .withName("mainapp")
       .withImage(service.runtime.toImageDef)
       .withMemoryReservation(ecsCloudDriverConfiguration.memoryReservation)
-      .withEnvironment(env)
-      .withDockerLabels(labels)
-      .withPortMappings(portMappings)
+      .withEnvironment(env.asJava)
+      .withDockerLabels(labels.asJava)
+      .withPortMappings(portMappings.asJava)
 
     modelContainerDefinition.map(cd => {
       containerDefinition.withVolumesFrom(new VolumeFrom()
@@ -331,7 +331,7 @@ class ECSServiceWatcherActor(
     ecsCloudDriverConfiguration.loggingConfiguration.map(x => {
       containerDefinition.withLogConfiguration(new LogConfiguration()
         .withLogDriver(LogDriver.fromValue(x.driver))
-        .withOptions(x.params))
+        .withOptions(x.params.asJava))
     })
 
     val registerTaskDefinition = new RegisterTaskDefinitionRequest()
@@ -354,7 +354,7 @@ class ECSServiceWatcherActor(
         new TaskDefinitionPlacementConstraint()
           .withType(getField(jsObject, "type"))
           .withExpression(getField(jsObject, "expression"))
-      }))
+      }).asJava)
     })
 
     ecsClient.registerTaskDefinition(registerTaskDefinition)
@@ -399,11 +399,11 @@ class ECSServiceWatcherActor(
     .flatMap(ids => {
       val desc = ecs2Client.describeInstances(
         new DescribeInstancesRequest()
-          .withInstanceIds(ids)
+          .withInstanceIds(ids.asJava)
       )
 
-      desc.getReservations.map(r => {
-        r.getInstances.map(i => {
+      desc.getReservations.asScala.map(r => {
+        r.getInstances.asScala.map(i => {
           i.getInstanceId -> i.getPrivateIpAddress
         })
       })
@@ -429,7 +429,7 @@ class ECSServiceWatcherActor(
       throw new RuntimeException(desc.getFailures.toString)
     }
 
-    val result = desc.getContainerInstances.map(c => {
+    val result = desc.getContainerInstances.asScala.map(c => {
       c.getEc2InstanceId -> c.getContainerInstanceArn
     }).toMap
 
@@ -464,9 +464,9 @@ class ECSServiceWatcherActor(
     }
 
     if (listResult.getNextToken != null) {
-      desc.getServices ++ fetchAllServices(listResult.getNextToken)
+      desc.getServices.asScala ++ fetchAllServices(listResult.getNextToken)
     } else {
-      desc.getServices
+      desc.getServices.asScala
     }
   }
 
@@ -487,9 +487,9 @@ class ECSServiceWatcherActor(
     }
 
     if (listResult.getNextToken != null) {
-      desc.getTasks ++ fetchAllTasks(listResult.getNextToken)
+      desc.getTasks.asScala ++ fetchAllTasks(listResult.getNextToken)
     } else {
-      desc.getTasks
+      desc.getTasks.asScala
     }
   }
 
@@ -546,6 +546,7 @@ class ECSServiceWatcherActor(
       })
       .filter(t => t.taskDefinition.get
         .getContainerDefinitions
+        .asScala
         .exists(cd => {
           cd.getDockerLabels != null && cd.getDockerLabels.containsKey(LABEL_HS_SERVICE_MARKER)
         })
@@ -556,13 +557,14 @@ class ECSServiceWatcherActor(
     .map(t => (t,
       t.taskDefinition.flatMap(
         _.getContainerDefinitions
+          .asScala
           .find(
             _.getDockerLabels.get(CloudDriverService.LABEL_DEPLOYMENT_TYPE) == CloudDriverService.DEPLOYMENT_TYPE_SIDECAR)
       )))
     .filter(_._2.nonEmpty)
     .map(t => (t._1,
       t._2.flatMap(cd => {
-        t._1.task.getContainers
+        t._1.task.getContainers.asScala
           .find(c => c.getName == cd.getName)
       })
     ))
@@ -570,6 +572,7 @@ class ECSServiceWatcherActor(
     .map(t => {
       val info = t._1.instanceInfo.get
       val bindings = t._2.get.getNetworkBindings
+        .asScala
         .map(c => c.getContainerPort.toInt -> c.getHostPort.toInt)
         .toMap
 
@@ -586,11 +589,13 @@ class ECSServiceWatcherActor(
     .map(t => (t,
       t.taskDefinition.flatMap(
         _.getContainerDefinitions
+          .asScala
           .find(
             _.getDockerLabels.get(CloudDriverService.LABEL_DEPLOYMENT_TYPE) == CloudDriverService.DEPLOYMENT_TYPE_APP)
       ),
       t.taskDefinition.flatMap(
         _.getContainerDefinitions
+          .asScala
           .find(
             _.getDockerLabels.get(CloudDriverService.LABEL_DEPLOYMENT_TYPE) == CloudDriverService.DEPLOYMENT_TYPE_MODEL)
       )
@@ -601,11 +606,13 @@ class ECSServiceWatcherActor(
       t._2,
       t._2.flatMap(cd => {
         t._1.task.getContainers
+          .asScala
           .find(c => c.getName == cd.getName)
       }),
       t._3,
       t._3.flatMap(cd => {
         t._1.task.getContainers
+          .asScala
           .find(c => c.getName == cd.getName)
       })
     ))
@@ -668,7 +675,7 @@ class ECSServiceWatcherActor(
         instances = apps.map(info => {
           val insInfo = info.task.instanceInfo.get
           val ports = info.appContainer.get
-            .getNetworkBindings.map(s => s.getContainerPort.toInt -> s.getHostPort.toInt)
+            .getNetworkBindings.asScala.map(s => s.getContainerPort.toInt -> s.getHostPort.toInt)
             .toMap
 
           val curSidecar = hostToSidecar.getOrElse(insInfo.ip, sidecars.head)

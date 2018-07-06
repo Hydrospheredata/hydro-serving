@@ -11,7 +11,7 @@ import io.hydrosphere.serving.manager.service.source.fetchers.spark.mappers.Spar
 import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import org.apache.logging.log4j.scala.Logging
 
-import scala.collection.JavaConversions._
+import scala.collection.JavaConverters._
 
 
 object SparkModelFetcher extends ModelFetcher with Logging {
@@ -25,7 +25,7 @@ object SparkModelFetcher extends ModelFetcher with Logging {
         logger.debug(s"'$model/metadata/part-00000' in '${source.sourceDef.name}' doesn't exist")
         Result.error(error)
       case Right(metaFile) =>
-        val metaStr = Files.readAllLines(metaFile.toPath).mkString
+        val metaStr = Files.readAllLines(metaFile.toPath).asScala.mkString
         Result.ok(SparkModelMetadata.fromJson(metaStr))
     }
   }
@@ -83,13 +83,14 @@ object SparkModelFetcher extends ModelFetcher with Logging {
     val inputSchema = if (allLabels.isEmpty) {
       (allIns -- allOuts.keys).map { case (_, y) => y }.toList
     } else {
-      val trainInputs = stagesMetadata.filter { stage =>
-        val mapper = SparkMlTypeMapper(stage)
-        val outs = mapper.outputSchema
-        outs.map(x => x.name -> x).toMap.keys.containsAll(allLabels)
-      }.map { stage =>
-        SparkMlTypeMapper(stage).inputSchema
-      }
+      val trainInputs = stagesMetadata
+        .filter { stage =>
+          val mapper = SparkMlTypeMapper(stage)
+          mapper.outputSchema.map(_.name).containsSlice(allLabels)
+        }
+        .map { stage =>
+          SparkMlTypeMapper(stage).inputSchema
+        }
       val allTrains = trainInputs.flatten.map(x => x.name -> x).toMap
       (allIns -- allOuts.keys -- allTrains.keys).map { case (_, y) => y }.toList
     }

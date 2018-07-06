@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.controller.model
 
 import java.nio.file.{Files, StandardOpenOption}
+import java.util.UUID
 
 import javax.ws.rs.Path
 import akka.actor.ActorSystem
@@ -9,15 +10,20 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
+import cats.data.EitherT
+import cats.implicits._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.controller.{GenericController, ServingDataDirectives}
+import io.hydrosphere.serving.manager.model.Result.HError
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.description.ContractDescription
-import io.hydrosphere.serving.manager.model.db.{Model, ModelBuild, ModelVersion}
+import io.hydrosphere.serving.manager.model.db.{BuildRequest, Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedModelInfo}
 import io.hydrosphere.serving.manager.service.model.{CreateModelRequest, ModelManagementService, UpdateModelRequest}
 import io.hydrosphere.serving.manager.service.model_build.ModelBuildManagmentService
 import io.hydrosphere.serving.manager.service.model_version.{CreateModelVersionRequest, ModelVersionManagementService}
+import io.hydrosphere.serving.manager.util.UUIDUtils
+import io.hydrosphere.serving.manager.util.task.ServiceTask
 import io.swagger.annotations._
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -31,11 +37,11 @@ class ModelController(
   modelBuildManagementService: ModelBuildManagmentService,
   modelVersionManagementService: ModelVersionManagementService
 )(
-  implicit system: ActorSystem,
-  materializer: ActorMaterializer,
-  executionContext: ExecutionContext
+  implicit val system: ActorSystem,
+  val materializer: ActorMaterializer,
 )
   extends GenericController with ServingDataDirectives {
+  implicit val ec = system.dispatcher
   implicit val timeout = Timeout(10.minutes)
 
   @Path("/")
@@ -138,7 +144,12 @@ class ModelController(
           }
         }
 
-        completeFRes(uploadModel(entities))
+        val taskStatus = for {
+          taskResponse <- EitherT(uploadModel(entities))
+          taskStatus <- EitherT.liftF[Future, HError, ServiceTask[BuildRequest, ModelVersion]](taskResponse.taskStatus)
+        } yield ModelBuild.fromBuildTask(taskStatus)
+
+        completeFRes(taskStatus.value)
       }
     }
   }
@@ -400,7 +411,23 @@ class ModelController(
     }
   }
 
+  @Path("/build/{id}")
+  @ApiOperation(value = "Get build status", notes = "", nickname = "buildStatus", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "id", value = "Request UUID", required = true, dataTypeClass = classOf[UUID], paramType = "path", defaultValue = UUIDUtils.zerosStr)
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ModelBuild", response = classOf[ModelBuild]),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def buildStatus = path("api" / "v1" / "model" / "build" / LongNumber) { id =>
+    get {
+      complete(modelBuildManagementService.get(id))
+    }
+  }
+
   val routes: Route = listModels ~ getModel ~ updateModel ~ uploadModel ~ listModelBuildsByModel ~ lastModelBuilds ~
     generatePayloadByModelId ~ submitTextContract ~ submitBinaryContract ~ submitFlatContract ~ generateInputsForVersion ~
-    lastModelVersions ~ addModelVersion ~ allModelVersions ~ modelContractDescription ~ versionContractDescription ~ deleteModel
+    lastModelVersions ~ addModelVersion ~ allModelVersions ~ modelContractDescription ~ versionContractDescription ~
+    deleteModel ~ buildStatus
 }

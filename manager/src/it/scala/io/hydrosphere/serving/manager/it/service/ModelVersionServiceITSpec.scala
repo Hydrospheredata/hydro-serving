@@ -4,6 +4,7 @@ import cats.data.EitherT
 import cats.instances.all._
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.it.FullIntegrationSpec
+import io.hydrosphere.serving.manager.model.Result.HError
 import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.service.model_build.BuildModelRequest
 import org.scalatest.BeforeAndAfterAll
@@ -38,18 +39,16 @@ class ModelVersionServiceITSpec extends FullIntegrationSpec with BeforeAndAfterA
       }
 
       "model was already build" in {
-        for {
-          r1 <- managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(dummy_1.id))
-          cr1 = awaitVersion(r1.right.get.id)
-          r2 <- managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(dummy_2.id))
-          cr2 = awaitVersion(r2.right.get.id)
-          modelInfo <- managerServices.aggregatedInfoUtilityService.getModelAggregatedInfo(dummy_1.id)
-        } yield {
-          assert(r1.isRight, r1)
-          assert(r2.isRight, r2)
-          assert(modelInfo.isRight, modelInfo)
-          val model = modelInfo.right.get
-          assert(model.nextVersion.isEmpty)
+        eitherTAssert {
+          for {
+            r1 <- EitherT(managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(dummy_1.id)))
+            _ <- EitherT.liftF(r1.future)
+            r2 <- EitherT(managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(dummy_2.id)))
+            _ <- EitherT.liftF(r2.future)
+            modelInfo <- EitherT(managerServices.aggregatedInfoUtilityService.getModelAggregatedInfo(dummy_1.id))
+          } yield {
+            assert(modelInfo.nextVersion.isEmpty)
+          }
         }
       }
 

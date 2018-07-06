@@ -49,6 +49,8 @@ class EnvironmentRepositoryImpl(implicit executionContext: ExecutionContext, dat
       Tables.Environment
         .result
     ).map(s => s.map(mapFromDb))
+
+  override def update(entity: Environment): Future[Int] = ???
 }
 
 object EnvironmentRepositoryImpl {

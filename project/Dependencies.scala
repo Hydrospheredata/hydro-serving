@@ -67,7 +67,7 @@ object Dependencies {
     "org.apache.logging.log4j" % "log4j-api" % log4j2Version,
     "org.apache.logging.log4j" % "log4j-core" % log4j2Version,
     "org.apache.logging.log4j" % "log4j-slf4j-impl" % log4j2Version,
-    "org.apache.logging.log4j" %% "log4j-api-scala" % log4j2Version
+    "org.apache.logging.log4j" %% "log4j-api-scala" % "11.0"
   )
 
   lazy val codegenDependencies = Seq(
