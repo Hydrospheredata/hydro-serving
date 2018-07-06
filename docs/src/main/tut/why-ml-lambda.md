@@ -1,8 +1,8 @@
 ---
 layout: docs
 title:  "Why ML Lambda?"
-date:   2018-06-15
 permalink: 'why-ml-lambda.html'
+position: 2
 ---
 
 

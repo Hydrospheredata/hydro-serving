@@ -1,8 +1,8 @@
 ---
 layout: docs
 title:  "Runtimes"
-date:   2018-06-15
 permalink: 'runtimes.html'
+position: 7
 ---
 
 __Runtime__ is a service with the predefined infrastructure. It must implement a set if specific methods that are used by _Manager_. It runs in the docker environment and is responsible for running user-defined models. When you create a new application and assign a model to it, you also have to provide a specific runtime, which will be used to run the model. 

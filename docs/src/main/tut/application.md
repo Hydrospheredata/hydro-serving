@@ -1,8 +1,8 @@
 ---
 layout: docs
 title:  "Applications"
-date:   2018-06-15
 permalink: 'application.html'
+position: 6
 ---
 
 __Application__ is a publicly available endpoint to reach your models. It allows you to use your most recent deployed production models via HTTP-requests, or configure is a part of Kafka streams. 
@@ -21,8 +21,8 @@ Open ML Lambda interface, go to the _Applications_ page and click _Add New_ butt
 | 3 | Models | Framework, containing all models, used by applicaiton. |
 | 4 | Stage_1 | Stage of the pipeline. |
 | 5 | Model Selection | Model selection field. |
-| 6 | Runtime | [Runtime]({{site.baseurl}}{%link 2018-06-15-runtime.md%}) selection field. |
-| 7 | Signature | Field for describing which signature is going to be used from the ones, defined in the [contract]({{site.baseurl}}{%link 2018-06-15-contract.md%}) of the model. |
+| 6 | Runtime | [Runtime]({{site.baseurl}}{%link runtime.md%}) selection field. |
+| 7 | Signature | Field for describing which signature is going to be used from the ones, defined in the [contract]({{site.baseurl}}{%link contract.md%}) of the model. |
 | 8 | Weight | The field, describing how much traffic model will receive with respect to other models inside the stage. |
 | 9 | Add model versions | Option for adding additional models to the stage. |
 | 10 | Add New Stage | Button for creating additional stages for application. |

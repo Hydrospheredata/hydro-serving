@@ -1,8 +1,8 @@
 ---
 layout: docs
 title:  "Getting Started"
-date:   2018-06-15
 permalink: 'getting-started.html'
+position: 3
 ---
 
 This document presents a quick way to set everything up and deploy your first model.
@@ -108,7 +108,7 @@ ML Lambda will automatically detect and fill models' signatures for you.
 
 When creating an application, ML Lambda will automatically infer contract for it as well as for models. If it's a _Single-staged_ application, it will look up model's signatures and take one from there, if it's a _Multi-staged_ application, it will create a signature with `signature_name` equal to the application's name.
 
-Invoking applications described in a section [below]({{site.baseurl}}{%link 2018-06-15-getting-started.md%}#invoking-applications).
+Invoking applications described in a section [below]({{site.baseurl}}{%link getting-started.md%}#invoking-applications).
 
 ## Uploading own model
 {: #upploading-own-model}
@@ -286,7 +286,7 @@ You can open [http://127.0.0.1/models][models] page to see uploaded model.
 
 ### Creating Applicaion
 
-Open _Applications_ page and press _Add New_ button. As a runtime select `hydrosphere/serving-runtime-python` runtime and create application. Now you can [invoke]({{site.baseurl}}{%link 2018-06-15-getting-started.md%}#running-applications) your app.
+Open _Applications_ page and press _Add New_ button. As a runtime select `hydrosphere/serving-runtime-python` runtime and create application. Now you can [invoke]({{site.baseurl}}{%link getting-started.md%}#running-applications) your app.
 
 ## Invoking Applications
 {: #invoking-applications}
@@ -301,7 +301,7 @@ Invoking applications is available via different interfaces.
 
 	Send `POST` request to ML Lambda.
 
-    * [demo_lstm]({{site.baseurl}}{%link 2018-06-15-getting-started.md%}#uploading-demo)
+    * [demo_lstm]({{site.baseurl}}{%link getting-started.md%}#uploading-demo)
 
         ```sh
         $ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
@@ -309,7 +309,7 @@ Invoking applications is available via different interfaces.
         }' 'http://localhost:8080/api/v1/applications/serve/{application_id}/demo_lstm'
         ```
 
-    * [linear_regression]({{site.baseurl}}{%link 2018-06-15-getting-started.md%}#upploading-own-model)
+    * [linear_regression]({{site.baseurl}}{%link getting-started.md%}#upploading-own-model)
 
         ```sh
         $ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{

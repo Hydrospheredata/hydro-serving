@@ -1,8 +1,8 @@
 ---
 layout: docs
 title:  "Contracts"
-date:   2018-06-15
 permalink: 'contract.html'
+position: 5
 ---
 
 To let ML Lambda understand your models you should use __contracts__. Contract is a concept that allows you to describe a model itself, it's inputs and outputs. When it's possible ML Lambda can interpretate model without you providing any additional information, although not all frameworks allow that (some of them do not provide required metadata). In that case you would have to describe model by yourself (i.e. write a `contract.prototxt` and `serving.yaml` for the model).
