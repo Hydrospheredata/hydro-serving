@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title:  "Applications"
 date:   2018-06-15
 permalink: 'application.html'
@@ -11,7 +11,7 @@ __Application__ is a publicly available endpoint to reach your models. It allows
 
 Open ML Lambda interface, go to the _Applications_ page and click _Add New_ button. In the opened window you'll see basic configurations of the application. 
 
-![]({{site.baseurl}}{%link /assets/create-application-empty.png%})
+![]({{site.baseurl}}{%link /img/create-application-empty.png%})
 <sup>__Pic. 1__: Application's configurations.</sup>
 
 | # | Element | Definition |
@@ -21,8 +21,8 @@ Open ML Lambda interface, go to the _Applications_ page and click _Add New_ butt
 | 3 | Models | Framework, containing all models, used by applicaiton. |
 | 4 | Stage_1 | Stage of the pipeline. |
 | 5 | Model Selection | Model selection field. |
-| 6 | Runtime | [Runtime]({{site.baseurl}}{%link _posts/2018-06-15-runtime.md%}) selection field. |
-| 7 | Signature | Field for describing which signature is going to be used from the ones, defined in the [contract]({{site.baseurl}}{%link _posts/2018-06-15-contract.md%}) of the model. |
+| 6 | Runtime | [Runtime]({{site.baseurl}}{%link 2018-06-15-runtime.md%}) selection field. |
+| 7 | Signature | Field for describing which signature is going to be used from the ones, defined in the [contract]({{site.baseurl}}{%link 2018-06-15-contract.md%}) of the model. |
 | 8 | Weight | The field, describing how much traffic model will receive with respect to other models inside the stage. |
 | 9 | Add model versions | Option for adding additional models to the stage. |
 | 10 | Add New Stage | Button for creating additional stages for application. |
@@ -39,7 +39,7 @@ When configuring applications, you have 2 options:
 ## Test-request
 When you have just created an application and want to test it's performance, you can run it from the web-interface. Go to `Applications`, open desired app in the sidebar, press `Test` button.
 
-![]({{site.baseurl}}{%link /assets/ui-test-button.png%})
+![]({{site.baseurl}}{%link /img/ui-test-button.png%})
 <sup>__Pic. 2__: Testing application.</sup>
 
 ## HTTP-request

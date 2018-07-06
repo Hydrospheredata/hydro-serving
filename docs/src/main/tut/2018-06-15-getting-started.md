@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title:  "Getting Started"
 date:   2018-06-15
 permalink: 'getting-started.html'
@@ -107,7 +107,7 @@ Set _Application Name_ to `demo_lstm`. ML Lambda will automatically detect and f
 
 >Note, because we created a __Multi-staged__ application, ML Lambda automatically referred its contract. By default, the name of the signature in that contract is the name of the app. 
 
-Invoking applications described in a section [below]({{site.baseurl}}{%link _posts/2018-06-15-getting-started.md%}#invoking-applications).
+Invoking applications described in a section [below]({{site.baseurl}}{%link 2018-06-15-getting-started.md%}#invoking-applications).
 
 ## Uploading own model
 {: #upploading-own-model}
@@ -282,7 +282,7 @@ You can open [http://127.0.0.1/models][models] page to see uploaded model.
 
 ### Creating Applicaion
 
-Open `Applications` page and press `ADD NEW` button. As a runtime select `hydrosphere/serving-runtime-python` runtime and create application. Now you can [invoke]({{site.baseurl}}{%link _posts/2018-06-15-getting-started.md%}#running-applications) your app.
+Open `Applications` page and press `ADD NEW` button. As a runtime select `hydrosphere/serving-runtime-python` runtime and create application. Now you can [invoke]({{site.baseurl}}{%link 2018-06-15-getting-started.md%}#running-applications) your app.
 
 ## Invoking Applications
 {: #invoking-applications}

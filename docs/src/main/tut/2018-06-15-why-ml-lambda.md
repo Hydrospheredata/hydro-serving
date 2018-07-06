@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: docs
 title:  "Why ML Lambda?"
 date:   2018-06-15
 permalink: 'why-ml-lambda.html'
@@ -14,17 +14,17 @@ Although this might be a solution, it will greatly reduce configuration/deployme
 
 1. Assume you have to build up a natural language processing pipeline that takes JSON-file as an input from a web application, extracts simple feautres, classifies them into particular category, then, for that particular category, picks a pre-trained neural network, applies it and returns the output. 
 
-	![]({{site.baseurl}}{%link /assets/example-nlp-pipeline.png%})
+	![]({{site.baseurl}}{%link /img/example-nlp-pipeline.png%})
 	<sup>__Pic. 1__: Example NLP pipeline.</sup>
 
 2. Now imagine you've decided to optimize your pipeline and embedded word2vec as first two layers in a new NN. To analyze the performance of the new solution you've decided to split your traffic and let 10% of the traffic flow through your new NN. Your production experiment now should look like the following. 
 
-	![]({{site.baseurl}}{%link /assets/example-nlp-pipeline-modified.png%})
+	![]({{site.baseurl}}{%link /img/example-nlp-pipeline-modified.png%})
 	<sup>__Pic. 2__: Example NLP pipeline. Modified NN.</sup>
 
 3. Another amazing idea came to your mind and you've decided to transform your serving pipeline to work in a streaming context (i.e. deploy a prediction pipeline into Apache Kafka).
 	
-	![]({{site.baseurl}}{%link /assets/example-nlp-pipeline-modified-2.png%})
+	![]({{site.baseurl}}{%link /img/example-nlp-pipeline-modified-2.png%})
 	<sup>__Pic. 3__: Example NLP pipeline. Inserted in the Kafka streaming context.</sup>
 
 Have you already imagined the whole architecture in your mind? How many hours would you spend on configuring this? 10 hours? 20? 100? There's an option to ask engineers to re-implement it in Java/Spark which can take a couple more months and an unpredictable outcome. But there's a much simplier way. 
