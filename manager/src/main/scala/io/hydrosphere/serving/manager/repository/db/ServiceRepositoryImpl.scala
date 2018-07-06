@@ -194,6 +194,8 @@ class ServiceRepositoryImpl(
       })
     })
   }
+
+  override def update(entity: Service): Future[Int] = ???
 }
 
 object ServiceRepositoryImpl {

@@ -13,7 +13,7 @@ import io.hydrosphere.serving.tensorflow.types.DataType
 import org.apache.logging.log4j.scala.Logging
 import org.tensorflow.framework.{SavedModel, SignatureDef, TensorInfo}
 
-import scala.collection.JavaConversions._
+import scala.collection.JavaConverters._
 
 object TensorflowModelFetcher extends ModelFetcher with Logging {
 
@@ -24,11 +24,12 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
         None
       case Right(pbFile) =>
         val savedModel = SavedModel.parseFrom(Files.newInputStream(pbFile.toPath))
-        val version = savedModel.getMetaGraphsList.headOption.map(_.getMetaInfoDef.getTensorflowVersion).getOrElse("unknown")
+        val version = savedModel.getMetaGraphsList.asScala.headOption.map(_.getMetaInfoDef.getTensorflowVersion).getOrElse("unknown")
         val signatures = savedModel
           .getMetaGraphsList
+          .asScala
           .flatMap { metagraph =>
-            metagraph.getSignatureDefMap.map(convertSignature).toList
+            metagraph.getSignatureDefMap.asScala.map(convertSignature).toList
           }
 
         Some(
@@ -47,7 +48,7 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
   private def convertTensor(tensorInfo: TensorInfo): FieldInfo = {
     val shape = if (tensorInfo.hasTensorShape) {
       val tShape = tensorInfo.getTensorShape
-      Some(TensorShapeProto(tShape.getDimList.map(x => TensorShapeProto.Dim(x.getSize, x.getName)), tShape.getUnknownRank))
+      Some(TensorShapeProto(tShape.getDimList.asScala.map(x => TensorShapeProto.Dim(x.getSize, x.getName)), tShape.getUnknownRank))
     } else None
     val convertedDtype = DataType.fromValue(tensorInfo.getDtypeValue)
     FieldInfo(convertedDtype, TensorShape(shape))
@@ -68,8 +69,8 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
   private def convertSignature(signatureKV: (String, SignatureDef)): ModelSignature = {
     ModelSignature(
       signatureName = signatureKV._1,
-      inputs = convertTensorMap(signatureKV._2.getInputsMap.toMap),
-      outputs = convertTensorMap(signatureKV._2.getOutputsMap.toMap)
+      inputs = convertTensorMap(signatureKV._2.getInputsMap.asScala.toMap),
+      outputs = convertTensorMap(signatureKV._2.getOutputsMap.asScala.toMap)
     )
   }
 }

@@ -4,7 +4,7 @@ import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.GenericUnitTest
-import io.hydrosphere.serving.manager.model.{ModelBuildStatus, Result}
+import io.hydrosphere.serving.manager.model.Result
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.service.aggregated_info.AggregatedInfoUtilityServiceImpl
@@ -12,6 +12,7 @@ import io.hydrosphere.serving.manager.service.application.ApplicationManagementS
 import io.hydrosphere.serving.manager.service.model.ModelManagementService
 import io.hydrosphere.serving.manager.service.model_build.ModelBuildManagmentService
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
+import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
 import org.mockito.{Matchers, Mockito}
 
 import scala.concurrent.Future
@@ -64,7 +65,7 @@ class AggregatedInfoServiceSpec extends GenericUnitTest {
       val unbuiltModel = Model(2, "model2", ModelType.Tensorflow("1.1.0"), None, ModelContract.defaultInstance, createdTime, createdTime)
       val builtModel = Model(1, "model1", ModelType.Tensorflow("1.1.0"), None, ModelContract.defaultInstance, createdTime, createdTime)
       val mVersion = ModelVersion(1, "image", "tag", "sha256", createdTime, builtModel.name, 1, ModelType.Tensorflow("1.1.0"), Some(builtModel), builtModel.modelContract)
-      val mBuild = ModelBuild(1, builtModel, 1, createdTime, Some(LocalDateTime.now()), ModelBuildStatus.FINISHED, None, None, Some(mVersion))
+      val mBuild = ModelBuild(1, builtModel, 1, createdTime, Some(LocalDateTime.now()), ServiceTaskStatus.Finished, None, None, Some(mVersion), "")
 
       val models = Seq(builtModel, unbuiltModel)
 
@@ -134,7 +135,7 @@ class AggregatedInfoServiceSpec extends GenericUnitTest {
       it("succeeds when model doesn't have versions in applications") {
         val model = Model(1, "model", ModelType.Tensorflow("1.1.0"), None, ModelContract.defaultInstance, LocalDateTime.now(), LocalDateTime.now())
         val version = ModelVersion(1, "image", "tag", "sha256", LocalDateTime.now(), "model", 1, ModelType.Tensorflow("1.1.0"), Some(model), ModelContract.defaultInstance)
-        val build = ModelBuild(1, model, 1, LocalDateTime.now(), Some(LocalDateTime.now()), ModelBuildStatus.FINISHED, None, None, Some(version))
+        val build = ModelBuild(1, model, 1, LocalDateTime.now(), Some(LocalDateTime.now()), ServiceTaskStatus.Finished, None, None, Some(version), "")
 
         val modelMock = mock[ModelManagementService]
         when(modelMock.getModel(1)).thenReturn(Result.okF(model))

@@ -10,7 +10,7 @@ import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import io.hydrosphere.serving.manager.service.source.storages.local._
 import org.apache.logging.log4j.scala.Logging
 
-import scala.collection.JavaConversions._
+import scala.collection.JavaConverters._
 
 class S3ModelStorage(val sourceDef: S3ModelStorageDefinition) extends ModelStorage with Logging {
   private[this] val lf = Files.createTempDirectory(sourceDef.name)
@@ -26,6 +26,7 @@ class S3ModelStorage(val sourceDef: S3ModelStorageDefinition) extends ModelStora
     val subdirs = client
       .listObjects(sourceDef.bucket)
       .getObjectSummaries
+      .asScala
       .map(_.getKey)
       .filter(_.startsWith(path))
       .map(_.split(path).last.split("/"))
@@ -41,6 +42,7 @@ class S3ModelStorage(val sourceDef: S3ModelStorageDefinition) extends ModelStora
     val modelKeys = client
       .listObjects(sourceDef.bucket, folder)
       .getObjectSummaries
+      .asScala
       .map(_.getKey)
       .filterNot(_.endsWith("/"))
     logger.debug(s"modelKeys=$modelKeys")
@@ -58,7 +60,7 @@ class S3ModelStorage(val sourceDef: S3ModelStorageDefinition) extends ModelStora
     logger.debug(s"getReadableFile: $path")
     if (client.doesObjectExist(sourceDef.bucket, path)) {
       downloadObject(path.toString)
-    } else if (client.listObjects(sourceDef.bucket, path).getObjectSummaries.nonEmpty) {
+    } else if (client.listObjects(sourceDef.bucket, path).getObjectSummaries.asScala.nonEmpty) {
       downloadPrefix(path)
     } else {
       Result.clientError(s"File $path doesn't exist in ${sourceDef.name}")
@@ -69,7 +71,7 @@ class S3ModelStorage(val sourceDef: S3ModelStorageDefinition) extends ModelStora
     if (client.doesObjectExist(sourceDef.bucket, path)) {
       true
     } else {
-      client.listObjects(sourceDef.bucket, path).getObjectSummaries.nonEmpty
+      client.listObjects(sourceDef.bucket, path).getObjectSummaries.asScala.nonEmpty
     }
   }
 
@@ -87,7 +89,7 @@ class S3ModelStorage(val sourceDef: S3ModelStorageDefinition) extends ModelStora
   private def downloadPrefix(prefix: String): HResult[File] = {
     logger.debug(s"downloadPrefix: $prefix")
     val objects = client.listObjects(sourceDef.bucket, prefix)
-    if (objects.getObjectSummaries.nonEmpty) {
+    if (objects.getObjectSummaries.asScala.nonEmpty) {
       val folderStructure = lf.resolve(prefix)
 
       if (Files.isRegularFile(folderStructure)) { // FIX sometimes s3 puts the entire folder

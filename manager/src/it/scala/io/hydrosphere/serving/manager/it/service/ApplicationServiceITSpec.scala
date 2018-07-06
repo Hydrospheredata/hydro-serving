@@ -9,7 +9,7 @@ import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.service.model_build.BuildModelRequest
 import org.scalatest.BeforeAndAfterAll
 
-import scala.concurrent.{Await, Future}
+import scala.concurrent.{Await}
 import scala.concurrent.duration._
 
 class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
@@ -25,191 +25,187 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
   "Application service" should {
     "create a simple application" in {
-      for {
-        modelBuild <- managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1))
-        appRequest = CreateApplicationRequest(
-          name = "testapp",
-          namespace = None,
-          executionGraph = ExecutionGraphRequest(
-            stages = List(
-              ExecutionStepRequest(
-                services = List(
-                  SimpleServiceDescription(
-                    runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(modelBuild.right.get.id),
-                    environmentId = None,
-                    weight = 0,
-                    signatureName = "default"
+      eitherTAssert {
+        for {
+          modelBuild <- EitherT(managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1)))
+          modelVersion <- EitherT.liftF(modelBuild.future)
+          appRequest = CreateApplicationRequest(
+            name = "testapp",
+            namespace = None,
+            executionGraph = ExecutionGraphRequest(
+              stages = List(
+                ExecutionStepRequest(
+                  services = List(
+                    SimpleServiceDescription(
+                      runtimeId = 1, // dummy runtime id
+                      modelVersionId = Some(modelVersion.id),
+                      environmentId = None,
+                      weight = 0,
+                      signatureName = "default"
+                    )
                   )
                 )
               )
-            )
-          ),
-          kafkaStreaming = List.empty
-        )
-        version = awaitVersion(modelBuild.right.get.id)
-        appResult <- managerServices.applicationManagementService.createApplication(
-          appRequest.name,
-          appRequest.namespace,
-          appRequest.executionGraph,
-          appRequest.kafkaStreaming
-        )
-      } yield {
-        println(appResult)
-        val app = appResult.right.get
-        println(app)
-        val expectedGraph = ApplicationExecutionGraph(
-          List(
-            ApplicationStage(
-              List(
-                WeightedService(
-                  ServiceKeyDescription(
-                    runtimeId = 1,
-                    modelVersionId = Some(version.id),
-                    environmentId = None
-                  ),
-                  weight = 100,
-                  signature = None
-                )
-              ),
-              None
+            ),
+            kafkaStreaming = List.empty
+          )
+          appResult <- EitherT(managerServices.applicationManagementService.createApplication(
+            appRequest.name,
+            appRequest.namespace,
+            appRequest.executionGraph,
+            appRequest.kafkaStreaming
+          ))
+        } yield {
+          println(appResult)
+          val expectedGraph = ApplicationExecutionGraph(
+            List(
+              ApplicationStage(
+                List(
+                  WeightedService(
+                    ServiceKeyDescription(
+                      runtimeId = 1,
+                      modelVersionId = Some(modelVersion.id),
+                      environmentId = None
+                    ),
+                    weight = 100,
+                    signature = None
+                  )
+                ),
+                None
+              )
             )
           )
-        )
-        assert(app.name === appRequest.name)
-        assert(app.contract === modelBuild.right.get.model.modelContract)
-        assert(app.executionGraph === expectedGraph)
+          assert(appResult.name === appRequest.name)
+          assert(appResult.contract === modelVersion.modelContract)
+          assert(appResult.executionGraph === expectedGraph)
+        }
       }
     }
 
     "create a multi-service stage" in {
-      for {
-        buildResult <- managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1))
-        build = buildResult.right.get
-        version = awaitVersion(build.id)
-        appRequest = CreateApplicationRequest(
-          name = "MultiServiceStage",
-          namespace = None,
-          executionGraph = ExecutionGraphRequest(
-            stages = List(
-              ExecutionStepRequest(
-                services = List(
-                  SimpleServiceDescription(
-                    runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(version.id),
-                    environmentId = None,
-                    weight = 50,
-                    signatureName = "default_spark"
-                  ),
-                  SimpleServiceDescription(
-                    runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(version.id),
-                    environmentId = None,
-                    weight = 50,
-                    signatureName = "default_spark"
+      eitherTAssert {
+        for {
+          modelBuild <- EitherT(managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1)))
+          modelVersion <- EitherT.liftF(modelBuild.future)
+          appRequest = CreateApplicationRequest(
+            name = "MultiServiceStage",
+            namespace = None,
+            executionGraph = ExecutionGraphRequest(
+              stages = List(
+                ExecutionStepRequest(
+                  services = List(
+                    SimpleServiceDescription(
+                      runtimeId = 1, // dummy runtime id
+                      modelVersionId = Some(modelVersion.id),
+                      environmentId = None,
+                      weight = 50,
+                      signatureName = "default_spark"
+                    ),
+                    SimpleServiceDescription(
+                      runtimeId = 1, // dummy runtime id
+                      modelVersionId = Some(modelVersion.id),
+                      environmentId = None,
+                      weight = 50,
+                      signatureName = "default_spark"
+                    )
                   )
                 )
               )
-            )
-          ),
-          kafkaStreaming = List.empty
-        )
-        appRes <- managerServices.applicationManagementService.createApplication(
-          appRequest.name,
-          appRequest.namespace,
-          appRequest.executionGraph,
-          appRequest.kafkaStreaming
-        )
-      } yield {
-        assert(appRes.isRight, appRes)
-        val app = appRes.right.get
-        println(app)
-        val expectedGraph = ApplicationExecutionGraph(
-          List(
-            ApplicationStage(
-              List(
-                WeightedService(
-                  ServiceKeyDescription(
-                    runtimeId = 1,
-                    modelVersionId = Some(version.id),
-                    environmentId = None
+            ),
+            kafkaStreaming = List.empty
+          )
+          app <- EitherT(managerServices.applicationManagementService.createApplication(
+            appRequest.name,
+            appRequest.namespace,
+            appRequest.executionGraph,
+            appRequest.kafkaStreaming
+          ))
+        } yield {
+          println(app)
+          val expectedGraph = ApplicationExecutionGraph(
+            List(
+              ApplicationStage(
+                List(
+                  WeightedService(
+                    ServiceKeyDescription(
+                      runtimeId = 1,
+                      modelVersionId = Some(modelVersion.id),
+                      environmentId = None
+                    ),
+                    weight = 50,
+                    signature = modelVersion.modelContract.signatures.find(_.signatureName == "default_spark")
                   ),
-                  weight = 50,
-                  signature = build.model.modelContract.signatures.find(_.signatureName == "default_spark")
+                  WeightedService(
+                    ServiceKeyDescription(
+                      runtimeId = 1,
+                      modelVersionId = Some(modelVersion.id),
+                      environmentId = None
+                    ),
+                    weight = 50,
+                    signature = modelVersion.modelContract.signatures.find(_.signatureName == "default_spark")
+                  )
                 ),
-                WeightedService(
-                  ServiceKeyDescription(
-                    runtimeId = 1,
-                    modelVersionId = Some(version.id),
-                    environmentId = None
-                  ),
-                  weight = 50,
-                  signature = build.model.modelContract.signatures.find(_.signatureName == "default_spark")
-                )
-              ),
-              build.model.modelContract.signatures.find(_.signatureName == "default_spark").map(_.withSignatureName("0"))
+                modelVersion.modelContract.signatures.find(_.signatureName == "default_spark").map(_.withSignatureName("0"))
+              )
             )
           )
-        )
-        assert(app.name === appRequest.name)
-        assert(app.executionGraph === expectedGraph)
+          assert(app.name === appRequest.name)
+          assert(app.executionGraph === expectedGraph)
+        }
       }
     }
 
     "create and update an application with kafkaStreaming" in {
-      for {
-        buildResult <- managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1))
-        version = awaitVersion(buildResult.right.get.id)
-        appRequest = CreateApplicationRequest(
-          name = "kafka_app",
-          namespace = None,
-          executionGraph = ExecutionGraphRequest(
-            stages = List(
-              ExecutionStepRequest(
-                services = List(
-                  SimpleServiceDescription(
-                    runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(version.id),
-                    environmentId = None,
-                    weight = 100,
-                    signatureName = "default"
+      eitherTAssert {
+        for {
+          modelBuild <- EitherT(managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1)))
+          modelVersion <- EitherT.liftF(modelBuild.future)
+          appRequest = CreateApplicationRequest(
+            name = "kafka_app",
+            namespace = None,
+            executionGraph = ExecutionGraphRequest(
+              stages = List(
+                ExecutionStepRequest(
+                  services = List(
+                    SimpleServiceDescription(
+                      runtimeId = 1, // dummy runtime id
+                      modelVersionId = Some(modelVersion.id),
+                      environmentId = None,
+                      weight = 100,
+                      signatureName = "default"
+                    )
                   )
                 )
               )
-            )
-          ),
-          kafkaStreaming = List(
-            ApplicationKafkaStream(
-              sourceTopic = "source",
-              destinationTopic = "dest",
-              consumerId = None,
-              errorTopic = None
+            ),
+            kafkaStreaming = List(
+              ApplicationKafkaStream(
+                sourceTopic = "source",
+                destinationTopic = "dest",
+                consumerId = None,
+                errorTopic = None
+              )
             )
           )
-        )
-        appRes <- managerServices.applicationManagementService.createApplication(
-          appRequest.name,
-          appRequest.namespace,
-          appRequest.executionGraph,
-          appRequest.kafkaStreaming
-        )
-        app = appRes.right.get
+          app <- EitherT(managerServices.applicationManagementService.createApplication(
+            appRequest.name,
+            appRequest.namespace,
+            appRequest.executionGraph,
+            appRequest.kafkaStreaming
+          ))
+          appNew <- EitherT(managerServices.applicationManagementService.updateApplication(
+            app.id,
+            app.name,
+            app.namespace,
+            appRequest.executionGraph,
+            Seq.empty
+          ))
 
-        appResNew <- managerServices.applicationManagementService.updateApplication(
-          app.id,
-          app.name,
-          app.namespace,
-          appRequest.executionGraph,
-          Seq.empty
-        )
-        appNew = appResNew.right.get
-
-        maybeGotNewApp <- managerServices.applicationManagementService.getApplication(appNew.id)
-      } yield {
-        println(app)
-        assert(maybeGotNewApp.isRight, s"Couldn't find updated application in repository ${appNew}")
-        assert(appNew === maybeGotNewApp.right.get)
-        assert(appNew.kafkaStreaming.isEmpty, appNew)
+          gotNewApp <- EitherT(managerServices.applicationManagementService.getApplication(appNew.id))
+        } yield {
+          assert(appNew === gotNewApp)
+          assert(appNew.kafkaStreaming.isEmpty, appNew)
+        }
       }
     }
   }

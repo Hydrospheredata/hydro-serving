@@ -13,7 +13,7 @@ services:
       - "POSTGRES_PASSWORD=docker"
 
   manager:
-    image: hydrosphere/serving-manager:latest
+    image: hydrosphere/serving-manager:0.0.20
     container_name: manager
     ports:
       - "19091:9091"
@@ -32,7 +32,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
 
   sidecar:
-    image: hydrosphere/serving-sidecar:latest
+    image: hydrosphere/serving-sidecar:0.1.10
     container_name: sidecar
     ports:
       - "8080:8080"
@@ -48,7 +48,7 @@ services:
       - "SERVICE_NAME=manager"
 
   managerui:
-    image: hydrosphere/serving-manager-ui:latest
+    image: hydrosphere/serving-manager-ui:0.0.18
     container_name: managerui
     ports:
       - "80:9091"

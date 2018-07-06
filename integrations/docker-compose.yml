@@ -170,13 +170,15 @@ services:
       - "KAFKA_PORT=9092"
 
   serving-sonar:
-    image: hydrosphere/serving-sonar:v0.0.2
+    image: ${sonar_image}:${sonar_version}
     container_name: serving-sonar
     networks:
       - extnet
       - hydronet
     depends_on:
-      - kafka
+      - sidecar
+      - influxdb
+      - elasticsearch
     links:
       - kafka
     ports:

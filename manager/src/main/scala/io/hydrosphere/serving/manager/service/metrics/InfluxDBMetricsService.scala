@@ -44,15 +44,15 @@ class InfluxDBMetricsService(
 
   override def onTick(): Unit = {
     try {
-
-      createIndexIfNeeded().flatMap(_ => {
+      createIndexIfNeeded().flatMap{ _ =>
         fetchServices(applicationManagementService, serviceManagementService, cloudDriverService)
           .flatMap { map =>
             cloudDriverService.getMetricServiceTargets()
               .flatMap(p => pushMetricsToTargets(p, map))
           }
-      }) onFailure {
-        case t => log.error(t, t.getMessage)
+      }
+      .failed.foreach{ t =>
+        log.error(t, t.getMessage)
       }
     } catch {
       case e: Exception =>

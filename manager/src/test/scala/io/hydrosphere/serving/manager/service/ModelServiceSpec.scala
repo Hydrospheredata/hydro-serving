@@ -28,7 +28,6 @@ class ModelServiceSpec extends GenericUnitTest {
     created = LocalDateTime.now(),
     updated = LocalDateTime.now()
   )
-  import scala.concurrent.ExecutionContext.Implicits._
 
   def packModel(str: String): Path = {
     val temptar = Files.createTempFile("test_tf_model", ".tar.gz")

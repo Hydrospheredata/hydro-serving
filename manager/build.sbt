@@ -4,7 +4,6 @@ import java.util.Collections
 
 import com.spotify.docker.client.messages._
 import com.spotify.docker.client._
-import sbt.inc.Analysis
 
 import scala.collection.JavaConverters._
 
@@ -18,7 +17,15 @@ lazy val dataBaseUser = "docker"
 lazy val dataBasePassword = "docker"
 lazy val dataBaseUrl = s"jdbc:postgresql://localhost:15432/$dataBaseName"
 
-lazy val startDatabase = (sourceManaged, dependencyClasspath in Compile, runner in Compile, streams) map { (dir, cp, r, s) =>
+lazy val startDatabase = taskKey[Unit]("Start database")
+lazy val slickCodeGenTask = taskKey[Unit]("Slick codegen")
+
+startDatabase := {
+  val dir = sourceManaged
+  val cp =  dependencyClasspath in Compile
+  val r = runner in Compile
+  val s = streams
+
   val cli: DockerClient = DefaultDockerClient.fromEnv().build()
   val dbImage = "postgres:9.6-alpine"
 
@@ -41,18 +48,17 @@ lazy val startDatabase = (sourceManaged, dependencyClasspath in Compile, runner 
   println(s"starting database...$containerId")
 }
 
-compile in Compile <<= (compile in Compile)
+compile in Compile := (compile in Compile)
   .dependsOn(slickCodeGenTask)
   .dependsOn(flywayMigrate in migration)
-  .dependsOn(startDatabase) map { analysis =>
+  .dependsOn(startDatabase)
+  .andFinally{
   //Stop database
   val cli: DockerClient = DefaultDockerClient.fromEnv().build()
   cli.listContainers(DockerClient.ListContainersParam.allContainers(true)).asScala
     .filter(p => p.names().contains("/postgres_compile"))
     .foreach(p => cli.removeContainer(p.id(), DockerClient.RemoveContainerParam.forceKill(true)))
-
-  Analysis.Empty
-}
+  }.value
 
 lazy val migration = project.settings(
   flywayUrl := dataBaseUrl,
@@ -66,14 +72,26 @@ lazy val migration = project.settings(
 //This helps to Idea
 unmanagedSourceDirectories in Compile += sourceManaged.value
 
-lazy val slickCodeGenTask = (sourceManaged, dependencyClasspath in Compile, runner in Compile, streams) map { (dir, cp, r, s) =>
+slickCodeGenTask := {
+  val dir = sourceManaged.value
+  val cp = (dependencyClasspath in Compile).value
+  val r = (runner in Compile).value
+  val s = streams.value
   val outputDir = dir.getPath
+
   val url = dataBaseUrl
   val jdbcDriver = "org.postgresql.Driver"
   val slickDriver = "io.hydrosphere.slick.HydrospherePostgresDriver"
   val pkg = "io.hydrosphere.serving.manager.db"
-  val maybeError = r.run("io.hydrosphere.slick.HydrosphereCodeGenerator", cp.files, Array(slickDriver, jdbcDriver, url, outputDir, pkg, dataBaseUser, dataBasePassword), s.log)
-  maybeError foreach sys.error
+  val runResult = r.run(
+    "io.hydrosphere.slick.HydrosphereCodeGenerator",
+    cp.files,
+    Array(slickDriver, jdbcDriver, url, outputDir, pkg, dataBaseUser, dataBasePassword),
+    s.log
+  )
+  runResult.recover{
+    case err: Throwable => sys.error(err.getMessage)
+  }
   println("Generated")
 }
 

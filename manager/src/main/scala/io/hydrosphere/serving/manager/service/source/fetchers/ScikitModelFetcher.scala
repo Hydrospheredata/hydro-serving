@@ -8,7 +8,7 @@ import io.hydrosphere.serving.manager.model.api._
 import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import org.apache.logging.log4j.scala.Logging
 
-import scala.collection.JavaConversions._
+import scala.collection.JavaConverters._
 
 object ScikitModelFetcher extends ModelFetcher with Logging {
   override def fetch(source: ModelStorage, directory: String): Option[ModelMetadata] = {
@@ -30,7 +30,7 @@ object ScikitModelFetcher extends ModelFetcher with Logging {
     val fileResult = source.getReadableFile(s"$modelName/metadata.prototxt")
     if (fileResult.isRight) {
       val metaFile = fileResult.right.get
-      val metaStr = Files.readAllLines(metaFile.toPath).mkString
+      val metaStr = Files.readAllLines(metaFile.toPath).asScala.mkString
       ModelContract.fromAscii(metaStr)
     } else {
       ModelContract()

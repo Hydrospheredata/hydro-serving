@@ -72,7 +72,7 @@ class ModelVersionManagementServiceImpl(
   override def get(key: Long): HFResult[ModelVersion] = {
     modelVersionRepository.get(key).map {
       case Some(model) => Right(model)
-      case None => Result.clientError(s"Can't find a model with id: $key")
+      case None => Result.clientError(s"Can't find a model version with id: $key")
     }
   }
 
