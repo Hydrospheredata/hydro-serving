@@ -11,10 +11,12 @@ case class ColumnShaper(tensorShape: TensorShape) {
     tensorShape match {
       case AnyDims() => data.headOption.getOrElse(JsObject.empty)
       case Dims(dims, _) if dims.isEmpty => data.headOption.getOrElse(JsObject.empty)
-      case Dims(dims, _) =>
-        val reverseDims = dims.reverseIterator
-        shapeGrouped(JsArray(data.toVector), reverseDims)
+      case Dims(dims, _) => shapeRaw(data, dims)
     }
+  }
+
+  final def shapeRaw(data: Seq[JsValue], dims: Seq[Long]): JsArray = {
+    shapeGrouped(JsArray(data.toVector), dims.reverseIterator)
   }
 
   @tailrec
@@ -25,6 +27,7 @@ case class ColumnShaper(tensorShape: TensorShape) {
       val maybeReshaped = dimShape match {
         case -1 => data
         case `dataDim` => data
+        case 1 => JsArray(data)
         case toReshape => JsArray(
           data
             .elements
@@ -39,3 +42,11 @@ case class ColumnShaper(tensorShape: TensorShape) {
     }
   }
 }
+
+//
+//1, 4
+//
+//1,2,3,4
+//
+//[1, 2, 3, 4]
+
