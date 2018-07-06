@@ -111,6 +111,11 @@ node("JenkinsOnDemand") {
         sh "sbt -DappVersion=${curVersion} compile docker"
     }
 
+    stage('Build docs') {
+        def curVersion = currentVersion()
+        sh "sbt -DappVersion=${curVersion} makeMicrosite"
+    }
+
     stage('Test') {
         try {
             def curVersion = currentVersion()
