@@ -47,7 +47,3 @@ When you have just created an application and want to test it's performance, you
 To let the model perform on your data through HTTP-request, you'll need to send `POST` request to `/api/v1/applications/serve/{applicationId}/{signatureName}`. Depending on the type of your application (Single-staged, Multi-staged), you may need to use different signatures. 
 
 > Note: When you create a __Multi-staged__ application, ML Lambda internally infers a contract. It performs validation that every stage is compatible with it's siblings, and creates a contract with the same signature name, as the application name. __Single-staged__ applications by default use their explicitly defined signatures. 
-
-## Kafka
-
-To be described. 
