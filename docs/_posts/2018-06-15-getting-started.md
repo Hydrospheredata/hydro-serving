@@ -23,7 +23,7 @@ $ git clone https://github.com/Hydrospheredata/hydro-serving
 
 Now set up a docker environment. You have 2 options:
 
-1. Lightweight version that doesn't contain any metrics and doesn't support Kafka. It will only allow you to deploy and run your models in a continuous manner. 
+1. Lightweight version that doesn't contain any metrics and doesn't support Kafka. It will only allow you to deploy and run models in a continuous manner. 
 
 	```sh
 	$ cd ./hydro-serving/
@@ -36,7 +36,7 @@ Now set up a docker environment. You have 2 options:
 	$ docker-compose up --no-start
 	```
 
->Note: If you've already installed one of the versions and want to install the other one, you may need to remove existing containers with `docker container rm $(docker container ls -aq)`.
+>Note: If you've already installed one of the versions and want to install the other one, you will need to remove existing containers. Check corresponding `docker-compose.yml` for more details. 
 
 After all images will be pulled, start ML Lambda.
 
@@ -61,14 +61,14 @@ To get the notion of ML Lambda we recommend you to go through 2 bellow tutorials
 
 ## Uploading demo
 
-### Fetching & uploading example models
-
 We've already created a few [examples][hydro-serving-examples], that you can run to see, how everything works. Let's clone them and pick a model. 
 
 ```sh
 $ git clone https://github.com/Hydrospheredata/hydro-serving-example
 $ cd ./hydro-serving-example/models/$MODEL_OF_YOUR_CHOICE
 ```
+
+### Fetching & uploading stateful LSTM
 
 For the purpose of this tutorial we chose [stateful LSTM][stateful-lstm]. All you have to do is just to upload model to the server. 
 
@@ -93,7 +93,7 @@ Your models now have been uploaded to ML Lambda. You can find them here - [http:
 
 ### Creating application
 
-Let's create an application that can use our models. Open `Applications` page and press `ADD NEW`. Reproduce the following structure in the `Models` framework and create an application. 
+Let's create an application that can use our models. Open `Applications` page and press `ADD NEW` and reproduce the following structure in the `Models` section. 
 
 | Stage | Model | Runtime | Description |
 | ----- | ----- | ------- | ----------- |
@@ -101,7 +101,7 @@ Let's create an application that can use our models. Open `Applications` page an
 | 2 | stateful_lstm | hydrosphere/serving-runtime-tensorflow:1.7:latest | ... |
 | 3 | demo_postprocessing | hydrosphere/serving-runtime-python:3.6:latest | ... |
 
-Set _Application Name_ to `demo_lstm`. ML Lambda will automatically detect and fill models' signatures for you.
+ML Lambda will automatically detect and fill models' signatures for you.
 
 >Note: There's an option to add multiple models to one stage which might be confusing, because you may include all pipeline steps(pre, lstm, post) into a signle stage. Make sure, you've added new steps via `ADD NEW STAGE` button.
 
