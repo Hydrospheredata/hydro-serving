@@ -9,7 +9,7 @@ position: 1
 
 __ML Lambda__ is an opensource machine learning serving cluster for deploying machine learning models and ad-hoc algorithms. This enables you get your models up and running in an instant, on just about any infrastructure and using any of the available machine learning toolkits.
 
-Eager to get started? You can set everything up with [Getting Started]({{site.baseurl}}{%link getting-started.md%}) page. If you want to understand ML Lambda's essential components, check out [Components]({{site.baseurl}}{%link component.md%}) page. 
+Eager to get started? You can set everything up with [Getting Started]({{site.baseurl}}{%link getting-started.md%}) page. If you want to understand ML Lambda's essential components, check out _Components_ section. 
 
 # Contents
 - [Why ML Lambda?]({{site.baseurl}}{%link why-ml-lambda.md%})
