@@ -134,7 +134,7 @@ node("JenkinsOnDemand") {
             sh "${env.WORKSPACE}/sbt/sbt docs/makeMicrosite"
             sh "jekyll build --source ${env.WORKSPACE}/docs/target/site --destination ${env.WORKSPACE}/docs/target/site/_site"
             sshagent(['hydro-site-publish']) {
-                sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/site/_site/* jenkins_publish@hydrosphere.io:serivng_docs_publish_dir"
+                sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/site/_site/* jenkins_publish@hydrosphere.io:serving_publish_dir"
             }
         }
 
