@@ -30,7 +30,7 @@ Now set up a docker environment. You have 2 options:
 	$ docker-compose up --no-start
 	```
 
-2. Full version of ML Lambda with integrations to Kafka, Graphana, different metrics, etc. This might take a while. 
+2. Full version of ML Lambda with integrations to Kafka, Grafana, different metrics, etc. This might take a while. 
 	```sh
 	$ cd ./hydro-serving/integrations/
 	$ docker-compose up --no-start
@@ -129,9 +129,6 @@ Inside `model.py` we will define our model and train it and save it.
 
 `model.py`
 ```python
-import os
-import tensorflow as tf
-
 from keras.models import Sequential
 from keras.layers import Dense
 from sklearn.datasets import make_regression
@@ -156,6 +153,9 @@ model.add(Dense(1, activation='linear'))
 
 model.compile(loss='mse', optimizer='adam')
 model.fit(X, y, epochs=1000, verbose=0)
+
+# save model
+model.save('model.h5')
 ```
 
 There's actually 2 ways to run keras models inside ML Lambda: 
@@ -293,9 +293,9 @@ Open _Applications_ page and press _Add New_ button. As a runtime select `hydros
 
 Invoking applications is available via different interfaces. 
 
-1. __Test-request__
+1. __Test request__
 
-	You can test your application via web-interface. Press `Test` button in the application's page. Test data will be automatically generated from model's contract. 
+	You can perform test request to the model from web-interface. Internally it will generate input data from model's contract and send an HTTP-request to API endpoint. 
 
 2. __HTTP-request__
 
@@ -315,6 +315,9 @@ Invoking applications is available via different interfaces.
         $ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
         "x": [[1, 1],[1, 1]]}' 'http://localhost:8080/api/v1/applications/serve/{application_id}/infer'
         ```
+3. __gRPC API call__
+
+    You have to perform 
 
 [docker-install]: https://docs.docker.com/install/
 [docker-hub]: https://hub.docker.com/u/hydrosphere/

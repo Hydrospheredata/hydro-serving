@@ -5,7 +5,14 @@ permalink: 'models.html'
 position: 4
 ---
 
-__Models__ are entities, that consume provided inputs and produce predictions. When you upload a new model to ML Lambda, it will generate corresponded entity, infer it's [contract]({{site.baseurl}}{%link contract.md%}) and assign a version to it. New version will be generated each time you execute the following code inside your model's folder. 
+__Models__ are machine learning models or processing functions, that consume provided inputs and produce predictions. When you upload model binaries to ML Lambda, it will automatically execute the following steps:
+1. Checks, if the model has been provided with the [contract]({{site.baseurl}}{%link contract.md%}). If so, it generates binary contract representation based on the provided contract; 
+2. If contract hasn't been found, it extracts model's metadata (signatures, types) and generates binary contract from it;
+3. Builds a Docker image with the model and places all models data inside `/model/files/` directory. Generated binary contract `contract.protobin` is places inside `/model/` directory;
+4. Increments model's version and assigns it with the created Docker image;
+5. Pushes image to the registry. 
+
+New version will be generated each time you execute the following code inside your model's folder. 
 
 ```sh
 $ hs upload --host "localhost" --port 8080

@@ -5,7 +5,7 @@ permalink: 'runtimes.html'
 position: 7
 ---
 
-__Runtime__ is a service with the predefined infrastructure. It must implement a set if specific methods that are used by _Manager_. It runs in the docker environment and is responsible for running user-defined models. When you create a new application and assign a model to it, you also have to provide a specific runtime, which will be used to run the model. 
+__Runtime__ is a Docker image with the predefined infrastructure. It implements a set of specific methods that are used as an endpoints to the model. It's responsible for running user-defined models. When you create a new application, you also have to provide a corresponing runtime to each models' instances.
 
 # Available Runtimes
 {: #available-runtimes}
@@ -269,7 +269,8 @@ runtime
 └── runtime.py
 ```
 
-Now we can build our image and publish it to the Docker Hub.
+To let ML Lambda see your runtimes, you have to publish it to the Docker Hub or your private Docker Registry. Here for simplicity we will publish it to the Docker Hub. 
+
 ```sh
 $ docker build -t {username}/python-runtime-example:3.6.5
 $ docker push {username}/python-runtime-example:3.6.5 

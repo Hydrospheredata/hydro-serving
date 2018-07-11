@@ -5,7 +5,7 @@ permalink: 'application.html'
 position: 6
 ---
 
-__Application__ is a publicly available endpoint to reach your models. It allows you to use your most recent deployed production models via HTTP-requests, or configure is a part of Kafka streams. 
+__Application__ is a publicly available endpoint to reach your models. It allows you to use your most recent deployed production models via HTTP-requests, gRPC API calls, or configure it as a part of Kafka streams. 
 
 # Creating Application
 
@@ -23,7 +23,7 @@ Open ML Lambda interface, go to the _Applications_ page and click _Add New_ butt
 | 5 | Model Selection | Model selection field. |
 | 6 | Runtime | [Runtime]({{site.baseurl}}{%link runtime.md%}) selection field. |
 | 7 | Signature | Field for describing which signature is going to be used from the ones, defined in the [contract]({{site.baseurl}}{%link contract.md%}) of the model. |
-| 8 | Weight | The field, describing how much traffic model will receive with respect to other models inside the stage. |
+| 8 | Weight | The field, describing how much traffic model will receive with respect to other models inside the stage. Mainly used for A/B testing or canary traffic split. |
 | 9 | Add model versions | Option for adding additional models to the stage. |
 | 10 | Add New Stage | Button for creating additional stages for application. |
 | 11 | Add Application | Button for creating an application. |
@@ -32,7 +32,7 @@ When configuring applications, you have 2 options:
 
 1. __Single-staged__ application. It's an option if you want to use just one of your models. In that case the model probably handles all necessary transformations and data cleaning itself and produces only the desired result. Or maybe you do the cleaning on your side, and you just need to get predicitons from the model (although in that case you might consider migrating pre/post-processing operations as __pipeline__ stages). 
 
-2. __Multi-staged__ application. That's an option, if you want to create pipelines that will let data flow through different models, perform A/B tests to analyse efficiency, perform pre/post processing operations, etc.
+2. __Multi-staged__ application. That's an option, if you want to create pipelines that will let data flow through different models, perform pre/post processing operations, etc.
 
 # Invoking Application
 
