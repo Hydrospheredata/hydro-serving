@@ -111,6 +111,11 @@ node("JenkinsOnDemand") {
         sh "sbt -DappVersion=${curVersion} compile docker"
     }
 
+    stage('Build docs') {
+        def curVersion = currentVersion()
+        sh "sbt -DappVersion=${curVersion} makeMicrosite"
+    }
+
     stage('Test') {
         try {
             def curVersion = currentVersion()
@@ -123,6 +128,14 @@ node("JenkinsOnDemand") {
         if (currentBuild.result == 'UNSTABLE') {
             currentBuild.result = 'FAILURE'
             error("Errors in tests")
+        }
+	
+	    stage("Publish docs") {
+            sh "${env.WORKSPACE}/sbt/sbt docs/makeMicrosite"
+            sh "jekyll build --source ${env.WORKSPACE}/docs/target/site --destination ${env.WORKSPACE}/docs/target/site/_site"
+            sshagent(['hydro-site-publish']) {
+                sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/site/_site/* jenkins_publish@hydrosphere.io:serving_publish_dir"
+            }
         }
 
         stage('Push docker') {
