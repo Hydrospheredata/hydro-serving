@@ -8,6 +8,34 @@ import spray.json.{JsArray, JsNumber, JsObject, JsString}
 
 class TensorJson extends GenericUnitTest{
   describe("TensorJsonLens") {
+    it("should convert matrix[1, 2, 1, 2]") {
+      val stensor = StringTensor(TensorShape.mat(1, 2, 1, 2), Seq("never", "gonna", "give", "you"))
+
+      val expected = JsArray(
+        JsArray(
+          JsArray(
+            JsArray(JsString("never"), JsString("gonna"))
+          ),
+          JsArray(
+            JsArray(JsString("give"), JsString("you"))
+          )
+        )
+      )
+
+      assert(TensorJsonLens.toJson(stensor) === expected)
+    }
+
+    it("should convert matrix[2, 1, 1, 1, 1]") {
+      val stensor = StringTensor(TensorShape.mat(2, 1, 1, 1, 1), Seq("never", "gonna"))
+
+      val expected = JsArray(
+        JsArray(JsArray(JsArray(JsArray(JsString("never"))))),
+        JsArray(JsArray(JsArray(JsArray(JsString("gonna")))))
+      )
+
+      assert(TensorJsonLens.toJson(stensor) === expected)
+    }
+
     it("should convert matrix[2,3]") {
       val stensor = StringTensor(TensorShape.mat(2, 3), Seq("never", "gonna", "give", "you", "up", "and"))
 
