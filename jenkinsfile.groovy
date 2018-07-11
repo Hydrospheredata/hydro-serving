@@ -130,8 +130,8 @@ node("JenkinsOnDemand") {
             error("Errors in tests")
         }
 	
-	    stage("Publish docs") {
-            sh "${env.WORKSPACE}/sbt/sbt docs/makeMicrosite"
+	stage("Publish docs") {
+            sh "sbt docs/makeMicrosite"
             sh "jekyll build --source ${env.WORKSPACE}/docs/target/site --destination ${env.WORKSPACE}/docs/target/site/_site"
             sshagent(['hydro-site-publish']) {
                 sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/site/_site/* jenkins_publish@hydrosphere.io:serving_publish_dir"
