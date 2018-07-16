@@ -1,0 +1,35 @@
+options:
+  - title: ML Lambda
+    url: "index.html"
+
+  - title: Getting Started
+    url: "getting-started.html"
+
+    nested_options: 
+      - title: Installation
+        url: "getting-started.html#installation"
+      
+      - title: Uploading Models
+        url: "getting-started.html#uploading-models"
+
+      - title: Invoking Applications
+        url: "getting-started.html#invoking-applications"
+  
+  - title: Models
+    url: "models.html"
+  
+  - title: Contracts
+    url: "contracts.html"
+  
+  - title: Applications
+    url: "applications.html"
+
+  - title: Runtimes
+    url: "runtimes.html"
+
+    nested_options:
+      - title: Available Runtimes
+        url: "runtimes.html#available-runtimes"
+      
+      - title: Developing Runtime
+        url: "runtimes.html#developing-runtime"
