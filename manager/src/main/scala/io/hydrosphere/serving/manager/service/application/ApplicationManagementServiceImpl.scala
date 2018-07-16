@@ -26,6 +26,7 @@ import io.hydrosphere.serving.manager.service.service.{CreateServiceRequest, Ser
 import io.hydrosphere.serving.manager.util.TensorUtil
 import io.hydrosphere.serving.monitoring.monitoring.ExecutionInformation.ResponseOrError
 import io.hydrosphere.serving.monitoring.monitoring.{ExecutionError, ExecutionInformation, ExecutionMetadata, MonitoringServiceGrpc}
+import io.hydrosphere.serving.profiler.profiler.DataProfilerServiceGrpc
 import io.hydrosphere.serving.tensorflow.api.model.ModelSpec
 import io.hydrosphere.serving.tensorflow.api.predict.{PredictRequest, PredictResponse}
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
@@ -54,14 +55,15 @@ private case class StageInfo(
 )
 
 class ApplicationManagementServiceImpl(
-  applicationRepository: ApplicationRepository,
-  modelVersionManagementService: ModelVersionManagementService,
-  serviceManagementService: ServiceManagementService,
-  grpcClient: PredictionServiceGrpc.PredictionServiceStub,
-  grpcClientForMonitoring: MonitoringServiceGrpc.MonitoringServiceStub,
-  internalManagerEventsPublisher: InternalManagerEventsPublisher,
-  applicationConfig: ApplicationConfig,
-  runtimeRepository: RuntimeRepository
+                                        applicationRepository: ApplicationRepository,
+                                        modelVersionManagementService: ModelVersionManagementService,
+                                        serviceManagementService: ServiceManagementService,
+                                        grpcClient: PredictionServiceGrpc.PredictionServiceStub,
+                                        grpcClientForMonitoring: MonitoringServiceGrpc.MonitoringServiceStub,
+                                        grpcClientForProfiler: DataProfilerServiceGrpc.DataProfilerServiceStub,
+                                        internalManagerEventsPublisher: InternalManagerEventsPublisher,
+                                        applicationConfig: ApplicationConfig,
+                                        runtimeRepository: RuntimeRepository
 )(implicit val ex: ExecutionContext) extends ApplicationManagementService with Logging {
 
   type FutureMap[T] = Future[Map[Long, T]]
@@ -88,9 +90,18 @@ class ApplicationManagementServiceImpl(
         .analyze(execInfo)
         .onComplete {
           case Failure(thr) =>
-            logger.error("Can't send message to GATEWAY_KAFKA", thr)
+            logger.warn("Can't send message to the monitoring service", thr)
           case _ =>
             Unit
+        }
+      
+      grpcClientForProfiler
+        .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, CloudDriverService.PROFILER_NAME)
+        .analyze(execInfo)
+        .onComplete {
+          case Failure(thr) =>
+            logger.warn("Can't send message to the data profiler service", thr)
+          case _ => Unit
         }
     }
   }
