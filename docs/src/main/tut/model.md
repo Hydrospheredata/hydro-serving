@@ -5,6 +5,8 @@ permalink: 'models.html'
 position: 4
 ---
 
+# Models
+
 __Models__ are machine learning models or processing functions, that consume provided inputs and produce predictions. When you upload model binaries to ML Lambda, it will automatically execute the following steps:
 1. Checks, if the model has been provided with the [contract]({{site.baseurl}}{%link contract.md%}). If so, it generates binary contract representation based on the provided contract; 
 2. If contract hasn't been found, it extracts model's metadata (signatures, types) and generates binary contract from it;
@@ -18,7 +20,7 @@ New version will be generated each time you execute the following code inside yo
 $ hs upload --host "localhost" --port 8080
 ```
 
-You can look up all essential details in [http://127.0.0.1/models](http://127.0.0.1/models) page.
+You can look up all essential details from [http://127.0.0.1/models](http://127.0.0.1/models) page.
 
 | Field | Description |
 | ----- | ----------- |
@@ -28,6 +30,7 @@ You can look up all essential details in [http://127.0.0.1/models](http://127.0.
 | Applications | List of applications, where current model's version is used. |
 | Model Type | Type of the model, specified in `serving.yaml` | 
 
+<br>
 If you want to revise models' contracts, you can follow right arrow icon on web-interface. 
 
 ![]({{site.baseurl}}{%link /img/ui-models-page.png%})

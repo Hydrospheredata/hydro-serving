@@ -16,7 +16,7 @@ We've already implemented a few runtimes which you can use in your own projects.
 
 | Framework | Runtime | Versions | Links
 | --------- | ------- | ------- | ---- |
-| Python | hydrosphere/serving-runtime-python | 3.6-latest<br>3.5-latest<br>3.4-latest | [Docker Hub][docker-hub-python]<br>[Github][github-serving-python]|
+| Python | hydrosphere/serving-runtime-python | 3.6-latest<br>3.5-latest<br>3.4-latest | [Docker Hub][docker-hub-python]<i class="fas fa-external-link-square-alt"></i><br>[Github][github-serving-python]|
 | TensorFlow | hydrosphere/serving-runtime-tensorflow | 1.4.0-latest<br>1.5.0-latest<br>1.6.0-latest<br>1.7.0-latest | [Docker Hub][docker-hub-tensorflow]<br>[Github][github-serving-tensorflow] |
 | Spark | hydrosphere/serving-runtime-spark | 2.0-latest<br>2.1-latest<br>2.2-latest | [Docker Hub][docker-hub-spark]<br>[Github][github-serving-spark] |
 
