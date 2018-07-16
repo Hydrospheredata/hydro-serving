@@ -60,7 +60,8 @@ class ApplicationServiceSpec extends GenericUnitTest {
                     1, Some(1), None
                   )
                 )
-              )
+              ),
+              dataProfileFields = Map.empty
             )
           )
         )
@@ -102,14 +103,14 @@ class ApplicationServiceSpec extends GenericUnitTest {
               ServiceKeyDescription(1, Some(mVersion1.id), None, Some(mVersion1.fullName), None),
               100,
               None
-            )), None
+            )), None, Map.empty
           ),
           ApplicationStage(
             List(WeightedService(
               ServiceKeyDescription(2, Some(mVersion2.id), None, Some(mVersion2.fullName), None),
               100,
               None
-            )), None
+            )), None, Map.empty
           )
         )
       )
@@ -127,7 +128,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
               100,
               None
             )
-          ), None
+          ), None, Map.empty
         ))
       )
       val app2 = Application(2, "testapp2", None, ModelContract.defaultInstance, graph2, List.empty)
@@ -139,7 +140,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
               100,
               None
             )
-          ), None
+          ), None, Map.empty
         ))
       )
       val app3 = Application(3, "testapp3", None, ModelContract.defaultInstance, graph3, List.empty)

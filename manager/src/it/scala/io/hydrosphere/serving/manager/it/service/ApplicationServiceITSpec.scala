@@ -71,7 +71,8 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                     signature = None
                   )
                 ),
-                None
+                None,
+                Map.empty
               )
             )
           )
@@ -145,7 +146,8 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                     signature = modelVersion.modelContract.signatures.find(_.signatureName == "default_spark")
                   )
                 ),
-                modelVersion.modelContract.signatures.find(_.signatureName == "default_spark").map(_.withSignatureName("0"))
+                modelVersion.modelContract.signatures.find(_.signatureName == "default_spark").map(_.withSignatureName("0")),
+                dataProfileFields = Map.empty
               )
             )
           )

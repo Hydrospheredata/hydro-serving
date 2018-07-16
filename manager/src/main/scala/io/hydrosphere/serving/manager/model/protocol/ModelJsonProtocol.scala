@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager.model.protocol
 
+import io.hydrosphere.serving.manager.model.DataProfileType
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.service.model.CreateModelRequest
@@ -20,9 +21,10 @@ trait ModelJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol {
     }
   }
 
-  implicit val modelFormat = jsonFormat7(Model)
+  implicit val dataProfileTypeFormat = enumFormat(DataProfileType)
+  implicit val modelFormat = jsonFormat8(Model)
   implicit val runtimeFormat = jsonFormat6(Runtime)
-  implicit val modelVersionFormat = jsonFormat10(ModelVersion)
+  implicit val modelVersionFormat = jsonFormat11(ModelVersion)
   implicit val modelBuildFormat = jsonFormat10(ModelBuild.apply)
   implicit val environmentFormat = jsonFormat3(Environment)
   implicit val serviceFormat = jsonFormat8(Service)
@@ -30,10 +32,10 @@ trait ModelJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol {
 
   implicit val serviceKeyDescriptionFormat = jsonFormat5(ServiceKeyDescription.apply)
   implicit val serviceWeightFormat = jsonFormat3(WeightedService)
-  implicit val applicationStageFormat = jsonFormat2(ApplicationStage.apply)
+  implicit val applicationStageFormat = jsonFormat3(ApplicationStage.apply)
   implicit val applicationExecutionGraphFormat = jsonFormat1(ApplicationExecutionGraph)
   implicit val applicationKafkaStreamingFormat = jsonFormat4(ApplicationKafkaStream)
-  implicit val applicationFormat = jsonFormat6(Application)
+  implicit val applicationFormat = jsonFormat6(Application.apply)
 }
 
 object ModelJsonProtocol extends ModelJsonProtocol

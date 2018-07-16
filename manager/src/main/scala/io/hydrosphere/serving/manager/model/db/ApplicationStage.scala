@@ -1,10 +1,12 @@
 package io.hydrosphere.serving.manager.model.db
 
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
+import io.hydrosphere.serving.manager.model.DataProfileFields
 
 case class ApplicationStage(
   services: List[WeightedService],
-  signature: Option[ModelSignature]
+  signature: Option[ModelSignature],
+  dataProfileFields: DataProfileFields
 )
 
 object ApplicationStage {

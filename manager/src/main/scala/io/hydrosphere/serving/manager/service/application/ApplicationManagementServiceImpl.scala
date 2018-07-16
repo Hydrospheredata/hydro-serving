@@ -18,7 +18,6 @@ import io.hydrosphere.serving.manager.model.api.tensor_builder.SignatureBuilder
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.model.{db, _}
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, RuntimeRepository}
-import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
@@ -33,7 +32,7 @@ import io.hydrosphere.serving.tensorflow.tensor.{TensorProto, TypedTensorFactory
 import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.apache.logging.log4j.scala.Logging
-import spray.json.{JsObject, JsValue}
+import spray.json.JsObject
 
 import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Failure, Success, Try}
@@ -41,7 +40,8 @@ import scala.util.{Failure, Success, Try}
 private case class ExecutionUnit(
   serviceName: String,
   servicePath: String,
-  stageInfo: StageInfo
+  stageInfo: StageInfo,
+  dataProfileFields: DataProfileFields = Map.empty
 )
 
 private case class StageInfo(
@@ -221,12 +221,13 @@ class ApplicationManagementServiceImpl(
               applicationId = application.id,
               signatureName = servicePath.signatureName,
               stageId = stageId,
-              applicationNamespace=application.namespace
+              applicationNamespace = application.namespace
             )
             val unit = ExecutionUnit(
               serviceName = stageId,
               servicePath = servicePath.signatureName,
-              stageInfo = stageInfo
+              stageInfo = stageInfo,
+              stage.dataProfileFields
             )
             serve(unit, request, tracingInfo)
           case None => Result.clientErrorF("ModelSpec in request is not specified")
@@ -236,7 +237,7 @@ class ApplicationManagementServiceImpl(
           case (stage, idx) =>
             stage.signature match {
               case Some(signature) =>
-                val vers=stage.services.headOption.flatMap(_.serviceDescription.modelVersionId)
+                val vers = stage.services.headOption.flatMap(_.serviceDescription.modelVersionId)
                 val stageInfo = StageInfo(
                   //TODO will be wrong modelVersionId during blue-green
                   //TODO Get this value from sidecar or in sidecar
@@ -245,13 +246,14 @@ class ApplicationManagementServiceImpl(
                   applicationId = application.id,
                   signatureName = signature.signatureName,
                   stageId = ApplicationStage.stageId(application.id, idx),
-                  applicationNamespace=application.namespace
+                  applicationNamespace = application.namespace
                 )
                 Result.ok(
                   ExecutionUnit(
                     serviceName = ApplicationStage.stageId(application.id, idx),
                     servicePath = stage.services.head.signature.get.signatureName, // FIXME dirty hack to fix service signatures
-                    stageInfo = stageInfo
+                    stageInfo = stageInfo,
+                    stage.dataProfileFields
                   )
                 )
               case None => Result.clientError(s"$stage doesn't have a signature")
@@ -586,7 +588,8 @@ class ApplicationManagementServiceImpl(
       Seq(
         ApplicationStage(
           services = singleStage.services.map(_.toWeighedService.copy(weight = 100)),
-          signature = None
+          signature = None,
+          dataProfileFields = Map.empty
         )
       )
     )
@@ -602,7 +605,8 @@ class ApplicationManagementServiceImpl(
               inferStageSignature(services).right.map { stageSigs =>
                 ApplicationStage(
                   services = services.toList,
-                  signature = Some(stageSigs.withSignatureName(id.toString))
+                  signature = Some(stageSigs.withSignatureName(id.toString)),
+                  dataProfileFields = Map.empty
                 )
               }
           }
