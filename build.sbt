@@ -39,14 +39,13 @@ lazy val docs = project.in(file("docs"))
   .settings(Common.settings)
   .settings(
     micrositeName := "ML Lambda",
-    micrositeDescription := "Machine Learning Serving cluster",
+    micrositeDescription := "Machine Learning Serving Сluster",
     micrositeAuthor := "hydrosphere.io",
     micrositeHighlightTheme := "atom-one-light",
-    micrositeDocumentationUrl := "api",
+    micrositeDocumentationUrl := "getting-started.html",
     micrositeGithubOwner := "Hydrospheredata",
     micrositeGithubRepo := "hydro-serving",
     micrositeBaseUrl := "/serving-docs",
-    micrositeDataDirectory := (resourceDirectory in Compile).value / "site" / "mydatafiles",
     micrositeTwitter := "@hydrospheredata",
     micrositeTwitterCreator := "@hydrospheredata",
       micrositePalette := Map(

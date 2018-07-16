@@ -1,7 +1,4 @@
 options:
-  - title: ML Lambda
-    url: "index.html"
-
   - title: Getting Started
     url: "getting-started.html"
 

@@ -32,7 +32,7 @@ _Note: If you want to revise models' contracts, you can follow right arrow icon 
 ## Uploading Models 
 
 * [TensorFlow]({{site.baseurl}}{%link models.md%}#tensorflow)
-* [Keras]({{site.baseurl}}{%link model.md%}#keras)
+* [Keras]({{site.baseurl}}{%link models.md%}#keras)
 * [Python]({{site.baseurl}}{%link models.md%}#python)
 * [Apache Spark]({{site.baseurl}}{%link models.md%}#apache-spark)
 
@@ -40,7 +40,8 @@ _Note: If you want to revise models' contracts, you can follow right arrow icon 
 Todo
 
 ### Keras
-Todo
+
+You can run Keras models using `hydrosphere/serving-runtime-tensorflow` runtime. To do that, you'll need to export your model with `SavedModelBuilder`.
 
 ### Python
 
