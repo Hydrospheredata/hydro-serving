@@ -144,7 +144,7 @@ There's actually 2 ways to run keras models inside ML Lambda:
 1. If Keras is used with TensorFlow backend, then it's possible to export `tf.session` and use it inside `hydrosphere/serving-runtime-tensorflow` runtime. 
 2. Otherwize it's possible to use `hydrosphere/serving-runtime-python` runtime and define all actions in a python script. 
 
-_Note: For this tutorial we will do the second approach, but if you want to get familiar with the first one, you can follow this lnik._
+_Note: For this tutorial we will do the second approach, but if you want to get familiar with the first one, you can follow [this lnik]({{site.baseurl}}{%link models.md%}#uploading-keras)._
 
 #### Creating handler 
 
@@ -174,10 +174,9 @@ def infer(x):
     # 2. Make prediction
     result = model.predict(data)
     y = hs.TensorProto(
-        double_val=np.array(result).flatten(),
-        tensor_shape=hs.TensorShapeProto(
-            dim=[hs.TensorShapeProto.Dim(size=1)]),
-        dtype=hs.DT_DOUBLE)
+        dtype=hs.DT_DOUBLE,
+        double_val=result.flatten(),
+        tensor_shape=hs.TensorShapeProto(dim=[hs.TensorShapeProto.Dim(size=-1)]))
 
     # 3. Return the result
     return hs.PredictResponse(outputs={"y": y})

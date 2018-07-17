@@ -29,21 +29,78 @@ _Note: If you want to revise models' contracts, you can follow right arrow icon 
 
 ![]({{site.baseurl}}{%link /img/ui-models-page.png%})
 
-## Uploading Models 
+## Uploading Models
 
-* [TensorFlow]({{site.baseurl}}{%link models.md%}#tensorflow)
-* [Keras]({{site.baseurl}}{%link models.md%}#keras)
-* [Python]({{site.baseurl}}{%link models.md%}#python)
-* [Apache Spark]({{site.baseurl}}{%link models.md%}#apache-spark)
+Below you can find differnet ways to upload your models.
 
-### TensorFlow
-Todo
+### Uploading TensorFlow
 
-### Keras
+Running tensorflow models with ML Lambda is pretty simple, just save you model and it's variables with `SavedModelBuilder` and you're ready to go. 
 
-You can run Keras models using `hydrosphere/serving-runtime-tensorflow` runtime. To do that, you'll need to export your model with `SavedModelBuilder`.
+```
+import tensorflow as tf
 
-### Python
+...
+builder = tf.saved_model.builder.SavedModelBuilder('saved_model')
+
+with tf.Session() as sess:
+    ...
+    builder.add_meta_graph_and_variables(
+        sess=sess,
+        tags=['foo_tag', 'bar_tag'],
+        signature_def_map=foo_signatures
+    )
+
+builder.save()
+```
+
+Upload model and create a corresponding application that uses `hydrosphere/serving-runtime-tensorflow` as runtime. 
+
+```sh
+$ cd saved_model
+$ hs upload --host "localhost" --port 8080
+```
+
+### Uploading Keras
+
+There're 2 ways to run Keras models with ML Lambda.
+
+1. If you're using `tensorflow` backend, you can run Keras model using `tensorflow` runtime. To do that, you'll need to export your model with `SavedModelBuilder`.
+
+    ```python
+    from keras import backend
+    import tensorflow as tf
+
+    # create and train model
+    model = ...
+
+    # export trained model
+    builder = tf.saved_model.builder.SavedModelBuilder('saved_model')
+    signature = tf.saved_model.signature_def_utils.predict_signature_def(
+        inputs={'input': model.input}, outputs={'output': model.output}
+    )
+    builder.add_meta_graph_and_variables(
+        sess=backend.get_session(),
+        tags=[tf.saved_model.tag_constants.SERVING],
+        signature_def_map={
+            tf.saved_model.signature_constants.DEFAULT_SERVING_SIGNATURE_DEF_KEY: signature
+        }
+    )
+
+    # save model
+    builder.save()
+    ```
+
+    Upload model and create a corresponding application that uses `hydrosphere/serving-runtime-tensorflow` as runtime. 
+
+    ```sh
+    $ cd saved_model
+    $ hs upload --host "localhost" --port 8080
+    ```
+
+2. If you're using different backend, you can save this model to `.h5` format and run it under python runtime with pre-defined `requirements.txt`, `contract.prototxt` and `serving.yaml` files. [Here's]({{site.baseurl}}{%link getting-started.md%}#uploading-own-model) step-by-step guide on how to achieve that.
+
+### Uploading Python
 
 In order to upload and use Python model, you will need to do the following:
 
@@ -62,7 +119,8 @@ model
     └── func_main.py
 ```
 
-Now upload model.
+Now upload model and create a correspnding application that uses `hydrosphere/serving-runtime-python` as runtime.
+
 ```sh
 $ hs upload --host "localhost" --port 8080
 ```

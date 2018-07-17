@@ -14,6 +14,16 @@ options:
   
   - title: Models
     url: "models.html"
+
+    nested_options:
+      - title: Uploading TensorFlow
+        url: "models.html#uploading-tensorflow"
+
+      - title: Uploading Keras
+        url: "models.html#uploading-keras"
+
+      - title: Uploading Python
+        url: "models.html#uploading-python"
   
   - title: Contracts
     url: "contracts.html"
