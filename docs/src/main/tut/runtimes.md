@@ -5,14 +5,13 @@ permalink: 'runtimes.html'
 position: 7
 ---
 
-__Runtime__ is a Docker image with the predefined infrastructure. It implements a set of specific methods that are used as an endpoints to the model. It's responsible for running user-defined models. When you create a new application, you also have to provide a corresponing runtime to each models' instances.
+# Runtimes
 
-# Available Runtimes
-{: #available-runtimes}
+__Runtime__ is a Docker image with a predefined infrastructure. It implements a set of specific methods that are used as an endpoints to the model. It's responsible for running user-defined models. When you create a new application, you also have to provide a corresponing runtime to each models' instances.
+
+## Available Runtimes
 
 We've already implemented a few runtimes which you can use in your own projects. They are all open source and you can look up code if you need. 
-
->Note: If you are using a framework for which runtime isn't implemented yet, you can open an [issue][github-serving-new-issue] on Github.
 
 | Framework | Runtime | Versions | Links
 | --------- | ------- | ------- | ---- |
@@ -20,9 +19,9 @@ We've already implemented a few runtimes which you can use in your own projects.
 | TensorFlow | hydrosphere/serving-runtime-tensorflow | 1.4.0-latest<br>1.5.0-latest<br>1.6.0-latest<br>1.7.0-latest | [Docker Hub][docker-hub-tensorflow]<br>[Github][github-serving-tensorflow] |
 | Spark | hydrosphere/serving-runtime-spark | 2.0-latest<br>2.1-latest<br>2.2-latest | [Docker Hub][docker-hub-spark]<br>[Github][github-serving-spark] |
 
+_Note: If you are using a framework for which runtime isn't implemented yet, you can open an [issue][github-serving-new-issue] on our Github._
 
-# Developing Runtime
-{: #developing-runtime}
+## Developing Runtime
 
 Sometimes you have to use technology that we are not supporting yet or you need more flexibility and you want to implement your own runtime. It may seem frightening at first glance, but it's actually not that difficult. ML Lambda is designed to abstract it's guts from model users and runtime developers. The key things you have to know to write your own runtime are: 
 
@@ -31,7 +30,7 @@ Sometimes you have to use technology that we are not supporting yet or you need 
 * Knowing how to create your own docker image and publish it to an open registry.
 
 
-## Generating GRPC code
+### Generating GRPC code
 
 There're different approaches on how to generate client and server gRPC code on [different languages][grpc-docs]. Let's have a look on how to do that on Python.
 
@@ -94,7 +93,7 @@ runtime
         └── types_pb2_grpc.py
 ```
 
-## Implementing Service
+### Implementing Service
 
 Now, that we have everything set up, let's actually implement runtime.
 
@@ -205,11 +204,11 @@ if __name__ == '__main__':
         runtime.stop()
 ```
 
-## Publishing Runtime
+### Publishing Runtime
 
 Before we can use the runtime, we have to wrap it up into docker image.
 
-Add requirements, so we can easily setup all dependencies.
+Add requirements for installing dependencies.
 
 `requirements.txt`
 ```
@@ -232,9 +231,11 @@ WORKDIR /app
 
 CMD ["python", "main.py"]
 ```
-`APP_PORT` is an environment variable that is used by _Manager_. When the `PredictRequest` is generated, it goes directly to that port. Although we specify the variable here, we actually don't have to as it will be generated automatically by _Manager_, but we'll keep it as a backup.
+
+`APP_PORT` is an environment variable that is used by ML Lambda. When ML Lambda invokes `Predict` method, it does it via defined port.
 
 The structure of the `runtime` folder now should look like this:
+
 ```sh
 runtime
 ├── Dockerfile
@@ -278,7 +279,7 @@ $ docker push {username}/python-runtime-example:3.6.5
 
 The `username` should be the one you have registered in Docker Hub. 
 
-## Fetching Runtime
+### Fetching Runtime
 
 To add your newly created runtime to ML Lambda just execute the following lines:
 
@@ -298,7 +299,7 @@ $ curl -X POST --header 'Content-Type: application/json' --header 'Accept: appli
 
 Here, `name` is your image published in the Docker Hub. `version` is the tag of that image. The last parameter (`http://localhost:8080/api/v1/runtime`) is where your ML Lambda instance is running.
 
-## Result
+### Result
 
 That's it. You've just created a simple runtime, that you can use in your own projects. It's almost an equal version of our [python runtime implementation][github-python-runtime]. You can always look up details there. 
 
