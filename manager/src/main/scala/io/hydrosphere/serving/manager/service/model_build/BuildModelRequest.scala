@@ -7,3 +7,7 @@ case class BuildModelRequest (
   flatContract: Option[ContractDescription] = None,
   modelVersion: Option[Long] = None
 )
+
+case class BuildModelContainerRequest(
+
+)

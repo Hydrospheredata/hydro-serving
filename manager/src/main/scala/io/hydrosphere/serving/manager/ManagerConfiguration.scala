@@ -5,7 +5,8 @@ import java.nio.file.{Files, Paths}
 import com.amazonaws.regions.Regions
 import com.typesafe.config.{Config, ConfigException}
 import com.zaxxer.hikari.HikariConfig
-import io.hydrosphere.serving.manager.service.runtime.{CreateRuntimeRequest, DefaultRuntimes}
+import io.hydrosphere.serving.manager.model.db.CreateRuntimeRequest
+import io.hydrosphere.serving.manager.service.runtime.DefaultRuntimes
 import io.hydrosphere.serving.manager.service.source.storages.local.LocalModelStorageDefinition
 
 import collection.JavaConverters._

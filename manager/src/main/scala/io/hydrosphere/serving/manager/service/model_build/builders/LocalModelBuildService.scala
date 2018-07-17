@@ -26,17 +26,17 @@ class LocalModelBuildService(
   private val modelFilesDir = s"$modelRootDir/files/"
   private val contractFile = s"$modelRootDir/contract.protobin"
 
-  override def build(modelBuild: ModelBuild, imageName: String, script: String, progressHandler: ProgressHandler): HFResult[String] = {
+  override def build(modelBuild: ModelBuild, script: String, progressHandler: ProgressHandler): HFResult[String] = {
     val tmpBuildPath = Files.createTempDirectory(s"hydroserving-${modelBuild.id}")
     val fT = for {
       localPath <- EitherT(sourceManagementService.getLocalPath(modelBuild.model.name))
       dockerFile = prepareScript(modelBuild, script)
-      buildRes <- EitherT(build(tmpBuildPath, localPath, dockerFile, progressHandler, modelBuild, imageName))
+      buildRes <- EitherT(build(tmpBuildPath, localPath, dockerFile, progressHandler, modelBuild))
     } yield buildRes
     fT.value
   }
 
-  private def build(buildPath: Path, model: Path, dockerFile: String, progressHandler: ProgressHandler, modelBuild: ModelBuild, imageName: String): HFResult[String] = {
+  private def build(buildPath: Path, model: Path, dockerFile: String, progressHandler: ProgressHandler, modelBuild: ModelBuild): HFResult[String] = {
     try {
       Files.copy(new ByteArrayInputStream(dockerFile.getBytes), buildPath.resolve("Dockerfile"))
       Files.createDirectories(buildPath.resolve(modelRootDir))
@@ -46,7 +46,7 @@ class LocalModelBuildService(
       val dockerContainer = Option {
         dockerClient.build(
           buildPath,
-          s"$imageName:${modelBuild.version}",
+          modelBuild.model.name + ":" + modelBuild.version,
           "Dockerfile",
           progressHandler,
           BuildParam.noCache()

@@ -5,6 +5,8 @@ import scala.concurrent.Future
 trait BaseRepository[T, ID] {
   def create(entity: T): Future[T]
 
+  def update(entity: T): Future[Int]
+
   def get(id: ID): Future[Option[T]]
 
   def delete(id: ID): Future[Int]

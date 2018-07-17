@@ -23,7 +23,7 @@ import io.hydrosphere.serving.manager.service.model.{ModelManagementService, Mod
 import io.hydrosphere.serving.manager.service.model_build.builders._
 import io.hydrosphere.serving.manager.service.model_build.{ModelBuildManagementServiceImpl, ModelBuildManagmentService}
 import io.hydrosphere.serving.manager.service.model_version.{ModelVersionManagementService, ModelVersionManagementServiceImpl}
-import io.hydrosphere.serving.manager.service.runtime.{DefaultRuntimes, RuntimeManagementService, RuntimeManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.runtime.{RuntimeManagementService, RuntimeManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.service.{ServiceManagementService, ServiceManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.source.ModelStorageServiceImpl
 import io.hydrosphere.serving.monitoring.monitoring.MonitoringServiceGrpc
@@ -31,7 +31,7 @@ import io.hydrosphere.serving.profiler.profiler.DataProfilerServiceGrpc
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
 import org.apache.logging.log4j.scala.Logging
 
-import scala.concurrent.ExecutionContext
+import scala.concurrent.{ExecutionContext, Future}
 
 class ManagerServices(
   val managerRepositories: ManagerRepositories,
@@ -102,9 +102,10 @@ class ManagerServices(
 
   val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(
     managerRepositories.runtimeRepository,
+    managerRepositories.runtimePullRepository,
     dockerClient
   )
-  managerConfiguration.runtimesStarterPack.foreach(runtimeManagementService.create)
+  Future.traverse(managerConfiguration.runtimesStarterPack)(runtimeManagementService.create)
 
   val environmentManagementService: EnvironmentManagementService = new EnvironmentManagementServiceImpl(managerRepositories.environmentRepository)
 

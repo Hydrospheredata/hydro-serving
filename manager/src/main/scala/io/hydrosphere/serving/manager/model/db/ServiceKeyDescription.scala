@@ -10,9 +10,9 @@ case class ServiceKeyDescription(
   def toServiceName(): String = s"r${runtimeId}m${modelVersionId.getOrElse(0)}e${environmentId.getOrElse(0)}"
 
   override def hashCode(): Int =
-    runtime.ScalaRunTime.hash(ServiceKeyDescription.this.runtimeId) * 41 +
-      runtime.ScalaRunTime.hash(ServiceKeyDescription.this.modelVersionId) * 41 +
-      runtime.ScalaRunTime.hash(ServiceKeyDescription.this.environmentId)
+    scala.runtime.Statics.anyHash(ServiceKeyDescription.this.runtimeId)* 41 +
+      scala.runtime.Statics.anyHash(ServiceKeyDescription.this.modelVersionId) * 41 +
+      scala.runtime.Statics.anyHash(ServiceKeyDescription.this.environmentId)
 
   override def equals(obj: scala.Any): Boolean = obj match {
     case that: ServiceKeyDescription =>

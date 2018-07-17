@@ -115,8 +115,8 @@ class ServiceManagementServiceImpl(
           newService.copy(cloudDriverId = Some(cloudService.cloudDriverId))
         }
       }
-      future.onFailure {
-        case _ => serviceRepository.delete(dService.id)
+      future.failed.foreach { _ =>
+        serviceRepository.delete(dService.id)
       }
       future
     }

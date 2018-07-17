@@ -1,16 +1,18 @@
 package io.hydrosphere.serving.manager.model.api.json
 
+import io.hydrosphere.serving.manager.util.TensorUtil
 import io.hydrosphere.serving.tensorflow.tensor._
 import spray.json.{JsObject, JsValue}
 
-trait TensorJsonLens[T <: TypedTensor[_]]{
+trait TensorJsonLens[T <: TypedTensor[_]] {
   def convert: T#Self#DataT => JsValue
-  
+
   final def get(tensor: T): Seq[JsValue] = tensor.data.map(convert)
 
   final def toJson(tensor: T): JsValue = {
-    val shaper = ColumnShaper(tensor.shape)
-    shaper(get(tensor))
+    val vTensor = TensorUtil.verifyShape(tensor.asInstanceOf[TypedTensor[_]]).right.get.asInstanceOf[T]
+    val shaper = ColumnShaper(vTensor.shape)
+    shaper.shape(get(vTensor))
   }
 }
 
