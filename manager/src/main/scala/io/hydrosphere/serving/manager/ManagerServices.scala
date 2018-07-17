@@ -27,6 +27,7 @@ import io.hydrosphere.serving.manager.service.runtime.{RuntimeManagementService,
 import io.hydrosphere.serving.manager.service.service.{ServiceManagementService, ServiceManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.source.ModelStorageServiceImpl
 import io.hydrosphere.serving.monitoring.monitoring.MonitoringServiceGrpc
+import io.hydrosphere.serving.profiler.profiler.DataProfilerServiceGrpc
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
 import org.apache.logging.log4j.scala.Logging
 
@@ -52,6 +53,7 @@ class ManagerServices(
 
   val servingMeshGrpcClient: PredictionServiceGrpc.PredictionServiceStub = PredictionServiceGrpc.stub(channel)
   val monitoringServiceClient: MonitoringServiceGrpc.MonitoringServiceStub = MonitoringServiceGrpc.stub(channel)
+  val profilerServiceClient: DataProfilerServiceGrpc.DataProfilerServiceStub = DataProfilerServiceGrpc.stub(channel)
 
   val sourceManagementService = new ModelStorageServiceImpl(managerConfiguration)
 
@@ -122,6 +124,7 @@ class ManagerServices(
     serviceManagementService = serviceManagementService,
     grpcClient = servingMeshGrpcClient,
     grpcClientForMonitoring = monitoringServiceClient,
+    grpcClientForProfiler = profilerServiceClient,
     internalManagerEventsPublisher = internalManagerEventsPublisher,
     applicationConfig = managerConfiguration.application,
     runtimeRepository = managerRepositories.runtimeRepository

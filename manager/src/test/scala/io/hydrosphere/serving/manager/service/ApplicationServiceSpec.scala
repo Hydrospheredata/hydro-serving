@@ -67,7 +67,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
       )
 
       val appService = new ApplicationManagementServiceImpl(
-        null, null, null, null, null, null, null, null
+        null, null, null, null, null, null, null, null, null
       )
 
       val modelsMap = Future.successful(models)
@@ -154,7 +154,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
       when(runtimeRepo.all()).thenReturn(Future.successful(Seq.empty))
 
       val service = new ApplicationManagementServiceImpl(
-        appRepo, versionMock, null, null, null, null, null, runtimeRepo
+        appRepo, versionMock, null, null, null, null, null, null, runtimeRepo
       )
       for {
         a1 <- service.findVersionUsage(1)
