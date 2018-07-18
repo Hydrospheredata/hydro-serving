@@ -119,7 +119,8 @@ node("JenkinsOnDemand") {
     stage('Test') {
         try {
             def curVersion = currentVersion()
-            sh "sbt -DappVersion=${curVersion} test it:testOnly"
+            sh "sbt -DappVersion=${curVersion} test"
+            sh "sbt -DappVersion=${curVersion} it:testOnly"
         } finally {
             junit testResults: '**/target/test-reports/io.hydrosphere*.xml', allowEmptyResults: true
         }
