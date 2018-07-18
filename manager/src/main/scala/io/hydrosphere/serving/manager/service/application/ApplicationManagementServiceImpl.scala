@@ -527,7 +527,7 @@ class ApplicationManagementServiceImpl(
           signed <- EitherT(createDetailedServiceDesc(service, version, runtime, environment, None))
         } yield Seq(
           ApplicationStage(
-            services = List(signed),
+            services = List(signed.copy(weight = 100)), // 100 since this is the only service in the app
             signature = None,
             dataProfileFields = signed.modelVersion.dataProfileTypes.getOrElse(Map.empty)
           )
