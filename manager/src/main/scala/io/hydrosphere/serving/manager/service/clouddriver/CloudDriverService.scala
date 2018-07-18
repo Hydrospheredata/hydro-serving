@@ -123,6 +123,8 @@ object CloudDriverService {
   val DEPLOYMENT_TYPE_APP = "APP"
   val DEPLOYMENT_TYPE_SIDECAR = "SIDECAR"
 
+  val PROFILER_ID: Long = -40
+  val PROFILER_HTTP_ID: Long = -41
   val MONITORING_ID: Long = -30
   val MONITORING_HTTP_ID: Long = -31
   val MANAGER_ID: Long = -20
@@ -130,6 +132,8 @@ object CloudDriverService {
   val MANAGER_UI_ID: Long = -22
   val GATEWAY_HTTP_ID: Long = -10
   val GATEWAY_KAFKA_ID: Long = -12
+  val PROFILER_NAME: String = "profiler"
+  val PROFILER_HTTP_NAME: String = "profiler-http"
   val MONITORING_NAME: String = "monitoring"
   val MONITORING_HTTP_NAME: String = "monitoring-http"
   val MANAGER_NAME: String = "manager"
@@ -139,6 +143,7 @@ object CloudDriverService {
   val GATEWAY_KAFKA_NAME: String = "gateway-kafka"
 
   val specialIdsByNames = Map(
+    PROFILER_NAME -> PROFILER_ID,
     MONITORING_NAME -> MONITORING_ID,
     MANAGER_HTTP_NAME -> MANAGER_HTTP_ID,
     MANAGER_NAME -> MANAGER_ID,
@@ -149,11 +154,14 @@ object CloudDriverService {
   )
 
   val fakeHttpServices = Map(
+    PROFILER_ID -> PROFILER_HTTP_ID,
     MONITORING_ID -> MONITORING_HTTP_ID,
     MANAGER_ID -> MANAGER_HTTP_ID
   )
 
   val specialNamesByIds = Map(
+    PROFILER_ID -> PROFILER_NAME,
+    PROFILER_HTTP_ID -> PROFILER_HTTP_NAME,
     MONITORING_ID -> MONITORING_NAME,
     MONITORING_HTTP_ID -> MONITORING_HTTP_NAME,
     MANAGER_ID -> MANAGER_NAME,

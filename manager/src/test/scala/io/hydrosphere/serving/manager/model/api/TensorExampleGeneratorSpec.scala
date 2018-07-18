@@ -6,6 +6,7 @@ import io.hydrosphere.serving.contract.utils.ContractBuilders
 import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.tensor.{MapTensorData, TensorProto, TypedTensorFactory}
+import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 import io.hydrosphere.serving.tensorflow.types.DataType
 
 class TensorExampleGeneratorSpec extends GenericUnitTest {
@@ -161,6 +162,88 @@ class TensorExampleGeneratorSpec extends GenericUnitTest {
         val generated = TensorExampleGenerator(sig1).inputs
         assert(generated === expected)
       }
+
+      it("should generate None shape") {
+        val tensorShape = TensorShape.AnyDims()
+        val resultOpt = TensorExampleGenerator.generateTensor(tensorShape, DataType.DT_FLOAT)
+        assert(resultOpt.isDefined)
+        val result = resultOpt.get
+        assert(result.shape.toProto === None)
+        assert(result.data === Seq(1.0))
+      }
+
+      it("should generate correct scalar") {
+        val tensorShape = TensorShape.Dims(Seq.empty)
+        val resultOpt = TensorExampleGenerator.generateTensor(tensorShape, DataType.DT_FLOAT)
+        assert(resultOpt.isDefined)
+        val result = resultOpt.get
+        assert(result.shape.toProto === Some(TensorShapeProto(Seq.empty)))
+        assert(result.data === Seq(1.0))
+      }
+
+      it("should generate correct [-1] vector") {
+        val tensorShape = TensorShape.Dims(Seq(-1))
+        val resultOpt = TensorExampleGenerator.generateTensor(tensorShape, DataType.DT_FLOAT)
+        assert(resultOpt.isDefined)
+        val result = resultOpt.get
+        assert(result.shape === tensorShape)
+        assert(result.data === Seq(1.0))
+      }
+
+      it("should generate correct [1] vector") {
+        val tensorShape = TensorShape.Dims(Seq(1))
+        val resultOpt = TensorExampleGenerator.generateTensor(tensorShape, DataType.DT_FLOAT)
+        assert(resultOpt.isDefined)
+        val result = resultOpt.get
+        assert(result.shape === tensorShape)
+        assert(result.data === Seq(1.0))
+      }
+
+      it("should generate correct [2] vector") {
+        val tensorShape = TensorShape.Dims(Seq(2))
+        val resultOpt = TensorExampleGenerator.generateTensor(tensorShape, DataType.DT_FLOAT)
+        assert(resultOpt.isDefined)
+        val result = resultOpt.get
+        assert(result.shape === tensorShape)
+        assert(result.data === Seq(1.0, 1.0))
+      }
+
+      it("should generate correct [-1,1] vector") {
+        val tensorShape = TensorShape.Dims(Seq(-1, 1))
+        val resultOpt = TensorExampleGenerator.generateTensor(tensorShape, DataType.DT_FLOAT)
+        assert(resultOpt.isDefined)
+        val result = resultOpt.get
+        assert(result.shape === tensorShape)
+        assert(result.data === Seq(1.0))
+      }
+
+      it("should generate correct [-1, 4] vector") {
+        val tensorShape = TensorShape.Dims(Seq(-1, 4))
+        val resultOpt = TensorExampleGenerator.generateTensor(tensorShape, DataType.DT_FLOAT)
+        assert(resultOpt.isDefined)
+        val result = resultOpt.get
+        assert(result.shape === tensorShape)
+        assert(result.data === Seq(1.0, 1.0, 1.0, 1.0))
+      }
+
+      it("should generate correct [1, 4] vector") {
+        val tensorShape = TensorShape.Dims(Seq(1, 4))
+        val resultOpt = TensorExampleGenerator.generateTensor(tensorShape, DataType.DT_FLOAT)
+        assert(resultOpt.isDefined)
+        val result = resultOpt.get
+        assert(result.shape === tensorShape)
+        assert(result.data === Seq(1.0, 1.0, 1.0, 1.0))
+      }
+
+      it("should generate correct [4, 4] vector") {
+        val tensorShape = TensorShape.Dims(Seq(4,4))
+        val resultOpt = TensorExampleGenerator.generateTensor(tensorShape, DataType.DT_FLOAT)
+        assert(resultOpt.isDefined)
+        val result = resultOpt.get
+        assert(result.shape === tensorShape)
+        assert(result.data === Seq(1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0))
+      }
+
     }
   }
 }
