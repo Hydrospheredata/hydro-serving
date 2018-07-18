@@ -1,7 +1,5 @@
 package io.hydrosphere.serving.manager.repository.db
 
-import java.time.LocalDateTime
-
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.manager.model.DataProfileFields
@@ -22,14 +20,6 @@ class ModelRepositoryImpl(
   import ModelRepositoryImpl._
   import databaseService._
   import databaseService.driver.api._
-
-  override def updateLastUpdatedTime(timestamp: LocalDateTime): Future[Int] = {
-    val query = for {
-      models <- Tables.Model
-    } yield models.updatedTimestamp
-
-    db.run(query.update(timestamp))
-  }
 
   override def create(entity: Model): Future[Model] =
     db.run(
@@ -93,14 +83,6 @@ class ModelRepositoryImpl(
       model.modelContract.toProtoString,
       model.dataProfileTypes.map(_.toJson.toString)
     ))
-  }
-
-  override def updateLastUpdatedTime(modelId: Long, timestamp: LocalDateTime): Future[Int] = {
-    val query = for {
-      models <- Tables.Model if models.modelId === modelId
-    } yield models.updatedTimestamp
-
-    db.run(query.update(timestamp))
   }
 
   override def fetchByModelType(types: Seq[ModelType]): Future[Seq[Model]] =

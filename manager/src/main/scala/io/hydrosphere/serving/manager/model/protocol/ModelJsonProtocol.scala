@@ -1,6 +1,5 @@
 package io.hydrosphere.serving.manager.model.protocol
 
-import io.hydrosphere.serving.manager.model.DataProfileType
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.service.model.CreateModelRequest
@@ -21,7 +20,6 @@ trait ModelJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol {
     }
   }
 
-  implicit val dataProfileTypeFormat = enumFormat(DataProfileType)
   implicit val modelFormat = jsonFormat8(Model)
   implicit val runtimeFormat = jsonFormat6(Runtime)
   implicit val modelVersionFormat = jsonFormat11(ModelVersion)

@@ -23,6 +23,7 @@ import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEve
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import io.hydrosphere.serving.manager.service.service.{CreateServiceRequest, ServiceManagementService}
 import io.hydrosphere.serving.manager.util.TensorUtil
+import io.hydrosphere.serving.monitoring.data_profile_types.{DataProfileType => ProtoDataProfileType}
 import io.hydrosphere.serving.monitoring.monitoring.ExecutionInformation.ResponseOrError
 import io.hydrosphere.serving.monitoring.monitoring.{ExecutionError, ExecutionInformation, ExecutionMetadata, MonitoringServiceGrpc}
 import io.hydrosphere.serving.profiler.profiler.DataProfilerServiceGrpc
@@ -42,7 +43,6 @@ private case class ExecutionUnit(
   serviceName: String,
   servicePath: String,
   stageInfo: StageInfo,
-  dataProfileFields: DataProfileFields = Map.empty
 )
 
 private case class StageInfo(
@@ -51,19 +51,20 @@ private case class StageInfo(
   applicationId: Long,
   modelVersionId: Option[Long],
   stageId: String,
-  applicationNamespace: Option[String]
+  applicationNamespace: Option[String],
+  dataProfileFields: DataProfileFields = Map.empty
 )
 
 class ApplicationManagementServiceImpl(
-                                        applicationRepository: ApplicationRepository,
-                                        modelVersionManagementService: ModelVersionManagementService,
-                                        serviceManagementService: ServiceManagementService,
-                                        grpcClient: PredictionServiceGrpc.PredictionServiceStub,
-                                        grpcClientForMonitoring: MonitoringServiceGrpc.MonitoringServiceStub,
-                                        grpcClientForProfiler: DataProfilerServiceGrpc.DataProfilerServiceStub,
-                                        internalManagerEventsPublisher: InternalManagerEventsPublisher,
-                                        applicationConfig: ApplicationConfig,
-                                        runtimeRepository: RuntimeRepository
+  applicationRepository: ApplicationRepository,
+  modelVersionManagementService: ModelVersionManagementService,
+  serviceManagementService: ServiceManagementService,
+  grpcClient: PredictionServiceGrpc.PredictionServiceStub,
+  grpcClientForMonitoring: MonitoringServiceGrpc.MonitoringServiceStub,
+  grpcClientForProfiler: DataProfilerServiceGrpc.DataProfilerServiceStub,
+  internalManagerEventsPublisher: InternalManagerEventsPublisher,
+  applicationConfig: ApplicationConfig,
+  runtimeRepository: RuntimeRepository
 )(implicit val ex: ExecutionContext) extends ApplicationManagementService with Logging {
 
   type FutureMap[T] = Future[Map[Long, T]]
@@ -79,7 +80,8 @@ class ApplicationManagementServiceImpl(
           signatureName = executionUnit.stageInfo.signatureName,
           applicationRequestId = executionUnit.stageInfo.applicationRequestId.getOrElse(""),
           requestId = executionUnit.stageInfo.applicationRequestId.getOrElse(""), //todo fetch from response,
-          applicationNamespace = executionUnit.stageInfo.applicationNamespace.getOrElse("")
+          applicationNamespace = executionUnit.stageInfo.applicationNamespace.getOrElse(""),
+          dataTypes = executionUnit.stageInfo.dataProfileFields
         )),
         request = Option(predictRequest),
         responseOrError = responseOrError
@@ -94,7 +96,7 @@ class ApplicationManagementServiceImpl(
           case _ =>
             Unit
         }
-      
+
       grpcClientForProfiler
         .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, CloudDriverService.PROFILER_NAME)
         .analyze(execInfo)
@@ -232,13 +234,13 @@ class ApplicationManagementServiceImpl(
               applicationId = application.id,
               signatureName = servicePath.signatureName,
               stageId = stageId,
-              applicationNamespace = application.namespace
+              applicationNamespace = application.namespace,
+              dataProfileFields =  stage.dataProfileFields
             )
             val unit = ExecutionUnit(
               serviceName = stageId,
               servicePath = servicePath.signatureName,
-              stageInfo = stageInfo,
-              stage.dataProfileFields
+              stageInfo = stageInfo
             )
             serve(unit, request, tracingInfo)
           case None => Result.clientErrorF("ModelSpec in request is not specified")
@@ -257,14 +259,14 @@ class ApplicationManagementServiceImpl(
                   applicationId = application.id,
                   signatureName = signature.signatureName,
                   stageId = ApplicationStage.stageId(application.id, idx),
-                  applicationNamespace = application.namespace
+                  applicationNamespace = application.namespace,
+                  dataProfileFields =  stage.dataProfileFields
                 )
                 Result.ok(
                   ExecutionUnit(
                     serviceName = ApplicationStage.stageId(application.id, idx),
                     servicePath = stage.services.head.signature.get.signatureName, // FIXME dirty hack to fix service signatures
-                    stageInfo = stageInfo,
-                    stage.dataProfileFields
+                    stageInfo = stageInfo
                   )
                 )
               case None => Result.clientError(s"$stage doesn't have a signature")
@@ -583,19 +585,17 @@ class ApplicationManagementServiceImpl(
     val appStages =
       executionGraphRequest.stages match {
         case singleStage :: Nil if singleStage.services.lengthCompare(1) == 0 =>
-          Future.successful(inferSimpleApp(singleStage))
+          inferSimpleApp(singleStage)
         case stages =>
           inferPipelineApp(stages)
       }
-    appStages.map { result =>
-      result.right.map { sigs =>
-        ApplicationExecutionGraph(sigs.toList)
-      }
-    }
+    EitherT(appStages).map { stages =>
+      ApplicationExecutionGraph(stages.toList)
+    }.value
   }
 
-  private def inferSimpleApp(singleStage: ExecutionStepRequest): HResult[Seq[ApplicationStage]] = {
-    Result.ok(
+  private def inferSimpleApp(singleStage: ExecutionStepRequest): HFResult[Seq[ApplicationStage]] = {
+    Result.okF(
       Seq(
         ApplicationStage(
           services = singleStage.services.map(_.toWeighedService.copy(weight = 100)),
@@ -607,24 +607,22 @@ class ApplicationManagementServiceImpl(
   }
 
   private def inferPipelineApp(stages: Seq[ExecutionStepRequest]): HFResult[Seq[ApplicationStage]] = {
-    val fResult = Future.sequence {
+    Result.sequenceF {
       stages.zipWithIndex.map {
         case (stage, id) =>
-          inferServices(stage.services).map {
-            case Left(err) => Result.error(err)
-            case Right(services) =>
-              inferStageSignature(services).right.map { stageSigs =>
-                ApplicationStage(
-                  services = services.toList,
-                  signature = Some(stageSigs.withSignatureName(id.toString)),
-                  dataProfileFields = Map.empty
-                )
-              }
+          val f = for {
+            services <- EitherT(inferServices(stage.services))
+            stageSigs <- EitherT(Future.successful(inferStageSignature(services)))
+          } yield {
+            ApplicationStage(
+              services = services.toList,
+              signature = Some(stageSigs.withSignatureName(id.toString)),
+              dataProfileFields = Map.empty
+            )
           }
+          f.value
       }
     }
-
-    fResult.map(Result.sequence)
   }
 
   def inferServices(services: List[SimpleServiceDescription]): HFResult[Seq[WeightedService]] = {
