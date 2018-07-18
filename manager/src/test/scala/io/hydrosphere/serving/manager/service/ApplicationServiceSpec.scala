@@ -9,6 +9,7 @@ import io.hydrosphere.serving.manager.model.api.ModelType.Tensorflow
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, RuntimeRepository}
 import io.hydrosphere.serving.manager.service.application.ApplicationManagementServiceImpl
+import io.hydrosphere.serving.manager.service.environment.AnyEnvironment
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import io.hydrosphere.serving.manager.service.runtime.RuntimeManagementService
 import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
@@ -21,69 +22,10 @@ class ApplicationServiceSpec extends GenericUnitTest {
   implicit val ctx = ExecutionContext.global
 
   describe("Application management service") {
-    it("should be enriched") {
-      val models = Map(1l -> ModelVersion(
-        id = 1,
-        imageName = "",
-        imageTag = "",
-        imageSHA256 = "",
-        created = LocalDateTime.now(),
-        modelName = "model_name",
-        modelVersion = 1,
-        modelType = Tensorflow("1.1.0"),
-        model = None,
-        modelContract = ModelContract()
-      ))
-      val runtime = Map(1l -> Runtime(
-        id = 1,
-        name = "runtime",
-        version = "latest",
-        suitableModelType = List(),
-        tags = List(),
-        configParams = Map()
-      ))
-      val application: Application = Application(
-        id = 1,
-        name = "app",
-        contract = ModelContract(),
-        kafkaStreaming = List(),
-        namespace = None,
-        executionGraph = ApplicationExecutionGraph(
-          stages = List(
-            ApplicationStage(
-              signature = None,
-              services = List(
-                WeightedService(
-                  weight = 100,
-                  signature = None,
-                  serviceDescription = ServiceKeyDescription(
-                    1, Some(1), None
-                  )
-                )
-              )
-            )
-          )
-        )
-      )
-
-      val appService = new ApplicationManagementServiceImpl(
-        null, null, null, null, null, null, null, null, null
-      )
-
-      val modelsMap = Future.successful(models)
-      val runtimeMap = Future.successful(runtime)
-      val apps = Seq(application)
-
-      import scala.concurrent.duration._
-
-      val result = Await.result(appService.enrichServiceKeyDescription(apps, runtimeMap, modelsMap), 1 second)
-      val serviceDescription = result.head.executionGraph.stages.head.services.head.serviceDescription
-      assert(serviceDescription.runtimeName.contains("runtime:latest"))
-      assert(serviceDescription.modelName.contains("model_name:1"))
-    }
-
     it("should find version usage in applications") {
       val createdTime = LocalDateTime.now()
+
+      val runtime = Runtime(1, "name", "version", List.empty, List.empty, Map.empty)
 
       val unbuiltModel = Model(1, "model1", ModelType.Tensorflow("1.1.0"), None, ModelContract.defaultInstance, createdTime, createdTime)
 
@@ -98,18 +40,26 @@ class ApplicationServiceSpec extends GenericUnitTest {
       val graph1 = ApplicationExecutionGraph(
         List(
           ApplicationStage(
-            List(WeightedService(
-              ServiceKeyDescription(1, Some(mVersion1.id), None, Some(mVersion1.fullName), None),
-              100,
-              None
-            )), None
+            List(DetailedServiceDescription(
+              weight = 100,
+              signature = None,
+              runtime = runtime,
+              modelVersion = mVersion1,
+              environment = AnyEnvironment
+            )),
+            None,
+            Map.empty
           ),
           ApplicationStage(
-            List(WeightedService(
-              ServiceKeyDescription(2, Some(mVersion2.id), None, Some(mVersion2.fullName), None),
-              100,
-              None
-            )), None
+            List(DetailedServiceDescription(
+              weight = 100,
+              signature = None,
+              runtime = runtime,
+              modelVersion = mVersion2,
+              environment = AnyEnvironment
+            )),
+            None,
+            Map.empty
           )
         )
       )
@@ -117,29 +67,27 @@ class ApplicationServiceSpec extends GenericUnitTest {
       val graph2 = ApplicationExecutionGraph(
         List(ApplicationStage(
           List(
-            WeightedService(
-              ServiceKeyDescription(1, Some(mVersion1.id), None, Some(mVersion1.fullName), None),
-              100,
-              None
+            DetailedServiceDescription(
+              weight = 100,
+              signature = None,
+              runtime = runtime,
+              modelVersion = mVersion1,
+              environment = AnyEnvironment
             ),
-            WeightedService(
-              ServiceKeyDescription(1, Some(mVersion2.id), None, Some(mVersion2.fullName), None),
-              100,
-              None
+            DetailedServiceDescription(
+              weight = 100,
+              signature = None,
+              runtime = runtime,
+              modelVersion = mVersion2,
+              environment = AnyEnvironment
             )
-          ), None
+          ), None, Map.empty
         ))
       )
       val app2 = Application(2, "testapp2", None, ModelContract.defaultInstance, graph2, List.empty)
       val graph3 = ApplicationExecutionGraph(
         List(ApplicationStage(
-          List(
-            WeightedService(
-              ServiceKeyDescription(1, None, None, None, None),
-              100,
-              None
-            )
-          ), None
+          List.empty, None, Map.empty
         ))
       )
       val app3 = Application(3, "testapp3", None, ModelContract.defaultInstance, graph3, List.empty)
@@ -150,11 +98,11 @@ class ApplicationServiceSpec extends GenericUnitTest {
       val versionMock = mock[ModelVersionManagementService]
       when(versionMock.modelVersionsByModelVersionIds(Matchers.any())).thenReturn(Future.successful(Seq(mVersion1, mVersion2)))
 
-      val runtimeRepo = mock[RuntimeRepository]
-      when(runtimeRepo.all()).thenReturn(Future.successful(Seq.empty))
+      val runtimeServiceMock = mock[RuntimeManagementService]
+      when(runtimeServiceMock.all()).thenReturn(Future.successful(Seq.empty))
 
       val service = new ApplicationManagementServiceImpl(
-        appRepo, versionMock, null, null, null, null, null, null, runtimeRepo
+        appRepo, versionMock, null, null, null, null, null, null, null, runtimeServiceMock
       )
       for {
         a1 <- service.findVersionUsage(1)

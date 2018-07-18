@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager.repository.db
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.db.Tables
+import io.hydrosphere.serving.manager.model.DataProfileFields
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.repository.ModelVersionRepository
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
@@ -9,6 +10,7 @@ import io.hydrosphere.serving.manager.model.db.{Model, ModelVersion}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
+import spray.json._
 
 class ModelVersionRepositoryImpl(
   implicit executionContext: ExecutionContext,
@@ -31,7 +33,8 @@ class ModelVersionRepositoryImpl(
         imageTag = entity.imageTag,
         imageSha256 = entity.imageSHA256,
         modelId = entity.model.map(m => m.id),
-        modelType = entity.modelType.toTag
+        modelType = entity.modelType.toTag,
+        dataProfileFields = entity.dataProfileTypes.map(_.toJson.toString)
       )
     ).map(s => mapFromDb(s, entity.model))
 
@@ -157,7 +160,8 @@ object ModelVersionRepositoryImpl {
       modelType = ModelType.fromTag(modelVersion.modelType),
       modelContract = ModelContract.fromAscii(modelVersion.modelContract),
       created = modelVersion.createdTimestamp,
-      model = model
+      model = model,
+      dataProfileTypes = modelVersion.dataProfileFields.map(_.parseJson.convertTo[DataProfileFields])
     )
   }
 }

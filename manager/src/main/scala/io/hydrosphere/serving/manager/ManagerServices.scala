@@ -127,7 +127,8 @@ class ManagerServices(
     grpcClientForProfiler = profilerServiceClient,
     internalManagerEventsPublisher = internalManagerEventsPublisher,
     applicationConfig = managerConfiguration.application,
-    runtimeRepository = managerRepositories.runtimeRepository
+    runtimeService = runtimeManagementService,
+    environmentManagementService = environmentManagementService
   )
 
   val aggregatedInfoUtilityService: AggregatedInfoUtilityService = new AggregatedInfoUtilityServiceImpl(

@@ -18,10 +18,11 @@ import io.hydrosphere.serving.manager.model.api.tensor_builder.SignatureBuilder
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.model.{db, _}
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, RuntimeRepository}
-import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService
+import io.hydrosphere.serving.manager.service.environment.{AnyEnvironment, EnvironmentManagementService}
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
+import io.hydrosphere.serving.manager.service.runtime.RuntimeManagementService
 import io.hydrosphere.serving.manager.service.service.{CreateServiceRequest, ServiceManagementService}
 import io.hydrosphere.serving.manager.util.TensorUtil
 import io.hydrosphere.serving.monitoring.monitoring.ExecutionInformation.ResponseOrError
@@ -34,7 +35,7 @@ import io.hydrosphere.serving.tensorflow.tensor.{TensorProto, TypedTensorFactory
 import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.apache.logging.log4j.scala.Logging
-import spray.json.{JsObject, JsValue}
+import spray.json.JsObject
 
 import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Failure, Success, Try}
@@ -42,7 +43,7 @@ import scala.util.{Failure, Success, Try}
 private case class ExecutionUnit(
   serviceName: String,
   servicePath: String,
-  stageInfo: StageInfo
+  stageInfo: StageInfo,
 )
 
 private case class StageInfo(
@@ -51,19 +52,21 @@ private case class StageInfo(
   applicationId: Long,
   modelVersionId: Option[Long],
   stageId: String,
-  applicationNamespace: Option[String]
+  applicationNamespace: Option[String],
+  dataProfileFields: DataProfileFields = Map.empty
 )
 
 class ApplicationManagementServiceImpl(
-                                        applicationRepository: ApplicationRepository,
-                                        modelVersionManagementService: ModelVersionManagementService,
-                                        serviceManagementService: ServiceManagementService,
-                                        grpcClient: PredictionServiceGrpc.PredictionServiceStub,
-                                        grpcClientForMonitoring: MonitoringServiceGrpc.MonitoringServiceStub,
-                                        grpcClientForProfiler: DataProfilerServiceGrpc.DataProfilerServiceStub,
-                                        internalManagerEventsPublisher: InternalManagerEventsPublisher,
-                                        applicationConfig: ApplicationConfig,
-                                        runtimeRepository: RuntimeRepository
+  applicationRepository: ApplicationRepository,
+  modelVersionManagementService: ModelVersionManagementService,
+  environmentManagementService: EnvironmentManagementService,
+  serviceManagementService: ServiceManagementService,
+  grpcClient: PredictionServiceGrpc.PredictionServiceStub,
+  grpcClientForMonitoring: MonitoringServiceGrpc.MonitoringServiceStub,
+  grpcClientForProfiler: DataProfilerServiceGrpc.DataProfilerServiceStub,
+  internalManagerEventsPublisher: InternalManagerEventsPublisher,
+  applicationConfig: ApplicationConfig,
+  runtimeService: RuntimeManagementService
 )(implicit val ex: ExecutionContext) extends ApplicationManagementService with Logging {
 
   type FutureMap[T] = Future[Map[Long, T]]
@@ -79,7 +82,8 @@ class ApplicationManagementServiceImpl(
           signatureName = executionUnit.stageInfo.signatureName,
           applicationRequestId = executionUnit.stageInfo.applicationRequestId.getOrElse(""),
           requestId = executionUnit.stageInfo.applicationRequestId.getOrElse(""), //todo fetch from response,
-          applicationNamespace = executionUnit.stageInfo.applicationNamespace.getOrElse("")
+          applicationNamespace = executionUnit.stageInfo.applicationNamespace.getOrElse(""),
+          dataTypes = executionUnit.stageInfo.dataProfileFields
         )),
         request = Option(predictRequest),
         responseOrError = responseOrError
@@ -94,7 +98,7 @@ class ApplicationManagementServiceImpl(
           case _ =>
             Unit
         }
-      
+
       grpcClientForProfiler
         .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, CloudDriverService.PROFILER_NAME)
         .analyze(execInfo)
@@ -123,7 +127,6 @@ class ApplicationManagementServiceImpl(
       tensorShape = Some(TensorShapeProto(dim = Seq(TensorShapeProto.Dim(1))))
     ))
   }
-
 
   def serve(unit: ExecutionUnit, request: PredictRequest, tracingInfo: Option[RequestTracingInfo]): HFResult[PredictResponse] = {
     val verificationResults = request.inputs.map {
@@ -215,7 +218,6 @@ class ApplicationManagementServiceImpl(
     }
   }
 
-
   def serveApplication(application: Application, request: PredictRequest, tracingInfo: Option[RequestTracingInfo]): HFResult[PredictResponse] = {
     application.executionGraph.stages match {
       case stage :: Nil if stage.services.lengthCompare(1) == 0 => // single stage with single service
@@ -232,7 +234,8 @@ class ApplicationManagementServiceImpl(
               applicationId = application.id,
               signatureName = servicePath.signatureName,
               stageId = stageId,
-              applicationNamespace=application.namespace
+              applicationNamespace = application.namespace,
+              dataProfileFields =  stage.dataProfileFields
             )
             val unit = ExecutionUnit(
               serviceName = stageId,
@@ -247,7 +250,7 @@ class ApplicationManagementServiceImpl(
           case (stage, idx) =>
             stage.signature match {
               case Some(signature) =>
-                val vers=stage.services.headOption.flatMap(_.serviceDescription.modelVersionId)
+                val vers = stage.services.headOption.flatMap(_.serviceDescription.modelVersionId)
                 val stageInfo = StageInfo(
                   //TODO will be wrong modelVersionId during blue-green
                   //TODO Get this value from sidecar or in sidecar
@@ -256,7 +259,8 @@ class ApplicationManagementServiceImpl(
                   applicationId = application.id,
                   signatureName = signature.signatureName,
                   stageId = ApplicationStage.stageId(application.id, idx),
-                  applicationNamespace=application.namespace
+                  applicationNamespace = application.namespace,
+                  dataProfileFields =  stage.dataProfileFields
                 )
                 Result.ok(
                   ExecutionUnit(
@@ -327,14 +331,14 @@ class ApplicationManagementServiceImpl(
   }
 
   override def getApplication(appId: Long): HFResult[Application] = {
-    applicationRepository.get(appId).flatMap {
-      case Some(app) => enrichApplication(app)
-      case None => Result.clientErrorF(s"Can't find application with ID $appId")
+    applicationRepository.get(appId).map {
+      case Some(app) => Result.ok(app)
+      case None => Result.clientError(s"Can't find application with ID $appId")
     }
   }
 
   def allApplications(): Future[Seq[Application]] = {
-    applicationRepository.all().flatMap(enrichApplications)
+    applicationRepository.all()
   }
 
   def findVersionUsage(versionId: Long): Future[Seq[Application]] = {
@@ -346,81 +350,6 @@ class ApplicationManagementServiceImpl(
           }
         }
       }
-    }
-  }
-
-  def enrichApplication(app: Application): HFResult[Application] = {
-    enrichApplications(Seq(app)).map(_.headOption.toHResult(ClientError("Can't enrich application")))
-  }
-
-  def enrichApplication(app: Option[Application]): Future[Option[Application]] = {
-    enrichApplications(app.toSeq).map(_.headOption)
-  }
-
-  def enrichApplications(apps: Seq[Application]): Future[Seq[Application]] = {
-
-    def extractServiceField[E](extractor: ServiceKeyDescription => E): Seq[E] =
-      for {
-        app <- apps
-        stage <- app.executionGraph.stages
-        service <- stage.services
-      } yield extractor(service.serviceDescription)
-
-
-    def groupBy[K, V](seq: Seq[V])(idExtractor: V => K): Map[K, V] = seq
-      .groupBy(idExtractor(_))
-      .mapValues(_.headOption)
-      .filter(_._2.isDefined)
-      .mapValues(_.get)
-
-    val modelIds = extractServiceField(_.modelVersionId).flatten.toSet
-
-    val modelsAndVersionsById: FutureMap[ModelVersion] = modelVersionManagementService.modelVersionsByModelVersionIds(modelIds)
-      .map(groupBy(_) {
-        _.id
-      })
-
-    val runtimesById: FutureMap[db.Runtime] = runtimeRepository.all().map(groupBy(_) {
-      _.id
-    })
-
-    enrichServiceKeyDescription(apps, runtimesById, modelsAndVersionsById)
-
-  }
-
-  def enrichServiceKeyDescription(apps: Seq[Application],
-    futureRuntimes: FutureMap[Runtime],
-    futureModels: FutureMap[ModelVersion]): Future[Seq[Application]] = {
-
-    def enrichApps(apps: Seq[Application])
-      (enrich: ServiceKeyDescription => ServiceKeyDescription): Seq[Application] = apps.map {
-      app =>
-        app.copy(
-          executionGraph = app.executionGraph.copy(
-            stages = app.executionGraph.stages.map {
-              stage =>
-                stage.copy(
-                  services = stage.services.map {
-                    service =>
-                      service.copy(
-                        serviceDescription = enrich(service.serviceDescription)
-                      )
-                  }
-                )
-            }
-          )
-        )
-    }
-
-    for {
-      modelData <- futureModels
-      runtimeData <- futureRuntimes
-    } yield enrichApps(apps) {
-      key =>
-        key.copy(
-          modelName = key.modelVersionId.flatMap(modelData.get(_).map(_.fullName)),
-          runtimeName = runtimeData.get(key.runtimeId).map(_.toImageDef)
-        )
     }
   }
 
@@ -452,19 +381,18 @@ class ApplicationManagementServiceImpl(
     val keySet = keys.toSet
 
     val f = for {
-      services <- EitherT(serviceManagementService.fetchServicesUnsync(keySet).map(Result.ok))
-      existedServices = services.map(_.toServiceKeyDescription)
-      _ <- EitherT(startServices(keySet -- existedServices))
-
       graph <- EitherT(inferGraph(executionGraph))
       contract <- EitherT(inferAppContract(name, graph))
       app <- EitherT(composeAppF(name, namespace, graph, contract, kafkaStreaming))
 
+      services <- EitherT(serviceManagementService.fetchServicesUnsync(keySet).map(Result.ok))
+      existedServices = services.map(_.toServiceKeyDescription)
+      _ <- EitherT(startServices(keySet -- existedServices))
+
       createdApp <- EitherT(applicationRepository.create(app).map(Result.ok))
-      enriched <- EitherT(enrichApplication(createdApp))
     } yield {
       internalManagerEventsPublisher.applicationChanged(createdApp)
-      enriched
+      createdApp
     }
     f.value
   }
@@ -498,26 +426,24 @@ class ApplicationManagementServiceImpl(
       val res = for {
         oldApplication <- EitherT(getApplication(id))
 
+        graph <- EitherT(inferGraph(executionGraph))
+        contract <- EitherT(inferAppContract(name, graph))
+        newApplication <- EitherT(composeAppF(name, namespace, graph, contract, kafkaStreaming, id))
+
         keysSetOld = oldApplication.executionGraph.stages.flatMap(_.services.map(_.serviceDescription)).toSet
         keysSetNew = executionGraph.stages.flatMap(_.services.map(_.toDescription)).toSet
 
         _ <- EitherT(removeServiceIfNeeded(keysSetOld -- keysSetNew, id))
         _ <- EitherT(startServices(keysSetNew -- keysSetOld))
 
-        graph <- EitherT(inferGraph(executionGraph))
-        contract <- EitherT(inferAppContract(name, graph))
-        newApplication <- EitherT(composeAppF(name, namespace, graph, contract, kafkaStreaming, id))
-
         _ <- EitherT(applicationRepository.update(newApplication).map(Result.ok))
-        enriched <- EitherT(enrichApplication(newApplication))
       } yield {
-        internalManagerEventsPublisher.applicationChanged(enriched)
-        enriched
+        internalManagerEventsPublisher.applicationChanged(newApplication)
+        newApplication
       }
       res.value
     }
   }
-
 
   private def executeWithSync[A](func: => HFResult[A]): HFResult[A] = {
     applicationRepository.getLockForApplications().flatMap { lockInfo =>
@@ -581,69 +507,99 @@ class ApplicationManagementServiceImpl(
     val appStages =
       executionGraphRequest.stages match {
         case singleStage :: Nil if singleStage.services.lengthCompare(1) == 0 =>
-          Future.successful(inferSimpleApp(singleStage))
+          inferSimpleApp(singleStage) // don't perform checks
         case stages =>
           inferPipelineApp(stages)
       }
-    appStages.map { result =>
-      result.right.map { sigs =>
-        ApplicationExecutionGraph(sigs.toList)
-      }
-    }
+    EitherT(appStages).map { stages =>
+      ApplicationExecutionGraph(stages.toList)
+    }.value
   }
 
-  private def inferSimpleApp(singleStage: ExecutionStepRequest): HResult[Seq[ApplicationStage]] = {
-    Result.ok(
-      Seq(
-        ApplicationStage(
-          services = singleStage.services.map(_.toWeighedService.copy(weight = 100)),
-          signature = None
+  private def inferSimpleApp(singleStage: ExecutionStepRequest): HFResult[Seq[ApplicationStage]] = {
+    val service = singleStage.services.head
+    service.modelVersionId match {
+      case Some(vId) =>
+        val f = for {
+          version <- EitherT(modelVersionManagementService.get(vId))
+          runtime <- EitherT(runtimeService.get(service.runtimeId))
+          environment <- EitherT(environmentManagementService.get(service.environmentId.getOrElse(AnyEnvironment.id)))
+          signed <- EitherT(createDetailedServiceDesc(service, version, runtime, environment, None))
+        } yield Seq(
+          ApplicationStage(
+            services = List(signed.copy(weight = 100)), // 100 since this is the only service in the app
+            signature = None,
+            dataProfileFields = signed.modelVersion.dataProfileTypes.getOrElse(Map.empty)
+          )
         )
-      )
-    )
+        f.value
+      case None => Result.clientErrorF(s"$service doesn't have a modelversion")
+    }
   }
 
   private def inferPipelineApp(stages: Seq[ExecutionStepRequest]): HFResult[Seq[ApplicationStage]] = {
-    val fResult = Future.sequence {
+    Result.sequenceF {
       stages.zipWithIndex.map {
         case (stage, id) =>
-          inferServices(stage.services).map {
-            case Left(err) => Result.error(err)
-            case Right(services) =>
-              inferStageSignature(services).right.map { stageSigs =>
-                ApplicationStage(
-                  services = services.toList,
-                  signature = Some(stageSigs.withSignatureName(id.toString))
-                )
-              }
+          val f = for {
+            services <- EitherT(inferServices(stage.services))
+            stageSigs <- EitherT(Future.successful(inferStageSignature(services)))
+          } yield {
+            ApplicationStage(
+              services = services.toList,
+              signature = Some(stageSigs.withSignatureName(id.toString)),
+              dataProfileFields = mergeServiceDataProfilingTypes(services)
+            )
           }
+          f.value
       }
     }
-
-    fResult.map(Result.sequence)
   }
 
-  def inferServices(services: List[SimpleServiceDescription]): HFResult[Seq[WeightedService]] = {
-    val resultsF = Future.sequence {
-      services.map { s =>
-        s.modelVersionId match {
+  private def mergeServiceDataProfilingTypes(services: Seq[DetailedServiceDescription]): DataProfileFields = {
+    val maps = services.map { s =>
+      s.modelVersion.dataProfileTypes.getOrElse(Map.empty)
+    }
+    maps.reduce((a, b) => a ++ b)
+  }
+
+  def inferServices(services: List[ServiceCreationDescription]): HFResult[Seq[DetailedServiceDescription]] = {
+    Result.sequenceF {
+      services.map { service =>
+        service.modelVersionId match {
           case Some(vId) =>
-            modelVersionManagementService.get(vId).map {
-              case Right(version) =>
-                val maybeSignature = version.modelContract.signatures
-                  .find(_.signatureName == s.signatureName)
-                maybeSignature match {
-                  case Some(signature) =>
-                    Result.ok(s.toWeighedService.copy(signature = Some(signature)))
-                  case None => Result.clientError(s"$s doesn't contain such signature")
-                }
-              case Left(err) => Result.error(err)
-            }
-          case None => Result.clientErrorF(s"$s doesn't have a modelversion")
+            val f = for {
+              version <- EitherT(modelVersionManagementService.get(vId))
+              runtime <- EitherT(runtimeService.get(service.runtimeId))
+              signature <- EitherT(findSignature(version, service.signatureName))
+              environment <- EitherT(environmentManagementService.get(service.environmentId.getOrElse(AnyEnvironment.id)))
+              signed <- EitherT(createDetailedServiceDesc(service, version, runtime, environment, Some(signature)))
+            } yield signed
+            f.value
+          case None => Result.clientErrorF(s"$service doesn't have a modelversion")
         }
       }
     }
-    resultsF.map(Result.sequence)
+  }
+
+  private def findSignature(version: ModelVersion, signature: String) = {
+    Future.successful {
+      version.modelContract.signatures
+        .find(_.signatureName == signature)
+        .toHResult(Result.ClientError(s"Can't find signature $signature in $version"))
+    }
+  }
+
+  private def createDetailedServiceDesc(service: ServiceCreationDescription, modelVersion: ModelVersion, runtime: Runtime, environment: Environment, signature: Option[ModelSignature]) = {
+    Result.okF(
+      DetailedServiceDescription(
+        runtime,
+        modelVersion,
+        environment,
+        service.weight,
+        signature
+      )
+    )
   }
 
   private def inferAppContract(applicationName: String, graph: ApplicationExecutionGraph): HFResult[ModelContract] = {
@@ -652,16 +608,7 @@ class ApplicationManagementServiceImpl(
       case stage :: Nil if stage.services.lengthCompare(1) == 0 => // single model version
         stage.services.headOption match {
           case Some(serviceDesc) =>
-            serviceManagementService.fetchServicesUnsync(Set(serviceDesc.serviceDescription)).map { services =>
-              services.headOption match {
-                case Some(service) =>
-                  service.model match {
-                    case Some(model) => Result.ok(model.modelContract)
-                    case None => Result.clientError(s"Service $serviceDesc has no related model.")
-                  }
-                case None => Result.clientError(s"Can't find '${serviceDesc.serviceDescription}' service information")
-              }
-            }
+            Result.okF(serviceDesc.modelVersion.modelContract)
           case None => Result.clientErrorF(s"Can't infer contract for an empty stage")
         }
 
@@ -675,7 +622,7 @@ class ApplicationManagementServiceImpl(
     }
   }
 
-  private def inferStageSignature(serviceDescs: Seq[WeightedService]): HResult[ModelSignature] = {
+  private def inferStageSignature(serviceDescs: Seq[DetailedServiceDescription]): HResult[ModelSignature] = {
     val signatures = serviceDescs.map { service =>
       service.signature match {
         case Some(sig) => Result.ok(sig)
