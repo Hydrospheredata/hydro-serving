@@ -83,73 +83,18 @@ class ModelController(
   ))
   def uploadModel = path("api" / "v1" / "model" / "upload") {
     post {
-      entity(as[Multipart.FormData]) { (formdata: Multipart.FormData) ⇒
-        val fileNamesFuture = formdata.parts.flatMapConcat { p =>
-          logger.debug(s"Got part. Name: ${p.name} Filename: ${p.filename}")
-          p.name match {
-            case Entities.`modelType` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(_.decodeString("UTF-8"))
-                .filterNot(_.isEmpty)
-                .map(r => UploadModelType(r))
-
-            case Entities.`modelContract` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(b => ModelContract.parseFrom(b.toByteBuffer.array()))
-                .map(p => UploadContract(p))
-
-            case Entities.`modelDescription` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(_.decodeString("UTF-8"))
-                .filterNot(_.isEmpty)
-                .map(r => UploadDescription(description = r))
-
-            case Entities.`modelName` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(_.decodeString("UTF-8"))
-                .filterNot(_.isEmpty)
-                .map(r => UploadModelName(r))
-
-            case Entities.`payload` if p.filename.isDefined =>
-              val filename = p.filename.get
-              val tempPath = Files.createTempFile("upload", filename)
-              p.entity.dataBytes
-                .map { fileBytes =>
-                  Files.write(tempPath, fileBytes.toArray, StandardOpenOption.APPEND)
-                  UploadTarball(tempPath)
-                }
-
-            case Entities.`remotePayload` if p.filename.isEmpty =>
-              p.entity.dataBytes
-                .map(_.decodeString("UTF-8"))
-                .filterNot(_.isEmpty)
-                .map(r => UploadRemotePayload(r))
-
-            case _ =>
-              logger.warn(s"Unknown part. Name: ${p.name} Filename: ${p.filename}")
-              p.entity.dataBytes.map { _ =>
-                UnknownPart(p.name)
-              }
+      getFileWithMeta[ModelUpload, ModelBuild] {
+        case (Some(file), maybeMeta) =>
+          val meta = maybeMeta.getOrElse(ModelUpload())
+          val f = for {
+            taskResponse <- EitherT(modelBuildManagementService.uploadAndBuild(file, meta))
+            taskStatus <- EitherT.liftF[Future, HError, ServiceTask[BuildRequest, ModelVersion]](taskResponse.taskStatus)
+          } yield {
+            ModelBuild.fromBuildTask(taskStatus)
           }
-        }
+          f.value
 
-        val entities = fileNamesFuture.runFold(List.empty[UploadedEntity]) {
-          case (a, b) => a :+ b
-        }
-
-        def uploadModel(dd: Future[List[UploadedEntity]]) = {
-          dd.map(ModelUpload.fromUploadEntities).flatMap {
-            case Left(a) => Future.successful(Left(a))
-            case Right(b) => modelBuildManagementService.uploadAndBuild(b)
-          }
-        }
-
-        val taskStatus = for {
-          taskResponse <- EitherT(uploadModel(entities))
-          taskStatus <- EitherT.liftF[Future, HError, ServiceTask[BuildRequest, ModelVersion]](taskResponse.taskStatus)
-        } yield ModelBuild.fromBuildTask(taskStatus)
-
-        completeFRes(taskStatus.value)
+        case (None, _) => Result.clientErrorF("Couldn't find a payload in request")
       }
     }
   }

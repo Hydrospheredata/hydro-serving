@@ -202,8 +202,9 @@ class ModelBuildServiceSpec extends GenericUnitTest {
       eitherTAssert {
         val rawContract = ModelContract("new_contract_test")
         val model = dummyModel.copy(id = 1337, name = "tmodel", modelContract = rawContract)
+        val file =  Paths.get(".")
+
         val upload = ModelUpload(
-          Paths.get("."),
           Some("tmodel"),
           Some("unknown:unknown"),
           Some(rawContract),
@@ -266,7 +267,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
         Mockito.when(modelS.submitFlatContract(Matchers.any(), Matchers.any())).thenReturn(
           Result.okF(model.copy(modelContract = rawContract))
         )
-        Mockito.when(modelS.uploadModel(Matchers.any())).thenReturn(Result.okF(model))
+        Mockito.when(modelS.uploadModel(Matchers.any(), Matchers.any())).thenReturn(Result.okF(model))
 
         val pushS = mock[ModelPushService]
 
@@ -278,7 +279,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
         val service = new ModelBuildManagementServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
 
         for {
-          build <- EitherT(service.uploadAndBuild(upload))
+          build <- EitherT(service.uploadAndBuild(file, upload))
           version <- EitherT.liftF(build.future)
         } yield {
           assert(version.modelName === "tmodel")

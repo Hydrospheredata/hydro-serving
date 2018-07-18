@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager.service.model
 
+import java.nio.file.Path
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
@@ -10,7 +11,7 @@ import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.contract.ContractUtilityService
-import io.hydrosphere.serving.manager.service.source.ModelStorageService
+import io.hydrosphere.serving.manager.service.source.{ModelStorageService, StorageUploadResult}
 import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.manager.model.Result.HError
@@ -145,19 +146,23 @@ class ModelManagementServiceImpl(
     f.value
   }
 
-  override def uploadModel(upload: ModelUpload): HFResult[Model] = {
+  override  def uploadModel(tarball: Path, upload: ModelUpload): HFResult[Model] = {
     val f = for {
-      result <- EitherT(sourceManagementService.upload(upload))
-      request = CreateModelRequest(
-        name = result.name,
-        modelType = result.modelType,
-        description = result.description,
-        modelContract = result.modelContract
-      )
+      result <- EitherT(sourceManagementService.upload(tarball, upload.name))
+      request = combineMetaUpload(upload, result)
       r <- EitherT(upsertRequest(request))
     } yield r
     f.value
   }
+
+    private def combineMetaUpload(upload: ModelUpload, storageUploadResult: StorageUploadResult) = {
+      CreateModelRequest(
+        name = upload.name.getOrElse(storageUploadResult.name),
+        modelType = upload.modelType.map(ModelType.fromTag).getOrElse(storageUploadResult.modelType),
+        description = upload.description,
+        modelContract = upload.contract.getOrElse(storageUploadResult.modelContract)
+      )
+    }
 
   private def upsertRequest(request: CreateModelRequest): HFResult[Model] = {
     modelRepository.get(request.name).flatMap {

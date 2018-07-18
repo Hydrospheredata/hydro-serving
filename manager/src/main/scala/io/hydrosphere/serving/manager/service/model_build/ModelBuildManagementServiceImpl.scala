@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager.service.model_build
 
+import java.nio.file.Path
 import java.util.concurrent.Executors
 
 import cats.data.EitherT
@@ -97,9 +98,9 @@ class ModelBuildManagementServiceImpl(
     modelBuildRepository.lastForModels(ids)
   }
 
-  def uploadAndBuild(modelUpload: ModelUpload): HFResult[ExecFuture[BuildRequest, ModelVersion]] = {
+  def uploadAndBuild(tarball: Path, modelUpload: ModelUpload): HFResult[ExecFuture[BuildRequest, ModelVersion]] = {
     val f = for {
-      model <- EitherT(modelManagementService.uploadModel(modelUpload))
+      model <- EitherT(modelManagementService.uploadModel(tarball, modelUpload))
       version <- EitherT(buildModel(BuildModelRequest(model.id)))
     } yield version
     f.value

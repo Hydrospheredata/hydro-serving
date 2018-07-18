@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.model.protocol
 
 import io.hydrosphere.serving.manager.controller.environment.CreateEnvironmentRequest
+import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model.Result.{ClientError, ErrorCollection, HError, InternalError}
 import io.hydrosphere.serving.manager.model.db.{CreateRuntimeRequest, PullRuntime}
 import io.hydrosphere.serving.manager.service._
@@ -80,6 +81,8 @@ trait CompleteJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol 
 
     override def read(json: JsValue): HError = ???
   }
+
+  implicit val modelUploadFormat = jsonFormat5(ModelUpload.apply)
 }
 
 object CompleteJsonProtocol extends CompleteJsonProtocol

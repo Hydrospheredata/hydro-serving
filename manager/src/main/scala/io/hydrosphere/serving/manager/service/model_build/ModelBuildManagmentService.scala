@@ -1,5 +1,7 @@
 package io.hydrosphere.serving.manager.service.model_build
 
+import java.nio.file.Path
+
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{BuildRequest, ModelBuild, ModelVersion}
@@ -18,7 +20,7 @@ trait ModelBuildManagmentService {
 
   def buildModel(buildModelRequest: BuildModelRequest): HFResult[ExecFuture[BuildRequest, ModelVersion]]
 
-  def uploadAndBuild(modelUpload: ModelUpload): HFResult[ExecFuture[BuildRequest, ModelVersion]]
+  def uploadAndBuild(tarball: Path, modelUpload: ModelUpload): HFResult[ExecFuture[BuildRequest, ModelVersion]]
 
   def delete(buildId: Long): HFResult[ModelBuild]
 

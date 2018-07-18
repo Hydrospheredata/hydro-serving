@@ -39,8 +39,8 @@ class ModelServiceSpec extends GenericUnitTest {
       it("new model") {
         val testSourcePath = Files.createTempDirectory("upload-test").toString
         println("Test source path: " + testSourcePath)
+        val file = Paths.get("123123")
         val upload = ModelUpload(
-          Paths.get("123123"),
           Some("tf-model"),
           Some("unknown:unknown"),
           None,
@@ -60,7 +60,7 @@ class ModelServiceSpec extends GenericUnitTest {
         when(modelRepo.get(Matchers.anyLong())).thenReturn(Future.successful(None))
 
         val sourceMock = mock[ModelStorageService]
-        when(sourceMock.upload(Matchers.any())).thenReturn(
+        when(sourceMock.upload(Matchers.any(), Matchers.any())).thenReturn(
           Result.okF(StorageUploadResult(
             "tf-model",
             ModelType.Tensorflow("1.1.0"),
@@ -75,7 +75,7 @@ class ModelServiceSpec extends GenericUnitTest {
 
         val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, null)
 
-        modelManagementService.uploadModel(upload).map { maybeModel =>
+        modelManagementService.uploadModel(file, upload).map { maybeModel =>
           maybeModel.isRight should equal(true)
           val rModel = maybeModel.right.get
           println(rModel)
@@ -83,8 +83,8 @@ class ModelServiceSpec extends GenericUnitTest {
         }
       }
       it("existing model") {
+        val file = packModel("/test_models/tensorflow_model")
         val upload = ModelUpload(
-          packModel("/test_models/tensorflow_model"),
           Some("upload-model"),
           Some("unknown:unknown"),
           Some(ModelContract.defaultInstance),
@@ -107,7 +107,7 @@ class ModelServiceSpec extends GenericUnitTest {
         when(modelRepo.get(1)).thenReturn(Future.successful(Some(model)))
 
         val sourceMock = mock[ModelStorageService]
-        when(sourceMock.upload(Matchers.any())).thenReturn(
+        when(sourceMock.upload(Matchers.any(), Matchers.any())).thenReturn(
           Result.okF(StorageUploadResult(
             "upload-model",
             ModelType.Unknown(),
@@ -119,7 +119,7 @@ class ModelServiceSpec extends GenericUnitTest {
 
         val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock, null)
 
-        modelManagementService.uploadModel(upload).map { maybeModel =>
+        modelManagementService.uploadModel(file, upload).map { maybeModel =>
           assert(maybeModel.isRight, maybeModel)
           val rModel = maybeModel.right.get
           assert(rModel.name === "upload-model", rModel)

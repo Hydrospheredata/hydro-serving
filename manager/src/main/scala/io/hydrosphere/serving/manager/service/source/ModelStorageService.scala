@@ -8,10 +8,11 @@ import io.hydrosphere.serving.manager.model._
 trait ModelStorageService {
   /**
     * Perform an upload operation and return inferred metadata
-    * @param upload
+    * @param modelTarball
+    * @param maybeName
     * @return
     */
-  def upload(upload: ModelUpload): HFResult[StorageUploadResult]
+  def upload(modelTarball: Path, maybeName: Option[String]): HFResult[StorageUploadResult]
 
   /**
     * Get readable path from folder in default localStorage

@@ -23,12 +23,12 @@ class ModelStorageServiceImpl(
 
   val storage = new LocalModelStorage(managerConfiguration.localStorage)
 
-  def upload(upload: ModelUpload): HFResult[StorageUploadResult] = { //TODO reconsider this
+  def upload(modelTarball: Path, maybeName: Option[String]): HFResult[StorageUploadResult] = {
     try {
-      val modelName = upload.name.getOrElse(upload.tarballPath.getFileName.toString)
+      val modelName = maybeName.getOrElse(modelTarball.getFileName.toString)
       val unpackDir = Files.createTempDirectory(modelName)
       val rootDir = Paths.get(modelName)
-      val uploadedFiles = TarGzUtils.decompress(upload.tarballPath, unpackDir)
+      val uploadedFiles = TarGzUtils.decompress(modelTarball, unpackDir)
       val localFiles = uploadedFiles
         .filter(_.startsWith(unpackDir))
         .map { path =>
@@ -40,13 +40,13 @@ class ModelStorageServiceImpl(
       writeFilesToSource(storage, localFiles)
 
       val inferredMeta = ModelFetcher.fetch(storage, unpackDir.toString)
-      val contract = upload.contract.getOrElse(inferredMeta.contract).copy(modelName = modelName)
-      val modelType = upload.modelType.map(ModelType.fromTag).getOrElse(inferredMeta.modelType)
+      val contract = inferredMeta.contract.copy(modelName = modelName)
+      val modelType = inferredMeta.modelType
       Result.okF(
         StorageUploadResult(
           name = modelName,
           modelType = modelType,
-          description = upload.description,
+          description = None,
           modelContract = contract
         )
       )

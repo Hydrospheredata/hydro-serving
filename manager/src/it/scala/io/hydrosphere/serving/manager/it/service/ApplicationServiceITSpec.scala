@@ -14,13 +14,13 @@ import scala.concurrent.Await
 import scala.concurrent.duration._
 
 class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
-  implicit val awaitTimeout = 50.seconds
+  val file1 = packModel("/models/dummy_model")
+  val file2 = packModel("/models/dummy_model_2")
+
   val upload1 = ModelUpload(
-    packModel("/models/dummy_model"),
     name = Some("m1")
   )
   val upload2 = ModelUpload(
-    packModel("/models/dummy_model_2"),
     name = Some("m2")
   )
 
@@ -215,8 +215,8 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     dockerClient.pull("hydrosphere/serving-runtime-dummy:latest")
 
     val f = for {
-      d1 <- EitherT(managerServices.modelManagementService.uploadModel(upload1))
-      d2 <- EitherT(managerServices.modelManagementService.uploadModel(upload2))
+      d1 <- EitherT(managerServices.modelManagementService.uploadModel(file1, upload1))
+      d2 <- EitherT(managerServices.modelManagementService.uploadModel(file2, upload2))
     } yield {
       println(s"UPLOADED: $d1")
       d2
