@@ -608,16 +608,7 @@ class ApplicationManagementServiceImpl(
       case stage :: Nil if stage.services.lengthCompare(1) == 0 => // single model version
         stage.services.headOption match {
           case Some(serviceDesc) =>
-            serviceManagementService.fetchServicesUnsync(Set(serviceDesc.serviceDescription)).map { services =>
-              services.headOption match {
-                case Some(service) =>
-                  service.model match {
-                    case Some(model) => Result.ok(model.modelContract)
-                    case None => Result.clientError(s"Service $serviceDesc has no related model.")
-                  }
-                case None => Result.clientError(s"Can't find '${serviceDesc.serviceDescription}' service information")
-              }
-            }
+            Result.okF(serviceDesc.modelVersion.modelContract)
           case None => Result.clientErrorF(s"Can't infer contract for an empty stage")
         }
 
