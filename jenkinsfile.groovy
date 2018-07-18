@@ -43,7 +43,11 @@ def generateTagComment(releaseVersion) {
 }
 
 def createReleaseInGithub(gitCredentialId, organization, repository, releaseVersion, message) {
-    bodyMessage = message.replaceAll("\r", "").replaceAll("\n", "<br/>").replaceAll("<br/><br/>", "<br/>")
+    bodyMessage = message.replaceAll("\r", "")
+            .replaceAll("\n", "<br/>")
+            .replaceAll("<br/><br/>", "<br/>")
+            .replaceAll("\"","*")
+
     withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: gitCredentialId, usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD']]) {
         def request = """
             {
