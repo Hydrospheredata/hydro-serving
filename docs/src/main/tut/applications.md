@@ -2,7 +2,6 @@
 layout: docs
 title:  "Applications"
 permalink: 'applications.html'
-position: 6
 ---
 
 # Applications 

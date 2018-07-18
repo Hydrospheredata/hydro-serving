@@ -2,7 +2,6 @@
 layout: docs
 title:  "Contracts"
 permalink: 'contracts.html'
-position: 5
 ---
 
 # Contracts
@@ -15,15 +14,15 @@ To let ML Lambda understand your models you should use __contracts__. Contract i
 | ------- | ------ | --------- | ------------ |
 | TensorFlow | `maintained` | 100% | TensorFlow saves all needed metadata in `SavedModel`, so generated contracts will be very accurate.  |
 | Spark | `partly` | 50% | Spark has metadata, but it's insufficient and contract inference may be inaccurate. To give an example: 1) there isn't enough notation on how shape of the model is formed (i.e. [30, 40] might be a matrix 30x40 or 40x30); 2) types are not always coincide with what ML Lambda knows, etc. |
-| MXNet | `mannual` | 0% | MXNet has it's own export mechanism, but it does not contain any metadata related to types and shapes. |
-| SkLearn | `mannual` | 0% | Exported models does not provide required metadata. |
-| Theano | `mannual` | 0% | Exported models does not provide required metadata. |
+| MXNet | `manual` | 0% | MXNet has it's own export mechanism, but it does not contain any metadata related to types and shapes. |
+| SkLearn | `manual` | 0% | Exported models does not provide required metadata. |
+| Theano | `manual` | 0% | Exported models does not provide required metadata. |
 | ONNX | `on hold` | 80% | Currently ML Lambda is able to read ONNX's proto files, but due to the lack of support from other frameworks (PyTorch, TensorFlow, etc.) ONNX models cannot be run in the implemented runtimes. | 
 
 <p style="font-size:0.8em; margin-top: 10px; margin-left: 8px;">
 	<code>maintained</code> - No need to provide any self-written contracts, model definitions.<br>
 	<code>partly</code> - Complicated models will likely fail inference.<br>
-	<code>mannual</code> - Need to provide self-written contracts, model definitions.<br>
+	<code>manual</code> - Need to provide self-written contracts, model definitions.<br>
 	<code>on hold</code> - Full support is postponed.
 </p>
 
