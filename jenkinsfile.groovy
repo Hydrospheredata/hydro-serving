@@ -149,7 +149,9 @@ node("JenkinsOnDemand") {
             def curVersion = currentVersion()
             tagComment=generateTagComment(curVersion)
             sh "git commit -a -m 'Releasing ${curVersion}'"
-            sh "git tag -a ${curVersion} -m '${tagComment}'"
+
+            writeFile file: './target/tagMessage', text: tagComment
+            sh "git tag -a ${curVersion} --file ./target/tagMessage"
 
             sh "git checkout ${env.BRANCH_NAME}"
 
