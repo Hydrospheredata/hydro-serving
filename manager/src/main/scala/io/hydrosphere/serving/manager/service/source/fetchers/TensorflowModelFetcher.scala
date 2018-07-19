@@ -35,7 +35,7 @@ object TensorflowModelFetcher extends ModelFetcher with Logging {
         Some(
           ModelMetadata(
             modelName = directory,
-            contract = ModelContract(
+            modelContract = ModelContract(
               directory,
               signatures
             ),

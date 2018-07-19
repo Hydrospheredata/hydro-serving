@@ -7,7 +7,7 @@ import cats.implicits._
 import io.hydrosphere.serving.manager.ManagerConfiguration
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.manager.model.api.{ModelMetadata, ModelType}
 import io.hydrosphere.serving.manager.service.source.fetchers.ModelFetcher
 import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import io.hydrosphere.serving.manager.service.source.storages.local.LocalModelStorage
@@ -23,7 +23,7 @@ class ModelStorageServiceImpl(
 
   val storage = new LocalModelStorage(managerConfiguration.localStorage)
 
-  def upload(modelTarball: Path, maybeName: Option[String]): HFResult[StorageUploadResult] = {
+  def upload(modelTarball: Path, maybeName: Option[String]): HFResult[ModelMetadata] = {
     try {
       val modelName = maybeName.getOrElse(modelTarball.getFileName.toString)
       val unpackDir = Files.createTempDirectory(modelName)
@@ -40,13 +40,12 @@ class ModelStorageServiceImpl(
       writeFilesToSource(storage, localFiles)
 
       val inferredMeta = ModelFetcher.fetch(storage, unpackDir.toString)
-      val contract = inferredMeta.contract.copy(modelName = modelName)
+      val contract = inferredMeta.modelContract.copy(modelName = modelName)
       val modelType = inferredMeta.modelType
       Result.okF(
-        StorageUploadResult(
-          name = modelName,
+        ModelMetadata(
+          modelName = modelName,
           modelType = modelType,
-          description = None,
           modelContract = contract
         )
       )

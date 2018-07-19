@@ -8,6 +8,7 @@ import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.it.FullIntegrationSpec
 import io.hydrosphere.serving.manager.service.model_build.BuildModelRequest
 import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
+import io.hydrosphere.serving.monitoring.data_profile_types.DataProfileType
 import org.scalatest.BeforeAndAfterAll
 
 import scala.concurrent.{Await, Future}
@@ -17,8 +18,13 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
   implicit val awaitTimeout = 50.seconds
 
   val file1 = packModel("/models/dummy_model")
+  val dataProfileFields = Some(Map(
+    "in1" -> DataProfileType.IMAGE
+  ))
+
   val upload1 = ModelUpload(
-    name = Some("m1")
+    name = Some("m1"),
+    dataProfileFields = dataProfileFields
   )
 
   "ModelBuild serivce" should {
@@ -77,6 +83,8 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
               |/model/files/metadata/.part-00000.crc""".stripMargin.split("\n").toSet
           println(logs)
           assert(logs.subsetOf(expected))
+          assert(modelVersion.modelName === "m1")
+          assert(modelVersion.dataProfileTypes === dataProfileFields)
         }
       }
     }

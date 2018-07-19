@@ -2,8 +2,8 @@ package io.hydrosphere.serving.manager.service.source
 
 import java.nio.file.Path
 
-import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.model.api.ModelMetadata
 
 trait ModelStorageService {
   /**
@@ -12,7 +12,7 @@ trait ModelStorageService {
     * @param maybeName
     * @return
     */
-  def upload(modelTarball: Path, maybeName: Option[String]): HFResult[StorageUploadResult]
+  def upload(modelTarball: Path, maybeName: Option[String]): HFResult[ModelMetadata]
 
   /**
     * Get readable path from folder in default localStorage

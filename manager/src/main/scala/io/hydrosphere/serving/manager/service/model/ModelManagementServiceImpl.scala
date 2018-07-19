@@ -7,11 +7,11 @@ import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.model.api.ops.ModelContractOps._
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.manager.model.api.{ModelMetadata, ModelType}
 import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.contract.ContractUtilityService
-import io.hydrosphere.serving.manager.service.source.{ModelStorageService, StorageUploadResult}
+import io.hydrosphere.serving.manager.service.source.ModelStorageService
 import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.manager.model.Result.HError
@@ -44,7 +44,8 @@ class ModelManagementServiceImpl(
       description = entity.description,
       modelContract = entity.modelContract,
       created = now,
-      updated = now
+      updated = now,
+      dataProfileTypes = entity.dataProfileFields
     )
 
     getModel(inputModel.id).flatMap {
@@ -155,25 +156,20 @@ class ModelManagementServiceImpl(
     f.value
   }
 
-    private def combineMetaUpload(upload: ModelUpload, storageUploadResult: StorageUploadResult) = {
-      CreateModelRequest(
-        name = upload.name.getOrElse(storageUploadResult.name),
-        modelType = upload.modelType.map(ModelType.fromTag).getOrElse(storageUploadResult.modelType),
-        description = upload.description,
-        modelContract = upload.contract.getOrElse(storageUploadResult.modelContract)
-      )
-    }
+  private def combineMetaUpload(upload: ModelUpload, storageUploadResult: ModelMetadata) = {
+    CreateModelRequest(
+      name = upload.name.getOrElse(storageUploadResult.modelName),
+      modelType = upload.modelType.map(ModelType.fromTag).getOrElse(storageUploadResult.modelType),
+      description = upload.description.orElse(storageUploadResult.description),
+      modelContract = upload.contract.getOrElse(storageUploadResult.modelContract),
+      dataProfileFields = upload.dataProfileFields
+    )
+  }
 
   private def upsertRequest(request: CreateModelRequest): HFResult[Model] = {
     modelRepository.get(request.name).flatMap {
       case Some(model) =>
-        val updateRequest = UpdateModelRequest(
-          id = model.id,
-          name = request.name,
-          modelType = request.modelType,
-          description = request.description,
-          modelContract = request.modelContract
-        )
+        val updateRequest = request.toUpdate(model.id)
         logger.info(s"Updating uploaded model with id: ${updateRequest.id} name: ${updateRequest.name}, type: ${updateRequest.modelType}")
         updateModel(updateRequest)
 

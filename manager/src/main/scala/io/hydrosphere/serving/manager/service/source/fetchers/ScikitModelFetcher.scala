@@ -18,7 +18,7 @@ object ScikitModelFetcher extends ModelFetcher with Logging {
         ModelMetadata(
           modelName = directory,
           modelType = ModelType.Scikit(),
-          contract = contract
+          modelContract = contract
         )
       )
     } else {

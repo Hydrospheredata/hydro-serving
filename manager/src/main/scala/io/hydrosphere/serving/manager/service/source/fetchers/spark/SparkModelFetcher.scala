@@ -60,7 +60,7 @@ object SparkModelFetcher extends ModelFetcher with Logging {
               ModelMetadata(
                 modelName = directory,
                 modelType = ModelType.Spark(pipelineMetadata.sparkVersion),
-                contract = ModelContract(
+                modelContract = ModelContract(
                   directory,
                   Seq(processStages(stagesMetadata))
                 )

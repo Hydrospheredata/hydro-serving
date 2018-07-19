@@ -8,12 +8,13 @@ import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model.Result
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.manager.model.api.{ModelMetadata, ModelType}
 import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.repository.ModelRepository
 import io.hydrosphere.serving.manager.service.model.{ModelManagementServiceImpl, UpdateModelRequest}
-import io.hydrosphere.serving.manager.service.source.{ModelStorageService, StorageUploadResult}
+import io.hydrosphere.serving.manager.service.source.ModelStorageService
 import io.hydrosphere.serving.manager.util.TarGzUtils
+import io.hydrosphere.serving.monitoring.data_profile_types.DataProfileType
 import org.mockito.Matchers
 
 import scala.concurrent.Future
@@ -41,10 +42,12 @@ class ModelServiceSpec extends GenericUnitTest {
         println("Test source path: " + testSourcePath)
         val file = Paths.get("123123")
         val upload = ModelUpload(
-          Some("tf-model"),
-          Some("unknown:unknown"),
-          None,
-          None
+          name = Some("tf-model"),
+          modelType = Some("unknown:unknown"),
+          namespace = Some("system"),
+          dataProfileFields = Some(Map(
+            "k" -> DataProfileType.IMAGE
+          ))
         )
         println(upload)
         val model = Model(
@@ -54,17 +57,19 @@ class ModelServiceSpec extends GenericUnitTest {
           description = None,
           modelContract = ModelContract.defaultInstance,
           created = LocalDateTime.now(),
-          updated = LocalDateTime.now()
+          updated = LocalDateTime.now(),
+          dataProfileTypes = Some(Map(
+            "k" -> DataProfileType.IMAGE
+          ))
         )
         val modelRepo = mock[ModelRepository]
         when(modelRepo.get(Matchers.anyLong())).thenReturn(Future.successful(None))
 
         val sourceMock = mock[ModelStorageService]
         when(sourceMock.upload(Matchers.any(), Matchers.any())).thenReturn(
-          Result.okF(StorageUploadResult(
+          Result.okF(ModelMetadata(
             "tf-model",
             ModelType.Tensorflow("1.1.0"),
-            None,
             ModelContract("tf-model", Seq(ModelSignature()))
           ))
         )
@@ -80,6 +85,7 @@ class ModelServiceSpec extends GenericUnitTest {
           val rModel = maybeModel.right.get
           println(rModel)
           rModel.name should equal("tf-model")
+          assert(rModel.dataProfileTypes.get("k") === DataProfileType.IMAGE)
         }
       }
       it("existing model") {
@@ -108,10 +114,9 @@ class ModelServiceSpec extends GenericUnitTest {
 
         val sourceMock = mock[ModelStorageService]
         when(sourceMock.upload(Matchers.any(), Matchers.any())).thenReturn(
-          Result.okF(StorageUploadResult(
+          Result.okF(ModelMetadata(
             "upload-model",
             ModelType.Unknown(),
-            None,
             ModelContract("upload-model", Seq(ModelSignature()))
           ))
         )

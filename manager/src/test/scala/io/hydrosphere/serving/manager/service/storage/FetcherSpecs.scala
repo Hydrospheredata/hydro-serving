@@ -52,7 +52,7 @@ class FetcherSpecs extends GenericUnitTest {
       val model = modelResult.get
       println(model)
       assert(model.modelType === ModelType.Tensorflow("1.1.0"))
-      assert(model.contract.signatures === expectedSigs)
+      assert(model.modelContract.signatures === expectedSigs)
     }
   }
 
@@ -77,7 +77,7 @@ class FetcherSpecs extends GenericUnitTest {
       println(metadata)
       assert(metadata.modelName === "mnist")
       assert(metadata.modelType === ONNX("CNTK", "2.4"))
-      assert(metadata.contract === expectedContract)
+      assert(metadata.modelContract === expectedContract)
     }
   }
 

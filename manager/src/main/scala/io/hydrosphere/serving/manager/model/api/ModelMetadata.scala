@@ -5,5 +5,6 @@ import io.hydrosphere.serving.contract.model_contract.ModelContract
 case class ModelMetadata(
   modelName: String,
   modelType: ModelType,
-  contract: ModelContract
+  modelContract: ModelContract,
+  description: Option[String] = None
 )

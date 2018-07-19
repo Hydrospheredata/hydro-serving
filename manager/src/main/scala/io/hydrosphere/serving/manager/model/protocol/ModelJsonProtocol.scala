@@ -2,7 +2,6 @@ package io.hydrosphere.serving.manager.model.protocol
 
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db._
-import io.hydrosphere.serving.manager.service.model.CreateModelRequest
 import spray.json._
 
 
@@ -26,7 +25,6 @@ trait ModelJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol {
   implicit val modelBuildFormat = jsonFormat10(ModelBuild.apply)
   implicit val environmentFormat = jsonFormat3(Environment)
   implicit val serviceFormat = jsonFormat8(Service)
-  implicit val createModelFormat = jsonFormat4(CreateModelRequest)
 
   implicit val detailedServiceFormat = jsonFormat5(DetailedServiceDescription.apply)
   implicit val serviceKeyDescriptionFormat = jsonFormat3(ServiceKeyDescription.apply)

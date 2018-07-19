@@ -24,11 +24,11 @@ trait CompleteJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol 
     jsonFormat8(ServiceTask.apply[Req, Res])
   }
 
-  implicit val createModelRequest = jsonFormat4(CreateModelRequest)
+  implicit val createModelRequest = jsonFormat6(CreateModelRequest)
 
   implicit val pullDockerRequest = jsonFormat12(PullRuntime.apply)
 
-  implicit val updateModelRequest = jsonFormat5(UpdateModelRequest)
+  implicit val updateModelRequest = jsonFormat7(UpdateModelRequest)
 
   implicit val createModelVersionRequest = jsonFormat12(CreateModelVersionRequest)
 
@@ -82,7 +82,7 @@ trait CompleteJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol 
     override def read(json: JsValue): HError = ???
   }
 
-  implicit val modelUploadFormat = jsonFormat5(ModelUpload.apply)
+  implicit val modelUploadFormat = jsonFormat6(ModelUpload.apply)
 }
 
 object CompleteJsonProtocol extends CompleteJsonProtocol
