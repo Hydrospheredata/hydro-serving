@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.service.model
 
 import java.nio.file.Path
 
-import io.hydrosphere.serving.manager.controller.model.{ModelUpload, UploadedEntity}
+import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.api.description.ContractDescription
 import io.hydrosphere.serving.manager.model.db.Model
