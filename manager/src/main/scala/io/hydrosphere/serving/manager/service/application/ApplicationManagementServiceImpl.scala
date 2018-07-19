@@ -529,7 +529,7 @@ class ApplicationManagementServiceImpl(
           ApplicationStage(
             services = List(signed.copy(weight = 100)), // 100 since this is the only service in the app
             signature = None,
-            dataProfileFields = signed.modelVersion.dataProfileTypes.getOrElse(Map.empty)
+            dataProfileFields = signed.modelVersion.dataProfileFields.getOrElse(Map.empty)
           )
         )
         f.value
@@ -558,7 +558,7 @@ class ApplicationManagementServiceImpl(
 
   private def mergeServiceDataProfilingTypes(services: Seq[DetailedServiceDescription]): DataProfileFields = {
     val maps = services.map { s =>
-      s.modelVersion.dataProfileTypes.getOrElse(Map.empty)
+      s.modelVersion.dataProfileFields.getOrElse(Map.empty)
     }
     maps.reduce((a, b) => a ++ b)
   }

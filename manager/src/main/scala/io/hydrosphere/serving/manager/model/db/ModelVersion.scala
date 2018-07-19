@@ -17,7 +17,7 @@ case class ModelVersion(
   modelType: ModelType,
   model: Option[Model],
   modelContract: ModelContract,
-  dataProfileTypes: Option[DataProfileFields] = None,
+  dataProfileFields: Option[DataProfileFields] = None,
 ) {
   def toImageDef: String = imageName + ":" + imageTag
   def fullName: String = modelName + ":" + modelVersion

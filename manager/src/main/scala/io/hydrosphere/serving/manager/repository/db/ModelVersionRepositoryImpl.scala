@@ -34,7 +34,7 @@ class ModelVersionRepositoryImpl(
         imageSha256 = entity.imageSHA256,
         modelId = entity.model.map(m => m.id),
         modelType = entity.modelType.toTag,
-        dataProfileFields = entity.dataProfileTypes.map(_.toJson.toString)
+        dataProfileFields = entity.dataProfileFields.map(_.toJson.toString)
       )
     ).map(s => mapFromDb(s, entity.model))
 
@@ -161,7 +161,7 @@ object ModelVersionRepositoryImpl {
       modelContract = ModelContract.fromAscii(modelVersion.modelContract),
       created = modelVersion.createdTimestamp,
       model = model,
-      dataProfileTypes = modelVersion.dataProfileFields.map(_.parseJson.convertTo[DataProfileFields])
+      dataProfileFields = modelVersion.dataProfileFields.map(_.parseJson.convertTo[DataProfileFields])
     )
   }
 }

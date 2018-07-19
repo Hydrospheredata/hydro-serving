@@ -30,7 +30,7 @@ trait CompleteJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol 
 
   implicit val updateModelRequest = jsonFormat7(UpdateModelRequest)
 
-  implicit val createModelVersionRequest = jsonFormat12(CreateModelVersionRequest)
+  implicit val createModelVersionRequest = jsonFormat13(CreateModelVersionRequest)
 
   implicit val createEnvironmentRequest = jsonFormat2(CreateEnvironmentRequest)
 

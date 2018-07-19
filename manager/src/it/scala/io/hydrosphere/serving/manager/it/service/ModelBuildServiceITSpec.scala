@@ -11,7 +11,7 @@ import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
 import io.hydrosphere.serving.monitoring.data_profile_types.DataProfileType
 import org.scalatest.BeforeAndAfterAll
 
-import scala.concurrent.{Await, Future}
+import scala.concurrent.Await
 import scala.concurrent.duration._
 
 class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
@@ -84,7 +84,7 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
           println(logs)
           assert(logs.subsetOf(expected))
           assert(modelVersion.modelName === "m1")
-          assert(modelVersion.dataProfileTypes === dataProfileFields)
+          assert(modelVersion.dataProfileFields === dataProfileFields)
         }
       }
     }

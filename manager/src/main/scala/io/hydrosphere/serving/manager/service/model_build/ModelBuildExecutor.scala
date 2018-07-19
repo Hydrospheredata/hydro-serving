@@ -87,7 +87,8 @@ class ModelBuildExecutor(
             modelContract = modelBuild.model.modelContract,
             created = LocalDateTime.now,
             model = Some(modelBuild.model),
-            modelType = modelBuild.model.modelType
+            modelType = modelBuild.model.modelType,
+            dataProfileFields = modelBuild.model.dataProfileTypes
           )
           modelVersionSerivce.create(version)
       }

@@ -3,6 +3,7 @@ package io.hydrosphere.serving.manager.service.model_version
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.manager.model.DataProfileFields
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.{Model, ModelVersion}
 
@@ -18,7 +19,8 @@ case class CreateModelVersionRequest(
   modelId: Option[Long],
   tags: Option[List[String]],
   configParams: Option[Map[String, String]],
-  modelType: String
+  modelType: String,
+  dataProfileFields: Option[DataProfileFields]
 ) {
 
   def toModelVersion(model: Model): ModelVersion = {
@@ -32,7 +34,8 @@ case class CreateModelVersionRequest(
       modelContract = this.modelContract,
       created = LocalDateTime.now(),
       model = Some(model),
-      modelType = ModelType.fromTag(this.modelType)
+      modelType = ModelType.fromTag(this.modelType),
+      dataProfileFields = dataProfileFields
     )
   }
 }
