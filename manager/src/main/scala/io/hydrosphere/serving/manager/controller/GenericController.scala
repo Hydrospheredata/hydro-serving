@@ -1,60 +1,62 @@
 package io.hydrosphere.serving.manager.controller
 
-import java.nio.file.{Files, Path, StandardOpenOption}
+import java.nio.file.{Files, Path}
 
 import akka.http.scaladsl.marshalling.ToResponseMarshaller
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.server.Directives.{as, complete, entity, onComplete}
 import akka.http.scaladsl.server.Route
 import akka.stream.Materializer
-import akka.stream.scaladsl.Sink
-import io.hydrosphere.serving.manager.model.{HFResult, HResult}
+import akka.stream.scaladsl.FileIO
 import io.hydrosphere.serving.manager.model.Result.{HError, InternalError}
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol
+import io.hydrosphere.serving.manager.model.{HFResult, HResult}
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
 
+import scala.concurrent.duration._
 import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Failure, Success}
 
-
 trait GenericController extends CompleteJsonProtocol with Logging {
+  import io.hydrosphere.serving.manager.controller.GenericController._
+
   final def getFileWithMeta[T: JsonReader, R: ToResponseMarshaller](callback: (Option[Path], Option[T]) => HFResult[R])
     (implicit mat: Materializer, ec: ExecutionContext) = {
     entity(as[Multipart.FormData]) { formdata =>
+      val parts = formdata.parts.mapAsync(2) { part =>
+        logger.debug(s"Got part ${part.name} filename=${part.filename}")
+        part.name match {
+          case "payload" if part.filename.isDefined =>
+            val filename = part.filename.get
+            val tempPath = Files.createTempFile("payload", filename)
+            part.entity.dataBytes
+              .runWith(FileIO.toPath(tempPath))
+              .map(_ => UploadFile(tempPath))
 
-      val fileSource = formdata.parts
-        .filter(part => part.filename.isDefined && part.name == "payload")
-        .flatMapConcat { part =>
-          val filename = part.filename.get
-          val tempPath = Files.createTempFile("payload", filename)
-          part.entity.dataBytes
-            .map { fileBytes =>
-              Files.write(tempPath, fileBytes.toArray, StandardOpenOption.APPEND)
-              tempPath
+          case "metadata" if part.filename.isEmpty =>
+            part.toStrict(15.seconds).map { k =>
+              UploadMeta(k.entity.data.utf8String.parseJson)
             }
+
+          case x =>
+            logger.warn(s"Got unknown part name=${part.name} filename=${part.filename}")
+            Future.successful(UploadUnknown(x, part.filename))
         }
-        .take(1)
+      }
 
-      val filePartF = fileSource.runWith(Sink.headOption)
+      val entitiesF = parts.runFold(List.empty[UploadE]) {
+        case (a, b) => a :+ b
+      }
 
-      val metadataSource = formdata.parts
-        .filter(part => part.name == "metadata")
-        .flatMapConcat { part =>
-          part.entity.dataBytes
-            .map(_.decodeString("UTF-8"))
-            .filter(_.isEmpty)
-            .map(_.parseJson.convertTo[T])
+      completeFRes {
+        entitiesF.flatMap { entities =>
+          logger.debug(s"Upload entities: $entities")
+          val file = entities.find(_.isInstanceOf[UploadFile]).map(_.asInstanceOf[UploadFile].path)
+          val metadata = entities.find(_.isInstanceOf[UploadMeta]).map(_.asInstanceOf[UploadMeta].meta.convertTo[T])
+          callback(file, metadata)
         }
-        .take(1)
-
-      val metadataPart = metadataSource.runWith(Sink.headOption)
-
-      completeFRes(
-        filePartF.zip(metadataPart).flatMap{
-          case (file, meta) => callback(file, meta)
-        }
-      )
+      }
     }
   }
 
@@ -96,4 +98,14 @@ trait GenericController extends CompleteJsonProtocol with Logging {
   }
 
   def routes: Route
+}
+
+object GenericController {
+  sealed trait UploadE
+
+  case class UploadFile(path: Path) extends UploadE
+
+  case class UploadMeta(meta: JsValue) extends UploadE
+
+  case class UploadUnknown(key: String, filename: Option[String]) extends UploadE
 }
