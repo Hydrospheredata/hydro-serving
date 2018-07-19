@@ -19,12 +19,13 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
 
   val file1 = packModel("/models/dummy_model")
   val dataProfileFields = Some(Map(
-    "in1" -> DataProfileType.IMAGE
+    "in1" -> DataProfileType.IMAGE,
   ))
 
   val upload1 = ModelUpload(
     name = Some("m1"),
-    dataProfileFields = dataProfileFields
+    dataProfileFields = dataProfileFields,
+    namespace = Some("test")
   )
 
   "ModelBuild serivce" should {
@@ -85,6 +86,7 @@ class ModelBuildServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll
           assert(logs.subsetOf(expected))
           assert(modelVersion.modelName === "m1")
           assert(modelVersion.dataProfileFields === dataProfileFields)
+          assert(modelVersion.namespace === Some("test"))
         }
       }
     }

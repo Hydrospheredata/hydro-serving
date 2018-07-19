@@ -27,7 +27,9 @@ class ModelServiceSpec extends GenericUnitTest {
     description = None,
     modelContract = ModelContract.defaultInstance,
     created = LocalDateTime.now(),
-    updated = LocalDateTime.now()
+    updated = LocalDateTime.now(),
+    namespace = None,
+    dataProfileFields = None
   )
 
   def packModel(str: String): Path = {
@@ -58,9 +60,10 @@ class ModelServiceSpec extends GenericUnitTest {
           modelContract = ModelContract.defaultInstance,
           created = LocalDateTime.now(),
           updated = LocalDateTime.now(),
-          dataProfileTypes = Some(Map(
+          dataProfileFields = Some(Map(
             "k" -> DataProfileType.IMAGE
-          ))
+          )),
+          namespace = None
         )
         val modelRepo = mock[ModelRepository]
         when(modelRepo.get(Matchers.anyLong())).thenReturn(Future.successful(None))
@@ -85,7 +88,7 @@ class ModelServiceSpec extends GenericUnitTest {
           val rModel = maybeModel.right.get
           println(rModel)
           rModel.name should equal("tf-model")
-          assert(rModel.dataProfileTypes.get("k") === DataProfileType.IMAGE)
+          assert(rModel.dataProfileFields.get("k") === DataProfileType.IMAGE)
         }
       }
       it("existing model") {
@@ -104,7 +107,9 @@ class ModelServiceSpec extends GenericUnitTest {
           description = None,
           modelContract = ModelContract.defaultInstance,
           created = LocalDateTime.now(),
-          updated = LocalDateTime.now()
+          updated = LocalDateTime.now(),
+          namespace = None,
+          dataProfileFields = None
         )
 
         val modelRepo = mock[ModelRepository]
@@ -170,7 +175,9 @@ class ModelServiceSpec extends GenericUnitTest {
             description = Some("I am old"),
             modelContract = ModelContract.defaultInstance,
             created = LocalDateTime.now(),
-            updated = LocalDateTime.now()
+            updated = LocalDateTime.now(),
+            namespace = None,
+            dataProfileFields = None
           )
           val conflictModel = Model(
             id = 2,
@@ -179,7 +186,9 @@ class ModelServiceSpec extends GenericUnitTest {
             description = Some("I already have this name"),
             modelContract = ModelContract.defaultInstance,
             created = LocalDateTime.now(),
-            updated = LocalDateTime.now()
+            updated = LocalDateTime.now(),
+            namespace = None,
+            dataProfileFields = None
           )
 
           val modelRepoMock = mock[ModelRepository]
@@ -210,7 +219,9 @@ class ModelServiceSpec extends GenericUnitTest {
             description = Some("I am old"),
             modelContract = ModelContract.defaultInstance,
             created = LocalDateTime.now(),
-            updated = LocalDateTime.now()
+            updated = LocalDateTime.now(),
+            dataProfileFields = None,
+            namespace = None
           )
           val otherModel = Model(
             id = 2,
@@ -219,7 +230,9 @@ class ModelServiceSpec extends GenericUnitTest {
             description = Some("I am"),
             modelContract = ModelContract.defaultInstance,
             created = LocalDateTime.now(),
-            updated = LocalDateTime.now()
+            updated = LocalDateTime.now(),
+            dataProfileFields = None,
+            namespace = None
           )
 
           val modelRepoMock = mock[ModelRepository]

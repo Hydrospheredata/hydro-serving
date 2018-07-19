@@ -33,7 +33,9 @@ class ModelBuildServiceSpec extends GenericUnitTest {
     description = None,
     modelContract = ModelContract.defaultInstance,
     created = LocalDateTime.now(),
-    updated = LocalDateTime.now()
+    updated = LocalDateTime.now(),
+    namespace = None,
+    dataProfileFields = None
   )
 
   describe("Model build service") {
@@ -85,7 +87,9 @@ class ModelBuildServiceSpec extends GenericUnitTest {
               1,
               ModelType.Unknown("test"),
               Some(dummyModel),
-              ModelContract.defaultInstance
+              ModelContract.defaultInstance,
+              None,
+              None
             )
           )
         )
@@ -162,7 +166,9 @@ class ModelBuildServiceSpec extends GenericUnitTest {
               1,
               ModelType.Unknown("test"),
               Some(model),
-              rawContract
+              rawContract,
+              None,
+              None
             )
           )
         )
@@ -255,7 +261,9 @@ class ModelBuildServiceSpec extends GenericUnitTest {
               1,
               ModelType.Unknown("test"),
               Some(model.copy(modelContract = rawContract)),
-              rawContract
+              rawContract,
+              None,
+              None
             )
           )
         )

@@ -45,7 +45,8 @@ class ModelManagementServiceImpl(
       modelContract = entity.modelContract,
       created = now,
       updated = now,
-      dataProfileTypes = entity.dataProfileFields
+      dataProfileFields = entity.dataProfileFields,
+      namespace = entity.namespace
     )
 
     getModel(inputModel.id).flatMap {
@@ -162,7 +163,8 @@ class ModelManagementServiceImpl(
       modelType = upload.modelType.map(ModelType.fromTag).getOrElse(storageUploadResult.modelType),
       description = upload.description.orElse(storageUploadResult.description),
       modelContract = upload.contract.getOrElse(storageUploadResult.modelContract),
-      dataProfileFields = upload.dataProfileFields
+      dataProfileFields = upload.dataProfileFields,
+      namespace = upload.namespace
     )
   }
 

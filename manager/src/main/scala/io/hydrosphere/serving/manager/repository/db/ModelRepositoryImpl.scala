@@ -31,7 +31,8 @@ class ModelRepositoryImpl(
         description = entity.description,
         createdTimestamp = entity.created,
         updatedTimestamp = entity.updated,
-        dataProfileFields = entity.dataProfileTypes.map(_.toJson.toString)
+        dataProfileFields = entity.dataProfileFields.map(_.toJson.toString),
+        namespace = entity.namespace
       )
     ).map(mapFromDb)
 
@@ -72,7 +73,8 @@ class ModelRepositoryImpl(
       models.description,
       models.updatedTimestamp,
       models.modelContract,
-      models.dataProfileFields
+      models.dataProfileFields,
+      models.namespace
     )
 
     db.run(query.update(
@@ -81,7 +83,8 @@ class ModelRepositoryImpl(
       model.description,
       model.updated,
       model.modelContract.toProtoString,
-      model.dataProfileTypes.map(_.toJson.toString)
+      model.dataProfileFields.map(_.toJson.toString),
+      model.namespace
     ))
   }
 
@@ -120,6 +123,7 @@ object ModelRepositoryImpl {
       modelContract = ModelContract.fromAscii(model.modelContract),
       created = model.createdTimestamp,
       updated = model.updatedTimestamp,
-      dataProfileTypes = model.dataProfileFields.map(_.parseJson.convertTo[DataProfileFields])
+      dataProfileFields = model.dataProfileFields.map(_.parseJson.convertTo[DataProfileFields]),
+      namespace = model.namespace
     )
 }

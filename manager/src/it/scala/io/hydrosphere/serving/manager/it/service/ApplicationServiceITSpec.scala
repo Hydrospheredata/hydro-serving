@@ -8,6 +8,7 @@ import io.hydrosphere.serving.manager.it.FullIntegrationSpec
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.service.environment.AnyEnvironment
 import io.hydrosphere.serving.manager.service.model_build.BuildModelRequest
+import io.hydrosphere.serving.monitoring.data_profile_types.DataProfileType
 import org.scalatest.BeforeAndAfterAll
 
 import scala.concurrent.Await
@@ -17,8 +18,14 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
   val file1 = packModel("/models/dummy_model")
   val file2 = packModel("/models/dummy_model_2")
 
+  val dataProfileFields = Some(Map(
+    "in1" -> DataProfileType.IMAGE,
+  ))
+
   val upload1 = ModelUpload(
-    name = Some("m1")
+    name = Some("m1"),
+    dataProfileFields = dataProfileFields,
+    namespace = Some("test")
   )
   val upload2 = ModelUpload(
     name = Some("m2")
@@ -72,7 +79,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                   )
                 ),
                 None,
-                Map.empty
+                dataProfileFields.get
               )
             )
           )
@@ -144,7 +151,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                   )
                 ),
                 modelVersion.modelContract.signatures.find(_.signatureName == "default_spark").map(_.withSignatureName("0")),
-                dataProfileFields = Map.empty
+                dataProfileFields = dataProfileFields.get
               )
             )
           )

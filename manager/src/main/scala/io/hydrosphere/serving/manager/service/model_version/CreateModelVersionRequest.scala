@@ -20,7 +20,8 @@ case class CreateModelVersionRequest(
   tags: Option[List[String]],
   configParams: Option[Map[String, String]],
   modelType: String,
-  dataProfileFields: Option[DataProfileFields]
+  dataProfileFields: Option[DataProfileFields],
+  namespace: Option[String]
 ) {
 
   def toModelVersion(model: Model): ModelVersion = {
@@ -35,7 +36,8 @@ case class CreateModelVersionRequest(
       created = LocalDateTime.now(),
       model = Some(model),
       modelType = ModelType.fromTag(this.modelType),
-      dataProfileFields = dataProfileFields
+      dataProfileFields = dataProfileFields,
+      namespace = namespace
     )
   }
 }

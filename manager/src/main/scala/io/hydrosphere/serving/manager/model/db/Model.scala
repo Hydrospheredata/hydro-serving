@@ -14,5 +14,6 @@ case class Model(
   modelContract: ModelContract,
   created: LocalDateTime,
   updated: LocalDateTime,
-  dataProfileTypes: Option[DataProfileFields] = None,
+  namespace: Option[String],
+  dataProfileFields: Option[DataProfileFields]
 )

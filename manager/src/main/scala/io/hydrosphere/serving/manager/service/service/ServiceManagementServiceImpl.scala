@@ -59,7 +59,9 @@ class ServiceManagementServiceImpl(
         modelVersion = m.modelVersion,
         modelType = m.modelType,
         model = None,
-        modelContract = ModelContract.defaultInstance
+        modelContract = ModelContract.defaultInstance,
+        namespace = None,
+        dataProfileFields = None
       )),
       statusText = cloudService.statusText,
       configParams = Map()

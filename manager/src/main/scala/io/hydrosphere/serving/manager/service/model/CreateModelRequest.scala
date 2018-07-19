@@ -41,7 +41,7 @@ case class UpdateModelRequest(
       modelType = modelType,
       description = description,
       modelContract = modelContract,
-      dataProfileTypes = dataProfileFields
+      dataProfileFields = dataProfileFields
     )
   }
 }
