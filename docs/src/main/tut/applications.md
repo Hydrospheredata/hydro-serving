@@ -4,29 +4,15 @@ title:  "Applications"
 permalink: 'applications.html'
 ---
 
-# Applications 
+# Machine Learning Applications 
 
 __Application__ is a publicly available endpoint to reach your models. It allows you to use your most recent deployed production models via HTTP-requests, gRPC API calls, or configure it as a part of Kafka streams. 
 
-## Creating Application
+## Creating Applications
 
 Open ML Lambda interface, go to the `Applications` page and click `Add New` button. In the opened window you'll see basic configurations of the application. 
 
 ![]({{site.baseurl}}{%link /img/create-application-empty.png%})
-
-| # | Element | Definition |
-| - | ------- | ---------- |
-| 1 |Application Name | Name of your application. |
-| 2 | Use Kafka source | Option for configuring application as a node inside Kafka Streaming pipeline. Requires providing input/output topics. Can be configured with multiple topics. |
-| 3 | Models | Framework, containing all models, used by applicaiton. |
-| 4 | Stage_1 | Stage of the pipeline. |
-| 5 | Model Selection | Model selection field. |
-| 6 | Runtime | [Runtime]({{site.baseurl}}{%link runtimes.md%}) selection field. |
-| 7 | Signature | Field for describing which signature is going to be used from the ones, defined in the [contract]({{site.baseurl}}{%link contracts.md%}) of the model. |
-| 8 | Weight | The field, describing how much traffic model will receive with respect to other models inside the stage. Mainly used for A/B testing or canary traffic split. |
-| 9 | Add model versions | Option for adding additional models to the stage. |
-| 10 | Add New Stage | Button for creating additional stages for application. |
-| 11 | Add Application | Button for creating an application. |
 
 <br>
 When configuring applications, you have 2 options:
@@ -35,7 +21,7 @@ When configuring applications, you have 2 options:
 
 2. __Multi-staged__ application. That's an option, if you want to create pipelines that will let data flow through different models, perform pre/post processing operations, etc.
 
-## Invoking Application
+## Invoking Applications
 
 ### Test request
 

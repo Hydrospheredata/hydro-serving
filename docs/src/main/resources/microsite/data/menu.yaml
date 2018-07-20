@@ -1,5 +1,5 @@
 options:
-  - title: ML Lambda
+  - title: Introduction
     url: "index.html"
 
   - title: Getting Started
@@ -18,26 +18,27 @@ options:
       - title: Invoking Applications
         url: "getting-started.html#invoking-applications"
   
-  - title: Model Management
+  - title: Models Management
     url: "models.html"
     
     nested_options:
-      - title: TensorFlow
-        url: "models.html#uploading-tensorflow"
+      - title: Principles
+        url: "models.html#principles"
 
-      - title: Keras
-        url: "models.html#uploading-keras"
-
-      - title: Python
-        url: "models.html#uploading-python"
+      - title: Examples
+        url: "models.html#examples"
   
-  - title: ML Contracts
-    url: "contracts.html"
-  
-  - title: ML Applications
+  - title: Applications
     url: "applications.html"
 
-  - title: ML Runtimes
+    nested_options:
+      - title: Creating Applications
+        url: "applications.html#creating-application"
+      
+      - title: Invoking Applications
+        url: "applications.html#invoking-applications"
+
+  - title: Runtimes
     url: "runtimes.html"
 
     nested_options:

@@ -203,7 +203,7 @@ numpy==1.13.3
 
 Right now ML Lambda does not understand what our model expects. Let's define `serving.yaml` and `contract.prototxt`. 
 
-`serving.yaml` describes the model itself. For more information, follow [this link]({{site.baseurl}}{%link contracts.md%}#serviceyaml).
+`serving.yaml` describes the model itself. For more information, follow [this link]({{site.baseurl}}{%link models.md%}#servingyaml).
 ```yaml
 model:
   name: "linear_regression"
@@ -215,7 +215,7 @@ model:
     - "model.h5"
 ```
 
-`contract.prototxt` describes the data, that will be feed to the model. For more information, follow [this link]({{site.baseurl}}{%link contracts.md%}#contractprototxt).
+`contract.prototxt` describes the data, that will be feed to the model. For more information, follow [this link]({{site.baseurl}}{%link models.md%}#contractprototxt).
 
 ```
 signatures {
@@ -273,7 +273,7 @@ You can open [http://127.0.0.1/models][models] page to see uploaded model.
 
 Open `Applications` page and press `Add New` button. Select your model and as a runtime select `hydrosphere/serving-runtime-python` then create an application. Now you can [invoke]({{site.baseurl}}{%link getting-started.md%}#invoking-applications) your app. 
 
-_Note: If you cannot find your newly uploaded model and its listed in your models page, that means, it's still in a building stage. Wait until model changes its status to `Released`, then you can use it._
+_Note: If you cannot find your newly uploaded model and its listed in your models page, that means, it's still in a building stage. Wait until model changes its status to `Finished`, then you can use it._
 
 <hr>
 
