@@ -5,7 +5,7 @@ import java.util
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.{ListContainersParam, ListImagesParam, RemoveContainerParam}
 import com.spotify.docker.client.messages.{Container, ContainerConfig, HostConfig, PortBinding}
-import io.hydrosphere.serving.manager.{LocalDockerCloudDriverConfiguration, LocalDockerCloudDriverMonitoringConfiguration, ManagerConfiguration}
+import io.hydrosphere.serving.manager.{LocalDockerCloudDriverConfiguration, LocalDockerCloudDriverServiceConfiguration, ManagerConfiguration}
 import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.Service
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
@@ -40,7 +40,7 @@ class LocalCloudDriverService(
     )
 
     val localDockerCloudDriverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[LocalDockerCloudDriverConfiguration]
-    if (localDockerCloudDriverConfiguration.monitoring.isDefined) {
+    val servicesWithMonitoring = if (localDockerCloudDriverConfiguration.monitoring.isDefined) {
       val mConf = localDockerCloudDriverConfiguration.monitoring.get
       val monitoring = createMonitoringCloudService(mConf)
       val monitoringHttp = monitoring.copy(
@@ -55,6 +55,20 @@ class LocalCloudDriverService(
       services :+ managerHttp :+ manager :+ monitoring :+ monitoringHttp
     } else {
       services :+ managerHttp :+ manager
+    }
+    localDockerCloudDriverConfiguration.profiler match {
+      case Some(profilerConf) => 
+        val profiler = createProfilerCloudService(profilerConf)
+        val profilerHttp = profiler.copy(
+          id = PROFILER_HTTP_ID,
+          serviceName = PROFILER_HTTP_NAME,
+          instances = manager.instances.map(s => s.copy(
+            advertisedPort = profilerConf.httpPort,
+            mainApplication = s.mainApplication.copy(port = profilerConf.httpPort)
+          ))
+        )
+        servicesWithMonitoring :+ profiler :+ profilerHttp
+      case None => servicesWithMonitoring
     }
   }
 
@@ -265,13 +279,22 @@ class LocalCloudDriverService(
       "hydrosphere/serving-manager"
     )
 
-  private def createMonitoringCloudService(cfg: LocalDockerCloudDriverMonitoringConfiguration): CloudService =
+  private def createMonitoringCloudService(cfg: LocalDockerCloudDriverServiceConfiguration): CloudService =
     createSystemCloudService(
       CloudDriverService.MONITORING_NAME,
       CloudDriverService.MONITORING_ID,
       cfg.host,
       cfg.port,
-      "hydrosphere/serving-monitoring"
+      "hydrosphere/serving-sonar"
+    )
+  
+  private def createProfilerCloudService(cfg: LocalDockerCloudDriverServiceConfiguration): CloudService =
+    createSystemCloudService(
+      CloudDriverService.PROFILER_NAME,
+      CloudDriverService.PROFILER_ID,
+      cfg.host,
+      cfg.port,
+      "hydrosphere/serving-data-profiler"
     )
 
   private def fetchById(serviceId: Long): CloudService = {

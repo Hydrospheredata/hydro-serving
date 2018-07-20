@@ -1,9 +1,9 @@
 package io.hydrosphere.serving.manager.controller.application
 
+import io.hydrosphere.serving.manager.model.db.ServiceKeyDescription
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
-import io.hydrosphere.serving.manager.model.db.{ServiceKeyDescription, WeightedService}
 
-case class SimpleServiceDescription(
+case class ServiceCreationDescription(
   runtimeId: Long,
   modelVersionId: Option[Long],
   environmentId: Option[Long],
@@ -17,16 +17,8 @@ case class SimpleServiceDescription(
       environmentId
     )
   }
-
-  def toWeighedService = {
-    WeightedService(
-      toDescription,
-      weight,
-      None
-    )
-  }
 }
 
-object SimpleServiceDescription {
-  implicit val format = jsonFormat5(SimpleServiceDescription.apply)
+object ServiceCreationDescription {
+  implicit val format = jsonFormat5(ServiceCreationDescription.apply)
 }

@@ -6,10 +6,11 @@ import io.hydrosphere.serving.manager.controller.application._
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.it.FullIntegrationSpec
 import io.hydrosphere.serving.manager.model.db._
+import io.hydrosphere.serving.manager.service.environment.AnyEnvironment
 import io.hydrosphere.serving.manager.service.model_build.BuildModelRequest
 import org.scalatest.BeforeAndAfterAll
 
-import scala.concurrent.{Await}
+import scala.concurrent.Await
 import scala.concurrent.duration._
 
 class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
@@ -27,6 +28,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     "create a simple application" in {
       eitherTAssert {
         for {
+          runtime <- EitherT(managerServices.runtimeManagementService.get(1))
           modelBuild <- EitherT(managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1)))
           modelVersion <- EitherT.liftF(modelBuild.future)
           appRequest = CreateApplicationRequest(
@@ -36,8 +38,8 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
               stages = List(
                 ExecutionStepRequest(
                   services = List(
-                    SimpleServiceDescription(
-                      runtimeId = 1, // dummy runtime id
+                    ServiceCreationDescription(
+                      runtimeId = runtime.id, // dummy runtime id
                       modelVersionId = Some(modelVersion.id),
                       environmentId = None,
                       weight = 0,
@@ -61,17 +63,16 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
             List(
               ApplicationStage(
                 List(
-                  WeightedService(
-                    ServiceKeyDescription(
-                      runtimeId = 1,
-                      modelVersionId = Some(modelVersion.id),
-                      environmentId = None
-                    ),
+                  DetailedServiceDescription(
                     weight = 100,
-                    signature = None
+                    signature = None,
+                    runtime = runtime,
+                    modelVersion = modelVersion,
+                    environment = AnyEnvironment
                   )
                 ),
-                None
+                None,
+                Map.empty
               )
             )
           )
@@ -85,6 +86,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     "create a multi-service stage" in {
       eitherTAssert {
         for {
+          runtime <- EitherT(managerServices.runtimeManagementService.get(1))
           modelBuild <- EitherT(managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1)))
           modelVersion <- EitherT.liftF(modelBuild.future)
           appRequest = CreateApplicationRequest(
@@ -94,15 +96,15 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
               stages = List(
                 ExecutionStepRequest(
                   services = List(
-                    SimpleServiceDescription(
-                      runtimeId = 1, // dummy runtime id
+                    ServiceCreationDescription(
+                      runtimeId = runtime.id,
                       modelVersionId = Some(modelVersion.id),
                       environmentId = None,
                       weight = 50,
                       signatureName = "default_spark"
                     ),
-                    SimpleServiceDescription(
-                      runtimeId = 1, // dummy runtime id
+                    ServiceCreationDescription(
+                      runtimeId = runtime.id,
                       modelVersionId = Some(modelVersion.id),
                       environmentId = None,
                       weight = 50,
@@ -126,26 +128,23 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
             List(
               ApplicationStage(
                 List(
-                  WeightedService(
-                    ServiceKeyDescription(
-                      runtimeId = 1,
-                      modelVersionId = Some(modelVersion.id),
-                      environmentId = None
-                    ),
+                  DetailedServiceDescription(
                     weight = 50,
-                    signature = modelVersion.modelContract.signatures.find(_.signatureName == "default_spark")
+                    signature = modelVersion.modelContract.signatures.find(_.signatureName == "default_spark"),
+                    runtime = runtime,
+                    modelVersion = modelVersion,
+                    environment = AnyEnvironment
                   ),
-                  WeightedService(
-                    ServiceKeyDescription(
-                      runtimeId = 1,
-                      modelVersionId = Some(modelVersion.id),
-                      environmentId = None
-                    ),
+                  DetailedServiceDescription(
                     weight = 50,
-                    signature = modelVersion.modelContract.signatures.find(_.signatureName == "default_spark")
+                    signature = modelVersion.modelContract.signatures.find(_.signatureName == "default_spark"),
+                    runtime = runtime,
+                    modelVersion = modelVersion,
+                    environment = AnyEnvironment
                   )
                 ),
-                modelVersion.modelContract.signatures.find(_.signatureName == "default_spark").map(_.withSignatureName("0"))
+                modelVersion.modelContract.signatures.find(_.signatureName == "default_spark").map(_.withSignatureName("0")),
+                dataProfileFields = Map.empty
               )
             )
           )
@@ -167,7 +166,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
               stages = List(
                 ExecutionStepRequest(
                   services = List(
-                    SimpleServiceDescription(
+                    ServiceCreationDescription(
                       runtimeId = 1, // dummy runtime id
                       modelVersionId = Some(modelVersion.id),
                       environmentId = None,

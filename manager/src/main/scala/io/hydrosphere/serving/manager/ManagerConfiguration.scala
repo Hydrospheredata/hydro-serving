@@ -101,15 +101,16 @@ case class DockerCloudDriverConfiguration(
 ) extends CloudDriverConfiguration(loggingConfiguration)
 
 
-case class LocalDockerCloudDriverMonitoringConfiguration(
+case class LocalDockerCloudDriverServiceConfiguration(
   host:String,
   port:Int,
   httpPort:Int
 )
 
 case class LocalDockerCloudDriverConfiguration(
-    loggingConfiguration: Option[ModelLoggingConfiguration],
-    monitoring:Option[LocalDockerCloudDriverMonitoringConfiguration]
+  loggingConfiguration: Option[ModelLoggingConfiguration],
+  monitoring:Option[LocalDockerCloudDriverServiceConfiguration],
+  profiler: Option[LocalDockerCloudDriverServiceConfiguration]
 ) extends CloudDriverConfiguration(loggingConfiguration)
 
 case class ECSCloudDriverConfiguration(
@@ -231,24 +232,35 @@ object ManagerConfiguration {
             loggingConfiguration = loggingConfiguration
           )
         case _ =>
-          val monitroing=if(driverConf.hasPath("monitoring")){
+          val monitroing= if (driverConf.hasPath("monitoring")) {
             val c=driverConf.getConfig("monitoring")
             Some(
-              LocalDockerCloudDriverMonitoringConfiguration(
+              LocalDockerCloudDriverServiceConfiguration(
                 host=c.getString("host"),
                 port=c.getInt("port"),
                 httpPort=c.getInt("httpPort")
               )
             )
-          }else{
+          } else {
+            None
+          }
+          val profiler = if (driverConf.hasPath("profiler")) {
+            val c = driverConf.getConfig("profiler")
+            Some(LocalDockerCloudDriverServiceConfiguration(
+              host = c.getString("host"),
+              port = c.getInt("port"),
+              httpPort = c.getInt("httpPort")
+            ))
+          } else {
             None
           }
           LocalDockerCloudDriverConfiguration(
             loggingConfiguration,
-            monitroing
+            monitroing,
+            profiler
           )
       }
-    }.headOption.getOrElse(LocalDockerCloudDriverConfiguration(None, None))
+    }.headOption.getOrElse(LocalDockerCloudDriverConfiguration(None, None, None))
   }
 
   def parseAdvertised(config: Config): AdvertisedConfiguration = {

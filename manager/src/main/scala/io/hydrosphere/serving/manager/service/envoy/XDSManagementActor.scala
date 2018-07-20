@@ -1,13 +1,13 @@
 package io.hydrosphere.serving.manager.service.envoy
 
-import akka.actor.{Actor, ActorLogging, ActorRef}
+import akka.actor.{Actor, ActorLogging, ActorRef, Props}
 import io.hydrosphere.serving.manager.service.application.ApplicationManagementService
 import io.hydrosphere.serving.manager.service.clouddriver.{CloudDriverService, CloudService}
 import io.hydrosphere.serving.manager.service.envoy.xds._
 import io.hydrosphere.serving.manager.service.internal_events._
 import io.hydrosphere.serving.manager.service.service.ServiceManagementService
 
-import scala.concurrent.{Await, ExecutionContext, Future}
+import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
 
 class XDSManagementActor(
@@ -19,9 +19,8 @@ class XDSManagementActor(
   listenerDSActor: ActorRef,
   routeDSActor: ActorRef,
   applicationDSActor: ActorRef
-)(
-  implicit val ex: ExecutionContext
 ) extends Actor with ActorLogging {
+  import context._
 
   context.system.eventStream.subscribe(self, classOf[ApplicationChanged])
   context.system.eventStream.subscribe(self, classOf[ApplicationRemoved])
@@ -94,4 +93,28 @@ class XDSManagementActor(
         }.toSet
       )
     }
+}
+
+object XDSManagementActor {
+  def props(
+    serviceManagementService: ServiceManagementService,
+    applicationManagementService: ApplicationManagementService,
+    cloudDriverService: CloudDriverService,
+    clusterDSActor: ActorRef,
+    endpointDSActor: ActorRef,
+    listenerDSActor: ActorRef,
+    routeDSActor: ActorRef,
+    applicationDSActor: ActorRef
+  ): Props = {
+    Props(classOf[XDSManagementActor],
+      serviceManagementService,
+      applicationManagementService,
+      cloudDriverService,
+      clusterDSActor,
+      endpointDSActor,
+      listenerDSActor,
+      routeDSActor,
+      applicationDSActor
+    )
+  }
 }

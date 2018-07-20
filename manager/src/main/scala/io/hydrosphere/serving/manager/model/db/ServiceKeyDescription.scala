@@ -3,9 +3,7 @@ package io.hydrosphere.serving.manager.model.db
 case class ServiceKeyDescription(
   runtimeId: Long,
   modelVersionId: Option[Long],
-  environmentId: Option[Long],
-  modelName: Option[String] = None,
-  runtimeName: Option[String] = None
+  environmentId: Option[Long]
 ) {
   def toServiceName(): String = s"r${runtimeId}m${modelVersionId.getOrElse(0)}e${environmentId.getOrElse(0)}"
 
@@ -22,13 +20,13 @@ case class ServiceKeyDescription(
 }
 
 object ServiceKeyDescription {
-  val serviceKeyDescriptionPattern = """r(\d+)m(\d+)e(\d+)""".r
+  final val serviceKeyDescriptionPattern = """r(\d+)m(\d+)e(\d+)""".r
 
   def fromServiceName(name: String): Option[ServiceKeyDescription] = {
     name match {
       case serviceKeyDescriptionPattern(runtime, version, environment) =>
         val v = version.toLong
-        val e = version.toLong
+        val e = environment.toLong
 
         Some(ServiceKeyDescription(
           runtimeId = runtime.toLong,

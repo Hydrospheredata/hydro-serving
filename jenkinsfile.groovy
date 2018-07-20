@@ -43,7 +43,11 @@ def generateTagComment(releaseVersion) {
 }
 
 def createReleaseInGithub(gitCredentialId, organization, repository, releaseVersion, message) {
-    bodyMessage = message.replaceAll("\r", "").replaceAll("\n", "<br/>").replaceAll("<br/><br/>", "<br/>")
+    bodyMessage = message.replaceAll("\r", "")
+            .replaceAll("\n", "<br/>")
+            .replaceAll("<br/><br/>", "<br/>")
+            .replaceAll("\"","*")
+
     withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: gitCredentialId, usernameVariable: 'GIT_USERNAME', passwordVariable: 'GIT_PASSWORD']]) {
         def request = """
             {
@@ -119,7 +123,8 @@ node("JenkinsOnDemand") {
     stage('Test') {
         try {
             def curVersion = currentVersion()
-            sh "sbt -DappVersion=${curVersion} test it:testOnly"
+            sh "sbt -DappVersion=${curVersion} test"
+            sh "sbt -DappVersion=${curVersion} it:testOnly"
         } finally {
             junit testResults: '**/target/test-reports/io.hydrosphere*.xml', allowEmptyResults: true
         }
@@ -149,7 +154,9 @@ node("JenkinsOnDemand") {
             def curVersion = currentVersion()
             tagComment=generateTagComment(curVersion)
             sh "git commit -a -m 'Releasing ${curVersion}'"
-            sh "git tag -a ${curVersion} -m '${tagComment}'"
+
+            writeFile file: './target/tagMessage', text: tagComment
+            sh "git tag -a ${curVersion} --file ./target/tagMessage"
 
             sh "git checkout ${env.BRANCH_NAME}"
 

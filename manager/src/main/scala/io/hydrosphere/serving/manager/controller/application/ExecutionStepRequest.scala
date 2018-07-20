@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.controller.application
 
 case class ExecutionStepRequest(
-  services: List[SimpleServiceDescription]
+  services: List[ServiceCreationDescription]
 )
 
 object ExecutionStepRequest {

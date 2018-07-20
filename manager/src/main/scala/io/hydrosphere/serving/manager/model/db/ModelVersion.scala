@@ -3,6 +3,7 @@ package io.hydrosphere.serving.manager.model.db
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.manager.model.DataProfileFields
 import io.hydrosphere.serving.manager.model.api.ModelType
 
 case class ModelVersion(
@@ -15,7 +16,8 @@ case class ModelVersion(
   modelVersion: Long,
   modelType: ModelType,
   model: Option[Model],
-  modelContract: ModelContract
+  modelContract: ModelContract,
+  dataProfileTypes: Option[DataProfileFields] = None,
 ) {
   def toImageDef: String = imageName + ":" + imageTag
   def fullName: String = modelName + ":" + modelVersion

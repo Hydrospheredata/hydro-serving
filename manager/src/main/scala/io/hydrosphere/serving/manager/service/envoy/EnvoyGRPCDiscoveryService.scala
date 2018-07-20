@@ -35,7 +35,7 @@ class EnvoyGRPCDiscoveryServiceImpl(
   private val routeDSActor: ActorRef = actorSystem.actorOf(Props[RouteDSActor])
   private val applicationDSActor: ActorRef = actorSystem.actorOf(Props[ApplicationDSActor])
 
-  private val xdsManagementActor: ActorRef = actorSystem.actorOf(Props(classOf[XDSManagementActor],
+  private val xdsManagementActor: ActorRef = actorSystem.actorOf(XDSManagementActor.props(
     serviceManagementService,
     applicationManagementService,
     cloudDriverService,
@@ -43,8 +43,7 @@ class EnvoyGRPCDiscoveryServiceImpl(
     endpointDSActor,
     listenerDSActor,
     routeDSActor,
-    applicationDSActor,
-    ex
+    applicationDSActor
   ))
 
   override def subscribe(discoveryRequest: DiscoveryRequest, responseObserver: StreamObserver[DiscoveryResponse]): Unit =

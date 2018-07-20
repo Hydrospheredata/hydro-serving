@@ -297,7 +297,7 @@ Send `POST` request to ML Lambda.
     }' 'http://localhost:8080/api/v1/applications/serve/{application_id}/demo_lstm'
     ```
 
-2. [linear_regression]({{site.baseurl}}{%link getting-started.md%}#upploading-own-model)
+2. [linear_regression]({{site.baseurl}}{%link getting-started.md%}#own-model)
 
     ```sh
     $ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{

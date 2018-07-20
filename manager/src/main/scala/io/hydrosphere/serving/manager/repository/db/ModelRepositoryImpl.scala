@@ -1,14 +1,14 @@
 package io.hydrosphere.serving.manager.repository.db
 
-import java.time.LocalDateTime
-
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.db.Tables
+import io.hydrosphere.serving.manager.model.DataProfileFields
 import io.hydrosphere.serving.manager.model.api.ModelType
-import io.hydrosphere.serving.manager.repository.ModelRepository
-import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import io.hydrosphere.serving.manager.model.db.Model
+import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
+import io.hydrosphere.serving.manager.repository.ModelRepository
 import org.apache.logging.log4j.scala.Logging
+import spray.json._
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -17,17 +17,9 @@ class ModelRepositoryImpl(
   databaseService: DatabaseService
 ) extends ModelRepository with Logging {
 
+  import ModelRepositoryImpl._
   import databaseService._
   import databaseService.driver.api._
-  import ModelRepositoryImpl._
-
-  override def updateLastUpdatedTime(timestamp: LocalDateTime): Future[Int] = {
-    val query = for {
-      models <- Tables.Model
-    } yield models.updatedTimestamp
-
-    db.run(query.update(timestamp))
-  }
 
   override def create(entity: Model): Future[Model] =
     db.run(
@@ -38,7 +30,9 @@ class ModelRepositoryImpl(
         modelContract = entity.modelContract.toProtoString,
         description = entity.description,
         createdTimestamp = entity.created,
-        updatedTimestamp = entity.updated)
+        updatedTimestamp = entity.updated,
+        dataProfileFields = entity.dataProfileTypes.map(_.toJson.toString)
+      )
     ).map(mapFromDb)
 
 
@@ -69,32 +63,26 @@ class ModelRepositoryImpl(
         .result
     ).map(mapFromDb)
 
-  override def update(value: Model): Future[Int] = {
+  override def update(model: Model): Future[Int] = {
     val query = for {
-      models <- Tables.Model if models.modelId === value.id
+      models <- Tables.Model if models.modelId === model.id
     } yield (
       models.name,
       models.modelType,
       models.description,
       models.updatedTimestamp,
-      models.modelContract
+      models.modelContract,
+      models.dataProfileFields
     )
 
     db.run(query.update(
-      value.name,
-      value.modelType.toTag,
-      value.description,
-      value.updated,
-      value.modelContract.toProtoString
+      model.name,
+      model.modelType.toTag,
+      model.description,
+      model.updated,
+      model.modelContract.toProtoString,
+      model.dataProfileTypes.map(_.toJson.toString)
     ))
-  }
-
-  override def updateLastUpdatedTime(modelId: Long, timestamp: LocalDateTime): Future[Int] = {
-    val query = for {
-      models <- Tables.Model if models.modelId === modelId
-    } yield models.updatedTimestamp
-
-    db.run(query.update(timestamp))
   }
 
   override def fetchByModelType(types: Seq[ModelType]): Future[Seq[Model]] =
@@ -114,6 +102,7 @@ class ModelRepositoryImpl(
 }
 
 object ModelRepositoryImpl {
+
   def mapFromDb(model: Option[Tables.Model#TableElementType]): Option[Model] =
     model.map(mapFromDb)
 
@@ -130,6 +119,7 @@ object ModelRepositoryImpl {
       description = model.description,
       modelContract = ModelContract.fromAscii(model.modelContract),
       created = model.createdTimestamp,
-      updated = model.updatedTimestamp
+      updated = model.updatedTimestamp,
+      dataProfileTypes = model.dataProfileFields.map(_.parseJson.convertTo[DataProfileFields])
     )
 }
