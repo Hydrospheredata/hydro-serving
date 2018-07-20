@@ -1,9 +1,11 @@
-# Hydro-serving
+# Hydrosphere ML Lambda
 
 [![Join the chat at https://gitter.im/Hydrospheredata/hydro-serving](https://badges.gitter.im/Hydrospheredata/hydro-serving.svg)](https://gitter.im/Hydrospheredata/hydro-serving?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![](https://img.shields.io/badge/docs-latest-af1a97.svg)](https://hydrosphere.io/serving-docs/) 
 
-Hydro Serving is a Machine Learning Serving cluster. 
+ML Lambda is an open source model management cluster for deploying, serving and monitoring machine learning models and ad-hoc algorithms. It enables you to get your models up and running in an instant, on just about any infrastructure and using any of the available machine learning toolkits. It lets you monitor your models’ performance, analyse their inputs (for example, determine whether there is recently an increased number of outliers or not), observe models’ inference on given data and so on.
+
+Please, see our [getting started guide](https://hydrosphere.io/serving-docs/getting-started.html) and [documentation](https://hydrosphere.io/serving-docs/index.html).
 
 Features:
 * **Serverless** user experience in your data center or public cloud. 
@@ -18,37 +20,6 @@ Features:
 * Out of the box tuned and optimized Serving Runtimes
 * Models optimization for Serving
 
-## Quick Start
-
-#### Run
-```bash
-#Clone repository
-git clone https://github.com/Hydrospheredata/hydro-serving
-
-# Full environment with kafka and Sonar
-cd ./hydro-serving/integrations
-docker-compose up
-
-#Or lightweight environment
-cd ./hydro-serving
-docker-compose up
-```
-
-Go to UI: http://localhost/
-
-#### Deploy your first model
-
-```bash
-#Install Serving CLI
-pip install hs
-
-# Clone repo with example models
-git clone https://github.com/Hydrospheredata/hydro-serving-examples
-cd hydro-serving-examples/stateful_lstm_example/pipeline/lstm
-# Upload model to the server
-hs upload
-```
-
 #### Check UI - explore, deploy and test models
 
 ![Hydrosphere Serving Deploy Models](https://media.giphy.com/media/KyEVbxQEr4IGLuaQlR/giphy.gif)
@@ -56,10 +27,6 @@ hs upload
 ![Hydrosphere Serving Create an AI application](https://media.giphy.com/media/1dHWK2HJjdheyqB8lZ/giphy.gif)
 
 ![Hydrosphere Serving Test ML Models](https://media.giphy.com/media/2A67Wd88zQTcZk4lEs/giphy.gif)
-
-## Model Server Architecture
-![Image](docs/images/high-level-architecture.png)
-
 
 ## Related repositories
  * Runtimes:
