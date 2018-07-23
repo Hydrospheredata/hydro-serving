@@ -2,7 +2,6 @@
 layout: docs
 title:  "Contracts"
 permalink: 'contracts.html'
-position: 5
 ---
 
 # Contracts

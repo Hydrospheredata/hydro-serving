@@ -1,4 +1,7 @@
 options:
+  - title: Introduction
+    url: "index.html"
+
   - title: Getting Started
     url: "getting-started.html"
 
@@ -6,30 +9,34 @@ options:
       - title: Installation
         url: "getting-started.html#installation"
       
-      - title: Uploading Models
-        url: "getting-started.html#uploading-models"
+      - title: Uploading Demo Model
+        url: "getting-started.html#demo-model"
+
+      - title: Uploading Own Model
+        url: "getting-started.html#own-model"
 
       - title: Invoking Applications
         url: "getting-started.html#invoking-applications"
   
-  - title: Models
+  - title: Models Management
     url: "models.html"
-
+    
     nested_options:
-      - title: Uploading TensorFlow
-        url: "models.html#uploading-tensorflow"
+      - title: Principles
+        url: "models.html#principles"
 
-      - title: Uploading Keras
-        url: "models.html#uploading-keras"
-
-      - title: Uploading Python
-        url: "models.html#uploading-python"
-  
-  - title: Contracts
-    url: "contracts.html"
+      - title: Examples
+        url: "models.html#examples"
   
   - title: Applications
     url: "applications.html"
+
+    nested_options:
+      - title: Creating Applications
+        url: "applications.html#creating-application"
+      
+      - title: Invoking Applications
+        url: "applications.html#invoking-applications"
 
   - title: Runtimes
     url: "runtimes.html"
