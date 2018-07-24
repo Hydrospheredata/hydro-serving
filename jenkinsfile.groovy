@@ -34,6 +34,10 @@ def isReleaseJob() {
     return "true".equalsIgnoreCase(env.IS_RELEASE_JOB)
 }
 
+def isMasterBranch() {
+    return "master".equalsIgnoreCase(env.BRANCH_NAME)
+}
+
 def generateTagComment(releaseVersion) {
     commitsList = sh(
         returnStdout: true,
@@ -120,6 +124,16 @@ node("JenkinsOnDemand") {
         sh "sbt -DappVersion=${curVersion} makeMicrosite"
     }
 
+    if (isMasterBranch()) {
+        stage("Publish docs") {
+            sh "sbt docs/makeMicrosite"
+            sh "jekyll build --source ${env.WORKSPACE}/docs/target/site --destination ${env.WORKSPACE}/docs/target/site/_site"
+            sshagent(['hydro-site-publish']) {
+                sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/site/_site/* jenkins_publish@hydrosphere.io:serving_publish_dir"
+            }
+        }
+    }
+
     stage('Test') {
         try {
             def curVersion = currentVersion()
@@ -129,18 +143,11 @@ node("JenkinsOnDemand") {
             junit testResults: '**/target/test-reports/io.hydrosphere*.xml', allowEmptyResults: true
         }
     }
+
     if (isReleaseJob()) {
         if (currentBuild.result == 'UNSTABLE') {
             currentBuild.result = 'FAILURE'
             error("Errors in tests")
-        }
-	
-	stage("Publish docs") {
-            sh "sbt docs/makeMicrosite"
-            sh "jekyll build --source ${env.WORKSPACE}/docs/target/site --destination ${env.WORKSPACE}/docs/target/site/_site"
-            sshagent(['hydro-site-publish']) {
-                sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/site/_site/* jenkins_publish@hydrosphere.io:serving_publish_dir"
-            }
         }
 
         stage('Push docker') {
