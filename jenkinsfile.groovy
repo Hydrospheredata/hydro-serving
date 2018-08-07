@@ -35,7 +35,7 @@ def buildFunction={
     sh "sbt -DappVersion=${curVersion} it:testOnly"
 }
 
-def collectTestResults() {
+def collectTestResults = {
     junit testResults: '**/target/test-reports/io.hydrosphere*.xml', allowEmptyResults: true
 }
 
