@@ -3,7 +3,7 @@ def repository = 'hydro-serving'
 
 def buildAndPublishReleaseFunction={
     //Buid serving
-    def curVersion = currentVersion()
+    def curVersion = getVersion()
     sh "sbt -DappVersion=${curVersion} compile docker"
 
     //Buid docs
@@ -24,7 +24,7 @@ def buildAndPublishReleaseFunction={
 
 def buildFunction={
     //Buid serving
-    def curVersion = currentVersion()
+    def curVersion = getVersion()
     sh "sbt -DappVersion=${curVersion} compile docker"
 
     //Buid docs
