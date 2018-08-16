@@ -64,6 +64,7 @@ class ManagerHttpApi(
   val commonExceptionHandler = ExceptionHandler {
     case p: Throwable =>
       logger.error(p.getMessage, p)
+      throw p
       complete(
         HttpResponse(
           StatusCodes.InternalServerError,
