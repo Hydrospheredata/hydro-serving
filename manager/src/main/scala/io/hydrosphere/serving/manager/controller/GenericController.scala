@@ -4,9 +4,10 @@ import akka.http.scaladsl.marshalling.ToResponseMarshaller
 import akka.http.scaladsl.model.{ContentTypes, HttpEntity, HttpResponse, StatusCodes}
 import akka.http.scaladsl.server.Directives.{complete, onComplete}
 import akka.http.scaladsl.server.Route
-import io.hydrosphere.serving.manager.model.{HFResult, HResult}
-import io.hydrosphere.serving.manager.model.Result.{HError, InternalError}
+import io.hydrosphere.serving.model.api.{HFResult, HResult}
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol
+import io.hydrosphere.serving.model.api.HResult
+import io.hydrosphere.serving.model.api.Result.{HError, InternalError}
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
 

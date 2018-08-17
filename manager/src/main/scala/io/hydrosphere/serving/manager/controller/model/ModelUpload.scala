@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.controller.model
 import java.nio.file.Path
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.model.{HResult, Result}
+import io.hydrosphere.serving.model.api.{HResult, Result}
 
 import scala.reflect.ClassTag
 

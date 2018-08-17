@@ -6,7 +6,7 @@ import com.amazonaws.services.ecr.model.ImageNotFoundException
 import com.spotify.docker.client.exceptions.DockerException
 import com.spotify.docker.client.messages.ProgressMessage
 import com.spotify.docker.client.{DockerClient, ProgressHandler}
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.{CreateRuntimeRequest, PullRuntime, Runtime}
 import io.hydrosphere.serving.manager.repository.{RuntimePullRepository, RuntimeRepository}
 import io.hydrosphere.serving.manager.util.task.{ExecFuture, ServiceTask, ServiceTaskExecutor, ServiceTaskUpdater}

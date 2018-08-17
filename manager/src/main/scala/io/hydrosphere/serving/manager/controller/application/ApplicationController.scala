@@ -107,59 +107,11 @@ class ApplicationController(
     }
   }
 
-  @Path("/serve/{applicationId}/{signatureName}")
-  @ApiOperation(value = "Serve Application by id", notes = "Serve Application by id", nickname = "Serve Application by id", httpMethod = "POST")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "applicationId", required = true, dataType = "long", paramType = "path", value = "applicationId"),
-    new ApiImplicitParam(name = "signatureName", required = false, dataType = "string", paramType = "path", value = "signatureName"),
-    new ApiImplicitParam(name = "body", value = "Any", dataTypeClass = classOf[List[_]], required = true, paramType = "body")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Any"),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
-  def serveById = path("api" / "v1" / "applications" / "serve" / LongNumber / Segment) { (serviceId, signatureName) =>
-    post {
-      //TODO simplify optionalHeaderValueByName
-      optionalHeaderValueByName(TracingHeaders.xRequestId) {
-        reqId => {
-          optionalHeaderValueByName(TracingHeaders.xB3TraceId) {
-            reqB3Id => {
-              optionalHeaderValueByName(TracingHeaders.xB3SpanId) {
-                reqB3SpanId => {
-                  entity(as[JsObject]) { bytes =>
-                    complete {
-                      applicationManagementService.serveJsonApplication(
-                        JsonServeRequest(
-                          targetId = serviceId,
-                          signatureName = signatureName,
-                          inputs = bytes
-                        ),
-                        reqId.map(xRequestId =>
-                                    RequestTracingInfo(
-                                      xRequestId = xRequestId,
-                                      xB3requestId = reqB3Id,
-                                      xB3SpanId = reqB3SpanId
-                                    )
-                        )
-                      )
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-
   val routes =
     listAll ~
       create ~
       update ~
       deleteApplication ~
-      generateInputsForApp ~
-      serveById
+      generateInputsForApp
 
 }

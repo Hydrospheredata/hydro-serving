@@ -1,18 +1,14 @@
 package io.hydrosphere.serving.manager.service.application
 
 import io.hydrosphere.serving.manager.controller.application._
-import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db._
-import io.hydrosphere.serving.tensorflow.api.predict.{PredictRequest, PredictResponse}
-import spray.json.{JsObject, JsValue}
+import io.hydrosphere.serving.model.api.HFResult
+import spray.json.JsObject
 
 import scala.concurrent.Future
 
 
 trait ApplicationManagementService {
-  def serveJsonApplication(jsonServeRequest: JsonServeRequest, tracingInfo: Option[RequestTracingInfo]): HFResult[JsValue]
-
-  def serveGrpcApplication(data: PredictRequest, tracingInfo: Option[RequestTracingInfo]): HFResult[PredictResponse]
 
   def allApplications(): Future[Seq[Application]]
 

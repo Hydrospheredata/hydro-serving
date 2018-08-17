@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.model.db
 
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.model.api.ModelType
 
 case class Runtime(
   id: Long,

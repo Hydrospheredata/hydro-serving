@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.service.aggregated_info
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.{Application, Model, ModelVersion}
 
 case class AggregatedModelVersion(

@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service.environment
 
-import io.hydrosphere.serving.manager.model.HFResult
 import io.hydrosphere.serving.manager.model.db.Environment
+import io.hydrosphere.serving.model.api.HFResult
 
 import scala.concurrent.Future
 

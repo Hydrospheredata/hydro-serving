@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.util
 
 import io.hydrosphere.serving.manager.GenericUnitTest
+import io.hydrosphere.serving.model.api.TensorUtil
 import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.TensorShape.Dims
 import io.hydrosphere.serving.tensorflow.tensor.DoubleTensor

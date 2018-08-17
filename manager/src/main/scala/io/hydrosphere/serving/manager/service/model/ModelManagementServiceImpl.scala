@@ -2,19 +2,18 @@ package io.hydrosphere.serving.manager.service.model
 
 import java.time.LocalDateTime
 
-import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.model.api.ops.ModelContractOps._
-import io.hydrosphere.serving.manager.controller.model.ModelUpload
-import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.ModelType
-import io.hydrosphere.serving.manager.model.db.Model
-import io.hydrosphere.serving.manager.repository._
-import io.hydrosphere.serving.manager.service.contract.ContractUtilityService
-import io.hydrosphere.serving.manager.service.source.ModelStorageService
 import cats.data.EitherT
 import cats.implicits._
-import io.hydrosphere.serving.manager.model.Result.HError
-import io.hydrosphere.serving.manager.model.api.description.ContractDescription
+import io.hydrosphere.serving.model.api._
+import io.hydrosphere.serving.model.api.ops.ModelContractOps._
+import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.manager.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.model.db.Model
+import io.hydrosphere.serving.manager.repository.{ModelRepository, ModelVersionRepository}
+import io.hydrosphere.serving.manager.service.source.ModelStorageService
+import io.hydrosphere.serving.model.api.Result.HError
+import io.hydrosphere.serving.model.api.{HFResult, ModelType, Result}
+import io.hydrosphere.serving.model.api.description.ContractDescription
 import org.apache.logging.log4j.scala.Logging
 import spray.json.JsObject
 
@@ -25,8 +24,7 @@ import scala.util.{Failure, Success}
 class ModelManagementServiceImpl(
   modelRepository: ModelRepository,
   modelVersionRepository: ModelVersionRepository,
-  sourceManagementService: ModelStorageService,
-  contractService: ContractUtilityService
+  sourceManagementService: ModelStorageService
 )(
   implicit val ex: ExecutionContext
 ) extends ModelManagementService with Logging {
@@ -76,7 +74,7 @@ class ModelManagementServiceImpl(
   override def generateModelPayload(modelId: Long, signature: String): HFResult[JsObject] = {
     getModel(modelId).map { result =>
       result.right.flatMap { model =>
-        contractService.generatePayload(model.modelContract, signature)
+        TensorExampleGenerator.generatePayload(model.modelContract, signature)
       }
     }
   }

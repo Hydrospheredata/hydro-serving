@@ -1,9 +1,9 @@
 package io.hydrosphere.serving.manager.repository.db
 
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.Runtime
 import io.hydrosphere.serving.manager.repository.RuntimeRepository
+import io.hydrosphere.serving.model.api.ModelType
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}

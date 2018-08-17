@@ -6,7 +6,7 @@ import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.{ListContainersParam, ListImagesParam, RemoveContainerParam}
 import com.spotify.docker.client.messages.{Container, ContainerConfig, HostConfig, PortBinding}
 import io.hydrosphere.serving.manager.{LocalDockerCloudDriverConfiguration, LocalDockerCloudDriverServiceConfiguration, ManagerConfiguration}
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.Service
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
 import org.apache.logging.log4j.scala.Logging

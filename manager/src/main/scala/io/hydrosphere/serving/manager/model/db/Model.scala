@@ -4,7 +4,7 @@ import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.model.DataProfileFields
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.model.api.ModelType
 
 case class Model(
   id: Long,

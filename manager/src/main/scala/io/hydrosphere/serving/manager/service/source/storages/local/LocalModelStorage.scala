@@ -3,9 +3,9 @@ package io.hydrosphere.serving.manager.service.source.storages.local
 import java.io.File
 import java.nio.file._
 
-import io.hydrosphere.serving.manager.model.{HResult, Result}
 import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import io.hydrosphere.serving.manager.util.FileUtils._
+import io.hydrosphere.serving.model.api.{HResult, Result}
 
 class LocalModelStorage(val sourceDef: LocalModelStorageDefinition) extends ModelStorage {
   val rootDir = sourceDef.path

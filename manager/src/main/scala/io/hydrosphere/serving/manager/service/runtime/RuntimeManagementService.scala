@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.service.runtime
 
 
 import io.hydrosphere.serving.manager.model.db.{CreateRuntimeRequest, PullRuntime, Runtime}
-import io.hydrosphere.serving.manager.model.{HFResult, HResult}
+import io.hydrosphere.serving.model.api.HFResult
 
 import scala.concurrent.Future
 

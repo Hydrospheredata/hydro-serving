@@ -4,6 +4,7 @@ import com.google.protobuf.ByteString
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.contract.utils.ContractBuilders
 import io.hydrosphere.serving.manager.GenericUnitTest
+import io.hydrosphere.serving.model.api.TensorExampleGenerator
 import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.tensor.{MapTensorData, TensorProto, TypedTensorFactory}
 import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto

@@ -5,7 +5,7 @@ import java.time.LocalDateTime
 import com.spotify.docker.client.ProgressHandler
 import com.spotify.docker.client.messages.ProgressMessage
 import io.hydrosphere.serving.manager.model.db.{BuildRequest, ModelBuild, ModelVersion}
-import io.hydrosphere.serving.manager.model.{HFResult, HResult, Result}
+import io.hydrosphere.serving.model.api.{HFResult, HResult, Result}
 import io.hydrosphere.serving.manager.repository.ModelBuildRepository
 import io.hydrosphere.serving.manager.service.model_build.builders.ModelBuildService
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService

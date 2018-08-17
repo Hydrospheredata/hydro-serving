@@ -6,8 +6,8 @@ import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.contract.utils.ContractBuilders
-import io.hydrosphere.serving.manager.model.api.ModelType
-import io.hydrosphere.serving.manager.model.api.ModelType.ONNX
+import io.hydrosphere.serving.model.api.ModelType
+import io.hydrosphere.serving.model.api.ModelType.ONNX
 import io.hydrosphere.serving.manager.service.source.fetchers.spark.SparkModelFetcher
 import io.hydrosphere.serving.manager.service.source.fetchers.{ModelFetcher, ONNXFetcher, ScikitModelFetcher, TensorflowModelFetcher}
 import io.hydrosphere.serving.manager.service.source.storages.local.{LocalModelStorage, LocalModelStorageDefinition}

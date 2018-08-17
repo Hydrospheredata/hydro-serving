@@ -4,8 +4,8 @@ import java.nio.file.Files
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.model.api.{ModelMetadata, _}
-import io.hydrosphere.serving.manager.model.{HResult, Result}
+import io.hydrosphere.serving.model.api.{ModelMetadata, _}
+import io.hydrosphere.serving.model.api.HResult
 import io.hydrosphere.serving.manager.service.source.fetchers.ModelFetcher
 import io.hydrosphere.serving.manager.service.source.fetchers.spark.mappers.SparkMlTypeMapper
 import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
