@@ -14,16 +14,6 @@ services:
       - hydronet
       - extnet
 
-  influxdb:
-    image: influxdb:1.5.2
-    container_name: influxdb
-    ports:
-      - "8086:8086"
-    restart: always
-    networks:
-      - hydronet
-      - extnet
-
   zookeeper:
     image: confluentinc/cp-zookeeper:4.0.0
     container_name: zookeeper
@@ -106,7 +96,6 @@ services:
     depends_on:
       - postgres
     environment:
-      - "APP_SHADOWING_ON=true"
       - "ADVERTISED_MANAGER_HOST=manager"
       - "ADVERTISED_MANAGER_PORT=9091"
       - "DATABASE_HOST=postgres"
@@ -168,23 +157,6 @@ services:
       - "SIDECAR_HOST=sidecar"
       - "KAFKA_HOST=kafka"
       - "KAFKA_PORT=9092"
-
-  serving-sonar:
-    image: ${sonar_image}:${sonar_version}
-    container_name: serving-sonar
-    networks:
-      - extnet
-      - hydronet
-    depends_on:
-      - sidecar
-      - influxdb
-      - elasticsearch
-    links:
-      - kafka
-    ports:
-      - "9999:9999"
-    volumes:
-      - ./sonar/sonar.conf:/etc/sonar.conf
 
 networks:
   hydronet:
