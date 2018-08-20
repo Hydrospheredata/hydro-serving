@@ -48,17 +48,17 @@ startDatabase := {
   println(s"starting database...$containerId")
 }
 
-compile in Compile := (compile in Compile)
-  .dependsOn(slickCodeGenTask)
-  .dependsOn(flywayMigrate in migration)
-  .dependsOn(startDatabase)
-  .andFinally{
-  //Stop database
-  val cli: DockerClient = DefaultDockerClient.fromEnv().build()
-  cli.listContainers(DockerClient.ListContainersParam.allContainers(true)).asScala
-    .filter(p => p.names().contains("/postgres_compile"))
-    .foreach(p => cli.removeContainer(p.id(), DockerClient.RemoveContainerParam.forceKill(true)))
-  }.value
+//compile in Compile := (compile in Compile)
+//  .dependsOn(slickCodeGenTask)
+//  .dependsOn(flywayMigrate in migration)
+//  .dependsOn(startDatabase)
+//  .andFinally{
+//  //Stop database
+//  val cli: DockerClient = DefaultDockerClient.fromEnv().build()
+//  cli.listContainers(DockerClient.ListContainersParam.allContainers(true)).asScala
+//    .filter(p => p.names().contains("/postgres_compile"))
+//    .foreach(p => cli.removeContainer(p.id(), DockerClient.RemoveContainerParam.forceKill(true)))
+//  }.value
 
 lazy val migration = project.settings(
   flywayUrl := dataBaseUrl,
