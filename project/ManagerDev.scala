@@ -1,7 +1,7 @@
 import sbt._
 import sbt.Keys._
 
-object DevTasks {
+object ManagerDev {
 
   lazy val hostIp = taskKey[String]("Find IP")
   lazy val dockerEnv = taskKey[Unit]("Setup dev environment in docker")
@@ -64,6 +64,23 @@ object DevTasks {
       stop(pgImage)
       stop(sidecarImage)
       stop(uiImage)
+    },
+    devRun := {
+      val cp = (fullClasspath in Compile).value
+      val s = streams.value
+      val main = "io.hydrosphere.serving.manager.ManagerBoot"
+
+      dockerEnv.value
+
+      val modelsDir = target.value / "models"
+      if (!modelsDir.exists()) IO.createDirectory(modelsDir)
+      val runner = new ForkRun(ForkOptions().withRunJVMOptions(Vector(
+        "-Dsidecar.host=127.0.0.1",
+        s"-Dmanager.advertisedHost=${hostIp.value}",
+        "-Dmanager.advertisedPort=9091",
+        s"-DlocalStorage.path=${modelsDir.getAbsolutePath}"
+      )))
+      runner.run(main, cp.files, Seq.empty, s.log)
     }
   )
 

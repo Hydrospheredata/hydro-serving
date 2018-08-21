@@ -1,7 +1,5 @@
 import microsites.{ConfigYml, MicrositeFavicon}
 
-import DevTasks._
-
 name := "hydro-serving"
 
 updateOptions := updateOptions.value.withCachedResolution(true)
@@ -15,26 +13,6 @@ lazy val root = project.in(file("."))
     docs,
     dummyRuntime
   )
-  .settings(DevTasks.settings: _*)
-  .settings(
-    devRun := {
-      val cp = fullClasspath.in(manager, Compile).value
-      val s = streams.value
-      val main = "io.hydrosphere.serving.manager.ManagerBoot"
-
-      DevTasks.dockerEnv.value
-
-      val modelsDir = target.value / "models"
-      if (!modelsDir.exists()) IO.createDirectory(modelsDir)
-      val runner = new ForkRun(ForkOptions().withRunJVMOptions(Vector(
-        "-Dsidecar.host=127.0.0.1",
-        s"-Dmanager.advertisedHost=${DevTasks.hostIp.value}",
-        "-Dmanager.advertisedPort=9091",
-        s"-DlocalStorage.path=${modelsDir.getAbsolutePath}"
-      )))
-      runner.run(main, cp.files, Seq.empty, s.log)
-    }
-  )
 
 lazy val codegen = project.in(file("codegen"))
   .settings(exportJars := true)
@@ -42,12 +20,13 @@ lazy val codegen = project.in(file("codegen"))
   .settings(libraryDependencies ++= Dependencies.codegenDependencies)
 
 lazy val manager = project.in(file("manager"))
+  .dependsOn(codegen)
   .configs(IntegrationTest)
   .settings(Defaults.itSettings: _*)
   .settings(Common.settings)
   .settings(libraryDependencies ++= Dependencies.hydroServingManagerDependencies)
-  .dependsOn(codegen)
-
+  .settings(SlickGen.settings: _*)
+  .settings(ManagerDev.settings: _*)
 
 lazy val dummyRuntime = project.in(file("dummy-runtime"))
   .configs(IntegrationTest)
