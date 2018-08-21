@@ -1,9 +1,12 @@
 import java.io.File
+import java.security.MessageDigest
 import java.util
 import java.util.Collections
 
 import com.spotify.docker.client.messages._
 import com.spotify.docker.client._
+import org.apache.commons.codec.digest.DigestUtils
+import sbt.internal.TaskSequential
 
 import scala.collection.JavaConverters._
 
@@ -19,6 +22,9 @@ lazy val dataBaseUrl = s"jdbc:postgresql://localhost:15432/$dataBaseName"
 
 lazy val startDatabase = taskKey[Unit]("Start database")
 lazy val slickCodeGenTask = taskKey[Unit]("Slick codegen")
+lazy val slickGen2 = taskKey[Unit]("Slick Codegen2")
+
+
 
 startDatabase := {
   val dir = sourceManaged
@@ -48,17 +54,46 @@ startDatabase := {
   println(s"starting database...$containerId")
 }
 
-//compile in Compile := (compile in Compile)
-//  .dependsOn(slickCodeGenTask)
-//  .dependsOn(flywayMigrate in migration)
-//  .dependsOn(startDatabase)
-//  .andFinally{
-//  //Stop database
-//  val cli: DockerClient = DefaultDockerClient.fromEnv().build()
-//  cli.listContainers(DockerClient.ListContainersParam.allContainers(true)).asScala
-//    .filter(p => p.names().contains("/postgres_compile"))
-//    .foreach(p => cli.removeContainer(p.id(), DockerClient.RemoveContainerParam.forceKill(true)))
-//  }.value
+val StableDef = new TaskSequential {}
+sourceGenerators in Compile += {Def.taskDyn[Seq[File]] {
+  val migrations = (baseDirectory.value / "src" / "main" / "resources" / "db" / "migration").listFiles()
+  val dir = sourceManaged.value / "io" / "hydrosphere" / "serving" / "manager" / "db"
+  val f = dir / "Tables.scala"
+  val check = dir / "hash.check"
+
+  def upToDate(): Boolean = {
+    if (check.exists()) {
+      val data = IO.readLines(check).grouped(2).map(l => l(0) -> l(1)).toSeq
+      val real = migrations.map(f => f.getAbsolutePath -> f.lastModified().toString)
+      data.zip(real).forall({case (one, two) => one == two})
+    } else {
+      false
+    }
+  }
+
+  if (f.exists() && upToDate) Def.task(Seq(f))
+  else {
+    Def.task {
+      StableDef.sequential(
+        Def.task(println("GENERATE")),
+        startDatabase,
+        flywayMigrate in migration,
+        slickCodeGenTask
+      ).andFinally {
+        //Stop database
+        val cli: DockerClient = DefaultDockerClient.fromEnv().build()
+        cli.listContainers(DockerClient.ListContainersParam.allContainers(true)).asScala
+          .filter(p => p.names().contains("/postgres_compile"))
+          .foreach(p => cli.removeContainer(p.id(), DockerClient.RemoveContainerParam.forceKill(true)))
+      }.value
+
+      val real = migrations.map(f => f.getAbsolutePath -> f.lastModified())
+      val out = real.map({ case (n, hash) => n + "\n" + hash }).mkString("\n")
+      IO.write(check, out)
+      Seq(f)
+    }
+  }
+}}
 
 lazy val migration = project.settings(
   flywayUrl := dataBaseUrl,
