@@ -36,25 +36,34 @@ class XDSManagementActor(
     "type.googleapis.com/io.hydrosphere.serving.manager.grpc.applications.Application" -> applicationDSActor
   )
 
+  log.info(s"Expected XDS typeUrls: ${actors.keys}")
+
   override def receive: Receive = {
     case u: UnsubscribeMsg =>
+      log.debug(u.toString)
       actors.values.foreach(_ ! u)
     case s: SubscribeMsg =>
+      log.debug(s.toString)
       s.discoveryRequest.node.foreach { _ =>
         actors.get(s.discoveryRequest.typeUrl)
           .fold(log.error(s"Unknown typeUrl: ${s.discoveryRequest}"))(_ ! s)
       }
     case app: ApplicationChanged =>
+      log.debug(app.toString)
       routeDSActor ! app
       applicationDSActor ! app
     case app: ApplicationRemoved =>
+      log.debug(app.toString)
       routeDSActor ! app
       applicationDSActor ! app
     case c: CloudServiceDetected =>
+      log.debug(c.toString)
       endpointDSActor ! AddEndpoints(mapCloudService(c.cloudServices))
     case s: ServiceChanged =>
+      log.debug(s.toString)
       clusterDSActor ! AddCluster(Set(s.service.serviceName))
     case s: ServiceRemoved =>
+      log.debug(s.toString)
       val set = Set(s.service.serviceName)
       clusterDSActor ! RemoveClusters(set)
       endpointDSActor ! RemoveEndpoints(set)
@@ -75,7 +84,12 @@ class XDSManagementActor(
       .map(c => endpointDSActor ! RenewEndpoints(mapCloudService(c)))
 
     val f = Future.sequence(List(f1,f2,f3))
-    Await.result(f, 30 seconds)
+
+    val awaitTime = 30.seconds
+    log.info(s"Waiting $awaitTime for XDS subactors init")
+    Await.result(f, awaitTime)
+    log.info("Subactors initialized")
+
     super.preStart()
   }
 
