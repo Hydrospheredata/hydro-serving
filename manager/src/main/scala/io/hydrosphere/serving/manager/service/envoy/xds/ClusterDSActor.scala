@@ -26,8 +26,9 @@ class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis
     CloudDriverService.MANAGER_HTTP_NAME,
     CloudDriverService.MANAGER_UI_NAME,
     CloudDriverService.MONITORING_HTTP_NAME,
-    CloudDriverService.PROFILER_HTTP_NAME
-    )
+    CloudDriverService.PROFILER_HTTP_NAME,
+    CloudDriverService.GATEWAY_HTTP_NAME
+  )
 
   private def createCluster(name: String): Cluster = {
     val res = Cluster(
