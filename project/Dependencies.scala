@@ -10,7 +10,7 @@ object Dependencies {
   val scalaTestVersion = "3.0.3"
   val slickPgVersion = "0.15.4"
   val awsSdkVersion = "1.11.312"
-  val servingGrpcScala = "dev1"
+  val servingGrpcScala = "0.1.21"
   val catsV = "1.1.0"
   val elastic4sVersion = "6.2.4"
   val envoyDataPlaneApi = "v1.6.0_1"
