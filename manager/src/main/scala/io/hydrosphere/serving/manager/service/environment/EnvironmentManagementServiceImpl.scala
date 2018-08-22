@@ -35,7 +35,7 @@ class EnvironmentManagementServiceImpl(
         val environment = Environment(
           name = name,
           placeholders = placeholders,
-          id = 0
+          id = 0L
         )
         environmentRepository.create(environment).map(Result.ok)
     }
