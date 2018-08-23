@@ -5,13 +5,13 @@ import java.util.Collections
 import com.amazonaws.services.ecr.{AmazonECR, AmazonECRClientBuilder}
 import com.amazonaws.services.ecr.model._
 import com.spotify.docker.client.{DockerClient, ProgressHandler}
-import io.hydrosphere.serving.manager.ECSDockerRepositoryConfiguration
+import io.hydrosphere.serving.manager.config.DockerRepositoryConfiguration
 import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.util.docker.{DockerClientHelper, DockerRegistryAuth}
 
 class ECSModelPushService(
   dockerClient: DockerClient,
-  ecsDockerRepositoryConfiguration: ECSDockerRepositoryConfiguration
+  ecsDockerRepositoryConfiguration: DockerRepositoryConfiguration.Ecs
 ) extends ModelPushService {
 
   val ecrClient: AmazonECR = AmazonECRClientBuilder.standard()

@@ -3,11 +3,11 @@ package io.hydrosphere.serving.manager.service.clouddriver
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.messages.{Container, HostConfig, LogConfig}
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
-import io.hydrosphere.serving.manager.{DockerCloudDriverConfiguration, ManagerConfiguration}
 
 import collection.JavaConverters._
 import scala.concurrent.ExecutionContext
 import CloudDriverService._
+import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, ManagerConfiguration}
 
 class DockerComposeCloudDriverService(
   dockerClient: DockerClient,
@@ -17,7 +17,7 @@ class DockerComposeCloudDriverService(
   implicit override val ex: ExecutionContext
 ) extends LocalCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher) {
 
-  private val driverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[DockerCloudDriverConfiguration]
+  private val driverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[CloudDriverConfiguration.Docker]
 
   override protected def postProcessAllServiceList(services: Seq[CloudService]): Seq[CloudService] = {
     services ++ createFakeHttpServices(services)

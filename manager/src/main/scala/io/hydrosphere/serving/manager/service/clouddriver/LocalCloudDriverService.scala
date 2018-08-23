@@ -5,10 +5,10 @@ import java.util
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.{ListContainersParam, RemoveContainerParam}
 import com.spotify.docker.client.messages.{Container, ContainerConfig, HostConfig, PortBinding}
+import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, LocalDockerCloudDriverServiceConfiguration, ManagerConfiguration}
 import io.hydrosphere.serving.manager.model.db.Service
 import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService._
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
-import io.hydrosphere.serving.manager.{LocalDockerCloudDriverConfiguration, LocalDockerCloudDriverServiceConfiguration, ManagerConfiguration}
 import io.hydrosphere.serving.model.api.ModelType
 import org.apache.logging.log4j.scala.Logging
 
@@ -38,7 +38,7 @@ class LocalCloudDriverService(
       ))
     )
 
-    val localDockerCloudDriverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[LocalDockerCloudDriverConfiguration]
+    val localDockerCloudDriverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[CloudDriverConfiguration.Local]
 
     val servicesWithMonitoring = localDockerCloudDriverConfiguration.monitoring match {
       case Some(mConf) =>
@@ -56,7 +56,7 @@ class LocalCloudDriverService(
       case None => services :+ managerHttp :+ manager
     }
 
-    localDockerCloudDriverConfiguration.profiler match {
+    val servicesWithProfiling = localDockerCloudDriverConfiguration.profiler match {
       case Some(profilerConf) =>
         val profiler = createProfilerCloudService(profilerConf)
         val profilerHttp = profiler.copy(
@@ -69,6 +69,21 @@ class LocalCloudDriverService(
         )
         servicesWithMonitoring :+ profiler :+ profilerHttp
       case None => servicesWithMonitoring
+    }
+
+    localDockerCloudDriverConfiguration.gateway match {
+      case Some(gatewayConf) =>
+        val gateway = createGatewayCloudService(gatewayConf)
+        val gatewayHttp = gateway.copy(
+          id = GATEWAY_HTTP_ID,
+          serviceName = GATEWAY_HTTP_NAME,
+          instances = manager.instances.map(s => s.copy(
+            advertisedPort = gatewayConf.httpPort,
+            mainApplication = s.mainApplication.copy(port = gatewayConf.httpPort)
+          ))
+        )
+        servicesWithProfiling :+ gateway :+ gatewayHttp
+      case None => servicesWithProfiling
     }
   }
 
@@ -281,7 +296,7 @@ class LocalCloudDriverService(
     createSystemCloudService(
       CloudDriverService.MANAGER_NAME,
       CloudDriverService.MANAGER_ID,
-      managerConfiguration.advertised.advertisedHost,
+      managerConfiguration.manager.advertisedHost,
       managerConfiguration.application.grpcPort,
       "hydrosphere/serving-manager"
     )
@@ -302,6 +317,15 @@ class LocalCloudDriverService(
       cfg.host,
       cfg.port,
       "hydrosphere/serving-data-profiler"
+    )
+
+  private def createGatewayCloudService(cfg: LocalDockerCloudDriverServiceConfiguration): CloudService =
+    createSystemCloudService(
+      CloudDriverService.GATEWAY_NAME,
+      CloudDriverService.GATEWAY_ID,
+      cfg.host,
+      cfg.port,
+      "hydrosphere/serving-gateway"
     )
 
   private def fetchById(serviceId: Long): CloudService = {
