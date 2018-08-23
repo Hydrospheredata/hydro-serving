@@ -7,6 +7,7 @@ import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.spotify.docker.client.DefaultDockerClient
 import io.hydrosphere.serving.manager.config.ManagerConfiguration
+import io.hydrosphere.serving.manager.util.ReflectionUtils
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{Await, ExecutionContext}
@@ -26,7 +27,7 @@ object ManagerBoot extends App with Logging {
         logger.error(s"Configuration errors:\n$textErr")
         throw new IllegalArgumentException(textErr)
       case Right(config) =>
-        logger.info(s"Config loaded:\n$config")
+        logger.info(s"Config loaded:\n${ReflectionUtils.prettyPrint(config)}")
         config
     }
 

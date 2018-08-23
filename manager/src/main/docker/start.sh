@@ -34,7 +34,7 @@ then
 
     if [ "$CLOUD_DRIVER" = "swarm" ]; then
         APP_OPTS="$APP_OPTS -Dcloud-driver.type=swarm"
-        APP_OPTS="$APP_OPTS -Dcloud-driver.swarm.networkName=$NETWORK_NAME"
+        APP_OPTS="$APP_OPTS -Dcloud-driver.networkName=$NETWORK_NAME"
     elif [ "$CLOUD_DRIVER" = "ecs" ]; then
         META_DATA_URL=http://169.254.169.254/latest
         SIDECAR_HOST=$(wget -q -O - $META_DATA_URL/meta-data/local-ipv4)
@@ -47,18 +47,18 @@ then
 
         APP_OPTS="$APP_OPTS -Dcloud-driver.type=ecs"
         APP_OPTS="$APP_OPTS -Ddocker-repository.type=ecs"
-        APP_OPTS="$APP_OPTS -Dcloud-driver.ecs.internal-domain-name=$ECS_INTERNAL_DOMAIN_NAME"
-        APP_OPTS="$APP_OPTS -Dcloud-driver.ecs.region=$ECS_DEPLOY_REGION"
-        APP_OPTS="$APP_OPTS -Dcloud-driver.ecs.cluster=$ECS_DEPLOY_CLUSTER"
-        APP_OPTS="$APP_OPTS -Dcloud-driver.ecs.account-id=$ECS_DEPLOY_ACCOUNT"
-        APP_OPTS="$APP_OPTS -Dcloud-driver.ecs.vpcId=$ECS_VPC_ID"
-        APP_OPTS="$APP_OPTS -Dcloud-driver.ecs.memory-reservation=$ECS_DEPLOY_MEMORY_RESERVATION"
+        APP_OPTS="$APP_OPTS -Dcloud-driver.internal-domain-name=$ECS_INTERNAL_DOMAIN_NAME"
+        APP_OPTS="$APP_OPTS -Dcloud-driver.region=$ECS_DEPLOY_REGION"
+        APP_OPTS="$APP_OPTS -Dcloud-driver.cluster=$ECS_DEPLOY_CLUSTER"
+        APP_OPTS="$APP_OPTS -Dcloud-driver.account-id=$ECS_DEPLOY_ACCOUNT"
+        APP_OPTS="$APP_OPTS -Dcloud-driver.vpcId=$ECS_VPC_ID"
+        APP_OPTS="$APP_OPTS -Dcloud-driver.memory-reservation=$ECS_DEPLOY_MEMORY_RESERVATION"
     else
         APP_OPTS="$APP_OPTS -Dcloud-driver.type=docker"
         if [ ! -z "$NETWORK_NAME" ]; then
-            APP_OPTS="$APP_OPTS -Dcloud-driver.docker.network-name=$NETWORK_NAME"
+            APP_OPTS="$APP_OPTS -Dcloud-driver.network-name=$NETWORK_NAME"
         else
-            APP_OPTS="$APP_OPTS -Dcloud-driver.docker.network-name=bridge"
+            APP_OPTS="$APP_OPTS -Dcloud-driver.network-name=bridge"
         fi
         APP_OPTS="$APP_OPTS -Ddocker-repository.type=local"
     fi

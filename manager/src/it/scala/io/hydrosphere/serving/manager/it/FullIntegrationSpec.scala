@@ -42,7 +42,7 @@ trait FullIntegrationSpec extends DatabaseAccessIT
 
   private[this] val originalConfiguration = ManagerConfiguration.load
 
-  def configuration = originalConfiguration.right.get.copy(runtimePack = RuntimePackConfig.Dummies())
+  def configuration = originalConfiguration.right.get.copy(runtimePack = RuntimePackConfig.Dummies)
 
   var managerRepositories: ManagerRepositories = _
   var managerServices: ManagerServices = _

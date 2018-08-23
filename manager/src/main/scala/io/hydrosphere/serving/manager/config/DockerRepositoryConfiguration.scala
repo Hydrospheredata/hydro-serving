@@ -5,7 +5,7 @@ import com.amazonaws.regions.Regions
 sealed trait DockerRepositoryConfiguration
 
 object DockerRepositoryConfiguration {
-  case class Local() extends DockerRepositoryConfiguration
+  case object Local extends DockerRepositoryConfiguration
 
   case class Ecs(
     region: Regions,

@@ -8,23 +8,23 @@ sealed trait RuntimePackConfig {
 }
 
 object RuntimePackConfig {
-  case class Dummies() extends RuntimePackConfig {
+  case object Dummies extends RuntimePackConfig {
     override def toRuntimePack: List[CreateRuntimeRequest] = DefaultRuntimes.dummies
   }
 
-  case class Tensorflow() extends RuntimePackConfig {
+  case object Tensorflow extends RuntimePackConfig {
     override def toRuntimePack: List[CreateRuntimeRequest] = DefaultRuntimes.tensorflowRuntimes
   }
 
-  case class Python() extends RuntimePackConfig {
+  case object Python extends RuntimePackConfig {
     override def toRuntimePack: List[CreateRuntimeRequest] = DefaultRuntimes.pythonRuntimes
   }
 
-  case class Spark() extends RuntimePackConfig {
+  case object Spark extends RuntimePackConfig {
     override def toRuntimePack: List[CreateRuntimeRequest] = DefaultRuntimes.sparkRuntimes
   }
 
-  case class All() extends RuntimePackConfig {
+  case object All extends RuntimePackConfig {
     override def toRuntimePack: List[CreateRuntimeRequest] = DefaultRuntimes.all
   }
 

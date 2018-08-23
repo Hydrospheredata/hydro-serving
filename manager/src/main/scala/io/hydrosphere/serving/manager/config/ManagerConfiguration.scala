@@ -1,8 +1,12 @@
 package io.hydrosphere.serving.manager.config
 
+import cats.syntax.either._
 import com.amazonaws.regions.Regions
 import io.hydrosphere.serving.manager.service.source.storages.local.LocalModelStorageDefinition
-import pureconfig.ConfigReader
+import pureconfig.error.CannotConvert
+import pureconfig.{CamelCase, ConfigFieldMapping, ConfigReader, ProductHint}
+
+import scala.util.Try
 
 case class ManagerConfiguration(
   sidecar: SidecarConfig,
@@ -18,12 +22,9 @@ case class ManagerConfiguration(
 )
 
 object ManagerConfiguration {
-  implicit val regionsConfigReader = ConfigReader.fromCursor { cur =>
-    for {
-      obj <- cur.asObjectCursor
-      regionC <- obj.atKey("region")
-      region <- ConfigReader[String].from(regionC)
-    } yield Regions.fromName(region)
+  implicit val regionsConfigReader = ConfigReader.fromString { str =>
+    Either.catchNonFatal(Regions.fromName(str))
+      .leftMap(e => CannotConvert(str, "Region", e.getMessage))
   }
 
   def load = pureconfig.loadConfig[ManagerConfiguration]
