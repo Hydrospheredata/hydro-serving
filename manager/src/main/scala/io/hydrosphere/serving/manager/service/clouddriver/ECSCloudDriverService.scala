@@ -11,7 +11,6 @@ import io.hydrosphere.serving.manager.model.db.Service
 import io.hydrosphere.serving.model.api.ModelType
 import io.hydrosphere.serving.manager.service.internal_events._
 import io.hydrosphere.serving.manager.service.actors.SelfScheduledActor
-import io.hydrosphere.serving.manager.{ECSCloudDriverConfiguration, ManagerConfiguration}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.JavaConverters._
@@ -23,6 +22,7 @@ import CloudDriverService._
 import akka.util.Timeout
 import com.amazonaws.services.route53.model.{RRType, _}
 import com.amazonaws.services.route53.{AmazonRoute53, AmazonRoute53ClientBuilder}
+import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, ManagerConfiguration}
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol
 import io.hydrosphere.serving.manager.service.clouddriver.ECSServiceWatcherActor._
 
@@ -74,7 +74,7 @@ class ECSServiceWatcherActor(
     managerConfiguration: ManagerConfiguration
 ) extends SelfScheduledActor(0.seconds, 30.seconds)(30.seconds) with CompleteJsonProtocol {
 
-  val ecsCloudDriverConfiguration: ECSCloudDriverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[ECSCloudDriverConfiguration]
+  val ecsCloudDriverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[CloudDriverConfiguration.Ecs]
 
   val route53Client: AmazonRoute53 = AmazonRoute53ClientBuilder.standard()
     .build()

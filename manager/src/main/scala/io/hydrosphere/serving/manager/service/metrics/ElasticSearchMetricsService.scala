@@ -7,7 +7,7 @@ import akka.actor.Props
 import com.sksamuel.elastic4s.http.HttpClient
 import com.sksamuel.elastic4s.http.ElasticDsl._
 import com.sksamuel.elastic4s.mappings.BasicFieldDefinition
-import io.hydrosphere.serving.manager.ManagerConfiguration
+import io.hydrosphere.serving.manager.config.ManagerConfiguration
 import io.hydrosphere.serving.manager.connector.{EnvoyAdminConnector, HttpEnvoyAdminConnector}
 import io.hydrosphere.serving.manager.model.db.Service
 import io.hydrosphere.serving.manager.service.actors.SelfScheduledActor

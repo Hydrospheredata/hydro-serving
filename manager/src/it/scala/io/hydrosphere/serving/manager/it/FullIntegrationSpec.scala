@@ -8,6 +8,7 @@ import akka.util.Timeout
 import cats.data.EitherT
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
 import io.hydrosphere.serving.manager._
+import io.hydrosphere.serving.manager.config.{ManagerConfiguration, RuntimePackConfig}
 import io.hydrosphere.serving.model.api.HFResult
 import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service.runtime.DefaultRuntimes
@@ -39,9 +40,9 @@ trait FullIntegrationSpec extends DatabaseAccessIT
     ).root()
   )
 
-  private[this] val originalConfiguration = ManagerConfiguration.parse(rawConfig)
+  private[this] val originalConfiguration = ManagerConfiguration.load
 
-  def configuration = originalConfiguration.copy(runtimesStarterPack = DefaultRuntimes.dummies)
+  def configuration = originalConfiguration.right.get.copy(runtimePack = RuntimePackConfig.Dummies)
 
   var managerRepositories: ManagerRepositories = _
   var managerServices: ManagerServices = _

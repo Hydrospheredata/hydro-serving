@@ -4,12 +4,12 @@ import java.nio.file.{Files, Path, Paths, StandardCopyOption}
 
 import cats.data.EitherT
 import cats.implicits._
-import io.hydrosphere.serving.manager.ManagerConfiguration
+import io.hydrosphere.serving.manager.config.ManagerConfiguration
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.source.fetchers.ModelFetcher
 import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
-import io.hydrosphere.serving.manager.service.source.storages.local.LocalModelStorage
+import io.hydrosphere.serving.manager.service.source.storages.local.{LocalModelStorage, LocalModelStorageDefinition}
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import io.hydrosphere.serving.model.api.{HFResult, ModelType, Result}
 import org.apache.logging.log4j.scala.Logging
@@ -21,7 +21,11 @@ class ModelStorageServiceImpl(
   managerConfiguration: ManagerConfiguration)
   (implicit ex: ExecutionContext) extends ModelStorageService with Logging {
 
-  val storage = new LocalModelStorage(managerConfiguration.localStorage)
+  val default = LocalModelStorageDefinition("localstorage", Files.createTempDirectory("hydroservingLocalStorage"))
+  val storageDef = managerConfiguration.localStorage.getOrElse(default)
+  val storage = new LocalModelStorage(storageDef)
+
+  logger.info(s"Using model storage: $storageDef")
 
   def upload(upload: ModelUpload): HFResult[StorageUploadResult] = { //TODO reconsider this
     try {

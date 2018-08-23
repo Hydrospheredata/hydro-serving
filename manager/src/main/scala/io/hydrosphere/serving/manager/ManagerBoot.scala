@@ -6,7 +6,8 @@ import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.spotify.docker.client.DefaultDockerClient
-import com.typesafe.config.ConfigFactory
+import io.hydrosphere.serving.manager.config.ManagerConfiguration
+import io.hydrosphere.serving.manager.util.ReflectionUtils
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{Await, ExecutionContext}
@@ -19,7 +20,16 @@ object ManagerBoot extends App with Logging {
     implicit val timeout: Timeout = Timeout(5.minute)
     implicit val serviceExecutionContext: ExecutionContext = ExecutionContext.global
 
-    val configuration = ManagerConfiguration.parse(ConfigFactory.load())
+    val configLoadResult = ManagerConfiguration.load
+    val configuration = configLoadResult match {
+      case Left(err) =>
+        val textErr = err.toList.map(x => s"${x.location}: ${x.description}").mkString("\n")
+        logger.error(s"Configuration errors:\n$textErr")
+        throw new IllegalArgumentException(textErr)
+      case Right(config) =>
+        logger.info(s"Config loaded:\n${ReflectionUtils.prettyPrint(config)}")
+        config
+    }
 
     val dockerClient = DefaultDockerClient.fromEnv().build() // move to config?
 

@@ -2,7 +2,7 @@
 <Configuration monitorInterval="30" status="WARN">
     <Appenders>
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="%highlight{[%d{yyyy-MM-dd HH:mm:ss.SSS}][%level] %c{1.} %C{1.}.%M.%L} %msg%n">
+            <PatternLayout pattern="%highlight{[%d{yyyy-MM-dd HH:mm:ss.SSS}][%level][%t] %c{1.}.%M.%L} %msg%n">
             </PatternLayout>
         </Console>
         <!--<File name="LogFile" fileName="logs/app.log">-->

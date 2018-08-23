@@ -9,6 +9,7 @@ import com.sksamuel.elastic4s.http.HttpClient
 import com.spotify.docker.client._
 import io.grpc._
 import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, Headers}
+import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, DockerRepositoryConfiguration, ManagerConfiguration}
 import io.hydrosphere.serving.manager.connector.HttpEnvoyAdminConnector
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedInfoUtilityServiceImpl}
 import io.hydrosphere.serving.manager.service.application.{ApplicationManagementService, ApplicationManagementServiceImpl}
@@ -22,7 +23,7 @@ import io.hydrosphere.serving.manager.service.model.{ModelManagementService, Mod
 import io.hydrosphere.serving.manager.service.model_build.builders._
 import io.hydrosphere.serving.manager.service.model_build.{ModelBuildManagementServiceImpl, ModelBuildManagmentService}
 import io.hydrosphere.serving.manager.service.model_version.{ModelVersionManagementService, ModelVersionManagementServiceImpl}
-import io.hydrosphere.serving.manager.service.runtime.{RuntimeManagementService, RuntimeManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.runtime.{DefaultRuntimes, RuntimeManagementService, RuntimeManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.service.{ServiceManagementService, ServiceManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.source.ModelStorageServiceImpl
 import org.apache.logging.log4j.scala.Logging
@@ -52,7 +53,7 @@ class ManagerServices(
   val modelBuildService: ModelBuildService = new LocalModelBuildService(dockerClient, sourceManagementService)
 
   val modelPushService: ModelPushService = managerConfiguration.dockerRepository match {
-    case c: ECSDockerRepositoryConfiguration => new ECSModelPushService(dockerClient, c)
+    case c: DockerRepositoryConfiguration.Ecs => new ECSModelPushService(dockerClient, c)
     case _ => new EmptyModelPushService
   }
 
@@ -83,8 +84,8 @@ class ManagerServices(
   )
 
   val cloudDriverService: CloudDriverService = managerConfiguration.cloudDriver match {
-    case _: ECSCloudDriverConfiguration => new ECSCloudDriverService(managerConfiguration, internalManagerEventsPublisher)
-    case _: DockerCloudDriverConfiguration => new DockerComposeCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
+    case _: CloudDriverConfiguration.Ecs => new ECSCloudDriverService(managerConfiguration, internalManagerEventsPublisher)
+    case _: CloudDriverConfiguration.Docker => new DockerComposeCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
     case _ => new LocalCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
   }
 
@@ -93,7 +94,7 @@ class ManagerServices(
     managerRepositories.runtimePullRepository,
     dockerClient
   )
-  Future.traverse(managerConfiguration.runtimesStarterPack)(runtimeManagementService.create)
+  Future.traverse(managerConfiguration.runtimePack.toRuntimePack)(runtimeManagementService.create)
 
   val environmentManagementService: EnvironmentManagementService = new EnvironmentManagementServiceImpl(managerRepositories.environmentRepository)
 
@@ -152,7 +153,7 @@ class ManagerServices(
     ))
   }
 
-  managerConfiguration.metrics.influxDB.foreach { conf =>
+  managerConfiguration.metrics.influxDb.foreach { conf =>
     val influxDBClient = InfluxDB.connect(conf.host, conf.port)
 
     val influxActor = system.actorOf(InfluxDBMetricsService.props(

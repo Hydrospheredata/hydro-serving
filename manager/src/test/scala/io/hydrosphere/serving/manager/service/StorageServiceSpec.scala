@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.service
 
-import io.hydrosphere.serving.manager.{GenericUnitTest, ManagerConfiguration}
+import io.hydrosphere.serving.manager.GenericUnitTest
 import org.mockito.invocation.InvocationOnMock
 import org.mockito.stubbing.Answer
 import org.mockito.{Matchers, Mockito}

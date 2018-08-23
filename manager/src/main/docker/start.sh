@@ -23,17 +23,18 @@
 
 JAVA_OPTS="-Xmx$JAVA_XMX -Xms$JAVA_XMX"
 
-APP_OPTS="-Dapplication.grpcPort=9091 -Dapplication.port=9090"
+APP_OPTS="-Dapplication.grpc-port=9091 -Dapplication.port=9090"
 
 if [ "$CUSTOM_CONFIG" = "" ]
 then
-    APP_OPTS="$APP_OPTS -DopenTracing.zipkin.enabled=$ZIPKIN_ENABLED -DopenTracing.zipkin.port=$ZIPKIN_PORT -DopenTracing.zipkin.host=$ZIPKIN_HOST"
-    APP_OPTS="$APP_OPTS -Dmanager.advertisedHost=$ADVERTISED_MANAGER_HOST -Dmanager.advertisedPort=$ADVERTISED_MANAGER_PORT"
-    APP_OPTS="$APP_OPTS -Ddatabase.jdbcUrl=jdbc:postgresql://$DATABASE_HOST:$DATABASE_PORT/$DATABASE_NAME"
+    APP_OPTS="$APP_OPTS -Dopen-tracing.zipkin.enabled=$ZIPKIN_ENABLED -Dopen-tracing.zipkin.port=$ZIPKIN_PORT -Dopen-tracing.zipkin.host=$ZIPKIN_HOST"
+    APP_OPTS="$APP_OPTS -Dmanager.advertised-host=$ADVERTISED_MANAGER_HOST -Dmanager.advertised-port=$ADVERTISED_MANAGER_PORT"
+    APP_OPTS="$APP_OPTS -Ddatabase.jdbc-url=jdbc:postgresql://$DATABASE_HOST:$DATABASE_PORT/$DATABASE_NAME"
     APP_OPTS="$APP_OPTS -Ddatabase.username=$DATABASE_USERNAME -Ddatabase.password=$DATABASE_PASSWORD"
 
     if [ "$CLOUD_DRIVER" = "swarm" ]; then
-        APP_OPTS="$APP_OPTS -DcloudDriver.swarm.networkName=$NETWORK_NAME"
+        APP_OPTS="$APP_OPTS -Dcloud-driver.type=swarm"
+        APP_OPTS="$APP_OPTS -Dcloud-driver.networkName=$NETWORK_NAME"
     elif [ "$CLOUD_DRIVER" = "ecs" ]; then
         META_DATA_URL=http://169.254.169.254/latest
         SIDECAR_HOST=$(wget -q -O - $META_DATA_URL/meta-data/local-ipv4)
@@ -44,20 +45,22 @@ then
         [ -z "$ECS_VPC_ID" ] && ECS_VPC_ID=$(wget -q -O - $META_DATA_URL/meta-data/network/interfaces/macs/${INTERFACE}/vpc-id)
         [ -z "$ECS_DEPLOY_MEMORY_RESERVATION" ] && ECS_DEPLOY_MEMORY_RESERVATION="200"
 
-        APP_OPTS="$APP_OPTS -DcloudDriver.ecs.internalDomainName=$ECS_INTERNAL_DOMAIN_NAME"
-        APP_OPTS="$APP_OPTS -DcloudDriver.ecs.region=$ECS_DEPLOY_REGION"
-        APP_OPTS="$APP_OPTS -DcloudDriver.ecs.cluster=$ECS_DEPLOY_CLUSTER"
-        APP_OPTS="$APP_OPTS -DcloudDriver.ecs.accountId=$ECS_DEPLOY_ACCOUNT"
-        APP_OPTS="$APP_OPTS -DcloudDriver.ecs.vpcId=$ECS_VPC_ID"
-        APP_OPTS="$APP_OPTS -DcloudDriver.ecs.memoryReservation=$ECS_DEPLOY_MEMORY_RESERVATION"
-        APP_OPTS="$APP_OPTS -DdockerRepository.type=ecs"
+        APP_OPTS="$APP_OPTS -Dcloud-driver.type=ecs"
+        APP_OPTS="$APP_OPTS -Ddocker-repository.type=ecs"
+        APP_OPTS="$APP_OPTS -Dcloud-driver.internal-domain-name=$ECS_INTERNAL_DOMAIN_NAME"
+        APP_OPTS="$APP_OPTS -Dcloud-driver.region=$ECS_DEPLOY_REGION"
+        APP_OPTS="$APP_OPTS -Dcloud-driver.cluster=$ECS_DEPLOY_CLUSTER"
+        APP_OPTS="$APP_OPTS -Dcloud-driver.account-id=$ECS_DEPLOY_ACCOUNT"
+        APP_OPTS="$APP_OPTS -Dcloud-driver.vpcId=$ECS_VPC_ID"
+        APP_OPTS="$APP_OPTS -Dcloud-driver.memory-reservation=$ECS_DEPLOY_MEMORY_RESERVATION"
     else
+        APP_OPTS="$APP_OPTS -Dcloud-driver.type=docker"
         if [ ! -z "$NETWORK_NAME" ]; then
-            APP_OPTS="$APP_OPTS -DcloudDriver.docker.networkName=$NETWORK_NAME"
+            APP_OPTS="$APP_OPTS -Dcloud-driver.network-name=$NETWORK_NAME"
         else
-            APP_OPTS="$APP_OPTS -DcloudDriver.docker.networkName=bridge"
+            APP_OPTS="$APP_OPTS -Dcloud-driver.network-name=bridge"
         fi
-        APP_OPTS="$APP_OPTS -DdockerRepository.type=local"
+        APP_OPTS="$APP_OPTS -Ddocker-repository.type=local"
     fi
 
     if [ -n "$METRICS_ELASTIC_URI" ]; then
@@ -65,10 +68,10 @@ then
         [ -z "$METRICS_ELASTIC_MAPPING_NAME" ] && METRICS_ELASTIC_MAPPING_NAME="system"
         [ -z "$METRICS_ELASTIC_COLLECT_TIMEOUT" ] && METRICS_ELASTIC_COLLECT_TIMEOUT="30"
 
-        APP_OPTS="$APP_OPTS -Dmetrics.elastic.collectTimeout=$METRICS_ELASTIC_COLLECT_TIMEOUT"
-        APP_OPTS="$APP_OPTS -Dmetrics.elastic.clientUri=$METRICS_ELASTIC_URI"
-        APP_OPTS="$APP_OPTS -Dmetrics.elastic.indexName=$METRICS_ELASTIC_INDEX_NAME"
-        APP_OPTS="$APP_OPTS -Dmetrics.elastic.mappingName=$METRICS_ELASTIC_MAPPING_NAME"
+        APP_OPTS="$APP_OPTS -Dmetrics.elastic.collect-timeout=$METRICS_ELASTIC_COLLECT_TIMEOUT"
+        APP_OPTS="$APP_OPTS -Dmetrics.elastic.client-uri=$METRICS_ELASTIC_URI"
+        APP_OPTS="$APP_OPTS -Dmetrics.elastic.index-name=$METRICS_ELASTIC_INDEX_NAME"
+        APP_OPTS="$APP_OPTS -Dmetrics.elastic.mapping-name=$METRICS_ELASTIC_MAPPING_NAME"
     fi
 
     if [ -n "$METRICS_INFLUXDB_HOST" ]; then
@@ -76,10 +79,10 @@ then
         [ -z "$METRICS_INFLUXDB_PORT" ] && METRICS_INFLUXDB_PORT="8086"
         [ -z "$METRICS_INFLUXDB_COLLECT_TIMEOUT" ] && METRICS_INFLUXDB_COLLECT_TIMEOUT="30"
 
-        APP_OPTS="$APP_OPTS -Dmetrics.influxDB.collectTimeout=$METRICS_INFLUXDB_COLLECT_TIMEOUT"
-        APP_OPTS="$APP_OPTS -Dmetrics.influxDB.dataBaseName=$METRICS_INFLUXDB_DATABASE_NAME"
-        APP_OPTS="$APP_OPTS -Dmetrics.influxDB.host=$METRICS_INFLUXDB_HOST"
-        APP_OPTS="$APP_OPTS -Dmetrics.influxDB.port=$METRICS_INFLUXDB_PORT"
+        APP_OPTS="$APP_OPTS -Dmetrics.influx-db.collect-timeout=$METRICS_INFLUXDB_COLLECT_TIMEOUT"
+        APP_OPTS="$APP_OPTS -Dmetrics.influx-db.database-name=$METRICS_INFLUXDB_DATABASE_NAME"
+        APP_OPTS="$APP_OPTS -Dmetrics.influx-db.host=$METRICS_INFLUXDB_HOST"
+        APP_OPTS="$APP_OPTS -Dmetrics.influx-db.port=$METRICS_INFLUXDB_PORT"
     fi
 
     echo "Custom config does not exist"
@@ -87,7 +90,7 @@ else
    APP_OPTS="$APP_OPTS -Dconfig.file=$CUSTOM_CONFIG"
 fi
 
-APP_OPTS="$APP_OPTS -Dapplication.shadowingOn=$APP_SHADOWING_ON -Dsidecar.adminPort=$SIDECAR_ADMIN_PORT -Dsidecar.ingressPort=$SIDECAR_INGRESS_PORT -Dsidecar.egressPort=$SIDECAR_EGRESS_PORT -Dsidecar.host=$SIDECAR_HOST"
+APP_OPTS="$APP_OPTS -Dapplication.shadowing-on=$APP_SHADOWING_ON -Dsidecar.admin-port=$SIDECAR_ADMIN_PORT -Dsidecar.ingress-port=$SIDECAR_INGRESS_PORT -Dsidecar.egress-port=$SIDECAR_EGRESS_PORT -Dsidecar.host=$SIDECAR_HOST"
 
 echo "Running Manager with:"
 echo "JAVA_OPTS=$JAVA_OPTS"
