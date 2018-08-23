@@ -101,9 +101,22 @@ services:
       - "DATABASE_HOST=postgres"
       - "SIDECAR_HOST=sidecar"
       - "NETWORK_NAME=demo_hydronet"
-      - "METRICS_INFLUXDB_HOST=influxdb"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+
+  gateway:
+    image: ${gateway_image}:${gateway_version}
+    container_name: gateway
+    ports:
+      - "29091:9091"
+      - "29090:9090"
+    networks:
+      - hydronet
+    environment:
+      - "SIDECAR_HOST=sidecar"
+    depends_on:
+      - sidecar
+      - manager
 
   sidecar:
     image: ${sidecar_image}:${sidecar_version}
@@ -135,10 +148,8 @@ services:
       - "MANAGER_HOST=sidecar:8080"
       - "SONAR_HOST=serving-sonar:9090"
       - "ELASTIC_HOST=elasticsearch:9200"
-      - "INFLUX_HOST=influxdb:8086"
     depends_on:
       - sidecar
-      - serving-sonar
 
   kafka-serving:
     image: ${gateway_kafka_image}:${gateway_kafka_version}
