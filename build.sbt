@@ -20,12 +20,13 @@ lazy val codegen = project.in(file("codegen"))
   .settings(libraryDependencies ++= Dependencies.codegenDependencies)
 
 lazy val manager = project.in(file("manager"))
+  .dependsOn(codegen)
   .configs(IntegrationTest)
   .settings(Defaults.itSettings: _*)
   .settings(Common.settings)
   .settings(libraryDependencies ++= Dependencies.hydroServingManagerDependencies)
-  .dependsOn(codegen)
-
+  .settings(SlickGen.settings: _*)
+  .settings(ManagerDev.settings: _*)
 
 lazy val dummyRuntime = project.in(file("dummy-runtime"))
   .configs(IntegrationTest)
