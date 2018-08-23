@@ -12,10 +12,13 @@ object ManagerDev {
   lazy val sidecarImage = "hydrosphere/serving-sidecar:latest"
   lazy val uiImage = "hydrosphere/serving-manager-ui:latest"
 
+  lazy val gatewayImage = "hydrosphere/serving-gateway:latest"
+
   lazy val settings = Seq(
     hostIp := NetUtils.findLocalInetAddress().getHostAddress,
     dockerEnv := {
       val ip = hostIp.value
+      streams.value.log.info(s"Host ip: $ip")
 
       val pg = DockerOpts(pgImage)
         .env("POSTGRES_DB", "docker")
@@ -33,8 +36,13 @@ object ManagerDev {
         .exposePort(8081, 8081)
         .exposePort(8082, 8082)
 
+      val gateway = DockerOpts(gatewayImage)
+        .env("SIDECAR_HOST", ip)
+        .exposePort(29091, 9091)
+        .exposePort(29090, 9090)
+
       val ui = DockerOpts(uiImage)
-        .env("MANAGER_HOST", ip + ":9090")
+        .env("MANAGER_HOST", ip + ":8080")
         .exposePort(9098, 9091)
         .exposePort(8084, 80)
 
@@ -49,6 +57,7 @@ object ManagerDev {
       start(pg)
       start(sidecar)
       start(ui)
+      start(gateway)
     },
     cleanDockerEnv := {
       def stop(name: String): Unit = {
@@ -64,6 +73,7 @@ object ManagerDev {
       stop(pgImage)
       stop(sidecarImage)
       stop(uiImage)
+      stop(gatewayImage)
     },
     devRun := {
       val cp = (fullClasspath in Compile).value
@@ -76,9 +86,14 @@ object ManagerDev {
       if (!modelsDir.exists()) IO.createDirectory(modelsDir)
       val runner = new ForkRun(ForkOptions().withRunJVMOptions(Vector(
         "-Dsidecar.host=127.0.0.1",
-        s"-Dmanager.advertisedHost=${hostIp.value}",
-        "-Dmanager.advertisedPort=9091",
-        s"-DlocalStorage.path=${modelsDir.getAbsolutePath}"
+        s"-Dmanager.advertised-host=${hostIp.value}",
+        "-Dmanager.advertised-port=9091",
+        s"-Dlocal-storage.path=${modelsDir.getAbsolutePath}",
+        s"-Dlocal-storage.name=localStorage",
+        "-Dcloud-driver=local" ,
+        s"-Dcloud-driver.gateway.host=${hostIp.value}",
+        s"-Dcloud-driver.gateway.port=29091",
+        s"-Dcloud-driver.gateway.http-port=29090"
       )))
       runner.run(main, cp.files, Seq.empty, s.log)
     }
