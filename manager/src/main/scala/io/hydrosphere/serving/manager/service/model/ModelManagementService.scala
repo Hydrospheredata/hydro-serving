@@ -2,8 +2,9 @@ package io.hydrosphere.serving.manager.service.model
 
 import io.hydrosphere.serving.manager.controller.model.{ModelUpload, UploadedEntity}
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.description.ContractDescription
 import io.hydrosphere.serving.manager.model.db.Model
+import io.hydrosphere.serving.model.api.HFResult
+import io.hydrosphere.serving.model.api.description.ContractDescription
 import spray.json.JsObject
 
 import scala.concurrent.Future

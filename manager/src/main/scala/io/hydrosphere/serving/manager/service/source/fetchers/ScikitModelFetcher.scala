@@ -3,9 +3,8 @@ package io.hydrosphere.serving.manager.service.source.fetchers
 import java.nio.file.Files
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.model.api.ModelMetadata
-import io.hydrosphere.serving.manager.model.api._
 import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
+import io.hydrosphere.serving.model.api.{ModelMetadata, ModelType}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.JavaConverters._

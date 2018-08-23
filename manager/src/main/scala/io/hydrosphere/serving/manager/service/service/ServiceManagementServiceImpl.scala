@@ -5,10 +5,9 @@ import java.time.LocalDateTime
 import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.model.Result.ClientError
-import io.hydrosphere.serving.manager.model.Result.Implicits._
+import io.hydrosphere.serving.model.api.Result.Implicits._
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.model.api.{HFResult, ModelType, Result}
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.repository._
 import io.hydrosphere.serving.manager.service.clouddriver._
@@ -16,6 +15,7 @@ import io.hydrosphere.serving.manager.service.environment.{AnyEnvironment, Envir
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import io.hydrosphere.serving.manager.service.runtime.RuntimeManagementService
+import io.hydrosphere.serving.model.api.Result.ClientError
 import org.apache.logging.log4j.scala.Logging
 import spray.json.JsObject
 
@@ -31,7 +31,7 @@ class ServiceManagementServiceImpl(
   internalManagerEventsPublisher: InternalManagerEventsPublisher
 )(implicit val ex: ExecutionContext) extends ServiceManagementService with Logging {
 
-  private def mapInternalService(cloudService: CloudService): Service = {
+  private def mapInternalService(cloudService: CloudService, envMap: Map[String, Environment]): Service = {
     Service(
       id = cloudService.id,
       serviceName = cloudService.serviceName,
@@ -44,11 +44,7 @@ class ServiceManagementServiceImpl(
         tags = List(),
         configParams = Map()
       ),
-      environment = cloudService.environmentName.map(n => Environment(
-        id = 0L,
-        name = n,
-        placeholders = Seq()
-      )),
+      environment = cloudService.environmentName.map(n => envMap.getOrElse(n, AnyEnvironment)),
       model = cloudService.modelInfo.map(m => ModelVersion(
         id = m.modelId,
         imageName = m.imageName,
@@ -84,14 +80,17 @@ class ServiceManagementServiceImpl(
     cloudDriverService.serviceList().flatMap(cloudServices => {
       serviceRepository.all().flatMap(services => {
         val map = services.map(p => p.id -> p).toMap
-        Future.successful(cloudServices.map(s => {
-          map.get(s.id) match {
-            case Some(cs) =>
-              cs.copy(statusText = s.statusText)
-            case _ =>
-              mapInternalService(s)
-          }
-        }))
+        environmentManagementService.all().map(environments => {
+          cloudServices.map(s => {
+            val environmentsMap = environments.map(e => e.name -> e).toMap
+            map.get(s.id) match {
+              case Some(cs) =>
+                cs.copy(statusText = s.statusText)
+              case _ =>
+                mapInternalService(s, environmentsMap)
+            }
+          })
+        })
       })
     })
 
@@ -145,9 +144,9 @@ class ServiceManagementServiceImpl(
     EitherT(serviceRes).flatMap { info =>
       val res = info.id match {
         case CloudDriverService.`MANAGER_ID` =>
-          Result.okF(mapInternalService(info))
+          Result.okF(mapInternalService(info, Map()))
         case CloudDriverService.`GATEWAY_HTTP_ID` =>
-          Result.okF(mapInternalService(info))
+          Result.okF(mapInternalService(info, Map()))
 
         case _ =>
           serviceRepository

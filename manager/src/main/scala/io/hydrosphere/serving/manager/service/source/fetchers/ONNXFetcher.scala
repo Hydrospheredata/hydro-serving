@@ -4,8 +4,8 @@ import java.nio.file.{Files, Path}
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.model.api.ModelMetadata
-import io.hydrosphere.serving.manager.model.api.ModelType.ONNX
+import io.hydrosphere.serving.model.api.ModelMetadata
+import io.hydrosphere.serving.model.api.ModelType.ONNX
 import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import io.hydrosphere.serving.onnx.onnx.TensorProto.DataType._
 import io.hydrosphere.serving.onnx.onnx._

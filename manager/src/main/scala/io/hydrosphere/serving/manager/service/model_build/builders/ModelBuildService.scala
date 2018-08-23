@@ -1,8 +1,8 @@
 package io.hydrosphere.serving.manager.service.model_build.builders
 
 import com.spotify.docker.client.ProgressHandler
-import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
+import io.hydrosphere.serving.model.api.HFResult
 
 trait ModelBuildService {
   val SCRIPT_VAL_MODEL_PATH = "MODEL_PATH"

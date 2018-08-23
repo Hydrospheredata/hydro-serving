@@ -4,6 +4,7 @@ import java.nio.file.Path
 
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.model.api.HFResult
 
 trait ModelStorageService {
   /**

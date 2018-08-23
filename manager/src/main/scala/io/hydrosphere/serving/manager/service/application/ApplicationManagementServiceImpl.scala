@@ -1,39 +1,26 @@
 package io.hydrosphere.serving.manager.service.application
 
-import java.util.concurrent.atomic.AtomicReference
-
 import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, Header, Headers}
 import io.hydrosphere.serving.manager.ApplicationConfig
 import io.hydrosphere.serving.manager.controller.application._
-import io.hydrosphere.serving.manager.model.Result.ClientError
-import io.hydrosphere.serving.manager.model.Result.Implicits._
-import io.hydrosphere.serving.manager.model.api.TensorExampleGenerator
-import io.hydrosphere.serving.manager.model.api.json.TensorJsonLens
-import io.hydrosphere.serving.manager.model.api.ops.ModelSignatureOps
-import io.hydrosphere.serving.manager.model.api.tensor_builder.SignatureBuilder
+import io.hydrosphere.serving.model.api._
+import io.hydrosphere.serving.model.api.Result.Implicits._
+import io.hydrosphere.serving.model.api.json.TensorJsonLens
+import io.hydrosphere.serving.model.api.ops.ModelSignatureOps
 import io.hydrosphere.serving.manager.model.db._
-import io.hydrosphere.serving.manager.model.{db, _}
-import io.hydrosphere.serving.manager.repository.{ApplicationRepository, RuntimeRepository}
-import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService
+import io.hydrosphere.serving.manager.model._
+import io.hydrosphere.serving.manager.repository.ApplicationRepository
 import io.hydrosphere.serving.manager.service.environment.{AnyEnvironment, EnvironmentManagementService}
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import io.hydrosphere.serving.manager.service.runtime.RuntimeManagementService
 import io.hydrosphere.serving.manager.service.service.{CreateServiceRequest, ServiceManagementService}
-import io.hydrosphere.serving.manager.util.TensorUtil
-import io.hydrosphere.serving.monitoring.monitoring.ExecutionInformation.ResponseOrError
-import io.hydrosphere.serving.monitoring.monitoring.{ExecutionError, ExecutionInformation, ExecutionMetadata, MonitoringServiceGrpc}
+import io.hydrosphere.serving.monitoring.monitoring.MonitoringServiceGrpc
 import io.hydrosphere.serving.profiler.profiler.DataProfilerServiceGrpc
-import io.hydrosphere.serving.tensorflow.api.model.ModelSpec
-import io.hydrosphere.serving.tensorflow.api.predict.{PredictRequest, PredictResponse}
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
-import io.hydrosphere.serving.tensorflow.tensor.{TensorProto, TypedTensorFactory}
-import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
-import io.hydrosphere.serving.tensorflow.types.DataType
 import org.apache.logging.log4j.scala.Logging
 import spray.json.JsObject
 
@@ -61,274 +48,12 @@ class ApplicationManagementServiceImpl(
   modelVersionManagementService: ModelVersionManagementService,
   environmentManagementService: EnvironmentManagementService,
   serviceManagementService: ServiceManagementService,
-  grpcClient: PredictionServiceGrpc.PredictionServiceStub,
-  grpcClientForMonitoring: MonitoringServiceGrpc.MonitoringServiceStub,
-  grpcClientForProfiler: DataProfilerServiceGrpc.DataProfilerServiceStub,
   internalManagerEventsPublisher: InternalManagerEventsPublisher,
   applicationConfig: ApplicationConfig,
   runtimeService: RuntimeManagementService
 )(implicit val ex: ExecutionContext) extends ApplicationManagementService with Logging {
 
   type FutureMap[T] = Future[Map[Long, T]]
-
-  //TODO REMOVE!
-  private def sendToDebug(responseOrError: ResponseOrError, predictRequest: PredictRequest, executionUnit: ExecutionUnit): Unit = {
-    if (applicationConfig.shadowingOn) {
-      val execInfo = ExecutionInformation(
-        metadata = Option(ExecutionMetadata(
-          applicationId = executionUnit.stageInfo.applicationId,
-          stageId = executionUnit.stageInfo.stageId,
-          modelVersionId = executionUnit.stageInfo.modelVersionId.getOrElse(-1),
-          signatureName = executionUnit.stageInfo.signatureName,
-          applicationRequestId = executionUnit.stageInfo.applicationRequestId.getOrElse(""),
-          requestId = executionUnit.stageInfo.applicationRequestId.getOrElse(""), //todo fetch from response,
-          applicationNamespace = executionUnit.stageInfo.applicationNamespace.getOrElse(""),
-          dataTypes = executionUnit.stageInfo.dataProfileFields
-        )),
-        request = Option(predictRequest),
-        responseOrError = responseOrError
-      )
-
-      grpcClientForMonitoring
-        .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, CloudDriverService.MONITORING_NAME)
-        .analyze(execInfo)
-        .onComplete {
-          case Failure(thr) =>
-            logger.warn("Can't send message to the monitoring service", thr)
-          case _ =>
-            Unit
-        }
-
-      grpcClientForProfiler
-        .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, CloudDriverService.PROFILER_NAME)
-        .analyze(execInfo)
-        .onComplete {
-          case Failure(thr) =>
-            logger.warn("Can't send message to the data profiler service", thr)
-          case _ => Unit
-        }
-    }
-  }
-
-  private def getHeaderValue(header: Header): Option[String] = Option(header.contextKey.get())
-
-  private def getCurrentExecutionUnit(unit: ExecutionUnit, modelVersionIdHeaderValue: AtomicReference[String]): ExecutionUnit = Try({
-    Option(modelVersionIdHeaderValue.get()).map(_.toLong)
-  }).map(s => unit.copy(stageInfo = unit.stageInfo.copy(modelVersionId = s)))
-    .getOrElse(unit)
-
-
-  private def getLatency(latencyHeaderValue: AtomicReference[String]): Try[TensorProto] = {
-    Try({
-      Option(latencyHeaderValue.get()).map(_.toLong)
-    }).map(v => TensorProto(
-      dtype = DataType.DT_INT64,
-      int64Val = Seq(v.getOrElse(0)),
-      tensorShape = Some(TensorShapeProto(dim = Seq(TensorShapeProto.Dim(1))))
-    ))
-  }
-
-  def serve(unit: ExecutionUnit, request: PredictRequest, tracingInfo: Option[RequestTracingInfo]): HFResult[PredictResponse] = {
-    val verificationResults = request.inputs.map {
-      case (name, tensor) => name -> TensorUtil.verifyShape(tensor)
-    }
-
-    val errors = verificationResults.filter {
-      case (_, t) => t.isLeft
-    }.mapValues(_.left.get)
-
-    if (errors.isEmpty) {
-      val modelVersionIdHeaderValue = new AtomicReference[String](null)
-      val latencyHeaderValue = new AtomicReference[String](null)
-
-      var requestBuilder = grpcClient
-        .withOption(AuthorityReplacerInterceptor.DESTINATION_KEY, unit.serviceName)
-        .withOption(Headers.XServingModelVersionId.callOptionsClientResponseWrapperKey, modelVersionIdHeaderValue)
-        .withOption(Headers.XEnvoyUpstreamServiceTime.callOptionsClientResponseWrapperKey, latencyHeaderValue)
-
-      if (tracingInfo.isDefined) {
-        val tr = tracingInfo.get
-        requestBuilder = requestBuilder
-          .withOption(Headers.XRequestId.callOptionsKey, tr.xRequestId)
-
-        if (tr.xB3requestId.isDefined) {
-          requestBuilder = requestBuilder
-            .withOption(Headers.XB3TraceId.callOptionsKey, tr.xB3requestId.get)
-        }
-
-        if (tr.xB3SpanId.isDefined) {
-          requestBuilder = requestBuilder
-            .withOption(Headers.XB3ParentSpanId.callOptionsKey, tr.xB3SpanId.get)
-        }
-      }
-
-      val verifiedInputs = verificationResults.mapValues(_.right.get)
-      val verifiedRequest = request.copy(inputs = verifiedInputs)
-
-      requestBuilder
-        .predict(verifiedRequest)
-        .transform(
-          response => {
-            val latency = getLatency(latencyHeaderValue)
-            val res = if (latency.isSuccess) {
-              response.addInternalInfo(
-                "system.latency" -> latency.get
-              )
-            } else {
-              response
-            }
-
-            sendToDebug(ResponseOrError.Response(res), verifiedRequest, getCurrentExecutionUnit(unit, modelVersionIdHeaderValue))
-            Result.ok(response)
-          },
-          thr => {
-            logger.error("Can't send message to GATEWAY_KAFKA", thr)
-            sendToDebug(ResponseOrError.Error(ExecutionError(thr.toString)), verifiedRequest, getCurrentExecutionUnit(unit, modelVersionIdHeaderValue))
-            thr
-          }
-        )
-    } else {
-      Future.successful(
-        Result.errors(
-          errors.map {
-            case (name, err) =>
-              ClientError(s"Shape verification error for input $name: $err")
-          }.toSeq
-        )
-      )
-    }
-  }
-
-  def servePipeline(units: Seq[ExecutionUnit], data: PredictRequest, tracingInfo: Option[RequestTracingInfo]): HFResult[PredictResponse] = {
-    //TODO Add request id for step
-    val empty = Result.okF(PredictResponse(outputs = data.inputs))
-    units.foldLeft(empty) {
-      case (a, b) =>
-        EitherT(a).flatMap { resp =>
-          val request = PredictRequest(
-            modelSpec = Some(
-              ModelSpec(
-                signatureName = b.servicePath
-              )
-            ),
-            inputs = resp.outputs
-          )
-          EitherT(serve(b, request, tracingInfo))
-        }.value
-    }
-  }
-
-  def serveApplication(application: Application, request: PredictRequest, tracingInfo: Option[RequestTracingInfo]): HFResult[PredictResponse] = {
-    application.executionGraph.stages match {
-      case stage :: Nil if stage.services.lengthCompare(1) == 0 => // single stage with single service
-        request.modelSpec match {
-          case Some(servicePath) =>
-            //TODO change to real ID
-            val stageId = ApplicationStage.stageId(application.id, 0)
-            val modelVersionId = application.executionGraph.stages.headOption.flatMap(
-              _.services.headOption.flatMap(_.serviceDescription.modelVersionId))
-
-            val stageInfo = StageInfo(
-              modelVersionId = modelVersionId,
-              applicationRequestId = tracingInfo.map(_.xRequestId), // TODO get real traceId
-              applicationId = application.id,
-              signatureName = servicePath.signatureName,
-              stageId = stageId,
-              applicationNamespace = application.namespace,
-              dataProfileFields =  stage.dataProfileFields
-            )
-            val unit = ExecutionUnit(
-              serviceName = stageId,
-              servicePath = servicePath.signatureName,
-              stageInfo = stageInfo
-            )
-            serve(unit, request, tracingInfo)
-          case None => Result.clientErrorF("ModelSpec in request is not specified")
-        }
-      case stages => // pipeline
-        val execUnits = stages.zipWithIndex.map {
-          case (stage, idx) =>
-            stage.signature match {
-              case Some(signature) =>
-                val vers = stage.services.headOption.flatMap(_.serviceDescription.modelVersionId)
-                val stageInfo = StageInfo(
-                  //TODO will be wrong modelVersionId during blue-green
-                  //TODO Get this value from sidecar or in sidecar
-                  modelVersionId = vers,
-                  applicationRequestId = tracingInfo.map(_.xRequestId), // TODO get real traceId
-                  applicationId = application.id,
-                  signatureName = signature.signatureName,
-                  stageId = ApplicationStage.stageId(application.id, idx),
-                  applicationNamespace = application.namespace,
-                  dataProfileFields =  stage.dataProfileFields
-                )
-                Result.ok(
-                  ExecutionUnit(
-                    serviceName = ApplicationStage.stageId(application.id, idx),
-                    servicePath = stage.services.head.signature.get.signatureName, // FIXME dirty hack to fix service signatures
-                    stageInfo = stageInfo
-                  )
-                )
-              case None => Result.clientError(s"$stage doesn't have a signature")
-            }
-        }
-
-        Result.sequence(execUnits) match {
-          case Left(err) => Result.errorF(err)
-          case Right(units) =>
-            servePipeline(units, request, tracingInfo)
-        }
-    }
-  }
-
-  def serveGrpcApplication(data: PredictRequest, tracingInfo: Option[RequestTracingInfo]): HFResult[PredictResponse] = {
-    data.modelSpec match {
-      case Some(modelSpec) =>
-        applicationRepository.getByName(modelSpec.name).flatMap {
-          case Some(app) =>
-            serveApplication(app, data, tracingInfo)
-          case None => Future.failed(new IllegalArgumentException(s"Application '${modelSpec.name}' is not found"))
-        }
-      case None => Future.failed(new IllegalArgumentException("ModelSpec is not defined"))
-    }
-  }
-
-  def serveJsonApplication(jsonServeRequest: JsonServeRequest, tracingInfo: Option[RequestTracingInfo]): HFResult[JsObject] = {
-    getApplication(jsonServeRequest.targetId).flatMap {
-      case Right(application) =>
-        val signature = application.contract.signatures
-          .find(_.signatureName == jsonServeRequest.signatureName)
-          .toHResult(
-            ClientError(s"Application ${jsonServeRequest.targetId} doesn't have a ${jsonServeRequest.signatureName} signature")
-          )
-
-        val ds = signature.right.map { sig =>
-          new SignatureBuilder(sig).convert(jsonServeRequest.inputs).right.map { tensors =>
-            PredictRequest(
-              modelSpec = Some(
-                ModelSpec(
-                  name = application.name,
-                  signatureName = jsonServeRequest.signatureName,
-                  version = None
-                )
-              ),
-              inputs = tensors.mapValues(_.toProto)
-            )
-          }
-        }
-
-        ds match {
-          case Left(err) => Result.errorF(err)
-          case Right(Left(tensorError)) => Result.clientErrorF(s"Tensor validation error: $tensorError")
-          case Right(Right(request)) =>
-            serveApplication(application, request, tracingInfo).map { result =>
-              result.right.map(responseToJsObject)
-            }
-        }
-      case Left(error) =>
-        Result.errorF(error)
-    }
-  }
 
   override def getApplication(appId: Long): HFResult[Application] = {
     applicationRepository.get(appId).map {
@@ -648,10 +373,5 @@ class ApplicationManagementServiceImpl(
       graph.stages.head.signature.get.inputs,
       graph.stages.last.signature.get.outputs
     )
-  }
-
-  private def responseToJsObject(rr: PredictResponse): JsObject = {
-    val fields = rr.outputs.mapValues(v => TensorJsonLens.toJson(TypedTensorFactory.create(v)))
-    JsObject(fields)
   }
 }

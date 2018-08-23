@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.model.api
 
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.contract.utils.ContractBuilders
-import io.hydrosphere.serving.manager.model.api.ops.ModelSignatureOps
+import io.hydrosphere.serving.model.api.ops.ModelSignatureOps
 import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.scalatest.WordSpec

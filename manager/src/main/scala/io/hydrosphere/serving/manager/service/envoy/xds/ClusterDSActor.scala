@@ -26,8 +26,9 @@ class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis
     CloudDriverService.MANAGER_HTTP_NAME,
     CloudDriverService.MANAGER_UI_NAME,
     CloudDriverService.MONITORING_HTTP_NAME,
-    CloudDriverService.PROFILER_HTTP_NAME
-    )
+    CloudDriverService.PROFILER_HTTP_NAME,
+    CloudDriverService.GATEWAY_HTTP_NAME
+  )
 
   private def createCluster(name: String): Cluster = {
     val res = Cluster(
@@ -52,28 +53,32 @@ class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis
     }
   }
 
-  private def addClusters(names: Set[String]): Set[Boolean] =
-    names.map(name => {
+  private def addClusters(names: Set[String]): Set[Boolean] = {
+    log.debug(names.toString())
+    names.map { name =>
       if (clustersNames.add(name)) {
         clusters += createCluster(name)
         true
       } else {
         false
       }
-    })
+    }
+  }
 
-  private def removeClusters(names: Set[String]): Set[Boolean] =
-    names.map(name => {
+  private def removeClusters(names: Set[String]): Set[Boolean] = {
+    log.debug(names.toString())
+    names.map { name =>
       if (clustersNames.remove(name)) {
         clusters --= clusters.filter(c => !clustersNames.contains(c.name))
         true
       } else {
         false
       }
-    })
-
+    }
+  }
 
   private def syncClusters(names: Set[String]): Set[Boolean] = {
+    log.debug(names.toString())
     val toRemove = clustersNames.toSet -- names
     val toAdd = names -- clustersNames
 
@@ -81,12 +86,13 @@ class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis
   }
 
   override def receiveStoreChangeEvents(mes: Any): Boolean = {
+    log.debug("Got message: {}", mes)
     val results = mes match {
-      case AddCluster(names) =>
+      case x @ AddCluster(names) =>
         addClusters(names)
-      case RemoveClusters(names) =>
+      case x @ RemoveClusters(names) =>
         removeClusters(names)
-      case SyncCluster(names) =>
+      case x @ SyncCluster(names) =>
         syncClusters(names)
     }
     results.contains(true)

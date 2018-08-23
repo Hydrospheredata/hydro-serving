@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service.source
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.model.api.ModelType
 
 case class StorageUploadResult(
   name: String,

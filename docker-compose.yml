@@ -13,7 +13,7 @@ services:
       - "POSTGRES_PASSWORD=docker"
 
   manager:
-    image: hydrosphere/serving-manager:0.0.20
+    image: hydrosphere/serving-manager:latest
     container_name: manager
     ports:
       - "19091:9091"
@@ -48,7 +48,7 @@ services:
       - "SERVICE_NAME=manager"
 
   managerui:
-    image: hydrosphere/serving-manager-ui:0.0.18
+    image: hydrosphere/serving-manager-ui:latest
     container_name: managerui
     ports:
       - "80:9091"
@@ -61,6 +61,21 @@ services:
       - "MANAGER_HOST=sidecar:8080"
     depends_on:
       - sidecar
+
+  gateway:
+    image: hydrosphere/serving-gateway:latest
+    container_name: gateway
+    ports:
+      - "29091:9091"
+      - "29090:9090"
+    networks:
+      - extnet
+      - hydronet
+    environment:
+      - "SIDECAR_HOST=sidecar"
+    depends_on:
+      - sidecar
+      - manager
 
 networks:
   hydronet:

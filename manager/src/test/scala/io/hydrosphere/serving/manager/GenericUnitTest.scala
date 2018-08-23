@@ -1,8 +1,8 @@
 package io.hydrosphere.serving.manager
 
 import cats.data.EitherT
-import io.hydrosphere.serving.manager.model.HFResult
-import io.hydrosphere.serving.manager.model.Result.HError
+import io.hydrosphere.serving.model.api.HFResult
+import io.hydrosphere.serving.model.api.Result.HError
 import org.mockito.Mockito
 import org.scalatest.mockito.MockitoSugar
 import org.scalatest.{Assertion, AsyncFunSpecLike, Matchers}

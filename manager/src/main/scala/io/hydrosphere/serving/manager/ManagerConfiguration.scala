@@ -110,7 +110,7 @@ case class LocalDockerCloudDriverServiceConfiguration(
 case class LocalDockerCloudDriverConfiguration(
   loggingConfiguration: Option[ModelLoggingConfiguration],
   monitoring:Option[LocalDockerCloudDriverServiceConfiguration],
-  profiler: Option[LocalDockerCloudDriverServiceConfiguration]
+  profiler: Option[LocalDockerCloudDriverServiceConfiguration],
 ) extends CloudDriverConfiguration(loggingConfiguration)
 
 case class ECSCloudDriverConfiguration(
@@ -131,8 +131,7 @@ case class ZipkinConfiguration(
 
 case class ApplicationConfig(
     port: Int,
-    grpcPort: Int,
-    shadowingOn: Boolean
+    grpcPort: Int
 )
 
 case class SidecarConfig(
@@ -157,8 +156,7 @@ object ManagerConfiguration {
     val c = config.getConfig("application")
     ApplicationConfig(
       port = c.getInt("port"),
-      grpcPort = c.getInt("grpcPort"),
-      shadowingOn = c.getBoolean("shadowingOn")
+      grpcPort = c.getInt("grpcPort")
     )
   }
 

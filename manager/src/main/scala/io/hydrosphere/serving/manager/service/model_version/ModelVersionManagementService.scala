@@ -1,8 +1,8 @@
 package io.hydrosphere.serving.manager.service.model_version
 
-import io.hydrosphere.serving.manager.model.HFResult
-import io.hydrosphere.serving.manager.model.api.description.ContractDescription
 import io.hydrosphere.serving.manager.model.db.ModelVersion
+import io.hydrosphere.serving.model.api.HFResult
+import io.hydrosphere.serving.model.api.description.ContractDescription
 import spray.json.JsObject
 
 import scala.concurrent.Future

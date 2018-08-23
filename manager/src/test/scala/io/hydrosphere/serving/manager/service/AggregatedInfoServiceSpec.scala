@@ -4,8 +4,7 @@ import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.GenericUnitTest
-import io.hydrosphere.serving.manager.model.Result
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.model.api.{ModelType, Result}
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.service.aggregated_info.AggregatedInfoUtilityServiceImpl
 import io.hydrosphere.serving.manager.service.application.ApplicationManagementService

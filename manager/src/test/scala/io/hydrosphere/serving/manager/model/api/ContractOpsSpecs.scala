@@ -3,8 +3,8 @@ package io.hydrosphere.serving.manager.model.api
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.contract.utils.ContractBuilders
-import io.hydrosphere.serving.manager.model.api.description.{ContractDescription, FieldDescription, SignatureDescription}
-import io.hydrosphere.serving.manager.model.api.ops.ModelSignatureOps
+import io.hydrosphere.serving.model.api.description.{ContractDescription, FieldDescription, SignatureDescription}
+import io.hydrosphere.serving.model.api.ops.ModelSignatureOps
 import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.scalatest.WordSpec
@@ -12,7 +12,7 @@ import org.scalatest.WordSpec
 
 class ContractOpsSpecs extends WordSpec {
 
-  import io.hydrosphere.serving.manager.model.api.ops.Implicits._
+  import io.hydrosphere.serving.model.api.ops.Implicits._
 
   "ContractOps" can {
     "merge" should {

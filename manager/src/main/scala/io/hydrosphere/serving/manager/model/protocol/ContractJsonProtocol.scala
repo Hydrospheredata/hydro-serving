@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.model.protocol
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.model.api.description.{ContractDescription, FieldDescription, SignatureDescription}
+import io.hydrosphere.serving.model.api.description.{ContractDescription, FieldDescription, SignatureDescription}
 import io.hydrosphere.serving.monitoring.data_profile_types.DataProfileType
 import io.hydrosphere.serving.tensorflow.types.DataType
 

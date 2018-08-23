@@ -14,7 +14,6 @@ import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUti
 import io.hydrosphere.serving.manager.service.application.{ApplicationManagementService, ApplicationManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.build_script.{BuildScriptManagementService, BuildScriptManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.clouddriver._
-import io.hydrosphere.serving.manager.service.contract.ContractUtilityServiceImpl
 import io.hydrosphere.serving.manager.service.environment.{EnvironmentManagementService, EnvironmentManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.envoy.{EnvoyGRPCDiscoveryService, EnvoyGRPCDiscoveryServiceImpl}
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
@@ -26,9 +25,6 @@ import io.hydrosphere.serving.manager.service.model_version.{ModelVersionManagem
 import io.hydrosphere.serving.manager.service.runtime.{RuntimeManagementService, RuntimeManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.service.{ServiceManagementService, ServiceManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.source.ModelStorageServiceImpl
-import io.hydrosphere.serving.monitoring.monitoring.MonitoringServiceGrpc
-import io.hydrosphere.serving.profiler.profiler.DataProfilerServiceGrpc
-import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -51,13 +47,7 @@ class ManagerServices(
 
   val channel: Channel = ClientInterceptors.intercept(managedChannel, new AuthorityReplacerInterceptor +: Headers.interceptors: _*)
 
-  val servingMeshGrpcClient: PredictionServiceGrpc.PredictionServiceStub = PredictionServiceGrpc.stub(channel)
-  val monitoringServiceClient: MonitoringServiceGrpc.MonitoringServiceStub = MonitoringServiceGrpc.stub(channel)
-  val profilerServiceClient: DataProfilerServiceGrpc.DataProfilerServiceStub = DataProfilerServiceGrpc.stub(channel)
-
   val sourceManagementService = new ModelStorageServiceImpl(managerConfiguration)
-
-  val contractUtilityService = new ContractUtilityServiceImpl
 
   val modelBuildService: ModelBuildService = new LocalModelBuildService(dockerClient, sourceManagementService)
 
@@ -71,8 +61,7 @@ class ManagerServices(
   val modelManagementService: ModelManagementService = new ModelManagementServiceImpl(
     managerRepositories.modelRepository,
     managerRepositories.modelVersionRepository,
-    sourceManagementService,
-    contractUtilityService
+    sourceManagementService
   )
 
   val buildScriptManagementService: BuildScriptManagementService = new BuildScriptManagementServiceImpl(
@@ -81,8 +70,7 @@ class ManagerServices(
 
   val modelVersionManagementService: ModelVersionManagementService = new ModelVersionManagementServiceImpl(
     managerRepositories.modelVersionRepository,
-    modelManagementService,
-    contractUtilityService
+    modelManagementService
   )
 
   val modelBuildManagmentService: ModelBuildManagmentService = new ModelBuildManagementServiceImpl(
@@ -122,9 +110,6 @@ class ManagerServices(
     applicationRepository = managerRepositories.applicationRepository,
     modelVersionManagementService = modelVersionManagementService,
     serviceManagementService = serviceManagementService,
-    grpcClient = servingMeshGrpcClient,
-    grpcClientForMonitoring = monitoringServiceClient,
-    grpcClientForProfiler = profilerServiceClient,
     internalManagerEventsPublisher = internalManagerEventsPublisher,
     applicationConfig = managerConfiguration.application,
     runtimeService = runtimeManagementService,

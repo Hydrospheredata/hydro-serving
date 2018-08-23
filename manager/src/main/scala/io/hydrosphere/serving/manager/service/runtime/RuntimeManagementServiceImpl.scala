@@ -3,12 +3,11 @@ package io.hydrosphere.serving.manager.service.runtime
 import java.util.concurrent.Executors
 
 import com.spotify.docker.client.DockerClient
-import io.hydrosphere.serving.manager.model.Result.ClientError
-import io.hydrosphere.serving.manager.model.Result.Implicits._
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.model.api.Result.Implicits._
+import io.hydrosphere.serving.model.api.{HFResult, ModelType, Result}
 import io.hydrosphere.serving.manager.model.db.{CreateRuntimeRequest, PullRuntime, Runtime}
-import io.hydrosphere.serving.manager.model.{HFResult, Result}
 import io.hydrosphere.serving.manager.repository.{RuntimePullRepository, RuntimeRepository}
+import io.hydrosphere.serving.model.api.Result.ClientError
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}

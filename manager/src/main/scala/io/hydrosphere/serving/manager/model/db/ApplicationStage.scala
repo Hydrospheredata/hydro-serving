@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.model.db
 
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
+import io.hydrosphere.serving.manager.grpc.applications.ExecutionService
 import io.hydrosphere.serving.manager.model.DataProfileFields
 
 case class ApplicationStage(
@@ -20,6 +21,13 @@ case class DetailedServiceDescription(
     runtimeId = runtime.id,
     modelVersionId = Some(modelVersion.id),
     environmentId = Some(environment.id)
+  )
+
+  def toGrpc = ExecutionService(
+    runtime = Some(runtime.toGrpc),
+    modelVersion = Some(modelVersion.toGrpc),
+    environment = Some(environment.toGrpc),
+    weight = weight
   )
 }
 

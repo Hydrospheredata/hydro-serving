@@ -1,7 +1,6 @@
 package io.hydrosphere.serving.manager.model.protocol
 
 import io.hydrosphere.serving.manager.controller.environment.CreateEnvironmentRequest
-import io.hydrosphere.serving.manager.model.Result.{ClientError, ErrorCollection, HError, InternalError}
 import io.hydrosphere.serving.manager.model.db.{CreateRuntimeRequest, PullRuntime}
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedModelBuild, AggregatedModelInfo, AggregatedModelVersion}
@@ -12,6 +11,7 @@ import io.hydrosphere.serving.manager.service.runtime._
 import io.hydrosphere.serving.manager.service.service.CreateServiceRequest
 import io.hydrosphere.serving.manager.util.task.ServiceTask
 import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
+import io.hydrosphere.serving.model.api.Result.{ClientError, ErrorCollection, HError, InternalError}
 import spray.json.{JsObject, JsString, JsValue, _}
 
 trait CompleteJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol with ModelJsonProtocol {

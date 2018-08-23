@@ -5,9 +5,9 @@ import java.net.URI
 import java.nio.file._
 
 import com.amazonaws.{AmazonServiceException, SdkClientException}
-import io.hydrosphere.serving.manager.model.{HResult, Result}
 import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import io.hydrosphere.serving.manager.service.source.storages.local._
+import io.hydrosphere.serving.model.api.{HResult, Result}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.JavaConverters._
