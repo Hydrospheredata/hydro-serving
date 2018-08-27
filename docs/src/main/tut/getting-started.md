@@ -14,22 +14,21 @@ To get started, make sure you have installed [Docker][docker-install] on your ma
 $ cd ~/
 $ git clone https://github.com/Hydrospheredata/hydro-serving
 ```
-
 Now set up a docker environment. You have 2 options:
 
 1. The __lightweight__ version lets you manage your models in a continuous manner, version them, create applications that use your models and deploy all of this into production. To do that, just execute the following: 
 
-	```sh
-	$ cd ~/hydro-serving/
-	$ docker-compose up
-	```
+    ```sh
+    $ cd ~/hydro-serving/
+    $ docker-compose up
+    ```
 
-2. The __integrations__ version extends the lightweight version and lets you also monitor your models' inference, analyse incoming data, integrate Kafka streams and many more.
+2. The __integrations__ version extends the lightweight version and lets you also integrate kafka, graphana and influxdb .
 
-	```sh
-	$ cd ~/hydro-serving/integrations/
-	$ docker-compose up
-	```
+    ```sh
+    $ cd ~/hydro-serving/integrations/
+    $ docker-compose up
+    ```
 
 _Note: If you've already installed one of the versions and want to install the other one, you'll need to remove coinciding containers defined in `docker-compose.yaml` (those are placed in both __lightweight__ and __integrations__ versions)._ 
 
