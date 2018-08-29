@@ -45,7 +45,7 @@ class ServiceManagementServiceImpl(
         configParams = Map()
       ),
       environment = cloudService.environmentName.map(n => Environment(
-        id = -1L,
+        id = 0L,
         name = n,
         placeholders = Seq()
       )),

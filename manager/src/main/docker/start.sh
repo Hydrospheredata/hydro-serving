@@ -51,6 +51,14 @@ then
         APP_OPTS="$APP_OPTS -DcloudDriver.ecs.vpcId=$ECS_VPC_ID"
         APP_OPTS="$APP_OPTS -DcloudDriver.ecs.memoryReservation=$ECS_DEPLOY_MEMORY_RESERVATION"
         APP_OPTS="$APP_OPTS -DdockerRepository.type=ecs"
+    elif [ "$CLOUD_DRIVER" = "kubernetes" ]; then
+        APP_OPTS="$APP_OPTS -Dkubernetes.proxy-host=$KUBE_PROXY_SERVICE_HOST"
+        APP_OPTS="$APP_OPTS -Dkubernetes.proxy-port=$KUBE_PROXY_SERVICE_PORT"
+        APP_OPTS="$APP_OPTS -DdockerRepository.type=remote"
+        APP_OPTS="$APP_OPTS -DdockerRepository.host=$REMOTE_DOCKER_REGISTRY_HOST"
+        APP_OPTS="$APP_OPTS -DdockerRepository.username=$REMOTE_DOCKER_REGISTRY_USERNAME"
+        APP_OPTS="$APP_OPTS -DdockerRepository.password=$REMOTE_DOCKER_REGISTRY_PASSWORD"
+        APP_OPTS="$APP_OPTS"
     else
         if [ ! -z "$NETWORK_NAME" ]; then
             APP_OPTS="$APP_OPTS -DcloudDriver.docker.networkName=$NETWORK_NAME"

@@ -63,6 +63,7 @@ class ManagerServices(
 
   val modelPushService: ModelPushService = managerConfiguration.dockerRepository match {
     case c: ECSDockerRepositoryConfiguration => new ECSModelPushService(dockerClient, c)
+    case c: RemoteDockerRepositoryConfiguration => new RemoteModelPushService(dockerClient, c) 
     case _ => new EmptyModelPushService
   }
 
@@ -97,6 +98,7 @@ class ManagerServices(
   val cloudDriverService: CloudDriverService = managerConfiguration.cloudDriver match {
     case _: ECSCloudDriverConfiguration => new ECSCloudDriverService(managerConfiguration, internalManagerEventsPublisher)
     case _: DockerCloudDriverConfiguration => new DockerComposeCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
+    case _: KubernetesCloudDriverConfiguration => new KubernetesCloudDriverService(managerConfiguration, internalManagerEventsPublisher)
     case _ => new LocalCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
   }
 

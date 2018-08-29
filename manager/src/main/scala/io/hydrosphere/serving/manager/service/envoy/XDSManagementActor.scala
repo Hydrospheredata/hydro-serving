@@ -75,7 +75,7 @@ class XDSManagementActor(
       .map(c => endpointDSActor ! RenewEndpoints(mapCloudService(c)))
 
     val f = Future.sequence(List(f1,f2,f3))
-    Await.result(f, 30 seconds)
+    Await.result(f, 300 seconds)
     super.preStart()
   }
 

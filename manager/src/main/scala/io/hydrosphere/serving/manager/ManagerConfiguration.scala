@@ -10,6 +10,7 @@ import io.hydrosphere.serving.manager.service.runtime.DefaultRuntimes
 import io.hydrosphere.serving.manager.service.source.storages.local.LocalModelStorageDefinition
 
 import collection.JavaConverters._
+import scala.util.Properties
 
 trait ManagerConfiguration {
   def sidecar: SidecarConfig
@@ -86,6 +87,12 @@ case class ECSDockerRepositoryConfiguration(
     accountId: String
 ) extends DockerRepositoryConfiguration
 
+case class RemoteDockerRepositoryConfiguration(
+  host: String,
+  username: String,
+  password: String
+) extends DockerRepositoryConfiguration
+
 abstract class CloudDriverConfiguration(
     loggingConfiguration: Option[ModelLoggingConfiguration]
 )
@@ -121,6 +128,12 @@ case class ECSCloudDriverConfiguration(
     memoryReservation: Int = 200,
     internalDomainName: String,
     vpcId: String
+) extends CloudDriverConfiguration(loggingConfiguration)
+
+case class KubernetesCloudDriverConfiguration(
+  proxyHost: String,
+  proxyPort: Int,
+  loggingConfiguration: Option[ModelLoggingConfiguration]
 ) extends CloudDriverConfiguration(loggingConfiguration)
 
 case class ZipkinConfiguration(
@@ -173,6 +186,12 @@ object ManagerConfiguration {
           )
           case _ => LocalDockerRepositoryConfiguration()
         }
+      case "remote" =>
+        RemoteDockerRepositoryConfiguration(
+          host = config.getString("dockerRepository.host"),
+          username = config.getString("dockerRepository.username"),
+          password = config.getString("dockerRepository.password")
+        )
       case _ => LocalDockerRepositoryConfiguration()
     }
   }
@@ -229,6 +248,12 @@ object ManagerConfiguration {
             internalDomainName = driverConf.getString("internalDomainName"),
             vpcId = driverConf.getString("vpcId"),
             memoryReservation = driverConf.getInt("memoryReservation"),
+            loggingConfiguration = loggingConfiguration
+          )
+        case "kubernetes" =>
+          KubernetesCloudDriverConfiguration(
+            proxyHost = Properties.envOrElse("cock", driverConf.getString("proxy-host")),
+            proxyPort = Properties.envOrElse("dick", driverConf.getInt("proxy-port").toString).toInt,
             loggingConfiguration = loggingConfiguration
           )
         case _ =>
