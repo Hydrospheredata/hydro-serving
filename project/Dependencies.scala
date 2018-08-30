@@ -85,6 +85,12 @@ object Dependencies {
     "com.paulgoldbaum" %% "scala-influxdb-client" % "0.6.0" exclude("io.netty", "*")
   )
 
+  lazy val mlDependencies = Seq(
+    "org.nd4j" % "nd4j-native-platform" % "1.0.0-beta2",
+    "org.deeplearning4j" % "deeplearning4j-modelimport" % "1.0.0-beta2",
+    "org.tensorflow" % "proto" % "1.10.0"
+  )
+
   lazy val hydroServingDummyRuntimeDependencies = logDependencies ++
     grpcDependencies
 
@@ -96,6 +102,7 @@ object Dependencies {
     grpcDependencies ++
     elastic4sDependencies ++
     influxDBClientDependencies ++
+    mlDependencies ++
     Seq(
       "org.typelevel" %% "cats-core" % catsV,
       "org.postgresql" % "postgresql" % postgresqlVersion,
@@ -107,7 +114,6 @@ object Dependencies {
       "org.flywaydb" % "flyway-core" % "4.2.0",
       "com.spotify" % "docker-client" % "8.8.0" exclude("ch.qos.logback", "logback-classic"),
       "com.google.guava" % "guava" % "22.0",
-      "org.tensorflow" % "proto" % "1.2.1",
       "com.github.pureconfig" %% "pureconfig" % "0.9.1"
     )
 }

@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.service.source.fetchers
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.manager.service.source.fetchers.keras.KerasFetcher
 import io.hydrosphere.serving.manager.service.source.fetchers.spark.SparkModelFetcher
 import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import io.hydrosphere.serving.model.api.{ModelMetadata, ModelType}
@@ -15,6 +16,7 @@ object ModelFetcher extends Logging {
   private[this] val fetchers = List(
     SparkModelFetcher,
     TensorflowModelFetcher,
+    KerasFetcher,
     ONNXFetcher,
     ScikitModelFetcher
   )
