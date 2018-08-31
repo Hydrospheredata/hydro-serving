@@ -86,8 +86,7 @@ object Dependencies {
   )
 
   lazy val mlDependencies = Seq(
-    "org.nd4j" % "nd4j-native-platform" % "1.0.0-beta2",
-    "org.deeplearning4j" % "deeplearning4j-modelimport" % "1.0.0-beta2",
+    "org.bytedeco.javacpp-presets" % "hdf5-platform" % "1.10.2-1.4.2",
     "org.tensorflow" % "proto" % "1.10.0"
   )
 

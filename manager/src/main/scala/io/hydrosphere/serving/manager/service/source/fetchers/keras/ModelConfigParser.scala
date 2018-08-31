@@ -1,12 +1,12 @@
 package io.hydrosphere.serving.manager.service.source.fetchers.keras
 
-import java.nio.file.{Files, Path}
+import java.nio.file.Path
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
+import io.hydrosphere.serving.manager.util.HDF5File
 import io.hydrosphere.serving.model.api.{ModelMetadata, ModelType}
 import org.apache.logging.log4j.scala.Logging
-import org.deeplearning4j.nn.modelimport.keras.{Hdf5Archive, KerasModel, KerasModelImport}
 
 import scala.io.Source
 import scala.util.control.NonFatal
@@ -50,10 +50,14 @@ private[keras] object ModelConfigParser extends Logging {
 
   case class H5(h5path: Path) extends ModelConfigParser {
     def importModel: Option[ModelMetadata] = {
-      val h5File = new Hdf5Archive(h5path.toString)
-      val jsonModelConfig = h5File.readAttributeAsString("model_config")
-      val kerasVersion = h5File.readAttributeAsString("keras_version")
-      JsonString(jsonModelConfig, h5path.getFileName.toString, kerasVersion).importModel
+      val h5File = HDF5File(h5path.toString)
+      try {
+        val jsonModelConfig = h5File.readAttributeAsString("model_config")
+        val kerasVersion = h5File.readAttributeAsString("keras_version")
+        JsonString(jsonModelConfig, h5path.getFileName.toString, kerasVersion).importModel
+      } finally {
+        h5File.close()
+      }
     }
   }
 
