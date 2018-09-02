@@ -25,8 +25,14 @@ options:
       - title: Principles
         url: "models.html#principles"
 
-      - title: Examples
-        url: "models.html#examples"
+      - title: TensorFlow
+        url: "models.html#tensorflow"
+
+      - title: Keras
+        url: "models.html#keras"
+
+      - title: Python
+        url: "models.html#python"
   
   - title: Applications
     url: "applications.html"
