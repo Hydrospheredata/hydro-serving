@@ -31,25 +31,23 @@ abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUr
   private val sentRequest = new AtomicLong(1)
 
   protected def send(discoveryResponse: DiscoveryResponse, stream: StreamObserver[DiscoveryResponse]): Unit = {
-    val t = Try({
-      stream.synchronized{
+    val t = Try {
+      stream.synchronized {
         //TODO quick fix - wrong fix, need to refactor ...DSActors
         log.debug(s"DiscoveryResponse: $discoveryResponse")
 
         stream.onNext(discoveryResponse)
       }
-    })
-    t match {
-      case Failure(e) =>
+    } recover {
+      case e =>
         log.error("Can't send message to {}, error {}:", stream, e)
         observerNode.remove(stream)
         observerResources.remove(stream)
         //TODO am I right? could I invoke onClose after error in onNext?
-        stream.synchronized{
+        stream.synchronized {
           stream.onError(e)
         }
-      case _ =>
-    }
+    } get
   }
 
   protected def getObserverNode(responseObserver: StreamObserver[DiscoveryResponse]): Option[Node] =

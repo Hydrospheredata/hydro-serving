@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.util.task
 
-import io.hydrosphere.serving.manager.model.{HFResult, HResult}
+import io.hydrosphere.serving.model.api.{HFResult, HResult}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}

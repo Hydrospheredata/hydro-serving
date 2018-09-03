@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.model.protocol
 
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.service.model.CreateModelRequest
 import spray.json._

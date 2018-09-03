@@ -2,13 +2,13 @@ package io.hydrosphere.serving.manager.service.aggregated_info
 
 import cats.data.EitherT
 import cats.implicits._
-import io.hydrosphere.serving.manager.model.Result.HError
-import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{Application, Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service.application.ApplicationManagementService
 import io.hydrosphere.serving.manager.service.model.ModelManagementService
 import io.hydrosphere.serving.manager.service.model_build.ModelBuildManagmentService
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
+import io.hydrosphere.serving.model.api.Result.HError
+import io.hydrosphere.serving.model.api.{HFResult, Result}
 
 import scala.concurrent.{ExecutionContext, Future}
 

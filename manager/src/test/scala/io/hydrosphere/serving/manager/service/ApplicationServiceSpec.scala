@@ -4,8 +4,8 @@ import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.GenericUnitTest
-import io.hydrosphere.serving.manager.model.api.ModelType
-import io.hydrosphere.serving.manager.model.api.ModelType.Tensorflow
+import io.hydrosphere.serving.model.api.ModelType
+import io.hydrosphere.serving.model.api.ModelType.Tensorflow
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.repository.{ApplicationRepository, RuntimeRepository}
 import io.hydrosphere.serving.manager.service.application.ApplicationManagementServiceImpl
@@ -102,7 +102,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
       when(runtimeServiceMock.all()).thenReturn(Future.successful(Seq.empty))
 
       val service = new ApplicationManagementServiceImpl(
-        appRepo, versionMock, null, null, null, null, null, null, null, runtimeServiceMock
+        appRepo, versionMock, null, null, null, null, runtimeServiceMock
       )
       for {
         a1 <- service.findVersionUsage(1)

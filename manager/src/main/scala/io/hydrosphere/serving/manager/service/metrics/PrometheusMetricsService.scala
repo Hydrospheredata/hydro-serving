@@ -1,17 +1,16 @@
 package io.hydrosphere.serving.manager.service.metrics
 
-import io.hydrosphere.serving.manager.connector.EnvoyAdminConnector
-import io.hydrosphere.serving.manager.model.HFResult
-import io.hydrosphere.serving.manager.model.db.{Service, ServiceKeyDescription}
-import io.hydrosphere.serving.manager.service.clouddriver.{CloudDriverService, CloudService, MetricServiceTargets, ServiceInstance}
-import org.apache.logging.log4j.scala.Logging
-import io.hydrosphere.serving.manager.model.Result
-import Result.Implicits._
 import cats.data.EitherT
 import cats.implicits._
-import io.hydrosphere.serving.manager.model.Result.ClientError
+import io.hydrosphere.serving.manager.connector.EnvoyAdminConnector
+import io.hydrosphere.serving.manager.model.db.{Service, ServiceKeyDescription}
 import io.hydrosphere.serving.manager.service.application.ApplicationManagementService
+import io.hydrosphere.serving.manager.service.clouddriver.{CloudDriverService, CloudService, MetricServiceTargets, ServiceInstance}
 import io.hydrosphere.serving.manager.service.service.ServiceManagementService
+import io.hydrosphere.serving.model.api.{HFResult, Result}
+import io.hydrosphere.serving.model.api.Result.ClientError
+import io.hydrosphere.serving.model.api.Result.Implicits._
+import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.mutable
 import scala.collection.mutable.ListBuffer

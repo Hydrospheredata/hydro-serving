@@ -2,14 +2,13 @@ package io.hydrosphere.serving.manager.service.model_version
 
 import cats.data.EitherT
 import cats.implicits._
-import io.hydrosphere.serving.manager.model.api.ops.ModelContractOps._
-import io.hydrosphere.serving.manager.model.Result.HError
-import io.hydrosphere.serving.manager.model.api.description.ContractDescription
+import io.hydrosphere.serving.model.api.ops.ModelContractOps._
+import io.hydrosphere.serving.model.api.description.ContractDescription
 import io.hydrosphere.serving.manager.model.db.ModelVersion
-import io.hydrosphere.serving.manager.model.{HFResult, Result}
+import io.hydrosphere.serving.model.api.{HFResult, Result, TensorExampleGenerator, TensorUtil}
 import io.hydrosphere.serving.manager.repository.ModelVersionRepository
-import io.hydrosphere.serving.manager.service.contract.ContractUtilityService
 import io.hydrosphere.serving.manager.service.model.ModelManagementService
+import io.hydrosphere.serving.model.api.Result.HError
 import org.apache.logging.log4j.scala.Logging
 import spray.json.JsObject
 
@@ -17,8 +16,7 @@ import scala.concurrent.{ExecutionContext, Future}
 
 class ModelVersionManagementServiceImpl(
   modelVersionRepository: ModelVersionRepository,
-  modelManagementService: ModelManagementService,
-  contractService: ContractUtilityService
+  modelManagementService: ModelManagementService
 )(
   implicit executionContext: ExecutionContext
 ) extends ModelVersionManagementService with Logging {
@@ -42,7 +40,7 @@ class ModelVersionManagementServiceImpl(
   override def generateInputsForVersion(versionId: Long, signature: String): HFResult[JsObject] = {
     get(versionId).map { result =>
       result.right.flatMap { version =>
-        contractService.generatePayload(version.modelContract, signature)
+        TensorExampleGenerator.generatePayload(version.modelContract, signature)
       }
     }
   }

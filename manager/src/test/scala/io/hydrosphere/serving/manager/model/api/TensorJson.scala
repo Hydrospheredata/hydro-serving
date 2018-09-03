@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.model.api
 
 import io.hydrosphere.serving.manager.GenericUnitTest
-import io.hydrosphere.serving.manager.model.api.json.TensorJsonLens
+import io.hydrosphere.serving.model.api.json.TensorJsonLens
 import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.tensor.{Int32Tensor, MapTensor, StringTensor}
 import spray.json.{JsArray, JsNumber, JsObject, JsString}

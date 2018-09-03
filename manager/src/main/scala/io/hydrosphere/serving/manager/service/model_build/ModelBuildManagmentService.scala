@@ -1,9 +1,9 @@
 package io.hydrosphere.serving.manager.service.model_build
 
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
-import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.model.db.{BuildRequest, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.util.task.ExecFuture
+import io.hydrosphere.serving.model.api.HFResult
 
 import scala.concurrent.Future
 

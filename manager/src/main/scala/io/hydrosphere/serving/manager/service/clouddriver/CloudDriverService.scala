@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service.clouddriver
 
-import io.hydrosphere.serving.manager.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.Service
+import io.hydrosphere.serving.model.api.ModelType
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.Future
@@ -130,7 +130,8 @@ object CloudDriverService {
   val MANAGER_ID: Long = -20
   val MANAGER_HTTP_ID: Long = -21
   val MANAGER_UI_ID: Long = -22
-  val GATEWAY_HTTP_ID: Long = -10
+  val GATEWAY_ID: Long = -10
+  val GATEWAY_HTTP_ID: Long = -11
   val GATEWAY_KAFKA_ID: Long = -12
   val PROFILER_NAME: String = "profiler"
   val PROFILER_HTTP_NAME: String = "profiler-http"
@@ -139,6 +140,7 @@ object CloudDriverService {
   val MANAGER_NAME: String = "manager"
   val MANAGER_HTTP_NAME: String = "manager-http"
   val MANAGER_UI_NAME: String = "manager-ui"
+  val GATEWAY_NAME: String = "gateway"
   val GATEWAY_HTTP_NAME: String = "gateway-http"
   val GATEWAY_KAFKA_NAME: String = "gateway-kafka"
 
@@ -149,11 +151,13 @@ object CloudDriverService {
     MANAGER_NAME -> MANAGER_ID,
     MANAGER_HTTP_NAME -> MANAGER_HTTP_ID,
     MANAGER_UI_NAME -> MANAGER_UI_ID,
+    GATEWAY_NAME -> GATEWAY_ID,
     GATEWAY_HTTP_NAME -> GATEWAY_HTTP_ID,
     GATEWAY_KAFKA_NAME -> GATEWAY_KAFKA_ID
   )
 
   val fakeHttpServices = Map(
+    GATEWAY_ID -> GATEWAY_HTTP_ID,
     PROFILER_ID -> PROFILER_HTTP_ID,
     MONITORING_ID -> MONITORING_HTTP_ID,
     MANAGER_ID -> MANAGER_HTTP_ID
@@ -167,6 +171,7 @@ object CloudDriverService {
     MANAGER_ID -> MANAGER_NAME,
     MANAGER_HTTP_ID -> MANAGER_HTTP_NAME,
     MANAGER_UI_ID -> MANAGER_UI_NAME,
+    GATEWAY_ID -> GATEWAY_NAME,
     GATEWAY_HTTP_ID -> GATEWAY_HTTP_NAME,
     GATEWAY_KAFKA_ID -> GATEWAY_KAFKA_NAME
   )

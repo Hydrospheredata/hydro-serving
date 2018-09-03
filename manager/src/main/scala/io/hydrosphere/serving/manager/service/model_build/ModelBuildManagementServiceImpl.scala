@@ -5,10 +5,9 @@ import java.util.concurrent.Executors
 import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
-import io.hydrosphere.serving.manager.model.Result.Implicits._
-import io.hydrosphere.serving.manager.model.Result.{ClientError, HError}
+import io.hydrosphere.serving.model.api.Result.Implicits._
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.description.ContractDescription
+import io.hydrosphere.serving.model.api.description.ContractDescription
 import io.hydrosphere.serving.manager.model.db.{BuildRequest, Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.repository.ModelBuildRepository
 import io.hydrosphere.serving.manager.service.build_script.BuildScriptManagementService
@@ -16,6 +15,8 @@ import io.hydrosphere.serving.manager.service.model.ModelManagementService
 import io.hydrosphere.serving.manager.service.model_build.builders._
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import io.hydrosphere.serving.manager.util.task.ExecFuture
+import io.hydrosphere.serving.model.api.{HFResult, Result}
+import io.hydrosphere.serving.model.api.Result.{ClientError, HError}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}

@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.service.source.storages
 import java.io.File
 import java.nio.file.Path
 
-import io.hydrosphere.serving.manager.model.HResult
+import io.hydrosphere.serving.model.api.HResult
 
 trait ModelStorage {
   def getReadableFile(path: String): HResult[File]

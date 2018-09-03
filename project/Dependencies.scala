@@ -10,7 +10,7 @@ object Dependencies {
   val scalaTestVersion = "3.0.3"
   val slickPgVersion = "0.15.4"
   val awsSdkVersion = "1.11.312"
-  val servingGrpcScala = "0.1.16"
+  val servingGrpcScala = "0.1.21"
   val catsV = "1.1.0"
   val elastic4sVersion = "6.2.4"
   val envoyDataPlaneApi = "v1.6.0_1"
@@ -112,6 +112,7 @@ object Dependencies {
       "org.flywaydb" % "flyway-core" % "4.2.0",
       "com.spotify" % "docker-client" % "8.12.0" exclude("ch.qos.logback", "logback-classic"),
       "com.google.guava" % "guava" % "22.0",
-      "org.tensorflow" % "proto" % "1.2.1"
+      "org.tensorflow" % "proto" % "1.2.1",
+      "com.github.pureconfig" %% "pureconfig" % "0.9.1"
     )
 }

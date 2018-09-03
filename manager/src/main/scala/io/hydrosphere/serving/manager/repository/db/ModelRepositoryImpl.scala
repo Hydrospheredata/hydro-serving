@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.repository.db
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.manager.model.DataProfileFields
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import io.hydrosphere.serving.manager.repository.ModelRepository

@@ -14,9 +14,9 @@ import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.controller.{GenericController, ServingDataDirectives}
-import io.hydrosphere.serving.manager.model.Result.HError
 import io.hydrosphere.serving.manager.model._
-import io.hydrosphere.serving.manager.model.api.description.ContractDescription
+import io.hydrosphere.serving.model.api.Result
+import io.hydrosphere.serving.model.api.description.ContractDescription
 import io.hydrosphere.serving.manager.model.db.{BuildRequest, Model, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedModelInfo}
 import io.hydrosphere.serving.manager.service.model.{CreateModelRequest, ModelManagementService, UpdateModelRequest}
@@ -24,6 +24,7 @@ import io.hydrosphere.serving.manager.service.model_build.ModelBuildManagmentSer
 import io.hydrosphere.serving.manager.service.model_version.{CreateModelVersionRequest, ModelVersionManagementService}
 import io.hydrosphere.serving.manager.util.UUIDUtils
 import io.hydrosphere.serving.manager.util.task.ServiceTask
+import io.hydrosphere.serving.model.api.Result.HError
 import io.swagger.annotations._
 
 import scala.concurrent.{ExecutionContext, Future}

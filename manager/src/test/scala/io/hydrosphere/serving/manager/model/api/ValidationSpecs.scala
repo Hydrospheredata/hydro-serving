@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.model.api
 import com.google.protobuf.ByteString
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.contract.utils.ContractBuilders
-import io.hydrosphere.serving.manager.model.api.tensor_builder.SignatureBuilder
+import io.hydrosphere.serving.model.api.tensor_builder.SignatureBuilder
 import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.types.DataType.{DT_BOOL, DT_FLOAT, DT_INT16, DT_STRING}
 import org.scalatest.WordSpec

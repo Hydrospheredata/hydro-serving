@@ -4,7 +4,7 @@ import akka.actor.Props
 import com.paulgoldbaum.influxdbclient.Parameter.Precision
 import com.paulgoldbaum.influxdbclient.Parameter.Precision.Precision
 import com.paulgoldbaum.influxdbclient._
-import io.hydrosphere.serving.manager.ManagerConfiguration
+import io.hydrosphere.serving.manager.config.ManagerConfiguration
 import io.hydrosphere.serving.manager.connector.{EnvoyAdminConnector, HttpEnvoyAdminConnector}
 import io.hydrosphere.serving.manager.model.db.Service
 import io.hydrosphere.serving.manager.service.actors.SelfScheduledActor
@@ -23,16 +23,16 @@ class InfluxDBMetricsService(
     applicationManagementService: ApplicationManagementService,
     influxDB: InfluxDB
 ) extends SelfScheduledActor(
-  initialDelay = managerConfiguration.metrics.influxDB.get.collectTimeout.seconds,
-  interval = managerConfiguration.metrics.influxDB.get.collectTimeout.seconds
+  initialDelay = managerConfiguration.metrics.influxDb.get.collectTimeout.seconds,
+  interval = managerConfiguration.metrics.influxDb.get.collectTimeout.seconds
 )(30.seconds) with AbstractMetricService {
 
   override implicit val ex: ExecutionContext = context.system.dispatcher
 
-  private val influxDBConfig = managerConfiguration.metrics.influxDB.get
+  private val influxDBConfig = managerConfiguration.metrics.influxDb.get
 
   private def createIndexIfNeeded(): Future[Unit] = {
-    val database = influxDB.selectDatabase(influxDBConfig.dataBaseName)
+    val database = influxDB.selectDatabase(influxDBConfig.databaseName)
     database.exists().flatMap(f => {
       if (!f) {
         database.create().map(_ => Unit)
@@ -75,7 +75,7 @@ class InfluxDBMetricsService(
   private def mapAndPushMetricsToElastic(metricsSeq: Seq[EnvoyMetrics]): Future[Unit] = {
     val date = System.currentTimeMillis()
 
-    val database = influxDB.selectDatabase(influxDBConfig.dataBaseName)
+    val database = influxDB.selectDatabase(influxDBConfig.databaseName)
 
     val mappedMetrics = metricsSeq.map(m => Point(
       key = m.name,

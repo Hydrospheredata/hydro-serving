@@ -4,7 +4,7 @@ import java.time.LocalDateTime
 
 import com.spotify.docker.client.{DockerClient, ProgressHandler}
 import io.hydrosphere.serving.manager.GenericUnitTest
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.model.api.ModelType
 import io.hydrosphere.serving.manager.model.db.{CreateRuntimeRequest, PullRuntime, Runtime}
 import io.hydrosphere.serving.manager.repository.{RuntimePullRepository, RuntimeRepository}
 import io.hydrosphere.serving.manager.service.runtime.{RuntimeManagementServiceImpl, RuntimePullExecutor}

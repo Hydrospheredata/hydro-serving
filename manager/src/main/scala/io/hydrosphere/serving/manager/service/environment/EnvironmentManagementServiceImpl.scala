@@ -1,10 +1,10 @@
 package io.hydrosphere.serving.manager.service.environment
 
-import io.hydrosphere.serving.manager.model.Result.ClientError
-import io.hydrosphere.serving.manager.model.Result.Implicits._
+import io.hydrosphere.serving.model.api.Result.Implicits._
 import io.hydrosphere.serving.manager.model.db.Environment
-import io.hydrosphere.serving.manager.model.{HFResult, Result}
+import io.hydrosphere.serving.model.api.{HFResult, Result}
 import io.hydrosphere.serving.manager.repository.EnvironmentRepository
+import io.hydrosphere.serving.model.api.Result.ClientError
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}

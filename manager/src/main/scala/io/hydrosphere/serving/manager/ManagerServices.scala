@@ -9,12 +9,12 @@ import com.sksamuel.elastic4s.http.HttpClient
 import com.spotify.docker.client._
 import io.grpc._
 import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, Headers}
+import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, DockerRepositoryConfiguration, ManagerConfiguration}
 import io.hydrosphere.serving.manager.connector.HttpEnvoyAdminConnector
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedInfoUtilityServiceImpl}
 import io.hydrosphere.serving.manager.service.application.{ApplicationManagementService, ApplicationManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.build_script.{BuildScriptManagementService, BuildScriptManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.clouddriver._
-import io.hydrosphere.serving.manager.service.contract.ContractUtilityServiceImpl
 import io.hydrosphere.serving.manager.service.environment.{EnvironmentManagementService, EnvironmentManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.envoy.{EnvoyGRPCDiscoveryService, EnvoyGRPCDiscoveryServiceImpl}
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
@@ -23,12 +23,9 @@ import io.hydrosphere.serving.manager.service.model.{ModelManagementService, Mod
 import io.hydrosphere.serving.manager.service.model_build.builders._
 import io.hydrosphere.serving.manager.service.model_build.{ModelBuildManagementServiceImpl, ModelBuildManagmentService}
 import io.hydrosphere.serving.manager.service.model_version.{ModelVersionManagementService, ModelVersionManagementServiceImpl}
-import io.hydrosphere.serving.manager.service.runtime.{RuntimeManagementService, RuntimeManagementServiceImpl}
+import io.hydrosphere.serving.manager.service.runtime.{DefaultRuntimes, RuntimeManagementService, RuntimeManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.service.{ServiceManagementService, ServiceManagementServiceImpl}
 import io.hydrosphere.serving.manager.service.source.ModelStorageServiceImpl
-import io.hydrosphere.serving.monitoring.monitoring.MonitoringServiceGrpc
-import io.hydrosphere.serving.profiler.profiler.DataProfilerServiceGrpc
-import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -51,19 +48,13 @@ class ManagerServices(
 
   val channel: Channel = ClientInterceptors.intercept(managedChannel, new AuthorityReplacerInterceptor +: Headers.interceptors: _*)
 
-  val servingMeshGrpcClient: PredictionServiceGrpc.PredictionServiceStub = PredictionServiceGrpc.stub(channel)
-  val monitoringServiceClient: MonitoringServiceGrpc.MonitoringServiceStub = MonitoringServiceGrpc.stub(channel)
-  val profilerServiceClient: DataProfilerServiceGrpc.DataProfilerServiceStub = DataProfilerServiceGrpc.stub(channel)
-
   val sourceManagementService = new ModelStorageServiceImpl(managerConfiguration)
-
-  val contractUtilityService = new ContractUtilityServiceImpl
 
   val modelBuildService: ModelBuildService = new LocalModelBuildService(dockerClient, sourceManagementService)
 
   val modelPushService: ModelPushService = managerConfiguration.dockerRepository match {
-    case c: ECSDockerRepositoryConfiguration => new ECSModelPushService(dockerClient, c)
     case c: RemoteDockerRepositoryConfiguration => new RemoteModelPushService(dockerClient, c) 
+    case c: DockerRepositoryConfiguration.Ecs => new ECSModelPushService(dockerClient, c)
     case _ => new EmptyModelPushService
   }
 
@@ -72,8 +63,7 @@ class ManagerServices(
   val modelManagementService: ModelManagementService = new ModelManagementServiceImpl(
     managerRepositories.modelRepository,
     managerRepositories.modelVersionRepository,
-    sourceManagementService,
-    contractUtilityService
+    sourceManagementService
   )
 
   val buildScriptManagementService: BuildScriptManagementService = new BuildScriptManagementServiceImpl(
@@ -82,8 +72,7 @@ class ManagerServices(
 
   val modelVersionManagementService: ModelVersionManagementService = new ModelVersionManagementServiceImpl(
     managerRepositories.modelVersionRepository,
-    modelManagementService,
-    contractUtilityService
+    modelManagementService
   )
 
   val modelBuildManagmentService: ModelBuildManagmentService = new ModelBuildManagementServiceImpl(
@@ -96,8 +85,8 @@ class ManagerServices(
   )
 
   val cloudDriverService: CloudDriverService = managerConfiguration.cloudDriver match {
-    case _: ECSCloudDriverConfiguration => new ECSCloudDriverService(managerConfiguration, internalManagerEventsPublisher)
-    case _: DockerCloudDriverConfiguration => new DockerComposeCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
+    case _: CloudDriverConfiguration.Ecs => new ECSCloudDriverService(managerConfiguration, internalManagerEventsPublisher)
+    case _: CloudDriverConfiguration.Docker => new DockerComposeCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
     case _: KubernetesCloudDriverConfiguration => new KubernetesCloudDriverService(managerConfiguration, internalManagerEventsPublisher)
     case _ => new LocalCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
   }
@@ -107,7 +96,7 @@ class ManagerServices(
     managerRepositories.runtimePullRepository,
     dockerClient
   )
-  Future.traverse(managerConfiguration.runtimesStarterPack)(runtimeManagementService.create)
+  Future.traverse(managerConfiguration.runtimePack.toRuntimePack)(runtimeManagementService.create)
 
   val environmentManagementService: EnvironmentManagementService = new EnvironmentManagementServiceImpl(managerRepositories.environmentRepository)
 
@@ -124,9 +113,6 @@ class ManagerServices(
     applicationRepository = managerRepositories.applicationRepository,
     modelVersionManagementService = modelVersionManagementService,
     serviceManagementService = serviceManagementService,
-    grpcClient = servingMeshGrpcClient,
-    grpcClientForMonitoring = monitoringServiceClient,
-    grpcClientForProfiler = profilerServiceClient,
     internalManagerEventsPublisher = internalManagerEventsPublisher,
     applicationConfig = managerConfiguration.application,
     runtimeService = runtimeManagementService,
@@ -169,7 +155,7 @@ class ManagerServices(
     ))
   }
 
-  managerConfiguration.metrics.influxDB.foreach { conf =>
+  managerConfiguration.metrics.influxDb.foreach { conf =>
     val influxDBClient = InfluxDB.connect(conf.host, conf.port)
 
     val influxActor = system.actorOf(InfluxDBMetricsService.props(

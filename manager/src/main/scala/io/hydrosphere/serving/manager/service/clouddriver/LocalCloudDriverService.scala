@@ -3,19 +3,18 @@ package io.hydrosphere.serving.manager.service.clouddriver
 import java.util
 
 import com.spotify.docker.client.DockerClient
-import com.spotify.docker.client.DockerClient.{ListContainersParam, ListImagesParam, RemoveContainerParam}
+import com.spotify.docker.client.DockerClient.{ListContainersParam, RemoveContainerParam}
 import com.spotify.docker.client.messages.{Container, ContainerConfig, HostConfig, PortBinding}
-import io.hydrosphere.serving.manager.{LocalDockerCloudDriverConfiguration, LocalDockerCloudDriverServiceConfiguration, ManagerConfiguration}
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, LocalDockerCloudDriverServiceConfiguration, ManagerConfiguration}
 import io.hydrosphere.serving.manager.model.db.Service
+import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService._
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
+import io.hydrosphere.serving.model.api.ModelType
 import org.apache.logging.log4j.scala.Logging
 
+import scala.collection.JavaConverters._
 import scala.concurrent.{ExecutionContext, Future}
-import collection.JavaConverters._
 import scala.util.Try
-import CloudDriverService._
-import io.hydrosphere.serving.manager.util.docker.{DockerClientHelper, InfoProgressHandler}
 
 
 class LocalCloudDriverService(
@@ -39,25 +38,26 @@ class LocalCloudDriverService(
       ))
     )
 
-    val localDockerCloudDriverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[LocalDockerCloudDriverConfiguration]
-    val servicesWithMonitoring = if (localDockerCloudDriverConfiguration.monitoring.isDefined) {
-      val mConf = localDockerCloudDriverConfiguration.monitoring.get
-      val monitoring = createMonitoringCloudService(mConf)
-      val monitoringHttp = monitoring.copy(
-        id = MONITORING_HTTP_ID,
-        serviceName = MONITORING_HTTP_NAME,
-        instances = manager.instances.map(s => s.copy(
-          advertisedPort = mConf.httpPort,
-          mainApplication = s.mainApplication.copy(port = mConf.httpPort)
-        ))
-      )
+    val localDockerCloudDriverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[CloudDriverConfiguration.Local]
 
-      services :+ managerHttp :+ manager :+ monitoring :+ monitoringHttp
-    } else {
-      services :+ managerHttp :+ manager
+    val servicesWithMonitoring = localDockerCloudDriverConfiguration.monitoring match {
+      case Some(mConf) =>
+        val monitoring = createMonitoringCloudService(mConf)
+        val monitoringHttp = monitoring.copy(
+          id = MONITORING_HTTP_ID,
+          serviceName = MONITORING_HTTP_NAME,
+          instances = manager.instances.map(s => s.copy(
+            advertisedPort = mConf.httpPort,
+            mainApplication = s.mainApplication.copy(port = mConf.httpPort)
+          ))
+        )
+        services :+ managerHttp :+ manager :+ monitoring :+ monitoringHttp
+
+      case None => services :+ managerHttp :+ manager
     }
-    localDockerCloudDriverConfiguration.profiler match {
-      case Some(profilerConf) => 
+
+    val servicesWithProfiling = localDockerCloudDriverConfiguration.profiler match {
+      case Some(profilerConf) =>
         val profiler = createProfilerCloudService(profilerConf)
         val profilerHttp = profiler.copy(
           id = PROFILER_HTTP_ID,
@@ -69,6 +69,21 @@ class LocalCloudDriverService(
         )
         servicesWithMonitoring :+ profiler :+ profilerHttp
       case None => servicesWithMonitoring
+    }
+
+    localDockerCloudDriverConfiguration.gateway match {
+      case Some(gatewayConf) =>
+        val gateway = createGatewayCloudService(gatewayConf)
+        val gatewayHttp = gateway.copy(
+          id = GATEWAY_HTTP_ID,
+          serviceName = GATEWAY_HTTP_NAME,
+          instances = manager.instances.map(s => s.copy(
+            advertisedPort = gatewayConf.httpPort,
+            mainApplication = s.mainApplication.copy(port = gatewayConf.httpPort)
+          ))
+        )
+        servicesWithProfiling :+ gateway :+ gatewayHttp
+      case None => servicesWithProfiling
     }
   }
 
@@ -156,17 +171,24 @@ class LocalCloudDriverService(
             depType == CloudDriverService.DEPLOYMENT_TYPE_APP && c.state() == "running"
           }
       }
-      .map {
+      .flatMap {
         case (k, v) =>
-          Try(mapToCloudService(
-            k.toLong,
-            v.filterNot { c =>
-              val depType = c.labels().get(CloudDriverService.LABEL_DEPLOYMENT_TYPE)
-              depType == CloudDriverService.DEPLOYMENT_TYPE_APP && c.state() != "running"
-            }
-          ))
-      }
-      .filter(_.isSuccess).map(_.get).toSeq
+          try {
+            Seq(
+              mapToCloudService(
+                k.toLong,
+                v.filterNot { c =>
+                  val depType = c.labels().get(CloudDriverService.LABEL_DEPLOYMENT_TYPE)
+                  depType == CloudDriverService.DEPLOYMENT_TYPE_APP && c.state() != "running"
+                }
+              )
+            )
+          } catch {
+            case e: Throwable =>
+              logger.warn(s"Error while collecting service $k: $e")
+              Seq.empty
+          }
+      }.toSeq
   }
 
   protected def mapMainApplicationInstance(containerApp: Container): MainApplicationInstance =
@@ -274,7 +296,7 @@ class LocalCloudDriverService(
     createSystemCloudService(
       CloudDriverService.MANAGER_NAME,
       CloudDriverService.MANAGER_ID,
-      managerConfiguration.advertised.advertisedHost,
+      managerConfiguration.manager.advertisedHost,
       managerConfiguration.application.grpcPort,
       "hydrosphere/serving-manager"
     )
@@ -295,6 +317,15 @@ class LocalCloudDriverService(
       cfg.host,
       cfg.port,
       "hydrosphere/serving-data-profiler"
+    )
+
+  private def createGatewayCloudService(cfg: LocalDockerCloudDriverServiceConfiguration): CloudService =
+    createSystemCloudService(
+      CloudDriverService.GATEWAY_NAME,
+      CloudDriverService.GATEWAY_ID,
+      cfg.host,
+      cfg.port,
+      "hydrosphere/serving-gateway"
     )
 
   private def fetchById(serviceId: Long): CloudService = {

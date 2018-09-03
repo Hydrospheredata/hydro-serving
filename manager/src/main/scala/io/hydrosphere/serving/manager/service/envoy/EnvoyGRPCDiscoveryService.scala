@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.service.envoy
 import akka.actor.{ActorRef, ActorSystem, Props}
 import envoy.api.v2.{DiscoveryRequest, DiscoveryResponse}
 import io.grpc.stub.StreamObserver
-import io.hydrosphere.serving.manager.ManagerConfiguration
+import io.hydrosphere.serving.manager.config.ManagerConfiguration
 import io.hydrosphere.serving.manager.service.application.ApplicationManagementService
 import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService
 import io.hydrosphere.serving.manager.service.envoy.xds._
@@ -28,6 +28,7 @@ class EnvoyGRPCDiscoveryServiceImpl(
   actorSystem: ActorSystem
 ) extends EnvoyGRPCDiscoveryService with Logging {
 
+  logger.info("Creating envoy actors")
   private val clusterDSActor: ActorRef = actorSystem.actorOf(Props[ClusterDSActor])
   //TODO use managerConfiguration for endpoint configuration
   private val endpointDSActor: ActorRef = actorSystem.actorOf(Props[EndpointDSActor])
@@ -35,6 +36,7 @@ class EnvoyGRPCDiscoveryServiceImpl(
   private val routeDSActor: ActorRef = actorSystem.actorOf(Props[RouteDSActor])
   private val applicationDSActor: ActorRef = actorSystem.actorOf(Props[ApplicationDSActor])
 
+  logger.info("Creating XDS management actor")
   private val xdsManagementActor: ActorRef = actorSystem.actorOf(XDSManagementActor.props(
     serviceManagementService,
     applicationManagementService,
@@ -47,12 +49,12 @@ class EnvoyGRPCDiscoveryServiceImpl(
   ))
 
   override def subscribe(discoveryRequest: DiscoveryRequest, responseObserver: StreamObserver[DiscoveryResponse]): Unit =
-    discoveryRequest.node.foreach(_ => {
+    discoveryRequest.node.foreach { _ =>
       xdsManagementActor ! SubscribeMsg(
         discoveryRequest = discoveryRequest,
         responseObserver = responseObserver
       )
-    })
+    }
 
   override def unsubscribe(responseObserver: StreamObserver[DiscoveryResponse]): Unit = {
     val msg = UnsubscribeMsg(responseObserver)
