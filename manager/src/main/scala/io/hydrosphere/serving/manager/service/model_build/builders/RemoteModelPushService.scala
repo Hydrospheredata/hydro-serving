@@ -1,11 +1,11 @@
 package io.hydrosphere.serving.manager.service.model_build.builders
 
 import com.spotify.docker.client.{DockerClient, ProgressHandler}
-import io.hydrosphere.serving.manager.RemoteDockerRepositoryConfiguration
+import io.hydrosphere.serving.manager.config.DockerRepositoryConfiguration
 import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.util.docker.{DockerClientHelper, DockerRegistryAuth}
 
-class RemoteModelPushService(dockerClient: DockerClient, conf: RemoteDockerRepositoryConfiguration) extends ModelPushService {
+class RemoteModelPushService(dockerClient: DockerClient, conf: DockerRepositoryConfiguration.Remote) extends ModelPushService {
 
   override def getImageName(modelBuild: ModelBuild): String = {
     s"${conf.host}/${modelBuild.model.name}:${modelBuild.version.toString}"

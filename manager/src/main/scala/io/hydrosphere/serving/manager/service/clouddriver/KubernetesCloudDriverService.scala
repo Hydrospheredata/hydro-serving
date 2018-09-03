@@ -2,12 +2,11 @@ package io.hydrosphere.serving.manager.service.clouddriver
 
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
-import akka.stream.scaladsl.Sink
-import io.hydrosphere.serving.manager.{KubernetesCloudDriverConfiguration, ManagerConfiguration}
-import io.hydrosphere.serving.manager.model.api.ModelType
+import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, ManagerConfiguration}
 import io.hydrosphere.serving.manager.model.db.Service
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
 import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService._
+import io.hydrosphere.serving.model.api.ModelType
 import org.apache.logging.log4j.scala.Logging
 import skuber._
 import skuber.api.client.{EventType, RequestContext}
@@ -21,7 +20,7 @@ class KubernetesCloudDriverService(managerConfiguration: ManagerConfiguration, i
   
   implicit val actorMaterializer: ActorMaterializer = ActorMaterializer()
 
-  val conf: KubernetesCloudDriverConfiguration = managerConfiguration.cloudDriver.asInstanceOf[KubernetesCloudDriverConfiguration]
+  val conf: CloudDriverConfiguration.Kubernetes = managerConfiguration.cloudDriver.asInstanceOf[CloudDriverConfiguration.Kubernetes]
   val k8s: RequestContext = k8sInit(K8SConfiguration.useProxyAt(s"http://${conf.proxyHost}:${conf.proxyPort}"))
 
 //  {
@@ -120,7 +119,7 @@ class KubernetesCloudDriverService(managerConfiguration: ManagerConfiguration, i
               ),
               model = if (service.metadata.labels.getOrElse("deployment_type", "") == "model") Some(ModelInstance(service.metadata.uid)) else None,
               advertisedHost = service.spec.map(_.clusterIP).getOrElse(""),
-              advertisedPort = service.spec.flatMap(_.ports.headOption).map(_.port).getOrElse(9091)
+              advertisedPort = service.spec.flatMap(_.ports.find(_.name == "grpc")).map(_.port).getOrElse(9091)
             ))
           )
         })
@@ -196,7 +195,7 @@ class KubernetesCloudDriverService(managerConfiguration: ManagerConfiguration, i
         ),
         model = if (svc.metadata.labels.getOrElse("deployment_type", "") == "model") Some(ModelInstance(svc.metadata.uid)) else None,
         advertisedHost = svc.spec.map(_.clusterIP).getOrElse(""),
-        advertisedPort = svc.spec.flatMap(_.ports.headOption).map(_.port).getOrElse(9090)
+        advertisedPort = svc.spec.flatMap(_.ports.headOption).map(_.port).getOrElse(9091)
       ))
     )).map(cloudService => {
       internalManagerEventsPublisher.cloudServiceDetected(Seq(cloudService))
