@@ -17,7 +17,7 @@ import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
 import io.hydrosphere.serving.model.api.Result.HError
 import org.scalatest._
 
-import scala.concurrent.{Await, Future}
+import scala.concurrent.{Await, ExecutionContext, Future}
 import scala.concurrent.duration._
 import scala.io.Source
 import scala.util.{Failure, Success, Try}
@@ -28,7 +28,7 @@ trait FullIntegrationSpec extends DatabaseAccessIT
 
   implicit val system = ActorSystem("fullIT-system")
   implicit val materializer = ActorMaterializer()
-  implicit val ex = system.dispatcher
+  implicit val ex = ExecutionContext.global
   implicit val timeout = Timeout(5.minute)
 
   private[this] var rawConfig = ConfigFactory.load()
