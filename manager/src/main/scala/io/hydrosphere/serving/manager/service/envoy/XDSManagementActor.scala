@@ -70,6 +70,7 @@ class XDSManagementActor(
   }
 
   override def preStart(): Unit = {
+    log.info("XDS actor prestart")
     val f1 = serviceManagementService.allServices()
       .map(v => clusterDSActor ! SyncCluster(v.map(_.serviceName).toSet))
 
@@ -85,10 +86,9 @@ class XDSManagementActor(
 
     val f = Future.sequence(List(f1,f2,f3))
 
-    val awaitTime = 30.seconds
-    log.info(s"Waiting $awaitTime for XDS subactors init")
-    Await.result(f, awaitTime)
-    log.info("Subactors initialized")
+    f.foreach { _ =>
+      log.info("XDS initialized")
+    }
 
     super.preStart()
   }
