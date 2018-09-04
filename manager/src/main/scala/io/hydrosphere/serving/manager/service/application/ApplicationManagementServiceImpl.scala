@@ -268,11 +268,11 @@ class ApplicationManagementServiceImpl(
         case (stage, id) =>
           val f = for {
             services <- EitherT(inferServices(stage.services))
-            stageSigs <- EitherT(Future.successful(inferStageSignature(services)))
+            stageSig <- EitherT(Future.successful(inferStageSignature(services)))
           } yield {
             ApplicationStage(
               services = services.toList,
-              signature = Some(stageSigs.withSignatureName(id.toString)),
+              signature = Some(stageSig),
               dataProfileFields = mergeServiceDataProfilingTypes(services)
             )
           }
@@ -359,11 +359,18 @@ class ApplicationManagementServiceImpl(
       Result.clientError(s"Errors while inferring stage signature: $errors")
     } else {
       val values = signatures.map(_.right.get)
-      Result.ok(
-        values.foldRight(ModelSignature.defaultInstance) {
-          case (sig1, sig2) => ModelSignatureOps.merge(sig1, sig2)
-        }
-      )
+      val signatureName = values.head.signatureName
+      val isSameName = values.forall(_.signatureName == signatureName)
+      if (isSameName) {
+        Result.ok(
+          values.foldRight(ModelSignature.defaultInstance) {
+            case (sig1, sig2) => ModelSignatureOps.merge(sig1, sig2)
+          }.withSignatureName(signatureName)
+        )
+      } else {
+        Result.clientError(s"Models ${serviceDescs.map(_.modelVersion.toImageDef)} have different signature names")
+      }
+
     }
   }
 
