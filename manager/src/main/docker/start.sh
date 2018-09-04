@@ -60,8 +60,8 @@ then
         APP_OPTS="$APP_OPTS -Dcloud-driver.kube-namespace=$KUBE_NAMESPACE"
         APP_OPTS="$APP_OPTS -Ddocker-repository.type=remote"
         APP_OPTS="$APP_OPTS -Ddocker-repository.host=$REMOTE_DOCKER_REGISTRY_HOST"
-        APP_OPTS="$APP_OPTS -Ddocker-repository.username=$REMOTE_DOCKER_REGISTRY_USERNAME"
-        APP_OPTS="$APP_OPTS -Ddocker-repository.password=$REMOTE_DOCKER_REGISTRY_PASSWORD"
+        [ ! -z "$REMOTE_DOCKER_REGISTRY_USERNAME" ] && APP_OPTS="$APP_OPTS -Ddocker-repository.username=$REMOTE_DOCKER_REGISTRY_USERNAME"
+        [ ! -z "$REMOTE_DOCKER_REGISTRY_PASSWORD" ] && APP_OPTS="$APP_OPTS -Ddocker-repository.password=$REMOTE_DOCKER_REGISTRY_PASSWORD"
         APP_OPTS="$APP_OPTS"
     else
         APP_OPTS="$APP_OPTS -Dcloud-driver.type=docker"
