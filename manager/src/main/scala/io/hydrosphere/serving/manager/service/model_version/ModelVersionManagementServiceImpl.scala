@@ -49,7 +49,7 @@ class ModelVersionManagementServiceImpl(
     modelVersion match {
       case Some(x) => modelVersionRepository.modelVersionByModelAndVersion(modelId, x).map {
         case None =>
-          logger.debug(s"modelId=$modelId modelVersion=$modelVersion result=$x")
+          logger.debug(s"modelId=$modelId modelVersion=$modelVersion modelVersion=$x")
           Right(x)
         case _ =>
           logger.error(s"$modelVersion already exists")
@@ -57,7 +57,7 @@ class ModelVersionManagementServiceImpl(
       }
       case None => modelVersionRepository.lastModelVersionByModel(modelId, 1).map { se =>
         val result = nextVersion(se.headOption)
-        logger.debug(s"modelId=$modelId modelVersion=$modelVersion result=$result")
+        logger.debug(s"modelId=$modelId modelVersion=$modelVersion lastModelVersionByModel=${se.map(_.modelVersion)} nextVersion=$result")
         Right(result)
       }
     }
@@ -84,7 +84,7 @@ class ModelVersionManagementServiceImpl(
 
   private def nextVersion(lastModel: Option[ModelVersion]): Long = lastModel match {
     case None => 1
-    case Some(runtime) => runtime.modelVersion + 1
+    case Some(modelVersion) => modelVersion.modelVersion + 1
   }
 
   override def create(version: ModelVersion): HFResult[ModelVersion] = {

@@ -7,7 +7,7 @@ import io.hydrosphere.serving.manager.controller.{GenericController, ServingData
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import io.hydrosphere.serving.manager.model.db.Application
 import io.hydrosphere.serving.manager.service._
-import io.hydrosphere.serving.manager.service.application.{ApplicationManagementService, JsonServeRequest, RequestTracingInfo}
+import io.hydrosphere.serving.manager.service.application.{ApplicationManagementService}
 import io.swagger.annotations._
 import spray.json.JsObject
 

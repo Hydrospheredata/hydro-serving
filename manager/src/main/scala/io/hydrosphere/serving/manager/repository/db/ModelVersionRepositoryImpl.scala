@@ -66,7 +66,7 @@ class ModelVersionRepositoryImpl(
     db.run(
       Tables.ModelVersion
         .filter(_.modelId === modelId)
-        .sortBy(_.modelVersion)
+        .sortBy(_.modelVersion.desc)
         .joinLeft(Tables.Model)
         .on({ case (m, rt) => m.modelId === rt.modelId })
         .take(max)

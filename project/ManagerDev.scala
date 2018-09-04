@@ -9,10 +9,17 @@ object ManagerDev {
   lazy val devRun = taskKey[Unit]("Setup environment and ")
 
   lazy val pgImage = "postgres:9.6-alpine"
+  lazy val pgName = "hs-dev-pg"
+
   lazy val sidecarImage = "hydrosphere/serving-sidecar:latest"
+  lazy val sidecarName = "hs-dev-sidecar"
+
   lazy val uiImage = "hydrosphere/serving-manager-ui:latest"
+  lazy val uiName = "hs-dev-ui"
 
   lazy val gatewayImage = "hydrosphere/serving-gateway:latest"
+  lazy val gatewayName = "hs-dev-gateway"
+
 
   lazy val settings = Seq(
     hostIp := NetUtils.findLocalInetAddress().getHostAddress,
@@ -20,13 +27,13 @@ object ManagerDev {
       val ip = hostIp.value
       streams.value.log.info(s"Host ip: $ip")
 
-      val pg = DockerOpts(pgImage)
+      val pg = DockerOpts(pgImage, pgName)
         .env("POSTGRES_DB", "docker")
         .env("POSTGRES_USER", "docker")
         .env("POSTGRES_PASSWORD", "docker")
         .exposePort(5432, 5432)
 
-      val sidecar = DockerOpts(sidecarImage)
+      val sidecar = DockerOpts(sidecarImage, sidecarName)
         .env("MANAGER_HOST", ip)
         .env("HOST_PRIVATE_IP", ip)
         .env("MANAGER_PORT", "9091")
@@ -36,18 +43,18 @@ object ManagerDev {
         .exposePort(8081, 8081)
         .exposePort(8082, 8082)
 
-      val gateway = DockerOpts(gatewayImage)
+      val gateway = DockerOpts(gatewayImage, gatewayName)
         .env("SIDECAR_HOST", ip)
         .exposePort(29091, 9091)
         .exposePort(29090, 9090)
 
-      val ui = DockerOpts(uiImage)
+      val ui = DockerOpts(uiImage, uiName)
         .env("MANAGER_HOST", ip + ":8080")
         .exposePort(9098, 9091)
         .exposePort(8084, 80)
 
       def start(opts: DockerOpts): Unit = {
-        containerId(opts.name) match {
+        containerId(opts.contrainerName) match {
           case Some(ContainerStatus(id, Stopped)) => startContainer(id)
           case None => runDocker(opts)
           case Some(ContainerStatus(_, Running)) =>
@@ -70,10 +77,10 @@ object ManagerDev {
           case _ =>
         }
       }
-      stop(pgImage)
-      stop(sidecarImage)
-      stop(uiImage)
-      stop(gatewayImage)
+      stop(pgName)
+      stop(uiName)
+      stop(sidecarName)
+      stop(gatewayName)
     },
     devRun := {
       val cp = (fullClasspath in Compile).value
@@ -100,18 +107,19 @@ object ManagerDev {
   )
 
   case class DockerOpts(
-    name: String,
+    imageName: String,
     envs: Map[String, String],
-    portMappings: Map[Int, Int]
+    portMappings: Map[Int, Int],
+    contrainerName: String
   ) {
 
     def exposePort(from: Int, to: Int): DockerOpts = copy(portMappings = portMappings + (from -> to))
     def env(name: String, value: String): DockerOpts = copy(envs = envs + (name -> value))
-
+    def name(name: String): DockerOpts = copy(contrainerName = name)
   }
 
   object DockerOpts {
-    def apply(name: String): DockerOpts = DockerOpts(name, Map.empty, Map.empty)
+    def apply(imageName: String, containerName: String): DockerOpts = DockerOpts(imageName, Map.empty, Map.empty, containerName)
   }
 
   private def runDocker(opts: DockerOpts): Unit = {
@@ -119,7 +127,8 @@ object ManagerDev {
       Seq("docker", "run") ++
         opts.envs.map({case (k,v) => s"$k=$v"}).flatMap(e => Seq("-e", e)) ++
         opts.portMappings.map({case (k, v) => s"$k:$v"}).flatMap(p => Seq("-p", p)) ++
-        Seq("-d", opts.name)
+        Seq("--name", opts.contrainerName) ++
+        Seq("-d", opts.imageName)
 
     }
     import scala.sys.process._
