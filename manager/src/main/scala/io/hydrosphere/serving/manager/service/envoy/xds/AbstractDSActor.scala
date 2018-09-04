@@ -88,7 +88,7 @@ abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUr
         sendToObserver(subscribe.responseObserver)
       } else {
         send(DiscoveryResponse(
-          typeUrl = "type.googleapis.com/io.hydrosphere.serving.Empty",
+          typeUrl = "type.googleapis.com/com.google.protobuf.Empty",
           versionInfo = version.toString,
           nonce = sentRequest.get().toString
         ), subscribe.responseObserver)
