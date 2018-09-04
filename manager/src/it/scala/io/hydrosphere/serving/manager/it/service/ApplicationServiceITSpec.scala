@@ -143,7 +143,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                     environment = AnyEnvironment
                   )
                 ),
-                modelVersion.modelContract.signatures.find(_.signatureName == "default_spark").map(_.withSignatureName("0")),
+                modelVersion.modelContract.signatures.find(_.signatureName == "default_spark"),
                 dataProfileFields = Map.empty
               )
             )
