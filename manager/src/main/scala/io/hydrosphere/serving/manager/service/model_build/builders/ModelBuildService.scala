@@ -15,7 +15,7 @@ trait ModelBuildService {
 
 trait ModelPushService {
   def getImageName(modelBuild: ModelBuild): String = {
-    modelBuild.model.name
+    s"${modelBuild.model.name}:${modelBuild.version.toString}"
   }
 
   def push(modelRuntime: ModelVersion, progressHandler: ProgressHandler)
