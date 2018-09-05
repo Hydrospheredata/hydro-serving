@@ -2,6 +2,9 @@ package io.hydrosphere.serving.manager.it.service
 
 import cats.data.EitherT
 import cats.instances.all._
+import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.contract.model_field.ModelField
+import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.controller.application._
 import io.hydrosphere.serving.manager.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.it.FullIntegrationSpec
@@ -22,6 +25,18 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
   val upload2 = ModelUpload(
     packModel("/models/dummy_model_2"),
     name = Some("m2")
+  )
+  val upload3 = upload1.copy(
+    contract = Some(ModelContract(
+      modelName = "m1",
+      signatures = Vector(
+        ModelSignature(
+          signatureName = "not-default-spark",
+          inputs = Vector(ModelField("test-input")),
+          outputs = Vector(ModelField("test-output"))
+        )
+      )
+    ))
   )
 
   "Application service" should {
@@ -204,6 +219,71 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         } yield {
           assert(appNew === gotNewApp)
           assert(appNew.kafkaStreaming.isEmpty, appNew)
+        }
+      }
+    }
+
+    "create and update an application contract" in {
+      eitherTAssert {
+        for {
+          modelBuild <- EitherT(managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1)))
+          modelVersion <- EitherT.liftF(modelBuild.future)
+          appRequest = CreateApplicationRequest(
+            name = "contract_app",
+            namespace = None,
+            executionGraph = ExecutionGraphRequest(
+              stages = List(
+                ExecutionStepRequest(
+                  services = List(
+                    ServiceCreationDescription(
+                      runtimeId = 1, // dummy runtime id
+                      modelVersionId = Some(modelVersion.id),
+                      environmentId = None,
+                      weight = 100,
+                      signatureName = "default"
+                    )
+                  )
+                )
+              )
+            ),
+            kafkaStreaming = List.empty
+          )
+          app <- EitherT(managerServices.applicationManagementService.createApplication(
+            appRequest.name,
+            appRequest.namespace,
+            appRequest.executionGraph,
+            Seq.empty
+          ))
+
+          modelUploadNew <- EitherT(managerServices.modelBuildManagmentService.uploadAndBuild(upload3))
+          modelVersionNew <- EitherT.liftF(modelUploadNew.future)
+          newGraph = ExecutionGraphRequest(
+            stages = List(
+              ExecutionStepRequest(
+                services = List(
+                  ServiceCreationDescription(
+                    runtimeId = 1, // dummy runtime id
+                    modelVersionId = Some(modelVersionNew.id),
+                    environmentId = None,
+                    weight = 100,
+                    signatureName = "not-default-spark"
+                  )
+                )
+              )
+            )
+          )
+          appNew <- EitherT(managerServices.applicationManagementService.updateApplication(
+            app.id,
+            app.name,
+            app.namespace,
+            newGraph,
+            Seq.empty
+          ))
+
+          gotNewApp <- EitherT(managerServices.applicationManagementService.getApplication(appNew.id))
+        } yield {
+          assert(appNew === gotNewApp, gotNewApp)
+          assert(appNew.contract === upload3.contract.get)
         }
       }
     }
