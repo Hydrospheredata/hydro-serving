@@ -127,6 +127,18 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
       routes = Seq(
         Route(
           `match` = Some(RouteMatch(
+            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/tensorflow.serving.PredictionService"),
+            headers = Seq(HeaderMatcher(
+              name = "content-type",
+              value = "application/grpc"
+            ))
+          )),
+          action = Route.Action.Route(RouteAction(
+            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.GATEWAY_NAME)
+          ))
+        ),
+        Route(
+          `match` = Some(RouteMatch(
             pathSpecifier = RouteMatch.PathSpecifier.Prefix("/"),
             headers = Seq(HeaderMatcher(
               name = "content-type",
@@ -135,18 +147,6 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
           )),
           action = Route.Action.Route(RouteAction(
             clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_NAME)
-          ))
-        ),
-        Route(
-          `match` = Some(RouteMatch(
-            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/gateway"),
-            headers = Seq(HeaderMatcher(
-              name = "content-type",
-              value = "application/grpc"
-            ))
-          )),
-          action = Route.Action.Route(RouteAction(
-            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.GATEWAY_NAME)
           ))
         ),
         Route(
