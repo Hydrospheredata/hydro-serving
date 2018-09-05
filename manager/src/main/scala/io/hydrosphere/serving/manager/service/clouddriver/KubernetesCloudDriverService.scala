@@ -30,12 +30,12 @@ class KubernetesCloudDriverService(managerConfiguration: ManagerConfiguration, i
         serviceEvent._type match {
           case EventType.ADDED =>
             internalManagerEventsPublisher.cloudServiceDetected(Seq(kubeServiceToCloudService(serviceEvent._object)))
-            println(s"service ${serviceEvent._object.name} added")
+            logger.debug(s"service ${serviceEvent._object.name} added")
           case EventType.DELETED =>
             internalManagerEventsPublisher.cloudServiceRemoved(Seq(kubeServiceToCloudService(serviceEvent._object)))
-            println(s"service ${serviceEvent._object.name} deleted")
-          case EventType.MODIFIED => println(s"service ${serviceEvent._object.name} modified")
-          case EventType.ERROR => println(s"service ${serviceEvent._object.name} error")
+            logger.debug(s"service ${serviceEvent._object.name} deleted")
+          case EventType.MODIFIED => logger.debug(s"service ${serviceEvent._object.name} modified")
+          case EventType.ERROR => logger.debug(s"service ${serviceEvent._object.name} error")
         }
       }
     }
