@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.service.envoy.xds
 import envoy.api.v2.core.{HeaderValue, HeaderValueOption}
 import envoy.api.v2.{DiscoveryResponse, RouteConfiguration}
 import envoy.api.v2.route.RouteAction.ClusterSpecifier
-import envoy.api.v2.route._
+import envoy.api.v2.route.{Route, _}
 import io.grpc.stub.StreamObserver
 import io.hydrosphere.serving.grpc.Headers
 import io.hydrosphere.serving.manager.model.db.Application
@@ -127,6 +127,18 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
       routes = Seq(
         Route(
           `match` = Some(RouteMatch(
+            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/tensorflow.serving.PredictionService"),
+            headers = Seq(HeaderMatcher(
+              name = "content-type",
+              value = "application/grpc"
+            ))
+          )),
+          action = Route.Action.Route(RouteAction(
+            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.GATEWAY_NAME)
+          ))
+        ),
+        Route(
+          `match` = Some(RouteMatch(
             pathSpecifier = RouteMatch.PathSpecifier.Prefix("/"),
             headers = Seq(HeaderMatcher(
               name = "content-type",
@@ -191,6 +203,14 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
           )),
           action = Route.Action.Route(RouteAction(
             clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.PROFILER_HTTP_NAME)
+          ))
+        ),
+        Route(
+          `match` = Some(RouteMatch(
+            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/gateway")
+          )),
+          action = Route.Action.Route(RouteAction(
+            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.GATEWAY_HTTP_NAME)
           ))
         ),
         Route(
