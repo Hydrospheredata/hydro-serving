@@ -33,5 +33,12 @@ object CloudDriverConfiguration {
     internalDomainName: String,
     vpcId: String
   ) extends CloudDriverConfiguration
+  
+  case class Kubernetes(
+    proxyHost: String,
+    proxyPort: Int,
+    kubeNamespace: String,
+    loggingConfiguration: Option[ModelLoggingConfiguration]
+  ) extends CloudDriverConfiguration
 }
 

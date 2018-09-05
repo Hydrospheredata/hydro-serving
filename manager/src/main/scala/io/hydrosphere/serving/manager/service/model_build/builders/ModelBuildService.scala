@@ -10,12 +10,12 @@ trait ModelBuildService {
   val SCRIPT_VAL_MODEL_NAME = "MODEL_NAME"
   val SCRIPT_VAL_MODEL_VERSION = "MODEL_VERSION"
 
-  def build(modelBuild: ModelBuild, script: String, progressHandler: ProgressHandler): HFResult[String]
+  def build(modelBuild: ModelBuild, imageName: String, script: String, progressHandler: ProgressHandler): HFResult[String]
 }
 
 trait ModelPushService {
   def getImageName(modelBuild: ModelBuild): String = {
-    modelBuild.model.name
+    s"${modelBuild.model.name}:${modelBuild.version.toString}"
   }
 
   def push(modelRuntime: ModelVersion, progressHandler: ProgressHandler)

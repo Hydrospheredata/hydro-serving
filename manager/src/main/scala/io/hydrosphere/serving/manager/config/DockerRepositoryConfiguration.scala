@@ -11,5 +11,11 @@ object DockerRepositoryConfiguration {
     region: Regions,
     accountId: String
   ) extends DockerRepositoryConfiguration
+  
+  case class Remote(
+    host: String,
+    username: Option[String],
+    password: Option[String]
+  ) extends  DockerRepositoryConfiguration
 
 }
