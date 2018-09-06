@@ -1,7 +1,5 @@
 package io.hydrosphere.serving.manager.service.source.fetchers.keras
 
-import java.nio.file.Path
-
 import io.hydrosphere.serving.manager.service.source.fetchers.ModelFetcher
 import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import io.hydrosphere.serving.model.api.ModelMetadata

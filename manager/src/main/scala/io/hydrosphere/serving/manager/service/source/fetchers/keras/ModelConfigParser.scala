@@ -6,6 +6,7 @@ import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import io.hydrosphere.serving.manager.util.HDF5File
 import io.hydrosphere.serving.model.api.{ModelMetadata, ModelType}
+import org.apache.commons.io.FilenameUtils
 import org.apache.logging.log4j.scala.Logging
 
 import scala.io.Source
@@ -17,16 +18,16 @@ private[keras] trait ModelConfigParser {
 
 private[keras] object ModelConfigParser extends Logging {
   def importer(source: ModelStorage, directory: String): Option[ModelConfigParser] = {
-    findH5file(source, directory) match {
+    findJsonfile(source, directory) match {
       case Some(h5Path) =>
-        logger.debug(s"Found a .h5 file: $h5Path")
-        Some(ModelConfigParser.H5(h5Path))
+        logger.debug(s"Found a .json file: $h5Path")
+        Some(ModelConfigParser.JsonFile(h5Path))
 
       case None =>
-        logger.debug(s"No .h5 files found - trying json model configs")
-        findJsonfile(source, directory) match {
+        logger.debug(s"No .json config files found - trying h5")
+        findH5file(source, directory) match {
           case Some(jsonPath) =>
-            logger.debug(s"Found a .json file: $jsonPath")
+            logger.debug(s"Found a .h5 file: $jsonPath")
             Some(ModelConfigParser.JsonFile(jsonPath))
 
           case None =>
@@ -52,9 +53,10 @@ private[keras] object ModelConfigParser extends Logging {
     def importModel: Option[ModelMetadata] = {
       val h5File = HDF5File(h5path.toString)
       try {
+        val modelName = FilenameUtils.removeExtension(h5path.getFileName.getFileName.toString)
         val jsonModelConfig = h5File.readAttributeAsString("model_config")
         val kerasVersion = h5File.readAttributeAsString("keras_version")
-        JsonString(jsonModelConfig, h5path.getFileName.toString, kerasVersion).importModel
+        JsonString(jsonModelConfig, modelName, kerasVersion).importModel
       } finally {
         h5File.close()
       }

@@ -11,6 +11,7 @@ import io.hydrosphere.serving.model.api.ModelType.ONNX
 import io.hydrosphere.serving.manager.service.source.fetchers.spark.SparkModelFetcher
 import io.hydrosphere.serving.manager.service.source.fetchers._
 import io.hydrosphere.serving.manager.service.source.fetchers.keras.KerasFetcher
+import io.hydrosphere.serving.manager.service.source.fetchers.tensorflow.TensorflowModelFetcher
 import io.hydrosphere.serving.manager.service.source.storages.local.{LocalModelStorage, LocalModelStorageDefinition}
 import io.hydrosphere.serving.manager.{GenericUnitTest, TestConstants}
 import io.hydrosphere.serving.tensorflow.TensorShape
@@ -85,14 +86,14 @@ class FetcherSpecs extends GenericUnitTest {
   describe("KerasFetcher") {
     it("should parse h5 Keras model") {
       val expectedContract = ModelContract(
-        "mnist",
+        "keras_fashion_mnist",
         Seq(ModelSignature(
           "infer",
           Seq(
-            ContractBuilders.simpleTensorModelField("Input73", DataType.DT_FLOAT, TensorShape.mat(1, 1, 28, 28))
+            ContractBuilders.simpleTensorModelField("flatten_1", DataType.DT_FLOAT, TensorShape.mat(-1, 28, 28))
           ),
           Seq(
-            ContractBuilders.simpleTensorModelField("Plus422_Output_0", DataType.DT_FLOAT, TensorShape.mat(1, 10))
+            ContractBuilders.simpleTensorModelField("dense_3", DataType.DT_FLOAT, TensorShape.mat(-1, 10))
           ))
         )
       )
@@ -101,8 +102,8 @@ class FetcherSpecs extends GenericUnitTest {
       assert(fetchResult.isDefined, fetchResult)
       val metadata = fetchResult.get
       println(metadata)
-      assert(metadata.modelName === "mnist")
-      assert(metadata.modelType === ONNX("CNTK", "2.4"))
+      assert(metadata.modelName === "keras_fashion_mnist")
+      assert(metadata.modelType === ModelType.Unknown("keras", "2.1.6-tf"))
       assert(metadata.contract === expectedContract)
     }
 

@@ -2,6 +2,8 @@ package io.hydrosphere.serving.manager.service.source.fetchers.keras
 
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
+import io.hydrosphere.serving.manager.service.source.fetchers.tensorflow.TypeMapper
+import io.hydrosphere.serving.tensorflow.TensorShape
 
 private[keras] sealed trait ModelConfig {
   def toSignatures: Seq[ModelSignature]
@@ -34,11 +36,28 @@ private[keras] object ModelConfig {
   }
 
   case class LayerConfig(name: String, dtype: String, batchInputShape: Option[JsArray], units: Option[Long], targetShape: Option[JsArray]) {
+    def getShape = {
+      val arrDims = batchInputShape.orElse(targetShape).map { arr =>
+        if (arr.elements.isEmpty) {
+          TensorShape.scalar
+        } else {
+          val dims = arr.elements.map {
+            case JsNumber(num) => num.toLong
+            case _ => -1
+          }
+          TensorShape.mat(dims: _*)
+        }
+      }
+      val scalarDims = units.map( u => TensorShape.Dims(Seq(-1, u)))
+
+      TensorShape(arrDims.orElse(scalarDims).flatMap(_.toProto))
+    }
+
     def field: ModelField = {
       ModelField(
         name = name,
-        shape = ???,
-        typeOrSubfields = ModelField.TypeOrSubfields.Dtype(???) // map float to DT_FLOAT
+        shape = getShape.toProto,
+        typeOrSubfields = ModelField.TypeOrSubfields.Dtype(TypeMapper.toType(dtype))
       )
     }
 
