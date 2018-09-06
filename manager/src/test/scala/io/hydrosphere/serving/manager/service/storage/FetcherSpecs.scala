@@ -84,7 +84,7 @@ class FetcherSpecs extends GenericUnitTest {
   }
 
   describe("KerasFetcher") {
-    it("should parse h5 Keras model") {
+    it("should parse sequential model from .h5") {
       val expectedContract = ModelContract(
         "keras_fashion_mnist",
         Seq(ModelSignature(
@@ -97,8 +97,7 @@ class FetcherSpecs extends GenericUnitTest {
           ))
         )
       )
-
-      val fetchResult = KerasFetcher.fetch(localSource, "keras_model")
+      val fetchResult = KerasFetcher.fetch(localSource, "keras_model/sequential")
       assert(fetchResult.isDefined, fetchResult)
       val metadata = fetchResult.get
       println(metadata)
@@ -107,8 +106,27 @@ class FetcherSpecs extends GenericUnitTest {
       assert(metadata.contract === expectedContract)
     }
 
-    it("should parse json Keras model") {
-      pending
+    it("should parse functional model from .h5") {
+      val expectedContract = ModelContract(
+        "nonseq_model",
+        Seq(ModelSignature(
+          "infer",
+          Seq(
+            ContractBuilders.simpleTensorModelField("input_7", DataType.DT_FLOAT, TensorShape.mat(-1, 784))
+          ),
+          Seq(
+            ContractBuilders.simpleTensorModelField("dense_20", DataType.DT_INVALID, TensorShape.mat(-1, 10)),
+            ContractBuilders.simpleTensorModelField("dense_21", DataType.DT_INVALID, TensorShape.mat(-1, 10))
+          ))
+        )
+      )
+      val fetchResult = KerasFetcher.fetch(localSource, "keras_model/functional")
+      assert(fetchResult.isDefined, fetchResult)
+      val metadata = fetchResult.get
+      println(metadata)
+      assert(metadata.modelName === "nonseq_model")
+      assert(metadata.modelType === ModelType.Unknown("keras", "2.2.2"))
+      assert(metadata.contract === expectedContract)
     }
   }
 

@@ -19,16 +19,16 @@ private[keras] trait ModelConfigParser {
 private[keras] object ModelConfigParser extends Logging {
   def importer(source: ModelStorage, directory: String): Option[ModelConfigParser] = {
     findJsonfile(source, directory) match {
-      case Some(h5Path) =>
-        logger.debug(s"Found a .json file: $h5Path")
-        Some(ModelConfigParser.JsonFile(h5Path))
+      case Some(jsPath) =>
+        logger.debug(s"Found a .json file: $jsPath")
+        Some(ModelConfigParser.JsonFile(jsPath))
 
       case None =>
-        logger.debug(s"No .json config files found - trying h5")
+        logger.debug(s"No .json config files found - trying .h5")
         findH5file(source, directory) match {
-          case Some(jsonPath) =>
-            logger.debug(s"Found a .h5 file: $jsonPath")
-            Some(ModelConfigParser.JsonFile(jsonPath))
+          case Some(h5Path) =>
+            logger.debug(s"Found a .h5 file: $h5Path")
+            Some(ModelConfigParser.H5(h5Path))
 
           case None =>
             logger.debug(s"Did not find model files")
