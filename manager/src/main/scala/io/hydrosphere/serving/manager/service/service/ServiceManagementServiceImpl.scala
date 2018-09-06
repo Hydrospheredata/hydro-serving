@@ -162,14 +162,15 @@ class ServiceManagementServiceImpl(
   override def deleteService(serviceId: Long): HFResult[Service] =
     serviceRepository.get(serviceId).flatMap {
       case Some(x) =>
-        cloudDriverService.removeService(serviceId).flatMap { _ =>
-          serviceRepository.delete(serviceId)
-        }.map { _ =>
+        for {
+          _ <- cloudDriverService.removeService(serviceId)
+          _ <- serviceRepository.delete(serviceId)
+        } yield {
           internalManagerEventsPublisher.serviceRemoved(x)
           Result.ok(x)
         }
       case None =>
-        Result.clientErrorF("Can't find service")
+        Result.clientErrorF(s"Can't find service id=$serviceId")
     }
 
   override def servicesByIds(ids: Seq[Long]): Future[Seq[Service]] =
@@ -184,8 +185,13 @@ class ServiceManagementServiceImpl(
     serviceRepository.getByRuntimeIds(runtimeIds)
       .flatMap(syncServices)
 
-  override def fetchServicesUnsync(services: Set[ServiceKeyDescription]): Future[Seq[Service]] =
-    serviceRepository.fetchServices(services)
+  override def fetchServicesUnsync(services: Set[ServiceKeyDescription]): Future[Seq[Service]] = {
+    logger.debug(s"services=$services")
+    serviceRepository.fetchServices(services).map { res =>
+      logger.debug(s"serviceRepository.fetchServices=$res")
+      res
+    }
+  }
 
   private def fetchModel(modelId: Option[Long]): HFResult[Option[ModelVersion]] = {
     logger.debug(modelId)

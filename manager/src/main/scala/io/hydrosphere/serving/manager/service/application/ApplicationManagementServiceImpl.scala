@@ -202,18 +202,30 @@ class ApplicationManagementServiceImpl(
   }
 
   private def removeServiceIfNeeded(keysSet: Set[ServiceKeyDescription], applicationId: Long): HFResult[Seq[Service]] = {
-    val servicesF = for {
+    for {
+      servicesToDelete <- retrieveRemovableServiceDescriptions(keysSet, applicationId)
+      deleted <- removeServices(servicesToDelete)
+    } yield deleted
+  }
+
+  private def retrieveRemovableServiceDescriptions(keysSet: Set[ServiceKeyDescription], applicationId: Long) = {
+    for {
       apps <- applicationRepository.getKeysNotInApplication(keysSet, applicationId)
       keysSetOld = apps.flatMap(_.executionGraph.stages.flatMap(_.services.map(_.serviceDescription))).toSet
       services <- serviceManagementService.fetchServicesUnsync(keysSet -- keysSetOld)
-    } yield services
-
-    servicesF.flatMap { services =>
-      Future.traverse(services) { service =>
-        serviceManagementService.deleteService(service.id)
-      }.map(Result.sequence)
+    } yield {
+      logger.debug(s"applicationId=$applicationId keySet=$keysSet getKeysNotInApplication=${apps.map(_.name)} keysSetOld=$keysSetOld")
+      services
     }
   }
+
+  private def removeServices(services: Seq[Service]) = {
+    logger.debug(s"Services to remove: ${services.map(_.serviceName)}")
+    Result.traverseF(services) { service =>
+      serviceManagementService.deleteService(service.id)
+    }
+  }
+
 
   private def composeAppF(name: String, namespace: Option[String], graph: ApplicationExecutionGraph, contract: ModelContract, kafkaStreaming: Seq[ApplicationKafkaStream], id: Long = 0) = {
     Result.okF(
