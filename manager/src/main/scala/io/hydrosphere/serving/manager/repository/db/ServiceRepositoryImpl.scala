@@ -185,14 +185,18 @@ class ServiceRepositoryImpl(
         .result
     ).map(mapFromDb)
 
-  override def fetchServices(services: Set[ServiceKeyDescription]): Future[Seq[Service]] = {
-    getByRuntimeIds(services.map(k => {
-      k.runtimeId
-    })).map(s => {
-      s.filter(service => {
-        services.contains(service.toServiceKeyDescription)
-      })
-    })
+  override def fetchServices(serviceDescs: Set[ServiceKeyDescription]): Future[Seq[Service]] = {
+    val runtimeIdx = serviceDescs.map(_.runtimeId)
+    for {
+      services <- getByRuntimeIds(runtimeIdx)
+    } yield {
+      val filtered = services.filter { service =>
+        serviceDescs.contains(service.toServiceKeyDescription)
+      }
+      logger.debug(s"services=$services")
+      logger.debug(s"filtered=$filtered")
+      filtered
+    }
   }
 
   override def update(entity: Service): Future[Int] = ???

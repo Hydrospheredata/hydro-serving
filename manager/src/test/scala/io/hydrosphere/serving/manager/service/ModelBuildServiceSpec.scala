@@ -94,12 +94,14 @@ class ModelBuildServiceSpec extends GenericUnitTest {
           Result.okF(dummyModel)
         )
 
+        val pushS = mock[ModelPushService]
+
         val builder = mock[ModelBuildService]
-        when(builder.build(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
+        when(builder.build(Matchers.any(), Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
           Result.okF("kek")
         )
 
-        val service = new ModelBuildManagementServiceImpl(buildRepo, scriptS, versionS, modelS, null, builder)
+        val service = new ModelBuildManagementServiceImpl(buildRepo, scriptS, versionS, modelS, pushS, builder)
 
         for {
           build <- EitherT(service.buildModel(BuildModelRequest(1)))
@@ -177,7 +179,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
         val pushS = mock[ModelPushService]
 
         val builder = mock[ModelBuildService]
-        when(builder.build(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
+        when(builder.build(Matchers.any(), Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
           Result.internalErrorF(new RuntimeException("Something bad happened"))
         )
 
@@ -270,7 +272,7 @@ class ModelBuildServiceSpec extends GenericUnitTest {
         val pushS = mock[ModelPushService]
 
         val builder = mock[ModelBuildService]
-        Mockito.when(builder.build(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
+        Mockito.when(builder.build(Matchers.any(), Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
           Result.okF("kek")
         )
 

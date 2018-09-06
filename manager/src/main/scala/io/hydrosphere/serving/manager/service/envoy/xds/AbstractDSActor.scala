@@ -81,11 +81,17 @@ abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUr
         observerResources.put(subscribe.responseObserver, subscribe.discoveryRequest.resourceNames.toSet)
       }
       val differentVersion = {
-        !subscribe.discoveryRequest.versionInfo.contains(version.toString)
+        version.toString != subscribe.discoveryRequest.versionInfo
       }
 
       if (differentVersion || needUpdateResource) {
         sendToObserver(subscribe.responseObserver)
+      } else {
+        send(DiscoveryResponse(
+          typeUrl = "type.googleapis.com/com.google.protobuf.Empty",
+          versionInfo = version.toString,
+          nonce = sentRequest.get().toString
+        ), subscribe.responseObserver)
       }
 
     case unsubcribe: UnsubscribeMsg =>

@@ -64,7 +64,8 @@ class ApplicationRepositoryImpl(
       serv.executionGraph,
       serv.servicesInStage,
       serv.kafkaStreams,
-      serv.namespace
+      serv.namespace,
+      serv.applicationContract
     )
 
     db.run(query.update(
@@ -72,7 +73,8 @@ class ApplicationRepositoryImpl(
       value.executionGraph.toJson.toString(),
       getServices(value.executionGraph),
       value.kafkaStreaming.map(_.toJson.toString),
-      value.namespace
+      value.namespace,
+      value.contract.toProtoString
     ))
   }
 

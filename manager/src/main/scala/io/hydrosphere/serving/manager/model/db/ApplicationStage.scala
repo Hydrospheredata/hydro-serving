@@ -3,6 +3,7 @@ package io.hydrosphere.serving.manager.model.db
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.grpc.applications.ExecutionService
 import io.hydrosphere.serving.manager.model.DataProfileFields
+import io.hydrosphere.serving.manager.service.environment.AnyEnvironment
 
 case class ApplicationStage(
   services: List[DetailedServiceDescription],
@@ -20,7 +21,7 @@ case class DetailedServiceDescription(
   def serviceDescription = ServiceKeyDescription(
     runtimeId = runtime.id,
     modelVersionId = Some(modelVersion.id),
-    environmentId = Some(environment.id)
+    environmentId = if (environment.id == AnyEnvironment.id) None else Some(environment.id)
   )
 
   def toGrpc = ExecutionService(

@@ -25,6 +25,10 @@ object Dependencies {
     "com.amazonaws" % "aws-java-sdk-route53" % awsSdkVersion
   )
 
+  lazy val kubernetesDependencies = Seq(
+    "io.skuber" %% "skuber" % "2.0.9"
+  )
+
   lazy val hdfsDependencies = Seq(
     "org.apache.hadoop" % "hadoop-client" % hadoopVersion,
     "org.apache.hadoop" % "hadoop-hdfs" % hadoopVersion
@@ -101,6 +105,7 @@ object Dependencies {
     grpcDependencies ++
     elastic4sDependencies ++
     influxDBClientDependencies ++
+    kubernetesDependencies ++
     mlDependencies ++
     Seq(
       "org.typelevel" %% "cats-core" % catsV,
@@ -111,7 +116,7 @@ object Dependencies {
       "com.github.tminglei" %% "slick-pg" % slickPgVersion,
       "com.github.tminglei" %% "slick-pg_spray-json" % slickPgVersion,
       "org.flywaydb" % "flyway-core" % "4.2.0",
-      "com.spotify" % "docker-client" % "8.8.0" exclude("ch.qos.logback", "logback-classic"),
+      "com.spotify" % "docker-client" % "8.12.0" exclude("ch.qos.logback", "logback-classic"),
       "com.google.guava" % "guava" % "22.0",
       "com.github.pureconfig" %% "pureconfig" % "0.9.1"
     )

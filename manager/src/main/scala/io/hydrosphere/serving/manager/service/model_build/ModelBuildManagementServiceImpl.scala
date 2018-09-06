@@ -35,7 +35,8 @@ class ModelBuildManagementServiceImpl(
     ExecutionContext.fromExecutor(Executors.newFixedThreadPool(4)),
     modelBuildRepository,
     modelVersionManagementService,
-    modelBuildService
+    modelBuildService,
+    modelPushService
   )
 
   override def get(buildId: Long): HFResult[ModelBuild] = {

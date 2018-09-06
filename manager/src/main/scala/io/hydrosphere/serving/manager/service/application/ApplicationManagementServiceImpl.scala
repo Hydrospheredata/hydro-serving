@@ -202,18 +202,30 @@ class ApplicationManagementServiceImpl(
   }
 
   private def removeServiceIfNeeded(keysSet: Set[ServiceKeyDescription], applicationId: Long): HFResult[Seq[Service]] = {
-    val servicesF = for {
+    for {
+      servicesToDelete <- retrieveRemovableServiceDescriptions(keysSet, applicationId)
+      deleted <- removeServices(servicesToDelete)
+    } yield deleted
+  }
+
+  private def retrieveRemovableServiceDescriptions(keysSet: Set[ServiceKeyDescription], applicationId: Long) = {
+    for {
       apps <- applicationRepository.getKeysNotInApplication(keysSet, applicationId)
       keysSetOld = apps.flatMap(_.executionGraph.stages.flatMap(_.services.map(_.serviceDescription))).toSet
       services <- serviceManagementService.fetchServicesUnsync(keysSet -- keysSetOld)
-    } yield services
-
-    servicesF.flatMap { services =>
-      Future.traverse(services) { service =>
-        serviceManagementService.deleteService(service.id)
-      }.map(Result.sequence)
+    } yield {
+      logger.debug(s"applicationId=$applicationId keySet=$keysSet getKeysNotInApplication=${apps.map(_.name)} keysSetOld=$keysSetOld")
+      services
     }
   }
+
+  private def removeServices(services: Seq[Service]) = {
+    logger.debug(s"Services to remove: ${services.map(_.serviceName)}")
+    Result.traverseF(services) { service =>
+      serviceManagementService.deleteService(service.id)
+    }
+  }
+
 
   private def composeAppF(name: String, namespace: Option[String], graph: ApplicationExecutionGraph, contract: ModelContract, kafkaStreaming: Seq[ApplicationKafkaStream], id: Long = 0) = {
     Result.okF(
@@ -268,11 +280,11 @@ class ApplicationManagementServiceImpl(
         case (stage, id) =>
           val f = for {
             services <- EitherT(inferServices(stage.services))
-            stageSigs <- EitherT(Future.successful(inferStageSignature(services)))
+            stageSig <- EitherT(Future.successful(inferStageSignature(services)))
           } yield {
             ApplicationStage(
               services = services.toList,
-              signature = Some(stageSigs.withSignatureName(id.toString)),
+              signature = Some(stageSig),
               dataProfileFields = mergeServiceDataProfilingTypes(services)
             )
           }
@@ -359,11 +371,18 @@ class ApplicationManagementServiceImpl(
       Result.clientError(s"Errors while inferring stage signature: $errors")
     } else {
       val values = signatures.map(_.right.get)
-      Result.ok(
-        values.foldRight(ModelSignature.defaultInstance) {
-          case (sig1, sig2) => ModelSignatureOps.merge(sig1, sig2)
-        }
-      )
+      val signatureName = values.head.signatureName
+      val isSameName = values.forall(_.signatureName == signatureName)
+      if (isSameName) {
+        Result.ok(
+          values.foldRight(ModelSignature.defaultInstance) {
+            case (sig1, sig2) => ModelSignatureOps.merge(sig1, sig2)
+          }.withSignatureName(signatureName)
+        )
+      } else {
+        Result.clientError(s"Models ${serviceDescs.map(_.modelVersion.toImageDef)} have different signature names")
+      }
+
     }
   }
 

@@ -7,7 +7,7 @@ import com.spotify.docker.client.messages.ProgressMessage
 import io.hydrosphere.serving.manager.model.db.{BuildRequest, ModelBuild, ModelVersion}
 import io.hydrosphere.serving.model.api.{HFResult, HResult, Result}
 import io.hydrosphere.serving.manager.repository.ModelBuildRepository
-import io.hydrosphere.serving.manager.service.model_build.builders.ModelBuildService
+import io.hydrosphere.serving.manager.service.model_build.builders.{ModelBuildService, ModelPushService}
 import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import io.hydrosphere.serving.manager.util.task.{ExecFuture, ServiceTask, ServiceTaskExecutor, ServiceTaskUpdater}
 
@@ -17,7 +17,8 @@ class ModelBuildExecutor(
   val executionContext: ExecutionContext,
   val modelBuildRepository: ModelBuildRepository,
   val modelVersionSerivce: ModelVersionManagementService,
-  val modelBuildService: ModelBuildService
+  val modelBuildService: ModelBuildService,
+  val modelPushService: ModelPushService
 ) extends ServiceTaskExecutor[BuildRequest, ModelVersion] {
   implicit val ec = executionContext
 
@@ -52,13 +53,14 @@ class ModelBuildExecutor(
     updater.running().flatMap { task =>
       val modelBuild = ModelBuild.fromBuildTask(task)
       modelBuildService
-        .build(modelBuild, buildRequest.script, messageHandler)
+        .build(modelBuild, modelPushService.getImageName(modelBuild), buildRequest.script, messageHandler)
         .flatMap(afterBuild(updater, _))(ec)
         .flatMap {
           case Left(value) =>
             updater.failed(value.message, LocalDateTime.now())
             throw new IllegalStateException(value.message)
           case Right(value) =>
+            modelPushService.push(value, messageHandler)
             updater.finished(value).map(_ => value)
         }
     }
