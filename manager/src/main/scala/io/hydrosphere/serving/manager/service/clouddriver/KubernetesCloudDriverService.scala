@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.service.clouddriver
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.Sink
-import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, ManagerConfiguration}
+import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, DockerRepositoryConfiguration, ManagerConfiguration}
 import io.hydrosphere.serving.manager.model.db.Service
 import io.hydrosphere.serving.manager.service.clouddriver.CloudDriverService._
 import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
@@ -69,12 +69,18 @@ class KubernetesCloudDriverService(managerConfiguration: ManagerConfiguration, i
   override def deployService(service: Service): Future[CloudService] = {
     import LabelSelector.dsl._
 
-    val container = Container(service.serviceName, s"${service.runtime.name}:${service.runtime.version}")
+    val runtimeContainer = Container("runtime", s"${service.runtime.name}:${service.runtime.version}")
       .exposePort(9090)
+      .mount("shared-model", "/model")
     
-    val template = Pod.Template.Spec
-      .named(service.serviceName)
-      .addContainer(container)
+    val modelContainer = Container("model", s"${managerConfiguration.dockerRepository.asInstanceOf[DockerRepositoryConfiguration.Remote].host}/${service.model.get.imageName}:${service.model.get.imageTag}")
+      .mount("shared-model", "/shared/model")
+      .withEntrypoint("cp")
+      .withArgs("-a", "/model/.", "/shared/model/")
+    
+    val template = Pod.Template.Spec(metadata = ObjectMeta(name = service.serviceName), spec = Some(Pod.Spec().addImagePullSecretRef("regcred").addVolume(Volume("shared-model", Volume.EmptyDir()))))
+      .addInitContainer(modelContainer)
+      .addContainer(runtimeContainer)
       .addLabel("app" -> service.serviceName)
     
     val deployment = apps.v1.Deployment(metadata=ObjectMeta(name = service.serviceName, namespace = conf.kubeNamespace))
