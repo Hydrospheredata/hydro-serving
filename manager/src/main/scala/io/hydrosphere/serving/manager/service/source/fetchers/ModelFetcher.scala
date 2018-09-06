@@ -19,7 +19,7 @@ object ModelFetcher extends Logging {
     TensorflowModelFetcher,
     KerasFetcher,
     ONNXFetcher,
-    ScikitModelFetcher
+    FallbackContractFetcher
   )
 
   def fetch(source: ModelStorage, folder: String): ModelMetadata = {
@@ -30,7 +30,7 @@ object ModelFetcher extends Logging {
     val model = res.flatten
       .headOption
       .getOrElse {
-        ModelMetadata(folder, ModelType.Unknown("unknown", "unknown"), ModelContract())
+        ModelMetadata(folder, ModelType.Unknown("unknown", "contractless"), ModelContract())
       }
     model
   }

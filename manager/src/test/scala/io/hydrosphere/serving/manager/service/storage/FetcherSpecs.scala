@@ -22,7 +22,7 @@ class FetcherSpecs extends GenericUnitTest {
 
   describe("Scikit model fetcher") {
     it("should parse correct scikit model") {
-      val model = ScikitModelFetcher.fetch(localSource, "scikit_model")
+      val model = FallbackContractFetcher.fetch(localSource, "scikit_model")
       model shouldBe defined
       assert(model.get.modelType === ModelType.Scikit())
     }
