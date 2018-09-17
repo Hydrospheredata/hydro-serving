@@ -48,5 +48,8 @@ options:
       - title: Developing Runtime
         url: "runtimes.html#developing-runtime"
 
+  - title: CLI
+    url: "cli.html"
+
   - title: For Developers
     url: "dev.html"
