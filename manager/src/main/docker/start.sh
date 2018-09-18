@@ -58,6 +58,7 @@ then
         APP_OPTS="$APP_OPTS -Dcloud-driver.proxy-host=$KUBE_PROXY_SERVICE_HOST"
         APP_OPTS="$APP_OPTS -Dcloud-driver.proxy-port=$KUBE_PROXY_SERVICE_PORT"
         APP_OPTS="$APP_OPTS -Dcloud-driver.kube-namespace=$KUBE_NAMESPACE"
+        APP_OPTS="$APP_OPTS -Dcloud-driver.kube-registry-secret-name=$KUBE_REGISTRY_SECRET_NAME"
         APP_OPTS="$APP_OPTS -Ddocker-repository.type=remote"
         APP_OPTS="$APP_OPTS -Ddocker-repository.host=$REMOTE_DOCKER_REGISTRY_HOST"
         [ ! -z "$REMOTE_DOCKER_REGISTRY_USERNAME" ] && APP_OPTS="$APP_OPTS -Ddocker-repository.username=$REMOTE_DOCKER_REGISTRY_USERNAME"

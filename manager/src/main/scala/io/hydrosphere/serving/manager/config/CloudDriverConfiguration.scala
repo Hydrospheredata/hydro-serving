@@ -38,6 +38,7 @@ object CloudDriverConfiguration {
     proxyHost: String,
     proxyPort: Int,
     kubeNamespace: String,
+    kubeRegistrySecretName: String,
     loggingConfiguration: Option[ModelLoggingConfiguration]
   ) extends CloudDriverConfiguration
 }

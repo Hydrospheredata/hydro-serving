@@ -78,7 +78,7 @@ class KubernetesCloudDriverService(managerConfiguration: ManagerConfiguration, i
       .withEntrypoint("cp")
       .withArgs("-a", "/model/.", "/shared/model/")
     
-    val template = Pod.Template.Spec(metadata = ObjectMeta(name = service.serviceName), spec = Some(Pod.Spec().addImagePullSecretRef("regcred").addVolume(Volume("shared-model", Volume.EmptyDir()))))
+    val template = Pod.Template.Spec(metadata = ObjectMeta(name = service.serviceName), spec = Some(Pod.Spec().addImagePullSecretRef(conf.kubeRegistrySecretName).addVolume(Volume("shared-model", Volume.EmptyDir()))))
       .addInitContainer(modelContainer)
       .addContainer(runtimeContainer)
       .addLabel("app" -> service.serviceName)
