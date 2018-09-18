@@ -63,6 +63,7 @@ then
         APP_OPTS="$APP_OPTS -Ddocker-repository.host=$REMOTE_DOCKER_REGISTRY_HOST"
         [ ! -z "$REMOTE_DOCKER_REGISTRY_USERNAME" ] && APP_OPTS="$APP_OPTS -Ddocker-repository.username=$REMOTE_DOCKER_REGISTRY_USERNAME"
         [ ! -z "$REMOTE_DOCKER_REGISTRY_PASSWORD" ] && APP_OPTS="$APP_OPTS -Ddocker-repository.password=$REMOTE_DOCKER_REGISTRY_PASSWORD"
+        [ ! -z "$REMOTE_DOCKER_PULL_HOST" ] && APP_OPTS="$APP_OPTS -Ddocker-repository.pull-host=$REMOTE_DOCKER_PULL_HOST"
         APP_OPTS="$APP_OPTS"
     else
         APP_OPTS="$APP_OPTS -Dcloud-driver.type=docker"

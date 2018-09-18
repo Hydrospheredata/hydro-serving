@@ -15,7 +15,8 @@ object DockerRepositoryConfiguration {
   case class Remote(
     host: String,
     username: Option[String],
-    password: Option[String]
+    password: Option[String],
+    pullHost: Option[String]
   ) extends  DockerRepositoryConfiguration
 
 }

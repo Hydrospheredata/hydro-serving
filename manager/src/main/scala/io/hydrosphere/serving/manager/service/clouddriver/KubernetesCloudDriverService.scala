@@ -72,8 +72,14 @@ class KubernetesCloudDriverService(managerConfiguration: ManagerConfiguration, i
     val runtimeContainer = Container("runtime", s"${service.runtime.name}:${service.runtime.version}")
       .exposePort(9090)
       .mount("shared-model", "/model")
+
+    val dockerRepoConf = managerConfiguration.dockerRepository.asInstanceOf[DockerRepositoryConfiguration.Remote]
+    val dockerRepoHost = dockerRepoConf.pullHost match {
+      case Some(host) => host
+      case None => dockerRepoConf.host
+    }
     
-    val modelContainer = Container("model", s"${managerConfiguration.dockerRepository.asInstanceOf[DockerRepositoryConfiguration.Remote].host}/${service.model.get.imageName}:${service.model.get.imageTag}")
+    val modelContainer = Container("model", s"$dockerRepoHost/${service.model.get.imageName}:${service.model.get.imageTag}")
       .mount("shared-model", "/shared/model")
       .withEntrypoint("cp")
       .withArgs("-a", "/model/.", "/shared/model/")
