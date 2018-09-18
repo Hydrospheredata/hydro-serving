@@ -24,7 +24,7 @@ object Dependencies {
     "com.amazonaws" % "aws-java-sdk-s3" % awsSdkVersion,
     "com.amazonaws" % "aws-java-sdk-route53" % awsSdkVersion
   )
-  
+
   lazy val kubernetesDependencies = Seq(
     "io.skuber" %% "skuber" % "2.0.9"
   )
@@ -89,6 +89,11 @@ object Dependencies {
     "com.paulgoldbaum" %% "scala-influxdb-client" % "0.6.0" exclude("io.netty", "*")
   )
 
+  lazy val mlDependencies = Seq(
+    "org.bytedeco.javacpp-presets" % "hdf5-platform" % "1.10.2-1.4.2",
+    "org.tensorflow" % "proto" % "1.10.0"
+  )
+
   lazy val hydroServingDummyRuntimeDependencies = logDependencies ++
     grpcDependencies
 
@@ -101,6 +106,7 @@ object Dependencies {
     elastic4sDependencies ++
     influxDBClientDependencies ++
     kubernetesDependencies ++
+    mlDependencies ++
     Seq(
       "org.typelevel" %% "cats-core" % catsV,
       "org.postgresql" % "postgresql" % postgresqlVersion,
@@ -112,7 +118,6 @@ object Dependencies {
       "org.flywaydb" % "flyway-core" % "4.2.0",
       "com.spotify" % "docker-client" % "8.12.0" exclude("ch.qos.logback", "logback-classic"),
       "com.google.guava" % "guava" % "22.0",
-      "org.tensorflow" % "proto" % "1.2.1",
       "com.github.pureconfig" %% "pureconfig" % "0.9.1"
     )
 }

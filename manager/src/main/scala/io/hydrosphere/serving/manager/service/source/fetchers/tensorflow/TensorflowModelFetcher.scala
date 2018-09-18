@@ -1,11 +1,11 @@
-package io.hydrosphere.serving.manager.service.source.fetchers
+package io.hydrosphere.serving.manager.service.source.fetchers.tensorflow
 
 import java.nio.file.Files
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.model.api.{ModelMetadata, _}
+import io.hydrosphere.serving.manager.service.source.fetchers.{FieldInfo, ModelFetcher}
 import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import io.hydrosphere.serving.model.api.{ModelMetadata, ModelType}
 import io.hydrosphere.serving.tensorflow.TensorShape

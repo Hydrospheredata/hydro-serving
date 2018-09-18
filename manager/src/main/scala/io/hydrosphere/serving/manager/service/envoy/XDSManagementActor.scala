@@ -7,8 +7,7 @@ import io.hydrosphere.serving.manager.service.envoy.xds._
 import io.hydrosphere.serving.manager.service.internal_events._
 import io.hydrosphere.serving.manager.service.service.ServiceManagementService
 
-import scala.concurrent.{Await, Future}
-import scala.concurrent.duration._
+import scala.concurrent.Future
 
 class XDSManagementActor(
   serviceManagementService: ServiceManagementService,
