@@ -20,11 +20,11 @@ import io.hydrosphere.serving.tensorflow.types.DataType
 class FetcherSpecs extends GenericUnitTest {
   val localSource = new LocalModelStorage(LocalModelStorageDefinition("TEST", Paths.get(TestConstants.localModelsPath)))
 
-  describe("Scikit model fetcher") {
-    it("should parse correct scikit model") {
+  describe("Fallback") {
+    it("should parse contract proto message") {
       val model = FallbackContractFetcher.fetch(localSource, "scikit_model")
       model shouldBe defined
-      assert(model.get.modelType === ModelType.Scikit())
+      assert(model.get.modelType === ModelType.Unknown("unknown", "fallback"))
     }
   }
 

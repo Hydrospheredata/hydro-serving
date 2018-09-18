@@ -1,0 +1,17 @@
+signatures {
+  signature_name: "claim"
+  inputs {
+    name: "client_profile"
+    shape: {
+      dim: {
+          size: 112
+      }
+    }
+    dtype: DT_DOUBLE
+  }
+
+  outputs {
+    name: "amount"
+    dtype: DT_DOUBLE
+  }
+}
