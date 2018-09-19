@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ include "docker-registry.fullname" . }}
+  labesl:
+    app: {{ include "docker-registry.name" . }}
+    chart: {{ include "docker-registry.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+data:
+  entrypoint.sh: |-
+    #!/usr/bin/env sh
+    exec >/auth/htpasswd
+    exec "$@"

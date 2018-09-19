@@ -1,0 +1,36 @@
+# Default values for serving.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+global:
+  persistence:
+    enabled: false
+    # accessMode: ReadWriteOnce
+    # size: 10Gi
+    # storageClass: -
+    # existingClaim: nil
+
+  dockerRegistry:
+    enabled: true
+    host: ""
+    username: user
+    password: pass
+
+  postgres:
+    enabled: true
+    # host: ""
+    # port: ""
+    # database: ""
+    # username: ""
+    # password: ""
+
+  elasticsearch:
+    enabled: true
+    # host: ""
+
+  influx:
+    enabled: true
+    # host: ""
+    # port: ""
+    # database: ""
+

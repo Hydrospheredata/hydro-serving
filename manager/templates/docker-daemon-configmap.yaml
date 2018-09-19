@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "docker-daemon-configmap-{{ .Release.Name }}"
+data:
+  daemon.json: |-
+    {{ include "manager.daemonconfig" . }}

@@ -1,0 +1,95 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: "docker-registry-{{ .Release.Name }}"
+  labels:
+    app: {{ include "docker-registry.name" . }}
+    chart: {{ include "docker-registry.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ include "docker-registry.name" . }}
+      release: {{ .Release.Name }}
+  template:
+    metadata:
+      labels:
+        app: {{ include "docker-registry.name" . }}
+        release: {{ .Release.Name }}
+    spec:
+      initContainers:
+        - name: "htpasswd-{{ .Chart.Name }}"
+          image: registry:2
+          command:
+            - /bin/entrypoint.sh
+          args:
+            - htpasswd
+            - -Bbn
+            - {{ .Values.global.dockerRegistry.username | quote }}
+            - {{ .Values.global.dockerRegistry.password | quote }}
+          volumeMounts:
+            - name: "configmap-{{ .Chart.Name }}"
+              mountPath: /bin/entrypoint.sh
+              readOnly: true
+              subPath: entrypoint.sh
+            - name: "auth-{{ .Chart.Name }}"
+              mountPath: /auth
+      containers:
+        - name: {{ .Chart.Name }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - name: http
+              containerPort: 5000
+              protocol: TCP
+          env:
+            - name: REGISTRY_AUTH
+              value: "htpasswd"
+            - name: REGISTRY_AUTH_HTPASSWD_REALM
+              value: "Registry Realm"
+            - name: REGISTRY_AUTH_HTPASSWD_PATH
+              value: "/auth/htpasswd"
+          volumeMounts:
+            - name: "auth-{{ .Chart.Name }}"
+              mountPath: /auth
+              readOnly: true
+            - name: data
+              mountPath: /var/lib/registry/
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+          resources:
+{{ toYaml .Values.resources | indent 12 }}
+    {{- with .Values.nodeSelector }}
+      nodeSelector:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+    {{- with .Values.affinity }}
+      affinity:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+    {{- with .Values.tolerations }}
+      tolerations:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+      volumes:
+        - name: "configmap-{{ .Chart.Name }}"
+          configMap:
+            defaultMode: 0700
+            name: {{ include "docker-registry.fullname" . }}
+        - name: "auth-{{ .Chart.Name }}"
+          emptyDir: {}
+        - name: data
+        {{- if .Values.global.persistence.enabled }}
+          persistentVolumeClaim:
+            claimName: {{ if .Values.global.persistence.existingClaim }}{{ .Values.global.persistence.existingClaim }}{{- else }}"serving-{{ .Release.Name }}"{{- end }}
+        {{- else }}
+          emptyDir: {}
+        {{- end }}
