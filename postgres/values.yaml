@@ -4,6 +4,10 @@
 
 replicaCount: 1
 
+global:
+  persistence:
+    enabled: false
+
 image:
   repository: postgres
   tag: 9.6-alpine

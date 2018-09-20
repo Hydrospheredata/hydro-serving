@@ -4,6 +4,17 @@
 
 replicaCount: 1
 
+global:
+  postgres:
+    username: ""
+    password: ""
+  dockerRegistry:
+    host: ""
+  influx:
+    host: ""
+  elasticsearch:
+    host: ""
+
 image:
   repository: hydrosphere/serving-manager
   tag: latest

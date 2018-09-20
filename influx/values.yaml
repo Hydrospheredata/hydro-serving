@@ -4,6 +4,10 @@
 
 replicaCount: 1
 
+global:
+  persistence:
+    enabled: false
+
 image:
   repository: influxdb
   tag: 1.5.2

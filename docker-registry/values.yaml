@@ -6,6 +6,8 @@ global:
   dockerRegistry:
     username: ""
     password: ""
+  persistence:
+    enabled: false
 
 replicaCount: 1
 
