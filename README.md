@@ -31,10 +31,19 @@ included in the `serving` chart as requirements.
 This chart contains private docker registry enabled by default. It
 should be used only for the purpose of "try-and-remove" as its configuration is
 a little bit hacky (ok, it is _very_ hacky): registry chart opens
-`nodePort` on **every** kubernetes node ([why this is a bad idea](https://kubernetes.io/docs/concepts/configuration/overview/#services)). Please, do not use built-in registry in real life.
+`hostPort` on **every** kubernetes node ([why this is a bad idea](https://kubernetes.io/docs/concepts/configuration/overview/#services)). Please, do not use built-in registry in real life.
 
 
 ## Installing the Chart
+
+### From GitHub Releases
+
+Choose a release on the [Releases Page](https://github.com/Hydrospheredata/hydro-serving-helm/releases)
+and install it as usual:
+
+```
+$ helm install --name my-release https://github.com/Hydrospheredata/hydro-serving-helm/releases/download/0.1.6/serving-0.1.6.tgz
+```
 
 ### From source
 
