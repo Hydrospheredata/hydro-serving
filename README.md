@@ -36,6 +36,20 @@ a little bit hacky (ok, it is _very_ hacky): registry chart opens
 
 ## Installing the Chart
 
+### From Repo
+
+Add hydro-serving repo
+
+```
+$ helm repo add hydro-serving https://hydrospheredata.github.io/hydro-serving-helm/
+```
+
+Install the chart:
+
+```
+$ helm install --name my-release hydro-serving/serving
+```
+
 ### From GitHub Releases
 
 Choose a release on the [Releases Page](https://github.com/Hydrospheredata/hydro-serving-helm/releases)
