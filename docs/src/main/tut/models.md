@@ -240,7 +240,7 @@ $ hs upload --host "localhost" --port 8080
 
 Create application for that model and select `hydrosphere/serving-runtime-python` runtime. You're all set.
 
-[Here's]({{site.baseurl}}{%link getting-started.md%}#own-model) step-by-step guide describing, how to run Keras model inside python runtime conteiner.
+[Here's]({{site.baseurl}}{%link getting-started.md%}#own-model) step-by-step guide describing, how to run Keras model inside python runtime container.
 
 
 [github-model-signature]: https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/contract/model_signature.proto
