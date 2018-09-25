@@ -8,7 +8,7 @@ permalink: 'models.html'
 
 ## Principles 
 
-The whole process of working with ML Lambda consits of working with your models and deploying them via [applications]({{site.baseurl}}{%link applications.md%}) to production. Here we describe the main principles with working with models. 
+The whole process of working with ML Lambda consits of working with your models and deploying them via [applications]({{site.baseurl}}{%link applications.md%}) to production. Here we describe the main principles of working with the models. 
 
 ### Models
 
@@ -17,23 +17,18 @@ __Models__ are machine learning models or processing functions, that consume pro
 When you upload model binaries to ML Lambda, the following steps are automatically executed:
 1. Check, if the model has been provided with the [contract]({{site.baseurl}}{%link models.md%}#contracts). If so, generate binary contract representation based on the provided contract; 
 2. If contract hasn't been found, extract model's metadata (signatures, types) and generate binary contract from it;
-3. Build a Docker image with the model and place all models data inside;
-4. Increment model's version and assign it with the created Docker image;
-5. Push image to the registry. 
+3. Build a Docker image of the model and add it to the configured Docker registry;
+4. Increment model's version and assosiate it with the created Docker image;
 
-#### Models' Versioning
+#### Models' versioning
 
-ML Lambda automatically recognizes new versions of deployed models, and then uses docker registry to save new immutable docker image with new model version. Later this docker image is used as an init container for the Runtime during actual deployment.
+ML Lambda automatically recognizes new versions of deployed models and uses Docker registry to save there new immutable model versions. Later these Docker images will be used to build runtime containers during actual deployment.
 
 ![]({{site.baseurl}}{%link /img/ui-models-versions.png%})<br>
-<span style="font-size: 0.95em; margin-top: 10px;">__Pic.1__ ML Lambda tracks the history of model's updates and preserves it in the model's __versions__ section.</span>
-
-![]({{site.baseurl}}{%link /img/ui-models-pick.png%})<br>
-<span style="font-size: 0.95em; margin-top: 10px;">__Pic.2__ When configuring application, you can pick any desired version of any model and use it inside pipeline.</span>
 
 #### Frameworks
 
-ML Lambda can understand your models depending on what framework you're using. It's possible due to the metadata that popular frameworks (such as TensorFlow) save with the model. But it's not always the case. You should refer to the table below with listed frameworks and their inferrence. If inferring percentage is high, you can omit providing self-written [contracts]({{site.baseurl}}{%link models.md%}#contracts), otherwise you should.
+ML Lambda can understand your models depending on what framework you are using. It's possible due to the metadata that popular frameworks (such as TensorFlow) save with the model, but it's not always the case. You should refer to the table below with listed frameworks and their inferrence. If inferring percentage is high, you can omit providing self-written [contracts]({{site.baseurl}}{%link models.md%}#contracts), otherwise you should.
 
 | Framework | Status | Inferring | Commentaries |
 | ------- | ------ | --------- | ------------ |
@@ -53,90 +48,74 @@ ML Lambda can understand your models depending on what framework you're using. I
 
 ### Contracts
 
-If your models is not supported, or inferrence percentage is low, you may need to describe the model by yourself. To do that you should use __contracts__. Contract is a concept, that allows you to decsribe model's inputs and outputs. To describe your model, you would have to provide 2 following documents. 
-
-##### serving.yaml
-
-The file provides the definition of the model.
+If your models is not supported or inferrence percentage is low, you may need to describe the model by yourself. To do that you should use __contracts__. Contract is a concept that allows you to decsribe model's inputs and outputs. 
 
 ```yaml
-model:
-  name: "linear_regression"
-  type: "keras:2.2.0"
-  contract: "contract.prototxt"
-  payload:
-    - "src/" 
-    - "model.h5"
+kind: Model
+name: "example_tokenizer_model"
+model-type: "python:3.6"
+payload:
+  - "src/"
+  - "requirements.txt/"
+  - "nltk_data"
+  
+contract:
+  tokenize:                 # arbitrary: name of the signature
+    inputs:                 
+      input_text:           # arbitrary: name of the field
+        shape: [-1, 1]
+        type: string
+        profile: text
+    outputs:                
+      output_text:          # arbitrary: name of the field
+        shape: [-1, 1]
+        type: string
+        profile: text
 ```
 
-| Field | Definition |
-| ----- | ---------- |
-| `name` | Specifies the name of the model. |
-| `type` | Specifies the type and the version of the model, e.g. `python:3.6.5`, `tensorflow:1.8.0`, `scikit-learn:0.19.1`, etc. Should be of format `<framework>:<version>`. |
-| `contract` | Filename of the contract of the model. ML Lambda will look up this file to infer the contract. |
-| `payload` | List of all files, used by model. If model is organized with directires/subdirectories, it's enough to only specify root directory. ML Lambda will recoursively add every file/subdirectory inside it. |
+`model-type` specifies the type and the version of the model, e.g. `python:3.6.5`, `tensorflow:1.8.0`, `scikit-learn:0.19.1`, etc. Should be of format `<framework>:<version>`. 
+
+`contract` might consist of multiple signatures with different names. The choice of name depends only on you. Later on in the web interface you can choose between defined signatures in your applications. `inputs` and `outputs` share the same annotation. 
+
+| Field | Definition | Type | Type description |
+| ----- | ---------- | ---- | ---------------- |
+| `shape` | Describes the shape of the input/ouput tensor. | `-1` | Indicates arbitrary shape. 
+| | | `1`, `2`, `3`, ... | Any positive number |
 
 <br>
 
-##### contract.prototxt
+| Field | Definition | Type | Type description |
+| ----- | ---------- | ---- | ---------------- |
+| `type` |  Describes the data type of incoming tensor. | `half` | 16-bit half-precision floating-point |
+| | | `float`       | 32-bit single-precision floating-point | 
+| | | `double`      | 64-bit double-precision floating-point | 
+| | | `bfloat16`    | 16-bit truncated floating-point |
+| | | `complex64`   | 64-bit single-precision complex | 
+| | | `complex128`  | 128-bit double-precision complex | 
+| | | `uint8`       | 8-bit unsigned integer | 
+| | | `uint16`      | 16-bit unsigned integer | 
+| | | `uint32`      | 32-bit unsigned integer | 
+| | | `uint64`      | 64-bit unsigned integer | 
+| | | `int8`        | 8-bit signed integer | 
+| | | `int16`       | 16-bit signed integer | 
+| | | `int32`       | 32-bit signed integer | 
+| | | `int64`       | 64-bit signed integer | 
+| | | `bool`        | Boolean | 
+| | | `string`      | String | 
+| | | `qint8`       | Quantized 8-bit signed integer | 
+| | | `quint8`      | Quantized 8-bit unsigned integer | 
+| | | `qint16`      | Quantized 16-bit signed integer | 
+| | | `quint16`     | Quantized 16-bit unsigned integer | 
+| | | `resource`    | Handle to a mutable resource | 
+| | | `variant`     | Values of arbitrary types |
 
-The file provides the information about your signatures. It closely resembles our defined [ModelSignature][github-model-signature].
+<br>
 
-```
-signatures {
-    signature_name: "serving"
-	inputs {
-	    name: "profile"
-		shape: {
-		    dim: {
-			    size: 3
-			}
-		}
-		dtype: DT_DOUBLE
-	}
-    inputs {
-	    name: "profile_context"
-		shape: {
-		    dim: {
-			    size: 4
-			}
-			dim: {
-			    size: 12
-			}
-		}
-		dtype: DT_DOUBLE
-	}
-    outputs {
-	    name: "user_class"
-		subfields {
-		    data {
-			    name: "user_name"
-				dtype: DT_STRING
-			}
-		}
-	}
-    outputs {
-	    name: "obvserver_class"
-		dtype: DT_DOUBLE
-	}
-    outputs {
-	    name: "misc"
-		shape: {
-		    dim: {
-			    size: -1
-			}
-		}
-		dtype: DT_DOUBLE
-	}
-}
-```
-
-| Field | Links | Explanation |
-| ----- | --------- | ---------- |
-| `inputs`| [ModelFields][github-model-field] | The field is a mapping, which will be provided to the model. The key of the mapping would be the `name` of the field, the value would be actual data.<br>If you want to provide a dictionary with multiple key inputs, simply define another field `inputs` in the signature definition. |
-| `outputs`| [ModelFields][github-model-field] | The field is a mapping, which will be expected from the model. The key of the mapping would be the `name` of the field, the value would be actual data.<br>If you want to get a dictionary with multiple key outputs, simply define additional `outputs` in the signature definition. |
-| `shape` | [TensorShape][github-tensor-shape] | Describes the shape of the tensor. If you want to specify multidimensional shape, you need to provide multiple `dim` definitions. If you don't know the size of the shape, you can assign `size` to `-1`. ML Lambda will expect 0, 1 or many objects in that case.|
-| `dtype` | [DataType][github-datatype] | Can be one of the following values:<br>`DT_INT8`, `DT_INT16`, `DT_INT32`, `DT_INT64`;<br>`DT_UINT8`, `DT_UINT16`, `DT_UINT32`, `DT_UINT64`;<br>`DT_QINT8`, `DT_QINT16`, `DT_QINT32`;<br>`DT_QUINT8`, `DT_QUINT16`;<br>`DT_HALF`, `DT_FLOAT`, `DT_DOUBLE`;<br>`DT_COMPLEX64`, `DT_COMPLEX128`;<br>`DT_BOOL`, `DT_STRING`;<br>`DT_MAP` |
+| Field | Definition | Type | Type description |
+| ----- | ---------- | ---- | ---------------- |
+| `profile` | Describes the nature of the data. | `text` | For monitoring such fields will be used __text__-oriented algorithms. |
+| | | `image` | For monitoring such fields will be used __image__-oriented algorithms. | 
+| | | `numerical` | For monitoring such fields will be used __numerical__-oriented algorithms.|
 
 ## Examples
 
@@ -160,7 +139,7 @@ with tf.Session() as sess:
     ...
     builder.add_meta_graph_and_variables(
         sess=sess,
-        tags=['foo_tag', 'bar_tag'],
+        tags=[tf.saved_model.tag_constants.SERVING],
         signature_def_map=foo_signatures
     )
 
@@ -171,7 +150,7 @@ Upload model and create a corresponding application that uses `hydrosphere/servi
 
 ```sh
 $ cd saved_model
-$ hs upload --host "localhost" --port 8080
+$ hs upload
 ```
 
 ### Keras
@@ -190,7 +169,7 @@ There're 2 ways to run Keras models with ML Lambda.
     # export trained model
     builder = tf.saved_model.builder.SavedModelBuilder('saved_model')
     signature = tf.saved_model.signature_def_utils.predict_signature_def(
-        inputs={'input': model.input}, outputs={'output': model.output}
+        inputs={'input': model.inputs}, outputs={'output': model.outputs}
     )
     builder.add_meta_graph_and_variables(
         sess=backend.get_session(),
@@ -208,10 +187,10 @@ There're 2 ways to run Keras models with ML Lambda.
 
     ```sh
     $ cd saved_model
-    $ hs upload --host "localhost" --port 8080
+    $ hs upload
     ```
 
-2. If you're using different backend, you can save this model to `.h5` format and run it under python runtime with pre-defined `requirements.txt`, `contract.prototxt` and `serving.yaml` files. [Here's]({{site.baseurl}}{%link getting-started.md%}#own-model) step-by-step guide on how to achieve that.
+2. If you're using different backend, you can save this model to `.h5` format and run it under python runtime with pre-defined `requirements.txt` and `serving.yaml` files. [Here's]({{site.baseurl}}{%link getting-started.md%}#own-model) step-by-step guide on how to achieve that.
 
 ### Python
 
@@ -219,13 +198,11 @@ In order to upload and use Python model, you will need to do the following:
 
 1. Create dedicated folder.
 2. Create a `func_main.py`, wich will handle your interactions with the model and other processing steps. Put this file inside `/model/src/` direcotory. 
-3. Define `contract.prototxt` ([Reference]({{site.baseurl}}{%link models.md%}#contractprototxt)). Remember, you should define signature with the name, that will match to one of your function's name in `func_main.py`. 
-4. Define `serving.yaml` ([Reference]({{site.baseurl}}{%link models.md%}#servingyaml)).
+3. Define `serving.yaml` ([Reference]({{site.baseurl}}{%link models.md%}#servingyaml)). Remember, you should define signature with the name, that will match to one of your function's name in `func_main.py`. 
 
 The directory structure should look like:
 ```
 model
-├── contract.prototxt
 ├── serving.yaml
 ├── ...
 └── src
@@ -235,7 +212,7 @@ model
 Now upload model and create a correspnding application that uses `hydrosphere/serving-runtime-python` as runtime.
 
 ```sh
-$ hs upload --host "localhost" --port 8080
+$ hs upload
 ```
 
 Create application for that model and select `hydrosphere/serving-runtime-python` runtime. You're all set.
