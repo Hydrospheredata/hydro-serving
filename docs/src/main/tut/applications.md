@@ -6,11 +6,11 @@ permalink: 'applications.html'
 
 # Machine Learning Applications 
 
-__Application__ is a publicly available endpoint to reach your models. It allows you to use your most recent deployed production models via HTTP-requests, gRPC API calls, or configure it as a part of Kafka streams. 
+__Application__ is a publicly available endpoint to reach your models. It allows you to use your most recent deployed production models via HTTP-requests, gRPC API calls or configure it as a part of Kafka streams. 
 
 ## Creating Applications
 
-Open ML Lambda interface, go to the `Applications` page and click `Add New` button. In the opened window you'll see basic configurations of the application. 
+Open ML Lambda web interface, go to the `Applications` page and click `Add New` button. In the opened window you'll see basic configurations of the application. 
 
 ![]({{site.baseurl}}{%link /img/create-application-empty.png%})
 
@@ -29,9 +29,10 @@ You can perform test request to the model from interface. Open desired applicati
 
 ### HTTP-request
 
-To let the model perform on your data through HTTP-request, you'll need to send `POST` request to `/api/v1/applications/serve/{applicationId}/{signatureName}`. Depending on the type of your application (Single-staged, Multi-staged), you may need to use different signatures. 
+To let the model perform on your data through HTTP-request, you'll need to send `POST` request to `http://<host>/api/v1/applications/serve/{applicationId}/{applicationSignature}`. `applicationId` can be found in the address bar in the web interface (for example, `http://<host>/applications/1`, where `1` is the id of your application).
+`applicationSignature` can be either original model's signature, if it's a __single-staged__ application, or the name of the application if it's a __multi-staged__ application. 
 
-_Note: When you create a __Multi-staged__ application, ML Lambda internally infers a contract. It performs validation that every stage is compatible with it's siblings, and creates a contract with the same signature name, as the application name. __Single-staged__ applications by default use their explicitly defined signatures._
+_Note: When you create a __multi-staged__ application, ML Lambda internally infers a contract. It performs validation that every stage is compatible with it's siblings, and creates a contract with the same signature name, as the application name. __Single-staged__ applications by default use their explicitly defined signatures._
 
 ### gRPC API call
 

@@ -19,7 +19,7 @@ We've already implemented a few runtimes which you can use in your own projects.
 | Spark | hydrosphere/serving-runtime-spark | [Docker Hub][docker-hub-spark]<br>[Github][github-serving-spark] |
 
 <br>
-_Note: If you are using a framework for which runtime isn't implemented yet, you can open an [issue][github-serving-new-issue] on our Github._
+_Note: If you are using a framework for which runtime isn't implemented yet, you can open an [issue][github-serving-new-issue] in our Github._
 
 ## Developing Runtime
 
