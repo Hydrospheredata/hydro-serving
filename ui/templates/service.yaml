@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: "hydro-serving-ui-{{ .Release.Name }}"
+  namespace: {{ .Release.Namespace }}
   labels:
     app: {{ include "ui.name" . }}
     chart: {{ include "ui.chart" . }}

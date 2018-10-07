@@ -4,6 +4,7 @@ kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
   name: "serving-{{ .Release.Name }}"
+  namespace: {{ .Release.Namespace }}
   labels:
     app: "serving-{{ .Release.Name }}"
     chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"

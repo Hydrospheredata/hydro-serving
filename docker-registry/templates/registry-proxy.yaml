@@ -2,6 +2,7 @@ apiVersion: extensions/v1beta1
 kind: DaemonSet
 metadata:
   name: "kube-registry-proxy-{{ .Release.Name }}"
+  namespace: {{ .Release.Namespace }}
   labels:
     k8s-app: kube-registry
     kubernetes.io/cluster-service: "true"

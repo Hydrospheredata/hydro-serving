@@ -2,6 +2,7 @@ apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
   name: {{ include "elasticsearch.fullname" . }}
+  namespace: {{ .Release.Namespace }}
   labels:
     app: {{ include "elasticsearch.name" . }}
     chart: {{ include "elasticsearch.chart" . }}

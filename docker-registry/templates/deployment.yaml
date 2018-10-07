@@ -2,6 +2,7 @@ apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
   name: "docker-registry-{{ .Release.Name }}"
+  namespace: {{ .Release.Namespace }}
   labels:
     app: {{ include "docker-registry.name" . }}
     chart: {{ include "docker-registry.chart" . }}

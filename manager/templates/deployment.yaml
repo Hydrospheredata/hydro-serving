@@ -2,6 +2,7 @@ apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
   name: {{ include "manager.fullname" . }}
+  namespace: {{ .Release.Namespace }}
   labels:
     app: {{ include "manager.name" . }}
     chart: {{ include "manager.chart" . }}
