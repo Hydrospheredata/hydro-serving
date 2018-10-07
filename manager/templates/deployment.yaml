@@ -40,7 +40,7 @@ spec:
               protocol: TCP
             - name: grpc
               containerPort: 9091
-              protocl: TCP
+              protocol: TCP
           env:
             - name: ADVERTISED_MANAGER_HOST
               value: "hydro-serving-manager-{{ .Release.Name }}"
