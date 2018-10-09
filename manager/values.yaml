@@ -4,6 +4,9 @@
 
 replicaCount: 1
 
+serviceAccount:
+  create: true
+
 global:
   postgres:
     username: ""

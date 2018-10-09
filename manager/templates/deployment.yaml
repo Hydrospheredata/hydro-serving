@@ -20,6 +20,7 @@ spec:
         app: {{ include "manager.name" . }}
         release: {{ .Release.Name }}
     spec:
+      serviceAccountName: {{ if .Values.serviceAccount.name }}{{ .Values.serviceAccount.name }}{{ else }}"hydro-serving-manager-sa-{{ .Release.Name }}"{{ end }}
       containers:
         - name: dind
           image: docker:18.06.0-ce-dind
