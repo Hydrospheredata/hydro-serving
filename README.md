@@ -115,10 +115,12 @@ The following table lists the configurable parameters of the HydroServing chart 
 | `manager.image.repository`            | Container image for `manager`                         | `hydrosphere/serving-manager`     |
 | `manager.image.tag`                   | Container image tag for `manager`                     | `latest`                          |
 | `manager.image.pullPolicy`            | Container pull policy                                 | `Always`                          |
+| `manager.serviceAccount.create`       | Specifies whether a ServiceAccount should be created  | `true`                            |
+| `manager.serviceAccount.name`         | The name of the ServiceAccounts to use.               | `nil` (auto-generated)            |
 | `sidecar.image.repository`            | Container image for `sidecar`                         | `hydrosphere/serving-sidecar`     |
 | `sidecar.image.tag`                   | Container image tag for `sidecar`                     | `latest`                          |
 | `sidecar.image.pullPolicy`            | Container pull policy                                 | `Always`                          |
-| `sidecar.ingress.enabled`             | Whether to install ingress to expose hydro-serving   | `false`                           |
+| `sidecar.ingress.enabled`             | Whether to install ingress to expose hydro-serving    | `false`                            |
 | `sidecar.ingress.annotations`         | Kubernetes annotations for ingress                    | `{}`                              |
 | `sidecar.ingress.path`                | Ingress path                                          | `/`                               |
 | `sidecar.ingress.hosts`               | Ingress hosts                                         | `- hydro-serving.local`           |
