@@ -35,7 +35,7 @@ services:
     image: hydrosphere/serving-sidecar:0.1.10
     container_name: sidecar
     ports:
-      - "8080:8080"
+      - "80:8080"
       - "8082:8082"
     networks:
       - extnet
@@ -50,8 +50,6 @@ services:
   managerui:
     image: hydrosphere/serving-manager-ui:latest
     container_name: managerui
-    ports:
-      - "80:9091"
     networks:
       - extnet
       - hydronet
