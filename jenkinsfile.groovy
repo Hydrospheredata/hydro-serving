@@ -51,5 +51,5 @@ pipelineCommon(
         "",
         "",
         {},
-        commitToCD("manager", "dev")
+        commitToCD("manager", "dev", "hydrosphere/serving-manager")
 )
