@@ -52,7 +52,7 @@ spec:
               value: {{ if .Values.global.postgres.enabled }}"postgres-{{ .Release.Name }}"{{- else }}{{ .Values.global.postgres.host }}{{- end }}
             {{- if .Values.global.postgres.port }}
             - name: DATABASE_PORT
-              value: {{ .Values.global.postgres.port }}
+              value: {{ .Values.global.postgres.port | quote }}
             {{- end }}
             {{- if .Values.global.postgres.database }}
             - name: DATABASE_NAME
@@ -76,7 +76,7 @@ spec:
               value: {{ if .Values.global.influx.enabled }}"influx-{{ .Release.Name }}"{{- else }}{{ .Values.global.influx.host }}{{- end }}
             {{- if .Values.global.influx.port }}
             - name: METRICS_INFLUXDB_PORT
-              value: {{ .Values.global.influx.port }}
+              value: {{ .Values.global.influx.port | quote }}
             {{- end }}
             {{- if .Values.global.influx.database }}
             - name: METRICS_INFLUXDB_DATABASE_NAME
