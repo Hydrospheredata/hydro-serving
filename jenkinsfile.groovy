@@ -46,5 +46,10 @@ pipelineCommon(
         collectTestResults,
         buildAndPublishReleaseFunction,
         buildAndPublishReleaseFunction,
-        buildFunction
+        buildFunction,
+        null,
+        "",
+        "",
+        {},
+        commitToCD("manager", "dev")
 )
