@@ -1,6 +1,7 @@
 {{- if .Values.ingress.enabled -}}
 {{- $fullName := include "sidecar.fullname" . -}}
 {{- $ingressPath := .Values.ingress.path -}}
+{{- $releaseName := .Release.Name -}}
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
@@ -33,7 +34,7 @@ spec:
         paths:
           - path: {{ $ingressPath }}
             backend:
-              serviceName: "hydro-serving-sidecar-{{ .Release.Name }}"
+              serviceName: "hydro-serving-sidecar-{{ $releaseName }}"
               servicePort: http
   {{- end }}
 {{- end }}
