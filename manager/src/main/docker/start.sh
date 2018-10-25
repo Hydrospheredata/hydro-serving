@@ -28,7 +28,7 @@ APP_OPTS="-Dapplication.grpc-port=9091 -Dapplication.port=9090"
 
 if [ "$CUSTOM_CONFIG" = "" ]
 then
-    APP_OPTS="$APP_OPTS -Dhttp.server.parsing.max-content-length=$MAX_CONTENT_LENGTH -Dhttp.client.parsing.max-content-length=$MAX_CONTENT_LENGTH"
+    APP_OPTS="$APP_OPTS -Dakka.http.server.parsing.max-content-length=$MAX_CONTENT_LENGTH -Dakka.http.client.parsing.max-content-length=$MAX_CONTENT_LENGTH"
     APP_OPTS="$APP_OPTS -Dopen-tracing.zipkin.enabled=$ZIPKIN_ENABLED -Dopen-tracing.zipkin.port=$ZIPKIN_PORT -Dopen-tracing.zipkin.host=$ZIPKIN_HOST"
     APP_OPTS="$APP_OPTS -Dmanager.advertised-host=$ADVERTISED_MANAGER_HOST -Dmanager.advertised-port=$ADVERTISED_MANAGER_PORT"
     APP_OPTS="$APP_OPTS -Ddatabase.jdbc-url=jdbc:postgresql://$DATABASE_HOST:$DATABASE_PORT/$DATABASE_NAME"
