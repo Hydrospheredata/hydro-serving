@@ -136,7 +136,8 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
             ))
           )),
           action = Route.Action.Route(RouteAction(
-            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.GATEWAY_NAME)
+            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.GATEWAY_NAME),
+            timeout = Some(Duration(69, 0))
           ))
         ),
         Route(
