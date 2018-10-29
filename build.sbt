@@ -68,5 +68,6 @@ lazy val docs = project.in(file("docs"))
         val size = s + "x" + s
         MicrositeFavicon(s"favicon-$size.png", size)
       })
-    }
+    },
+    micrositeAnalyticsToken := "UA-76326820-1"
   )
