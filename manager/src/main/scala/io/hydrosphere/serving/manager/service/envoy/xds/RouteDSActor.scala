@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager.service.envoy.xds
 
+import com.google.protobuf.duration.Duration
 import envoy.api.v2.core.{HeaderValue, HeaderValueOption}
 import envoy.api.v2.{DiscoveryResponse, RouteConfiguration}
 import envoy.api.v2.route.RouteAction.ClusterSpecifier
@@ -52,7 +53,8 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
           pathSpecifier = RouteMatch.PathSpecifier.Prefix("/")
         )),
         action = Route.Action.Route(RouteAction(
-          clusterSpecifier = weights
+          clusterSpecifier = weights,
+          timeout = Some(Duration(69, 0))
         ))
       ))
     )
@@ -194,7 +196,8 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
             pathSpecifier = RouteMatch.PathSpecifier.Prefix("/monitoring")
           )),
           action = Route.Action.Route(RouteAction(
-            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MONITORING_HTTP_NAME)
+            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MONITORING_HTTP_NAME),
+            timeout = Some(Duration(69,0))
           ))
         ),
         Route(
@@ -202,7 +205,8 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
             pathSpecifier = RouteMatch.PathSpecifier.Prefix("/profiler")
           )),
           action = Route.Action.Route(RouteAction(
-            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.PROFILER_HTTP_NAME)
+            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.PROFILER_HTTP_NAME),
+            timeout = Some(Duration(69,0))
           ))
         ),
         Route(
@@ -210,7 +214,8 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
             pathSpecifier = RouteMatch.PathSpecifier.Prefix("/gateway")
           )),
           action = Route.Action.Route(RouteAction(
-            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.GATEWAY_HTTP_NAME)
+            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.GATEWAY_HTTP_NAME),
+            timeout = Some(Duration(69,0))
           ))
         ),
         Route(
