@@ -274,21 +274,21 @@ You can perform test request to the model from interface. Open desired applicati
 
 ### HTTP-request
 
-Send `POST` request to ML Lambda. `applicationId` can be found in the address bar in the web interface (for example, `http://<host>/applications/1`, where `1` is the id of your application).
+Send `POST` request to ML Lambda. 
 
 1. [demo_lstm]({{site.baseurl}}{%link getting-started.md%}#uploading-demo)
 
     ```sh
     $ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
     "data": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1] 
-    }' 'http://localhost:8080/api/v1/applications/serve/{applicationId}/demo_lstm'
+    }' 'http://localhost/gateway/applications/demo_lstm/demo_lstm'
     ```
 
 2. [linear_regression]({{site.baseurl}}{%link getting-started.md%}#own-model)
 
     ```sh
     $ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
-    "x": [[1, 1],[1, 1]]}' 'http://localhost:8080/api/v1/applications/serve/{applicationId}/infer'
+    "x": [[1, 1],[1, 1]]}' 'http://localhost/gateway/applications/linear_regression/infer'
     ```
 
 ### gRPC API call
@@ -300,7 +300,7 @@ import grpc
 import hydro_serving_grpc as hs
 
 # connect to your ML Lamba instance
-channel = grpc.insecure_channel("localhost:8080")
+channel = grpc.insecure_channel("localhost")
 stub = hs.PredictionServiceStub(channel)
 
 # 1. define a model, that you'll use

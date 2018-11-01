@@ -29,8 +29,7 @@ You can perform test request to the model from interface. Open desired applicati
 
 ### HTTP-request
 
-To let the model perform on your data through HTTP-request, you'll need to send `POST` request to `http://<host>/api/v1/applications/serve/{applicationId}/{applicationSignature}`. `applicationId` can be found in the address bar in the web interface (for example, `http://<host>/applications/1`, where `1` is the id of your application).
-`applicationSignature` can be either original model's signature, if it's a __single-staged__ application, or the name of the application if it's a __multi-staged__ application. 
+To let the model perform on your data through HTTP-request, you'll need to send `POST` request to `http://<host>/gateway/applications/{applicationName}/{applicationSignature}`. 
 
 _Note: When you create a __multi-staged__ application, ML Lambda internally infers a contract. It performs validation that every stage is compatible with it's siblings, and creates a contract with the same signature name, as the application name. __Single-staged__ applications by default use their explicitly defined signatures._
 
