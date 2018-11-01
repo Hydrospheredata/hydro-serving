@@ -60,5 +60,15 @@ options:
   - title: CLI
     url: "cli.html"
 
+    nested_options:
+      - title: hs cluster
+        url: "cli.html#hs-cluster"
+      
+      - title: hs upload
+        url: "cli.html#hs-upload"
+
+      - title: hs apply
+        url: "cli.html#hs-apply"
+
   - title: For Developers
     url: "dev.html"
