@@ -14,9 +14,9 @@ To let ML Lambda understand your models you should use __contracts__. Contract i
 | ------- | ------ | --------- | ------------ |
 | TensorFlow | `maintained` | 100% | TensorFlow saves all needed metadata in `SavedModel`, so generated contracts will be very accurate.  |
 | Spark | `partly` | 50% | Spark has metadata, but it's insufficient and contract inference may be inaccurate. To give an example: 1) there isn't enough notation on how shape of the model is formed (i.e. [30, 40] might be a matrix 30x40 or 40x30); 2) types are not always coincide with what ML Lambda knows, etc. |
-| MXNet | `mannual` | 0% | MXNet has it's own export mechanism, but it does not contain any metadata related to types and shapes. |
-| SkLearn | `mannual` | 0% | Exported models does not provide required metadata. |
-| Theano | `mannual` | 0% | Exported models does not provide required metadata. |
+| MXNet | `manual` | 0% | MXNet has it's own export mechanism, but it does not contain any metadata related to types and shapes. |
+| SkLearn | `manual` | 0% | Exported models does not provide required metadata. |
+| Theano | `manual` | 0% | Exported models does not provide required metadata. |
 | ONNX | `on hold` | 80% | Currently ML Lambda is able to read ONNX's proto files, but due to the lack of support from other frameworks (PyTorch, TensorFlow, etc.) ONNX models cannot be run in the implemented runtimes. | 
 
 <p style="font-size:0.8em; margin-top: 10px; margin-left: 8px;">
@@ -28,83 +28,47 @@ To let ML Lambda understand your models you should use __contracts__. Contract i
 
 ## Writing Contracts
 
-If you need to describe the model by yourself, you have to provide 2 files:
+If you need to describe the model by yourself, you have to provide metadata file:
 
-### service.yaml
-
-– provides the definition of the model.
+### serving.yaml
 
 ```yaml
-model:
-  name: "linear_regression"
-  type: "keras:2.2.0"
-  contract: "contract.prototxt"
-  payload:
-	- "src/" 
-	- "model.h5"
+kind: Model
+name: "linear_regression"
+type: "keras:2.2.0"
+payload:
+  - "src/" 
+  - "model.h5"
+contract:
+  serving:
+    inputs:
+      profile:
+        shape: [3]
+        type: float64
+      profile_context:
+        shape: [4, 12]
+        type: float64
+    outputs:
+      user_class:
+        fields:
+          user_name:
+            shape: scalar
+            type: string   
+      obvserver_class:
+        type: float64
+      misc:
+        shape: [-1]
+        type: float64
 ```
 
 | Field | Definition |
 | ----- | ---------- |
 | `name` | Specifies the name of the model. |
 | `type` | Specifies the type and the version of the model, e.g. `python:3.6.5`, `tensorflow:1.8.0`, `scikit-learn:0.19.1`, etc. |
-| `contract` | Filename of the contract of the model. ML Lambda will look up this file to infer the contract. |
+| `contract` | Contract definition It closely resembles our defined [ModelSignature][github-model-signature] |
 | `payload` | List of all files, used by model. If model is organized with directires/subdirectories, it's enough to only specify root directory. ML Lambda will recoursively add every file/subdirectory inside it. |
 
-<br>
-
-### contract.prototxt
-
-– provides information about your signatures. It closely resembles our defined [ModelSignature][github-model-signature].
-
-```
-signatures {
-    signature_name: "serving"
-	inputs {
-	    name: "profile"
-		shape: {
-		    dim: {
-			    size: 3
-			}
-		}
-		dtype: DT_DOUBLE
-	}
-    inputs {
-	    name: "profile_context"
-		shape: {
-		    dim: {
-			    size: 4
-			}
-			dim: {
-			    size: 12
-			}
-		}
-		dtype: DT_DOUBLE
-	}
-    outputs {
-	    name: "user_class"
-		subfields {
-		    data {
-			    name: "user_name"
-				dtype: DT_STRING
-			}
-		}
-	}
-    outputs {
-	    name: "obvserver_class"
-		dtype: DT_DOUBLE
-	}
-    outputs {
-	    name: "misc"
-		shape: {
-		    dim: {
-			    size: -1
-			}
-		}
-		dtype: DT_DOUBLE
-	}
-}
-```
+### Contract fields:
 
 | Field | Links | Explanation |
 | ----- | --------- | ---------- |

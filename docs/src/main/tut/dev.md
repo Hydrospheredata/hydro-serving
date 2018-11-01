@@ -39,6 +39,12 @@ To upload serving examples to ML Lambda, you'll need `hs` cli-tool.
 $ pip install hs
 ```
 
+Add new local cluster.
+
+```sh
+$ hs cluster add --name local --server http://localhost/
+```
+
 Now, go to the `claims` model example and upload it.
 
 ```sh 
@@ -46,4 +52,4 @@ $ cd ../hydro-serving-example/model/claims
 $ hs upload
 ```
 
-You can see the uploaded model from [http://localhost/][http://localhost/]. 
+You can see the uploaded model from [http://localhost/](http://localhost/). 
