@@ -24,6 +24,9 @@ options:
     nested_options:
       - title: Principles
         url: "models.html#principles"
+      
+      - title: Contracts
+        url: "models.html#contracts"
 
       - title: TensorFlow
         url: "models.html#tensorflow"

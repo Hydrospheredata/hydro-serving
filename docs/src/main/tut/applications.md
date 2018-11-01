@@ -4,7 +4,7 @@ title:  "Applications"
 permalink: 'applications.html'
 ---
 
-# Machine Learning Applications 
+# Applications 
 
 __Application__ is a publicly available endpoint to reach your models. It allows you to use your most recent deployed production models via HTTP-requests, gRPC API calls or configure it as a part of Kafka streams. 
 
