@@ -9,7 +9,7 @@ import com.sksamuel.elastic4s.http.HttpClient
 import com.spotify.docker.client._
 import io.grpc._
 import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, Headers}
-import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, DockerRepositoryConfiguration, ManagerConfiguration}
+import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, DockerClientConfig, DockerRepositoryConfiguration, ManagerConfiguration}
 import io.hydrosphere.serving.manager.connector.HttpEnvoyAdminConnector
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedInfoUtilityServiceImpl}
 import io.hydrosphere.serving.manager.service.application.{ApplicationManagementService, ApplicationManagementServiceImpl}
@@ -33,7 +33,8 @@ import scala.concurrent.{ExecutionContext, Future}
 class ManagerServices(
   val managerRepositories: ManagerRepositories,
   val managerConfiguration: ManagerConfiguration,
-  val dockerClient: DockerClient
+  val dockerClient: DockerClient,
+  val dockerClientConfig: DockerClientConfig
 )(
   implicit val ex: ExecutionContext,
   implicit val system: ActorSystem,
@@ -50,7 +51,7 @@ class ManagerServices(
 
   val sourceManagementService = new ModelStorageServiceImpl(managerConfiguration)
 
-  val modelBuildService: ModelBuildService = new LocalModelBuildService(dockerClient, sourceManagementService)
+  val modelBuildService: ModelBuildService = new LocalModelBuildService(dockerClient, dockerClientConfig, sourceManagementService)
 
   val modelPushService: ModelPushService = managerConfiguration.dockerRepository match {
     case c: DockerRepositoryConfiguration.Remote => new RemoteModelPushService(dockerClient, c) 

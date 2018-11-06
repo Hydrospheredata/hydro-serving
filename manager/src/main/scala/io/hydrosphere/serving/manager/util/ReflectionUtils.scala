@@ -20,10 +20,14 @@ object ReflectionUtils  {
         '"' + Seq("\n" -> "\\n", "\r" -> "\\r", "\t" -> "\\t", "\"" -> "\\\"", "\\" -> "\\\\").foldLeft(s) {
           case (acc, (c, r)) => acc.replace(c, r)
         } + '"'
-      case xs: Seq[_] =>
-        xs.map(prettyPrint).toString
       case xs: Array[_] =>
         s"Array(${xs.map(prettyPrint) mkString ", "})"
+      case m: Map[_, _] =>
+        m.map {
+          case (k, v) => prettyPrint(k) -> prettyPrint(v)
+        }.toString()
+      case xs: Iterable[_] =>
+        xs.map(prettyPrint).toString
       // This covers case classes.
       case p: Product =>
         s"${p.productPrefix}(${
