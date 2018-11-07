@@ -1,0 +1,10 @@
+{
+  "proxies": {
+    "default": {
+      "httpProxy": "http://localhost",
+      "httpsProxy": "https://localhost",
+      "noProxy": "noProxy",
+      "ftpProxy": "ftpProxy"
+    }
+  }
+}

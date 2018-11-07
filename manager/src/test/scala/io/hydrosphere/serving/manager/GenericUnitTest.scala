@@ -1,5 +1,7 @@
 package io.hydrosphere.serving.manager
 
+import java.nio.file.{Path, Paths}
+
 import cats.data.EitherT
 import io.hydrosphere.serving.model.api.HFResult
 import io.hydrosphere.serving.model.api.Result.HError
@@ -23,5 +25,9 @@ trait GenericUnitTest extends AsyncFunSpecLike with Matchers with MockitoSugar {
 
   protected def eitherTAssert(body: => EitherT[Future, HError, Assertion]): Future[Assertion] = {
     eitherAssert(body.value)
+  }
+
+  protected def getTestResourcePath(path: String): Path = {
+    Paths.get(this.getClass.getClassLoader.getResource(path).getPath)
   }
 }
