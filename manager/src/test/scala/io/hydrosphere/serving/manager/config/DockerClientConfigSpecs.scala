@@ -11,8 +11,8 @@ class DockerClientConfigSpecs extends GenericUnitTest {
       assert(configRes.isSuccess, configRes)
       val config = configRes.get
       val default = config.proxies("default")
-      assert(default.httpProxy.get === "httpProxy")
-      assert(default.httpsProxy.get === "httpsProxy")
+      assert(default.httpProxy.get === "http://localhost")
+      assert(default.httpsProxy.get === "https://localhost")
       assert(default.noProxy.get === "noProxy")
       assert(default.ftpProxy.get === "ftpProxy")
     }
