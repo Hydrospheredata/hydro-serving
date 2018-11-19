@@ -7,8 +7,12 @@ permalink: 'getting-started.html'
 # Getting Started
 This document presents a quick way to set everything up and deploy your first model.
 
+## Prerequisites
+To get started, you need [Docker][docker-install] and [Docker Compose][docker-compose-install] on your machine.
+Make sure that everything is configured correctly and works on your machine. Note for Windows users - you need to [fix][docker-compose-win-fix] volume paths.
+
 ## Installation
-To get started, make sure you have installed [Docker][docker-install] on your machine. Clone ML Lambda to the desired directory.
+ Clone ML Lambda to the desired directory.
 
 ```sh
 $ cd ~/
@@ -319,6 +323,8 @@ result = stub.Predict(request)
 _Note: For convinience we've already generated all our proto files to a python library and published it in PyPI. You can install it via `pip install hydro-serving-grpc`_
 
 [docker-install]: https://docs.docker.com/install/
+[docker-compose-install]: https://docs.docker.com/compose/install/
+[docker-compose-win-fix]: https://docs.docker.com/compose/reference/envvars/#compose_convert_windows_paths
 [docker-hub]: https://hub.docker.com/u/hydrosphere/
 [docker-hub-python]: https://hub.docker.com/u/hydrosphere/serving-runtime-python/
 [docker-hub-spark]: https://hub.docker.com/r/hydrosphere/serving-runtime-spark/
