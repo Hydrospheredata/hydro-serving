@@ -90,3 +90,4 @@ project/plugins/project/
 /docs/.sass-cache
 /docs/.jekyll-metadata
 /docs-sphinx/*
+.DS_Store

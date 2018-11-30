@@ -5,122 +5,40 @@ permalink: 'getting-started.html'
 ---
 
 # Getting Started
-This document presents a quick way to set everything up and deploy your first model.
 
-## Installation
-To get started, make sure you have installed [Docker][docker-install] on your machine. Clone ML Lambda to the desired directory.
+In this page you'll learn how to deploy your first model on ML Lambda. We will start from scratch and create a simple linear regression model that will learn to fit our randomly generated data with some noize added to it. After the training step we will pack it, deploy to the ML Lambda and call it locally with the different program. 
 
-```sh
-$ cd ~/
-$ git clone https://github.com/Hydrospheredata/hydro-serving
-```
-Now set up a docker environment. You have 2 options:
+## Prerequisites
 
-1. The __lightweight__ version lets you manage your models in a continuous manner, version them, create applications that use your models and deploy all of this into production. To do that, just execute the following: 
+We are assuming, that you've already [installed]({{site.baseurl}}{%link installation.md%}) ML Lambda instance on your working machine and a [cli-tool]({{site.baseurl}}{%link installation.md%}#cli) on your local machine from where you'll upload models. Those should not necessarily be separate machines, but in practice they probably would. 
 
-    ```sh
-    $ cd ~/hydro-serving/
-    $ docker-compose up
-    ```
+### Setup a cluster
 
-2. The __integrations__ version extends the lightweight version and lets you also integrate kafka, graphana and influxdb .
+Once you've installed the cli-tool, you'll need to define a cluster, where you're gonna be working on. 
 
-    ```sh
-    $ cd ~/hydro-serving/integrations/
-    $ docker-compose up
-    ```
-
-_Note: If you've already installed one of the versions and want to install the other one, you'll need to remove coinciding containers defined in `docker-compose.yaml` (those are placed in both __lightweight__ and __integrations__ versions)._ 
-
-Open web interface [http://localhost/][ml-lambda].  You are ready to go. 
-
-### CLI
-
-ML Lambda has CLI tool that is used to upload your models to the server. It supports Python 3.4 and above. To install, run:
-
-```sh
-$ pip install hs
-```
-
-To work with ML Lambda you'd need to set up a cluster, that will be used to upload your models to. 
-
-```sh
+```sh 
 $ hs cluster add --name local --server http://localhost
 ```
 
-To learn more about clusters check the [CLI]({{site.baseurl}}{%link cli.md%}) page. 
+As the `--server` parameter provide the address of your ML Lambda instance. In our case it will be a localhost. If that's your first cluster, `hs` will use it by default, otherwise switch to it manually.
 
-## Uploading models
-
-To get the notion of ML Lambda we recommend you to go through 2 bellow tutorials of uploading [demo model]({{site.baseurl}}{%link getting-started.md%}#demo) and [own model]({{site.baseurl}}{%link getting-started.md%}#owm-model). This will show you different aspects of working with model configuration, building multi-staged, single-staged applications, etc. 
-
-<hr>
-
-### Demo model
-
-We've already created a few [examples][hydro-serving-examples] that you can run to see, how everything works. Let's clone them and pick a model. 
-
-```sh
-$ cd ~/
-$ git clone https://github.com/Hydrospheredata/hydro-serving-example
-$ cd ~/hydro-serving-example/models/$MODEL_OF_YOUR_CHOICE
+```sh 
+$ hs cluster use local
 ```
 
-#### Fetching & uploading Stateful LSTM
+## Training a model 
 
-For the purpose of this tutorial we chose [Stateful LSTM][stateful-lstm]. All you have to do is just to upload the model to the server. 
-
-```sh
-$ cd ~/hydro-serving-example/models/stateful_lstm
-$ hs upload 
-```
-
-Stateful LSTM is actually a __Multi-Staged__ application. It includes additional parts: [pre][stateful-lstm-pre] and [post][stateful-lstm-post] processing stages. So we upload them as well.
-
-```sh
-$ cd ~/hydro-serving-example/models/stateful_lstm_preprocessing
-$ hs upload
-...
-$ cd ~/hydro-serving-example/models/stateful_lstm_postprocessing
-$ hs upload 
-```
-
-Your models now have been uploaded to ML Lambda. You can find them here - [http://localhost/models][models] 
-
-#### Creating an application
-
-Let's create an application that can use our models. Open _Applications_ page and press _Add New_ and reproduce the following structure in the _Models_ section. 
-
-| Stage | Model | Runtime |
-| ----- | ----- | ------- |
-| Stage_1 | demo_preprocessing | hydrosphere/serving-runtime-python:3.6:latest |
-| Stage_2 | stateful_lstm | hydrosphere/serving-runtime-tensorflow:1.7.0:latest |
-| Stage_3 | demo_postprocessing | hydrosphere/serving-runtime-python:3.6:latest |
-
-<br>
-_Note: There's an option to add multiple models to one stage which might be confusing, because you may include all pipeline steps(pre, lstm, post) into a signle stage. Make sure, you've added new steps via `Add New Stage` button._
-
-When creating an application, ML Lambda will automatically infer contract for it as well as for models. If it's a __single-staged__ application, it will look up model's signatures and take one from there, if it's a __multi-staged__ application, it will create a signature with `signature_name` equal to the application's name.
-
-Invoking applications described in a section [below]({{site.baseurl}}{%link getting-started.md%}#invoking-applications).
-
-<hr>
-
-### Own model
-
-In this section we will start from scratch, create a simple linear regression model, configure it, upload to the server and create an application for it. 
-
-#### Creating the model 
+Now we can start working with our linear regression model. It's a fairly simple model that will learn to fit a randomly generated regression data with some noize added to it. For data generation we will use `sklearn.datasets.make_regression` ([Link](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_regression.html)). We will also scale it to the range [0, 1]. For building the model we will use [Keras](https://keras.io/) library with [Tensorflow](https://www.tensorflow.org/) backend. 
 
 Create a directory for the model and add `model.py` inside it.
 
 ```sh
-$ mkdir ~/linear_regression
-$ cd ~/linear_regression
+$ mkdir linear_regression
+$ cd linear_regression
 $ touch model.py
 ```
 
-Inside `model.py` we will define our model, train it and save. 
+The model will consist of 3 fully-connected layers with first two of them having ReLU activation funciton and 4 units, and the last one will be a summing unit with the linear activation. Put the following code in your `model.py` file. 
 
 ```python
 from keras.models import Sequential
@@ -146,35 +64,45 @@ model.add(Dense(4, activation='relu'))
 model.add(Dense(1, activation='linear'))
 
 model.compile(loss='mse', optimizer='adam')
-model.fit(X, y, epochs=1000, verbose=0)
+model.fit(X, y, epochs=100)
 
 # save model
 model.save('model.h5')
 ```
 
-There's actually 2 ways to run keras models inside ML Lambda: 
-1. If Keras is used with TensorFlow backend, then it's possible to export `tf.session` and use it inside `hydrosphere/serving-runtime-tensorflow` runtime. 
-2. Otherwise it's possible to use `hydrosphere/serving-runtime-python` runtime and define all actions in a python script. 
-
-_Note: For this tutorial we will do the second approach. If you want to get familiar with the first one, you can visit [Models]({{site.baseurl}}{%link models.md%}#uploading-keras) page._
-
-#### Creating a handler 
-
-For running this model we will use the Python Runtime. Internal structure of a model for this runtime should have `src` directory and contain `func_main.py` file inside it. 
+After that run this file for a minute and it will create for you a new file with the model's weights called `model.h5`.  
 
 ```sh
-$ mkdir src 
+$ python model.py
+```
+
+## Preparing a model
+
+ML Lambda serves all models as Docker containers. Everytime it handles a request, it passes it to the appropriate Docker container with your model deployed on it. An important detail is that all model's files are stored in the `/model/files` directory inside the container. So, we will look up there in order to load the model. 
+
+For running this model we will use a Python runtime that will basically just run any Python code which you pass to it. Preparing the model is pretty straightforward, though you have to follow some rules: 
+
+1. Stick to the specific folder structure in order to let `hs` to parse and upload it correctly;
+1. Provide necessary dependencies with `requirements.txt`;
+1. Provide contract file to let ML Lambda understand model's inputs and outputs. 
+
+We will start with the main functional file. 
+
+```sh 
+$ mkdir src
 $ cd src
 $ touch func_main.py
 ```
 
-By default ML Lambda will put all of the files of our model inside `/model/files/` directory. So, we load our model from there. 
+The idea is pretty simple - you just have to define a function, that will be invoked everytime your ML Lambda passes a request to the model's container. Inside that function you have to call a `predict` (or something similar) method of your model and return your predictions. 
+
 
 ```python
-import hydro_serving_grpc as hs
 import numpy as np
+import hydro_serving_grpc as hs
 from keras.models import load_model
 
+# 0. Load model
 model = load_model('/model/files/model.h5')
 
 def infer(x):
@@ -184,28 +112,26 @@ def infer(x):
 
     # 2. Make prediction
     result = model.predict(data)
-    y = hs.TensorProto(
+    
+    # 3. Pack answer
+    y_shape = hs.TensorShapeProto(dim=[hs.TensorShapeProto.Dim(size=-1)])
+    y_tensor = hs.TensorProto(
         dtype=hs.DT_DOUBLE,
         double_val=result.flatten(),
-        tensor_shape=hs.TensorShapeProto(dim=[hs.TensorShapeProto.Dim(size=-1)]))
+        tensor_shape=y_shape)
 
-    # 3. Return the result
-    return hs.PredictResponse(outputs={"y": y})
+    # 4. Return the result
+    return hs.PredictResponse(outputs={"y": y_tensor})
 ```
 
-_Note: ML Lambda interacts with a runtime container via gRPC interface._ 
+Since we need to initialize our model we will have to do that outside of our signature funcion, if we don't want to initialize the model everytime the request comes in. We do that on step (0). The signature function `infer` takes the actual request, unpacks it (1), makes a prediction (2), packs the answer back (3) and returns it (4). There's no a strict rule on how to name your signature function, it just have to be a valid python function name (since we use a Python runtime). 
 
-#### Describing the model 
+If you're wondering how ML Lambda will understand, which function to call from our porvided file, then the answer is pretty easy — we have to provide a __contract__. A contract is a file, that defines the inputs and outputs of the model, signature functions and some other metadata required for serving. Go to the root directory of the model and create a `serving.yaml` file. 
 
-Since our model will be running inside a raw Python container, the container won't have any required dependencies pre-installed. Let's create a `requirements.txt` for that.
-
+```sh
+$ cd ..
+$ touch serving.yaml
 ```
-keras==2.2.0
-tensorflow==1.8.0
-numpy==1.13.3
-```
-
-Right now ML Lambda does not understand what our model expects. Let's define `serving.yaml` contract. 
 
 ```yaml
 kind: Model
@@ -217,20 +143,26 @@ payload:
   - "model.h5"
 
 contract:
-  infer:
+  infer:                    # Signature function
     inputs:
-      x:
+      x:                    # Input field
         shape: [-1, 2]
         type: double
         profile: numerical
     outputs:
-      y:
+      y:                    # Output field
         shape: [-1]
         type: double
         profile: numerical
 ```
 
-Here we've decsribed the type of the model, it's files, some additional artefacts and defined the inputs and outputs of the model. For more information check [Models]({{site.baseurl}}{%link models.md%}#servingyaml) page. 
+Here you can also see, that we've provided a `requirements.txt` and a `model.h5` as payload files to our model. But we haven't created `requirements.txt` yet, let's do that too. 
+
+```
+Keras==2.2.0
+tensorflow==1.8.0
+numpy==1.13.3
+```
 
 Overall structure of our model now should look like this:
 
@@ -244,56 +176,46 @@ linear_regression
     └── func_main.py
 ```
 
-_Note: although, we have `model.py` inside directory, it won't be uploaded to ML Lambda since we didn't specify it in payload._
+_Note: Although, we have `model.py` inside directory, it won't be uploaded to ML Lambda since we didn't specify it in the contract's payload._
 
-#### Uploading the model
+## Serving a model
 
-Now we're ready to upload our model.
+Now we can upload the model. 
 
 ```sh
 $ hs upload
 ```
 
-You can open [http://localhost/models][models] page to see uploaded model. 
+You can open [http://localhost/models](http://localhost/models) page to see the uploaded model. 
 
-#### Creating an applicaion
+Once you've done that, you can create an __application__ for it. Basically, an application represents a final endpoint to your model, so you can invoke it from the outside. To learn more about advanced features, go to the [Applications]({{site.baseurl}}{%link applications.md%}) page. 
 
-Open `Applications` page and press `Add New` button. Select your model and as a runtime select `hydrosphere/serving-runtime-python` then create an application. Now you can [invoke]({{site.baseurl}}{%link getting-started.md%}#invoking-applications) your app. 
+![]({{site.baseurl}}{%link /img/linear_regression_application.png%})
 
-_Note: If you cannot find your newly uploaded model and it's listed in your models page, that means, it's still in a building stage. Wait until the model changes its status to `Released`, then you can use it._
+Open [http://localhost/applications](http://localhost/applications), press `Add New` button. In the openned window select `linear_regression` model and as a runtime select `hydrosphere/serving-runtime-python`, then create an application. 
 
-<hr>
+If you cannot find your newly uploaded model and it's listed in your models page, that means it's still in a building stage. Wait until the model changes its status to `Released`, then you can use it.
 
-## Invoking applications
+## Invoking an application
 
 Invoking applications is available via different interfaces. 
 
 ### Test request
 
-You can perform test request to the model from interface. Open desired application and press `Test` button. Internally it will generate arbitrary input data from model's contract and send an HTTP-request to API endpoint. 
+You can perform test request to the model from UI interface. Open desired application and press `Test` button. Internally it will generate arbitrary input data from model's contract and send an HTTP-request to the application's endpoint. 
 
-### HTTP-request
+### HTTP request
 
-Send `POST` request to ML Lambda. 
+Send `POST` request. 
 
-1. [demo_lstm]({{site.baseurl}}{%link getting-started.md%}#uploading-demo)
-
-    ```sh
-    $ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
-    "data": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1] 
-    }' 'http://localhost/gateway/applications/demo_lstm/demo_lstm'
-    ```
-
-2. [linear_regression]({{site.baseurl}}{%link getting-started.md%}#own-model)
-
-    ```sh
-    $ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
-    "x": [[1, 1],[1, 1]]}' 'http://localhost/gateway/applications/linear_regression/infer'
-    ```
+```sh
+$ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
+"x": [[1, 1],[1, 1]]}' 'http://localhost/gateway/applications/linear_regression/infer'
+```
 
 ### gRPC API call
 
-You can define a gRPC client on your side and make a call from it. Here we provide a Python example, but this can be done in any language. 
+You can define a gRPC client on your side and make a call from it. Here we provide a Python example, but this can be done in any supported language. 
 
 ```python
 import grpc 
@@ -316,22 +238,10 @@ request = hs.PredictRequest(model_spec=model_spec, inputs={"x": tensor})
 result = stub.Predict(request)
 ```
 
-_Note: For convinience we've already generated all our proto files to a python library and published it in PyPI. You can install it via `pip install hydro-serving-grpc`_
+_Note: For convinience we've already generated all our proto files to a python library and published it in PyPI. You can install it via `pip install hydro-serving-grpc`_ 
 
-[docker-install]: https://docs.docker.com/install/
-[docker-hub]: https://hub.docker.com/u/hydrosphere/
-[docker-hub-python]: https://hub.docker.com/u/hydrosphere/serving-runtime-python/
-[docker-hub-spark]: https://hub.docker.com/r/hydrosphere/serving-runtime-spark/
-[docker-hub-tensorflow]: https://hub.docker.com/u/hydrosphere/serving-runtime-tensorflow/
+# What's next?
 
-[hydro-sonar]: https://hydrosphere.io/sonar/
-[hydro-serving-cli]: https://github.com/Hydrospheredata/hydro-serving-cli
-[hydro-serving-examples]: https://github.com/Hydrospheredata/hydro-serving-example
-[hydro-serving-protos]: https://github.com/Hydrospheredata/hydro-serving-protos
-[appache-kafka]: https://kafka.apache.org
-[stateful-lstm]: https://github.com/Hydrospheredata/hydro-serving-example/tree/master/models/stateful_lstm
-[stateful-lstm-pre]: https://github.com/Hydrospheredata/hydro-serving-example/tree/master/models/stateful_lstm_preprocessing
-[stateful-lstm-post]: https://github.com/Hydrospheredata/hydro-serving-example/tree/master/models/stateful_lstm_postprocessing
-[ml-lambda]: http://localhost/
-[models]: http://127.0.0.1/models
-[applications]: http://127.0.0.1/applications
+- Learn, how to work with CLI;
+- Learn, how to write Contracts;
+- Learn, how to deploy Tensorflow models;
