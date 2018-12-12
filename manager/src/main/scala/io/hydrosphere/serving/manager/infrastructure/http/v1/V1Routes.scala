@@ -1,29 +1,24 @@
-package io.hydrosphere.serving.manager
+package io.hydrosphere.serving.manager.infrastructure.http.v1
 
 import akka.actor.ActorSystem
-import akka.http.scaladsl.Http
-import akka.http.scaladsl.model.HttpMethods._
 import akka.http.scaladsl.model.{HttpResponse, StatusCodes}
-import akka.http.scaladsl.server.{ExceptionHandler, Route}
-import ch.megard.akka.http.cors.scaladsl.CorsDirectives
-import io.hydrosphere.serving.manager.controller._
 import akka.http.scaladsl.server.Directives.{path, _}
+import akka.http.scaladsl.server.{ExceptionHandler, Route}
 import akka.stream.ActorMaterializer
-import ch.megard.akka.http.cors.scaladsl.settings.CorsSettings
+import io.hydrosphere.serving.manager.ManagerServices
 import io.hydrosphere.serving.manager.config.ManagerConfiguration
-import io.hydrosphere.serving.manager.controller.application.ApplicationController
-import io.hydrosphere.serving.manager.controller.environment.EnvironmentController
-import io.hydrosphere.serving.manager.controller.model.ModelController
-import io.hydrosphere.serving.manager.controller.prometheus.PrometheusMetricsController
-import io.hydrosphere.serving.manager.controller.runtime.RuntimeController
+import io.hydrosphere.serving.manager.infrastructure.http.SwaggerDocController
+import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.ServiceController
+import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.application.ApplicationController
+import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.environment.EnvironmentController
+import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.model.ModelController
+import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.prometheus.PrometheusMetricsController
+import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.runtime.RuntimeController
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
 
-import scala.collection.immutable.Seq
-import scala.concurrent.ExecutionContext
-
-class ManagerHttpApi(
+class V1Routes(
   managerServices: ManagerServices,
   managerConfiguration: ManagerConfiguration
 )(
@@ -59,7 +54,8 @@ class ManagerHttpApi(
       classOf[ServiceController],
       classOf[ApplicationController],
       classOf[PrometheusMetricsController]
-    )
+    ),
+    "1"
   )
 
   val commonExceptionHandler = ExceptionHandler {
@@ -77,9 +73,7 @@ class ManagerHttpApi(
       )
   }
 
-  val routes: Route = CorsDirectives.cors(
-    CorsSettings.defaultSettings.copy(allowedMethods = Seq(GET, POST, HEAD, OPTIONS, PUT, DELETE))
-  ) {
+  val routes: Route = pathPrefix("v1") {
     handleExceptions(commonExceptionHandler) {
       swaggerController.routes ~
         modelController.routes ~
@@ -88,18 +82,11 @@ class ManagerHttpApi(
         runtimeController.routes ~
         prometheusMetricsController.routes ~
         environmentController.routes ~
-        pathPrefix("swagger") {
-          path(Segments) { segs =>
-            val path = segs.mkString("/")
-            getFromResource(s"swagger/$path")
-          }
-        } ~ path("health") {
+        path("health") {
         complete {
           "OK"
         }
       }
     }
   }
-
-  val serverBinding = Http().bindAndHandle(routes, "0.0.0.0", managerConfiguration.application.port)
 }

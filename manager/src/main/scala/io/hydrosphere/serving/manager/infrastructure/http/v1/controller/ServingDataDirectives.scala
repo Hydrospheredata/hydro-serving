@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.controller
+package io.hydrosphere.serving.manager.infrastructure.http.v1.controller
 
 import akka.http.scaladsl.model.{ContentTypes, HttpEntity, HttpResponse, StatusCodes}
 import akka.http.scaladsl.server.Directives._

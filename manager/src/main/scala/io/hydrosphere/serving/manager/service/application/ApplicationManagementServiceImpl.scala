@@ -5,7 +5,7 @@ import cats.implicits._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.config.ApplicationConfig
-import io.hydrosphere.serving.manager.controller.application._
+import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.application._
 import io.hydrosphere.serving.model.api._
 import io.hydrosphere.serving.model.api.Result.Implicits._
 import io.hydrosphere.serving.model.api.json.TensorJsonLens

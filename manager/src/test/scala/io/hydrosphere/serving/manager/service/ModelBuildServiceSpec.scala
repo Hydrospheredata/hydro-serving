@@ -7,7 +7,7 @@ import cats.data.EitherT
 import cats.instances.future._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.GenericUnitTest
-import io.hydrosphere.serving.manager.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.model.ModelUpload
 import io.hydrosphere.serving.model.api.{ModelType, Result}
 import io.hydrosphere.serving.model.api.ops.ModelContractOps._
 import io.hydrosphere.serving.manager.model.db.{BuildRequest, Model, ModelBuild, ModelVersion}

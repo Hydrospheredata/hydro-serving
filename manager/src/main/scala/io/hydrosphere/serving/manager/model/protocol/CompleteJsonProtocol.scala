@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.model.protocol
 
-import io.hydrosphere.serving.manager.controller.environment.CreateEnvironmentRequest
+import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.environment.CreateEnvironmentRequest
 import io.hydrosphere.serving.manager.model.db.{CreateRuntimeRequest, PullRuntime}
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedModelBuild, AggregatedModelInfo, AggregatedModelVersion}

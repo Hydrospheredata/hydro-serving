@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.controller
+package io.hydrosphere.serving.manager.infrastructure
 
 object TracingHeaders {
   val xOtSpanContext = "x-ot-span-context"

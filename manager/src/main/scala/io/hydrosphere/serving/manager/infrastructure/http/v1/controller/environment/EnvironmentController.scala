@@ -1,11 +1,10 @@
-package io.hydrosphere.serving.manager.controller.environment
+package io.hydrosphere.serving.manager.infrastructure.http.v1.controller.environment
 
 import javax.ws.rs.Path
-
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.controller.GenericController
+import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.GenericController
 import io.hydrosphere.serving.manager.model.db.Environment
 import io.hydrosphere.serving.manager.service._
 import io.hydrosphere.serving.manager.service.environment.EnvironmentManagementService
@@ -27,7 +26,7 @@ class EnvironmentController(
     new ApiResponse(code = 200, message = "Serving Environments", response = classOf[Environment], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def listEnvironment = path("api" / "v1" / "environment") {
+  def listEnvironment = pathPrefix("environment") {
     get {
       complete(environmentManagementService.all())
     }
@@ -43,7 +42,7 @@ class EnvironmentController(
     new ApiResponse(code = 200, message = "Environment", response = classOf[Environment]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def createEnvironment = path("api" / "v1" / "environment") {
+  def createEnvironment = pathPrefix("environment") {
     entity(as[CreateEnvironmentRequest]) { r =>
       complete(
         environmentManagementService.create(r.name, r.placeholders)
@@ -61,7 +60,7 @@ class EnvironmentController(
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def deleteEnvironment = delete {
-    path("api" / "v1" / "environment" / LongNumber) { environmentId =>
+    pathPrefix("environment" / LongNumber) { environmentId =>
       onSuccess(environmentManagementService.delete(environmentId)) {
         complete(200, environmentId)
       }

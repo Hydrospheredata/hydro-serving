@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.controller.application
+package io.hydrosphere.serving.manager.infrastructure.http.v1.controller.application
 
 case class ExecutionGraphRequest(
   stages: Seq[ExecutionStepRequest]

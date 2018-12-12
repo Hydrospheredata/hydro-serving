@@ -5,7 +5,7 @@ import java.nio.file.{Files, Path, Paths, StandardCopyOption}
 import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.manager.config.ManagerConfiguration
-import io.hydrosphere.serving.manager.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.manager.service.source.fetchers.ModelFetcher
 import io.hydrosphere.serving.manager.service.source.storages.ModelStorage

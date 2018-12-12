@@ -1,7 +1,6 @@
-package io.hydrosphere.serving.manager.controller
+package io.hydrosphere.serving.manager.infrastructure.http.v1.controller
 
 import javax.ws.rs.Path
-
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
@@ -29,7 +28,7 @@ class ServiceController(
     new ApiResponse(code = 200, message = "Service", response = classOf[Service], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def listAll = path("api" / "v1" / "service") {
+  def listAll = pathPrefix("service") {
     get {
       complete(serviceManagementService.allServices())
     }
@@ -45,7 +44,7 @@ class ServiceController(
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def fetchByModelId = get {
-    path("api" / "v1" / "service" / "fetchByModelId"/ Segment) { modelId =>
+    pathPrefix("service" / "fetchByModelId"/ Segment) { modelId =>
       complete(serviceManagementService.getServicesByModel(modelId.toLong))
     }
   }
@@ -77,7 +76,7 @@ class ServiceController(
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def getService = get {
-    path("api" / "v1" / "service" / Segment) { serviceId =>
+    pathPrefix("service" / Segment) { serviceId =>
       complete(serviceManagementService.getService(serviceId.toLong))
     }
   }
@@ -92,7 +91,7 @@ class ServiceController(
     new ApiResponse(code = 200, message = "Service", response = classOf[Service], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def fetchByIds = path("api" / "v1" / "service" / "fetchByIds") {
+  def fetchByIds = pathPrefix("service" / "fetchByIds") {
     post {
       entity(as[Seq[Long]]) { r =>
         complete(

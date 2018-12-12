@@ -1,18 +1,20 @@
-package io.hydrosphere.serving.manager.controller
+package io.hydrosphere.serving.manager.infrastructure.http
 
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
-import com.github.swagger.akka._
+import com.github.swagger.akka.SwaggerHttpService
 import com.github.swagger.akka.model.Info
 import io.swagger.models.ExternalDocs
 
 class SwaggerDocController(
-  val apiClasses: Set[Class[_]]
+  val apiClasses: Set[Class[_]],
+  val version: String
 )(
   implicit val actorSystem: ActorSystem,
   implicit val materializer: ActorMaterializer
 ) extends SwaggerHttpService {
 
-  override val info = Info(version = "1.0")
+  override val apiDocsPath = "docs"
+  override val info = Info(version = version)
   override val externalDocs = Some(new ExternalDocs("ML Lambda", "https://github.com/Hydrospheredata/hydro-serving"))
 }

@@ -1,13 +1,13 @@
-package io.hydrosphere.serving.manager.controller.application
+package io.hydrosphere.serving.manager.infrastructure.http.v1.controller.application
 
 import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.controller.{GenericController, ServingDataDirectives, TracingHeaders}
+import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.{GenericController, ServingDataDirectives}
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol._
 import io.hydrosphere.serving.manager.model.db.Application
 import io.hydrosphere.serving.manager.service._
-import io.hydrosphere.serving.manager.service.application.{ApplicationManagementService}
+import io.hydrosphere.serving.manager.service.application.ApplicationManagementService
 import io.swagger.annotations._
 import spray.json.JsObject
 
@@ -27,7 +27,7 @@ class ApplicationController(
     new ApiResponse(code = 200, message = "Application", response = classOf[Application], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def listAll = path("api" / "v1" / "applications") {
+  def listAll = pathPrefix("applications") {
     get {
       complete(applicationManagementService.allApplications())
     }
@@ -44,7 +44,7 @@ class ApplicationController(
     new ApiResponse(code = 200, message = "Application", response = classOf[Application]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def create = path("api" / "v1" / "applications") {
+  def create = pathPrefix("applications") {
     post {
       entity(as[CreateApplicationRequest]) { r =>
         completeFRes(
@@ -64,7 +64,7 @@ class ApplicationController(
     new ApiResponse(code = 200, message = "Application", response = classOf[Application]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def update = path("api" / "v1" / "applications") {
+  def update = pathPrefix("applications") {
     put {
       entity(as[UpdateApplicationRequest]) { r =>
         completeFRes(
@@ -84,7 +84,7 @@ class ApplicationController(
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def deleteApplication = delete {
-    path("api" / "v1" / "applications" / LongNumber) { serviceId =>
+    pathPrefix("applications" / LongNumber) { serviceId =>
       completeFRes(applicationManagementService.deleteApplication(serviceId))
     }
   }
@@ -99,7 +99,7 @@ class ApplicationController(
     new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def generateInputsForApp = path("api" / "v1" / "applications" / "generateInputs" / LongNumber / Segment) { (appId, signatureName) =>
+  def generateInputsForApp = pathPrefix("applications" / "generateInputs" / LongNumber / Segment) { (appId, signatureName) =>
     get {
       complete(
         applicationManagementService.generateInputsForApplication(appId, signatureName)

@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.service.application
 
-import io.hydrosphere.serving.manager.controller.application._
+import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.application._
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.model.api.HFResult
 import spray.json.JsObject

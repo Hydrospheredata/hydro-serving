@@ -7,7 +7,7 @@ import cats.implicits._
 import io.hydrosphere.serving.model.api._
 import io.hydrosphere.serving.model.api.ops.ModelContractOps._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model.db.Model
 import io.hydrosphere.serving.manager.repository.{ModelRepository, ModelVersionRepository}
 import io.hydrosphere.serving.manager.service.source.ModelStorageService

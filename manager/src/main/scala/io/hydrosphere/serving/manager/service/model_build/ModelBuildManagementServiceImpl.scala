@@ -4,7 +4,7 @@ import java.util.concurrent.Executors
 
 import cats.data.EitherT
 import cats.implicits._
-import io.hydrosphere.serving.manager.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.model.ModelUpload
 import io.hydrosphere.serving.model.api.Result.Implicits._
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.model.api.description.ContractDescription

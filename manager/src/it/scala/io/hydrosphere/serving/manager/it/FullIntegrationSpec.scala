@@ -9,6 +9,7 @@ import cats.data.EitherT
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
 import io.hydrosphere.serving.manager._
 import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration, RuntimePackConfig}
+import io.hydrosphere.serving.manager.infrastructure.http.ManagerHttpApi
 import io.hydrosphere.serving.model.api.HFResult
 import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service.runtime.DefaultRuntimes

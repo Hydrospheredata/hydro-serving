@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.controller.runtime
+package io.hydrosphere.serving.manager.infrastructure.http.v1.controller.runtime
 
 import java.util.UUID
 
@@ -6,7 +6,7 @@ import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.controller.GenericController
+import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.GenericController
 import io.hydrosphere.serving.manager.model.db.{CreateRuntimeRequest, PullRuntime, Runtime}
 import io.hydrosphere.serving.manager.service.runtime.RuntimeManagementService
 import io.hydrosphere.serving.manager.util.UUIDUtils
@@ -27,7 +27,7 @@ class RuntimeController(
     new ApiResponse(code = 200, message = "Runtimes", response = classOf[Runtime], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def listRuntime = path("api" / "v1" / "runtime") {
+  def listRuntime = pathPrefix("runtime") {
     get {
       completeF(runtimeManagementService.all())
     }
@@ -42,7 +42,7 @@ class RuntimeController(
     new ApiResponse(code = 200, message = "TaskStatus", response = classOf[PullRuntime]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def getStatus = path("api" / "v1" / "runtime" / "status" / LongNumber) { id =>
+  def getStatus = pathPrefix("runtime" / "status" / LongNumber) { id =>
     get {
       completeFRes(runtimeManagementService.getPullStatus(id))
     }
@@ -57,7 +57,7 @@ class RuntimeController(
     new ApiResponse(code = 200, message = "Runtime", response = classOf[Runtime]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def createRuntime = path("api" / "v1" / "runtime") {
+  def createRuntime = pathPrefix("runtime") {
     post{
       entity(as[CreateRuntimeRequest]) { r =>
         completeF(
@@ -76,7 +76,7 @@ class RuntimeController(
     new ApiResponse(code = 200, message = "Runtime", response = classOf[Seq[Runtime]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def lookupRuntimeByTag = path("api" / "v1" / "runtime" / "modelType" / Segment) { tag =>
+  def lookupRuntimeByTag = pathPrefix("runtime" / "modelType" / Segment) { tag =>
     get {
       completeF {
         runtimeManagementService.lookupByModelType(Set(tag))

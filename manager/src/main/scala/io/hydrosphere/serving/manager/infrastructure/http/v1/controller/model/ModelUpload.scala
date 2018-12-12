@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.controller.model
+package io.hydrosphere.serving.manager.infrastructure.http.v1.controller.model
 
 import java.nio.file.Path
 

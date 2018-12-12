@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.grpc.envoy
+package io.hydrosphere.serving.manager.infrastructure.envoy
 
 import envoy.api.v2.{DiscoveryRequest, DiscoveryResponse}
 import envoy.service.discovery.v2.AggregatedDiscoveryServiceGrpc

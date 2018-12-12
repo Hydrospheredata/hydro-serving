@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.service.source
 
 import java.nio.file.Path
 
-import io.hydrosphere.serving.manager.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.model.api.HFResult
 

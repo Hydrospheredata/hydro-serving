@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.controller.model
+package io.hydrosphere.serving.manager.infrastructure.http.v1.controller.model
 
 import java.nio.file.{Files, StandardOpenOption}
 import java.util.UUID
@@ -13,7 +13,7 @@ import akka.util.Timeout
 import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.controller.{GenericController, ServingDataDirectives}
+import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.{GenericController, ServingDataDirectives}
 import io.hydrosphere.serving.manager.model._
 import io.hydrosphere.serving.model.api.Result
 import io.hydrosphere.serving.model.api.description.ContractDescription
@@ -51,7 +51,7 @@ class ModelController(
     new ApiResponse(code = 200, message = "Model", response = classOf[AggregatedModelInfo], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def listModels = path("api" / "v1" / "model") {
+  def listModels = pathPrefix("model") {
     get {
       completeF(aggregatedInfoUtilityService.allModelsAggregatedInfo())
     }
@@ -66,7 +66,7 @@ class ModelController(
     new ApiResponse(code = 200, message = "Model", response = classOf[AggregatedModelInfo]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def getModel = path("api" / "v1" / "model" / LongNumber) { id =>
+  def getModel = pathPrefix("model" / LongNumber) { id =>
     get {
       completeFRes(aggregatedInfoUtilityService.getModelAggregatedInfo(id))
     }
@@ -82,7 +82,7 @@ class ModelController(
     new ApiResponse(code = 200, message = "Model", response = classOf[ModelVersion]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def uploadModel = path("api" / "v1" / "model" / "upload") {
+  def uploadModel = pathPrefix("model" / "upload") {
     post {
       entity(as[Multipart.FormData]) { (formdata: Multipart.FormData) ⇒
         val fileNamesFuture = formdata.parts.flatMapConcat { p =>
@@ -165,7 +165,7 @@ class ModelController(
     new ApiResponse(code = 200, message = "Model", response = classOf[Model]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def updateModel = path("api" / "v1" / "model") {
+  def updateModel = pathPrefix("model") {
     put {
       entity(as[UpdateModelRequest]) { r =>
         completeFRes(
@@ -185,7 +185,7 @@ class ModelController(
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def listModelBuildsByModel = get {
-    path("api" / "v1" / "model" / "builds" / LongNumber) { s =>
+    pathPrefix("model" / "builds" / LongNumber) { s =>
       completeF(aggregatedInfoUtilityService.getModelBuilds(s))
     }
   }
@@ -201,7 +201,7 @@ class ModelController(
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def lastModelBuilds = get {
-    path("api" / "v1" / "model" / "builds" / LongNumber / "last") { s =>
+    pathPrefix("model" / "builds" / LongNumber / "last") { s =>
       parameters('maximum.as[Int]) { (maximum) =>
         completeF(
           modelBuildManagementService.lastModelBuildsByModelId(s, maximum)
@@ -221,7 +221,7 @@ class ModelController(
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def lastModelVersions = get {
-    path("api" / "v1" / "model" / "version" / LongNumber / "last") { s =>
+    pathPrefix("model" / "version" / LongNumber / "last") { s =>
       parameters('maximum.as[Int]) { (maximum) =>
         completeF(
           modelVersionManagementService.lastModelVersionByModelId(s, maximum)
@@ -240,7 +240,7 @@ class ModelController(
     new ApiResponse(code = 200, message = "ModelVersion", response = classOf[ModelVersion]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def addModelVersion = path("api" / "v1" / "model" / "version") {
+  def addModelVersion = pathPrefix("model" / "version") {
     post {
       entity(as[CreateModelVersionRequest]) { r =>
         completeFRes(
@@ -256,7 +256,7 @@ class ModelController(
     new ApiResponse(code = 200, message = "ModelVersion", response = classOf[ModelVersion], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def allModelVersions = path("api" / "v1" / "model" / "version") {
+  def allModelVersions = pathPrefix("model" / "version") {
     get {
       completeF(
         aggregatedInfoUtilityService.allModelVersions
@@ -274,7 +274,7 @@ class ModelController(
     new ApiResponse(code = 200, message = "Any"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def generatePayloadByModelId = path("api" / "v1" / "model" / "generate" / LongNumber / Segment) { (modelName, signature) =>
+  def generatePayloadByModelId = pathPrefix("model" / "generate" / LongNumber / Segment) { (modelName, signature) =>
     get {
       completeFRes {
         modelManagementService.generateModelPayload(modelName, signature)
@@ -292,7 +292,7 @@ class ModelController(
     new ApiResponse(code = 200, message = "Any", response = classOf[Model]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def submitTextContract = path("api" / "v1" / "model" / LongNumber / "contract" / "text") { modelId =>
+  def submitTextContract = pathPrefix("model" / LongNumber / "contract" / "text") { modelId =>
     post {
       entity(as[String]) { prototext =>
         completeFRes {
@@ -312,7 +312,7 @@ class ModelController(
     new ApiResponse(code = 200, message = "Any", response = classOf[Model]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def submitBinaryContract = path("api" / "v1" / "model" / LongNumber / "contract" / "binary") { modelId =>
+  def submitBinaryContract = pathPrefix("model" / LongNumber / "contract" / "binary") { modelId =>
     post {
       extractRequest { request =>
         extractRawData { bytes =>
@@ -334,7 +334,7 @@ class ModelController(
     new ApiResponse(code = 200, message = "Any", response = classOf[Model]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def submitFlatContract = path("api" / "v1" / "model" / LongNumber / "contract" / "flat") { modelId =>
+  def submitFlatContract = pathPrefix("model" / LongNumber / "contract" / "flat") { modelId =>
     post {
       entity(as[ContractDescription]) { contractDescription =>
         completeFRes {
@@ -353,7 +353,7 @@ class ModelController(
     new ApiResponse(code = 200, message = "Any"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def generateInputsForVersion = path("api" / "v1" / "model" / "version" / "generate" / LongNumber / Segment) { (versionId, signature) =>
+  def generateInputsForVersion = pathPrefix("model" / "version" / "generate" / LongNumber / Segment) { (versionId, signature) =>
     get {
       completeFRes(
         modelVersionManagementService.generateInputsForVersion(versionId, signature)
@@ -370,7 +370,7 @@ class ModelController(
     new ApiResponse(code = 200, message = "ContractDescription", response = classOf[ContractDescription]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def modelContractDescription = path("api" / "v1" / "model" / LongNumber / "flatContract") { (modelId) =>
+  def modelContractDescription = pathPrefix("model" / LongNumber / "flatContract") { (modelId) =>
     get {
       complete {
         modelManagementService.modelContractDescription(modelId)
@@ -387,7 +387,7 @@ class ModelController(
     new ApiResponse(code = 200, message = "ContractDescription", response = classOf[ContractDescription]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def versionContractDescription = path("api" / "v1" / "model" / "version" / LongNumber / "flatContract") { (versionId) =>
+  def versionContractDescription = pathPrefix("model" / "version" / LongNumber / "flatContract") { (versionId) =>
     get {
       completeFRes {
         modelVersionManagementService.versionContractDescription(versionId)
@@ -404,7 +404,7 @@ class ModelController(
     new ApiResponse(code = 200, message = "Model", response = classOf[Model]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def deleteModel = path("api" / "v1" / "model" / LongNumber) { modelId =>
+  def deleteModel = pathPrefix("model" / LongNumber) { modelId =>
     delete {
       completeFRes {
         aggregatedInfoUtilityService.deleteModel(modelId)
@@ -421,7 +421,7 @@ class ModelController(
     new ApiResponse(code = 200, message = "ModelBuild", response = classOf[ModelBuild]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def buildStatus = path("api" / "v1" / "model" / "build" / LongNumber) { id =>
+  def buildStatus = pathPrefix("model" / "build" / LongNumber) { id =>
     get {
       complete(modelBuildManagementService.get(id))
     }

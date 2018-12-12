@@ -1,23 +1,21 @@
-package io.hydrosphere.serving.manager.controller
+package io.hydrosphere.serving.manager.infrastructure.http.v1.controller
 
 import akka.http.scaladsl.marshalling.ToResponseMarshaller
 import akka.http.scaladsl.model.{ContentTypes, HttpEntity, HttpResponse, StatusCodes}
 import akka.http.scaladsl.server.Directives.{complete, onComplete}
 import akka.http.scaladsl.server.Route
-import io.hydrosphere.serving.model.api.{HFResult, HResult}
 import io.hydrosphere.serving.manager.model.protocol.CompleteJsonProtocol
-import io.hydrosphere.serving.model.api.HResult
 import io.hydrosphere.serving.model.api.Result.{HError, InternalError}
+import io.hydrosphere.serving.model.api.{HFResult, HResult}
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
 
 import scala.concurrent.Future
 import scala.util.{Failure, Success}
 
-
 trait GenericController extends CompleteJsonProtocol with Logging {
   final def withF[T: ToResponseMarshaller](res: Future[T])(f: T => Route): Route = {
-    onComplete(res){
+    onComplete(res) {
       case Success(result) =>
         f(result)
       case Failure(err) =>
