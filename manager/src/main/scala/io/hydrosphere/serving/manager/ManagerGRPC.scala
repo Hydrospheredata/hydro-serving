@@ -2,8 +2,8 @@ package io.hydrosphere.serving.manager
 
 import envoy.service.discovery.v2.AggregatedDiscoveryServiceGrpc
 import io.hydrosphere.serving.grpc.BuilderWrapper
+import io.hydrosphere.serving.manager.api.grpc.AggregatedDiscoveryServiceGrpcImpl
 import io.hydrosphere.serving.manager.config.ManagerConfiguration
-import io.hydrosphere.serving.manager.infrastructure.envoy.AggregatedDiscoveryServiceGrpcImpl
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc
 
 import scala.concurrent.ExecutionContext

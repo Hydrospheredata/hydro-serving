@@ -3,7 +3,7 @@
 //import java.nio.file.Files
 //
 //import io.hydrosphere.serving.manager.GenericUnitTest
-//import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
+//import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorage
 //
 //abstract class ModelStorageSpec(val modelSource: ModelStorage) extends GenericUnitTest {
 //

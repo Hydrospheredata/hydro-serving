@@ -6,13 +6,14 @@ import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.contract.utils.ContractBuilders
+import io.hydrosphere.serving.manager.infrastructure.storage.{LocalModelStorage, LocalModelStorageDefinition}
 import io.hydrosphere.serving.model.api.ModelType
 import io.hydrosphere.serving.model.api.ModelType.ONNX
-import io.hydrosphere.serving.manager.service.source.fetchers.spark.SparkModelFetcher
-import io.hydrosphere.serving.manager.service.source.fetchers._
-import io.hydrosphere.serving.manager.service.source.fetchers.keras.KerasFetcher
-import io.hydrosphere.serving.manager.service.source.fetchers.tensorflow.TensorflowModelFetcher
-import io.hydrosphere.serving.manager.service.source.storages.local.{LocalModelStorage, LocalModelStorageDefinition}
+import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.spark.SparkModelFetcher
+import io.hydrosphere.serving.manager.infrastructure.storage.fetchers._
+import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.keras.KerasFetcher
+import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.tensorflow.TensorflowModelFetcher
+import io.hydrosphere.serving.manager.infrastructure.storage.storages.local.LocalModelStorageDefinition
 import io.hydrosphere.serving.manager.{GenericUnitTest, TestConstants}
 import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.types.DataType

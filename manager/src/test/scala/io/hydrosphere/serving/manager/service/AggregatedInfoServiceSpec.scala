@@ -4,13 +4,11 @@ import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.GenericUnitTest
+import io.hydrosphere.serving.manager.domain.model.Model
+import io.hydrosphere.serving.manager.domain.model_version.ModelVersion
 import io.hydrosphere.serving.model.api.{ModelType, Result}
 import io.hydrosphere.serving.manager.model.db._
 import io.hydrosphere.serving.manager.service.aggregated_info.AggregatedInfoUtilityServiceImpl
-import io.hydrosphere.serving.manager.service.application.ApplicationManagementService
-import io.hydrosphere.serving.manager.service.model.ModelManagementService
-import io.hydrosphere.serving.manager.service.model_build.ModelBuildManagmentService
-import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
 import org.mockito.{Matchers, Mockito}
 
@@ -32,10 +30,6 @@ class AggregatedInfoServiceSpec extends GenericUnitTest {
         Future.successful(models)
       )
 
-      val buildMock = mock[ModelBuildManagmentService]
-      Mockito.when(buildMock.lastForModels(Matchers.any())).thenReturn(
-        Future.successful(Seq.empty)
-      )
       val versionMock = mock[ModelVersionManagementService]
       Mockito.when(versionMock.lastModelVersionForModels(Matchers.any())).thenReturn(
         Future.successful(Seq.empty)
@@ -73,10 +67,6 @@ class AggregatedInfoServiceSpec extends GenericUnitTest {
         Future.successful(models)
       )
 
-      val buildMock = mock[ModelBuildManagmentService]
-      Mockito.when(buildMock.lastForModels(Matchers.any())).thenReturn(
-        Future.successful(Seq(mBuild))
-      )
       val versionMock = mock[ModelVersionManagementService]
       Mockito.when(versionMock.lastModelVersionForModels(Matchers.any())).thenReturn(
         Future.successful(Seq(mVersion))
@@ -139,10 +129,6 @@ class AggregatedInfoServiceSpec extends GenericUnitTest {
         val modelMock = mock[ModelManagementService]
         when(modelMock.getModel(1)).thenReturn(Result.okF(model))
         when(modelMock.delete(1)).thenReturn(Result.okF(model))
-
-        val buildMock = mock[ModelBuildManagmentService]
-        when(buildMock.listForModel(1)).thenReturn(Result.okF(Seq(build)))
-        when(buildMock.delete(1)).thenReturn(Result.okF(build))
 
         val versionMock = mock[ModelVersionManagementService]
         when(versionMock.listForModel(1)).thenReturn(Result.okF(Seq(version)))

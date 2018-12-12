@@ -7,7 +7,7 @@ import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.spotify.docker.client.DefaultDockerClient
 import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration}
-import io.hydrosphere.serving.manager.infrastructure.http.ManagerHttpApi
+import io.hydrosphere.serving.manager.api.http.ManagerHttpApi
 import io.hydrosphere.serving.manager.util.ReflectionUtils
 import org.apache.logging.log4j.scala.Logging
 

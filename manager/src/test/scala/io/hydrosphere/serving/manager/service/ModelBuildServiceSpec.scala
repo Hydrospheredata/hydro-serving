@@ -7,16 +7,14 @@ import cats.data.EitherT
 import cats.instances.future._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.GenericUnitTest
-import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.api.http.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.domain.model.Model
+import io.hydrosphere.serving.manager.domain.model_version.{ModelBuildAlgebra, ModelVersionPushAlgebra, ModelVersion}
 import io.hydrosphere.serving.model.api.{ModelType, Result}
 import io.hydrosphere.serving.model.api.ops.ModelContractOps._
-import io.hydrosphere.serving.manager.model.db.{BuildRequest, Model, ModelBuild, ModelVersion}
-import io.hydrosphere.serving.manager.repository.ModelBuildRepository
-import io.hydrosphere.serving.manager.service.build_script.{BuildScriptManagementService, BuildScriptManagementServiceImpl}
-import io.hydrosphere.serving.manager.service.model.ModelManagementService
-import io.hydrosphere.serving.manager.service.model_build.builders.{ModelBuildService, ModelPushService}
-import io.hydrosphere.serving.manager.service.model_build.{BuildModelRequest, ModelBuildManagementServiceImpl}
-import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
+import io.hydrosphere.serving.manager.model.db.{BuildRequest, ModelBuild}
+import io.hydrosphere.serving.manager.service.build_script.BuildScriptManagementService
+import io.hydrosphere.serving.manager.domain.model_build.ModelPushService
 import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
 import org.mockito.{Matchers, Mockito}
 import org.scalatest.concurrent.ScalaFutures
@@ -94,9 +92,9 @@ class ModelBuildServiceSpec extends GenericUnitTest {
           Result.okF(dummyModel)
         )
 
-        val pushS = mock[ModelPushService]
+        val pushS = mock[ModelVersionPushAlgebra]
 
-        val builder = mock[ModelBuildService]
+        val builder = mock[ModelBuildAlgebra]
         when(builder.build(Matchers.any(), Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
           Result.okF("kek")
         )
@@ -176,9 +174,9 @@ class ModelBuildServiceSpec extends GenericUnitTest {
           Result.okF(model)
         )
 
-        val pushS = mock[ModelPushService]
+        val pushS = mock[ModelVersionPushAlgebra]
 
-        val builder = mock[ModelBuildService]
+        val builder = mock[ModelBuildAlgebra]
         when(builder.build(Matchers.any(), Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
           Result.internalErrorF(new RuntimeException("Something bad happened"))
         )
@@ -269,9 +267,9 @@ class ModelBuildServiceSpec extends GenericUnitTest {
         )
         Mockito.when(modelS.uploadModel(Matchers.any())).thenReturn(Result.okF(model))
 
-        val pushS = mock[ModelPushService]
+        val pushS = mock[ModelVersionPushAlgebra]
 
-        val builder = mock[ModelBuildService]
+        val builder = mock[ModelBuildAlgebra]
         Mockito.when(builder.build(Matchers.any(), Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
           Result.okF("kek")
         )

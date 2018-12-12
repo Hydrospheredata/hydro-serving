@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.config
 
 import cats.syntax.either._
 import com.amazonaws.regions.Regions
-import io.hydrosphere.serving.manager.service.source.storages.local.LocalModelStorageDefinition
+import io.hydrosphere.serving.manager.infrastructure.storage.LocalModelStorageDefinition
 import pureconfig.ConfigReader
 import pureconfig.error.CannotConvert
 
@@ -15,8 +15,7 @@ case class ManagerConfiguration(
   cloudDriver: CloudDriverConfiguration,
   openTracing: OpenTracingConfiguration,
   dockerRepository: DockerRepositoryConfiguration,
-  metrics: MetricsConfiguration,
-  runtimePack: RuntimePackConfig
+  metrics: MetricsConfiguration
 )
 
 object ManagerConfiguration {
@@ -27,4 +26,3 @@ object ManagerConfiguration {
 
   def load = pureconfig.loadConfig[ManagerConfiguration]
 }
-

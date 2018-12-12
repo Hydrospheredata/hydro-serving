@@ -4,13 +4,14 @@ import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.GenericUnitTest
+import io.hydrosphere.serving.manager.domain.application.ApplicationRepositoryAlgebra
+import io.hydrosphere.serving.manager.domain.host_selector.AnyHostSelector$
+import io.hydrosphere.serving.manager.domain.model.Model
+import io.hydrosphere.serving.manager.domain.model_version.ModelVersion
 import io.hydrosphere.serving.model.api.ModelType
 import io.hydrosphere.serving.model.api.ModelType.Tensorflow
 import io.hydrosphere.serving.manager.model.db._
-import io.hydrosphere.serving.manager.repository.{ApplicationRepository, RuntimeRepository}
 import io.hydrosphere.serving.manager.service.application.ApplicationManagementServiceImpl
-import io.hydrosphere.serving.manager.service.environment.AnyEnvironment
-import io.hydrosphere.serving.manager.service.model_version.ModelVersionManagementService
 import io.hydrosphere.serving.manager.service.runtime.RuntimeManagementService
 import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
 import org.mockito.Matchers
@@ -45,7 +46,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
               signature = None,
               runtime = runtime,
               modelVersion = mVersion1,
-              environment = AnyEnvironment
+              environment = AnyHostSelector$
             )),
             None,
             Map.empty
@@ -56,7 +57,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
               signature = None,
               runtime = runtime,
               modelVersion = mVersion2,
-              environment = AnyEnvironment
+              environment = AnyHostSelector$
             )),
             None,
             Map.empty
@@ -72,14 +73,14 @@ class ApplicationServiceSpec extends GenericUnitTest {
               signature = None,
               runtime = runtime,
               modelVersion = mVersion1,
-              environment = AnyEnvironment
+              environment = AnyHostSelector$
             ),
             DetailedServiceDescription(
               weight = 100,
               signature = None,
               runtime = runtime,
               modelVersion = mVersion2,
-              environment = AnyEnvironment
+              environment = AnyHostSelector$
             )
           ), None, Map.empty
         ))
@@ -92,7 +93,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
       )
       val app3 = Application(3, "testapp3", None, ModelContract.defaultInstance, graph3, List.empty)
 
-      val appRepo = mock[ApplicationRepository]
+      val appRepo = mock[ApplicationRepositoryAlgebra]
       when(appRepo.all()).thenReturn(Future.successful(Seq(app1, app2, app3)))
 
       val versionMock = mock[ModelVersionManagementService]

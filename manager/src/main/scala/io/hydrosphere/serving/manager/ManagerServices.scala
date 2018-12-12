@@ -10,25 +10,22 @@ import com.spotify.docker.client._
 import io.grpc._
 import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, Headers}
 import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, DockerClientConfig, DockerRepositoryConfiguration, ManagerConfiguration}
-import io.hydrosphere.serving.manager.connector.HttpEnvoyAdminConnector
-import io.hydrosphere.serving.manager.service.aggregated_info.{AggregatedInfoUtilityService, AggregatedInfoUtilityServiceImpl}
-import io.hydrosphere.serving.manager.service.application.{ApplicationManagementService, ApplicationManagementServiceImpl}
-import io.hydrosphere.serving.manager.service.build_script.{BuildScriptManagementService, BuildScriptManagementServiceImpl}
-import io.hydrosphere.serving.manager.service.clouddriver._
-import io.hydrosphere.serving.manager.service.environment.{EnvironmentManagementService, EnvironmentManagementServiceImpl}
-import io.hydrosphere.serving.manager.service.envoy.{EnvoyGRPCDiscoveryService, EnvoyGRPCDiscoveryServiceImpl}
-import io.hydrosphere.serving.manager.service.internal_events.InternalManagerEventsPublisher
-import io.hydrosphere.serving.manager.service.metrics.{ElasticSearchMetricsService, InfluxDBMetricsService, PrometheusMetricsServiceImpl}
-import io.hydrosphere.serving.manager.service.model.{ModelManagementService, ModelManagementServiceImpl}
-import io.hydrosphere.serving.manager.service.model_build.builders._
-import io.hydrosphere.serving.manager.service.model_build.{ModelBuildManagementServiceImpl, ModelBuildManagmentService}
-import io.hydrosphere.serving.manager.service.model_version.{ModelVersionManagementService, ModelVersionManagementServiceImpl}
-import io.hydrosphere.serving.manager.service.runtime.{DefaultRuntimes, RuntimeManagementService, RuntimeManagementServiceImpl}
-import io.hydrosphere.serving.manager.service.service.{ServiceManagementService, ServiceManagementServiceImpl}
-import io.hydrosphere.serving.manager.service.source.ModelStorageServiceImpl
+import io.hydrosphere.serving.manager.domain.application.ApplicationService
+import io.hydrosphere.serving.manager.domain.build_script.BuildScriptService
+import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorService
+import io.hydrosphere.serving.manager.domain.metrics.{ElasticSearchMetricsService, InfluxDBMetricsService, PrometheusMetricsService}
+import io.hydrosphere.serving.manager.domain.model.ModelService
+import io.hydrosphere.serving.manager.domain.model_version.ModelVersionService
+import io.hydrosphere.serving.manager.domain.service.ServiceManagementService
+import io.hydrosphere.serving.manager.infrastructure.clouddriver.{DockerComposeCloudDriverService, ECSCloudDriverService, KubernetesCloudDriverService, LocalCloudDriverService}
+import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.InternalManagerEventsPublisher
+import io.hydrosphere.serving.manager.infrastructure.envoy.{EnvoyGRPCDiscoveryService, EnvoyGRPCDiscoveryServiceImpl, HttpEnvoyAdminConnector}
+import io.hydrosphere.serving.manager.infrastructure.model.build.LocalModelBuildService
+import io.hydrosphere.serving.manager.infrastructure.model.push._
+import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorageServiceImpl
 import org.apache.logging.log4j.scala.Logging
 
-import scala.concurrent.{ExecutionContext, Future}
+import scala.concurrent.ExecutionContext
 
 class ManagerServices(
   val managerRepositories: ManagerRepositories,
@@ -51,92 +48,67 @@ class ManagerServices(
 
   val sourceManagementService = new ModelStorageServiceImpl(managerConfiguration)
 
-  val modelBuildService: ModelBuildService = new LocalModelBuildService(dockerClient, dockerClientConfig, sourceManagementService)
+  val modelBuildService = new LocalModelBuildService(dockerClient, dockerClientConfig, sourceManagementService)
 
-  val modelPushService: ModelPushService = managerConfiguration.dockerRepository match {
-    case c: DockerRepositoryConfiguration.Remote => new RemoteModelPushService(dockerClient, c) 
+  val buildScriptManagementService = new BuildScriptService(managerRepositories.modelBuildScriptRepository)
+
+  val modelPushService = managerConfiguration.dockerRepository match {
+    case c: DockerRepositoryConfiguration.Remote => new RemoteModelPushService(dockerClient, c)
     case c: DockerRepositoryConfiguration.Ecs => new ECSModelPushService(dockerClient, c)
     case _ => new EmptyModelPushService
   }
 
   val internalManagerEventsPublisher = new InternalManagerEventsPublisher
 
-  val modelManagementService: ModelManagementService = new ModelManagementServiceImpl(
-    managerRepositories.modelRepository,
+  val hostSelectorService = new HostSelectorService(managerRepositories.environmentRepository)
+
+  val modelVersionManagementService = new ModelVersionService(
     managerRepositories.modelVersionRepository,
+    buildScriptManagementService,
+    hostSelectorService,
+    modelBuildService,
+    modelPushService
+  )
+
+  val modelManagementService = new ModelService(
+    managerRepositories.modelRepository,
+    modelVersionManagementService,
     sourceManagementService
   )
 
-  val buildScriptManagementService: BuildScriptManagementService = new BuildScriptManagementServiceImpl(
-    managerRepositories.modelBuildScriptRepository
-  )
-
-  val modelVersionManagementService: ModelVersionManagementService = new ModelVersionManagementServiceImpl(
-    managerRepositories.modelVersionRepository,
-    modelManagementService
-  )
-
-  val modelBuildManagmentService: ModelBuildManagmentService = new ModelBuildManagementServiceImpl(
-    managerRepositories.modelBuildRepository,
-    buildScriptManagementService,
-    modelVersionManagementService,
-    modelManagementService,
-    modelPushService,
-    modelBuildService
-  )
-
-  val cloudDriverService: CloudDriverService = managerConfiguration.cloudDriver match {
+  val cloudDriverService = managerConfiguration.cloudDriver match {
     case _: CloudDriverConfiguration.Ecs => new ECSCloudDriverService(managerConfiguration, internalManagerEventsPublisher)
     case _: CloudDriverConfiguration.Docker => new DockerComposeCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
     case _: CloudDriverConfiguration.Kubernetes => new KubernetesCloudDriverService(managerConfiguration, internalManagerEventsPublisher)
     case _ => new LocalCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher)
   }
 
-  val runtimeManagementService: RuntimeManagementService = new RuntimeManagementServiceImpl(
-    managerRepositories.runtimeRepository,
-    managerRepositories.runtimePullRepository,
-    dockerClient
-  )
-  Future.traverse(managerConfiguration.runtimePack.toRuntimePack)(runtimeManagementService.create)
-
-  val environmentManagementService: EnvironmentManagementService = new EnvironmentManagementServiceImpl(managerRepositories.environmentRepository)
-
-  val serviceManagementService: ServiceManagementService = new ServiceManagementServiceImpl(
+  val serviceManagementService: ServiceManagementService = new ServiceManagementService(
     cloudDriverService,
     managerRepositories.serviceRepository,
-    runtimeManagementService,
     modelVersionManagementService,
-    environmentManagementService,
+    hostSelectorService,
     internalManagerEventsPublisher
   )
 
-  val applicationManagementService: ApplicationManagementService = new ApplicationManagementServiceImpl(
+  val applicationManagementService = new ApplicationService(
     applicationRepository = managerRepositories.applicationRepository,
     modelVersionManagementService = modelVersionManagementService,
     serviceManagementService = serviceManagementService,
     internalManagerEventsPublisher = internalManagerEventsPublisher,
     applicationConfig = managerConfiguration.application,
-    runtimeService = runtimeManagementService,
-    environmentManagementService = environmentManagementService
-  )
-
-  val aggregatedInfoUtilityService: AggregatedInfoUtilityService = new AggregatedInfoUtilityServiceImpl(
-    modelManagementService,
-    modelBuildManagmentService,
-    modelVersionManagementService,
-    applicationManagementService
+    environmentManagementService = hostSelectorService
   )
 
   val envoyGRPCDiscoveryService: EnvoyGRPCDiscoveryService = new EnvoyGRPCDiscoveryServiceImpl(
     serviceManagementService,
     applicationManagementService,
-    cloudDriverService,
     managerConfiguration
   )
 
   val envoyAdminConnector = new HttpEnvoyAdminConnector()
 
-  val prometheusMetricsService = new PrometheusMetricsServiceImpl(
+  val prometheusMetricsService = new PrometheusMetricsService(
     cloudDriverService,
     envoyAdminConnector,
     serviceManagementService,

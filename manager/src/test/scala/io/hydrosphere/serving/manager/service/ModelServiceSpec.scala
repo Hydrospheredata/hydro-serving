@@ -6,11 +6,11 @@ import java.time.LocalDateTime
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.GenericUnitTest
-import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.api.http.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.domain.model.{Model, ModelRepositoryAlgebra, ModelService}
+import io.hydrosphere.serving.manager.infrastructure.storage.{ModelStorageService, StorageUploadResult}
 import io.hydrosphere.serving.model.api.{ModelType, Result}
-import io.hydrosphere.serving.manager.model.db.Model
-import io.hydrosphere.serving.manager.repository.ModelRepository
-import io.hydrosphere.serving.manager.service.model.{ModelManagementServiceImpl, UpdateModelRequest}
+import io.hydrosphere.serving.manager.service.model.UpdateModelRequest
 import io.hydrosphere.serving.manager.service.source.{ModelStorageService, StorageUploadResult}
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.mockito.Matchers
@@ -55,7 +55,7 @@ class ModelServiceSpec extends GenericUnitTest {
           created = LocalDateTime.now(),
           updated = LocalDateTime.now()
         )
-        val modelRepo = mock[ModelRepository]
+        val modelRepo = mock[ModelRepositoryAlgebra]
         when(modelRepo.get(Matchers.anyLong())).thenReturn(Future.successful(None))
 
         val sourceMock = mock[ModelStorageService]
@@ -72,7 +72,7 @@ class ModelServiceSpec extends GenericUnitTest {
           Future.successful(model)
         )
 
-        val modelManagementService = new ModelManagementServiceImpl(modelRepo,  null, sourceMock)
+        val modelManagementService = new ModelService(modelRepo,  null, sourceMock)
 
         modelManagementService.uploadModel(upload).map { maybeModel =>
           maybeModel.isRight should equal(true)
@@ -100,7 +100,7 @@ class ModelServiceSpec extends GenericUnitTest {
           updated = LocalDateTime.now()
         )
 
-        val modelRepo = mock[ModelRepository]
+        val modelRepo = mock[ModelRepositoryAlgebra]
         when(modelRepo.update(Matchers.any(classOf[Model]))).thenReturn(Future.successful(1))
         when(modelRepo.get("upload-model")).thenReturn(Future.successful(Some(model)))
         when(modelRepo.get(1)).thenReturn(Future.successful(Some(model)))
@@ -116,7 +116,7 @@ class ModelServiceSpec extends GenericUnitTest {
         )
         when(sourceMock.rename("upload-model", "upload-model")).thenReturn(Result.okF(Paths.get("some-test-path")))
 
-        val modelManagementService = new ModelManagementServiceImpl(modelRepo, null, sourceMock)
+        val modelManagementService = new ModelService(modelRepo, null, sourceMock)
 
         modelManagementService.uploadModel(upload).map { maybeModel =>
           assert(maybeModel.isRight, maybeModel)
@@ -138,10 +138,10 @@ class ModelServiceSpec extends GenericUnitTest {
             modelContract = ModelContract.defaultInstance
           )
 
-          val modelRepoMock = mock[ModelRepository]
+          val modelRepoMock = mock[ModelRepositoryAlgebra]
           when(modelRepoMock.get(100)).thenReturn(Future.successful(None))
 
-          val modelService = new ModelManagementServiceImpl(modelRepoMock, null, null)
+          val modelService = new ModelService(modelRepoMock, null, null)
 
           modelService.updateModel(updateRequest).map { result =>
             info(result.toString)
@@ -176,11 +176,11 @@ class ModelServiceSpec extends GenericUnitTest {
             updated = LocalDateTime.now()
           )
 
-          val modelRepoMock = mock[ModelRepository]
+          val modelRepoMock = mock[ModelRepositoryAlgebra]
           when(modelRepoMock.get(1)).thenReturn(Future.successful(Some(oldModel)))
           when(modelRepoMock.get("new_model")).thenReturn(Future.successful(Some(conflictModel)))
 
-          val modelService = new ModelManagementServiceImpl(modelRepoMock, null, null)
+          val modelService = new ModelService(modelRepoMock, null, null)
 
           modelService.updateModel(updateRequest).map { result =>
             info(result.toString)
@@ -216,7 +216,7 @@ class ModelServiceSpec extends GenericUnitTest {
             updated = LocalDateTime.now()
           )
 
-          val modelRepoMock = mock[ModelRepository]
+          val modelRepoMock = mock[ModelRepositoryAlgebra]
           when(modelRepoMock.get(1)).thenReturn(Future.successful(Some(oldModel)))
           when(modelRepoMock.get("new_model")).thenReturn(Future.successful(None))
           when(modelRepoMock.update(Matchers.any())).thenReturn(Future.successful(1))
@@ -224,7 +224,7 @@ class ModelServiceSpec extends GenericUnitTest {
           val storageMock = mock[ModelStorageService]
           when(storageMock.rename("old_model", "new_model")).thenReturn(Result.okF(Paths.get("some-good-path")))
 
-          val modelService = new ModelManagementServiceImpl(modelRepoMock, null, storageMock)
+          val modelService = new ModelService(modelRepoMock, null, storageMock)
 
           modelService.updateModel(updateRequest).map { result =>
             assert(result.isRight, result)

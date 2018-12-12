@@ -3,8 +3,9 @@ package io.hydrosphere.serving.manager.service.aggregated_info
 import java.time.LocalDateTime
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.manager.domain.application.Application
+import io.hydrosphere.serving.manager.domain.model_version.ModelVersion
 import io.hydrosphere.serving.model.api.ModelType
-import io.hydrosphere.serving.manager.model.db.{Application, Model, ModelVersion}
 
 case class AggregatedModelVersion(
   id: Long,
@@ -12,12 +13,14 @@ case class AggregatedModelVersion(
   imageTag: String,
   imageSHA256: String,
   created: LocalDateTime,
+  finished: Option[LocalDateTime],
+  status: String,
+  modelId: Long,
   modelName: String,
   modelVersion: Long,
   modelType: ModelType,
-  model: Option[Model],
   modelContract: ModelContract,
-  applications: Seq[Application]
+  applications: Seq[String]
 )
 
 object AggregatedModelVersion {
@@ -28,12 +31,14 @@ object AggregatedModelVersion {
       imageTag = modelVersion.imageTag,
       imageSHA256 = modelVersion.imageSHA256,
       created = modelVersion.created,
-      modelName = modelVersion.modelName,
-      modelVersion = modelVersion.modelVersion,
+      finished = modelVersion.finished,
+      status = modelVersion.status,
+      modelName = modelVersion.model.name,
       modelType = modelVersion.modelType,
-      model = modelVersion.model,
       modelContract = modelVersion.modelContract,
-      applications = apps
+      applications = apps.map(_.name),
+      modelVersion = modelVersion.modelVersion,
+      modelId = modelVersion.model.id
     )
   }
 }

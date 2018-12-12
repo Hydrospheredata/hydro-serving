@@ -2,31 +2,25 @@ package io.hydrosphere.serving.manager
 
 import com.zaxxer.hikari.HikariConfig
 import io.hydrosphere.serving.manager.config.{HikariConfiguration, ManagerConfiguration}
-import io.hydrosphere.serving.manager.repository._
-import io.hydrosphere.serving.manager.repository.db._
+import io.hydrosphere.serving.manager.infrastructure.db.DatabaseService
+import io.hydrosphere.serving.manager.infrastructure.db.repository._
 
 import scala.concurrent.ExecutionContext
 
 class ManagerRepositories(config: ManagerConfiguration)(implicit executionContext: ExecutionContext) {
-  implicit val dataService = new DatabaseService(parseDatabase(config.database))
+  implicit val dataService: DatabaseService = new DatabaseService(parseDatabase(config.database))
 
-  val runtimeRepository: RuntimeRepository = new RuntimeRepositoryImpl
+  val modelRepository = new ModelRepository
 
-  val runtimePullRepository: RuntimePullRepository = new RuntimePullRepositoryImpl
+  val modelVersionRepository = new ModelVersionRepository
 
-  val modelRepository: ModelRepository = new ModelRepositoryImpl
+  val serviceRepository = new ServiceRepositoryImpl
 
-  val modelVersionRepository: ModelVersionRepository = new ModelVersionRepositoryImpl
+  val modelBuildScriptRepository = new BuildScriptRepository
 
-  val modelBuildRepository: ModelBuildRepository = new ModelBuildRepositoryImpl
+  val applicationRepository = new ApplicationRepository
 
-  val serviceRepository: ServiceRepository = new ServiceRepositoryImpl
-
-  val modelBuildScriptRepository: ModelBuildScriptRepository = new ModelBuildScriptRepositoryImpl
-
-  val applicationRepository: ApplicationRepository = new ApplicationRepositoryImpl
-
-  val environmentRepository: EnvironmentRepository = new EnvironmentRepositoryImpl
+  val environmentRepository = new HostSelectorRepository
 
   private def parseDatabase(hikariConfiguration: HikariConfiguration): HikariConfig = {
     val hikariConfig = new HikariConfig()

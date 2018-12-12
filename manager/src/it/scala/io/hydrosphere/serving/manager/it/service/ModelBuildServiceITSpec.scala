@@ -4,9 +4,8 @@ import cats.data.EitherT
 import cats.instances.all._
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.messages.ContainerConfig
-import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.api.http.controller.model.ModelUpload
 import io.hydrosphere.serving.manager.it.FullIntegrationSpec
-import io.hydrosphere.serving.manager.service.model_build.BuildModelRequest
 import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
 import org.scalatest.BeforeAndAfterAll
 

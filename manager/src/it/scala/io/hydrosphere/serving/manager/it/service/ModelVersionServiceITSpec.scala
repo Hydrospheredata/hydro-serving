@@ -2,10 +2,9 @@ package io.hydrosphere.serving.manager.it.service
 
 import cats.data.EitherT
 import cats.instances.all._
-import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.api.http.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.domain.model.Model
 import io.hydrosphere.serving.manager.it.FullIntegrationSpec
-import io.hydrosphere.serving.manager.model.db.Model
-import io.hydrosphere.serving.manager.service.model_build.BuildModelRequest
 import org.scalatest.BeforeAndAfterAll
 
 import scala.concurrent.Await

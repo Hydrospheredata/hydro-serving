@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.service.aggregated_info
 
-import io.hydrosphere.serving.manager.model.db.Model
+import io.hydrosphere.serving.manager.domain.model.Model
 import io.hydrosphere.serving.model.api.HFResult
 
 import scala.concurrent.Future

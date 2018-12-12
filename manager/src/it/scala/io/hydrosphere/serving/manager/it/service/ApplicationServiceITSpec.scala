@@ -5,12 +5,11 @@ import cats.instances.all._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.application._
-import io.hydrosphere.serving.manager.infrastructure.http.v1.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.api.http.controller.application._
+import io.hydrosphere.serving.manager.api.http.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.domain.host_selector.AnyHostSelector$
 import io.hydrosphere.serving.manager.it.FullIntegrationSpec
 import io.hydrosphere.serving.manager.model.db._
-import io.hydrosphere.serving.manager.service.environment.AnyEnvironment
-import io.hydrosphere.serving.manager.service.model_build.BuildModelRequest
 import org.scalatest.BeforeAndAfterAll
 
 import scala.concurrent.Await
@@ -83,7 +82,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                     signature = None,
                     runtime = runtime,
                     modelVersion = modelVersion,
-                    environment = AnyEnvironment
+                    environment = AnyHostSelector$
                   )
                 ),
                 None,
@@ -148,14 +147,14 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                     signature = modelVersion.modelContract.signatures.find(_.signatureName == "default_spark"),
                     runtime = runtime,
                     modelVersion = modelVersion,
-                    environment = AnyEnvironment
+                    environment = AnyHostSelector$
                   ),
                   DetailedServiceDescription(
                     weight = 50,
                     signature = modelVersion.modelContract.signatures.find(_.signatureName == "default_spark"),
                     runtime = runtime,
                     modelVersion = modelVersion,
-                    environment = AnyEnvironment
+                    environment = AnyHostSelector$
                   )
                 ),
                 modelVersion.modelContract.signatures.find(_.signatureName == "default_spark"),
