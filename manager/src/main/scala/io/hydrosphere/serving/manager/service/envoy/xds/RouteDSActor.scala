@@ -19,6 +19,8 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
 
   private val applications = mutable.Map[Long, Seq[VirtualHost]]()
 
+  private val routeTimeout = Some(Duration(69,0))
+
   private val kafkaGatewayHost = createSystemHost(CloudDriverService.GATEWAY_KAFKA_NAME)
   private val monitoringHost = createSystemHost(CloudDriverService.MONITORING_NAME)
   private val profilerHost = createSystemHost(CloudDriverService.PROFILER_NAME)
@@ -54,7 +56,7 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
         )),
         action = Route.Action.Route(RouteAction(
           clusterSpecifier = weights,
-          timeout = Some(Duration(69, 0))
+          timeout = routeTimeout
         ))
       ))
     )
@@ -103,7 +105,8 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
           pathSpecifier = RouteMatch.PathSpecifier.Prefix("/")
         )),
         action = Route.Action.Route(RouteAction(
-          clusterSpecifier = ClusterSpecifier.Cluster(name)
+          clusterSpecifier = ClusterSpecifier.Cluster(name),
+          timeout = routeTimeout
         ))
       ))
     )
@@ -137,7 +140,7 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
           )),
           action = Route.Action.Route(RouteAction(
             clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.GATEWAY_NAME),
-            timeout = Some(Duration(69, 0))
+            timeout = routeTimeout
           ))
         ),
         Route(
@@ -181,7 +184,8 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
             pathSpecifier = RouteMatch.PathSpecifier.Prefix("/api/v1/applications/serve")
           )),
           action = Route.Action.Route(RouteAction(
-            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.GATEWAY_HTTP_NAME)
+            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.GATEWAY_HTTP_NAME),
+            timeout = routeTimeout
           ))
         ),
         Route(
@@ -189,7 +193,8 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
             pathSpecifier = RouteMatch.PathSpecifier.Prefix("/api")
           )),
           action = Route.Action.Route(RouteAction(
-            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_HTTP_NAME)
+            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_HTTP_NAME),
+            timeout = routeTimeout
           ))
         ),
         Route(
@@ -198,7 +203,7 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
           )),
           action = Route.Action.Route(RouteAction(
             clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MONITORING_HTTP_NAME),
-            timeout = Some(Duration(69,0))
+            timeout = routeTimeout
           ))
         ),
         Route(
@@ -207,7 +212,7 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
           )),
           action = Route.Action.Route(RouteAction(
             clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.PROFILER_HTTP_NAME),
-            timeout = Some(Duration(69,0))
+            timeout = routeTimeout
           ))
         ),
         Route(
@@ -216,7 +221,7 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
           )),
           action = Route.Action.Route(RouteAction(
             clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.GATEWAY_HTTP_NAME),
-            timeout = Some(Duration(69,0))
+            timeout = routeTimeout
           ))
         ),
         Route(
@@ -224,7 +229,8 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
             pathSpecifier = RouteMatch.PathSpecifier.Prefix("/")
           )),
           action = Route.Action.Route(RouteAction(
-            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_UI_NAME)
+            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_UI_NAME),
+            timeout = routeTimeout
           ))
         )
       )
