@@ -190,7 +190,7 @@ There're 2 ways to run Keras models with ML Lambda.
     $ hs upload
     ```
 
-2. If you're using different backend, you can save this model to `.h5` format and run it under python runtime with pre-defined `requirements.txt` and `serving.yaml` files. [Here's]({{site.baseurl}}{%link getting-started.md%}#own-model) step-by-step guide on how to achieve that.
+2. If you're using different backend, you can save this model to `.h5` format and run it under python runtime with pre-defined `requirements.txt` and `serving.yaml` files. [Here's]({{site.baseurl}}{%link tutorials/getting-started.md%}#own-model) step-by-step guide on how to achieve that.
 
 ### Python
 
@@ -219,7 +219,7 @@ $ hs upload
 
 Create an application for that model and select `hydrosphere/serving-runtime-python` runtime. You're all set.
 
-[Here's]({{site.baseurl}}{%link getting-started.md%}#own-model) step-by-step guide describing, how to run Keras model inside python runtime container.
+[Here's]({{site.baseurl}}{%link tutorials/getting-started.md%}#own-model) step-by-step guide describing, how to run Keras model inside python runtime container.
 
 
 [github-model-signature]: https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/contract/model_signature.proto

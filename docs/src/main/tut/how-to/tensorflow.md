@@ -1,7 +1,7 @@
 ---
 layout: docs
 title:  "Deploy Tensorflow Model"
-permalink: 'tensorflow.html'
+permalink: "tensorflow.html"
 ---
 
 # Deploy Tensorflow Model
@@ -10,7 +10,7 @@ Deploying Tensorflow models does not require any additional contract writings si
 
 In this article we will create a simple Tensorflow classifier using different APIs, train it and deploy on ML Lambda.
 
-- [Basic API]({{site.baseurl}}{%link how-to/tensorflow.md%}#plain-api)
+- [Basic API]({{site.baseurl}}{%link how-to/tensorflow.md%}#basic-api)
 - [Estimator API]({{site.baseurl}}{%link how-to/tensorflow.md%}#estimator-api)
 
 <br>

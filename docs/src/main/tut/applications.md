@@ -35,4 +35,4 @@ _Note: When you create a __multi-staged__ application, ML Lambda internally infe
 
 ### gRPC API call
 
-You can define a gRPC client on your side, establish insecure connection with `http://<host>` and make a call to `Predict` method. [Example Python client.]({{site.baseurl}}{%link getting-started.md%}#grpc-api-call)
+You can define a gRPC client on your side, establish insecure connection with `http://<host>` and make a call to `Predict` method. [Example Python client.]({{site.baseurl}}{%link tutorials/getting-started.md%}#grpc-api-call)
