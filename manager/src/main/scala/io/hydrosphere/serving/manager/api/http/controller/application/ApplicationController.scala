@@ -70,20 +70,36 @@ class ApplicationController(
     }
   }
 
-  @Path("/{serviceId}")
+  @Path("/{applicationId}")
   @ApiOperation(value = "deleteApplication", notes = "deleteApplication", nickname = "deleteApplication", httpMethod = "DELETE")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "serviceId", required = true, dataType = "long", paramType = "path", value = "serviceId")
+    new ApiImplicitParam(name = "applicationId", required = true, dataType = "long", paramType = "path", value = "id")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Application Deleted"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def deleteApplication = delete {
-    pathPrefix("application" / LongNumber) { serviceId =>
+  def deleteApplicationById = delete {
+    path("application" / LongNumber) { serviceId =>
       completeFRes(applicationManagementService.deleteApplication(serviceId))
     }
   }
+
+  @Path("/{applicationName}")
+  @ApiOperation(value = "deleteApplication", notes = "deleteApplication", nickname = "deleteApplication", httpMethod = "DELETE")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "applicationName", required = true, dataType = "string", paramType = "path", value = "name")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Application Deleted"),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def deleteApplicationByName = delete {
+    path("application" / Segment) { appName =>
+      completeFRes(applicationManagementService.deleteApplication(appName))
+    }
+  }
+
 
   @Path("/generateInputs/{appId}/{signatureName}")
   @ApiOperation(value = "Generate payload for application", notes = "Generate payload for application", nickname = "Generate payload for application", httpMethod = "GET")
@@ -107,7 +123,7 @@ class ApplicationController(
     listAll ~
       create ~
       update ~
-      deleteApplication ~
+      deleteApplicationById ~
+      deleteApplicationByName ~
       generateInputsForApp
-
 }

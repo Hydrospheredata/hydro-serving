@@ -37,7 +37,7 @@ object ModelVersionView {
       runtime = modelVersion.runtime,
       model = modelVersion.model,
       hostSelector = modelVersion.hostSelector,
-      status = modelVersion.status,
+      status = modelVersion.status.toString,
       applications = applications.map(_.name)
     )
   }

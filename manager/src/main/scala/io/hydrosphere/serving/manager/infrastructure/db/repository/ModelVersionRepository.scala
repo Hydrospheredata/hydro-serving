@@ -5,7 +5,7 @@ import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.Model
-import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepositoryAlgebra}
+import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepositoryAlgebra, ModelVersionStatus}
 import io.hydrosphere.serving.manager.infrastructure.db.DatabaseService
 import io.hydrosphere.serving.model.api.ModelType
 
@@ -45,7 +45,7 @@ class ModelVersionRepository(
         finishedTimestamp = entity.finished,
         runtimename = entity.runtime.name,
         runtimeversion = entity.runtime.tag,
-        status = entity.status,
+        status = entity.status.toString,
       )
     ).map(x => mapFromDb(x, entity.model, entity.hostSelector))
 
@@ -111,7 +111,7 @@ class ModelVersionRepository(
     val a = for {
       mv <- Tables.ModelVersion if mv.modelVersionId === id
     } yield (mv.finishedTimestamp, mv.status, mv.imageSha256)
-    db.run(a.update((entity.finished, entity.status, entity.image.sha256)))
+    db.run(a.update((entity.finished, entity.status.toString, entity.image.sha256)))
   }
 
   override def get(idx: Seq[Long]): Future[Seq[ModelVersion]] = {
@@ -149,7 +149,7 @@ object ModelVersionRepository {
       ),
       model = model,
       hostSelector = hostSelector,
-      status = x.status
+      status = ModelVersionStatus.withName(x.status)
     )
   }
 }

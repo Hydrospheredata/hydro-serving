@@ -84,27 +84,7 @@ class ModelController(
     }
   }
 
-  @Path("version/{modelId}/last")
-  @ApiOperation(value = "lastModelVersions", notes = "lastModelVersions", nickname = "lastModelVersions", httpMethod = "GET")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "modelId", required = true, dataType = "long", paramType = "path", value = "modelId"),
-    new ApiImplicitParam(name = "maximum", required = false, dataType = "integer", paramType = "query", value = "maximum", defaultValue = "10")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "ModelVersion", response = classOf[ModelVersion], responseContainer = "List"),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
-  def lastModelVersions = get {
-    pathPrefix("model" / "version" / LongNumber / "last") { s =>
-      parameters('maximum.as[Int]) { maximum =>
-        completeF(
-          modelVersionManagementService.lastModelVersionByModelId(s, maximum)
-        )
-      }
-    }
-  }
-
-  @Path("version")
+  @Path("/version")
   @ApiOperation(value = "All ModelVersion", notes = "All ModelVersion", nickname = "allModelVersions", httpMethod = "GET")
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "ModelVersion", response = classOf[ModelVersionView], responseContainer = "List"),
@@ -136,6 +116,5 @@ class ModelController(
   }
 
 
-  val routes: Route = listModels ~ getModel ~ uploadModel ~
-    lastModelVersions ~ allModelVersions ~ deleteModel
+  val routes: Route = listModels ~ getModel ~ uploadModel ~ allModelVersions ~ deleteModel
 }

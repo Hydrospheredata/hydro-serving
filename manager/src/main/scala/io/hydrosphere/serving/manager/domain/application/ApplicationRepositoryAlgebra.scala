@@ -5,6 +5,8 @@ trait ApplicationRepositoryAlgebra[F[_]] {
 
   def get(id: Long): F[Option[Application]]
 
+  def get(name: String): F[Option[Application]]
+
   def update(value: Application): F[Int]
 
   def delete(id: Long): F[Int]

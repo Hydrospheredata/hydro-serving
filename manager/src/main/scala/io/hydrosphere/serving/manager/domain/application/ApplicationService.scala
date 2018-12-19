@@ -52,6 +52,13 @@ class ApplicationService(
     }
   }
 
+  def getApplication(name: String): HFResult[Application] = {
+    applicationRepository.get(name).map {
+      case Some(app) => Result.ok(app)
+      case None => Result.clientError(s"Can't find application with name $name")
+    }
+  }
+
   def allApplications(): Future[Seq[Application]] = {
     applicationRepository.all()
   }
@@ -109,6 +116,23 @@ class ApplicationService(
         applicationRepository.delete(id)
           .flatMap { _ =>
             removeServiceIfNeeded(keysSet, id)
+              .map { _ =>
+                internalManagerEventsPublisher.applicationRemoved(application)
+                Result.ok(application)
+              }
+          }
+      case Left(error) =>
+        Result.errorF(error)
+    }
+  }
+
+  def deleteApplication(name: String): HFResult[Application] = {
+    getApplication(name).flatMap {
+      case Right(application) =>
+        val keysSet = application.executionGraph.stages.flatMap(_.services.map(_.modelVersion.id)).toSet
+        applicationRepository.delete(application.id)
+          .flatMap { _ =>
+            removeServiceIfNeeded(keysSet, application.id)
               .map { _ =>
                 internalManagerEventsPublisher.applicationRemoved(application)
                 Result.ok(application)

@@ -137,8 +137,8 @@ class ModelVersionService(
           tag = modelUpload.runtimeVersion
         ),
         model = model,
-        hostSelector = None, // Fix later
-        status = "Started"
+        hostSelector = None, // TODO Fix later
+        status = ModelVersionStatus.Started
       )
       modelVersion <- EitherT(create(mv))
     } yield (script, modelVersion)
@@ -154,14 +154,14 @@ class ModelVersionService(
         res.map {
           case Left(err) =>
             logger.error(err)
-            val failed = mv.copy(status = "Failed")
+            val failed = mv.copy(status = ModelVersionStatus.Failed)
             modelVersionRepository.update(failed.id, failed)
           case Right(smv) =>
-            val finished = smv.copy(status = "Finished")
+            val finished = smv.copy(status = ModelVersionStatus.Finished)
             modelVersionRepository.update(finished.id, finished)
         }.failed.foreach { err =>
           logger.error(err)
-          val failed = mv.copy(status = "Failed")
+          val failed = mv.copy(status = ModelVersionStatus.Failed)
           modelVersionRepository.update(failed.id, failed)
         }
     }

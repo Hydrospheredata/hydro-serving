@@ -95,6 +95,14 @@ class ApplicationRepository(
       .filter(a => a.servicesInStage @> List(versionIdx.toString))
       .result
   }.map(_.map(mapFromDb))
+
+  override def get(name: String): Future[Option[Application]] = {
+    db.run(
+      Tables.Application
+        .filter(_.applicationName === name)
+        .result.headOption
+    ).map(s => mapFromDb(s))
+  }
 }
 
 object ApplicationRepository extends CompleteJsonProtocol {
