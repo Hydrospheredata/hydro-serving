@@ -9,15 +9,14 @@ import org.apache.commons.io.FileUtils
 
 import scala.util.Try
 
-class LocalModelStorage(val sourceDef: LocalModelStorageDefinition) extends ModelStorage {
-  val rootDir = sourceDef.path
+class LocalModelStorage(val rootPath: Path) extends ModelStorage {
 
   override def getReadableFile(path: String): HResult[File] = {
-    val requestedPath = rootDir.resolve(path)
+    val requestedPath = rootPath.resolve(path)
     if (Files.exists(requestedPath)) {
       Result.ok(requestedPath.toFile)
     } else {
-      Result.clientError(s"$path doesn't exist in ${sourceDef.name} source")
+      Result.clientError(s"$path doesn't exist in ${path.toString} folder")
     }
   }
 
@@ -44,13 +43,13 @@ class LocalModelStorage(val sourceDef: LocalModelStorageDefinition) extends Mode
   }
 
   def exists(path: Path): Boolean = {
-    val requestedPath = rootDir.resolve(path)
+    val requestedPath = path.resolve(path)
     Files.exists(requestedPath)
   }
 
 
   override def writeFile(path: String, localFile: File): HResult[Path] = {
-    val destFile = rootDir.resolve(path)
+    val destFile = rootPath.resolve(path)
     val destPath = destFile
     val parentPath = destPath.getParent
     if (!Files.exists(parentPath)) {
@@ -61,7 +60,7 @@ class LocalModelStorage(val sourceDef: LocalModelStorageDefinition) extends Mode
 
   def removeFolder(path: Path): HResult[Unit] = {
     Try {
-      FileUtils.deleteDirectory(rootDir.resolve(path).toFile)
+      FileUtils.deleteDirectory(path.resolve(path).toFile)
     }.toEither.left.map(Result.InternalError(_))
   }
 }

@@ -6,13 +6,13 @@ import java.nio.file.Path
 import io.hydrosphere.serving.model.api.HResult
 
 trait ModelStorage {
+  def rootPath: Path
+
   def getReadableFile(path: String): HResult[File]
 
   def getAllFiles(folder: String): HResult[List[String]]
 
   def getSubDirs(path: String): HResult[List[String]]
-
-  def sourceDef: ModelStorageDefinition
 
   def exists(path: String): Boolean
 

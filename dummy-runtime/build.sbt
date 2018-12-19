@@ -9,6 +9,7 @@ dockerfile in docker := {
   val classpath = (dependencyClasspath in Compile).value
   val dockerFilesLocation=baseDirectory.value / "src/main/docker/"
   val jarTarget = s"/hydro-serving/app/app.jar"
+  val osName = sys.props.get("os.name").getOrElse("unknown")
 
   new Dockerfile {
     from("openjdk:8u151-jre-alpine")
@@ -27,6 +28,10 @@ dockerfile in docker := {
     add(jarFile, jarTarget)
 
     volume("/model")
+
+    if (osName.toLowerCase.startsWith("windows")) {
+      run("dos2unix", "/hydro-serving/app/start.sh")
+    }
 
     cmd("/hydro-serving/app/start.sh")
   }

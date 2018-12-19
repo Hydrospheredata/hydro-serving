@@ -6,7 +6,7 @@ case class CreateApplicationRequest(
   name: String,
   namespace: Option[String],
   executionGraph: ExecutionGraphRequest,
-  kafkaStreaming: List[ApplicationKafkaStream]
+  kafkaStreaming: Option[List[ApplicationKafkaStream]]
 )
 
 object CreateApplicationRequest {

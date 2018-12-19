@@ -15,6 +15,7 @@ dockerfile in docker := {
   val classpath = (dependencyClasspath in Compile).value
   val dockerFilesLocation = baseDirectory.value / "src/main/docker/"
   val jarTarget = s"/hydro-serving/app/manager.jar"
+  val osName = sys.props.get("os.name").getOrElse("unknown")
 
   new sbtdocker.Dockerfile {
     // Base image
@@ -30,12 +31,16 @@ dockerfile in docker := {
     label("RUNTIME_ID", "-20")
     label("SERVICE_NAME", "manager")
 
-    cmd("/hydro-serving/app/start.sh")
-
     add(dockerFilesLocation, "/hydro-serving/app/")
     // Add all files on the classpath
     add(classpath.files, "/hydro-serving/app/lib/")
     // Add the JAR file
     add(jarFile, jarTarget)
+
+    if (osName.toLowerCase.startsWith("windows")) {
+      run("dos2unix", "/hydro-serving/app/start.sh")
+    }
+
+    cmd("/hydro-serving/app/start.sh")
   }
 }

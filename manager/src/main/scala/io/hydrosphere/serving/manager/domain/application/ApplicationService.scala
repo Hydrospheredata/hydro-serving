@@ -2,7 +2,6 @@ package io.hydrosphere.serving.manager.domain.application
 
 import cats.data.EitherT
 import cats.instances.future._
-import cats.instances.either._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.api.http.controller.application._

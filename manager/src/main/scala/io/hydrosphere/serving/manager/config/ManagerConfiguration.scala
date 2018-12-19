@@ -1,8 +1,9 @@
 package io.hydrosphere.serving.manager.config
 
+import java.nio.file.Path
+
 import cats.syntax.either._
 import com.amazonaws.regions.Regions
-import io.hydrosphere.serving.manager.infrastructure.storage.LocalModelStorageDefinition
 import pureconfig.ConfigReader
 import pureconfig.error.CannotConvert
 
@@ -10,7 +11,7 @@ case class ManagerConfiguration(
   sidecar: SidecarConfig,
   application: ApplicationConfig,
   manager: AdvertisedConfiguration,
-  localStorage: Option[LocalModelStorageDefinition],
+  localStorage: Option[Path],
   database: HikariConfiguration,
   cloudDriver: CloudDriverConfiguration,
   openTracing: OpenTracingConfiguration,

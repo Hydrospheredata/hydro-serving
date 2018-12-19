@@ -22,7 +22,6 @@ object SparkModelFetcher extends ModelFetcher with Logging {
   private def getMetadata(source: ModelStorage, model: String): HResult[SparkModelMetadata] = {
     source.getReadableFile(s"$model/metadata/part-00000") match {
       case Left(error) =>
-        logger.debug(s"'$model/metadata/part-00000' in '${source.sourceDef.name}' doesn't exist")
         Result.error(error)
       case Right(metaFile) =>
         val metaStr = Files.readAllLines(metaFile.toPath).asScala.mkString
@@ -35,7 +34,6 @@ object SparkModelFetcher extends ModelFetcher with Logging {
 
     getMetadata(source, directory) match {
       case Left(error) =>
-        logger.warn(s"Unexpected fetch error: $error")
         None
       case Right(pipelineMetadata) =>
         processPipeline(source, directory, stagesDir, pipelineMetadata)
@@ -45,7 +43,6 @@ object SparkModelFetcher extends ModelFetcher with Logging {
   private def processPipeline(source: ModelStorage, directory: String, stagesDir: String, pipelineMetadata: SparkModelMetadata) = {
     source.getSubDirs(stagesDir) match {
       case Left(error) =>
-        logger.warn(s"Unexpected fetch error: $error")
         None
       case Right(stages) =>
         val sM = Result.traverse(stages) { stage =>

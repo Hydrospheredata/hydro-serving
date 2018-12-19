@@ -6,7 +6,7 @@ import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.contract.utils.ContractBuilders
-import io.hydrosphere.serving.manager.infrastructure.storage.{LocalModelStorage, LocalModelStorageDefinition}
+import io.hydrosphere.serving.manager.infrastructure.storage.LocalModelStorage
 import io.hydrosphere.serving.model.api.ModelType
 import io.hydrosphere.serving.model.api.ModelType.ONNX
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.spark.SparkModelFetcher
@@ -18,7 +18,7 @@ import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.types.DataType
 
 class FetcherSpecs extends GenericUnitTest {
-  val localSource = new LocalModelStorage(LocalModelStorageDefinition("TEST", Paths.get(TestConstants.localModelsPath)))
+  val localSource = new LocalModelStorage(Paths.get(TestConstants.localModelsPath))
 
   describe("Fallback") {
     it("should parse contract proto message") {

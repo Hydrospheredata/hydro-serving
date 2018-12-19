@@ -18,11 +18,10 @@ class ModelStorageServiceImpl(
   managerConfiguration: ManagerConfiguration
 )(implicit ex: ExecutionContext) extends ModelStorageService with Logging {
 
-  val default = LocalModelStorageDefinition("localstorage", Files.createTempDirectory("hydroservingLocalStorage"))
-  val storageDef = managerConfiguration.localStorage.getOrElse(default)
-  val storage = new LocalModelStorage(storageDef)
+  val rootDir = managerConfiguration.localStorage.getOrElse(Files.createTempDirectory("hydroservingLocalStorage"))
+  val storage = new LocalModelStorage(rootDir)
 
-  logger.info(s"Using model storage: $storageDef")
+  logger.info(s"Using model storage: $rootDir")
 
   def upload(filePath: Path, meta: ModelUploadMetadata): HFResult[StorageUploadResult] = { //TODO reconsider this
     try {
@@ -70,7 +69,7 @@ class ModelStorageServiceImpl(
   override def rename(oldFolder: String, newFolder: String): HFResult[Path] = {
     val f = for {
       oldPath <- EitherT(getLocalPath(oldFolder))
-      newPath = storage.rootDir.resolve(newFolder)
+      newPath = storage.rootPath.resolve(newFolder)
       result <- EitherT(moveFolder(oldPath, newPath))
     } yield result
     f.value
