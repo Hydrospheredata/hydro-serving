@@ -4,7 +4,7 @@ import io.hydrosphere.serving.manager.grpc.entities.{Model => GModel}
 
 case class Model(
   id: Long,
-  name: String,
+  name: String
 ) {
   def toGrpc = GModel(
     id = id,

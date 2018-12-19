@@ -1,14 +1,8 @@
 package io.hydrosphere.serving.manager.api.http.controller.model
 
-import java.nio.file.Path
-
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.model.api.{HResult, Result}
 
-import scala.reflect.ClassTag
-
-case class ModelUpload(
-  tarballPath: Path,
+case class ModelUploadMetadata(
   name: Option[String] = None,
   modelType: Option[String] = None,
   runtimeName: String,

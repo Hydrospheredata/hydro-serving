@@ -13,7 +13,6 @@ import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.spark.Spar
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers._
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.keras.KerasFetcher
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.tensorflow.TensorflowModelFetcher
-import io.hydrosphere.serving.manager.infrastructure.storage.storages.local.LocalModelStorageDefinition
 import io.hydrosphere.serving.manager.{GenericUnitTest, TestConstants}
 import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.types.DataType

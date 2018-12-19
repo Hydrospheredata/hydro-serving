@@ -3,13 +3,13 @@ package io.hydrosphere.serving.manager.infrastructure.envoy.xds
 import java.util.concurrent.atomic.AtomicLong
 
 import akka.actor.{Actor, ActorLogging}
-import scalapb.{GeneratedMessage, Message}
 import envoy.api.v2._
 import envoy.api.v2.core.Node
 import io.grpc.stub.StreamObserver
+import scalapb.{GeneratedMessage, Message}
 
 import scala.collection.mutable
-import scala.util.{Failure, Try}
+import scala.util.Try
 
 case class SubscribeMsg(
   discoveryRequest: DiscoveryRequest,

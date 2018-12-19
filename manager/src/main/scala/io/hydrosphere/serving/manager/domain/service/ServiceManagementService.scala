@@ -104,13 +104,6 @@ class ServiceManagementService(
     serviceRepository.fetchByIds(ids)
       .flatMap(syncServices)
 
-  def getServicesByModel(modelId: Long): Future[Seq[Service]] =
-    serviceRepository.getByModelIds(Seq(modelId))
-      .flatMap(syncServices)
-
-  def getServicesByRuntimes(runtimeIds: Set[Long]): Future[Seq[Service]] =
-    serviceRepository.getByRuntimeIds(runtimeIds)
-      .flatMap(syncServices)
 
   def fetchServicesUnsync(services: Set[Long]): Future[Seq[Service]] = {
     serviceRepository.fetchServices(services)

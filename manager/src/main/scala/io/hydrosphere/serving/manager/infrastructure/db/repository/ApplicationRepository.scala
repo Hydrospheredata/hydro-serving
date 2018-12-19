@@ -15,12 +15,9 @@ class ApplicationRepository(
   databaseService: DatabaseService
 ) extends ApplicationRepositoryAlgebra[Future] with Logging with CompleteJsonProtocol {
 
-  import ApplicationRepository.mapFromDb
+  import ApplicationRepository._
   import databaseService._
   import databaseService.driver.api._
-
-  private def getServices(l: ApplicationExecutionGraph): List[String] =
-    l.stages.flatMap(s => s.services.map(c => c.serviceDescription.toServiceName()))
 
   override def create(entity: Application): Future[Application] =
     db.run(
@@ -30,7 +27,7 @@ class ApplicationRepository(
         namespace = entity.namespace,
         applicationContract = entity.contract.toProtoString,
         executionGraph = entity.executionGraph.toJson.toString(),
-        servicesInStage = getServices(entity.executionGraph).map(v => v.toString),
+        servicesInStage = entity.executionGraph.stages.flatMap(s => s.services.map(_.modelVersion.id.toString)),
         kafkaStreams = entity.kafkaStreaming.map(p => p.toJson.toString())
       )
     ).map(s => mapFromDb(s))
@@ -70,7 +67,7 @@ class ApplicationRepository(
     db.run(query.update(
       value.name,
       value.executionGraph.toJson.toString(),
-      getServices(value.executionGraph),
+      value.executionGraph.stages.flatMap(s => s.services.map(_.modelVersion.id.toString)),
       value.kafkaStreaming.map(_.toJson.toString),
       value.namespace,
       value.contract.toProtoString
@@ -84,14 +81,20 @@ class ApplicationRepository(
         .result.headOption
     ).map(s => mapFromDb(s))
 
-  override def getKeysNotInApplication(keysSet: Set[ServiceKeyDescription], applicationId: Long): Future[Seq[Application]] =
+  override def getKeysNotInApplication(versionIdx: Set[Long], applicationId: Long): Future[Seq[Application]] =
     db.run(
       Tables.Application
-        .filter(p => {
-          p.servicesInStage @> keysSet.map(v => v.toServiceName()).toList && p.id =!= applicationId
-        })
+        .filter { p =>
+          p.servicesInStage @> versionIdx.map(_.toString).toList && p.id =!= applicationId
+        }
         .result
-    ).map(s => s.map(ss => mapFromDb(ss)))
+    ).map(s => s.map(mapFromDb))
+
+  override def findVersionsUsage(versionIdx: Long): Future[Seq[Application]] = db.run {
+    Tables.Application
+      .filter(a => a.servicesInStage @> List(versionIdx.toString))
+      .result
+  }.map(_.map(mapFromDb))
 }
 
 object ApplicationRepository extends CompleteJsonProtocol {

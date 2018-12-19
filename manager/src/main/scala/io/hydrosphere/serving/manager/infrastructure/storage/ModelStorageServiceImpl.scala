@@ -4,7 +4,7 @@ import java.nio.file.{Files, Path, Paths, StandardCopyOption}
 
 import cats.data.EitherT
 import cats.implicits._
-import io.hydrosphere.serving.manager.api.http.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
 import io.hydrosphere.serving.manager.config.ManagerConfiguration
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.ModelFetcher
 import io.hydrosphere.serving.manager.util.TarGzUtils
@@ -24,12 +24,12 @@ class ModelStorageServiceImpl(
 
   logger.info(s"Using model storage: $storageDef")
 
-  def upload(upload: ModelUpload): HFResult[StorageUploadResult] = { //TODO reconsider this
+  def upload(filePath: Path, meta: ModelUploadMetadata): HFResult[StorageUploadResult] = { //TODO reconsider this
     try {
-      val modelName = upload.name.getOrElse(upload.tarballPath.getFileName.toString)
+      val modelName = meta.name.getOrElse(filePath.getFileName.toString)
       val unpackDir = Files.createTempDirectory(modelName)
       val rootDir = Paths.get(modelName)
-      val uploadedFiles = TarGzUtils.decompress(upload.tarballPath, unpackDir)
+      val uploadedFiles = TarGzUtils.decompress(filePath, unpackDir)
       val localFiles = uploadedFiles
         .filter(_.startsWith(unpackDir))
         .map { path =>
@@ -45,13 +45,13 @@ class ModelStorageServiceImpl(
       writeFilesToSource(storage, localFiles)
 
       val inferredMeta = ModelFetcher.fetch(storage, unpackDir.toString)
-      val contract = upload.contract.getOrElse(inferredMeta.contract).copy(modelName = modelName)
-      val modelType = upload.modelType.map(ModelType.fromTag).getOrElse(inferredMeta.modelType)
+      val contract = meta.contract.getOrElse(inferredMeta.contract).copy(modelName = modelName)
+      val modelType = meta.modelType.map(ModelType.fromTag).getOrElse(inferredMeta.modelType)
       Result.okF(
         StorageUploadResult(
           name = modelName,
           modelType = modelType,
-          description = upload.description,
+          description = meta.description,
           modelContract = contract
         )
       )

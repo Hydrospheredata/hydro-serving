@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.infrastructure.storage
 
 import java.nio.file.Path
 
-import io.hydrosphere.serving.manager.api.http.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
 import io.hydrosphere.serving.model.api.HFResult
 
 trait ModelStorageService {
@@ -11,7 +11,7 @@ trait ModelStorageService {
     * @param upload
     * @return
     */
-  def upload(upload: ModelUpload): HFResult[StorageUploadResult]
+  def upload(filePath: Path, meta: ModelUploadMetadata): HFResult[StorageUploadResult]
 
   /**
     * Get readable path from folder in default localStorage

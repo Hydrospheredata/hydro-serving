@@ -5,13 +5,13 @@ import scala.concurrent.Future
 trait ModelVersionRepositoryAlgebra[F[_]] {
   def create(entity: ModelVersion): Future[ModelVersion]
 
-  def update(id: Long, entity: ModelVersion): Future[ModelVersion]
+  def update(id: Long, entity: ModelVersion): Future[Int]
 
   def get(id: Long): Future[Option[ModelVersion]]
 
   def get(modelName: String, modelVersion: Long): Future[Option[ModelVersion]]
 
-  def get(idx: Set[Long]): Future[Set[ModelVersion]]
+  def get(idx: Seq[Long]): Future[Seq[ModelVersion]]
 
   def delete(id: Long): Future[Int]
 
@@ -22,8 +22,6 @@ trait ModelVersionRepositoryAlgebra[F[_]] {
   def lastModelVersionByModel(modelId: Long, max: Int): F[Seq[ModelVersion]]
 
   def modelVersionByModelAndVersion(modelId: Long, version: Long): F[Option[ModelVersion]]
-
-  def lastModelVersionForModels(modelIds: Seq[Long]): F[Seq[ModelVersion]]
 
   def modelVersionsByModelVersionIds(modelVersionIds: Set[Long]): F[Seq[ModelVersion]]
 }

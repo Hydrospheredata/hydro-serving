@@ -1,7 +1,6 @@
 package io.hydrosphere.serving.manager.infrastructure.db.repository
 
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersion
 import io.hydrosphere.serving.manager.domain.service.{Service, ServiceRepositoryAlgebra}
 import io.hydrosphere.serving.manager.infrastructure.db.DatabaseService
@@ -19,6 +18,22 @@ class ServiceRepositoryImpl(
   import databaseService.driver.api._
 
 
+  def joinedVersionQ = Tables.ModelVersion
+    .join(Tables.Model)
+    .on((mv, m) => mv.modelId === m.modelId)
+    .joinLeft(Tables.HostSelector)
+    .on((m, hs) => hs.hostSelectorId === m._1.hostSelector)
+    .map {
+      case ((mv, m), hs) => (mv, m, hs)
+    }
+
+  def joinedQ = Tables.Service
+    .join(joinedVersionQ)
+    .on((x, a) => x.modelVersionId === a._1.modelVersionId)
+    .map {
+      case (s, mvv) => (s, mvv._1, mvv._2, mvv._3)
+    }
+
   // status: String, statustext: Option[String] = None, configParams: List[String])
   override def create(entity: Service): Future[Service] =
     db.run(
@@ -26,26 +41,18 @@ class ServiceRepositoryImpl(
         serviceId = entity.id,
         serviceName = entity.serviceName,
         cloudDriverId = entity.cloudDriverId,
-        modelVersionId = entity.modelVersionId,
+        modelVersionId = entity.modelVersion.id,
         statusText = entity.statusText,
         configParams = entity.configParams.map { case (k, v) => s"$k=$v" }.toList
       )
-    ).map(s => mapFromDb(s, entity.runtime, entity.environment, entity.model))
+    ).map(s => mapFrom(s, entity.modelVersion))
 
   override def get(id: Long): Future[Option[Service]] =
     db.run(
-      Tables.Service
-        .filter(_.serviceId === id)
-        .joinLeft(Tables.Runtime)
-        .on { case (s, r) => s.runtimeId === r.runtimeId }
-        .joinLeft(Tables.Environment)
-        .on { case ((s, _), e) => s.environmentId === e.environmentId }
-        .joinLeft(Tables.ModelVersion)
-        .on { case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
-        .joinLeft(Tables.Model)
-        .on { case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
+      joinedQ
+        .filter(_._1.serviceId === id)
         .result.headOption
-    ).map(mapFromDb)
+    ).map(_.map(mapEntity))
 
   override def delete(id: Long): Future[Int] = db.run(
     Tables.Service
@@ -54,18 +61,7 @@ class ServiceRepositoryImpl(
   )
 
   override def all(): Future[Seq[Service]] =
-    db.run(
-      Tables.Service
-        .joinLeft(Tables.Runtime)
-        .on { case (s, r) => s.runtimeId === r.runtimeId }
-        .joinLeft(Tables.Environment)
-        .on { case ((s, _), e) => s.environmentId === e.environmentId }
-        .joinLeft(Tables.ModelVersion)
-        .on { case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
-        .joinLeft(Tables.Model)
-        .on { case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
-        .result
-    ).map(mapFromDb)
+    db.run(joinedQ.result).map(_.map(x => mapEntity(x)))
 
   override def updateCloudDriveId(serviceId: Long, cloudDriveId: Option[String]): Future[Int] = {
     val query = for {
@@ -77,167 +73,52 @@ class ServiceRepositoryImpl(
 
   override def getByServiceName(serviceName: String): Future[Option[Service]] =
     db.run(
-      Tables.Service
-        .filter(_.serviceName === serviceName)
-        .joinLeft(Tables.Runtime)
-        .on { case (s, r) => s.runtimeId === r.runtimeId }
-        .joinLeft(Tables.Environment)
-        .on { case ((s, _), e) => s.environmentId === e.environmentId }
-        .joinLeft(Tables.ModelVersion)
-        .on { case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
-        .joinLeft(Tables.Model)
-        .on { case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
+      joinedQ
+        .filter(_._1.serviceName === serviceName)
         .result.headOption
-    ).map(mapFromDb)
+    ).map(_.map(mapEntity))
 
   override def fetchByIds(ids: Seq[Long]): Future[Seq[Service]] = {
     if (ids.isEmpty) {
       return Future.successful(Seq())
     }
-
     db.run(
-      Tables.Service
-        .filter(_.serviceId inSetBind ids)
-        .joinLeft(Tables.Runtime)
-        .on { case (s, r) => s.runtimeId === r.runtimeId }
-        .joinLeft(Tables.Environment)
-        .on { case ((s, _), e) => s.environmentId === e.environmentId }
-        .joinLeft(Tables.ModelVersion)
-        .on { case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
-        .joinLeft(Tables.Model)
-        .on { case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
+      joinedQ
+        .filter(_._1.serviceId inSetBind ids)
         .result
-    ).map(mapFromDb)
+    ).map(_.map(mapEntity))
   }
 
-  override def getByModelIds(modelIds: Seq[Long]): Future[Seq[Service]] =
-    db.run(
-      Tables.Service
-        .joinLeft(Tables.Runtime)
-        .on { case (s, r) => s.runtimeId === r.runtimeId }
-        .joinLeft(Tables.Environment)
-        .on { case ((s, _), e) => s.environmentId === e.environmentId }
-        .joinLeft(Tables.ModelVersion)
-        .on { case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
-        .joinLeft(Tables.Model)
-        .on { case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
-        .filter { case ((_, mv), _) => mv.flatMap(_.modelId) inSetBind modelIds }
-        .result
-    ).map(mapFromDb)
-
-  override def getByRuntimeIds(runtimeIds: Set[Long]): Future[Seq[Service]] =
-    db.run(
-      Tables.Service
-        .joinLeft(Tables.Runtime)
-        .on { case (s, r) => s.runtimeId === r.runtimeId }
-        .joinLeft(Tables.Environment)
-        .on { case ((s, _), e) => s.environmentId === e.environmentId }
-        .joinLeft(Tables.ModelVersion)
-        .on { case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
-        .joinLeft(Tables.Model)
-        .on { case ((((_, _), _), mv), m) => mv.flatMap(_.modelId) === m.modelId }
-        .filter { case ((((_, r), _), _), _) => r.map(_.runtimeId) inSetBind runtimeIds }
-        .result
-    ).map(mapFromDb)
-
-  override def getLastServiceByModelName(modelName: String): Future[Option[Service]] =
-    db.run(
-      Tables.Service
-        .joinLeft(Tables.Runtime)
-        .on { case (s, r) => s.runtimeId === r.runtimeId }
-        .joinLeft(Tables.Environment)
-        .on { case ((s, _), e) => s.environmentId === e.environmentId }
-        .joinLeft(Tables.ModelVersion)
-        .on { case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
-        .joinLeft(Tables.Model)
-        .on { case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
-        .filter { case ((_, mv), _) => mv.map(_.modelName) === modelName }
-        .result.headOption
-    ).map(mapFromDb)
-
-  override def getLastServiceByModelNameAndVersion(modelName: String, modelVersion: Long): Future[Option[Service]] =
-    db.run(
-      Tables.Service
-        .joinLeft(Tables.Runtime)
-        .on { case (s, r) => s.runtimeId === r.runtimeId }
-        .joinLeft(Tables.Environment)
-        .on { case ((s, _), e) => s.environmentId === e.environmentId }
-        .joinLeft(Tables.ModelVersion)
-        .on { case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
-        .joinLeft(Tables.Model)
-        .on { case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
-        .filter { case ((_, mv), _) => mv.map(_.modelName) === modelName && mv.map(_.modelVersion) === modelVersion }
-        .result.headOption
-    ).map(mapFromDb)
-
-  override def getByModelVersionIds(modelIds: Seq[Long]): Future[Seq[Service]] =
-    db.run(
-      Tables.Service
-        .joinLeft(Tables.Runtime)
-        .on { case (s, r) => s.runtimeId === r.runtimeId }
-        .joinLeft(Tables.Environment)
-        .on { case ((s, _), e) => s.environmentId === e.environmentId }
-        .joinLeft(Tables.ModelVersion)
-        .on { case (((s, _), _), mv) => s.modelVersionId === mv.modelVersionId }
-        .joinLeft(Tables.Model)
-        .on { case ((_, mv), m) => mv.flatMap(_.modelId) === m.modelId }
-        .filter { case ((_, mv), _) => mv.map(_.modelVersionId) inSetBind modelIds }
-        .result
-    ).map(mapFromDb)
-
-  override def fetchServices(serviceDescs: Set[ServiceKeyDescription]): Future[Seq[Service]] = {
-    val runtimeIdx = serviceDescs.map(_.runtimeId)
-    for {
-      services <- getByRuntimeIds(runtimeIdx)
-    } yield {
-      val filtered = services.filter { service =>
-        serviceDescs.contains(service.toServiceKeyDescription)
-      }
-      logger.debug(s"services=$services")
-      logger.debug(s"filtered=$filtered")
-      filtered
-    }
-  }
-
-  override def update(entity: Service): Future[Int] = ???
+  override def fetchServices(serviceDescs: Set[Long]): Future[Seq[Service]] = db.run {
+    joinedQ
+      .filter(_._1.modelVersionId inSetBind serviceDescs)
+      .result
+  }.map(_.map(mapEntity))
 }
 
 object ServiceRepositoryImpl {
-
-  def mapFromDb(model: Option[((((Tables.Service#TableElementType, Option[Tables.Runtime#TableElementType]), Option[Tables.Environment#TableElementType]),
-    Option[Tables.ModelVersion#TableElementType]), Option[Tables.Model#TableElementType])]): Option[Service] =
-    model.map(mapFromDb)
-
-  def mapFromDb(tuples: Seq[
-    ((((Tables.Service#TableElementType, Option[Tables.Runtime#TableElementType]), Option[Tables.Environment#TableElementType]),
-      Option[Tables.ModelVersion#TableElementType]), Option[Tables.Model#TableElementType])]): Seq[Service] = {
-    tuples.map(mapFromDb)
-  }
-
-  def mapFromDb(tuple: (Tables.Service#TableElementType, Tables.ModelVersion#TableElementType)): Service = {
-    tuple match {
-      case (service, modelVersion) =>
-        mapFromDb(
-          service,
-          ModelVersionRepository.mapFromDb(modelVersion)
-        )
+  def mapEntity(x: (Tables.ServiceRow, Tables.ModelVersionRow, Tables.ModelRow, Option[Tables.HostSelectorRow])): Service = {
+    x match {
+      case (service, version, model, selector) =>
+        val v = ModelVersionRepository.mapFromDb((version, model, selector))
+        mapFrom(service, v)
     }
   }
 
-  def mapFromDb(
-    model: Tables.Service#TableElementType,
-    modelVersion: ModelVersion
-  ): Service = {
+  def mapFrom(service: Tables.ServiceRow, modelVersion: ModelVersion): Service = {
     Service(
-      id = model.serviceId,
-      serviceName = model.serviceName,
-      cloudDriverId = model.cloudDriverId,
-      model = modelVersion,
-      statusText = model.statusText,
-      configParams = model.configParams.map(s => {
-        val arr = s.split('=')
-        arr.head -> arr.drop(1).mkString("=")
-      }).toMap
+      id = service.serviceId,
+      cloudDriverId = service.cloudDriverId,
+      serviceName = service.serviceName,
+      modelVersion = modelVersion,
+      statusText = service.statusText,
+      configParams = parseConfigParams(service.configParams)
     )
+  }
+  def parseConfigParams(strs: Seq[String]) = {
+    strs.map{s =>
+      val arr = s.split('=')
+      arr.head -> arr.drop(1).mkString("=")
+    }.toMap
   }
 }

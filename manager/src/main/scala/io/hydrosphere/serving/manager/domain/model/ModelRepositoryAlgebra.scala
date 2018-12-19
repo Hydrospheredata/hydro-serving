@@ -11,8 +11,6 @@ trait ModelRepositoryAlgebra[F[_]] {
 
   def all(): F[Seq[Model]]
 
-  def fetchByModelType(types: Seq[ModelType]): F[Seq[Model]]
-
   def get(name: String): F[Option[Model]]
 
   def getMany(ids: Set[Long]): F[Seq[Model]]

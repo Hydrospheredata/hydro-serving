@@ -1,7 +1,8 @@
 package io.hydrosphere.serving.manager.domain.application
 
 import cats.data.EitherT
-import cats.implicits._
+import cats.instances.future._
+import cats.instances.either._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.api.http.controller.application._
@@ -40,7 +41,7 @@ class ApplicationService(
   environmentManagementService: HostSelectorService,
   serviceManagementService: ServiceManagementService,
   internalManagerEventsPublisher: InternalManagerEventsPublisher,
-  applicationConfig: ApplicationConfig,
+  applicationConfig: ApplicationConfig
 )(implicit val ex: ExecutionContext) extends Logging {
 
   type FutureMap[T] = Future[Map[Long, T]]
@@ -54,18 +55,6 @@ class ApplicationService(
 
   def allApplications(): Future[Seq[Application]] = {
     applicationRepository.all()
-  }
-
-  def findVersionUsage(versionId: Long): Future[Seq[Application]] = {
-    allApplications().map { apps =>
-      apps.filter { app =>
-        app.executionGraph.stages.exists { stage =>
-          stage.services.exists { service =>
-            service.modelVersion.id == versionId
-          }
-        }
-      }
-    }
   }
 
   def generateInputsForApplication(appId: Long, signatureName: String): HFResult[JsObject] = {
@@ -104,7 +93,7 @@ class ApplicationService(
       existedServices = services.map(_.modelVersion.id)
 
       versions <- EitherT.liftF(modelVersionManagementService.get(keySet -- existedServices))
-      _ <- EitherT(deployModelVersion(versions))
+      _ <- EitherT(deployModelVersion(versions.toSet))
 
       createdApp <- EitherT(applicationRepository.create(app).map(Result.ok))
     } yield {
@@ -150,7 +139,7 @@ class ApplicationService(
 
       _ <- EitherT(removeServiceIfNeeded(keysSetOld -- keysSetNew, id))
       versions <- EitherT.liftF(modelVersionManagementService.get(keysSetNew -- keysSetOld))
-      _ <- EitherT(deployModelVersion(versions))
+      _ <- EitherT(deployModelVersion(versions.toSet))
 
       _ <- EitherT(applicationRepository.update(newApplication).map(Result.ok))
     } yield {

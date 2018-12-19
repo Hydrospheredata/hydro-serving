@@ -24,13 +24,60 @@ trait ContractJsonProtocol extends CommonJsonProtocol {
   implicit val tensorShapeFormat = jsonFormat2(TensorShapeProto.apply)
 
   implicit val modelFieldFormat = new RootJsonFormat[ModelField] {
-    override def read(json: JsValue): ModelField = ???
+
+    object DtypeJson {
+      def unapply(arg: JsValue): Option[(JsString, Option[JsObject], JsString)] = {
+        arg match {
+          case JsObject(fields) =>
+            for {
+              name <- fields.get("name")
+              dtype <- fields.get("dtype")
+            } yield (
+              name.asInstanceOf[JsString],
+              fields.get("shape").map(_.asInstanceOf[JsObject]),
+              dtype.asInstanceOf[JsString]
+            )
+          case _ => None
+        }
+      }
+    }
+
+    object SubfieldsJson {
+      def unapply(arg: JsValue): Option[(JsString, Option[JsObject], JsArray)] = {
+        arg match {
+          case JsObject(fields) =>
+            for {
+              name <- fields.get("name")
+              subfields <- fields.get("subfields")
+            } yield (
+              name.asInstanceOf[JsString],
+              fields.get("shape").map(_.asInstanceOf[JsObject]),
+              subfields.asInstanceOf[JsArray]
+            )
+          case _ => None
+        }
+      }
+    }
+
+    override def read(json: JsValue): ModelField = json match {
+      case DtypeJson(name, shape, dtype) =>
+        ModelField(name.value, shape.map(_.convertTo[TensorShapeProto]), ModelField.TypeOrSubfields.Dtype(DataType.fromName(dtype.value).get))
+
+      case SubfieldsJson(name, shape, subs) =>
+        val subfields = ModelField.TypeOrSubfields.Subfields(
+          ModelField.Subfield(subs.elements.map(read))
+        )
+        ModelField(name.value, shape.map(_.convertTo[TensorShapeProto]), subfields)
+
+      case x => throw DeserializationException(s"Invalid ModelField: $x")
+    }
 
     override def write(obj: ModelField): JsValue = {
       val fields = new mutable.HashMap[String, JsValue]()
       fields += "name" -> JsString(obj.name)
-      fields += "shape" -> obj.shape.map(_.toJson).getOrElse(JsNull)
-
+      obj.shape.foreach { shape =>
+        fields += "shape" -> shape.toJson
+      }
       obj.typeOrSubfields match {
         case ModelField.TypeOrSubfields.Dtype(value) =>
           fields += "dtype" -> JsString(value.name)

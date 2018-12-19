@@ -162,26 +162,10 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
         ),
         Route(
           `match` = Some(RouteMatch(
-            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/api-docs")
-          )),
-          action = Route.Action.Route(RouteAction(
-            clusterSpecifier = ClusterSpecifier.Cluster(MANAGER_HTTP_NAME)
-          ))
-        ),
-        Route(
-          `match` = Some(RouteMatch(
             pathSpecifier = RouteMatch.PathSpecifier.Prefix("/swagger")
           )),
           action = Route.Action.Route(RouteAction(
             clusterSpecifier = ClusterSpecifier.Cluster(MANAGER_HTTP_NAME)
-          ))
-        ),
-        Route(
-          `match` = Some(RouteMatch(
-            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/api/v1/applications/serve")
-          )),
-          action = Route.Action.Route(RouteAction(
-            clusterSpecifier = ClusterSpecifier.Cluster(GATEWAY_HTTP_NAME)
           ))
         ),
         Route(

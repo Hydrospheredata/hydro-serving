@@ -6,7 +6,8 @@ import cats.data.EitherT
 import cats.implicits._
 import com.spotify.docker.client.ProgressHandler
 import com.spotify.docker.client.messages.ProgressMessage
-import io.hydrosphere.serving.manager.api.http.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
+import io.hydrosphere.serving.manager.domain.application.ApplicationRepositoryAlgebra
 import io.hydrosphere.serving.manager.domain.build_script.BuildScriptService
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorService
 import io.hydrosphere.serving.manager.domain.image.DockerImage
@@ -23,10 +24,17 @@ class ModelVersionService(
   buildScriptService: BuildScriptService,
   hostSelectorService: HostSelectorService,
   modelBuildService: ModelBuildAlgebra,
-  modelPushService: ModelVersionPushAlgebra
+  modelPushService: ModelVersionPushAlgebra,
+  applicationRepo: ApplicationRepositoryAlgebra[Future]
 )(
   implicit executionContext: ExecutionContext
 ) extends Logging {
+
+  def deleteVersions(mvs: Seq[ModelVersion]): HFResult[Seq[ModelVersion]] = {
+    Result.traverseF(mvs) { version =>
+      delete(version.id)
+    }
+  }
 
   def fetchLastModelVersion(modelId: Long, modelVersion: Option[Long]): HFResult[Long] = {
     modelVersion match {
@@ -57,11 +65,23 @@ class ModelVersionService(
     }
   }
 
-  def get(key: Set[Long]): Future[Set[ModelVersion]] = {
-    modelVersionRepository.get(key)
+  def get(key: Set[Long]): Future[Seq[ModelVersion]] = {
+    modelVersionRepository.get(key.toSeq)
   }
 
-  def list: Future[Seq[ModelVersion]] = modelVersionRepository.all()
+  def list: Future[Seq[ModelVersionView]] = {
+    for {
+      allVersions <- modelVersionRepository.all()
+      f <- Future.traverse(allVersions.map(_.id)) { x =>
+        applicationRepo.findVersionsUsage(x).map(x -> _)
+      }
+      usageMap = f.toMap
+    } yield {
+      allVersions.map { v =>
+        ModelVersionView.fromVersion(v, usageMap.getOrElse(v.id, Seq.empty))
+      }
+    }
+  }
 
   private def nextVersion(lastModel: Option[ModelVersion]): Long = lastModel match {
     case None => 1
@@ -70,10 +90,6 @@ class ModelVersionService(
 
   def create(version: ModelVersion): HFResult[ModelVersion] = {
     modelVersionRepository.create(version).map(Result.ok)
-  }
-
-  def lastModelVersionForModels(ids: Seq[Long]): Future[Seq[ModelVersion]] = {
-    modelVersionRepository.lastModelVersionForModels(ids)
   }
 
   def modelVersionsByModelVersionIds(modelIds: Set[Long]): Future[Seq[ModelVersion]] = {
@@ -94,7 +110,7 @@ class ModelVersionService(
     f.value
   }
 
-  def build(model: Model, modelUpload: ModelUpload, storageUploadResult: StorageUploadResult): HFResult[ModelVersion] = {
+  def build(model: Model, modelUpload: ModelUploadMetadata, storageUploadResult: StorageUploadResult): HFResult[ModelVersion] = {
     logger.debug(model)
     val messageHandler = new ProgressHandler {
       override def progress(message: ProgressMessage): Unit = {

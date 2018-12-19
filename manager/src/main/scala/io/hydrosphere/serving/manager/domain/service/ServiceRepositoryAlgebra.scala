@@ -17,14 +17,4 @@ trait ServiceRepositoryAlgebra[F[_]] {
   def updateCloudDriveId(serviceId: Long, cloudDriveId: Option[String]): F[Int]
 
   def getByServiceName(serviceName: String): F[Option[Service]]
-
-  def getByModelIds(modelIds: Seq[Long]): F[Seq[Service]]
-
-  def getLastServiceByModelName(modelName: String): F[Option[Service]]
-
-  def getLastServiceByModelNameAndVersion(modelName: String, modelVersion: Long): F[Option[Service]]
-
-  def getByModelVersionIds(modelIds: Seq[Long]): F[Seq[Service]]
-
-  def getByRuntimeIds(runtimeIds: Set[Long]): F[Seq[Service]]
 }

@@ -1,7 +1,7 @@
 CREATE TABLE hydro_serving.model
 (
-  model_id          BIGSERIAL PRIMARY KEY,
-  name              TEXT      NOT NULL
+  model_id           BIGSERIAL PRIMARY KEY,
+  name               TEXT      NOT NULL
 );
 
 CREATE TABLE hydro_serving.host_selector
@@ -23,7 +23,7 @@ CREATE TABLE hydro_serving.model_version
   model_type        TEXT                        NOT NULL,
   image_name        TEXT                        NOT NULL,
   image_tag         TEXT                        NOT NULL,
-  image_sha256      TEXT                        NOT NULL,
+  image_sha256      TEXT,
   runtimeName       TEXT                        NOT NULL,
   runtimeVersion    TEXT                        NOT NULL,
   status            TEXT                        NOT NULL
@@ -32,11 +32,11 @@ CREATE TABLE hydro_serving.model_version
 CREATE TABLE hydro_serving.service
 (
   service_id       BIGSERIAL PRIMARY KEY,
-  service_name     TEXT                                             NOT NULL UNIQUE,
+  service_name     TEXT                                               NOT NULL UNIQUE,
   cloud_driver_id  TEXT,
-  model_version_id BIGINT REFERENCES model_version (model_version_id),
-  status_text      TEXT                                             NOT NULL,
-  config_params    TEXT []                                          NOT NULL
+  model_version_id BIGINT REFERENCES model_version (model_version_id) NOT NULL,
+  status_text      TEXT                                               NOT NULL,
+  config_params    TEXT []                                            NOT NULL
 );
 
 CREATE TABLE hydro_serving.application

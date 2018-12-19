@@ -58,7 +58,7 @@ object HostSelectorRepository {
     HostSelector(
       id = dbType.hostSelectorId,
       name = dbType.name,
-      placeholder = dbType.placeholders
+      placeholder = dbType.placeholder
     )
   }
 }

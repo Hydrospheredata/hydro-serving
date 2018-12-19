@@ -67,13 +67,8 @@ class ManagerServices(
     buildScriptManagementService,
     hostSelectorService,
     modelBuildService,
-    modelPushService
-  )
-
-  val modelManagementService = new ModelService(
-    managerRepositories.modelRepository,
-    modelVersionManagementService,
-    sourceManagementService
+    modelPushService,
+    managerRepositories.applicationRepository
   )
 
   val cloudDriverService = managerConfiguration.cloudDriver match {
@@ -98,6 +93,13 @@ class ManagerServices(
     internalManagerEventsPublisher = internalManagerEventsPublisher,
     applicationConfig = managerConfiguration.application,
     environmentManagementService = hostSelectorService
+  )
+
+  val modelManagementService = new ModelService(
+    managerRepositories.modelRepository,
+    modelVersionManagementService,
+    sourceManagementService,
+    managerRepositories.applicationRepository
   )
 
   val envoyGRPCDiscoveryService: EnvoyGRPCDiscoveryService = new EnvoyGRPCDiscoveryServiceImpl(

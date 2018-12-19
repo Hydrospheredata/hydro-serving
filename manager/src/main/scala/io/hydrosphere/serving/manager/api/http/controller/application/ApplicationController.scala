@@ -10,7 +10,7 @@ import javax.ws.rs.Path
 import scala.concurrent.duration._
 
 
-@Path("/api/v2/applications")
+@Path("/api/v2/application")
 @Api(produces = "application/json", tags = Array("Application"))
 class ApplicationController(
   applicationManagementService: ApplicationService
@@ -23,7 +23,7 @@ class ApplicationController(
     new ApiResponse(code = 200, message = "Application", response = classOf[Application], responseContainer = "List"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def listAll = pathPrefix("applications") {
+  def listAll = path("application") {
     get {
       complete(applicationManagementService.allApplications())
     }
@@ -34,13 +34,13 @@ class ApplicationController(
   @ApiOperation(value = "Add Application", notes = "Add Application", nickname = "addApplication", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "Application", required = true,
-                         dataTypeClass = classOf[CreateApplicationRequest], paramType = "body")
+      dataTypeClass = classOf[CreateApplicationRequest], paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Application", response = classOf[Application]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def create = pathPrefix("applications") {
+  def create = path("application") {
     post {
       entity(as[CreateApplicationRequest]) { r =>
         completeFRes(
@@ -54,13 +54,13 @@ class ApplicationController(
   @ApiOperation(value = "Update Application", notes = "Update Application", nickname = "updateApplication", httpMethod = "PUT")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "ApplicationCreateOrUpdateRequest", required = true,
-                         dataTypeClass = classOf[UpdateApplicationRequest], paramType = "body")
+      dataTypeClass = classOf[UpdateApplicationRequest], paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Application", response = classOf[Application]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def update = pathPrefix("applications") {
+  def update = pathPrefix("application") {
     put {
       entity(as[UpdateApplicationRequest]) { r =>
         completeFRes(
@@ -80,7 +80,7 @@ class ApplicationController(
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def deleteApplication = delete {
-    pathPrefix("applications" / LongNumber) { serviceId =>
+    pathPrefix("application" / LongNumber) { serviceId =>
       completeFRes(applicationManagementService.deleteApplication(serviceId))
     }
   }
@@ -95,7 +95,7 @@ class ApplicationController(
     new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def generateInputsForApp = pathPrefix("applications" / "generateInputs" / LongNumber / Segment) { (appId, signatureName) =>
+  def generateInputsForApp = pathPrefix("application" / "generateInputs" / LongNumber / Segment) { (appId, signatureName) =>
     get {
       complete(
         applicationManagementService.generateInputsForApplication(appId, signatureName)
