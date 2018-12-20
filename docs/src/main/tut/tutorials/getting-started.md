@@ -76,7 +76,7 @@ After that run this file for a minute and it will create for you a new file with
 $ python model.py
 ```
 
-## Preparing a model
+## Preparing the model
 
 ML Lambda serves all models as Docker containers. Everytime it handles a request, it passes it to the appropriate Docker container with your model deployed on it. An important detail is that all model's files are stored in the `/model/files` directory inside the container. So, we will look up there in order to load the model. 
 
@@ -178,7 +178,7 @@ linear_regression
 
 _Note: Although, we have `model.py` inside directory, it won't be uploaded to ML Lambda since we didn't specify it in the contract's payload._
 
-## Serving a model
+## Serving the model
 
 Now we can upload the model. 
 

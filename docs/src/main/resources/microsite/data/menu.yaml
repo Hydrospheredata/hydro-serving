@@ -6,32 +6,26 @@ options:
     url: "installation.html"
 
   - title: Tutorials
-    url: "tutorials.html"
+    url: "getting-started.html"
 
     nested_options: 
       - title: Getting Started
         url: "getting-started.html"
-
-      - title: Deploy Python Model
-        url: "something.html"
+      
+      - title: Upload Tensorflow Model
+        url: "tensorflow.html"
+      
+      - title: Upload Python Model
+        url: "python.html"
 
   - title: How-To
     url: "something.html"
 
     nested_options:
-      - title: Deploy Tensorflow Model
-        url: "tensorflow.html"
-      
-      - title: Deploy Keras Model
-        url: "keras.html"
-
       - title: Write Contracts
         url: "something.html"
         
       - title: Invoke Models
-        url: "something.html"
-
-      - title: Configure ML Lambda
         url: "something.html"
 
   - title: Concepts

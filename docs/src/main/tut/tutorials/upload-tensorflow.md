@@ -1,17 +1,17 @@
 ---
 layout: docs
-title:  "Deploy Tensorflow Model"
+title:  "Upload Tensorflow Model"
 permalink: "tensorflow.html"
 ---
 
-# Deploy Tensorflow Model
+# Upload Tensorflow Model
 
 Deploying Tensorflow models does not require any additional contract writings since ML Lambda can automatically infer models' signatures. Running Tensorflow models can be done with `hydrosphere/serving-runtime-tensorflow` runtime. The only thing you have to worry about is how to properly export your model with `tf.saved_model`.
 
-In this article we will create a simple Tensorflow classifier using different APIs, train it and deploy on ML Lambda.
+In this page we will cover how to create a simple Tensorflow classifier using different APIs, train it and deploy on ML Lambda.
 
-- [Basic API]({{site.baseurl}}{%link how-to/tensorflow.md%}#basic-api)
-- [Estimator API]({{site.baseurl}}{%link how-to/tensorflow.md%}#estimator-api)
+- [Basic API]({{site.baseurl}}{%link tutorials/upload-tensorflow.md%}#basic-api)
+- [Estimator API]({{site.baseurl}}{%link tutorials/upload-tensorflow.md%}#estimator-api)
 
 <br>
 <br>
@@ -183,3 +183,8 @@ Again, after the model has been trained and saved, we can upload it to ML Lambda
 $ cd ${EXPORT_DIR}
 $ hs upload
 ```
+
+# What's next?
+
+- Learn, how to work with CLI;
+- Learn, how to invoke models;
