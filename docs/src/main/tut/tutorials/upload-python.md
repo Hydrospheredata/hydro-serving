@@ -38,7 +38,7 @@ def infer(number):
     return hs.PredictResponse(outputs={"number": response_tensor})
 ```
 
-There are different ways of handling incoming tensors. Here we've used a Tensorflow function `tf.make_ndarray` to create a numpy ndarray from a raw TensorProto-like structure `number`. Then we've added a one to that ndarray, packed it to a response tensor and returned it as a result. 
+There are different ways of handling incoming tensors. Here we've used a Tensorflow function `tf.make_ndarray` to create a numpy ndarray from a raw [TensorProto](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/tensor.proto)-like structure `number`. Then we've added a one to that ndarray, packed it back to a response tensor and returned it as a result. 
 
 ### Define dependencies 
 
@@ -85,9 +85,12 @@ That's it, you've just created a simple model which you can use within your busi
 $ hs upload
 ```
 
+<br>
+<hr>
+
 # What's next?
 
 - Learn, how to work with CLI;
-- Learn, how to upload Tensorflow models;
+- [Learn, how to upload Tensorflow models]({{site.baseurl}}{%link tutorials/upload-tensorflow.md%});
 - Learn, how to invoke models;
-- Learn, how to write Contracts;
+- Learn, how to write contracts;

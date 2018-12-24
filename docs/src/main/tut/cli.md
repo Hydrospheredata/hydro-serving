@@ -57,7 +57,7 @@ $ hs cluster rm new_local
 
 ### `hs upload`
 
-When you upload a model, the tool looks for `serving.yaml` file in current directory. `serving.yaml` defines model's metadata and it's contract. For more information, check out [contracts]({{site.baseurl}}{%link models.md%}#contracts).
+When you upload a model, the tool looks for `serving.yaml` file in current directory. `serving.yaml` defines model's metadata and it's contract. For more information, check out [contracts]({{site.baseurl}}{%link concepts/models.md%}#contracts).
 
 ```yaml
 # Example model

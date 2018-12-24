@@ -94,26 +94,25 @@ $ cd src
 $ touch func_main.py
 ```
 
-The idea is pretty simple - you just have to define a function, that will be invoked everytime your ML Lambda passes a request to the model's container. Inside that function you have to call a `predict` (or something similar) method of your model and return your predictions. 
-
+ML Lambda communicates with the model via [TensorProto](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/tensor.proto) messages. For Python models if you want to perform some transformation on the received TensorProto message you have to retrieve its content, make an action with it and pack the result back to the TensorProto message. To do that you have to define a funciton, that will be invoked everytime ML Lambda handles a request and passes it to the model. Inside the funciton you have to call a `predict` (or similiar) method of your model and return your predictions. 
 
 ```python
 import numpy as np
 import hydro_serving_grpc as hs
 from keras.models import load_model
 
-# 0. Load model
+# 0. Load model once
 model = load_model('/model/files/model.h5')
 
 def infer(x):
-    # 1. Prepare data points
+    # 1. Retrieve tensor's content and put it to numpy array
     data = np.array(x.double_val)
     data = data.reshape([dim.size for dim in x.tensor_shape.dim])
 
-    # 2. Make prediction
+    # 2. Make a prediction
     result = model.predict(data)
     
-    # 3. Pack answer
+    # 3. Pack the answer
     y_shape = hs.TensorShapeProto(dim=[hs.TensorShapeProto.Dim(size=-1)])
     y_tensor = hs.TensorProto(
         dtype=hs.DT_DOUBLE,
@@ -239,6 +238,9 @@ result = stub.Predict(request)
 ```
 
 _Note: For convinience we've already generated all our proto files to a python library and published it in PyPI. You can install it via `pip install hydro-serving-grpc`_ 
+
+<br>
+<hr>
 
 # What's next?
 

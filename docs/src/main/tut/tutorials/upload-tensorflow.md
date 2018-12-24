@@ -14,7 +14,6 @@ In this page we will cover how to create a simple Tensorflow classifier using di
 - [Estimator API]({{site.baseurl}}{%link tutorials/upload-tensorflow.md%}#estimator-api)
 
 <br>
-<br>
 
 ## Basic API
 
@@ -126,7 +125,6 @@ $ hs upload
 ```
 
 <br>
-<br>
 
 ## Estimator API
 
@@ -183,6 +181,9 @@ Again, after the model has been trained and saved, we can upload it to ML Lambda
 $ cd ${EXPORT_DIR}
 $ hs upload
 ```
+
+<br>
+<hr> 
 
 # What's next?
 
