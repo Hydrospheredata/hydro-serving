@@ -10,7 +10,7 @@ import akka.http.scaladsl.server._
 import akka.stream.Materializer
 import akka.stream.scaladsl.FileIO
 import io.hydrosphere.serving.manager.infrastructure.protocol.CompleteJsonProtocol
-import io.hydrosphere.serving.model.api.Result.{HError, InternalError}
+import io.hydrosphere.serving.model.api.Result.{ClientError, HError, InternalError}
 import io.hydrosphere.serving.model.api.{HFResult, HResult}
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
@@ -85,12 +85,22 @@ trait GenericController extends CompleteJsonProtocol with Logging {
   final def completeRes[T: ToResponseMarshaller](res: HResult[T]): Route = {
     res match {
       case Left(a) =>
-        complete(
-          HttpResponse(
-            status = StatusCodes.InternalServerError,
-            entity = HttpEntity(ContentTypes.`application/json`, a.toJson.toString)
-          )
-        )
+        a match {
+          case ClientError(_) =>
+            complete(
+              HttpResponse(
+                status = StatusCodes.BadRequest,
+                entity = HttpEntity(ContentTypes.`application/json`, a.toJson.toString)
+              )
+            )
+          case InternalError(_, _) =>
+            complete(
+              HttpResponse(
+                status = StatusCodes.InternalServerError,
+                entity = HttpEntity(ContentTypes.`application/json`, a.toJson.toString)
+              )
+            )
+        }
       case Right(b) => complete(b)
     }
   }
