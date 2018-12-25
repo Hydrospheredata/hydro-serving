@@ -8,6 +8,7 @@ import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.Model
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersionStatus.ModelVersionStatus
 import io.hydrosphere.serving.model.api.ModelType
+import io.hydrosphere.serving.monitoring.data_profile_types.DataProfileType
 
 
 case class ModelVersion(
@@ -22,4 +23,5 @@ case class ModelVersion(
   model: Model,
   hostSelector: Option[HostSelector],
   status: ModelVersionStatus,
+  profileTypes: Map[String, DataProfileType]
 )

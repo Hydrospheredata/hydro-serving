@@ -14,7 +14,7 @@ import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.Model
 import io.hydrosphere.serving.manager.infrastructure.storage.StorageUploadResult
 import io.hydrosphere.serving.model.api.Result.HError
-import io.hydrosphere.serving.model.api.{HFResult, ModelType, Result}
+import io.hydrosphere.serving.model.api.{HFResult, Result}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -120,7 +120,7 @@ class ModelVersionService(
     }
     val f = for {
       version <- EitherT(fetchLastModelVersion(model.id, None))
-      modelType = modelUpload.modelType.map(ModelType.fromTag).getOrElse(storageUploadResult.modelType)
+      modelType = modelUpload.modelType.getOrElse(storageUploadResult.modelType)
       script <- EitherT.liftF(buildScriptService.fetchScriptForModelType(modelType))
       contract = modelUpload.contract.getOrElse(storageUploadResult.modelContract)
       image = modelPushService.getImage(model.name, version)
@@ -138,7 +138,8 @@ class ModelVersionService(
         ),
         model = model,
         hostSelector = None, // TODO Fix later
-        status = ModelVersionStatus.Started
+        status = ModelVersionStatus.Started,
+        profileTypes = modelUpload.profileTypes.getOrElse(Map.empty)
       )
       modelVersion <- EitherT(create(mv))
     } yield (script, modelVersion)

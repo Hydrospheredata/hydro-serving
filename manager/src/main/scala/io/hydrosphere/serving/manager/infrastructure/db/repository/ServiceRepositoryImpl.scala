@@ -17,7 +17,6 @@ class ServiceRepositoryImpl(
   import databaseService._
   import databaseService.driver.api._
 
-
   def joinedVersionQ = Tables.ModelVersion
     .join(Tables.Model)
     .on((mv, m) => mv.modelId === m.modelId)

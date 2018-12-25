@@ -24,9 +24,10 @@ CREATE TABLE hydro_serving.model_version
   image_name        TEXT                        NOT NULL,
   image_tag         TEXT                        NOT NULL,
   image_sha256      TEXT,
-  runtimeName       TEXT                        NOT NULL,
-  runtimeVersion    TEXT                        NOT NULL,
-  status            TEXT                        NOT NULL
+  runtime_name       TEXT                        NOT NULL,
+  runtime_version    TEXT                        NOT NULL,
+  status            TEXT                        NOT NULL,
+  profileTypes      TEXT
 );
 
 CREATE TABLE hydro_serving.service

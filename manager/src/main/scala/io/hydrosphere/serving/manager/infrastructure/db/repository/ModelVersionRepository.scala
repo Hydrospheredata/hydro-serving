@@ -8,6 +8,9 @@ import io.hydrosphere.serving.manager.domain.model.Model
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepositoryAlgebra, ModelVersionStatus}
 import io.hydrosphere.serving.manager.infrastructure.db.DatabaseService
 import io.hydrosphere.serving.model.api.ModelType
+import spray.json._
+import io.hydrosphere.serving.manager.infrastructure.protocol.CompleteJsonProtocol._
+import io.hydrosphere.serving.monitoring.data_profile_types.DataProfileType
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -43,9 +46,10 @@ class ModelVersionRepository(
         modelType = entity.modelType.toTag,
         hostSelector = entity.hostSelector.map(_.id),
         finishedTimestamp = entity.finished,
-        runtimename = entity.runtime.name,
-        runtimeversion = entity.runtime.tag,
+        runtimeName = entity.runtime.name,
+        runtimeVersion = entity.runtime.tag,
         status = entity.status.toString,
+        profiletypes = if (entity.profileTypes.isEmpty) None else Some(entity.profileTypes.toJson.compactPrint)
       )
     ).map(x => mapFromDb(x, entity.model, entity.hostSelector))
 
@@ -144,12 +148,13 @@ object ModelVersionRepository {
       modelType = ModelType.fromTag(x.modelType),
       modelContract = ModelContract.fromAscii(x.modelContract),
       runtime = DockerImage(
-        name = x.runtimename,
-        tag = x.runtimeversion
+        name = x.runtimeName,
+        tag = x.runtimeVersion
       ),
       model = model,
       hostSelector = hostSelector,
-      status = ModelVersionStatus.withName(x.status)
+      status = ModelVersionStatus.withName(x.status),
+      profileTypes = x.profiletypes.map(_.parseJson.convertTo[Map[String, DataProfileType]]).getOrElse(Map.empty)
     )
   }
 }

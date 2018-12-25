@@ -8,7 +8,7 @@ import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetad
 import io.hydrosphere.serving.manager.config.ManagerConfiguration
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.ModelFetcher
 import io.hydrosphere.serving.manager.util.TarGzUtils
-import io.hydrosphere.serving.model.api.{HFResult, ModelType, Result}
+import io.hydrosphere.serving.model.api.{HFResult, Result}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -45,7 +45,7 @@ class ModelStorageServiceImpl(
 
       val inferredMeta = ModelFetcher.fetch(storage, unpackDir.toString)
       val contract = meta.contract.getOrElse(inferredMeta.contract).copy(modelName = modelName)
-      val modelType = meta.modelType.map(ModelType.fromTag).getOrElse(inferredMeta.modelType)
+      val modelType = meta.modelType.getOrElse(inferredMeta.modelType)
       Result.okF(
         StorageUploadResult(
           name = modelName,

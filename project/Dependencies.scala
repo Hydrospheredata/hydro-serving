@@ -109,6 +109,7 @@ object Dependencies {
     mlDependencies ++
     Seq(
       "org.typelevel" %% "cats-core" % catsV,
+      "org.typelevel" %% "cats-effect" % catsV,
       "org.postgresql" % "postgresql" % postgresqlVersion,
       "com.typesafe.slick" %% "slick" % slickVersion,
       "com.typesafe.slick" %% "slick-hikaricp" % slickVersion,
