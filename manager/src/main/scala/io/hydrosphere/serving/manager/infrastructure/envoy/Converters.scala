@@ -6,6 +6,7 @@ import io.hydrosphere.serving.manager.domain.model.Model
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersion
 import io.hydrosphere.serving.manager.grpc.applications.{ExecutionGraph, ExecutionService, ExecutionStage, KafkaStreaming, Application => GApp}
 import io.hydrosphere.serving.manager.grpc.entities
+import io.hydrosphere.serving.manager.grpc.entities.DockerImage
 
 object Converters {
 
@@ -45,33 +46,29 @@ object Converters {
   def grpcModelVersion(modelVersion: ModelVersion): entities.ModelVersion = {
     entities.ModelVersion(
       id = modelVersion.id,
-      imageName = modelVersion.image.name,
-      imageTag = modelVersion.image.tag,
+      version = modelVersion.modelVersion,
+      modelType = modelVersion.modelType.toTag,
+      status = modelVersion.status.toString,
+      selector = modelVersion.hostSelector.map(grpcHostSelector),
+      image = Some(DockerImage(modelVersion.image.name, modelVersion.image.tag)),
+      imageSha = modelVersion.image.sha256.getOrElse(""),
       model = Some(grpcModel(modelVersion.model)),
       contract = Some(modelVersion.modelContract),
+      dataTypes = modelVersion.profileTypes,
+      runtime = Some(DockerImage(modelVersion.runtime.name, modelVersion.runtime.tag))
     )
   }
 
-  def grpcHostSelector(hostSelector: HostSelector): entities.Environment = {
-    entities.Environment(
+  def grpcHostSelector(hostSelector: HostSelector): entities.HostSelector = {
+    entities.HostSelector(
       id = hostSelector.id,
       name = hostSelector.name
     )
   }
 
-  def grpcRuntime(modelVersion: ModelVersion): entities.Runtime = {
-    entities.Runtime(
-      id = 0,
-      name = modelVersion.runtime.name,
-      version = modelVersion.runtime.tag
-    )
-  }
-
   def grpcService(desc: DetailedServiceDescription): ExecutionService = {
     ExecutionService(
-      runtime = Some(grpcRuntime(desc.modelVersion)),
       modelVersion = Some(grpcModelVersion(desc.modelVersion)),
-      environment = desc.modelVersion.hostSelector.map(grpcHostSelector),
       weight = desc.weight
     )
   }

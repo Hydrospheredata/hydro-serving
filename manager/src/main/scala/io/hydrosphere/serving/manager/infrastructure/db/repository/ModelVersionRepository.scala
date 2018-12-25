@@ -10,7 +10,7 @@ import io.hydrosphere.serving.manager.infrastructure.db.DatabaseService
 import io.hydrosphere.serving.model.api.ModelType
 import spray.json._
 import io.hydrosphere.serving.manager.infrastructure.protocol.CompleteJsonProtocol._
-import io.hydrosphere.serving.monitoring.data_profile_types.DataProfileType
+import io.hydrosphere.serving.manager.data_profile_types.DataProfileType
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -49,7 +49,7 @@ class ModelVersionRepository(
         runtimeName = entity.runtime.name,
         runtimeVersion = entity.runtime.tag,
         status = entity.status.toString,
-        profiletypes = if (entity.profileTypes.isEmpty) None else Some(entity.profileTypes.toJson.compactPrint)
+        profileTypes = if (entity.profileTypes.isEmpty) None else Some(entity.profileTypes.toJson.compactPrint)
       )
     ).map(x => mapFromDb(x, entity.model, entity.hostSelector))
 
@@ -88,15 +88,6 @@ class ModelVersionRepository(
 
     db.run(action).map(_.map(mapFromDb))
   }
-
-  override def modelVersionByModelAndVersion(modelId: Long, version: Long): Future[Option[ModelVersion]] =
-    db.run(
-      joinedQ
-        .filter(r => r._1.modelId === modelId && r._1.modelVersion === version)
-        .sortBy(_._1.modelVersion.desc)
-        .distinctOn(_._1.modelId)
-        .result.headOption
-    ).map(_.map(mapFromDb))
 
   override def listForModel(modelId: Long): Future[Seq[ModelVersion]] = db.run {
     joinedQ
@@ -154,7 +145,7 @@ object ModelVersionRepository {
       model = model,
       hostSelector = hostSelector,
       status = ModelVersionStatus.withName(x.status),
-      profileTypes = x.profiletypes.map(_.parseJson.convertTo[Map[String, DataProfileType]]).getOrElse(Map.empty)
+      profileTypes = x.profileTypes.map(_.parseJson.convertTo[Map[String, DataProfileType]]).getOrElse(Map.empty)
     )
   }
 }

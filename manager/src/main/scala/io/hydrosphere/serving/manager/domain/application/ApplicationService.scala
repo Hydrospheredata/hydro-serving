@@ -263,7 +263,7 @@ class ApplicationService(
     }
   }
 
-  def inferServices(services: List[ServiceCreationDescription]): HFResult[Seq[DetailedServiceDescription]] = {
+  def inferServices(services: Seq[ServiceCreationDescription]): HFResult[Seq[DetailedServiceDescription]] = {
     Result.sequenceF {
       services.map { service =>
         val f = for {

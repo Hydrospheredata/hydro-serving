@@ -6,7 +6,6 @@ import akka.http.scaladsl.marshalling.ToResponseMarshaller
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
-import akka.http.scaladsl.server._
 import akka.stream.Materializer
 import akka.stream.scaladsl.FileIO
 import io.hydrosphere.serving.manager.infrastructure.protocol.CompleteJsonProtocol
@@ -113,6 +112,7 @@ trait GenericController extends CompleteJsonProtocol with Logging {
 }
 
 object GenericController {
+
   sealed trait UploadE
 
   case class UploadFile(path: Path) extends UploadE
@@ -120,4 +120,5 @@ object GenericController {
   case class UploadMeta(meta: JsValue) extends UploadE
 
   case class UploadUnknown(key: String, filename: Option[String]) extends UploadE
+
 }

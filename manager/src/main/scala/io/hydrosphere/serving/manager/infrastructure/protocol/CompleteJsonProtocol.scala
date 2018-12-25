@@ -56,7 +56,7 @@ trait CompleteJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol 
     override def read(json: JsValue): HError = ???
   }
 
-  implicit val modelUpload = jsonFormat8(ModelUploadMetadata.apply)
+  implicit val modelUpload = jsonFormat6(ModelUploadMetadata.apply)
 
   implicit val versionView = jsonFormat12(ModelVersionView.apply)
 }

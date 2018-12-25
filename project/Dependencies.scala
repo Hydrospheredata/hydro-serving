@@ -3,14 +3,13 @@ import sbt._
 object Dependencies {
   val akkaVersion = "2.5.8"
   val akkaHttpVersion = "10.0.11"
-  val hadoopVersion = "2.8.0"
   val log4j2Version = "2.8.2"
   val slickVersion = "3.2.1"
   val postgresqlVersion = "42.1.3"
   val scalaTestVersion = "3.0.3"
   val slickPgVersion = "0.15.4"
   val awsSdkVersion = "1.11.312"
-  val servingGrpcScala = "0.1.21"
+  val servingGrpcScala = "0.2.0"
   val catsV = "1.1.0"
   val elastic4sVersion = "6.2.4"
   val envoyDataPlaneApi = "v1.6.0_1"
@@ -27,11 +26,6 @@ object Dependencies {
 
   lazy val kubernetesDependencies = Seq(
     "io.skuber" %% "skuber" % "2.0.9"
-  )
-
-  lazy val hdfsDependencies = Seq(
-    "org.apache.hadoop" % "hadoop-client" % hadoopVersion,
-    "org.apache.hadoop" % "hadoop-hdfs" % hadoopVersion
   )
 
   lazy val akkaDependencies = Seq(

@@ -2,15 +2,15 @@ package io.hydrosphere.serving.manager.domain.model
 
 import java.nio.file.Path
 
-import akka.http.scaladsl.model.StatusCodes.ClientError
 import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
-import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationRepositoryAlgebra, ApplicationService}
-import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionService}
-import io.hydrosphere.serving.manager.infrastructure.storage.{ModelStorageService, StorageUploadResult}
+import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationRepositoryAlgebra}
+import io.hydrosphere.serving.manager.domain.host_selector.{AnyHostSelector, HostSelector, HostSelectorServiceAlg}
+import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionServiceAlg}
+import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorageService
 import io.hydrosphere.serving.model.api.Result.HError
-import io.hydrosphere.serving.model.api.{HFResult, Result}
+import io.hydrosphere.serving.model.api.{HFResult, ModelMetadata, Result}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -18,9 +18,10 @@ import scala.concurrent.{ExecutionContext, Future}
 
 class ModelService(
   modelRepository: ModelRepositoryAlgebra[Future],
-  modelVersionService: ModelVersionService,
+  modelVersionService: ModelVersionServiceAlg,
   storageService: ModelStorageService,
-  appRepo: ApplicationRepositoryAlgebra[Future]
+  appRepo: ApplicationRepositoryAlgebra[Future],
+  hostSelectorService: HostSelectorServiceAlg
 )(implicit val ex: ExecutionContext) extends Logging {
 
   def allModels(): Future[Seq[Model]] =
@@ -41,7 +42,7 @@ class ModelService(
   def updateModel(entity: UpdateModelRequest): HFResult[Model] = {
     val f = for {
       foundModel <- EitherT(getModel(entity.id))
-      filledModel = entity.fillModel(foundModel)
+      filledModel = foundModel.copy(name = entity.name)
       _ <- EitherT(checkIfUnique(foundModel, filledModel))
       _ <- EitherT(storageService.rename(foundModel.name, filledModel.name))
       _ <- EitherT.liftF[Future, HError, Int](modelRepository.update(filledModel))
@@ -74,23 +75,47 @@ class ModelService(
   }
 
   def uploadModel(filePath: Path, meta: ModelUploadMetadata): HFResult[ModelVersion] = {
+    val maybeHostSelector = meta.hostSelectorName match {
+      case Some(value) =>
+        hostSelectorService.get(value).map {
+          case Some(x) =>
+            Result.ok(x)
+          case None =>
+            Result.clientError(s"Can't find host selector named $value")
+        }
+      case None => Future.successful(Result.ok(AnyHostSelector))
+    }
+
     val f = for {
-      result <- EitherT(storageService.upload(filePath, meta))
-      _ <- EitherT.fromEither[Future](validateUpload(result))
-      request = CreateModelRequest(result.name)
-      r <- EitherT(upsertRequest(request))
-      b <- EitherT(modelVersionService.build(r, meta, result))
+      hs <- EitherT(maybeHostSelector)
+      result <- EitherT(storageService.unpack(filePath, meta.name))
+      versionMetadata = mergeMetadata(result, meta, hs)
+      _ <- EitherT.fromEither[Future](validateUpload(versionMetadata))
+      request = CreateModelRequest(result.modelName)
+      req <- EitherT(upsertRequest(request))
+      b <- EitherT(modelVersionService.build(req, versionMetadata))
     } yield b
     f.value
   }
 
-  def validateUpload(upload: StorageUploadResult): Either[HError, Unit] = {
-    if (upload.modelContract.signatures.isEmpty) {
+  def mergeMetadata(model: ModelMetadata, upload: ModelUploadMetadata, hs: HostSelector): ModelVersionMetadata = {
+    ModelVersionMetadata(
+      upload.name.getOrElse(model.modelName),
+      upload.modelType.getOrElse(model.modelType),
+      upload.contract.getOrElse(model.contract),
+      profileTypes = upload.profileTypes.getOrElse(Map.empty),
+      runtime = upload.runtime,
+      hostSelector = hs
+    )
+  }
+
+  def validateUpload(upload: ModelVersionMetadata): Either[HError, Unit] = {
+    if (upload.contract.signatures.isEmpty) {
       logger.warn("Upload error: Model without signatures. Cancelling upload.")
       Result.clientError("The model has no signatures")
     } else {
-      val inputsOk = upload.modelContract.signatures.forall(_.inputs.nonEmpty)
-      val outputsOk = upload.modelContract.signatures.forall(_.outputs.nonEmpty)
+      val inputsOk = upload.contract.signatures.forall(_.inputs.nonEmpty)
+      val outputsOk = upload.contract.signatures.forall(_.outputs.nonEmpty)
       if (inputsOk && outputsOk) {
         Right(())
       } else {

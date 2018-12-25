@@ -1,234 +1,221 @@
-//package io.hydrosphere.serving.manager.service
-//
-//import java.nio.file.{Files, Path, Paths}
-//import java.time.LocalDateTime
-//
-//import io.hydrosphere.serving.contract.model_contract.ModelContract
-//import io.hydrosphere.serving.contract.model_signature.ModelSignature
-//import io.hydrosphere.serving.manager.GenericUnitTest
-//import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
-//import io.hydrosphere.serving.manager.domain.model.{Model, ModelRepositoryAlgebra, ModelService}
-//import io.hydrosphere.serving.manager.infrastructure.storage.{ModelStorageService, StorageUploadResult}
-//import io.hydrosphere.serving.model.api.{ModelType, Result}
-//import io.hydrosphere.serving.manager.util.TarGzUtils
-//import org.mockito.Matchers
-//
-//import scala.concurrent.Future
-//
-//class ModelServiceSpec extends GenericUnitTest {
-//  private[this] val dummyModel = Model(
-//    id = 1,
-//    name = "/test_models/tensorflow_model",
-//    modelType = ModelType.Unknown("test"),
-//    description = None,
-//    modelContract = ModelContract.defaultInstance,
-//    created = LocalDateTime.now(),
-//    updated = LocalDateTime.now()
-//  )
-//
-//  def packModel(str: String): Path = {
-//    val temptar = Files.createTempFile("test_tf_model", ".tar.gz")
-//    TarGzUtils.compressFolder(Paths.get(getClass.getResource(str).getPath), temptar)
-//    temptar
-//  }
-//  describe("Model management service") {
-//    describe("uploads") {
-//      it("new model") {
-//        val testSourcePath = Files.createTempDirectory("upload-test").toString
-//        println("Test source path: " + testSourcePath)
-//        val upload = ModelUpload(
-//          Paths.get("123123"),
-//          Some("tf-model"),
-//          Some("unknown:unknown"),
-//          None,
-//          None
-//        )
-//        println(upload)
-//        val model = Model(
-//          id = 1,
-//          name = "tf-model",
-//          modelType = ModelType.Tensorflow("1.1.0"),
-//          description = None,
-//          modelContract = ModelContract.defaultInstance,
-//          created = LocalDateTime.now(),
-//          updated = LocalDateTime.now()
-//        )
-//        val modelRepo = mock[ModelRepositoryAlgebra]
-//        when(modelRepo.get(Matchers.anyLong())).thenReturn(Future.successful(None))
-//
-//        val sourceMock = mock[ModelStorageService]
-//        when(sourceMock.upload(Matchers.any())).thenReturn(
-//          Result.okF(StorageUploadResult(
-//            "tf-model",
-//            ModelType.Tensorflow("1.1.0"),
-//            None,
-//            ModelContract("tf-model", Seq(ModelSignature()))
-//          ))
-//        )
-//        when(modelRepo.get("tf-model")).thenReturn(Future.successful(None))
-//        when(modelRepo.create(Matchers.any())).thenReturn(
-//          Future.successful(model)
-//        )
-//
-//        val modelManagementService = new ModelService(modelRepo,  null, sourceMock)
-//
-//        modelManagementService.uploadModel(upload).map { maybeModel =>
-//          maybeModel.isRight should equal(true)
-//          val rModel = maybeModel.right.get
-//          println(rModel)
-//          rModel.name should equal("tf-model")
-//        }
-//      }
-//      it("existing model") {
-//        val upload = ModelUpload(
-//          packModel("/test_models/tensorflow_model"),
-//          Some("upload-model"),
-//          Some("unknown:unknown"),
-//          Some(ModelContract.defaultInstance),
-//          None
-//        )
-//        println(upload)
-//        val model = Model(
-//          id = 1,
-//          name = "upload-model",
-//          modelType = ModelType.Tensorflow("1.1.0"),
-//          description = None,
-//          modelContract = ModelContract.defaultInstance,
-//          created = LocalDateTime.now(),
-//          updated = LocalDateTime.now()
-//        )
-//
-//        val modelRepo = mock[ModelRepositoryAlgebra]
-//        when(modelRepo.update(Matchers.any(classOf[Model]))).thenReturn(Future.successful(1))
-//        when(modelRepo.get("upload-model")).thenReturn(Future.successful(Some(model)))
-//        when(modelRepo.get(1)).thenReturn(Future.successful(Some(model)))
-//
-//        val sourceMock = mock[ModelStorageService]
-//        when(sourceMock.upload(Matchers.any())).thenReturn(
-//          Result.okF(StorageUploadResult(
-//            "upload-model",
-//            ModelType.Unknown(),
-//            None,
-//            ModelContract("upload-model", Seq(ModelSignature()))
-//          ))
-//        )
-//        when(sourceMock.rename("upload-model", "upload-model")).thenReturn(Result.okF(Paths.get("some-test-path")))
-//
-//        val modelManagementService = new ModelService(modelRepo, null, sourceMock)
-//
-//        modelManagementService.uploadModel(upload).map { maybeModel =>
-//          assert(maybeModel.isRight, maybeModel)
-//          val rModel = maybeModel.right.get
-//          assert(rModel.name === "upload-model", rModel)
-//          assert(rModel.modelType === ModelType.Unknown())
-//        }
-//      }
-//    }
-//
-//    describe("update") {
-//      describe("fails") {
-//        it("when model doesn't exist") {
-//          val updateRequest = UpdateModelRequest(
-//            id = 100,
-//            name = "new_model",
-//            ModelType.Tensorflow("1.1.0"),
-//            description = None,
-//            modelContract = ModelContract.defaultInstance
-//          )
-//
-//          val modelRepoMock = mock[ModelRepositoryAlgebra]
-//          when(modelRepoMock.get(100)).thenReturn(Future.successful(None))
-//
-//          val modelService = new ModelService(modelRepoMock, null, null)
-//
-//          modelService.updateModel(updateRequest).map { result =>
-//            info(result.toString)
-//            assert(result.isLeft, result)
-//          }
-//        }
-//        it("when updated model has non-unique name") {
-//
-//          val updateRequest = UpdateModelRequest(
-//            id = 1,
-//            name = "new_model",
-//            ModelType.Tensorflow("1.1.0"),
-//            description = Some("I am updated"),
-//            modelContract = ModelContract.defaultInstance
-//          )
-//          val oldModel = Model(
-//            id = 1,
-//            name = "old_model",
-//            modelType = ModelType.Unknown(),
-//            description = Some("I am old"),
-//            modelContract = ModelContract.defaultInstance,
-//            created = LocalDateTime.now(),
-//            updated = LocalDateTime.now()
-//          )
-//          val conflictModel = Model(
-//            id = 2,
-//            name = "new_model",
-//            modelType = ModelType.Unknown(),
-//            description = Some("I already have this name"),
-//            modelContract = ModelContract.defaultInstance,
-//            created = LocalDateTime.now(),
-//            updated = LocalDateTime.now()
-//          )
-//
-//          val modelRepoMock = mock[ModelRepositoryAlgebra]
-//          when(modelRepoMock.get(1)).thenReturn(Future.successful(Some(oldModel)))
-//          when(modelRepoMock.get("new_model")).thenReturn(Future.successful(Some(conflictModel)))
-//
-//          val modelService = new ModelService(modelRepoMock, null, null)
-//
-//          modelService.updateModel(updateRequest).map { result =>
-//            info(result.toString)
-//            assert(result.isLeft, result)
-//          }
-//        }
-//      }
-//      describe("succeeds") {
-//        it("when model has unique name") {
-//          val updateRequest = UpdateModelRequest(
-//            id = 1,
-//            name = "new_model",
-//            ModelType.Tensorflow("1.1.0"),
-//            description = Some("I am updated"),
-//            modelContract = ModelContract.defaultInstance
-//          )
-//          val oldModel = Model(
-//            id = 1,
-//            name = "old_model",
-//            modelType = ModelType.Unknown(),
-//            description = Some("I am old"),
-//            modelContract = ModelContract.defaultInstance,
-//            created = LocalDateTime.now(),
-//            updated = LocalDateTime.now()
-//          )
-//          val otherModel = Model(
-//            id = 2,
-//            name = "other_model",
-//            modelType = ModelType.Unknown(),
-//            description = Some("I am"),
-//            modelContract = ModelContract.defaultInstance,
-//            created = LocalDateTime.now(),
-//            updated = LocalDateTime.now()
-//          )
-//
-//          val modelRepoMock = mock[ModelRepositoryAlgebra]
-//          when(modelRepoMock.get(1)).thenReturn(Future.successful(Some(oldModel)))
-//          when(modelRepoMock.get("new_model")).thenReturn(Future.successful(None))
-//          when(modelRepoMock.update(Matchers.any())).thenReturn(Future.successful(1))
-//
-//          val storageMock = mock[ModelStorageService]
-//          when(storageMock.rename("old_model", "new_model")).thenReturn(Result.okF(Paths.get("some-good-path")))
-//
-//          val modelService = new ModelService(modelRepoMock, null, storageMock)
-//
-//          modelService.updateModel(updateRequest).map { result =>
-//            assert(result.isRight, result)
-//          }
-//        }
-//      }
-//    }
-//  }
-//}
+package io.hydrosphere.serving.manager.service
+
+import java.nio.file.{Files, Path, Paths}
+import java.time.LocalDateTime
+
+import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.contract.model_field.ModelField
+import io.hydrosphere.serving.contract.model_signature.ModelSignature
+import io.hydrosphere.serving.manager.GenericUnitTest
+import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
+import io.hydrosphere.serving.manager.domain.host_selector.{AnyHostSelector, HostSelectorServiceAlg}
+import io.hydrosphere.serving.manager.domain.image.DockerImage
+import io.hydrosphere.serving.manager.domain.model.{Model, ModelRepositoryAlgebra, ModelService, ModelVersionMetadata}
+import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionServiceAlg, ModelVersionStatus, ModelVersionView}
+import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorageService
+import io.hydrosphere.serving.manager.util.TarGzUtils
+import io.hydrosphere.serving.model.api.{HFResult, ModelMetadata, ModelType, Result}
+import io.hydrosphere.serving.tensorflow.TensorShape
+import io.hydrosphere.serving.tensorflow.types.DataType
+import org.mockito.Matchers
+
+import scala.concurrent.Future
+
+class ModelServiceSpec extends GenericUnitTest {
+  def packModel(str: String): Path = {
+    val temptar = Files.createTempFile("test_tf_model", ".tar.gz")
+    TarGzUtils.compressFolder(Paths.get(getClass.getResource(str).getPath), temptar)
+    temptar
+  }
+  describe("Model management service") {
+    describe("uploads") {
+      it("a new model") {
+        val testSourcePath = Files.createTempDirectory("upload-test").toString
+        println("Test source path: " + testSourcePath)
+        val model = Model(
+          id = 1,
+          name = "tf-model"
+        )
+        val modelName = "tf-model"
+        val modelType = ModelType.fromTag("type:1")
+        val modelRuntime = DockerImage(
+          name = "runtime",
+          tag = "latest"
+        )
+        val contract = ModelContract(
+          "test",
+          Seq(ModelSignature(
+            "testSig",
+            Seq(ModelField("in", TensorShape.scalar.toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE))),
+            Seq(ModelField("out", TensorShape.scalar.toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE)))
+          ))
+        )
+        val modelVersion = ModelVersion(
+          id = 1,
+          image = DockerImage(
+            name = "tf-model",
+            tag = "1"
+          ),
+          created = LocalDateTime.now(),
+          finished = Some(LocalDateTime.now()),
+          modelVersion = 1,
+          modelType = modelType,
+          modelContract = contract,
+          runtime = modelRuntime,
+          model = model,
+          hostSelector = None,
+          status = ModelVersionStatus.Finished,
+          profileTypes = Map.empty
+        )
+        val modelVersionMetadata = ModelVersionMetadata(
+          modelName = modelName,
+          modelType = modelType,
+          contract = contract,
+          profileTypes = Map.empty,
+          runtime = modelRuntime,
+          hostSelector = AnyHostSelector
+        )
+
+        val uploadFile = Paths.get("123123")
+        val upload = ModelUploadMetadata(
+          name = Some(modelName),
+          runtime = modelRuntime,
+          modelType = Some(modelType),
+          hostSelectorName = None,
+          contract = Some(contract),
+          profileTypes = None
+        )
+        val modelRepo = mock[ModelRepositoryAlgebra[Future]]
+        when(modelRepo.get(Matchers.anyLong())).thenReturn(Future.successful(None))
+
+        val sourceMock = mock[ModelStorageService]
+        when(sourceMock.unpack(uploadFile, upload.name)).thenReturn(
+          Result.okF(ModelMetadata(
+            modelName,
+            ModelType.Tensorflow("1.1.0"),  // will be overridden
+            ModelContract(  // will be overridden
+              "test",
+              Seq(ModelSignature(
+                "testSig",
+                Seq(ModelField("in", TensorShape.scalar.toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE))),
+                Seq(ModelField("out", TensorShape.scalar.toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE)))
+              ))
+            )
+          ))
+        )
+        when(modelRepo.get(modelName)).thenReturn(Future.successful(None))
+        when(modelRepo.create(Model(0, modelName))).thenReturn(
+          Future.successful(model)
+        )
+
+        val versionService = mock[ModelVersionServiceAlg]
+        when(versionService.build(model, modelVersionMetadata)).thenReturn(
+          Result.okF(modelVersion)
+        )
+
+        val modelManagementService = new ModelService(modelRepo, versionService, sourceMock, null, null)
+
+        modelManagementService.uploadModel(uploadFile, upload).map { maybeModel =>
+          assert(maybeModel.isRight, maybeModel)
+          val rModel = maybeModel.right.get
+          println(rModel)
+          assert(rModel.model.name === "tf-model")
+        }
+      }
+
+      it("existing model") {
+        val uploadFile = Paths.get("123123")
+        val modelName = "upload-model"
+        val modelType = ModelType.Unknown()
+        val modelRuntime = DockerImage(
+          name = "runtime",
+          tag = "latest"
+        )
+        val model = Model(
+          id = 1,
+          name = modelName,
+        )
+        val contract = ModelContract(
+          "test",
+          Seq(ModelSignature(
+            "testSig",
+            Seq(ModelField("in", TensorShape.scalar.toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE))),
+            Seq(ModelField("out", TensorShape.scalar.toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE)))
+          ))
+        )
+        val modelVersion = ModelVersion(
+          id = 1,
+          image = DockerImage(
+            name = modelName,
+            tag = "1"
+          ),
+          created = LocalDateTime.now(),
+          finished = Some(LocalDateTime.now()),
+          modelVersion = 1,
+          modelType = modelType,
+          modelContract = contract,
+          runtime = modelRuntime,
+          model = model,
+          hostSelector = None,
+          status = ModelVersionStatus.Finished,
+          profileTypes = Map.empty
+        )
+        val modelVersionMetadata = ModelVersionMetadata(
+          modelName = modelName,
+          modelType = modelType,
+          contract = contract,
+          profileTypes = Map.empty,
+          runtime = modelRuntime,
+          hostSelector = AnyHostSelector
+        )
+        val upload = ModelUploadMetadata(
+          name = Some(modelName),
+          runtime = modelRuntime,
+          modelType = Some(modelType),
+          hostSelectorName = None,
+          contract = Some(contract),
+          profileTypes = None
+        )
+        println(upload)
+
+        val modelRepo = mock[ModelRepositoryAlgebra[Future]]
+        when(modelRepo.update(Matchers.any(classOf[Model]))).thenReturn(Future.successful(1))
+        when(modelRepo.get(modelName)).thenReturn(Future.successful(Some(model)))
+        when(modelRepo.get(1)).thenReturn(Future.successful(Some(model)))
+
+        val sourceMock = mock[ModelStorageService]
+        when(sourceMock.unpack(uploadFile, upload.name)).thenReturn(
+          Result.okF(ModelMetadata(
+            modelName,
+            ModelType.Unknown(),
+            ModelContract(
+              "test",
+              Seq(ModelSignature(
+                "testSig",
+                Seq(ModelField("in", TensorShape.scalar.toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE))),
+                Seq(ModelField("out", TensorShape.scalar.toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE)))
+              ))
+            )
+          ))
+        )
+        when(sourceMock.rename(modelName, modelName)).thenReturn(Result.okF(Paths.get("some-test-path")))
+
+        val versionService = mock[ModelVersionServiceAlg]
+        when(versionService.build(model, modelVersionMetadata)).thenReturn(
+          Result.okF(modelVersion)
+        )
+
+        val hService = mock[HostSelectorServiceAlg]
+
+        val modelManagementService = new ModelService(modelRepo, versionService, sourceMock, null, hService)
+
+        modelManagementService.uploadModel(uploadFile, upload).map { maybeModel =>
+          assert(maybeModel.isRight, maybeModel)
+          val rModel = maybeModel.right.get
+          assert(rModel.model.name === "upload-model", rModel)
+          assert(rModel.modelType === ModelType.Unknown())
+        }
+      }
+    }
+  }
+}

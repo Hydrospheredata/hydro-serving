@@ -21,7 +21,5 @@ trait ModelVersionRepositoryAlgebra[F[_]] {
 
   def lastModelVersionByModel(modelId: Long, max: Int): F[Seq[ModelVersion]]
 
-  def modelVersionByModelAndVersion(modelId: Long, version: Long): F[Option[ModelVersion]]
-
   def modelVersionsByModelVersionIds(modelVersionIds: Set[Long]): F[Seq[ModelVersion]]
 }

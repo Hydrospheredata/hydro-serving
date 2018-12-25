@@ -7,11 +7,4 @@ case class CreateModelRequest(
 case class UpdateModelRequest(
   id: Long,
   name: String,
-) {
-  def fillModel(model: Model) = {
-    model.copy(
-      id = id,
-      name = name,
-    )
-  }
-}
+)

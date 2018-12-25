@@ -1,16 +1,10 @@
 package io.hydrosphere.serving.manager.api.http.controller.model
 
-import java.nio.file.{Files, StandardOpenOption}
-
 import akka.actor.ActorSystem
-import akka.http.scaladsl.model.Multipart
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
-import cats.data.EitherT
-import cats.implicits._
-import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.api.http.controller.GenericController
 import io.hydrosphere.serving.manager.domain.model.{Model, ModelService}
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionService, ModelVersionView}
@@ -18,7 +12,6 @@ import io.hydrosphere.serving.model.api.Result
 import io.swagger.annotations._
 import javax.ws.rs.Path
 
-import scala.concurrent.Future
 import scala.concurrent.duration._
 
 @Path("/api/v2/model")

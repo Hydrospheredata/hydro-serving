@@ -10,6 +10,7 @@ import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
 import io.hydrosphere.serving.manager._
 import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration}
 import io.hydrosphere.serving.manager.api.http.ManagerHttpApi
+import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.model.api.HFResult
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import io.hydrosphere.serving.model.api.Result.HError
@@ -28,6 +29,11 @@ trait FullIntegrationSpec extends DatabaseAccessIT
   implicit val materializer = ActorMaterializer()
   implicit val ex = ExecutionContext.global
   implicit val timeout = Timeout(5.minute)
+
+  val dummyImage = DockerImage(
+    name = "hydrosphere/serving-runtime-dummy",
+    tag = "latest"
+  )
 
   private[this] var rawConfig = ConfigFactory.load()
   rawConfig = rawConfig.withValue(

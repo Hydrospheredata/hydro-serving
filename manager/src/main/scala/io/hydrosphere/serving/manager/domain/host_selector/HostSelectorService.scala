@@ -7,9 +7,21 @@ import Result.Implicits._
 
 import scala.concurrent.{ExecutionContext, Future}
 
+trait HostSelectorServiceAlg {
+  def get(environmentId: Long): HFResult[HostSelector]
+
+  def get(name: String): Future[Option[HostSelector]]
+
+  def all(): Future[Seq[HostSelector]]
+
+  def create(name: String, placeholder: String): HFResult[HostSelector]
+
+  def delete(environmentId: Long): Future[Unit]
+}
+
 class HostSelectorService(
   environmentRepository: HostSelectorRepositoryAlgebra[Future]
-)(implicit ec: ExecutionContext) extends Logging {
+)(implicit ec: ExecutionContext) extends HostSelectorServiceAlg with Logging {
 
   def get(environmentId: Long): HFResult[HostSelector] = {
     environmentId match {

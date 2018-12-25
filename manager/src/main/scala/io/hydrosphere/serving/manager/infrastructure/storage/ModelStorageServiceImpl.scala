@@ -8,7 +8,7 @@ import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetad
 import io.hydrosphere.serving.manager.config.ManagerConfiguration
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.ModelFetcher
 import io.hydrosphere.serving.manager.util.TarGzUtils
-import io.hydrosphere.serving.model.api.{HFResult, Result}
+import io.hydrosphere.serving.model.api.{HFResult, ModelMetadata, Result}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
@@ -23,9 +23,9 @@ class ModelStorageServiceImpl(
 
   logger.info(s"Using model storage: $rootDir")
 
-  def upload(filePath: Path, meta: ModelUploadMetadata): HFResult[StorageUploadResult] = { //TODO reconsider this
+  def unpack(filePath: Path, folderName: Option[String]): HFResult[ModelMetadata] = { //TODO reconsider this
     try {
-      val modelName = meta.name.getOrElse(filePath.getFileName.toString)
+      val modelName = folderName.getOrElse(filePath.getFileName.toString)
       val unpackDir = Files.createTempDirectory(modelName)
       val rootDir = Paths.get(modelName)
       val uploadedFiles = TarGzUtils.decompress(filePath, unpackDir)
@@ -44,15 +44,8 @@ class ModelStorageServiceImpl(
       writeFilesToSource(storage, localFiles)
 
       val inferredMeta = ModelFetcher.fetch(storage, unpackDir.toString)
-      val contract = meta.contract.getOrElse(inferredMeta.contract).copy(modelName = modelName)
-      val modelType = meta.modelType.getOrElse(inferredMeta.modelType)
       Result.okF(
-        StorageUploadResult(
-          name = modelName,
-          modelType = modelType,
-          description = meta.description,
-          modelContract = contract
-        )
+        inferredMeta
       )
     } catch {
       case NonFatal(e) => Result.internalErrorF(e)

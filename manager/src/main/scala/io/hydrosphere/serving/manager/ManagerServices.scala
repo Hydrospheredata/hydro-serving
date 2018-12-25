@@ -99,7 +99,8 @@ class ManagerServices(
     managerRepositories.modelRepository,
     modelVersionManagementService,
     sourceManagementService,
-    managerRepositories.applicationRepository
+    managerRepositories.applicationRepository,
+    hostSelectorService
   )
 
   val envoyGRPCDiscoveryService: EnvoyGRPCDiscoveryService = new EnvoyGRPCDiscoveryServiceImpl(

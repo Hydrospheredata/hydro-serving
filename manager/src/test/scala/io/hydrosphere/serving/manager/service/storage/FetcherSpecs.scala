@@ -18,7 +18,7 @@ import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.types.DataType
 
 class FetcherSpecs extends GenericUnitTest {
-  val localSource = new LocalModelStorage(Paths.get(TestConstants.localModelsPath))
+  val localSource = new LocalModelStorage(TestConstants.localModelsPath)
 
   describe("Fallback") {
     it("should parse contract proto message") {
