@@ -244,6 +244,6 @@ _Note: For convinience we've already generated all our proto files to a python l
 
 # What's next?
 
-- Learn, how to work with CLI;
-- Learn, how to write Contracts;
-- Learn, how to deploy Tensorflow models;
+- [Learn, how to work with CLI]({{site.baseurl}}{%link concepts/cli.md%});
+- [Learn, how to write manifests]({{site.baseurl}}{%link how-to/write-manifests.md%});
+- [Learn, how to deploy Tensorflow models]({{site.baseurl}}{%link tutorials/upload-tensorflow.md%});
