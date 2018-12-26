@@ -1,27 +1,10 @@
 ---
 layout: docs
-title:  "Runtimes"
-permalink: 'runtimes.html'
+title:  "Develop Runtime"
+permalink: 'develop-runtime.html'
 ---
 
-# Runtimes for Machine Learning Models
-
-__Runtime__ is a Docker image with a predefined infrastructure. It implements a set of specific methods that are used as an endpoints to the model. It's responsible for running user-defined models. When you create a new application, you also have to provide a corresponing runtime to each models' instances.
-
-## Available Runtimes
-
-We've already implemented a few runtimes which you can use in your own projects. They are all open source and you can look up code if you need. 
-
-| Framework | Runtime | Links |
-| --------- | ------- | ----- |
-| Python | hydrosphere/serving-runtime-python | [Docker Hub][docker-hub-python]<br>[Github][github-serving-python]|
-| TensorFlow | hydrosphere/serving-runtime-tensorflow | [Docker Hub][docker-hub-tensorflow]<br>[Github][github-serving-tensorflow] |
-| Spark | hydrosphere/serving-runtime-spark | [Docker Hub][docker-hub-spark]<br>[Github][github-serving-spark] |
-
-<br>
-_Note: If you are using a framework for which runtime isn't implemented yet, you can open an [issue][github-serving-new-issue] in our Github._
-
-## Developing Runtime
+# Develop Runtime
 
 Sometimes you have to use technology that we are not supporting yet or you need more flexibility and you want to implement your own runtime. It may seem frightening at first glance, but it's actually not that difficult. ML Lambda is designed to abstract it's guts from model users and runtime developers. The key things you have to know to write your own runtime are: 
 
@@ -30,11 +13,11 @@ Sometimes you have to use technology that we are not supporting yet or you need 
 * Knowing how to create your own docker image and publish it to an open registry.
 
 
-### Generating GRPC code
+## Generate GRPC code
 
-There're different approaches on how to generate client and server gRPC code on [different languages][grpc-docs]. Let's have a look on how to do that on Python.
+There're different approaches on how to generate client and server gRPC code on [different languages](https://grpc.io/docs/). Let's have a look on how to do that on Python.
 
-First, let's clone our [protocols][github-serving-protos] and prepare a folder for generated code.
+First, let's clone our [protocols](https://github.com/Hydrospheredata/hydro-serving-protos) and prepare a folder for generated code.
 
 ```sh
 $ git clone https://github.com/Hydrospheredata/hydro-serving-protos
@@ -93,7 +76,7 @@ runtime
         └── types_pb2_grpc.py
 ```
 
-### Implementing Service
+## Implement Service
 
 Now, that we have everything set up, let's actually implement runtime.
 
@@ -179,7 +162,7 @@ model
     └── ...
 ```
 
-`contract.protobin` is a processed by `manager` binary representation of the [ModelContract][github-contract-proto] message. `files` directory contains all files of your model.
+`contract.protobin` is a processed by `manager` binary representation of the [ModelContract](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/contract/model_contract.proto) message. `files` directory contains all files of your model.
 
 To run the service let's create another file.
 
@@ -204,7 +187,7 @@ if __name__ == '__main__':
         runtime.stop()
 ```
 
-### Publishing Runtime
+## Publish Runtime
 
 Before we can use the runtime, we have to wrap it up into docker image.
 
@@ -279,7 +262,7 @@ $ docker push {username}/python-runtime-example:3.6.5
 
 The `username` should be the one you have registered in Docker Hub. 
 
-### Fetching Runtime
+## Fetch Runtime
 
 To add your newly created runtime to ML Lambda just execute the following lines:
 
@@ -299,24 +282,6 @@ $ curl -X POST --header 'Content-Type: application/json' --header 'Accept: appli
 
 Here, `name` is your image published in the Docker Hub. `version` is the tag of that image. The last parameter (`http://localhost:8080/api/v1/runtime`) is where your ML Lambda instance is running.
 
-### Result
+## Result
 
-That's it. You've just created a simple runtime, that you can use in your own projects. It's almost an equal version of our [python runtime implementation][github-python-runtime]. You can always look up details there. 
-
-
-
-[grpc-docs]: https://grpc.io/docs/
-[docker-hub]: https://hub.docker.com/u/hydrosphere/
-[docker-hub-python]: https://hub.docker.com/r/hydrosphere/serving-runtime-python/
-[docker-hub-spark]: https://hub.docker.com/r/hydrosphere/serving-runtime-spark/
-[docker-hub-tensorflow]: https://hub.docker.com/r/hydrosphere/serving-runtime-tensorflow/
-[docker-hub-scikit]: https://hub.docker.com/r/hydrosphere/serving-runtime-scikit/
-[docker-hub-pytorch]: https://hub.docker.com/r/hydrosphere/serving-runtime-pytorch/
-[github-serving-new-issue]: https://github.com/Hydrospheredata/hydro-serving/issues/new
-[github-serving-python]: https://github.com/Hydrospheredata/hydro-serving-python
-[github-serving-tensorflow]: https://github.com/Hydrospheredata/hydro-serving-tensorflow
-[github-serving-spark]: https://github.com/Hydrospheredata/hydro-serving-spark
-[github-serving-protos]: https://github.com/Hydrospheredata/hydro-serving-protos
-[github-contract-proto]: https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/contract/model_contract.proto
-[github-service-proto]: https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/api/prediction_service.proto
-[github-python-runtime]: https://github.com/Hydrospheredata/hydro-serving-python
+That's it. You've just created a simple runtime, that you can use in your own projects. It's almost an equal version of our [python runtime implementation](https://github.com/Hydrospheredata/hydro-serving-python). You can always look up details there. 
