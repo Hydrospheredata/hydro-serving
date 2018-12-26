@@ -11,8 +11,8 @@ __ML Lambda__ is an open source model management cluster for deploying, serving 
 <hr>
 
 * [Installation]({{site.baseurl}}{%link installation.md%}) page will help you to setup an instance of __ML Lambda__ on your machine. 
-* [Tutorials]({{site.baseurl}}{%link installation.md%}) page will teach you the basic concepts of working with __ML Lambda__. 
-* [How-To]({{site.baseurl}}{%link installation.md%}) page will show you quick recipies on how to achive some specific goal.
-* [Concepts]({{site.baseurl}}{%link installation.md%}) page will explain you the core ideas that lie under the __ML Lambda__ architecture. 
-* [Reference]({{site.baseurl}}{%link installation.md%}) page will provide you with extensive information on how to work with different parts of __ML Lambda__.
-* [Integrations]({{site.baseurl}}{%link installation.md%}) page will show you how you can connect __ML Lambda__ with different services out there. 
+* [Tutorials]({{site.baseurl}}{%link tutorials/getting-started.md%}) page will teach you the basic concepts of working with __ML Lambda__. 
+* [How-To]({{site.baseurl}}{%link how-to/how-to.md%}) page will show you quick recipies on how to achive some specific goal.
+* [Concepts]({{site.baseurl}}{%link concepts/concepts.md%}) page will explain you the core ideas that lie under the __ML Lambda__ architecture. 
+<!-- * [Reference]({{site.baseurl}}{%link installation.md%}) page will provide you with extensive information on how to work with different parts of __ML Lambda__. -->
+<!-- * [Integrations]({{site.baseurl}}{%link installation.md%}) page will show you how you can connect __ML Lambda__ with different services out there.  -->

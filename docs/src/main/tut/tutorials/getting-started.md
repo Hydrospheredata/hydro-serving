@@ -187,7 +187,7 @@ $ hs upload
 
 You can open [http://localhost/models](http://localhost/models) page to see the uploaded model. 
 
-Once you've done that, you can create an __application__ for it. Basically, an application represents a final endpoint to your model, so you can invoke it from the outside. To learn more about advanced features, go to the [Applications]({{site.baseurl}}{%link applications.md%}) page. 
+Once you've done that, you can create an __application__ for it. Basically, an application represents a final endpoint to your model, so you can invoke it from the outside. To learn more about advanced features, go to the [Applications]({{site.baseurl}}{%link concepts/applications.md%}) page. 
 
 ![]({{site.baseurl}}{%link /img/linear_regression_application.png%})
 

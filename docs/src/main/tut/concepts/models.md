@@ -32,3 +32,11 @@ Model can be written using a variety of modern machine learning frameworks. You 
 	<code>partly</code> - Complicated models will likely fail inference;
 	<code>manual</code> - Need to provide self-written contracts, model definitions.
 </p>
+
+<br>
+<hr>
+
+# What's next?
+
+- [Learn more about application]({{site.baseurl}}{%link concepts/applications.md%})
+- [Learn how to invoke applications]({{site.baseurl}}{%link how-to/invoke-applications.md%})

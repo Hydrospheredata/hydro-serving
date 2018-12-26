@@ -24,7 +24,7 @@ _Note: If you are using a framework for which runtime isn't implemented yet, you
 
 # What's Next?
 
-- [Learn, how to develop a runtime]({%link how-to/develop-runtime.md%}); 
+- [Learn, how to develop a runtime;]({{site.baseurl}}{%link how-to/develop-runtime.md%})
 
 
 [docker-hub-python]: https://hub.docker.com/r/hydrosphere/serving-runtime-python/

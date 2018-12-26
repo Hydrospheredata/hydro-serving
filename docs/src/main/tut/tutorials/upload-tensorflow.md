@@ -187,5 +187,5 @@ $ hs upload
 
 # What's next?
 
-- Learn, how to work with CLI;
-- Learn, how to invoke models;
+- [Learn, how to work with CLI]({{site.baseurl}}{%link concepts/cli.md%});
+- [Learn, how to invoke applications]({{site.baseurl}}{%link how-to/invoke-applications.md%});

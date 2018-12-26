@@ -19,7 +19,7 @@ options:
         url: "python.html"
 
   - title: How-To
-    url: "write-manifests.html"
+    url: "how-to.html"
 
     nested_options:
       - title: Write Manifests
@@ -32,33 +32,20 @@ options:
         url: "develop-runtime.html"
 
   - title: Concepts
-    url: "something.html"
+    url: "concepts.html"
 
     nested_options:  
       - title: Models
         url: "models.html"
 
       - title: Applications
-        url: "something.html"
+        url: "applications.html"
 
       - title: Runtimes
         url: "runtimes.html"
 
       - title: CLI
-        url: "something.html"
-
-  - title: Reference 
-    url: "something.html"
-
-    nested_options:
-      - title: Models
-        url: "something.html"
-
-      - title: Runtimes
-        url: "something.html"
-
-      - title: Contracts
-        url: "something.html"
+        url: "cli.html"
 
   - title: Development
     url: "dev.html"

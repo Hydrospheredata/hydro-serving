@@ -90,7 +90,7 @@ $ hs upload
 
 # What's next?
 
-- Learn, how to work with CLI;
+- [Learn, how to work with CLI]({{site.baseurl}}{%link concepts/cli.md%});
 - [Learn, how to upload Tensorflow models]({{site.baseurl}}{%link tutorials/upload-tensorflow.md%});
-- Learn, how to invoke models;
-- Learn, how to write contracts;
+- [Learn, how to invoke applications]({{site.baseurl}}{%link concepts/applications.md%});
+- [Learn, how to write contracts]({{site.baseurl}}{%link how-to/write-manifests.md%});
