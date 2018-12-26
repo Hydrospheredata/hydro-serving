@@ -18,8 +18,22 @@ options:
       - title: Upload Python Model
         url: "python.html"
 
+<<<<<<< HEAD
   - title: How-To
     url: "how-to.html"
+=======
+      - title: TensorFlow
+        url: "models.html#tensorflow"
+
+      - title: Keras
+        url: "models.html#keras"
+
+      - title: Python
+        url: "models.html#python"
+  
+  - title: Applications
+    url: "applications.html"
+>>>>>>> 13e8a4a42cbc4fbfa0cab26adaecc572c833a205
 
     nested_options:
       - title: Write Manifests
