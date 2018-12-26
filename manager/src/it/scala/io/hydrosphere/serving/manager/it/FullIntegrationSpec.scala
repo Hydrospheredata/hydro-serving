@@ -8,7 +8,7 @@ import akka.util.Timeout
 import cats.data.EitherT
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
 import io.hydrosphere.serving.manager._
-import io.hydrosphere.serving.manager.config.{ManagerConfiguration, RuntimePackConfig}
+import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration, RuntimePackConfig}
 import io.hydrosphere.serving.model.api.HFResult
 import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
 import io.hydrosphere.serving.manager.service.runtime.DefaultRuntimes
@@ -52,7 +52,7 @@ trait FullIntegrationSpec extends DatabaseAccessIT
   override protected def beforeAll(): Unit = {
     super.beforeAll()
     managerRepositories = new ManagerRepositories(configuration)
-    managerServices = new ManagerServices(managerRepositories, configuration, dockerClient)
+    managerServices = new ManagerServices(managerRepositories, configuration, dockerClient, DockerClientConfig())
     managerApi = new ManagerHttpApi(managerServices, configuration)
     managerGRPC = new ManagerGRPC(managerServices, configuration)
   }

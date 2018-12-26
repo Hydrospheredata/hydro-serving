@@ -2,9 +2,9 @@ package io.hydrosphere.serving.manager.service.envoy.xds
 
 import com.google.protobuf.duration.Duration
 import envoy.api.v2.core.{HeaderValue, HeaderValueOption}
-import envoy.api.v2.{DiscoveryResponse, RouteConfiguration}
 import envoy.api.v2.route.RouteAction.ClusterSpecifier
 import envoy.api.v2.route.{Route, _}
+import envoy.api.v2.{DiscoveryResponse, RouteConfiguration}
 import io.grpc.stub.StreamObserver
 import io.hydrosphere.serving.grpc.Headers
 import io.hydrosphere.serving.manager.model.db.Application

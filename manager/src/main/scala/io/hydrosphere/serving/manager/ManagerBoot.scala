@@ -5,8 +5,8 @@ import java.util.concurrent.TimeUnit
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
-import com.spotify.docker.client.DefaultDockerClient
-import io.hydrosphere.serving.manager.config.ManagerConfiguration
+import com.spotify.docker.client.{DefaultDockerClient, DockerClient}
+import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration}
 import io.hydrosphere.serving.manager.util.ReflectionUtils
 import org.apache.logging.log4j.scala.Logging
 
@@ -31,12 +31,18 @@ object ManagerBoot extends App with Logging {
         config
     }
 
-    val dockerClient = DefaultDockerClient.fromEnv().build() // move to config?
+    val dockerClient = DefaultDockerClient.fromEnv().build()
+    val dockerClientConfig = DockerClientConfig.load(DockerClientConfig.defaultConfigPath) match {
+      case scala.util.Success(value) => value
+      case scala.util.Failure(exception) =>
+        logger.warn(s"Failed to read docker config. Falling back to defaults", exception)
+        DockerClientConfig()
+    }
+    logger.info(s"Using docker client config: ${ReflectionUtils.prettyPrint(dockerClientConfig)}")
 
     val managerRepositories = new ManagerRepositories(configuration)
-    val managerServices = new ManagerServices(managerRepositories, configuration, dockerClient)
+    val managerServices = new ManagerServices(managerRepositories, configuration, dockerClient, dockerClientConfig)
     val managerApi = new ManagerHttpApi(managerServices, configuration)
-
     val managerGRPC = new ManagerGRPC(managerServices, configuration)
 
     sys addShutdownHook {

@@ -3,10 +3,8 @@ package io.hydrosphere.serving.manager.config
 import cats.syntax.either._
 import com.amazonaws.regions.Regions
 import io.hydrosphere.serving.manager.service.source.storages.local.LocalModelStorageDefinition
+import pureconfig.ConfigReader
 import pureconfig.error.CannotConvert
-import pureconfig.{CamelCase, ConfigFieldMapping, ConfigReader, ProductHint}
-
-import scala.util.Try
 
 case class ManagerConfiguration(
   sidecar: SidecarConfig,

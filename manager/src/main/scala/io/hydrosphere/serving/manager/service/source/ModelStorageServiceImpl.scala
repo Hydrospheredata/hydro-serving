@@ -41,6 +41,10 @@ class ModelStorageServiceImpl(
         }
         .toMap
 
+      if (storage.exists(rootDir)) {
+        storage.removeFolder(rootDir)
+      }
+
       writeFilesToSource(storage, localFiles)
 
       val inferredMeta = ModelFetcher.fetch(storage, unpackDir.toString)

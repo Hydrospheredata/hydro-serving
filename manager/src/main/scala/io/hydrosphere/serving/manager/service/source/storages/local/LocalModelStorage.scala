@@ -6,6 +6,8 @@ import java.nio.file._
 import io.hydrosphere.serving.manager.service.source.storages.ModelStorage
 import io.hydrosphere.serving.manager.util.FileUtils._
 import io.hydrosphere.serving.model.api.{HResult, Result}
+import org.apache.commons.io.FileUtils
+import scala.util.Try
 
 class LocalModelStorage(val sourceDef: LocalModelStorageDefinition) extends ModelStorage {
   val rootDir = sourceDef.path
@@ -38,9 +40,14 @@ class LocalModelStorage(val sourceDef: LocalModelStorageDefinition) extends Mode
   }
 
   override def exists(path: String): Boolean = {
+    exists(Paths.get(path))
+  }
+
+  def exists(path: Path): Boolean = {
     val requestedPath = rootDir.resolve(path)
     Files.exists(requestedPath)
   }
+
 
   override def writeFile(path: String, localFile: File): HResult[Path] = {
     val destFile = rootDir.resolve(path)
@@ -50,5 +57,11 @@ class LocalModelStorage(val sourceDef: LocalModelStorageDefinition) extends Mode
       Files.createDirectories(parentPath)
     }
     Result.ok(Files.copy(localFile.toPath, destPath, StandardCopyOption.REPLACE_EXISTING))
+  }
+
+  def removeFolder(path: Path): HResult[Unit] = {
+    Try {
+      FileUtils.deleteDirectory(rootDir.resolve(path).toFile)
+    }.toEither.left.map(Result.InternalError(_))
   }
 }
