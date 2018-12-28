@@ -68,4 +68,4 @@ You can apply custom resources on ML Lambda. These resources are detected by `ki
 
 # What's next? 
 
-- [Learn how to write manifests]({{site.baseurl}}{%link how-to/write-manifests.md%})
+- [Learn, how to write manifests]({{site.baseurl}}{%link how-to/write-manifests.md%});

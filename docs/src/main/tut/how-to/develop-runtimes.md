@@ -1,10 +1,10 @@
 ---
 layout: docs
-title:  "Develop Runtime"
-permalink: 'develop-runtime.html'
+title:  "Develop Runtimes"
+permalink: 'develop-runtimes.html'
 ---
 
-# Develop Runtime
+# Develop Runtimes
 
 Sometimes you have to use technology that we are not supporting yet or you need more flexibility and you want to implement your own runtime. It may seem frightening at first glance, but it's actually not that difficult. ML Lambda is designed to abstract it's guts from model users and runtime developers. The key things you have to know to write your own runtime are: 
 
@@ -285,3 +285,11 @@ Here, `name` is your image published in the Docker Hub. `version` is the tag of 
 ## Result
 
 That's it. You've just created a simple runtime, that you can use in your own projects. It's almost an equal version of our [python runtime implementation](https://github.com/Hydrospheredata/hydro-serving-python). You can always look up details there. 
+
+<br>
+<hr>
+
+# What's next? 
+
+- [Learn, how you can contribute to ML Lambda]({{site.baseurl}}{%link dev.md%});
+- [Learn, how you can deploy ML Lambda on Kubernetes]({{site.baseurl}}{%link installation.md%}#kubernetes);

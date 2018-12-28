@@ -46,3 +46,11 @@ request = hs.PredictRequest(model_spec=model_spec, inputs={"x": tensor})
 # call Predict method
 result = stub.Predict(request)
 ```
+
+<br>
+<hr>
+
+# What's next? 
+
+- [Learn, how to serve Python models]({{site.baseurl}}{%link tutorials/python.md%});
+- [Learn, how to serve Tensorflow models]({{site.baseurl}}{%link tutorials/tensorflow.md%});

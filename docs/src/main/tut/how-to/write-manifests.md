@@ -54,7 +54,7 @@ contract:
         profile: numeric
 ```
 
-In the example above we've defined a signature with `infer` name. Each signature has to have `inputs` and `outputs`. They define what kind of data the model will receive and what will it produce. Each input and output field has a 3 defined properties - `shape`, `type` and `profile`. You can look up all their possible values in the reference. 
+In the example above we've defined a signature with `infer` name. Each signature has to have `inputs` and `outputs`. They define what kind of data the model will receive and what will it produce. Each input and output field has a 3 defined properties - `shape`, `type` and `profile`. You can look up all their possible values in the [reference]({{site.baseurl}}{%link reference/manifests.md%}#kind-model). 
 
 <br>
 
@@ -161,3 +161,13 @@ Note, that in this manifest the `name` field has also another meaning. It refers
 ### `kind: Environment`
 
 Available soon. 
+
+<br>
+<hr>
+
+# What's next? 
+
+- [Learn, how to serve Python models]({{site.baseurl}}{%link tutorials/python.md%});
+- [Learn, how to serve Tensorflow models]({{site.baseurl}}{%link tutorials/tensorflow.md%});
+
+
