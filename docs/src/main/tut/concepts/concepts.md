@@ -8,7 +8,7 @@ permalink: "concepts.html"
 
 In the following pages we've described the main concepts of working with ML Lambda. 
 
-- [Models]({{site.baseurl}}{%link concepts/models.md%})
-- [Applications]({{site.baseurl}}{%link concepts/applications.md%})
-- [Runtimes]({{site.baseurl}}{%link concepts/runtimes.md%})
-- [CLI]({{site.baseurl}}{%link concepts/cli.md%})
+- [Models]({{site.baseurl}}{%link concepts/models.md%});
+- [Applications]({{site.baseurl}}{%link concepts/applications.md%});
+- [Runtimes]({{site.baseurl}}{%link concepts/runtimes.md%});
+- [CLI]({{site.baseurl}}{%link concepts/cli.md%});

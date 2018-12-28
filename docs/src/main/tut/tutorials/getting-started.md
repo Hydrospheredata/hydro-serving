@@ -246,4 +246,4 @@ _Note: For convinience we've already generated all our proto files to a python l
 
 - [Learn, how to work with CLI]({{site.baseurl}}{%link concepts/cli.md%});
 - [Learn, how to write manifests]({{site.baseurl}}{%link how-to/write-manifests.md%});
-- [Learn, how to deploy Tensorflow models]({{site.baseurl}}{%link tutorials/upload-tensorflow.md%});
+- [Learn, how to serve Tensorflow models]({{site.baseurl}}{%link tutorials/tensorflow.md%});

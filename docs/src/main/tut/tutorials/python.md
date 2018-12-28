@@ -1,10 +1,10 @@
 ---
 layout: docs
-title:  "Upload Python Model"
+title:  "Serving Python Model"
 permalink: "python.html"
 ---
 
-# Upload Python Model
+# Serving Python Model
 
 When we talk about Python models we mean any arbitrary actions that can be done with Python. You can add some number to your inputs, process images, serve models saved in binary format (scikit-learn, Keras, gluon-cv), etc. You've got the idea. For the simplicity in this tutorial we will do just that - increment an input number by one.
 
@@ -26,7 +26,7 @@ The model directory must contain a `src` folder with `func_main.py` file inside.
 import tensorflow as tf
 import hydro_serving_grpc as hs
 
-def infer(number):
+def increment(number):
     request_number = tf.make_ndarray(number)
     response_number = requets_number + 1
 
@@ -49,9 +49,9 @@ tensorflow==1.12.0
 numpy==1.14.3
 ```
 
-### Write contract
+### Write a manifest 
 
-Now that we have defined handler, we have to tell ML Lambda which function to call from `src/func_main.py`. In our case it's the `infer` function. Create a `serving.yaml` manifest. 
+Since we have defined a function-handler, we have to tell ML Lambda what to call from `src/func_main.py`. In this case it's the `increment` function. Create a `serving.yaml` manifest. 
 
 ```yaml
 # serving.yaml
@@ -64,7 +64,7 @@ payload:
   - "requirements.txt"
 
 contract:
-  infer:                      # Signature function
+  increment:                  # Signature function
     inputs:
       number:                 # Input field name
         shape: [-1]
@@ -79,10 +79,36 @@ contract:
 
 This file describes the model, its name, type, payload files and contract. Contract declares input and output fields for the model; data types, shapes and profile information. 
 
-That's it, you've just created a simple model which you can use within your business applications. To upload the model use:
+That's it, you've just created a simple model which you can use within your business applications. 
+
+### Serve the model 
+
+Upload the model to ML Lambda.
 
 ```sh
 $ hs upload
+```
+
+Now the model is uploaded to the serving service but does not yet available for the invokation. Create an application to declare an endpoint to your model. You can create it manually via UI interface, or by providing an application manifest. To do it with web interface, open your `http://<host>/` where ML Lambda has been deployed, open Applications page and create a new app which will use `mnist` model. Or by manifest:
+
+```yaml
+# application.yaml 
+
+kind: Application
+name: increment_app
+singular:
+  model: increment_model:1
+  runtime: hydrosphere/serving-runtime-python:3.6-latest
+```
+
+```sh
+$ hs apply -f application.yaml
+```
+
+That's it, now you can increment numbers. 
+
+```sh 
+$ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ "number": [1] }' 'https://<host>/gateway/applications/increment_app/increment'
 ```
 
 <br>
@@ -91,6 +117,6 @@ $ hs upload
 # What's next?
 
 - [Learn, how to work with CLI]({{site.baseurl}}{%link concepts/cli.md%});
-- [Learn, how to upload Tensorflow models]({{site.baseurl}}{%link tutorials/upload-tensorflow.md%});
+- [Learn, how to serve Tensorflow models]({{site.baseurl}}{%link tutorials/tensorflow.md%});
 - [Learn, how to invoke applications]({{site.baseurl}}{%link concepts/applications.md%});
-- [Learn, how to write contracts]({{site.baseurl}}{%link how-to/write-manifests.md%});
+- [Learn, how to write manifests]({{site.baseurl}}{%link how-to/write-manifests.md%});

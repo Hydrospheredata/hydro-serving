@@ -16,7 +16,7 @@ When you upload a model to ML Lambda, roughly the following steps are executed:
 
 ## Frameworks
 
-Model can be written using a variety of modern machine learning frameworks. You can implement your model using TensorFlow graph computations, or create your model with scikit-learn package, Pytorch, Keras, fastai, MXNet, Spark ML/MLlib, etc. ML Lambda can understand your models depending on what framework you are using. It’s possible due to the metadata, that frameworks save with the model, but it’s not always the case. You should refer to the table below with listed frameworks and their inference. If inferring percentage is high, you can omit providing contracts, otherwise you should.
+Model can be written using a variety of modern machine learning frameworks. You can implement your model using TensorFlow graph computations, or create your model with scikit-learn package, Pytorch, Keras, fastai, MXNet, Spark ML/MLlib, etc. ML Lambda can understand your models depending on what framework you are using. It’s possible due to the metadata, that frameworks save with the model, but it’s not always the case. You should refer to the table below with listed frameworks and their inference. If inferring percentage is high, you can omit providing contracts, otherwise [you should]({{site.baseurl}}{%link how-to/write-manifests.md%}).
 
 | Framework | Status | Inferring | Commentaries |
 | ------- | ------ | --------- | ------------ |
@@ -38,5 +38,5 @@ Model can be written using a variety of modern machine learning frameworks. You 
 
 # What's next?
 
-- [Learn more about application]({{site.baseurl}}{%link concepts/applications.md%})
-- [Learn how to invoke applications]({{site.baseurl}}{%link how-to/invoke-applications.md%})
+- [Learn more about applications]({{site.baseurl}}{%link concepts/applications.md%});
+- [Learn, how to invoke applications]({{site.baseurl}}{%link how-to/invoke-applications.md%});

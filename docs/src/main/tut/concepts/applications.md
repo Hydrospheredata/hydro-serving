@@ -19,5 +19,5 @@ When configuring applications, you have 2 options:
 
 # What's next?
 
-- [Learn how to invoke applications]({{site.baseurl}}{%link how-to/invoke-applications.md%})
-- [Learn how to write manfiests]({{site.baseurl}}{%link how-to/write-manifests.md%})
+- [Learn, how to invoke applications]({{site.baseurl}}{%link how-to/invoke-applications.md%});
+- [Learn, how to write manfiests]({{site.baseurl}}{%link how-to/write-manifests.md%});

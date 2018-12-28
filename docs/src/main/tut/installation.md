@@ -152,7 +152,7 @@ $ pip install hs
 
 # What's Next? 
 
-- [Learn how to get start with ML Lambda]({{site.baseurl}}{%link tutorials/getting-started.md%})
+- [Learn, how to get started with ML Lambda]({{site.baseurl}}{%link tutorials/getting-started.md%});
 
 [docker-install]: https://docs.docker.com/install/
 [docker-compose-install]: https://docs.docker.com/compose/install/#install-compose

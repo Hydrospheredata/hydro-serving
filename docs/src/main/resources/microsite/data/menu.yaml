@@ -12,10 +12,10 @@ options:
       - title: Getting Started
         url: "getting-started.html"
       
-      - title: Upload Tensorflow Model
+      - title: Serving Tensorflow Model
         url: "tensorflow.html"
       
-      - title: Upload Python Model
+      - title: Serving Python Model
         url: "python.html"
 
   - title: How-To
@@ -28,8 +28,8 @@ options:
       - title: Invoke Applications
         url: "invoke-applications.html"
 
-      - title: Develop Runtime
-        url: "develop-runtime.html"
+      - title: Develop Runtimes
+        url: "develop-runtimes.html"
 
   - title: Concepts
     url: "concepts.html"
@@ -46,6 +46,13 @@ options:
 
       - title: CLI
         url: "cli.html"
+  
+  - title: Reference
+    url: "manifests.html"
+    
+    nested_options:
+      - title: Manifests
+        url: "manifests.html"
 
-  - title: Development
+  - title: For Developers
     url: "dev.html"
