@@ -2,3 +2,7 @@ img {
     max-width: 100%;
     max-height: auto;
 }
+
+div.flexible-table {
+    overflow-x:auto
+}
