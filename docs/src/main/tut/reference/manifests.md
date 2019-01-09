@@ -25,32 +25,123 @@ contract:
 ...
 ``` 
 
-| Field | Definition | Type | Type description |
-| ----- | ---------- | ---- | ---------------- |
-| `shape` | Describes the shape of the input/ouput tensor. | `scalar` | Single number |
-| | | `-1` | Arbitrary shape | 
-| | | `1`, `2`, `3`, ... | Any positive number |
-| | | | |
-| `type` |  Describes the data type of incoming tensor. | `bool` | Boolean | 
-| | | `string`      | String | 
-| | | `half`, `float16` | 16-bit half-precision floating-point |
-| | | `float32`     | 32-bit single-precision floating-point | 
-| | | `double`, `float64`      | 64-bit double-precision floating-point | 
-| | | `uint8`       | 8-bit unsigned integer | 
-| | | `uint16`      | 16-bit unsigned integer | 
-| | | `uint32`      | 32-bit unsigned integer | 
-| | | `uint64`      | 64-bit unsigned integer | 
-| | | `int8`        | 8-bit signed integer | 
-| | | `int16`       | 16-bit signed integer | 
-| | | `int32`       | 32-bit signed integer | 
-| | | `int64`       | 64-bit signed integer | 
-| | | `qint8`       | Quantized 8-bit signed integer | 
-| | | `quint8`      | Quantized 8-bit unsigned integer | 
-| | | `qint16`      | Quantized 16-bit signed integer | 
-| | | `quint16`     | Quantized 16-bit unsigned integer |
-| | | `complex64`   | 64-bit single-precision complex | 
-| | | `complex128`  | 128-bit double-precision complex | 
-| | | | |
-| `profile` | Describes the nature of the data. | `text` | Monitoring such fields will be done with __text__-oriented algorithms. |
-| | | `image` | Monitoring such fields will be done with __image__-oriented algorithms. | 
-| | | `numerical` | Monitoring such fields will be done with __numerical__-oriented algorithms.|
+<div class="flexible-table">
+    <table>
+        <thead>
+            <tr>
+                <th>Field</th>
+                <th>Definition</th>
+                <th>Type</th>
+                <th>Type Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3"><code>shape</code></td>
+                <td rowspan="3">Describes the shape of the input/ouput tensor.</td>
+                <td><code>scalar</code></td>
+                <td>Single element</td>
+            </tr>
+            <tr>
+                <td><code>-1</code></td>
+                <td>Arbitrary shape</td>
+            </tr>
+            <tr>
+                <td><code>1</code>, <code>2</code>, <code>3</code>, …</td>
+                <td>Any positive number</td>
+            </tr>
+            <tr>
+                <td rowspan="19"><code>type</code></td>
+                <td rowspan="19">Describes the data type of incoming tensor.</td>
+                <td><code>bool</code></td>
+                <td>Boolean.</td>
+            </tr>
+            <tr>
+                <td><code>string</code></td>
+                <td>String.</td>
+            </tr>
+            <tr>
+                <td><code>half</code>, <code>float16</code></td>
+                <td>16-bit half-precision floating-point.</td>
+            </tr>
+            <tr>
+                <td><code>float32</code></td>
+                <td>32-bit single-precision floating-point.</td>
+            </tr>
+            <tr>
+                <td><code>double</code>, <code>float64</code></td>
+                <td>64-bit double-precision floating-point.</td>
+            </tr>
+            <tr>
+                <td><code>uint8</code></td>
+                <td>8-bit unsigned integer.</td>
+            </tr>
+            <tr>
+                <td><code>uint16</code></td>
+                <td>16-bit unsigned integer.</td>
+            </tr>
+            <tr>
+                <td><code>uint32</code></td>
+                <td>32-bit unsigned integer.</td>
+            </tr>
+            <tr>
+                <td><code>uint64</code></td>
+                <td>64-bit unsigned integer.</td>
+            </tr>
+            <tr>
+                <td><code>int8</code></td>
+                <td>8-bit signed integer.</td>
+            </tr>
+            <tr>
+                <td><code>int16</code></td>
+                <td>16-bit signed integer.</td>
+            </tr>
+            <tr>
+                <td><code>int32</code></td>
+                <td>32-bit signed integer.</td>
+            </tr>
+            <tr>
+                <td><code>int64</code></td>
+                <td>64-bit signed integer.</td>
+            </tr>
+            <tr>
+                <td><code>qint8</code></td>
+                <td>Quantized 8-bit signed integer.</td>
+            </tr>
+            <tr>
+                <td><code>quint8</code></td>
+                <td>Quantized 8-bit unsigned integer.</td>
+            </tr>
+            <tr>
+                <td><code>qint16</code></td>
+                <td>Quantized 16-bit signed integer.</td>
+            </tr>
+            <tr>
+                <td><code>quint16</code></td>
+                <td>Quantized 16-bit unsigned integer.</td>
+            </tr>
+            <tr>
+                <td><code>complex64</code></td>
+                <td>64-bit single-precision complex.</td>
+            </tr>
+            <tr>
+                <td><code>complex128</code></td>
+                <td>128-bit double-precision complex.</td>
+            </tr>
+            <tr>
+                <td rowspan="3"><code>profile</code></td>
+                <td rowspan="3">Describes the nature of the data.</td>
+                <td><code>text</code></td>
+                <td>Monitoring such fields will be done with <b>text</b>-oriented algorithms.</td>
+            </tr>
+            <tr>
+                <td><code>image</code></td>
+                <td>Monitoring such fields will be done with <b>image</b>-oriented algorithms.</td>
+            </tr>
+            <tr>
+                <td><code>numerical</code></td>
+                <td>Monitoring such fields will be done with <b>numerical</b>-oriented algorithms.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
