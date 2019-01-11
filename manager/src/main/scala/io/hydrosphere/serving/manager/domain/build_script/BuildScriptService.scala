@@ -4,9 +4,13 @@ import io.hydrosphere.serving.model.api.ModelType
 
 import scala.concurrent.{ExecutionContext, Future}
 
+trait BuildScriptServiceAlg {
+  def fetchScriptForModelType(modelType: ModelType): Future[String]
+}
+
 class BuildScriptService(
   modelBuildScriptRepository: BuildScriptRepositoryAlgebra[Future]
-)(implicit executionContext: ExecutionContext) {
+)(implicit executionContext: ExecutionContext) extends BuildScriptServiceAlg {
 
   def fetchScriptForModelType(modelType: ModelType): Future[String] =
     modelBuildScriptRepository.get(modelType.toTag).flatMap {

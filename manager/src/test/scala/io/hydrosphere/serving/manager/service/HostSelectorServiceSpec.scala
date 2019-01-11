@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.service
 
 import io.hydrosphere.serving.manager.GenericUnitTest
-import io.hydrosphere.serving.manager.domain.host_selector.{AnyHostSelector, HostSelector, HostSelectorRepositoryAlgebra, HostSelectorService}
+import io.hydrosphere.serving.manager.domain.host_selector.{HostSelector, HostSelectorRepositoryAlgebra, HostSelectorService}
 import org.mockito.{Matchers, Mockito}
 
 import scala.concurrent.Future
@@ -22,7 +22,6 @@ class HostSelectorServiceSpec extends GenericUnitTest {
       val environmentService = new HostSelectorService(envRepo)
 
       environmentService.all().map { envs =>
-        assert(envs.contains(AnyHostSelector))
         assert(envs.exists(_.name == "test"))
       }
     }

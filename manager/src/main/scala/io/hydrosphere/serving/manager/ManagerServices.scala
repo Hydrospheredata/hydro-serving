@@ -55,7 +55,7 @@ class ManagerServices(
   val modelPushService = managerConfiguration.dockerRepository match {
     case c: DockerRepositoryConfiguration.Remote => new RemoteModelPushService(dockerClient, c)
     case c: DockerRepositoryConfiguration.Ecs => new ECSModelPushService(dockerClient, c)
-    case _ => new EmptyModelPushService
+    case _ => new LocalModelPushService
   }
 
   val internalManagerEventsPublisher = new InternalManagerEventsPublisher

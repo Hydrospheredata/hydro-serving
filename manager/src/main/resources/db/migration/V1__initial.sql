@@ -27,7 +27,7 @@ CREATE TABLE hydro_serving.model_version
   runtime_name       TEXT                        NOT NULL,
   runtime_version    TEXT                        NOT NULL,
   status            TEXT                        NOT NULL,
-  profileTypes      TEXT
+  profile_types      TEXT
 );
 
 CREATE TABLE hydro_serving.service

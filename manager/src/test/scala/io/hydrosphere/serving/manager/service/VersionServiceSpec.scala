@@ -2,12 +2,17 @@ package io.hydrosphere.serving.manager.service
 
 import java.time.LocalDateTime
 
+import com.spotify.docker.client.ProgressHandler
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.GenericUnitTest
+import io.hydrosphere.serving.manager.domain.build_script.BuildScriptServiceAlg
+import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorServiceAlg
 import io.hydrosphere.serving.manager.domain.image.DockerImage
-import io.hydrosphere.serving.manager.domain.model.Model
-import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepositoryAlgebra, ModelVersionService, ModelVersionStatus}
+import io.hydrosphere.serving.manager.domain.model.{Model, ModelVersionMetadata}
+import io.hydrosphere.serving.manager.domain.model_version._
+import io.hydrosphere.serving.manager.infrastructure.model.push.LocalModelPushService
 import io.hydrosphere.serving.model.api.ModelType
+import org.mockito.Matchers
 
 import scala.concurrent.Future
 
@@ -19,8 +24,8 @@ class VersionServiceSpec extends GenericUnitTest {
         when(versionRepo.lastModelVersionByModel(1, 1)).thenReturn(
           Future.successful(Seq.empty)
         )
-        val versionService = new ModelVersionService(versionRepo,null,null,null,null,null)
-        versionService.getNextModelVersion(1).map{ x =>
+        val versionService = new ModelVersionService(versionRepo, null, null, null, null, null)
+        versionService.getNextModelVersion(1).map { x =>
           assert(x.right.get === 1)
         }
       }
@@ -43,10 +48,58 @@ class VersionServiceSpec extends GenericUnitTest {
             profileTypes = Map.empty
           )))
         )
-        val versionService = new ModelVersionService(versionRepo,null,null,null,null,null)
-        versionService.getNextModelVersion(1).map{ x =>
+        val versionService = new ModelVersionService(versionRepo, null, null, null, null, null)
+        versionService.getNextModelVersion(1).map { x =>
           assert(x.right.get === 5)
         }
+      }
+    }
+
+    it("should push the built image") {
+      val model = Model(1, "push-me")
+      val modelType = ModelType.Spark("2.2.0")
+
+      val versionRepo = new ModelVersionRepositoryAlgebra[Future] {
+        override def create(entity: ModelVersion): Future[ModelVersion] = Future.successful(entity)
+        override def update(id: Long, entity: ModelVersion): Future[Int] = ???
+        override def get(id: Long): Future[Option[ModelVersion]] = ???
+        override def get(modelName: String, modelVersion: Long): Future[Option[ModelVersion]] = ???
+        override def get(idx: Seq[Long]): Future[Seq[ModelVersion]] = ???
+        override def delete(id: Long): Future[Int] = ???
+        override def all(): Future[Seq[ModelVersion]] = ???
+        override def listForModel(modelId: Long): Future[Seq[ModelVersion]] = ???
+        override def lastModelVersionByModel(modelId: Long, max: Int): Future[Seq[ModelVersion]] = Future.successful(Seq.empty)
+        override def modelVersionsByModelVersionIds(modelVersionIds: Set[Long]): Future[Seq[ModelVersion]] = ???
+      }
+
+      val modelVersionMetadata = ModelVersionMetadata(
+        modelName = model.name,
+        modelType = modelType,
+        contract = ModelContract.defaultInstance,
+        profileTypes = Map.empty,
+        runtime = DockerImage("run", "time"),
+        hostSelector = None
+      )
+
+      val buildScriptService = mock[BuildScriptServiceAlg]
+      when(buildScriptService.fetchScriptForModelType(Matchers.any())).thenReturn(Future.successful("buildscript"))
+
+      val selectorService = mock[HostSelectorServiceAlg]
+      val buildService = mock[ModelBuildAlgebra]
+
+      var maybeModelVersion = Option.empty[ModelVersion]
+      val pushService = new ModelVersionPushAlgebra {
+        override def getImage(modelName: String, modelVersion: Long): DockerImage = DockerImage(modelName, modelVersion.toString)
+
+        override def push(modelVersion: ModelVersion, progressHandler: ProgressHandler): Unit = {maybeModelVersion = Some(modelVersion)}
+      }
+      val versionService = new ModelVersionService(versionRepo, buildScriptService, selectorService, buildService, pushService, null)
+      versionService.build(model, modelVersionMetadata).map { x =>
+        val mv = x.right.get.startedVersion
+        assert(maybeModelVersion.isDefined)
+        assert(mv.model.name === "push-me")
+        assert(mv.modelVersion === 1)
+        assert(mv.image === DockerImage("push-me", "1"))
       }
     }
   }

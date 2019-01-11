@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.domain.service
 import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.manager.domain.clouddriver._
-import io.hydrosphere.serving.manager.domain.host_selector.{AnyHostSelector, HostSelectorService}
+import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorService
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionService}
 import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.InternalManagerEventsPublisher
 import io.hydrosphere.serving.model.api.{HFResult, Result}
@@ -45,13 +45,6 @@ class ServiceManagementService(
     configParams: Option[Map[String, String]],
     modelVersion: ModelVersion
   ): Future[Service] = {
-    val hostSelector = modelVersion.hostSelector.flatMap { hs =>
-      if (hs.id == AnyHostSelector.id) {
-        None
-      } else {
-        Some(hs)
-      }
-    }
     val dService = Service(
       id = 0,
       serviceName = serviceName,
@@ -62,7 +55,7 @@ class ServiceManagementService(
     )
     val f = for {
       newService <- serviceRepository.create(dService)
-      cloudService <- cloudDriver.deployService(newService, modelVersion.runtime, modelVersion.image, hostSelector)
+      cloudService <- cloudDriver.deployService(newService, modelVersion.runtime, modelVersion.image, modelVersion.hostSelector)
       _ <- serviceRepository.updateCloudDriveId(cloudService.id, Some(cloudService.cloudDriverId))
     } yield newService.copy(cloudDriverId = Some(cloudService.cloudDriverId))
 

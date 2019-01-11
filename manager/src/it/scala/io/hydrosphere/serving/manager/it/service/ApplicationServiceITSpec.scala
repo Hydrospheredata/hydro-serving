@@ -7,13 +7,13 @@ import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.api.http.controller.application._
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
-import io.hydrosphere.serving.manager.domain.application.{ApplicationExecutionGraph, ApplicationKafkaStream, ApplicationStage, DetailedServiceDescription}
-import io.hydrosphere.serving.manager.domain.image.DockerImage
+import io.hydrosphere.serving.manager.domain.application.{ApplicationExecutionGraph, ApplicationKafkaStream, PipelineStage, PipelineStageNode}
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersion
 import io.hydrosphere.serving.manager.it.FullIntegrationSpec
+import io.hydrosphere.serving.model.api.Result.HError
 import org.scalatest.BeforeAndAfterAll
 
-import scala.concurrent.Await
+import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
 
 class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
@@ -31,11 +31,11 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     runtime = dummyImage,
     contract = Some(ModelContract(
       modelName = "m1",
-      signatures = Vector(
+      signatures = List(
         ModelSignature(
           signatureName = "not-default-spark",
-          inputs = Vector(ModelField("test-input")),
-          outputs = Vector(ModelField("test-output"))
+          inputs = List(ModelField("test-input")),
+          outputs = List(ModelField("test-output"))
         )
       )
     ))
@@ -64,23 +64,18 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           ))
         } yield {
           println(appResult)
-          val expectedGraph = ApplicationExecutionGraph(
-            List(
-              ApplicationStage(
-                List(
-                  DetailedServiceDescription(
-                    weight = 100,
-                    signature = None,
-                    modelVersion = mv1,
-                  )
-                ),
-                None
-              )
-            )
-          )
+          val expectedStages = List(PipelineStageNode(
+            weight = 100,
+            signature = None,
+            modelVersion = mv1,
+          ))
           assert(appResult.name === "simple-app")
           assert(appResult.contract === mv1.modelContract)
-          assert(appResult.executionGraph === expectedGraph)
+          val services = appResult.executionGraph.stages.flatMap(_.services)
+          val service = services.head
+          assert(service.weight === 100)
+          assert(service.signature === None)
+          assert(service.modelVersion.id === mv1.id)
         }
       }
     }
@@ -93,7 +88,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           executionGraph = ExecutionGraphRequest(
             stages = List(
               ExecutionStepRequest(
-                services = List(
+                modelVariants = List(
                   ServiceCreationDescription(
                     modelVersionId = mv1.id,
                     weight = 50,
@@ -112,14 +107,14 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         )
         val expectedGraph = ApplicationExecutionGraph(
           List(
-            ApplicationStage(
+            PipelineStage(
               List(
-                DetailedServiceDescription(
+                PipelineStageNode(
                   weight = 50,
                   signature = mv1.modelContract.signatures.find(_.signatureName == "default_spark"),
                   modelVersion = mv1,
                 ),
-                DetailedServiceDescription(
+                PipelineStageNode(
                   weight = 50,
                   signature = mv1.modelContract.signatures.find(_.signatureName == "default_spark"),
                   modelVersion = mv1,
@@ -139,7 +134,15 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         } yield {
           println(app)
           assert(app.name === appRequest.name)
-          assert(app.executionGraph === expectedGraph)
+          val services = app.executionGraph.stages.flatMap(_.services)
+          val service1 = services.head
+          val service2 = services.head
+          assert(service1.weight === 50)
+          assert(service1.signature.exists(_.signatureName == "default_spark"))
+          assert(service1.modelVersion.id === mv1.id)
+          assert(service2.weight === 50)
+          assert(service2.signature.exists(_.signatureName == "default_spark"))
+          assert(service2.modelVersion.id === mv1.id)
         }
       }
     }
@@ -151,7 +154,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         executionGraph = ExecutionGraphRequest(
           stages = List(
             ExecutionStepRequest(
-              services = List(
+              modelVariants = List(
                 ServiceCreationDescription(
                   modelVersionId = mv1.id,
                   weight = 100,
@@ -202,7 +205,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           executionGraph = ExecutionGraphRequest(
             stages = List(
               ExecutionStepRequest(
-                services = List(
+                modelVariants = List(
                   ServiceCreationDescription(
                     modelVersionId = mv1.id,
                     weight = 100,
@@ -224,7 +227,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           newGraph = ExecutionGraphRequest(
             stages = List(
               ExecutionStepRequest(
-                services = List(
+                modelVariants = List(
                   ServiceCreationDescription(
                     modelVersionId = mv2.id,
                     weight = 100,
@@ -245,7 +248,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           gotNewApp <- EitherT(managerServices.applicationManagementService.getApplication(appNew.id))
         } yield {
           assert(appNew === gotNewApp, gotNewApp)
-          assert(appNew.contract === upload3.contract.get)
+          assert(appNew.contract.signatures.length === upload3.contract.get.signatures.length)
         }
       }
     }
@@ -258,13 +261,14 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
     val f = for {
       d1 <- EitherT(managerServices.modelManagementService.uploadModel(uploadFile, upload1))
+      completed1 <- EitherT.liftF[Future, HError, ModelVersion](d1.completedVersion)
       d2 <- EitherT(managerServices.modelManagementService.uploadModel(uploadFile, upload2))
+      completed2 <- EitherT.liftF[Future, HError, ModelVersion](d2.completedVersion)
     } yield {
-      println(s"UPLOADED: $d1")
-      println(s"UPLOADED: $d2")
-      mv1 = d1
-      mv2 = d2
-      d2
+      println(s"UPLOADED: $completed1")
+      println(s"UPLOADED: $completed2")
+      mv1 = completed1
+      mv2 = completed2
     }
 
     Await.result(f.value, 30 seconds)

@@ -24,14 +24,9 @@ class HostSelectorService(
 )(implicit ec: ExecutionContext) extends HostSelectorServiceAlg with Logging {
 
   def get(environmentId: Long): HFResult[HostSelector] = {
-    environmentId match {
-      case AnyHostSelector.`id` =>
-        Result.okF(AnyHostSelector)
-      case _ =>
-        environmentRepository
-          .get(environmentId)
-          .map(_.toHResult(ClientError(s"Can't find environment with id $environmentId")))
-    }
+    environmentRepository
+      .get(environmentId)
+      .map(_.toHResult(ClientError(s"Can't find environment with id $environmentId")))
   }
 
   def get(name: String): Future[Option[HostSelector]] = {
@@ -39,7 +34,7 @@ class HostSelectorService(
   }
 
   def all(): Future[Seq[HostSelector]] =
-    environmentRepository.all().map(_ :+ AnyHostSelector)
+    environmentRepository.all()
 
   def create(name: String, placeholder: String): HFResult[HostSelector] = {
     environmentRepository.get(name).flatMap {

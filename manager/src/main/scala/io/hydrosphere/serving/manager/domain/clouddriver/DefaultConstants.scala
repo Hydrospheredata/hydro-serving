@@ -1,6 +1,5 @@
 package io.hydrosphere.serving.manager.domain.clouddriver
 
-import io.hydrosphere.serving.manager.domain.model_version.ModelVersion
 import io.hydrosphere.serving.manager.domain.service.Service
 
 object DefaultConstants {

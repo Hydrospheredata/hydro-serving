@@ -70,7 +70,7 @@ class ModelController(
     post {
       getFileWithMeta[ModelUploadMetadata, ModelVersion] {
         case (Some(file), Some(meta)) =>
-          modelManagementService.uploadModel(file, meta)
+          modelManagementService.uploadModel(file, meta).map(x => x.right.map(_.startedVersion))
         case (None, _) => Result.clientErrorF("Couldn't find a payload in request")
         case (_, None) => Result.clientErrorF("Couldn't find a metadata in request")
       }

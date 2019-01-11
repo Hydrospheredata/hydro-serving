@@ -94,7 +94,7 @@ trait FullIntegrationSpec extends DatabaseAccessIT
 
   protected def packModel(str: String): Path = {
     val temptar = Files.createTempFile("packedModel", ".tar.gz")
-    TarGzUtils.compressFolder(Paths.get(getClass.getResource(str).getPath), temptar)
+    TarGzUtils.compressFolder(Paths.get(getClass.getResource(str).toURI), temptar)
     temptar
   }
 

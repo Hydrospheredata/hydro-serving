@@ -30,12 +30,14 @@ class ModelServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
       eitherTAssert {
         for {
           mv <- EitherT(managerServices.modelManagementService.uploadModel(uploadFile, uploadMetadatA))
-          builtMv <- EitherT.liftF(waitForBuildCompletion(mv.id))
+          builtMv <- EitherT.liftF(mv.completedVersion)
         } yield {
           // check that build is successful
-          assert(builtMv.status == ModelVersionStatus.Finished)
+          assert(builtMv.status === ModelVersionStatus.Finished)
           assert(builtMv.finished.isDefined)
           assert(builtMv.modelVersion == 1)
+          assert(builtMv.model.name === "m1")
+          assert(builtMv.modelVersion === 1)
 
           // check files in container
           val config = ContainerConfig.builder()
@@ -80,19 +82,5 @@ class ModelServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
         }
       }
     }
-  }
-
-  final def waitForBuildCompletion(versionId: Long): Future[ModelVersion] = {
-    managerServices.modelVersionManagementService.get(versionId)
-      .flatMap {
-        case Right(value) =>
-          value.status match {
-            case ModelVersionStatus.Started =>
-              Thread.sleep(1000)
-              waitForBuildCompletion(versionId)
-            case _ => Future.successful(value)
-          }
-        case Left(x) => Future.failed(new IllegalStateException(x.message))
-      }
   }
 }

@@ -84,7 +84,7 @@ class ApplicationService(
   ): HFResult[Application] = {
     val keys = for {
       stage <- executionGraph.stages
-      service <- stage.services
+      service <- stage.modelVariants
     } yield {
       service.modelVersionId
     }
@@ -158,7 +158,7 @@ class ApplicationService(
       newApplication <- EitherT(composeAppF(name, namespace, graph, contract, kafkaStreaming, id))
 
       keysSetOld = oldApplication.executionGraph.stages.flatMap(_.services.map(_.modelVersion.id)).toSet
-      keysSetNew = executionGraph.stages.flatMap(_.services.map(_.modelVersionId)).toSet
+      keysSetNew = executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersionId)).toSet
 
       _ <- EitherT(removeServiceIfNeeded(keysSetOld -- keysSetNew, id))
       versions <- EitherT.liftF(modelVersionManagementService.get(keysSetNew -- keysSetOld))
@@ -222,7 +222,7 @@ class ApplicationService(
   private def inferGraph(executionGraphRequest: ExecutionGraphRequest): HFResult[ApplicationExecutionGraph] = {
     val appStages =
       executionGraphRequest.stages match {
-        case singleStage :: Nil if singleStage.services.lengthCompare(1) == 0 =>
+        case singleStage :: Nil if singleStage.modelVariants.lengthCompare(1) == 0 =>
           inferSimpleApp(singleStage) // don't perform checks
         case stages =>
           inferPipelineApp(stages)
@@ -232,13 +232,13 @@ class ApplicationService(
     }.value
   }
 
-  private def inferSimpleApp(singleStage: ExecutionStepRequest): HFResult[Seq[ApplicationStage]] = {
-    val service = singleStage.services.head
+  private def inferSimpleApp(singleStage: ExecutionStepRequest): HFResult[Seq[PipelineStage]] = {
+    val service = singleStage.modelVariants.head
     val f = for {
       version <- EitherT(modelVersionManagementService.get(service.modelVersionId))
       signed <- EitherT(createDetailedServiceDesc(service, version, None))
     } yield Seq(
-      ApplicationStage(
+      PipelineStage(
         services = List(signed.copy(weight = 100)), // 100 since this is the only service in the app
         signature = None,
       )
@@ -246,14 +246,14 @@ class ApplicationService(
     f.value
   }
 
-  private def inferPipelineApp(stages: Seq[ExecutionStepRequest]): HFResult[Seq[ApplicationStage]] = {
+  private def inferPipelineApp(stages: Seq[ExecutionStepRequest]): HFResult[Seq[PipelineStage]] = {
     Result.sequenceF {
       stages.map { stage =>
           val f = for {
-            services <- EitherT(inferServices(stage.services))
+            services <- EitherT(inferServices(stage.modelVariants))
             stageSig <- EitherT(Future.successful(inferStageSignature(services)))
           } yield {
-            ApplicationStage(
+            PipelineStage(
               services = services.toList,
               signature = Some(stageSig),
             )
@@ -263,7 +263,7 @@ class ApplicationService(
     }
   }
 
-  def inferServices(services: Seq[ServiceCreationDescription]): HFResult[Seq[DetailedServiceDescription]] = {
+  def inferServices(services: Seq[ServiceCreationDescription]): HFResult[Seq[PipelineStageNode]] = {
     Result.sequenceF {
       services.map { service =>
         val f = for {
@@ -286,7 +286,7 @@ class ApplicationService(
 
   private def createDetailedServiceDesc(service: ServiceCreationDescription, modelVersion: ModelVersion, signature: Option[ModelSignature]) = {
     Result.okF(
-      DetailedServiceDescription(
+      PipelineStageNode(
         modelVersion,
         service.weight,
         signature
@@ -314,7 +314,7 @@ class ApplicationService(
     }
   }
 
-  private def inferStageSignature(serviceDescs: Seq[DetailedServiceDescription]): HResult[ModelSignature] = {
+  private def inferStageSignature(serviceDescs: Seq[PipelineStageNode]): HResult[ModelSignature] = {
     val signatures = serviceDescs.map { service =>
       service.signature match {
         case Some(sig) => Result.ok(sig)

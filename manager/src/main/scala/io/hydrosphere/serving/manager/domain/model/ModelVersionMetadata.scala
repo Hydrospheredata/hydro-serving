@@ -12,5 +12,5 @@ case class ModelVersionMetadata(
   contract: ModelContract,
   profileTypes: Map[String, DataProfileType],
   runtime: DockerImage,
-  hostSelector: HostSelector
+  hostSelector: Option[HostSelector]
 )

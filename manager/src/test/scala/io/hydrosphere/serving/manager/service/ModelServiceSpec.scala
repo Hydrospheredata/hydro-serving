@@ -8,13 +8,13 @@ import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
-import io.hydrosphere.serving.manager.domain.host_selector.{AnyHostSelector, HostSelectorServiceAlg}
+import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorServiceAlg
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.{Model, ModelRepositoryAlgebra, ModelService, ModelVersionMetadata}
-import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionServiceAlg, ModelVersionStatus, ModelVersionView}
+import io.hydrosphere.serving.manager.domain.model_version._
 import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorageService
 import io.hydrosphere.serving.manager.util.TarGzUtils
-import io.hydrosphere.serving.model.api.{HFResult, ModelMetadata, ModelType, Result}
+import io.hydrosphere.serving.model.api.{ModelMetadata, ModelType, Result}
 import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.mockito.Matchers
@@ -73,7 +73,7 @@ class ModelServiceSpec extends GenericUnitTest {
           contract = contract,
           profileTypes = Map.empty,
           runtime = modelRuntime,
-          hostSelector = AnyHostSelector
+          hostSelector = None
         )
 
         val uploadFile = Paths.get("123123")
@@ -110,14 +110,14 @@ class ModelServiceSpec extends GenericUnitTest {
 
         val versionService = mock[ModelVersionServiceAlg]
         when(versionService.build(model, modelVersionMetadata)).thenReturn(
-          Result.okF(modelVersion)
+          Result.okF(BuildResult(modelVersion, Future.successful(modelVersion)))
         )
 
         val modelManagementService = new ModelService(modelRepo, versionService, sourceMock, null, null)
 
         modelManagementService.uploadModel(uploadFile, upload).map { maybeModel =>
           assert(maybeModel.isRight, maybeModel)
-          val rModel = maybeModel.right.get
+          val rModel = maybeModel.right.get.startedVersion
           println(rModel)
           assert(rModel.model.name === "tf-model")
         }
@@ -166,7 +166,7 @@ class ModelServiceSpec extends GenericUnitTest {
           contract = contract,
           profileTypes = Map.empty,
           runtime = modelRuntime,
-          hostSelector = AnyHostSelector
+          hostSelector = None
         )
         val upload = ModelUploadMetadata(
           name = Some(modelName),
@@ -202,7 +202,7 @@ class ModelServiceSpec extends GenericUnitTest {
 
         val versionService = mock[ModelVersionServiceAlg]
         when(versionService.build(model, modelVersionMetadata)).thenReturn(
-          Result.okF(modelVersion)
+          Result.okF(BuildResult(modelVersion, Future.successful(modelVersion)))
         )
 
         val hService = mock[HostSelectorServiceAlg]
@@ -211,7 +211,7 @@ class ModelServiceSpec extends GenericUnitTest {
 
         modelManagementService.uploadModel(uploadFile, upload).map { maybeModel =>
           assert(maybeModel.isRight, maybeModel)
-          val rModel = maybeModel.right.get
+          val rModel = maybeModel.right.get.startedVersion
           assert(rModel.model.name === "upload-model", rModel)
           assert(rModel.modelType === ModelType.Unknown())
         }

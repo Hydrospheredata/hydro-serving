@@ -7,14 +7,16 @@ import cats.implicits._
 import com.spotify.docker.client.ProgressHandler
 import com.spotify.docker.client.messages.ProgressMessage
 import io.hydrosphere.serving.manager.domain.application.ApplicationRepositoryAlgebra
-import io.hydrosphere.serving.manager.domain.build_script.BuildScriptService
-import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorService
+import io.hydrosphere.serving.manager.domain.build_script.BuildScriptServiceAlg
+import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorServiceAlg
 import io.hydrosphere.serving.manager.domain.model.{Model, ModelVersionMetadata}
 import io.hydrosphere.serving.model.api.Result.HError
 import io.hydrosphere.serving.model.api.{HFResult, Result}
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
+
+case class BuildResult(startedVersion: ModelVersion, completedVersion: Future[ModelVersion])
 
 trait ModelVersionServiceAlg {
   def deleteVersions(mvs: Seq[ModelVersion]): HFResult[Seq[ModelVersion]]
@@ -37,13 +39,13 @@ trait ModelVersionServiceAlg {
 
   def delete(versionId: Long): HFResult[ModelVersion]
 
-  def build(model: Model, metadata: ModelVersionMetadata): HFResult[ModelVersion]
+  def build(model: Model, metadata: ModelVersionMetadata): HFResult[BuildResult]
 }
 
 class ModelVersionService(
   modelVersionRepository: ModelVersionRepositoryAlgebra[Future],
-  buildScriptService: BuildScriptService,
-  hostSelectorService: HostSelectorService,
+  buildScriptService: BuildScriptServiceAlg,
+  hostSelectorService: HostSelectorServiceAlg,
   modelBuildService: ModelBuildAlgebra,
   modelPushService: ModelVersionPushAlgebra,
   applicationRepo: ApplicationRepositoryAlgebra[Future]
@@ -113,7 +115,7 @@ class ModelVersionService(
     f.value
   }
 
-  def build(model: Model, metadata: ModelVersionMetadata): HFResult[ModelVersion] = {
+  def build(model: Model, metadata: ModelVersionMetadata): HFResult[BuildResult] = {
     logger.debug(model)
     val messageHandler = new ProgressHandler {
       override def progress(message: ProgressMessage): Unit = {
@@ -123,50 +125,58 @@ class ModelVersionService(
     }
     val f = for {
       version <- EitherT(getNextModelVersion(model.id))
-      modelType = metadata.modelType
-      script <- EitherT.liftF(buildScriptService.fetchScriptForModelType(modelType))
-      contract = metadata.contract
-      image = modelPushService.getImage(model.name, version)
+      script <- EitherT.liftF(buildScriptService.fetchScriptForModelType(metadata.modelType))
+      image = modelPushService.getImage(metadata.modelName, version)
       mv = ModelVersion(
         id = 0,
         image = image,
         created = LocalDateTime.now(),
         finished = None,
         modelVersion = version,
-        modelType = modelType,
-        modelContract = contract,
+        modelType = metadata.modelType,
+        modelContract = metadata.contract,
         runtime = metadata.runtime,
         model = model,
-        hostSelector = Some(metadata.hostSelector),
+        hostSelector = metadata.hostSelector,
         status = ModelVersionStatus.Started,
         profileTypes = metadata.profileTypes
       )
       modelVersion <- EitherT(create(mv))
     } yield (script, modelVersion)
 
-    f.map {
-      case (script, mv) =>
+    val preBuilt = f.value
+
+    val completedBuild = preBuilt.flatMap {
+      case Left(err) =>
+        logger.error(err)
+        Future.failed(new IllegalArgumentException(err.toString))
+      case Right((script, mv)) =>
         val res = EitherT(modelBuildService.build(mv.model.name, mv.modelVersion, mv.modelType, mv.modelContract, mv.image, script, messageHandler))
           .map { sha =>
             val newDockerImage = mv.image.copy(sha256 = Some(sha))
             mv.copy(image = newDockerImage, finished = Some(LocalDateTime.now()))
           }.value
 
-        res.map {
+        val f = res.flatMap {
           case Left(err) =>
             logger.error(err)
             val failed = mv.copy(status = ModelVersionStatus.Failed)
             modelVersionRepository.update(failed.id, failed)
+              .map(_ => failed)
           case Right(smv) =>
             val finished = smv.copy(status = ModelVersionStatus.Finished)
             modelVersionRepository.update(finished.id, finished)
-        }.failed.foreach { err =>
+              .map(_ => finished)
+        }
+
+        f.failed.foreach { err =>
           logger.error(err)
           val failed = mv.copy(status = ModelVersionStatus.Failed)
           modelVersionRepository.update(failed.id, failed)
         }
+        f
     }
 
-    f.map(_._2).value
+    f.map(t => BuildResult(t._2, completedBuild)).value
   }
 }

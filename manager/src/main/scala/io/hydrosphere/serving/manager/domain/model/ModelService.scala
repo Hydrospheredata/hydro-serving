@@ -6,8 +6,8 @@ import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
 import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationRepositoryAlgebra}
-import io.hydrosphere.serving.manager.domain.host_selector.{AnyHostSelector, HostSelector, HostSelectorServiceAlg}
-import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionServiceAlg}
+import io.hydrosphere.serving.manager.domain.host_selector.{HostSelector, HostSelectorServiceAlg}
+import io.hydrosphere.serving.manager.domain.model_version.{BuildResult, ModelVersion, ModelVersionServiceAlg}
 import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorageService
 import io.hydrosphere.serving.model.api.Result.HError
 import io.hydrosphere.serving.model.api.{HFResult, ModelMetadata, Result}
@@ -74,16 +74,17 @@ class ModelService(
     }
   }
 
-  def uploadModel(filePath: Path, meta: ModelUploadMetadata): HFResult[ModelVersion] = {
+  def uploadModel(filePath: Path, meta: ModelUploadMetadata): HFResult[BuildResult] = {
     val maybeHostSelector = meta.hostSelectorName match {
       case Some(value) =>
         hostSelectorService.get(value).map {
           case Some(x) =>
-            Result.ok(x)
+            Result.ok(Some(x))
           case None =>
             Result.clientError(s"Can't find host selector named $value")
         }
-      case None => Future.successful(Result.ok(AnyHostSelector))
+
+      case None => Future.successful(Right(None))
     }
 
     val f = for {
@@ -91,18 +92,20 @@ class ModelService(
       result <- EitherT(storageService.unpack(filePath, meta.name))
       versionMetadata = mergeMetadata(result, meta, hs)
       _ <- EitherT.fromEither[Future](validateUpload(versionMetadata))
-      request = CreateModelRequest(result.modelName)
+      request = CreateModelRequest(versionMetadata.modelName)
       req <- EitherT(upsertRequest(request))
       b <- EitherT(modelVersionService.build(req, versionMetadata))
     } yield b
     f.value
   }
 
-  def mergeMetadata(model: ModelMetadata, upload: ModelUploadMetadata, hs: HostSelector): ModelVersionMetadata = {
+  def mergeMetadata(model: ModelMetadata, upload: ModelUploadMetadata, hs: Option[HostSelector]): ModelVersionMetadata = {
+    val name = upload.name.getOrElse(model.modelName)
+    val contract = upload.contract.getOrElse(model.contract).copy(modelName = name)
     ModelVersionMetadata(
-      upload.name.getOrElse(model.modelName),
-      upload.modelType.getOrElse(model.modelType),
-      upload.contract.getOrElse(model.contract),
+      modelName = name,
+      modelType = upload.modelType.getOrElse(model.modelType),
+      contract = contract,
       profileTypes = upload.profileTypes.getOrElse(Map.empty),
       runtime = upload.runtime,
       hostSelector = hs
