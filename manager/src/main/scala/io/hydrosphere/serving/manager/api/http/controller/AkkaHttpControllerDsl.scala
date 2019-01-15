@@ -14,13 +14,13 @@ import io.hydrosphere.serving.model.api.{HFResult, HResult}
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
 
+import scala.concurrent.duration._
 import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Failure, Success}
-import scala.concurrent.duration._
 
-trait GenericController extends CompleteJsonProtocol with Logging {
+trait AkkaHttpControllerDsl extends CompleteJsonProtocol with Logging {
 
-  import GenericController._
+  import AkkaHttpControllerDsl._
 
   final def getFileWithMeta[T: JsonReader, R: ToResponseMarshaller](callback: (Option[Path], Option[T]) => HFResult[R])
     (implicit mat: Materializer, ec: ExecutionContext) = {
@@ -107,11 +107,9 @@ trait GenericController extends CompleteJsonProtocol with Logging {
   final def completeFRes[T: ToResponseMarshaller](res: HFResult[T]): Route = {
     withF(res)(completeRes(_))
   }
-
-  def routes: Route
 }
 
-object GenericController {
+object AkkaHttpControllerDsl {
 
   sealed trait UploadE
 

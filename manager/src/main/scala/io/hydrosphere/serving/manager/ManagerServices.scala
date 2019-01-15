@@ -60,7 +60,7 @@ class ManagerServices(
 
   val internalManagerEventsPublisher = new InternalManagerEventsPublisher
 
-  val hostSelectorService = new HostSelectorService(managerRepositories.environmentRepository)
+  val hostSelectorService = new HostSelectorService(managerRepositories.hostSelectorRepository)
 
   val modelVersionManagementService = new ModelVersionService(
     managerRepositories.modelVersionRepository,
@@ -88,7 +88,7 @@ class ManagerServices(
 
   val applicationManagementService = new ApplicationService(
     applicationRepository = managerRepositories.applicationRepository,
-    modelVersionManagementService = modelVersionManagementService,
+    versionRepository = managerRepositories.modelVersionRepository,
     serviceManagementService = serviceManagementService,
     internalManagerEventsPublisher = internalManagerEventsPublisher,
     applicationConfig = managerConfiguration.application,
@@ -100,7 +100,7 @@ class ManagerServices(
     modelVersionManagementService,
     sourceManagementService,
     managerRepositories.applicationRepository,
-    hostSelectorService
+    managerRepositories.hostSelectorRepository
   )
 
   val envoyGRPCDiscoveryService: EnvoyGRPCDiscoveryService = new EnvoyGRPCDiscoveryServiceImpl(

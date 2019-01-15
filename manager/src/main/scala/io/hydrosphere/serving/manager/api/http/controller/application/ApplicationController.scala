@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.api.http.controller.application
 
 import akka.http.scaladsl.server.Directives._
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.api.http.controller.GenericController
+import io.hydrosphere.serving.manager.api.http.controller.AkkaHttpControllerDsl
 import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationService}
 import io.swagger.annotations._
 import javax.ws.rs.Path
@@ -14,7 +14,7 @@ import scala.concurrent.duration._
 @Api(produces = "application/json", tags = Array("Application"))
 class ApplicationController(
   applicationManagementService: ApplicationService
-) extends GenericController {
+) extends AkkaHttpControllerDsl {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/")

@@ -7,17 +7,19 @@ import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import cats.data.EitherT
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
+import io.grpc.Server
 import io.hydrosphere.serving.manager._
+import io.hydrosphere.serving.manager.api.grpc.GrpcApiServer
+import io.hydrosphere.serving.manager.api.http.HttpApiServer
 import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration}
-import io.hydrosphere.serving.manager.api.http.ManagerHttpApi
 import io.hydrosphere.serving.manager.domain.image.DockerImage
-import io.hydrosphere.serving.model.api.HFResult
 import io.hydrosphere.serving.manager.util.TarGzUtils
+import io.hydrosphere.serving.model.api.HFResult
 import io.hydrosphere.serving.model.api.Result.HError
 import org.scalatest._
 
-import scala.concurrent.{Await, ExecutionContext, Future}
 import scala.concurrent.duration._
+import scala.concurrent.{ExecutionContext, Future}
 import scala.io.Source
 import scala.util.{Failure, Success, Try}
 
@@ -50,19 +52,21 @@ trait FullIntegrationSpec extends DatabaseAccessIT
 
   var managerRepositories: ManagerRepositories = _
   var managerServices: ManagerServices = _
-  var managerApi: ManagerHttpApi = _
-  var managerGRPC: ManagerGRPC = _
+  var managerApi: HttpApiServer = _
+  var managerGRPC: Server = _
 
   override protected def beforeAll(): Unit = {
     super.beforeAll()
     managerRepositories = new ManagerRepositories(configuration)
     managerServices = new ManagerServices(managerRepositories, configuration, dockerClient, DockerClientConfig())
-    managerApi = new ManagerHttpApi(managerServices, configuration)
-    managerGRPC = new ManagerGRPC(managerServices, configuration)
+    managerApi = new HttpApiServer(managerRepositories, managerServices, configuration)
+    managerGRPC = GrpcApiServer(managerServices, configuration)
+    managerApi.start()
+    managerGRPC.start()
   }
 
   override def afterAll(): Unit = {
-    managerGRPC.server.shutdown()
+    managerGRPC.shutdown()
     system.terminate()
     super.afterAll()
   }

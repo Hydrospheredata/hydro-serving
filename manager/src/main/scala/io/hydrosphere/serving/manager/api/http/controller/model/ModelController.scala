@@ -5,25 +5,27 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.api.http.controller.GenericController
-import io.hydrosphere.serving.manager.domain.model.{Model, ModelService}
+import io.hydrosphere.serving.manager.api.http.controller.AkkaHttpControllerDsl
+import io.hydrosphere.serving.manager.domain.model.{Model, ModelRepositoryAlgebra, ModelService}
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionService, ModelVersionView}
 import io.hydrosphere.serving.model.api.Result
 import io.swagger.annotations._
 import javax.ws.rs.Path
 
+import scala.concurrent.Future
 import scala.concurrent.duration._
 
 @Path("/api/v2/model")
 @Api(produces = "application/json", tags = Array("Model and Model Versions"))
 class ModelController(
   modelManagementService: ModelService,
+  modelRepo: ModelRepositoryAlgebra[Future],
   modelVersionManagementService: ModelVersionService
 )(
   implicit val system: ActorSystem,
   val materializer: ActorMaterializer,
 )
-  extends GenericController {
+  extends AkkaHttpControllerDsl {
   implicit val ec = system.dispatcher
   implicit val timeout = Timeout(10.minutes)
 
@@ -35,7 +37,7 @@ class ModelController(
   ))
   def listModels = path("model") {
     get {
-      complete(modelManagementService.allModels())
+      complete(modelRepo.all())
     }
   }
 

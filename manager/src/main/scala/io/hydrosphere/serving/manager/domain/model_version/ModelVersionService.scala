@@ -23,12 +23,6 @@ trait ModelVersionServiceAlg {
 
   def getNextModelVersion(modelId: Long): HFResult[Long]
 
-  def lastModelVersionByModelId(id: Long, maximum: Int): Future[Seq[ModelVersion]]
-
-  def get(key: Long): HFResult[ModelVersion]
-
-  def get(key: Set[Long]): Future[Seq[ModelVersion]]
-
   def list: Future[Seq[ModelVersionView]]
 
   def create(version: ModelVersion): HFResult[ModelVersion]
@@ -64,21 +58,6 @@ class ModelVersionService(
     }
   }
 
-  def lastModelVersionByModelId(id: Long, maximum: Int): Future[Seq[ModelVersion]] = {
-    modelVersionRepository.lastModelVersionByModel(id: Long, maximum: Int)
-  }
-
-  def get(key: Long): HFResult[ModelVersion] = {
-    modelVersionRepository.get(key).map {
-      case Some(model) => Right(model)
-      case None => Result.clientError(s"Can't find a model version with id: $key")
-    }
-  }
-
-  def get(key: Set[Long]): Future[Seq[ModelVersion]] = {
-    modelVersionRepository.get(key.toSeq)
-  }
-
   def list: Future[Seq[ModelVersionView]] = {
     for {
       allVersions <- modelVersionRepository.all()
@@ -107,11 +86,9 @@ class ModelVersionService(
 
   def delete(versionId: Long): HFResult[ModelVersion] = {
     val f = for {
-      version <- EitherT(get(versionId))
+      version <- EitherT.fromOptionF(modelVersionRepository.get(versionId), Result.ClientError(s"Can't find the version with id $versionId"))
       _ <- EitherT.liftF[Future, HError, Int](modelVersionRepository.delete(versionId))
-    } yield {
-      version
-    }
+    } yield version
     f.value
   }
 

@@ -20,7 +20,7 @@ class ManagerRepositories(config: ManagerConfiguration)(implicit executionContex
 
   val applicationRepository = new ApplicationRepository
 
-  val environmentRepository = new HostSelectorRepository
+  val hostSelectorRepository = new HostSelectorRepository
 
   private def parseDatabase(hikariConfiguration: HikariConfiguration): HikariConfig = {
     val hikariConfig = new HikariConfig()

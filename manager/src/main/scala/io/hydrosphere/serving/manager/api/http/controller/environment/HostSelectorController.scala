@@ -4,7 +4,7 @@ import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.api.http.controller.GenericController
+import io.hydrosphere.serving.manager.api.http.controller.AkkaHttpControllerDsl
 import io.hydrosphere.serving.manager.domain.host_selector.{HostSelector, HostSelectorService}
 import io.hydrosphere.serving.manager.service._
 import io.swagger.annotations._
@@ -16,7 +16,7 @@ import scala.concurrent.duration._
 @Api(produces = "application/json", tags = Array("Host Selectors"))
 class HostSelectorController(
   hostSelectorService: HostSelectorService
-) extends GenericController {
+) extends AkkaHttpControllerDsl {
   implicit val timeout = Timeout(5.seconds)
 
   @Path("/")

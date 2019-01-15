@@ -6,8 +6,9 @@ import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import com.spotify.docker.client.DefaultDockerClient
+import io.hydrosphere.serving.manager.api.grpc.GrpcApiServer
 import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration}
-import io.hydrosphere.serving.manager.api.http.ManagerHttpApi
+import io.hydrosphere.serving.manager.api.http.HttpApiServer
 import io.hydrosphere.serving.manager.util.ReflectionUtils
 import org.apache.logging.log4j.scala.Logging
 
@@ -43,15 +44,18 @@ object ManagerBoot extends App with Logging {
 
     val managerRepositories = new ManagerRepositories(configuration)
     val managerServices = new ManagerServices(managerRepositories, configuration, dockerClient, dockerClientConfig)
-    val managerApi = new ManagerHttpApi(managerServices, configuration)
-    val managerGRPC = new ManagerGRPC(managerServices, configuration)
+    val httpApi = new HttpApiServer(managerRepositories, managerServices, configuration)
+    val grpcApi = GrpcApiServer(managerServices, configuration)
+
+    httpApi.start // fire and forget?
+    grpcApi.start()
 
     sys addShutdownHook {
-      managerGRPC.server.shutdown()
+      grpcApi.shutdown()
       logger.info("Stopping all contexts")
       system.terminate()
       try {
-        managerGRPC.server.awaitTermination(30, TimeUnit.SECONDS)
+        grpcApi.awaitTermination(30, TimeUnit.SECONDS)
         Await.ready(system.whenTerminated, Duration(30, TimeUnit.SECONDS))
       } catch {
         case e: Throwable =>

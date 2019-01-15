@@ -11,7 +11,3 @@ case class Application(
   executionGraph: ApplicationExecutionGraph,
   kafkaStreaming: List[ApplicationKafkaStream]
 )
-
-object Application {
-
-}

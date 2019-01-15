@@ -9,7 +9,7 @@ import akka.http.scaladsl.server.{ExceptionHandler, Route}
 import akka.stream.ActorMaterializer
 import ch.megard.akka.http.cors.scaladsl.CorsDirectives
 import ch.megard.akka.http.cors.scaladsl.settings.CorsSettings
-import io.hydrosphere.serving.manager.ManagerServices
+import io.hydrosphere.serving.manager.{ManagerRepositories, ManagerServices}
 import io.hydrosphere.serving.manager.config.ManagerConfiguration
 import io.hydrosphere.serving.manager.api.http.controller.application.ApplicationController
 import io.hydrosphere.serving.manager.api.http.controller.environment.HostSelectorController
@@ -21,7 +21,8 @@ import spray.json._
 
 import scala.collection.immutable.Seq
 
-class ManagerHttpApi(
+class HttpApiServer(
+  managerRepositories: ManagerRepositories,
   managerServices: ManagerServices,
   managerConfiguration: ManagerConfiguration
 )(
@@ -33,6 +34,7 @@ class ManagerHttpApi(
 
   val modelController = new ModelController(
     managerServices.modelManagementService,
+    managerRepositories.modelRepository,
     managerServices.modelVersionManagementService
   )
 
@@ -93,5 +95,7 @@ class ManagerHttpApi(
     }
   }
 
-  val serverBinding = Http().bindAndHandle(routes, "0.0.0.0", managerConfiguration.application.port)
+  def start() = {
+    Http().bindAndHandle(routes, "0.0.0.0", managerConfiguration.application.port)
+  }
 }

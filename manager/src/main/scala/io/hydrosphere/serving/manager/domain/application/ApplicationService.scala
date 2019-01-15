@@ -7,9 +7,10 @@ import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.api.http.controller.application._
 import io.hydrosphere.serving.manager.config.ApplicationConfig
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorService
-import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionService}
+import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepositoryAlgebra, ModelVersionService}
 import io.hydrosphere.serving.manager.domain.service.{Service, ServiceManagementService}
 import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.InternalManagerEventsPublisher
+import io.hydrosphere.serving.model.api.Result.ClientError
 import io.hydrosphere.serving.model.api.Result.Implicits._
 import io.hydrosphere.serving.model.api._
 import io.hydrosphere.serving.model.api.json.TensorJsonLens
@@ -36,7 +37,7 @@ private case class StageInfo(
 
 class ApplicationService(
   applicationRepository: ApplicationRepositoryAlgebra[Future],
-  modelVersionManagementService: ModelVersionService,
+  versionRepository: ModelVersionRepositoryAlgebra[Future],
   environmentManagementService: HostSelectorService,
   serviceManagementService: ServiceManagementService,
   internalManagerEventsPublisher: InternalManagerEventsPublisher,
@@ -97,8 +98,9 @@ class ApplicationService(
 
       services <- EitherT(serviceManagementService.fetchServicesUnsync(keySet).map(Result.ok))
       existedServices = services.map(_.modelVersion.id)
+      serviceDiff = keySet -- existedServices
+      versions <- EitherT.liftF(versionRepository.get(serviceDiff.toSeq))
 
-      versions <- EitherT.liftF(modelVersionManagementService.get(keySet -- existedServices))
       _ <- EitherT(deployModelVersion(versions.toSet))
 
       createdApp <- EitherT(applicationRepository.create(app).map(Result.ok))
@@ -159,9 +161,11 @@ class ApplicationService(
 
       keysSetOld = oldApplication.executionGraph.stages.flatMap(_.services.map(_.modelVersion.id)).toSet
       keysSetNew = executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersionId)).toSet
+      servicesToAdd = keysSetNew -- keysSetOld
+      servicesToRemove = keysSetOld -- keysSetNew
 
-      _ <- EitherT(removeServiceIfNeeded(keysSetOld -- keysSetNew, id))
-      versions <- EitherT.liftF(modelVersionManagementService.get(keysSetNew -- keysSetOld))
+      _ <- EitherT(removeServiceIfNeeded(servicesToRemove, id))
+      versions <- EitherT.liftF(versionRepository.get(servicesToAdd.toSeq))
       _ <- EitherT(deployModelVersion(versions.toSet))
 
       _ <- EitherT(applicationRepository.update(newApplication).map(Result.ok))
@@ -235,7 +239,7 @@ class ApplicationService(
   private def inferSimpleApp(singleStage: ExecutionStepRequest): HFResult[Seq[PipelineStage]] = {
     val service = singleStage.modelVariants.head
     val f = for {
-      version <- EitherT(modelVersionManagementService.get(service.modelVersionId))
+      version <- EitherT.fromOptionF(versionRepository.get(service.modelVersionId), ClientError(s"Can't find model version with id ${service.modelVersionId}"))
       signed <- EitherT(createDetailedServiceDesc(service, version, None))
     } yield Seq(
       PipelineStage(
@@ -267,7 +271,7 @@ class ApplicationService(
     Result.sequenceF {
       services.map { service =>
         val f = for {
-          version <- EitherT(modelVersionManagementService.get(service.modelVersionId))
+          version <- EitherT.fromOptionF(versionRepository.get(service.modelVersionId), ClientError(s"Can't find model version with id ${service.modelVersionId}"))
           signature <- EitherT(findSignature(version, service.signatureName))
           signed <- EitherT(createDetailedServiceDesc(service, version, Some(signature)))
         } yield signed

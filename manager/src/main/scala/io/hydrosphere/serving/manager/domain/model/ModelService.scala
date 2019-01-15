@@ -6,7 +6,7 @@ import cats.data.EitherT
 import cats.implicits._
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
 import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationRepositoryAlgebra}
-import io.hydrosphere.serving.manager.domain.host_selector.{HostSelector, HostSelectorServiceAlg}
+import io.hydrosphere.serving.manager.domain.host_selector.{HostSelector, HostSelectorRepositoryAlgebra, HostSelectorServiceAlg}
 import io.hydrosphere.serving.manager.domain.model_version.{BuildResult, ModelVersion, ModelVersionServiceAlg}
 import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorageService
 import io.hydrosphere.serving.model.api.Result.HError
@@ -21,11 +21,8 @@ class ModelService(
   modelVersionService: ModelVersionServiceAlg,
   storageService: ModelStorageService,
   appRepo: ApplicationRepositoryAlgebra[Future],
-  hostSelectorService: HostSelectorServiceAlg
+  hostSelectorService: HostSelectorRepositoryAlgebra[Future]
 )(implicit val ex: ExecutionContext) extends Logging {
-
-  def allModels(): Future[Seq[Model]] =
-    modelRepository.all()
 
   def createModel(entity: CreateModelRequest): HFResult[Model] = {
     val inputModel = Model(

@@ -8,7 +8,6 @@ import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
-import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorServiceAlg
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.{Model, ModelRepositoryAlgebra, ModelService, ModelVersionMetadata}
 import io.hydrosphere.serving.manager.domain.model_version._
@@ -205,9 +204,7 @@ class ModelServiceSpec extends GenericUnitTest {
           Result.okF(BuildResult(modelVersion, Future.successful(modelVersion)))
         )
 
-        val hService = mock[HostSelectorServiceAlg]
-
-        val modelManagementService = new ModelService(modelRepo, versionService, sourceMock, null, hService)
+        val modelManagementService = new ModelService(modelRepo, versionService, sourceMock, null, null)
 
         modelManagementService.uploadModel(uploadFile, upload).map { maybeModel =>
           assert(maybeModel.isRight, maybeModel)
