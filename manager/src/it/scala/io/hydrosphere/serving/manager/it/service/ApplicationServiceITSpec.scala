@@ -17,16 +17,16 @@ import scala.concurrent.{Await, Future}
 import scala.concurrent.duration._
 
 class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
-  val uploadFile = packModel("/models/dummy_model")
-  val upload1 = ModelUploadMetadata(
+  private val uploadFile = packModel("/models/dummy_model")
+  private val upload1 = ModelUploadMetadata(
     name = Some("m1"),
     runtime = dummyImage,
   )
-  val upload2 = ModelUploadMetadata(
+  private val upload2 = ModelUploadMetadata(
     name = Some("m2"),
     runtime = dummyImage,
   )
-  val upload3 = ModelUploadMetadata(
+  private val upload3 = ModelUploadMetadata(
     name = Some("m1"),
     runtime = dummyImage,
     contract = Some(ModelContract(
@@ -44,8 +44,8 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
   var mv1: ModelVersion = _
   var mv2: ModelVersion = _
 
-  "Application service" should {
-    "create a simple application" in {
+  describe("Application service") {
+    it("should create a simple application") {
       eitherTAssert {
         for {
           appResult <- EitherT(managerServices.applicationManagementService.createApplication(
@@ -80,7 +80,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
       }
     }
 
-    "create a multi-service stage" in {
+    it("should create a multi-service stage") {
       eitherTAssert {
         val appRequest = CreateApplicationRequest(
           name = "MultiServiceStage",
@@ -147,7 +147,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
       }
     }
 
-    "create and update an application with kafkaStreaming" in {
+    it("should create and update an application with kafkaStreaming") {
       val appRequest = CreateApplicationRequest(
         name = "kafka_app",
         namespace = None,
@@ -197,7 +197,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
       }
     }
 
-    "create and update an application contract" in {
+    it("should create and update an application contract") {
       eitherTAssert {
         val appRequest = CreateApplicationRequest(
           name = "contract_app",

@@ -2,9 +2,9 @@ package io.hydrosphere.serving.manager.it
 
 import io.hydrosphere.serving.manager.util.docker.IsolatedDockerClient
 import org.apache.logging.log4j.scala.Logging
-import org.scalatest.{AsyncWordSpecLike, BeforeAndAfterAll}
+import org.scalatest.{AsyncFunSpecLike, BeforeAndAfterAll}
 
-trait IsolatedDockerAccessIT extends AsyncWordSpecLike with BeforeAndAfterAll with Logging {
+trait IsolatedDockerAccessIT extends AsyncFunSpecLike with BeforeAndAfterAll with Logging {
   val dockerClient = IsolatedDockerClient.createFromEnv
   logger.info("Initialized IsolatedDockerClient")
 

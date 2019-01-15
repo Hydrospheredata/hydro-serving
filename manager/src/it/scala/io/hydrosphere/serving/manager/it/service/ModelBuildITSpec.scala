@@ -6,18 +6,17 @@ import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.messages.ContainerConfig
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
 import io.hydrosphere.serving.manager.domain.image.DockerImage
-import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionStatus}
+import io.hydrosphere.serving.manager.domain.model_version.ModelVersionStatus
 import io.hydrosphere.serving.manager.it.FullIntegrationSpec
 import org.scalatest.BeforeAndAfterAll
 
-import scala.concurrent.Future
 import scala.concurrent.duration._
 
-class ModelServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
-  implicit val awaitTimeout = 50.seconds
+class ModelBuildITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
+  private implicit val awaitTimeout: FiniteDuration = 50.seconds
 
-  val uploadFile = packModel("/models/dummy_model")
-  val uploadMetadata = ModelUploadMetadata(
+  private val uploadFile = packModel("/models/dummy_model")
+  private val uploadMetadata = ModelUploadMetadata(
     name = Some("m1"),
     runtime = DockerImage(
       name = "hydrosphere/serving-runtime-dummy",
@@ -25,8 +24,8 @@ class ModelServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
     )
   )
 
-  "Model serivce" should {
-    "put all the model files to the version container" in {
+  describe("Model serivce") {
+    it("should create an image with correct name and content") {
       eitherTAssert {
         for {
           mv <- EitherT(managerServices.modelManagementService.uploadModel(uploadFile, uploadMetadata))
@@ -35,9 +34,11 @@ class ModelServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
           // check that build is successful
           assert(builtMv.status === ModelVersionStatus.Finished)
           assert(builtMv.finished.isDefined)
-          assert(builtMv.modelVersion == 1)
+          assert(builtMv.modelVersion === 1)
           assert(builtMv.model.name === "m1")
           assert(builtMv.modelVersion === 1)
+          assert(builtMv.image.name === "m1")
+          assert(builtMv.image.tag === "1")
 
           // check files in container
           val config = ContainerConfig.builder()
