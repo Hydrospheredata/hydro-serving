@@ -16,7 +16,6 @@ import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.{ExecutionContext, Future}
 
-case class BuildResult(startedVersion: ModelVersion, completedVersion: Future[ModelVersion])
 
 trait ModelVersionServiceAlg {
   def deleteVersions(mvs: Seq[ModelVersion]): HFResult[Seq[ModelVersion]]
@@ -24,8 +23,6 @@ trait ModelVersionServiceAlg {
   def getNextModelVersion(modelId: Long): HFResult[Long]
 
   def list: Future[Seq[ModelVersionView]]
-
-  def create(version: ModelVersion): HFResult[ModelVersion]
 
   def modelVersionsByModelVersionIds(modelIds: Set[Long]): Future[Seq[ModelVersion]]
 
@@ -72,10 +69,6 @@ class ModelVersionService(
     }
   }
 
-  def create(version: ModelVersion): HFResult[ModelVersion] = {
-    modelVersionRepository.create(version).map(Result.ok)
-  }
-
   def modelVersionsByModelVersionIds(modelIds: Set[Long]): Future[Seq[ModelVersion]] = {
     modelVersionRepository.modelVersionsByModelVersionIds(modelIds)
   }
@@ -118,7 +111,7 @@ class ModelVersionService(
         status = ModelVersionStatus.Started,
         profileTypes = metadata.profileTypes
       )
-      modelVersion <- EitherT(create(mv))
+      modelVersion <- EitherT.liftF[Future, HError, ModelVersion](modelVersionRepository.create(mv))
     } yield (script, modelVersion)
 
     val preBuilt = f.value
@@ -128,7 +121,7 @@ class ModelVersionService(
         logger.error(err)
         Future.failed(new IllegalArgumentException(err.toString))
       case Right((script, mv)) =>
-        val res = EitherT(modelBuildService.build(mv.model.name, mv.modelVersion, mv.modelType, mv.modelContract, mv.image, script, messageHandler))
+        val res = EitherT(modelBuildService.build(BuildRequest.fromVersion(mv, script), messageHandler))
           .map { sha =>
             val newDockerImage = mv.image.copy(sha256 = Some(sha))
             mv.copy(image = newDockerImage, finished = Some(LocalDateTime.now()))
@@ -143,7 +136,10 @@ class ModelVersionService(
           case Right(smv) =>
             val finished = smv.copy(status = ModelVersionStatus.Finished)
             modelVersionRepository.update(finished.id, finished)
-              .map(_ => finished)
+              .map { _ =>
+                modelPushService.push(finished, messageHandler)
+                finished
+              }
         }
 
         f.failed.foreach { err =>

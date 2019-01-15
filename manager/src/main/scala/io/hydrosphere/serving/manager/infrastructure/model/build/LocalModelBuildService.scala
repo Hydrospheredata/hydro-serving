@@ -23,7 +23,7 @@ import scala.concurrent.{ExecutionContext, Future}
 import scala.util.control.NonFatal
 import io.hydrosphere.serving.manager.domain.build_script.BuildScriptVariables._
 import io.hydrosphere.serving.manager.domain.image.DockerImage
-import io.hydrosphere.serving.manager.domain.model_version.ModelBuildAlgebra
+import io.hydrosphere.serving.manager.domain.model_version.{BuildRequest, ModelBuildAlgebra}
 
 class LocalModelBuildService(
   dockerClient: DockerClient,
@@ -39,19 +39,14 @@ class LocalModelBuildService(
   }
 
   override def build(
-    modelName: String,
-    modelVersion: Long,
-    modelType: ModelType,
-    contract: ModelContract,
-    image: DockerImage,
-    script: String,
+    buildRequest: BuildRequest,
     progressHandler: ProgressHandler
   ): HFResult[String] = {
-    val tmpBuildPath = Files.createTempDirectory(s"hydroserving-$modelName-$modelVersion")
+    val tmpBuildPath = Files.createTempDirectory(s"hydroserving-${buildRequest.modelName}-${buildRequest.modelVersion}")
     val fT = for {
-      localPath <- EitherT(sourceManagementService.getLocalPath(modelName))
-      dockerFile = prepareScript(modelName, modelVersion, modelType, script)
-      buildRes <- EitherT(build(tmpBuildPath, localPath, dockerFile, progressHandler, image, contract))
+      localPath <- EitherT(sourceManagementService.getLocalPath(buildRequest.modelName))
+      dockerFile = prepareScript(buildRequest.modelName, buildRequest.modelVersion, buildRequest.modelType, buildRequest.script)
+      buildRes <- EitherT(build(tmpBuildPath, localPath, dockerFile, progressHandler, buildRequest.image, buildRequest.contract))
     } yield buildRes
     fT.value
   }

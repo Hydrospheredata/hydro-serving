@@ -11,13 +11,13 @@ import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.{Model, ModelVersionMetadata}
 import io.hydrosphere.serving.manager.domain.model_version._
 import io.hydrosphere.serving.manager.infrastructure.model.push.LocalModelPushService
-import io.hydrosphere.serving.model.api.ModelType
+import io.hydrosphere.serving.model.api.{ModelType, Result}
 import org.mockito.Matchers
 
 import scala.concurrent.Future
 
 class VersionServiceSpec extends GenericUnitTest {
-  describe("ModelVersionService") {
+  describe("ModelVersion service") {
     describe("should calculate the right version") {
       it("for a new model") {
         val versionRepo = mock[ModelVersionRepositoryAlgebra[Future]]
@@ -61,14 +61,23 @@ class VersionServiceSpec extends GenericUnitTest {
 
       val versionRepo = new ModelVersionRepositoryAlgebra[Future] {
         override def create(entity: ModelVersion): Future[ModelVersion] = Future.successful(entity)
-        override def update(id: Long, entity: ModelVersion): Future[Int] = ???
+
+        override def update(id: Long, entity: ModelVersion): Future[Int] = Future.successful(1)
+
         override def get(id: Long): Future[Option[ModelVersion]] = ???
+
         override def get(modelName: String, modelVersion: Long): Future[Option[ModelVersion]] = ???
+
         override def get(idx: Seq[Long]): Future[Seq[ModelVersion]] = ???
+
         override def delete(id: Long): Future[Int] = ???
+
         override def all(): Future[Seq[ModelVersion]] = ???
+
         override def listForModel(modelId: Long): Future[Seq[ModelVersion]] = ???
+
         override def lastModelVersionByModel(modelId: Long, max: Int): Future[Seq[ModelVersion]] = Future.successful(Seq.empty)
+
         override def modelVersionsByModelVersionIds(modelVersionIds: Set[Long]): Future[Seq[ModelVersion]] = ???
       }
 
@@ -86,20 +95,30 @@ class VersionServiceSpec extends GenericUnitTest {
 
       val selectorService = mock[HostSelectorServiceAlg]
       val buildService = mock[ModelBuildAlgebra]
+      when(buildService.build(Matchers.any(), Matchers.any())).thenReturn(Result.okF("random-sha-string"))
 
       var maybeModelVersion = Option.empty[ModelVersion]
       val pushService = new ModelVersionPushAlgebra {
         override def getImage(modelName: String, modelVersion: Long): DockerImage = DockerImage(modelName, modelVersion.toString)
 
-        override def push(modelVersion: ModelVersion, progressHandler: ProgressHandler): Unit = {maybeModelVersion = Some(modelVersion)}
+        override def push(modelVersion: ModelVersion, progressHandler: ProgressHandler): Unit = {
+          maybeModelVersion = Some(modelVersion)
+        }
       }
       val versionService = new ModelVersionService(versionRepo, buildScriptService, selectorService, buildService, pushService, null)
-      versionService.build(model, modelVersionMetadata).map { x =>
-        val mv = x.right.get.startedVersion
-        assert(maybeModelVersion.isDefined)
-        assert(mv.model.name === "push-me")
-        assert(mv.modelVersion === 1)
-        assert(mv.image === DockerImage("push-me", "1"))
+      versionService.build(model, modelVersionMetadata).flatMap { x =>
+        assert(x.isRight, x)
+        val startedBuild = x.right.get.startedVersion
+        assert(startedBuild.model.name === "push-me")
+        assert(startedBuild.modelVersion === 1)
+        assert(startedBuild.image === DockerImage("push-me", "1"))
+        val completedBuildResult = x.right.get.completedVersion
+        completedBuildResult.map { completedBuild =>
+          assert(maybeModelVersion.isDefined)
+          assert(startedBuild.model.name === completedBuild.model.name)
+          assert(startedBuild.modelVersion === completedBuild.modelVersion)
+          assert(DockerImage("push-me", "1", Some("random-sha-string")) === completedBuild.image)
+        }
       }
     }
   }

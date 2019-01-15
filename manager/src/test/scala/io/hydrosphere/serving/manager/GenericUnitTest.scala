@@ -28,6 +28,6 @@ trait GenericUnitTest extends AsyncFunSpecLike with Matchers with MockitoSugar {
   }
 
   protected def getTestResourcePath(path: String): Path = {
-    Paths.get(this.getClass.getClassLoader.getResource(path).getPath)
+    Paths.get(this.getClass.getClassLoader.getResource(path).toURI)
   }
 }

@@ -17,7 +17,7 @@ class ModelServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
   implicit val awaitTimeout = 50.seconds
 
   val uploadFile = packModel("/models/dummy_model")
-  val uploadMetadatA = ModelUploadMetadata(
+  val uploadMetadata = ModelUploadMetadata(
     name = Some("m1"),
     runtime = DockerImage(
       name = "hydrosphere/serving-runtime-dummy",
@@ -26,10 +26,10 @@ class ModelServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
   )
 
   "Model serivce" should {
-    "uploads and builds a model" in {
+    "put all the model files to the version container" in {
       eitherTAssert {
         for {
-          mv <- EitherT(managerServices.modelManagementService.uploadModel(uploadFile, uploadMetadatA))
+          mv <- EitherT(managerServices.modelManagementService.uploadModel(uploadFile, uploadMetadata))
           builtMv <- EitherT.liftF(mv.completedVersion)
         } yield {
           // check that build is successful
@@ -58,27 +58,28 @@ class ModelServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
             DockerClient.ExecCreateParam.attachStdin(),
             DockerClient.ExecCreateParam.attachStdout()
           )
-          val logs = dockerClient.execStart(exec.id()).readFully().split("\n").toSet
-          val expected =
-            """/model
-              |/model/contract.protobin
-              |/model/files
-              |/model/files/stages
-              |/model/files/stages/0_w2v_4c3ed7c223c6
-              |/model/files/stages/0_w2v_4c3ed7c223c6/data
-              |/model/files/stages/0_w2v_4c3ed7c223c6/data/_SUCCESS
-              |/model/files/stages/0_w2v_4c3ed7c223c6/data/.part-00000-2624bff2-e5d7-46c9-9ec3-42178b8a4e68.snappy.parquet.crc
-              |/model/files/stages/0_w2v_4c3ed7c223c6/data/part-00000-2624bff2-e5d7-46c9-9ec3-42178b8a4e68.snappy.parquet
-              |/model/files/stages/0_w2v_4c3ed7c223c6/metadata
-              |/model/files/stages/0_w2v_4c3ed7c223c6/metadata/_SUCCESS
-              |/model/files/stages/0_w2v_4c3ed7c223c6/metadata/part-00000
-              |/model/files/stages/0_w2v_4c3ed7c223c6/metadata/.part-00000.crc
-              |/model/files/metadata
-              |/model/files/metadata/_SUCCESS
-              |/model/files/metadata/part-00000
-              |/model/files/metadata/.part-00000.crc""".stripMargin.split("\n").toSet
-          println(logs)
-          assert(logs.subsetOf(expected))
+          val actualLogs = dockerClient.execStart(exec.id()).readFully().split("\n").toSet
+          val expectedLogs = Set(
+            "/model",
+            "/model/contract.protobin",
+            "/model/files",
+            "/model/files/stages",
+            "/model/files/stages/0_w2v_4c3ed7c223c6",
+            "/model/files/stages/0_w2v_4c3ed7c223c6/data",
+            "/model/files/stages/0_w2v_4c3ed7c223c6/data/_SUCCESS",
+            "/model/files/stages/0_w2v_4c3ed7c223c6/data/.part-00000-2624bff2-e5d7-46c9-9ec3-42178b8a4e68.snappy.parquet.crc",
+            "/model/files/stages/0_w2v_4c3ed7c223c6/data/part-00000-2624bff2-e5d7-46c9-9ec3-42178b8a4e68.snappy.parquet",
+            "/model/files/stages/0_w2v_4c3ed7c223c6/metadata",
+            "/model/files/stages/0_w2v_4c3ed7c223c6/metadata/_SUCCESS",
+            "/model/files/stages/0_w2v_4c3ed7c223c6/metadata/part-00000",
+            "/model/files/stages/0_w2v_4c3ed7c223c6/metadata/.part-00000.crc",
+            "/model/files/metadata",
+            "/model/files/metadata/_SUCCESS",
+            "/model/files/metadata/part-00000",
+            "/model/files/metadata/.part-00000.crc"
+          )
+          println(actualLogs.mkString(compat.Platform.EOL))
+          assert(actualLogs.subsetOf(expectedLogs))
         }
       }
     }

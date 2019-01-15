@@ -26,7 +26,7 @@ class ModelServiceSpec extends GenericUnitTest {
     TarGzUtils.compressFolder(Paths.get(getClass.getResource(str).getPath), temptar)
     temptar
   }
-  describe("Model management service") {
+  describe("Model service") {
     describe("uploads") {
       it("a new model") {
         val testSourcePath = Files.createTempDirectory("upload-test").toString
@@ -42,7 +42,7 @@ class ModelServiceSpec extends GenericUnitTest {
           tag = "latest"
         )
         val contract = ModelContract(
-          "test",
+          modelName,
           Seq(ModelSignature(
             "testSig",
             Seq(ModelField("in", TensorShape.scalar.toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE))),
@@ -52,7 +52,7 @@ class ModelServiceSpec extends GenericUnitTest {
         val modelVersion = ModelVersion(
           id = 1,
           image = DockerImage(
-            name = "tf-model",
+            name = modelName,
             tag = "1"
           ),
           created = LocalDateTime.now(),
@@ -135,7 +135,7 @@ class ModelServiceSpec extends GenericUnitTest {
           name = modelName,
         )
         val contract = ModelContract(
-          "test",
+          modelName,
           Seq(ModelSignature(
             "testSig",
             Seq(ModelField("in", TensorShape.scalar.toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE))),
