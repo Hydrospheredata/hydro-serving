@@ -1,8 +1,8 @@
 package io.hydrosphere.serving.manager.infrastructure.db.repository
 
-import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationExecutionGraph, ApplicationKafkaStream, ApplicationRepositoryAlgebra}
+import io.hydrosphere.serving.manager.domain.application._
 import io.hydrosphere.serving.manager.infrastructure.db.DatabaseService
 import io.hydrosphere.serving.manager.infrastructure.protocol.CompleteJsonProtocol
 import org.apache.logging.log4j.scala.Logging
@@ -25,7 +25,7 @@ class ApplicationRepository(
         id = entity.id,
         applicationName = entity.name,
         namespace = entity.namespace,
-        applicationContract = entity.contract.toProtoString,
+        applicationContract = entity.signature.toProtoString,
         executionGraph = entity.executionGraph.toJson.toString(),
         servicesInStage = entity.executionGraph.stages.flatMap(s => s.services.map(_.modelVersion.id.toString)).toList,
         kafkaStreams = entity.kafkaStreaming.map(p => p.toJson.toString())
@@ -70,7 +70,7 @@ class ApplicationRepository(
       value.executionGraph.stages.flatMap(s => s.services.map(_.modelVersion.id.toString)).toList,
       value.kafkaStreaming.map(_.toJson.toString),
       value.namespace,
-      value.contract.toProtoString
+      value.signature.toProtoString
     ))
   }
 
@@ -117,7 +117,7 @@ object ApplicationRepository extends CompleteJsonProtocol {
       id = dbType.id,
       name = dbType.applicationName,
       executionGraph = dbType.executionGraph.parseJson.convertTo[ApplicationExecutionGraph],
-      contract = ModelContract.fromAscii(dbType.applicationContract),
+      signature = ModelSignature.fromAscii(dbType.applicationContract),
       kafkaStreaming = dbType.kafkaStreams.map(p => p.parseJson.convertTo[ApplicationKafkaStream]),
       namespace = dbType.namespace
     )

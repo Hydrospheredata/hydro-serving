@@ -83,8 +83,7 @@ trait ContractJsonProtocol extends CommonJsonProtocol {
           fields += "dtype" -> JsString(value.name)
         case ModelField.TypeOrSubfields.Subfields(value) =>
           fields += "subfields" -> JsArray(value.data.map(write).toVector)
-        case ModelField.TypeOrSubfields.Empty =>
-          fields += "dtype" -> JsNull
+        case ModelField.TypeOrSubfields.Empty => fields
       }
       JsObject(fields.toMap)
     }

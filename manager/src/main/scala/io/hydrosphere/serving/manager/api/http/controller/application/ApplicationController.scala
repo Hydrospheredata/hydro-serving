@@ -114,7 +114,7 @@ class ApplicationController(
   def generateInputsForApp = pathPrefix("application" / "generateInputs" / LongNumber / Segment) { (appId, signatureName) =>
     get {
       complete(
-        applicationManagementService.generateInputsForApplication(appId, signatureName)
+        applicationManagementService.generateInputsForApplication(appId)
       )
     }
   }

@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager.infrastructure.envoy
 
+import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.domain.application.{Application, PipelineStage, PipelineStageNode}
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.model.Model
@@ -14,13 +15,13 @@ object Converters {
     GApp(
       id = app.id,
       name = app.name,
-      contract = Option(app.contract),
+      contract = Option(ModelContract(app.name, Seq(app.signature))),  //TODO(bulat): change contract to signature
       namespace = app.namespace.getOrElse(""),
       executionGraph = Option(ExecutionGraph(
         app.executionGraph.stages.zipWithIndex.map {
           case (stage, idx) => ExecutionStage(
             stageId = PipelineStage.stageId(app.id, idx),
-            signature = stage.signature,
+            signature = Some(stage.signature),
             services = stage.services.map(grpcService)
           )
         }

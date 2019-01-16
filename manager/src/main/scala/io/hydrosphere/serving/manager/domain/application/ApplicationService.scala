@@ -2,12 +2,11 @@ package io.hydrosphere.serving.manager.domain.application
 
 import cats.data.EitherT
 import cats.instances.future._
-import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.api.http.controller.application._
 import io.hydrosphere.serving.manager.config.ApplicationConfig
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorService
-import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepositoryAlgebra, ModelVersionService}
+import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepositoryAlgebra}
 import io.hydrosphere.serving.manager.domain.service.{Service, ServiceManagementService}
 import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.InternalManagerEventsPublisher
 import io.hydrosphere.serving.model.api.Result.ClientError
@@ -64,17 +63,14 @@ class ApplicationService(
     applicationRepository.all()
   }
 
-  def generateInputsForApplication(appId: Long, signatureName: String): HFResult[JsObject] = {
-    getApplication(appId).map { result =>
-      result.right.flatMap { app =>
-        app.contract.signatures.find(_.signatureName == signatureName) match {
-          case Some(signature) =>
-            val data = TensorExampleGenerator(signature).inputs
-            Result.ok(TensorJsonLens.mapToJson(data))
-          case None => Result.clientError(s"Can't find signature '$signatureName")
-        }
-      }
+  def generateInputsForApplication(appId: Long): HFResult[JsObject] = {
+    val f = for {
+      app <- EitherT(getApplication(appId))
+    } yield {
+      val data = TensorExampleGenerator(app.signature).inputs
+      TensorJsonLens.mapToJson(data)
     }
+    f.value
   }
 
   def createApplication(
@@ -93,8 +89,8 @@ class ApplicationService(
 
     val f = for {
       graph <- EitherT(inferGraph(executionGraph))
-      contract <- EitherT(inferAppContract(name, graph))
-      app <- EitherT(composeAppF(name, namespace, graph, contract, kafkaStreaming))
+      signature = inferPipelineSignature(name, graph)
+      app <- EitherT(composeAppF(name, namespace, graph, signature, kafkaStreaming))
 
       services <- EitherT(serviceManagementService.fetchServicesUnsync(keySet).map(Result.ok))
       existedServices = services.map(_.modelVersion.id)
@@ -156,8 +152,8 @@ class ApplicationService(
       oldApplication <- EitherT(getApplication(id))
 
       graph <- EitherT(inferGraph(executionGraph))
-      contract <- EitherT(inferAppContract(name, graph))
-      newApplication <- EitherT(composeAppF(name, namespace, graph, contract, kafkaStreaming, id))
+      signature = inferPipelineSignature(name, graph)
+      newApplication <- EitherT(composeAppF(name, namespace, graph, signature, kafkaStreaming, id))
 
       keysSetOld = oldApplication.executionGraph.stages.flatMap(_.services.map(_.modelVersion.id)).toSet
       keysSetNew = executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersionId)).toSet
@@ -210,13 +206,13 @@ class ApplicationService(
   }
 
 
-  private def composeAppF(name: String, namespace: Option[String], graph: ApplicationExecutionGraph, contract: ModelContract, kafkaStreaming: Seq[ApplicationKafkaStream], id: Long = 0) = {
+  private def composeAppF(name: String, namespace: Option[String], graph: ApplicationExecutionGraph, signature: ModelSignature, kafkaStreaming: Seq[ApplicationKafkaStream], id: Long = 0) = {
     Result.okF(
       Application(
         id = id,
         name = name,
         namespace = namespace,
-        contract = contract,
+        signature = signature,
         executionGraph = graph,
         kafkaStreaming = kafkaStreaming.toList
       )
@@ -240,11 +236,12 @@ class ApplicationService(
     val service = singleStage.modelVariants.head
     val f = for {
       version <- EitherT.fromOptionF(versionRepository.get(service.modelVersionId), ClientError(s"Can't find model version with id ${service.modelVersionId}"))
-      signed <- EitherT(createDetailedServiceDesc(service, version, None))
+      signature <- EitherT.fromOption(version.modelContract.signatures.find(_.signatureName == service.signatureName), ClientError(s"Can't find requested signature ${service.signatureName}"))
+      signed <- EitherT(createDetailedServiceDesc(service, version, signature))
     } yield Seq(
       PipelineStage(
         services = List(signed.copy(weight = 100)), // 100 since this is the only service in the app
-        signature = None,
+        signature = signature,
       )
     )
     f.value
@@ -259,7 +256,7 @@ class ApplicationService(
           } yield {
             PipelineStage(
               services = services.toList,
-              signature = Some(stageSig),
+              signature = stageSig,
             )
           }
           f.value
@@ -273,7 +270,7 @@ class ApplicationService(
         val f = for {
           version <- EitherT.fromOptionF(versionRepository.get(service.modelVersionId), ClientError(s"Can't find model version with id ${service.modelVersionId}"))
           signature <- EitherT(findSignature(version, service.signatureName))
-          signed <- EitherT(createDetailedServiceDesc(service, version, Some(signature)))
+          signed <- EitherT(createDetailedServiceDesc(service, version, signature))
         } yield signed
         f.value
       }
@@ -288,7 +285,7 @@ class ApplicationService(
     }
   }
 
-  private def createDetailedServiceDesc(service: ServiceCreationDescription, modelVersion: ModelVersion, signature: Option[ModelSignature]) = {
+  private def createDetailedServiceDesc(service: ServiceCreationDescription, modelVersion: ModelVersion, signature: ModelSignature) = {
     Result.okF(
       PipelineStageNode(
         modelVersion,
@@ -298,58 +295,30 @@ class ApplicationService(
     )
   }
 
-  private def inferAppContract(applicationName: String, graph: ApplicationExecutionGraph): HFResult[ModelContract] = {
-    logger.debug(applicationName)
-    graph.stages match {
-      case stage :: Nil if stage.services.lengthCompare(1) == 0 => // single model version
-        stage.services.headOption match {
-          case Some(serviceDesc) =>
-            Result.okF(serviceDesc.modelVersion.modelContract)
-          case None => Result.clientErrorF(s"Can't infer contract for an empty stage")
-        }
-
-      case _ =>
-        Result.okF(
-          ModelContract(
-            applicationName,
-            Seq(inferPipelineSignature(applicationName, graph))
-          )
-        )
-    }
-  }
-
   private def inferStageSignature(serviceDescs: Seq[PipelineStageNode]): HResult[ModelSignature] = {
-    val signatures = serviceDescs.map { service =>
-      service.signature match {
-        case Some(sig) => Result.ok(sig)
-        case None => Result.clientError(s"$service doesn't have a signature")
-      }
-    }
-    val errors = signatures.filter(_.isLeft).map(_.left.get)
-    if (errors.nonEmpty) {
-      Result.clientError(s"Errors while inferring stage signature: $errors")
+    if(serviceDescs.isEmpty) {
+      Result.clientError("Invalid application: no stages in the graph.")
     } else {
-      val values = signatures.map(_.right.get)
-      val signatureName = values.head.signatureName
-      val isSameName = values.forall(_.signatureName == signatureName)
+      val signatures = serviceDescs.map(_.signature)
+      val signatureName = signatures.head.signatureName
+      val isSameName = signatures.forall(_.signatureName == signatureName)
       if (isSameName) {
         Result.ok(
-          values.foldRight(ModelSignature.defaultInstance) {
+          signatures.foldRight(ModelSignature.defaultInstance) {
             case (sig1, sig2) => ModelSignatureOps.merge(sig1, sig2)
           }.withSignatureName(signatureName)
         )
       } else {
         Result.clientError(s"Model Versions ${serviceDescs.map(x => x.modelVersion.model.name + ":" + x.modelVersion.modelVersion)} have different signature names")
       }
-
     }
   }
 
   private def inferPipelineSignature(name: String, graph: ApplicationExecutionGraph): ModelSignature = {
     ModelSignature(
       name,
-      graph.stages.head.signature.get.inputs,
-      graph.stages.last.signature.get.outputs
+      graph.stages.head.signature.inputs,
+      graph.stages.last.signature.outputs
     )
   }
 }
