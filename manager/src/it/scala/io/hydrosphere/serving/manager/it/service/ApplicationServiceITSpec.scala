@@ -5,9 +5,8 @@ import cats.instances.all._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.api.http.controller.application._
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
-import io.hydrosphere.serving.manager.domain.application.{ApplicationExecutionGraph, ApplicationKafkaStream, PipelineStage, PipelineStageNode}
+import io.hydrosphere.serving.manager.domain.application._
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersion
 import io.hydrosphere.serving.manager.it.FullIntegrationSpec
 import io.hydrosphere.serving.model.api.Result.HError
@@ -60,8 +59,8 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
             "simple-app",
             None,
             ExecutionGraphRequest(Seq(
-              ExecutionStepRequest(
-                Seq(ServiceCreationDescription(
+              PipelineStageRequest(
+                Seq(ModelVariantRequest(
                   modelVersionId = mv1.id,
                   weight = 100,
                   signatureName = "not-default-spark"
@@ -75,7 +74,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           assert(appResult.name === "simple-app")
           assert(appResult.signature.inputs === mv1.modelContract.signatures.head.inputs)
           assert(appResult.signature.outputs === mv1.modelContract.signatures.head.outputs)
-          val services = appResult.executionGraph.stages.flatMap(_.services)
+          val services = appResult.executionGraph.stages.flatMap(_.modelVariants)
           val service = services.head
           assert(service.weight === 100)
           assert(service.signature === mv1.modelContract.signatures.head)
@@ -91,14 +90,14 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           namespace = None,
           executionGraph = ExecutionGraphRequest(
             stages = List(
-              ExecutionStepRequest(
+              PipelineStageRequest(
                 modelVariants = List(
-                  ServiceCreationDescription(
+                  ModelVariantRequest(
                     modelVersionId = mv1.id,
                     weight = 50,
                     signatureName = "not-default-spark"
                   ),
-                  ServiceCreationDescription(
+                  ModelVariantRequest(
                     modelVersionId = mv1.id,
                     weight = 50,
                     signatureName = "not-default-spark"
@@ -113,12 +112,12 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           List(
             PipelineStage(
               List(
-                PipelineStageNode(
+                ModelVariant(
                   weight = 50,
                   signature = signature,
                   modelVersion = mv1,
                 ),
-                PipelineStageNode(
+                ModelVariant(
                   weight = 50,
                   signature = signature,
                   modelVersion = mv1,
@@ -138,7 +137,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         } yield {
           println(app)
           assert(app.name === appRequest.name)
-          val services = app.executionGraph.stages.flatMap(_.services)
+          val services = app.executionGraph.stages.flatMap(_.modelVariants)
           val service1 = services.head
           val service2 = services.head
           assert(service1.weight === 50)
@@ -157,9 +156,9 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         namespace = None,
         executionGraph = ExecutionGraphRequest(
           stages = List(
-            ExecutionStepRequest(
+            PipelineStageRequest(
               modelVariants = List(
-                ServiceCreationDescription(
+                ModelVariantRequest(
                   modelVersionId = mv1.id,
                   weight = 100,
                   signatureName = "not-default-spark"
@@ -208,9 +207,9 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           namespace = None,
           executionGraph = ExecutionGraphRequest(
             stages = List(
-              ExecutionStepRequest(
+              PipelineStageRequest(
                 modelVariants = List(
-                  ServiceCreationDescription(
+                  ModelVariantRequest(
                     modelVersionId = mv1.id,
                     weight = 100,
                     signatureName = "not-default-spark"
@@ -230,9 +229,9 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           ))
           newGraph = ExecutionGraphRequest(
             stages = List(
-              ExecutionStepRequest(
+              PipelineStageRequest(
                 modelVariants = List(
-                  ServiceCreationDescription(
+                  ModelVariantRequest(
                     modelVersionId = mv2.id,
                     weight = 100,
                     signatureName = "not-default-spark"

@@ -102,7 +102,7 @@ class PrometheusMetricsService(
       val keys = for {
         app <- apps
         stage <- app.executionGraph.stages
-        service <- stage.services
+        service <- stage.modelVariants
       } yield {
         service.modelVersion.id
       }

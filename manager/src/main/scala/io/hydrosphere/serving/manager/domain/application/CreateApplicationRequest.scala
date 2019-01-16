@@ -1,6 +1,4 @@
-package io.hydrosphere.serving.manager.api.http.controller.application
-
-import io.hydrosphere.serving.manager.domain.application.ApplicationKafkaStream
+package io.hydrosphere.serving.manager.domain.application
 
 case class CreateApplicationRequest(
   name: String,

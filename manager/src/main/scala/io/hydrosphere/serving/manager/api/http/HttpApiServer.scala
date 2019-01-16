@@ -9,9 +9,9 @@ import akka.http.scaladsl.server.{ExceptionHandler, Route}
 import akka.stream.ActorMaterializer
 import ch.megard.akka.http.cors.scaladsl.CorsDirectives
 import ch.megard.akka.http.cors.scaladsl.settings.CorsSettings
+import io.hydrosphere.serving.manager.api.http.controller.ApplicationController
 import io.hydrosphere.serving.manager.{ManagerRepositories, ManagerServices}
 import io.hydrosphere.serving.manager.config.ManagerConfiguration
-import io.hydrosphere.serving.manager.api.http.controller.application.ApplicationController
 import io.hydrosphere.serving.manager.api.http.controller.environment.HostSelectorController
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelController
 import io.hydrosphere.serving.manager.api.http.controller.prometheus.PrometheusMetricsController

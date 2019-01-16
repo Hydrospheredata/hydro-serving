@@ -3,7 +3,6 @@ package io.hydrosphere.serving.manager.domain.application
 import cats.data.EitherT
 import cats.instances.future._
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.api.http.controller.application._
 import io.hydrosphere.serving.manager.config.ApplicationConfig
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorService
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepositoryAlgebra}
@@ -110,7 +109,7 @@ class ApplicationService(
   def deleteApplication(id: Long): HFResult[Application] = {
     getApplication(id).flatMap {
       case Right(application) =>
-        val keysSet = application.executionGraph.stages.flatMap(_.services.map(_.modelVersion.id)).toSet
+        val keysSet = application.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion.id)).toSet
         applicationRepository.delete(id)
           .flatMap { _ =>
             removeServiceIfNeeded(keysSet, id)
@@ -127,7 +126,7 @@ class ApplicationService(
   def deleteApplication(name: String): HFResult[Application] = {
     getApplication(name).flatMap {
       case Right(application) =>
-        val keysSet = application.executionGraph.stages.flatMap(_.services.map(_.modelVersion.id)).toSet
+        val keysSet = application.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion.id)).toSet
         applicationRepository.delete(application.id)
           .flatMap { _ =>
             removeServiceIfNeeded(keysSet, application.id)
@@ -155,7 +154,7 @@ class ApplicationService(
       signature = inferPipelineSignature(name, graph)
       newApplication <- EitherT(composeAppF(name, namespace, graph, signature, kafkaStreaming, id))
 
-      keysSetOld = oldApplication.executionGraph.stages.flatMap(_.services.map(_.modelVersion.id)).toSet
+      keysSetOld = oldApplication.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion.id)).toSet
       keysSetNew = executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersionId)).toSet
       servicesToAdd = keysSetNew -- keysSetOld
       servicesToRemove = keysSetOld -- keysSetNew
@@ -190,7 +189,7 @@ class ApplicationService(
   private def retrieveRemovableServiceDescriptions(keysSet: Set[Long], applicationId: Long) = {
     for {
       apps <- applicationRepository.getKeysNotInApplication(keysSet, applicationId)
-      keysSetOld = apps.flatMap(_.executionGraph.stages.flatMap(_.services.map(_.modelVersion.id))).toSet
+      keysSetOld = apps.flatMap(_.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion.id))).toSet
       services <- serviceManagementService.fetchServicesUnsync(keysSet -- keysSetOld)
     } yield {
       logger.debug(s"applicationId=$applicationId keySet=$keysSet getKeysNotInApplication=${apps.map(_.name)} keysSetOld=$keysSetOld")
@@ -232,7 +231,7 @@ class ApplicationService(
     }.value
   }
 
-  private def inferSimpleApp(singleStage: ExecutionStepRequest): HFResult[Seq[PipelineStage]] = {
+  private def inferSimpleApp(singleStage: PipelineStageRequest): HFResult[Seq[PipelineStage]] = {
     val service = singleStage.modelVariants.head
     val f = for {
       version <- EitherT.fromOptionF(versionRepository.get(service.modelVersionId), ClientError(s"Can't find model version with id ${service.modelVersionId}"))
@@ -240,14 +239,14 @@ class ApplicationService(
       signed <- EitherT(createDetailedServiceDesc(service, version, signature))
     } yield Seq(
       PipelineStage(
-        services = List(signed.copy(weight = 100)), // 100 since this is the only service in the app
+        modelVariants = List(signed.copy(weight = 100)), // 100 since this is the only service in the app
         signature = signature,
       )
     )
     f.value
   }
 
-  private def inferPipelineApp(stages: Seq[ExecutionStepRequest]): HFResult[Seq[PipelineStage]] = {
+  private def inferPipelineApp(stages: Seq[PipelineStageRequest]): HFResult[Seq[PipelineStage]] = {
     Result.sequenceF {
       stages.map { stage =>
           val f = for {
@@ -255,7 +254,7 @@ class ApplicationService(
             stageSig <- EitherT(Future.successful(inferStageSignature(services)))
           } yield {
             PipelineStage(
-              services = services.toList,
+              modelVariants = services.toList,
               signature = stageSig,
             )
           }
@@ -264,7 +263,7 @@ class ApplicationService(
     }
   }
 
-  def inferServices(services: Seq[ServiceCreationDescription]): HFResult[Seq[PipelineStageNode]] = {
+  def inferServices(services: Seq[ModelVariantRequest]): HFResult[Seq[ModelVariant]] = {
     Result.sequenceF {
       services.map { service =>
         val f = for {
@@ -285,9 +284,9 @@ class ApplicationService(
     }
   }
 
-  private def createDetailedServiceDesc(service: ServiceCreationDescription, modelVersion: ModelVersion, signature: ModelSignature) = {
+  private def createDetailedServiceDesc(service: ModelVariantRequest, modelVersion: ModelVersion, signature: ModelSignature) = {
     Result.okF(
-      PipelineStageNode(
+      ModelVariant(
         modelVersion,
         service.weight,
         signature
@@ -295,7 +294,7 @@ class ApplicationService(
     )
   }
 
-  private def inferStageSignature(serviceDescs: Seq[PipelineStageNode]): HResult[ModelSignature] = {
+  private def inferStageSignature(serviceDescs: Seq[ModelVariant]): HResult[ModelSignature] = {
     if(serviceDescs.isEmpty) {
       Result.clientError("Invalid application: no stages in the graph.")
     } else {

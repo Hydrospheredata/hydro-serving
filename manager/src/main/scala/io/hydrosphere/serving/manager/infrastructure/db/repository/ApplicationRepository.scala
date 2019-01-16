@@ -27,7 +27,7 @@ class ApplicationRepository(
         namespace = entity.namespace,
         applicationContract = entity.signature.toProtoString,
         executionGraph = entity.executionGraph.toJson.toString(),
-        servicesInStage = entity.executionGraph.stages.flatMap(s => s.services.map(_.modelVersion.id.toString)).toList,
+        servicesInStage = entity.executionGraph.stages.flatMap(s => s.modelVariants.map(_.modelVersion.id.toString)).toList,
         kafkaStreams = entity.kafkaStreaming.map(p => p.toJson.toString())
       )
     ).map(s => mapFromDb(s))
@@ -67,7 +67,7 @@ class ApplicationRepository(
     db.run(query.update(
       value.name,
       value.executionGraph.toJson.toString(),
-      value.executionGraph.stages.flatMap(s => s.services.map(_.modelVersion.id.toString)).toList,
+      value.executionGraph.stages.flatMap(s => s.modelVariants.map(_.modelVersion.id.toString)).toList,
       value.kafkaStreaming.map(_.toJson.toString),
       value.namespace,
       value.signature.toProtoString

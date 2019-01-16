@@ -1,9 +1,8 @@
-package io.hydrosphere.serving.manager.api.http.controller.application
+package io.hydrosphere.serving.manager.api.http.controller
 
 import akka.http.scaladsl.server.Directives._
 import akka.util.Timeout
-import io.hydrosphere.serving.manager.api.http.controller.AkkaHttpControllerDsl
-import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationService}
+import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationService, CreateApplicationRequest, UpdateApplicationRequest}
 import io.swagger.annotations._
 import javax.ws.rs.Path
 

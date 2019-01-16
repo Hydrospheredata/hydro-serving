@@ -1,7 +1,7 @@
-package io.hydrosphere.serving.manager.api.http.controller.application
+package io.hydrosphere.serving.manager.domain.application
 
 case class ExecutionGraphRequest(
-  stages: Seq[ExecutionStepRequest]
+  stages: Seq[PipelineStageRequest]
 )
 
 object ExecutionGraphRequest {

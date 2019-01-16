@@ -4,14 +4,8 @@ import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersion
 
 case class PipelineStage(
-  services: Seq[PipelineStageNode],
+  modelVariants: Seq[ModelVariant],
   signature: ModelSignature,
-)
-
-case class PipelineStageNode(
-  modelVersion: ModelVersion,
-  weight: Int,
-  signature: ModelSignature
 )
 
 object PipelineStage {

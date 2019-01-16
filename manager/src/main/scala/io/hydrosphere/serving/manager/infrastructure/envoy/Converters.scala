@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.infrastructure.envoy
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.domain.application.{Application, PipelineStage, PipelineStageNode}
+import io.hydrosphere.serving.manager.domain.application.{Application, PipelineStage, ModelVariant}
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.model.Model
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersion
@@ -22,7 +22,7 @@ object Converters {
           case (stage, idx) => ExecutionStage(
             stageId = PipelineStage.stageId(app.id, idx),
             signature = Some(stage.signature),
-            services = stage.services.map(grpcService)
+            services = stage.modelVariants.map(grpcService)
           )
         }
       )),
@@ -67,7 +67,7 @@ object Converters {
     )
   }
 
-  def grpcService(desc: PipelineStageNode): ExecutionService = {
+  def grpcService(desc: ModelVariant): ExecutionService = {
     ExecutionService(
       modelVersion = Some(grpcModelVersion(desc.modelVersion)),
       weight = desc.weight

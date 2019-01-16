@@ -27,7 +27,7 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
   private def createRoutes(application: Application): Seq[VirtualHost] =
     application.executionGraph.stages.zipWithIndex.map { case (appStage, i) =>
       val weights = ClusterSpecifier.WeightedClusters(WeightedCluster(
-        clusters = appStage.services.map(w => {
+        clusters = appStage.modelVariants.map(w => {
           WeightedCluster.ClusterWeight(
             name = w.modelVersion.id.toString, // TODO if it's ok?
             weight = Some(w.weight),
