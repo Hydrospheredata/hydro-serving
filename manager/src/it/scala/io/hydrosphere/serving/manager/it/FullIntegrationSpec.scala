@@ -60,7 +60,7 @@ trait FullIntegrationSpec extends DatabaseAccessIT
     managerRepositories = new ManagerRepositories(configuration)
     managerServices = new ManagerServices(managerRepositories, configuration, dockerClient, DockerClientConfig())
     managerApi = new HttpApiServer(managerRepositories, managerServices, configuration)
-    managerGRPC = GrpcApiServer(managerServices, configuration)
+    managerGRPC = GrpcApiServer(managerRepositories, managerServices, configuration)
     managerApi.start()
     managerGRPC.start()
   }

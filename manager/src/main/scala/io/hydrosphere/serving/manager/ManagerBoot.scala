@@ -45,7 +45,7 @@ object ManagerBoot extends App with Logging {
     val managerRepositories = new ManagerRepositories(configuration)
     val managerServices = new ManagerServices(managerRepositories, configuration, dockerClient, dockerClientConfig)
     val httpApi = new HttpApiServer(managerRepositories, managerServices, configuration)
-    val grpcApi = GrpcApiServer(managerServices, configuration)
+    val grpcApi = GrpcApiServer(managerRepositories, managerServices, configuration)
 
     httpApi.start // fire and forget?
     grpcApi.start()
