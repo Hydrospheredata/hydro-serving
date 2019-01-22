@@ -25,6 +25,7 @@ class ApplicationRepository(
         id = entity.id,
         applicationName = entity.name,
         namespace = entity.namespace,
+        status = entity.status.toString,
         applicationContract = entity.signature.toProtoString,
         executionGraph = entity.executionGraph.toJson.toString(),
         servicesInStage = entity.executionGraph.stages.flatMap(s => s.modelVariants.map(_.modelVersion.id.toString)).toList,
@@ -61,7 +62,8 @@ class ApplicationRepository(
       serv.servicesInStage,
       serv.kafkaStreams,
       serv.namespace,
-      serv.applicationContract
+      serv.applicationContract,
+      serv.status
     )
 
     db.run(query.update(
@@ -70,7 +72,8 @@ class ApplicationRepository(
       value.executionGraph.stages.flatMap(s => s.modelVariants.map(_.modelVersion.id.toString)).toList,
       value.kafkaStreaming.map(_.toJson.toString),
       value.namespace,
-      value.signature.toProtoString
+      value.signature.toProtoString,
+      value.status.toString
     ))
   }
 
@@ -119,7 +122,8 @@ object ApplicationRepository extends CompleteJsonProtocol {
       executionGraph = dbType.executionGraph.parseJson.convertTo[ApplicationExecutionGraph],
       signature = ModelSignature.fromAscii(dbType.applicationContract),
       kafkaStreaming = dbType.kafkaStreams.map(p => p.parseJson.convertTo[ApplicationKafkaStream]),
-      namespace = dbType.namespace
+      namespace = dbType.namespace,
+      status = ApplicationStatus.withName(dbType.status)
     )
   }
 }

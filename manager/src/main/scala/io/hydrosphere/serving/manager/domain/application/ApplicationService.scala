@@ -18,21 +18,6 @@ import spray.json.JsObject
 
 import scala.concurrent.{ExecutionContext, Future}
 
-private case class ExecutionUnit(
-  serviceName: String,
-  servicePath: String,
-  stageInfo: StageInfo,
-)
-
-private case class StageInfo(
-  applicationRequestId: Option[String],
-  signatureName: String,
-  applicationId: Long,
-  modelVersionId: Option[Long],
-  stageId: String,
-  applicationNamespace: Option[String],
-)
-
 class ApplicationService(
   applicationRepository: ApplicationRepositoryAlgebra[Future],
   versionRepository: ModelVersionRepositoryAlgebra[Future],
@@ -89,18 +74,30 @@ class ApplicationService(
     val f = for {
       graph <- EitherT(inferGraph(executionGraph))
       signature = inferPipelineSignature(name, graph)
-      app <- EitherT(composeAppF(name, namespace, graph, signature, kafkaStreaming))
+      app <- EitherT(composePendingApp(name, namespace, graph, signature, kafkaStreaming))
 
       services <- EitherT(serviceManagementService.fetchServicesUnsync(keySet).map(Result.ok))
       existedServices = services.map(_.modelVersion.id)
       serviceDiff = keySet -- existedServices
       versions <- EitherT.liftF(versionRepository.get(serviceDiff.toSeq))
 
-      _ <- EitherT(deployModelVersion(versions.toSet))
-
       createdApp <- EitherT(applicationRepository.create(app).map(Result.ok))
     } yield {
-      internalManagerEventsPublisher.applicationChanged(createdApp)
+      deployModelVersion(versions.toSet).map {
+        case Left(err) =>
+          logger.warn(s"ModelVersion deployment error: ${err.message}")
+          val failedApp = createdApp.copy(status = ApplicationStatus.Failed)
+          applicationRepository.update(failedApp)
+        case Right(_) =>
+          val finishedApp = createdApp.copy(status = ApplicationStatus.Ready)
+          internalManagerEventsPublisher.applicationChanged(createdApp)
+          applicationRepository.update(finishedApp)
+      }.failed.foreach { x =>
+        logger.warn(s"ModelVersion deployment exception", x)
+        val failedApp = createdApp.copy(status = ApplicationStatus.Failed)
+        applicationRepository.update(failedApp)
+      }
+
       createdApp
     }
     f.value
@@ -152,7 +149,7 @@ class ApplicationService(
 
       graph <- EitherT(inferGraph(executionGraph))
       signature = inferPipelineSignature(name, graph)
-      newApplication <- EitherT(composeAppF(name, namespace, graph, signature, kafkaStreaming, id))
+      newApplication <- EitherT(composePendingApp(name, namespace, graph, signature, kafkaStreaming, id))
 
       keysSetOld = oldApplication.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion.id)).toSet
       keysSetNew = executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersionId)).toSet
@@ -165,7 +162,22 @@ class ApplicationService(
 
       _ <- EitherT(applicationRepository.update(newApplication).map(Result.ok))
     } yield {
-      internalManagerEventsPublisher.applicationChanged(newApplication)
+      deployModelVersion(versions.toSet).map {
+        case Left(err) =>
+          logger.warn(s"ModelVersion deployment error: ${err.message}")
+          val failedApp = newApplication.copy(status = ApplicationStatus.Failed)
+          internalManagerEventsPublisher.applicationRemoved(newApplication)
+          applicationRepository.update(failedApp)
+        case Right(_) =>
+          val finishedApp = newApplication.copy(status = ApplicationStatus.Ready)
+          internalManagerEventsPublisher.applicationChanged(newApplication)
+          applicationRepository.update(finishedApp)
+      }.failed.foreach { x =>
+        logger.warn(s"ModelVersion deployment exception", x)
+        val failedApp = newApplication.copy(status = ApplicationStatus.Failed)
+        internalManagerEventsPublisher.applicationRemoved(newApplication)
+        applicationRepository.update(failedApp)
+      }
       newApplication
     }
     res.value
@@ -205,7 +217,7 @@ class ApplicationService(
   }
 
 
-  private def composeAppF(name: String, namespace: Option[String], graph: ApplicationExecutionGraph, signature: ModelSignature, kafkaStreaming: Seq[ApplicationKafkaStream], id: Long = 0) = {
+  private def composePendingApp(name: String, namespace: Option[String], graph: ApplicationExecutionGraph, signature: ModelSignature, kafkaStreaming: Seq[ApplicationKafkaStream], id: Long = 0) = {
     Result.okF(
       Application(
         id = id,
@@ -213,7 +225,8 @@ class ApplicationService(
         namespace = namespace,
         signature = signature,
         executionGraph = graph,
-        kafkaStreaming = kafkaStreaming.toList
+        kafkaStreaming = kafkaStreaming.toList,
+        status = ApplicationStatus.Pending
       )
     )
   }
@@ -249,16 +262,16 @@ class ApplicationService(
   private def inferPipelineApp(stages: Seq[PipelineStageRequest]): HFResult[Seq[PipelineStage]] = {
     Result.sequenceF {
       stages.map { stage =>
-          val f = for {
-            services <- EitherT(inferServices(stage.modelVariants))
-            stageSig <- EitherT(Future.successful(inferStageSignature(services)))
-          } yield {
-            PipelineStage(
-              modelVariants = services.toList,
-              signature = stageSig,
-            )
-          }
-          f.value
+        val f = for {
+          services <- EitherT(inferServices(stage.modelVariants))
+          stageSig <- EitherT(Future.successful(inferStageSignature(services)))
+        } yield {
+          PipelineStage(
+            modelVariants = services.toList,
+            signature = stageSig,
+          )
+        }
+        f.value
       }
     }
   }
@@ -295,7 +308,7 @@ class ApplicationService(
   }
 
   private def inferStageSignature(serviceDescs: Seq[ModelVariant]): HResult[ModelSignature] = {
-    if(serviceDescs.isEmpty) {
+    if (serviceDescs.isEmpty) {
       Result.clientError("Invalid application: no stages in the graph.")
     } else {
       val signatures = serviceDescs.map(_.signature)
