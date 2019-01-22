@@ -27,8 +27,6 @@ class ApplicationService(
   applicationConfig: ApplicationConfig
 )(implicit val ex: ExecutionContext) extends Logging {
 
-  type FutureMap[T] = Future[Map[Long, T]]
-
   def getApplication(appId: Long): HFResult[Application] = {
     applicationRepository.get(appId).map {
       case Some(app) => Result.ok(app)
