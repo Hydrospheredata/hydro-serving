@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.service.storage
+package io.hydrosphere.serving.manager.storage
 
 import java.nio.file.{Files, Path, Paths}
 import java.time.Instant

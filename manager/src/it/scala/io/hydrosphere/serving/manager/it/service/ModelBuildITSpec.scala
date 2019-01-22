@@ -32,7 +32,7 @@ class ModelBuildITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
           builtMv <- EitherT.liftF(mv.completedVersion)
         } yield {
           // check that build is successful
-          assert(builtMv.status === ModelVersionStatus.Finished)
+          assert(builtMv.status === ModelVersionStatus.Released)
           assert(builtMv.finished.isDefined)
           assert(builtMv.modelVersion === 1)
           assert(builtMv.model.name === "m1")

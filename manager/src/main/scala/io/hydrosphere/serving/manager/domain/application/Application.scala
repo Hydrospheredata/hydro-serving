@@ -10,5 +10,5 @@ case class Application(
   status: ApplicationStatus,
   signature: ModelSignature,
   executionGraph: ApplicationExecutionGraph,
-  kafkaStreaming: List[ApplicationKafkaStream]
+  kafkaStreaming: Seq[ApplicationKafkaStream]
 )

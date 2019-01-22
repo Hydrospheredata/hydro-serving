@@ -29,7 +29,7 @@ class ApplicationRepository(
         applicationContract = entity.signature.toProtoString,
         executionGraph = entity.executionGraph.toJson.toString(),
         servicesInStage = entity.executionGraph.stages.flatMap(s => s.modelVariants.map(_.modelVersion.id.toString)).toList,
-        kafkaStreams = entity.kafkaStreaming.map(p => p.toJson.toString())
+        kafkaStreams = entity.kafkaStreaming.map(p => p.toJson.toString()).toList
       )
     ).map(s => mapFromDb(s))
 
@@ -70,14 +70,14 @@ class ApplicationRepository(
       value.name,
       value.executionGraph.toJson.toString(),
       value.executionGraph.stages.flatMap(s => s.modelVariants.map(_.modelVersion.id.toString)).toList,
-      value.kafkaStreaming.map(_.toJson.toString),
+      value.kafkaStreaming.map(_.toJson.toString).toList,
       value.namespace,
       value.signature.toProtoString,
       value.status.toString
     ))
   }
 
-  override def getKeysNotInApplication(versionIdx: Set[Long], applicationId: Long): Future[Seq[Application]] =
+  override def applicationsWithCommonServices(versionIdx: Set[Long], applicationId: Long): Future[Seq[Application]] =
     db.run(
       Tables.Application
         .filter { p =>

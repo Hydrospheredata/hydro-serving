@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.service
+package io.hydrosphere.serving.manager.domain
 
 import java.time.LocalDateTime
 
@@ -10,7 +10,6 @@ import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorServiceAl
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.{Model, ModelVersionMetadata}
 import io.hydrosphere.serving.manager.domain.model_version._
-import io.hydrosphere.serving.manager.infrastructure.model.push.LocalModelPushService
 import io.hydrosphere.serving.model.api.{ModelType, Result}
 import org.mockito.Matchers
 
@@ -44,7 +43,7 @@ class VersionServiceSpec extends GenericUnitTest {
             runtime = DockerImage("", ""),
             model = Model(1, "aaaa"),
             hostSelector = None,
-            status = ModelVersionStatus.Started,
+            status = ModelVersionStatus.Assembling,
             profileTypes = Map.empty
           )))
         )

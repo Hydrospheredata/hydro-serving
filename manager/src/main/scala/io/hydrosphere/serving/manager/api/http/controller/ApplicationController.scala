@@ -6,6 +6,7 @@ import io.hydrosphere.serving.manager.domain.application.{Application, Applicati
 import io.swagger.annotations._
 import javax.ws.rs.Path
 
+import scala.concurrent.ExecutionContext
 import scala.concurrent.duration._
 
 
@@ -13,7 +14,7 @@ import scala.concurrent.duration._
 @Api(produces = "application/json", tags = Array("Application"))
 class ApplicationController(
   applicationManagementService: ApplicationService
-) extends AkkaHttpControllerDsl {
+)(implicit val ec: ExecutionContext) extends AkkaHttpControllerDsl {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/")
@@ -42,7 +43,12 @@ class ApplicationController(
     post {
       entity(as[CreateApplicationRequest]) { r =>
         completeFRes(
-          applicationManagementService.createApplication(r.name, r.namespace, r.executionGraph, r.kafkaStreaming.getOrElse(List.empty))
+          applicationManagementService.createApplication(
+            r.name,
+            r.namespace,
+            r.executionGraph,
+            r.kafkaStreaming.getOrElse(List.empty)
+          ).map(_.right.map(_.started))
         )
       }
     }
@@ -62,7 +68,13 @@ class ApplicationController(
     put {
       entity(as[UpdateApplicationRequest]) { r =>
         completeFRes(
-          applicationManagementService.updateApplication(r.id, r.name, r.namespace, r.executionGraph, r.kafkaStreaming.getOrElse(List.empty))
+          applicationManagementService.updateApplication(
+            r.id,
+            r.name,
+            r.namespace,
+            r.executionGraph,
+            r.kafkaStreaming.getOrElse(List.empty)
+          ).map(_.right.map(_.started))
         )
       }
     }

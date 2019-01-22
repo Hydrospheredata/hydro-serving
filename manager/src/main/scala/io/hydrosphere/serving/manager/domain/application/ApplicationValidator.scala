@@ -7,6 +7,7 @@ import io.hydrosphere.serving.model.api.ops.ModelSignatureOps
 object ApplicationValidator {
   /**
     * Check if name matches with  `[a-zA-Z\-_\d]+` regexp
+    *
     * @param name application name
     * @return
     */
@@ -21,6 +22,7 @@ object ApplicationValidator {
 
   /**
     * Checks if different ModelVariants are mergeable into signle stage.
+    *
     * @param modelVariants modelVariants
     * @return
     */
@@ -43,11 +45,17 @@ object ApplicationValidator {
     }
   }
 
-  def inferPipelineSignature(name: String, graph: ApplicationExecutionGraph): ModelSignature = {
-    ModelSignature(
-      name,
-      graph.stages.head.signature.inputs,
-      graph.stages.last.signature.outputs
-    )
+  def inferPipelineSignature(name: String, graph: ApplicationExecutionGraph): Option[ModelSignature] = {
+    if (graph.stages.isEmpty) {
+      None
+    } else {
+      Some(
+        ModelSignature(
+          name,
+          graph.stages.head.signature.inputs,
+          graph.stages.last.signature.outputs
+        )
+      )
+    }
   }
 }

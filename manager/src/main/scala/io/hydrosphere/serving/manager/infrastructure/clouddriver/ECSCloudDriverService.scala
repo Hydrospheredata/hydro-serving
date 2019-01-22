@@ -31,7 +31,7 @@ import scala.concurrent.{ExecutionContext, Future}
 
 class ECSCloudDriverService(
     managerConfiguration: ManagerConfiguration,
-    internalManagerEventsPublisher: InternalManagerEventsPublisher
+    internalManagerEventsPublisher: ManagerEventBus
 )(
     implicit val ex: ExecutionContext,
     actorSystem: ActorSystem
@@ -76,7 +76,7 @@ object ECSServiceWatcherActor {
 }
 
 class ECSServiceWatcherActor(
-    internalManagerEventsPublisher: InternalManagerEventsPublisher,
+    internalManagerEventsPublisher: ManagerEventBus,
     managerConfiguration: ManagerConfiguration
 ) extends SelfScheduledActor(0.seconds, 30.seconds)(30.seconds) with CompleteJsonProtocol {
 

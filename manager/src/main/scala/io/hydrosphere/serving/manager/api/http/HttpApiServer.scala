@@ -20,6 +20,7 @@ import io.hydrosphere.serving.manager.infrastructure.protocol.CompleteJsonProtoc
 import spray.json._
 
 import scala.collection.immutable.Seq
+import scala.concurrent.ExecutionContext
 
 class HttpApiServer(
   managerRepositories: ManagerRepositories,
@@ -27,7 +28,8 @@ class HttpApiServer(
   managerConfiguration: ManagerConfiguration
 )(
   implicit val system: ActorSystem,
-  implicit val materializer: ActorMaterializer
+  implicit val materializer: ActorMaterializer,
+  implicit val ec: ExecutionContext
 ) extends Logging {
 
   val environmentController = new HostSelectorController(managerServices.hostSelectorService)

@@ -33,7 +33,7 @@ class GrpcSpec extends GenericUnitTest {
           runtime = DockerImage("asd", "asd"),
           model = Model(1, "asd"),
           hostSelector = None,
-          status = ModelVersionStatus.Started,
+          status = ModelVersionStatus.Assembling,
           profileTypes = Map.empty
         )
       )))
@@ -63,7 +63,7 @@ class GrpcSpec extends GenericUnitTest {
           runtime = DockerImage("asd", "asd"),
           model = Model(1, "asd"),
           hostSelector = None,
-          status = ModelVersionStatus.Started,
+          status = ModelVersionStatus.Assembling,
           profileTypes = Map.empty
         ),
         DMV(
@@ -77,7 +77,7 @@ class GrpcSpec extends GenericUnitTest {
           runtime = DockerImage("asd", "asd"),
           model = Model(1, "asd"),
           hostSelector = None,
-          status = ModelVersionStatus.Started,
+          status = ModelVersionStatus.Assembling,
           profileTypes = Map.empty
         )
       )))

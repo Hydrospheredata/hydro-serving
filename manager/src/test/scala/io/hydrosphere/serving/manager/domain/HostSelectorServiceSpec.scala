@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.service
+package io.hydrosphere.serving.manager.domain
 
 import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.domain.host_selector.{HostSelector, HostSelectorRepositoryAlgebra, HostSelectorService}

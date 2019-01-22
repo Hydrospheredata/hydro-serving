@@ -13,7 +13,7 @@ trait ApplicationRepositoryAlgebra[F[_]] {
 
   def all(): F[Seq[Application]]
 
-  def getKeysNotInApplication(keysSet: Set[Long], applicationId: Long): F[Seq[Application]]
+  def applicationsWithCommonServices(keysSet: Set[Long], applicationId: Long): F[Seq[Application]]
 
   def findVersionsUsage(versionIdx: Long): F[Seq[Application]]
 }

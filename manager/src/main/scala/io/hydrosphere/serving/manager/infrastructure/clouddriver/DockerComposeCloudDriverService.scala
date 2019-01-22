@@ -4,16 +4,16 @@ import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.messages.{Container, HostConfig, LogConfig}
 import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, ManagerConfiguration}
 import io.hydrosphere.serving.manager.domain.clouddriver.{CloudService, DefaultConstants, MainApplicationInstance}
-import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.InternalManagerEventsPublisher
 
 import scala.collection.JavaConverters._
 import scala.concurrent.ExecutionContext
 import DefaultConstants._
+import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.ManagerEventBus
 
 class DockerComposeCloudDriverService(
   dockerClient: DockerClient,
   managerConfiguration: ManagerConfiguration,
-  internalManagerEventsPublisher: InternalManagerEventsPublisher
+  internalManagerEventsPublisher: ManagerEventBus
 )(
   implicit override val ex: ExecutionContext
 ) extends LocalCloudDriverService(dockerClient, managerConfiguration, internalManagerEventsPublisher) {
