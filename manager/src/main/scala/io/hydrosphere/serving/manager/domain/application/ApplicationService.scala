@@ -8,11 +8,9 @@ import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorService
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepositoryAlgebra}
 import io.hydrosphere.serving.manager.domain.service.{Service, ServiceManagementService}
 import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.InternalManagerEventsPublisher
-import io.hydrosphere.serving.model.api.Result.ClientError
-import io.hydrosphere.serving.model.api.Result.Implicits._
+import io.hydrosphere.serving.model.api.Result.{ClientError, HError}
 import io.hydrosphere.serving.model.api._
 import io.hydrosphere.serving.model.api.json.TensorJsonLens
-import io.hydrosphere.serving.model.api.ops.ModelSignatureOps
 import org.apache.logging.log4j.scala.Logging
 import spray.json.JsObject
 
@@ -70,9 +68,9 @@ class ApplicationService(
     val keySet = keys.toSet
 
     val f = for {
-      _ <- EitherT(checkNameUniqueness(name))
+      _ <- checkApplicationName(name)
       graph <- EitherT(inferGraph(executionGraph))
-      signature = inferPipelineSignature(name, graph)
+      signature = ApplicationValidator.inferPipelineSignature(name, graph)
       app <- EitherT(composePendingApp(name, namespace, graph, signature, kafkaStreaming))
 
       services <- EitherT(serviceManagementService.fetchServicesUnsync(keySet).map(Result.ok))
@@ -99,13 +97,6 @@ class ApplicationService(
       createdApp
     }
     f.value
-  }
-
-  def checkNameUniqueness(name: String) = {
-    applicationRepository.get(name).map{
-      case Some(_) => Result.clientError(s"Application with name $name already exists")
-      case None => Right(())
-    }
   }
 
   def deleteApplication(id: Long): HFResult[Application] = {
@@ -150,11 +141,11 @@ class ApplicationService(
     kafkaStreaming: Seq[ApplicationKafkaStream]
   ): HFResult[Application] = {
     val res = for {
+      _ <- checkApplicationName(name)
       oldApplication <- EitherT(getApplication(id))
-      _ <- EitherT(checkNameUniqueness(name))
 
       graph <- EitherT(inferGraph(executionGraph))
-      signature = inferPipelineSignature(name, graph)
+      signature = ApplicationValidator.inferPipelineSignature(name, graph)
       newApplication <- EitherT(composePendingApp(name, namespace, graph, signature, kafkaStreaming, id))
 
       keysSetOld = oldApplication.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion.id)).toSet
@@ -186,6 +177,16 @@ class ApplicationService(
       newApplication
     }
     res.value
+  }
+
+  def checkApplicationName(name: String) = {
+    for {
+      _ <- EitherT.fromOption(ApplicationValidator.name(name), ClientError(s"Application name $name contains invalid symbols. It should only contain latin letters, numbers '-' and '_'"))
+      _ <- EitherT.liftF[Future, HError, Unit](applicationRepository.get(name).map {
+        case Some(_) => Result.clientError(s"Application with name $name already exists")
+        case None => Right(())
+      })
+    } yield name
   }
 
   private def deployModelVersion(modelVersions: Set[ModelVersion]): HFResult[Seq[Service]] = {
@@ -269,7 +270,7 @@ class ApplicationService(
       stages.map { stage =>
         val f = for {
           services <- EitherT(inferServices(stage.modelVariants))
-          stageSig <- EitherT(Future.successful(inferStageSignature(services)))
+          stageSig <- EitherT(Future.successful(ApplicationValidator.inferStageSignature(services)))
         } yield {
           PipelineStage(
             modelVariants = services.toList,
@@ -286,19 +287,11 @@ class ApplicationService(
       services.map { service =>
         val f = for {
           version <- EitherT.fromOptionF(versionRepository.get(service.modelVersionId), ClientError(s"Can't find model version with id ${service.modelVersionId}"))
-          signature <- EitherT(findSignature(version, service.signatureName))
+          signature <- EitherT.fromOption(version.modelContract.signatures.find(_.signatureName == service.signatureName), ClientError(s"Can't find ${service.signatureName} signature"))
           signed <- EitherT(createDetailedServiceDesc(service, version, signature))
         } yield signed
         f.value
       }
-    }
-  }
-
-  private def findSignature(version: ModelVersion, signature: String) = {
-    Future.successful {
-      version.modelContract.signatures
-        .find(_.signatureName == signature)
-        .toHResult(Result.ClientError(s"Can't find signature $signature in $version"))
     }
   }
 
@@ -309,33 +302,6 @@ class ApplicationService(
         service.weight,
         signature
       )
-    )
-  }
-
-  private def inferStageSignature(serviceDescs: Seq[ModelVariant]): HResult[ModelSignature] = {
-    if (serviceDescs.isEmpty) {
-      Result.clientError("Invalid application: no stages in the graph.")
-    } else {
-      val signatures = serviceDescs.map(_.signature)
-      val signatureName = signatures.head.signatureName
-      val isSameName = signatures.forall(_.signatureName == signatureName)
-      if (isSameName) {
-        Result.ok(
-          signatures.foldRight(ModelSignature.defaultInstance) {
-            case (sig1, sig2) => ModelSignatureOps.merge(sig1, sig2)
-          }.withSignatureName(signatureName)
-        )
-      } else {
-        Result.clientError(s"Model Versions ${serviceDescs.map(x => x.modelVersion.model.name + ":" + x.modelVersion.modelVersion)} have different signature names")
-      }
-    }
-  }
-
-  private def inferPipelineSignature(name: String, graph: ApplicationExecutionGraph): ModelSignature = {
-    ModelSignature(
-      name,
-      graph.stages.head.signature.inputs,
-      graph.stages.last.signature.outputs
     )
   }
 }
