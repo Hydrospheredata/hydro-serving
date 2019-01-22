@@ -77,13 +77,6 @@ class ApplicationRepository(
     ))
   }
 
-  override def getByName(name: String): Future[Option[Application]] =
-    db.run(
-      Tables.Application
-        .filter(_.applicationName === name)
-        .result.headOption
-    ).map(s => mapFromDb(s))
-
   override def getKeysNotInApplication(versionIdx: Set[Long], applicationId: Long): Future[Seq[Application]] =
     db.run(
       Tables.Application

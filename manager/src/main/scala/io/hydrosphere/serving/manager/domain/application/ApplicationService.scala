@@ -45,9 +45,9 @@ class ApplicationService(
     applicationRepository.all()
   }
 
-  def generateInputsForApplication(appId: Long): HFResult[JsObject] = {
+  def generateInputs(name: String): HFResult[JsObject] = {
     val f = for {
-      app <- EitherT(getApplication(appId))
+      app <- EitherT(getApplication(name))
     } yield {
       val data = TensorExampleGenerator(app.signature).inputs
       TensorJsonLens.mapToJson(data)
@@ -70,6 +70,7 @@ class ApplicationService(
     val keySet = keys.toSet
 
     val f = for {
+      _ <- EitherT(checkNameUniqueness(name))
       graph <- EitherT(inferGraph(executionGraph))
       signature = inferPipelineSignature(name, graph)
       app <- EitherT(composePendingApp(name, namespace, graph, signature, kafkaStreaming))
@@ -95,10 +96,16 @@ class ApplicationService(
         val failedApp = createdApp.copy(status = ApplicationStatus.Failed)
         applicationRepository.update(failedApp)
       }
-
       createdApp
     }
     f.value
+  }
+
+  def checkNameUniqueness(name: String) = {
+    applicationRepository.get(name).map{
+      case Some(_) => Result.clientError(s"Application with name $name already exists")
+      case None => Right(())
+    }
   }
 
   def deleteApplication(id: Long): HFResult[Application] = {
@@ -144,6 +151,7 @@ class ApplicationService(
   ): HFResult[Application] = {
     val res = for {
       oldApplication <- EitherT(getApplication(id))
+      _ <- EitherT(checkNameUniqueness(name))
 
       graph <- EitherT(inferGraph(executionGraph))
       signature = inferPipelineSignature(name, graph)
@@ -156,7 +164,6 @@ class ApplicationService(
 
       _ <- EitherT(removeServiceIfNeeded(servicesToRemove, id))
       versions <- EitherT.liftF(versionRepository.get(servicesToAdd.toSeq))
-      _ <- EitherT(deployModelVersion(versions.toSet))
 
       _ <- EitherT(applicationRepository.update(newApplication).map(Result.ok))
     } yield {

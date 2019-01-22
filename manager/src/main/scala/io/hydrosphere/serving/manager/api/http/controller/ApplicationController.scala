@@ -28,7 +28,6 @@ class ApplicationController(
     }
   }
 
-
   @Path("/")
   @ApiOperation(value = "Add Application", notes = "Add Application", nickname = "addApplication", httpMethod = "POST")
   @ApiImplicitParams(Array(
@@ -69,21 +68,6 @@ class ApplicationController(
     }
   }
 
-  @Path("/{applicationId}")
-  @ApiOperation(value = "deleteApplication", notes = "deleteApplication", nickname = "deleteApplication", httpMethod = "DELETE")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "applicationId", required = true, dataType = "long", paramType = "path", value = "id")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Application Deleted"),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
-  def deleteApplicationById = delete {
-    path("application" / LongNumber) { serviceId =>
-      completeFRes(applicationManagementService.deleteApplication(serviceId))
-    }
-  }
-
   @Path("/{applicationName}")
   @ApiOperation(value = "deleteApplication", notes = "deleteApplication", nickname = "deleteApplication", httpMethod = "DELETE")
   @ApiImplicitParams(Array(
@@ -110,10 +94,10 @@ class ApplicationController(
     new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def generateInputsForApp = pathPrefix("application" / "generateInputs" / LongNumber / Segment) { (appId, signatureName) =>
+  def generateInputsForApp = pathPrefix("application" / "generateInputs" / Segment ) { appName =>
     get {
       complete(
-        applicationManagementService.generateInputsForApplication(appId)
+        applicationManagementService.generateInputs(appName)
       )
     }
   }
@@ -122,7 +106,6 @@ class ApplicationController(
     listAll ~
       create ~
       update ~
-      deleteApplicationById ~
       deleteApplicationByName ~
       generateInputsForApp
 }

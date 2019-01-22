@@ -11,8 +11,6 @@ trait ApplicationRepositoryAlgebra[F[_]] {
 
   def delete(id: Long): F[Int]
 
-  def getByName(name: String): F[Option[Application]]
-
   def all(): F[Seq[Application]]
 
   def getKeysNotInApplication(keysSet: Set[Long], applicationId: Long): F[Seq[Application]]
