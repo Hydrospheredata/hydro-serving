@@ -29,7 +29,7 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
       val weights = ClusterSpecifier.WeightedClusters(WeightedCluster(
         clusters = appStage.modelVariants.map(w => {
           WeightedCluster.ClusterWeight(
-            name = w.modelVersion.id.toString, // TODO if it's ok?
+            name = "mv" + w.modelVersion.id.toString, // TODO it's not ok. need to refactor to use Service.name
             weight = Some(w.weight),
             responseHeadersToAdd = Seq(HeaderValueOption(
               header = Some(HeaderValue(
