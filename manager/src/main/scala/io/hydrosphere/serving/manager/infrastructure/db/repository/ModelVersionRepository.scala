@@ -56,7 +56,7 @@ class ModelVersionRepository(
   override def get(id: Long): Future[Option[ModelVersion]] =
     db.run(
       joinedQ
-        .filter(mv => mv._1.modelId === id)
+        .filter(mv => mv._1.modelVersionId === id)
         .result.headOption
     ).map(x => x.map(mapFromDb))
 
