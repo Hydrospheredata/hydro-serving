@@ -39,7 +39,7 @@ lazy val docs = project.in(file("docs"))
   .dependsOn(manager)
   .settings(Common.settings)
   .settings(
-    micrositeName := "ML Lambda",
+    micrositeName := "Hydrosphere Serving",
     micrositeDescription := "Machine Learning Serving Сluster",
     micrositeAuthor := "hydrosphere.io",
     micrositeHighlightTheme := "atom-one-light",

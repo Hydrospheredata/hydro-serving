@@ -6,11 +6,11 @@ permalink: 'getting-started.html'
 
 # Getting Started
 
-In this page you'll learn how to deploy your first model on ML Lambda. We will start from scratch and create a simple linear regression model that will learn to fit our randomly generated data with some noize added to it. After the training step we will pack it, deploy to the ML Lambda and call it locally with the different program. 
+In this page you'll learn how to deploy your first model on Hydrosphere Serving. We will start from scratch and create a simple linear regression model that will learn to fit our randomly generated data with some noize added to it. After the training step we will pack it, deploy to the Serving and call it locally with the different program. 
 
 ## Prerequisites
 
-We are assuming, that you've already [installed]({{site.baseurl}}{%link installation.md%}) ML Lambda instance on your working machine and a [cli-tool]({{site.baseurl}}{%link installation.md%}#cli) on your local machine from where you'll upload models. Those should not necessarily be separate machines, but in practice they probably would. 
+We are assuming, that you've already [installed]({{site.baseurl}}{%link installation.md%}) Serving instance on your working machine and a [cli-tool]({{site.baseurl}}{%link installation.md%}#cli) on your local machine from where you'll upload models. Those should not necessarily be separate machines, but in practice they probably would. 
 
 ### Setup a cluster
 
@@ -20,7 +20,7 @@ Once you've installed the cli-tool, you'll need to define a cluster, where you'r
 $ hs cluster add --name local --server http://localhost
 ```
 
-As the `--server` parameter provide the address of your ML Lambda instance. In our case it will be a localhost. If that's your first cluster, `hs` will use it by default, otherwise switch to it manually.
+As the `--server` parameter provide the address of your Serving instance. In our case it will be a localhost. If that's your first cluster, `hs` will use it by default, otherwise switch to it manually.
 
 ```sh 
 $ hs cluster use local
@@ -78,13 +78,13 @@ $ python model.py
 
 ## Preparing the model
 
-ML Lambda serves all models as Docker containers. Everytime it handles a request, it passes it to the appropriate Docker container with your model deployed on it. An important detail is that all model's files are stored in the `/model/files` directory inside the container. So, we will look up there in order to load the model. 
+Serving serves all models as Docker containers. Everytime it handles a request, it passes it to the appropriate Docker container with your model deployed on it. An important detail is that all model's files are stored in the `/model/files` directory inside the container. So, we will look up there in order to load the model. 
 
 For running this model we will use a Python runtime that will basically just run any Python code which you pass to it. Preparing the model is pretty straightforward, though you have to follow some rules: 
 
 1. Stick to the specific folder structure in order to let `hs` to parse and upload it correctly;
 1. Provide necessary dependencies with `requirements.txt`;
-1. Provide contract file to let ML Lambda understand model's inputs and outputs. 
+1. Provide contract file to let Serving understand model's inputs and outputs. 
 
 We will start with the main functional file. 
 
@@ -94,7 +94,7 @@ $ cd src
 $ touch func_main.py
 ```
 
-ML Lambda communicates with the model via [TensorProto](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/tensor.proto) messages. For Python models if you want to perform some transformation on the received TensorProto message you have to retrieve its content, make an action with it and pack the result back to the TensorProto message. To do that you have to define a funciton, that will be invoked everytime ML Lambda handles a request and passes it to the model. Inside the funciton you have to call a `predict` (or similiar) method of your model and return your predictions. 
+Serving communicates with the model via [TensorProto](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/tensor.proto) messages. For Python models if you want to perform some transformation on the received TensorProto message you have to retrieve its content, make an action with it and pack the result back to the TensorProto message. To do that you have to define a funciton, that will be invoked everytime Serving handles a request and passes it to the model. Inside the funciton you have to call a `predict` (or similiar) method of your model and return your predictions. 
 
 ```python
 import numpy as np
@@ -125,7 +125,7 @@ def infer(x):
 
 Since we need to initialize our model we will have to do that outside of our signature funcion, if we don't want to initialize the model everytime the request comes in. We do that on step (0). The signature function `infer` takes the actual request, unpacks it (1), makes a prediction (2), packs the answer back (3) and returns it (4). There's no a strict rule on how to name your signature function, it just have to be a valid python function name (since we use a Python runtime). 
 
-If you're wondering how ML Lambda will understand, which function to call from our porvided file, then the answer is pretty easy — we have to provide a __contract__. A contract is a file, that defines the inputs and outputs of the model, signature functions and some other metadata required for serving. Go to the root directory of the model and create a `serving.yaml` file. 
+If you're wondering how Serving will understand, which function to call from our porvided file, then the answer is pretty easy — we have to provide a __contract__. A contract is a file, that defines the inputs and outputs of the model, signature functions and some other metadata required for serving. Go to the root directory of the model and create a `serving.yaml` file. 
 
 ```sh
 $ cd ..
@@ -175,7 +175,7 @@ linear_regression
     └── func_main.py
 ```
 
-_Note: Although, we have `model.py` inside directory, it won't be uploaded to ML Lambda since we didn't specify it in the contract's payload._
+_Note: Although, we have `model.py` inside directory, it won't be uploaded to Serving since we didn't specify it in the contract's payload._
 
 ## Serving the model
 

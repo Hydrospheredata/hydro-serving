@@ -16,7 +16,7 @@ You can perform a test request to the application from UI interface. Open a desi
 
 You can reach your application with an HTTP-request. Send a `POST` request to `http://<host>/gateway/applications/{applicationName}/{applicationSignature}`. 
 
-Note, when you create a `pipeline` application, ML Lambda internally infers a contract. It performs validation that every stage is compatible with it's siblings, and creates a contract with the same signature name, as the application name. `singular` applications by default use their explicitly defined signatures.
+Note, when you create a `pipeline` application, Serving internally infers a contract. It performs validation that every stage is compatible with it's siblings, and creates a contract with the same signature name, as the application name. `singular` applications by default use their explicitly defined signatures.
 
 ### gRPC API call
 

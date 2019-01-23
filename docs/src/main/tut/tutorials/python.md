@@ -42,7 +42,7 @@ There are different ways of handling incoming tensors. Here we've used a Tensorf
 
 ### Define dependencies 
 
-By default the container where this model will be running does not have any scientific package pre-installed. You have to provide a `requirements.txt` file with the dependencies to let ML Lambda know which Python packages to install during model building. We've used a Tensorflow and Numpy packages in this example:
+By default the container where this model will be running does not have any scientific package pre-installed. You have to provide a `requirements.txt` file with the dependencies to let Serving know which Python packages to install during model building. We've used a Tensorflow and Numpy packages in this example:
 
 ```
 tensorflow==1.12.0
@@ -51,7 +51,7 @@ numpy==1.14.3
 
 ### Write a manifest 
 
-Since we have defined a function-handler, we have to tell ML Lambda what to call from `src/func_main.py`. In this case it's the `increment` function. Create a `serving.yaml` manifest. 
+Since we have defined a function-handler, we have to tell Serving what to call from `src/func_main.py`. In this case it's the `increment` function. Create a `serving.yaml` manifest. 
 
 ```yaml
 # serving.yaml
@@ -83,13 +83,13 @@ That's it, you've just created a simple model which you can use within your busi
 
 ### Serve the model 
 
-Upload the model to ML Lambda.
+Upload the model to Serving.
 
 ```sh
 $ hs upload
 ```
 
-Now the model is uploaded to the serving service but does not yet available for the invokation. Create an application to declare an endpoint to your model. You can create it manually via UI interface, or by providing an application manifest. To do it with web interface, open your `http://<host>/` where ML Lambda has been deployed, open Applications page and create a new app which will use `mnist` model. Or by manifest:
+Now the model is uploaded to the serving service but does not yet available for the invokation. Create an application to declare an endpoint to your model. You can create it manually via UI interface, or by providing an application manifest. To do it with web interface, open your `http://<host>/` where Serving has been deployed, open Applications page and create a new app which will use `mnist` model. Or by manifest:
 
 ```yaml
 # application.yaml 

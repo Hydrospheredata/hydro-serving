@@ -6,7 +6,7 @@ permalink: "concepts.html"
 
 # Concepts
 
-In the following pages we've described the main concepts of working with ML Lambda. 
+In the following pages we've described the main concepts of working with Hydrosphere Serving. 
 
 - [Models]({{site.baseurl}}{%link concepts/models.md%});
 - [Applications]({{site.baseurl}}{%link concepts/applications.md%});

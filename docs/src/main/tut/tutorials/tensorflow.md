@@ -6,7 +6,7 @@ permalink: "tensorflow.html"
 
 # Serving Tensorflow Model
 
-Deploying Tensorflow models does not require any additional manifest writings for model uploading since ML Lambda can automatically infer models' signatures. Running Tensorflow models can be done with `hydrosphere/serving-runtime-tensorflow` runtime. The only thing you have to worry about is how to properly export your model with `tf.saved_model`.
+Deploying Tensorflow models does not require any additional manifest writings for model uploading since Serving can automatically infer models' signatures. Running Tensorflow models can be done with `hydrosphere/serving-runtime-tensorflow` runtime. The only thing you have to worry about is how to properly export your model with `tf.saved_model`.
 
 Suppose we already have a Tensorflow model, that recognizes hand-written digits. We will cover serving for Tensorflow [Basic API]({{site.baseurl}}{%link tutorials/tensorflow.md%}#basic-api) and [Estimator API]({{site.baseurl}}{%link tutorials/tensorflow.md%}#estimator-api). 
 
@@ -47,14 +47,14 @@ builder.save()
 
 ### Serving the model
 
-Upload the exported model to ML Lambda. 
+Upload the exported model to Serving. 
 
 ```sh
 $ cd {EXPORT_DIR}
 $ hs upload --name mnist
 ```
 
-Now the model is uploaded to the serving service but does not yet available for the invokation. Create an application to declare an endpoint to your model. You can create it manually via UI interface, or by providing an application manifest. To do it with web interface, open your `http://<host>/` where ML Lambda has been deployed, open Applications page and create a new app which will use `mnist` model. Or by manifest:
+Now the model is uploaded to the serving service but does not yet available for the invokation. Create an application to declare an endpoint to your model. You can create it manually via UI interface, or by providing an application manifest. To do it with web interface, open your `http://<host>/` where Serving has been deployed, open Applications page and create a new app which will use `mnist` model. Or by manifest:
 
 ```yaml
 # application.yaml 
@@ -103,7 +103,7 @@ estimator.export_savedmodel(export_dir, serving_input_receiver_fn)
 
 ### Serving the model
 
-Upload the exported model to ML Lambda. 
+Upload the exported model to Serving. 
 
 ```sh 
 $ cd ${EXPORT_DIR}/{TIMESTAMP}

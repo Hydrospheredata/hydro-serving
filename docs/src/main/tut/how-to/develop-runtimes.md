@@ -6,7 +6,7 @@ permalink: 'develop-runtimes.html'
 
 # Develop Runtimes
 
-Sometimes you have to use technology that we are not supporting yet or you need more flexibility and you want to implement your own runtime. It may seem frightening at first glance, but it's actually not that difficult. ML Lambda is designed to abstract it's guts from model users and runtime developers. The key things you have to know to write your own runtime are: 
+Sometimes you have to use technology that we are not supporting yet or you need more flexibility and you want to implement your own runtime. It may seem frightening at first glance, but it's actually not that difficult. Serving is designed to abstract it's guts from model users and runtime developers. The key things you have to know to write your own runtime are: 
 
 * Knowing how to implement a predefined gRPC service for a dedicated language;
 * Understanding our contracts' protobufs to describe entrypoints, such as inputs and outputs;
@@ -215,7 +215,7 @@ WORKDIR /app
 CMD ["python", "main.py"]
 ```
 
-`APP_PORT` is an environment variable that is used by ML Lambda. When ML Lambda invokes `Predict` method, it does it via defined port.
+`APP_PORT` is an environment variable that is used by Serving. When Serving invokes `Predict` method, it does it via defined port.
 
 The structure of the `runtime` folder now should look like this:
 
@@ -253,7 +253,7 @@ runtime
 └── runtime.py
 ```
 
-To let ML Lambda see your runtimes, you have to publish it to the Docker Hub or your private Docker Registry. Here for simplicity we will publish it to the Docker Hub. 
+To let Serving see your runtimes, you have to publish it to the Docker Hub or your private Docker Registry. Here for simplicity we will publish it to the Docker Hub. 
 
 ```sh
 $ docker build -t {username}/python-runtime-example:3.6.5
@@ -264,7 +264,7 @@ The `username` should be the one you have registered in Docker Hub.
 
 ## Fetch Runtime
 
-To add your newly created runtime to ML Lambda just execute the following lines:
+To add your newly created runtime to Serving just execute the following lines:
 
 ```sh
 $ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
@@ -280,7 +280,7 @@ $ curl -X POST --header 'Content-Type: application/json' --header 'Accept: appli
  }' 'http://localhost:8080/api/v1/runtime'
 ```
 
-Here, `name` is your image published in the Docker Hub. `version` is the tag of that image. The last parameter (`http://localhost:8080/api/v1/runtime`) is where your ML Lambda instance is running.
+Here, `name` is your image published in the Docker Hub. `version` is the tag of that image. The last parameter (`http://localhost:8080/api/v1/runtime`) is where your Serving instance is running.
 
 ## Result
 
@@ -291,5 +291,5 @@ That's it. You've just created a simple runtime, that you can use in your own pr
 
 # What's next? 
 
-- [Learn, how you can contribute to ML Lambda]({{site.baseurl}}{%link dev.md%});
-- [Learn, how you can deploy ML Lambda on Kubernetes]({{site.baseurl}}{%link installation.md%}#kubernetes);
+- [Learn, how you can contribute to Hydrosphere Serving]({{site.baseurl}}{%link dev.md%});
+- [Learn, how you can deploy Serving on Kubernetes]({{site.baseurl}}{%link installation.md%}#kubernetes);

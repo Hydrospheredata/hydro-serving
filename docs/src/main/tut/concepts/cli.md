@@ -6,7 +6,7 @@ permalink: 'cli.html'
 
 # Command Line Interface
 
-To work with ML Lambda from the command line we've created `hs`. It allows you to _apply_ various resource configurations to the platform. 
+To work with Serving from the command line we've created `hs`. It allows you to _apply_ various resource configurations to the platform. 
 
 ### `hs cluster`
 
@@ -57,10 +57,10 @@ When you upload a model, the tool looks for `serving.yaml` file in the current d
 
 ### `hs apply` 
 
-You can apply custom resources on ML Lambda. These resources are detected by `kind` key in the [manifest]({{site.baseurl}}{%link how-to/write-manifests.md%}) files.
+You can apply custom resources on Serving. These resources are detected by `kind` key in the [manifest]({{site.baseurl}}{%link how-to/write-manifests.md%}) files.
 
 - Model defines the model files, and it's contract;
-- Runtime defines which runtimes to use by ML Lambda;
+- Runtime defines which runtimes to use by Serving;
 - Application defines an endpoint to reach your models. 
 
 <br>

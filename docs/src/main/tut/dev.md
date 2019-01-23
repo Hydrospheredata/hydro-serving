@@ -6,13 +6,13 @@ permalink: 'dev.html'
 
 # For Developers
 
-This section is dedicated to the developers, who want to improve ML Lambda. 
+This section is dedicated to the developers, who want to improve Hydrosphere Serving. 
 
 <br>
 
 ## Prerequisites
 
-To set up a development environment clone ML Lambda repository.
+To set up a development environment clone Serving repository.
 
 ```sh
 $ git clone https://github.com/Hydrospheredata/hydro-serving
@@ -24,7 +24,7 @@ For the development you'll probably need working model examples.
 $ git clone https://github.com/Hydrospheredata/hydro-serving-example 
 ```
 
-To upload serving examples to ML Lambda, you'll need `hs` cli-tool. 
+To upload serving examples to Serving, you'll need `hs` cli-tool. 
 
 ```sh
 $ pip install hs

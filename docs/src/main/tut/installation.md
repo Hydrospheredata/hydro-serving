@@ -6,12 +6,12 @@ permalink: 'installation.html'
 
 # Installation 
 
-You can setup ML Lambda instance in 2 differents ways: 
+You can setup Serving instance in 2 differents ways: 
 
 1. [Setup on Docker Environment]({{site.baseurl}}{%link installation.md%}#docker)
 1. [Setup on Kubernetes Cluster]({{site.baseurl}}{%link installation.md%}#kubernetes)
 
-ML Lambda works along with the [cli-tool]({{site.baseurl}}{%link installation.md%}#cli). Make sure, you've installed it too. 
+Serving works along with the [cli-tool]({{site.baseurl}}{%link installation.md%}#cli). Make sure, you've installed it too. 
 
 <br>
 <br>
@@ -43,7 +43,7 @@ $ git clone https://github.com/Hydrospheredata/hydro-serving
 
 <hr>
 
-Once you've obtained ML Lambda files, you can deploy one of the 2 versions: 
+Once you've obtained Serving files, you can deploy one of the 2 versions: 
 
 1. The __lightweight__ version lets you manage your models in a continuous manner, version them, create applications that use your models and deploy all of this into production. To do that, just execute the following: 
 
@@ -66,7 +66,7 @@ To check that everything works fine, open [http://localhost/](http://localhost/)
 
 ## Kubernetes
 
-There's already a pre-built [Helm](https://helm.sh/) charts for installing and maintaining ML Lambda on [Kubernetes](https://kubernetes.io/) clusters.
+There's already a pre-built [Helm](https://helm.sh/) charts for installing and maintaining Serving on [Kubernetes](https://kubernetes.io/) clusters.
 
 ### Prerequisites
 
@@ -82,7 +82,7 @@ Installation can be performed in a few ways.
 
 #### From Repo
 
-Add ML Lambda to the repo.
+Add Serving to the repo.
 
 ```sh
 $ helm repo add ml-lambda https://hydrospheredata.github.io/hydro-serving-helm/
@@ -152,7 +152,7 @@ $ pip install hs
 
 # What's Next? 
 
-- [Learn, how to get started with ML Lambda]({{site.baseurl}}{%link tutorials/getting-started.md%});
+- [Learn, how to get started with Hydrosphere Serving]({{site.baseurl}}{%link tutorials/getting-started.md%});
 
 [docker-install]: https://docs.docker.com/install/
 [docker-compose-install]: https://docs.docker.com/compose/install/#install-compose

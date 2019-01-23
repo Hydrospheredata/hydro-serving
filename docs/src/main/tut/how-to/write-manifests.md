@@ -6,7 +6,7 @@ permalink: 'write-manifests.html'
 
 # Write Manifests
 
-Manifests describe entities inside ML Lambda. They can define your models, applications, runtimes and environments. Each manifest has the 2 following mandatory fields. 
+Manifests describe entities inside Serving. They can define your models, applications, runtimes and environments. Each manifest has the 2 following mandatory fields. 
 
 ```yaml
 kind: ...
