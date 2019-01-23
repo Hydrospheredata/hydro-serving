@@ -3,46 +3,23 @@ package io.hydrosphere.serving.manager.domain.application
 import cats.data.EitherT
 import cats.instances.future._
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.config.ApplicationConfig
-import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorService
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepositoryAlgebra}
 import io.hydrosphere.serving.manager.domain.service.{Service, ServiceManagementService}
-import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.InternalManagerEventsPublisher
-import io.hydrosphere.serving.model.api.Result.ClientError
-import io.hydrosphere.serving.model.api.Result.Implicits._
+import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.ManagerEventBus
+import io.hydrosphere.serving.model.api.Result.{ClientError, HError}
 import io.hydrosphere.serving.model.api._
 import io.hydrosphere.serving.model.api.json.TensorJsonLens
-import io.hydrosphere.serving.model.api.ops.ModelSignatureOps
 import org.apache.logging.log4j.scala.Logging
 import spray.json.JsObject
 
 import scala.concurrent.{ExecutionContext, Future}
 
-private case class ExecutionUnit(
-  serviceName: String,
-  servicePath: String,
-  stageInfo: StageInfo,
-)
-
-private case class StageInfo(
-  applicationRequestId: Option[String],
-  signatureName: String,
-  applicationId: Long,
-  modelVersionId: Option[Long],
-  stageId: String,
-  applicationNamespace: Option[String],
-)
-
 class ApplicationService(
   applicationRepository: ApplicationRepositoryAlgebra[Future],
   versionRepository: ModelVersionRepositoryAlgebra[Future],
-  environmentManagementService: HostSelectorService,
   serviceManagementService: ServiceManagementService,
-  internalManagerEventsPublisher: InternalManagerEventsPublisher,
-  applicationConfig: ApplicationConfig
+  internalManagerEventsPublisher: ManagerEventBus,
 )(implicit val ex: ExecutionContext) extends Logging {
-
-  type FutureMap[T] = Future[Map[Long, T]]
 
   def getApplication(appId: Long): HFResult[Application] = {
     applicationRepository.get(appId).map {
@@ -62,9 +39,9 @@ class ApplicationService(
     applicationRepository.all()
   }
 
-  def generateInputsForApplication(appId: Long): HFResult[JsObject] = {
+  def generateInputs(name: String): HFResult[JsObject] = {
     val f = for {
-      app <- EitherT(getApplication(appId))
+      app <- EitherT(getApplication(name))
     } yield {
       val data = TensorExampleGenerator(app.signature).inputs
       TensorJsonLens.mapToJson(data)
@@ -77,7 +54,7 @@ class ApplicationService(
     namespace: Option[String],
     executionGraph: ExecutionGraphRequest,
     kafkaStreaming: Seq[ApplicationKafkaStream]
-  ): HFResult[Application] = {
+  ): HFResult[ApplicationBuildResult] = {
     val keys = for {
       stage <- executionGraph.stages
       service <- stage.modelVariants
@@ -87,21 +64,37 @@ class ApplicationService(
     val keySet = keys.toSet
 
     val f = for {
+      _ <- checkApplicationName(name)
       graph <- EitherT(inferGraph(executionGraph))
-      signature = inferPipelineSignature(name, graph)
-      app <- EitherT(composeAppF(name, namespace, graph, signature, kafkaStreaming))
+      signature <- EitherT.fromOption(ApplicationValidator.inferPipelineSignature(name, graph), ClientError("Incompatible application stages"))
+      app <- EitherT(composeInitApp(name, namespace, graph, signature, kafkaStreaming))
 
       services <- EitherT(serviceManagementService.fetchServicesUnsync(keySet).map(Result.ok))
       existedServices = services.map(_.modelVersion.id)
       serviceDiff = keySet -- existedServices
       versions <- EitherT.liftF(versionRepository.get(serviceDiff.toSeq))
 
-      _ <- EitherT(deployModelVersion(versions.toSet))
-
       createdApp <- EitherT(applicationRepository.create(app).map(Result.ok))
     } yield {
-      internalManagerEventsPublisher.applicationChanged(createdApp)
-      createdApp
+      val completedApp = deployModelVersion(versions.toSet).map {
+        case Left(err) =>
+          logger.warn(s"ModelVersion deployment error: ${err.message}")
+          val failedApp = createdApp.copy(status = ApplicationStatus.Failed)
+          applicationRepository.update(failedApp)
+          failedApp
+        case Right(_) =>
+          val finishedApp = createdApp.copy(status = ApplicationStatus.Ready)
+          internalManagerEventsPublisher.applicationChanged(createdApp)
+          applicationRepository.update(finishedApp)
+          finishedApp
+      }
+      completedApp.failed.foreach { x =>
+        logger.warn(s"ModelVersion deployment exception", x)
+        val failedApp = createdApp.copy(status = ApplicationStatus.Failed)
+        applicationRepository.update(failedApp)
+      }
+
+      ApplicationBuildResult(createdApp, completedApp)
     }
     f.value
   }
@@ -146,13 +139,14 @@ class ApplicationService(
     namespace: Option[String],
     executionGraph: ExecutionGraphRequest,
     kafkaStreaming: Seq[ApplicationKafkaStream]
-  ): HFResult[Application] = {
+  ): HFResult[ApplicationBuildResult] = {
     val res = for {
+      _ <- checkApplicationName(name)
       oldApplication <- EitherT(getApplication(id))
 
       graph <- EitherT(inferGraph(executionGraph))
-      signature = inferPipelineSignature(name, graph)
-      newApplication <- EitherT(composeAppF(name, namespace, graph, signature, kafkaStreaming, id))
+      signature <- EitherT.fromOption(ApplicationValidator.inferPipelineSignature(name, graph), ClientError("Incompatible application stages"))
+      newApplication <- EitherT(composeInitApp(name, namespace, graph, signature, kafkaStreaming, id))
 
       keysSetOld = oldApplication.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion.id)).toSet
       keysSetNew = executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersionId)).toSet
@@ -161,14 +155,41 @@ class ApplicationService(
 
       _ <- EitherT(removeServiceIfNeeded(servicesToRemove, id))
       versions <- EitherT.liftF(versionRepository.get(servicesToAdd.toSeq))
-      _ <- EitherT(deployModelVersion(versions.toSet))
 
       _ <- EitherT(applicationRepository.update(newApplication).map(Result.ok))
     } yield {
-      internalManagerEventsPublisher.applicationChanged(newApplication)
-      newApplication
+      val completedApp = deployModelVersion(versions.toSet).map {
+        case Left(err) =>
+          logger.warn(s"ModelVersion deployment error: ${err.message}")
+          val failedApp = newApplication.copy(status = ApplicationStatus.Failed)
+          internalManagerEventsPublisher.applicationRemoved(newApplication)
+          applicationRepository.update(failedApp)
+          failedApp
+        case Right(_) =>
+          val finishedApp = newApplication.copy(status = ApplicationStatus.Ready)
+          internalManagerEventsPublisher.applicationChanged(newApplication)
+          applicationRepository.update(finishedApp)
+          finishedApp
+      }
+      completedApp.failed.foreach { x =>
+        logger.warn(s"ModelVersion deployment exception", x)
+        val failedApp = newApplication.copy(status = ApplicationStatus.Failed)
+        internalManagerEventsPublisher.applicationRemoved(newApplication)
+        applicationRepository.update(failedApp)
+      }
+      ApplicationBuildResult(newApplication, completedApp)
     }
     res.value
+  }
+
+  def checkApplicationName(name: String) = {
+    for {
+      _ <- EitherT.fromOption(ApplicationValidator.name(name), ClientError(s"Application name $name contains invalid symbols. It should only contain latin letters, numbers '-' and '_'"))
+      _ <- EitherT.liftF[Future, HError, Unit](applicationRepository.get(name).map {
+        case Some(_) => Result.clientError(s"Application with name $name already exists")
+        case None => Right(())
+      })
+    } yield name
   }
 
   private def deployModelVersion(modelVersions: Set[ModelVersion]): HFResult[Seq[Service]] = {
@@ -186,13 +207,13 @@ class ApplicationService(
     } yield deleted
   }
 
-  private def retrieveRemovableServiceDescriptions(keysSet: Set[Long], applicationId: Long) = {
+  private def retrieveRemovableServiceDescriptions(serviceKeys: Set[Long], applicationId: Long) = {
     for {
-      apps <- applicationRepository.getKeysNotInApplication(keysSet, applicationId)
-      keysSetOld = apps.flatMap(_.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion.id))).toSet
-      services <- serviceManagementService.fetchServicesUnsync(keysSet -- keysSetOld)
+      apps <- applicationRepository.applicationsWithCommonServices(serviceKeys, applicationId)
+      commonServiceKeys = apps.flatMap(_.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion.id))).toSet
+      services <- serviceManagementService.fetchServicesUnsync(serviceKeys -- commonServiceKeys)
     } yield {
-      logger.debug(s"applicationId=$applicationId keySet=$keysSet getKeysNotInApplication=${apps.map(_.name)} keysSetOld=$keysSetOld")
+      logger.debug(s"applicationId=$applicationId keySet=$serviceKeys getKeysNotInApplication=${apps.map(_.name)} keysSetOld=$commonServiceKeys")
       services
     }
   }
@@ -205,7 +226,7 @@ class ApplicationService(
   }
 
 
-  private def composeAppF(name: String, namespace: Option[String], graph: ApplicationExecutionGraph, signature: ModelSignature, kafkaStreaming: Seq[ApplicationKafkaStream], id: Long = 0) = {
+  private def composeInitApp(name: String, namespace: Option[String], graph: ApplicationExecutionGraph, signature: ModelSignature, kafkaStreaming: Seq[ApplicationKafkaStream], id: Long = 0) = {
     Result.okF(
       Application(
         id = id,
@@ -213,7 +234,8 @@ class ApplicationService(
         namespace = namespace,
         signature = signature,
         executionGraph = graph,
-        kafkaStreaming = kafkaStreaming.toList
+        kafkaStreaming = kafkaStreaming.toList,
+        status = ApplicationStatus.Assembling
       )
     )
   }
@@ -249,16 +271,16 @@ class ApplicationService(
   private def inferPipelineApp(stages: Seq[PipelineStageRequest]): HFResult[Seq[PipelineStage]] = {
     Result.sequenceF {
       stages.map { stage =>
-          val f = for {
-            services <- EitherT(inferServices(stage.modelVariants))
-            stageSig <- EitherT(Future.successful(inferStageSignature(services)))
-          } yield {
-            PipelineStage(
-              modelVariants = services.toList,
-              signature = stageSig,
-            )
-          }
-          f.value
+        val f = for {
+          services <- EitherT(inferServices(stage.modelVariants))
+          stageSig <- EitherT(Future.successful(ApplicationValidator.inferStageSignature(services)))
+        } yield {
+          PipelineStage(
+            modelVariants = services.toList,
+            signature = stageSig,
+          )
+        }
+        f.value
       }
     }
   }
@@ -268,19 +290,11 @@ class ApplicationService(
       services.map { service =>
         val f = for {
           version <- EitherT.fromOptionF(versionRepository.get(service.modelVersionId), ClientError(s"Can't find model version with id ${service.modelVersionId}"))
-          signature <- EitherT(findSignature(version, service.signatureName))
+          signature <- EitherT.fromOption(version.modelContract.signatures.find(_.signatureName == service.signatureName), ClientError(s"Can't find ${service.signatureName} signature"))
           signed <- EitherT(createDetailedServiceDesc(service, version, signature))
         } yield signed
         f.value
       }
-    }
-  }
-
-  private def findSignature(version: ModelVersion, signature: String) = {
-    Future.successful {
-      version.modelContract.signatures
-        .find(_.signatureName == signature)
-        .toHResult(Result.ClientError(s"Can't find signature $signature in $version"))
     }
   }
 
@@ -291,33 +305,6 @@ class ApplicationService(
         service.weight,
         signature
       )
-    )
-  }
-
-  private def inferStageSignature(serviceDescs: Seq[ModelVariant]): HResult[ModelSignature] = {
-    if(serviceDescs.isEmpty) {
-      Result.clientError("Invalid application: no stages in the graph.")
-    } else {
-      val signatures = serviceDescs.map(_.signature)
-      val signatureName = signatures.head.signatureName
-      val isSameName = signatures.forall(_.signatureName == signatureName)
-      if (isSameName) {
-        Result.ok(
-          signatures.foldRight(ModelSignature.defaultInstance) {
-            case (sig1, sig2) => ModelSignatureOps.merge(sig1, sig2)
-          }.withSignatureName(signatureName)
-        )
-      } else {
-        Result.clientError(s"Model Versions ${serviceDescs.map(x => x.modelVersion.model.name + ":" + x.modelVersion.modelVersion)} have different signature names")
-      }
-    }
-  }
-
-  private def inferPipelineSignature(name: String, graph: ApplicationExecutionGraph): ModelSignature = {
-    ModelSignature(
-      name,
-      graph.stages.head.signature.inputs,
-      graph.stages.last.signature.outputs
     )
   }
 }

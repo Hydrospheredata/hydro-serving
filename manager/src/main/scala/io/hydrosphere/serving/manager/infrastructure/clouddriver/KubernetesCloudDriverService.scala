@@ -9,7 +9,7 @@ import io.hydrosphere.serving.manager.domain.clouddriver._
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.service.Service
-import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.InternalManagerEventsPublisher
+import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.ManagerEventBus
 import org.apache.logging.log4j.scala.Logging
 import skuber._
 import skuber.api.client.{EventType, RequestContext}
@@ -18,7 +18,12 @@ import skuber.json.format._
 import scala.concurrent.{ExecutionContext, Future}
 import scala.language.reflectiveCalls
 
-class KubernetesCloudDriverService(managerConfiguration: ManagerConfiguration, internalManagerEventsPublisher: InternalManagerEventsPublisher)(implicit val ex: ExecutionContext, actorSystem: ActorSystem) extends CloudDriverAlgebra[Future] with Logging {
+class KubernetesCloudDriverService(
+  managerConfiguration: ManagerConfiguration,
+  internalManagerEventsPublisher: ManagerEventBus
+)(implicit val ex: ExecutionContext,
+  actorSystem: ActorSystem
+) extends CloudDriverAlgebra[Future] with Logging {
 
   implicit val actorMaterializer: ActorMaterializer = ActorMaterializer()
 

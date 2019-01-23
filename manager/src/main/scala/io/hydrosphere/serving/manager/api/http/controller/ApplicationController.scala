@@ -6,6 +6,7 @@ import io.hydrosphere.serving.manager.domain.application.{Application, Applicati
 import io.swagger.annotations._
 import javax.ws.rs.Path
 
+import scala.concurrent.ExecutionContext
 import scala.concurrent.duration._
 
 
@@ -13,7 +14,7 @@ import scala.concurrent.duration._
 @Api(produces = "application/json", tags = Array("Application"))
 class ApplicationController(
   applicationManagementService: ApplicationService
-) extends AkkaHttpControllerDsl {
+)(implicit val ec: ExecutionContext) extends AkkaHttpControllerDsl {
   implicit val timeout = Timeout(5.minutes)
 
   @Path("/")
@@ -27,7 +28,6 @@ class ApplicationController(
       complete(applicationManagementService.allApplications())
     }
   }
-
 
   @Path("/")
   @ApiOperation(value = "Add Application", notes = "Add Application", nickname = "addApplication", httpMethod = "POST")
@@ -43,7 +43,12 @@ class ApplicationController(
     post {
       entity(as[CreateApplicationRequest]) { r =>
         completeFRes(
-          applicationManagementService.createApplication(r.name, r.namespace, r.executionGraph, r.kafkaStreaming.getOrElse(List.empty))
+          applicationManagementService.createApplication(
+            r.name,
+            r.namespace,
+            r.executionGraph,
+            r.kafkaStreaming.getOrElse(List.empty)
+          ).map(_.right.map(_.started))
         )
       }
     }
@@ -63,24 +68,15 @@ class ApplicationController(
     put {
       entity(as[UpdateApplicationRequest]) { r =>
         completeFRes(
-          applicationManagementService.updateApplication(r.id, r.name, r.namespace, r.executionGraph, r.kafkaStreaming.getOrElse(List.empty))
+          applicationManagementService.updateApplication(
+            r.id,
+            r.name,
+            r.namespace,
+            r.executionGraph,
+            r.kafkaStreaming.getOrElse(List.empty)
+          ).map(_.right.map(_.started))
         )
       }
-    }
-  }
-
-  @Path("/{applicationId}")
-  @ApiOperation(value = "deleteApplication", notes = "deleteApplication", nickname = "deleteApplication", httpMethod = "DELETE")
-  @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "applicationId", required = true, dataType = "long", paramType = "path", value = "id")
-  ))
-  @ApiResponses(Array(
-    new ApiResponse(code = 200, message = "Application Deleted"),
-    new ApiResponse(code = 500, message = "Internal server error")
-  ))
-  def deleteApplicationById = delete {
-    path("application" / LongNumber) { serviceId =>
-      completeFRes(applicationManagementService.deleteApplication(serviceId))
     }
   }
 
@@ -100,20 +96,19 @@ class ApplicationController(
   }
 
 
-  @Path("/generateInputs/{appId}/{signatureName}")
+  @Path("/generateInputs/{applicationName}/")
   @ApiOperation(value = "Generate payload for application", notes = "Generate payload for application", nickname = "Generate payload for application", httpMethod = "GET")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "appId", required = true, dataType = "long", paramType = "path", value = "appId"),
-    new ApiImplicitParam(name = "signatureName", required = false, dataType = "string", paramType = "path", value = "signatureName")
+    new ApiImplicitParam(name = "applicationName", required = true, dataType = "string", paramType = "path", value = "name"),
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def generateInputsForApp = pathPrefix("application" / "generateInputs" / LongNumber / Segment) { (appId, signatureName) =>
+  def generateInputsForApp = pathPrefix("application" / "generateInputs" / Segment ) { appName =>
     get {
       complete(
-        applicationManagementService.generateInputsForApplication(appId)
+        applicationManagementService.generateInputs(appName)
       )
     }
   }
@@ -122,7 +117,6 @@ class ApplicationController(
     listAll ~
       create ~
       update ~
-      deleteApplicationById ~
       deleteApplicationByName ~
       generateInputsForApp
 }

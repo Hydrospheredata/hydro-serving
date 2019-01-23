@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.service
+package io.hydrosphere.serving.manager.domain
 
 import java.time.LocalDateTime
 
@@ -44,7 +44,7 @@ class VersionServiceSpec extends GenericUnitTest {
             runtime = DockerImage("", ""),
             model = Model(1, "aaaa"),
             hostSelector = None,
-            status = ModelVersionStatus.Started,
+            status = ModelVersionStatus.Assembling,
             profileTypes = Map.empty
           )))
         )

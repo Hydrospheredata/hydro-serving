@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.service
+package io.hydrosphere.serving.manager.domain
 
 import java.nio.file.{Files, Path, Paths}
 import java.time.LocalDateTime
@@ -63,7 +63,7 @@ class ModelServiceSpec extends GenericUnitTest {
           runtime = modelRuntime,
           model = model,
           hostSelector = None,
-          status = ModelVersionStatus.Finished,
+          status = ModelVersionStatus.Released,
           profileTypes = Map.empty
         )
         val modelVersionMetadata = ModelVersionMetadata(
@@ -156,7 +156,7 @@ class ModelServiceSpec extends GenericUnitTest {
           runtime = modelRuntime,
           model = model,
           hostSelector = None,
-          status = ModelVersionStatus.Finished,
+          status = ModelVersionStatus.Released,
           profileTypes = Map.empty
         )
         val modelVersionMetadata = ModelVersionMetadata(

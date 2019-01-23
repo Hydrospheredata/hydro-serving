@@ -99,7 +99,7 @@ class ModelVersionService(
         runtime = metadata.runtime,
         model = model,
         hostSelector = metadata.hostSelector,
-        status = ModelVersionStatus.Started,
+        status = ModelVersionStatus.Assembling,
         profileTypes = metadata.profileTypes
       )
       modelVersion <- EitherT.liftF[Future, HError, ModelVersion](modelVersionRepository.create(mv))

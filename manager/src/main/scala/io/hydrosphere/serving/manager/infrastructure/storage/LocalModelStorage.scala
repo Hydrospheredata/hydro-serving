@@ -58,11 +58,14 @@ class LocalModelStorage[F[_]](
     f.value
   }
 
-  private def writeFilesToSource(files: Map[Path, Path]): Unit = {
-    files.foreach {
-      case (src, dest) =>
-        storage.copyFile(dest.toString, src.toFile)
+  override def writeFile(path: String, localFile: File): HResult[Path] = {
+    val destFile = rootPath.resolve(path)
+    val destPath = destFile
+    val parentPath = destPath.getParent
+    if (!Files.exists(parentPath)) {
+      Files.createDirectories(parentPath)
     }
+    Result.ok(Files.copy(localFile.toPath, destPath, StandardCopyOption.REPLACE_EXISTING))
   }
 
   private def moveFolder(oldPath: Path, newPath: Path) = {
