@@ -58,7 +58,10 @@ abstract class AbstractDSActor[A <: GeneratedMessage with Message[A]](val typeUr
       typeUrl = typeUrl,
       versionInfo = version.toString,
       nonce = sentRequest.getAndIncrement().toString,
-      resources = formResources(responseObserver).map(s => com.google.protobuf.any.Any.pack(s))
+      resources = formResources(responseObserver)
+        .map(s => Try(com.google.protobuf.any.Any.pack(s)))
+        .filter(_.isSuccess)
+        .map(_.get)
     ), responseObserver)
   }
 
