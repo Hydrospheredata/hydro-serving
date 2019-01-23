@@ -194,7 +194,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
           gotNewApp <- EitherT(managerServices.applicationManagementService.getApplication(appNew.started.id))
         } yield {
-          assert(appNew === gotNewApp)
+          assert(appNew.started === gotNewApp)
           assert(appNew.started.kafkaStreaming.isEmpty, appNew)
         }
       }
@@ -250,7 +250,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
           gotNewApp <- EitherT(managerServices.applicationManagementService.getApplication(appNew.started.id))
         } yield {
-          assert(appNew === gotNewApp, gotNewApp)
+          assert(appNew.started === gotNewApp, gotNewApp)
         }
       }
     }
