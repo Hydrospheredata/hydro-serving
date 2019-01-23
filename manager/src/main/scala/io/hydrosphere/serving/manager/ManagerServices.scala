@@ -1,5 +1,7 @@
 package io.hydrosphere.serving.manager
 
+import java.nio.file.Files
+
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
@@ -7,11 +9,11 @@ import com.paulgoldbaum.influxdbclient._
 import com.sksamuel.elastic4s.ElasticsearchClientUri
 import com.sksamuel.elastic4s.http.HttpClient
 import com.spotify.docker.client._
+import com.spotify.docker.client.messages.ProgressMessage
 import io.grpc._
 import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, Headers}
 import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, DockerClientConfig, DockerRepositoryConfiguration, ManagerConfiguration}
 import io.hydrosphere.serving.manager.domain.application.ApplicationService
-import io.hydrosphere.serving.manager.domain.build_script.BuildScriptService
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorService
 import io.hydrosphere.serving.manager.domain.metrics.{ElasticSearchMetricsService, InfluxDBMetricsService, PrometheusMetricsService}
 import io.hydrosphere.serving.manager.domain.model.ModelService
@@ -20,9 +22,11 @@ import io.hydrosphere.serving.manager.domain.service.ServiceManagementService
 import io.hydrosphere.serving.manager.infrastructure.clouddriver.{DockerComposeCloudDriverService, ECSCloudDriverService, KubernetesCloudDriverService, LocalCloudDriverService}
 import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.InternalManagerEventsPublisher
 import io.hydrosphere.serving.manager.infrastructure.envoy.{EnvoyGRPCDiscoveryService, EnvoyGRPCDiscoveryServiceImpl, HttpEnvoyAdminConnector}
-import io.hydrosphere.serving.manager.infrastructure.model.build.LocalModelBuildService
-import io.hydrosphere.serving.manager.infrastructure.model.push._
-import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorageServiceImpl
+import io.hydrosphere.serving.manager.infrastructure.image.DockerImageBuilder
+import io.hydrosphere.serving.manager.infrastructure.image.repositories.{ECSImageRepository, LocalImageRepository, RemoteImageRepository}
+import io.hydrosphere.serving.manager.infrastructure.model_build.TempFilePacker
+import io.hydrosphere.serving.manager.infrastructure.storage.{LocalModelStorage, LocalStorageOps, LocalModelStorage}
+import io.hydrosphere.serving.manager.util.docker.InfoProgressHandler
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.ExecutionContext
@@ -39,6 +43,8 @@ class ManagerServices(
   implicit val timeout: Timeout
 ) extends Logging {
 
+  val progressHandler = InfoProgressHandler
+
   val managedChannel = ManagedChannelBuilder
     .forAddress(managerConfiguration.sidecar.host, managerConfiguration.sidecar.egressPort)
     .usePlaintext()
@@ -46,16 +52,29 @@ class ManagerServices(
 
   val channel: Channel = ClientInterceptors.intercept(managedChannel, new AuthorityReplacerInterceptor +: Headers.interceptors: _*)
 
-  val sourceManagementService = new ModelStorageServiceImpl(managerConfiguration)
+  val rootDir = managerConfiguration.localStorage.getOrElse(Files.createTempDirectory("hydroservingLocalStorage"))
+  val storageOps = new LocalStorageOps
+  logger.info(s"Using model storage: $rootDir")
 
-  val modelBuildService = new LocalModelBuildService(dockerClient, dockerClientConfig, sourceManagementService)
 
-  val buildScriptManagementService = new BuildScriptService(managerRepositories.modelBuildScriptRepository)
+  val sourceManagementService = new LocalModelStorage(
+    rootDir = rootDir,
+    storage = storageOps
+  )
 
-  val modelPushService = managerConfiguration.dockerRepository match {
-    case c: DockerRepositoryConfiguration.Remote => new RemoteModelPushService(dockerClient, c)
-    case c: DockerRepositoryConfiguration.Ecs => new ECSModelPushService(dockerClient, c)
-    case _ => new LocalModelPushService
+  val modelFilePacker = new TempFilePacker(sourceManagementService)
+
+  val imageBuilder = new DockerImageBuilder(
+    dockerClient = dockerClient,
+    dockerClientConfig = dockerClientConfig,
+    modelStorage = sourceManagementService,
+    progressHandler = progressHandler
+  )
+
+  val imageRepository = managerConfiguration.dockerRepository match {
+    case c: DockerRepositoryConfiguration.Remote => new RemoteImageRepository(dockerClient, c, progressHandler)
+    case c: DockerRepositoryConfiguration.Ecs => new ECSImageRepository(dockerClient, c, progressHandler)
+    case _ => new LocalImageRepository
   }
 
   val internalManagerEventsPublisher = new InternalManagerEventsPublisher
@@ -63,12 +82,12 @@ class ManagerServices(
   val hostSelectorService = new HostSelectorService(managerRepositories.hostSelectorRepository)
 
   val modelVersionManagementService = new ModelVersionService(
-    managerRepositories.modelVersionRepository,
-    buildScriptManagementService,
-    hostSelectorService,
-    modelBuildService,
-    modelPushService,
-    managerRepositories.applicationRepository
+    modelVersionRepository = managerRepositories.modelVersionRepository,
+    hostSelectorService = hostSelectorService,
+    imageBuilder = imageBuilder,
+    imageRepository = imageRepository,
+    applicationRepo = managerRepositories.applicationRepository,
+    modelFilePacker =
   )
 
   val cloudDriverService = managerConfiguration.cloudDriver match {

@@ -8,7 +8,7 @@ import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetad
 import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationRepositoryAlgebra}
 import io.hydrosphere.serving.manager.domain.host_selector.{HostSelector, HostSelectorRepositoryAlgebra, HostSelectorServiceAlg}
 import io.hydrosphere.serving.manager.domain.model_version.{BuildResult, ModelVersion, ModelVersionServiceAlg}
-import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorageService
+import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorage
 import io.hydrosphere.serving.model.api.Result.HError
 import io.hydrosphere.serving.model.api.{HFResult, ModelMetadata, Result}
 import org.apache.logging.log4j.scala.Logging
@@ -19,7 +19,7 @@ import scala.concurrent.{ExecutionContext, Future}
 class ModelService(
   modelRepository: ModelRepositoryAlgebra[Future],
   modelVersionService: ModelVersionServiceAlg,
-  storageService: ModelStorageService,
+  storageService: ModelStorage,
   appRepo: ApplicationRepositoryAlgebra[Future],
   hostSelectorService: HostSelectorRepositoryAlgebra[Future]
 )(implicit val ex: ExecutionContext) extends Logging {

@@ -11,25 +11,13 @@ import spray.json._
 
 
 trait ModelJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol {
-  implicit val modelTypeFormat = new JsonFormat[ModelType] {
-    override def read(json: JsValue) = {
-      json match {
-        case JsString(str) => ModelType.fromTag(str)
-        case x => throw DeserializationException(s"$x is not a valid ModelType")
-      }
-    }
-
-    override def write(obj: ModelType) = {
-      JsString(obj.toTag)
-    }
-  }
 
   implicit val dockerImageFormat = jsonFormat3(DockerImage.apply)
 
   implicit val modelFormat = jsonFormat2(Model)
   implicit val environmentFormat = jsonFormat3(HostSelector)
   implicit val versionStatusFormat = enumFormat(ModelVersionStatus)
-  implicit val modelVersionFormat = jsonFormat12(ModelVersion.apply)
+  implicit val modelVersionFormat = jsonFormat11(ModelVersion.apply)
   implicit val serviceFormat = jsonFormat6(Service.apply)
 
   implicit val detailedServiceFormat = jsonFormat3(ModelVariant.apply)

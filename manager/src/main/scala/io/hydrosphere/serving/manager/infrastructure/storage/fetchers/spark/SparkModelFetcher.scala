@@ -4,7 +4,7 @@ import java.nio.file.Files
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorage
+import io.hydrosphere.serving.manager.infrastructure.storage.StorageOps
 import io.hydrosphere.serving.model.api.{ModelMetadata, _}
 import io.hydrosphere.serving.model.api.HResult
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.ModelFetcher
@@ -12,14 +12,15 @@ import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.spark.mapp
 import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.JavaConverters._
+import scala.concurrent.Future
 
 
-object SparkModelFetcher extends ModelFetcher with Logging {
-  private def getStageMetadata(source: ModelStorage, model: String, stage: String): HResult[SparkModelMetadata] = {
+object SparkModelFetcher extends ModelFetcher[Future] with Logging {
+  private def getStageMetadata(source: StorageOps[Future], model: String, stage: String): HResult[SparkModelMetadata] = {
     getMetadata(source, s"$model/stages/$stage")
   }
 
-  private def getMetadata(source: ModelStorage, model: String): HResult[SparkModelMetadata] = {
+  private def getMetadata(source: StorageOps[Future], model: String): HResult[SparkModelMetadata] = {
     source.getReadableFile(s"$model/metadata/part-00000") match {
       case Left(error) =>
         Result.error(error)
@@ -29,7 +30,7 @@ object SparkModelFetcher extends ModelFetcher with Logging {
     }
   }
 
-  override def fetch(source: ModelStorage, directory: String): Option[ModelMetadata] = {
+  override def fetch(source: StorageOps, directory: String): Option[ModelMetadata] = {
     val stagesDir = s"$directory/stages"
 
     getMetadata(source, directory) match {
@@ -40,7 +41,7 @@ object SparkModelFetcher extends ModelFetcher with Logging {
     }
   }
 
-  private def processPipeline(source: ModelStorage, directory: String, stagesDir: String, pipelineMetadata: SparkModelMetadata) = {
+  private def processPipeline(source: StorageOps, directory: String, stagesDir: String, pipelineMetadata: SparkModelMetadata) = {
     source.getSubDirs(stagesDir) match {
       case Left(error) =>
         None

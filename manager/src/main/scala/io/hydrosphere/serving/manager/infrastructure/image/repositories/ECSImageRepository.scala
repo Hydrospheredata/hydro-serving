@@ -1,19 +1,21 @@
-package io.hydrosphere.serving.manager.infrastructure.model.push
+package io.hydrosphere.serving.manager.infrastructure.image.repositories
 
 import java.util.Collections
 
-import com.amazonaws.services.ecr.{AmazonECR, AmazonECRClientBuilder}
 import com.amazonaws.services.ecr.model._
+import com.amazonaws.services.ecr.{AmazonECR, AmazonECRClientBuilder}
 import com.spotify.docker.client.{DockerClient, ProgressHandler}
 import io.hydrosphere.serving.manager.config.DockerRepositoryConfiguration
-import io.hydrosphere.serving.manager.domain.image.DockerImage
-import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionPushAlgebra}
+import io.hydrosphere.serving.manager.domain.image.{DockerImage, ImageRepository}
 import io.hydrosphere.serving.manager.util.docker.{DockerClientHelper, DockerRegistryAuth}
 
-class ECSModelPushService(
+import scala.concurrent.{ExecutionContext, Future}
+
+class ECSImageRepository(
   dockerClient: DockerClient,
-  ecsDockerRepositoryConfiguration: DockerRepositoryConfiguration.Ecs
-) extends ModelVersionPushAlgebra {
+  ecsDockerRepositoryConfiguration: DockerRepositoryConfiguration.Ecs,
+  progressHandler: ProgressHandler
+)(implicit blockingEc: ExecutionContext) extends ImageRepository[Future] {
 
   val ecrClient: AmazonECR = AmazonECRClientBuilder.standard()
     .withRegion(ecsDockerRepositoryConfiguration.region)
@@ -50,20 +52,19 @@ class ECSModelPushService(
     }
   }
 
-
-  override def getImage(modelName: String, modelVersion: Long): DockerImage = {
-    DockerImage(
-      name = s"${ecsDockerRepositoryConfiguration.accountId}.dkr.ecr.${ecsDockerRepositoryConfiguration.region.getName}.amazonaws.com/$modelName",
-      tag = modelVersion.toString
+  override def push(dockerImage: DockerImage): Future[Unit] = Future {
+    createRepositoryIfNeeded(dockerImage.name)
+    dockerClient.push(
+      dockerImage.fullName,
+      progressHandler,
+      DockerClientHelper.createRegistryAuth(getDockerRegistryAuth)
     )
   }
 
-  override def push(modelVersion: ModelVersion, progressHandler: ProgressHandler): Unit = {
-    createRepositoryIfNeeded(modelVersion.model.name)
-    dockerClient.push(
-      s"${modelVersion.image.name}:${modelVersion.modelVersion}",
-      progressHandler,
-      DockerClientHelper.createRegistryAuth(getDockerRegistryAuth)
+  override def getImage(modelName: String, modelVersion: String): DockerImage = {
+    DockerImage(
+      name = s"${ecsDockerRepositoryConfiguration.accountId}.dkr.ecr.${ecsDockerRepositoryConfiguration.region.getName}.amazonaws.com/$modelName",
+      tag = modelVersion.toString
     )
   }
 }

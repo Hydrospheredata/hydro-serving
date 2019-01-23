@@ -4,7 +4,7 @@ import java.nio.file.{Files, Path}
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorage
+import io.hydrosphere.serving.manager.infrastructure.storage.StorageOps
 import io.hydrosphere.serving.model.api.ModelMetadata
 import io.hydrosphere.serving.model.api.ModelType.ONNX
 import io.hydrosphere.serving.onnx.onnx.TensorProto.DataType._
@@ -13,7 +13,9 @@ import io.hydrosphere.serving.tensorflow.tensor_shape
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.apache.commons.io.FilenameUtils
 
-object ONNXFetcher extends ModelFetcher {
+import scala.concurrent.Future
+
+object ONNXFetcher extends ModelFetcher[Future] {
   val signature = "infer"
 
   def convertShape(shape: Option[TensorShapeProto]): Option[tensor_shape.TensorShapeProto] = {
@@ -64,13 +66,13 @@ object ONNXFetcher extends ModelFetcher {
     ))
   }
 
-  def findFile(source: ModelStorage, directory: String): Option[Path] = {
+  def findFile(source: StorageOps, directory: String): Option[Path] = {
     source.getReadableFile(directory).right.toOption.flatMap { dirFile =>
       dirFile.listFiles().find(f => f.isFile && f.getName.endsWith(".onnx")).map(_.toPath)
     }
   }
 
-  override def fetch(source: ModelStorage, directory: String): Option[ModelMetadata] = {
+  override def fetch(source: StorageOps, directory: String): Option[ModelMetadata] = {
     for {
       filePath <- findFile(source, directory)
       fileName = FilenameUtils.getBaseName(filePath.getFileName.toString)

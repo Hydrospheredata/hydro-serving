@@ -5,23 +5,21 @@ import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.model.api.ModelType
 
 case class BuildRequest(
+  baseImage: DockerImage,
   modelName: String,
   modelVersion: Long,
-  modelType: ModelType,
+  targetImage: DockerImage,
   contract: ModelContract,
-  image: DockerImage,
-  script: String
 )
 
 object BuildRequest {
-  def fromVersion(version: ModelVersion, script: String) = {
+  def fromVersion(version: ModelVersion) = {
     BuildRequest(
       modelName = version.model.name,
       modelVersion = version.modelVersion,
-      modelType = version.modelType,
-      contract = version.modelContract,
-      image = version.image,
-      script = script
+      targetImage = version.image,
+      baseImage = version.runtime,
+      contract = version.modelContract
     )
   }
 }

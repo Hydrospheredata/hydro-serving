@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.infrastructure.storage.fetchers.keras
 import java.nio.file.Path
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorage
+import io.hydrosphere.serving.manager.infrastructure.storage.StorageOps
 import io.hydrosphere.serving.manager.util.HDF5File
 import io.hydrosphere.serving.model.api.{ModelMetadata, ModelType}
 import org.apache.commons.io.FilenameUtils
@@ -17,7 +17,7 @@ private[keras] trait ModelConfigParser {
 }
 
 private[keras] object ModelConfigParser extends Logging {
-  def importer(source: ModelStorage, directory: String): Option[ModelConfigParser] = {
+  def importer(source: StorageOps, directory: String): Option[ModelConfigParser] = {
     findH5file(source, directory) match {
       case Some(h5Path) =>
         logger.debug(s"Found a .h5 file: $h5Path")
@@ -29,13 +29,13 @@ private[keras] object ModelConfigParser extends Logging {
     }
   }
 
-  def findH5file(source: ModelStorage, directory: String): Option[Path] = {
+  def findH5file(source: StorageOps, directory: String): Option[Path] = {
     source.getReadableFile(directory).right.toOption.flatMap { dirFile =>
       dirFile.listFiles().find(f => f.isFile && f.getName.endsWith(".h5")).map(_.toPath)
     }
   }
 
-  def findJsonfile(source: ModelStorage, directory: String): Option[Path] = {
+  def findJsonfile(source: StorageOps, directory: String): Option[Path] = {
     source.getReadableFile(directory).right.toOption.flatMap { dirFile =>
       dirFile.listFiles().find(f => f.isFile && f.getName.endsWith(".json")).map(_.toPath)
     }

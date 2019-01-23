@@ -5,7 +5,7 @@ import java.nio.file.Files
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorage
+import io.hydrosphere.serving.manager.infrastructure.storage.StorageOps
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.{FieldInfo, ModelFetcher}
 import io.hydrosphere.serving.model.api.{ModelMetadata, ModelType}
 import io.hydrosphere.serving.tensorflow.TensorShape
@@ -15,10 +15,11 @@ import org.apache.logging.log4j.scala.Logging
 import org.tensorflow.framework.{SavedModel, SignatureDef, TensorInfo}
 
 import scala.collection.JavaConverters._
+import scala.concurrent.Future
 
-object TensorflowModelFetcher extends ModelFetcher with Logging {
+object TensorflowModelFetcher extends ModelFetcher[Future] with Logging {
 
-  override def fetch(source: ModelStorage, directory: String): Option[ModelMetadata] = {
+  override def fetch(source: StorageOps, directory: String): Option[ModelMetadata] = {
     source.getReadableFile(s"$directory/saved_model.pb") match {
       case Left(error) =>
         logger.debug(s"Fetch error: $error. $directory in not a valid Tensorflow model")

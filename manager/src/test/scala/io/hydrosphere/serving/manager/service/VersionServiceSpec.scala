@@ -7,10 +7,10 @@ import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.domain.build_script.BuildScriptServiceAlg
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorServiceAlg
-import io.hydrosphere.serving.manager.domain.image.DockerImage
+import io.hydrosphere.serving.manager.domain.image.{DockerImage, ImageBuilder, ImageRepository}
 import io.hydrosphere.serving.manager.domain.model.{Model, ModelVersionMetadata}
 import io.hydrosphere.serving.manager.domain.model_version._
-import io.hydrosphere.serving.manager.infrastructure.model.push.LocalModelPushService
+import io.hydrosphere.serving.manager.infrastructure.model_build.push.LocalModelPushService
 import io.hydrosphere.serving.model.api.{ModelType, Result}
 import org.mockito.Matchers
 
@@ -94,11 +94,11 @@ class VersionServiceSpec extends GenericUnitTest {
       when(buildScriptService.fetchScriptForModelType(Matchers.any())).thenReturn(Future.successful("buildscript"))
 
       val selectorService = mock[HostSelectorServiceAlg]
-      val buildService = mock[ModelBuildAlgebra]
+      val buildService = mock[ImageBuilder]
       when(buildService.build(Matchers.any(), Matchers.any())).thenReturn(Result.okF("random-sha-string"))
 
       var maybeModelVersion = Option.empty[ModelVersion]
-      val pushService = new ModelVersionPushAlgebra {
+      val pushService = new ImageRepository {
         override def getImage(modelName: String, modelVersion: Long): DockerImage = DockerImage(modelName, modelVersion.toString)
 
         override def push(modelVersion: ModelVersion, progressHandler: ProgressHandler): Unit = {

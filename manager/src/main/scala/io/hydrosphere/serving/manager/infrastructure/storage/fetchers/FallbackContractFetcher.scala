@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.infrastructure.storage.fetchers
 import java.nio.file.Files
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
-import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorage
+import io.hydrosphere.serving.manager.infrastructure.storage.StorageOps
 import io.hydrosphere.serving.model.api.{ModelMetadata, ModelType}
 import org.apache.logging.log4j.scala.Logging
 
@@ -11,7 +11,7 @@ import scala.collection.JavaConverters._
 import scala.util.Try
 
 object FallbackContractFetcher extends ModelFetcher with Logging {
-  override def fetch(source: ModelStorage, directory: String): Option[ModelMetadata] = {
+  override def fetch(source: StorageOps, directory: String): Option[ModelMetadata] = {
     getContract(source, directory).map { contract =>
       ModelMetadata(
         modelName = directory,
@@ -21,7 +21,7 @@ object FallbackContractFetcher extends ModelFetcher with Logging {
     }
   }
 
-  private def getContract(source: ModelStorage, modelName: String): Option[ModelContract] = {
+  private def getContract(source: StorageOps, modelName: String): Option[ModelContract] = {
     val txtContract = source.getReadableFile(s"$modelName/contract.prototxt")
       .toOption
       .flatMap { metaFile =>

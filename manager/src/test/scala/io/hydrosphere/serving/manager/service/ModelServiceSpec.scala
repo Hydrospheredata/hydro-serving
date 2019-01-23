@@ -11,7 +11,7 @@ import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetad
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.{Model, ModelRepositoryAlgebra, ModelService, ModelVersionMetadata}
 import io.hydrosphere.serving.manager.domain.model_version._
-import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorageService
+import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorage
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import io.hydrosphere.serving.model.api.{ModelMetadata, ModelType, Result}
 import io.hydrosphere.serving.tensorflow.TensorShape
@@ -87,7 +87,7 @@ class ModelServiceSpec extends GenericUnitTest {
         val modelRepo = mock[ModelRepositoryAlgebra[Future]]
         when(modelRepo.get(Matchers.anyLong())).thenReturn(Future.successful(None))
 
-        val sourceMock = mock[ModelStorageService]
+        val sourceMock = mock[ModelStorage]
         when(sourceMock.unpack(uploadFile, upload.name)).thenReturn(
           Result.okF(ModelMetadata(
             modelName,
@@ -182,7 +182,7 @@ class ModelServiceSpec extends GenericUnitTest {
         when(modelRepo.get(modelName)).thenReturn(Future.successful(Some(model)))
         when(modelRepo.get(1)).thenReturn(Future.successful(Some(model)))
 
-        val sourceMock = mock[ModelStorageService]
+        val sourceMock = mock[ModelStorage]
         when(sourceMock.unpack(uploadFile, upload.name)).thenReturn(
           Result.okF(ModelMetadata(
             modelName,

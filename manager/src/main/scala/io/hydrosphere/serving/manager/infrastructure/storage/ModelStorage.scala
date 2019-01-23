@@ -1,20 +1,29 @@
 package io.hydrosphere.serving.manager.infrastructure.storage
 
-import java.io.File
 import java.nio.file.Path
 
-import io.hydrosphere.serving.model.api.HResult
+import io.hydrosphere.serving.model.api.ModelMetadata
 
-trait ModelStorage {
-  def rootPath: Path
+trait ModelStorage[F[_]] {
+  /**
+    * Perform an upload operation and return inferred metadata
+    * @param upload
+    * @return
+    */
+  def unpack(filePath: Path, folderName: Option[String]): F[ModelMetadata]
 
-  def getReadableFile(path: String): HResult[File]
+  /**
+    * Get readable path from folder in default localStorage
+    * @param folderPath inner localStorage path
+    * @return
+    */
+  def getLocalPath(folderPath: String): F[Path]
 
-  def getAllFiles(folder: String): HResult[List[String]]
-
-  def getSubDirs(path: String): HResult[List[String]]
-
-  def exists(path: String): Boolean
-
-  def writeFile(path: String, localFile: File): HResult[Path]
+  /***
+    * Renames storage-level folder
+    * @param oldFolder old folder name
+    * @param newFolder new folder name
+    * @return path to the new folder
+    */
+  def rename(oldFolder: String, newFolder: String): F[Path]
 }

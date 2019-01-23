@@ -16,8 +16,6 @@ class ManagerRepositories(config: ManagerConfiguration)(implicit executionContex
 
   val serviceRepository = new ServiceRepositoryImpl
 
-  val modelBuildScriptRepository = new BuildScriptRepository
-
   val applicationRepository = new ApplicationRepository
 
   val hostSelectorRepository = new HostSelectorRepository

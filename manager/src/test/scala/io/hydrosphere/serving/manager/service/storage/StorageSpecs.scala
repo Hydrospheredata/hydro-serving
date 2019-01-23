@@ -46,7 +46,7 @@ class StorageSpecs extends GenericUnitTest with BeforeAndAfterAll {
     it("should write a new file") {
       val modelSource = new LocalModelStorage(tempDir)
       val oldFile = modelSource.getReadableFile("tensorflow_model/saved_model.pb").right.get
-      val fileRes = modelSource.writeFile("tensorflow_model/new_file.pb", oldFile)
+      val fileRes = modelSource.copyFile("tensorflow_model/new_file.pb", oldFile)
       val file = fileRes.right.get
       assert(Files.exists(file))
     }
@@ -59,7 +59,7 @@ class StorageSpecs extends GenericUnitTest with BeforeAndAfterAll {
       val prevFile = modelSource.getReadableFile(targetFile).right.get
       val prevLastModified = Files.getLastModifiedTime(prevFile.toPath)
 
-      modelSource.writeFile(targetFile, srcFile)
+      modelSource.copyFile(targetFile, srcFile)
       val currentFile = modelSource.getReadableFile(targetFile).right.get
       val currentLastModified = Files.getLastModifiedTime(currentFile.toPath)
 
