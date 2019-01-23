@@ -5,7 +5,7 @@ import cats.implicits._
 import io.hydrosphere.serving.manager.domain.clouddriver._
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorService
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionService}
-import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.InternalManagerEventsPublisher
+import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.ManagerEventBus
 import io.hydrosphere.serving.model.api.{HFResult, Result}
 import org.apache.logging.log4j.scala.Logging
 
@@ -16,7 +16,7 @@ class ServiceManagementService(
   serviceRepository: ServiceRepositoryAlgebra[Future],
   versionManagementService: ModelVersionService,
   environmentManagementService: HostSelectorService,
-  internalManagerEventsPublisher: InternalManagerEventsPublisher
+  internalManagerEventsPublisher: ManagerEventBus
 )(implicit val ex: ExecutionContext) extends Logging {
 
   private def syncServices(services: Seq[Service]): Future[Seq[Service]] =

@@ -71,10 +71,10 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           ))
         } yield {
           println(appResult)
-          assert(appResult.name === "simple-app")
-          assert(appResult.signature.inputs === mv1.modelContract.signatures.head.inputs)
-          assert(appResult.signature.outputs === mv1.modelContract.signatures.head.outputs)
-          val services = appResult.executionGraph.stages.flatMap(_.modelVariants)
+          assert(appResult.started.name === "simple-app")
+          assert(appResult.started.signature.inputs === mv1.modelContract.signatures.head.inputs)
+          assert(appResult.started.signature.outputs === mv1.modelContract.signatures.head.outputs)
+          val services = appResult.started.executionGraph.stages.flatMap(_.modelVariants)
           val service = services.head
           assert(service.weight === 100)
           assert(service.signature === mv1.modelContract.signatures.head)
@@ -136,8 +136,8 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           ))
         } yield {
           println(app)
-          assert(app.name === appRequest.name)
-          val services = app.executionGraph.stages.flatMap(_.modelVariants)
+          assert(app.started.name === appRequest.name)
+          val services = app.started.executionGraph.stages.flatMap(_.modelVariants)
           val service1 = services.head
           val service2 = services.head
           assert(service1.weight === 50)
@@ -185,17 +185,17 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
             appRequest.kafkaStreaming.get
           ))
           appNew <- EitherT(managerServices.applicationManagementService.updateApplication(
-            app.id,
-            app.name,
-            app.namespace,
+            app.started.id,
+            app.started.name,
+            app.started.namespace,
             appRequest.executionGraph,
             Seq.empty
           ))
 
-          gotNewApp <- EitherT(managerServices.applicationManagementService.getApplication(appNew.id))
+          gotNewApp <- EitherT(managerServices.applicationManagementService.getApplication(appNew.started.id))
         } yield {
-          assert(appNew === gotNewApp)
-          assert(appNew.kafkaStreaming.isEmpty, appNew)
+          assert(appNew.started === gotNewApp)
+          assert(appNew.started.kafkaStreaming.isEmpty, appNew)
         }
       }
     }
@@ -241,16 +241,16 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
             )
           )
           appNew <- EitherT(managerServices.applicationManagementService.updateApplication(
-            app.id,
-            app.name,
-            app.namespace,
+            app.started.id,
+            app.started.name,
+            app.started.namespace,
             newGraph,
             Seq.empty
           ))
 
-          gotNewApp <- EitherT(managerServices.applicationManagementService.getApplication(appNew.id))
+          gotNewApp <- EitherT(managerServices.applicationManagementService.getApplication(appNew.started.id))
         } yield {
-          assert(appNew === gotNewApp, gotNewApp)
+          assert(appNew.started === gotNewApp, gotNewApp)
         }
       }
     }

@@ -1,8 +1,10 @@
-package io.hydrosphere.serving.manager.service.storage
+package io.hydrosphere.serving.manager.storage
 
-import java.nio.file.{Files, Path, Paths}
+import java.io.PrintWriter
+import java.nio.file._
 import java.time.Instant
 
+import better.files.File.OpenOptions
 import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.infrastructure.storage.LocalModelStorage
 import org.apache.commons.io.FileUtils
@@ -53,13 +55,16 @@ class StorageSpecs extends GenericUnitTest with BeforeAndAfterAll {
 
     it("should overwrite a file") {
       val modelSource = new LocalModelStorage(tempDir)
+      val newFile = Files.createTempFile("test", "test")
+      val writer = new PrintWriter(newFile.toFile)
+      writer.write("Never gonna give you up")
+      writer.close()
       val targetFile = "tensorflow_model/new_file.pb"
-      val srcFile = modelSource.getReadableFile("scikit_model/contract.prototxt").right.get
 
       val prevFile = modelSource.getReadableFile(targetFile).right.get
       val prevLastModified = Files.getLastModifiedTime(prevFile.toPath)
 
-      modelSource.writeFile(targetFile, srcFile)
+      modelSource.writeFile(targetFile, newFile.toFile)
       val currentFile = modelSource.getReadableFile(targetFile).right.get
       val currentLastModified = Files.getLastModifiedTime(currentFile.toPath)
 

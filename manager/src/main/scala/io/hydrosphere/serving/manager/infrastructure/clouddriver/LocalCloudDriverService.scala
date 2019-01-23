@@ -8,7 +8,6 @@ import com.spotify.docker.client.messages.{Container, ContainerConfig, HostConfi
 import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, LocalDockerCloudDriverServiceConfiguration, ManagerConfiguration}
 import io.hydrosphere.serving.manager.domain.clouddriver._
 import io.hydrosphere.serving.manager.domain.service.Service
-import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.InternalManagerEventsPublisher
 import org.apache.logging.log4j.scala.Logging
 
 import scala.collection.JavaConverters._
@@ -17,12 +16,13 @@ import scala.util.Try
 import DefaultConstants._
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.image.DockerImage
+import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.ManagerEventBus
 
 
 class LocalCloudDriverService(
   dockerClient: DockerClient,
   managerConfiguration: ManagerConfiguration,
-  internalManagerEventsPublisher: InternalManagerEventsPublisher
+  internalManagerEventsPublisher: ManagerEventBus
 )(implicit val ex: ExecutionContext) extends CloudDriverAlgebra[Future] with Logging {
 
   override def serviceList(): Future[Seq[CloudService]] = Future({

@@ -9,7 +9,7 @@ import akka.http.scaladsl.server.Route
 import akka.stream.Materializer
 import akka.stream.scaladsl.FileIO
 import io.hydrosphere.serving.manager.infrastructure.protocol.CompleteJsonProtocol
-import io.hydrosphere.serving.model.api.Result.{ClientError, HError, InternalError}
+import io.hydrosphere.serving.model.api.Result.{ClientError, ErrorCollection, HError, InternalError}
 import io.hydrosphere.serving.model.api.{HFResult, HResult}
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
@@ -96,6 +96,13 @@ trait AkkaHttpControllerDsl extends CompleteJsonProtocol with Logging {
             complete(
               HttpResponse(
                 status = StatusCodes.InternalServerError,
+                entity = HttpEntity(ContentTypes.`application/json`, a.toJson.toString)
+              )
+            )
+          case ErrorCollection(_) =>
+            complete(
+              HttpResponse(
+                status = StatusCodes.BadRequest,
                 entity = HttpEntity(ContentTypes.`application/json`, a.toJson.toString)
               )
             )

@@ -18,7 +18,7 @@ import io.hydrosphere.serving.manager.domain.model.ModelService
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersionService
 import io.hydrosphere.serving.manager.domain.service.ServiceManagementService
 import io.hydrosphere.serving.manager.infrastructure.clouddriver.{DockerComposeCloudDriverService, ECSCloudDriverService, KubernetesCloudDriverService, LocalCloudDriverService}
-import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.InternalManagerEventsPublisher
+import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.ManagerEventBus
 import io.hydrosphere.serving.manager.infrastructure.envoy.{EnvoyGRPCDiscoveryService, EnvoyGRPCDiscoveryServiceImpl, HttpEnvoyAdminConnector}
 import io.hydrosphere.serving.manager.infrastructure.model.build.LocalModelBuildService
 import io.hydrosphere.serving.manager.infrastructure.model.push._
@@ -58,7 +58,7 @@ class ManagerServices(
     case _ => new LocalModelPushService
   }
 
-  val internalManagerEventsPublisher = new InternalManagerEventsPublisher
+  val internalManagerEventsPublisher = ManagerEventBus.fromActorSystem(system)
 
   val hostSelectorService = new HostSelectorService(managerRepositories.hostSelectorRepository)
 
@@ -90,9 +90,7 @@ class ManagerServices(
     applicationRepository = managerRepositories.applicationRepository,
     versionRepository = managerRepositories.modelVersionRepository,
     serviceManagementService = serviceManagementService,
-    internalManagerEventsPublisher = internalManagerEventsPublisher,
-    applicationConfig = managerConfiguration.application,
-    environmentManagementService = hostSelectorService
+    internalManagerEventsPublisher = internalManagerEventsPublisher
   )
 
   val modelManagementService = new ModelService(

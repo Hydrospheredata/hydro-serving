@@ -108,7 +108,7 @@ class ModelVersionService(
         runtime = metadata.runtime,
         model = model,
         hostSelector = metadata.hostSelector,
-        status = ModelVersionStatus.Started,
+        status = ModelVersionStatus.Assembling,
         profileTypes = metadata.profileTypes
       )
       modelVersion <- EitherT.liftF[Future, HError, ModelVersion](modelVersionRepository.create(mv))
@@ -134,7 +134,7 @@ class ModelVersionService(
             modelVersionRepository.update(failed.id, failed)
               .map(_ => failed)
           case Right(smv) =>
-            val finished = smv.copy(status = ModelVersionStatus.Finished)
+            val finished = smv.copy(status = ModelVersionStatus.Released)
             modelVersionRepository.update(finished.id, finished)
               .map { _ =>
                 modelPushService.push(finished, messageHandler)

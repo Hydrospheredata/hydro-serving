@@ -48,14 +48,14 @@ class LocalModelStorage(val rootPath: Path) extends ModelStorage {
   }
 
 
-  override def writeFile(path: String, localFile: File): HResult[Path] = {
-    val destFile = rootPath.resolve(path)
+  override def writeFile(target: String, source: File): HResult[Path] = {
+    val destFile = rootPath.resolve(target)
     val destPath = destFile
     val parentPath = destPath.getParent
     if (!Files.exists(parentPath)) {
       Files.createDirectories(parentPath)
     }
-    Result.ok(Files.copy(localFile.toPath, destPath, StandardCopyOption.REPLACE_EXISTING))
+    Result.ok(Files.copy(source.toPath, destPath, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.COPY_ATTRIBUTES))
   }
 
   def removeFolder(path: Path): HResult[Unit] = {

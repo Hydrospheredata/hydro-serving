@@ -25,10 +25,11 @@ class ApplicationRepository(
         id = entity.id,
         applicationName = entity.name,
         namespace = entity.namespace,
+        status = entity.status.toString,
         applicationContract = entity.signature.toProtoString,
         executionGraph = entity.executionGraph.toJson.toString(),
         servicesInStage = entity.executionGraph.stages.flatMap(s => s.modelVariants.map(_.modelVersion.id.toString)).toList,
-        kafkaStreams = entity.kafkaStreaming.map(p => p.toJson.toString())
+        kafkaStreams = entity.kafkaStreaming.map(p => p.toJson.toString()).toList
       )
     ).map(s => mapFromDb(s))
 
@@ -61,27 +62,22 @@ class ApplicationRepository(
       serv.servicesInStage,
       serv.kafkaStreams,
       serv.namespace,
-      serv.applicationContract
+      serv.applicationContract,
+      serv.status
     )
 
     db.run(query.update(
       value.name,
       value.executionGraph.toJson.toString(),
       value.executionGraph.stages.flatMap(s => s.modelVariants.map(_.modelVersion.id.toString)).toList,
-      value.kafkaStreaming.map(_.toJson.toString),
+      value.kafkaStreaming.map(_.toJson.toString).toList,
       value.namespace,
-      value.signature.toProtoString
+      value.signature.toProtoString,
+      value.status.toString
     ))
   }
 
-  override def getByName(name: String): Future[Option[Application]] =
-    db.run(
-      Tables.Application
-        .filter(_.applicationName === name)
-        .result.headOption
-    ).map(s => mapFromDb(s))
-
-  override def getKeysNotInApplication(versionIdx: Set[Long], applicationId: Long): Future[Seq[Application]] =
+  override def applicationsWithCommonServices(versionIdx: Set[Long], applicationId: Long): Future[Seq[Application]] =
     db.run(
       Tables.Application
         .filter { p =>
@@ -119,7 +115,8 @@ object ApplicationRepository extends CompleteJsonProtocol {
       executionGraph = dbType.executionGraph.parseJson.convertTo[ApplicationExecutionGraph],
       signature = ModelSignature.fromAscii(dbType.applicationContract),
       kafkaStreaming = dbType.kafkaStreams.map(p => p.parseJson.convertTo[ApplicationKafkaStream]),
-      namespace = dbType.namespace
+      namespace = dbType.namespace,
+      status = ApplicationStatus.withName(dbType.status)
     )
   }
 }
