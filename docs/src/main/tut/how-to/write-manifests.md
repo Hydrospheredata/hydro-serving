@@ -60,14 +60,14 @@ In the example above we've defined a signature with `infer` name. Each signature
 
 ### `kind: Application`
 
-For this type of the manifest you have to declare one of the follwing:
+For this type of the manifest you have to declare one of the following:
 
 - `singular` defines a single-model application. 
 - `pipeline` defines application as a pipeline of models.  
 
 <hr>
 
-`singular` applications usually consist of smaller amout of definitions. 
+`singular` applications usually consist of smaller amount of definitions. 
 
 ```yaml
 kind: Application
@@ -99,7 +99,7 @@ singular:
 - `name` defines the name of the metric;
 - `input` defines which input field to monitor from the model;
 - `type` defines the type of the metric;
-- `healthcheck` defines, if the metric should be used as a helthcheck for the model. By default healthcheck is disabled.<br>For some of the models you can also set `threshold`. 
+- `healthcheck` defines, if the metric should be used as a health check for the model. By default health check is disabled.<br>For some of the models you can also set `threshold`. 
 - `app` defines what application to use for inference for the metric. _Optional_.
 
 <hr>
@@ -128,7 +128,7 @@ pipeline:
         app: claims-autoencoder-app
         healthcheck:
           enabled: true
-          treshold: 69
+          threshold: 69
 ```
 
 `pipeline` is a list of stages. Each item in the list can have the following attributes:

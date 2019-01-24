@@ -98,7 +98,7 @@ $ helm install --name ml-lambda ml-lambda/serving
 
 #### From Release
 
-Choose a release from the [releases page](https://github.com/Hydrospheredata/hydro-serving-helm/releases) and install it as usuall.
+Choose a release from the [releases page](https://github.com/Hydrospheredata/hydro-serving-helm/releases) and install it as usual.
    
 ```sh
 $ helm install --name ml-lambda https://github.com/Hydrospheredata/hydro-serving-helm/releases/download/0.1.15/serving-0.1.15.tgz

@@ -38,7 +38,7 @@ contract:
         <tbody>
             <tr>
                 <td rowspan="3"><code>shape</code></td>
-                <td rowspan="3">Describes the shape of the input/ouput tensor.</td>
+                <td rowspan="3">Describes the shape of the input/output tensor.</td>
                 <td><code>scalar</code></td>
                 <td>Single element</td>
             </tr>

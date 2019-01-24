@@ -8,7 +8,7 @@ permalink: "tensorflow.html"
 
 Deploying Tensorflow models does not require any additional manifest writings for model uploading since Serving can automatically infer models' signatures. Running Tensorflow models can be done with `hydrosphere/serving-runtime-tensorflow` runtime. The only thing you have to worry about is how to properly export your model with `tf.saved_model`.
 
-Suppose we already have a Tensorflow model, that recognizes hand-written digits. We will cover serving for Tensorflow [Basic API]({{site.baseurl}}{%link tutorials/tensorflow.md%}#basic-api) and [Estimator API]({{site.baseurl}}{%link tutorials/tensorflow.md%}#estimator-api). 
+Suppose we already have a Tensorflow model, that recognizes handwritten digits. We will cover serving for Tensorflow [Basic API]({{site.baseurl}}{%link tutorials/tensorflow.md%}#basic-api) and [Estimator API]({{site.baseurl}}{%link tutorials/tensorflow.md%}#estimator-api). 
 
 <br>
 
@@ -54,7 +54,7 @@ $ cd {EXPORT_DIR}
 $ hs upload --name mnist
 ```
 
-Now the model is uploaded to the serving service but does not yet available for the invokation. Create an application to declare an endpoint to your model. You can create it manually via UI interface, or by providing an application manifest. To do it with web interface, open your `http://<host>/` where Serving has been deployed, open Applications page and create a new app which will use `mnist` model. Or by manifest:
+Now the model is uploaded to the serving service but does not yet available for the invocation. Create an application to declare an endpoint to your model. You can create it manually via UI interface, or by providing an application manifest. To do it with web interface, open your `http://<host>/` where Serving has been deployed, open Applications page and create a new app which will use `mnist` model. Or by manifest:
 
 ```yaml
 # application.yaml 
@@ -93,7 +93,7 @@ estimator = tf.estimator.DNNClassifier(
 ...
 ```
 
-Instead of declaring a signature map as in the Basic API example, you need to declare a `build_raw_serving_input_receiver_fn` function and pass it to the `export_estimator`. `imgs` tensor in the `input_receiver_fn` should be similiar to the `tf.feature_column` which is expected by the estimator. 
+Instead of declaring a signature map as in the Basic API example, you need to declare a `build_raw_serving_input_receiver_fn` function and pass it to the `export_estimator`. `imgs` tensor in the `input_receiver_fn` should be similar to the `tf.feature_column` which is expected by the estimator. 
 
 ```python
 serving_input_receiver_fn = tf.estimator.export.build_raw_serving_input_receiver_fn({

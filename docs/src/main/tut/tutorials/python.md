@@ -40,6 +40,11 @@ def increment(number):
 
 There are different ways of handling incoming tensors. Here we've used a Tensorflow function `tf.make_ndarray` to create a numpy ndarray from a raw [TensorProto](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/tensor.proto)-like structure `number`. Then we've added a one to that ndarray, packed it back to a response tensor and returned it as a result. 
 
+All model's files are stored in the `/model/files` directory inside the container. 
+
+_Note: If you use some external file ([such as model's weights]({{site.baseurl}}{%link tutorials/getting-started.md%}#preparing-the-model)), you would have to specify the absolute path to that file._
+
+
 ### Define dependencies 
 
 By default the container where this model will be running does not have any scientific package pre-installed. You have to provide a `requirements.txt` file with the dependencies to let Serving know which Python packages to install during model building. We've used a Tensorflow and Numpy packages in this example:
@@ -89,7 +94,7 @@ Upload the model to Serving.
 $ hs upload
 ```
 
-Now the model is uploaded to the serving service but does not yet available for the invokation. Create an application to declare an endpoint to your model. You can create it manually via UI interface, or by providing an application manifest. To do it with web interface, open your `http://<host>/` where Serving has been deployed, open Applications page and create a new app which will use `mnist` model. Or by manifest:
+Now the model is uploaded to the serving service but does not yet available for the invocation. Create an application to declare an endpoint to your model. You can create it manually via UI interface, or by providing an application manifest. To do it with web interface, open your `http://<host>/` where Serving has been deployed, open Applications page and create a new app which will use `mnist` model. Or by manifest:
 
 ```yaml
 # application.yaml 

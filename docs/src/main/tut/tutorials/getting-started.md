@@ -38,7 +38,7 @@ $ cd linear_regression
 $ touch model.py
 ```
 
-The model will consist of 3 fully-connected layers with first two of them having ReLU activation funciton and 4 units, and the last one will be a summing unit with the linear activation. Put the following code in your `model.py` file. 
+The model will consist of 3 fully-connected layers with first two of them having ReLU activation function and 4 units, and the last one will be a summing unit with the linear activation. Put the following code in your `model.py` file. 
 
 ```python
 from keras.models import Sequential
@@ -94,7 +94,7 @@ $ cd src
 $ touch func_main.py
 ```
 
-Serving communicates with the model via [TensorProto](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/tensor.proto) messages. For Python models if you want to perform some transformation on the received TensorProto message you have to retrieve its content, make an action with it and pack the result back to the TensorProto message. To do that you have to define a funciton, that will be invoked everytime Serving handles a request and passes it to the model. Inside the funciton you have to call a `predict` (or similiar) method of your model and return your predictions. 
+Serving communicates with the model via [TensorProto](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/tensor.proto) messages. For Python models if you want to perform some transformation on the received TensorProto message you have to retrieve its content, make an action with it and pack the result back to the TensorProto message. To do that you have to define a function, that will be invoked every time Serving handles a request and passes it to the model. Inside the function you have to call a `predict` (or similar) method of your model and return your predictions. 
 
 ```python
 import numpy as np
@@ -125,7 +125,7 @@ def infer(x):
 
 Since we need to initialize our model we will have to do that outside of our signature funcion, if we don't want to initialize the model everytime the request comes in. We do that on step (0). The signature function `infer` takes the actual request, unpacks it (1), makes a prediction (2), packs the answer back (3) and returns it (4). There's no a strict rule on how to name your signature function, it just have to be a valid python function name (since we use a Python runtime). 
 
-If you're wondering how Serving will understand, which function to call from our porvided file, then the answer is pretty easy — we have to provide a __contract__. A contract is a file, that defines the inputs and outputs of the model, signature functions and some other metadata required for serving. Go to the root directory of the model and create a `serving.yaml` file. 
+If you're wondering how Serving will understand, which function to call from our provided file, then the answer is pretty easy — we have to provide a __contract__. A contract is a file, that defines the inputs and outputs of the model, signature functions and some other metadata required for serving. Go to the root directory of the model and create a `serving.yaml` file. 
 
 ```sh
 $ cd ..
@@ -191,7 +191,7 @@ Once you've done that, you can create an __application__ for it. Basically, an a
 
 ![]({{site.baseurl}}{%link /img/linear_regression_application.png%})
 
-Open [http://localhost/applications](http://localhost/applications), press `Add New` button. In the openned window select `linear_regression` model and as a runtime select `hydrosphere/serving-runtime-python`, then create an application. 
+Open [http://localhost/applications](http://localhost/applications), press `Add New` button. In the opened window select `linear_regression` model and as a runtime select `hydrosphere/serving-runtime-python`, then create an application. 
 
 If you cannot find your newly uploaded model and it's listed in your models page, that means it's still in a building stage. Wait until the model changes its status to `Released`, then you can use it.
 
@@ -237,7 +237,7 @@ request = hs.PredictRequest(model_spec=model_spec, inputs={"x": tensor})
 result = stub.Predict(request)
 ```
 
-_Note: For convinience we've already generated all our proto files to a python library and published it in PyPI. You can install it via `pip install hydro-serving-grpc`_ 
+_Note: For convenience we've already generated all our proto files to a python library and published it in PyPI. You can install it via `pip install hydro-serving-grpc`_ 
 
 <br>
 <hr>

@@ -9,13 +9,13 @@ permalink: 'develop-runtimes.html'
 Sometimes you have to use technology that we are not supporting yet or you need more flexibility and you want to implement your own runtime. It may seem frightening at first glance, but it's actually not that difficult. Serving is designed to abstract it's guts from model users and runtime developers. The key things you have to know to write your own runtime are: 
 
 * Knowing how to implement a predefined gRPC service for a dedicated language;
-* Understanding our contracts' protobufs to describe entrypoints, such as inputs and outputs;
+* Understanding our contracts' protobufs to describe entry points, such as inputs and outputs;
 * Knowing how to create your own docker image and publish it to an open registry.
 
 
 ## Generate GRPC code
 
-There're different approaches on how to generate client and server gRPC code on [different languages](https://grpc.io/docs/). Let's have a look on how to do that on Python.
+There are different approaches on how to generate client and server gRPC code on [different languages](https://grpc.io/docs/). Let's have a look on how to do that on Python.
 
 First, let's clone our [protocols](https://github.com/Hydrospheredata/hydro-serving-protos) and prepare a folder for generated code.
 
@@ -152,7 +152,7 @@ class RuntimeManager:
 
 Let's quickly review, what we have here. `RuntimeManager` simply manages our service, i.e. starts it, stops it, holds all necessary data. `RuntimeService` is the service that actually implements `Predict(PredictRequest)`.
 
-The model will be stored inside the `/model` directory in the docker conrtainer. The structure of `/model` is following: 
+The model will be stored inside the `/model` directory in the docker container. The structure of `/model` is following: 
 
 ```sh
 model
