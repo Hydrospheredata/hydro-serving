@@ -1,46 +1,39 @@
 package io.hydrosphere.serving.manager.domain.host_selector
 
-import io.hydrosphere.serving.model.api.Result.ClientError
-import io.hydrosphere.serving.model.api.{HFResult, Result}
-import org.apache.logging.log4j.scala.Logging
-import Result.Implicits._
+import cats.Monad
+import cats.data.EitherT
+import cats.syntax.flatMap._
+import cats.syntax.functor._
+import io.hydrosphere.serving.manager.domain.DomainError
 
-import scala.concurrent.{ExecutionContext, Future}
+trait HostSelectorService[F[_]] {
+  def create(name: String, placeholder: String): F[Either[DomainError, HostSelector]]
 
-trait HostSelectorServiceAlg {
-  def create(name: String, placeholder: String): HFResult[HostSelector]
+  def delete(id: Long): F[Either[DomainError, HostSelector]]
 }
 
-class HostSelectorService(
-  environmentRepository: HostSelectorRepositoryAlgebra[Future]
-)(implicit ec: ExecutionContext) extends HostSelectorServiceAlg with Logging {
+object HostSelectorService {
+  def apply[F[_] : Monad](hsRepo: HostSelectorRepository[F]): HostSelectorService[F] = new HostSelectorService[F] {
 
-  def get(environmentId: Long): HFResult[HostSelector] = {
-    environmentRepository
-      .get(environmentId)
-      .map(_.toHResult(ClientError(s"Can't find environment with id $environmentId")))
-  }
+    def create(name: String, placeholder: String): F[Either[DomainError, HostSelector]] = {
+      hsRepo.get(name).flatMap {
+        case Some(_) => Monad[F].pure(Left(DomainError.invalidRequest(s"HostSelector $name already exists")))
+        case None =>
+          val environment = HostSelector(
+            name = name,
+            placeholder = placeholder,
+            id = 0L
+          )
+          hsRepo.create(environment).map(Right(_))
+      }
+    }
 
-  def get(name: String): Future[Option[HostSelector]] = {
-    environmentRepository.get(name)
-  }
-
-  def all(): Future[Seq[HostSelector]] =
-    environmentRepository.all()
-
-  def create(name: String, placeholder: String): HFResult[HostSelector] = {
-    environmentRepository.get(name).flatMap {
-      case Some(_) => Result.clientErrorF(s"Environment '$name' already exists")
-      case None =>
-        val environment = HostSelector(
-          name = name,
-          placeholder = placeholder,
-          id = 0L
-        )
-        environmentRepository.create(environment).map(Result.ok)
+    def delete(id: Long): F[Either[DomainError, HostSelector]] = {
+      val f = for {
+        hs <- EitherT.fromOptionF[F, DomainError, HostSelector](hsRepo.get(id), DomainError.notFound(s"Can't find HostSelector with id $id"))
+        _ <- EitherT.liftF[F, DomainError, Int](hsRepo.delete(hs.id))
+      } yield hs
+      f.value
     }
   }
-
-  def delete(environmentId: Long): Future[Unit] =
-    environmentRepository.delete(environmentId).map(_ => Unit)
 }

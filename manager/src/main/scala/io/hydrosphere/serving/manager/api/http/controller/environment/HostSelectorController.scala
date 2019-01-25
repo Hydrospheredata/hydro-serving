@@ -1,21 +1,22 @@
 package io.hydrosphere.serving.manager.api.http.controller.environment
 
-import javax.ws.rs.Path
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.util.Timeout
+import cats.effect.Effect
 import io.hydrosphere.serving.manager.api.http.controller.AkkaHttpControllerDsl
-import io.hydrosphere.serving.manager.domain.host_selector.{HostSelector, HostSelectorService}
-import io.hydrosphere.serving.manager.service._
+import io.hydrosphere.serving.manager.domain.host_selector.{HostSelector, HostSelectorRepository, HostSelectorService}
 import io.swagger.annotations._
+import javax.ws.rs.Path
 
 import scala.concurrent.duration._
 
 
 @Path("/api/v2/hostSelector")
 @Api(produces = "application/json", tags = Array("Host Selectors"))
-class HostSelectorController(
-  hostSelectorService: HostSelectorService
+class HostSelectorController[F[_]: Effect](
+  hostSelectorService: HostSelectorService[F],
+  hostSelectorRepo: HostSelectorRepository[F]
 ) extends AkkaHttpControllerDsl {
   implicit val timeout = Timeout(5.seconds)
 
@@ -27,7 +28,7 @@ class HostSelectorController(
   ))
   def listHostSelectors = pathPrefix("hostSelector") {
     get {
-      complete(hostSelectorService.all())
+      completeF(hostSelectorRepo.all())
     }
   }
 
@@ -35,16 +36,16 @@ class HostSelectorController(
   @ApiOperation(value = "createHostSelector", notes = "createHostSelector", nickname = "createHostSelector", httpMethod = "POST")
   @ApiImplicitParams(Array(
     new ApiImplicitParam(name = "body", value = "Host Object", required = true,
-      dataTypeClass = classOf[CreateEnvironmentRequest], paramType = "body")
+      dataTypeClass = classOf[CreateHostSelector], paramType = "body")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Host", response = classOf[HostSelector]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def createHostSelector = pathPrefix("hostSelector") {
-    entity(as[CreateEnvironmentRequest]) { r =>
-      complete(
-        hostSelectorService.create(r.name, r.placeholders)
+    entity(as[CreateHostSelector]) { r =>
+      completeFRes(
+        hostSelectorService.create(r.name, r.placeholder)
       )
     }
   }
@@ -60,9 +61,7 @@ class HostSelectorController(
   ))
   def deleteHostSelector = delete {
     pathPrefix("hostSelector" / LongNumber) { environmentId =>
-      onSuccess(hostSelectorService.delete(environmentId)) {
-        complete(200, environmentId)
-      }
+      completeFRes(hostSelectorService.delete(environmentId))
     }
   }
 

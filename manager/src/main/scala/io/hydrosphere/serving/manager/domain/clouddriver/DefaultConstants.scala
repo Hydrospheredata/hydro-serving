@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.domain.clouddriver
 
-import io.hydrosphere.serving.manager.domain.service.Service
+import io.hydrosphere.serving.manager.domain.servable.Servable
 
 object DefaultConstants {
   val LABEL_SERVICE_ID = "SERVICE_ID"
@@ -85,7 +85,7 @@ object DefaultConstants {
   )
 
 
-  def getModelLabels(service: Service): Map[String, String] = {
+  def getModelLabels(service: Servable): Map[String, String] = {
     Map[String, String](
       LABEL_SERVICE_ID -> service.id.toString,
       LABEL_SERVICE_NAME -> service.serviceName,
@@ -94,7 +94,7 @@ object DefaultConstants {
     )
   }
 
-  def getRuntimeLabels(service: Service): Map[String, String] =
+  def getRuntimeLabels(service: Servable): Map[String, String] =
     Map[String, String](
       LABEL_SERVICE_ID -> service.id.toString,
       LABEL_HS_SERVICE_MARKER -> LABEL_HS_SERVICE_MARKER,

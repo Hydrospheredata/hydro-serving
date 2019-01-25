@@ -1,25 +1,19 @@
 package io.hydrosphere.serving.manager.infrastructure.storage.fetchers.keras
 
+import java.nio.file.Path
+
+import cats.data.OptionT
+import cats.effect.Sync
 import io.hydrosphere.serving.manager.infrastructure.storage.StorageOps
-import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.ModelFetcher
-import io.hydrosphere.serving.model.api.ModelMetadata
-import org.apache.logging.log4j.scala.Logging
+import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.{FetcherResult, ModelFetcher}
 
-import scala.concurrent.Future
-import scala.util.control.NonFatal
-
-object KerasFetcher extends ModelFetcher[Future] with Logging {
-  override def fetch(source: StorageOps, directory: String): Option[ModelMetadata] = {
-    try {
-      for {
-        importer <- ModelConfigParser.importer(source, directory)
-        model <- importer.importModel
-      } yield model
-    } catch {
-      case NonFatal(x) =>
-        logger.warn(x)
-        None
-    }
+class KerasFetcher[F[_]: Sync](source: StorageOps[F]) extends ModelFetcher[F] {
+  override def fetch(directory: Path): F[Option[FetcherResult]] = {
+    val f = for {
+      importer <- OptionT(ModelConfigParser.importer(source, directory))
+      model <- OptionT(importer.importModel)
+    } yield model
+    f.value
   }
 }
 

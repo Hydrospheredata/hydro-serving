@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager.infrastructure.image.repositories
 
 import java.util.Collections
 
+import cats.effect.Sync
 import com.amazonaws.services.ecr.model._
 import com.amazonaws.services.ecr.{AmazonECR, AmazonECRClientBuilder}
 import com.spotify.docker.client.{DockerClient, ProgressHandler}
@@ -9,17 +10,31 @@ import io.hydrosphere.serving.manager.config.DockerRepositoryConfiguration
 import io.hydrosphere.serving.manager.domain.image.{DockerImage, ImageRepository}
 import io.hydrosphere.serving.manager.util.docker.{DockerClientHelper, DockerRegistryAuth}
 
-import scala.concurrent.{ExecutionContext, Future}
-
-class ECSImageRepository(
+class ECSImageRepository[F[_]: Sync](
   dockerClient: DockerClient,
   ecsDockerRepositoryConfiguration: DockerRepositoryConfiguration.Ecs,
-  progressHandler: ProgressHandler
-)(implicit blockingEc: ExecutionContext) extends ImageRepository[Future] {
+  progressHandler: ProgressHandler)
+  extends ImageRepository[F] {
 
   val ecrClient: AmazonECR = AmazonECRClientBuilder.standard()
     .withRegion(ecsDockerRepositoryConfiguration.region)
     .build()
+
+  override def push(dockerImage: DockerImage): F[Unit] = Sync[F].delay {
+    createRepositoryIfNeeded(dockerImage.name)
+    dockerClient.push(
+      dockerImage.fullName,
+      progressHandler,
+      DockerClientHelper.createRegistryAuth(getDockerRegistryAuth)
+    )
+  }
+
+  override def getImage(modelName: String, modelVersion: String): DockerImage = {
+    DockerImage(
+      name = s"${ecsDockerRepositoryConfiguration.accountId}.dkr.ecr.${ecsDockerRepositoryConfiguration.region.getName}.amazonaws.com/$modelName",
+      tag = modelVersion.toString
+    )
+  }
 
   private def getDockerRegistryAuth: DockerRegistryAuth = {
     val getAuthorizationTokenRequest = new GetAuthorizationTokenRequest
@@ -52,19 +67,4 @@ class ECSImageRepository(
     }
   }
 
-  override def push(dockerImage: DockerImage): Future[Unit] = Future {
-    createRepositoryIfNeeded(dockerImage.name)
-    dockerClient.push(
-      dockerImage.fullName,
-      progressHandler,
-      DockerClientHelper.createRegistryAuth(getDockerRegistryAuth)
-    )
-  }
-
-  override def getImage(modelName: String, modelVersion: String): DockerImage = {
-    DockerImage(
-      name = s"${ecsDockerRepositoryConfiguration.accountId}.dkr.ecr.${ecsDockerRepositoryConfiguration.region.getName}.amazonaws.com/$modelName",
-      tag = modelVersion.toString
-    )
-  }
 }

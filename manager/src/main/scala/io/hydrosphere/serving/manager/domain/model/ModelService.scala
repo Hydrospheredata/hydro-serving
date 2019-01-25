@@ -2,183 +2,140 @@ package io.hydrosphere.serving.manager.domain.model
 
 import java.nio.file.Path
 
-import cats.data.EitherT
-import cats.implicits._
+import cats.data.{EitherT, OptionT}
+import cats.syntax.functor._
+import cats.syntax.flatMap._
+import cats.syntax.either._
+import cats.{Monad, Traverse}
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
-import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationRepositoryAlgebra}
-import io.hydrosphere.serving.manager.domain.host_selector.{HostSelector, HostSelectorRepositoryAlgebra, HostSelectorServiceAlg}
-import io.hydrosphere.serving.manager.domain.model_version.{BuildResult, ModelVersion, ModelVersionServiceAlg}
+import io.hydrosphere.serving.manager.domain.DomainError
+import io.hydrosphere.serving.manager.domain.DomainError.{InvalidRequest, NotFound}
+import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationRepository}
+import io.hydrosphere.serving.manager.domain.host_selector.{HostSelector, HostSelectorRepository}
+import io.hydrosphere.serving.manager.domain.model_version.{BuildResult, ModelVersion, ModelVersionRepository, ModelVersionService}
 import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorage
-import io.hydrosphere.serving.model.api.Result.HError
-import io.hydrosphere.serving.model.api.{HFResult, ModelMetadata, Result}
+import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.ModelFetcher
 import org.apache.logging.log4j.scala.Logging
 
-import scala.concurrent.{ExecutionContext, Future}
+trait ModelService[F[_]] {
+  def get(modelId: Long): F[Either[DomainError, Model]]
 
+  def upsertRequest(request: CreateModelRequest): F[Either[DomainError, Model]]
 
-class ModelService(
-  modelRepository: ModelRepositoryAlgebra[Future],
-  modelVersionService: ModelVersionServiceAlg,
-  storageService: ModelStorage,
-  appRepo: ApplicationRepositoryAlgebra[Future],
-  hostSelectorService: HostSelectorRepositoryAlgebra[Future]
-)(implicit val ex: ExecutionContext) extends Logging {
+  def deleteModel(modelId: Long): F[Either[DomainError, Model]]
 
-  def createModel(entity: CreateModelRequest): HFResult[Model] = {
-    val inputModel = Model(
-      id = 0,
-      name = entity.name,
-    )
+  def uploadModel(filePath: Path, meta: ModelUploadMetadata): F[Either[DomainError, BuildResult]]
 
-    getModel(inputModel.id).flatMap {
-      case Left(_) => modelRepository.create(inputModel).map(Result.ok)
-      case Right(_) => Result.clientErrorF(s"Model id ${inputModel.id} already exists")
-    }
-  }
+  def checkIfUnique(targetModel: Model, newModelInfo: Model): F[Either[DomainError, Model]]
 
-  def updateModel(entity: UpdateModelRequest): HFResult[Model] = {
-    val f = for {
-      foundModel <- EitherT(getModel(entity.id))
-      filledModel = foundModel.copy(name = entity.name)
-      _ <- EitherT(checkIfUnique(foundModel, filledModel))
-      _ <- EitherT(storageService.rename(foundModel.name, filledModel.name))
-      _ <- EitherT.liftF[Future, HError, Int](modelRepository.update(filledModel))
-    } yield filledModel
-    f.value
-  }
+  def checkIfNoApps(versions: Seq[ModelVersion]): F[Either[DomainError, Unit]]
+}
 
-  def deleteModel(modelId: Long): HFResult[Model] = {
-    val f = for {
-      model <- EitherT(getModel(modelId))
-      versions <- EitherT(modelVersionService.listForModel(model.id))
-      _ <- EitherT(checkIfNoApps(versions))
-      _ <- EitherT(modelVersionService.deleteVersions(versions))
-      _ <- EitherT(modelRepository.delete(model.id).map(Result.ok))
-    } yield model
-    f.value
-  }
+object ModelService {
+  def apply[F[_] : Monad](
+    modelRepository: ModelRepository[F],
+    modelVersionService: ModelVersionService[F],
+    modelVersionRepository: ModelVersionRepository[F],
+    storageService: ModelStorage[F],
+    appRepo: ApplicationRepository[F],
+    hostSelectorRepository: HostSelectorRepository[F],
+    fetcher: ModelFetcher[F]
+  ): ModelService[F] = new ModelService[F] with Logging {
 
-  def getModel(id: Long): HFResult[Model] =
-    modelRepository.get(id).map {
-      case Some(model) => Result.ok(model)
-      case None => Result.clientError(s"Can't find a model with id: $id")
+    def deleteModel(modelId: Long): F[Either[DomainError, Model]] = {
+      val f = for {
+        model <- EitherT(get(modelId))
+        versions <- EitherT.liftF[F, DomainError, Seq[ModelVersion]](modelVersionRepository.listForModel(model.id))
+        _ <- EitherT(checkIfNoApps(versions))
+        _ <- EitherT.liftF[F, DomainError, Seq[ModelVersion]](modelVersionService.deleteVersions(versions))
+        _ <- EitherT.liftF[F, DomainError, Int](modelRepository.delete(model.id))
+      } yield model
+      f.value
     }
 
-  def getModel(name: String): HFResult[Model] = {
-    modelRepository.get(name).map {
-      case Some(model) => Result.ok(model)
-      case None => Result.clientError(s"Can't find a model with name: $name")
-    }
-  }
+    def uploadModel(filePath: Path, meta: ModelUploadMetadata): F[Either[DomainError, BuildResult]] = {
+      val maybeHostSelector = meta.hostSelectorName match {
+        case Some(value) =>
+          EitherT.fromOptionF(hostSelectorRepository.get(value), DomainError.invalidRequest(s"Can't find host selector named $value")).map(Option(_))
+        case None => EitherT(Monad[F].pure(Either.right[DomainError, Option[HostSelector]](None)))
+      }
 
-  def uploadModel(filePath: Path, meta: ModelUploadMetadata): HFResult[BuildResult] = {
-    val maybeHostSelector = meta.hostSelectorName match {
-      case Some(value) =>
-        hostSelectorService.get(value).map {
-          case Some(x) =>
-            Result.ok(Some(x))
-          case None =>
-            Result.clientError(s"Can't find host selector named $value")
+      val f = for {
+        hs <- maybeHostSelector
+        modelPath <- EitherT.liftF[F, DomainError, Path](storageService.unpack(filePath, meta.name))
+        contract <- OptionT.fromOption(meta.contract)
+          .orElse(OptionT(fetcher.fetch(modelPath)).map(_.modelContract))
+            .toRight(DomainError.invalidRequest("No contract provided and couldn't infer it from model files."))
+        versionMetadata = ModelVersionMetadata.fromModel(contract, meta, hs)
+        _ <- EitherT.fromEither(ModelVersionMetadata.validateContract(versionMetadata))
+        request = CreateModelRequest(versionMetadata.modelName)
+        req <- EitherT(upsertRequest(request))
+        b <- EitherT.liftF[F, DomainError, BuildResult](modelVersionService.build(req, versionMetadata))
+      } yield b
+      f.value
+    }
+
+    def upsertRequest(request: CreateModelRequest): F[Either[DomainError, Model]] = {
+      modelRepository.get(request.name).flatMap {
+        case Some(model) =>
+          logger.info(s"Updating uploaded model with id: ${model.id} name: ${model.name}")
+          val filledModel = model.copy(name = request.name)
+          val f = for {
+            _ <- EitherT(checkIfUnique(model, filledModel))
+            _ <- EitherT.fromOptionF[F, DomainError, Path](storageService.rename(model.name, filledModel.name), DomainError.internalError("Couldn't find the model folder"))
+            _ <- EitherT.liftF[F, DomainError, Int](modelRepository.update(filledModel))
+          } yield filledModel
+          f.value
+
+        case None =>
+          logger.info(s"Creating uploaded model with name: ${request.name}")
+          EitherT.liftF[F, DomainError, Model](modelRepository.create(Model(-1, request.name))).value
+      }
+    }
+
+    def checkIfUnique(targetModel: Model, newModelInfo: Model): F[Either[DomainError, Model]] = {
+      modelRepository.get(newModelInfo.name).map {
+        case Some(model) if model.id == targetModel.id => // it's the same model - ok
+          Right(targetModel)
+
+        case Some(model) => // it's other model - not ok
+          val errMsg = InvalidRequest(s"There is already a model with same name: ${model.name}(${model.id}) -> ${newModelInfo.name}(${newModelInfo.id})")
+          logger.error(errMsg)
+          Left(errMsg)
+
+        case None => // name is unique - ok
+          Right(targetModel)
+      }
+    }
+
+    def checkIfNoApps(versions: Seq[ModelVersion]): F[Either[DomainError, Unit]] = {
+      implicit val traverse: Traverse[List] = cats.instances.list.catsStdInstancesForList
+
+      def _checkApps(usedApps: Seq[Seq[Application]]): Either[DomainError, Unit] = {
+        val allApps = usedApps.flatten.map(_.name)
+        if (allApps.isEmpty) {
+          Right(())
+        } else {
+          val appNames = allApps.mkString(", ")
+          Left(DomainError.invalidRequest(s"Can't delete the model. It's used in [$appNames]."))
         }
-
-      case None => Future.successful(Right(None))
-    }
-
-    val f = for {
-      hs <- EitherT(maybeHostSelector)
-      result <- EitherT(storageService.unpack(filePath, meta.name))
-      versionMetadata = mergeMetadata(result, meta, hs)
-      _ <- EitherT.fromEither[Future](validateUpload(versionMetadata))
-      request = CreateModelRequest(versionMetadata.modelName)
-      req <- EitherT(upsertRequest(request))
-      b <- EitherT(modelVersionService.build(req, versionMetadata))
-    } yield b
-    f.value
-  }
-
-  def mergeMetadata(model: ModelMetadata, upload: ModelUploadMetadata, hs: Option[HostSelector]): ModelVersionMetadata = {
-    val name = upload.name.getOrElse(model.modelName)
-    val contract = upload.contract.getOrElse(model.contract).copy(modelName = name)
-    ModelVersionMetadata(
-      modelName = name,
-      modelType = upload.modelType.getOrElse(model.modelType),
-      contract = contract,
-      profileTypes = upload.profileTypes.getOrElse(Map.empty),
-      runtime = upload.runtime,
-      hostSelector = hs
-    )
-  }
-
-  def validateUpload(upload: ModelVersionMetadata): Either[HError, Unit] = {
-    if (upload.contract.signatures.isEmpty) {
-      logger.warn("Upload error: Model without signatures. Cancelling upload.")
-      Result.clientError("The model has no signatures")
-    } else {
-      val inputsOk = upload.contract.signatures.forall(_.inputs.nonEmpty)
-      val outputsOk = upload.contract.signatures.forall(_.outputs.nonEmpty)
-      if (inputsOk && outputsOk) {
-        Right(())
-      } else {
-        Result.clientError(s"Error during signature validation. (inputsOk=$inputsOk, outputsOk=$outputsOk)")
       }
-    }
-  }
 
-  private def upsertRequest(request: CreateModelRequest): HFResult[Model] = {
-    modelRepository.get(request.name).flatMap {
-      case Some(model) =>
-        val updateRequest = UpdateModelRequest(
-          id = model.id,
-          name = request.name,
+      val f = for {
+        usedApps <- EitherT.liftF[F, DomainError, List[Seq[Application]]](
+          Traverse[List].traverse(versions.map(_.id).toList)(appRepo.findVersionsUsage)
         )
-        logger.info(s"Updating uploaded model with id: ${updateRequest.id} name: ${updateRequest.name}")
-        updateModel(updateRequest)
+        _ <- EitherT.fromEither(_checkApps(usedApps))
+      } yield {}
 
-      case None =>
-        logger.info(s"Creating uploaded model with name: ${request.name}")
-        createModel(request)
-    }
-  }
-
-  private def checkIfUnique(targetModel: Model, newModelInfo: Model): HFResult[Model] = {
-    modelRepository.get(newModelInfo.name).map {
-      case Some(model) if model.id == targetModel.id => // it's the same model - ok
-        Result.ok(targetModel)
-
-      case Some(model) => // it's other model - not ok
-        val errMsg = s"There is already a model with same name: ${model.name}(${model.id}) -> ${newModelInfo.name}(${newModelInfo.id})"
-        logger.error(errMsg)
-        Result.clientError(errMsg)
-
-      case None => // name is unique - ok
-        Result.ok(targetModel)
-    }
-  }
-
-  def delete(modelId: Long): HFResult[Model] = {
-    val f = for {
-      model <- EitherT(getModel(modelId))
-      _ <- EitherT.liftF[Future, HError, Int](modelRepository.delete(modelId))
-    } yield model
-    f.value
-  }
-
-  private def checkIfNoApps(versions: Seq[ModelVersion]): HFResult[Unit] = {
-    def _checkApps(usedApps: Seq[Seq[Application]]): HFResult[Unit] = {
-      val allApps = usedApps.flatten.map(_.name)
-      if (allApps.isEmpty) {
-        Result.okF(Unit)
-      } else {
-        val appNames = allApps.mkString(", ")
-        Result.clientErrorF(s"Can't delete the model. It's used in [$appNames].")
-      }
+      f.value
     }
 
-    val f = for {
-      usedApps <- EitherT.liftF[Future, HError, Seq[Seq[Application]]](Future.traverse(versions.map(_.id))(appRepo.findVersionsUsage))
-      _ <- EitherT(_checkApps(usedApps))
-    } yield {}
-
-    f.value
+    override def get(modelId: Long): F[Either[DomainError, Model]] = {
+      EitherT.fromOptionF[F, DomainError, Model](
+        modelRepository.get(modelId),
+        NotFound(s"Can't find a model with id $modelId")
+      ).value
+    }
   }
 }

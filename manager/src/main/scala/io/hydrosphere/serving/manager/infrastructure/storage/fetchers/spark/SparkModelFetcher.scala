@@ -1,74 +1,54 @@
 package io.hydrosphere.serving.manager.infrastructure.storage.fetchers.spark
 
-import java.nio.file.Files
+import java.nio.file.Path
 
+import cats.data.OptionT
+import cats.instances.list._
+import cats.{Monad, Traverse}
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.infrastructure.storage.StorageOps
-import io.hydrosphere.serving.model.api.{ModelMetadata, _}
-import io.hydrosphere.serving.model.api.HResult
-import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.ModelFetcher
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.spark.mappers.SparkMlTypeMapper
+import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.{FetcherResult, ModelFetcher}
 import org.apache.logging.log4j.scala.Logging
 
-import scala.collection.JavaConverters._
-import scala.concurrent.Future
+import scala.util.Try
 
 
-object SparkModelFetcher extends ModelFetcher[Future] with Logging {
-  private def getStageMetadata(source: StorageOps[Future], model: String, stage: String): HResult[SparkModelMetadata] = {
-    getMetadata(source, s"$model/stages/$stage")
+class SparkModelFetcher[F[_]: Monad](storageOps: StorageOps[F]) extends ModelFetcher[F] with Logging {
+  private def getStageMetadata(stagesPath: Path, stage: String) = {
+    getMetadata(stagesPath.resolve(stage))
   }
 
-  private def getMetadata(source: StorageOps[Future], model: String): HResult[SparkModelMetadata] = {
-    source.getReadableFile(s"$model/metadata/part-00000") match {
-      case Left(error) =>
-        Result.error(error)
-      case Right(metaFile) =>
-        val metaStr = Files.readAllLines(metaFile.toPath).asScala.mkString
-        Result.ok(SparkModelMetadata.fromJson(metaStr))
-    }
+  private def getMetadata(model: Path) = {
+    for {
+      lines <- OptionT(storageOps.readText(model))
+      text = lines.mkString
+      metadata <- OptionT.fromOption(Try(SparkModelMetadata.fromJson(text)).toOption)(Monad[F])
+    } yield metadata
   }
 
-  override def fetch(source: StorageOps, directory: String): Option[ModelMetadata] = {
+  override def fetch(directory: Path): F[Option[FetcherResult]] = {
     val stagesDir = s"$directory/stages"
-
-    getMetadata(source, directory) match {
-      case Left(error) =>
-        None
-      case Right(pipelineMetadata) =>
-        processPipeline(source, directory, stagesDir, pipelineMetadata)
-    }
+    val modelName = directory.getFileName.toString
+    val f = for {
+      metadata <- getMetadata(directory)
+      signature <- processPipeline(directory.resolve("stages"), metadata)
+    } yield FetcherResult(modelName, ModelContract(modelName, signature))
+    f.value
   }
 
-  private def processPipeline(source: StorageOps, directory: String, stagesDir: String, pipelineMetadata: SparkModelMetadata) = {
-    source.getSubDirs(stagesDir) match {
-      case Left(error) =>
-        None
-      case Right(stages) =>
-        val sM = Result.traverse(stages) { stage =>
-          getStageMetadata(source, directory, stage)
-        }
-        sM match {
-          case Left(error) =>
-            logger.warn(s"Unexpected fetch error: $error")
-            None
-          case Right(stagesMetadata) =>
-            Some(
-              ModelMetadata(
-                modelName = directory,
-                modelType = ModelType.Spark(pipelineMetadata.sparkVersion),
-                contract = ModelContract(
-                  directory,
-                  Seq(processStages(stagesMetadata))
-                )
-              )
-            )
-        }
-    }
+  private def processPipeline(stagesDir: Path, pipelineMetadata: SparkModelMetadata) = {
+    for {
+      stages <- OptionT(storageOps.getSubDirs(stagesDir))
+      sM <- Traverse[List].traverse(stages)(x => getStageMetadata(stagesDir, x))
+      signature <- OptionT.fromOption(Try(SparkModelFetcher.processStages(sM)).toOption)(Monad[F])
+    } yield Seq(signature)
   }
+}
 
-  private def processStages(stagesMetadata: Seq[SparkModelMetadata]) = {
+object SparkModelFetcher {
+  def processStages(stagesMetadata: Seq[SparkModelMetadata]): ModelSignature = {
     val mappers = stagesMetadata.map(SparkMlTypeMapper.apply)
     val inputs = mappers.map(_.inputSchema)
     val outputs = mappers.map(_.outputSchema)
@@ -98,6 +78,5 @@ object SparkModelFetcher extends ModelFetcher[Future] with Logging {
     signature
   }
 }
-
 
 

@@ -20,7 +20,7 @@ class VersionServiceSpec extends GenericUnitTest {
   describe("ModelVersion service") {
     describe("should calculate the right version") {
       it("for a new model") {
-        val versionRepo = mock[ModelVersionRepositoryAlgebra[Future]]
+        val versionRepo = mock[ModelVersionRepository[Future]]
         when(versionRepo.lastModelVersionByModel(1, 1)).thenReturn(
           Future.successful(Seq.empty)
         )
@@ -31,7 +31,7 @@ class VersionServiceSpec extends GenericUnitTest {
       }
 
       it("for a built model") {
-        val versionRepo = mock[ModelVersionRepositoryAlgebra[Future]]
+        val versionRepo = mock[ModelVersionRepository[Future]]
         when(versionRepo.lastModelVersionByModel(1, 1)).thenReturn(
           Future.successful(Seq(ModelVersion(
             id = 1,
@@ -59,7 +59,7 @@ class VersionServiceSpec extends GenericUnitTest {
       val model = Model(1, "push-me")
       val modelType = ModelType.Spark("2.2.0")
 
-      val versionRepo = new ModelVersionRepositoryAlgebra[Future] {
+      val versionRepo = new ModelVersionRepository[Future] {
         override def create(entity: ModelVersion): Future[ModelVersion] = Future.successful(entity)
 
         override def update(id: Long, entity: ModelVersion): Future[Int] = Future.successful(1)

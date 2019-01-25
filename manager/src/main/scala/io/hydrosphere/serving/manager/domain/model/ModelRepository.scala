@@ -4,7 +4,7 @@ import io.hydrosphere.serving.model.api.ModelType
 
 import scala.concurrent.Future
 
-trait ModelRepositoryAlgebra[F[_]] {
+trait ModelRepository[F[_]] {
   def create(entity: Model): F[Model]
 
   def get(id: Long): F[Option[Model]]

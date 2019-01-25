@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.api.http.controller.environment
 
-case class CreateEnvironmentRequest(
+case class CreateHostSelector(
   name: String,
-  placeholders: String
+  placeholder: String
 )

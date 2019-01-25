@@ -55,7 +55,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     it("should create a simple application") {
       eitherTAssert {
         for {
-          appResult <- EitherT(managerServices.applicationManagementService.createApplication(
+          appResult <- EitherT(managerServices.appService.create(
             "simple-app",
             None,
             ExecutionGraphRequest(Seq(
@@ -128,7 +128,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           )
         )
         for {
-          app <- EitherT(managerServices.applicationManagementService.createApplication(
+          app <- EitherT(managerServices.appService.create(
             appRequest.name,
             appRequest.namespace,
             appRequest.executionGraph,
@@ -178,13 +178,13 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
       )
       eitherTAssert {
         for {
-          app <- EitherT(managerServices.applicationManagementService.createApplication(
+          app <- EitherT(managerServices.appService.create(
             appRequest.name,
             appRequest.namespace,
             appRequest.executionGraph,
             appRequest.kafkaStreaming.get
           ))
-          appNew <- EitherT(managerServices.applicationManagementService.updateApplication(
+          appNew <- EitherT(managerServices.appService.update(
             app.started.id,
             app.started.name,
             app.started.namespace,
@@ -192,7 +192,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
             Seq.empty
           ))
 
-          gotNewApp <- EitherT(managerServices.applicationManagementService.getApplication(appNew.started.id))
+          gotNewApp <- EitherT(managerServices.appService.getApplication(appNew.started.id))
         } yield {
           assert(appNew.started === gotNewApp)
           assert(appNew.started.kafkaStreaming.isEmpty, appNew)
@@ -221,7 +221,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           kafkaStreaming = None
         )
         for {
-          app <- EitherT(managerServices.applicationManagementService.createApplication(
+          app <- EitherT(managerServices.appService.create(
             appRequest.name,
             appRequest.namespace,
             appRequest.executionGraph,
@@ -240,7 +240,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
               )
             )
           )
-          appNew <- EitherT(managerServices.applicationManagementService.updateApplication(
+          appNew <- EitherT(managerServices.appService.update(
             app.started.id,
             app.started.name,
             app.started.namespace,
@@ -248,7 +248,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
             Seq.empty
           ))
 
-          gotNewApp <- EitherT(managerServices.applicationManagementService.getApplication(appNew.started.id))
+          gotNewApp <- EitherT(managerServices.appService.getApplication(appNew.started.id))
         } yield {
           assert(appNew.started === gotNewApp, gotNewApp)
         }
@@ -262,9 +262,9 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     dockerClient.pull("hydrosphere/serving-runtime-dummy:latest")
 
     val f = for {
-      d1 <- EitherT(managerServices.modelManagementService.uploadModel(uploadFile, upload1))
+      d1 <- EitherT(managerServices.modelService.uploadModel(uploadFile, upload1))
       completed1 <- EitherT.liftF[Future, HError, ModelVersion](d1.completedVersion)
-      d2 <- EitherT(managerServices.modelManagementService.uploadModel(uploadFile, upload2))
+      d2 <- EitherT(managerServices.modelService.uploadModel(uploadFile, upload2))
       completed2 <- EitherT.liftF[Future, HError, ModelVersion](d2.completedVersion)
     } yield {
       println(s"UPLOADED: $completed1")

@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager
 
+import cats.effect.Async
 import com.zaxxer.hikari.HikariConfig
 import io.hydrosphere.serving.manager.config.{HikariConfiguration, ManagerConfiguration}
 import io.hydrosphere.serving.manager.infrastructure.db.DatabaseService
@@ -7,18 +8,18 @@ import io.hydrosphere.serving.manager.infrastructure.db.repository._
 
 import scala.concurrent.ExecutionContext
 
-class ManagerRepositories(config: ManagerConfiguration)(implicit executionContext: ExecutionContext) {
+class ManagerRepositories[F[_]: Async](config: ManagerConfiguration)(implicit executionContext: ExecutionContext) {
   implicit val dataService: DatabaseService = new DatabaseService(parseDatabase(config.database))
 
-  val modelRepository = new ModelRepository
+  val modelRepository = new DBModelRepository[F]
 
-  val modelVersionRepository = new ModelVersionRepository
+  val modelVersionRepository = new DBModelVersionRepository[F]
 
-  val serviceRepository = new ServiceRepositoryImpl
+  val servableRepository = new DBServableRepository[F]
 
-  val applicationRepository = new ApplicationRepository
+  val applicationRepository = new DBApplicationRepository[F]
 
-  val hostSelectorRepository = new HostSelectorRepository
+  val hostSelectorRepository = new DBHostSelectorRepository[F]
 
   private def parseDatabase(hikariConfiguration: HikariConfiguration): HikariConfig = {
     val hikariConfig = new HikariConfig()

@@ -6,17 +6,27 @@ import java.nio.file.Path
 import cats.effect.Sync
 
 trait StorageOps[F[_]] {
-  def getReadableFile(path: Path): F[File]
+  def getReadableFile(path: Path): F[Option[File]]
 
-  def getAllFiles(folder: Path): F[Seq[String]]
+  def getAllFiles(folder: Path): F[Option[List[String]]]
 
-  def getSubDirs(path: Path): F[Seq[String]]
+  def getSubDirs(path: Path): F[Option[List[String]]]
 
   def exists(path: Path): F[Boolean]
 
   def copyFile(src: Path, target: Path): F[Path]
 
-  def removeFolder(path: Path): F[Unit]
+  def moveFolder(src: Path, target: Path): F[Path]
+
+  def removeFolder(path: Path): F[Option[Unit]]
+
+  def getTempDir(prefix: String): F[Path]
+
+  def unpackArchive(archivePath: Path, targetPath: Path): F[Seq[Path]]
+
+  def readText(path: Path): F[Option[List[String]]]
+
+  def readBytes(path: Path): F[Option[Array[Byte]]]
 }
 
 object StorageOps {

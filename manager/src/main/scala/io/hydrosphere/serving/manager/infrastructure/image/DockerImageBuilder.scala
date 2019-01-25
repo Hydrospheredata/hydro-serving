@@ -3,6 +3,7 @@ package io.hydrosphere.serving.manager.infrastructure.image
 import java.net.URLEncoder
 import java.nio.file.{Files, Path}
 
+import cats.effect.Sync
 import com.spotify.docker.client.DockerClient.BuildParam
 import com.spotify.docker.client.{DockerClient, ProgressHandler}
 import io.hydrosphere.serving.manager.config.DockerClientConfig
@@ -14,14 +15,12 @@ import org.apache.commons.io.FileUtils
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
 
-import scala.concurrent.{ExecutionContext, Future}
-
-class DockerImageBuilder(
+class DockerImageBuilder[F[_]: Sync](
   dockerClient: DockerClient,
   dockerClientConfig: DockerClientConfig,
-  modelStorage: ModelStorage,
+  modelStorage: ModelStorage[F],
   progressHandler: ProgressHandler
-)(implicit val blockingEc: ExecutionContext) extends ImageBuilder[Future] with Logging {
+) extends ImageBuilder[F] with Logging {
 
   private val buildParams: Seq[BuildParam] = {
     getBuildArgsParam :+ BuildParam.noCache()
@@ -30,8 +29,8 @@ class DockerImageBuilder(
   override def build(
     buildPath: Path,
     image: DockerImage
-  ): Future[String] = {
-    val buildF = Future {
+  ): F[String] = {
+    val buildF = Sync[F].delay {
       logger.debug(s"Sending docker build request with ${ReflectionUtils.prettyPrint(buildParams)} params")
       val dockerContainer = Option {
         dockerClient.build(
@@ -46,13 +45,15 @@ class DockerImageBuilder(
       dockerClient.inspectImage(dockerContainer).id().stripPrefix("sha256:")
     }
 
-    buildF.failed.foreach { e =>
-      if (Files.isDirectory(buildPath)) {
-        FileUtils.deleteDirectory(buildPath.toFile)
-      }
-      logger.error(e)
+    Sync[F].onError(buildF) {
+      case e =>
+        Sync[F].delay {
+          if (Files.isDirectory(buildPath)) {
+            FileUtils.deleteDirectory(buildPath.toFile)
+          }
+          logger.error(e)
+        }
     }
-    buildF
   }
 
   private def getBuildArgsParam: Seq[BuildParam] = {

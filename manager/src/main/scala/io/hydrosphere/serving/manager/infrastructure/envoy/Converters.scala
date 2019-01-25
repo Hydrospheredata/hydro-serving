@@ -48,7 +48,7 @@ object Converters {
     entities.ModelVersion(
       id = modelVersion.id,
       version = modelVersion.modelVersion,
-      modelType = modelVersion.modelType.toTag,
+      modelType = "",
       status = modelVersion.status.toString,
       selector = modelVersion.hostSelector.map(grpcHostSelector),
       image = Some(DockerImage(modelVersion.image.name, modelVersion.image.tag)),

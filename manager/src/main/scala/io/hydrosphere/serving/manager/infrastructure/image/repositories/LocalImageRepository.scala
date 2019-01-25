@@ -1,10 +1,9 @@
 package io.hydrosphere.serving.manager.infrastructure.image.repositories
 
+import cats.Applicative
 import io.hydrosphere.serving.manager.domain.image.{DockerImage, ImageRepository}
 
-import scala.concurrent.Future
-
-class LocalImageRepository extends ImageRepository[Future] {
+class LocalImageRepository[F[_]: Applicative] extends ImageRepository[F] {
   override def getImage(name: String, tag: String): DockerImage = {
     DockerImage(
       name = name,
@@ -12,6 +11,7 @@ class LocalImageRepository extends ImageRepository[Future] {
     )
   }
 
-  override def push(dockerImage: DockerImage): Future[Unit] =
-    Future.successful(())
+  override def push(dockerImage: DockerImage): F[Unit] = {
+    Applicative[F].pure(())
+  }
 }

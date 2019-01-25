@@ -1,81 +1,70 @@
 package io.hydrosphere.serving.manager.infrastructure.storage
 
-import java.nio.file.{Files, Path, Paths, StandardCopyOption}
+import java.io.File
+import java.nio.file.{Files, Path}
 
-import cats.data.EitherT
-import cats.implicits._
-import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
-import io.hydrosphere.serving.manager.config.ManagerConfiguration
-import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.ModelFetcher
-import io.hydrosphere.serving.manager.util.TarGzUtils
-import io.hydrosphere.serving.model.api.{HFResult, ModelMetadata, Result}
-import org.apache.logging.log4j.scala.Logging
+import cats.syntax.traverse._
+import cats.instances.list._
+import cats.data.OptionT
+import cats.effect.Sync
+import cats.syntax.flatMap._
+import cats.syntax.functor._
 
-import scala.concurrent.{ExecutionContext, Future}
-import scala.util.control.NonFatal
-
-class LocalModelStorage[F[_]](
+class LocalModelStorage[F[_]: Sync](
   rootDir: Path,
-  storage: StorageOps[F]
-)(implicit ex: ExecutionContext) extends ModelStorage[F] with Logging {
+  storageOps: StorageOps[F],
+) extends ModelStorage[F] {
 
-  def unpack(filePath: Path, folderName: Option[String]): F[ModelMetadata] = {
-    val modelName = folderName.getOrElse(filePath.getFileName.toString)
-    val unpackDir = Files.createTempDirectory(modelName)
-    val uploadedFiles = TarGzUtils.decompress(filePath, unpackDir)
-    val rootDir = Paths.get(modelName)
-    storage.exists(rootDir).filter(_ == true).flatMap(_ => storage.removeFolder(rootDir))
-
-    val localFiles = uploadedFiles
-      .filter(_.startsWith(unpackDir))
-      .map { path =>
-        val relPath = unpackDir.relativize(path)
-        path -> rootDir.resolve(relPath)
+  def unpack(filePath: Path, modelFolder: Option[String]): F[Path] = {
+    val modelName = modelFolder.getOrElse(filePath.getFileName.toString)
+    for {
+      unpackDir <- storageOps.getTempDir(modelName)
+      unpackedFiles <- storageOps.unpackArchive(filePath, unpackDir)
+      modelDir <- Sync[F].delay(rootDir.resolve(modelName))
+      _ <- storageOps.exists(modelDir).flatMap {
+        case true => storageOps.removeFolder(modelDir)
+        case false => Sync[F].pure(Option(()))
       }
-      .toMap
-
-    writeFilesToSource(localFiles)
-
-    val inferredMeta = ModelFetcher.fetch(storage, unpackDir.toString)
-    Result.okF(
-      inferredMeta
-    )
+      _ <- Sync[F].defer {
+        unpackedFiles
+          .filter(_.startsWith(unpackDir))
+          .toList
+          .traverse { path =>
+            val relPath = unpackDir.relativize(path)
+            val targetPath = modelDir.resolve(relPath)
+            storageOps.copyFile(targetPath, path)
+          }
+      }
+    } yield unpackDir
   }
 
-  override def getLocalPath(folderPath: String): HFResult[Path] = {
+  override def getLocalPath(folderPath: String): F[Option[Path]] = {
     val f = for {
-      file <- EitherT(Future.successful(storage.getReadableFile(folderPath))) // FIXME
+      file <- OptionT(storageOps.getReadableFile(rootDir.resolve(folderPath)))
     } yield file.toPath
     f.value
   }
 
-  override def rename(oldFolder: String, newFolder: String): HFResult[Path] = {
+  override def rename(oldFolder: String, newFolder: String): F[Option[Path]] = {
     val f = for {
-      oldPath <- EitherT(getLocalPath(oldFolder))
-      newPath = storage.rootPath.resolve(newFolder)
-      result <- EitherT(moveFolder(oldPath, newPath))
+      oldPath <- OptionT(getLocalPath(oldFolder))
+      newPath = rootDir.resolve(newFolder)
+      result <- OptionT.liftF(storageOps.moveFolder(oldPath, newPath))
     } yield result
     f.value
   }
 
-  override def writeFile(path: String, localFile: File): HResult[Path] = {
-    val destFile = rootPath.resolve(path)
-    val destPath = destFile
-    val parentPath = destPath.getParent
-    if (!Files.exists(parentPath)) {
-      Files.createDirectories(parentPath)
-    }
-    Result.ok(Files.copy(localFile.toPath, destPath, StandardCopyOption.REPLACE_EXISTING))
-  }
+  override def writeFile(path: String, localFile: File): F[Path] = Sync[F].defer {
+    val destFile = rootDir.resolve(path)
+    val parentPath = destFile.getParent
 
-  private def moveFolder(oldPath: Path, newPath: Path) = {
-    try {
-      Result.okF(Files.move(oldPath, newPath, StandardCopyOption.ATOMIC_MOVE))
-    } catch {
-      case ex: Exception =>
-        val errMsg = s"Error while moving oldPath=$oldPath newPath=$newPath"
-        logger.error(errMsg)
-        Result.internalErrorF(ex, errMsg)
-    }
+    for {
+      _ <- Sync[F].delay {
+        if (!Files.exists(parentPath)) {
+          Files.createDirectories(parentPath)
+        }
+      }
+      res <- storageOps.copyFile(localFile.toPath, destFile)
+    } yield res
   }
 }

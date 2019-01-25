@@ -28,7 +28,7 @@ class ModelBuildITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
     it("should create an image with correct name and content") {
       eitherTAssert {
         for {
-          mv <- EitherT(managerServices.modelManagementService.uploadModel(uploadFile, uploadMetadata))
+          mv <- EitherT(managerServices.modelService.uploadModel(uploadFile, uploadMetadata))
           builtMv <- EitherT.liftF(mv.completedVersion)
         } yield {
           // check that build is successful

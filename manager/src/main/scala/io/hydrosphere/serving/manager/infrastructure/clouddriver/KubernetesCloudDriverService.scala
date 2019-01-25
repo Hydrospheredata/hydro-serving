@@ -3,13 +3,15 @@ package io.hydrosphere.serving.manager.infrastructure.clouddriver
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.Sink
-import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, DockerRepositoryConfiguration, ManagerConfiguration}
+import cats.effect.Async
+import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, DockerRepositoryConfiguration}
 import io.hydrosphere.serving.manager.domain.clouddriver.DefaultConstants._
 import io.hydrosphere.serving.manager.domain.clouddriver._
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.image.DockerImage
-import io.hydrosphere.serving.manager.domain.service.Service
+import io.hydrosphere.serving.manager.domain.servable.Servable
 import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.ManagerEventBus
+import io.hydrosphere.serving.manager.util.AsyncUtil
 import org.apache.logging.log4j.scala.Logging
 import skuber._
 import skuber.api.client.{EventType, RequestContext}
@@ -18,16 +20,16 @@ import skuber.json.format._
 import scala.concurrent.{ExecutionContext, Future}
 import scala.language.reflectiveCalls
 
-class KubernetesCloudDriverService(
-  managerConfiguration: ManagerConfiguration,
-  internalManagerEventsPublisher: ManagerEventBus
+class KubernetesCloudDriverService[F[_]: Async](
+  conf: CloudDriverConfiguration.Kubernetes,
+  dockerRepoConf: DockerRepositoryConfiguration.Remote,
+  internalManagerEventsPublisher: ManagerEventBus[F]
 )(implicit val ex: ExecutionContext,
   actorSystem: ActorSystem
-) extends CloudDriverAlgebra[Future] with Logging {
+) extends CloudDriver[F] with Logging {
 
   implicit val actorMaterializer: ActorMaterializer = ActorMaterializer()
 
-  val conf: CloudDriverConfiguration.Kubernetes = managerConfiguration.cloudDriver.asInstanceOf[CloudDriverConfiguration.Kubernetes]
   val k8s: RequestContext = k8sInit(K8SConfiguration.useProxyAt(s"http://${conf.proxyHost}:${conf.proxyPort}"))
 
   {
@@ -52,18 +54,14 @@ class KubernetesCloudDriverService(
     } yield Unit
   }
 
-  override def getMetricServiceTargets: Future[Seq[MetricServiceTargets]] = Future {
-    Seq[MetricServiceTargets]()
-  }
-
-  override def serviceList(): Future[Seq[CloudService]] = {
+  override def serviceList(): F[Seq[CloudService]] = AsyncUtil.futureAsync {
     for {
       podsList: PodList <- k8s.listInNamespace[PodList](conf.kubeNamespace)
       serviceList: ServiceList <- k8s.listInNamespace[ServiceList](conf.kubeNamespace)
       cloudServices = serviceList
         .filter(svc => svc.metadata.labels.contains("hs_service_marker"))
         .map({ service =>
-          val pods = podsList.filter(pod => service.spec.map(_.selector.toSet).getOrElse(Set.empty[(String, String)]).subsetOf(pod.metadata.labels.toSet))
+          val pods = podsList.filter(pod => service.spec.fold(Set.empty[(String, String)])(_.selector.toSet).subsetOf(pod.metadata.labels.toSet))
           val image = for {
             pod <- pods.headOption
             spec <- pod.spec
@@ -74,14 +72,13 @@ class KubernetesCloudDriverService(
     } yield cloudServices ++ createFakeHttpServices(cloudServices)
   }
 
-  override def deployService(service: Service, runtime: DockerImage, modelVersion: DockerImage, host: Option[HostSelector]): Future[CloudService] = {
+  override def deployService(service: Servable, runtime: DockerImage, modelVersion: DockerImage, host: Option[HostSelector]): F[CloudService] = AsyncUtil.futureAsync {
     import LabelSelector.dsl._
 
     val runtimeContainer = Container("runtime", runtime.fullName)
       .exposePort(9090)
       .mount("shared-model", "/model")
 
-    val dockerRepoConf = managerConfiguration.dockerRepository.asInstanceOf[DockerRepositoryConfiguration.Remote]
     val dockerRepoHost = dockerRepoConf.pullHost match {
       case Some(host) => host
       case None => dockerRepoConf.host
@@ -118,9 +115,7 @@ class KubernetesCloudDriverService(
     })
   }
 
-  override def services(serviceIds: Set[Long]): Future[Seq[CloudService]] = serviceList().map(_.filter(cs => serviceIds.contains(cs.id)))
-
-  override def removeService(serviceId: Long): Future[Unit] = {
+  override def removeService(serviceId: Long): F[Unit] = AsyncUtil.futureAsync {
     import LabelSelector.dsl._
     val namespacedContext = k8s.usingNamespace(conf.kubeNamespace)
     for {
@@ -150,19 +145,19 @@ class KubernetesCloudDriverService(
         instanceId = svc.metadata.uid,
         mainApplication = MainApplicationInstance(
           instanceId = svc.metadata.uid,
-          host = svc.spec.map(_.clusterIP).getOrElse(""),
-          port = svc.spec.flatMap(_.ports.headOption).map(_.port).getOrElse(9091)
+          host = svc.spec.fold("")(_.clusterIP),
+          port = svc.spec.flatMap(_.ports.headOption).fold(9091)(_.port)
         ),
         sidecar = SidecarInstance(
           instanceId = svc.metadata.uid,
-          host = svc.spec.map(_.clusterIP).getOrElse(""),
-          ingressPort = svc.spec.flatMap(_.ports.headOption).map(_.port).getOrElse(9091),
-          egressPort = svc.spec.flatMap(_.ports.headOption).map(_.port).getOrElse(9091),
-          adminPort = svc.spec.flatMap(_.ports.headOption).map(_.port).getOrElse(9091)
+          host = svc.spec.fold("")(_.clusterIP),
+          ingressPort = svc.spec.flatMap(_.ports.headOption).fold(9091)(_.port),
+          egressPort = svc.spec.flatMap(_.ports.headOption).fold(9091)(_.port),
+          adminPort = svc.spec.flatMap(_.ports.headOption).fold(9091)(_.port)
         ),
         model = if (svc.metadata.labels.getOrElse("deployment_type", "") == "model") Some(ModelInstance(svc.metadata.uid)) else None,
-        advertisedHost = svc.spec.map(_.clusterIP).getOrElse(""),
-        advertisedPort = svc.spec.flatMap(_.ports.find(_.name == "grpc")).map(_.port).getOrElse(9091)
+        advertisedHost = svc.spec.fold("")(_.clusterIP),
+        advertisedPort = svc.spec.flatMap(_.ports.find(_.name == "grpc")).fold(9091)(_.port)
       ))
     )
   }

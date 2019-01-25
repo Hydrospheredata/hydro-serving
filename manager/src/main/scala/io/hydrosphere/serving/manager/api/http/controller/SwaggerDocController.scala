@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.api.http
+package io.hydrosphere.serving.manager.api.http.controller
 
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer

@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
+import cats.effect.IO
 import com.spotify.docker.client.DefaultDockerClient
 import io.hydrosphere.serving.manager.api.grpc.GrpcApiServer
 import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration}
@@ -42,8 +43,8 @@ object ManagerBoot extends App with Logging {
     }
     logger.info(s"Using docker client config: ${ReflectionUtils.prettyPrint(dockerClientConfig)}")
 
-    val managerRepositories = new ManagerRepositories(configuration)
-    val managerServices = new ManagerServices(managerRepositories, configuration, dockerClient, dockerClientConfig)
+    val managerRepositories = new ManagerRepositories[IO](configuration)
+    val managerServices = new ManagerServices[IO](managerRepositories, configuration, dockerClient, dockerClientConfig)
     val httpApi = new HttpApiServer(managerRepositories, managerServices, configuration)
     val grpcApi = GrpcApiServer(managerRepositories, managerServices, configuration)
 

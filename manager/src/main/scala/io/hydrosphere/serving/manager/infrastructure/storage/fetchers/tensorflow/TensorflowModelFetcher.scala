@@ -1,53 +1,44 @@
 package io.hydrosphere.serving.manager.infrastructure.storage.fetchers.tensorflow
 
-import java.nio.file.Files
+import java.nio.file.Path
 
+import cats.Monad
+import cats.data.OptionT
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.infrastructure.storage.StorageOps
-import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.{FieldInfo, ModelFetcher}
-import io.hydrosphere.serving.model.api.{ModelMetadata, ModelType}
+import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.{FetcherResult, FieldInfo, ModelFetcher}
 import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 import io.hydrosphere.serving.tensorflow.types.DataType
-import org.apache.logging.log4j.scala.Logging
 import org.tensorflow.framework.{SavedModel, SignatureDef, TensorInfo}
 
 import scala.collection.JavaConverters._
-import scala.concurrent.Future
+import scala.util.Try
 
-object TensorflowModelFetcher extends ModelFetcher[Future] with Logging {
+class TensorflowModelFetcher[F[_]: Monad](storageOps: StorageOps[F]) extends ModelFetcher[F] {
 
-  override def fetch(source: StorageOps, directory: String): Option[ModelMetadata] = {
-    source.getReadableFile(s"$directory/saved_model.pb") match {
-      case Left(error) =>
-        logger.debug(s"Fetch error: $error. $directory in not a valid Tensorflow model")
-        None
-      case Right(pbFile) =>
-        val savedModel = SavedModel.parseFrom(Files.newInputStream(pbFile.toPath))
-        val version = savedModel.getMetaGraphsList.asScala.headOption.map(_.getMetaInfoDef.getTensorflowVersion).getOrElse("unknown")
-        val signatures = savedModel
-          .getMetaGraphsList
-          .asScala
-          .flatMap { metagraph =>
-            metagraph.getSignatureDefMap.asScala.map(convertSignature).toList
-          }
-
-        Some(
-          ModelMetadata(
-            modelName = directory,
-            contract = ModelContract(
-              directory,
-              signatures
-            ),
-            modelType = ModelType.Tensorflow(version)
-          )
-        )
-    }
+  override def fetch(directory: Path): F[Option[FetcherResult]] = {
+    val f = for {
+      savedModelBytes <- OptionT(storageOps.readBytes(directory.resolve("saved_model.pb")))
+      savedModel <- OptionT.fromOption(Try(SavedModel.parseFrom(savedModelBytes)).toOption)
+      signatures <- OptionT.fromOption(
+        Try(savedModel.getMetaGraphsList.asScala.flatMap { metagraph =>
+          metagraph.getSignatureDefMap.asScala.map(TensorflowModelFetcher.convertSignature).toList
+        }.toList).toOption
+      )
+      modelName = directory.getFileName.toString
+    } yield FetcherResult(
+      modelName = modelName,
+      modelContract = ModelContract(modelName, signatures)
+    )
+    f.value
   }
+}
 
-  private def convertTensor(tensorInfo: TensorInfo): FieldInfo = {
+object TensorflowModelFetcher {
+  def convertTensor(tensorInfo: TensorInfo): FieldInfo = {
     val shape = if (tensorInfo.hasTensorShape) {
       val tShape = tensorInfo.getTensorShape
       Some(TensorShapeProto(tShape.getDimList.asScala.map(x => TensorShapeProto.Dim(x.getSize, x.getName)), tShape.getUnknownRank))
@@ -56,7 +47,7 @@ object TensorflowModelFetcher extends ModelFetcher[Future] with Logging {
     FieldInfo(convertedDtype, TensorShape(shape))
   }
 
-  private def convertTensorMap(tensorMap: Map[String, TensorInfo]): List[ModelField] = {
+  def convertTensorMap(tensorMap: Map[String, TensorInfo]): List[ModelField] = {
     tensorMap.map {
       case (inputName, inputDef) =>
         val convertedInputDef = convertTensor(inputDef)
@@ -68,7 +59,7 @@ object TensorflowModelFetcher extends ModelFetcher[Future] with Logging {
     }.toList
   }
 
-  private def convertSignature(signatureKV: (String, SignatureDef)): ModelSignature = {
+  def convertSignature(signatureKV: (String, SignatureDef)): ModelSignature = {
     ModelSignature(
       signatureName = signatureKV._1,
       inputs = convertTensorMap(signatureKV._2.getInputsMap.asScala.toMap),

@@ -1,25 +1,27 @@
 package io.hydrosphere.serving.manager.infrastructure.envoy
 
-import akka.actor.{Actor, ActorLogging, ActorRef, Props}
-import io.hydrosphere.serving.manager.domain.application.ApplicationService
-import io.hydrosphere.serving.manager.domain.clouddriver.CloudService
-import io.hydrosphere.serving.manager.domain.service.ServiceManagementService
+import akka.actor.{Actor, ActorLogging, ActorRef, ActorSystem, Props}
+import cats.effect.Effect
+import cats.syntax.flatMap._
+import cats.syntax.functor._
+import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationRepository, ApplicationService}
+import io.hydrosphere.serving.manager.domain.clouddriver.{CloudDriver, CloudService}
+import io.hydrosphere.serving.manager.domain.servable.ServableService
 import io.hydrosphere.serving.manager.infrastructure.envoy.xds._
 import io.hydrosphere.serving.manager.service.internal_events._
 
-import scala.concurrent.Future
+import scala.util.control.NonFatal
 
-class XDSManagementActor(
-  serviceManagementService: ServiceManagementService,
-  applicationManagementService: ApplicationService,
+class XDSManagementActor[F[_]: Effect](
+  cloudDriver: CloudDriver[F],
+  serviceManagementService: ServableService[F],
+  appRepo: ApplicationRepository[F],
   clusterDSActor: ActorRef,
   endpointDSActor: ActorRef,
   listenerDSActor: ActorRef,
   routeDSActor: ActorRef,
   applicationDSActor: ActorRef
 ) extends Actor with ActorLogging {
-
-  import context._
 
   context.system.eventStream.subscribe(self, classOf[ApplicationChanged])
   context.system.eventStream.subscribe(self, classOf[ApplicationRemoved])
@@ -68,26 +70,42 @@ class XDSManagementActor(
       endpointDSActor ! RemoveEndpoints(set)
   }
 
+  def initClusters(services: Seq[CloudService]) = Effect[F].delay {
+    val serviceNames = services.map(_.serviceName).toSet
+    clusterDSActor ! SyncCluster(serviceNames)
+  }
+
+  def initEndpoints(services: Seq[CloudService]) = Effect[F].delay{
+    endpointDSActor ! RenewEndpoints(mapCloudService(services))
+  }
+
+  def initApps(applications: Seq[Application]) = Effect[F].delay {
+    val m = SyncApplications(applications)
+    routeDSActor ! m
+    applicationDSActor ! m
+  }
+
   override def preStart(): Unit = {
     log.info("XDS actor prestart")
-    val f1 = serviceManagementService.getAllCloudServices
-      .map(v => clusterDSActor ! SyncCluster(v.map(_.serviceName).toSet))
 
-    val f2 = applicationManagementService.allApplications()
-      .map { v =>
-        val m = SyncApplications(v)
-        routeDSActor ! m
-        applicationDSActor ! m
-      }
-
-    val f3 = serviceManagementService.getAllCloudServices
-      .map(c => endpointDSActor ! RenewEndpoints(mapCloudService(c)))
-
-    val f = Future.sequence(List(f1, f2, f3))
-
-    f.foreach { _ =>
+    val f = for {
+      cloudServices <- cloudDriver.serviceList()
+      applications <- appRepo.all()
+      _ <- initClusters(cloudServices)
+      _ <- initApps(applications)
+      _ <- initEndpoints(cloudServices)
+    } yield {
       log.info("XDS initialized")
     }
+
+    val handled = Effect[F].onError(f) {
+      case NonFatal(x) =>
+        Effect[F].pure {
+          log.error(s"XDS initialization error: $x")
+        }
+    }
+
+    Effect[F].toIO(handled).unsafeRunAsyncAndForget()
 
     super.preStart()
   }
@@ -109,16 +127,16 @@ class XDSManagementActor(
 }
 
 object XDSManagementActor {
-  def props(
-    serviceManagementService: ServiceManagementService,
-    applicationManagementService: ApplicationService,
+  def props[F[_]](
+    serviceManagementService: ServableService[F],
+    applicationManagementService: ApplicationService[F],
     clusterDSActor: ActorRef,
     endpointDSActor: ActorRef,
     listenerDSActor: ActorRef,
     routeDSActor: ActorRef,
     applicationDSActor: ActorRef
   ): Props = {
-    Props(classOf[XDSManagementActor],
+    Props(classOf[XDSManagementActor[F]],
       serviceManagementService,
       applicationManagementService,
       clusterDSActor,
@@ -127,5 +145,28 @@ object XDSManagementActor {
       routeDSActor,
       applicationDSActor
     )
+  }
+
+  def makeXdsActor[F[_]](
+    servableService: ServableService[F],
+    appService: ApplicationService[F])
+    (implicit actorSystem: ActorSystem) = {
+    val clusterDSActor: ActorRef = actorSystem.actorOf(Props[ClusterDSActor])
+    val endpointDSActor: ActorRef = actorSystem.actorOf(Props[EndpointDSActor])
+    val listenerDSActor: ActorRef = actorSystem.actorOf(Props[ListenerDSActor])
+    val routeDSActor: ActorRef = actorSystem.actorOf(Props[RouteDSActor])
+    val applicationDSActor: ActorRef = actorSystem.actorOf(Props[ApplicationDSActor])
+
+    val xdsManagementActor: ActorRef = actorSystem.actorOf(XDSManagementActor.props(
+      servableService,
+      appService,
+      clusterDSActor,
+      endpointDSActor,
+      listenerDSActor,
+      routeDSActor,
+      applicationDSActor
+    ))
+
+    xdsManagementActor
   }
 }

@@ -1,58 +1,65 @@
 package io.hydrosphere.serving.manager.infrastructure.db.repository
 
+import cats.effect.Async
 import io.hydrosphere.serving.manager.db.Tables
-import io.hydrosphere.serving.manager.domain.model.{Model, ModelRepositoryAlgebra}
+import io.hydrosphere.serving.manager.domain.model.{Model, ModelRepository}
 import io.hydrosphere.serving.manager.infrastructure.db.DatabaseService
+import io.hydrosphere.serving.manager.util.AsyncUtil
 import org.apache.logging.log4j.scala.Logging
 
-import scala.concurrent.{ExecutionContext, Future}
+import scala.concurrent.ExecutionContext
 
-class ModelRepository(
+class DBModelRepository[F[_]: Async](
   implicit executionContext: ExecutionContext,
   databaseService: DatabaseService
-) extends ModelRepositoryAlgebra[Future] with Logging {
+) extends ModelRepository[F] with Logging {
 
-  import ModelRepository._
+  import DBModelRepository._
   import databaseService._
   import databaseService.driver.api._
 
-  override def create(entity: Model): Future[Model] =
+  override def create(entity: Model): F[Model] = AsyncUtil.futureAsync {
     db.run(
       Tables.Model returning Tables.Model += Tables.ModelRow(
         modelId = entity.id,
         name = entity.name,
       )
     ).map(mapFromDb)
+  }
 
 
-  override def get(id: Long): Future[Option[Model]] =
+  override def get(id: Long): F[Option[Model]] = AsyncUtil.futureAsync {
     db.run(
       Tables.Model
         .filter(_.modelId === id)
         .result.headOption
     ).map(mapFromDb)
+  }
 
-  override def get(name: String): Future[Option[Model]] =
+  override def get(name: String): F[Option[Model]] = AsyncUtil.futureAsync {
     db.run(
       Tables.Model
         .filter(_.name === name)
         .result.headOption
     ).map(mapFromDb)
+  }
 
-  override def delete(id: Long): Future[Int] =
+  override def delete(id: Long): F[Int] = AsyncUtil.futureAsync {
     db.run(
       Tables.Model
         .filter(_.modelId === id)
         .delete
     )
+  }
 
-  override def all(): Future[Seq[Model]] =
+  override def all(): F[Seq[Model]] = AsyncUtil.futureAsync {
     db.run(
       Tables.Model
         .result
     ).map(mapFromDb)
+  }
 
-  override def update(model: Model): Future[Int] = {
+  override def update(model: Model): F[Int] = AsyncUtil.futureAsync {
     val query = for {
       models <- Tables.Model if models.modelId === model.id
     } yield models.name
@@ -60,7 +67,7 @@ class ModelRepository(
     db.run(query.update(model.name))
   }
 
-  override def getMany(ids: Set[Long]): Future[Seq[Model]] = {
+  override def getMany(ids: Set[Long]): F[Seq[Model]] = AsyncUtil.futureAsync {
     db.run(
       Tables.Model
         .filter(_.modelId inSetBind ids)
@@ -69,7 +76,7 @@ class ModelRepository(
   }
 }
 
-object ModelRepository {
+object DBModelRepository {
 
   def mapFromDb(model: Option[Tables.Model#TableElementType]): Option[Model] =
     model.map(mapFromDb)

@@ -1,21 +1,18 @@
 package io.hydrosphere.serving.manager.api.http.controller
 
 import akka.http.scaladsl.server.Directives._
-import akka.util.Timeout
-import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationService, CreateApplicationRequest, UpdateApplicationRequest}
+import cats.effect.Effect
+import cats.syntax.functor._
+import io.hydrosphere.serving.manager.domain.application._
 import io.swagger.annotations._
 import javax.ws.rs.Path
 
-import scala.concurrent.ExecutionContext
-import scala.concurrent.duration._
-
-
 @Path("/api/v2/application")
 @Api(produces = "application/json", tags = Array("Application"))
-class ApplicationController(
-  applicationManagementService: ApplicationService
-)(implicit val ec: ExecutionContext) extends AkkaHttpControllerDsl {
-  implicit val timeout = Timeout(5.minutes)
+class ApplicationController[F[_]: Effect](
+  appService: ApplicationService[F],
+  appRepository: ApplicationRepository[F]
+) extends AkkaHttpControllerDsl {
 
   @Path("/")
   @ApiOperation(value = "applications", notes = "applications", nickname = "applications", httpMethod = "GET")
@@ -25,7 +22,7 @@ class ApplicationController(
   ))
   def listAll = path("application") {
     get {
-      complete(applicationManagementService.allApplications())
+      completeF(appRepository.all())
     }
   }
 
@@ -43,12 +40,7 @@ class ApplicationController(
     post {
       entity(as[CreateApplicationRequest]) { r =>
         completeFRes(
-          applicationManagementService.createApplication(
-            r.name,
-            r.namespace,
-            r.executionGraph,
-            r.kafkaStreaming.getOrElse(List.empty)
-          ).map(_.right.map(_.started))
+          appService.create(r).map(_.right.map(_.started))
         )
       }
     }
@@ -68,13 +60,7 @@ class ApplicationController(
     put {
       entity(as[UpdateApplicationRequest]) { r =>
         completeFRes(
-          applicationManagementService.updateApplication(
-            r.id,
-            r.name,
-            r.namespace,
-            r.executionGraph,
-            r.kafkaStreaming.getOrElse(List.empty)
-          ).map(_.right.map(_.started))
+          appService.update(r).map(_.right.map(_.started))
         )
       }
     }
@@ -91,7 +77,7 @@ class ApplicationController(
   ))
   def deleteApplicationByName = delete {
     path("application" / Segment) { appName =>
-      completeFRes(applicationManagementService.deleteApplication(appName))
+      completeFRes(appService.delete(appName))
     }
   }
 
@@ -107,8 +93,8 @@ class ApplicationController(
   ))
   def generateInputsForApp = pathPrefix("application" / "generateInputs" / Segment ) { appName =>
     get {
-      complete(
-        applicationManagementService.generateInputs(appName)
+      completeFRes(
+        appService.generateInputs(appName)
       )
     }
   }

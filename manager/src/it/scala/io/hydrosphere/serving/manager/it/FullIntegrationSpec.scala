@@ -6,6 +6,7 @@ import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import cats.data.EitherT
+import cats.effect.IO
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
 import io.grpc.Server
 import io.hydrosphere.serving.manager._
@@ -50,9 +51,9 @@ trait FullIntegrationSpec extends DatabaseAccessIT
 
   def configuration = originalConfiguration.right.get
 
-  var managerRepositories: ManagerRepositories = _
-  var managerServices: ManagerServices = _
-  var managerApi: HttpApiServer = _
+  var managerRepositories: ManagerRepositories[IO] = _
+  var managerServices: ManagerServices[IO] = _
+  var managerApi: HttpApiServer[IO] = _
   var managerGRPC: Server = _
 
   override protected def beforeAll(): Unit = {

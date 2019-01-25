@@ -9,7 +9,7 @@ import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.api.grpc.ManagerGrpcService
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.Model
-import io.hydrosphere.serving.manager.domain.model_version.{ModelVersionRepositoryAlgebra, ModelVersionStatus, ModelVersion => DMV}
+import io.hydrosphere.serving.manager.domain.model_version.{ModelVersionRepository, ModelVersionStatus, ModelVersion => DMV}
 import io.hydrosphere.serving.manager.grpc.entities.ModelVersion
 import io.hydrosphere.serving.model.api.ModelType
 
@@ -20,7 +20,7 @@ import scala.util.{Failure, Success}
 class GrpcSpec extends GenericUnitTest {
   describe("Manager GRPC API") {
     it("should return ModelVersion for id") {
-      val versionRepo = mock[ModelVersionRepositoryAlgebra[Future]]
+      val versionRepo = mock[ModelVersionRepository[Future]]
       when(versionRepo.get(1)).thenReturn(Future.successful(Option(
         DMV(
           id = 1,
@@ -50,7 +50,7 @@ class GrpcSpec extends GenericUnitTest {
       }
     }
     it("should return a stream of all ModelVersions") {
-      val versionRepo = mock[ModelVersionRepositoryAlgebra[Future]]
+      val versionRepo = mock[ModelVersionRepository[Future]]
       when(versionRepo.all()).thenReturn(Future.successful(Seq(
         DMV(
           id = 1,
@@ -101,7 +101,7 @@ class GrpcSpec extends GenericUnitTest {
       }
     }
     it("should handle ModelVersion stream error") {
-      val versionRepo = mock[ModelVersionRepositoryAlgebra[Future]]
+      val versionRepo = mock[ModelVersionRepository[Future]]
       when(versionRepo.all()).thenReturn(Future.failed(new IllegalStateException("AAAAAAA")))
 
       val errors = ListBuffer.empty[Throwable]

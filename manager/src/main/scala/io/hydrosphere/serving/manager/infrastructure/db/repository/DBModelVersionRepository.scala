@@ -1,25 +1,26 @@
 package io.hydrosphere.serving.manager.infrastructure.db.repository
 
+import cats.effect.Async
 import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.manager.data_profile_types.DataProfileType
 import io.hydrosphere.serving.manager.db.Tables
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.Model
-import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepositoryAlgebra, ModelVersionStatus}
+import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepository, ModelVersionStatus}
 import io.hydrosphere.serving.manager.infrastructure.db.DatabaseService
-import io.hydrosphere.serving.model.api.ModelType
-import spray.json._
 import io.hydrosphere.serving.manager.infrastructure.protocol.CompleteJsonProtocol._
-import io.hydrosphere.serving.manager.data_profile_types.DataProfileType
+import io.hydrosphere.serving.manager.util.AsyncUtil
+import spray.json._
 
-import scala.concurrent.{ExecutionContext, Future}
+import scala.concurrent.ExecutionContext
 
-class ModelVersionRepository(
+class DBModelVersionRepository[F[_]: Async](
   implicit executionContext: ExecutionContext,
   databaseService: DatabaseService
-) extends ModelVersionRepositoryAlgebra[Future] {
+) extends ModelVersionRepository[F] {
 
-  import ModelVersionRepository._
+  import DBModelVersionRepository._
   import databaseService._
   import databaseService.driver.api._
 
@@ -32,7 +33,7 @@ class ModelVersionRepository(
       case ((mv, m), hs) => (mv, m, hs)
     }
 
-  override def create(entity: ModelVersion): Future[ModelVersion] =
+  override def create(entity: ModelVersion): F[ModelVersion] = AsyncUtil.futureAsync {
     db.run(
       Tables.ModelVersion returning Tables.ModelVersion += Tables.ModelVersionRow(
         modelVersionId = entity.id,
@@ -43,7 +44,6 @@ class ModelVersionRepository(
         imageName = entity.image.name,
         imageTag = entity.image.tag,
         imageSha256 = entity.image.sha256,
-        modelType = entity.modelType.toTag,
         hostSelector = entity.hostSelector.map(_.id),
         finishedTimestamp = entity.finished,
         runtimeName = entity.runtime.name,
@@ -52,25 +52,29 @@ class ModelVersionRepository(
         profileTypes = if (entity.profileTypes.isEmpty) None else Some(entity.profileTypes.toJson.compactPrint)
       )
     ).map(x => mapFromDb(x, entity.model, entity.hostSelector))
+  }
 
-  override def get(id: Long): Future[Option[ModelVersion]] =
+  override def get(id: Long): F[Option[ModelVersion]] = AsyncUtil.futureAsync {
     db.run(
       joinedQ
         .filter(mv => mv._1.modelVersionId === id)
         .result.headOption
     ).map(x => x.map(mapFromDb))
+  }
 
-  override def delete(id: Long): Future[Int] =
+  override def delete(id: Long): F[Int] = AsyncUtil.futureAsync {
     db.run(
       Tables.ModelVersion
         .filter(_.modelVersionId === id)
         .delete
     )
+  }
 
-  override def all(): Future[Seq[ModelVersion]] =
+  override def all(): F[Seq[ModelVersion]] = AsyncUtil.futureAsync {
     db.run(joinedQ.result).map(_.map(mapFromDb))
+  }
 
-  override def lastModelVersionByModel(modelId: Long, max: Int): Future[Seq[ModelVersion]] =
+  override def lastModelVersionByModel(modelId: Long, max: Int): F[Seq[ModelVersion]] = AsyncUtil.futureAsync {
     db.run(
       joinedQ
         .filter(_._1.modelId === modelId)
@@ -78,8 +82,9 @@ class ModelVersionRepository(
         .take(max)
         .result
     ).map(_.map(mapFromDb))
+  }
 
-  override def modelVersionsByModelVersionIds(modelVersionIds: Set[Long]): Future[Seq[ModelVersion]] = {
+  override def modelVersionsByModelVersionIds(modelVersionIds: Set[Long]): F[Seq[ModelVersion]] = AsyncUtil.futureAsync {
     val action = joinedQ
       .filter {
         _._1.modelVersionId inSetBind modelVersionIds
@@ -89,27 +94,31 @@ class ModelVersionRepository(
     db.run(action).map(_.map(mapFromDb))
   }
 
-  override def listForModel(modelId: Long): Future[Seq[ModelVersion]] = db.run {
-    joinedQ
-      .filter(_._1.modelId === modelId)
-      .sortBy(_._1.modelVersion)
-      .result
-  }.map(_.map(mapFromDb))
+  override def listForModel(modelId: Long): F[Seq[ModelVersion]] = AsyncUtil.futureAsync {
+    db.run {
+      joinedQ
+        .filter(_._1.modelId === modelId)
+        .sortBy(_._1.modelVersion)
+        .result
+    }.map(_.map(mapFromDb))
+  }
 
-  override def get(modelName: String, modelVersion: Long): Future[Option[ModelVersion]] = db.run {
-    joinedQ
-      .filter(mv => (mv._1.modelVersion === modelVersion) && (mv._2.name === modelName))
-      .result.headOption
-  }.map(_.map(mapFromDb))
+  override def get(modelName: String, modelVersion: Long): F[Option[ModelVersion]] = AsyncUtil.futureAsync {
+    db.run {
+      joinedQ
+        .filter(mv => (mv._1.modelVersion === modelVersion) && (mv._2.name === modelName))
+        .result.headOption
+    }.map(_.map(mapFromDb))
+  }
 
-  override def update(id: Long, entity: ModelVersion): Future[Int] = {
+  override def update(id: Long, entity: ModelVersion): F[Int] = AsyncUtil.futureAsync {
     val a = for {
       mv <- Tables.ModelVersion if mv.modelVersionId === id
     } yield (mv.finishedTimestamp, mv.status, mv.imageSha256)
     db.run(a.update((entity.finished, entity.status.toString, entity.image.sha256)))
   }
 
-  override def get(idx: Seq[Long]): Future[Seq[ModelVersion]] = {
+  override def get(idx: Seq[Long]): F[Seq[ModelVersion]] = AsyncUtil.futureAsync {
     db.run(
       joinedQ
         .filter(_._1.modelVersionId inSetBind idx)
@@ -118,10 +127,10 @@ class ModelVersionRepository(
   }
 }
 
-object ModelVersionRepository {
+object DBModelVersionRepository {
   def mapFromDb(x: (Tables.ModelVersionRow, Tables.ModelRow, Option[Tables.HostSelectorRow])): ModelVersion = {
-    val m = ModelRepository.mapFromDb(x._2)
-    val hs = HostSelectorRepository.mapFromDb(x._3)
+    val m = DBModelRepository.mapFromDb(x._2)
+    val hs = DBHostSelectorRepository.mapFromDb(x._3)
     mapFromDb(x._1, m, hs)
   }
 
@@ -136,7 +145,6 @@ object ModelVersionRepository {
       created = x.createdTimestamp,
       finished = x.finishedTimestamp,
       modelVersion = x.modelVersion,
-      modelType = ModelType.fromTag(x.modelType),
       modelContract = ModelContract.fromAscii(x.modelContract),
       runtime = DockerImage(
         name = x.runtimeName,

@@ -9,7 +9,7 @@ import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
 import io.hydrosphere.serving.manager.domain.image.DockerImage
-import io.hydrosphere.serving.manager.domain.model.{Model, ModelRepositoryAlgebra, ModelService, ModelVersionMetadata}
+import io.hydrosphere.serving.manager.domain.model.{Model, ModelRepository, ModelService, ModelVersionMetadata}
 import io.hydrosphere.serving.manager.domain.model_version._
 import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorage
 import io.hydrosphere.serving.manager.util.TarGzUtils
@@ -84,7 +84,7 @@ class ModelServiceSpec extends GenericUnitTest {
           contract = Some(contract),
           profileTypes = None
         )
-        val modelRepo = mock[ModelRepositoryAlgebra[Future]]
+        val modelRepo = mock[ModelRepository[Future]]
         when(modelRepo.get(Matchers.anyLong())).thenReturn(Future.successful(None))
 
         val sourceMock = mock[ModelStorage]
@@ -107,7 +107,7 @@ class ModelServiceSpec extends GenericUnitTest {
           Future.successful(model)
         )
 
-        val versionService = mock[ModelVersionServiceAlg]
+        val versionService = mock[ModelVersionService]
         when(versionService.build(model, modelVersionMetadata)).thenReturn(
           Result.okF(BuildResult(modelVersion, Future.successful(modelVersion)))
         )
@@ -177,7 +177,7 @@ class ModelServiceSpec extends GenericUnitTest {
         )
         println(upload)
 
-        val modelRepo = mock[ModelRepositoryAlgebra[Future]]
+        val modelRepo = mock[ModelRepository[Future]]
         when(modelRepo.update(Matchers.any(classOf[Model]))).thenReturn(Future.successful(1))
         when(modelRepo.get(modelName)).thenReturn(Future.successful(Some(model)))
         when(modelRepo.get(1)).thenReturn(Future.successful(Some(model)))
@@ -199,7 +199,7 @@ class ModelServiceSpec extends GenericUnitTest {
         )
         when(sourceMock.rename(modelName, modelName)).thenReturn(Result.okF(Paths.get("some-test-path")))
 
-        val versionService = mock[ModelVersionServiceAlg]
+        val versionService = mock[ModelVersionService]
         when(versionService.build(model, modelVersionMetadata)).thenReturn(
           Result.okF(BuildResult(modelVersion, Future.successful(modelVersion)))
         )

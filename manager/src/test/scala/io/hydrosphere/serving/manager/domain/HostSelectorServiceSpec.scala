@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.domain
 
 import io.hydrosphere.serving.manager.GenericUnitTest
-import io.hydrosphere.serving.manager.domain.host_selector.{HostSelector, HostSelectorRepositoryAlgebra, HostSelectorService}
+import io.hydrosphere.serving.manager.domain.host_selector.{HostSelector, HostSelectorRepository, HostSelectorService}
 import org.mockito.{Matchers, Mockito}
 
 import scala.concurrent.Future
@@ -9,7 +9,7 @@ import scala.concurrent.Future
 class HostSelectorServiceSpec extends GenericUnitTest {
   describe("Environment management service") {
     it("should return all environments") {
-      val envRepo = mock[HostSelectorRepositoryAlgebra[Future]]
+      val envRepo = mock[HostSelectorRepository[Future]]
 
       Mockito.when(envRepo.all()).thenReturn(
         Future.successful(
@@ -27,7 +27,7 @@ class HostSelectorServiceSpec extends GenericUnitTest {
     }
 
     it("should return an environment by id") {
-      val envRepo = mock[HostSelectorRepositoryAlgebra[Future]]
+      val envRepo = mock[HostSelectorRepository[Future]]
 
       Mockito.when(envRepo.get(1L)).thenReturn(
         Future.successful(
@@ -49,7 +49,7 @@ class HostSelectorServiceSpec extends GenericUnitTest {
     }
 
     it("should create a new environment") {
-      val envRepo = mock[HostSelectorRepositoryAlgebra[Future]]
+      val envRepo = mock[HostSelectorRepository[Future]]
 
       Mockito.when(envRepo.get("new_test")).thenReturn(
         Future.successful(None)
@@ -72,7 +72,7 @@ class HostSelectorServiceSpec extends GenericUnitTest {
     }
 
     it("should reject a creation of duplicate environments") {
-      val envRepo = mock[HostSelectorRepositoryAlgebra[Future]]
+      val envRepo = mock[HostSelectorRepository[Future]]
 
       Mockito.when(envRepo.get("new_test")).thenReturn(
         Future.successful(Some(HostSelector(1, "new_test", "placeholder")))

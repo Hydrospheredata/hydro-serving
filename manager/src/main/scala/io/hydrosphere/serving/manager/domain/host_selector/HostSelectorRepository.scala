@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.domain.host_selector
 
-trait HostSelectorRepositoryAlgebra[F[_]] {
+trait HostSelectorRepository[F[_]] {
   def create(entity: HostSelector): F[HostSelector]
 
   def get(id: Long): F[Option[HostSelector]]

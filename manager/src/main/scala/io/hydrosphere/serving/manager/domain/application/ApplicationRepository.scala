@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.domain.application
 
-trait ApplicationRepositoryAlgebra[F[_]] {
+trait ApplicationRepository[F[_]] {
   def create(entity: Application): F[Application]
 
   def get(id: Long): F[Option[Application]]

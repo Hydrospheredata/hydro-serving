@@ -29,14 +29,14 @@ CREATE TABLE hydro_serving.model_version
   profile_types      TEXT
 );
 
-CREATE TABLE hydro_serving.service
+CREATE TABLE hydro_serving.servable
 (
   service_id       BIGSERIAL PRIMARY KEY,
   service_name     TEXT                                               NOT NULL UNIQUE,
   cloud_driver_id  TEXT,
   model_version_id BIGINT REFERENCES model_version (model_version_id) NOT NULL,
   status_text      TEXT                                               NOT NULL,
-  config_params    TEXT []                                            NOT NULL
+  config_params    TEXT                                               NOT NULL
 );
 
 CREATE TABLE hydro_serving.application
@@ -47,6 +47,6 @@ CREATE TABLE hydro_serving.application
   status            TEXT    NOT NULL,
   application_contract TEXT NOT NULL,
   execution_graph   TEXT    NOT NULL,
-  services_in_stage TEXT [] NOT NULL,
+  servables_in_stage TEXT [] NOT NULL,
   kafka_streams TEXT [] NOT NULL
 );

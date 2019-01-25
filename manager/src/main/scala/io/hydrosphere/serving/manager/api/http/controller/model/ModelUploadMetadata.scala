@@ -7,7 +7,6 @@ import io.hydrosphere.serving.manager.domain.image.DockerImage
 
 case class ModelUploadMetadata(
   name: Option[String] = None,
-  modelType: Option[ModelType] = None,
   runtime: DockerImage,
   hostSelectorName: Option[String] = None,
   contract: Option[ModelContract] = None,

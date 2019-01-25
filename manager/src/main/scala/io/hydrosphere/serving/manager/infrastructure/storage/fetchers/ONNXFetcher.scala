@@ -1,31 +1,49 @@
 package io.hydrosphere.serving.manager.infrastructure.storage.fetchers
 import java.nio.file.{Files, Path}
 
+import cats.Monad
+import cats.data.OptionT
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.infrastructure.storage.StorageOps
-import io.hydrosphere.serving.model.api.ModelMetadata
-import io.hydrosphere.serving.model.api.ModelType.ONNX
 import io.hydrosphere.serving.onnx.onnx.TensorProto.DataType._
 import io.hydrosphere.serving.onnx.onnx._
 import io.hydrosphere.serving.tensorflow.tensor_shape
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.apache.commons.io.FilenameUtils
 
-import scala.concurrent.Future
+import scala.util.Try
 
-object ONNXFetcher extends ModelFetcher[Future] {
-  val signature = "infer"
-
-  def convertShape(shape: Option[TensorShapeProto]): Option[tensor_shape.TensorShapeProto] = {
-    shape.map { realShape =>
-      val dims = realShape.dim.map { realDim =>
-        tensor_shape.TensorShapeProto.Dim(realDim.value.dimValue.get)
-      }
-      tensor_shape.TensorShapeProto(dims)
-    }
+class ONNXFetcher[F[_]: Monad](
+  storageOps: StorageOps[F]
+) extends ModelFetcher[F] {
+  def findFile(directory: Path): OptionT[F, Path] = {
+    for {
+      dirFile <- OptionT(storageOps.getReadableFile(directory))
+      onnxFile <- OptionT.fromOption(dirFile.listFiles().find(f => f.isFile && f.getName.endsWith(".onnx")).map(_.toPath))
+    } yield onnxFile
   }
+
+  override def fetch(directory: Path): F[Option[FetcherResult]] = {
+    val f = for {
+      filePath <- findFile(directory)
+      fileName = FilenameUtils.getBaseName(filePath.getFileName.toString)
+      model <- OptionT.fromOption(ModelProto.validate(Files.readAllBytes(filePath)).toOption)
+      graph <- OptionT.fromOption(model.graph)
+      signatures <- OptionT.fromOption(Try(ONNXFetcher.extractSignatures(graph)).toOption)
+    } yield {
+      FetcherResult(
+        fileName,
+        ModelContract(fileName, signatures)
+      )
+    }
+    f.value
+  }
+}
+
+object ONNXFetcher {
+  final val signature = "infer"
 
   def convertType(elemType: TensorProto.DataType): ModelField.TypeOrSubfields.Dtype = {
     val tfType = elemType match {
@@ -50,6 +68,15 @@ object ONNXFetcher extends ModelFetcher[Future] {
     ModelField.TypeOrSubfields.Dtype(tfType)
   }
 
+  def convertShape(shape: Option[TensorShapeProto]): Option[tensor_shape.TensorShapeProto] = {
+    shape.map { realShape =>
+      val dims = realShape.dim.map { realDim =>
+        tensor_shape.TensorShapeProto.Dim(realDim.value.dimValue.get)
+      }
+      tensor_shape.TensorShapeProto(dims)
+    }
+  }
+
   def valueInfoToField(x: ValueInfoProto): ModelField = {
     ModelField(
       x.name,
@@ -64,26 +91,5 @@ object ONNXFetcher extends ModelFetcher[Future] {
       graph.input.map(valueInfoToField),
       graph.output.map(valueInfoToField)
     ))
-  }
-
-  def findFile(source: StorageOps, directory: String): Option[Path] = {
-    source.getReadableFile(directory).right.toOption.flatMap { dirFile =>
-      dirFile.listFiles().find(f => f.isFile && f.getName.endsWith(".onnx")).map(_.toPath)
-    }
-  }
-
-  override def fetch(source: StorageOps, directory: String): Option[ModelMetadata] = {
-    for {
-      filePath <- findFile(source, directory)
-      fileName = FilenameUtils.getBaseName(filePath.getFileName.toString)
-      model <- ModelProto.validate(Files.readAllBytes(filePath)).toOption
-      graph <- model.graph
-    } yield {
-      ModelMetadata(
-        fileName,
-        ONNX(model.producerName, model.producerVersion),
-        ModelContract(fileName, extractSignatures(graph))
-      )
-    }
   }
 }

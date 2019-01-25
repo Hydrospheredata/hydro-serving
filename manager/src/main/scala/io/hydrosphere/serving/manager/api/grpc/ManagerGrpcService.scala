@@ -1,37 +1,43 @@
 package io.hydrosphere.serving.manager.api.grpc
 
+import cats.data.EitherT
+import cats.effect.Effect
+import cats.syntax.applicativeError._
+import cats.syntax.functor._
 import com.google.protobuf.empty.Empty
 import io.grpc.stub.StreamObserver
 import io.hydrosphere.serving.manager.api.GetVersionRequest
 import io.hydrosphere.serving.manager.api.ManagerServiceGrpc.ManagerService
-import io.hydrosphere.serving.manager.domain.model_version.ModelVersionRepositoryAlgebra
+import io.hydrosphere.serving.manager.domain.model_version.{ModelVersionRepository, ModelVersion => DMV}
 import io.hydrosphere.serving.manager.grpc.entities.ModelVersion
 import io.hydrosphere.serving.manager.infrastructure.envoy.Converters
 
-import scala.concurrent.{ExecutionContext, Future}
-import scala.util.{Failure, Success}
+import scala.concurrent.Future
 
-class ManagerGrpcService(versionRepositoryAlgebra: ModelVersionRepositoryAlgebra[Future])(implicit ec: ExecutionContext) extends ManagerService {
+class ManagerGrpcService[F[_]: Effect](versionRepositoryAlgebra: ModelVersionRepository[F]) extends ManagerService {
   override def getAllVersions(request: Empty, responseObserver: StreamObserver[ModelVersion]): Unit = {
-    versionRepositoryAlgebra.all()
-      .onComplete {
-      case Success(versions) =>
-        println("SUCCESS")
-        versions.foreach { x =>
-          println("AAAA")
-          responseObserver.onNext(Converters.grpcModelVersion(x))
+    val fAction = versionRepositoryAlgebra.all().map { versions =>
+      versions.foreach { v =>
+        responseObserver.onNext(Converters.grpcModelVersion(v))
+      }
+      responseObserver.onCompleted()
+    }.onError {
+      case exception =>
+        Effect[F].delay {
+          responseObserver.onError(exception)
         }
-        responseObserver.onCompleted()
-      case Failure(exception) =>
-        println("FAILURE")
-        responseObserver.onError(exception)
     }
+
+    Effect[F].toIO(fAction).unsafeRunAsyncAndForget()
   }
 
   override def getVersion(request: GetVersionRequest): Future[ModelVersion] = {
-    versionRepositoryAlgebra.get(request.id).flatMap {
-      case Some(version) => Future.successful(Converters.grpcModelVersion(version))
-      case None => Future.failed(new IllegalArgumentException(s"ModelVersion with id ${request.id} is not found"))
-    }
+    val f = for {
+      version <- EitherT.fromOptionF[F, Throwable, DMV](versionRepositoryAlgebra.get(request.id), new IllegalArgumentException(s"ModelVersion with id ${request.id} is not found"))
+    } yield Converters.grpcModelVersion(version)
+
+    Effect[F].toIO(
+      Effect[F].rethrow(f.value)
+    ).unsafeToFuture()
   }
 }

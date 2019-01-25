@@ -1,21 +1,19 @@
 package io.hydrosphere.serving.manager.infrastructure.image.repositories
 
+import cats.effect.Sync
 import com.spotify.docker.client.messages.RegistryAuth
 import com.spotify.docker.client.{DockerClient, ProgressHandler}
 import io.hydrosphere.serving.manager.config.DockerRepositoryConfiguration
 import io.hydrosphere.serving.manager.domain.image.{DockerImage, ImageRepository}
 import io.hydrosphere.serving.manager.util.docker.{DockerClientHelper, DockerRegistryAuth}
 
-import scala.concurrent.{ExecutionContext, Future}
-
-class RemoteImageRepository(
+class RemoteImageRepository[F[_]: Sync](
   dockerClient: DockerClient,
   conf: DockerRepositoryConfiguration.Remote,
-  progressHandler: ProgressHandler
-)(implicit ec: ExecutionContext)
-  extends ImageRepository[Future] {
+  progressHandler: ProgressHandler)
+  extends ImageRepository[F] {
 
-  override def push(dockerImage: DockerImage): Future[Unit] = Future {
+  override def push(dockerImage: DockerImage): F[Unit] = Sync[F].delay {
     val auth: RegistryAuth = if (conf.username.isEmpty && conf.password.isEmpty) {
       RegistryAuth.fromDockerConfig(conf.host).build()
     } else {
@@ -28,7 +26,7 @@ class RemoteImageRepository(
         None
       ))
     }
-    dockerClient.push(dockerImage.fullName, auth) // TODO ???
+    dockerClient.push(dockerImage.fullName, auth)
   }
 
   override def getImage(name: String, tag: String): DockerImage = {

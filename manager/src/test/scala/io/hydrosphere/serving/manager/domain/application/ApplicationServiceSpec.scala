@@ -9,8 +9,8 @@ import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.domain.clouddriver.CloudService
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.Model
-import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepositoryAlgebra, ModelVersionStatus}
-import io.hydrosphere.serving.manager.domain.service.{Service, ServiceManagementService}
+import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepository, ModelVersionStatus}
+import io.hydrosphere.serving.manager.domain.servable.{Servable, ServableService}
 import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.ManagerEventBus
 import io.hydrosphere.serving.model.api.ModelType
 import io.hydrosphere.serving.tensorflow.types.DataType
@@ -44,7 +44,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
 
   describe("Application management service") {
     it("should start application build") {
-      val appRepo = mock[ApplicationRepositoryAlgebra[Future]]
+      val appRepo = mock[ApplicationRepository[Future]]
       when(appRepo.get("test")).thenReturn(Future.successful(None))
       when(appRepo.create(Matchers.any())).thenReturn(Future.successful(
         Application(
@@ -61,10 +61,10 @@ class ApplicationServiceSpec extends GenericUnitTest {
           kafkaStreaming = List.empty
         )
       ))
-      val versionRepo = mock[ModelVersionRepositoryAlgebra[Future]]
+      val versionRepo = mock[ModelVersionRepository[Future]]
       when(versionRepo.get(1)).thenReturn(Future.successful(Some(modelVersion)))
       when(versionRepo.get(Seq(1L))).thenReturn(Future.successful(Seq(modelVersion)))
-      val serviceManager = mock[ServiceManagementService]
+      val serviceManager = mock[ServableService]
       when(serviceManager.fetchServicesUnsync(Set(1))).thenReturn(Future.successful(Seq.empty))
       val eventPublisher = mock[ManagerEventBus]
       val applicationService = new ApplicationService(
@@ -82,7 +82,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
           )
         ))
       ))
-      applicationService.createApplication("test", None, graph, Seq.empty).map { res =>
+      applicationService.create("test", None, graph, Seq.empty).map { res =>
         assert(res.isRight, res)
         val app = res.right.get
         assert(app.started.name === "test")
@@ -92,7 +92,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
     }
 
     it("should handle failed application builds") {
-      val appRepo = mock[ApplicationRepositoryAlgebra[Future]]
+      val appRepo = mock[ApplicationRepository[Future]]
       when(appRepo.get("test")).thenReturn(Future.successful(None))
       when(appRepo.create(Matchers.any())).thenReturn(Future.successful(
         Application(
@@ -109,11 +109,11 @@ class ApplicationServiceSpec extends GenericUnitTest {
           kafkaStreaming = List.empty
         )
       ))
-      val versionRepo = mock[ModelVersionRepositoryAlgebra[Future]]
+      val versionRepo = mock[ModelVersionRepository[Future]]
       when(versionRepo.get(1)).thenReturn(Future.successful(Some(modelVersion)))
       when(versionRepo.get(Seq(1L))).thenReturn(Future.successful(Seq(modelVersion)))
-      val serviceManager = mock[ServiceManagementService]
-      when(serviceManager.addService(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(Future.failed(new RuntimeException("Test error")))
+      val serviceManager = mock[ServableService]
+      when(serviceManager.addServable(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(Future.failed(new RuntimeException("Test error")))
       when(serviceManager.fetchServicesUnsync(Set(1))).thenReturn(Future.successful(Seq.empty))
 
       val appChanged = ListBuffer.empty[Application]
@@ -121,8 +121,8 @@ class ApplicationServiceSpec extends GenericUnitTest {
       val eventPublisher = new ManagerEventBus {
         override def applicationChanged(application: Application): Unit = appChanged += application
         override def applicationRemoved(application: Application): Unit = appDeleted += application
-        override def serviceChanged(service: Service): Unit = ???
-        override def serviceRemoved(service: Service): Unit = ???
+        override def serviceChanged(service: Servable): Unit = ???
+        override def serviceRemoved(service: Servable): Unit = ???
         override def cloudServiceDetected(cloudService: Seq[CloudService]): Unit = ???
         override def cloudServiceRemoved(cloudService: Seq[CloudService]): Unit = ???
       }
@@ -141,7 +141,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
           )
         ))
       ))
-      applicationService.createApplication("test", None, graph, Seq.empty).flatMap{ res =>
+      applicationService.create("test", None, graph, Seq.empty).flatMap{ res =>
         assert(res.isRight, res)
         val app = res.right.get
         app.completed.foreach { x =>
@@ -156,7 +156,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
     }
 
     it("should handle finished builds") {
-      val appRepo = mock[ApplicationRepositoryAlgebra[Future]]
+      val appRepo = mock[ApplicationRepository[Future]]
       when(appRepo.get("test")).thenReturn(Future.successful(None))
       when(appRepo.create(Matchers.any())).thenReturn(Future.successful(
         Application(
@@ -173,12 +173,12 @@ class ApplicationServiceSpec extends GenericUnitTest {
           kafkaStreaming = List.empty
         )
       ))
-      val versionRepo = mock[ModelVersionRepositoryAlgebra[Future]]
+      val versionRepo = mock[ModelVersionRepository[Future]]
       when(versionRepo.get(1)).thenReturn(Future.successful(Some(modelVersion)))
       when(versionRepo.get(Seq(1L))).thenReturn(Future.successful(Seq(modelVersion)))
-      val serviceManager = mock[ServiceManagementService]
-      when(serviceManager.addService(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
-        Future(Right(Service(
+      val serviceManager = mock[ServableService]
+      when(serviceManager.addServable(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
+        Future(Right(Servable(
           id = 1,
           serviceName = "name",
           cloudDriverId = None,
@@ -194,8 +194,8 @@ class ApplicationServiceSpec extends GenericUnitTest {
       val eventPublisher = new ManagerEventBus {
         override def applicationChanged(application: Application): Unit = appChanged += application
         override def applicationRemoved(application: Application): Unit = appDeleted += application
-        override def serviceChanged(service: Service): Unit = ???
-        override def serviceRemoved(service: Service): Unit = ???
+        override def serviceChanged(service: Servable): Unit = ???
+        override def serviceRemoved(service: Servable): Unit = ???
         override def cloudServiceDetected(cloudService: Seq[CloudService]): Unit = ???
         override def cloudServiceRemoved(cloudService: Seq[CloudService]): Unit = ???
       }
@@ -214,7 +214,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
         serviceManager,
         eventPublisher
       )
-      applicationService.createApplication("test", None, graph, Seq.empty).flatMap { res =>
+      applicationService.create("test", None, graph, Seq.empty).flatMap { res =>
         val app = res.right.get
         app.completed.map { finished =>
           assert(finished.name === "test")
@@ -225,7 +225,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
       }
     }
     it("should rebuild on update") {
-      val appRepo = mock[ApplicationRepositoryAlgebra[Future]]
+      val appRepo = mock[ApplicationRepository[Future]]
       when(appRepo.get(1)).thenReturn(Future.successful(Some(
         Application(
           id = 1,
@@ -259,12 +259,12 @@ class ApplicationServiceSpec extends GenericUnitTest {
       ))
       when(appRepo.applicationsWithCommonServices(Matchers.any(), Matchers.any())).thenReturn(Future.successful(Seq.empty))
      when(appRepo.update(Matchers.any())).thenReturn(Future.successful(1))
-      val versionRepo = mock[ModelVersionRepositoryAlgebra[Future]]
+      val versionRepo = mock[ModelVersionRepository[Future]]
       when(versionRepo.get(1)).thenReturn(Future.successful(Some(modelVersion)))
       when(versionRepo.get(Matchers.any[Seq[Long]]())).thenReturn(Future.successful(Seq(modelVersion)))
-      val serviceManager = mock[ServiceManagementService]
-      when(serviceManager.addService(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
-        Future(Right(Service(
+      val serviceManager = mock[ServableService]
+      when(serviceManager.addServable(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
+        Future(Right(Servable(
           id = 1,
           serviceName = "name",
           cloudDriverId = None,
@@ -280,8 +280,8 @@ class ApplicationServiceSpec extends GenericUnitTest {
       val eventPublisher = new ManagerEventBus {
         override def applicationChanged(application: Application): Unit = appChanged += application
         override def applicationRemoved(application: Application): Unit = appDeleted += application
-        override def serviceChanged(service: Service): Unit = ???
-        override def serviceRemoved(service: Service): Unit = ???
+        override def serviceChanged(service: Servable): Unit = ???
+        override def serviceRemoved(service: Servable): Unit = ???
         override def cloudServiceDetected(cloudService: Seq[CloudService]): Unit = ???
         override def cloudServiceRemoved(cloudService: Seq[CloudService]): Unit = ???
       }
@@ -300,7 +300,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
         serviceManager,
         eventPublisher
       )
-      applicationService.updateApplication(1, "test", None, graph, Seq.empty).map{ res =>
+      applicationService.update(1, "test", None, graph, Seq.empty).map{ res =>
         val app = res.right.get
         assert(app.started.name === "test")
         assert(app.started.status === ApplicationStatus.Assembling)

@@ -1,64 +1,52 @@
 package io.hydrosphere.serving.manager.infrastructure.protocol
 
-import io.hydrosphere.serving.manager.api.http.controller.environment.CreateEnvironmentRequest
+import io.hydrosphere.serving.manager.api.http.controller.environment.CreateHostSelector
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
+import io.hydrosphere.serving.manager.domain.DomainError
+import io.hydrosphere.serving.manager.domain.DomainError.{InvalidRequest, NotFound}
 import io.hydrosphere.serving.manager.domain.clouddriver.{MetricServiceTargetLabels, MetricServiceTargets}
 import io.hydrosphere.serving.manager.domain.model.UpdateModelRequest
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersionView
-import io.hydrosphere.serving.model.api.Result.{ClientError, ErrorCollection, HError, InternalError}
 import spray.json.{JsObject, JsString, JsValue, _}
 
 trait CompleteJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol with ModelJsonProtocol {
 
   implicit val updateModelRequest = jsonFormat2(UpdateModelRequest)
 
-  implicit val createEnvironmentRequest = jsonFormat2(CreateEnvironmentRequest)
+  implicit val createEnvironmentRequest = jsonFormat2(CreateHostSelector)
 
   implicit val metricServiceTargetLabelsFormat = jsonFormat11(MetricServiceTargetLabels)
 
   implicit val metricServiceTargetsFormat = jsonFormat2(MetricServiceTargets)
 
-  implicit def internalErrorFormat[T <: Throwable] = new RootJsonFormat[InternalError[T]] {
-    override def write(obj: InternalError[T]): JsValue = {
-      val fields = Map(
-        "exception" -> JsString(obj.exception.getMessage)
-      )
-      val reasonField = obj.reason.map { r =>
-        Map("reason" -> JsString(r))
-      }.getOrElse(Map.empty)
-
-      JsObject(fields ++ reasonField)
-    }
-
-    override def read(json: JsValue): InternalError[T] = ???
-  }
-
-  implicit val clientErrorFormat = jsonFormat1(ClientError.apply)
-
-  implicit val errorFormat = new RootJsonFormat[HError] {
-    override def write(obj: HError): JsValue = {
+  implicit val errorFormat = new RootJsonFormat[DomainError] {
+    override def write(obj: DomainError): JsValue = {
       obj match {
-        case x: ClientError => JsObject(Map(
-          "error" -> JsString("Client"),
-          "information" -> x.toJson
+        case x: DomainError.NotFound => JsObject(Map(
+          "error" -> JsString("NotFound"),
+          "message" -> JsString(x.message)
         ))
-        case x: InternalError[_] => JsObject(Map(
-          "error" -> JsString("Internal"),
-          "information" -> x.toJson
+        case x: DomainError.InvalidRequest => JsObject(Map(
+          "error" -> JsString("InvalidRequest"),
+          "message" -> JsString(x.message)
         ))
-        case ErrorCollection(errors) => JsObject(Map(
-          "error" -> JsString("Multiple"),
-          "information" -> JsArray(errors.map(write).toVector)
+        case x: DomainError.InternalError => JsObject(Map(
+          "error" -> JsString("InternalError"),
+          "information" -> JsString(x.message)
+        ))
+        case x => JsObject(Map(
+          "error" -> JsString("DomainError"),
+          "information" -> JsString(x.message)
         ))
       }
     }
 
-    override def read(json: JsValue): HError = ???
+    override def read(json: JsValue): DomainError = throw DeserializationException("Can't deserealize DomainError")
   }
 
-  implicit val modelUpload = jsonFormat6(ModelUploadMetadata.apply)
+  implicit val modelUpload = jsonFormat5(ModelUploadMetadata.apply)
 
-  implicit val versionView = jsonFormat12(ModelVersionView.apply)
+  implicit val versionView = jsonFormat11(ModelVersionView.apply)
 }
 
 object CompleteJsonProtocol extends CompleteJsonProtocol

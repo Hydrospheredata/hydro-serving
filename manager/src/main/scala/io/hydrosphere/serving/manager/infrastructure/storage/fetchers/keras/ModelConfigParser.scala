@@ -2,90 +2,81 @@ package io.hydrosphere.serving.manager.infrastructure.storage.fetchers.keras
 
 import java.nio.file.Path
 
+import cats.Monad
+import cats.data.OptionT
+import cats.effect.Sync
+import cats.syntax.flatMap._
+import cats.syntax.functor._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.manager.infrastructure.storage.StorageOps
+import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.FetcherResult
 import io.hydrosphere.serving.manager.util.HDF5File
-import io.hydrosphere.serving.model.api.{ModelMetadata, ModelType}
 import org.apache.commons.io.FilenameUtils
 import org.apache.logging.log4j.scala.Logging
 
-import scala.io.Source
-import scala.util.control.NonFatal
+import scala.util.Try
 
-private[keras] trait ModelConfigParser {
-  def importModel: Option[ModelMetadata]
+private[keras] trait ModelConfigParser[F[_]] {
+  def importModel: F[Option[FetcherResult]]
 }
 
 private[keras] object ModelConfigParser extends Logging {
-  def importer(source: StorageOps, directory: String): Option[ModelConfigParser] = {
-    findH5file(source, directory) match {
-      case Some(h5Path) =>
-        logger.debug(s"Found a .h5 file: $h5Path")
-        Some(ModelConfigParser.H5(h5Path))
-
-      case None =>
-        logger.debug(s"Did not find keras model files")
-        None
-    }
+  def importer[F[_] : Sync](source: StorageOps[F], directory: Path): F[Option[ModelConfigParser[F]]] = {
+    val f = for {
+      h5Path <- findH5file(source, directory)
+    } yield ModelConfigParser.H5(source, h5Path).asInstanceOf[ModelConfigParser[F]]
+    f.value
   }
 
-  def findH5file(source: StorageOps, directory: String): Option[Path] = {
-    source.getReadableFile(directory).right.toOption.flatMap { dirFile =>
-      dirFile.listFiles().find(f => f.isFile && f.getName.endsWith(".h5")).map(_.toPath)
-    }
+  def findH5file[F[_] : Monad](source: StorageOps[F], directory: Path) = {
+    for {
+      dirFile <- OptionT(source.getReadableFile(directory))
+      file <- OptionT.fromOption(dirFile.listFiles().find(f => f.isFile && f.getName.endsWith(".h5")).map(_.toPath))
+    } yield file
   }
 
-  def findJsonfile(source: StorageOps, directory: String): Option[Path] = {
-    source.getReadableFile(directory).right.toOption.flatMap { dirFile =>
-      dirFile.listFiles().find(f => f.isFile && f.getName.endsWith(".json")).map(_.toPath)
-    }
-  }
-
-  case class H5(h5path: Path) extends ModelConfigParser {
-    def importModel: Option[ModelMetadata] = {
-      val h5File = HDF5File(h5path.toString)
-      try {
-        val modelName = FilenameUtils.removeExtension(h5path.getFileName.getFileName.toString)
-        val jsonModelConfig = h5File.readAttributeAsString("model_config")
-        val kerasVersion = h5File.readAttributeAsString("keras_version")
-        JsonString(jsonModelConfig, modelName, kerasVersion).importModel
-      } finally {
-        h5File.close()
+  case class H5[F[_] : Sync](source: StorageOps[F], h5path: Path) extends ModelConfigParser[F] {
+    def importModel: F[Option[FetcherResult]] = {
+      val h5 = Sync[F].delay(HDF5File(h5path.toString))
+      Sync[F].bracketCase(h5) { h5File =>
+        for {
+          modelName <- Sync[F].delay(FilenameUtils.removeExtension(h5path.getFileName.getFileName.toString))
+          jsonModelConfig <- Sync[F].delay(h5File.readAttributeAsString("model_config"))
+          kerasVersion <- Sync[F].delay(h5File.readAttributeAsString("keras_version"))
+          model <- JsonString(jsonModelConfig, modelName, kerasVersion).importModel
+        } yield model
+      } {
+        case (a, _) => Sync[F].delay(a.close())
       }
     }
   }
 
-  case class JsonFile(jsonPath: Path) extends ModelConfigParser {
-    def importModel: Option[ModelMetadata] = {
-      val jsonModelConfig = Source.fromFile(jsonPath.toFile).mkString
-      JsonString(jsonModelConfig, jsonPath.toString, "unknown").importModel
-    }
-  }
+  //  case class JsonFile(jsonPath: Path) extends ModelConfigParser {
+  //    def importModel: Option[ModelMetadata] = {
+  //      val jsonModelConfig = Source.fromFile(jsonPath.toFile).mkString
+  //      JsonString(jsonModelConfig, jsonPath.toString, "unknown").importModel
+  //    }
+  //  }
 
-  case class JsonString(modelConfigJson: String, name: String, version: String) extends ModelConfigParser {
+  case class JsonString[F[_] : Monad](modelConfigJson: String, name: String, version: String) extends ModelConfigParser[F] {
 
     import spray.json._
 
-    override def importModel: Option[ModelMetadata] = {
-      try {
-        val config = modelConfigJson.parseJson.convertTo[ModelConfig]
-        logger.debug(s"ModelConfig class: ${config.getClass}")
-        val contract = ModelContract(
+    override def importModel: F[Option[FetcherResult]] = {
+      val f = for {
+        config <- OptionT.fromOption(Try(modelConfigJson.parseJson.convertTo[ModelConfig]).toOption)
+        signatures <- OptionT.fromOption(Try(config.toSignatures).toOption)
+        contract = ModelContract(
           modelName = name,
-          signatures = config.toSignatures
+          signatures = signatures
         )
-        Some(
-          ModelMetadata(
-            modelName = name,
-            modelType = ModelType.Unknown("keras", version),
-            contract = contract
-          )
+      } yield {
+        FetcherResult(
+          modelName = name,
+          modelContract = contract
         )
-      } catch {
-        case NonFatal(x) =>
-          logger.debug("Error while reading ModelConfig json", x)
-          None
       }
+      f.value
     }
   }
 

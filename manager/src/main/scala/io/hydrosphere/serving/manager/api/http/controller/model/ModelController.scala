@@ -4,30 +4,27 @@ import akka.actor.ActorSystem
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
 import akka.stream.ActorMaterializer
-import akka.util.Timeout
+import cats.effect.Effect
+import cats.syntax.functor._
 import io.hydrosphere.serving.manager.api.http.controller.AkkaHttpControllerDsl
-import io.hydrosphere.serving.manager.domain.model.{Model, ModelRepositoryAlgebra, ModelService}
+import io.hydrosphere.serving.manager.domain.DomainError.InvalidRequest
+import io.hydrosphere.serving.manager.domain.model.{Model, ModelRepository, ModelService}
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionService, ModelVersionView}
-import io.hydrosphere.serving.model.api.Result
 import io.swagger.annotations._
 import javax.ws.rs.Path
 
-import scala.concurrent.Future
-import scala.concurrent.duration._
 
 @Path("/api/v2/model")
 @Api(produces = "application/json", tags = Array("Model and Model Versions"))
-class ModelController(
-  modelManagementService: ModelService,
-  modelRepo: ModelRepositoryAlgebra[Future],
-  modelVersionManagementService: ModelVersionService
+class ModelController[F[_]: Effect](
+  modelManagementService: ModelService[F],
+  modelRepo: ModelRepository[F],
+  modelVersionManagementService: ModelVersionService[F]
 )(
   implicit val system: ActorSystem,
   val materializer: ActorMaterializer,
-)
-  extends AkkaHttpControllerDsl {
+) extends AkkaHttpControllerDsl {
   implicit val ec = system.dispatcher
-  implicit val timeout = Timeout(10.minutes)
 
   @Path("/")
   @ApiOperation(value = "listModels", notes = "listModels", nickname = "listModels", httpMethod = "GET")
@@ -37,7 +34,7 @@ class ModelController(
   ))
   def listModels = path("model") {
     get {
-      complete(modelRepo.all())
+      completeF(modelRepo.all())
     }
   }
 
@@ -53,7 +50,7 @@ class ModelController(
   def getModel = pathPrefix("model" / LongNumber) { id =>
     get {
       completeFRes {
-        modelManagementService.getModel(id)
+        modelManagementService.get(id)
       }
     }
   }
@@ -70,11 +67,12 @@ class ModelController(
   ))
   def uploadModel = pathPrefix("model" / "upload") {
     post {
-      getFileWithMeta[ModelUploadMetadata, ModelVersion] {
+      getFileWithMeta[F, ModelUploadMetadata, ModelVersion] {
         case (Some(file), Some(meta)) =>
-          modelManagementService.uploadModel(file, meta).map(x => x.right.map(_.startedVersion))
-        case (None, _) => Result.clientErrorF("Couldn't find a payload in request")
-        case (_, None) => Result.clientErrorF("Couldn't find a metadata in request")
+          modelManagementService.uploadModel(file, meta)
+            .map(x => x.right.map(_.startedVersion))
+        case (None, _) => Effect[F].pure(Left(InvalidRequest("Couldn't find a payload in request")))
+        case (_, None) => Effect[F].pure(Left(InvalidRequest("Couldn't find a metadata in request")))
       }
     }
   }
