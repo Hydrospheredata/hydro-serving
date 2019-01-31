@@ -21,8 +21,6 @@ import org.apache.logging.log4j.scala.Logging
 trait ModelService[F[_]] {
   def get(modelId: Long): F[Either[DomainError, Model]]
 
-  def upsertRequest(request: CreateModelRequest): F[Either[DomainError, Model]]
-
   def deleteModel(modelId: Long): F[Either[DomainError, Model]]
 
   def uploadModel(filePath: Path, meta: ModelUploadMetadata): F[Either[DomainError, BuildResult]]
@@ -70,27 +68,16 @@ object ModelService {
             .toRight(DomainError.invalidRequest("No contract provided and couldn't infer it from model files."))
         versionMetadata = ModelVersionMetadata.fromModel(contract, meta, hs)
         _ <- EitherT.fromEither(ModelVersionMetadata.validateContract(versionMetadata))
-        request = CreateModelRequest(versionMetadata.modelName)
-        parentModel <- EitherT(upsertRequest(request))
+        parentModel <- EitherT.liftF(createIfNecessary(versionMetadata.modelName))
         b <- EitherT.liftF[F, DomainError, BuildResult](modelVersionBuilder.build(parentModel, versionMetadata, modelPath))
       } yield b
       f.value
     }
 
-    def upsertRequest(request: CreateModelRequest): F[Either[DomainError, Model]] = {
-      modelRepository.get(request.name).flatMap {
-        case Some(model) =>
-          logger.info(s"Updating uploaded model with id: ${model.id} name: ${model.name}")
-          val filledModel = model.copy(name = request.name)
-          val f = for {
-            _ <- EitherT(checkIfUnique(model, filledModel))
-            _ <- EitherT.liftF[F, DomainError, Int](modelRepository.update(filledModel))
-          } yield filledModel
-          f.value
-
-        case None =>
-          logger.info(s"Creating uploaded model with name: ${request.name}")
-          EitherT.liftF[F, DomainError, Model](modelRepository.create(Model(-1, request.name))).value
+    def createIfNecessary(modelName: String): F[Model] = {
+      modelRepository.get(modelName).flatMap{
+        case Some(x) => Monad[F].pure(x)
+        case None => modelRepository.create(Model(0, modelName))
       }
     }
 

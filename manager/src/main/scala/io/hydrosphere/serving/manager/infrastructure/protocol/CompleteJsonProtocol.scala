@@ -3,15 +3,11 @@ package io.hydrosphere.serving.manager.infrastructure.protocol
 import io.hydrosphere.serving.manager.api.http.controller.environment.CreateHostSelector
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
 import io.hydrosphere.serving.manager.domain.DomainError
-import io.hydrosphere.serving.manager.domain.DomainError.{InvalidRequest, NotFound}
 import io.hydrosphere.serving.manager.domain.clouddriver.{MetricServiceTargetLabels, MetricServiceTargets}
-import io.hydrosphere.serving.manager.domain.model.UpdateModelRequest
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersionView
-import spray.json.{JsObject, JsString, JsValue, _}
+import spray.json._
 
 trait CompleteJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol with ModelJsonProtocol {
-
-  implicit val updateModelRequest = jsonFormat2(UpdateModelRequest)
 
   implicit val createEnvironmentRequest = jsonFormat2(CreateHostSelector)
 
