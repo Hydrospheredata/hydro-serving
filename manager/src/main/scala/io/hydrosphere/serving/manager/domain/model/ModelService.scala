@@ -14,7 +14,7 @@ import io.hydrosphere.serving.manager.domain.application.{Application, Applicati
 import io.hydrosphere.serving.manager.domain.host_selector.{HostSelector, HostSelectorRepository}
 import io.hydrosphere.serving.manager.domain.model_build.ModelVersionBuilder
 import io.hydrosphere.serving.manager.domain.model_version.{BuildResult, ModelVersion, ModelVersionRepository, ModelVersionService}
-import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorage
+import io.hydrosphere.serving.manager.infrastructure.storage.{ModelFileStructure, ModelStorage}
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.ModelFetcher
 import org.apache.logging.log4j.scala.Logging
 
@@ -64,15 +64,15 @@ object ModelService {
 
       val f = for {
         hs <- maybeHostSelector
-        modelPath <- EitherT.liftF[F, DomainError, Path](storageService.unpack(filePath, meta.name))
+        modelPath <- EitherT.liftF[F, DomainError, ModelFileStructure](storageService.unpack(filePath))
         contract <- OptionT.fromOption(meta.contract)
-          .orElse(OptionT(fetcher.fetch(modelPath)).map(_.modelContract))
+          .orElse(OptionT(fetcher.fetch(modelPath.filesPath)).map(_.modelContract))
             .toRight(DomainError.invalidRequest("No contract provided and couldn't infer it from model files."))
         versionMetadata = ModelVersionMetadata.fromModel(contract, meta, hs)
         _ <- EitherT.fromEither(ModelVersionMetadata.validateContract(versionMetadata))
         request = CreateModelRequest(versionMetadata.modelName)
-        req <- EitherT(upsertRequest(request))
-        b <- EitherT.liftF[F, DomainError, BuildResult](modelVersionBuilder.build(req, versionMetadata))
+        parentModel <- EitherT(upsertRequest(request))
+        b <- EitherT.liftF[F, DomainError, BuildResult](modelVersionBuilder.build(parentModel, versionMetadata, modelPath))
       } yield b
       f.value
     }
@@ -84,7 +84,6 @@ object ModelService {
           val filledModel = model.copy(name = request.name)
           val f = for {
             _ <- EitherT(checkIfUnique(model, filledModel))
-            _ <- EitherT.fromOptionF[F, DomainError, Path](storageService.rename(model.name, filledModel.name), DomainError.internalError("Couldn't find the model folder"))
             _ <- EitherT.liftF[F, DomainError, Int](modelRepository.update(filledModel))
           } yield filledModel
           f.value

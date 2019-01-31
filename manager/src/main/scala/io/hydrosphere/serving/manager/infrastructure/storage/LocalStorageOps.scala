@@ -45,7 +45,10 @@ class LocalStorageOps[F[_]: Sync] extends StorageOps[F] {
   }
 
   override def copyFile(src: Path, target: Path): F[Path] = Sync[F].delay {
-    println(src.toString -> target.toString)
+    val parentPath = target.getParent
+    if (!Files.exists(parentPath)) {
+      Files.createDirectories(parentPath)
+    }
     Files.copy(src, target, StandardCopyOption.REPLACE_EXISTING)
   }
 

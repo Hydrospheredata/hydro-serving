@@ -1,16 +1,16 @@
 package io.hydrosphere.serving.manager.domain.model_build
 
-import io.hydrosphere.serving.manager.domain.model_version.BuildRequest
+import io.hydrosphere.serving.manager.domain.model_version.ModelVersion
 
 object BuildScript {
-  final def generate(buildRequest: BuildRequest): String = {
+  final def generate(modelVersion: ModelVersion): String = {
     val commandSeq = Seq(
-      s"FROM ${buildRequest.baseImage.fullName}",
-      s"LABEL ${Parameters.modelNameLabel}=${buildRequest.modelName}",
-      s"LABEL ${Parameters.modelVersionLabel}=${buildRequest.modelVersion}",
+      s"FROM ${modelVersion.runtime.fullName}",
+      s"LABEL ${Parameters.modelNameLabel}=${modelVersion.model.name}",
+      s"LABEL ${Parameters.modelVersionLabel}=${modelVersion.modelVersion}",
       s"ADD model /model",
       s"WORKDIR /model"
-    ) ++ buildRequest.installCommand
+    ) ++ modelVersion.installCommand
       .map(x => s"RUN $x").toSeq
     commandSeq.mkString("\n")
   }
@@ -22,5 +22,4 @@ object BuildScript {
     final val filesDir = "model/files"
     final val contractFile = "model/contract.protobin"
   }
-
 }

@@ -21,7 +21,6 @@ import io.hydrosphere.serving.manager.domain.servable.ServableService
 import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.ManagerEventBus
 import io.hydrosphere.serving.manager.infrastructure.envoy.{EnvoyGRPCDiscoveryService, XDSManagementActor}
 import io.hydrosphere.serving.manager.infrastructure.image.DockerImageBuilder
-import io.hydrosphere.serving.manager.infrastructure.model_build.TempFilePacker
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.ModelFetcher
 import io.hydrosphere.serving.manager.infrastructure.storage.{LocalModelStorage, LocalStorageOps, StorageOps}
 import io.hydrosphere.serving.manager.util.docker.InfoProgressHandler
@@ -50,22 +49,13 @@ class ManagerServices[F[_]: Effect](
 
   val channel: Channel = ClientInterceptors.intercept(managedChannel, new AuthorityReplacerInterceptor +: Headers.interceptors: _*)
 
-  private val rootDir = managerConfiguration.localStorage.getOrElse(Files.createTempDirectory("hydroservingLocalStorage"))
   val storageOps: LocalStorageOps[F] = StorageOps.default
-  logger.info(s"Using model storage: $rootDir")
-
 
   val modelStorage = new LocalModelStorage[F](
-    rootDir = rootDir,
     storageOps = storageOps
   )
 
   val modelFetcher: ModelFetcher[F] = ModelFetcher.default[F](storageOps)
-
-  val modelFilePacker = new TempFilePacker(
-    modelStorage = modelStorage,
-    storageOps = storageOps
-  )
 
   val imageBuilder = new DockerImageBuilder(
     dockerClient = dockerClient,
@@ -86,7 +76,6 @@ class ManagerServices[F[_]: Effect](
   )
 
   val versionBuilder = ModelVersionBuilder(
-    modelFilePacker = modelFilePacker,
     imageBuilder = imageBuilder,
     modelVersionRepository = managerRepositories.modelVersionRepository,
     imageRepository = imageRepository,

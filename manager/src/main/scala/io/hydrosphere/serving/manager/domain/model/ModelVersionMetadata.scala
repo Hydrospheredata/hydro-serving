@@ -19,10 +19,9 @@ case class ModelVersionMetadata(
 
 object ModelVersionMetadata {
   def fromModel(modelContract: ModelContract, upload: ModelUploadMetadata, hs: Option[HostSelector]) = {
-    val name = upload.name.getOrElse(modelContract.modelName)
-    val contract = upload.contract.getOrElse(modelContract).copy(modelName = name)
+    val contract = upload.contract.getOrElse(modelContract).copy(modelName = upload.name)
     ModelVersionMetadata(
-      modelName = name,
+      modelName = upload.name,
       contract = contract,
       profileTypes = upload.profileTypes.getOrElse(Map.empty),
       runtime = upload.runtime,

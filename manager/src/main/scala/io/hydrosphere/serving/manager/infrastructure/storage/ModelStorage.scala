@@ -1,30 +1,35 @@
 package io.hydrosphere.serving.manager.infrastructure.storage
 
-import java.io.File
 import java.nio.file.Path
+
+import cats.effect.Sync
+
+case class ModelFileStructure(
+  root: Path,
+  model: Path,
+  filesPath: Path,
+  contractPath: Path,
+  dockerfile: Path
+)
+
+object ModelFileStructure {
+  def forRoot[F[_]: Sync](root: Path): F[ModelFileStructure] = Sync[F].delay {
+    val modelPath = root.resolve("model")
+    ModelFileStructure(
+      root = root,
+      model = modelPath,
+      filesPath = modelPath.resolve("files"),
+      contractPath = modelPath.resolve("contract.protobin"),
+      dockerfile = root.resolve("Dockerfile")
+    )
+  }
+}
 
 trait ModelStorage[F[_]] {
   /**
-    * Perform an upload operation and return path to model folder
-    * @param upload
+    * Unpacks model files and returns path to it
+    * @param filePath path to the tarball file
     * @return
     */
-  def unpack(filePath: Path, folderName: Option[String]): F[Path]
-
-  /**
-    * Get readable path from model in default localStorage
-    * @param folderPath inner localStorage path
-    * @return
-    */
-  def getLocalPath(folderPath: String): F[Option[Path]]
-
-  /***
-    * Renames storage-level folder
-    * @param oldFolder old folder name
-    * @param newFolder new folder name
-    * @return path to the new folder
-    */
-  def rename(oldFolder: String, newFolder: String): F[Option[Path]]
-
-  def writeFile(path: String, localFile: File): F[Path]
+  def unpack(filePath: Path): F[ModelFileStructure]
 }
