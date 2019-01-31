@@ -10,5 +10,6 @@ case class ModelUploadMetadata(
   runtime: DockerImage,
   hostSelectorName: Option[String] = None,
   contract: Option[ModelContract] = None,
-  profileTypes: Option[Map[String, DataProfileType]] = None
+  profileTypes: Option[Map[String, DataProfileType]] = None,
+  installCommand: Option[String] = None
 )

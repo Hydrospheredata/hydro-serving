@@ -10,6 +10,8 @@ trait HostSelectorService[F[_]] {
   def create(name: String, placeholder: String): F[Either[DomainError, HostSelector]]
 
   def delete(id: Long): F[Either[DomainError, HostSelector]]
+
+  def get(name: String): F[Either[DomainError, HostSelector]]
 }
 
 object HostSelectorService {
@@ -32,6 +34,13 @@ object HostSelectorService {
       val f = for {
         hs <- EitherT.fromOptionF[F, DomainError, HostSelector](hsRepo.get(id), DomainError.notFound(s"Can't find HostSelector with id $id"))
         _ <- EitherT.liftF[F, DomainError, Int](hsRepo.delete(hs.id))
+      } yield hs
+      f.value
+    }
+
+    override def get(name: String): F[Either[DomainError, HostSelector]] = {
+      val f = for {
+        hs <- EitherT.fromOptionF(hsRepo.get(name), DomainError.notFound(s"Can't find HostSelector with name $name"))
       } yield hs
       f.value
     }

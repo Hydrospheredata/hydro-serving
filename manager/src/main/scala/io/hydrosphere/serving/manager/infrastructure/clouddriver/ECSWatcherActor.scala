@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager.infrastructure.clouddriver
 
 import java.util.UUID
 
+import akka.actor.Props
 import cats.effect.Effect
 import com.amazonaws.services.ec2.AmazonEC2
 import com.amazonaws.services.ec2.model.DescribeInstancesRequest
@@ -15,7 +16,7 @@ import io.hydrosphere.serving.manager.domain.clouddriver._
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.servable.Servable
-import io.hydrosphere.serving.manager.infrastructure.clouddriver.ECSServiceWatcherActor._
+import io.hydrosphere.serving.manager.infrastructure.clouddriver.ECSWatcherActor._
 import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events._
 import io.hydrosphere.serving.manager.infrastructure.protocol.CompleteJsonProtocol
 import io.hydrosphere.serving.manager.util.SelfScheduledActor
@@ -25,25 +26,15 @@ import scala.collection.JavaConverters._
 import scala.collection.mutable
 import scala.concurrent.duration._
 
-class ECSServiceWatcherActor[F[_]: Effect](
+class ECSWatcherActor[F[_]: Effect](
   eventPublisher: ManagerEventBus[F],
   ecsCloudDriverConfiguration: CloudDriverConfiguration.Ecs,
   route53Client: AmazonRoute53,
   ecsClient: AmazonECS,
-  ecs2Client: AmazonEC2
+  ec2: AmazonEC2
 ) extends SelfScheduledActor(0.seconds, 30.seconds)(30.seconds) with CompleteJsonProtocol {
 
-  import ECSServiceWatcherActor.Messages._
-//  val route53Client: AmazonRoute53 = AmazonRoute53ClientBuilder.standard()
-//    .build()
-//
-//  val ecsClient: AmazonECS = AmazonECSClientBuilder.standard()
-//    .withRegion(ecsCloudDriverConfiguration.region)
-//    .build()
-//
-//  val ecs2Client: AmazonEC2 = AmazonEC2ClientBuilder.standard()
-//    .withRegion(ecsCloudDriverConfiguration.region)
-//    .build()
+  import ECSWatcherActor.Messages._
 
   private val services = new mutable.ListBuffer[StoredService]()
 
@@ -56,8 +47,8 @@ class ECSServiceWatcherActor[F[_]: Effect](
     case RemoveService(serviceId) =>
       sender ! removeService(serviceId)
 
-    case DeployService(service, r, m, h) =>
-      sender ! deployService(service, r, m, h)
+    case DeployService(service, m, h) =>
+      sender ! deployService(service, m, h)
 
     case Services(serviceIds) =>
       sender ! services
@@ -213,7 +204,7 @@ class ECSServiceWatcherActor[F[_]: Effect](
     ecsClient.createService(createService).getService
   }
 
-  private def createTaskDefinition(service: Servable, runtime: DockerImage, modelVersion: DockerImage, host: Option[HostSelector]): TaskDefinition = {
+  private def createTaskDefinition(service: Servable, modelVersion: DockerImage, host: Option[HostSelector]): TaskDefinition = {
     val portMappings = List[PortMapping](
       new PortMapping().withContainerPort(DEFAULT_APP_PORT)
     )
@@ -237,30 +228,30 @@ class ECSServiceWatcherActor[F[_]: Effect](
 
     val javaLabels = mapAsJavaMap(getModelLabels(service))
 
-    val modelContainerDefinition = new ContainerDefinition()
-      .withName("model")
-      .withImage(modelVersion.fullName)
-      .withMemoryReservation(10)
-      .withEssential(false)
-      /*.withMountPoints(new MountPoint()
-          .withContainerPath(DEFAULT_MODEL_DIR)
-          .withSourceVolume("model")
-        )*/
-      .withDockerLabels(labels.asJava)
+//    val modelContainerDefinition = new ContainerDefinition()
+//      .withName("model")
+//      .withImage(modelVersion.fullName)
+//      .withMemoryReservation(10)
+//      .withEssential(false)
+//      /*.withMountPoints(new MountPoint()
+//          .withContainerPath(DEFAULT_MODEL_DIR)
+//          .withSourceVolume("model")
+//        )*/
+//      .withDockerLabels(labels.asJava)
 
 
     val containerDefinition = new ContainerDefinition()
       .withName("mainapp")
-      .withImage(runtime.fullName)
+      .withImage(modelVersion.fullName)
       .withMemoryReservation(ecsCloudDriverConfiguration.memoryReservation)
       .withEnvironment(env.asJava)
       .withDockerLabels(labels.asJava)
       .withPortMappings(portMappings.asJava)
 
-    containerDefinition.withVolumesFrom(new VolumeFrom()
-      .withSourceContainer(modelContainerDefinition.getName)
-      .withReadOnly(true)
-    )
+//    containerDefinition.withVolumesFrom(new VolumeFrom()
+//      .withSourceContainer(modelContainerDefinition.getName)
+//      .withReadOnly(true)
+//    )
 
     ecsCloudDriverConfiguration.loggingConfiguration.map(x => {
       containerDefinition.withLogConfiguration(new LogConfiguration()
@@ -275,8 +266,8 @@ class ECSServiceWatcherActor[F[_]: Effect](
         containerDefinition
       )
 
-    registerTaskDefinition
-      .withContainerDefinitions(modelContainerDefinition)
+//    registerTaskDefinition
+//      .withContainerDefinitions(modelContainerDefinition)
     //.withVolumes(new Volume().withName("model"))
 
     host.map { e =>
@@ -291,8 +282,8 @@ class ECSServiceWatcherActor[F[_]: Effect](
       .getTaskDefinition
   }
 
-  def deployService(service: Servable, runtime: DockerImage, modelVersion: DockerImage, host: Option[HostSelector]): CloudService = {
-    val taskDefinition = createTaskDefinition(service, runtime, modelVersion, host)
+  def deployService(service: Servable, modelVersion: DockerImage, host: Option[HostSelector]): CloudService = {
+    val taskDefinition = createTaskDefinition(service, modelVersion, host)
     val ecsService = createService(service, taskDefinition)
 
     CloudService(
@@ -300,7 +291,7 @@ class ECSServiceWatcherActor[F[_]: Effect](
       serviceName = service.serviceName,
       statusText = ecsService.getStatus,
       cloudDriverId = ecsService.getServiceArn,
-      image = runtime,
+      image = modelVersion,
       instances = Seq()
     )
   }
@@ -332,7 +323,7 @@ class ECSServiceWatcherActor[F[_]: Effect](
     */
   private def fetchAllNetworks(instances: Seq[String]): Map[String, String] = instances.sliding(9)
     .flatMap(ids => {
-      val desc = ecs2Client.describeInstances(
+      val desc = ec2.describeInstances(
         new DescribeInstancesRequest()
           .withInstanceIds(ids.asJava)
       )
@@ -552,7 +543,14 @@ class ECSServiceWatcherActor[F[_]: Effect](
   }
 }
 
-object ECSServiceWatcherActor {
+object ECSWatcherActor {
+  def props[F[_]: Effect](
+    eventPublisher: ManagerEventBus[F],
+    ecsCloudDriverConfiguration: CloudDriverConfiguration.Ecs,
+    route53Client: AmazonRoute53,
+    ecsClient: AmazonECS,
+    ec2: AmazonEC2
+  ) = Props(classOf[ECSWatcherActor[F]], eventPublisher, ecsCloudDriverConfiguration, route53Client, ecsClient, ec2)
 
   def createFakeServices(services: Seq[StoredService]): Seq[StoredService] = {
     services ++ services.filter(cs => fakeHttpServices.contains(cs.cloudService.id))
@@ -646,7 +644,6 @@ object ECSServiceWatcherActor {
 
     case class DeployService(
       service: Servable,
-      runtime: DockerImage,
       modelVersion: DockerImage,
       host: Option[HostSelector]
     )

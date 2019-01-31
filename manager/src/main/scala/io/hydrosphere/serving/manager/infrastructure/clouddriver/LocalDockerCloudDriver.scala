@@ -5,7 +5,7 @@ import cats.syntax.flatMap._
 import cats.syntax.functor._
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.{ListContainersParam, RemoveContainerParam}
-import com.spotify.docker.client.messages.{ContainerConfig, HostConfig}
+import com.spotify.docker.client.messages.{Container, ContainerConfig, HostConfig}
 import io.hydrosphere.serving.manager.config._
 import io.hydrosphere.serving.manager.domain.clouddriver.DefaultConstants._
 import io.hydrosphere.serving.manager.domain.clouddriver._
@@ -20,7 +20,7 @@ import org.apache.logging.log4j.scala.Logging
 import scala.collection.JavaConverters._
 import scala.concurrent.{ExecutionContext, Future}
 
-class LocalCloudDriverService[F[_]: Async](
+class LocalDockerCloudDriver[F[_]: Async](
   dockerClient: DockerClient,
   applicationConfig: ApplicationConfig,
   sidecarConfig: SidecarConfig,
@@ -33,11 +33,11 @@ class LocalCloudDriverService[F[_]: Async](
     postProcessAllServiceList(getAllServices)
   }
 
-  override def deployService(service: Servable, runtime: DockerImage, modelVersion: DockerImage, host: Option[HostSelector]): F[CloudService] = AsyncUtil.futureAsync {
+  override def deployService(service: Servable, modelVersion: DockerImage, host: Option[HostSelector]): F[CloudService] = AsyncUtil.futureAsync {
     Future {
       logger.debug(service)
 
-      startModel(service, modelVersion)
+//      startModel(service, modelVersion)
 
       val javaLabels = getRuntimeLabels(service) ++ Map(
         DefaultConstants.LABEL_SERVICE_NAME -> service.serviceName
@@ -53,10 +53,10 @@ class LocalCloudDriverService[F[_]: Async](
 
       val builder = createMainApplicationHostConfigBuilder()
 
-      builder.volumesFrom(service.serviceName)
+//      builder.volumesFrom(service.serviceName)
 
       val c = dockerClient.createContainer(ContainerConfig.builder()
-        .image(runtime.fullName)
+        .image(modelVersion.fullName)
         .exposedPorts(DefaultConstants.DEFAULT_APP_PORT.toString)
         .labels(javaLabels.asJava)
         .hostConfig(builder.build())
@@ -145,7 +145,7 @@ class LocalCloudDriverService[F[_]: Async](
   }
 
   protected def getAllServices: Seq[CloudService] =
-    DockerUtil.collectCloudService(
+    collectCloudService(
       dockerClient.listContainers(
         ListContainersParam.withLabel(DefaultConstants.LABEL_HS_SERVICE_MARKER, DefaultConstants.LABEL_HS_SERVICE_MARKER),
         ListContainersParam.allContainers()
@@ -241,12 +241,98 @@ class LocalCloudDriverService[F[_]: Async](
     )
 
   private def fetchById(serviceId: Long): CloudService = {
-    DockerUtil.collectCloudService(
+    collectCloudService(
       dockerClient.listContainers(
         ListContainersParam.withLabel(DefaultConstants.LABEL_SERVICE_ID, serviceId.toString),
         ListContainersParam.allContainers()
       ).asScala,
       sidecarConfig
     ).headOption.getOrElse(throw new IllegalArgumentException(s"Can't find service with id=$serviceId"))
+  }
+
+
+  def collectCloudService(containers: Seq[Container], sidecarConfig: SidecarConfig): Seq[CloudService] = {
+    containers
+      .groupBy(_.labels().get(DefaultConstants.LABEL_SERVICE_ID))
+      .filter {
+        case (_, v) =>
+          v.exists { c =>
+            val depType = c.labels().get(DefaultConstants.LABEL_DEPLOYMENT_TYPE)
+            depType == DefaultConstants.DEPLOYMENT_TYPE_APP && c.state() == "running"
+          }
+      }
+      .flatMap {
+        case (k, v) =>
+          try {
+            Seq(
+              mapToCloudService(
+                k.toLong,
+                v.filterNot { c =>
+                  val depType = c.labels().get(DefaultConstants.LABEL_DEPLOYMENT_TYPE)
+                  depType == DefaultConstants.DEPLOYMENT_TYPE_APP && c.state() != "running"
+                },
+                sidecarConfig
+              )
+            )
+          } catch {
+            case e: Throwable =>
+              Seq.empty
+          }
+      }.toSeq
+  }
+
+  def mapMainApplicationInstance(containerApp: Container, defaultHost: String): MainApplicationInstance = {
+    MainApplicationInstance(
+      instanceId = containerApp.id(),
+      host = Option(containerApp.networkSettings().networks().get("bridge")).fold(defaultHost)(_.ipAddress()),
+      port = containerApp.ports().asScala
+        .filter(_.privatePort() == DefaultConstants.DEFAULT_APP_PORT)
+        .find(_.publicPort() != null)
+        .map(_.publicPort().toInt)
+        .filter(_ != 0)
+        .getOrElse(DefaultConstants.DEFAULT_APP_PORT)
+    )
+  }
+
+  def mapToCloudService(serviceId: Long, seq: Seq[Container], sidecarConfig: SidecarConfig): CloudService = {
+    val map = seq.map(c => c.labels().get(DefaultConstants.LABEL_DEPLOYMENT_TYPE) -> c).toMap
+
+    val containerApp = map.getOrElse(DefaultConstants.DEPLOYMENT_TYPE_APP, throw new RuntimeException(s"Can't find APP for service $serviceId in $seq"))
+    val containerModel = map.get(DefaultConstants.DEPLOYMENT_TYPE_MODEL)
+
+    val mainApplicationInstance = mapMainApplicationInstance(containerApp, sidecarConfig.host)
+
+    val image = containerApp.image()
+    CloudService(
+      id = serviceId,
+      serviceName = Option(containerApp.labels().get(DefaultConstants.LABEL_SERVICE_NAME))
+        .getOrElse(throw new RuntimeException(s"${DefaultConstants.LABEL_SERVICE_NAME} required $containerApp")),
+      statusText = containerApp.status(),
+      cloudDriverId = containerApp.id(),
+      image = DockerImage(
+        name = image,
+        tag = image
+      ),
+      instances = Seq(
+        ServiceInstance(
+          advertisedHost = mainApplicationInstance.host,
+          advertisedPort = mainApplicationInstance.port,
+          instanceId = containerApp.id(),
+          mainApplication = mainApplicationInstance,
+          sidecar = SidecarInstance(
+            instanceId = "managerConfiguration.sidecar",
+            host = sidecarConfig.host,
+            ingressPort = sidecarConfig.ingressPort,
+            egressPort = sidecarConfig.egressPort,
+            adminPort = sidecarConfig.adminPort
+          ),
+          model = containerModel.map(c => {
+            ModelInstance(
+              c.id()
+            )
+          })
+        )
+      )
+    )
   }
 }

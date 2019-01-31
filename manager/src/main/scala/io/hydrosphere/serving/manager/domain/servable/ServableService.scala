@@ -41,7 +41,7 @@ object ServableService {
       )
       val f = for {
         newService <- servableRepository.create(dService)
-        cloudService <- cloudDriver.deployService(newService, modelVersion.runtime, modelVersion.image, modelVersion.hostSelector)
+        cloudService <- cloudDriver.deployService(newService, modelVersion.image, modelVersion.hostSelector)
         _ <- servableRepository.updateCloudDriveId(cloudService.id, Some(cloudService.cloudDriverId))
       } yield newService.copy(cloudDriverId = Some(cloudService.cloudDriverId))
 

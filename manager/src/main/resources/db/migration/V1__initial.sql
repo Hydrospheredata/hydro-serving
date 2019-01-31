@@ -23,10 +23,11 @@ CREATE TABLE hydro_serving.model_version
   image_name        TEXT                        NOT NULL,
   image_tag         TEXT                        NOT NULL,
   image_sha256      TEXT,
-  runtime_name       TEXT                        NOT NULL,
-  runtime_version    TEXT                        NOT NULL,
+  runtime_name      TEXT                        NOT NULL,
+  runtime_version   TEXT                        NOT NULL,
   status            TEXT                        NOT NULL,
-  profile_types      TEXT
+  profile_types     TEXT,
+  install_command   TEXT
 );
 
 CREATE TABLE hydro_serving.servable

@@ -1,11 +1,11 @@
 import sbt._
 
 object Dependencies {
-  val akkaVersion = "2.5.8"
-  val akkaHttpVersion = "10.0.11"
+  val akkaVersion = "2.5.14"
+  val akkaHttpVersion = "10.1.3"
   val log4j2Version = "2.8.2"
   val slickVersion = "3.2.1"
-  val postgresqlVersion = "42.1.3"
+  val postgresqlVersion = "42.1.4"
   val scalaTestVersion = "3.0.3"
   val slickPgVersion = "0.15.4"
   val awsSdkVersion = "1.11.312"
@@ -37,8 +37,7 @@ object Dependencies {
     "com.typesafe.akka" %% "akka-http-core" % akkaHttpVersion,
     "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
     "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
-    "com.typesafe.akka" %% "akka-http-xml" % akkaHttpVersion,
-    "com.github.swagger-akka-http" %% "swagger-akka-http" % "0.11.0" exclude("javax.ws.rs", "jsr311-api"),
+    "com.github.swagger-akka-http" %% "swagger-akka-http" % "1.0.0" exclude("javax.ws.rs", "jsr311-api"),
     "ch.megard" %% "akka-http-cors" % "0.2.1"
   )
 
@@ -73,10 +72,6 @@ object Dependencies {
     "com.typesafe.slick" %% "slick-codegen" % slickVersion
   )
 
-  lazy val influxDBClientDependencies = Seq(
-    "com.paulgoldbaum" %% "scala-influxdb-client" % "0.6.0" exclude("io.netty", "*")
-  )
-
   lazy val mlDependencies = Seq(
     "org.bytedeco.javacpp-presets" % "hdf5-platform" % "1.10.2-1.4.2",
     "org.tensorflow" % "proto" % "1.10.0"
@@ -91,11 +86,9 @@ object Dependencies {
     akkaHttpDependencies ++
     awsDependencies ++
     grpcDependencies ++
-    influxDBClientDependencies ++
     kubernetesDependencies ++
     mlDependencies ++
     Seq(
-      "org.typelevel" %% "cats-core" % catsV,
       "org.typelevel" %% "cats-effect" % catsV,
       "org.postgresql" % "postgresql" % postgresqlVersion,
       "com.typesafe.slick" %% "slick" % slickVersion,

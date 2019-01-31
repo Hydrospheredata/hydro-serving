@@ -82,13 +82,14 @@ class HttpApiServer[F[_]: Effect](
         )
       )
     case p: Throwable =>
-      logger.error(p.getMessage, p)
+      logger.error(p.toString)
+      logger.error(p.getStackTrace.mkString("\n"))
       complete(
         HttpResponse(
           StatusCodes.InternalServerError,
           entity = Map(
             "error" -> "InternalException",
-            "message" -> Option(p.getMessage).getOrElse(s"Unknown error: $p")
+            "message" -> Option(p.toString).getOrElse(s"Unknown error: $p")
           ).toJson.toString()
         )
       )

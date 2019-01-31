@@ -10,6 +10,7 @@ import io.hydrosphere.serving.manager.domain.clouddriver._
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.servable.Servable
+import io.hydrosphere.serving.manager.infrastructure.clouddriver.docker.DockerUtil
 import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.ManagerEventBus
 import io.hydrosphere.serving.manager.util.AsyncUtil
 import org.apache.logging.log4j.scala.Logging
@@ -20,7 +21,7 @@ import skuber.json.format._
 import scala.concurrent.{ExecutionContext, Future}
 import scala.language.reflectiveCalls
 
-class KubernetesCloudDriverService[F[_]: Async](
+class KubernetesCloudDriver[F[_]: Async](
   conf: CloudDriverConfiguration.Kubernetes,
   dockerRepoConf: DockerRepositoryConfiguration.Remote,
   internalManagerEventsPublisher: ManagerEventBus[F]
@@ -69,28 +70,34 @@ class KubernetesCloudDriverService[F[_]: Async](
           } yield container.image
           kubeServiceToCloudService(service, image.getOrElse(":"))
         })
-    } yield cloudServices ++ createFakeHttpServices(cloudServices)
+    } yield cloudServices ++ DockerUtil.createFakeHttpServices(cloudServices)
   }
 
-  override def deployService(service: Servable, runtime: DockerImage, modelVersion: DockerImage, host: Option[HostSelector]): F[CloudService] = AsyncUtil.futureAsync {
+  override def deployService(service: Servable, modelVersion: DockerImage, host: Option[HostSelector]): F[CloudService] = AsyncUtil.futureAsync {
     import LabelSelector.dsl._
 
-    val runtimeContainer = Container("runtime", runtime.fullName)
+    val runtimeContainer = Container("runtime", modelVersion.fullName)
       .exposePort(9090)
-      .mount("shared-model", "/model")
+    //      .mount("shared-model", "/model")
 
     val dockerRepoHost = dockerRepoConf.pullHost match {
       case Some(host) => host
       case None => dockerRepoConf.host
     }
 
-    val modelContainer = Container("model", s"$dockerRepoHost/${modelVersion.fullName}")
-      .mount("shared-model", "/shared/model")
-      .withEntrypoint("cp")
-      .withArgs("-a", "/model/.", "/shared/model/")
+    //    val modelContainer = Container("model", s"$dockerRepoHost/${modelVersion.fullName}")
+    //      .mount("shared-model", "/shared/model")
+    //      .withEntrypoint("cp")
+    //      .withArgs("-a", "/model/.", "/shared/model/")
 
-    val template = Pod.Template.Spec(metadata = ObjectMeta(name = service.serviceName), spec = Some(Pod.Spec().addImagePullSecretRef(conf.kubeRegistrySecretName).addVolume(Volume("shared-model", Volume.EmptyDir()))))
-      .addInitContainer(modelContainer)
+    val template = Pod.Template.Spec(
+      metadata = ObjectMeta(name = service.serviceName),
+      spec = Some(Pod.Spec()
+        .addImagePullSecretRef(conf.kubeRegistrySecretName)
+        .addVolume(Volume("shared-model", Volume.EmptyDir()))
+      )
+    )
+      //      .addInitContainer(modelContainer)
       .addContainer(runtimeContainer)
       .addLabel("app" -> service.serviceName)
 

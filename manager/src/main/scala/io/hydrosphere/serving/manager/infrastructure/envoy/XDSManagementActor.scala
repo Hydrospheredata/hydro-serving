@@ -4,7 +4,7 @@ import akka.actor.{Actor, ActorLogging, ActorRef, ActorSystem, Props}
 import cats.effect.Effect
 import cats.syntax.flatMap._
 import cats.syntax.functor._
-import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationRepository, ApplicationService}
+import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationRepository}
 import io.hydrosphere.serving.manager.domain.clouddriver.{CloudDriver, CloudService}
 import io.hydrosphere.serving.manager.domain.servable.ServableService
 import io.hydrosphere.serving.manager.infrastructure.envoy.xds._
@@ -127,29 +127,32 @@ class XDSManagementActor[F[_]: Effect](
 }
 
 object XDSManagementActor {
-  def props[F[_]](
-    serviceManagementService: ServableService[F],
-    applicationManagementService: ApplicationService[F],
+  def props[F[_] : Effect](
+    cloudDriver: CloudDriver[F],
+    servableService: ServableService[F],
+    appRepository: ApplicationRepository[F],
     clusterDSActor: ActorRef,
     endpointDSActor: ActorRef,
     listenerDSActor: ActorRef,
     routeDSActor: ActorRef,
     applicationDSActor: ActorRef
   ): Props = {
-    Props(classOf[XDSManagementActor[F]],
-      serviceManagementService,
-      applicationManagementService,
-      clusterDSActor,
-      endpointDSActor,
-      listenerDSActor,
-      routeDSActor,
-      applicationDSActor
-    )
+    Props(new XDSManagementActor[F](
+      cloudDriver = cloudDriver,
+      serviceManagementService = servableService,
+      appRepo = appRepository,
+      clusterDSActor = clusterDSActor,
+      endpointDSActor = endpointDSActor,
+      listenerDSActor = listenerDSActor,
+      routeDSActor = routeDSActor,
+      applicationDSActor = applicationDSActor
+    ))
   }
 
-  def makeXdsActor[F[_]](
+  def makeXdsActor[F[_] : Effect](
+    cloudDriver: CloudDriver[F],
     servableService: ServableService[F],
-    appService: ApplicationService[F])
+    applicationRepository: ApplicationRepository[F])
     (implicit actorSystem: ActorSystem) = {
     val clusterDSActor: ActorRef = actorSystem.actorOf(Props[ClusterDSActor])
     val endpointDSActor: ActorRef = actorSystem.actorOf(Props[EndpointDSActor])
@@ -158,13 +161,14 @@ object XDSManagementActor {
     val applicationDSActor: ActorRef = actorSystem.actorOf(Props[ApplicationDSActor])
 
     val xdsManagementActor: ActorRef = actorSystem.actorOf(XDSManagementActor.props(
-      servableService,
-      appService,
-      clusterDSActor,
-      endpointDSActor,
-      listenerDSActor,
-      routeDSActor,
-      applicationDSActor
+      cloudDriver = cloudDriver,
+      servableService = servableService,
+      appRepository = applicationRepository,
+      clusterDSActor = clusterDSActor,
+      endpointDSActor = endpointDSActor,
+      listenerDSActor = listenerDSActor,
+      routeDSActor = routeDSActor,
+      applicationDSActor = applicationDSActor
     ))
 
     xdsManagementActor

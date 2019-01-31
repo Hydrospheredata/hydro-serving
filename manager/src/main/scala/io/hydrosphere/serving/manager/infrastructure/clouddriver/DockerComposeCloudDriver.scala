@@ -21,7 +21,7 @@ import io.hydrosphere.serving.manager.util.AsyncUtil
 import org.apache.logging.log4j.scala.Logging
 
 // TODO refactor
-class DockerComposeCloudDriverService[F[_]: Async](
+class DockerComposeCloudDriver[F[_]: Async](
   dockerClient: DockerClient,
   driverConfiguration: CloudDriverConfiguration.Docker,
   applicationConfig: ApplicationConfig,
@@ -36,12 +36,12 @@ class DockerComposeCloudDriverService[F[_]: Async](
     postProcessAllServiceList(getAllServices)
   }
 
-  override def deployService(service: Servable, runtime: DockerImage, modelVersion: DockerImage, hostSelector: Option[HostSelector]): F[CloudService] = {
+  override def deployService(service: Servable, modelVersion: DockerImage, hostSelector: Option[HostSelector]): F[CloudService] = {
     AsyncUtil.futureAsync {
       Future {
         logger.debug(service)
 
-        startModel(service, modelVersion)
+//        startModel(service, modelVersion)
 
         val javaLabels = getRuntimeLabels(service) ++ Map(
           DefaultConstants.LABEL_SERVICE_NAME -> service.serviceName
@@ -57,10 +57,10 @@ class DockerComposeCloudDriverService[F[_]: Async](
 
         val builder = createMainApplicationHostConfigBuilder()
 
-        builder.volumesFrom(service.serviceName)
+//        builder.volumesFrom(service.serviceName)
 
         val c = dockerClient.createContainer(ContainerConfig.builder()
-          .image(runtime.fullName)
+          .image(modelVersion.fullName)
           .exposedPorts(DefaultConstants.DEFAULT_APP_PORT.toString)
           .labels(javaLabels.asJava)
           .hostConfig(builder.build())
@@ -92,12 +92,11 @@ class DockerComposeCloudDriverService[F[_]: Async](
   }
 
   def getAllServices: Seq[CloudService] =
-    DockerUtil.collectCloudService(
+    collectCloudService(
       dockerClient.listContainers(
         ListContainersParam.withLabel(DefaultConstants.LABEL_HS_SERVICE_MARKER, DefaultConstants.LABEL_HS_SERVICE_MARKER),
         ListContainersParam.allContainers()
-      ).asScala,
-      sidecarConfig
+      ).asScala
     )
 
   def startModel(service: Servable, modelVersion: DockerImage): String = {
@@ -112,17 +111,16 @@ class DockerComposeCloudDriverService[F[_]: Async](
   }
 
   def fetchById(serviceId: Long): CloudService = {
-    DockerUtil.collectCloudService(
+    collectCloudService(
       dockerClient.listContainers(
         ListContainersParam.withLabel(DefaultConstants.LABEL_SERVICE_ID, serviceId.toString),
         ListContainersParam.allContainers()
-      ).asScala,
-      sidecarConfig
+      ).asScala
     ).headOption.getOrElse(throw new IllegalArgumentException(s"Can't find service with id=$serviceId"))
   }
 
   protected def postProcessAllServiceList(services: Seq[CloudService]): Seq[CloudService] = {
-    services ++ createFakeHttpServices(services)
+    services ++ DockerUtil.createFakeHttpServices(services)
   }
 
   protected def createMainApplicationHostConfigBuilder(): HostConfig.Builder = {
@@ -141,7 +139,80 @@ class DockerComposeCloudDriverService[F[_]: Async](
     MainApplicationInstance(
       instanceId = containerApp.id(),
       host = Option(containerApp.networkSettings().networks().get(driverConfiguration.networkName))
-        .fold(containerApp.networkSettings().ipAddress())(n => n.ipAddress()),
+        .fold(containerApp.networkSettings().ipAddress())(_.ipAddress()),
       port = DefaultConstants.DEFAULT_APP_PORT
     )
+
+
+  def collectCloudService(containers: Seq[Container]): Seq[CloudService] = {
+    containers
+      .groupBy(_.labels().get(DefaultConstants.LABEL_SERVICE_ID))
+      .filter {
+        case (_, v) =>
+          v.exists { c =>
+            val depType = c.labels().get(DefaultConstants.LABEL_DEPLOYMENT_TYPE)
+            depType == DefaultConstants.DEPLOYMENT_TYPE_APP && c.state() == "running"
+          }
+      }
+      .flatMap {
+        case (k, v) =>
+          try {
+            Seq(
+              mapToCloudService(
+                k.toLong,
+                v.filterNot { c =>
+                  val depType = c.labels().get(DefaultConstants.LABEL_DEPLOYMENT_TYPE)
+                  depType == DefaultConstants.DEPLOYMENT_TYPE_APP && c.state() != "running"
+                },
+                sidecarConfig
+              )
+            )
+          } catch {
+            case e: Throwable =>
+              Seq.empty
+          }
+      }.toSeq
+  }
+
+  def mapToCloudService(serviceId: Long, seq: Seq[Container], sidecarConfig: SidecarConfig): CloudService = {
+    val map = seq.map(c => c.labels().get(DefaultConstants.LABEL_DEPLOYMENT_TYPE) -> c).toMap
+
+    val containerApp = map.getOrElse(DefaultConstants.DEPLOYMENT_TYPE_APP, throw new RuntimeException(s"Can't find APP for service $serviceId in $seq"))
+    val containerModel = map.get(DefaultConstants.DEPLOYMENT_TYPE_MODEL)
+
+    val mainApplicationInstance = mapMainApplicationInstance(containerApp)
+
+    val image = containerApp.image()
+    CloudService(
+      id = serviceId,
+      serviceName = Option(containerApp.labels().get(DefaultConstants.LABEL_SERVICE_NAME))
+        .getOrElse(throw new RuntimeException(s"${DefaultConstants.LABEL_SERVICE_NAME} required $containerApp")),
+      statusText = containerApp.status(),
+      cloudDriverId = containerApp.id(),
+      image = DockerImage(
+        name = image,
+        tag = image
+      ),
+      instances = Seq(
+        ServiceInstance(
+          advertisedHost = mainApplicationInstance.host,
+          advertisedPort = mainApplicationInstance.port,
+          instanceId = containerApp.id(),
+          mainApplication = mainApplicationInstance,
+          sidecar = SidecarInstance(
+            instanceId = "managerConfiguration.sidecar",
+            host = sidecarConfig.host,
+            ingressPort = sidecarConfig.ingressPort,
+            egressPort = sidecarConfig.egressPort,
+            adminPort = sidecarConfig.adminPort
+          ),
+          model = containerModel.map(c => {
+            ModelInstance(
+              c.id()
+            )
+          })
+        )
+      )
+    )
+  }
 }

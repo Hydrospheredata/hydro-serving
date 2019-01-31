@@ -15,6 +15,7 @@ import io.hydrosphere.serving.manager.domain.clouddriver.CloudDriver
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorService
 import io.hydrosphere.serving.manager.domain.image.ImageRepository
 import io.hydrosphere.serving.manager.domain.model.ModelService
+import io.hydrosphere.serving.manager.domain.model_build.ModelVersionBuilder
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersionService
 import io.hydrosphere.serving.manager.domain.servable.ServableService
 import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.ManagerEventBus
@@ -81,10 +82,15 @@ class ManagerServices[F[_]: Effect](
 
   val versionService: ModelVersionService[F] = ModelVersionService[F](
     modelVersionRepository = managerRepositories.modelVersionRepository,
-    imageBuilder = imageBuilder,
-    imageRepository = imageRepository,
     applicationRepo = managerRepositories.applicationRepository,
-    modelFilePacker = modelFilePacker
+  )
+
+  val versionBuilder = ModelVersionBuilder(
+    modelFilePacker = modelFilePacker,
+    imageBuilder = imageBuilder,
+    modelVersionRepository = managerRepositories.modelVersionRepository,
+    imageRepository = imageRepository,
+    modelVersionService = versionService
   )
 
   val cloudDriverService: CloudDriver[F] = CloudDriver.fromConfig[F](
@@ -96,6 +102,8 @@ class ManagerServices[F[_]: Effect](
     dockerRepositoryConfiguration = managerConfiguration.dockerRepository,
     sidecarConfig = managerConfiguration.sidecar
   )
+
+  logger.info(s"Using ${cloudDriverService.getClass} cloud driver")
 
   val servableService: ServableService[F] = ServableService[F](
     cloudDriverService,
@@ -118,12 +126,14 @@ class ManagerServices[F[_]: Effect](
     storageService = modelStorage,
     appRepo = managerRepositories.applicationRepository,
     hostSelectorRepository = managerRepositories.hostSelectorRepository,
-    fetcher = modelFetcher
+    fetcher = modelFetcher,
+    modelVersionBuilder = versionBuilder
   )
 
   val xdsActor: ActorRef = XDSManagementActor.makeXdsActor(
+    cloudDriver = cloudDriverService,
     servableService = servableService,
-    appService = appService
+    applicationRepository = managerRepositories.applicationRepository
   )
 
   val envoyGRPCDiscoveryService: EnvoyGRPCDiscoveryService[F] = EnvoyGRPCDiscoveryService.actorManaged(
@@ -131,5 +141,4 @@ class ManagerServices[F[_]: Effect](
     servableService = servableService,
     appService = appService
   )
-
 }

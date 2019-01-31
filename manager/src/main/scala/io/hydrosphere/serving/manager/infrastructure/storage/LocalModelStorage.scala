@@ -3,8 +3,6 @@ package io.hydrosphere.serving.manager.infrastructure.storage
 import java.io.File
 import java.nio.file.{Files, Path}
 
-import cats.syntax.traverse._
-import cats.instances.list._
 import cats.data.OptionT
 import cats.effect.Sync
 import cats.syntax.flatMap._
@@ -18,24 +16,13 @@ class LocalModelStorage[F[_]: Sync](
   def unpack(filePath: Path, modelFolder: Option[String]): F[Path] = {
     val modelName = modelFolder.getOrElse(filePath.getFileName.toString)
     for {
-      unpackDir <- storageOps.getTempDir(modelName)
-      unpackedFiles <- storageOps.unpackArchive(filePath, unpackDir)
       modelDir <- Sync[F].delay(rootDir.resolve(modelName))
       _ <- storageOps.exists(modelDir).flatMap {
         case true => storageOps.removeFolder(modelDir)
         case false => Sync[F].pure(Option(()))
       }
-      _ <- Sync[F].defer {
-        unpackedFiles
-          .filter(_.startsWith(unpackDir))
-          .toList
-          .traverse { path =>
-            val relPath = unpackDir.relativize(path)
-            val targetPath = modelDir.resolve(relPath)
-            storageOps.copyFile(targetPath, path)
-          }
-      }
-    } yield unpackDir
+      _ <- storageOps.unpackArchive(filePath, modelDir)
+    } yield modelDir
   }
 
   override def getLocalPath(folderPath: String): F[Option[Path]] = {

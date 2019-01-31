@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.infrastructure.image
 
 import java.net.URLEncoder
-import java.nio.file.{Files, Path}
+import java.nio.file.Path
 
 import cats.effect.Sync
 import com.spotify.docker.client.DockerClient.BuildParam
@@ -11,7 +11,6 @@ import io.hydrosphere.serving.manager.domain.image.{DockerImage, ImageBuilder}
 import io.hydrosphere.serving.manager.infrastructure.protocol.CommonJsonProtocol._
 import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorage
 import io.hydrosphere.serving.manager.util.ReflectionUtils
-import org.apache.commons.io.FileUtils
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
 
@@ -30,9 +29,9 @@ class DockerImageBuilder[F[_]: Sync](
     buildPath: Path,
     image: DockerImage
   ): F[String] = {
-    val buildF = Sync[F].delay {
-      logger.debug(s"Sending docker build request with ${ReflectionUtils.prettyPrint(buildParams)} params")
-      val dockerContainer = Option {
+    val idF = Sync[F].delay {
+      logger.info(s"Sending docker build request with ${ReflectionUtils.prettyPrint(buildParams)} params")
+      val imageId = Option {
         dockerClient.build(
           buildPath,
           image.fullName,
@@ -41,18 +40,14 @@ class DockerImageBuilder[F[_]: Sync](
           buildParams: _*
         )
       }.getOrElse(throw new RuntimeException("Can't build docker container"))
-
-      dockerClient.inspectImage(dockerContainer).id().stripPrefix("sha256:")
+      dockerClient.inspectImage(imageId).id().stripPrefix("sha256:")
     }
 
-    Sync[F].onError(buildF) {
-      case e =>
-        Sync[F].delay {
-          if (Files.isDirectory(buildPath)) {
-            FileUtils.deleteDirectory(buildPath.toFile)
-          }
-          logger.error(e)
-        }
+    Sync[F].onError(idF) {
+      case e => Sync[F].delay {
+        logger.error(s"Error while building image $image with build path $buildPath")
+        logger.error(e.toString)
+      }
     }
   }
 

@@ -12,7 +12,7 @@ class SwaggerDocController(
 )(
   implicit val actorSystem: ActorSystem,
   implicit val materializer: ActorMaterializer
-) extends SwaggerHttpService {
+) extends SwaggerHttpService  {
 
   override val apiDocsPath = "docs"
   override val info = Info(version = version)

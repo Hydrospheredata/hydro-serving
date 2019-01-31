@@ -1,19 +1,19 @@
 package io.hydrosphere.serving.manager.it.service
 
 import cats.data.EitherT
-import cats.instances.all._
+import cats.effect.IO
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
+import io.hydrosphere.serving.manager.domain.DomainError
 import io.hydrosphere.serving.manager.domain.application._
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersion
 import io.hydrosphere.serving.manager.it.FullIntegrationSpec
-import io.hydrosphere.serving.model.api.Result.HError
 import io.hydrosphere.serving.tensorflow.types.DataType.DT_DOUBLE
 import org.scalatest.BeforeAndAfterAll
 
-import scala.concurrent.{Await, Future}
+import scala.concurrent.Await
 import scala.concurrent.duration._
 
 class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
@@ -54,21 +54,22 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
   describe("Application service") {
     it("should create a simple application") {
       eitherTAssert {
-        for {
-          appResult <- EitherT(managerServices.appService.create(
-            "simple-app",
-            None,
-            ExecutionGraphRequest(Seq(
-              PipelineStageRequest(
-                Seq(ModelVariantRequest(
-                  modelVersionId = mv1.id,
-                  weight = 100,
-                  signatureName = "not-default-spark"
-                ))
+        val create = CreateApplicationRequest(
+          "simple-app",
+          None,
+          ExecutionGraphRequest(List(
+            PipelineStageRequest(
+              Seq(ModelVariantRequest(
+                modelVersionId = mv1.id,
+                weight = 100,
+                signatureName = "not-default-spark"
               ))
-            ),
-            Seq.empty
-          ))
+            ))
+          ),
+          Option.empty
+        )
+        for {
+          appResult <- EitherT(managerServices.appService.create(create))
         } yield {
           println(appResult)
           assert(appResult.started.name === "simple-app")
@@ -128,12 +129,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           )
         )
         for {
-          app <- EitherT(managerServices.appService.create(
-            appRequest.name,
-            appRequest.namespace,
-            appRequest.executionGraph,
-            Seq.empty
-          ))
+          app <- EitherT(managerServices.appService.create(appRequest))
         } yield {
           println(app)
           assert(app.started.name === appRequest.name)
@@ -178,21 +174,16 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
       )
       eitherTAssert {
         for {
-          app <- EitherT(managerServices.appService.create(
-            appRequest.name,
-            appRequest.namespace,
-            appRequest.executionGraph,
-            appRequest.kafkaStreaming.get
-          ))
-          appNew <- EitherT(managerServices.appService.update(
+          app <- EitherT(managerServices.appService.create(appRequest))
+          appNew <- EitherT(managerServices.appService.update(UpdateApplicationRequest(
             app.started.id,
             app.started.name,
             app.started.namespace,
             appRequest.executionGraph,
-            Seq.empty
-          ))
+            Option.empty
+          )))
 
-          gotNewApp <- EitherT(managerServices.appService.getApplication(appNew.started.id))
+          gotNewApp <- EitherT.fromOptionF(managerRepositories.applicationRepository.get(appNew.started.id), DomainError.notFound("app not found"))
         } yield {
           assert(appNew.started === gotNewApp)
           assert(appNew.started.kafkaStreaming.isEmpty, appNew)
@@ -221,12 +212,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           kafkaStreaming = None
         )
         for {
-          app <- EitherT(managerServices.appService.create(
-            appRequest.name,
-            appRequest.namespace,
-            appRequest.executionGraph,
-            Seq.empty
-          ))
+          app <- EitherT(managerServices.appService.create(appRequest))
           newGraph = ExecutionGraphRequest(
             stages = List(
               PipelineStageRequest(
@@ -240,15 +226,15 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
               )
             )
           )
-          appNew <- EitherT(managerServices.appService.update(
+          appNew <- EitherT(managerServices.appService.update(UpdateApplicationRequest(
             app.started.id,
             app.started.name,
             app.started.namespace,
             newGraph,
-            Seq.empty
-          ))
+            Option.empty
+          )))
 
-          gotNewApp <- EitherT(managerServices.appService.getApplication(appNew.started.id))
+          gotNewApp <- EitherT.fromOptionF(managerRepositories.applicationRepository.get(appNew.started.id), DomainError.notFound("app not found"))
         } yield {
           assert(appNew.started === gotNewApp, gotNewApp)
         }
@@ -263,9 +249,9 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
     val f = for {
       d1 <- EitherT(managerServices.modelService.uploadModel(uploadFile, upload1))
-      completed1 <- EitherT.liftF[Future, HError, ModelVersion](d1.completedVersion)
+      completed1 <- EitherT.liftF[IO, DomainError, ModelVersion](IO.fromFuture(IO(d1.completedVersion)))
       d2 <- EitherT(managerServices.modelService.uploadModel(uploadFile, upload2))
-      completed2 <- EitherT.liftF[Future, HError, ModelVersion](d2.completedVersion)
+      completed2 <- EitherT.liftF[IO, DomainError, ModelVersion](IO.fromFuture(IO(d2.completedVersion)))
     } yield {
       println(s"UPLOADED: $completed1")
       println(s"UPLOADED: $completed2")
@@ -273,6 +259,6 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
       mv2 = completed2
     }
 
-    Await.result(f.value, 30 seconds)
+    Await.result(f.value.unsafeToFuture(), 30 seconds)
   }
 }

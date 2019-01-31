@@ -22,7 +22,7 @@ class SparkModelFetcher[F[_]: Monad](storageOps: StorageOps[F]) extends ModelFet
 
   private def getMetadata(model: Path) = {
     for {
-      lines <- OptionT(storageOps.readText(model))
+      lines <- OptionT(storageOps.readText(model.resolve("metadata/part-00000")))
       text = lines.mkString
       metadata <- OptionT.fromOption(Try(SparkModelMetadata.fromJson(text)).toOption)(Monad[F])
     } yield metadata

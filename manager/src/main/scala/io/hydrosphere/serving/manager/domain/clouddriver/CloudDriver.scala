@@ -1,7 +1,10 @@
 package io.hydrosphere.serving.manager.domain.clouddriver
 
 import akka.actor.{ActorRef, ActorSystem, Props}
-import cats.effect.Async
+import cats.effect.{Async, Effect}
+import com.amazonaws.services.ec2.AmazonEC2ClientBuilder
+import com.amazonaws.services.ecs.AmazonECSClientBuilder
+import com.amazonaws.services.route53.AmazonRoute53ClientBuilder
 import com.spotify.docker.client.DockerClient
 import io.hydrosphere.serving.manager.config._
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
@@ -19,7 +22,6 @@ trait CloudDriver[F[_]] {
 
   def deployService(
     service: Servable,
-    runtime: DockerImage,
     modelVersion: DockerImage,
     hostSelector: Option[HostSelector]
   ): F[CloudService]
@@ -28,7 +30,7 @@ trait CloudDriver[F[_]] {
 }
 
 object CloudDriver {
-  def fromConfig[F[_]: Async](
+  def fromConfig[F[_] : Effect](
     dockerClient: DockerClient,
     eventPublisher: ManagerEventBus[F],
     cloudDriverConfiguration: CloudDriverConfiguration,
@@ -39,15 +41,23 @@ object CloudDriver {
   )(implicit executionContext: ExecutionContext, actorSystem: ActorSystem): CloudDriver[F] = {
     cloudDriverConfiguration match {
       case x: CloudDriverConfiguration.Ecs =>
-        val ecsSyncActor: ActorRef = actorSystem.actorOf(Props(classOf[ECSServiceWatcherActor[F]], eventPublisher, x))
-        new ECSCloudDriverService(x, ecsSyncActor)
-      case x: CloudDriverConfiguration.Docker => new DockerComposeCloudDriverService(dockerClient, x, applicationConfiguration, sidecarConfig, advertisedConfiguration, eventPublisher)
+        val route53Client = AmazonRoute53ClientBuilder.standard()
+          .build()
+        val ecsClient = AmazonECSClientBuilder.standard()
+          .withRegion(x.region)
+          .build()
+        val ec2Client = AmazonEC2ClientBuilder.standard()
+          .withRegion(x.region)
+          .build()
+        val ecsSyncActor: ActorRef = actorSystem.actorOf(ECSWatcherActor.props[F](eventPublisher, x, route53Client, ecsClient, ec2Client))
+        new ECSCloudDriver(x, ecsSyncActor)
+      case x: CloudDriverConfiguration.Docker => new DockerComposeCloudDriver(dockerClient, x, applicationConfiguration, sidecarConfig, advertisedConfiguration, eventPublisher)
       case x: CloudDriverConfiguration.Kubernetes =>
         dockerRepositoryConfiguration match {
-          case repo: DockerRepositoryConfiguration.Remote => new KubernetesCloudDriverService(x, repo, eventPublisher)
+          case repo: DockerRepositoryConfiguration.Remote => new KubernetesCloudDriver(x, repo, eventPublisher)
           case repo => throw new IllegalArgumentException(s"Illegal DockerRepositoryConfiguration for Kubernetes clouddriver: $repo")
         }
-      case x: CloudDriverConfiguration.Local => new LocalCloudDriverService(dockerClient, applicationConfiguration, sidecarConfig, advertisedConfiguration, x, eventPublisher)
+      case x: CloudDriverConfiguration.Local => new LocalDockerCloudDriver(dockerClient, applicationConfiguration, sidecarConfig, advertisedConfiguration, x, eventPublisher)
       case x => throw new IllegalArgumentException(s"Unknown CloudDriverConfiguration: $x")
     }
 

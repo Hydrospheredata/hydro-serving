@@ -1,7 +1,9 @@
 package io.hydrosphere.serving.manager.it.service
 
+import java.nio.file.Path
+
 import cats.data.EitherT
-import cats.instances.all._
+import cats.effect.IO
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.messages.ContainerConfig
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
@@ -15,9 +17,9 @@ import scala.concurrent.duration._
 class ModelBuildITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
   private implicit val awaitTimeout: FiniteDuration = 50.seconds
 
-  private val uploadFile = packModel("/models/dummy_model")
+  private val uploadFile: Path = packModel("/models/dummy_model")
   private val uploadMetadata = ModelUploadMetadata(
-    name = Some("m1"),
+    name = Some("the-best-model-in-the-world"),
     runtime = DockerImage(
       name = "hydrosphere/serving-runtime-dummy",
       tag = "latest"
@@ -29,15 +31,16 @@ class ModelBuildITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
       eitherTAssert {
         for {
           mv <- EitherT(managerServices.modelService.uploadModel(uploadFile, uploadMetadata))
-          builtMv <- EitherT.liftF(mv.completedVersion)
+          builtMv <- EitherT.liftF(IO.fromFuture(IO(mv.completedVersion)))
         } yield {
+          println("BUILD_RESULT:")
+          println(builtMv)
           // check that build is successful
           assert(builtMv.status === ModelVersionStatus.Released)
           assert(builtMv.finished.isDefined)
+          assert(builtMv.model.name === "the-best-model-in-the-world")
           assert(builtMv.modelVersion === 1)
-          assert(builtMv.model.name === "m1")
-          assert(builtMv.modelVersion === 1)
-          assert(builtMv.image.name === "m1")
+          assert(builtMv.image.name === "the-best-model-in-the-world")
           assert(builtMv.image.tag === "1")
 
           // check files in container

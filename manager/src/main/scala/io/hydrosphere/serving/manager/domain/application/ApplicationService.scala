@@ -20,6 +20,8 @@ import spray.json.JsObject
 import scala.concurrent.ExecutionContext
 import scala.util.Try
 
+trait Graph
+
 trait ApplicationService[F[_]] {
   def generateInputs(name: String): F[Either[DomainError,JsObject]]
 

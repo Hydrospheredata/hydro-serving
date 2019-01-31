@@ -69,8 +69,9 @@ trait AkkaHttpControllerDsl extends CompleteJsonProtocol with Logging {
       case Success(result) =>
         f(result)
       case Failure(err) =>
-        logger.error(err)
-        val error: DomainError = InternalError(err.getMessage)
+        logger.error(err.toString)
+        logger.error(err.getStackTrace.mkString("\n"))
+        val error: DomainError = InternalError(err.toString)
         complete(
           HttpResponse(
             status = StatusCodes.InternalServerError,
@@ -102,7 +103,8 @@ trait AkkaHttpControllerDsl extends CompleteJsonProtocol with Logging {
                 entity = HttpEntity(ContentTypes.`application/json`, a.toJson.toString)
               )
             )
-          case InternalError(_) =>
+          case InternalError(err) =>
+            logger.error(err)
             complete(
               HttpResponse(
                 status = StatusCodes.InternalServerError,

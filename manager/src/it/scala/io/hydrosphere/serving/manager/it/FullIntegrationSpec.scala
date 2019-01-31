@@ -13,16 +13,13 @@ import io.hydrosphere.serving.manager._
 import io.hydrosphere.serving.manager.api.grpc.GrpcApiServer
 import io.hydrosphere.serving.manager.api.http.HttpApiServer
 import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration}
+import io.hydrosphere.serving.manager.domain.DomainError
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.util.TarGzUtils
-import io.hydrosphere.serving.model.api.HFResult
-import io.hydrosphere.serving.model.api.Result.HError
 import org.scalatest._
 
 import scala.concurrent.duration._
 import scala.concurrent.{ExecutionContext, Future}
-import scala.io.Source
-import scala.util.{Failure, Success, Try}
 
 
 trait FullIntegrationSpec extends DatabaseAccessIT
@@ -72,47 +69,26 @@ trait FullIntegrationSpec extends DatabaseAccessIT
     super.afterAll()
   }
 
-  private def getScript(path: String): String = {
-    Source.fromInputStream(getClass.getResourceAsStream(path)).mkString
-  }
-
-  private def tryCloseable[A <: AutoCloseable, B](a: A)(f: A => B): Try[B] = {
-    try {
-      Success(f(a))
-    } catch {
-      case e: Throwable => Failure(e)
-    } finally {
-      a.close()
-    }
-  }
-
-  protected def executeDBScript(scripts: String*): Unit = {
-    scripts.foreach { sPath =>
-      val connection = managerRepositories.dataService.dataSource.getConnection
-      val res = tryCloseable(connection) { conn =>
-        val st = conn.createStatement()
-        tryCloseable(st)(_.execute(getScript(sPath)))
-      }
-      res.flatten.get
-    }
-  }
-
   protected def packModel(str: String): Path = {
     val temptar = Files.createTempFile("packedModel", ".tar.gz")
     TarGzUtils.compressFolder(Paths.get(getClass.getResource(str).toURI), temptar)
     temptar
   }
 
-  protected def eitherAssert(body: => HFResult[Assertion]): Future[Assertion] = {
+  protected def eitherAssert(body: => IO[Either[DomainError, Assertion]]): Future[Assertion] = {
     body.map {
       case Left(err) =>
         fail(err.message)
       case Right(asserts) =>
         asserts
-    }
+    }.unsafeToFuture()
   }
 
-  protected def eitherTAssert(body: => EitherT[Future, HError, Assertion]): Future[Assertion] = {
+  protected def eitherTAssert(body: => EitherT[IO, DomainError, Assertion]): Future[Assertion] = {
     eitherAssert(body.value)
+  }
+
+  protected def ioAssert(body: => IO[Assertion]): Future[Assertion] = {
+    body.unsafeToFuture()
   }
 }

@@ -10,16 +10,18 @@ case class BuildRequest(
   modelVersion: Long,
   targetImage: DockerImage,
   contract: ModelContract,
+  installCommand: Option[String]
 )
 
 object BuildRequest {
-  def fromVersion(version: ModelVersion) = {
+  def fromVersion(version: ModelVersion, installCommand: Option[String]) = {
     BuildRequest(
       modelName = version.model.name,
       modelVersion = version.modelVersion,
       targetImage = version.image,
       baseImage = version.runtime,
-      contract = version.modelContract
+      contract = version.modelContract,
+      installCommand = installCommand
     )
   }
 }

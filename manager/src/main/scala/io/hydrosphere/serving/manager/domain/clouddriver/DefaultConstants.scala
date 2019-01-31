@@ -100,20 +100,4 @@ object DefaultConstants {
       LABEL_HS_SERVICE_MARKER -> LABEL_HS_SERVICE_MARKER,
       DefaultConstants.LABEL_DEPLOYMENT_TYPE -> DefaultConstants.DEPLOYMENT_TYPE_APP
     )
-
-  def createFakeHttpServices(services: Seq[CloudService]): Seq[CloudService] =
-    services.filter(cs => fakeHttpServices.contains(cs.id))
-      .map { cs =>
-        val fakeId = fakeHttpServices(cs.id)
-        val fakeName = specialNamesByIds(fakeId)
-
-        cs.copy(
-          id = fakeId,
-          serviceName = fakeName,
-          instances = cs.instances.map(s => s.copy(
-            advertisedPort = DEFAULT_HTTP_PORT,
-            mainApplication = s.mainApplication.copy(port = DEFAULT_HTTP_PORT)
-          ))
-        )
-      }
 }

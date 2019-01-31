@@ -1,19 +1,22 @@
 package io.hydrosphere.serving.manager.domain
 
-import java.nio.file.{Files, Path, Paths}
+import java.nio.file.Paths
 import java.time.LocalDateTime
 
+import cats.Id
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.GenericUnitTest
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
+import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorRepository
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.{Model, ModelRepository, ModelService, ModelVersionMetadata}
+import io.hydrosphere.serving.manager.domain.model_build.ModelVersionBuilder
 import io.hydrosphere.serving.manager.domain.model_version._
 import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorage
-import io.hydrosphere.serving.manager.util.TarGzUtils
-import io.hydrosphere.serving.model.api.{ModelMetadata, ModelType, Result}
+import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.ModelFetcher
+import io.hydrosphere.serving.model.api.ModelType
 import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.mockito.Matchers
@@ -21,16 +24,9 @@ import org.mockito.Matchers
 import scala.concurrent.Future
 
 class ModelServiceSpec extends GenericUnitTest {
-  def packModel(str: String): Path = {
-    val temptar = Files.createTempFile("test_tf_model", ".tar.gz")
-    TarGzUtils.compressFolder(Paths.get(getClass.getResource(str).getPath), temptar)
-    temptar
-  }
   describe("Model service") {
     describe("uploads") {
       it("a new model") {
-        val testSourcePath = Files.createTempDirectory("upload-test").toString
-        println("Test source path: " + testSourcePath)
         val model = Model(
           id = 1,
           name = "tf-model"
@@ -58,7 +54,6 @@ class ModelServiceSpec extends GenericUnitTest {
           created = LocalDateTime.now(),
           finished = Some(LocalDateTime.now()),
           modelVersion = 1,
-          modelType = modelType,
           modelContract = contract,
           runtime = modelRuntime,
           model = model,
@@ -68,7 +63,6 @@ class ModelServiceSpec extends GenericUnitTest {
         )
         val modelVersionMetadata = ModelVersionMetadata(
           modelName = modelName,
-          modelType = modelType,
           contract = contract,
           profileTypes = Map.empty,
           runtime = modelRuntime,
@@ -79,47 +73,47 @@ class ModelServiceSpec extends GenericUnitTest {
         val upload = ModelUploadMetadata(
           name = Some(modelName),
           runtime = modelRuntime,
-          modelType = Some(modelType),
           hostSelectorName = None,
           contract = Some(contract),
           profileTypes = None
         )
-        val modelRepo = mock[ModelRepository[Future]]
-        when(modelRepo.get(Matchers.anyLong())).thenReturn(Future.successful(None))
 
-        val sourceMock = mock[ModelStorage]
-        when(sourceMock.unpack(uploadFile, upload.name)).thenReturn(
-          Result.okF(ModelMetadata(
-            modelName,
-            ModelType.Tensorflow("1.1.0"),  // will be overridden
-            ModelContract(  // will be overridden
-              "test",
-              Seq(ModelSignature(
-                "testSig",
-                Seq(ModelField("in", TensorShape.scalar.toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE))),
-                Seq(ModelField("out", TensorShape.scalar.toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE)))
-              ))
-            )
-          ))
-        )
-        when(modelRepo.get(modelName)).thenReturn(Future.successful(None))
-        when(modelRepo.create(Model(0, modelName))).thenReturn(
-          Future.successful(model)
+        val modelRepo = mock[ModelRepository[Id]]
+        when(modelRepo.get(Matchers.anyLong())).thenReturn(None)
+
+        val storageMock = mock[ModelStorage[Id]]
+        when(storageMock.unpack(uploadFile, upload.name)).thenReturn(Paths.get(".kekpath"))
+        when(modelRepo.get(modelName)).thenReturn(None)
+        when(modelRepo.create(Model(0, modelName))).thenReturn(model)
+
+        val versionBuilder = mock[ModelVersionBuilder[Id]]
+        when(versionBuilder.build(Matchers.any(), Matchers.any())).thenReturn(
+          BuildResult(modelVersion, Future.successful(modelVersion))
         )
 
-        val versionService = mock[ModelVersionService]
-        when(versionService.build(model, modelVersionMetadata)).thenReturn(
-          Result.okF(BuildResult(modelVersion, Future.successful(modelVersion)))
+        val modelVersionService = mock[ModelVersionService[Id]]
+        when(modelVersionService.getNextModelVersion(1)).thenReturn(1L)
+        val modelVersionRepository = mock[ModelVersionRepository[Id]]
+        val selectorRepo = mock[HostSelectorRepository[Id]]
+
+        val fetcher = mock[ModelFetcher[Id]]
+
+        val modelManagementService = ModelService[Id](
+          modelRepository = modelRepo,
+          modelVersionService = modelVersionService,
+          modelVersionRepository = modelVersionRepository,
+          storageService = storageMock,
+          appRepo = null,
+          hostSelectorRepository = selectorRepo,
+          fetcher = fetcher,
+          modelVersionBuilder = versionBuilder
         )
 
-        val modelManagementService = new ModelService(modelRepo, versionService, sourceMock, null, null)
-
-        modelManagementService.uploadModel(uploadFile, upload).map { maybeModel =>
-          assert(maybeModel.isRight, maybeModel)
-          val rModel = maybeModel.right.get.startedVersion
-          println(rModel)
-          assert(rModel.model.name === "tf-model")
-        }
+        val maybeModel = modelManagementService.uploadModel(uploadFile, upload)
+        assert(maybeModel.isRight, maybeModel)
+        val rModel = maybeModel.right.get.startedVersion
+        println(rModel)
+        assert(rModel.model.name === "tf-model")
       }
 
       it("existing model") {
@@ -151,7 +145,6 @@ class ModelServiceSpec extends GenericUnitTest {
           created = LocalDateTime.now(),
           finished = Some(LocalDateTime.now()),
           modelVersion = 1,
-          modelType = modelType,
           modelContract = contract,
           runtime = modelRuntime,
           model = model,
@@ -161,7 +154,6 @@ class ModelServiceSpec extends GenericUnitTest {
         )
         val modelVersionMetadata = ModelVersionMetadata(
           modelName = modelName,
-          modelType = modelType,
           contract = contract,
           profileTypes = Map.empty,
           runtime = modelRuntime,
@@ -170,48 +162,39 @@ class ModelServiceSpec extends GenericUnitTest {
         val upload = ModelUploadMetadata(
           name = Some(modelName),
           runtime = modelRuntime,
-          modelType = Some(modelType),
           hostSelectorName = None,
           contract = Some(contract),
           profileTypes = None
         )
         println(upload)
 
-        val modelRepo = mock[ModelRepository[Future]]
-        when(modelRepo.update(Matchers.any(classOf[Model]))).thenReturn(Future.successful(1))
-        when(modelRepo.get(modelName)).thenReturn(Future.successful(Some(model)))
-        when(modelRepo.get(1)).thenReturn(Future.successful(Some(model)))
+        val modelRepo = mock[ModelRepository[Id]]
+        when(modelRepo.update(Matchers.any(classOf[Model]))).thenReturn(1)
+        when(modelRepo.get(modelName)).thenReturn(Some(model))
+        when(modelRepo.get(1)).thenReturn(Some(model))
 
-        val sourceMock = mock[ModelStorage]
-        when(sourceMock.unpack(uploadFile, upload.name)).thenReturn(
-          Result.okF(ModelMetadata(
-            modelName,
-            ModelType.Unknown(),
-            ModelContract(
-              "test",
-              Seq(ModelSignature(
-                "testSig",
-                Seq(ModelField("in", TensorShape.scalar.toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE))),
-                Seq(ModelField("out", TensorShape.scalar.toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE)))
-              ))
-            )
-          ))
-        )
-        when(sourceMock.rename(modelName, modelName)).thenReturn(Result.okF(Paths.get("some-test-path")))
+        val storageMock = mock[ModelStorage[Id]]
+        when(storageMock.unpack(uploadFile, upload.name)).thenReturn(Paths.get(".AAAAAAAAA"))
+        when(storageMock.rename(modelName, modelName)).thenReturn(Some(Paths.get("some-test-path")))
 
-        val versionService = mock[ModelVersionService]
-        when(versionService.build(model, modelVersionMetadata)).thenReturn(
-          Result.okF(BuildResult(modelVersion, Future.successful(modelVersion)))
+        val versionService = mock[ModelVersionBuilder[Id]]
+        when(versionService.build(model, modelVersionMetadata)).thenReturn(BuildResult(modelVersion, Future.successful(modelVersion)))
+
+        val modelManagementService = ModelService[Id](
+          modelRepository = modelRepo,
+          modelVersionService = null,
+          modelVersionRepository = null,
+          storageService = storageMock,
+          appRepo = null,
+          hostSelectorRepository = null,
+          fetcher = null,
+          modelVersionBuilder = versionService
         )
 
-        val modelManagementService = new ModelService(modelRepo, versionService, sourceMock, null, null)
-
-        modelManagementService.uploadModel(uploadFile, upload).map { maybeModel =>
-          assert(maybeModel.isRight, maybeModel)
-          val rModel = maybeModel.right.get.startedVersion
-          assert(rModel.model.name === "upload-model", rModel)
-          assert(rModel.modelType === ModelType.Unknown())
-        }
+        val maybeModel = modelManagementService.uploadModel(uploadFile, upload)
+        assert(maybeModel.isRight, maybeModel)
+        val rModel = maybeModel.right.get.startedVersion
+        assert(rModel.model.name === "upload-model", rModel)
       }
     }
   }

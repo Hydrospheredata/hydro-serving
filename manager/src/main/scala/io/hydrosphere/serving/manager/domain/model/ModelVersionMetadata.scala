@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.domain.model
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
+import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
 import io.hydrosphere.serving.manager.data_profile_types.DataProfileType
 import io.hydrosphere.serving.manager.domain.DomainError.InvalidRequest
@@ -12,7 +13,8 @@ case class ModelVersionMetadata(
   contract: ModelContract,
   profileTypes: Map[String, DataProfileType],
   runtime: DockerImage,
-  hostSelector: Option[HostSelector]
+  hostSelector: Option[HostSelector],
+  installCommand: Option[String]
 )
 
 object ModelVersionMetadata {
@@ -24,7 +26,8 @@ object ModelVersionMetadata {
       contract = contract,
       profileTypes = upload.profileTypes.getOrElse(Map.empty),
       runtime = upload.runtime,
-      hostSelector = hs
+      hostSelector = hs,
+      installCommand = upload.installCommand
     )
   }
 
@@ -33,13 +36,36 @@ object ModelVersionMetadata {
     if (upload.contract.signatures.isEmpty) {
       Left(InvalidRequest("The model has no signatures"))
     } else {
-      val inputsOk = upload.contract.signatures.forall(_.inputs.nonEmpty)
-      val outputsOk = upload.contract.signatures.forall(_.outputs.nonEmpty)
-      if (inputsOk && outputsOk) {
+      val inputsNotEmpty = upload.contract.signatures.forall(_.inputs.nonEmpty)
+      val outputsNotEmpty = upload.contract.signatures.forall(_.outputs.nonEmpty)
+      val inputErrors = upload.contract.signatures.flatMap(_.inputs.flatMap(validateField))
+      val outputErrors = upload.contract.signatures.flatMap(_.outputs.flatMap(validateField))
+      if (inputsNotEmpty && outputsNotEmpty) {
         Right(())
       } else {
-        Left(InvalidRequest(s"Error during signature validation. (inputsOk=$inputsOk, outputsOk=$outputsOk)"))
+        Left(InvalidRequest(s"Error during signature validation. " +
+          s"(inputsNotEmpty=$inputsNotEmpty, " +
+          s"outputsNotEmpty=$outputsNotEmpty," +
+          s"inputErrors=$inputErrors, " +
+          s"outputErrors=$outputErrors)"))
       }
+    }
+  }
+
+  def validateField(modelField: ModelField): List[String] = {
+    modelField.typeOrSubfields match {
+      case ModelField.TypeOrSubfields.Dtype(dtype) =>
+        if (dtype.isDtInvalid || dtype.isUnrecognized) {
+          List(s"${modelField.name}: Invalid Dtype $dtype")
+        } else {
+          List.empty
+        }
+      case ModelField.TypeOrSubfields.Subfields(subfields) =>
+        val results = subfields.data.map(validateField)
+        results.foldLeft(List.empty[String]) {
+          case (a, b) => a ++ b
+        }
+      case ModelField.TypeOrSubfields.Empty => List(s"${modelField.name}: Type cannot be empty.")
     }
   }
 }

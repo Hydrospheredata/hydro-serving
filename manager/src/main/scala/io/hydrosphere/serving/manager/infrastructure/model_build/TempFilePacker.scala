@@ -25,17 +25,19 @@ class TempFilePacker[F[_]: Sync](
       buildPath <- storageOps.getTempDir(s"hs-model-${buildRequest.modelName}-${buildRequest.modelVersion}")
       // create Dockerfile
       _ <- Sync[F].delay {
-        Files.copy(new ByteArrayInputStream(BuildScript.generate(buildRequest, buildPath).getBytes), buildPath.resolve("Dockerfile"))
+        Files.copy(new ByteArrayInputStream(BuildScript.generate(buildRequest).getBytes), buildPath.resolve("Dockerfile"))
       }
       // prepare and copy model files
       _ <- Sync[F].delay {
-        Files.createDirectories(buildPath.resolve(BuildScript.Parameters.modelRootDir))
-        FileUtils.copyDirectory(originalModelDir.toFile, buildPath.resolve(BuildScript.Parameters.modelFilesPath).toFile)
+        val filesDir = buildPath.resolve(BuildScript.Parameters.filesDir)
+        FileUtils.copyDirectory(originalModelDir.toFile, filesDir.toFile)
       }
       // write contract to the file
       _ <- Sync[F].delay {
         Files.write(buildPath.resolve(BuildScript.Parameters.contractFile), buildRequest.contract.toByteArray)
       }
-    } yield buildPath
+    } yield {
+      buildPath
+    }
   }
 }

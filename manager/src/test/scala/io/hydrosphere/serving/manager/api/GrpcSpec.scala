@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager.api
 
 import java.time.LocalDateTime
 
+import cats.effect.IO
 import com.google.protobuf.empty.Empty
 import io.grpc.stub.StreamObserver
 import io.hydrosphere.serving.contract.model_contract.ModelContract
@@ -20,15 +21,14 @@ import scala.util.{Failure, Success}
 class GrpcSpec extends GenericUnitTest {
   describe("Manager GRPC API") {
     it("should return ModelVersion for id") {
-      val versionRepo = mock[ModelVersionRepository[Future]]
-      when(versionRepo.get(1)).thenReturn(Future.successful(Option(
+      val versionRepo = mock[ModelVersionRepository[IO]]
+      when(versionRepo.get(1)).thenReturn(IO(Option(
         DMV(
           id = 1,
           image = DockerImage("test", "test"),
           created = LocalDateTime.now(),
           finished = None,
           modelVersion = 1,
-          modelType = ModelType.Unknown(),
           modelContract = ModelContract.defaultInstance,
           runtime = DockerImage("asd", "asd"),
           model = Model(1, "asd"),
@@ -37,7 +37,7 @@ class GrpcSpec extends GenericUnitTest {
           profileTypes = Map.empty
         )
       )))
-      when(versionRepo.get(1000)).thenReturn(Future.successful(None))
+      when(versionRepo.get(1000)).thenReturn(IO(None))
       val grpcApi = new ManagerGrpcService(versionRepo)
 
       grpcApi.getVersion(GetVersionRequest(1000)).onComplete {
@@ -50,15 +50,14 @@ class GrpcSpec extends GenericUnitTest {
       }
     }
     it("should return a stream of all ModelVersions") {
-      val versionRepo = mock[ModelVersionRepository[Future]]
-      when(versionRepo.all()).thenReturn(Future.successful(Seq(
+      val versionRepo = mock[ModelVersionRepository[IO]]
+      when(versionRepo.all()).thenReturn(IO(Seq(
         DMV(
           id = 1,
           image = DockerImage("test", "test"),
           created = LocalDateTime.now(),
           finished = None,
           modelVersion = 1,
-          modelType = ModelType.Unknown(),
           modelContract = ModelContract.defaultInstance,
           runtime = DockerImage("asd", "asd"),
           model = Model(1, "asd"),
@@ -72,7 +71,6 @@ class GrpcSpec extends GenericUnitTest {
           created = LocalDateTime.now(),
           finished = None,
           modelVersion = 1,
-          modelType = ModelType.Unknown(),
           modelContract = ModelContract.defaultInstance,
           runtime = DockerImage("asd", "asd"),
           model = Model(1, "asd"),
@@ -101,8 +99,8 @@ class GrpcSpec extends GenericUnitTest {
       }
     }
     it("should handle ModelVersion stream error") {
-      val versionRepo = mock[ModelVersionRepository[Future]]
-      when(versionRepo.all()).thenReturn(Future.failed(new IllegalStateException("AAAAAAA")))
+      val versionRepo = mock[ModelVersionRepository[IO]]
+      when(versionRepo.all()).thenReturn(IO.raiseError(new IllegalStateException("AAAAAAA")))
 
       val errors = ListBuffer.empty[Throwable]
       val observer = new StreamObserver[ModelVersion] {

@@ -12,6 +12,7 @@ import io.hydrosphere.serving.manager.domain.DomainError
 import io.hydrosphere.serving.manager.domain.DomainError.{InvalidRequest, NotFound}
 import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationRepository}
 import io.hydrosphere.serving.manager.domain.host_selector.{HostSelector, HostSelectorRepository}
+import io.hydrosphere.serving.manager.domain.model_build.ModelVersionBuilder
 import io.hydrosphere.serving.manager.domain.model_version.{BuildResult, ModelVersion, ModelVersionRepository, ModelVersionService}
 import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorage
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.ModelFetcher
@@ -39,7 +40,8 @@ object ModelService {
     storageService: ModelStorage[F],
     appRepo: ApplicationRepository[F],
     hostSelectorRepository: HostSelectorRepository[F],
-    fetcher: ModelFetcher[F]
+    fetcher: ModelFetcher[F],
+    modelVersionBuilder: ModelVersionBuilder[F]
   ): ModelService[F] = new ModelService[F] with Logging {
 
     def deleteModel(modelId: Long): F[Either[DomainError, Model]] = {
@@ -70,7 +72,7 @@ object ModelService {
         _ <- EitherT.fromEither(ModelVersionMetadata.validateContract(versionMetadata))
         request = CreateModelRequest(versionMetadata.modelName)
         req <- EitherT(upsertRequest(request))
-        b <- EitherT.liftF[F, DomainError, BuildResult](modelVersionService.build(req, versionMetadata))
+        b <- EitherT.liftF[F, DomainError, BuildResult](modelVersionBuilder.build(req, versionMetadata))
       } yield b
       f.value
     }

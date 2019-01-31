@@ -15,7 +15,7 @@ import org.apache.logging.log4j.scala.Logging
 import scala.concurrent.ExecutionContext
 import scala.concurrent.duration._
 
-class ECSCloudDriverService[F[_]: Async](
+class ECSCloudDriver[F[_]: Async](
   managerConfiguration: CloudDriverConfiguration.Ecs,
   ecsSyncActor: ActorRef
 )(
@@ -24,14 +24,14 @@ class ECSCloudDriverService[F[_]: Async](
 ) extends CloudDriver[F] with Logging {
   implicit val timeout = Timeout(30.seconds)
 
-  import ECSServiceWatcherActor.Messages._
+  import ECSWatcherActor.Messages._
 
   override def removeService(serviceId: Long): F[Unit] = AsyncUtil.futureAsync {
     (ecsSyncActor ? RemoveService(serviceId)).mapTo[Unit]
   }
 
-  override def deployService(service: Servable, runtime: DockerImage, modelVersion: DockerImage, host: Option[HostSelector]): F[CloudService] = AsyncUtil.futureAsync {
-    (ecsSyncActor ? DeployService(service, runtime, modelVersion, host)).mapTo[CloudService]
+  override def deployService(service: Servable, modelVersion: DockerImage, host: Option[HostSelector]): F[CloudService] = AsyncUtil.futureAsync {
+    (ecsSyncActor ? DeployService(service, modelVersion, host)).mapTo[CloudService]
   }
 
   override def serviceList(): F[Seq[CloudService]] = AsyncUtil.futureAsync {
