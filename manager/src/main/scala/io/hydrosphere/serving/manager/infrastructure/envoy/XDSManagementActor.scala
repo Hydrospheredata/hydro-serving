@@ -7,8 +7,8 @@ import cats.syntax.functor._
 import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationRepository}
 import io.hydrosphere.serving.manager.domain.clouddriver.{CloudDriver, CloudService}
 import io.hydrosphere.serving.manager.domain.servable.ServableService
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEvent._
 import io.hydrosphere.serving.manager.infrastructure.envoy.xds._
-import io.hydrosphere.serving.manager.service.internal_events._
 
 import scala.util.control.NonFatal
 

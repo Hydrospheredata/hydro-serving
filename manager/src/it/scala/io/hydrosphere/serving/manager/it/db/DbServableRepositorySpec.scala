@@ -29,7 +29,8 @@ class DbServableRepositorySpec extends FullIntegrationSpec {
             model = resultModel,
             hostSelector = None,
             status = ModelVersionStatus.Assembling,
-            profileTypes = Map.empty
+            profileTypes = Map.empty,
+            installCommand = None
           )
           resultVersion <- managerRepositories.modelVersionRepository.create(modelVersion)
           servable = Servable(

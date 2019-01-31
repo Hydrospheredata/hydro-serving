@@ -14,7 +14,7 @@ import io.hydrosphere.serving.manager.domain.application.{Application, Applicati
 import io.hydrosphere.serving.manager.domain.host_selector.{HostSelector, HostSelectorRepository}
 import io.hydrosphere.serving.manager.domain.model_build.ModelVersionBuilder
 import io.hydrosphere.serving.manager.domain.model_version.{BuildResult, ModelVersion, ModelVersionRepository, ModelVersionService}
-import io.hydrosphere.serving.manager.infrastructure.storage.{ModelFileStructure, ModelStorage}
+import io.hydrosphere.serving.manager.infrastructure.storage.{ModelFileStructure, ModelUnpacker}
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.ModelFetcher
 import org.apache.logging.log4j.scala.Logging
 
@@ -35,7 +35,7 @@ object ModelService {
     modelRepository: ModelRepository[F],
     modelVersionService: ModelVersionService[F],
     modelVersionRepository: ModelVersionRepository[F],
-    storageService: ModelStorage[F],
+    storageService: ModelUnpacker[F],
     appRepo: ApplicationRepository[F],
     hostSelectorRepository: HostSelectorRepository[F],
     fetcher: ModelFetcher[F],

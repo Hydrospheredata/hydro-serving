@@ -1,7 +1,5 @@
 package io.hydrosphere.serving.manager
 
-import java.nio.file.Files
-
 import akka.actor.{ActorRef, ActorSystem}
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
@@ -18,11 +16,11 @@ import io.hydrosphere.serving.manager.domain.model.ModelService
 import io.hydrosphere.serving.manager.domain.model_build.ModelVersionBuilder
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersionService
 import io.hydrosphere.serving.manager.domain.servable.ServableService
-import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.ManagerEventBus
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEventBus
 import io.hydrosphere.serving.manager.infrastructure.envoy.{EnvoyGRPCDiscoveryService, XDSManagementActor}
 import io.hydrosphere.serving.manager.infrastructure.image.DockerImageBuilder
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.ModelFetcher
-import io.hydrosphere.serving.manager.infrastructure.storage.{LocalModelStorage, LocalStorageOps, StorageOps}
+import io.hydrosphere.serving.manager.infrastructure.storage.{LocalStorageOps, ModelUnpacker, StorageOps}
 import io.hydrosphere.serving.manager.util.docker.InfoProgressHandler
 import org.apache.logging.log4j.scala.Logging
 
@@ -51,9 +49,7 @@ class ManagerServices[F[_]: Effect](
 
   val storageOps: LocalStorageOps[F] = StorageOps.default
 
-  val modelStorage = new LocalModelStorage[F](
-    storageOps = storageOps
-  )
+  val modelStorage: ModelUnpacker[F] = ModelUnpacker[F](storageOps)
 
   val modelFetcher: ModelFetcher[F] = ModelFetcher.default[F](storageOps)
 
@@ -66,7 +62,7 @@ class ManagerServices[F[_]: Effect](
 
   val imageRepository: ImageRepository[F] = ImageRepository.fromConfig(dockerClient, progressHandler, managerConfiguration.dockerRepository)
 
-  val eventPublisher: ManagerEventBus[F] = ManagerEventBus.fromActorSystem[F](system)
+  val eventPublisher: DiscoveryEventBus[F] = DiscoveryEventBus.fromActorSystem[F](system)
 
   val hostSelectorService: HostSelectorService[F] = HostSelectorService[F](managerRepositories.hostSelectorRepository)
 

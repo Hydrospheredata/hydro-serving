@@ -19,7 +19,7 @@ class ModelBuildITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
 
   private val uploadFile: Path = packModel("/models/dummy_model")
   private val uploadMetadata = ModelUploadMetadata(
-    name = Some("the-best-model-in-the-world"),
+    name = "the-best-model-in-the-world",
     runtime = DockerImage(
       name = "hydrosphere/serving-runtime-dummy",
       tag = "latest"

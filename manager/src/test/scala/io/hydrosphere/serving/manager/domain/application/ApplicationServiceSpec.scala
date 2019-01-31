@@ -12,7 +12,7 @@ import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.Model
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepository, ModelVersionStatus}
 import io.hydrosphere.serving.manager.domain.servable.{Servable, ServableRepository, ServableService}
-import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.ManagerEventBus
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEventBus
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.mockito.Matchers
 
@@ -37,7 +37,8 @@ class ApplicationServiceSpec extends GenericUnitTest {
     model = Model(1, "model"),
     hostSelector = None,
     status = ModelVersionStatus.Released,
-    profileTypes = Map.empty
+    profileTypes = Map.empty,
+    installCommand = None
   )
 
   describe("Application management service") {
@@ -65,7 +66,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
         when(versionRepo.get(Seq(1L))).thenReturn(IO(Seq(modelVersion)))
         val serviceManager = mock[ServableRepository[IO]]
         when(serviceManager.fetchByIds(Seq(1))).thenReturn(IO(Seq.empty))
-        val eventPublisher = mock[ManagerEventBus[IO]]
+        val eventPublisher = mock[DiscoveryEventBus[IO]]
         val applicationService = ApplicationService[IO](
           appRepo,
           versionRepo,
@@ -120,7 +121,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
         val servableRepo = mock[ServableRepository[IO]]
         when(servableRepo.fetchByIds(Seq(1))).thenReturn(IO(Seq.empty))
 
-        val eventPublisher = mock[ManagerEventBus[IO]]
+        val eventPublisher = mock[DiscoveryEventBus[IO]]
         val applicationService = ApplicationService(
           appRepo,
           versionRepo,
@@ -193,7 +194,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
         when(servableRepo.fetchByIds(Seq(1))).thenReturn(IO(Seq.empty))
 
         val appChanged = ListBuffer.empty[Application]
-        val eventPublisher = new ManagerEventBus[IO] {
+        val eventPublisher = new DiscoveryEventBus[IO] {
           override def applicationChanged(application: Application) = IO(appChanged += application)
 
           override def applicationRemoved(application: Application) = ???
@@ -293,7 +294,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
         when(servableRepo.fetchByIds(Matchers.any())).thenReturn(IO(Seq.empty))
 
         val appChanged = ListBuffer.empty[Application]
-        val eventPublisher = new ManagerEventBus[IO] {
+        val eventPublisher = new DiscoveryEventBus[IO] {
           override def applicationChanged(application: Application) = IO(appChanged += application)
 
           override def applicationRemoved(application: Application) = ???

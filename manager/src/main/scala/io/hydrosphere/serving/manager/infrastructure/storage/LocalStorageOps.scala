@@ -8,7 +8,6 @@ import cats.effect.Sync
 import cats.syntax.functor._
 import org.apache.commons.io.{FileUtils => ApacheFS}
 import io.hydrosphere.serving.manager.util.FileUtils._
-import io.hydrosphere.serving.manager.util.TarGzUtils
 
 import scala.collection.JavaConverters._
 
@@ -61,10 +60,6 @@ class LocalStorageOps[F[_]: Sync] extends StorageOps[F] {
   }
 
   override def getTempDir(prefix: String): F[Path] = Sync[F].delay(Files.createTempDirectory(prefix))
-
-  override def unpackArchive(archivePath: Path, targetPath: Path): F[Seq[Path]] = Sync[F].delay {
-    TarGzUtils.decompress(archivePath, targetPath)
-  }
 
   override def readText(path: Path): F[Option[List[String]]] = {
     OptionT(getReadableFile(path)).map(x => Files.readAllLines(x.toPath).asScala.toList).value

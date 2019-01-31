@@ -24,7 +24,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     outputs = List(ModelField("test-output", None, ModelField.TypeOrSubfields.Dtype(DT_DOUBLE)))
   )
   private val upload1 = ModelUploadMetadata(
-    name = Some("m1"),
+    name = "m1",
     runtime = dummyImage,
     contract = Some(ModelContract(
       modelName = "m1",
@@ -32,7 +32,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     ))
   )
   private val upload2 = ModelUploadMetadata(
-    name = Some("m2"),
+    name = "m2",
     runtime = dummyImage,
     contract = Some(ModelContract(
       modelName = "m2",
@@ -40,7 +40,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     ))
   )
   private val upload3 = ModelUploadMetadata(
-    name = Some("m3"),
+    name = "m3",
     runtime = dummyImage,
     contract = Some(ModelContract(
       modelName = "m3",

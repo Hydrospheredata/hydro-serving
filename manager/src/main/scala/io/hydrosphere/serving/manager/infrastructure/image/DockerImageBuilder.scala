@@ -9,7 +9,7 @@ import com.spotify.docker.client.{DockerClient, ProgressHandler}
 import io.hydrosphere.serving.manager.config.DockerClientConfig
 import io.hydrosphere.serving.manager.domain.image.{DockerImage, ImageBuilder}
 import io.hydrosphere.serving.manager.infrastructure.protocol.CommonJsonProtocol._
-import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorage
+import io.hydrosphere.serving.manager.infrastructure.storage.ModelUnpacker
 import io.hydrosphere.serving.manager.util.ReflectionUtils
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
@@ -17,7 +17,7 @@ import spray.json._
 class DockerImageBuilder[F[_]: Sync](
   dockerClient: DockerClient,
   dockerClientConfig: DockerClientConfig,
-  modelStorage: ModelStorage[F],
+  modelStorage: ModelUnpacker[F],
   progressHandler: ProgressHandler
 ) extends ImageBuilder[F] with Logging {
 

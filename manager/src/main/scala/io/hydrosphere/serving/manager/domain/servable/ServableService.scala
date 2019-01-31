@@ -9,7 +9,7 @@ import cats.instances.list._
 import io.hydrosphere.serving.manager.domain.application.ApplicationRepository
 import io.hydrosphere.serving.manager.domain.clouddriver._
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersion
-import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.ManagerEventBus
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEventBus
 import org.apache.logging.log4j.scala.Logging
 
 import scala.util.control.NonFatal
@@ -28,7 +28,7 @@ object ServableService {
   def apply[F[_] : Sync](
     cloudDriver: CloudDriver[F],
     servableRepository: ServableRepository[F],
-    eventPublisher: ManagerEventBus[F]
+    eventPublisher: DiscoveryEventBus[F]
   ): ServableService[F] = new ServableService[F] with Logging {
     private def createAndDeploy(serviceName: String, configParams: Option[Map[String, String]], modelVersion: ModelVersion): F[Servable] = {
       val dService = Servable(

@@ -17,7 +17,7 @@ import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.servable.Servable
 import io.hydrosphere.serving.manager.infrastructure.clouddriver.ECSWatcherActor._
-import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events._
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEventBus
 import io.hydrosphere.serving.manager.infrastructure.protocol.CompleteJsonProtocol
 import io.hydrosphere.serving.manager.util.SelfScheduledActor
 import spray.json._
@@ -27,7 +27,7 @@ import scala.collection.mutable
 import scala.concurrent.duration._
 
 class ECSWatcherActor[F[_]: Effect](
-  eventPublisher: ManagerEventBus[F],
+  eventPublisher: DiscoveryEventBus[F],
   ecsCloudDriverConfiguration: CloudDriverConfiguration.Ecs,
   route53Client: AmazonRoute53,
   ecsClient: AmazonECS,
@@ -545,7 +545,7 @@ class ECSWatcherActor[F[_]: Effect](
 
 object ECSWatcherActor {
   def props[F[_]: Effect](
-    eventPublisher: ManagerEventBus[F],
+    eventPublisher: DiscoveryEventBus[F],
     ecsCloudDriverConfiguration: CloudDriverConfiguration.Ecs,
     route53Client: AmazonRoute53,
     ecsClient: AmazonECS,

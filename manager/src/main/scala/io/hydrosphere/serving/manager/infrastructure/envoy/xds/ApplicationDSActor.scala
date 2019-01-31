@@ -4,8 +4,8 @@ import envoy.api.v2.DiscoveryResponse
 import io.grpc.stub.StreamObserver
 import io.hydrosphere.serving.manager.domain.application.Application
 import io.hydrosphere.serving.manager.grpc.applications.{Application => GApp}
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEvent._
 import io.hydrosphere.serving.manager.infrastructure.envoy.Converters
-import io.hydrosphere.serving.manager.service.internal_events._
 
 import scala.collection.mutable
 

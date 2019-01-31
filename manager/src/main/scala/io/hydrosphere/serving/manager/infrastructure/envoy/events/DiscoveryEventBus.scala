@@ -1,14 +1,14 @@
-package io.hydrosphere.serving.manager.infrastructure.envoy.internal_events
+package io.hydrosphere.serving.manager.infrastructure.envoy.events
 
 import akka.actor.ActorSystem
 import cats.effect.Sync
 import io.hydrosphere.serving.manager.domain.application.Application
-import io.hydrosphere.serving.manager.domain.servable.Servable
 import io.hydrosphere.serving.manager.domain.clouddriver.CloudService
-import io.hydrosphere.serving.manager.service.internal_events._
+import io.hydrosphere.serving.manager.domain.servable.Servable
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEvent._
 import org.apache.logging.log4j.scala.Logging
 
-trait ManagerEventBus[F[_]] {
+trait DiscoveryEventBus[F[_]] {
   def applicationChanged(application: Application): F[Unit]
 
   def applicationRemoved(application: Application): F[Unit]
@@ -22,8 +22,8 @@ trait ManagerEventBus[F[_]] {
   def cloudServiceRemoved(cloudService: Seq[CloudService]): F[Unit]
 }
 
-object ManagerEventBus {
-  def fromActorSystem[F[_] : Sync](actorSystem: ActorSystem): ManagerEventBus[F] = new ManagerEventBus[F] with Logging {
+object DiscoveryEventBus {
+  def fromActorSystem[F[_] : Sync](actorSystem: ActorSystem): DiscoveryEventBus[F] = new DiscoveryEventBus[F] with Logging {
     def applicationChanged(application: Application) = Sync[F].delay {
       logger.info(s"Application changed: $application")
       actorSystem.eventStream.publish(ApplicationChanged(application))

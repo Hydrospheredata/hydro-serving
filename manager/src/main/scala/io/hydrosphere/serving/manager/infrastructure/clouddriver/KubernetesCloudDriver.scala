@@ -11,7 +11,7 @@ import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.servable.Servable
 import io.hydrosphere.serving.manager.infrastructure.clouddriver.docker.DockerUtil
-import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.ManagerEventBus
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEventBus
 import io.hydrosphere.serving.manager.util.AsyncUtil
 import org.apache.logging.log4j.scala.Logging
 import skuber._
@@ -24,7 +24,7 @@ import scala.language.reflectiveCalls
 class KubernetesCloudDriver[F[_]: Async](
   conf: CloudDriverConfiguration.Kubernetes,
   dockerRepoConf: DockerRepositoryConfiguration.Remote,
-  internalManagerEventsPublisher: ManagerEventBus[F]
+  internalManagerEventsPublisher: DiscoveryEventBus[F]
 )(implicit val ex: ExecutionContext,
   actorSystem: ActorSystem
 ) extends CloudDriver[F] with Logging {

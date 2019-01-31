@@ -36,7 +36,8 @@ class ModelVersionServiceSpec extends GenericUnitTest {
           model = Model(1, "asd"),
           hostSelector = None,
           status = ModelVersionStatus.Released,
-          profileTypes = Map.empty
+          profileTypes = Map.empty,
+          installCommand = None
         ))
       )
       val versionService = ModelVersionService.apply[Id](
@@ -59,7 +60,8 @@ class ModelVersionServiceSpec extends GenericUnitTest {
           model = Model(1, "asd"),
           hostSelector = None,
           status = ModelVersionStatus.Released,
-          profileTypes = Map.empty
+          profileTypes = Map.empty,
+          installCommand = None
         ))
       )
       val versionService = ModelVersionService.apply[Id](

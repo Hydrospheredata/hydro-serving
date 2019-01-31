@@ -16,7 +16,7 @@ import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.servable.Servable
 import io.hydrosphere.serving.manager.infrastructure.clouddriver.docker.DockerUtil
-import io.hydrosphere.serving.manager.infrastructure.envoy.internal_events.ManagerEventBus
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEventBus
 import io.hydrosphere.serving.manager.util.AsyncUtil
 import org.apache.logging.log4j.scala.Logging
 
@@ -27,7 +27,7 @@ class DockerComposeCloudDriver[F[_]: Async](
   applicationConfig: ApplicationConfig,
   sidecarConfig: SidecarConfig,
   advertisedConfiguration: AdvertisedConfiguration,
-  eventPublisher: ManagerEventBus[F]
+  eventPublisher: DiscoveryEventBus[F]
 )(
   implicit val ex: ExecutionContext
 ) extends CloudDriver[F] with Logging {

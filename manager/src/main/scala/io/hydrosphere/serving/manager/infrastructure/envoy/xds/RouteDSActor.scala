@@ -9,7 +9,7 @@ import io.grpc.stub.StreamObserver
 import io.hydrosphere.serving.grpc.Headers
 import io.hydrosphere.serving.manager.domain.application.Application
 import io.hydrosphere.serving.manager.domain.clouddriver.DefaultConstants._
-import io.hydrosphere.serving.manager.service.internal_events._
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEvent._
 
 import scala.collection.mutable
 

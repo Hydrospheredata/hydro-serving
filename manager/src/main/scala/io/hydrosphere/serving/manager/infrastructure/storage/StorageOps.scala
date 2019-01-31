@@ -21,9 +21,7 @@ trait StorageOps[F[_]] {
   def removeFolder(path: Path): F[Option[Unit]]
 
   def getTempDir(prefix: String): F[Path]
-
-  def unpackArchive(archivePath: Path, targetPath: Path): F[Seq[Path]]
-
+  
   def readText(path: Path): F[Option[List[String]]]
 
   def readBytes(path: Path): F[Option[Array[Byte]]]

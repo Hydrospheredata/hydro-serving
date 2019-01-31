@@ -14,7 +14,8 @@ import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.{Model, ModelRepository, ModelService, ModelVersionMetadata}
 import io.hydrosphere.serving.manager.domain.model_build.ModelVersionBuilder
 import io.hydrosphere.serving.manager.domain.model_version._
-import io.hydrosphere.serving.manager.infrastructure.storage.ModelStorage
+import io.hydrosphere.serving.manager.infrastructure.storage
+import io.hydrosphere.serving.manager.infrastructure.storage.{ModelFileStructure, ModelUnpacker}
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.ModelFetcher
 import io.hydrosphere.serving.model.api.ModelType
 import io.hydrosphere.serving.tensorflow.TensorShape
@@ -59,35 +60,30 @@ class ModelServiceSpec extends GenericUnitTest {
           model = model,
           hostSelector = None,
           status = ModelVersionStatus.Released,
-          profileTypes = Map.empty
-        )
-        val modelVersionMetadata = ModelVersionMetadata(
-          modelName = modelName,
-          contract = contract,
           profileTypes = Map.empty,
-          runtime = modelRuntime,
-          hostSelector = None
+          installCommand = None
         )
 
         val uploadFile = Paths.get("123123")
         val upload = ModelUploadMetadata(
-          name = Some(modelName),
+          name = modelName,
           runtime = modelRuntime,
           hostSelectorName = None,
           contract = Some(contract),
-          profileTypes = None
+          profileTypes = None,
+          installCommand = None
         )
 
         val modelRepo = mock[ModelRepository[Id]]
         when(modelRepo.get(Matchers.anyLong())).thenReturn(None)
 
-        val storageMock = mock[ModelStorage[Id]]
-        when(storageMock.unpack(uploadFile, upload.name)).thenReturn(Paths.get(".kekpath"))
+        val storageMock = mock[ModelUnpacker[Id]]
+        when(storageMock.unpack(uploadFile)).thenReturn(ModelFileStructure.forRoot(uploadFile))
         when(modelRepo.get(modelName)).thenReturn(None)
         when(modelRepo.create(Model(0, modelName))).thenReturn(model)
 
         val versionBuilder = mock[ModelVersionBuilder[Id]]
-        when(versionBuilder.build(Matchers.any(), Matchers.any())).thenReturn(
+        when(versionBuilder.build(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
           BuildResult(modelVersion, Future.successful(modelVersion))
         )
 
@@ -150,17 +146,19 @@ class ModelServiceSpec extends GenericUnitTest {
           model = model,
           hostSelector = None,
           status = ModelVersionStatus.Released,
-          profileTypes = Map.empty
+          profileTypes = Map.empty,
+          installCommand = None
         )
         val modelVersionMetadata = ModelVersionMetadata(
           modelName = modelName,
           contract = contract,
           profileTypes = Map.empty,
           runtime = modelRuntime,
-          hostSelector = None
+          hostSelector = None,
+          installCommand = None
         )
         val upload = ModelUploadMetadata(
-          name = Some(modelName),
+          name = modelName,
           runtime = modelRuntime,
           hostSelectorName = None,
           contract = Some(contract),
@@ -173,12 +171,11 @@ class ModelServiceSpec extends GenericUnitTest {
         when(modelRepo.get(modelName)).thenReturn(Some(model))
         when(modelRepo.get(1)).thenReturn(Some(model))
 
-        val storageMock = mock[ModelStorage[Id]]
-        when(storageMock.unpack(uploadFile, upload.name)).thenReturn(Paths.get(".AAAAAAAAA"))
-        when(storageMock.rename(modelName, modelName)).thenReturn(Some(Paths.get("some-test-path")))
+        val storageMock = mock[ModelUnpacker[Id]]
+        when(storageMock.unpack(uploadFile)).thenReturn(ModelFileStructure.forRoot(Paths.get(".AAAAAAAAA")))
 
         val versionService = mock[ModelVersionBuilder[Id]]
-        when(versionService.build(model, modelVersionMetadata)).thenReturn(BuildResult(modelVersion, Future.successful(modelVersion)))
+        when(versionService.build(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(BuildResult(modelVersion, Future.successful(modelVersion)))
 
         val modelManagementService = ModelService[Id](
           modelRepository = modelRepo,

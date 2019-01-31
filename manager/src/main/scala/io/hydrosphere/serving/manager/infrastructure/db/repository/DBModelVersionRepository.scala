@@ -153,7 +153,8 @@ object DBModelVersionRepository {
       model = model,
       hostSelector = hostSelector,
       status = ModelVersionStatus.withName(x.status),
-      profileTypes = x.profileTypes.map(_.parseJson.convertTo[Map[String, DataProfileType]]).getOrElse(Map.empty)
+      profileTypes = x.profileTypes.map(_.parseJson.convertTo[Map[String, DataProfileType]]).getOrElse(Map.empty),
+      installCommand = x.installCommand
     )
   }
 }
