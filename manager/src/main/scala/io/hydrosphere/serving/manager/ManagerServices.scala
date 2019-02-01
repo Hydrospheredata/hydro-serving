@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager
 import akka.actor.{ActorRef, ActorSystem}
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
-import cats.effect.Effect
+import cats.effect.{ConcurrentEffect, Effect}
 import com.spotify.docker.client._
 import io.grpc._
 import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, Headers}
@@ -26,7 +26,7 @@ import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.ExecutionContext
 
-class ManagerServices[F[_]: Effect](
+class ManagerServices[F[_]: ConcurrentEffect](
   val managerRepositories: ManagerRepositories[F],
   val managerConfiguration: ManagerConfiguration,
   val dockerClient: DockerClient,

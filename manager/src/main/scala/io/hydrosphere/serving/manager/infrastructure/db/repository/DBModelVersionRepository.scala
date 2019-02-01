@@ -39,7 +39,7 @@ class DBModelVersionRepository[F[_]: Async](
         modelVersionId = entity.id,
         modelId = entity.model.id,
         modelVersion = entity.modelVersion,
-        modelContract = entity.modelContract.toProtoString,
+        modelContract = entity.modelContract.toJson.compactPrint,
         createdTimestamp = entity.created,
         imageName = entity.image.name,
         imageTag = entity.image.tag,
@@ -145,7 +145,7 @@ object DBModelVersionRepository {
       created = x.createdTimestamp,
       finished = x.finishedTimestamp,
       modelVersion = x.modelVersion,
-      modelContract = ModelContract.fromAscii(x.modelContract),
+      modelContract = x.modelContract.parseJson.convertTo[ModelContract],
       runtime = DockerImage(
         name = x.runtimeName,
         tag = x.runtimeVersion

@@ -28,6 +28,7 @@ trait FullIntegrationSpec extends DatabaseAccessIT
   implicit val system = ActorSystem("fullIT-system")
   implicit val materializer = ActorMaterializer()
   implicit val ex = ExecutionContext.global
+  implicit val contextShift = IO.contextShift(ex)
   implicit val timeout = Timeout(5.minute)
 
   val dummyImage = DockerImage(

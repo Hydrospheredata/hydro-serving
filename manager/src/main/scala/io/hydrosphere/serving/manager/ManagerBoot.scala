@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
-import cats.effect.IO
+import cats.effect.{ContextShift, IO}
 import com.spotify.docker.client.DefaultDockerClient
 import io.hydrosphere.serving.manager.api.grpc.GrpcApiServer
 import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration}
@@ -22,7 +22,7 @@ object ManagerBoot extends App with Logging {
     implicit val materializer: ActorMaterializer = ActorMaterializer()
     implicit val timeout: Timeout = Timeout(5.minute)
     implicit val serviceExecutionContext: ExecutionContext = ExecutionContext.global
-
+    implicit val contextShift: ContextShift[IO] = IO.contextShift(serviceExecutionContext)
     val configLoadResult = ManagerConfiguration.load
     val configuration = configLoadResult match {
       case Left(err) =>

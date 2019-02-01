@@ -23,7 +23,7 @@ trait ModelService[F[_]] {
 
   def deleteModel(modelId: Long): F[Either[DomainError, Model]]
 
-  def uploadModel(filePath: Path, meta: ModelUploadMetadata): F[Either[DomainError, BuildResult]]
+  def uploadModel(filePath: Path, meta: ModelUploadMetadata): F[Either[DomainError, BuildResult[F]]]
 
   def checkIfUnique(targetModel: Model, newModelInfo: Model): F[Either[DomainError, Model]]
 
@@ -53,7 +53,7 @@ object ModelService {
       f.value
     }
 
-    def uploadModel(filePath: Path, meta: ModelUploadMetadata): F[Either[DomainError, BuildResult]] = {
+    def uploadModel(filePath: Path, meta: ModelUploadMetadata): F[Either[DomainError, BuildResult[F]]] = {
       val maybeHostSelector = meta.hostSelectorName match {
         case Some(value) =>
           EitherT.fromOptionF(hostSelectorRepository.get(value), DomainError.invalidRequest(s"Can't find host selector named $value")).map(Option(_))
@@ -69,7 +69,7 @@ object ModelService {
         versionMetadata = ModelVersionMetadata.fromModel(contract, meta, hs)
         _ <- EitherT.fromEither(ModelVersionMetadata.validateContract(versionMetadata))
         parentModel <- EitherT.liftF(createIfNecessary(versionMetadata.modelName))
-        b <- EitherT.liftF[F, DomainError, BuildResult](modelVersionBuilder.build(parentModel, versionMetadata, modelPath))
+        b <- EitherT.liftF[F, DomainError, BuildResult[F]](modelVersionBuilder.build(parentModel, versionMetadata, modelPath))
       } yield b
       f.value
     }

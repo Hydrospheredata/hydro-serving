@@ -4,6 +4,7 @@ import java.nio.file.Paths
 import java.time.LocalDateTime
 
 import cats.Id
+import cats.effect.concurrent.Deferred
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
@@ -14,15 +15,12 @@ import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.{Model, ModelRepository, ModelService, ModelVersionMetadata}
 import io.hydrosphere.serving.manager.domain.model_build.ModelVersionBuilder
 import io.hydrosphere.serving.manager.domain.model_version._
-import io.hydrosphere.serving.manager.infrastructure.storage
-import io.hydrosphere.serving.manager.infrastructure.storage.{ModelFileStructure, ModelUnpacker}
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.ModelFetcher
+import io.hydrosphere.serving.manager.infrastructure.storage.{ModelFileStructure, ModelUnpacker}
 import io.hydrosphere.serving.model.api.ModelType
 import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.mockito.Matchers
-
-import scala.concurrent.Future
 
 class ModelServiceSpec extends GenericUnitTest {
   describe("Model service") {
@@ -33,7 +31,6 @@ class ModelServiceSpec extends GenericUnitTest {
           name = "tf-model"
         )
         val modelName = "tf-model"
-        val modelType = ModelType.fromTag("type:1")
         val modelRuntime = DockerImage(
           name = "runtime",
           tag = "latest"
@@ -84,7 +81,11 @@ class ModelServiceSpec extends GenericUnitTest {
 
         val versionBuilder = mock[ModelVersionBuilder[Id]]
         when(versionBuilder.build(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
-          BuildResult(modelVersion, Future.successful(modelVersion))
+          BuildResult(modelVersion, new Deferred[Id, ModelVersion] {
+            override def get: Id[ModelVersion] = modelVersion
+
+            override def complete(a: ModelVersion): Id[Unit] = Unit
+          })
         )
 
         val modelVersionService = mock[ModelVersionService[Id]]
@@ -175,7 +176,13 @@ class ModelServiceSpec extends GenericUnitTest {
         when(storageMock.unpack(uploadFile)).thenReturn(ModelFileStructure.forRoot(Paths.get(".AAAAAAAAA")))
 
         val versionService = mock[ModelVersionBuilder[Id]]
-        when(versionService.build(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(BuildResult(modelVersion, Future.successful(modelVersion)))
+        when(versionService.build(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
+          BuildResult(modelVersion, new Deferred[Id, ModelVersion] {
+            override def get: Id[ModelVersion] = modelVersion
+
+            override def complete(a: ModelVersion): Id[Unit] = Unit
+          })
+        )
 
         val modelManagementService = ModelService[Id](
           modelRepository = modelRepo,

@@ -4,7 +4,9 @@ import java.io.ByteArrayInputStream
 import java.nio.file.Files
 import java.time.LocalDateTime
 
-import cats.effect.Effect
+import cats.effect.Concurrent
+import cats.effect.concurrent.Deferred
+import cats.effect.implicits._
 import cats.syntax.flatMap._
 import cats.syntax.functor._
 import io.hydrosphere.serving.manager.domain.image.{ImageBuilder, ImageRepository}
@@ -14,18 +16,26 @@ import io.hydrosphere.serving.manager.infrastructure.storage.ModelFileStructure
 import org.apache.logging.log4j.scala.Logging
 
 trait ModelVersionBuilder[F[_]]{
-  def build(model: Model, metadata: ModelVersionMetadata, modelFileStructure: ModelFileStructure): F[BuildResult]
+  def build(model: Model, metadata: ModelVersionMetadata, modelFileStructure: ModelFileStructure): F[BuildResult[F]]
 }
 
 object ModelVersionBuilder {
-  def apply[F[_] : Effect](
+  def apply[F[_] : Concurrent](
     imageBuilder: ImageBuilder[F],
     modelVersionRepository: ModelVersionRepository[F],
     imageRepository: ImageRepository[F],
     modelVersionService: ModelVersionService[F]
   ): ModelVersionBuilder[F] = new ModelVersionBuilder[F] with Logging {
-    override def build(model: Model, metadata: ModelVersionMetadata, modelFileStructure: ModelFileStructure): F[BuildResult] = {
-      val f = for {
+    override def build(model: Model, metadata: ModelVersionMetadata, modelFileStructure: ModelFileStructure): F[BuildResult[F]] = {
+     for {
+       init <- initialVersion(model, metadata)
+       deferred <- Deferred[F, ModelVersion]
+       fbr <- handleBuild(init, modelFileStructure).flatMap(v => deferred.complete(v)).start
+     } yield BuildResult(init, deferred)
+    }
+
+    def initialVersion(model: Model, metadata: ModelVersionMetadata) = {
+      for {
         version <- modelVersionService.getNextModelVersion(model.id)
         image = imageRepository.getImage(metadata.modelName, version.toString)
         mv = ModelVersion(
@@ -44,39 +54,34 @@ object ModelVersionBuilder {
         )
         modelVersion <- modelVersionRepository.create(mv)
       } yield modelVersion
+    }
 
-      val completed = f.flatMap { mv =>
-        val innerCompleted = for {
-          buildPath <- prepare(mv, modelFileStructure)
-          imageSha <- imageBuilder.build(buildPath.root, mv.image)
-          newDockerImage = mv.image.copy(sha256 = Some(imageSha))
-          finishedVersion = mv.copy(image = newDockerImage, finished = Some(LocalDateTime.now()), status = ModelVersionStatus.Released)
-          _ <- modelVersionRepository.update(finishedVersion.id, finishedVersion)
-          _ <- imageRepository.push(finishedVersion.image)
-        } yield finishedVersion
+    def handleBuild(mv: ModelVersion, modelFileStructure: ModelFileStructure) = {
+      val innerCompleted = for {
+        buildPath <- prepare(mv, modelFileStructure)
+        imageSha <- imageBuilder.build(buildPath.root, mv.image)
+        newDockerImage = mv.image.copy(sha256 = Some(imageSha))
+        finishedVersion = mv.copy(image = newDockerImage, finished = Some(LocalDateTime.now()), status = ModelVersionStatus.Released)
+        _ <- modelVersionRepository.update(finishedVersion.id, finishedVersion)
+        _ <- imageRepository.push(finishedVersion.image)
+      } yield finishedVersion
 
-        Effect[F].onError(innerCompleted) {
-          case err =>
-            logger.error(err)
-            val failed = mv.copy(status = ModelVersionStatus.Failed)
-            modelVersionRepository.update(failed.id, failed).map(_ => ())
-        }
+      Concurrent[F].onError(innerCompleted) {
+        case err =>
+          logger.error(err)
+          val failed = mv.copy(status = ModelVersionStatus.Failed)
+          modelVersionRepository.update(failed.id, failed).map(_ => ())
       }
-
-      f.map(t => BuildResult(
-        t,
-        Effect[F].toIO(completed).unsafeToFuture()
-      ))
     }
 
     def prepare(modelVersion: ModelVersion, modelFileStructure: ModelFileStructure): F[ModelFileStructure] = {
       for {
         // create Dockerfile
-        _ <- Effect[F].delay {
+        _ <- Concurrent[F].delay {
           Files.copy(new ByteArrayInputStream(BuildScript.generate(modelVersion).getBytes), modelFileStructure.dockerfile)
         }
         // write contract to the file
-        _ <- Effect[F].delay {
+        _ <- Concurrent[F].delay {
           Files.write(modelFileStructure.contractPath, modelVersion.modelContract.toByteArray)
         }
       } yield modelFileStructure

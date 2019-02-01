@@ -1,5 +1,5 @@
 package io.hydrosphere.serving.manager.domain.model_version
 
-import scala.concurrent.Future
+import cats.effect.concurrent.Deferred
 
-case class BuildResult(startedVersion: ModelVersion, completedVersion: Future[ModelVersion])
+case class BuildResult[F[_]](startedVersion: ModelVersion, completedVersion: Deferred[F, ModelVersion])

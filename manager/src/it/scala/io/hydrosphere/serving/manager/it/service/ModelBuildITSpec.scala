@@ -14,7 +14,7 @@ import org.scalatest.BeforeAndAfterAll
 
 import scala.concurrent.duration._
 
-class ModelBuildITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
+class ModelBuildITSpec extends FullIntegrationSpec {
   private implicit val awaitTimeout: FiniteDuration = 50.seconds
 
   private val uploadFile: Path = packModel("/models/dummy_model")
@@ -30,9 +30,11 @@ class ModelBuildITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
     it("should create an image with correct name and content") {
       eitherTAssert {
         for {
+          models <- EitherT.liftF(managerRepositories.modelVersionRepository.all())
           mv <- EitherT(managerServices.modelService.uploadModel(uploadFile, uploadMetadata))
-          builtMv <- EitherT.liftF(IO.fromFuture(IO(mv.completedVersion)))
+          builtMv <- EitherT.liftF(mv.completedVersion.get)
         } yield {
+          println(models)
           println("BUILD_RESULT:")
           println(builtMv)
           // check that build is successful

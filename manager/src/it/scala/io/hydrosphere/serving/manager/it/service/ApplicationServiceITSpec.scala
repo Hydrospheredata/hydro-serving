@@ -249,9 +249,9 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
     val f = for {
       d1 <- EitherT(managerServices.modelService.uploadModel(uploadFile, upload1))
-      completed1 <- EitherT.liftF[IO, DomainError, ModelVersion](IO.fromFuture(IO(d1.completedVersion)))
+      completed1 <- EitherT.liftF[IO, DomainError, ModelVersion](d1.completedVersion.get)
       d2 <- EitherT(managerServices.modelService.uploadModel(uploadFile, upload2))
-      completed2 <- EitherT.liftF[IO, DomainError, ModelVersion](IO.fromFuture(IO(d2.completedVersion)))
+      completed2 <- EitherT.liftF[IO, DomainError, ModelVersion](d2.completedVersion.get)
     } yield {
       println(s"UPLOADED: $completed1")
       println(s"UPLOADED: $completed2")
