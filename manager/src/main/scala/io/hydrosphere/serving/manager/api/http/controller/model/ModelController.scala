@@ -69,6 +69,7 @@ class ModelController[F[_]: Effect](
     post {
       getFileWithMeta[F, ModelUploadMetadata, ModelVersion] {
         case (Some(file), Some(meta)) =>
+          logger.info(s"Upload request path=$file, metadata=$meta")
           modelManagementService.uploadModel(file, meta)
             .map(x => x.right.map(_.startedVersion))
         case (None, _) => Effect[F].pure(Left(InvalidRequest("Couldn't find a payload in request")))

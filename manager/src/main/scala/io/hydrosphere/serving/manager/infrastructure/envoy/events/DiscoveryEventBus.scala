@@ -46,7 +46,7 @@ object DiscoveryEventBus {
 
     def cloudServiceDetected(cloudService: Seq[CloudService]) = Sync[F].delay {
       logger.info(s"Cloud service detected: $cloudService")
-      actorSystem.eventStream.publish(CloudServiceDetected(cloudService))
+      actorSystem.eventStream.publish( CloudServiceDetected(cloudService))
     }
 
     def cloudServiceRemoved(cloudService: Seq[CloudService]) = Sync[F].delay {

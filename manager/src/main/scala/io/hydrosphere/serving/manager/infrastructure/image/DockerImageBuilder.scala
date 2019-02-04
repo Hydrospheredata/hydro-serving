@@ -30,6 +30,7 @@ class DockerImageBuilder[F[_]: Sync](
     image: DockerImage
   ): F[String] = {
     val idF = Sync[F].delay {
+      logger.info(s"Building $image from $buildPath")
       logger.info(s"Sending docker build request with ${ReflectionUtils.prettyPrint(buildParams)} params")
       val imageId = Option {
         dockerClient.build(

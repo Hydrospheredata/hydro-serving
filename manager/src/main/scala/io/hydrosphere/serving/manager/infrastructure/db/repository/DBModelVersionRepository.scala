@@ -49,7 +49,8 @@ class DBModelVersionRepository[F[_]: Async](
         runtimeName = entity.runtime.name,
         runtimeVersion = entity.runtime.tag,
         status = entity.status.toString,
-        profileTypes = if (entity.profileTypes.isEmpty) None else Some(entity.profileTypes.toJson.compactPrint)
+        profileTypes = if (entity.profileTypes.isEmpty) None else Some(entity.profileTypes.toJson.compactPrint),
+        installCommand = entity.installCommand
       )
     ).map(x => mapFromDb(x, entity.model, entity.hostSelector))
   }

@@ -61,7 +61,7 @@ class LocalDockerCloudDriver[F[_]: Async](
         .labels(javaLabels.asJava)
         .hostConfig(builder.build())
         .env(envMap.map { case (k, v) => s"$k=$v" }.toList.asJava)
-        .build(), s"service${service.serviceName}")
+        .build(), service.serviceName)
       dockerClient.startContainer(c.id())
 
       val cloudService = fetchById(service.id)

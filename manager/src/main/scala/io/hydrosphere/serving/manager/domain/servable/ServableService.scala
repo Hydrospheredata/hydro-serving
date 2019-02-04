@@ -56,7 +56,7 @@ object ServableService {
       //TODO ADD validation for names manager,gateway + length + without space and special symbols
       for {
         asd <- createAndDeploy(serviceName, configParams, modelVersion)
-        _ = eventPublisher.serviceChanged(asd)
+        _ <- eventPublisher.serviceChanged(asd)
       } yield asd
     }
 

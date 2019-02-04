@@ -9,7 +9,7 @@ object BuildScript {
       s"LABEL ${Parameters.modelNameLabel}=${modelVersion.model.name}",
       s"LABEL ${Parameters.modelVersionLabel}=${modelVersion.modelVersion}",
       s"ADD model /model",
-      s"WORKDIR /model"
+      s"WORKDIR /model/files"
     ) ++ modelVersion.installCommand
       .map(x => s"RUN $x").toSeq
     commandSeq.mkString("\n")
