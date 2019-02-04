@@ -40,7 +40,8 @@ class LocalDockerCloudDriver[F[_]: Async](
 //      startModel(service, modelVersion)
 
       val javaLabels = getRuntimeLabels(service) ++ Map(
-        DefaultConstants.LABEL_SERVICE_NAME -> service.serviceName
+        DefaultConstants.LABEL_SERVICE_NAME -> service.serviceName,
+        DefaultConstants.LABEL_SERVICE_ID -> service.id.toString
       )
 
       val envMap = service.configParams ++ Map(
