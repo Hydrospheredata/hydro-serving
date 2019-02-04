@@ -2,7 +2,9 @@ package io.hydrosphere.serving.manager.domain.application
 
 import cats.Traverse
 import cats.data.EitherT
-import cats.effect.Effect
+import cats.effect.concurrent.Deferred
+import cats.effect.{Concurrent, Fiber}
+import cats.effect.implicits._
 import cats.instances.list._
 import cats.syntax.flatMap._
 import cats.syntax.functor._
@@ -23,11 +25,11 @@ import scala.util.Try
 trait ApplicationService[F[_]] {
   def generateInputs(name: String): F[Either[DomainError,JsObject]]
 
-  def create(appRequest: CreateApplicationRequest): F[Either[DomainError, ApplicationBuildResult]]
+  def create(appRequest: CreateApplicationRequest): F[Either[DomainError, ApplicationBuildResult[F]]]
 
   def delete(name: String): F[Either[DomainError,Application]]
 
-  def update(appRequest: UpdateApplicationRequest): F[Either[DomainError, ApplicationBuildResult]]
+  def update(appRequest: UpdateApplicationRequest): F[Either[DomainError, ApplicationBuildResult[F]]]
 
   def checkApplicationName(name: String): F[Either[DomainError, String]]
 
@@ -35,23 +37,48 @@ trait ApplicationService[F[_]] {
 }
 
 object ApplicationService {
-  def apply[F[_] : Effect](
+  def apply[F[_] : Concurrent](
     applicationRepository: ApplicationRepository[F],
     versionRepository: ModelVersionRepository[F],
     servableService: ServableService[F],
     servableRepo: ServableRepository[F],
     internalManagerEventsPublisher: DiscoveryEventBus[F],
   )(implicit ex: ExecutionContext): ApplicationService[F] = new ApplicationService[F] with Logging {
+    def composeApp(name: String, namespace: Option[String], executionGraph: ExecutionGraphRequest, kafkaStreaming: Option[Seq[ApplicationKafkaStream]]) = {
+      for {
+        _ <- EitherT(checkApplicationName(name))
+        graph <- EitherT(inferGraph(executionGraph))
+        signature <- EitherT.fromOption(ApplicationValidator.inferPipelineSignature(name, graph), DomainError.invalidRequest("Incompatible application stages"))(Concurrent[F])
+      } yield composeInitApp(name, namespace, graph, signature, kafkaStreaming.getOrElse(List.empty))
+    }
+
     def generateInputs(name: String): F[Either[DomainError, JsObject]] = {
       val f = for {
         app <- EitherT(get(name))
-        tensorData <- EitherT.fromOptionF(Effect[F].delay(Try(TensorExampleGenerator(app.signature).inputs).toOption), DomainError.internalError("Can't generate tensor example."))
-        jsonData <- EitherT.fromOptionF[F, DomainError, JsObject](Effect[F].delay(Try(TensorJsonLens.mapToJson(tensorData)).toOption), DomainError.internalError("Can't convert"))
+        tensorData <- EitherT.fromOptionF(Concurrent[F].delay(Try(TensorExampleGenerator(app.signature).inputs).toOption), DomainError.internalError("Can't generate tensor example."))
+        jsonData <- EitherT.fromOptionF[F, DomainError, JsObject](Concurrent[F].delay(Try(TensorJsonLens.mapToJson(tensorData)).toOption), DomainError.internalError("Can't convert"))
       } yield jsonData
       f.value
     }
 
-    def create(appRequest: CreateApplicationRequest): F[Either[DomainError, ApplicationBuildResult]] = {
+    def startServices(application: Application, versions: Seq[ModelVersion]) = {
+      val finished = for {
+        _ <- servableService.deployModelVersions(versions.toSet)
+        finishedApp = application.copy(status = ApplicationStatus.Ready)
+        _ <- internalManagerEventsPublisher.applicationChanged(finishedApp)
+        _ <- applicationRepository.update(finishedApp)
+      } yield finishedApp
+
+      Concurrent[F].onError(finished) {
+        case x => Concurrent[F].defer {
+          logger.warn(s"ModelVersion deployment exception", x)
+          val failedApp = application.copy(status = ApplicationStatus.Failed)
+          applicationRepository.update(failedApp).map(_ => ())
+        }
+      }
+    }
+
+    def create(appRequest: CreateApplicationRequest): F[Either[DomainError, ApplicationBuildResult[F]]] = {
       val keys = for {
         stage <- appRequest.executionGraph.stages
         service <- stage.modelVariants
@@ -61,37 +88,16 @@ object ApplicationService {
       val keySet = keys.toSet
 
       val f = for {
-        _ <- EitherT(checkApplicationName(appRequest.name))
-        graph <- EitherT(inferGraph(appRequest.executionGraph))
-        signature <- EitherT.fromOption(ApplicationValidator.inferPipelineSignature(appRequest.name, graph), DomainError.invalidRequest("Incompatible application stages"))(Effect[F])
-        app = composeInitApp(appRequest.name, appRequest.namespace, graph, signature, appRequest.kafkaStreaming.getOrElse(List.empty))
-
+        app <- composeApp(appRequest.name, appRequest.namespace, appRequest.executionGraph, appRequest.kafkaStreaming)
         services <- EitherT.liftF[F, DomainError, Seq[Servable]](servableRepo.fetchByIds(keySet.toSeq))
         existedServices = services.map(_.modelVersion.id)
         serviceDiff = keySet -- existedServices
         versions <- EitherT.liftF[F, DomainError, Seq[ModelVersion]](versionRepository.get(serviceDiff.toSeq))
 
         createdApp <- EitherT.liftF[F, DomainError, Application](applicationRepository.create(app))
-      } yield {
-        val successfulApp = servableService.deployModelVersions(versions.toSet).map { _ =>
-          val finishedApp = createdApp.copy(status = ApplicationStatus.Ready)
-          internalManagerEventsPublisher.applicationChanged(createdApp)
-          applicationRepository.update(finishedApp)
-          finishedApp
-        }
-        val completedApp = Effect[F].onError(successfulApp) {
-          case x => Effect[F].defer {
-            logger.warn(s"ModelVersion deployment exception", x)
-            val failedApp = createdApp.copy(status = ApplicationStatus.Failed)
-            applicationRepository.update(failedApp).map(_ => ())
-          }
-        }
-
-        ApplicationBuildResult(
-          createdApp,
-          Effect[F].toIO(completedApp).unsafeToFuture()
-        )
-      }
+        df <- EitherT.liftF[F, DomainError, Deferred[F, Application]](Deferred[F, Application])
+        _ <- EitherT.liftF[F, DomainError, Fiber[F, Unit]](startServices(createdApp, versions).flatMap(df.complete).start)
+      } yield ApplicationBuildResult(createdApp, df)
       f.value
     }
 
@@ -106,15 +112,13 @@ object ApplicationService {
       f.value
     }
 
-    def update(appRequest: UpdateApplicationRequest): F[Either[DomainError, ApplicationBuildResult]] = {
+    def update(appRequest: UpdateApplicationRequest): F[Either[DomainError, ApplicationBuildResult[F]]] = {
       val res = for {
-        _ <- EitherT(checkApplicationName(appRequest.name))
         oldApplication <- EitherT.fromOptionF(applicationRepository.get(appRequest.id), DomainError.notFound(s"Can't find application id ${appRequest.id}"))
+        _ <- EitherT.liftF(internalManagerEventsPublisher.applicationRemoved(oldApplication))
 
-        graph <- EitherT(inferGraph(appRequest.executionGraph))
-        signature <- EitherT.fromOption(ApplicationValidator.inferPipelineSignature(appRequest.name, graph), DomainError.invalidRequest("Incompatible application stages"))(Effect[F])
-
-        newApplication = composeInitApp(appRequest.name, appRequest.namespace, graph, signature, appRequest.kafkaStreaming.getOrElse(Seq.empty), appRequest.id)
+        composedApp <- composeApp(appRequest.name, appRequest.namespace, appRequest.executionGraph, appRequest.kafkaStreaming)
+        newApplication = composedApp.copy(id = oldApplication.id)
         keysSetOld = oldApplication.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion.id)).toSet
         keysSetNew = appRequest.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersionId)).toSet
         servicesToAdd = keysSetNew -- keysSetOld
@@ -124,28 +128,10 @@ object ApplicationService {
         versions <- EitherT.liftF[F, DomainError, Seq[ModelVersion]](versionRepository.get(servicesToAdd.toSeq))
 
         _ <- EitherT.liftF[F, DomainError, Int](applicationRepository.update(newApplication))
-      } yield {
-        val finishedApp = for {
-          _ <- servableService.deployModelVersions(versions.toSet)
-          finishedApp = newApplication.copy(status = ApplicationStatus.Ready)
-          _ <- internalManagerEventsPublisher.applicationChanged(newApplication)
-          _ <- applicationRepository.update(finishedApp)
-        } yield finishedApp
-        val completed = Effect[F].onError(finishedApp) {
-          case x =>
-            val failedApp = newApplication.copy(status = ApplicationStatus.Failed)
-            for {
-              _ <- internalManagerEventsPublisher.applicationRemoved(failedApp)
-              _ <- applicationRepository.update(failedApp)
-              _ <- Effect[F].delay(logger.warn(s"ModelVersion deployment exception", x))
-            } yield ()
-        }
 
-        ApplicationBuildResult(
-          newApplication,
-          Effect[F].toIO(completed).unsafeToFuture()
-        )
-      }
+        df <- EitherT.liftF[F, DomainError, Deferred[F, Application]](Deferred[F, Application])
+        _ <- EitherT.liftF[F, DomainError, Fiber[F, Unit]](startServices(newApplication, versions).flatMap(df.complete).start)
+      } yield ApplicationBuildResult(newApplication, df)
       res.value
     }
 
@@ -153,7 +139,7 @@ object ApplicationService {
       val f = for {
         _ <- EitherT.fromOption.apply[DomainError, String](
           ApplicationValidator.name(name), InvalidRequest(s"Application name $name contains invalid symbols. It should only contain latin letters, numbers '-' and '_'")
-        )(Effect[F])
+        )(Concurrent[F])
         _ <- EitherT.liftF[F, DomainError, Unit](applicationRepository.get(name).map {
           case Some(_) => Left(InvalidRequest(s"Application with name $name already exists"))
           case None => Right(())
@@ -211,7 +197,7 @@ object ApplicationService {
         version <- EitherT.fromOptionF[F, DomainError, ModelVersion](versionRepository.get(service.modelVersionId), InvalidRequest(s"Can't find model version with id ${service.modelVersionId}"))
         signature <- EitherT.fromOption.apply[DomainError, ModelSignature](
           version.modelContract.signatures.find(_.signatureName == service.signatureName), InvalidRequest(s"Can't find requested signature ${service.signatureName}")
-        )(Effect[F])
+        )(Concurrent[F])
       } yield List(
         PipelineStage(
           modelVariants = List(ModelVariant(version, 100, signature)), // 100 since this is the only service in the app
@@ -229,7 +215,7 @@ object ApplicationService {
             .inferStageSignature(services)
             .left
             .map(x => DomainError.invalidRequest(x.message))
-          )(Effect[F])
+          )(Concurrent[F])
         } yield {
           PipelineStage(
             modelVariants = services,
@@ -245,7 +231,7 @@ object ApplicationService {
           version <- EitherT.fromOptionF(versionRepository.get(service.modelVersionId), DomainError.invalidRequest(s"Can't find model version with id ${service.modelVersionId}"))
           signature <- EitherT.fromOption.apply[DomainError, ModelSignature](
             version.modelContract.signatures.find(_.signatureName == service.signatureName), DomainError.invalidRequest(s"Can't find ${service.signatureName} signature")
-          )(Effect[F])
+          )(Concurrent[F])
         } yield ModelVariant(version, service.weight, signature)
       }.value
     }

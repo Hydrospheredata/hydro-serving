@@ -64,19 +64,6 @@ trait CommonJsonProtocol extends SprayJsonSupport with DefaultJsonProtocol with 
     }
   }
 
-  implicit def protoFormat[T <: GeneratedMessage with Message[T]](msgCompanion: GeneratedMessageCompanion[T]) = new RootJsonFormat[T] {
-    override def write(obj: T): JsValue = {
-      JsString(obj.toProtoString)
-    }
-
-    override def read(json: JsValue): T = {
-      json match {
-        case JsString(str) => msgCompanion.fromAscii(str)
-        case x => throw DeserializationException(s"$x is not a correct $msgCompanion")
-      }
-    }
-  }
-
   implicit def protoEnumFormat[T <: GeneratedEnum](enumCompanion: GeneratedEnumCompanion[T]) = new RootJsonFormat[T] {
     override def write(obj: T): JsValue = {
       JsString(obj.toString())

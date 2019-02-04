@@ -175,6 +175,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
       eitherTAssert {
         for {
           app <- EitherT(managerServices.appService.create(appRequest))
+          _ <- EitherT.liftF(app.completed.get)
           appNew <- EitherT(managerServices.appService.update(UpdateApplicationRequest(
             app.started.id,
             app.started.name,
@@ -182,10 +183,10 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
             appRequest.executionGraph,
             Option.empty
           )))
-
-          gotNewApp <- EitherT.fromOptionF(managerRepositories.applicationRepository.get(appNew.started.id), DomainError.notFound("app not found"))
+          finishedNew <- EitherT.liftF(appNew.completed.get)
+          gotNewApp <- EitherT.fromOptionF(managerRepositories.applicationRepository.get(appNew.started.id), DomainError.notFound(s"${appNew.started.id} app not found"))
         } yield {
-          assert(appNew.started === gotNewApp)
+          assert(finishedNew === gotNewApp)
           assert(appNew.started.kafkaStreaming.isEmpty, appNew)
         }
       }

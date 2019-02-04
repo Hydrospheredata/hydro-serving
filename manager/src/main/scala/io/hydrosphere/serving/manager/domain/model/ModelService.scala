@@ -12,8 +12,8 @@ import io.hydrosphere.serving.manager.domain.DomainError
 import io.hydrosphere.serving.manager.domain.DomainError.{InvalidRequest, NotFound}
 import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationRepository}
 import io.hydrosphere.serving.manager.domain.host_selector.{HostSelector, HostSelectorRepository}
-import io.hydrosphere.serving.manager.domain.model_build.ModelVersionBuilder
-import io.hydrosphere.serving.manager.domain.model_version.{BuildResult, ModelVersion, ModelVersionRepository, ModelVersionService}
+import io.hydrosphere.serving.manager.domain.model_build.{BuildResult, ModelVersionBuilder}
+import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepository, ModelVersionService}
 import io.hydrosphere.serving.manager.infrastructure.storage.{ModelFileStructure, ModelUnpacker}
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.ModelFetcher
 import org.apache.logging.log4j.scala.Logging
@@ -61,11 +61,12 @@ object ModelService {
       }
 
       val f = for {
+        _ <- EitherT.fromOption[F].apply(ModelValidator.name(meta.name), DomainError.invalidRequest("Model name contains invalid characters"))
         hs <- maybeHostSelector
         modelPath <- EitherT.liftF[F, DomainError, ModelFileStructure](storageService.unpack(filePath))
         contract <- OptionT.fromOption(meta.contract)
           .orElse(OptionT(fetcher.fetch(modelPath.filesPath)).map(_.modelContract))
-            .toRight(DomainError.invalidRequest("No contract provided and couldn't infer it from model files."))
+          .toRight(DomainError.invalidRequest("No contract provided and couldn't infer it from model files."))
         versionMetadata = ModelVersionMetadata.fromModel(contract, meta, hs)
         _ <- EitherT.fromEither(ModelVersionMetadata.validateContract(versionMetadata))
         parentModel <- EitherT.liftF(createIfNecessary(versionMetadata.modelName))

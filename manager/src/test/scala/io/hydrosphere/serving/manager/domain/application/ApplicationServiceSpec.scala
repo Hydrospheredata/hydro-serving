@@ -17,6 +17,7 @@ import io.hydrosphere.serving.tensorflow.types.DataType
 import org.mockito.Matchers
 
 import scala.collection.mutable.ListBuffer
+import scala.concurrent.ExecutionContext
 
 class ApplicationServiceSpec extends GenericUnitTest {
 
@@ -42,6 +43,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
   )
 
   describe("Application management service") {
+    implicit val cs = IO.contextShift(ExecutionContext.global)
     it("should start application build") {
       ioAssert {
         val appRepo = mock[ApplicationRepository[IO]]
@@ -142,16 +144,9 @@ class ApplicationServiceSpec extends GenericUnitTest {
         applicationService.create(createReq).flatMap { res =>
           assert(res.isRight, res)
           val app = res.right.get
-          app.completed.foreach { x =>
-            println(x)
-            fail("Future should fail")
-          }
-          IO.fromFuture {
-            IO {
-              app.completed.failed.map { x =>
-                assert(x.isInstanceOf[RuntimeException])
-              }
-            }
+          app.completed.get.attempt.map {
+            case Right(_) => fail("should fail")
+            case Left(ex) => assert(ex.isInstanceOf[RuntimeException])
           }
         }
       }
@@ -226,18 +221,15 @@ class ApplicationServiceSpec extends GenericUnitTest {
         val createReq = CreateApplicationRequest("test", None, graph, Option.empty)
         applicationService.create(createReq).flatMap { res =>
           val app = res.right.get
-          IO.fromFuture {
-            IO {
-              app.completed.map { finished =>
-                assert(finished.name === "test")
-                assert(finished.status === ApplicationStatus.Ready)
-                assert(appChanged.nonEmpty)
-              }
-            }
+          app.completed.get.map { finished =>
+            assert(finished.name === "test")
+            assert(finished.status === ApplicationStatus.Ready)
+            assert(appChanged.nonEmpty)
           }
         }
       }
     }
+
     it("should rebuild on update") {
       ioAssert {
         val appRepo = mock[ApplicationRepository[IO]]

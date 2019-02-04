@@ -91,6 +91,25 @@ class ModelController[F[_]: Effect](
     }
   }
 
+  @Path("/version/{versionName}/{version}")
+  @ApiOperation(value = "Get ModelVersion", notes = "Get ModelVersion", nickname = "getModelVersion", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "versionName", required = true, dataType = "string", paramType = "path", value = "modelId"),
+    new ApiImplicitParam(name = "version", required = true, dataType = "long", paramType = "path", value = "modelId")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "ModelVersion", response = classOf[ModelVersion]),
+    new ApiResponse(code = 404, message = "Not found"),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def getModelVersions = path("model" / "version" / Segment / LongNumber) { (name, version) =>
+    get {
+      completeFRes(
+        modelVersionManagementService.get(name, version)
+      )
+    }
+  }
+
   @Path("/{modelId}")
   @ApiOperation(value = "Delete model if not in app", notes = "Fails if any version of the model is deployed", nickname = "deleteModel", httpMethod = "DELETE")
   @ApiImplicitParams(Array(
@@ -109,5 +128,5 @@ class ModelController[F[_]: Effect](
   }
 
 
-  val routes: Route = listModels ~ getModel ~ uploadModel ~ allModelVersions ~ deleteModel
+  val routes: Route = listModels ~ getModel ~ uploadModel ~ allModelVersions ~ deleteModel ~ getModelVersions
 }

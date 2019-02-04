@@ -5,7 +5,7 @@ import java.nio.file.{Files, Path}
 import akka.http.scaladsl.marshalling.ToResponseMarshaller
 import akka.http.scaladsl.model._
 import akka.http.scaladsl.server.Directives._
-import akka.http.scaladsl.server.Route
+import akka.http.scaladsl.server.{ExceptionHandler, Route}
 import akka.stream.Materializer
 import akka.stream.scaladsl.FileIO
 import cats.effect.Effect
@@ -16,6 +16,7 @@ import io.hydrosphere.serving.manager.infrastructure.protocol.CompleteJsonProtoc
 import io.hydrosphere.serving.manager.util.AsyncUtil
 import org.apache.logging.log4j.scala.Logging
 import spray.json._
+
 import scala.concurrent.duration._
 import scala.concurrent.{ExecutionContext, Future}
 import scala.util.{Failure, Success}
@@ -68,24 +69,15 @@ trait AkkaHttpControllerDsl extends CompleteJsonProtocol with Logging {
     onComplete(Effect[F].toIO(res).unsafeToFuture()) {
       case Success(result) =>
         f(result)
-      case Failure(err) =>
-        logger.error(err.toString)
-        logger.error(err.getStackTrace.mkString("\n"))
-        val error: DomainError = InternalError(err.toString)
-        complete(
-          HttpResponse(
-            status = StatusCodes.InternalServerError,
-            entity = HttpEntity(ContentTypes.`application/json`, error.toJson.toString)
-          )
-        )
+      case Failure(err) => commonExceptionHandler(err)
     }
   }
 
-  final def completeF[F[_] : Effect, T: ToResponseMarshaller](res: F[T]): Route = {
+  final def completeF[F[_] : Effect, T: ToResponseMarshaller](res: F[T]): Route  = {
     withF(res)(complete(_))
   }
 
-  final def completeRes[T: ToResponseMarshaller](res: Either[DomainError, T]): Route = {
+  final def completeRes[T: ToResponseMarshaller](res: Either[DomainError, T]): Route  = {
     res match {
       case Left(a) =>
         a match {
@@ -116,8 +108,48 @@ trait AkkaHttpControllerDsl extends CompleteJsonProtocol with Logging {
     }
   }
 
-  final def completeFRes[F[_] : Effect, T: ToResponseMarshaller](res: F[Either[DomainError, T]]): Route = {
+  final def completeFRes[F[_] : Effect, T: ToResponseMarshaller](res: F[Either[DomainError, T]]): Route
+
+  = {
     withF(res)(completeRes(_))
+  }
+
+  final def commonExceptionHandler = ExceptionHandler {
+    case DeserializationException(msg, _, fields) =>
+      logger.error(msg)
+      complete(
+        HttpResponse(
+          StatusCodes.BadRequest,
+          entity = Map(
+            "error" -> "RequestDeserializationError",
+            "message" -> msg,
+            "fields" -> fields
+          ).asInstanceOf[Map[String, Any]].toJson.toString()
+        )
+      )
+    case p: SerializationException =>
+      logger.error(p.getMessage, p)
+      complete(
+        HttpResponse(
+          StatusCodes.InternalServerError,
+          entity = Map(
+            "error" -> "ResponseSerializationException",
+            "message" -> Option(p.getMessage).getOrElse(s"Unknown error: $p")
+          ).toJson.toString()
+        )
+      )
+    case p: Throwable =>
+      logger.error(p.toString)
+      logger.error(p.getStackTrace.mkString("\n"))
+      complete(
+        HttpResponse(
+          StatusCodes.InternalServerError,
+          entity = Map(
+            "error" -> "InternalException",
+            "message" -> Option(p.toString).getOrElse(s"Unknown error: $p")
+          ).toJson.toString()
+        )
+      )
   }
 }
 

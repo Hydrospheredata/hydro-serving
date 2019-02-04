@@ -10,7 +10,7 @@ import akka.stream.ActorMaterializer
 import cats.effect.Effect
 import ch.megard.akka.http.cors.scaladsl.CorsDirectives
 import ch.megard.akka.http.cors.scaladsl.settings.CorsSettings
-import io.hydrosphere.serving.manager.api.http.controller.{ApplicationController, SwaggerDocController}
+import io.hydrosphere.serving.manager.api.http.controller.{AkkaHttpControllerDsl, ApplicationController, SwaggerDocController}
 import io.hydrosphere.serving.manager.{ManagerRepositories, ManagerServices}
 import io.hydrosphere.serving.manager.config.ManagerConfiguration
 import io.hydrosphere.serving.manager.api.http.controller.environment.HostSelectorController
@@ -30,7 +30,7 @@ class HttpApiServer[F[_]: Effect](
   implicit val system: ActorSystem,
   implicit val materializer: ActorMaterializer,
   implicit val ec: ExecutionContext
-) extends Logging {
+) extends AkkaHttpControllerDsl {
 
   val environmentController = new HostSelectorController[F](
     managerServices.hostSelectorService,
@@ -56,44 +56,6 @@ class HttpApiServer[F[_]: Effect](
     ),
     "2"
   )
-
-  val commonExceptionHandler = ExceptionHandler {
-    case DeserializationException(msg,_, fields) =>
-      logger.error(msg)
-      complete(
-        HttpResponse(
-          StatusCodes.BadRequest,
-          entity = Map(
-            "error" -> "RequestDeserializationError",
-            "message" -> msg,
-            "fields" -> fields
-          ).asInstanceOf[Map[String, Any]].toJson.toString()
-        )
-      )
-    case p: SerializationException =>
-      logger.error(p.getMessage, p)
-      complete(
-        HttpResponse(
-          StatusCodes.InternalServerError,
-          entity = Map(
-            "error" -> "ResponseSerializationException",
-            "message" -> Option(p.getMessage).getOrElse(s"Unknown error: $p")
-          ).toJson.toString()
-        )
-      )
-    case p: Throwable =>
-      logger.error(p.toString)
-      logger.error(p.getStackTrace.mkString("\n"))
-      complete(
-        HttpResponse(
-          StatusCodes.InternalServerError,
-          entity = Map(
-            "error" -> "InternalException",
-            "message" -> Option(p.toString).getOrElse(s"Unknown error: $p")
-          ).toJson.toString()
-        )
-      )
-  }
 
   val controllerRoutes: Route = pathPrefix("v2") {
     handleExceptions(commonExceptionHandler) {
