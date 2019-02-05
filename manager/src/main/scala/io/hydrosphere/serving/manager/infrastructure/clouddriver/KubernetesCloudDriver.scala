@@ -4,14 +4,15 @@ import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.Sink
 import cats.effect.Async
+import cats.syntax.flatMap._
+import cats.syntax.functor._
 import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, DockerRepositoryConfiguration}
-import io.hydrosphere.serving.manager.domain.clouddriver.DefaultConstants._
 import io.hydrosphere.serving.manager.domain.clouddriver._
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.servable.Servable
 import io.hydrosphere.serving.manager.infrastructure.clouddriver.docker.DockerUtil
-import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEventBus
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.CloudServiceDiscoveryEventBus
 import io.hydrosphere.serving.manager.util.AsyncUtil
 import org.apache.logging.log4j.scala.Logging
 import skuber._
@@ -24,7 +25,7 @@ import scala.language.reflectiveCalls
 class KubernetesCloudDriver[F[_]: Async](
   conf: CloudDriverConfiguration.Kubernetes,
   dockerRepoConf: DockerRepositoryConfiguration.Remote,
-  internalManagerEventsPublisher: DiscoveryEventBus[F]
+  cloudServiceBus: CloudServiceDiscoveryEventBus[F]
 )(implicit val ex: ExecutionContext,
   actorSystem: ActorSystem
 ) extends CloudDriver[F] with Logging {
@@ -38,10 +39,10 @@ class KubernetesCloudDriver[F[_]: Async](
       if (serviceEvent._object.metadata.namespace == conf.kubeNamespace) {
         serviceEvent._type match {
           case EventType.ADDED =>
-            internalManagerEventsPublisher.cloudServiceDetected(Seq(kubeServiceToCloudService(serviceEvent._object)))
+            cloudServiceBus.detected(kubeServiceToCloudService(serviceEvent._object))
             logger.debug(s"service ${serviceEvent._object.name} added")
           case EventType.DELETED =>
-            internalManagerEventsPublisher.cloudServiceRemoved(Seq(kubeServiceToCloudService(serviceEvent._object)))
+            cloudServiceBus.removed(kubeServiceToCloudService(serviceEvent._object))
             logger.debug(s"service ${serviceEvent._object.name} deleted")
           case EventType.MODIFIED => logger.debug(s"service ${serviceEvent._object.name} modified")
           case EventType.ERROR => logger.debug(s"service ${serviceEvent._object.name} error")
@@ -113,13 +114,12 @@ class KubernetesCloudDriver[F[_]: Async](
 
     val namespacedContext = k8s.usingNamespace(conf.kubeNamespace)
 
-    (for {
+    for {
       svc <- namespacedContext.create(kubeService)
       _ <- namespacedContext.create(deployment)
-    } yield kubeServiceToCloudService(svc)).map(cloudService => {
-      internalManagerEventsPublisher.cloudServiceDetected(Seq(cloudService))
-      cloudService
-    })
+    } yield kubeServiceToCloudService(svc)
+  }.flatMap { cloudService =>
+    cloudServiceBus.detected(cloudService).as(cloudService)
   }
 
   override def removeService(serviceId: Long): F[Unit] = AsyncUtil.futureAsync {
@@ -133,7 +133,7 @@ class KubernetesCloudDriver[F[_]: Async](
       _ <- namespacedContext.delete[skuber.Service](svc.metadata.name)
       _ <- namespacedContext.delete[apps.v1.Deployment](svc.metadata.name)
     } yield
-      internalManagerEventsPublisher.cloudServiceRemoved(Seq(kubeServiceToCloudService(svc)))
+      cloudServiceBus.removed(kubeServiceToCloudService(svc))
   }
 
   private def kubeServiceToCloudService(svc: skuber.Service, image: String = ""): CloudService = {

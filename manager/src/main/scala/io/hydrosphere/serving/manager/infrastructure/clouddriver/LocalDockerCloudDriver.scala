@@ -13,7 +13,7 @@ import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.servable.Servable
 import io.hydrosphere.serving.manager.infrastructure.clouddriver.docker.DockerUtil
-import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEventBus
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.CloudServiceDiscoveryEventBus
 import io.hydrosphere.serving.manager.util.AsyncUtil
 import org.apache.logging.log4j.scala.Logging
 
@@ -26,7 +26,7 @@ class LocalDockerCloudDriver[F[_]: Async](
   sidecarConfig: SidecarConfig,
   advertisedConfiguration: AdvertisedConfiguration,
   localDockerCloudDriverConfiguration: CloudDriverConfiguration.Local,
-  internalManagerEventsPublisher: DiscoveryEventBus[F]
+  cloudServiceBus: CloudServiceDiscoveryEventBus[F]
 )(implicit val ex: ExecutionContext) extends CloudDriver[F] with Logging {
 
   override def serviceList(): F[Seq[CloudService]] = Async[F].delay {
@@ -69,7 +69,7 @@ class LocalDockerCloudDriver[F[_]: Async](
       cloudService
     }
   }.flatMap { x =>
-    internalManagerEventsPublisher.cloudServiceDetected(Seq(x)).map(_ => x)
+    cloudServiceBus.detected(x).map(_ => x)
   }
 
   override def removeService(serviceId: Long): F[Unit] = Async[F].delay {

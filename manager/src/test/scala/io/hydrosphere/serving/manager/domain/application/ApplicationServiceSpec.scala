@@ -7,12 +7,11 @@ import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.GenericUnitTest
-import io.hydrosphere.serving.manager.domain.clouddriver.CloudService
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.Model
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepository, ModelVersionStatus}
 import io.hydrosphere.serving.manager.domain.servable.{Servable, ServableRepository, ServableService}
-import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEventBus
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.ApplicationDiscoveryEventBus
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.mockito.Matchers
 
@@ -68,7 +67,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
         when(versionRepo.get(Seq(1L))).thenReturn(IO(Seq(modelVersion)))
         val serviceManager = mock[ServableRepository[IO]]
         when(serviceManager.fetchByIds(Seq(1))).thenReturn(IO(Seq.empty))
-        val eventPublisher = mock[DiscoveryEventBus[IO]]
+        val eventPublisher = mock[ApplicationDiscoveryEventBus[IO]]
         val applicationService = ApplicationService[IO](
           appRepo,
           versionRepo,
@@ -123,7 +122,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
         val servableRepo = mock[ServableRepository[IO]]
         when(servableRepo.fetchByIds(Seq(1))).thenReturn(IO(Seq.empty))
 
-        val eventPublisher = mock[DiscoveryEventBus[IO]]
+        val eventPublisher = mock[ApplicationDiscoveryEventBus[IO]]
         val applicationService = ApplicationService(
           appRepo,
           versionRepo,
@@ -189,18 +188,11 @@ class ApplicationServiceSpec extends GenericUnitTest {
         when(servableRepo.fetchByIds(Seq(1))).thenReturn(IO(Seq.empty))
 
         val appChanged = ListBuffer.empty[Application]
-        val eventPublisher = new DiscoveryEventBus[IO] {
-          override def applicationChanged(application: Application) = IO(appChanged += application)
+        val eventPublisher = new ApplicationDiscoveryEventBus[IO] {
+          override def detected(application: Application) = IO(appChanged += application)
 
-          override def applicationRemoved(application: Application) = ???
+          override def removed(application: Application) = ???
 
-          override def serviceChanged(service: Servable) = ???
-
-          override def serviceRemoved(service: Servable) = ???
-
-          override def cloudServiceDetected(cloudService: Seq[CloudService]) = ???
-
-          override def cloudServiceRemoved(cloudService: Seq[CloudService]) = ???
         }
         val graph = ExecutionGraphRequest(List(
           PipelineStageRequest(Seq(
@@ -286,18 +278,10 @@ class ApplicationServiceSpec extends GenericUnitTest {
         when(servableRepo.fetchByIds(Matchers.any())).thenReturn(IO(Seq.empty))
 
         val appChanged = ListBuffer.empty[Application]
-        val eventPublisher = new DiscoveryEventBus[IO] {
-          override def applicationChanged(application: Application) = IO(appChanged += application)
+        val eventPublisher = new ApplicationDiscoveryEventBus[IO]  {
+          override def detected(application: Application) = IO(appChanged += application)
 
-          override def applicationRemoved(application: Application) = ???
-
-          override def serviceChanged(service: Servable) = ???
-
-          override def serviceRemoved(service: Servable) = ???
-
-          override def cloudServiceDetected(cloudService: Seq[CloudService]) = ???
-
-          override def cloudServiceRemoved(cloudService: Seq[CloudService]) = ???
+          override def removed(application: Application) = ???
         }
         val graph = ExecutionGraphRequest(List(
           PipelineStageRequest(Seq(

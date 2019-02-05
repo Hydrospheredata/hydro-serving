@@ -3,13 +3,12 @@ package io.hydrosphere.serving.manager.domain.servable
 import cats.Traverse
 import cats.data.OptionT
 import cats.effect.Sync
+import cats.instances.list._
 import cats.syntax.flatMap._
 import cats.syntax.functor._
-import cats.instances.list._
-import io.hydrosphere.serving.manager.domain.application.ApplicationRepository
 import io.hydrosphere.serving.manager.domain.clouddriver._
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersion
-import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEventBus
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.ServableDiscoveryEventBus
 import org.apache.logging.log4j.scala.Logging
 
 import scala.util.control.NonFatal
@@ -28,7 +27,7 @@ object ServableService {
   def apply[F[_] : Sync](
     cloudDriver: CloudDriver[F],
     servableRepository: ServableRepository[F],
-    eventPublisher: DiscoveryEventBus[F]
+    eventPublisher: ServableDiscoveryEventBus[F]
   ): ServableService[F] = new ServableService[F] with Logging {
     private def createAndDeploy(serviceName: String, configParams: Option[Map[String, String]], modelVersion: ModelVersion): F[Servable] = {
       val dService = Servable(
@@ -56,7 +55,7 @@ object ServableService {
       //TODO ADD validation for names manager,gateway + length + without space and special symbols
       for {
         asd <- createAndDeploy(serviceName, configParams, modelVersion)
-        _ <- eventPublisher.serviceChanged(asd)
+        _ <- eventPublisher.detected(asd)
       } yield asd
     }
 
@@ -65,7 +64,7 @@ object ServableService {
       val f = for {
         servable <- OptionT(servableRepository.get(serviceId))
         _ <- OptionT.liftF(cloudDriver.removeService(serviceId))
-        _ <- OptionT.liftF(eventPublisher.serviceRemoved(servable))
+        _ <- OptionT.liftF(eventPublisher.removed(servable))
         _ <- OptionT.liftF(servableRepository.delete(serviceId))
       } yield servable
       f.value

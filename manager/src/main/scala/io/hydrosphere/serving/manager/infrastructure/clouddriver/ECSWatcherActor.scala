@@ -3,6 +3,7 @@ package io.hydrosphere.serving.manager.infrastructure.clouddriver
 import java.util.UUID
 
 import akka.actor.Props
+import cats.Traverse
 import cats.effect.Effect
 import com.amazonaws.services.ec2.AmazonEC2
 import com.amazonaws.services.ec2.model.DescribeInstancesRequest
@@ -17,7 +18,7 @@ import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.servable.Servable
 import io.hydrosphere.serving.manager.infrastructure.clouddriver.ECSWatcherActor._
-import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEventBus
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.{CloudServiceDiscoveryEventBus, DiscoveryEventBus}
 import io.hydrosphere.serving.manager.infrastructure.protocol.CompleteJsonProtocol
 import io.hydrosphere.serving.manager.util.SelfScheduledActor
 import spray.json._
@@ -27,7 +28,7 @@ import scala.collection.mutable
 import scala.concurrent.duration._
 
 class ECSWatcherActor[F[_]: Effect](
-  eventPublisher: DiscoveryEventBus[F],
+  eventPublisher: CloudServiceDiscoveryEventBus[F],
   ecsCloudDriverConfiguration: CloudDriverConfiguration.Ecs,
   route53Client: AmazonRoute53,
   ecsClient: AmazonECS,
@@ -85,14 +86,22 @@ class ECSWatcherActor[F[_]: Effect](
       services.clear()
       services ++= fetchedServices
 
+      implicit val listinst = cats.instances.list.catsStdInstancesForList
+
       if (toRemove.nonEmpty) {
         log.debug(s"CloudService removed: $toRemove")
-        Effect[F].toIO(eventPublisher.cloudServiceRemoved(toRemove)).unsafeRunAsyncAndForget()
+        val f = Traverse[List].traverse(toRemove.toList) { x =>
+          eventPublisher.removed(x)
+        }
+        Effect[F].toIO(f).unsafeRunAsyncAndForget()
       }
       val notifySeq = toAdd ++ changed
       if (notifySeq.nonEmpty) {
         log.debug(s"CloudService changed: $notifySeq")
-        Effect[F].toIO(eventPublisher.cloudServiceDetected(notifySeq)).unsafeRunAsyncAndForget()
+        val f = Traverse[List].traverse(toRemove.toList) { x =>
+          eventPublisher.detected(x)
+        }
+        Effect[F].toIO(f).unsafeRunAsyncAndForget()
       }
       syncManagerDomainName(fetchedMap.values
         .filter(_.cloudService.id == MANAGER_ID)
@@ -545,7 +554,7 @@ class ECSWatcherActor[F[_]: Effect](
 
 object ECSWatcherActor {
   def props[F[_]: Effect](
-    eventPublisher: DiscoveryEventBus[F],
+    eventPublisher: CloudServiceDiscoveryEventBus[F],
     ecsCloudDriverConfiguration: CloudDriverConfiguration.Ecs,
     route53Client: AmazonRoute53,
     ecsClient: AmazonECS,

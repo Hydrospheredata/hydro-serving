@@ -13,7 +13,7 @@ import io.hydrosphere.serving.manager.domain.DomainError
 import io.hydrosphere.serving.manager.domain.DomainError.{InvalidRequest, NotFound}
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepository}
 import io.hydrosphere.serving.manager.domain.servable.{Servable, ServableRepository, ServableService}
-import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEventBus
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.{ApplicationDiscoveryEventBus, DiscoveryEventBus}
 import io.hydrosphere.serving.model.api.TensorExampleGenerator
 import io.hydrosphere.serving.model.api.json.TensorJsonLens
 import org.apache.logging.log4j.scala.Logging
@@ -42,7 +42,7 @@ object ApplicationService {
     versionRepository: ModelVersionRepository[F],
     servableService: ServableService[F],
     servableRepo: ServableRepository[F],
-    internalManagerEventsPublisher: DiscoveryEventBus[F],
+    appEvents: ApplicationDiscoveryEventBus[F],
   )(implicit ex: ExecutionContext): ApplicationService[F] = new ApplicationService[F] with Logging {
     def composeApp(name: String, namespace: Option[String], executionGraph: ExecutionGraphRequest, kafkaStreaming: Option[Seq[ApplicationKafkaStream]]) = {
       for {
@@ -65,7 +65,7 @@ object ApplicationService {
       val finished = for {
         _ <- servableService.deployModelVersions(versions.toSet)
         finishedApp = application.copy(status = ApplicationStatus.Ready)
-        _ <- internalManagerEventsPublisher.applicationChanged(finishedApp)
+        _ <- appEvents.detected(finishedApp)
         _ <- applicationRepository.update(finishedApp)
       } yield finishedApp
 
@@ -107,7 +107,7 @@ object ApplicationService {
         _ <- EitherT.liftF(applicationRepository.delete(app.id))
         keysSet = app.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion.id)).toSet
         _ <- EitherT.liftF[F, DomainError, Seq[Servable]](removeServiceIfNeeded(keysSet, app.id))
-        _ <- EitherT.liftF[F, DomainError, Unit](internalManagerEventsPublisher.applicationRemoved(app))
+        _ <- EitherT.liftF[F, DomainError, Unit](appEvents.removed(app))
       } yield app
       f.value
     }
@@ -115,7 +115,7 @@ object ApplicationService {
     def update(appRequest: UpdateApplicationRequest): F[Either[DomainError, ApplicationBuildResult[F]]] = {
       val res = for {
         oldApplication <- EitherT.fromOptionF(applicationRepository.get(appRequest.id), DomainError.notFound(s"Can't find application id ${appRequest.id}"))
-        _ <- EitherT.liftF(internalManagerEventsPublisher.applicationRemoved(oldApplication))
+        _ <- EitherT.liftF(appEvents.removed(oldApplication))
 
         composedApp <- composeApp(appRequest.name, appRequest.namespace, appRequest.executionGraph, appRequest.kafkaStreaming)
         newApplication = composedApp.copy(id = oldApplication.id)

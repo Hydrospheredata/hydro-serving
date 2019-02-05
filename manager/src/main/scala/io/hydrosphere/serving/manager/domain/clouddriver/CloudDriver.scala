@@ -11,7 +11,7 @@ import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.servable.Servable
 import io.hydrosphere.serving.manager.infrastructure.clouddriver._
-import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEventBus
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.{CloudServiceDiscoveryEventBus, DiscoveryEventBus}
 
 import scala.concurrent.ExecutionContext
 
@@ -32,7 +32,7 @@ trait CloudDriver[F[_]] {
 object CloudDriver {
   def fromConfig[F[_] : Effect](
     dockerClient: DockerClient,
-    eventPublisher: DiscoveryEventBus[F],
+    eventPublisher: CloudServiceDiscoveryEventBus[F],
     cloudDriverConfiguration: CloudDriverConfiguration,
     applicationConfiguration: ApplicationConfig,
     advertisedConfiguration: AdvertisedConfiguration,

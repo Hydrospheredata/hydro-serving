@@ -1,24 +1,24 @@
 package io.hydrosphere.serving.manager.infrastructure.clouddriver
 
-import com.spotify.docker.client.DockerClient
-import com.spotify.docker.client.messages.{Container, ContainerConfig, HostConfig, LogConfig}
-import io.hydrosphere.serving.manager.config._
-import io.hydrosphere.serving.manager.domain.clouddriver._
-
-import scala.collection.JavaConverters._
-import scala.concurrent.{ExecutionContext, Future}
-import DefaultConstants._
 import cats.effect.Async
 import cats.syntax.flatMap._
 import cats.syntax.functor._
+import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.{ListContainersParam, RemoveContainerParam}
+import com.spotify.docker.client.messages.{Container, ContainerConfig, HostConfig, LogConfig}
+import io.hydrosphere.serving.manager.config._
+import io.hydrosphere.serving.manager.domain.clouddriver.DefaultConstants._
+import io.hydrosphere.serving.manager.domain.clouddriver._
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.servable.Servable
 import io.hydrosphere.serving.manager.infrastructure.clouddriver.docker.DockerUtil
-import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEventBus
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.CloudServiceDiscoveryEventBus
 import io.hydrosphere.serving.manager.util.AsyncUtil
 import org.apache.logging.log4j.scala.Logging
+
+import scala.collection.JavaConverters._
+import scala.concurrent.{ExecutionContext, Future}
 
 // TODO refactor
 class DockerComposeCloudDriver[F[_]: Async](
@@ -27,7 +27,7 @@ class DockerComposeCloudDriver[F[_]: Async](
   applicationConfig: ApplicationConfig,
   sidecarConfig: SidecarConfig,
   advertisedConfiguration: AdvertisedConfiguration,
-  eventPublisher: DiscoveryEventBus[F]
+  eventPublisher: CloudServiceDiscoveryEventBus[F]
 )(
   implicit val ex: ExecutionContext
 ) extends CloudDriver[F] with Logging {
@@ -73,7 +73,7 @@ class DockerComposeCloudDriver[F[_]: Async](
         cloudService
       }
     }.flatMap { x =>
-      eventPublisher.cloudServiceDetected(Seq(x)).map(_ => x)
+      eventPublisher.detected(x).map(_ => x)
     }
   }
 

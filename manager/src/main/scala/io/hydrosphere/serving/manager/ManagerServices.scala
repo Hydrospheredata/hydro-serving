@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager
 import akka.actor.{ActorRef, ActorSystem}
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
-import cats.effect.{ConcurrentEffect, Effect}
+import cats.effect.ConcurrentEffect
 import com.spotify.docker.client._
 import io.grpc._
 import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, Headers}
@@ -16,7 +16,7 @@ import io.hydrosphere.serving.manager.domain.model.ModelService
 import io.hydrosphere.serving.manager.domain.model_build.ModelVersionBuilder
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersionService
 import io.hydrosphere.serving.manager.domain.servable.ServableService
-import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEventBus
+import io.hydrosphere.serving.manager.infrastructure.envoy.events.{ApplicationDiscoveryEventBus, CloudServiceDiscoveryEventBus, ServableDiscoveryEventBus}
 import io.hydrosphere.serving.manager.infrastructure.envoy.{EnvoyGRPCDiscoveryService, XDSManagementActor}
 import io.hydrosphere.serving.manager.infrastructure.image.DockerImageBuilder
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.ModelFetcher
@@ -62,7 +62,9 @@ class ManagerServices[F[_]: ConcurrentEffect](
 
   val imageRepository: ImageRepository[F] = ImageRepository.fromConfig(dockerClient, progressHandler, managerConfiguration.dockerRepository)
 
-  val eventPublisher: DiscoveryEventBus[F] = DiscoveryEventBus.fromActorSystem[F](system)
+  val appEvent: ApplicationDiscoveryEventBus[F] = ApplicationDiscoveryEventBus.fromActorSystem[F](system)
+  val servableEvent: ServableDiscoveryEventBus[F] = ServableDiscoveryEventBus.fromActorSystem[F](system)
+  val cloudServiceEvent: CloudServiceDiscoveryEventBus[F] = CloudServiceDiscoveryEventBus.fromActorSystem[F](system)
 
   val hostSelectorService: HostSelectorService[F] = HostSelectorService[F](managerRepositories.hostSelectorRepository)
 
@@ -80,7 +82,7 @@ class ManagerServices[F[_]: ConcurrentEffect](
 
   val cloudDriverService: CloudDriver[F] = CloudDriver.fromConfig[F](
     dockerClient = dockerClient,
-    eventPublisher = eventPublisher,
+    eventPublisher = cloudServiceEvent,
     cloudDriverConfiguration = managerConfiguration.cloudDriver,
     applicationConfiguration = managerConfiguration.application,
     advertisedConfiguration = managerConfiguration.manager,
@@ -93,7 +95,7 @@ class ManagerServices[F[_]: ConcurrentEffect](
   val servableService: ServableService[F] = ServableService[F](
     cloudDriverService,
     managerRepositories.servableRepository,
-    eventPublisher
+    servableEvent
   )
 
   val appService: ApplicationService[F] = ApplicationService[F](
@@ -101,7 +103,7 @@ class ManagerServices[F[_]: ConcurrentEffect](
     versionRepository = managerRepositories.modelVersionRepository,
     servableRepo = managerRepositories.servableRepository,
     servableService = servableService,
-    internalManagerEventsPublisher = eventPublisher
+    appEvents = appEvent
   )
 
   val modelService: ModelService[F] = ModelService[F](
