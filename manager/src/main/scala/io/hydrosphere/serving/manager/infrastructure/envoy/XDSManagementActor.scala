@@ -74,6 +74,7 @@ class XDSManagementActor[F[_]: Effect](
     val serviceNames = services.map(_.serviceName).toSet
     clusterDSActor ! SyncCluster(serviceNames)
   }
+  
 
   def initEndpoints(services: Seq[CloudService]) = Effect[F].delay{
     endpointDSActor ! RenewEndpoints(mapCloudService(services))

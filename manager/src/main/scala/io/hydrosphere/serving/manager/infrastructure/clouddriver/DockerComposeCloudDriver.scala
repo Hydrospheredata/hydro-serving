@@ -41,8 +41,6 @@ class DockerComposeCloudDriver[F[_]: Async](
       Future {
         logger.debug(service)
 
-//        startModel(service, modelVersion)
-
         val javaLabels = getRuntimeLabels(service) ++ Map(
           DefaultConstants.LABEL_SERVICE_NAME -> service.serviceName,
           DefaultConstants.LABEL_SERVICE_ID -> service.id.toString
@@ -57,8 +55,6 @@ class DockerComposeCloudDriver[F[_]: Async](
         )
 
         val builder = createMainApplicationHostConfigBuilder()
-
-//        builder.volumesFrom(service.serviceName)
 
         val c = dockerClient.createContainer(ContainerConfig.builder()
           .image(modelVersion.fullName)
@@ -183,30 +179,18 @@ class DockerComposeCloudDriver[F[_]: Async](
 
     val mainApplicationInstance = mapMainApplicationInstance(containerApp)
 
-    val image = containerApp.image()
     CloudService(
       id = serviceId,
       serviceName = Option(containerApp.labels().get(DefaultConstants.LABEL_SERVICE_NAME))
         .getOrElse(throw new RuntimeException(s"${DefaultConstants.LABEL_SERVICE_NAME} required $containerApp")),
       statusText = containerApp.status(),
       cloudDriverId = containerApp.id(),
-      image = DockerImage(
-        name = image,
-        tag = image
-      ),
       instances = Seq(
         ServiceInstance(
           advertisedHost = mainApplicationInstance.host,
           advertisedPort = mainApplicationInstance.port,
           instanceId = containerApp.id(),
           mainApplication = mainApplicationInstance,
-          sidecar = SidecarInstance(
-            instanceId = "managerConfiguration.sidecar",
-            host = sidecarConfig.host,
-            ingressPort = sidecarConfig.ingressPort,
-            egressPort = sidecarConfig.egressPort,
-            adminPort = sidecarConfig.adminPort
-          ),
           model = containerModel.map(c => {
             ModelInstance(
               c.id()

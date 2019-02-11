@@ -174,29 +174,17 @@ class LocalDockerCloudDriver[F[_]: Async](
     id: Long,
     host: String,
     port: Int,
-    image: String
   ) = CloudService(
       id = id,
       serviceName = name,
       statusText = "OK",
       cloudDriverId = name,
-      image = DockerImage(
-        name = image,
-        tag = "latest"
-      ),
       instances = Seq(ServiceInstance(
         instanceId = name,
         mainApplication = MainApplicationInstance(
           instanceId = name,
           host = host,
           port = port
-        ),
-        sidecar = SidecarInstance(
-          instanceId = "managerConfiguration.sidecar",
-          host = sidecarConfig.host,
-          ingressPort = sidecarConfig.ingressPort,
-          egressPort = sidecarConfig.egressPort,
-          adminPort = sidecarConfig.adminPort
         ),
         model = None,
         advertisedHost = host,
@@ -210,8 +198,7 @@ class LocalDockerCloudDriver[F[_]: Async](
       DefaultConstants.MANAGER_NAME,
       DefaultConstants.MANAGER_ID,
       advertisedConfiguration.advertisedHost,
-      applicationConfig.grpcPort,
-      "hydrosphere/serving-manager"
+      applicationConfig.grpcPort
     )
 
   private def createMonitoringCloudService(cfg: LocalDockerCloudDriverServiceConfiguration): CloudService =
@@ -219,8 +206,7 @@ class LocalDockerCloudDriver[F[_]: Async](
       DefaultConstants.MONITORING_NAME,
       DefaultConstants.MONITORING_ID,
       cfg.host,
-      cfg.port,
-      "hydrosphere/serving-sonar"
+      cfg.port
     )
   
   private def createProfilerCloudService(cfg: LocalDockerCloudDriverServiceConfiguration): CloudService =
@@ -228,8 +214,7 @@ class LocalDockerCloudDriver[F[_]: Async](
       DefaultConstants.PROFILER_NAME,
       DefaultConstants.PROFILER_ID,
       cfg.host,
-      cfg.port,
-      "hydrosphere/serving-data-profiler"
+      cfg.port
     )
 
   private def createGatewayCloudService(cfg: LocalDockerCloudDriverServiceConfiguration): CloudService =
@@ -237,8 +222,7 @@ class LocalDockerCloudDriver[F[_]: Async](
       DefaultConstants.GATEWAY_NAME,
       DefaultConstants.GATEWAY_ID,
       cfg.host,
-      cfg.port,
-      "hydrosphere/serving-gateway"
+      cfg.port
     )
 
   private def fetchById(serviceId: Long): CloudService = {
@@ -303,30 +287,18 @@ class LocalDockerCloudDriver[F[_]: Async](
 
     val mainApplicationInstance = mapMainApplicationInstance(containerApp, sidecarConfig.host)
 
-    val image = containerApp.image()
     CloudService(
       id = serviceId,
       serviceName = Option(containerApp.labels().get(DefaultConstants.LABEL_SERVICE_NAME))
         .getOrElse(throw new RuntimeException(s"${DefaultConstants.LABEL_SERVICE_NAME} required $containerApp")),
       statusText = containerApp.status(),
       cloudDriverId = containerApp.id(),
-      image = DockerImage(
-        name = image,
-        tag = image
-      ),
       instances = Seq(
         ServiceInstance(
           advertisedHost = mainApplicationInstance.host,
           advertisedPort = mainApplicationInstance.port,
           instanceId = containerApp.id(),
           mainApplication = mainApplicationInstance,
-          sidecar = SidecarInstance(
-            instanceId = "managerConfiguration.sidecar",
-            host = sidecarConfig.host,
-            ingressPort = sidecarConfig.ingressPort,
-            egressPort = sidecarConfig.egressPort,
-            adminPort = sidecarConfig.adminPort
-          ),
           model = containerModel.map(c => {
             ModelInstance(
               c.id()

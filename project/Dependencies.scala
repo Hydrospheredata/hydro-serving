@@ -24,7 +24,7 @@ object Dependencies {
   )
 
   lazy val kubernetesDependencies = Seq(
-    "io.skuber" %% "skuber" % "2.0.9"
+    "io.skuber" %% "skuber" % "2.1.0"
   )
 
   lazy val akkaDependencies = Seq(

@@ -3,10 +3,11 @@ package io.hydrosphere.serving.manager.infrastructure.clouddriver
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.Sink
-import cats.effect.Async
+import cats.effect.{Async, Sync}
 import cats.syntax.flatMap._
 import cats.syntax.functor._
-import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, DockerRepositoryConfiguration}
+import cats.syntax.option._
+import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, DockerRepositoryConfiguration, SidecarConfig}
 import io.hydrosphere.serving.manager.domain.clouddriver._
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.image.DockerImage
@@ -21,6 +22,7 @@ import skuber.json.format._
 
 import scala.concurrent.{ExecutionContext, Future}
 import scala.language.reflectiveCalls
+import scala.util.Try
 
 class KubernetesCloudDriver[F[_]: Async](
   conf: CloudDriverConfiguration.Kubernetes,
@@ -53,53 +55,35 @@ class KubernetesCloudDriver[F[_]: Async](
     for {
       serviceWatch <- k8s.watchAll[skuber.Service]()
       _ <- serviceWatch.runWith(monitor)
-    } yield Unit
+    } yield ()
   }
-
+  
   override def serviceList(): F[Seq[CloudService]] = AsyncUtil.futureAsync {
-    for {
-      podsList: PodList <- k8s.listInNamespace[PodList](conf.kubeNamespace)
-      serviceList: ServiceList <- k8s.listInNamespace[ServiceList](conf.kubeNamespace)
-      cloudServices = serviceList
+    k8s.listInNamespace[ServiceList](conf.kubeNamespace).map(services => {
+      
+      val cloudServices = services
         .filter(svc => svc.metadata.labels.contains("hs_service_marker"))
-        .map({ service =>
-          val pods = podsList.filter(pod => service.spec.fold(Set.empty[(String, String)])(_.selector.toSet).subsetOf(pod.metadata.labels.toSet))
-          val image = for {
-            pod <- pods.headOption
-            spec <- pod.spec
-            container <- spec.containers.headOption
-          } yield container.image
-          kubeServiceToCloudService(service, image.getOrElse(":"))
-        })
-    } yield cloudServices ++ DockerUtil.createFakeHttpServices(cloudServices)
+        .map(kubeServiceToCloudService)
+      
+      cloudServices ++ DockerUtil.createFakeHttpServices(cloudServices)
+    })
   }
 
   override def deployService(service: Servable, modelVersion: DockerImage, host: Option[HostSelector]): F[CloudService] = AsyncUtil.futureAsync {
     import LabelSelector.dsl._
-
-    val runtimeContainer = Container("runtime", modelVersion.fullName)
-      .exposePort(9090)
-    //      .mount("shared-model", "/model")
-
-    val dockerRepoHost = dockerRepoConf.pullHost match {
-      case Some(host) => host
-      case None => dockerRepoConf.host
-    }
-
-    //    val modelContainer = Container("model", s"$dockerRepoHost/${modelVersion.fullName}")
-    //      .mount("shared-model", "/shared/model")
-    //      .withEntrypoint("cp")
-    //      .withArgs("-a", "/model/.", "/shared/model/")
-
+  
+    val dockerRepoHost = dockerRepoConf.pullHost.getOrElse(dockerRepoConf.host)
+    
+    //TODO!
+    val hackyImage = modelVersion.replaceUser(dockerRepoHost).toTry.get
+    
     val template = Pod.Template.Spec(
       metadata = ObjectMeta(name = service.serviceName),
       spec = Some(Pod.Spec()
         .addImagePullSecretRef(conf.kubeRegistrySecretName)
         .addVolume(Volume("shared-model", Volume.EmptyDir()))
-      )
-    )
-      //      .addInitContainer(modelContainer)
-      .addContainer(runtimeContainer)
+      ))
+      .addContainer(Container("runtime", hackyImage.fullName).exposePort(9090))
       .addLabel("app" -> service.serviceName)
 
     val deployment = apps.v1.Deployment(metadata = ObjectMeta(name = service.serviceName, namespace = conf.kubeNamespace))
@@ -110,7 +94,7 @@ class KubernetesCloudDriver[F[_]: Async](
     val kubeService = skuber.Service(metadata = ObjectMeta(name = service.serviceName, namespace = conf.kubeNamespace))
       .withSelector("app" -> service.serviceName)
       .exposeOnPort(skuber.Service.Port("grpc", Protocol.TCP, 9090))
-      .addLabels(DefaultConstants.getModelLabels(service))
+      .addLabels(DefaultConstants.getModelLabels(service) ++ Map("service_name" -> service.serviceName))
 
     val namespacedContext = k8s.usingNamespace(conf.kubeNamespace)
 
@@ -119,15 +103,16 @@ class KubernetesCloudDriver[F[_]: Async](
       _ <- namespacedContext.create(deployment)
     } yield kubeServiceToCloudService(svc)
   }.flatMap { cloudService =>
-    cloudServiceBus.detected(cloudService).as(cloudService)
+      cloudServiceBus.detected(cloudService).as(cloudService)
   }
 
   override def removeService(serviceId: Long): F[Unit] = AsyncUtil.futureAsync {
     import LabelSelector.dsl._
     val namespacedContext = k8s.usingNamespace(conf.kubeNamespace)
     for {
-      svcList <- namespacedContext.listSelected[ServiceList]("service_id" is s"id$serviceId")
+      svcList <- namespacedContext.listSelected[ServiceList]("service_id" is s"serviceId")
       svc <- Future {
+        //TODO ???
         svcList.headOption.getOrElse(throw new RuntimeException(s"kube service with id$serviceId not found"))
       }
       _ <- namespacedContext.delete[skuber.Service](svc.metadata.name)
@@ -135,37 +120,47 @@ class KubernetesCloudDriver[F[_]: Async](
     } yield
       cloudServiceBus.removed(kubeServiceToCloudService(svc))
   }
+  
+  //TODO
+  private def serviceIdFromMeta(meta: skuber.ObjectMeta): Option[Long] = {
+    val maybeId = meta.labels.get("service_id") orElse meta.labels.get("SERVICE_ID")
+    maybeId.map(s => if (s.startsWith("id")) s.replaceFirst("id", "") else s)
+      .flatMap(s => Try(s.toLong).toOption)
+  }
 
-  private def kubeServiceToCloudService(svc: skuber.Service, image: String = ""): CloudService = {
-    val Array(imageName, imageVersion, _*) = image.split(":") ++ Array.fill(2)("")
-    val serviceId = svc.metadata.labels.getOrElse("service_id", "id0").replaceFirst("id", "").toLong
+  private def kubeServiceToCloudService(svc: skuber.Service): CloudService = {
+    val meta = svc.metadata
+    
+    val instanceId = meta.uid
+    
+    val serviceId = serviceIdFromMeta(meta).getOrElse(0L)
+    val serviceName = DefaultConstants.specialNamesByIds.getOrElse(serviceId, meta.labels.getOrElse("service_name", ""))
+    
+    val ip = svc.spec.fold("")(_.clusterIP)
+    val port = svc.spec.flatMap(_.ports.find(_.name == "grpc")).fold(9091)(_.port)
+    
+    val modelInstance = meta.labels.get("deployment_type") match {
+      case Some("model") => ModelInstance(instanceId).some
+      case _ => None
+    }
+    
     CloudService(
       id = serviceId,
-      serviceName = DefaultConstants.specialNamesByIds.getOrElse(serviceId, svc.metadata.labels.getOrElse("service_name", "")),
+      serviceName = serviceName,
       statusText = "",
       cloudDriverId = svc.metadata.uid,
-      image = DockerImage(
-        name = imageName,
-        tag = imageVersion
-      ),
-      instances = Seq(ServiceInstance(
-        instanceId = svc.metadata.uid,
-        mainApplication = MainApplicationInstance(
-          instanceId = svc.metadata.uid,
-          host = svc.spec.fold("")(_.clusterIP),
-          port = svc.spec.flatMap(_.ports.headOption).fold(9091)(_.port)
-        ),
-        sidecar = SidecarInstance(
-          instanceId = svc.metadata.uid,
-          host = svc.spec.fold("")(_.clusterIP),
-          ingressPort = svc.spec.flatMap(_.ports.headOption).fold(9091)(_.port),
-          egressPort = svc.spec.flatMap(_.ports.headOption).fold(9091)(_.port),
-          adminPort = svc.spec.flatMap(_.ports.headOption).fold(9091)(_.port)
-        ),
-        model = if (svc.metadata.labels.getOrElse("deployment_type", "") == "model") Some(ModelInstance(svc.metadata.uid)) else None,
-        advertisedHost = svc.spec.fold("")(_.clusterIP),
-        advertisedPort = svc.spec.flatMap(_.ports.find(_.name == "grpc")).fold(9091)(_.port)
-      ))
+      instances = Seq(
+        ServiceInstance(
+          advertisedHost = ip,
+          advertisedPort = port,
+          instanceId = instanceId,
+          mainApplication = MainApplicationInstance(
+            instanceId = instanceId,
+            host = ip,
+            port = port
+          ),
+          model = modelInstance
+        ))
     )
   }
 }
