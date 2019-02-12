@@ -110,7 +110,7 @@ class KubernetesCloudDriver[F[_]: Async](
     import LabelSelector.dsl._
     val namespacedContext = k8s.usingNamespace(conf.kubeNamespace)
     for {
-      svcList <- namespacedContext.listSelected[ServiceList]("service_id" is s"serviceId")
+      svcList <- namespacedContext.listSelected[ServiceList]("SERVICE_ID" is serviceId.toString)
       svc <- Future {
         //TODO ???
         svcList.headOption.getOrElse(throw new RuntimeException(s"kube service with id$serviceId not found"))
