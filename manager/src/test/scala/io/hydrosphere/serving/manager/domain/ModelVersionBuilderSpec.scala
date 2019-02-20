@@ -42,7 +42,8 @@ class ModelVersionBuilderSpec extends GenericUnitTest {
           profileTypes = Map.empty,
           runtime = DockerImage("run", "time"),
           hostSelector = None,
-          installCommand = None
+          installCommand = None,
+          metadata = Map.empty
         )
 
         val imageBuilder = mock[ImageBuilder[IO]]

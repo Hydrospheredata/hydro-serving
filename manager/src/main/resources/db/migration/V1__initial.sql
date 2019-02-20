@@ -27,7 +27,8 @@ CREATE TABLE hydro_serving.model_version
   runtime_version   TEXT                        NOT NULL,
   status            TEXT                        NOT NULL,
   profile_types     TEXT,
-  install_command   TEXT
+  install_command   TEXT,
+  metadata          TEXT
 );
 
 CREATE TABLE hydro_serving.servable

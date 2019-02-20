@@ -38,7 +38,8 @@ class ApplicationServiceSpec extends GenericUnitTest {
     hostSelector = None,
     status = ModelVersionStatus.Released,
     profileTypes = Map.empty,
-    installCommand = None
+    installCommand = None,
+    metadata = Map.empty
   )
 
   describe("Application management service") {

@@ -41,7 +41,8 @@ class VersionServiceSpec extends GenericUnitTest {
               hostSelector = None,
               status = ModelVersionStatus.Assembling,
               profileTypes = Map.empty,
-              installCommand = None
+              installCommand = None,
+              metadata = Map.empty
             )))
           )
           val versionService = ModelVersionService[IO](versionRepo, null)

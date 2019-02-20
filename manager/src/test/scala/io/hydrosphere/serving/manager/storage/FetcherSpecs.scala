@@ -19,21 +19,21 @@ import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.types.DataType
 
 class FetcherSpecs extends GenericUnitTest {
-  val o = new StorageOps[IO] {
-    val rootFolder = getTestResourcePath("test_models")
-    val o = StorageOps[IO]
-    override def getReadableFile(path: Path): Id[Option[File]] =
-    override def getAllFiles(folder: Path): Id[Option[List[String]]] = ???
-    override def getSubDirs(path: Path): Id[Option[List[String]]] = ???
-    override def exists(path: Path): Id[Boolean] = ???
-    override def copyFile(src: Path, target: Path): Id[Path] = ???
-    override def moveFolder(src: Path, target: Path): Id[Path] = ???
-    override def removeFolder(path: Path): Id[Option[Unit]] = ???
-    override def getTempDir(prefix: String): Id[Path] = ???
-    override def readText(path: Path): Id[Option[List[String]]] = ???
-    override def readBytes(path: Path): Id[Option[Array[Byte]]] = ???
-    override def writeBytes(path: Path, bytes: Array[Byte]): Id[Path] = ???
-  }
+//  val o = new StorageOps[IO] {
+//    val rootFolder = getTestResourcePath("test_models")
+//    val o = StorageOps[IO]
+//    override def getReadableFile(path: Path): Id[Option[File]] =
+//    override def getAllFiles(folder: Path): Id[Option[List[String]]] = ???
+//    override def getSubDirs(path: Path): Id[Option[List[String]]] = ???
+//    override def exists(path: Path): Id[Boolean] = ???
+//    override def copyFile(src: Path, target: Path): Id[Path] = ???
+//    override def moveFolder(src: Path, target: Path): Id[Path] = ???
+//    override def removeFolder(path: Path): Id[Option[Unit]] = ???
+//    override def getTempDir(prefix: String): Id[Path] = ???
+//    override def readText(path: Path): Id[Option[List[String]]] = ???
+//    override def readBytes(path: Path): Id[Option[Array[Byte]]] = ???
+//    override def writeBytes(path: Path, bytes: Array[Byte]): Id[Path] = ???
+//  }
   describe("Fallback") {
     it("should parse contract proto message") {
       val ops = mock[StorageOps[Id]]

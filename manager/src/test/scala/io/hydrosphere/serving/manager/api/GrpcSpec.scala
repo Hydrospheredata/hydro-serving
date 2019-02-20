@@ -35,7 +35,8 @@ class GrpcSpec extends GenericUnitTest {
           hostSelector = None,
           status = ModelVersionStatus.Assembling,
           profileTypes = Map.empty,
-          installCommand = None
+          installCommand = None,
+          metadata = Map.empty
         )
       )))
       when(versionRepo.get(1000)).thenReturn(IO(None))
@@ -65,7 +66,8 @@ class GrpcSpec extends GenericUnitTest {
           hostSelector = None,
           status = ModelVersionStatus.Assembling,
           profileTypes = Map.empty,
-          installCommand = None
+          installCommand = None,
+          metadata = Map.empty
         ),
         DMV(
           id = 2,
@@ -79,7 +81,8 @@ class GrpcSpec extends GenericUnitTest {
           hostSelector = None,
           status = ModelVersionStatus.Assembling,
           profileTypes = Map.empty,
-          installCommand = None
+          installCommand = None,
+          metadata = Map.empty
         )
       )))
 

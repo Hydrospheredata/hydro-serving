@@ -58,7 +58,8 @@ class ModelServiceSpec extends GenericUnitTest {
           hostSelector = None,
           status = ModelVersionStatus.Released,
           profileTypes = Map.empty,
-          installCommand = None
+          installCommand = None,
+          metadata = Map.empty
         )
 
         val uploadFile = Paths.get("123123")
@@ -148,7 +149,8 @@ class ModelServiceSpec extends GenericUnitTest {
           hostSelector = None,
           status = ModelVersionStatus.Released,
           profileTypes = Map.empty,
-          installCommand = None
+          installCommand = None,
+          metadata = Map.empty
         )
         val modelVersionMetadata = ModelVersionMetadata(
           modelName = modelName,
@@ -156,7 +158,8 @@ class ModelServiceSpec extends GenericUnitTest {
           profileTypes = Map.empty,
           runtime = modelRuntime,
           hostSelector = None,
-          installCommand = None
+          installCommand = None,
+          metadata = Map.empty
         )
         val upload = ModelUploadMetadata(
           name = modelName,

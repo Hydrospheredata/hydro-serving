@@ -14,7 +14,8 @@ case class ModelVersionMetadata(
   profileTypes: Map[String, DataProfileType],
   runtime: DockerImage,
   hostSelector: Option[HostSelector],
-  installCommand: Option[String]
+  installCommand: Option[String],
+  metadata: Map[String, String]
 )
 
 object ModelVersionMetadata {
@@ -26,7 +27,8 @@ object ModelVersionMetadata {
       profileTypes = upload.profileTypes.getOrElse(Map.empty),
       runtime = upload.runtime,
       hostSelector = hs,
-      installCommand = upload.installCommand
+      installCommand = upload.installCommand,
+      metadata = upload.metadata.getOrElse(Map.empty)
     )
   }
 

@@ -21,5 +21,6 @@ case class ModelVersion(
   hostSelector: Option[HostSelector],
   status: ModelVersionStatus,
   profileTypes: Map[String, DataProfileType],
-  installCommand: Option[String]
+  installCommand: Option[String],
+  metadata: Map[String, String]
 )
