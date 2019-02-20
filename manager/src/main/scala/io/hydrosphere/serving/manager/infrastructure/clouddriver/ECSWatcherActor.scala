@@ -300,7 +300,6 @@ class ECSWatcherActor[F[_]: Effect](
       serviceName = service.serviceName,
       statusText = ecsService.getStatus,
       cloudDriverId = ecsService.getServiceArn,
-      image = modelVersion,
       instances = Seq()
     )
   }
@@ -518,10 +517,6 @@ class ECSWatcherActor[F[_]: Effect](
         serviceName = specialNamesByIds.getOrElse(serviceId, service.getServiceName),
         statusText = service.getStatus,
         cloudDriverId = service.getServiceArn,
-        image = DockerImage(
-          name = containerDefinition.getImage.split(":").head,
-          tag = version
-        ),
         instances = apps.map(info => {
           val insInfo = info.task.instanceInfo.get
           val ports = info.appContainer.get
@@ -537,7 +532,6 @@ class ECSWatcherActor[F[_]: Effect](
               host = insInfo.ip,
               port = ports.getOrElse(DEFAULT_APP_PORT, DEFAULT_APP_PORT)
             ),
-            sidecar = hostToSidecar.getOrElse(insInfo.ip, sidecars.head),
             model = info.modelContainer.map(m => {
               ModelInstance(
                 instanceId = m.getContainerArn

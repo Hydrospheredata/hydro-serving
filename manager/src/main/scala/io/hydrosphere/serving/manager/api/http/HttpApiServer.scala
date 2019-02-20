@@ -62,18 +62,14 @@ class HttpApiServer[F[_]: Effect](
       swaggerController.routes ~
         modelController.routes ~
         applicationController.routes ~
-        environmentController.routes ~
-        path("health") {
-          complete {
-            "OK"
-          }
-        }
+        environmentController.routes
     }
   }
 
   def routes: Route = CorsDirectives.cors(
     CorsSettings.defaultSettings.copy(allowedMethods = Seq(GET, POST, HEAD, OPTIONS, PUT, DELETE))
   ) {
+    pathPrefix("health") { complete("OK") } ~
     pathPrefix("api") {
       controllerRoutes
     } ~ pathPrefix("swagger") {
