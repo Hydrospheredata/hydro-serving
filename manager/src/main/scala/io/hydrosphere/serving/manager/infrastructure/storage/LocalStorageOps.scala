@@ -68,4 +68,8 @@ class LocalStorageOps[F[_]: Sync] extends StorageOps[F] {
   override def readBytes(path: Path): F[Option[Array[Byte]]] = {
     OptionT(getReadableFile(path)).map(x => Files.readAllBytes(x.toPath)).value
   }
+
+  override def writeBytes(path: Path, bytes: Array[Byte]): F[Path] = Sync[F].delay {
+    Files.write(path, bytes)
+  }
 }

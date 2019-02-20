@@ -1,7 +1,5 @@
 package io.hydrosphere.serving.manager.domain.model_build
 
-import java.io.ByteArrayInputStream
-import java.nio.file.Files
 import java.time.LocalDateTime
 
 import cats.effect.Concurrent
@@ -12,7 +10,7 @@ import cats.syntax.functor._
 import io.hydrosphere.serving.manager.domain.image.{ImageBuilder, ImageRepository}
 import io.hydrosphere.serving.manager.domain.model.{Model, ModelVersionMetadata}
 import io.hydrosphere.serving.manager.domain.model_version._
-import io.hydrosphere.serving.manager.infrastructure.storage.ModelFileStructure
+import io.hydrosphere.serving.manager.infrastructure.storage.{ModelFileStructure, StorageOps}
 import org.apache.logging.log4j.scala.Logging
 
 trait ModelVersionBuilder[F[_]]{
@@ -24,14 +22,15 @@ object ModelVersionBuilder {
     imageBuilder: ImageBuilder[F],
     modelVersionRepository: ModelVersionRepository[F],
     imageRepository: ImageRepository[F],
-    modelVersionService: ModelVersionService[F]
+    modelVersionService: ModelVersionService[F],
+    storageOps: StorageOps[F]
   ): ModelVersionBuilder[F] = new ModelVersionBuilder[F] with Logging {
     override def build(model: Model, metadata: ModelVersionMetadata, modelFileStructure: ModelFileStructure): F[BuildResult[F]] = {
-     for {
-       init <- initialVersion(model, metadata)
-       deferred <- Deferred[F, ModelVersion]
-       fbr <- handleBuild(init, modelFileStructure).flatMap(v => deferred.complete(v)).start
-     } yield BuildResult(init, deferred)
+      for {
+        init <- initialVersion(model, metadata)
+        deferred <- Deferred[F, ModelVersion]
+        fbr <- handleBuild(init, modelFileStructure).flatMap(v => deferred.complete(v)).start
+      } yield BuildResult(init, deferred)
     }
 
     def initialVersion(model: Model, metadata: ModelVersionMetadata) = {
@@ -68,7 +67,7 @@ object ModelVersionBuilder {
 
       Concurrent[F].onError(innerCompleted) {
         case err =>
-          logger.error(err)
+          logger.error(err, err)
           val failed = mv.copy(status = ModelVersionStatus.Failed)
           modelVersionRepository.update(failed.id, failed).map(_ => ())
       }
@@ -76,14 +75,8 @@ object ModelVersionBuilder {
 
     def prepare(modelVersion: ModelVersion, modelFileStructure: ModelFileStructure): F[ModelFileStructure] = {
       for {
-        // create Dockerfile
-        _ <- Concurrent[F].delay {
-          Files.copy(new ByteArrayInputStream(BuildScript.generate(modelVersion).getBytes), modelFileStructure.dockerfile)
-        }
-        // write contract to the file
-        _ <- Concurrent[F].delay {
-          Files.write(modelFileStructure.contractPath, modelVersion.modelContract.toByteArray)
-        }
+        _ <- storageOps.writeBytes(modelFileStructure.dockerfile, BuildScript.generate(modelVersion).getBytes)
+        _ <- storageOps.writeBytes(modelFileStructure.contractPath, modelVersion.modelContract.toByteArray)
       } yield modelFileStructure
     }
   }

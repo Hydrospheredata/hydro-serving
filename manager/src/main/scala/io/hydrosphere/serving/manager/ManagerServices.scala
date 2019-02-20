@@ -77,7 +77,8 @@ class ManagerServices[F[_]: ConcurrentEffect](
     imageBuilder = imageBuilder,
     modelVersionRepository = managerRepositories.modelVersionRepository,
     imageRepository = imageRepository,
-    modelVersionService = versionService
+    modelVersionService = versionService,
+    storageOps = storageOps
   )
 
   val cloudDriverService: CloudDriver[F] = CloudDriver.fromConfig[F](

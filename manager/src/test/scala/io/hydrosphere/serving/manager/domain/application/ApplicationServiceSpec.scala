@@ -65,14 +65,15 @@ class ApplicationServiceSpec extends GenericUnitTest {
         val versionRepo = mock[ModelVersionRepository[IO]]
         when(versionRepo.get(1)).thenReturn(IO(Some(modelVersion)))
         when(versionRepo.get(Seq(1L))).thenReturn(IO(Seq(modelVersion)))
-        val serviceManager = mock[ServableRepository[IO]]
-        when(serviceManager.fetchByIds(Seq(1))).thenReturn(IO(Seq.empty))
+        val servableRepo = mock[ServableRepository[IO]]
+        when(servableRepo.fetchByIds(Seq(1))).thenReturn(IO(Seq.empty))
+        val servableService = mock[ServableService[IO]]
         val eventPublisher = mock[ApplicationDiscoveryEventBus[IO]]
         val applicationService = ApplicationService[IO](
           appRepo,
           versionRepo,
-          null,
-          serviceManager,
+          servableService,
+          servableRepo,
           eventPublisher
         )
         val graph = ExecutionGraphRequest(List(

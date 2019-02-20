@@ -1,4 +1,4 @@
-package io.hydrosphere.serving.manager.api.http.controller.environment
+package io.hydrosphere.serving.manager.api.http.controller.host_selector
 
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.Route
@@ -50,20 +50,36 @@ class HostSelectorController[F[_]: Effect](
     }
   }
 
-  @Path("/{environmentId}")
+  @Path("/{envName}")
   @ApiOperation(value = "deleteHostSelector", notes = "deleteHostSelector", nickname = "deleteHostSelector", httpMethod = "DELETE")
   @ApiImplicitParams(Array(
-    new ApiImplicitParam(name = "environmentId", required = true, dataType = "long", paramType = "path", value = "environmentId")
+    new ApiImplicitParam(name = "envName", required = true, dataType = "string", paramType = "path", value = "envName")
   ))
   @ApiResponses(Array(
     new ApiResponse(code = 200, message = "Environment Deleted"),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
   def deleteHostSelector = delete {
-    pathPrefix("hostSelector" / LongNumber) { environmentId =>
-      completeFRes(hostSelectorService.delete(environmentId))
+    pathPrefix("hostSelector" / Segment) { envName =>
+      completeFRes(hostSelectorService.delete(envName))
     }
   }
 
-  val routes: Route = listHostSelectors ~ createHostSelector ~ deleteHostSelector
+  @Path("/{envName}")
+  @ApiOperation(value = "getHostSelector", notes = "getHostSelector", nickname = "getHostSelector", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "envName", required = true, dataType = "string", paramType = "path", value = "envName")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, response = classOf[HostSelector], message = "HostSelector"),
+    new ApiResponse(code = 404, message = "Not Found"),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def getHostSelector = get {
+    pathPrefix("hostSelector" / Segment) { envName =>
+      completeFRes(hostSelectorService.get(envName))
+    }
+  }
+
+  val routes: Route = listHostSelectors ~ createHostSelector ~ deleteHostSelector ~ getHostSelector
 }

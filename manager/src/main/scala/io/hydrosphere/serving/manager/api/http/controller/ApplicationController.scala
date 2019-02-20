@@ -26,6 +26,22 @@ class ApplicationController[F[_]: Effect](
     }
   }
 
+  @Path("/{appName}")
+  @ApiOperation(value = "getApp", notes = "getApp", nickname = "getApp", httpMethod = "GET")
+  @ApiImplicitParams(Array(
+    new ApiImplicitParam(name = "appName", required = true, dataType = "string", paramType = "path", value = "name")
+  ))
+  @ApiResponses(Array(
+    new ApiResponse(code = 200, message = "Application", response = classOf[Application], responseContainer = "List"),
+    new ApiResponse(code = 404, message = "Not Found"),
+    new ApiResponse(code = 500, message = "Internal server error")
+  ))
+  def getApp = path("application" / Segment) { appName =>
+    get {
+      completeFRes(appService.get(appName))
+    }
+  }
+
   @Path("/")
   @ApiOperation(value = "Add Application", notes = "Add Application", nickname = "addApplication", httpMethod = "POST")
   @ApiImplicitParams(Array(
@@ -91,7 +107,7 @@ class ApplicationController[F[_]: Effect](
     new ApiResponse(code = 200, message = "Any", response = classOf[Seq[Any]]),
     new ApiResponse(code = 500, message = "Internal server error")
   ))
-  def generateInputsForApp = pathPrefix("application" / "generateInputs" / Segment ) { appName =>
+  def generateInputsForApp = pathPrefix("application" / "generateInputs" / Segment) { appName =>
     get {
       completeFRes(
         appService.generateInputs(appName)
@@ -104,5 +120,6 @@ class ApplicationController[F[_]: Effect](
       create ~
       update ~
       deleteApplicationByName ~
-      generateInputsForApp
+      generateInputsForApp ~
+      getApp
 }

@@ -25,6 +25,8 @@ trait StorageOps[F[_]] {
   def readText(path: Path): F[Option[List[String]]]
 
   def readBytes(path: Path): F[Option[Array[Byte]]]
+
+  def writeBytes(path: Path, bytes: Array[Byte]): F[Path]
 }
 
 object StorageOps {

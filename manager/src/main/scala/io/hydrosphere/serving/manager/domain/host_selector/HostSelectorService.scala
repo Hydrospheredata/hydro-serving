@@ -9,7 +9,7 @@ import io.hydrosphere.serving.manager.domain.DomainError
 trait HostSelectorService[F[_]] {
   def create(name: String, placeholder: String): F[Either[DomainError, HostSelector]]
 
-  def delete(id: Long): F[Either[DomainError, HostSelector]]
+  def delete(name: String): F[Either[DomainError, HostSelector]]
 
   def get(name: String): F[Either[DomainError, HostSelector]]
 }
@@ -30,17 +30,17 @@ object HostSelectorService {
       }
     }
 
-    def delete(id: Long): F[Either[DomainError, HostSelector]] = {
+    override def get(name: String): F[Either[DomainError, HostSelector]] = {
       val f = for {
-        hs <- EitherT.fromOptionF[F, DomainError, HostSelector](hsRepo.get(id), DomainError.notFound(s"Can't find HostSelector with id $id"))
-        _ <- EitherT.liftF[F, DomainError, Int](hsRepo.delete(hs.id))
+        hs <- EitherT.fromOptionF(hsRepo.get(name), DomainError.notFound(s"Can't find HostSelector with name $name"))
       } yield hs
       f.value
     }
 
-    override def get(name: String): F[Either[DomainError, HostSelector]] = {
+    override def delete(name: String): F[Either[DomainError, HostSelector]] = {
       val f = for {
-        hs <- EitherT.fromOptionF(hsRepo.get(name), DomainError.notFound(s"Can't find HostSelector with name $name"))
+        hs <- EitherT.fromOptionF[F, DomainError, HostSelector](hsRepo.get(name), DomainError.notFound(s"Can't find HostSelector with name $name"))
+        _ <- EitherT.liftF[F, DomainError, Int](hsRepo.delete(hs.id))
       } yield hs
       f.value
     }
