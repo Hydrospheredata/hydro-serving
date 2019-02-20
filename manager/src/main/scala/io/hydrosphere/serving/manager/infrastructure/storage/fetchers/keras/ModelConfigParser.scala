@@ -73,7 +73,8 @@ private[keras] object ModelConfigParser extends Logging {
       } yield {
         FetcherResult(
           modelName = name,
-          modelContract = contract
+          modelContract = contract,
+          metadata = Map.empty
         )
       }
       f.value

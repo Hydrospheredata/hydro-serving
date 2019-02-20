@@ -15,6 +15,22 @@ case class SparkModelMetadata(
   def getParam[T](param: String): Option[T] = {
     paramMap.get(param).map(_.asInstanceOf[T])
   }
+
+  def toMap: Map[String, String] = {
+    val basic = Map(
+      "class" -> `class`,
+      "timestamp" -> timestamp.toString,
+      "sparkVersion" -> sparkVersion,
+      "uid" -> uid,
+    )
+    val opts = Map(
+      "numFeatures" -> numFeatures,
+      "numClasses" -> numClasses,
+      "numTrees" -> numTrees,
+    ).collect { case (k, Some(v)) => k -> v.toString }
+
+    basic ++ opts
+  }
 }
 
 object SparkModelMetadata extends CompleteJsonProtocol {

@@ -17,7 +17,8 @@ class FallbackContractFetcher[F[_]: Monad](
     OptionT(getContract(directory)).map { contract =>
       FetcherResult(
         modelName = directory.getFileName.toString,
-        modelContract = contract
+        modelContract = contract,
+        metadata = Map.empty
       )
     }.value
   }

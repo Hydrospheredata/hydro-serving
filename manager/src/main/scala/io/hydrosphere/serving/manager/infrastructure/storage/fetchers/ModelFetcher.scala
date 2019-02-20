@@ -15,7 +15,8 @@ import org.apache.logging.log4j.scala.Logging
 
 case class FetcherResult(
   modelName: String,
-  modelContract: ModelContract
+  modelContract: ModelContract,
+  metadata: Map[String, String]
 )
 
 trait ModelFetcher[F[_]] {

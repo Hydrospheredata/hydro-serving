@@ -25,6 +25,26 @@ class ONNXFetcher[F[_]: Monad](
     } yield onnxFile
   }
 
+  def modelMetadata(model: ModelProto): Map[String, String] = {
+    val basic = Map(
+      "producerName" -> model.producerName,
+      "producerVersion" -> model.producerVersion,
+      "domain" -> model.domain,
+      "irVersion" -> model.irVersion.toString,
+      "modelVersion" -> model.modelVersion.toString,
+      "docString" -> model.docString,
+    ).mapValues(_.trim)
+      .filter { // filter proto default strings
+        case (_, s) => s.nonEmpty
+      }
+
+    val props = model.metadataProps.map { x =>
+      x.key -> x.value
+    }.toMap
+
+    basic ++ props
+  }
+
   override def fetch(directory: Path): F[Option[FetcherResult]] = {
     val f = for {
       filePath <- findFile(directory)
@@ -35,7 +55,8 @@ class ONNXFetcher[F[_]: Monad](
     } yield {
       FetcherResult(
         fileName,
-        ModelContract(fileName, signatures)
+        ModelContract(fileName, signatures),
+        metadata = modelMetadata(model)
       )
     }
     f.value

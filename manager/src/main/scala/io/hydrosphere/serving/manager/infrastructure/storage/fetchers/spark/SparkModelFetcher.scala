@@ -29,12 +29,15 @@ class SparkModelFetcher[F[_]: Monad](storageOps: StorageOps[F]) extends ModelFet
   }
 
   override def fetch(directory: Path): F[Option[FetcherResult]] = {
-    val stagesDir = s"$directory/stages"
     val modelName = directory.getFileName.toString
     val f = for {
       metadata <- getMetadata(directory)
       signature <- processPipeline(directory.resolve("stages"), metadata)
-    } yield FetcherResult(modelName, ModelContract(modelName, signature))
+    } yield FetcherResult(
+      modelName = modelName,
+      modelContract = ModelContract(modelName, signature),
+      metadata = metadata.toMap
+    )
     f.value
   }
 
