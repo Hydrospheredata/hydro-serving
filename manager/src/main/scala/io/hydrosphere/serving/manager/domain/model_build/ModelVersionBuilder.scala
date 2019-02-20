@@ -29,7 +29,7 @@ object ModelVersionBuilder {
       for {
         init <- initialVersion(model, metadata)
         deferred <- Deferred[F, ModelVersion]
-        fbr <- handleBuild(init, modelFileStructure).flatMap(v => deferred.complete(v)).start
+        fbr <- handleBuild(init, modelFileStructure).flatMap(deferred.complete).start
       } yield BuildResult(init, deferred)
     }
 
@@ -65,11 +65,12 @@ object ModelVersionBuilder {
         _ <- imageRepository.push(finishedVersion.image)
       } yield finishedVersion
 
-      Concurrent[F].onError(innerCompleted) {
-        case err =>
-          logger.error(err, err)
-          val failed = mv.copy(status = ModelVersionStatus.Failed)
-          modelVersionRepository.update(failed.id, failed).map(_ => ())
+      Concurrent[F].handleErrorWith(innerCompleted) { err =>
+        for {
+          _ <- Concurrent[F].delay(logger.error(err, err))
+          failed = mv.copy(status = ModelVersionStatus.Failed)
+          _ <- modelVersionRepository.update(failed.id, failed)
+        } yield failed
       }
     }
 

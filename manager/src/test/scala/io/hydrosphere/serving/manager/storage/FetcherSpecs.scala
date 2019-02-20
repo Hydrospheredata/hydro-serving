@@ -1,6 +1,7 @@
 package io.hydrosphere.serving.manager.storage
 
-import java.nio.file.Paths
+import java.io.File
+import java.nio.file.{Path, Paths}
 
 import cats.Id
 import cats.effect.IO
@@ -14,13 +15,25 @@ import io.hydrosphere.serving.manager.infrastructure.storage.fetchers._
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.keras.KerasFetcher
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.spark.SparkModelFetcher
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.tensorflow.TensorflowModelFetcher
-import io.hydrosphere.serving.model.api.ModelType
-import io.hydrosphere.serving.model.api.ModelType.ONNX
 import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.types.DataType
 
 class FetcherSpecs extends GenericUnitTest {
-
+  val o = new StorageOps[IO] {
+    val rootFolder = getTestResourcePath("test_models")
+    val o = StorageOps[IO]
+    override def getReadableFile(path: Path): Id[Option[File]] =
+    override def getAllFiles(folder: Path): Id[Option[List[String]]] = ???
+    override def getSubDirs(path: Path): Id[Option[List[String]]] = ???
+    override def exists(path: Path): Id[Boolean] = ???
+    override def copyFile(src: Path, target: Path): Id[Path] = ???
+    override def moveFolder(src: Path, target: Path): Id[Path] = ???
+    override def removeFolder(path: Path): Id[Option[Unit]] = ???
+    override def getTempDir(prefix: String): Id[Path] = ???
+    override def readText(path: Path): Id[Option[List[String]]] = ???
+    override def readBytes(path: Path): Id[Option[Array[Byte]]] = ???
+    override def writeBytes(path: Path, bytes: Array[Byte]): Id[Path] = ???
+  }
   describe("Fallback") {
     it("should parse contract proto message") {
       val ops = mock[StorageOps[Id]]

@@ -67,7 +67,20 @@ class ApplicationServiceSpec extends GenericUnitTest {
         when(versionRepo.get(Seq(1L))).thenReturn(IO(Seq(modelVersion)))
         val servableRepo = mock[ServableRepository[IO]]
         when(servableRepo.fetchByIds(Seq(1))).thenReturn(IO(Seq.empty))
-        val servableService = mock[ServableService[IO]]
+        val servableService = new ServableService[IO] {
+          override def delete(serviceId: Long): IO[Option[Servable]] = ???
+          override def deleteServables(services: List[Long]): IO[List[Servable]] = ???
+          override def create(servableName: String, configParams: Option[Map[String, String]], modelVersion: ModelVersion): IO[Servable] = ???
+          override def deployModelVersions(modelVersions: Set[ModelVersion]): IO[List[Servable]] = {
+            IO.pure(
+              modelVersions.toList.zipWithIndex.map {
+                case (v, id) =>
+                  Servable(id, v.model.name + v.modelVersion, None, v, "", Map.empty)
+              }
+            )
+          }
+        }
+
         val eventPublisher = mock[ApplicationDiscoveryEventBus[IO]]
         val applicationService = ApplicationService[IO](
           appRepo,
@@ -99,6 +112,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
     it("should handle failed application builds") {
       ioAssert {
         val appRepo = mock[ApplicationRepository[IO]]
+        when(appRepo.update(Matchers.any())).thenReturn(IO.pure(1))
         when(appRepo.get("test")).thenReturn(IO(None))
         when(appRepo.create(Matchers.any())).thenReturn(IO(
           Application(
@@ -118,8 +132,17 @@ class ApplicationServiceSpec extends GenericUnitTest {
         val versionRepo = mock[ModelVersionRepository[IO]]
         when(versionRepo.get(1)).thenReturn(IO(Some(modelVersion)))
         when(versionRepo.get(Seq(1L))).thenReturn(IO(Seq(modelVersion)))
-        val servableService = mock[ServableService[IO]]
-        when(servableService.create(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(IO.raiseError(new RuntimeException("Test error")))
+        val servableService = new ServableService[IO] {
+          override def delete(serviceId: Long): IO[Option[Servable]] = ???
+
+          override def deleteServables(services: List[Long]): IO[List[Servable]] = ???
+
+          override def create(servableName: String, configParams: Option[Map[String, String]], modelVersion: ModelVersion): IO[Servable] = ???
+
+          override def deployModelVersions(modelVersions: Set[ModelVersion]): IO[List[Servable]] = {
+            IO.raiseError(new RuntimeException("Test error"))
+          }
+        }
         val servableRepo = mock[ServableRepository[IO]]
         when(servableRepo.fetchByIds(Seq(1))).thenReturn(IO(Seq.empty))
 
@@ -144,9 +167,8 @@ class ApplicationServiceSpec extends GenericUnitTest {
         applicationService.create(createReq).flatMap { res =>
           assert(res.isRight, res)
           val app = res.right.get
-          app.completed.get.attempt.map {
-            case Right(_) => fail("should fail")
-            case Left(ex) => assert(ex.isInstanceOf[RuntimeException])
+          app.completed.get.map { x =>
+            assert(x.status === ApplicationStatus.Failed)
           }
         }
       }
@@ -155,6 +177,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
     it("should handle finished builds") {
       ioAssert {
         val appRepo = mock[ApplicationRepository[IO]]
+        when(appRepo.update(Matchers.any())).thenReturn(IO(1))
         when(appRepo.get("test")).thenReturn(IO(None))
         when(appRepo.create(Matchers.any())).thenReturn(IO(
           Application(
@@ -174,17 +197,26 @@ class ApplicationServiceSpec extends GenericUnitTest {
         val versionRepo = mock[ModelVersionRepository[IO]]
         when(versionRepo.get(1)).thenReturn(IO(Some(modelVersion)))
         when(versionRepo.get(Seq(1L))).thenReturn(IO(Seq(modelVersion)))
-        val serviceManager = mock[ServableService[IO]]
-        when(serviceManager.create(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
-          IO(Servable(
+        val servableService = new ServableService[IO] {
+          override def delete(serviceId: Long): IO[Option[Servable]] = ???
+          override def deleteServables(services: List[Long]): IO[List[Servable]] = ???
+          override def create(servableName: String, configParams: Option[Map[String, String]], modelVersion: ModelVersion): IO[Servable] = IO(Servable(
             id = 1,
-            serviceName = "name",
+            serviceName = servableName,
             cloudDriverId = None,
             modelVersion = modelVersion,
             statusText = "asd",
-            configParams = Map.empty
+            configParams = configParams.getOrElse(Map.empty)
           ))
-        )
+          override def deployModelVersions(modelVersions: Set[ModelVersion]): IO[List[Servable]] = {
+            IO.pure(
+              modelVersions.toList.zipWithIndex.map {
+                case (v, id) =>
+                  Servable(id, v.model.name + v.modelVersion, None, v, "", Map.empty)
+              }
+            )
+          }
+        }
         val servableRepo = mock[ServableRepository[IO]]
         when(servableRepo.fetchByIds(Seq(1))).thenReturn(IO(Seq.empty))
 
@@ -207,7 +239,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
         val applicationService = ApplicationService[IO](
           appRepo,
           versionRepo,
-          serviceManager,
+          servableService,
           servableRepo,
           eventPublisher
         )
@@ -226,7 +258,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
     it("should rebuild on update") {
       ioAssert {
         val appRepo = mock[ApplicationRepository[IO]]
-        when(appRepo.get(1)).thenReturn(IO(Some(
+        when(appRepo.get(Matchers.any[Long]())).thenReturn(IO(Some(
           Application(
             id = 1,
             name = "test",
@@ -241,7 +273,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
             kafkaStreaming = List.empty
           )
         )))
-        when(appRepo.get("test")).thenReturn(IO(None))
+        when(appRepo.get(Matchers.any[String]())).thenReturn(IO(None))
         when(appRepo.create(Matchers.any())).thenReturn(IO(
           Application(
             id = 1,
@@ -261,28 +293,41 @@ class ApplicationServiceSpec extends GenericUnitTest {
         when(appRepo.update(Matchers.any())).thenReturn(IO(1))
 
         val versionRepo = mock[ModelVersionRepository[IO]]
-        when(versionRepo.get(1)).thenReturn(IO(Some(modelVersion)))
+        when(versionRepo.get(Matchers.any[Long]())).thenReturn(IO(Some(modelVersion)))
         when(versionRepo.get(Matchers.any[Seq[Long]]())).thenReturn(IO(Seq(modelVersion)))
 
-        val servableService = mock[ServableService[IO]]
-        when(servableService.create(Matchers.any(), Matchers.any(), Matchers.any())).thenReturn(
-          IO(Servable(
-            id = 1,
-            serviceName = "name",
-            cloudDriverId = None,
-            modelVersion = modelVersion,
-            statusText = "asd",
-            configParams = Map.empty
-          ))
-        )
+        val servableService = new ServableService[IO] {
+          override def delete(serviceId: Long): IO[Option[Servable]] = ???
+
+          override def deleteServables(services: List[Long]): IO[List[Servable]] = IO.pure(List.empty)
+
+          override def create(servableName: String, configParams: Option[Map[String, String]], modelVersion: ModelVersion): IO[Servable] = {
+            IO(Servable(
+              id = 1,
+              serviceName = "name",
+              cloudDriverId = None,
+              modelVersion = modelVersion,
+              statusText = "asd",
+              configParams = Map.empty
+            ))
+          }
+          override def deployModelVersions(modelVersions: Set[ModelVersion]): IO[List[Servable]] = {
+            IO.pure(
+              modelVersions.toList.zipWithIndex.map {
+                case (v, id) =>
+                  Servable(id, v.model.name + v.modelVersion, None, v, "", Map.empty)
+              }
+            )
+          }
+        }
         val servableRepo = mock[ServableRepository[IO]]
         when(servableRepo.fetchByIds(Matchers.any())).thenReturn(IO(Seq.empty))
 
         val appChanged = ListBuffer.empty[Application]
+        val appDeleted = ListBuffer.empty[Application]
         val eventPublisher = new ApplicationDiscoveryEventBus[IO]  {
           override def detected(application: Application) = IO(appChanged += application)
-
-          override def removed(application: Application) = ???
+          override def removed(application: Application) = IO(appDeleted += application)
         }
         val graph = ExecutionGraphRequest(List(
           PipelineStageRequest(Seq(

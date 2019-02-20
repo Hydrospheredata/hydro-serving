@@ -69,12 +69,12 @@ object ApplicationService {
         _ <- applicationRepository.update(finishedApp)
       } yield finishedApp
 
-      Concurrent[F].onError(finished) {
-        case x => Concurrent[F].defer {
-          logger.warn(s"ModelVersion deployment exception", x)
-          val failedApp = application.copy(status = ApplicationStatus.Failed)
-          applicationRepository.update(failedApp).map(_ => ())
-        }
+      Concurrent[F].handleErrorWith(finished) { x =>
+        for {
+          _ <- Concurrent[F].delay(logger.error(s"ModelVersion deployment exception", x))
+          failedApp = application.copy(status = ApplicationStatus.Failed)
+          _ <- applicationRepository.update(failedApp)
+        } yield failedApp
       }
     }
 
