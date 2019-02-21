@@ -64,10 +64,8 @@ object ModelService {
         _ <- EitherT.fromOption[F].apply(ModelValidator.name(meta.name), DomainError.invalidRequest("Model name contains invalid characters"))
         hs <- maybeHostSelector
         modelPath <- EitherT.liftF[F, DomainError, ModelFileStructure](storageService.unpack(filePath))
-        contract <- OptionT.fromOption(meta.contract)
-          .orElse(OptionT(fetcher.fetch(modelPath.filesPath)).map(_.modelContract))
-          .toRight(DomainError.invalidRequest("No contract provided and couldn't infer it from model files."))
-        versionMetadata = ModelVersionMetadata.fromModel(contract, meta, hs)
+        fetchResult <- EitherT.liftF(fetcher.fetch(modelPath.filesPath))
+        versionMetadata = ModelVersionMetadata.combineMetadata(fetchResult, meta, hs)
         _ <- EitherT.fromEither(ModelVersionMetadata.validateContract(versionMetadata))
         parentModel <- EitherT.liftF(createIfNecessary(versionMetadata.modelName))
         b <- EitherT.liftF[F, DomainError, BuildResult[F]](modelVersionBuilder.build(parentModel, versionMetadata, modelPath))

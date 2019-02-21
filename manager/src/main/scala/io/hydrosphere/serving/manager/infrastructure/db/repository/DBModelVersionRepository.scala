@@ -10,7 +10,7 @@ import io.hydrosphere.serving.manager.domain.model.Model
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepository, ModelVersionStatus}
 import io.hydrosphere.serving.manager.infrastructure.db.DatabaseService
 import io.hydrosphere.serving.manager.infrastructure.protocol.CompleteJsonProtocol._
-import io.hydrosphere.serving.manager.util.{AsyncUtil, CollectionUtil}
+import io.hydrosphere.serving.manager.util.AsyncUtil
 import spray.json._
 
 import scala.concurrent.ExecutionContext
@@ -49,9 +49,9 @@ class DBModelVersionRepository[F[_]: Async](
         runtimeName = entity.runtime.name,
         runtimeVersion = entity.runtime.tag,
         status = entity.status.toString,
-        profileTypes = CollectionUtil.maybeTransform(entity.profileTypes)(_.toJson.compactPrint),
+        profileTypes = if (entity.profileTypes.isEmpty) None else Some(entity.profileTypes.toJson.compactPrint),
         installCommand = entity.installCommand,
-        metadata = CollectionUtil.maybeTransform(entity.metadata)(_.toJson.compactPrint)
+        metadata = if (entity.metadata.isEmpty) None else Some(entity.metadata.toJson.compactPrint)
       )
     ).map(x => mapFromDb(x, entity.model, entity.hostSelector))
   }
