@@ -20,6 +20,7 @@ case class ModelVersionView(
   model: Model,
   hostSelector: Option[HostSelector],
   status: String,
+  metadata: Map[String, String],
   applications: Seq[String]
 )
 
@@ -36,7 +37,8 @@ object ModelVersionView {
       model = modelVersion.model,
       hostSelector = modelVersion.hostSelector,
       status = modelVersion.status.toString,
-      applications = applications.map(_.name)
+      applications = applications.map(_.name),
+      metadata = modelVersion.metadata
     )
   }
 }
