@@ -33,4 +33,3 @@ object Common {
     )
   ) ++ testSettings
 }
-

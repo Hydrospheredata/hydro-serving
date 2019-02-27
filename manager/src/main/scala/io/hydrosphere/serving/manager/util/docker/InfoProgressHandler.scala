@@ -6,5 +6,9 @@ import org.apache.logging.log4j.scala.Logging
 
 object InfoProgressHandler extends ProgressHandler with Logging {
   override def progress(progressMessage: ProgressMessage): Unit =
-    logger.debug(progressMessage)
+    Option(progressMessage.stream()).foreach { msg =>
+      if (msg.nonEmpty) {
+        logger.info(msg)
+      }
+    }
 }

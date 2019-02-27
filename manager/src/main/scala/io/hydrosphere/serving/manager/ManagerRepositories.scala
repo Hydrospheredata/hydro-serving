@@ -1,32 +1,25 @@
 package io.hydrosphere.serving.manager
 
+import cats.effect.Async
 import com.zaxxer.hikari.HikariConfig
 import io.hydrosphere.serving.manager.config.{HikariConfiguration, ManagerConfiguration}
-import io.hydrosphere.serving.manager.repository._
-import io.hydrosphere.serving.manager.repository.db._
+import io.hydrosphere.serving.manager.infrastructure.db.DatabaseService
+import io.hydrosphere.serving.manager.infrastructure.db.repository._
 
 import scala.concurrent.ExecutionContext
 
-class ManagerRepositories(config: ManagerConfiguration)(implicit executionContext: ExecutionContext) {
-  implicit val dataService = new DatabaseService(parseDatabase(config.database))
+class ManagerRepositories[F[_]: Async](config: ManagerConfiguration)(implicit executionContext: ExecutionContext) {
+  implicit val dataService: DatabaseService = new DatabaseService(parseDatabase(config.database))
 
-  val runtimeRepository: RuntimeRepository = new RuntimeRepositoryImpl
+  val modelRepository = new DBModelRepository[F]
 
-  val runtimePullRepository: RuntimePullRepository = new RuntimePullRepositoryImpl
+  val modelVersionRepository = new DBModelVersionRepository[F]
 
-  val modelRepository: ModelRepository = new ModelRepositoryImpl
+  val servableRepository = new DBServableRepository[F]
 
-  val modelVersionRepository: ModelVersionRepository = new ModelVersionRepositoryImpl
+  val applicationRepository = new DBApplicationRepository[F]
 
-  val modelBuildRepository: ModelBuildRepository = new ModelBuildRepositoryImpl
-
-  val serviceRepository: ServiceRepository = new ServiceRepositoryImpl
-
-  val modelBuildScriptRepository: ModelBuildScriptRepository = new ModelBuildScriptRepositoryImpl
-
-  val applicationRepository: ApplicationRepository = new ApplicationRepositoryImpl
-
-  val environmentRepository: EnvironmentRepository = new EnvironmentRepositoryImpl
+  val hostSelectorRepository = new DBHostSelectorRepository[F]
 
   private def parseDatabase(hikariConfiguration: HikariConfiguration): HikariConfig = {
     val hikariConfig = new HikariConfig()

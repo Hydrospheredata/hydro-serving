@@ -1,7 +1,7 @@
 [
   {
-    "name": "default",
-    "location": "/api-docs/swagger.json",
+    "name": "v2",
+    "location": "/api/v2/docs/swagger.json",
     "swaggerVersion": "2.0"
   }
 ]

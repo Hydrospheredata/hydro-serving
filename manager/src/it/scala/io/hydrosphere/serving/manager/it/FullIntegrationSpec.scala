@@ -6,21 +6,20 @@ import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import cats.data.EitherT
+import cats.effect.IO
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
+import io.grpc.Server
 import io.hydrosphere.serving.manager._
-import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration, RuntimePackConfig}
-import io.hydrosphere.serving.model.api.HFResult
-import io.hydrosphere.serving.manager.model.db.{ModelBuild, ModelVersion}
-import io.hydrosphere.serving.manager.service.runtime.DefaultRuntimes
+import io.hydrosphere.serving.manager.api.grpc.GrpcApiServer
+import io.hydrosphere.serving.manager.api.http.HttpApiServer
+import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration}
+import io.hydrosphere.serving.manager.domain.DomainError
+import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.util.TarGzUtils
-import io.hydrosphere.serving.manager.util.task.ServiceTask.ServiceTaskStatus
-import io.hydrosphere.serving.model.api.Result.HError
 import org.scalatest._
 
-import scala.concurrent.{Await, ExecutionContext, Future}
 import scala.concurrent.duration._
-import scala.io.Source
-import scala.util.{Failure, Success, Try}
+import scala.concurrent.{ExecutionContext, Future}
 
 
 trait FullIntegrationSpec extends DatabaseAccessIT
@@ -29,7 +28,13 @@ trait FullIntegrationSpec extends DatabaseAccessIT
   implicit val system = ActorSystem("fullIT-system")
   implicit val materializer = ActorMaterializer()
   implicit val ex = ExecutionContext.global
+  implicit val contextShift = IO.contextShift(ex)
   implicit val timeout = Timeout(5.minute)
+
+  val dummyImage = DockerImage(
+    name = "hydrosphere/serving-runtime-dummy",
+    tag = "latest"
+  )
 
   private[this] var rawConfig = ConfigFactory.load()
   rawConfig = rawConfig.withValue(
@@ -42,68 +47,49 @@ trait FullIntegrationSpec extends DatabaseAccessIT
 
   private[this] val originalConfiguration = ManagerConfiguration.load
 
-  def configuration = originalConfiguration.right.get.copy(runtimePack = RuntimePackConfig.Dummies)
+  def configuration = originalConfiguration.right.get
 
-  var managerRepositories: ManagerRepositories = _
-  var managerServices: ManagerServices = _
-  var managerApi: ManagerHttpApi = _
-  var managerGRPC: ManagerGRPC = _
+  var managerRepositories: ManagerRepositories[IO] = _
+  var managerServices: ManagerServices[IO] = _
+  var managerApi: HttpApiServer[IO] = _
+  var managerGRPC: Server = _
 
   override protected def beforeAll(): Unit = {
     super.beforeAll()
     managerRepositories = new ManagerRepositories(configuration)
     managerServices = new ManagerServices(managerRepositories, configuration, dockerClient, DockerClientConfig())
-    managerApi = new ManagerHttpApi(managerServices, configuration)
-    managerGRPC = new ManagerGRPC(managerServices, configuration)
+    managerApi = new HttpApiServer(managerRepositories, managerServices, configuration)
+    managerGRPC = GrpcApiServer(managerRepositories, managerServices, configuration)
+    managerApi.start()
+    managerGRPC.start()
   }
 
   override def afterAll(): Unit = {
-    managerGRPC.server.shutdown()
+    managerGRPC.shutdown()
     system.terminate()
     super.afterAll()
   }
 
-  private def getScript(path: String): String = {
-    Source.fromInputStream(getClass.getResourceAsStream(path)).mkString
-  }
-
-  private def tryCloseable[A <: AutoCloseable, B](a: A)(f: A => B): Try[B] = {
-    try {
-      Success(f(a))
-    } catch {
-      case e: Throwable => Failure(e)
-    } finally {
-      a.close()
-    }
-  }
-
-  protected def executeDBScript(scripts: String*): Unit = {
-    scripts.foreach { sPath =>
-      val connection = managerRepositories.dataService.dataSource.getConnection
-      val res = tryCloseable(connection) { conn =>
-        val st = conn.createStatement()
-        tryCloseable(st)(_.execute(getScript(sPath)))
-      }
-      res.flatten.get
-    }
-  }
-
   protected def packModel(str: String): Path = {
     val temptar = Files.createTempFile("packedModel", ".tar.gz")
-    TarGzUtils.compressFolder(Paths.get(getClass.getResource(str).getPath), temptar)
+    TarGzUtils.compressFolder(Paths.get(getClass.getResource(str).toURI), temptar)
     temptar
   }
 
-  protected def eitherAssert(body: => HFResult[Assertion]): Future[Assertion] = {
+  protected def eitherAssert(body: => IO[Either[DomainError, Assertion]]): Future[Assertion] = {
     body.map {
       case Left(err) =>
         fail(err.message)
       case Right(asserts) =>
         asserts
-    }
+    }.unsafeToFuture()
   }
 
-  protected def eitherTAssert(body: => EitherT[Future, HError, Assertion]): Future[Assertion] = {
+  protected def eitherTAssert(body: => EitherT[IO, DomainError, Assertion]): Future[Assertion] = {
     eitherAssert(body.value)
+  }
+
+  protected def ioAssert(body: => IO[Assertion]): Future[Assertion] = {
+    body.unsafeToFuture()
   }
 }

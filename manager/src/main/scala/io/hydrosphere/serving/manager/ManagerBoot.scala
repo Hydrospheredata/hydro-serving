@@ -5,13 +5,16 @@ import java.util.concurrent.TimeUnit
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
-import com.spotify.docker.client.{DefaultDockerClient, DockerClient}
+import cats.effect.{ContextShift, IO}
+import com.spotify.docker.client.DefaultDockerClient
+import io.hydrosphere.serving.manager.api.grpc.GrpcApiServer
 import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration}
+import io.hydrosphere.serving.manager.api.http.HttpApiServer
 import io.hydrosphere.serving.manager.util.ReflectionUtils
 import org.apache.logging.log4j.scala.Logging
 
-import scala.concurrent.{Await, ExecutionContext}
 import scala.concurrent.duration._
+import scala.concurrent.{Await, ExecutionContext}
 
 object ManagerBoot extends App with Logging {
   try {
@@ -19,7 +22,7 @@ object ManagerBoot extends App with Logging {
     implicit val materializer: ActorMaterializer = ActorMaterializer()
     implicit val timeout: Timeout = Timeout(5.minute)
     implicit val serviceExecutionContext: ExecutionContext = ExecutionContext.global
-
+    implicit val contextShift: ContextShift[IO] = IO.contextShift(serviceExecutionContext)
     val configLoadResult = ManagerConfiguration.load
     val configuration = configLoadResult match {
       case Left(err) =>
@@ -40,17 +43,20 @@ object ManagerBoot extends App with Logging {
     }
     logger.info(s"Using docker client config: ${ReflectionUtils.prettyPrint(dockerClientConfig)}")
 
-    val managerRepositories = new ManagerRepositories(configuration)
-    val managerServices = new ManagerServices(managerRepositories, configuration, dockerClient, dockerClientConfig)
-    val managerApi = new ManagerHttpApi(managerServices, configuration)
-    val managerGRPC = new ManagerGRPC(managerServices, configuration)
+    val managerRepositories = new ManagerRepositories[IO](configuration)
+    val managerServices = new ManagerServices[IO](managerRepositories, configuration, dockerClient, dockerClientConfig)
+    val httpApi = new HttpApiServer(managerRepositories, managerServices, configuration)
+    val grpcApi = GrpcApiServer(managerRepositories, managerServices, configuration)
+
+    httpApi.start // fire and forget?
+    grpcApi.start()
 
     sys addShutdownHook {
-      managerGRPC.server.shutdown()
+      grpcApi.shutdown()
       logger.info("Stopping all contexts")
       system.terminate()
       try {
-        managerGRPC.server.awaitTermination(30, TimeUnit.SECONDS)
+        grpcApi.awaitTermination(30, TimeUnit.SECONDS)
         Await.ready(system.whenTerminated, Duration(30, TimeUnit.SECONDS))
       } catch {
         case e: Throwable =>

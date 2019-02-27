@@ -1,270 +1,225 @@
 package io.hydrosphere.serving.manager.it.service
 
 import cats.data.EitherT
-import cats.instances.all._
+import cats.effect.IO
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.controller.application._
-import io.hydrosphere.serving.manager.controller.model.ModelUpload
+import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
+import io.hydrosphere.serving.manager.domain.DomainError
+import io.hydrosphere.serving.manager.domain.application._
+import io.hydrosphere.serving.manager.domain.model_version.ModelVersion
 import io.hydrosphere.serving.manager.it.FullIntegrationSpec
-import io.hydrosphere.serving.manager.model.db._
-import io.hydrosphere.serving.manager.service.environment.AnyEnvironment
-import io.hydrosphere.serving.manager.service.model_build.BuildModelRequest
+import io.hydrosphere.serving.tensorflow.types.DataType.DT_DOUBLE
 import org.scalatest.BeforeAndAfterAll
 
 import scala.concurrent.Await
 import scala.concurrent.duration._
 
 class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAll {
-  implicit val awaitTimeout = 50.seconds
-  val upload1 = ModelUpload(
-    packModel("/models/dummy_model"),
-    name = Some("m1")
+  private val uploadFile = packModel("/models/dummy_model")
+  private val signature = ModelSignature(
+    signatureName = "not-default-spark",
+    inputs = List(ModelField("test-input", None, ModelField.TypeOrSubfields.Dtype(DT_DOUBLE))),
+    outputs = List(ModelField("test-output", None, ModelField.TypeOrSubfields.Dtype(DT_DOUBLE)))
   )
-  val upload2 = ModelUpload(
-    packModel("/models/dummy_model_2"),
-    name = Some("m2")
-  )
-  val upload3 = upload1.copy(
+  private val upload1 = ModelUploadMetadata(
+    name = "m1",
+    runtime = dummyImage,
     contract = Some(ModelContract(
       modelName = "m1",
-      signatures = Vector(
-        ModelSignature(
-          signatureName = "not-default-spark",
-          inputs = Vector(ModelField("test-input")),
-          outputs = Vector(ModelField("test-output"))
-        )
-      )
+      signatures = List(signature)
+    ))
+  )
+  private val upload2 = ModelUploadMetadata(
+    name = "m2",
+    runtime = dummyImage,
+    contract = Some(ModelContract(
+      modelName = "m2",
+      signatures = List(signature)
+    ))
+  )
+  private val upload3 = ModelUploadMetadata(
+    name = "m3",
+    runtime = dummyImage,
+    contract = Some(ModelContract(
+      modelName = "m3",
+      signatures = List(signature)
     ))
   )
 
-  "Application service" should {
-    "create a simple application" in {
+  var mv1: ModelVersion = _
+  var mv2: ModelVersion = _
+
+  describe("Application service") {
+    it("should create a simple application") {
       eitherTAssert {
+        val create = CreateApplicationRequest(
+          "simple-app",
+          None,
+          ExecutionGraphRequest(List(
+            PipelineStageRequest(
+              Seq(ModelVariantRequest(
+                modelVersionId = mv1.id,
+                weight = 100,
+                signatureName = "not-default-spark"
+              ))
+            ))
+          ),
+          Option.empty
+        )
         for {
-          runtime <- EitherT(managerServices.runtimeManagementService.get(1))
-          modelBuild <- EitherT(managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1)))
-          modelVersion <- EitherT.liftF(modelBuild.future)
-          appRequest = CreateApplicationRequest(
-            name = "testapp",
-            namespace = None,
-            executionGraph = ExecutionGraphRequest(
-              stages = List(
-                ExecutionStepRequest(
-                  services = List(
-                    ServiceCreationDescription(
-                      runtimeId = runtime.id, // dummy runtime id
-                      modelVersionId = Some(modelVersion.id),
-                      environmentId = None,
-                      weight = 0,
-                      signatureName = "default"
-                    )
-                  )
-                )
-              )
-            ),
-            kafkaStreaming = List.empty
-          )
-          appResult <- EitherT(managerServices.applicationManagementService.createApplication(
-            appRequest.name,
-            appRequest.namespace,
-            appRequest.executionGraph,
-            appRequest.kafkaStreaming
-          ))
+          appResult <- EitherT(managerServices.appService.create(create))
         } yield {
           println(appResult)
-          val expectedGraph = ApplicationExecutionGraph(
-            List(
-              ApplicationStage(
-                List(
-                  DetailedServiceDescription(
-                    weight = 100,
-                    signature = None,
-                    runtime = runtime,
-                    modelVersion = modelVersion,
-                    environment = AnyEnvironment
-                  )
-                ),
-                None,
-                Map.empty
-              )
-            )
-          )
-          assert(appResult.name === appRequest.name)
-          assert(appResult.contract === modelVersion.modelContract)
-          assert(appResult.executionGraph === expectedGraph)
+          assert(appResult.started.name === "simple-app")
+          assert(appResult.started.signature.inputs === mv1.modelContract.signatures.head.inputs)
+          assert(appResult.started.signature.outputs === mv1.modelContract.signatures.head.outputs)
+          val services = appResult.started.executionGraph.stages.flatMap(_.modelVariants)
+          val service = services.head
+          assert(service.weight === 100)
+          assert(service.signature === mv1.modelContract.signatures.head)
+          assert(service.modelVersion.id === mv1.id)
         }
       }
     }
 
-    "create a multi-service stage" in {
+    it("should create a multi-service stage") {
       eitherTAssert {
-        for {
-          runtime <- EitherT(managerServices.runtimeManagementService.get(1))
-          modelBuild <- EitherT(managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1)))
-          modelVersion <- EitherT.liftF(modelBuild.future)
-          appRequest = CreateApplicationRequest(
-            name = "MultiServiceStage",
-            namespace = None,
-            executionGraph = ExecutionGraphRequest(
-              stages = List(
-                ExecutionStepRequest(
-                  services = List(
-                    ServiceCreationDescription(
-                      runtimeId = runtime.id,
-                      modelVersionId = Some(modelVersion.id),
-                      environmentId = None,
-                      weight = 50,
-                      signatureName = "default_spark"
-                    ),
-                    ServiceCreationDescription(
-                      runtimeId = runtime.id,
-                      modelVersionId = Some(modelVersion.id),
-                      environmentId = None,
-                      weight = 50,
-                      signatureName = "default_spark"
-                    )
+        val appRequest = CreateApplicationRequest(
+          name = "MultiServiceStage",
+          namespace = None,
+          executionGraph = ExecutionGraphRequest(
+            stages = List(
+              PipelineStageRequest(
+                modelVariants = List(
+                  ModelVariantRequest(
+                    modelVersionId = mv1.id,
+                    weight = 50,
+                    signatureName = "not-default-spark"
+                  ),
+                  ModelVariantRequest(
+                    modelVersionId = mv1.id,
+                    weight = 50,
+                    signatureName = "not-default-spark"
                   )
                 )
               )
-            ),
-            kafkaStreaming = List.empty
+            )
+          ),
+          kafkaStreaming = None
+        )
+        val expectedGraph = ApplicationExecutionGraph(
+          List(
+            PipelineStage(
+              List(
+                ModelVariant(
+                  weight = 50,
+                  signature = signature,
+                  modelVersion = mv1,
+                ),
+                ModelVariant(
+                  weight = 50,
+                  signature = signature,
+                  modelVersion = mv1,
+                )
+              ),
+              signature
+            )
           )
-          app <- EitherT(managerServices.applicationManagementService.createApplication(
-            appRequest.name,
-            appRequest.namespace,
-            appRequest.executionGraph,
-            appRequest.kafkaStreaming
-          ))
+        )
+        for {
+          app <- EitherT(managerServices.appService.create(appRequest))
         } yield {
           println(app)
-          val expectedGraph = ApplicationExecutionGraph(
-            List(
-              ApplicationStage(
-                List(
-                  DetailedServiceDescription(
-                    weight = 50,
-                    signature = modelVersion.modelContract.signatures.find(_.signatureName == "default_spark"),
-                    runtime = runtime,
-                    modelVersion = modelVersion,
-                    environment = AnyEnvironment
-                  ),
-                  DetailedServiceDescription(
-                    weight = 50,
-                    signature = modelVersion.modelContract.signatures.find(_.signatureName == "default_spark"),
-                    runtime = runtime,
-                    modelVersion = modelVersion,
-                    environment = AnyEnvironment
-                  )
-                ),
-                modelVersion.modelContract.signatures.find(_.signatureName == "default_spark"),
-                dataProfileFields = Map.empty
-              )
-            )
-          )
-          assert(app.name === appRequest.name)
-          assert(app.executionGraph === expectedGraph)
+          assert(app.started.name === appRequest.name)
+          val services = app.started.executionGraph.stages.flatMap(_.modelVariants)
+          val service1 = services.head
+          val service2 = services.head
+          assert(service1.weight === 50)
+          assert(service1.signature.signatureName === "not-default-spark")
+          assert(service1.modelVersion.id === mv1.id)
+          assert(service2.weight === 50)
+          assert(service2.signature.signatureName === "not-default-spark")
+          assert(service2.modelVersion.id === mv1.id)
         }
       }
     }
 
-    "create and update an application with kafkaStreaming" in {
-      eitherTAssert {
-        for {
-          modelBuild <- EitherT(managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1)))
-          modelVersion <- EitherT.liftF(modelBuild.future)
-          appRequest = CreateApplicationRequest(
-            name = "kafka_app",
-            namespace = None,
-            executionGraph = ExecutionGraphRequest(
-              stages = List(
-                ExecutionStepRequest(
-                  services = List(
-                    ServiceCreationDescription(
-                      runtimeId = 1, // dummy runtime id
-                      modelVersionId = Some(modelVersion.id),
-                      environmentId = None,
-                      weight = 100,
-                      signatureName = "default"
-                    )
-                  )
+    it("should create and update an application with kafkaStreaming") {
+      val appRequest = CreateApplicationRequest(
+        name = "kafka_app",
+        namespace = None,
+        executionGraph = ExecutionGraphRequest(
+          stages = List(
+            PipelineStageRequest(
+              modelVariants = List(
+                ModelVariantRequest(
+                  modelVersionId = mv1.id,
+                  weight = 100,
+                  signatureName = "not-default-spark"
                 )
-              )
-            ),
-            kafkaStreaming = List(
-              ApplicationKafkaStream(
-                sourceTopic = "source",
-                destinationTopic = "dest",
-                consumerId = None,
-                errorTopic = None
               )
             )
           )
-          app <- EitherT(managerServices.applicationManagementService.createApplication(
-            appRequest.name,
-            appRequest.namespace,
+        ),
+        kafkaStreaming = Some(List(
+          ApplicationKafkaStream(
+            sourceTopic = "source",
+            destinationTopic = "dest",
+            consumerId = None,
+            errorTopic = None
+          )
+        ))
+      )
+      eitherTAssert {
+        for {
+          app <- EitherT(managerServices.appService.create(appRequest))
+          _ <- EitherT.liftF(app.completed.get)
+          appNew <- EitherT(managerServices.appService.update(UpdateApplicationRequest(
+            app.started.id,
+            app.started.name,
+            app.started.namespace,
             appRequest.executionGraph,
-            appRequest.kafkaStreaming
-          ))
-          appNew <- EitherT(managerServices.applicationManagementService.updateApplication(
-            app.id,
-            app.name,
-            app.namespace,
-            appRequest.executionGraph,
-            Seq.empty
-          ))
-
-          gotNewApp <- EitherT(managerServices.applicationManagementService.getApplication(appNew.id))
+            Option.empty
+          )))
+          finishedNew <- EitherT.liftF(appNew.completed.get)
+          gotNewApp <- EitherT.fromOptionF(managerRepositories.applicationRepository.get(appNew.started.id), DomainError.notFound(s"${appNew.started.id} app not found"))
         } yield {
-          assert(appNew === gotNewApp)
-          assert(appNew.kafkaStreaming.isEmpty, appNew)
+          assert(finishedNew === gotNewApp)
+          assert(appNew.started.kafkaStreaming.isEmpty, appNew)
         }
       }
     }
 
-    "create and update an application contract" in {
+    it("should create and update an application contract") {
       eitherTAssert {
-        for {
-          modelBuild <- EitherT(managerServices.modelBuildManagmentService.buildModel(BuildModelRequest(1)))
-          modelVersion <- EitherT.liftF(modelBuild.future)
-          appRequest = CreateApplicationRequest(
-            name = "contract_app",
-            namespace = None,
-            executionGraph = ExecutionGraphRequest(
-              stages = List(
-                ExecutionStepRequest(
-                  services = List(
-                    ServiceCreationDescription(
-                      runtimeId = 1, // dummy runtime id
-                      modelVersionId = Some(modelVersion.id),
-                      environmentId = None,
-                      weight = 100,
-                      signatureName = "default"
-                    )
+        val appRequest = CreateApplicationRequest(
+          name = "contract_app",
+          namespace = None,
+          executionGraph = ExecutionGraphRequest(
+            stages = List(
+              PipelineStageRequest(
+                modelVariants = List(
+                  ModelVariantRequest(
+                    modelVersionId = mv1.id,
+                    weight = 100,
+                    signatureName = "not-default-spark"
                   )
                 )
               )
-            ),
-            kafkaStreaming = List.empty
-          )
-          app <- EitherT(managerServices.applicationManagementService.createApplication(
-            appRequest.name,
-            appRequest.namespace,
-            appRequest.executionGraph,
-            Seq.empty
-          ))
-
-          modelUploadNew <- EitherT(managerServices.modelBuildManagmentService.uploadAndBuild(upload3))
-          modelVersionNew <- EitherT.liftF(modelUploadNew.future)
+            )
+          ),
+          kafkaStreaming = None
+        )
+        for {
+          app <- EitherT(managerServices.appService.create(appRequest))
           newGraph = ExecutionGraphRequest(
             stages = List(
-              ExecutionStepRequest(
-                services = List(
-                  ServiceCreationDescription(
-                    runtimeId = 1, // dummy runtime id
-                    modelVersionId = Some(modelVersionNew.id),
-                    environmentId = None,
+              PipelineStageRequest(
+                modelVariants = List(
+                  ModelVariantRequest(
+                    modelVersionId = mv2.id,
                     weight = 100,
                     signatureName = "not-default-spark"
                   )
@@ -272,18 +227,17 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
               )
             )
           )
-          appNew <- EitherT(managerServices.applicationManagementService.updateApplication(
-            app.id,
-            app.name,
-            app.namespace,
+          appNew <- EitherT(managerServices.appService.update(UpdateApplicationRequest(
+            app.started.id,
+            app.started.name,
+            app.started.namespace,
             newGraph,
-            Seq.empty
-          ))
+            Option.empty
+          )))
 
-          gotNewApp <- EitherT(managerServices.applicationManagementService.getApplication(appNew.id))
+          gotNewApp <- EitherT.fromOptionF(managerRepositories.applicationRepository.get(appNew.started.id), DomainError.notFound("app not found"))
         } yield {
-          assert(appNew === gotNewApp, gotNewApp)
-          assert(appNew.contract === upload3.contract.get)
+          assert(appNew.started === gotNewApp, gotNewApp)
         }
       }
     }
@@ -295,13 +249,17 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     dockerClient.pull("hydrosphere/serving-runtime-dummy:latest")
 
     val f = for {
-      d1 <- EitherT(managerServices.modelManagementService.uploadModel(upload1))
-      d2 <- EitherT(managerServices.modelManagementService.uploadModel(upload2))
+      d1 <- EitherT(managerServices.modelService.uploadModel(uploadFile, upload1))
+      completed1 <- EitherT.liftF[IO, DomainError, ModelVersion](d1.completedVersion.get)
+      d2 <- EitherT(managerServices.modelService.uploadModel(uploadFile, upload2))
+      completed2 <- EitherT.liftF[IO, DomainError, ModelVersion](d2.completedVersion.get)
     } yield {
-      println(s"UPLOADED: $d1")
-      d2
+      println(s"UPLOADED: $completed1")
+      println(s"UPLOADED: $completed2")
+      mv1 = completed1
+      mv2 = completed2
     }
 
-    Await.result(f.value, 30 seconds)
+    Await.result(f.value.unsafeToFuture(), 30 seconds)
   }
 }

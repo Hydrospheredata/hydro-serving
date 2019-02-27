@@ -1,18 +1,16 @@
 import sbt._
 
 object Dependencies {
-  val akkaVersion = "2.5.8"
-  val akkaHttpVersion = "10.0.11"
-  val hadoopVersion = "2.8.0"
+  val akkaVersion = "2.5.14"
+  val akkaHttpVersion = "10.1.3"
   val log4j2Version = "2.8.2"
   val slickVersion = "3.2.1"
-  val postgresqlVersion = "42.1.3"
+  val postgresqlVersion = "42.1.4"
   val scalaTestVersion = "3.0.3"
   val slickPgVersion = "0.15.4"
   val awsSdkVersion = "1.11.312"
-  val servingGrpcScala = "0.1.21"
+  val servingGrpcScala = "0.2.2"
   val catsV = "1.1.0"
-  val elastic4sVersion = "6.2.4"
   val envoyDataPlaneApi = "v1.6.0_1"
 
   lazy val awsDependencies = Seq(
@@ -26,12 +24,7 @@ object Dependencies {
   )
 
   lazy val kubernetesDependencies = Seq(
-    "io.skuber" %% "skuber" % "2.0.9"
-  )
-
-  lazy val hdfsDependencies = Seq(
-    "org.apache.hadoop" % "hadoop-client" % hadoopVersion,
-    "org.apache.hadoop" % "hadoop-hdfs" % hadoopVersion
+    "io.skuber" %% "skuber" % "2.1.0"
   )
 
   lazy val akkaDependencies = Seq(
@@ -44,8 +37,7 @@ object Dependencies {
     "com.typesafe.akka" %% "akka-http-core" % akkaHttpVersion,
     "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
     "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpVersion,
-    "com.typesafe.akka" %% "akka-http-xml" % akkaHttpVersion,
-    "com.github.swagger-akka-http" %% "swagger-akka-http" % "0.11.0" exclude("javax.ws.rs", "jsr311-api"),
+    "com.github.swagger-akka-http" %% "swagger-akka-http" % "1.0.0" exclude("javax.ws.rs", "jsr311-api"),
     "ch.megard" %% "akka-http-cors" % "0.2.1"
   )
 
@@ -80,15 +72,6 @@ object Dependencies {
     "com.typesafe.slick" %% "slick-codegen" % slickVersion
   )
 
-  lazy val elastic4sDependencies = Seq(
-    "com.sksamuel.elastic4s" %% "elastic4s-core" % elastic4sVersion,
-    "com.sksamuel.elastic4s" %% "elastic4s-http" % elastic4sVersion
-  )
-
-  lazy val influxDBClientDependencies = Seq(
-    "com.paulgoldbaum" %% "scala-influxdb-client" % "0.6.0" exclude("io.netty", "*")
-  )
-
   lazy val mlDependencies = Seq(
     "org.bytedeco.javacpp-presets" % "hdf5-platform" % "1.10.2-1.4.2",
     "org.tensorflow" % "proto" % "1.10.0"
@@ -103,12 +86,10 @@ object Dependencies {
     akkaHttpDependencies ++
     awsDependencies ++
     grpcDependencies ++
-    elastic4sDependencies ++
-    influxDBClientDependencies ++
     kubernetesDependencies ++
     mlDependencies ++
     Seq(
-      "org.typelevel" %% "cats-core" % catsV,
+      "org.typelevel" %% "cats-effect" % catsV,
       "org.postgresql" % "postgresql" % postgresqlVersion,
       "com.typesafe.slick" %% "slick" % slickVersion,
       "com.typesafe.slick" %% "slick-hikaricp" % slickVersion,
