@@ -152,7 +152,7 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
             ))
           )),
           action = Route.Action.Route(RouteAction(
-            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_NAME)
+            clusterSpecifier = ClusterSpecifier.Cluster(MANAGER_NAME)
           ))
         ),
         Route(
@@ -160,7 +160,7 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
             pathSpecifier = RouteMatch.PathSpecifier.Path("/health")
           )),
           action = Route.Action.Route(RouteAction(
-            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_HTTP_NAME)
+            clusterSpecifier = ClusterSpecifier.Cluster(MANAGER_HTTP_NAME)
           ))
         ),
         Route(
@@ -168,7 +168,7 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
             pathSpecifier = RouteMatch.PathSpecifier.Prefix("/api-docs")
           )),
           action = Route.Action.Route(RouteAction(
-            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_HTTP_NAME)
+            clusterSpecifier = ClusterSpecifier.Cluster(MANAGER_HTTP_NAME)
           ))
         ),
         Route(
@@ -176,7 +176,7 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
             pathSpecifier = RouteMatch.PathSpecifier.Prefix("/swagger")
           )),
           action = Route.Action.Route(RouteAction(
-            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.MANAGER_HTTP_NAME)
+            clusterSpecifier = ClusterSpecifier.Cluster(MANAGER_HTTP_NAME)
           ))
         ),
         Route(
@@ -184,7 +184,7 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
             pathSpecifier = RouteMatch.PathSpecifier.Prefix("/api/v1/applications/serve")
           )),
           action = Route.Action.Route(RouteAction(
-            clusterSpecifier = ClusterSpecifier.Cluster(CloudDriverService.GATEWAY_HTTP_NAME),
+            clusterSpecifier = ClusterSpecifier.Cluster(GATEWAY_HTTP_NAME),
             timeout = routeTimeout
           ))
         ),
