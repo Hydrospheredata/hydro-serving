@@ -1,4 +1,4 @@
-# Hydrosphere ML Lambda
+# Hydrosphere Serving
 
 [![Join the chat at https://gitter.im/Hydrospheredata/hydro-serving](https://badges.gitter.im/Hydrospheredata/hydro-serving.svg)](https://gitter.im/Hydrospheredata/hydro-serving?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![](https://img.shields.io/badge/docs-latest-af1a97.svg)](https://hydrosphere.io/serving-docs/) 
@@ -9,7 +9,7 @@ Hydrosphere.io automates deployment and serving ML models, monitoring and profil
 The platform makes more Data Science and less data plumbing and tinkering happen.
 
 
-ML Lambda enables you to get your models up and running in an instant, on just about any infrastructure and using any of the available machine learning toolkits. It lets you monitor your models’ performance, analyse their inputs (for example, determine whether there is recently an increased number of outliers or not), observe models’ inference on given data and so on.
+Hydrosphere Serving enables you to get your models up and running in an instant, on just about any infrastructure and using any of the available machine learning toolkits. It lets you monitor your models’ performance, analyse their inputs (for example, determine whether there is recently an increased number of outliers or not), observe models’ inference on given data and so on.
 
 Please, see our [getting started guide](https://hydrosphere.io/serving-docs/getting-started.html) and [documentation](https://hydrosphere.io/serving-docs/index.html).
 

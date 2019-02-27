@@ -2,73 +2,57 @@ options:
   - title: Introduction
     url: "index.html"
 
-  - title: Getting Started
+  - title: Installation
+    url: "installation.html"
+
+  - title: Tutorials
     url: "getting-started.html"
 
     nested_options: 
-      - title: Installation
-        url: "getting-started.html#installation"
+      - title: Getting Started
+        url: "getting-started.html"
       
-      - title: Uploading Demo Model
-        url: "getting-started.html#demo-model"
+      - title: Serving Tensorflow Model
+        url: "tensorflow.html"
+      
+      - title: Serving Python Model
+        url: "python.html"
 
-      - title: Uploading Own Model
-        url: "getting-started.html#own-model"
+  - title: How-To
+    url: "how-to.html"
 
-      - title: Invoking Applications
-        url: "getting-started.html#invoking-applications"
+    nested_options:
+      - title: Write Manifests
+        url: "write-manifests.html"
+        
+      - title: Invoke Applications
+        url: "invoke-applications.html"
+
+      - title: Develop Runtimes
+        url: "develop-runtimes.html"
+
+  - title: Concepts
+    url: "concepts.html"
+
+    nested_options:  
+      - title: Models
+        url: "models.html"
+
+      - title: Applications
+        url: "applications.html"
+
+      - title: Runtimes
+        url: "runtimes.html"
+
+      - title: CLI
+        url: "cli.html"
   
-  - title: Models Management
-    url: "models.html"
+  - title: Reference
+    url: "manifests.html"
     
     nested_options:
-      - title: Principles
-        url: "models.html#principles"
-      
-      - title: Contracts
-        url: "models.html#contracts"
-
-      - title: TensorFlow
-        url: "models.html#tensorflow"
-
-      - title: Keras
-        url: "models.html#keras"
-
-      - title: Python
-        url: "models.html#python"
-  
-  - title: Applications
-    url: "applications.html"
-
-    nested_options:
-      - title: Creating Applications
-        url: "applications.html#creating-application"
-      
-      - title: Invoking Applications
-        url: "applications.html#invoking-applications"
-
-  - title: Runtimes
-    url: "runtimes.html"
-
-    nested_options:
-      - title: Available Runtimes
-        url: "runtimes.html#available-runtimes"
-      
-      - title: Developing Runtime
-        url: "runtimes.html#developing-runtime"
-
-  - title: CLI
-    url: "cli.html"
-
-    nested_options:
-      - title: hs cluster
-        url: "cli.html#hs-cluster"
-      
-      - title: hs upload
-        url: "cli.html#hs-upload"
-
-      - title: hs apply
-        url: "cli.html#hs-apply"
+      - title: Manifests
+        url: "manifests.html"
 
   - title: For Developers
     url: "dev.html"

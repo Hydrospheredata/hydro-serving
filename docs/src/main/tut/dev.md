@@ -6,34 +6,25 @@ permalink: 'dev.html'
 
 # For Developers
 
-This section is dedicated to the developers, who want to improve ML Lambda. 
+This section is dedicated to the developers, who want to improve Hydrosphere Serving. 
 
-For the development you'll probably need a working example, so first clone serving examples.
+<br>
 
-```sh
-$ git clone https://github.com/Hydrospheredata/hydro-serving-example 
-```
+## Prerequisites
 
-To set up a development environment clone ML Lambda repository.
+To set up a development environment clone Serving repository.
 
 ```sh
 $ git clone https://github.com/Hydrospheredata/hydro-serving
 ```
 
-Run PostgreSQL, Sidecar and UI containers.
+For the development you'll probably need working model examples.
 
 ```sh
-$ cd hydro-serving
-$ sbt manager/devRun
+$ git clone https://github.com/Hydrospheredata/hydro-serving-example 
 ```
 
-Removing containers is done via: 
-
-```sh
-$ sbt manager/cleanDockerEnv
-```
-
-To upload serving examples to ML Lambda, you'll need `hs` cli-tool. 
+To upload serving examples to Serving, you'll need `hs` cli-tool. 
 
 ```sh
 $ pip install hs
@@ -45,10 +36,31 @@ Add new local cluster.
 $ hs cluster add --name local --server http://localhost/
 ```
 
-Now, go to the `claims` model example and upload it.
+<br>
+
+## Development
+
+Run PostgreSQL, Sidecar and UI containers.
+
+```sh
+$ cd hydro-serving
+$ sbt manager/devRun
+```
+
+Removing containers is done with: 
+
+```sh
+$ sbt manager/cleanDockerEnv
+```
+
+<br>
+
+## Model uploading 
+
+Go to the `claims` model example and upload it.
 
 ```sh 
-$ cd ../hydro-serving-example/model/claims
+$ cd hydro-serving-example/model/claims
 $ hs upload
 ```
 
