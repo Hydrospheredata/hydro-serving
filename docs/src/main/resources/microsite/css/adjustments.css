@@ -6,3 +6,14 @@ img {
 div.flexible-table {
     overflow-x:auto
 }
+
+div.content-wrapper a {
+    text-decoration: underline
+}
+
+div.content-wrapper a[href^="http"] {
+    background: url(../img/external.png) no-repeat; 
+    background-size: 12px;
+    padding-left: 15px;
+    margin-left: 5px;
+}
