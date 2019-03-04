@@ -16,6 +16,7 @@ import io.hydrosphere.serving.manager.infrastructure.clouddriver.docker.DockerUt
 import io.hydrosphere.serving.manager.infrastructure.envoy.events.CloudServiceDiscoveryEventBus
 import io.hydrosphere.serving.manager.util.AsyncUtil
 import org.apache.logging.log4j.scala.Logging
+import skuber.Container.PullPolicy
 import skuber._
 import skuber.api.client.{EventType, RequestContext}
 import skuber.json.format._
@@ -83,7 +84,7 @@ class KubernetesCloudDriver[F[_]: Async](
         .addImagePullSecretRef(conf.kubeRegistrySecretName)
         .addVolume(Volume("shared-model", Volume.EmptyDir()))
       ))
-      .addContainer(Container("runtime", hackyImage.fullName).exposePort(9090))
+      .addContainer(Container("runtime", hackyImage.fullName).exposePort(9090).withImagePullPolicy(PullPolicy.Always))
       .addLabel("app" -> service.serviceName)
 
     val deployment = apps.v1.Deployment(metadata = ObjectMeta(name = service.serviceName, namespace = conf.kubeNamespace))
