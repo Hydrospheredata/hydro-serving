@@ -3,11 +3,9 @@ package io.hydrosphere.serving.manager.infrastructure.clouddriver
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.stream.scaladsl.Sink
-import cats.effect.{Async, Sync}
-import cats.syntax.flatMap._
-import cats.syntax.functor._
-import cats.syntax.option._
-import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, DockerRepositoryConfiguration, SidecarConfig}
+import cats.effect.Async
+import cats.implicits._
+import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, DockerRepositoryConfiguration}
 import io.hydrosphere.serving.manager.domain.clouddriver._
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.image.DockerImage
@@ -21,7 +19,7 @@ import skuber._
 import skuber.api.client.{EventType, RequestContext}
 import skuber.json.format._
 
-import scala.concurrent.{ExecutionContext, Future}
+import scala.concurrent.ExecutionContext
 import scala.language.reflectiveCalls
 import scala.util.Try
 
@@ -70,7 +68,7 @@ class KubernetesCloudDriver[F[_]: Async](
     })
   }
 
-  override def deployService(service: Servable, modelVersion: DockerImage, host: Option[HostSelector]): F[CloudService] = AsyncUtil.futureAsync {
+  override def deployService(service: Servable, modelVersion: DockerImage, host: Option[HostSelector]): F[CloudService] = { // AsyncUtil.futureAsync {
     import LabelSelector.dsl._
   
     val dockerRepoHost = dockerRepoConf.pullHost.getOrElse(dockerRepoConf.host)
@@ -100,26 +98,28 @@ class KubernetesCloudDriver[F[_]: Async](
     val namespacedContext = k8s.usingNamespace(conf.kubeNamespace)
 
     for {
-      svc <- namespacedContext.create(kubeService)
-      _ <- namespacedContext.create(deployment)
-    } yield kubeServiceToCloudService(svc)
-  }.flatMap { cloudService =>
-      cloudServiceBus.detected(cloudService).as(cloudService)
+      svc <- AsyncUtil.futureAsync(namespacedContext.create(kubeService))
+      _ <- AsyncUtil.futureAsync(namespacedContext.create(deployment))
+      cloudService = kubeServiceToCloudService(svc)
+      _ <- cloudServiceBus.detected(cloudService)
+    } yield cloudService
   }
 
-  override def removeService(serviceId: Long): F[Unit] = AsyncUtil.futureAsync {
+  override def removeService(serviceId: Long): F[Unit] = {
     import LabelSelector.dsl._
+    
     val namespacedContext = k8s.usingNamespace(conf.kubeNamespace)
+    
     for {
-      svcList <- namespacedContext.listSelected[ServiceList]("SERVICE_ID" is serviceId.toString)
-      svc <- Future {
-        //TODO ???
-        svcList.headOption.getOrElse(throw new RuntimeException(s"kube service with id$serviceId not found"))
+      svcList <- AsyncUtil.futureAsync(namespacedContext.listSelected[ServiceList]("SERVICE_ID" is serviceId.toString))
+      _ <- svcList.headOption match {
+        case Some(value) =>
+          AsyncUtil.futureAsync(namespacedContext.delete[skuber.Service](value.metadata.name)) *>
+            AsyncUtil.futureAsync(namespacedContext.delete[apps.v1.Deployment](value.metadata.name)) *>
+              cloudServiceBus.removed(kubeServiceToCloudService(value))
+        case None => Async[F].delay(logger.info(s"kube service with id$serviceId not found"))
       }
-      _ <- namespacedContext.delete[skuber.Service](svc.metadata.name)
-      _ <- namespacedContext.delete[apps.v1.Deployment](svc.metadata.name)
-    } yield
-      cloudServiceBus.removed(kubeServiceToCloudService(svc))
+    } yield Unit
   }
   
   //TODO
