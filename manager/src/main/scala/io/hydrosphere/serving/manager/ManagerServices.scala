@@ -9,7 +9,7 @@ import io.grpc._
 import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, Headers}
 import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration}
 import io.hydrosphere.serving.manager.domain.application.ApplicationService
-import io.hydrosphere.serving.manager.domain.clouddriver.CloudDriver
+import io.hydrosphere.serving.manager.domain.clouddriver.{CloudDriver, CloudDriver2}
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorService
 import io.hydrosphere.serving.manager.domain.image.ImageRepository
 import io.hydrosphere.serving.manager.domain.model.ModelService
@@ -81,15 +81,16 @@ class ManagerServices[F[_]: ConcurrentEffect](
     storageOps = storageOps
   )
 
-  val cloudDriverService: CloudDriver[F] = CloudDriver.fromConfig[F](
-    dockerClient = dockerClient,
-    eventPublisher = cloudServiceEvent,
-    cloudDriverConfiguration = managerConfiguration.cloudDriver,
-    applicationConfiguration = managerConfiguration.application,
-    advertisedConfiguration = managerConfiguration.manager,
-    dockerRepositoryConfiguration = managerConfiguration.dockerRepository,
-    sidecarConfig = managerConfiguration.sidecar
-  )
+//  val cloudDriverService: CloudDriver[F] = CloudDriver.fromConfig[F](
+//    dockerClient = dockerClient,
+//    eventPublisher = cloudServiceEvent,
+//    cloudDriverConfiguration = managerConfiguration.cloudDriver,
+//    applicationConfiguration = managerConfiguration.application,
+//    advertisedConfiguration = managerConfiguration.manager,
+//    dockerRepositoryConfiguration = managerConfiguration.dockerRepository,
+//    sidecarConfig = managerConfiguration.sidecar
+//  )
+  val cloudDriverService: CloudDriver2[F] = CloudDriver2.fromConfig(managerConfiguration.cloudDriver)
 
   logger.info(s"Using ${cloudDriverService.getClass} cloud driver")
 
@@ -118,15 +119,15 @@ class ManagerServices[F[_]: ConcurrentEffect](
     modelVersionBuilder = versionBuilder
   )
 
-  val xdsActor: ActorRef = XDSManagementActor.makeXdsActor(
-    cloudDriver = cloudDriverService,
-    servableService = servableService,
-    applicationRepository = managerRepositories.applicationRepository
-  )
+//  val xdsActor: ActorRef = XDSManagementActor.makeXdsActor(
+//    cloudDriver = cloudDriverService,
+//    servableService = servableService,
+//    applicationRepository = managerRepositories.applicationRepository
+//  )
 
-  val envoyGRPCDiscoveryService: EnvoyGRPCDiscoveryService[F] = EnvoyGRPCDiscoveryService.actorManaged(
-    xdsActor = xdsActor,
-    servableService = servableService,
-    appService = appService
-  )
+//  val envoyGRPCDiscoveryService: EnvoyGRPCDiscoveryService[F] = EnvoyGRPCDiscoveryService.actorManaged(
+//    xdsActor = xdsActor,
+//    servableService = servableService,
+//    appService = appService
+//  )
 }

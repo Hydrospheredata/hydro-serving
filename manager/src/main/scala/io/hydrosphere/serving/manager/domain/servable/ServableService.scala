@@ -25,7 +25,7 @@ trait ServableService[F[_]] {
 
 object ServableService {
   def apply[F[_] : Sync](
-    cloudDriver: CloudDriver[F],
+    cloudDriver: CloudDriver2[F],
     servableRepository: ServableRepository[F],
     eventPublisher: ServableDiscoveryEventBus[F]
   ): ServableService[F] = new ServableService[F] with Logging {
@@ -40,9 +40,10 @@ object ServableService {
       )
       val f = for {
         newService <- servableRepository.create(dService)
-        cloudService <- cloudDriver.deployService(newService, modelVersion.image, modelVersion.hostSelector)
-        _ <- servableRepository.updateCloudDriveId(cloudService.id, Some(cloudService.cloudDriverId))
-      } yield newService.copy(cloudDriverId = Some(cloudService.cloudDriverId))
+//        cloudService <- cloudDriver.deployService(newService, modelVersion.image, modelVersion.hostSelector)
+        instance <- cloudDriver.run(newService)
+//        _ <- servableRepository.updateCloudDriveId(cloudService.id, Some(cloudService.cloudDriverId))
+      } yield newService
 
       Sync[F].onError(f) {
         case NonFatal(ex) =>
@@ -63,7 +64,7 @@ object ServableService {
     def delete(serviceId: Long): F[Option[Servable]] = {
       val f = for {
         servable <- OptionT(servableRepository.get(serviceId))
-        _ <- OptionT.liftF(cloudDriver.removeService(serviceId))
+        _ <- OptionT.liftF(cloudDriver.remove(serviceId.toString))
         _ <- OptionT.liftF(eventPublisher.removed(servable))
         _ <- OptionT.liftF(servableRepository.delete(serviceId))
       } yield servable

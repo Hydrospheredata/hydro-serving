@@ -5,7 +5,7 @@ import cats.effect.Effect
 import cats.syntax.flatMap._
 import cats.syntax.functor._
 import io.hydrosphere.serving.manager.domain.application.{Application, ApplicationRepository}
-import io.hydrosphere.serving.manager.domain.clouddriver.{CloudDriver, CloudService}
+import io.hydrosphere.serving.manager.domain.clouddriver.{CloudDriver, CloudDriver2, CloudService}
 import io.hydrosphere.serving.manager.domain.servable.ServableService
 import io.hydrosphere.serving.manager.infrastructure.envoy.events.DiscoveryEvent._
 import io.hydrosphere.serving.manager.infrastructure.envoy.xds._

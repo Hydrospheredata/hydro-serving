@@ -1,5 +1,6 @@
 package io.hydrosphere.serving.manager
 
+import java.nio.file.Files
 import java.util.concurrent.TimeUnit
 
 import akka.actor.ActorSystem
@@ -7,7 +8,7 @@ import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import cats.effect.{ContextShift, IO}
 import com.spotify.docker.client.DefaultDockerClient
-import io.hydrosphere.serving.manager.api.grpc.GrpcApiServer
+//import io.hydrosphere.serving.manager.api.grpc.GrpcApiServer
 import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration}
 import io.hydrosphere.serving.manager.api.http.HttpApiServer
 import io.hydrosphere.serving.manager.util.ReflectionUtils
@@ -35,34 +36,39 @@ object ManagerBoot extends App with Logging {
     }
 
     val dockerClient = DefaultDockerClient.fromEnv().build()
-    val dockerClientConfig = DockerClientConfig.load(DockerClientConfig.defaultConfigPath) match {
-      case scala.util.Success(value) => value
-      case scala.util.Failure(exception) =>
-        logger.warn(s"Failed to read docker config. Falling back to defaults", exception)
-        DockerClientConfig()
+    val dockerClientConfig = {
+      if (Files.exists(DockerClientConfig.defaultConfigPath)) {
+        DockerClientConfig.load(DockerClientConfig.defaultConfigPath) match {
+          case scala.util.Success(value) => value
+          case scala.util.Failure(e) =>
+            logger.warn(s"Failed to read docker config. Falling back to defaults", e)
+            DockerClientConfig()
+        }
+      } else DockerClientConfig()
     }
+    
     logger.info(s"Using docker client config: ${ReflectionUtils.prettyPrint(dockerClientConfig)}")
 
     val managerRepositories = new ManagerRepositories[IO](configuration)
     val managerServices = new ManagerServices[IO](managerRepositories, configuration, dockerClient, dockerClientConfig)
     val httpApi = new HttpApiServer(managerRepositories, managerServices, configuration)
-    val grpcApi = GrpcApiServer(managerRepositories, managerServices, configuration)
+//    val grpcApi = GrpcApiServer(managerRepositories, managerServices, configuration)
 
     httpApi.start // fire and forget?
-    grpcApi.start()
+//    grpcApi.start()
 
     sys addShutdownHook {
-      grpcApi.shutdown()
+//      grpcApi.shutdown()
       logger.info("Stopping all contexts")
       system.terminate()
-      try {
-        grpcApi.awaitTermination(30, TimeUnit.SECONDS)
-        Await.ready(system.whenTerminated, Duration(30, TimeUnit.SECONDS))
-      } catch {
-        case e: Throwable =>
-          logger.error("Error on terminate", e)
-          sys.exit(1)
-      }
+//      try {
+//        grpcApi.awaitTermination(30, TimeUnit.SECONDS)
+//        Await.ready(system.whenTerminated, Duration(30, TimeUnit.SECONDS))
+//      } catch {
+//        case e: Throwable =>
+//          logger.error("Error on terminate", e)
+//          sys.exit(1)
+//      }
     }
 
     logger.info(s"Started http service on port: ${configuration.application.port} and grpc service on ${configuration.application.grpcPort}")

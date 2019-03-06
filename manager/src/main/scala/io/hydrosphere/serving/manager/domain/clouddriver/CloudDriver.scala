@@ -20,16 +20,13 @@ trait CloudDriver[F[_]] {
 
   def serviceList(): F[Seq[CloudService]]
 
-  def deployService(
-    service: Servable,
-    modelVersion: DockerImage,
-    hostSelector: Option[HostSelector]
-  ): F[CloudService]
+  def deployService(service: Servable, modelVersion: DockerImage, hostSelector: Option[HostSelector]): F[CloudService]
 
   def removeService(serviceId: Long): F[Unit]
 }
 
 object CloudDriver {
+  
   def fromConfig[F[_] : Effect](
     dockerClient: DockerClient,
     eventPublisher: CloudServiceDiscoveryEventBus[F],
