@@ -61,7 +61,7 @@ class KubernetesCloudDriver[F[_]: Async](
     k8s.listInNamespace[ServiceList](conf.kubeNamespace).map(services => {
       
       val cloudServices = services
-        .filter(svc => svc.metadata.labels.contains("hs_service_marker"))
+        .filter(svc => svc.metadata.labels.contains(DefaultConstants.LABEL_HS_SERVICE_MARKER))
         .map(kubeServiceToCloudService)
       
       cloudServices ++ DockerUtil.createFakeHttpServices(cloudServices)
