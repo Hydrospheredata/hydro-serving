@@ -98,10 +98,17 @@ class KubernetesCloudDriver[F[_]: Async](
     val namespacedContext = k8s.usingNamespace(conf.kubeNamespace)
 
     for {
-      svc <- AsyncUtil.futureAsync(namespacedContext.create(kubeService))
-      _ <- AsyncUtil.futureAsync(namespacedContext.create(deployment))
-      cloudService = kubeServiceToCloudService(svc)
-      _ <- cloudServiceBus.detected(cloudService)
+      deployed <- serviceList()
+      maybeExist = deployed.find(_.serviceName == service.serviceName)
+      cloudService <- maybeExist match {
+        case Some(value) => Async[F].pure(value)
+        case None => for {
+          svc <- AsyncUtil.futureAsync(namespacedContext.create(kubeService))
+          _ <- AsyncUtil.futureAsync(namespacedContext.create(deployment))
+          cldSvc = kubeServiceToCloudService(svc)
+          _ <- cloudServiceBus.detected(cldSvc)
+        } yield cldSvc
+      }
     } yield cloudService
   }
 
