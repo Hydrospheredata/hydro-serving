@@ -3,6 +3,7 @@ package io.hydrosphere.serving.manager.domain.clouddriver
 import cats._
 import cats.effect.Sync
 import cats.implicits._
+import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.{ListContainersParam, RemoveContainerParam}
 import com.spotify.docker.client.messages._
 import io.hydrosphere.serving.manager.config.CloudDriverConfiguration
@@ -20,38 +21,53 @@ class DockerDriver2[F[_]](
   
   override def instances: F[List[ServingInstance]] = {
     client.listContainers.map(all => {
-      all.map(containerToInstance).collect({case Some(v) => v})
+      all.map(containerToInstance).collect({ case Some(v) => v })
     })
   }
   
-  override def instance(id: String): F[Option[ServingInstance]] = {
-    val query = List(ListContainersParam.withLabel(DefaultConstants.LABEL_SERVICE_ID, id.toString))
-    client.listContainers(query).map(r => {
-      r.headOption.flatMap(containerToInstance)
-    })
+  private def containerOf(name: String, id: String): F[Option[Container]] = {
+    val query = List(
+      ListContainersParam.withLabel(Labels.ServiceName, name),
+      ListContainersParam.withLabel(Labels.ServiceId, id)
+    )
+    client.listContainers(query).map(_.headOption)
   }
+  
+  override def instance(name: String, id: String): F[Option[ServingInstance]] =
+    containerOf(name, id).map(_.flatMap(containerToInstance))
   
   override def run(servable: Servable): F[ServingInstance] = {
     val container = Internals.mkContainerConfig(servable, config)
     for {
-      creation <- client.createContainer(container, servable.serviceName.some)
-      maybeOut <- instance(servable.id.toString)
+      creation <- client.createContainer(container, None)
+      _        <- client.runContainer(creation.id())
+      maybeOut <- instance(servable.serviceName, servable.id.toString)
       out      <- maybeOut match {
         case Some(v) => F.pure(v)
         case None =>
-          val warnings = creation.warnings().asScala.mkString("\n")
-          val msg = s"Running docker container for ${servable.id} failed. Reason: \n $warnings"
+          val warnings = Option(creation.warnings()) match {
+            case Some(l) => l.asScala.mkString("\n")
+            case None => ""
+          }
+          val msg = s"Running docker container for ${servable.id} failed. Warnings: \n $warnings"
           F.raiseError(new RuntimeException(msg))
       }
     } yield out
   }
   
-  override def remove(id: String): F[Unit] = {
-    val params = List(
-      RemoveContainerParam.forceKill(true),
-      RemoveContainerParam.removeVolumes(true)
-    )
-    client.removeContainer(id, params)
+  override def remove(name: String, id: String): F[Unit] = {
+    for {
+      maybeC  <- containerOf(name, id)
+      _       <- maybeC match {
+        case Some(c) =>
+          val params = List(
+            RemoveContainerParam.forceKill(true),
+            RemoveContainerParam.removeVolumes(true),
+          )
+          client.removeContainer(c.id, params)
+        case None => F.raiseError(new Exception(s"Could not find container for $name $id"))
+      }
+    } yield ()
   }
   
   private def containerToInstance(c: Container): Option[ServingInstance] = {
@@ -62,7 +78,7 @@ class DockerDriver2[F[_]](
   
     (mId, mName).mapN((id, name) => {
       val host = Internals.extractIpAddress(c.networkSettings(), config.networkName)
-      ServingInstance(id, host, DefaultConstants.DEFAULT_APP_PORT)
+      ServingInstance(name, id, host, DefaultConstants.DEFAULT_APP_PORT)
     })
   }
   

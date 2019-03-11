@@ -40,9 +40,7 @@ object ServableService {
       )
       val f = for {
         newService <- servableRepository.create(dService)
-//        cloudService <- cloudDriver.deployService(newService, modelVersion.image, modelVersion.hostSelector)
         instance <- cloudDriver.run(newService)
-//        _ <- servableRepository.updateCloudDriveId(cloudService.id, Some(cloudService.cloudDriverId))
       } yield newService
 
       Sync[F].onError(f) {
@@ -64,7 +62,7 @@ object ServableService {
     def delete(serviceId: Long): F[Option[Servable]] = {
       val f = for {
         servable <- OptionT(servableRepository.get(serviceId))
-        _ <- OptionT.liftF(cloudDriver.remove(serviceId.toString))
+        _ <- OptionT.liftF(cloudDriver.remove(servable.serviceName, serviceId.toString))
         _ <- OptionT.liftF(eventPublisher.removed(servable))
         _ <- OptionT.liftF(servableRepository.delete(serviceId))
       } yield servable
@@ -73,7 +71,7 @@ object ServableService {
 
     def deployModelVersions(modelVersions: Set[ModelVersion]): F[List[Servable]] = {
       Traverse[List].traverse(modelVersions.toList) { mv =>
-        create(s"mv${mv.id}", None, mv)
+        create(s"mv-${mv.id}-${mv.model.name}", None, mv)
       }
     }
 

@@ -13,6 +13,8 @@ trait DockerdClient[F[_]]{
   
   def createContainer(container: ContainerConfig, name: Option[String]): F[ContainerCreation]
   
+  def runContainer(id: String): F[Unit]
+  
   def removeContainer(id: String, params: List[RemoveContainerParam]): F[Unit]
   def removeContainer(id: String): F[Unit] = removeContainer(id, Nil)
   
@@ -36,6 +38,9 @@ object DockerdClient {
           }
         }
       }
+      
+      override def runContainer(id: String): F[Unit] =
+        F.delay(underlying.startContainer(id))
   
       override def removeContainer(id: String, params: List[RemoveContainerParam]): F[Unit] = {
         F.delay(underlying.removeContainer(id, params: _*))

@@ -14,10 +14,10 @@ object ManagerDev {
   lazy val sidecarImage = "hydrosphere/serving-sidecar:latest"
   lazy val sidecarName = "hs-dev-sidecar"
 
-  lazy val uiImage = "hydrosphere/serving-manager-ui:latest"
+  lazy val uiImage = "hydrosphere/serving-manager-ui:api-v2"
   lazy val uiName = "hs-dev-ui"
 
-  lazy val gatewayImage = "hydrosphere/serving-gateway:latest"
+  lazy val gatewayImage = "hydrosphere/serving-gateway:api-v2"
   lazy val gatewayName = "hs-dev-gateway"
 
 
@@ -49,7 +49,7 @@ object ManagerDev {
         .exposePort(29090, 9090)
 
       val ui = DockerOpts(uiImage, uiName)
-        .env("MANAGER_HOST", ip + ":8080")
+        .env("MANAGER_HOST", ip + ":9090")
         .exposePort(9098, 9091)
         .exposePort(8084, 80)
 
