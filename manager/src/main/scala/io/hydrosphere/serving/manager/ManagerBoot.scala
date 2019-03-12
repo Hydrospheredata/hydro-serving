@@ -8,6 +8,7 @@ import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import cats.effect.{ContextShift, IO}
 import com.spotify.docker.client.DefaultDockerClient
+import io.hydrosphere.serving.manager.discovery.{DiscoveryGrpc, DiscoveryHub}
 //import io.hydrosphere.serving.manager.api.grpc.GrpcApiServer
 import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration}
 import io.hydrosphere.serving.manager.api.http.HttpApiServer
@@ -49,26 +50,35 @@ object ManagerBoot extends App with Logging {
     
     logger.info(s"Using docker client config: ${ReflectionUtils.prettyPrint(dockerClientConfig)}")
 
+    val discoveryHub = DiscoveryHub.observed[IO].unsafeRunSync()
     val managerRepositories = new ManagerRepositories[IO](configuration)
-    val managerServices = new ManagerServices[IO](managerRepositories, configuration, dockerClient, dockerClientConfig)
+    val managerServices = new ManagerServices[IO](
+      discoveryHub,
+      managerRepositories,
+      configuration,
+      dockerClient,
+      dockerClientConfig
+    )
+    
+    
     val httpApi = new HttpApiServer(managerRepositories, managerServices, configuration)
-//    val grpcApi = GrpcApiServer(managerRepositories, managerServices, configuration)
+    val grpcApi = DiscoveryGrpc.server(discoveryHub, configuration.application.grpcPort)
 
-    httpApi.start // fire and forget?
-//    grpcApi.start()
+    httpApi.start() // fire and forget?
+    grpcApi.start()
 
     sys addShutdownHook {
-//      grpcApi.shutdown()
+      grpcApi.shutdown()
       logger.info("Stopping all contexts")
       system.terminate()
-//      try {
-//        grpcApi.awaitTermination(30, TimeUnit.SECONDS)
-//        Await.ready(system.whenTerminated, Duration(30, TimeUnit.SECONDS))
-//      } catch {
-//        case e: Throwable =>
-//          logger.error("Error on terminate", e)
-//          sys.exit(1)
-//      }
+      try {
+        grpcApi.awaitTermination(30, TimeUnit.SECONDS)
+        Await.ready(system.whenTerminated, Duration(30, TimeUnit.SECONDS))
+      } catch {
+        case e: Throwable =>
+          logger.error("Error on terminate", e)
+          sys.exit(1)
+      }
     }
 
     logger.info(s"Started http service on port: ${configuration.application.port} and grpc service on ${configuration.application.grpcPort}")

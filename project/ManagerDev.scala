@@ -11,9 +11,6 @@ object ManagerDev {
   lazy val pgImage = "postgres:9.6-alpine"
   lazy val pgName = "hs-dev-pg"
 
-  lazy val sidecarImage = "hydrosphere/serving-sidecar:latest"
-  lazy val sidecarName = "hs-dev-sidecar"
-
   lazy val uiImage = "hydrosphere/serving-manager-ui:api-v2"
   lazy val uiName = "hs-dev-ui"
 
@@ -32,16 +29,6 @@ object ManagerDev {
         .env("POSTGRES_USER", "docker")
         .env("POSTGRES_PASSWORD", "docker")
         .exposePort(5432, 5432)
-
-      val sidecar = DockerOpts(sidecarImage, sidecarName)
-        .env("MANAGER_HOST", ip)
-        .env("HOST_PRIVATE_IP", ip)
-        .env("MANAGER_PORT", "9091")
-        .env("SERVICE_ID", "-20")
-        .env("SERVICE_NAME", "manager")
-        .exposePort(8080, 8080)
-        .exposePort(8081, 8081)
-        .exposePort(8082, 8082)
 
       val gateway = DockerOpts(gatewayImage, gatewayName)
         .env("SIDECAR_HOST", ip)
@@ -62,7 +49,6 @@ object ManagerDev {
       }
 
       start(pg)
-      start(sidecar)
       start(ui)
       start(gateway)
     },
@@ -79,7 +65,6 @@ object ManagerDev {
       }
       stop(pgName)
       stop(uiName)
-      stop(sidecarName)
       stop(gatewayName)
     },
     devRun := {

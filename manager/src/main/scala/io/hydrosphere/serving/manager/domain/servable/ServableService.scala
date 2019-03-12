@@ -27,7 +27,7 @@ object ServableService {
   def apply[F[_] : Sync](
     cloudDriver: CloudDriver2[F],
     servableRepository: ServableRepository[F],
-    eventPublisher: ServableDiscoveryEventBus[F]
+//    eventPublisher: ServableDiscoveryEventBus[F]
   ): ServableService[F] = new ServableService[F] with Logging {
     private def createAndDeploy(serviceName: String, configParams: Option[Map[String, String]], modelVersion: ModelVersion): F[Servable] = {
       val dService = Servable(
@@ -45,8 +45,8 @@ object ServableService {
 
       Sync[F].onError(f) {
         case NonFatal(ex) =>
-          logger.error(ex)
-          servableRepository.delete(dService.id).map(_ => ())
+          Sync[F].delay(logger.error(ex))
+//          servableRepository.delete(dService.id).map(_ => ())
       }
     }
 
@@ -54,7 +54,7 @@ object ServableService {
       //TODO ADD validation for names manager,gateway + length + without space and special symbols
       for {
         asd <- createAndDeploy(serviceName, configParams, modelVersion)
-        _ <- eventPublisher.detected(asd)
+//        _ <- eventPublisher.detected(asd)
       } yield asd
     }
 
@@ -63,7 +63,7 @@ object ServableService {
       val f = for {
         servable <- OptionT(servableRepository.get(serviceId))
         _ <- OptionT.liftF(cloudDriver.remove(servable.serviceName, serviceId.toString))
-        _ <- OptionT.liftF(eventPublisher.removed(servable))
+//        _ <- OptionT.liftF(eventPublisher.removed(servable))
         _ <- OptionT.liftF(servableRepository.delete(serviceId))
       } yield servable
       f.value

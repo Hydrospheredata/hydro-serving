@@ -9,7 +9,7 @@ object Dependencies {
   val scalaTestVersion = "3.0.3"
   val slickPgVersion = "0.15.4"
   val awsSdkVersion = "1.11.312"
-  val servingGrpcScala = "0.2.2"
+  val servingGrpcScala = "0.2.2x"
   val catsV = "1.1.0"
   val envoyDataPlaneApi = "v1.6.0_1"
 
@@ -42,11 +42,10 @@ object Dependencies {
   )
 
   lazy val grpcDependencies = Seq(
-    "com.thesamet.scalapb" %% "scalapb-runtime-grpc" % scalapb.compiler.Version.scalapbVersion exclude("com.google.api.grpc", "proto-google-common-protos"),
-    "io.hydrosphere" %% "serving-grpc-scala" % servingGrpcScala exclude("com.google.api.grpc", "proto-google-common-protos"),
-    "io.grpc" % "grpc-netty" % scalapb.compiler.Version.grpcJavaVersion exclude("com.google.api.grpc", "proto-google-common-protos"),
-    "io.hydrosphere" %% "envoy-data-plane-api" % envoyDataPlaneApi exclude("com.google.api.grpc", "proto-google-common-protos")
-  )
+    "com.thesamet.scalapb" %% "scalapb-runtime-grpc" % scalapb.compiler.Version.scalapbVersion,
+    "io.hydrosphere" %% "serving-grpc-scala" % servingGrpcScala,
+    "io.grpc" % "grpc-netty" % scalapb.compiler.Version.grpcJavaVersion
+  ).map(_ exclude("com.google.api.grpc", "proto-google-common-protos"))
 
   lazy val testDependencies = Seq(
     "org.mockito" % "mockito-all" % "1.10.19" % "test,it",

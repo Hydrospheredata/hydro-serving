@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.api.grpc
 
 import cats.effect.Effect
-import envoy.service.discovery.v2.AggregatedDiscoveryServiceGrpc
+//import envoy.service.discovery.v2.AggregatedDiscoveryServiceGrpc
 import io.hydrosphere.serving.grpc.BuilderWrapper
 import io.hydrosphere.serving.manager.api.ManagerServiceGrpc
 import io.hydrosphere.serving.manager.{ManagerRepositories, ManagerServices}
@@ -15,6 +15,7 @@ import scala.concurrent.ExecutionContext
 //    managerServices: ManagerServices[F],
 //    managerConfiguration: ManagerConfiguration
 //  )(implicit ex: ExecutionContext) = {
+//
 //    val aggregatedDiscoveryServiceGrpc = new AggregatedDiscoveryService(managerServices.envoyGRPCDiscoveryService)
 //    val managerGrpcService = new ManagerGrpcService(managerRepositories.modelVersionRepository)
 //
