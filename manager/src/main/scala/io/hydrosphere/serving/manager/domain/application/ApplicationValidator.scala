@@ -1,7 +1,9 @@
 package io.hydrosphere.serving.manager.domain.application
 
+import cats.syntax.either._
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.domain.DomainError
+import io.hydrosphere.serving.model.api.MergeError
 import io.hydrosphere.serving.model.api.ops.ModelSignatureOps
 
 object ApplicationValidator {
@@ -34,11 +36,13 @@ object ApplicationValidator {
       val signatureName = signatures.head.signatureName
       val isSameName = signatures.forall(_.signatureName == signatureName)
       if (isSameName) {
-        Right(
-          signatures.foldRight(ModelSignature.defaultInstance) {
-            case (sig1, sig2) => ModelSignatureOps.merge(sig1, sig2)
-          }.withSignatureName(signatureName)
-        )
+        val res = signatures.foldRight(Either.right[Seq[MergeError], ModelSignature](ModelSignature.defaultInstance)) {
+          case (sig, Right(acc)) => ModelSignatureOps.merge(sig, acc)
+          case (_, x) => x
+        }
+        res
+          .right.map(_.withSignatureName(signatureName))
+          .left.map(x => DomainError.invalidRequest(s"Errors while merging signatures: $x"))
       } else {
         Left(DomainError.invalidRequest(s"Model Versions ${modelVariants.map(x => x.modelVersion.model.name + ":" + x.modelVersion.modelVersion)} have different signature names"))
       }

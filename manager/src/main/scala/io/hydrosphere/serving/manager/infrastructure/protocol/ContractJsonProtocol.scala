@@ -30,7 +30,7 @@ trait ContractJsonProtocol extends CommonJsonProtocol {
             } yield (
               name.asInstanceOf[JsString],
               fields.get("shape").map(_.asInstanceOf[JsObject]),
-              fields.get("profileType").map(_.asInstanceOf[JsString]),
+              fields.get("profile").map(_.asInstanceOf[JsString]),
               dtype.asInstanceOf[JsString]
             )
           case _ => None
@@ -60,7 +60,7 @@ trait ContractJsonProtocol extends CommonJsonProtocol {
         ModelField(
           name.value,
           shape.map(_.convertTo[TensorShapeProto]),
-          profileType.flatMap(x => DataProfileType.fromName(x.value)).getOrElse(DataProfileType.NONE),
+          profileType.flatMap(x => DataProfileType.fromName(x.value.toUpperCase)).getOrElse(DataProfileType.NONE),
           ModelField.TypeOrSubfields.Dtype(DataType.fromName(dtype.value).get)
         )
 
@@ -76,6 +76,7 @@ trait ContractJsonProtocol extends CommonJsonProtocol {
     override def write(obj: ModelField): JsValue = {
       val fields = new mutable.HashMap[String, JsValue]()
       fields += "name" -> JsString(obj.name)
+      fields += "profile" -> JsString(obj.profile.name)
       obj.shape.foreach { shape =>
         fields += "shape" -> shape.toJson
       }

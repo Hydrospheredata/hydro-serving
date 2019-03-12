@@ -6,6 +6,7 @@ import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
+import io.hydrosphere.serving.manager.data_profile_types.DataProfileType
 import io.hydrosphere.serving.manager.domain.DomainError
 import io.hydrosphere.serving.manager.domain.application._
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersion
@@ -20,14 +21,13 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
   private val uploadFile = packModel("/models/dummy_model")
   private val signature = ModelSignature(
     signatureName = "not-default-spark",
-    inputs = List(ModelField("test-input", None, ModelField.TypeOrSubfields.Dtype(DT_DOUBLE))),
-    outputs = List(ModelField("test-output", None, ModelField.TypeOrSubfields.Dtype(DT_DOUBLE)))
+    inputs = List(ModelField("test-input", None, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DT_DOUBLE))),
+    outputs = List(ModelField("test-output", None, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DT_DOUBLE)))
   )
   private val upload1 = ModelUploadMetadata(
     name = "m1",
     runtime = dummyImage,
     contract = Some(ModelContract(
-      modelName = "m1",
       signatures = List(signature)
     ))
   )
@@ -35,7 +35,6 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     name = "m2",
     runtime = dummyImage,
     contract = Some(ModelContract(
-      modelName = "m2",
       signatures = List(signature)
     ))
   )
@@ -43,7 +42,6 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     name = "m3",
     runtime = dummyImage,
     contract = Some(ModelContract(
-      modelName = "m3",
       signatures = List(signature)
     ))
   )
