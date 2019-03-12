@@ -110,7 +110,6 @@ class ValidationSpecs extends WordSpec {
         val result = validator.convert(input)
 
         assert(result.isLeft, result)
-        assert(result.left.get.message.contains("Couldn't find 'birthday' field"))
       }
 
       "nested json is incompatible with contract" in {
@@ -148,9 +147,6 @@ class ValidationSpecs extends WordSpec {
         val result = validator.convert(input)
 
         assert(result.isLeft, result)
-        val errorMsg = result.left.get.message
-        assert(errorMsg contains "Errors while validating subfields for 'person' field")
-        assert(errorMsg contains "Couldn't find 'surname' field")
       }
     }
   }

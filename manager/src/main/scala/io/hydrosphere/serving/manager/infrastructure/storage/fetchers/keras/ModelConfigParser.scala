@@ -67,7 +67,6 @@ private[keras] object ModelConfigParser extends Logging {
         config <- OptionT.fromOption(Try(modelConfigJson.parseJson.convertTo[ModelConfig]).toOption)
         signatures <- OptionT.fromOption(Try(config.toSignatures).toOption)
         contract = ModelContract(
-          modelName = name,
           signatures = signatures
         )
       } yield {

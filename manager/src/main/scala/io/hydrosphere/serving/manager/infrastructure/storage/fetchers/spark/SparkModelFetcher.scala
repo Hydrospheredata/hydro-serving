@@ -35,7 +35,7 @@ class SparkModelFetcher[F[_]: Monad](storageOps: StorageOps[F]) extends ModelFet
       signature <- processPipeline(directory.resolve("stages"), metadata)
     } yield FetcherResult(
       modelName = modelName,
-      modelContract = ModelContract(modelName, signature),
+      modelContract = ModelContract(signature),
       metadata = metadata.toMap
     )
     f.value

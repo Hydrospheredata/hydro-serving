@@ -6,7 +6,6 @@ import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.Model
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionStatus}
 import io.hydrosphere.serving.manager.domain.servable.Servable
-import io.hydrosphere.serving.model.api.ModelType
 import spray.json._
 
 

@@ -25,7 +25,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
     Seq(ModelField("in", None, typeOrSubfields = ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE))),
     Seq(ModelField("out", None, typeOrSubfields = ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE)))
   )
-  val contract = ModelContract("model", Seq(signature))
+  val contract = ModelContract(Seq(signature))
   val modelVersion = ModelVersion(
     id = 1,
     image = DockerImage("test", "t"),

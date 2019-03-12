@@ -6,6 +6,7 @@ import cats.data.OptionT
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
+import io.hydrosphere.serving.manager.data_profile_types.DataProfileType
 import io.hydrosphere.serving.manager.infrastructure.storage.StorageOps
 import io.hydrosphere.serving.onnx.onnx.TensorProto.DataType._
 import io.hydrosphere.serving.onnx.onnx._
@@ -55,7 +56,7 @@ class ONNXFetcher[F[_]: Monad](
     } yield {
       FetcherResult(
         fileName,
-        ModelContract(fileName, signatures),
+        ModelContract(signatures),
         metadata = modelMetadata(model)
       )
     }
@@ -102,6 +103,7 @@ object ONNXFetcher {
     ModelField(
       x.name,
       convertShape(x.getType.getTensorType.shape),
+      DataProfileType.NONE,
       convertType(x.getType.getTensorType.elemType)
     )
   }

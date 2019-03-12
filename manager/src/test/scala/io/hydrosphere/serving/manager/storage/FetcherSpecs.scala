@@ -7,6 +7,7 @@ import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.contract.utils.ContractBuilders
 import io.hydrosphere.serving.manager.GenericUnitTest
+import io.hydrosphere.serving.manager.data_profile_types.DataProfileType
 import io.hydrosphere.serving.manager.infrastructure.storage.StorageOps
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers._
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.keras.KerasFetcher
@@ -58,11 +59,11 @@ class FetcherSpecs extends GenericUnitTest {
         val expectedSigs = Seq(
           ModelSignature(
             "serving_default",
-            Seq(ModelField("images", TensorShape.mat(-1, 784).toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_FLOAT))),
+            Seq(ModelField("images", TensorShape.mat(-1, 784).toProto, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DataType.DT_FLOAT))),
             Seq(
-              ModelField("labels", TensorShape.vector(-1).toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_INT64)),
-              ModelField("labels2", TensorShape.vector(-1).toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_INT64)),
-              ModelField("random", TensorShape.mat(2, 3).toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_FLOAT))
+              ModelField("labels", TensorShape.vector(-1).toProto, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DataType.DT_INT64)),
+              ModelField("labels2", TensorShape.vector(-1).toProto, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DataType.DT_INT64)),
+              ModelField("random", TensorShape.mat(2, 3).toProto, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DataType.DT_FLOAT))
             )
           )
         )
@@ -91,7 +92,6 @@ class FetcherSpecs extends GenericUnitTest {
     it("should parse ONNX model") {
       ioAssert {
         val expectedContract = ModelContract(
-          "mnist",
           Seq(ModelSignature(
             "infer",
             Seq(
@@ -125,7 +125,6 @@ class FetcherSpecs extends GenericUnitTest {
     it("should parse sequential model from .h5") {
       ioAssert {
         val expectedContract = ModelContract(
-          "keras_fashion_mnist",
           Seq(ModelSignature(
             "infer",
             Seq(
@@ -152,7 +151,6 @@ class FetcherSpecs extends GenericUnitTest {
     it("should parse functional model from .h5") {
       ioAssert {
         val expectedContract = ModelContract(
-          "nonseq_model",
           Seq(ModelSignature(
             "infer",
             Seq(

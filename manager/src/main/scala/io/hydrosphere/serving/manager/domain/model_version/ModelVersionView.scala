@@ -7,7 +7,6 @@ import io.hydrosphere.serving.manager.domain.application.Application
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.Model
-import io.hydrosphere.serving.model.api.ModelType
 
 case class ModelVersionView(
   id: Long,

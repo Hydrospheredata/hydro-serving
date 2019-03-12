@@ -1,7 +1,7 @@
 package io.hydrosphere.serving.manager.domain.application
 
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.model.api.{HResult, Result}
+import io.hydrosphere.serving.manager.domain.DomainError
 import io.hydrosphere.serving.model.api.ops.ModelSignatureOps
 
 object ApplicationValidator {
@@ -21,26 +21,26 @@ object ApplicationValidator {
   }
 
   /**
-    * Checks if different ModelVariants are mergeable into signle stage.
+    * Checks if different ModelVariants are mergeable into single stage.
     *
     * @param modelVariants modelVariants
     * @return
     */
-  def inferStageSignature(modelVariants: Seq[ModelVariant]): HResult[ModelSignature] = {
+  def inferStageSignature(modelVariants: Seq[ModelVariant]): Either[DomainError, ModelSignature] = {
     if (modelVariants.isEmpty) {
-      Result.clientError("Invalid application: no stages in the graph.")
+      Left(DomainError.invalidRequest("Invalid application: no stages in the graph."))
     } else {
       val signatures = modelVariants.map(_.signature)
       val signatureName = signatures.head.signatureName
       val isSameName = signatures.forall(_.signatureName == signatureName)
       if (isSameName) {
-        Result.ok(
+        Right(
           signatures.foldRight(ModelSignature.defaultInstance) {
             case (sig1, sig2) => ModelSignatureOps.merge(sig1, sig2)
           }.withSignatureName(signatureName)
         )
       } else {
-        Result.clientError(s"Model Versions ${modelVariants.map(x => x.modelVersion.model.name + ":" + x.modelVersion.modelVersion)} have different signature names")
+        Left(DomainError.invalidRequest(s"Model Versions ${modelVariants.map(x => x.modelVersion.model.name + ":" + x.modelVersion.modelVersion)} have different signature names"))
       }
     }
   }

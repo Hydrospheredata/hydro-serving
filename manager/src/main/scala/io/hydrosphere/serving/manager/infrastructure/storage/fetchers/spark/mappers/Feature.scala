@@ -129,7 +129,7 @@ class VectorAssemblerMapper(m: SparkModelMetadata)  extends SparkMlTypeMapper(m)
     m.getParam[Seq[String]]("inputCols")
       .map{
         _.map{ col =>
-          ContractBuilders.simpleTensorModelField(col, DT_VARIANT, AnyDims())
+          ContractBuilders.simpleTensorModelField(col, DT_VARIANT, AnyDims)
         }
       }
       .getOrElse(

@@ -68,7 +68,7 @@ class TensorflowModelFetcher[F[_]: Monad](storageOps: StorageOps[F]) extends Mod
       modelName = directory.getFileName.toString
     } yield FetcherResult(
       modelName = modelName,
-      modelContract = ModelContract(modelName, signatures),
+      modelContract = ModelContract(signatures),
       metadata = parseMetadata(savedModel)
     )
     f.value

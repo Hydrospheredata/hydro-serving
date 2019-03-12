@@ -24,7 +24,6 @@ object ModelVersionMetadata {
     val contract = upload.contract
       .orElse(fetcherResult.map(_.modelContract))
       .getOrElse(ModelContract.defaultInstance)
-      .copy(modelName = upload.name)
 
     val metadata = fetcherResult.map(_.metadata).getOrElse(Map.empty) ++ upload.metadata.getOrElse(Map.empty)
 

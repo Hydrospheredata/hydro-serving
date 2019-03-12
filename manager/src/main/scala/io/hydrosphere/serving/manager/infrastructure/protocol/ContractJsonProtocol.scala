@@ -3,7 +3,6 @@ package io.hydrosphere.serving.manager.infrastructure.protocol
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.model.api.description.{ContractDescription, FieldDescription, SignatureDescription}
 import io.hydrosphere.serving.manager.data_profile_types.DataProfileType
 import io.hydrosphere.serving.tensorflow.tensor_shape.TensorShapeProto
 import io.hydrosphere.serving.tensorflow.types.DataType
@@ -16,17 +15,13 @@ trait ContractJsonProtocol extends CommonJsonProtocol {
 
   implicit val dataTypeFormat = protoEnumFormat(DataType)
 
-  implicit val fieldDescFormat = jsonFormat3(FieldDescription)
-  implicit val sigDescFormat = jsonFormat3(SignatureDescription.apply)
-  implicit val contractDescFormat = jsonFormat1(ContractDescription.apply)
-
   implicit val tensorShapeDimFormat = jsonFormat2(TensorShapeProto.Dim.apply)
   implicit val tensorShapeFormat = jsonFormat2(TensorShapeProto.apply)
 
   implicit val modelFieldFormat = new RootJsonFormat[ModelField] {
 
     object DtypeJson {
-      def unapply(arg: JsValue): Option[(JsString, Option[JsObject], JsString)] = {
+      def unapply(arg: JsValue): Option[(JsString, Option[JsObject], Option[JsString], JsString)] = {
         arg match {
           case JsObject(fields) =>
             for {
@@ -35,6 +30,7 @@ trait ContractJsonProtocol extends CommonJsonProtocol {
             } yield (
               name.asInstanceOf[JsString],
               fields.get("shape").map(_.asInstanceOf[JsObject]),
+              fields.get("profileType").map(_.asInstanceOf[JsString]),
               dtype.asInstanceOf[JsString]
             )
           case _ => None
@@ -60,14 +56,19 @@ trait ContractJsonProtocol extends CommonJsonProtocol {
     }
 
     override def read(json: JsValue): ModelField = json match {
-      case DtypeJson(name, shape, dtype) =>
-        ModelField(name.value, shape.map(_.convertTo[TensorShapeProto]), ModelField.TypeOrSubfields.Dtype(DataType.fromName(dtype.value).get))
+      case DtypeJson(name, shape, profileType, dtype) =>
+        ModelField(
+          name.value,
+          shape.map(_.convertTo[TensorShapeProto]),
+          profileType.flatMap(x => DataProfileType.fromName(x.value)).getOrElse(DataProfileType.NONE),
+          ModelField.TypeOrSubfields.Dtype(DataType.fromName(dtype.value).get)
+        )
 
       case SubfieldsJson(name, shape, subs) =>
         val subfields = ModelField.TypeOrSubfields.Subfields(
           ModelField.Subfield(subs.elements.map(read))
         )
-        ModelField(name.value, shape.map(_.convertTo[TensorShapeProto]), subfields)
+        ModelField(name.value, shape.map(_.convertTo[TensorShapeProto]), DataProfileType.NONE, subfields)
 
       case x => throw DeserializationException(s"Invalid ModelField: $x")
     }
@@ -90,7 +91,7 @@ trait ContractJsonProtocol extends CommonJsonProtocol {
   }
 
   implicit val modelSignatureFormat = jsonFormat3(ModelSignature.apply)
-  implicit val modelContractFormat = jsonFormat2(ModelContract.apply)
+  implicit val modelContractFormat = jsonFormat1(ModelContract.apply)
 }
 
 object ContractJsonProtocol extends ContractJsonProtocol

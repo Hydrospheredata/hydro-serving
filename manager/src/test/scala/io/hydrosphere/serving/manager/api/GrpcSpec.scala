@@ -12,7 +12,6 @@ import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.Model
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersionRepository, ModelVersionStatus, ModelVersion => DMV}
 import io.hydrosphere.serving.manager.grpc.entities.ModelVersion
-import io.hydrosphere.serving.model.api.ModelType
 
 import scala.collection.mutable.ListBuffer
 import scala.concurrent.Future

@@ -17,7 +17,7 @@ class UntypedMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
         ContractBuilders.simpleTensorModelField(
           label,
           DataType.DT_STRING,
-          AnyDims()
+          AnyDims
         )
       }
   }
@@ -31,7 +31,7 @@ class UntypedMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
             ContractBuilders.simpleTensorModelField(
               inputName,
               DataType.DT_STRING,
-              AnyDims()
+              AnyDims
             )
         }
       }
@@ -47,7 +47,7 @@ class UntypedMapper(m: SparkModelMetadata) extends SparkMlTypeMapper(m) {
             ContractBuilders.simpleTensorModelField(
               inputName,
               DataType.DT_STRING,
-              AnyDims()
+              AnyDims
             )
         }
       }
