@@ -7,7 +7,7 @@ import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.types.DataType
 
 private[keras] sealed trait ModelConfig {
-  def toSignatures: Seq[ModelSignature]
+  def toPredictSignature: ModelSignature
 }
 
 private[keras] object ModelConfig {
@@ -17,7 +17,7 @@ private[keras] object ModelConfig {
 
 
   case class FunctionalModel(config: FunctionalModelConfig) extends ModelConfig {
-    override def toSignatures: Seq[ModelSignature] = {
+    override def toPredictSignature: ModelSignature = {
       // first element of the array is layer name
       val inputNames = config.inputLayers.map(_.elements.head.asInstanceOf[JsString].value)
       val outputNames = config.outputLayers.map(_.elements.head.asInstanceOf[JsString].value)
@@ -28,12 +28,10 @@ private[keras] object ModelConfig {
       val inputs = inputLayers.map(_.config.field)
       val outputs = outputLayers.map(_.config.field)
 
-      Seq(
-        ModelSignature(
-          signatureName = "infer",
-          inputs = inputs,
-          outputs = outputs
-        )
+      ModelSignature(
+        signatureName = "Predict",
+        inputs = inputs,
+        outputs = outputs
       )
     }
   }
@@ -41,18 +39,16 @@ private[keras] object ModelConfig {
   case class FunctionalLayerConfig(name: String, className: String, config: LayerConfig, inboundNodes: JsArray)
 
   case class SequentialModel(config: List[SequentialLayerConfig]) extends ModelConfig {
-    override def toSignatures: Seq[ModelSignature] = {
+    override def toPredictSignature: ModelSignature = {
       val firstLayer = config.head
       val lastLayer = config.last
       val input = firstLayer.config.field
       val output = lastLayer.config.field
 
-      Seq(
-        ModelSignature(
-          signatureName = "infer",
-          inputs = Seq(input),
-          outputs = Seq(output)
-        )
+      ModelSignature(
+        signatureName = "Predict",
+        inputs = Seq(input),
+        outputs = Seq(output)
       )
     }
   }

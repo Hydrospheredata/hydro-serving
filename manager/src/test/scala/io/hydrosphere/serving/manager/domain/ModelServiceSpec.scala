@@ -35,8 +35,8 @@ class ModelServiceSpec extends GenericUnitTest {
           name = "runtime",
           tag = "latest"
         )
-        val contract = ModelContract(
-          Seq(ModelSignature(
+        val contract = ModelContract("",
+          Some(ModelSignature(
             "testSig",
             Seq(ModelField("in", TensorShape.scalar.toProto, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE))),
             Seq(ModelField("out", TensorShape.scalar.toProto, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE)))
@@ -126,8 +126,8 @@ class ModelServiceSpec extends GenericUnitTest {
           id = 1,
           name = modelName,
         )
-        val contract = ModelContract(
-          Seq(ModelSignature(
+        val contract = ModelContract("",
+          Some(ModelSignature(
             "testSig",
             Seq(ModelField("in", TensorShape.scalar.toProto, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE))),
             Seq(ModelField("out", TensorShape.scalar.toProto, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE)))
@@ -230,7 +230,7 @@ class ModelServiceSpec extends GenericUnitTest {
       }
 
       it("uploaded and fetched") {
-        val contract = ModelContract(signatures = Seq(ModelSignature(
+        val contract = ModelContract(predict = Some(ModelSignature(
           "sig", Seq.empty, Seq.empty
         )))
         val fetched = Some(FetcherResult(

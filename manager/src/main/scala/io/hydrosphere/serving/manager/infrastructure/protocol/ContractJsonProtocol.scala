@@ -92,7 +92,7 @@ trait ContractJsonProtocol extends CommonJsonProtocol {
   }
 
   implicit val modelSignatureFormat = jsonFormat3(ModelSignature.apply)
-  implicit val modelContractFormat = jsonFormat1(ModelContract.apply)
+  implicit val modelContractFormat = jsonFormat2(ModelContract.apply)
 }
 
 object ContractJsonProtocol extends ContractJsonProtocol

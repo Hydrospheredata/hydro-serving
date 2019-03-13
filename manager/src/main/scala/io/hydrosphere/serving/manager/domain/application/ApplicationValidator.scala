@@ -32,7 +32,7 @@ object ApplicationValidator {
     if (modelVariants.isEmpty) {
       Left(DomainError.invalidRequest("Invalid application: no stages in the graph."))
     } else {
-      val signatures = modelVariants.map(_.signature)
+      val signatures = modelVariants.map(_.modelVersion.modelContract.predict.get)  // FIXME predict signature must be in the contract
       val signatureName = signatures.head.signatureName
       val isSameName = signatures.forall(_.signatureName == signatureName)
       if (isSameName) {

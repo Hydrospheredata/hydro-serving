@@ -60,18 +60,22 @@ class TensorflowModelFetcher[F[_]: Monad](storageOps: StorageOps[F]) extends Mod
     val f = for {
       savedModelBytes <- OptionT(storageOps.readBytes(directory.resolve("saved_model.pb")))
       savedModel <- OptionT.fromOption(Try(SavedModel.parseFrom(savedModelBytes)).toOption)
-      signatures <- OptionT.fromOption(
-        Try(savedModel.getMetaGraphsList.asScala.flatMap { metagraph =>
-          metagraph.getSignatureDefMap.asScala.map(TensorflowModelFetcher.convertSignature).toList
-        }.toList).toOption
-      )
+      predictSignature <- OptionT.fromOption(getPredictSignature(savedModel))
       modelName = directory.getFileName.toString
     } yield FetcherResult(
       modelName = modelName,
-      modelContract = ModelContract(signatures),
+      modelContract = ModelContract(modelName, Some(predictSignature)),
       metadata = parseMetadata(savedModel)
     )
     f.value
+  }
+
+  def getPredictSignature(savedModel: SavedModel) = {  // TODO extract proper signature (Predict or default or first one)
+    Try {
+      savedModel.getMetaGraphsList.asScala.flatMap { metagraph =>
+        metagraph.getSignatureDefMap.asScala.map(TensorflowModelFetcher.convertSignature).toList
+      }.toList.head
+    }.toOption
   }
 }
 

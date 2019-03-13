@@ -52,11 +52,11 @@ class ONNXFetcher[F[_]: Monad](
       fileName = FilenameUtils.getBaseName(filePath.getFileName.toString)
       model <- OptionT.fromOption(ModelProto.validate(Files.readAllBytes(filePath)).toOption)
       graph <- OptionT.fromOption(model.graph)
-      signatures <- OptionT.fromOption(Try(ONNXFetcher.extractSignatures(graph)).toOption)
+      signature <- OptionT.fromOption(Try(ONNXFetcher.predictSignature(graph)).toOption)
     } yield {
       FetcherResult(
         fileName,
-        ModelContract(signatures),
+        ModelContract(fileName, Some(signature)),
         metadata = modelMetadata(model)
       )
     }
@@ -65,7 +65,7 @@ class ONNXFetcher[F[_]: Monad](
 }
 
 object ONNXFetcher {
-  final val signature = "infer"
+  final val signature = "Predict"
 
   def convertType(elemType: TensorProto.DataType): ModelField.TypeOrSubfields.Dtype = {
     val tfType = elemType match {
@@ -108,11 +108,11 @@ object ONNXFetcher {
     )
   }
 
-  def extractSignatures(graph: GraphProto): Seq[ModelSignature] = {
-    Seq(ModelSignature(
+  def predictSignature(graph: GraphProto): ModelSignature = {
+    ModelSignature(
       signature,
       graph.input.map(valueInfoToField),
       graph.output.map(valueInfoToField)
-    ))
+    )
   }
 }

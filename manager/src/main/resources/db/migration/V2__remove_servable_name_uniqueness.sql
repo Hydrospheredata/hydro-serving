@@ -1,1 +1,0 @@
-ALTER TABLE hydro_serving.servable DROP CONSTRAINT servable_service_name_key;

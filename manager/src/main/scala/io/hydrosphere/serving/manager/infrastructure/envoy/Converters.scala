@@ -15,7 +15,7 @@ object Converters {
     GApp(
       id = app.id,
       name = app.name,
-      contract = Option(ModelContract(Seq(app.signature))),  //TODO(bulat): change contract to signature
+      contract = Option(ModelContract("", Some(app.signature))),
       namespace = app.namespace.getOrElse(""),
       executionGraph = Option(ExecutionGraph(
         app.executionGraph.stages.zipWithIndex.map {

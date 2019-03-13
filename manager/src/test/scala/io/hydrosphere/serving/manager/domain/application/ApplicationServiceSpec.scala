@@ -25,7 +25,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
     Seq(ModelField("in", None, typeOrSubfields = ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE))),
     Seq(ModelField("out", None, typeOrSubfields = ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE)))
   )
-  val contract = ModelContract(Seq(signature))
+  val contract = ModelContract("", Some(signature))
   val modelVersion = ModelVersion(
     id = 1,
     image = DockerImage("test", "t"),
@@ -57,7 +57,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
             signature = signature.copy(signatureName = "test"),
             executionGraph = ApplicationExecutionGraph(Seq(
               PipelineStage(Seq(
-                ModelVariant(modelVersion, 100, signature)
+                ModelVariant(modelVersion, 100)
               ), signature)
             )),
             kafkaStreaming = List.empty
@@ -124,7 +124,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
             signature = signature.copy(signatureName = "test"),
             executionGraph = ApplicationExecutionGraph(Seq(
               PipelineStage(Seq(
-                ModelVariant(modelVersion, 100, signature)
+                ModelVariant(modelVersion, 100)
               ), signature)
             )),
             kafkaStreaming = List.empty
@@ -189,7 +189,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
             signature = signature.copy(signatureName = "test"),
             executionGraph = ApplicationExecutionGraph(Seq(
               PipelineStage(Seq(
-                ModelVariant(modelVersion, 100, signature)
+                ModelVariant(modelVersion, 100)
               ), signature)
             )),
             kafkaStreaming = List.empty
@@ -268,7 +268,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
             signature = signature.copy(signatureName = "test"),
             executionGraph = ApplicationExecutionGraph(Seq(
               PipelineStage(Seq(
-                ModelVariant(modelVersion, 100, signature)
+                ModelVariant(modelVersion, 100)
               ), signature)
             )),
             kafkaStreaming = List.empty
@@ -284,7 +284,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
             signature = signature.copy(signatureName = "test"),
             executionGraph = ApplicationExecutionGraph(Seq(
               PipelineStage(Seq(
-                ModelVariant(modelVersion, 100, signature)
+                ModelVariant(modelVersion, 100)
               ), signature)
             )),
             kafkaStreaming = List.empty

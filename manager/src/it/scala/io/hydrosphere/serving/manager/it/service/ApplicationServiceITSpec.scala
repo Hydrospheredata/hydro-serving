@@ -28,21 +28,21 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     name = "m1",
     runtime = dummyImage,
     contract = Some(ModelContract(
-      signatures = List(signature)
+      predict = Some(signature)
     ))
   )
   private val upload2 = ModelUploadMetadata(
     name = "m2",
     runtime = dummyImage,
     contract = Some(ModelContract(
-      signatures = List(signature)
+      predict = Some(signature)
     ))
   )
   private val upload3 = ModelUploadMetadata(
     name = "m3",
     runtime = dummyImage,
     contract = Some(ModelContract(
-      signatures = List(signature)
+      predict = Some(signature)
     ))
   )
 
@@ -71,12 +71,11 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         } yield {
           println(appResult)
           assert(appResult.started.name === "simple-app")
-          assert(appResult.started.signature.inputs === mv1.modelContract.signatures.head.inputs)
-          assert(appResult.started.signature.outputs === mv1.modelContract.signatures.head.outputs)
+          assert(appResult.started.signature.inputs === mv1.modelContract.predict.get.inputs)
+          assert(appResult.started.signature.outputs === mv1.modelContract.predict.get.outputs)
           val services = appResult.started.executionGraph.stages.flatMap(_.modelVariants)
           val service = services.head
           assert(service.weight === 100)
-          assert(service.signature === mv1.modelContract.signatures.head)
           assert(service.modelVersion.id === mv1.id)
         }
       }
@@ -113,12 +112,10 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
               List(
                 ModelVariant(
                   weight = 50,
-                  signature = signature,
                   modelVersion = mv1,
                 ),
                 ModelVariant(
                   weight = 50,
-                  signature = signature,
                   modelVersion = mv1,
                 )
               ),
@@ -135,10 +132,8 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           val service1 = services.head
           val service2 = services.head
           assert(service1.weight === 50)
-          assert(service1.signature.signatureName === "not-default-spark")
           assert(service1.modelVersion.id === mv1.id)
           assert(service2.weight === 50)
-          assert(service2.signature.signatureName === "not-default-spark")
           assert(service2.modelVersion.id === mv1.id)
         }
       }

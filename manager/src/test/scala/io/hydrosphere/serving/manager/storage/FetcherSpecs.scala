@@ -56,7 +56,7 @@ class FetcherSpecs extends GenericUnitTest {
   describe("Tensorflow model fetcher") {
     it("should parse correct tensorflow model") {
       ioAssert {
-        val expectedSigs = Seq(
+        val expectedSigs = Some(
           ModelSignature(
             "serving_default",
             Seq(ModelField("images", TensorShape.mat(-1, 784).toProto, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DataType.DT_FLOAT))),
@@ -71,7 +71,7 @@ class FetcherSpecs extends GenericUnitTest {
         fetcher.fetch(getModel("tensorflow_model")).map { modelResult =>
           modelResult shouldBe defined
           val model = modelResult.get
-          assert(model.modelContract.signatures === expectedSigs)
+          assert(model.modelContract.predict === expectedSigs)
           assert(model.metadata === Map(
             "0/tagsCount" -> "1",
             "0/tensorflowGitVersion" -> "b'unknown'",
@@ -91,9 +91,9 @@ class FetcherSpecs extends GenericUnitTest {
   describe("ONNX fetcher") {
     it("should parse ONNX model") {
       ioAssert {
-        val expectedContract = ModelContract(
-          Seq(ModelSignature(
-            "infer",
+        val expectedContract = ModelContract("mnist",
+          Some(ModelSignature(
+            "Predict",
             Seq(
               ContractBuilders.simpleTensorModelField("Input73", DataType.DT_FLOAT, TensorShape.mat(1, 1, 28, 28))
             ),
@@ -124,9 +124,9 @@ class FetcherSpecs extends GenericUnitTest {
   describe("KerasFetcher") {
     it("should parse sequential model from .h5") {
       ioAssert {
-        val expectedContract = ModelContract(
-          Seq(ModelSignature(
-            "infer",
+        val expectedContract = ModelContract("keras_fashion_mnist",
+          Some(ModelSignature(
+            "Predict",
             Seq(
               ContractBuilders.simpleTensorModelField("flatten_1", DataType.DT_FLOAT, TensorShape.mat(-1, 28, 28))
             ),
@@ -150,9 +150,9 @@ class FetcherSpecs extends GenericUnitTest {
 
     it("should parse functional model from .h5") {
       ioAssert {
-        val expectedContract = ModelContract(
-          Seq(ModelSignature(
-            "infer",
+        val expectedContract = ModelContract("nonseq_model",
+          Some(ModelSignature(
+            "Predict",
             Seq(
               ContractBuilders.simpleTensorModelField("input_7", DataType.DT_FLOAT, TensorShape.mat(-1, 784))
             ),
