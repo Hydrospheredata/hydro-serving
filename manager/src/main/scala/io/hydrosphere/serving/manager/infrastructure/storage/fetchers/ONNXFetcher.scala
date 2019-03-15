@@ -28,19 +28,19 @@ class ONNXFetcher[F[_]: Monad](
 
   def modelMetadata(model: ModelProto): Map[String, String] = {
     val basic = Map(
-      "producerName" -> model.producerName,
-      "producerVersion" -> model.producerVersion,
-      "domain" -> model.domain,
-      "irVersion" -> model.irVersion.toString,
-      "modelVersion" -> model.modelVersion.toString,
-      "docString" -> model.docString,
+      "onnx.producerName" -> model.producerName,
+      "onnx.producerVersion" -> model.producerVersion,
+      "onnx.domain" -> model.domain,
+      "onnx.irVersion" -> model.irVersion.toString,
+      "onnx.modelVersion" -> model.modelVersion.toString,
+      "onnx.docString" -> model.docString,
     ).mapValues(_.trim)
       .filter { // filter proto default strings
         case (_, s) => s.nonEmpty
       }
 
     val props = model.metadataProps.map { x =>
-      x.key -> x.value
+      ("onnx.metadata." + x.key) -> x.value
     }.toMap
 
     basic ++ props

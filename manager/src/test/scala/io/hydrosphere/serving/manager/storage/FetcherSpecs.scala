@@ -43,10 +43,10 @@ class FetcherSpecs extends GenericUnitTest {
           model shouldBe defined
           assert(model.get.modelName === "spark_model")
           assert(model.get.metadata === Map(
-            "class" -> "org.apache.spark.ml.PipelineModel",
-            "timestamp" -> "1497440372794",
-            "sparkVersion" -> "2.1.1",
-            "uid" -> "PipelineModel_4ccbbca3d107857d3ed8"
+            "sparkml.class" -> "org.apache.spark.ml.PipelineModel",
+            "sparkml.timestamp" -> "1497440372794",
+            "sparkml.sparkVersion" -> "2.1.1",
+            "sparkml.uid" -> "PipelineModel_4ccbbca3d107857d3ed8"
           ))
         }
       }
@@ -73,15 +73,15 @@ class FetcherSpecs extends GenericUnitTest {
           val model = modelResult.get
           assert(model.modelContract.predict === expectedSigs)
           assert(model.metadata === Map(
-            "0/tagsCount" -> "1",
-            "0/tensorflowGitVersion" -> "b'unknown'",
-            "0/strippedDefaultAttrs" -> "false",
-            "0/serializedSize" -> "55589",
-            "0/assetFilesCount" -> "0",
-            "0/signatureCount" -> "1",
-            "0/tensorflowVersion" -> "1.1.0",
-            "metaGraphsCount" -> "1",
-            "0/collectionsCount" -> "4"
+            "tensorflow.metaGraph[0].tagsCount" -> "1",
+            "tensorflow.metaGraph[0].tensorflowGitVersion" -> "b'unknown'",
+            "tensorflow.metaGraph[0].strippedDefaultAttrs" -> "false",
+            "tensorflow.metaGraph[0].serializedSize" -> "55589",
+            "tensorflow.metaGraph[0].assetFilesCount" -> "0",
+            "tensorflow.metaGraph[0].signatureCount" -> "1",
+            "tensorflow.metaGraph[0].tensorflowVersion" -> "1.1.0",
+            "tensorflow.metaGraphsCount" -> "1",
+            "tensorflow.metaGraph[0].collectionsCount" -> "4"
           ))
         }
       }
@@ -111,10 +111,10 @@ class FetcherSpecs extends GenericUnitTest {
           assert(metadata.modelName === "mnist")
           assert(metadata.modelContract === expectedContract)
           assert(metadata.metadata === Map(
-            "producerVersion" -> "2.4",
-            "producerName" -> "CNTK",
-            "modelVersion" -> "1",
-            "irVersion" -> "3"
+            "onnx.producerVersion" -> "2.4",
+            "onnx.producerName" -> "CNTK",
+            "onnx.modelVersion" -> "1",
+            "onnx.irVersion" -> "3"
           ))
         }
       }
