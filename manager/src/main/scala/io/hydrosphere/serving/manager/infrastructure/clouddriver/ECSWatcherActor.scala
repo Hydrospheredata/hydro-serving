@@ -222,7 +222,7 @@ class ECSWatcherActor[F[_]: Effect](
       LABEL_SERVICE_NAME -> service.serviceName
     )
 
-    val envMap = service.configParams ++ Map(
+    val envMap = Map(
       ENV_MODEL_DIR -> DEFAULT_MODEL_DIR.toString,
       ENV_APP_PORT -> DEFAULT_APP_PORT.toString,
       ENV_SIDECAR_HOST -> "ECS", //We have to implement this inside runtime container (http://169.254.169.254/latest/meta-data/local-ipv4)

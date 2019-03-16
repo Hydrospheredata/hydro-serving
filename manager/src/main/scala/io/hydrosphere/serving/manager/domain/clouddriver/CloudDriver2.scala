@@ -2,7 +2,7 @@ package io.hydrosphere.serving.manager.domain.clouddriver
 
 import cats.effect.Sync
 import io.hydrosphere.serving.manager.config.CloudDriverConfiguration
-import io.hydrosphere.serving.manager.domain.servable.Servable
+import io.hydrosphere.serving.manager.domain.servable.{Servable, ServableData}
 
 final case class ServingInstance(
   name: String,
@@ -13,11 +13,11 @@ final case class ServingInstance(
 
 trait CloudDriver2[F[_]] {
   
-  def instances: F[List[ServingInstance]]
+  def instances: F[List[Servable]]
   
-  def instance(name: String, id: String): F[Option[ServingInstance]]
+  def instance(name: String, id: String): F[Option[Servable]]
   
-  def run(servable: Servable): F[ServingInstance]
+  def run(servable: ServableData): F[Servable]
   
   def remove(name: String, id: String): F[Unit]
 }

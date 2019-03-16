@@ -7,7 +7,7 @@ import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.{ListContainersParam, RemoveContainerParam}
 import com.spotify.docker.client.messages._
 import io.hydrosphere.serving.manager.config.CloudDriverConfiguration
-import io.hydrosphere.serving.manager.domain.servable.Servable
+import io.hydrosphere.serving.manager.domain.servable.{Servable, ServableData}
 
 import scala.collection.JavaConverters._
 
@@ -36,12 +36,12 @@ class DockerDriver2[F[_]](
   override def instance(name: String, id: String): F[Option[ServingInstance]] =
     containerOf(name, id).map(_.flatMap(containerToInstance))
   
-  override def run(servable: Servable): F[ServingInstance] = {
-    val container = Internals.mkContainerConfig(servable, config)
+  override def run(data: ServableData): F[Servable] = {
+    val container = Internals.mkContainerConfig(data, config)
     for {
       creation <- client.createContainer(container, None)
       _        <- client.runContainer(creation.id())
-      maybeOut <- instance(servable.serviceName, servable.id.toString)
+      maybeOut <- instance(data.serviceName, data.id.toString)
       out      <- maybeOut match {
         case Some(v) => F.pure(v)
         case None =>
@@ -49,7 +49,7 @@ class DockerDriver2[F[_]](
             case Some(l) => l.asScala.mkString("\n")
             case None => ""
           }
-          val msg = s"Running docker container for ${servable.id} failed. Warnings: \n $warnings"
+          val msg = s"Running docker container for ${data.id} failed. Warnings: \n $warnings"
           F.raiseError(new RuntimeException(msg))
       }
     } yield out
@@ -111,7 +111,7 @@ object DockerDriver2 {
         Labels.ServiceName -> servable.serviceName,
         Labels.ServiceId -> servable.id.toString
       )
-      val envMap = servable.configParams ++ Map(
+      val envMap = Map(
         DefaultConstants.ENV_MODEL_DIR -> DefaultConstants.DEFAULT_MODEL_DIR.toString,
         DefaultConstants.ENV_APP_PORT -> DefaultConstants.DEFAULT_APP_PORT.toString,
         DefaultConstants.LABEL_SERVICE_ID -> servable.id.toString

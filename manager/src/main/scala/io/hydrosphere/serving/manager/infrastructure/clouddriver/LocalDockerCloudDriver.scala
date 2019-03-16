@@ -44,7 +44,7 @@ class LocalDockerCloudDriver[F[_]: Async](
         DefaultConstants.LABEL_SERVICE_ID -> service.id.toString
       )
 
-      val envMap = service.configParams ++ Map(
+      val envMap = Map(
         DefaultConstants.ENV_MODEL_DIR -> DefaultConstants.DEFAULT_MODEL_DIR.toString,
         DefaultConstants.ENV_APP_PORT -> DefaultConstants.DEFAULT_APP_PORT.toString,
         DefaultConstants.ENV_SIDECAR_HOST -> sidecarConfig.host,
@@ -208,7 +208,7 @@ class LocalDockerCloudDriver[F[_]: Async](
       cfg.host,
       cfg.port
     )
-  
+
   private def createProfilerCloudService(cfg: LocalDockerCloudDriverServiceConfiguration): CloudService =
     createSystemCloudService(
       DefaultConstants.PROFILER_NAME,

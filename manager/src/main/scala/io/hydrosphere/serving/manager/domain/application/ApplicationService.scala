@@ -46,9 +46,15 @@ object ApplicationService {
     servableRepo: ServableRepository[F],
     discoveryHub: DiscoveryHub[F]
   )(implicit ex: ExecutionContext): ApplicationService[F] = new ApplicationService[F] with Logging {
-    def composeApp(name: String, namespace: Option[String], executionGraph: ExecutionGraphRequest, kafkaStreaming: Option[Seq[ApplicationKafkaStream]]) = {
+    
+    def composeApp(
+      name: String,
+      namespace: Option[String],
+      executionGraph: ExecutionGraphRequest,
+      kafkaStreaming: Option[Seq[ApplicationKafkaStream]]
+    ) = {
       for {
-        _ <- EitherT(checkApplicationName(name))
+        _  <- EitherT(checkApplicationName(name))
         graph <- EitherT(inferGraph(executionGraph))
         signature <- EitherT.fromOption(ApplicationValidator.inferPipelineSignature(name, graph), DomainError.invalidRequest("Incompatible application stages"))(Concurrent[F])
       } yield composeInitApp(name, namespace, graph, signature, kafkaStreaming.getOrElse(List.empty))
@@ -63,7 +69,7 @@ object ApplicationService {
       f.value
     }
 
-    def startServices(application: Application, versions: Seq[ModelVersion]) = {
+    private def startServices(application: Application, versions: Seq[ModelVersion]) = {
       val finished = for {
         _ <- servableService.deployModelVersions(versions.toSet)
         finishedApp = application.copy(status = ApplicationStatus.Ready)

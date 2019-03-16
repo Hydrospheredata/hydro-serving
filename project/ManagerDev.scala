@@ -30,10 +30,10 @@ object ManagerDev {
         .env("POSTGRES_PASSWORD", "docker")
         .exposePort(5432, 5432)
 
-      val gateway = DockerOpts(gatewayImage, gatewayName)
-        .env("SIDECAR_HOST", ip)
-        .exposePort(29091, 9091)
-        .exposePort(29090, 9090)
+//      val gateway = DockerOpts(gatewayImage, gatewayName)
+//        .env("SIDECAR_HOST", ip)
+//        .exposePort(29091, 9091)
+//        .exposePort(29090, 9090)
 
       val ui = DockerOpts(uiImage, uiName)
         .env("MANAGER_HOST", ip + ":9090")
@@ -50,7 +50,7 @@ object ManagerDev {
 
       start(pg)
       start(ui)
-      start(gateway)
+//      start(gateway)
     },
     cleanDockerEnv := {
       def stop(name: String): Unit = {
@@ -82,7 +82,6 @@ object ManagerDev {
         "-Dmanager.advertised-port=9091",
         s"-Dlocal-storage.path=${modelsDir.getAbsolutePath}",
         s"-Dlocal-storage.name=localStorage",
-        "-Dcloud-driver=local" ,
         s"-Dcloud-driver.gateway.host=${hostIp.value}",
         s"-Dcloud-driver.gateway.port=29091",
         s"-Dcloud-driver.gateway.http-port=29090"

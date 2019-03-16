@@ -42,7 +42,7 @@ class DbServableRepositorySpec extends FullIntegrationSpec {
             statusText = "Ok",
             configParams = Map.empty
           )
-          servableResult <- managerRepositories.servableRepository.create(servable)
+          servableResult <- managerRepositories.servableRepository.update(servable)
         } yield {
           println(servableResult)
           assert(servableResult.id === 1)

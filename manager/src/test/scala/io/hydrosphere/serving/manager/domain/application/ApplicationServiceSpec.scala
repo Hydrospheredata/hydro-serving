@@ -69,7 +69,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
         val servableRepo = mock[ServableRepository[IO]]
         when(servableRepo.fetchByIds(Seq(1))).thenReturn(IO(Seq.empty))
         val servableService = new ServableService[IO] {
-          override def delete(serviceId: Long): IO[Option[Servable]] = ???
+          override def stop(serviceId: Long): IO[Option[Servable]] = ???
           override def deleteServables(services: List[Long]): IO[List[Servable]] = ???
           override def create(servableName: String, configParams: Option[Map[String, String]], modelVersion: ModelVersion): IO[Servable] = ???
           override def deployModelVersions(modelVersions: Set[ModelVersion]): IO[List[Servable]] = {
@@ -134,7 +134,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
         when(versionRepo.get(1)).thenReturn(IO(Some(modelVersion)))
         when(versionRepo.get(Seq(1L))).thenReturn(IO(Seq(modelVersion)))
         val servableService = new ServableService[IO] {
-          override def delete(serviceId: Long): IO[Option[Servable]] = ???
+          override def stop(serviceId: Long): IO[Option[Servable]] = ???
 
           override def deleteServables(services: List[Long]): IO[List[Servable]] = ???
 
@@ -199,7 +199,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
         when(versionRepo.get(1)).thenReturn(IO(Some(modelVersion)))
         when(versionRepo.get(Seq(1L))).thenReturn(IO(Seq(modelVersion)))
         val servableService = new ServableService[IO] {
-          override def delete(serviceId: Long): IO[Option[Servable]] = ???
+          override def stop(serviceId: Long): IO[Option[Servable]] = ???
           override def deleteServables(services: List[Long]): IO[List[Servable]] = ???
           override def create(servableName: String, configParams: Option[Map[String, String]], modelVersion: ModelVersion): IO[Servable] = IO(Servable(
             id = 1,
@@ -298,7 +298,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
         when(versionRepo.get(Matchers.any[Seq[Long]]())).thenReturn(IO(Seq(modelVersion)))
 
         val servableService = new ServableService[IO] {
-          override def delete(serviceId: Long): IO[Option[Servable]] = ???
+          override def stop(serviceId: Long): IO[Option[Servable]] = ???
 
           override def deleteServables(services: List[Long]): IO[List[Servable]] = IO.pure(List.empty)
 
