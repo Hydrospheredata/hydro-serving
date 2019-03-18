@@ -23,7 +23,7 @@ trait ObservedDiscoveryHub[F[_]] extends DiscoveryHub[F] {
 object DiscoveryHub {
   
   private case class State[F[_]](
-    apps: Map[Long, ServingApp],
+    apps: Map[String, ServingApp],
     observers: Map[String, AppsObserver[F]]
   )
   private object State {
@@ -64,12 +64,26 @@ object DiscoveryHub {
           case DiscoveryEvent.AppStarted(app) => (o: AppsObserver[F]) => o.added(app)
         }
         
-        val op = for {
-          st <- ref.get
-          _  <- st.observers.values.toList.traverse(o => notify(o))
-        } yield {
-          println(s"YOYO $e")
+        val update = e match {
+          case DiscoveryEvent.AppRemoved(id) =>
+            (st: State[F]) => {
+              val filtered = st.apps.filter(_._1 != id.toString)
+              st.copy(apps = filtered)
+            }
+          case DiscoveryEvent.AppStarted(app) =>
+            (st: State[F]) => {
+              val added = st.apps + (app.id -> app)
+              st.copy(apps = added)
+            }
         }
+        
+        val op = for {
+          state <- ref.modify(st => {
+            val next = update(st)
+            (next, next)
+          })
+          _  <- state.observers.values.toList.traverse(o => notify(o))
+        } yield ()
         
         useLock(op)
       }

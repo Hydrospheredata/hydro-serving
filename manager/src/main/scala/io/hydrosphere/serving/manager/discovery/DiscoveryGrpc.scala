@@ -25,18 +25,18 @@ object DiscoveryGrpc {
     discoveryHub: ObservedDiscoveryHub[F])(
     implicit F: Effect[F]
   ) extends ServingDiscovery with Logging {
+  
+    private def runSync[A](f: => F[A]): A = F.toIO(f).unsafeRunSync()
     
     override def watch(observer: StreamObserver[WatchResp]): StreamObserver[WatchReq] = {
       val id = UUID.randomUUID().toString
       
+      val obs = AppsObserver.grpc[F](observer)
+      runSync(discoveryHub.register(id, obs))
+      
       new StreamObserver[WatchReq] {
         
-        private def runSync[A](f: => F[A]): A = F.toIO(f).unsafeRunSync()
-        
-        override def onNext(value: WatchReq): Unit = {
-          val obs = AppsObserver.grpc[F](observer)
-          runSync(discoveryHub.register(id, obs))
-        }
+        override def onNext(value: WatchReq): Unit = ()
         
         override def onError(t: Throwable): Unit = {
           logger.error("Client stream failed", t)
