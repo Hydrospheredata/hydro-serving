@@ -10,6 +10,7 @@ import akka.stream.ActorMaterializer
 import cats.effect.Effect
 import ch.megard.akka.http.cors.scaladsl.CorsDirectives
 import ch.megard.akka.http.cors.scaladsl.settings.CorsSettings
+import io.hydrosphere.serving.BuildInfo
 import io.hydrosphere.serving.manager.api.http.controller.host_selector.HostSelectorController
 import io.hydrosphere.serving.manager.api.http.controller.{AkkaHttpControllerDsl, ApplicationController, SwaggerDocController}
 import io.hydrosphere.serving.manager.{ManagerRepositories, ManagerServices}
@@ -71,7 +72,8 @@ class HttpApiServer[F[_]: Effect](
   ) {
     pathPrefix("health") { complete("OK") } ~
     pathPrefix("api") {
-      controllerRoutes
+      controllerRoutes ~
+        pathPrefix("buildinfo") { complete(BuildInfo.toJson) }
     } ~ pathPrefix("swagger") {
       path(Segments) { segs =>
         val path = segs.mkString("/")

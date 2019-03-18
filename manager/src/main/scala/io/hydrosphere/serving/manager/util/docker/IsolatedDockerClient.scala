@@ -28,6 +28,11 @@ class IsolatedDockerClient private(val builder: DefaultDockerClient.Builder) ext
     image
   }
 
+  override def removeContainer(containerId: String, params: RemoveContainerParam*): Unit = {
+    super.removeContainer(containerId, params: _*)
+    containerStorage.remove(containerId)
+  }
+
   override def createContainer(config: ContainerConfig, name: String): ContainerCreation = {
     val creation = super.createContainer(config, name)
     containerStorage.add(creation.id)

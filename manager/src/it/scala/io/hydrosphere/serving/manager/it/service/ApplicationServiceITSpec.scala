@@ -234,6 +234,34 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         }
       }
     }
+
+    it("should delete unused servables after deletion") {
+      eitherTAssert {
+        val create = CreateApplicationRequest(
+          "simple-app",
+          None,
+          ExecutionGraphRequest(List(
+            PipelineStageRequest(
+              Seq(ModelVariantRequest(
+                modelVersionId = mv1.id,
+                weight = 100,
+                signatureName = "not-default-spark"
+              ))
+            ))
+          ),
+          Option.empty
+        )
+        for {
+          appResult <- EitherT(managerServices.appService.create(create))
+          _ <- EitherT.liftF(appResult.completed.get)
+          _ <- EitherT.liftF(IO.pure(Thread.sleep(10000)))
+          _ <- EitherT(managerServices.appService.delete(appResult.started.name))
+          servables <- EitherT.liftF(managerRepositories.servableRepository.all())
+        } yield {
+          assert(servables.isEmpty)
+        }
+      }
+    }
   }
 
   override def beforeAll(): Unit = {
