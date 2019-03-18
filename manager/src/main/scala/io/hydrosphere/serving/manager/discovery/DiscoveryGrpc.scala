@@ -31,7 +31,7 @@ object DiscoveryGrpc {
       
       new StreamObserver[WatchReq] {
         
-        def runSync[A](f: => F[A]): A = F.toIO(f).unsafeRunSync()
+        private def runSync[A](f: => F[A]): A = F.toIO(f).unsafeRunSync()
         
         override def onNext(value: WatchReq): Unit = {
           val obs = AppsObserver.grpc[F](observer)

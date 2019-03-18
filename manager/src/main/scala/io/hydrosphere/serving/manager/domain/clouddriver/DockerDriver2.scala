@@ -121,7 +121,8 @@ object DockerDriver2 {
   
       val labels = Map(
         Labels.ServiceName -> name,
-        Labels.ServiceId -> id.toString
+        Labels.ServiceId -> id.toString,
+        Labels.ModelVersionId -> modelVersionId.toString
       )
       val envMap = Map(
         DefaultConstants.ENV_MODEL_DIR -> DefaultConstants.DEFAULT_MODEL_DIR.toString,

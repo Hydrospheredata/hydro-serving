@@ -67,7 +67,9 @@ object DiscoveryHub {
         val op = for {
           st <- ref.get
           _  <- st.observers.values.toList.traverse(o => notify(o))
-        } yield ()
+        } yield {
+          println(s"YOYO $e")
+        }
         
         useLock(op)
       }
