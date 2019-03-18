@@ -1,15 +1,16 @@
 package io.hydrosphere.serving.manager.domain.clouddriver
 
 import cats._
-import cats.effect.Sync
 import cats.implicits._
 import com.spotify.docker.client.DockerClient
 import com.spotify.docker.client.DockerClient.{ListContainersParam, RemoveContainerParam}
 import com.spotify.docker.client.messages._
 import io.hydrosphere.serving.manager.config.CloudDriverConfiguration
-import io.hydrosphere.serving.manager.domain.servable.{Servable, ServableData}
+import io.hydrosphere.serving.manager.domain.image.DockerImage
+import io.hydrosphere.serving.manager.domain.servable.{Servable, ServableStatus}
 
 import scala.collection.JavaConverters._
+import scala.util.Try
 
 class DockerDriver2[F[_]](
   client: DockerdClient[F],
@@ -19,7 +20,7 @@ class DockerDriver2[F[_]](
   
   import DockerDriver2._
   
-  override def instances: F[List[ServingInstance]] = {
+  override def instances: F[List[Servable]] = {
     client.listContainers.map(all => {
       all.map(containerToInstance).collect({ case Some(v) => v })
     })
@@ -33,15 +34,20 @@ class DockerDriver2[F[_]](
     client.listContainers(query).map(_.headOption)
   }
   
-  override def instance(name: String, id: String): F[Option[ServingInstance]] =
+  override def instance(name: String, id: String): F[Option[Servable]] =
     containerOf(name, id).map(_.flatMap(containerToInstance))
   
-  override def run(data: ServableData): F[Servable] = {
-    val container = Internals.mkContainerConfig(data, config)
+  override def run(
+    id: Long,
+    name: String,
+    modelVersionId: Long,
+    image: DockerImage
+  ): F[Servable] = {
+    val container = Internals.mkContainerConfig(id, name, modelVersionId, image, config)
     for {
       creation <- client.createContainer(container, None)
       _        <- client.runContainer(creation.id())
-      maybeOut <- instance(data.serviceName, data.id.toString)
+      maybeOut <- instance(name, id.toString)
       out      <- maybeOut match {
         case Some(v) => F.pure(v)
         case None =>
@@ -49,7 +55,7 @@ class DockerDriver2[F[_]](
             case Some(l) => l.asScala.mkString("\n")
             case None => ""
           }
-          val msg = s"Running docker container for ${data.id} failed. Warnings: \n $warnings"
+          val msg = s"Running docker container for ${id} failed. Warnings: \n $warnings"
           F.raiseError(new RuntimeException(msg))
       }
     } yield out
@@ -70,15 +76,17 @@ class DockerDriver2[F[_]](
     } yield ()
   }
   
-  private def containerToInstance(c: Container): Option[ServingInstance] = {
+  private def containerToInstance(c: Container): Option[Servable] = {
     val labels = c.labels().asScala
   
-    val mId = labels.get(Labels.ServiceId)
+    val mId = labels.get(Labels.ServiceId).flatMap(i => Try(i.toLong).toOption)
     val mName = labels.get(Labels.ServiceName)
+    val mMvId = labels.get(Labels.ModelVersionId).flatMap(i => Try(i.toLong).toOption)
   
-    (mId, mName).mapN((id, name) => {
+    (mId, mName, mMvId).mapN((id, name, mvId) => {
       val host = Internals.extractIpAddress(c.networkSettings(), config.networkName)
-      ServingInstance(name, id, host, DefaultConstants.DEFAULT_APP_PORT)
+      val status = ServableStatus.Running(host, DefaultConstants.DEFAULT_APP_PORT)
+      Servable(id, mvId, name, status)
     })
   }
   
@@ -89,13 +97,17 @@ object DockerDriver2 {
   
   object Labels {
     val ServiceName = "HS_INSTANCE_NAME"
+    val ModelVersionId = "HS_INSTANCE_MV_ID"
     val ServiceId = "HS_INSTANCE_ID"
   }
   
   object Internals {
-    
+  
     def mkContainerConfig(
-      servable: Servable,
+      id: Long,
+      name: String,
+      modelVersionId: Long,
+      image: DockerImage,
       dockerConf: CloudDriverConfiguration.Docker
     ): ContainerConfig = {
       val hostConfig = {
@@ -108,19 +120,19 @@ object DockerDriver2 {
       }
   
       val labels = Map(
-        Labels.ServiceName -> servable.serviceName,
-        Labels.ServiceId -> servable.id.toString
+        Labels.ServiceName -> name,
+        Labels.ServiceId -> id.toString
       )
       val envMap = Map(
         DefaultConstants.ENV_MODEL_DIR -> DefaultConstants.DEFAULT_MODEL_DIR.toString,
         DefaultConstants.ENV_APP_PORT -> DefaultConstants.DEFAULT_APP_PORT.toString,
-        DefaultConstants.LABEL_SERVICE_ID -> servable.id.toString
+        DefaultConstants.LABEL_SERVICE_ID -> id.toString
       )
   
       val envs = envMap.map({ case (k, v) => s"$k=$v"}).toList.asJava
   
       ContainerConfig.builder()
-        .image(servable.modelVersion.image.fullName)
+        .image(image.fullName)
         .exposedPorts(DefaultConstants.DEFAULT_APP_PORT.toString)
         .labels(labels.asJava)
         .hostConfig(hostConfig)

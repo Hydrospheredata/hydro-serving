@@ -2,19 +2,17 @@ package io.hydrosphere.serving.manager.discovery
 
 import cats._
 import cats.implicits._
-
 import cats.effect.{Concurrent, Sync}
 import cats.effect.concurrent.{Ref, Semaphore}
-
 import cats.effect.implicits._
-
+import io.hydrosphere.serving.discovery.serving.ServingApp
 import io.hydrosphere.serving.manager.domain.application.Application
 
 trait DiscoveryHub[F[_]] {
   def update(e: DiscoveryEvent): F[Unit]
-  def added(app: Application): F[Unit] = update(DiscoveryEvent.AppStarted(app))
+  def added(app: ServingApp): F[Unit] = update(DiscoveryEvent.AppStarted(app))
   def removed(id: Long): F[Unit] = update(DiscoveryEvent.AppRemoved(id))
-  def current: F[List[Application]]
+  def current: F[List[ServingApp]]
 }
 
 trait ObservedDiscoveryHub[F[_]] extends DiscoveryHub[F] {
@@ -25,7 +23,7 @@ trait ObservedDiscoveryHub[F[_]] extends DiscoveryHub[F] {
 object DiscoveryHub {
   
   private case class State[F[_]](
-    apps: Map[Long, Application],
+    apps: Map[Long, ServingApp],
     observers: Map[String, AppsObserver[F]]
   )
   private object State {
@@ -74,7 +72,7 @@ object DiscoveryHub {
         useLock(op)
       }
   
-      override def current: F[List[Application]] = ref.get.map(_.apps.values.toList)
+      override def current: F[List[ServingApp]] = ref.get.map(_.apps.values.toList)
     }
   }
   

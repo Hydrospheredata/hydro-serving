@@ -1,20 +1,19 @@
 package io.hydrosphere.serving.manager.domain.application
 
-import cats.Traverse
-import cats.data.EitherT
+import cats._
+import cats.data._
+import cats.implicits._
+import cats.effect._
 import cats.effect.concurrent.Deferred
-import cats.effect.{Concurrent, Fiber}
 import cats.effect.implicits._
-import cats.instances.list._
-import cats.syntax.flatMap._
-import cats.syntax.functor._
+import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.manager.discovery.{DiscoveryEvent, DiscoveryHub}
+import io.hydrosphere.serving.discovery.serving.{ServingApp, Stage}
+import io.hydrosphere.serving.manager.discovery.DiscoveryHub
 import io.hydrosphere.serving.manager.domain.DomainError
 import io.hydrosphere.serving.manager.domain.DomainError.{InvalidRequest, NotFound}
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepository}
-import io.hydrosphere.serving.manager.domain.servable.{Servable, ServableRepository, ServableService}
-import io.hydrosphere.serving.manager.infrastructure.envoy.events.{ApplicationDiscoveryEventBus, DiscoveryEventBus}
+import io.hydrosphere.serving.manager.domain.servable.{Servable, ServableRepository, ServableService, ServableStatus}
 import io.hydrosphere.serving.model.api.TensorExampleGenerator
 import io.hydrosphere.serving.model.api.json.TensorJsonLens
 import org.apache.logging.log4j.scala.Logging
@@ -68,13 +67,19 @@ object ApplicationService {
       } yield jsonData
       f.value
     }
+    
+    private def deployServable(mv: ModelVersion): F[Servable] = {
+      val name = s"${mv.model.name}-${mv.id}"
+      servableService.deploy(name, mv.id, mv.image)
+    }
 
-    private def startServices(application: Application, versions: Seq[ModelVersion]) = {
+    private def startServices(application: Application, versions: Seq[ModelVersion]): F[Application] = {
       val finished = for {
-        _ <- servableService.deployModelVersions(versions.toSet)
-        finishedApp = application.copy(status = ApplicationStatus.Ready)
-        _ <- discoveryHub.added(finishedApp)
-        _ <- applicationRepository.update(finishedApp)
+        servables   <- versions.toList.traverse(deployServable)
+        finishedApp =  application.copy(status = ApplicationStatus.Ready)
+        translated  <- Concurrent[F].fromEither(Inernals.toServingApp(finishedApp, servables))
+        _           <- discoveryHub.added(translated)
+        _           <- applicationRepository.update(finishedApp)
       } yield finishedApp
 
       Concurrent[F].handleErrorWith(finished) { x =>
@@ -98,7 +103,7 @@ object ApplicationService {
       val f = for {
         app <- composeApp(appRequest.name, appRequest.namespace, appRequest.executionGraph, appRequest.kafkaStreaming)
         services <- EitherT.liftF[F, DomainError, Seq[Servable]](servableRepo.fetchByIds(keySet.toSeq))
-        existedServices = services.map(_.modelVersion.id)
+        existedServices = services.map(_.modelVersionId)
         serviceDiff = keySet -- existedServices
         versions <- EitherT.liftF[F, DomainError, Seq[ModelVersion]](versionRepository.get(serviceDiff.toSeq))
 
@@ -159,18 +164,17 @@ object ApplicationService {
     private def removeServiceIfNeeded(keysSet: Set[Long], applicationId: Long): F[Seq[Servable]] = {
       for {
         servicesToDelete <- retrieveRemovableServiceDescriptions(keysSet, applicationId)
-        deleted <- servableService.deleteServables(servicesToDelete.map(_.id))
-      } yield deleted
+        deleted <- servicesToDelete.traverse(servableService.stop)
+      } yield deleted.collect({case Some(s) => s})
     }
 
-    private def retrieveRemovableServiceDescriptions(serviceKeys: Set[Long], applicationId: Long) = {
+    private def retrieveRemovableServiceDescriptions(serviceKeys: Set[Long], applicationId: Long): F[List[Long]] = {
       for {
         apps <- applicationRepository.applicationsWithCommonServices(serviceKeys, applicationId)
         commonServiceKeys = apps.flatMap(_.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion.id))).toSet
-        services <- servableRepo.fetchByIds((serviceKeys -- commonServiceKeys).toSeq)
       } yield {
-        logger.debug(s"applicationId=$applicationId keySet=$serviceKeys getKeysNotInApplication=${apps.map(_.name)} keysSetOld=$commonServiceKeys")
-        services.toList
+        val diff = serviceKeys -- commonServiceKeys
+        diff.toList
       }
     }
 
@@ -249,6 +253,48 @@ object ApplicationService {
         applicationRepository.get(name),
         NotFound(s"Application with name $name is not found")
       ).value
+    }
+  }
+  
+  object Inernals {
+    
+    import io.hydrosphere.serving.discovery.serving.{Servable => GServable}
+    import io.hydrosphere.serving.discovery.serving.{Stage => GStage}
+    
+    def toServingApp(
+      app: Application,
+      servables: List[Servable]
+    ): Either[Throwable, ServingApp] = {
+      toGStages(app, servables).map(stages => {
+        val contract = ModelContract(
+          modelName = app.name,
+          signatures = Seq(app.signature)
+        )
+        
+        ServingApp(
+          app.id.toString,
+          app.name,
+          contract.some,
+          stages
+        )
+      })
+    }
+    
+    def toGServable(mv: ModelVariant, servables: Map[Long, Servable]): Either[Throwable, GServable] = {
+      servables.get(mv.modelVersion.id) match {
+        case Some(Servable(_, _, name, ServableStatus.Running(host, port))) => GServable(host, port, mv.weight).asRight
+        case Some(s) => new Exception(s"Invalid servable state for ${mv.modelVersion.model.name}:${mv.modelVersion.id} - $s").asLeft
+        case None => new Exception(s"Could not find servable for  ${mv.modelVersion.model.name}:${mv.modelVersion.id}").asLeft
+      }
+    }
+  
+    def toGStages(app: Application, servables: List[Servable]): Either[Throwable, List[GStage]] = {
+      val asMap = servables.map(s => s.modelVersionId -> s).toMap
+      app.executionGraph.stages.toList.zipWithIndex.traverse({
+        case (st, i) =>
+          val mapped = st.modelVariants.toList.traverse(mv => toGServable(mv, asMap))
+          mapped.map(servables => GStage(i.toString, st.signature.some, servables))
+      })
     }
   }
 }
