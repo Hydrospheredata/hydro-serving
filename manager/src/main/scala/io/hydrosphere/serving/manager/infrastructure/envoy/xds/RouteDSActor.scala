@@ -19,7 +19,7 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
 
   private val applications = mutable.Map[Long, Seq[VirtualHost]]()
 
-  private val routeTimeout = Some(Duration(69,0))
+  private val routeTimeout = Some(Duration(42069,0))
 
   private val kafkaGatewayHost = createSystemHost(GATEWAY_KAFKA_NAME)
   private val monitoringHost = createSystemHost(MONITORING_NAME)
