@@ -35,23 +35,23 @@ class TensorUtilSpec extends GenericUnitTest {
     it("should leave correct and static shape as-is") {
       val tensor = DoubleTensor(TensorShape.mat(2, 2, 3), Seq(1,2,3,4,5,6,7,8,9,10,11,12))
       val shapeRes = TensorUtil.verifyShape(tensor)
-      assert(shapeRes.isRight, shapeRes)
-      val shaped = shapeRes.right.get
+      assert(shapeRes.isDefined, shapeRes)
+      val shaped = shapeRes.get
       assert(shaped.shape === Dims(Seq(2, 2, 3)))
     }
 
     it("should fill dynamic dims and return it for correct shape") {
       val tensor = DoubleTensor(TensorShape.mat(-1, 3, 2), Seq(1,2,3,4,5,6))
       val shapeRes = TensorUtil.verifyShape(tensor)
-      assert(shapeRes.isRight, shapeRes)
-      val shaped = shapeRes.right.get
+      assert(shapeRes.isDefined, shapeRes)
+      val shaped = shapeRes.get
       assert(shaped.shape === Dims(Seq(1, 3, 2)))
     }
 
     it("should fail on incorrect shape") {
       val tensor = DoubleTensor(TensorShape.mat(-1, 3, 3), Seq(1,2,3,4,5,6,7,8,9,10))
       val shapeRes = TensorUtil.verifyShape(tensor)
-      assert(shapeRes.isLeft, shapeRes)
+      assert(shapeRes.isEmpty, shapeRes)
     }
   }
 }

@@ -196,11 +196,11 @@ object ApplicationService {
       val f = for {
         version <- EitherT.fromOptionF[F, DomainError, ModelVersion](versionRepository.get(service.modelVersionId), InvalidRequest(s"Can't find model version with id ${service.modelVersionId}"))
         signature <- EitherT.fromOption.apply[DomainError, ModelSignature](
-          version.modelContract.signatures.find(_.signatureName == service.signatureName), InvalidRequest(s"Can't find requested signature ${service.signatureName}")
+          version.modelContract.predict, InvalidRequest(s"Can't find predict signature")
         )(Concurrent[F])
       } yield List(
         PipelineStage(
-          modelVariants = List(ModelVariant(version, 100, signature)), // 100 since this is the only service in the app
+          modelVariants = List(ModelVariant(version, 100)), // 100 since this is the only service in the app
           signature = signature,
         )
       )
@@ -229,10 +229,7 @@ object ApplicationService {
       Traverse[List].traverse(services) { service =>
         for {
           version <- EitherT.fromOptionF(versionRepository.get(service.modelVersionId), DomainError.invalidRequest(s"Can't find model version with id ${service.modelVersionId}"))
-          signature <- EitherT.fromOption.apply[DomainError, ModelSignature](
-            version.modelContract.signatures.find(_.signatureName == service.signatureName), DomainError.invalidRequest(s"Can't find ${service.signatureName} signature")
-          )(Concurrent[F])
-        } yield ModelVariant(version, service.weight, signature)
+        } yield ModelVariant(version, service.weight)
       }.value
     }
 

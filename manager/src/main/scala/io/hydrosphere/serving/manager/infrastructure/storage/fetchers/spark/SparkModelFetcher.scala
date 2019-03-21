@@ -35,7 +35,7 @@ class SparkModelFetcher[F[_]: Monad](storageOps: StorageOps[F]) extends ModelFet
       signature <- processPipeline(directory.resolve("stages"), metadata)
     } yield FetcherResult(
       modelName = modelName,
-      modelContract = ModelContract(modelName, signature),
+      modelContract = ModelContract(modelName, Some(signature)),
       metadata = metadata.toMap
     )
     f.value
@@ -46,7 +46,7 @@ class SparkModelFetcher[F[_]: Monad](storageOps: StorageOps[F]) extends ModelFet
       stages <- OptionT(storageOps.getSubDirs(stagesDir))
       sM <- Traverse[List].traverse(stages)(x => getStageMetadata(stagesDir, x))
       signature <- OptionT.fromOption(Try(SparkModelFetcher.processStages(sM)).toOption)(Monad[F])
-    } yield Seq(signature)
+    } yield signature
   }
 }
 

@@ -25,7 +25,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
     Seq(ModelField("in", None, typeOrSubfields = ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE))),
     Seq(ModelField("out", None, typeOrSubfields = ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE)))
   )
-  val contract = ModelContract("model", Seq(signature))
+  val contract = ModelContract("", Some(signature))
   val modelVersion = ModelVersion(
     id = 1,
     image = DockerImage("test", "t"),
@@ -57,7 +57,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
             signature = signature.copy(signatureName = "test"),
             executionGraph = ApplicationExecutionGraph(Seq(
               PipelineStage(Seq(
-                ModelVariant(modelVersion, 100, signature)
+                ModelVariant(modelVersion, 100)
               ), signature)
             )),
             kafkaStreaming = List.empty
@@ -69,7 +69,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
         val servableRepo = mock[ServableRepository[IO]]
         when(servableRepo.fetchByIds(Seq(1))).thenReturn(IO(Seq.empty))
         val servableService = new ServableService[IO] {
-          override def delete(serviceId: Long): IO[Option[Servable]] = ???
+          override def delete(serviceId: Long): IO[Servable] = ???
           override def deleteServables(services: List[Long]): IO[List[Servable]] = ???
           override def create(servableName: String, configParams: Option[Map[String, String]], modelVersion: ModelVersion): IO[Servable] = ???
           override def deployModelVersions(modelVersions: Set[ModelVersion]): IO[List[Servable]] = {
@@ -94,8 +94,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
           PipelineStageRequest(Seq(
             ModelVariantRequest(
               modelVersionId = 1,
-              weight = 100,
-              signatureName = "claim"
+              weight = 100
             )
           ))
         ))
@@ -124,7 +123,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
             signature = signature.copy(signatureName = "test"),
             executionGraph = ApplicationExecutionGraph(Seq(
               PipelineStage(Seq(
-                ModelVariant(modelVersion, 100, signature)
+                ModelVariant(modelVersion, 100)
               ), signature)
             )),
             kafkaStreaming = List.empty
@@ -134,7 +133,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
         when(versionRepo.get(1)).thenReturn(IO(Some(modelVersion)))
         when(versionRepo.get(Seq(1L))).thenReturn(IO(Seq(modelVersion)))
         val servableService = new ServableService[IO] {
-          override def delete(serviceId: Long): IO[Option[Servable]] = ???
+          override def delete(serviceId: Long): IO[Servable] = ???
 
           override def deleteServables(services: List[Long]): IO[List[Servable]] = ???
 
@@ -159,8 +158,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
           PipelineStageRequest(Seq(
             ModelVariantRequest(
               modelVersionId = 1,
-              weight = 100,
-              signatureName = "claim"
+              weight = 100
             )
           ))
         ))
@@ -189,7 +187,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
             signature = signature.copy(signatureName = "test"),
             executionGraph = ApplicationExecutionGraph(Seq(
               PipelineStage(Seq(
-                ModelVariant(modelVersion, 100, signature)
+                ModelVariant(modelVersion, 100)
               ), signature)
             )),
             kafkaStreaming = List.empty
@@ -199,7 +197,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
         when(versionRepo.get(1)).thenReturn(IO(Some(modelVersion)))
         when(versionRepo.get(Seq(1L))).thenReturn(IO(Seq(modelVersion)))
         val servableService = new ServableService[IO] {
-          override def delete(serviceId: Long): IO[Option[Servable]] = ???
+          override def delete(serviceId: Long): IO[Servable] = ???
           override def deleteServables(services: List[Long]): IO[List[Servable]] = ???
           override def create(servableName: String, configParams: Option[Map[String, String]], modelVersion: ModelVersion): IO[Servable] = IO(Servable(
             id = 1,
@@ -232,8 +230,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
           PipelineStageRequest(Seq(
             ModelVariantRequest(
               modelVersionId = 1,
-              weight = 100,
-              signatureName = "claim"
+              weight = 100
             )
           ))
         ))
@@ -268,7 +265,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
             signature = signature.copy(signatureName = "test"),
             executionGraph = ApplicationExecutionGraph(Seq(
               PipelineStage(Seq(
-                ModelVariant(modelVersion, 100, signature)
+                ModelVariant(modelVersion, 100)
               ), signature)
             )),
             kafkaStreaming = List.empty
@@ -284,7 +281,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
             signature = signature.copy(signatureName = "test"),
             executionGraph = ApplicationExecutionGraph(Seq(
               PipelineStage(Seq(
-                ModelVariant(modelVersion, 100, signature)
+                ModelVariant(modelVersion, 100)
               ), signature)
             )),
             kafkaStreaming = List.empty
@@ -298,7 +295,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
         when(versionRepo.get(Matchers.any[Seq[Long]]())).thenReturn(IO(Seq(modelVersion)))
 
         val servableService = new ServableService[IO] {
-          override def delete(serviceId: Long): IO[Option[Servable]] = ???
+          override def delete(serviceId: Long): IO[Servable] = ???
 
           override def deleteServables(services: List[Long]): IO[List[Servable]] = IO.pure(List.empty)
 
@@ -334,8 +331,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
           PipelineStageRequest(Seq(
             ModelVariantRequest(
               modelVersionId = 1,
-              weight = 100,
-              signatureName = "claim"
+              weight = 100
             )
           ))
         ))

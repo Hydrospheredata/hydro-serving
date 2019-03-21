@@ -79,14 +79,6 @@ class DBServableRepository[F[_]: Async](
     db.run(query.update(cloudDriveId))
   }
 
-  override def getByServiceName(serviceName: String) = AsyncUtil.futureAsync {
-    db.run(
-      joinedQ
-        .filter(_._1.serviceName === serviceName)
-        .result.headOption
-    ).map(_.map(mapEntity))
-  }
-
   override def fetchByIds(ids: Seq[Long]) = AsyncUtil.futureAsync {
     if (ids.isEmpty) {
       Future.successful(Seq())
@@ -97,14 +89,6 @@ class DBServableRepository[F[_]: Async](
           .result
       ).map(_.map(mapEntity))
     }
-  }
-
-  override def fetchServices(serviceDescs: Set[Long]) = AsyncUtil.futureAsync {
-    db.run {
-      joinedQ
-        .filter(_._1.modelVersionId inSetBind serviceDescs)
-        .result
-    }.map(_.map(mapEntity))
   }
 }
 

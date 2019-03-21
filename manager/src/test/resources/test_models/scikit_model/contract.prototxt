@@ -1,5 +1,5 @@
-signatures {
-  signature_name: "claim"
+predict {
+  signature_name: "predict"
   inputs {
     name: "client_profile"
     shape: {

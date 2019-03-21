@@ -3,6 +3,11 @@ import java.io.File
 name := "manager"
 
 enablePlugins(sbtdocker.DockerPlugin)
+enablePlugins(BuildInfoPlugin)
+buildInfoKeys := Seq[BuildInfoKey](name, version, scalaVersion, sbtVersion, git.gitCurrentBranch, git.gitCurrentTags, git.gitHeadCommit)
+buildInfoPackage := "io.hydrosphere.serving"
+buildInfoOptions += BuildInfoOption.ToJson
+
 
 unmanagedSourceDirectories in Compile += sourceManaged.value
 

@@ -65,10 +65,10 @@ private[keras] object ModelConfigParser extends Logging {
     override def importModel: F[Option[FetcherResult]] = {
       val f = for {
         config <- OptionT.fromOption(Try(modelConfigJson.parseJson.convertTo[ModelConfig]).toOption)
-        signatures <- OptionT.fromOption(Try(config.toSignatures).toOption)
+        signature <- OptionT.fromOption(Try(config.toPredictSignature).toOption)
         contract = ModelContract(
           modelName = name,
-          signatures = signatures
+          predict = Some(signature)
         )
       } yield {
         FetcherResult(

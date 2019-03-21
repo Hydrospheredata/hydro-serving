@@ -2,6 +2,7 @@ package io.hydrosphere.serving.manager.domain.model
 
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
+import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
 import io.hydrosphere.serving.manager.data_profile_types.DataProfileType
 import io.hydrosphere.serving.manager.domain.DomainError.InvalidRequest
@@ -24,7 +25,6 @@ object ModelVersionMetadata {
     val contract = upload.contract
       .orElse(fetcherResult.map(_.modelContract))
       .getOrElse(ModelContract.defaultInstance)
-      .copy(modelName = upload.name)
 
     val metadata = fetcherResult.map(_.metadata).getOrElse(Map.empty) ++ upload.metadata.getOrElse(Map.empty)
 
@@ -41,22 +41,22 @@ object ModelVersionMetadata {
 
 
   def validateContract(upload: ModelVersionMetadata): Either[InvalidRequest, Unit] = {
-    if (upload.contract.signatures.isEmpty) {
-      Left(InvalidRequest("The model has no signatures"))
-    } else {
-      val inputsNotEmpty = upload.contract.signatures.forall(_.inputs.nonEmpty)
-      val outputsNotEmpty = upload.contract.signatures.forall(_.outputs.nonEmpty)
-      val inputErrors = upload.contract.signatures.flatMap(_.inputs.flatMap(validateField))
-      val outputErrors = upload.contract.signatures.flatMap(_.outputs.flatMap(validateField))
-      if (inputsNotEmpty && outputsNotEmpty) {
-        Right(())
-      } else {
-        Left(InvalidRequest(s"Error during signature validation. " +
-          s"(inputsNotEmpty=$inputsNotEmpty, " +
-          s"outputsNotEmpty=$outputsNotEmpty," +
-          s"inputErrors=$inputErrors, " +
-          s"outputErrors=$outputErrors)"))
-      }
+    upload.contract.predict match {
+      case None => Left(InvalidRequest("The model has no prediction signature"))
+      case Some(predictSignature) =>
+        val inputsNotEmpty = predictSignature.inputs.nonEmpty
+        val outputsNotEmpty = predictSignature.outputs.nonEmpty
+        val inputErrors = predictSignature.inputs.map(validateField)
+        val outputErrors = predictSignature.outputs.map(validateField)
+        if (inputsNotEmpty && outputsNotEmpty) {
+          Right(())
+        } else {
+          Left(InvalidRequest(s"Error during prediction signature validation. " +
+            s"(inputsNotEmpty=$inputsNotEmpty, " +
+            s"outputsNotEmpty=$outputsNotEmpty," +
+            s"inputErrors=$inputErrors, " +
+            s"outputErrors=$outputErrors)"))
+        }
     }
   }
 

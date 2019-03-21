@@ -15,7 +15,7 @@ object Converters {
     GApp(
       id = app.id,
       name = app.name,
-      contract = Option(ModelContract(app.name, Seq(app.signature))),  //TODO(bulat): change contract to signature
+      contract = Option(ModelContract("", Some(app.signature))),
       namespace = app.namespace.getOrElse(""),
       executionGraph = Option(ExecutionGraph(
         app.executionGraph.stages.zipWithIndex.map {
@@ -55,7 +55,6 @@ object Converters {
       imageSha = modelVersion.image.sha256.getOrElse(""),
       model = Some(grpcModel(modelVersion.model)),
       contract = Some(modelVersion.modelContract),
-      dataTypes = modelVersion.profileTypes,
       runtime = Some(DockerImage(modelVersion.runtime.name, modelVersion.runtime.tag))
     )
   }
