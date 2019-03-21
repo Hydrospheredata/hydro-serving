@@ -6,6 +6,7 @@ import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.manager.api.http.controller.model.ModelUploadMetadata
+import io.hydrosphere.serving.manager.data_profile_types.DataProfileType
 import io.hydrosphere.serving.manager.domain.DomainError
 import io.hydrosphere.serving.manager.domain.application._
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersion
@@ -20,36 +21,34 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
   private val uploadFile = packModel("/models/dummy_model")
   private val signature = ModelSignature(
     signatureName = "not-default-spark",
-    inputs = List(ModelField("test-input", None, ModelField.TypeOrSubfields.Dtype(DT_DOUBLE))),
-    outputs = List(ModelField("test-output", None, ModelField.TypeOrSubfields.Dtype(DT_DOUBLE)))
+    inputs = List(ModelField("test-input", None, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DT_DOUBLE))),
+    outputs = List(ModelField("test-output", None, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DT_DOUBLE)))
   )
   private val upload1 = ModelUploadMetadata(
     name = "m1",
     runtime = dummyImage,
     contract = Some(ModelContract(
-      modelName = "m1",
-      signatures = List(signature)
+      predict = Some(signature)
     ))
   )
   private val upload2 = ModelUploadMetadata(
     name = "m2",
     runtime = dummyImage,
     contract = Some(ModelContract(
-      modelName = "m2",
-      signatures = List(signature)
+      predict = Some(signature)
     ))
   )
   private val upload3 = ModelUploadMetadata(
     name = "m3",
     runtime = dummyImage,
     contract = Some(ModelContract(
-      modelName = "m3",
-      signatures = List(signature)
+      predict = Some(signature)
     ))
   )
 
   var mv1: ModelVersion = _
   var mv2: ModelVersion = _
+  var mv3: ModelVersion = _
 
   describe("Application service") {
     it("should create a simple application") {
@@ -61,8 +60,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
             PipelineStageRequest(
               Seq(ModelVariantRequest(
                 modelVersionId = mv1.id,
-                weight = 100,
-                signatureName = "not-default-spark"
+                weight = 100
               ))
             ))
           ),
@@ -73,12 +71,11 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         } yield {
           println(appResult)
           assert(appResult.started.name === "simple-app")
-          assert(appResult.started.signature.inputs === mv1.modelContract.signatures.head.inputs)
-          assert(appResult.started.signature.outputs === mv1.modelContract.signatures.head.outputs)
+          assert(appResult.started.signature.inputs === mv1.modelContract.predict.get.inputs)
+          assert(appResult.started.signature.outputs === mv1.modelContract.predict.get.outputs)
           val services = appResult.started.executionGraph.stages.flatMap(_.modelVariants)
           val service = services.head
           assert(service.weight === 100)
-          assert(service.signature === mv1.modelContract.signatures.head)
           assert(service.modelVersion.id === mv1.id)
         }
       }
@@ -95,13 +92,11 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 modelVariants = List(
                   ModelVariantRequest(
                     modelVersionId = mv1.id,
-                    weight = 50,
-                    signatureName = "not-default-spark"
+                    weight = 50
                   ),
                   ModelVariantRequest(
                     modelVersionId = mv1.id,
-                    weight = 50,
-                    signatureName = "not-default-spark"
+                    weight = 50
                   )
                 )
               )
@@ -115,12 +110,10 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
               List(
                 ModelVariant(
                   weight = 50,
-                  signature = signature,
                   modelVersion = mv1,
                 ),
                 ModelVariant(
                   weight = 50,
-                  signature = signature,
                   modelVersion = mv1,
                 )
               ),
@@ -137,10 +130,8 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
           val service1 = services.head
           val service2 = services.head
           assert(service1.weight === 50)
-          assert(service1.signature.signatureName === "not-default-spark")
           assert(service1.modelVersion.id === mv1.id)
           assert(service2.weight === 50)
-          assert(service2.signature.signatureName === "not-default-spark")
           assert(service2.modelVersion.id === mv1.id)
         }
       }
@@ -156,8 +147,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
               modelVariants = List(
                 ModelVariantRequest(
                   modelVersionId = mv1.id,
-                  weight = 100,
-                  signatureName = "not-default-spark"
+                  weight = 100
                 )
               )
             )
@@ -203,8 +193,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 modelVariants = List(
                   ModelVariantRequest(
                     modelVersionId = mv1.id,
-                    weight = 100,
-                    signatureName = "not-default-spark"
+                    weight = 100
                   )
                 )
               )
@@ -220,8 +209,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 modelVariants = List(
                   ModelVariantRequest(
                     modelVersionId = mv2.id,
-                    weight = 100,
-                    signatureName = "not-default-spark"
+                    weight = 100
                   )
                 )
               )
@@ -253,11 +241,15 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
       completed1 <- EitherT.liftF[IO, DomainError, ModelVersion](d1.completedVersion.get)
       d2 <- EitherT(managerServices.modelService.uploadModel(uploadFile, upload2))
       completed2 <- EitherT.liftF[IO, DomainError, ModelVersion](d2.completedVersion.get)
+      d3 <- EitherT(managerServices.modelService.uploadModel(uploadFile, upload3))
+      completed3 <- EitherT.liftF[IO, DomainError, ModelVersion](d3.completedVersion.get)
     } yield {
       println(s"UPLOADED: $completed1")
       println(s"UPLOADED: $completed2")
+      println(s"UPLOADED: $completed3")
       mv1 = completed1
       mv2 = completed2
+      mv3 = completed3
     }
 
     Await.result(f.value.unsafeToFuture(), 30 seconds)

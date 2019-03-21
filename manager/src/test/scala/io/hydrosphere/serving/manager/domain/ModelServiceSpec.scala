@@ -18,7 +18,6 @@ import io.hydrosphere.serving.manager.domain.model_build.{BuildResult, ModelVers
 import io.hydrosphere.serving.manager.domain.model_version._
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.{FetcherResult, ModelFetcher}
 import io.hydrosphere.serving.manager.infrastructure.storage.{ModelFileStructure, ModelUnpacker}
-import io.hydrosphere.serving.model.api.ModelType
 import io.hydrosphere.serving.tensorflow.TensorShape
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.mockito.Matchers
@@ -36,12 +35,11 @@ class ModelServiceSpec extends GenericUnitTest {
           name = "runtime",
           tag = "latest"
         )
-        val contract = ModelContract(
-          modelName,
-          Seq(ModelSignature(
+        val contract = ModelContract("",
+          Some(ModelSignature(
             "testSig",
-            Seq(ModelField("in", TensorShape.scalar.toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE))),
-            Seq(ModelField("out", TensorShape.scalar.toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE)))
+            Seq(ModelField("in", TensorShape.scalar.toProto, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE))),
+            Seq(ModelField("out", TensorShape.scalar.toProto, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE)))
           ))
         )
         val modelVersion = ModelVersion(
@@ -120,7 +118,6 @@ class ModelServiceSpec extends GenericUnitTest {
       it("existing model") {
         val uploadFile = Paths.get("123123")
         val modelName = "upload-model"
-        val modelType = ModelType.Unknown()
         val modelRuntime = DockerImage(
           name = "runtime",
           tag = "latest"
@@ -129,12 +126,11 @@ class ModelServiceSpec extends GenericUnitTest {
           id = 1,
           name = modelName,
         )
-        val contract = ModelContract(
-          modelName,
-          Seq(ModelSignature(
+        val contract = ModelContract("",
+          Some(ModelSignature(
             "testSig",
-            Seq(ModelField("in", TensorShape.scalar.toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE))),
-            Seq(ModelField("out", TensorShape.scalar.toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE)))
+            Seq(ModelField("in", TensorShape.scalar.toProto, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE))),
+            Seq(ModelField("out", TensorShape.scalar.toProto, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DataType.DT_DOUBLE)))
           ))
         )
         val modelVersion = ModelVersion(
@@ -226,7 +222,7 @@ class ModelServiceSpec extends GenericUnitTest {
         val res = ModelVersionMetadata.combineMetadata(fetched, uploaded, None)
         assert(res.modelName === "upload-name")
         assert(res.runtime === DockerImage("test", "test"))
-        assert(res.contract === ModelContract.defaultInstance.copy(modelName = "upload-name"))
+        assert(res.contract === ModelContract.defaultInstance)
         assert(res.hostSelector === None)
         assert(res.installCommand === Some("echo hello"))
         assert(res.metadata === Map("author" -> "me"))
@@ -234,7 +230,7 @@ class ModelServiceSpec extends GenericUnitTest {
       }
 
       it("uploaded and fetched") {
-        val contract = ModelContract("asd", signatures = Seq(ModelSignature(
+        val contract = ModelContract(predict = Some(ModelSignature(
           "sig", Seq.empty, Seq.empty
         )))
         val fetched = Some(FetcherResult(
@@ -254,7 +250,7 @@ class ModelServiceSpec extends GenericUnitTest {
         val res = ModelVersionMetadata.combineMetadata(fetched, uploaded, None)
         assert(res.modelName === "upload-name")
         assert(res.runtime === DockerImage("test", "test"))
-        assert(res.contract === contract.copy(modelName = "upload-name"))
+        assert(res.contract === contract)
         assert(res.hostSelector === None)
         assert(res.installCommand === Some("echo hello"))
         assert(res.metadata === Map("author" -> "me", "overriden" -> "true", "f" -> "123"))

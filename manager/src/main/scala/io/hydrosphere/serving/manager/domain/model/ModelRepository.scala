@@ -1,9 +1,5 @@
 package io.hydrosphere.serving.manager.domain.model
 
-import io.hydrosphere.serving.model.api.ModelType
-
-import scala.concurrent.Future
-
 trait ModelRepository[F[_]] {
   def create(entity: Model): F[Model]
 

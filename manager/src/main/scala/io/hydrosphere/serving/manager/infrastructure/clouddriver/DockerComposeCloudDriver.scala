@@ -54,15 +54,16 @@ class DockerComposeCloudDriver[F[_]: Async](
           DefaultConstants.LABEL_SERVICE_ID -> service.id.toString
         )
 
-        val builder = createMainApplicationHostConfigBuilder()
+        val hostConfig = createMainApplicationHostConfigBuilder().build()
 
-        val c = dockerClient.createContainer(ContainerConfig.builder()
+        val containerConfig = ContainerConfig.builder()
           .image(modelVersion.fullName)
           .exposedPorts(DefaultConstants.DEFAULT_APP_PORT.toString)
           .labels(javaLabels.asJava)
-          .hostConfig(builder.build())
+          .hostConfig(hostConfig)
           .env(envMap.map { case (k, v) => s"$k=$v" }.toList.asJava)
-          .build(), service.serviceName)
+          .build()
+        val c = dockerClient.createContainer(containerConfig, service.serviceName)
         dockerClient.startContainer(c.id())
 
         val cloudService = fetchById(service.id)

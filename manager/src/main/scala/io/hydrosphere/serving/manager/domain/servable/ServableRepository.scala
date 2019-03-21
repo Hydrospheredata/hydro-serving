@@ -10,9 +10,8 @@ trait ServableRepository[F[_]] {
 
   def all(): F[Seq[Servable]]
 
-  def fetchServices(services: Set[Long]): F[Seq[Servable]]
-
   def fetchByIds(seq: Seq[Long]): F[Seq[Servable]]
 
   def getByServiceName(serviceName: String): F[Option[Servable]]
+  def updateCloudDriveId(serviceId: Long, cloudDriveId: Option[String]): F[Int]
 }

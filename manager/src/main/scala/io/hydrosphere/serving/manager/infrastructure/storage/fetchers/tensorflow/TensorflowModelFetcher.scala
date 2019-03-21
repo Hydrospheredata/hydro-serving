@@ -33,20 +33,20 @@ class TensorflowModelFetcher[F[_]: Monad](storageOps: StorageOps[F]) extends Mod
         val tensorflowGitVersion = metaInfo.flatMap(x => Option(x.getTensorflowGitVersion))
         val tensorflowVersion = metaInfo.flatMap(x => Option(x.getTensorflowVersion))
         Map(
-          s"$id/collectionsCount" -> collectionsCount,
-          s"$id/assetFilesCount" -> assetFilesCount,
-          s"$id/serializedSize" -> serializedSize,
-          s"$id/signatureCount" -> signatureCount,
-          s"$id/metaGraphVersion" -> mgVersion,
-          s"$id/strippedDefaultAttrs" -> strippedDefaultAttrs,
-          s"$id/tagsCount" -> tagsCount,
-          s"$id/tensorflowGitVersion" -> tensorflowGitVersion,
-          s"$id/tensorflowVersion" -> tensorflowVersion,
+          s"tensorflow.metaGraph[$id].collectionsCount" -> collectionsCount,
+          s"tensorflow.metaGraph[$id].assetFilesCount" -> assetFilesCount,
+          s"tensorflow.metaGraph[$id].serializedSize" -> serializedSize,
+          s"tensorflow.metaGraph[$id].signatureCount" -> signatureCount,
+          s"tensorflow.metaGraph[$id].metaGraphVersion" -> mgVersion,
+          s"tensorflow.metaGraph[$id].strippedDefaultAttrs" -> strippedDefaultAttrs,
+          s"tensorflow.metaGraph[$id].tagsCount" -> tagsCount,
+          s"tensorflow.metaGraph[$id].tensorflowGitVersion" -> tensorflowGitVersion,
+          s"tensorflow.metaGraph[$id].tensorflowVersion" -> tensorflowVersion,
         ).collect({ case (k, Some(v)) => k -> v.toString })
     }.toMap
 
     val mgCount = Option(savedModel.getMetaGraphsCount)
-    val savedModelData = Map("metaGraphsCount" -> mgCount).collect({ case (k, Some(v)) => k -> v.toString })
+    val savedModelData = Map("tensorflow.metaGraphsCount" -> mgCount).collect({ case (k, Some(v)) => k -> v.toString })
 
     val all = (metagraphdata ++ savedModelData)
       .mapValues(_.trim)
@@ -60,22 +60,42 @@ class TensorflowModelFetcher[F[_]: Monad](storageOps: StorageOps[F]) extends Mod
     val f = for {
       savedModelBytes <- OptionT(storageOps.readBytes(directory.resolve("saved_model.pb")))
       savedModel <- OptionT.fromOption(Try(SavedModel.parseFrom(savedModelBytes)).toOption)
-      signatures <- OptionT.fromOption(
-        Try(savedModel.getMetaGraphsList.asScala.flatMap { metagraph =>
-          metagraph.getSignatureDefMap.asScala.map(TensorflowModelFetcher.convertSignature).toList
-        }.toList).toOption
-      )
+      predictSignature <- OptionT.fromOption(getPredictSignature(savedModel))
       modelName = directory.getFileName.toString
     } yield FetcherResult(
       modelName = modelName,
-      modelContract = ModelContract(modelName, signatures),
+      modelContract = ModelContract(modelName, Some(predictSignature)),
       metadata = parseMetadata(savedModel)
     )
     f.value
   }
+
+  def getPredictSignature(savedModel: SavedModel) = {
+    val servingSignatures = Try {
+      savedModel.getMetaGraphsList.asScala
+        .filter(_.getMetaInfoDef.getTagsList.asScala.contains(TensorflowModelFetcher.serveTag))
+        .flatMap(_.getSignatureDefMap.asScala)
+        .toList
+    }.toOption
+    servingSignatures.flatMap { s =>
+      val defaultSig = s.find(_._1 == TensorflowModelFetcher.servingDefaultSig)
+      val predictSig = s.find(_._1 == TensorflowModelFetcher.predictSig)
+      val result = defaultSig orElse predictSig orElse s.headOption
+      result.map(TensorflowModelFetcher.convertSignature)
+    }
+  }
 }
 
 object TensorflowModelFetcher {
+  /**
+    * Tag which indicates MetaGraph suitable for serving.
+    */
+  final val serveTag = "serve"
+
+  final val servingDefaultSig = "serving_default"
+
+  final val predictSig = "predict"
+
   def convertTensor(tensorInfo: TensorInfo): FieldInfo = {
     val shape = if (tensorInfo.hasTensorShape) {
       val tShape = tensorInfo.getTensorShape

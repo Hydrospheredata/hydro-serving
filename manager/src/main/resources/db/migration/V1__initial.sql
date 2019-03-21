@@ -34,7 +34,7 @@ CREATE TABLE hydro_serving.model_version
 CREATE TABLE hydro_serving.servable
 (
   service_id       BIGSERIAL PRIMARY KEY,
-  service_name     TEXT                                               NOT NULL UNIQUE,
+  service_name     TEXT                                               NOT NULL,
   cloud_driver_id  TEXT,
   model_version_id BIGINT REFERENCES model_version (model_version_id) NOT NULL,
   status_text      TEXT                                               NOT NULL,

@@ -61,7 +61,7 @@ class KubernetesCloudDriver[F[_]: Async](
     k8s.listInNamespace[ServiceList](conf.kubeNamespace).map(services => {
       
       val cloudServices = services
-        .filter(svc => svc.metadata.labels.contains("hs_service_marker"))
+        .filter(svc => svc.metadata.labels.contains(DefaultConstants.LABEL_HS_SERVICE_MARKER) || svc.metadata.labels.contains("hs_service_marker"))
         .map(kubeServiceToCloudService)
       
       cloudServices ++ DockerUtil.createFakeHttpServices(cloudServices)
@@ -98,10 +98,17 @@ class KubernetesCloudDriver[F[_]: Async](
     val namespacedContext = k8s.usingNamespace(conf.kubeNamespace)
 
     for {
-      svc <- AsyncUtil.futureAsync(namespacedContext.create(kubeService))
-      _ <- AsyncUtil.futureAsync(namespacedContext.create(deployment))
-      cloudService = kubeServiceToCloudService(svc)
-      _ <- cloudServiceBus.detected(cloudService)
+      deployed <- serviceList()
+      maybeExist = deployed.find(_.serviceName == service.serviceName)
+      cloudService <- maybeExist match {
+        case Some(value) => Async[F].pure(value)
+        case None => for {
+          svc <- AsyncUtil.futureAsync(namespacedContext.create(kubeService))
+          _ <- AsyncUtil.futureAsync(namespacedContext.create(deployment))
+          cldSvc = kubeServiceToCloudService(svc)
+          _ <- cloudServiceBus.detected(cldSvc)
+        } yield cldSvc
+      }
     } yield cloudService
   }
 

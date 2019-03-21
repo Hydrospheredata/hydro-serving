@@ -7,6 +7,7 @@ import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
 import io.hydrosphere.serving.contract.utils.ContractBuilders
 import io.hydrosphere.serving.manager.GenericUnitTest
+import io.hydrosphere.serving.manager.data_profile_types.DataProfileType
 import io.hydrosphere.serving.manager.infrastructure.storage.StorageOps
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers._
 import io.hydrosphere.serving.manager.infrastructure.storage.fetchers.keras.KerasFetcher
@@ -42,10 +43,10 @@ class FetcherSpecs extends GenericUnitTest {
           model shouldBe defined
           assert(model.get.modelName === "spark_model")
           assert(model.get.metadata === Map(
-            "class" -> "org.apache.spark.ml.PipelineModel",
-            "timestamp" -> "1497440372794",
-            "sparkVersion" -> "2.1.1",
-            "uid" -> "PipelineModel_4ccbbca3d107857d3ed8"
+            "sparkml.class" -> "org.apache.spark.ml.PipelineModel",
+            "sparkml.timestamp" -> "1497440372794",
+            "sparkml.sparkVersion" -> "2.1.1",
+            "sparkml.uid" -> "PipelineModel_4ccbbca3d107857d3ed8"
           ))
         }
       }
@@ -55,14 +56,14 @@ class FetcherSpecs extends GenericUnitTest {
   describe("Tensorflow model fetcher") {
     it("should parse correct tensorflow model") {
       ioAssert {
-        val expectedSigs = Seq(
+        val expectedSigs = Some(
           ModelSignature(
             "serving_default",
-            Seq(ModelField("images", TensorShape.mat(-1, 784).toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_FLOAT))),
+            Seq(ModelField("images", TensorShape.mat(-1, 784).toProto, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DataType.DT_FLOAT))),
             Seq(
-              ModelField("labels", TensorShape.vector(-1).toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_INT64)),
-              ModelField("labels2", TensorShape.vector(-1).toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_INT64)),
-              ModelField("random", TensorShape.mat(2, 3).toProto, ModelField.TypeOrSubfields.Dtype(DataType.DT_FLOAT))
+              ModelField("labels", TensorShape.vector(-1).toProto, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DataType.DT_INT64)),
+              ModelField("labels2", TensorShape.vector(-1).toProto, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DataType.DT_INT64)),
+              ModelField("random", TensorShape.mat(2, 3).toProto, DataProfileType.NONE, ModelField.TypeOrSubfields.Dtype(DataType.DT_FLOAT))
             )
           )
         )
@@ -70,17 +71,17 @@ class FetcherSpecs extends GenericUnitTest {
         fetcher.fetch(getModel("tensorflow_model")).map { modelResult =>
           modelResult shouldBe defined
           val model = modelResult.get
-          assert(model.modelContract.signatures === expectedSigs)
+          assert(model.modelContract.predict === expectedSigs)
           assert(model.metadata === Map(
-            "0/tagsCount" -> "1",
-            "0/tensorflowGitVersion" -> "b'unknown'",
-            "0/strippedDefaultAttrs" -> "false",
-            "0/serializedSize" -> "55589",
-            "0/assetFilesCount" -> "0",
-            "0/signatureCount" -> "1",
-            "0/tensorflowVersion" -> "1.1.0",
-            "metaGraphsCount" -> "1",
-            "0/collectionsCount" -> "4"
+            "tensorflow.metaGraph[0].tagsCount" -> "1",
+            "tensorflow.metaGraph[0].tensorflowGitVersion" -> "b'unknown'",
+            "tensorflow.metaGraph[0].strippedDefaultAttrs" -> "false",
+            "tensorflow.metaGraph[0].serializedSize" -> "55589",
+            "tensorflow.metaGraph[0].assetFilesCount" -> "0",
+            "tensorflow.metaGraph[0].signatureCount" -> "1",
+            "tensorflow.metaGraph[0].tensorflowVersion" -> "1.1.0",
+            "tensorflow.metaGraphsCount" -> "1",
+            "tensorflow.metaGraph[0].collectionsCount" -> "4"
           ))
         }
       }
@@ -90,10 +91,9 @@ class FetcherSpecs extends GenericUnitTest {
   describe("ONNX fetcher") {
     it("should parse ONNX model") {
       ioAssert {
-        val expectedContract = ModelContract(
-          "mnist",
-          Seq(ModelSignature(
-            "infer",
+        val expectedContract = ModelContract("mnist",
+          Some(ModelSignature(
+            "Predict",
             Seq(
               ContractBuilders.simpleTensorModelField("Input73", DataType.DT_FLOAT, TensorShape.mat(1, 1, 28, 28))
             ),
@@ -111,10 +111,10 @@ class FetcherSpecs extends GenericUnitTest {
           assert(metadata.modelName === "mnist")
           assert(metadata.modelContract === expectedContract)
           assert(metadata.metadata === Map(
-            "producerVersion" -> "2.4",
-            "producerName" -> "CNTK",
-            "modelVersion" -> "1",
-            "irVersion" -> "3"
+            "onnx.producerVersion" -> "2.4",
+            "onnx.producerName" -> "CNTK",
+            "onnx.modelVersion" -> "1",
+            "onnx.irVersion" -> "3"
           ))
         }
       }
@@ -124,10 +124,9 @@ class FetcherSpecs extends GenericUnitTest {
   describe("KerasFetcher") {
     it("should parse sequential model from .h5") {
       ioAssert {
-        val expectedContract = ModelContract(
-          "keras_fashion_mnist",
-          Seq(ModelSignature(
-            "infer",
+        val expectedContract = ModelContract("keras_fashion_mnist",
+          Some(ModelSignature(
+            "Predict",
             Seq(
               ContractBuilders.simpleTensorModelField("flatten_1", DataType.DT_FLOAT, TensorShape.mat(-1, 28, 28))
             ),
@@ -151,10 +150,9 @@ class FetcherSpecs extends GenericUnitTest {
 
     it("should parse functional model from .h5") {
       ioAssert {
-        val expectedContract = ModelContract(
-          "nonseq_model",
-          Seq(ModelSignature(
-            "infer",
+        val expectedContract = ModelContract("nonseq_model",
+          Some(ModelSignature(
+            "Predict",
             Seq(
               ContractBuilders.simpleTensorModelField("input_7", DataType.DT_FLOAT, TensorShape.mat(-1, 784))
             ),

@@ -165,7 +165,7 @@ class TensorExampleGeneratorSpec extends GenericUnitTest {
       }
 
       it("should generate None shape") {
-        val tensorShape = TensorShape.AnyDims()
+        val tensorShape = TensorShape.AnyDims
         val resultOpt = TensorExampleGenerator.generateTensor(tensorShape, DataType.DT_FLOAT)
         assert(resultOpt.isDefined)
         val result = resultOpt.get

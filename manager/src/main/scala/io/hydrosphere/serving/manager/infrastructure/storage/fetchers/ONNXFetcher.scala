@@ -6,6 +6,7 @@ import cats.data.OptionT
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_field.ModelField
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
+import io.hydrosphere.serving.manager.data_profile_types.DataProfileType
 import io.hydrosphere.serving.manager.infrastructure.storage.StorageOps
 import io.hydrosphere.serving.onnx.onnx.TensorProto.DataType._
 import io.hydrosphere.serving.onnx.onnx._
@@ -27,19 +28,19 @@ class ONNXFetcher[F[_]: Monad](
 
   def modelMetadata(model: ModelProto): Map[String, String] = {
     val basic = Map(
-      "producerName" -> model.producerName,
-      "producerVersion" -> model.producerVersion,
-      "domain" -> model.domain,
-      "irVersion" -> model.irVersion.toString,
-      "modelVersion" -> model.modelVersion.toString,
-      "docString" -> model.docString,
+      "onnx.producerName" -> model.producerName,
+      "onnx.producerVersion" -> model.producerVersion,
+      "onnx.domain" -> model.domain,
+      "onnx.irVersion" -> model.irVersion.toString,
+      "onnx.modelVersion" -> model.modelVersion.toString,
+      "onnx.docString" -> model.docString,
     ).mapValues(_.trim)
       .filter { // filter proto default strings
         case (_, s) => s.nonEmpty
       }
 
     val props = model.metadataProps.map { x =>
-      x.key -> x.value
+      ("onnx.metadata." + x.key) -> x.value
     }.toMap
 
     basic ++ props
@@ -51,11 +52,11 @@ class ONNXFetcher[F[_]: Monad](
       fileName = FilenameUtils.getBaseName(filePath.getFileName.toString)
       model <- OptionT.fromOption(ModelProto.validate(Files.readAllBytes(filePath)).toOption)
       graph <- OptionT.fromOption(model.graph)
-      signatures <- OptionT.fromOption(Try(ONNXFetcher.extractSignatures(graph)).toOption)
+      signature <- OptionT.fromOption(Try(ONNXFetcher.predictSignature(graph)).toOption)
     } yield {
       FetcherResult(
         fileName,
-        ModelContract(fileName, signatures),
+        ModelContract(fileName, Some(signature)),
         metadata = modelMetadata(model)
       )
     }
@@ -64,7 +65,7 @@ class ONNXFetcher[F[_]: Monad](
 }
 
 object ONNXFetcher {
-  final val signature = "infer"
+  final val signature = "Predict"
 
   def convertType(elemType: TensorProto.DataType): ModelField.TypeOrSubfields.Dtype = {
     val tfType = elemType match {
@@ -102,15 +103,16 @@ object ONNXFetcher {
     ModelField(
       x.name,
       convertShape(x.getType.getTensorType.shape),
+      DataProfileType.NONE,
       convertType(x.getType.getTensorType.elemType)
     )
   }
 
-  def extractSignatures(graph: GraphProto): Seq[ModelSignature] = {
-    Seq(ModelSignature(
+  def predictSignature(graph: GraphProto): ModelSignature = {
+    ModelSignature(
       signature,
       graph.input.map(valueInfoToField),
       graph.output.map(valueInfoToField)
-    ))
+    )
   }
 }

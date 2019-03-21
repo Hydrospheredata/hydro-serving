@@ -6,7 +6,7 @@ import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.model.Model
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionStatus}
 import io.hydrosphere.serving.manager.domain.servable.{Servable, ServableStatus}
-import io.hydrosphere.serving.model.api.ModelType
+import io.hydrosphere.serving.manager.domain.servable.Servable
 import spray.json._
 
 
@@ -55,7 +55,7 @@ trait ModelJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol {
   implicit val modelVersionFormat = jsonFormat13(ModelVersion.apply)
   implicit val serviceFormat = jsonFormat4(Servable.apply)
 
-  implicit val detailedServiceFormat = jsonFormat3(ModelVariant.apply)
+  implicit val detailedServiceFormat = jsonFormat2(ModelVariant.apply)
   implicit val applicationStageFormat = jsonFormat2(PipelineStage.apply)
   implicit val applicationExecutionGraphFormat = jsonFormat1(ApplicationExecutionGraph)
   implicit val applicationKafkaStreamingFormat = jsonFormat4(ApplicationKafkaStream)

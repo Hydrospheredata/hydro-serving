@@ -18,15 +18,15 @@ case class SparkModelMetadata(
 
   def toMap: Map[String, String] = {
     val basic = Map(
-      "class" -> `class`,
-      "timestamp" -> timestamp.toString,
-      "sparkVersion" -> sparkVersion,
-      "uid" -> uid,
+      "sparkml.class" -> `class`,
+      "sparkml.timestamp" -> timestamp.toString,
+      "sparkml.sparkVersion" -> sparkVersion,
+      "sparkml.uid" -> uid,
     )
     val opts = Map(
-      "numFeatures" -> numFeatures,
-      "numClasses" -> numClasses,
-      "numTrees" -> numTrees,
+      "sparkml.numFeatures" -> numFeatures,
+      "sparkml.numClasses" -> numClasses,
+      "sparkml.numTrees" -> numTrees,
     ).collect { case (k, Some(v)) => k -> v.toString }
 
     basic ++ opts
