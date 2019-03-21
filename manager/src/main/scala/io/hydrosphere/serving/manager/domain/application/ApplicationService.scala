@@ -196,7 +196,7 @@ object ApplicationService {
       val f = for {
         version <- EitherT.fromOptionF[F, DomainError, ModelVersion](versionRepository.get(service.modelVersionId), InvalidRequest(s"Can't find model version with id ${service.modelVersionId}"))
         signature <- EitherT.fromOption.apply[DomainError, ModelSignature](
-          version.modelContract.predict, InvalidRequest(s"Can't find predict signature ${service.signatureName}")
+          version.modelContract.predict, InvalidRequest(s"Can't find predict signature")
         )(Concurrent[F])
       } yield List(
         PipelineStage(

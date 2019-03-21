@@ -1,11 +1,11 @@
 package io.hydrosphere.serving.manager.domain.servable
 
 import cats.Traverse
-import cats.data.OptionT
 import cats.effect.Sync
 import cats.instances.list._
 import cats.syntax.flatMap._
 import cats.syntax.functor._
+import io.hydrosphere.serving.manager.domain.DomainError.NotFound
 import io.hydrosphere.serving.manager.domain.clouddriver._
 import io.hydrosphere.serving.manager.domain.model_version.ModelVersion
 import io.hydrosphere.serving.manager.infrastructure.envoy.events.ServableDiscoveryEventBus
@@ -14,7 +14,7 @@ import org.apache.logging.log4j.scala.Logging
 import scala.util.control.NonFatal
 
 trait ServableService[F[_]] {
-  def delete(serviceId: Long): F[Option[Servable]]
+  def delete(serviceId: Long): F[Servable]
 
   def deleteServables(services: List[Long]): F[List[Servable]]
 
@@ -60,14 +60,18 @@ object ServableService {
     }
 
 
-    def delete(serviceId: Long): F[Option[Servable]] = {
-      val f = for {
-        servable <- OptionT(servableRepository.get(serviceId))
-        _ <- OptionT.liftF(cloudDriver.removeService(serviceId))
-        _ <- OptionT.liftF(eventPublisher.removed(servable))
-        _ <- OptionT.liftF(servableRepository.delete(serviceId))
+    def delete(serviceId: Long): F[Servable] = {
+      for {
+        servable <- servableRepository.get(serviceId).flatMap {
+          case None =>
+            Sync[F].raiseError[Servable](NotFound(s"Couldn't find servable id=$serviceId"))
+          case Some(x) =>
+            Sync[F].pure(x)
+        }
+        _ <- cloudDriver.removeService(serviceId)
+        _ <- eventPublisher.removed(servable)
+        _ <- servableRepository.delete(serviceId)
       } yield servable
-      f.value
     }
 
     def deployModelVersions(modelVersions: Set[ModelVersion]): F[List[Servable]] = {
@@ -79,7 +83,7 @@ object ServableService {
     def deleteServables(services: List[Long]): F[List[Servable]] = {
       Traverse[List].traverse(services) { service =>
         delete(service)
-      }.map(_.flatten)
+      }
     }
   }
 }

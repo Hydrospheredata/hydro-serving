@@ -60,8 +60,7 @@ class DockerAppSpec extends FullIntegrationSpec with BeforeAndAfterAll {
             PipelineStageRequest(
               Seq(ModelVariantRequest(
                 modelVersionId = mv1.id,
-                weight = 100,
-                signatureName = "not-default-spark"
+                weight = 100
               ))
             ))
           ),

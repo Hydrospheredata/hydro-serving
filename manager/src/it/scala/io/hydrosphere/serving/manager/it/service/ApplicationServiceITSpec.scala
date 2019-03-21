@@ -48,6 +48,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
 
   var mv1: ModelVersion = _
   var mv2: ModelVersion = _
+  var mv3: ModelVersion = _
 
   describe("Application service") {
     it("should create a simple application") {
@@ -59,8 +60,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
             PipelineStageRequest(
               Seq(ModelVariantRequest(
                 modelVersionId = mv1.id,
-                weight = 100,
-                signatureName = "not-default-spark"
+                weight = 100
               ))
             ))
           ),
@@ -92,13 +92,11 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 modelVariants = List(
                   ModelVariantRequest(
                     modelVersionId = mv1.id,
-                    weight = 50,
-                    signatureName = "not-default-spark"
+                    weight = 50
                   ),
                   ModelVariantRequest(
                     modelVersionId = mv1.id,
-                    weight = 50,
-                    signatureName = "not-default-spark"
+                    weight = 50
                   )
                 )
               )
@@ -149,8 +147,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
               modelVariants = List(
                 ModelVariantRequest(
                   modelVersionId = mv1.id,
-                  weight = 100,
-                  signatureName = "not-default-spark"
+                  weight = 100
                 )
               )
             )
@@ -196,8 +193,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 modelVariants = List(
                   ModelVariantRequest(
                     modelVersionId = mv1.id,
-                    weight = 100,
-                    signatureName = "not-default-spark"
+                    weight = 100
                   )
                 )
               )
@@ -213,8 +209,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
                 modelVariants = List(
                   ModelVariantRequest(
                     modelVersionId = mv2.id,
-                    weight = 100,
-                    signatureName = "not-default-spark"
+                    weight = 100
                   )
                 )
               )
@@ -234,34 +229,6 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
         }
       }
     }
-
-    it("should delete unused servables after deletion") {
-      eitherTAssert {
-        val create = CreateApplicationRequest(
-          "servable-delete-app",
-          None,
-          ExecutionGraphRequest(List(
-            PipelineStageRequest(
-              Seq(ModelVariantRequest(
-                modelVersionId = mv1.id,
-                weight = 100,
-                signatureName = "not-default-spark"
-              ))
-            ))
-          ),
-          Option.empty
-        )
-        for {
-          appResult <- EitherT(managerServices.appService.create(create))
-          _ <- EitherT.liftF(appResult.completed.get)
-          _ <- EitherT.liftF(IO.pure(Thread.sleep(10000)))
-          _ <- EitherT(managerServices.appService.delete(appResult.started.name))
-          servables <- EitherT.liftF(managerRepositories.servableRepository.all())
-        } yield {
-          assert(servables.isEmpty)
-        }
-      }
-    }
   }
 
   override def beforeAll(): Unit = {
@@ -274,11 +241,15 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
       completed1 <- EitherT.liftF[IO, DomainError, ModelVersion](d1.completedVersion.get)
       d2 <- EitherT(managerServices.modelService.uploadModel(uploadFile, upload2))
       completed2 <- EitherT.liftF[IO, DomainError, ModelVersion](d2.completedVersion.get)
+      d3 <- EitherT(managerServices.modelService.uploadModel(uploadFile, upload3))
+      completed3 <- EitherT.liftF[IO, DomainError, ModelVersion](d3.completedVersion.get)
     } yield {
       println(s"UPLOADED: $completed1")
       println(s"UPLOADED: $completed2")
+      println(s"UPLOADED: $completed3")
       mv1 = completed1
       mv2 = completed2
+      mv3 = completed3
     }
 
     Await.result(f.value.unsafeToFuture(), 30 seconds)

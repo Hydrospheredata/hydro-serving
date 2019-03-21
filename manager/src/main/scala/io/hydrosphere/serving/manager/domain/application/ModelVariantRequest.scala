@@ -4,10 +4,9 @@ import io.hydrosphere.serving.manager.infrastructure.protocol.CompleteJsonProtoc
 
 case class ModelVariantRequest(
   modelVersionId: Long,
-  weight: Int,
-  signatureName: String
+  weight: Int
 )
 
 object ModelVariantRequest {
-  implicit val format = jsonFormat3(ModelVariantRequest.apply)
+  implicit val format = jsonFormat2(ModelVariantRequest.apply)
 }

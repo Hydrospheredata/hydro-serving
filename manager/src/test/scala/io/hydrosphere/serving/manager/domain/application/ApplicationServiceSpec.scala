@@ -94,8 +94,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
           PipelineStageRequest(Seq(
             ModelVariantRequest(
               modelVersionId = 1,
-              weight = 100,
-              signatureName = "claim"
+              weight = 100
             )
           ))
         ))
@@ -159,8 +158,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
           PipelineStageRequest(Seq(
             ModelVariantRequest(
               modelVersionId = 1,
-              weight = 100,
-              signatureName = "claim"
+              weight = 100
             )
           ))
         ))
@@ -232,8 +230,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
           PipelineStageRequest(Seq(
             ModelVariantRequest(
               modelVersionId = 1,
-              weight = 100,
-              signatureName = "claim"
+              weight = 100
             )
           ))
         ))
@@ -334,8 +331,7 @@ class ApplicationServiceSpec extends GenericUnitTest {
           PipelineStageRequest(Seq(
             ModelVariantRequest(
               modelVersionId = 1,
-              weight = 100,
-              signatureName = "claim"
+              weight = 100
             )
           ))
         ))
