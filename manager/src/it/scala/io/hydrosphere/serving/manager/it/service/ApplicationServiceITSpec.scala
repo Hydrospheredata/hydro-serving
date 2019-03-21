@@ -238,7 +238,7 @@ class ApplicationServiceITSpec extends FullIntegrationSpec with BeforeAndAfterAl
     it("should delete unused servables after deletion") {
       eitherTAssert {
         val create = CreateApplicationRequest(
-          "simple-app",
+          "servable-delete-app",
           None,
           ExecutionGraphRequest(List(
             PipelineStageRequest(
