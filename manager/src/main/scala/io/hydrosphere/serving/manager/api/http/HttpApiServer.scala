@@ -3,7 +3,7 @@ package io.hydrosphere.serving.manager.api.http
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.model.HttpMethods._
-import akka.http.scaladsl.model.{HttpResponse, StatusCodes}
+import akka.http.scaladsl.model.{ContentTypes, HttpEntity, HttpResponse, StatusCodes}
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server.{ExceptionHandler, Route}
 import akka.stream.ActorMaterializer
@@ -73,7 +73,10 @@ class HttpApiServer[F[_]: Effect](
     pathPrefix("health") { complete("OK") } ~
     pathPrefix("api") {
       controllerRoutes ~
-        pathPrefix("buildinfo") { complete(BuildInfo.toJson) }
+        pathPrefix("buildinfo") { complete(HttpResponse(
+          status = StatusCodes.OK,
+          entity = HttpEntity(ContentTypes.`application/json`, BuildInfo.toJson)
+        ))}
     } ~ pathPrefix("swagger") {
       path(Segments) { segs =>
         val path = segs.mkString("/")

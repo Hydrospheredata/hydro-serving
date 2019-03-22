@@ -14,7 +14,7 @@ object Common {
     fork in(IntegrationTest, testOnly) := true
   )
 
-  lazy val currentAppVersion = sys.props.getOrElse("appVersion", "latest")
+  lazy val currentAppVersion = IO.read(file("version")).trim
 
   val settings: Seq[Def.Setting[_]] = Seq(
     version := currentAppVersion,
