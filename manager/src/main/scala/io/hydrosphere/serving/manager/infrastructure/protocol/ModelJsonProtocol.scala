@@ -53,7 +53,7 @@ trait ModelJsonProtocol extends CommonJsonProtocol with ContractJsonProtocol {
   implicit val environmentFormat = jsonFormat3(HostSelector)
   implicit val versionStatusFormat = enumFormat(ModelVersionStatus)
   implicit val modelVersionFormat = jsonFormat13(ModelVersion.apply)
-  implicit val serviceFormat = jsonFormat4(Servable.apply)
+  implicit val serviceFormat = jsonFormat3(Servable.apply)
 
   implicit val detailedServiceFormat = jsonFormat2(ModelVariant.apply)
   implicit val applicationStageFormat = jsonFormat2(PipelineStage.apply)

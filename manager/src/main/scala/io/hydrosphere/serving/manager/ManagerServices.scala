@@ -10,7 +10,7 @@ import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, Headers}
 import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration}
 import io.hydrosphere.serving.manager.discovery.DiscoveryHub
 import io.hydrosphere.serving.manager.domain.application.ApplicationService
-import io.hydrosphere.serving.manager.domain.clouddriver.{CloudDriver, CloudDriver2}
+import io.hydrosphere.serving.manager.domain.clouddriver.CloudDriver2
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorService
 import io.hydrosphere.serving.manager.domain.image.ImageRepository
 import io.hydrosphere.serving.manager.domain.model.ModelService
@@ -95,14 +95,12 @@ class ManagerServices[F[_]: ConcurrentEffect](
   logger.info(s"Using ${cloudDriverService.getClass} cloud driver")
 
   val servableService: ServableService[F] = ServableService[F](
-    cloudDriverService,
-    managerRepositories.servableRepository
+    cloudDriverService
   )
 
   val appService: ApplicationService[F] = ApplicationService[F](
     applicationRepository = managerRepositories.applicationRepository,
     versionRepository = managerRepositories.modelVersionRepository,
-    servableRepo = managerRepositories.servableRepository,
     servableService = servableService,
     discoveryHub = discoveryHub
   )

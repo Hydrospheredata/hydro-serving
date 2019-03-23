@@ -1,5 +1,5 @@
 package io.hydrosphere.serving.manager.domain.clouddriver
 
-case class ModelInstance(
-  instanceId: String
-)
+//case class ModelInstance(
+//  instanceId: String
+//)

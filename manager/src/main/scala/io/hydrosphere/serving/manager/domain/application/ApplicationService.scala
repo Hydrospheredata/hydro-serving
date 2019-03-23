@@ -42,7 +42,6 @@ object ApplicationService {
     applicationRepository: ApplicationRepository[F],
     versionRepository: ModelVersionRepository[F],
     servableService: ServableService[F],
-    servableRepo: ServableRepository[F],
     discoveryHub: DiscoveryHub[F]
   )(implicit ex: ExecutionContext): ApplicationService[F] = new ApplicationService[F] with Logging {
     
@@ -68,14 +67,9 @@ object ApplicationService {
       f.value
     }
     
-    private def deployServable(mv: ModelVersion): F[Servable] = {
-      val name = s"${mv.model.name}-${mv.id}"
-      servableService.deploy(name, mv.id, mv.image)
-    }
-
     private def startServices(application: Application, versions: Seq[ModelVersion]): F[Application] = {
       val finished = for {
-        servables   <- versions.toList.traverse(deployServable)
+        servables   <- versions.toList.traverse(mv => servableService.deploy(mv.servableName, mv.id, mv.image))
         finishedApp =  application.copy(status = ApplicationStatus.Ready)
         translated  <- Concurrent[F].fromEither(Inernals.toServingApp(finishedApp, servables))
         _           <- discoveryHub.added(translated)
@@ -102,10 +96,10 @@ object ApplicationService {
 
       val f = for {
         app <- composeApp(appRequest.name, appRequest.namespace, appRequest.executionGraph, appRequest.kafkaStreaming)
-        services <- EitherT.liftF[F, DomainError, Seq[Servable]](servableRepo.fetchByIds(keySet.toSeq))
-        existedServices = services.map(_.modelVersionId)
-        serviceDiff = keySet -- existedServices
-        versions <- EitherT.liftF[F, DomainError, Seq[ModelVersion]](versionRepository.get(serviceDiff.toSeq))
+//        services <- EitherT.liftF[F, DomainError, Seq[Servable]](servableRepo.fetchByIds(keySet.toSeq))
+//        existedServices = services.map(_.modelVersionId)
+//        serviceDiff = keySet -- existedServices
+        versions <- EitherT.liftF[F, DomainError, Seq[ModelVersion]](versionRepository.get(keySet.toSeq))
 
         createdApp <- EitherT.liftF[F, DomainError, Application](applicationRepository.create(app))
         df <- EitherT.liftF[F, DomainError, Deferred[F, Application]](Deferred[F, Application])
@@ -118,8 +112,8 @@ object ApplicationService {
       val f = for {
         app <- EitherT(get(name))
         _ <- EitherT.liftF(applicationRepository.delete(app.id))
-        keysSet = app.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion.id)).toSet
-        _ <- EitherT.liftF[F, DomainError, Seq[Servable]](removeServiceIfNeeded(keysSet, app.id))
+        keysSet = app.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion)).toSet
+        _ <- EitherT.liftF[F, DomainError, Unit](removeServiceIfNeeded(keysSet, app.id))
         _ <- EitherT.liftF[F, DomainError, Unit](discoveryHub.removed(app.id))
       } yield app
       f.value
@@ -132,12 +126,12 @@ object ApplicationService {
 
         composedApp <- composeApp(appRequest.name, appRequest.namespace, appRequest.executionGraph, appRequest.kafkaStreaming)
         newApplication = composedApp.copy(id = oldApplication.id)
-        keysSetOld = oldApplication.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion.id)).toSet
+        keysSetOld = oldApplication.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion)).toSet
         keysSetNew = appRequest.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersionId)).toSet
-        servicesToAdd = keysSetNew -- keysSetOld
-        servicesToRemove = keysSetOld -- keysSetNew
+        servicesToAdd = keysSetNew.filter(id => keysSetOld.exists(_.id == id)) // -- keysSetOld
+        servicesToRemove = keysSetOld.filter(mv => keysSetNew.contains(mv.id)) // -- keysSetNew
 
-        _ <- EitherT.liftF[F, DomainError, Seq[Servable]](removeServiceIfNeeded(servicesToRemove, appRequest.id))
+        _ <- EitherT.liftF[F, DomainError, Unit](removeServiceIfNeeded(servicesToRemove, appRequest.id))
         versions <- EitherT.liftF[F, DomainError, Seq[ModelVersion]](versionRepository.get(servicesToAdd.toSeq))
 
         _ <- EitherT.liftF[F, DomainError, Int](applicationRepository.update(newApplication))
@@ -161,23 +155,16 @@ object ApplicationService {
       f.value
     }
 
-    private def removeServiceIfNeeded(keysSet: Set[Long], applicationId: Long): F[Seq[Servable]] = {
+    private def removeServiceIfNeeded(modelVersions: Set[ModelVersion], applicationId: Long): F[Unit] = {
+      val keysSet = modelVersions.map(_.id)
       for {
-        servicesToDelete <- retrieveRemovableServiceDescriptions(keysSet, applicationId)
-        deleted <- servicesToDelete.traverse(servableService.stop)
-      } yield deleted.collect({case Some(s) => s})
-    }
-
-    private def retrieveRemovableServiceDescriptions(serviceKeys: Set[Long], applicationId: Long): F[List[Long]] = {
-      for {
-        apps <- applicationRepository.applicationsWithCommonServices(serviceKeys, applicationId)
+        apps <- applicationRepository.applicationsWithCommonServices(keysSet, applicationId)
         commonServiceKeys = apps.flatMap(_.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion.id))).toSet
-      } yield {
-        val diff = serviceKeys -- commonServiceKeys
-        diff.toList
-      }
+        servicesToDelete = modelVersions.filter(mv => commonServiceKeys.contains(mv.id))
+        _ <- servicesToDelete.toList.map(_.servableName).traverse(servableService.stop)
+      } yield Unit
     }
-
+    
     private def composeInitApp(name: String, namespace: Option[String], graph: ApplicationExecutionGraph, signature: ModelSignature, kafkaStreaming: Seq[ApplicationKafkaStream], id: Long = 0) = {
       Application(
         id = id,
@@ -265,7 +252,7 @@ object ApplicationService {
       toGStages(app, servables).map(stages => {
         val contract = ModelContract(
           modelName = app.name,
-          signatures = Seq(app.signature)
+          predict = Some(app.signature)
         )
         
         ServingApp(
@@ -279,7 +266,7 @@ object ApplicationService {
     
     def toGServable(mv: ModelVariant, servables: Map[Long, Servable]): Either[Throwable, GServable] = {
       servables.get(mv.modelVersion.id) match {
-        case Some(Servable(_, _, name, ServableStatus.Running(host, port))) => GServable(host, port, mv.weight).asRight
+        case Some(Servable(_, name, ServableStatus.Running(host, port))) => GServable(host, port, mv.weight).asRight
         case Some(s) => new Exception(s"Invalid servable state for ${mv.modelVersion.model.name}:${mv.modelVersion.id} - $s").asLeft
         case None => new Exception(s"Could not find servable for  ${mv.modelVersion.model.name}:${mv.modelVersion.id}").asLeft
       }

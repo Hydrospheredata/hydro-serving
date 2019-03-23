@@ -16,11 +16,11 @@ trait CloudDriver2[F[_]] {
   
   def instances: F[List[Servable]]
   
-  def instance(name: String, id: String): F[Option[Servable]]
+  def instance(name: String): F[Option[Servable]]
   
-  def run(id: Long, name: String, modelVersionId: Long, image: DockerImage): F[Servable]
+  def run(name: String, modelVersionId: Long, image: DockerImage): F[Servable]
   
-  def remove(name: String, id: String): F[Unit]
+  def remove(name: String): F[Unit]
 }
 
 object CloudDriver2 {

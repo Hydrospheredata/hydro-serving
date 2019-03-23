@@ -15,8 +15,6 @@ class ManagerRepositories[F[_]: Async](config: ManagerConfiguration)(implicit ex
 
   val modelVersionRepository = new DBModelVersionRepository[F]
 
-  val servableRepository = new DBServableRepository[F]
-
   val applicationRepository = new DBApplicationRepository[F]
 
   val hostSelectorRepository = new DBHostSelectorRepository[F]

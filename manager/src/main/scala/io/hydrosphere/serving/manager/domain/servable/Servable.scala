@@ -8,7 +8,6 @@ object ServableStatus {
 }
 
 case class Servable(
-  id: Long,
   modelVersionId: Long,
   serviceName: String,
   status: ServableStatus
