@@ -226,6 +226,26 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
         ),
         Route(
           `match` = Some(RouteMatch(
+            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/reqstore/")
+          )),
+          action = Route.Action.Route(RouteAction(
+            clusterSpecifier = ClusterSpecifier.Cluster(REQSTORE_HTTP_NAME),
+            timeout = routeTimeout,
+            prefixRewrite = "/"
+          ))
+        ),
+        Route(
+          `match` = Some(RouteMatch(
+            pathSpecifier = RouteMatch.PathSpecifier.Prefix("/reqstore")
+          )),
+          action = Route.Action.Route(RouteAction(
+            clusterSpecifier = ClusterSpecifier.Cluster(REQSTORE_HTTP_NAME),
+            timeout = routeTimeout,
+            prefixRewrite = "/"
+          ))
+        ),
+        Route(
+          `match` = Some(RouteMatch(
             pathSpecifier = RouteMatch.PathSpecifier.Prefix("/")
           )),
           action = Route.Action.Route(RouteAction(

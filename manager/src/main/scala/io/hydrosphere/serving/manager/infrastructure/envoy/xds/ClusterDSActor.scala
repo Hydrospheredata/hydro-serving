@@ -27,7 +27,8 @@ class ClusterDSActor extends AbstractDSActor[Cluster](typeUrl = "type.googleapis
     MANAGER_UI_NAME,
     MONITORING_HTTP_NAME,
     PROFILER_HTTP_NAME,
-    GATEWAY_HTTP_NAME
+    GATEWAY_HTTP_NAME,
+    REQSTORE_HTTP_NAME
   )
 
   private def createCluster(name: String): Cluster = {
