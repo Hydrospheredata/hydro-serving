@@ -36,8 +36,8 @@ spec:
               value: "hydro-serving-sidecar-{{ .Release.Name }}"
             - name: APP_SHADOWING_ON
               value: {{ .Values.global.shadowing_on | quote }}
-            - name: APP_OPTS
-              value: {{ .Values.global.extra_gateway_opts | quote }}
+            - name: APP_OPTS 
+              value: "-Dapplication.reqstore.enabled={{ .Values.global.reqstore_enabled }} -Dapplication.reqstore.address.host=hydro-serving-reqstore-{{ .Release.Name }} -Dapplication.reqstore.address.port=9090"
           livenessProbe:
             httpGet:
               path: /health

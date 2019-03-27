@@ -4,7 +4,7 @@
 
 global:
   shadowing_on: false
-  extra_gateway_opts: ""
+  reqstore_enabled: false
 
 replicaCount: 1
 
