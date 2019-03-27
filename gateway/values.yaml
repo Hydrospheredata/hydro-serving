@@ -4,6 +4,7 @@
 
 global:
   shadowing_on: false
+  extra_gateway_opts: ""
 
 replicaCount: 1
 

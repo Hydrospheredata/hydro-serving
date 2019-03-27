@@ -36,6 +36,8 @@ spec:
               value: "hydro-serving-sidecar-{{ .Release.Name }}"
             - name: APP_SHADOWING_ON
               value: {{ .Values.global.shadowing_on | quote }}
+            - name: APP_OPTS
+              value: {{ .Values.global.extra_gateway_opts | quote }}
           livenessProbe:
             httpGet:
               path: /health
