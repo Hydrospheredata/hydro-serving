@@ -25,6 +25,7 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
   private val monitoringHost = createSystemHost(MONITORING_NAME)
   private val profilerHost = createSystemHost(PROFILER_NAME)
   private val gatewayHost = createSystemHost(GATEWAY_HTTP_NAME)
+  private val reqstoreHost = createSystemHost(REQSTORE_HTTP_NAME)
 
   private def createRoutes(application: Application): Seq[VirtualHost] =
     application.executionGraph.stages.zipWithIndex.map { case (appStage, i) =>
@@ -93,7 +94,7 @@ class RouteDSActor extends AbstractDSActor[RouteConfiguration](typeUrl = "type.g
       name = name,
       virtualHosts = applications.values.flatten.toSeq
         :+ defaultRoute :+ kafkaGatewayHost :+ monitoringHost
-        :+ profilerHost :+ gatewayHost
+        :+ profilerHost :+ gatewayHost :+ reqstoreHost
     )
 
   private def createSystemHost(name: String): VirtualHost =
