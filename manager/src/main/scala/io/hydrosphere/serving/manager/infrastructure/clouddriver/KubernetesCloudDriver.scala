@@ -64,7 +64,11 @@ class KubernetesCloudDriver[F[_]: Async](
         .filter(svc => svc.metadata.labels.contains(DefaultConstants.LABEL_HS_SERVICE_MARKER) || svc.metadata.labels.contains("hs_service_marker"))
         .map(kubeServiceToCloudService)
       
-      cloudServices ++ DockerUtil.createFakeHttpServices(cloudServices)
+      logger.info("CLOUD SERVICES:" + cloudServices)
+      
+      val out = cloudServices ++ DockerUtil.createFakeHttpServices(cloudServices)
+      logger.info("FINAL SERVICE LIST:" + out)
+      out
     })
   }
 
