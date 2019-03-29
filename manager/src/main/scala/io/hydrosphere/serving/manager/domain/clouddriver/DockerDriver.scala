@@ -11,13 +11,13 @@ import io.hydrosphere.serving.manager.domain.servable.{Servable, ServableStatus}
 import scala.collection.JavaConverters._
 import scala.util.Try
 
-class DockerDriver2[F[_]](
+class DockerDriver[F[_]](
   client: DockerdClient[F],
   config: CloudDriverConfiguration.Docker)(
   implicit F: MonadError[F, Throwable]
-) extends CloudDriver2[F] {
+) extends CloudDriver[F] {
   
-  import DockerDriver2._
+  import DockerDriver._
   
   override def instances: F[List[Servable]] = {
     client.listContainers.map(all => {
@@ -27,8 +27,7 @@ class DockerDriver2[F[_]](
   
   private def containerOf(name: String): F[Option[Container]] = {
     val query = List(
-      ListContainersParam.withLabel(Labels.ServiceName, name)
-//      ListContainersParam.withLabel(Labels.ServiceId, id)
+      ListContainersParam.withLabel(CloudDriver.Labels.ServiceName, name)
     )
     client.listContainers(query).map(_.headOption)
   }
@@ -77,9 +76,8 @@ class DockerDriver2[F[_]](
   private def containerToInstance(c: Container): Option[Servable] = {
     val labels = c.labels().asScala
   
-//    val mId = labels.get(Labels.ServiceId).flatMap(i => Try(i.toLong).toOption)
-    val mName = labels.get(Labels.ServiceName)
-    val mMvId = labels.get(Labels.ModelVersionId).flatMap(i => Try(i.toLong).toOption)
+    val mName = labels.get(CloudDriver.Labels.ServiceName)
+    val mMvId = labels.get(CloudDriver.Labels.ModelVersionId).flatMap(i => Try(i.toLong).toOption)
   
     (mName, mMvId).mapN((name, mvId) => {
       val host = Internals.extractIpAddress(c.networkSettings(), config.networkName)
@@ -91,13 +89,8 @@ class DockerDriver2[F[_]](
   
 }
 
-object DockerDriver2 {
+object DockerDriver {
   
-  object Labels {
-    val ServiceName = "HS_INSTANCE_NAME"
-    val ModelVersionId = "HS_INSTANCE_MV_ID"
-    val ServiceId = "HS_INSTANCE_ID"
-  }
   
   object Internals {
   
@@ -117,14 +110,12 @@ object DockerDriver2 {
       }
   
       val labels = Map(
-        Labels.ServiceName -> name,
-//        Labels.ServiceId -> id.toString,
-        Labels.ModelVersionId -> modelVersionId.toString
+        CloudDriver.Labels.ServiceName -> name,
+        CloudDriver.Labels.ModelVersionId -> modelVersionId.toString
       )
       val envMap = Map(
         DefaultConstants.ENV_MODEL_DIR -> DefaultConstants.DEFAULT_MODEL_DIR.toString,
         DefaultConstants.ENV_APP_PORT -> DefaultConstants.DEFAULT_APP_PORT.toString
-//        DefaultConstants.LABEL_SERVICE_ID -> id.toString
       )
   
       val envs = envMap.map({ case (k, v) => s"$k=$v"}).toList.asJava

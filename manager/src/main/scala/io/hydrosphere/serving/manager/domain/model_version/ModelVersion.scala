@@ -24,5 +24,5 @@ case class ModelVersion(
   installCommand: Option[String],
   metadata: Map[String, String]
 ) {
-  def servableName = s"${model.name}-$id"
+  def servableName: String = s"${model.name}-$id".replace("_", "-")
 }

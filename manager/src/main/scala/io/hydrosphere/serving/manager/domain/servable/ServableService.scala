@@ -16,7 +16,7 @@ trait ServableService[F[_]] {
 object ServableService {
   
   def apply[F[_]](
-    cloudDriver: CloudDriver2[F]
+    cloudDriver: CloudDriver[F]
   )(implicit F: Sync[F]): ServableService[F] =
     new ServableService[F] with Logging {
   

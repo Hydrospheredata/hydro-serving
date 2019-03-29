@@ -1,16 +1,14 @@
 package io.hydrosphere.serving.manager
 
-import akka.actor.{ActorRef, ActorSystem}
+import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import cats.effect.ConcurrentEffect
 import com.spotify.docker.client._
-import io.grpc._
-import io.hydrosphere.serving.grpc.{AuthorityReplacerInterceptor, Headers}
 import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration}
 import io.hydrosphere.serving.manager.discovery.DiscoveryHub
 import io.hydrosphere.serving.manager.domain.application.ApplicationService
-import io.hydrosphere.serving.manager.domain.clouddriver.CloudDriver2
+import io.hydrosphere.serving.manager.domain.clouddriver.CloudDriver
 import io.hydrosphere.serving.manager.domain.host_selector.HostSelectorService
 import io.hydrosphere.serving.manager.domain.image.ImageRepository
 import io.hydrosphere.serving.manager.domain.model.ModelService
@@ -39,14 +37,7 @@ class ManagerServices[F[_]: ConcurrentEffect](
 ) extends Logging {
 
   val progressHandler: ProgressHandler = InfoProgressHandler
-
-  val managedChannel: ManagedChannel = ManagedChannelBuilder
-    .forAddress(managerConfiguration.sidecar.host, managerConfiguration.sidecar.egressPort)
-    .usePlaintext()
-    .build
-
-  val channel: Channel = ClientInterceptors.intercept(managedChannel, new AuthorityReplacerInterceptor +: Headers.interceptors: _*)
-
+  
   val storageOps: LocalStorageOps[F] = StorageOps.default
 
   val modelStorage: ModelUnpacker[F] = ModelUnpacker[F](storageOps)
@@ -61,10 +52,6 @@ class ManagerServices[F[_]: ConcurrentEffect](
   )
 
   val imageRepository: ImageRepository[F] = ImageRepository.fromConfig(dockerClient, progressHandler, managerConfiguration.dockerRepository)
-
-//  val appEvent: ApplicationDiscoveryEventBus[F] = ApplicationDiscoveryEventBus.fromActorSystem[F](system)
-//  val servableEvent: ServableDiscoveryEventBus[F] = ServableDiscoveryEventBus.fromActorSystem[F](system)
-//  val cloudServiceEvent: CloudServiceDiscoveryEventBus[F] = CloudServiceDiscoveryEventBus.fromActorSystem[F](system)
 
   val hostSelectorService: HostSelectorService[F] = HostSelectorService[F](managerRepositories.hostSelectorRepository)
 
@@ -90,7 +77,7 @@ class ManagerServices[F[_]: ConcurrentEffect](
 //    dockerRepositoryConfiguration = managerConfiguration.dockerRepository,
 //    sidecarConfig = managerConfiguration.sidecar
 //  )
-  val cloudDriverService: CloudDriver2[F] = CloudDriver2.fromConfig(managerConfiguration.cloudDriver)
+  val cloudDriverService: CloudDriver[F] = CloudDriver.fromConfig(managerConfiguration.cloudDriver, managerConfiguration.dockerRepository)
 
   logger.info(s"Using ${cloudDriverService.getClass} cloud driver")
 
