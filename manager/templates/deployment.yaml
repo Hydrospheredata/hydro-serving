@@ -70,8 +70,6 @@ spec:
                   name: "manager-postgres-secret-{{ .Release.Name }}"
                   key: password
             {{- end }}
-            - name: SIDECAR_HOST
-              value: "hydro-serving-sidecar-{{ .Release.Name }}"
             - name: METRICS_INFLUXDB_HOST
               value: {{ if .Values.global.influx.enabled }}"influx-{{ .Release.Name }}"{{- else }}{{ .Values.global.influx.host }}{{- end }}
             {{- if .Values.global.influx.port }}
@@ -104,6 +102,7 @@ spec:
             - name: REMOTE_DOCKER_PULL_HOST
               value: "localhost:5000"
             {{- end }}
+{{ toYaml .Values.env | indent 12 }}
           volumeMounts:
             - name: dockerconfig
               mountPath: "/root/.docker"

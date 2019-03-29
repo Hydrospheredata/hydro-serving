@@ -32,12 +32,15 @@ spec:
               containerPort: 9091
               protocol: TCP
           env:
-            - name: SIDECAR_HOST
-              value: "hydro-serving-sidecar-{{ .Release.Name }}"
-            - name: APP_SHADOWING_ON
-              value: {{ .Values.global.shadowing_on | quote }}
-            - name: APP_OPTS 
+            - name: APP_OPTS
               value: "-Dapplication.reqstore.enabled={{ .Values.global.reqstore_enabled }} -Dapplication.reqstore.address.host=hydro-serving-reqstore-{{ .Release.Name }} -Dapplication.reqstore.address.port=9090"
+            - name: API_GATEWAY_HOST
+              value: "hydro-serving-ui-{{ .Release.Name }}"
+            - name: API_GATEWAY_HTTP_PORT
+              value: "9090"
+            - name: API_GATEWAY_GRPC_PORT
+              value: "9091"
+{{ toYaml .Values.env | indent 12 }}
           livenessProbe:
             httpGet:
               path: /health

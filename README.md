@@ -117,20 +117,17 @@ The following table lists the configurable parameters of the HydroServing chart 
 | `manager.image.pullPolicy`            | Container pull policy                                 | `Always`                          |
 | `manager.serviceAccount.create`       | Specifies whether a ServiceAccount should be created  | `true`                            |
 | `manager.serviceAccount.name`         | The name of the ServiceAccounts to use.               | `nil` (auto-generated)            |
-| `sidecar.image.repository`            | Container image for `sidecar`                         | `hydrosphere/serving-sidecar`     |
-| `sidecar.image.tag`                   | Container image tag for `sidecar`                     | `latest`                          |
-| `sidecar.image.pullPolicy`            | Container pull policy                                 | `Always`                          |
-| `sidecar.ingress.enabled`             | Whether to install ingress to expose hydro-serving    | `false`                            |
-| `sidecar.ingress.annotations`         | Kubernetes annotations for ingress                    | `{}`                              |
-| `sidecar.ingress.path`                | Ingress path                                          | `/`                               |
-| `sidecar.ingress.hosts`               | Ingress hosts                                         | `- hydro-serving.local`           |
-| `sidecar.ingress.tls`                 | TLS configuration                                     | `[]`                              |
 | `gateway.image.repository`            | Container image for `gateway`                         | `hydrosphere/serving-gateway`     |
 | `gateway.image.tag`                   | Container image tag for `gateway`                     | `latest`                          |
 | `gateway.image.pullPolicy`            | Container pull policy                                 | `Always`                          |
 | `ui.image.repository`                 | Container image for `ui`                              | `hydrosphere/serving-manager-ui`  |
 | `ui.image.tag`                        | Container image tag for `ui`                          | `latest`                          |
 | `ui.image.pullPolicy`                 | Container pull policy                                 | `Always`                          |
+| `ui.ingress.enabled`             | Whether to install ingress to expose hydro-serving    | `false`                            |
+| `ui.ingress.annotations`         | Kubernetes annotations for ingress                    | `{}`                              |
+| `ui.ingress.path`                | Ingress path                                          | `/`                               |
+| `ui.ingress.hosts`               | Ingress hosts                                         | `- hydro-serving.local`           |
+| `ui.ingress.tls`                 | TLS configuration                                     | `[]`                              |
 
 Specify each parameter using the --set key=value[,key=value] argument to helm install. For example,
 
@@ -152,8 +149,8 @@ To get Helm to create an ingress object with a hostname, add these two lines to 
 
 ```
 $ helm install --name my-release \
-  --set sidecar.ingress.enabled=true \
-  --set sidecar.ingress.hosts[0]="hydro-serving.company.com" \
+  --set ui.ingress.enabled=true \
+  --set ui.ingress.hosts[0]="hydro-serving.company.com" \
   serving
 ```
 
@@ -167,7 +164,7 @@ $ kubectl create secret tls hydro-serving-tls --cert=path/to/tls.cert --key=path
 Include the secret's name, along with the desired hostnames, in the Sidecar Ingress TLS section of your custom values.yaml file:
 
 ```
-sidecar:
+ui:
   ingress:
     enabled: true
     hosts:
