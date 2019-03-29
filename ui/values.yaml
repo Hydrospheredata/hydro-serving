@@ -16,6 +16,19 @@ service:
   httpPort: 9090
   grpcPort: 9091
 
+ingress:
+  enabled: false
+  annotations: {}
+    # kubernetes.io/ingress.class: nginx
+    # kubernetes.io/tls-acme: "true"
+  path: /
+  hosts:
+    - hydro-serving.local
+  tls: []
+  #  - secretName: hydro-serving-tls
+  #    hosts:
+  #      - hydro-serving.local
+
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
   # choice for the user. This also increases chances charts run on environments with little
