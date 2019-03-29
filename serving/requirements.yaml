@@ -3,17 +3,10 @@ dependencies:
     repository: file://../docker-registry
     version: 0.1.0
     condition: global.dockerRegistry.enabled
-  - name: sidecar
-    repository: file://../sidecar
-    version: 0.1.0
   - name: postgres
     repository: file://../postgres
     version: 0.1.0
     condition: global.postgres.enabled
-  - name: elasticsearch
-    repository: file://../elasticsearch
-    version: 0.1.0
-    condition: global.elasticsearch.enabled
   - name: influx
     repository: file://../influx
     version: 0.1.0

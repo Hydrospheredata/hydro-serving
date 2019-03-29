@@ -26,11 +26,39 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
-              containerPort: 9091
+              containerPort: 80
+              protocol: TCP
+            - name: grpc
+              containerPort: 9090
               protocol: TCP
           env:
             - name: MANAGER_HOST
-              value: "hydro-serving-sidecar-{{ .Release.Name }}:8080"
+              value: "hydro-serving-manager-{{ .Release.Name }}"
+            - name: GATEWAY_HOST
+              value: "hydro-serving-gateway-{{ .Release.Name }}"
+            - name: REQSTORE_HOST
+              value: "localhost"
+            - name: MONITORING_HOST
+              value: "localhost"
+            - name: MANAGER_HTTP_PORT
+              value: "9090"
+            - name: MANAGER_GRPC_PORT
+              value: "9091"
+            - name: GATEWAY_HTTP_PORT
+              value: "9090"
+            - name: GATEWAY_GRPC_PORT
+              value: "9091"
+            - name: MONITORING_HTTP_PORT
+              value: "9090"
+            - name: MONITORING_GRPC_PORT
+              value: "9091"
+            - name: REQSTORE_HTTP_PORT
+              value: "9090"
+            - name: REQSTORE_GRPC_PORT
+              value: "9091"
+            {{- with .Values.env }}
+{{ toYaml .Values.env | indent 12 }}
+            {{- end }}
           livenessProbe:
             httpGet:
               path: /

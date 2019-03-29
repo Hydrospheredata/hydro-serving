@@ -18,6 +18,8 @@ global:
   elasticsearch:
     host: ""
 
+env: {}
+
 image:
   repository: hydrosphere/serving-manager
   tag: latest

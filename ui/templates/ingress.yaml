@@ -1,5 +1,5 @@
 {{- if .Values.ingress.enabled -}}
-{{- $fullName := include "sidecar.fullname" . -}}
+{{- $fullName := include "ui.fullname" . -}}
 {{- $ingressPath := .Values.ingress.path -}}
 {{- $releaseName := .Release.Name -}}
 apiVersion: extensions/v1beta1
@@ -8,8 +8,8 @@ metadata:
   name: {{ $fullName }}
   namespace: {{ .Release.Namespace }}
   labels:
-    app: {{ include "sidecar.name" . }}
-    chart: {{ include "sidecar.chart" . }}
+    app: {{ include "ui.name" . }}
+    chart: {{ include "ui.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 {{- with .Values.ingress.annotations }}
@@ -34,7 +34,7 @@ spec:
         paths:
           - path: {{ $ingressPath }}
             backend:
-              serviceName: "hydro-serving-sidecar-{{ $releaseName }}"
+              serviceName: "hydro-serving-ui-{{ $releaseName }}"
               servicePort: http
   {{- end }}
 {{- end }}

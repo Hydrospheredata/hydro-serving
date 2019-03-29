@@ -24,10 +24,6 @@ global:
     # username: ""
     # password: ""
 
-  elasticsearch:
-    enabled: true
-    # host: ""
-
   influx:
     enabled: true
     # host: ""
