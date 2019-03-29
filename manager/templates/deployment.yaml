@@ -102,7 +102,9 @@ spec:
             - name: REMOTE_DOCKER_PULL_HOST
               value: "localhost:5000"
             {{- end }}
+            {{- with .Values.env }}
 {{ toYaml .Values.env | indent 12 }}
+            {{- end }}
           volumeMounts:
             - name: dockerconfig
               mountPath: "/root/.docker"

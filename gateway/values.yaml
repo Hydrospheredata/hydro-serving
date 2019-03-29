@@ -13,8 +13,6 @@ image:
   tag: latest
   pullPolicy: Always
 
-env: {}
-
 service:
   type: ClusterIP
   http_port: 9090

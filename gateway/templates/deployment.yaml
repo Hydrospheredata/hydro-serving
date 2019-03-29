@@ -40,7 +40,9 @@ spec:
               value: "9090"
             - name: API_GATEWAY_GRPC_PORT
               value: "9091"
+            {{- with .Values.env }}
 {{ toYaml .Values.env | indent 12 }}
+            {{- end}}
           livenessProbe:
             httpGet:
               path: /health
