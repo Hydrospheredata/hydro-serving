@@ -160,7 +160,7 @@ object ApplicationService {
       for {
         apps <- applicationRepository.applicationsWithCommonServices(keysSet, applicationId)
         commonServiceKeys = apps.flatMap(_.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion.id))).toSet
-        servicesToDelete = modelVersions.filter(mv => commonServiceKeys.contains(mv.id))
+        servicesToDelete = modelVersions.filter(mv => !commonServiceKeys.contains(mv.id))
         _ <- servicesToDelete.toList.map(_.servableName).traverse(servableService.stop)
       } yield Unit
     }

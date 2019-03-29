@@ -59,7 +59,11 @@ object KubernetesClient {
           CloudDriver.Labels.ServiceName -> name,
           CloudDriver.Labels.ModelVersionId -> servable.modelVersionId.toString
         ))
-      val deployment = apps.v1.Deployment(metadata = ObjectMeta(name = servable.serviceName))
+      val deployment = apps.v1.Deployment(metadata = ObjectMeta(name = servable.serviceName, labels = Map(
+          CloudDriver.Labels.ServiceName -> name,
+          CloudDriver.Labels.ModelVersionId -> servable.modelVersionId.toString
+        )
+      ))
         // TODO: make it configurable from api 
         .withReplicas(1)
         .withTemplate(pod)
