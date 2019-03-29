@@ -97,3 +97,11 @@ entries:
     urls:
     - https://github.com/Hydrospheredata/hydro-serving-helm/releases/download/2.0.0/serving-2.0.0.tgz
     version: 2.0.0
+  - apiVersion: v1
+    created: 2019-03-29T18:48:38Z
+    description: A Helm chart for Kubernetes
+    digest: 3b763be54bec8eb8da6666087ce2ec391204af9df5a198e263ed253fa8ce11aa
+    name: serving
+    urls:
+    - https://github.com/Hydrospheredata/hydro-serving-helm/releases/download/2.0.1/serving-2.0.1.tgz
+    version: 2.0.1
