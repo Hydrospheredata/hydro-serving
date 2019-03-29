@@ -103,7 +103,7 @@ spec:
               value: "localhost:5000"
             {{- end }}
             {{- with .Values.env }}
-{{ toYaml .Values.env | indent 12 }}
+{{ toYaml . | indent 12 }}
             {{- end }}
           volumeMounts:
             - name: dockerconfig
