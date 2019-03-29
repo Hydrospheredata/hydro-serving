@@ -41,6 +41,8 @@ object DefaultConstants {
   val GATEWAY_ID: Long = -10
   val GATEWAY_HTTP_ID: Long = -11
   val GATEWAY_KAFKA_ID: Long = -12
+  val REQSTORE_ID: Long = -13
+  val REQSTORE_HTTP_ID: Long = -14
   val PROFILER_NAME: String = "profiler"
   val PROFILER_HTTP_NAME: String = "profiler-http"
   val MONITORING_NAME: String = "monitoring"
@@ -51,6 +53,8 @@ object DefaultConstants {
   val GATEWAY_NAME: String = "gateway"
   val GATEWAY_HTTP_NAME: String = "gateway-http"
   val GATEWAY_KAFKA_NAME: String = "gateway-kafka"
+  val REQSTORE_NAME: String = "reqstore"
+  val REQSTORE_HTTP_NAME: String = "reqstore-http"
 
   val specialIdsByNames = Map(
     PROFILER_NAME -> PROFILER_ID,
@@ -61,14 +65,17 @@ object DefaultConstants {
     MANAGER_UI_NAME -> MANAGER_UI_ID,
     GATEWAY_NAME -> GATEWAY_ID,
     GATEWAY_HTTP_NAME -> GATEWAY_HTTP_ID,
-    GATEWAY_KAFKA_NAME -> GATEWAY_KAFKA_ID
+    GATEWAY_KAFKA_NAME -> GATEWAY_KAFKA_ID,
+    REQSTORE_NAME -> REQSTORE_ID,
+    REQSTORE_HTTP_NAME -> REQSTORE_HTTP_ID
   )
 
   val fakeHttpServices = Map(
     GATEWAY_ID -> GATEWAY_HTTP_ID,
     PROFILER_ID -> PROFILER_HTTP_ID,
     MONITORING_ID -> MONITORING_HTTP_ID,
-    MANAGER_ID -> MANAGER_HTTP_ID
+    MANAGER_ID -> MANAGER_HTTP_ID,
+    REQSTORE_ID -> REQSTORE_HTTP_ID
   )
 
   val specialNamesByIds = Map(
@@ -81,7 +88,9 @@ object DefaultConstants {
     MANAGER_UI_ID -> MANAGER_UI_NAME,
     GATEWAY_ID -> GATEWAY_NAME,
     GATEWAY_HTTP_ID -> GATEWAY_HTTP_NAME,
-    GATEWAY_KAFKA_ID -> GATEWAY_KAFKA_NAME
+    GATEWAY_KAFKA_ID -> GATEWAY_KAFKA_NAME,
+    REQSTORE_ID -> REQSTORE_NAME,
+    REQSTORE_HTTP_ID -> REQSTORE_HTTP_NAME,
   )
 
 
