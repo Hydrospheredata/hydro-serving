@@ -37,9 +37,9 @@ spec:
             - name: GATEWAY_HOST
               value: "hydro-serving-gateway-{{ .Release.Name }}"
             - name: REQSTORE_HOST
-              value: "hydro-serving-reqstore-{{ .Release.Name }}"
+              value: "localhost"
             - name: MONITORING_HOST
-              value: "{{ .Release.Name }}-sonar"
+              value: "localhost"
             - name: MANAGER_HTTP_PORT
               value: "9090"
             - name: MANAGER_GRPC_PORT
