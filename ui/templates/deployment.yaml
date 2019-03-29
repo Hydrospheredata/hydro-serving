@@ -33,7 +33,7 @@ spec:
               protocol: TCP
           env:
             - name: MANAGER_HOST
-              value: "hydro-serving-sidecar-{{ .Release.Name }}"
+              value: "hydro-serving-manager-{{ .Release.Name }}"
             - name: GATEWAY_HOST
               value: "hydro-serving-gateway-{{ .Release.Name }}"
             - name: REQSTORE_HOST
