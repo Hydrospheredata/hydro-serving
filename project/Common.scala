@@ -14,14 +14,14 @@ object Common {
     fork in(IntegrationTest, testOnly) := true
   )
 
-  lazy val currentAppVersion = IO.read(file("version")).trim
+  lazy val currentAppVersion = sys.props.getOrElse("appVersion", IO.read(file("version")).trim)
 
   val settings: Seq[Def.Setting[_]] = Seq(
     version := currentAppVersion,
     scalaVersion := scalaVer,
     publishArtifact := false,
     organization := "io.hydrosphere.serving",
-    homepage := Some(url("http://localhost")),
+    homepage := Some(url("https://hydrosphere.io/serving-docs")),
     scalacOptions ++= Seq(
       "-unchecked",
       "-deprecation",
