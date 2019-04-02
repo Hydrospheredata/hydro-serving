@@ -1,4 +1,4 @@
-## THE NEW Hydrosphere Serving 
+## Hydrosphere Serving 
 
 __Hydrosphere Serving__ is an open source model management cluster for deploying, 
 serving and monitoring machine learning models and ad-hoc algorithms. 

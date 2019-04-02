@@ -71,7 +71,6 @@ $endif$
 <div class="page-content row">
 <div class="small-12 large-9 column" id="docs">
 $page.content$
-$source()$
 $if(page.next.html)$
 <div class="nav-next">
 <p><strong>Next:</strong> $page.next.html$</p>
