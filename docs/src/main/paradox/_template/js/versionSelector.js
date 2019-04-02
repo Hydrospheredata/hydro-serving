@@ -7,8 +7,6 @@ function initVersionSelector($, thisVersion, projectUrl) {
         const target = $('.version-selector');
         $.get(url)
         .success(function (versionData) {
-             console.log("AAAA");
-             console.log(versionData);
              populateVersionSelector(target, thisVersion, versionData);
              // Set the version redirect handler
              target.change(function(){
