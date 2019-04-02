@@ -3,7 +3,7 @@ import Keys._
 
 object Common {
 
-  val scalaVer = "2.12.6"
+  val scalaVer = "2.12.8"
 
   val testSettings = Seq(
     parallelExecution in Test := false,
@@ -21,6 +21,7 @@ object Common {
     scalaVersion := scalaVer,
     publishArtifact := false,
     organization := "io.hydrosphere.serving",
+    homepage := Some(url("http://localhost")),
     scalacOptions ++= Seq(
       "-unchecked",
       "-deprecation",

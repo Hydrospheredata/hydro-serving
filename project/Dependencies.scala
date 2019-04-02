@@ -9,8 +9,8 @@ object Dependencies {
   val scalaTestVersion = "3.0.3"
   val slickPgVersion = "0.15.4"
   val awsSdkVersion = "1.11.312"
-  val servingGrpcScala = "2.0.0rc5"
-  val catsV = "1.1.0"
+  val servingGrpcScala = "2.0.0-rc7dev1"
+  val catsV = "1.2.0"
   val envoyDataPlaneApi = "v1.6.0_1"
 
   lazy val awsDependencies = Seq(
@@ -76,9 +76,6 @@ object Dependencies {
     "org.bytedeco.javacpp-presets" % "hdf5-platform" % "1.10.2-1.4.2",
     "org.tensorflow" % "proto" % "1.10.0"
   )
-
-  lazy val hydroServingDummyRuntimeDependencies = logDependencies ++
-    grpcDependencies
 
   lazy val hydroServingManagerDependencies = logDependencies ++
     akkaDependencies ++

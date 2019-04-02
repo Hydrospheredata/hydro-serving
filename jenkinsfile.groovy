@@ -1,38 +1,32 @@
 def repository = 'hydro-serving'
 
 
-def buildAndPublishReleaseFunction={
-    //Buid serving
-    def curVersion = getVersion()
-    sh "sbt -DappVersion=${curVersion} compile docker"
-
-    //Buid docs
-    sh "sbt -DappVersion=${curVersion} makeMicrosite"
+def buildAndPublishReleaseFunction = {
+    sh "sbt compile"
 
     //Test
-    sh "sbt -DappVersion=${curVersion} test"
-    sh "sbt -DappVersion=${curVersion} it:testOnly"
+    sh "sbt test"
+    sh "sbt it:testOnly"
 
+    sh "sbt docker"
 
-    sh "sbt docs/makeMicrosite"
-    sh "jekyll build --source ${env.WORKSPACE}/docs/target/site --destination ${env.WORKSPACE}/docs/target/site/_site"
+    sh "sbt paradox"
     sshagent(['hydro-site-publish']) {
-        sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/site/_site/* jenkins_publish@hydrosphere.io:serving_publish_dir"
+        sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/main/* jenkins_publish@hydrosphere.io:serving_publish_dir"
     }
 }
 
 
 def buildFunction={
-    //Buid serving
-    def curVersion = getVersion()
-    sh "sbt -DappVersion=${curVersion} compile docker"
-
-    //Buid docs
-    sh "sbt -DappVersion=${curVersion} makeMicrosite"
+    sh "sbt compile docker"
 
     //Test
-    sh "sbt -DappVersion=${curVersion} test"
-    sh "sbt -DappVersion=${curVersion} it:testOnly"
+    sh "sbt test"
+    sh "sbt it:testOnly"
+
+    sh "sbt paradox"
+
+    sh "jq"
 }
 
 def collectTestResults = {
@@ -42,7 +36,7 @@ def collectTestResults = {
 pipelineCommon(
         repository,
         false, //needSonarQualityGate,
-        ["hydrosphere/serving-manager", "hydrosphere/serving-runtime-dummy"],
+        ["hydrosphere/serving-manager"],
         collectTestResults,
         buildAndPublishReleaseFunction,
         buildAndPublishReleaseFunction,
