@@ -2,7 +2,8 @@ package io.hydrosphere.serving.manager.discovery
 
 import cats.effect.Sync
 import io.grpc.stub.StreamObserver
-import io.hydrosphere.serving.discovery.serving.{ServingApp, WatchResp}
+import io.hydrosphere.serving.discovery.serving.WatchResp
+import io.hydrosphere.serving.manager.grpc.entities.ServingApp
 
 trait AppsObserver[F[_]] {
   def apps(apps: List[ServingApp]): F[Unit]

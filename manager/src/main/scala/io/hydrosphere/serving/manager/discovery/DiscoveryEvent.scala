@@ -1,6 +1,6 @@
 package io.hydrosphere.serving.manager.discovery
 
-import io.hydrosphere.serving.discovery.serving.ServingApp
+import io.hydrosphere.serving.manager.grpc.entities.ServingApp
 
 sealed trait DiscoveryEvent
 object DiscoveryEvent {

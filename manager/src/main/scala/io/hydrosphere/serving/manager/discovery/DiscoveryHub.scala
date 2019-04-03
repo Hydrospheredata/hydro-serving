@@ -5,8 +5,8 @@ import cats.implicits._
 import cats.effect.{Concurrent, Sync}
 import cats.effect.concurrent.{Ref, Semaphore}
 import cats.effect.implicits._
-import io.hydrosphere.serving.discovery.serving.ServingApp
 import io.hydrosphere.serving.manager.domain.application.Application
+import io.hydrosphere.serving.manager.grpc.entities.ServingApp
 
 trait DiscoveryHub[F[_]] {
   def update(e: DiscoveryEvent): F[Unit]

@@ -8,12 +8,13 @@ import cats.effect.concurrent.Deferred
 import cats.effect.implicits._
 import io.hydrosphere.serving.contract.model_contract.ModelContract
 import io.hydrosphere.serving.contract.model_signature.ModelSignature
-import io.hydrosphere.serving.discovery.serving.{ServingApp, Stage}
 import io.hydrosphere.serving.manager.discovery.DiscoveryHub
 import io.hydrosphere.serving.manager.domain.DomainError
 import io.hydrosphere.serving.manager.domain.DomainError.{InvalidRequest, NotFound}
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepository}
 import io.hydrosphere.serving.manager.domain.servable.{Servable, ServableRepository, ServableService, ServableStatus}
+import io.hydrosphere.serving.manager.{domain, grpc}
+import io.hydrosphere.serving.manager.grpc.entities.{ServingApp, Stage}
 import io.hydrosphere.serving.model.api.TensorExampleGenerator
 import io.hydrosphere.serving.model.api.json.TensorJsonLens
 import org.apache.logging.log4j.scala.Logging
@@ -71,7 +72,7 @@ object ApplicationService {
       val finished = for {
         servables   <- versions.toList.traverse(mv => servableService.deploy(mv.servableName, mv.id, mv.image))
         finishedApp =  application.copy(status = ApplicationStatus.Ready)
-        translated  <- Concurrent[F].fromEither(Inernals.toServingApp(finishedApp, servables))
+        translated  <- Concurrent[F].fromEither(Internals.toServingApp(finishedApp, servables))
         _           <- discoveryHub.added(translated)
         _           <- applicationRepository.update(finishedApp)
       } yield finishedApp
@@ -164,7 +165,7 @@ object ApplicationService {
         _ <- servicesToDelete.toList.map(_.servableName).traverse(servableService.stop)
       } yield Unit
     }
-    
+
     private def composeInitApp(name: String, namespace: Option[String], graph: ApplicationExecutionGraph, signature: ModelSignature, kafkaStreaming: Seq[ApplicationKafkaStream], id: Long = 0) = {
       Application(
         id = id,
@@ -239,12 +240,12 @@ object ApplicationService {
       ).value
     }
   }
-  
-  object Inernals extends Logging {
-    
-    import io.hydrosphere.serving.discovery.serving.{Servable => GServable}
-    import io.hydrosphere.serving.discovery.serving.{Stage => GStage}
-    
+
+  object Internals extends Logging {
+
+    import io.hydrosphere.serving.manager.grpc.entities.{Servable => GServable}
+    import io.hydrosphere.serving.manager.grpc.entities.{Stage => GStage}
+
     def toServingApp(
       app: Application,
       servables: List[Servable]
@@ -263,10 +264,23 @@ object ApplicationService {
         )
       })
     }
-    
+
+    def modelVersionToGrpcEntity(mv: domain.model_version.ModelVersion): grpc.entities.ModelVersion = grpc.entities.ModelVersion(
+      id = mv.id,
+      version = mv.modelVersion,
+      modelType = "",
+      status = mv.status.toString,
+      selector = mv.hostSelector.map(s => grpc.entities.HostSelector(s.id, s.name)),
+      model = Some(grpc.entities.Model(mv.model.id, mv.model.name)),
+      contract = Some(ModelContract(mv.modelContract.modelName, mv.modelContract.predict)),
+      image = Some(grpc.entities.DockerImage(mv.image.name, mv.image.tag)),
+      imageSha = mv.image.sha256.getOrElse(""),
+      runtime = Some(grpc.entities.DockerImage(mv.runtime.name, mv.runtime.tag))
+    )
+
     def toGServable(mv: ModelVariant, servables: Map[Long, Servable]): Either[Throwable, GServable] = {
       servables.get(mv.modelVersion.id) match {
-        case Some(Servable(_, name, ServableStatus.Running(host, port))) => GServable(host, port, mv.weight).asRight
+        case Some(Servable(_, _, ServableStatus.Running(host, port))) => GServable(host, port, mv.weight, Some(modelVersionToGrpcEntity(mv.modelVersion))).asRight
         case Some(s) => new Exception(s"Invalid servable state for ${mv.modelVersion.model.name}:${mv.modelVersion.id} - $s").asLeft
         case None => new Exception(s"Could not find servable for  ${mv.modelVersion.model.name}:${mv.modelVersion.id}").asLeft
       }

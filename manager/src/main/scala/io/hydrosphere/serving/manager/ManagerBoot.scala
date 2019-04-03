@@ -9,13 +9,13 @@ import akka.util.Timeout
 import cats.effect.{ContextShift, IO}
 import cats.implicits._
 import com.spotify.docker.client.DefaultDockerClient
-import io.hydrosphere.serving.discovery.serving.ServingApp
 import io.hydrosphere.serving.manager.discovery.{DiscoveryGrpc, DiscoveryHub}
 import io.hydrosphere.serving.manager.api.grpc.GrpcApiServer
 import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration}
 import io.hydrosphere.serving.manager.api.http.HttpApiServer
-import io.hydrosphere.serving.manager.domain.application.ApplicationService.Inernals
+import io.hydrosphere.serving.manager.domain.application.ApplicationService.Internals
 import io.hydrosphere.serving.manager.domain.clouddriver.CloudDriver
+import io.hydrosphere.serving.manager.grpc.entities.ServingApp
 import io.hydrosphere.serving.manager.util.ReflectionUtils
 import org.apache.logging.log4j.scala.Logging
 
@@ -66,7 +66,7 @@ object ManagerBoot extends App with Logging {
       } yield {
         val versions = app.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion))
         val deployed = instances.filter(inst => versions.map(_.id).contains(inst.modelVersionId))
-        IO.fromEither(Inernals.toServingApp(app, deployed))
+        IO.fromEither(Internals.toServingApp(app, deployed))
       }
       servingApps <- needToDeploy.toList.sequence[IO, ServingApp]
       _ <- servingApps.map(x => observed.added(x)).sequence
