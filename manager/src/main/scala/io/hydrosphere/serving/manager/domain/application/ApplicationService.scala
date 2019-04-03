@@ -128,8 +128,8 @@ object ApplicationService {
         newApplication = composedApp.copy(id = oldApplication.id)
         keysSetOld = oldApplication.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion)).toSet
         keysSetNew = appRequest.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersionId)).toSet
-        servicesToAdd = keysSetNew.filter(id => keysSetOld.exists(_.id == id)) // -- keysSetOld
-        servicesToRemove = keysSetOld.filter(mv => keysSetNew.contains(mv.id)) // -- keysSetNew
+        servicesToAdd = keysSetNew.filterNot(id => keysSetOld.exists(_.id == id)) // -- keysSetOld
+        servicesToRemove = keysSetOld.filterNot(mv => keysSetNew.contains(mv.id)) // -- keysSetNew
 
         _ <- EitherT.liftF[F, DomainError, Unit](removeServiceIfNeeded(servicesToRemove, appRequest.id))
         versions <- EitherT.liftF[F, DomainError, Seq[ModelVersion]](versionRepository.get(servicesToAdd.toSeq))
@@ -240,7 +240,7 @@ object ApplicationService {
     }
   }
   
-  object Inernals {
+  object Inernals extends Logging {
     
     import io.hydrosphere.serving.discovery.serving.{Servable => GServable}
     import io.hydrosphere.serving.discovery.serving.{Stage => GStage}

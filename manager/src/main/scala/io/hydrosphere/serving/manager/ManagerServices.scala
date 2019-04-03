@@ -28,8 +28,9 @@ class ManagerServices[F[_]: ConcurrentEffect](
   val managerRepositories: ManagerRepositories[F],
   val managerConfiguration: ManagerConfiguration,
   val dockerClient: DockerClient,
-  val dockerClientConfig: DockerClientConfig
-)(
+  val dockerClientConfig: DockerClientConfig,
+  val cloudDriverService: CloudDriver[F]
+                                             )(
   implicit val ex: ExecutionContext,
   implicit val system: ActorSystem,
   implicit val materializer: ActorMaterializer,
@@ -77,7 +78,7 @@ class ManagerServices[F[_]: ConcurrentEffect](
 //    dockerRepositoryConfiguration = managerConfiguration.dockerRepository,
 //    sidecarConfig = managerConfiguration.sidecar
 //  )
-  val cloudDriverService: CloudDriver[F] = CloudDriver.fromConfig(managerConfiguration.cloudDriver, managerConfiguration.dockerRepository)
+//  val cloudDriverService: CloudDriver[F] = CloudDriver.fromConfig(managerConfiguration.cloudDriver, managerConfiguration.dockerRepository)
 
   logger.info(s"Using ${cloudDriverService.getClass} cloud driver")
 

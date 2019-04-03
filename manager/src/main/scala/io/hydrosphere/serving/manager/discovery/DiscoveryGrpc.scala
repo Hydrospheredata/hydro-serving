@@ -3,25 +3,16 @@ package io.hydrosphere.serving.manager.discovery
 import java.util.UUID
 
 import cats.effect.Effect
-import io.grpc.ServerBuilder
 import io.grpc.stub.StreamObserver
 import io.hydrosphere.serving.discovery.serving.ServingDiscoveryGrpc.ServingDiscovery
 import io.hydrosphere.serving.discovery.serving._
 import org.apache.logging.log4j.scala.Logging
 
-import scala.concurrent.{ExecutionContext, Future}
+import scala.concurrent.Future
 
 object DiscoveryGrpc {
   
-  def server[F[_]](
-    discoveryHub: ObservedDiscoveryHub[F],
-    port: Int
-  )(implicit F: Effect[F]): io.grpc.Server = {
-    val service = ServingDiscoveryGrpc.bindService(new GrpcServingDiscovery[F](discoveryHub), ExecutionContext.global)
-    ServerBuilder.forPort(port).addService(service).build()
-  }
-  
-  private class GrpcServingDiscovery[F[_]](
+  class GrpcServingDiscovery[F[_]](
     discoveryHub: ObservedDiscoveryHub[F])(
     implicit F: Effect[F]
   ) extends ServingDiscovery with Logging {
