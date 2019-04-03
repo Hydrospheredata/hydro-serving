@@ -33,7 +33,7 @@ spec:
               protocol: TCP
           env:
             - name: APP_OPTS
-              value: "-Dapplication.reqstore.enabled={{ .Values.global.reqstore_enabled }} -Dapplication.reqstore.address.host=hydro-serving-reqstore-{{ .Release.Name }} -Dapplication.reqstore.address.port=9090"
+              value: "-Dapplication.reqstore-enabled={{ .Values.global.reqstore_enabled }}"
             - name: API_GATEWAY_HOST
               value: "hydro-serving-ui-{{ .Release.Name }}"
             - name: API_GATEWAY_HTTP_PORT
