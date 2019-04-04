@@ -23,6 +23,7 @@ object SlickGen {
   lazy val slickCodeGenTask = taskKey[Unit]("Slick codegen")
 
   lazy val settings = Seq(
+    unmanagedSourceDirectories in Compile += sourceManaged.value,
     startDatabase := {
       val s = streams.value
       startPg(s.log)

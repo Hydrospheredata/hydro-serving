@@ -4,15 +4,14 @@ def repository = 'hydro-serving'
 def buildAndPublishReleaseFunction = {
     def curVersion = getVersion()
 
-    sh "sbt compile"
+    sh "cd manager && sbt -DappVersion=${curVersion} compile"
 
-    //Test
-    sh "sbt test"
-    sh "sbt it:testOnly"
+    sh "cd manager && sbt -DappVersion=${curVersion} test"
+    sh "cd manager && sbt -DappVersion=${curVersion} it:testOnly"
 
-    sh "sbt docker"
+    sh "cd manager && sbt -DappVersion=${curVersion} docker"
 
-    sh "sbt paradox"
+    sh "cd docs && sbt -DappVersion=${curVersion} paradox"
     sshagent(['hydro-site-publish']) {
         sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/main/* jenkins_publish@hydrosphere.io:serving_publish_dir_new/${curVersion}"
         sh "ssh -o StrictHostKeyChecking=no -t jenkins_publish@hydrosphere.io \"sudo ln -Fs ~/serving_docs_new/${curVersion} ~/serving_docs_new/latest\""
@@ -23,18 +22,34 @@ def buildAndPublishReleaseFunction = {
 }
 
 
-def buildFunction={
-    sh "sbt compile docker"
+def buildMasterFunction = {
+    def curVersion = getVersion()
 
-    //Test
-    sh "sbt test"
-    sh "sbt it:testOnly"
+    sh "cd manager && sbt -DappVersion=${curVersion} compile"
 
-    sh "sbt -DappVersion=dev paradox"
+    sh "cd manager && sbt -DappVersion=${curVersion} test"
+    sh "cd manager && sbt -DappVersion=${curVersion} it:testOnly"
+
+    sh "cd manager && sbt -DappVersion=${curVersion} docker"
+
+    sh "cd docs && sbt -DappVersion=dev paradox"
 
     sshagent(['hydro-site-publish']) {
         sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/main/* jenkins_publish@hydrosphere.io:serving_publish_dir_new/dev"
     }
+}
+
+def buildFunction = {
+    def curVersion = getVersion()
+
+    sh "cd manager && sbt -DappVersion=${curVersion} compile"
+
+    sh "cd manager && sbt -DappVersion=${curVersion} test"
+    sh "cd manager && sbt -DappVersion=${curVersion} it:testOnly"
+
+    sh "cd manager && sbt -DappVersion=${curVersion} docker"
+
+    sh "cd docs && sbt -DappVersion=dev paradox"
 }
 
 def collectTestResults = {
@@ -47,7 +62,7 @@ pipelineCommon(
         ["hydrosphere/serving-manager"],
         collectTestResults,
         buildAndPublishReleaseFunction,
-        buildAndPublishReleaseFunction,
+        buildMasterFunction,
         buildFunction,
         null,
         "",

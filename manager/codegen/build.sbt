@@ -1,5 +1,5 @@
 lazy val codegen = project.in(file("."))
-  .settings(Common.settings)
+  .settings(Settings.all)
   .settings(
     exportJars := true,
     libraryDependencies ++= Dependencies.codegenDependencies
