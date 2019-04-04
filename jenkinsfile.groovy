@@ -38,7 +38,7 @@ if (getJobType() == "RELEASE_JOB") {
       def curVersion = getVersion()
       def tagComment = generateTagComment()
 
-      sh "cd helm && git commit -a -m 'Releasing ${curVersion}'"
+      sh "git commit --allow-empty -a -m 'Releasing ${curVersion}'"
 
       writeFile file: "/tmp/tagMessage${curVersion}", text: tagComment
       sh "git tag -a ${curVersion} --file /tmp/tagMessage${curVersion}"
