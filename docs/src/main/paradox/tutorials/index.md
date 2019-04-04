@@ -5,31 +5,37 @@
 * [Serving Tensorflow Model](tensorflow.md)
 @@@
 
-In this page you'll learn how to deploy your first model on Hydrosphere Serving. We will start from scratch and create a simple linear regression model that will learn to fit our randomly generated data with some noize added to it. After the training step we will pack it, deploy to the Serving and call it locally with the different program. 
+In this page you'll learn how to deploy your first model on Hydrosphere Serving. 
+We will start from scratch and create a simple linear regression model that will learn to
+fit our randomly generated data with some noize added to it. 
+After the training step we will pack it, deploy to the Serving and call it locally with the different program. 
 
 ## Prerequisites
 
-We are assuming, that you've already [installed]({{site.baseurl}}{%link installation.md%}) Serving instance on your working machine and a [cli-tool]({{site.baseurl}}{%link installation.md%}#cli) on your local machine from where you'll upload models. Those should not necessarily be separate machines, but in practice they probably would. 
+We assume that you already have an [installed](/installation.md) serving cluster and 
+@ref:[CLI](../install/index.md#CLI) on your local machine from where you'll upload models. 
 
 ### Setup a cluster
 
-Once you've installed the cli-tool, you'll need to define a cluster, where you're gonna be working on. 
+First of all, we need to let CLI know where is our serving cluster.
+For this example, we installed serving cluster locally, so address would be localhost. 
 
 ```sh 
-$ hs cluster add --name local --server http://localhost
-```
-
-As the `--server` parameter provide the address of your Serving instance. In our case it will be a localhost. If that's your first cluster, `hs` will use it by default, otherwise switch to it manually.
-
-```sh 
-$ hs cluster use local
+hs cluster add --name local --server http://localhost
+hs cluster use local
 ```
 
 ## Training a model 
 
-Now we can start working with our linear regression model. It's a fairly simple model that will learn to fit a randomly generated regression data with some noize added to it. For data generation we will use `sklearn.datasets.make_regression` ([Link](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_regression.html)). We will also scale it to the range [0, 1]. For building the model we will use [Keras](https://keras.io/) library with [Tensorflow](https://www.tensorflow.org/) backend. 
+Now we can start working with our linear regression model. 
+It's a fairly simple model that fits a randomly generated regression data with some noize added to it. 
+For data generation we will use `sklearn.datasets.make_regression`
+([Link](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_regression.html)). 
+We will also normalize data to the [0, 1] range. 
+We will build the model using [Keras](https://keras.io/) library 
+with [Tensorflow](https://www.tensorflow.org/) backend. 
 
-Create a directory for the model and add `model.py` inside it.
+First of all, create a directory for the model and add `model.py` inside it.
 
 ```sh
 $ mkdir linear_regression
@@ -37,7 +43,9 @@ $ cd linear_regression
 $ touch model.py
 ```
 
-The model will consist of 3 fully-connected layers with first two of them having ReLU activation function and 4 units, and the last one will be a summing unit with the linear activation. Put the following code in your `model.py` file. 
+The model will consist of 3 fully-connected layers with first two of them having ReLU activation function and 
+4 units, and the last one will be a summing unit with the linear activation.
+Put the following code in your `model.py` file. 
 
 ```python
 from keras.models import Sequential
@@ -69,21 +77,27 @@ model.fit(X, y, epochs=100)
 model.save('model.h5')
 ```
 
-After that run this file for a minute and it will create for you a new file with the model's weights called `model.h5`.  
+Then, you need to execute the script 
 
 ```sh
 $ python model.py
 ```
+As soon as script finishes, you will get a model saved in `model.h5` file.
 
-## Preparing the model
+## Model preparation
 
-Serving serves all models as Docker containers. Everytime it handles a request, it passes it to the appropriate Docker container with your model deployed on it. An important detail is that all model's files are stored in the `/model/files` directory inside the container. So, we will look up there in order to load the model. 
+Every model in cluster is deployed as an individual container. 
+After request is sent, it is passed it to the appropriate Docker container with your model deployed on it.
+An important detail is that all model's files are stored in the `/model/files` directory inside the container. 
+So, we will look up there in order to load the model. 
 
-For running this model we will use a Python runtime that will basically just run any Python code which you pass to it. Preparing the model is pretty straightforward, though you have to follow some rules: 
+To run this model we will use a Python runtime that will basically execute 
+any Python code which you pass to it. Preparation of a model is pretty straightforward,
+though you have to follow some rules:
 
-1. Stick to the specific folder structure in order to let `hs` to parse and upload it correctly;
-1. Provide necessary dependencies with `requirements.txt`;
-1. Provide contract file to let Serving understand model's inputs and outputs. 
+1. Stick to the specific folder structure in order to let `hs` parse and upload it correctly;
+2. Provide necessary dependencies with `requirements.txt`;
+3. Provide contract file to let model manager understand model's inputs and outputs. 
 
 We will start with the main functional file. 
 
@@ -93,7 +107,14 @@ $ cd src
 $ touch func_main.py
 ```
 
-Serving communicates with the model via [TensorProto](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/tensor.proto) messages. For Python models if you want to perform some transformation on the received TensorProto message you have to retrieve its content, make an action with it and pack the result back to the TensorProto message. To do that you have to define a function, that will be invoked every time Serving handles a request and passes it to the model. Inside the function you have to call a `predict` (or similar) method of your model and return your predictions. 
+Serving communicates with the model using 
+[TensorProto](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/tensor.proto) messages. 
+For Python models if you want to perform some transformation on the received 
+TensorProto message you have to retrieve its content, make an action with it 
+and pack the result back to the TensorProto message. To do that you have to define 
+a function, that will be invoked every time Serving handles a request and passes it 
+to the model. Inside the function you have to call a `predict` (or similar) method 
+of your model and return your predictions. 
 
 ```python
 import numpy as np
@@ -122,9 +143,18 @@ def infer(x):
     return hs.PredictResponse(outputs={"y": y_tensor})
 ```
 
-Since we need to initialize our model we will have to do that outside of our signature funcion, if we don't want to initialize the model everytime the request comes in. We do that on step (0). The signature function `infer` takes the actual request, unpacks it (1), makes a prediction (2), packs the answer back (3) and returns it (4). There's no a strict rule on how to name your signature function, it just have to be a valid python function name (since we use a Python runtime). 
+Since we need to initialize our model we will have to do that outside of our 
+signature funcion, if we don't want to initialize the model everytime the request 
+comes in. We do that on step (0). The signature function `infer` takes the actual
+request, unpacks it (1), makes a prediction (2), packs the answer back (3) and 
+returns it (4). There's no a strict rule on how to name your signature function,
+it just have to be a valid python function name (since we use a Python runtime). 
 
-If you're wondering how Serving will understand, which function to call from our provided file, then the answer is pretty easy — we have to provide a __contract__. A contract is a file, that defines the inputs and outputs of the model, signature functions and some other metadata required for serving. Go to the root directory of the model and create a `serving.yaml` file. 
+If you're wondering how Serving will understand, which function to call from our
+provided file, then the answer is pretty easy — we have to provide a __contract__.
+A contract is a file, that defines the inputs and outputs of the model, signature 
+functions and some other metadata required for serving. Go to the root directory 
+of the model and create a `serving.yaml` file. 
 
 ```sh
 $ cd ..
@@ -134,27 +164,30 @@ $ touch serving.yaml
 ```yaml
 kind: Model
 name: linear_regression
-model-type: python:3.6
+runtime: "hydrosphere/serving-runtime-python-3.6:dev"
+install-command: "pip install -r requirements.txt"
 payload:
   - "src/"
   - "requirements.txt"
   - "model.h5"
 
 contract:
-  infer:                    # Signature function
-    inputs:
-      x:                    # Input field
-        shape: [-1, 2]
-        type: double
-        profile: numerical
-    outputs:
-      y:                    # Output field
-        shape: [-1]
-        type: double
-        profile: numerical
+				name:infer                    # Signature function
+				inputs:
+								x:                    # Input field
+												shape: [-1, 2]
+												type: double
+												profile: numerical
+				outputs:
+								y:                    # Output field
+												shape: [-1]
+												type: double
+												profile: numerical
 ```
 
-Here you can also see, that we've provided a `requirements.txt` and a `model.h5` as payload files to our model. But we haven't created `requirements.txt` yet, let's do that too. 
+Here you can see, that we've provided a `requirements.txt` and a `model.h5` as 
+payload files to our model. 
+But we haven't created `requirements.txt` yet, let's do that too. 
 
 ```
 Keras==2.2.0
@@ -174,7 +207,8 @@ linear_regression
     └── func_main.py
 ```
 @@@ note
-Although, we have `model.py` inside directory, it won't be uploaded to Serving since we didn't specify it in the contract's payload.
+Although, we have `model.py` inside directory, it won't be uploaded to Serving 
+since we didn't specify it in the contract's payload.
 @@@
 
 ## Serving the model
@@ -187,13 +221,21 @@ $ hs upload
 
 You can open [http://localhost/models](http://localhost/models) page to see the uploaded model. 
 
-Once you've done that, you can create an __application__ for it. Basically, an application represents a final endpoint to your model, so you can invoke it from the outside. To learn more about advanced features, go to the [Applications]({{site.baseurl}}{%link concepts/applications.md%}) page. 
+Once you've done that, you can create an __application__ for it. Basically, an 
+application represents a final endpoint to your model, so you can invoke it from
+the outside. To learn more about advanced features, go to the 
+[Applications](concepts/applications.md) page. 
 
-![]({{site.baseurl}}{%link /img/linear_regression_application.png%})
+![](/images/linear_regression_application.png)
 
-Open [http://localhost/applications](http://localhost/applications), press `Add New` button. In the opened window select `linear_regression` model and as a runtime select `hydrosphere/serving-runtime-python`, then create an application. 
+Open [http://localhost/applications](http://localhost/applications), press 
+`Add New` button. In the opened window select `linear_regression` model and as 
+a runtime select `hydrosphere/serving-runtime-python`, 
+then create an application. 
 
-If you cannot find your newly uploaded model and it's listed in your models page, that means it's still in a building stage. Wait until the model changes its status to `Released`, then you can use it.
+If you cannot find your newly uploaded model and it's listed in your models 
+page, that means it's still in a building stage. Wait until the model changes 
+its status to `Released`, then you can use it.
 
 ## Invoking an application
 
@@ -201,7 +243,10 @@ Invoking applications is available via different interfaces.
 
 ### Test request
 
-You can perform test request to the model from UI interface. Open desired application and press `Test` button. Internally it will generate arbitrary input data from model's contract and send an HTTP-request to the application's endpoint. 
+You can perform test request to the model from UI interface. Open desired 
+application and press `Test` button. Internally it will generate arbitrary 
+input data from model's contract and send an HTTP-request to the 
+application's endpoint. 
 
 ### HTTP request
 
@@ -214,7 +259,8 @@ $ curl -X POST --header 'Content-Type: application/json' --header 'Accept: appli
 
 ### gRPC API call
 
-You can define a gRPC client on your side and make a call from it. Here we provide a Python example, but this can be done in any supported language. 
+You can define a gRPC client on your side and make a call from it. 
+Here we provide a Python example, but this can be done in any supported language. 
 
 ```python
 import grpc 
