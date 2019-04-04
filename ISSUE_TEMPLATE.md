@@ -1,30 +1,31 @@
 Hello! Looks like you got a question or encountered a nasty bug.
+Please fill in the template.
 
 You can ask questions in [gitter](https://gitter.im/Hydrospheredata/hydro-serving).
 
-Otherwise, please use the following template:
+# Issue / Feature request (choose one and delete the paragraph for other)
 
-## Infrastructure data
-### Manager information
-1. Manager version, or commit SHA.
-2. Manager logs.
-3. Manager deployment command.
-4. Manager configuration.
+---
 
-### Sidecar information
-1. Sidecar version or commit SHA.
-2. Sidecar logs.
-3. Sidecar deployment command.
-4. Sidecar configuration.
+## Issues
+### Infrastructure issue
+1. Cluster buildinfo  
+[Insert the result of `hs cluster buildinfo` or get it from web-ui]
+2. Logs of faulty service.
+3. Description of cluster installation.
 
-## ML data
-### Runtime
+### Runtime error
 1. Runtime image (if you got it from public sources)
-2. Repository with commit SHA or release tag (if you built it yourself)
-3. Runtime logs.
+2. Runtime logs.
 
-### Model
-1. What library did you use to train a model?
-2. How did you export a model?
-3. Did manager inferred a correct model contract?
-4. Did you change a model contract?
+### Resource definition error
+1. Resource definition
+[Insert the content of `.yaml` file]
+
+### Description
+[Describe the issue, and how it was encountered]
+
+---
+
+## Feature
+[Describe the issue, and how it was encountered]
