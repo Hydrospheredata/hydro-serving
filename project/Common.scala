@@ -3,7 +3,7 @@ import Keys._
 
 object Common {
 
-  val scalaVer = "2.12.6"
+  val scalaVer = "2.12.8"
 
   val testSettings = Seq(
     parallelExecution in Test := false,
@@ -14,13 +14,14 @@ object Common {
     fork in(IntegrationTest, testOnly) := true
   )
 
-  lazy val currentAppVersion = IO.read(file("version")).trim
+  lazy val currentAppVersion = sys.props.getOrElse("appVersion", IO.read(file("version")).trim)
 
   val settings: Seq[Def.Setting[_]] = Seq(
     version := currentAppVersion,
     scalaVersion := scalaVer,
     publishArtifact := false,
     organization := "io.hydrosphere.serving",
+    homepage := Some(url("https://hydrosphere.io/serving-docs-new")),
     scalacOptions ++= Seq(
       "-unchecked",
       "-deprecation",
