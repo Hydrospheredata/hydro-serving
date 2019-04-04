@@ -24,7 +24,6 @@ observe models’ inference on given data and so on.
 
 Features:
 * **Serverless** user experience in your data center or public cloud. 
-* State of the art architecture based on **Service mesh** powered by Envoy proxy  
 * **Plumbing**. Automatic generation of Protobuf contracts for REST, gRPC and Streaming Kafka API from the model metadata
 * Safe experiments and models warm up on **shadowed or canary traffic**
 * Unified across ML frameworks
