@@ -12,7 +12,7 @@ import io.hydrosphere.serving.manager.discovery.DiscoveryHub
 import io.hydrosphere.serving.manager.domain.DomainError
 import io.hydrosphere.serving.manager.domain.DomainError.{InvalidRequest, NotFound}
 import io.hydrosphere.serving.manager.domain.model_version.{ModelVersion, ModelVersionRepository}
-import io.hydrosphere.serving.manager.domain.servable.{Servable, ServableRepository, ServableService, ServableStatus}
+import io.hydrosphere.serving.manager.domain.servable.{Servable, ServableService, ServableStatus}
 import io.hydrosphere.serving.manager.{domain, grpc}
 import io.hydrosphere.serving.manager.grpc.entities.{ServingApp, Stage}
 import io.hydrosphere.serving.model.api.TensorExampleGenerator
@@ -281,7 +281,7 @@ object ApplicationService {
     def toGServable(mv: ModelVariant, servables: Map[Long, Servable]): Either[Throwable, GServable] = {
       servables.get(mv.modelVersion.id) match {
         case Some(Servable(_, _, ServableStatus.Running(host, port))) => GServable(host, port, mv.weight, Some(modelVersionToGrpcEntity(mv.modelVersion))).asRight
-        case Some(s) => new Exception(s"Invalid servable state for ${mv.modelVersion.model.name}:${mv.modelVersion.id} - $s").asLeft
+        case Some(s) => new Exception(s"Invalid servable state for ${mv.modelVersion.model.name}:${mv.modelVersion.id} - $s").asLeft // TODO what about starting servables?
         case None => new Exception(s"Could not find servable for  ${mv.modelVersion.model.name}:${mv.modelVersion.id}").asLeft
       }
     }

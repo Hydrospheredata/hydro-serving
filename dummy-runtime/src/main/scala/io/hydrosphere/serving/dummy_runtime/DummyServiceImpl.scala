@@ -3,15 +3,17 @@ package io.hydrosphere.serving.dummy_runtime
 import java.time.LocalDateTime
 
 import com.google.protobuf.ByteString
+import com.google.protobuf.empty.Empty
 import io.hydrosphere.serving.tensorflow.api.predict.{PredictRequest, PredictResponse}
 import io.hydrosphere.serving.tensorflow.api.prediction_service.PredictionServiceGrpc.PredictionService
+import io.hydrosphere.serving.tensorflow.api.prediction_service.StatusResponse
 import io.hydrosphere.serving.tensorflow.tensor.TensorProto
 import io.hydrosphere.serving.tensorflow.types.DataType
 import org.apache.logging.log4j.scala.Logging
 
 import scala.concurrent.Future
 
-class DummyServiceImpl extends PredictionService with Logging{
+class DummyServiceImpl extends PredictionService with Logging {
 
   import scala.concurrent.ExecutionContext.Implicits._
 
@@ -30,4 +32,11 @@ class DummyServiceImpl extends PredictionService with Logging{
       response
     }
   }
+
+  override def status(request: Empty): Future[StatusResponse] = Future.successful(
+    StatusResponse(
+      status = StatusResponse.ServiceStatus.SERVING,
+      message = "Dummy runtime is ready"
+    )
+  )
 }
