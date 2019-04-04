@@ -49,6 +49,8 @@ if (getJobType() == "RELEASE_JOB") {
       def sedCommand = "'s/[0-9]+\\.[0-9]+\\.[0-9]+\\/serving-[0-9]+\\.[0-9]+\\.[0-9]+\\.tgz/${curVersion}\\/serving-${curVersion}.tgz/g'"
       sh "cd helm && sed -i 'README.md' -E -e ${sedCommand} README.md"
       sh "cd helm && ./add_version.sh ${curVersion} ${sha}"
+      
+      sh "git commit --allow-empty -a -m 'Publishing new version ${curVersion}'"
 
       pushSource(repository)
       pushSource(repository, "refs/tags/${curVersion}")
