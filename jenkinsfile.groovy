@@ -1,49 +1,87 @@
 def repository = 'hydro-serving'
 
 
-def buildAndPublishReleaseFunction = {
-    def curVersion = getVersion()
+if (getJobType() == "RELEASE_JOB") {
+  node("JenkinsOnDemand") {
 
-    sh "cd docs && sbt -DappVersion=${curVersion} paradox"
-    sshagent(['hydro-site-publish']) {
-        sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/main/* jenkins_publish@hydrosphere.io:serving_publish_dir_new/${curVersion}"
-        sh "ssh -o StrictHostKeyChecking=no -t jenkins_publish@hydrosphere.io \"sudo ln -Fs ~/serving_docs_new/${curVersion} ~/serving_docs_new/latest\""
-        sh "ssh -o StrictHostKeyChecking=no -t jenkins_publish@hydrosphere.io \"sudo cp ~/serving_docs_new/latest/paradox.json ~/serving_docs_new/paradox.json\""
-        sh "ssh -o StrictHostKeyChecking=no -t jenkins_publish@hydrosphere.io \"jq '.[. | length] |= . + \"${curVersion}\"' ~/serving_docs_new/versions.json > ~/serving_docs_new/versions_new.json\""
-        sh "ssh -o StrictHostKeyChecking=no -t jenkins_publish@hydrosphere.io \"mv ~/serving_docs_new/versions_new.json  ~/serving_docs_new/versions.json\""
+    stage("Initialize") {
+      cleanWs()
+      loginDockerRepository()
     }
-}
 
-
-def buildMasterFunction = {
-    def curVersion = getVersion()
-
-    sh "cd docs && sbt -DappVersion=dev paradox"
-
-    sshagent(['hydro-site-publish']) {
-        sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/main/* jenkins_publish@hydrosphere.io:serving_publish_dir_new/dev"
+    stage("Checkout") {
+      autoCheckout(repository)
     }
+
+    stage("Test Release") {
+        sh "cd helm && helm dependency build serving"
+        // lint
+        sh "cd helm && rc=0; for chart in \$(ls -d ./*/); do helm lint \$chart || rc=\$?; done; return \$rc"
+        // test
+        sh "cd helm && helm template serving"
+    }
+
+    stage("Publish docs") {
+        def curVersion = getVersion()
+
+        sh "cd docs && sbt -DappVersion=${curVersion} paradox"
+        sshagent(['hydro-site-publish']) {
+            sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/main/* jenkins_publish@hydrosphere.io:serving_publish_dir_new/${curVersion}"
+            sh "ssh -o StrictHostKeyChecking=no -t jenkins_publish@hydrosphere.io \"sudo ln -Fs ~/serving_docs_new/${curVersion} ~/serving_docs_new/latest\""
+            sh "ssh -o StrictHostKeyChecking=no -t jenkins_publish@hydrosphere.io \"sudo cp ~/serving_docs_new/latest/paradox.json ~/serving_docs_new/paradox.json\""
+            sh "ssh -o StrictHostKeyChecking=no -t jenkins_publish@hydrosphere.io \"jq '.[. | length] |= . + \"${curVersion}\"' ~/serving_docs_new/versions.json > ~/serving_docs_new/versions_new.json\""
+            sh "ssh -o StrictHostKeyChecking=no -t jenkins_publish@hydrosphere.io \"mv ~/serving_docs_new/versions_new.json  ~/serving_docs_new/versions.json\""
+        }
+    }
+
+    stage("Create GitHub Release") {
+      def curVersion = getVersion()
+      def tagComment = generateTagComment()
+
+      sh "cd helm && git commit -a -m 'Releasing ${curVersion}'"
+
+      writeFile file: "/tmp/tagMessage${curVersion}", text: tagComment
+      sh "git tag -a ${curVersion} --file /tmp/tagMessage${curVersion}"
+      sh "git checkout ${env.BRANCH_NAME}"
+
+      sh "cd helm && helm package --dependency-update --version ${curVersion} serving"
+      def releaseFile = "serving-${curVersion}.tgz"
+
+      def sha = sh(script: "cd helm && shasum -a 256 -b ${releaseFile} | awk '{ print \$1 }'", returnStdout: true).trim()
+      def sedCommand = "'s/[0-9]+\\.[0-9]+\\.[0-9]+\\/serving-[0-9]+\\.[0-9]+\\.[0-9]+\\.tgz/${curVersion}\\/serving-${curVersion}.tgz/g'"
+      sh "cd helm && sed -i 'README.md' -E -e ${sedCommand} README.md"
+      sh "cd helm && ./add_version.sh ${curVersion} ${sha}"
+
+      pushSource(repository)
+      pushSource(repository, "refs/tags/${curVersion}")
+
+      def releaseInfo = createReleaseInGithub(curVersion, tagComment, repository)
+      def githubReleaseInfo = readJSON text: "${releaseInfo}"
+      uploadFilesToGithub(githubReleaseInfo.id.toString(), releaseFile, releaseFile, repository)
+
+      sh "git checkout gh-pages"
+      sh "git merge master"
+      pushSource(repository)
+      sh "git checkout ${env.BRANCH_NAME}"
+    }
+  }
+} else {
+    node("JenkinsOnDemand") {
+      stage("Initialize") {
+      cleanWs()
+      loginDockerRepository()
+    }
+
+    stage("Checkout") {
+      autoCheckout(repository)
+    }
+
+    stage("Test Release") {
+        sh "cd helm && helm dependency build serving"
+        // lint
+        sh "cd helm && rc=0; for chart in \$(ls -d ./*/); do helm lint \$chart || rc=\$?; done; return \$rc"
+        // test
+        sh "cd helm && helm template serving"
+    }
+  }
 }
-
-def buildFunction = {
-    def curVersion = getVersion()
-
-    sh "cd docs && sbt -DappVersion=dev paradox"
-}
-
-def collectTestResults = {}
-
-pipelineCommon(
-        repository,
-        false, //needSonarQualityGate,
-        ["hydrosphere/serving-manager"],
-        collectTestResults,
-        buildAndPublishReleaseFunction,
-        buildMasterFunction,
-        buildFunction,
-        null,
-        "",
-        "",
-        {},
-        {}
-)
