@@ -40,7 +40,7 @@ a little bit hacky (ok, it is _very_ hacky): registry chart opens
 Add hydro-serving repo
 
 ```
-$ helm repo add hydro-serving https://hydrospheredata.github.io/hydro-serving/
+$ helm repo add hydro-serving https://hydrospheredata.github.io/hydro-serving/helm/
 ```
 
 Install the chart:
@@ -112,15 +112,15 @@ The following table lists the configurable parameters of the HydroServing chart 
 | `global.influx.port`                  | InfludDB port                                         | `nil`                             |
 | `global.influx.database`              | InfluxDB database naem                                | `nil`                             |
 | `manager.image.repository`            | Container image for `manager`                         | `hydrosphere/serving-manager`     |
-| `manager.image.tag`                   | Container image tag for `manager`                     | `latest`                          |
+| `manager.image.tag`                   | Container image tag for `manager`                     | `2.0.0`                          |
 | `manager.image.pullPolicy`            | Container pull policy                                 | `Always`                          |
 | `manager.serviceAccount.create`       | Specifies whether a ServiceAccount should be created  | `true`                            |
 | `manager.serviceAccount.name`         | The name of the ServiceAccounts to use.               | `nil` (auto-generated)            |
 | `gateway.image.repository`            | Container image for `gateway`                         | `hydrosphere/serving-gateway`     |
-| `gateway.image.tag`                   | Container image tag for `gateway`                     | `latest`                          |
+| `gateway.image.tag`                   | Container image tag for `gateway`                     | `2.0.0`                          |
 | `gateway.image.pullPolicy`            | Container pull policy                                 | `Always`                          |
 | `ui.image.repository`                 | Container image for `ui`                              | `hydrosphere/serving-manager-ui`  |
-| `ui.image.tag`                        | Container image tag for `ui`                          | `latest`                          |
+| `ui.image.tag`                        | Container image tag for `ui`                          | `2.0.0`                          |
 | `ui.image.pullPolicy`                 | Container pull policy                                 | `Always`                          |
 | `ui.ingress.enabled`             | Whether to install ingress to expose hydro-serving    | `false`                            |
 | `ui.ingress.annotations`         | Kubernetes annotations for ingress                    | `{}`                              |
