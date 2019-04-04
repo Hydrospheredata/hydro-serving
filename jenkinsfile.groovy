@@ -27,10 +27,8 @@ if (getJobType() == "RELEASE_JOB") {
         sh "cd docs && sbt -DappVersion=${curVersion} paradox"
         sshagent(['hydro-site-publish']) {
             sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/main jenkins_publish@hydrosphere.io:serving_publish_dir_new/${curVersion}"
-            sh "ssh -o StrictHostKeyChecking=no -tt jenkins_publish@hydrosphere.io \"sudo ln -Fs ~/serving_docs_new/${curVersion} ~/serving_docs_new/latest\""
-            sh "ssh -o StrictHostKeyChecking=no -tt jenkins_publish@hydrosphere.io \"sudo cp ~/serving_docs_new/latest/paradox.json ~/serving_docs_new/paradox.json\""
-            sh "ssh -o StrictHostKeyChecking=no -tt jenkins_publish@hydrosphere.io \"jq '.[. | length] |= . + \"${curVersion}\"' ~/serving_docs_new/versions.json > ~/serving_docs_new/versions_new.json\""
-            sh "ssh -o StrictHostKeyChecking=no -tt jenkins_publish@hydrosphere.io \"mv ~/serving_docs_new/versions_new.json  ~/serving_docs_new/versions.json\""
+            sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/src/sh jenkins_publish@hydrosphere.io:serving_scripts"
+            sh "ssh -o StrictHostKeyChecking=no -tt jenkins_publish@hydrosphere.io \"sh ~/serving_scripts/releaseDocs.sh ${curVersion}\""
         }
     }
 
