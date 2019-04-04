@@ -31,7 +31,7 @@ $ helm install --name serving hydrosphere/serving
 Choose a release from the [releases page](https://github.com/Hydrospheredata/hydro-serving/releases) and install it as usual.
    
 ```sh
-$ helm install --name serving https://github.com/Hydrospheredata/hydro-serving/releases/download/2.0.0/serving-2.0.0tgz
+$ helm install --name serving https://github.com/Hydrospheredata/hydro-serving/releases/download/2.0.0/serving-2.0.0.tgz
 ```
 
 ## Install helm chart manually from source
