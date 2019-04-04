@@ -6,7 +6,6 @@ a core [HydroServing](https://github.com/Hydrospheredata/hydro-serving) on [Kube
 Includes charts for HydroServing:
 
 - [Manager](https://github.com/Hydrospheredata/hydro-serving)
-- [Sidecar](https://github.com/Hydrospheredata/hydro-serving-sidecar)
 - [Gateway](https://github.com/Hydrospheredata/hydro-serving-gateway)
 - [UI](https://github.com/Hydrospheredata/hydro-serving-ui)
 
