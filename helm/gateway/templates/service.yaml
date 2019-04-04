@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: "hydro-serving-gateway-{{ .Release.Name }}"
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: {{ include "gateway.name" . }}
+    chart: {{ include "gateway.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+    service_id: "id-10"
+    runtime_id: "id-10"
+    hs_service_marker: "hs_service_marker"
+    deployment_type: "app"
+    service_name: "gateway"
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.http_port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+    - port: {{ .Values.service.grpc_port }}
+      targetPort: grpc
+      protocol: TCP
+      name: grpc
+  selector:
+    app: {{ include "gateway.name" . }}
+    release: {{ .Release.Name }}

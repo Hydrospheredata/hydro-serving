@@ -1,0 +1,146 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: {{ include "manager.fullname" . }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: {{ include "manager.name" . }}
+    chart: {{ include "manager.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ include "manager.name" . }}
+      release: {{ .Release.Name }}
+  template:
+    metadata:
+      labels:
+        app: {{ include "manager.name" . }}
+        release: {{ .Release.Name }}
+    spec:
+      serviceAccountName: {{ if .Values.serviceAccount.name }}{{ .Values.serviceAccount.name }}{{ else }}"hydro-serving-manager-sa-{{ .Release.Name }}"{{ end }}
+      containers:
+        - name: dind
+          image: docker:18.06.0-ce-dind
+          securityContext:
+            privileged: true
+          volumeMounts:
+            - name: dockerdaemon
+              mountPath: /etc/docker/daemon.json
+              subPath: daemon.json
+              readOnly: true
+        - name: kubectl-proxy
+          image: tommyvn/kubectl-proxy
+        - name: {{ .Chart.Name }}
+          image: {{ if .Values.image.full }}"{{ .Values.image.full }}"{{ else }}"{{ .Values.image.repository }}:{{ .Values.image.tag }}"{{ end }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - name: http
+              containerPort: 9090
+              protocol: TCP
+            - name: grpc
+              containerPort: 9091
+              protocol: TCP
+          env:
+            - name: ADVERTISED_MANAGER_HOST
+              value: "hydro-serving-manager-{{ .Release.Name }}"
+            - name: ADVERTISED_MANAGER_PORT
+              value: "9091"
+            - name: DATABASE_HOST
+              value: {{ if .Values.global.postgres.enabled }}"postgres-{{ .Release.Name }}"{{- else }}{{ .Values.global.postgres.host }}{{- end }}
+            {{- if .Values.global.postgres.port }}
+            - name: DATABASE_PORT
+              value: {{ .Values.global.postgres.port | quote }}
+            {{- end }}
+            {{- if .Values.global.postgres.database }}
+            - name: DATABASE_NAME
+              value: {{ .Values.global.postgres.database }}
+            {{- end }}
+            {{- if (.Values.global.postgres.username) and (.Values.global.postgres.password) }}
+            - name: DATABASE_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: "manager-postgres-secret-{{ .Release.Name }}"
+                  key: username
+            - name: DATABASE_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: "manager-postgres-secret-{{ .Release.Name }}"
+                  key: password
+            {{- end }}
+            - name: METRICS_INFLUXDB_HOST
+              value: {{ if .Values.global.influx.enabled }}"influx-{{ .Release.Name }}"{{- else }}{{ .Values.global.influx.host }}{{- end }}
+            {{- if .Values.global.influx.port }}
+            - name: METRICS_INFLUXDB_PORT
+              value: {{ .Values.global.influx.port | quote }}
+            {{- end }}
+            {{- if .Values.global.influx.database }}
+            - name: METRICS_INFLUXDB_DATABASE_NAME
+              value: {{ .Values.global.influx.database }}
+            {{- end }}
+            - name: METRICS_ELASTIC_URI
+              value: {{ if .Values.global.elasticsearch.enabled }}"elasticsearch-{{ .Release.Name }}"{{- else}}{{ .Values.global.elasticsearch.host }}{{- end }}
+            - name: DOCKER_HOST
+              value: "tcp://localhost:2375"
+            - name: CLOUD_DRIVER
+              value: "kubernetes"
+            - name: KUBE_PROXY_SERVICE_HOST
+              value: "localhost"
+            - name: KUBE_PROXY_SERVICE_PORT
+              value: "8001"
+            - name: KUBE_REGISTRY_SECRET_NAME
+              value: {{ if .Values.global.dockerRegistry.host }}"docker-credentials-{{ .Release.Name }}"{{- else}}"localhost-docker-credentials-{{ .Release.Name }}"{{- end}}
+            - name: KUBE_NAMESPACE
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.namespace
+            - name: REMOTE_DOCKER_REGISTRY_HOST
+              value: {{ if .Values.global.dockerRegistry.host}} {{ .Values.global.dockerRegistry.host | quote }}{{- else}}"docker-registry-{{.Release.Name}}.{{.Release.Namespace}}.svc.cluster.local:5000"{{- end}}
+            {{- if not .Values.global.dockerRegistry.host }}
+            - name: REMOTE_DOCKER_PULL_HOST
+              value: "localhost:5000"
+            {{- end }}
+            {{- with .Values.env }}
+{{ toYaml . | indent 12 }}
+            {{- end }}
+          volumeMounts:
+            - name: dockerconfig
+              mountPath: "/root/.docker"
+              readOnly: true
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: http
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: http
+          resources:
+{{ toYaml .Values.resources | indent 12 }}
+    {{- with .Values.nodeSelector }}
+      nodeSelector:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+    {{- with .Values.affinity }}
+      affinity:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+    {{- with .Values.tolerations }}
+      tolerations:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+      volumes:
+        - name: dockerdaemon
+          configMap:
+            name: "docker-daemon-configmap-{{ .Release.Name }}"
+            items:
+              - key: "daemon.json"
+                path: "daemon.json"
+        - name: dockerconfig
+          secret:
+            secretName: "docker-credentials-{{ .Release.Name }}"
+            items:
+              - key: ".dockerconfigjson"
+                path: "config.json"

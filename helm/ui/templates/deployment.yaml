@@ -1,0 +1,83 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: {{ include "ui.fullname" . }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: {{ include "ui.name" . }}
+    chart: {{ include "ui.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ include "ui.name" . }}
+      release: {{ .Release.Name }}
+  template:
+    metadata:
+      labels:
+        app: {{ include "ui.name" . }}
+        release: {{ .Release.Name }}
+    spec:
+      containers:
+        - name: {{ .Chart.Name }}
+          image: {{ if .Values.image.full }}"{{ .Values.image.full }}"{{ else }}"{{ .Values.image.repository }}:{{ .Values.image.tag }}"{{ end }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - name: http
+              containerPort: 80
+              protocol: TCP
+            - name: grpc
+              containerPort: 9090
+              protocol: TCP
+          env:
+            - name: MANAGER_HOST
+              value: "hydro-serving-manager-{{ .Release.Name }}"
+            - name: GATEWAY_HOST
+              value: "hydro-serving-gateway-{{ .Release.Name }}"
+            - name: REQSTORE_HOST
+              value: "localhost"
+            - name: MONITORING_HOST
+              value: "localhost"
+            - name: MANAGER_HTTP_PORT
+              value: "9090"
+            - name: MANAGER_GRPC_PORT
+              value: "9091"
+            - name: GATEWAY_HTTP_PORT
+              value: "9090"
+            - name: GATEWAY_GRPC_PORT
+              value: "9091"
+            - name: MONITORING_HTTP_PORT
+              value: "9090"
+            - name: MONITORING_GRPC_PORT
+              value: "9091"
+            - name: REQSTORE_HTTP_PORT
+              value: "9090"
+            - name: REQSTORE_GRPC_PORT
+              value: "9091"
+            {{- with .Values.env }}
+{{ toYaml . | indent 12 }}
+            {{- end }}
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+          resources:
+{{ toYaml .Values.resources | indent 12 }}
+    {{- with .Values.nodeSelector }}
+      nodeSelector:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+    {{- with .Values.affinity }}
+      affinity:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+    {{- with .Values.tolerations }}
+      tolerations:
+{{ toYaml . | indent 8 }}
+    {{- end }}

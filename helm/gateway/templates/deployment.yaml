@@ -1,0 +1,69 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: {{ include "gateway.fullname" . }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: {{ include "gateway.name" . }}
+    chart: {{ include "gateway.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ include "gateway.name" . }}
+      release: {{ .Release.Name }}
+  template:
+    metadata:
+      labels:
+        app: {{ include "gateway.name" . }}
+        release: {{ .Release.Name }}
+    spec:
+      containers:
+        - name: {{ .Chart.Name }}
+          image: {{ if .Values.image.full }}"{{ .Values.image.full }}"{{ else }}"{{ .Values.image.repository }}:{{ .Values.image.tag }}"{{ end }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - name: http
+              containerPort: 9090
+              protocol: TCP
+            - name: grpc
+              containerPort: 9091
+              protocol: TCP
+          env:
+            - name: APP_OPTS
+              value: "-Dapplication.reqstore-enabled={{ .Values.global.reqstore_enabled }}"
+            - name: API_GATEWAY_HOST
+              value: "hydro-serving-ui-{{ .Release.Name }}"
+            - name: API_GATEWAY_HTTP_PORT
+              value: "9090"
+            - name: APP_SHADOWING_ON
+              value: {{ .Values.global.shadowing_on | quote }}
+            - name: API_GATEWAY_GRPC_PORT
+              value: "9091"
+            {{- with .Values.env }}
+{{ toYaml . | indent 12 }}
+            {{- end}}
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: http
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: http
+          resources:
+{{ toYaml .Values.resources | indent 12 }}
+    {{- with .Values.nodeSelector }}
+      nodeSelector:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+    {{- with .Values.affinity }}
+      affinity:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+    {{- with .Values.tolerations }}
+      tolerations:
+{{ toYaml . | indent 8 }}
+    {{- end }}
