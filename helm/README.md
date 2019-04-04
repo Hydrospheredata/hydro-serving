@@ -40,7 +40,7 @@ a little bit hacky (ok, it is _very_ hacky): registry chart opens
 Add hydro-serving repo
 
 ```
-$ helm repo add hydro-serving https://hydrospheredata.github.io/hydro-serving-helm/
+$ helm repo add hydro-serving https://hydrospheredata.github.io/hydro-serving/
 ```
 
 Install the chart:
@@ -51,11 +51,11 @@ $ helm install --name my-release hydro-serving/serving
 
 ### From GitHub Releases
 
-Choose a release on the [Releases Page](https://github.com/Hydrospheredata/hydro-serving-helm/releases)
+Choose a release on the [Releases Page](https://github.com/Hydrospheredata/hydro-serving/releases)
 and install it as usual:
 
 ```
-$ helm install --name my-release https://github.com/Hydrospheredata/hydro-serving-helm/releases/download/2.0.5/serving-2.0.5.tgz
+$ helm install --name my-release https://github.com/Hydrospheredata/hydro-serving/releases/download/2.0.5/serving-2.0.5.tgz
 ```
 
 ### From source
