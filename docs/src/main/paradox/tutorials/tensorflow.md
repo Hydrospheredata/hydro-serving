@@ -102,7 +102,7 @@ $ cd ${EXPORT_DIR}/{TIMESTAMP}
 $ hs upload --name mnist
 ```
 
-The rest is the same as with the @ref:[Basic API example](tutorials/tensorflow.md#serving-the-model). Create an application and infer predictions. 
+The rest is the same as with the [Basic API example](#serving-the-model). Create an application and infer predictions. 
 
 ```sh 
 $ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ "imgs": [ [ [ 1, 1, 1, ... 1, 1, 1 ] ] ] }' 'https://<host>/gateway/applications/mnist_app/predict'
