@@ -67,23 +67,20 @@ class DockerAppSpec extends FullIntegrationSpec with BeforeAndAfterAll {
           Option.empty
         )
         for {
-          initServables <- EitherT.liftF(managerRepositories.servableRepository.all())
           appResult <- EitherT(managerServices.appService.create(create))
           _ <- EitherT.liftF(appResult.completed.get)
           preCont <- EitherT.liftF(IO(dockerClient.listContainers()))
           _ <- EitherT.liftF(IO.pure(Thread.sleep(10000)))
           _ <- EitherT(managerServices.appService.delete(appResult.started.name))
           cont <- EitherT.liftF(IO(dockerClient.listContainers()))
-          servables <- EitherT.liftF(managerRepositories.servableRepository.all())
         } yield {
-          assert(initServables.isEmpty)
           println("App containers:")
           preCont.forEach(println)
           println("---end of containers---")
           println("After containers:")
           cont.forEach(println)
           println("---end of containers---")
-          assert(servables.isEmpty)
+          assert(preCont.asScala !== cont.asScala)
         }
       }
     }

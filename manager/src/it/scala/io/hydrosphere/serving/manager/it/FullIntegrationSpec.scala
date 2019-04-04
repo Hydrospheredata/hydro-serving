@@ -7,14 +7,20 @@ import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import cats.data.EitherT
 import cats.effect.IO
+import cats.syntax.traverse._
+import cats.instances.list._
 import com.typesafe.config.{ConfigFactory, ConfigValueFactory}
 import io.grpc.Server
 import io.hydrosphere.serving.manager._
 import io.hydrosphere.serving.manager.api.grpc.GrpcApiServer
 import io.hydrosphere.serving.manager.api.http.HttpApiServer
 import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration}
+import io.hydrosphere.serving.manager.discovery.{DiscoveryHub, ObservedDiscoveryHub}
 import io.hydrosphere.serving.manager.domain.DomainError
+import io.hydrosphere.serving.manager.domain.application.ApplicationService.Internals
+import io.hydrosphere.serving.manager.domain.clouddriver.CloudDriver
 import io.hydrosphere.serving.manager.domain.image.DockerImage
+import io.hydrosphere.serving.manager.grpc.entities.ServingApp
 import io.hydrosphere.serving.manager.util.TarGzUtils
 import org.scalatest._
 
@@ -50,16 +56,45 @@ trait FullIntegrationSpec extends DatabaseAccessIT
   def configuration = originalConfiguration.right.get
 
   var managerRepositories: ManagerRepositories[IO] = _
+  var cloudDriver: CloudDriver[IO] = _
   var managerServices: ManagerServices[IO] = _
+  var discoveryHub: ObservedDiscoveryHub[IO] = _
   var managerApi: HttpApiServer[IO] = _
   var managerGRPC: Server = _
 
   override protected def beforeAll(): Unit = {
     super.beforeAll()
+    cloudDriver = CloudDriver.fromConfig[IO](configuration.cloudDriver, configuration.dockerRepository)
+    managerRepositories = new ManagerRepositories[IO](configuration)
+    val discoveryHubIO = for {
+      observed <- DiscoveryHub.observed[IO]
+      instances <- cloudDriver.instances
+      apps <- managerRepositories.applicationRepository.all()
+      _ <- IO(logger.info(s"$instances"))
+      needToDeploy = for {
+        app <- apps
+      } yield {
+        val versions = app.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion))
+        val deployed = instances.filter(inst => versions.map(_.id).contains(inst.modelVersionId))
+        IO.fromEither(Internals.toServingApp(app, deployed))
+      }
+      servingApps <- needToDeploy.toList.sequence[IO, ServingApp]
+      _ <- servingApps.map(x => observed.added(x)).sequence
+    } yield observed
+
+    discoveryHub = discoveryHubIO.unsafeRunSync()
+
+    managerServices = new ManagerServices[IO](
+      discoveryHub,
+      managerRepositories,
+      configuration,
+      dockerClient,
+      DockerClientConfig(),
+      cloudDriver
+    )
     managerRepositories = new ManagerRepositories(configuration)
-    managerServices = new ManagerServices(managerRepositories, configuration, dockerClient, DockerClientConfig())
     managerApi = new HttpApiServer(managerRepositories, managerServices, configuration)
-    managerGRPC = GrpcApiServer(managerRepositories, managerServices, configuration)
+    managerGRPC = GrpcApiServer[IO](managerRepositories, managerServices, configuration, discoveryHub)
     managerApi.start()
     managerGRPC.start()
   }
