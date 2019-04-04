@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: "docker-registry-{{ .Release.Name }}"
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: {{ include "docker-registry.name" . }}
+    chart: {{ include "docker-registry.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: 5000
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app: {{ include "docker-registry.name" . }}
+    release: {{ .Release.Name }}

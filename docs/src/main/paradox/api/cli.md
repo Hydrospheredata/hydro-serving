@@ -26,7 +26,7 @@ $ hs cluster
 To add a new cluster, use:
 
 ```sh
-$ hs cluster add --name new_local --server http://localhost:16000/
+$ hs cluster add --name new_local --server http://localhost:80/
 ```
 
 To switch to the new cluster, use:

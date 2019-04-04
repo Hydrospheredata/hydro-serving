@@ -1,79 +1,65 @@
 version: "3.5"
 services:
   postgres:
-    image: postgres:9.6-alpine
-    container_name: postgres
-    ports:
-      - "5432:5432"
-    networks:
-      - hydronet
-    environment:
-      - "POSTGRES_DB=docker"
-      - "POSTGRES_USER=docker"
-      - "POSTGRES_PASSWORD=docker"
+      image: postgres:9.6-alpine
+      container_name: postgres
+      ports:
+        - "5432:5432"
+      networks:
+        - hydronet
+      environment:
+        - "POSTGRES_DB=docker"
+        - "POSTGRES_USER=docker"
+        - "POSTGRES_PASSWORD=docker"
 
   manager:
-    image: hydrosphere/serving-manager:latest
+    image: hydrosphere/serving-manager:2.0.0
     container_name: manager
     ports:
       - "19091:9091"
     networks:
       - hydronet
       - extnet
-    depends_on:
-      - postgres
     environment:
       - "ADVERTISED_MANAGER_HOST=manager"
       - "ADVERTISED_MANAGER_PORT=9091"
       - "DATABASE_HOST=postgres"
-      - "SIDECAR_HOST=sidecar"
       - "NETWORK_NAME=demo_hydronet"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
 
-  sidecar:
-    image: hydrosphere/serving-sidecar:0.1.10
-    container_name: sidecar
+  gateway:
+    image: hydrosphere/serving-gateway:2.0.0
+    container_name: gateway
     ports:
-      - "80:8080"
-      - "8082:8082"
+      - "29091:9091"
+      - "29090:9090"
     networks:
-      - extnet
       - hydronet
     environment:
-      #- "SIDECAR_LOG_LEVEL=trace"
-      - "MANAGER_HOST=manager"
-      - "MANAGER_PORT=9091"
-      - "SERVICE_ID=-20"
-      - "SERVICE_NAME=manager"
+      - "API_GATEWAY_HOST=managerui"
+      - "API_GATEWAY_GRPC_PORT=9090"
+      - "API_GATEWAY_HTTP_PORT=80"
+      - "GRPC_PORT=9091"
+      - "HTTP_PORT=9090"
 
   managerui:
-    image: hydrosphere/serving-manager-ui:latest
+    image: hydrosphere/serving-manager-ui:2.0.0
     container_name: managerui
+    ports:
+      - "80:80"
     networks:
       - extnet
       - hydronet
     labels:
       - "RUNTIME_ID=-22"
     environment:
-      - "MANAGER_HOST=sidecar:8080"
-    depends_on:
-      - sidecar
-
-  gateway:
-    image: hydrosphere/serving-gateway:latest
-    container_name: gateway
-    ports:
-      - "29091:9091"
-      - "29090:9090"
-    networks:
-      - extnet
-      - hydronet
-    environment:
-      - "SIDECAR_HOST=sidecar"
-    depends_on:
-      - sidecar
-      - manager
+      - "MANAGER_HOST=manager"
+      - "GATEWAY_HOST=gateway"
+      - "MANAGER_HTTP_PORT=9090"
+      - "MANAGER_GRPC_PORT=9091"
+      - "GATEWAY_HTTP_PORT=9090"
+      - "GATEWAY_GRPC_PORT=9091"
 
 networks:
   hydronet:
