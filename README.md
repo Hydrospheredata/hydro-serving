@@ -8,10 +8,9 @@ Hydrosphere.io automates deployment and serving ML models, monitoring and profil
 
 The platform makes more Data Science and less data plumbing and tinkering happen.
 
-
 Hydrosphere Serving enables you to get your models up and running in an instant, on just about any infrastructure and using any of the available machine learning toolkits. It lets you monitor your models’ performance, analyse their inputs (for example, determine whether there is recently an increased number of outliers or not), observe models’ inference on given data and so on.
 
-Please, see our [getting started guide](https://hydrosphere.io/serving-docs/getting-started.html) and [documentation](https://hydrosphere.io/serving-docs/index.html).
+Please, see our [documentation](https://hydrosphere.io/serving-docs).
 
 Features:
 * **Serverless** user experience in your data center or public cloud. 
@@ -41,5 +40,6 @@ Features:
    * Spark: https://github.com/Hydrospheredata/hydro-serving-spark
      * Spark local inference implementation: https://github.com/Hydrospheredata/spark-ml-serving
  * Protobuf messages: https://github.com/Hydrospheredata/hydro-serving-protos
- * Sidecar implementation: https://github.com/Hydrospheredata/hydro-serving-sidecar
+ * Manager service: https://github.com/Hydrospheredata/hydro-serving-manager
+ * Gateway service: https://github.com/Hydrospheredata/hydro-serving-gateway
  * Example models: https://github.com/Hydrospheredata/hydro-serving-example/tree/master/models
