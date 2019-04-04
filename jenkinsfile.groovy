@@ -57,7 +57,7 @@ if (getJobType() == "RELEASE_JOB") {
 
       def releaseInfo = createReleaseInGithub(curVersion, tagComment, repository)
       def githubReleaseInfo = readJSON text: "${releaseInfo}"
-      uploadFilesToGithub(githubReleaseInfo.id.toString(), releaseFile, releaseFile, repository)
+      uploadFilesToGithub(githubReleaseInfo.id.toString(), "helm/" + releaseFile, "helm/" + releaseFile, repository)
 
       sh "git checkout gh-pages"
       sh "git merge master"
