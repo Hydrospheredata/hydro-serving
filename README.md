@@ -1,16 +1,26 @@
 # Hydrosphere Serving
 
 [![Join the chat at https://gitter.im/Hydrospheredata/hydro-serving](https://badges.gitter.im/Hydrospheredata/hydro-serving.svg)](https://gitter.im/Hydrospheredata/hydro-serving?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![](https://img.shields.io/badge/docs-latest-af1a97.svg)](https://hydrosphere.io/serving-docs/) 
+[![](https://img.shields.io/badge/documentation-latest-af1a97.svg)](https://hydrosphere.io/serving-docs/) 
 
-Hydrosphere.io is the first open source platform for Data Science Management automation. It delivers reliability, scalability and observability for machine learning and AI applications in production.
-Hydrosphere.io automates deployment and serving ML models, monitoring and profiling of production traffic, monitoring of models performance, data subsampling and model retraining.
+Homepage: https://hydrosphere.io/serving  
+Installation guide: https://hydrosphere.io/serving-docs/latest/install  
+Getting started: https://hydrosphere.io/serving-docs/latest/tutorials
+
+---
+
+Hydrosphere.io is the first open source platform for Data Science Management automation. 
+It delivers reliability, scalability and observability for machine learning and AI applications in production.
+Hydrosphere.io automates deployment and serving ML models, monitoring and profiling of production traffic, 
+monitoring of models performance, data subsampling and model retraining.
 
 The platform makes more Data Science and less data plumbing and tinkering happen.
 
-Hydrosphere Serving enables you to get your models up and running in an instant, on just about any infrastructure and using any of the available machine learning toolkits. It lets you monitor your models’ performance, analyse their inputs (for example, determine whether there is recently an increased number of outliers or not), observe models’ inference on given data and so on.
-
-Please, see our [documentation](https://hydrosphere.io/serving-docs).
+Hydrosphere Serving enables you to get your models up and running in an instant, 
+on just about any infrastructure and using any of the available machine learning toolkits. 
+It lets you monitor your models’ performance, analyse their inputs 
+(for example, determine whether there is recently an increased number of outliers or not),
+observe models’ inference on given data and so on.
 
 Features:
 * **Serverless** user experience in your data center or public cloud. 
