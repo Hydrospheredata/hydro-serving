@@ -1,0 +1,22 @@
+# Editors
+*~
+.*.swp
+.*sw?
+
+# Dev tools
+.idea/
+**/.vagrant
+**/*.log
+
+# Helm internals
+*.lock
+*/*.lock
+*.tgz
+**/*.tgz
+**/_partials.tpl
+**/_globals.tpl
+
+# Gate and Check Logs
+logs/
+tmp/
+

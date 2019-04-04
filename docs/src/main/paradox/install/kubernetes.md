@@ -17,7 +17,7 @@ Installation can be performed in a few ways:
 Add Serving to the repo.
 
 ```sh
-$ helm repo add hydrosphere https://hydrospheredata.github.io/hydro-serving-helm/
+$ helm repo add hydrosphere https://hydrospheredata.github.io/hydro-serving/
 ```
 
 Install the chart from repo to the cluster.
@@ -28,10 +28,10 @@ $ helm install --name serving hydrosphere/serving
 
 ## Install helm chart from release
 
-Choose a release from the [releases page](https://github.com/Hydrospheredata/hydro-serving-helm/releases) and install it as usual.
+Choose a release from the [releases page](https://github.com/Hydrospheredata/hydro-serving/releases) and install it as usual.
    
 ```sh
-$ helm install --name serving https://github.com/Hydrospheredata/hydro-serving-helm/releases/download/0.1.15/serving-0.1.15.tgz
+$ helm install --name serving https://github.com/Hydrospheredata/hydro-serving/releases/download/0.1.15/serving-0.1.15.tgz
 ```
 
 ## Install helm chart manually from source
@@ -39,8 +39,8 @@ $ helm install --name serving https://github.com/Hydrospheredata/hydro-serving-h
 Clone the repository.
 
 ```sh
-$ git clone https://github.com/Hydrospheredata/hydro-serving-helm.git
-$ cd hydro-serving-helm
+$ git clone https://github.com/Hydrospheredata/hydro-serving.git
+$ cd hydro-serving/helm
 ```
 
 Build dependencies.
@@ -55,12 +55,12 @@ Install the chart.
 $ helm install --name serving
 ```
 
-After chart was installed to the cluster, you have to expose a `sidecar` deployment outside of the cluster in order to access it. For the simplicity, I will just port-forward sidecar locally. 
+After chart was installed to the cluster, you have to expose an `ui` deployment outside of the cluster in order to access it. For the simplicity, I will just port-forward sidecar locally. 
 
 ```sh
-$ kubectl port-forward deployment/serving-sidecar 8080:80
+$ kubectl port-forward deployment/serving-ui 80:80
 ```
 
 To check that everything works fine, open [http://localhost/](http://localhost/). By default UI is available at port __80__.
 
-For more information about configuring serving release refer to the [chart's repository](https://github.com/Hydrospheredata/hydro-serving-helm).
+For more information about configuring serving release refer to the [chart's repository](https://github.com/Hydrospheredata/hydro-serving-helm/tree/master/).

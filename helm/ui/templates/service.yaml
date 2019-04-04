@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: "hydro-serving-ui-{{ .Release.Name }}"
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: {{ include "ui.name" . }}
+    chart: {{ include "ui.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+    deployment_type: "app"
+    service_id: "id-22"
+    service_name: "manager-ui"
+    hs_service_marker: "hs_service_marker"
+    runtime_id: "id-22"
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.httpPort }}
+      targetPort: http
+      protocol: TCP
+      name: http
+    - port: {{ .Values.service.grpcPort }}
+      targetPort: grpc
+      protocol: TCP
+      name: grpc
+  selector:
+    app: {{ include "ui.name" . }}
+    release: {{ .Release.Name }}

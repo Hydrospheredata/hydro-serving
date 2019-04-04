@@ -1,0 +1,91 @@
+apiVersion: v1
+entries:
+  serving:
+  - apiVersion: v1
+    created: 2018-09-21T14:44:51Z
+    description: A Helm chart for Kubernetes
+    digest: 99dde70e22a7d350f2627beff5d577d8ab68333b7bc3ae14579d62fb8208c7f6
+    name: serving
+    urls:
+    - https://github.com/Hydrospheredata/hydro-serving-helm/releases/download/0.1.7/serving-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v1
+    created: 2018-10-07T15:35:24Z
+    description: A Helm chart for Kubernetes
+    digest: a6f4be33807c57f4829dafab0577c5de8bc6c0a0c2d63ee3b3cb63132fdf63ab
+    name: serving
+    urls:
+    - https://github.com/Hydrospheredata/hydro-serving-helm/releases/download/0.1.8/serving-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v1
+    created: 2018-10-07T15:40:38Z
+    description: A Helm chart for Kubernetes
+    digest: 0f8a969aac4517ee3e3212bd934ceb114c9efcae08620d44b26916ff0e5b5318
+    name: serving
+    urls:
+    - https://github.com/Hydrospheredata/hydro-serving-helm/releases/download/0.1.9/serving-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v1
+    created: 2018-10-07T16:03:05Z
+    description: A Helm chart for Kubernetes
+    digest: 315b175a9e2ee778b790ecf1071f237fbf7783c439625511ecded967a222706e
+    name: serving
+    urls:
+    - https://github.com/Hydrospheredata/hydro-serving-helm/releases/download/0.1.10/serving-0.1.10.tgz
+    version: 0.1.10
+  - apiVersion: v1
+    created: 2018-10-07T16:38:41Z
+    description: A Helm chart for Kubernetes
+    digest: 0acb12565f1cb9f72e4428d4a6b234270c71ebe3c2c089f52cd0dd12e0944c5f
+    name: serving
+    urls:
+    - https://github.com/Hydrospheredata/hydro-serving-helm/releases/download/0.1.11/serving-0.1.11.tgz
+    version: 0.1.11
+  - apiVersion: v1
+    created: 2018-10-09T13:22:57Z
+    description: A Helm chart for Kubernetes
+    digest: d78d0a67cbed4ef6b0489878c577349848887b03112af4e204507fb67584c006
+    name: serving
+    urls:
+    - https://github.com/Hydrospheredata/hydro-serving-helm/releases/download/0.1.12/serving-0.1.12.tgz
+    version: 0.1.12
+  - apiVersion: v1
+    created: 2018-10-24T18:45:44Z
+    description: A Helm chart for Kubernetes
+    digest: db99766001029be29e819884570bac556031360b6ac73ef7cf133d968f4f13c1
+    name: serving
+    urls:
+    - https://github.com/Hydrospheredata/hydro-serving-helm/releases/download/0.1.13/serving-0.1.13.tgz
+    version: 0.1.13
+  - apiVersion: v1
+    created: 2018-10-24T18:58:16Z
+    description: A Helm chart for Kubernetes
+    digest: eb4e0dc6be5723e73072670f04fece98b0e143899df64a8937a4430005e40081
+    name: serving
+    urls:
+    - https://github.com/Hydrospheredata/hydro-serving-helm/releases/download/0.1.14/serving-0.1.14.tgz
+    version: 0.1.14
+  - apiVersion: v1
+    created: 2018-10-24T19:37:09Z
+    description: A Helm chart for Kubernetes
+    digest: b094fd9c4eac90a37ece124beadaf1b4f0ea6f424b78d41e797962cbcc8d47bb
+    name: serving
+    urls:
+    - https://github.com/Hydrospheredata/hydro-serving-helm/releases/download/0.1.15/serving-0.1.15.tgz
+    version: 0.1.15
+  - apiVersion: v1
+    created: 2019-03-27T18:31:28Z
+    description: A Helm chart for Kubernetes
+    digest: 2e71d697de1a4d24b25f8b48e389d88519578e022642d8932507ef5e3cae760e
+    name: serving
+    urls:
+    - https://github.com/Hydrospheredata/hydro-serving-helm/releases/download/0.1.16/serving-0.1.16.tgz
+    version: 0.1.16
+  - apiVersion: v1
+    created: 2019-03-27T18:47:22Z
+    description: A Helm chart for Kubernetes
+    digest: 98535751108445574d9e7055762cf2673ba597e199f94e6f85dc068822d29773
+    name: serving
+    urls:
+    - https://github.com/Hydrospheredata/hydro-serving-helm/releases/download/0.1.17/serving-0.1.17.tgz
+    version: 0.1.17
