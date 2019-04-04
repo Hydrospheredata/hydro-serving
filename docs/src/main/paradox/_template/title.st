@@ -1,0 +1,1 @@
+<div class="title"><img alt="shortcut icon" src="$page.base$images/navbar_brand.png"/> $page.home.html$</div>

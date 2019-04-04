@@ -1,65 +1,47 @@
 package io.hydrosphere.serving.manager.domain.clouddriver
 
-import akka.actor.{ActorRef, ActorSystem, Props}
-import cats.effect.{Async, Effect}
-import com.amazonaws.services.ec2.AmazonEC2ClientBuilder
-import com.amazonaws.services.ecs.AmazonECSClientBuilder
-import com.amazonaws.services.route53.AmazonRoute53ClientBuilder
-import com.spotify.docker.client.DockerClient
-import io.hydrosphere.serving.manager.config._
-import io.hydrosphere.serving.manager.domain.host_selector.HostSelector
+import akka.actor.ActorSystem
+import akka.stream.Materializer
+import cats.effect._
+import io.hydrosphere.serving.manager.config.{CloudDriverConfiguration, DockerRepositoryConfiguration}
 import io.hydrosphere.serving.manager.domain.image.DockerImage
 import io.hydrosphere.serving.manager.domain.servable.Servable
-import io.hydrosphere.serving.manager.infrastructure.clouddriver._
-import io.hydrosphere.serving.manager.infrastructure.envoy.events.{CloudServiceDiscoveryEventBus, DiscoveryEventBus}
 
 import scala.concurrent.ExecutionContext
 
-
 trait CloudDriver[F[_]] {
-
-  def serviceList(): F[Seq[CloudService]]
-
-  def deployService(
-    service: Servable,
-    modelVersion: DockerImage,
-    hostSelector: Option[HostSelector]
-  ): F[CloudService]
-
-  def removeService(serviceId: Long): F[Unit]
+  
+  def instances: F[List[Servable]]
+  
+  def instance(name: String): F[Option[Servable]]
+  
+  def run(name: String, modelVersionId: Long, image: DockerImage): F[Servable]
+  
+  def remove(name: String): F[Unit]
 }
 
 object CloudDriver {
-  def fromConfig[F[_] : Effect](
-    dockerClient: DockerClient,
-    eventPublisher: CloudServiceDiscoveryEventBus[F],
-    cloudDriverConfiguration: CloudDriverConfiguration,
-    applicationConfiguration: ApplicationConfig,
-    advertisedConfiguration: AdvertisedConfiguration,
-    dockerRepositoryConfiguration: DockerRepositoryConfiguration,
-    sidecarConfig: SidecarConfig
-  )(implicit executionContext: ExecutionContext, actorSystem: ActorSystem): CloudDriver[F] = {
-    cloudDriverConfiguration match {
-      case x: CloudDriverConfiguration.Ecs =>
-        val route53Client = AmazonRoute53ClientBuilder.standard()
-          .build()
-        val ecsClient = AmazonECSClientBuilder.standard()
-          .withRegion(x.region)
-          .build()
-        val ec2Client = AmazonEC2ClientBuilder.standard()
-          .withRegion(x.region)
-          .build()
-        val ecsSyncActor: ActorRef = actorSystem.actorOf(ECSWatcherActor.props[F](eventPublisher, x, route53Client, ecsClient, ec2Client))
-        new ECSCloudDriver(x, ecsSyncActor)
-      case x: CloudDriverConfiguration.Docker => new DockerComposeCloudDriver(dockerClient, x, applicationConfiguration, sidecarConfig, advertisedConfiguration, eventPublisher)
-      case x: CloudDriverConfiguration.Kubernetes =>
-        dockerRepositoryConfiguration match {
-          case repo: DockerRepositoryConfiguration.Remote => new KubernetesCloudDriver(x, repo, eventPublisher)
-          case repo => throw new IllegalArgumentException(s"Illegal DockerRepositoryConfiguration for Kubernetes clouddriver: $repo")
-        }
-      case x: CloudDriverConfiguration.Local => new LocalDockerCloudDriver(dockerClient, applicationConfiguration, sidecarConfig, advertisedConfiguration, x, eventPublisher)
-      case x => throw new IllegalArgumentException(s"Unknown CloudDriverConfiguration: $x")
-    }
 
+  object Labels {
+    val ServiceName = "HS_INSTANCE_NAME"
+    val ModelVersionId = "HS_INSTANCE_MV_ID"
+    val ServiceId = "HS_INSTANCE_ID"
+  }
+
+  def fromConfig[F[_]: Async](config: CloudDriverConfiguration, dockerRepoConf: DockerRepositoryConfiguration)(implicit ex: ExecutionContext, actorSystem: ActorSystem, materializer: Materializer): CloudDriver[F] = {
+     config match {
+       case dockerConf: CloudDriverConfiguration.Docker =>
+         val client = DockerdClient.create
+         new DockerDriver[F](client, dockerConf)
+       case kubeConf: CloudDriverConfiguration.Kubernetes =>
+         dockerRepoConf match {
+           case drc: DockerRepositoryConfiguration.Remote =>
+             val client = KubernetesClient[F](kubeConf, drc)
+             new KubernetesDriver[F](client)
+           case _ => throw new Exception(s"Docker Repository must be remote for using kubernetes cloud driver")
+         }
+       case x =>
+         throw new Exception(s"Not implemented for $x")
+     }
   }
 }

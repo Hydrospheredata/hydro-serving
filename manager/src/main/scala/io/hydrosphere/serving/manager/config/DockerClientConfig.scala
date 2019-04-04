@@ -11,6 +11,7 @@ case class DockerClientProxy(
   noProxy: Option[String] = None
 )
 
+//TODO proxies may be empty!
 case class DockerClientConfig(
   proxies: Map[String, DockerClientProxy] = Map.empty
 )

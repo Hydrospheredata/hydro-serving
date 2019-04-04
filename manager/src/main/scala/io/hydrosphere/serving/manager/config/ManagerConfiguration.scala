@@ -8,7 +8,6 @@ import pureconfig.ConfigReader
 import pureconfig.error.CannotConvert
 
 case class ManagerConfiguration(
-  sidecar: SidecarConfig,
   application: ApplicationConfig,
   manager: AdvertisedConfiguration,
   localStorage: Option[Path],

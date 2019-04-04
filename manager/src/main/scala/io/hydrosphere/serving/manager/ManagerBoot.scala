@@ -1,15 +1,21 @@
 package io.hydrosphere.serving.manager
 
+import java.nio.file.Files
 import java.util.concurrent.TimeUnit
 
 import akka.actor.ActorSystem
 import akka.stream.ActorMaterializer
 import akka.util.Timeout
 import cats.effect.{ContextShift, IO}
+import cats.implicits._
 import com.spotify.docker.client.DefaultDockerClient
+import io.hydrosphere.serving.manager.discovery.{DiscoveryGrpc, DiscoveryHub}
 import io.hydrosphere.serving.manager.api.grpc.GrpcApiServer
 import io.hydrosphere.serving.manager.config.{DockerClientConfig, ManagerConfiguration}
 import io.hydrosphere.serving.manager.api.http.HttpApiServer
+import io.hydrosphere.serving.manager.domain.application.ApplicationService.Internals
+import io.hydrosphere.serving.manager.domain.clouddriver.CloudDriver
+import io.hydrosphere.serving.manager.grpc.entities.ServingApp
 import io.hydrosphere.serving.manager.util.ReflectionUtils
 import org.apache.logging.log4j.scala.Logging
 
@@ -35,20 +41,53 @@ object ManagerBoot extends App with Logging {
     }
 
     val dockerClient = DefaultDockerClient.fromEnv().build()
-    val dockerClientConfig = DockerClientConfig.load(DockerClientConfig.defaultConfigPath) match {
-      case scala.util.Success(value) => value
-      case scala.util.Failure(exception) =>
-        logger.warn(s"Failed to read docker config. Falling back to defaults", exception)
-        DockerClientConfig()
+    val dockerClientConfig = {
+      if (Files.exists(DockerClientConfig.defaultConfigPath)) {
+        DockerClientConfig.load(DockerClientConfig.defaultConfigPath) match {
+          case scala.util.Success(value) => value
+          case scala.util.Failure(e) =>
+            logger.warn(s"Failed to read docker config. Falling back to defaults", e)
+            DockerClientConfig()
+        }
+      } else DockerClientConfig()
     }
+    
     logger.info(s"Using docker client config: ${ReflectionUtils.prettyPrint(dockerClientConfig)}")
 
+    val cloudDriver = CloudDriver.fromConfig[IO](configuration.cloudDriver, configuration.dockerRepository)
     val managerRepositories = new ManagerRepositories[IO](configuration)
-    val managerServices = new ManagerServices[IO](managerRepositories, configuration, dockerClient, dockerClientConfig)
+    val discoveryHubIO = for {
+      observed <- DiscoveryHub.observed[IO]
+      instances <- cloudDriver.instances
+      apps <- managerRepositories.applicationRepository.all()
+      _ <- IO(logger.info(s"$instances"))
+      needToDeploy = for {
+        app <- apps
+      } yield {
+        val versions = app.executionGraph.stages.flatMap(_.modelVariants.map(_.modelVersion))
+        val deployed = instances.filter(inst => versions.map(_.id).contains(inst.modelVersionId))
+        IO.fromEither(Internals.toServingApp(app, deployed))
+      }
+      servingApps <- needToDeploy.toList.sequence[IO, ServingApp]
+      _ <- servingApps.map(x => observed.added(x)).sequence
+    } yield observed
+    
+    val discoveryHub = discoveryHubIO.unsafeRunSync()
+    
+    val managerServices = new ManagerServices[IO](
+      discoveryHub,
+      managerRepositories,
+      configuration,
+      dockerClient,
+      dockerClientConfig,
+      cloudDriver
+    )
+    
+    
     val httpApi = new HttpApiServer(managerRepositories, managerServices, configuration)
-    val grpcApi = GrpcApiServer(managerRepositories, managerServices, configuration)
+    val grpcApi = GrpcApiServer(managerRepositories, managerServices, configuration, discoveryHub)
 
-    httpApi.start // fire and forget?
+    httpApi.start() // fire and forget?
     grpcApi.start()
 
     sys addShutdownHook {

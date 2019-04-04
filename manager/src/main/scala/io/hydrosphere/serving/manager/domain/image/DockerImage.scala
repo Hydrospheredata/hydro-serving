@@ -2,6 +2,8 @@ package io.hydrosphere.serving.manager.domain.image
 
 import cats.syntax.either._
 
+import scala.util.matching.Regex
+
 case class DockerImage(
   name: String,
   tag: String,
@@ -17,6 +19,5 @@ case class DockerImage(
 }
 
 object DockerImage {
-  
-  val NamePattern = "([a-zA-z0-9-_\\.:]+)/([a-zA-z0-9\\-_]+)".r
+  val NamePattern: Regex = "([a-zA-z0-9-_\\.:]+)/([a-zA-z0-9\\-_]+)".r
 }

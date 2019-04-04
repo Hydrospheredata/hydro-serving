@@ -23,4 +23,6 @@ case class ModelVersion(
   profileTypes: Map[String, DataProfileType],
   installCommand: Option[String],
   metadata: Map[String, String]
-)
+) {
+  def servableName: String = s"${model.name}-$id".replace("_", "-")
+}
