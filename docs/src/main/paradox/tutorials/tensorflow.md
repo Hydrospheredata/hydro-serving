@@ -4,8 +4,6 @@ Deploying Tensorflow models does not require any additional manifest writings fo
 
 Suppose we already have a Tensorflow model, that recognizes handwritten digits. We will cover serving for Tensorflow [Basic API](#basic-api) and [Estimator API](#estimator-api). 
 
-<br>
-
 ## Basic API
 
 When serving a Tensorflow model the only thing you have to do is to correctly identify and prepare input and output tensors. We've implemented a linear model using low-level Tensorflow API. The full code is available in our [GitHub repository](https://github.com/Hydrospheredata/hydro-serving-example/blob/master/models/mnist/basic-api.py). In the code you can find the following lines which are the input and output tensors. 
@@ -104,7 +102,7 @@ $ cd ${EXPORT_DIR}/{TIMESTAMP}
 $ hs upload --name mnist
 ```
 
-The rest is the same as with the [Basic API example]({{site.baseurl}}{%link tutorials/tensorflow.md%}#serving-the-model). Create an application and infer predictions. 
+The rest is the same as with the [Basic API example](#serving-the-model). Create an application and infer predictions. 
 
 ```sh 
 $ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ "imgs": [ [ [ 1, 1, 1, ... 1, 1, 1 ] ] ] }' 'https://<host>/gateway/applications/mnist_app/predict'
