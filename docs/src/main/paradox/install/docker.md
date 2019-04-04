@@ -29,13 +29,6 @@ Once you've obtained Serving files, you can deploy one of the 2 versions:
     $ docker-compose up -d 
     ```
 
-1. The __integrations__ version extends the __lightweight__ version and lets you also integrate kafka, grafana and influxdb.
-
-    ```sh
-    $ cd hydro-serving/integrations/
-    $ docker-compose up -d
-    ```
-
 To check that everything works fine, open [http://localhost/](http://localhost/). By default UI is available at port __80__.
 
 
