@@ -8,7 +8,8 @@
 
 ## Install from release
 
-Download and unpack the latest released version from [releases page](https://github.com/Hydrospheredata/hydro-serving/releases). 
+Download and unpack the latest released version from 
+[releases page](https://github.com/Hydrospheredata/hydro-serving/releases). 
 
 
 ## Install from source
@@ -16,20 +17,13 @@ Download and unpack the latest released version from [releases page](https://git
 Clone serving repository.
 
 ```sh
-$ git clone https://github.com/Hydrospheredata/hydro-serving
+git clone https://github.com/Hydrospheredata/hydro-serving
+cd hydro-serving/
+docker-compose up -d
 ```
 
-
-Once you've obtained Serving files, you can deploy one of the 2 versions: 
-
-1. The __lightweight__ version lets you manage your models in a continuous manner, version them, create applications that use your models and deploy all of this into production. To do that, just execute the following: 
-
-    ```sh
-    $ cd hydro-serving/
-    $ docker-compose up -d 
-    ```
-
-To check that everything works fine, open [http://localhost/](http://localhost/). By default UI is available at port __80__.
+To check that everything works fine, open [http://localhost/](http://localhost/).
+By default UI is available at port __80__.
 
 
 [docker-install]: https://docs.docker.com/install/

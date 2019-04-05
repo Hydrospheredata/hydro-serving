@@ -11,10 +11,10 @@ inference on given data and many more.
 
 @@@ index
 * [Installation](install/index.md)
+* [Components](components/index.md)
+* [Resources](resources/index.md)
 * [Tutorials](tutorials/index.md)
 * [How-To](how-to/index.md)
-* [API](api/index.md)
-* [Resources](resources/index.md)
 * [Development](dev.md)
 @@@
 

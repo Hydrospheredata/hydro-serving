@@ -1,65 +1,66 @@
 # Write resource definitions
 
-Manifests describe entities inside Serving. They can define your models, applications, runtimes and environments. Each manifest has the 2 following mandatory fields. 
+Resource definitions describe serving cluster entities.
+It could be your model, application or deployment configuration also known as HostSelector.
+The type of each definition is defined by `kind` field. 
 
 ```yaml
-kind: ...
+kind: Model # or Application or HostSelector
 name: "example"
 ```
 
-The fields are self-explanatory: 
+## Model
 
-- `kind` defines the kind of the entity;
-- `name` defines the name of the entity.
+### Fields
 
-Let's take a look at the entity kinds. 
-
-<br> 
-
-### `kind: Model`
-
-For this type of the manifest you have to declare:
-
-- `model-type` defines the model type. Will be matched with the runtime's `model-type`;
+- `runtime` defines the docker image that will be used in deployment.
 - `payload` defines all files for the model;
-- `contract` defines a collection of signatures. A signature is a supported computation on the model.
+- `contract` defines a prediction signature of a model.
+- `install-command` defines an initialization command to be executed during upload procedure.
+- `training-data` defines a local file or path to S3 object where training data is stored.
+
+### Example
 
 ```yaml
 kind: Model
 name: sample_model
-model-type: "python:3.6"
+training-data: s3://bucket/train.csv
+runtime: hydrosphere/serving-runtime-dummy:dev
+install-command: "sudo apt install jq" 
 payload: 
-  - "./*"
+				- "./*"
 contract:
-  infer:
-    inputs:
-      input_field_1:
-        shape: [-1, 1]
-        type: string
-        profile: text
-      input_field_2:
-        shape: scalar
-        type: int32
-        profile: numeric
-    outputs: 
-      output_field_1:
-        shape: [-1, 2]
-        type: int32 
-        profile: numeric
+				name: infer
+				inputs:
+								input_field_1:
+												shape: [-1, 1]
+												type: string
+												profile: text
+								input_field_2:
+												shape: scalar
+												type: int32
+												profile: numerical
+				outputs: 
+								output_field_1:
+												shape: [-1, 2]
+												type: int32 
+												profile: numerical
 ```
 
-In the example above we've defined a signature with `infer` name. Each signature has to have `inputs` and `outputs`. They define what kind of data the model will receive and what will it produce. Each input and output field has a 3 defined properties - `shape`, `type` and `profile`. You can look up all their possible values in the [reference]({{site.baseurl}}{%link reference/manifests.md%}#kind-model). 
+In the example above we've defined a signature with `infer` name. 
+Each signature has to have `inputs` and `outputs`. 
+They define what kind of data the model will receive and what will it produce. 
+Each input and output field has a 3 defined properties - `shape`, `type` and `profile`. 
 
-<br>
 
-### `kind: Application`
+## Application
 
-For this type of the manifest you have to declare one of the following:
+For this type of resource you have to declare one of the following fields:
 
 - `singular` defines a single-model application. 
 - `pipeline` defines application as a pipeline of models.  
 
-<hr>
+### Singular
 
 `singular` applications usually consist of smaller amount of definitions. 
 
@@ -67,36 +68,12 @@ For this type of the manifest you have to declare one of the following:
 kind: Application
 name: sample_application
 singular:
-  monitoring:
-    - name: Concept Drift
-      input: input_field_1
-      type: Autoencoder
-      app: sample_application_autoencoder
-      healthcheck:
-        enabled: true
-        threshold: 0.15
-    - name: KS
-      input: input_field_2
-      type: Kolmogorov-Smirnov
-      healthcheck:
-        enabled: true
   model: sample_model:1
-  runtime: hydrosphere/serving-runtime-python:3.6-latest
 ```
 
-`singular` field has three properties:
-- `model` defines the model and its version to use. Expected to be in the form `model-name:model-version`;
-- `runtime` defines the runtime to run the model on;
-- `monitoring` defines the list of monitoring metrics applied to the model. _Optional_.
+`singular` field has a single `model` property. It's expected to be in the form `model-name:model-version`.
 
-`monitoring` metric can have 5 fields: 
-- `name` defines the name of the metric;
-- `input` defines which input field to monitor from the model;
-- `type` defines the type of the metric;
-- `healthcheck` defines, if the metric should be used as a health check for the model. By default health check is disabled.<br>For some of the models you can also set `threshold`. 
-- `app` defines what application to use for inference for the metric. _Optional_.
-
-<hr>
+### Pipeline
 
 `pipeline` applications have more detailed definitions.
 
@@ -104,55 +81,26 @@ singular:
 kind: Application
 name: sample-claims-app
 pipeline:
-  - signature: claims
-    model: claims-preprocessing:1
-    runtime: hydrosphere/serving-runtime-python:3.6-latest
-  - signature: claims
-    modelservices:
+  - model: claims-preprocessing:1
+  -  modelservices:
       - model: claims-model:1
-        runtime: hydrosphere/serving-runtime-tensorflow:1.7.0-latest
         weight: 80
       - model: claims-model-old:2
-        runtime: hydrosphere/serving-runtime-tensorflow:1.7.0-latest
         weight: 20
-    monitoring:
-      - name: gan
-        input: feature
-        type: GAN
-        app: claims-autoencoder-app
-        healthcheck:
-          enabled: true
-          threshold: 69
 ```
 
 `pipeline` is a list of stages. Each item in the list can have the following attributes:
-- `signature` defines which signature to use from the model
 - `model` defines the model and its version to use. Expected to be in the form `model-name:model-version`;
-- `runtime` defines the runtime to run the model on;
-- `monitoring` defines the metric to use on the stage;
 - A stage can consist of multiple models. In that case you can define `modelservices` where you will list needed models. For each model in you would have to declare a `weight` attribute, which has to sum up to 100 across all the models in the stage. The `weight` defines how much traffic would go through the model.
 
-<br>
 
-### `kind: Runtime`
+## HostSelector
 
-For this type of the manifest you have to declare:
+HostSelector gives an ability to set environment requirements for your model deployment.
+Your model uses GPU? Maybe you want some experimental ARM64 version? Other requirements?
+This resource is for you.
 
-- `model-type` defines which type of the models can be run on the runtime;
-- `version` defines the tag of the Docker image to use.
+Having said that, it's not fully implemented, since it depends on 
+cluster infrastructure and cloud provider.
 
-```yaml
-kind: Runtime
-name: hydrosphere/serving-runtime-python
-version: 3.6-latest
-model-type: python:3.6
-```
-
-@@@ note
-Note, that in this manifest the `name` field has also another meaning. It refers to the `{username}/{image_name}` available somewhere at the public docker registry. 
-@@@
-
-
-### `kind: Environment`
-
-Available soon. 
+We will let you know when it is ready. ;)

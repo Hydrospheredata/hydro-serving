@@ -7,9 +7,9 @@ You've got the idea. For the simplicity in this tutorial we will just implement 
 ## Writing Python code
 First of all, let's create a directory where we will put all our code:
 ```sh
-$ mkdir -p increment_model/src
-$ cd increment_model
-$ touch src/func_main.py
+mkdir -p increment_model/src
+cd increment_model
+touch src/func_main.py
 ``` 
 
 @@@ note
@@ -114,7 +114,7 @@ You can check model status using web-UI or `hs model list` command.
 Upload the model to serving cluster.
 
 ```sh
-$ hs upload
+hs upload
 ```
 
 Now the model is uploaded to the serving service but does not yet available for the invocation.

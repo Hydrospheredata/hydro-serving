@@ -1,6 +1,9 @@
-# Develop Runtimes
+# Develop a custom runtime
 
-Sometimes you have to use technology that we are not supporting yet or you need more flexibility and you want to implement your own runtime. It may seem frightening at first glance, but it's actually not that difficult. Serving is designed to abstract it's guts from model users and runtime developers. The key things you have to know to write your own runtime are: 
+Sometimes our runtime images aren't flexible enough,
+in that case you might want implement one yourself. 
+
+The key things you have to know to write your own runtime are: 
 
 * Knowing how to implement a predefined gRPC service for a dedicated language;
 * Understanding our contracts' protobufs to describe entry points, such as inputs and outputs;
@@ -14,21 +17,22 @@ There are different approaches on how to generate client and server gRPC code on
 First, let's clone our [protocols](https://github.com/Hydrospheredata/hydro-serving-protos) and prepare a folder for generated code.
 
 ```sh
-$ git clone https://github.com/Hydrospheredata/hydro-serving-protos
-$ mkdir runtime
+git clone https://github.com/Hydrospheredata/hydro-serving-protos
+mkdir runtime
 ```
 
-For generating gRPC code we need additional packages. 
+To generate gRPC code we need additional packages. 
 
 ```sh
-$ pip install grpcio-tools googleapis-common-protos
+pip install grpcio-tools googleapis-common-protos
 ```
 
-Runtimes only depend on `contracts` and `tf`, so we're generating only them.
+Our custom runtime will require `contracts` and `tf` protobuf messages.
+So let's generate them:
 
 ```sh
-$ python -m grpc_tools.protoc --proto_path=./hydro-serving-protos/src/ --python_out=./runtime/ --grpc_python_out=./runtime/ $(find ./hydro-serving-protos/src/hydro_serving_grpc/contract/ -type f -name '*.proto')
-$ python -m grpc_tools.protoc --proto_path=./hydro-serving-protos/src/ --python_out=./runtime/ --grpc_python_out=./runtime/ $(find ./hydro-serving-protos/src/hydro_serving_grpc/tf/ -type f -name '*.proto')
+python -m grpc_tools.protoc --proto_path=./hydro-serving-protos/src/ --python_out=./runtime/ --grpc_python_out=./runtime/ $(find ./hydro-serving-protos/src/hydro_serving_grpc/contract/ -type f -name '*.proto')
+python -m grpc_tools.protoc --proto_path=./hydro-serving-protos/src/ --python_out=./runtime/ --grpc_python_out=./runtime/ $(find ./hydro-serving-protos/src/hydro_serving_grpc/tf/ -type f -name '*.proto')
 ```
 
 For convinience we can also add `__init__.py` files to the generated directories. 
@@ -74,7 +78,8 @@ runtime
 
 Now, that we have everything set up, let's actually implement runtime.
 
-`runtime.py`
+`runtime.py` contents:
+
 ```python
 from hydro_serving_grpc.tf.api.predict_pb2 import PredictRequest, PredictResponse
 from hydro_serving_grpc.tf.api.prediction_service_pb2_grpc import PredictionServiceServicer, add_PredictionServiceServicer_to_server
@@ -99,18 +104,8 @@ class RuntimeService(PredictionServiceServicer):
     def Predict(self, request, context):
         self.logger.info(f"Received inference request: {request}")
         
-        selected_signature = None
-        for signature in self.contract.signatures:
-            if signature.signature_name == request.model_spec.signature_name:
-                selected_signature = signature
-
-        if selected_signature is None:
-          context.set_code(grpc.StatusCode.INVALID_ARGUMENT)
-          context.set_details(f'{request.model_spec.signature_name} is not present in the model')
-          return PredictResponse()
-
         module = importlib.import_module("func_main")
-        executable = getattr(module, selected_signature.signature_name)
+        executable = getattr(module, self.contract.predict.signature_name)
         result = executable(**request.inputs)
 
         if not isinstance(result, hs.PredictResponse):
@@ -144,9 +139,12 @@ class RuntimeManager:
         self.server.stop(code)
 ```
 
-Let's quickly review, what we have here. `RuntimeManager` simply manages our service, i.e. starts it, stops it, holds all necessary data. `RuntimeService` is the service that actually implements `Predict(PredictRequest)`.
+Let's quickly review, what we have here. `RuntimeManager` simply manages our service,
+i.e. starts it, stops it, holds all necessary data. 
+`RuntimeService` is the service that actually implements `Predict(PredictRequest)` rpc function.
 
-The model will be stored inside the `/model` directory in the docker container. The structure of `/model` is following: 
+The model will be stored inside the `/model` directory in the docker container. 
+The structure of `/model` is following: 
 
 ```sh
 model
@@ -156,7 +154,10 @@ model
     └── ...
 ```
 
-`contract.protobin` is a processed by `manager` binary representation of the [ModelContract](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/contract/model_contract.proto) message. `files` directory contains all files of your model.
+`contract.protobin` file will be created by manager service. It contains a binary representation of 
+the [ModelContract](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/contract/model_contract.proto) message. 
+
+`files` directory contains all files of your model.
 
 To run the service let's create another file.
 
@@ -247,16 +248,17 @@ runtime
 └── runtime.py
 ```
 
-To let Serving see your runtimes, you have to publish it to the Docker Hub or your private Docker Registry. Here for simplicity we will publish it to the Docker Hub. 
+Now you have to publish it to the Docker Hub or your private Docker Registry. 
+For the sake of simplicity we will publish it to Docker Hub. 
 
 ```sh
-$ docker build -t {username}/python-runtime-example:3.6.5
-$ docker push {username}/python-runtime-example:3.6.5 
+docker build -t {username}/python-runtime-example:3.6.5
+docker push {username}/python-runtime-example:3.6.5 
 ```
 
 The `username` should be the one you have registered in Docker Hub. 
 
-## Result
+---
 
 That's it. You've just created a simple runtime, that you can use in your own projects. 
 It's almost an equal version of our [python runtime implementation](https://github.com/Hydrospheredata/hydro-serving-python). You can always look up details there. 

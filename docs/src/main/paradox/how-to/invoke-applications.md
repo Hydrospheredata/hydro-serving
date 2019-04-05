@@ -1,20 +1,22 @@
 # Invoke Applications
 
-Applications can be invoked in three following ways. 
+You can use on the following APIs to send prediction requests to your application:
 
-### Test UI call
+## Web-UI `Test` button
 
-You can perform a test request to the application from UI interface. Open a desired application and press `Test` button. Internally it will generate dummy input data from model's contract and send an HTTP-request to API endpoint. 
+You can send a test request to the application from UI interface. 
+Just open an application and press `Test` button. 
+We will generate dummy input data based on your model's contract and send an HTTP-request to API endpoint. 
 
-### HTTP API call
+## HTTP API
 
-You can reach your application with an HTTP-request. Send a `POST` request to `http://<host>/gateway/applications/{applicationName}/{applicationSignature}`. 
+You can reach your application with an HTTP-request. 
+Send a `POST` request to `http://<host>/gateway/application/{applicationName}`. 
 
-Note, when you create a `pipeline` application, Serving internally infers a contract. It performs validation that every stage is compatible with it's siblings, and creates a contract with the same signature name, as the application name. `singular` applications by default use their explicitly defined signatures.
+## GRPC API
 
-### gRPC API call
-
-You can define a gRPC client on your side, establish insecure connection with `http://<host>` and make a call to `Predict` method. We provide an example Python client. 
+In order to send a prediction GRPC request you need to create a specific client.
+Gateway service exposes a `PredictionService` endpoint, so you can use it's client.
 
 ```python
 import grpc 
@@ -25,7 +27,7 @@ channel = grpc.insecure_channel("<host>")
 stub = hs.PredictionServiceStub(channel)
 
 # 1. define a model, that you'll use
-model_spec = hs.ModelSpec(name="model", signature_name="infer")
+model_spec = hs.ModelSpec(name="model")
 
 # 2. define tensor_shape for Tensor instance
 tensor_shape = hs.TensorShapeProto(
