@@ -18,7 +18,7 @@ Installation can be performed in a few ways:
 Add Serving to the repo.
 
 ```sh
-helm repo add hydrosphere https://hydrospheredata.github.io/hydro-serving/
+helm repo add hydrosphere https://hydrospheredata.github.io/hydro-serving/helm 
 ```
 
 Install the chart from repo to the cluster.
@@ -34,7 +34,7 @@ Choose a release from the
 install it as usual.
    
 ```sh
-helm install --name serving https://github.com/Hydrospheredata/hydro-serving/releases/download/0.1.15/serving-0.1.15.tgz
+helm install --name serving https://github.com/Hydrospheredata/hydro-serving/releases/download/2.0.0/helm.serving-2.0.0.tgz
 ```
 
 ## Install using helm with manual build
