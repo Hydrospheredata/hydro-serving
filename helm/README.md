@@ -117,7 +117,7 @@ The following table lists the configurable parameters of the HydroServing chart 
 | `manager.serviceAccount.create`       | Specifies whether a ServiceAccount should be created  | `true`                            |
 | `manager.serviceAccount.name`         | The name of the ServiceAccounts to use.               | `nil` (auto-generated)            |
 | `gateway.image.repository`            | Container image for `gateway`                         | `hydrosphere/serving-gateway`     |
-| `gateway.image.tag`                   | Container image tag for `gateway`                     | `2.0.0`                          |
+| `gateway.image.tag`                   | Container image tag for `gateway`                     | `2.0.1`                          |
 | `gateway.image.pullPolicy`            | Container pull policy                                 | `Always`                          |
 | `ui.image.repository`                 | Container image for `ui`                              | `hydrosphere/serving-manager-ui`  |
 | `ui.image.tag`                        | Container image tag for `ui`                          | `2.0.0`                          |

@@ -34,7 +34,7 @@ Choose a release from the
 install it as usual.
    
 ```sh
-helm install --name serving https://github.com/Hydrospheredata/hydro-serving/releases/download/2.0.0/helm.serving-2.0.0.tgz
+helm install --name serving https://github.com/Hydrospheredata/hydro-serving/releases/download/2.0.1/helm.serving-2.0.1.tgz
 ```
 
 ## Install using helm with manual build
