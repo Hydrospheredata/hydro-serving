@@ -9,7 +9,7 @@ cat >> index.yaml << EOM
     digest: ${2}
     name: serving
     urls:
-    - https://github.com/Hydrospheredata/hydro-serving/releases/download/${1}/serving-${1}.tgz
+    - https://github.com/Hydrospheredata/hydro-serving/releases/download/${1}/helm.serving-${1}.tgz
     version: ${1}
 EOM
 
