@@ -118,11 +118,15 @@ of your model and return your predictions.
 
 ```python
 import numpy as np
+import tensorflow as tf
 import hydro_serving_grpc as hs
 from keras.models import load_model
 
 # 0. Load model once
 model = load_model('/model/files/model.h5')
+
+global graph
+graph = tf.get_default_graph() #this is a workaround of keras' issue with multithreading
 
 def infer(x):
     # 1. Retrieve tensor's content and put it to numpy array
@@ -130,7 +134,8 @@ def infer(x):
     data = data.reshape([dim.size for dim in x.tensor_shape.dim])
 
     # 2. Make a prediction
-    result = model.predict(data)
+    with graph.as_default():
+        result = model.predict(data)
     
     # 3. Pack the answer
     y_shape = hs.TensorShapeProto(dim=[hs.TensorShapeProto.Dim(size=-1)])
@@ -169,7 +174,7 @@ install-command: "pip install -r requirements.txt"
 payload:
   - "src/"
   - "requirements.txt"
-  - "model.h5"
+  - "linear_regression/model.h5"
 
 contract:
   name: infer
