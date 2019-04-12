@@ -172,17 +172,17 @@ payload:
   - "model.h5"
 
 contract:
-				name:infer                    # Signature function
-				inputs:
-								x:                    # Input field
-												shape: [-1, 2]
-												type: double
-												profile: numerical
-				outputs:
-								y:                    # Output field
-												shape: [-1]
-												type: double
-												profile: numerical
+  name: infer
+  inputs:
+    x:
+      shape: [-1, 2]
+      type: double
+      profile: numerical
+  outputs:
+    y:
+      shape: [-1]
+      type: double
+      profile: numerical
 ```
 
 Here you can see, that we've provided a `requirements.txt` and a `model.h5` as 
