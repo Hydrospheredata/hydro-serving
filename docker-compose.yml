@@ -13,7 +13,7 @@ services:
         - "POSTGRES_PASSWORD=docker"
 
   manager:
-    image: hydrosphere/serving-manager:2.0.0
+    image: hydrosphere/serving-manager:2.0.1
     container_name: manager
     ports:
       - "19091:9091"
@@ -29,7 +29,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
 
   gateway:
-    image: hydrosphere/serving-gateway:2.0.0
+    image: hydrosphere/serving-gateway:2.0.1
     container_name: gateway
     ports:
       - "29091:9091"

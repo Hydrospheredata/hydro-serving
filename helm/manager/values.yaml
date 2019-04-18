@@ -22,7 +22,7 @@ env: {}
 
 image:
   repository: hydrosphere/serving-manager
-  tag: 2.0.0
+  tag: 2.0.1
   pullPolicy: Always
 
 service:
