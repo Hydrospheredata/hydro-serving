@@ -29,7 +29,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
 
   gateway:
-    image: hydrosphere/serving-gateway:2.0.1
+    image: hydrosphere/serving-gateway:2.0.2
     container_name: gateway
     ports:
       - "29091:9091"

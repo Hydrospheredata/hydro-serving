@@ -10,7 +10,7 @@ replicaCount: 1
 
 image:
   repository: hydrosphere/serving-gateway
-  tag: 2.0.1
+  tag: 2.0.2
   pullPolicy: Always
 
 service:
