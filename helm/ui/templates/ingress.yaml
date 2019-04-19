@@ -39,7 +39,7 @@ spec:
               servicePort: http
   {{- end }}
 ---
-apiVersion: v1
+apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: "{{ $fullName }}-grpc"
@@ -51,8 +51,8 @@ metadata:
     heritage: {{ .Release.Service }}
 {{- with .Values.ingress.annotations }}
   annotations:
-    "nginx.ingress.kubernetes.io/backend-protocol": "GRPC",
-    "nginx.ingress.kubernetes.io/grpc-backend": "true"
+    nginx.ingress.kubernetes.io/backend-protocol: "GRPC"
+    nginx.ingress.kubernetes.io/grpc-backend: "true"
 {{ toYaml . | indent 4 }}
 {{- end }}
 spec:
