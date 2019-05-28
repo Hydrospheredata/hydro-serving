@@ -40,6 +40,8 @@ spec:
               value: "localhost"
             - name: MONITORING_HOST
               value: "localhost"
+            - name: TIMEMACHINE_HOST
+              value: "localhost"
             - name: MANAGER_HTTP_PORT
               value: "9090"
             - name: MANAGER_GRPC_PORT
@@ -56,6 +58,8 @@ spec:
               value: "9090"
             - name: REQSTORE_GRPC_PORT
               value: "9091"
+            - name: TIMEMACHINE_HTTP_PORT
+              value: "9090"
             {{- with .Values.env }}
 {{ toYaml . | indent 12 }}
             {{- end }}
