@@ -75,7 +75,7 @@ spec:
             backend:
               serviceName: "hydro-serving-ui-{{ $releaseName }}"
               servicePort: grpc
-          - path: "/timemachine."
+          - path: "/hydrosphere."
             backend:
               serviceName: "hydro-serving-ui-{{ $releaseName }}"
               servicePort: grpc
