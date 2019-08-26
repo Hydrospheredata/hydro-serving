@@ -16,5 +16,6 @@ inference on given data and many more.
 * [Tutorials](tutorials/index.md)
 * [How-To](how-to/index.md)
 * [Development](dev.md)
+* [Reference](reference/manifests.md)
 @@@
 

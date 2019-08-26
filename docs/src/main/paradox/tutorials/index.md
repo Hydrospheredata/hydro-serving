@@ -174,7 +174,7 @@ install-command: "pip install -r requirements.txt"
 payload:
   - "src/"
   - "requirements.txt"
-  - "linear_regression/model.h5"
+  - "model.h5"
 
 contract:
   name: infer
@@ -272,7 +272,7 @@ import grpc
 import hydro_serving_grpc as hs
 
 # connect to your ML Lamba instance
-channel = grpc.insecure_channel("localhost")
+channel = grpc.insecure_channel("localhost:9090")
 stub = hs.PredictionServiceStub(channel)
 
 # 1. define a model, that you'll use
