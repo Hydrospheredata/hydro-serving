@@ -77,6 +77,17 @@ model.fit(X, y, epochs=100)
 model.save('model.h5')
 ```
 
+We have not install necessary libraries for our model. 
+In your linear_regression folder you need to create requirements.txt file with following requirements:
+
+```
+Keras==2.2.0
+tensorflow==1.8.0
+numpy==1.13.3
+```
+
+Now you can run `` pip install -r requirements.txt`` to install all packages.
+
 Then, you need to execute the script 
 
 ```sh
@@ -162,8 +173,8 @@ functions and some other metadata required for serving. Go to the root directory
 of the model and create a `serving.yaml` file. 
 
 ```sh
- cd ..
- touch serving.yaml
+cd ..
+touch serving.yaml
 ```
 
 ```yaml
@@ -192,13 +203,6 @@ contract:
 
 Here you can see, that we've provided a `requirements.txt` and a `model.h5` as 
 payload files to our model. 
-But we haven't created `requirements.txt` yet, let's do that too. 
-
-```
-Keras==2.2.0
-tensorflow==1.8.0
-numpy==1.13.3
-```
 
 Overall structure of our model now should look like this:
 
@@ -231,10 +235,10 @@ application represents a final endpoint to your model, so you can invoke it from
 the outside. To learn more about advanced features, go to the 
 [Applications](concepts/applications.md) page. 
 
-![](/images/linear_regression_application.png)
+![](../images/linear_regression_application.png)
 
 Open [http://localhost/applications](http://localhost/applications), press 
-`Add New` button. In the opened window select `linear_regression` model and as 
+`Add New` button. In the opened window select `linear_regression` model, name your application `linear_regression` and as 
 a runtime select `hydrosphere/serving-runtime-python`, 
 then create an application. 
 
@@ -261,7 +265,8 @@ Send `POST` request.
  curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
 "x": [[1, 1],[1, 1]]}' 'http://localhost/gateway/applications/linear_regression/infer'
 ```
-
+In url `linear_regression` stands for application name and `infer` for signature method name .
+If you named your application or method differently you need to change url.
 ### gRPC API call
 
 You can define a gRPC client on your side and make a call from it. 
@@ -276,7 +281,7 @@ channel = grpc.insecure_channel("localhost:9090")
 stub = hs.PredictionServiceStub(channel)
 
 # 1. define a model, that you'll use
-model_spec = hs.ModelSpec(name="linear_regression", signature_name="infer")
+model_spec = hs.ModelSpec(name="linear_regression", signature_name="infer") # use your application and signature names here
 # 2. define tensor_shape for Tensor instance
 tensor_shape = hs.TensorShapeProto(dim=[hs.TensorShapeProto.Dim(size=-1), hs.TensorShapeProto.Dim(size=2)])
 # 3. define tensor with needed data
