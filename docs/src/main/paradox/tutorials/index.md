@@ -10,6 +10,10 @@ We will start from scratch and create a simple linear regression model that will
 fit our randomly generated data with some noize added to it. 
 After the training step we will pack it, deploy to the Serving and call it locally with the different program. 
 
+@@@ note
+You can find other examples on how to deploy various models in our [repository](https://github.com/Hydrospheredata/hydro-serving-example)
+@@@
+
 ## Prerequisites
 
 We assume that you already have an [installed](/installation.md) serving cluster and 
