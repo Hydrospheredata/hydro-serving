@@ -16,6 +16,8 @@ contract:
         shape: scalar
         type: int32
         profile: numeric
+metadata:
+  experiment: "demo" 
 ...
 ``` 
 
@@ -52,7 +54,7 @@ contract:
             </tr>
             <tr>
                 <td><code>string</code></td>
-                <td>String.</td>
+                <td>String in bytes.</td>
             </tr>
             <tr>
                 <td><code>half</code>, <code>float16</code></td>

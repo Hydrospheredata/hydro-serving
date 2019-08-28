@@ -38,8 +38,8 @@ python -m grpc_tools.protoc --proto_path=./hydro-serving-protos/src/ --python_ou
 For convinience we can also add `__init__.py` files to the generated directories. 
 
 ```sh
-$ cd runtime
-$ find ./hydro_serving_grpc -type d -exec touch {}/__init__.py \;
+cd runtime
+find ./hydro_serving_grpc -type d -exec touch {}/__init__.py \;
 ```
 
 The structure of the `runtime` now should be as following:

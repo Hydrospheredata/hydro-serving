@@ -63,7 +63,7 @@ outside of the cluster in order to access it. For the simplicity, I will just
 port-forward sidecar locally. 
 
 ```sh
-$ kubectl port-forward deployment/serving-ui 80:80
+kubectl port-forward deployment/serving-ui 80:80
 ```
 
 To check that everything works fine, open [http://localhost/](http://localhost/).

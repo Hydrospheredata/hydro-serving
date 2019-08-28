@@ -10,7 +10,7 @@ When you upload a model to Serving, roughly the following steps are executed:
 
 ## Frameworks
 
-Model can be written using a variety of modern machine learning frameworks. You can implement your model using TensorFlow graph computations, or create your model with scikit-learn package, Pytorch, Keras, fastai, MXNet, Spark ML/MLlib, etc. Serving can understand your models depending on what framework you are using. It’s possible due to the metadata, that frameworks save with the model, but it’s not always the case. You should refer to the table below with listed frameworks and their inference. If inferring percentage is high, you can omit providing contracts, otherwise [you should]({{site.baseurl}}{%link how-to/write-manifests.md%}).
+Model can be written using a variety of modern machine learning frameworks. You can implement your model using TensorFlow graph computations, or create your model with scikit-learn package, Pytorch, Keras, fastai, MXNet, Spark ML/MLlib, etc. Serving can understand your models depending on what framework you are using. It’s possible due to the metadata, that frameworks save with the model, but it’s not always the case. You should refer to the table below with listed frameworks and their inference. If inferring percentage is high, you can omit providing contracts, otherwise [you should](../how-to/write-manifests.html}).
 
 <div class="flexible-table">
 	<table>
