@@ -38,9 +38,9 @@ with [Tensorflow](https://www.tensorflow.org/) backend.
 First of all, create a directory for the model and add `model.py` inside it.
 
 ```sh
-$ mkdir linear_regression
-$ cd linear_regression
-$ touch model.py
+ mkdir linear_regression
+ cd linear_regression
+ touch model.py
 ```
 
 The model will consist of 3 fully-connected layers with first two of them having ReLU activation function and 
@@ -80,7 +80,7 @@ model.save('model.h5')
 Then, you need to execute the script 
 
 ```sh
-$ python model.py
+python model.py
 ```
 As soon as script finishes, you will get a model saved in `model.h5` file.
 
@@ -102,9 +102,9 @@ though you have to follow some rules:
 We will start with the main functional file. 
 
 ```sh 
-$ mkdir src
-$ cd src
-$ touch func_main.py
+ mkdir src
+ cd src
+ touch func_main.py
 ```
 
 Serving communicates with the model using 
@@ -162,8 +162,8 @@ functions and some other metadata required for serving. Go to the root directory
 of the model and create a `serving.yaml` file. 
 
 ```sh
-$ cd ..
-$ touch serving.yaml
+ cd ..
+ touch serving.yaml
 ```
 
 ```yaml
@@ -221,7 +221,7 @@ since we didn't specify it in the contract's payload.
 Now we can upload the model. 
 
 ```sh
-$ hs upload
+ hs upload
 ```
 
 You can open [http://localhost/models](http://localhost/models) page to see the uploaded model. 
@@ -258,7 +258,7 @@ application's endpoint.
 Send `POST` request. 
 
 ```sh
-$ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
+ curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{
 "x": [[1, 1],[1, 1]]}' 'http://localhost/gateway/applications/linear_regression/infer'
 ```
 

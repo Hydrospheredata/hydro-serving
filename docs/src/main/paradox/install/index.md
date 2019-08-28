@@ -7,7 +7,7 @@
 * [Kubernetes](kubernetes.md)
 @@@
 
-You can setup serving cluster in 2 environments: 
+You can setup serving cluster in any of 2 environments: 
 
 * @ref[Docker](docker.md)
 * @ref[Kubernetes](kubernetes.md)

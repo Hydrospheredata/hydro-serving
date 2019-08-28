@@ -45,6 +45,10 @@ contract:
 												shape: [-1, 2]
 												type: int32 
 												profile: numerical
+metadata:
+                experiment: "demo"
+                model_version: "1.1"
+
 ```
 
 In the example above we've defined a signature with `infer` name. 
