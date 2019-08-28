@@ -57,11 +57,11 @@ hs cluster rm new_local
 
 ### `hs upload`
 
-When you upload a model, the tool looks for `serving.yaml` file in the current directory. `serving.yaml` defines model's metadata and it's contract. For more information, check out [model's manifest]({{site.baseurl}}{%link how-to/write-manifests.md%}#kind-model).
+When you upload a model, the tool looks for `serving.yaml` file in the current directory. `serving.yaml` defines model's metadata and it's contract. For more information, check out [model's manifest](../reference/manifests.html#kind-model).
 
 ### `hs apply` 
 
-You can apply custom resources on Serving. These resources are detected by `kind` key in the [manifest]({{site.baseurl}}{%link how-to/write-manifests.md%}) files.
+You can apply custom resources on Serving. These resources are detected by `kind` key in the [manifest](../reference/manifests.html) files.
 
 - Model defines the model files, and it's contract;
 - Application defines an endpoint to reach your models. 

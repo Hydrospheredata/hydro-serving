@@ -267,6 +267,7 @@ Send `POST` request.
 ```
 In url `linear_regression` stands for application name and `infer` for signature method name .
 If you named your application or method differently you need to change url.
+For more information read how to [invoke applications](../how-to/invoke-applications.html)
 ### gRPC API call
 
 You can define a gRPC client on your side and make a call from it. 
