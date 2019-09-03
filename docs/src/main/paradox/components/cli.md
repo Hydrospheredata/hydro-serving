@@ -61,17 +61,49 @@ When you upload a model, the tool looks for `serving.yaml` file in the current d
 
 ### `hs apply` 
 
-You can apply custom resources on Serving. These resources are detected by `kind` key in the [manifest](../reference/manifests.html) files.
+This command has similar functionality as `hs upload` but allows you not only to deploy models, but also create applications,
+define pipeline and stages inside application. Types of resource to apply are detected by `kind` key in the  [manifest](../reference/manifests.html) files.
 
 - Model defines the model files, and it's contract;
 - Application defines an endpoint to reach your models. 
 
-### `hs profile push`
+Example of application configuration:
 
-### `hs app list`
+```yaml
+kind: Application
+name: sample-claims-app
+pipeline:
+  - model: claims-preprocessing:1
+  -  modelservices:
+      - model: claims-model:1
+        weight: 80
+      - model: claims-model-old:2
+        weight: 20
+```
 
-### `hs app rm`
+### `hs profile`
 
-### `hs model list`
+Commands: 
+`push` - uploads training dataset to compute its profiles
+`status` - shows profiling status for given model
 
-### `hs model rm`
+### `hs app `
+
+This command provides information about available apps
+
+Commands:
+
+`list` - lists all existing apps
+
+`rm` - removes certain app
+
+
+### `hs model`
+
+This command provides information about available models
+
+Commands:
+
+`list` - lists all existing models
+
+`rm` - removes certain model
