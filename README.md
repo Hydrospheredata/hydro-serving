@@ -51,4 +51,4 @@ Features:
  * Protobuf messages: https://github.com/Hydrospheredata/hydro-serving-protos
  * Manager service: https://github.com/Hydrospheredata/hydro-serving-manager
  * Gateway service: https://github.com/Hydrospheredata/hydro-serving-gateway
- * Example models: https://github.com/Hydrospheredata/hydro-serving-example/tree/master/models
+ * Example models: https://github.com/Hydrospheredata/hydro-serving-example
