@@ -3,6 +3,7 @@
 @@@ index
 * [Serving Python Model](python.md)
 * [Serving Tensorflow Model](tensorflow.md)
+* [Serving Spark Model](spark.md)
 @@@
 
 In this page you'll learn how to deploy your first model on Hydrosphere Serving. 
