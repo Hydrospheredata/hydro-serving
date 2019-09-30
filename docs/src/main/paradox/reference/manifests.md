@@ -1,6 +1,7 @@
 # Model contract
 
-In this page we've defined all possible values for certain type of fields of different manifests. 
+In this page we've defined all possible values for certain type of fields 
+of different manifests. 
 
 <br> 
 

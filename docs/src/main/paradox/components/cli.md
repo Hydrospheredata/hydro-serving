@@ -1,6 +1,7 @@
-# `hs` CLI
+# CLI
 
-`hs` is a CLI interface to Hydrosphere platform, that aggregates API to various services.
+`hs` is a CLI interface to Hydrosphere platform, that aggregates API 
+to various services.
 
 ## Installation
 
@@ -18,7 +19,9 @@ You can add `--help` parameter for any command for additional info.
 
 ### `hs cluster`
 
-Cluster is a space, where you deploy your models. Simply put, it points where to apply your configurations and where to upload your models. It stores all the clusters in `~/.hs-home/config.yaml` file.
+Cluster is a space, where you deploy your models. Simply put, it points 
+where to apply your configurations and where to upload your models. It 
+stores all the clusters in `~/.hs-home/config.yaml` file.
 
 ```yaml
 # Example configuration
@@ -57,12 +60,17 @@ hs cluster rm new_local
 
 ### `hs upload`
 
-When you upload a model, the tool looks for `serving.yaml` file in the current directory. `serving.yaml` defines model's metadata and it's contract. For more information, check out [model's manifest](../reference/manifests.html#kind-model).
+When you upload a model, the tool looks for `serving.yaml` file in the 
+current directory. `serving.yaml` defines model's metadata and it's 
+contract. For more information, check out 
+[model's manifest](../reference/manifests.html#kind-model).
 
 ### `hs apply` 
 
-This command has similar functionality as `hs upload` but allows you not only to deploy models, but also create applications,
-define pipeline and stages inside application. Types of resource to apply are detected by `kind` key in the  [manifest](../reference/manifests.html) files.
+This command has similar functionality as `hs upload` but allows you not 
+only to deploy models, but also create applications, define pipeline and 
+stages inside application. Types of resource to apply are detected by 
+`kind` key in the  [manifest](../reference/manifests.html) files.
 
 - Model defines the model files, and it's contract;
 - Application defines an endpoint to reach your models. 
