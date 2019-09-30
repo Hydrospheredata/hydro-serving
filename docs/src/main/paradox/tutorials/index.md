@@ -5,4 +5,5 @@
 * [Serving Python Model](python.md)
 * [Serving Tensorflow Model](tensorflow.md)
 * [Serving Spark Model](spark.md)
+* [Monitoring Model](monitoring.md)
 @@@
