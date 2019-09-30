@@ -12,7 +12,7 @@ inference on given data and many more.
 @@@ index
 * [Installation](install/index.md)
 * [Components](components/index.md)
-* [Resources](resources/index.md)
+* [Concepts](concepts/index.md)
 * [Tutorials](tutorials/index.md)
 * [How-To](how-to/index.md)
 * [Development](dev.md)

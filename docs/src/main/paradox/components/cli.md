@@ -1,19 +1,19 @@
-# `hs` CLI tool
+# `hs` CLI
 
-`hs` is a ClI interface to serving cluster, that aggregates API to various services.
+`hs` is a CLI interface to Hydrosphere platform, that aggregates API to various services.
 
 ## Installation
 
 `pip install hs`
 
 @@@ note
-The package is only for python3
+The package is only for Python 3.
 @@@
 
 ## Commands
 
 @@@ note
-You can add `--help` parameter for any command for additonal info.
+You can add `--help` parameter for any command for additional info.
 @@@
 
 ### `hs cluster`

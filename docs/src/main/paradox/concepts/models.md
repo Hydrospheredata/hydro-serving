@@ -1,16 +1,16 @@
 # Models 
 
-__Model__ is a machine learning model or a processing function that consume provided inputs and produce predictions/transformations. Each model is a collection of its own versions. Every time you upload or re-upload a model, a new version is getting created and added to the collection. At the lowest level model version represented as a Docker image, created based on the model binaries. This essentially means, that during building stage the model version gets frozen and can no longer change. Each collection is identified by the model's name. 
+__Model__ is a machine learning model or a processing function that consume provided inputs and produce predictions/transformations. Each model is a collection of its own versions. Every time you upload or re-upload a model, a new version is getting created and added to the collection. At the lowest level model version is represented as a Docker image created based on the model binaries. This essentially means, that during building stage the model version gets frozen and can no longer change. Each collection is identified by the model's name. 
 
-When you upload a model to Serving, roughly the following steps are executed:
+When you upload a model to Hydrosphere, roughly the following steps are executed:
 
-1. CLI uploads model binaries to the Serving;
-1. Serving builds a new Docker image based on the uploaded binaries and saves it in the configured Docker registry;
-1. A builded image is assigned to the model's collection with an increased version.
+1. [CLI](../components/cli.html) uploads model binaries to the platform;
+1. [Manager](../components/index.html#manager-service) builds a new Docker image based on the uploaded binaries and saves the image in the configured [Docker registry](../components/index.html#docker-registry);
+1. A builded image is assigned with the model's collection with an increased version.
 
 ## Frameworks
 
-Model can be written using a variety of modern machine learning frameworks. You can implement your model using TensorFlow graph computations, or create your model with scikit-learn package, Pytorch, Keras, fastai, MXNet, Spark ML/MLlib, etc. Serving can understand your models depending on what framework you are using. It’s possible due to the metadata, that frameworks save with the model, but it’s not always the case. You should refer to the table below with listed frameworks and their inference. If inferring percentage is high, you can omit providing contracts, otherwise [you should](../how-to/write-manifests.html}).
+Model can be written using a variety of modern machine learning frameworks. You can implement your model using TensorFlow graph computations or create your model with scikit-learn, PyTorch, Keras, Fastai, MXNet, Spark ML/MLlib, etc. Serving can understand your models depending on what framework you are using. It’s possible due to the metadata that frameworks save with the model, but it’s not always the case. You should refer to the table below with listed frameworks and their inference. 
 
 <div class="flexible-table">
 	<table>
@@ -68,3 +68,7 @@ Model can be written using a variety of modern machine learning frameworks. You 
 	<code>partly</code> - Complicated models will likely fail inference;<br>
 	<code>manual</code> - Need to provide self-written contracts, model definitions.<br>
 </p>
+
+<hr>
+
+If inferring percentage is high, you can omit providing model definitions, otherwise you should. Learn more about writing custom model definitions [here](../how-to/write-resource-definitions.html#model).

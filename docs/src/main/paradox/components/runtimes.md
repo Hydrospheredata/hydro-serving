@@ -1,4 +1,4 @@
-# Runtimes
+# Runtime
 
 __Runtime__ is a Docker image with a predefined infrastructure. It implements a set of specific methods that are used as an endpoints to the model. It's responsible for running user-defined models. When you create a new application you also have to provide a corresponding runtime to each models' instances.
 
