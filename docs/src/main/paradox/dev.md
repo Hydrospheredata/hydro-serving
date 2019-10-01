@@ -1,6 +1,7 @@
 # For Developers
 
-This section is dedicated to the developers, who want to improve Hydrosphere Serving. 
+This section is dedicated to the developers, who want to improve Hydrosphere 
+Serving. 
 
 <br>
 

@@ -1,7 +1,7 @@
 # Write resource definitions
 
-Resource definitions describe serving cluster entities.
-It could be your model, application or deployment configuration also known as HostSelector.
+Resource definitions describe serving cluster entities. It could be your 
+model, application or deployment configuration also known as HostSelector. 
 The type of each definition is defined by `kind` field. 
 
 ```yaml
@@ -16,8 +16,10 @@ name: "example"
 - `runtime` defines the docker image that will be used in deployment.
 - `payload` defines all files for the model;
 - `contract` defines a prediction signature of a model.
-- `install-command` defines an initialization command to be executed during upload procedure.
-- `training-data` defines a local file or path to S3 object where training data is stored.
+- `install-command` defines an initialization command to be executed 
+during upload procedure.
+- `training-data` defines a local file or path to S3 object where training 
+data is stored.
 
 ### Example
 
@@ -28,33 +30,33 @@ training-data: s3://bucket/train.csv
 runtime: hydrosphere/serving-runtime-dummy:dev
 install-command: "sudo apt install jq" 
 payload: 
-				- "./*"
+  - "./*"
 contract:
-				name: infer
-				inputs:
-								input_field_1:
-												shape: [-1, 1]
-												type: string
-												profile: text
-								input_field_2:
-												shape: scalar
-												type: int32
-												profile: numerical
-				outputs: 
-								output_field_1:
-												shape: [-1, 2]
-												type: int32 
-												profile: numerical
+  name: infer
+  inputs:
+	input_field_1:
+	  shape: [-1, 1]
+	  type: string
+	  profile: text
+	input_field_2:
+	  shape: scalar
+	  type: int32
+	  profile: numerical
+  outputs: 
+	output_field_1:
+	  shape: [-1, 2]
+	  type: int32 
+	  profile: numerical
 metadata:
-                experiment: "demo"
-                model_version: "1.1"
+  experiment: "demo"
+  model_version: "1.1"
 
 ```
 
-In the example above we've defined a signature with `infer` name. 
-Each signature has to have `inputs` and `outputs`. 
-They define what kind of data the model will receive and what will it produce. 
-Each input and output field has a 3 defined properties - `shape`, `type` and `profile`. 
+In the example above we've defined a signature with `infer` name. Each 
+signature has to have `inputs` and `outputs`. They define what kind of 
+data the model will receive and what will it produce. Each input and 
+output field has a 3 defined properties - `shape`, `type` and `profile`. 
 
 
 ## Application
@@ -75,7 +77,8 @@ singular:
   model: sample_model:1
 ```
 
-`singular` field has a single `model` property. It's expected to be in the form `model-name:model-version`.
+`singular` field has a single `model` property. It's expected to be in 
+the form `model-name:model-version`.
 
 ### Pipeline
 
@@ -93,18 +96,24 @@ pipeline:
         weight: 20
 ```
 
-`pipeline` is a list of stages. Each item in the list can have the following attributes:
-- `model` defines the model and its version to use. Expected to be in the form `model-name:model-version`;
-- A stage can consist of multiple models. In that case you can define `modelservices` where you will list needed models. For each model in you would have to declare a `weight` attribute, which has to sum up to 100 across all the models in the stage. The `weight` defines how much traffic would go through the model.
+`pipeline` is a list of stages. Each item in the list can have the 
+following attributes:
+- `model` defines the model and its version to use. Expected to be in the 
+form `model-name:model-version`;
+- A stage can consist of multiple models. In that case you can define 
+`modelservices` where you will list needed models. For each model in you 
+would have to declare a `weight` attribute, which has to sum up to 100 
+across all the models in the stage. The `weight` defines how much traffic 
+would go through the model.
 
 
 ## HostSelector
 
-HostSelector gives an ability to set environment requirements for your model deployment.
-Your model uses GPU? Maybe you want some experimental ARM64 version? Other requirements?
-This resource is for you.
+HostSelector gives an ability to set environment requirements for your 
+model deployment. Your model uses GPU? Maybe you want some experimental 
+ARM64 version? Other requirements? This resource is for you.
 
-Having said that, it's not fully implemented, since it depends on 
-cluster infrastructure and cloud provider.
+Having said that, it's not fully implemented, since it depends on cluster 
+infrastructure and cloud provider.
 
 We will let you know when it is ready. ;)

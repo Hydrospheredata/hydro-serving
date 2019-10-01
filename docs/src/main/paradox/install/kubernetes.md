@@ -1,7 +1,7 @@
 # Kubernetes installation
 
-There's already a pre-built [Helm](https://helm.sh/) charts for installing and 
-maintaining Serving on [Kubernetes](https://kubernetes.io/) clusters.
+There's already a pre-built [Helm](https://helm.sh/) charts for installing 
+and maintaining Serving on [Kubernetes](https://kubernetes.io/) clusters.
 
 ## Prerequisites
 
@@ -30,8 +30,8 @@ helm install --name serving hydrosphere/serving
 ## Install using helm chart from releases
 
 Choose a release from the 
-[releases page](https://github.com/Hydrospheredata/hydro-serving/releases) and 
-install it as usual.
+[releases page](https://github.com/Hydrospheredata/hydro-serving/releases) 
+and install it as usual.
    
 ```sh
 helm install --name serving https://github.com/Hydrospheredata/hydro-serving/releases/download/2.0.1/helm.serving-2.0.1.tgz
@@ -58,9 +58,9 @@ Install the chart.
 helm install --name serving
 ```
 
-After chart was installed to the cluster, you have to expose an `ui` deployment
-outside of the cluster in order to access it. For the simplicity, I will just 
-port-forward sidecar locally. 
+After chart was installed to the cluster, you have to expose an `ui` 
+deployment outside of the cluster in order to access it. For the simplicity, 
+I will just port-forward sidecar locally. 
 
 ```sh
 kubectl port-forward deployment/serving-ui 80:80

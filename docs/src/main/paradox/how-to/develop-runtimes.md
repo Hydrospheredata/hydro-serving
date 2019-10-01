@@ -1,20 +1,26 @@
 # Develop a custom runtime
 
-Sometimes our runtime images aren't flexible enough,
-in that case you might want implement one yourself. 
+Sometimes our runtime images aren't flexible enough, in that case you 
+might want implement one yourself. 
 
 The key things you have to know to write your own runtime are: 
 
-* Knowing how to implement a predefined gRPC service for a dedicated language;
-* Understanding our contracts' protobufs to describe entry points, such as inputs and outputs;
-* Knowing how to create your own docker image and publish it to an open registry.
+* Knowing how to implement a predefined gRPC service for a dedicated 
+language;
+* Understanding our contracts' protobufs to describe entry points, such 
+as inputs and outputs;
+* Knowing how to create your own docker image and publish it to an open 
+registry.
 
 
 ## Generate GRPC code
 
-There are different approaches on how to generate client and server gRPC code on [different languages](https://grpc.io/docs/). Let's have a look on how to do that on Python.
+There are different approaches on how to generate client and server gRPC 
+code on [different languages](https://grpc.io/docs/). Let's have a look 
+on how to do that on Python.
 
-First, let's clone our [protocols](https://github.com/Hydrospheredata/hydro-serving-protos) and prepare a folder for generated code.
+First, let's clone our [protocols](https://github.com/Hydrospheredata/hydro-serving-protos) 
+and prepare a folder for generated code.
 
 ```sh
 git clone https://github.com/Hydrospheredata/hydro-serving-protos
@@ -35,7 +41,8 @@ python -m grpc_tools.protoc --proto_path=./hydro-serving-protos/src/ --python_ou
 python -m grpc_tools.protoc --proto_path=./hydro-serving-protos/src/ --python_out=./runtime/ --grpc_python_out=./runtime/ $(find ./hydro-serving-protos/src/hydro_serving_grpc/tf/ -type f -name '*.proto')
 ```
 
-For convinience we can also add `__init__.py` files to the generated directories. 
+For convinience we can also add `__init__.py` files to the generated 
+directories. 
 
 ```sh
 cd runtime
@@ -139,9 +146,9 @@ class RuntimeManager:
         self.server.stop(code)
 ```
 
-Let's quickly review, what we have here. `RuntimeManager` simply manages our service,
-i.e. starts it, stops it, holds all necessary data. 
-`RuntimeService` is the service that actually implements `Predict(PredictRequest)` rpc function.
+Let's quickly review, what we have here. `RuntimeManager` simply manages 
+our service, i.e. starts it, stops it, holds all necessary data. `RuntimeService` 
+is the service that actually implements `Predict(PredictRequest)` rpc function.
 
 The model will be stored inside the `/model` directory in the docker container. 
 The structure of `/model` is following: 
@@ -154,8 +161,9 @@ model
     └── ...
 ```
 
-`contract.protobin` file will be created by manager service. It contains a binary representation of 
-the [ModelContract](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/contract/model_contract.proto) message. 
+`contract.protobin` file will be created by manager service. It contains 
+a binary representation of the 
+[ModelContract](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/contract/model_contract.proto) message. 
 
 `files` directory contains all files of your model.
 
@@ -210,7 +218,8 @@ WORKDIR /app
 CMD ["python", "main.py"]
 ```
 
-`APP_PORT` is an environment variable that is used by Serving. When Serving invokes `Predict` method, it does it via defined port.
+`APP_PORT` is an environment variable that is used by Serving. When 
+Hydrosphere invokes `Predict` method, it does it via defined port.
 
 The structure of the `runtime` folder now should look like this:
 
@@ -248,8 +257,8 @@ runtime
 └── runtime.py
 ```
 
-Now you have to publish it to the Docker Hub or your private Docker Registry. 
-For the sake of simplicity we will publish it to Docker Hub. 
+Now you have to publish it to the Docker Hub or your private Docker 
+Registry. For the sake of simplicity we will publish it to Docker Hub. 
 
 ```sh
 docker build -t {username}/python-runtime-example:3.6.5
@@ -260,5 +269,7 @@ The `username` should be the one you have registered in Docker Hub.
 
 ---
 
-That's it. You've just created a simple runtime, that you can use in your own projects. 
-It's almost an equal version of our [python runtime implementation](https://github.com/Hydrospheredata/hydro-serving-python). You can always look up details there. 
+That's it. You've just created a simple runtime, that you can use in your 
+own projects. It's almost an equal version of our 
+[python runtime implementation](https://github.com/Hydrospheredata/hydro-serving-python). 
+You can always look up details there. 
