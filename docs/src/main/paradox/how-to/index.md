@@ -10,7 +10,7 @@ explore you different manifests, that you can apply with CLI;
 your models from outside;
 * [Develop runtimes](develop-runtimes.md) page will guide through the way 
 of building your own runtime. 
-* [Custom monitoring](custom-monitoring.md) page will guide through the way 
+* [Custom monitoring](add-custom-monitoring-metric.md) page will guide through the way 
 on how to add a custom monitoring metric. 
 @@@
 
