@@ -145,9 +145,7 @@ a regular model.
 hs upload 
 ``` 
 
-You cannot directly monitor one model with the other model. You have to 
-create an underlying servable for it which means you have to create an 
-application. You can create one by
+To use a this metric you have to create an application. You can create one by:
 
 - writing a [resource definition](./write-resource-definitions.html#application) 
 for the application and applying it to the cluster. 
