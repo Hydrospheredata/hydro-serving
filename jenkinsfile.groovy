@@ -78,11 +78,23 @@ if (getJobType() == "RELEASE_JOB") {
     }
 
     stage("Test Release") {
-        sh "cd helm && helm dependency build serving"
-        // lint
-        sh "cd helm && rc=0; for chart in \$(ls -d ./*/); do helm lint \$chart || rc=\$?; done; return \$rc"
-        // test
-        sh "cd helm && helm template serving"
+      sh "cd helm && helm dependency build serving"
+      // lint
+      sh "cd helm && rc=0; for chart in \$(ls -d ./*/); do helm lint \$chart || rc=\$?; done; return \$rc"
+      // test
+      sh "cd helm && helm template serving"
+    }
+
+    stage("Build documentation") {
+      sh "cd docs && sbt -DappVersion=dev paradox"
+    }
+
+    if (isLatestDevelopBuild()) {
+      stage("Publish documentation as dev version") {
+          sshagent(['hydro-site-publish']) {
+              sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/main/* jenkins_publish@hydrosphere.io:serving_publish_dir_new/dev"
+          }
+      }
     }
   }
 }
