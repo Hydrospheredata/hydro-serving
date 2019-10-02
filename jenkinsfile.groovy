@@ -89,7 +89,7 @@ if (getJobType() == "RELEASE_JOB") {
       sh "cd docs && sbt -DappVersion=dev paradox"
     }
 
-    if (isLatestDevelopBuild()) {
+    if (env.BRANCH_NAME == "master") {
       stage("Publish documentation as dev version") {
           sshagent(['hydro-site-publish']) {
               sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/main/* jenkins_publish@hydrosphere.io:serving_publish_dir_new/dev"
