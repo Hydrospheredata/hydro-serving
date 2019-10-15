@@ -7,17 +7,14 @@
 * [Kubernetes](kubernetes.md)
 @@@
 
-You can setup serving cluster in any of 2 environments: 
+You can setup the platform in the following environments: 
 
 * @ref[Docker](docker.md)
 * @ref[Kubernetes](kubernetes.md)
 
-## CLI
+## CLI/SDK
 
-- [Python 3.6+](https://www.python.org/downloads/)
+Deploying models to the platform can be done in two ways:
 
-To install cli-tool, run:
-
-```sh 
-$ pip install hs
-```
+* via @ref[CLI](../components/cli.md)
+* via @ref[SDK](../components/sdk.md)
