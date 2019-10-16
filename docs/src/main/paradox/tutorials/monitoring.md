@@ -28,26 +28,39 @@ data that your models works with.
 
 * __KNN__ — this algorithm uses distance to the nearest neighbors from 
 the training dataset as a way to measure incoming sample outlier score. 
+Monitoring model: `cencus_monitoring`
 
 * __IsolationForest__ — this algorithm is an autoregressive stateful 
 model. We fit IsolationForest on 5 consequent data samples and then 
-decide whether an incoming sample is an outlier or not. 
+decide whether an incoming sample is an outlier or not. Monitoring 
+model: `monitor_nyc_taxi`
 
 `Image`
 
 * __IsolationForest__ with __EfficientNet__ — this algorithm uses 
 IsolationForests trained on the features, extracted from the last layer 
-of the EfficientNet. 
+of the EfficientNet. Monitoring model: `efficientnet_b4_loop`
 
 `Text`
 
 * __Unknown Words Counter__ — this algorithm simply counts how many
-unknown words are present in observing sample.
+unknown words are present in observing sample. Monitoring model: 
+`tokenizer_monitoring`
 
 * __KMeans__ — this algorithm uses KMeans to score each incoming sample 
 against predefined clusters and decide if the observing sample is an 
-outlier or not.
+outlier or not. Monitoring model: `estimator_monitoring`
 
+### Concept Drift
+
+Concept drift detection is used to indicate if your production data is 
+different from your training data.
+
+`All`
+
+* __Autoencoder__ — this algorithm trains an autoencoder on the 
+training/production data and shows a reconstruction error of each 
+incoming sample. 
 
 ## Batch Metrics 
 
@@ -91,3 +104,12 @@ the data type.
     - _Skewness_
 
 `Text`
+
+* __Common statistics__
+    - _Mean token length_
+    - _Mean character length_
+    - _Mean tree depth_
+    - _Mean unique lemma ratio_
+    - _Mean sentiment score_
+    - _Mean language proba_
+    - _Mean POS proba_
