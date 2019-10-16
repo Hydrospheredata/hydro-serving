@@ -52,7 +52,10 @@ models, deployed applications as well ass monitoring charts, etc.
 
 Sonar is a service component responsible for monitoring your models during 
 inference time. It allows you to evaluate how your model behaves under 
-production load. 
+production load: is there a concept drift occurred in the production data 
+(so your model needs to be retrained), how many outliers are there in the 
+production data, how distribution of your training data is compared with the 
+distribution of the production data?
 
 @@@ note
 Currently not available in public distribution. 
@@ -60,8 +63,8 @@ Currently not available in public distribution.
 
 ## Abstractions
 
-During the process of interaction with the platform you will encounter 
-with the following entities: Models and Applications.
+During the interaction with the platform you will encounter with the following 
+entities: Models and Applications.
 
 ### Models
 
