@@ -1,5 +1,5 @@
 
-# Monitor Model
+# Monitoring
 
 Every model can be monitored with a set of pre-defined and custom 
 metrics. Conceptually metrics can be grouped into the following 
@@ -15,52 +15,39 @@ was collected during production inference.
 ## Per-request Metrics
 
 Per-request metrics allow you to make immediate judgments against an 
-incoming request.
-
-### Anomaly detection
-
-Anomaly detection can be used to monitor outliers in your production 
-data, so that you can more quickly and carefully investigate edge cases 
-and decide how to deal with them. We divide algorithms by the type of 
-data that your models works with. 
+incoming request. Metrics described below are heavily focused on the 
+anomaly detection task. We divide algorithms by the type of data that 
+your models works with. 
 
 `Numerical`
 
 * __KNN__ — this algorithm uses distance to the nearest neighbors from 
 the training dataset as a way to measure incoming sample outlier score. 
-Monitoring model: `cencus_monitoring`
 
 * __IsolationForest__ — this algorithm is an autoregressive stateful 
 model. We fit IsolationForest on 5 consequent data samples and then 
-decide whether an incoming sample is an outlier or not. Monitoring 
-model: `monitor_nyc_taxi`
+decide whether an incoming sample is an outlier or not. 
 
 `Image`
 
 * __IsolationForest__ with __EfficientNet__ — this algorithm uses 
 IsolationForests trained on the features, extracted from the last layer 
-of the EfficientNet. Monitoring model: `efficientnet_b4_loop`
+of the EfficientNet.
 
 `Text`
 
 * __Unknown Words Counter__ — this algorithm simply counts how many
-unknown words are present in observing sample. Monitoring model: 
-`tokenizer_monitoring`
+unknown words are present in an observed sample.
 
 * __KMeans__ — this algorithm uses KMeans to score each incoming sample 
 against predefined clusters and decide if the observing sample is an 
-outlier or not. Monitoring model: `estimator_monitoring`
-
-### Concept Drift
-
-Concept drift detection is used to indicate if your production data is 
-different from your training data.
+outlier or not.
 
 `All`
 
 * __Autoencoder__ — this algorithm trains an autoencoder on the 
-training/production data and shows a reconstruction error of each 
-incoming sample. 
+training/production data and shows a reconstruction error of each incoming 
+sample. 
 
 ## Batch Metrics 
 

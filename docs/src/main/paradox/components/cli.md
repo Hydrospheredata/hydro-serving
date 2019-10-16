@@ -5,11 +5,13 @@ to various services.
 
 ## Installation
 
-`pip install hs`
-
 @@@ note
-The package is only for Python 3.
+The package is only available for Python 3.
 @@@
+
+```sh
+pip install hs
+```
 
 ## Commands
 

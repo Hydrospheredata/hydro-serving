@@ -69,4 +69,6 @@ kubectl port-forward deployment/serving-ui 80:80
 
 To check that everything works fine, open [http://localhost/](http://localhost/).
 
-For more information about configuring serving release visit [repository](https://github.com/Hydrospheredata/hydro-serving/tree/master/helm).
+@@@ note
+For more information about configuring serving release visit [this repository](https://github.com/Hydrospheredata/hydro-serving/tree/master/helm).
+@@@

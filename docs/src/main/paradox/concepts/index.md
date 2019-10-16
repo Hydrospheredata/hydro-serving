@@ -3,6 +3,7 @@
 @@@ index
 * [Model](models.md)
 * [Application](applications.md)
+* [Monitoring](monitoring.md)
 @@@
 
 Hydrosphere platform can be summarized in the following diagram. It's a 
