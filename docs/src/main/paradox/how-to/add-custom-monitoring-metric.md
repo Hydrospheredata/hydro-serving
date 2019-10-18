@@ -210,7 +210,7 @@ contract:
       profile: numerical
 monitoring:
   - name: Custom Metric
-    kind: CustomModelSpec
+    kind: CustomModelMetricSpec
     "with-health": true
     config:
       application: adult-salary-metric-app
@@ -244,7 +244,7 @@ monitoring = [
         sdk.Monitoring('Custom Metric')
         .with_health()
         .with_spec(
-            'CustomModelSpec', 
+            'CustomModelMetricSpec', 
             application="adult-salary-metric-app",
             operator=">=",
             interval=15, 

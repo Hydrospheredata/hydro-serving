@@ -266,4 +266,5 @@ threshold to be equal to `monitoring_model.threshold_`. In our case it's
 that if you have a metric value that is greater than a specified threshold, 
 an alarm would be fired. 
 
-That's it, now you have a monitored adult classifier model. 
+That's it, now you have a monitored adult classifier model deployed in
+production. 
