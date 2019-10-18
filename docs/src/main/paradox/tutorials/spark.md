@@ -55,7 +55,7 @@ hs apply -f - <<EOF
 kind: Application
 name: binarizer_app
 singular:
-  model: binarizer
+  model: binarizer:1
 EOF
 ```
 
