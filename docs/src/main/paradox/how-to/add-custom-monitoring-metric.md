@@ -214,9 +214,8 @@ monitoring:
     "with-health": true
     config:
       application: adult-salary-metric-app
-      interval: 15
       threshold: 10
-      comparison-operator: ">="
+      operator: ">="
 ```
 
 Once the resource definition of the model is changed, the next model 
@@ -247,7 +246,7 @@ monitoring = [
         .with_spec(
             'CustomModelSpec', 
             application="adult-salary-metric-app",
-            comparison_operator=">=",
+            operator=">=",
             interval=15, 
             threshold=10,
         ),
