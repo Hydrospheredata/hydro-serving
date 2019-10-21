@@ -1,11 +1,11 @@
 # Write resource definitions
 
 Resource definitions describe serving cluster entities. It could be your 
-model, application or deployment configuration also known as HostSelector. 
-The type of each definition is defined by `kind` field. 
+model, application or deployment configuration. The type of each definition 
+is defined by `kind` field. 
 
 ```yaml
-kind: Model # or Application or HostSelector
+kind: Model # | Application | HostSelector
 name: "example"
 ```
 
@@ -14,7 +14,7 @@ name: "example"
 ### Fields
 
 - `runtime` defines the docker image that will be used in deployment.
-- `payload` defines all files for the model;
+- `payload` defines all files for the model.
 - `contract` defines a prediction signature of a model.
 - `install-command` defines an initialization command to be executed 
 during upload procedure.
@@ -56,7 +56,8 @@ metadata:
 In the example above we've defined a signature with `infer` name. Each 
 signature has to have `inputs` and `outputs`. They define what kind of 
 data the model will receive and what will it produce. Each input and 
-output field has a 3 defined properties - `shape`, `type` and `profile`. 
+output field has the following defined properties: `shape`, `type` and 
+`profile`. 
 
 
 ## Application
@@ -89,7 +90,7 @@ kind: Application
 name: sample-claims-app
 pipeline:
   - model: claims-preprocessing:1
-  -  modelservices:
+    modelservices:
       - model: claims-model:1
         weight: 80
       - model: claims-model-old:2
@@ -98,8 +99,9 @@ pipeline:
 
 `pipeline` is a list of stages. Each item in the list can have the 
 following attributes:
+
 - `model` defines the model and its version to use. Expected to be in the 
-form `model-name:model-version`;
+form `model-name:model-version`.
 - A stage can consist of multiple models. In that case you can define 
 `modelservices` where you will list needed models. For each model in you 
 would have to declare a `weight` attribute, which has to sum up to 100 
@@ -109,11 +111,11 @@ would go through the model.
 
 ## HostSelector
 
-HostSelector gives an ability to set environment requirements for your 
-model deployment. Your model uses GPU? Maybe you want some experimental 
-ARM64 version? Other requirements? This resource is for you.
+HostSelector (or deployment configuration) gives an ability to set 
+environment requirements for your model deployment. Your model uses GPU? 
+Maybe you want some experimental ARM64 version? Other requirements? 
+This resource is for you.
 
-Having said that, it's not fully implemented, since it depends on cluster 
-infrastructure and cloud provider.
-
-We will let you know when it is ready. ;)
+Having said that, it's not fully implemented since it depends on cluster 
+infrastructure and cloud provider. Will be available in the upcoming 
+releases.

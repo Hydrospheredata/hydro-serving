@@ -1,4 +1,4 @@
-# Add custom monitoring metric
+# Add custom monitoring metrics
 
 Dozens of new models are introduced every month and monitoring all them 
 is extremely hard due to variability of types and architectures that lie 
@@ -210,13 +210,12 @@ contract:
       profile: numerical
 monitoring:
   - name: Custom Metric
-    kind: CustomModelSpec
+    kind: CustomModelMetricSpec
     "with-health": true
     config:
       application: adult-salary-metric-app
-      interval: 15
       threshold: 10
-      comparison-operator: ">="
+      operator: ">="
 ```
 
 Once the resource definition of the model is changed, the next model 
@@ -245,9 +244,9 @@ monitoring = [
         sdk.Monitoring('Custom Metric')
         .with_health()
         .with_spec(
-            'CustomModelSpec', 
+            'CustomModelMetricSpec', 
             application="adult-salary-metric-app",
-            comparison_operator=">=",
+            operator=">=",
             interval=15, 
             threshold=10,
         ),
@@ -277,5 +276,5 @@ After executing this script the model will be assembled and uploaded to
 the platform just as with regular `serving.yaml` gets executed. 
 
 @@@ note
-To learn more about SDK, refer to [this page](../components/sdk.md). 
+To learn more about SDK visit @ref[this page](../components/sdk.md). 
 @@@

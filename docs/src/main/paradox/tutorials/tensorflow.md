@@ -1,13 +1,18 @@
-# Serving Tensorflow Model
+# Serving Tensorflow model
+
+Tensorflow model is a model that is backed with a Tensorflow runtime. 
+You can create a Tensorflow model just by providing a serialized into 
+`savedmodel` Tensorflow graph. 
 
 ## Export a TensorFlow model
 
 ### SavedModelBuilder
 
-To export a Tensorflow model correctly you have to identify and prepare input and output tensors.
-We implemented a linear model using low-level Tensorflow API. The full code is available in our 
-[GitHub repository](https://github.com/Hydrospheredata/hydro-serving-example/blob/master/models/mnist/basic-api.py). 
-In the code you can find the following lines describing input and output tensors. 
+To export a Tensorflow model correctly you have to identify and prepare 
+input and output tensors. We implemented a linear model using low-level 
+Tensorflow API. The full code is available in our [GitHub repository](https://github.com/Hydrospheredata/hydro-serving-example/blob/master/examples/mnist_tf/train_mnist.py). 
+In the code you can find the following lines describing input and output 
+tensors. 
 
 ```python
 ...
@@ -17,9 +22,9 @@ pred = tf.nn.softmax(logits)        # output prediction
 ...
 ```
 
-Once the model have been trained you can export the whole computational graph 
-and the trained weights with `tf.saved_model`. In order to do that you have 
-to define your model's signature:
+Once the model have been trained you can export the whole computational 
+graph and the trained weights with `tf.saved_model`. To do that you have 
+to define your models signature:
 
 ```python
 signature_map = {
@@ -28,7 +33,8 @@ signature_map = {
 }
 ```
 
-The next step is to create a `SavedModelBuilder` object and save the model under desired directory.
+The next step is to create a `SavedModelBuilder` object and save the model 
+under a desired directory.
 
 ```python
 builder = tf.saved_model.builder.SavedModelBuilder(export_dir)
@@ -40,8 +46,6 @@ builder.save()
 ```
 
 ### Estimator API
-
-Full code for this model available in our [GitHub repository](https://github.com/Hydrospheredata/hydro-serving-example/blob/master/models/mnist/estimator-api.py).
 
 Assume that we defined an estimator:
 ```python
@@ -55,10 +59,10 @@ estimator = tf.estimator.DNNClassifier(
 ...
 ```
 
-In order to export it we need to use `build_raw_serving_input_receiver_fn`
-function and pass the result to the `export_estimator` method. 
-`imgs` tensor in the `input_receiver_fn` should be similar 
-to the `tf.feature_column` that is expected by the estimator. 
+To export it we need to use `build_raw_serving_input_receiver_fn` function 
+and pass the result to the `export_estimator` method. `imgs` tensor in the 
+`input_receiver_fn` should be similar to the `tf.feature_column` that is 
+expected by the estimator. 
 
 ```python
 serving_input_receiver_fn = tf.estimator.export.build_raw_serving_input_receiver_fn({
@@ -76,14 +80,21 @@ cd {EXPORT_DIR}   # a directory with saved_model.pb file
 hs upload --name mnist --runtime hydrosphere/serving-runtime-tensorflow-{tensorflow version}:dev
 ```
 
-Now the model is uploaded to the manager service but it's not available for 
+You can check your models using this command:
+
+```sh
+hs model list
+```
+
+Now the model is uploaded to the cluster but it's not available for 
 prediction inference yet. 
 
 ## Create an application
 
-To deploy a model as microservice and provide a public endoint you need to create an application.
-Applications can be created using web-UI or CLI.
-For the sake of simplicity we will create it using CLI:
+To deploy a model as microservice and provide a public endpoint you need 
+to create an application. You can create it manually via UI interface, 
+or by providing an application manifest.
+
 ```sh
 hs apply -f - <<EOF
 kind: Application
@@ -97,7 +108,7 @@ You can check your applications using this command:
 hs app list
 ```
 
-## Send request
+## Inference
 
 That's it, you can now send prediction requests. 
 

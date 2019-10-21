@@ -1,25 +1,26 @@
 # CLI
 
-`hs` is a CLI interface to Hydrosphere platform, that aggregates API 
-to various services.
+`hs` is a command line interface to Hydrosphere platform, that
+aggregates API to various services.
+
+Source code: https://github.com/Hydrospheredata/hydro-serving-cli  
+PyPI: https://pypi.org/project/hs/
 
 ## Installation
 
-`pip install hs`
-
-@@@ note
-The package is only for Python 3.
-@@@
+```sh
+pip install hs
+```
 
 ## Commands
 
 @@@ note
-You can add `--help` parameter for any command for additional info.
+You can add `--help` parameter for any command for additional information.
 @@@
 
 ### `hs cluster`
 
-Cluster is a space, where you deploy your models. Simply put, it points 
+Cluster is a space where you deploy your models. Simply put, it points 
 where to apply your configurations and where to upload your models. It 
 stores all the clusters in `~/.hs-home/config.yaml` file.
 
@@ -34,7 +35,7 @@ clusters:
 current-cluster: local
 ```
 
-To look up, which cluster you're using, execute:
+To look up which cluster you're using, execute:
 
 ```sh
 hs cluster
@@ -63,16 +64,16 @@ hs cluster rm new_local
 When you upload a model, the tool looks for `serving.yaml` file in the 
 current directory. `serving.yaml` defines model's metadata and it's 
 contract. For more information, check out 
-[model's manifest](../reference/manifests.html#kind-model).
+[model's resource definitions](../reference/manifests.html#kind-model).
 
 ### `hs apply` 
 
 This command has similar functionality as `hs upload` but allows you not 
 only to deploy models, but also create applications, define pipeline and 
-stages inside application. Types of resource to apply are detected by 
+stages inside an application. Types of resource to apply are detected by 
 `kind` key in the  [manifest](../reference/manifests.html) files.
 
-- Model defines the model files, and it's contract;
+- Model defines model files and the contract;
 - Application defines an endpoint to reach your models. 
 
 Example of application configuration:
@@ -91,27 +92,20 @@ pipeline:
 
 ### `hs profile`
 
-Commands: 
-`push` - uploads training dataset to compute its profiles
-`status` - shows profiling status for given model
+* `push` - uploads training dataset to compute its profiles  
+* `status` - shows profiling status for given model  
 
 ### `hs app `
 
 This command provides information about available apps
 
-Commands:
-
-`list` - lists all existing apps
-
-`rm` - removes certain app
+* `list` - lists all existing apps
+* `rm` - removes certain app
 
 
 ### `hs model`
 
 This command provides information about available models
 
-Commands:
-
-`list` - lists all existing models
-
-`rm` - removes certain model
+* `list` - lists all existing models
+* `rm` - removes certain model

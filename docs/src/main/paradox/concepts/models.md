@@ -1,10 +1,10 @@
 # Models 
 
-__Model__ is a machine learning model or a processing function that consume 
-provided inputs and produce predictions/transformations. Each model is a 
+__Model__ is a machine learning model or a processing function that consumes 
+provided inputs and produces predictions/transformations. Each model is a 
 collection of its own versions. Every time you upload or re-upload a model, 
-a new version is getting created and added to the collection. At the lowest 
-level model version is represented as a Docker image created based on the 
+the newer version is getting created and added to that collection. At the lowest 
+level a model version is represented as a Docker image created based on the 
 model binaries. This essentially means, that during building stage the model 
 version gets frozen and can no longer change. Each collection is identified 
 by the model's name. 
@@ -16,7 +16,7 @@ executed:
 1. [Manager](../components/index.html#manager-service) builds a new Docker 
 image based on the uploaded binaries and saves the image in the configured 
 [Docker registry](../components/index.html#docker-registry);
-1. A builded image is assigned with the model's collection with an increased 
+1. A built image is assigned with the model's collection with an increased 
 version.
 
 ## Frameworks
@@ -24,8 +24,8 @@ version.
 Model can be written using a variety of modern machine learning frameworks. 
 You can implement your model using TensorFlow graph computations or create 
 your model with scikit-learn, PyTorch, Keras, Fastai, MXNet, Spark ML/MLlib, 
-etc. Serving can understand your models depending on what framework you are 
-using. It’s possible due to the metadata that frameworks save with the model, 
+etc. Hydrosphere can understand your models depending on what framework you are 
+using. It’s possible due to the metadata that the frameworks save with the model, 
 but it’s not always the case. You should refer to the table below with listed 
 frameworks and their inference. 
 

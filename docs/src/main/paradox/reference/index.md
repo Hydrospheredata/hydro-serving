@@ -1,5 +1,7 @@
 # Reference
 @@@ index
 * [Manifests](manifests.md)
-In the following pages we described model  contracts
 @@@
+
+* @ref[Manifests](manifests.md) — in this page we've described model 
+definitions. 
