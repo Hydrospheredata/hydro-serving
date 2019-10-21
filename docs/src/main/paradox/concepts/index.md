@@ -7,8 +7,8 @@
 @@@
 
 Hydrosphere platform can be summarized in the following diagram. It's a 
-set of microservices that work together to achieve the final goal of 
-managing machine learning models reliably and at scale.  
+set of microservices that work together to let you manage machine learning 
+models reliably and at scale.  
 
 ![System](../images/manager.png)
 
@@ -18,48 +18,48 @@ managing machine learning models reliably and at scale.
 
 [Manager](https://github.com/Hydrospheredata/hydro-serving-manager)
 is a service component, responsible for model cataloging, building, 
-provisioning servables and applications, working with model metadata and 
+provisioning servables and applications, working with models metadata and 
 basically handling all the resources.
 
 ### Docker Registry
 
-Manager creates Docker images of models which are stored in Docker 
-registry. A model image is a read-only template with instructions for 
-creating model applications. It can be configured to use the default 
-Docker Registry deployed when the Hydrosphere deployment was created, 
-or to use a self-managed Docker Registry outside of the Hydrosphere. 
+Each model is represented as a Docker image. Those images are stored
+in the configured Docker registry. Hydrosphere can use the default 
+registry bundled with the Hydrosphere installation or use external 
+one.
 
 ### PostgreSQL
 
-Database that contains such information as model (application) id, name, 
-runtime type, etc. Manager creates, deletes or retrieves information about 
-necessary model/application. 
+Hydrosphere stores information about models, applications, runtimes 
+inside PostgreSQL database. 
 
 ### Gateway 
 
 [Gateway](https://github.com/Hydrospheredata/hydro-serving-gateway) 
 is a service component responsible for handling prediction requests and 
-routing them among model services. Gateway maps servable name to 
-corresponding running container. Whenever it receives a request it 
-communicates with corresponding container by gRPC protocol.
+routing them among model services. Gateway maps model endpoint name to 
+the corresponding container. Whenever it receives a request it communicates 
+with that container by gRPC protocol.
 
 ### UI
 
 [UI](https://github.com/Hydrospheredata/hydro-serving-ui) is a service 
-component responsible for showing off user-friendly interfaces of uploaded 
-models, deployed applications as well ass monitoring charts, etc. 
+component responsible for showing off user-friendly interfaces of models, 
+deployed applications as well as monitoring charts and profiles. 
 
 ### Sonar
 
 Sonar is a service component responsible for monitoring your models during 
 inference time. It allows you to evaluate how your model behaves under 
-production load: is there a concept drift occurred in the production data 
-(so your model needs to be retrained), how many outliers are there in the 
-production data, how distribution of your training data is compared with the 
+production load, i.e. is there a concept drift occurred in the production data 
+(so your model needs to be retrained); how many outliers are there in the 
+production data; how distribution of your training data is compared with the 
 distribution of the production data?
 
+To learn more about how Sonar works, refer to @ref[this page](monitoring.md).
+
 @@@ note
-Currently not available in public distribution. 
+Currently is not available in public distribution. 
 @@@
 
 ## Abstractions
@@ -70,10 +70,10 @@ entities: Models and Applications.
 ### Models
 
 Model is a machine learning model or a processing function that consume 
-provided inputs and produce predictions/transformations. To find out more 
-about models refer to [this page](models.md). 
+provided inputs and produce predictions/transformations. To learn more about 
+models visit [this page](models.md). 
 
 ### Applications
 
 Application is a publicly available HTTP/gRPC/Kafka endpoint to reach your 
-models. To find out more about applications refer to [this page](applications.md). 
+models. To learn more about applications visit [this page](applications.md). 

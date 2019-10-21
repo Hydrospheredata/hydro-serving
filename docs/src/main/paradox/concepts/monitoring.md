@@ -37,7 +37,7 @@ of the EfficientNet.
 `Text`
 
 * __Unknown Words Counter__ — this algorithm simply counts how many
-unknown words are present in an observed sample.
+unknown words are present in the observed sample.
 
 * __KMeans__ — this algorithm uses KMeans to score each incoming sample 
 against predefined clusters and decide if the observing sample is an 
@@ -58,7 +58,7 @@ etc.
 
 ## Overall Metrics
 
-Overall metrics give you an idea how all of your data looks like, through 
+Overall metrics give you an idea how all of your data looks like through 
 profile calculations. Profiles, like algorithms, are differentiated by 
 the data type. 
 
