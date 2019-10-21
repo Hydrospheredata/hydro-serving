@@ -5,7 +5,8 @@
 * [Serving Python Model](python.md)
 * [Serving Tensorflow Model](tensorflow.md)
 * [Serving Spark Model](spark.md)
-* [Monitoring anomalies](anomaly_detection.md)
+* [Monitoring anomalies with KNN](knn_anomaly_detection.md)
+* [Monitoring anomalies with stateful model](stateful_anomaly_detection.md)
 @@@
 
 In this page you will find articles, that will help you to get started 
@@ -28,5 +29,7 @@ model using pyspark package.
 
 __Monitoring models__
 
-* @ref[Monitoring anomalies with KNN](anomaly_detection.md) — shows you 
-how to implement anomaly detection metric on sample data. 
+* @ref[Monitoring anomalies with KNN](knn_anomaly_detection.md) — shows you 
+how to implement anomaly detection metric on sample data using KNN algorithm. 
+* @ref[Monitoring anomalies with stateful model](stateful_anomaly_detection.md)
+— shows you how to implement anomaly detection metric on sample data. 

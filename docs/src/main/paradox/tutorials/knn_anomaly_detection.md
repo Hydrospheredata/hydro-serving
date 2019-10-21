@@ -209,7 +209,7 @@ of the monitored model. As an output for the monitoring model we use `value`
 field. 
 
 Pay attention to the model's payload. It has `src` folder that we've just 
-created, `requirements.txt` with all dependencies and `monitorin_model.joblib`, 
+created, `requirements.txt` with all dependencies and `monitoring_model.joblib`, 
 e.g. our newly trained serialized KNN model. 
 
 `requirements.txt` looks like this: 
