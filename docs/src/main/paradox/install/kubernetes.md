@@ -1,4 +1,4 @@
-# Kubernetes Installation
+# Kubernetes installation
 
 There's already a pre-built [Helm](https://helm.sh/) charts for installing 
 and maintaining Hydrosphere on [Kubernetes](https://kubernetes.io/) cluster.

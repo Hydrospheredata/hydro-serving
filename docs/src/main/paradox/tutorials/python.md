@@ -1,4 +1,4 @@
-# Serving Python Model
+# Serving Python model
 
 Python model is a model that is backed with a Python runtime. You can 
 create a Python model to perform any transformation, just provide an 

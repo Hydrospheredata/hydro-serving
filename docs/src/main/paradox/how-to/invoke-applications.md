@@ -1,4 +1,4 @@
-# Invoke Applications
+# Invoke applications
 
 You can use on the following APIs to send prediction requests to your 
 application:

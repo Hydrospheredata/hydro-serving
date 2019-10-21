@@ -1,4 +1,4 @@
-# Serving Tensorflow Model
+# Serving Tensorflow model
 
 Tensorflow model is a model that is backed with a Tensorflow runtime. 
 You can create a Tensorflow model just by providing a serialized into 

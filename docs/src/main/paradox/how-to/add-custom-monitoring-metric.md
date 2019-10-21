@@ -1,4 +1,4 @@
-# Add custom monitoring metric
+# Add custom monitoring metrics
 
 Dozens of new models are introduced every month and monitoring all them 
 is extremely hard due to variability of types and architectures that lie 
@@ -276,5 +276,5 @@ After executing this script the model will be assembled and uploaded to
 the platform just as with regular `serving.yaml` gets executed. 
 
 @@@ note
-To learn more about SDK, refer to [this page](../components/sdk.md). 
+To learn more about SDK, refer to @ref[this page](../components/sdk.md). 
 @@@

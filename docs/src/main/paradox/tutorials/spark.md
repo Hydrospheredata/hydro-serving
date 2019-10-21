@@ -1,4 +1,4 @@
-# Serving Spark Model
+# Serving Spark model
 
 Spark model is a model that is backed with a Spark runtime. 
 

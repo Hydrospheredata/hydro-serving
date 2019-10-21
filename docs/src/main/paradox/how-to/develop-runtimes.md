@@ -1,4 +1,4 @@
-# Develop a custom runtime
+# Develop custom runtimes
 
 Sometimes our runtime images aren't flexible enough, in that case you 
 might want implement one yourself. 
