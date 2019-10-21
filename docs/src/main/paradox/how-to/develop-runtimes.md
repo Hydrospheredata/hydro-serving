@@ -1,6 +1,6 @@
 # Develop custom runtimes
 
-Sometimes our runtime images aren't flexible enough, in that case you 
+Sometimes our runtime images aren't flexible enough. In that case you 
 might want implement one yourself. 
 
 The key things you have to know to write your own runtime are: 
@@ -17,7 +17,7 @@ registry.
 
 There are different approaches on how to generate client and server gRPC 
 code on [different languages](https://grpc.io/docs/). Let's have a look 
-on how to do that on Python.
+on how to do that in Python.
 
 First, let's clone our [protocols](https://github.com/Hydrospheredata/hydro-serving-protos) 
 and prepare a folder for generated code.
@@ -269,7 +269,7 @@ The `username` should be the one you have registered in Docker Hub.
 
 ---
 
-That's it. You've just created a simple runtime, that you can use in your 
-own projects. It's almost an equal version of our 
+That's it. You've just created a simple runtime that you can use 
+in your own projects. It's almost an equal version of our 
 [python runtime implementation](https://github.com/Hydrospheredata/hydro-serving-python). 
 You can always look up details there. 

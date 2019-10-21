@@ -3,23 +3,23 @@
 You can use on the following APIs to send prediction requests to your 
 application:
 
-## Web-UI `Test` button
+## Web-UI 
 
 You can send a test request to the application from UI interface. Just 
 open an application and press `Test` button. We will generate dummy input 
-data based on your model's contract and send an HTTP-request to API 
+data based on your model's contract and send an HTTP-request to model's 
 endpoint. 
 
 ## HTTP API
 
 You can reach your application with an HTTP-request. Send a `POST` 
-request to `http://<host>/gateway/application/{applicationName}`. 
+request to `http://<host>/gateway/application/<applicationName>`. 
 
 ## GRPC API
 
 In order to send a prediction GRPC request you need to create a specific 
 client. Gateway service exposes a `PredictionService` endpoint, so you 
-can use it's client.
+can use its client.
 
 ```python
 import grpc 

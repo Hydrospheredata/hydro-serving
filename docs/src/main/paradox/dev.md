@@ -1,9 +1,6 @@
-# For Developers
+# For developers
 
-This section is dedicated to the developers, who want to improve Hydrosphere 
-Serving. 
-
-<br>
+This section is dedicated to those of you, who want to improve Hydrosphere. 
 
 ## Prerequisites
 
@@ -31,8 +28,6 @@ Add new local cluster.
 hs cluster add --name local --server http://localhost/
 ```
 
-<br>
-
 ## Development
 
 Run PostgreSQL, Sidecar and UI containers.
@@ -47,8 +42,6 @@ Removing containers is done with:
 ```sh
 sbt manager/cleanDockerEnv
 ```
-
-<br>
 
 ## Model uploading 
 

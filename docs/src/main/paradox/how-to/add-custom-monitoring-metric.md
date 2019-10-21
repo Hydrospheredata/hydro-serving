@@ -276,5 +276,5 @@ After executing this script the model will be assembled and uploaded to
 the platform just as with regular `serving.yaml` gets executed. 
 
 @@@ note
-To learn more about SDK, refer to @ref[this page](../components/sdk.md). 
+To learn more about SDK visit @ref[this page](../components/sdk.md). 
 @@@

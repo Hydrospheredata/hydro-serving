@@ -21,7 +21,7 @@ tutorial.
 * [Concepts](concepts/index.md)
 * [Components](components/index.md)
 * [How-To](how-to/index.md)
-* [Development](dev.md)
 * [Reference](reference/index.md)
+* [Development](dev.md)
 @@@
 
