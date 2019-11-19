@@ -1,0 +1,72 @@
+version: "3.5"
+networks:
+  hydronet:
+    name: demo_hydronet
+    internal: true
+    ipam:
+      config:
+        - subnet: 172.16.0.0/24
+
+  extnet:
+    driver: bridge
+services:
+   postgres:
+      image: postgres:9.6-alpine
+      container_name: postgres
+      ports:
+        - "5432:5432"
+      networks:
+        - hydronet
+      environment:
+        - "POSTGRES_DB=docker"
+        - "POSTGRES_USER=docker"
+        - "POSTGRES_PASSWORD=docker"
+   
+   gateway:
+     image:  hydrosphere/serving-gateway:2.0.2
+     container_name: gateway
+     ports:
+       - "29090:9090"
+       - "29091:9091"
+     networks:
+       - hydronet
+     environment:
+       - "API_GATEWAY_HOST=managerui"
+       - "API_GATEWAY_GRPC_PORT=9090"
+       - "API_GATEWAY_HTTP_PORT=80"
+       - "HTTP_PORT=9090"
+       - "GRPC_PORT=9091"
+   
+   manager:
+     image:  hydrosphere/serving-manager:2.0.1
+     container_name: manager
+     ports:
+       - "19090:9090"
+       - "19091:9091"
+     networks:
+       - hydronet
+       - extnet
+     environment:
+       - "DATABASE_HOST=postgres"
+       - "NETWORK_NAME=demo_hydronet"
+     volumes:
+       - /var/run/docker.sock:/var/run/docker.sock
+   
+   managerui:
+     image:  hydrosphere/serving-manager-ui:2.1.0
+     container_name: managerui
+     depends_on:
+       - manager
+       - gateway
+     ports:
+       - "80:80"
+     networks:
+       - extnet
+       - hydronet
+     environment:
+       - "MANAGER_HOST=manager"
+       - "GATEWAY_HOST=gateway"
+       - "MANAGER_HTTP_PORT=9090"
+       - "MANAGER_GRPC_PORT=9091"
+       - "GATEWAY_HTTP_PORT=9090"
+       - "GATEWAY_GRPC_PORT=9091"

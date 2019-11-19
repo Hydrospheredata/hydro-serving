@@ -2,6 +2,11 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
+postgres:
+  database: "serving"
+  username: "docker"
+  password: "docker"
+
 global:
   persistence:
     enabled: false
@@ -18,15 +23,6 @@ global:
 
   postgres:
     enabled: true
-    # host: ""
-    # port: ""
-    # database: ""
-    # username: ""
-    # password: ""
-
-  influx:
-    enabled: true
-    # host: ""
-    # port: ""
-    # database: ""
-
+    database: "serving"
+    username: "docker"
+    password: "docker"

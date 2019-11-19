@@ -9,9 +9,8 @@ global:
 replicaCount: 1
 
 image:
-  repository: hydrosphere/serving-gateway
-  tag: 2.0.2
-  pullPolicy: Always
+  full:  hydrosphere/serving-gateway:2.0.2
+  pullPolicy:  IfNotPresent
 
 service:
   type: ClusterIP
@@ -35,3 +34,4 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+: {}

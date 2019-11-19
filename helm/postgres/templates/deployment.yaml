@@ -30,11 +30,11 @@ spec:
               protocol: TCP
           env:
             - name: POSTGRES_DB
-              value: "docker"
+              value: "{{ .Values.database }}"
             - name: POSTGRES_USER
-              value: "docker"
+              value: "{{ .Values.username }}"
             - name: POSTGRES_PASSWORD
-              value: "docker"
+              value: "{{ .Values.password }}"
           volumeMounts:
             - name: data
               mountPath: /var/lib/postgresql/data

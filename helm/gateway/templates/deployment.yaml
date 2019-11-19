@@ -17,6 +17,7 @@ spec:
   template:
     metadata:
       labels:
+        logType: "scala"
         app: {{ include "gateway.name" . }}
         release: {{ .Release.Name }}
     spec:
@@ -46,10 +47,12 @@ spec:
 {{ toYaml . | indent 12 }}
             {{- end}}
           livenessProbe:
+            initialDelaySeconds: 10
             httpGet:
               path: /health
               port: http
           readinessProbe:
+            initialDelaySeconds: 10
             httpGet:
               path: /health
               port: http

@@ -5,9 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: hydrosphere/serving-manager-ui
-  tag: 2.0.0
-  pullPolicy: Always
+  full:  hydrosphere/serving-manager-ui:2.1.0
+  pullPolicy:  IfNotPresent
 
 env: {}
 
@@ -46,3 +45,4 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+: {}

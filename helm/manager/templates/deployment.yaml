@@ -17,6 +17,7 @@ spec:
   template:
     metadata:
       labels:
+        logType: "scala"
         app: {{ include "manager.name" . }}
         release: {{ .Release.Name }}
     spec:
@@ -33,6 +34,7 @@ spec:
               readOnly: true
         - name: kubectl-proxy
           image: tommyvn/kubectl-proxy
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
         - name: {{ .Chart.Name }}
           image: {{ if .Values.image.full }}"{{ .Values.image.full }}"{{ else }}"{{ .Values.image.repository }}:{{ .Values.image.tag }}"{{ end }}
           imagePullPolicy: {{ .Values.image.pullPolicy }}
@@ -110,10 +112,12 @@ spec:
               mountPath: "/root/.docker"
               readOnly: true
           livenessProbe:
+            initialDelaySeconds: 40
             httpGet:
               path: /health
               port: http
           readinessProbe:
+            initialDelaySeconds: 40
             httpGet:
               path: /health
               port: http

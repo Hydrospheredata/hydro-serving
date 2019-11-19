@@ -4,6 +4,10 @@
 
 replicaCount: 1
 
+database: "docker"
+username: "docker"
+password: "docker"
+
 global:
   persistence:
     enabled: false
