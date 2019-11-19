@@ -21,7 +21,7 @@ global:
 env: {}
 
 image:
-  full:  hydrosphere/serving-manager:2.0.1
+  full:  hydrosphere/serving-manager:2.1.0
   pullPolicy:  IfNotPresent
 
 service:

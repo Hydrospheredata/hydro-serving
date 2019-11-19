@@ -9,7 +9,7 @@ global:
 replicaCount: 1
 
 image:
-  full:  hydrosphere/serving-gateway:2.0.2
+  full:  hydrosphere/serving-gateway:2.1.0
   pullPolicy:  IfNotPresent
 
 service:
