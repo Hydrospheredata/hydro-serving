@@ -16,7 +16,3 @@ dependencies:
    - name: ui
      repository: file://../ui
      version: 0.1.0
-   version: 0.1.0
-  - name: gateway
-    repository: file://../gateway
-    version: 0.1.0
