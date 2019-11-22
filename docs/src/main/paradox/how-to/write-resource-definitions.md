@@ -23,35 +23,36 @@ data is stored.
 
 ### Example
 
+@@@ vars
 ```yaml
 kind: Model
 name: sample_model
-training-data: s3://bucket/train.csv
-runtime: hydrosphere/serving-runtime-dummy:dev
+training-data: "s3://bucket/train.csv" | "/temp/file.csv"
+runtime: hydrosphere/serving-runtime-python-3.6:$project.released_version$
 install-command: "sudo apt install jq" 
 payload: 
   - "./*"
 contract:
   name: infer
   inputs:
-	input_field_1:
-	  shape: [-1, 1]
-	  type: string
-	  profile: text
-	input_field_2:
-	  shape: scalar
-	  type: int32
-	  profile: numerical
+    input_field_1:
+      shape: [-1, 1]
+      type: string
+      profile: text
+    input_field_2:
+      shape: scalar
+      type: int32
+      profile: numerical
   outputs: 
-	output_field_1:
-	  shape: [-1, 2]
-	  type: int32 
-	  profile: numerical
+    output_field_1:
+      shape: [-1, 2]
+      type: int32 
+      profile: numerical
 metadata:
   experiment: "demo"
   model_version: "1.1"
-
 ```
+@@@
 
 In the example above we've defined a signature with `infer` name. Each 
 signature has to have `inputs` and `outputs`. They define what kind of 

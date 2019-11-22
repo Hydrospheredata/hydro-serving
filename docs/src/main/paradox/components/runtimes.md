@@ -9,45 +9,40 @@ to each models' instances.
 We've already implemented a few runtimes which you can use in your own 
 projects. They are all open-source and you can look up code if you need. 
 
-<div class="flexible-table">
-    <table>
-        <thead>
-            <tr>
-                <th>Framework</th>
-                <th>Runtime</th>
-                <th>Links</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Python</td>
-                <td>hydrosphere/serving-runtime-python</td>
-                <td>
-                    <a href="https://hub.docker.com/r/hydrosphere/serving-runtime-python/">Docker Hub</a><br>
-                    <a href="https://github.com/Hydrospheredata/hydro-serving-python">Github</a>
-                </td>
-            </tr>
-            <tr>
-                <td>Tensorflow</td>
-                <td>hydrosphere/serving-runtime-tensorflow</td>
-                <td>
-                    <a href="https://hub.docker.com/r/hydrosphere/serving-runtime-tensorflow/">Docker Hub</a><br>
-                    <a href="https://github.com/Hydrospheredata/hydro-serving-tensorflow">Github</a>
-                </td>
-            </tr>
-            <tr>
-                <td>Spark</td>
-                <td>hydrosphere/serving-runtime-spark</td>
-                <td>
-                    <a href="https://hub.docker.com/r/hydrosphere/serving-runtime-spark/">Docker Hub</a><br>
-                    <a href="https://github.com/Hydrospheredata/hydro-serving-spark">Github</a>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+## Python
 
-<br>
+Code is available on [Github](https://github.com/Hydrospheredata/hydro-serving-python).
+
+| Version | Image | Link |
+| ------- | ----- | ---- |
+| 3.7 | hydrosphere/serving-runtime-python-3.7:$project.released_version$ | [Docker Hub](https://hub.docker.com/r/hydrosphere/serving-runtime-python-3.7) |
+| 3.6 | hydrosphere/serving-runtime-python-3.6:$project.released_version$ | [Docker Hub](https://hub.docker.com/r/hydrosphere/serving-runtime-python-3.6) |
+| 3.5 | hydrosphere/serving-runtime-python-3.5:$project.released_version$ | [Docker Hub](https://hub.docker.com/r/hydrosphere/serving-runtime-python-3.5) |
+
+## Tensorflow
+
+Code is available on [GitHub](https://github.com/Hydrospheredata/hydro-serving-tensorflow).
+
+| Version | Image | Link |
+| ------- | ----- | ---- |
+| 1.13.1 | hydrosphere/serving-runtime-tensorflow-1.13.1:$project.released_version$ | [Docker Hub](https://hub.docker.com/r/hydrosphere/serving-runtime-tensorflow-1.13.1) |
+| 1.12.0 | hydrosphere/serving-runtime-tensorflow-1.12.0:$project.released_version$ | [Docker Hub](https://hub.docker.com/r/hydrosphere/serving-runtime-tensorflow-1.12.0) |
+| 1.11.0 | hydrosphere/serving-runtime-tensorflow-1.11.0:$project.released_version$ | [Docker Hub](https://hub.docker.com/r/hydrosphere/serving-runtime-tensorflow-1.11.0) |
+| 1.10.0 | hydrosphere/serving-runtime-tensorflow-1.10.0:$project.released_version$ | [Docker Hub](https://hub.docker.com/r/hydrosphere/serving-runtime-tensorflow-1.10.0) |
+| 1.9.0 | hydrosphere/serving-runtime-tensorflow-1.9.0:$project.released_version$ | [Docker Hub](https://hub.docker.com/r/hydrosphere/serving-runtime-tensorflow-1.9.0) |
+| 1.8.0 | hydrosphere/serving-runtime-tensorflow-1.8.0:$project.released_version$ | [Docker Hub](https://hub.docker.com/r/hydrosphere/serving-runtime-tensorflow-1.8.0) |
+| 1.7.0 | hydrosphere/serving-runtime-tensorflow-1.7.0:$project.released_version$ | [Docker Hub](https://hub.docker.com/r/hydrosphere/serving-runtime-tensorflow-1.7.0) |
+
+## Spark
+
+Code is available on [GitHub](https://github.com/Hydrospheredata/hydro-serving-spark).
+
+| Version | Image | Link |
+| ------- | ----- | ---- |
+| 2.2.0 | hydrosphere/serving-runtime-spark-2.2.0:$project.released_version$ | [Docker Hub](https://hub.docker.com/r/hydrosphere/serving-runtime-spark-2.2.0) |
+| 2.1.2 | hydrosphere/serving-runtime-spark-2.1.2:$project.released_version$ | [Docker Hub](https://hub.docker.com/r/hydrosphere/serving-runtime-spark-2.1.2) |
+| 2.0.2 | hydrosphere/serving-runtime-spark-2.0.2:$project.released_version$ | [Docker Hub](https://hub.docker.com/r/hydrosphere/serving-runtime-spark-2.0.2) |
+
 
 @@@ note
 If you are using a framework for which runtime isn't implemented yet, you 

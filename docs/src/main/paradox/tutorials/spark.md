@@ -36,10 +36,12 @@ pipeline.write().overwrite().save("binarizer")
 
 Upload the exported model to the cluster.
 
+@@@ vars
 ```sh
 cd {EXPORT_DIR}   # a directory with metadata and stages directories
-hs upload --runtime hydrosphere/serving-runtime-spark-2.1.2:dev
+hs upload --runtime hydrosphere/serving-runtime-spark-2.1.2:$project.released_version$
 ```
+@@@
 
 Now the model is uploaded to the manager service but it's not available 
 for prediction inference yet. 

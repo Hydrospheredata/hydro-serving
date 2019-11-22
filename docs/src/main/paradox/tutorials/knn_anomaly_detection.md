@@ -133,6 +133,7 @@ def predict(**kwargs):
 
 This model also have to be packed with a model definition.
 
+@@@ vars
 ```yaml
 kind: Model
 name: "census_monitoring"
@@ -140,7 +141,7 @@ payload:
   - "src/"
   - "requirements.txt"
   - "monitoring_model.joblib"
-runtime: "hydrosphere/serving-runtime-python-3.6:0.1.2-rc0"
+runtime: "hydrosphere/serving-runtime-python-3.6:$project.released_version$"
 install-command: "pip install -r requirements.txt"
 contract:
   name: "predict"
@@ -203,6 +204,7 @@ contract:
       type: double
       profile: numerical
 ```
+@@@
 
 Inputs of this model are the inputs of the monitored model plus the outputs 
 of the monitored model. As an output for the monitoring model we use `value` 

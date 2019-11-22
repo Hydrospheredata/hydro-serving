@@ -75,10 +75,16 @@ estimator.export_savedmodel(export_dir, serving_input_receiver_fn)
 
 Upload the exported model to the cluster.
 
+@@@ vars
 ```sh
 cd {EXPORT_DIR}   # a directory with saved_model.pb file
-hs upload --name mnist --runtime hydrosphere/serving-runtime-tensorflow-{tensorflow version}:dev
+hs upload --name mnist --runtime hydrosphere/serving-runtime-tensorflow-1.13.1:$project.released_version$
 ```
+@@@
+
+@@@ note
+You can find all available Tensorflow runtime versions @ref[here](../components/runtimes.md).
+@@@
 
 You can check your models using this command:
 
