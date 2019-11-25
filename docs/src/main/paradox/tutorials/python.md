@@ -8,7 +8,7 @@ will create a simple increment function.
 
 ## Model Structure
 
-First of all, let's create a directory where we will put all our code:
+First of all, let's create a directory where we will put all of our code:
 
 ```sh
 mkdir -p increment_model/src
@@ -20,8 +20,8 @@ touch src/func_main.py
 Generally we use `hydrosphere/serving-runtime-python-3.6` runtime for 
 serving Python models. This runtime uses `src/func_main.py` script as 
 an entry point. You may create any arbitrary Python application within 
-your model, just keep in mind that an entry point to of your script has 
-to be in `src/func_main.py`.
+your model, just keep in mind that an entry point of your script has to 
+be in `src/func_main.py`.
 @@@
 
 ## Dependencies
@@ -31,7 +31,7 @@ not have any scientific packages pre-installed, you have to manage this
 yourself. Let's add `requirements.txt`: 
 
 ```sh 
-echo "tensorflow==1.12.0\nnumpy==1.14.3" > requirements.txt
+echo "tensorflow==1.14.0\nnumpy==1.17.2" > requirements.txt
 ```
 
 ## Function
@@ -45,10 +45,10 @@ import hydro_serving_grpc as hs  # this package is already present in the runtim
 
 def increment(number):   # <- keep in mind the signature
     request_number = tf.make_ndarray(number)
-    response_number = requets_number + 1
+    response_number = request_number + 1
 
     response_tensor_shape = [
-        hs.TensorShapeProto.Dim(size=dim) for dim in number.tensor_shape.dim]
+        hs.TensorShapeProto.Dim(size=dim.size) for dim in number.tensor_shape.dim]
     response_tensor = hs.TensorProto(
         int_val=response_number.flatten(), 
         dtype=hs.DT_INT32,
@@ -85,10 +85,11 @@ To let cluster understand, what are the inputs and the outputs of your model
 you have to provide a definition of that model. Create a `serving.yaml` file 
 inside your folder root.
 
+@@@ vars
 ```yaml
 kind: Model
 name: "increment_model"
-runtime: "hydrosphere/serving-runtime-python-3.6:0.1.2-rc0"
+runtime: "hydrosphere/serving-runtime-python-3.6:$project.released_version$"
 install-command: "pip install -r requirements.txt"   # this line will be executed during model build
 payload:   # define all files of your model, that has to be packed
   - "src/"
@@ -107,6 +108,7 @@ contract:  # time to remember your Python function signature
       type: int32
       profile: numerical
 ```
+@@@
 
 @@@ note
 If `contract.name` is not set, it defaults to `predict`.
@@ -148,5 +150,5 @@ EOF
 You can send requests with to your models using GRPC or HTTP endpoints, e.g.
 
 ```sh 
-curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ "number": [1] }' 'https://<host>/gateway/applications/increment_app'
+curl -X POST --header 'Content-Type: application/json' --header 'Accept: application/json' -d '{ "number": [1] }' 'http://<host>/gateway/application/increment_app'
 ```

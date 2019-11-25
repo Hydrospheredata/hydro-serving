@@ -35,9 +35,11 @@ Choose a release from the
 [releases page](https://github.com/Hydrospheredata/hydro-serving/releases) 
 and install it as usual.
    
+@@@ vars
 ```sh
-helm install --name serving https://github.com/Hydrospheredata/hydro-serving/releases/download/2.0.4/helm.serving-2.0.4.tgz
+helm install --name serving https://github.com/Hydrospheredata/hydro-serving/releases/download/$project.released_version$/helm.serving-$project.released_version$.tgz
 ```
+@@@
 
 ### Helm with manual build
 

@@ -3,7 +3,7 @@
 
 In this page you'll learn how to deploy your first model on Hydrosphere 
 platform. We will start from scratch and create a simple linear regression 
-model that will learn to fit our randomly generated data with some noize 
+model that will learn to fit our randomly generated data with some noise 
 added to it. After the training step we will pack it, deploy to the platform 
 and invoke it locally with a sample client. 
 
@@ -15,14 +15,12 @@ You can find other examples on how to deploy various models in our
 ## Prerequisites
 
 We assume you already have a [deployed](/installation.md) instance of 
-Hydrosphere platform and @ref[CLI](../install/index.md#CLI) on your local 
+Hydrosphere platform and a @ref[CLI](../install/index.md#CLI) on your local 
 machine.
 
 ### Setup a cluster
 
 First of all, we need to let CLI know where is our serving cluster.
-For this example we have installed serving cluster locally, so address would 
-be localhost. 
 
 ```sh 
 hs cluster add --name local --server http://localhost
@@ -32,10 +30,10 @@ hs cluster use local
 ## Training a model 
 
 Now we can start working with the linear regression model. It's a fairly 
-simple model that fits a randomly generated regression data with some noize 
+simple model that fits randomly generated regression data with some noise 
 added to it. For data generation we will use `sklearn.datasets.make_regression`
-([Link](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_regression.html)). 
-We will also normalize data to the [0, 1] range. The model will be built 
+([Link](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_regression.html))
+method. We will also normalize data to the [0, 1] range. The model will be built 
 using [Keras](https://keras.io/) library with [Tensorflow](https://www.tensorflow.org/) 
 backend. 
 
@@ -81,17 +79,22 @@ model.fit(X, y, epochs=100)
 model.save('model.h5')
 ```
 
-We have not installed necessary libraries for our model. In your 
+We have not installed necessary libraries for our model yet. In your 
 linear_regression folder create `requirements.txt` file with following 
 requirements:
 
 ```
-Keras==2.2.0
-tensorflow==1.8.0
-numpy==1.13.3
+Keras==2.2.5
+tensorflow==1.14.0
+numpy==1.17.2
+scikit-learn==0.20.2
 ```
 
-Run `pip install -r requirements.txt` to install all packages.
+Install all dependencies to your local environment.
+
+```sh
+pip install -r requirements.txt
+```
 
 Train the model.
 
@@ -167,11 +170,11 @@ def infer(x):
 ```
 
 Since we need to initialize our model we will have to do that outside of our 
-signature function, if we don't want to initialize the model every time the 
-request comes in. We do that on step (0). The signature function `infer` takes 
+serving function, if we don't want to initialize the model every time the 
+request comes in. We do that on step (0). The serving function `infer` takes 
 the actual request, unpacks it (1), makes a prediction (2), packs the answer 
 back (3) and returns it (4). There's no a strict rule on how to name your 
-signature function, it just have to be a valid python function name (since we 
+serving function, it just have to be a valid python function name (since we 
 use a Python runtime). 
 
 If you're wondering how Hydrosphere will understand, which function to call from 
@@ -185,10 +188,11 @@ cd ..
 touch serving.yaml
 ```
 
+@@@ vars
 ```yaml
 kind: Model
 name: linear_regression
-runtime: "hydrosphere/serving-runtime-python-3.6:dev"
+runtime: "hydrosphere/serving-runtime-python-3.6:$project.released_version$"
 install-command: "pip install -r requirements.txt"
 payload:
   - "src/"
@@ -208,6 +212,7 @@ contract:
       type: double
       profile: numerical
 ```
+@@@
 
 Here you can see, that we've provided a `requirements.txt` and a `model.h5` as 
 payload files to our model. 
@@ -237,13 +242,13 @@ following command:
  hs -v upload
 ```
 
-`-v` stands for verbose output. 
+`-v` flag stands for verbose output. 
 
 You can open [http://localhost/models](http://localhost/models) page to see the 
 uploaded model. 
 
 Once you've done that, you can create an __application__ for it. Basically, an 
-application represents an endpoint to your model, so you can invoke it from the 
+application represents an endpoint to your model, so you can invoke it from 
 anywhere. To learn more about advanced features, go to the 
 [Applications](concepts/applications.md) page. 
 
@@ -251,11 +256,11 @@ anywhere. To learn more about advanced features, go to the
 
 Open [http://localhost/applications](http://localhost/applications), press 
 `Add New Application` button. In the opened window select `linear_regression` 
-model, name your application `linear_regression` and the create it. 
+model, name your application `linear_regression` and click creation button. 
 
 If you cannot find your newly uploaded model and it's listed in your models 
-page, that means it's still in a building stage. Wait until the model changes 
-its status to `Released`, then you can use it.
+page, this probably means that it's still in a building stage. Wait until 
+the model changes its status to `Released`, then you can use it.
 
 ## Invoking an application
 

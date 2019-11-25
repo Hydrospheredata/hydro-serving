@@ -8,9 +8,11 @@ PyPI: https://pypi.org/project/hs/
 
 ## Installation
 
+@@@ vars
 ```sh
-pip install hs
+pip install hs~=$project.released_version$
 ```
+@@@
 
 ## Commands
 

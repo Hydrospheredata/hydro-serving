@@ -18,6 +18,7 @@ The actual model that we want to monitor tries to predict based on a set
 of features, will the person earn more than $50k per year or not. For the 
 sake of example, we are defining only a subset of features. 
 
+@@@ vars
 ```yaml
 kind: Model
 name: adult-salary
@@ -25,7 +26,7 @@ payload:
   - "src/"
   - "requirements.txt"
   - "classification_model.joblib"
-runtime: "hydrosphere/serving-runtime-python-3.6:0.1.2-rc0"
+runtime: "hydrosphere/serving-runtime-python-3.6:$project.released_version$"
 install-command: "pip install -r requirements.txt"
 contract:
   name: "predict"
@@ -101,6 +102,7 @@ cover cases with model outputs more deeply in the upcoming releases.
 Because monitoring model will be served just as a regular model, it also 
 needs a defined contract.
 
+@@@ vars
 ```yaml
 kind: Model
 name: "adult-salary-metric"
@@ -108,7 +110,7 @@ payload:
   - "src/"
   - "requirements.txt"
   - "monitoring_model.joblib"
-runtime: "hydrosphere/serving-runtime-python-3.6:0.1.2-rc0"
+runtime: "hydrosphere/serving-runtime-python-3.6:$project.released_version$"
 install-command: "pip install -r requirements.txt"
 contract:
   name: "predict"
@@ -179,6 +181,7 @@ you want to monitor. In our case this would be `adult-salary` model. To do
 this you have to supply additional __monitoring__ field in the `serving.yaml` 
 file.
 
+@@@ vars
 ```yaml
 kind: Model
 name: adult-salary
@@ -186,7 +189,7 @@ payload:
   - "src/"
   - "requirements.txt"
   - "classification_model.joblib"
-runtime: "hydrosphere/serving-runtime-python-3.6:0.1.2-rc0"
+runtime: "hydrosphere/serving-runtime-python-3.6:$project.released_version$"
 install-command: "pip install -r requirements.txt"
 contract:
   name: "predict"
@@ -217,6 +220,7 @@ monitoring:
       threshold: 10
       operator: ">="
 ```
+@@@
 
 Once the resource definition of the model is changed, the next model 
 upload will be supplied with additional metrics.

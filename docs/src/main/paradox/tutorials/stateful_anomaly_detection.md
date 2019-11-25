@@ -13,10 +13,11 @@ We will skip implementation details about the model itself. However, we must
 know what are the inputs and the outputs of the model. In our case model 
 definition looks like this:
 
-```
+@@@ vars
+```yaml
 kind: Model
 name: nyc_taxi
-runtime: "hydrosphere/serving-runtime-python-3.6:0.1.2-rc0"
+runtime: "hydrosphere/serving-runtime-python-3.6:$project.released_version$"
 install-command: "pip install -r requirements.txt"
 payload:
   - "src/"
@@ -36,6 +37,7 @@ contract:
       type: int32
       profile: numerical
 ```
+@@@
 
 So let's create a monitoring metric for that model. 
 
@@ -149,10 +151,11 @@ def pack_predict(result):
 
 This model also have to be packed with a model definition.
 
+@@@ vars
 ```yaml
 kind: Model
 name: nyc_taxi_monitoring
-runtime: "hydrosphere/serving-runtime-python-3.6:0.1.2-rc0"
+runtime: "hydrosphere/serving-runtime-python-3.6:$project.released_version$"
 install-command: "pip install -r requirements.txt"
 payload:
   - "src/"
@@ -176,6 +179,7 @@ contract:
       type: double
       profile: numerical
 ```
+@@@
 
 Inputs of this model are the inputs of the monitored model plus the outputs 
 of the monitored model. As an output for the monitoring model we use `value` 

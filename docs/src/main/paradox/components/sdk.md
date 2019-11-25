@@ -15,6 +15,7 @@ pip install hydrosdk
 
 ## Usage
 
+@@@ vars
 ```python
 from hydrosdk import sdk
 
@@ -22,7 +23,7 @@ from hydrosdk import sdk
 model = sdk.Model()
 model.with_name("model")
 model.with_runtime(
-    "hydrosphere/serving-runtime-python-3.6:0.1.2-rc0")
+    "hydrosphere/serving-runtime-python-3.6:$project.released_version$")
 model.with_signature(
     sdk.Signature('predict') \
         .with_input('imgs', 'float32', [-1, 28, 28, 1], 'image') \
@@ -43,3 +44,4 @@ model.with_training_data(
 # Apply the model
 result = model.apply(hydrosphere_uri)
 ```
+@@@
