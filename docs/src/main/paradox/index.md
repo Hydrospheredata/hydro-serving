@@ -22,6 +22,6 @@ tutorial.
 * [Components](components/index.md)
 * [How-To](how-to/index.md)
 * [Reference](reference/index.md)
-* [Development](dev.md)
+* [Contribution](dev.md)
 @@@
 
