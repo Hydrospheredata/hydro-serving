@@ -1,4 +1,4 @@
-# For developers
+# Contribution
 
 This section is dedicated to those of you, who want to improve Hydrosphere. 
 
