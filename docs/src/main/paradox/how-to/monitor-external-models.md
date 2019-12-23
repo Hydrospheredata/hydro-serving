@@ -11,46 +11,48 @@ to the platform:
 curl -X POST --header 'Content-Type: application/json' \
     --header 'Accept: application/json' \
     -d '{
-        "name": "external-model-example",
-        "contract": {
-            "modelName": "example",
-            "predict": {
-            "signatureName": "predict",
-            "inputs": [
-                {
-                "name": "in",
-                "dtype": "DT_DOUBLE",
-                "shape": {
-                    "dim": [
-                    {
-                        "size": 1,
-                        "name": "example"
-                    }
+            "name": "external-model-example",
+            "contract": {
+                "modelName": "external-model-example",
+                "predict": {
+                    "signatureName": "predict",
+                    "inputs": [
+                        {
+                            "name": "in",
+                            "dtype": "DT_DOUBLE",
+                            "shape": {
+                                "dim": [
+                                    {
+                                        "size": 1,
+                                        "name": "example"
+                                    }
+                                ],
+                                "unknownRank": false
+                            },
+                            "profile": "TEXT"
+                        }
                     ],
-                    "unknownRank": false
-                },
-                "profile": "TEXT"
+                    "outputs": [
+                        {
+                            "name": "out",
+                            "dtype": "DT_DOUBLE",
+                            "shape": {
+                                "dim": [
+                                    {
+                                        "size": 1,
+                                        "name": "example"
+                                    }
+                                ],
+                                "unknownRank": false
+                            },
+                            "profile": "NUMERICAL"
+                        }
+                    ]
                 }
-            ],
-            "outputs": [
-                {
-                "name": "out",
-                "dtype": "DT_DOUBLE",
-                "shape": {
-                    "dim": [
-                    {
-                        "size": 1,
-                        "name": "example"
-                    }
-                    ],
-                    "unknownRank": false
-                },
-                "profile": "NUMERICAL"
-                }
-            ]
+            },
+            "metadata": {
+                "description": "External model example"
             }
-        },
-        "metadata": {}
         }' 'http://<hydrosphere>/api/v2/externalmodel'
 ```
 
@@ -94,6 +96,7 @@ In the code snippet below you can see how analysis can be triggered with a
 sample Python gRPC client. 
 
 ```python
+import uuid
 import grpc
 import hydro_serving_grpc as hs
 
@@ -107,12 +110,13 @@ monitoring_stub = hs.MonitoringServiceStub(channel)
 
 # 1. Create an ExecutionMetadata message, which contains a metadata 
 # information of the model, used to process a given request
+trace_id = str(uuid.uuid4())  # uuid used as an example
 execution_metadata_proto = hs.ExecutionMetadata(
     model_name="external-model-example",
     modelVersion_id=2,
     model_version=3,
     signature_name="predict",
-    request_id="3503EDF1-C493-40F6-8EAC-267807FAE81D",
+    request_id=trace_id,
     latency=0.014,
 )
 
@@ -120,13 +124,13 @@ execution_metadata_proto = hs.ExecutionMetadata(
 # passed to the serving model for the prediction
 predict_request_proto = hs.PredictRequest(
     model_spec=hs.ModelSpec(
-        name="example",
+        name="external-model-example",
         signature_name="predict", 
     ),
     inputs={
         "in": hs.TensorProto(
             dtype=hs.DT_DOUBLE, 
-            double_val=["foo"], 
+            double_val=[0.13], 
             tensor_shape=hs.TensorShapeProto(dim=[hs.TensorShapeProto.Dim(size=1)])
         ),
     }, 
@@ -138,7 +142,7 @@ predict_response_proto = hs.PredictResponse(
     outputs={
         "out": hs.TensorProto(
             dtype=hs.DT_DOUBLE, 
-            double_val=["foo"], 
+            double_val=0.99, 
             tensor_shape=hs.TensorShapeProto(dim=[hs.TensorShapeProto.Dim(size=1)])
         ),
     },
