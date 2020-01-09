@@ -1,7 +1,7 @@
 # Monitor external models
 
 We can use monitoring to track behavior of external models running 
-outside of the Hydrosphere. This article describes how to register 
+outside of Hydrosphere platform. This article describes how to register 
 an external model and how to trigger monitoring to analyse requests.
 
 To register an external model in Hydrosphere, make a POST request
@@ -92,70 +92,11 @@ message can be used to perform analysis by the Sonar service. Use RPC
 method of the *[MonitoringService](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L19)* 
 to calculate metrics.
 
-In the code snippet below you can see how analysis can be triggered with a 
-sample Python gRPC client. 
+In the code snippets below you can see how analysis can be triggered with 
+sample gRPC clients. 
 
-```python
-import uuid
-import grpc
-import hydro_serving_grpc as hs
+Python
+:   @@snip [client.py](snippets/python-external-model-grpc.py)
 
-use_ssl_connection = True
-if use_ssl_connection:
-    creds = creds = grpc.ssl_channel_credentials()
-    channel = grpc.secure_channel(HYDROSPHERE_INSTANCE_GRPC_URI, credentials=creds)
-else:
-    channel = grpc.insecure_channel(HYDROSPHERE_INSTANCE_GRPC_URI) 
-monitoring_stub = hs.MonitoringServiceStub(channel)
-
-# 1. Create an ExecutionMetadata message, which contains a metadata 
-# information of the model, used to process a given request
-trace_id = str(uuid.uuid4())  # uuid used as an example
-execution_metadata_proto = hs.ExecutionMetadata(
-    model_name="external-model-example",
-    modelVersion_id=2,
-    model_version=3,
-    signature_name="predict",
-    request_id=trace_id,
-    latency=0.014,
-)
-
-# 2. Create a PredictRequest message, which contains original request 
-# passed to the serving model for the prediction
-predict_request_proto = hs.PredictRequest(
-    model_spec=hs.ModelSpec(
-        name="external-model-example",
-        signature_name="predict", 
-    ),
-    inputs={
-        "in": hs.TensorProto(
-            dtype=hs.DT_DOUBLE, 
-            double_val=[0.13], 
-            tensor_shape=hs.TensorShapeProto(dim=[hs.TensorShapeProto.Dim(size=1)])
-        ),
-    }, 
-)
-
-# 3. Create a PredictResponse message, which contains inferenced output 
-# of the model
-predict_response_proto = hs.PredictResponse(
-    outputs={
-        "out": hs.TensorProto(
-            dtype=hs.DT_DOUBLE, 
-            double_val=0.99, 
-            tensor_shape=hs.TensorShapeProto(dim=[hs.TensorShapeProto.Dim(size=1)])
-        ),
-    },
-)
-
-# 4. Create an ExecutionInformation message, which is used by Sonar to 
-# compute metrics
-execution_information_proto = hs.ExecutionInformation(
-    request=predict_request_proto,
-    response=predict_response_proto,
-    metadata=execution_metadata_proto,
-)
-
-# 5. Use RPC method Analyse of the MonitoringService to calculate metrics
-monitoring_stub.Analyze(execution_information_proto)
-```
+Java
+:   @@snip [client.java](snippets/java-external-model-grpc.java)
