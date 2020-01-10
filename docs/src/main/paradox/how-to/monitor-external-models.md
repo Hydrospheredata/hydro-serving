@@ -210,7 +210,7 @@ A model can be registered by sending a `POST` request to the
 definition as primary data.
 
 ```sh
-POST /api/v2/externalmodel
+POST /api/v2/externalmodel HTTP/1.1
 Content-Type: application/json
 Accept: application/json
 
@@ -273,6 +273,11 @@ in the request section above;
 - `metadata`: Metadata of the model, similar to one, defined in the 
 request section above;
 - `created`: Timestamp, indicating when the model has been registered. 
+
+@@@ note
+Note the `id` field, or model version ID. It will be used later 
+throughout the page. 
+@@@
 
 #### Model object
 
@@ -345,7 +350,8 @@ have to submit the training data. You can do it by:
 - using HTTP endpoint to submit the training data.
 
 In each case your training data should be represented as a CSV document, 
-containing fields named exactly alike as in the interface of your model. 
+containing fields named exactly alike as in the 
+@ref[interface](#request-document-structure) of your model. 
 
 @@@ note 
 Currently we support training data for NUMERICAL and TEXT profiles only. 
@@ -358,6 +364,15 @@ Switch to the cluster, suitable for your current flow.
 ```
 $ hs cluster use example-cluster
 Switched to cluster '{'cluster': {'server': '<hydrosphere>'}, 'name': 'example-cluster'}'
+```
+
+If you don't have a defined cluster yet, create one using the following
+command. 
+
+```
+$ hs cluster add --server <hydrosphere> --name example-cluster
+Cluster 'example-cluster' @ <hydrosphere> added successfully
+$ hs cluster use example-cluster
 ```
 
 Make sure, you have a local copy of the training data that you would like 
@@ -380,15 +395,16 @@ in,out
 
 Submit the training data. You **must** specify two parameters:
 
-- `--model-version`: A string, indicating a model version to which you 
-want to submit the data. The string should be formatted in the following 
-form `<model-name>:<model-version>`;
+- `--model-version`: A string, indicating a model version to which 
+you want to submit the data. The string should be formatted in the 
+following form `<model-name>:<model-version>`;
 - `--filename`: Path to a filename, that you want to submit. 
 
 @@@ note
-`--filename` can be substituted with the `--s3path`, in which 
-case you would have to provide S3 URI to your training data. The object 
-behind this URI should be available to the Hydrosphere instance. 
+If you already have your training data uploaded to S3, you can 
+specify path to that object URI using `--s3path` parameter instead 
+of `--filename`. The object behind this URI should be available to 
+the Hydrosphere instance. 
 @@@
 
 ```
@@ -397,15 +413,30 @@ $ hs profile push \
     --filename external-model-data.csv
 ```
 
-Depending on the size of you data you would have to wait, till data will 
-be uploaded. If you don't want to wait until the upload succeeds, you can 
-use `--async` flag.
+Depending on the size of you data you would have to wait, till data 
+will be uploaded. If you don't want to wait until the upload succeeds, 
+you can use `--async` flag.
 
 ### Upload using HTTP endpoint
 
+If you're willing to upload your data using an HTTP endpoint, you 
+would have to implement a client, which will stream your data to the 
+`/monitoring/profiles/batch/<MODEL_VERSION_ID>` endpoint. 
+
+Python
+:   @@snip [client.py](snippets/python/external-model/data-upload.py)
+
+@@@ note
+You can acquire `MODEL_VERSION_ID` by sending a GET request to 
+`/model/version/<NAME>/<VERSION>` endpoint. Response document would 
+have a similar structure, already defined @ref[above](#response-document-structure). 
+@@@
+
 ## Analysis invocation
 
-To send a request for analysis you have to use a gRPC endpoint. 
+To send a request for analysis you have to use gRPC endpoint. We 
+already have a [predefined](https://github.com/Hydrospheredata/hydro-serving-protos) 
+ProtoBuf messages for the reference. 
 
 1. Create an *[ExecutionMetadata](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/metadata.proto#L22)* 
 message, which contains a metadata information of the model, used to 
@@ -415,22 +446,18 @@ message, which contains original request passed to the serving model
 for the prediction:
 3. Create a *[PredictResponse](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/api/predict.proto#L26)* 
 message, which contains inferenced output of the model: 
-4. Once you have all of these messages, you can create an 
-*[ExecutionInformation](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L10)* 
-message, which is used by Sonar to compute metrics. 
-5. Correctly assembled *[ExecutionInformation](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L10)* 
-message can be used to perform analysis by the Sonar service. Use RPC 
-*[Analyse](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L20)* 
+4. Assemble an *[ExecutionInformation](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L10)*
+from the created above messages.
+5. Submit ExecutionInformation proto to @ref[Sonar](../concepts/index.md#sonar) 
+for analysis. Use RPC *[Analyse](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L20)*
 method of the *[MonitoringService](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L19)* 
 to calculate metrics.
 
-In the code snippets below you can see how analysis can be triggered with 
-sample gRPC clients. 
+In the code snippets below you can see how analysis can be triggered 
+with sample gRPC clients. 
 
 Python
-:   @@snip [client.py](snippets/python-external-model-grpc.py)
+:   @@snip [client.py](snippets/python/external-model/grpc.py)
 
 Java
-:   @@snip [client.java](snippets/java-external-model-grpc.java)
-
-## Retrieving metrics
+:   @@snip [client.java](snippets/java/external-model/grpc.java)
