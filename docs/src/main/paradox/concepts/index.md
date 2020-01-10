@@ -59,7 +59,7 @@ distribution of the production data?
 To learn more about how Sonar works, refer to @ref[this page](monitoring.md).
 
 @@@ note
-Currently is not available in public distribution. 
+Currently not available in public distribution. 
 @@@
 
 ## Abstractions
