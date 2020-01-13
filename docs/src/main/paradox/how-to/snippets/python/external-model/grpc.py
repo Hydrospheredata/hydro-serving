@@ -52,8 +52,9 @@ predict_response_proto = hs.PredictResponse(
     },
 )
 
-# 4. Create an ExecutionInformation message, which is used by Sonar to 
-# compute metrics
+# 4. Create an ExecutionInformation message. ExecutionInformation contains all 
+# request data and all auxiliary information about request execution, required 
+# to calculate metrics.
 execution_information_proto = hs.ExecutionInformation(
     request=predict_request_proto,
     response=predict_response_proto,

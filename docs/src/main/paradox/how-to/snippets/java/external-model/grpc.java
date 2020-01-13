@@ -58,7 +58,7 @@ public class HydrosphereClient {
 
     private TensorProto generateDoubleTensorProto() {
         /*
-        Helper method generating random TensorProto object for double values.
+        Helper method generating TensorProto object with random double values.
         */
         return TensorProto.newBuilder()
                 .addDoubleVal(new Random().nextDouble())
