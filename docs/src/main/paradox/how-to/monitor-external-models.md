@@ -42,7 +42,7 @@ the object is not strictly defined, the only constraint is that the
 object must have a key-value structure, where a value can only be of 
 a simple data type (string, number, boolean). 
 
-An example below shows, how a model can be defined on a top level.
+An example below shows, how a model can be defined on a top-level.
 
 ```json
 {  
@@ -263,6 +263,40 @@ Accept: application/json
 As a response server will return a JSON object with complementary
 metadata, identifying a registered model version. 
 
+
+### Response document structure
+
+The response object from external model registration request contains 
+the following fields:
+
+- `id`: Model version ID, uniquely identifying a registered model 
+version within Hydrosphere platform;
+- `model`: An object, representing a model collection, registered in 
+Hydrosphere platform;
+- `modelVersion`: Model version number in the model collection; 
+- `modelContract`: Contract of the model, similar to one, defined 
+in the request section above;
+- `metadata`: Metadata of the model, similar to one, defined in the 
+request section above;
+- `created`: Timestamp, indicating when the model has been registered. 
+
+@@@ note
+Note the `id` field. It will be referred as `MODEL_VERSION_ID` later 
+throughout the article.
+@@@
+
+#### Model object
+
+`model` object represents a collection of model versions, registered 
+in the platform. The response `model` object contains the following 
+fields:
+
+- `id`: Id of the model collection;
+- `name`: Name of the model collection.
+
+The example below shows, a sample server response from external model
+registration request. 
+
 ```json
 HTTP/1.1 200 OK
 Content-Type: application/json
@@ -316,39 +350,6 @@ Content-Type: application/json
     }
 }
 ```
-
-### Response document structure
-
-The response object from external model registration request contains 
-the following fields:
-
-- `id`: Model version ID, uniquely identifying a registered model 
-version within Hydrosphere platform;
-- `model`: An object, representing a model collection, registered in 
-Hydrosphere platform;
-- `modelVersion`: Model version number in the model collection; 
-- `modelContract`: Contract of the model, similar to one, defined 
-in the request section above;
-- `metadata`: Metadata of the model, similar to one, defined in the 
-request section above;
-- `created`: Timestamp, indicating when the model has been registered. 
-
-@@@ note
-Note the `id` field. It will be referred as MODEL_VERSION_ID later 
-throughout the article.
-@@@
-
-#### Model object
-
-`model` object represents a collection of model versions, registered 
-in the platform. The response `model` object contains the following 
-fields:
-
-- `id`: Id of the model collection;
-- `name`: Name of the model collection.
-
-The example below shows, a sample response of the model registration.
-
 
 ## Data upload
 
@@ -480,10 +481,9 @@ Java
 ## Fetching metrics
 
 The [analyze](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L20) 
-method doesn't return anything once it was triggered. To fetch 
-calculated metrics from the model version you have to make a
-GET request to the `/monitoring/checks/all/<MODEL_VERSION_ID>` 
-endpoint. 
+method doesn't return anything once it was triggered. To fetch calculated 
+metrics from the model version you have to make a GET request to the 
+`/monitoring/checks/all/<MODEL_VERSION_ID>` endpoint. 
 
 A request **must** contain the following parameters: 
 
@@ -497,7 +497,7 @@ GET /monitoring/checks/all/1?limit=1&offset=0 HTTP/1.1
 Accept: application/json
 ```
 
-Calculated metrics have a dynamic structure which is dependant on 
+Calculated metrics have a dynamic structure, which is dependant on 
 the model interface.
 
 ### Response object structure
@@ -616,7 +616,7 @@ An example below shows, how `metric` object can be defined.
 }
 ```
 
-An example of a fully composed server response is shown below. 
+An example below shows a fully composed server response. 
 
 ```json
 HTTP/1.1 200 OK
