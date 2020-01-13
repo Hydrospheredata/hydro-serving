@@ -1,17 +1,18 @@
-import requests
 from argparse import ArgumentParser
 from urllib.parse import urljoin
 
+import requests
+
+
 def read_in_chunks(filename, chunk_size=1024):
-    """
-    Generator to read a file peace by peace. 
-    """
+    """ Generator to read a file peace by peace. """
     with open(filename, "rb") as file:
         while True:
             data = file.read(chunk_size)
             if not data:
                 break
             yield data
+
 
 if __name__ == "__main__": 
     parser = ArgumentParser()
@@ -29,4 +30,6 @@ if __name__ == "__main__":
     gen = read_in_chunks(args.filename, chunk_size=args.chunk_size)
     response = requests.post(endpoint_uri, data=gen, stream=True)
     if response.status_code != 200:
-        print("Got error %s", response)
+        print("Got error:", response.text)
+    else:
+        print("Uploaded data:", response.text)
