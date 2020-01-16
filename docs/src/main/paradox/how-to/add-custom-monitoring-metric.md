@@ -1,4 +1,4 @@
-# Add custom monitoring metrics
+# Monitoring models with custom metrics
 
 Dozens of new models are introduced every month and monitoring all them 
 is extremely hard due to variability of types and architectures that lie 

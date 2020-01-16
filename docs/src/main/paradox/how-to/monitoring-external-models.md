@@ -1,4 +1,4 @@
-# Monitor external models
+# Monitoring external models
 
 We can use monitoring to track behavior of external models running 
 outside of the Hydrosphere platform. This article describes how to 
