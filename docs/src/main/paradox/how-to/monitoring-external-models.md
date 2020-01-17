@@ -1,9 +1,16 @@
 # Monitoring external models
 
-We can use monitoring to track behavior of external models running 
-outside of the Hydrosphere platform. This article describes how to 
-register an external model and how to trigger analysis over your 
-requests.
+We can use monitoring to track behavior of external models running outside of the Hydrosphere platform. This article describes how to register an external model, running outside of the Hydrosphere, how to trigger analysis over your requests and how to retrieve results.
+
+## Overview
+
+This article will guide you through the following topics:
+
+- @ref[Model registration](#model-registration) — Register a model, running outside of the Hydrosphere platform;
+- @ref[Training data upload](#training-data-upload) — Upload data, used for model training;
+- @ref[Custom metrics assignment](#custom-metrics-assignment) — Assigning custom model metrics; 
+- @ref[Analysis invocation](#analysis-invocation) — Providing requests served by external model to Hydrosphere for analysis. 
+- @ref[Metrics retrieval](#metrics-retrieval) — Retrieving calculated metrics. 
 
 ## Before you start
 
@@ -351,13 +358,12 @@ Content-Type: application/json
 }
 ```
 
-## Data upload
+## Training data upload
 
-In order to let Hydrosphere calculate metrics over your requests you 
-have to submit the training data. You can do it by: 
+To let Hydrosphere calculate metrics over your requests you would have to submit the training data. You can do it by: 
 
-- using @ref[CLI](../components/cli.md);
-- using HTTP endpoint.
+- @ref[using CLI](#upload-using-cli);
+- @ref[using HTTP endpoint](#upload-using-http-endpoint).
 
 In each case your training data should be represented as a CSV document, 
 containing fields named exactly like in the 
@@ -429,12 +435,10 @@ will be uploaded. If you don't want to wait you can use `--async` flag.
 
 ### Upload using HTTP endpoint
 
-If you're willing to upload your data using an HTTP endpoint, you 
-would have to implement a client, which will stream your data to the 
-`/monitoring/profiles/batch/<MODEL_VERSION_ID>` endpoint. 
+To upload your data using an HTTP endpoint, you would stream it to the `/monitoring/profiles/batch/<MODEL_VERSION_ID>` endpoint. 
 
 In the code snippets below you can see how data can be uploaded 
-using sample http clients. 
+using sample HTTP clients. 
 
 Python
 :   @@snip [client.py](snippets/python/external-model/data-upload.py)
@@ -447,6 +451,102 @@ You can acquire `MODEL_VERSION_ID` by sending a GET request to
 `/model/version/<MODEL_NAME>/<MODEL_VERSION>` endpoint. Response document would 
 have a similar structure, already defined @ref[above](#response-document-structure). 
 @@@
+
+## Custom metrics assignment
+
+This step is **optional**.
+If you wish to assign a custom monitoring metric to a model, you can do it by:
+
+- using UI;
+- using CLI;
+- using HTTP endpoint;
+
+### Using HTTP endpoint
+
+To assign metrics using HTTP endpoint you would have to submit a JSON document, defining a monitoring specification.
+
+#### Top-level members
+
+A document **must** contain the following top-level members.
+
+- `name`: The name of the monitoring metric;
+- `modelVersionId`: Unique identifier of the model **to which** you want to assign a metric;
+- `config`: Object, representing a configuration of the metric, **which** will be applied to the model. 
+
+An example below shows, how a metric can be defined on a top-level.
+
+```json
+{
+    "name": "string",
+    "modelVersionId": 1,
+    "config": {
+        ...
+    }
+}
+```
+
+#### Config object
+
+`config` object defines a configuration of the monitoring metric, which will monitor the model. The model **must** contain the following members:
+
+- `modelVersionId`: Unique identifier of the model **which** will monitor requests;
+- `threshold`: Threshold value, against which monitoring values will be compared using comparison operator;
+- `thresholdCmpOperator`: Object, representing a comparison operator. 
+
+An example below shows, how a metric can be defined on a top-level.
+
+```json
+{
+    "modelVersionId": 2,
+    "threshold": 0.5,
+    "thresholdCmpOperator": {
+        ...
+    }
+}
+```
+
+#### ThresholdCmpOperator object
+
+`thresholdCmpOperator` object defines the kind of comparison operator, which will be used when comparing a value produced by the metric against the threshold. The object **must** contain the following members:
+
+- `kind`: Kind of comparison operator.
+
+The only *valid* options for `kind` are: 
+
+- Eq;
+- NotEq;
+- Greater;
+- Less;
+- GreaterEq;
+- LessEq. 
+
+An example below shows, how a metric can be defined on a top-level.
+
+```json
+{
+    "kind": "LessEq"
+}
+```
+
+A request below shows an example of assigning monitoring metric. At this moment both monitoring and actual prediction model should be registered/uploaded in the platform.
+
+```json
+POST /monitoring/metricspec HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "string",
+    "modelVersionId": 1,
+    "config": {
+        "modelVersionId": 2,
+        "threshold": 0.5,
+        "thresholdCmpOperator": {
+            "kind": "LessEq"
+        }
+    }
+}
+```
 
 ## Analysis invocation
 
@@ -478,7 +578,7 @@ Python
 Java
 :   @@snip [client.java](snippets/java/external-model/grpc.java)
 
-## Fetching metrics
+## Metrics retrieval
 
 The [analyze](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L20) 
 method doesn't return anything once it was triggered. To fetch calculated 
