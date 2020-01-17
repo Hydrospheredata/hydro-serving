@@ -122,7 +122,7 @@ public class HydrosphereClient {
         /*
         Test client functionality by sending randomly generated data for analysis.
         */
-        HydrosphereClient client = new HydrosphereClient("dev.k8s.hydrosphere.io", "external-model-example", 1, 643);
+        HydrosphereClient client = new HydrosphereClient("<hydrosphere>", "external-model-example", 1, 1);
         try {
             int requestAmount = 10;
             System.out.printf("Analysing %d randomly generated samples\n", requestAmount);

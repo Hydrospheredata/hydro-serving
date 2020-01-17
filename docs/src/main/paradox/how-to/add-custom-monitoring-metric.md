@@ -1,10 +1,6 @@
-# Add custom monitoring metrics
+# Monitoring models with custom metrics
 
-Dozens of new models are introduced every month and monitoring all them 
-is extremely hard due to variability of types and architectures that lie 
-upon them. To mitigate this issue we introduced the ability to write 
-custom monitoring metrics. In this article you will learn how to create 
-one with in depth explanations. 
+Dozens of new models are introduced every month and monitoring all of them is extremely hard due to the variability of types and architectures that lie behind them. To mitigate this issue we introduced the ability to write custom monitoring metrics. In this article, you will learn how to create one with in-depth explanations. 
 
 ## Case
 

@@ -23,5 +23,6 @@ tutorial.
 * [How-To](how-to/index.md)
 * [Reference](reference/index.md)
 * [Contribution](dev.md)
+* [Roadmap](roadmap.md)
 @@@
 
