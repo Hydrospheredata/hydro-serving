@@ -10,7 +10,7 @@ Hydrosphere platform can be summarized in the following diagram. It's a
 set of microservices that work together to let you manage machine learning 
 models reliably and at scale.  
 
-![System](../images/architecture.png)
+![System](.../architecture.png)
 
 ## Services 
 

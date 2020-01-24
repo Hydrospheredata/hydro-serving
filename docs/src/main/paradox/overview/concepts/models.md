@@ -12,10 +12,10 @@ by the model's name.
 When you upload a model to Hydrosphere, roughly the following steps are 
 executed:
 
-1. [CLI](../components/cli.html) uploads model binaries to the platform;
-1. [Manager](../components/index.html#manager-service) builds a new Docker 
+1. [CLI](../overview/components/cli.html) uploads model binaries to the platform;
+1. [Manager](../overview/components/index.html#manager-service) builds a new Docker 
 image based on the uploaded binaries and saves the image in the configured 
-[Docker registry](../components/index.html#docker-registry);
+[Docker registry](../overview/components/index.html#docker-registry);
 1. A built image is assigned with the model's collection with an increased 
 version.
 
