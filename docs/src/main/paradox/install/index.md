@@ -1,26 +1,15 @@
 # Installation 
 
 @@@ index
-* [Docker](docker.md)
-* [Kubernetes](kubernetes.md)
+
+* [Platform](platform.md)
+* [Client](client/index.md)
+
 @@@
 
 Hydrosphere platform comes in two-tier fashion: 
 
-* Working __Cluster__ that handles models management, deployment and 
-monitoring; 
-* __Client__ that handles model upload, application creation, etc. 
+* **Platform** that handles models management, deployment, monitoring and request analysis; 
+* **Client** that handles platforms' entities management. 
 
-## Cluster
-
-You can setup a cluster in the following environments: 
-
-* @ref[Docker](docker.md)
-* @ref[Kubernetes](kubernetes.md)
-
-## Client
-
-Interacting with the cluster programmatically can be done in two ways: 
-
-* via @ref[CLI](../components/cli.md)
-* via @ref[SDK](../components/sdk.md)
+@@ toc { depth=2 }
