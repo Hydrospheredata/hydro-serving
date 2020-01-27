@@ -4,9 +4,7 @@
 @@@ index
 
 * [What is Hydrosphere?](what-hydrosphere.md)
-* [Why Hydrosphere?](why-hydrosphere.md)
-* [Concepts](concepts/index.md)
-* [Components](components/index.md)
+* [Concepts](concepts.md)
 * [Roadmap](roadmap.md)
 
 @@@

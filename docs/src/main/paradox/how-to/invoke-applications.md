@@ -1,14 +1,14 @@
 # Invoke applications
 
-You can use on the following APIs to send prediction requests to your applications:
+Inferencing applications can be achieved using any of the ways, described below.
 
 ## Hydrosphere UI 
 
-You can send a test request to the application from Hydrosphere UI interface. Just open an application and press `Test` button. We will generate a dummy inputs based on your model's contract and send an HTTP-request to model's endpoint. 
+To send a sample request using Hydrosphere UI you should open a desired application and press the `Test` button on the upper right corder. We will generate a dummy inputs based on your model's contract and send an HTTP-request to model's endpoint. 
 
 ## HTTP API
 
-You can reach your application with an HTTP-request. Send a `POST` request to the `/gateway/application/<applicationName>` endpoint with the JSON body containing your request data composed with respect to model's contract. 
+To send an HTTP-request you should send a `POST` request to the `/gateway/application/<applicationName>` endpoint with the JSON body containing your request data composed with respect to the model's contract. 
 
 ## gRPC API
 

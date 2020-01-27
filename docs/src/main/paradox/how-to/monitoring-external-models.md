@@ -498,7 +498,7 @@ To send a request for analysis you have to use gRPC endpoint. We already have a 
 2. Create a *[PredictRequest](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/api/predict.proto#L14)* message, which contains original request passed to the serving model for the prediction:
 3. Create a *[PredictResponse](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/api/predict.proto#L26)* message, which contains inferenced output of the model: 
 4. Assemble an *[ExecutionInformation](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L10)* from the created above messages.
-5. Submit ExecutionInformation proto to @ref[Sonar](../overview/concepts/index.md#sonar) for analysis. Use RPC *[Analyse](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L20)* method of the *[MonitoringService](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L19)* to calculate metrics.
+5. Submit ExecutionInformation proto to Sonar for analysis. Use RPC *[Analyse](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L20)* method of the *[MonitoringService](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L19)* to calculate metrics.
 
 In the code snippets below you can see how analysis can be triggered with sample gRPC clients. 
 

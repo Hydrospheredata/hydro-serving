@@ -1,17 +1,19 @@
-# SDK
 
-The purpose of this SDK is to provide a simple and convenient way of 
-integrating user's workflow scripts with Serving API. It is built on
-top of existing CLI code. 
+# Python SDK
+
+Python SDK offers a simple and convenient way of integrating user's workflow scripts with Hydrosphere API. 
 
 Source code: https://github.com/Hydrospheredata/hydro-serving-sdk<br>
 PyPI: https://pypi.org/project/hydrosdk/
 
 ## Installation 
 
+To install SDK use a Python installer. 
+
 ```sh
-pip install hydrosdk
+$ pip install hydrosdk
 ```
+
 
 ## Usage
 

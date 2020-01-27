@@ -11,6 +11,7 @@ __Hydrosphere__ is an open source model management platform for deploying, servi
 * [Installation](install/index.md)
 * [Tutorials](tutorials/index.md)
 * [How-To](how-to/index.md)
+* [Reference](reference/index.md)
 * [Contribution](contribution.md)
 
 @@@

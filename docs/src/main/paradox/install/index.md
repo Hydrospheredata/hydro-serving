@@ -3,7 +3,7 @@
 @@@ index
 
 * [Platform](platform.md)
-* [Client](client.md)
+* [Client](client/index.md)
 
 @@@
 

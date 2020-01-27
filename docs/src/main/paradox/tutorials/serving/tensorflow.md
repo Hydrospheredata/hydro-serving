@@ -6,7 +6,7 @@ Tensorflow model is a model that is backed with a Tensorflow runtime. You can cr
 
 ## Before you start
 
-We assume you already have a @ref[deployed](../../install/platform.md) instance of the Hydrosphere platform and a @ref[CLI](../../install/client.md#CLI) on your local machine.
+We assume you already have a @ref[deployed](../../install/platform.md) instance of the Hydrosphere platform and a @ref[CLI](../../install/client/cli.md) on your local machine.
 
 To let `hs` know where the Hydrosphere platform runs, configure a new `cluster` entity. 
 
@@ -85,7 +85,7 @@ $ hs upload --name mnist --runtime hydrosphere/serving-runtime-tensorflow-1.13.1
 @@@
 
 @@@ note
-You can find all available Tensorflow runtime versions @ref[here](../../overview/components/runtimes.md).
+You can find all available Tensorflow runtime versions @ref[here](../../reference/runtimes.md).
 @@@
 
 Now the model is uploaded to the cluster, but it's not available for prediction yet. 

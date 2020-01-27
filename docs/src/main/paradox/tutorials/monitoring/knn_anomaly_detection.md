@@ -10,7 +10,7 @@ For the use case we've picked a sample classification problem. We will monitor t
 
 ## Before you start
 
-We assume you already have a @ref[deployed](../../install/platform.md) instance of the Hydrosphere platform and a @ref[CLI](../../install/client.md#CLI) on your local machine.
+We assume you already have a @ref[deployed](../../install/platform.md) instance of the Hydrosphere platform and a @ref[CLI](../../install/client/cli.md) on your local machine.
 
 To let `hs` know where the Hydrosphere platform runs, configure a new `cluster` entity. 
 
