@@ -1,12 +1,12 @@
 # Monitor anomalies with a custom Isolation Forest metric
 
-In this page you will learn how to create a custom anomaly detection metric for the specific use case. 
+On this page you will learn how to create a custom anomaly detection metric for a specific use case. 
 
 @@toc { depth=1 }
 
 ## Overview
 
-For the use case we've picked a sample regression problem. We will monitor the model, which will predict how much taxi pickups will occur in the next hour based on the observations from last 5 hours. As a data source we will use [dataset](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) from NYC Taxi & Limousine Commission.
+For this use case we have chosen a sample regression problem. We will monitor the model, which will predict how many taxi pickups will occur in the next hour, based on observations from past 5 hours. As a data source we will use a [dataset](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) from NYC Taxi & Limousine Commission.
 
 ## Before you start
 
@@ -19,14 +19,14 @@ $ hs cluster add --name local --server http://localhost
 $ hs cluster use local
 ```
 
-Also you should have a target regression model already be deployed on the cluster. You can find the source code of the target model here. 
+Also, you should have a target regression model already deployed on the cluster. You can find the source code of the target model here. 
 
 
 ## Model training
 
 As a monitoring model we will use an autoregressive stateful IsolationForest model, which will be continuously retrained on a window of 5 consequent data samples. 
 
-We will skip most of the data preparation steps just for the sake of simplicity. 
+We will skip most of the data preparation steps, for the sake of simplicity. 
 
 Python
 :   @@snip[train.py](snippets/isolation_forest_anomaly_detection/train.py) { #main-section }
@@ -40,11 +40,11 @@ Python
 
 ![](.../stateful_isolation_forest_taxi_plot.png)
 
-From the plot you can see massive amount of anomalies in the end of January 2016. These outliers came from travel ban due to ["Snowzilla"](https://en.wikipedia.org/wiki/January_2016_United_States_blizzard).
+From the plot you can see a massive amount of anomalies at the end of January 2016. These outliers came from a travel ban due to ["Snowzilla"](https://en.wikipedia.org/wiki/January_2016_United_States_blizzard).
 
 ## Model release
 
-To create a monitoring metric we have to deploy that IsolationForest model as a separate model in Hydrosphere. Let's save a trained model for serving. 
+To create a monitoring metric, we have to deploy that IsolationForest model as a separate model in Hydrosphere. Let's save a trained model for serving. 
 
 Python
 :   @@snip[train.py](snippets/isolation_forest_anomaly_detection/train.py) { #save-section }
@@ -94,9 +94,9 @@ contract:
 ```
 @@@
 
-Inputs of this model are the inputs of the monitored model plus the outputs of the monitored model. As an output for the monitoring model we use `value` field. 
+Inputs of this model are the inputs of the monitored model plus the outputs of the monitored model. As an output for the monitoring model we will use the `value` field. 
 
-Pay attention to the model's payload. It has `src` folder that we've just created, `requirements.txt` with all dependencies and `iforest.joblib`, e.g. our newly trained serialized IsolationForest model. 
+Pay attention to the model's payload. It has the `src` folder that we have just created, `requirements.txt` with all dependencies and `iforest.joblib`, e.g. our newly trained serialized IsolationForest model. 
 
 `requirements.txt` looks like this: 
 
@@ -117,7 +117,7 @@ The final directory structure should look like this:
     └── func_main.py
 ```
 
-From that folder upload the model to the Hydrosphere.
+From that folder, upload the model to the Hydrosphere.
 
 ```sh
 hs upload
@@ -129,14 +129,14 @@ Let's create a monitoring metric for our pre-deployed regression model.
 
 ### UI
 
-1. From the _Models_ section pick the target model, which you would like to deploy and select the desired model version;
+1. From the _Models_ section, select the target model you would like to deploy, and select the desired model version;
 1. Open _Monitoring_ tab.
-1. At the bottom of the page click `Add Metric` button;
+1. At the bottom of the page, click the `Add Metric` button;
 1. From the opened window click `Add Metric` button;
-    1. Specify the name of metric;
+    1. Specify the name of the metric;
     1. Choose monitoring model;
-    1. Choose version of the monitoring model;
-    1. Pick a comparison operator `GreaterEq`. This means that whenever our metric value drops below 0, an alarm would be fired.
+    1. Choose a version of the monitoring model;
+    1. Select the comparison operator `GreaterEq`. This means that whenever our metric value drops below 0, an alarm will be fired.
     1. Set the threshold value to 0.
     1. Click `Add Metric` button.
 
