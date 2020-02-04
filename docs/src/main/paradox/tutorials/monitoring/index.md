@@ -7,6 +7,6 @@
 
 @@@
 
-In this page you will find articles that will help you to monitor your models **using custom metrics**.
+On this page you will find articles that will help you to monitor your models **using custom metrics**.
 
 @@toc { depth=1 }

@@ -6,6 +6,6 @@
 
 @@@
 
-In this page you will articles that will help you to get started with the Hydrosphere platform.
+On this page you will find articles that will help you to get started with the Hydrosphere platform.
 
 @@toc { depth=1 }

@@ -1,8 +1,8 @@
 # Develop runtimes
 
-Sometimes our runtime images aren't flexible enough. In that case you might want to implement one yourself. 
+Sometimes our runtime images are not flexible enough. In that case, you might want to implement one yourself. 
 
-The key things you have to know to write your own runtime are: 
+The key things you need to know to write your own runtime are: 
 
 * Knowledge of how to implement a predefined gRPC service for a dedicated language;
 * Understanding of our contracts' protobufs to describe entry points, such as inputs and outputs;
@@ -11,7 +11,7 @@ The key things you have to know to write your own runtime are:
 
 ## Generate GRPC code
 
-There are different approaches on how to generate client and server gRPC code on [different languages](https://grpc.io/docs/). Let's have a look on how to do that in Python.
+There are different approaches to generating client and server gRPC code in [different languages](https://grpc.io/docs/). Let's have a look at how to do that in Python.
 
 First, let's clone our [protos](https://github.com/Hydrospheredata/hydro-serving-protos) and prepare a folder for the generated code.
 
@@ -35,7 +35,7 @@ $ cd runtime
 $ find ./hydro_serving_grpc -type d -exec touch {}/__init__.py \;
 ```
 
-The structure of the `runtime` now should be as the following:
+The structure of the `runtime` should now be as the follows:
 
 ```sh
 runtime
@@ -69,14 +69,14 @@ runtime
 
 ## Implement Service
 
-Now that we have everything set up, let's actually implement a runtime. Create `runtime.py` file and put there the following code:
+Now that we have everything set up, let's actually implement a runtime. Create a `runtime.py` file and put in the following code:
 
 Python
 :   @@snip[runtime.py](snippets/python/develop-runtime/runtime.py)
 
 Let's quickly review what we have here. `RuntimeManager` simply manages our service, i.e. starts it, stops it, and holds all necessary data. `RuntimeService` is a service that actually implements `Predict(PredictRequest)` RPC function.
 
-The model will be stored inside the `/model` directory in the docker container. The structure of `/model` is following: 
+The model will be stored inside the `/model` directory in the docker container. The structure of `/model` is a follows: 
 
 ```sh
 model
@@ -90,16 +90,16 @@ model
 
 `files` directory contains all files of your model.
 
-To run this service let's create another file `main.py`.
+To run this service let's create an another file `main.py`.
 
 Python
 :   @@snip[main.py](snippets/python/develop-runtime/main.py)
 
 ## Publish Runtime
 
-Before we can use the runtime we have to package it into a container.
+Before we can use the runtime, we have to package it into a container.
 
-Add requirements for installing dependencies. Create `requirements.txt` file with the following contents. 
+Add requirements for installing dependencies. Create a `requirements.txt` file with the following contents. 
 
 ```
 grpcio==1.12.1 
@@ -122,9 +122,9 @@ WORKDIR /app
 CMD ["python", "main.py"]
 ```
 
-`APP_PORT` is an environment variable used by Hydrosphere. When Hydrosphere invokes `Predict` method it does it via the defined port.
+`APP_PORT` is an environment variable used by Hydrosphere. When Hydrosphere invokes `Predict` method, it does so via the defined port.
 
-The structure of the `runtime` folder now should look like this:
+The structure of the `runtime` folder should now look like this:
 
 ```sh
 runtime
@@ -169,7 +169,7 @@ $ docker push {username}/python-runtime-example
 ```
 
 @@@ note
-Remember that registry has to be accessible to the Hydrosphere platform so it can pull the runtime whenever it has to run a model with this runtime.
+Remember that the registry has to be accessible to the Hydrosphere platform so it can pull the runtime whenever it has to run a model with this runtime.
 @@@
 
-That's it. You've just created a simple runtime that you can use in your own projects. It's an almost identical version of our [python runtime implementation](https://github.com/Hydrospheredata/hydro-serving-python). You can always look up details there. 
+That's it. You have just created a simple runtime that you can use in your own projects. It  is an almost identical version of our [python runtime implementation](https://github.com/Hydrospheredata/hydro-serving-python). You can always look up details there. 

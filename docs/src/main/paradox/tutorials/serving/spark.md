@@ -33,7 +33,7 @@ pipeline = pipeline.fit(continuousDataFrame)
 ...
 ```
 
-Once the model have been trained you can export the whole computational graph and the trained weights with `PipelineModel.save()`. In order to do that you have to define your model's signature:
+Once the model has been trained, you can export the whole computational graph and the trained weights with `PipelineModel.save()`. In order to do that, you have to define your model's signature:
 
 ```python
 pipeline.write().overwrite().save("binarizer")
@@ -50,12 +50,12 @@ $ hs upload --runtime hydrosphere/serving-runtime-spark-2.1.2:$project.released_
 ```
 @@@
 
-Now the model is uploaded to the manager service, but it's not available 
+Now the model is uploaded to the manager service, but it is not available 
 for prediction yet. 
 
 ## Creating an application
 
-To deploy a model as a microservice you need to create an application. You can create it manually via Hydrosphere UI, or by providing an application manifest.
+To deploy a model as a microservice, you need to create an application. You can create it manually via Hydrosphere UI, or by providing an application manifest.
 
 ```sh
 $ hs apply -f - <<EOF

@@ -10,6 +10,6 @@
 Hydrosphere platform comes in two-tier fashion: 
 
 * **Platform** that handles models management, deployment, monitoring and request analysis; 
-* **Client** that handles platforms' entities management. 
+* **Client** that handles the platforms' entities management. 
 
 @@ toc { depth=2 }

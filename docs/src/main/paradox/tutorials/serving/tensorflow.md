@@ -19,7 +19,7 @@ $ hs cluster use local
 
 ### SavedModelBuilder
 
-To export a Tensorflow model correctly you have to identify and prepare input and output tensors. We have implemented a linear model using low-level Tensorflow API. The full code is available in our [GitHub repository](https://github.com/Hydrospheredata/hydro-serving-example/blob/master/examples/mnist_tf/train_mnist.py). In the code you can find the following lines describing input and output tensors. 
+To export a Tensorflow model correctly, you have to identify and prepare input and output tensors. We have implemented a linear model using low-level Tensorflow API. The full code is available in our [GitHub repository](https://github.com/Hydrospheredata/hydro-serving-example/blob/master/examples/mnist_tf/train_mnist.py). In the code you can find the following lines describing input and output tensors. 
 
 ```python
 ...
@@ -29,7 +29,7 @@ pred = tf.nn.softmax(logits)        # output prediction
 ...
 ```
 
-Once the model has been trained you can export the whole computational graph and the trained weights with `tf.saved_model`. To do that you have to define model's signature:
+Once the model has been trained, you can export the whole computational graph and the trained weights with `tf.saved_model`. To do that you have to define the model's signature:
 
 ```python
 signature_map = {
@@ -64,7 +64,7 @@ estimator = tf.estimator.DNNClassifier(
 ...
 ```
 
-To export it we need to use `build_raw_serving_input_receiver_fn` function and pass the result to the `export_estimator` method. `imgs` tensor in the `input_receiver_fn` should be similar to the `tf.feature_column` that is expected by the estimator. 
+To export it we need to use the `build_raw_serving_input_receiver_fn` function and pass the result to the `export_estimator` method. `imgs` tensor, defined in the `input_receiver_fn`, should be similar to the `tf.feature_column` that is expected by the estimator. 
 
 ```python
 serving_input_receiver_fn = tf.estimator.export.build_raw_serving_input_receiver_fn({
@@ -88,11 +88,11 @@ $ hs upload --name mnist --runtime hydrosphere/serving-runtime-tensorflow-1.13.1
 You can find all available Tensorflow runtime versions @ref[here](../../reference/runtimes.md).
 @@@
 
-Now the model is uploaded to the cluster, but it's not available for prediction yet. 
+Now the model is uploaded to the cluster, but it is not yet available for prediction. 
 
 ## Creating an application
 
-To deploy a model as a microservice you need to create an application. You can create it manually via Hydrosphere UI, or by providing an application manifest.
+To deploy a model as a microservice, you need to create an application. You can create it manually via Hydrosphere UI, or by providing an application manifest.
 
 ```sh
 $ hs apply -f - <<EOF

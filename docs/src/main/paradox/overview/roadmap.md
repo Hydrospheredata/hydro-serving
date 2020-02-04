@@ -29,7 +29,7 @@ This page describes our roadmap of feature incorporation into the platform.
     - Add ability to isolate subset of points
     - Add image support
 - Batch-Checks
-    - Monitoring batches of tabular data with set of researched metrics
+    - Monitoring batches of tabular data with a set of researched metrics
     - Add support for image data type
 - Root Cause 
     - Performance fixes

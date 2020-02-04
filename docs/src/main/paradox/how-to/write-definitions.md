@@ -1,6 +1,6 @@
 # Write definitions
 
-Resource definitions describe Hydrosphere entities. It could be either your model, application, or deployment configuration. Each definition is defined via `.yaml` file.
+Resource definitions describe Hydrosphere entities. An entity could be your model, application, or deployment configuration. Each definition is defined via `.yaml` file.
 
 @@toc { depth=1 }
 
@@ -8,7 +8,7 @@ Resource definitions describe Hydrosphere entities. It could be either your mode
 
 Every definition **must** include the following fields:
 
-- `kind`: Defines the kind of a resource; 
+- `kind`: Defines the type of resource; 
 - `name`: Defines the name of a resource.
 
 The only _valid_ options for `kind` are:
@@ -20,17 +20,17 @@ The only _valid_ options for `kind` are:
 
 The model definition **must** contain the following fields:
 
-- `runtime`: A string, defining a runtime will be used to run a model;
-- `contract`: An object, defining the inputs and outputs of a model.
+- `runtime`: A string defining the runtime that will be used to run a model;
+- `contract`: An object defining the inputs and outputs of a model.
 
 The model definition **can** contain the following fields:
 
-- `payload`: A list of files that should be included into a container;
-- `install-command`: A string, defining a command which should be executed during container build;
-- `training-data`: A string, defining a path to the file which will be uploaded to the Hydrosphere and used as training data reference. Can be either a local file or a URI to S3 object. At the moment we only support `.csv` files;
-- `metadata`: An object, defining additional user metadata which will be displayed on the Hydrosphere UI.
+- `payload`: A list of files that should be added to the container;
+- `install-command`: A string defining a command that should be executed during the container build;
+- `training-data`: A string defining a path to the file that will be uploaded to Hydrosphere and used as a training data reference. It can be either a local file or a URI to S3 object. At the moment we only support `.csv` files;
+- `metadata`: An object defining additional user metadata that will be displayed on the Hydrosphere UI.
 
-An example below shows, how a model can be defined on a top level.
+The example below shows how a model can be defined on a top level.
 
 @@@ vars
 ```yaml
@@ -57,14 +57,14 @@ metadata:
 
 `contract` object **can** contain the following fields:
 
-- `name`: A string, defining a signature of the model, which should be used to calculate request.
+- `name`: A string defining the signature of the model that should be used to process requests.
 
 #### Field object
 
 `field` object **must** contain the following fields:
 
-- `shape`: Either a string or a list of integers, defining the shape of your data. If shape is defined as a list of integers it can have `-1` value at the very beginning of the list indicating that this field has an arbitrary number of "entities". `-1` cannot be put anywhere aside from the beginning of the list. If shape is defines as a string, it can only be "scalar". 
-- `type`: A string, defining the type of your data.
+- `shape`: Either a string or a list of integers, defining the shape of your data. If shape is defined as a list of integers, it can have `-1` value at the very beginning of the list, indicating that this field has an arbitrary number of "entities". `-1` cannot be put anywhere aside from the beginning of the list. If shape is defined as a string, it can only be "scalar". 
+- `type`: A string defining the type of data.
 
 `field` object **can** contain the following fields:
 
@@ -100,7 +100,7 @@ The only _valid_ options for `profile` are:
 - image — Monitoring such fields will be done with **image**-oriented algorithms; 
 - numerical — Monitoring such fields will be done with **numerical**-oriented algorithms.
 
-An example below shows, how a contract can be defined on a top level.
+The example below shows how a contract can be defined on a top level.
 
 ```yaml
 name: "infer"
@@ -122,9 +122,9 @@ outputs:
 
 ### Metadata object
 
-`metadata` object can represent any arbitrary information, specified by user. The structure of the object is not strictly defined, the only constraint is that the object must have a key-value structure, where a value can only be of a simple data type (string, number, boolean).
+`metadata` object can represent any arbitrary information specified by the user. The structure of the object is not strictly defined. The only constraint is that the object must have a key-value structure, where a value can only be of a simple data type (string, number, boolean).
 
-An example below shows, how metadata can be defined.
+The example below shows, how metadata can be defined.
 
 ```yaml
 metadata:
@@ -132,7 +132,7 @@ metadata:
   environment: "kubernetes"
 ```
 
-An example below shows a complete definition of a sample model.
+The example below shows a complete definition of a sample model.
 
 ```yaml
 kind: "Model"
@@ -173,11 +173,11 @@ The application definition **must** contain **one** of the following fields:
 
 ### Singular object
 
-`singular` object represents an application, consisting only of one model. The object **must** contain the following fields:
+`singular` object represents an application consisting only of one model. The object **must** contain the following fields:
 
-- `model`: A string, defining a model version. It expected to be in the form `model-name:model-version`. 
+- `model`: A string, defining a model version. It is expected to be in the form `model-name:model-version`. 
 
-An example below shows, how a singular application can be defined.
+The example below shows how a singular application can be defined.
 
 ```yaml
 kind: "Application"
@@ -188,17 +188,17 @@ singular:
 
 ### Pipeline object
 
-`pipeline` represents a list stages, representing models. 
+`pipeline` represents a list of stages, representing models. 
 
 `stage` object **must** contain the following fields: 
 
-- `model`: A string, defining a model version. It expected to be in the form `model-name:model-version`. 
+- `model`: A string defining a model version. It is expected to be in the form `model-name:model-version`. 
 
 `stage` object **can** contain the following fields:
 
-- `weight`: A number, defining the weight of the model. All models' weights in a stage must sum up to 100. 
+- `weight`: A number defining the weight of the model. All models' weights in a stage must add up to 100. 
 
-An example below shows, how a pipeline application can be defined.
+The example below shows how a pipeline application can be defined.
 
 ```yaml
 kind: Application
@@ -211,4 +211,4 @@ pipeline:
       weight: 20
 ```
 
-In this application 100% of the traffic will be forwarded to the `claims-preprocessing:1` model version and the output will be fed into `claims-model`. 80% of the traffic will go to the `claims-model:1` model version, 20% of the traffic will go to the `claims-model:2` model version. 
+In this application, 100% of the traffic will be forwarded to the `claims-preprocessing:1` model version and the output will be fed into `claims-model`. 80% of the traffic will go to the `claims-model:1` model version, 20% of the traffic will go to the `claims-model:2` model version. 
