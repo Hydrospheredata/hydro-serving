@@ -9,6 +9,6 @@
 
 @@@
 
-In this page you will find articles that explore the Hydrosphere platform on a high level and explain you the main concepts of Hydrosphere. 
+On this page you will find articles that explore the Hydrosphere platform at an advanced level and that explain you the main concepts of Hydrosphere. 
 
 @@toc { depth=1 }
