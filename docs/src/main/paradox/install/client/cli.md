@@ -1,7 +1,7 @@
 
 # CLI
 
-`hs` is a command line interface to work with the Hydrosphere platform.
+`hs` is a command line interface designed to work with the Hydrosphere platform.
 
 Source code: https://github.com/Hydrospheredata/hydro-serving-cli  
 PyPI: https://pypi.org/project/hs/
@@ -30,7 +30,7 @@ $ hs --version
 
 - `$ hs upload`
 
-    This command lets you upload models to Hydrosphere platform. During upload `hs` looks for `serving.yaml` file in the current directory. This file **must** contain a definition of the model (@ref[example](../../how-to/write-definitions.md#kind-model)). 
+    This command lets you upload models to the Hydrosphere platform. During the upload, `hs` looks for a `serving.yaml` file in the current directory. This file **must** contain a definition of the model (@ref[example](../../how-to/write-definitions.md#kind-model)). 
     
     See `hs upload --help` for more information.
 
