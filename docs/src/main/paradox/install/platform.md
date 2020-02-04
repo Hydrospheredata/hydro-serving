@@ -1,6 +1,6 @@
 # Platform
 
-Hydrosphere platform can be installed in the following orchestrators:
+The Hydrosphere platform can be installed in the following orchestrators:
 
 @@ toc { depth=1 }
 
@@ -34,7 +34,7 @@ To install Hydrosphere using `docker-compose`, you should have the following pre
 
 #### Install from source
 
-1. Clone serving repository.
+1. Clone the serving repository.
 
     ```sh
     $ git clone https://github.com/Hydrospheredata/hydro-serving
@@ -47,7 +47,7 @@ To install Hydrosphere using `docker-compose`, you should have the following pre
     $ docker-compose up -d
     ```
 
-To check that everything works fine, open [http://localhost/](http://localhost/). By default Hydrosphere UI is available at port __80__.
+To check that everything works correctly, open [http://localhost/](http://localhost/). By default Hydrosphere UI is available at port __80__.
 
 ## Kubernetes installation
 
@@ -61,7 +61,7 @@ To install Hydrosphere on the Kubernetes cluster you should have the following p
 
 #### Install chart from repository
 
-1. Add Hydrosphere repo;
+1. Add the Hydrosphere repo;
 
     ```sh
     $ helm repo add hydrosphere https://hydrospheredata.github.io/hydro-serving/helm 
@@ -104,14 +104,14 @@ To install Hydrosphere on the Kubernetes cluster you should have the following p
     $ helm install --name serving
     ```
 
-After the chart was installed you have to expose an `ui` component outside 
-of the cluster. For the simplicity we will just port-forward it locally. 
+After the chart has been installed, you have to expose an `ui` component outside 
+of the cluster. For the sake of simplicity, we will just port-forward it locally. 
 
 ```sh
 kubectl port-forward deployment/serving-ui 80:80
 ```
 
-To check that everything works fine, open [http://localhost/](http://localhost/).
+To check that everything works correctly, open [http://localhost/](http://localhost/). You should be able to see the Hydrosphere UI. 
 
 
 [docker-install]: 
