@@ -1,12 +1,12 @@
 # Monitor anomalies with a custom KNN metric
 
-In this page you will learn how to create a custom anomaly detection metric for the specific use case. 
+On this page you will learn how to create a custom anomaly detection metric for a specific use case. 
 
 @@toc { depth=1 }
 
 ## Overview
 
-For the use case we've picked a sample classification problem. We will monitor the model, which will classify whether the income of a given person exceeds $50.000 per year. As a data source we will use the census income [dataset](https://archive.ics.uci.edu/ml/datasets/census+income).
+For this use case we have chosen a sample classification problem. We will monitor the model, which will classify whether the income of a given person exceeds $50.000 per year. As a data source we will use the census income [dataset](https://archive.ics.uci.edu/ml/datasets/census+income).
 
 ## Before you start
 
@@ -23,16 +23,16 @@ Also you should have a target classification model already be deployed on the cl
 
 ## Model training
 
-As a monitoring metric we will use KNN outlier detection algorithm from [pyod](https://github.com/yzhao062/pyod) package. Each incoming sample will be scored against predefined clusters and the final value will be exposed as a monitoring value. 
+As a monitoring metric, we will use the KNN outlier detection algorithm from [pyod](https://github.com/yzhao062/pyod) package. Each incoming sample will be scored against predefined clusters, and the final value will be exposed as a monitoring value. 
 
-We will skip most of the data preparation steps just for the sake of simplicity. 
+We will skip most of the data preparation steps, for the sake of simplicity. 
 
 Python
 :   @@snip[train.py](snippets/knn_anomaly_detection/train.py) { #main-section }
 
 ## Model evaluation
 
-To check that our model works properly lets plot histograms for training and testing datasets. 
+To check that our model works properly, lets plot histograms for training and testing datasets. 
 
 Python
 :   @@snip[train.py](snippets/knn_anomaly_detection/train.py) { #plot-section }
@@ -41,7 +41,7 @@ Python
 
 ## Model release
 
-To create a monitoring metric we have to deploy that KNN model as a separate model on the Hydrosphere platform. Let's save a trained model for serving. 
+To create a monitoring metric, we have to deploy that KNN model as a separate model on the Hydrosphere platform. Let's save a trained model for serving. 
 
 Python
 :   @@snip[train.py](snippets/knn_anomaly_detection/train.py) { #save-section }
@@ -134,9 +134,9 @@ contract:
 ```
 @@@
 
-Inputs of this model are the inputs of the **target** monitored model plus the outputs of the that model. As an output for the monitoring model itself we will use the `value` field. 
+Inputs of this model are the inputs of the **target** monitored model plus the outputs of that model. As an output for the monitoring model itself we will use the `value` field. 
 
-Pay attention to the model's payload. It has the `src` folder that we've just created, `requirements.txt` with all dependencies and a `monitoring_model.joblib` file, e.g. our newly trained serialized KNN model. 
+Pay attention to the model's payload. It has the `src` folder that we have just created, `requirements.txt` with all dependencies and a `monitoring_model.joblib` file, e.g. our newly trained serialized KNN model. 
 
 `requirements.txt` looks like this: 
 
@@ -157,7 +157,7 @@ The final directory structure should look like this:
     └── func_main.py
 ```
 
-From that folder upload the model to the cluster.
+From that folder, upload the model to the cluster.
 
 ```sh
 $ hs upload
@@ -169,15 +169,15 @@ Let's create a monitoring metric for our pre-deployed classification model.
 
 ### UI
 
-1. From the _Models_ section pick the target model, which you would like to deploy and select the desired model version;
-1. Open _Monitoring_ tab.
-1. At the bottom of the page click `Add Metric` button;
-1. From the opened window click `Add Metric` button;
-    1. Specify the name of metric;
-    1. Choose monitoring model;
-    1. Choose version of the monitoring model;
-    1. Pick a comparison operator `Greater`. This means that if you have a metric value greater than a specified threshold, an alarm should be fired;
+1. From the _Models_ section, select the target model you would like to deploy and select the desired model version;
+1. Open the _Monitoring_ tab.
+1. At the bottom of the page click the `Add Metric` button;
+1. From the opened window click the `Add Metric` button;
+    1. Specify the name of the metric;
+    1. Choose the monitoring model;
+    1. Choose the version of the monitoring model;
+    1. Select a comparison operator `Greater`. This means that if you have a metric value greater than a specified threshold, an alarm should be fired;
     1. Set the threshold value. In this case it should be equal to the value of `monitoring_model.threshold_`.
-    1. Click `Add Metric` button.
+    1. Click the `Add Metric` button.
 
 That's it. Now you have a monitored income classifier deployed in the Hydrosphere platform. 
