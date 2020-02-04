@@ -7,6 +7,6 @@
 * [Develop runtimes](develop-runtimes.md);
 @@@
 
-In this page you will find more elaborate articles addressing specific use cases of your work with the Hydrosphere platform. 
+On this page you will find more elaborate articles addressing specific use cases of your work with the Hydrosphere platform. 
 
 @@toc { depth=1 }
