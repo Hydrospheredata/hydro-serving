@@ -1,6 +1,6 @@
 # Serving Python model
 
-A Python model is a model that is backed with a Python runtime. You can create a Python model to perform any transformation, just provide an execution script packed with a serving function. In this tutorial we will create a simple increment function. 
+A Python model is a model that is backed with a Python runtime. You can create a Python model to perform any transformation. Simply provide an execution script packed with a serving function. In this tutorial we will create a simple increment function. 
 
 @@toc { depth=1 }
 
@@ -26,12 +26,12 @@ $ touch src/func_main.py
 ``` 
 
 @@@ note
-Generally, we use `hydrosphere/serving-runtime-python-3.6` runtime for serving Python models. This runtime uses `src/func_main.py` script as an entry point. You may create any arbitrary Python application within your model, just keep in mind that an entry point of your script has to be in `src/func_main.py`.
+Generally, we use `hydrosphere/serving-runtime-python-3.6` runtime for serving Python models. This runtime uses `src/func_main.py` script as an entry point. You may create any arbitrary Python application within your model, just keep in mind that the entry point of your script has to be in `src/func_main.py`.
 @@@
 
 ## Model dependencies
 
-By default the `hydrosphere/serving-runtime-python-3.6` runtime does not have any scientific packages pre-installed, you would have to manage this yourself. Let's add `requirements.txt`:
+By default the `hydrosphere/serving-runtime-python-3.6` runtime does not have any scientific packages pre-installed, you will have to manage this yourself. Let's add `requirements.txt`:
 
 ```sh 
 $ echo "tensorflow==1.14.0\nnumpy==1.17.2" > requirements.txt
@@ -44,9 +44,9 @@ Now let's implement the serving function, which will handle requests. Open `src/
 Python
 :   @@snip[serve.py](snippets/python/serve.py)
 
-A `number` argument is a Protobuf object of type [hs.TensorProto](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/tensor.proto). You cannot directly perform any computations on it (like add 2 alike protobuf messages together, etc), you would have to extract its value first. 
+A `number` argument is a Protobuf object of type [hs.TensorProto](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/tensor.proto). You cannot directly perform any computations on it (like add 2 alike protobuf messages together, etc), you will have to extract its value first. 
 
-There are different ways of handling `hs.TensorProto` objects (one of which is described in the @ref[quickstart](../../getting-started/serving-simple-model.md#model-preparation)), but since we have a `tensorflow` package installed, we can use `tf.make_ndarray` method to transform a `number` protobuf to a numpy array.
+There are different ways of handling `hs.TensorProto` objects (one of which is described in the @ref[quickstart](../../getting-started/serving-simple-model.md#model-preparation)), but since we have a `tensorflow` package installed, we can use the `tf.make_ndarray` method to transform a `number` protobuf to a numpy array.
 
 After all computations, we need to pack the result back to `hs.TensorProto` object. The function returns a `hs.PredictResponse` object with a dictionary of tensors inside it.
 
@@ -56,7 +56,7 @@ If you use some external file (for example, such as @ref[model's weights](../../
 
 ## Model definition
 
-To let Hydrosphere understand, what are the inputs and the outputs of your model you have to provide a definition of that model. Create a `serving.yaml` file inside your folder root.
+To help Hydrosphere understand, what the inputs and the outputs of your model are, you have to provide a definition of that model. Create a `serving.yaml` file inside your folder root.
 
 @@@ vars
 ```yaml
@@ -89,7 +89,7 @@ If `.contract.name` is not set, it defaults to `predict`.
 
 This file describes the model, its name, type, payload, and service contract. Contract declares input and output fields for the model; data types, shapes, and profile information. Profile information is used to calculate profiles of your training/production data.
 
-That's it, you've just created a model that could be used within your business application. 
+That's it, you've just created a model that can be used within your business application. 
 
 ## Model deployment
 
@@ -114,7 +114,7 @@ EOF
 
 ## Prediction 
 
-You can send requests with to your models using GRPC or HTTP endpoints, e.g.
+You can send requests to your models using GRPC or HTTP endpoints, e.g.
 
 ```sh 
 $ curl --request POST --header 'Content-Type: application/json' --header 'Accept: application/json' \
