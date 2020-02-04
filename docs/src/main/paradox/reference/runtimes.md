@@ -38,7 +38,7 @@ Code is available on [GitHub](https://github.com/Hydrospheredata/hydro-serving-s
 
 
 @@@ note
-If you are using a framework for which runtime isn't implemented yet, you 
+If you are using a framework for which a runtime is not yet implemented, you 
 can open an [issue][github-serving-new-issue] in our Github.
 @@@
 
