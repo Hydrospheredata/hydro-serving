@@ -1,7 +1,7 @@
 
 # Python SDK
 
-Python SDK offers a simple and convenient way of integrating user's workflow scripts with Hydrosphere API. 
+Python SDK offers a simple and convenient way of integrating a user's workflow scripts with Hydrosphere API. 
 
 Source code: https://github.com/Hydrospheredata/hydro-serving-sdk<br>
 PyPI: https://pypi.org/project/hydrosdk/
