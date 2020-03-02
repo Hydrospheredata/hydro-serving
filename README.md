@@ -1,54 +1,52 @@
-# Hydrosphere Serving
+<p align="center">
+  <a href="https://hydrosphere.io/">
+    <img src="https://hydrosphere.io/serving-docs/dev/images/navbar_brand.svg" alt="Hydrosphere.io logo" width="128" height="128">
+  </a>
+</p>
 
+<h3 align="center">Hydrosphere.io</h3>
+
+<p align="center">
+Monitoring and Visibility for your Production ML Pipelines
+  <br>
+  <a href="https://hydrosphere.io/serving-docs/latest/index.html"><strong>Check out Hydrosphepre.io docs »</strong></a>
+  <br>
+  <br>
+  <a href="https://github.com/Hydrospheredata/hydro-serving/issues/new">Report bug</a>
+  ·
+  <a href="https://hydrosphere.io/contact/">Contact Us</a>
+  ·
+  <a href="https://hydrosphere.io/blog/">Blog</a>
+</p>
+
+---
+[![GitHub license](https://img.shields.io/badge/license-apache-blue.svg)](https://github.com/pachyderm/pachyderm/blob/master/LICENSE)
 [![Join the chat at https://gitter.im/Hydrospheredata/hydro-serving](https://badges.gitter.im/Hydrospheredata/hydro-serving.svg)](https://gitter.im/Hydrospheredata/hydro-serving?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![](https://img.shields.io/badge/documentation-latest-af1a97.svg)](https://hydrosphere.io/serving-docs/) 
 
-Homepage: https://hydrosphere.io/serving  
-Installation guide: https://hydrosphere.io/serving-docs/latest/install  
-Getting started: https://hydrosphere.io/serving-docs/latest/tutorials
+Hydrosphere is a platform for deploying, versioning and monitoring your machine learning models in production. If you need to check how your model is performing on production data, then Hydrosphere is for you. 
 
----
+## Features
 
-Hydrosphere.io is the first open source platform for Data Science Management automation. 
-It delivers reliability, scalability and observability for machine learning and AI applications in production.
-Hydrosphere.io automates deployment and serving ML models, monitoring and profiling of production traffic, 
-monitoring of models performance, data subsampling and model retraining.
+- **Containerized**. Hydrosphere is built on Docker and Kubernetes. You can run any language or library you need on any cloud provider or on premises.
+- **Model Quality Monitoring**. Hydrosphere checks your production data stream to hold the same properties as your training data, so your offline metrics would match your online metrics.
+-  **Root Cause Analytics**. If model degradation happens and your metrics decline, Hydrosphere will report you which data had caused it.
+- **Novel Data Export**. Hydrosphere analyses your production data for novelty and allows you to export novel data for further analysis.
+- **Model Version Control**. Hydrosphere version controls your models and pipelines as they are deployed. You can explore how metrics change, roll-back to a previous version and more.
 
-The platform makes more Data Science and less data plumbing and tinkering happen.
 
-Hydrosphere Serving enables you to get your models up and running in an instant, 
-on just about any infrastructure and using any of the available machine learning toolkits. 
-It lets you monitor your models’ performance, analyse their inputs 
-(for example, determine whether there is recently an increased number of outliers or not),
-observe models’ inference on given data and so on.
+## Getting Started
 
-Features:
-* **Serverless** user experience in your data center or public cloud. 
-* **Plumbing**. Automatic generation of Protobuf contracts for REST, gRPC and Streaming Kafka API from the model metadata
-* Safe experiments and models warm up on **shadowed or canary traffic**
-* Unified across ML frameworks
-* Automatic data profiling and statistical check of the model quality 
-* Immutable model versioning
-* Agnostic to training pipeline and notebook environment 
-* **Multi-framework Pipelines** (e.g. Scikit-learn -> Spark ML -> TensorFlow pipeline)
-* Out of the box tuned and optimized Serving Runtimes
-* Models optimization for Serving
+You can launch Hydrosphere with [Docker](https://hydrosphere.io/serving-docs/latest/install/docker.html) or [Kubernetes](https://hydrosphere.io/serving-docs/latest/install/kubernetes.html) 
 
-#### Check UI - explore, deploy and test models
 
-![Hydrosphere Serving Deploy Models](https://media.giphy.com/media/KyEVbxQEr4IGLuaQlR/giphy.gif)
+You can also refer to our complete [documentation](https://hydrosphere.io/serving-docs/latest/index.html) to see tutorials, check out [example projects]([https://github.com/Hydrospheredata/hydro-serving-example](https://github.com/Hydrospheredata/hydro-serving-example)), and learn about all features of Hydrosphere.
 
-![Hydrosphere Serving Create an AI application](https://media.giphy.com/media/1dHWK2HJjdheyqB8lZ/giphy.gif)
+## Community
+Keep up to date and get Hydrosphere.io support via [![Join the chat at https://gitter.im/Hydrospheredata/hydro-serving](https://badges.gitter.im/Hydrospheredata/hydro-serving.svg)](https://gitter.im/Hydrospheredata/hydro-serving?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) or contact us directly at [info@hydrosphere.io](mailto:info@hydrosphere.io)
 
-![Hydrosphere Serving Test ML Models](https://media.giphy.com/media/2A67Wd88zQTcZk4lEs/giphy.gif)
+### Contributing
 
-## Related repositories
- * Runtimes:
-   * Tensorflow: https://github.com/Hydrospheredata/hydro-serving-tensorflow
-   * Python: https://github.com/Hydrospheredata/hydro-serving-python
-   * Spark: https://github.com/Hydrospheredata/hydro-serving-spark
-     * Spark local inference implementation: https://github.com/Hydrospheredata/spark-ml-serving
- * Protobuf messages: https://github.com/Hydrospheredata/hydro-serving-protos
- * Manager service: https://github.com/Hydrospheredata/hydro-serving-manager
- * Gateway service: https://github.com/Hydrospheredata/hydro-serving-gateway
- * Example models: https://github.com/Hydrospheredata/hydro-serving-example
+We'd be glad to recieve any help from the community - send us PR's!
+
+Check out our issues for anything labeled with "help-wanted", they will be the perfect starting point! If you don't see any, just let us know, we would be happy to hear from you.
