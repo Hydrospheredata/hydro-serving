@@ -57,6 +57,8 @@ cd hydro-serving
 docker-compose up -d
 ```
 
+To check that everything works correctly, open http://localhost/. By default Hydrosphere UI is available at port 80.
+
 ### Kubernetes
 Before installing Hydrosphere Serving, please install its prerequisites: 
 * [Helm 2.9+](https://docs.helm.sh/using_helm/#install-helm)
