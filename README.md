@@ -48,7 +48,7 @@ Before installing Hydrosphere Serving, please install its prerequisites:
 * [Docker 18.0+](https://docs.docker.com/install/);
 * [Docker Compose 1.23+](https://docs.docker.com/compose/install/#install-compose).
 
-To install Hydrosphere Serving, follow below instructions:
+To install Hydrosphere Serving, follow the instructions below:
 
 1. Download the latest release version from the [releases](https://github.com/Hydrospheredata/hydro-serving/releases) page;
     ```sh 
