@@ -67,27 +67,30 @@ To install Hydrosphere Serving, follow the instructions below:
 
 To check installation, open http://localhost/. By default Hydrosphere UI is available at port 80.
 
+**Note**, other installation options are described in the [documentation](https://hydrosphere.io/serving-docs/latest/index.html).
+
 ### Kubernetes
 Before installing Hydrosphere Serving, please install its prerequisites: 
 * [Helm 2 starting from 2.9+](https://docs.helm.sh/using_helm/#install-helm) with the tiller installed on the cluster;
 * [Kubernetes 1.8 and above](https://kubernetes.io/docs/setup/) with beta APIs enabled.
 
 
-To install Hydrosphere Serving add the Hydrosphere repo and install the chart from it to the cluster.
+To install Hydrosphere Serving, follow the instructions below:
 
 ```shell
 export HYDROSPHERE_RELEASE=2.1.0
 helm install --name serving https://github.com/Hydrospheredata/hydro-serving/releases/download/${HYDROSPHERE_RELEASE}/helm.serving-${HYDROSPHERE_RELEASE}.tgz
 ```
 
-After the chart has been installed, you have to expose an `ui` component outside of the cluster.
+To reach the cluster, port-forward `ui` service locally. 
 
 ```
 kubectl port-forward deployment/serving-ui 80:80
 ```
 
-To check that everything works correctly, open http://localhost/. By default Hydrosphere UI is available at port 80.
+To check installation, open http://localhost/. By default Hydrosphere UI is available at port 80.
 
+**Note**, other installation options are described in the [documentation](https://hydrosphere.io/serving-docs/latest/index.html). 
 
 ## Community
 Keep up to date and get Hydrosphere.io support via [![Join the chat at https://gitter.im/Hydrospheredata/hydro-serving](https://badges.gitter.im/Hydrospheredata/hydro-serving.svg)](https://gitter.im/Hydrospheredata/hydro-serving?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) or contact us directly at [info@hydrosphere.io](mailto:info@hydrosphere.io)
