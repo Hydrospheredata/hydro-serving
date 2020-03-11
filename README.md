@@ -85,10 +85,10 @@ helm install --name serving https://github.com/Hydrospheredata/hydro-serving/rel
 To reach the cluster, port-forward `ui` service locally. 
 
 ```
-kubectl port-forward deployment/serving-ui 80:80
+kubectl port-forward deployment/serving-ui 8080:80
 ```
 
-To check installation, open http://localhost/. By default Hydrosphere UI is available at port 80.
+To check installation, open http://localhost:8080/.
 
 **Note**, other installation options are described in the [documentation](https://hydrosphere.io/serving-docs/latest/index.html). 
 
