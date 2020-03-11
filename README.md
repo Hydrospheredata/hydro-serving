@@ -27,49 +27,57 @@ Platform for deploying your Machine Learning to production
 Hydrosphere Serving is a cluster for deploying and versioning  your machine learning models in production.
 
 - **Framework Agnostic**. Serve machine learning models developed in any language or framework. Hydrosphere Serving will wrap them in a Docker image and deploy on your production cluster, exposing HTTP, GRPC and Kafka interfaces.
-- **Traffic split**. Split your production traffic between your models to perform an A\B test or canary deployemnt. 
+- **Traffic split**. Split your production traffic between your models to perform an A\B test or canary deployment. 
 - **Traffic shadowing**. Shadow your traffic between different model versions to examine how different model versions behave on the same traffic.
-- **Model Version Control**.Version control your models and pipelines as they are deployed. Explore how metrics change, roll-back to a previous version and more.
+- **Model Version Control**. Version control your models and pipelines as they are deployed. Explore how metrics change, roll-back to a previous version and more.
 
 
 ## Getting Started
 
-You can refer to our [documentation](https://hydrosphere.io/serving-docs/latest/index.html) to see tutorials, check out [example projects]([https://github.com/Hydrospheredata/hydro-serving-example](https://github.com/Hydrospheredata/hydro-serving-example)), and learn about all features of Hydrosphere Serving.
+You can refer to our [documentation](https://hydrosphere.io/serving-docs/latest/index.html) to see tutorials, check out [example projects]([https://github.com/Hydrospheredata/hydro-serving-example](https://github.com/Hydrospheredata/hydro-serving-example)), and learn about all features of Hydrosphere.
 
 ## Installation
 
 There are two main ways of installing Hydropshere:
-* [Docker](https://hydrosphere.io/serving-docs/latest/install/docker.html)
-* [Kubernetes](https://hydrosphere.io/serving-docs/latest/install/kubernetes.html) 
+* [Docker](https://hydrosphere.io/serving-docs/latest/install/docker.html);
+* [Kubernetes](https://hydrosphere.io/serving-docs/latest/install/kubernetes.html).
 
 
 ### Docker
 Before installing Hydrosphere Serving, please install its prerequisites: 
-* [Docker 18.0+](https://docs.docker.com/install/)
-* [Docker Compose 1.23+](https://docs.docker.com/compose/install/#install-compose)
+* [Docker 18.0+](https://docs.docker.com/install/);
+* [Docker Compose 1.23+](https://docs.docker.com/compose/install/#install-compose).
 
+To install Hydrosphere Serving, follow below instructions:
 
-To install Hydrosphere Serving run:
+1. Download the latest release version from the [releases](https://github.com/Hydrospheredata/hydro-serving/releases) page;
+    ```sh 
+    export HYDROSPHERE_RELEASE=2.1.0
+    wget https://github.com/Hydrospheredata/hydro-serving/releases/download/${HYDROSPHERE_RELEASE}/helm.serving-${HYDROSPHERE_RELEASE}.tgz
+    ```
+1. Unpack the tar ball;
+    ```sh 
+    tar -xvf hydro-serving-${HYDROSPHERE_RELEASE}.tar.gz
+    ```
+1. Set up an environment.
+    ```sh
+    cd hydro-serving-${HYDROSPHERE_RELEASE}
+    docker-compose up
+    ```
 
-```shell
-git clone https://github.com/Hydrospheredata/hydro-serving
-cd hydro-serving
-docker-compose up -d
-```
-
-To check that everything works correctly, open http://localhost/. By default Hydrosphere UI is available at port 80.
+To check installation, open http://localhost/. By default Hydrosphere UI is available at port 80.
 
 ### Kubernetes
 Before installing Hydrosphere Serving, please install its prerequisites: 
-* [Helm 2.9+](https://docs.helm.sh/using_helm/#install-helm)
-* [Kubernetes 1.8+ with beta APIs enabled](https://kubernetes.io/docs/setup/)
+* [Helm 2 starting from 2.9+](https://docs.helm.sh/using_helm/#install-helm) with the tiller installed on the cluster;
+* [Kubernetes 1.8 and above](https://kubernetes.io/docs/setup/) with beta APIs enabled.
 
 
 To install Hydrosphere Serving add the Hydrosphere repo and install the chart from it to the cluster.
 
 ```shell
-helm repo add hydrosphere https://hydrospheredata.github.io/hydro-serving/helm 
-helm install --name serving hydrosphere/serving
+export HYDROSPHERE_RELEASE=2.1.0
+helm install --name serving https://github.com/Hydrospheredata/hydro-serving/releases/download/${HYDROSPHERE_RELEASE}/helm.serving-${HYDROSPHERE_RELEASE}.tgz
 ```
 
 After the chart has been installed, you have to expose an `ui` component outside of the cluster.
