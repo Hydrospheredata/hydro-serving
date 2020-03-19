@@ -108,10 +108,10 @@ After the chart has been installed, you have to expose an `ui` component outside
 of the cluster. For the sake of simplicity, we will just port-forward it locally. 
 
 ```sh
-kubectl port-forward deployment/serving-ui 80:80
+kubectl port-forward deployment/serving-ui 8080:80
 ```
 
-To check that everything works correctly, open [http://localhost/](http://localhost/). You should be able to see the Hydrosphere UI. 
+To check that everything works correctly, open [http://localhost:8080/](http://localhost:8080/). You should be able to see the Hydrosphere UI. 
 
 
 [docker-install]: 
