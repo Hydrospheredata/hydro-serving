@@ -26,3 +26,7 @@ UI is a service component responsible for showing off user-friendly interface fo
 ### Sonar
 
 Sonar is a service component responsible for monitoring your models during inference phase. It allows you to evaluate how your model behaves under production load, i.e. is there a concept drift occurred in the production data (so your model needs to be retrained); how many outliers are there in the production data; how distribution of your training data is compared with the distribution of the production data?
+
+#### S3 Storage
+
+S3 Storage is used by **Sonar** to store model training data and production requests data. 
