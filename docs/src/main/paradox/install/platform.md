@@ -47,7 +47,7 @@ To install Hydrosphere using `docker-compose`, you should have the following pre
     $ docker-compose up -d
     ```
 
-To check that everything works correctly, open [http://localhost/](http://localhost/). By default Hydrosphere UI is available at port __80__.
+To check installation, open [http://localhost/](http://localhost/). By default Hydrosphere UI is available at port __80__.
 
 ## Kubernetes installation
 
@@ -70,7 +70,7 @@ To install Hydrosphere on the Kubernetes cluster you should have the following p
 1. Install the chart from repo to the cluster.
 
     ```sh
-    $ helm install --name serving hydrosphere/serving
+    $ helm install --name serving --namespace hydrosphere hydrosphere/serving
     ```
 
 #### Install chart from releases
@@ -79,7 +79,7 @@ To install Hydrosphere on the Kubernetes cluster you should have the following p
    
     @@@ vars
     ```sh
-    helm install --name serving https://github.com/Hydrospheredata/hydro-serving/releases/download/$project.released_version$/helm.serving-$project.released_version$.tgz
+    helm install --name serving --namespace hydrosphere https://github.com/Hydrospheredata/hydro-serving/releases/download/$project.released_version$/helm.serving-$project.released_version$.tgz
     ```
     @@@
 
@@ -101,17 +101,17 @@ To install Hydrosphere on the Kubernetes cluster you should have the following p
 1. Install the chart.
 
     ```sh
-    $ helm install --name serving
+    $ helm install --name serving --namespace hydrosphere
     ```
 
 After the chart has been installed, you have to expose an `ui` component outside 
 of the cluster. For the sake of simplicity, we will just port-forward it locally. 
 
 ```sh
-kubectl port-forward deployment/serving-ui 8080:80
+kubectl port-forward -n hydrosphere svc/hydro-serving-ui-serving 8080:9090
 ```
 
-To check that everything works correctly, open [http://localhost:8080/](http://localhost:8080/). You should be able to see the Hydrosphere UI. 
+To check installation, open [http://localhost:8080/](http://localhost:8080/).
 
 
 [docker-install]: 

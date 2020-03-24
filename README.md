@@ -85,7 +85,7 @@ helm install --name serving --namespace hydrosphere https://github.com/Hydrosphe
 To reach the cluster, port-forward `ui` service locally. 
 
 ```
-kubectl port-forward svc/hydro-serving-ui-serving 8080:9090
+kubectl port-forward -n hydrosphere svc/hydro-serving-ui-serving 8080:9090
 ```
 
 To check installation, open http://localhost:8080/.
