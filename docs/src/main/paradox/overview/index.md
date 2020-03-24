@@ -5,6 +5,7 @@
 
 * [What is Hydrosphere?](what-hydrosphere.md)
 * [Concepts](concepts.md)
+* [Platform Architecture](architecture.md)
 * [Roadmap](roadmap.md)
 
 @@@
