@@ -53,7 +53,7 @@ To install Hydrosphere Serving, follow the instructions below:
 1. Download the latest release version from the [releases](https://github.com/Hydrospheredata/hydro-serving/releases) page;
     ```sh 
     export HYDROSPHERE_RELEASE=2.1.0
-    wget https://github.com/Hydrospheredata/hydro-serving/releases/download/${HYDROSPHERE_RELEASE}/helm.serving-${HYDROSPHERE_RELEASE}.tgz
+    wget -O hydro-serving-${HYDROSPHERE_RELEASE}.tar.gz https://github.com/Hydrospheredata/hydro-serving/archive/${HYDROSPHERE_RELEASE}.tar.gz
     ```
 1. Unpack the tar ball;
     ```sh 
@@ -79,13 +79,13 @@ To install Hydrosphere Serving, follow the instructions below:
 
 ```shell
 export HYDROSPHERE_RELEASE=2.1.0
-helm install --name serving https://github.com/Hydrospheredata/hydro-serving/releases/download/${HYDROSPHERE_RELEASE}/helm.serving-${HYDROSPHERE_RELEASE}.tgz
+helm install --name serving --namespace hydrosphere https://github.com/Hydrospheredata/hydro-serving/releases/download/${HYDROSPHERE_RELEASE}/helm.serving-${HYDROSPHERE_RELEASE}.tgz
 ```
 
 To reach the cluster, port-forward `ui` service locally. 
 
 ```
-kubectl port-forward deployment/serving-ui 8080:80
+kubectl port-forward svc/hydro-serving-ui-serving 8080:9090
 ```
 
 To check installation, open http://localhost:8080/.
