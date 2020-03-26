@@ -25,7 +25,7 @@ postgres:
 env: {}
 
 image:
-  full:  hydrosphere/serving-manager:2.1.0
+  full:  hydrosphere/serving-manager:2.2.0
   pullPolicy:  IfNotPresent
 
 service:
