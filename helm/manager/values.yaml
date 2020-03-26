@@ -8,15 +8,19 @@ serviceAccount:
   create: true
 
 global:
-  postgres:
-    username: ""
-    password: ""
   dockerRegistry:
     host: ""
-  influx:
-    host: ""
+    username: ""
+    password: ""    
   elasticsearch:
     host: ""
+
+postgres:
+  postgresqlUsername: postgres
+  postgresqlPassword: hydr0s3rving
+  postgresqlDatabase: hydro-serving
+
+  
 
 env: {}
 

@@ -1,18 +1,17 @@
 {{- if .Values.ingress.enabled -}}
-{{- $fullName := include "ui.fullname" . -}}
 {{- $ingressPath := .Values.ingress.path -}}
-{{- $releaseName := .Release.Name -}}
+{{- $dot := . }}
 ---
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: {{ $fullName }}
+  name: "{{ include "ui.fullname" . }}"
   namespace: {{ .Release.Namespace }}
   labels:
-    app: {{ include "ui.name" . }}
-    chart: {{ include "ui.chart" . }}
-    release: {{ .Release.Name }}
-    heritage: {{ .Release.Service }}
+    app: "{{ include "ui.name" . }}"
+    chart: "{{ include "ui.chart" . }}"
+    release: "{{ .Release.Name }}"
+    heritage: "{{ .Release.Service }}"
 {{- with .Values.ingress.annotations }}
   annotations:
 {{ toYaml . | indent 4 }}
@@ -35,20 +34,20 @@ spec:
         paths:
           - path: {{ $ingressPath }}
             backend:
-              serviceName: "hydro-serving-ui-{{ $releaseName }}"
+              serviceName: {{ template "ui.fullname" $dot }}
               servicePort: http
   {{- end }}
 ---
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: "{{ $fullName }}-grpc"
+  name: "{{ template "ui.fullname" . }}-grpc"
   namespace: {{ .Release.Namespace }}
   labels:
-    app: {{ include "ui.name" . }}
-    chart: {{ include "ui.chart" . }}
-    release: {{ .Release.Name }}
-    heritage: {{ .Release.Service }}
+    app: "{{ include "ui.name" . }}"
+    chart: "{{ include "ui.chart" . }}"
+    release: "{{ .Release.Name }}"
+    heritage: "{{ .Release.Service }}"
 {{- with .Values.ingress.annotations }}
   annotations:
     nginx.ingress.kubernetes.io/backend-protocol: "GRPC"
@@ -73,15 +72,15 @@ spec:
         paths:
           - path: "/tensorflow.serving."
             backend:
-              serviceName: "hydro-serving-ui-{{ $releaseName }}"
+              serviceName: {{ template "ui.fullname" $dot }}
               servicePort: grpc
           - path: "/timemachine."
             backend:
-              serviceName: "hydro-serving-ui-{{ $releaseName }}"
+              serviceName: {{ template "ui.fullname" $dot }}
               servicePort: grpc
           - path: "/hydrosphere."
             backend:
-              serviceName: "hydro-serving-ui-{{ $releaseName }}"
+              serviceName: {{ template "ui.fullname" $dot }}
               servicePort: grpc
   {{- end }}
 {{- end }}

@@ -87,22 +87,22 @@ serviceAccount:
   # name:
 
 replication:
-  enabled: false
+  enabled: true
   user: repl_user
   password: repl_password
-  slaveReplicas: 1
+  slaveReplicas: 2
   ## Set synchronous commit mode: on, off, remote_apply, remote_write and local
   ## ref: https://www.postgresql.org/docs/9.6/runtime-config-wal.html#GUC-WAL-LEVEL
-  synchronousCommit: "off"
+  synchronousCommit: "on"
   ## From the number of `slaveReplicas` defined above, set the number of those that will have synchronous replication
   ## NOTE: It cannot be > slaveReplicas
-  numSynchronousReplicas: 0
+  numSynchronousReplicas: 1
   ## Replication Cluster application name. Useful for defining multiple replication policies
   applicationName: my_application
 
 ## PostgreSQL admin password (used when `postgresqlUsername` is not `postgres`)
 ## ref: https://github.com/bitnami/bitnami-docker-postgresql/blob/master/README.md#creating-a-database-user-on-first-run (see note!)
-postgresqlPostgresPassword: hydr0s3rving
+# postgresqlPostgresPassword:
 
 ## PostgreSQL user (has superuser privileges if username is `postgres`)
 ## ref: https://github.com/bitnami/bitnami-docker-postgresql/blob/master/README.md#setting-the-root-password-on-first-run
@@ -111,7 +111,7 @@ postgresqlUsername: postgres
 ## PostgreSQL password
 ## ref: https://github.com/bitnami/bitnami-docker-postgresql/blob/master/README.md#setting-the-root-password-on-first-run
 ##
-postgresqlPassword: hydr0s3rving
+# postgresqlPassword:
 
 ## PostgreSQL password using existing secret
 ## existingSecret: secret
@@ -122,7 +122,7 @@ postgresqlPassword: hydr0s3rving
 ## Create a database
 ## ref: https://github.com/bitnami/bitnami-docker-postgresql/blob/master/README.md#creating-a-database-on-first-run
 ##
-postgresqlDatabase: hydro-serving
+# postgresqlDatabase:
 
 ## PostgreSQL data dir
 ## ref: https://github.com/bitnami/bitnami-docker-postgresql/blob/master/README.md
@@ -145,17 +145,14 @@ postgresqlDataDir: /bitnami/postgresql/data
 ## Alternatively, you can put your postgresql.conf under the files/ directory
 ## ref: https://www.postgresql.org/docs/current/static/runtime-config.html
 ##
-#postgresqlConfiguration:
-#  sharedBuffers: "256MB"
+# postgresqlConfiguration:
 
 ## PostgreSQL extended configuration
 ## As above, but _appended_ to the main configuration
 ## Alternatively, you can put your *.conf under the files/conf.d/ directory
 ## https://github.com/bitnami/bitnami-docker-postgresql#allow-settings-to-be-loaded-from-files-other-than-the-default-postgresqlconf
 ##
-postgresqlExtendedConf:
-  sharedBuffers: "256MB"
-  maxConnections: "300"
+# postgresqlExtendedConf:
 
 ## PostgreSQL client authentication configuration
 ## Specify content for pg_hba.conf
@@ -182,6 +179,10 @@ postgresqlExtendedConf:
 #      #!/bin/sh
 #      echo "Do something."
 
+## Specify the PostgreSQL username and password to execute the initdb scripts
+# initdbUser:
+# initdbPassword:
+
 ## ConfigMap with scripts to be run at first boot
 ## NOTE: This will override initdbScripts
 # initdbScriptsConfigMap:
@@ -189,10 +190,6 @@ postgresqlExtendedConf:
 ## Secret with scripts to be run at first boot (in case it contains sensitive information)
 ## NOTE: This can work along initdbScripts or initdbScriptsConfigMap
 # initdbScriptsSecret:
-
-## Specify the PostgreSQL username and password to execute the initdb scripts
-# initdbUser:
-# initdbPassword:
 
 ## Optional duration in seconds the pod needs to terminate gracefully.
 ## ref: https://kubernetes.io/docs/concepts/workloads/pods/pod/#termination-of-pods
@@ -282,7 +279,7 @@ persistence:
   # storageClass: "-"
   accessModes:
     - ReadWriteOnce
-  size: 20Gi
+  size: 8Gi
   annotations: {}
 
 ## updateStrategy for PostgreSQL StatefulSet and its slaves StatefulSets
@@ -305,10 +302,6 @@ master:
   annotations: {}
   podLabels: {}
   podAnnotations: {}
-  extraInitContainers: |
-  # - name: do-something
-  #   image: busybox
-  #   command: ['do', 'something']
   ## Additional PostgreSQL Master Volume mounts
   ##
   extraVolumeMounts: []
@@ -329,13 +322,8 @@ slave:
   tolerations: []
   labels: {}
   annotations: {}
-  podLabels:
-    logging: "true"  
+  podLabels: {}
   podAnnotations: {}
-  extraInitContainers: |
-  # - name: do-something
-  #   image: busybox
-  #   command: ['do', 'something']
   ## Additional PostgreSQL Slave Volume mounts
   ##
   extraVolumeMounts: []
@@ -348,7 +336,7 @@ slave:
 ##
 resources:
   requests:
-    memory: 512Mi
+    memory: 256Mi
     cpu: 250m
 
 networkPolicy:

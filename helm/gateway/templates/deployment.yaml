@@ -1,4 +1,4 @@
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: {{ include "gateway.fullname" . }}
@@ -20,6 +20,7 @@ spec:
         logType: "scala"
         app: {{ include "gateway.name" . }}
         release: {{ .Release.Name }}
+        logging: "true"
     spec:
       containers:
         - name: {{ .Chart.Name }}
@@ -33,10 +34,12 @@ spec:
               containerPort: 9091
               protocol: TCP
           env:
+            - name: JAVA_OPTS
+              value: "-Xmx512m -Xms64m -Xss16M"          
             - name: APP_OPTS
               value: "-Dapplication.reqstore.enabled={{ .Values.global.reqstore_enabled }}"
             - name: API_GATEWAY_HOST
-              value: "hydro-serving-ui-{{ .Release.Name }}"
+              value: "{{ template "ui.fullname" . }}"
             - name: API_GATEWAY_HTTP_PORT
               value: "9090"
             - name: APP_SHADOWING_ON

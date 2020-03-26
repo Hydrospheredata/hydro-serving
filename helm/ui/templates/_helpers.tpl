@@ -30,3 +30,27 @@ Create chart name and version as used by the chart label.
 {{- define "ui.chart" -}}
 {{- printf "%s-%s" .Chart.Name .Chart.Version | replace "+" "_" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
+
+{{- define "reqstore.fullname" -}}
+{{- printf "%s-%s" .Release.Name "reqstore" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
+
+{{- define "manager.fullname" -}}
+{{- printf "%s-%s" .Release.Name "manager" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
+
+{{- define "sonar.fullname" -}}
+{{- printf "%s-%s" .Release.Name "sonar" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
+
+{{- define "gateway.fullname" -}}
+{{- printf "%s-%s" .Release.Name "gateway" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
+
+{{- define "prometheus-am.fullname" -}}
+{{- printf "%s-%s" .Release.Name "prometheus-am" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
+
+{{- define "timemachine.fullname" -}}
+{{- printf "%s-%s" .Release.Name "timemachine" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}

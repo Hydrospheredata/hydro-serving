@@ -30,3 +30,7 @@ Create chart name and version as used by the chart label.
 {{- define "gateway.chart" -}}
 {{- printf "%s-%s" .Chart.Name .Chart.Version | replace "+" "_" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
+
+{{- define "ui.fullname" -}}
+{{- printf "%s-%s" .Release.Name "ui" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}

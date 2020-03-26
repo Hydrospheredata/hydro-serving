@@ -4,13 +4,23 @@
 
 global:
   dockerRegistry:
-    username: ""
-    password: ""
+    host: "hydro-serving.local"
+    username: "developers"
+    password: "hydr0s3rving"
   persistence:
     enabled: false
+  s3:
+    accessKey: ACCESSKEYEXAMPLE
+    secretKey: SECRETKEYEXAMPLE
+    region: eu-central-1
+    bucket: docker-registry-dev-hydrosphere
 
 replicaCount: 1
-
+proxy:
+  enabled: true
+ingress:
+  enabled: false
+  
 image:
   repository: registry
   tag: 2.6.2

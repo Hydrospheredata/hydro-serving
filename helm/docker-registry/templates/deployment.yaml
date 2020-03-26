@@ -1,7 +1,7 @@
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: "docker-registry-{{ .Release.Name }}"
+  name: "{{ template "docker-registry.fullname" . }}"
   namespace: {{ .Release.Namespace }}
   labels:
     app: {{ include "docker-registry.name" . }}
@@ -19,6 +19,7 @@ spec:
       labels:
         app: {{ include "docker-registry.name" . }}
         release: {{ .Release.Name }}
+        logging: "true"
     spec:
       initContainers:
         - name: "htpasswd-{{ .Chart.Name }}"
@@ -52,12 +53,28 @@ spec:
               value: "Registry Realm"
             - name: REGISTRY_AUTH_HTPASSWD_PATH
               value: "/auth/htpasswd"
+            - name: REGISTRY_HTTP_SECRET
+              value: {{ .Values.global.dockerRegistry.password }} 
+            {{- if .Values.global.persistence.enabled }}
+            - name: REGISTRY_HEALTH_STORAGEDRIVER_ENABLED
+              value: "false"            
+            - name: REGISTRY_STORAGE
+              value: s3
+            - name: REGISTRY_STORAGE_S3_ACCESSKEY
+              value: {{ .Values.global.s3.accessKey }}
+            - name: REGISTRY_STORAGE_S3_SECRETKEY
+              value: {{ .Values.global.s3.secretKey }}
+            - name: REGISTRY_STORAGE_S3_REGION
+              value: {{ .Values.global.s3.region }}
+            - name: REGISTRY_STORAGE_S3_BUCKET
+              value: {{ .Values.global.s3.bucket }}
+            - name: REGISTRY_STORAGE_S3_ROOTDIRECTORY
+              value: /{{ .Release.Name }}/
+            {{- end }}
           volumeMounts:
             - name: "auth-{{ .Chart.Name }}"
               mountPath: /auth
               readOnly: true
-            - name: data
-              mountPath: /var/lib/registry/
           livenessProbe:
             httpGet:
               path: /
@@ -87,10 +104,3 @@ spec:
             name: {{ include "docker-registry.fullname" . }}
         - name: "auth-{{ .Chart.Name }}"
           emptyDir: {}
-        - name: data
-        {{- if .Values.global.persistence.enabled }}
-          persistentVolumeClaim:
-            claimName: {{ if .Values.global.persistence.existingClaim }}{{ .Values.global.persistence.existingClaim }}{{- else }}"serving-{{ .Release.Name }}"{{- end }}
-        {{- else }}
-          emptyDir: {}
-        {{- end }}

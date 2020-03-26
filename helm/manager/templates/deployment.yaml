@@ -1,25 +1,26 @@
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "manager.fullname" . }}
+  name: {{ template "manager.fullname" . }}
   namespace: {{ .Release.Namespace }}
   labels:
-    app: {{ include "manager.name" . }}
-    chart: {{ include "manager.chart" . }}
+    app: {{ template "manager.fullname" . }}
+    chart: {{ template "manager.fullname" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      app: {{ include "manager.name" . }}
+      app: {{ template "manager.name" . }}
       release: {{ .Release.Name }}
   template:
     metadata:
       labels:
         logType: "scala"
-        app: {{ include "manager.name" . }}
+        app: {{ template "manager.name" . }}
         release: {{ .Release.Name }}
+        logging: "true"
     spec:
       serviceAccountName: {{ if .Values.serviceAccount.name }}{{ .Values.serviceAccount.name }}{{ else }}"hydro-serving-manager-sa-{{ .Release.Name }}"{{ end }}
       containers:
@@ -46,42 +47,22 @@ spec:
               containerPort: 9091
               protocol: TCP
           env:
+            - name: JAVA_OPTS
+              value: "-Xmx1024m -Xms128m -Xss16M"  
             - name: ADVERTISED_MANAGER_HOST
-              value: "hydro-serving-manager-{{ .Release.Name }}"
+              value: "{{ template "manager.fullname" . }}"
             - name: ADVERTISED_MANAGER_PORT
               value: "9091"
             - name: DATABASE_HOST
-              value: {{ if .Values.global.postgres.enabled }}"postgres-{{ .Release.Name }}"{{- else }}{{ .Values.global.postgres.host }}{{- end }}
-            {{- if .Values.global.postgres.port }}
+              value: "{{ template "postgres.fullname" . }}"
             - name: DATABASE_PORT
-              value: {{ .Values.global.postgres.port | quote }}
-            {{- end }}
-            {{- if .Values.global.postgres.database }}
+              value: "5432"
             - name: DATABASE_NAME
-              value: {{ .Values.global.postgres.database }}
-            {{- end }}
-            {{- if (.Values.global.postgres.username) and (.Values.global.postgres.password) }}
+              value: "{{ .Values.postgres.postgresqlDatabase }}"
             - name: DATABASE_USERNAME
-              valueFrom:
-                secretKeyRef:
-                  name: "manager-postgres-secret-{{ .Release.Name }}"
-                  key: username
+              value: "{{ .Values.postgres.postgresqlUsername }}"
             - name: DATABASE_PASSWORD
-              valueFrom:
-                secretKeyRef:
-                  name: "manager-postgres-secret-{{ .Release.Name }}"
-                  key: password
-            {{- end }}
-            - name: METRICS_INFLUXDB_HOST
-              value: {{ if .Values.global.influx.enabled }}"influx-{{ .Release.Name }}"{{- else }}{{ .Values.global.influx.host }}{{- end }}
-            {{- if .Values.global.influx.port }}
-            - name: METRICS_INFLUXDB_PORT
-              value: {{ .Values.global.influx.port | quote }}
-            {{- end }}
-            {{- if .Values.global.influx.database }}
-            - name: METRICS_INFLUXDB_DATABASE_NAME
-              value: {{ .Values.global.influx.database }}
-            {{- end }}
+              value: "{{ .Values.postgres.postgresqlPassword }}"
             - name: METRICS_ELASTIC_URI
               value: {{ if .Values.global.elasticsearch.enabled }}"elasticsearch-{{ .Release.Name }}"{{- else}}{{ .Values.global.elasticsearch.host }}{{- end }}
             - name: DOCKER_HOST
@@ -99,7 +80,15 @@ spec:
                 fieldRef:
                   fieldPath: metadata.namespace
             - name: REMOTE_DOCKER_REGISTRY_HOST
-              value: {{ if .Values.global.dockerRegistry.host}} {{ .Values.global.dockerRegistry.host | quote }}{{- else}}"docker-registry-{{.Release.Name}}.{{.Release.Namespace}}.svc.cluster.local:5000"{{- end}}
+              value: {{ if .Values.global.dockerRegistry.host}} {{ .Values.global.dockerRegistry.host | quote }}{{- else}}"{{ template "docker-registry.fullname" . }}.{{ .Release.Namespace}}.svc.cluster.local:5000"{{- end}}
+            {{- if .Values.global.dockerRegistry.password }}
+            - name: REMOTE_DOCKER_REGISTRY_PASSWORD
+              value: {{ .Values.global.dockerRegistry.password | quote }}
+            {{- end }}  
+            {{- if .Values.global.dockerRegistry.username }}              
+            - name: REMOTE_DOCKER_REGISTRY_USERNAME
+              value: {{ .Values.global.dockerRegistry.username | quote }}
+            {{- end }}  
             {{- if not .Values.global.dockerRegistry.host }}
             - name: REMOTE_DOCKER_PULL_HOST
               value: "localhost:5000"

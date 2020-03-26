@@ -1,14 +1,15 @@
 # Default values for ui.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-
 replicaCount: 1
+sonar:
+  enabled: false
+reqstore:
+  enabled: false  
 
 image:
   full:  hydrosphere/serving-manager-ui:2.1.0
   pullPolicy:  IfNotPresent
-
-env: {}
 
 service:
   type: ClusterIP

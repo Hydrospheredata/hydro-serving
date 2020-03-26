@@ -1,28 +1,68 @@
-# Default values for serving.
-# This is a YAML-formatted file.
-# Declare variables to be passed into your templates.
-
-postgres:
-  database: "serving"
-  username: "docker"
-  password: "docker"
-
 global:
+  shadowing_on: true
+  frontend_url: "http://hydro-serving.local"
+  alerting_on: false
+  reqstore_enabled: false  
   persistence:
     enabled: false
-    # accessMode: ReadWriteOnce
-    # size: 10Gi
-    # storageClass: -
-    # existingClaim: nil
-
   dockerRegistry:
     enabled: true
     host: ""
-    username: user
-    password: pass
+    username: "example"
+    password: "example"
 
+  hydrosphere:
+    docker:
+      host: ""
+      username: ""
+      password: ""
+
+postgresql:
+  enabled: true
+  image:
+    repository: bitnami/postgresql
+    tag: 9.6
+    pullPolicy: IfNotPresent   
+
+  postgresqlUsername: postgres
+  postgresqlPassword: hydr0s3rving
+  postgresqlDatabase: hydro-serving     
+
+mongodb:
+  enabled: true
+  image:
+    repository: bitnami/mongodb
+    tag: 4.0.13-debian-9-r22
+    pullPolicy: IfNotPresent
+
+  usePassword: true
+  mongodbRootPassword: hydr0s3rving
+  mongodbUsername: root
+  mongodbPassword: hydr0s3rving
+  mongodbAuthDatabase: admin
+  mongodbDatabase: hydro-serving-data-profiler
+
+ui:
+  public: true  
+  ingress:
+    enabled: false
+    annotations: {}
+    hosts:
+      - hydro-serving.local
+    path: "/"
+    tls: []
+    #  - hosts:
+    #    - hydro-serving.local
+    #    secretName: qa-hydro-tls
+
+manager:
   postgres:
+    postgresqlUsername: postgres
+    postgresqlPassword: hydr0s3rving
+    postgresqlDatabase: hydro-serving
+  
+docker-registry:
+  proxy:
     enabled: true
-    database: "serving"
-    username: "docker"
-    password: "docker"
+  ingress:
+    enabled: false

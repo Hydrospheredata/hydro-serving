@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: "docker-registry-{{ .Release.Name }}"
+  name: "{{ template "docker-registry.fullname" . }}"
   namespace: {{ .Release.Namespace }}
   labels:
     app: {{ include "docker-registry.name" . }}
@@ -9,7 +9,7 @@ metadata:
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 spec:
-  type: {{ .Values.service.type }}
+  type: {{ if .Values.proxy.enabled }}"NodePort"{{- else}}{{ .Values.service.type }}{{end}}
   ports:
     - port: 5000
       targetPort: http

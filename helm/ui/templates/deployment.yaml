@@ -1,18 +1,18 @@
-apiVersion: apps/v1beta2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "ui.fullname" . }}
+  name: "{{ template "ui.fullname" . }}"
   namespace: {{ .Release.Namespace }}
   labels:
-    app: {{ include "ui.name" . }}
-    chart: {{ include "ui.chart" . }}
-    release: {{ .Release.Name }}
-    heritage: {{ .Release.Service }}
+    app: "{{ include "ui.name" . }}"
+    chart: "{{ include "ui.chart" . }}"
+    release: "{{ .Release.Name }}"
+    heritage: "{{ .Release.Service }}"
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      app: {{ include "ui.name" . }}
+      app: "{{ include "ui.name" . }}"
       release: {{ .Release.Name }}
   template:
     metadata:
@@ -20,8 +20,25 @@ spec:
         logType: "nginx"
         app: {{ include "ui.name" . }}
         release: {{ .Release.Name }}
+        logging: "true"
     spec:
       containers:
+        - name: {{ .Chart.Name }}-vts-exporter
+          image: sophos/nginx-vts-exporter
+          imagePullPolicy: Always
+          ports:
+            - name: metrics
+              containerPort: 9913
+              protocol: TCP     
+          env:
+            - name: NGINX_STATUS
+              value: "http://localhost/status/format/json"
+            - name: METRICS_ENDPOINT
+              value: "/metrics"
+            - name: METRICS_ADDR
+              value: ":9913"  
+            - name: METRICS_NS
+              value: "nginx_"                                        
         - name: {{ .Chart.Name }}
           image: {{ if .Values.image.full }}"{{ .Values.image.full }}"{{ else }}"{{ .Values.image.repository }}:{{ .Values.image.tag }}"{{ end }}
           imagePullPolicy: {{ .Values.image.pullPolicy }}
@@ -33,14 +50,33 @@ spec:
               containerPort: 9090
               protocol: TCP
           env:
+            - name: OSS
+            {{- if .Values.public }}
+              value: "true"
+            {{- else }}
+              value: ""
+            {{- end }}
+            - name: STATS_ACCESS
+              value: "127.0.0.1"
             - name: MANAGER_HOST
-              value: "hydro-serving-manager-{{ .Release.Name }}"
+              value: {{ template "manager.fullname" . }}
             - name: GATEWAY_HOST
-              value: "hydro-serving-gateway-{{ .Release.Name }}"
+              value: {{ template "gateway.fullname" . }}
+            {{- if .Values.public }}   
             - name: REQSTORE_HOST
               value: "localhost"
             - name: MONITORING_HOST
               value: "localhost"
+            - name: PROMETHEUS_AM_HOST
+              value: "localhost"                          
+            {{- else }}
+            - name: REQSTORE_HOST
+              value: {{ template "reqstore.fullname" . }}
+            - name: MONITORING_HOST
+              value: {{ template "sonar.fullname" . }}
+            - name: PROMETHEUS_AM_HOST
+              value: {{ template "prometheus-am.fullname" . }}                           
+            {{- end }}  
             - name: MANAGER_HTTP_PORT
               value: "9090"
             - name: MANAGER_GRPC_PORT
@@ -57,8 +93,6 @@ spec:
               value: "9090"
             - name: REQSTORE_GRPC_PORT
               value: "9091"
-            - name: PROMETHEUS_AM_HOST
-              value: "localhost"
             {{- with .Values.env }}
 {{ toYaml . | indent 12 }}
             {{- end }}
@@ -84,3 +118,5 @@ spec:
       tolerations:
 {{ toYaml . | indent 8 }}
     {{- end }}
+      imagePullSecrets:
+        - name: "docker-hydrosphere-secret-{{ .Release.Name }}"    

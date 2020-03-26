@@ -1,22 +1,27 @@
-apiVersion: extensions/v1beta1
+{{- if .Values.proxy.enabled -}}
+apiVersion: apps/v1
 kind: DaemonSet
 metadata:
-  name: "kube-registry-proxy-{{ .Release.Name }}"
+  name: "{{ template "docker-registry-proxy.fullname" . }}"
   namespace: {{ .Release.Namespace }}
   labels:
-    k8s-app: kube-registry
+    k8s-app: {{ template "docker-registry-proxy.fullname" . }}
     kubernetes.io/cluster-service: "true"
     version: v0.4
-    app: {{ include "docker-registry.name" . }}
+    app: {{ include "docker-registry-proxy.fullname" . }}
     chart: {{ include "docker-registry.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 spec:
+  selector:
+    matchLabels:
+      k8s-app: {{ template "docker-registry-proxy.fullname" . }}
+      kubernetes.io/cluster-service: "true"
+      version: v0.4
   template:
     metadata:
       labels:
-        k8s-app: "docker-registry-{{ .Release.Name }}"
-        kubernetes.io/name: "kube-registry-proxy"
+        k8s-app: {{ template "docker-registry-proxy.fullname" . }}
         kubernetes.io/cluster-service: "true"
         version: v0.4
     spec:
@@ -29,10 +34,11 @@ spec:
             memory: 50Mi
         env:
         - name: REGISTRY_HOST
-          value: "docker-registry-{{ .Release.Name }}.{{ .Release.Namespace }}.svc.cluster.local"
+          value: "{{ template "docker-registry.fullname" . }}.{{ .Release.Namespace }}.svc.cluster.local"
         - name: REGISTRY_PORT
           value: "5000"
         ports:
         - name: registry
           containerPort: 80
           hostPort: 5000
+{{- end -}}
