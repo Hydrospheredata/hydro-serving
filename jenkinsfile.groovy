@@ -13,14 +13,6 @@ if (getJobType() == "RELEASE_JOB") {
       autoCheckout(repository)
     }
 
-    stage("Test Release") {
-        sh "cd helm && helm dependency build serving"
-        // lint
-        sh "cd helm && rc=0; for chart in \$(ls -d ./*/); do helm lint \$chart || rc=\$?; done; return \$rc"
-        // test
-        sh "cd helm && helm template serving"
-    }
-
     stage("Publish docs") {
         def curVersion = getVersion()
 
