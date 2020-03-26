@@ -13,6 +13,10 @@ The concepts described below are related to the serving part of the Hydrosphere 
 
 A **model** is a machine learning model or a processing function that consumes provided inputs and produces predictions or transformations. Within the Hydrosphere platform we break down the model to its versions. Each **model version** represents a single Docker image containing all the artifacts that you have uploaded to the platform. 
 
+### Servable
+
+**Servable** is an instance of a model version which could be used in application or by itself as it exposes various endpoints to your model version: HTTP, gRPC, and Kafka.
+
 ### Runtimes
 
 Each model relies on its runtime. A **runtime** is a separate service with the predefined interface that is used to run your model. We have already @ref:[implemented](../reference/runtimes.md) a few runtimes, which you can use in your own projects.
@@ -20,6 +24,7 @@ Each model relies on its runtime. A **runtime** is a separate service with the p
 ### Applications
 
 A model version itself is not capable of serving predictions. To do that, you would have to create an application. An **application** is a publicly available endpoint to reach your models. You can define complex pipelines where a single request goes through multiple model versions. A pipeline exposes various endpoints to your models: HTTP, gRPC, and Kafka. 
+
 
 
 ## Monitoring 
