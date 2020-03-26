@@ -23,7 +23,7 @@ services:
         - "POSTGRES_PASSWORD=docker"
    
    gateway:
-     image:  hydrosphere/serving-gateway:7efc404a2877ce9d52eb393593f539225fd691b2
+     image:  hydrosphere/serving-gateway:2.2.0
      container_name: gateway
      ports:
        - "29090:9090"
