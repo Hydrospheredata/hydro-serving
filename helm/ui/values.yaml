@@ -8,7 +8,7 @@ reqstore:
   enabled: false  
 
 image:
-  full:  hydrosphere/serving-manager-ui:2.1.0
+  full:  hydrosphere/serving-manager-ui:2.2.0
   pullPolicy:  IfNotPresent
 
 service:

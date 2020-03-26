@@ -53,7 +53,7 @@ services:
        - /var/run/docker.sock:/var/run/docker.sock
    
    managerui:
-     image:  hydrosphere/serving-manager-ui:2.1.0
+     image:  hydrosphere/serving-manager-ui:2.2.0
      container_name: managerui
      depends_on:
        - manager
