@@ -78,7 +78,7 @@ Before installing Hydrosphere Serving, please install its prerequisites:
 To install Hydrosphere Serving, follow the instructions below:
 
 ```shell
-export HYDROSPHERE_RELEASE=2.1.0
+export HYDROSPHERE_RELEASE=2.2.1
 helm install --name serving --namespace hydrosphere https://github.com/Hydrospheredata/hydro-serving/releases/download/${HYDROSPHERE_RELEASE}/helm.serving-${HYDROSPHERE_RELEASE}.tgz
 ```
 
