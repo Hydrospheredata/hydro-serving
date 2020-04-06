@@ -11,15 +11,22 @@ To install Hydrosphere using `docker-compose`, you should have the following pre
 - [Docker 18.0+](https://docs.docker.com/install/)
 - [Docker Compose 1.23+](https://docs.docker.com/compose/install/#install-compose)
 
-#### Install from release
+#### Install from releases
 
 1. Download the latest @var[project.released_version] release from the [releases page](https://github.com/Hydrospheredata/hydro-serving/releases);
+
+    @@@vars
+    ```sh
+    $ export HYDROSPHERE_RELEASE=$project.released_version$
+    $ wget -O hydro-serving-${HYDROSPHERE_RELEASE}.tar.gz https://github.com/Hydrospheredata/hydro-serving/archive/${HYDROSPHERE_RELEASE}.tar.gz
+    ```
+    @@@
 
 1. Unpack the tar ball:
 
     @@@vars
     ```sh 
-    $ tar -xvf hydro-serving-$project.released_version$.tar.gz
+    $ tar -xvf hydro-serving-${HYDROSPHERE_RELEASE}.tar.gz
     ```
     @@@
 
@@ -27,7 +34,7 @@ To install Hydrosphere using `docker-compose`, you should have the following pre
 
     @@@vars 
     ```sh
-    $ cd hydro-serving-$project.released_version$
+    $ cd hydro-serving-${HYDROSPHERE_RELEASE}
     $ docker-compose up
     ```
     @@@
@@ -59,9 +66,9 @@ To install Hydrosphere on the Kubernetes cluster you should have the following p
 - Docker registry with pull/push access (if the built-in one is not used).
 
 
-#### Install chart from repository
+#### Install from charts repository
 
-1. Add the Hydrosphere repo;
+1. Add the Hydrosphere charts repository;
 
     ```sh
     $ helm repo add hydrosphere https://hydrospheredata.github.io/hydro-serving/helm 
@@ -73,17 +80,7 @@ To install Hydrosphere on the Kubernetes cluster you should have the following p
     $ helm install --name serving --namespace hydrosphere hydrosphere/serving
     ```
 
-#### Install chart from releases
-
-1. Install the chart from the [releases page](https://github.com/Hydrospheredata/hydro-serving/releases).
-   
-    @@@ vars
-    ```sh
-    helm install --name serving --namespace hydrosphere https://github.com/Hydrospheredata/hydro-serving/releases/download/$project.released_version$/helm.serving-$project.released_version$.tgz
-    ```
-    @@@
-
-#### Install chart using manual build
+#### Install from source
 
 1. Clone the repository.
 
@@ -104,7 +101,7 @@ To install Hydrosphere on the Kubernetes cluster you should have the following p
     $ helm install --name serving --namespace hydrosphere
     ```
 
-After the chart has been installed, you have to expose an `ui` component outside 
+After the chart has been installed, you have to expose the `ui` component outside 
 of the cluster. For the sake of simplicity, we will just port-forward it locally. 
 
 ```sh
