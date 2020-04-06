@@ -4,7 +4,7 @@ dependencies:
      version: 0.1.0
      condition: global.dockerRegistry.enabled
    - name: postgresql
-     repository: file://../postgres
+     repository: file://../postgresql
      version: 7.7.1
      condition: global.postgres.enabled
    - name: gateway
