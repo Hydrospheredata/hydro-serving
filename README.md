@@ -78,7 +78,6 @@ Before installing Hydrosphere Serving, please install its prerequisites:
 * [Helm 2 starting from 2.9+](https://docs.helm.sh/using_helm/#install-helm) with the tiller installed on the cluster;
 * [Kubernetes 1.8 and above](https://kubernetes.io/docs/setup/) with beta APIs enabled.
 
-
 To install Hydrosphere Serving, follow the instructions below:
 
 ```shell
