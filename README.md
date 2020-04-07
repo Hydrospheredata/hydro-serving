@@ -20,6 +20,7 @@ Platform for deploying your Machine Learning to production
 </p>
 
 ---
+
 [![GitHub license](https://img.shields.io/badge/license-apache-blue.svg)](https://github.com/Hydrospheredata/hydro-serving/blob/update-readme/LICENSE)
 [![Join the chat at https://gitter.im/Hydrospheredata/hydro-serving](https://badges.gitter.im/Hydrospheredata/hydro-serving.svg)](https://gitter.im/Hydrospheredata/hydro-serving?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![](https://img.shields.io/badge/documentation-latest-af1a97.svg)](https://hydrosphere.io/serving-docs/) 
@@ -44,7 +45,9 @@ There are two main ways of installing Hydropshere:
 
 
 ### Docker
+
 Before installing Hydrosphere Serving, please install its prerequisites: 
+
 * [Docker 18.0+](https://docs.docker.com/install/);
 * [Docker Compose 1.23+](https://docs.docker.com/compose/install/#install-compose).
 
@@ -70,22 +73,23 @@ To check installation, open http://localhost/. By default Hydrosphere UI is avai
 **Note**, other installation options are described in the [documentation](https://hydrosphere.io/serving-docs/latest/index.html).
 
 ### Kubernetes
+
 Before installing Hydrosphere Serving, please install its prerequisites: 
+
 * [Helm 2 starting from 2.9+](https://docs.helm.sh/using_helm/#install-helm) with the tiller installed on the cluster;
 * [Kubernetes 1.8 and above](https://kubernetes.io/docs/setup/) with beta APIs enabled.
-
 
 To install Hydrosphere Serving, follow the instructions below:
 
 ```shell
-export HYDROSPHERE_RELEASE=2.2.1
-helm install --name serving --namespace hydrosphere https://github.com/Hydrospheredata/hydro-serving/releases/download/${HYDROSPHERE_RELEASE}/helm.serving-${HYDROSPHERE_RELEASE}.tgz
+helm repo add hydrosphere https://hydrospheredata.github.io/hydro-serving/helm/
+helm install --name serving --namespace hydrosphere hydrosphere/serving
 ```
 
 To reach the cluster, port-forward `ui` service locally. 
 
 ```
-kubectl port-forward -n hydrosphere svc/hydro-serving-ui-serving 8080:9090
+kubectl port-forward -n hydrosphere svc/serving-ui 8080:9090
 ```
 
 To check installation, open http://localhost:8080/.
@@ -97,6 +101,6 @@ Keep up to date and get Hydrosphere.io support via [![Join the chat at https://g
 
 ### Contributing
 
-We'd be glad to recieve any help from the community!
+We'd be glad to receive any help from the community!
 
 Check out our issues for anything labeled with `help-wanted`, they will be the perfect starting point! If you don't see any, just let us know, we would be happy to hear from you.
