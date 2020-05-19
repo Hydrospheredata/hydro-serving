@@ -60,6 +60,7 @@ class DocReleaseManager:
                 ver_list.append(release_name)
             else:
                 logging.info("version already exists {}".format(release_name))
+            ver_list.sort(reverse=True)
         else:
             logging.info("no prior versions")
             ver_list = [release_name]
