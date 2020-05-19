@@ -4,7 +4,8 @@ import os
 import sys
 import json
 import logging
-
+import http
+import http.server
 
 class DocReleaseManager:
     def __init__(self, website_path, release_path, dry_run):
@@ -78,7 +79,12 @@ class DocReleaseManager:
         logging.info("release is published to the site!")
 
 
-def main(release_path, website_path, dry_run=False):
+def main(release_path, website_path, dry_run=False, server=False):
+    if server:
+        handler_class = http.server.partial(http.server.SimpleHTTPRequestHandler,
+                                directory=website_path)
+        http.server.test(HandlerClass=handler_class, port=80, bind="")
+        return
     mngr = DocReleaseManager(website_path, release_path, dry_run)
     mngr.release()
     
@@ -94,7 +100,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--release-path", type=dir_path, required=True)
     parser.add_argument("--website-path", type=dir_path, required=True)
-    parser.add_argument("--dry-run", action='store_true')
+    parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--server", action="store_true")
     args = parser.parse_args()
 
     main(**vars(args))

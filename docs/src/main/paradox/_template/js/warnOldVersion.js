@@ -1,4 +1,9 @@
 function initOldVersionWarnings($, thisVersion, projectUrl) {
+    var hostName = this.document.URL.split("://")[1].split("/")[0];
+    if (hostName === "localhost") {
+        projectUrl = this.document.URL.split("://")[0] + "://" + hostName;
+    }
+    console.log(projectUrl);
     if (projectUrl && projectUrl !== "") {
         var schemeLessUrl = projectUrl;
         if (projectUrl.startsWith("http://")) projectUrl = schemeLessUrl.substring(5);
