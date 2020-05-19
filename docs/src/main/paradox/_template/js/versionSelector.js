@@ -23,13 +23,13 @@ function initVersionSelector($, thisVersion, projectUrl) {
 }
 
 function populateVersionSelector(target, thisVersion, versions) {
-    if (!Array.isArray(versions) || versions.length == 0) {
+    if (!Array.isArray(versions) || versions.length === 0) {
         populateFallback(target, thisVersion)
         return false;
     } else {
         versions.forEach(function(item) {
                 var domResult = "Nothing here";
-                if (item == thisVersion) {
+                if (item === thisVersion) {
                     domResult = "<option value=\""+ item +"\" selected>"+ item +"</option>";
                 } else {
                     domResult = "<option value=\""+ item +"\">"+ item +"</option>";

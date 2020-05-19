@@ -1,6 +1,7 @@
 .testcontainers-tmp-*
 .idea
 dev.docker-compose.yml
+venv
 
 ### Maven template
 target/
