@@ -121,20 +121,6 @@ class DocReleaseManager:
             logging.warning("couldn't open {} file. assuming no previous versions.".format(self.versions_path))
             return set()
             
-    def copy_release(self, release_path):
-        if os.path.commonpath([os.path.abspath(self.website_path)]) == os.path.commonpath([os.path.abspath(self.website_path), os.path.abspath(release_path)]):
-            logging.info("release is under the website folder. no copy needed.")
-            return
-        release_name = os.path.basename(release_path)
-        site_release_path = os.path.join(self.website_path, release_name)
-        if os.path.exists(site_release_path):
-            logging.info("deleting directory: {}".format(site_release_path))
-            if self.execute:
-                shutil.rmtree(site_release_path)
-        logging.info("copying directory: {} -> {}".format(release_path, site_release_path))
-        if self.execute:
-            shutil.copytree(release_path, site_release_path)
-
     def update_paradox(self, latest_version):
         root_latest_path = os.path.join(self.website_path, str(latest_version))
         paradox_file = "paradox.json"
