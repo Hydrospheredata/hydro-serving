@@ -2,6 +2,7 @@
 .idea
 dev.docker-compose.yml
 venv
+__pycache__
 
 ### Maven template
 target/
