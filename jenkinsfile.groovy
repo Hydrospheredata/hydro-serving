@@ -82,14 +82,6 @@ if (getJobType() == "RELEASE_JOB") {
       sh "cd docs && sbt -DappVersion=dev paradox"
     }
 
-    // ! DELETE AFTER PR
-    // For testing purposes only
-    if (env.BRANCH_NAME == "chore/doc-fixes") {
-      stage("Test doc release") {
-        releaseBuiltDocs("deleteme")
-      }
-    }
-
     if (env.BRANCH_NAME == "master") {
       stage("Publish documentation as dev version") {
         releaseBuiltDocs("dev")
