@@ -1,9 +1,17 @@
 def repository = 'hydro-serving'
 
+def servingDocsFolder = '~/serving_publish_dir_new'
+
+def releaseBuiltDocs(desiredVersion) {
+  sshagent(['hydro-site-publish']) {
+    sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/main jenkins_publish@hydrosphere.io:${servingDocsFolder}/${desiredVersion}"
+    sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/src/python jenkins_publish@hydrosphere.io:serving_scripts"
+    sh "ssh -o StrictHostKeyChecking=no -t jenkins_publish@hydrosphere.io \"python3.5 ~/serving_scripts/python/release_docs.py --website-path ${servingDocsFolder} --release-version ${desiredVersion}\""
+  }
+}
 
 if (getJobType() == "RELEASE_JOB") {
   node("JenkinsOnDemand") {
-
     stage("Initialize") {
       cleanWs()
       loginDockerRepository()
@@ -15,14 +23,8 @@ if (getJobType() == "RELEASE_JOB") {
 
     stage("Publish docs") {
         def curVersion = getVersion()
-
         sh "cd docs && sbt -DappVersion=${curVersion} paradox"
-        sshagent(['hydro-site-publish']) {
-            sh "cp -r ${env.WORKSPACE}/docs/target/paradox/site/main ${env.WORKSPACE}/docs/target/paradox/site/${curVersion}"
-            sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/${curVersion} jenkins_publish@hydrosphere.io:serving_publish_dir"
-            sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/src/python jenkins_publish@hydrosphere.io:serving_scripts"
-            sh "ssh -o StrictHostKeyChecking=no -t jenkins_publish@hydrosphere.io \"python3.5 ~/serving_scripts/python/release_docs.py --website-path ~/serving_publish_dir --release-version ${curVersion}\""
-        }
+        releaseBuiltDocs(curVersion)
     }
 
     stage("Create GitHub Release") {
@@ -81,27 +83,17 @@ if (getJobType() == "RELEASE_JOB") {
       sh "cd docs && sbt -DappVersion=dev paradox"
     }
 
-    // DELETE AFTER PR.
+    // ! DELETE AFTER PR
     // For testing purposes only
     if (env.BRANCH_NAME == "chore/doc-fixes") {
       stage("Test doc release") {
-        def curVersion = getVersion()
-        sshagent(['hydro-site-publish']) {
-          sh "cp -r ${env.WORKSPACE}/docs/target/paradox/site/main ${env.WORKSPACE}/docs/target/paradox/site/${curVersion}"
-          sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/${curVersion} jenkins_publish@hydrosphere.io:serving_publish_dir/${curVersion}"
-          sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/src/python jenkins_publish@hydrosphere.io:serving_scripts"
-          sh "ssh -o StrictHostKeyChecking=no -t jenkins_publish@hydrosphere.io \"python3.5 ~/serving_scripts/python/release_docs.py --website-path ~/serving_publish_dir --release-version ${curVersion}\""
-        }
+        releaseBuiltDocs(curVersion)("deleteme")
       }
     }
 
     if (env.BRANCH_NAME == "master") {
       stage("Publish documentation as dev version") {
-          sshagent(['hydro-site-publish']) {
-              // assume that dev version is already added to the website versions.
-              // just overwrite the dev folder
-              sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/main/* jenkins_publish@hydrosphere.io:serving_publish_dir/dev"
-          }
+        releaseBuiltDocs(curVersion)("dev")
       }
     }
   }
