@@ -85,6 +85,7 @@ if (getJobType() == "RELEASE_JOB") {
     // For testing purposes only
     if (env.BRANCH_NAME == "chore/doc-fixes") {
       stage("Test doc release") {
+        def curVersion = getVersion()
         sshagent(['hydro-site-publish']) {
           sh "cp -r ${env.WORKSPACE}/docs/target/paradox/site/main ${env.WORKSPACE}/docs/target/paradox/site/${curVersion}"
           sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/${curVersion} jenkins_publish@hydrosphere.io:serving_publish_dir"
