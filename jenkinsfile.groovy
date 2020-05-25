@@ -88,7 +88,7 @@ if (getJobType() == "RELEASE_JOB") {
         def curVersion = getVersion()
         sshagent(['hydro-site-publish']) {
           sh "cp -r ${env.WORKSPACE}/docs/target/paradox/site/main ${env.WORKSPACE}/docs/target/paradox/site/${curVersion}"
-          sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/${curVersion} jenkins_publish@hydrosphere.io:serving_publish_dir"
+          sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/${curVersion} jenkins_publish@hydrosphere.io:serving_publish_dir/${curVersion}"
           sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/src/python jenkins_publish@hydrosphere.io:serving_scripts"
           sh "ssh -o StrictHostKeyChecking=no -t jenkins_publish@hydrosphere.io \"python3.5 ~/serving_scripts/python/release_docs.py --website-path ~/serving_publish_dir --release-version ${curVersion}\""
         }
