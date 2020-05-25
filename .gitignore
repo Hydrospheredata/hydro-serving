@@ -1,3 +1,4 @@
+.vscode
 .testcontainers-tmp-*
 .idea
 dev.docker-compose.yml
