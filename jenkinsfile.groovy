@@ -1,8 +1,7 @@
 def repository = 'hydro-serving'
 
-def servingDocsFolder = '~/serving_publish_dir_new'
-
 def releaseBuiltDocs(desiredVersion) {
+  def servingDocsFolder = '~/serving_publish_dir_new'
   sshagent(['hydro-site-publish']) {
     sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/main jenkins_publish@hydrosphere.io:${servingDocsFolder}/${desiredVersion}"
     sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/src/python jenkins_publish@hydrosphere.io:serving_scripts"
