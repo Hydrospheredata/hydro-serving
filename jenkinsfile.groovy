@@ -87,13 +87,13 @@ if (getJobType() == "RELEASE_JOB") {
     // For testing purposes only
     if (env.BRANCH_NAME == "chore/doc-fixes") {
       stage("Test doc release") {
-        releaseBuiltDocs(curVersion)("deleteme")
+        releaseBuiltDocs("deleteme")
       }
     }
 
     if (env.BRANCH_NAME == "master") {
       stage("Publish documentation as dev version") {
-        releaseBuiltDocs(curVersion)("dev")
+        releaseBuiltDocs("dev")
       }
     }
   }
