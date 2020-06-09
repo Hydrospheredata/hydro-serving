@@ -38,7 +38,7 @@ services:
        - "GRPC_PORT=9091"
    
    manager:
-     image:  hydrosphere/serving-manager:2.2.0
+     image:  hydrosphere/serving-manager:bc95fd9352fc58e526ec9b6273cda7d9790fe72f
      container_name: manager
      ports:
        - "19090:9090"

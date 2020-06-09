@@ -63,19 +63,23 @@ spec:
             - name: GATEWAY_HOST
               value: {{ template "gateway.fullname" . }}
             {{- if .Values.public }}   
-            - name: REQSTORE_HOST
-              value: "localhost"
             - name: MONITORING_HOST
               value: "localhost"
             - name: PROMETHEUS_AM_HOST
               value: "localhost"                          
             {{- else }}
-            - name: REQSTORE_HOST
-              value: {{ template "reqstore.fullname" . }}
             - name: MONITORING_HOST
               value: {{ template "sonar.fullname" . }}
             - name: PROMETHEUS_AM_HOST
-              value: {{ template "prometheus-am.fullname" . }}                           
+              value: {{ template "prometheus-am.fullname" . }}
+            - name: VISUALIZATION_HOST
+              value: {{ template "visualization.fullname" . }}
+            - name: ROOTCAUSE_HOST
+              value: {{ template "rootcause.fullname" . }}
+            - name: STAT_HOST
+              value: {{ template "stat.fullname" . }}
+            - name: AUTO_OD_HOST
+              value: {{ template "auto-od.fullname" . }}
             {{- end }}  
             - name: MANAGER_HTTP_PORT
               value: "9090"
@@ -89,10 +93,12 @@ spec:
               value: "9090"
             - name: MONITORING_GRPC_PORT
               value: "9091"
-            - name: REQSTORE_HTTP_PORT
-              value: "9090"
-            - name: REQSTORE_GRPC_PORT
-              value: "9091"
+            - name: ROOTCAUSE_HTTP_PORT
+              value: "5005"
+            - name: STAT_PORT
+              value: "5002"
+            - name: AUTO_OD_GRPC_PORT
+              value: "5001"
             {{- with .Values.env }}
 {{ toYaml . | indent 12 }}
             {{- end }}

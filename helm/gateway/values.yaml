@@ -4,7 +4,6 @@
 
 global:
   shadowing_on: false
-  reqstore_enabled: false
 
 replicaCount: 1
 

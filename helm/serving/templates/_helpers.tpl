@@ -31,10 +31,6 @@ Create chart name and version as used by the chart label.
 {{- printf "%s-%s" .Chart.Name .Chart.Version | replace "+" "_" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
 
-{{- define "reqstore.fullname" -}}
-{{- printf "%s-%s" .Release.Name "reqstore" | trunc 63 | trimSuffix "-" -}}
-{{- end -}}
-
 {{- define "sonar.fullname" -}}
 {{- printf "%s-%s" .Release.Name "sonar" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}

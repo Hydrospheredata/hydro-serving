@@ -31,10 +31,6 @@ Create chart name and version as used by the chart label.
 {{- printf "%s-%s" .Chart.Name .Chart.Version | replace "+" "_" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
 
-{{- define "reqstore.fullname" -}}
-{{- printf "%s-%s" .Release.Name "reqstore" | trunc 63 | trimSuffix "-" -}}
-{{- end -}}
-
 {{- define "manager.fullname" -}}
 {{- printf "%s-%s" .Release.Name "manager" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
@@ -53,4 +49,20 @@ Create chart name and version as used by the chart label.
 
 {{- define "timemachine.fullname" -}}
 {{- printf "%s-%s" .Release.Name "timemachine" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
+
+{{- define "visualization.fullname" -}}
+{{- printf "%s-%s" .Release.Name "visualization" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
+
+{{- define "rootcause.fullname" -}}
+{{- printf "%s-%s" .Release.Name "rootcause" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
+
+{{- define "stat.fullname" -}}
+{{- printf "%s-%s" .Release.Name "stat" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
+
+{{- define "auto-od.fullname" -}}
+{{- printf "%s-%s" .Release.Name "auto-od" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}

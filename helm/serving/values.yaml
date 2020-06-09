@@ -2,7 +2,7 @@ global:
   shadowing_on: true
   frontend_url: "http://hydro-serving.local"
   alerting_on: false
-  reqstore_enabled: false  
+ 
   persistence:
     enabled: false
   dockerRegistry:
@@ -17,6 +17,21 @@ global:
       username: ""
       password: ""
 
+  mongodb:
+    usePassword: true
+    mongodbRootPassword: hydr0s3rving
+    mongodbUsername: root
+    mongodbPassword: hydr0s3rving
+    mongodbAuthDatabase: admin
+    mongodbDatabase: hydro-serving-data-profiler
+
+mongodb:
+  enabled: true
+  image:
+    repository: bitnami/mongodb
+    tag: 4.0.13-debian-9-r22
+    pullPolicy: IfNotPresent
+
 postgresql:
   enabled: true
   image:
@@ -27,20 +42,6 @@ postgresql:
   postgresqlUsername: postgres
   postgresqlPassword: hydr0s3rving
   postgresqlDatabase: hydro-serving     
-
-mongodb:
-  enabled: true
-  image:
-    repository: bitnami/mongodb
-    tag: 4.0.13-debian-9-r22
-    pullPolicy: IfNotPresent
-
-  usePassword: true
-  mongodbRootPassword: hydr0s3rving
-  mongodbUsername: root
-  mongodbPassword: hydr0s3rving
-  mongodbAuthDatabase: admin
-  mongodbDatabase: hydro-serving-data-profiler
 
 ui:
   public: true  

@@ -4,8 +4,6 @@
 replicaCount: 1
 sonar:
   enabled: false
-reqstore:
-  enabled: false  
 
 image:
   full:  hydrosphere/serving-manager-ui:2.2.0
