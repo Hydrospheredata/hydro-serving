@@ -1,9 +1,16 @@
 def repository = 'hydro-serving'
 
+def releaseBuiltDocs(desiredVersion) {
+  def servingDocsFolder = '~/serving_publish_dir_new'
+  sshagent(['hydro-site-publish']) {
+    sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/main jenkins_publish@hydrosphere.io:${servingDocsFolder}/${desiredVersion}"
+    sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/src/python jenkins_publish@hydrosphere.io:serving_scripts"
+    sh "ssh -o StrictHostKeyChecking=no -t jenkins_publish@hydrosphere.io \"python3.5 ~/serving_scripts/python/release_docs.py --website-path ${servingDocsFolder} --release-version ${desiredVersion}\""
+  }
+}
 
 if (getJobType() == "RELEASE_JOB") {
   node("JenkinsOnDemand") {
-
     stage("Initialize") {
       cleanWs()
       loginDockerRepository()
@@ -15,14 +22,8 @@ if (getJobType() == "RELEASE_JOB") {
 
     stage("Publish docs") {
         def curVersion = getVersion()
-
         sh "cd docs && sbt -DappVersion=${curVersion} paradox"
-        sshagent(['hydro-site-publish']) {
-            sh "cp -r ${env.WORKSPACE}/docs/target/paradox/site/main ${env.WORKSPACE}/docs/target/paradox/site/${curVersion}"
-            sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/${curVersion} jenkins_publish@hydrosphere.io:serving_publish_dir_new"
-            sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/src/sh jenkins_publish@hydrosphere.io:serving_scripts"
-            sh "ssh -o StrictHostKeyChecking=no -t jenkins_publish@hydrosphere.io \"sh ~/serving_scripts/sh/releaseDocs.sh ${curVersion}\""
-        }
+        releaseBuiltDocs(curVersion)
     }
 
     stage("Create GitHub Release") {
@@ -83,9 +84,7 @@ if (getJobType() == "RELEASE_JOB") {
 
     if (env.BRANCH_NAME == "master") {
       stage("Publish documentation as dev version") {
-          sshagent(['hydro-site-publish']) {
-              sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/main/* jenkins_publish@hydrosphere.io:serving_publish_dir_new/dev"
-          }
+        releaseBuiltDocs("dev")
       }
     }
   }
