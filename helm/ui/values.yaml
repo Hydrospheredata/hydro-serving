@@ -6,7 +6,7 @@ sonar:
   enabled: false
 
 image:
-  full:  hydrosphere/serving-manager-ui:2.2.0
+  full:  hydrosphere/serving-manager-ui:2.3.0
   pullPolicy:  IfNotPresent
 
 service:
