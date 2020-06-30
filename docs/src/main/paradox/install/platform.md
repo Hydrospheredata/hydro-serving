@@ -98,7 +98,7 @@ To install Hydrosphere on the Kubernetes cluster you should have the following p
 1. Install the chart.
 
     ```sh
-    $ helm install --name serving --namespace hydrosphere
+    $ helm install --namespace hydrosphere serving
     ```
 
 After the chart has been installed, you have to expose the `ui` component outside 
