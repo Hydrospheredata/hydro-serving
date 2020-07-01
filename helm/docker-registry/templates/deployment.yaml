@@ -23,7 +23,8 @@ spec:
     spec:
       initContainers:
         - name: "htpasswd-{{ .Chart.Name }}"
-          image: registry:2
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
           command:
             - /bin/entrypoint.sh
           args:
