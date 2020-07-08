@@ -1,15 +1,14 @@
-# Installation 
-
+# Installation
 @@@ index
-
-* [Platform](platform.md)
-* [Client](client/index.md)
-
+* [Platofrm](platform.md)
+* [CLI](cli.md)
+* [Python SDK](sdk.md)
 @@@
 
-Hydrosphere platform comes in two-tier fashion: 
+On this page you will find how to install Hydrosphere platform.
 
-* **Platform** that handles models management, deployment, monitoring and request analysis; 
-* **Client** that handles the platforms' entities management. 
+Check @ref:[How to install CLI](cli.md) or @ref:[How to install Python SDK](sdk.md)
+  if you want to learn how to install CLI/Python SDK .
 
-@@ toc { depth=2 }
+
+@@include[platform.md](platform.md)

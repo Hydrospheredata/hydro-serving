@@ -9,7 +9,7 @@ You can find other examples of how to deploy various models in our
 
 ## Before you start
 
-We assume you already have a @ref[deployed](../install/platform.md) instance of the Hydrosphere platform and a @ref[CLI](../install/client/cli.md) on your local machine.
+We assume you already have a @ref[deployed](../install/platform.md) instance of the Hydrosphere platform and a @ref[CLI](../install/cli.md) on your local machine.
 
 To let `hs` know where the Hydrosphere platform runs, configure a new `cluster` entity. 
 
@@ -37,12 +37,7 @@ Python
 
 We have not yet installed the necessary libraries for our model. In your `linear_regression` folder, create a `requirements.txt` file with the following contents:
 
-```
-Keras==2.2.5
-tensorflow==1.14.0
-numpy==1.17.2
-scikit-learn==0.20.2
-```
+@@snip [requirements.txt](snippets/quickstart/requirements.txt)
 
 Install all dependencies to your local environment.
 
@@ -94,7 +89,7 @@ $ touch serving.yaml
 ```yaml
 kind: Model
 name: linear_regression
-runtime: "hydrosphere/serving-runtime-python-3.6:$project.released_version$"
+runtime: "hydrosphere/serving-runtime-python-3.7:$project.released_version$"
 install-command: "pip install -r requirements.txt"
 payload:
   - "src/"
@@ -159,9 +154,14 @@ Invoking applications is available via different interfaces.
 
 ### Test request
 
-You can perform a test request to the model from the Hydrosphere UI. Open the desired application and press the `Test` button. Internally it will generate arbitrary input data from the model's contract and send an HTTP request to the application's endpoint. 
+You can perform a test request to the model from the Hydrosphere UI.
+Open the desired application and press the `Test` button.
+Internally it'll mock input data based on the model's contract
+and send an HTTP request to the application's endpoint. 
 
 ### HTTP request
+You can use HTTP API to get responses from your Application. Deployed applications are 
+available for POST requests on the `{CLUSTER_URL}/gateway/application/{APP_NAME}` endpoint.
 
 Send an HTTP `POST` request. 
 
@@ -173,7 +173,7 @@ $ curl --request POST --header 'Content-Type: application/json' --header 'Accept
 For more information about invoking applications, refer to this 
 [page](../how-to/invoke-applications.html).
 
-### gRPC API call
+### gRPC via Python SDK
 
 Define a gRPC client on your side and make a call from it.
 

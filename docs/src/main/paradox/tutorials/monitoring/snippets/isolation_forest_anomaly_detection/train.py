@@ -1,16 +1,17 @@
 import joblib
+import pandas as pd
+from sklearn.ensemble import IsolationForest
 
 # #main-section
 df = pd.read_csv("../data/taxi_pickups.csv")
-df.set_index(pd.to_datetime(df.pickup_datetime),inplace=True)
+df.set_index(pd.to_datetime(df.pickup_datetime), inplace=True)
 df.drop(["pickup_datetime"], axis=1, inplace=True)
 
 data, _ = transform_to_sliding_windows(df)
-iforest = IsolationForest(
-    n_jobs=-1, random_state=42,  behaviour="new", contamination=0.03)
+iforest = IsolationForest(n_jobs=-1, random_state=42, behaviour="new", contamination=0.03)
 is_outlier = iforest.fit_predict(data)
 # Find outliers in training data 
-outlier_indices = df.index[6:][is_outlier==-1]
+outlier_indices = df.index[6:][is_outlier == -1]
 # #main-section
 
 
