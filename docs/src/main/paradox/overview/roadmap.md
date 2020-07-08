@@ -1,20 +1,16 @@
 # Roadmap 
 
-### API and integrations
+## Q3 2020
+- Kubeflow integration
+- Data Projector for models without an `embedding` field
+- Basic Bias and Fairness tools 
+- Introduce Deployment Configuration entity for configuring requests, limits and other parameters
+- Upgrade Automatic Outlier Detection
 
+## Q1-Q2 2020
 - External models support
     - Abstract model registration and metrics ingestion API
-    - SageMaker models tailored integration
-- Model instrumentation SDK 
-- Kubeflow upgrades and integrations 
+    - SageMaker integration
+- Python SDK 
 - Metrics egress API
 - Alerting
-
-### Monitoring
-- Auto Outlier Detection [Tabular]
-- Auto High-Dimensional Visualization for tabular data
-- Add support for Image data type for Explanation and Sonar services
-
-### Serving
-- HPA scaling
-
