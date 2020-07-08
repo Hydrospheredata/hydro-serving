@@ -60,6 +60,7 @@ services:
        - gateway
      ports:
        - "80:80"
+       - "9090:9090"
      networks:
        - extnet
        - hydronet
