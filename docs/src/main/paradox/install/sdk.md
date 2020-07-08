@@ -22,7 +22,7 @@ You can access the locally deployed Hydrosphere platform from previous @ref:[ste
 from hydrosdk import Cluster, Application 
 import pandas as pd
 
-cluster = Cluster("localhost", grpc_address="localhost")
+cluster = Cluster("http://localhost", grpc_address="localhost:9090")
 
 app = Application.find(cluster, "my-model")
 predictor = app.predictor()
