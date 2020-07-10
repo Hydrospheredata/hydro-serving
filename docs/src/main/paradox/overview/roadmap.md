@@ -2,9 +2,9 @@
 
 ## Q3 2020
 - Kubeflow integration
-- Data Projector for models without an `embedding` field
+- Data Projector for models without binding to an `embedding` field
 - Basic Bias and Fairness tools 
-- Introduce Deployment Configuration entity for configuring requests, limits and other parameters
+- Introduce Deployment Configuration entity for configuring how application will be deployed on the platform (e.g. requests, limits, node selectors and other parameters)
 - Upgrade Automatic Outlier Detection
 
 ## Q1-Q2 2020

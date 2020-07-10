@@ -95,7 +95,7 @@ If `.contract.name` is not set, it defaults to `predict`.
 
 'serving.yaml' file describes the model, its name, type, payload, and contract.
  The model contract declares input and output fields' data types and shapes.
-  Fields` profile information is used to tell Hydrosphere how to interpret this field.
+  Fields' profile information is used to tell Hydrosphere how to interpret this field.
   
 That's it, you've just created a model that can be used within your business application. 
 

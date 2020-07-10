@@ -15,7 +15,7 @@ Hydrosphere offers immediate value to ML-based products:
 
 * Сovers all aspects of the production ML lifecycle - model versioning & deployment, traffic & contract management, data monitoring, gaining insights.
 * Easy & fast management of production models that brings models to production in minutes by reducing time to upload, update and roll your models into production 
-* Allows to create reproducible,observable and explainable machine learning pipelines
+* Allows to create reproducible, observable and explainable machine learning pipelines
 * Provides understanding and control of models’ performance in production via data and target metrics analysis
 * Adds in-depth observability for your production models and data flowing through them 
 * Improves business metrics of ML-based products as a result of a reduction in MTTR and MTTD incidents related to ML models due to early alerts once data drifts happen
@@ -91,7 +91,7 @@ conclusions about the quality of a model’s predictions. Sometimes it is hard
 to get labeled data in production in a timely and cost-effective manner,
 especially when you deal with large volumes of complex data. Hydrosphere
 circumvents this issue by analyzing data that flows through a
-model as a proxy for evaluating model quality to detect if ML models
+model as a proxy evaluating model quality to detect if ML models
 start to degrade and make unreliable predictions due to production data
 drifts from training data.
 
@@ -110,4 +110,4 @@ or our [website](https://hydrosphere.io)
 |![](.../data_projection_screenshot.png)  |  ![](.../explanations_screenshot.png)|
 
 Hydro Interpretability provides human-readable explanations of the predictions made by
- your ML models, as well as the explanations of monitoring analytics made by Hydro Monitoring. It helps to evaluate and analyse models and understand what features influence their decisions. The Interpretability component demystifies your ML process, provides a new level of confidence about the reasons behind your models’ decisions and a certain level of trust business can rely on.
+ your ML models, as well as the explanations of monitoring analytics made by Hydrosphere Monitoring. It helps to evaluate and analyse models and understand what features influence their decisions. The Interpretability component demystifies your ML process, provides a new level of confidence about the reasons behind your models’ decisions and a certain level of trust business can rely on.

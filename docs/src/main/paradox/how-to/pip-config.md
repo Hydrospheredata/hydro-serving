@@ -29,7 +29,7 @@ payload:
   - "src/"
   - "requirements.txt"
   - "pip.conf"  # location of your pip.conf
-  - "cert.pem"  # location of your certificat. It'll be available under /model/files/cert.pem
+  - "cert.pem"  # location of your certificate. It'll be available under /model/files/cert.pem
   - "model.h5"
 contract:
   name: infer

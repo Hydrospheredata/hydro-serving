@@ -30,7 +30,7 @@ of runtime, payload and model signature in a YAML file. Typically we call these 
 
 ### Application
 
-A model version itself is not capable of serving predictions. To do that, you would
+A model version itself is not capable of serving predictions. To do that, you
 have to create an application. An **application** is a publicly available endpoint
 to reach your models. 
 
@@ -47,7 +47,7 @@ HTTP, gRPC, and Kafka.
 ### Metrics 
 
 Data coming through deployed Model Versions can be monitored with metrics. **Metric** is a Model Version
-which takes a combination of inputs & outputs from an another, monitored Model Version,
+which takes a combination of inputs & outputs from an another monitored Model Version,
 receives every request and response from the monitored model,
 produces a single value and compares it with a threshold to determine whether this request
 was healthy or not.
@@ -63,7 +63,7 @@ A check is a boolean condition associated with a field of a Model Version signat
 
 ### Model's Signature
 Signature is a specification of your model computation which identifies the name of a
- function with its` inputs and outputs, including their names, shapes, and data types.
+ function with its inputs and outputs, including their names, shapes, and data types.
 
 e.g. signature defined in a YAML file:
 ```yaml
