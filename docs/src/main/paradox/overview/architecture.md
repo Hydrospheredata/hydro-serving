@@ -13,20 +13,24 @@ On a high level we can outline the following services.
 
 ### Manager
 
-Manager is a service component, responsible for managing Hydrosphere entities (models and applications), provisioning infrastructure resources and providing interfaces for interacting with Hydrosphere entities. 
+Manager manages Hydrosphere entities (models and applications), provisions infrastructure resources and provides interfaces for interacting with Hydrosphere entities. 
 
 ### Gateway
 
-Gateway is a service component responsible for handling prediction requests and routing them among model services. Gateway maps model endpoint name to a corresponding container. Whenever it receives a request it communicates with that container by gRPC protocol.
+Gateway handles prediction requests and routing them among model services. Gateway maps model endpoint name to a corresponding container. Whenever it receives a request it communicates with that container by gRPC protocol.
 
 ### UI
 
-UI is a service component displays user-friendly interface for models, applications as well as monitoring charts and profiles.
+UI displays user-friendly interface for models, applications as well as monitoring charts and profiles.
 
 ### Sonar
 
-Sonar is a service component responsible for monitoring your models during inference phase. It allows you to evaluate how your model behaves under production load, i.e. is there a concept drift occurred in the production data (so your model needs to be retrained); how many outliers are there in the production data; how distribution of your training data is compared with the distribution of the production data?
+Sonar monitors your models during inference phase. User can use sonar to evaluate how a model behaves under production load. 
+For instance you can:
+1. check if a concept drift occurred in the production data (so your model needs to be retrained)
+2. see how many outliers are there in the production data
+3. see how distribution of your training data is compared with the distribution of the production data?
 
 #### S3 Storage
 
-S3 Storage is used by **Sonar** to store model training data and production requests data. 
+**Sonar** uses [S3](https://aws.amazon.com/s3/) to store model training data and production requests data. 
