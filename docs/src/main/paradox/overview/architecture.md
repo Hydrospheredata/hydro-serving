@@ -21,7 +21,7 @@ Gateway is a service component responsible for handling prediction requests and 
 
 ### UI
 
-UI is a service component responsible for showing off user-friendly interface for models, applications as well as monitoring charts and profiles.
+UI is a service component displays user-friendly interface for models, applications as well as monitoring charts and profiles.
 
 ### Sonar
 
