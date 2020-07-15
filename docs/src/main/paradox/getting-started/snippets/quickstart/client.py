@@ -1,23 +1,11 @@
-import grpc 
-import hydro_serving_grpc as hs  # pip install hydro-serving-grpc
+from sklearn.datasets import make_regression
+from hydrosdk import Cluster, Application
 
-# connect to your ML Lamba instance
-channel = grpc.insecure_channel("localhost")
-stub = hs.PredictionServiceStub(channel)
+cluster = Cluster("http://localhost", grpc_address="localhost:9090")
 
-# 1. define a model, that you'll use
-model_spec = hs.ModelSpec(name="linear_regression", signature_name="infer")
-# 2. define tensor_shape for Tensor instance
-tensor_shape = hs.TensorShapeProto(
-    dim=[
-        hs.TensorShapeProto.Dim(size=-1), 
-        hs.TensorShapeProto.Dim(size=2)
-    ]
-)
-# 3. define tensor with needed data
-tensor = hs.TensorProto(dtype=hs.DT_DOUBLE, tensor_shape=tensor_shape, double_val=[1,1,1,1])
-# 4. create PredictRequest instance
-request = hs.PredictRequest(model_spec=model_spec, inputs={"x": tensor})
+app = Application.find(cluster, "linear_regression")
+predictor = app.predictor()
 
-# call Predict method
-result = stub.Predict(request)
+X, _ = make_regression(n_samples=10, n_features=2, noise=0.5)
+y = predictor.predict({"x": X})
+print(y)
