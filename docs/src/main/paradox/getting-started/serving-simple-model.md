@@ -94,7 +94,7 @@ install-command: "pip install -r requirements.txt"
 payload:
   - "src/"
   - "requirements.txt"
-  - "model.h5"
+  - "model.joblib"
 
 contract:
   name: infer
