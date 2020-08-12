@@ -27,10 +27,9 @@ Platform for deploying your Machine Learning to production
 
 Hydrosphere Serving is a cluster for deploying and versioning  your machine learning models in production.
 
-- **Framework Agnostic**. Serve machine learning models developed in any language or framework. Hydrosphere Serving will wrap them in a Docker image and deploy on your production cluster, exposing HTTP, GRPC and Kafka interfaces.
-- **Traffic split**. Split your production traffic between your models to perform an A\B test or canary deployment. 
+- **Framework Agnostic**. Serve machine learning models developed in any language or framework. Hydrosphere Serving will wrap them in a Docker image and deploy on your production cluster, exposing HTTP, gRPC and Kafka interfaces.
 - **Traffic shadowing**. Shadow your traffic between different model versions to examine how different model versions behave on the same traffic.
-- **Model Version Control**. Version control your models and pipelines as they are deployed. Explore how metrics change, roll-back to a previous version and more.
+- **Model Version Control**. Version control your models and pipelines as they are deployed. 
 
 
 ## Getting Started

@@ -1,4 +1,3 @@
-import hydro_serving_grpc as hs
 import numpy as np
 from joblib import load
 
@@ -18,18 +17,8 @@ features = ['age',
             'country']
 
 
-def extract_value(proto):
-    return np.array(proto.int64_val, dtype='int64')[0]
-
-
 def predict(**kwargs):
-    extracted = np.array([extract_value(kwargs[feature]) for feature in features])
-    transformed = np.dstack(extracted).reshape(1, len(features))
-    predicted = monitoring_model.decision_function(transformed)
+    x = np.array([kwargs[feature] for feature in features]).reshape(1, len(features))
+    predicted = monitoring_model.decision_function(x)
 
-    response = hs.TensorProto(
-        double_val=[predicted.item()],
-        dtype=hs.DT_DOUBLE,
-        tensor_shape=hs.TensorShapeProto())
-
-    return hs.PredictResponse(outputs={"value": response})
+    return {"value": predicted.item()}

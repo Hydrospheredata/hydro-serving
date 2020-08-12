@@ -1,6 +1,6 @@
-# Platform
+# Hydrosphere Platform
 
-The Hydrosphere platform can be installed in the following orchestrators:
+The Hydrosphere platform can be installed in the following orchestrator's:
 
 @@ toc { depth=1 }
 

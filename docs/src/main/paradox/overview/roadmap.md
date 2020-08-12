@@ -1,35 +1,16 @@
 # Roadmap 
 
-This page describes our roadmap of feature incorporation into the platform.
+## Q3 2020
+- Kubeflow integration
+- Data Projector for models without binding to an `embedding` field
+- Basic Bias and Fairness tools 
+- Introduce Deployment Configuration entity for configuring how application will be deployed on the platform (e.g. requests, limits, node selectors and other parameters)
+- Upgrade Automatic Outlier Detection
 
-### API and integrations
-
+## Q1-Q2 2020
 - External models support
     - Abstract model registration and metrics ingestion API
-    - SageMaker models tailored integration
-- Model instrumentation SDK 
-- Kubeflow upgrades and integrations 
+    - SageMaker integration
+- Python SDK 
 - Metrics egress API
 - Alerting
-
-### Monitoring
-- Auto Outlier Detection [Tabular]
-    - HBOS with predefined parameters
-    - Hyperparameter candidates based on historical data & model
-    - HBOS with grid search 
-    - Add LOOP and IsolationForest algorithms
-    - Add algorithm suggestion based on historical data 
-    - Add more algorithms [TBD]
-- High-Dimensional Visualization
-    - Make UMAP visualization with predefined parameters on data
-    - Add anomaly-wise and class-wise coloring of visualized data
-    - UMAP Grid Search for optimal hyperparameters
-    - Add continuous anomaly-wise and class-wise colorings
-    - Add counterfactuals and closest neighbours
-    - Add ability to isolate subset of points
-    - Add image support
-- Batch-Checks
-    - Monitoring batches of tabular data with a set of researched metrics
-    - Add support for image data type
-- Root Cause 
-    - Performance fixes
