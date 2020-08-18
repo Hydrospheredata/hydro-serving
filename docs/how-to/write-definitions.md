@@ -2,37 +2,36 @@
 
 Resource definitions describe Hydrosphere entities. An entity could be your model, application, or deployment configuration. Each definition is defined via `.yaml` file.
 
-
-
 ## Base definition
 
 Every definition **must** include the following fields:
 
-- `kind`: Defines the type of resource; 
-- `name`: Defines the name of a resource.
+* `kind`: Defines the type of resource; 
+* `name`: Defines the name of a resource.
 
-The only _valid_ options for `kind` are:
+The only valid options for `kind` are:
 
-- Model;
-- Application.
+* Model
+* Application
+* DeploymentConfiguration
 
 ## kind: Model
 
 The model definition **must** contain the following fields:
 
-- `runtime`: A string defining the runtime that will be used to run a model;
-- `contract`: An object defining the inputs and outputs of a model.
+* `runtime`: A string defining the runtime docker image that will be used to run a model. You can learn more about runtimes [here](../overview/concepts.md).
+* `contract`: An object defining the inputs and outputs of a model.
 
 The model definition **can** contain the following fields:
 
-- `payload`: A list of files that should be added to the container;
-- `install-command`: A string defining a command that should be executed during the container build;
-- `training-data`: A string defining a path to the file that will be uploaded to Hydrosphere and used as a training data reference. It can be either a local file or a URI to S3 object. At the moment we only support `.csv` files;
-- `metadata`: An object defining additional user metadata that will be displayed on the Hydrosphere UI.
+* `payload`: A list of files that should be added to the container
+* `install-command`: A string defining a command that should be executed during the container build
+* `training-data`: A string defining a path to the file that will be uploaded to Hydrosphere and used as a training data reference. It can be either a local file or a URI to an S3 object. At the moment we only support `.csv` files
+* `metadata`: An object defining additional user metadata that will be displayed on the Hydrosphere UI
 
 The example below shows how a model can be defined on a top level.
 
-
+{% code title="serving.yaml" %}
 ```yaml
 kind: "Model"
 name: "sample_model"
@@ -46,59 +45,60 @@ contract:
 metadata:
   ...
 ```
-
+{% endcode %}
 
 ### Contract object
 
 `contract` object **must** contain the following fields:
 
-- `inputs`: An object, defining all inputs of a model;
-- `outputs`: An object, defining all outputs of a model.
+* `inputs`: An object, defining all inputs of a model
+* `outputs`: An object, defining all outputs of a model
 
 `contract` object **can** contain the following fields:
 
-- `name`: A string defining the signature of the model that should be used to process requests.
+* `name`: A string defining the signature of the model that should be used to process requests
 
 #### Field object
 
 `field` object **must** contain the following fields:
 
-- `shape`: Either a string or a list of integers, defining the shape of your data. If shape is defined as a list of integers, it can have `-1` value at the very beginning of the list, indicating that this field has an arbitrary number of "entities". `-1` cannot be put anywhere aside from the beginning of the list. If shape is defined as a string, it can only be "scalar". 
-- `type`: A string defining the type of data.
+* `shape`: Either `"scalar"` or a list of integers, defining the shape of your data. If  a shape is defined as a list of integers, it can have `-1` value at the very beginning of the list, indicating that this field has an arbitrary number of "entities". `-1` cannot be put anywhere aside from the beginning of the list. 
+* `type`: A string defining the type of data.
 
 `field` object **can** contain the following fields:
 
-- `profile`: A string, defining the profile type of your data. 
+* `profile`: A string, defining the profile type of your data. 
 
 The only _valid_ options for `type` are:
 
-- bool — Boolean;
-- string — String in bytes;
-- half — 16-bit half-precision floating-point; 
-- float16 — 16-bit half-precision floating-point;
-- float32 — 32-bit single-precision floating-point;
-- double — 64-bit double-precision floating-point;
-- float64 — 64-bit double-precision floating-point;
-- uint8 — 8-bit unsigned integer;
-- uint16 — 16-bit unsigned integer;
-- uint32 — 32-bit unsigned integer;
-- uint64 — 64-bit unsigned integer;
-- int8 — 8-bit signed integer;
-- int16 — 16-bit signed integer;
-- int32 — 32-bit signed integer;
-- int64 — 64-bit signed integer;
-- qint8 — Quantized 8-bit signed integer;
-- quint8 — Quantized 8-bit unsigned integer;
-- qint16 — Quantized 16-bit signed integer;
-- quint16 — Quantized 16-bit unsigned integer;
-- complex64 — 64-bit single-precision complex;
-- complex128 — 128-bit double-precision complex;
+* bool — Boolean;
+* string — String in bytes;
+* half — 16-bit half-precision floating-point; 
+* float16 — 16-bit half-precision floating-point;
+* float32 — 32-bit single-precision floating-point;
+* double — 64-bit double-precision floating-point;
+* float64 — 64-bit double-precision floating-point;
+* uint8 — 8-bit unsigned integer;
+* uint16 — 16-bit unsigned integer;
+* uint32 — 32-bit unsigned integer;
+* uint64 — 64-bit unsigned integer;
+* int8 — 8-bit signed integer;
+* int16 — 16-bit signed integer;
+* int32 — 32-bit signed integer;
+* int64 — 64-bit signed integer;
+* qint8 — Quantized 8-bit signed integer;
+* quint8 — Quantized 8-bit unsigned integer;
+* qint16 — Quantized 16-bit signed integer;
+* quint16 — Quantized 16-bit unsigned integer;
+* complex64 — 64-bit single-precision complex;
+* complex128 — 128-bit double-precision complex;
 
-The only _valid_ options for `profile` are: 
+The only _valid_ options for `profile` are:
 
-- text — Monitoring such fields will be done with **text**-oriented algorithms; 
-- image — Monitoring such fields will be done with **image**-oriented algorithms; 
-- numerical — Monitoring such fields will be done with **numerical**-oriented algorithms.
+* text — Monitoring such fields will be done with **text**-oriented algorithms 
+* image — Monitoring such fields will be done with **image**-oriented algorithms 
+* numerical — Monitoring such fields will be done with **numerical**-oriented algorithms
+* categorical — Monitoring such fields will be done with **categorical**-oriented algorithms.
 
 The example below shows how a contract can be defined on a top level.
 
@@ -110,9 +110,9 @@ inputs:
     type: string
     profile: text
   input_field_2:
-    shape: [-1, 1]
+    shape: [200, 200]
     type: int32
-    profile: numerical
+    profile: categorical
 outputs: 
   output_field_1:
     shape: scalar
@@ -122,7 +122,7 @@ outputs:
 
 ### Metadata object
 
-`metadata` object can represent any arbitrary information specified by the user. The structure of the object is not strictly defined. The only constraint is that the object must have a key-value structure, where a value can only be of a simple data type (string, number, boolean).
+`metadata` object can represent any arbitrary information specified by the user. The structure of the object is not strictly defined. The only constraint is that the object must have a key-value structure, where a value can only be of a simple data type \(string, number, boolean\).
 
 The example below shows, how metadata can be defined.
 
@@ -163,19 +163,18 @@ metadata:
   environment: "kubernetes"
 ```
 
-
 ## kind: Application
 
 The application definition **must** contain **one** of the following fields:
 
-- `singular`: An object, defining a single-model application;
-- `pipeline`: A list of objects, defining an application as a pipeline of models. 
+* `singular`: An object, defining a single-model application;
+* `pipeline`: A list of objects, defining an application as a pipeline of models. 
 
 ### Singular object
 
 `singular` object represents an application consisting only of one model. The object **must** contain the following fields:
 
-- `model`: A string, defining a model version. It is expected to be in the form `model-name:model-version`. 
+* `model`: A string, defining a model version. It is expected to be in the form `model-name:model-version`. 
 
 The example below shows how a singular application can be defined.
 
@@ -188,15 +187,15 @@ singular:
 
 ### Pipeline object
 
-`pipeline` represents a list of stages, representing models. 
+`pipeline` represents a list of stages, representing models.
 
-`stage` object **must** contain the following fields: 
+`stage` object **must** contain the following fields:
 
-- `model`: A string defining a model version. It is expected to be in the form `model-name:model-version`. 
+* `model`: A string defining a model version. It is expected to be in the form `model-name:model-version`. 
 
 `stage` object **can** contain the following fields:
 
-- `weight`: A number defining the weight of the model. All models' weights in a stage must add up to 100. 
+* `weight`: A number defining the weight of the model. All models' weights in a stage must add up to 100. 
 
 The example below shows how a pipeline application can be defined.
 
@@ -211,4 +210,144 @@ pipeline:
       weight: 20
 ```
 
-In this application, 100% of the traffic will be forwarded to the `claims-preprocessing:1` model version and the output will be fed into `claims-model`. 80% of the traffic will go to the `claims-model:1` model version, 20% of the traffic will go to the `claims-model:2` model version. 
+In this application, 100% of the traffic will be forwarded to the `claims-preprocessing:1` model version and the output will be fed into `claims-model`. 80% of the traffic will go to the `claims-model:1` model version, 20% of the traffic will go to the `claims-model:2` model version.
+
+## kind: DeploymentConfiguration
+
+**Work in Progress**
+
+The example below shows how a deployment configuration can be defined.
+
+```yaml
+kind: DeploymentConfiguration
+name: cool-deployment-config
+hpa:
+  minReplicas: 2
+  maxReplicas: 10
+  cpuUtilization: 80
+deployment:
+  replicaCount: 4
+container:
+  resources:
+    limits:
+      cpu: '4'
+      memory: 4g
+    requests:
+      cpu: '2'
+      memory: 2g
+pod:
+  nodeSelector:
+    im: a map
+    foo: bar
+  affinity:
+    nodeAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+        nodeSelectorTerms:
+        - matchExpressions:
+          - key: exp1
+            operator: Exists
+          matchFields:
+          - key: fields1
+            operator: Exists
+      preferredDuringSchedulingIgnoredDuringExecution:
+      - preference:
+          matchExpressions:
+          - key: exp2
+            operator: NotIn
+            values:
+            - aaaa
+            - bvzv
+            - czxc
+          matchFields:
+          - key: fields3
+            operator: NotIn
+            values:
+            - aaa
+            - cccc
+            - zxcc
+        weight: 100
+    podAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+      - labelSelector:
+          matchExpressions:
+          - key: value
+            operator: Exists
+          - key: key
+            operator: NotIn
+            values:
+            - a
+            - b
+        namespaces:
+        - namespace1
+        topologyKey: top
+      preferredDuringSchedulingIgnoredDuringExecution:
+      - weight: 100
+        podAffinityTerm:
+          labelSelector:
+            matchLabels:
+              key: a
+            matchExpressions:
+            - key: kek
+              operator: In
+              values:
+              - a
+              - b
+            - key: value2
+              operator: NotIn
+              values:
+              - b
+          namespaces:
+          - namespace2
+          topologyKey: topo_valur
+    podAntiAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+      - labelSelector:
+          matchExpressions:
+          - key: valyue
+            operator: Exists
+          - key: key2
+            operator: NotIn
+            values:
+            - a
+            - b
+          - key: kek2
+            operator: DoesNotExist
+        namespaces:
+        - namespace1
+        topologyKey: top
+      preferredDuringSchedulingIgnoredDuringExecution:
+      - weight: 100
+        podAffinityTerm:
+          labelSelector:
+            matchLabels:
+              key: a
+            matchExpressions:
+            - key: kek
+              operator: In
+              values:
+              - a
+              - b
+            - key: kek
+              operator: NotIn
+              values:
+              - b
+          namespaces:
+          - namespace2
+          topologyKey: toptop
+  tolerations:
+  - effect: PreferNoSchedule
+    key: equalToleration
+    tolerationSeconds: 30
+    operator: Equal
+    value: kek
+  - key: equalToleration
+    operator: Exists
+    effect: PreferNoSchedule
+    tolerationSeconds: 30
+
+```
+
+
+
+
+

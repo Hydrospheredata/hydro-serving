@@ -2,11 +2,11 @@
 
 The following repositories are open for contribution:
 
-#### Umbrella
+## Umbrella
 
 * [hydro-serving](https://github.com/Hydrospheredata/hydro-serving)
 
-#### Main components
+## Main components
 
 * [hydro-serving-manager](https://github.com/Hydrospheredata/hydro-serving-manager)
 * [hydro-serving-gateway](https://github.com/Hydrospheredata/hydro-serving-gateway)
@@ -14,7 +14,7 @@ The following repositories are open for contribution:
 * [hydro-serving-ui](https://github.com/Hydrospheredata/hydro-serving-ui)
 * [hydro-serving-protos](https://github.com/Hydrospheredata/hydro-serving-protos)
 
-#### Runtimes
+## Runtimes
 
 * [hydro-serving-python](https://github.com/Hydrospheredata/hydro-serving-python)
 * [hydro-serving-tensorflow](https://github.com/Hydrospheredata/hydro-serving-tensorflow)
@@ -24,12 +24,12 @@ The following repositories are open for contribution:
 * [hydro-serving-caffe2](https://github.com/Hydrospheredata/hydro-serving-caffe2)
 * [hydro-serving-pytorch](https://github.com/Hydrospheredata/hydro-serving-pytorch)
 
-#### Interfaces
+## Interfaces
 
 * [hydro-serving-sdk](https://github.com/Hydrospheredata/hydro-serving-sdk)
 * [hydro-serving-cli](https://github.com/Hydrospheredata/hydro-serving-cli)
 
-#### Examples
+## Examples
 
 * [hydro-serving-example](https://github.com/Hydrospheredata/hydro-serving-example)
 

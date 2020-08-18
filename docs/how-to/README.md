@@ -6,6 +6,5 @@
 * [Develop runtimes](develop-runtimes.md);
 * [Use private pip repository](pip-config.md);
 
-On this page you will find more elaborate articles addressing specific
-use cases of your work with the Hydrosphere platform.
+On this page you will find more elaborate articles addressing specific use cases of your work with the Hydrosphere platform.
 
