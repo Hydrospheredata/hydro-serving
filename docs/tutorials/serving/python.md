@@ -6,7 +6,6 @@ execution script packed with a serving function. In this tutorial we
 will create a simple increment function.
 
 
-
 ## Before you start
 
 We assume you already have a @ref[deployed](../../install/platform.md)

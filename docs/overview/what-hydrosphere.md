@@ -2,7 +2,7 @@
 
 Hydrosphere is an open-source MLOps platform for **deploying, managing and monitoring ML models in production with Kubernetes.**
 
-![](.../ml_workflow_with_hydrosphere.png)
+![](./images/ml_workflow_with_hydrosphere.png)
 
 Hydrosphere supports all major machine learning frameworks, including
  Tensorflow, Keras, PyTorch, XGBoost, scikit-learn, fastai, etc. Platform 
@@ -43,7 +43,7 @@ Hydrosphere is **not an ML model training framework**. Before using Hydrosphere,
      
 We suggest you use one of the orchestrators, such as Kubeflow or Airlflow, to deliver your model to the Hydrosphere.
 
-![](.../hydrosphere_and_kubeflow.png)
+![](./images/hydrosphere_and_kubeflow.png)
 
 # Hydrosphere Components
 
@@ -55,7 +55,7 @@ Hydrosphere platform includes all steps of a  production ML model cycle -
      three components that make up Hydrosphere platform - Serving,
       Monitoring and Interpretability.
 
-![](.../hydrosphere_components.png)
+![](./images/hydrosphere_components.png)
 
 ## Serving
 
@@ -64,7 +64,7 @@ Hydro Serving is responsible for a framework-agnostic model deployment and manag
   models trained in any ML framework to a Docker/Kubernetes cluster and expose HTTP/gRPC/Kafka
    API to other parties.
    
-![](.../serving_screenshot.png)
+![](./images/serving_screenshot.png)
 
 
 ## Monitoring
@@ -83,7 +83,7 @@ business as it’s tied to business and financial metrics.
 
 |Monitoring Dashboard|Statistical Drift Report|
 |:-------------------------:|:-------------------------:|
-|![](.../monitoring_screenshot.png)  |  ![](.../drift_report_screenshot.png)|
+|![](./images/monitoring_screenshot.png)  |  ![](./images/drift_report_screenshot.png)|
 
 Hydrosphere is capable of monitoring model quality with or without getting
 additional labeled data. Labeled data is often used in production drawing
@@ -107,7 +107,7 @@ or our [website](https://hydrosphere.io)
 
 |High-dimensional Data Projection | Prediction Explanations |
 |:-------------------------:|:-------------------------:|
-|![](.../data_projection_screenshot.png)  |  ![](.../explanations_screenshot.png)|
+|![](./images/data_projection_screenshot.png)  |  ![](./images/explanations_screenshot.png)|
 
 Hydro Interpretability provides human-readable explanations of the predictions made by
  your ML models, as well as the explanations of monitoring analytics made by Hydrosphere Monitoring. It helps to evaluate and analyse models and understand what features influence their decisions. The Interpretability component demystifies your ML process, provides a new level of confidence about the reasons behind your models’ decisions and a certain level of trust business can rely on.

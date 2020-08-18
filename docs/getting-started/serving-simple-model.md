@@ -197,7 +197,7 @@ Basically, an application represents an endpoint to your model, so you
 can invoke it from anywhere. To learn more about advanced features, go
 to the [Applications](concepts/applications.md) page.
 
-![](.../linear_regression_application.png)
+![](./images/linear_regression_application.png)
 
 Open [http://localhost/applications](http://localhost/applications) and
 press the `Add New Application` button. In the opened window select the

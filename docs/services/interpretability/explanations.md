@@ -14,4 +14,4 @@ a set of logical predicates if your  data is in a tabular format or a saliency m
 if your data is in the image format. Saliency Map is a heat map that highlights parts of
 a picture that a prediction was based on.
 
-![](.../explanations_screenshot.png) 
+![](./images/explanations_screenshot.png)

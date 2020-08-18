@@ -18,4 +18,4 @@ Manager is responsible for:
   endpoint called Application
 
 
-![](.../serving_screenshot.png)
+![](./images/serving_screenshot.png)

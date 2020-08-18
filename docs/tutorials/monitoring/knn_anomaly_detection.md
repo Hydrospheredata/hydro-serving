@@ -37,7 +37,7 @@ To check that our model works properly, lets plot histograms for training and te
 Python
 :   @@snip[train.py](snippets/knn_anomaly_detection/train.py) { #plot-section }
 
-![](.../knn_comparison.png)
+![](./images/knn_comparison.png)
 
 ## Model release
 

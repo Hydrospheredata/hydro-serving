@@ -3,7 +3,7 @@
 Hydrosphere is composed out of several microservices, united to
 efficiently serve and monitor machine learning models in production.
 
-![](.../architecture.png)
+![](./images/architecture.png)
 
 * [Manager](serving/manager.md)
 * [Gateway](serving/gateway.md)

@@ -10,7 +10,7 @@ Drift Report service creates a statistical report based on a comparison of train
 production data distributions. It compares these two sets of data by a set of statistical
 tests and finds deviations. 
 
-![](.../drift_report_screenshot.png) 
+![](./images/drift_report_screenshot.png)
 
 Drift report uses multiple different tests with p=.95 for different features:
  

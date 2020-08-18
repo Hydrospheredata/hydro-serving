@@ -24,7 +24,7 @@ do not have any meaning since it is hard to extract any meaning from thousands o
 In Hydrosphere we want to make monitoring easier and clearer that is why we created a data 
 projection service that can visualize your data in a single plot.
 
-![](.../data_projection_screenshot.png) 
+![](./images/data_projection_screenshot.png)
 
 
 ## Usage
@@ -46,7 +46,7 @@ field with an embedding of your data. Embeddings are real-valued vectors that re
 
 
 Inside Data Projection service you can see your requests features projected on a 2D space:
-![](.../data_projector_ui_tips.png) 
+![](./images/data_projector_ui_tips.png)
 
 Each point in the plot presents a request. Requests with similar features are close to each other.
 You can select a specific request point and inspect what it consists of. 

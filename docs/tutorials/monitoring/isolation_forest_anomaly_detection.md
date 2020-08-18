@@ -38,7 +38,7 @@ To check that our model works properly, lets plot training data and outliers.
 Python
 :   @@snip[train.py](snippets/isolation_forest_anomaly_detection/train.py) { #plot-section }
 
-![](.../stateful_isolation_forest_taxi_plot.png)
+![](./images/stateful_isolation_forest_taxi_plot.png)
 
 From the plot you can see a massive amount of anomalies at the end of January 2016. These outliers came from a travel ban due to ["Snowzilla"](https://en.wikipedia.org/wiki/January_2016_United_States_blizzard).
 
