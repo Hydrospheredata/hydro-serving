@@ -1,1 +1,0 @@
-<div style="display: flex; align-items: center" class="title"><img alt="shortcut icon" style="height: 45px; margin-right: 5px" src="$page.base$images/navbar_brand.svg"/> $page.home.html$</div>
