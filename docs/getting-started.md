@@ -1,10 +1,12 @@
 ---
-description: This is the entry-point tutorial to the Hydrosphere platform.
+description: >-
+  This is an entry-point tutorial to the Hydrosphere platform. Estimated
+  completion time: 13 min.
 ---
 
 # Getting Started
 
-On this page you will learn how to deploy your first model on the Hydrosphere platform. We will start from scratch and create a simple linear regression model that will fit our randomly generated data, with some noise added to it. After the training step, we will pack the model, deploy it to the platform, and invoke it locally with a sample client.
+On this page you will learn how to deploy your first model on the Hydrosphere platform. We will start from scratch and create a simple logistic regression model that will fit our randomly generated data, with some noise added to it. After the training step, we will pack the model, deploy it to the platform, and invoke it locally with a sample client.
 
 ## Before you start
 
@@ -19,38 +21,36 @@ hs cluster use local
 
 ## Training a model
 
-We can now start working with the linear regression model. It is a fairly simple model that fits a randomly generated regression data with some noise added to it. For data generation, we will use the `sklearn.datasets.make_regression` \([link](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_regression.html)\) method. 
+We can now start working with the logistic regression model. It is a fairly simple model that fits a randomly generated regression data with some noise added to it. For data generation, we will use the `sklearn.datasets.make_regression` \([link](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_regression.html)\) method. 
 
 First of all, create a directory for the model and add `model.py` in to it.
 
 ```bash
-mkdir linear_regression
-cd linear_regression
+mkdir logistic_regression
+cd logistic_regression
 touch train.py
 ```
 
-Let's choose a simple `sklearn.LinearRegression`  model as an example. Put the following code in your `train.py` file.
+Let's choose a simple `sklearn.LogisticRegression`  model as an example. Put the following code in your `train.py` file.
 
 {% code title="train.py" %}
 ```python
 import joblib
-from sklearn.datasets import make_regression
-from sklearn.linear_model import LinearRegression
+from sklearn.datasets import make_blobs
+from sklearn.linear_model import LogisticRegression
 
 # initialize data
-X, y = make_regression(n_samples=300, n_features=2, noise=0.5, random_state=112)
-
-y = y.reshape(-1, 1)
+X, y = make_blobs(n_samples=300, n_features=2, centers=[[-5, 1],[5, -1]])
 
 # create a model
-model = LinearRegression()
+model = LogisticRegression()
 model.fit(X, y)
 
 joblib.dump(model, "model.joblib")
 ```
 {% endcode %}
 
-We have not yet installed the necessary libraries for our model. In your `linear_regression` folder, create a `requirements.txt` file with the following contents:
+We have not yet installed the necessary libraries for our model. In your `logistic_regression` folder, create a `requirements.txt` file with the following contents:
 
 {% code title="requirements.txt" %}
 ```text
@@ -129,7 +129,7 @@ touch serving.yaml
 {% code title="serving.yaml" %}
 ```yaml
 kind: Model
-name: linear_regression
+name: logistic_regression
 runtime: hydrosphere/serving-runtime-python-3.7:2.3.2
 install-command: pip install -r requirements.txt
 payload:
@@ -152,7 +152,7 @@ contract:
     y:
       shape: scalar
       type: double
-      profile: numerical
+      profile: categorical
 ```
 {% endcode %}
 
@@ -161,8 +161,8 @@ Here you can see that we have provided a `requirements.txt` and a `model.h5` as 
 The overall structure of our model now should look like this:
 
 ```text
-linear_regression
-├── model.h5
+logistic_regression
+├── model.joblib
 ├── train.py
 ├── requirements.txt
 ├── serving.yaml
@@ -176,7 +176,7 @@ Although we have `train.py` inside the directory, it will not be uploaded to the
 
 ## Serving the model
 
-Now we can upload the model. Inside the `linear_regression` directory, execute the following command:
+Now we can upload the model. Inside the `logistic_regression` directory, execute the following command:
 
 ```bash
 hs upload
@@ -188,7 +188,7 @@ Once you have opened it, you can create an **application** for it. Basically, an
 
 ![Creating an Application from the uploaded model](.gitbook/assets/application_creation.gif)
 
-Open [http://localhost/applications](http://localhost/applications) and press the `Add New Application` button. In the opened window select the `linear_regression` model, name your application `linear_regression` and click the creation button.
+Open [http://localhost/applications](http://localhost/applications) and press the `Add New Application` button. In the opened window select the `logistic_regression` model, name your application `logistic_regression` and click the creation button.
 
 If you cannot find your newly uploaded model and it is listed on your models' page, it is probably still in the building stage. Wait until the model changes its status to `Released`, then you can use it.
 
@@ -200,15 +200,15 @@ Define a gRPC client on your side and make a call from it.
 
 {% code title="send\_data.py" %}
 ```python
-from sklearn.datasets import make_regression
+from sklearn.datasets import make_blobs
 from hydrosdk import Cluster, Application
 
 cluster = Cluster("http://localhost", grpc_address="localhost:9090")
 
-app = Application.find(cluster, "linear_regression")
+app = Application.find(cluster, "logistic_regression")
 predictor = app.predictor()
 
-X, _ = make_regression(n_samples=100, n_features=2, noise=0.5, random_state=112)
+X, _ = make_blobs(n_samples=300, n_features=2, centers=[[-5, 1],[5, -1]])
 for sample in X:
     y = predictor.predict({"x1": sample[0], "x2": sample[1]})
     print(y)
@@ -234,10 +234,10 @@ To provide training data users need to add the `training-data=<path_to_csv>`  fi
 {% code title="save\_training\_data.py" %}
 ```python
 import pandas as pd
-from sklearn.datasets import make_regression
+from sklearn.datasets import make_blobs
 
 # Create training data
-X, y = make_regression(n_samples=400, n_features=2, noise=0.5, random_state=112)
+X, y = make_blobs(n_samples=300, n_features=2, centers=[[-5, 1],[5, -1]])
 
 # Create pandas.DataFrame from it
 df = pd.DataFrame(X, columns=['x1', 'x2'])
@@ -253,14 +253,14 @@ Next, we add the training data field to the model definition inside the `serving
 {% code title="serving.yaml" %}
 ```yaml
 kind: Model
-name: linear_regression
-runtime: hydrosphere/serving-runtime-python-3.7:2.4.0
+name: logistic_regression
+runtime: hydrosphere/serving-runtime-python-3.7:2.3.2
 install-command: pip install -r requirements.txt
 training-data: training_data.csv
 payload:
-  - "src/"
-  - "requirements.txt"
-  - "model.joblib"
+  - src/
+  - requirements.txt
+  - model.joblib
 contract:
   name: infer
   inputs:
@@ -276,21 +276,21 @@ contract:
     y:
       shape: scalar
       type: double
-      profile: numerical
+      profile: categorical
 ```
 {% endcode %}
 
-Now we can upload the model.Execute the following command to create a new version of `linear_regresion` model:
+Now we can upload the model.Execute the following command to create a new version of `logistic_regresion` model:
 
 ```bash
-$ hs upload
+hs upload
 ```
 
-You can open the [http://localhost/models](http://localhost/models) page to see that there are now two versions of a `linear_regression` model.
+You can open the [http://localhost/models](http://localhost/models) page to see that there are now two versions of a `logistic_regression` model.
 
 For each model with uploaded training data, Hydrosphere creates an outlier detection metric, which assigns an outlier score to each request. This metric label request as an outlier if the outlier score is greater than the 97th percentile of training data outlier scores distribution.  
 
-Let's send some data to our new model version. To do so, we need to update our `linear_regression` application. To update it, we can go to **Application** tab and click the upgrade button.
+Let's send some data to our new model version. To do so, we need to update our `logistic_regression` application. To update it, we can go to **Application** tab and click the upgrade button.
 
 ![Upgrading an application stage to a newer version](.gitbook/assets/application_upgrade.gif)
 
@@ -298,15 +298,15 @@ After upgrading our Application, we can reuse our old code to send some data:
 
 {% code title="send\_data.py" %}
 ```python
-from sklearn.datasets import make_regression
+from sklearn.datasets import make_blobs
 from hydrosdk import Cluster, Application
 
 cluster = Cluster("http://localhost", grpc_address="localhost:9090")
 
-app = Application.find(cluster, "linear_regression")
+app = Application.find(cluster, "logistic_regression")
 predictor = app.predictor()
 
-X, _ = make_regression(n_samples=100, n_features=2, noise=0.5, random_state=112)
+X, _ = make_blobs(n_samples=300, n_features=2, centers=[[-5, 1],[5, -1]])
 for sample in X:
     y = predictor.predict({"x1": sample[0], "x2": sample[1]})
     print(y)
@@ -317,29 +317,27 @@ You can monitor your data quality in the Monitoring Dashboard:
 
 **TODO MONITORING DASHBOARD GIF**
 
-**TODO MONITROING DASHBOARD DESCRIPTION**
+Monitoring dashboards plots all requests streaming through a model version which are colored in respect with how "healthy" they are. On the horizontal axis we group our data by batches and on the vertical axis we group data by signature fields. In this plot cells are determined by their batch and field. Cells are colored from green to red, depending on the average request health inside this batch. 
 
 To check whether our metric will be able to detect data drifts, let's simulate one and send data from another distribution. To do so, we modify our code slightly:
 
 {% code title="send\_bad\_data.py" %}
 ```python
-from sklearn.datasets import make_regression
+from sklearn.datasets import make_blobs
 from hydrosdk import Cluster, Application
 
 cluster = Cluster("http://localhost", grpc_address="localhost:9090")
 
-app = Application.find(cluster, "linear_regression")
+app = Application.find(cluster, "logistic_regression")
 predictor = app.predictor()
 
-# Change make_regression arguments to simulate different distribution 
-X, _ = make_regression(n_samples=100, n_features=2, bias=2, random_state=42)
+# Change make_blobs arguments to simulate different distribution 
+X, _ = make_blobs(n_samples=300, n_features=2, centers=[[-10, 10],[0, 0]])
 for sample in X:
     y = predictor.predict({"x1": sample[0], "x2": sample[1]})
     print(y)
 ```
 {% endcode %}
 
-You can validate that our model was able to detect data drifts on the monitoring dashboard.
-
-**TODO MONITORING DASHBOARD RED**
+You can validate that our model was able to detect data drifts on the monitoring dashboard. 
 
