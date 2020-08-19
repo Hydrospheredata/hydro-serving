@@ -46,7 +46,7 @@ A `number` argument is a Numpy float scalar.
 After all computations are performed, we need to return a dictionary with an output value.
 
 {% hint style="info" %}
-If you use some external file \(for example, such as @ref[model's weights](../getting-started/serving-simple-model.md#model-preparation)\), you would have to specify the absolute path to that file. By default, all files that you specify in the contract, are placed in the `/model/files` directory inside the runtime.
+If you use some external file \(for example, such as @ref[model's weights](../getting-started.md#model-preparation)\), you would have to specify the absolute path to that file. By default, all files that you specify in the contract, are placed in the `/model/files` directory inside the runtime.
 {% endhint %}
 
 ## Model definition
