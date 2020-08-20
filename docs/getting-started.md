@@ -215,6 +215,12 @@ for sample in X:
 ```
 {% endcode %}
 
+
+
+## Using Deployment Configurations
+
+TODO
+
 ## Getting Started with Monitoring
 
 Hydrosphere Platform has multiple tools for data drift monitoring:

@@ -2,7 +2,6 @@
 
 * [Hydrosphere](README.md)
 * [Overview](overview/README.md)
-  * [Architecture](overview/architecture.md)
   * [Concepts](overview/concepts.md)
   * [Features](overview/features/README.md)
     * [Model Registry](overview/features/model-registry.md)
