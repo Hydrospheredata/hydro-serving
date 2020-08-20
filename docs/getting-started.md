@@ -321,7 +321,7 @@ for sample in X:
 
 You can monitor your data quality in the Monitoring Dashboard:
 
-**TODO MONITORING DASHBOARD GIF**
+![](.gitbook/assets/image.png)
 
 Monitoring dashboards plots all requests streaming through a model version which are colored in respect with how "healthy" they are. On the horizontal axis we group our data by batches and on the vertical axis we group data by signature fields. In this plot cells are determined by their batch and field. Cells are colored from green to red, depending on the average request health inside this batch. 
 

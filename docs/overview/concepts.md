@@ -18,9 +18,13 @@ A **Model** is a machine learning model or a processing function that consumes p
 
 Within the Hydrosphere platform, we break down the model to its versions. Each **Model version** represents a single Docker image containing all the artifacts that you have uploaded to the platform. Consequently, **Model** is a group of **Model versions** with the same name.
 
+![Model vs Model Version Difference](../.gitbook/assets/model-vs-model-version.png)
+
 ### Runtimes
 
 A **Runtime** is a docker image with the predefined gRPC interface which loads and serves your model.
+
+![Place of Runtimes in the Architecture](../.gitbook/assets/serving_on_various_runtimes.jpg)
 
 We have [implemented](../reference/runtimes.md) a few runtimes, which you can use in your own projects.
 
@@ -32,11 +36,11 @@ User should not use Servable as-is, since it's are designed to be a building blo
 
 ### Applications
 
-An **Application** is a pipeline of Servables.
+An **Application** is a pipeline of one or more stages, each consisting of one or multiple Model Versions. Data sent to an application stage is shadowed to all of it's model versions. Output of a staged is picked randomly with respect to weights
+
+![Example of a multi-staged output with an A/B test on the second stage](../.gitbook/assets/application.png)
 
 When a user creates Application, Manager service automatically deploys appropriate Servables. The Application handles monitoring of your models and is able to perform A/B traffic split.
-
-Servable can't do that. Don't deploy Servables unless you know what you are doing.
 
 For each Application, there are publicly available HTTP and gRPC endpoints that you can send requests to.
 

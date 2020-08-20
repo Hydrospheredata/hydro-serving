@@ -4,6 +4,8 @@
 * [Overview](overview/README.md)
   * [Concepts](overview/concepts.md)
   * [Features](overview/features/README.md)
+    * [Prediction Explanations](overview/features/prediction-explanations.md)
+    * [Data Vizualization](overview/features/data-vizualization.md)
     * [Model Registry](overview/features/model-registry.md)
     * [Inference Pipelines](overview/features/inference-pipelines.md)
     * [Scaling](overview/features/scaling.md)

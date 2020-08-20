@@ -1,12 +1,18 @@
 # Contribution
 
-The following repositories are open for contribution:
+Hydrosphere platform consists of multiple microservices described in [Platform Architecture section](services/).
 
-## Umbrella
+Manager, Gateway and Sonar services are written in Scala while other services are written in Python.
+
+You can explore Github issues with `good-first-issue` tag to see  
+
+## The following repositories are open for contribution
+
+### Umbrella
 
 * [hydro-serving](https://github.com/Hydrospheredata/hydro-serving)
 
-## Main components
+### Main components
 
 * [hydro-serving-manager](https://github.com/Hydrospheredata/hydro-serving-manager)
 * [hydro-serving-gateway](https://github.com/Hydrospheredata/hydro-serving-gateway)
@@ -14,22 +20,16 @@ The following repositories are open for contribution:
 * [hydro-serving-ui](https://github.com/Hydrospheredata/hydro-serving-ui)
 * [hydro-serving-protos](https://github.com/Hydrospheredata/hydro-serving-protos)
 
-## Runtimes
+### Runtimes
 
 * [hydro-serving-python](https://github.com/Hydrospheredata/hydro-serving-python)
-* [hydro-serving-tensorflow](https://github.com/Hydrospheredata/hydro-serving-tensorflow)
-* [hydro-serving-spark](https://github.com/Hydrospheredata/hydro-serving-spark)
-* [hydro-serving-h2o](https://github.com/Hydrospheredata/hydro-serving-h2o)
-* [hydro-serving-keras](https://github.com/Hydrospheredata/hydro-serving-keras)
-* [hydro-serving-caffe2](https://github.com/Hydrospheredata/hydro-serving-caffe2)
-* [hydro-serving-pytorch](https://github.com/Hydrospheredata/hydro-serving-pytorch)
 
-## Interfaces
+### Interfaces
 
 * [hydro-serving-sdk](https://github.com/Hydrospheredata/hydro-serving-sdk)
 * [hydro-serving-cli](https://github.com/Hydrospheredata/hydro-serving-cli)
 
-## Examples
+### Examples
 
 * [hydro-serving-example](https://github.com/Hydrospheredata/hydro-serving-example)
 
