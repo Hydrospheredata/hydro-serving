@@ -4,9 +4,11 @@ Hydrosphere platform consists of multiple microservices described in [Platform A
 
 Manager, Gateway and Sonar services are written in Scala while other services are written in Python.
 
-You can explore Github issues with `good-first-issue` tag to see  
+You can explore Github issues with `good-first-issue` tag to check out where to start.  
 
 ## The following repositories are open for contribution
+
+Check CONTRIBUTING.md inside of the repo to which you will contribute to get any additional information.
 
 ### Umbrella
 
