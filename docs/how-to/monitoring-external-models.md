@@ -6,7 +6,7 @@ We can use monitoring to track the behavior of external models running outside o
 
 We assume you already have:
 
-* a [deployed](../install/platform.md) instance of the Hydrosphere platform with the Sonar component enabled;
+* a [deployed](../platform/) instance of the Hydrosphere platform with the Sonar component enabled;
 * a running external model, capable of producing predictions. Inputs and outputs of that model will be fed into Hydrosphere for monitoring purposes. 
 
 ## Model registration

@@ -1,9 +1,9 @@
-# Hydrosphere Platform
+# Installation
 
 The Hydrosphere platform can be installed in the following orchestrator's:
 
-1. [Docker Compose](platform.md#docker-installation)
-2. [Kubernetes](platform.md#kubernetes-installation)
+1. [Docker Compose](./#docker-installation)
+2. [Kubernetes](./#kubernetes-installation)
 
 ## Docker installation
 

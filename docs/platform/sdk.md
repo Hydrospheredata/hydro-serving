@@ -17,7 +17,7 @@ $ pip install hydrosdk
 
 ## Usage
 
-You can access the locally deployed Hydrosphere platform from previous @ref:[steps](platform.md) by running the following code:
+You can access the locally deployed Hydrosphere platform from previous @ref:[steps](./) by running the following code:
 
 ```python
 from hydrosdk import Cluster, Application 
