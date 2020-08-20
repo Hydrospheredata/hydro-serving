@@ -1,9 +1,5 @@
 # Serving
 
-## UI
-
-![](../.gitbook/assets/ui-service-diagram.png)
-
 ## Gateway
 
 ![](../.gitbook/assets/gateway-service-diagram.png)
