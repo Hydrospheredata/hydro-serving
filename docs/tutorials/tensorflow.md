@@ -77,7 +77,7 @@ Upload the exported model to the cluster.
 
 ```bash
 $ cd {EXPORT_DIR}   # a directory with saved_model.pb file
-$ hs upload --name mnist --runtime hydrosphere/serving-runtime-tensorflow-1.13.1:$project.released_version$
+$ hs upload --name mnist --runtime hydrosphere/serving-runtime-tensorflow-1.13.1:$released_version$
 ```
 
 {% hint style="info" %}

@@ -77,7 +77,7 @@ model are, you have to provide a definition of that model. Create a
 ```yaml
 kind: Model
 name: "increment_model"
-runtime: "hydrosphere/serving-runtime-python-3.7:$project.released_version$"
+runtime: "hydrosphere/serving-runtime-python-3.7:$released_version$"
 install-command: "pip install -r requirements.txt"   # this line will be executed during model build
 payload:   # define all files of your model that has to be packed
   - "src/"

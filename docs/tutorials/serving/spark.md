@@ -46,7 +46,7 @@ Upload the exported model to the cluster.
 
 ```sh
 $ cd {EXPORT_DIR}   # a directory with metadata and stages directories
-$ hs upload --runtime hydrosphere/serving-runtime-spark-2.1.2:$project.released_version$
+$ hs upload --runtime hydrosphere/serving-runtime-spark-2.1.2:$released_version$
 ```
 
 

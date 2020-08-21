@@ -56,7 +56,7 @@ To help Hydrosphere understand, what the inputs and the outputs of your model ar
 ```yaml
 kind: Model
 name: "increment_model"
-runtime: "hydrosphere/serving-runtime-python-3.7:$project.released_version$"
+runtime: "hydrosphere/serving-runtime-python-3.7:$released_version$"
 install-command: "pip install -r requirements.txt"   # this line will be executed during model build
 payload:   # define all files of your model that has to be packed
   - "src/"

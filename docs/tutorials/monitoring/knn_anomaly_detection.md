@@ -69,7 +69,7 @@ payload:
   - "src/"
   - "requirements.txt"
   - "monitoring_model.joblib"
-runtime: "hydrosphere/serving-runtime-python-3.6:$project.released_version$"
+runtime: "hydrosphere/serving-runtime-python-3.6:$released_version$"
 install-command: "pip install -r requirements.txt"
 contract:
   name: "predict"

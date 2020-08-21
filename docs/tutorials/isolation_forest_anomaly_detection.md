@@ -60,7 +60,7 @@ This model also have to be packed with a model definition.
 ```yaml
 kind: Model
 name: nyc_taxi_monitoring
-runtime: "hydrosphere/serving-runtime-python-3.6:$project.released_version$"
+runtime: "hydrosphere/serving-runtime-python-3.6:$released_version$"
 install-command: "pip install -r requirements.txt"
 payload:
   - "src/"

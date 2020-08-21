@@ -126,7 +126,7 @@ $ touch serving.yaml
 ```yaml
 kind: Model
 name: linear_regression
-runtime: "hydrosphere/serving-runtime-python-3.7:$project.released_version$"
+runtime: "hydrosphere/serving-runtime-python-3.7:$released_version$"
 install-command: "pip install -r requirements.txt"
 payload:
   - "src/"
