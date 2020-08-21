@@ -9,6 +9,16 @@ def releaseBuiltDocs(desiredVersion) {
   }
 }
 
+
+def releaseGitbookDocs(desiredVersion) {
+   sh "git checkout docs/${desiredVersion}"
+   // Replace all $released_version$ in .md files to desiredVersion
+   sh "find . -type f -not -path '*/\.*' -name "*.md" -exec sed -i -e 's/\$released_version\$/${desiredVersion}/g' {} +"
+   sh "git merge master"
+   pushSource(repository)
+   sh "git checkout ${env.BRANCH_NAME}"
+}
+
 if (getJobType() == "RELEASE_JOB") {
   node("JenkinsOnDemand") {
     stage("Initialize") {
@@ -24,6 +34,11 @@ if (getJobType() == "RELEASE_JOB") {
         def curVersion = getVersion()
         sh "cd docs && sbt -DappVersion=${curVersion} paradox"
         releaseBuiltDocs(curVersion)
+    }
+
+    stage("Publish gitbook docs") {
+       def curVersion = getVersion()
+       releaseGitbookDocs(curVersion)
     }
 
     stage("Create GitHub Release") {
@@ -82,9 +97,13 @@ if (getJobType() == "RELEASE_JOB") {
       sh "cd docs && sbt -DappVersion=dev paradox"
     }
 
+
     if (env.BRANCH_NAME == "master") {
       stage("Publish documentation as dev version") {
         releaseBuiltDocs("dev")
+      }
+      stage("Publish Gitbook documentation as dev version") {
+        releaseGitbookDocs("dev")
       }
     }
   }
