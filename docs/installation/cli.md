@@ -10,13 +10,13 @@ PyPI: [https://pypi.org/project/hs/](https://pypi.org/project/hs/)
 You can use pip to install `hs`
 
 ```bash
-$ pip install hs
+pip install hs
 ```
 
 To check installation use:
 
 ```bash
-$ hs --version
+hs --version
 ```
 
 ## Usage
