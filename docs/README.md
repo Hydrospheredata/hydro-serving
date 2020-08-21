@@ -10,7 +10,7 @@ What to do next?
 
 1. ⭐️ Checkout and star [Hydrosphere Github Repo](https://github.com/Hydrospheredata/hydro-serving)
 2. 💦 [Get started](getting-started.md) with Hydrosphere
-3. 🥳 Become part of Hydrosphere Slack Community
+3. 🥳 Become part of [Hydrosphere Slack Community](https://join.slack.com/t/hydrospheredata/shared_invite/zt-gg41mrlg-eDz6v6yhkOfoMf~oi2mTug)
 
 ![ML Workflow with Hydrosphere platform](.gitbook/assets/ml_workflow_with_hydrosphere.png)
 
