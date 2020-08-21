@@ -8,5 +8,9 @@ You can observe those models deployed as metrics in your monitoring dashboard. T
 
 If these values of this metric deviate significantly from the average, you can tell that you experience a data drift and need to re-evaluate your ML pipeline to check for errors.
 
+### Supported Models
+
+Right now Auto OD feature works only for Models with numerical scalar fields.
+
 
 

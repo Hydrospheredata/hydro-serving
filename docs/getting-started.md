@@ -10,7 +10,7 @@ On this page you will learn how to deploy your first model on the Hydrosphere pl
 
 ## Before you start
 
-We assume you already have a [deployed](platform/) instance of the Hydrosphere platform and a [CLI](platform/cli.md) on your local machine.
+We assume you already have a [deployed](installation/) instance of the Hydrosphere platform and a [CLI](installation/cli.md) on your local machine.
 
 To let `hs` know where the Hydrosphere platform runs, configure a new `cluster` entity.
 

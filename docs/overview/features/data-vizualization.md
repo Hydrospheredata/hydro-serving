@@ -1,4 +1,4 @@
-# Data Vizualization
+# Data Visualization
 
 Data Projection is a service that **visualizes high-dimensional data in a 2D scatter plot** with an automatically trained transformer to let you evaluate the data structure and spot clusters, outliers, novel data, or any other patterns. This is especially helpful if your model works with high-dimensional data, such as images or text embeddings.
 

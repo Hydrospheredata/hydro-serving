@@ -12,5 +12,5 @@ Hydrosphere is a platform for deploying, versioning and monitoring your machine 
 
 ![ML Workflow with Hydrosphere platform](.gitbook/assets/ml_workflow_with_hydrosphere.png)
 
-Check [What Hydrosphere is](overview/#what-is-hydrosphere) or [Installation instructions](platform/) to learn more about Hydrosphere platform.
+Check [What Hydrosphere is](overview/#what-is-hydrosphere) or [Installation instructions](installation/) to learn more about Hydrosphere platform.
 

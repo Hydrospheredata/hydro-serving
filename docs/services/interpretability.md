@@ -6,11 +6,11 @@ Hydrosphere Interpretability is not available as an open-source solution. If you
 
 ## Explanations
 
-
+TODO
 
 ## Data Explanations
 
+TODO
 
 
-![](https://github.com/Hydrospheredata/hydro-serving/tree/54b7457851ad9de078cd092f083b8492dea6edca/docs/services/interpretability/images/explanations_screenshot.png)
 

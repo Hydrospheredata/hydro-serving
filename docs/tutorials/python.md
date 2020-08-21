@@ -4,7 +4,7 @@ A Python model is a model that is backed with a Python runtime. You can create a
 
 ## Before you start
 
-We assume you already have a @ref[deployed](../platform/) instance of the Hydrosphere platform and a @ref[CLI](../platform/cli.md) on your local machine.
+We assume you already have a @ref[deployed](../installation/) instance of the Hydrosphere platform and a @ref[CLI](../installation/cli.md) on your local machine.
 
 To let `hs` know where the Hydrosphere platform runs, configure a new `cluster` entity.
 
