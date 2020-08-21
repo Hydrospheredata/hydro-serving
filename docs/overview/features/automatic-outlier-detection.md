@@ -1,6 +1,8 @@
 # Automatic Outlier Detection
 
-Hydrosphere Monitoring includes monitoring every request going through your platform. Every request is analyzed by an automatically generated based on training data provided outlier detection model.
+For each model with uploaded training data, Hydrosphere creates an outlier detection metric, which assigns an outlier score to each request. Request is labelled as an outlier if the outlier score is greater than the 97th percentile of training data outlier scores distribution.  
+
+![](../../.gitbook/assets/auto_od_feature.gif)
 
 You can observe those models deployed as metrics in your monitoring dashboard. These metrics provide you with information about how novel/anomalous your data is.
 
