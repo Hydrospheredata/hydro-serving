@@ -14,7 +14,7 @@ To install Hydrosphere using `docker-compose`, you should have the following pre
 
 ### Install from releases
 
-1. Download the latest $released_version$ release from the
+1. Download the latest $released\_version$ release from the
 
    [releases page](https://github.com/Hydrospheredata/hydro-serving/releases);
 

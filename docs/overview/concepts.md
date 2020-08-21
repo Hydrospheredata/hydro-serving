@@ -46,13 +46,13 @@ For each Application, there are publicly available HTTP and gRPC endpoints that 
 
 ### Deployment Configurations
 
-A **Deployment Configuration** is a collection of Kubernetes settings that you can set for your Servables and Model Versions used in stages of Applications.
+A **Deployment Configuration** is a collection of Kubernetes settings that you can set for your Servables and Model Versions used inside of Application stages.
 
 Deployment Configuration covers:
 
 * Horizontal Pod Autoscaler specs
 * Container Specs 
-  * Resource requirements - limits and requests 
+  * Resource requirements: limits and requests 
 * Pod Specs
   * Node Selectors
   * Affinity

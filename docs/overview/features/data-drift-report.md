@@ -18,3 +18,7 @@ Drift report uses multiple different tests with p=.95 for different features:
 * Chi-Square test
 * Unseen categories
 
+### Supported Models
+
+Right now Drift Report feature works only for Models with numerical scalar fields.
+

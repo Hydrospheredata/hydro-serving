@@ -1,6 +1,6 @@
 # Write definitions
 
-Resource definitions describe Hydrosphere entities. An entity could be your model, application, or deployment configuration. Each definition is defined via `.yaml` file.
+[Resource definitions](../overview/concepts.md#resource-definitions) describe Hydrosphere entities. An entity could be your model, application, or deployment configuration. Each definition is defined via `.yaml` file.
 
 ## Base definition
 
@@ -344,10 +344,5 @@ pod:
     operator: Exists
     effect: PreferNoSchedule
     tolerationSeconds: 30
-
 ```
-
-
-
-
 

@@ -196,6 +196,12 @@ If you cannot find your newly uploaded model and it is listed on your models' pa
 
 Invoking applications is available via different interfaces. For this tutorial, we will cover calling the created Application by gRPC via our Python SDK.
 
+To install SDK run
+
+```text
+pip install hydrosdk
+```
+
 Define a gRPC client on your side and make a call from it.
 
 {% code title="send\_data.py" %}
@@ -214,12 +220,6 @@ for sample in X:
     print(y)
 ```
 {% endcode %}
-
-
-
-## Using Deployment Configurations
-
-TODO
 
 ## Getting Started with Monitoring
 
