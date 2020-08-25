@@ -57,6 +57,7 @@ We have not yet installed the necessary libraries for our model. In your `logist
 numpy~=1.18
 scipy==1.4.1
 scikit-learn~=0.23
+joblib~=0.15
 ```
 {% endcode %}
 
