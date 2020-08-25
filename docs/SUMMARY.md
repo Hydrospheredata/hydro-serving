@@ -16,6 +16,7 @@
   * [Python SDK](installation/sdk.md)
 * [Getting Started](getting-started.md)
 * [Tutorials](tutorials/README.md)
+  * [A/B Analysis for a recommendation model](tutorials/a-b-analysis-for-a-recommendation-model.md)
   * [Using Deployment Configurations](tutorials/dep-config-scalable.md)
   * [Serving Tensorflow model](tutorials/tensorflow.md)
   * [Serving Python model](tutorials/python.md)
