@@ -73,16 +73,26 @@ def get_top_rank_item(user_id):
 ```
 {% endcode %}
 
+
+
+{% code title="setup\_runtime.sh" %}
+```bash
+apt install --yes gcc
+pip install -r requirements.txt
+```
+{% endcode %}
+
 {% code title="serving.yaml" %}
 ```yaml
 kind: Model
 name: movie_rec
 runtime: hydrosphere/serving-runtime-python-3.7:2.3.2
-install-command: pip install -r requirements.txt
+install-command: chmod a+x setup_runtime.sh && ./setup_runtime.sh
 payload:
   - src/
   - requirements.txt
   - model.joblib
+  - setup_runtime.sh
 contract:
   name: get_top_rank_item
   inputs:
@@ -165,8 +175,7 @@ predictor = app.predictor()
 
 user_ids = np.arange(0, 943)
 
-simulated_prod_requests = np.random.choice(user_ids, 2000, replace=True)
-for uid in tqdm(simulated_prod_requests):
+for uid in tqdm(np.random.choice(user_ids, 2000, replace=True)):
     result = predictor.predict({"user_id": uid})
 ```
 
