@@ -1,24 +1,31 @@
+---
+description: 'Estimated completion time: 11m.'
+---
+
 # Using Deployment Configurations
 
 {% hint style="warning" %}
 This tutorial is relevant only for k8s installed Hydrosphere. Please refer to [How to Install Hydrosphere on Kubernetes cluster](../installation/#kubernetes-installation)
 {% endhint %}
 
+This tutorial provides a walkthrough of how user can configure deployed Applications.
+
+ Step by step we will : 
+
+1. Train and upload an example [model version](../overview/concepts.md#models-and-model-versions)
+2. Create a [Deployment Configuration](../overview/concepts.md#deployment-configurations)
+3. Create an [Application](../overview/concepts.md#applications) from uploaded model version with previously created deployment configuration
+4. Examine settings of Kubernetes cluster
+
 ## Upload Model
 
-```yaml
-dep_config_tutorial
-├── model.joblib
-├── train.py
-├── requirements.txt
-├── serving.yaml
-└── src
-    └── func_main.py
-```
+In this section we describe resources required to create and upload an example model used in further sections. If you have no prior experience with uploading models to Hydrosphere platform we suggest you visit the [Getting Started Tutorial](../getting-started.md).
+
+Here are the resources used to train `sklearn.ensemble.GradientBoostingClassifier` and upload it to Hydrosphere cluster.
 
 {% tabs %}
 {% tab title="requirements.txt" %}
-
+`requirements.txt` is a list of Python dependencies used during the process of building model image.
 
 ```text
 numpy~=1.18
@@ -28,7 +35,7 @@ scikit-learn~=0.23
 {% endtab %}
 
 {% tab title="serving.yaml" %}
-
+`serving.yaml` is a[ resource definition](../overview/concepts.md#resource-definitions) that describes how model should be built and uploaded to Hydrosphere platform.
 
 {% code title="serving.yaml" %}
 ```yaml
@@ -55,7 +62,9 @@ contract:
 {% endtab %}
 
 {% tab title="train.py" %}
+`train.py` is used to generate a `model.joblib` which is loaded from `func_main.py` during model serving.
 
+Run `python train.py` to generate `model.joblib`
 
 {% code title="train.py" %}
 ```python
@@ -79,7 +88,7 @@ joblib.dump(model, "model.joblib")
 {% endtab %}
 
 {% tab title="func\_main.py" %}
-
+`func_main.py` is a script which serves requests and produces responses. 
 
 {% code title="func\_main.py" %}
 ```python
@@ -101,16 +110,67 @@ def infer(x):
 {% endtab %}
 {% endtabs %}
 
+Our folder structure should look like this.
+
+{% hint style="info" %}
+Do not forget to run `python train.py` to generate `model.joblib`!
+{% endhint %}
+
+```yaml
+dep_config_tutorial
+├── model.joblib
+├── train.py
+├── requirements.txt
+├── serving.yaml
+└── src
+    └── func_main.py
+```
+
+After we have made sure that all files are placed correctly, we can upload the model to the Hydrosphere platform by running `hs upload` from command line.
+
+```bash
+hs upload
+```
+
 ## Create Deployment Configuration
 
-{% code title="dep\_config.yaml" %}
-```text
+Next, we are going to create and upload an instance of [Deployment Configuration](../overview/concepts.md#deployment-configurations) to Hydrosphere platform.
+
+Deployment Configurations describe with which Kubernetes settings Hydrosphere should deploy [servables](../overview/concepts.md#servable). You can specify Pod [Affinity](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#affinity-v1-core) and [Tolerations](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#toleration-v1-core), number of desired pods in deployment, [ResourceRequirements](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#resourcerequirements-v1-core) for the model container, and [HorizontalPodAutoScaler](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#horizontalpodautoscalerspec-v1-autoscaling) settings.
+
+Created Deployment Configurations can be attached to Servables and Model Variants inside of Application. 
+
+Deployment Configurations are immutable and cannot be changed after they've been uploaded to the Hydrosphere platform. 
+
+You can create and upload Deployment Configuration to Hydrosphere via [YAML Resource definition](../how-to/write-definitions.md#kind-deploymentconfiguration) or via [Python SDK](../installation/sdk.md).
+
+For this tutorial we'll create a deployment configuration with 4 initial pods per deployment and HPA.
+
+{% tabs %}
+{% tab title="YAML Resource Definition" %}
+Create the deployment configuration resource definition:
+
+{% code title="deployment\_configuration.yaml" %}
+```yaml
 kind: DeploymentConfiguration
 name: my-dep-config
-...
+deployment:
+  replicaCount: 2
+hpa:
+  minReplicas: 2
+  maxReplicas: 4
+  cpuUtilization: 70
 ```
 {% endcode %}
 
+And upload it to the Hydrosphere platform via
+
+```bash
+hs apply -f deployment_configuration.yaml
+```
+{% endtab %}
+
+{% tab title="Python SDK" %}
 ```python
 from hydrosdk import Cluster, DeploymentConfigurationBuilder
 
@@ -123,17 +183,34 @@ dep_config = dep_config_builder. \
              min_replicas=2,
              target_cpu_utilization_percentage=70).build()
 ```
+{% endtab %}
+{% endtabs %}
 
 ## Create an Application
+
+{% tabs %}
+{% tab title="YAML Resource Definition" %}
+Create the application resource definition
 
 {% code title="application.yaml" %}
 ```yaml
 kind: Application
 name: my-app-with-config
-....
+pipeline:
+  - - model: my-model:1
+      weight: 100
+      deploymentConfiguartion: my-config
 ```
 {% endcode %}
 
+And upload it to the Hydrosphere platform via
+
+```bash
+hs apply -f application.yaml
+```
+{% endtab %}
+
+{% tab title="Python SDK" %}
 ```python
 from application import ApplicationBuilder, ExecutionStageBuilder
 from hydrosdk import ModelVersion, Cluster, DeploymentConfiguration
@@ -148,12 +225,14 @@ stage = ExecutionStageBuilder().with_model_variant(model_version=my_model,
                                                    
 app = ApplicationBuilder(cluster, "my-app-with-config").with_stage(stage).build()
 ```
+{% endtab %}
+{% endtabs %}
 
 ## Invoke this application
 
-```python
-from time import time
+To check how our deployment config works we'll send a series of requests to our deployed application via Python SDK
 
+```python
 import numpy as np
 import pandas as pd
 from hydrosdk import Cluster, Application
@@ -165,15 +244,10 @@ predictor = app.predictor()
 
 X = pd.read_csv("training_data.csv")
 
-latencies = []
 
-for sample in X[:100].itertuples(index=False):
+for sample in X[:1000].itertuples(index=False):
     x = np.array(sample)
-
-    t_start = time()
     y = predictor.predict({"x": x})
-    t_end = time()
-    latencies.append(t_end - t_start)
 
 ```
 
