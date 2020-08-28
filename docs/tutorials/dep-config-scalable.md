@@ -4,10 +4,6 @@ description: 'Estimated completion time: 11m.'
 
 # Using Deployment Configurations
 
-{% hint style="warning" %}
-This tutorial is relevant only for k8s installed Hydrosphere. Please refer to [How to Install Hydrosphere on Kubernetes cluster](../installation/#kubernetes-installation)
-{% endhint %}
-
 This tutorial provides a walkthrough of how user can configure deployed Applications.
 
  Step by step we will : 
@@ -16,6 +12,15 @@ This tutorial provides a walkthrough of how user can configure deployed Applicat
 2. Create a [Deployment Configuration](../overview/concepts.md#deployment-configurations)
 3. Create an [Application](../overview/concepts.md#applications) from uploaded model version with previously created deployment configuration
 4. Examine settings of Kubernetes cluster
+
+## Prerequisites
+
+{% hint style="warning" %}
+This tutorial is relevant only for k8s installed Hydrosphere. Please refer to [How to Install Hydrosphere on Kubernetes cluster](../installation/#kubernetes-installation)
+{% endhint %}
+
+* [Hydrosphere platform installed in Kubernetes cluster](../installation/#kubernetes-installation)
+* [Python SDK](../installation/sdk.md#installation)
 
 ## Upload Model
 

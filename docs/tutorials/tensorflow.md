@@ -4,7 +4,7 @@ Tensorflow model is a model that is backed with a Tensorflow runtime. You can cr
 
 ## Before you start
 
-We assume you already have a @ref[deployed](../installation/) instance of the Hydrosphere platform and a @ref[CLI](../installation/cli.md) on your local machine.
+We assume you already have a [deployed](../installation/) instance of the Hydrosphere platform and a [CLI](../installation/cli.md) on your local machine.
 
 To let `hs` know where the Hydrosphere platform runs, configure a new `cluster` entity.
 
@@ -81,7 +81,7 @@ hs upload --name mnist --runtime hydrosphere/serving-runtime-tensorflow-1.13.1:$
 ```
 
 {% hint style="info" %}
-You can find all available Tensorflow runtime versions @ref[here](../reference/runtimes.md).
+You can find all available Tensorflow runtime versions [here](../reference/runtimes.md).
 {% endhint %}
 
 Now the model is uploaded to the cluster, but it is not yet available for prediction.
@@ -91,7 +91,7 @@ Now the model is uploaded to the cluster, but it is not yet available for predic
 To deploy a model as a microservice, you need to create an application. You can create it manually via Hydrosphere UI, or by providing an application manifest.
 
 ```bash
-$ hs apply -f - <<EOF
+hs apply -f - <<EOF
 kind: Application
 name: mnist_app
 singular:

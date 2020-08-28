@@ -1,6 +1,8 @@
 # Write definitions
 
-[Resource definitions](../overview/concepts.md#resource-definitions) describe Hydrosphere entities. An entity could be your model, application, or deployment configuration. Each definition is defined via `.yaml` file.
+[Resource definitions](../overview/concepts.md#resource-definitions) describe Hydrosphere entities. 
+
+An entity could be your model, application, or deployment configuration. Each definition is represented by a `.yaml` file.
 
 ## Base definition
 
@@ -214,7 +216,46 @@ In this application, 100% of the traffic will be forwarded to the `claims-prepro
 
 ## kind: DeploymentConfiguration
 
-**Work in Progress**
+The DeploymentConfiguration resource definition **can** contain the following fields:
+
+* `hpa`: An object defining [HorizontalPodAutoscalerSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#horizontalpodautoscalerspec-v1-autoscaling)
+* `container`: An object defining settings applied on a container level
+* `deployment`: An object defining settings applied on a deployment level
+* `pod`: An object defining settings applied on a pod level
+
+### hpa object
+
+hpa object closely resembles the Kubernetes [HorizontalPodAutoscalerSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#horizontalpodautoscalerspec-v1-autoscaling) object
+
+hpa object **must** contain:
+
+* `minReplicas` : minReplicas is the lower limit for the number of replicas to which the autoscaler can scale down;
+* `maxReplicas` : integer, upper limit for the number of pods that can be set by the autoscaler; cannot be smaller than minReplicas;
+* `cpuUtilization` : integer from 1 to 100, target average CPU utilization \(represented as a percentage of requested CPU\) over all the pods; if not specified the default autoscaling policy will be used.
+
+### container object
+
+container object can contain:
+
+* `resources` : object with `limits` and `requests` fields. Closely resembles the k8s [ResourceRequirements](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#resourcerequirements-v1-core) object 
+
+### pod object
+
+hpa object is similar to the Kubernetes [PodSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#podspec-v1-core) object
+
+pod object can contain
+
+* `nodeSelector` : [selector](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#nodeselector-v1-core) which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. [More info](https://kubernetes.io/docs/concepts/configuration/assign-pod-node/).
+* `affinity` : pod's scheduling constraints. Represented by an [Affinity](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#affinity-v1-core) object
+* `tolerations` : Array of [Tolerations](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#toleration-v1-core)
+
+### deployment object
+
+deployment object **must** contain:
+
+* `replicaCount` : integer, number of desired pods. This is a pointer to distinguish between explicit zero and not specified. Defaults to 1.
+
+### Example
 
 The example below shows how a deployment configuration can be defined.
 
@@ -287,7 +328,7 @@ pod:
             matchLabels:
               key: a
             matchExpressions:
-            - key: kek
+            - key: key1
               operator: In
               values:
               - a
@@ -303,14 +344,14 @@ pod:
       requiredDuringSchedulingIgnoredDuringExecution:
       - labelSelector:
           matchExpressions:
-          - key: valyue
+          - key: value
             operator: Exists
           - key: key2
             operator: NotIn
             values:
             - a
             - b
-          - key: kek2
+          - key: key3
             operator: DoesNotExist
         namespaces:
         - namespace1
@@ -322,12 +363,12 @@ pod:
             matchLabels:
               key: a
             matchExpressions:
-            - key: kek
+            - key: key
               operator: In
               values:
               - a
               - b
-            - key: kek
+            - key: key2
               operator: NotIn
               values:
               - b
