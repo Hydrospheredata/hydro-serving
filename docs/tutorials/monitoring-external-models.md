@@ -473,7 +473,7 @@ This step is **optional**. If you wish to assign a custom monitoring metric to a
 
 ### Using Hydrosphere UI
 
-To find out how to assign metrics using Hydrosphere UI, refer to [this](knn_anomaly_detection.md#ui) page.
+To find out how to assign metrics using Hydrosphere UI, refer to [this](custom_metric.md#ui) page.
 
 ### Using HTTP endpoint
 
