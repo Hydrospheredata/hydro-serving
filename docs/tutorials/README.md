@@ -4,7 +4,7 @@ On this page you will find articles that will help you to get started with the H
 
 | Tutorial | Description |
 | :--- | :--- |
-| [Serving Python Model](python.md) | TODO |
+| [Serving Python Model]() | TODO |
 | [Serving Tensorflow Model](tensorflow.md) | TODO |
 | [Monitoring with a custom KNN-based metric](knn_anomaly_detection.md) | TODO |
 | [Monitoring with a custom Isolation Forest metric](isolation_forest_anomaly_detection.md) | TODO |
