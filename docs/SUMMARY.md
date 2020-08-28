@@ -11,6 +11,7 @@
     * [Monitoring Dashboard](overview/features/monitoring-dashboard.md)
     * [Automatic Outlier Detection](overview/features/automatic-outlier-detection.md)
     * [Data Visualization](overview/features/data-vizualization.md)
+    * [Kubeflow components](overview/features/kubeflow-components.md)
 * [Installation](installation/README.md)
   * [CLI](installation/cli.md)
   * [Python SDK](installation/sdk.md)
