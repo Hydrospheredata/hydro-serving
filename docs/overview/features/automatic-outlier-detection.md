@@ -10,7 +10,7 @@ If these values of this metric deviate significantly from the average, you can t
 
 ### Supported Models
 
-Right now Auto OD feature works only for Models with numerical scalar fields.
+Right now Auto OD feature works only for Models with numerical scalar fields and uploaded training data.
 
 
 
