@@ -110,6 +110,12 @@ Data coming through deployed Model Versions can be monitored with metrics.
 
 Every request is evaluated against all metrics assigned to the model.
 
+{% hint style="danger" %}
+ToDO concepts
+{% endhint %}
+
+**Auto OD Metric** is a TODO
+
 ### Checks
 
 A **check** is a boolean condition associated with a field of a Model Version signature which shows for every request whether field value is acceptable or not.
