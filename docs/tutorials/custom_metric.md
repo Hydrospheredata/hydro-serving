@@ -226,8 +226,12 @@ hs upload
 
 Let's create a monitoring metric for our pre-deployed classification model.
 
-### UI
+{% tabs %}
+{% tab title="SDK" %}
+TODO
+{% endtab %}
 
+{% tab title="UI" %}
 1. From the _Models_ section, select the target model you would like to deploy and select the desired model version;
 2. Open the _Monitoring_ tab.
 3. At the bottom of the page click the `Add Metric` button;
@@ -238,6 +242,8 @@ Let's create a monitoring metric for our pre-deployed classification model.
    4. Select a comparison operator `Greater`. This means that if you have a metric value greater than a specified threshold, an alarm should be fired;
    5. Set the threshold value. In this case it should be equal to the value of `monitoring_model.threshold_`.
    6. Click the `Add Metric` button.
+{% endtab %}
+{% endtabs %}
 
 That's it. Now you have a monitored income classifier deployed in the Hydrosphere platform.
 
