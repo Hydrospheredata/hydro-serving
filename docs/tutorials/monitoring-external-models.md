@@ -200,15 +200,10 @@ Accept: application/json
             "inputs": [
                 {
                     "name": "in",
-                    "dtype": "DT_INT32",
+                    "dtype": "DT_DOUBLE",
                     "profile": "NUMERICAL",
                     "shape": {
-                        "dim": [
-                            {
-                                "size": 10,
-                                "name": "example"
-                            }
-                        ],
+                        "dim": [],
                         "unknownRank": false
                     }
                 }
@@ -216,7 +211,7 @@ Accept: application/json
             "outputs": [
                 {
                     "name": "out",
-                    "dtype": "DT_INT32",
+                    "dtype": "DT_DOUBLE",
                     "profile": "NUMERICAL",
                     "shape": {
                         "dim": [],
@@ -274,15 +269,10 @@ Content-Type: application/json
             "inputs": [
                 {
                     "name": "in",
-                    "dtype": "DT_INT32",
+                    "dtype": "DT_DOUBLE",
                     "profile": "NUMERICAL",
                     "shape": {
-                        "dim": [
-                            {
-                                "size": 10,
-                                "name": "example"
-                            }
-                        ],
+                        "dim": [],
                         "unknownRank": false
                     }
                 }
@@ -290,7 +280,7 @@ Content-Type: application/json
             "outputs": [
                 {
                     "name": "out",
-                    "dtype": "DT_INT32",
+                    "dtype": "DT_DOUBLE",
                     "profile": "NUMERICAL",
                     "shape": {
                         "dim": [],
