@@ -17,7 +17,7 @@ Hydrosphere offers immediate value to ML-based products:
 * Adds in-depth observability for your production models and data flowing through them 
 * Improves business metrics of ML-based products as a result of a reduction in MTTR and MTTD incidents related to ML models due to early alerts once data drifts happen
 
-## Why do you need Hydrosphere
+## Why Hydrosphere?
 
 Production ML is a dangerous place where numerous things can and usually do go wrong, making issues harder to discover and fix. Hydrosphere automates MLOps in the production part of the ML lifecycle combining best practices of CI/CD and DevOps and putting special emphasis on monitoring performance of ML models after their deployment.
 
