@@ -6,24 +6,57 @@ description: >-
 
 # Getting Started
 
-On this page you will learn how to deploy your first model on the Hydrosphere platform. We will start from scratch and create a simple logistic regression model that will fit our randomly generated data, with some noise added to it. After the training step, we will pack the model, deploy it to the platform, and invoke it locally with a sample client.
+In this tutorial you will learn the basics of working with Hydrosphere. We will prepare an example model for serving, deploy it to Hydrosphere, turn it into an application, invoke it locally and use monitoring. As an example model we will take a simple logistic regression model fit with randomly generated data, with some noise added to it. 
 
-## Before you start
+By the end of this tutorial you will know how to:
 
-We assume you already have a [deployed](installation/) instance of the Hydrosphere platform and a [CLI](installation/cli.md) on your local machine.
+* Prepare a model for Hydrosphere
+* Serve a model on Hydrosphere
+* Create an Application
+* Invoke an Application
+* Use basic monitoring
 
-To let `hs` know where the Hydrosphere platform runs, configure a new `cluster` entity.
+## Prerequisites
+
+For this tutorial you need to have **Hydrosphere platform** deployed and **Hydrosphere CLI** \(`hs`\) installed on your local machine. If you don't have them yet, please follow these guides first: 
+
+* [Installation](https://hydrosphere.gitbook.io/home/installation)
+* [CLI](https://hydrosphere.gitbook.io/home/installation/cli)
+
+To let `hs` know where the Hydrosphere platform runs, configure a new `cluster` entity:
 
 ```bash
 hs cluster add --name local --server http://localhost
 hs cluster use local
 ```
 
+## Before you start
+
+In the next two sections, we will prepare a model for deployment to Hydrosphere. It is important to stick to a specific folder structure during this process to let `hs` parse and upload a model correctly. Make sure that the structure of your local model directory looks like this by the end of the model preparation section:   
+
+```text
+logistic_regression
+├── model.joblib
+├── train.py
+├── requirements.txt
+├── serving.yaml
+└── src
+    └── func_main.py
+```
+
+* **`train.py`** - a training script for our model
+* **`requirements.txt`** - provides dependencies for our model
+* **`model.joblib`** - model artifact that we get as a result of model training
+* **`src/func_main.py`** - functional file to define a function for making model predictions inside `/src`
+* **`serving.yaml`** - a contract file to let Hydrosphere know which function to call from the func\_main.py and let the model manager understand model’s inputs and outputs.
+
 ## Training a model
 
-We can now start working with the logistic regression model. It is a fairly simple model that fits a randomly generated regression data with some noise added to it. For data generation, we will use the `sklearn.datasets.make_regression` \([link](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_regression.html)\) method. 
+While Hydrosphere is a post-training platform, let's start with basic training steps to have shared context. 
 
-First of all, create a directory for the model and add `model.py` in to it.
+As mentioned before, we will use the logistic regression model `sklearn.LogisticRegression`. For data generation, we will use the `sklearn.datasets.make_regression` \([link](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_regression.html)\) method. 
+
+First, create a directory for your model and create a new `train.py` in it:
 
 ```bash
 mkdir logistic_regression
@@ -31,7 +64,7 @@ cd logistic_regression
 touch train.py
 ```
 
-Let's choose a simple `sklearn.LogisticRegression`  model as an example. Put the following code in your `train.py` file.
+Put the following code for your model in the `train.py` file:
 
 {% code title="train.py" %}
 ```python
@@ -50,7 +83,7 @@ joblib.dump(model, "model.joblib")
 ```
 {% endcode %}
 
-We have not yet installed the necessary libraries for our model. In your `logistic_regression` folder, create a `requirements.txt` file with the following contents:
+Next, we need to install all the necessary libraries for our model. In your `logistic_regression` folder, create a `requirements.txt` file and provide dependencies inside:
 
 {% code title="requirements.txt" %}
 ```text
@@ -61,36 +94,29 @@ joblib~=0.15
 ```
 {% endcode %}
 
-Install all dependencies to your local environment.
+Install all the dependencies to your local environment:
 
 ```bash
 $ pip install -r requirements.txt
 ```
 
-Train the model.
+Train the model:
 
 ```bash
 $ python train.py
 ```
 
-As soon as the script finishes, you will get a model saved to a `model.joblib` file.
+As soon as the script finishes, you will get the model saved to a `model.joblib` file.
 
 ## Model preparation
 
-Every model in a cluster is deployed as an individual container. After a request is sent from the client application, it is passed to the appropriate Docker container with your model deployed on it. An important detail is that all model files are stored in the `/model/files` directory inside the container, so we will look there to load the model.
+Every model in the Hydrosphere cluster is deployed as an individual container. After a request is sent from the client application, it is passed to the appropriate Docker container with your model deployed on it. An important detail is that all model files are stored in the `/model/files` directory inside the container, so we will look there to load the model.
 
-To run this model we will use a Python runtime that can execute any Python code you provide. Preparation of a model is pretty straightforward, though you have to follow some rules:
+To run our model we will use a Python runtime that can execute any Python code you provide. Model preparation is pretty straightforward, but you have to create a specific folder structure described in the "Before you start" section. 
 
-1. Stick to the specific folder structure to let `hs` parse and upload
+### Provide the main functional file 
 
-   it correctly;
-
-2. Provide necessary dependencies with the `requirements.txt`;
-3. Provide a contract file to let the model manager understand the
-
-   model's inputs and outputs.
-
-We will begin with the main functional file.
+Let's create the main functional file `func_main.py`in the `/src` folder of your model directory:
 
 ```bash
 mkdir src
@@ -98,14 +124,14 @@ cd src
 touch func_main.py
 ```
 
-Hydrosphere communicates with the model using [TensorProto](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/tensor.proto) messages. If you want to perform a transformation on the received TensorProto message, you will have to retrieve its contents, perform a transformation on them and pack the result back to the TensorProto message. To do that you have to define a function that will be invoked every time Hydrosphere handles a request and passes it to the model. Inside that function, you have to call a `predict` \(or similar\) method of your model and return your predictions.
+Hydrosphere communicates with the model using [TensorProto](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/tensor.proto) messages. If you want to perform a transformation on the received TensorProto message, you will have to retrieve its contents, perform a transformation on it and pack the result back to the TensorProto message. To do that you have to define a function that will be invoked every time Hydrosphere handles a request and passes it to the model. Inside that function, you have to call a `predict` \(or similar\) method of your model and return your predictions:
 
 {% code title="func\_main.py" %}
 ```python
 import joblib
 import numpy as np
 
-# Load model once
+# Load a model once
 model = joblib.load("/model/files/model.joblib")
 
 
@@ -118,14 +144,20 @@ def infer(x1, x2):
 ```
 {% endcode %}
 
-We do initialization of the model outside of the serving function so this process will not be triggered every time a new request comes in. We do that on step \(0\). The serving function `infer` takes the actual request, unpacks it \(1\), makes a prediction \(2\), packs the answer back \(3\) and returns it \(4\). There is no strict rule for function naming, it just has to be a valid Python function name.
+Inside `func_main.py` we initialize our model outside of the serving function `infer`, so that this process will not be triggered every time a new request comes in. The `infer` function takes the actual request, unpacks it, makes a prediction, packs the answer back and returns it. There is no strict rule for naming this function, it just has to be a valid Python function name.
 
-If you're wondering how Hydrosphere will understand which function to call from `func_main.py` file, the answer is that we have to provide a **contract**. A contract is a file that defines the inputs and the outputs of the model, a signature function and some other metadata required for serving. Go to the root directory of the model and create a `serving.yaml` file.
+### Provide a contract file
+
+To let Hydrosphere know which function to call from the `func_main.py` file,  we have to provide a **contract**. A contract file defines a function to call along with inputs and outputs of a model, as well as a signature function and some other metadata required for serving. C
+
+Create a contract file `serving.yaml`in the root of your model directory`logistic_regression`:
 
 ```bash
 cd ..
 touch serving.yaml
 ```
+
+Inside `serving.yaml` we also provide`requirements.txt` and`model.joblib` as payload files to our model:
 
 {% code title="serving.yaml" %}
 ```yaml
@@ -157,53 +189,43 @@ contract:
 ```
 {% endcode %}
 
-Here you can see that we have provided a `requirements.txt` and a `model.h5` as payload files to our model.
-
-The overall structure of our model now should look like this:
-
-```text
-logistic_regression
-├── model.joblib
-├── train.py
-├── requirements.txt
-├── serving.yaml
-└── src
-    └── func_main.py
-```
+At this point make sure that the overall structure of your local model directory looks as shown in the "Before you start" section.  
 
 {% hint style="info" %}
 Although we have `train.py` inside the directory, it will not be uploaded to the cluster since we did not specify it in the contract's payload.
 {% endhint %}
 
-## Serving the model
+## Serving a Model
 
-Now we can upload the model. Inside the `logistic_regression` directory, execute the following command:
+Now we are ready to upload our model to Hydrosphere. To do so, inside the  `logistic_regression` model directory run:
 
 ```bash
 hs upload
 ```
 
-You can open the [http://localhost/models](http://localhost/models) page to see the uploaded model.
+To see your uploaded model, open [http://localhost/models](http://localhost/models).
 
-Once you have opened it, you can create an **application** for it. Basically, an application represents an endpoint to your model, so you can invoke it from anywhere. To learn more about advanced features, go to the [Applications](https://github.com/Hydrospheredata/hydro-serving/tree/54b7457851ad9de078cd092f083b8492dea6edca/docs/getting-started/concepts/applications.md) page.
+If you cannot find your newly uploaded model and it is listed on your models' page, it is probably still in the building stage. Wait until the model changes its status to `Released`, then you can use it.
+
+## Creating an Application
+
+Once you have opened your model in the UI, you can create an **application** for it. Basically, an application represents an endpoint to your model, so you can invoke it from anywhere. To learn more about advanced features, go to the [Applications](https://github.com/Hydrospheredata/hydro-serving/tree/54b7457851ad9de078cd092f083b8492dea6edca/docs/getting-started/concepts/applications.md) page.
 
 ![Creating an Application from the uploaded model](.gitbook/assets/application_creation.gif)
 
-Open [http://localhost/applications](http://localhost/applications) and press the `Add New Application` button. In the opened window select the `logistic_regression` model, name your application `logistic_regression` and click the creation button.
-
-If you cannot find your newly uploaded model and it is listed on your models' page, it is probably still in the building stage. Wait until the model changes its status to `Released`, then you can use it.
+Open [http://localhost/applications](http://localhost/applications) and press the `Add New Application` button. In the opened window select the `logistic_regression` model, name your application `logistic_regression` and click the "Add Application" button.
 
 ## Invoking an application
 
 Invoking applications is available via different interfaces. For this tutorial, we will cover calling the created Application by gRPC via our Python SDK.
 
-To install SDK run
+To install SDK run:
 
 ```text
 pip install hydrosdk
 ```
 
-Define a gRPC client on your side and make a call from it.
+Define a gRPC client on your side and make a call from it:
 
 {% code title="send\_data.py" %}
 ```python
@@ -230,13 +252,15 @@ Hydrosphere Platform has multiple tools for data drift monitoring:
 2. Automatic Outlier Detection
 3. Profiling
 
-In this tutorial, we'll look at the monitoring dashboard and Automatic Outlier Detection feature.
+In this tutorial, we'll look at the **monitoring dashboard** and **Automatic Outlier Detection** feature.
 
 {% hint style="info" %}
 Hydrosphere Monitoring relies heavily on training data. Users **must** provide training data to enable monitoring features.
 {% endhint %}
 
-To provide training data users need to add the `training-data=<path_to_csv>`  field to the `serving.yaml` file. Run following script to save training data used in previous steps as a `trainig_data.csv` file.
+### Provide training data
+
+To provide training data users need to add the `training-data=<path_to_csv>` field to the `serving.yaml` file. Run the following script to save training data used in previous steps as a `trainig_data.csv` file:
 
 {% code title="save\_training\_data.py" %}
 ```python
@@ -255,7 +279,7 @@ df.to_csv("training_data.csv", index=False)
 ```
 {% endcode %}
 
-Next, we add the training data field to the model definition inside the `serving.yaml` file.
+Next, add the training data field to the model definition inside the `serving.yaml` file:
 
 {% code title="serving.yaml" %}
 ```yaml
@@ -287,21 +311,27 @@ contract:
 ```
 {% endcode %}
 
-Now we can upload the model.Execute the following command to create a new version of `logistic_regresion` model:
+### Upload a model
+
+Now we are ready to upload our model. Run the following command to create a new version of the `logistic_regresion` model:
 
 ```bash
 hs upload
 ```
 
-You can open the [http://localhost/models](http://localhost/models) page to see that there are now two versions of a `logistic_regression` model.
+Open the [http://localhost/models](http://localhost/models) page to see that there are now two versions of the`ogistic_regression` model.
 
-For each model with uploaded training data, Hydrosphere creates an outlier detection metric, which assigns an outlier score to each request. This metric label request as an outlier if the outlier score is greater than the 97th percentile of training data outlier scores distribution.  
+For each model with uploaded training data, Hydrosphere creates an outlier detection metric, which assigns an outlier score to each request. This metric labels a request as an outlier if the outlier score is greater than the 97th percentile of training data outlier scores distribution.  
 
-Let's send some data to our new model version. To do so, we need to update our `logistic_regression` application. To update it, we can go to **Application** tab and click the upgrade button.
+### Update an Application
+
+Let's send some data to our new model version. To do so, we need to update our `logistic_regression` application. To update it, we can go to **Application** tab and click the "Update" button:
 
 ![Upgrading an application stage to a newer version](.gitbook/assets/application_upgrade.gif)
 
-After upgrading our Application, we can reuse our old code to send some data:
+### Send data to Application
+
+After updating our Application, we can reuse our old code to send some data:
 
 {% code title="send\_data.py" %}
 ```python
@@ -320,13 +350,17 @@ for sample in X:
 ```
 {% endcode %}
 
+### Monitor data quality
+
 You can monitor your data quality in the Monitoring Dashboard:
 
 ![](.gitbook/assets/image.png)
 
-Monitoring dashboards plots all requests streaming through a model version which are colored in respect with how "healthy" they are. On the horizontal axis we group our data by batches and on the vertical axis we group data by signature fields. In this plot cells are determined by their batch and field. Cells are colored from green to red, depending on the average request health inside this batch. 
+Monitoring dashboard plots all requests streaming through a model version which are colored in respect with how "healthy" they are. On the horizontal axis we group our data by batches and on the vertical axis we group data by signature fields. In this plot cells are determined by their batch and field. Cells are colored from green to red, depending on the average request health inside this batch. 
 
-To check whether our metric will be able to detect data drifts, let's simulate one and send data from another distribution. To do so, we modify our code slightly:
+### Check data drift detection
+
+To check whether our metric will be able to detect data drifts, let's simulate one and send data from another distribution. To do so, let's slightly modify our code:
 
 {% code title="send\_bad\_data.py" %}
 ```python
@@ -346,5 +380,5 @@ for sample in X:
 ```
 {% endcode %}
 
-You can validate that our model was able to detect data drifts on the monitoring dashboard. 
+You can validate that your model was able to detect data drifts on the monitoring dashboard. 
 

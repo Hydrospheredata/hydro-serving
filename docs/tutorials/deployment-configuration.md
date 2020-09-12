@@ -4,6 +4,10 @@ description: 'Estimated completion time: 11m.'
 
 # Using Deployment Configurations
 
+{% hint style="warning" %}
+This tutorial is relevant only for k8s installed Hydrosphere. Please refer to [How to Install Hydrosphere on Kubernetes cluster](../installation/#kubernetes-installation)
+{% endhint %}
+
 This tutorial provides a walkthrough of how user can configure deployed Applications.
 
  Step by step we will : 
@@ -15,16 +19,12 @@ This tutorial provides a walkthrough of how user can configure deployed Applicat
 
 ## Prerequisites
 
-{% hint style="warning" %}
-This tutorial is relevant only for k8s installed Hydrosphere. Please refer to [How to Install Hydrosphere on Kubernetes cluster](../installation/#kubernetes-installation)
-{% endhint %}
-
 * [Hydrosphere platform installed in Kubernetes cluster](../installation/#kubernetes-installation)
 * [Python SDK](../installation/sdk.md#installation)
 
-## Upload Model
+## Upload a Model
 
-In this section we describe resources required to create and upload an example model used in further sections. If you have no prior experience with uploading models to Hydrosphere platform we suggest you visit the [Getting Started Tutorial](../getting-started.md).
+In this section we describe resources required to create and upload an example model used in further sections. If you have no prior experience with uploading models to Hydrosphere platform we suggest that you visit the [Getting Started Tutorial](../getting-started.md).
 
 Here are the resources used to train `sklearn.ensemble.GradientBoostingClassifier` and upload it to Hydrosphere cluster.
 

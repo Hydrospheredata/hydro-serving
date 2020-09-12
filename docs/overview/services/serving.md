@@ -2,17 +2,17 @@
 
 ## Gateway
 
-![](../.gitbook/assets/gateway-service-diagram.png)
+![](../../.gitbook/assets/gateway-service-diagram.png)
 
 Gateway is a service responsible for routing requests to/from or between Servables and Applications and validating these requests for matching a Model's/Application signature.
 
 The Gateway maps a model’s name to a corresponding container. Whenever it receives a request via HTTP API, GRPC, or Kafka Streams, it communicates with that container via the gRPC protocol.
 
-![Gateway enables data flow between different stages in an Application Pipeline](../.gitbook/assets/application-and-gateway-relation.png)
+![Gateway enables data flow between different stages in an Application Pipeline](../../.gitbook/assets/application-and-gateway-relation.png)
 
 ## Manager
 
-![](../.gitbook/assets/manager-service-diagram-1.png)
+![](../../.gitbook/assets/manager-service-diagram-1.png)
 
 Manager is responsible for:
 

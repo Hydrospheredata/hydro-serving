@@ -1,19 +1,19 @@
 # CLI
 
-`hs` is a command-line interface designed to work with the Hydrosphere platform.
+Hydrosphere CLI, or`hs`,  is a command-line interface designed to work with the Hydrosphere platform.
 
 Source code: [https://github.com/Hydrospheredata/hydro-serving-cli](https://github.com/Hydrospheredata/hydro-serving-cli)  
 PyPI: [https://pypi.org/project/hs/](https://pypi.org/project/hs/)
 
 ## Installation
 
-You can use pip to install `hs`
+Use pip to install `hs`:
 
 ```bash
 pip install hs
 ```
 
-To check installation use:
+Check installation:
 
 ```bash
 hs --version

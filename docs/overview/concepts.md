@@ -22,7 +22,7 @@ Within the Hydrosphere platform, we break down the model to its versions. Each *
 
 ### Runtimes
 
-A **Runtime** is a docker image with the predefined gRPC interface which loads and serves your model.
+A **Runtime** is a Docker image with the predefined gRPC interface which loads and serves your model.
 
 ![Place of Runtimes in the Architecture](../.gitbook/assets/serving_on_various_runtimes.jpg)
 
@@ -32,7 +32,7 @@ We have [implemented](../reference/runtimes.md) a few runtimes, which you can us
 
 **Servable** is a deployed instance of a Model version combined with a Runtime. It exposes a gRPC endpoint that can be used to send requests.
 
-User should not use Servable as-is, since it's are designed to be a building block, rather than inference endpoint. We provide a better alternative to deploy a Model version — Application.
+Users should not use Servables as-is, since they are designed to be building blocks, rather than inference endpoints. We provide a better alternative to deploy a Model version — Application.
 
 ### Applications
 

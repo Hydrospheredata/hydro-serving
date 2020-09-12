@@ -1,6 +1,6 @@
 # Contribution
 
-Hydrosphere platform consists of multiple microservices described in [Platform Architecture section](services/).
+Hydrosphere platform consists of multiple microservices described in [Platform Architecture section](overview/services/).
 
 Manager, Gateway and Sonar services are written in Scala while other services are written in Python.
 
