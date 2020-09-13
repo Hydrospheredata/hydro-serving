@@ -36,6 +36,6 @@
 * [Troubleshooting](troubleshooting.md)
 * [Reference](reference/README.md)
   * [Runtimes](reference/runtimes.md)
-* [Contribution](contribution.md)
-* [Contributing Pull Requests](contribute-pr.md)
+* [Contribution](contribution/README.md)
+  * [Contributing Pull Requests](contribution/contribute-pr.md)
 
