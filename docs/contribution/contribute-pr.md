@@ -1,7 +1,5 @@
 # Contributing Pull Requests
 
-## Contributing Pull Requests
-
 This guide is written for contributing to documentation. It doesn't contain any instructions on installing software prerequisites. If your intended contribution requires any software installations, please refer to their respective official documentation.
 
 **Prerequisites**
