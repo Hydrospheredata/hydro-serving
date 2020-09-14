@@ -168,7 +168,7 @@ hpa:
 ```
 {% endcode %}
 
-And upload it to the Hydrosphere platform via
+To upload it to the Hydrosphere platform, run:
 
 ```bash
 hs apply -f deployment_configuration.yaml
@@ -195,7 +195,7 @@ dep_config = dep_config_builder. \
 
 {% tabs %}
 {% tab title="YAML Resource Definition" %}
-Create the application resource definition
+Create the application resource definition:
 
 {% code title="application.yaml" %}
 ```yaml
@@ -208,7 +208,7 @@ pipeline:
 ```
 {% endcode %}
 
-And upload it to the Hydrosphere platform via
+To upload it to the Hydrosphere platform, run:
 
 ```bash
 hs apply -f application.yaml
@@ -235,7 +235,7 @@ app = ApplicationBuilder(cluster, "my-app-with-config").with_stage(stage).build(
 
 ## Invoke the Application
 
-To check how our deployment config works we'll send a series of requests to our deployed application via Python SDK:
+To check how our deployment configuration works, let's send a series of requests to our deployed application via Python SDK:
 
 ```python
 import numpy as np
