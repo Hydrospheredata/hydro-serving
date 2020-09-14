@@ -8,14 +8,14 @@ description: 'Estimated completion time: 11m.'
 This tutorial is relevant only for k8s installed Hydrosphere. Please refer to [How to Install Hydrosphere on Kubernetes cluster](../installation/#kubernetes-installation)
 {% endhint %}
 
-This tutorial provides a walkthrough of how user can configure deployed Applications.
+This tutorial provides a walkthrough of how a user can configure deployed Applications.
 
- Step by step we will : 
+ Step by step we will: 
 
 1. Train and upload an example [model version](../overview/concepts.md#models-and-model-versions)
 2. Create a [Deployment Configuration](../overview/concepts.md#deployment-configurations)
-3. Create an [Application](../overview/concepts.md#applications) from uploaded model version with previously created deployment configuration
-4. Examine settings of Kubernetes cluster
+3. Create an [Application](../overview/concepts.md#applications) from the uploaded model version with previously created deployment configuration
+4. Examine settings of a Kubernetes cluster
 
 ## Prerequisites
 
@@ -24,9 +24,9 @@ This tutorial provides a walkthrough of how user can configure deployed Applicat
 
 ## Upload a Model
 
-In this section we describe resources required to create and upload an example model used in further sections. If you have no prior experience with uploading models to Hydrosphere platform we suggest that you visit the [Getting Started Tutorial](../getting-started.md).
+In this section, we describe resources required to create and upload an example model used in further sections. If you have no prior experience with uploading models to the Hydrosphere platform we suggest that you visit the [Getting Started Tutorial](../getting-started.md).
 
-Here are the resources used to train `sklearn.ensemble.GradientBoostingClassifier` and upload it to Hydrosphere cluster.
+Here are the resources used to train `sklearn.ensemble.GradientBoostingClassifier` and upload it to the Hydrosphere cluster.
 
 {% tabs %}
 {% tab title="requirements.txt" %}
@@ -115,11 +115,7 @@ def infer(x):
 {% endtab %}
 {% endtabs %}
 
-Our folder structure should look like this.
-
-{% hint style="info" %}
-Do not forget to run `python train.py` to generate `model.joblib`!
-{% endhint %}
+Our folder structure should look like this:
 
 ```yaml
 dep_config_tutorial
@@ -131,7 +127,11 @@ dep_config_tutorial
     └── func_main.py
 ```
 
-After we have made sure that all files are placed correctly, we can upload the model to the Hydrosphere platform by running `hs upload` from command line.
+{% hint style="info" %}
+Do not forget to run `python train.py` to generate `model.joblib`!
+{% endhint %}
+
+After we have made sure that all files are placed correctly, we can upload the model to the Hydrosphere platform by running `hs upload` from the command line.
 
 ```bash
 hs upload
@@ -139,9 +139,9 @@ hs upload
 
 ## Create Deployment Configuration
 
-Next, we are going to create and upload an instance of [Deployment Configuration](../overview/concepts.md#deployment-configurations) to Hydrosphere platform.
+Next, we are going to create and upload an instance of [Deployment Configuration](../overview/concepts.md#deployment-configurations) to the Hydrosphere platform.
 
-Deployment Configurations describe with which Kubernetes settings Hydrosphere should deploy [servables](../overview/concepts.md#servable). You can specify Pod [Affinity](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#affinity-v1-core) and [Tolerations](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#toleration-v1-core), number of desired pods in deployment, [ResourceRequirements](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#resourcerequirements-v1-core) for the model container, and [HorizontalPodAutoScaler](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#horizontalpodautoscalerspec-v1-autoscaling) settings.
+Deployment Configurations describe with which Kubernetes settings Hydrosphere should deploy [servables](../overview/concepts.md#servable). You can specify Pod [Affinity](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#affinity-v1-core) and [Tolerations](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#toleration-v1-core), the number of desired pods in deployment, [ResourceRequirements](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#resourcerequirements-v1-core) for the model container, and [HorizontalPodAutoScaler](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#horizontalpodautoscalerspec-v1-autoscaling) settings.
 
 Created Deployment Configurations can be attached to Servables and Model Variants inside of Application. 
 
@@ -149,7 +149,7 @@ Deployment Configurations are immutable and cannot be changed after they've been
 
 You can create and upload Deployment Configuration to Hydrosphere via [YAML Resource definition](../how-to/write-definitions.md#kind-deploymentconfiguration) or via [Python SDK](../installation/sdk.md).
 
-For this tutorial we'll create a deployment configuration with 4 initial pods per deployment and HPA.
+For this tutorial, we'll create a deployment configuration with 4 initial pods per deployment and HPA.
 
 {% tabs %}
 {% tab title="YAML Resource Definition" %}
@@ -233,9 +233,9 @@ app = ApplicationBuilder(cluster, "my-app-with-config").with_stage(stage).build(
 {% endtab %}
 {% endtabs %}
 
-## Invoke this application
+## Invoke the Application
 
-To check how our deployment config works we'll send a series of requests to our deployed application via Python SDK
+To check how our deployment config works we'll send a series of requests to our deployed application via Python SDK:
 
 ```python
 import numpy as np

@@ -4,7 +4,7 @@ description: 'Estimated completion time: 14 min.'
 
 # A/B Analysis for a recommendation model
 
-In this tutorial we'll show how users can retrospectively compare behaviour of two different models.
+In this tutorial, we'll show how users can retrospectively compare the behavior of two different models.
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ In this tutorial we'll show how users can retrospectively compare behaviour of t
 
 ## Setup A/B Application
 
-### Prepare model for upload
+### Prepare a model for uploading
 
 {% code title="requirements.txt" %}
 ```text
@@ -123,7 +123,7 @@ hs upload
 
 ### Upload Model B
 
-Next, we train and upload new version of our original model with 20 components as `movie_rec:v2`
+Next, we train and upload a new version of our original model with 20 components as `movie_rec:v2`
 
 ```bash
 python train_model.py 20
@@ -138,9 +138,9 @@ hs model list
 
 ### Create an Application
 
-To create an A/B deployment we need to create an [Application](../overview/concepts.md#applications) with single execution stage consisting of two model variants. These model variants are our  [Model A](a-b-analysis-for-a-recommendation-model.md#upload-model-a) and [Model B](a-b-analysis-for-a-recommendation-model.md#upload-model-b) correspondingly.
+To create an A/B deployment we need to create an [Application](../overview/concepts.md#applications) with a single execution stage consisting of two model variants. These model variants are our  [Model A](a-b-analysis-for-a-recommendation-model.md#upload-model-a) and [Model B](a-b-analysis-for-a-recommendation-model.md#upload-model-b) correspondingly.
 
-The following code will create such application
+The following code will create such an application:
 
 ```python
 from hydrosdk import ModelVersion, Cluster
@@ -179,9 +179,9 @@ for uid in tqdm(np.random.choice(user_ids, 2000, replace=True)):
     result = predictor.predict({"user_id": uid})
 ```
 
-## Analyse production data
+## Analyze production data
 
 ### Read Data from parquet
 
-### Visualise differences
+### Visualize differences
 
