@@ -32,7 +32,7 @@ hs cluster use local
 
 ## Before you start
 
-In the next two sections, we will prepare a model for deployment to Hydrosphere. It is important to stick to a specific folder structure during this process to let `hs` parse and upload a model correctly. Make sure that the structure of your local model directory looks like this by the end of the model preparation section:   
+In the next two sections, we will prepare a model for deployment to Hydrosphere. It is important to stick to a specific folder structure during this process to let`hs` parse and upload a model correctly. Make sure that the structure of your local model directory looks like this by the end of the model preparation section:   
 
 ```text
 logistic_regression
@@ -52,11 +52,11 @@ logistic_regression
 
 ## Training a model
 
-While Hydrosphere is a post-training platform, let's start with basic training steps to have shared context. 
+While Hydrosphere is a post-training platform, let's start with basic training steps to have a shared context. 
 
 As mentioned before, we will use the logistic regression model `sklearn.LogisticRegression`. For data generation, we will use the `sklearn.datasets.make_regression` \([link](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_regression.html)\) method. 
 
-First, create a directory for your model and create a new `train.py` in it:
+First, create a directory for your model and create a new `train.py` inside:
 
 ```bash
 mkdir logistic_regression
@@ -124,7 +124,7 @@ cd src
 touch func_main.py
 ```
 
-Hydrosphere communicates with the model using [TensorProto](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/tensor.proto) messages. If you want to perform a transformation on the received TensorProto message, you will have to retrieve its contents, perform a transformation on it and pack the result back to the TensorProto message. To do that you have to define a function that will be invoked every time Hydrosphere handles a request and passes it to the model. Inside that function, you have to call a `predict` \(or similar\) method of your model and return your predictions:
+Hydrosphere communicates with the model using [TensorProto](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/tensor.proto) messages. If you want to perform a transformation on the received TensorProto message, you will have to retrieve its contents, perform a transformation on it, and pack the result back to the TensorProto message. To do that you have to define a function that will be invoked every time Hydrosphere handles a request and passes it to the model. Inside that function, you have to call a `predict` \(or similar\) method of your model and return your predictions:
 
 {% code title="func\_main.py" %}
 ```python
@@ -144,7 +144,7 @@ def infer(x1, x2):
 ```
 {% endcode %}
 
-Inside `func_main.py` we initialize our model outside of the serving function `infer`, so that this process will not be triggered every time a new request comes in. The `infer` function takes the actual request, unpacks it, makes a prediction, packs the answer back and returns it. There is no strict rule for naming this function, it just has to be a valid Python function name.
+Inside `func_main.py` we initialize our model outside of the serving function `infer`, so that this process will not be triggered every time a new request comes in. The `infer` function takes the actual request, unpacks it, makes a prediction, packs the answer, and returns it. There is no strict rule for naming this function, it just has to be a valid Python function name.
 
 ### Provide a contract file
 
@@ -325,7 +325,7 @@ For each model with uploaded training data, Hydrosphere creates an outlier detec
 
 ### Update an Application
 
-Let's send some data to our new model version. To do so, we need to update our `logistic_regression` application. To update it, we can go to **Application** tab and click the "Update" button:
+Let's send some data to our new model version. To do so, we need to update our `logistic_regression` application. To update it, we can go to the **Application** tab and click the "Update" button:
 
 ![Upgrading an application stage to a newer version](.gitbook/assets/application_upgrade.gif)
 
@@ -356,7 +356,7 @@ You can monitor your data quality in the Monitoring Dashboard:
 
 ![](.gitbook/assets/image.png)
 
-Monitoring dashboard plots all requests streaming through a model version which are colored in respect with how "healthy" they are. On the horizontal axis we group our data by batches and on the vertical axis we group data by signature fields. In this plot cells are determined by their batch and field. Cells are colored from green to red, depending on the average request health inside this batch. 
+The Monitoring dashboard plots all requests streaming through a model version as rectangles colored according to how "healthy" they are. On the horizontal axis, we group our data by batches and on the vertical axis, we group data by signature fields. In this plot, cells are determined by their batch and field. Cells are colored from green to red, depending on the average request health inside this batch. 
 
 ### Check data drift detection
 
