@@ -1,4 +1,4 @@
-# Train & Deploy Census
+# Train & Deploy Census Income Classification Model
 
 This tutorial shows how to train and deploy a model for a classification task based on the [Adult Dataset](https://www.kaggle.com/wenruliu/adult-income-dataset). The main steps of this process are data preparation, training a model, uploading a model to the cluster, and making a prediction on test samples.
 
@@ -6,9 +6,9 @@ This tutorial shows how to train and deploy a model for a classification task ba
 
 We assume that you already have a deployed instance of the Hydrosphere cloud platform and Hydro CLI installed on your local machine. If you haven't done this yet, please explore these pages first: 
 
-{% page-ref page="../../installation/" %}
+{% page-ref page="../installation/" %}
 
-{% page-ref page="../../installation/cli.md" %}
+{% page-ref page="../installation/cli.md" %}
 
 For this tutorial, you should be using a local cluster. To ensure that, run `hs cluster` in your terminal. This command will show the name and server address of a cluster you’re currently using. If it shows that you're not using a local cluster, you can configure one with the following commands: 
 
@@ -211,7 +211,7 @@ If you want to interact with your model via Hydrosphere UI, you can use `http://
 
 You might notice that after some time there appears an additional model with the `metric` postscript at the end of the name. This is your automatically formed monitoring model for outlier detection. Learn more about the Automatic Outlier Detection feature [here](https://hydrosphere.gitbook.io/home/overview/features/automatic-outlier-detection). 
 
-![](../../.gitbook/assets/screenshot-2020-09-11-at-17.13.39.png)
+![](../.gitbook/assets/screenshot-2020-09-11-at-17.13.39.png)
 
 To configure additional external metrics or check values for an already existing one, go to the Monitoring profile and customize it for yourself. That's it! 
 

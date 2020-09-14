@@ -12,14 +12,14 @@ On this page you will learn how to create a custom anomaly detection metric for 
 
 ## Overview
 
-For this use case we have chosen a problem described in a [Train & Deploy Census Income Classification Model](train-and-deploy-census-income-classification-model/) tutorial. We will monitor the model, which will classify whether the income of a given person exceeds $50.000 per year. 
+For this use case we have chosen a problem described in a [Train & Deploy Census Income Classification Model]() tutorial. We will monitor the model, which will classify whether the income of a given person exceeds $50.000 per year. 
 
 As a data source we will use the census income [dataset](https://archive.ics.uci.edu/ml/datasets/census+income).
 
 ## Before you start
 
 * We assume you already have [installed](../installation/) Hydrosphere platform and a [CLI](../installation/cli.md) on your local machine.
-* This tutorial is a sequel to [Train & Deploy Census Income Classification Model](train-and-deploy-census-income-classification-model/) tutorial. You should have a census income classification model already deployed on your cluster.
+* This tutorial is a sequel to [Train & Deploy Census Income Classification Model]() tutorial. You should have a census income classification model already deployed on your cluster.
 
 ## Train Monitoring Model
 
