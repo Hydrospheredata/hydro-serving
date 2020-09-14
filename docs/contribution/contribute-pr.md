@@ -22,7 +22,7 @@ This guide is written for contributing to documentation. It doesn't contain any 
 5. Commit your changes \(`git commit -am "Add a feature"`\)   
 6. Push your changes to GitHub \(`git push origin feature`\)    
 7. Open a Pull Request and wait for your PR to get reviewed   
-8. Edit your PR to address feedback \(if any\)   
+8. Edit your PR to address the feedback \(if any\)   
 9. See your PR getting merged  
 
 #### 1. Fork and Clone this Repository

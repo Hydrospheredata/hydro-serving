@@ -33,7 +33,7 @@ import joblib
 
 
 # #main-section
-df = pd.read_csv("../data/adult.data", header=None)
+df = pd.read_csv(..., header=None)
 target_labels = pd.Series(df.iloc[:, -1], index=df.index)
 
 df = df.iloc[:, features_to_use]
@@ -43,9 +43,7 @@ df.dropna(inplace=True)
 for feature, func in transformations.items():
     df[feature] = func(df[feature])
 
-X_train, X_test = train_test_split(np.array(df, dtype="float"), test_size=0.2)
-
-monitoring_model = KNN(contamination=0.05, n_neighbors=15, p = 5)
+monitoring_model = IsolationForest(contamination=0.05, n_neighbors=15, p = 5)
 monitoring_model.fit(X_train)
 # #main-section
 
@@ -54,17 +52,6 @@ monitoring_model.fit(X_train)
 y_train_pred = monitoring_model.labels_  # binary labels (0: inliers, 1: outliers)
 y_train_scores = monitoring_model.decision_scores_  # raw outlier scores
 
-# Get the prediction on the test data
-y_test_pred = monitoring_model.predict(X_test)  # outlier labels (0 or 1)
-y_test_scores = monitoring_model.decision_function(X_test)  # outlier scores
-
-plt.hist(
-    y_test_scores,
-    bins=30, 
-    alpha=0.5, 
-    density=True, 
-    label="Test data outlier scores"
-)
 
 plt.hist(
     y_train_scores, 
@@ -91,8 +78,6 @@ joblib.dump(monitoring_model, "../monitoring_model/monitoring_model.joblib")
 ## Deploy Monitoring Model
 
 To create a monitoring metric, we have to deploy that KNN model as a separate model on the Hydrosphere platform. Let's save a trained model for serving.
-
-Python : @@snip[train.py](https://github.com/Hydrospheredata/hydro-serving/tree/54b7457851ad9de078cd092f083b8492dea6edca/docs/tutorials/monitoring/snippets/knn_anomaly_detection/train.py) { \#save-section }
 
 Create a new directory where we will declare the serving function and its definitions.
 

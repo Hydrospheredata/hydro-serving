@@ -16,11 +16,3 @@ For guides on performing more basic technical steps, please look in the How-To s
 
 * [How-To](https://hydrosphere.gitbook.io/home/how-to)
 
-
-
-| Tutorial | Description |
-| :--- | :--- |
-| Name | TODO |
-| Description | TODO |
-|  | TODO |
-

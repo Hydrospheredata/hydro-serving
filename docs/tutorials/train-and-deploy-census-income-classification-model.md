@@ -190,7 +190,7 @@ model_find = ModelVersion.find(cluster, name="adult_model",
                                version=uploaded_model.version)
 model_servable = Servable.create(cluster, model_name=uploaded_model.name, 
                                  version=uploaded_model.version)
-predictor = model_servable.predictor(return_type=PredictorDT.DICT_NP_ARRAY)
+predictor = model_servable.predictor()
 ```
 
 Predictors provide a `predict` method which we can use to send our data to the model. We can try to make predictions for our test set that has preliminarily been converted to a list of dictionaries. You can check the results using the name you have used for an output of Signature and preserve it in any format you would prefer. Before making a prediction don't forget to make a small pause to finish all necessary loadings.
@@ -229,7 +229,7 @@ Another way to upload your model is to apply a contract. This process repeats al
         └── func_main.py
 ```
 
-Model deployment with serving contract repeats all the steps of that with SDK, but in one file. A huge advantage of using a serving contract is that besides describing your model you can easily create an application by simply adding an object to the contract after the separation line at the bottom. Just name your application and provide the name and version of a model you want to tie to it.
+Model deployment with serving contract repeats all the steps of that with SDK, but in one file. A huge advantage of using a serving contract is that besides describing your model you can easily create an application by simply adding an object to the contract after the separation line at the bottom. Just name your application and provide the name and version of a model you want to tie to it. 
 
 ```python
 kind: Model
