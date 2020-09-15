@@ -16,7 +16,7 @@ HTTP Inference
 {% endapi-method-summary %}
 
 {% api-method-description %}
-To send an HTTP request, you should send a POST request to the /gateway/application/&lt;applicationName&gt; endpoint with the JSON body containing your request data, composed with respect to the model's contract.
+To send an HTTP request, you should send a POST request to the **/gateway/application/&lt;applicationName&gt;** endpoint with the JSON body containing your request data, composed with respect to the model's contract.
 {% endapi-method-description %}
 
 {% api-method-spec %}
