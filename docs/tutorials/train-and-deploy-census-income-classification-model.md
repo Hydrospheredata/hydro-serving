@@ -32,9 +32,11 @@ df = pd.read_csv('adult.csv', sep = ',').replace({'?':np.nan}).dropna()
 
 categorical_encoder = LabelEncoder()
 categorical_features = ["workclass", "education", "marital-status", 
-                        "occupation", "relationship", "race", 
-                        "gender", "capital-gain", "capital-loss", 
-                        "native-country", "income"]
+                        "occupation", "relationship", "race", "gender", 
+                        "capital-gain", "capital-loss", "native-country", 'income']
+
+numerical_features = ['age', 'fnlwgt', 'educational-num', 
+                      'capital-gain', 'capital-loss', 'hours-per-week']
                         
 for column in categorical_features:
     df[column] = categorical_encoder.fit_transform(df[column])
@@ -134,18 +136,22 @@ Now we are ready to upload our model to the cluster.
 
 Hydrosphere Serving has a strictly typed inference engine, so before uploading our model we need to specify it’s signature with`SignatureBuilder`. A signature contains information about which method inside the `func_main.py` should be called, as well as what its inputs and outputs shapes and types are. 
 
-Given that we have several columns, we can use the`.apply` method several times. Use `X.dtypes` to check what types of data you have for each column. You can apply `int64` for all variables including income, which is our dependent variable and we can name it as `'y'`  in a signature for further prediction. 
+Given that we have several columns, we can use the`.apply` method several times. Use `X.dtypes` to check what types of data you have for each column. You can apply `int64` for all variables including income, which is our dependent variable and we can name it as `'y'`  in a signature for a further prediction. 
 
-Besides, you can specify the type of profiling for each variable using `ProfilingType` so Hydrosphere could know what this variable is about and process it accordingly.  Finally, we can complete our signature with the `.build()` method. 
+Besides, you can specify the type of profiling for each variable using `ProfilingType` so Hydrosphere could know what this variable is about and process it accordingly.  For this purpose, we can create a dictionary, which could contain keys as our variables and values as our profiling types. Otherwise, you can describe them one by one as a parameter in the input. Finally, we can complete our signature with the `.build()` method. 
 
 ```python
-from hydrosdk.contract import SignatureBuilder, ModelContract, ProfilingType
+from hydrosdk.contract import SignatureBuilder, ModelContract, ProfilingType as PT
 
 signature = SignatureBuilder('predict') 
+
+col_types = {
+  **dict.fromkeys(numerical_features, PT.NUMERICAL), 
+  **dict.fromkeys(categorical_features, PT.CATEGORICAL)}
+
 for i in X.columns:
-    signature.with_input(i, 'int64', 'scalar', ProfilingType.NUMERICAL)
-signature = signature.with_output('y', 'int64', 
-                                  'scalar', ProfilingType.NUMERICAL).build()
+    signature.with_input(i, 'int64', 'scalar', col_types[i])
+signature = signature.with_output('y', 'int64', 'scalar', PT.NUMERICAL).build()
 ```
 
 Next, we need to specify which files will be uploaded to the cluster. We use `path` to define the root model folder and `payload` to point out paths to all files that we need to upload. 
@@ -205,17 +211,17 @@ for x in test_X.to_dict('records'):
     results.append(result['y'])
 ```
 
-## Final outlook 
+##  Using UI to Manage Deployed Models
 
 If you want to interact with your model via Hydrosphere UI, you can use `http://localhost`. Here you can find all your models. Click on a model to view information about it: versions, building logs, created applications, model's environments, and other services associated with deployed models. 
 
 You might notice that after some time there appears an additional model with the `metric` postscript at the end of the name. This is your automatically formed monitoring model for outlier detection. Learn more about the Automatic Outlier Detection feature [here](https://hydrosphere.gitbook.io/home/overview/features/automatic-outlier-detection). 
 
-![](../.gitbook/assets/screenshot-2020-09-11-at-17.13.39.png)
+![](../.gitbook/assets/screenshot-2020-09-14-at-17.52.30.png)
 
 To configure additional external metrics or check values for an already existing one, go to the Monitoring profile and customize it for yourself. That's it! 
 
-## Deploy a model to the cluster using serving contract
+## Deploy a model to the cluster using a serving contract
 
 Another way to upload your model is to apply a contract. This process repeats all the previous steps like data preparation, training. The difference is that instead of using SDK, we are supporting the process of upload by a contract. A contract is a file that defines the inputs and outputs of the model, a signature function, and some other metadata required for serving. Go to the root directory of the model and create a `serving.yaml` file. You should get the following file structure:
 
@@ -247,51 +253,59 @@ contract:
     age:
       shape: scalar
       type: int64
-      profile: ratio
+      profile: numerical
     workclass:
       shape: scalar
       type: int64
-      profile: nominal
+      profile: categorical
+    fnlwgt:
+      shape: scalar
+      type: int64
+      profile: numerical
     education:
       shape: scalar
       type: int64
-      profile: ordinal
+      profile: categorical
+    education-num:
+      shape: scalar
+      type: int64
+      profile: numerical
     marital_status:
       shape: scalar
       type: int64
-      profile: nominal
+      profile: categorical
     occupation:
       shape: scalar
       type: int64
-      profile: nominal
+      profile: categorical
     relationship:
       shape: scalar
       type: int64
-      profile: nominal
+      profile: categorical
     race:
       shape: scalar
       type: int64
-      profile: nominal
+      profile: categorical
     sex:
       shape: scalar
       type: int64
-      profile: nominal
+      profile: categorical
     capital_gain:
       shape: scalar
       type: int64
-      profile: ratio
+      profile: numerical
     capital_loss:
       shape: scalar
       type: int64
-      profile: ratio
+      profile: numerical
     hours_per_week:
       shape: scalar
       type: int64
-      profile: ratio
+      profile: numerical
     country:
       shape: scalar
       type: int64
-      profile: nominal
+      profile: categorical
   outputs:
     class:
       shape: scalar
