@@ -26,7 +26,7 @@
   * [Using Deployment Configurations](tutorials/deployment-configuration.md)
   * [Train & Deploy Census Income Classification Model](tutorials/train-and-deploy-census-income-classification-model.md)
   * [Monitor anomalies with a custom metric](tutorials/custom_metric.md)
-  * [Monitor external models](tutorials/monitoring-external-models.md)
+  * [Monitoring External Models](tutorials/monitoring-external-models.md)
 * [How-To](how-to/README.md)
   * [Invoke applications](how-to/invoke-applications.md)
   * [Write definitions](how-to/write-definitions.md)

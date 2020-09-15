@@ -1,17 +1,17 @@
-# Monitor external models
+# Monitoring External Models
 
-We can use monitoring to track the behavior of external models running outside of the Hydrosphere platform. This article describes how to register an external model, how to trigger analysis over your requests, and how to retrieve results.
+We can use monitoring to track the behavior of external models running outside of the Hydrosphere platform. This tutorial describes how to register an external model, trigger analysis over your requests, and retrieve results.
 
-## Before you start
+## Prerequisites
 
 We assume you already have:
 
-* a [deployed](../installation/) instance of the Hydrosphere platform with the Sonar component enabled;
-* a running external model, capable of producing predictions. Inputs and outputs of that model will be fed into Hydrosphere for monitoring purposes. 
+* A [deployed](../installation/) instance of the Hydrosphere platform with the Sonar component enabled
+* A running external model, capable of producing predictions. Inputs and outputs of that model will be fed into Hydrosphere for monitoring purposes. 
 
 ## Model registration
 
-First, you have to register an external model. To do that, you have to submit a JSON document, defining your model.
+First, you have to register an external model. To do that, submit a JSON document, defining your model.
 
 ### Request document structure
 
@@ -19,16 +19,16 @@ This section describes the structure of the JSON document used to register exter
 
 #### Top-level members
 
-A document **must** contain the following top-level members, describing the interface of your model.
+The document **must** contain the following top-level members, describing the interface of your model:
 
-* `name`: The name of the registered model. This name uniquely identifies a collection of model versions, registered within the Hydrosphere platform;
-* `contract`: The interface of the registered model. This member describes inputs and outputs of the model, as well as other complementary metadata, such as model signature, and data profile for each field.  
+* `name`: the name of the registered model. This name uniquely identifies a collection of model versions, registered within the Hydrosphere platform.
+* `contract`: the interface of the registered model. This member describes inputs and outputs of the model, as well as other complementary metadata, such as model signature, and data profile for each field.  
 
 A document **may** contain additional top-level members, describing other user-specific metadata of your model.
 
-* `metadata`: The metadata of the registered model. The structure of the object is not strictly defined. The only constraint is that the object must have a key-value structure, where a value can only be of a simple data type \(string, number, boolean\). 
+* `metadata`: the metadata of the registered model. The structure of the object is not strictly defined. The only constraint is that the object must have a key-value structure, where a value can only be of a simple data type \(string, number, boolean\). 
 
-The example below shows, how a model can be defined at a top level.
+This example shows, how a model can be defined at the top level:
 
 ```javascript
 {  
@@ -48,10 +48,10 @@ The example below shows, how a model can be defined at a top level.
 
 #### Contract object
 
-`contract` object appears in the document to define the interface of the model. The contract object **must** contain the following members:
+The`contract` object appears in the document to define the interface of the model. The contract object **must** contain the following members:
 
-* `modelName`: The original name of the model. It should be the same as the name of the registered model, defined on the level above;
-* `predict`: The signature of the model. It defines the inputs and the outputs of the model. 
+* `modelName`: the original name of the model. It should be the same as the name of the registered model, defined on the level above;
+* `predict`: the signature of the model. It defines the inputs and the outputs of the model. 
 
 The example below shows how a `contract` object can be defined.
 
@@ -70,7 +70,7 @@ The example below shows how a `contract` object can be defined.
 
 * `signatureName`: The signature of the model, used to process the request;
 * `inputs`: A collection of fields, defining the inputs of the model. Each item in the collection describes a single data entry, its type, shape and profile. A collection **must** contain at least one item;
-* `outputs`: A collection of fields, defining the outputs of the model.Each item in the collection describes a single data entry, its type,shape and profile. A collection **must** contain at least one item. 
+* `outputs`: A collection of fields, defining the outputs of the model. Each item in the collection describes a single data entry, its type, shape, and profile. A collection **must** contain at least one item. 
 
 The example below shows how a `predict` object can be defined.
 
@@ -143,8 +143,8 @@ The example below shows how a single `field` object can be defined.
 
 `shape` object defines the shape of the data that the model is processing. The shape object **must** contain the following members:
 
-* `dim`: A collection of items, describing each dimension. A collection **may** be empty — in that case the tensor will be interpreted as a scalar value. 
-* `unknownRank`: Boolean value. Identifies whether the defined shape is of an unknown rank.
+* `dim`: A collection of items, describing each dimension. A collection **may** be empty — in that case, the tensor will be interpreted as a scalar value. 
+* `unknownRank`: Boolean value. Identifies whether the defined shape is of unknown rank.
 
 The example below shows how a `shape` object can be defined.
 
@@ -238,7 +238,7 @@ The response object from the external model registration request contains the fo
 * `created`: Timestamp, indicating when the model was registered. 
 
 {% hint style="info" %}
-Note the `id` field. It will be referred as `MODEL_VERSION_ID` later throughout the article.
+Note the`id` field. It will be referred as `MODEL_VERSION_ID` later throughout the article.
 {% endhint %}
 
 #### Model object
@@ -477,7 +477,7 @@ The document **must** contain the following top-level members.
 * `modelVersionId`: Unique identifier of the model **to which** you want to assign a metric;
 * `config`: Object, representing a configuration of the metric, **which** will be applied to the model. 
 
-The example below shows how a metric can be defined on a top level.
+The example below shows how a metric can be defined on the top level.
 
 ```javascript
 {
@@ -524,7 +524,7 @@ The only _valid_ options for `kind` are:
 * GreaterEq;
 * LessEq. 
 
-The example below shows, how a metric can be defined on a top level.
+The example below shows, how a metric can be defined on the top level.
 
 ```javascript
 {
