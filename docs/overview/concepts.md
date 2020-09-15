@@ -8,7 +8,7 @@ description: >-
 
 ## Resource definitions
 
-**Resource definitions** describe **Models**, **Applications**, and **Deployment Configurations** in a YAML format. You can learn more about them in the [How to write resource definitions](../how-to/write-definitions.md) section.
+**Resource definitions** describe **Models**, **Applications**, and **Deployment Configurations** in the YAML format. You can learn more about them in the [How to write resource definitions](../how-to/write-definitions.md) section.
 
 ## Serving
 
@@ -16,7 +16,7 @@ description: >-
 
 A **Model** is a machine learning model or a processing function that consumes provided inputs and produces predictions or transformations.
 
-Within the Hydrosphere platform, we break down the model to its versions. Each **Model version** represents a single Docker image containing all the artifacts that you have uploaded to the platform. Consequently, **Model** is a group of **Model versions** with the same name.
+Within the Hydrosphere platform, we break down a model into its versions. Each **Model version** represents a single Docker image containing all the artifacts that you have uploaded to the platform. Consequently, **Model** is a group of **Model versions** with the same name.
 
 ![Model vs Model Version Difference](../.gitbook/assets/model-vs-model-version.png)
 
@@ -32,17 +32,17 @@ We have [implemented](../reference/runtimes.md) a few runtimes, which you can us
 
 **Servable** is a deployed instance of a Model version combined with a Runtime. It exposes a gRPC endpoint that can be used to send requests.
 
-Users should not use Servables as-is, since they are designed to be building blocks, rather than inference endpoints. We provide a better alternative to deploy a Model version — Application.
+Users should not use Servables as-is, since they are designed to be building blocks, rather than inference endpoints. Hydrosphere provides a better alternative to deploy a Model version — Application.
 
 ### Applications
 
-An **Application** is a pipeline of one or more stages, each consisting of one or multiple Model Versions. Data sent to an application stage is shadowed to all of it's model versions. Output of a staged is picked randomly with respect to weights
+An **Application** is a pipeline of one or more stages, each consisting of one or multiple Model Versions. Data sent to an application stage is shadowed to all of its model versions. The output of a stage is picked randomly with respect to weights.
 
 ![Example of a multi-staged output with an A/B test on the second stage](../.gitbook/assets/application.png)
 
-When a user creates Application, Manager service automatically deploys appropriate Servables. The Application handles monitoring of your models and is able to perform A/B traffic split.
+When a user creates an Application, the Manager service automatically deploys appropriate Servables. The Application handles monitoring of your models and can perform A/B traffic splits.
 
-For each Application, there are publicly available HTTP and gRPC endpoints that you can send requests to.
+Each Application has publicly available HTTP and gRPC endpoints that you can send requests to.
 
 ### Deployment Configurations
 
@@ -64,7 +64,7 @@ Deployment Configuration covers:
 
 A **Model's** **Signature** is a specification of your model computation which identifies the name of a function with its inputs and outputs, including their names, shapes, and data types.
 
-e.g. signature defined in a YAML file:
+Example of a signature defined in a YAML file:
 
 ```yaml
 contract:
@@ -83,9 +83,9 @@ contract:
 
 ### Field
 
-A **Field** is a basic element of a Model's signature. It has name, shape, data type, and profile.
+A **Field** is a basic element of a Model's signature. It has a name, shape, data type, and profile.
 
-e.g. model's signature field defined in a YAML file:
+Example of a model's signature field defined in a YAML file:
 
 ```yaml
 x:
@@ -118,9 +118,9 @@ ToDO concepts
 
 ### Checks
 
-A **check** is a boolean condition associated with a field of a Model Version signature which shows for every request whether field value is acceptable or not.
+A **check** is a boolean condition associated with a field of a Model Version signature which shows for every request whether the field value is acceptable or not.
 
-e.g. Min/Max checks ensure that field value is in an acceptable range which is inferred from training data values.
+For example, Min/Max checks ensure that a field value is in an acceptable range which is inferred from training data values.
 
 ### 
 
