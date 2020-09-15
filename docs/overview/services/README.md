@@ -1,12 +1,8 @@
 # Platform Architecture
 
-Hydrosphere is composed out of several microservices, united to efficiently serve and monitor machine learning models in production.
+Hydrosphere is composed of several microservices, united to efficiently serve and monitor machine learning models in production. Hydrosphere features are divided between multiple services. You can learn more about each of them in this section.
 
 ![](../../.gitbook/assets/architecture.png)
-
-Hydrosphere features are divided between multiple services. You can learn more about each of them in this section.
-
-
 
 ## UI / nginx 
 
