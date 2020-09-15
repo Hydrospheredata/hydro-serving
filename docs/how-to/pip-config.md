@@ -1,4 +1,4 @@
-# Using private pip repositories
+# Use private pip repositories
 
 To use private pip repository you must add customized `pip.conf` file pointing to your custom PyPI repository.
 

@@ -31,7 +31,7 @@
   * [Invoke applications](how-to/invoke-applications.md)
   * [Write definitions](how-to/write-definitions.md)
   * [Develop runtimes](how-to/develop-runtimes.md)
-  * [Using private pip repositories](how-to/pip-config.md)
+  * [Use private pip repositories](how-to/pip-config.md)
 * [Troubleshooting](troubleshooting.md)
 * [Reference](reference/README.md)
   * [Runtimes](reference/runtimes.md)
