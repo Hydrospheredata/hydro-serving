@@ -11,11 +11,11 @@ Hydrosphere supports all major machine learning frameworks, including Tensorflow
 Hydrosphere offers immediate value to ML-based products:
 
 * Сovers all aspects of the production ML lifecycle - model versioning & deployment, traffic & contract management, data monitoring, gaining insights.
-* Easy & fast management of production models that brings models to production in minutes by reducing time to upload, update and roll your models into production 
-* Allows to create reproducible, observable and explainable machine learning pipelines
-* Provides understanding and control of models’ performance in production via data and target metrics analysis
-* Adds in-depth observability for your production models and data flowing through them 
-* Improves business metrics of ML-based products as a result of a reduction in MTTR and MTTD incidents related to ML models due to early alerts once data drifts happen
+* Easy & fast management of production models that brings models to production in minutes by reducing time to upload, update, and roll your models into production. 
+* Allows to create reproducible, observable, and explainable machine learning pipelines.
+* Provides understanding and control of models’ performance in production via data and target metrics analysis.
+* Adds in-depth observability for your production models and data flowing through them. 
+* Improves business metrics of ML-based products as a result of a reduction in MTTR and MTTD. incidents related to ML models due to early alerts once data drifts happen.
 
 ## Why Hydrosphere?
 
@@ -62,7 +62,7 @@ Hydrosphere is capable of monitoring model quality with or without getting addit
 ### Interpretability
 
 {% hint style="info" %}
-Hydrosphere Interpretability is not available as an open-source solution. If you are interested in this component you can contact us via [gitter](https://gitter.im/Hydrospheredata/hydro-serving) or our [website](https://hydrosphere.io)
+Hydrosphere Interpretability is not available as an open-source solution. If you are interested in this component you can contact us via [gitter](https://gitter.im/Hydrospheredata/hydro-serving) or our [website](https://hydrosphere.io).
 {% endhint %}
 
 Hydrosphere Interpretability provides human-readable explanations of the predictions made by your ML models, as well as the explanations of monitoring analytics made by Hydrosphere Monitoring. It helps to evaluate and analyze models and understand what features influence their decisions. The Interpretability component demystifies your ML process, provides a new level of confidence about the reasons behind your models’ decisions and a certain level of trust business can rely on.
