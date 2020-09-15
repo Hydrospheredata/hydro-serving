@@ -15,7 +15,7 @@ Hydrosphere offers immediate value to ML-based products:
 * Allows to create reproducible, observable, and explainable machine learning pipelines.
 * Provides understanding and control of models’ performance in production via data and target metrics analysis.
 * Adds in-depth observability for your production models and data flowing through them. 
-* Improves business metrics of ML-based products as a result of a reduction in MTTR and MTTD. incidents related to ML models due to early alerts once data drifts happen.
+* Improves business metrics of ML-based products as a result of a reduction in MTTR and MTTD incidents related to ML models due to early alerts once data drifts happen.
 
 ## Why Hydrosphere?
 
