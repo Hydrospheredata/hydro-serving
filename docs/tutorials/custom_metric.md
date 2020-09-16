@@ -31,13 +31,13 @@ cd monitoring_model
 touch src/func_main.py
 ```
 
-As a monitoring metric, we will use the `sklearn.ensemble.IsolationForest`. You can read more about how it works in [its documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html). The model itself wll be based on the [PyOD](https://pyod.readthedocs.io/) realization. So before starting don't forget to install an apppropriate library.
+As a monitoring metric, we will use the IsolationForest. You can read more about how it works in [its documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html). The model itself will be based on the [PyOD](https://pyod.readthedocs.io/) realization. So before starting don't forget to install an apppropriate library.
 
 ```bash
 !pip install pyod
 ```
 
-To be sure that our monitoring model will see the same data as our prediction model, we are going to apply training data that was saved previously. 
+To be sure that our monitoring model will see the same data as our prediction model, we are going to apply training data that was saved previously for our monitoring model. 
 
 ```python
 import joblib
@@ -66,15 +66,13 @@ plt.legend()
 dump(monitoring_model, "monitoring_model/monitoring_model.joblib")
 ```
 
-This gives us the following output. This is how distribution of our inliers look like. By choosing a contamination parameter we can regulate a threshold that will separate inliers from outliers accordingly. You have to be thorough in choosing it to avoid critical prediction mistakes. Otherwise, you can also stay with `'auto'`. 
-
 ![](../.gitbook/assets/figure.png)
+
+This gives us the following output. This is how distribution of our inliers look like. By choosing a contamination parameter we can regulate a threshold that will separate inliers from outliers accordingly. You have to be thorough in choosing it to avoid critical prediction mistakes. Otherwise, you can also stay with `'auto'`.  To create a monitoring metric, we have to deploy that IsolationForest model as a separate model on the Hydrosphere platform. Let's save a trained model for serving.
 
 ## Deploy Monitoring Model by SDK
 
-To create a monitoring metric, we have to deploy that IsolationForest model as a separate model on the Hydrosphere platform. Let's save a trained model for serving. Create a new directory where we will declare the serving function and its definitions.
-
-Inside the `src/func_main.py` file put the following code:
+ First in deployment process, let's create a new directory where we will declare the serving function and its definitions. Inside the `src/func_main.py` file put the following code:
 
 {% tabs %}
 {% tab title="func\_main.py" %}
@@ -165,7 +163,7 @@ payload:
   - "src/"
   - "requirements.txt"
   - "monitoring_model.joblib"
-runtime: "hydrosphere/serving-runtime-python-3.7:$released_version$"
+runtime: "hydrosphere/serving-runtime-python-3.7:2.3.2"
 install-command: "pip install -r requirements.txt"
 contract:
   name: "predict"
@@ -213,7 +211,6 @@ contract:
     value:
       shape: scalar
       type: float64
-      
 ```
 
 Inputs of this model are the inputs of the **target** monitored model plus the outputs of that model. As an output for the monitoring model itself we will use the `value` field. The final directory structure should look like this:
@@ -230,7 +227,7 @@ Inputs of this model are the inputs of the **target** monitored model plus the o
 From that folder, upload the model to the cluster.
 
 ```bash
-hs upload
+hs apply -f serving.yaml
 ```
 
 Now we have to attach deployed Monitoring model as a custom metric. Let's create a monitoring metric for our pre-deployed classification model.
