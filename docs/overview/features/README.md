@@ -12,7 +12,7 @@ description: Features that make up Hydrosphere Platform
 * A/B Model Version Deployment
 * [Traffic Shadowing](traffic-shadowing.md)
 * Language-agnostic deployment
-* [Load Scaling](scaling.md)
+* [Load Scaling]()
 
 ## Monitoring
 

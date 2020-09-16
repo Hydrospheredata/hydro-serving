@@ -4,13 +4,13 @@ Tensorflow model is a model that is backed with a Tensorflow runtime. You can cr
 
 ## Before you start
 
-We assume you already have a @ref[deployed](../installation/) instance of the Hydrosphere platform and a @ref[CLI](../installation/cli.md) on your local machine.
+We assume you already have a [deployed](../installation/) instance of the Hydrosphere platform and a [CLI](../installation/cli.md) on your local machine.
 
 To let `hs` know where the Hydrosphere platform runs, configure a new `cluster` entity.
 
 ```bash
-$ hs cluster add --name local --server http://localhost
-$ hs cluster use local
+hs cluster add --name local --server http://localhost
+hs cluster use local
 ```
 
 ## Model serialization
@@ -76,12 +76,12 @@ estimator.export_savedmodel(export_dir, serving_input_receiver_fn)
 Upload the exported model to the cluster.
 
 ```bash
-$ cd {EXPORT_DIR}   # a directory with saved_model.pb file
-$ hs upload --name mnist --runtime hydrosphere/serving-runtime-tensorflow-1.13.1:$released_version$
+cd {EXPORT_DIR}   # a directory with saved_model.pb file
+hs upload --name mnist --runtime hydrosphere/serving-runtime-tensorflow-1.13.1:$released_version$
 ```
 
 {% hint style="info" %}
-You can find all available Tensorflow runtime versions @ref[here](../reference/runtimes.md).
+You can find all available Tensorflow runtime versions [here](../reference/runtimes.md).
 {% endhint %}
 
 Now the model is uploaded to the cluster, but it is not yet available for prediction.
@@ -91,7 +91,7 @@ Now the model is uploaded to the cluster, but it is not yet available for predic
 To deploy a model as a microservice, you need to create an application. You can create it manually via Hydrosphere UI, or by providing an application manifest.
 
 ```bash
-$ hs apply -f - <<EOF
+hs apply -f - <<EOF
 kind: Application
 name: mnist_app
 singular:
@@ -104,7 +104,7 @@ EOF
 That's it, you can now send prediction requests.
 
 ```bash
-$ curl --request POST --header 'Content-Type: application/json' --header 'Accept: application/json' \ 
+curl --request POST --header 'Content-Type: application/json' --header 'Accept: application/json' \ 
     --data '{ "imgs": [ [ [ 1, 1, 1, ... 1, 1, 1 ] ] ] }' 'https://<host>/gateway/applications/mnist_app'
 ```
 

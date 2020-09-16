@@ -1,13 +1,15 @@
 # Write definitions
 
-Resource definitions describe Hydrosphere entities. An entity could be your model, application, or deployment configuration. Each definition is defined via `.yaml` file.
+[Resource definitions](../overview/concepts.md#resource-definitions) describe Hydrosphere entities. 
+
+An entity could be your model, application, or deployment configuration. Each definition is represented by a `.yaml` file.
 
 ## Base definition
 
 Every definition **must** include the following fields:
 
-* `kind`: Defines the type of resource; 
-* `name`: Defines the name of a resource.
+* `kind`: defines the type of a resource 
+* `name`: defines the name of a resource
 
 The only valid options for `kind` are:
 
@@ -17,19 +19,19 @@ The only valid options for `kind` are:
 
 ## kind: Model
 
-The model definition **must** contain the following fields:
+A model definition **must** contain the following fields:
 
-* `runtime`: A string defining the runtime docker image that will be used to run a model. You can learn more about runtimes [here](../overview/concepts.md).
-* `contract`: An object defining the inputs and outputs of a model.
+* `runtime`: a string defining the runtime Docker image that will be used to run a model. You can learn more about runtimes [here](../overview/concepts.md).
+* `contract`: an object defining the inputs and outputs of a model.
 
-The model definition **can** contain the following fields:
+A model definition **can** contain the following fields:
 
-* `payload`: A list of files that should be added to the container
-* `install-command`: A string defining a command that should be executed during the container build
-* `training-data`: A string defining a path to the file that will be uploaded to Hydrosphere and used as a training data reference. It can be either a local file or a URI to an S3 object. At the moment we only support `.csv` files
-* `metadata`: An object defining additional user metadata that will be displayed on the Hydrosphere UI
+* `payload`: a list of files that should be added to the container.
+* `install-command`: a string defining a command that should be executed during the container build.
+* `training-data`: a string defining a path to the file that will be uploaded to Hydrosphere and used as a training data reference. It can be either a local file or a URI to an S3 object. At the moment we only support `.csv` files.
+* `metadata`: an object defining additional user metadata that will be displayed on the Hydrosphere UI.
 
-The example below shows how a model can be defined on a top level.
+The example below shows how a model can be defined on the top level.
 
 {% code title="serving.yaml" %}
 ```yaml
@@ -51,56 +53,56 @@ metadata:
 
 `contract` object **must** contain the following fields:
 
-* `inputs`: An object, defining all inputs of a model
-* `outputs`: An object, defining all outputs of a model
+* `inputs`: an object, defining all inputs of a model
+* `outputs`: an object, defining all outputs of a model
 
 `contract` object **can** contain the following fields:
 
-* `name`: A string defining the signature of the model that should be used to process requests
+* `name`: a string defining the signature of the model that should be used to process requests
 
 #### Field object
 
 `field` object **must** contain the following fields:
 
-* `shape`: Either `"scalar"` or a list of integers, defining the shape of your data. If  a shape is defined as a list of integers, it can have `-1` value at the very beginning of the list, indicating that this field has an arbitrary number of "entities". `-1` cannot be put anywhere aside from the beginning of the list. 
-* `type`: A string defining the type of data.
+* `shape`: either `"scalar"` or a list of integers, defining the shape of your data. If a shape is defined as a list of integers, it can have `-1` value at the very beginning of the list, indicating that this field has an arbitrary number of "entities". `-1` cannot be put anywhere aside from the beginning of the list. 
+* `type`: a string defining the type of data.
 
 `field` object **can** contain the following fields:
 
-* `profile`: A string, defining the profile type of your data. 
+* `profile`: a string, defining the profile type of your data. 
 
 The only _valid_ options for `type` are:
 
-* bool — Boolean;
-* string — String in bytes;
-* half — 16-bit half-precision floating-point; 
-* float16 — 16-bit half-precision floating-point;
-* float32 — 32-bit single-precision floating-point;
-* double — 64-bit double-precision floating-point;
-* float64 — 64-bit double-precision floating-point;
-* uint8 — 8-bit unsigned integer;
-* uint16 — 16-bit unsigned integer;
-* uint32 — 32-bit unsigned integer;
-* uint64 — 64-bit unsigned integer;
-* int8 — 8-bit signed integer;
-* int16 — 16-bit signed integer;
-* int32 — 32-bit signed integer;
-* int64 — 64-bit signed integer;
-* qint8 — Quantized 8-bit signed integer;
-* quint8 — Quantized 8-bit unsigned integer;
-* qint16 — Quantized 16-bit signed integer;
-* quint16 — Quantized 16-bit unsigned integer;
-* complex64 — 64-bit single-precision complex;
-* complex128 — 128-bit double-precision complex;
+* bool — Boolean
+* string — String in bytes
+* half — 16-bit half-precision floating-point 
+* float16 — 16-bit half-precision floating-point
+* float32 — 32-bit single-precision floating-point
+* double — 64-bit double-precision floating-point
+* float64 — 64-bit double-precision floating-point
+* uint8 — 8-bit unsigned integer
+* uint16 — 16-bit unsigned integer
+* uint32 — 32-bit unsigned integer
+* uint64 — 64-bit unsigned integer
+* int8 — 8-bit signed integer
+* int16 — 16-bit signed integer
+* int32 — 32-bit signed integer
+* int64 — 64-bit signed integer
+* qint8 — Quantized 8-bit signed integer
+* quint8 — Quantized 8-bit unsigned integer
+* qint16 — Quantized 16-bit signed integer
+* quint16 — Quantized 16-bit unsigned integer
+* complex64 — 64-bit single-precision complex
+* complex128 — 128-bit double-precision complex
 
 The only _valid_ options for `profile` are:
 
-* text — Monitoring such fields will be done with **text**-oriented algorithms 
-* image — Monitoring such fields will be done with **image**-oriented algorithms 
-* numerical — Monitoring such fields will be done with **numerical**-oriented algorithms
-* categorical — Monitoring such fields will be done with **categorical**-oriented algorithms.
+* text — monitoring such fields will be done with **text**-oriented algorithms. 
+* image — monitoring such fields will be done with **image**-oriented algorithms.
+* numerical — monitoring such fields will be done with **numerical**-oriented algorithms.
+* categorical — monitoring such fields will be done with **categorical**-oriented algorithms.
 
-The example below shows how a contract can be defined on a top level.
+The example below shows how a contract can be defined on the top level.
 
 ```yaml
 name: "infer"
@@ -214,7 +216,46 @@ In this application, 100% of the traffic will be forwarded to the `claims-prepro
 
 ## kind: DeploymentConfiguration
 
-**Work in Progress**
+The DeploymentConfiguration resource definition **can** contain the following fields:
+
+* `hpa`: An object defining [HorizontalPodAutoscalerSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#horizontalpodautoscalerspec-v1-autoscaling)
+* `container`: An object defining settings applied on a container level
+* `deployment`: An object defining settings applied on a deployment level
+* `pod`: An object defining settings applied on a pod level
+
+### HPA object
+
+The `hpa` object closely resembles the Kubernetes [HorizontalPodAutoscalerSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#horizontalpodautoscalerspec-v1-autoscaling) object
+
+The `hpa` object **must** contain:
+
+* `minReplicas` : minReplicas is the lower limit for the number of replicas to which the autoscaler can scale down.
+* `maxReplicas` : integer, upper limit for the number of pods that can be set by the autoscaler; cannot be smaller than minReplicas.
+* `cpuUtilization` : integer from 1 to 100, target average CPU utilization \(represented as a percentage of requested CPU\) over all the pods; if not specified the default autoscaling policy will be used.
+
+### Container object
+
+The container object **can** contain:
+
+* `resources` : object with `limits` and `requests` fields. Closely resembles the k8s [ResourceRequirements](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#resourcerequirements-v1-core) object 
+
+### Pod object
+
+The hpa object is similar to the Kubernetes [PodSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#podspec-v1-core) object.
+
+The pod object **can** contain
+
+* `nodeSelector` : [selector](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#nodeselector-v1-core) which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. [More info](https://kubernetes.io/docs/concepts/configuration/assign-pod-node/).
+* `affinity` : pod's scheduling constraints. Represented by an [Affinity](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#affinity-v1-core) object.
+* `tolerations` : array of [Tolerations](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#toleration-v1-core).
+
+### Deployment object
+
+The deployment object **must** contain:
+
+* `replicaCount` : integer, number of desired pods. This is a pointer to distinguish between explicit zero and not specified. Defaults to 1.
+
+### Example
 
 The example below shows how a deployment configuration can be defined.
 
@@ -287,7 +328,7 @@ pod:
             matchLabels:
               key: a
             matchExpressions:
-            - key: kek
+            - key: key1
               operator: In
               values:
               - a
@@ -303,14 +344,14 @@ pod:
       requiredDuringSchedulingIgnoredDuringExecution:
       - labelSelector:
           matchExpressions:
-          - key: valyue
+          - key: value
             operator: Exists
           - key: key2
             operator: NotIn
             values:
             - a
             - b
-          - key: kek2
+          - key: key3
             operator: DoesNotExist
         namespaces:
         - namespace1
@@ -322,12 +363,12 @@ pod:
             matchLabels:
               key: a
             matchExpressions:
-            - key: kek
+            - key: key
               operator: In
               values:
               - a
               - b
-            - key: kek
+            - key: key2
               operator: NotIn
               values:
               - b
@@ -344,10 +385,5 @@ pod:
     operator: Exists
     effect: PreferNoSchedule
     tolerationSeconds: 30
-
 ```
-
-
-
-
 

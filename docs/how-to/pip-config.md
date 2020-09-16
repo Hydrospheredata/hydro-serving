@@ -1,8 +1,8 @@
-# Use private pip repository
+# Use private pip repositories
 
 To use private pip repository you must add customized `pip.conf` file pointing to your custom PyPI repository.
 
-e.g. custom pip.conf file can look like:
+For example, your custom pip.conf file can look like this:
 
 ```text
 [global]
@@ -19,7 +19,7 @@ index-url = http://pypi.python.org/simple/
 cert = /model/files/cert.pem
 ```
 
-You can tell `pip` to use this `pip.conf` in the `install-command` field inside `serving.yaml` file:
+You can tell `pip` to use this `pip.conf`file in the `install-command` field inside `serving.yaml`:
 
 ```yaml
 kind: Model

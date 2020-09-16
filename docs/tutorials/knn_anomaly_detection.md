@@ -13,8 +13,8 @@ We assume you already have a @ref[deployed](../installation/) instance of the Hy
 To let `hs` know where the Hydrosphere platform runs, configure a new `cluster` entity.
 
 ```bash
-$ hs cluster add --name local --server http://localhost
-$ hs cluster use local
+hs cluster add --name local --server http://localhost
+hs cluster use local
 ```
 
 Also you should have a target classification model already be deployed on the cluster. You can find the source code of the target model [here](https://github.com/Hydrospheredata/hydro-serving-example/tree/master/examples/adult).
@@ -44,9 +44,9 @@ Python : @@snip[train.py](https://github.com/Hydrospheredata/hydro-serving/tree/
 Create a new directory where we will declare the serving function and its definitions.
 
 ```bash
-$ mkdir -p monitoring_model/src
-$ cd monitoring_model
-$ touch src/func_main.py
+mkdir -p monitoring_model/src
+cd monitoring_model
+touch src/func_main.py
 ```
 
 Inside the `src/func_main.py` file put the following code:
@@ -152,7 +152,7 @@ The final directory structure should look like this:
 From that folder, upload the model to the cluster.
 
 ```bash
-$ hs upload
+hs upload
 ```
 
 ## Monitoring

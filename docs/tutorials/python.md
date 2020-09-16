@@ -9,8 +9,8 @@ We assume you already have a @ref[deployed](../installation/) instance of the Hy
 To let `hs` know where the Hydrosphere platform runs, configure a new `cluster` entity.
 
 ```bash
-$ hs cluster add --name local --server http://localhost
-$ hs cluster use local
+hs cluster add --name local --server http://localhost
+hs cluster use local
 ```
 
 ## Model structure
@@ -18,9 +18,9 @@ $ hs cluster use local
 First of all, let's create a directory where we will put all of our code:
 
 ```bash
-$ mkdir -p increment_model/src
-$ cd increment_model
-$ touch src/func_main.py
+mkdir -p increment_model/src
+cd increment_model
+touch src/func_main.py
 ```
 
 {% hint style="info" %}
@@ -32,7 +32,7 @@ Generally, we use `hydrosphere/serving-runtime-python-3.7` runtime for serving P
 By default the `hydrosphere/serving-runtime-python-3.7` runtime does not have any scientific packages pre-installed, you will have to manage this yourself. Let's add `requirements.txt`:
 
 ```bash
-$ echo "tensorflow==2.2\nnumpy==1.19" > requirements.txt
+echo "tensorflow==2.2\nnumpy==1.19" > requirements.txt
 ```
 
 ## Serving function
@@ -89,7 +89,7 @@ That's it, you've just created a model that can be used within your business app
 Upload the model to the Hydrosphere platform.
 
 ```bash
-$ hs upload
+hs upload
 ```
 
 Once the model has been uploaded, it can be exposed for serving as an application.
@@ -97,7 +97,7 @@ Once the model has been uploaded, it can be exposed for serving as an applicatio
 Create an application to declare an endpoint to your model. You can create it manually via Hydrosphere UI, or by providing an application manifest.
 
 ```bash
-$ hs apply -f - <<EOF
+hs apply -f - <<EOF
 kind: Application
 name: increment_app
 singular:
@@ -110,7 +110,7 @@ EOF
 You can send requests to your models using gRPC or HTTP endpoints, e.g.
 
 ```bash
-$ curl --request POST --header 'Content-Type: application/json' --header 'Accept: application/json' \
+curl --request POST --header 'Content-Type: application/json' --header 'Accept: application/json' \
     --data '{ "number": [1] }' 'http://<host>/gateway/application/increment_app'
 ```
 
