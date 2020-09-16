@@ -19,7 +19,7 @@ As a data source we will use the census income [dataset](https://www.kaggle.com/
 ## Before you start
 
 * We assume you already have [installed](../installation/) Hydrosphere platform and a [CLI](../installation/cli.md) on your local machine.
-* This tutorial is a sequel to Train & Deploy Census Income Classification Model tutorial. We assume that you have already prepared dataset, trained a model and deployed it to a cluster. If not, then please click to the [previous](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHGvmrVrOLoZn1Rkock/tutorials/train-and-deploy-census-income-classification-model) tutorial. 
+* This tutorial is a sequel to Train & Deploy Census Income Classification Model tutorial. We assume that you have already prepared dataset, trained a model and deployed it to a cluster. If not, then please click to the [previous](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHGvmrVrOLoZn1Rkock/tutorials/train-and-deploy-census-income-classification-model) tutorial.
 
 ## Train Monitoring Model
 
@@ -31,48 +31,46 @@ cd monitoring_model
 touch src/func_main.py
 ```
 
-As a monitoring metric, we will use the `sklearn.ensemble.IsolationForest`. You can read more about how it works in [its documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html).
+As a monitoring metric, we will use the `sklearn.ensemble.IsolationForest`. You can read more about how it works in [its documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html). The model itself wll be based on the [PyOD](https://pyod.readthedocs.io/) realization. So before starting don't forget to install an apppropriate library.
+
+```bash
+!pip install pyod
+```
+
+To be sure that our monitoring model will see the same data as our prediction model, we are going to apply training data that was saved previously. 
 
 ```python
 import joblib
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.ensemble import IsolationForest
+from pyod.models.iforest import IsolationForest
 
+X_train = pd.read_csv('data/train.csv', index_col=0)
 
-# #main-section
-X_train = pd.read_csv('data/train.csv')
-
-monitoring_model = IsolationForest(contamination=0.04)
+monitoring_model = IForest(contamination=0.04)
 monitoring_model.fit(X_train)
-# #main-section
 
+y_train_pred = monitoring_model.labels_  # binary labels (0: inliers, 1: outliers)
+y_train_scores = monitoring_model.decision_scores_  # raw outlier scores
 
-# #plot-section
-y_train_pred = monitoring_model.predict(X_train)  # binary labels (0: inliers, 1: outliers)
-y_train_scores = monitoring_model.score_samples(X_train)  # raw outlier scores
+plt.hist(
+    y_train_scores, bins=30, 
+    alpha=0.5, density=True, 
+    label="Train data outlier scores"
+)
 
-
-plt.hist(y_train_scores, 
-        bins=30, 
-        alpha=0.5, 
-        density=True, 
-        label="Train data outlier scores")
-
-plt.vlines(monitoring_model.offset_, 0, 1.9, label = "Threshold for marking outliers")
+plt.vlines(monitoring_model.threshold_, 0, 1.9, label = "Threshold for marking outliers")
 plt.gcf().set_size_inches(10, 5)
 plt.legend()
-# #plot-section
 
-joblib.dump(monitoring_model, "model/monitoring_model.joblib")
-# #save-section
+dump(monitoring_model, "monitoring_model/monitoring_model.joblib")
 ```
 
 This gives us the following output. This is how distribution of our inliers look like. By choosing a contamination parameter we can regulate a threshold that will separate inliers from outliers accordingly. You have to be thorough in choosing it to avoid critical prediction mistakes. Otherwise, you can also stay with `'auto'`. 
 
 ![](../.gitbook/assets/figure.png)
 
-## Deploy Monitoring Model
+## Deploy Monitoring Model by SDK
 
 To create a monitoring metric, we have to deploy that IsolationForest model as a separate model on the Hydrosphere platform. Let's save a trained model for serving. Create a new directory where we will declare the serving function and its definitions.
 
@@ -86,19 +84,11 @@ from joblib import load
 
 monitoring_model = load('/model/files/monitoring_model.joblib')
 
-features = ['age',
-            'workclass',
-            'education',
-            'marital_status',
-            'occupation',
-            'relationship',
-            'race',
-            'sex',
-            'capital_gain',
-            'capital_loss',
-            'hours_per_week',
-            'country']
-
+features = ['age', 'workclass', 'fnlwgt',
+            'education', 'educational-num', 'marital-status',
+            'occupation', 'relationship', 'race', 'gender',
+            'capital-gain', 'capital-loss', 'hours-per-week',
+            'native-country']
 
 def predict(**kwargs):
     x = np.array([kwargs[feature] for feature in features]).reshape(1, len(features))
@@ -109,11 +99,68 @@ def predict(**kwargs):
 {% endtab %}
 {% endtabs %}
 
-This model also have to be packed with a model definition as we did in the previous turorial.
+Next, we need to install necessary libraries during the monitoring model's upload. Create a `requirements.txt` and add the following libraries to it:
+
+```bash
+joblib==0.13.2
+numpy==1.16.2
+pyod==0.7.4
+```
+
+As with common models we can use SDK to upload and bind our trained model with a monitoring one. Practically steps are almost the same, but with some slight differences. First, given that we want to predict anomaly score instead of sample class, we need to change type of the output field from `'int64'` to `'float64'`. Secondly, we need to apply couple new methods for a metric creation and its binding through Servable. `MetricSpecConfig` is responsible for a metric creation for a specific model, whereas `MetricSpec` supports the process of binding it to the trained model.
+
+```python
+from hydrosdk.monitoring import MetricSpec, MetricSpecConfig, ThresholdCmpOp
+
+path_mon = "monitoring_model/"
+payload_mon = ['src/func_main.py', 
+               'monitoring_model.joblib', 'requirements.txt']
+            
+monitoring_signature = SignatureBuilder('predict') 
+for i in X_train.columns:
+    monitoring_signature.with_input(i, 'int64', 'scalar')
+monitor_signature = monitoring_signature.with_output('value', 'float64', 'scalar').build()
+
+monitor_contract = ModelContract(predict=monitor_signature)
+
+monitoring_model_local = LocalModel(name="adult_monitoring_model", 
+                              install_command = 'pip install -r requirements.txt',
+                              contract=monitor_contract,
+                              runtime=DockerImage("hydrosphere/serving-runtime-python-3.7", "2.3.2", None),
+                              payload=payload_mon,
+                              path=path_mon)
+monitoring_upload = monitoring_model_local.upload(cluster)
+monitoring_upload.lock_till_released()
+
+metric_config = MetricSpecConfig(monitoring_upload.id, monitoring_model.threshold_, ThresholdCmpOp.LESS)
+metric_spec = MetricSpec.create(cluster, "is_greater_than", model_find.id, metric_config)
+monitoring_servable = Servable.create(cluster, model_name=monitoring_upload.name, 
+                                      version=monitoring_upload.version)
+```
+
+Anomaly scores itself are obtained through [traffic shadowing](https://www.getambassador.io/docs/latest/topics/using/shadowing/) inside the Hydrosphere's engine after making Servable, so you don't need to make any additional manipulations.
+
+## Managing Custom Metrics by UI
+
+In order to observe and manage your monitoring models, you can use UI. Go to the Monitoring profile.
+
+![](../.gitbook/assets/screenshot-2020-09-16-at-17.56.27.png)
+
+Now, as you can notice, you have two external metrics: a first one, `auto_od_metric` was formed automatically by [Automatic Outlier Detection](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHLfibGIoeUmdpQR30S/overview/features/automatic-outlier-detection) and a new one, `is_greater_than`,  that we have just created. You can also change settings for existent metrics and configuring new one by `Configure Metrics` section.
+
+![](../.gitbook/assets/screenshot-2020-09-16-at-17.57.42.png)
+
+During prediction you will obtain anomaly scores for each sample in the form of continuous curved line and dotted line, which is our threshold. Intersection of the latter one might signalize about potential anomalousness, but it is not always true, as there are many factors that might affect this, so be careful about final interpretation.
+
+![](../.gitbook/assets/screenshot-2020-09-16-at-18.13.30.png)
+
+## Uploading monitoring model by CLI
+
+As with all other models, we can define and upload model using a contract. This model also have to be packed with a model definition as we did in the previous turorial.
 
 ```yaml
 kind: Model
-name: "census_monitoring"
+name: "adult_monitoring_model"
 payload:
   - "src/"
   - "requirements.txt"
@@ -165,23 +212,11 @@ contract:
   outputs:
     value:
       shape: scalar
-      type: double
+      type: float64
       
 ```
 
-Inputs of this model are the inputs of the **target** monitored model plus the outputs of that model. As an output for the monitoring model itself we will use the `value` field.
-
-Pay attention to the model's payload. It has the `src` folder that we have just created, `requirements.txt` with all dependencies and a `monitoring_model.joblib` file, e.g. our newly trained serialized KNN model.
-
-`requirements.txt` looks like this:
-
-```text
-joblib==0.13.2
-numpy==1.16.2
-pyod==0.7.4
-```
-
-The final directory structure should look like this:
+Inputs of this model are the inputs of the **target** monitored model plus the outputs of that model. As an output for the monitoring model itself we will use the `value` field. The final directory structure should look like this:
 
 ```text
 .
@@ -198,19 +233,13 @@ From that folder, upload the model to the cluster.
 hs upload
 ```
 
-## Attach Deployed Monitoring Model as a Custom Metric
-
-Let's create a monitoring metric for our pre-deployed classification model.
+Now we have to attach deployed Monitoring model as a custom metric. Let's create a monitoring metric for our pre-deployed classification model.
 
 {% tabs %}
-{% tab title="SDK" %}
-TODO
-{% endtab %}
-
 {% tab title="UI" %}
 1. From the _Models_ section, select the target model you would like to deploy and select the desired model version;
 2. Open the _Monitoring_ tab.
-3. At the bottom of the page click the `Add Metric` button;
+3. At the bottom of the page click the `Configure Metric` button;
 4. From the opened window click the `Add Metric` button;
    1. Specify the name of the metric;
    2. Choose the monitoring model;
