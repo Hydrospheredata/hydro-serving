@@ -39,7 +39,7 @@ We suggest you use one of the orchestrators, such as Kubeflow or Airflow, to del
 
 ## Hydrosphere Components
 
-Hydrosphere platform includes all steps of a production ML model cycle - Versioning, Deployment, Monitoring, and Maintenance. This combination allows us to use a single tool to build an observable, reproducible, and scalable workflow, and start getting early warnings once anything goes wrong. These steps of an ML lifecycle are divided between three components that make up Hydrosphere platform - Serving, Monitoring, and Interpretability.
+Hydrosphere platform includes all steps of a production ML model cycle - Versioning, Deployment, Monitoring, and Maintenance. This combination allows us to use a single tool to build an observable, reproducible, and scalable workflow, and start getting early warnings once anything goes wrong. These steps of an ML lifecycle are divided between three components that make up the Hydrosphere platform - Serving, Monitoring, and Interpretability.
 
 ![Hydrosphere Platform Components](../.gitbook/assets/hydrosphere_components.png)
 
@@ -62,7 +62,7 @@ Hydrosphere is capable of monitoring model quality with or without getting addit
 ### Interpretability
 
 {% hint style="info" %}
-Hydrosphere Interpretability is not available as an open-source solution. If you are interested in this component you can contact us via [gitter](https://gitter.im/Hydrospheredata/hydro-serving) or our [website](https://hydrosphere.io).
+Hydrosphere Interpretability is not available as an open-source solution. If you are interested in this component you can contact us via [Gitter](https://gitter.im/Hydrospheredata/hydro-serving) or our [website](https://hydrosphere.io).
 {% endhint %}
 
 Hydrosphere Interpretability provides human-readable explanations of the predictions made by your ML models, as well as the explanations of monitoring analytics made by Hydrosphere Monitoring. It helps to evaluate and analyze models and understand what features influence their decisions. The Interpretability component demystifies your ML process, provides a new level of confidence about the reasons behind your models’ decisions and a certain level of trust business can rely on.
