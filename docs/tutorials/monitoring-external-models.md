@@ -69,7 +69,7 @@ The example below shows how a `contract` object can be defined.
 `predict` object describes the signature of the model. The signature object **must** contain the following members:
 
 * `signatureName`: The signature of the model, used to process the request;
-* `inputs`: A collection of fields, defining the inputs of the model. Each item in the collection describes a single data entry, its type, shape and profile. A collection **must** contain at least one item;
+* `inputs`: A collection of fields, defining the inputs of the model. Each item in the collection describes a single data entry, its type, shape, and profile. A collection **must** contain at least one item;
 * `outputs`: A collection of fields, defining the outputs of the model. Each item in the collection describes a single data entry, its type, shape, and profile. A collection **must** contain at least one item. 
 
 The example below shows how a `predict` object can be defined.
@@ -560,7 +560,7 @@ To send a request for analysis you have to use gRPC endpoint. We have already [p
 2. Create a [_PredictRequest_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/api/predict.proto#L14) message that contains the original request passed to the serving model for the prediction:
 3. Create a [_PredictResponse_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/api/predict.proto#L26) message that contains inferenced output of the model: 
 4. Assemble an [_ExecutionInformation_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L10) from the above-created messages.
-5. Submit ExecutionInformation proto to Sonar for analysis. Use RPC [_Analyse_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L20) method of the [_MonitoringService_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L19) to calculate metrics.
+5. Submit ExecutionInformation proto to Sonar for analysis. Use the RPC [_Analyse_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L20) method of the [_MonitoringService_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L19) to calculate metrics.
 
 In the code snippets below you can see how analysis can be triggered with sample gRPC clients.
 
@@ -827,7 +827,7 @@ Apart from the fields defined above, each object will have additional fields spe
 
 `_hs_raw_checks` object contains all fields, for which checks have been calculated.
 
-The example below shows, how `_hs_raw_checks_` object can be defined.
+The example below shows, how the `_hs_raw_checks_` object can be defined.
 
 ```javascript
 {
@@ -847,7 +847,7 @@ The example below shows, how `_hs_raw_checks_` object can be defined.
 * `value`: Value of the field; 
 * `metricSpecId`: Metric specification ID. For each `check` object this value will be set to `null`. 
 
-The example below shows, how `check` object can be defined.
+The example below shows, how the `check` object can be defined.
 
 ```javascript
 {
@@ -863,7 +863,7 @@ The example below shows, how `check` object can be defined.
 
 `_hs_metrics_checks` object contains all fields for which metrics have been calculated.
 
-The example below shows how `_hs_metrics_checks` object can be defined.
+The example below shows how the `_hs_metrics_checks` object can be defined.
 
 ```javascript
 {
@@ -883,7 +883,7 @@ The example below shows how `_hs_metrics_checks` object can be defined.
 * `value`: Value of the metric; 
 * `metricSpecId`: Metric specification ID.
 
-The example below shows how a `metric` object can be defined.
+The example below shows how the `metric` object can be defined.
 
 ```javascript
 {
