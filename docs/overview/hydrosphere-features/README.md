@@ -2,7 +2,7 @@
 description: Features that make up Hydrosphere Platform
 ---
 
-# Features of Hydrosphere
+# Key Features
 
 ## Serving
 
