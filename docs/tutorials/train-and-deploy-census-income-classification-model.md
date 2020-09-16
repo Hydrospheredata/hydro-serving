@@ -219,7 +219,7 @@ You might notice that after some time there appears an additional model with the
 
 ![](../.gitbook/assets/screenshot-2020-09-14-at-17.52.30.png)
 
-To configure additional external metrics or check values for an already existing one, go to the Monitoring profile and customize it for yourself. That's it! 
+To configure additional external metrics or check values for an already existing one, go to the Monitoring profile, and customize it for yourself. That's it! 
 
 ## Deploy a model to the cluster using CLI
 
