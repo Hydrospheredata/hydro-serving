@@ -23,7 +23,7 @@ As a data source we will use the census income [dataset](https://www.kaggle.com/
 
 ## Train Monitoring Model
 
-Basically steps are the same as with a common model. Before training and uploadingu, let's create a directory for our model.
+Basically steps are the same as with a common model. Before training and uploading, let's create a directory for our model.
 
 ```bash
 mkdir -p monitoring_model/src
