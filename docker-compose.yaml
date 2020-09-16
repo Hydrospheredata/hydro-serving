@@ -57,7 +57,7 @@ services:
      container_name: managerui
      depends_on:
        - manager
-       - gatewayц
+       - gateway
      ports:
        - "80:80"
      networks:

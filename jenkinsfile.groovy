@@ -1,14 +1,5 @@
 def repository = 'hydro-serving'
 
-def releaseBuiltDocs(desiredVersion) {
-  def servingDocsFolder = '~/serving_publish_dir_new'
-  sshagent(['hydro-site-publish']) {
-    sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/main jenkins_publish@hydrosphere.io:${servingDocsFolder}/${desiredVersion}"
-    sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/src/python jenkins_publish@hydrosphere.io:serving_scripts"
-    sh "ssh -o StrictHostKeyChecking=no -t jenkins_publish@hydrosphere.io \"python3.5 ~/serving_scripts/python/release_docs.py --website-path ${servingDocsFolder} --release-version ${desiredVersion}\""
-  }
-}
-
 
 def releaseGitbookDocs(desiredVersion) {
    sh "git checkout docs/${desiredVersion}"
@@ -28,17 +19,6 @@ if (getJobType() == "RELEASE_JOB") {
 
     stage("Checkout") {
       autoCheckout(repository)
-    }
-
-    stage("Publish docs") {
-        def curVersion = getVersion()
-        sh "cd docs && sbt -DappVersion=${curVersion} paradox"
-        releaseBuiltDocs(curVersion)
-    }
-
-    stage("Publish gitbook docs") {
-       def curVersion = getVersion()
-       releaseGitbookDocs(curVersion)
     }
 
     stage("Create GitHub Release") {
@@ -75,6 +55,12 @@ if (getJobType() == "RELEASE_JOB") {
       pushSource(repository)
       sh "git checkout ${env.BRANCH_NAME}"
     }
+
+    stage("Publish gitbook docs") {
+       def curVersion = getVersion()
+       releaseGitbookDocs(curVersion)
+    }
+
   }
 } else {
     node("JenkinsOnDemand") {
@@ -95,15 +81,7 @@ if (getJobType() == "RELEASE_JOB") {
       sh "cd helm && helm template serving"
     }
 
-    stage("Build documentation") {
-      sh "cd docs && sbt -DappVersion=dev paradox"
-    }
-
-
     if (env.BRANCH_NAME == "master") {
-      stage("Publish documentation as dev version") {
-        releaseBuiltDocs("dev")
-      }
       stage("Publish Gitbook documentation as dev version") {
         releaseGitbookDocs("dev")
       }
