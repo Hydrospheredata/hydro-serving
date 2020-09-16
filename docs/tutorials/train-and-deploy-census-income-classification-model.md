@@ -221,7 +221,7 @@ You might notice that after some time there appears an additional model with the
 
 To configure additional external metrics or check values for an already existing one, go to the Monitoring profile and customize it for yourself. That's it! 
 
-## Deploy a model to the cluster using a serving contract
+## Deploy a model to the cluster using CLI
 
 Another way to upload your model is to apply a contract. This process repeats all the previous steps like data preparation, training. The difference is that instead of using SDK, we are supporting the process of upload by a contract. A contract is a file that defines the inputs and outputs of the model, a signature function, and some other metadata required for serving. Go to the root directory of the model and create a `serving.yaml` file. You should get the following file structure:
 
