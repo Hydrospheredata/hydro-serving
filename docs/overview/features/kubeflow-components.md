@@ -1,4 +1,4 @@
-# Kubeflow components
+# Kubeflow Components
 
 Hydrosphere Serving Components for Kubeflow Pipelines provide an integration between Hydrosphere model serving benefits and [Kubeflow](https://kubeflow.org) orchestration capabilities. This allows launching training jobs as well as serving the same models in Kubernetes in a single pipeline.
 

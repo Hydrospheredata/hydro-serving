@@ -7,12 +7,11 @@ description: Features that make up Hydrosphere Platform
 ## Serving
 
 * Model Registry
-* HTTP / gRPC interfaces for deployed models
+* Interfaces of Deployed Models \(HTTP / gRPC\)
 * [Inference Pipelines](inference-pipelines.md)
 * A/B Model Version Deployment
 * [Traffic Shadowing](traffic-shadowing.md)
-* Language-agnostic deployment
-* [Load Scaling]()
+* Language-Agnostic Deployment
 
 ## Monitoring
 
@@ -24,6 +23,7 @@ description: Features that make up Hydrosphere Platform
 ## Explainability
 
 * [Data Visualization ](data-vizualization.md)
+* Kubeflow Components
 
 
 

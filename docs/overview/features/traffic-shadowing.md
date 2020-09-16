@@ -1,4 +1,4 @@
-# A/B Deployment and Traffic Shadowing
+# Traffic Shadowing
 
 ## A/B Deployment
 
