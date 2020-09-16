@@ -62,7 +62,7 @@ See `hs app --help` - for more information.
 This command provides information about available models.
 
 * `$ hs model list` - list all existing models.
-* `$ hs model rm` - remove certain model.
+* `$ hs model rm` - remove a certain model.
 
 See `hs model --help` for more information.
 
