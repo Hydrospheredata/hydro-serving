@@ -13,7 +13,7 @@
     * [Inference Pipelines](overview/features/inference-pipelines.md)
     * [A/B Model Deployments](overview/features/a-b-model-deployments.md)
     * [Traffic Shadowing](overview/features/traffic-shadowing.md)
-    * [Language-Agnostic Deployment](overview/features/language-agnostic.md)
+    * [Language-Agnostic](overview/features/language-agnostic.md)
     * [Automatic Outlier Detection](overview/features/automatic-outlier-detection.md)
     * [Data Drift Report](overview/features/data-drift-report.md)
     * [Monitoring Dashboard](overview/features/monitoring-dashboard.md)
