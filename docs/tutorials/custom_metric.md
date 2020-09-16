@@ -2,7 +2,7 @@
 description: 'Estimated Completion Time: 18m.'
 ---
 
-# Monitor anomalies with a custom metric
+# Monitoring Anomalies with a Custom Metric
 
 {% hint style="danger" %}
 This tutorial is a work in progress

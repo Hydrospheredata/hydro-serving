@@ -2,7 +2,7 @@
 description: 'Estimated completion time: 14 min.'
 ---
 
-# A/B Analysis for a recommendation model
+# A/B Analysis for a Recommendation Model
 
 In this tutorial, we'll show how users can retrospectively compare the behavior of two different models.
 
