@@ -10,7 +10,7 @@ Hydrosphere is a platform for **deploying, versioning and monitoring** your mach
 
 ## What to do next?
 
-⭐️ Checkout and star [Hydrosphere Github Repo](https://github.com/Hydrospheredata/hydro-serving)
+⭐️ Star [Hydrosphere repo on Github](https://github.com/Hydrospheredata/hydro-serving)
 
 💦 Explore our [**Getting started**](getting-started.md) with Hydrosphere tutorial
 
