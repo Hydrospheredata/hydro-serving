@@ -2,7 +2,7 @@
 
 This section contains tutorials to help you get started with the Hydrosphere platform. A tutorial shows how to accomplish a goal rather than a single basic task. 
 
-### Tutorials 
+### Contents 
 
 * [A/B Deployment and Traffic Shadowing](https://hydrosphere.gitbook.io/home/tutorials/a-b-analysis-for-a-recommendation-model)
 * [Using Deployment Configurations](https://hydrosphere.gitbook.io/home/tutorials/deployment-configuration)
