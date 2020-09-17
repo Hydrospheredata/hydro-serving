@@ -4,7 +4,7 @@ def repository = 'hydro-serving'
 def releaseGitbookDocs(desiredVersion) {
    sh "git checkout docs/${desiredVersion}"
    // Replace all $released_version$ in .md files to desiredVersion
-   sh "find . -type f -not -path '*/\.*' -name "*.md" -exec sed -i -e 's/\$released_version\$/${desiredVersion}/g' {} +"
+   sh "find . -type f -not -path '*/\\.*' -name "*.md" -exec sed -i -e 's/\$released_version\$/${desiredVersion}/g' {} +"
    sh "git merge master"
    pushSource(repository)
    sh "git checkout ${env.BRANCH_NAME}"
