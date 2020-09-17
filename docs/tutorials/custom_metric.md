@@ -27,7 +27,7 @@ For this tutorial, you need to have **Hydrosphere platform** deployed and **Hydr
 
 This tutorial is a sequel to the previous tutorial. Please complete it first to have a prepared dataset and a trained model deployed to the cluster:
 
-* [Train & Deploy Census Income Classification Model](https://hydrosphere.gitbook.io/home/tutorials/train-and-deploy-census-income-classification-model)
+* [Train & Deploy Census Income Classification Model](train-and-deploy-census-income-classification-model.md)
 
 ## Train a Monitoring Model
 
