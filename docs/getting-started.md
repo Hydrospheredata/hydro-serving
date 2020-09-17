@@ -146,11 +146,11 @@ def infer(x1, x2):
 
 Inside `func_main.py` we initialize our model outside of the serving function `infer`, so that this process will not be triggered every time a new request comes in. The `infer` function takes the actual request, unpacks it, makes a prediction, packs the answer, and returns it. There is no strict rule for naming this function, it just has to be a valid Python function name.
 
-### Provide a contract file
+### Provide a resource definition file
 
-To let Hydrosphere know which function to call from the `func_main.py` file,  we have to provide a **contract**. A contract file defines a function to call along with inputs and outputs of a model, as well as a signature function and some other metadata required for serving. C
+To let Hydrosphere know which function to call from the `func_main.py` file,  we have to provide a resource definition file. This file will define a function to be called, inputs and outputs of a model, a signature function and some other metadata required for serving. 
 
-Create a contract file `serving.yaml`in the root of your model directory`logistic_regression`:
+Create a resource definition file `serving.yaml`in the root of your model directory`logistic_regression`:
 
 ```bash
 cd ..
