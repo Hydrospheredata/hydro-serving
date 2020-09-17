@@ -20,9 +20,9 @@ This tutorial provides a walkthrough of how a user can configure deployed Applic
 ## Prerequisites
 
 * [Hydrosphere platform installed in Kubernetes cluster](../installation/#kubernetes-installation)
-* [Python SDK](../installation/sdk.md#installation)
+* [Python SDK](../installation/sdk.md#installation) / [CLI](../installation/cli.md#installation)
 
-## Upload a Model
+##  Upload a Model
 
 In this section, we describe resources required to create and upload an example model used in further sections. If you have no prior experience with uploading models to the Hydrosphere platform we suggest that you visit the [Getting Started Tutorial](../getting-started.md).
 
@@ -137,11 +137,11 @@ After we have made sure that all files are placed correctly, we can upload the m
 hs upload
 ```
 
-## Create Deployment Configuration
+## Create a Deployment Configuration
 
 Next, we are going to create and upload an instance of [Deployment Configuration](../overview/concepts.md#deployment-configurations) to the Hydrosphere platform.
 
-Deployment Configurations describe with which Kubernetes settings Hydrosphere should deploy [servables](../overview/concepts.md#servable). You can specify Pod [Affinity](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#affinity-v1-core) and [Tolerations](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#toleration-v1-core), the number of desired pods in deployment, [ResourceRequirements](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#resourcerequirements-v1-core) for the model container, and [HorizontalPodAutoScaler](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#horizontalpodautoscalerspec-v1-autoscaling) settings.
+Deployment Configurations describe with which Kubernetes settings Hydrosphere should deploy [servables](../overview/concepts.md#servable). You can specify Pod [Affinity](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#affinity-v1-core) and [Tolerations](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#toleration-v1-core), the number of desired pods in deployment, [ResourceRequirements](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#resourcerequirements-v1-core) and Environment Variables for the model container, and [HorizontalPodAutoScaler](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#horizontalpodautoscalerspec-v1-autoscaling) settings.
 
 Created Deployment Configurations can be attached to Servables and Model Variants inside of Application. 
 
@@ -149,7 +149,7 @@ Deployment Configurations are immutable and cannot be changed after they've been
 
 You can create and upload Deployment Configuration to Hydrosphere via [YAML Resource definition](../how-to/write-definitions.md#kind-deploymentconfiguration) or via [Python SDK](../installation/sdk.md).
 
-For this tutorial, we'll create a deployment configuration with 4 initial pods per deployment and HPA.
+For this tutorial, we'll create a deployment configuration with 2 initial pods per deployment, HPA, and `FOO` environment variable with value `bar`.
 
 {% tabs %}
 {% tab title="YAML Resource Definition" %}
@@ -165,6 +165,9 @@ hpa:
   minReplicas: 2
   maxReplicas: 4
   cpuUtilization: 70
+container:
+  env:
+    FOO: bar
 ```
 {% endcode %}
 
@@ -184,6 +187,7 @@ cluster = Cluster("http://localhost")
 dep_config_builder = DeploymentConfigurationBuilder("my-dep-config", cluster)
 dep_config = dep_config_builder. \
     with_replicas(replica_count=2). \
+    with_env({"FOO":"bar"}). \
     with_hpa(max_replicas=4,
              min_replicas=2,
              target_cpu_utilization_percentage=70).build()
@@ -233,26 +237,32 @@ app = ApplicationBuilder(cluster, "my-app-with-config").with_stage(stage).build(
 {% endtab %}
 {% endtabs %}
 
-## Invoke the Application
+## Examine Kubernetes Settings
 
-To check how our deployment configuration works, let's send a series of requests to our deployed application via Python SDK:
+### Replicas
 
-```python
-import numpy as np
-import pandas as pd
-from hydrosdk import Cluster, Application
+You can check whether `with_replicas` was successful by calling `kubectl get deployment -A -o wide` and checking the `READY`column.
 
-cluster = Cluster("http://localhost", grpc_address="localhost:9090")
+### HPA
 
-app = Application.find(cluster, "my-app-with-config")
-predictor = app.predictor()
+To check whether `with_hpa` was successful you should get list of all created Horizontal Pod Autoscaler Resources. You can do so by calling `kubectl get hpa -A`
 
-X = pd.read_csv("training_data.csv")
+The output is similar to:
 
+```text
+NAME                        REFERENCE                                            TARGETS    MINPODS   MAXPODS   REPLICAS   AGE
+my-model-1-tumbling-star    CrossVersionObjectReference/my-model-1-tumbling-star 20%/70%    2         4         2          1d
+```
 
-for sample in X[:1000].itertuples(index=False):
-    x = np.array(sample)
-    y = predictor.predict({"x": x})
+### Environment Variables
 
+To list all environment variables run `kubectl exec my-model-1-tumbling-star -it /bin/bash` and then execute `printenv`  command which prints ann system variables.
+
+Output is similar to:
+
+```text
+MY_MODEL_1_TUMBLING_STAR_SERVICE_PORT_GRPC=9091
+...
+FOO=bar
 ```
 
