@@ -12,16 +12,16 @@ On this page you will learn how to create a custom anomaly detection metric for 
 
 ## Overview
 
-For this use case we have chosen a problem described in a [Train & Deploy Census Income Classification Model](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHGvmrVrOLoZn1Rkock/tutorials/train-and-deploy-census-income-classification-model) tutorial. We will monitor the model, which will classify whether the income of a given person exceeds $50.000 per year. 
+For this use case, we have chosen a problem described in a [Train & Deploy Census Income Classification Model](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHGvmrVrOLoZn1Rkock/tutorials/train-and-deploy-census-income-classification-model) tutorial. We will monitor the model, which will classify whether the income of a given person exceeds $50.000 per year. 
 
-As a data source we will use the census income [dataset](https://www.kaggle.com/wenruliu/adult-income-dataset).
+As a data source, we will use the census income [dataset](https://www.kaggle.com/wenruliu/adult-income-dataset).
 
 ## Before you start
 
 * We assume you already have [installed](../installation/) Hydrosphere platform and a [CLI](../installation/cli.md) on your local machine.
-* This tutorial is a sequel to Train & Deploy Census Income Classification Model tutorial. We assume that you have already prepared dataset, trained a model and deployed it to a cluster. If not, then please click to the [previous](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHGvmrVrOLoZn1Rkock/tutorials/train-and-deploy-census-income-classification-model) tutorial.
+* This tutorial is a sequel to [Train & Deploy Census Income Classification Model](https://hydrosphere.gitbook.io/home/tutorials/train-and-deploy-census-income-classification-model) tutorial. We assume that you have already prepared a dataset, trained a model, and deployed it to a cluster. If not, then please click to the [previous](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHGvmrVrOLoZn1Rkock/tutorials/train-and-deploy-census-income-classification-model) tutorial.
 
-## Train Monitoring Model
+## Train a Monitoring Model
 
 Basically steps are the same as with a common model. Before training and uploading, let's create a directory for our model.
 
@@ -31,7 +31,7 @@ cd monitoring_model
 touch src/func_main.py
 ```
 
-As a monitoring metric, we will use the IsolationForest. You can read more about how it works in [its documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html). The model itself will be based on the [PyOD](https://pyod.readthedocs.io/) realization. So before starting don't forget to install an apppropriate library.
+As a monitoring metric, we will use the **IsolationForest**. You can learn about how it works in [its documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html). The model will be based on the [PyOD](https://pyod.readthedocs.io/) realization, so let's install the library first:
 
 ```bash
 !pip install pyod
@@ -68,11 +68,11 @@ dump(monitoring_model, "monitoring_model/monitoring_model.joblib")
 
 ![](../.gitbook/assets/figure.png)
 
-This gives us the following output. This is how distribution of our inliers look like. By choosing a contamination parameter we can regulate a threshold that will separate inliers from outliers accordingly. You have to be thorough in choosing it to avoid critical prediction mistakes. Otherwise, you can also stay with `'auto'`.  To create a monitoring metric, we have to deploy that IsolationForest model as a separate model on the Hydrosphere platform. Let's save a trained model for serving.
+This gives us the following output. This is what the distribution of our inliers looks like. By choosing a contamination parameter we can regulate a threshold that will separate inliers from outliers accordingly. You have to be thorough in choosing it to avoid critical prediction mistakes. Otherwise, you can also stay with `'auto'`.  To create a monitoring metric, we have to deploy that IsolationForest model as a separate model on the Hydrosphere platform. Let's save a trained model for serving.
 
-## Deploy Monitoring Model by SDK
+## Deploy a Monitoring Model with SDK
 
- First in deployment process, let's create a new directory where we will declare the serving function and its definitions. Inside the `src/func_main.py` file put the following code:
+First, in deployment process, let's create a new directory where we will declare the serving function and its definitions. Inside the `src/func_main.py` file put the following code:
 
 {% tabs %}
 {% tab title="func\_main.py" %}
@@ -105,7 +105,9 @@ numpy==1.16.2
 pyod==0.7.4
 ```
 
-As with common models we can use SDK to upload and bind our trained model with a monitoring one. Practically steps are almost the same, but with some slight differences. First, given that we want to predict anomaly score instead of sample class, we need to change type of the output field from `'int64'` to `'float64'`. Secondly, we need to apply couple new methods for a metric creation and its binding through Servable. `MetricSpecConfig` is responsible for a metric creation for a specific model, whereas `MetricSpec` supports the process of binding it to the trained model.
+As with common models, we can use SDK to upload and bind our monitoring model to the trained one. The steps are almost the same, but with some slight differences. First, given that we want to predict the anomaly score instead of sample class, we need to change the type of output field from `'int64'` to `'float64'`. 
+
+Secondly, we need to apply a couple of new methods for a metric creation and its binding through Servable. `MetricSpecConfig` is responsible for a metric creation for a specific model, whereas `MetricSpec` supports the process of binding it to the trained model.
 
 ```python
 from hydrosdk.monitoring import MetricSpec, MetricSpecConfig, ThresholdCmpOp
@@ -136,25 +138,25 @@ monitoring_servable = Servable.create(cluster, model_name=monitoring_upload.name
                                       version=monitoring_upload.version)
 ```
 
-Anomaly scores itself are obtained through [traffic shadowing](https://www.getambassador.io/docs/latest/topics/using/shadowing/) inside the Hydrosphere's engine after making Servable, so you don't need to make any additional manipulations.
+Anomaly scores are obtained through [traffic shadowing](https://www.getambassador.io/docs/latest/topics/using/shadowing/) inside the Hydrosphere's engine after making Servable, so you don't need to make any additional manipulations.
 
-## Managing Custom Metrics by UI
+## Managing Custom Metrics with UI
 
-In order to observe and manage your monitoring models, you can use UI. Go to the Monitoring profile.
+You can use the UI to observe and manage your monitoring models. Go to the Monitoring dashboard:
 
 ![](../.gitbook/assets/screenshot-2020-09-16-at-17.56.27.png)
 
-Now, as you can notice, you have two external metrics: a first one, `auto_od_metric` was formed automatically by [Automatic Outlier Detection](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHLfibGIoeUmdpQR30S/overview/features/automatic-outlier-detection) and a new one, `is_greater_than`,  that we have just created. You can also change settings for existent metrics and configuring new one by `Configure Metrics` section.
+Now, as you can notice, you have two external metrics: the first one, `auto_od_metric` was formed automatically by [Automatic Outlier Detection](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHLfibGIoeUmdpQR30S/overview/features/automatic-outlier-detection) and the new one, `is_greater_than`,  that we have just created. You can also change settings for existent metrics and configuring new one by `Configure Metrics` section.
 
 ![](../.gitbook/assets/screenshot-2020-09-16-at-17.57.42.png)
 
-During prediction you will obtain anomaly scores for each sample in the form of continuous curved line and dotted line, which is our threshold. Intersection of the latter one might signalize about potential anomalousness, but it is not always true, as there are many factors that might affect this, so be careful about final interpretation.
+During prediction, you will obtain anomaly scores for each sample in the form of continuous curved line and dotted line, which is our threshold. The intersection of the latter one might signalize about potential anomalousness, but it is not always true, as there are many factors that might affect this, so be careful about final interpretation.
 
 ![](../.gitbook/assets/screenshot-2020-09-16-at-18.13.30.png)
 
-## Uploading monitoring model by CLI
+## Uploading a Monitoring model with CLI
 
-As with all other models, we can define and upload model using a contract. This model also have to be packed with a model definition as we did in the previous turorial.
+As with all other models, we can define and upload a model using a contract. This model also has to be packed with a model definition as we did in the previous tutorial.
 
 ```yaml
 kind: Model
@@ -213,7 +215,7 @@ contract:
       type: float64
 ```
 
-Inputs of this model are the inputs of the target monitored model plus the outputs of that model. As an output for the monitoring model itself we will use the `value` field. The final directory structure should look like this:
+Inputs of this model are the inputs of the target monitored model plus the outputs of that model. As an output for the monitoring model itself, we will use the `value` field. The final directory structure should look like this:
 
 ```text
 .
@@ -230,7 +232,7 @@ From that folder, upload the model to the cluster.
 hs apply -f serving.yaml
 ```
 
-Now we have to attach deployed Monitoring model as a custom metric. Let's create a monitoring metric for our pre-deployed classification model.
+Now we have to attach the deployed Monitoring model as a custom metric. Let's create a monitoring metric for our pre-deployed classification model.
 
 {% tabs %}
 {% tab title="UI" %}
@@ -242,10 +244,10 @@ Now we have to attach deployed Monitoring model as a custom metric. Let's create
    2. Choose the monitoring model;
    3. Choose the version of the monitoring model;
    4. Select a comparison operator `Greater`. This means that if you have a metric value greater than a specified threshold, an alarm should be fired;
-   5. Set the threshold value. In this case it should be equal to the value of `monitoring_model.threshold_`.
+   5. Set the threshold value. In this case, it should be equal to the value of `monitoring_model.threshold_`.
    6. Click the `Add Metric` button.
 {% endtab %}
 {% endtabs %}
 
-That's it. Now you have a monitored income classifier deployed in the Hydrosphere platform.
+That's it. Now you have a monitored income classifier deployed on the Hydrosphere platform.
 
