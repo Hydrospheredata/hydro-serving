@@ -2,7 +2,7 @@
 
 ## Overview
 
-Monitoring is used to track the behavior of external models running outside of the Hydrosphere platform. This tutorial describes how to register an external model, trigger analysis over your requests, and retrieve results.
+Monitoring can be used to track the behavior of external models running outside of the Hydrosphere platform. This tutorial describes how to register an external model, trigger analysis over your requests, and retrieve results.
 
 By the end of this tutorial you will know how to:
 
