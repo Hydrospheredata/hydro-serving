@@ -4,14 +4,21 @@ description: 'Estimated completion time: 14 min.'
 
 # A/B Analysis for a Recommendation Model
 
+## Overview
+
 In this tutorial, we'll show how users can retrospectively compare the behavior of two different models.
+
+By the end of this tutorial you will know how to:
+
+* Setup an A/B application 
+* Analyze production data
 
 ## Prerequisites
 
 * [Installed Hydrosphere platform](../installation/)
 * [Python SDK](../installation/sdk.md#installation)
 
-## Setup A/B Application
+## Setup an A/B Application
 
 ### Prepare a model for uploading
 
