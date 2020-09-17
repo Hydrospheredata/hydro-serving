@@ -31,7 +31,7 @@ This tutorial is a sequel to the previous tutorial. Please complete it first to 
 
 ## Train a Monitoring Model
 
-Basically the steps are the same as for a common model. Before training and uploading, we create a directory for a monitoring model with an `/src` folder inside containing a functional file `func_main.py`:
+We start with the steps we used for the common model. First, let's create a directory structure for our monitoring model with an `/src` folder containing an inference script`func_main.py`:
 
 ```bash
 mkdir -p monitoring_model/src
