@@ -1,6 +1,16 @@
 # Train & Deploy Census Income Classification Model
 
-This tutorial shows how to train and deploy a model for a classification task based on the [Adult Dataset](https://www.kaggle.com/wenruliu/adult-income-dataset). The main steps of this process are data preparation, training a model, uploading a model to the cluster, and making a prediction on test samples.
+## Overview
+
+In this tutorial, you will learn how to train and deploy a model for a classification task based on the [Adult Dataset](https://www.kaggle.com/wenruliu/adult-income-dataset). The main steps of this process are data preparation, training a model, uploading a model to the cluster, and making a prediction on test samples.
+
+By the end of this tutorial you will know how to:
+
+* Prepare data
+* Train a model
+* Deploy a model with SDK
+* Explore models via UI
+* Deploy a model with CLI and resource definitions
 
 ## Prerequisites
 
