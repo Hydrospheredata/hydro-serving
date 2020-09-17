@@ -19,15 +19,15 @@ We will look at the following steps:
 
 ## Prerequisites
 
-For this tutorial, you will need a deployed instance of the **Hydrosphere platform** and **Hydro CLI** installed on your local machine. If you haven't done this yet, please explore these pages first: 
+For this tutorial, you need to have **Hydrosphere platform** deployed and **Hydrosphere CLI** \(`hs`\) alongside with **Python SDK**\(`hydrosdk`\) ****installed on your local machine. If you don't have them yet, please follow these guides first: 
 
-{% page-ref page="../installation/" %}
-
-{% page-ref page="../installation/cli.md" %}
+* [Platform Installation](../installation/)
+* [CLI](../installation/cli.md#installation)
+* [Python SDK](../installation/sdk.md#installation) 
 
 This tutorial is a sequel to the previous tutorial. Please complete it first to have a prepared dataset and a trained model deployed to the cluster:
 
-{% page-ref page="train-and-deploy-census-income-classification-model.md" %}
+* [Train & Deploy Census Income Classification Model](https://hydrosphere.gitbook.io/home/tutorials/train-and-deploy-census-income-classification-model)
 
 ## Train a Monitoring Model
 
