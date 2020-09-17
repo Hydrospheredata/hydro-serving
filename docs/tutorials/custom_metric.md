@@ -213,7 +213,7 @@ contract:
       type: float64
 ```
 
-Inputs of this model are the inputs of the **target** monitored model plus the outputs of that model. As an output for the monitoring model itself we will use the `value` field. The final directory structure should look like this:
+Inputs of this model are the inputs of the target monitored model plus the outputs of that model. As an output for the monitoring model itself we will use the `value` field. The final directory structure should look like this:
 
 ```text
 .
