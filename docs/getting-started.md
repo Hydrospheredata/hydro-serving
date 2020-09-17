@@ -6,7 +6,7 @@ description: >-
 
 # Getting Started
 
-### Overview
+## Overview
 
 In this tutorial, you will learn the basics of working with Hydrosphere. We will prepare an example model for serving, deploy it to Hydrosphere, turn it into an application, invoke it locally, and use monitoring. As an example model, we will take a simple logistic regression model fit with randomly generated data, with some noise added to it. 
 
