@@ -78,7 +78,9 @@ cluster = Cluster("http-cluster-address",
                  grpc_credentials=ssl_channel_credentials())
 ```
 
-Next, we need to write a script called function file to be uploaded to the Hydrosphere platform. This script will be performed each time you are sending a request to the model and getting a response to this request. Let's name our function file`func_main.py` and store it in the `src` folder inside the directory where your model is stored. The directory structure  should look like this:
+Next, we need to write an inference script to be uploaded to the Hydrosphere platform. This script will be performed each time you are sending a request to the model and getting a response to this request. 
+
+Let's name our inference script`func_main.py` and store it in the `/src` folder inside the directory where your model is stored. The directory structure  should look like this:
 
 ```python
 .
