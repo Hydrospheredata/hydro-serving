@@ -31,7 +31,7 @@ This tutorial is a sequel to the previous tutorial. Please complete it first to 
 
 ## Train a Monitoring Model
 
-Basically steps are the same as with a common model. Before training and uploading, let's create a directory for our model.
+Basically the steps are the same as for a common model. Before training and uploading, we create a directory for a monitoring model with an `/src` folder inside containing a functional file `func_main.py`:
 
 ```bash
 mkdir -p monitoring_model/src
@@ -39,7 +39,7 @@ cd monitoring_model
 touch src/func_main.py
 ```
 
-As a monitoring metric, we will use the **IsolationForest**. You can learn about how it works in [its documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html). The model will be based on the [PyOD](https://pyod.readthedocs.io/) realization, so let's install the library first:
+As a monitoring metric, we will use **IsolationForest**. You can learn how it works in [its documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html). The model will be based on the [PyOD](https://pyod.readthedocs.io/) realization, so let's install the library first:
 
 ```bash
 !pip install pyod
