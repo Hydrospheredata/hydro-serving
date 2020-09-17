@@ -10,14 +10,14 @@ This tutorial is relevant only for k8s installed Hydrosphere. Please refer to [H
 
 ## Overview
 
-This tutorial provides a walkthrough of how a user can configure deployed Applications.
+In this tutorial, you will learn how to configure deployed Applications. 
 
- By the end of this tutorial you will know how to:
+By the end of this tutorial you will know how to:
 
-1. Train and upload an example [model version](../overview/concepts.md#models-and-model-versions)
-2. Create a [Deployment Configuration](../overview/concepts.md#deployment-configurations)
-3. Create an [Application](../overview/concepts.md#applications) from the uploaded model version with previously created deployment configuration
-4. Examine settings of a Kubernetes cluster
+* Train and upload an example [model version](../overview/concepts.md#models-and-model-versions)
+* Create a [Deployment Configuration](../overview/concepts.md#deployment-configurations)
+* Create an [Application](../overview/concepts.md#applications) from the uploaded model version with previously created deployment configuration
+* Examine settings of a Kubernetes cluster
 
 ## Prerequisites
 
