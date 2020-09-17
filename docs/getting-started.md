@@ -48,7 +48,7 @@ logistic_regression
 * **`requirements.txt`** - provides dependencies for our model
 * **`model.joblib`** - a model artifact that we get as a result of model training
 * **`src/func_main.py`** - an inference script that defines a function for making model predictions
-* **`serving.yaml`** - a resource definition file to let Hydrosphere know which function to call from the `func_main.py` script and let the model manager understand the model’s inputs and outputs.
+* **`serving.yaml`** - a resource definition file to let Hydrosphere know which function to call from the `func_main.py` script and let the model manager understand model’s inputs and outputs.
 
 ## Training a model
 
