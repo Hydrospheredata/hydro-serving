@@ -79,7 +79,7 @@ There are many classifiers that you can potentially use for this step. In this e
 
 ## Deploy a model with SDK 
 
-The easiest way to upload a model to your cluster is using the [Hydrosphere SDK](https://hydrosphere.gitbook.io/home/installation/sdk). SDK allows Python developers to configure and manage the model lifecycle on the Hydrosphere platform. Before uploading a model, you need to connect to your cluster: 
+The easiest way to upload a model to your cluster is using [Hydrosphere SDK](https://hydrospheredata.github.io/hydro-serving-sdk/). SDK allows Python developers to configure and manage the model lifecycle on the Hydrosphere platform. Before uploading a model, you need to connect to your cluster: 
 
 ```python
 from hydrosdk.contract import SignatureBuilder, ModelContract
