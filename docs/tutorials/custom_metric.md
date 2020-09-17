@@ -4,17 +4,11 @@ description: 'Estimated Completion Time: 18m.'
 
 # Monitoring Anomalies with a Custom Metric
 
-{% hint style="danger" %}
-This tutorial is a work in progress
-{% endhint %}
-
-On this page you will learn how to create a custom anomaly detection metric for a specific use case.
-
 ## Overview
 
-For this use case, we have chosen a problem described in a [Train & Deploy Census Income Classification Model](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHGvmrVrOLoZn1Rkock/tutorials/train-and-deploy-census-income-classification-model) tutorial. We will monitor the model, which will classify whether the income of a given person exceeds $50.000 per year. 
+In this tutorial, you will learn how to create a custom anomaly detection metric for a specific use case.
 
-As a data source, we will use the census income [dataset](https://www.kaggle.com/wenruliu/adult-income-dataset).
+Let's take a problem described in the previous [Train & Deploy Census Income Classification Model](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHGvmrVrOLoZn1Rkock/tutorials/train-and-deploy-census-income-classification-model) tutorial as a use case and [census income dataset](https://www.kaggle.com/wenruliu/adult-income-dataset) as a data source. We will monitor a model that classifies whether the income of a given person exceeds $50.000 per year.  
 
 ## Before you start
 
