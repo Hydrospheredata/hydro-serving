@@ -10,15 +10,15 @@ By the end of this tutorial you will know how to:
 * Train a model
 * Deploy a model with SDK
 * Explore models via UI
-* Deploy a model with CLI and resource definitions
+* Deploy a model with CLI and resource definition
 
 ## Prerequisites
 
-We assume that you already have a deployed instance of the Hydrosphere cloud platform and Hydro CLI installed on your local machine. If you haven't done this yet, please explore these pages first: 
+For this tutorial, you need to have **Hydrosphere platform** deployed and **Hydrosphere CLI** \(`hs`\) alongside with **Python SDK**\(`hydrosdk`\) ****installed on your local machine. If you don't have them yet, please follow these guides first: 
 
-{% page-ref page="../installation/" %}
-
-{% page-ref page="../installation/cli.md" %}
+* [Platform Installation](../installation/)
+* [CLI](https://hydrosphere.gitbook.io/home/installation/cli)
+* [SDK](../installation/sdk.md)
 
 For this tutorial, you can use a local cluster. To ensure that, run `hs cluster` in your terminal. This command will show the name and server address of a cluster you’re currently using. If it shows that you're not using a local cluster, you can configure one with the following commands: 
 
