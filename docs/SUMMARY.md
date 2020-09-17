@@ -2,7 +2,6 @@
 
 * [Hydrosphere](README.md)
 * [Overview](overview/README.md)
-  * [Untitled](overview/untitled.md)
   * [Concepts](overview/concepts.md)
   * [Platform Architecture](overview/services/README.md)
     * [Serving](overview/services/serving.md)
