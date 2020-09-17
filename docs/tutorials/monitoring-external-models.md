@@ -14,8 +14,6 @@ By the end of this tutorial you will know how to:
 
 ## Prerequisites
 
-We assume you already have:
-
 * A [deployed](../installation/) instance of the Hydrosphere platform with the Sonar component enabled
 * A running external model, capable of producing predictions. Inputs and outputs of that model will be fed into Hydrosphere for monitoring purposes. 
 
