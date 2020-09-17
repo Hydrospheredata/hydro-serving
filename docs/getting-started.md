@@ -32,7 +32,7 @@ hs cluster use local
 
 ## Before you start
 
-In the next two sections, we will prepare a model for deployment to Hydrosphere. It is important to stick to a specific folder structure during this process to let`hs` parse and upload a model correctly. Make sure that the structure of your local model directory looks like this by the end of the model preparation section:   
+In the next two sections, we will prepare a model for deployment to Hydrosphere. It is important to stick to a specific folder structure during this process to let `hs` parse and upload the model correctly. Make sure that the structure of your local model directory looks like this by the end of the model preparation section:   
 
 ```text
 logistic_regression
@@ -192,7 +192,7 @@ contract:
 At this point make sure that the overall structure of your local model directory looks as shown in the "Before you start" section.  
 
 {% hint style="info" %}
-Although we have `train.py` inside the directory, it will not be uploaded to the cluster since we did not specify it in the contract's payload.
+Although we have `train.py` inside the model directory, it will not be uploaded to the cluster since we are not listing it under`payload` in the resource definition file.
 {% endhint %}
 
 ## Serving a Model
