@@ -17,8 +17,8 @@ By the end of this tutorial you will know how to:
 For this tutorial, you need to have **Hydrosphere platform** deployed and **Hydrosphere CLI** \(`hs`\) alongside with **Python SDK**\(`hydrosdk`\) ****installed on your local machine. If you don't have them yet, please follow these guides first: 
 
 * [Platform Installation](../installation/)
-* [CLI](https://hydrosphere.gitbook.io/home/installation/cli)
-* [SDK](../installation/sdk.md)
+* [CLI](../installation/cli.md#installation)
+* [Python SDK](../installation/sdk.md#installation) 
 
 For this tutorial, you can use a local cluster. To ensure that, run `hs cluster` in your terminal. This command will show the name and server address of a cluster you’re currently using. If it shows that you're not using a local cluster, you can configure one with the following commands: 
 
@@ -79,7 +79,7 @@ There are many classifiers that you can potentially use for this step. In this e
 
 ## Deploy a model with SDK 
 
-The easiest way to upload a model to your cluster is using [Hydrosphere SDK](https://hydrospheredata.github.io/hydro-serving-sdk/). SDK allows Python developers to configure and manage the model lifecycle on the Hydrosphere platform. Before uploading a model, you need to connect to your cluster: 
+The easiest way to upload a model to your cluster is by using [Hydrosphere SDK](https://hydrospheredata.github.io/hydro-serving-sdk/). SDK allows Python developers to configure and manage the model lifecycle on the Hydrosphere platform. Before uploading a model, you need to connect to your cluster: 
 
 ```python
 from hydrosdk.contract import SignatureBuilder, ModelContract
