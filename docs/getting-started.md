@@ -18,10 +18,11 @@ By the end of this tutorial you will know how to:
 
 ## Prerequisites
 
-For this tutorial, you need to have **Hydrosphere platform** deployed and **Hydrosphere CLI** \(`hs`\) installed on your local machine. If you don't have them yet, please follow these guides first: 
+For this tutorial, you need to have **Hydrosphere platform** deployed and **Hydrosphere CLI** \(`hs`\) alongside with **Python SDK**\(`hydrosdk`\) ****installed on your local machine. If you don't have them yet, please follow these guides first: 
 
-* [Installation](https://hydrosphere.gitbook.io/home/installation)
+* [Platform Installation](installation/)
 * [CLI](https://hydrosphere.gitbook.io/home/installation/cli)
+* [SDK](installation/sdk.md)
 
 To let `hs` know where the Hydrosphere platform runs, configure a new `cluster` entity:
 
