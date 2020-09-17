@@ -124,7 +124,9 @@ cd src
 touch func_main.py
 ```
 
-Hydrosphere communicates with the model using [TensorProto](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/tensor.proto) messages. If you want to perform a transformation on the received TensorProto message, you will have to retrieve its contents, perform a transformation on it, and pack the result back to the TensorProto message. To do that you have to define a function that will be invoked every time Hydrosphere handles a request and passes it to the model. Inside that function, you have to call a `predict` \(or similar\) method of your model and return your predictions:
+Hydrosphere communicates with the model using [TensorProto](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/tensor.proto) messages. If you want to perform a transformation or inference on the received TensorProto message, you will have to retrieve its contents, perform a transformation on it, and pack the result back to the TensorProto message. Pre-built python runtime automatically converts TensorProto messages to Numpy arrays, so the end-user doesn't need to interact with TensorProto messages. 
+
+ To do inference you have to define a function that will be invoked every time Hydrosphere handles a request and passes it to the model. Inside that function, you have to call a `predict` \(or similar\) method of your model and return your predictions:
 
 {% code title="func\_main.py" %}
 ```python
@@ -134,8 +136,8 @@ import numpy as np
 # Load a model once
 model = joblib.load("/model/files/model.joblib")
 
-
 def infer(x1, x2):
+
     # Make a prediction
     y = model.predict([[x1, x2]])
 
@@ -144,11 +146,13 @@ def infer(x1, x2):
 ```
 {% endcode %}
 
-Inside `func_main.py` we initialize our model outside of the serving function `infer`, so that this process will not be triggered every time a new request comes in. The `infer` function takes the actual request, unpacks it, makes a prediction, packs the answer, and returns it. There is no strict rule for naming this function, it just has to be a valid Python function name.
+Inside `func_main.py` we initialize our model outside of the serving function `infer.`This process will not be triggered every time a new request comes in.
+
+ The `infer` function takes the actual request, unpacks it, makes a prediction, packs the answer, and returns it. There is no strict rule for naming this function, it just has to be a valid Python function name.
 
 ### Provide a resource definition file
 
-To let Hydrosphere know which function to call from the `func_main.py` file,  we have to provide a resource definition file. This file will define a function to be called, inputs and outputs of a model, a signature function and some other metadata required for serving. 
+To let Hydrosphere know which function to call from the `func_main.py` file,  we have to provide a resource definition file. This file will define a function to be called, inputs and outputs of a model, a signature function, and some other metadata required for serving. 
 
 Create a resource definition file `serving.yaml`in the root of your model directory`logistic_regression`:
 
