@@ -10,10 +10,17 @@ In this tutorial, you will learn how to create a custom anomaly detection metric
 
 Let's take a problem described in the previous [Train & Deploy Census Income Classification Model](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHGvmrVrOLoZn1Rkock/tutorials/train-and-deploy-census-income-classification-model) tutorial as a use case and [census income dataset](https://www.kaggle.com/wenruliu/adult-income-dataset) as a data source. We will monitor a model that classifies whether the income of a given person exceeds $50.000 per year.  
 
-## Before you start
+## Prerequisites
 
-* We assume you already have [installed](../installation/) Hydrosphere platform and a [CLI](../installation/cli.md) on your local machine.
-* This tutorial is a sequel to [Train & Deploy Census Income Classification Model](https://hydrosphere.gitbook.io/home/tutorials/train-and-deploy-census-income-classification-model) tutorial. We assume that you have already prepared a dataset, trained a model, and deployed it to a cluster. If not, then please click to the [previous](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHGvmrVrOLoZn1Rkock/tutorials/train-and-deploy-census-income-classification-model) tutorial.
+For this tutorial, you will need a deployed instance of the **Hydrosphere platform** and **Hydro CLI** installed on your local machine. If you haven't done this yet, please explore these pages first: 
+
+{% page-ref page="../installation/" %}
+
+{% page-ref page="../installation/cli.md" %}
+
+This tutorial is a sequel to the previous tutorial. Please complete it first to have a prepared dataset and a trained model deployed to the cluster:
+
+{% page-ref page="train-and-deploy-census-income-classification-model.md" %}
 
 ## Train a Monitoring Model
 
