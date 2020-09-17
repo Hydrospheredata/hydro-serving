@@ -41,7 +41,7 @@ touch src/func_main.py
 
 As a monitoring metric, we will use **IsolationForest**. You can learn how it works in [its documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html). 
 
-To be sure that our monitoring model will see the same data as our prediction model, we are going to apply the training data that was saved previously for our monitoring model. 
+To make sure that our monitoring model will see the same data as our prediction model, we are going to apply the training data that was saved previously for our monitoring model. 
 
 ```python
 import joblib
@@ -74,7 +74,7 @@ dump(monitoring_model, "monitoring_model/monitoring_model.joblib")
 
 ![Distribution of outlier scores](../.gitbook/assets/figure.png)
 
-This is what the distribution of our inliers looks like. By choosing a contamination parameter we can regulate a threshold that will separate inliers from outliers accordingly. You have to be thorough in choosing it to avoid critical prediction mistakes. Otherwise, you can also stay with `'auto'`.  To create a monitoring metric, we have to deploy that IsolationForest model as a separate model on the Hydrosphere platform. Let's save a trained model for serving.
+This is what the distribution of our inliers looks like. By choosing a contamination parameter we can adjust a threshold that will separate inliers from outliers accordingly. You have to be thorough in choosing it to avoid critical prediction mistakes. Otherwise, you can also stay with `'auto'`.  To create a monitoring metric, we have to deploy that IsolationForest model as a separate model on the Hydrosphere platform. Let's save a trained model for serving.
 
 ## Deploy a Monitoring Model with SDK
 
@@ -111,9 +111,9 @@ numpy==1.16.2
 scikit-learn==0.23.1
 ```
 
-As with common models, we can use SDK to upload and bind our monitoring model to the trained one. The steps are almost the same, but with some slight differences. First, given that we want to predict the anomaly score instead of sample class, we need to change the type of output field from `'int64'` to `'float64'`. 
+Just like with common models, we can use SDK to upload our monitoring model and bind it to the trained one. The steps are almost the same, but with some slight differences. First, given that we want to predict the anomaly score instead of sample class, we need to change the type of output field from `'int64'` to `'float64'`. 
 
-Secondly, we need to apply a couple of new methods for a metric creation. `MetricSpec` is responsible for a metric creation for a specific model,with specific `MetricSpecConfig.`
+Secondly, we need to apply a couple of new methods to create a metric. `MetricSpec` is responsible for  creating a metric for a specific model, with specific `MetricSpecConfig.`
 
 ```python
 from hydrosdk.monitoring import MetricSpec, MetricSpecConfig, ThresholdCmpOp
@@ -143,7 +143,7 @@ metric_spec = MetricSpec.create(cluster, "custom_metric", model_find.id, metric_
 
 ```
 
-Anomaly scores are obtained through [traffic shadowing](../overview/hydrosphere-features/traffic-shadowing.md) inside the Hydrosphere's engine after making Servable, so you don't need to make any additional manipulations.
+Anomaly scores are obtained through [traffic shadowing](../overview/hydrosphere-features/traffic-shadowing.md) inside the Hydrosphere's engine after making a Servable, so you don't need any additional manipulations.
 
 ## Managing Custom Metrics with UI
 
