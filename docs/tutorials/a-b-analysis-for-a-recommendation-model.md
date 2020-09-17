@@ -6,7 +6,7 @@ description: 'Estimated completion time: 14 min.'
 
 ## Overview
 
-In this tutorial, we'll show how users can retrospectively compare the behavior of two different models.
+In this tutorial, you will learn how to retrospectively compare the behavior of two different models.
 
 By the end of this tutorial you will know how to:
 
