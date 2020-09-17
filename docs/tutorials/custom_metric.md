@@ -39,31 +39,29 @@ cd monitoring_model
 touch src/func_main.py
 ```
 
-As a monitoring metric, we will use **IsolationForest**. You can learn how it works in [its documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html). The model will be based on the [PyOD](https://pyod.readthedocs.io/) realization, so let's install the library first:
+As a monitoring metric, we will use **IsolationForest**. You can learn how it works in [its documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html). 
 
-```bash
-!pip install pyod
-```
-
-To be sure that our monitoring model will see the same data as our prediction model, we are going to apply training data that was saved previously for our monitoring model. 
+To be sure that our monitoring model will see the same data as our prediction model, we are going to apply the training data that was saved previously for our monitoring model. 
 
 ```python
 import joblib
 import pandas as pd
 import matplotlib.pyplot as plt
-from pyod.models.iforest import IsolationForest
+from sklearn.ensemble import IsolationForest
 
 X_train = pd.read_csv('data/train.csv', index_col=0)
 
 monitoring_model = IForest(contamination=0.04)
-monitoring_model.fit(X_train)
 
-y_train_pred = monitoring_model.labels_  # binary labels (0: inliers, 1: outliers)
-y_train_scores = monitoring_model.decision_scores_  # raw outlier scores
+train_pred = monitoring_model.fit_predict(X_train) 
+
+train_scores = monitoring_model.decision_function(X_train)
 
 plt.hist(
-    y_train_scores, bins=30, 
-    alpha=0.5, density=True, 
+    train_scores,
+    bins=30, 
+    alpha=0.5,
+    density=True, 
     label="Train data outlier scores"
 )
 
@@ -74,13 +72,13 @@ plt.legend()
 dump(monitoring_model, "monitoring_model/monitoring_model.joblib")
 ```
 
-![](../.gitbook/assets/figure.png)
+![Distribution of outlier scores](../.gitbook/assets/figure.png)
 
-This gives us the following output. This is what the distribution of our inliers looks like. By choosing a contamination parameter we can regulate a threshold that will separate inliers from outliers accordingly. You have to be thorough in choosing it to avoid critical prediction mistakes. Otherwise, you can also stay with `'auto'`.  To create a monitoring metric, we have to deploy that IsolationForest model as a separate model on the Hydrosphere platform. Let's save a trained model for serving.
+This is what the distribution of our inliers looks like. By choosing a contamination parameter we can regulate a threshold that will separate inliers from outliers accordingly. You have to be thorough in choosing it to avoid critical prediction mistakes. Otherwise, you can also stay with `'auto'`.  To create a monitoring metric, we have to deploy that IsolationForest model as a separate model on the Hydrosphere platform. Let's save a trained model for serving.
 
 ## Deploy a Monitoring Model with SDK
 
-First, in deployment process, let's create a new directory where we will declare the serving function and its definitions. Inside the `src/func_main.py` file put the following code:
+First, in the deployment process, let's create a new directory where we will declare the serving function and its definitions. Inside the `src/func_main.py` file put the following code:
 
 {% tabs %}
 {% tab title="func\_main.py" %}
@@ -105,17 +103,17 @@ def predict(**kwargs):
 {% endtab %}
 {% endtabs %}
 
-Next, we need to install necessary libraries during the monitoring model's upload. Create a `requirements.txt` and add the following libraries to it:
+Next, we need to install the necessary libraries. Create a `requirements.txt` and add the following libraries to it:
 
 ```bash
 joblib==0.13.2
 numpy==1.16.2
-pyod==0.7.4
+scikit-learn==0.23.1
 ```
 
 As with common models, we can use SDK to upload and bind our monitoring model to the trained one. The steps are almost the same, but with some slight differences. First, given that we want to predict the anomaly score instead of sample class, we need to change the type of output field from `'int64'` to `'float64'`. 
 
-Secondly, we need to apply a couple of new methods for a metric creation and its binding through Servable. `MetricSpecConfig` is responsible for a metric creation for a specific model, whereas `MetricSpec` supports the process of binding it to the trained model.
+Secondly, we need to apply a couple of new methods for a metric creation. `MetricSpec` is responsible for a metric creation for a specific model,with specific `MetricSpecConfig.`
 
 ```python
 from hydrosdk.monitoring import MetricSpec, MetricSpecConfig, ThresholdCmpOp
@@ -141,12 +139,11 @@ monitoring_upload = monitoring_model_local.upload(cluster)
 monitoring_upload.lock_till_released()
 
 metric_config = MetricSpecConfig(monitoring_upload.id, monitoring_model.threshold_, ThresholdCmpOp.LESS)
-metric_spec = MetricSpec.create(cluster, "is_greater_than", model_find.id, metric_config)
-monitoring_servable = Servable.create(cluster, model_name=monitoring_upload.name, 
-                                      version=monitoring_upload.version)
+metric_spec = MetricSpec.create(cluster, "custom_metric", model_find.id, metric_config)
+
 ```
 
-Anomaly scores are obtained through [traffic shadowing](https://www.getambassador.io/docs/latest/topics/using/shadowing/) inside the Hydrosphere's engine after making Servable, so you don't need to make any additional manipulations.
+Anomaly scores are obtained through [traffic shadowing](../overview/hydrosphere-features/traffic-shadowing.md) inside the Hydrosphere's engine after making Servable, so you don't need to make any additional manipulations.
 
 ## Managing Custom Metrics with UI
 
@@ -154,17 +151,17 @@ You can use the UI to observe and manage your monitoring models. Go to the Monit
 
 ![](../.gitbook/assets/screenshot-2020-09-16-at-17.56.27.png)
 
-Now, as you can notice, you have two external metrics: the first one, `auto_od_metric` was formed automatically by [Automatic Outlier Detection](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHLfibGIoeUmdpQR30S/overview/features/automatic-outlier-detection) and the new one, `is_greater_than`,  that we have just created. You can also change settings for existent metrics and configuring new one by `Configure Metrics` section.
+Now, as you can notice, you have two external metrics: the first one, `auto_od_metric` was formed automatically by [Automatic Outlier Detection](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHLfibGIoeUmdpQR30S/overview/features/automatic-outlier-detection) and the new one, `custom_metric`,  that we have just created. You can also change settings for existent metrics and configuring new ones in the  `Configure Metrics` section.
 
 ![](../.gitbook/assets/screenshot-2020-09-16-at-17.57.42.png)
 
-During prediction, you will obtain anomaly scores for each sample in the form of continuous curved line and dotted line, which is our threshold. The intersection of the latter one might signalize about potential anomalousness, but it is not always true, as there are many factors that might affect this, so be careful about final interpretation.
+During prediction, you will obtain anomaly scores for each sample in the form of a continuous curved line and dotted line, which is our threshold. The intersection of the latter one might signalize about potential anomalousness, but it is not always true, as there are many factors that might affect this, so be careful about final interpretation.
 
 ![](../.gitbook/assets/screenshot-2020-09-16-at-18.13.30.png)
 
 ## Uploading a Monitoring model with CLI
 
-As with all other models, we can define and upload a model using a contract. This model also has to be packed with a model definition as we did in the previous tutorial.
+As with all other models, we can define and upload a model using a resource definition . This model also has to be packed with a model definition as we did in the previous tutorial.
 
 ```yaml
 kind: Model
