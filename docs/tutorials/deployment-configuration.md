@@ -24,7 +24,7 @@ This tutorial provides a walkthrough of how a user can configure deployed Applic
 
 ##  Upload a Model
 
-In this section, we describe resources required to create and upload an example model used in further sections. If you have no prior experience with uploading models to the Hydrosphere platform we suggest that you visit the [Getting Started Tutorial](../getting-started.md).
+In this section, we describe the resources required to create and upload an example model used in further sections. If you have no prior experience with uploading models to the Hydrosphere platform we suggest that you visit the [Getting Started Tutorial](../getting-started.md).
 
 Here are the resources used to train `sklearn.ensemble.GradientBoostingClassifier` and upload it to the Hydrosphere cluster.
 
@@ -127,7 +127,7 @@ dep_config_tutorial
     └── func_main.py
 ```
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Do not forget to run `python train.py` to generate `model.joblib`!
 {% endhint %}
 
@@ -141,7 +141,7 @@ hs upload
 
 Next, we are going to create and upload an instance of [Deployment Configuration](../overview/concepts.md#deployment-configurations) to the Hydrosphere platform.
 
-Deployment Configurations describe with which Kubernetes settings Hydrosphere should deploy [servables](../overview/concepts.md#servable). You can specify Pod [Affinity](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#affinity-v1-core) and [Tolerations](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#toleration-v1-core), the number of desired pods in deployment, [ResourceRequirements](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#resourcerequirements-v1-core) and Environment Variables for the model container, and [HorizontalPodAutoScaler](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#horizontalpodautoscalerspec-v1-autoscaling) settings.
+Deployment Configurations describe with which Kubernetes settings Hydrosphere should deploy [servables](../overview/concepts.md#servable). You can specify Pod [Affinity](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#affinity-v1-core) and [Tolerations](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#toleration-v1-core), the number of desired pods in deployment, [ResourceRequirements](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#resourcerequirements-v1-core), and Environment Variables for the model container, and [HorizontalPodAutoScaler](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#horizontalpodautoscalerspec-v1-autoscaling) settings.
 
 Created Deployment Configurations can be attached to Servables and Model Variants inside of Application. 
 
@@ -245,7 +245,7 @@ You can check whether `with_replicas` was successful by calling `kubectl get dep
 
 ### HPA
 
-To check whether `with_hpa` was successful you should get list of all created Horizontal Pod Autoscaler Resources. You can do so by calling `kubectl get hpa -A`
+To check whether `with_hpa` was successful you should get a list of all created Horizontal Pod Autoscaler Resources. You can do so by calling `kubectl get hpa -A`
 
 The output is similar to:
 
@@ -256,9 +256,9 @@ my-model-1-tumbling-star    CrossVersionObjectReference/my-model-1-tumbling-star
 
 ### Environment Variables
 
-To list all environment variables run `kubectl exec my-model-1-tumbling-star -it /bin/bash` and then execute `printenv`  command which prints ann system variables.
+To list all environment variables run `kubectl exec my-model-1-tumbling-star -it /bin/bash` and then execute the `printenv`  command which prints ann system variables.
 
-Output is similar to:
+The output is similar to:
 
 ```text
 MY_MODEL_1_TUMBLING_STAR_SERVICE_PORT_GRPC=9091
