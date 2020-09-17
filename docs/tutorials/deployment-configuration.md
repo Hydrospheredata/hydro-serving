@@ -12,7 +12,7 @@ This tutorial is relevant only for k8s installed Hydrosphere. Please refer to [H
 
 This tutorial provides a walkthrough of how a user can configure deployed Applications.
 
- Step by step we will: 
+ By the end of this tutorial you will know how to:
 
 1. Train and upload an example [model version](../overview/concepts.md#models-and-model-versions)
 2. Create a [Deployment Configuration](../overview/concepts.md#deployment-configurations)
