@@ -114,7 +114,7 @@ Every model in the Hydrosphere cluster is deployed as an individual container. A
 
 To run our model we will use a Python runtime that can execute any Python code you provide. Model preparation is pretty straightforward, but you have to create a specific folder structure described in the "Before you start" section. 
 
-### Provide the main file 
+### Provide the inference script 
 
 Let's create the main file `func_main.py`in the `/src` folder of your model directory:
 
