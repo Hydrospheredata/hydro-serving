@@ -6,7 +6,7 @@ description: >-
 
 # Getting Started
 
-In this tutorial you will learn the basics of working with Hydrosphere. We will prepare an example model for serving, deploy it to Hydrosphere, turn it into an application, invoke it locally and use monitoring. As an example model we will take a simple logistic regression model fit with randomly generated data, with some noise added to it. 
+In this tutorial, you will learn the basics of working with Hydrosphere. We will prepare an example model for serving, deploy it to Hydrosphere, turn it into an application, invoke it locally, and use monitoring. As an example model, we will take a simple logistic regression model fit with randomly generated data, with some noise added to it. 
 
 By the end of this tutorial you will know how to:
 
@@ -18,7 +18,7 @@ By the end of this tutorial you will know how to:
 
 ## Prerequisites
 
-For this tutorial you need to have **Hydrosphere platform** deployed and **Hydrosphere CLI** \(`hs`\) installed on your local machine. If you don't have them yet, please follow these guides first: 
+For this tutorial, you need to have **Hydrosphere platform** deployed and **Hydrosphere CLI** \(`hs`\) installed on your local machine. If you don't have them yet, please follow these guides first: 
 
 * [Installation](https://hydrosphere.gitbook.io/home/installation)
 * [CLI](https://hydrosphere.gitbook.io/home/installation/cli)
@@ -47,7 +47,7 @@ logistic_regression
 * **`train.py`** - a training script for our model
 * **`requirements.txt`** - provides dependencies for our model
 * **`model.joblib`** - a model artifact that we get as a result of model training
-* **`src/func_main.py`** - functional file to define a function for making model predictions inside `/src`
+* **`src/func_main.py`** - a file that defines a function for making model predictions
 * **`serving.yaml`** - a contract file to let Hydrosphere know which function to call from the `func_main.py` and let the model manager understand the model’s inputs and outputs.
 
 ## Training a model
@@ -114,9 +114,9 @@ Every model in the Hydrosphere cluster is deployed as an individual container. A
 
 To run our model we will use a Python runtime that can execute any Python code you provide. Model preparation is pretty straightforward, but you have to create a specific folder structure described in the "Before you start" section. 
 
-### Provide the main functional file 
+### Provide the main file 
 
-Let's create the main functional file `func_main.py`in the `/src` folder of your model directory:
+Let's create the main file `func_main.py`in the `/src` folder of your model directory:
 
 ```bash
 mkdir src
