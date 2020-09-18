@@ -149,8 +149,6 @@ Anomaly scores are obtained through [traffic shadowing](../overview/hydrosphere-
 
 You can use the UI to observe and manage all your models. You might notice that in the left you now have 3 models: the model that we [previously trained](https://app.gitbook.com/@hydrosphere/s/home/tutorials/train-and-deploy-census-income-classification-model) for prediction, our monitoring model and model that was created by Automatic Outlier Detection. Now click on the trained model and then follow to the Monitoring dashboard.
 
-
-
 ![](../.gitbook/assets/screenshot-2020-09-16-at-17.56.27.png)
 
 Now, as you can see, you have two external metrics: the first one, `auto_od_metric` was formed automatically by [Automatic Outlier Detection](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHLfibGIoeUmdpQR30S/overview/features/automatic-outlier-detection) and the new one, `custom_metric`,  that we have just created. You can also change settings for existent metrics and configuring new ones in the  `Configure Metrics` section.
