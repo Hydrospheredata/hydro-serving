@@ -39,7 +39,7 @@ cd monitoring_model
 touch src/func_main.py
 ```
 
-As a monitoring metric, we will use **IsolationForest**. You can learn how it works in [its documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html). 
+As a monitoring metric, we will use **IsolationForest**. You can learn how it works in its [documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html). 
 
 To make sure that our monitoring model will see the same data as our prediction model, we are going to apply the training data that was saved previously for our monitoring model. 
 
@@ -78,7 +78,7 @@ This is what the distribution of our inliers looks like. By choosing a contamina
 
 ## Deploy a Monitoring Model with SDK
 
-First, in the deployment process, let's create a new directory where we will declare the serving function and its definitions. Inside the `src/func_main.py` file put the following code:
+First, let's create a new directory where we will store our inference script with declared serving function and its definitions. Put the following code inside the `src/func_main.py` file:
 
 {% tabs %}
 {% tab title="func\_main.py" %}
@@ -111,7 +111,7 @@ numpy==1.16.2
 scikit-learn==0.23.1
 ```
 
-Just like with common models, we can use SDK to upload our monitoring model and bind it to the trained one. The steps are almost the same, but with some slight differences. First, given that we want to predict the anomaly score instead of sample class, we need to change the type of output field from `'int64'` to `'float64'`. 
+Just like with common models, we can use SDK to upload our monitoring model and bind it to the trained one. The steps are almost the same, but with some slight differences. First, since that we want to predict the anomaly score instead of sample class, we need to change the type of output field from `'int64'` to `'float64'`. 
 
 Secondly, we need to apply a couple of new methods to create a metric. `MetricSpec` is responsible for  creating a metric for a specific model, with specific `MetricSpecConfig.`
 
@@ -143,7 +143,7 @@ metric_spec = MetricSpec.create(cluster, "custom_metric", model_find.id, metric_
 
 ```
 
-Anomaly scores are obtained through [traffic shadowing](../overview/hydrosphere-features/traffic-shadowing.md) inside the Hydrosphere's engine after making a Servable, so you don't need any additional manipulations.
+Anomaly scores are obtained through [traffic shadowing](../overview/hydrosphere-features/traffic-shadowing.md) inside the Hydrosphere's engine after making a Servable, so you don't need to perform any additional manipulations.
 
 ## Managing Custom Metrics with UI
 
