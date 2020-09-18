@@ -4,7 +4,7 @@ description: 'Estimated Completion Time: 18m.'
 
 # Monitoring Anomalies with a Custom Metric
 
-## Go to the Monitoring dashboard of your [previously trained](https://app.gitbook.com/@hydrosphere/s/home/tutorials/train-and-deploy-census-income-classification-model) model:Overview
+## Overview
 
 In this tutorial, you will learn how to create a custom anomaly detection metric for a specific use case. 
 
