@@ -80,7 +80,7 @@ This is what the distribution of our inliers looks like. By choosing a contamina
 
 First, let's create a new directory where we will store our inference script with declared serving function and its definitions. Put the following code inside the `src/func_main.py` file:
 
-{% code title="" %}
+{% code title="func\_main.py" %}
 ```bash
 import numpy as np
 from joblib import load
