@@ -161,7 +161,7 @@ During the prediction, you will get anomaly scores for each sample in the form o
 
 ## Uploading a Monitoring model with CLI
 
-Just like in case with all other types of models, we can define and upload a monitoring model using a resource definition. We have to pack our model with a model definition, like in the previous tutorial.
+Just like in the case with all other types of models, we can define and upload a monitoring model using a resource definition. We have to pack our model with a model definition, like in the previous tutorial.
 
 ```yaml
 kind: Model
