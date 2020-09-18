@@ -147,7 +147,7 @@ Anomaly scores are obtained through [traffic shadowing](../overview/hydrosphere-
 
 ## Managing Custom Metrics with UI
 
-You can use the UI to observe and manage your monitoring models. Go to the Monitoring dashboard:
+You can use the UI to observe and manage your monitoring models. Go to the Monitoring dashboard of your previously trained model:
 
 ![](../.gitbook/assets/screenshot-2020-09-16-at-17.56.27.png)
 
