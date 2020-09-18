@@ -81,7 +81,7 @@ contract:
       profile: categorical
 ```
 
-### Field
+#### Field
 
 A **Field** is a basic element of a Model's signature. It has a name, shape, data type, and profile.
 
@@ -94,7 +94,7 @@ x:
   profile: numerical
 ```
 
-### Field\`s Profile
+#### Field\`s Profile
 
 A **Profile** is a special tag that tells how Hydrosphere should interpret the field's data.
 
@@ -110,11 +110,7 @@ Data coming through deployed Model Versions can be monitored with metrics.
 
 Every request is evaluated against all metrics assigned to the model.
 
-{% hint style="danger" %}
-ToDO concepts
-{% endhint %}
-
-**Auto OD Metric** is a TODO
+**Auto OD Metric** is an automatically generated Outlier Detection metric. More details are described [here](hydrosphere-features/automatic-outlier-detection.md).
 
 ### Checks
 
