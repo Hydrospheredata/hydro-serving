@@ -5,7 +5,7 @@ description: 'Estimated completion time: 11m.'
 # Using Deployment Configurations
 
 {% hint style="warning" %}
-This tutorial is relevant only for k8s installed Hydrosphere. Please refer to [How to Install Hydrosphere on Kubernetes cluster](../installation/#kubernetes-installation)
+This tutorial is relevant only for Kubernetes installation of Hydrosphere. Please refer to [How to Install Hydrosphere on Kubernetes cluster](../installation/#kubernetes-installation).
 {% endhint %}
 
 ## Overview

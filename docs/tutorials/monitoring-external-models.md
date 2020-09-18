@@ -14,7 +14,7 @@ By the end of this tutorial you will know how to:
 
 ## Prerequisites
 
-For this tutorial, you need to have **Hydrosphere platform** deployed on your local machine with the Sonar component enabled. If you don't have it yet, please follow this guide first: 
+For this tutorial, you need to have **Hydrosphere Platform** deployed on your local machine with **Sonar** component enabled. If you don't have it yet, please follow this guide first: 
 
 * [Platform Installation](../installation/)
 
