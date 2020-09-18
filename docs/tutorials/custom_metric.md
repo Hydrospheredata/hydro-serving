@@ -80,9 +80,8 @@ This is what the distribution of our inliers looks like. By choosing a contamina
 
 First, let's create a new directory where we will store our inference script with declared serving function and its definitions. Put the following code inside the `src/func_main.py` file:
 
-{% tabs %}
-{% tab title="func\_main.py" %}
-```python
+{% code title="" %}
+```bash
 import numpy as np
 from joblib import load
 
@@ -100,8 +99,7 @@ def predict(**kwargs):
 
     return {"value": predicted.item()}
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 Next, we need to install the necessary libraries. Create a `requirements.txt` and add the following libraries to it:
 
