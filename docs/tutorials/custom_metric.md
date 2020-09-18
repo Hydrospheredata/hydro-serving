@@ -155,13 +155,13 @@ Now, as you can notice, you have two external metrics: the first one, `auto_od_m
 
 ![](../.gitbook/assets/screenshot-2020-09-16-at-17.57.42.png)
 
-During prediction, you will obtain anomaly scores for each sample in the form of a continuous curved line and dotted line, which is our threshold. The intersection of the latter one might signalize about potential anomalousness, but it is not always true, as there are many factors that might affect this, so be careful about final interpretation.
+During the prediction, you will get anomaly scores for each sample in the form of a chart with two lines. The curved line shows scores, while the horizontal dotted one is our threshold. When the curve intersects the threshold, it might be a sign of potential anomalousness. However, this is not always the case, since there are many factors that might affect this, so be careful about your final interpretation.
 
 ![](../.gitbook/assets/screenshot-2020-09-16-at-18.13.30.png)
 
 ## Uploading a Monitoring model with CLI
 
-As with all other models, we can define and upload a model using a resource definition . This model also has to be packed with a model definition as we did in the previous tutorial.
+Just like in case with all other types of models, we can define and upload a monitoring model using a resource definition. We have to pack our model with a model definition, like in the previous tutorial.
 
 ```yaml
 kind: Model
@@ -220,7 +220,7 @@ contract:
       type: float64
 ```
 
-Inputs of this model are the inputs of the target monitored model plus the outputs of that model. As an output for the monitoring model itself, we will use the `value` field. The final directory structure should look like this:
+Inputs of this model are the inputs of the target monitored model plus the outputs of that model. We will use the `value` field as an output for the monitoring model. The final directory structure should look like this:
 
 ```text
 .
@@ -231,24 +231,24 @@ Inputs of this model are the inputs of the target monitored model plus the outpu
     └── func_main.py
 ```
 
-From that folder, upload the model to the cluster.
+From that folder, upload the model to the cluster:
 
 ```bash
 hs apply -f serving.yaml
 ```
 
-Now we have to attach the deployed Monitoring model as a custom metric. Let's create a monitoring metric for our pre-deployed classification model.
+Now we have to attach the deployed Monitoring model as a custom metric. Let's create a monitoring metric for our pre-deployed classification model in the UI:
 
 {% tabs %}
 {% tab title="UI" %}
-1. From the _Models_ section, select the target model you would like to deploy and select the desired model version;
+1. From the _Models_ section, select the target model you would like to deploy and select the desired model version.
 2. Open the _Monitoring_ tab.
-3. At the bottom of the page click the `Configure Metric` button;
-4. From the opened window click the `Add Metric` button;
-   1. Specify the name of the metric;
-   2. Choose the monitoring model;
-   3. Choose the version of the monitoring model;
-   4. Select a comparison operator `Greater`. This means that if you have a metric value greater than a specified threshold, an alarm should be fired;
+3. At the bottom of the page click the `Configure Metric` button.
+4. From the opened window click the `Add Metric` button.
+   1. Specify the name of the metric.
+   2. Choose the monitoring model.
+   3. Choose the version of the monitoring model.
+   4. Select a comparison operator `Greater`. This means that if you have a metric value greater than a specified threshold, an alarm should be fired.
    5. Set the threshold value. In this case, it should be equal to the value of `monitoring_model.threshold_`.
    6. Click the `Add Metric` button.
 {% endtab %}
