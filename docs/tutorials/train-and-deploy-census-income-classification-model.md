@@ -102,6 +102,7 @@ Next, we need to create an inference script to be uploaded to the Hydrosphere pl
 
 The code in the `func_main.py` should be as follows:
 
+{% code title="func\_main.py" %}
 ```python
 import pandas as pd
 from joblib import load
@@ -122,6 +123,7 @@ def predict(**kwargs):
 
     return {"y": predicted[0]}
 ```
+{% endcode %}
 
 It’s important to make sure that variables will be in the right order after we transform our dictionary for a prediction. So in `cols` we preserve column names as a list sorted by order of their appearance in the DataFrame.
 
