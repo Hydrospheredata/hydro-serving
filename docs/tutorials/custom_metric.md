@@ -147,7 +147,7 @@ Anomaly scores are obtained through [traffic shadowing](../overview/hydrosphere-
 
 ## Managing Custom Metrics with UI
 
-You can use the UI to observe and manage all your models. You might notice that in the left you now have 3 models: the model that we [previously trained](https://app.gitbook.com/@hydrosphere/s/home/tutorials/train-and-deploy-census-income-classification-model) for prediction, our monitoring model and model that was created by Automatic Outlier Detection. Now click on the trained model and then follow to the Monitoring dashboard.
+You can use the UI to observe and manage all your models. You might notice that on the left you now have 3 models: the model that we [previously trained](https://app.gitbook.com/@hydrosphere/s/home/tutorials/train-and-deploy-census-income-classification-model) for prediction, our monitoring model and model that was created by Automatic Outlier Detection. Now click on the trained model and then follow to the Monitoring dashboard.
 
 ![](../.gitbook/assets/screenshot-2020-09-16-at-17.56.27.png)
 
