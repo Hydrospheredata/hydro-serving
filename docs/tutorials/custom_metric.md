@@ -111,7 +111,7 @@ numpy==1.16.2
 scikit-learn==0.23.1
 ```
 
-Just like with common models, we can use SDK to upload our monitoring model and bind it to the trained one. The steps are almost the same, but with some slight differences. First, since that we want to predict the anomaly score instead of sample class, we need to change the type of output field from `'int64'` to `'float64'`. 
+Just like with common models, we can use SDK to upload our monitoring model and bind it to the trained one. The steps are almost the same, but with some slight differences. First, since we want to predict the anomaly score instead of sample class, we need to change the type of output field from `'int64'` to `'float64'`. 
 
 Secondly, we need to apply a couple of new methods to create a metric. `MetricSpec` is responsible for  creating a metric for a specific model, with specific `MetricSpecConfig.`
 
