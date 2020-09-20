@@ -1,7 +1,5 @@
 # Alerts
 
-
-
 {% hint style="info" %}
 Hydrosphere Alerts about failed health checks and other issues with models are not available as an open-source solution. If you are interested in this component you can contact us via [Gitter](https://gitter.im/Hydrospheredata/hydro-serving) or our [website](https://hydrosphere.io).
 {% endhint %}
