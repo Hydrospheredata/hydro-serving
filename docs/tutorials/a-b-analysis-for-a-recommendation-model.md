@@ -190,5 +190,122 @@ for uid in tqdm(np.random.choice(user_ids, 2000, replace=True)):
 
 ### Read Data from parquet
 
-### Visualize differences
+Each request-response pair is stored in S3 \(or in minio if deployed locally\) in parquet files. We'll use `fastparquet` package to read these files and use `s3fs` package to connect to S3.
+
+```python
+import fastparquet as fp
+import s3fs
+
+s3 = s3fs.S3FileSystem(client_kwargs={'endpoint_url': 'http://localhost:9000'},
+                       key='minio', secret='minio123')
+
+# The data is stored in `feature-lake` bucket by default 
+# Lets print files in this folder
+s3.ls("feature-lake/")
+
+
+```
+
+The only file in `feature-lake` folder is `['feature-lake/movie_rec']` folder. Data stored in S3 is stored under the following path: `feature-lake/MODEL_NAME/MODEL_VERSION/YEAR/MONTH/DAY/*.parquet`
+
+```python
+# We fetch all parquet files with glob
+version_1_paths = s3.glob("feature-lake/movie_rec/1/*/*/*/*.parquet")
+version_2_paths = s3.glob("feature-lake/movie_rec/2/*/*/*/*.parquet")
+
+myopen = s3.open
+
+# use s3fs as the filesystem to read parquet files into a pandas dataframe
+fp_obj = fp.ParquetFile(version_1_paths, open_with=myopen)
+df_1 = fp_obj.to_pandas()
+
+fp_obj = fp.ParquetFile(version_2_paths, open_with=myopen)
+df_2 = fp_obj.to_pandas()
+```
+
+Now that we have loaded the data, we can start analyzing it.
+
+### Compare production data with new labeled data
+
+To compare differences between model versions we'll use two metrics:
+
+1. Latency - We compare time delay between the request recieved and response produced.
+2. Mean Top-3 Hit Rate - We compare recommendations to those the user has rated. If they match then increase the hit rate by 1, do this for the complete test set to get the hit rate.
+
+#### Latencies
+
+Let's calculate the 95th percentile of our latency distributions per model version and plot them. Latencies are stored in `_hs_latency` column in our dataframes. 
+
+```python
+latency_v1 = df_1._hs_latency
+latency_v2 = df_2._hs_latency
+
+p95_v1 =  latency_v1.quantile(0.95)
+p95_v2 = latency_v2.quantile(0.95)
+```
+
+In our case the output was 13.0ms against 12.0ms . Results may differ.
+
+Furthermore, we can visualize our data. To plot latency distribution we'll use matplotlib library.
+
+```python
+import matplotlib.pyplot as plt
+
+# Resize the canvas
+plt.gcf().set_size_inches(10, 5)
+
+# Plot latency histograms
+plt.hist(latency_v1, range=(0, 20),
+ normed=True, bins=20, alpha=0.6, label="Latency Model v1")
+plt.hist(latency_v2, range=(0, 20),
+ normed=True, bins=20, alpha=0.6, label="Latency Model v2")
+
+# Plot previously computed percentiles
+plt.vlines(p95_v1, 0, 0.1, color="#1f77b4",
+ label="95th percentile for model version 1")
+plt.vlines(p95_v2, 0, 0.1, color="#ff7f0e",
+ label="95th percentile for model version 2")
+
+plt.legend()
+plt.title("Latency Comparison between v1 and v2")
+```
+
+![](../.gitbook/assets/image%20%281%29.png)
+
+
+
+#### Mean Top-3 Hit Rate
+
+Next, we'll calculate hit rates. To do so, we need new labelled data. For recommender systems this data is usually available after user has clicked\watched\liked\rated the item we've recommended to him. We'll use test part of movielens as labelled data.
+
+To measure how well our models were recommeding movies we'll use a hit rate metric. It calculates how many movies users have watched and rated with 4 or 5  out of 3 movies recommended to him.
+
+```python
+from lightfm.datasets import fetch_movielens
+
+test_data = fetch_movielens(min_rating=5.0)['test']
+test_data = test_data.toarray()
+
+# Dict with model version as key and mean hit rate as value
+mean_hit_rate = {}
+for version, df in {"v1": df_1, "v2": df_2}.items():
+    
+    # Dict with user id as key and hit rate as value
+    hit_rates = {}
+    for x in df.itertuples():
+        hit_rates[x.user_id] = 0
+
+        for top_x in ("top_1", "top_2", "top_3"):
+            hit_rates[x.user_id] += test_data[x.user_id, getattr(x, top_x)] >= 4
+
+    mean_hit_rate[version] = round(sum(hit_rates.values()) / len(hit_rates), 3)
+
+```
+
+In our case the `mean_hit_rate` variable is  `{'v1': 0.137, 'v2': 0.141}` . Which means that second model version is better in terms of hit rate.
+
+This is it, the end of tutorial! 🚀
+
+In this tutorial you have learned how to read automatically stored data and analyze it.  
+
 
