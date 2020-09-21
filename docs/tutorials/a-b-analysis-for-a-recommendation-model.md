@@ -10,7 +10,7 @@ In this tutorial, you will learn how to retrospectively compare the behavior of 
 
 By the end of this tutorial you will know how to:
 
-* Setup an A/B application 
+* Set up an A/B application 
 * Analyze production data
 
 ## Prerequisites
@@ -18,7 +18,7 @@ By the end of this tutorial you will know how to:
 * [Installed Hydrosphere platform](../installation/)
 * [Python SDK](../installation/sdk.md#installation)
 
-## Setup an A/B Application
+## Set Up an A/B Application
 
 ### Prepare a model for uploading
 
@@ -80,8 +80,6 @@ def get_top_rank_item(user_id):
 ```
 {% endcode %}
 
-
-
 {% code title="setup\_runtime.sh" %}
 ```bash
 apt install --yes gcc
@@ -137,7 +135,7 @@ python train_model.py 20
 hs upload
 ```
 
-We can check that we have multiple versions of our model by running
+We can check that we have multiple versions of our model by running:
 
 ```text
 hs model list
@@ -145,7 +143,7 @@ hs model list
 
 ### Create an Application
 
-To create an A/B deployment we need to create an [Application](../overview/concepts.md#applications) with a single execution stage consisting of two model variants. These model variants are our  [Model A](a-b-analysis-for-a-recommendation-model.md#upload-model-a) and [Model B](a-b-analysis-for-a-recommendation-model.md#upload-model-b) correspondingly.
+To create an A/B deployment we need to create an [Application](../overview/concepts.md#applications) with a single execution stage consisting of two model variants. These model variants are our [Model A](a-b-analysis-for-a-recommendation-model.md#upload-model-a) and [Model B](a-b-analysis-for-a-recommendation-model.md#upload-model-b) correspondingly.
 
 The following code will create such an application:
 
@@ -206,7 +204,7 @@ s3.ls("feature-lake/")
 
 ```
 
-The only file in `feature-lake` folder is `['feature-lake/movie_rec']` folder. Data stored in S3 is stored under the following path: `feature-lake/MODEL_NAME/MODEL_VERSION/YEAR/MONTH/DAY/*.parquet`
+The only file in the `feature-lake` folder is `['feature-lake/movie_rec']`. Data stored in S3 is stored under the following path: `feature-lake/MODEL_NAME/MODEL_VERSION/YEAR/MONTH/DAY/*.parquet`
 
 ```python
 # We fetch all parquet files with glob
@@ -229,12 +227,12 @@ Now that we have loaded the data, we can start analyzing it.
 
 To compare differences between model versions we'll use two metrics:
 
-1. Latency - We compare time delay between the request recieved and response produced.
-2. Mean Top-3 Hit Rate - We compare recommendations to those the user has rated. If they match then increase the hit rate by 1, do this for the complete test set to get the hit rate.
+1. Latency - we compare the time delay between the request received and the response produced.
+2. Mean Top-3 Hit Rate - we compare recommendations to those the user has rated. If they match then increase the hit rate by 1. Do this for the complete test set to get the hit rate.
 
 #### Latencies
 
-Let's calculate the 95th percentile of our latency distributions per model version and plot them. Latencies are stored in `_hs_latency` column in our dataframes. 
+Let's calculate the 95th percentile of our latency distributions per model version and plot them. Latencies are stored in the `_hs_latency` column in our dataframes. 
 
 ```python
 latency_v1 = df_1._hs_latency
@@ -244,9 +242,9 @@ p95_v1 =  latency_v1.quantile(0.95)
 p95_v2 = latency_v2.quantile(0.95)
 ```
 
-In our case the output was 13.0ms against 12.0ms . Results may differ.
+In our case, the output was 13.0ms against 12.0ms. Results may differ.
 
-Furthermore, we can visualize our data. To plot latency distribution we'll use matplotlib library.
+Furthermore, we can visualize our data. To plot latency distribution we'll use the Matplotlib library.
 
 ```python
 import matplotlib.pyplot as plt
@@ -276,9 +274,9 @@ plt.title("Latency Comparison between v1 and v2")
 
 #### Mean Top-3 Hit Rate
 
-Next, we'll calculate hit rates. To do so, we need new labelled data. For recommender systems this data is usually available after user has clicked\watched\liked\rated the item we've recommended to him. We'll use test part of movielens as labelled data.
+Next, we'll calculate hit rates. To do so, we need new labeled data. For recommender systems, this data is usually available after a user has clicked\watched\liked\rated the item we've recommended to him. We'll use the test part of movielens as labeled data.
 
-To measure how well our models were recommeding movies we'll use a hit rate metric. It calculates how many movies users have watched and rated with 4 or 5  out of 3 movies recommended to him.
+To measure how well our models were recommending movies we'll use a hit rate metric. It calculates how many movies users have watched and rated with 4 or 5  out of 3 movies recommended to him.
 
 ```python
 from lightfm.datasets import fetch_movielens
@@ -302,10 +300,10 @@ for version, df in {"v1": df_1, "v2": df_2}.items():
 
 ```
 
-In our case the `mean_hit_rate` variable is  `{'v1': 0.137, 'v2': 0.141}` . Which means that second model version is better in terms of hit rate.
+In our case the `mean_hit_rate` variable is  `{'v1': 0.137, 'v2': 0.141}` . Which means that the second model version is better in terms of hit rate.
 
-This is it, the end of tutorial! 🚀
+You have successfully completed the tutorial! 🚀
 
-In this tutorial you have learned how to read automatically stored data and analyze it.  
+Now you know how to read and analyze automatically stored data.  
 
 
