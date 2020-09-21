@@ -218,7 +218,7 @@ In this application, 100% of the traffic will be forwarded to the `claims-prepro
 
 The DeploymentConfiguration resource definition **can** contain the following fields:
 
-* `hpa`: An object defining [HorizontalPodAutoscalerSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#horizontalpodautoscalerspec-v1-autoscaling)
+* `hpa`: An object defining [HorizontalPodAutoscalerSpec](https://v1-15.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.14/#horizontalpodautoscalerspec-v1-autoscaling)
 * `container`: An object defining settings applied on a container level
 * `deployment`: An object defining settings applied on a deployment level
 * `pod`: An object defining settings applied on a pod level
@@ -237,17 +237,18 @@ The `hpa` object **must** contain:
 
 The container object **can** contain:
 
-* `resources` : object with `limits` and `requests` fields. Closely resembles the k8s [ResourceRequirements](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#resourcerequirements-v1-core) object 
+* `resources` : object with `limits` and `requests` fields. Closely resembles the k8s [ResourceRequirements](https://v1-15.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.14/#resourcerequirements-v1-corev) object 
+* `env` : object with string keys and string values which is used to set environment variables.
 
 ### Pod object
 
-The hpa object is similar to the Kubernetes [PodSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#podspec-v1-core) object.
+The hpa object is similar to the Kubernetes [PodSpec](https://v1-15.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.14/#podspec-v1-corehttps://v1-15.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.14/#podspec-v1-corev) object.
 
 The pod object **can** contain
 
-* `nodeSelector` : [selector](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#nodeselector-v1-core) which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. [More info](https://kubernetes.io/docs/concepts/configuration/assign-pod-node/).
-* `affinity` : pod's scheduling constraints. Represented by an [Affinity](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#affinity-v1-core) object.
-* `tolerations` : array of [Tolerations](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#toleration-v1-core).
+* `nodeSelector` : [selector](https://v1-15.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.14/#nodeselector-v1-core) which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. [More info](https://kubernetes.io/docs/concepts/configuration/assign-pod-node/).
+* `affinity` : pod's scheduling constraints. Represented by an [Affinity](https://v1-15.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.14/#affinity-v1-corehttps://v1-15.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.14/#affinity-v1-core) object.
+* `tolerations` : array of [Tolerations](https://v1-15.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.14/#toleration-v1-corehttps://v1-15.docs.kubernetes.io/docs/reference/generated/kubernetes-api/v1.14/#toleration-v1-core).
 
 ### Deployment object
 
@@ -271,11 +272,13 @@ deployment:
 container:
   resources:
     limits:
-      cpu: '4'
-      memory: 4g
+      cpu: 500m
+      memory: 4G
     requests:
-      cpu: '2'
-      memory: 2g
+      cpu: 250m
+      memory: 2G
+  env:
+    foo: bar
 pod:
   nodeSelector:
     im: a map
