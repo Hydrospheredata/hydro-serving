@@ -18,12 +18,11 @@ This guide is written for contributing to documentation. It doesn't contain any 
 1. Fork and clone this repository \(`git clone`\)  
 2. Create a feature branch against master \(`git checkout -b featurename`\)   
 3. Make changes in the feature branch  
-4. Use linters to ensure correct syntax and formatting \(`terraform fmt`, `pre-commit run -a`\)  
-5. Commit your changes \(`git commit -am "Add a feature"`\)   
-6. Push your changes to GitHub \(`git push origin feature`\)    
-7. Open a Pull Request and wait for your PR to get reviewed   
-8. Edit your PR to address the feedback \(if any\)   
-9. See your PR getting merged  
+4. Commit your changes \(`git commit -am "Add a feature"`\)   
+5. Push your changes to GitHub \(`git push origin feature`\)    
+6. Open a Pull Request and wait for your PR to get reviewed   
+7. Edit your PR to address the feedback \(if any\)   
+8. See your PR getting merged  
 
 #### 1. Fork and Clone this Repository
 
@@ -71,11 +70,7 @@ feature/docs_nginx
 
 Make changes you want to propose. Make sure you do this in a dedicated branch based on the master branch.
 
-#### 4. Use Linter for Correct Syntax & Formatting
-
-When applicable, use linters to ensure proper formatting before committing and pushing your changes. 
-
-#### 5. Commit Changes
+#### 4. Commit Changes
 
 Commit changes often to avoid accidental data loss. Make sure to provide your commits with descriptive comments.
 
@@ -90,7 +85,7 @@ Or add and commit all changed files with one command:
 git commit -am "Add description"
 ```
 
-#### 6. Push Changes to GitHub
+#### 5. Push Changes to GitHub
 
 Push your local changes to your fork on GitHub.
 
@@ -104,15 +99,15 @@ For example, if your remote repository is called origin and you want to push a b
 git push origin docs/fix
 ```
 
-#### 7. Open a Pull Request
+#### 6. Open a Pull Request
 
 Navigate to your fork on GitHub. Press the "New pull request" button in the upper-left part of the page. Add a title and a comment. Once you press the "Create pull request" button, the maintainers of this repository will receive your PR.
 
-#### 8. Address Feedback
+#### 7. Address Feedback
 
 After you submit the PR, one or several of the Hydrosphere repository reviewers will provide you with actionable feedback. Edit your PR to address all of the comments. Reviewers do their best to provide feedback and approval in a timely fashion but note that response time may vary based on circumstances.
 
-#### 9. Your PR Gets Merged
+#### 8. Your PR Gets Merged
 
 Once your PR is approved by a reviewer, it gets accepted and merged with the main repository. Merged PRs will get included in the next Hydrosphere release.
 
