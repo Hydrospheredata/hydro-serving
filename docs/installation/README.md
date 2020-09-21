@@ -56,7 +56,7 @@ To check the installation, open [http://localhost/](http://localhost/). By defau
 To install Hydrosphere on the Kubernetes cluster you should have the following prerequisites fulfilled.
 
 * [Helm 2.9+](https://docs.helm.sh/using_helm/#install-helm)
-* [Kubernetes 1.8+ with beta APIs enabled](https://kubernetes.io/docs/setup/)
+* [Kubernetes 1.14+ with v1 API](https://kubernetes.io/docs/setup/)
 * PV support on the underlying infrastructure \(if persistence is required\)
 * Docker registry with pull/push access \(if the built-in one is not used\)
 
