@@ -2,7 +2,9 @@ def repository = 'hydro-serving'
 
 
 def releaseGitbookDocs(desiredVersion) {
-   sh "git checkout docs/${desiredVersion}"
+   // Create and checkout the release branch
+   sh "git checkout -b release-${desiredVersion}"
+
    // Replace all $released_version$ in .md files to desiredVersion
    sh "find . -type f -not -path '*/\\.*' -name "*.md" -exec sed -i -e 's/\$released_version\$/${desiredVersion}/g' {} +"
    sh "git merge master"
@@ -57,8 +59,7 @@ if (getJobType() == "RELEASE_JOB") {
     }
 
     stage("Publish gitbook docs") {
-       def curVersion = getVersion()
-       releaseGitbookDocs(curVersion)
+       releaseGitbookDocs(getVersion())
     }
 
   }
@@ -79,12 +80,6 @@ if (getJobType() == "RELEASE_JOB") {
       sh "cd helm && rc=0; for chart in \$(ls -d ./*/); do helm lint \$chart || rc=\$?; done; return \$rc"
       // test
       sh "cd helm && helm template serving"
-    }
-
-    if (env.BRANCH_NAME == "master") {
-      stage("Publish Gitbook documentation as dev version") {
-        releaseGitbookDocs("dev")
-      }
     }
   }
 }
