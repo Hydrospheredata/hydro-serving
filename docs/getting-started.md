@@ -145,7 +145,7 @@ def infer(x1, x2):
     y = model.predict([[x1, x2]])
 
     # Return the scalar representation of y
-    return {"y": np.asscalar(y)}
+    return {"y": y.item()}
 ```
 {% endcode %}
 
@@ -191,7 +191,7 @@ contract:
   outputs:
     y:
       shape: scalar
-      type: double
+      type: int64
       profile: categorical
 ```
 {% endcode %}
@@ -313,7 +313,7 @@ contract:
   outputs:
     y:
       shape: scalar
-      type: double
+      type: int64
       profile: categorical
 ```
 {% endcode %}
