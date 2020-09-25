@@ -7,7 +7,6 @@ description: Features that make up Hydrosphere Platform
 ## Serving
 
 * Model Registry
-* Interfaces of Deployed Models \(HTTP / gRPC\)
 * [Inference Pipelines](inference-pipelines.md)
 * A/B Model Version Deployment
 * [Traffic Shadowing](traffic-shadowing.md)
@@ -22,8 +21,13 @@ description: Features that make up Hydrosphere Platform
 
 ## Explainability
 
+* Root Cause Analysis
 * [Data Visualization ](data-vizualization.md)
+
+## Third-Party Integrations
+
 * Kubeflow Components
+* AWS Sagemaker
 
 
 
