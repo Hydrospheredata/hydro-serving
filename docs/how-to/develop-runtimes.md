@@ -4,9 +4,9 @@ Sometimes our runtime images are not flexible enough. In that case, you might wa
 
 The key things you need to know to write your own runtime are:
 
-* Knowledge of how to implement a predefined gRPC service for a dedicated language
-* Understanding of our contracts' protobufs to describe entry points, such as inputs and outputs
-* Knowledge of how to create your own Docker image and publish it to an open registry
+* How to implement a predefined gRPC service for a dedicated language
+* How to our contracts' protobufs work to describe entry points, such as inputs and outputs
+* How to create your own Docker image and publish it to an open registry
 
 ## Generate GRPC code
 
