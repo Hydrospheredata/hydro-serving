@@ -12,7 +12,7 @@ Hydrosphere is a platform for **deploying, versioning and monitoring** your mach
 
 ⭐️ Star [**Hydrosphere repo**](https://github.com/Hydrospheredata/hydro-serving) ****on Github
 
-💦 Explore our [**Getting Started**](getting-started.md) tutorial
+💦 Explore our [**Getting Started**](quickstart/getting-started.md) tutorial
 
 🥳  Join [**Hydrosphere Slack Community**](https://join.slack.com/t/hydrospheredata/shared_invite/zt-gg41mrlg-eDz6v6yhkOfoMf~oi2mTug)\*\*\*\*
 
