@@ -19,10 +19,10 @@ description: Features that make up Hydrosphere Platform
 * [Monitoring Dashboard and Data Health Metrics](monitoring-dashboard.md)
 * [Alerts](alerts.md)
 
-## Explainability
+## Interpretability
 
 * Root Cause Analysis
-* [Data Visualization ](data-vizualization.md)
+* [Data Projection ](data-vizualization.md)
 
 ## Third-Party Integrations
 
