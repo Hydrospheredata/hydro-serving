@@ -20,7 +20,7 @@
   * [Data Drift Report](about/hydrosphere-features/data-drift-report.md)
   * [Monitoring Dashboard](about/hydrosphere-features/monitoring-dashboard.md)
   * [Alerts](about/hydrosphere-features/alerts.md)
-  * [Root Cause Analysis](about/hydrosphere-features/root-cause.md)
+  * [Prediction Explanation](about/hydrosphere-features/root-cause.md)
   * [Data Projection](about/hydrosphere-features/data-vizualization.md)
   * [Kubeflow Components](about/hydrosphere-features/kubeflow-components.md)
   * [AWS Sagemaker](about/hydrosphere-features/aws-sagemaker.md)

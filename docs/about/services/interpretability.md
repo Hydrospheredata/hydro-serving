@@ -15,9 +15,9 @@ Interpretability services use MongoDB as both a Celery broker and backend storag
 
 When Explanation or Data Projection receives a task they create a new temporary Servable specifically for the model they need to make an explanation for. They use this Servable to run data through it in order to make new predictions and delete it after.
 
-## Explanations
+## Prediction Explanations
 
-Root Cause generates explanations of model predictions to help you understand them. Depending on the type of data your model uses, it provides an explanation as either a set of logical predicates if your data is in a tabular format or a saliency map if your data is in the image format. Saliency Map is a heat map that highlights parts of a picture that a prediction was based on. 
+Prediction Explanations generate explanations of model predictions to help you understand them. Depending on the type of data your model uses, it provides an explanation as either a set of logical predicates if your data is in a tabular format or a saliency map if your data is in the image format. Saliency Map is a heat map that highlights parts of a picture that a prediction was based on. 
 
 ## Data Projections
 
