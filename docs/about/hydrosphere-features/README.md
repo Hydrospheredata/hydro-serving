@@ -21,7 +21,7 @@ description: Features that make up Hydrosphere Platform
 
 ## Interpretability
 
-* [Root Cause Analysis](root-cause.md)
+* [Prediction Explanations](root-cause.md)
 * [Data Projection ](data-vizualization.md)
 
 ## Third-Party Integrations
