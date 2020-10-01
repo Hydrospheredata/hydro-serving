@@ -6,7 +6,7 @@ description: Features that make up Hydrosphere Platform
 
 ## Serving
 
-* Model Registry
+* [Model Registry](model-registry.md)
 * [Inference Pipelines](inference-pipelines.md)
 * [A/B Model Version Deployment](a-b-model-deployments.md)
 * [Traffic Shadowing](traffic-shadowing.md)
