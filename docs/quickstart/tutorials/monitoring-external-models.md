@@ -35,9 +35,10 @@ The document **must** contain the following top-level members, describing the in
 * `name`: the name of the registered model. This name uniquely identifies a collection of model versions, registered within the Hydrosphere platform.
 * `contract`: the interface of the registered model. This member describes inputs and outputs of the model, as well as other complementary metadata, such as model signature, and data profile for each field.  
 
-A document **may** contain additional top-level members, describing other user-specific metadata of your model.
+A document **may** contain additional top-level members, describing other details of your model.
 
-* `metadata`: the metadata of the registered model. The structure of the object is not strictly defined. The only constraint is that the object must have a key-value structure, where a value can only be of a simple data type \(string, number, boolean\). 
+* `metadata`: the metadata of the registered model. The structure of the object is not strictly defined. The only constraint is that the object must have a key-value structure, where a value can only be of a simple data type \(string, number, boolean\).
+* `monitoringConfiguration`: monitoring configuration to be used for this model. 
 
 This example shows, how a model can be defined at the top level:
 
@@ -51,9 +52,26 @@ This example shows, how a model can be defined at the top level:
         "training-data": "s3://bucket/external-model-example/data/",
         "endpoint": "http://example.com/api/external-model/"
     },
+    "monitoringConfiguration": {
+        "batchSize": 100
+    },
     "contract": {
         ...
     }
+}
+```
+
+#### MonitoringConfiguration object
+
+`monitoringConfiguration` object defines a monitoring configuration to be used for the model version. The object **must** contain the following members:
+
+* `batchSize`: size of the batch to be used for aggregations.
+
+The example below shows how a `monitoringConfiguration` object can be defined.
+
+```javascript
+{
+    "batchSize": 100,
 }
 ```
 
@@ -168,7 +186,7 @@ The example below shows how a `shape` object can be defined.
 }
 ```
 
-#### Dim object
+#### Dim object 
 
 `dim` object defines a dimension of the field. The dim object **must** contain the following members:
 
@@ -203,6 +221,9 @@ Accept: application/json
         "author": "Hydrosphere.io",
         "training-data": "s3://bucket/external-model-example/data/",
         "endpoint": "http://example.com/api/external-model/"
+    },
+    "monitoringConfiguration": {
+        "batchSize": 100
     },
     "contract": {
         "modelName": "external-model-example",
@@ -246,6 +267,7 @@ The response object from the external model registration request contains the fo
 * `modelVersion`: Model version number in the model collection; 
 * `modelContract`: Contract of the model, similar to the one defined in the request section above;
 * `metadata`: Metadata of the model, similar to the one defined in the request section above;
+* `monitoringConfiguration`: MonitoringConfiguration of the model, similar to the one defined in the request section above;
 * `created`: Timestamp, indicating when the model was registered. 
 
 {% hint style="info" %}
@@ -306,6 +328,9 @@ Content-Type: application/json
         "author": "Hydrosphere.io",
         "training-data": "s3://bucket/external-model-example/data/",
         "endpoint": "http://example.com/api/external-model/"
+    },
+    "monitoringConfiguration": {
+        "batchSize": 100
     }
 }
 ```
