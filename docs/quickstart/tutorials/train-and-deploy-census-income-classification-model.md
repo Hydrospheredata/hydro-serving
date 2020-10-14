@@ -58,7 +58,7 @@ del df
 
 ## Training a model
 
-There are many classifiers that you can potentially use for this step. In this example, we’ll apply the Random Forest classifier. After preprocessing, the dataset will be separated into train and test subsets. The test set will be used to check whether our deployed model can process requests on the cluster. After the training step, we can save a model with `joblib.dump()` in a `/model` model folder.
+There are many classifiers that you can potentially use for this step. In this example, we’ll apply the Random Forest classifier. After preprocessing, the dataset will be separated into train and test subsets. The test set will be used to check whether our deployed model can process requests on the cluster. After the training step, we can save a model with `joblib.dump()` in a `model/` model folder.
 
 ```python
  from sklearn.ensemble import RandomForestClassifier
@@ -74,7 +74,7 @@ There are many classifiers that you can potentially use for this step. In this e
                               n_jobs=5, 
                               random_state=random_seed).fit(train_X, train_y)
                               
- joblib.dump(clf, '/model/model.joblib')
+ joblib.dump(clf, 'model/model.joblib')
 ```
 
 ## Deploy a model with SDK 
