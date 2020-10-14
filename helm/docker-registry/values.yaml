@@ -3,23 +3,26 @@
 # Declare variables to be passed into your templates.
 
 global:
-  dockerRegistry:
-    host: "hydro-serving.local"
-    username: "developers"
-    password: "hydr0s3rving"
+  registry:
+    internal: false #Use internal registry or external (for internal - ingress required)
+    insecure: false #Use insecure docker registry
+    url: index.docker.io #Domain name to internal\external registry
+    username: example #Internal\external registry username
+    password: example #Internal\external registry password
+
+  ingress:
+    issuer: letsencrypt-prod #Cert-manager issuer name
+
   persistence:
-    enabled: false
-  s3:
-    accessKey: ACCESSKEYEXAMPLE
-    secretKey: SECRETKEYEXAMPLE
-    region: eu-central-1
-    bucket: docker-registry-dev-hydrosphere
+    mode: local #Enable persistence mode for services (use s3, minio, local)
+    accessKey: ACCESSKEYEXAMPLE #accesskeyid for s3 or minio
+    secretKey: SECRETKEYEXAMPLE #secretkeyid for s3 or minio
+    region: eu-central-1 #S3 bucket region
+    bucket: example #S3 bucket name
+
+  tolerations: []
 
 replicaCount: 1
-proxy:
-  enabled: true
-ingress:
-  enabled: false
   
 image:
   repository: registry

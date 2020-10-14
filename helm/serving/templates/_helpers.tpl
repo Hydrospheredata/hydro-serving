@@ -59,11 +59,11 @@ Create chart name and version as used by the chart label.
 {{- printf "%s-%s" .Release.Name "timemachine" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
 
-{{- define "postgres.fullname" -}}
+{{- define "postgresql.fullname" -}}
 {{- printf "%s-%s" .Release.Name "postgresql" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
 
-{{- define "mongo.fullname" -}}
+{{- define "mongodb.fullname" -}}
 {{- printf "%s-%s" .Release.Name "mongodb" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
 

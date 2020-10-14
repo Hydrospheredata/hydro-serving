@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 global:
-  shadowing_on: false
+  tolerations: []
 
 replicaCount: 1
 

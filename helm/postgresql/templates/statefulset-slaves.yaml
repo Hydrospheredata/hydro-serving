@@ -52,10 +52,10 @@ spec:
       affinity:
 {{ toYaml .Values.slave.affinity | indent 8 }}
       {{- end }}
-      {{- if .Values.slave.tolerations }}
+{{- if .Values.global.tolerations }}  
       tolerations:
-{{ toYaml .Values.slave.tolerations | indent 8 }}
-      {{- end }}
+{{ toYaml .Values.global.tolerations | indent 8 }}
+{{- end }}
       {{- if .Values.terminationGracePeriodSeconds }}
       terminationGracePeriodSeconds: {{ .Values.terminationGracePeriodSeconds }}
       {{- end }}

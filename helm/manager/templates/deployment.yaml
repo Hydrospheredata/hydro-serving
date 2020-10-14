@@ -28,11 +28,9 @@ spec:
           image: docker:18.06.0-ce-dind
           securityContext:
             privileged: true
-          volumeMounts:
-            - name: dockerdaemon
-              mountPath: /etc/docker/daemon.json
-              subPath: daemon.json
-              readOnly: true
+          {{- if .Values.global.registry.insecure }}
+          args: [{{ printf "--insecure-registry=%s" .Values.global.registry.url }}]
+          {{- end }}
         - name: kubectl-proxy
           image: tommyvn/kubectl-proxy
           imagePullPolicy: {{ .Values.image.pullPolicy }}
@@ -54,17 +52,15 @@ spec:
             - name: ADVERTISED_MANAGER_PORT
               value: "9091"
             - name: DATABASE_HOST
-              value: "{{ template "postgres.fullname" . }}"
+              value: {{ if .Values.global.postgresql.url }}"{{ .Values.global.postgresql.url }}"{{ else }}"{{ template "postgresql.fullname" . }}" {{ end }}
             - name: DATABASE_PORT
               value: "5432"
             - name: DATABASE_NAME
-              value: "{{ .Values.postgres.postgresqlDatabase }}"
+              value: "{{ .Values.global.postgresql.database }}"
             - name: DATABASE_USERNAME
-              value: "{{ .Values.postgres.postgresqlUsername }}"
+              value: "{{ .Values.global.postgresql.username }}"
             - name: DATABASE_PASSWORD
-              value: "{{ .Values.postgres.postgresqlPassword }}"
-            - name: METRICS_ELASTIC_URI
-              value: {{ if .Values.global.elasticsearch.enabled }}"elasticsearch-{{ .Release.Name }}"{{- else}}{{ .Values.global.elasticsearch.host }}{{- end }}
+              value: "{{ .Values.global.postgresql.password }}"
             - name: DOCKER_HOST
               value: "tcp://localhost:2375"
             - name: CLOUD_DRIVER
@@ -74,25 +70,19 @@ spec:
             - name: KUBE_PROXY_SERVICE_PORT
               value: "8001"
             - name: KUBE_REGISTRY_SECRET_NAME
-              value: {{ if .Values.global.dockerRegistry.host }}"docker-credentials-{{ .Release.Name }}"{{- else}}"localhost-docker-credentials-{{ .Release.Name }}"{{- end}}
+              value: "docker-credentials-{{ .Release.Name }}"
             - name: KUBE_NAMESPACE
               valueFrom:
                 fieldRef:
                   fieldPath: metadata.namespace
             - name: REMOTE_DOCKER_REGISTRY_HOST
-              value: {{ if .Values.global.dockerRegistry.host}} {{ .Values.global.dockerRegistry.host | quote }}{{- else}}"{{ template "docker-registry.fullname" . }}.{{ .Release.Namespace}}.svc.cluster.local:5000"{{- end}}
-            {{- if .Values.global.dockerRegistry.password }}
+              value: "{{ .Values.global.registry.url }}" 
             - name: REMOTE_DOCKER_REGISTRY_PASSWORD
-              value: {{ .Values.global.dockerRegistry.password | quote }}
-            {{- end }}  
-            {{- if .Values.global.dockerRegistry.username }}              
+              value: "{{ .Values.global.registry.password }}"              
             - name: REMOTE_DOCKER_REGISTRY_USERNAME
-              value: {{ .Values.global.dockerRegistry.username | quote }}
-            {{- end }}  
-            {{- if not .Values.global.dockerRegistry.host }}
+              value: "{{ .Values.global.registry.username }}"
             - name: REMOTE_DOCKER_PULL_HOST
-              value: "localhost:5000"
-            {{- end }}
+              value: "{{ .Values.global.registry.url }}"
             {{- with .Values.env }}
 {{ toYaml . | indent 12 }}
             {{- end }}
@@ -120,17 +110,11 @@ spec:
       affinity:
 {{ toYaml . | indent 8 }}
     {{- end }}
-    {{- with .Values.tolerations }}
+{{- if .Values.global.tolerations }}  
       tolerations:
-{{ toYaml . | indent 8 }}
-    {{- end }}
+{{ toYaml .Values.global.tolerations | indent 8 }}
+{{- end }}
       volumes:
-        - name: dockerdaemon
-          configMap:
-            name: "docker-daemon-configmap-{{ .Release.Name }}"
-            items:
-              - key: "daemon.json"
-                path: "daemon.json"
         - name: dockerconfig
           secret:
             secretName: "docker-credentials-{{ .Release.Name }}"
