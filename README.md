@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://hydrosphere.io/">
-    <img src="https://hydrosphere.io/serving-docs/dev/images/navbar_brand.svg" alt="Hydrosphere.io logo" width="128" height="128">
+    <img src="https://gblobscdn.gitbook.com/spaces%2F-MESaD8WY3ggQLtBByXl%2Favatar-1597150668933.png?alt=media" alt="Hydrosphere.io logo" width="128" height="128">
   </a>
 </p>
 
@@ -9,21 +9,20 @@
 <p align="center">
 Platform for deploying your Machine Learning to production
   <br>
-  <a href="https://hydrosphere.io/serving-docs/latest/index.html"><strong>Check out Hydrosphere.io docs »</strong></a>
+  <a href="https://docs.hydrosphere.io"><strong>Check out Hydrosphere.io docs »</strong></a>
   <br>
   <br>
   <a href="https://github.com/Hydrospheredata/hydro-serving/issues/new">Report bug</a>
   ·
   <a href="https://hydrosphere.io/contact/">Contact Us</a>
-  ·
-  <a href="https://hydrosphere.io/blog/">Blog</a>
+ 
 </p>
 
 ---
 
 [![GitHub license](https://img.shields.io/badge/license-apache-blue.svg)](https://github.com/Hydrospheredata/hydro-serving/blob/update-readme/LICENSE)
 [![Join the chat at https://gitter.im/Hydrospheredata/hydro-serving](https://badges.gitter.im/Hydrospheredata/hydro-serving.svg)](https://gitter.im/Hydrospheredata/hydro-serving?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![](https://img.shields.io/badge/documentation-latest-af1a97.svg)](https://hydrosphere.io/serving-docs/) 
+[![](https://img.shields.io/badge/documentation-latest-af1a97.svg)](https://docs.hydrosphere.io) 
 
 Hydrosphere Serving is a cluster for deploying and versioning  your machine learning models in production.
 
@@ -54,7 +53,7 @@ To install Hydrosphere Serving, follow the instructions below:
 
 1. Download the latest release version from the [releases](https://github.com/Hydrospheredata/hydro-serving/releases) page;
     ```sh 
-    export HYDROSPHERE_RELEASE=$released_version$
+    export HYDROSPHERE_RELEASE=2.4.0
     wget -O hydro-serving-${HYDROSPHERE_RELEASE}.tar.gz https://github.com/Hydrospheredata/hydro-serving/archive/${HYDROSPHERE_RELEASE}.tar.gz
     ```
 1. Unpack the tar ball;
