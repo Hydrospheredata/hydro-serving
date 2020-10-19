@@ -28,7 +28,7 @@ if (getJobType() == "RELEASE_JOB") {
       def tagComment = generateTagComment()
 
       // Always maintain a latest version in a GitHub readme
-      sh "sed -i -e 's/\$released_version\$/${curVersion}/g' README.md"
+      sh "sed -i '' -E 's/(.*export HYDROSPHERE_RELEASE=)(.*)/\1{curVersion}/g' README.md"
       sh "git commit --allow-empty -a -m 'Releasing ${curVersion}'"
 
       writeFile file: "/tmp/tagMessage${curVersion}", text: tagComment
