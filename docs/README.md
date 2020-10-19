@@ -12,9 +12,9 @@ Hydrosphere is a platform for **deploying, versioning, and monitoring** your mac
 
 ## What to do next?
 
-⭐️ Star [**Hydrosphere repo**](https://github.com/Hydrospheredata/hydro-serving) _\*\*_on Github
+⭐️ Star [**Hydrosphere repo**](https://github.com/Hydrospheredata/hydro-serving) on Github
 
 💦 Explore our [**Getting Started**](quickstart/getting-started.md) tutorial
 
-🥳 Join [**Hydrosphere Slack Community**](https://join.slack.com/t/hydrospheredata/shared_invite/zt-gg41mrlg-eDz6v6yhkOfoMf~oi2mTug)\*\*\*\*
+🥳 Join [**Hydrosphere Slack Community**](https://join.slack.com/t/hydrospheredata/shared_invite/zt-gg41mrlg-eDz6v6yhkOfoMf~oi2mTug)
 
