@@ -6,8 +6,9 @@ def releaseGitbookDocs(desiredVersion) {
    sh "git checkout -b release-${desiredVersion}"
 
    // Replace all $released_version$ in .md files to desiredVersion
-   sh "find . -type f -not -path '*/\\.*' -name "*.md" -exec sed -i -e 's/\$released_version\$/${desiredVersion}/g' {} +"
-   sh "git merge master"
+   sh "find docs -type f -not -path '*/\\.*' -name "*.md" -exec sed -i -e 's/\$released\\_version\$/${desiredVersion}/g' {} +"
+   sh "git commit --allow-empty -a -m 'Releasing documentation for ${curVersion}'"
+
    pushSource(repository)
    sh "git checkout ${env.BRANCH_NAME}"
 }
