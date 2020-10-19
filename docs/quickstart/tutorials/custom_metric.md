@@ -6,9 +6,9 @@ description: 'Estimated Completion Time: 18m.'
 
 ## Overview
 
-In this tutorial, you will learn how to create a custom anomaly detection metric for a specific use case. 
+In this tutorial, you will learn how to create a custom anomaly detection metric for a specific use case.
 
-Let's take a problem described in the previous [Train & Deploy Census Income Classification Model](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHGvmrVrOLoZn1Rkock/tutorials/train-and-deploy-census-income-classification-model) tutorial as a use case and [census income dataset](https://www.kaggle.com/wenruliu/adult-income-dataset) as a data source. We will monitor a model that classifies whether the income of a given person exceeds $50.000 per year.  
+Let's take a problem described in the previous [Train & Deploy Census Income Classification Model](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHGvmrVrOLoZn1Rkock/tutorials/train-and-deploy-census-income-classification-model) tutorial as a use case and [census income dataset](https://www.kaggle.com/wenruliu/adult-income-dataset) as a data source. We will monitor a model that classifies whether the income of a given person exceeds $50.000 per year.
 
 By the end of this tutorial you will know how to:
 
@@ -19,7 +19,7 @@ By the end of this tutorial you will know how to:
 
 ## Prerequisites
 
-For this tutorial, you need to have **Hydrosphere Platform** deployed and **Hydrosphere CLI** \(`hs`\) along with **Python SDK** \(`hydrosdk`\) ****installed on your local machine. If you don't have them yet, please follow these guides first: 
+For this tutorial, you need to have **Hydrosphere Platform** deployed and **Hydrosphere CLI** \(`hs`\) along with **Python SDK** \(`hydrosdk`\) _\*\*_installed on your local machine. If you don't have them yet, please follow these guides first:
 
 * [Platform Installation](../installation/)
 * [CLI](../installation/cli.md#installation)
@@ -39,9 +39,9 @@ cd monitoring_model
 touch src/func_main.py
 ```
 
-As a monitoring metric, we will use **IsolationForest**. You can learn how it works in its [documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html). 
+As a monitoring metric, we will use **IsolationForest**. You can learn how it works in its [documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html).
 
-To make sure that our monitoring model will see the same data as our prediction model, we are going to apply the training data that was saved previously for our monitoring model. 
+To make sure that our monitoring model will see the same data as our prediction model, we are going to apply the training data that was saved previously for our monitoring model.
 
 ```python
 import joblib
@@ -72,9 +72,9 @@ plt.legend()
 dump(monitoring_model, "monitoring_model/monitoring_model.joblib")
 ```
 
-![Distribution of outlier scores](../../.gitbook/assets/figure.png)
+![Distribution of outlier scores](../../.gitbook/assets/figure%20%282%29.png)
 
-This is what the distribution of our inliers looks like. By choosing a contamination parameter we can adjust a threshold that will separate inliers from outliers accordingly. You have to be thorough in choosing it to avoid critical prediction mistakes. Otherwise, you can also stay with `'auto'`.  To create a monitoring metric, we have to deploy that IsolationForest model as a separate model on the Hydrosphere platform. Let's save a trained model for serving.
+This is what the distribution of our inliers looks like. By choosing a contamination parameter we can adjust a threshold that will separate inliers from outliers accordingly. You have to be thorough in choosing it to avoid critical prediction mistakes. Otherwise, you can also stay with `'auto'`. To create a monitoring metric, we have to deploy that IsolationForest model as a separate model on the Hydrosphere platform. Let's save a trained model for serving.
 
 ## Deploy a Monitoring Model with SDK
 
@@ -109,9 +109,9 @@ numpy==1.16.2
 scikit-learn==0.23.1
 ```
 
-Just like with common models, we can use SDK to upload our monitoring model and bind it to the trained one. The steps are almost the same, but with some slight differences. First, since we want to predict the anomaly score instead of sample class, we need to change the type of output field from `'int64'` to `'float64'`. 
+Just like with common models, we can use SDK to upload our monitoring model and bind it to the trained one. The steps are almost the same, but with some slight differences. First, since we want to predict the anomaly score instead of sample class, we need to change the type of output field from `'int64'` to `'float64'`.
 
-Secondly, we need to apply a couple of new methods to create a metric. `MetricSpec` is responsible for  creating a metric for a specific model, with specific `MetricSpecConfig.`
+Secondly, we need to apply a couple of new methods to create a metric. `MetricSpec` is responsible for creating a metric for a specific model, with specific `MetricSpecConfig.`
 
 ```python
 from hydrosdk.monitoring import MetricSpec, MetricSpecConfig, ThresholdCmpOp
@@ -119,7 +119,7 @@ from hydrosdk.monitoring import MetricSpec, MetricSpecConfig, ThresholdCmpOp
 path_mon = "monitoring_model/"
 payload_mon = ['src/func_main.py', 
                'monitoring_model.joblib', 'requirements.txt']
-            
+
 monitoring_signature = SignatureBuilder('predict') 
 for i in X_train.columns:
     monitoring_signature.with_input(i, 'int64', 'scalar')
@@ -138,28 +138,27 @@ monitoring_upload.lock_till_released()
 
 metric_config = MetricSpecConfig(monitoring_upload.id, monitoring_model.threshold_, ThresholdCmpOp.LESS)
 metric_spec = MetricSpec.create(cluster, "custom_metric", model_find.id, metric_config)
-
 ```
 
 Anomaly scores are obtained through [traffic shadowing](../../about/hydrosphere-features/traffic-shadowing.md) inside the Hydrosphere's engine after making a Servable, so you don't need to perform any additional manipulations.
 
 ## Managing Custom Metrics with UI
 
-Go to the UI to observe and manage all your models. Here you will find 3 models on the left panel: 
+Go to the UI to observe and manage all your models. Here you will find 3 models on the left panel:
 
 * `adult_model` - a model that we trained for prediction in the [previous tutorial](train-and-deploy-census-income-classification-model.md#training-a-model)
 * `adult_monitoring_model` - our monitoring model  
 * `adult_model_metric` - a model that was created by Automatic Outlier Detection 
 
-![](../../.gitbook/assets/screenshot-2020-09-16-at-17.56.27.png)
+![](../../.gitbook/assets/screenshot-2020-09-16-at-17.56.27%20%281%29.png)
 
-Click on the trained model and then on Monitoring. On the monitoring dasboard you now have two external metrics: the first one is `auto_od_metric` that was automatically generated by [Automatic Outlier Detection](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHLfibGIoeUmdpQR30S/overview/features/automatic-outlier-detection), and the new one is `custom_metric`  that we have just created. You can also change settings for existing metrics and configure the new ones in the  `Configure Metrics` section:
+Click on the trained model and then on Monitoring. On the monitoring dasboard you now have two external metrics: the first one is `auto_od_metric` that was automatically generated by [Automatic Outlier Detection](https://app.gitbook.com/@hydrosphere/s/home/~/drafts/-MHLfibGIoeUmdpQR30S/overview/features/automatic-outlier-detection), and the new one is `custom_metric` that we have just created. You can also change settings for existing metrics and configure the new ones in the `Configure Metrics` section:
 
-![](../../.gitbook/assets/screenshot-2020-09-16-at-17.57.42.png)
+![](../../.gitbook/assets/screenshot-2020-09-16-at-17.57.42%20%281%29.png)
 
 During the prediction, you will get anomaly scores for each sample in the form of a chart with two lines. The curved line shows scores, while the horizontal dotted one is our threshold. When the curve intersects the threshold, it might be a sign of potential anomalousness. However, this is not always the case, since there are many factors that might affect this, so be careful about your final interpretation.
 
-![](../../.gitbook/assets/screenshot-2020-09-16-at-18.13.30.png)
+![](../../.gitbook/assets/screenshot-2020-09-16-at-18.13.30%20%281%29.png)
 
 ## Uploading a Monitoring model with CLI
 

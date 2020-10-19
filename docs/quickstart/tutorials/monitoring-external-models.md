@@ -14,11 +14,11 @@ By the end of this tutorial you will know how to:
 
 ## Prerequisites
 
-For this tutorial, you need to have **Hydrosphere Platform** deployed on your local machine with **Sonar** component enabled. If you don't have it yet, please follow this guide first: 
+For this tutorial, you need to have **Hydrosphere Platform** deployed on your local machine with **Sonar** component enabled. If you don't have it yet, please follow this guide first:
 
 * [Platform Installation](../installation/)
 
-You also need a running external model, capable of producing predictions. Inputs and outputs of that model will be fed into Hydrosphere for monitoring purposes. 
+You also need a running external model, capable of producing predictions. Inputs and outputs of that model will be fed into Hydrosphere for monitoring purposes.
 
 ## Model registration
 
@@ -186,7 +186,7 @@ The example below shows how a `shape` object can be defined.
 }
 ```
 
-#### Dim object 
+#### Dim object
 
 `dim` object defines a dimension of the field. The dim object **must** contain the following members:
 
@@ -436,7 +436,7 @@ if __name__ == "__main__":
 
     endpoint_uri = "/monitoring/profiles/batch/{}".format(args.model_version_id)
     endpoint_uri = urljoin(args.hydrosphere, endpoint_uri) 
-    
+
     gen = read_in_chunks(args.filename, chunk_size=args.chunk_size)
     response = requests.post(endpoint_uri, data=gen, stream=True)
     if response.status_code != 200:
@@ -811,7 +811,6 @@ public class HydrosphereClient {
         }
     }
 }
-
 ```
 {% endtab %}
 {% endtabs %}

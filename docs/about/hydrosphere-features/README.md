@@ -29,5 +29,3 @@ description: Features that make up Hydrosphere Platform
 * [Kubeflow Components](kubeflow-components.md)
 * AWS Sagemaker
 
-
-
