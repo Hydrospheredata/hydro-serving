@@ -22,33 +22,21 @@ spec:
         release: {{ .Release.Name }}
         logging: "true"
     spec:
-      containers:
-        - name: {{ .Chart.Name }}-vts-exporter
-          image: sophos/nginx-vts-exporter
-          imagePullPolicy: Always
-          ports:
-            - name: metrics
-              containerPort: 9913
-              protocol: TCP     
-          env:
-            - name: NGINX_STATUS
-              value: "http://localhost/status/format/json"
-            - name: METRICS_ENDPOINT
-              value: "/metrics"
-            - name: METRICS_ADDR
-              value: ":9913"  
-            - name: METRICS_NS
-              value: "nginx_"                                        
+      securityContext:
+        runAsUser: 42069
+      containers:                                       
         - name: {{ .Chart.Name }}
           image: {{ if .Values.image.full }}"{{ .Values.image.full }}"{{ else }}"{{ .Values.image.repository }}:{{ .Values.image.tag }}"{{ end }}
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
-              containerPort: 80
+              containerPort: 8080
               protocol: TCP
             - name: grpc
               containerPort: 9090
               protocol: TCP
+          securityContext:
+            allowPrivilegeEscalation: false
           env:
             - name: OSS
             {{- if .Values.public }}
@@ -99,9 +87,18 @@ spec:
               value: "5002"
             - name: AUTO_OD_GRPC_PORT
               value: "5001"
+            - name: INGRESS_PATH
+              value: '//{{ .Values.global.ingress.frontendUrl }}{{ trimSuffix "/" .Values.global.ingress.path }}/'
             {{- with .Values.env }}
 {{ toYaml . | indent 12 }}
             {{- end }}
+          {{- if .Values.configuration}}
+          volumeMounts:
+            - name: "configmap-{{ .Chart.Name }}"
+              mountPath: /usr/share/nginx/html/assets/config.json
+              subPath: config.json
+              readOnly: true
+          {{- end }}
           livenessProbe:
             httpGet:
               path: /
@@ -120,9 +117,17 @@ spec:
       affinity:
 {{ toYaml . | indent 8 }}
     {{- end }}
-    {{- with .Values.tolerations }}
+{{- if .Values.global.tolerations }}  
       tolerations:
-{{ toYaml . | indent 8 }}
-    {{- end }}
+{{ toYaml .Values.global.tolerations | indent 8 }}
+{{- end }}
       imagePullSecrets:
-        - name: "docker-hydrosphere-secret-{{ .Release.Name }}"    
+        - name: "{{ .Release.Name }}-docker-secret"
+      volumes:
+        - name: "configmap-{{ .Chart.Name }}"
+          configMap:
+            defaultMode: 0755
+            name: {{ include "ui.fullname" . }}
+            items:
+              - key: config.json
+                path: config.json

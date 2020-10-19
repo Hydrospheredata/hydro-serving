@@ -40,8 +40,6 @@ spec:
               value: "{{ template "ui.fullname" . }}"
             - name: API_GATEWAY_HTTP_PORT
               value: "9090"
-            - name: APP_SHADOWING_ON
-              value: {{ .Values.global.shadowing_on | quote }}
             - name: API_GATEWAY_GRPC_PORT
               value: "9091"
             {{- with .Values.env }}
@@ -67,7 +65,7 @@ spec:
       affinity:
 {{ toYaml . | indent 8 }}
     {{- end }}
-    {{- with .Values.tolerations }}
+{{- if .Values.global.tolerations }}  
       tolerations:
-{{ toYaml . | indent 8 }}
-    {{- end }}
+{{ toYaml .Values.global.tolerations | indent 8 }}
+{{- end }}

@@ -23,26 +23,30 @@ services:
         - "POSTGRES_PASSWORD=docker"
    
    gateway:
-     image:  hydrosphere/serving-gateway:2.3.0
+     image:  hydrosphere/serving-gateway:2.4.0
      container_name: gateway
      ports:
        - "29090:9090"
        - "29091:9091"
+     depends_on:
+       - manager
      networks:
        - hydronet
      environment:
        - "API_GATEWAY_HOST=managerui"
        - "API_GATEWAY_GRPC_PORT=9090"
-       - "API_GATEWAY_HTTP_PORT=80"
+       - "API_GATEWAY_HTTP_PORT=8080"
        - "HTTP_PORT=9090"
        - "GRPC_PORT=9091"
    
    manager:
-     image:  hydrosphere/serving-manager:2.3.0
+     image:  hydrosphere/serving-manager:2.4.0
      container_name: manager
      ports:
        - "19090:9090"
        - "19091:9091"
+     depends_on:
+       - postgres
      networks:
        - hydronet
        - extnet
@@ -53,13 +57,14 @@ services:
        - /var/run/docker.sock:/var/run/docker.sock
    
    managerui:
-     image:  hydrosphere/serving-manager-ui:2.3.0
+     image:  hydrosphere/serving-manager-ui:2.4.0
      container_name: managerui
      depends_on:
        - manager
        - gateway
      ports:
-       - "80:80"
+       - "9090:9090"
+       - "80:8080"
      networks:
        - extnet
        - hydronet

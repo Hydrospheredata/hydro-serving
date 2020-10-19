@@ -35,32 +35,10 @@ Create chart name and version as used by the chart label.
 Create dockerconfig.json contents
 */}}
 {{- define "manager.dockerconfig" -}}
-{{- if .Values.global.dockerRegistry.host -}}
-{{- printf "{\"auths\": {\"%s\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}}}" .Values.global.dockerRegistry.host .Values.global.dockerRegistry.username .Values.global.dockerRegistry.password (printf "%s:%s" .Values.global.dockerRegistry.username .Values.global.dockerRegistry.password | b64enc) | b64enc }}
-{{- else -}}
-{{- printf "{\"auths\": {\"%s\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}}}" (printf "%s.%s.%s" (include "docker-registry.fullname" .) .Release.Namespace "svc.cluster.local:5000") .Values.global.dockerRegistry.username .Values.global.dockerRegistry.password (printf "%s:%s" .Values.global.dockerRegistry.username .Values.global.dockerRegistry.password | b64enc) | b64enc }}
-{{- end -}}
+{{- printf "{\"auths\": {\"%s\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}}}" .Values.global.registry.url .Values.global.registry.username .Values.global.registry.password (printf "%s:%s" .Values.global.registry.username .Values.global.registry.password | b64enc) | b64enc }}
 {{- end -}}
 
-{{/*
-Create dockerconfig.json for localhost to pull images on host machines
-*/}}
-{{- define "manager.dockerconfig.local" }}
-{{- printf "{\"auths\": {\"localhost:5000\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}}}" .Values.global.dockerRegistry.username .Values.global.dockerRegistry.password (printf "%s:%s" .Values.global.dockerRegistry.username .Values.global.dockerRegistry.password | b64enc) | b64enc }}
-{{- end }}
-
-{{/*
-Create daemon.json config for docker daemon
-*/}}
-{{- define "manager.daemonconfig" -}}
-{{- if .Values.global.dockerRegistry.host -}}
-{{- printf "{ \"insecure-registries\":[%s] }" (printf .Values.global.dockerRegistry.host | quote) -}}
-{{- else -}}
-{{- printf "{ \"insecure-registries\":[\"%s\"] }" (printf "%s.%s.%s" (include "docker-registry.fullname" .) .Release.Namespace "svc.cluster.local:5000") -}}
-{{- end -}}
-{{- end -}}
-
-{{- define "postgres.fullname" -}}
+{{- define "postgresql.fullname" -}}
 {{- printf "%s-%s" .Release.Name "postgresql" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
 
@@ -70,8 +48,4 @@ Create daemon.json config for docker daemon
 
 {{- define "docker-registry.fullname" -}}
 {{- printf "%s-%s" .Release.Name "docker-registry" | trunc 63 | trimSuffix "-" -}}
-{{- end -}}
-
-{{- define "docker-registry-proxy.fullname" -}}
-{{- printf "%s-%s" .Release.Name "docker-registry-proxy" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}

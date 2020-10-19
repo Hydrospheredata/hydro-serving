@@ -3,12 +3,12 @@
 # Declare variables to be passed into your templates.
 
 global:
-  shadowing_on: false
+  tolerations: []
 
 replicaCount: 1
 
 image:
-  full:  hydrosphere/serving-gateway:2.3.0
+  full:  hydrosphere/serving-gateway:2.4.0
   pullPolicy:  IfNotPresent
 
 service:

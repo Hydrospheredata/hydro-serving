@@ -1,69 +1,49 @@
 global:
-  shadowing_on: true
-  frontend_url: "http://hydro-serving.local"
-  alerting_on: false
- 
-  persistence:
-    enabled: false
-  dockerRegistry:
-    enabled: true
-    host: ""
-    username: "example"
-    password: "example"
-
-  hydrosphere:
-    docker:
-      host: ""
-      username: ""
-      password: ""
-
-  mongodb:
-    usePassword: true
-    mongodbRootPassword: hydr0s3rving
-    mongodbUsername: root
-    mongodbPassword: hydr0s3rving
-    mongodbAuthDatabase: admin
-    mongodbDatabase: hydro-serving-data-profiler
-
-mongodb:
-  enabled: true
-  image:
-    repository: bitnami/mongodb
-    tag: 4.0.13-debian-9-r22
-    pullPolicy: IfNotPresent
-
-postgresql:
-  enabled: true
-  image:
-    repository: bitnami/postgresql
-    tag: 9.6
-    pullPolicy: IfNotPresent   
-
-  postgresqlUsername: postgres
-  postgresqlPassword: hydr0s3rving
-  postgresqlDatabase: hydro-serving     
-
-ui:
-  public: true  
   ingress:
-    enabled: false
-    annotations: {}
-    hosts:
-      - hydro-serving.local
-    path: "/"
-    tls: []
-    #  - hosts:
-    #    - hydro-serving.local
-    #    secretName: qa-hydro-tls
+    frontendUrl: ui.example.io # Domain name for the frontend ingress.
+    issuer: letsencrypt-prod # A name of the cert-manager issuer name, configured within the 
+                             # cluster.
 
-manager:
-  postgres:
-    postgresqlUsername: postgres
-    postgresqlPassword: hydr0s3rving
-    postgresqlDatabase: hydro-serving
+  registry:
+    internal: false # Internal/external mode for the registry. In case of internal registry 
+                    # mode, a new registry instance will be deployed within the cluster.
+    url: "index.docker.io/username" # Domain name for internal\external registry. In case 
+                                    # of internal registry, a new ingress resource will be 
+                                    # created.
+    username: "example" # Internal\external registry username
+    password: "example" # Internal\external registry password
   
-docker-registry:
-  proxy:
-    enabled: true
-  ingress:
-    enabled: false
+  hydrosphere:  
+    docker:
+      host: "harbor.hydrosphere.io/hydro-serving"
+      username: "developers"
+      password: "" # Registry password for accessing closed images
+      
+  persistence:
+    mode: minio # Persistence mode for services (one of s3, minio)
+    accessKey: ACCESSKEYEXAMPLE # accesskeyid for s3 or minio
+    secretKey: SECRETKEYEXAMPLE # secretkeyid for s3 or minio
+    region: eu-central-1 # Region of the bucket in case of S3 persistence mode.  
+    bucket: example # S3 bucket name in case of S3 persistence mode.
+
+  postgresql:
+    url: "" # Postgresql host in case of using external postgresql instance. If not specified, 
+            # a new instance will be deployed within the cluster.
+    username: postgres # Postgresql username
+    password: hydr0s3rving # Postgresql password
+    database: hydro-serving # Postgresql database name 
+
+prometheus-am:
+  enabled: true
+  mail:
+    to: customer@example.io # Email address to send alarms to.
+    from: no-reply@hydrosphere.io # Email address of the sender.
+    smarthost: localhost:25  # SMTP relay host.
+    username: mailbot # SMTP relay username.
+    identity: mailbot # SMTP relay username identity.
+    password: password # SMTP relay password.
+
+  tolerations: []
+  
+ui:
+  public: true

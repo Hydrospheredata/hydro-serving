@@ -24,6 +24,18 @@ If release name contains chart name it will be used as a full name.
 {{- end -}}
 {{- end -}}
 
+
+{{/*
+Return the appropriate apiVersion for ingress.
+*/}}
+{{- define "ui.ingress.apiVersion" -}}
+{{- if .Capabilities.APIVersions.Has "extensions/v1beta1" -}}
+{{- print "extensions/v1beta1" -}}
+{{- else -}}
+{{- print "networking.k8s.io/v1beta1" -}}
+{{- end -}}
+{{- end -}}
+
 {{/*
 Create chart name and version as used by the chart label.
 */}}
@@ -65,4 +77,12 @@ Create chart name and version as used by the chart label.
 
 {{- define "auto-od.fullname" -}}
 {{- printf "%s-%s" .Release.Name "auto-od" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
+
+{{- define "ui.ingress-http-path" -}}
+{{- if eq .Values.global.ingress.path "/" -}}
+{{- print "/" -}}
+{{- else -}}
+{{- printf "%s(/|$)(.*)" .Values.global.ingress.path}}
+{{- end -}}
 {{- end -}}

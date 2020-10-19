@@ -6,26 +6,27 @@ replicaCount: 1
 
 serviceAccount:
   create: true
-
-global:
-  dockerRegistry:
-    host: ""
-    username: ""
-    password: ""    
-  elasticsearch:
-    host: ""
-
-postgres:
-  postgresqlUsername: postgres
-  postgresqlPassword: hydr0s3rving
-  postgresqlDatabase: hydro-serving
-
   
+global:
+  registry:
+    internal: false #Use internal registry or external (for internal - ingress required)
+    insecure: false #Use insecure docker registry
+    url: index.docker.io #Domain name to internal\external registry
+    username: example #Internal\external registry username
+    password: example #Internal\external registry password
+    
+  postgresql:
+    url: "" #Postgresql address if external postgresql use
+    username: postgres  #Postgresql username
+    password: hydr0s3rving #Postgresql password
+    database: hydro-serving #Postgresql database name 
+
+  tolerations: []
 
 env: {}
 
 image:
-  full:  hydrosphere/serving-manager:2.3.0
+  full:  hydrosphere/serving-manager:2.4.0
   pullPolicy:  IfNotPresent
 
 service:

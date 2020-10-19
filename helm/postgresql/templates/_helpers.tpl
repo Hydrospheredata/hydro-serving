@@ -81,10 +81,8 @@ Also, we can't use a single if because lazy evaluation is not an option
 Return PostgreSQL password
 */}}
 {{- define "postgresql.password" -}}
-{{- if .Values.global.postgresql.postgresqlPassword }}
-    {{- .Values.global.postgresql.postgresqlPassword -}}
-{{- else if .Values.postgresqlPassword -}}
-    {{- .Values.postgresqlPassword -}}
+{{- if .Values.global.postgresql.password }}
+    {{- .Values.global.postgresql.password -}}
 {{- else -}}
     {{- randAlphaNum 10 -}}
 {{- end -}}
@@ -107,10 +105,8 @@ Return PostgreSQL replication password
 Return PostgreSQL username
 */}}
 {{- define "postgresql.username" -}}
-{{- if .Values.global.postgresql.postgresqlUsername }}
-    {{- .Values.global.postgresql.postgresqlUsername -}}
-{{- else -}}
-    {{- .Values.postgresqlUsername -}}
+{{- if .Values.global.postgresql.username }}
+    {{- .Values.global.postgresql.username -}}
 {{- end -}}
 {{- end -}}
 
@@ -141,10 +137,8 @@ Return PostgreSQL port
 Return PostgreSQL created database
 */}}
 {{- define "postgresql.database" -}}
-{{- if .Values.global.postgresql.postgresqlDatabase }}
-    {{- .Values.global.postgresql.postgresqlDatabase -}}
-{{- else if .Values.postgresqlDatabase -}}
-    {{- .Values.postgresqlDatabase -}}
+{{- if .Values.global.postgresql.database }}
+    {{- .Values.global.postgresql.database -}}
 {{- end -}}
 {{- end -}}
 
