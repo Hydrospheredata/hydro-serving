@@ -93,7 +93,7 @@ class RuntimeService(PredictionServiceServicer):
 
     def Predict(self, request, context):
         self.logger.info(f"Received inference request: {request}")
-        
+
         module = importlib.import_module("func_main")
         executable = getattr(module, self.contract.predict.signature_name)
         result = executable(**request.inputs)
@@ -112,7 +112,7 @@ class RuntimeManager:
         self.port = port
         self.model_path = model_path
         self.server = None
-        
+
         with open(os.path.join(model_path, 'contract.protobin')) as file:
             contract = ModelContract.ParseFromString(file.read())
         self.servicer = RuntimeService(os.path.join(self.model_path, 'files'), contract)

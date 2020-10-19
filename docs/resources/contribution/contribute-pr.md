@@ -13,7 +13,7 @@ This guide is written for contributing to documentation. It doesn't contain any 
 2. Basic Workflow Example  
 3. PR Acceptance policy  
 
-### PR Contribution Workflow
+## PR Contribution Workflow
 
 1. Fork and clone this repository \(`git clone`\)  
 2. Create a feature branch against master \(`git checkout -b featurename`\)   
@@ -24,7 +24,7 @@ This guide is written for contributing to documentation. It doesn't contain any 
 7. Edit your PR to address the feedback \(if any\)   
 8. See your PR getting merged  
 
-#### 1. Fork and Clone this Repository
+### 1. Fork and Clone this Repository
 
 In order to contribute, you need to make your own copy of the repository you're going to contribute to. You do this by forking the repository to your GitHub account and then cloning the fork to your local machine.
 
@@ -38,9 +38,9 @@ In order to contribute, you need to make your own copy of the repository you're 
 
    **2. Create a New Branch**
 
-   It is important to make all your changes in a separate branch created off the master branch. 
+   It is important to make all your changes in a separate branch created off the master branch.
 
-   Before any modifications to the repository that you've just cloned, create a new branch off of the master branch. 
+   Before any modifications to the repository that you've just cloned, create a new branch off of the master branch.
 
 Create a new branch off of the current one and switch to it:
 
@@ -66,11 +66,11 @@ Name your branch according to the following template, replacing `nginx` with the
 feature/docs_nginx
 ```
 
-#### 3. Make Changes
+### 3. Make Changes
 
 Make changes you want to propose. Make sure you do this in a dedicated branch based on the master branch.
 
-#### 4. Commit Changes
+### 4. Commit Changes
 
 Commit changes often to avoid accidental data loss. Make sure to provide your commits with descriptive comments.
 
@@ -85,7 +85,7 @@ Or add and commit all changed files with one command:
 git commit -am "Add description"
 ```
 
-#### 5. Push Changes to GitHub
+### 5. Push Changes to GitHub
 
 Push your local changes to your fork on GitHub.
 
@@ -99,19 +99,19 @@ For example, if your remote repository is called origin and you want to push a b
 git push origin docs/fix
 ```
 
-#### 6. Open a Pull Request
+### 6. Open a Pull Request
 
 Navigate to your fork on GitHub. Press the "New pull request" button in the upper-left part of the page. Add a title and a comment. Once you press the "Create pull request" button, the maintainers of this repository will receive your PR.
 
-#### 7. Address Feedback
+### 7. Address Feedback
 
 After you submit the PR, one or several of the Hydrosphere repository reviewers will provide you with actionable feedback. Edit your PR to address all of the comments. Reviewers do their best to provide feedback and approval in a timely fashion but note that response time may vary based on circumstances.
 
-#### 8. Your PR Gets Merged
+### 8. Your PR Gets Merged
 
 Once your PR is approved by a reviewer, it gets accepted and merged with the main repository. Merged PRs will get included in the next Hydrosphere release.
 
-### Basic Workflow Example
+## Basic Workflow Example
 
 ```text
 git clone https://github.com/Hydrospheredata/hydro-serving.git
@@ -122,7 +122,7 @@ git commit -am "Add description"
 git push origin docs/fix
 ```
 
-### PR Acceptance Policy
+## PR Acceptance Policy
 
 What will make your PR more likely to get accepted:
 
@@ -134,7 +134,7 @@ What will make your PR more likely to get accepted:
 * Texts checked for spelling and typos \(you can use Grammarly\)
 * Code snippets checked with linters \(when applicable\)  
 
-#### PR Title and Comment Conventions
+### PR Title and Comment Conventions
 
 A PR title should describe what has changed. A PR comment should describe why and what/where. If your changes relate to a particular issue, a PR comment should contain an issue number. Please keep PR comments below 80 characters for readability.
 

@@ -40,7 +40,7 @@ Request data, composed with respect to the model's contract.
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}

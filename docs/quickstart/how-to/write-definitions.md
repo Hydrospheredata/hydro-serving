@@ -1,6 +1,6 @@
 # Write definitions
 
-[Resource definitions](../../about/concepts.md#resource-definitions) describe Hydrosphere entities. 
+[Resource definitions](../../about/concepts.md#resource-definitions) describe Hydrosphere entities.
 
 An entity could be your model, application, or deployment configuration. Each definition is represented by a `.yaml` file.
 

@@ -10,7 +10,7 @@ This tutorial is relevant only for Kubernetes installation of Hydrosphere. Pleas
 
 ## Overview
 
-In this tutorial, you will learn how to configure deployed Applications. 
+In this tutorial, you will learn how to configure deployed Applications.
 
 By the end of this tutorial you will know how to:
 
@@ -24,7 +24,7 @@ By the end of this tutorial you will know how to:
 * [Hydrosphere platform installed in Kubernetes cluster](../installation/#kubernetes-installation)
 * [Python SDK](../installation/sdk.md#installation) / [CLI](../installation/cli.md#installation)
 
-##  Upload a Model
+## Upload a Model
 
 In this section, we describe the resources required to create and upload an example model used in further sections. If you have no prior experience with uploading models to the Hydrosphere platform we suggest that you visit the [Getting Started Tutorial](../getting-started.md).
 
@@ -95,7 +95,7 @@ joblib.dump(model, "model.joblib")
 {% endtab %}
 
 {% tab title="func\_main.py" %}
-`func_main.py` is a script which serves requests and produces responses. 
+`func_main.py` is a script which serves requests and produces responses.
 
 {% code title="func\_main.py" %}
 ```python
@@ -145,9 +145,9 @@ Next, we are going to create and upload an instance of [Deployment Configuration
 
 Deployment Configurations describe with which Kubernetes settings Hydrosphere should deploy [servables](../../about/concepts.md#servable). You can specify Pod [Affinity](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#affinity-v1-core) and [Tolerations](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#toleration-v1-core), the number of desired pods in deployment, [ResourceRequirements](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#resourcerequirements-v1-core), and Environment Variables for the model container, and [HorizontalPodAutoScaler](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.19/#horizontalpodautoscalerspec-v1-autoscaling) settings.
 
-Created Deployment Configurations can be attached to Servables and Model Variants inside of Application. 
+Created Deployment Configurations can be attached to Servables and Model Variants inside of Application.
 
-Deployment Configurations are immutable and cannot be changed after they've been uploaded to the Hydrosphere platform. 
+Deployment Configurations are immutable and cannot be changed after they've been uploaded to the Hydrosphere platform.
 
 You can create and upload Deployment Configuration to Hydrosphere via [YAML Resource definition](../how-to/write-definitions.md#kind-deploymentconfiguration) or via [Python SDK](../installation/sdk.md).
 
@@ -233,7 +233,7 @@ my_config = DeploymentConfiguration.find(cluster, "my-config")
 stage = ExecutionStageBuilder().with_model_variant(model_version=my_model,
                                                    weight=100,
                                                    deployment_configuration=my_config).build()
-                                                   
+
 app = ApplicationBuilder(cluster, "my-app-with-config").with_stage(stage).build()
 ```
 {% endtab %}
@@ -258,7 +258,7 @@ my-model-1-tumbling-star    CrossVersionObjectReference/my-model-1-tumbling-star
 
 ### Environment Variables
 
-To list all environment variables run `kubectl exec my-model-1-tumbling-star -it /bin/bash` and then execute the `printenv`  command which prints ann system variables.
+To list all environment variables run `kubectl exec my-model-1-tumbling-star -it /bin/bash` and then execute the `printenv` command which prints ann system variables.
 
 The output is similar to:
 

@@ -6,9 +6,9 @@ Data Projection is an important tool, which helps to describe complex things in 
 
 Essentially, this data is just numbers that in their original form of vectors and matrices do not have any meaning since it is hard to extract any meaning from thousands of vectors of numbers. In Hydrosphere we want to make monitoring easier and clearer that is why we created a data projection service that can visualize your data in a single plot.
 
-![](../../.gitbook/assets/data_projection_screenshot.png)
+![](../../.gitbook/assets/data_projection_screenshot%20%281%29.png)
 
-### Usage
+## Usage
 
 To start working with Data Projection you need to create a model that has an output field with an embedding of your data. Embeddings are real-valued vectors that represent the input features in a lower dimensionality.
 

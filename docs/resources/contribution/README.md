@@ -1,16 +1,16 @@
 # Contribution
 
-Hydrosphere platform consists of multiple microservices described in the [Platform Architecture](https://hydrosphere.gitbook.io/home/overview/services) section. 
+Hydrosphere platform consists of multiple microservices described in the [Platform Architecture](https://hydrosphere.gitbook.io/home/overview/services) section.
 
 Manager, Gateway, and Sonar services are written in Scala while other services are written in Python.
 
-You can explore Github issues with `good-first-issue` tag to check out where to start.  
+You can explore Github issues with `good-first-issue` tag to check out where to start.
 
 ## Consider sharing your experience with Hydrosphere team
 
-Our team is constantly conducting user interviews to learn about what problems our users have and how they solve them. 
+Our team is constantly conducting user interviews to learn about what problems our users have and how they solve them.
 
-These typically involve a 30-minute zoom call. Your experiences are of extreme value to us, so please consider participating. 
+These typically involve a 30-minute zoom call. Your experiences are of extreme value to us, so please consider participating.
 
 [Schedule a time slot to talk with Hydrosphere team](https://calendly.com/ygavrilin/30-min-call)
 

@@ -164,7 +164,7 @@ stage = stage_builder.with_model_variant(model_version=model_a, weight=50). \
 app = ApplicationBuilder(cluster, "movie-ab-app").with_stage(stage).build()
 ```
 
-### Invoking `movie-ab-app` 
+### Invoking `movie-ab-app`
 
 We'll simulate production data flow by repeatedly asking our model for recommendations.
 
@@ -200,8 +200,6 @@ s3 = s3fs.S3FileSystem(client_kwargs={'endpoint_url': 'http://localhost:9000'},
 # The data is stored in `feature-lake` bucket by default 
 # Lets print files in this folder
 s3.ls("feature-lake/")
-
-
 ```
 
 The only file in the `feature-lake` folder is `['feature-lake/movie_rec']`. Data stored in S3 is stored under the following path: `feature-lake/MODEL_NAME/MODEL_VERSION/YEAR/MONTH/DAY/*.parquet`
@@ -232,7 +230,7 @@ To compare differences between model versions we'll use two metrics:
 
 #### Latencies
 
-Let's calculate the 95th percentile of our latency distributions per model version and plot them. Latencies are stored in the `_hs_latency` column in our dataframes. 
+Let's calculate the 95th percentile of our latency distributions per model version and plot them. Latencies are stored in the `_hs_latency` column in our dataframes.
 
 ```python
 latency_v1 = df_1._hs_latency
@@ -268,15 +266,13 @@ plt.legend()
 plt.title("Latency Comparison between v1 and v2")
 ```
 
-![](../../.gitbook/assets/image%20%281%29.png)
-
-
+![](../../.gitbook/assets/image%20%281%29%20%281%29.png)
 
 #### Mean Top-3 Hit Rate
 
 Next, we'll calculate hit rates. To do so, we need new labeled data. For recommender systems, this data is usually available after a user has clicked\watched\liked\rated the item we've recommended to him. We'll use the test part of movielens as labeled data.
 
-To measure how well our models were recommending movies we'll use a hit rate metric. It calculates how many movies users have watched and rated with 4 or 5  out of 3 movies recommended to him.
+To measure how well our models were recommending movies we'll use a hit rate metric. It calculates how many movies users have watched and rated with 4 or 5 out of 3 movies recommended to him.
 
 ```python
 from lightfm.datasets import fetch_movielens
@@ -287,7 +283,7 @@ test_data = test_data.toarray()
 # Dict with model version as key and mean hit rate as value
 mean_hit_rate = {}
 for version, df in {"v1": df_1, "v2": df_2}.items():
-    
+
     # Dict with user id as key and hit rate as value
     hit_rates = {}
     for x in df.itertuples():
@@ -297,13 +293,11 @@ for version, df in {"v1": df_1, "v2": df_2}.items():
             hit_rates[x.user_id] += test_data[x.user_id, getattr(x, top_x)] >= 4
 
     mean_hit_rate[version] = round(sum(hit_rates.values()) / len(hit_rates), 3)
-
 ```
 
-In our case the `mean_hit_rate` variable is  `{'v1': 0.137, 'v2': 0.141}` . Which means that the second model version is better in terms of hit rate.
+In our case the `mean_hit_rate` variable is `{'v1': 0.137, 'v2': 0.141}` . Which means that the second model version is better in terms of hit rate.
 
 You have successfully completed the tutorial! 🚀
 
-Now you know how to read and analyze automatically stored data.  
-
+Now you know how to read and analyze automatically stored data.
 

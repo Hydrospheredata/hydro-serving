@@ -2,9 +2,9 @@
 
 Hydrosphere is composed of several microservices, united to efficiently serve and monitor machine learning models in production. Hydrosphere features are divided between multiple services. You can learn more about each of them in this section.
 
-![](../../.gitbook/assets/architecture.png)
+![](../../.gitbook/assets/architecture%20%281%29.png)
 
-## UI / nginx 
+## UI / nginx
 
-![](../../.gitbook/assets/ui-service-diagram.png)
+![](../../.gitbook/assets/ui-service-diagram%20%281%29.png)
 
