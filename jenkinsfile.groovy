@@ -1,12 +1,15 @@
 def repository = 'hydro-serving'
 
-def releaseBuiltDocs(desiredVersion) {
-  def servingDocsFolder = '~/serving_publish_dir_new'
-  sshagent(['hydro-site-publish']) {
-    sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/target/paradox/site/main jenkins_publish@hydrosphere.io:${servingDocsFolder}/${desiredVersion}"
-    sh "scp -o StrictHostKeyChecking=no -r ${env.WORKSPACE}/docs/src/python jenkins_publish@hydrosphere.io:serving_scripts"
-    sh "ssh -o StrictHostKeyChecking=no -t jenkins_publish@hydrosphere.io \"python3.5 ~/serving_scripts/python/release_docs.py --website-path ${servingDocsFolder} --release-version ${desiredVersion}\""
-  }
+
+def releaseGitbookDocs(desiredVersion) {
+   // Create and checkout the release branch
+   sh "git checkout -b release-${desiredVersion}"
+
+   // Replace all $released_version$ in .md files to desiredVersion
+   sh "find . -type f -not -path '*/\\.*' -name "*.md" -exec sed -i -e 's/\$released_version\$/${desiredVersion}/g' {} +"
+   sh "git merge master"
+   pushSource(repository)
+   sh "git checkout ${env.BRANCH_NAME}"
 }
 
 if (getJobType() == "RELEASE_JOB") {
@@ -20,16 +23,12 @@ if (getJobType() == "RELEASE_JOB") {
       autoCheckout(repository)
     }
 
-    stage("Publish docs") {
-        def curVersion = getVersion()
-        sh "cd docs && sbt -DappVersion=${curVersion} paradox"
-        releaseBuiltDocs(curVersion)
-    }
-
     stage("Create GitHub Release") {
       def curVersion = getVersion()
       def tagComment = generateTagComment()
 
+      // Always maintain a latest version in a GitHub readme
+      sh "sed -i '' -E 's/(.*export HYDROSPHERE_RELEASE=)(.*)/\1{curVersion}/g' README.md"
       sh "git commit --allow-empty -a -m 'Releasing ${curVersion}'"
 
       writeFile file: "/tmp/tagMessage${curVersion}", text: tagComment
@@ -58,6 +57,11 @@ if (getJobType() == "RELEASE_JOB") {
       pushSource(repository)
       sh "git checkout ${env.BRANCH_NAME}"
     }
+
+    stage("Publish gitbook docs") {
+       releaseGitbookDocs(getVersion())
+    }
+
   }
 } else {
     node("JenkinsOnDemand") {
@@ -76,16 +80,6 @@ if (getJobType() == "RELEASE_JOB") {
       sh "cd helm && rc=0; for chart in \$(ls -d ./*/); do helm lint \$chart || rc=\$?; done; return \$rc"
       // test
       sh "cd helm && helm template serving"
-    }
-
-    stage("Build documentation") {
-      sh "cd docs && sbt -DappVersion=dev paradox"
-    }
-
-    if (env.BRANCH_NAME == "master") {
-      stage("Publish documentation as dev version") {
-        releaseBuiltDocs("dev")
-      }
     }
   }
 }
