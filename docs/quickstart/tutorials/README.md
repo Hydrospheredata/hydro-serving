@@ -2,11 +2,11 @@
 
 ## Contents
 
-* [A/B Deployment and Traffic Shadowing](https://hydrosphere.gitbook.io/home/tutorials/a-b-analysis-for-a-recommendation-model)
-* [Using Deployment Configurations](https://hydrosphere.gitbook.io/home/tutorials/deployment-configuration)
-* [Train & Deploy Census Income Classification Model](https://hydrosphere.gitbook.io/home/tutorials/train-and-deploy-census-income-classification-model)
-* [Monitor Anomalies with a Custom Metric](https://hydrosphere.gitbook.io/home/tutorials/custom_metric)
-* [Monitor External Models](https://hydrosphere.gitbook.io/home/tutorials/monitoring-external-models) 
+* [A/B Deployment and Traffic Shadowing](a-b-analysis-for-a-recommendation-model.md)
+* [Using Deployment Configurations](deployment-configuration.md)
+* [Train & Deploy Census Income Classification Model](train-and-deploy-census-income-classification-model.md)
+* [Monitor Anomalies with a Custom Metric](custom_metric.md)
+* [Monitor External Models ](monitoring-external-models.md)
 
 ## Overview
 
@@ -16,5 +16,5 @@ Typically, a tutorial has several sections. When a tutorial section has several 
 
 For guides on performing more basic technical steps, please look in the How-To section:
 
-* [How-To](https://hydrosphere.gitbook.io/home/how-to)
+* [How-To](../how-to/)
 
