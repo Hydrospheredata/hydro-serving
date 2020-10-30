@@ -98,7 +98,7 @@ To install Hydrosphere on the Kubernetes cluster you should have the following p
 After the chart has been installed, you have to expose the `ui` component outside of the cluster. For the sake of simplicity, we will just port-forward it locally.
 
 ```bash
-kubectl port-forward -n hydrosphere svc/hydro-serving-ui-serving 8080:9090
+kubectl port-forward -n hydrosphere svc/serving-ui 8080:9090
 ```
 
 To check the installation, open [http://localhost:8080/](http://localhost:8080/).
