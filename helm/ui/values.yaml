@@ -8,6 +8,7 @@ sonar:
 
 global:
   ingress:
+    enabled: false
     frontendUrl: ui.hydrosphere.io #Domain name to frontend
     issuer: letsencrypt-prod #Cert-manager issuer name
     path: "/"

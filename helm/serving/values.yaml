@@ -1,5 +1,6 @@
 global:
   ingress:
+    enabled: false
     frontendUrl: ui.example.io # Domain name for the frontend ingress.
     issuer: letsencrypt-prod # A name of the cert-manager issuer name, configured within the 
                              # cluster.
