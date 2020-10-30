@@ -4,7 +4,7 @@
 
 Hydrosphere is an open-source MLOps platform for **deploying, managing, and monitoring ML models in production with Kubernetes.**
 
-![](../.gitbook/assets/ml_workflow_with_hydrosphere%20%281%29.png)
+![](../.gitbook/assets/ml_workflow_with_hydrosphere%20%281%29%20%281%29.png)
 
 Hydrosphere supports all major machine learning frameworks, including Tensorflow, Keras, PyTorch, XGBoost, scikit-learn, fastai, etc. The platform is designed to effectively measure performance and health metrics of your production models, making it possible to spot early signs of performance drops and data drifts, get insights into why they happen.
 
@@ -35,19 +35,19 @@ Hydrosphere is **not an ML model training framework**. Before using Hydrosphere,
 
 We suggest you use one of the orchestrators, such as Kubeflow or Airflow, to deliver your model to the Hydrosphere.
 
-![](../.gitbook/assets/hydrosphere_and_kubeflow%20%281%29.png)
+![](../.gitbook/assets/hydrosphere_and_kubeflow%20%281%29%20%281%29.png)
 
 ## Hydrosphere Components
 
 Hydrosphere platform includes all steps of a production ML model cycle - Versioning, Deployment, Monitoring, and Maintenance. This combination allows us to use a single tool to build an observable, reproducible, and scalable workflow, and start getting early warnings once anything goes wrong. These steps of an ML lifecycle are divided between three components that make up the Hydrosphere platform - Serving, Monitoring, and Interpretability.
 
-![Hydrosphere Platform Components](../.gitbook/assets/hydrosphere_components%20%281%29.png)
+![Hydrosphere Platform Components](../.gitbook/assets/hydrosphere_components%20%281%29%20%281%29.png)
 
 ### Serving
 
 Hydro Serving is responsible for framework-agnostic model deployment and management. It allows Data Scientists to upload, version, combine into linear pipelines and deploy ML models trained in any ML framework to a Docker/Kubernetes cluster and expose HTTP/gRPC/Kafka API to other parties.
 
-![](../.gitbook/assets/serving_screenshot%20%281%29.png)
+![](../.gitbook/assets/serving_screenshot%20%281%29%20%281%29.png)
 
 ### Monitoring
 
