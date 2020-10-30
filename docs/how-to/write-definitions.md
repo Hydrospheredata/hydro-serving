@@ -38,7 +38,7 @@ The example below shows how a model can be defined on the top level.
 kind: "Model"
 name: "sample_model"
 training-data: "s3://bucket/train.csv" | "/temp/file.csv"
-runtime: "hydrosphere/serving-runtime-python-3.6:$released_version$"
+runtime: "hydrosphere/serving-runtime-python-3.6:$2.4.2$"
 install-command: "sudo apt install jq && pip install -r requirements.txt" 
 payload: 
   - "./requirements.txt"
@@ -140,7 +140,7 @@ The example below shows a complete definition of a sample model.
 kind: "Model"
 name: "sample_model"
 training-data: "s3://bucket/train.csv" | "/temp/file.csv"
-runtime: "hydrosphere/serving-runtime-python-3.6:$released_version$"
+runtime: "hydrosphere/serving-runtime-python-3.6:$2.4.2$"
 install-command: "sudo apt install jq && pip install -r requirements.txt" 
 payload: 
   - "./*"
