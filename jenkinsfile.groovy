@@ -1,12 +1,21 @@
 def repository = 'hydro-serving'
 
+//Получаем версию x.x.x из файла /version
+def getVersion(){
+  try{
+      version = sh script: "cat version", returnStdout: true ,label: "get version"
+      return version.trim()
+  }catch(e){
+      return "file version not found" 
+  }
+}
 
-def releaseGitbookDocs(desiredVersion) {
+def releaseGitbookDocs(desiredVersion, repository) {
    // Create and checkout the release branch
    sh "git checkout -b release-${desiredVersion}"
 
    // Replace all $released_version$ in .md files to desiredVersion
-   sh "find docs -type f -not -path '*/\\.*' -name "*.md" -exec sed -i -e 's/\$released\\_version\$/${desiredVersion}/g' {} +"
+   sh "find docs -type f -not -path '*/\\.*' -name '*.md' -exec sed -i \"s/?released\\_version\$/${desiredVersion}/g\" {} +"
    sh "git commit --allow-empty -a -m 'Releasing documentation for ${desiredVersion}'"
 
    pushSource(repository)
@@ -29,7 +38,8 @@ if (getJobType() == "RELEASE_JOB") {
       def tagComment = generateTagComment()
 
       // Always maintain a latest version in a GitHub readme
-      sh "sed -i '' -E 's/(.*export HYDROSPHERE_RELEASE=)(.*)/\1{curVersion}/g' README.md"
+      sh "echo ${curVersion}"
+      sh "sed -i \"s/(.*export HYDROSPHERE_RELEASE=)(.*)/${curVersion}/g\" README.md"
       sh "git commit --allow-empty -a -m 'Releasing ${curVersion}'"
 
       writeFile file: "/tmp/tagMessage${curVersion}", text: tagComment
@@ -60,7 +70,7 @@ if (getJobType() == "RELEASE_JOB") {
     }
 
     stage("Publish gitbook docs") {
-       releaseGitbookDocs(getVersion())
+       releaseGitbookDocs(getVersion(),repository)
     }
 
   }
