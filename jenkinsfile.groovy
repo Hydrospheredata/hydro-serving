@@ -15,7 +15,7 @@ def releaseGitbookDocs(desiredVersion, repository) {
    sh "git checkout -b release-${desiredVersion}"
 
    // Replace all $released_version$ in .md files to desiredVersion
-   sh "find docs -type f -not -path '*/\\.*' -name '*.md' -exec sed -i \"s/released\\_version/${desiredVersion}/g\" {} +"
+   sh "find docs -type f -not -path '*/\\.*' -name '*.md' -exec sed -i \"s/released[\\]_version/${desiredVersion}/g\" {} +"
    sh "git commit --allow-empty -a -m 'Releasing documentation for ${desiredVersion}'"
 
    pushSource(repository)
@@ -39,7 +39,7 @@ if (getJobType() == "RELEASE_JOB") {
 
       // Always maintain a latest version in a GitHub readme
       sh "echo ${curVersion}"
-      sh "sed -i \"s/(.*export HYDROSPHERE_RELEASE=)(.*)/${curVersion}/g\" README.md"
+      sh "sed -i -E \"s/export HYDROSPHERE_RELEASE=.*/export HYDROSPHERE_RELEASE=${curVersion}/g\" README.md"
       sh "git commit --allow-empty -a -m 'Releasing ${curVersion}'"
 
       writeFile file: "/tmp/tagMessage${curVersion}", text: tagComment
