@@ -28,7 +28,12 @@ spec:
           image: docker:18.06.0-ce-dind
           securityContext:
             privileged: true
-          {{- if .Values.global.registry.insecure }}
+          {{- if .Values.global.registry.internal }}
+            {{- if and (ne .Values.global.ingress.enabled true) .Values.global.registry.insecure }}
+          args: [{{ printf "--insecure-registry=%s" (printf "%s-docker-registry.%s.svc.cluster.local:5000" .Release.Name .Release.Namespace) }}]
+             {{- end }}
+          {{- end }} 
+          {{- if and (ne .Values.global.registry.internal true) .Values.global.registry.insecure }}
           args: [{{ printf "--insecure-registry=%s" .Values.global.registry.url }}]
           {{- end }}
         - name: kubectl-proxy
@@ -75,14 +80,28 @@ spec:
               valueFrom:
                 fieldRef:
                   fieldPath: metadata.namespace
+            {{- if .Values.global.registry.internal }}
+              {{- if .Values.global.ingress.enabled }}
             - name: REMOTE_DOCKER_REGISTRY_HOST
-              value: "{{ .Values.global.registry.url }}" 
+              value: "{{ .Values.global.registry.url }}"
+            - name: REMOTE_DOCKER_PULL_HOST
+              value: "{{ .Values.global.registry.url }}"
+              {{- else }}  
+            - name: REMOTE_DOCKER_REGISTRY_HOST
+              value: "{{ template "docker-registry.fullname" . }}.{{.Release.Namespace}}.svc.cluster.local:5000"
+            - name: REMOTE_DOCKER_PULL_HOST
+              value: "localhost:5000"
+              {{- end }} 
+            {{- else }}
+            - name: REMOTE_DOCKER_REGISTRY_HOST
+              value: "{{ .Values.global.registry.url }}"
+            - name: REMOTE_DOCKER_PULL_HOST
+              value: "{{ .Values.global.registry.url }}"
+            {{- end }}
             - name: REMOTE_DOCKER_REGISTRY_PASSWORD
               value: "{{ .Values.global.registry.password }}"              
             - name: REMOTE_DOCKER_REGISTRY_USERNAME
               value: "{{ .Values.global.registry.username }}"
-            - name: REMOTE_DOCKER_PULL_HOST
-              value: "{{ .Values.global.registry.url }}"
             {{- with .Values.env }}
 {{ toYaml . | indent 12 }}
             {{- end }}

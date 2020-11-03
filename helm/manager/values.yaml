@@ -8,9 +8,12 @@ serviceAccount:
   create: true
   
 global:
+  ingress:
+    enabled: false
+
   registry:
-    internal: false #Use internal registry or external (for internal - ingress required)
-    insecure: false #Use insecure docker registry
+    internal: true #Use internal registry or external (for internal - ingress required)
+    insecure: true #Use insecure docker registry
     url: index.docker.io #Domain name to internal\external registry
     username: example #Internal\external registry username
     password: example #Internal\external registry password

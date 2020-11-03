@@ -41,3 +41,7 @@ Create chart name and version as used by the chart label.
 {{- define "docker-registry.chart" -}}
 {{- printf "%s-%s" .Chart.Name .Chart.Version | replace "+" "_" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
+
+{{- define "docker-registry-proxy.fullname" -}}
+{{- printf "%s-%s" .Release.Name "docker-registry-proxy" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
