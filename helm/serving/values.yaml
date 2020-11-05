@@ -1,27 +1,43 @@
 global:
   ingress:
     enabled: false
-    frontendUrl: ui.example.io # Domain name for the frontend ingress.
-    path: "/"
+    host: ui.example.io # Domain name for the frontend ingress.
+    path: "/" # Path, which will match the service.
+    enableGrpc: true # Enable grpc endpoints for services. Works only with `path: "/"`. 
     issuer: letsencrypt-prod # A name of the cert-manager issuer name, configured within the 
                              # cluster.
 
   registry:
     internal: true # Internal/external mode for the registry. In case of internal registry 
                     # mode, a new registry instance will be deployed within the cluster.
-    insecure: true #Use insecure docker registry
+    insecure: true # Use insecure docker registry
     url: "index.docker.io/username" # Domain name for internal\external registry. In case 
                                     # of internal registry, a new ingress resource will be 
                                     # created.
     username: "example" # Internal\external registry username
     password: "example" # Internal\external registry password
-        
+  
+  hydrosphere:  
+    docker:
+      host: "harbor.hydrosphere.io/hydro-serving"
+      username: "developers"
+      password: "" # Registry password for accessing closed images
+      
   persistence:
-    mode: local # Persistence mode for services (one of s3, minio)
+    mode: minio # Persistence mode for services (one of s3, minio)
     accessKey: ACCESSKEYEXAMPLE # accesskeyid for s3 or minio
     secretKey: SECRETKEYEXAMPLE # secretkeyid for s3 or minio
     region: eu-central-1 # Region of the bucket in case of S3 persistence mode.  
     bucket: example # S3 bucket name in case of S3 persistence mode.
+
+  mongodb:
+    url: "" # Mongodb host in case of using external mongodb instance. If not specified, 
+            # a new instance will be deployed within the cluster.
+    rootPassword: hydr0s3rving # Mongodb root password
+    username: root # Mongodb username
+    password: hydr0s3rving # Mongodb password
+    authDatabase: admin # Mongodb auth database
+    database: hydro-serving-data-profiler # Mongodb database name
 
   postgresql:
     url: "" # Postgresql host in case of using external postgresql instance. If not specified, 
@@ -29,6 +45,38 @@ global:
     username: postgres # Postgresql username
     password: hydr0s3rving # Postgresql password
     database: hydro-serving # Postgresql database name 
-  
+
+  alertmanager:
+    url: "" #Alertmanager address if external use (address:port). If not specified, 
+            # a new instance will be deployed within the cluster.
+
+  tolerations: []
+    # - key: key
+    #   operator: Equal
+    #   value: value
+    #   effect: NoSchedule  
+
+prometheus-am:
+  config:
+    global: 
+      smtp_smarthost: localhost:25 # SMTP relay host
+      smtp_auth_username: mailbot # SMTP relay username 
+      smtp_auth_identity: mailbot # SMTP relay username identity
+      smtp_auth_password: mailbot # SMTP relay password
+      smtp_from: no-reply@hydrosphere.io # Email address of the sender
+    route:
+      group_by: [alertname, modelVersionId]
+      group_wait: 10s
+      group_interval: 10s
+      repeat_interval: 1h
+      receiver: default
+    receivers:
+    - name: default
+      email_configs: # List of email addresses to send alarms to
+      - to: customer@example.io 
+
 ui:
+  # `public: true` will deploy an open source version
+  # `public: false` will deploy a closed source version
   public: true
+
