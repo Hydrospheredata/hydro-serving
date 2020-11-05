@@ -15,6 +15,7 @@ spec:
     matchLabels:
       app: {{ template "docker-registry.fullname" . }}
       release: {{ .Release.Name }}
+      logging: "true"
   template:
     metadata:
       labels:
@@ -22,7 +23,6 @@ spec:
         release: {{ .Release.Name }}
         logging: "true"
     spec:
-      {{- if not .Values.global.registry.insecure }}
       initContainers:
         - name: "htpasswd-{{ .Chart.Name }}"
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
@@ -41,7 +41,6 @@ spec:
               subPath: entrypoint.sh
             - name: "auth-{{ .Chart.Name }}"
               mountPath: /auth
-      {{- end }}
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
@@ -51,7 +50,6 @@ spec:
               containerPort: 5000
               protocol: TCP
           env:
-            {{- if not .Values.global.registry.insecure }}
             - name: REGISTRY_AUTH
               value: "htpasswd"
             - name: REGISTRY_AUTH_HTPASSWD_REALM
@@ -60,7 +58,6 @@ spec:
               value: "/auth/htpasswd"
             - name: REGISTRY_HTTP_SECRET
               value: "{{ .Values.global.registry.password }}" 
-            {{- end }}
             {{- if and .Values.global.persistence.mode (eq .Values.global.persistence.mode "s3") }}
             - name: REGISTRY_HEALTH_STORAGEDRIVER_ENABLED
               value: "false"            
@@ -77,12 +74,10 @@ spec:
             - name: REGISTRY_STORAGE_S3_ROOTDIRECTORY
               value: /{{ .Release.Name }}/
             {{- end }}
-          {{- if not .Values.global.registry.insecure }}
           volumeMounts:
             - name: "auth-{{ .Chart.Name }}"
               mountPath: /auth
               readOnly: true
-          {{- end }}
           livenessProbe:
             httpGet:
               path: /
@@ -110,8 +105,6 @@ spec:
           configMap:
             defaultMode: 0700
             name: {{ include "docker-registry.fullname" . }}
-        {{- if not .Values.global.registry.insecure }}
         - name: "auth-{{ .Chart.Name }}"
           emptyDir: {}
-        {{- end }}
 {{- end -}}

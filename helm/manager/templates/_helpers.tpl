@@ -35,7 +35,15 @@ Create chart name and version as used by the chart label.
 Create dockerconfig.json contents
 */}}
 {{- define "manager.dockerconfig" -}}
+{{- if .Values.global.registry.internal -}}
+{{- if .Values.global.ingress.enabled -}}
 {{- printf "{\"auths\": {\"%s\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}}}" .Values.global.registry.url .Values.global.registry.username .Values.global.registry.password (printf "%s:%s" .Values.global.registry.username .Values.global.registry.password | b64enc) | b64enc }}
+{{- else -}}
+{{- printf "{\"auths\": {\"%s\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}, \"localhost:5000\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}}}" (printf "%s-docker-registry.%s.svc.cluster.local:5000" .Release.Name .Release.Namespace) .Values.global.registry.username .Values.global.registry.password (printf "%s:%s" .Values.global.registry.username .Values.global.registry.password | b64enc) .Values.global.registry.username .Values.global.registry.password (printf "%s:%s" .Values.global.registry.username .Values.global.registry.password | b64enc) | b64enc }}
+{{- end -}}
+{{- else -}}
+{{- printf "{\"auths\": {\"%s\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}}}" .Values.global.registry.url .Values.global.registry.username .Values.global.registry.password (printf "%s:%s" .Values.global.registry.username .Values.global.registry.password | b64enc) | b64enc }}
+{{- end -}}
 {{- end -}}
 
 {{- define "postgresql.fullname" -}}
@@ -48,4 +56,8 @@ Create dockerconfig.json contents
 
 {{- define "docker-registry.fullname" -}}
 {{- printf "%s-%s" .Release.Name "docker-registry" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
+
+{{- define "docker-registry-proxy.fullname" -}}
+{{- printf "%s-%s" .Release.Name "docker-registry-proxy" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
