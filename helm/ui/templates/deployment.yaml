@@ -88,7 +88,7 @@ spec:
             - name: AUTO_OD_GRPC_PORT
               value: "5001"
             - name: INGRESS_PATH
-              value: {{if .Values.global.ingress.enabled }}'//{{ .Values.global.ingress.frontendUrl }}{{ trimSuffix "/" .Values.global.ingress.path }}/'{{else}}'/'{{end}}
+              value: {{if .Values.global.ingress.enabled }}'//{{ .Values.global.ingress.host }}{{ .Values.global.ingress.path }}'{{else}}'{{ .Values.global.ingress.path }}'{{end}}
             {{- with .Values.env }}
 {{ toYaml . | indent 12 }}
             {{- end }}
