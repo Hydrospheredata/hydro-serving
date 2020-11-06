@@ -22,6 +22,7 @@ Platform for deploying your Machine Learning to production
 
 [![GitHub license](https://img.shields.io/badge/license-apache-blue.svg)](https://github.com/Hydrospheredata/hydro-serving/blob/update-readme/LICENSE)
 [![Join the chat at https://gitter.im/Hydrospheredata/hydro-serving](https://badges.gitter.im/Hydrospheredata/hydro-serving.svg)](https://gitter.im/Hydrospheredata/hydro-serving?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![](https://img.shields.io/badge/chat-on%20slack-%23E01E5A)](https://hydrospheredata.slack.com/)
 [![](https://img.shields.io/badge/documentation-latest-af1a97.svg)](https://docs.hydrosphere.io) 
 
 Hydrosphere Serving is a cluster for deploying and versioning  your machine learning models in production.
