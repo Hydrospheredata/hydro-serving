@@ -96,7 +96,7 @@ To check installation, open http://localhost:8080/.
 **Note**, other installation options are described in the [documentation](https://hydrosphere.io/serving-docs/latest/index.html). 
 
 ## Community
-Keep up to date and get Hydrosphere.io support via [![Join the chat at https://gitter.im/Hydrospheredata/hydro-serving](https://badges.gitter.im/Hydrospheredata/hydro-serving.svg)](https://gitter.im/Hydrospheredata/hydro-serving?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) or contact us directly at [info@hydrosphere.io](mailto:info@hydrosphere.io)
+Keep up to date and get Hydrosphere.io support via [![Join the chat at https://gitter.im/Hydrospheredata/hydro-serving](https://badges.gitter.im/Hydrospheredata/hydro-serving.svg)](https://gitter.im/Hydrospheredata/hydro-serving?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge), [![](https://img.shields.io/badge/chat-on%20slack-%23E01E5A)](https://hydrospheredata.slack.com/) or contact us directly at [info@hydrosphere.io](mailto:info@hydrosphere.io)
 
 ### Contributing
 
