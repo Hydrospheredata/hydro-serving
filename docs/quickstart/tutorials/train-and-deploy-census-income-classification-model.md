@@ -14,7 +14,7 @@ By the end of this tutorial you will know how to:
 
 ## Prerequisites
 
-For this tutorial, you need to have **Hydrosphere Platform** deployed and **Hydrosphere CLI** \(`hs`\) along with **Python SDK** \(`hydrosdk`\) _\*\*_installed on your local machine. If you don't have them yet, please follow these guides first:
+For this tutorial, you need to have **Hydrosphere Platform** deployed and **Hydrosphere CLI** \(`hs`\) along with **Python SDK** \(`hydrosdk`\) \_\*\*\_installed on your local machine. If you don't have them yet, please follow these guides first:
 
 * [Platform Installation](../installation/)
 * [CLI](../installation/cli.md#installation)
@@ -239,7 +239,7 @@ If you want to interact with your model via Hydrosphere UI, you can go to `http:
 
 You might notice that after some time there appears an additional model with the `metric` postscript at the end of the name. This is your automatically formed monitoring model for outlier detection. Learn more about the Automatic Outlier Detection feature [here](https://hydrosphere.gitbook.io/home/overview/features/automatic-outlier-detection).
 
-![](../../.gitbook/assets/screenshot-2020-09-14-at-17.52.30%20%281%29.png)
+![](../../.gitbook/assets/screenshot-2020-09-14-at-17.52.30%20%281%29%20%284%29.png)
 
 🎉 You have successfully finished this tutorial! 🎉
 
