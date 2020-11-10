@@ -35,7 +35,7 @@
   * [A/B Analysis for a Recommendation Model](quickstart/tutorials/a-b-analysis-for-a-recommendation-model.md)
   * [Using Deployment Configurations](quickstart/tutorials/deployment-configuration.md)
   * [Train & Deploy Census Income Classification Model](quickstart/tutorials/train-and-deploy-census-income-classification-model.md)
-  * [How to use Anomaly Detection](quickstart/tutorials/how-to-use-anomaly-detection.md)
+  * [Using Automatic Outlier Detection to find anomalies](quickstart/tutorials/how-to-use-anomaly-detection.md)
   * [Monitoring Anomalies with a Custom Metric](quickstart/tutorials/custom_metric.md)
   * [Monitoring External Models](quickstart/tutorials/monitoring-external-models.md)
 * [How-To](quickstart/how-to/README.md)
