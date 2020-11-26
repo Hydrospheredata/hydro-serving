@@ -267,7 +267,7 @@ Hydrosphere Monitoring relies heavily on training data. Users **must** provide t
 
 ### Provide training data
 
-To provide training data users need to add the `training-data=<path_to_csv>` field to the `serving.yaml` file. Run the following script to save training data used in previous steps as a `trainig_data.csv` file:
+To provide training data users need to add the `training-data=<path_to_csv>` field to the `serving.yaml` file. Run the following script to save training data used in previous steps as a `training_data.csv` file:
 
 {% code title="save\_training\_data.py" %}
 ```python
@@ -326,7 +326,7 @@ Now we are ready to upload our model. Run the following command to create a new 
 hs upload
 ```
 
-Open the [http://localhost/models](http://localhost/models) page to see that there are now two versions of the`ogistic_regression` model.
+Open the [http://localhost/models](http://localhost/models) page to see that there are now two versions of the`logistic_regression` model.
 
 For each model with uploaded training data, Hydrosphere creates an outlier detection metric, which assigns an outlier score to each request. This metric labels a request as an outlier if the outlier score is greater than the 97th percentile of training data outlier scores distribution.  
 
