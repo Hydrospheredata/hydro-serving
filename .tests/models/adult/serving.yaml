@@ -1,0 +1,146 @@
+kind: Model
+name: "adult_monitoring"
+payload:
+  - "monitoring_model/src/"
+  - "monitoring_model/requirements.txt"
+  - "monitoring_model/monitoring_model.joblib"
+runtime: "hydrosphere/serving-runtime-python-3.6:0.1.2-rc0"
+install-command: "pip install -r requirements.txt"
+contract:
+  name: "predict"
+  inputs:
+    age:
+      shape: scalar
+      type: int64
+      profile: numerical
+    workclass:
+      shape: scalar
+      type: int64
+      profile: numerical
+    education:
+      shape: scalar
+      type: int64
+      profile: numerical
+    marital_status:
+      shape: scalar
+      type: int64
+      profile: numerical
+    occupation:
+      shape: scalar
+      type: int64
+      profile: numerical
+    relationship:
+      shape: scalar
+      type: int64
+      profile: numerical
+    race:
+      shape: scalar
+      type: int64
+      profile: numerical
+    sex:
+      shape: scalar
+      type: int64
+      profile: numerical
+    capital_gain:
+      shape: scalar
+      type: int64
+      profile: numerical
+    capital_loss:
+      shape: scalar
+      type: int64
+      profile: numerical
+    hours_per_week:
+      shape: scalar
+      type: int64
+      profile: numerical
+    country:
+      shape: scalar
+      type: int64
+      profile: numerical
+    classes:
+      shape: scalar
+      type: int64
+      profile: numerical
+  outputs:
+    value:
+      shape: scalar
+      type: double
+      profile: numerical
+
+---
+kind: Application
+name: "adult_monitoring"
+singular:
+  model: adult_monitoring:1
+
+---
+kind: Model
+name: "adult_classification"
+payload:
+  - "model/src/"
+  - "model/requirements.txt"
+  - "model/classification_model.joblib"
+runtime: "hydrosphere/serving-runtime-python-3.6:0.1.2-rc0"
+install-command: "pip install -r requirements.txt"
+training-data: "data/profile.csv"
+contract:
+  name: "predict"
+  inputs:
+    age:
+      shape: scalar
+      type: int64
+      profile: numerical
+    workclass:
+      shape: scalar
+      type: int64
+      profile: numerical
+    education:
+      shape: scalar
+      type: int64
+      profile: numerical
+    marital_status:
+      shape: scalar
+      type: int64
+      profile: numerical
+    occupation:
+      shape: scalar
+      type: int64
+      profile: numerical
+    relationship:
+      shape: scalar
+      type: int64
+      profile: numerical
+    race:
+      shape: scalar
+      type: int64
+      profile: numerical
+    sex:
+      shape: scalar
+      type: int64
+      profile: numerical
+    capital_gain:
+      shape: scalar
+      type: int64
+      profile: numerical
+    capital_loss:
+      shape: scalar
+      type: int64
+      profile: numerical
+    hours_per_week:
+      shape: scalar
+      type: int64
+      profile: numerical
+    country:
+      shape: scalar
+      type: int64
+      profile: numerical
+  outputs:
+    classes:
+      shape: scalar
+      type: int64
+      profile: numerical
+---
+kind: Application
+name: "adult_classification"
+singular:
+  model: adult_classification:1

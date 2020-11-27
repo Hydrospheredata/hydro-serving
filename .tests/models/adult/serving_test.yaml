@@ -1,0 +1,5 @@
+---
+kind: Application
+name: adult_classification_test
+singular:
+  model: adult_classification_test_app:1

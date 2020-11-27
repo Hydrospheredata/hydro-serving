@@ -1,0 +1,72 @@
+---
+contract:
+  inputs:
+    age:
+      profile: numerical
+      shape: scalar
+      type: int64
+    capital_gain:
+      profile: numerical
+      shape: scalar
+      type: int64
+    capital_loss:
+      profile: numerical
+      shape: scalar
+      type: int64
+    country:
+      profile: numerical
+      shape: scalar
+      type: int64
+    education:
+      profile: numerical
+      shape: scalar
+      type: int64
+    hours_per_week:
+      profile: numerical
+      shape: scalar
+      type: int64
+    marital_status:
+      profile: numerical
+      shape: scalar
+      type: int64
+    occupation:
+      profile: numerical
+      shape: scalar
+      type: int64
+    race:
+      profile: numerical
+      shape: scalar
+      type: int64
+    relationship:
+      profile: numerical
+      shape: scalar
+      type: int64
+    sex:
+      profile: numerical
+      shape: scalar
+      type: int64
+    workclass:
+      profile: numerical
+      shape: scalar
+      type: int64
+  name: predict
+  outputs:
+    classes:
+      profile: numerical
+      shape: scalar
+      type: int64
+install-command: pip install -r requirements.txt
+kind: Model
+monitoring:
+- config:
+    monitoring-model: adult_monitoring_test:27
+    operator: <=
+    threshold: 12
+  name: outlier_score
+name: adult
+payload:
+- src/
+- requirements.txt
+- classification_model.joblib
+runtime: "hydrosphere/serving-runtime-python-3.7:2.4.0"
+training-data: models/adult/data/profile.csv

@@ -1,0 +1,25 @@
+kind: Model
+name: nyc_taxi_monitoring
+runtime: "hydrosphere/serving-runtime-python-3.7:2.4.0"
+install-command: "pip install -r requirements.txt"
+payload:
+  - "src/"
+  - "requirements.txt"
+  - "iforest.joblib"
+
+contract:
+  name: infer
+  inputs:
+    pickups_last_hour:
+      shape: scalar
+      type: int32
+      profile: numerical
+    pickups_next_hour:
+      shape: scalar
+      type: int32
+      profile: numerical
+  outputs:
+    value:
+      shape: scalar
+      type: double
+      profile: numerical

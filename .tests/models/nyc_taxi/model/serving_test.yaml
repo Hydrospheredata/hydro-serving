@@ -1,0 +1,27 @@
+---
+contract:
+  inputs:
+    pickups_last_hour:
+      profile: numerical
+      shape: scalar
+      type: int32
+  name: infer
+  outputs:
+    pickups_next_hour:
+      profile: numerical
+      shape: scalar
+      type: int32
+install-command: pip install -r requirements.txt
+kind: Model
+monitoring:
+- config:
+    monitoring-model: nyc_taxi_monitoring_test:13
+    operator: '>='
+    threshold: 0
+  name: IsolationForest
+name: nyc_taxi
+payload:
+- src/
+- requirements.txt
+- model.joblib
+runtime: "hydrosphere/serving-runtime-python-3.7:2.4.0"

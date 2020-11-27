@@ -1,0 +1,5 @@
+---
+kind: Application
+name: nyc_taxi_test
+singular:
+  model: nyc_taxi_test_app:1

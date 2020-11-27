@@ -1,0 +1,69 @@
+kind: Model
+name: "adult_monitoring"
+payload:
+  - "src/"
+  - "requirements.txt"
+  - "monitoring_model.joblib"
+runtime: "hydrosphere/serving-runtime-python-3.7:2.4.0"
+install-command: "pip install -r requirements.txt"
+contract:
+  name: "predict"
+  inputs:
+    age:
+      shape: scalar
+      type: int64
+      profile: numerical
+    workclass:
+      shape: scalar
+      type: int64
+      profile: numerical
+    education:
+      shape: scalar
+      type: int64
+      profile: numerical
+    marital_status:
+      shape: scalar
+      type: int64
+      profile: numerical
+    occupation:
+      shape: scalar
+      type: int64
+      profile: numerical
+    relationship:
+      shape: scalar
+      type: int64
+      profile: numerical
+    race:
+      shape: scalar
+      type: int64
+      profile: numerical
+    sex:
+      shape: scalar
+      type: int64
+      profile: numerical
+    capital_gain:
+      shape: scalar
+      type: int64
+      profile: numerical
+    capital_loss:
+      shape: scalar
+      type: int64
+      profile: numerical
+    hours_per_week:
+      shape: scalar
+      type: int64
+      profile: numerical
+    country:
+      shape: scalar
+      type: int64
+      profile: numerical
+    classes:
+      shape: scalar
+      type: int64
+      profile: numerical
+  outputs:
+    value:
+      shape: scalar
+      type: double
+      profile: numerical
+
