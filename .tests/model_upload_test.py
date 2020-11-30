@@ -5,7 +5,7 @@ from hydroserving.core.model.parser import Model as CLIModel
 @pytest.mark.parametrize("local_model", TEST_MODELS, indirect=True)
 def test_model_upload(cluster: Cluster, local_model: LocalModel):
     model_version = local_model.upload(cluster)
-    model_version.lock_till_released()
+    model_version.lock_till_released(TIMEOUT_SEC)
 
 
 @pytest.mark.parametrize("local_model, monitoring_local_model, main_model_conf",
@@ -17,7 +17,7 @@ def test_creating_monitoring_metric(cluster: Cluster, model_version: ModelVersio
                                           metadata={'created_by': f'e2e_test',
                                                     'monitored_model': f'{model_version.name}v{model_version.version}'},
                                           deployment_configuration=None)
-    monitoring_servable.lock_while_starting(600)
+    monitoring_servable.lock_while_starting(TIMEOUT_SEC)
 
     monitoring_config_dict: Dict = main_model_conf.monitoring[0]
     metric_config: MetricSpecConfig = MetricSpecConfig(modelversion_id=monitoring_modelversion.id,

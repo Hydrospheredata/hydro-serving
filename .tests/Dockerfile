@@ -11,7 +11,6 @@ WORKDIR /.tests
 ARG http_url=http://localhost:80
 ARG grpc_url=localhost:9090
 ARG grpc_secure=False
-ARG cluster_name=test_cluster
 
 ARG aws_storage_endpoint=http://localhost:9000
 ARG aws_access_key_id=minio
@@ -19,7 +18,6 @@ ARG aws_secret_access_key=minio123
 
 
 ENV MODELS_PATH=models
-ENV CLUSTER_NAME=$cluster_name
 ENV HTTP_PROXY_ADDRESS=$http_url
 ENV GRPC_PROXY_ADDRESS=$grpc_url
 ENV SECURE=$grpc_secure

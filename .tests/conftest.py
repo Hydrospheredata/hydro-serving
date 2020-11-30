@@ -117,7 +117,7 @@ def model_version_with_monitoring(cluster: Cluster, model_version: ModelVersion,
                                           metadata={'created_by': f'e2e_test',
                                                     'monitored_model': f'{model_version.name}v{model_version.version}'},
                                           deployment_configuration=None)
-    monitoring_servable.lock_while_starting(600)
+    monitoring_servable.lock_while_starting(TIMEOUT_SEC)
 
     monitoring_config_dict: Dict = main_model_conf.monitoring[0]
     metric_config: MetricSpecConfig = MetricSpecConfig(modelversion_id=monitoring_modelversion.id,

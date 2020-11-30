@@ -9,4 +9,4 @@ def test_application_creation(cluster: Cluster, model_version: ModelVersion, loc
     app = ApplicationBuilder(cluster, f"{model_version.name}v{model_version.id}") \
         .with_stage(stage) \
         .build()
-    app.lock_while_starting(600)
+    app.lock_while_starting(TIMEOUT_SEC)
