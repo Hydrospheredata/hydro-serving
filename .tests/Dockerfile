@@ -28,7 +28,5 @@ ENV AWS_STORAGE_ENDPOINT=$aws_storage_endpoint
 ENV AWS_ACCESS_KEY_ID=$aws_access_key_id
 ENV AWS_SECRET_ACCESS_KEY=$aws_secret_access_key
 
-RUN hs cluster add --name $CLUSTER_NAME --server $HTTP_PROXY_ADDRESS
-RUN hs cluster use $CLUSTER_NAME
 COPY . .
 CMD ["sh", "run_tests.sh"]
