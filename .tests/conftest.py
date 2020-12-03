@@ -2,6 +2,7 @@ from typing import Dict, Tuple
 
 import pytest
 import s3fs
+from config import *
 from grpc import ssl_channel_credentials
 from hydrosdk import LocalModel, DockerImage, ModelVersion, MetricSpecConfig, MetricSpec
 from hydrosdk.application import ExecutionStageBuilder, ApplicationBuilder, Application
@@ -11,10 +12,8 @@ from hydrosdk.servable import Servable
 from hydroserving.core.application.parser import parse_application
 from hydroserving.core.model.parser import Model as CLIModel
 from hydroserving.util.yamlutil import yaml_file
-
-from config import *
 from simulate_traffic_all import simulate_traffic
-from utils import read_model_conf, ThresholdCmpOp
+from utils import read_model_conf
 
 
 def init_s3():
@@ -113,11 +112,6 @@ def model_version(cluster: Cluster, local_model: LocalModel):
 def model_version_with_monitoring(cluster: Cluster, model_version: ModelVersion, main_model_conf: CLIModel,
                                   monitoring_modelversion: ModelVersion):
     mv = model_version
-    monitoring_servable = Servable.create(cluster, monitoring_modelversion.name, monitoring_modelversion.version,
-                                          metadata={'created_by': f'e2e_test',
-                                                    'monitored_model': f'{model_version.name}v{model_version.version}'},
-                                          deployment_configuration=None)
-    monitoring_servable.lock_while_starting(TIMEOUT_SEC)
 
     monitoring_config_dict: Dict = main_model_conf.monitoring[0]
     metric_config: MetricSpecConfig = MetricSpecConfig(modelversion_id=monitoring_modelversion.id,
@@ -130,7 +124,6 @@ def model_version_with_monitoring(cluster: Cluster, model_version: ModelVersion,
 
 @pytest.fixture(scope="session")
 def application(cluster: Cluster, model_version_with_monitoring: ModelVersion):
-    assert type(model_version_with_monitoring) == ModelVersion
     stage = ExecutionStageBuilder() \
         .with_model_variant(model_version_with_monitoring, 100) \
         .build()
