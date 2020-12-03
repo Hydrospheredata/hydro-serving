@@ -12,11 +12,11 @@ contract:
   inputs:
     pickups_last_hour:
       shape: scalar
-      type: int32
+      type: int64
       profile: numerical
     pickups_next_hour:
       shape: scalar
-      type: int32
+      type: int64
       profile: numerical
   outputs:
     value:

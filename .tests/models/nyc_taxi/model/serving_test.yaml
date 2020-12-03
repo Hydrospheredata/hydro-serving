@@ -4,13 +4,13 @@ contract:
     pickups_last_hour:
       profile: numerical
       shape: scalar
-      type: int32
+      type: int64
   name: infer
   outputs:
     pickups_next_hour:
       profile: numerical
       shape: scalar
-      type: int32
+      type: int64
 install-command: pip install -r requirements.txt
 kind: Model
 monitoring:

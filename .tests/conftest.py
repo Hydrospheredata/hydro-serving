@@ -86,11 +86,12 @@ def local_model(request):
     model = request.param
     model_root = os.path.join(MODELS_PATH, model, 'model')
     model_conf = read_model_conf(model_root)
+    monitoring_configuration = MonitoringConfiguration(batch_size=10)
     lm = LocalModel(name=model_conf.name, runtime=DockerImage(model_conf.runtime.name, model_conf.runtime.tag, None),
                     path=model_root, payload=model_conf.payload,
                     contract=model_conf.contract, metadata={'created_by': 'test local model'},
                     install_command=model_conf.install_command,
-                    training_data=model_conf.training_data_file)
+                    training_data=model_conf.training_data_file, monitoring_configuration=monitoring_configuration)
     return lm
 
 
