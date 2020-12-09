@@ -23,7 +23,11 @@ def test_training_data(local_model: LocalModel, model_version: ModelVersion):
             f'Training data on S3 {training_data_cluster_path} should not be present, as not local training data is found')
     if training_data_cluster_path:
         s3_link = training_data_cluster_path[0]
-        assert s3.exists(s3_link), f"No such file on s3: {s3_link}"
+        all_buckets = s3.ls('')
+        tree = []
+        for bucket in all_buckets:
+            tree.extend([f'{bucket}/{path}' for path in s3.ls(bucket)])
+        assert s3.exists(s3_link), f"No such file on s3: {s3_link}. Tree: {tree}"
         training_s3_csv = pd.read_csv(s3.open(s3_link, mode='rb'))
         assert training_s3_csv is not None, f"Couldn\'t read {s3_link}"
         training_csv = pd.read_csv(os.path.join(training_data_path))
