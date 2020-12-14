@@ -1,0 +1,11 @@
+version: "3.5"
+
+services:
+  prometheus-am:
+    image: prom/alertmanager
+    container_name: prometheus-am
+    ports:
+      - 9093:9093
+    networks:
+      - extnet
+      - hydronet

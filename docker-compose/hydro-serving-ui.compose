@@ -1,0 +1,37 @@
+version: "3.5"
+
+services:
+  managerui:
+    image: harbor.hydrosphere.io/hydro-test/hydro-serving-ui:2.4.19
+    container_name: managerui
+    depends_on:
+      - manager
+      - gateway
+      - serving-sonar
+      - rootcause
+      - visualization
+    ports:
+      - "80:8080"
+      - "9090:9090"
+    networks:
+      - extnet
+      - hydronet
+    environment:
+      - "MANAGER_HOST=manager"
+      - "MANAGER_HTTP_PORT=9090"
+      - "MANAGER_GRPC_PORT=9091"
+      - "GATEWAY_HOST=gateway"
+      - "GATEWAY_HTTP_PORT=9090"
+      - "GATEWAY_GRPC_PORT=9091"
+      - "MONITORING_HOST=serving-sonar"
+      - "MONITORING_HTTP_PORT=9090"
+      - "MONITORING_GRPC_PORT=9091"
+      - "ROOTCAUSE_HOST=rootcause"
+      - "ROOTCAUSE_HTTP_PORT=5000"
+      - "STAT_HOST=stat"
+      - "STAT_PORT=5000"
+      - "AUTO_OD_HOST=auto-od"
+      - "AUTO_OD_GRPC_PORT=5001"
+      - "PROMETHEUS_AM_HOST=prometheus-am"
+      - "VISUALIZATION_HOST=visualization"
+      - "OSS="

@@ -1,0 +1,15 @@
+version: "3.5"
+
+networks:
+  hydronet:
+    name: demo_hydronet
+    internal: true
+    ipam:
+      config:
+        - subnet: 172.16.0.0/24
+
+  extnet:
+    driver: bridge
+
+volumes:
+  sonardata:

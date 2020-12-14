@@ -1,0 +1,14 @@
+version: "3.5"
+
+services:
+  postgres:
+    image: postgres:9.6-alpine
+    container_name: postgres
+    ports:
+      - "5432:5432"
+    networks:
+      - hydronet
+    environment:
+      - "POSTGRES_DB=docker"
+      - "POSTGRES_USER=docker"
+      - "POSTGRES_PASSWORD=docker"

@@ -1,0 +1,19 @@
+version: "3.5"
+
+services:
+  manager:
+    image: hydrosphere/serving-manager
+    container_name: manager
+    ports:
+      - "19090:9090"
+      - "19091:9091"
+    depends_on:
+      - postgres
+    networks:
+      - hydronet
+      - extnet
+    environment:
+      - "DATABASE_HOST=postgres"
+      - "NETWORK_NAME=demo_hydronet"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock

@@ -1,0 +1,32 @@
+version: "3.5"
+
+services:
+  serving-sonar:
+    image: harbor.hydrosphere.io/hydro-test/sonar2:2.4.10
+    container_name: serving-sonar
+    depends_on:
+      - postgres
+    ports:
+      - "39090:9090"
+      - "39091:9091"
+    environment:
+      - "DB_TYPE=postgres"
+      - "DB_JDBC_URL=jdbc:postgresql://postgres:5432/docker"
+      - "DB_USER=docker"
+      - "DB_PASS=docker"
+      - "MONGO_HOST=mongodb"
+      - "HTTP_PORT=9090"
+      - "GRPC_PORT=9091"
+      - "SIDECAR_HOST=managerui"
+      - "SIDECAR_HTTP_PORT=8080"
+      - "SIDECAR_GRPC_PORT=9090"
+      - "ALERTING_MANAGER_URL=prometheus-am:9093"
+      - "ALERTING_FRONTEND_URL=http://localhost/"
+      - "STORAGE_ACCESS_KEY=minio"
+      - "STORAGE_SECRET_KEY=minio123"
+      - "STORAGE_ENDPOINT=http://minio:9000"
+      - "STORAGE_PATH_STYLE_ACCESS=true"
+      - "STORAGE_S3_IMPL=org.apache.hadoop.fs.s3a.S3AFileSystem"
+    networks:
+      - extnet
+      - hydronet

@@ -1,0 +1,16 @@
+version: "3.5"
+
+services:
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    command: ["sh", "-c", "mongod --replSet rs0 --bind_ip_all"]
+    healthcheck:
+      test: test $$(echo "rs.initiate().ok || rs.status().ok" | mongo --quiet) -eq 1
+      interval: 10s
+      start_period: 10s
+    ports:
+      - 27017:27017
+    networks:
+      - extnet
+      - hydronet

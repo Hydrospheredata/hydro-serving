@@ -1,0 +1,20 @@
+version: "3.5"
+
+services:
+  auto-od:
+    container_name: auto-od
+    image: harbor.hydrosphere.io/hydro-test/hydro-auto-od:0.1.7.1
+    environment:
+      - MONGO_URL=mongodb
+      - AWS_ACCESS_KEY_ID=minio
+      - AWS_SECRET_ACCESS_KEY=minio123
+      - S3_ENDPOINT=http://minio:9000
+      - GRPC_PORT=5001
+      - HS_CLUSTER_ADDRESS=http://managerui:8080
+      - DEBUG=True
+    depends_on:
+      - mongodb
+      - minio
+    networks:
+      - hydronet
+      - extnet

@@ -1,0 +1,19 @@
+version: "3.5"
+
+services:
+  gateway:
+    image: hydrosphere/serving-gateway
+    container_name: gateway
+    ports:
+      - "29090:9090"
+      - "29091:9091"
+    depends_on:
+      - manager
+    networks:
+      - hydronet
+    environment:
+      - "API_GATEWAY_HOST=managerui"
+      - "API_GATEWAY_GRPC_PORT=9090"
+      - "API_GATEWAY_HTTP_PORT=8080"
+      - "HTTP_PORT=9090"
+      - "GRPC_PORT=9091"
