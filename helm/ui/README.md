@@ -1,3 +1,4 @@
+
 Ui
 ===========
 
@@ -11,17 +12,21 @@ The following table lists the configurable parameters of the Ui chart and their 
 | Parameter                | Description             | Default        |
 | ------------------------ | ----------------------- | -------------- |
 | `replicaCount` |  | `1` |
+| `public` |  | `true` |
 | `sonar.enabled` |  | `false` |
-| `image.full` |  | `"hydrosphere/serving-manager-ui:e99a3feb0607d033bf6482c183ff73bd492d2bdc"` |
+| `global.ingress.enabled` |  | `false` |
+| `global.ingress.host` | Domain name to frontend | `"ui.hydrosphere.io"` |
+| `global.ingress.issuer` | Cert-manager issuer name | `"letsencrypt-prod"` |
+| `global.ingress.path` |  | `"/"` |
+| `global.ingress.enableGrpc` |  | `true` |
+| `global.tolerations` |  | `[]` |
+| `image.full` |  | `"harbor.hydrosphere.io/hydro-serving/hydro-serving-ui:8216801a1ad43f5e7fa1807d1b7eb1f9e0265652"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `service.type` |  | `"ClusterIP"` |
 | `service.httpPort` |  | `9090` |
 | `service.grpcPort` |  | `9091` |
 | `ingress.enabled` |  | `false` |
-| `ingress.annotations` |  | `{}` |
-| `ingress.path` |  | `"/"` |
-| `ingress.hosts` |  | `["hydro-serving.local"]` |
-| `ingress.tls` |  | `[]` |
+| `configuration` |  | `""` |
 | `resources` |  | `{}` |
 | `nodeSelector` |  | `{}` |
 | `tolerations` |  | `[]` |
@@ -29,4 +34,5 @@ The following table lists the configurable parameters of the Ui chart and their 
 
 
 
----
+
+
