@@ -1,3 +1,4 @@
+
 Manager
 ===========
 
@@ -12,15 +13,19 @@ The following table lists the configurable parameters of the Manager chart and t
 | ------------------------ | ----------------------- | -------------- |
 | `replicaCount` |  | `1` |
 | `serviceAccount.create` |  | `true` |
-| `global.dockerRegistry.host` |  | `""` |
-| `global.dockerRegistry.username` |  | `""` |
-| `global.dockerRegistry.password` |  | `""` |
-| `global.elasticsearch.host` |  | `""` |
-| `postgres.postgresqlUsername` |  | `"postgres"` |
-| `postgres.postgresqlPassword` |  | `"hydr0s3rving"` |
-| `postgres.postgresqlDatabase` |  | `"hydro-serving"` |
+| `global.ingress.enabled` |  | `false` |
+| `global.registry.internal` | Use internal registry or external (for internal - ingress required) | `true` |
+| `global.registry.insecure` | Use insecure docker registry | `true` |
+| `global.registry.url` | Domain name to internal\external registry | `"index.docker.io"` |
+| `global.registry.username` | Internal\external registry username | `"example"` |
+| `global.registry.password` | Internal\external registry password | `"example"` |
+| `global.postgresql.url` | Postgresql address if external postgresql use | `""` |
+| `global.postgresql.username` | Postgresql username | `"postgres"` |
+| `global.postgresql.password` | Postgresql password | `"hydr0s3rving"` |
+| `global.postgresql.database` | Postgresql database name | `"hydro-serving"` |
+| `global.tolerations` |  | `[]` |
 | `env` |  | `{}` |
-| `image.full` |  | `"hydrosphere/serving-manager:18a7bb77bdf9c39d97ff30882dec8275ab71c6e6"` |
+| `image.full` |  | `"harbor.hydrosphere.io/hydro-test/serving-manager:83b6b199363d21d84a316acecd0b14aa9e3de3da"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `service.type` |  | `"ClusterIP"` |
 | `service.http_port` |  | `9090` |
@@ -32,4 +37,5 @@ The following table lists the configurable parameters of the Manager chart and t
 
 
 
----
+
+

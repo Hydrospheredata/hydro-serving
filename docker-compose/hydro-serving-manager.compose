@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   manager:
-    image: harbor.hydrosphere.io/hydro-test/serving-manager:2.4.38
+    image: harbor.hydrosphere.io/hydro-test/serving-manager:83b6b199363d21d84a316acecd0b14aa9e3de3da
     container_name: manager
     ports:
       - "19090:9090"

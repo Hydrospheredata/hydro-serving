@@ -29,7 +29,7 @@ global:
 env: {}
 
 image:
-  full:  hydrosphere/serving-manager:2.4.0
+  full: harbor.hydrosphere.io/hydro-test/serving-manager:83b6b199363d21d84a316acecd0b14aa9e3de3da
   pullPolicy:  IfNotPresent
 
 service:
