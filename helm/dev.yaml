@@ -1,0 +1,9 @@
+ui:
+  image:
+    full: harbor.hydrosphere.io/hydro-serving/hydro-serving-ui:latest
+manager:
+  image:
+    full: harbor.hydrosphere.io/hydro-serving/hydro-serving-manager:latest
+gateway:
+  image:
+    full: harbor.hydrosphere.io/hydro-serving/hydro-serving-gateway:latest
