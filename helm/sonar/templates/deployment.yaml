@@ -1,0 +1,136 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "sonar.fullname" . }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: {{ include "sonar.name" . }}
+    chart: {{ include "sonar.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ include "sonar.name" . }}
+      release: {{ .Release.Name }}
+  template:
+    metadata:
+      labels:
+        logType: "scala"
+        app: {{ include "sonar.name" . }}
+        release: {{ .Release.Name }}
+        logging: "true"
+    spec:
+      containers:
+        - name: {{ .Chart.Name }}
+          image: {{ .Values.image.full }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - name: http
+              containerPort: 9090
+              protocol: TCP
+            - name: grpc
+              containerPort: 9091
+              protocol: TCP
+          env:
+            - name: JAVE_OPTS
+              value: {{ .Values.javaOpts | quote }}
+            - name: HTTP_PORT
+              value: "9090"
+            - name: GRPC_PORT
+              value: "9091"
+            - name: SIDECAR_HOST
+              value: "{{ template "ui.fullname" . }}"
+            - name: SIDECAR_GRPC_PORT
+              value: "9091"
+            - name: MONGO_HOST
+              value: {{ if .Values.global.mongodb.url }}"{{ .Values.global.mongodb.url }}"{{ else }} "{{ template "mongodb.fullname" . }}"{{ end }}  
+            - name: MONGO_PORT
+              value: "27017"
+            - name: MONGO_DATABASE
+              value: "{{ .Values.global.mongodb.database }}"
+            {{- if .Values.global.mongodb.username }}
+            - name: MONGO_USER
+              value: "{{ .Values.global.mongodb.username }}"
+            {{- end }}
+            {{- if .Values.global.mongodb.password }}
+            - name: MONGO_PASS
+              valueFrom:
+                secretKeyRef:
+                  name: "{{ .Release.Name }}-mongodb-secret"
+                  key: "password"
+            {{- end }}
+            {{- if .Values.global.mongodb.authDatabase }}
+            - name: MONGO_AUTH_DB
+              value: "{{ .Values.global.mongodb.authDatabase }}"
+            {{- end }}
+            - name: STORAGE_ACCESS_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: "{{ .Release.Name }}-aws-secret"
+                  key: "awsAccessKeyID"
+            - name: STORAGE_SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: "{{ .Release.Name }}-aws-secret"
+                  key: "awsSecretAccessKey"
+            - name: FEATURE_LAKE_BUCKET
+              value: {{ .Values.persistence.bucket | default "hydrosphere-feature-lake" }}
+            - name: STORAGE_REGION
+              value: {{ include "sonar.region" . }}
+            {{- if .Values.global.persistence.url }}
+            - name: STORAGE_ENDPOINT
+              value: {{ .Values.global.persistence.url }}
+            {{- else }}
+            - name: STORAGE_ENDPOINT
+              value: http://{{ template "minio.fullname" . }}:9000
+            {{- end }}
+            - name: STORAGE_PATH_STYLE_ACCESS
+              value: "true"
+            - name: STORAGE_S3_IMPL
+              value: "org.apache.hadoop.fs.s3a.S3AFileSystem"
+            - name: DB_TYPE
+              value: {{ .Values.dbType }}
+            - name: DB_JDBC_URL
+              value: {{ if .Values.global.postgresql.url }}"jdbc:postgresql://{{ .Values.global.postgresql.url }}/{{ .Values.global.postgresql.database }}" {{ else }} "jdbc:postgresql://{{ template "postgres.fullname" . }}/{{ .Values.global.postgresql.database }}" {{ end }}
+            - name: DB_USER
+              value: "{{ .Values.global.postgresql.username }}"
+            - name: DB_PASS
+              valueFrom:
+                secretKeyRef:
+                  name: "{{ .Release.Name }}-postgresql-secret"
+                  key: "password"           
+            - name: ALERTING_MANAGER_URL
+              value: {{ if .Values.global.alertmanager.url }} "{{ .Values.global.alertmanager.url }}" {{ else }} "{{ template "alertmanager.fullname" . }}:9093" {{ end }}
+            - name: ALERTING_FRONTEND_URL
+            {{- if .Values.global.ui.ingress.enabled }}
+              value: "https://{{ .Values.global.ui.ingress.host }}{{ trimSuffix "/" .Values.global.ui.ingress.path }}/"
+            {{- else }}
+              value: {{ .Values.alertmanager.hydrosphereUrl }}
+            {{- end }}
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: http
+          livenessProbe:
+            initialDelaySeconds: 10
+            httpGet:
+              path: /health
+              port: http                         
+          resources:
+{{ toYaml .Values.resources | indent 12 }}
+    {{- with .Values.nodeSelector }}
+      nodeSelector:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+    {{- with .Values.affinity }}
+      affinity:
+{{ toYaml . | indent 8 }}
+    {{- end }}
+{{- if .Values.global.tolerations }}  
+      tolerations:
+{{ toYaml .Values.global.tolerations | indent 8 }}
+{{- end }}
+      imagePullSecrets:
+        - name: "{{ .Release.Name }}-docker-secret"

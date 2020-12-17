@@ -4,9 +4,11 @@
 ##
 global:
   postgresql:
-    username: postgres  #Postgresql username
-    password: hydr0s3rving #Postgresql password
-    database: hydro-serving #Postgresql database name  
+    url: "" # Specify Postgresql connection string if you want to use an external Postgresql instance. 
+            # If empty, an in-cluster deployment will be provisioned.
+    username: postgres # Postgresql username. Used for an internal installation.
+    password: hydr0s3rving # Postgresql password. Used for an internal installation.
+    database: hydro-serving # Postgresql database name. Used for an internal installation.
 
   tolerations: []
   

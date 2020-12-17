@@ -35,16 +35,14 @@ Create chart name and version as used by the chart label.
 Create dockerconfig.json contents
 */}}
 {{- define "manager.dockerconfig" -}}
-{{- if .Values.global.registry.internal -}}
-{{- if .Values.global.ingress.enabled -}}
-{{- printf "{\"auths\": {\"%s\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}}}" .Values.global.registry.url .Values.global.registry.username .Values.global.registry.password (printf "%s:%s" .Values.global.registry.username .Values.global.registry.password | b64enc) | b64enc }}
-{{- else -}}
+{{- if .Values.global.registry.ingress.enabled }}
+{{- printf "{\"auths\": {\"%s\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}}}" (include "docker-registry.ingress.url" .) .Values.global.registry.username .Values.global.registry.password (printf "%s:%s" .Values.global.registry.username .Values.global.registry.password | b64enc) | b64enc }}
+{{- else if (eq .Values.global.registry.url "") }}
 {{- printf "{\"auths\": {\"%s\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}, \"localhost:5000\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}}}" (printf "%s-docker-registry.%s.svc.cluster.local:5000" .Release.Name .Release.Namespace) .Values.global.registry.username .Values.global.registry.password (printf "%s:%s" .Values.global.registry.username .Values.global.registry.password | b64enc) .Values.global.registry.username .Values.global.registry.password (printf "%s:%s" .Values.global.registry.username .Values.global.registry.password | b64enc) | b64enc }}
-{{- end -}}
-{{- else -}}
-{{- printf "{\"auths\": {\"%s\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}}}" .Values.global.registry.url .Values.global.registry.username .Values.global.registry.password (printf "%s:%s" .Values.global.registry.username .Values.global.registry.password | b64enc) | b64enc }}
-{{- end -}}
-{{- end -}}
+{{- else }}
+{{- printf "{\"auths\": {\"%s\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}}}" .Value.global.registry.url .Values.global.registry.username .Values.global.registry.password (printf "%s:%s" .Values.global.registry.username .Values.global.registry.password | b64enc) | b64enc }}
+{{- end }}
+{{- end }}
 
 {{- define "postgresql.fullname" -}}
 {{- printf "%s-%s" .Release.Name "postgresql" | trunc 63 | trimSuffix "-" -}}
@@ -60,4 +58,11 @@ Create dockerconfig.json contents
 
 {{- define "docker-registry-proxy.fullname" -}}
 {{- printf "%s-%s" .Release.Name "docker-registry-proxy" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
+
+{{/*
+Create joined url for the registry.
+*/}}
+{{- define "docker-registry.ingress.url" -}}
+{{- printf "%s%s" .Values.global.registry.ingress.host .Values.global.registry.ingress.path -}}
 {{- end -}}

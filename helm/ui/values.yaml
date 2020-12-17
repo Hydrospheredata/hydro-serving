@@ -2,33 +2,30 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 replicaCount: 1
-public: true
-sonar:
-  enabled: false
 
 global:
-  ingress:
-    enabled: false
-    host: ui.hydrosphere.io #Domain name to frontend
-    issuer: letsencrypt-prod #Cert-manager issuer name
-    path: "/"
-    enableGrpc: true
-
+  ui:
+    ingress:
+      enabled: false
+      host: "hydrosphere.local" # Domain name for the frontend ingress.
+      path: "/" # Path, which will match the service.
+      enableGrpc: true # Enable grpc endpoints for services. Works only with `path: "/"`. 
+      issuer: "letsencrypt-prod" # A name of the cert-manager issuer name, configured within the 
+                                 # cluster.
+    configuration: |
+      {
+        "showHeader": true
+      }
   tolerations: []
   
 image:
-  full: hydrosphere/hydro-serving-ui:eba6295a96703e940a7c946c4961e2ec740011f4
+  full:  hydrosphere/serving-manager-ui:319a1443c22d0b433d50d74ddebdd5c8aaa924cd
   pullPolicy:  IfNotPresent
 
 service:
   type: ClusterIP
   httpPort: 9090
   grpcPort: 9091
-
-ingress:
-  enabled: false
-
-configuration: ""
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious

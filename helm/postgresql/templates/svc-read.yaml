@@ -1,3 +1,4 @@
+{{ if eq .Values.global.postgresql.url "" }}
 {{- if .Values.replication.enabled }}
 apiVersion: v1
 kind: Service
@@ -28,4 +29,5 @@ spec:
     app: {{ template "postgresql.name" . }}
     release: {{ .Release.Name | quote }}
     role: slave
+{{- end }}
 {{- end }}

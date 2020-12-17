@@ -1,0 +1,15 @@
+apiVersion: v1
+description: A Helm chart for hydro-auto-od service is responsible for creating monitoring metrics for deployed machine learning models via unsuperviesd AutoML techniques.
+name: auto-od
+version: 0.1.0
+appVersion: 2.1.0
+icon: https://media-exp1.licdn.com/dms/image/C4D0BAQFdJwT_5sqKCQ/company-logo_200_200/0?e=1602115200&v=beta&t=AY1uflcZAvWxrdqe67dlIcRNwDViEuCeFOVt6grpFQE
+keywords:
+  - hydrosphere
+home: https://hydrosphere.io/
+source: 
+  - https://github.com/provectus/hydro-auto-od
+maintainers:
+  - name: Hydrosphere.Io
+    email: support@hydrosphere.io
+    url: https://hydrosphere.io  

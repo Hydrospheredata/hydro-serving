@@ -21,6 +21,8 @@ spec:
         app: {{ template "manager.name" . }}
         release: {{ .Release.Name }}
         logging: "true"
+      annotations:
+        checksum/config: {{ include (print $.Template.BasePath "/docker-secret.yaml") . | sha256sum }}
     spec:
       serviceAccountName: {{ if .Values.serviceAccount.name }}{{ .Values.serviceAccount.name }}{{ else }}"hydro-serving-manager-sa-{{ .Release.Name }}"{{ end }}
       containers:
@@ -28,13 +30,20 @@ spec:
           image: docker:18.06.0-ce-dind
           securityContext:
             privileged: true
-          {{- if .Values.global.registry.internal }}
-            {{- if and (ne .Values.global.ingress.enabled true) .Values.global.registry.insecure }}
-          args: [{{ printf "--insecure-registry=%s" (printf "%s-docker-registry.%s.svc.cluster.local:5000" .Release.Name .Release.Namespace) }}]
-             {{- end }}
-          {{- end }} 
-          {{- if and (ne .Values.global.registry.internal true) .Values.global.registry.insecure }}
+          {{- if .Values.global.registry.ingress.enabled }}
+            {{- if .Values.global.registry.insecure }}
+          args: [{{ printf "--insecure-registry=%s" (include "docker-registry.ingress.url" .) }}]
+            {{- else }}
+          args: [] # use default arguments for secure registry with enabled ingress
+            {{- end }}
+          {{- else }}
+            {{- if and .Values.global.registry.url .Values.global.registry.insecure }}
           args: [{{ printf "--insecure-registry=%s" .Values.global.registry.url }}]
+            {{- else if and (eq .Values.global.registry.url "") .Values.global.registry.insecure }}
+          args: [{{ printf "--insecure-registry=%s" (printf "%s-docker-registry.%s.svc.cluster.local:5000" .Release.Name .Release.Namespace) }}]
+            {{- else }}
+          args: [] #use default arguments for secure registry with disabled ingress
+            {{- end }}
           {{- end }}
         - name: kubectl-proxy
           image: tommyvn/kubectl-proxy
@@ -51,7 +60,7 @@ spec:
               protocol: TCP
           env:
             - name: JAVA_OPTS
-              value: "-Xmx1024m -Xms128m -Xss16M"  
+              value: {{ .Values.javaOpts | quote }}
             - name: ADVERTISED_MANAGER_HOST
               value: "{{ template "manager.fullname" . }}"
             - name: ADVERTISED_MANAGER_PORT
@@ -65,9 +74,12 @@ spec:
             - name: DATABASE_USERNAME
               value: "{{ .Values.global.postgresql.username }}"
             - name: DATABASE_PASSWORD
-              value: "{{ .Values.global.postgresql.password }}"
+              valueFrom:
+                secretKeyRef:
+                  name: "{{ .Release.Name }}-postgresql-secret"
+                  key: "password"
             - name: DOCKER_HOST
-              value: "tcp://localhost:2375"
+              value: "tcp://localhost:2375" # dind
             - name: CLOUD_DRIVER
               value: "kubernetes"
             - name: KUBE_PROXY_SERVICE_HOST
@@ -80,26 +92,27 @@ spec:
               valueFrom:
                 fieldRef:
                   fieldPath: metadata.namespace
-            {{- if .Values.global.registry.internal }}
-              {{- if .Values.global.ingress.enabled }}
+            {{- if ne .Values.global.registry.url "" }}
             - name: REMOTE_DOCKER_REGISTRY_HOST
               value: "{{ .Values.global.registry.url }}"
             - name: REMOTE_DOCKER_PULL_HOST
               value: "{{ .Values.global.registry.url }}"
-              {{- else }}  
+            {{- else if .Values.global.registry.ingress.enabled }}
+            - name: REMOTE_DOCKER_REGISTRY_HOST
+              value: "{{ include "docker-registry.ingress.url" . | trimSuffix "/" }}"
+            - name: REMOTE_DOCKER_PULL_HOST
+              value: "{{ include "docker-registry.ingress.url" . | trimSuffix "/" }}"
+            {{- else }}
             - name: REMOTE_DOCKER_REGISTRY_HOST
               value: "{{ template "docker-registry.fullname" . }}.{{.Release.Namespace}}.svc.cluster.local:5000"
             - name: REMOTE_DOCKER_PULL_HOST
               value: "localhost:5000"
-              {{- end }} 
-            {{- else }}
-            - name: REMOTE_DOCKER_REGISTRY_HOST
-              value: "{{ .Values.global.registry.url }}"
-            - name: REMOTE_DOCKER_PULL_HOST
-              value: "{{ .Values.global.registry.url }}"
-            {{- end }}
+            {{- end }} 
             - name: REMOTE_DOCKER_REGISTRY_PASSWORD
-              value: "{{ .Values.global.registry.password }}"              
+              valueFrom:
+                secretKeyRef:
+                  name: "{{ .Release.Name }}-docker-registry-secret"
+                  key: "password"
             - name: REMOTE_DOCKER_REGISTRY_USERNAME
               value: "{{ .Values.global.registry.username }}"
             {{- with .Values.env }}

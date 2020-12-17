@@ -55,8 +55,8 @@ Create chart name and version as used by the chart label.
 {{- printf "%s-%s" .Release.Name "gateway" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
 
-{{- define "prometheus-am.fullname" -}}
-{{- printf "%s-%s" .Release.Name "prometheus-am" | trunc 63 | trimSuffix "-" -}}
+{{- define "alertmanager.fullname" -}}
+{{- printf "%s-%s" .Release.Name "alertmanager" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
 
 {{- define "timemachine.fullname" -}}
@@ -80,9 +80,9 @@ Create chart name and version as used by the chart label.
 {{- end -}}
 
 {{- define "ui.ingress-http-path" -}}
-{{- if eq .Values.global.ingress.path "/" -}}
+{{- if eq .Values.global.ui.ingress.path "/" -}}
 {{- print "/" -}}
 {{- else -}}
-{{- printf "%s(/|$)(.*)" .Values.global.ingress.path}}
+{{- printf "%s(/|$)(.*)" .Values.global.ui.ingress.path}}
 {{- end -}}
 {{- end -}}

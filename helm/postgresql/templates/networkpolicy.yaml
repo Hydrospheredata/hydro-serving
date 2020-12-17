@@ -1,3 +1,4 @@
+{{ if eq .Values.global.postgresql.url "" }}
 {{- if .Values.networkPolicy.enabled }}
 kind: NetworkPolicy
 apiVersion: {{ template "postgresql.networkPolicy.apiVersion" . }}
@@ -35,4 +36,5 @@ spec:
     # Allow prometheus scrapes
     - ports:
         - port: 9187
+{{- end }}
 {{- end }}

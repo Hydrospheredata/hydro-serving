@@ -4,22 +4,25 @@
 
 global:
   registry:
-    internal: true #Use internal registry or external (for internal - ingress required)
-    insecure: true #Use insecure docker registry
-    url: index.docker.io #Domain name to internal\external registry
-    username: example #Internal\external registry username
-    password: example #Internal\external registry password
-
-  ingress:
-    enabled: false
-    issuer: letsencrypt-prod #Cert-manager issuer name
-
+    insecure: true # Use insecure docker registry
+    ingress:
+      enabled: false
+      host: "hydrosphere-registry.local"
+      path: "/"
+      issuer: "letsencrypt-prod"
+    url: ""
+    username: "example" # Username to authenticate to the registry 
+    password: "example" # Password to authenticate to the registry
+    persistence:
+      bucket: "hydrosphere-model-registry"
+      # region: "us-east-1"
+  
   persistence:
-    mode: local #Enable persistence mode for services (use s3, minio, local)
-    accessKey: ACCESSKEYEXAMPLE #accesskeyid for s3 or minio
-    secretKey: SECRETKEYEXAMPLE #secretkeyid for s3 or minio
-    region: eu-central-1 #S3 bucket region
-    bucket: example #S3 bucket name
+    url: "" # Endpoint for the object storage. Compatible with S3 or Minio.
+    mode: "minio"
+    accessKey: ACCESSKEYEXAMPLE # accesskeyid for s3 or minio
+    secretKey: SECRETKEYEXAMPLE # secretkeyid for s3 or minio
+    region: "us-west-1" # region for s3
 
   tolerations: []
 
@@ -27,7 +30,7 @@ replicaCount: 1
   
 image:
   repository: registry
-  tag: 2.6.2
+  tag: 2.7.0
   pullPolicy: IfNotPresent
 
   #nameOverride: ""

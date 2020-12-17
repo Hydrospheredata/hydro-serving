@@ -1,0 +1,15 @@
+{{- if eq .Values.global.alertmanager.url ""}}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "alertmanager-configmap-{{ .Release.Name }}"
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: {{ include "alertmanager.name" . }}
+    chart: {{ include "alertmanager.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+data:
+  alertmanager.yml: |-
+{{ toYaml .Values.global.alertmanager.config | indent 4 }}  
+{{- end }}

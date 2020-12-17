@@ -10,4 +10,4 @@ metadata:
     heritage: {{ .Release.Service }}
 data:
   config.json: |-
-{{ .Values.configuration | indent 4 }}
+{{ .Values.global.ui.configuration | indent 4 }}

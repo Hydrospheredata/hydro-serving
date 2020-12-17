@@ -1,3 +1,4 @@
+{{ if eq .Values.global.postgresql.url "" }}
 {{ if and (or (.Files.Glob "files/postgresql.conf") (.Files.Glob "files/pg_hba.conf") .Values.postgresqlConfiguration .Values.pgHbaConfiguration) (not .Values.configurationConfigMap) }}
 apiVersion: v1
 kind: ConfigMap
@@ -23,4 +24,5 @@ data:
   pg_hba.conf: |
 {{ .Values.pgHbaConfiguration | indent 4 }}
 {{- end }}
-{{ end }}
+{{- end }}
+{{- end }}

@@ -1,0 +1,133 @@
+global:
+  ui:
+    ingress:
+      enabled: false
+      host: "hydrosphere.local" # Domain name for the frontend ingress.
+      path: "/" # Path, which will match the service.
+      enableGrpc: true # Enable grpc endpoints for services. Works only with `path: "/"`. 
+      issuer: "letsencrypt-prod" # A name of the cert-manager issuer name, configured within the 
+                                 # cluster.
+    configuration: |
+      {
+        "showHeader": true
+      }
+
+  registry:
+    insecure: true # Use insecure docker registry
+    ingress:
+      enabled: false
+      host: "hydrosphere-registry.local"
+      path: "/"
+      issuer: "letsencrypt-prod"
+    url: ""
+    username: "example" # Username to authenticate to the registry 
+    password: "example" # Password to authenticate to the registry
+    persistence: 
+      bucket: "hydrosphere-model-registry"
+      region: "us-east-1"
+  
+  hydrosphere:  
+    docker:
+      host: "harbor.hydrosphere.io/hydro-serving"
+      username: "developers"
+      password: "" # Registry password for accessing closed images
+      
+  persistence:
+    url: "" # Endpoint for the object storage. Compatible with S3 or Minio.
+    mode: "minio"
+    accessKey: "ACCESSKEYEXAMPLE" # accesskeyid for s3 or minio
+    secretKey: "SECRETKEYEXAMPLE" # secretkeyid for s3 or minio
+    region: "us-east-1"
+
+  mongodb:
+    url: "" # Specify MongoDB connection string if you want to use an external MongoDB instance. 
+            # If empty, an in-cluster deployment will be provisioned. 
+    rootPassword: "hydr0s3rving" # Mongodb root password. Used for an internal installation.
+    username: "root" # Mongodb username. Used for an internal installation.
+    password: "hydr0s3rving" # Mongodb password. Used for an internal installation.
+    authDatabase: "admin" # Mongodb auth database. Used for an internal installation.
+    database: "hydro-serving-data-profiler" # Mongodb database name. Used for an internal installation.
+
+  postgresql:
+    url: "" # Specify Postgresql connection string if you want to use an external Postgresql instance. 
+            # If empty, an in-cluster deployment will be provisioned.
+    username: "postgres" # Postgresql username. Used for an internal installation.
+    password: "hydr0s3rving" # Postgresql password. Used for an internal installation.
+    database: "hydro-serving" # Postgresql database name. Used for an internal installation.
+
+  alertmanager:
+    url: "" # Prometheus AlertManager address in case you want to use the external installation.
+            # If empty, an internal installation will be deployed.
+    config:
+      global: 
+        smtp_smarthost: "localhost:25" # SMTP relay host
+        smtp_auth_username: "mailbot" # SMTP relay username 
+        smtp_auth_identity: "mailbot" # SMTP relay username identity
+        smtp_auth_password: "mailbot" # SMTP relay password
+        smtp_from: "no-reply@hydrosphere.io" # Email address of the sender
+      route:
+        group_by: ["alertname", "modelVersionId"]
+        group_wait: "10s"
+        group_interval: "10s"
+        repeat_interval: "1h"
+        receiver: "default"
+      receivers:
+      - name: "default"
+        email_configs: # List of email addresses to send alarms to
+        - to: "customer@example.io"
+
+  tolerations: []
+    # - key: key
+    #   operator: Equal
+    #   value: value
+    #   effect: NoSchedule  
+
+manager:
+  javaOpts: "-Xmx1024m -Xms128m -Xss16M"
+  servingAccount:
+    create: true
+    # name: "hydro-serving-manager-sa"
+  resources: {}
+
+gateway:
+  javaOpts: "-Xmx512m -Xms64m -Xss16M"
+  resources: {}
+
+sonar:
+  # A service, responsible for managing metrics, managing training and production data storage,
+  # calculating profiles, and shadowing data to the monitoring metrics. 
+  javaOpts: "-Xmx2048m -Xmn2048m -Xss258k -XX:MaxMetaspaceSize=1024m -XX:+AggressiveHeap"
+  persistence:
+    bucket: "hydrosphere-feature-lake"
+    region: "us-east-1"
+  resources:
+    limits:
+      memory: 4Gi
+    requests:
+      memory: 512Mi
+
+auto-od:
+  # A service, responsible for automatically generating outlier detection metrics for your 
+  # production models based on the training data of the model. 
+  resources: {}
+
+stat:
+  # A service, responsible for creating statistical reports for your production models based
+  # on a comparison of training and production data distributions. Compares these two sets 
+  # of data by a set of statistical tests and finds deviations.
+  resources: {}
+
+vizualization:
+  # A service, responsible for visualizing high-dimensional data in a 2D scatter plot with
+  # an automatically trained transformer to let you evaluate the data structure and spot 
+  # clusters, outliers, novel data, or any other patterns. This is especially helpful if 
+  # your model works with high-dimensional data, such as images or text embeddings. 
+  persistence:
+    bucket: "hydrosphere-visualization-artifacts"
+    region: "us-east-1"
+  resources: {}
+
+rootcause:
+  # A service, responsible for generating explanations for a particular model prediction to 
+  # help you understand the outcome by telling why your model made the prediction. 
+  resources: {}

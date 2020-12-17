@@ -1,0 +1,87 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "stat.fullname" . }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: {{ include "stat.name" . }}
+    chart: {{ include "stat.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  selector:
+    matchLabels:
+      app: {{ include "stat.name" . }}
+      release: {{ .Release.Name }}
+  template:
+    metadata:
+      labels:
+        app: {{ include "stat.name" . }}
+        release: {{ .Release.Name }}
+        logging: "true"
+    spec:
+{{- if .Values.global.tolerations }}  
+      tolerations:
+{{ toYaml .Values.global.tolerations | indent 8 }}
+{{- end }}    
+      containers:
+        - name: {{ .Chart.Name }}
+          image: "{{ .Values.image.full }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          command: ["python", "app.py"]
+          ports:
+            - name: http
+              containerPort: 5000
+              protocol: TCP
+          env:
+            - name: HTTP_UI_ADDRESS
+              value: "http://{{ template "ui.fullname" . }}:9090"
+            - name: MONGO_URL
+              value: {{ if .Values.global.mongodb.url }}"{{ .Values.global.mongodb.url }}"{{ else }} "{{ template "mongodb.fullname" . }}"{{ end }}  
+            - name: MONGO_PORT
+              value: "27017"
+            - name: MONGO_DATABASE
+              value: "{{ .Values.global.mongodb.database }}"
+            {{- if .Values.global.mongodb.username }}
+            - name: MONGO_USER
+              value: "{{ .Values.global.mongodb.username }}"
+            {{- end }}
+            {{- if .Values.global.mongodb.password }}
+            - name: MONGO_PASS
+              valueFrom:
+                secretKeyRef:
+                  name: "{{ .Release.Name }}-mongodb-secret"
+                  key: "password"
+            {{- end }}
+            {{- if .Values.global.mongodb.authDatabase }}
+            - name: MONGO_AUTH_DB
+              value: "{{ .Values.global.mongodb.authDatabase }}"
+            {{- end }}
+            - name: AWS_ACCESS_KEY_ID
+              valueFrom:
+                secretKeyRef:
+                  name: "{{ .Release.Name }}-aws-secret"
+                  key: "awsAccessKeyID"
+            - name: AWS_SECRET_ACCESS_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: "{{ .Release.Name }}-aws-secret"
+                  key: "awsSecretAccessKey"
+            - name: S3_ENDPOINT
+            {{- if .Values.global.persistence.url }}
+              value: {{ .Values.global.persistence.url }}
+            {{- else }}
+              value: http://{{ template "minio.fullname" . }}:9000
+            {{- end }}
+          livenessProbe:
+            initialDelaySeconds: 40
+            httpGet:
+              path: /stat/health
+              port: http
+          readinessProbe:
+            initialDelaySeconds: 40
+            httpGet:
+              path: /stat/health
+              port: http
+      imagePullSecrets:
+        - name: "{{ .Release.Name }}-docker-secret"

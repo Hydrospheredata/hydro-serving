@@ -8,28 +8,31 @@ serviceAccount:
   create: true
   
 global:
-  ingress:
-    enabled: false
-
   registry:
-    internal: true #Use internal registry or external (for internal - ingress required)
-    insecure: true #Use insecure docker registry
-    url: index.docker.io #Domain name to internal\external registry
-    username: example #Internal\external registry username
-    password: example #Internal\external registry password
+    insecure: true # Use insecure docker registry
+    ingress:
+      enabled: false
+      host: "hydrosphere-registry.local"
+      path: "/"
+      issuer: "letsencrypt-prod"
+    url: ""
+    username: "example" # Username to authenticate to the registry 
+    password: "example" # Password to authenticate to the registry
     
   postgresql:
     url: "" #Postgresql address if external postgresql use
-    username: postgres  #Postgresql username
-    password: hydr0s3rving #Postgresql password
-    database: hydro-serving #Postgresql database name 
+    username: "postgres"  #Postgresql username
+    password: "hydr0s3rving" #Postgresql password
+    database: "hydro-serving" #Postgresql database name 
 
   tolerations: []
 
 env: {}
 
+javaOpts: "-Xmx1024m -Xms128m -Xss16M"
+
 image:
-  full: hydrosphere/serving-manager:d27118a51151e2b6b0df748a2d6bcb3d20d19027
+  full:  hydrosphere/serving-manager:c84b4563d4b7c8419f21ebc041ab368ea69fabf2
   pullPolicy:  IfNotPresent
 
 service:

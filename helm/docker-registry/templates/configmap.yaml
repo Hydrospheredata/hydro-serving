@@ -1,4 +1,4 @@
-{{- if .Values.global.registry.internal -}}
+{{- if eq .Values.global.registry.url "" }}
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -14,4 +14,4 @@ data:
     #!/usr/bin/env sh
     exec >/auth/htpasswd
     exec "$@"
-{{- end -}}
+{{- end }}

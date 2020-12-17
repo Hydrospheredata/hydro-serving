@@ -38,28 +38,16 @@ spec:
           securityContext:
             allowPrivilegeEscalation: false
           env:
-            - name: OSS
-            {{- if .Values.public }}
-              value: "true"
-            {{- else }}
-              value: ""
-            {{- end }}
             - name: STATS_ACCESS
               value: "127.0.0.1"
             - name: MANAGER_HOST
               value: {{ template "manager.fullname" . }}
             - name: GATEWAY_HOST
               value: {{ template "gateway.fullname" . }}
-            {{- if .Values.public }}   
-            - name: MONITORING_HOST
-              value: "localhost"
-            - name: PROMETHEUS_AM_HOST
-              value: "localhost"                          
-            {{- else }}
             - name: MONITORING_HOST
               value: {{ template "sonar.fullname" . }}
             - name: PROMETHEUS_AM_HOST
-              value: {{ template "prometheus-am.fullname" . }}
+              value: {{ template "alertmanager.fullname" . }}
             - name: VISUALIZATION_HOST
               value: {{ template "visualization.fullname" . }}
             - name: ROOTCAUSE_HOST
@@ -68,7 +56,6 @@ spec:
               value: {{ template "stat.fullname" . }}
             - name: AUTO_OD_HOST
               value: {{ template "auto-od.fullname" . }}
-            {{- end }}  
             - name: MANAGER_HTTP_PORT
               value: "9090"
             - name: MANAGER_GRPC_PORT
@@ -88,11 +75,11 @@ spec:
             - name: AUTO_OD_GRPC_PORT
               value: "5001"
             - name: INGRESS_PATH
-              value: {{if .Values.global.ingress.enabled }}'//{{ .Values.global.ingress.host }}{{ .Values.global.ingress.path }}'{{else}}'{{ .Values.global.ingress.path }}'{{end}}
+              value: {{ if .Values.global.ui.ingress.enabled }}'//{{ .Values.global.ui.ingress.host }}{{ trimSuffix "/" .Values.global.ui.ingress.path }}/'{{else}}'/'{{end}}
             {{- with .Values.env }}
 {{ toYaml . | indent 12 }}
             {{- end }}
-          {{- if .Values.configuration}}
+          {{- if .Values.global.ui.configuration}}
           volumeMounts:
             - name: "configmap-{{ .Chart.Name }}"
               mountPath: /usr/share/nginx/html/assets/config.json

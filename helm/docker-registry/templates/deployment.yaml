@@ -1,11 +1,11 @@
-{{- if .Values.global.registry.internal -}}
+{{- if eq .Values.global.registry.url "" }}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: "{{ template "docker-registry.fullname" . }}"
+  name: "{{ include "docker-registry.fullname" . }}"
   namespace: {{ .Release.Namespace }}
   labels:
-    app: {{ template "docker-registry.fullname" . }}
+    app: {{ include "docker-registry.name" . }}
     chart: {{ include "docker-registry.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
@@ -13,13 +13,13 @@ spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      app: {{ template "docker-registry.fullname" . }}
+      app: {{ include "docker-registry.name" . }}
       release: {{ .Release.Name }}
       logging: "true"
   template:
     metadata:
       labels:
-        app: {{ template "docker-registry.fullname" . }}
+        app: {{ include "docker-registry.name" . }}
         release: {{ .Release.Name }}
         logging: "true"
     spec:
@@ -41,6 +41,16 @@ spec:
               subPath: entrypoint.sh
             - name: "auth-{{ .Chart.Name }}"
               mountPath: /auth
+        {{- if eq .Values.global.persistence.mode "s3" }}
+        - name: "storage-init-{{ .Chart.Name }}"
+          image: "minio/mc:RELEASE.2020-11-17T00-39-14Z"
+          imagePullPolicy: IfNotPresent
+          command: [ "/bin/sh", "/bin/storage/init.sh"]
+          volumeMounts: 
+            - name: "storage-init-{{ .Chart.Name }}"
+              mountPath: "/bin/storage"
+              readOnly: true
+        {{- end }}
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
@@ -57,20 +67,29 @@ spec:
             - name: REGISTRY_AUTH_HTPASSWD_PATH
               value: "/auth/htpasswd"
             - name: REGISTRY_HTTP_SECRET
-              value: "{{ .Values.global.registry.password }}" 
-            {{- if and .Values.global.persistence.mode (eq .Values.global.persistence.mode "s3") }}
+              valueFrom:
+                secretKeyRef:
+                  name: "{{ .Release.Name }}-docker-registry-secret"
+                  key: "password"
+            {{- if eq .Values.global.persistence.mode "s3" }}
             - name: REGISTRY_HEALTH_STORAGEDRIVER_ENABLED
               value: "false"            
             - name: REGISTRY_STORAGE
               value: s3
             - name: REGISTRY_STORAGE_S3_ACCESSKEY
-              value: {{ .Values.global.persistence.accessKey }}
+              valueFrom:
+                secretKeyRef:
+                  name: "{{ .Release.Name }}-aws-secret"
+                  key: "awsAccessKeyID"
             - name: REGISTRY_STORAGE_S3_SECRETKEY
-              value: {{ .Values.global.persistence.secretKey }}
+              valueFrom:
+                secretKeyRef:
+                  name: "{{ .Release.Name }}-aws-secret"
+                  key: "awsSecretAccessKey"
             - name: REGISTRY_STORAGE_S3_REGION
-              value: {{ .Values.global.persistence.region }}
+              value: {{ include "docker-registry.region" . }}
             - name: REGISTRY_STORAGE_S3_BUCKET
-              value: {{ .Values.global.persistence.bucket }}
+              value: {{ .Values.global.registry.persistence.bucket }}
             - name: REGISTRY_STORAGE_S3_ROOTDIRECTORY
               value: /{{ .Release.Name }}/
             {{- end }}
@@ -107,4 +126,10 @@ spec:
             name: {{ include "docker-registry.fullname" . }}
         - name: "auth-{{ .Chart.Name }}"
           emptyDir: {}
+        - name: "storage-init-{{ .Chart.Name }}"
+          secret:
+            secretName: "{{ .Release.Name }}-docker-registry-secret"
+            items:
+              - key: "storageInit"
+                path: "init.sh"
 {{- end -}}

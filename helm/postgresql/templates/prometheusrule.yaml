@@ -1,3 +1,4 @@
+{{ if eq .Values.global.postgresql.url "" }}
 {{- if and .Values.metrics.enabled .Values.metrics.prometheusRule.enabled }}
 apiVersion: monitoring.coreos.com/v1
 kind: PrometheusRule
@@ -19,5 +20,6 @@ spec:
   groups:
     - name: {{ template "postgresql.name" $ }}
       rules: {{ tpl (toYaml .) $ | nindent 8 }}
+{{- end }}
 {{- end }}
 {{- end }}

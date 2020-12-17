@@ -1,3 +1,4 @@
+{{ if eq .Values.global.postgresql.url "" }}
 {{- if and (or (.Files.Glob "files/docker-entrypoint-initdb.d/*.{sh,sql,sql.gz}") .Values.initdbScripts) (not .Values.initdbScriptsConfigMap) }}
 apiVersion: v1
 kind: ConfigMap
@@ -20,5 +21,6 @@ data:
 {{- end }}
 {{- with .Values.initdbScripts }}
 {{ toYaml . | indent 2 }}
+{{- end }}
 {{- end }}
 {{- end }}

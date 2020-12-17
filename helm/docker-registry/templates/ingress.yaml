@@ -1,11 +1,16 @@
-{{- if and .Values.global.ingress.enabled .Values.global.registry.internal }}
+{{- if .Values.global.registry.ingress.enabled }}
 apiVersion: {{ include "docker-registry.ingress.apiVersion" . }}
 kind: Ingress
 metadata:
+  labels:
+    app: {{ include "docker-registry.name" . }}
+    chart: {{ include "docker-registry.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
   annotations:
     kubernetes.io/ingress.class: nginx
     kubernetes.io/tls-acme: "true"
-    cert-manager.io/cluster-issuer: {{ .Values.global.ingress.issuer | quote }}
+    cert-manager.io/cluster-issuer: {{ .Values.global.registry.ingress.issuer | quote }}
     nginx.ingress.kubernetes.io/proxy-body-size: "0"
     nginx.ingress.kubernetes.io/proxy-connect-timeout: "1800"
     nginx.ingress.kubernetes.io/proxy-read-timeout: "1800"
@@ -14,15 +19,15 @@ metadata:
   name: {{ .Release.Name }}-registry-ingress
 spec:
   rules:
-  - host: {{ .Values.global.registry.url }}
+  - host: {{ .Values.global.registry.ingress.host }}
     http:
       paths:
       - backend:
-          serviceName: {{ template "docker-registry.fullname" . }}
+          serviceName: {{ include "docker-registry.fullname" . }}
           servicePort: 5000
-        path: /
+        path: {{ .Values.global.registry.ingress.path }}
   tls:
   - hosts:
-    - {{ .Values.global.registry.url }}
+    - {{ .Values.global.registry.ingress.host }}
     secretName: {{ .Release.Name }}-registry-tls
 {{- end -}}

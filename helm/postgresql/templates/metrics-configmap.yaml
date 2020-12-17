@@ -1,3 +1,4 @@
+{{ if eq .Values.global.postgresql.url "" }}
 {{- if and .Values.metrics.enabled .Values.metrics.customMetrics }}
 apiVersion: v1
 kind: ConfigMap
@@ -10,4 +11,5 @@ metadata:
     heritage: {{ .Release.Service | quote }}
 data:
   custom-metrics.yaml: {{ toYaml .Values.metrics.customMetrics | quote }}
+{{- end }}
 {{- end }}

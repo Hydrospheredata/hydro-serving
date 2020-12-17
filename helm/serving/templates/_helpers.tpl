@@ -2,7 +2,7 @@
 {{/*
 Expand the name of the chart.
 */}}
-{{- define "serving.name" -}}
+{{- define "demo.name" -}}
 {{- default .Chart.Name .Values.nameOverride | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
 
@@ -11,7 +11,7 @@ Create a default fully qualified app name.
 We truncate at 63 chars because some Kubernetes name fields are limited to this (by the DNS naming spec).
 If release name contains chart name it will be used as a full name.
 */}}
-{{- define "serving.fullname" -}}
+{{- define "demo.fullname" -}}
 {{- if .Values.fullnameOverride -}}
 {{- .Values.fullnameOverride | trunc 63 | trimSuffix "-" -}}
 {{- else -}}
@@ -27,8 +27,15 @@ If release name contains chart name it will be used as a full name.
 {{/*
 Create chart name and version as used by the chart label.
 */}}
-{{- define "serving.chart" -}}
+{{- define "demo.chart" -}}
 {{- printf "%s-%s" .Chart.Name .Chart.Version | replace "+" "_" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
+
+{{/*
+Create dockerconfig.json contents for imagePullSecrets
+*/}}
+{{- define "demo.dockerconfig" -}}
+{{- printf "{\"auths\": {\"%s\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}}}" .Values.global.hydrosphere.docker.host .Values.global.hydrosphere.docker.username .Values.global.hydrosphere.docker.password (printf "%s:%s" .Values.global.hydrosphere.docker.username .Values.global.hydrosphere.docker.password | b64enc) | b64enc }}
 {{- end -}}
 
 {{- define "sonar.fullname" -}}
@@ -51,8 +58,8 @@ Create chart name and version as used by the chart label.
 {{- printf "%s-%s" .Release.Name "gateway" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
 
-{{- define "prometheus-am.fullname" -}}
-{{- printf "%s-%s" .Release.Name "prometheus-am" | trunc 63 | trimSuffix "-" -}}
+{{- define "alertmanager.fullname" -}}
+{{- printf "%s-%s" .Release.Name "alertmanager" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
 
 {{- define "timemachine.fullname" -}}
@@ -67,10 +74,18 @@ Create chart name and version as used by the chart label.
 {{- printf "%s-%s" .Release.Name "mongodb" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
 
-{{- define "docker-registry.fullname" -}}
-{{- printf "%s-%s" .Release.Name "docker-registry" | trunc 63 | trimSuffix "-" -}}
+{{- define "stat.fullname" -}}
+{{- printf "%s-%s" .Release.Name "stat" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}
 
-{{- define "docker-registry-proxy.fullname" -}}
-{{- printf "%s-%s" .Release.Name "docker-registry-proxy" | trunc 63 | trimSuffix "-" -}}
+{{- define "auto-od.fullname" -}}
+{{- printf "%s-%s" .Release.Name "auto-od" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
+
+{{- define "minio.fullname" -}}
+{{- printf "%s-%s" .Release.Name "minio" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
+
+{{- define "docker-registry.fullname" -}}
+{{- printf "%s-%s" .Release.Name "docker-registry" | trunc 63 | trimSuffix "-" -}}
 {{- end -}}

@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "sonar.fullname" . }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: {{ include "sonar.name" . }}
+    chart: {{ include "sonar.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+    service_id: id-30
+    hs_service_marker: hs_service_marker
+    runtime_id: id-30
+    service_name: monitoring
+    deployment_type: app
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.httpPort }}
+      targetPort: http
+      protocol: TCP
+      name: http
+    - port: {{ .Values.service.grpcPort }}
+      targetPort: grpc
+      protocol: TCP
+      name: grpc
+  selector:
+    app: {{ include "sonar.name" . }}
+    release: {{ .Release.Name }}

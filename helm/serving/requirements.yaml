@@ -16,3 +16,29 @@ dependencies:
    - name: ui
      repository: file://../ui
      version: 0.1.0
+   - name: mongodb
+     repository: file://../mongodb
+     version: 7.4.6
+     condition: global.mongo.enabled
+   - name: alertmanager
+     repository: file://../alertmanager
+     version: 0.2.0
+     condition: global.alerting_on
+   - name: minio
+     repository: file://../minio
+     version: 4.1.1
+   - name: sonar
+     repository: file://../sonar
+     version: 0.1.0
+   - name: rootcause
+     repository: file://../rootcause
+     version: 0.0.1
+   - name: visualization
+     repository: file://../visualization
+     version: 0.1.0
+   - name: auto-od
+     repository: file://../auto-od
+     version: 0.1.0
+   - name: stat
+     repository: file://../stat
+     version: 0.1.0

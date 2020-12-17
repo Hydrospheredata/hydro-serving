@@ -1,4 +1,4 @@
-{{- if and .Values.global.registry.internal (ne .Values.global.ingress.enabled true) }}
+{{- if and (eq .Values.global.registry.url "") (ne .Values.global.registry.ingress.enabled true) }}
 apiVersion: apps/v1
 kind: DaemonSet
 metadata:
@@ -36,7 +36,7 @@ spec:
             memory: 50Mi
         env:
         - name: REGISTRY_HOST
-          value: "{{ template "docker-registry.fullname" . }}.{{.Release.Namespace}}.svc.cluster.local"
+          value: "{{ include "docker-registry.fullname" . }}.{{.Release.Namespace}}.svc.cluster.local"
         - name: REGISTRY_PORT
           value: "5000"
         ports:

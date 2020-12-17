@@ -1,0 +1,48 @@
+# Default values for auto-od.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+image:
+  full:  harbor.hydrosphere.io/hydro-serving/stat:3534e0603a79a6e975a5d1423382cc59b2fce981
+  pullPolicy:  IfNotPresent
+
+global:
+  persistence:
+    mode: local #Enable persistence mode for services (use s3, minio, local)
+    accessKey: ACCESSKEYEXAMPLE #accesskeyid for s3 or minio
+    secretKey: SECRETKEYEXAMPLE #secretkeyid for s3 or minio
+    region: eu-central-1 #S3 bucket region
+    endpointUrl: http://minio:9000 #Endpoint for non aws s3
+    bucket: example #S3 bucket name
+    
+  mongodb:
+    url: "" #Mongodb address if external mongodb use
+    rootPassword: hydr0s3rving #Mongodb root password
+    username: root #Mongodb username
+    password: hydr0s3rving #Mongodb password
+    authDatabase: admin #Mongodb auth database
+    database: hydro-serving-data-profiler #Mongodb database name
+
+  tolerations: []
+  
+service:
+  type: ClusterIP
+  port: 5002
+
+resources: {}
+  # We usually recommend not to specify default resources and to leave this as a conscious
+  # choice for the user. This also increases chances charts run on environments with little
+  # resources, such as Minikube. If you do want to specify resources, uncomment the following
+  # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
+  # limits:
+  #  cpu: 100m
+  #  memory: 128Mi
+  # requests:
+  #  cpu: 100m
+  #  memory: 128Mi
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}

@@ -1,4 +1,4 @@
-{{- if .Values.global.registry.internal -}}
+{{- if eq .Values.global.registry.url "" }}
 apiVersion: v1
 kind: Service
 metadata:
@@ -17,6 +17,6 @@ spec:
       protocol: TCP
       name: http
   selector:
-    app: {{ include "docker-registry.fullname" . }}
+    app: {{ include "docker-registry.name" . }}
     release: {{ .Release.Name }}
 {{- end -}}
