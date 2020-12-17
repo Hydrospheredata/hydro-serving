@@ -3,7 +3,7 @@ ui:
     full: harbor.hydrosphere.io/hydro-serving/hydro-serving-ui:latest
 manager:
   image:
-    full: hydrosphere/serving-manager:5b698efff60c8852749c9fb2c0f7b2848da55bd5
+    full: hydrosphere/serving-manager:bd4f5fc6febcaf707de8bfb186008b236455540e
 gateway:
   image:
     full: harbor.hydrosphere.io/hydro-serving/hydro-serving-gateway:latest
