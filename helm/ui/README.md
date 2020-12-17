@@ -20,7 +20,7 @@ The following table lists the configurable parameters of the Ui chart and their 
 | `global.ingress.path` |  | `"/"` |
 | `global.ingress.enableGrpc` |  | `true` |
 | `global.tolerations` |  | `[]` |
-| `image.full` |  | `"harbor.hydrosphere.io/hydro-serving/hydro-serving-ui:5268d5c7321b0fada4012fb1d07b70f42683a5c2"` |
+| `image.full` |  | `"hydrosphere/hydro-serving-ui:eba6295a96703e940a7c946c4961e2ec740011f4"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `service.type` |  | `"ClusterIP"` |
 | `service.httpPort` |  | `9090` |
