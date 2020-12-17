@@ -93,7 +93,7 @@ spec:
             - name: DB_TYPE
               value: {{ .Values.dbType }}
             - name: DB_JDBC_URL
-              value: {{ if .Values.global.postgresql.url }}"jdbc:postgresql://{{ .Values.global.postgresql.url }}/{{ .Values.global.postgresql.database }}" {{ else }} "jdbc:postgresql://{{ template "postgres.fullname" . }}/{{ .Values.global.postgresql.database }}" {{ end }}
+              value: {{ if .Values.global.postgresql.url }}"jdbc:postgresql://{{ .Values.global.postgresql.url }}/{{ .Values.global.postgresql.database }}" {{ else }} "jdbc:postgresql://{{ template "postgresql.fullname" . }}/{{ .Values.global.postgresql.database }}" {{ end }}
             - name: DB_USER
               value: "{{ .Values.global.postgresql.username }}"
             - name: DB_PASS

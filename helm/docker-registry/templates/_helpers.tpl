@@ -70,3 +70,7 @@ Create storageInit script contents
 {{- end -}}
 {{ printf "mc mb -p --region %s storage/%s" (include "docker-registry.region" .) .Values.global.registry.persistence.bucket }}
 {{- end -}}
+
+{{- define "minio.fullname" -}}
+{{- printf "%s-%s" .Release.Name "minio" | trunc 63 | trimSuffix "-" -}}
+{{- end -}}
