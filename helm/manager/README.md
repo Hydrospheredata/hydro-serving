@@ -25,7 +25,7 @@ The following table lists the configurable parameters of the Manager chart and t
 | `global.postgresql.database` | Postgresql database name | `"hydro-serving"` |
 | `global.tolerations` |  | `[]` |
 | `env` |  | `{}` |
-| `image.full` |  | `"hydrosphere/serving-manager:9b3e70a5573fcab953f558d45c2a930876a33434"` |
+| `image.full` |  | `"hydrosphere/serving-manager:5b698efff60c8852749c9fb2c0f7b2848da55bd5"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `service.type` |  | `"ClusterIP"` |
 | `service.http_port` |  | `9090` |
