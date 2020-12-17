@@ -6,4 +6,4 @@ manager:
     full: hydrosphere/serving-manager:d27118a51151e2b6b0df748a2d6bcb3d20d19027
 gateway:
   image:
-    full: harbor.hydrosphere.io/hydro-serving/hydro-serving-gateway:latest
+    full: hydrosphere/serving-gateway:3ae75a74213c57273192da6406b14602319c4b9c
