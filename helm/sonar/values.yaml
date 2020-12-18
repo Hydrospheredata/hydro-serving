@@ -66,7 +66,7 @@ javaOpts: -Xmx2048m -Xmn2048m -Xss258k -XX:MaxMetaspaceSize=1024m -XX:+Aggressiv
 replicaCount: 1
 
 image:
-  full:  harbor.hydrosphere.io/hydro-serving/sonar:55a3c129aa18f87eebea7ee7ee756e89b6bf9ad3
+  full: hydrosphere/sonar:26bf4f9fb26dd43f1805c340f61441a31749c1d0
   pullPolicy:  IfNotPresent
 
 service:

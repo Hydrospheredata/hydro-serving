@@ -1,4 +1,5 @@
-Sonar
+
+Manager
 ===========
 
 A Helm chart for Kubernetes
@@ -6,39 +7,38 @@ A Helm chart for Kubernetes
 
 ## Configuration
 
-The following table lists the configurable parameters of the Sonar chart and their default values.
+The following table lists the configurable parameters of the Manager chart and their default values.
 
 | Parameter                | Description             | Default        |
 | ------------------------ | ----------------------- | -------------- |
-| `global.hydrosphere.docker.host` |  | `"docker.hydrosphere.io"` |
-| `global.elasticsearch.enabled` |  | `true` |
-| `global.awsCredentialSecretName` |  | `""` |
-| `global.mongodb.usePassword` |  | `true` |
-| `global.mongodb.mongodbRootPassword` |  | `"hydr0s3rving"` |
-| `global.mongodb.mongodbUsername` |  | `"root"` |
-| `global.mongodb.mongodbPassword` |  | `"hydr0s3rving"` |
-| `global.mongodb.mongodbAuthDatabase` |  | `"admin"` |
-| `global.mongodb.mongodbDatabase` |  | `"hydro-serving-data-profiler"` |
-| `dbType` |  | `"postgres"` |
-| `sidecar.grpcPort` |  | `8081` |
-| `s3.featureLakeBucketName` |  | `"feature-lake"` |
-| `s3.featureLakeBucketCreate` |  | `false` |
-| `javaOpts` |  | `"-Xmx2048m -Xmn2048m -Xss258k -XX:MaxMetaspaceSize=1024m -XX:+AggressiveHeap"` |
-| `postgres.postgresqlUsername` |  | `"hydroserving"` |
-| `postgres.postgresqlPassword` |  | `"hydr0s3rving"` |
-| `postgres.postgresqlDatabase` |  | `"hydro-serving"` |
 | `replicaCount` |  | `1` |
-| `image.full` |  | `"docker.hydrosphere.io/sonar:4fe28164459c8c7280bd708a5b173b9de734e855"` |
+| `serviceAccount.create` |  | `true` |
+| `global.registry.insecure` | Use insecure docker registry | `true` |
+| `global.registry.ingress.enabled` |  | `false` |
+| `global.registry.ingress.host` |  | `"hydrosphere-registry.local"` |
+| `global.registry.ingress.path` |  | `"/"` |
+| `global.registry.ingress.issuer` |  | `"letsencrypt-prod"` |
+| `global.registry.url` |  | `""` |
+| `global.registry.username` | Username to authenticate to the registry | `"example"` |
+| `global.registry.password` | Password to authenticate to the registry | `"example"` |
+| `global.postgresql.url` | Postgresql address if external postgresql use | `""` |
+| `global.postgresql.username` | Postgresql username | `"postgres"` |
+| `global.postgresql.password` | Postgresql password | `"hydr0s3rving"` |
+| `global.postgresql.database` | Postgresql database name | `"hydro-serving"` |
+| `global.tolerations` |  | `[]` |
+| `env` |  | `{}` |
+| `javaOpts` |  | `"-Xmx1024m -Xms128m -Xss16M"` |
+| `image.full` |  | `"hydrosphere/serving-manager:c84b4563d4b7c8419f21ebc041ab368ea69fabf2"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `service.type` |  | `"ClusterIP"` |
-| `service.httpPort` |  | `9090` |
-| `service.grpcPort` |  | `9091` |
-| `resources.limits.memory` |  | `"4Gi"` |
-| `resources.requests.memory` |  | `"512Mi"` |
+| `service.http_port` |  | `9090` |
+| `service.grpc_port` |  | `9091` |
+| `resources` |  | `{}` |
 | `nodeSelector` |  | `{}` |
 | `tolerations` |  | `[]` |
 | `affinity` |  | `{}` |
 
 
 
----
+
+
