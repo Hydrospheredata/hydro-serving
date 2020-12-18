@@ -1,3 +1,4 @@
+
 Ui
 ===========
 
@@ -11,17 +12,18 @@ The following table lists the configurable parameters of the Ui chart and their 
 | Parameter                | Description             | Default        |
 | ------------------------ | ----------------------- | -------------- |
 | `replicaCount` |  | `1` |
-| `sonar.enabled` |  | `false` |
-| `image.full` |  | `"hydrosphere/serving-manager-ui:e99a3feb0607d033bf6482c183ff73bd492d2bdc"` |
+| `global.ui.ingress.enabled` |  | `false` |
+| `global.ui.ingress.host` | Domain name for the frontend ingress. | `"hydrosphere.local"` |
+| `global.ui.ingress.path` | Path, which will match the service. | `"/"` |
+| `global.ui.ingress.enableGrpc` | Enable grpc endpoints for services. works only with `path: "/"`. | `true` |
+| `global.ui.ingress.issuer` | A name of the cert-manager issuer name, configured within the | `"letsencrypt-prod"` |
+| `global.ui.configuration` |  | `"{\n  \"showHeader\": true\n}\n"` |
+| `global.tolerations` |  | `[]` |
+| `image.full` |  | `"hydrosphere/hydro-serving-ui:f0966b739f66f0bb0127efc574c94b2da9373caa"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `service.type` |  | `"ClusterIP"` |
 | `service.httpPort` |  | `9090` |
 | `service.grpcPort` |  | `9091` |
-| `ingress.enabled` |  | `false` |
-| `ingress.annotations` |  | `{}` |
-| `ingress.path` |  | `"/"` |
-| `ingress.hosts` |  | `["hydro-serving.local"]` |
-| `ingress.tls` |  | `[]` |
 | `resources` |  | `{}` |
 | `nodeSelector` |  | `{}` |
 | `tolerations` |  | `[]` |
@@ -29,4 +31,5 @@ The following table lists the configurable parameters of the Ui chart and their 
 
 
 
----
+
+
