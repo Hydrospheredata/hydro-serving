@@ -7,3 +7,6 @@ manager:
 gateway:
   image:
     full: hydrosphere/serving-gateway:3ae75a74213c57273192da6406b14602319c4b9c
+sonar:
+  image:
+    full: hydrosphere/sonar:3ae75a74213c57273192da6406b14602319c4b9c
