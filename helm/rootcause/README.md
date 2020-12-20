@@ -1,3 +1,4 @@
+
 Rootcause
 ===========
 
@@ -10,14 +11,19 @@ The following table lists the configurable parameters of the Rootcause chart and
 
 | Parameter                | Description             | Default        |
 | ------------------------ | ----------------------- | -------------- |
-| `global.mongodb.usePassword` |  | `true` |
-| `global.mongodb.mongodbRootPassword` |  | `"hydr0s3rving"` |
-| `global.mongodb.mongodbUsername` |  | `"root"` |
-| `global.mongodb.mongodbPassword` |  | `"hydr0s3rving"` |
-| `global.mongodb.mongodbAuthDatabase` |  | `"admin"` |
-| `global.mongodb.mongodbDatabase` |  | `"rootcause"` |
-| `global.awsCredentialSecretName` |  | `""` |
-| `image.full` |  | `"docker.hydrosphere.io/hydro-root-cause:fcafdc4795ac37cdeb9533054771c806966aa264"` |
+| `global.persistence.url` | Endpoint for the object storage. compatible with s3 or minio. | `""` |
+| `global.persistence.mode` |  | `"minio"` |
+| `global.persistence.accessKey` | Accesskeyid for s3 or minio | `"ACCESSKEYEXAMPLE"` |
+| `global.persistence.secretKey` | Secretkeyid for s3 or minio | `"SECRETKEYEXAMPLE"` |
+| `global.persistence.region` |  | `"us-east-1"` |
+| `global.tolerations` |  | `[]` |
+| `global.mongodb.url` | Mongodb address if external mongodb use | `""` |
+| `global.mongodb.rootPassword` | Mongodb root password | `"hydr0s3rving"` |
+| `global.mongodb.username` | Mongodb username | `"root"` |
+| `global.mongodb.password` | Mongodb password | `"hydr0s3rving"` |
+| `global.mongodb.authDatabase` | Mongodb auth database | `"admin"` |
+| `global.mongodb.database` | Mongodb database name | `"rootcause"` |
+| `image.full` |  | `"hydrosphere/hydro-root-cause:9b03e06de09b00a98c503a751fd35614bc81c64c"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `service.type` |  | `"ClusterIP"` |
 | `service.port` |  | `5005` |
@@ -28,4 +34,5 @@ The following table lists the configurable parameters of the Rootcause chart and
 
 
 
----
+
+

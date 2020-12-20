@@ -167,7 +167,7 @@ services:
       MONGO_URL: mongodb
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: harbor.hydrosphere.io/hydro-test/hydro-root-cause:0.1.18
+    image: hydrosphere/hydro-root-cause:9b03e06de09b00a98c503a751fd35614bc81c64c
     networks:
       extnet: {}
       hydronet: {}
@@ -191,7 +191,7 @@ services:
       MONGO_URL: mongodb
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: harbor.hydrosphere.io/hydro-test/hydro-root-cause:0.1.18
+    image: hydrosphere/hydro-root-cause:9b03e06de09b00a98c503a751fd35614bc81c64c
     networks:
       hydronet: {}
   serving-sonar:
