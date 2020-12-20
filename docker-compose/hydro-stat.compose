@@ -3,7 +3,7 @@ version: "3.5"
 services:
   stat:
     container_name: stat
-    image: harbor.hydrosphere.io/hydro-test/hydro-stat:0.4.13
+    image: hydrosphere/stat:ceddea5a13f922cd482679b1220821894168079b
     environment:
       - MONGO_URL=mongodb
       - AWS_ACCESS_KEY_ID=minio

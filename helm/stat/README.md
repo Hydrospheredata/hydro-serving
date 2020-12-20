@@ -1,3 +1,4 @@
+
 Stat
 ===========
 
@@ -10,15 +11,21 @@ The following table lists the configurable parameters of the Stat chart and thei
 
 | Parameter                | Description             | Default        |
 | ------------------------ | ----------------------- | -------------- |
-| `image.full` |  | `"docker.hydrosphere.io/stat:84f33c817748c2f4a2fbc99e5c476076f887052f"` |
-| `image.pullPolicy` | Ifnotpresent | `"Always"` |
-| `global.awsCredentialSecretName` |  | `""` |
-| `global.mongodb.usePassword` |  | `true` |
-| `global.mongodb.mongodbRootPassword` |  | `"hydr0s3rving"` |
-| `global.mongodb.mongodbUsername` |  | `"root"` |
-| `global.mongodb.mongodbPassword` |  | `"hydr0s3rving"` |
-| `global.mongodb.mongodbAuthDatabase` |  | `"admin"` |
-| `global.mongodb.mongodbDatabase` |  | `"hydro-serving-data-profiler"` |
+| `image.full` |  | `"hydrosphere/stat:ceddea5a13f922cd482679b1220821894168079b"` |
+| `image.pullPolicy` |  | `"IfNotPresent"` |
+| `global.persistence.mode` | Enable persistence mode for services (use s3, minio, local) | `"local"` |
+| `global.persistence.accessKey` | Accesskeyid for s3 or minio | `"ACCESSKEYEXAMPLE"` |
+| `global.persistence.secretKey` | Secretkeyid for s3 or minio | `"SECRETKEYEXAMPLE"` |
+| `global.persistence.region` | S3 bucket region | `"eu-central-1"` |
+| `global.persistence.endpointUrl` | Endpoint for non aws s3 | `"http://minio:9000"` |
+| `global.persistence.bucket` | S3 bucket name | `"example"` |
+| `global.mongodb.url` | Mongodb address if external mongodb use | `""` |
+| `global.mongodb.rootPassword` | Mongodb root password | `"hydr0s3rving"` |
+| `global.mongodb.username` | Mongodb username | `"root"` |
+| `global.mongodb.password` | Mongodb password | `"hydr0s3rving"` |
+| `global.mongodb.authDatabase` | Mongodb auth database | `"admin"` |
+| `global.mongodb.database` | Mongodb database name | `"hydro-serving-data-profiler"` |
+| `global.tolerations` |  | `[]` |
 | `service.type` |  | `"ClusterIP"` |
 | `service.port` |  | `5002` |
 | `resources` |  | `{}` |
@@ -28,4 +35,5 @@ The following table lists the configurable parameters of the Stat chart and thei
 
 
 
----
+
+
