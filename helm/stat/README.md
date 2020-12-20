@@ -11,7 +11,7 @@ The following table lists the configurable parameters of the Stat chart and thei
 
 | Parameter                | Description             | Default        |
 | ------------------------ | ----------------------- | -------------- |
-| `image.full` |  | `"hydrosphere/stat:ceddea5a13f922cd482679b1220821894168079b"` |
+| `image.full` |  | `"hydrosphere/stat:eff9e50bd8434c55e22843a3480e17541c34bfca"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `global.persistence.mode` | Enable persistence mode for services (use s3, minio, local) | `"local"` |
 | `global.persistence.accessKey` | Accesskeyid for s3 or minio | `"ACCESSKEYEXAMPLE"` |
