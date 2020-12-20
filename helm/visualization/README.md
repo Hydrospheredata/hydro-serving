@@ -1,3 +1,4 @@
+
 Visualization
 ===========
 
@@ -10,18 +11,21 @@ The following table lists the configurable parameters of the Visualization chart
 
 | Parameter                | Description             | Default        |
 | ------------------------ | ----------------------- | -------------- |
-| `image.full` |  | `"docker.hydrosphere.io/visualization:054370b455002511c1387e33f1252baa472ed3fe"` |
-| `image.pullPolicy` | Ifnotpresent | `"Always"` |
-| `global.awsCredentialSecretName` |  | `""` |
-| `global.mongodb.usePassword` |  | `true` |
-| `global.mongodb.mongodbRootPassword` |  | `"hydr0s3rving"` |
-| `global.mongodb.mongodbUsername` |  | `"root"` |
-| `global.mongodb.mongodbPassword` |  | `"hydr0s3rving"` |
-| `global.mongodb.mongodbAuthDatabase` |  | `"admin"` |
-| `global.mongodb.mongodbDatabase` |  | `"hydro-serving-data-profiler"` |
-| `global.s3.featureLakeBucketName` |  | `"feature-lake"` |
-| `global.s3.featureLakeBucketCreate` |  | `false` |
-| `global.s3.hydrovizBucketName` |  | `"hydro-viz"` |
+| `image.full` |  | `"hydrosphere/hydro-visualization:309eca2f620a3959ab0173854d2a2d305bebc2e4"` |
+| `image.pullPolicy` |  | `"IfNotPresent"` |
+| `persistence.bucket` |  | `"hydrosphere-visualization-artifacts"` |
+| `global.persistence.url` |  | `""` |
+| `global.persistence.mode` |  | `"minio"` |
+| `global.persistence.accessKey` |  | `"ACCESSKEYEXAMPLE"` |
+| `global.persistence.secretKey` |  | `"SECRETKEYEXAMPLE"` |
+| `global.persistence.region` |  | `"us-east-1"` |
+| `global.mongodb.url` | Mongodb address if external mongodb use | `""` |
+| `global.mongodb.rootPassword` | Mongodb root password | `"hydr0s3rving"` |
+| `global.mongodb.username` | Mongodb username | `"root"` |
+| `global.mongodb.password` | Mongodb password | `"hydr0s3rving"` |
+| `global.mongodb.authDatabase` | Mongodb auth database | `"admin"` |
+| `global.mongodb.database` | Mongodb database name | `"hydro-serving-data-profiler"` |
+| `global.tolerations` |  | `[]` |
 | `service.type` |  | `"ClusterIP"` |
 | `service.httpPort` |  | `5000` |
 | `service.grpcPort` |  | `5003` |
@@ -32,4 +36,5 @@ The following table lists the configurable parameters of the Visualization chart
 
 
 
----
+
+
