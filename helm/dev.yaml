@@ -10,9 +10,9 @@ gateway:
 sonar:
   image:
     full: hydrosphere/sonar:26bf4f9fb26dd43f1805c340f61441a31749c1d0
-visualization:
+    full: hydrosphere/hydro-visualization:fa9ff705deb7192baa984569505c5cc6b8151de9
   image:
-    full: hydrosphere/visualization:309eca2f620a3959ab0173854d2a2d305bebc2e4
+    full: hydrosphere/hydro-visualization:fa9ff705deb7192baa984569505c5cc6b8151de9
 # auto-od:
 #   image:
 #     full: hydrosphere/auto-od:3ae75a74213c57273192da6406b14602319c4b9c 
