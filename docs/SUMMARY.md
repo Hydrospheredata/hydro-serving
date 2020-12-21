@@ -30,6 +30,7 @@
 * [Installation](quickstart/installation/README.md)
   * [CLI](quickstart/installation/cli.md)
   * [Python SDK](quickstart/installation/sdk.md)
+  * [Configuring Helm charts](quickstart/installation/configuring-helm-charts.md)
 * [Getting Started](quickstart/getting-started.md)
 * [Tutorials](quickstart/tutorials/README.md)
   * [A/B Analysis for a Recommendation Model](quickstart/tutorials/a-b-analysis-for-a-recommendation-model.md)
