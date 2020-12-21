@@ -50,8 +50,8 @@ spec:
             - name: MONGO_PASS
               valueFrom:
                 secretKeyRef:
-                  name: "{{ .Release.Name }}-mongodb-secret"
-                  key: "password"
+                  name: {{ template "mongodb.fullname" . }}
+                  key: mongodb-password
             {{- end }}
             {{- if .Values.global.mongodb.authDatabase }}
             - name: MONGO_AUTH_DB

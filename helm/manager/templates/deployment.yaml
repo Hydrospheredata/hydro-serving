@@ -76,8 +76,8 @@ spec:
             - name: DATABASE_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: "{{ .Release.Name }}-postgresql-secret"
-                  key: "password"
+                  name: {{ template "postgresql.fullname" . }}
+                  key: postgresql-password
             - name: DOCKER_HOST
               value: "tcp://localhost:2375" # dind
             - name: CLOUD_DRIVER

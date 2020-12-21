@@ -58,8 +58,8 @@ spec:
             - name: MONGO_PASS
               valueFrom:
                 secretKeyRef:
-                  name: "{{ .Release.Name }}-mongodb-secret"
-                  key: "password"
+                  name: {{ template "mongodb.fullname" . }}
+                  key: mongodb-password
             {{- end }}
             {{- if .Values.global.mongodb.authDatabase }}
             - name: MONGO_AUTH_DB
@@ -99,8 +99,8 @@ spec:
             - name: DB_PASS
               valueFrom:
                 secretKeyRef:
-                  name: "{{ .Release.Name }}-postgresql-secret"
-                  key: "password"           
+                  name: {{ template "postgresql.fullname" . }}
+                  key: postgresql-password          
             - name: ALERTING_MANAGER_URL
               value: {{ if .Values.global.alertmanager.url }} "{{ .Values.global.alertmanager.url }}" {{ else }} "{{ template "alertmanager.fullname" . }}:9093" {{ end }}
             - name: ALERTING_FRONTEND_URL
