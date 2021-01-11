@@ -6,7 +6,7 @@ Hydrosphere Monitoring is not available as an open-source solution. If you are i
 
 ## Automatic Outlier Detection
 
-![](../../.gitbook/assets/auto-od-service-diagram%20%281%29%20%284%29.png)
+![](../../.gitbook/assets/auto-od-service-diagram%20%281%29%20%284%29%20%283%29.png)
 
 ## Sonar
 
@@ -16,5 +16,5 @@ Sonar service is responsible for managing metrics, training and production data 
 
 ## Drift Report
 
-![](../../.gitbook/assets/drift-report-service-diagram%20%281%29%20%284%29.png)
+![](../../.gitbook/assets/drift-report-service-diagram%20%281%29%20%284%29%20%283%29.png)
 

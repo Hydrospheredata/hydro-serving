@@ -19,7 +19,9 @@ To start working with Data Projection you need to create a model that has an out
 2. Send data through your model
 3. Check Data Projection service inside the Model Details menu
 
-Inside Data Projection service you can see your requests features projected on a 2D space: ![](https://github.com/Hydrospheredata/hydro-serving/tree/54b7457851ad9de078cd092f083b8492dea6edca/docs/services/interpretability/images/data_projector_ui_tips.png)
+Inside Data Projection service you can see your requests features projected on a 2D space:  
+
+![](../../.gitbook/assets/data_projector_ui_tips.png)
 
 Each point in the plot presents a request. Requests with similar features are close to each other. You can select a specific request point and inspect what it consists of.
 

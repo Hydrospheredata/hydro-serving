@@ -23,7 +23,7 @@ By the end of this tutorial you will know how to:
 For this tutorial, you need to have **Hydrosphere Platform** deployed and **Hydrosphere CLI** \(`hs`\) along with **Python SDK** \(`hydrosdk`\) \_\*\*\_installed on your local machine. If you don't have them yet, please follow these guides first:
 
 * [Platform Installation](installation/)
-* [CLI](https://hydrosphere.gitbook.io/home/installation/cli)
+* [CLI](installation/cli.md)
 * [SDK](installation/sdk.md)
 
 To let `hs` know where the Hydrosphere platform runs, configure a new `cluster` entity:
@@ -218,7 +218,7 @@ If you cannot find your newly uploaded model and it is listed on your models' pa
 
 Once you have opened your model in the UI, you can create an **application** for it. Basically, an application represents an endpoint to your model, so you can invoke it from anywhere. To learn more about advanced features, go to the [Applications](https://github.com/Hydrospheredata/hydro-serving/tree/54b7457851ad9de078cd092f083b8492dea6edca/docs/getting-started/concepts/applications.md) page.
 
-![Creating an Application from the uploaded model](../.gitbook/assets/application_creation%20%281%29%20%284%29.gif)
+![Creating an Application from the uploaded model](../.gitbook/assets/application_creation%20%281%29%20%283%29.gif)
 
 Open [http://localhost/applications](http://localhost/applications) and press the `Add New Application` button. In the opened window select the `logistic_regression` model, name your application `logistic_regression` and click the "Add Application" button.
 
@@ -361,7 +361,7 @@ for sample in X:
 
 You can monitor your data quality in the Monitoring Dashboard:
 
-![](../.gitbook/assets/image%20%283%29%20%284%29.png)
+![](../.gitbook/assets/image%20%283%29%20%284%29%20%284%29.png)
 
 The Monitoring dashboard plots all requests streaming through a model version as rectangles colored according to how "healthy" they are. On the horizontal axis, we group our data by batches and on the vertical axis, we group data by signature fields. In this plot, cells are determined by their batch and field. Cells are colored from green to red, depending on the average request health inside this batch.
 
