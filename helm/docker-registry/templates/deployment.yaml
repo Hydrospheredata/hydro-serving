@@ -60,6 +60,10 @@ spec:
               containerPort: 5000
               protocol: TCP
           env:
+            - name: REGISTRY_STORAGE_DELETE_ENABLED
+              value: 'true'
+            - name: REGISTRY_HTTP_HOST
+              value: 'https://{{ .Values.global.registry.ingress.host }}:443'
             - name: REGISTRY_AUTH
               value: "htpasswd"
             - name: REGISTRY_AUTH_HTPASSWD_REALM
