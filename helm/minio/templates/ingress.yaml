@@ -28,18 +28,10 @@ spec:
               serviceName: {{ include "common.names.fullname" $ }}
               servicePort: minio
   tls:
-    {{- range .Values.ingress.hosts }}
     {{- if .tls }}
     - hosts:
-        {{- if .tlsHosts }}
-        {{- range $host := .tlsHosts }}
-        - {{ $host }}
-        {{- end }}
-        {{- else }}
-        - {{ .name }}
-        {{- end }}
+        - {{ .Values.global.persistence.ingress.host }}
       secretName: {{ .tlsSecret }}
-    {{- end }}
     {{- end }}
 {{- end }}
 {{- end }}
