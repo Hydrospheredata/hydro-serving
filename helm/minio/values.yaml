@@ -389,7 +389,7 @@ ingress:
       path: /
 
       ## Set this to true in order to enable TLS on the ingress record
-      tls: false
+      tls: true
 
       ## Optionally specify the TLS hosts for the ingress record
       ## Useful when the Ingress controller supports www-redirection
