@@ -3,6 +3,10 @@
 ## Current available global Docker image parameters: imageRegistry and imagePullSecrets
 ##
 global:
+  ui:
+    ingress:
+      issuer: "letsencrypt-prod" # A name of the cert-manager issuer name, configured within the 
+                                 # cluster.
   persistence:
     url: "" # Endpoint for the object storage. Compatible with S3 or Minio.
     mode: "minio"
