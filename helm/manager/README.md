@@ -28,7 +28,7 @@ The following table lists the configurable parameters of the Manager chart and t
 | `global.tolerations` |  | `[]` |
 | `env` |  | `{}` |
 | `javaOpts` |  | `"-Xmx1024m -Xms128m -Xss16M"` |
-| `image.full` |  | `"hydrosphere/serving-manager:06393554b6a833108f1e87f50a276372e3a5c45d"` |
+| `image.full` |  | `"hydrosphere/serving-manager:8a5a06a4b1d022c7511eea86c9475e958e9e273e"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `service.type` |  | `"ClusterIP"` |
 | `service.http_port` |  | `9090` |
