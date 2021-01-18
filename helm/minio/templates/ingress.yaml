@@ -30,6 +30,6 @@ spec:
   tls:
     - hosts:
         - {{ .Values.global.persistence.ingress.host }}
-      secretName: {{ .tlsSecret }}
+      secretName: {{ include "common.names.fullname" . }}-tls
 {{- end }}
 {{- end }}
