@@ -13,7 +13,7 @@ metadata:
     cert-manager.io/cluster-issuer: {{ .Values.global.ui.ingress.issuer | quote }}
     kubernetes.io/ingress.class: "nginx"
     kubernetes.io/tls-acme: "true"
-    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
     nginx.ingress.kubernetes.io/client-max-body-size: "0"
     nginx.ingress.kubernetes.io/proxy-body-size: "0"
     nginx.ingress.kubernetes.io/proxy-buffering: "off"
@@ -52,7 +52,7 @@ metadata:
     cert-manager.io/cluster-issuer: {{ .Values.global.ui.ingress.issuer | quote }}
     kubernetes.io/ingress.class: "nginx"
     kubernetes.io/tls-acme: "true"
-    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
     nginx.ingress.kubernetes.io/client-max-body-size: "0"
     nginx.ingress.kubernetes.io/proxy-body-size: "0"
     nginx.ingress.kubernetes.io/proxy-buffering: "off"
