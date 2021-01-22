@@ -12,8 +12,8 @@ sonar:
     full: hydrosphere/sonar:d88e05cb023a952f1480df9c8df7f7d705182a3c
 visualization:
   image:
-    full: hydrosphere/hydro-visualization:fa9ff705deb7192baa984569505c5cc6b8151de9
-    full: hydrosphere/auto-od:669a7fecc3da3e16810ed50c4474fa257bf7467c
+    full: hydrosphere/hydro-visualization:fa9ff705deb7192baa984569505c5cc6b8151de9  
+auto-od:
   image:
     full: hydrosphere/auto-od:669a7fecc3da3e16810ed50c4474fa257bf7467c
 stat:
