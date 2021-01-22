@@ -21,7 +21,7 @@ services:
       HS_CLUSTER_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       S3_ENDPOINT: http://minio:9000
-    image: harbor.hydrosphere.io/hydro-test/hydro-auto-od:0.1.7.1
+    image: hydrosphere/auto-od:4dc0fc6ab58bdbd28160afb47dcb1c5759332a34
     networks:
       extnet: {}
       hydronet: {}
