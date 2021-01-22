@@ -6,7 +6,7 @@ manager:
     full: hydrosphere/serving-manager:8a5a06a4b1d022c7511eea86c9475e958e9e273e
 gateway:
   image:
-    full: hydrosphere/serving-gateway:3ae75a74213c57273192da6406b14602319c4b9c
+    full: hydrosphere/serving-gateway:4fcc79009505954451867b489eae18cd78dd4e25
 sonar:
   image:
     full: hydrosphere/sonar:26bf4f9fb26dd43f1805c340f61441a31749c1d0

@@ -1,3 +1,4 @@
+
 Gateway
 ===========
 
@@ -10,9 +11,10 @@ The following table lists the configurable parameters of the Gateway chart and t
 
 | Parameter                | Description             | Default        |
 | ------------------------ | ----------------------- | -------------- |
-| `global.shadowing_on` |  | `false` |
+| `global.tolerations` |  | `[]` |
 | `replicaCount` |  | `1` |
-| `image.full` |  | `"hydrosphere/serving-gateway:7efc404a2877ce9d52eb393593f539225fd691b2"` |
+| `javaOpts` |  | `"-Xmx512m -Xms64m -Xss16M"` |
+| `image.full` |  | `"hydrosphere/serving-gateway:4fcc79009505954451867b489eae18cd78dd4e25"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `service.type` |  | `"ClusterIP"` |
 | `service.http_port` |  | `9090` |
@@ -24,4 +26,5 @@ The following table lists the configurable parameters of the Gateway chart and t
 
 
 
----
+
+
