@@ -46,7 +46,7 @@ spec:
             {{- end }}
           {{- end }}
         - name: kubectl-proxy
-          image: tommyvn/kubectl-proxy
+          image: xian310/kubectl-proxy
           imagePullPolicy: {{ .Values.image.pullPolicy }}
         - name: {{ .Chart.Name }}
           image: {{ if .Values.image.full }}"{{ .Values.image.full }}"{{ else }}"{{ .Values.image.repository }}:{{ .Values.image.tag }}"{{ end }}
