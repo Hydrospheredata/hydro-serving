@@ -11,7 +11,7 @@ The following table lists the configurable parameters of the Auto-od chart and t
 
 | Parameter                | Description             | Default        |
 | ------------------------ | ----------------------- | -------------- |
-| `image.full` |  | `"harbor.hydrosphere.io/hydro-serving/auto-od:f2c268ea1ffe29d65fc4587a26e508a88ffe3d67"` |
+| `image.full` |  | `"hydrosphere/auto-od:669a7fecc3da3e16810ed50c4474fa257bf7467c"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `global.persistence.url` | Endpoint for the object storage. compatible with s3 or minio. | `""` |
 | `global.persistence.mode` |  | `"minio"` |
