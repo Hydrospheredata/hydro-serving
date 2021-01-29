@@ -56,25 +56,19 @@ metadata:
     nginx.ingress.kubernetes.io/client-max-body-size: "0"
     nginx.ingress.kubernetes.io/proxy-body-size: "0"
     nginx.ingress.kubernetes.io/proxy-buffering: "off"
-    nginx.ingress.kubernetes.io/proxy-http-version: "1.1"
-    nginx.ingress.kubernetes.io/proxy-request-buffering: "off"
     nginx.ingress.kubernetes.io/backend-protocol: "GRPC"
     nginx.ingress.kubernetes.io/grpc-backend: "true"
 spec:
   rules:
-  - host: {{ .Values.global.ui.ingress.host }}
+  - host: {{ .Values.global.ui.ingress.grpchost }}
     http:
       paths:
-        - path: "/tensorflow.serving."
+        - path: "/"
           backend: 
-            serviceName: {{ template "ui.fullname" . }}
-            servicePort: grpc
-        - path: "/hydrosphere."
-          backend:
             serviceName: {{ template "ui.fullname" . }}
             servicePort: grpc
   tls:
   - hosts:
-    - {{ .Values.global.ui.ingress.host }}
+    - {{ .Values.global.ui.ingress.grpchost }}
     secretName: "{{ .Release.Name }}-ui-grpc-tls"
 {{- end }}

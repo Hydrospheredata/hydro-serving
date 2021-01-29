@@ -5,6 +5,7 @@ global:
       host: "hydrosphere.local" # Domain name for the frontend ingress.
       path: "/" # Path, which will match the service.
       enableGrpc: true # Enable grpc endpoints for services. Works only with `path: "/"`. 
+      grpchost: "grpc.local" #Domain name for the grpc ingress
       issuer: "letsencrypt-prod" # A name of the cert-manager issuer name, configured within the 
                                  # cluster.
 
