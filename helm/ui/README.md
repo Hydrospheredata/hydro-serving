@@ -16,10 +16,11 @@ The following table lists the configurable parameters of the Ui chart and their 
 | `global.ui.ingress.host` | Domain name for the frontend ingress. | `"hydrosphere.local"` |
 | `global.ui.ingress.path` | Path, which will match the service. | `"/"` |
 | `global.ui.ingress.enableGrpc` | Enable grpc endpoints for services. works only with `path: "/"`. | `true` |
+| `global.ui.ingress.grpchost` | Domain name for the grpc ingress | `"grpc.local"` |
 | `global.ui.ingress.issuer` | A name of the cert-manager issuer name, configured within the | `"letsencrypt-prod"` |
 | `global.ui.configuration` |  | `"{\n  \"showHeader\": true\n}\n"` |
 | `global.tolerations` |  | `[]` |
-| `image.full` |  | `"hydrosphere/hydro-serving-ui:66daa0e971bec7f5f1c9c8c2cfc8c5fc3c96536c"` |
+| `image.full` |  | `"hydrosphere/hydro-serving-ui:d62e3d44fad43cd408f00cde08c869a3c69b50f3"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `service.type` |  | `"ClusterIP"` |
 | `service.httpPort` |  | `9090` |
