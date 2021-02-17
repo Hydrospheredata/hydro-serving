@@ -50,7 +50,7 @@ services:
     environment:
       DATABASE_HOST: postgres
       NETWORK_NAME: demo_hydronet
-    image: hydrosphere/serving-manager:d2b26931b7357fba38143fe7de0a14bef9e59d31
+    image: hydrosphere/serving-manager:64cea0cc1f81c99ab5e4df8659c0aee62aee08fd
     networks:
       extnet: {}
       hydronet: {}
