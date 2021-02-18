@@ -216,7 +216,7 @@ services:
       STORAGE_PATH_STYLE_ACCESS: "true"
       STORAGE_S3_IMPL: org.apache.hadoop.fs.s3a.S3AFileSystem
       STORAGE_SECRET_KEY: minio123
-    image: hydrosphere/sonar:d88e05cb023a952f1480df9c8df7f7d705182a3c
+    image: hydrosphere/sonar:2a41d4a1fcaed171ebd0f3153f05b09ef2afbe2c
     networks:
       extnet: {}
       hydronet: {}
