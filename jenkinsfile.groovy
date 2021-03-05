@@ -46,7 +46,7 @@ if (getJobType() == "RELEASE_JOB") {
       sh "git tag -a ${curVersion} --file /tmp/tagMessage${curVersion}"
       sh "git checkout ${env.BRANCH_NAME}"
 
-      sh "cd helm && helm package --dependency-update --version ${curVersion} serving"
+      sh "cd helm && helm init --client-only && helm package --dependency-update --version ${curVersion} serving"
       def releaseFile = "serving-${curVersion}.tgz"
 
       def sha = sh(script: "cd helm && shasum -a 256 -b ${releaseFile} | awk '{ print \$1 }'", returnStdout: true).trim()
