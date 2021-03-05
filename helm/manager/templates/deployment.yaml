@@ -108,11 +108,16 @@ spec:
             - name: REMOTE_DOCKER_PULL_HOST
               value: "localhost:5000"
             {{- end }} 
+            {{- if ne .Values.global.registry.url "" }}
+            - name: REMOTE_DOCKER_REGISTRY_PASSWORD
+              value: "{{ .Values.global.registry.password }}"
+            {{- else }}
             - name: REMOTE_DOCKER_REGISTRY_PASSWORD
               valueFrom:
                 secretKeyRef:
                   name: "{{ .Release.Name }}-docker-registry-secret"
-                  key: "password"
+                  key: "password"            
+            {{- end }}
             - name: REMOTE_DOCKER_REGISTRY_USERNAME
               value: "{{ .Values.global.registry.username }}"
             {{- with .Values.env }}
