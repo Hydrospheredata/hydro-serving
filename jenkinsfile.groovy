@@ -46,7 +46,7 @@ if (getJobType() == "RELEASE_JOB") {
       sh "git tag -a ${curVersion} --file /tmp/tagMessage${curVersion}"
       sh "git checkout ${env.BRANCH_NAME}"
 
-      sh "cd helm && helm init --client-only && helm package --dependency-update --version ${curVersion} serving"
+      sh "cd helm && helm init --client-only --stable-repo-url https://charts.helm.sh/stable && helm package --dependency-update --version ${curVersion} serving"
       def releaseFile = "serving-${curVersion}.tgz"
 
       def sha = sh(script: "cd helm && shasum -a 256 -b ${releaseFile} | awk '{ print \$1 }'", returnStdout: true).trim()
@@ -86,7 +86,7 @@ if (getJobType() == "RELEASE_JOB") {
     }
 
     stage("Test Release") {
-      sh "cd helm && helm init --client-only && helm dependency build serving"
+      sh "cd helm && helm init --client-only --stable-repo-url https://charts.helm.sh/stable && helm dependency build serving"
       // lint
       sh "cd helm && rc=0; for chart in \$(ls -d ./*/); do helm lint \$chart || rc=\$?; done; return \$rc"
       // test
