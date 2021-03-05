@@ -86,7 +86,7 @@ if (getJobType() == "RELEASE_JOB") {
     }
 
     stage("Test Release") {
-      sh "cd helm && helm dependency build serving"
+      sh "cd helm && helm init --client-only && helm dependency build serving"
       // lint
       sh "cd helm && rc=0; for chart in \$(ls -d ./*/); do helm lint \$chart || rc=\$?; done; return \$rc"
       // test
