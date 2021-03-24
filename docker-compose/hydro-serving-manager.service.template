@@ -13,7 +13,7 @@ services:
       - hydronet
       - extnet
     environment:
-      - "DATABASE_HOST=postgres"
-      - "NETWORK_NAME=demo_hydronet"
+      CUSTOM_CONFIG: /app/config/dc.conf
     volumes:
+      - ./docker-compose/dc.conf:/app/config/dc.conf:ro
       - /var/run/docker.sock:/var/run/docker.sock

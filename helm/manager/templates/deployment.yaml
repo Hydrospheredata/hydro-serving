@@ -59,16 +59,12 @@ spec:
               containerPort: 9091
               protocol: TCP
           env:
+            - name: CUSTOM_CONFIG
+              value: "/app/config/k8s.conf"
             - name: JAVA_OPTS
               value: {{ .Values.javaOpts | quote }}
-            - name: ADVERTISED_MANAGER_HOST
-              value: "{{ template "manager.fullname" . }}"
-            - name: ADVERTISED_MANAGER_PORT
-              value: "9091"
             - name: DATABASE_HOST
               value: {{ if .Values.global.postgresql.url }}"{{ .Values.global.postgresql.url }}"{{ else }}"{{ template "postgresql.fullname" . }}" {{ end }}
-            - name: DATABASE_PORT
-              value: "5432"
             - name: DATABASE_NAME
               value: "{{ .Values.global.postgresql.database }}"
             - name: DATABASE_USERNAME
@@ -80,12 +76,6 @@ spec:
                   key: postgresql-password
             - name: DOCKER_HOST
               value: "tcp://localhost:2375" # dind
-            - name: CLOUD_DRIVER
-              value: "kubernetes"
-            - name: KUBE_PROXY_SERVICE_HOST
-              value: "localhost"
-            - name: KUBE_PROXY_SERVICE_PORT
-              value: "8001"
             - name: KUBE_REGISTRY_SECRET_NAME
               value: "docker-credentials-{{ .Release.Name }}"
             - name: KUBE_NAMESPACE
@@ -105,8 +95,6 @@ spec:
             {{- else }}
             - name: REMOTE_DOCKER_REGISTRY_HOST
               value: "{{ template "docker-registry.fullname" . }}.{{.Release.Namespace}}.svc.cluster.local:5000"
-            - name: REMOTE_DOCKER_PULL_HOST
-              value: "localhost:5000"
             {{- end }} 
             {{- if ne .Values.global.registry.url "" }}
             - name: REMOTE_DOCKER_REGISTRY_PASSWORD
@@ -121,11 +109,14 @@ spec:
             - name: REMOTE_DOCKER_REGISTRY_USERNAME
               value: "{{ .Values.global.registry.username }}"
             {{- with .Values.env }}
-{{ toYaml . | indent 12 }}
+              {{ toYaml . | indent 12 }}
             {{- end }}
           volumeMounts:
             - name: dockerconfig
               mountPath: "/root/.docker"
+              readOnly: true
+            - name: {{ template "manager.fullname" . }}-config
+              mountPath: "/app/config/k8s.conf"
               readOnly: true
           livenessProbe:
             initialDelaySeconds: 40
