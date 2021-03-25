@@ -116,7 +116,7 @@ spec:
               mountPath: "/root/.docker"
               readOnly: true
             - name: {{ template "manager.fullname" . }}-config
-              mountPath: "/app/config/k8s.conf"
+              mountPath: "/app/config/"
               readOnly: true
           livenessProbe:
             initialDelaySeconds: 40
@@ -143,6 +143,12 @@ spec:
 {{ toYaml .Values.global.tolerations | indent 8 }}
 {{- end }}
       volumes:
+        - name: {{ template "manager.fullname" . }}-config
+          configMap:
+            name: {{ template "manager.fullname" . }}-config
+            items:
+              - key: k8s.conf
+                path: k8s.conf
         - name: dockerconfig
           secret:
             secretName: "docker-credentials-{{ .Release.Name }}"
