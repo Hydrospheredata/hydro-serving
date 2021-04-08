@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   rootcause:
-    image: hydrosphere/hydro-root-cause:73721910db505b35226249756bdfe3b475f97497
+    image: hydrosphere/hydro-root-cause:256d6e3ef012d45be79e7287dde54ca2764d9cfd
     container_name: rootcause
     command: python app.py
     depends_on:
@@ -27,7 +27,7 @@ services:
       - extnet
 
   rootcause-worker:
-    image: hydrosphere/hydro-root-cause:73721910db505b35226249756bdfe3b475f97497
+    image: hydrosphere/hydro-root-cause:256d6e3ef012d45be79e7287dde54ca2764d9cfd
     container_name: rootcause-worker
     command: celery -A app.celery worker -l info -O fair -Q rootcause
     depends_on:
