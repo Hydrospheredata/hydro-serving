@@ -18,7 +18,7 @@ visualization:
     full: hydrosphere/auto-od:7cec5d2ebde759e1001b0e8d9a3578e13572e96e
 stat:
   image:
-    full: hydrosphere/stat:f72b0ceb5911bd249455e6cb7ae0d2e9d412cf1c
+    full: hydrosphere/stat:343d76a3b01b73b5170d5ae602b0066fe0eeb211
 rootcause:
   image:
     full: hydrosphere/hydro-root-cause:256d6e3ef012d45be79e7287dde54ca2764d9cfd
