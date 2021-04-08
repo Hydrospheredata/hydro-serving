@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   gateway:
-    image: hydrosphere/serving-gateway:933ed22f29815c126c312cd484cc3bff0c4c9eef
+    image: hydrosphere/serving-gateway:9703a1d87126ca95552d9c3dbdd3b7a5ac1a3013
     container_name: gateway
     ports:
       - "29090:9090"
