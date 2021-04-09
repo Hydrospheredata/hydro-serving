@@ -11,10 +11,8 @@ services:
   auto-od:
     container_name: auto-od
     depends_on:
-      minio:
-        condition: service_started
-      mongodb:
-        condition: service_started
+    - minio
+    - mongodb
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
@@ -32,15 +30,14 @@ services:
   gateway:
     container_name: gateway
     depends_on:
-      manager:
-        condition: service_started
+    - manager
     environment:
       API_GATEWAY_GRPC_PORT: '9090'
       API_GATEWAY_HOST: managerui
       API_GATEWAY_HTTP_PORT: '8080'
       GRPC_PORT: '9091'
       HTTP_PORT: '9090'
-    image: hydrosphere/serving-gateway
+    image: hydrosphere/serving-gateway:98e9add3a034ef5b85d628bb17cbceec1bfd515c
     networks:
       hydronet: {}
     ports:
@@ -51,8 +48,7 @@ services:
   manager:
     container_name: manager
     depends_on:
-      postgres:
-        condition: service_started
+    - postgres
     environment:
       CUSTOM_CONFIG: /app/config/dc.conf
     image: hydrosphere/serving-manager
@@ -65,21 +61,16 @@ services:
     - published: 19091
       target: 9091
     volumes:
-    - ./docker-compose/dc.conf:/app/config/dc.conf:ro
+    - /tmp/agent/workspace/.io_hydro-serving-gateway_master/release/docker-compose/dc.conf:/app/config/dc.conf:ro
     - /var/run/docker.sock:/var/run/docker.sock:rw
   managerui:
     container_name: managerui
     depends_on:
-      gateway:
-        condition: service_started
-      manager:
-        condition: service_started
-      rootcause:
-        condition: service_started
-      serving-sonar:
-        condition: service_started
-      visualization:
-        condition: service_started
+    - gateway
+    - manager
+    - rootcause
+    - serving-sonar
+    - visualization
     environment:
       AUTO_OD_GRPC_PORT: '5001'
       AUTO_OD_HOST: auto-od
@@ -163,12 +154,9 @@ services:
     command: python app.py
     container_name: rootcause
     depends_on:
-      mongodb:
-        condition: service_started
-      rootcause-worker:
-        condition: service_started
-      serving-sonar:
-        condition: service_started
+    - mongodb
+    - rootcause-worker
+    - serving-sonar
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
@@ -191,10 +179,8 @@ services:
     command: celery -A app.celery worker -l info -O fair -Q rootcause
     container_name: rootcause-worker
     depends_on:
-      mongodb:
-        condition: service_started
-      serving-sonar:
-        condition: service_started
+    - mongodb
+    - serving-sonar
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
@@ -212,8 +198,7 @@ services:
   serving-sonar:
     container_name: serving-sonar
     depends_on:
-      postgres:
-        condition: service_started
+    - postgres
     environment:
       ALERTING_FRONTEND_URL: http://localhost/
       ALERTING_MANAGER_URL: prometheus-am:9093
@@ -244,10 +229,8 @@ services:
   stat:
     container_name: stat
     depends_on:
-      minio:
-        condition: service_started
-      mongodb:
-        condition: service_started
+    - minio
+    - mongodb
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
@@ -265,10 +248,8 @@ services:
     command: python app.py
     container_name: visualization
     depends_on:
-      minio:
-        condition: service_started
-      mongodb:
-        condition: service_started
+    - minio
+    - mongodb
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
@@ -290,12 +271,9 @@ services:
     command: celery -A app.celery worker -l info -Q visualization
     container_name: visualization-worker
     depends_on:
-      minio:
-        condition: service_started
-      mongodb:
-        condition: service_started
-      visualization:
-        condition: service_started
+    - minio
+    - mongodb
+    - visualization
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123

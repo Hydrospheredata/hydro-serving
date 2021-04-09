@@ -14,7 +14,7 @@ The following table lists the configurable parameters of the Gateway chart and t
 | `global.tolerations` |  | `[]` |
 | `replicaCount` |  | `1` |
 | `javaOpts` |  | `"-Xmx512m -Xms64m -Xss16M"` |
-| `image.full` |  | `"hydrosphere/serving-gateway:9703a1d87126ca95552d9c3dbdd3b7a5ac1a3013"` |
+| `image.full` |  | `"hydrosphere/serving-gateway:98e9add3a034ef5b85d628bb17cbceec1bfd515c"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `service.type` |  | `"ClusterIP"` |
 | `service.http_port` |  | `9090` |
