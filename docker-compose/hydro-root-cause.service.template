@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   rootcause:
-    image: harbor.hydrosphere.io/hydro-serving/hydro-root-cause
+    image: hydrosphere/hydro-root-cause
     container_name: rootcause
     command: python app.py
     depends_on:
@@ -19,7 +19,7 @@ services:
       - AWS_ACCESS_KEY_ID=minio
       - AWS_SECRET_ACCESS_KEY=minio123
       - S3_ENDPOINT=http://minio:9000
-      - DEBUG=True
+      - DEBUG=False
     ports:
       - "5005:5000"
     networks:
@@ -27,7 +27,7 @@ services:
       - extnet
 
   rootcause-worker:
-    image: harbor.hydrosphere.io/hydro-serving/hydro-root-cause
+    image: hydrosphere/hydro-root-cause
     container_name: rootcause-worker
     command: celery -A app.celery worker -l info -O fair -Q rootcause
     depends_on:
@@ -43,6 +43,6 @@ services:
       - AWS_ACCESS_KEY_ID=minio
       - AWS_SECRET_ACCESS_KEY=minio123
       - S3_ENDPOINT=http://minio:9000
-      - DEBUG=True
+      - DEBUG=False
     networks:
       - hydronet

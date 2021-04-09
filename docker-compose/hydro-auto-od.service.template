@@ -3,15 +3,17 @@ version: "3.5"
 services:
   auto-od:
     container_name: auto-od
-    image: harbor.hydrosphere.io/hydro-serving/auto-od
+    image: hydrosphere/auto-od
     environment:
       - MONGO_URL=mongodb
       - AWS_ACCESS_KEY_ID=minio
       - AWS_SECRET_ACCESS_KEY=minio123
       - S3_ENDPOINT=http://minio:9000
       - GRPC_PORT=5001
-      - HS_CLUSTER_ADDRESS=http://managerui:8080
-      - DEBUG=True
+      - CLUSTER_ENDPOINT=http://managerui:8080
+      - DEFAULT_TIMEOUT=120
+      - DEFAULT_RUNTIME=hydrosphere/serving-runtime-python-3.6
+      - DEBUG=False
     depends_on:
       - mongodb
       - minio

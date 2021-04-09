@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ template "manager.fullname" . }}-config
+  namespace: {{ .Release.Namespace }}
+  labels:
+    app: {{ template "manager.fullname" . }}
+    chart: {{ template "manager.fullname" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+data:
+{{ (.Files.Glob "config/k8s.conf").AsConfig | indent 2 }}

@@ -50,7 +50,7 @@ Before installing Hydrosphere Serving, please install its prerequisites:
 * [Docker 18.0+](https://docs.docker.com/install/);
 * [Docker Compose 1.23+](https://docs.docker.com/compose/install/#install-compose).
 
-To install Hydrosphere Serving, follow the instructions below:
+To deploy the Hydrosphere platform from master branch, follow the instructions below:
 
 1. Download the latest release version from the [releases](https://github.com/Hydrospheredata/hydro-serving/releases) page;
     ```sh 
@@ -64,6 +64,23 @@ To install Hydrosphere Serving, follow the instructions below:
 1. Set up an environment.
     ```sh
     cd hydro-serving-${HYDROSPHERE_RELEASE}
+    docker-compose up
+    ```
+
+To deploy the Hydrosphere platform from the master branch, follow the instructions below:
+
+1. Clone umbrella repository locally.
+    ```sh
+    git clone ...
+    cd hydro-serving
+    ```
+1. Build the docker-compose.yaml.
+    ```sh
+    ./build-compose.sh
+    docker-compose up
+    ```
+1. Set up an environment.
+    ```sh
     docker-compose up
     ```
 
