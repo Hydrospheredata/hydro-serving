@@ -1,24 +1,24 @@
 ui:
   image:
-    full: hydrosphere/hydro-serving-ui:c70928c28ea523f5aacb38b5051aafbf1cb3dae7
+    full: hydrosphere/hydro-serving-ui:573ee659eb90cbecba58ef7cff549f209800c0c5
 manager:
   image:
-    full: hydrosphere/serving-manager:378b281f6c31c0e638f72d9442b24b498f2602f0
+    full: hydrosphere/serving-manager:4f524ed07b803ed4d733462119b488d5a4e8512c
 gateway:
   image:
-    full: hydrosphere/serving-gateway:933ed22f29815c126c312cd484cc3bff0c4c9eef
+    full: hydrosphere/serving-gateway:9703a1d87126ca95552d9c3dbdd3b7a5ac1a3013
 sonar:
   image:
-    full: hydrosphere/sonar:2a41d4a1fcaed171ebd0f3153f05b09ef2afbe2c
+    full: hydrosphere/sonar:79b47921b8f8eb37c9935101054fb10b871ccc40
 visualization:
   image:
     full: hydrosphere/hydro-visualization:fa9ff705deb7192baa984569505c5cc6b8151de9  
-    full: hydrosphere/auto-od:89eeea96c9bf751635c0c83f7a6e4ea21058ca21
+    full: hydrosphere/auto-od:7cec5d2ebde759e1001b0e8d9a3578e13572e96e
   image:
-    full: hydrosphere/auto-od:89eeea96c9bf751635c0c83f7a6e4ea21058ca21
+    full: hydrosphere/auto-od:7cec5d2ebde759e1001b0e8d9a3578e13572e96e
 stat:
   image:
-    full: hydrosphere/stat:f72b0ceb5911bd249455e6cb7ae0d2e9d412cf1c
+    full: hydrosphere/stat:343d76a3b01b73b5170d5ae602b0066fe0eeb211
 rootcause:
   image:
-    full: hydrosphere/hydro-root-cause:73721910db505b35226249756bdfe3b475f97497
+    full: hydrosphere/hydro-root-cause:256d6e3ef012d45be79e7287dde54ca2764d9cfd
