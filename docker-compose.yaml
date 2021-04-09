@@ -61,7 +61,7 @@ services:
     - published: 19091
       target: 9091
     volumes:
-    - /tmp/agent/workspace/rosphere.io_hydro-auto-od_master/release/docker-compose/dc.conf:/app/config/dc.conf:ro
+    - /tmp/agent/workspace/phere.io_hydro-root-cause_master/release/docker-compose/dc.conf:/app/config/dc.conf:ro
     - /var/run/docker.sock:/var/run/docker.sock:rw
   managerui:
     container_name: managerui
@@ -168,7 +168,7 @@ services:
       MONGO_URL: mongodb
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-root-cause
+    image: hydrosphere/hydro-root-cause:1d3495440b803fee80cdaa20707ae1d84a3796c7
     networks:
       extnet: {}
       hydronet: {}
@@ -192,7 +192,7 @@ services:
       MONGO_URL: mongodb
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-root-cause
+    image: hydrosphere/hydro-root-cause:1d3495440b803fee80cdaa20707ae1d84a3796c7
     networks:
       hydronet: {}
   serving-sonar:
