@@ -3,7 +3,7 @@ ui:
     full: hydrosphere/hydro-serving-ui:573ee659eb90cbecba58ef7cff549f209800c0c5
 manager:
   image:
-    full: hydrosphere/serving-manager:58448317764d0cbfa812184351fe399bfe952f4d
+    full: hydrosphere/serving-manager:4f524ed07b803ed4d733462119b488d5a4e8512c
 gateway:
   image:
     full: hydrosphere/serving-gateway:9703a1d87126ca95552d9c3dbdd3b7a5ac1a3013
