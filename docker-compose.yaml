@@ -61,7 +61,7 @@ services:
     - published: 19091
       target: 9091
     volumes:
-    - /tmp/agent/workspace/phere.io_hydro-serving-ui_master/release/docker-compose/dc.conf:/app/config/dc.conf:ro
+    - /tmp/agent/workspace/re.io_hydro-visualization_master/release/docker-compose/dc.conf:/app/config/dc.conf:ro
     - /var/run/docker.sock:/var/run/docker.sock:rw
   managerui:
     container_name: managerui
@@ -260,7 +260,7 @@ services:
       HTTP_PROXY_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       SECURE: "False"
-    image: hydrosphere/hydro-visualization
+    image: hydrosphere/hydro-visualization:1af6fefa8dfea14bec89e8e737689b1691cd5ae7
     networks:
       extnet: {}
       hydronet: {}
@@ -283,7 +283,7 @@ services:
       HTTP_PROXY_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       SECURE: "False"
-    image: hydrosphere/hydro-visualization
+    image: hydrosphere/hydro-visualization:1af6fefa8dfea14bec89e8e737689b1691cd5ae7
     networks:
       hydronet: {}
 version: '3.5'
