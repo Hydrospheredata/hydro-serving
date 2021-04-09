@@ -23,7 +23,7 @@ services:
       GRPC_PORT: '5001'
       MONGO_URL: mongodb
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/auto-od
+    image: hydrosphere/auto-od:d9b5700c61844a9748da1d847518e6de367a0309
     networks:
       extnet: {}
       hydronet: {}
@@ -61,7 +61,7 @@ services:
     - published: 19091
       target: 9091
     volumes:
-    - /tmp/agent/workspace/.io_hydro-serving-gateway_master/release/docker-compose/dc.conf:/app/config/dc.conf:ro
+    - /tmp/agent/workspace/rosphere.io_hydro-auto-od_master/release/docker-compose/dc.conf:/app/config/dc.conf:ro
     - /var/run/docker.sock:/var/run/docker.sock:rw
   managerui:
     container_name: managerui
