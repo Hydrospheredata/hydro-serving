@@ -11,31 +11,36 @@ services:
   auto-od:
     container_name: auto-od
     depends_on:
-    - minio
-    - mongodb
+      minio:
+        condition: service_started
+      mongodb:
+        condition: service_started
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
-      DEBUG: "True"
+      CLUSTER_ENDPOINT: http://managerui:8080
+      DEBUG: "False"
+      DEFAULT_RUNTIME: hydrosphere/serving-runtime-python-3.6
+      DEFAULT_TIMEOUT: '120'
       GRPC_PORT: '5001'
-      HS_CLUSTER_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/auto-od:89eeea96c9bf751635c0c83f7a6e4ea21058ca21
+    image: hydrosphere/auto-od
     networks:
       extnet: {}
       hydronet: {}
   gateway:
     container_name: gateway
     depends_on:
-    - manager
+      manager:
+        condition: service_started
     environment:
       API_GATEWAY_GRPC_PORT: '9090'
       API_GATEWAY_HOST: managerui
       API_GATEWAY_HTTP_PORT: '8080'
       GRPC_PORT: '9091'
       HTTP_PORT: '9090'
-    image: hydrosphere/serving-gateway:933ed22f29815c126c312cd484cc3bff0c4c9eef
+    image: hydrosphere/serving-gateway
     networks:
       hydronet: {}
     ports:
@@ -46,11 +51,11 @@ services:
   manager:
     container_name: manager
     depends_on:
-    - postgres
+      postgres:
+        condition: service_started
     environment:
-      DATABASE_HOST: postgres
-      NETWORK_NAME: demo_hydronet
-    image: hydrosphere/serving-manager:378b281f6c31c0e638f72d9442b24b498f2602f0
+      CUSTOM_CONFIG: /app/config/dc.conf
+    image: hydrosphere/serving-manager
     networks:
       extnet: {}
       hydronet: {}
@@ -60,15 +65,21 @@ services:
     - published: 19091
       target: 9091
     volumes:
+    - /Users/tidylobster/Projects/proj-hydrosphere/hydro-serving/docker-compose/dc.conf:/app/config/dc.conf:ro
     - /var/run/docker.sock:/var/run/docker.sock:rw
   managerui:
     container_name: managerui
     depends_on:
-    - gateway
-    - manager
-    - rootcause
-    - serving-sonar
-    - visualization
+      gateway:
+        condition: service_started
+      manager:
+        condition: service_started
+      rootcause:
+        condition: service_started
+      serving-sonar:
+        condition: service_started
+      visualization:
+        condition: service_started
     environment:
       AUTO_OD_GRPC_PORT: '5001'
       AUTO_OD_HOST: auto-od
@@ -81,14 +92,13 @@ services:
       MONITORING_GRPC_PORT: '9091'
       MONITORING_HOST: serving-sonar
       MONITORING_HTTP_PORT: '9090'
-      OSS: ''
       PROMETHEUS_AM_HOST: prometheus-am
       ROOTCAUSE_HOST: rootcause
       ROOTCAUSE_HTTP_PORT: '5000'
       STAT_HOST: stat
       STAT_PORT: '5000'
       VISUALIZATION_HOST: visualization
-    image: hydrosphere/hydro-serving-ui:c70928c28ea523f5aacb38b5051aafbf1cb3dae7
+    image: hydrosphere/serving-manager-ui
     networks:
       extnet: {}
       hydronet: {}
@@ -153,13 +163,16 @@ services:
     command: python app.py
     container_name: rootcause
     depends_on:
-    - mongodb
-    - rootcause-worker
-    - serving-sonar
+      mongodb:
+        condition: service_started
+      rootcause-worker:
+        condition: service_started
+      serving-sonar:
+        condition: service_started
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
-      DEBUG: "True"
+      DEBUG: "False"
       GRPC_UI_ADDRESS: managerui
       HTTP_UI_ADDRESS: http://managerui:8080
       MONGO_AUTH_DB: admin
@@ -167,7 +180,7 @@ services:
       MONGO_URL: mongodb
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-root-cause:73721910db505b35226249756bdfe3b475f97497
+    image: hydrosphere/hydro-root-cause
     networks:
       extnet: {}
       hydronet: {}
@@ -178,12 +191,14 @@ services:
     command: celery -A app.celery worker -l info -O fair -Q rootcause
     container_name: rootcause-worker
     depends_on:
-    - mongodb
-    - serving-sonar
+      mongodb:
+        condition: service_started
+      serving-sonar:
+        condition: service_started
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
-      DEBUG: "True"
+      DEBUG: "False"
       GRPC_UI_ADDRESS: managerui:9090
       HTTP_UI_ADDRESS: http://managerui:8080
       MONGO_AUTH_DB: admin
@@ -191,13 +206,14 @@ services:
       MONGO_URL: mongodb
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-root-cause:73721910db505b35226249756bdfe3b475f97497
+    image: hydrosphere/hydro-root-cause
     networks:
       hydronet: {}
   serving-sonar:
     container_name: serving-sonar
     depends_on:
-    - postgres
+      postgres:
+        condition: service_started
     environment:
       ALERTING_FRONTEND_URL: http://localhost/
       ALERTING_MANAGER_URL: prometheus-am:9093
@@ -216,7 +232,7 @@ services:
       STORAGE_PATH_STYLE_ACCESS: "true"
       STORAGE_S3_IMPL: org.apache.hadoop.fs.s3a.S3AFileSystem
       STORAGE_SECRET_KEY: minio123
-    image: hydrosphere/sonar:2a41d4a1fcaed171ebd0f3153f05b09ef2afbe2c
+    image: hydrosphere/sonar
     networks:
       extnet: {}
       hydronet: {}
@@ -228,15 +244,17 @@ services:
   stat:
     container_name: stat
     depends_on:
-    - minio
-    - mongodb
+      minio:
+        condition: service_started
+      mongodb:
+        condition: service_started
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
       HTTP_UI_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/stat:f72b0ceb5911bd249455e6cb7ae0d2e9d412cf1c
+    image: hydrosphere/stat
     networks:
       extnet: {}
       hydronet: {}
@@ -247,19 +265,21 @@ services:
     command: python app.py
     container_name: visualization
     depends_on:
-    - minio
-    - mongodb
+      minio:
+        condition: service_started
+      mongodb:
+        condition: service_started
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
       AWS_STORAGE_ENDPOINT: http://minio:9000
-      DEBUG: "True"
+      DEBUG: "False"
       GRPC_PORT: '5003'
       GRPC_PROXY_ADDRESS: managerui:9090
       HTTP_PROXY_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       SECURE: "False"
-    image: hydrosphere/hydro-visualization:77848eee1d6391b48ac81dc02265c1847e04aede
+    image: hydrosphere/hydro-visualization
     networks:
       extnet: {}
       hydronet: {}
@@ -270,19 +290,22 @@ services:
     command: celery -A app.celery worker -l info -Q visualization
     container_name: visualization-worker
     depends_on:
-    - minio
-    - mongodb
-    - visualization
+      minio:
+        condition: service_started
+      mongodb:
+        condition: service_started
+      visualization:
+        condition: service_started
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
       AWS_STORAGE_ENDPOINT: http://minio:9000
-      DEBUG: "True"
+      DEBUG: "False"
       GRPC_PROXY_ADDRESS: managerui:9090
       HTTP_PROXY_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       SECURE: "False"
-    image: hydrosphere/hydro-visualization:77848eee1d6391b48ac81dc02265c1847e04aede
+    image: hydrosphere/hydro-visualization
     networks:
       hydronet: {}
 version: '3.5'

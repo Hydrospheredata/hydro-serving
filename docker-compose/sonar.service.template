@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   serving-sonar:
-    image: harbor.hydrosphere.io/hydro-serving/sonar
+    image: hydrosphere/sonar
     container_name: serving-sonar
     depends_on:
       - postgres
