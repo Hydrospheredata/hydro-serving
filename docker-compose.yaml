@@ -65,7 +65,7 @@ services:
     - published: 19091
       target: 9091
     volumes:
-    - /Users/tidylobster/Projects/proj-hydrosphere/hydro-serving/docker-compose/dc.conf:/app/config/dc.conf:ro
+    - ./docker-compose/dc.conf:/app/config/dc.conf:ro
     - /var/run/docker.sock:/var/run/docker.sock:rw
   managerui:
     container_name: managerui
