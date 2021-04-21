@@ -15,5 +15,4 @@ services:
     environment:
       CUSTOM_CONFIG: /app/config/dc.conf
     volumes:
-      - ./dc.conf:/app/config/dc.conf:ro
       - /var/run/docker.sock:/var/run/docker.sock
