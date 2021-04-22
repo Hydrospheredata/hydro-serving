@@ -51,7 +51,7 @@ services:
     - postgres
     environment:
       CUSTOM_CONFIG: /app/config/dc.conf
-    image: hydrosphere/serving-manager:2860de4422506d06e365ab20e2612cc315c0c995
+    image: hydrosphere/serving-manager:b017e6bb229e6845ac4ddefe50a860e1f86fcd95
     networks:
       extnet: {}
       hydronet: {}
@@ -61,7 +61,7 @@ services:
     - published: 19091
       target: 9091
     volumes:
-    - /tmp/agent/workspace/re.io_hydro-visualization_master/release/docker-compose/dc.conf:/app/config/dc.conf:ro
+    - /tmp/agent/workspace/.io_hydro-serving-manager_master/release/docker-compose/dc.conf:/app/config/dc.conf:ro
     - /var/run/docker.sock:/var/run/docker.sock:rw
   managerui:
     container_name: managerui
