@@ -22,3 +22,9 @@ stat:
 rootcause:
   image:
     full: hydrosphere/hydro-root-cause:1d3495440b803fee80cdaa20707ae1d84a3796c7
+global:
+  tolerations:
+  - key: "node-type"
+    operator: "Equal"
+    value: "hydrosphere.io"
+    effect: "NoSchedule"
