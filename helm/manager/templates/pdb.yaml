@@ -1,0 +1,10 @@
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: manager-pdb
+spec:
+  minAvailable: 1
+  selector:
+    matchLabels:
+      app: {{ template "manager.fullname" . }}
+      release: {{ .Release.Name }}

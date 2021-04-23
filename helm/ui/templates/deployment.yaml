@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: "{{ template "ui.fullname" . }}"
+  name: {{ template "ui.fullname" . }}
   namespace: {{ .Release.Namespace }}
   labels:
-    app: "{{ include "ui.name" . }}"
-    chart: "{{ include "ui.chart" . }}"
-    release: "{{ .Release.Name }}"
-    heritage: "{{ .Release.Service }}"
+    app: {{ include "ui.name" . }}
+    chart: {{ include "ui.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      app: "{{ include "ui.name" . }}"
+      app: {{ include "ui.name" . }}
       release: {{ .Release.Name }}
   template:
     metadata:
