@@ -1,9 +1,9 @@
 ui:
   image:
-    full: hydrosphere/hydro-serving-ui:92e09ac6cc59ab7272d9ed1fd390858b75a9bcce
+    full: hydrosphere/hydro-serving-ui:2aa6c4c08b8709c1d71b7a410d37363cfe494143
 manager:
   image:
-    full: hydrosphere/serving-manager:2860de4422506d06e365ab20e2612cc315c0c995
+    full: hydrosphere/serving-manager:b017e6bb229e6845ac4ddefe50a860e1f86fcd95
 gateway:
   image:
     full: hydrosphere/serving-gateway:98e9add3a034ef5b85d628bb17cbceec1bfd515c
@@ -22,3 +22,9 @@ stat:
 rootcause:
   image:
     full: hydrosphere/hydro-root-cause:1d3495440b803fee80cdaa20707ae1d84a3796c7
+global:
+  tolerations:
+  - key: "node-type"
+    operator: "Equal"
+    value: "hydrosphere.io"
+    effect: "NoSchedule"

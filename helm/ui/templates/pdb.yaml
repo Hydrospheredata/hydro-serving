@@ -1,0 +1,10 @@
+apiVersion: policy/v1beta1
+kind: PodDisruptionBudget
+metadata:
+  name: ui-pdb
+spec:
+  minAvailable: 1
+  selector:
+    matchLabels:
+      app: {{ include "ui.name" . }}
+      release: {{ .Release.Name }}

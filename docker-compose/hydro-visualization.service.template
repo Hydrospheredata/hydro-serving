@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   visualization-worker:
-    image: hydrosphere/hydro-visualization:1af6fefa8dfea14bec89e8e737689b1691cd5ae7
+    image: hydrosphere/hydro-visualization:217f534305750881ea6401912519eeae30aac6e3
     container_name: visualization-worker
     environment:
       - MONGO_URL=mongodb
@@ -24,7 +24,7 @@ services:
 
   visualization:
     container_name: visualization
-    image: hydrosphere/hydro-visualization:1af6fefa8dfea14bec89e8e737689b1691cd5ae7
+    image: hydrosphere/hydro-visualization:217f534305750881ea6401912519eeae30aac6e3
     environment:
       - GRPC_PORT=5003
       - MONGO_URL=mongodb

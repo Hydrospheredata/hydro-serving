@@ -32,7 +32,7 @@ env: {}
 javaOpts: "-Xmx1024m -Xms128m -Xss16M"
 
 image:
-  full: hydrosphere/serving-manager:2860de4422506d06e365ab20e2612cc315c0c995
+  full: hydrosphere/serving-manager:b017e6bb229e6845ac4ddefe50a860e1f86fcd95
   pullPolicy:  IfNotPresent
 
 service:

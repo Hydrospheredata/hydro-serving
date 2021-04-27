@@ -24,7 +24,6 @@ spec:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.full }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          command: ["python", "server.py"]
           ports:
             - name: grpc
               containerPort: 5000

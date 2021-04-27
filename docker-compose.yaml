@@ -51,7 +51,7 @@ services:
     - postgres
     environment:
       CUSTOM_CONFIG: /app/config/dc.conf
-    image: hydrosphere/serving-manager:2860de4422506d06e365ab20e2612cc315c0c995
+    image: hydrosphere/serving-manager:b017e6bb229e6845ac4ddefe50a860e1f86fcd95
     networks:
       extnet: {}
       hydronet: {}
@@ -61,7 +61,7 @@ services:
     - published: 19091
       target: 9091
     volumes:
-    - /tmp/agent/workspace/phere.io_hydro-serving-ui_master/release/docker-compose/dc.conf:/app/config/dc.conf:ro
+    - /tmp/agent/workspace/.io_hydro-serving-manager_master/release/docker-compose/dc.conf:/app/config/dc.conf:ro
     - /var/run/docker.sock:/var/run/docker.sock:rw
   managerui:
     container_name: managerui
@@ -89,7 +89,7 @@ services:
       STAT_HOST: stat
       STAT_PORT: '5000'
       VISUALIZATION_HOST: visualization
-    image: hydrosphere/hydro-serving-ui:92e09ac6cc59ab7272d9ed1fd390858b75a9bcce
+    image: hydrosphere/hydro-serving-ui:2aa6c4c08b8709c1d71b7a410d37363cfe494143
     networks:
       extnet: {}
       hydronet: {}
@@ -260,7 +260,7 @@ services:
       HTTP_PROXY_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       SECURE: "False"
-    image: hydrosphere/hydro-visualization:1af6fefa8dfea14bec89e8e737689b1691cd5ae7
+    image: hydrosphere/hydro-visualization:217f534305750881ea6401912519eeae30aac6e3
     networks:
       extnet: {}
       hydronet: {}
@@ -283,7 +283,7 @@ services:
       HTTP_PROXY_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       SECURE: "False"
-    image: hydrosphere/hydro-visualization:1af6fefa8dfea14bec89e8e737689b1691cd5ae7
+    image: hydrosphere/hydro-visualization:217f534305750881ea6401912519eeae30aac6e3
     networks:
       hydronet: {}
 version: '3.5'
