@@ -51,7 +51,7 @@ services:
     - postgres
     environment:
       CUSTOM_CONFIG: /app/config/dc.conf
-    image: hydrosphere/serving-manager:b017e6bb229e6845ac4ddefe50a860e1f86fcd95
+    image: hydrosphere/serving-manager:bf6e2b74633c91ca66858e05e186fee895e00653
     networks:
       extnet: {}
       hydronet: {}
@@ -245,7 +245,7 @@ services:
     - published: 5002
       target: 5000
   visualization:
-    command: python app.py
+    command: python run.py
     container_name: visualization
     depends_on:
     - minio
@@ -268,7 +268,7 @@ services:
     - published: 5000
       target: 5000
   visualization-worker:
-    command: celery -A app.celery worker -l info -Q visualization
+    command: celery -A app.utils.conf.celery worker -l info -Q visualization
     container_name: visualization-worker
     depends_on:
     - minio
