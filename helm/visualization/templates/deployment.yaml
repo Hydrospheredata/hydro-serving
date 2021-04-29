@@ -97,7 +97,7 @@ spec:
         - name: {{ .Chart.Name }}-worker
           image: "{{ .Values.image.full }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          command: ["celery", "-A", "app.utils.conf.celery", "worker", "-l",  "info", "-Q", "visualization"]
+          command: ["celery", "-A", "app.celery", "worker", "-l",  "info", "-Q", "visualization"]
           env:
             - name: GRPC_PROXY_ADDRESS
               value: "{{ template "ui.fullname" . }}:9091"
