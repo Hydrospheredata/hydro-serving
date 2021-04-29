@@ -13,12 +13,13 @@ manager:
             "maxReplicas":10,
             "cpuUtilization":80
         },
-        "pod.tolerations":{
+        "pod":{
+          "tolerations":[{
                 "key":"node-type",
                 "operator":"Equal",
                 "value":"hydrosphere.io",
                 "effect":"NoSchedule"
-        }
+        }]
       }
     """
 gateway:
