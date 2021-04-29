@@ -10,3 +10,6 @@ metadata:
     heritage: {{ .Release.Service }}
 data:
 {{ (.Files.Glob "config/k8s.conf").AsConfig | indent 2 }}
+{{ if .Values.depconfig }}
+{{ .Values.depconfig | indent 4 }}
+{{- end -}}

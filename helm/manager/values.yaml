@@ -30,6 +30,7 @@ global:
 env: {}
 
 javaOpts: "-Xmx1024m -Xms128m -Xss16M"
+depconfig: 
 
 image:
   full: hydrosphere/serving-manager:bf6e2b74633c91ca66858e05e186fee895e00653
