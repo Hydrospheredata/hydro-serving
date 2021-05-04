@@ -19,7 +19,8 @@ manager:
                 "operator":"Equal",
                 "value":"hydrosphere.io",
                 "effect":"NoSchedule"
-        }]
+          }]
+        }
       }
     """
 gateway:
