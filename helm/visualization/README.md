@@ -11,7 +11,7 @@ The following table lists the configurable parameters of the Visualization chart
 
 | Parameter                | Description             | Default        |
 | ------------------------ | ----------------------- | -------------- |
-| `image.full` |  | `"hydrosphere/hydro-visualization:217f534305750881ea6401912519eeae30aac6e3"` |
+| `image.full` |  | `"hydrosphere/hydro-visualization:dda454a88342eedf20738a82e6687b309eeb6645"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `persistence.bucket` |  | `"hydrosphere-visualization-artifacts"` |
 | `global.persistence.url` |  | `""` |
