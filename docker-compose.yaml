@@ -61,7 +61,7 @@ services:
     - published: 19091
       target: 9091
     volumes:
-    - /tmp/agent/workspace/re.io_hydro-visualization_master/release/docker-compose/dc.conf:/app/config/dc.conf:ro
+    - /tmp/agent/workspace/phere.io_hydro-serving-ui_master/release/docker-compose/dc.conf:/app/config/dc.conf:ro
     - /var/run/docker.sock:/var/run/docker.sock:rw
   managerui:
     container_name: managerui
@@ -89,7 +89,7 @@ services:
       STAT_HOST: stat
       STAT_PORT: '5000'
       VISUALIZATION_HOST: visualization
-    image: hydrosphere/hydro-serving-ui:7d13cb0878870c7747037806957605b3cd19b6cf
+    image: hydrosphere/hydro-serving-ui:2780cb75fcfec5b13e0b779d1b0f5fa5051cd554
     networks:
       extnet: {}
       hydronet: {}
