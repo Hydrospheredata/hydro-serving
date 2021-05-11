@@ -3,7 +3,7 @@ ui:
     full: hydrosphere/hydro-serving-ui:2780cb75fcfec5b13e0b779d1b0f5fa5051cd554
 manager:
   image:
-    full: hydrosphere/serving-manager:9b5d17d2fefeb6f36e5bfa6f7e06b6771f828346
+    full: hydrosphere/serving-manager:2c78143afe33023f1f0e022408c4232d2d384c0f
   depconfig: |-
     default-deployment-configuration = """
       {
