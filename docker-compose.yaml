@@ -89,7 +89,7 @@ services:
       STAT_HOST: stat
       STAT_PORT: '5000'
       VISUALIZATION_HOST: visualization
-    image: hydrosphere/hydro-serving-ui:17554c45455e98346164e26f0a7e2d517d4b396c
+    image: hydrosphere/hydro-serving-ui:3787d1f41444c7950e0dad24a5fef26e840b4232
     networks:
       extnet: {}
       hydronet: {}

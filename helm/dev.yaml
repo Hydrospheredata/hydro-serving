@@ -1,6 +1,6 @@
 ui:
   image:
-    full: hydrosphere/hydro-serving-ui:17554c45455e98346164e26f0a7e2d517d4b396c
+    full: hydrosphere/hydro-serving-ui:3787d1f41444c7950e0dad24a5fef26e840b4232
 manager:
   image:
     full: hydrosphere/serving-manager:2c78143afe33023f1f0e022408c4232d2d384c0f
