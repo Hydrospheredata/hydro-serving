@@ -37,7 +37,7 @@ services:
       API_GATEWAY_HTTP_PORT: '8080'
       GRPC_PORT: '9091'
       HTTP_PORT: '9090'
-    image: hydrosphere/serving-gateway:98e9add3a034ef5b85d628bb17cbceec1bfd515c
+    image: hydrosphere/serving-gateway:b9e167e340fa2dd1f361147b0e0daa460e2eab19
     networks:
       hydronet: {}
     ports:
@@ -61,7 +61,7 @@ services:
     - published: 19091
       target: 9091
     volumes:
-    - /tmp/agent/workspace/phere.io_hydro-serving-ui_master/release/docker-compose/dc.conf:/app/config/dc.conf:ro
+    - /tmp/agent/workspace/.io_hydro-serving-gateway_master/release/docker-compose/dc.conf:/app/config/dc.conf:ro
     - /var/run/docker.sock:/var/run/docker.sock:rw
   managerui:
     container_name: managerui

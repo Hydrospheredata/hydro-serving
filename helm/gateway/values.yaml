@@ -10,7 +10,7 @@ replicaCount: 1
 javaOpts: "-Xmx512m -Xms64m -Xss16M"
 
 image:
-  full: hydrosphere/serving-gateway:98e9add3a034ef5b85d628bb17cbceec1bfd515c
+  full: hydrosphere/serving-gateway:b9e167e340fa2dd1f361147b0e0daa460e2eab19
   pullPolicy:  IfNotPresent
 
 service:
