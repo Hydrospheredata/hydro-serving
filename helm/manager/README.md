@@ -27,13 +27,14 @@ The following table lists the configurable parameters of the Manager chart and t
 | `global.postgresql.database` | Postgresql database name | `"hydro-serving"` |
 | `global.tolerations` |  | `[]` |
 | `env` |  | `{}` |
-| `javaOpts` |  | `"-Xmx1024m -Xms128m -Xss16M"` |
+| `javaOpts` |  | `"-Xmx1024m -Xms128m -Xss16M -Dcom.sun.management.jmxremote.port=5555 -Dcom.sun.management.jmxremote.rmi.port=5555 -Djava.rmi.server.hostname=localhost -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false"` |
 | `depconfig` |  | `null` |
-| `image.full` |  | `"hydrosphere/serving-manager:2c78143afe33023f1f0e022408c4232d2d384c0f"` |
+| `image.full` |  | `"hydrosphere/serving-manager:07dc3c2284fa4f93f0a31d439a96236c3e618fa5"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `service.type` |  | `"ClusterIP"` |
 | `service.http_port` |  | `9090` |
 | `service.grpc_port` |  | `9091` |
+| `service.jmx_port` |  | `5555` |
 | `resources` |  | `{}` |
 | `nodeSelector` |  | `{}` |
 | `tolerations` |  | `[]` |
