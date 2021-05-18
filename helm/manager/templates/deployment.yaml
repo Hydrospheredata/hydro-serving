@@ -24,10 +24,16 @@ spec:
       annotations:
         checksum/config: {{ include (print $.Template.BasePath "/docker-secret.yaml") . | sha256sum }}
         prometheus.io/scrape: "true"
-        prometheus.io/port: "19000"
+        prometheus.io/port: "5556"
     spec:
       serviceAccountName: {{ if .Values.serviceAccount.name }}{{ .Values.serviceAccount.name }}{{ else }}"hydro-serving-manager-sa-{{ .Release.Name }}"{{ end }}
       containers:
+        - name: jmx-exporter
+          image: bitnami/jmx-exporter:latest
+          ports:
+            - name: http
+              containerPort: 5556
+              protocol: TCP
         - name: dind
           image: docker:18.06.0-ce-dind
           securityContext:
