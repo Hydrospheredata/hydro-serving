@@ -24,6 +24,10 @@ spec:
       targetPort: grpc
       protocol: TCP
       name: grpc
+    - port: {{ .Values.service.jmx_port }}
+      targetPort: jmx
+      protocol: TCP
+      name: jmx
   selector:
     app: {{ include "manager.name" . }}
     release: {{ .Release.Name }}

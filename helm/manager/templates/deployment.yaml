@@ -62,7 +62,7 @@ spec:
               protocol: TCP
             - name: jmx
               protocol: TCP
-              containerPort: 19000
+              containerPort: {{ .Values.service.jmx_port }}
           env:
             - name: CUSTOM_CONFIG
               value: "/app/config/k8s.conf"
