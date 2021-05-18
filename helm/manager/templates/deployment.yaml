@@ -31,7 +31,7 @@ spec:
         - name: jmx-exporter
           image: bitnami/jmx-exporter:latest
           ports:
-            - name: http
+            - name: jmx-exporter
               containerPort: 5556
               protocol: TCP
         - name: dind
