@@ -60,6 +60,9 @@ spec:
             - name: grpc
               containerPort: 9091
               protocol: TCP
+            - name: jmx
+              protocol: TCP
+              containerPort: 19000
           env:
             - name: CUSTOM_CONFIG
               value: "/app/config/k8s.conf"
