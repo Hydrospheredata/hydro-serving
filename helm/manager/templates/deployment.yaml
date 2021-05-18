@@ -23,6 +23,8 @@ spec:
         logging: "true"
       annotations:
         checksum/config: {{ include (print $.Template.BasePath "/docker-secret.yaml") . | sha256sum }}
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "19000"
     spec:
       serviceAccountName: {{ if .Values.serviceAccount.name }}{{ .Values.serviceAccount.name }}{{ else }}"hydro-serving-manager-sa-{{ .Release.Name }}"{{ end }}
       containers:

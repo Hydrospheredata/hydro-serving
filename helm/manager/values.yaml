@@ -29,7 +29,7 @@ global:
 
 env: {}
 
-javaOpts: "-Xmx1024m -Xms128m -Xss16M"
+javaOpts: "-Xmx1024m -Xms128m -Xss16M -Dcom.sun.management.jmxremote.port=19000 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false"
 depconfig: 
 
 image:
