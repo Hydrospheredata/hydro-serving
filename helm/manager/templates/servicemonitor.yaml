@@ -3,7 +3,7 @@ apiVersion: monitoring.coreos.com/v1
 kind: ServiceMonitor
 metadata:
   name: {{ include "manager.name" . }}
-  namespace: {{ .Release.Namespace }}
+  namespace: monitoring
   labels:
     service: manager
     release: prometheus
