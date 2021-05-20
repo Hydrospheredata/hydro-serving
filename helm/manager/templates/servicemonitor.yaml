@@ -6,11 +6,17 @@ metadata:
   namespace: monitoring
   labels:
     service: manager
-    release: prometheus
+    release: kube-prometheus-stack
 spec:
+  namespaceSelector:
+    matchNames:
+      - {{ .Release.Namespace }}
   selector:
     matchLabels:
       app: {{ template "manager.fullname" . }}
+      chart: {{ template "manager.fullname" . }}
+      release: {{ .Release.Name }}
+      heritage: {{ .Release.Service }}
   endpoints:
   - port: jmx-exporter
 {{- end }}
