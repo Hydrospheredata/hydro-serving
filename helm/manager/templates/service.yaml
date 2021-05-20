@@ -28,6 +28,12 @@ spec:
       targetPort: jmx
       protocol: TCP
       name: jmx
+  {{- if .Values.monitoring.enabled }}
+    - port: 5556
+      targetPort: jmx-exporter
+      protocol: TCP
+      name: jmx-exporter
+  {{- end }}
   selector:
     app: {{ include "manager.name" . }}
     release: {{ .Release.Name }}

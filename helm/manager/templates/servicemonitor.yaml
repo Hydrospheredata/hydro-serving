@@ -1,0 +1,16 @@
+{{- if .Values.monitoring.enabled }}
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: {{ include "manager.name" . }}
+  namespace: {{ .Release.Namespace }}
+  labels:
+    service: manager
+    release: prometheus
+spec:
+  selector:
+    matchLabels:
+      app: {{ template "manager.fullname" . }}
+  endpoints:
+  - port: jmx-exporter
+{{- end }}
