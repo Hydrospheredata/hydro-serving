@@ -333,7 +333,7 @@ slave:
 ##
 resources:
   requests:
-    memory: 2048Mi
+    memory: 4098Mi
     cpu: 250m
 
 networkPolicy:
