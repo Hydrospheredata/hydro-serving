@@ -20,7 +20,7 @@ The following table lists the configurable parameters of the Ui chart and their 
 | `global.ui.ingress.issuer` | A name of the cert-manager issuer name, configured within the | `"letsencrypt-prod"` |
 | `global.ui.configuration` |  | `"{\n  \"showHeader\": true\n}\n"` |
 | `global.tolerations` |  | `[]` |
-| `image.full` |  | `"hydrosphere/hydro-serving-ui:fed919509aa3235e328f898353c2d8985863f729"` |
+| `image.full` |  | `"hydrosphere/hydro-serving-ui:edaef5f3e813b4c4c29d33fcd3d87e4dcf351036"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `service.type` |  | `"ClusterIP"` |
 | `service.httpPort` |  | `9090` |

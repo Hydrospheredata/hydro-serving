@@ -20,7 +20,7 @@ global:
   tolerations: []
   
 image:
-  full: hydrosphere/hydro-serving-ui:fed919509aa3235e328f898353c2d8985863f729
+  full: hydrosphere/hydro-serving-ui:edaef5f3e813b4c4c29d33fcd3d87e4dcf351036
   pullPolicy:  IfNotPresent
 
 service:
