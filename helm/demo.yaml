@@ -41,6 +41,7 @@ global:
       enabled: true
       host: "hydro-registry-demo.dev.hydrosphere.io"
   persistence:
+    url: "s3.amazonaws.com"
     mode: "s3"
     region: "eu-central-1" # region for s3
 
