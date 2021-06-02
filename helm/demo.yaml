@@ -4,6 +4,13 @@ ui:
 manager:
   image:
     full: hydrosphere/serving-manager:2.4.0
+  resources:
+    limits:
+      cpu: 8000m
+      memory: 8Gi
+    requests:
+      cpu: 2000m
+      memory: 4Gi
 gateway:
   image:
     full: hydrosphere/serving-gateway:2.4.0
