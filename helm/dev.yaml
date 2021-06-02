@@ -47,6 +47,20 @@ postgresql:
   serviceMonitor:
     enabled: true
 global:
+  ui:
+    ingress:
+      enabled: true
+      host: "hydro-serving.dev.hydrosphere.io"
+      grpchost: "hydro-grpc.dev.hydrosphere.io"
+  registry:
+    insecure: false
+    ingress:
+      enabled: true
+      host: "hydro-registry.dev.hydrosphere.io"
+  persistence:
+    mode: "s3"
+    region: "eu-central-1" # region for s3
+
   tolerations:
   - key: "node-type"
     operator: "Equal"
