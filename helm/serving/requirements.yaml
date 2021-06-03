@@ -26,7 +26,7 @@ dependencies:
      condition: global.alerting_on
    - name: minio
      repository: file://../minio
-     version: 4.1.1
+     version: 6.7.16
    - name: sonar
      repository: file://../sonar
      version: 0.1.0
