@@ -27,12 +27,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          ref: master
         
       - run: "cd helm && sed -i \"s/.*$IMAGE_NAME.*/    full: $REGISTRY_URL\\/$IMAGE/g\" dev.yaml"
         
       - name: Push to repo
         run: |
-          git add .
-          git commit -m "bump $IMAGE_NAME tag in dev.yaml"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "bump $IMAGE_NAME version in dev.yaml" -a
           git diff HEAD
           git push
