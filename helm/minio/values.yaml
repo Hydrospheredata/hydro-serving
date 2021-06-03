@@ -434,7 +434,7 @@ ingress:
   ## The Path to MinIO(R). You may need to set this to '/*' in order to use this
   ## with ALB ingress controllers.
   ##
-  path: /
+  path: /*
 
   ## Ingress Path type
   ##
@@ -555,7 +555,7 @@ persistence:
 ## volumePermissions: Change the owner and group of the persistent volume mountpoint to runAsUser:fsGroup values from the securityContext section.
 ##
 volumePermissions:
-  enabled: false
+  enabled: true
   image:
     registry: docker.io
     repository: bitnami/bitnami-shell
