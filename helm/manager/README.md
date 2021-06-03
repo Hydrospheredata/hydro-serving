@@ -30,13 +30,16 @@ The following table lists the configurable parameters of the Manager chart and t
 | `monitoring.enabled` |  | `true` |
 | `javaOpts` |  | `"-Xmx1024m -Xms128m -Xss16M -Dcom.sun.management.jmxremote.port=5555 -Dcom.sun.management.jmxremote.rmi.port=5555 -Djava.rmi.server.hostname=localhost -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false"` |
 | `depconfig` |  | `null` |
-| `image.full` |  | `"hydrosphere/serving-manager:c2739c675ec5d159c210d01c33fd301d85993d7c"` |
+| `image.full` |  | `"hydrosphere/serving-manager:d9e08fd4ad5ccce4544e69ec659cc29e12343634"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `service.type` |  | `"ClusterIP"` |
 | `service.http_port` |  | `9090` |
 | `service.grpc_port` |  | `9091` |
 | `service.jmx_port` |  | `5555` |
-| `resources` |  | `{}` |
+| `resources.limits.cpu` |  | `"1000m"` |
+| `resources.limits.memory` |  | `"2Gi"` |
+| `resources.requests.cpu` |  | `"512m"` |
+| `resources.requests.memory` |  | `"1Gi"` |
 | `nodeSelector` |  | `{}` |
 | `tolerations` |  | `[]` |
 | `affinity` |  | `{}` |
