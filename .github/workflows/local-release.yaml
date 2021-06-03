@@ -1,0 +1,37 @@
+name: Local release
+on:
+  workflow_dispatch:
+    inputs:
+      service_image_name:
+        description: the service image to be updated
+        required: true
+        
+      registry_url:
+        required: true
+        
+      image:
+        description: image name and tag
+        required: true
+        
+jobs:
+  
+  Update:
+    runs-on: ubuntu-latest
+    
+    name: Update dev.yaml
+    env:
+      IMAGE_NAME: ${{ github.event.inputs.service_image_name }}
+      REGISTRY_URL: ${{ github.event.inputs.registry_url }}
+      IMAGE: ${{ github.event.inputs.image }}
+      
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        
+      - run: "cd helm && sed -i \"s/.*$IMAGE_NAME.*/    full: $REGISTRY_URL\\/$IMAGE/g\" dev.yaml"
+        
+      - name: Push to repo
+        run: |
+          git add .
+          git commit -m "bump $IMAGE_NAME tag in dev.yaml"
+          git push
