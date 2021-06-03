@@ -9,8 +9,8 @@ on:
       registry_url:
         required: true
         
-      image:
-        description: image name and tag
+    tag:
+        description: version tag of the image
         required: true
         
 jobs:
@@ -22,7 +22,7 @@ jobs:
     env:
       IMAGE_NAME: ${{ github.event.inputs.service_image_name }}
       REGISTRY_URL: ${{ github.event.inputs.registry_url }}
-      IMAGE: ${{ github.event.inputs.image }}
+      TAG: ${{ github.event.inputs.tag }}
       
     steps:
       - name: Checkout
@@ -30,7 +30,7 @@ jobs:
         with:
           ref: master
         
-      - run: "cd helm && sed -i \"s/.*$IMAGE_NAME.*/    full: $REGISTRY_URL\\/$IMAGE/g\" dev.yaml"
+      - run: "cd helm && sed -i \"s/.*$IMAGE_NAME.*/    full: $REGISTRY_URL\\/$IMAGE_NAME:$TAG/g\" dev.yaml"
         
       - name: Push to repo
         run: |
