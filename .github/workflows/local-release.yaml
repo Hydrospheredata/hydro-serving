@@ -9,8 +9,8 @@ on:
       registry_url:
         required: true
         
-      image:
-        description: image name and tag
+      tag:
+        description: version tag of the image
         required: true
         
 jobs:
@@ -22,16 +22,19 @@ jobs:
     env:
       IMAGE_NAME: ${{ github.event.inputs.service_image_name }}
       REGISTRY_URL: ${{ github.event.inputs.registry_url }}
-      IMAGE: ${{ github.event.inputs.image }}
+      TAG: ${{ github.event.inputs.tag }}
       
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          ref: master
         
-      - run: "cd helm && sed -i \"s/.*$IMAGE_NAME.*/    full: $REGISTRY_URL\\/$IMAGE/g\" dev.yaml"
+      - run: "cd helm && sed -i \"s/.*$IMAGE_NAME.*/    full: $REGISTRY_URL\\/$IMAGE_NAME:$TAG/g\" dev.yaml"
         
       - name: Push to repo
         run: |
-          git add .
-          git commit -m "bump $IMAGE_NAME tag in dev.yaml"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "bump $IMAGE_NAME version in dev.yaml" -a
           git push
