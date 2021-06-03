@@ -34,4 +34,5 @@ jobs:
         run: |
           git add .
           git commit -m "bump $IMAGE_NAME tag in dev.yaml"
+          git diff HEAD
           git push
