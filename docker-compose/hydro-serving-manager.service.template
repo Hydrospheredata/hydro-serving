@@ -12,7 +12,5 @@ services:
     networks:
       - hydronet
       - extnet
-    environment:
-      CUSTOM_CONFIG: /app/config/dc.conf
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock

@@ -53,8 +53,6 @@ services:
     depends_on:
       postgres:
         condition: service_started
-    environment:
-      CUSTOM_CONFIG: /app/config/dc.conf
     image: hydrosphere/serving-manager:c2739c675ec5d159c210d01c33fd301d85993d7c
     networks:
       extnet: {}
