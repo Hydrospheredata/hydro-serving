@@ -89,7 +89,7 @@ spec:
             - {{ .Values.gateway.auth.gcs.projectID }}
             {{- else if eq .Values.gateway.type "nas" }}
             - {{ .Values.persistence.mountPath }}
-            {{- else if eq .Values.gateway.type "s3" }}
+            {{- else if eq .Values.global.persistence.mode "s3" }}
             - {{ .Values.gateway.auth.s3.serviceEndpoint }}
             {{- end }}
             {{- end }}

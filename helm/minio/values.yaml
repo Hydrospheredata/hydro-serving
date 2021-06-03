@@ -14,7 +14,7 @@ global:
       hosts: ["hydrosphere-minio.local"]
     accessKey: "ACCESSKEYEXAMPLE" # accesskeyid for s3 or minio
     secretKey: "SECRETKEYEXAMPLE" # secretkeyid for s3 or minio
-    region: "us-west-1" # region for s3
+    #region: "us-west-1" # region for s3
   ## Global imageRegistry
   ##
   # imageRegistry: myRegistryName
@@ -129,11 +129,11 @@ useCredentialsFile: false
 
 ## Force reconfiguring new keys whenever the credentials change
 ##
-forceNewKeys: false
+forceNewKeys: true
 
 ## Comma, semi-colon or space separated list of buckets to create at initialization
 ##
-# defaultBuckets: "my-bucket, my-second-bucket"
+defaultBuckets: "hydrosphere-model-registry, hydrosphere-visualization-artifacts"
 
 ## Disable MinIO(R) Web UI
 ## ref: https://github.com/minio/minio/tree/master/docs/config/#browser
@@ -662,7 +662,7 @@ gateway:
   type: s3
   ## Number of Gateway replicas
   ##
-  replicaCount: 4
+  replicaCount: 1
   ## Gateway authentication configuration
   ##
   auth:
