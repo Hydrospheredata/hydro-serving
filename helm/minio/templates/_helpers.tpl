@@ -127,7 +127,7 @@ Return true if a secret object should be created
 Return true if a PVC object should be created (only in standalone mode)
 */}}
 {{- define "minio.createPVC" -}}
-{{- if and (eq .Values.global.persistence.mode "minio") (not .Values.persistence.existingClaim) (or (and (eq .Values.mode "standalone") (not .Values.gateway.enabled)) (and .Values.gateway.enabled (eq .Values.gateway.type "nas"))) }}
+{{- if and (eq .Values.global.persistence.mode "minio") (or (and (eq .Values.global.persistence.mode "s3"))) (or (and (eq .Values.mode "standalone") (not .Values.gateway.enabled)) (and .Values.gateway.enabled (eq .Values.gateway.type "nas"))) }}
     {{- true -}}
 {{- end -}}
 {{- end -}}
