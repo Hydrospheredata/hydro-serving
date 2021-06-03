@@ -42,7 +42,7 @@ global:
       host: "hydro-registry-demo.dev.hydrosphere.io"
   persistence:
     url: ""
-    mode: "s3"
+    mode: "minio"
     region: "eu-central-1" # region for s3
 
   mongodb:
