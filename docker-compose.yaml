@@ -261,7 +261,7 @@ services:
     - published: 5002
       target: 5000
   visualization:
-    command: python run.py
+    command: service
     container_name: visualization
     depends_on:
       minio:
@@ -286,7 +286,7 @@ services:
     - published: 5000
       target: 5000
   visualization-worker:
-    command: celery -A app.utils.conf.celery worker -l info -Q visualization
+    command: worker
     container_name: visualization-worker
     depends_on:
       minio:
