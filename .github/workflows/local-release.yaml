@@ -9,7 +9,7 @@ on:
       registry_url:
         required: true
         
-    tag:
+      tag:
         description: version tag of the image
         required: true
         
