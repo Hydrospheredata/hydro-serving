@@ -40,7 +40,7 @@ Create dockerconfig.json contents
 {{- else if (eq .Values.global.registry.url "") }}
 {{- printf "{\"auths\": {\"%s\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}, \"localhost:5000\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}}}" (printf "%s-docker-registry.%s.svc.cluster.local:5000" .Release.Name .Release.Namespace) .Values.global.registry.username .Values.global.registry.password (printf "%s:%s" .Values.global.registry.username .Values.global.registry.password | b64enc) .Values.global.registry.username .Values.global.registry.password (printf "%s:%s" .Values.global.registry.username .Values.global.registry.password | b64enc) | b64enc }}
 {{- else }}
-{{- printf "{\"auths\": {\"%s\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}}}" .Value.global.registry.url .Values.global.registry.username .Values.global.registry.password (printf "%s:%s" .Values.global.registry.username .Values.global.registry.password | b64enc) | b64enc }}
+{{- printf "{\"auths\": {\"%s\": {\"username\": \"%s\", \"password\": \"%s\", \"auth\": \"%s\"}}}" .Values.global.registry.url .Values.global.registry.username .Values.global.registry.password (printf "%s:%s" .Values.global.registry.username .Values.global.registry.password | b64enc) | b64enc }}
 {{- end }}
 {{- end }}
 

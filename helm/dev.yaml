@@ -1,18 +1,37 @@
 ui:
   image:
-    full: hydrosphere/hydro-serving-ui:2aa6c4c08b8709c1d71b7a410d37363cfe494143
+    full: hydrosphere/hydro-serving-ui:574d2e7c12e94e5d5f3167757f0dddd0083dbb5e
 manager:
   image:
-    full: hydrosphere/serving-manager:2860de4422506d06e365ab20e2612cc315c0c995
+    full: hydrosphere/serving-manager:c2739c675ec5d159c210d01c33fd301d85993d7c
+  depconfig: |-
+    default-deployment-configuration = """
+      {
+        "name":"default",
+        "hpa":{
+            "minReplicas":1,
+            "maxReplicas":10,
+            "cpuUtilization":80
+        },
+        "pod":{
+          "tolerations":[{
+                "key":"node-type",
+                "operator":"Equal",
+                "value":"hydrosphere.io",
+                "effect":"NoSchedule"
+          }]
+        }
+      }
+    """
 gateway:
   image:
-    full: hydrosphere/serving-gateway:98e9add3a034ef5b85d628bb17cbceec1bfd515c
+    full: hydrosphere/serving-gateway:baf1199aee714385e635dbfaee49e58954048da3
 sonar:
   image:
     full: hydrosphere/sonar:495830e0910b65420c79e307d3b9df7f1a87917b
 visualization:
   image:
-    full: hydrosphere/hydro-visualization:fa9ff705deb7192baa984569505c5cc6b8151de9  
+    full: hydrosphere/hydro-visualization:94f27b119de749cc646d9faa3bedb83160d25002
 auto-od:
   image:
     full: hydrosphere/auto-od:d9b5700c61844a9748da1d847518e6de367a0309
@@ -22,3 +41,29 @@ stat:
 rootcause:
   image:
     full: hydrosphere/hydro-root-cause:1d3495440b803fee80cdaa20707ae1d84a3796c7
+postgresql:
+  metrics:
+    enabled: true
+  serviceMonitor:
+    enabled: true
+global:
+  ui:
+    ingress:
+      enabled: true
+      host: "hydro-serving.dev.hydrosphere.io"
+      grpchost: "hydro-grpc.dev.hydrosphere.io"
+  registry:
+    insecure: false
+    ingress:
+      enabled: true
+      host: "hydro-registry.dev.hydrosphere.io"
+  persistence:
+    url: "s3.amazonaws.com"
+    mode: "s3"
+    region: "eu-central-1" # region for s3
+
+  tolerations:
+  - key: "node-type"
+    operator: "Equal"
+    value: "hydrosphere.io"
+    effect: "NoSchedule"

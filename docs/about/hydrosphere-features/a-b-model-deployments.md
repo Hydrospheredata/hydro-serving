@@ -10,5 +10,5 @@ To perform a basic A/B experiment on an application consisting of 2 variants of 
 
 Learn how to set up an A/B application:
 
-* [A/B Analysis for a Recommendation Model](https://docs.hydrosphere.io/tutorials/a-b-analysis-for-a-recommendation-model)
+* [A/B Analysis for a Recommendation Model](https://docs.hydrosphere.io/quickstart/tutorials/a-b-analysis-for-a-recommendation-model)
 

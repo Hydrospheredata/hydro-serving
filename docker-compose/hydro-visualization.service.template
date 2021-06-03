@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   visualization-worker:
-    image: hydrosphere/hydro-visualization:1af6fefa8dfea14bec89e8e737689b1691cd5ae7
+    image: hydrosphere/hydro-visualization:94f27b119de749cc646d9faa3bedb83160d25002
     container_name: visualization-worker
     environment:
       - MONGO_URL=mongodb
@@ -13,7 +13,7 @@ services:
       - AWS_SECRET_ACCESS_KEY=minio123
       - AWS_STORAGE_ENDPOINT=http://minio:9000
       - DEBUG=False
-    command: celery -A app.celery worker -l info -Q visualization
+    command: celery -A app.utils.conf.celery worker -l info -Q visualization
     depends_on:
       - visualization
       - mongodb
@@ -24,7 +24,7 @@ services:
 
   visualization:
     container_name: visualization
-    image: hydrosphere/hydro-visualization:1af6fefa8dfea14bec89e8e737689b1691cd5ae7
+    image: hydrosphere/hydro-visualization:94f27b119de749cc646d9faa3bedb83160d25002
     environment:
       - GRPC_PORT=5003
       - MONGO_URL=mongodb
@@ -35,7 +35,7 @@ services:
       - AWS_SECRET_ACCESS_KEY=minio123
       - AWS_STORAGE_ENDPOINT=http://minio:9000
       - DEBUG=False
-    command: python app.py
+    command: python run.py
     ports:
       - "5000:5000"
     depends_on:

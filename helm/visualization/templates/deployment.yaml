@@ -28,7 +28,6 @@ spec:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.full }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          command: ["python", "app.py"]
           ports:
             - name: http
               containerPort: {{ .Values.service.httpPort }}

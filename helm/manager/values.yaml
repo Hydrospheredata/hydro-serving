@@ -29,28 +29,33 @@ global:
 
 env: {}
 
-javaOpts: "-Xmx1024m -Xms128m -Xss16M"
+monitoring:
+  enabled: true
+  
+javaOpts: "-Xmx1024m -Xms128m -Xss16M -Dcom.sun.management.jmxremote.port=5555 -Dcom.sun.management.jmxremote.rmi.port=5555 -Djava.rmi.server.hostname=localhost -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false"
+depconfig: 
 
 image:
-  full: hydrosphere/serving-manager:2860de4422506d06e365ab20e2612cc315c0c995
+  full: hydrosphere/serving-manager:c2739c675ec5d159c210d01c33fd301d85993d7c
   pullPolicy:  IfNotPresent
 
 service:
   type: ClusterIP
   http_port: 9090
   grpc_port: 9091
+  jmx_port: 5555
 
-resources: {}
+resources:
   # We usually recommend not to specify default resources and to leave this as a conscious
   # choice for the user. This also increases chances charts run on environments with little
   # resources, such as Minikube. If you do want to specify resources, uncomment the following
   # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
-  # limits:
-  #  cpu: 100m
-  #  memory: 128Mi
-  # requests:
-  #  cpu: 100m
-  #  memory: 128Mi
+  limits:
+   cpu: 1000m
+   memory: 2Gi
+  requests:
+   cpu: 512m
+   memory: 1Gi
 
 nodeSelector: {}
 

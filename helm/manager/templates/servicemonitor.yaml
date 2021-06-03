@@ -1,0 +1,21 @@
+{{- if .Values.monitoring.enabled }}
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: {{ template "manager.fullname" . }}
+  namespace: monitoring
+  labels:
+    service: manager
+    release: kube-prometheus-stack
+spec:
+  namespaceSelector:
+    matchNames:
+      - {{ .Release.Namespace }}
+  selector:
+    matchLabels:
+      app: {{ template "manager.fullname" . }}
+      release: {{ .Release.Name }}
+      heritage: {{ .Release.Service }}
+  endpoints:
+  - port: jmx-exporter
+{{- end }}

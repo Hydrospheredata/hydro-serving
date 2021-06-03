@@ -24,13 +24,12 @@ spec:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.full }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          command: ["python", "server.py"]
           ports:
             - name: grpc
               containerPort: 5000
               protocol: TCP
           env:
-            - name: HS_CLUSTER_ADDRESS
+            - name: CLUSTER_ENDPOINT
               value: "http://{{ template "ui.fullname" . }}:9090"
             - name: MONGO_URL
               value: {{ if .Values.global.mongodb.url }}"{{ .Values.global.mongodb.url }}"{{ else }} "{{ template "mongodb.fullname" . }}"{{ end }}  

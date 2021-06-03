@@ -4,7 +4,7 @@ metadata:
   name: "{{ template "manager.fullname" . }}"
   namespace: {{ .Release.Namespace }}
   labels:
-    app: {{ include "manager.name" . }}
+    app: {{ template "manager.fullname" . }}
     chart: {{ include "manager.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
@@ -24,6 +24,16 @@ spec:
       targetPort: grpc
       protocol: TCP
       name: grpc
+    - port: {{ .Values.service.jmx_port }}
+      targetPort: jmx
+      protocol: TCP
+      name: jmx
+  {{- if .Values.monitoring.enabled }}
+    - port: 5556
+      targetPort: jmx-exporter
+      protocol: TCP
+      name: jmx-exporter
+  {{- end }}
   selector:
     app: {{ include "manager.name" . }}
     release: {{ .Release.Name }}
