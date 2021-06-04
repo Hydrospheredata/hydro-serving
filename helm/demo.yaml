@@ -42,6 +42,7 @@ global:
       grpchost: "hydro-grpc-demo.dev.hydrosphere.io"
   registry:
     insecure: false
+    url: "943173312784.dkr.ecr.eu-central-1.amazonaws.com/hydrosphere"
     ingress:
       enabled: true
       host: "hydro-registry-demo.dev.hydrosphere.io"
