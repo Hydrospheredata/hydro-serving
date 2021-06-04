@@ -8,7 +8,7 @@ global:
                                  # cluster.
   persistence:
     url: "" # Endpoint for the object storage. Compatible with S3 or Minio.
-    mode: "s3"
+    mode: "minio"
     ingress:
       enabled: false
       hosts: ["hydrosphere-minio.local"]

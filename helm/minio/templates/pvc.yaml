@@ -1,4 +1,4 @@
-{{- if (include "minio.createPVC" .) }}
+{{- if and (eq .Values.global.persistence.mode "minio") }}
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
