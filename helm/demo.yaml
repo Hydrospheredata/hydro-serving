@@ -51,7 +51,7 @@ global:
     region: "eu-central-1" # region for s3
 
   mongodb:
-    url: "" # Specify MongoDB connection string if you want to use an external MongoDB instance. 
+    url: "docdb-2021-06-04-20-03-12.c6yzvjrvtrdu.eu-central-1.docdb.amazonaws.com" # Specify MongoDB connection string if you want to use an external MongoDB instance. 
             # If empty, an in-cluster deployment will be provisioned. 
     rootPassword: "hydr0s3rving" # Mongodb root password. Used for an internal installation.
     username: "root" # Mongodb username. Used for an internal installation.
@@ -60,11 +60,11 @@ global:
     database: "hydro-serving-data-profiler" # Mongodb database name. Used for an internal installation.
 
   postgresql:
-    url: "" # Specify Postgresql connection string if you want to use an external Postgresql instance. 
+    url: "demohydrosphere.c6yzvjrvtrdu.eu-central-1.rds.amazonaws.com" # Specify Postgresql connection string if you want to use an external Postgresql instance. 
             # If empty, an in-cluster deployment will be provisioned.
     username: "postgres" # Postgresql username. Used for an internal installation.
     password: "hydr0s3rving" # Postgresql password. Used for an internal installation.
-    database: "hydro-serving" # Postgresql database name. Used for an internal installation.
+    database: "hydroserving" # Postgresql database name. Used for an internal installation.
 
   alertmanager:
     url: "" # Prometheus AlertManager address in case you want to use the external installation.
@@ -90,5 +90,5 @@ global:
   tolerations:
   - key: "node-type"
     operator: "Equal"
-    value: "hydrosphere.io"
+    value: "demo"
     effect: "NoSchedule"
