@@ -593,6 +593,7 @@ serviceAccount:
   ## If not set and create is true, a name is generated using the common.names.fullname template
   ##
   name: "minio"
+  annotations: {}
 
 ## MinIO(R) Pod Disruption Budget configuration (only in distributed mode)
 ## ref: https://kubernetes.io/docs/tasks/run-application/configure-pdb/
