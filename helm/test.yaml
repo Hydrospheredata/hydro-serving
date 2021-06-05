@@ -1,0 +1,84 @@
+ui:
+  image:
+    full: hydrosphere/hydro-serving-ui:1a044adafa2b91ec20c3b68d8103e74f52809272
+manager:
+  image:
+    full: hydrosphere/serving-manager:2.4.0
+gateway:
+  image:
+    full: hydrosphere/serving-gateway:2.4.0
+sonar:
+  image:
+    full: hydrosphere/sonar:2a41d4a1fcaed171ebd0f3153f05b09ef2afbe2c
+visualization:
+  image:
+    full: hydrosphere/hydro-visualization:77848eee1d6391b48ac81dc02265c1847e04aede  
+auto-od:
+  image:
+    full: hydrosphere/auto-od:3820a74e3a9469f36094743418f8f845bef600f1
+stat:
+  image:
+    full: hydrosphere/stat:f72b0ceb5911bd249455e6cb7ae0d2e9d412cf1c
+rootcause:
+  image:
+    full: hydrosphere/hydro-root-cause:73721910db505b35226249756bdfe3b475f97497
+
+global:
+  ui:
+    ingress:
+      enabled: true
+      host: "hydro-demo.dev.hydrosphere.io"
+      grpchost: "hydro-grpc-demo.dev.hydrosphere.io"
+  registry:
+    insecure: false
+    url: "" #943173312784.dkr.ecr.eu-central-1.amazonaws.com/hydrosphere
+    ingress:
+      enabled: true
+      host: "hydro-registry-demo.dev.hydrosphere.io"
+  persistence:
+    url: ""
+    mode: "minio"
+    region: "us-west-1" # region for s3
+
+  mongodb:
+    url: "" # Specify MongoDB connection string if you want to use an external MongoDB instance. 
+            # If empty, an in-cluster deployment will be provisioned. 
+    rootPassword: "hydr0s3rving" # Mongodb root password. Used for an internal installation.
+    username: "root" # Mongodb username. Used for an internal installation.
+    password: "hydr0s3rving" # Mongodb password. Used for an internal installation.
+    authDatabase: "admin" # Mongodb auth database. Used for an internal installation.
+    database: "hydro-serving-data-profiler" # Mongodb database name. Used for an internal installation.
+
+  postgresql:
+    url: "" # Specify Postgresql connection string if you want to use an external Postgresql instance. 
+            # If empty, an in-cluster deployment will be provisioned.
+    username: "postgres" # Postgresql username. Used for an internal installation.
+    password: "hydr0s3rving" # Postgresql password. Used for an internal installation.
+    database: "hydroserving" # Postgresql database name. Used for an internal installation.
+
+  alertmanager:
+    url: "" # Prometheus AlertManager address in case you want to use the external installation.
+            # If empty, an internal installation will be deployed.
+    config:
+      global: 
+        smtp_smarthost: "smtp.gmail.com:587" # SMTP relay host
+        smtp_auth_username: "alert@hydrosphere.io" # SMTP relay username 
+        smtp_auth_identity: "alert" # SMTP relay username identity
+        smtp_auth_password: "mailbot" # SMTP relay password
+        smtp_from: "alert@hydrosphere.io" # Email address of the sender
+      route:
+        group_by: ["alertname", "modelVersionId"]
+        group_wait: "10s"
+        group_interval: "10s"
+        repeat_interval: "1h"
+        receiver: "default"
+      receivers:
+      - name: "default"
+        email_configs: # List of email addresses to send alarms to
+        - to: "alert@hydrosphere.io" 
+
+  tolerations:
+  - key: "node-type"
+    operator: "Equal"
+    value: "dev"
+    effect: "NoSchedule"
