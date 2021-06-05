@@ -49,7 +49,7 @@ services:
     container_name: manager
     depends_on:
     - postgres
-    image: hydrosphere/serving-manager:d9e08fd4ad5ccce4544e69ec659cc29e12343634
+    image: hydrosphere/serving-manager:dab78c676ad4a82327a4ac9b24906583d20180bc
     networks:
       extnet: {}
       hydronet: {}
@@ -86,7 +86,7 @@ services:
       STAT_HOST: stat
       STAT_PORT: '5000'
       VISUALIZATION_HOST: visualization
-    image: hydrosphere/hydro-serving-ui:9823f9cb7be2fa996abb43a56a3049a0999ba3ef
+    image: hydrosphere/hydro-serving-ui:953b0226204e1817518240eefbaa851c5373087e
     networks:
       extnet: {}
       hydronet: {}
