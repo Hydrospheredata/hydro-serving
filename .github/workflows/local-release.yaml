@@ -72,7 +72,7 @@ jobs:
           ref: master
         
       - name: Update ${{env.HELM_CHART_NAME}}/values.yaml
-        run: "cd helm && sed -i \"s/.*full:.*/  full: $REGISTRYURL\\/$IMAGE_NAME:$TAG/g\" $HELM_CHART_NAME/values.yaml"
+        run: "cd helm && sed -i \"s/.*full:.*/  full: $REGISTRY_URL\\/$IMAGE_NAME:$TAG/g\" $HELM_CHART_NAME/values.yaml"
       
       - name: Update dev.yaml
         run: "cd helm && sed -i \"s/.*$IMAGE_NAME.*/    full: $REGISTRY_URL\\/$IMAGE_NAME:$TAG/g\" dev.yaml"
