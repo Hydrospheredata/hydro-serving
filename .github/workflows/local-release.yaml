@@ -99,8 +99,8 @@ jobs:
             command="$command -f $template"
           done
 
-          command="$command config > ../docker-compose.yaml"
-          $command
+          command="$command config"
+          $command > ../docker-compose.yaml
             
         
         
