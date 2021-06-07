@@ -25,36 +25,43 @@ jobs:
       TAG: ${{ github.event.inputs.tag }}
       
     steps:
-      - name: Set HELM_CHART_NAME
+      - name: Set dynamic environment variables
         run: |
           case $IMAGE_NAME in
           
             serving-gateway)
               HELM_CHART_NAME=gateway
+              SERVICE_NAME=hydro-serving-gateway
               ;;
               
             serving-manager)
               HELM_CHART_NAME=manager
+              SERVICE_NAME=hydro-serving-manager
               ;;
               
             hydro-root-cause)
               HELM_CHART_NAME=rootcause
+              SERVICE_NAME=hydro-root-cause
               ;;
               
             sonar)
               HELM_CHART_NAME=sonar
+              SERVICE_NAME=sonar
               ;;
               
             stat)
               HELM_CHART_NAME=stat
+              SERVICE_NAME=hydro-stat
               ;;
               
             hydro-serving-ui)
               HELM_CHART_NAME=ui
+              SERVICE_NAME=hydro-serving-ui
               ;;  
             
             hydro-visualization)
               HELM_CHART_NAME=visualization
+              SERVICE_NAME=hydro-visualization
               ;;
             
             *)
@@ -64,6 +71,7 @@ jobs:
           esac
           
           echo HELM_CHART_NAME=$HELM_CHART_NAME >> $GITHUB_ENV
+          echo SERVICE_NAME=$SERVICE_NAME >> $GITHUB_ENV
           
           
       - name: Checkout
@@ -77,7 +85,23 @@ jobs:
       - name: Update dev.yaml
         run: "cd helm && sed -i \"s/.*$IMAGE_NAME.*/    full: $REGISTRY_URL\\/$IMAGE_NAME:$TAG/g\" dev.yaml"
         
-        # frigate needs installation
+        # TODO: linting and stuff
+        
+      - name: Update docker-compose service image
+        run: "cd docker-compose && sed -i \"s/.*image:.*/    image: $REGISTRY_URL\\/$IMAGE_NAME:$TAG/g\" $SERVICE_NAME.service.template"
+        
+      - name: Merge compose file
+        run: |
+          cd docker-compose
+          command="docker-compose"
+          for template in $(ls *.template)
+          do
+            command="$command -f $template"
+          done
+
+          command="$command config > ../docker-compose.yaml"
+          $command
+            
         
         
       - name: Push to repo
