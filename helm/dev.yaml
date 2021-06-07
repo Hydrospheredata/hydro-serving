@@ -25,7 +25,7 @@ manager:
     """
 gateway:
   image:
-    full: bulbawarrior/serving-gateway:9c1cba6ceec844e8esdfsdfasfdsa3cd694f4724c29d8f7c77e5
+    full: bulbawarrior/serving-gateway:9c1cba6ceeasdc844e8e3cd694f4724c29dsadasgs8f7c77e5
 sonar:
   image:
     full: hydrosphere/sonar:495830e0910b65420c79e307d3b9df7f1a87917b
