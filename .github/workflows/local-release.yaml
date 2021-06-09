@@ -36,7 +36,7 @@ jobs:
               
             serving-manager)
               HELM_CHART_NAME=manager
-              SERVICE_NAME=hydro-serving-manager
+              SERVICE_NAME=serving-manager
               ;;
               
             hydro-root-cause)
