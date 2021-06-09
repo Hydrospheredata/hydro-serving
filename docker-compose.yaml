@@ -55,7 +55,7 @@ services:
         condition: service_started
     environment:
       CUSTOM_CONFIG: /app/config/dc.conf
-    image: hydrosphere/serving-manager:0f90ed836cc65203ebed399cad48d28c6139d2e0
+    image: bulbawarrior/serving-manager:78417c00e0021c3ae002af1d66950c5977722ff3
     networks:
       extnet: {}
       hydronet: {}
