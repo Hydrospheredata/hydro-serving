@@ -40,7 +40,7 @@ services:
       API_GATEWAY_HTTP_PORT: '8080'
       GRPC_PORT: '9091'
       HTTP_PORT: '9090'
-    image: bulbawarrior/serving-gateway:00a0c71f25fb399a2ce48f02a9033107388df350
+    image: bulbawarrior/serving-gateway:196c6c7ad78a7ca5d84e2d3fed46e56a0debaeea
     networks:
       hydronet: {}
     ports:
