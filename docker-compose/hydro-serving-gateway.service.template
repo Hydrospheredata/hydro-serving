@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   gateway:
-    image: bulbawarrior/serving-gateway:196c6c7ad78a7ca5d84e2d3fed46e56a0debaeea
+    image: bulbawarrior/serving-gateway:d2597968b8e507f892cf70d5ab6f32d141965dcf
     container_name: gateway
     ports:
       - "29090:9090"

@@ -10,7 +10,7 @@ replicaCount: 1
 javaOpts: "-Xmx512m -Xms64m -Xss16M"
 
 image:
-  full: bulbawarrior/serving-gateway:196c6c7ad78a7ca5d84e2d3fed46e56a0debaeea
+  full: bulbawarrior/serving-gateway:d2597968b8e507f892cf70d5ab6f32d141965dcf
   pullPolicy:  IfNotPresent
 
 service:
