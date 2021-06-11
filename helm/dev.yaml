@@ -58,9 +58,9 @@ global:
       enabled: true
       host: "hydro-registry.dev.hydrosphere.io"
   persistence:
-    url: "s3.amazonaws.com"
-    mode: "s3"
-    region: "eu-central-1" # region for s3
+    url: ""
+    mode: "minio"
+    region: "us-west-1" # region for s3
 
   tolerations:
   - key: "node-type"
