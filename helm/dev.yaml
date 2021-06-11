@@ -17,7 +17,7 @@ manager:
           "tolerations":[{
                 "key":"node-type",
                 "operator":"Equal",
-                "value":"hydrosphere.io",
+                "value":"dev",
                 "effect":"NoSchedule"
           }]
         }
