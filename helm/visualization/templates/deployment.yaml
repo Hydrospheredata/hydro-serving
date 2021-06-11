@@ -27,7 +27,6 @@ spec:
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.full }}"
-          command: ["service"]
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
@@ -37,6 +36,8 @@ spec:
               containerPort: {{ .Values.service.grpcPort }}
               protocol: TCP
           env:
+            - name: SERVICE_MODE
+              value: service
             - name: APP_PORT
               value: {{ .Values.service.httpPort | quote }}
             - name: GRPC_PORT
@@ -98,8 +99,9 @@ spec:
         - name: {{ .Chart.Name }}-worker
           image: "{{ .Values.image.full }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          command: ["worker"]
           env:
+            - name: SERVICE_MODE
+              value: worker
             - name: GRPC_PROXY_ADDRESS
               value: "{{ template "ui.fullname" . }}:9091"
             - name: HTTP_PROXY_ADDRESS
