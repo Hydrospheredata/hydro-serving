@@ -1,6 +1,6 @@
 annotations:
   category: Infrastructure
-apiVersion: v1
+apiVersion: v2
 appVersion: 2020.12.3
 dependencies:
 - name: common
