@@ -1,7 +1,7 @@
 dependencies:
    - name: docker-registry
      repository: file://../docker-registry
-     version: 0.1.0
+     version: 2.7.0
      condition: global.dockerRegistry.enabled
    - name: postgresql
      repository: file://../postgresql
@@ -22,8 +22,8 @@ dependencies:
      condition: global.mongo.enabled
    - name: alertmanager
      repository: file://../alertmanager
-     version: 0.2.0
-     condition: global.alerting_on
+     version: 0.11.0
+     condition: global.alertmanager.enabled
    - name: minio
      repository: file://../minio
      version: 4.1.1

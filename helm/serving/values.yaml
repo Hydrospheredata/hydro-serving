@@ -53,6 +53,7 @@ global:
     database: "hydro-serving" # Postgresql database name. Used for an internal installation.
 
   alertmanager:
+    enabled: true
     url: "" # Prometheus AlertManager address in case you want to use the external installation.
             # If empty, an internal installation will be deployed.
     config:
