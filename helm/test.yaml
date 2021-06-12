@@ -26,18 +26,18 @@ global:
   ui:
     ingress:
       enabled: true
-      host: "hydro-demo.dev.hydrosphere.io"
-      grpchost: "hydro-grpc-demo.dev.hydrosphere.io"
+      host: "hydro-test.dev.hydrosphere.io"
+      grpchost: "hydro-grpc-test.dev.hydrosphere.io"
   registry:
     insecure: false
+    url: ""
     ingress:
       enabled: true
-      host: "hydro-registry-demo.dev.hydrosphere.io"
-
+      host: "hydro-registry-test.dev.hydrosphere.io"
   persistence:
     url: ""
     mode: "minio"
-    region: "eu-central-1" # region for s3
+    region: "us-west-1" # region for s3
 
   mongodb:
     url: "" # Specify MongoDB connection string if you want to use an external MongoDB instance. 
@@ -53,7 +53,7 @@ global:
             # If empty, an in-cluster deployment will be provisioned.
     username: "postgres" # Postgresql username. Used for an internal installation.
     password: "hydr0s3rving" # Postgresql password. Used for an internal installation.
-    database: "hydro-serving" # Postgresql database name. Used for an internal installation.
+    database: "hydroserving" # Postgresql database name. Used for an internal installation.
 
   alertmanager:
     url: "" # Prometheus AlertManager address in case you want to use the external installation.
@@ -79,5 +79,5 @@ global:
   tolerations:
   - key: "node-type"
     operator: "Equal"
-    value: "hydrosphere.io"
+    value: "dev"
     effect: "NoSchedule"
