@@ -55,7 +55,7 @@ Get the user to use to access MinIO(R)
     {{- else if eq .Values.global.persistence.mode "s3" }}
         {{- .Values.global.persistence.accessKey -}}
     {{- end -}}
-{{- else }}
+{{- else if eq .Values.global.persistence.mode "minio" }}
     {{- $accessKey := .Values.global.persistence.accessKey -}}
     {{- if $accessKey }}
         {{- $accessKey -}}
@@ -90,7 +90,7 @@ Get the password to use to access MinIO(R)
     {{- else if eq .Values.global.persistence.mode "s3" }}
         {{- .Values.global.persistence.secretKey -}}
     {{- end -}}
-{{- else }}
+{{- else if eq .Values.global.persistence.mode "minio" }}
     {{- $secretKey := .Values.global.persistence.secretKey -}}
     {{- if $secretKey }}
         {{- $secretKey -}}

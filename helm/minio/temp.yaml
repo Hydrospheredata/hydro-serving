@@ -1,0 +1,197 @@
+---
+# Source: minio/templates/serviceaccount.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: minio
+  namespace: default
+  labels:
+    app.kubernetes.io/name: minio
+    helm.sh/chart: minio-6.7.16
+    app.kubernetes.io/instance: RELEASE-NAME
+    app.kubernetes.io/managed-by: Helm
+secrets:
+  - name: RELEASE-NAME-minio
+---
+# Source: minio/templates/secrets.yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: RELEASE-NAME-minio
+  namespace: default
+  labels:
+    app.kubernetes.io/name: minio
+    helm.sh/chart: minio-6.7.16
+    app.kubernetes.io/instance: RELEASE-NAME
+    app.kubernetes.io/managed-by: Helm
+type: Opaque
+data:
+  access-key: "QUNDRVNTS0VZRVhBTVBMRQ=="
+  secret-key: "U0VDUkVUS0VZRVhBTVBMRQ=="
+  key.json: ""
+---
+# Source: minio/templates/pvc.yaml
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: RELEASE-NAME-minio
+  namespace: default
+  labels:
+    app.kubernetes.io/name: minio
+    helm.sh/chart: minio-6.7.16
+    app.kubernetes.io/instance: RELEASE-NAME
+    app.kubernetes.io/managed-by: Helm
+spec:
+  accessModes:
+    - "ReadWriteOnce"
+  resources:
+    requests:
+      storage: "8Gi"
+---
+# Source: minio/templates/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: RELEASE-NAME-minio
+  namespace: default
+  labels:
+    app.kubernetes.io/name: minio
+    helm.sh/chart: minio-6.7.16
+    app.kubernetes.io/instance: RELEASE-NAME
+    app.kubernetes.io/managed-by: Helm
+spec:
+  type: ClusterIP
+  
+  ports:
+    - name: minio
+      port: 9000
+      targetPort: minio
+      nodePort: null
+  selector:
+    app.kubernetes.io/name: minio
+    app.kubernetes.io/instance: RELEASE-NAME
+---
+# Source: minio/templates/standalone/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: RELEASE-NAME-minio
+  namespace: default
+  labels:
+    app.kubernetes.io/name: minio
+    helm.sh/chart: minio-6.7.16
+    app.kubernetes.io/instance: RELEASE-NAME
+    app.kubernetes.io/managed-by: Helm
+spec:
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: minio
+      app.kubernetes.io/instance: RELEASE-NAME
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: minio
+        helm.sh/chart: minio-6.7.16
+        app.kubernetes.io/instance: RELEASE-NAME
+        app.kubernetes.io/managed-by: Helm
+      annotations:
+        checksum/credentials-secret: 74645db3e8aea1bec2f0b010595f0b03f1192ba7bbbf265f01ace6c3cdb4ce3f
+    spec:
+      
+      serviceAccountName: minio
+      affinity:
+        podAffinity:
+          
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+            - podAffinityTerm:
+                labelSelector:
+                  matchLabels:
+                    app.kubernetes.io/name: minio
+                    app.kubernetes.io/instance: RELEASE-NAME
+                namespaces:
+                  - "default"
+                topologyKey: kubernetes.io/hostname
+              weight: 1
+        nodeAffinity:
+          
+      securityContext:
+        fsGroup: 1001
+      initContainers:
+        - name: volume-permissions
+          image: docker.io/bitnami/bitnami-shell:10-debian-10-r92
+          imagePullPolicy: "Always"
+          command:
+            - /bin/bash
+            - -ec
+            - |
+              chown -R 1001:1001 /data
+          securityContext:
+            runAsUser: 0
+          resources:
+            limits: {}
+            requests: {}
+          volumeMounts:
+            - name: data
+              mountPath: /data
+      containers:
+        - name: minio
+          image: docker.io/bitnami/minio:2021.5.27-debian-10-r6
+          imagePullPolicy: "IfNotPresent"
+          securityContext:
+            runAsUser: 1001
+          env:
+            - name: BITNAMI_DEBUG
+              value: "false"
+            - name: MINIO_FORCE_NEW_KEYS
+              value: "yes"
+            - name: MINIO_ACCESS_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: RELEASE-NAME-minio
+                  key: access-key
+            - name: MINIO_SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: RELEASE-NAME-minio
+                  key: secret-key
+            - name: MINIO_DEFAULT_BUCKETS
+              value: hydrosphere-model-registry, hydrosphere-visualization-artifacts
+            - name: MINIO_BROWSER
+              value: "on"
+            - name: MINIO_PROMETHEUS_AUTH_TYPE
+              value: "public"
+          envFrom:
+          ports:
+            - name: minio
+              containerPort: 9000
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: /minio/health/live
+              port: minio
+            initialDelaySeconds: 5
+            periodSeconds: 5
+            timeoutSeconds: 5
+            successThreshold: 1
+            failureThreshold: 5
+          readinessProbe:
+            tcpSocket:
+              port: minio
+            initialDelaySeconds: 5
+            periodSeconds: 5
+            timeoutSeconds: 1
+            successThreshold: 1
+            failureThreshold: 5
+          resources:
+            limits: {}
+            requests: {}
+          volumeMounts:
+            - name: data
+              mountPath: /data
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: RELEASE-NAME-minio
