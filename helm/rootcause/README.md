@@ -23,7 +23,7 @@ The following table lists the configurable parameters of the Rootcause chart and
 | `global.mongodb.password` | Mongodb password | `"hydr0s3rving"` |
 | `global.mongodb.authDatabase` | Mongodb auth database | `"admin"` |
 | `global.mongodb.database` | Mongodb database name | `"rootcause"` |
-| `image.full` |  | `"hydrosphere/hydro-root-cause:1d3495440b803fee80cdaa20707ae1d84a3796c7"` |
+| `image.full` |  | `"hydrosphere/hydro-root-cause:b25c6c1e06934f5058f3526e4cc5f90c57ff625d"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `service.type` |  | `"ClusterIP"` |
 | `service.port` |  | `5005` |

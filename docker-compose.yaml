@@ -18,7 +18,6 @@ services:
       AWS_SECRET_ACCESS_KEY: minio123
       CLUSTER_ENDPOINT: http://managerui:8080
       DEBUG: "False"
-      DEFAULT_RUNTIME: hydrosphere/serving-runtime-python-3.6
       DEFAULT_TIMEOUT: '120'
       GRPC_PORT: '5001'
       MONGO_URL: mongodb
@@ -165,7 +164,7 @@ services:
       MONGO_URL: mongodb
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-root-cause:1d3495440b803fee80cdaa20707ae1d84a3796c7
+    image: hydrosphere/hydro-root-cause:b25c6c1e06934f5058f3526e4cc5f90c57ff625d
     networks:
       extnet: {}
       hydronet: {}
@@ -189,7 +188,7 @@ services:
       MONGO_URL: mongodb
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-root-cause:1d3495440b803fee80cdaa20707ae1d84a3796c7
+    image: hydrosphere/hydro-root-cause:b25c6c1e06934f5058f3526e4cc5f90c57ff625d
     networks:
       hydronet: {}
   serving-sonar:
