@@ -42,7 +42,7 @@ labels:
     exclude: []
   'docs':
     include:
-      - '\bdocs
+      - '\bdocs\b'
     exclude: []
   'manager':
     include:
