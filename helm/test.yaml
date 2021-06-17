@@ -4,25 +4,6 @@ ui:
 manager:
   image:
     full: hydrosphere/serving-manager:2.4.0
-  depconfig: |-
-    default-deployment-configuration = """
-      {
-        "name":"default",
-        "hpa":{
-            "minReplicas":1,
-            "maxReplicas":10,
-            "cpuUtilization":80
-        },
-        "pod":{
-          "tolerations":[{
-                "key":"node-type",
-                "operator":"Equal",
-                "value":"demo",
-                "effect":"NoSchedule"
-          }]
-        }
-      }
-    """
 gateway:
   image:
     full: hydrosphere/serving-gateway:2.4.0

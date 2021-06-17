@@ -49,9 +49,7 @@ services:
     container_name: manager
     depends_on:
     - postgres
-    environment:
-      CUSTOM_CONFIG: /app/config/dc.conf
-    image: hydrosphere/serving-manager:0f90ed836cc65203ebed399cad48d28c6139d2e0
+    image: hydrosphere/serving-manager:dab78c676ad4a82327a4ac9b24906583d20180bc
     networks:
       extnet: {}
       hydronet: {}
@@ -61,7 +59,6 @@ services:
     - published: 19091
       target: 9091
     volumes:
-    - /tmp/agent/workspace/phere.io_hydro-serving-ui_master/release/docker-compose/dc.conf:/app/config/dc.conf:ro
     - /var/run/docker.sock:/var/run/docker.sock:rw
   managerui:
     container_name: managerui
@@ -89,7 +86,7 @@ services:
       STAT_HOST: stat
       STAT_PORT: '5000'
       VISUALIZATION_HOST: visualization
-    image: hydrosphere/hydro-serving-ui:5d55e1a62f1911d6329d139c0584e179691d0402
+    image: hydrosphere/hydro-serving-ui:21d6e940f310a36223bd6c51aac1d3c5fb7793ed
     networks:
       extnet: {}
       hydronet: {}
@@ -245,7 +242,7 @@ services:
     - published: 5002
       target: 5000
   visualization:
-    command: python run.py
+    command: service
     container_name: visualization
     depends_on:
     - minio
@@ -260,7 +257,7 @@ services:
       HTTP_PROXY_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       SECURE: "False"
-    image: hydrosphere/hydro-visualization:94f27b119de749cc646d9faa3bedb83160d25002
+    image: hydrosphere/hydro-visualization:b498e987681e5b8c71e7e9e0fe687e1d8673b50c
     networks:
       extnet: {}
       hydronet: {}
@@ -268,7 +265,7 @@ services:
     - published: 5000
       target: 5000
   visualization-worker:
-    command: celery -A app.utils.conf.celery worker -l info -Q visualization
+    command: worker
     container_name: visualization-worker
     depends_on:
     - minio
@@ -283,7 +280,7 @@ services:
       HTTP_PROXY_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       SECURE: "False"
-    image: hydrosphere/hydro-visualization:94f27b119de749cc646d9faa3bedb83160d25002
+    image: hydrosphere/hydro-visualization:b498e987681e5b8c71e7e9e0fe687e1d8673b50c
     networks:
       hydronet: {}
 version: '3.5'
