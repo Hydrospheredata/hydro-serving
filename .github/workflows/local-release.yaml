@@ -7,6 +7,7 @@ on:
         required: true
         
       registry_url:
+        description: the name of registry server
         required: true
         
       tag:
@@ -110,3 +111,18 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git commit -m "Releasing $IMAGE_NAME:$TAG" -a
           git push
+
+  slackNotification:
+    name: Slack Notification
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Slack Notification
+      uses: rtCamp/action-slack-notify@v2
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_CHANNEL: hydrosphere
+        SLACK_USERNAME: HydroRobot
+        SLACK_ICON: https://avatars.githubusercontent.com/u/17550625?s=200&v=4
+        SLACK_COLOR: ${{ job.status }}
+        SLACK_TITLE: Message
