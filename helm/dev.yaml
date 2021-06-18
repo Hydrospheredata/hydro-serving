@@ -25,7 +25,7 @@ manager:
     """
 gateway:
   image:
-    full: hydrosphere/serving-gateway:baf1199aee714385e635dbfaee49e58954048da3
+    full: hydrosphere/serving-gateway:3126a9b59a7758402173efc38970d67e8fbb8d3c
 sonar:
   image:
     full: hydrosphere/sonar:495830e0910b65420c79e307d3b9df7f1a87917b
