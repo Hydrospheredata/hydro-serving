@@ -19,7 +19,7 @@ jobs:
   Update:
     runs-on: ubuntu-latest
     continue-on-error: true
-    
+
     name: Bump image tag
     env:
       IMAGE_NAME: ${{ github.event.inputs.service_image_name }}
@@ -118,8 +118,8 @@ jobs:
     needs: Update
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Slack Notification
+    - name: Slack Notification success
+      if: ${{ success() }}
       uses: rtCamp/action-slack-notify@v2
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
@@ -127,4 +127,19 @@ jobs:
         SLACK_USERNAME: HydroRobot
         SLACK_ICON: https://avatars.githubusercontent.com/u/17550625?s=200&v=4
         SLACK_COLOR: ${{ job.status }}
-        SLACK_TITLE: Message
+        SLACK_TITLE: Build status - success
+        SLACK_MESSAGE: 'Releasing $IMAGE_NAME:$TAG :rocket:'
+        MSG_MINIMAL: true
+
+    - name: Slack Notification failure
+      if: ${{ failure() }}
+      uses: rtCamp/action-slack-notify@v2
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_CHANNEL: hydrosphere
+        SLACK_USERNAME: HydroRobot
+        SLACK_ICON: https://avatars.githubusercontent.com/u/17550625?s=200&v=4
+        SLACK_COLOR: ${{ job.status }}
+        SLACK_TITLE: Build status - failure
+        SLACK_MESSAGE: 'Check build $IMAGE_NAME status'
+        MSG_MINIMAL: true
