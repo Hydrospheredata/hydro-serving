@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   manager:
-    image: hydrorobot/serving-manager:c6fc3acadf339ddbe778741af651a8ae513fe137
+    image: hydrosphere/serving-manager:1f73a2ad9a86c0a67847cd8f004e5c5e2ac331d1
     container_name: manager
     ports:
       - "19090:9090"
