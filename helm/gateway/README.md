@@ -13,7 +13,7 @@ The following table lists the configurable parameters of the Gateway chart and t
 | ------------------------ | ----------------------- | -------------- |
 | `global.tolerations` |  | `[]` |
 | `replicaCount` |  | `1` |
-| `javaOpts` |  | `"-Xmx512m -Xms64m -Xss16M"` |
+| `JAVA_XMX` |  | `"1G"` |
 | `image.full` |  | `"hydrosphere/serving-gateway:baf1199aee714385e635dbfaee49e58954048da3"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `service.type` |  | `"ClusterIP"` |
