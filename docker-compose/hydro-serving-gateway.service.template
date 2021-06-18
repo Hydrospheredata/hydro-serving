@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   gateway:
-    image: hydrorobot/serving-gateway:dd4495e5b3d1b79836de7f2f861ef50f95903e1a
+    image: hydrosphere/serving-gateway:e28788006e0cbf7d9bfa3ca6c0c9779a6f322220
     container_name: gateway
     ports:
       - "29090:9090"

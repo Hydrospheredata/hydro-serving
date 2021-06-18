@@ -39,7 +39,7 @@ services:
       API_GATEWAY_HTTP_PORT: '8080'
       GRPC_PORT: '9091'
       HTTP_PORT: '9090'
-    image: hydrorobot/serving-gateway:dd4495e5b3d1b79836de7f2f861ef50f95903e1a
+    image: hydrosphere/serving-gateway:e28788006e0cbf7d9bfa3ca6c0c9779a6f322220
     networks:
       hydronet: {}
     ports:
