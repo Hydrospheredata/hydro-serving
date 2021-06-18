@@ -30,7 +30,7 @@ The following table lists the configurable parameters of the Manager chart and t
 | `monitoring.enabled` |  | `true` |
 | `javaOpts` |  | `"-Xmx1024m -Xms128m -Xss16M -Dcom.sun.management.jmxremote.port=5555 -Dcom.sun.management.jmxremote.rmi.port=5555 -Djava.rmi.server.hostname=localhost -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false"` |
 | `depconfig` |  | `null` |
-| `image.full` |  | `"hydrosphere/serving-manager:dab78c676ad4a82327a4ac9b24906583d20180bc"` |
+| `image.full` |  | `"hydrosphere/serving-manager:d27e43005189b032a90772a6f652acbf69e6cf08"` |
 | `image.pullPolicy` |  | `"IfNotPresent"` |
 | `service.type` |  | `"ClusterIP"` |
 | `service.http_port` |  | `9090` |

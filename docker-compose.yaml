@@ -48,7 +48,7 @@ services:
     container_name: manager
     depends_on:
     - postgres
-    image: hydrosphere/serving-manager:dab78c676ad4a82327a4ac9b24906583d20180bc
+    image: hydrosphere/serving-manager:d27e43005189b032a90772a6f652acbf69e6cf08
     networks:
       extnet: {}
       hydronet: {}
