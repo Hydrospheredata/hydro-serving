@@ -1,0 +1,18 @@
+name: "Set Labels"
+on:
+  issues:
+    types: [opened, edited]
+  pull_request:
+    typed: [opened, edited]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Naturalclar/issue-action@v2.0.2
+        with:
+          title-or-body: "both"
+          parameters: '[ {"keywords": ["bug", "error"], "labels": ["BUG"]}, {"keywords": ["help", "guidance"], "labels": ["help-wanted"]}, {"keywords": ["rootcause", "Rootcause"], "labels": ["rootcause"]}, {"keywords": ["visualization", "Visualization"], "labels": ["visualization"]},{"keywords": ["manager", "Manager"], "labels": ["manager"]}, {"keywords": ["sonar", "Sonar"], "labels": ["sonar"]}]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+
+#{"keywords": ["help", "guidance"], "labels": ["help-wanted"], "assignees": ["username"]}
