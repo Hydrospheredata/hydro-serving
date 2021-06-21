@@ -14,20 +14,20 @@ jobs:
           title-or-body: "title"
           parameters: > 
             [
-            {"keywords": ["bug", "error"], "labels": ["BUG"]},
-            {"keywords": ["help", "guidance"], "labels": ["help-wanted"]},
-            {"keywords": ["docs", "Docs"], "labels": ["docs"]},
-            {"keywords": ["rootcause", "Rootcause"], "labels": ["rootcause"]},
-            {"keywords": ["visualization", "Visualization"], "labels": ["visualization"]},
-            {"keywords": ["manager", "Manager"], "labels": ["manager"]},
-            {"keywords": ["sonar", "Sonar"], "labels": ["sonar"]},
-            {"keywords": ["stat", "Stat"], "labels": ["stat"]},
-            {"keywords": ["autood", "auto-od", "Autood"], "labels": ["autood"]},
-            {"keywords": ["gateway", "Gateway"], "labels": ["gateway"]},
-            {"keywords": ["example", "Example"], "labels": ["example"]},
-            {"keywords": ["sdk", "SDK"], "labels": ["sdk"]},
-            {"keywords": ["protos", "Protos"], "labels": ["protos"]},
-            {"keywords": ["runtime", "Runtime"], "labels": ["runtime"]}
+            {"keywords": ["bug", "error"], "labels": ["BUG"], "assignees": [""]},
+            {"keywords": ["help", "guidance"], "labels": ["help-wanted"], "assignees": [""]},
+            {"keywords": ["docs", "Docs"], "labels": ["docs"], "assignees": [""]},
+            {"keywords": ["rootcause", "Rootcause"], "labels": ["rootcause"], "assignees": [""]},
+            {"keywords": ["visualization", "Visualization"], "labels": ["visualization"], "assignees": [""]},
+            {"keywords": ["manager", "Manager"], "labels": ["manager"], "assignees": [""]},
+            {"keywords": ["sonar", "Sonar"], "labels": ["sonar"], "assignees": [""]},
+            {"keywords": ["stat", "Stat"], "labels": ["stat"], "assignees": [""]},
+            {"keywords": ["autood", "auto-od", "Autood"], "labels": ["autood"], "assignees": [""]},
+            {"keywords": ["gateway", "Gateway"], "labels": ["gateway"], "assignees": [""]},
+            {"keywords": ["example", "Example"], "labels": ["example"], "assignees": [""]},
+            {"keywords": ["sdk", "SDK"], "labels": ["sdk"], "assignees": [""]},
+            {"keywords": ["protos", "Protos"], "labels": ["protos"], "assignees": [""]},
+            {"keywords": ["runtime", "Runtime"], "labels": ["runtime"], "assignees": [""]}
             ]
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 
