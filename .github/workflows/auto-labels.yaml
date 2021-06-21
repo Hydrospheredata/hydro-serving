@@ -3,11 +3,12 @@ on:
   issues:
     types: [opened, edited]
   pull_request:
-    typed: [opened, edited]
+    types: [opened, edited]
 
 jobs:
-  test:
+  SetLabel:
     runs-on: ubuntu-latest
+    name: Set Labels
     steps:
       - uses: Naturalclar/issue-action@v2.0.2
         with:
