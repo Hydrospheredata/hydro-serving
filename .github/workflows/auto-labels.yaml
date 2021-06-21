@@ -11,8 +11,24 @@ jobs:
     steps:
       - uses: Naturalclar/issue-action@v2.0.2
         with:
-          title-or-body: "both"
-          parameters: '[ {"keywords": ["bug", "error"], "labels": ["BUG"]}, {"keywords": ["help", "guidance"], "labels": ["help-wanted"]}, {"keywords": ["rootcause", "Rootcause"], "labels": ["rootcause"]}, {"keywords": ["visualization", "Visualization"], "labels": ["visualization"]},{"keywords": ["manager", "Manager"], "labels": ["manager"]}, {"keywords": ["sonar", "Sonar"], "labels": ["sonar"]}]'
+          title-or-body: "title"
+          parameters: |
+            [ 
+              {"keywords": ["bug", "error"], "labels": ["BUG"]},
+              {"keywords": ["help", "guidance"], "labels": ["help-wanted"]},
+              {"keywords": ["docs", "Docs"], "labels": ["docs"]},
+              {"keywords": ["rootcause", "Rootcause"], "labels": ["rootcause"]},
+              {"keywords": ["visualization", "Visualization"], "labels": ["visualization"]},
+              {"keywords": ["manager", "Manager"], "labels": ["manager"]},
+              {"keywords": ["sonar", "Sonar"], "labels": ["sonar"]},
+              {"keywords": ["stat", "Stat"], "labels": ["stat"]},
+              {"keywords": ["autood", "auto-od", "Autood"], "labels": ["autood"]},
+              {"keywords": ["gateway", "Gateway"], "labels": ["gateway"]},
+              {"keywords": ["example", "Example"], "labels": ["example"]},
+              {"keywords": ["sdk", "SDK"], "labels": ["sdk"]}
+              {"keywords": ["protos", "Protos"], "labels": ["protos"]},
+              {"keywords": ["runtime", "Runtime"], "labels": ["runtime"]}
+            ]
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 
 #{"keywords": ["help", "guidance"], "labels": ["help-wanted"], "assignees": ["username"]}
