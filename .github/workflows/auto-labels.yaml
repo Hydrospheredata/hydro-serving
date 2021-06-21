@@ -13,7 +13,7 @@ jobs:
         with:
           title-or-body: "title"
           parameters: > 
-            '[
+            [
             {"keywords": ["bug", "error"], "labels": ["BUG"]},
             {"keywords": ["help", "guidance"], "labels": ["help-wanted"]},
             {"keywords": ["docs", "Docs"], "labels": ["docs"]},
@@ -28,7 +28,7 @@ jobs:
             {"keywords": ["sdk", "SDK"], "labels": ["sdk"]},
             {"keywords": ["protos", "Protos"], "labels": ["protos"]},
             {"keywords": ["runtime", "Runtime"], "labels": ["runtime"]}
-            ]'
+            ]
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 
 #{"keywords": ["help", "guidance"], "labels": ["help-wanted"], "assignees": ["username"]}
