@@ -1,20 +1,27 @@
-rootcause:
-    - '((?-i)rootcause)'
-manager:
-    - '((?-i)manager)'
-sonar:
-    - '((?-i)sonar)'
-gateway:
-    - '((?-i)gateway)'
-autood:
-    - '((?-i)autood)'
-visualization:
-    - '((?-i)visualization)'
-ui:
-    - '((?-i)ui)'
-sdk:
-    - '((?-i)sdk)'
-protos:
-    - '((?-i)protos)'
-example:
-    - '((?-i)example)'
+# Number of labels to fetch (optional). Defaults to 100
+numLabels: 40
+# These labels will not be used even if the issue contains them (optional).
+# Pass a blank array if no labels are to be excluded.
+# excludeLabels: []
+excludeLabels:
+  - pinned
+# custom configuration to override default behaviour
+# control explicitly what gets added and when
+custom:
+  - location: title
+    keywords:
+      - 'rootcause'
+      - 'Rootcause'
+    labels:
+      - rootcause
+  # - location: body
+  #   keywords:
+  #     - 'hey'
+  #   labels:
+  #     - feature:new
+  #     - hey
+  # - location: body
+  #   keywords:
+  #     - 'hi'
+  #   labels:
+  #     - h
