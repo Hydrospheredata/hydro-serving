@@ -4,7 +4,7 @@ services:
   rootcause:
     image: hydrosphere/hydro-root-cause:b25c6c1e06934f5058f3526e4cc5f90c57ff625d
     container_name: rootcause
-    command: python app.py
+    command: service
     depends_on:
       - mongodb
       - rootcause-worker
@@ -29,7 +29,7 @@ services:
   rootcause-worker:
     image: hydrosphere/hydro-root-cause:b25c6c1e06934f5058f3526e4cc5f90c57ff625d
     container_name: rootcause-worker
-    command: celery -A app.celery worker -l info -O fair -Q rootcause
+    command: worker
     depends_on:
       - mongodb
       - serving-sonar

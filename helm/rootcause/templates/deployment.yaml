@@ -28,7 +28,7 @@ spec:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.full }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          command: ["python", "app.py"]
+          args: ['service']
           ports:
             - name: http
               containerPort: {{ .Values.service.port }}
@@ -82,7 +82,7 @@ spec:
         - name: {{ .Chart.Name }}-worker
           image: "{{ .Values.image.full }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          command: ["celery", "-A", "app.celery", "worker", "-O", "fair", "-l", "info", "-Q", "rootcause"]
+          args: ['worker']
           env:
             - name: HTTP_PORT
               value: {{ .Values.service.port | quote }}
