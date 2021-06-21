@@ -14,6 +14,18 @@ custom:
       - 'Rootcause'
     labels:
       - rootcause
+  - location: title
+    keywords:
+      - 'stat'
+      - 'Stat'
+    labels:
+      - stat
+  - location: title
+    keywords:
+      - 'visualization'
+      - 'Visualization'
+    labels:
+      - visualization
   # - location: body
   #   keywords:
   #     - 'hey'
