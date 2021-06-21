@@ -18,7 +18,7 @@ jobs:
             {"keywords": ["help", "guidance"], "labels": ["help-wanted"], "assignees": [""]},
             {"keywords": ["docs", "Docs"], "labels": ["docs"], "assignees": [""]},
             {"keywords": ["rootcause", "Rootcause"], "labels": ["rootcause"], "assignees": [""]},
-            {"keywords": ["visualization", "Visualization"], "labels": ["visualization"], "assignees": [""]},
+            {"keywords": ["visualization", "Visualization"], "labels": ["vis"], "assignees": [""]},
             {"keywords": ["manager", "Manager"], "labels": ["manager"], "assignees": [""]},
             {"keywords": ["sonar", "Sonar"], "labels": ["sonar"], "assignees": [""]},
             {"keywords": ["stat", "Stat"], "labels": ["stat"], "assignees": [""]},
