@@ -1,20 +1,20 @@
 rootcause:
-    - '((!?)rootcause)'
+    - '((?-i)rootcause)'
 manager:
-    - '((!?)manager)'
+    - '((?-i)manager)'
 sonar:
-    - '((!?)sonar)'
+    - '((?-i)sonar)'
 gateway:
-    - '((!?)gateway)'
+    - '((?-i)gateway)'
 autood:
-    - '((!?)autood)'
+    - '((?-i)autood)'
 visualization:
-    - '((!?)visualization)'
+    - '((?-i)visualization)'
 ui:
-    - '((!?)ui)'
+    - '((?-i)ui)'
 sdk:
-    - '((!?)sdk)'
+    - '((?-i)sdk)'
 protos:
-    - '((!?)protos)'
+    - '((?-i)protos)'
 example:
-    - '((!?)example)'
+    - '((?-i)example)'
