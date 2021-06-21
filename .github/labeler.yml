@@ -1,2 +1,20 @@
 rootcause:
     - '((!?)rootcause)'
+manager:
+    - '((!?)manager)'
+sonar:
+    - '((!?)sonar)'
+gateway:
+    - '((!?)gateway)'
+autood:
+    - '((!?)autood)'
+visualization:
+    - '((!?)visualization)'
+ui:
+    - '((!?)ui)'
+sdk:
+    - '((!?)sdk)'
+protos:
+    - '((!?)protos)'
+example:
+    - '((!?)example)'
