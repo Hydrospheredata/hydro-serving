@@ -21,12 +21,12 @@ jobs:
           
       - name: Release hydro-serving-sdk
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
-          with:
-            workflow: cd
-            token: ${{ secrets.HYDRO_SERVING_TOKEN }}
-            repo: BulbaWarrior/hydro-sering-sdk
-            inputs: '{"version":"${{ github.event.version }}"}'
-      
+        with:
+          workflow: cd
+          token: ${{ secrets.HYDRO_SERVING_TOKEN }}
+          repo: BulbaWarrior/hydro-sering-sdk
+          inputs: '{"version":"${{ github.event.version }}"}'
+
   gateway:
     # template to release the rest of the repos
     runs-on: ubuntu-latest
