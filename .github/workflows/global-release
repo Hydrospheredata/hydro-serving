@@ -1,0 +1,41 @@
+name: Global Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: manual version
+        required: true
+        
+jobs:
+  deps:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Release hydro-serving-protos
+        uses: aurelien-baudet/workflow-dispatch@v2.1.1
+        with:
+          workflow: cd
+          token: ${{ secrets.HYDRO_SERVING_TOKEN }}
+          repo: BulbaWarrior/hydro-sering-protos
+          inputs: '{"version":"${{ github.event.version }}"}'
+          
+      - name: Release hydro-serving-sdk
+        uses: aurelien-baudet/workflow-dispatch@v2.1.1
+          with:
+            workflow: cd
+            token: ${{ secrets.HYDRO_SERVING_TOKEN }}
+            repo: BulbaWarrior/hydro-sering-sdk
+            inputs: '{"version":"${{ github.event.version }}"}'
+      
+  gateway:
+    # template to release the rest of the repos
+    runs-on: ubuntu-latest
+    needs: [deps]
+    steps:
+      - name: Release hydro-serving-gateway
+        uses: aurelien-baudet/workflow-dispatch@v2.1.1
+          with:
+            workflow: cd
+            token: ${{ secrets.HYDRO_SERVING_TOKEN }}
+            repo: BulbaWarrior/hydro-sering-sdk
+            inputs: '{"version":"${{ github.event.version }}"}'
