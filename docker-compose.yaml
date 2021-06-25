@@ -11,10 +11,8 @@ services:
   auto-od:
     container_name: auto-od
     depends_on:
-      minio:
-        condition: service_started
-      mongodb:
-        condition: service_started
+    - minio
+    - mongodb
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
@@ -31,8 +29,7 @@ services:
   gateway:
     container_name: gateway
     depends_on:
-      manager:
-        condition: service_started
+    - manager
     environment:
       API_GATEWAY_GRPC_PORT: '9090'
       API_GATEWAY_HOST: managerui
@@ -50,8 +47,7 @@ services:
   manager:
     container_name: manager
     depends_on:
-      postgres:
-        condition: service_started
+    - postgres
     image: hydrosphere/serving-manager:1f73a2ad9a86c0a67847cd8f004e5c5e2ac331d1
     networks:
       extnet: {}
@@ -66,16 +62,11 @@ services:
   managerui:
     container_name: managerui
     depends_on:
-      gateway:
-        condition: service_started
-      manager:
-        condition: service_started
-      rootcause:
-        condition: service_started
-      serving-sonar:
-        condition: service_started
-      visualization:
-        condition: service_started
+    - gateway
+    - manager
+    - rootcause
+    - serving-sonar
+    - visualization
     environment:
       AUTO_OD_GRPC_PORT: '5001'
       AUTO_OD_HOST: auto-od
@@ -159,12 +150,9 @@ services:
     command: service
     container_name: rootcause
     depends_on:
-      mongodb:
-        condition: service_started
-      rootcause-worker:
-        condition: service_started
-      serving-sonar:
-        condition: service_started
+    - mongodb
+    - rootcause-worker
+    - serving-sonar
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
@@ -176,7 +164,7 @@ services:
       MONGO_URL: mongodb
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-root-cause:2422bedda3ee2d00f8e0be2fcf6e5a739a397cbf
+    image: hydrosphere/hydro-root-cause:bdfc070d63959e728db47c462a57c752795f85b0
     networks:
       extnet: {}
       hydronet: {}
@@ -187,10 +175,8 @@ services:
     command: worker
     container_name: rootcause-worker
     depends_on:
-      mongodb:
-        condition: service_started
-      serving-sonar:
-        condition: service_started
+    - mongodb
+    - serving-sonar
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
@@ -202,14 +188,13 @@ services:
       MONGO_URL: mongodb
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-root-cause:2422bedda3ee2d00f8e0be2fcf6e5a739a397cbf
+    image: hydrosphere/hydro-root-cause:bdfc070d63959e728db47c462a57c752795f85b0
     networks:
       hydronet: {}
   serving-sonar:
     container_name: serving-sonar
     depends_on:
-      postgres:
-        condition: service_started
+    - postgres
     environment:
       ALERTING_FRONTEND_URL: http://localhost/
       ALERTING_MANAGER_URL: prometheus-am:9093
@@ -240,10 +225,8 @@ services:
   stat:
     container_name: stat
     depends_on:
-      minio:
-        condition: service_started
-      mongodb:
-        condition: service_started
+    - minio
+    - mongodb
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
@@ -261,10 +244,8 @@ services:
     command: service
     container_name: visualization
     depends_on:
-      minio:
-        condition: service_started
-      mongodb:
-        condition: service_started
+    - minio
+    - mongodb
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
@@ -286,12 +267,9 @@ services:
     command: worker
     container_name: visualization-worker
     depends_on:
-      minio:
-        condition: service_started
-      mongodb:
-        condition: service_started
-      visualization:
-        condition: service_started
+    - minio
+    - mongodb
+    - visualization
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
