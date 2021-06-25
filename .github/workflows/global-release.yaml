@@ -36,7 +36,7 @@ jobs:
     needs: [deps]
     strategy:
       matrix:
-        service_repo_name: [hydro-serving-gateway] # names of docker images to be updated
+        service_repo_name: [hydro-serving-gateway] # repositories to release
     steps:
       - name: Release latest version of ${{ matrix.service_repo_name }}
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
@@ -47,11 +47,16 @@ jobs:
           inputs: '{"version":"${{ github.event.inputs.version }}"}'
        
   Bump_images:
+    needs: [Release_services]
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        service_image_name: [serving-gateway] # names of docker images to be updated
+        service_image_name: [serving-gateway] # names of docker images to be updated TODO: get image names as outputs from release runs
+    concurrency: 1 # avoid race conditions
     steps:
+      - name: Checkout
+        uses: actions/chackout@v2
+        
       - uses: ./.github/actions/release-action
         with:
           release: global
