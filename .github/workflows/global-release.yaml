@@ -30,22 +30,28 @@ jobs:
           repo: ${{ github.repository_owner }}/hydro-serving-sdk
           inputs: '{"version":"${{ github.event.inputs.version }}"}'
 
-  services:
+  Release_services:
     # template to release the rest of the repos
     runs-on: ubuntu-latest
     needs: [deps]
     strategy:
       matrix:
-        service_image_name: [serving-gateway] # names of docker images to be updated
+        service_repo_name: [hydro-serving-gateway] # names of docker images to be updated
     steps:
-      - name: Run ${{ matrix.service_repo_name }} global release
+      - name: Release latest version of ${{ matrix.service_repo_name }}
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
           workflow: cd
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/${{ matrix.service_repo_name }}
           inputs: '{"version":"${{ github.event.inputs.version }}"}'
-          
+       
+  Bump_images:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        service_image_name: [serving-gateway] # names of docker images to be updated
+    steps:
       - uses: ./.github/actions/release-action
         with:
           release: global
