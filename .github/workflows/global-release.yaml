@@ -16,7 +16,7 @@ jobs:
         with:
           workflow: cd
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
-          repo: BulbaWarrior/hydro-sering-protos
+          repo: BulbaWarrior/hydro-serving-protos
           inputs: '{"version":"${{ github.event.version }}"}'
           
       - name: Release hydro-serving-sdk
@@ -24,7 +24,7 @@ jobs:
         with:
           workflow: cd
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
-          repo: BulbaWarrior/hydro-sering-sdk
+          repo: BulbaWarrior/hydro-serving-sdk
           inputs: '{"version":"${{ github.event.version }}"}'
 
   gateway:
@@ -34,8 +34,8 @@ jobs:
     steps:
       - name: Release hydro-serving-gateway
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
-          with:
-            workflow: cd
-            token: ${{ secrets.HYDRO_SERVING_TOKEN }}
-            repo: BulbaWarrior/hydro-sering-sdk
-            inputs: '{"version":"${{ github.event.version }}"}'
+        with:
+          workflow: cd
+          token: ${{ secrets.HYDRO_SERVING_TOKEN }}
+          repo: BulbaWarrior/hydro-serving-sdk
+          inputs: '{"version":"${{ github.event.version }}"}'
