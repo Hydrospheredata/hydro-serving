@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   managerui:
-    image: hydrosphere/hydro-serving-ui:a3e00f1a7eaae8e8ca58936b144fdb98ca34f9f0
+    image: hydrosphere/hydro-serving-ui:97e8384b8aaf6fcb6f1e53e34e13bf5933bec980
     container_name: managerui
     depends_on:
       - manager
