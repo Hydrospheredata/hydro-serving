@@ -5,13 +5,14 @@ inputs:
     description: release type
     required: true
 
+  registry_url:
+    description: dockerhub registry url
+    required: true
+
   service_image_name:
     description: the service image to be updated
     required: true
         
-  registry_url:
-    required: true
-
   tag:
     description: version tag of the image
     required: true
