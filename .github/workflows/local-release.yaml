@@ -128,7 +128,7 @@ jobs:
         SLACK_ICON: https://avatars.githubusercontent.com/u/17550625?s=200&v=4
         SLACK_COLOR: ${{ job.status }}
         SLACK_TITLE: Build status - success
-        SLACK_MESSAGE: 'Releasing $IMAGE_NAME:$TAG :rocket:'
+        SLACK_MESSAGE: "Releasing $IMAGE_NAME:$TAG :rocket:"
         MSG_MINIMAL: true
 
     - name: Slack Notification failure
@@ -141,5 +141,5 @@ jobs:
         SLACK_ICON: https://avatars.githubusercontent.com/u/17550625?s=200&v=4
         SLACK_COLOR: ${{ job.status }}
         SLACK_TITLE: Build status - failure
-        SLACK_MESSAGE: 'Check build $IMAGE_NAME status'
+        SLACK_MESSAGE: "Check build $IMAGE_NAME status"
         MSG_MINIMAL: true
