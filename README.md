@@ -1,3 +1,5 @@
+[![Helm chart Lint and Testing](https://github.com/Hydrospheredata/hydro-serving/actions/workflows/Lint%20helm.yaml/badge.svg)](https://github.com/Hydrospheredata/hydro-serving/actions/workflows/Lint%20helm.yaml)
+
 <p align="center">
   <a href="https://hydrosphere.io/">
     <img src="https://gblobscdn.gitbook.com/spaces%2F-MESaD8WY3ggQLtBByXl%2Favatar-1597150668933.png?alt=media" alt="Hydrosphere.io logo" width="128" height="128">
