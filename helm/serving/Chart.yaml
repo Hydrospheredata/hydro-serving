@@ -14,10 +14,10 @@ keywords:
   - explainability
   - explaining
 home: https://hydrosphere.io/
-sources: 
+sources:
   - https://github.com/Hydrospheredata/hydro-serving
 maintainers:
-  - name: Hydrosphere.io
+  - name: Hydrospheredata
     email: info@hydrosphere.io
-    url: https://hydrosphere.io  
-version: 2.4.4
+    url: https://hydrosphere.io
+version: 2.4.5
