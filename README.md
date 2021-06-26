@@ -1,5 +1,3 @@
-[![Helm chart Lint and Testing](https://github.com/Hydrospheredata/hydro-serving/actions/workflows/Lint%20helm.yaml/badge.svg)](https://github.com/Hydrospheredata/hydro-serving/actions/workflows/Lint%20helm.yaml)
-
 <p align="center">
   <a href="https://hydrosphere.io/">
     <img src="https://gblobscdn.gitbook.com/spaces%2F-MESaD8WY3ggQLtBByXl%2Favatar-1597150668933.png?alt=media" alt="Hydrosphere.io logo" width="128" height="128">
@@ -26,6 +24,7 @@ Platform for deploying your Machine Learning to production
 [![Join the chat at https://gitter.im/Hydrospheredata/hydro-serving](https://badges.gitter.im/Hydrospheredata/hydro-serving.svg)](https://gitter.im/Hydrospheredata/hydro-serving?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![](https://img.shields.io/badge/chat-on%20slack-%23E01E5A)](https://hydrospheredata.slack.com/)
 [![](https://img.shields.io/badge/documentation-latest-af1a97.svg)](https://docs.hydrosphere.io) 
+[![Helm chart Lint and Testing](https://github.com/Hydrospheredata/hydro-serving/actions/workflows/Lint%20helm.yaml/badge.svg)](https://github.com/Hydrospheredata/hydro-serving/actions/workflows/Lint%20helm.yaml)
 
 Hydrosphere Serving is a cluster for deploying and versioning  your machine learning models in production.
 
