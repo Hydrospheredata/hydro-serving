@@ -43,7 +43,7 @@ jobs:
         if: steps.list-changed.outputs.changed == 'true'
         run: |
           pip install frigate
-          for h in steps.list-changed.outputs.helm-changed
+          for h in ${{ steps.list-changed.outputs.helm-changed }}
           do 
             frigate gen --no-credits -o markdown $h > $h/README.md
           done
