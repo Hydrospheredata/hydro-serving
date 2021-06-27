@@ -33,14 +33,25 @@ jobs:
           changed=$(ct list-changed --chart-dirs helm)
           if [[ -n "$changed" ]]; then
             echo "::set-output name=changed::true"
+            echo "::set-output name=helm-changed::$changed"
           fi
 
       - name: Run chart-testing (lint)
         run: ct lint --chart-dirs helm
 
-      - name: Create kind cluster
-        uses: helm/kind-action@v1.0.0
+      - name: Install frigate and gen docs
         if: steps.list-changed.outputs.changed == 'true'
+        run: |
+          pip install frigate
+          for h in steps.list-changed.outputs.helm-changed
+          do 
+            frigate gen --no-credits -o markdown $h > $h/README.md
+          done
 
-      - name: Run chart-testing (install)
-        run: ct install --chart-dirs helm
+      # TODO: Run for only serving chart
+      # - name: Create kind cluster
+      #   uses: helm/kind-action@v1.0.0
+      #   if: steps.list-changed.outputs.changed == 'true'
+
+      # - name: Run chart-testing (install)
+      #   run: ct install --chart-dirs helm
