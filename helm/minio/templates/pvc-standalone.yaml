@@ -1,4 +1,4 @@
-{{- if and .Values.global.persistence.mode (eq .Values.global.persistence.mode "minio")}}
+{{- if eq .Values.global.persistence.mode "minio"}}
 {{- if and .Values.persistence.enabled (not .Values.persistence.existingClaim) (eq .Values.mode "standalone") }}
 kind: PersistentVolumeClaim
 apiVersion: v1

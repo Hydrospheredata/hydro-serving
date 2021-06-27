@@ -12,7 +12,6 @@ services:
       - GRPC_PORT=5001
       - CLUSTER_ENDPOINT=http://managerui:8080
       - DEFAULT_TIMEOUT=120
-      - DEFAULT_RUNTIME=hydrosphere/serving-runtime-python-3.6
       - DEBUG=False
     depends_on:
       - mongodb

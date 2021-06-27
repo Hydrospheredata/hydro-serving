@@ -36,7 +36,7 @@ javaOpts: "-Xmx1024m -Xms128m -Xss16M -Dcom.sun.management.jmxremote.port=5555 -
 depconfig: 
 
 image:
-  full: bulbawarrior/serving-manager:78417c00e0021c3ae002af1d66950c5977722ff3
+  full: hydrosphere/serving-manager:dab78c676ad4a82327a4ac9b24906583d20180bc
   pullPolicy:  IfNotPresent
 
 service:
@@ -45,17 +45,17 @@ service:
   grpc_port: 9091
   jmx_port: 5555
 
-resources: {}
+resources:
   # We usually recommend not to specify default resources and to leave this as a conscious
   # choice for the user. This also increases chances charts run on environments with little
   # resources, such as Minikube. If you do want to specify resources, uncomment the following
   # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
-  # limits:
-  #  cpu: 100m
-  #  memory: 128Mi
-  # requests:
-  #  cpu: 100m
-  #  memory: 128Mi
+  limits:
+   cpu: 1000m
+   memory: 2Gi
+  requests:
+   cpu: 512m
+   memory: 1Gi
 
 nodeSelector: {}
 

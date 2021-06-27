@@ -7,7 +7,7 @@ global:
 
 replicaCount: 1
 
-javaOpts: "-Xmx512m -Xms64m -Xss16M"
+JAVA_XMX: "1G"
 
 image:
   full: bulbawarrior/serving-gateway:3e93e050f2186cccfc127b0790054018d9bffa12

@@ -34,8 +34,8 @@ spec:
               containerPort: 9091
               protocol: TCP
           env:
-            - name: JAVA_OPTS
-              value: {{ .Values.javaOpts }}
+            - name: JAVA_XMX
+              value: {{ .Values.JAVA_XMX }}
             - name: API_GATEWAY_HOST
               value: "{{ template "ui.fullname" . }}"
             - name: API_GATEWAY_HTTP_PORT

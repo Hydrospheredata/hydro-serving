@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   manager:
-    image: bulbawarrior/serving-manager:78417c00e0021c3ae002af1d66950c5977722ff3
+    image: hydrosphere/serving-manager:dab78c676ad4a82327a4ac9b24906583d20180bc
     container_name: manager
     ports:
       - "19090:9090"
@@ -12,8 +12,5 @@ services:
     networks:
       - hydronet
       - extnet
-    environment:
-      CUSTOM_CONFIG: /app/config/dc.conf
     volumes:
-      - ./dc.conf:/app/config/dc.conf:ro
       - /var/run/docker.sock:/var/run/docker.sock

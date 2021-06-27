@@ -1,9 +1,9 @@
 ui:
   image:
-    full: hydrosphere/hydro-serving-ui:5d55e1a62f1911d6329d139c0584e179691d0402
+    full: hydrosphere/hydro-serving-ui:21d6e940f310a36223bd6c51aac1d3c5fb7793ed
 manager:
   image:
-    full: bulbawarrior/serving-manager:78417c00e0021c3ae002af1d66950c5977722ff3
+    full: hydrosphere/serving-manager:dab78c676ad4a82327a4ac9b24906583d20180bc
   depconfig: |-
     default-deployment-configuration = """
       {
@@ -17,7 +17,7 @@ manager:
           "tolerations":[{
                 "key":"node-type",
                 "operator":"Equal",
-                "value":"hydrosphere.io",
+                "value":"dev",
                 "effect":"NoSchedule"
           }]
         }
@@ -31,7 +31,7 @@ sonar:
     full: hydrosphere/sonar:495830e0910b65420c79e307d3b9df7f1a87917b
 visualization:
   image:
-    full: hydrosphere/hydro-visualization:94f27b119de749cc646d9faa3bedb83160d25002
+    full: hydrosphere/hydro-visualization:b498e987681e5b8c71e7e9e0fe687e1d8673b50c
 auto-od:
   image:
     full: hydrosphere/auto-od:d9b5700c61844a9748da1d847518e6de367a0309
@@ -41,7 +41,27 @@ stat:
 rootcause:
   image:
     full: hydrosphere/hydro-root-cause:1d3495440b803fee80cdaa20707ae1d84a3796c7
+postgresql:
+  metrics:
+    enabled: true
+  serviceMonitor:
+    enabled: true
 global:
+  ui:
+    ingress:
+      enabled: true
+      host: "hydro-serving.dev.hydrosphere.io"
+      grpchost: "hydro-grpc.dev.hydrosphere.io"
+  registry:
+    insecure: false
+    ingress:
+      enabled: true
+      host: "hydro-registry.dev.hydrosphere.io"
+  persistence:
+    url: ""
+    mode: "minio"
+    region: "us-west-1" # region for s3
+
   tolerations:
   - key: "node-type"
     operator: "Equal"

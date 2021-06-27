@@ -1,0 +1,97 @@
+name: 'Release'
+description: 'update contents of the repo for a global or local release'
+inputs:
+  release:
+    description: release type
+    required: true
+
+  registry_url:
+    description: dockerhub registry url
+    required: true
+
+  service_image_name:
+    description: the service image to be updated
+    required: true
+        
+  tag:
+    description: version tag of the image
+    required: true
+
+runs:
+  using: "composite"
+  env:
+    IMAGE_NAME: ${{ inputs.service_image_name }}
+    REGISTRY_URL: ${{ inputs.registry_url }}
+    TAG: ${{ inputs.tag }}
+
+  steps:
+    - name: Set dynamic environment variables
+      run: |
+        case $IMAGE_NAME in
+
+          serving-gateway)
+            HELM_CHART_NAME=gateway
+            SERVICE_NAME=hydro-serving-gateway
+            ;;
+
+          serving-manager)
+            HELM_CHART_NAME=manager
+            SERVICE_NAME=hydro-serving-manager
+            ;;
+
+          hydro-root-cause)
+            HELM_CHART_NAME=rootcause
+            SERVICE_NAME=hydro-root-cause
+            ;;
+
+          sonar)
+            HELM_CHART_NAME=sonar
+            SERVICE_NAME=sonar
+            ;;
+
+          stat)
+            HELM_CHART_NAME=stat
+            SERVICE_NAME=hydro-stat
+            ;;
+
+          hydro-serving-ui)
+            HELM_CHART_NAME=ui
+            SERVICE_NAME=hydro-serving-ui
+            ;;  
+
+          hydro-visualization)
+            HELM_CHART_NAME=visualization
+            SERVICE_NAME=hydro-visualization
+            ;;
+
+          *)
+            echo "unknown IMAGE_NAME"
+            exit 1
+            ;;
+        esac
+
+        echo HELM_CHART_NAME=$HELM_CHART_NAME >> $GITHUB_ENV
+        echo SERVICE_NAME=$SERVICE_NAME >> $GITHUB_ENV
+
+    - name: Update ${{env.HELM_CHART_NAME}}/values.yaml
+      run: "cd helm && sed -i \"s/.*full:.*/  full: $REGISTRY_URL\\/$IMAGE_NAME:$TAG/g\" $HELM_CHART_NAME/values.yaml"
+
+    - name: Update dev.yaml
+      run: "cd helm && sed -i \"s/.*$IMAGE_NAME.*/    full: $REGISTRY_URL\\/$IMAGE_NAME:$TAG/g\" dev.yaml"
+
+      # TODO: linting and stuff
+
+    - name: Update docker-compose service image
+      run: "cd docker-compose && sed -i \"s/.*image:.*/    image: $REGISTRY_URL\\/$IMAGE_NAME:$TAG/g\" $SERVICE_NAME.service.template"
+
+    - name: Merge compose file
+      run: |
+        cd docker-compose
+        command="docker-compose"
+        for template in $(ls *.template)
+        do
+          command="$command -f $template"
+        done
+
+        command="$command config"
+        $command > ../docker-compose.yaml  
