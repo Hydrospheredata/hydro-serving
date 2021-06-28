@@ -19,6 +19,8 @@ jobs:
             {"keywords": ["help", "guidance"], "labels": ["help-wanted"], "assignees": [""]},
             {"keywords": ["docs", "Docs"], "labels": ["docs"], "assignees": [""]},
             {"keywords": ["feat", "feature"], "labels": ["enhancement"], "assignees": [""]},
+            {"keywords": ["build", "ci"], "labels": ["build"], "assignees": [""]},
+            {"keywords": ["feat", "feature"], "labels": ["enhancement"], "assignees": [""]},
             {"keywords": ["rootcause", "Rootcause"], "labels": ["rootcause"], "assignees": [""]},
             {"keywords": ["visualization", "Visualization"], "labels": ["vis"], "assignees": [""]},
             {"keywords": ["manager", "Manager"], "labels": ["manager"], "assignees": [""]},
