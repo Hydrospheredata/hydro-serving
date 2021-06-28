@@ -22,6 +22,7 @@ runs:
 
   steps:
     - name: Set dynamic environment variables
+      shell: bash
       run: |
         case ${{ inputs.service_image_name }} in
 
