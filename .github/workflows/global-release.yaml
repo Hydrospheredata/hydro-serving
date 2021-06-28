@@ -55,12 +55,14 @@ jobs:
     concurrency: 1 # avoid race conditions
     steps:
       - name: Checkout
-        uses: actions/chackout@v2
+        uses: actions/checkout@v2
         
-      - uses: ./.github/actions/release-action
+      - name: Update ${{ matrix.service_image_name }} version
+        uses: ./.github/actions/release-action
         with:
           release: global
           registry_url: ${{ env.DOCKER_REGISTRY_URL }}
           service_image_name: ${{ matrix.service_image_name }}
           tag: ${{ github.event.inputs.version }}
+          
     
