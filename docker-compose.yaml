@@ -20,7 +20,6 @@ services:
       AWS_SECRET_ACCESS_KEY: minio123
       CLUSTER_ENDPOINT: http://managerui:8080
       DEBUG: "False"
-      DEFAULT_RUNTIME: hydrosphere/serving-runtime-python-3.6
       DEFAULT_TIMEOUT: '120'
       GRPC_PORT: '5001'
       MONGO_URL: mongodb
@@ -40,7 +39,7 @@ services:
       API_GATEWAY_HTTP_PORT: '8080'
       GRPC_PORT: '9091'
       HTTP_PORT: '9090'
-    image: bulbawarrior/serving-gateway:3e93e050f2186cccfc127b0790054018d9bffa12
+    image: bulbawarrior/serving-gateway:3.14.15
     networks:
       hydronet: {}
     ports:
@@ -51,7 +50,8 @@ services:
   manager:
     container_name: manager
     depends_on:
-    - postgres
+      postgres:
+        condition: service_started
     image: hydrosphere/serving-manager:dab78c676ad4a82327a4ac9b24906583d20180bc
     networks:
       extnet: {}
@@ -62,7 +62,6 @@ services:
     - published: 19091
       target: 9091
     volumes:
-
     - /var/run/docker.sock:/var/run/docker.sock:rw
   managerui:
     container_name: managerui
