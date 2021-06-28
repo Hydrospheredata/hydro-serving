@@ -49,20 +49,83 @@ jobs:
   Bump_images:
     needs: [Release_services]
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        service_image_name: [serving-gateway] # names of docker images to be updated TODO: get image names as outputs from release runs
-    concurrency: 1 # avoid race conditions
     steps:
       - name: Checkout
         uses: actions/checkout@v2
         
-      - name: Update ${{ matrix.service_image_name }} version
+      - env:
+          IMAGE: serving-gateway
+        name: Bump ${{ env.IMAGE }} version in chart
         uses: ./.github/actions/release-action
         with:
           release: global
           registry_url: ${{ env.DOCKER_REGISTRY_URL }}
-          service_image_name: ${{ matrix.service_image_name }}
+          service_image_name: ${{ env.IMAGE }}
           tag: ${{ github.event.inputs.version }}
           
-    
+      - env:
+          IMAGE: serving-manager
+        name: Bump ${{ env.IMAGE }} version in chart
+        uses: ./.github/actions/release-action
+        with:
+          release: global
+          registry_url: ${{ env.DOCKER_REGISTRY_URL }}
+          service_image_name: ${{ env.IMAGE }}
+          tag: ${{ github.event.inputs.version }}
+          
+      - env:
+          IMAGE: hydro-root-cause
+        name: Bump ${{ env.IMAGE }} version in chart
+        uses: ./.github/actions/release-action
+        with:
+          release: global
+          registry_url: ${{ env.DOCKER_REGISTRY_URL }}
+          service_image_name: ${{ env.IMAGE }}
+          tag: ${{ github.event.inputs.version }}
+      
+      - env:
+          IMAGE: sonar
+        name: Bump ${{ env.IMAGE }} version in chart
+        uses: ./.github/actions/release-action
+        with:
+          release: global
+          registry_url: ${{ env.DOCKER_REGISTRY_URL }}
+          service_image_name: ${{ env.IMAGE }}
+          tag: ${{ github.event.inputs.version }}
+        
+      - env:
+          IMAGE: stat
+        name: Bump ${{ env.IMAGE }} version in chart
+        uses: ./.github/actions/release-action
+        with:
+          release: global
+          registry_url: ${{ env.DOCKER_REGISTRY_URL }}
+          service_image_name: ${{ env.IMAGE }}
+          tag: ${{ github.event.inputs.version }}
+      
+      - env:
+          IMAGE: hydro-serving-ui
+        name: Bump ${{ env.IMAGE }} version in chart
+        uses: ./.github/actions/release-action
+        with:
+          release: global
+          registry_url: ${{ env.DOCKER_REGISTRY_URL }}
+          service_image_name: ${{ env.IMAGE }}
+          tag: ${{ github.event.inputs.version }}
+          
+      - env:
+          IMAGE: hydro-visualization
+        name: Bump ${{ env.IMAGE }} version in chart
+        uses: ./.github/actions/release-action
+        with:
+          release: global
+          registry_url: ${{ env.DOCKER_REGISTRY_URL }}
+          service_image_name: ${{ env.IMAGE }}
+          tag: ${{ github.event.inputs.version }}
+          
+      - name: Push changes
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "Releasing global version ${{ github.event.inputs.version }}" -a
+          git push
