@@ -22,6 +22,7 @@ runs:
 
   steps:
     - name: Set dynamic environment variables
+      id: var
       shell: bash
       run: |
         case ${{ inputs.service_image_name }} in
@@ -67,27 +68,25 @@ runs:
             ;;
         esac
         
-        echo $GITHUB_ENV
-        
-        echo HELM_CHART_NAME=$HELM_CHART_NAME >> $GITHUB_ENV
-        echo SERVICE_NAME=$SERVICE_NAME >> $GITHUB_ENV
+        echo ::set-ouput name=HELM_CHART_NAME::$HELM_CHART_NAME
+        echo ::set-output name=SERVICE_NAME::$SERVICE_NAME
         
         echo TAG=${{ inputs.tag }} >> $GITHUB_ENV
         echo REGISTRY_URL=${{ inputs.registry_url }} >> $GITHUB_ENV
         echo IMAGE_NAME=${{ inputs.service_image_name }} >> $GITHUB_ENV
 
-    - name: Update ${{env.HELM_CHART_NAME}}/values.yaml
-      run: "cd helm && sed -i \"s/.*full:.*/  full: $REGISTRY_URL\\/$IMAGE_NAME:$TAG/g\" $HELM_CHART_NAME/values.yaml"
+    - name: Update ${{ steps.var.ouputs.HELM_CHART_NAME }}/values.yaml
+      run: "cd helm && sed -i \"s/.*full:.*/  full: ${{ inputs.registry_url }}\\/${{ inputs.service_image_name }}:${{ inputs.tag }}/g\" ${{ steps.var.ouputs.HELM_CHART_NAME }}/values.yaml"
       shell: bash
 
     - name: Update dev.yaml
-      run: "cd helm && sed -i \"s/.*$IMAGE_NAME.*/    full: $REGISTRY_URL\\/$IMAGE_NAME:$TAG/g\" dev.yaml"
+      run: "cd helm && sed -i \"s/.*${{ inputs.service_image_name }}.*/    full: ${{ inputs.registry_url }}\\/${{ inputs.service_image_name }}:${{ inputs.tag }}/g\" dev.yaml"
       shell: bash
       
       # TODO: linting and stuff
 
     - name: Update docker-compose service image
-      run: "cd docker-compose && sed -i \"s/.*image:.*/    image: $REGISTRY_URL\\/$IMAGE_NAME:$TAG/g\" $SERVICE_NAME.service.template"
+      run: "cd docker-compose && sed -i \"s/.*image:.*/    image: ${{ inputs.registry_url }}\\/${{ inputs.service_image_name }}:${{ inputs.tag }}/g\" ${{ steps.var.outputs.SERVICE_NAME }}.service.template"
       shell: bash
       
     - name: Merge compose file
