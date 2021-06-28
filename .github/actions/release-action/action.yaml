@@ -76,7 +76,7 @@ runs:
         echo IMAGE_NAME=${{ inputs.service_image_name }} >> $GITHUB_ENV
 
     - name: Update ${{ steps.var.ouputs.HELM_CHART_NAME }}/values.yaml
-      run: "cd helm && sed -i \"s/.*full:.*/  full: ${{ inputs.registry_url }}\\/${{ inputs.service_image_name }}:${{ inputs.tag }}/g\" ${{ steps.var.ouputs.HELM_CHART_NAME }}/values.yaml"
+      run: "cd helm && sed -i \"s/.*full:.*/  full: ${{ inputs.registry_url }}\\/${{ inputs.service_image_name }}:${{ inputs.tag }}/g\" ${{ steps.var.outputs.HELM_CHART_NAME }}/values.yaml"
       shell: bash
 
     - name: Update dev.yaml
