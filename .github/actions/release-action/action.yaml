@@ -19,10 +19,6 @@ inputs:
 
 runs:
   using: "composite"
-  env:
-    IMAGE_NAME: ${{ inputs.service_image_name }}
-    REGISTRY_URL: ${{ inputs.registry_url }}
-    TAG: ${{ inputs.tag }}
 
   steps:
     - name: Set dynamic environment variables
