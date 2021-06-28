@@ -27,9 +27,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Bump image tag
     env:
-      IMAGE_NAME: ${{ inputs.service_image_name }}
-      REGISTRY_URL: ${{ inputs.registry_url }}
-      TAG: ${{ inputs.tag }}
+      IMAGE_NAME: ${{ github.event.inputs.service_image_name }}
+      REGISTRY_URL: ${{ github.event.inputs.registry_url }}
+      TAG: ${{ github.event.inputs.tag }}
       
     steps:      
       - name: Checkout
