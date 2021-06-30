@@ -7,6 +7,15 @@ on:
         description: manual version
         required: true
         
+      skip_grpc:
+        description: skip grpc? (yes|no)
+        default: 'no'
+        required: true
+        
+      skip_sdk: 
+        description: skip sdk? (yes|no)
+        default: 'no'
+        required: true
 env:
   DOCKER_REGISTRY_URL: bulbawarrior
   
@@ -15,6 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Release hydro-serving-protos
+        if: github.event.inputs.skip_grpc == 'no'
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
           workflow: cd
@@ -23,6 +33,7 @@ jobs:
           inputs: '{"version":"${{ github.event.inputs.version }}"}'
           
       - name: Release hydro-serving-sdk
+        if: github.event.inputs.skip_sdk == 'no'
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
           workflow: cd
@@ -122,6 +133,37 @@ jobs:
           registry_url: ${{ env.DOCKER_REGISTRY_URL }}
           service_image_name: ${{ env.IMAGE }}
           tag: ${{ github.event.inputs.version }}
+          
+      - name: Setup helm
+        uses: Azure/setup-helm@v1
+        with:
+          version: 2
+      
+      - name: Create helm release
+        run: |
+          cd helm
+          helm init --client-only --stable-repo-url https://charts.helm.sh/stable
+          helm package --dependency-update --version ${{ github.event.inputs.version }} serving
+          
+      - name: Calculate release sha
+        id: sha
+        run: |
+          cd helm
+          SHA=$(shasum -a 256 -b ./serving-3.0.0.tgz | awk '{ print $1 }')
+          echo ::set-output name=sha::$SHA
+          
+      - name: Update readme.md
+        env:
+          sedCommand: 's/[0-9]+\.[0-9]+\.[0-9]+\/serving-[0-9]+\.[0-9]+\.[0-9]+\.tgz/${{ github.event.inputs.version }}\/serving-${{ github.event.inputs.version }}.tgz/g'
+        run: |
+          echo $sedCommand
+          cd helm
+          sed -i 'README.md' -E -e $sedCommand README.md
+          
+      - name: Add release metadata
+        run: |
+          cd helm
+          ./add_version.sh ${{ github.event.inputs.version }} ${{ steps.sha.outputs.sha }}
           
       - name: Push changes
         run: |
