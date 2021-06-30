@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   manager:
-    image: bulbawarrior/serving-manager:4.4.1
+    image: bulbawarrior/serving-manager:4.4.2
     container_name: manager
     ports:
       - "19090:9090"
