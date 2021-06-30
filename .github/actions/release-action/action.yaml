@@ -68,7 +68,7 @@ runs:
             ;;
         esac
         
-        echo ::set-ouput name=HELM_CHART_NAME::$HELM_CHART_NAME
+        echo ::set-output name=HELM_CHART_NAME::$HELM_CHART_NAME
         echo ::set-output name=SERVICE_NAME::$SERVICE_NAME
         
         echo TAG=${{ inputs.tag }} >> $GITHUB_ENV
