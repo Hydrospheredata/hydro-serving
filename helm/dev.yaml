@@ -1,9 +1,9 @@
 ui:
   image:
-    full: hydrosphere/hydro-serving-ui:21d6e940f310a36223bd6c51aac1d3c5fb7793ed
+    full: bulbawarrior/hydro-serving-ui:4.3.5
 manager:
   image:
-    full: bulbawarrior/serving-manager:3.14.16
+    full: bulbawarrior/serving-manager:4.3.5
   depconfig: |-
     default-deployment-configuration = """
       {
@@ -25,22 +25,22 @@ manager:
     """
 gateway:
   image:
-    full: bulbawarrior/serving-gateway:9c1cba6ceec844e8esdfsdfasfdsa3cd694f4724c29d8f7c77e5
-sonar:
+    full: bulbawarrior/serving-gateway:4.3.5
+    full: bulbawarrior/sonar:4.3.5
   image:
-    full: hydrosphere/sonar:495830e0910b65420c79e307d3b9df7f1a87917b
+    full: bulbawarrior/sonar:4.3.5
 visualization:
   image:
-    full: hydrosphere/hydro-visualization:b498e987681e5b8c71e7e9e0fe687e1d8673b50c
+    full: bulbawarrior/hydro-visualization:4.3.5
 auto-od:
   image:
     full: hydrosphere/auto-od:d9b5700c61844a9748da1d847518e6de367a0309
-stat:
+    full: bulbawarrior/stat:4.3.5
   image:
-    full: hydrosphere/stat:5b5bc87c010abbd0787b234c3e195564ce31c6b6
+    full: bulbawarrior/stat:4.3.5
 rootcause:
   image:
-    full: hydrosphere/hydro-root-cause:1d3495440b803fee80cdaa20707ae1d84a3796c7
+    full: bulbawarrior/hydro-root-cause:4.3.5
 postgresql:
   metrics:
     enabled: true
