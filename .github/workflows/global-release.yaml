@@ -136,9 +136,10 @@ jobs:
           tag: ${{ github.event.inputs.version }}
           
       - name: Setup helm
-        uses: Azure/setup-helm@v1
-        with:
-          version: 2
+        run: |
+          curl -LO https://git.io/get_helm.sh
+          chmod 700 get_helm.sh
+          ./get_helm.sh
       
       - name: Create helm release
         run: |
