@@ -55,7 +55,7 @@ Choose a release on the [Releases Page](https://github.com/Hydrospheredata/hydro
 and install it as usual:
 
 ```
-$ helm install --name my-release https://github.com/Hydrospheredata/hydro-serving/releases/download/4.4.3/serving-4.4.3.tgz
+$ helm install --name my-release https://github.com/Hydrospheredata/hydro-serving/releases/download/4.4.4/serving-4.4.4.tgz
 ```
 
 ### From source

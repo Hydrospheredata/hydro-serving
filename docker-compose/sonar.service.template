@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   serving-sonar:
-    image: bulbawarrior/sonar:4.4.3
+    image: bulbawarrior/sonar:4.4.4
     container_name: serving-sonar
     depends_on:
       - postgres

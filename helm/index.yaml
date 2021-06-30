@@ -249,3 +249,11 @@ entries:
     urls:
     - https://github.com/Hydrospheredata/hydro-serving/releases/download/4.4.3/helm.serving-4.4.3.tgz
     version: 4.4.3
+  - apiVersion: v1
+    created: 2021-06-30T05:44:58Z
+    description: A Helm chart for Kubernetes
+    digest: 9d23c2fc86fe1797696c466dda40d792826e56de1f19c8bd4dbb364eae615804
+    name: serving
+    urls:
+    - https://github.com/Hydrospheredata/hydro-serving/releases/download/4.4.4/helm.serving-4.4.4.tgz
+    version: 4.4.4

@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   visualization-worker:
-    image: bulbawarrior/hydro-visualization:4.4.3
+    image: bulbawarrior/hydro-visualization:4.4.4
     container_name: visualization-worker
     environment:
       - MONGO_URL=mongodb
@@ -24,7 +24,7 @@ services:
 
   visualization:
     container_name: visualization
-    image: bulbawarrior/hydro-visualization:4.4.3
+    image: bulbawarrior/hydro-visualization:4.4.4
     environment:
       - GRPC_PORT=5003
       - MONGO_URL=mongodb
