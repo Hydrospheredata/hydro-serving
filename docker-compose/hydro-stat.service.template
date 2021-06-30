@@ -3,7 +3,7 @@ version: "3.5"
 services:
   stat:
     container_name: stat
-    image: bulbawarrior/stat:4.4.5
+    image: bulbawarrior/stat:4.5.0
     environment:
       - MONGO_URL=mongodb
       - AWS_ACCESS_KEY_ID=minio

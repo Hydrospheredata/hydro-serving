@@ -66,7 +66,7 @@ javaOpts: -Xmx2048m -Xmn2048m -Xss258k -XX:MaxMetaspaceSize=1024m -XX:+Aggressiv
 replicaCount: 1
 
 image:
-  full: bulbawarrior/sonar:4.4.5
+  full: bulbawarrior/sonar:4.5.0
   pullPolicy:  IfNotPresent
 
 service:
