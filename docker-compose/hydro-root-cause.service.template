@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   rootcause:
-    image: bulbawarrior/hydro-root-cause:4.4.4
+    image: bulbawarrior/hydro-root-cause:4.4.5
     container_name: rootcause
     command: python app.py
     depends_on:
@@ -27,7 +27,7 @@ services:
       - extnet
 
   rootcause-worker:
-    image: bulbawarrior/hydro-root-cause:4.4.4
+    image: bulbawarrior/hydro-root-cause:4.4.5
     container_name: rootcause-worker
     command: celery -A app.celery worker -l info -O fair -Q rootcause
     depends_on:
