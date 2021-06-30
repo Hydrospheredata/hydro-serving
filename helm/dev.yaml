@@ -3,7 +3,7 @@ ui:
     full: hydrosphere/hydro-serving-ui:21d6e940f310a36223bd6c51aac1d3c5fb7793ed
 manager:
   image:
-    full: bulbawarrior/serving-manager:9c1cba6ceeasdc844e8e3cd694f4724c29dsadasgs8f7c77e5
+    full: bulbawarrior/serving-manager:3.14.16
   depconfig: |-
     default-deployment-configuration = """
       {
