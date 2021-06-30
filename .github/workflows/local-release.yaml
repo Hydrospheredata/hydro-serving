@@ -46,5 +46,5 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -m "Releasing $IMAGE_NAME:$TAG" -a
+          git commit -m "Releasing ${{ github.event.inputs.service_image_name }}:${{ github.event.inputs.tag }}" -a
           git push
