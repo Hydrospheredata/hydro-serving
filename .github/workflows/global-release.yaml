@@ -35,7 +35,7 @@ jobs:
           workflow: cd
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/hydro-serving-protos
-          inputs: '{"version":"${{ github.event.inputs.version }}", "grpc_version":"${{ github.event.inputs.version }}", "release":"global"}'
+          inputs: '{"version":"${{ github.event.inputs.version }}"}'
           
       - name: Release hydro-serving-sdk
         if: github.event.inputs.skip_sdk == 'no'
@@ -64,7 +64,7 @@ jobs:
           inputs: '{"version":"${{ github.event.inputs.version }}"}'
        
   Release_serving:
-    # needs: [Release_services]
+    needs: [Release_services]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
