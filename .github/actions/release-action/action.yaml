@@ -10,7 +10,7 @@ inputs:
     required: true
 
   service_image_name:
-    description: the name of the image image to be updated
+    description: the name of the image to be updated
     required: true
         
   tag:
