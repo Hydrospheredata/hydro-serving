@@ -44,7 +44,7 @@ jobs:
           workflow: cd
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/hydro-serving-sdk
-          inputs: '{"version":"${{ github.event.inputs.version }}", "grpc_version":"${{ github.event.inputs.version }}", "release":"global"}'
+          inputs: '{"version":"${{ github.event.inputs.version }}", "release":"global"}' # "grpc_version":"${{ github.event.inputs.version }}"
 
   Release_services:
     # template to release the rest of the repos
