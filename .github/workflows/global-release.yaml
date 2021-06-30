@@ -58,7 +58,7 @@ jobs:
           repo: ${{ github.repository_owner }}/${{ matrix.service_repo_name }}
           inputs: '{"version":"${{ github.event.inputs.version }}"}'
        
-  Bump_images:
+  Release_serving:
     # needs: [Release_services]
     runs-on: ubuntu-latest
     steps:
@@ -162,7 +162,7 @@ jobs:
           cd helm
           sed -i 'README.md' -E -e $sedCommand README.md
           
-      - name: Add release metadata
+      - name: Add release metadata to helm/index.yaml
         run: |
           cd helm
           ./add_version.sh ${{ github.event.inputs.version }} ${{ steps.sha.outputs.sha }}
@@ -173,3 +173,11 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git commit -m "Releasing global version ${{ github.event.inputs.version }}" -a
           git push
+          
+      - name: Create github release
+        uses: meeDamian/github-release@2.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.event.inputs.version }}
+          gzip: false
+          files: helm/serving-${{ github.event.inputs.version }}.tgz
