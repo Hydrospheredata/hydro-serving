@@ -154,7 +154,11 @@ jobs:
           SHA=$(shasum -a 256 -b ./serving-${{ github.event.inputs.version }}.tgz | awk '{ print $1 }')
           echo ::set-output name=sha::$SHA
           
-      - name: Update readme.md
+      - name: Update README.md
+        run: |
+          sed -i -E "s/export HYDROSPHERE_RELEASE=.*/export HYDROSPHERE_RELEASE=${{ github.event.inputs.version }}/g" README.md
+      
+      - name: Update helm/README.md
         env:
           sedCommand: 's/[0-9]+\.[0-9]+\.[0-9]+\/serving-[0-9]+\.[0-9]+\.[0-9]+\.tgz/${{ github.event.inputs.version }}\/serving-${{ github.event.inputs.version }}.tgz/g'
         run: |
