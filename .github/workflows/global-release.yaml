@@ -151,7 +151,7 @@ jobs:
         id: sha
         run: |
           cd helm
-          SHA=$(shasum -a 256 -b ./serving-3.0.0.tgz | awk '{ print $1 }')
+          SHA=$(shasum -a 256 -b ./serving-${{ github.event.inputs.version }}.tgz | awk '{ print $1 }')
           echo ::set-output name=sha::$SHA
           
       - name: Update readme.md
