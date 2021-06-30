@@ -7,6 +7,15 @@ on:
         description: manual version
         required: true
         
+      skip_grpc:
+        description: skip grpc? (yes|no)
+        default: 'no'
+        required: true
+        
+      skip_sdk: 
+        description: skip sdk? (yes|no)
+        default: 'no'
+        required: true
 env:
   DOCKER_REGISTRY_URL: bulbawarrior
   
@@ -15,6 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Release hydro-serving-protos
+        if: github.event.inputs.skip_grpc == 'no'
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
           workflow: cd
@@ -23,6 +33,7 @@ jobs:
           inputs: '{"version":"${{ github.event.inputs.version }}"}'
           
       - name: Release hydro-serving-sdk
+        if: github.event.inputs.skip_sdk == 'no'
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
           workflow: cd
