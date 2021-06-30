@@ -36,7 +36,7 @@ javaOpts: "-Xmx1024m -Xms128m -Xss16M -Dcom.sun.management.jmxremote.port=5555 -
 depconfig: 
 
 image:
-  full: hydrosphere/serving-manager:dab78c676ad4a82327a4ac9b24906583d20180bc
+  full: bulbawarrior/serving-manager:9c1cba6ceeasdc844e8e3cd694f4724c29dsadasgs8f7c77e5
   pullPolicy:  IfNotPresent
 
 service:

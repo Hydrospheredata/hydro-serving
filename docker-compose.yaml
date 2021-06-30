@@ -52,7 +52,7 @@ services:
     depends_on:
       postgres:
         condition: service_started
-    image: hydrosphere/serving-manager:dab78c676ad4a82327a4ac9b24906583d20180bc
+    image: bulbawarrior/serving-manager:9c1cba6ceeasdc844e8e3cd694f4724c29dsadasgs8f7c77e5
     networks:
       extnet: {}
       hydronet: {}
