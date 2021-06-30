@@ -10,7 +10,7 @@ replicaCount: 1
 JAVA_XMX: "1G"
 
 image:
-  full: bulbawarrior/serving-gateway:4.3.5
+  full: bulbawarrior/serving-gateway:4.4.1
   pullPolicy:  IfNotPresent
 
 service:

@@ -20,7 +20,7 @@ global:
   tolerations: []
   
 image:
-  full: bulbawarrior/hydro-serving-ui:4.3.5
+  full: bulbawarrior/hydro-serving-ui:4.4.1
   pullPolicy:  IfNotPresent
 
 service:
