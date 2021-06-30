@@ -10,7 +10,7 @@ inputs:
     required: true
 
   service_image_name:
-    description: the service image to be updated
+    description: the name of the image image to be updated
     required: true
         
   tag:
@@ -71,10 +71,7 @@ runs:
         echo ::set-output name=HELM_CHART_NAME::$HELM_CHART_NAME
         echo ::set-output name=SERVICE_NAME::$SERVICE_NAME
         
-        echo TAG=${{ inputs.tag }} >> $GITHUB_ENV
-        echo REGISTRY_URL=${{ inputs.registry_url }} >> $GITHUB_ENV
-        echo IMAGE_NAME=${{ inputs.service_image_name }} >> $GITHUB_ENV
-
+        
     - name: Update ${{ steps.var.ouputs.HELM_CHART_NAME }}/values.yaml
       run: "cd helm && sed -i \"s/.*full:.*/  full: ${{ inputs.registry_url }}\\/${{ inputs.service_image_name }}:${{ inputs.tag }}/g\" ${{ steps.var.outputs.HELM_CHART_NAME }}/values.yaml"
       shell: bash
