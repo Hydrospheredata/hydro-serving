@@ -16,6 +16,11 @@ on:
         description: skip sdk? (yes|no)
         default: 'no'
         required: true
+        
+      skip_services:
+        description: skip services? (yes|no)
+        default: 'no'
+        required: false
 env:
   DOCKER_REGISTRY_URL: bulbawarrior
   
@@ -30,7 +35,7 @@ jobs:
           workflow: cd
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/hydro-serving-protos
-          inputs: '{"version":"${{ github.event.inputs.version }}"}'
+          inputs: '{"version":"${{ github.event.inputs.version }}", "grpc_version":"${{ github.event.inputs.version }}", "release":"global"}'
           
       - name: Release hydro-serving-sdk
         if: github.event.inputs.skip_sdk == 'no'
@@ -39,11 +44,11 @@ jobs:
           workflow: cd
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/hydro-serving-sdk
-          inputs: '{"version":"${{ github.event.inputs.version }}"}'
+          inputs: '{"version":"${{ github.event.inputs.version }}", "grpc_version":"${{ github.event.inputs.version }}", "release":"global"}'
 
   Release_services:
     # template to release the rest of the repos
-    if: false
+    if: github.event.inputs.skip_services == 'no'
     runs-on: ubuntu-latest
     needs: [deps]
     strategy:
