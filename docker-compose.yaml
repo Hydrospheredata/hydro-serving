@@ -39,7 +39,7 @@ services:
       API_GATEWAY_HTTP_PORT: '8080'
       GRPC_PORT: '9091'
       HTTP_PORT: '9090'
-    image: bulbawarrior/serving-gateway:4.4.2
+    image: bulbawarrior/serving-gateway:4.4.3
     networks:
       hydronet: {}
     ports:
@@ -52,7 +52,7 @@ services:
     depends_on:
       postgres:
         condition: service_started
-    image: bulbawarrior/serving-manager:4.4.2
+    image: bulbawarrior/serving-manager:4.4.3
     networks:
       extnet: {}
       hydronet: {}
@@ -94,7 +94,7 @@ services:
       STAT_HOST: stat
       STAT_PORT: '5000'
       VISUALIZATION_HOST: visualization
-    image: bulbawarrior/hydro-serving-ui:4.4.2
+    image: bulbawarrior/hydro-serving-ui:4.4.3
     networks:
       extnet: {}
       hydronet: {}
@@ -176,7 +176,7 @@ services:
       MONGO_URL: mongodb
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: bulbawarrior/hydro-root-cause:4.4.2
+    image: bulbawarrior/hydro-root-cause:4.4.3
     networks:
       extnet: {}
       hydronet: {}
@@ -202,7 +202,7 @@ services:
       MONGO_URL: mongodb
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: bulbawarrior/hydro-root-cause:4.4.2
+    image: bulbawarrior/hydro-root-cause:4.4.3
     networks:
       hydronet: {}
   serving-sonar:
@@ -228,7 +228,7 @@ services:
       STORAGE_PATH_STYLE_ACCESS: "true"
       STORAGE_S3_IMPL: org.apache.hadoop.fs.s3a.S3AFileSystem
       STORAGE_SECRET_KEY: minio123
-    image: bulbawarrior/sonar:4.4.2
+    image: bulbawarrior/sonar:4.4.3
     networks:
       extnet: {}
       hydronet: {}
@@ -250,7 +250,7 @@ services:
       HTTP_UI_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       S3_ENDPOINT: http://minio:9000
-    image: bulbawarrior/stat:4.4.2
+    image: bulbawarrior/stat:4.4.3
     networks:
       extnet: {}
       hydronet: {}
@@ -275,7 +275,7 @@ services:
       HTTP_PROXY_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       SECURE: "False"
-    image: bulbawarrior/hydro-visualization:4.4.2
+    image: bulbawarrior/hydro-visualization:4.4.3
     networks:
       extnet: {}
       hydronet: {}
@@ -301,7 +301,7 @@ services:
       HTTP_PROXY_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       SECURE: "False"
-    image: bulbawarrior/hydro-visualization:4.4.2
+    image: bulbawarrior/hydro-visualization:4.4.3
     networks:
       hydronet: {}
 version: '3.5'
