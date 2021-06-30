@@ -59,7 +59,7 @@ jobs:
           inputs: '{"version":"${{ github.event.inputs.version }}"}'
        
   Bump_images:
-    needs: [Release_services]
+    # needs: [Release_services]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
