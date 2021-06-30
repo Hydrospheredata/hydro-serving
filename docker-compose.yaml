@@ -20,7 +20,6 @@ services:
       AWS_SECRET_ACCESS_KEY: minio123
       CLUSTER_ENDPOINT: http://managerui:8080
       DEBUG: "False"
-      DEFAULT_RUNTIME: hydrosphere/serving-runtime-python-3.6
       DEFAULT_TIMEOUT: '120'
       GRPC_PORT: '5001'
       MONGO_URL: mongodb
@@ -40,7 +39,7 @@ services:
       API_GATEWAY_HTTP_PORT: '8080'
       GRPC_PORT: '9091'
       HTTP_PORT: '9090'
-    image: bulbawarrior/serving-gateway:ee4e82eb560bbccdf2b7115eb29aa1a6bd3de343
+    image: bulbawarrior/serving-gateway:4.3.5
     networks:
       hydronet: {}
     ports:
@@ -51,8 +50,9 @@ services:
   manager:
     container_name: manager
     depends_on:
-    - postgres
-    image: hydrosphere/serving-manager:dab78c676ad4a82327a4ac9b24906583d20180bc
+      postgres:
+        condition: service_started
+    image: bulbawarrior/serving-manager:4.3.5
     networks:
       extnet: {}
       hydronet: {}
@@ -62,7 +62,6 @@ services:
     - published: 19091
       target: 9091
     volumes:
-
     - /var/run/docker.sock:/var/run/docker.sock:rw
   managerui:
     container_name: managerui
@@ -95,7 +94,7 @@ services:
       STAT_HOST: stat
       STAT_PORT: '5000'
       VISUALIZATION_HOST: visualization
-    image: hydrosphere/hydro-serving-ui:21d6e940f310a36223bd6c51aac1d3c5fb7793ed
+    image: bulbawarrior/hydro-serving-ui:4.3.5
     networks:
       extnet: {}
       hydronet: {}
@@ -177,7 +176,7 @@ services:
       MONGO_URL: mongodb
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-root-cause:1d3495440b803fee80cdaa20707ae1d84a3796c7
+    image: bulbawarrior/hydro-root-cause:4.3.5
     networks:
       extnet: {}
       hydronet: {}
@@ -203,7 +202,7 @@ services:
       MONGO_URL: mongodb
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-root-cause:1d3495440b803fee80cdaa20707ae1d84a3796c7
+    image: bulbawarrior/hydro-root-cause:4.3.5
     networks:
       hydronet: {}
   serving-sonar:
@@ -229,7 +228,7 @@ services:
       STORAGE_PATH_STYLE_ACCESS: "true"
       STORAGE_S3_IMPL: org.apache.hadoop.fs.s3a.S3AFileSystem
       STORAGE_SECRET_KEY: minio123
-    image: hydrosphere/sonar:495830e0910b65420c79e307d3b9df7f1a87917b
+    image: bulbawarrior/sonar:4.3.5
     networks:
       extnet: {}
       hydronet: {}
@@ -251,7 +250,7 @@ services:
       HTTP_UI_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/stat:5b5bc87c010abbd0787b234c3e195564ce31c6b6
+    image: bulbawarrior/stat:4.3.5
     networks:
       extnet: {}
       hydronet: {}
@@ -276,7 +275,7 @@ services:
       HTTP_PROXY_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       SECURE: "False"
-    image: hydrosphere/hydro-visualization:b498e987681e5b8c71e7e9e0fe687e1d8673b50c
+    image: bulbawarrior/hydro-visualization:4.3.5
     networks:
       extnet: {}
       hydronet: {}
@@ -302,7 +301,7 @@ services:
       HTTP_PROXY_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       SECURE: "False"
-    image: hydrosphere/hydro-visualization:b498e987681e5b8c71e7e9e0fe687e1d8673b50c
+    image: bulbawarrior/hydro-visualization:4.3.5
     networks:
       hydronet: {}
 version: '3.5'

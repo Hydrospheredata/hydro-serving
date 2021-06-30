@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   manager:
-    image: hydrosphere/serving-manager:dab78c676ad4a82327a4ac9b24906583d20180bc
+    image: bulbawarrior/serving-manager:4.3.5
     container_name: manager
     ports:
       - "19090:9090"
