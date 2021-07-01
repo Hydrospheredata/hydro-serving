@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 image:
-  full: bulbawarrior/hydro-visualization:4.3.5
+  full: bulbawarrior/hydro-visualization:4.5.0
   pullPolicy:  IfNotPresent
 
 persistence:
