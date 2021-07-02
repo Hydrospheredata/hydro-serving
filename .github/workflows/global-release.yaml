@@ -27,7 +27,7 @@ on:
         default: 'no'
         required: false
 env:
-  DOCKER_REGISTRY_URL: bulbawarrior
+  DOCKER_REGISTRY_URL: hydrosphere
   
 # Secrets:
 #   HYDRO_SERVING_TOKEN - github token with write access to all hydrosphere repos
@@ -36,7 +36,13 @@ jobs:
   version:
     name: Determine release version
     runs-on: ubuntu-latest
+    
+    outputs:
+      version: ${{ env.VERSION }}
+      
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
         
       - name: Get latest tag
         id: get-latest-tag
@@ -60,48 +66,56 @@ jobs:
   deps:
     needs: [version]
     runs-on: ubuntu-latest
+    env:
+      VERSION: ${{ needs.version.outputs.version }}
     steps:
-      - name: Debug
-        run: echo ${{ env.VERSION }}
-        
       - name: Release hydro-serving-protos
         if: github.event.inputs.skip_grpc != 'yes'
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
-          workflow: cd
+          workflow: release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/hydro-serving-protos
-          inputs: '{"version":"${{ github.event.inputs.version }}", "release":"global"}'
+          inputs: '{"version":"${{ env.VERSION }}", "release":"global"}'
           
       - name: Release hydro-serving-sdk
         if: github.event.inputs.skip_sdk != 'yes'
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
-          workflow: cd
+          workflow: release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/hydro-serving-sdk
-          inputs: '{"version":"${{ github.event.inputs.version }}", "release":"global"}' # "grpc_version":"${{ github.event.inputs.version }}"
+          inputs: '{"version":"${{ env.VERSION }}", "release":"global", "grpc_version":"${{ env.VERSION }}"}'
 
   Release_services:
-    # template to release the rest of the repos
+    # release all service repos in parallel
     if: github.event.inputs.skip_services != 'yes'
     runs-on: ubuntu-latest
-    needs: [deps]
+    needs: [version, deps]
+    
+    env:
+      VERSION: ${{ needs.version.outputs.version }}
+      
     strategy:
       matrix:
-        service_repo_name: [hydro-serving-gateway] # names of repositories to release
+        service_repo_name: [hydro-serving-gateway, hydro-serving-manager] # names of repositories to release
+        
     steps:
       - name: Release latest version of ${{ matrix.service_repo_name }}
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
-          workflow: cd
+          workflow: release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/${{ matrix.service_repo_name }}
-          inputs: '{"version":"${{ github.event.inputs.version }}"}'
+          inputs: '{"version":"${{ env.VERSION }}", "release":"global", "grpc_version":"${{ env.VERSION }}"}'
        
   Release_serving:
-    needs: [Release_services]
+    needs: [version, Release_services]
     runs-on: ubuntu-latest
+    
+    env:
+      VERSION: ${{ needs.version.outputs.version }}
+      
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -114,7 +128,7 @@ jobs:
           release: global
           registry_url: ${{ env.DOCKER_REGISTRY_URL }}
           service_image_name: ${{ env.IMAGE }}
-          tag: ${{ github.event.inputs.version }}
+          tag: ${{ env.VERSION }}
           
       - env:
           IMAGE: serving-manager
@@ -124,7 +138,7 @@ jobs:
           release: global
           registry_url: ${{ env.DOCKER_REGISTRY_URL }}
           service_image_name: ${{ env.IMAGE }}
-          tag: ${{ github.event.inputs.version }}
+          tag: ${{ env.VERSION }}
           
       - env:
           IMAGE: hydro-root-cause
@@ -134,7 +148,7 @@ jobs:
           release: global
           registry_url: ${{ env.DOCKER_REGISTRY_URL }}
           service_image_name: ${{ env.IMAGE }}
-          tag: ${{ github.event.inputs.version }}
+          tag: ${{ env.VERSION }}
       
       - env:
           IMAGE: sonar
@@ -144,7 +158,7 @@ jobs:
           release: global
           registry_url: ${{ env.DOCKER_REGISTRY_URL }}
           service_image_name: ${{ env.IMAGE }}
-          tag: ${{ github.event.inputs.version }}
+          tag: ${{ env.VERSION }}
         
       - env:
           IMAGE: stat
@@ -154,7 +168,7 @@ jobs:
           release: global
           registry_url: ${{ env.DOCKER_REGISTRY_URL }}
           service_image_name: ${{ env.IMAGE }}
-          tag: ${{ github.event.inputs.version }}
+          tag: ${{ env.VERSION }}
       
       - env:
           IMAGE: hydro-serving-ui
@@ -164,7 +178,7 @@ jobs:
           release: global
           registry_url: ${{ env.DOCKER_REGISTRY_URL }}
           service_image_name: ${{ env.IMAGE }}
-          tag: ${{ github.event.inputs.version }}
+          tag: ${{ env.VERSION }}
           
       - env:
           IMAGE: hydro-visualization
@@ -174,7 +188,7 @@ jobs:
           release: global
           registry_url: ${{ env.DOCKER_REGISTRY_URL }}
           service_image_name: ${{ env.IMAGE }}
-          tag: ${{ github.event.inputs.version }}
+          tag: ${{ env.VERSION }}
           
       - name: Setup helm
         run: |
@@ -186,22 +200,22 @@ jobs:
         run: |
           cd helm
           helm init --client-only --stable-repo-url https://charts.helm.sh/stable
-          helm package --dependency-update --version ${{ github.event.inputs.version }} serving
+          helm package --dependency-update --version ${{ env.VERSION }} serving
           
       - name: Calculate release sha
         id: sha
         run: |
           cd helm
-          SHA=$(shasum -a 256 -b ./serving-${{ github.event.inputs.version }}.tgz | awk '{ print $1 }')
+          SHA=$(shasum -a 256 -b ./serving-${{ env.VERSION }}.tgz | awk '{ print $1 }')
           echo ::set-output name=sha::$SHA
           
       - name: Update README.md
         run: |
-          sed -i -E "s/export HYDROSPHERE_RELEASE=.*/export HYDROSPHERE_RELEASE=${{ github.event.inputs.version }}/g" README.md
+          sed -i -E "s/export HYDROSPHERE_RELEASE=.*/export HYDROSPHERE_RELEASE=${{ env.VERSION }}/g" README.md
       
       - name: Update helm/README.md
         env:
-          sedCommand: 's/[0-9]+\.[0-9]+\.[0-9]+\/serving-[0-9]+\.[0-9]+\.[0-9]+\.tgz/${{ github.event.inputs.version }}\/serving-${{ github.event.inputs.version }}.tgz/g'
+          sedCommand: 's/[0-9]+\.[0-9]+\.[0-9]+\/serving-[0-9]+\.[0-9]+\.[0-9]+\.tgz/${{ env.VERSION }}\/serving-${{ env.VERSION }}.tgz/g'
         run: |
           echo $sedCommand
           cd helm
@@ -210,19 +224,19 @@ jobs:
       - name: Add release metadata to helm/index.yaml
         run: |
           cd helm
-          ./add_version.sh ${{ github.event.inputs.version }} ${{ steps.sha.outputs.sha }}
+          ./add_version.sh ${{ env.VERSION }} ${{ steps.sha.outputs.sha }}
           
       - name: Push changes
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -m "Releasing global version ${{ github.event.inputs.version }}" -a
+          git commit -m "Releasing global version ${{ env.VERSION }}" -a
           git push
           
       - name: Create github release
         uses: meeDamian/github-release@2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ github.event.inputs.version }}
+          tag: ${{ env.VERSION }}
           gzip: false
-          files: helm/serving-${{ github.event.inputs.version }}.tgz
+          files: helm/serving-${{ env.VERSION }}.tgz
