@@ -10,7 +10,7 @@ replicaCount: 1
 JAVA_XMX: "1G"
 
 image:
-  full: bulbawarrior/serving-gateway:4.5.0
+  full: hydrosphere/serving-gateway:0e20cb4257be274948ae068381c20fda5a556b85
   pullPolicy:  IfNotPresent
 
 service:

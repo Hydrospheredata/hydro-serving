@@ -1,0 +1,40 @@
+name: "Set Labels"
+on:
+  issues:
+    types: [opened, edited]
+  pull_request:
+    types: [opened, edited]
+
+jobs:
+  SetLabel:
+    runs-on: ubuntu-latest
+    name: Set Labels
+    steps:
+      - uses: Naturalclar/issue-action@v2.0.2
+        with:
+          title-or-body: "title"
+          parameters: > 
+            [
+            {"keywords": ["bug", "error"], "labels": ["BUG"], "assignees": [""]},
+            {"keywords": ["help", "guidance"], "labels": ["help-wanted"], "assignees": [""]},
+            {"keywords": ["docs", "Docs"], "labels": ["docs"], "assignees": [""]},
+            {"keywords": ["feat", "feature"], "labels": ["enhancement"], "assignees": [""]},
+            {"keywords": ["build", "ci"], "labels": ["build"], "assignees": [""]},
+            {"keywords": ["feat", "feature"], "labels": ["enhancement"], "assignees": [""]},
+            {"keywords": ["rootcause", "Rootcause"], "labels": ["rootcause"], "assignees": [""]},
+            {"keywords": ["visualization", "Visualization"], "labels": ["vis"], "assignees": [""]},
+            {"keywords": ["manager", "Manager"], "labels": ["manager"], "assignees": [""]},
+            {"keywords": ["sonar", "Sonar"], "labels": ["sonar"], "assignees": [""]},
+            {"keywords": ["stat", "Stat"], "labels": ["stat"], "assignees": [""]},
+            {"keywords": ["autood", "auto-od", "Autood"], "labels": ["autood"], "assignees": [""]},
+            {"keywords": ["ui", "UI"], "labels": ["ui"], "assignees": [""]},
+            {"keywords": ["minio", "mongo", "postgres", "registry"], "labels": ["external"], "assignees": [""]},
+            {"keywords": ["gateway", "Gateway"], "labels": ["gateway"], "assignees": [""]},
+            {"keywords": ["example", "Example"], "labels": ["example"], "assignees": [""]},
+            {"keywords": ["sdk", "SDK"], "labels": ["sdk"], "assignees": [""]},
+            {"keywords": ["protos", "Protos"], "labels": ["protos"], "assignees": [""]},
+            {"keywords": ["runtime", "Runtime"], "labels": ["runtime"], "assignees": [""]}
+            ]
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+
+#{"keywords": ["help", "guidance"], "labels": ["help-wanted"], "assignees": ["username"]}
