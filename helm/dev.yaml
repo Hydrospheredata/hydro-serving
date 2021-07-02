@@ -31,13 +31,13 @@ sonar:
     full: hydrosphere/sonar:12ff938de71d8bafac4916383ce8ceeb2023f390
 visualization:
   image:
-    full: bulbawarrior/hydro-visualization:4.5.0
+    full: hydrosphere/hydro-visualization:b498e987681e5b8c71e7e9e0fe687e1d8673b50c
 auto-od:
   image:
     full: hydrosphere/auto-od:d9b5700c61844a9748da1d847518e6de367a0309
-    full: bulbawarrior/stat:4.5.0
+stat:
   image:
-    full: bulbawarrior/stat:4.5.0
+    full: hydrosphere/stat:5b5bc87c010abbd0787b234c3e195564ce31c6b6
 rootcause:
   image:
     full: hydrosphere/hydro-root-cause:fd53787e458648a32d6d01d57c21e8afe50c8e19

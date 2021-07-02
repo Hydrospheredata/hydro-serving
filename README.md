@@ -55,7 +55,7 @@ To deploy the Hydrosphere platform from master branch, follow the instructions b
 
 1. Download the latest release version from the [releases](https://github.com/Hydrospheredata/hydro-serving/releases) page;
     ```sh 
-    export HYDROSPHERE_RELEASE=4.5.0
+    export HYDROSPHERE_RELEASE=2.4.3
     wget -O hydro-serving-${HYDROSPHERE_RELEASE}.tar.gz https://github.com/Hydrospheredata/hydro-serving/archive/${HYDROSPHERE_RELEASE}.tar.gz
     ```
 1. Unpack the tar ball;
