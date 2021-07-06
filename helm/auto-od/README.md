@@ -31,8 +31,3 @@ The following table lists the configurable parameters of the Auto-od chart and t
 | `nodeSelector` |  | `{}` |
 | `tolerations` |  | `[]` |
 | `affinity` |  | `{}` |
-
-
-
-
-
