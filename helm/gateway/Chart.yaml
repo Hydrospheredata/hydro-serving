@@ -1,5 +1,5 @@
 apiVersion: v2
-description: A Hydro-serving-gateway chart for Kubernetes
+description: A helm chart for the gateway service which is responsible for inference request routing
 name: gateway
 version: 0.1.0
 appVersion: 3.0.0
@@ -10,9 +10,9 @@ keywords:
   - ML
   - gateway
 home: https://hydrosphere.io/
-source: 
+sources:
   - https://github.com/Hydrospheredata/hydro-serving-gateway
 maintainers:
-  - name: Hydrosphere.io
+  - name: hydrospheredata
     email: support@hydrosphere.io
-    url: https://hydrosphere.io  
+    url: https://hydrosphere.io
