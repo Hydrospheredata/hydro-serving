@@ -82,4 +82,3 @@ spec:
       tolerations:
 {{ toYaml .Values.global.tolerations | indent 8 }}
 {{- end }}
-

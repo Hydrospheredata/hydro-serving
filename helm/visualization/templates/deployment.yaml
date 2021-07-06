@@ -27,6 +27,7 @@ spec:
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.full }}"
+          args: ['service']
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
@@ -98,6 +99,7 @@ spec:
               port: http              
         - name: {{ .Chart.Name }}-worker
           image: "{{ .Values.image.full }}"
+          args: ['worker']
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
             - name: SERVICE_MODE
