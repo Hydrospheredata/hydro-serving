@@ -10,7 +10,7 @@ replicaCount: 1
 JAVA_XMX: "1G"
 
 image:
-  full: hydrosphere/serving-gateway:baf1199aee714385e635dbfaee49e58954048da3
+  full: hydrosphere/serving-gateway:0e20cb4257be274948ae068381c20fda5a556b85
   pullPolicy:  IfNotPresent
 
 service:
