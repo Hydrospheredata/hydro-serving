@@ -21,6 +21,11 @@ on:
         description: skip sdk? (yes|no)
         default: 'no'
         required: false
+
+      skip_cli: 
+        description: skip cli? (yes|no)
+        default: 'no'
+        required: false
         
       skip_services:
         description: skip services? (yes|no)
@@ -87,6 +92,23 @@ jobs:
           repo: ${{ github.repository_owner }}/hydro-serving-sdk
           inputs: '{"version":"${{ env.VERSION }}", "release":"global", "grpc_version":"${{ env.VERSION }}"}'
 
+      - name: Release hydro-serving-cli
+        if: github.event.inputs.skip_cli != 'yes'
+        uses: aurelien-baudet/workflow-dispatch@v2.1.1
+        with:
+          workflow: release
+          token: ${{ secrets.HYDRO_SERVING_TOKEN }}
+          repo: ${{ github.repository_owner }}/hydro-serving-cli
+          inputs: '{"version":"${{ env.VERSION }}", "release":"global", "sdk_version":"${{ env.VERSION }}"}'
+
+      - name: Release hydro-serving-python
+        uses: aurelien-baudet/workflow-dispatch@v2.1.1
+        with:
+          workflow: release
+          token: ${{ secrets.HYDRO_SERVING_TOKEN }}
+          repo: ${{ github.repository_owner }}/hydro-serving-python
+          inputs: '{"version":"${{ env.VERSION }}", "release":"global", "sdk_version":"${{ env.VERSION }}"}'
+
   Release_services:
     # release all service repos in parallel
     if: github.event.inputs.skip_services != 'yes'
@@ -98,7 +120,7 @@ jobs:
       
     strategy:
       matrix:
-        service_repo_name: [hydro-serving-gateway, hydro-serving-manager] # names of repositories to release
+        service_repo_name: [hydro-serving-gateway, hydro-serving-manager, sonar, hydro-stat, hydro-visualization, hydro-root-cause, hydro-auto-od, hydro-serving-ui] # names of repositories to release
         
     steps:
       - name: Release latest version of ${{ matrix.service_repo_name }}
@@ -107,8 +129,8 @@ jobs:
           workflow: release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/${{ matrix.service_repo_name }}
-          inputs: '{"version":"${{ env.VERSION }}", "release":"global", "grpc_version":"${{ env.VERSION }}"}'
-       
+          inputs: '{"version":"${{ env.VERSION }}", "release":"global", "grpc_version":"${{ env.VERSION }}", "sdk_version":"${{ env.VERSION }}"}'
+
   Release_serving:
     needs: [version, Release_services]
     runs-on: ubuntu-latest
@@ -192,14 +214,34 @@ jobs:
           
       - name: Setup helm
         run: |
-          curl -LO https://git.io/get_helm.sh
+          curl -LO https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
           chmod 700 get_helm.sh
           ./get_helm.sh
-      
+
+      # Bump chart version
+      - name: Bump serving app version
+        uses: jacobtomlinson/gha-find-replace@master
+        with:
+          find: "appVersion.*"
+          replace: "appVersion: \"${{ env.VERSION }}\""
+          include: "./helm/serving/Chart.yaml"
+
+      - name: Bump serving chart version
+        uses: jacobtomlinson/gha-find-replace@master
+        with:
+          find: "version.*"
+          replace: "version: \"${{ env.VERSION }}\""
+          include: "./helm/serving/Chart.yaml"
+
+      - name: Lint helm
+        run: | 
+          cd helm/serving
+          helm dep up
+          helm template .
+          
       - name: Create helm release
         run: |
           cd helm
-          helm init --client-only --stable-repo-url https://charts.helm.sh/stable
           helm package --dependency-update --version ${{ env.VERSION }} serving
           
       - name: Calculate release sha
