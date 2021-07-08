@@ -2,14 +2,10 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: "alertmanager-configmap-{{ .Release.Name }}"
-  namespace: {{ .Release.Namespace }}
+  name: {{ include "alertmanager.fullname" . }}
   labels:
-    app: {{ include "alertmanager.name" . }}
-    chart: {{ include "alertmanager.chart" . }}
-    release: {{ .Release.Name }}
-    heritage: {{ .Release.Service }}
+    {{- include "alertmanager.labels" . | nindent 4 }}
 data:
   alertmanager.yml: |-
-{{ toYaml .Values.global.alertmanager.config | indent 4 }}  
+{{ toYaml .Values.global.alertmanager.config | indent 4 }} 
 {{- end }}

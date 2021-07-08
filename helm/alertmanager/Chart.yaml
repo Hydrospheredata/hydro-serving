@@ -1,4 +1,15 @@
-apiVersion: v1
-description: A Helm chart for Kubernetes
+apiVersion: v2
 name: alertmanager
-version: 0.2.0
+description: The Alertmanager handles alerts sent by client applications such as the Prometheus server.
+home: https://prometheus.io/
+icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+sources:
+  - https://github.com/prometheus/alertmanager
+type: application
+version: 0.11.0
+appVersion: v0.22.1
+maintainers:
+  - name: monotek
+    email: monotek23@gmail.com
+  - name: naseemkullah
+    email: naseem@transit.app
