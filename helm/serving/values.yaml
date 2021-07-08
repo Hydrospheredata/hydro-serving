@@ -6,29 +6,22 @@ global:
       path: "/" # Path, which will match the service.
       enableGrpc: true # Enable grpc endpoints for services. Works only with `path: "/"`. 
       grpchost: "grpc.local" #Domain name for the grpc ingress
-      issuer: "letsencrypt-prod" # A name of the cert-manager issuer name, configured within the 
-                                 # cluster.
+      issuer: "letsencrypt-prod" # A name of the cert-manager issuer name, configured within the cluster.
 
   registry:
+    url: "" # Use remote registry like dockerhub or ECR If empty, an in-cluster deployment will be provisioned.
     insecure: true # Use insecure docker registry
     ingress:
       enabled: false
       host: "hydrosphere-registry.local"
       path: "/"
-      issuer: "letsencrypt-prod"
-    url: ""
-    username: "example" # Username to authenticate to the registry 
+      issuer: "letsencrypt-prod" # Cert-manager issuer name
+    username: "example" # Username to authenticate to the registry
     password: "example" # Password to authenticate to the registry
 
-  hydrosphere:  
-    docker:
-      host: "harbor.hydrosphere.io/hydro-serving"
-      username: "developers"
-      password: "" # Registry password for accessing closed images
-
   persistence:
-    url: "" # Endpoint for the object storage. Compatible with S3 or Minio.
-    mode: "minio"
+    url: "" # Endpoint for the object storage. Compatible with S3 or Minio. If empty, an in-cluster deployment will be provisioned.
+    mode: "minio" # Use pvc or s3
     ingress:
       enabled: false
       host: "hydrosphere-minio.local"
@@ -37,8 +30,7 @@ global:
     region: "us-west-1" # region for s3
 
   mongodb:
-    url: "" # Specify MongoDB connection string if you want to use an external MongoDB instance. 
-            # If empty, an in-cluster deployment will be provisioned. 
+    url: "" # Specify MongoDB connection string if you want to use an external MongoDB instance. If empty, an in-cluster deployment will be provisioned. 
     rootPassword: "hydr0s3rving" # Mongodb root password. Used for an internal installation.
     username: "root" # Mongodb username. Used for an internal installation.
     password: "hydr0s3rving" # Mongodb password. Used for an internal installation.
@@ -46,19 +38,18 @@ global:
     database: "hydro-serving-data-profiler" # Mongodb database name. Used for an internal installation.
 
   postgresql:
-    url: "" # Specify Postgresql connection string if you want to use an external Postgresql instance. 
-            # If empty, an in-cluster deployment will be provisioned.
+    url: "" # Specify Postgresql connection string if you want to use an external Postgresql instance. If empty, an in-cluster deployment will be provisioned.
     username: "postgres" # Postgresql username. Used for an internal installation.
     password: "hydr0s3rving" # Postgresql password. Used for an internal installation.
     database: "hydro-serving" # Postgresql database name. Used for an internal installation.
 
   alertmanager:
-    url: "" # Prometheus AlertManager address in case you want to use the external installation.
-            # If empty, an internal installation will be deployed.
+    enabled: true
+    url: "" # Prometheus AlertManager address in case you want to use the external installation. If empty, an internal installation will be deployed.
     config:
-      global: 
+      global:
         smtp_smarthost: "localhost:25" # SMTP relay host
-        smtp_auth_username: "mailbot" # SMTP relay username 
+        smtp_auth_username: "mailbot" # SMTP relay username
         smtp_auth_identity: "mailbot" # SMTP relay username identity
         smtp_auth_password: "mailbot" # SMTP relay password
         smtp_from: "no-reply@hydrosphere.io" # Email address of the sender
@@ -71,10 +62,17 @@ global:
       receivers:
       - name: "default"
         email_configs: # List of email addresses to send alarms to
-        - to: "customer@example.io" 
+        - to: "customer@example.io"
 
-  tolerations: []
+  tolerations: [] # Specify tolerations for all helm chart
     # - key: key
     #   operator: Equal
     #   value: value
     #   effect: NoSchedule
+
+# Pull secret for hydrosphere from private registry
+registry:
+  enabled: false
+  host: "" # Registry url for accessing hydrosphere images
+  username: "" # Registry username for accessing hydrosphere images
+  password: "" # Registry password for accessing hydrosphere images

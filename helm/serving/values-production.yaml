@@ -14,24 +14,18 @@ global:
       }
 
   registry:
+    url: ""
     insecure: true # Use insecure docker registry
     ingress:
       enabled: false
       host: "hydrosphere-registry.local"
       path: "/"
       issuer: "letsencrypt-prod"
-    url: ""
     username: "example" # Username to authenticate to the registry 
     password: "example" # Password to authenticate to the registry
     persistence: 
       bucket: "hydrosphere-model-registry"
       region: "us-east-1"
-  
-  hydrosphere:  
-    docker:
-      host: "harbor.hydrosphere.io/hydro-serving"
-      username: "developers"
-      password: "" # Registry password for accessing closed images
       
   persistence:
     url: "" # Endpoint for the object storage. Compatible with S3 or Minio.
@@ -83,6 +77,7 @@ global:
     #   value: value
     #   effect: NoSchedule  
 
+# Advanced service's setting
 manager:
   javaOpts: "-Xmx1024m -Xms128m -Xss16M"
   servingAccount:
