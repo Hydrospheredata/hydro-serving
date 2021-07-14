@@ -77,7 +77,7 @@ runs:
       shell: bash
 
     - name: Update dev.yaml
-      run: "cd helm && sed -i \"s/.*${{ inputs.service_image_name }}.*/    full: ${{ inputs.registry_url }}\\/${{ inputs.service_image_name }}:${{ inputs.tag }}/g\" dev.yaml"
+      run: "cd helm && sed -i \"s/.*full:.*${{ inputs.service_image_name }}.*/    full: ${{ inputs.registry_url }}\\/${{ inputs.service_image_name }}:${{ inputs.tag }}/g\" dev.yaml"
       shell: bash
       
       # TODO: linting and stuff
