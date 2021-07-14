@@ -250,7 +250,7 @@ services:
       HTTP_UI_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-stat:5971db39e6c33e6988e5eae6c7d6447f32b51059
+    image: hydrosphere/hydro-stat:8bb80563f07a2af039ed7b90df2fdd31e5912b37
     networks:
       extnet: {}
       hydronet: {}
