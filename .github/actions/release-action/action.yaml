@@ -47,7 +47,7 @@ runs:
             SERVICE_NAME=sonar
             ;;
 
-          stat)
+          hydro-stat)
             HELM_CHART_NAME=stat
             SERVICE_NAME=hydro-stat
             ;;
