@@ -59,7 +59,7 @@ runs:
 
           hydro-auto-od)
             HELM_CHART_NAME=auto-od
-            SERVICE_NAME=auto-od
+            SERVICE_NAME=hydro-auto-od
             ;;  
 
           hydro-visualization)
