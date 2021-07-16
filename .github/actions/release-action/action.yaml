@@ -57,6 +57,11 @@ runs:
             SERVICE_NAME=hydro-serving-ui
             ;;  
 
+          hydro-auto-od)
+            HELM_CHART_NAME=auto-od
+            SERVICE_NAME=auto-od
+            ;;  
+
           hydro-visualization)
             HELM_CHART_NAME=visualization
             SERVICE_NAME=hydro-visualization
