@@ -13,11 +13,10 @@ manager:
             "maxReplicas":10,
             "cpuUtilization":80
         },
-
         "container":{
             "resources":{
               "requests":{
-                "cpu": "250m"
+                "cpu": "250m",
                 "memory": "500m"
               }
             }
