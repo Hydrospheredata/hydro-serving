@@ -13,6 +13,15 @@ manager:
             "maxReplicas":10,
             "cpuUtilization":80
         },
+
+        "container":{
+            "resources":{
+              "requests":{
+                "cpu": "250m"
+                "memory": "500m"
+              }
+            }
+        },
         "pod":{
           "tolerations":[{
                 "key":"node-type",
