@@ -3,7 +3,7 @@ version: "3.5"
 services:
   auto-od:
     container_name: auto-od
-    image: hydrosphere/hydro-auto-od:6bca80d773b30273e3344ba90eee267e63823d24
+    image: hydrosphere/hydro-auto-od:6ee032bc5f7ed59c0aa55bb821f72ac56c8d6c7a
     environment:
       - MONGO_URL=mongodb
       - AWS_ACCESS_KEY_ID=minio
