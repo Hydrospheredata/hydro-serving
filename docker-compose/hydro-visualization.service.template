@@ -6,6 +6,9 @@ services:
     container_name: visualization-worker
     environment:
       - MONGO_URL=mongodb
+      - MONGO_USER=root
+      - MONGO_PORT=27017
+      - MONGO_PASS=hydr0s3rving
       - GRPC_PROXY_ADDRESS=managerui:9090
       - HTTP_PROXY_ADDRESS=http://managerui:8080
       - SECURE=False
@@ -28,6 +31,10 @@ services:
     environment:
       - GRPC_PORT=5003
       - MONGO_URL=mongodb
+      - MONGO_DATABASE=hydro-serving-data-profiler
+      - MONGO_USER=root
+      - MONGO_PORT=27017
+      - MONGO_PASS=hydr0s3rving
       - GRPC_PROXY_ADDRESS=managerui:9090
       - HTTP_PROXY_ADDRESS=http://managerui:8080
       - SECURE=False
