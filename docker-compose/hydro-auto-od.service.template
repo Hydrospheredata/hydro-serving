@@ -6,6 +6,10 @@ services:
     image: hydrosphere/hydro-auto-od:ed7e30df85f33861eb167910991fb8d4f46d46f0
     environment:
       - MONGO_URL=mongodb
+      - MONGO_DATABASE=hydro-serving-data-profiler
+      - MONGO_USER=root
+      - MONGO_PORT=27017
+      - MONGO_PASS=hydr0s3rving
       - AWS_ACCESS_KEY_ID=minio
       - AWS_SECRET_ACCESS_KEY=minio123
       - S3_ENDPOINT=http://minio:9000

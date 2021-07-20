@@ -23,6 +23,10 @@ services:
       DEFAULT_TIMEOUT: '120'
       GRPC_PORT: '5001'
       MONGO_URL: mongodb
+      MONGO_DATABASE: 'hydro-serving-data-profiler'
+      MONGO_USER: 'root'
+      MONGO_PORT: '27017'
+      MONGO_PASS: 'hydr0s3rving'
       S3_ENDPOINT: http://minio:9000
     image: hydrosphere/hydro-auto-od:ed7e30df85f33861eb167910991fb8d4f46d46f0
     networks:
@@ -94,6 +98,7 @@ services:
       STAT_HOST: stat
       STAT_PORT: '5000'
       VISUALIZATION_HOST: visualization
+      VISUALIZATION_HTTP_PORT: '5000'
     image: hydrosphere/hydro-serving-ui:56e9a33d56a2393c02de2715bd219a3b973a8a80
     networks:
       extnet: {}

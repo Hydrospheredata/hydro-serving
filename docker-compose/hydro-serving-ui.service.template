@@ -34,3 +34,4 @@ services:
       - "AUTO_OD_GRPC_PORT=5001"
       - "PROMETHEUS_AM_HOST=prometheus-am"
       - "VISUALIZATION_HOST=visualization"
+      - "VISUALIZATION_HTTP_PORT=5000"
