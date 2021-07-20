@@ -45,7 +45,7 @@ auto-od:
     full: hydrosphere/hydro-auto-od:548465f14fd3175299319dc1053b2adb303ea1df
 stat:
   image:
-    full: hydrosphere/hydro-stat:8bb80563f07a2af039ed7b90df2fdd31e5912b37
+    full: hydrosphere/hydro-stat:8afb00838f12afd5386154672662070342914b4b
 rootcause:
   image:
     full: hydrosphere/hydro-root-cause:2786128c1c5d5c9dd1e05d8c67e053f8b6e7213d
