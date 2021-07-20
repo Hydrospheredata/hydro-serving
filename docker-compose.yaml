@@ -24,7 +24,7 @@ services:
       GRPC_PORT: '5001'
       MONGO_URL: mongodb
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-auto-od:548465f14fd3175299319dc1053b2adb303ea1df
+    image: hydrosphere/hydro-auto-od:ed7e30df85f33861eb167910991fb8d4f46d46f0
     networks:
       extnet: {}
       hydronet: {}
