@@ -275,7 +275,7 @@ services:
       HTTP_PROXY_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       SECURE: "False"
-    image: hydrosphere/hydro-visualization:4085b5eb2261802d1ed5812289bf1343be554478
+    image: hydrosphere/hydro-visualization:255b4018c305ef37a75a31c51c1856afa389beb6
     networks:
       extnet: {}
       hydronet: {}
@@ -301,7 +301,7 @@ services:
       HTTP_PROXY_ADDRESS: http://managerui:8080
       MONGO_URL: mongodb
       SECURE: "False"
-    image: hydrosphere/hydro-visualization:4085b5eb2261802d1ed5812289bf1343be554478
+    image: hydrosphere/hydro-visualization:255b4018c305ef37a75a31c51c1856afa389beb6
     networks:
       hydronet: {}
 version: '3.5'
