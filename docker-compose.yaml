@@ -123,6 +123,9 @@ services:
     - published: 9000
       target: 9000
   mongodb:
+    environment: 
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: hydr0s3rving
     command:
     - sh
     - -c

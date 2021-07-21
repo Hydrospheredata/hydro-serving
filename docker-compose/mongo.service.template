@@ -5,6 +5,9 @@ services:
     image: mongo
     container_name: mongodb
     command: ["sh", "-c", "mongod --replSet rs0 --bind_ip_all"]
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=hydr0s3rving
     healthcheck:
       test: test $$(echo "rs.initiate().ok || rs.status().ok" | mongo --quiet) -eq 1
       interval: 10s
