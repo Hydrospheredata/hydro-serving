@@ -21,7 +21,7 @@ global:
     database: "rootcause" #Mongodb database name
 
 image:
-  full: hydrosphere/hydro-root-cause:9c2fcf21e5730878b550fcfdea2409ac22d37ab2
+  full: hydrosphere/hydro-root-cause:6eeca863c06f5321cd7d0b2c9b86d1fd775a14cc
   pullPolicy:  IfNotPresent
 
 service:
