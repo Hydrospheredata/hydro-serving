@@ -16,19 +16,18 @@ services:
       mongodb:
         condition: service_started
     environment:
-      AWS_ACCESS_KEY_ID: "minio"
-      AWS_SECRET_ACCESS_KEY: "minio123"
-      CLUSTER_ENDPOINT: "http://managerui:8080"
-      DEBUG: "false"
-      DEFAULT_TIMEOUT: 120
-      DEFAULT_RUNTIME: "hydrosphere/serving-runtime-python-3.7:3.0.0-dev4"
-      GRPC_PORT: 5001
-      MONGO_PASS: "hydr0s3rving"
-      MONGO_PORT: 27017
-      MONGO_URL: "mongodb"
-      MONGO_USER: "root"
-      MONGO_AUTH_DB: "admin"
-      S3_ENDPOINT: "http://minio:9000"
+      AWS_ACCESS_KEY_ID: '"minio"'
+      AWS_SECRET_ACCESS_KEY: '"minio123"'
+      CLUSTER_ENDPOINT: '"http://managerui:8080"'
+      DEBUG: '"false"'
+      DEFAULT_RUNTIME: '"hydrosphere/serving-runtime-python-3.7:3.0.0-dev4"'
+      DEFAULT_TIMEOUT: '120'
+      GRPC_PORT: '5001'
+      MONGO_AUTH_DB: '"admin"'
+      MONGO_PASS: '"hydr0s3rving"'
+      MONGO_PORT: '27017'
+      MONGO_URL: '"mongodb"'
+      MONGO_USER: '"root"'
     image: hydrosphere/hydro-auto-od:ed7e30df85f33861eb167910991fb8d4f46d46f0
     networks:
       extnet: {}
@@ -57,7 +56,7 @@ services:
     depends_on:
       postgres:
         condition: service_started
-    image: hydrosphere/serving-manager:6da185e856431e75b998a6956f58d700394b7a09
+    image: hydrosphere/serving-manager:6f3ede6e08c58710cb96960b01eefb74b50cfda7
     networks:
       extnet: {}
       hydronet: {}
@@ -123,14 +122,14 @@ services:
     - published: 9000
       target: 9000
   mongodb:
-    environment: 
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: hydr0s3rving
     command:
     - sh
     - -c
     - mongod --replSet rs0 --bind_ip_all
     container_name: mongodb
+    environment:
+      MONGO_INITDB_ROOT_PASSWORD: hydr0s3rving
+      MONGO_INITDB_ROOT_USERNAME: root
     healthcheck:
       interval: 10s
       start_period: 10s
