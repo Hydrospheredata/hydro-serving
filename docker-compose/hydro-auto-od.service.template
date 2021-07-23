@@ -5,18 +5,18 @@ services:
     container_name: auto-od
     image: hydrosphere/hydro-auto-od:6e208326304e416e6d2ef60c735ba27f886e088c
     environment:
-      - AWS_ACCESS_KEY_ID="minio"
-      - AWS_SECRET_ACCESS_KEY="minio123"
-      - CLUSTER_ENDPOINT="http://managerui:8080"
-      - DEBUG="false"
+      - AWS_ACCESS_KEY_ID=minio
+      - AWS_SECRET_ACCESS_KEY=minio123
+      - CLUSTER_ENDPOINT=http://managerui:8080
+      - DEBUG=false
       - DEFAULT_TIMEOUT=120
-      - DEFAULT_RUNTIME="hydrosphere/serving-runtime-python-3.7:3.0.0-dev4"
+      - DEFAULT_RUNTIME=hydrosphere/serving-runtime-python-3.7:3.0.0-dev4
       - GRPC_PORT=5001
-      - MONGO_PASS="hydr0s3rving"
+      - MONGO_PASS=hydr0s3rving
       - MONGO_PORT=27017
-      - MONGO_URL="mongodb"
-      - MONGO_USER="root"
-      - MONGO_AUTH_DB="admin"
+      - MONGO_URL=mongodb
+      - MONGO_USER=root
+      - MONGO_AUTH_DB=admin
     depends_on:
       - mongodb
       - minio
