@@ -4,7 +4,7 @@ services:
   auto-od:
     container_name: auto-od
     image: hydrosphere/hydro-auto-od:6e208326304e416e6d2ef60c735ba27f886e088c
-    environment:
+    environment: 
       - AWS_ACCESS_KEY_ID=minio
       - AWS_SECRET_ACCESS_KEY=minio123
       - CLUSTER_ENDPOINT=http://managerui:8080
@@ -17,6 +17,7 @@ services:
       - MONGO_URL=mongodb
       - MONGO_USER=root
       - MONGO_AUTH_DB=admin
+      - MONGO_DATABASE=hydro-serving-data-profiler
     depends_on:
       - mongodb
       - minio
