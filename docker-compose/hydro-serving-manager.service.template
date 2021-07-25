@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   manager:
-    image: hydrosphere/serving-manager:6f3ede6e08c58710cb96960b01eefb74b50cfda7
+    image: hydrosphere/serving-manager:c7583bb57077c4a08da522f146418f6d8f2fedf1
     container_name: manager
     ports:
       - "19090:9090"
