@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   minio:
-    image: minio/minio
+    image: bitnami/minio:2021.5.27-debian-10-r6
     container_name: minio
     ports: 
       - 9000:9000

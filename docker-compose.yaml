@@ -18,6 +18,7 @@ services:
     environment:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
+      S3_ENDPOINT: http://minio:9000
       CLUSTER_ENDPOINT: http://managerui:8080
       DEBUG: "false"
       DEFAULT_RUNTIME: hydrosphere/serving-runtime-python-3.7:3.0.0-dev4
@@ -110,12 +111,11 @@ services:
     - published: 9090
       target: 9090
   minio:
-    command: server /data
     container_name: minio
     environment:
       MINIO_ACCESS_KEY: minio
       MINIO_SECRET_KEY: minio123
-    image: minio/minio
+    image: bitnami/minio:2021.5.27-debian-10-r6
     networks:
       extnet: {}
       hydronet: {}
@@ -123,20 +123,16 @@ services:
     - published: 9000
       target: 9000
   mongodb:
-    command:
-    - sh
-    - -c
-    - mongod --replSet rs0 --bind_ip_all
     container_name: mongodb
+    restart: on-failure
     environment:
-      MONGO_INITDB_ROOT_PASSWORD: hydr0s3rving
-      MONGO_INITDB_ROOT_USERNAME: root
-    healthcheck:
-      interval: 10s
-      start_period: 10s
-      test: test $$(echo "rs.initiate().ok || rs.status().ok" | mongo --quiet) -eq
-        1
-    image: mongo
+      MONGODB_ROOT_PASSWORD: hydr0s3rving
+      MONGODB_ADVERTISED_HOSTNAME: mongodb
+      MONGODB_REPLICA_SET_MODE: primary
+      MONGODB_REPLICA_SET_KEY: replicasetkey123
+    image: bitnami/mongodb:4.4.7-debian-10-r11
+    volumes:
+      - mongodb:/bitnami/mongodb
     networks:
       extnet: {}
       hydronet: {}
@@ -211,6 +207,8 @@ services:
       MONGO_AUTH_DB: admin
       MONGO_PORT: '27017'
       MONGO_URL: mongodb
+      MONGO_USER: root
+      MONGO_PASS: hydr0s3rving
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
     image: hydrosphere/hydro-root-cause:6eeca863c06f5321cd7d0b2c9b86d1fd775a14cc
@@ -230,7 +228,10 @@ services:
       DB_USER: docker
       GRPC_PORT: '9091'
       HTTP_PORT: '9090'
+      MONGO_AUTH_DB: admin
       MONGO_HOST: mongodb
+      MONGO_USER: root
+      MONGO_PASS: hydr0s3rving
       SIDECAR_GRPC_PORT: '9090'
       SIDECAR_HOST: managerui
       SIDECAR_HTTP_PORT: '8080'
@@ -259,10 +260,11 @@ services:
       AWS_ACCESS_KEY_ID: minio
       AWS_SECRET_ACCESS_KEY: minio123
       HTTP_UI_ADDRESS: http://managerui:8080
-      MONGO_PASS: hydr0s3rving
+      MONGO_AUTH_DB: admin
       MONGO_PORT: '27017'
       MONGO_URL: mongodb
       MONGO_USER: root
+      MONGO_PASS: hydr0s3rving
       S3_ENDPOINT: http://minio:9000
     image: hydrosphere/hydro-stat:9b5997df110140a1c5fcc2ed3536e53d03964a6a
     networks:
@@ -288,10 +290,11 @@ services:
       GRPC_PROXY_ADDRESS: managerui:9090
       HTTP_PROXY_ADDRESS: http://managerui:8080
       MONGO_DATABASE: hydro-serving-data-profiler
-      MONGO_PASS: hydr0s3rving
+      MONGO_AUTH_DB: admin
       MONGO_PORT: '27017'
       MONGO_URL: mongodb
       MONGO_USER: root
+      MONGO_PASS: hydr0s3rving
       SECURE: "False"
     image: hydrosphere/hydro-visualization:f7750f418d7c49f7224187972a0121c77efd5874
     networks:
@@ -317,10 +320,11 @@ services:
       DEBUG: "False"
       GRPC_PROXY_ADDRESS: managerui:9090
       HTTP_PROXY_ADDRESS: http://managerui:8080
-      MONGO_PASS: hydr0s3rving
+      MONGO_AUTH_DB: admin
       MONGO_PORT: '27017'
       MONGO_URL: mongodb
       MONGO_USER: root
+      MONGO_PASS: hydr0s3rving
       SECURE: "False"
     image: hydrosphere/hydro-visualization:f7750f418d7c49f7224187972a0121c77efd5874
     networks:
@@ -328,4 +332,5 @@ services:
 version: '3.5'
 volumes:
   sonardata: {}
+  mongodb: {}
 

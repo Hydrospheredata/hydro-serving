@@ -2,16 +2,14 @@ version: "3.5"
 
 services:
   mongodb:
-    image: mongo
+    image: bitnami/mongodb:4.4.7-debian-10-r11
     container_name: mongodb
-    command: ["sh", "-c", "mongod --replSet rs0 --bind_ip_all"]
+    restart: on-failure
     environment:
-      - MONGO_INITDB_ROOT_USERNAME=root
-      - MONGO_INITDB_ROOT_PASSWORD=hydr0s3rving
-    healthcheck:
-      test: test $$(echo "rs.initiate().ok || rs.status().ok" | mongo --quiet) -eq 1
-      interval: 10s
-      start_period: 10s
+      - MONGODB_ROOT_PASSWORD=hydr0s3rving
+      - MONGODB_ADVERTISED_HOSTNAME=mongodb
+      - MONGODB_REPLICA_SET_MODE=primary
+      - MONGODB_REPLICA_SET_KEY+replicasetkey123
     ports:
       - 27017:27017
     networks:
