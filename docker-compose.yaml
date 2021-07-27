@@ -111,7 +111,6 @@ services:
     - published: 9090
       target: 9090
   minio:
-    command: server /data
     container_name: minio
     environment:
       MINIO_ACCESS_KEY: minio
@@ -127,7 +126,7 @@ services:
     container_name: mongodb
     environment:
       MONGODB_ADVERTISED_HOSTNAME: mongodb
-      MONGODB_REPLICA_SET_KEY+replicasetkey123: null
+      MONGODB_REPLICA_SET_KEY: replicasetkey123
       MONGODB_REPLICA_SET_MODE: primary
       MONGODB_ROOT_PASSWORD: hydr0s3rving
     image: bitnami/mongodb:4.4.7-debian-10-r11

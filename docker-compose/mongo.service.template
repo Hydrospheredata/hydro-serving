@@ -9,7 +9,7 @@ services:
       - MONGODB_ROOT_PASSWORD=hydr0s3rving
       - MONGODB_ADVERTISED_HOSTNAME=mongodb
       - MONGODB_REPLICA_SET_MODE=primary
-      - MONGODB_REPLICA_SET_KEY+replicasetkey123
+      - MONGODB_REPLICA_SET_KEY=replicasetkey123
     ports:
       - 27017:27017
     networks:
