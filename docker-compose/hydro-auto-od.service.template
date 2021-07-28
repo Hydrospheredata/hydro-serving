@@ -3,7 +3,7 @@ version: "3.5"
 services:
   auto-od:
     container_name: auto-od
-    image: hydrosphere/hydro-auto-od:6e208326304e416e6d2ef60c735ba27f886e088c
+    image: hydrosphere/hydro-auto-od:82e6e76f266d33d35f9074f63b89f2f11bb5800c
     environment: 
       - AWS_ACCESS_KEY_ID=minio
       - AWS_SECRET_ACCESS_KEY=minio123
