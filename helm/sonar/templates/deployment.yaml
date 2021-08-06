@@ -48,6 +48,8 @@ spec:
               value: {{ if .Values.global.mongodb.url }}"{{ .Values.global.mongodb.url }}"{{ else }} "{{ template "mongodb.fullname" . }}"{{ end }}  
             - name: MONGO_PORT
               value: "27017"
+            - name: MONGO_RETRY_WRITES
+              value: "{{ .Values.global.mongodb.retry }}"
             - name: MONGO_DATABASE
               value: "{{ .Values.global.mongodb.database }}"
             {{- if .Values.global.mongodb.username }}

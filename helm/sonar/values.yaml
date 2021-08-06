@@ -19,6 +19,7 @@ global:
     username: "root" #Mongodb username
     password: "hydr0s3rving" #Mongodb password
     authDatabase: "admin" #Mongodb auth database
+    retry: "false"
     database: "hydro-serving-data-profiler" #Mongodb database name
 
   postgresql:
