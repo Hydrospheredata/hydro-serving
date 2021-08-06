@@ -1,9 +1,9 @@
 ui:
   image:
-    full: hydrosphere/hydro-serving-ui:1a044adafa2b91ec20c3b68d8103e74f52809272
+    full: hydrosphere/hydro-serving-ui:f88eff0fe5c505b93768222b27e62456482dc7db
 manager:
   image:
-    full: hydrosphere/serving-manager:2.4.0
+    full: hydrosphere/serving-manager:b284268bf4301e9822ad81c898ad733f7dd438d0
   depconfig: |-
     default-deployment-configuration = """
       {
@@ -25,22 +25,22 @@ manager:
     """
 gateway:
   image:
-    full: hydrosphere/serving-gateway:2.4.0
+    full: hydrosphere/serving-gateway:f06ea5f5b72ebb2213eeeae4afe2a4879df877e4
 sonar:
   image:
-    full: hydrosphere/sonar:2a41d4a1fcaed171ebd0f3153f05b09ef2afbe2c
+    full: hydrosphere/sonar:3751ca0a015c406178628dcf9e821cbb2d86f09b
 visualization:
   image:
-    full: hydrosphere/hydro-visualization:77848eee1d6391b48ac81dc02265c1847e04aede  
+    full: hydrosphere/hydro-visualization:f7750f418d7c49f7224187972a0121c77efd5874
 auto-od:
   image:
-    full: hydrosphere/hydro-auto-od:3820a74e3a9469f36094743418f8f845bef600f1
+    full: hydrosphere/hydro-auto-od:47b432abca11dcc496728609257f8a9bb89ef068
 stat:
   image:
-    full: hydrosphere/hydro-stat:f72b0ceb5911bd249455e6cb7ae0d2e9d412cf1c
+    full: hydrosphere/hydro-stat:9b5997df110140a1c5fcc2ed3536e53d03964a6a
 rootcause:
   image:
-    full: hydrosphere/hydro-root-cause:73721910db505b35226249756bdfe3b475f97497
+    full: hydrosphere/hydro-root-cause:6eeca863c06f5321cd7d0b2c9b86d1fd775a14cc
 global:
   ui:
     ingress:
