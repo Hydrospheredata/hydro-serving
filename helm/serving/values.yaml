@@ -35,7 +35,7 @@ global:
     username: "root" # Mongodb username. Used for an internal installation.
     password: "hydr0s3rving" # Mongodb password. Used for an internal installation.
     authDatabase: "admin" # Mongodb auth database. Used for an internal installation.
-    retry: "false"
+    retry: "false" # AWS documentdb specific params required true
     database: "hydro-serving-data-profiler" # Mongodb database name. Used for an internal installation.
 
   postgresql:
