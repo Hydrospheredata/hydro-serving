@@ -6,8 +6,8 @@ This article explains the configuration file of the Hydrosphere Helm charts.
 
 To install Hydrosphere on the Kubernetes cluster you should have the following prerequisites fulfilled.
 
-* [Helm 2.9+](https://docs.helm.sh/using_helm/#install-helm)
-* [Kubernetes 1.14+ with v1 API](https://kubernetes.io/docs/setup/)
+* [Helm 3.0+](https://docs.helm.sh/using_helm/#install-helm)
+* [Kubernetes 1.16+ with v1 API](https://kubernetes.io/docs/setup/)
 * PV support on the underlying infrastructure \(if persistence is required\)
 * Docker registry with pull/push access \(if the built-in one is not used\)
 
@@ -74,6 +74,7 @@ global:
     username: root 
     password: hydr0s3rving
     authDatabase: admin
+    retry: false
     database: hydro-serving-data-profiler
 
   postgresql:
@@ -164,6 +165,12 @@ rootcause:
   # help you understand the outcome by telling why your model made the prediction. 
   resources: {}
 
+# Pull secret for hydrosphere from private registry
+registry:
+  enabled: false
+  host: "" # Registry url for accessing hydrosphere images
+  username: "" # Registry username for accessing hydrosphere images
+  password: "" # Registry password for accessing hydrosphere images
 ```
 
 Let's go over each section one by one. 
