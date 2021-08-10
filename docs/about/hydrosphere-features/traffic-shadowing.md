@@ -6,7 +6,7 @@ Hydrosphere users can use multiple [model versions](../concepts.md#models-and-mo
 
 Users can specify the likelihood that a model output will be selected as an application stage output by using the `weight` argument.
 
-![Traffic is shadowed to all versions, but only v2 and v3 return output](../../.gitbook/assets/ab-deployment-and-traffic-shadowing-1-%20%281%29%20%283%29%20%282%29.png)
+![Traffic is shadowed to all versions, but only v2 and v3 return output](../../.gitbook/assets/ab-deployment-and-traffic-shadowing-1-%20%281%29%20%283%29%20%281%29%20%282%29.png)
 
 ## Traffic Shadowing
 

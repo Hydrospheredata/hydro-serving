@@ -38,6 +38,7 @@
   * [Train & Deploy Census Income Classification Model](quickstart/tutorials/train-and-deploy-census-income-classification-model.md)
   * [Monitoring Anomalies with a Custom Metric](quickstart/tutorials/custom_metric.md)
   * [Monitoring External Models](quickstart/tutorials/monitoring-external-models.md)
+  * [Visualize High-dimensional Data](quickstart/tutorials/visualize-high-dimensional-data.md)
 * [How-To](quickstart/how-to/README.md)
   * [Invoke applications](quickstart/how-to/invoke-applications.md)
   * [Write definitions](quickstart/how-to/write-definitions.md)
