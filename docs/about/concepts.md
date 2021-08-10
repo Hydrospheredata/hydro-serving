@@ -18,13 +18,13 @@ A **Model** is a machine learning model or a processing function that consumes p
 
 Within the Hydrosphere platform, we break down a model into its versions. Each **Model version** represents a single Docker image containing all the artifacts that you have uploaded to the platform. Consequently, **Model** is a group of **Model versions** with the same name.
 
-![Model vs Model Version Difference](../.gitbook/assets/model-vs-model-version%20%281%29%20%282%29%20%281%29.png)
+![Model vs Model Version Difference](../.gitbook/assets/model-vs-model-version%20%281%29%20%282%29%20%285%29.png)
 
 ### Runtimes
 
 A **Runtime** is a Docker image with the predefined gRPC interface which loads and serves your model.
 
-![Place of Runtimes in the Architecture](../.gitbook/assets/serving_on_various_runtimes%20%281%29%20%282%29%20%281%29.jpg)
+![Place of Runtimes in the Architecture](../.gitbook/assets/serving_on_various_runtimes%20%281%29%20%284%29%20%286%29%20%281%29.jpg)
 
 We have [implemented](../resources/reference/runtimes.md) a few runtimes, which you can use in your own projects.
 
@@ -38,7 +38,7 @@ Users should not use Servables as-is, since they are designed to be building blo
 
 An **Application** is a pipeline of one or more stages, each consisting of one or multiple Model Versions. Data sent to an application stage is shadowed to all of its model versions. The output of a stage is picked randomly with respect to weights.
 
-![Example of a multi-staged output with an A/B test on the second stage](../.gitbook/assets/application%20%281%29%20%282%29%20%281%29.png)
+![Example of a multi-staged output with an A/B test on the second stage](../.gitbook/assets/application%20%281%29%20%284%29%20%286%29%20%281%29.png)
 
 When a user creates an Application, the Manager service automatically deploys appropriate Servables. The Application handles monitoring of your models and can perform A/B traffic splits.
 
