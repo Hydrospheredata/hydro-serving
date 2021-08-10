@@ -16,7 +16,7 @@ As you might notice the core mechanism that makes a choice about the model is ba
 
 The last aspect of outlier detection algorithm is choosing an appropriate threshold. Most methods calculate outlier score for each object and then threshold the scores to detect outliers. Most widely used thresholding techniques are based on statistics like standard deviation around mean, median absolute deviation and interquartile range. Unfortunately, these statistics can be significantly biased because of the presence of outliers when calculating these statistics. In Hydropshere, we empirically decided to stay with 97th percentile. It means that a request is labeled as an outlier if the outlier score is greater than the 97th percentile of training data outlier scores distribution.
 
-![](../../.gitbook/assets/auto_od_feature%20%281%29%20%281%29.gif)
+![](../../.gitbook/assets/auto_od_feature%20%281%29%20%284%29%20%286%29%20%286%29.gif)
 
 You can observe those models deployed as metrics in your monitoring dashboard. These metrics provide you with information about how novel/anomalous your data is. If these values of the metric deviate significantly from the average, you can tell that you experience some potential abnormality event. In the case, if you observe a gradually increasing number of such events, then it might be associated with a data drift, which makes a need to re-evaluate your ML pipeline to check for errors.
 

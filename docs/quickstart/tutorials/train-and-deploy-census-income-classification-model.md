@@ -239,7 +239,7 @@ If you want to interact with your model via Hydrosphere UI, you can go to `http:
 
 You might notice that after some time there appears an additional model with the `metric` postscript at the end of the name. This is your automatically formed monitoring model for outlier detection. Learn more about the Automatic Outlier Detection feature [here](https://hydrosphere.gitbook.io/home/overview/features/automatic-outlier-detection).
 
-![](../../.gitbook/assets/screenshot-2020-09-14-at-17.52.30%20%281%29%20%281%29.png)
+![](../../.gitbook/assets/screenshot-2020-09-14-at-17.52.30%20%281%29%20%284%29%20%286%29.png)
 
 🎉 You have successfully finished this tutorial! 🎉
 
