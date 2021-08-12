@@ -47,7 +47,7 @@ Hydrosphere platform includes all steps of a production ML model cycle - Version
 
 Hydro Serving is responsible for framework-agnostic model deployment and management. It allows Data Scientists to upload, version, combine into linear pipelines and deploy ML models trained in any ML framework to a Docker/Kubernetes cluster and expose HTTP/gRPC/Kafka API to other parties.
 
-![](../.gitbook/assets/serving_screenshot%20%281%29%20%284%29%20%286%29%20%286%29.png)
+![](../.gitbook/assets/serving.png)
 
 ### Monitoring
 
