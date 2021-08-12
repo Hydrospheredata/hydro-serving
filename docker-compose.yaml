@@ -261,7 +261,7 @@ services:
       MONGO_URL: mongodb
       MONGO_USER: root
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-stat:9b5997df110140a1c5fcc2ed3536e53d03964a6a
+    image: hydrosphere/hydro-stat:800cbac389f7790893ac06d1048e768b36b853fb
     networks:
       extnet: {}
       hydronet: {}
