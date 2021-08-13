@@ -266,7 +266,7 @@ plt.legend()
 plt.title("Latency Comparison between v1 and v2")
 ```
 
-![](../../.gitbook/assets/image%20%281%29%20%281%29%20%284%29%20%286%29%20%282%29.png)
+![](../../.gitbook/assets/image%20%281%29%20%281%29%20%284%29%20%286%29%20%286%29%20%282%29.png)
 
 #### Mean Top-3 Hit Rate
 
