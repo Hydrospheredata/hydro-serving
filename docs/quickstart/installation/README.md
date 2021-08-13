@@ -54,7 +54,7 @@ To check the installation, open [http://localhost/](http://localhost/). By defau
 ## Kubernetes installation
 
 {% hint style="warning" %}
-By default, Hydrosphere spins up a minimal installation applicable only for **testing** purposes. Consult [this](configuring-helm-charts.md) document for details about deploying **production-ready** Hydrosphere instance. 
+By default, Hydrosphere spins up a minimal installation applicable only for **testing** purposes. Consult [this](configuring-helm-charts.md) document for details about deploying **production-ready** Hydrosphere instance.
 {% endhint %}
 
 To install Hydrosphere on the Kubernetes cluster you should have the following prerequisites fulfilled.
