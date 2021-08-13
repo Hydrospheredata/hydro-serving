@@ -21,8 +21,7 @@ Platform for deploying your Machine Learning to production
 ---
 
 [![GitHub license](https://img.shields.io/badge/license-apache-blue.svg)](https://github.com/Hydrospheredata/hydro-serving/blob/update-readme/LICENSE)
-[![Join the chat at https://gitter.im/Hydrospheredata/hydro-serving](https://badges.gitter.im/Hydrospheredata/hydro-serving.svg)](https://gitter.im/Hydrospheredata/hydro-serving?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![](https://img.shields.io/badge/chat-on%20slack-%23E01E5A)](https://hydrospheredata.slack.com/)
+[![](https://img.shields.io/badge/chat-on%20slack-%23E01E5A)](https://hydrospheredata.slack.com/join/shared_invite/zt-tt4j24xj-TpnI_D2aJDBHIbA~EmPSlQ#/shared-invite/email)
 [![](https://img.shields.io/badge/documentation-latest-af1a97.svg)](https://docs.hydrosphere.io) 
 [![Helm chart Lint and Testing](https://github.com/Hydrospheredata/hydro-serving/actions/workflows/Lint%20helm.yaml/badge.svg)](https://github.com/Hydrospheredata/hydro-serving/actions/workflows/Lint%20helm.yaml)
 
@@ -40,8 +39,8 @@ You can refer to our [documentation](https://hydrosphere.io/serving-docs/latest/
 ## Installation
 
 There are two main ways of installing Hydropshere:
-* [Docker](https://hydrosphere.io/serving-docs/latest/install/docker.html);
-* [Kubernetes](https://hydrosphere.io/serving-docs/latest/install/kubernetes.html).
+* [Docker](https://docs.hydrosphere.io/quickstart/installation#docker-installation);
+* [Kubernetes](https://docs.hydrosphere.io/quickstart/installation#kubernetes-installation).
 
 
 ### Docker
@@ -55,7 +54,7 @@ To deploy the Hydrosphere platform from master branch, follow the instructions b
 
 1. Download the latest release version from the [releases](https://github.com/Hydrospheredata/hydro-serving/releases) page;
     ```sh 
-    export HYDROSPHERE_RELEASE=2.4.3
+    export HYDROSPHERE_RELEASE=3.0.0
     wget -O hydro-serving-${HYDROSPHERE_RELEASE}.tar.gz https://github.com/Hydrospheredata/hydro-serving/archive/${HYDROSPHERE_RELEASE}.tar.gz
     ```
 1. Unpack the tar ball;
@@ -93,8 +92,8 @@ To check installation, open http://localhost/. By default Hydrosphere UI is avai
 
 Before installing Hydrosphere Serving, please install its prerequisites: 
 
-* [Helm 2 starting from 2.9+](https://docs.helm.sh/using_helm/#install-helm) with the tiller installed on the cluster;
-* [Kubernetes 1.8 and above](https://kubernetes.io/docs/setup/) with beta APIs enabled.
+* [Helm 3.0+](https://docs.helm.sh/using_helm/#install-helm) with the tiller installed on the cluster;
+* [Kubernetes 1.16+ with v1 API](https://kubernetes.io/docs/setup/) with beta APIs enabled.
 
 To install Hydrosphere Serving, follow the instructions below:
 
@@ -114,7 +113,7 @@ To check installation, open http://localhost:8080/.
 **Note**, other installation options are described in the [documentation](https://hydrosphere.io/serving-docs/latest/index.html). 
 
 ## Community
-Keep up to date and get Hydrosphere.io support via [![Join the chat at https://gitter.im/Hydrospheredata/hydro-serving](https://badges.gitter.im/Hydrospheredata/hydro-serving.svg)](https://gitter.im/Hydrospheredata/hydro-serving?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge), [![](https://img.shields.io/badge/chat-on%20slack-%23E01E5A)](https://hydrospheredata.slack.com/) or contact us directly at [info@hydrosphere.io](mailto:info@hydrosphere.io)
+Keep up to date and get Hydrosphere.io support via [![](https://img.shields.io/badge/chat-on%20slack-%23E01E5A)](https://hydrospheredata.slack.com/join/shared_invite/zt-tt4j24xj-TpnI_D2aJDBHIbA~EmPSlQ#/shared-invite/email) or contact us directly at [info@hydrosphere.io](mailto:info@hydrosphere.io)
 
 ### Contributing
 

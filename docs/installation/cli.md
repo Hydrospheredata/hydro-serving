@@ -27,12 +27,6 @@ This command lets you operate cluster instances. A cluster points to your Hydros
 
 See `hs cluster --help` for more information.
 
-### `hs upload`
-
-This command lets you upload models to the Hydrosphere platform. During the upload, `hs` looks for a `serving.yaml` file in the current directory. This file **must** contain a definition of the model \([example](../how-to/write-definitions.md#kind-model)\).
-
-See `hs upload --help` for more information.
-
 ### `hs apply`
 
 This command is an extended version of the `hs upload` command, which also allows you to operate applications and host selector resources.
@@ -66,3 +60,12 @@ This command provides information about available models.
 
 See `hs model --help` for more information.
 
+
+### `hs depconf`
+
+This command provides information about available deployment configuration.
+
+* `$ hs depconf list` - list all existing deployment configurations.
+* `$ hs depconf rm` - remove a certain deployment configuration.
+
+See `hs depconf --help` - for more information.

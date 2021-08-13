@@ -70,6 +70,7 @@ touch train.py
 Put the following code for your model in the `train.py` file:
 
 {% code title="train.py" %}
+
 ```python
 import joblib
 from sklearn.datasets import make_blobs
@@ -84,29 +85,32 @@ model.fit(X, y)
 
 joblib.dump(model, "model.joblib")
 ```
+
 {% endcode %}
 
 Next, we need to install all the necessary libraries for our model. In your `logistic_regression` folder, create a `requirements.txt` file and provide dependencies inside:
 
 {% code title="requirements.txt" %}
+
 ```text
-numpy~=1.18
-scipy==1.4.1
-scikit-learn~=0.23
-joblib~=0.15
+numpy~=1.21
+scipy==1.7.1
+scikit-learn~=0.24
+joblib~=1.0.1
 ```
+
 {% endcode %}
 
 Install all the dependencies to your local environment:
 
 ```bash
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Train the model:
 
 ```bash
-$ python train.py
+python train.py
 ```
 
 As soon as the script finishes, you will get the model saved to a `model.joblib` file.
@@ -132,6 +136,7 @@ Hydrosphere communicates with the model using [TensorProto](https://github.com/H
 To do inference you have to define a function that will be invoked every time Hydrosphere handles a request and passes it to the model. Inside that function, you have to call a `predict` \(or similar\) method of your model and return your predictions:
 
 {% code title="func\_main.py" %}
+
 ```python
 import joblib
 import numpy as np
@@ -147,6 +152,7 @@ def infer(x1, x2):
     # Return the scalar representation of y
     return {"y": y.item()}
 ```
+
 {% endcode %}
 
 Inside `func_main.py` we initialize our model outside of the serving function `infer.`This process will not be triggered every time a new request comes in.
@@ -167,10 +173,11 @@ touch serving.yaml
 Inside `serving.yaml` we also provide`requirements.txt` and`model.joblib` as payload files to our model:
 
 {% code title="serving.yaml" %}
+
 ```yaml
 kind: Model
 name: logistic_regression
-runtime: hydrosphere/serving-runtime-python-3.7:2.3.2
+runtime: hydrosphere/serving-runtime-python-3.7:3.0.0
 install-command: pip install -r requirements.txt
 payload:
   - src/
@@ -194,6 +201,7 @@ contract:
       type: int64
       profile: categorical
 ```
+
 {% endcode %}
 
 At this point make sure that the overall structure of your local model directory looks as shown in the "Before you start" section.
@@ -207,7 +215,7 @@ Although we have `train.py` inside the model directory, it will not be uploaded 
 Now we are ready to upload our model to Hydrosphere. To do so, inside the `logistic_regression` model directory run:
 
 ```bash
-hs upload
+hs apply -f serving.yaml
 ```
 
 To see your uploaded model, open [http://localhost/models](http://localhost/models).
@@ -235,6 +243,7 @@ pip install hydrosdk
 Define a gRPC client on your side and make a call from it:
 
 {% code title="send\_data.py" %}
+
 ```python
 from sklearn.datasets import make_blobs
 from hydrosdk import Cluster, Application
@@ -249,6 +258,7 @@ for sample in X:
     y = predictor.predict({"x1": sample[0], "x2": sample[1]})
     print(y)
 ```
+
 {% endcode %}
 
 ## Getting Started with Monitoring
@@ -270,6 +280,7 @@ Hydrosphere Monitoring relies heavily on training data. Users **must** provide t
 To provide training data users need to add the `training-data=<path_to_csv>` field to the `serving.yaml` file. Run the following script to save training data used in previous steps as a `training_data.csv` file:
 
 {% code title="save\_training\_data.py" %}
+
 ```python
 import pandas as pd
 from sklearn.datasets import make_blobs
@@ -284,15 +295,17 @@ df['y'] = y
 # Save it as .csv
 df.to_csv("training_data.csv", index=False)
 ```
+
 {% endcode %}
 
 Next, add the training data field to the model definition inside the `serving.yaml` file:
 
 {% code title="serving.yaml" %}
+
 ```yaml
 kind: Model
 name: logistic_regression
-runtime: hydrosphere/serving-runtime-python-3.7:2.3.2
+runtime: hydrosphere/serving-runtime-python-3.7:3.0.0
 install-command: pip install -r requirements.txt
 training-data: training_data.csv
 payload:
@@ -316,6 +329,7 @@ contract:
       type: int64
       profile: categorical
 ```
+
 {% endcode %}
 
 ### Upload a model
@@ -323,7 +337,7 @@ contract:
 Now we are ready to upload our model. Run the following command to create a new version of the `logistic_regresion` model:
 
 ```bash
-hs upload
+hs apply -f serving.yaml
 ```
 
 Open the [http://localhost/models](http://localhost/models) page to see that there are now two versions of the`logistic_regression` model.
@@ -341,6 +355,7 @@ Let's send some data to our new model version. To do so, we need to update our `
 After updating our Application, we can reuse our old code to send some data:
 
 {% code title="send\_data.py" %}
+
 ```python
 from sklearn.datasets import make_blobs
 from hydrosdk import Cluster, Application
@@ -355,6 +370,7 @@ for sample in X:
     y = predictor.predict({"x1": sample[0], "x2": sample[1]})
     print(y)
 ```
+
 {% endcode %}
 
 ### Monitor data quality
@@ -370,6 +386,7 @@ The Monitoring dashboard plots all requests streaming through a model version as
 To check whether our metric will be able to detect data drifts, let's simulate one and send data from another distribution. To do so, let's slightly modify our code:
 
 {% code title="send\_bad\_data.py" %}
+
 ```python
 from sklearn.datasets import make_blobs
 from hydrosdk import Cluster, Application
@@ -385,7 +402,7 @@ for sample in X:
     y = predictor.predict({"x1": sample[0], "x2": sample[1]})
     print(y)
 ```
+
 {% endcode %}
 
 You can validate that your model was able to detect data drifts on the monitoring dashboard.
-

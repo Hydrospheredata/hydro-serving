@@ -69,12 +69,6 @@ Hydro Serving is responsible for a framework-agnostic model deployment and manag
 
 ## Monitoring
 
-{% hint style="info" %}
-Hydrosphere Monitoring is not available as an open-source solution. If you are
-interested in this component you can contact us via [gitter](https://gitter.im/Hydrospheredata/hydro-serving)
-or our [website](https://hydrosphere.io)
-{% endhint %}
-
 Hydro Monitoring tracks model performance over time, raising alerts
 in case of detected issues. It provides a real-time updated UI,
 where you can monitor your models to see service health and usage.
