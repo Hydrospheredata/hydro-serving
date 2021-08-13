@@ -3,7 +3,7 @@ version: "3.5"
 services:
   stat:
     container_name: stat
-    image: hydrosphere/hydro-stat:800cbac389f7790893ac06d1048e768b36b853fb
+    image: hydrosphere/hydro-stat:746fc0fac4635c835d8312053a3fed3f8bade9eb
     environment:
       - MONGO_URL=mongodb
       - MONGO_USER=root
