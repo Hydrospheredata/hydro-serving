@@ -38,6 +38,8 @@ services:
     environment:
       - MONGO_URL=mongodb
       - MONGO_PORT=27017
+      - MONGO_USER=root
+      - MONGO_PASS=hydr0s3rving
       - MONGO_AUTH_DB=admin
       - ROOTCAUSE_DB_NAME=rootcause
       - GRPC_UI_ADDRESS=managerui:9090
