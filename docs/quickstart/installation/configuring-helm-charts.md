@@ -324,6 +324,6 @@ You can specify global tolerations for Hydrosphere services to be deployed on pa
 Once the charts were configured, install the release.
 
 ```bash
-helm2 install serving --namespace hydrosphere -f values-production.yaml .
+helm install serving --namespace hydrosphere -f values-production.yaml .
 ```
 
