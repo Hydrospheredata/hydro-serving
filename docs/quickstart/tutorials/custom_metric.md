@@ -51,7 +51,7 @@ from sklearn.ensemble import IsolationForest
 
 X_train = pd.read_csv('data/train.csv', index_col=0)
 
-monitoring_model = IForest(contamination=0.04)
+monitoring_model = IsolationForest(contamination=0.04)
 
 train_pred = monitoring_model.fit_predict(X_train) 
 
@@ -65,11 +65,11 @@ plt.hist(
     label="Train data outlier scores"
 )
 
-plt.vlines(monitoring_model.threshold_, 0, 1.9, label = "Threshold for marking outliers")
+plt.vlines(monitoring_model.offset_, 0, 1.9, label = "Threshold for marking outliers")
 plt.gcf().set_size_inches(10, 5)
 plt.legend()
 
-dump(monitoring_model, "monitoring_model/monitoring_model.joblib")
+joblib.dump(monitoring_model, "monitoring_model.joblib")
 ```
 
 ![Distribution of outlier scores](../../.gitbook/assets/figure%20%282%29%20%284%29%20%286%29%20%284%29.png)
@@ -81,7 +81,7 @@ This is what the distribution of our inliers looks like. By choosing a contamina
 First, let's create a new directory where we will store our inference script with declared serving function and its definitions. Put the following code inside the `src/func_main.py` file:
 
 {% code title="func\_main.py" %}
-```bash
+```python
 import numpy as np
 from joblib import load
 
@@ -115,8 +115,11 @@ Secondly, we need to apply a couple of new methods to create a metric. `MetricSp
 
 ```python
 from hydrosdk.monitoring import MetricSpec, MetricSpecConfig, ThresholdCmpOp
+from hydrosdk.signature import SignatureBuilder
+from hydrosdk.modelversion import ModelVersion, ModelVersionBuilder, DockerImage
 
-path_mon = "monitoring_model/"
+
+path_mon = "."
 payload_mon = ['src/func_main.py', 
                'monitoring_model.joblib', 'requirements.txt']
 
@@ -125,18 +128,16 @@ for i in X_train.columns:
     monitoring_signature.with_input(i, 'int64', 'scalar')
 monitor_signature = monitoring_signature.with_output('value', 'float64', 'scalar').build()
 
-monitor_contract = ModelContract(predict=monitor_signature)
+monitoring_model_local = ModelVersionBuilder("adult_monitoring_model", path_mon) \
+    .with_install_command("pip install -r requirements.txt") \
+    .with_payload(payload_mon) \
+    .with_signature(monitor_signature) \
+    .with_runtime(DockerImage.from_string("hydrosphere/serving-runtime-python-3.7:3.0.0-alpha.2"))
 
-monitoring_model_local = LocalModel(name="adult_monitoring_model", 
-                              install_command = 'pip install -r requirements.txt',
-                              contract=monitor_contract,
-                              runtime=DockerImage("hydrosphere/serving-runtime-python-3.7", "2.3.2", None),
-                              payload=payload_mon,
-                              path=path_mon)
-monitoring_upload = monitoring_model_local.upload(cluster)
+monitoring_upload = monitoring_model_local.build(cluster)
 monitoring_upload.lock_till_released()
 
-metric_config = MetricSpecConfig(monitoring_upload.id, monitoring_model.threshold_, ThresholdCmpOp.LESS)
+metric_config = MetricSpecConfig(monitoring_upload.id, monitoring_model.offset_, ThresholdCmpOp.LESS)
 metric_spec = MetricSpec.create(cluster, "custom_metric", model_find.id, metric_config)
 ```
 
@@ -171,7 +172,7 @@ payload:
   - "src/"
   - "requirements.txt"
   - "monitoring_model.joblib"
-runtime: "hydrosphere/serving-runtime-python-3.7:2.3.2"
+runtime: "hydrosphere/serving-runtime-python-3.7:3.0.0-alpha.2"
 install-command: "pip install -r requirements.txt"
 contract:
   name: "predict"
