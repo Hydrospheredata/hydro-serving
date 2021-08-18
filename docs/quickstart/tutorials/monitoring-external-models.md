@@ -172,33 +172,13 @@ The example below shows how a single `field` object can be defined.
 
 `shape` object defines the shape of the data that the model is processing. The shape object **must** contain the following members:
 
-* `dim`: A collection of items, describing each dimension. A collection **may** be empty — in that case, the tensor will be interpreted as a scalar value. 
-* `unknownRank`: Boolean value. Identifies whether the defined shape is of unknown rank.
+* `dim`: An array of dimensions. A collection **may** be empty — in that case, the tensor will be interpreted as a scalar value. 
 
 The example below shows how a `shape` object can be defined.
 
 ```javascript
-{
-    "dim": [
-        ...
-    ],
-    "unknownRank": false
-}
-```
-
-#### Dim object
-
-`dim` object defines a dimension of the field. The dim object **must** contain the following members:
-
-* `size`: Size of the dimension. 
-* `name`: Name of the dimension.
-
-The example below shows how a `dim` object can be defined.
-
-```javascript
-{
-    "size": 10,
-    "name": "example"
+"shape": {
+    "dims": [-1, 64, 64],
 }
 ```
 
