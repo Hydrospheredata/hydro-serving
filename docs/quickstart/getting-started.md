@@ -170,7 +170,7 @@ Inside `serving.yaml` we also provide`requirements.txt` and`model.joblib` as pay
 ```yaml
 kind: Model
 name: logistic_regression
-runtime: hydrosphere/serving-runtime-python-3.7:2.3.2
+runtime: hydrosphere/serving-runtime-python-__runtime_version__:__runtime_tag__
 install-command: pip install -r requirements.txt
 payload:
   - src/
@@ -218,7 +218,7 @@ If you cannot find your newly uploaded model and it is listed on your models' pa
 
 Once you have opened your model in the UI, you can create an **application** for it. Basically, an application represents an endpoint to your model, so you can invoke it from anywhere. To learn more about advanced features, go to the [Applications](https://github.com/Hydrospheredata/hydro-serving/tree/54b7457851ad9de078cd092f083b8492dea6edca/docs/getting-started/concepts/applications.md) page.
 
-![Creating an Application from the uploaded model](../.gitbook/assets/application_creation%20%281%29%20%283%29%20%281%29%20%282%29.gif)
+![Creating an Application from the uploaded model](../.gitbook/assets/application_creation%20%281%29%20%283%29%20%281%29%20%281%29%20%282%29.gif)
 
 Open [http://localhost/applications](http://localhost/applications) and press the `Add New Application` button. In the opened window select the `logistic_regression` model, name your application `logistic_regression` and click the "Add Application" button.
 
@@ -292,7 +292,7 @@ Next, add the training data field to the model definition inside the `serving.ya
 ```yaml
 kind: Model
 name: logistic_regression
-runtime: hydrosphere/serving-runtime-python-3.7:2.3.2
+runtime: hydrosphere/serving-runtime-python-__runtime_version__:__runtime_tag__
 install-command: pip install -r requirements.txt
 training-data: training_data.csv
 payload:
@@ -334,7 +334,7 @@ For each model with uploaded training data, Hydrosphere creates an outlier detec
 
 Let's send some data to our new model version. To do so, we need to update our `logistic_regression` application. To update it, we can go to the **Application** tab and click the "Update" button:
 
-![Upgrading an application stage to a newer version](../.gitbook/assets/application_upgrade%20%281%29%20%284%29%20%283%29%20%283%29.gif)
+![Upgrading an application stage to a newer version](../.gitbook/assets/application_upgrade%20%281%29%20%284%29%20%283%29%20%281%29%20%283%29.gif)
 
 ### Send data to Application
 
@@ -361,7 +361,7 @@ for sample in X:
 
 You can monitor your data quality in the Monitoring Dashboard:
 
-![](../.gitbook/assets/image%20%283%29%20%284%29%20%287%29%20%287%29.png)
+![](../.gitbook/assets/image%20%283%29%20%284%29%20%287%29%20%287%29%20%287%29.png)
 
 The Monitoring dashboard plots all requests streaming through a model version as rectangles colored according to how "healthy" they are. On the horizontal axis, we group our data by batches and on the vertical axis, we group data by signature fields. In this plot, cells are determined by their batch and field. Cells are colored from green to red, depending on the average request health inside this batch.
 

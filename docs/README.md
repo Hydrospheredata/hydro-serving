@@ -8,7 +8,7 @@ description: Platform for deploying your Machine Learning to production
 
 Hydrosphere is a platform for **deploying, versioning, and monitoring** your machine learning models in production. It is language-agnostic and framework-agnostic, with support for all major programming languages and frameworks - Python, Java, Tensorflow, Pytorch, etc.
 
-![](.gitbook/assets/title_image%20%281%29%20%284%29%20%286%29.png)
+![](.gitbook/assets/title_image%20%281%29%20%284%29%20%286%29%20%286%29.png)
 
 ## What to do next?
 

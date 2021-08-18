@@ -30,7 +30,7 @@ services:
       MONGO_URL: mongodb
       MONGO_USER: root
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-auto-od:47b432abca11dcc496728609257f8a9bb89ef068
+    image: hydrosphere/hydro-auto-od:875019548872b3acb877009ed13f2b6c13e93d45
     networks:
       extnet: {}
       hydronet: {}
@@ -101,7 +101,7 @@ services:
       STAT_PORT: '5000'
       VISUALIZATION_HOST: visualization
       VISUALIZATION_HTTP_PORT: '5000'
-    image: hydrosphere/hydro-serving-ui:c92d4246949560f36bb78d58374469061da97b0e
+    image: hydrosphere/hydro-serving-ui:45b8d041f82baae40b3adb1f7617e02b074224e8
     networks:
       extnet: {}
       hydronet: {}
@@ -181,7 +181,7 @@ services:
       MONGO_USER: root
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-root-cause:6eeca863c06f5321cd7d0b2c9b86d1fd775a14cc
+    image: hydrosphere/hydro-root-cause:7a1260f018890ca80c3ca84bc5b643b52af489c9
     networks:
       extnet: {}
       hydronet: {}
@@ -207,7 +207,7 @@ services:
       MONGO_URL: mongodb
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-root-cause:6eeca863c06f5321cd7d0b2c9b86d1fd775a14cc
+    image: hydrosphere/hydro-root-cause:7a1260f018890ca80c3ca84bc5b643b52af489c9
     networks:
       hydronet: {}
   serving-sonar:
