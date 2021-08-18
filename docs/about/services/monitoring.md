@@ -1,9 +1,5 @@
 # Monitoring
 
-{% hint style="info" %}
-Hydrosphere Monitoring is not available as an open-source solution. If you are interested in this component you can contact us via [Gitter](https://gitter.im/Hydrospheredata/hydro-serving) or our [website](https://hydrosphere.io)
-{% endhint %}
-
 ## Automatic Outlier Detection
 
 ![](../../.gitbook/assets/auto-od-service-diagram%20%281%29%20%284%29%20%286%29%20%286%29%20%282%29.png)

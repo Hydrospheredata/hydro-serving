@@ -1,9 +1,5 @@
 # Interpretability
 
-{% hint style="info" %}
-Hydrosphere Interpretability is not available as an open-source solution. If you are interested in this component you can contact us via [Gitter](https://gitter.im/Hydrospheredata/hydro-serving) or our [website](https://hydrosphere.io)
-{% endhint %}
-
 Interpretability provides EDA \(Exploratory Data Analysis\) and explanations for predictions made by your models to make predictions understandable and actionable. It also produces explanations for monitoring metrics to let you know why a particular request was marked as an outlier. The component consists of 2 services:
 
 * Explanations
