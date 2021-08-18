@@ -38,6 +38,7 @@ Here are the resources used to train `sklearn.ensemble.GradientBoostingClassifie
 numpy~=1.18
 scipy==1.4.1
 scikit-learn~=0.23
+pandas==1.3.1
 ```
 {% endtab %}
 
@@ -48,7 +49,7 @@ scikit-learn~=0.23
 ```yaml
 kind: Model
 name: my-model
-runtime: hydrosphere/serving-runtime-python-3.7:2.3.2
+runtime: hydrosphere/serving-runtime-python-3.7:3.0.0-alpha.2
 install-command: pip install -r requirements.txt
 payload:
   - src/
@@ -60,10 +61,12 @@ contract:
     x:
       shape: [30]
       type: double
+      profile: numerical
   outputs:
     y:
       shape: scalar
       type: int64
+      profile: numerical
 ```
 {% endcode %}
 {% endtab %}
@@ -133,10 +136,10 @@ dep_config_tutorial
 Do not forget to run `python train.py` to generate `model.joblib`!
 {% endhint %}
 
-After we have made sure that all files are placed correctly, we can upload the model to the Hydrosphere platform by running `hs upload` from the command line.
+After we have made sure that all files are placed correctly, we can upload the model to the Hydrosphere platform by running `hs apply` from the command line.
 
 ```bash
-hs upload
+hs apply -f serving.yaml
 ```
 
 ## Create a Deployment Configuration
@@ -186,13 +189,13 @@ from hydrosdk import Cluster, DeploymentConfigurationBuilder
 
 cluster = Cluster("http://localhost")
 
-dep_config_builder = DeploymentConfigurationBuilder("my-dep-config", cluster)
-dep_config = dep_config_builder. \
-    with_replicas(replica_count=2). \
-    with_env({"FOO":"bar"}). \
-    with_hpa(max_replicas=4,
+dep_config_builder = DeploymentConfigurationBuilder("my-dep-config-sdk")
+dep_config = dep_config_builder \
+    .with_replicas(replica_count=2) \
+    .with_env({"FOO":"bar"}) \
+    .with_hpa(max_replicas=4,
              min_replicas=2,
-             target_cpu_utilization_percentage=70).build()
+             target_cpu_utilization_percentage=70).build(cluster)
 ```
 {% endtab %}
 {% endtabs %}
@@ -207,10 +210,9 @@ Create the application resource definition:
 ```yaml
 kind: Application
 name: my-app-with-config
-pipeline:
-  - - model: my-model:1
-      weight: 100
-      deploymentConfiguartion: my-config
+singular:
+  model: my-model:1
+  deployment-config: my-dep-config
 ```
 {% endcode %}
 
@@ -226,15 +228,15 @@ hs apply -f application.yaml
 from application import ApplicationBuilder, ExecutionStageBuilder
 from hydrosdk import ModelVersion, Cluster, DeploymentConfiguration
 
-cluster = Cluster('http:\\localhost')
+cluster = Cluster('http://localhost')
 my_model = ModelVersion.find(cluster, "my-model", 1)
-my_config = DeploymentConfiguration.find(cluster, "my-config")
+my_config = DeploymentConfiguration.find(cluster, "my-dep-config")
 
 stage = ExecutionStageBuilder().with_model_variant(model_version=my_model,
                                                    weight=100,
                                                    deployment_configuration=my_config).build()
 
-app = ApplicationBuilder(cluster, "my-app-with-config").with_stage(stage).build()
+app = ApplicationBuilder("my-app-with-config-sdk").with_stage(stage).build(cluster)
 ```
 {% endtab %}
 {% endtabs %}
