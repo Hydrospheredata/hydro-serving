@@ -1,9 +1,5 @@
 # Alerts
 
-{% hint style="info" %}
-Hydrosphere Alerts about failed data checks and other issues with models are not available in the open-source version. If you are interested in this component please contact us via [Gitter](https://gitter.im/Hydrospheredata/hydro-serving) or our [website](https://hydrosphere.io).
-{% endhint %}
-
 ## Overview
 
 \*\*\*\*[**Sonar**](../services/monitoring.md#sonar) sends data about any failed health checks of live production models and applications to **Prometheus AlertManager**. Once a user deploys a model to production, adds training data and starts sending production requests, these requests start getting checked by Sonar. If Sonar detects an anomaly \(for example, a data check failed, or a metric value exceeded the threshold\), AlertManager sends an appropriate alert.
