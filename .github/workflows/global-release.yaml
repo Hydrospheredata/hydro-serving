@@ -78,7 +78,7 @@ jobs:
         if: github.event.inputs.skip_grpc != 'yes'
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
-          workflow: release
+          workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/hydro-serving-protos
           inputs: '{"version":"${{ env.VERSION }}", "release":"global"}'
@@ -87,7 +87,7 @@ jobs:
         if: github.event.inputs.skip_sdk != 'yes'
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
-          workflow: release
+          workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/hydro-serving-sdk
           inputs: '{"version":"${{ env.VERSION }}", "release":"global", "grpc_version":"${{ env.VERSION }}"}'
@@ -96,7 +96,7 @@ jobs:
         if: github.event.inputs.skip_cli != 'yes'
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
-          workflow: release
+          workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/hydro-serving-cli
           inputs: '{"version":"${{ env.VERSION }}", "release":"global", "sdk_version":"${{ env.VERSION }}"}'
@@ -104,7 +104,7 @@ jobs:
       - name: Release hydro-serving-python
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
-          workflow: release
+          workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/hydro-serving-python
           inputs: '{"version":"${{ env.VERSION }}", "release":"global", "sdk_version":"${{ env.VERSION }}"}'
@@ -126,7 +126,7 @@ jobs:
       - name: Release latest version of ${{ matrix.service_repo_name }}
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
-          workflow: release
+          workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/${{ matrix.service_repo_name }}
           inputs: '{"version":"${{ env.VERSION }}", "release":"global", "grpc_version":"${{ env.VERSION }}", "sdk_version":"${{ env.VERSION }}"}'
