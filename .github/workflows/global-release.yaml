@@ -76,7 +76,7 @@ jobs:
     steps:
       - name: Release hydro-serving-protos
         if: github.event.inputs.skip_grpc != 'yes'
-        uses: benc-uk/workflow-dispatch@v1
+        uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
           workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
@@ -85,7 +85,7 @@ jobs:
           
       - name: Release hydro-serving-sdk
         if: github.event.inputs.skip_sdk != 'yes'
-        uses: benc-uk/workflow-dispatch@v1
+        uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
           workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
@@ -94,7 +94,7 @@ jobs:
 
       - name: Release hydro-serving-cli
         if: github.event.inputs.skip_cli != 'yes'
-        uses: benc-uk/workflow-dispatch@v1
+        uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
           workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
@@ -102,7 +102,7 @@ jobs:
           inputs: '{"version": "${{ env.VERSION }}", "release": "global", "sdk_version": "${{ env.VERSION }}"}'
 
       - name: Release hydro-serving-python
-        uses: benc-uk/workflow-dispatch@v1
+        uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
           workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
@@ -120,16 +120,34 @@ jobs:
       
     strategy:
       matrix:
-        service_repo_name: [hydro-serving-gateway, hydro-serving-manager, sonar, hydro-stat, hydro-visualization, hydro-root-cause, hydro-auto-od, hydro-serving-ui] # names of repositories to release
-        
+        service_grpc_repo_name: [hydro-serving-gateway, hydro-serving-manager, sonar]
+        service_sdk_repo_name: [hydro-stat, hydro-visualization, hydro-root-cause, hydro-auto-od] # names of repositories to release
+        service_repo_name: [hydro-serving-ui]
+
     steps:
-      - name: Release latest version of ${{ matrix.service_repo_name }}
-        uses: benc-uk/workflow-dispatch@v1
+      - name: Release latest version of ${{ matrix.service_grpc_repo_name }}
+        uses: aurelien-baudet/workflow-dispatch@v2.1.1
+        with:
+          workflow: Release
+          token: ${{ secrets.HYDRO_SERVING_TOKEN }}
+          repo: ${{ github.repository_owner }}/${{ matrix.service_grpc_repo_name }}
+          inputs: '{"version": "${{ env.VERSION }}", "release": "global", "grpc_version": "${{ env.VERSION }}"}'
+
+      - name: Release latest version of ${{ matrix.service_sdk_repo_name }}
+        uses: aurelien-baudet/workflow-dispatch@v2.1.1
+        with:
+          workflow: Release
+          token: ${{ secrets.HYDRO_SERVING_TOKEN }}
+          repo: ${{ github.repository_owner }}/${{ matrix.service_sdk_repo_name }}
+          inputs: '{"version": "${{ env.VERSION }}", "release": "global", "sdk_version": "${{ env.VERSION }}"}'
+
+      - name: Release latest version of ${{ matrix.service_sdk_repo_name }}
+        uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
           workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/${{ matrix.service_repo_name }}
-          inputs: '{"version": "${{ env.VERSION }}", "release": "global", "grpc_version": "${{ env.VERSION }}", "sdk_version": "${{ env.VERSION }}"}'
+          inputs: '{"version": "${{ env.VERSION }}", "release": "global"}'
 
   Release_serving:
     needs: [version, Release_services]
