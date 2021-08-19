@@ -14,7 +14,7 @@ By the end of this tutorial you will know how to:
 
 ## Prerequisites
 
-For this tutorial, you need to have **Hydrosphere Platform** deployed and **Hydrosphere CLI** \(`hs`\) along with **Python SDK** \(`hydrosdk`\) _\*\*_installed on your local machine. If you don't have them yet, please follow these guides first:
+For this tutorial, you need to have **Hydrosphere Platform** deployed and **Hydrosphere CLI** \(`hs`\) along with **Python SDK** \(`hydrosdk`\) installed on your local machine. If you don't have them yet, please follow these guides first:
 
 * [Platform Installation](../installation/)
 * [CLI](../installation/cli.md#installation)
@@ -22,12 +22,22 @@ For this tutorial, you need to have **Hydrosphere Platform** deployed and **Hydr
 
 For this tutorial, you can use a local cluster. To ensure that, run `hs cluster` in your terminal. This command will show the name and server address of a cluster you’re currently using. If it shows that you're not using a local cluster, you can configure one with the following commands:
 
-```text
+```
 hs cluster add --name local --server http://localhost
 hs cluster use local
 ```
 
 ## Data preparation
+Download the dataset to `data/` folder.
+Setup the environment using the following packages:
+
+```
+numpy==1.18.3
+pandas==1.3.1
+scikit-learn==0.24.2
+hydrosdk==3.0.0.a16
+tqdm
+```
 
 Model training always requires some amount of initial preparation, most of which is data preparation. The Adult Dataset consists of 14 descriptors, 5 of which are numerical and 9 categorical, including the class column.
 
@@ -38,7 +48,7 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder  
 
-df = pd.read_csv('adult.csv', sep = ',').replace({'?':np.nan}).dropna()
+df = pd.read_csv('data/adult.csv', sep = ',').replace({'?':np.nan}).dropna()
 
 categorical_encoder = LabelEncoder()
 categorical_features = ["workclass", "education", "marital-status", 
@@ -52,7 +62,7 @@ for column in categorical_features:
     df[column] = categorical_encoder.fit_transform(df[column])
 
 X, y = df.drop('income', axis = 1), df['income']
-
+df.to_csv("data/train.csv")
 del df
 ```
 
@@ -82,11 +92,13 @@ There are many classifiers that you can potentially use for this step. In this e
 The easiest way to upload a model to your cluster is by using [Hydrosphere SDK](https://hydrospheredata.github.io/hydro-serving-sdk/). SDK allows Python developers to configure and manage the model lifecycle on the Hydrosphere platform. Before uploading a model, you need to connect to your cluster:
 
 ```python
-from hydrosdk.contract import SignatureBuilder, ModelContract
+from hydrosdk.signature import SignatureBuilder
 from hydrosdk.cluster import Cluster
+from grpc import ssl_channel_credentials
+
 
 cluster = Cluster("http-cluster-address", 
-                 grpc_address="grpc-cluster-address", ssl=True,
+                 grpc_address="grpc-cluster-address",
                  grpc_credentials=ssl_channel_credentials())
 ```
 
@@ -130,9 +142,9 @@ It’s important to make sure that variables will be in the right order after we
 To start working with the model in a cluster, we need to install the necessary libraries used in `func_main.py`. Create a `requirements.txt` in the folder with your model and add the following libraries to it:
 
 ```text
-pandas==1.0.5
-scikit-learn==0.23.2
-joblib==0.16.0
+numpy==1.18.3
+pandas==1.3.1
+scikit-learn==0.24.2
 ```
 
 After this, your model directory with all necessary dependencies should look as follows:
@@ -180,23 +192,23 @@ Additionally, we need to specify the environment in which our model will run. Su
 One more parameter that you can define is a path to the training data of your model, required if you want to utilize additional services of Hydrosphere \(for example, [Automatic Outlier Detection](../../about/hydrosphere-features/automatic-outlier-detection.md)\).
 
 ```python
-from hydrosdk.modelversion import LocalModel
+from hydrosdk.modelversion import ModelVersionBuilder
 from hydrosdk.image import DockerImage
 
 path = "model/"
 payload = ['src/func_main.py', 'requirements.txt', 'model.joblib']
-contract = ModelContract(predict=signature)
 
-local_model = LocalModel(name="adult_model", 
-                         install_command = 'pip install -r requirements.txt',
-                         contract=contract, payload=payload,
-                         runtime=DockerImage("hydrosphere/serving-runtime-python-3.7", "2.3.2", None),
-                         path=path, training_data = 'data/train.csv')
+local_model = ModelVersionBuilder("adult_model", path) \
+    .with_install_command('pip install -r requirements.txt') \
+    .with_signature(signature) \
+    .with_runtime(DockerImage.from_string("hydrosphere/serving-runtime-python-3.7:3.0.0-alpha.2")) \
+    .with_training_data('../data/train.csv') \
+    .with_payload(payload)
 ```
 
 Now we are ready to upload our model to the cluster. This process consists of several steps:
 
-1. Once `LocalModel` is prepared we can apply the `upload` method to upload it.
+1. Once `ModelVersionBuilder` is prepared we can apply the `upload` method to upload it.
 2. Then we can lock any interaction with the model until it will be successfully uploaded.
 3. `ModelVersion` helps to check whether our model was successfully uploaded to the platform by looking for it.
 
@@ -215,19 +227,21 @@ adult_model = ModelVersion.find(cluster, name="adult_model",
 To deploy a model you should create an [Application](https://hydrosphere.gitbook.io/home/overview/concepts#applications) - a linear pipeline of `ModelVersions` with monitoring and other benefits. Applications provide [Predictor](https://hydrospheredata.github.io/hydro-serving-sdk/hydrosdk/hydrosdk.predictor.html) objects, which should be used for data inference purposes.
 
 ```python
-from hydrosdk.application import ExecutionStageBuilder, Application, ApplicationBuilder
+from hydrosdk.application import ExecutionStageBuilder, ApplicationBuilder
 
 stage = ExecutionStageBuilder().with_model_variant(adult_model).build()
-app = ApplicationBuilder(cluster, "adult-app").with_stage(stage).build()
-
+app = ApplicationBuilder("adult-app").with_stage(stage).build(cluster)
+app.lock_while_starting()
 predictor = app.predictor()
 ```
 
 Predictors provide a `predict` method which we can use to send our data to the model. We can try to make predictions for our test set that has preliminarily been converted to a list of dictionaries. You can check the results using the name you have used for an output of Signature and preserve it in any format you would prefer. Before making a prediction don't forget to make a small pause to finish all necessary loadings.
 
 ```python
+from tqdm import tqdm
+
 results = []
-for x in test_X.to_dict('records'):
+for x in tqdm(test_X.to_dict('records')):
     result = predictor.predict(x)
     results.append(result['y'])
 print(results[:10])
@@ -239,7 +253,7 @@ If you want to interact with your model via Hydrosphere UI, you can go to `http:
 
 You might notice that after some time there appears an additional model with the `metric` postscript at the end of the name. This is your automatically formed monitoring model for outlier detection. Learn more about the Automatic Outlier Detection feature [here](https://hydrosphere.gitbook.io/home/overview/features/automatic-outlier-detection).
 
-![](../../.gitbook/assets/screenshot-2020-09-14-at-17.52.30%20%281%29%20%284%29%20%286%29%20%281%29.png)
+![](../../.gitbook/assets/screenshot-2020-09-14-at-17.52.30%20%281%29%20%284%29%20%286%29%20%286%29%20%281%29.png)
 
 🎉 You have successfully finished this tutorial! 🎉
 
@@ -271,14 +285,14 @@ A [resource definition](../../about/concepts.md#resource-definitions) is a file 
 
 Model deployment with a resource definition repeats all the steps of that with SDK, but in one file. A considerable advantage of using a resource definition is that besides describing your model it allows creating an application by simply adding an object to the contract after the separation line at the bottom. Just name your application and provide the name and version of a model you want to tie to it.
 
-```python
+```yaml
 kind: Model
 name: "adult_model"
 payload:
   - "model/src/"
   - "model/requirements.txt"
   - "model/classification_model.joblib"
-runtime: "hydrosphere/serving-runtime-python-3.6:0.1.2-rc0"
+runtime: "hydrosphere/serving-runtime-python-3.7:3.0.0-alpha.2"
 install-command: "pip install -r requirements.txt"
 training-data: data/profile.csv
 contract:

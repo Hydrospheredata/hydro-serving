@@ -30,7 +30,7 @@ services:
       MONGO_URL: mongodb
       MONGO_USER: root
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-auto-od:47b432abca11dcc496728609257f8a9bb89ef068
+    image: hydrosphere/hydro-auto-od:788f957bb88fcf302cc3d7e1df659b9f97605d26
     networks:
       extnet: {}
       hydronet: {}
@@ -101,7 +101,7 @@ services:
       STAT_PORT: '5000'
       VISUALIZATION_HOST: visualization
       VISUALIZATION_HTTP_PORT: '5000'
-    image: hydrosphere/hydro-serving-ui:a26fdc5c36ce2d33a8401aa7ee34df64f89695d7
+    image: hydrosphere/hydro-serving-ui:fc85a161932b47293d808a4acaa0b41c0a2c76ed
     networks:
       extnet: {}
       hydronet: {}
@@ -181,7 +181,7 @@ services:
       MONGO_USER: root
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-root-cause:6eeca863c06f5321cd7d0b2c9b86d1fd775a14cc
+    image: hydrosphere/hydro-root-cause:7a1260f018890ca80c3ca84bc5b643b52af489c9
     networks:
       extnet: {}
       hydronet: {}
@@ -207,7 +207,7 @@ services:
       MONGO_URL: mongodb
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-root-cause:6eeca863c06f5321cd7d0b2c9b86d1fd775a14cc
+    image: hydrosphere/hydro-root-cause:7a1260f018890ca80c3ca84bc5b643b52af489c9
     networks:
       hydronet: {}
   serving-sonar:
@@ -261,7 +261,7 @@ services:
       MONGO_URL: mongodb
       MONGO_USER: root
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-stat:9b5997df110140a1c5fcc2ed3536e53d03964a6a
+    image: hydrosphere/hydro-stat:746fc0fac4635c835d8312053a3fed3f8bade9eb
     networks:
       extnet: {}
       hydronet: {}
@@ -289,7 +289,7 @@ services:
       MONGO_URL: mongodb
       MONGO_USER: root
       SECURE: "False"
-    image: hydrosphere/hydro-visualization:f7750f418d7c49f7224187972a0121c77efd5874
+    image: hydrosphere/hydro-visualization:f9ddb809e690e1bf183653787f5cbc80e3f56e93
     networks:
       extnet: {}
       hydronet: {}
@@ -318,7 +318,7 @@ services:
       MONGO_URL: mongodb
       MONGO_USER: root
       SECURE: "False"
-    image: hydrosphere/hydro-visualization:f7750f418d7c49f7224187972a0121c77efd5874
+    image: hydrosphere/hydro-visualization:f9ddb809e690e1bf183653787f5cbc80e3f56e93
     networks:
       hydronet: {}
 version: '3.5'

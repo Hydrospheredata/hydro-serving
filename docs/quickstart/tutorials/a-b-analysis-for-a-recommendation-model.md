@@ -27,8 +27,14 @@ By the end of this tutorial you will know how to:
 lightfm==1.15
 numpy~=1.18
 joblib~=0.15
+tqdm~=4.62.0
 ```
 {% endcode %}
+
+Install the dependencies in your local environment.
+```
+pip install -r requirements.txt
+```
 
 {% code title="train\_model.py" %}
 ```python
@@ -80,40 +86,36 @@ def get_top_rank_item(user_id):
 ```
 {% endcode %}
 
-{% code title="setup\_runtime.sh" %}
-```bash
-apt install --yes gcc
-pip install -r requirements.txt
-```
-{% endcode %}
-
 {% code title="serving.yaml" %}
 ```yaml
 kind: Model
 name: movie_rec
-runtime: hydrosphere/serving-runtime-python-3.7:2.3.2
-install-command: chmod a+x setup_runtime.sh && ./setup_runtime.sh
+runtime: hydrosphere/serving-runtime-python-3.7:3.0.0-alpha.2
+install-command: sudo apt install --yes gcc && pip install -r requirements.txt
 payload:
   - src/
   - requirements.txt
   - model.joblib
-  - setup_runtime.sh
 contract:
   name: get_top_rank_item
   inputs:
     user_id:
       shape: scalar
       type: int64
+      profile: numerical
   outputs:
     top_1:
       shape: scalar
       type: int64
+      profile: numerical
     top_2:
       shape: scalar
       type: int64
+      profile: numerical
     top_3:
       shape: scalar
       type: int64
+      profile: numerical
 ```
 {% endcode %}
 
@@ -161,7 +163,7 @@ stage = stage_builder.with_model_variant(model_version=model_a, weight=50). \
     with_model_variant(model_version=model_b, weight=50). \
     build()
 
-app = ApplicationBuilder(cluster, "movie-ab-app").with_stage(stage).build()
+app = ApplicationBuilder("movie-ab-app").with_stage(stage).build(cluster)
 ```
 
 ### Invoking `movie-ab-app`
@@ -184,7 +186,7 @@ for uid in tqdm(np.random.choice(user_ids, 2000, replace=True)):
     result = predictor.predict({"user_id": uid})
 ```
 
-## Analyze production data
+<!-- ## Analyze production data
 
 ### Read Data from parquet
 
@@ -266,7 +268,7 @@ plt.legend()
 plt.title("Latency Comparison between v1 and v2")
 ```
 
-![](../../.gitbook/assets/image%20%281%29%20%281%29%20%284%29%20%286%29%20%283%29.png)
+![](../../.gitbook/assets/image%20%281%29%20%281%29%20%284%29%20%286%29%20%286%29%20%283%29.png)
 
 #### Mean Top-3 Hit Rate
 
@@ -300,4 +302,4 @@ In our case the `mean_hit_rate` variable is `{'v1': 0.137, 'v2': 0.141}` . Which
 You have successfully completed the tutorial! 🚀
 
 Now you know how to read and analyze automatically stored data.
-
+ -->

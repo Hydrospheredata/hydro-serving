@@ -1,8 +1,8 @@
 # Configuring Helm charts
 
-This article explains the configuration file of the Hydrosphere Helm charts. 
+This article explains the configuration file of the Hydrosphere Helm charts.
 
-### Prerequisistes
+## Prerequisistes
 
 To install Hydrosphere on the Kubernetes cluster you should have the following prerequisites fulfilled.
 
@@ -11,9 +11,9 @@ To install Hydrosphere on the Kubernetes cluster you should have the following p
 * PV support on the underlying infrastructure \(if persistence is required\)
 * Docker registry with pull/push access \(if the built-in one is not used\)
 
-### Configuring Helm charts
+## Configuring Helm charts
 
-Fetch the newest charts to your local directory. 
+Fetch the newest charts to your local directory.
 
 1. Add the Hydrosphere charts repository:
 
@@ -28,13 +28,13 @@ Fetch the newest charts to your local directory.
    cd serving
    ```
 
-Helm charts are bundled with two distinct configuration files. The default one is `values.yaml`, the more comprehensive one is `values-production.yaml`. 
+Helm charts are bundled with two distinct configuration files. The default one is `values.yaml`, the more comprehensive one is `values-production.yaml`.
 
-By default \(in the `values.yaml`\), Helm charts are configured to set up a basic Hydrosphere installation aimed for a **testing** workload. To configure the installation for the **production** workload you have to set up additional resources, such as separate database instances, a separate docker registry, and override default values in the configuration file. 
+By default \(in the `values.yaml`\), Helm charts are configured to set up a basic Hydrosphere installation aimed for a **testing** workload. To configure the installation for the **production** workload you have to set up additional resources, such as separate database instances, a separate docker registry, and override default values in the configuration file.
 
-The contents of `values.yaml` and `values-production.yaml` files are overlapping, so we will continue with the latter. 
+The contents of `values.yaml` and `values-production.yaml` files are overlapping, so we will continue with the latter.
 
-### Structure of `values-production.yaml`
+## Structure of `values-production.yaml`
 
 ```yaml
 global:
@@ -132,7 +132,7 @@ sonar:
   persistence:
     bucket: "hydrosphere-feature-lake"
     region: "us-east-1"
-    
+
   resources:
     limits:
       memory: 4Gi
@@ -173,47 +173,47 @@ registry:
   password: "" # Registry password for accessing hydrosphere images
 ```
 
-Let's go over each section one by one. 
+Let's go over each section one by one.
 
-#### UI
+### UI
 
-`.global.ui.ingress.enabled` is responsible for creating an ingress resource for the HTTP endpoint of the UI service. 
+`.global.ui.ingress.enabled` is responsible for creating an ingress resource for the HTTP endpoint of the UI service.
 
-`.global.ui.ingress.host` specifies the DNS name of the ingress resource. 
+`.global.ui.ingress.host` specifies the DNS name of the ingress resource.
 
-`.global.ui.ingress.path` specifies the context path of the ingress resource. 
+`.global.ui.ingress.path` specifies the context path of the ingress resource.
 
 `.global.ui.ingress.enableGrpc` is responsible for creating an ingress resource for the GRPC endpoint of the UI service. Note, specifying `.global.ui.ingress.enableGrpc: true` only works when the path is set to "/", so it's recommended to leave `.global.ui.ingress.path` untouched.
 
 `.global.ui.ingress.issuer` is the name of the configured certificate issuer for ingress resources. Make sure it's set to either an Issuer or a ClusterIssuer. We do not bundle certificate manager to the Hydrosphere charts, so you have to set up this yourself. Consider consulting [cert-manager.io](https://cert-manager.io/docs/) documentation for more help.
 
-`.ui.resources` section specifies resource requests and limits for the service.  
+`.ui.resources` section specifies resource requests and limits for the service.
 
-#### Docker Registry
+### Docker Registry
 
 {% hint style="info" %}
-It is recommended to use a preconfigured docker registry for the **production** workload. 
+It is recommended to use a preconfigured docker registry for the **production** workload.
 
-If you do not specify `.global.registry.url,`Hydrosphere will create an internal instance of the docker registry. This approach is only recommended for **testing** purposes. 
+If you do not specify `.global.registry.url,`Hydrosphere will create an internal instance of the docker registry. This approach is only recommended for **testing** purposes.
 {% endhint %}
 
-`.global.registry.url` specifies the endpoint of your preconfigured docker registry. 
+`.global.registry.url` specifies the endpoint of your preconfigured docker registry.
 
-`.global.registry.username` and `.global.registry.password` specify the credentials for your registry. 
+`.global.registry.username` and `.global.registry.password` specify the credentials for your registry.
 
-`.global.registry.ingress.enabled` is responsible for creating an ingress resource for the registry service. This also issues certificates for the docker registry, which are required for external registries. 
+`.global.registry.ingress.enabled` is responsible for creating an ingress resource for the registry service. This also issues certificates for the docker registry, which are required for external registries.
 
-If `.global.registry.ingress.enabled` is set to "true", `.global.registry.insecure` should be set to "false". This will tell Hydrosphere to work with the registry in **secure** mode. 
+If `.global.registry.ingress.enabled` is set to "true", `.global.registry.insecure` should be set to "false". This will tell Hydrosphere to work with the registry in **secure** mode.
 
-If `.global.registry.ingress.enabled` is set to "false"_,_ `.global.registry.insecure` __should be set to "true"_._ This will tell Hydrosphere to work with the registry in **insecure** mode. This will also create a DaemonSet which will proxy all requests to the registry from each node. 
+If `.global.registry.ingress.enabled` is set to "false"_,_ `.global.registry.insecure` _\_should be set to "true"_.\_ This will tell Hydrosphere to work with the registry in **insecure** mode. This will also create a DaemonSet which will proxy all requests to the registry from each node.
 
-`.global.registry.persistence` section configures persistency options for the service. This is only valid when `.global.persistence.mode` is set to "s3". 
+`.global.registry.persistence` section configures persistency options for the service. This is only valid when `.global.persistence.mode` is set to "s3".
 
-`.global.registry.persistence.bucket` specifies the bucket name, where to store images. 
+`.global.registry.persistence.bucket` specifies the bucket name, where to store images.
 
 `.global.registry.persistence.region` specifies region of the bucket. If not specified, it will be fallback to `.global.persistence.region`.
 
-#### Persistence
+### Persistence
 
 {% hint style="info" %}
 It is recommended to use a preconfigured persistent storage for the **production** workload.
@@ -221,109 +221,109 @@ It is recommended to use a preconfigured persistent storage for the **production
 If you do not specify `.global.persistence.url`, Hydrosphere will create an internal instance of the minio storage. This approach is only recommended for **testing** purposes.
 {% endhint %}
 
- `.global.persistence.url` specifies the endpoint for your preconfigured storage. 
+`.global.persistence.url` specifies the endpoint for your preconfigured storage.
 
 `.global.persistence.mode` specifies, which persistence mode is used. Only valid options are "s3" or "minio".
 
-`.global.persistence.accessKey` and `.global.persistence.secretKey` specify credentials to the storage. 
+`.global.persistence.accessKey` and `.global.persistence.secretKey` specify credentials to the storage.
 
 `.global.persistence.region` specifies default regional constraint for the buckets.
 
 Internal instance can be created when `.global.persistence.mode` is set to "minio".
 
-#### MongoDB
+### MongoDB
 
 {% hint style="info" %}
-It is recommended to use a preconfigured Mongo database instance for the **production** workload. `.global.mongodb.url` specifies the endpoint for your preconfigured Mongo instance. 
+It is recommended to use a preconfigured Mongo database instance for the **production** workload. `.global.mongodb.url` specifies the endpoint for your preconfigured Mongo instance.
 
-If you omit specifying `.global.mongodb.url`, Hydrosphere will create an internal instance of the MongoDB database. This approach is only recommended for **testing** purposes. 
+If you omit specifying `.global.mongodb.url`, Hydrosphere will create an internal instance of the MongoDB database. This approach is only recommended for **testing** purposes.
 {% endhint %}
 
-#### Postgresql 
+### Postgresql
 
 {% hint style="info" %}
-It is recommended to use a preconfigured PostgreSQL database instance for the **production** workload. `.global.postgresql.url` specifies the endpoint for your preconfigured PostgreSQL instance. 
+It is recommended to use a preconfigured PostgreSQL database instance for the **production** workload. `.global.postgresql.url` specifies the endpoint for your preconfigured PostgreSQL instance.
 
-If you omit specifying `.global.postgresql.url`, Hydrosphere will create an internal instance of the PostgreSQL database. This approach is only recommended for **testing** purposes. 
+If you omit specifying `.global.postgresql.url`, Hydrosphere will create an internal instance of the PostgreSQL database. This approach is only recommended for **testing** purposes.
 {% endhint %}
 
-#### AlertManager
+### AlertManager
 
-`.global.alertmanager.url` specifies the endpoint for your preconfigured Prometheus AlertManager instance. If you omit specifying it, Hydrosphere will create an internal instance of AlertManager. 
+`.global.alertmanager.url` specifies the endpoint for your preconfigured Prometheus AlertManager instance. If you omit specifying it, Hydrosphere will create an internal instance of AlertManager.
 
 `.global.alertmanager.config` specifies configuration file for the AlertManager. Consider consulting [AlertManager](https://prometheus.io/docs/alerting/latest/configuration/) documentation for more details.
 
-#### Manager
+### Manager
 
-You can learn more about the Manager service in the [Serving](../../about/services/serving.md#manager) section. 
+You can learn more about the Manager service in the [Serving](../../about/services/serving.md#manager) section.
 
-`.manager.javaOpts` specifies Java options for the service. 
+`.manager.javaOpts` specifies Java options for the service.
 
-`.manager.serviceAccount` section specifies ServiceAccount details for Manager service to use, when managing Kubernetes resources. 
+`.manager.serviceAccount` section specifies ServiceAccount details for Manager service to use, when managing Kubernetes resources.
 
 `.manager.resources` section specifies resource requests and limits for the service.
 
-#### Gateway
+### Gateway
 
 You can learn more about the Gateway service in the [Serving](../../about/services/serving.md#gateway) section.
 
-`.gateway.javaOpts` specifies Java options for the service. 
+`.gateway.javaOpts` specifies Java options for the service.
 
 `.gateway.resources` section specifies resource requests and limits for the service.
 
-#### Sonar
+### Sonar
 
-You can learn more about the Sonar service in the [Monitoring](../../about/services/monitoring.md#sonar) section. 
+You can learn more about the Sonar service in the [Monitoring](../../about/services/monitoring.md#sonar) section.
 
-`.sonar.javaOpts` specifies Java options for the service. 
+`.sonar.javaOpts` specifies Java options for the service.
 
 `.sonar.persistence` section configures persistency options for the service.
 
-`.sonar.persistence.bucket` specifies the bucket name, where to store training data and other artifacts. 
+`.sonar.persistence.bucket` specifies the bucket name, where to store training data and other artifacts.
 
 `.sonar.persistence.region` specifies region of the bucket. If not specified, it will be fallback to `.global.persistence.region`.
 
 `.sonar.resources` section specifies resource requests and limits for the service.
 
-#### AutoOD
+### AutoOD
 
-You can learn more about the AutoOd service in the [Monitoring](../../about/services/monitoring.md#automatic-outlier-detection) section. 
+You can learn more about the AutoOd service in the [Monitoring](../../about/services/monitoring.md#automatic-outlier-detection) section.
 
 `.auto-od.resources` section specifies resource requests and limits for the service.
 
-#### Stat
+### Stat
 
-You can learn more about the Stat service in the [Monitoring](../../about/services/monitoring.md#drift-report) section. 
+You can learn more about the Stat service in the [Monitoring](../../about/services/monitoring.md#drift-report) section.
 
 `.stat.resources` section specifies resource requests and limits for the service.
 
-#### Visualization
+### Visualization
 
 You can learn more about the Visualization service in the [Interpretability](../../about/services/interpretability.md#data-projections) section.
 
 `.visualization.persistence` section configures persistency options for the service.
 
-`.visualization.persistence.bucket` specifies the bucket name, where to store data artifacts. 
+`.visualization.persistence.bucket` specifies the bucket name, where to store data artifacts.
 
 `.visualization.persistence.region` specifies region of the bucket. If not specified, it will be fallback to `.global.persistence.region`.
 
 `.visualization.resources` section specifies resource requests and limits for the service.
 
-#### RootCause
+### RootCause
 
-You can learn more about the RootCause service in the [Interpretability](../../about/services/interpretability.md#prediction-explanations) section. 
+You can learn more about the RootCause service in the [Interpretability](../../about/services/interpretability.md#prediction-explanations) section.
 
 `.rootcause.resources` section specifies resource requests and limits for the service.
 
 **Tolerations**
 
-You can specify global tolerations for Hydrosphere services to be deployed on particular nodes using `.global.tolerations`. Consider consulting [Kubernetes](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/) documentation for more details. 
+You can specify global tolerations for Hydrosphere services to be deployed on particular nodes using `.global.tolerations`. Consider consulting [Kubernetes](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/) documentation for more details.
 
-### Installing charts
+## Installing charts
 
 Once the charts were configured, install the release.
 
 ```bash
-helm2 install serving --namespace hydrosphere -f values-production.yaml .
+helm install serving --namespace hydrosphere -f values-production.yaml .
 ```
 
