@@ -26,6 +26,11 @@ on:
         description: skip cli? (yes|no)
         default: 'no'
         required: false
+
+      skip_runtime: 
+        description: skip runtime? (yes|no)
+        default: 'no'
+        required: false
         
       skip_services:
         description: skip services? (yes|no)
@@ -102,6 +107,7 @@ jobs:
           inputs: '{"version": "${{ env.VERSION }}", "release": "global", "sdk_version": "${{ env.VERSION }}"}'
 
       - name: Release hydro-serving-python
+        if: github.event.inputs.skip_runtime != 'yes'
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
           workflow: Release
@@ -109,7 +115,7 @@ jobs:
           repo: ${{ github.repository_owner }}/hydro-serving-python
           inputs: '{"version": "${{ env.VERSION }}", "release": "global", "sdk_version": "${{ env.VERSION }}"}'
 
-  Release_services:
+  Release_grpc_services:
     # release all service repos in parallel
     if: github.event.inputs.skip_services != 'yes'
     runs-on: ubuntu-latest
@@ -121,8 +127,6 @@ jobs:
     strategy:
       matrix:
         service_grpc_repo_name: [hydro-serving-gateway, hydro-serving-manager, sonar]
-        service_sdk_repo_name: [hydro-stat, hydro-visualization, hydro-root-cause, hydro-auto-od] # names of repositories to release
-        service_repo_name: [hydro-serving-ui]
 
     steps:
       - name: Release latest version of ${{ matrix.service_grpc_repo_name }}
@@ -133,6 +137,19 @@ jobs:
           repo: ${{ github.repository_owner }}/${{ matrix.service_grpc_repo_name }}
           inputs: '{"version": "${{ env.VERSION }}", "release": "global", "grpc_version": "${{ env.VERSION }}"}'
 
+  Release_sdk_services:
+    # release all service repos in parallel
+    if: github.event.inputs.skip_services != 'yes'
+    runs-on: ubuntu-latest
+    needs: [version, deps]
+    
+    env:
+      VERSION: ${{ needs.version.outputs.version }}
+    strategy:
+      matrix:
+        service_sdk_repo_name: [hydro-stat, hydro-visualization, hydro-root-cause, hydro-auto-od] # names of repositories to release
+
+    steps:
       - name: Release latest version of ${{ matrix.service_sdk_repo_name }}
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
@@ -141,7 +158,20 @@ jobs:
           repo: ${{ github.repository_owner }}/${{ matrix.service_sdk_repo_name }}
           inputs: '{"version": "${{ env.VERSION }}", "release": "global", "sdk_version": "${{ env.VERSION }}"}'
 
-      - name: Release latest version of ${{ matrix.service_sdk_repo_name }}
+  Release_services:
+    # release all service repos in parallel
+    if: github.event.inputs.skip_services != 'yes'
+    runs-on: ubuntu-latest
+    needs: [version, deps]
+    
+    env:
+      VERSION: ${{ needs.version.outputs.version }}
+    strategy:
+      matrix:
+        service_repo_name: [hydro-serving-ui]
+
+    steps:
+      - name: Release latest version of ${{ matrix.service_repo_name }}
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
           workflow: Release
