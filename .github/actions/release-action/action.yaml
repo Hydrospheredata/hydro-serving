@@ -49,7 +49,7 @@ runs:
 
           hydro-stat)
             HELM_CHART_NAME=stat
-            SERVICE_NAME=stat
+            SERVICE_NAME=hydro-stat
             ;;
 
           hydro-serving-ui)
