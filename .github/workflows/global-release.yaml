@@ -180,7 +180,7 @@ jobs:
           inputs: '{"version": "${{ env.VERSION }}", "release": "global"}'
 
   Release_serving:
-    needs: [version, Release_services]
+    needs: [version, Release_services, Release_sdk_services, Release_grpc_services]
     runs-on: ubuntu-latest
     
     env:
