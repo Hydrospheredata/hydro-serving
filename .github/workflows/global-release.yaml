@@ -81,7 +81,7 @@ jobs:
           workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/hydro-serving-protos
-          inputs: '{"version":"${{ env.VERSION }}", "release":"global"}'
+          inputs: '{"version": "${{ env.VERSION }}", "release": "global"}'
           
       - name: Release hydro-serving-sdk
         if: github.event.inputs.skip_sdk != 'yes'
@@ -90,7 +90,7 @@ jobs:
           workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/hydro-serving-sdk
-          inputs: '{"version":"${{ env.VERSION }}", "release":"global", "grpc_version":"${{ env.VERSION }}"}'
+          inputs: '{"version": "${{ env.VERSION }}", "release": "global", "grpc_version": "${{ env.VERSION }}"}'
 
       - name: Release hydro-serving-cli
         if: github.event.inputs.skip_cli != 'yes'
@@ -99,7 +99,7 @@ jobs:
           workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/hydro-serving-cli
-          inputs: '{"version":"${{ env.VERSION }}", "release":"global", "sdk_version":"${{ env.VERSION }}"}'
+          inputs: '{"version": "${{ env.VERSION }}", "release": "global", "sdk_version": "${{ env.VERSION }}"}'
 
       - name: Release hydro-serving-python
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
@@ -107,7 +107,7 @@ jobs:
           workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/hydro-serving-python
-          inputs: '{"version":"${{ env.VERSION }}", "release":"global", "sdk_version":"${{ env.VERSION }}"}'
+          inputs: '{"version": "${{ env.VERSION }}", "release": "global", "sdk_version": "${{ env.VERSION }}"}'
 
   Release_services:
     # release all service repos in parallel
@@ -129,7 +129,7 @@ jobs:
           workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repo: ${{ github.repository_owner }}/${{ matrix.service_repo_name }}
-          inputs: '{"version":"${{ env.VERSION }}", "release":"global", "grpc_version":"${{ env.VERSION }}", "sdk_version":"${{ env.VERSION }}"}'
+          inputs: '{"version": "${{ env.VERSION }}", "release": "global", "grpc_version": "${{ env.VERSION }}", "sdk_version": "${{ env.VERSION }}"}'
 
   Release_serving:
     needs: [version, Release_services]
