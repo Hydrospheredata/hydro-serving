@@ -231,7 +231,7 @@ jobs:
           tag: ${{ env.VERSION }}
         
       - env:
-          IMAGE: stat
+          IMAGE: hydro-stat
         name: Bump ${{ env.IMAGE }} version in chart
         uses: ./.github/actions/release-action
         with:
