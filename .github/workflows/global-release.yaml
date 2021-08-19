@@ -260,11 +260,8 @@ jobs:
           service_image_name: ${{ env.IMAGE }}
           tag: ${{ env.VERSION }}
           
-      - name: Setup helm
-        run: |
-          curl -LO https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
-          chmod 700 get_helm.sh
-          ./get_helm.sh
+      - uses: azure/setup-helm@v1
+        id: install
 
       # Bump chart version
       - name: Bump serving app version
