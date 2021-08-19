@@ -330,7 +330,9 @@ jobs:
 
   slackNotification:
     name: Slack Notification
-    needs: Release_services
+    env:
+      VERSION: ${{ needs.version.outputs.version }}
+    needs: Release_serving
     runs-on: ubuntu-latest
     steps:
     - name: Slack Notification success
@@ -343,7 +345,7 @@ jobs:
         SLACK_ICON: https://avatars.githubusercontent.com/u/17550625?s=200&v=4
         SLACK_COLOR: ${{ job.status }}
         SLACK_TITLE: Build status - success
-        SLACK_MESSAGE: "Releasing Hydrosphere ${{ env.VERSION }} :rocket:"
+        SLACK_MESSAGE: "Congratulations! Global release Hydrosphere ${{ env.VERSION }} has happened :rocket:"
         MSG_MINIMAL: true
 
     - name: Slack Notification failure
