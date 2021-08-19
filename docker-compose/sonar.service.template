@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   serving-sonar:
-    image: hydrosphere/sonar:3751ca0a015c406178628dcf9e821cbb2d86f09b
+    image: hydrosphere/sonar:3.0.0
     container_name: serving-sonar
     depends_on:
       - postgres
