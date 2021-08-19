@@ -125,7 +125,7 @@ We train and upload our model with 5 components as `movie_rec:v1`
 
 ```bash
 python train_model.py 5
-hs upload
+hs apply -f serving.yaml
 ```
 
 ### Upload Model B
@@ -134,7 +134,7 @@ Next, we train and upload a new version of our original model with 20 components
 
 ```bash
 python train_model.py 20
-hs upload
+hs apply -f serving.yaml
 ```
 
 We can check that we have multiple versions of our model by running:

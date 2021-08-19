@@ -207,7 +207,7 @@ Although we have `train.py` inside the model directory, it will not be uploaded 
 Now we are ready to upload our model to Hydrosphere. To do so, inside the `logistic_regression` model directory run:
 
 ```bash
-hs upload
+hs apply -f serving.yaml
 ```
 
 To see your uploaded model, open [http://localhost/models](http://localhost/models).
@@ -323,7 +323,7 @@ contract:
 Now we are ready to upload our model. Run the following command to create a new version of the `logistic_regresion` model:
 
 ```bash
-hs upload
+hs apply -f serving.yaml
 ```
 
 Open the [http://localhost/models](http://localhost/models) page to see that there are now two versions of the`logistic_regression` model.
