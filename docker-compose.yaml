@@ -45,7 +45,7 @@ services:
       API_GATEWAY_HTTP_PORT: '8080'
       GRPC_PORT: '9091'
       HTTP_PORT: '9090'
-    image: hydrosphere/serving-gateway:f06ea5f5b72ebb2213eeeae4afe2a4879df877e4
+    image: hydrosphere/serving-gateway:3.0.0
     networks:
       hydronet: {}
     ports:
@@ -58,7 +58,7 @@ services:
     depends_on:
       postgres:
         condition: service_started
-    image: hydrosphere/serving-manager:b284268bf4301e9822ad81c898ad733f7dd438d0
+    image: hydrosphere/serving-manager:3.0.0
     networks:
       extnet: {}
       hydronet: {}
@@ -101,7 +101,7 @@ services:
       STAT_PORT: '5000'
       VISUALIZATION_HOST: visualization
       VISUALIZATION_HTTP_PORT: '5000'
-    image: hydrosphere/hydro-serving-ui:fc85a161932b47293d808a4acaa0b41c0a2c76ed
+    image: hydrosphere/hydro-serving-ui:3.0.0
     networks:
       extnet: {}
       hydronet: {}
@@ -181,7 +181,7 @@ services:
       MONGO_USER: root
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-root-cause:7a1260f018890ca80c3ca84bc5b643b52af489c9
+    image: hydrosphere/hydro-root-cause:3.0.0
     networks:
       extnet: {}
       hydronet: {}
@@ -207,7 +207,7 @@ services:
       MONGO_URL: mongodb
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-root-cause:7a1260f018890ca80c3ca84bc5b643b52af489c9
+    image: hydrosphere/hydro-root-cause:3.0.0
     networks:
       hydronet: {}
   serving-sonar:
@@ -236,7 +236,7 @@ services:
       STORAGE_PATH_STYLE_ACCESS: "true"
       STORAGE_S3_IMPL: org.apache.hadoop.fs.s3a.S3AFileSystem
       STORAGE_SECRET_KEY: minio123
-    image: hydrosphere/sonar:3751ca0a015c406178628dcf9e821cbb2d86f09b
+    image: hydrosphere/sonar:3.0.0
     networks:
       extnet: {}
       hydronet: {}
@@ -261,7 +261,7 @@ services:
       MONGO_URL: mongodb
       MONGO_USER: root
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-stat:746fc0fac4635c835d8312053a3fed3f8bade9eb
+    image: hydrosphere/hydro-stat:3.0.0
     networks:
       extnet: {}
       hydronet: {}
@@ -289,7 +289,7 @@ services:
       MONGO_URL: mongodb
       MONGO_USER: root
       SECURE: "False"
-    image: hydrosphere/hydro-visualization:f9ddb809e690e1bf183653787f5cbc80e3f56e93
+    image: hydrosphere/hydro-visualization:3.0.0
     networks:
       extnet: {}
       hydronet: {}
@@ -318,7 +318,7 @@ services:
       MONGO_URL: mongodb
       MONGO_USER: root
       SECURE: "False"
-    image: hydrosphere/hydro-visualization:f9ddb809e690e1bf183653787f5cbc80e3f56e93
+    image: hydrosphere/hydro-visualization:3.0.0
     networks:
       hydronet: {}
 version: '3.5'
