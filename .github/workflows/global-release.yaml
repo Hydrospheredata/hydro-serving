@@ -76,7 +76,7 @@ jobs:
     steps:
       - name: Release hydro-serving-protos
         if: github.event.inputs.skip_grpc != 'yes'
-        uses: aurelien-baudet/workflow-dispatch@v2.1.1
+        uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
@@ -85,7 +85,7 @@ jobs:
           
       - name: Release hydro-serving-sdk
         if: github.event.inputs.skip_sdk != 'yes'
-        uses: aurelien-baudet/workflow-dispatch@v2.1.1
+        uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
@@ -94,7 +94,7 @@ jobs:
 
       - name: Release hydro-serving-cli
         if: github.event.inputs.skip_cli != 'yes'
-        uses: aurelien-baudet/workflow-dispatch@v2.1.1
+        uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
@@ -102,7 +102,7 @@ jobs:
           inputs: '{"version": "${{ env.VERSION }}", "release": "global", "sdk_version": "${{ env.VERSION }}"}'
 
       - name: Release hydro-serving-python
-        uses: aurelien-baudet/workflow-dispatch@v2.1.1
+        uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
@@ -124,7 +124,7 @@ jobs:
         
     steps:
       - name: Release latest version of ${{ matrix.service_repo_name }}
-        uses: aurelien-baudet/workflow-dispatch@v2.1.1
+        uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: Release
           token: ${{ secrets.HYDRO_SERVING_TOKEN }}
