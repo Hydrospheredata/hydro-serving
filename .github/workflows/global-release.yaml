@@ -285,7 +285,7 @@ jobs:
 
   slackNotification:
     name: Slack Notification
-    needs: Update
+    needs: Release_services
     runs-on: ubuntu-latest
     steps:
     - name: Slack Notification success
