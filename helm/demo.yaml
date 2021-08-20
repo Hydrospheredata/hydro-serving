@@ -1,9 +1,9 @@
 ui:
   image:
-    full: hydrosphere/hydro-serving-ui:f88eff0fe5c505b93768222b27e62456482dc7db
+    full: hydrosphere/hydro-serving-ui:3.0.0
 manager:
   image:
-    full: hydrosphere/serving-manager:b284268bf4301e9822ad81c898ad733f7dd438d0
+    full: hydrosphere/serving-manager:3.0.0
   depconfig: |-
     default-deployment-configuration = """
       {
@@ -25,22 +25,22 @@ manager:
     """
 gateway:
   image:
-    full: hydrosphere/serving-gateway:f06ea5f5b72ebb2213eeeae4afe2a4879df877e4
+    full: hydrosphere/serving-gateway:3.0.0
 sonar:
   image:
-    full: hydrosphere/sonar:3751ca0a015c406178628dcf9e821cbb2d86f09b
+    full: hydrosphere/sonar:3.0.0
 visualization:
   image:
-    full: hydrosphere/hydro-visualization:f7750f418d7c49f7224187972a0121c77efd5874
+    full: hydrosphere/hydro-visualization:3.0.0
 auto-od:
   image:
-    full: hydrosphere/hydro-auto-od:47b432abca11dcc496728609257f8a9bb89ef068
+    full: hydrosphere/hydro-auto-od:3.0.0
 stat:
   image:
-    full: hydrosphere/hydro-stat:9b5997df110140a1c5fcc2ed3536e53d03964a6a
+    full: hydrosphere/hydro-stat:3.0.0
 rootcause:
   image:
-    full: hydrosphere/hydro-root-cause:6eeca863c06f5321cd7d0b2c9b86d1fd775a14cc
+    full: hydrosphere/hydro-root-cause:3.0.0
 global:
   ui:
     ingress:
