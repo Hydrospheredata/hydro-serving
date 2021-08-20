@@ -4,7 +4,7 @@
 
 Hydrosphere is an open-source MLOps platform for **deploying, managing, and monitoring ML models in production with Kubernetes.**
 
-![](../.gitbook/assets/ml_workflow_with_hydrosphere%20%281%29%20%284%29%20%286%29%20%283%29.png)
+![](https://github.com/Hydrospheredata/hydro-serving/tree/cd9bb820a8c330e5a16dd600dbf985fe946c9982/docs/.gitbook/assets/ml_workflow_with_hydrosphere%20%281%29%20%284%29%20%286%29%20%283%29.png)
 
 Hydrosphere supports all major machine learning frameworks, including Tensorflow, Keras, PyTorch, XGBoost, scikit-learn, fastai, etc. The platform is designed to effectively measure performance and health metrics of your production models, making it possible to spot early signs of performance drops and data drifts, get insights into why they happen.
 
@@ -35,7 +35,7 @@ Hydrosphere is **not an ML model training framework**. Before using Hydrosphere,
 
 We suggest you use one of the orchestrators, such as Kubeflow or Airflow, to deliver your model to the Hydrosphere.
 
-![](../.gitbook/assets/hydrosphere_and_kubeflow%20%281%29%20%285%29%20%287%29%20%282%29.png)
+![](https://github.com/Hydrospheredata/hydro-serving/tree/cd9bb820a8c330e5a16dd600dbf985fe946c9982/docs/.gitbook/assets/hydrosphere_and_kubeflow%20%281%29%20%285%29%20%287%29%20%282%29.png)
 
 ## Hydrosphere Components
 

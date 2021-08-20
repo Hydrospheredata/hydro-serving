@@ -19,7 +19,7 @@ By the end of this tutorial you will know how to:
 
 ## Prerequisites
 
-For this tutorial, you need to have **Hydrosphere Platform** deployed and **Hydrosphere CLI** \(`hs`\) along with **Python SDK** \(`hydrosdk`\) _\*\*_installed on your local machine. If you don't have them yet, please follow these guides first:
+For this tutorial, you need to have **Hydrosphere Platform** deployed and **Hydrosphere CLI** \(`hs`\) along with **Python SDK** \(`hydrosdk`\) \_\*\*\_installed on your local machine. If you don't have them yet, please follow these guides first:
 
 * [Platform Installation](../installation/)
 * [CLI](../installation/cli.md#installation)

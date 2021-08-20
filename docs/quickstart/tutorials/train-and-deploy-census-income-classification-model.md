@@ -22,15 +22,16 @@ For this tutorial, you need to have **Hydrosphere Platform** deployed and **Hydr
 
 For this tutorial, you can use a local cluster. To ensure that, run `hs cluster` in your terminal. This command shows the name and server address of a cluster you’re currently using. If it shows that you're not using a local cluster, you can configure one with the following commands:
 
-```
+```text
 hs cluster add --name local --server http://localhost
 hs cluster use local
 ```
 
 ## Data preparation
+
 Let's start with downloading the dataset and moving it to some folder, e.g. it could be `data/` folder. Next you need to setup your working environment using the following packages:
 
-```
+```text
 numpy==1.18.3
 pandas==1.3.1
 scikit-learn==0.24.2
@@ -38,7 +39,7 @@ hydrosdk==3.0.0.a16
 tqdm
 ```
 
-Model training always requires some amount of initial preparation, most of which is data preparation. Basically, the Adult Dataset consists of 14 descriptors, 5 of which are numerical and 9 categorical, including a class column. Categorical features are usually presented as strings. This is not an appropriate data type for sending it into a model, so we need to transform it first. Note that we apply a specific type (`int64`) for OrdinalEncoder to obtain integers for categorical descriptors after transformation. Transforming the class column usually is not necessary. Also we can remove rows that contain question marks in some samples. Once the preprocessing is complete, you can delete the DataFrame \(`df`\):
+Model training always requires some amount of initial preparation, most of which is data preparation. Basically, the Adult Dataset consists of 14 descriptors, 5 of which are numerical and 9 categorical, including a class column. Categorical features are usually presented as strings. This is not an appropriate data type for sending it into a model, so we need to transform it first. Note that we apply a specific type \(`int64`\) for OrdinalEncoder to obtain integers for categorical descriptors after transformation. Transforming the class column usually is not necessary. Also we can remove rows that contain question marks in some samples. Once the preprocessing is complete, you can delete the DataFrame \(`df`\):
 
 ```python
 import pandas as pd
@@ -109,6 +110,7 @@ Next, we need to create an inference script to be uploaded to the Hydrosphere pl
 ```
 
 The code in the `func_main.py` should be as follows:
+
 ```python
 import pandas as pd
 from joblib import load
@@ -151,9 +153,9 @@ After this, your model directory with all necessary dependencies should look as 
         └── func_main.py
 ```
 
-Now we are ready to upload our model to the cluster. 
+Now we are ready to upload our model to the cluster.
 
-Hydrosphere Serving has a strictly typed inference engine, so before uploading our model we need to specify it’s signature with `SignatureBuilder`. A [signature](../overview/concepts.md#models-signature) contains information about which method inside the `func_main.py` should be called, as well as shapes and types of its inputs and outputs. You can use `X.dtypes` to check what types of data you have for each column. You can use `int64` fields for all our independent variables after transformation. Our class variable (`income`) initially consists of two classes with text names instead of numbers, which means that it should be defined as the string (`str`) in the signature. In addition, you can specify the type of profiling for each variable using `ProfilingType` so Hydrosphere could know what this variable is about and analyze it accordingly. For this purpose, we can create a dictionary, which could contain keys as our variables and values as our profiling types. Otherwise, you can describe them one by one as a parameter in the input. Finally, we can complete our signature with assigning our output variable by `with_output` method and giving it a name (e.g. `y`), type, shape and profiling type. Afterwards we can build our signature by the `build()` method. 
+Hydrosphere Serving has a strictly typed inference engine, so before uploading our model we need to specify it’s signature with `SignatureBuilder`. A [signature](https://github.com/Hydrospheredata/hydro-serving/tree/cd9bb820a8c330e5a16dd600dbf985fe946c9982/docs/quickstart/overview/concepts.md#models-signature) contains information about which method inside the `func_main.py` should be called, as well as shapes and types of its inputs and outputs. You can use `X.dtypes` to check what types of data you have for each column. You can use `int64` fields for all our independent variables after transformation. Our class variable \(`income`\) initially consists of two classes with text names instead of numbers, which means that it should be defined as the string \(`str`\) in the signature. In addition, you can specify the type of profiling for each variable using `ProfilingType` so Hydrosphere could know what this variable is about and analyze it accordingly. For this purpose, we can create a dictionary, which could contain keys as our variables and values as our profiling types. Otherwise, you can describe them one by one as a parameter in the input. Finally, we can complete our signature with assigning our output variable by `with_output` method and giving it a name \(e.g. `y`\), type, shape and profiling type. Afterwards we can build our signature by the `build()` method.
 
 ```python
 from hydrosdk.signature import SignatureBuilder, ProfilingType as PT
@@ -172,7 +174,7 @@ signature = signature.with_output('y', 'str', 'scalar', PT.TEXT).build()
 
 Next, we need to specify which files will be uploaded to the cluster. We use `path` variable to define the root model folder and `payload` to point out paths to all files that we need to upload. At this point, we can combine all our efforts by using `ModelVersionBuilder`object, which describes our models and other objects associated with models before the uploading step. It has different methods that are responsible for assigning and uploading different components. For example, we can:
 
-1. Specify [runtime](../overview/concepts.md#runtimes) environment for our model by `with_runtime` method
+1. Specify [runtime](https://github.com/Hydrospheredata/hydro-serving/tree/cd9bb820a8c330e5a16dd600dbf985fe946c9982/docs/quickstart/overview/concepts.md#runtimes) environment for our model by `with_runtime` method
 2. Assign priorly built signature by `with_signature()`
 3. Upload model's elements by `with_payload()`
 4. Lastly, upload traning data that was previously applied for your model's traininig process by `with_trainig_data()`. Please note that the training data is **required** if you want to utilize various services as **Data Drift**, **Automatic Outlier Detection** and **Data Visualization**.
@@ -191,6 +193,7 @@ local_model = ModelVersionBuilder("adult_model", path) \
     .with_training_data('train_adult.csv') \
     .with_payload(payload)
 ```
+
 Now we are ready to upload our model to the cluster. This process consists of several steps:
 
 1. Once `ModelVersionBuilder`is prepared we can apply the `upload` method to upload it.

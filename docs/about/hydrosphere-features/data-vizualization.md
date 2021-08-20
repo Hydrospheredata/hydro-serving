@@ -19,7 +19,7 @@ To start working with Data Projection you need to create a model that has an out
 2. Send data through your model
 3. Check Data Projection service inside the Model Details menu
 
-Inside Data Projection service you can see your requests features projected on a 2D space:  
+Inside Data Projection service you can see your requests features projected on a 2D space:
 
 ![](../../.gitbook/assets/data_projector_ui_tips.png)
 
