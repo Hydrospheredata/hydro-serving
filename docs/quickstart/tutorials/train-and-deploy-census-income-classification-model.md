@@ -35,7 +35,7 @@ Let's start with downloading the dataset and moving it to some folder, e.g. it c
 numpy==1.18.3
 pandas==1.3.1
 scikit-learn==0.24.2
-hydrosdk==3.0.0.a16
+hydrosdk==3.0.0
 tqdm
 ```
 
@@ -189,7 +189,7 @@ payload = ['src/func_main.py', 'requirements.txt', 'model.joblib']
 local_model = ModelVersionBuilder("adult_model", path) \
     .with_install_command('pip install -r requirements.txt') \
     .with_signature(signature) \
-    .with_runtime(DockerImage.from_string("hydrosphere/serving-runtime-python-3.7:3.0.0-alpha.2")) \
+    .with_runtime(DockerImage.from_string("hydrosphere/serving-runtime-python-3.7:3.0.0)) \
     .with_training_data('train_adult.csv') \
     .with_payload(payload)
 ```
@@ -276,7 +276,7 @@ payload:
   - "model/src/"
   - "model/requirements.txt"
   - "model/classification_model.joblib"
-runtime: "hydrosphere/serving-runtime-python-3.7:3.0.0-alpha.2"
+runtime: "hydrosphere/serving-runtime-python-3.7:3.0.0"
 install-command: "pip install -r requirements.txt"
 training-data: data/profile.csv
 contract:

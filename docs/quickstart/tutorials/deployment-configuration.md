@@ -49,7 +49,7 @@ pandas==1.3.1
 ```yaml
 kind: Model
 name: my-model
-runtime: hydrosphere/serving-runtime-python-3.7:3.0.0-alpha.2
+runtime: hydrosphere/serving-runtime-python-3.7:3.0.0
 install-command: pip install -r requirements.txt
 payload:
   - src/

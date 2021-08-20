@@ -10,7 +10,7 @@ PyPI: [https://pypi.org/project/hs/](https://pypi.org/project/hs/)
 Use pip to install `hs`:
 
 ```bash
-pip install hs==__released_version__
+pip install hs==3.0.0
 ```
 
 Check the installation:

@@ -12,7 +12,7 @@ You can learn more about it in its documentation [here](https://hydrospheredata.
 You can use pip to install `hydrosdk`
 
 ```bash
-pip install hydrosdk=__released_version__
+pip install hydrosdk=3.0.0
 ```
 
 ## Usage

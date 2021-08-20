@@ -132,7 +132,7 @@ monitoring_model_local = ModelVersionBuilder("adult_monitoring_model", path_mon)
     .with_install_command("pip install -r requirements.txt") \
     .with_payload(payload_mon) \
     .with_signature(monitor_signature) \
-    .with_runtime(DockerImage.from_string("hydrosphere/serving-runtime-python-3.7:3.0.0-alpha.2"))
+    .with_runtime(DockerImage.from_string("hydrosphere/serving-runtime-python-3.7:3.0.0"))
 
 monitoring_upload = monitoring_model_local.build(cluster)
 monitoring_upload.lock_till_released()
@@ -172,7 +172,7 @@ payload:
   - "src/"
   - "requirements.txt"
   - "monitoring_model.joblib"
-runtime: "hydrosphere/serving-runtime-python-3.7:3.0.0-alpha.2"
+runtime: "hydrosphere/serving-runtime-python-3.7:3.0.0"
 install-command: "pip install -r requirements.txt"
 contract:
   name: "predict"

@@ -91,7 +91,7 @@ def get_top_rank_item(user_id):
 ```yaml
 kind: Model
 name: movie_rec
-runtime: hydrosphere/serving-runtime-python-3.7:3.0.0-alpha.2
+runtime: hydrosphere/serving-runtime-python-3.7:3.0.0
 install-command: sudo apt install --yes gcc && pip install -r requirements.txt
 payload:
   - src/

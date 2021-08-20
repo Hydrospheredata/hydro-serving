@@ -170,7 +170,7 @@ Inside `serving.yaml` we also provide`requirements.txt` and`model.joblib` as pay
 ```yaml
 kind: Model
 name: logistic_regression
-runtime: hydrosphere/serving-runtime-python-3.7:2.3.2
+runtime: hydrosphere/serving-runtime-python-3.7:3.0.0
 install-command: pip install -r requirements.txt
 payload:
   - src/
@@ -292,7 +292,7 @@ Next, add the training data field to the model definition inside the `serving.ya
 ```yaml
 kind: Model
 name: logistic_regression
-runtime: hydrosphere/serving-runtime-python-3.7:2.3.2
+runtime: hydrosphere/serving-runtime-python-3.7:3.0.0
 install-command: pip install -r requirements.txt
 training-data: training_data.csv
 payload:

@@ -24,7 +24,7 @@ You can tell `pip` to use this `pip.conf`file in the `install-command` field ins
 ```yaml
 kind: Model
 name: linear_regression
-runtime: "hydrosphere/serving-runtime-python-3.7:$released_version$"
+runtime: "hydrosphere/serving-runtime-python-3.7:3.0.0"
 install-command: "PIP_CONFIG_FILE=pip.conf pip install -r requirements.txt"
 payload:
   - "src/"
