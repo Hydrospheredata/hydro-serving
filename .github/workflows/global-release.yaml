@@ -36,6 +36,11 @@ on:
         description: skip services? (yes|no)
         default: 'no'
         required: false
+
+      skip_release:
+        description: skip release? (yes|no)
+        default: 'no'
+        required: false
 env:
   DOCKER_REGISTRY_URL: hydrosphere
   
@@ -182,6 +187,7 @@ jobs:
 
   Release_serving:
     needs: [version, Release_services, Release_sdk_services, Release_grpc_services]
+    if: github.event.inputs.skip_release != 'yes'
     runs-on: ubuntu-latest
     
     env:
@@ -193,7 +199,7 @@ jobs:
         
       - env:
           IMAGE: serving-gateway
-        name: Bump ${{ env.IMAGE }} version in chart
+        name: Bump $IMAGE version in chart
         uses: ./.github/actions/release-action
         with:
           release: global
@@ -203,7 +209,7 @@ jobs:
           
       - env:
           IMAGE: serving-manager
-        name: Bump ${{ env.IMAGE }} version in chart
+        name: Bump $IMAGE version in chart
         uses: ./.github/actions/release-action
         with:
           release: global
@@ -213,7 +219,7 @@ jobs:
           
       - env:
           IMAGE: hydro-root-cause
-        name: Bump ${{ env.IMAGE }} version in chart
+        name: Bump $IMAGE version in chart
         uses: ./.github/actions/release-action
         with:
           release: global
@@ -223,7 +229,7 @@ jobs:
       
       - env:
           IMAGE: sonar
-        name: Bump ${{ env.IMAGE }} version in chart
+        name: Bump $IMAGE version in chart
         uses: ./.github/actions/release-action
         with:
           release: global
@@ -233,7 +239,7 @@ jobs:
         
       - env:
           IMAGE: hydro-stat
-        name: Bump ${{ env.IMAGE }} version in chart
+        name: Bump $IMAGE version in chart
         uses: ./.github/actions/release-action
         with:
           release: global
@@ -243,7 +249,7 @@ jobs:
       
       - env:
           IMAGE: hydro-serving-ui
-        name: Bump ${{ env.IMAGE }} version in chart
+        name: Bump $IMAGE version in chart
         uses: ./.github/actions/release-action
         with:
           release: global
@@ -253,7 +259,7 @@ jobs:
           
       - env:
           IMAGE: hydro-visualization
-        name: Bump ${{ env.IMAGE }} version in chart
+        name: Bump $IMAGE version in chart
         uses: ./.github/actions/release-action
         with:
           release: global
