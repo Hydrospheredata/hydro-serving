@@ -1,7 +1,7 @@
 apiVersion: v2
 appVersion: 3.0.0
 version: 3.0.0
-description: A Hydrosphere Helm chart
+description: Hydrosphere Serving is a cluster for deploying and versioning your machine learning models in production
 type: application
 name: serving
 icon: https://media-exp1.licdn.com/dms/image/C4D0BAQFdJwT_5sqKCQ/company-logo_200_200/0?e=1602115200&v=beta&t=AY1uflcZAvWxrdqe67dlIcRNwDViEuCeFOVt6grpFQE

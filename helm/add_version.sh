@@ -5,7 +5,7 @@ DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 cat >> index.yaml << EOM
   - apiVersion: v1
     created: ${DATE}
-    description: A Helm chart for Kubernetes
+    description: Hydrosphere Serving is a cluster for deploying and versioning your machine learning models in production
     digest: ${2}
     name: serving
     urls:
