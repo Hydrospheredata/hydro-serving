@@ -11,5 +11,6 @@ cat >> index.yaml << EOM
     urls:
     - https://github.com/Hydrospheredata/hydro-serving/releases/download/${1}/serving-${1}.tgz
     version: ${1}
+    appVersion: ${1}
 EOM
 

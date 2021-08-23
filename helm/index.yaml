@@ -225,15 +225,7 @@ entries:
     urls:
     - https://github.com/Hydrospheredata/hydro-serving/releases/download/2.4.3/helm.serving-2.4.3.tgz
     version: 2.4.3
-  - apiVersion: v1
-    created: 2021-08-20T04:24:54Z
-    description: A Helm chart for Kubernetes
-    digest: f962050012f2fcb82f3479439f4d9f80b84a835e2836975ea1c84797010ef20a
-    name: serving
-    urls:
-    - https://github.com/Hydrospheredata/hydro-serving/releases/download/3.0.0/helm.serving-3.0.0.tgz
-    version: 3.0.0
-  - apiVersion: v1
+  - apiVersion: v2
     created: 2021-08-20T11:59:06Z
     description: Hydrosphere Serving is a cluster for deploying and versioning your machine learning models in production
     digest: ce8a3cc2a848fdfddf22d0709a2900e9314562108c65aa0e417a8f1f28fb4c90
@@ -241,3 +233,4 @@ entries:
     urls:
     - https://github.com/Hydrospheredata/hydro-serving/releases/download/3.0.0/serving-3.0.0.tgz
     version: 3.0.0
+    appVerison: 3.0.0
