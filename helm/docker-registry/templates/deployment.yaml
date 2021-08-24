@@ -75,7 +75,7 @@ spec:
                 secretKeyRef:
                   name: "{{ .Release.Name }}-docker-registry-secret"
                   key: "password"
-            {{- if eq .Values.global.persistence.mode "s3" }}
+            {{- if or (eq .Values.global.persistence.mode "s3") (eq .Values.global.persistence.mode "minio") }} 
             - name: REGISTRY_HEALTH_STORAGEDRIVER_ENABLED
               value: "false"            
             - name: REGISTRY_STORAGE
