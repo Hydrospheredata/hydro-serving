@@ -41,7 +41,7 @@ spec:
               subPath: entrypoint.sh
             - name: "auth-{{ .Chart.Name }}"
               mountPath: /auth
-        {{- if eq .Values.global.persistence.mode "s3" }}
+        {{- if or (eq .Values.global.persistence.mode "s3") (eq .Values.global.persistence.mode "minio") }} 
         - name: "storage-init-{{ .Chart.Name }}"
           image: "minio/mc:RELEASE.2020-11-17T00-39-14Z"
           imagePullPolicy: IfNotPresent
@@ -92,6 +92,10 @@ spec:
                   key: "awsSecretAccessKey"
             - name: REGISTRY_STORAGE_S3_REGION
               value: {{ include "docker-registry.region" . }}
+            {{- if (eq .Values.global.persistence.mode "minio") }}
+            - name: REGISTRY_STORAGE_S3_REGION_ENDPOINT
+              value: "http://{{ include "minio.fullname" . }}:9000"
+            {{- end }}
             - name: REGISTRY_STORAGE_S3_BUCKET
               value: {{ .Values.global.registry.persistence.bucket }}
             - name: REGISTRY_STORAGE_S3_ROOTDIRECTORY
