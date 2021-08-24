@@ -71,7 +71,7 @@ global:
     region: "us-west-1" # region for s3
 
   tolerations:
-  - key: "node-type"
-    operator: "Equal"
-    value: "hydrosphere.io"
-    effect: "NoSchedule"
+    - key: "node-type"
+      operator: "Equal"
+      value: "dev"
+      effect: "NoSchedule"

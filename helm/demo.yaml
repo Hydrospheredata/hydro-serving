@@ -97,7 +97,7 @@ global:
         - to: "alert@hydrosphere.io" 
 
   tolerations:
-  - key: "node-type"
-    operator: "Equal"
-    value: "hydrosphere.io"
-    effect: "NoSchedule"
+    - key: "node-type"
+      operator: "Equal"
+      value: "demo"
+      effect: "NoSchedule"
