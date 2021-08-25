@@ -59,7 +59,7 @@ global:
     region: "us-west-1" # region for s3
 
   mongodb:
-    url: "ocdb-2021-06-05-06-02-04.cluster-c6yzvjrvtrdu.eu-central-1.docdb.amazonaws.com" # Specify MongoDB connection string if you want to use an external MongoDB instance. 
+    url: "docdb-2021-06-05-06-02-04.cluster-c6yzvjrvtrdu.eu-central-1.docdb.amazonaws.com" # Specify MongoDB connection string if you want to use an external MongoDB instance. 
             # If empty, an in-cluster deployment will be provisioned. 
     rootPassword: "hydr0s3rving" # Mongodb root password. Used for an internal installation.
     username: "root" # Mongodb username. Used for an internal installation.
