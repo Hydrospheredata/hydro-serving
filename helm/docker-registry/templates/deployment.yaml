@@ -77,7 +77,9 @@ spec:
                   key: "password"
             {{- if or (eq .Values.global.persistence.mode "s3") (eq .Values.global.persistence.mode "minio") }} 
             - name: REGISTRY_HEALTH_STORAGEDRIVER_ENABLED
-              value: "false"            
+              value: "false"
+            - name: REGISTRY_STORAGE_REDIRECT_DISABLE
+              value: 'true'
             - name: REGISTRY_STORAGE
               value: s3
             - name: REGISTRY_STORAGE_S3_ACCESSKEY
@@ -93,7 +95,7 @@ spec:
             - name: REGISTRY_STORAGE_S3_REGION
               value: {{ include "docker-registry.region" . }}
             {{- if (eq .Values.global.persistence.mode "minio") }}
-            - name: REGISTRY_STORAGE_S3_REGION_ENDPOINT
+            - name: REGISTRY_STORAGE_S3_REGIONENDPOINT
               value: "http://{{ include "minio.fullname" . }}:9000"
             {{- end }}
             - name: REGISTRY_STORAGE_S3_BUCKET
