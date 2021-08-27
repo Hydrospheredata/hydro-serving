@@ -34,6 +34,8 @@ sonar:
 visualization:
   image:
     full: hydrosphere/hydro-visualization:3.0.0
+  persistence:
+    bucket: "demo-hydrosphere-visualization-artifacts"
 auto-od:
   image:
     full: hydrosphere/hydro-auto-od:3.0.0
@@ -54,6 +56,8 @@ global:
     ingress:
       enabled: true
       host: "hydro-registry-demo.dev.hydrosphere.io"
+    persistence:
+      bucket: "demo-hydrosphere-model-registry"
 
   persistence:
     url: ""
