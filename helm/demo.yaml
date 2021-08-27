@@ -29,6 +29,8 @@ gateway:
 sonar:
   image:
     full: hydrosphere/sonar:3.0.0
+  persistence:
+    bucket: "demo-hydrosphere-feature-lake"
 visualization:
   image:
     full: hydrosphere/hydro-visualization:3.0.0
