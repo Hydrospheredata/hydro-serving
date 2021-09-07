@@ -101,7 +101,7 @@ services:
       STAT_PORT: '5000'
       VISUALIZATION_HOST: visualization
       VISUALIZATION_HTTP_PORT: '5000'
-    image: hydrosphere/hydro-serving-ui:c003f58df1834a977437900d2587b21f3473ac02
+    image: hydrosphere/hydro-serving-ui:5676ea707a0e81fc41817adbbf43c879c8cb215c
     networks:
       extnet: {}
       hydronet: {}
