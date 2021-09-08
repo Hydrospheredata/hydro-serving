@@ -74,49 +74,48 @@ jobs:
           docker ps -a
           docker-compose down 
 
-  # macos:
-  #   needs: [ "compose_assemble" ]
-  #   name: docker-compose on macos
-  #   timeout-minutes: 25
-  #   runs-on: ${{ matrix.os }}
-  #   strategy:
-  #     matrix:
-  #       os: [ macos-11.0 ]
-  #   steps: 
-  #     - name: Download docker-compose artifact
-  #       uses: actions/download-artifact@v2
-  #       with:
-  #         name: compose
+  macos:
+    needs: [ "compose_assemble" ]
+    name: docker-compose on macos
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ macos-10.15, macos-11.0 ]
+    steps: 
+      - name: Download docker-compose artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: compose
 
-  #     - uses: docker-practice/actions-setup-docker@master
+      - uses: docker-practice/actions-setup-docker@master
 
-  #     - name: Verify installation
-  #       shell: bash
-  #       run: |
-  #         which docker
-  #         which docker-compose
+      - name: Verify installation
+        shell: bash
+        run: |
+          which docker
+          which docker-compose
 
-  #     - name: run docker-compose
-  #       shell: bash
-  #       run: |
-  #         docker-compose up -d
-  #         sleep 30s
+      - name: run docker-compose
+        shell: bash
+        run: |
+          docker-compose up -d
+          sleep 30s
       
-  #     # +1 container due to buildx buildkit container
-  #     - name: check services
-  #       shell: bash
-  #       run: |
-  #         if [ $(docker ps -q $1 | wc -l) != $((${{ env.containers_number }} + 1)) ]; then exit 1; fi
+      # +1 container due to buildx buildkit container
+      - name: check services
+        shell: bash
+        run: |
+          if [ $(docker ps -q $1 | wc -l) != $((${{ env.containers_number }} + 1)) ]; then exit 1; fi
 
-  #     - name: Stop containers
-  #       if: ${{ always() }}
-  #       shell: bash
-  #       run: |
-  #         docker ps -a
-  #         docker-compose down
+      - name: Stop containers
+        if: ${{ always() }}
+        shell: bash
+        run: |
+          docker ps -a
+          docker-compose down
 
   automerge:
-    needs: [ "ubuntu" ]
+    needs: [ "ubuntu", "macos" ]
     runs-on: ubuntu-latest
     steps:
       - name: automerge
