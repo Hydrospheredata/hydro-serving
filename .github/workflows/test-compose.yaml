@@ -128,4 +128,4 @@ jobs:
           MERGE_RETRIES: "5"
           MERGE_METHOD: "squash"
           PULL_REQUEST: ${{ github.event.inputs.pr_to_merge }}
-          LOG: DEBUG
+          LOG: TRACE
