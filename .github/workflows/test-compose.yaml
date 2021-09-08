@@ -77,7 +77,7 @@ jobs:
   macos:
     needs: [ "compose_assemble" ]
     name: docker-compose on macos
-    timeout-minutes: 20
+    timeout-minutes: 25
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
