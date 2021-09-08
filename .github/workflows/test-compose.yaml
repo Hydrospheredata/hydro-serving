@@ -14,8 +14,12 @@ on:
         description: version tag of the image
         required: true
       
-      pr_to_merge:
-        description: pull request to merge if test compose succeeds
+      repository:
+        description: GitHub repository that triggered this workflow
+        required: true
+
+      pr_number:
+        description: pull request number
         required: true
 
 env:
@@ -66,6 +70,22 @@ jobs:
         shell: bash
         run: |
           if [ $(docker ps -q $1 | wc -l) != ${{ env.containers_number }} ]; then exit 1; fi
+      
+      - name: check logs of exited containers
+        if: ${{ failure() }}
+        shell: bash
+        run: |
+          docker ps -f "status=exited" -q | xargs -L 1 docker logs
+      
+      - name: close PR
+        if: ${{ failure() }}
+        uses: peter-evans/close-pull@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.event.inputs.repository }}
+          pull-request-number: ${{ github.event.inputs.pr_number }}
+          comment: Closing pull request due to exited containers
+          delete-branch: true
 
       - name: Stop containers
         if: ${{ always() }}
@@ -107,6 +127,22 @@ jobs:
         run: |
           if [ $(docker ps -q $1 | wc -l) != $((${{ env.containers_number }} + 1)) ]; then exit 1; fi
 
+      - name: check logs of exited containers
+        if: ${{ failure() }}
+        shell: bash
+        run: |
+          docker ps -f "status=exited" -q | xargs -L 1 docker logs
+      
+      - name: close PR
+        if: ${{ failure() }}
+        uses: peter-evans/close-pull@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.event.inputs.repository }}
+          pull-request-number: ${{ github.event.inputs.pr_number }}
+          comment: Closing pull request due to exited containers
+          delete-branch: true
+
       - name: Stop containers
         if: ${{ always() }}
         shell: bash
@@ -115,7 +151,7 @@ jobs:
           docker-compose down
 
   automerge:
-    needs: [ "ubuntu" ]
+    needs: [ "ubuntu", "macos" ]
     runs-on: ubuntu-latest
     steps:
       - name: automerge
@@ -127,4 +163,5 @@ jobs:
           MERGE_COMMIT_MESSAGE: "pull-request-title"
           MERGE_RETRIES: "5"
           MERGE_METHOD: "squash"
-          PULL_REQUEST: ${{ github.event.inputs.pr_to_merge }}
+          MERGE_DELETE_BRANCH: "true"
+          PULL_REQUEST: ${{ github.event.inputs.repository }}/${{ github.event.inputs.pr_number }}
