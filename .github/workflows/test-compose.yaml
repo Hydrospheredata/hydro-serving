@@ -13,6 +13,10 @@ on:
       tag:
         description: version tag of the image
         required: true
+      
+      pr_to_merge:
+        description: pull request to merge if test compose succeeds
+        required: true
 
 env:
   containers_number: 14
@@ -30,7 +34,7 @@ jobs:
           ref: master
 
       - name: Bump image tag
-        uses: ./.github/actions/update-merge-compose
+        uses: ./.github/actions/update-merge-compose-action
         with:
           service_image_name: ${{ github.event.inputs.service_image_name }}
           registry_url: ${{ github.event.inputs.registry_url }}
@@ -110,3 +114,14 @@ jobs:
         run: |
           docker ps -a
           docker-compose down
+
+  automerge:
+    needs: [ "ubuntu", "macos"]
+    runs-on: ubuntu-latest
+    steps:
+      - name: automerge
+        uses: "pascalgn/automerge-action@v0.14.3"
+        env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          MERGE_METHOD: "squash"
+          PULL_REQUEST: ${{ github.event.inputs.pr_to_merge }}
