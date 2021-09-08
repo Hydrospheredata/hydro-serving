@@ -1,0 +1,112 @@
+name: Test compose
+on:
+  workflow_dispatch:
+    inputs:
+      service_image_name:
+        description: the service image to be updated
+        required: true
+        
+      registry_url:
+        description: the name of registry server
+        required: true
+        
+      tag:
+        description: version tag of the image
+        required: true
+
+env:
+  containers_number: 14
+
+jobs:
+  compose_assemble:
+    runs-on: ubuntu-latest
+    
+    name: Bump image tag
+    
+    steps:      
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+
+      - name: Bump image tag
+        uses: ./.github/actions/update-merge-compose
+        with:
+          service_image_name: ${{ github.event.inputs.service_image_name }}
+          registry_url: ${{ github.event.inputs.registry_url }}
+          tag: ${{ github.event.inputs.tag }}
+
+      - name: Upload docker-compose artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: compose
+          path: docker-compose.yaml
+
+  ubuntu:
+    needs: [ "compose_assemble" ]
+    name: docker-compose on ubuntu
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download docker-compose artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: compose
+      
+      - name: run docker-compose
+        shell: bash
+        run: |
+          docker-compose up -d
+          sleep 30s
+      
+      - name: check services
+        shell: bash
+        run: |
+          if [ $(docker ps -q $1 | wc -l) != ${{ env.containers_number }} ]; then exit 1; fi
+
+      - name: Stop containers
+        if: ${{ always() }}
+        shell: bash
+        run: |
+          docker ps -a
+          docker-compose down 
+
+  macos:
+    needs: [ "compose_assemble" ]
+    name: docker-compose on macos
+    timeout-minutes: 20
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-10.15, macos-11.0]
+    steps: 
+      - name: Download docker-compose artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: compose
+
+      - uses: docker-practice/actions-setup-docker@master
+
+      - name: Verify installation
+        shell: bash
+        run: |
+          which docker
+          which docker-compose
+
+      - name: run docker-compose
+        shell: bash
+        run: |
+          docker-compose up -d
+          sleep 30s
+      
+      # +1 container due to buildx buildkit container
+      - name: check services
+        shell: bash
+        run: |
+          if [ $(docker ps -q $1 | wc -l) != $((${{ env.containers_number }} + 1)) ]; then exit 1; fi
+
+      - name: Stop containers
+        if: ${{ always() }}
+        shell: bash
+        run: |
+          docker ps -a
+          docker-compose down
