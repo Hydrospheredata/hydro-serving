@@ -466,6 +466,7 @@ Accept: application/json
 
 Monitoring service has GRPC API that you can use to send data for analysis. Here is how it works:
 
+0. Need to use compiled GRPC services. We provide [_libraries_](../../resources/reference/libraries) with precompiled services. If your language is not there, you need to compile GRPC yourself.
 1. Create an [_ExecutionMetadata_](ExecutionMetadata) message that contains information of the model that was used to process a given request.
 2. Create a [_PredictRequest_](PredictRequest) message that contains the original request passed to the model for prediction.
 3. If model responded successfully then create a [_PredictResponse_](PredictResponse) message that contains inferenced output of the model. If there was an error, then instead of a _PredictResponse_ message  you should prepare an error message.
