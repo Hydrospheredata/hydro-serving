@@ -467,15 +467,15 @@ Accept: application/json
 Monitoring service has GRPC API that you can use to send data for analysis. Here is how it works:
 
 0. Need to use compiled GRPC services. We provide [_libraries_](../../resources/reference/libraries) with precompiled services. If your language is not there, you need to compile GRPC yourself.
-1. Create an [_ExecutionMetadata_](ExecutionMetadata) message that contains information of the model that was used to process a given request.
-2. Create a [_PredictRequest_](PredictRequest) message that contains the original request passed to the model for prediction.
-3. If model responded successfully then create a [_PredictResponse_](PredictResponse) message that contains inferenced output of the model. If there was an error, then instead of a _PredictResponse_ message  you should prepare an error message.
-4. Assemble an [_ExecutionInformation_](ExecutionInformation) using the messages above.
-5. Submit _ExecutionInformation_ proto to Sonar for analysis. Use the RPC [_MonitoringService.Analyze_](MonitoringService.Analyze) method to calculate metrics.
+1. Create an [_ExecutionMetadata_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/b8b4b1ff4a86c81bc8d151194f522a5e9c487af8/src/hydro_serving_grpc/monitoring/sonar/entities.proto#L13) message that contains information of the model that was used to process a given request.
+2. Create a [_PredictRequest_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/b8b4b1ff4a86c81bc8d151194f522a5e9c487af8/src/hydro_serving_grpc/serving/runtime/api.proto#L8) message that contains the original request passed to the model for prediction.
+3. If model responded successfully then create a [_PredictResponse_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/b8b4b1ff4a86c81bc8d151194f522a5e9c487af8/src/hydro_serving_grpc/serving/runtime/api.proto#L14) message that contains inferenced output of the model. If there was an error, then instead of a _PredictResponse_ message  you should prepare an error message.
+4. Assemble an [_ExecutionInformation_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/b8b4b1ff4a86c81bc8d151194f522a5e9c487af8/src/hydro_serving_grpc/monitoring/sonar/entities.proto#L24) using the messages above.
+5. Submit _ExecutionInformation_ proto to Sonar for analysis. Use the RPC [_MonitoringService.Analyze_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/b8b4b1ff4a86c81bc8d151194f522a5e9c487af8/src/hydro_serving_grpc/monitoring/sonar/api.proto#L10) method to calculate metrics.
 
 ## Metrics retrieval
 
-Once triggered, the [analyze](MonitoringService.Analyze) method does not return anything. To fetch calculated metrics from the model version, you have to make a GET request to the `/monitoring/checks/all/<MODEL_VERSION_ID>` endpoint.
+Once triggered, the [MonitoringService.Analyze](https://github.com/Hydrospheredata/hydro-serving-protos/blob/b8b4b1ff4a86c81bc8d151194f522a5e9c487af8/src/hydro_serving_grpc/monitoring/sonar/api.proto#L10) method does not return anything. To fetch calculated metrics from the model version, you have to make a GET request to the `/monitoring/checks/all/<MODEL_VERSION_ID>` endpoint.
 
 A request **must** contain the following parameters:
 
@@ -659,11 +659,3 @@ Content-Type: application/json
     }
 ]
 ```
-
-<!-- Links -->
-
-[ExecutionMetadata]: https://github.com/Hydrospheredata/hydro-serving-protos/blob/b8b4b1ff4a86c81bc8d151194f522a5e9c487af8/src/hydro_serving_grpc/monitoring/sonar/entities.proto#L13
-[PredictRequest]: https://github.com/Hydrospheredata/hydro-serving-protos/blob/b8b4b1ff4a86c81bc8d151194f522a5e9c487af8/src/hydro_serving_grpc/serving/runtime/api.proto#L8
-[PredictResponse]: https://github.com/Hydrospheredata/hydro-serving-protos/blob/b8b4b1ff4a86c81bc8d151194f522a5e9c487af8/src/hydro_serving_grpc/serving/runtime/api.proto#L14
-[ExecutionInformation]: https://github.com/Hydrospheredata/hydro-serving-protos/blob/b8b4b1ff4a86c81bc8d151194f522a5e9c487af8/src/hydro_serving_grpc/monitoring/sonar/entities.proto#L24
-[MonitoringService.Analyze]: https://github.com/Hydrospheredata/hydro-serving-protos/blob/b8b4b1ff4a86c81bc8d151194f522a5e9c487af8/src/hydro_serving_grpc/monitoring/sonar/api.proto#L10
