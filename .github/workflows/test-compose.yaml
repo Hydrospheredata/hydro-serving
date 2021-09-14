@@ -54,11 +54,24 @@ jobs:
     needs: [ "compose_assemble" ]
     name: docker-compose on ubuntu
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        docker_version:
+          - 18.09
+          - 19.03
+          - "20.10"
+        docker_channel:
+          - stable
     steps:
       - name: Download docker-compose artifact
         uses: actions/download-artifact@v2
         with:
           name: compose
+
+      - uses: docker-practice/actions-setup-docker@master
+        with:
+          docker_version: ${{ matrix.docker_version }}
+          docker_channel: ${{ matrix.docker_channel }}
       
       - name: run docker-compose
         shell: bash
@@ -81,7 +94,7 @@ jobs:
         if: ${{ failure() }}
         uses: peter-evans/close-pull@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repository: ${{ github.event.inputs.repository }}
           pull-request-number: ${{ github.event.inputs.pr_number }}
           comment: Closing pull request due to exited containers
@@ -97,10 +110,7 @@ jobs:
   macos:
     needs: [ "compose_assemble" ]
     name: docker-compose on macos
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ macos-10.15, macos-11.0 ]
+    runs-on: macos-11
     steps: 
       - name: Download docker-compose artifact
         uses: actions/download-artifact@v2
@@ -137,7 +147,7 @@ jobs:
         if: ${{ failure() }}
         uses: peter-evans/close-pull@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.HYDRO_SERVING_TOKEN }}
           repository: ${{ github.event.inputs.repository }}
           pull-request-number: ${{ github.event.inputs.pr_number }}
           comment: Closing pull request due to exited containers
@@ -157,7 +167,7 @@ jobs:
       - name: automerge
         uses: "pascalgn/automerge-action@v0.14.3"
         env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          GITHUB_TOKEN: "${{ secrets.HYDRO_SERVING_TOKEN }}"
           MERGE_LABELS: "automerge"
           MERGE_REMOVE_LABELS: "automerge"
           MERGE_COMMIT_MESSAGE: "pull-request-title"
