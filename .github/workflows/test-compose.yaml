@@ -23,7 +23,7 @@ on:
         required: true
 
 env:
-  containers_number: 14
+  containers_number: 15
 
 jobs:
   compose_assemble:
@@ -50,18 +50,24 @@ jobs:
           name: compose
           path: docker-compose.yaml
 
-  ubuntu:
+  docker-compose:
     needs: [ "compose_assemble" ]
-    name: docker-compose on ubuntu
-    runs-on: ubuntu-latest
+    name: docker-compose testing
     strategy:
       matrix:
         docker_version:
-          - 18.09
           - 19.03
           - "20.10"
         docker_channel:
           - stable
+        os:
+          - ubuntu-latest
+        include:
+          # macOS
+          - os: macos-latest
+            docker_channel: stable
+            docker_version: "20.10"
+    runs-on: ${{ matrix.os }}
     steps:
       - name: Download docker-compose artifact
         uses: actions/download-artifact@v2
@@ -107,61 +113,8 @@ jobs:
           docker ps -a
           docker-compose down 
 
-  macos:
-    needs: [ "compose_assemble" ]
-    name: docker-compose on macos
-    runs-on: macos-11
-    steps: 
-      - name: Download docker-compose artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: compose
-
-      - uses: docker-practice/actions-setup-docker@master
-
-      - name: Verify installation
-        shell: bash
-        run: |
-          which docker
-          which docker-compose
-
-      - name: run docker-compose
-        shell: bash
-        run: |
-          docker-compose up -d
-          sleep 45s
-      
-      # +1 container due to buildx buildkit container
-      - name: check services
-        shell: bash
-        run: |
-          if [ $(docker ps -q $1 | wc -l) != $((${{ env.containers_number }} + 1)) ]; then exit 1; fi
-
-      - name: check logs of exited containers
-        if: ${{ failure() }}
-        shell: bash
-        run: |
-          docker ps -f "status=exited" -q | xargs -L 1 docker logs
-      
-      - name: close PR
-        if: ${{ failure() }}
-        uses: peter-evans/close-pull@v1
-        with:
-          token: ${{ secrets.HYDRO_SERVING_TOKEN }}
-          repository: ${{ github.event.inputs.repository }}
-          pull-request-number: ${{ github.event.inputs.pr_number }}
-          comment: Closing pull request due to exited containers
-          delete-branch: true
-
-      - name: Stop containers
-        if: ${{ always() }}
-        shell: bash
-        run: |
-          docker ps -a
-          docker-compose down
-
   automerge:
-    needs: [ "ubuntu", "macos" ]
+    needs: [ "docker-compose" ]
     runs-on: ubuntu-latest
     steps:
       - name: automerge
