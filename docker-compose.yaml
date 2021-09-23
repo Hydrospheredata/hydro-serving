@@ -45,7 +45,7 @@ services:
       API_GATEWAY_HTTP_PORT: '8080'
       GRPC_PORT: '9091'
       HTTP_PORT: '9090'
-    image: hydrosphere/serving-gateway:e03703b2a7871913318679844615d0574d5e4b0e
+    image: hydrosphere/serving-gateway:b42481e31da5329994aba9e68135673ef8f89b86
     networks:
       hydronet: {}
     ports:
