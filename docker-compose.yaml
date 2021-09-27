@@ -143,7 +143,7 @@ services:
       POSTGRES_DB: docker
       POSTGRES_PASSWORD: docker
       POSTGRES_USER: docker
-    image: postgres:9.6-alpine
+    image: postgres:13.4-alpine3.14
     networks:
       hydronet: {}
     ports:
