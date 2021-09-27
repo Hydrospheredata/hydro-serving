@@ -33,7 +33,7 @@ manager:
     """
 gateway:
   image:
-    full: hydrosphere/serving-gateway:b42481e31da5329994aba9e68135673ef8f89b86
+    full: hydrosphere/serving-gateway:e9940dbf8116bbc27f7eb0fd468db9a4af77b76f
 sonar:
   image:
     full: hydrosphere/sonar:4b68b3ad32f57113d3be5c4666d9ace621278583
