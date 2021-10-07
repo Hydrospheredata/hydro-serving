@@ -36,7 +36,7 @@ gateway:
     full: hydrosphere/serving-gateway:e9940dbf8116bbc27f7eb0fd468db9a4af77b76f
 sonar:
   image:
-    full: hydrosphere/sonar:4b68b3ad32f57113d3be5c4666d9ace621278583
+    full: hydrosphere/sonar:04c6a8b63efcee3af7016bcb692c06b805496967
 visualization:
   image:
     full: hydrosphere/hydro-visualization:3462ef32f9454bda5a946bafe28aba4d9db90638

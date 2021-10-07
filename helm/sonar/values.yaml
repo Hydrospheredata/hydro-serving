@@ -67,7 +67,7 @@ javaOpts: -Xmx2048m -Xmn2048m -Xss258k -XX:MaxMetaspaceSize=1024m -XX:+Aggressiv
 replicaCount: 1
 
 image:
-  full: hydrosphere/sonar:4b68b3ad32f57113d3be5c4666d9ace621278583
+  full: hydrosphere/sonar:04c6a8b63efcee3af7016bcb692c06b805496967
   pullPolicy:  IfNotPresent
 
 service:
