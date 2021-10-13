@@ -56,8 +56,9 @@ spec:
             {{- end }}
           {{- end }}
         - name: kubectl-proxy
-          image: xian310/kubectl-proxy:1.18.11
+          image: bitnami/kubectl:1.20.10
           imagePullPolicy: {{ .Values.image.pullPolicy }}
+          args: ['proxy']
         - name: {{ .Chart.Name }}
           image: {{ if .Values.image.full }}"{{ .Values.image.full }}"{{ else }}"{{ .Values.image.repository }}:{{ .Values.image.tag }}"{{ end }}
           imagePullPolicy: {{ .Values.image.pullPolicy }}

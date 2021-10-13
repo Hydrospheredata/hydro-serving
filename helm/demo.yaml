@@ -29,9 +29,13 @@ gateway:
 sonar:
   image:
     full: hydrosphere/sonar:3.0.0
+  persistence:
+    bucket: "demo-hydrosphere-feature-lake"
 visualization:
   image:
     full: hydrosphere/hydro-visualization:3.0.0
+  persistence:
+    bucket: "demo-hydrosphere-visualization-artifacts"
 auto-od:
   image:
     full: hydrosphere/hydro-auto-od:3.0.0
@@ -52,20 +56,22 @@ global:
     ingress:
       enabled: true
       host: "hydro-registry-demo.dev.hydrosphere.io"
+    persistence:
+      bucket: "demo-hydrosphere-model-registry"
 
   persistence:
     url: ""
     mode: "minio"
-    region: "eu-central-1" # region for s3
+    region: "us-west-1" # region for s3
 
   mongodb:
-    url: "ocdb-2021-06-05-06-02-04.cluster-c6yzvjrvtrdu.eu-central-1.docdb.amazonaws.com" # Specify MongoDB connection string if you want to use an external MongoDB instance. 
+    url: "" # Specify MongoDB connection string if you want to use an external MongoDB instance. 
             # If empty, an in-cluster deployment will be provisioned. 
     rootPassword: "hydr0s3rving" # Mongodb root password. Used for an internal installation.
     username: "root" # Mongodb username. Used for an internal installation.
     password: "hydr0s3rving" # Mongodb password. Used for an internal installation.
     authDatabase: "admin" # Mongodb auth database. Used for an internal installation.
-    retry: "true"
+    retry: "false"
     database: "hydro-serving-data-profiler" # Mongodb database name. Used for an internal installation.
 
   postgresql:
@@ -97,7 +103,7 @@ global:
         - to: "alert@hydrosphere.io" 
 
   tolerations:
-  - key: "node-type"
-    operator: "Equal"
-    value: "hydrosphere.io"
-    effect: "NoSchedule"
+    - key: "node-type"
+      operator: "Equal"
+      value: "demo"
+      effect: "NoSchedule"

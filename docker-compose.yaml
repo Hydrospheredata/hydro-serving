@@ -30,7 +30,7 @@ services:
       MONGO_URL: mongodb
       MONGO_USER: root
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-auto-od:7fbecd2d284a4213bbc26eb61145a0f1fadb7d36
+    image: hydrosphere/hydro-auto-od:502212875cfe077d4c723453f10da8fa50fb4ba5
     networks:
       extnet: {}
       hydronet: {}
@@ -45,7 +45,7 @@ services:
       API_GATEWAY_HTTP_PORT: '8080'
       GRPC_PORT: '9091'
       HTTP_PORT: '9090'
-    image: hydrosphere/serving-gateway:3.0.0
+    image: hydrosphere/serving-gateway:3.0.1
     networks:
       hydronet: {}
     ports:
@@ -58,7 +58,7 @@ services:
     depends_on:
       postgres:
         condition: service_started
-    image: hydrosphere/serving-manager:3.0.0
+    image: hydrosphere/serving-manager:3.0.1
     networks:
       extnet: {}
       hydronet: {}
@@ -101,7 +101,7 @@ services:
       STAT_PORT: '5000'
       VISUALIZATION_HOST: visualization
       VISUALIZATION_HTTP_PORT: '5000'
-    image: hydrosphere/hydro-serving-ui:dae14af8a5c27f2d31a6a09dc3e27b8f697d8ceb
+    image: hydrosphere/hydro-serving-ui:3.0.1
     networks:
       extnet: {}
       hydronet: {}
@@ -181,7 +181,7 @@ services:
       MONGO_USER: root
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-root-cause:3eb2421617eda3ecbe864e17d0cca0770f307a7e
+    image: hydrosphere/hydro-root-cause:3.0.1
     networks:
       extnet: {}
       hydronet: {}
@@ -209,7 +209,7 @@ services:
       MONGO_USER: root
       ROOTCAUSE_DB_NAME: rootcause
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-root-cause:3eb2421617eda3ecbe864e17d0cca0770f307a7e
+    image: hydrosphere/hydro-root-cause:3.0.1
     networks:
       hydronet: {}
   serving-sonar:
@@ -238,7 +238,7 @@ services:
       STORAGE_PATH_STYLE_ACCESS: "true"
       STORAGE_S3_IMPL: org.apache.hadoop.fs.s3a.S3AFileSystem
       STORAGE_SECRET_KEY: minio123
-    image: hydrosphere/sonar:3.0.0
+    image: hydrosphere/sonar:3.0.1
     networks:
       extnet: {}
       hydronet: {}
@@ -263,7 +263,7 @@ services:
       MONGO_URL: mongodb
       MONGO_USER: root
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-stat:3.0.0
+    image: hydrosphere/hydro-stat:3.0.1
     networks:
       extnet: {}
       hydronet: {}
@@ -291,7 +291,7 @@ services:
       MONGO_URL: mongodb
       MONGO_USER: root
       SECURE: "False"
-    image: hydrosphere/hydro-visualization:3.0.0
+    image: hydrosphere/hydro-visualization:3.0.1
     networks:
       extnet: {}
       hydronet: {}
@@ -320,7 +320,7 @@ services:
       MONGO_URL: mongodb
       MONGO_USER: root
       SECURE: "False"
-    image: hydrosphere/hydro-visualization:3.0.0
+    image: hydrosphere/hydro-visualization:3.0.1
     networks:
       hydronet: {}
 version: '3.5'

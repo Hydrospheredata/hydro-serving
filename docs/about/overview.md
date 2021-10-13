@@ -4,7 +4,7 @@
 
 Hydrosphere is an open-source MLOps platform for **deploying, managing, and monitoring ML models in production with Kubernetes.**
 
-![](../.gitbook/assets/ml_workflow_with_hydrosphere%20%281%29%20%284%29%20%286%29%20%283%29.png)
+![](../.gitbook/assets/ml_workflow_with_hydrosphere.png)
 
 Hydrosphere supports all major machine learning frameworks, including Tensorflow, Keras, PyTorch, XGBoost, scikit-learn, fastai, etc. The platform is designed to effectively measure performance and health metrics of your production models, making it possible to spot early signs of performance drops and data drifts, get insights into why they happen.
 
@@ -35,7 +35,7 @@ Hydrosphere is **not an ML model training framework**. Before using Hydrosphere,
 
 We suggest you use one of the orchestrators, such as Kubeflow or Airflow, to deliver your model to the Hydrosphere.
 
-![](../.gitbook/assets/hydrosphere_and_kubeflow%20%281%29%20%285%29%20%287%29%20%282%29.png)
+![](../.gitbook/assets/hydrosphere_and_kubeflow.png)
 
 ## Hydrosphere Components
 
@@ -51,19 +51,11 @@ Hydro Serving is responsible for framework-agnostic model deployment and managem
 
 ### Monitoring
 
-{% hint style="info" %}
-Hydrosphere Monitoring is not available as an open-source solution. If you are interested in this component you can contact us via [gitter](https://gitter.im/Hydrospheredata/hydro-serving) or our [website](https://hydrosphere.io)
-{% endhint %}
-
 Hydro Monitoring tracks model performance over time, raising alerts in case of detected issues. It provides a real-time updated UI, where you can monitor your models to see service health and usage. This constant monitoring of model health is crucial for any ML-based business as it’s tied to business and financial metrics.
 
 Hydrosphere is capable of monitoring model quality with or without getting additional labeled data. Labeled data is often used in production drawing conclusions about the quality of a model’s predictions. Sometimes it is hard to get labeled data in production in a timely and cost-effective manner, especially when you deal with large volumes of complex data. Hydrosphere circumvents this issue by analyzing data that flows through a model as a proxy evaluating model quality to detect if ML models start to degrade and make unreliable predictions due to production data drifts from training data.
 
 ### Interpretability
-
-{% hint style="info" %}
-Hydrosphere Interpretability is not available as an open-source solution. If you are interested in this component you can contact us via [Gitter](https://gitter.im/Hydrospheredata/hydro-serving) or our [website](https://hydrosphere.io).
-{% endhint %}
 
 Hydrosphere Interpretability provides human-readable explanations of the predictions made by your ML models, as well as the explanations of monitoring analytics made by Hydrosphere Monitoring. It helps to evaluate and analyze models and understand what features influence their decisions. The Interpretability component demystifies your ML process, provides a new level of confidence about the reasons behind your models’ decisions and a certain level of trust business can rely on.
 

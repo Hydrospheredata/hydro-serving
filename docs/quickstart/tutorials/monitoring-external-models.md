@@ -33,7 +33,7 @@ This section describes the structure of the JSON document used to register exter
 The document **must** contain the following top-level members, describing the interface of your model:
 
 * `name`: the name of the registered model. This name uniquely identifies a collection of model versions, registered within the Hydrosphere platform.
-* `contract`: the interface of the registered model. This member describes inputs and outputs of the model, as well as other complementary metadata, such as model signature, and data profile for each field.  
+* `signature`: the interface of the registered model. This member describes inputs and outputs of the model, as well as other complementary metadata, such as data profile for each field.  
 
 A document **may** contain additional top-level members, describing other details of your model.
 
@@ -55,7 +55,7 @@ This example shows, how a model can be defined at the top level:
     "monitoringConfiguration": {
         "batchSize": 100
     },
-    "contract": {
+    "signature": {
         ...
     }
 }
@@ -75,27 +75,9 @@ The example below shows how a `monitoringConfiguration` object can be defined.
 }
 ```
 
-#### Contract object
+#### Signature object
 
-The`contract` object appears in the document to define the interface of the model. The contract object **must** contain the following members:
-
-* `modelName`: the original name of the model. It should be the same as the name of the registered model, defined on the level above;
-* `predict`: the signature of the model. It defines the inputs and the outputs of the model. 
-
-The example below shows how a `contract` object can be defined.
-
-```javascript
-{
-    "modelName": "external-model-example",
-    "predict": {
-        ...
-    }
-}
-```
-
-#### Predict object
-
-`predict` object describes the signature of the model. The signature object **must** contain the following members:
+`signature` object describes the signature of the model. The signature object **must** contain the following members:
 
 * `signatureName`: The signature of the model, used to process the request;
 * `inputs`: A collection of fields, defining the inputs of the model. Each item in the collection describes a single data entry, its type, shape, and profile. A collection **must** contain at least one item;
@@ -172,7 +154,7 @@ The example below shows how a single `field` object can be defined.
 
 `shape` object defines the shape of the data that the model is processing. The shape object **must** contain the following members:
 
-* `dim`: An array of dimensions. A collection **may** be empty — in that case, the tensor will be interpreted as a scalar value. 
+* `dims`: An array of dimensions. A collection **may** be empty — in that case, the tensor will be interpreted as a scalar value. 
 
 The example below shows how a `shape` object can be defined.
 
@@ -205,33 +187,28 @@ Accept: application/json
     "monitoringConfiguration": {
         "batchSize": 100
     },
-    "contract": {
-        "modelName": "external-model-example",
-        "predict": {
-            "signatureName": "predict",
-            "inputs": [
-                {
-                    "name": "in",
-                    "dtype": "DT_DOUBLE",
-                    "profile": "NUMERICAL",
-                    "shape": {
-                        "dim": [],
-                        "unknownRank": false
-                    }
+    "signature": {
+        "signatureName": "predict",
+        "inputs": [
+            {
+                "name": "in",
+                "dtype": "DT_DOUBLE",
+                "profile": "NUMERICAL",
+                "shape": {
+                    "dims": []
                 }
-            ],
-            "outputs": [
-                {
-                    "name": "out",
-                    "dtype": "DT_DOUBLE",
-                    "profile": "NUMERICAL",
-                    "shape": {
-                        "dim": [],
-                        "unknownRank": false
-                    }
+            }
+        ],
+        "outputs": [
+            {
+                "name": "out",
+                "dtype": "DT_DOUBLE",
+                "profile": "NUMERICAL",
+                "shape": {
+                    "dims": []
                 }
-            ]
-        }
+            }
+        ]
     }
 }
 ```
@@ -245,7 +222,7 @@ The response object from the external model registration request contains the fo
 * `id`: Model version ID, uniquely identifying a registered model version within Hydrosphere platform;
 * `model`: An object, representing a model collection, registered in Hydrosphere platform;
 * `modelVersion`: Model version number in the model collection; 
-* `modelContract`: Contract of the model, similar to the one defined in the request section above;
+* `signature`: Contract of the model, similar to the one defined in the request section above;
 * `metadata`: Metadata of the model, similar to the one defined in the request section above;
 * `monitoringConfiguration`: MonitoringConfiguration of the model, similar to the one defined in the request section above;
 * `created`: Timestamp, indicating when the model was registered. 
@@ -275,33 +252,29 @@ Content-Type: application/json
     },
     "modelVersion": 1,
     "created": "2020-01-09T16:25:02.915Z",
-    "modelContract": { 
-        "modelName": "external-model-example",
-        "predict": {
-            "signatureName": "predict",
-            "inputs": [
-                {
-                    "name": "in",
-                    "dtype": "DT_DOUBLE",
-                    "profile": "NUMERICAL",
-                    "shape": {
-                        "dim": [],
-                        "unknownRank": false
-                    }
+    "signature": { 
+        "signatureName": "predict",
+        "inputs": [
+            {
+                "name": "in",
+                "dtype": "DT_DOUBLE",
+                "profile": "NUMERICAL",
+                "shape": {
+                    "dims": []
                 }
-            ],
-            "outputs": [
-                {
-                    "name": "out",
-                    "dtype": "DT_DOUBLE",
-                    "profile": "NUMERICAL",
-                    "shape": {
-                        "dim": [],
-                        "unknownRank": false
-                    }
+            }
+        ],
+        "outputs": [
+            {
+                "name": "out",
+                "dtype": "DT_DOUBLE",
+                "profile": "NUMERICAL",
+                "shape": {
+                    "dims": []
                 }
-            ]
-        },
+            }
+        ]
+    },
     "metadata": { 
         "architecture": "Feed-forward neural network",
         "description": "Sample external model example",
@@ -383,88 +356,9 @@ Depending on the size of your data, you will have to wait for the data to be upl
 
 To upload your data using an HTTP endpoint, stream it to the `/monitoring/profiles/batch/<MODEL_VERSION_ID>` endpoint.
 
-In the code snippets below you can see how data can be uploaded using sample HTTP clients.
-
-{% tabs %}
-{% tab title="Python" %}
-```python
-from argparse import ArgumentParser
-from urllib.parse import urljoin
-
-import requests
-
-
-def read_in_chunks(filename, chunk_size=1024):
-    """ Generator to read a file peace by peace. """
-    with open(filename, "rb") as file:
-        while True:
-            data = file.read(chunk_size)
-            if not data:
-                break
-            yield data
-
-
-if __name__ == "__main__": 
-    parser = ArgumentParser()
-    parser.add_argument("--hydrosphere", type=str, required=True)
-    parser.add_argument("--model-version-id", type=int, required=True)
-    parser.add_argument("--filename", required=True)
-    parser.add_argument("--chunk-size", default=1024)
-    args, unknown = parser.parse_known_args()
-    if unknown:
-        print("Parsed unknown arguments: %s", unknown)
-
-    endpoint_uri = "/monitoring/profiles/batch/{}".format(args.model_version_id)
-    endpoint_uri = urljoin(args.hydrosphere, endpoint_uri) 
-
-    gen = read_in_chunks(args.filename, chunk_size=args.chunk_size)
-    response = requests.post(endpoint_uri, data=gen, stream=True)
-    if response.status_code != 200:
-        print("Got error:", response.text)
-    else:
-        print("Uploaded data:", response.text)
+```shell
+curl -v -D - -X POST -H "Transfer-Encoding: chunked" -H "Content-Type: text/plain" --compressed --data-binary @file.csv <HYDROSPHERE_ADDRESS>/monitoring/profiles/batch/<MODEL_VERSION_ID>
 ```
-{% endtab %}
-
-{% tab title="Java" %}
-```java
-import com.google.common.io.Files;
-
-import java.io.*;
-import java.net.*;
-
-
-public class DataUploader {
-    private String endpointUrl = "/monitoring/profiles/batch/";
-
-    private String composeUrl(String base, long modelVersionId) throws java.net.URISyntaxException {
-        return new URI(base).resolve(this.endpointUrl + modelVersionId).toString();
-    }
-
-    public int upload(String baseUrl, String filePath, long modelVersionId) throws Exception {
-        String composedUrl = this.composeUrl(baseUrl, modelVersionId);
-        HttpURLConnection connection = (HttpURLConnection) new URL(composedUrl).openConnection();
-        connection.setRequestMethod("POST");
-        connection.setDoOutput(true);
-        connection.setChunkedStreamingMode(4096);
-
-        OutputStream output = connection.getOutputStream();
-        Files.copy(new File(filePath), output);
-        output.flush();
-
-        return connection.getResponseCode();
-    }
-
-    public static void main(String[] args) throws Exception {
-        DataUploader dataUploader = new DataUploader();
-        int responseCode = dataUploader.upload(
-            "http://<hydrosphere>/", "/path/to/data.csv", 1);
-        System.out.println(responseCode);
-    }
-}
-```
-{% endtab %}
-{% endtabs %}
 
 {% hint style="info" %}
 You can acquire `MODEL_VERSION_ID` by sending a GET request to `/model/version/<MODEL_NAME>/<MODEL_VERSION>` endpoint. The response document will have a similar structure, already defined @ref[above](monitoring-external-models.md#response-document-structure).
@@ -570,234 +464,18 @@ Accept: application/json
 
 ## Analysis invocation
 
-To send a request for analysis you have to use gRPC endpoint. We have already [predefined](https://github.com/Hydrospheredata/hydro-serving-protos) ProtoBuf messages for the reference.
+Monitoring service has GRPC API that you can use to send data for analysis. Here is how it works:
 
-1. Create an [_ExecutionMetadata_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/metadata.proto#L22) message that contains metadata information of the model, used to process a given request:
-2. Create a [_PredictRequest_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/api/predict.proto#L14) message that contains the original request passed to the serving model for the prediction:
-3. Create a [_PredictResponse_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/tf/api/predict.proto#L26) message that contains inferenced output of the model: 
-4. Assemble an [_ExecutionInformation_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L10) from the above-created messages.
-5. Submit ExecutionInformation proto to Sonar for analysis. Use the RPC [_Analyse_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L20) method of the [_MonitoringService_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L19) to calculate metrics.
-
-In the code snippets below you can see how analysis can be triggered with sample gRPC clients.
-
-{% tabs %}
-{% tab title="Python" %}
-```python
-import uuid
-import grpc
-import random
-import hydro_serving_grpc as hs
-
-use_ssl_connection = True
-if use_ssl_connection:
-    creds = grpc.ssl_channel_credentials()
-    channel = grpc.secure_channel(HYDROSPHERE_INSTANCE_GRPC_URI, credentials=creds)
-else:
-    channel = grpc.insecure_channel(HYDROSPHERE_INSTANCE_GRPC_URI) 
-monitoring_stub = hs.MonitoringServiceStub(channel)
-
-# 1. Create an ExecutionMetadata message. ExecutionMetadata is used to define, 
-# which model, registered within Hydrosphere platform, was used to process a 
-# given request.
-trace_id = str(uuid.uuid4())  # uuid used as an example
-execution_metadata_proto = hs.ExecutionMetadata(
-    model_name="external-model-example",
-    modelVersion_id=2,
-    model_version=3,
-    signature_name="predict",
-    request_id=trace_id,
-    latency=0.014,
-)
-
-# 2. Create a PredictRequest message. PredictRequest is used to define the data 
-# passed to the model for inference.
-predict_request_proto = hs.PredictRequest(
-    model_spec=hs.ModelSpec(
-        name="external-model-example",
-        signature_name="predict", 
-    ),
-    inputs={
-        "in": hs.TensorProto(
-            dtype=hs.DT_DOUBLE, 
-            double_val=[random.random()], 
-            tensor_shape=hs.TensorShapeProto()
-        ),
-    }, 
-)
-
-# 3. Create a PredictResponse message. PredictResponse is used to define the 
-# outputs of the model inference.
-predict_response_proto = hs.PredictResponse(
-    outputs={
-        "out": hs.TensorProto(
-            dtype=hs.DT_DOUBLE, 
-            double_val=[random.random()], 
-            tensor_shape=hs.TensorShapeProto()
-        ),
-    },
-)
-
-# 4. Create an ExecutionInformation message. ExecutionInformation contains all 
-# request data and all auxiliary information about request execution, required 
-# to calculate metrics.
-execution_information_proto = hs.ExecutionInformation(
-    request=predict_request_proto,
-    response=predict_response_proto,
-    metadata=execution_metadata_proto,
-)
-
-# 5. Use RPC method Analyse of the MonitoringService to calculate metrics
-monitoring_stub.Analyze(execution_information_proto)
-```
-{% endtab %}
-
-{% tab title="Java" %}
-```java
-import io.hydrosphere.serving.monitoring.MonitoringServiceGrpc;
-import io.hydrosphere.serving.monitoring.MonitoringServiceGrpc.MonitoringServiceBlockingStub;
-import io.hydrosphere.serving.monitoring.Metadata.ExecutionMetadata;
-import io.hydrosphere.serving.monitoring.Api.ExecutionInformation;
-import io.hydrosphere.serving.tensorflow.api.Predict.PredictRequest;
-import io.hydrosphere.serving.tensorflow.api.Predict.PredictResponse;
-import io.hydrosphere.serving.tensorflow.TensorProto;
-import io.hydrosphere.serving.tensorflow.TensorShapeProto;
-import io.hydrosphere.serving.tensorflow.DataType;
-
-import io.grpc.ManagedChannel;
-import io.grpc.ManagedChannelBuilder;
-
-import java.util.Random;
-import java.util.UUID;
-import java.util.concurrent.TimeUnit;
-
-
-public class HydrosphereClient {
-
-    private final String modelName;         // Actual model name, registered within Hydrosphere platform
-    private final long modelVersion;        // Model version of the registered model within Hydrosphere platform
-    private final long modelVersionId;      // Model version Id, which uniquely identifies any model within Hydrosphere platform
-    private final ManagedChannel channel;
-    private final MonitoringServiceBlockingStub blockingStub;
-
-    public HydrosphereClient(String target, String modelName, long modelVersion, long modelVersionId) {
-        this(ManagedChannelBuilder.forTarget(target).build(), modelName, modelVersion, modelVersionId);
-    }
-
-    HydrosphereClient(ManagedChannel channel, String modelName, long modelVersion, long modelVersionId) {
-        this.channel = channel;
-        this.modelName = modelName;
-        this.modelVersion = modelVersion;
-        this.modelVersionId = modelVersionId;
-        this.blockingStub = MonitoringServiceGrpc.newBlockingStub(channel);
-    }
-
-    public void shutdown() throws InterruptedException {
-        channel.shutdown().awaitTermination(5, TimeUnit.SECONDS);
-    }
-
-    private double getLatency() {
-        /*
-        Random value is used as an example. Acquire the actual latency
-        value, during which a model processed a request.
-        */
-        return new Random().nextDouble();
-    }
-
-    private String getTraceId() {
-        /*
-        UUID used as an example. Use this value to track down your
-        requests within Hydrosphere platform.
-        */
-        return UUID.randomUUID().toString();
-    }
-
-    private TensorProto generateDoubleTensorProto() {
-        /*
-        Helper method generating TensorProto object with random double values.
-        */
-        return TensorProto.newBuilder()
-                .addDoubleVal(new Random().nextDouble())
-                .setDtype(DataType.DT_DOUBLE)
-                .setTensorShape(TensorShapeProto.newBuilder().build())  // Empty TensorShape indicates scalar shape
-                .build();
-    }
-
-    private PredictRequest generatePredictRequest() {
-        /*
-        PredictRequest is used to define the data passed to the model for inference.
-        */
-        return PredictRequest.newBuilder()
-                .putInputs("in", this.generateDoubleTensorProto()).build();
-    }
-
-    private PredictResponse generatePredictResponse() {
-        /*
-        PredictResponse is used to define the outputs of the model inference.
-        */
-        return PredictResponse.newBuilder()
-                .putOutputs("out", this.generateDoubleTensorProto()).build();
-    }
-
-    private ExecutionMetadata generateExecutionMetadata() {
-        /*
-        ExecutionMetadata is used to define, which model, registered within Hydrosphere
-        platform, was used to process a given request.
-        */
-        return ExecutionMetadata.newBuilder()
-                .setModelName(this.modelName)
-                .setModelVersion(this.modelVersion)
-                .setModelVersionId(this.modelVersionId)
-                .setSignatureName("predict")                // Use default signature of the model
-                .setLatency(this.getLatency())              // Get latency for a given request
-                .setRequestId(this.getTraceId())            // Get traceId to track a given request within Hydrosphere platform
-                .build();
-    }
-
-    public ExecutionInformation generateExecutionInformation() {
-        /*
-        ExecutionInformation contains all request data and all auxiliary information
-        about request execution, required to calculate metrics.
-        */
-        return ExecutionInformation.newBuilder()
-                .setRequest(this.generatePredictRequest())
-                .setResponse(this.generatePredictResponse())
-                .setMetadata(this.generateExecutionMetadata())
-                .build();
-    }
-
-    public void analyzeExecution(ExecutionInformation executionInformation) {
-        /*
-        The actual use of RPC method Analyse of the MonitoringService to invoke
-        metrics calculation.
-        */
-        this.blockingStub.analyze(executionInformation);
-    }
-
-    public static void main(String[] args) throws Exception {
-        /*
-        Test client functionality by sending randomly generated data for analysis.
-        */
-        HydrosphereClient client = new HydrosphereClient("<hydrosphere>", "external-model-example", 1, 1);
-        try {
-            int requestAmount = 10;
-            System.out.printf("Analysing %d randomly generated samples\n", requestAmount);
-            for (int i = 0; i < requestAmount; i++) {
-                ExecutionInformation executionInformation = client.generateExecutionInformation();
-                client.analyzeExecution(executionInformation);
-            }
-        } finally {
-            System.out.println("Shutting down client");
-            client.shutdown();
-        }
-    }
-}
-```
-{% endtab %}
-{% endtabs %}
+0. Need to use compiled GRPC services. We provide [_libraries_](../../resources/reference/libraries.md) with precompiled services. If your language is not there, you need to compile GRPC yourself.
+1. Create an [_ExecutionMetadata_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/b8b4b1ff4a86c81bc8d151194f522a5e9c487af8/src/hydro_serving_grpc/monitoring/sonar/entities.proto#L13) message that contains information of the model that was used to process a given request.
+2. Create a [_PredictRequest_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/b8b4b1ff4a86c81bc8d151194f522a5e9c487af8/src/hydro_serving_grpc/serving/runtime/api.proto#L8) message that contains the original request passed to the model for prediction.
+3. If model responded successfully then create a [_PredictResponse_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/b8b4b1ff4a86c81bc8d151194f522a5e9c487af8/src/hydro_serving_grpc/serving/runtime/api.proto#L14) message that contains inferenced output of the model. If there was an error, then instead of a _PredictResponse_ message  you should prepare an error message.
+4. Assemble an [_ExecutionInformation_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/b8b4b1ff4a86c81bc8d151194f522a5e9c487af8/src/hydro_serving_grpc/monitoring/sonar/entities.proto#L24) using the messages above.
+5. Submit _ExecutionInformation_ proto to Sonar for analysis. Use the RPC [_MonitoringService.Analyze_](https://github.com/Hydrospheredata/hydro-serving-protos/blob/b8b4b1ff4a86c81bc8d151194f522a5e9c487af8/src/hydro_serving_grpc/monitoring/sonar/api.proto#L10) method to calculate metrics.
 
 ## Metrics retrieval
 
-Once triggered, the [analyze](https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/monitoring/api.proto#L20) method does not return anything. To fetch calculated metrics from the model version, you have to make a GET request to the `/monitoring/checks/all/<MODEL_VERSION_ID>` endpoint.
+Once triggered, the [MonitoringService.Analyze](https://github.com/Hydrospheredata/hydro-serving-protos/blob/b8b4b1ff4a86c81bc8d151194f522a5e9c487af8/src/hydro_serving_grpc/monitoring/sonar/api.proto#L10) method does not return anything. To fetch calculated metrics from the model version, you have to make a GET request to the `/monitoring/checks/all/<MODEL_VERSION_ID>` endpoint.
 
 A request **must** contain the following parameters:
 
@@ -981,4 +659,3 @@ Content-Type: application/json
     }
 ]
 ```
-

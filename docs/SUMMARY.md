@@ -48,6 +48,7 @@
 
 * [Troubleshooting](resources/troubleshooting.md)
 * [Reference](resources/reference/README.md)
+  * [Libraries](resources/reference/libraries.md)
   * [Runtimes](resources/reference/runtimes.md)
 * [Contribution](resources/contribution/README.md)
   * [Contributing Pull Requests](resources/contribution/contribute-pr.md)
