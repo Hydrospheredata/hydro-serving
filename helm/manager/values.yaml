@@ -37,7 +37,7 @@ javaOpts: "-Xmx1024m -Xms128m -Xss16M"
 depconfig: 
 
 image:
-  full: hydrosphere/serving-manager:4b677f430c0a5a1bf5e99a9f5b9deda69086d356
+  full: hydrosphere/serving-manager:3.0.1
   pullPolicy:  IfNotPresent
 
 service:
