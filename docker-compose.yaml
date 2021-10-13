@@ -30,7 +30,7 @@ services:
       MONGO_URL: mongodb
       MONGO_USER: root
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-auto-od:98b5cd6fbd856eae26f0214e6314ed6a2a88c481
+    image: hydrosphere/hydro-auto-od:502212875cfe077d4c723453f10da8fa50fb4ba5
     networks:
       extnet: {}
       hydronet: {}

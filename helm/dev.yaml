@@ -42,7 +42,7 @@ visualization:
     full: hydrosphere/hydro-visualization:25b2aa06edb47dd5d05d34e84b896ffa34f5cbbc
 auto-od:
   image:
-    full: hydrosphere/hydro-auto-od:98b5cd6fbd856eae26f0214e6314ed6a2a88c481
+    full: hydrosphere/hydro-auto-od:502212875cfe077d4c723453f10da8fa50fb4ba5
 stat:
   image:
     full: hydrosphere/hydro-stat:3feacd1e575d10bacb1c5cc8e8cf10d7d60e8984
