@@ -6,6 +6,7 @@ manager:
     full: hydrosphere/serving-manager:3.0.1
   monitoring:
     enabled: true
+  javaOpts: "-Xmx1024m -Xms128m -Xss16M -Dcom.sun.management.jmxremote.port=5555 -Dcom.sun.management.jmxremote.rmi.port=5555 -Djava.rmi.server.hostname=localhost -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false"
   depconfig: |-
     default-deployment-configuration = """
       {
