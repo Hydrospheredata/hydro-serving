@@ -4,6 +4,8 @@ ui:
 manager:
   image:
     full: hydrosphere/serving-manager:3.0.0
+  monitoring:
+    enabled: true
   depconfig: |-
     default-deployment-configuration = """
       {
