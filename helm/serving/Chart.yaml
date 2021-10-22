@@ -1,6 +1,6 @@
 apiVersion: v2
-appVersion: 3.0.0
-version: 3.0.0
+appVersion: 3.0.1
+version: 3.0.1
 description: Hydrosphere Serving is a cluster for deploying and versioning your machine learning models in production
 type: application
 name: serving
