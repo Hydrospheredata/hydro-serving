@@ -272,18 +272,20 @@ jobs:
 
       # Bump chart version
       - name: Bump serving app version
-        uses: jacobtomlinson/gha-find-replace@master
+        uses: jacobtomlinson/gha-find-replace@v2
         with:
-          find: "appVersion.*"
-          replace: "appVersion: \"${{ env.VERSION }}\""
-          include: "./helm/serving/Chart.yaml"
-
+          find: "^appVersion.*"
+          replace: "appVersion: ${{ env.VERSION }}"
+          include: "helm/serving/Chart.yaml"
+          regexp: true
+ 
       - name: Bump serving chart version
-        uses: jacobtomlinson/gha-find-replace@master
+        uses: jacobtomlinson/gha-find-replace@v2
         with:
-          find: "version.*"
-          replace: "version: \"${{ env.VERSION }}\""
-          include: "./helm/serving/Chart.yaml"
+          find: "^version.*"
+          replace: "version: ${{ env.VERSION }}"
+          include: "helm/serving/Chart.yaml"
+          regexp: true
 
       - name: Lint helm
         run: | 
