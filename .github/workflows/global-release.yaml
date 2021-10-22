@@ -277,7 +277,7 @@ jobs:
           find: "^appVersion.*"
           replace: "appVersion: ${{ env.VERSION }}"
           include: "helm/serving/Chart.yaml"
-          regexp: true
+          regex: true
  
       - name: Bump serving chart version
         uses: jacobtomlinson/gha-find-replace@v2
@@ -285,7 +285,10 @@ jobs:
           find: "^version.*"
           replace: "version: ${{ env.VERSION }}"
           include: "helm/serving/Chart.yaml"
-          regexp: true
+          regex: true
+
+      - name: Show chart version
+        run: cat helm/serving/Chart.yaml
 
       - name: Lint helm
         run: | 
@@ -344,35 +347,35 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
 
-  slackNotification:
-    name: Slack Notification
-    env:
-      VERSION: ${{ needs.version.outputs.version }}
-    needs: Release_serving
-    runs-on: ubuntu-latest
-    steps:
-    - name: Slack Notification success
-      if: ${{ success() }}
-      uses: rtCamp/action-slack-notify@v2
-      env:
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_CHANNEL: hydrosphere
-        SLACK_USERNAME: HydroRobot
-        SLACK_ICON: https://avatars.githubusercontent.com/u/17550625?s=200&v=4
-        SLACK_COLOR: ${{ job.status }}
-        SLACK_TITLE: Build status - success
-        SLACK_MESSAGE: "Congratulations! Global release Hydrosphere ${{ env.VERSION }} has happened :rocket:"
-        MSG_MINIMAL: true
+  # slackNotification:
+  #   name: Slack Notification
+  #   env:
+  #     VERSION: ${{ needs.version.outputs.version }}
+  #   needs: Release_serving
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - name: Slack Notification success
+  #     if: ${{ success() }}
+  #     uses: rtCamp/action-slack-notify@v2
+  #     env:
+  #       SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+  #       SLACK_CHANNEL: hydrosphere
+  #       SLACK_USERNAME: HydroRobot
+  #       SLACK_ICON: https://avatars.githubusercontent.com/u/17550625?s=200&v=4
+  #       SLACK_COLOR: ${{ job.status }}
+  #       SLACK_TITLE: Build status - success
+  #       SLACK_MESSAGE: "Congratulations! Global release Hydrosphere ${{ env.VERSION }} has happened :rocket:"
+  #       MSG_MINIMAL: true
 
-    - name: Slack Notification failure
-      if: ${{ failure() }}
-      uses: rtCamp/action-slack-notify@v2
-      env:
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_CHANNEL: hydrosphere
-        SLACK_USERNAME: HydroRobot
-        SLACK_ICON: https://avatars.githubusercontent.com/u/17550625?s=200&v=4
-        SLACK_COLOR: ${{ job.status }}
-        SLACK_TITLE: Build status - failure
-        SLACK_MESSAGE: "Check global release build status"
-        MSG_MINIMAL: true
+  #   - name: Slack Notification failure
+  #     if: ${{ failure() }}
+  #     uses: rtCamp/action-slack-notify@v2
+  #     env:
+  #       SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+  #       SLACK_CHANNEL: hydrosphere
+  #       SLACK_USERNAME: HydroRobot
+  #       SLACK_ICON: https://avatars.githubusercontent.com/u/17550625?s=200&v=4
+  #       SLACK_COLOR: ${{ job.status }}
+  #       SLACK_TITLE: Build status - failure
+  #       SLACK_MESSAGE: "Check global release build status"
+  #       MSG_MINIMAL: true
