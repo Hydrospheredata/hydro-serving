@@ -7,11 +7,11 @@
 
 AWS has a service Elastic Container Registries, but this service can't auto-create repository on push. We can't use it, to store our serving docker image.
 
-You can use an external registry, like a DockerHub, Artifactory, VMWare Harbour. Also, you could use AWS marketplace to find registries solutions or just install a container registry with the certificate on EC2.
+You can use an external registry, like a DockerHub, Artifactory, VMWare Harbour, or your own registry. Also, you could use AWS marketplace to find registries solutions or just install a container registry with the certificate on EC2.
 
 ## Set registry in helm
 
-After uploading the model, hydro-serving-manager make docker image and store it in the registry and kubelet service should be able to download it. 
+After uploading the model, hydro-serving-manager make docker image and store it in the registry (path https://urlregistry.example.com/modelname:modelversion) and kubelet service should be able to download it.
 In `values.yaml` or `values-production.yaml` set
 
 ```yaml

@@ -52,4 +52,7 @@
   * [Runtimes](resources/reference/runtimes.md)
 * [Contribution](resources/contribution/README.md)
   * [Contributing Pull Requests](resources/contribution/contribute-pr.md)
+* [Advanced](resources/advanced/README.md)
+  * [AWS infrastructure](resources/advanced/aws/production-ready-infrastructure.md)
+
 
