@@ -5,13 +5,13 @@
 
 # Registries
 
-AWS has a service Elastic Container Registries, but this service can't auto-create repository on push. We can't use it, to store our serving docker image.
+AWS has an Elastic Container Registries service, but this service can't auto-create repository on push. Therefore, we can't use it to store our serving docker image.
 
-You can use an external registry, like a DockerHub, Artifactory, VMWare Harbour, or your own registry. Also, you could use AWS marketplace to find registries solutions or just install a container registry with the certificate on EC2.
+You can use an external registry, like a DockerHub, Artifactory, VMWare Harbour or your own registry. Also, you can use AWS marketplace to find registries solutions or just install a container registry with the certificate on EC2.
 
 ## Set registry in helm
 
-After uploading the model, hydro-serving-manager make docker image and store it in the registry (path https://urlregistry.example.com/modelname:modelversion) and kubelet service should be able to download it.
+After uploading the model, hydro-serving-manager makes docker image, stores it in the registry (path https://urlregistry.example.com/modelname:modelversion) and kubelet service should be able to download it.
 In `values.yaml` or `values-production.yaml` set
 
 ```yaml
@@ -66,9 +66,9 @@ After creating the instance, connect to the RDS instance and create a new databa
 
 We used s3 to store training data, models metrics, and docker registry storage.
 
-You can use 1 bucket for all services, they will create a path or separate buckets for hydro-vizualisations and sonar.
+You can use 1 bucket for all service. They will create a path or separate buckets for hydro-vizualisations and sonar.
 
-We used minio as an s3 proxy or you can use any s3 like object storage. To use your own, specify url in the persistence block
+We used minio as an s3 proxy. You can use any s3 like object storage. To use your own, specify url in the persistence block
 
 ```yaml
   persistence:
@@ -87,7 +87,7 @@ If you want to use s3, set s3 and credentials:
     region: us-east-1
 ```
 
-In that case, minio will be installed with s3 backend mode, and work as an s3 gateway.
+In that case, minio will be installed with s3 backend mode and work as an s3 gateway.
 
 All services try to create s3 buckets if they don't exist. By default:
 
@@ -99,7 +99,7 @@ All services try to create s3 buckets if they don't exist. By default:
 
 # Tolerations
 
-Some cases required a different environments. You could use different machine groups for different installations, or just be sure, that hydrosphere installs only some type of nodes.
+Some cases required a different environments. You can use different machine groups for different installations or just be sure, that hydrosphere installs only some type of nodes.
 
 Tolerations help you set these rules.
 
@@ -111,16 +111,16 @@ Tolerations help you set these rules.
        effect: NoSchedule  
 ```
 
-This example configure all deployments to deploy only nodes with taint `node: highPerformance`
+This example configures all deployments to deploy only nodes with taint `node: highPerformance`
 
 More informations about tolerations [here](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/)
 
 
 # Resource limits
 
-All our helm charts have resource params and java services have javaOpts. These params help to configure requests and limits resources, also javaOpts help tune JVM machine.
+All our helm charts have resource params and java services have javaOpts. These params help to configure requests and limits resources. JavaOpts help tune JVM machine.
 
-resources set pod requests and limits params for CPU and memory.
+Resources set pod requests and limit params for CPU and memory.
 
 
 ```yaml
