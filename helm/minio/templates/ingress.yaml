@@ -49,8 +49,8 @@ spec:
   tls:
     {{- if .Values.ingress.tls }}
     - hosts:
-        - {{ .Values.ingress.hostname }}
-      secretName: {{ printf "%s-tls" .Values.ingress.hostname }}
+        - {{ .Values.global.persistence.ingress.host }}
+      secretName: {{ printf "%s-tls" .Values.global.persistence.ingress.host }}
     {{- end }}
     {{- if .Values.ingress.extraTls }}
     {{- include "common.tplvalues.render" ( dict "value" .Values.ingress.extraTls "context" $ ) | nindent 4 }}
