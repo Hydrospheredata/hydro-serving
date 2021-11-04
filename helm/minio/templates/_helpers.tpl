@@ -275,3 +275,14 @@ minio: gateway.auth.s3
     Please set valid keys (--set gateway.auth.s3.accessKey="xxxx",gateway.auth.s3.secretKey="yyyy")
 {{- end -}}
 {{- end -}}
+
+{{/*
+Return the appropriate apiVersion for ingress.
+*/}}
+{{- define "minio.ingress.apiVersion" -}}
+{{- if .Capabilities.APIVersions.Has "extensions/v1beta1" -}}
+{{- print "extensions/v1beta1" -}}
+{{- else -}}
+{{- print "networking.k8s.io/v1beta1" -}}
+{{- end -}}
+{{- end -}}

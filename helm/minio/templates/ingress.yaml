@@ -1,5 +1,5 @@
 {{- if and .Values.global.persistence.ingress.enabled (not .Values.disableWebUI ) (eq .Values.global.persistence.url "") -}}
-apiVersion: {{ include "common.capabilities.ingress.apiVersion" . }}
+apiVersion: {{ include "minio.ingress.apiVersion" . }} 
 kind: Ingress
 metadata:
   name: {{ include "common.names.fullname" . }}
