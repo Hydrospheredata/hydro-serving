@@ -32,7 +32,7 @@ spec:
             pathType: {{ .Values.ingress.pathType }}
             {{- end }}
             backend:
-              serviceName: {{ include "common.names.fullname" . }}
+              serviceName: {{ template "minio.fullname" . }}
               servicePort: {{ .Values.service.port }}
     {{- end }}
     {{- range .Values.ingress.extraHosts }}
