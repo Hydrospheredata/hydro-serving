@@ -11,7 +11,7 @@ global:
     mode: "minio"
     ingress:
       enabled: false
-      hosts: ["hydrosphere-minio.local"]
+      host: "hydrosphere-minio.local"
     accessKey: "ACCESSKEYEXAMPLE" # accesskeyid for s3 or minio
     secretKey: "SECRETKEYEXAMPLE" # secretkeyid for s3 or minio
     #region: "us-west-1" # region for s3
