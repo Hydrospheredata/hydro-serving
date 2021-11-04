@@ -434,7 +434,7 @@ ingress:
   ## The Path to MinIO(R). You may need to set this to '/*' in order to use this
   ## with ALB ingress controllers.
   ##
-  path: /*
+  path: /
 
   ## Ingress Path type
   ##
