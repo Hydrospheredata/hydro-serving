@@ -267,6 +267,16 @@ jobs:
           service_image_name: ${{ env.IMAGE }}
           tag: ${{ env.VERSION }}
           
+      - env:
+          IMAGE: hydro-auto-od
+        name: Bump $IMAGE version in chart
+        uses: ./.github/actions/release-action
+        with:
+          release: global
+          registry_url: ${{ env.DOCKER_REGISTRY_URL }}
+          service_image_name: ${{ env.IMAGE }}
+          tag: ${{ env.VERSION }}
+          
       - uses: azure/setup-helm@v1
         id: install
 
