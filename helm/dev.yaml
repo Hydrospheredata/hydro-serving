@@ -51,7 +51,7 @@ stat:
     full: hydrosphere/hydro-stat:a894cc88921bd17bc69aca9b638a24953e445716
 rootcause:
   image:
-    full: hydrosphere/hydro-root-cause:3.0.2
+    full: hydrosphere/hydro-root-cause:3ea2acc1bafeff30e5bff776af3d8421b3e5ca1b
 postgresql:
   metrics:
     enabled: true

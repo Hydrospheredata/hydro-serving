@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   rootcause:
-    image: hydrosphere/hydro-root-cause:3.0.2
+    image: hydrosphere/hydro-root-cause:3ea2acc1bafeff30e5bff776af3d8421b3e5ca1b
     container_name: rootcause
     command: service
     depends_on:
@@ -29,7 +29,7 @@ services:
       - extnet
 
   rootcause-worker:
-    image: hydrosphere/hydro-root-cause:3.0.2
+    image: hydrosphere/hydro-root-cause:3ea2acc1bafeff30e5bff776af3d8421b3e5ca1b
     container_name: rootcause-worker
     command: worker
     depends_on:
