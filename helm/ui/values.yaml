@@ -7,6 +7,7 @@ global:
   ui:
     ingress:
       enabled: false
+      alb: false
       host: "hydrosphere.local" # Domain name for the frontend ingress.
       path: "/" # Path, which will match the service.
       enableGrpc: true # Enable grpc endpoints for services. Works only with `path: "/"`. 
@@ -20,7 +21,7 @@ global:
   tolerations: []
   
 image:
-  full: hydrosphere/hydro-serving-ui:3.0.2
+  full: hydrosphere/hydro-serving-ui:3.0.3
   pullPolicy:  IfNotPresent
 
 service:

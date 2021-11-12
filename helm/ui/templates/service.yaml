@@ -18,6 +18,9 @@ metadata:
     runtime_id: "id-22"
 spec:
   type: {{ .Values.service.type }}
+  {{- if .Values.global.ui.ingress.alb }}
+  clusterIP: None
+  {{- end }}
   ports:
     - port: {{ .Values.service.httpPort }}
       targetPort: http
