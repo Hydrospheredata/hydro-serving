@@ -1,9 +1,9 @@
 ui:
   image:
-    full: hydrosphere/hydro-serving-ui:64a4ae97553f3765d2dbe9591805a3f6fe7a03ac
+    full: hydrosphere/hydro-serving-ui:3.0.3
 manager:
   image:
-    full: hydrosphere/serving-manager:3.0.2
+    full: hydrosphere/serving-manager:3.0.3
   monitoring:
     enabled: true
   javaOpts: "-Xmx1024m -Xms128m -Xss16M -Dcom.sun.management.jmxremote.port=5555 -Dcom.sun.management.jmxremote.rmi.port=5555 -Djava.rmi.server.hostname=localhost -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false"
@@ -36,22 +36,22 @@ manager:
     """
 gateway:
   image:
-    full: hydrosphere/serving-gateway:3.0.2
+    full: hydrosphere/serving-gateway:3.0.3
 sonar:
   image:
-    full: hydrosphere/sonar:3.0.2
+    full: hydrosphere/sonar:3.0.3
 visualization:
   image:
-    full: hydrosphere/hydro-visualization:345d63abfa9a3f93540b1016c2e8f858bf1eace7
+    full: hydrosphere/hydro-visualization:3.0.3
 auto-od:
   image:
-    full: hydrosphere/hydro-auto-od:a1b00ecea5dca02e68d532bfedd6dd85ae08147b
+    full: hydrosphere/hydro-auto-od:3.0.3
 stat:
   image:
-    full: hydrosphere/hydro-stat:a894cc88921bd17bc69aca9b638a24953e445716
+    full: hydrosphere/hydro-stat:3.0.3
 rootcause:
   image:
-    full: hydrosphere/hydro-root-cause:3ea2acc1bafeff30e5bff776af3d8421b3e5ca1b
+    full: hydrosphere/hydro-root-cause:3.0.3
 postgresql:
   metrics:
     enabled: true
