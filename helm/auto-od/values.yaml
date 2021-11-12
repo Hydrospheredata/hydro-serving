@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 image:
-  full: hydrosphere/hydro-auto-od:b3d64289bae94a28eba82cbb5354927104f441e8
+  full: hydrosphere/hydro-auto-od:a1b00ecea5dca02e68d532bfedd6dd85ae08147b
   pullPolicy:  IfNotPresent
 
 global:
