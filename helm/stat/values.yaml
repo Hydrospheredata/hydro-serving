@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 image:
-  full: hydrosphere/hydro-stat:3.0.2
+  full: hydrosphere/hydro-stat:a894cc88921bd17bc69aca9b638a24953e445716
   pullPolicy:  IfNotPresent
 
 global:

@@ -8,8 +8,27 @@ networks:
       - subnet: 172.16.0.0/24
     name: demo_hydronet
 services:
-  auto-od:
-    container_name: auto-od
+  gateway:
+    container_name: gateway
+    depends_on:
+      manager:
+        condition: service_started
+    environment:
+      API_GATEWAY_GRPC_PORT: '9090'
+      API_GATEWAY_HOST: managerui
+      API_GATEWAY_HTTP_PORT: '8080'
+      GRPC_PORT: '9091'
+      HTTP_PORT: '9090'
+    image: hydrosphere/serving-gateway:3.0.2
+    networks:
+      hydronet: {}
+    ports:
+    - published: 29090
+      target: 9090
+    - published: 29091
+      target: 9091
+  hydro-auto-od:
+    container_name: hydro-auto-od
     depends_on:
       minio:
         condition: service_started
@@ -30,29 +49,10 @@ services:
       MONGO_URL: mongodb
       MONGO_USER: root
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-auto-od:502212875cfe077d4c723453f10da8fa50fb4ba5
+    image: hydrosphere/hydro-auto-od:3.0.2
     networks:
       extnet: {}
       hydronet: {}
-  gateway:
-    container_name: gateway
-    depends_on:
-      manager:
-        condition: service_started
-    environment:
-      API_GATEWAY_GRPC_PORT: '9090'
-      API_GATEWAY_HOST: managerui
-      API_GATEWAY_HTTP_PORT: '8080'
-      GRPC_PORT: '9091'
-      HTTP_PORT: '9090'
-    image: hydrosphere/serving-gateway:3.0.2
-    networks:
-      hydronet: {}
-    ports:
-    - published: 29090
-      target: 9090
-    - published: 29091
-      target: 9091
   manager:
     container_name: manager
     depends_on:
@@ -263,7 +263,7 @@ services:
       MONGO_URL: mongodb
       MONGO_USER: root
       S3_ENDPOINT: http://minio:9000
-    image: hydrosphere/hydro-stat:3.0.2
+    image: hydrosphere/hydro-stat:a894cc88921bd17bc69aca9b638a24953e445716
     networks:
       extnet: {}
       hydronet: {}
