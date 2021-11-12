@@ -291,7 +291,7 @@ services:
       MONGO_URL: mongodb
       MONGO_USER: root
       SECURE: "False"
-    image: hydrosphere/hydro-visualization:3.0.2
+    image: hydrosphere/hydro-visualization:345d63abfa9a3f93540b1016c2e8f858bf1eace7
     networks:
       extnet: {}
       hydronet: {}
@@ -320,7 +320,7 @@ services:
       MONGO_URL: mongodb
       MONGO_USER: root
       SECURE: "False"
-    image: hydrosphere/hydro-visualization:3.0.2
+    image: hydrosphere/hydro-visualization:345d63abfa9a3f93540b1016c2e8f858bf1eace7
     networks:
       hydronet: {}
 version: '3.5'
