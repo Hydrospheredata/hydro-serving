@@ -1,0 +1,62 @@
+"apiVersion": "argoproj.io/v1alpha1"
+"kind": "Application"
+"metadata":
+  "name": "example"
+  "namespace": "argocd"
+"spec":
+  "destination":
+    "server": "https://kubernetes.default.svc"
+    "namespace": "example"
+  "project": "hydrosphere"
+  "source":
+    "repoURL": "https://github.com/Hydrospheredata/hydro-serving"
+    "path": "helm/serving"
+    "targetRevision": "HEAD"
+    "helm":
+      "valueFiles":
+      - "values.yaml"
+      - "../dev.yaml"
+      "parameters":
+      - "name": "global.persistence.ingress.enabled"
+        "value": "true"
+      - "name": "global.persistence.ingress.host"
+        "value": "hydro-minio-example.dev.hydrosphere.io"
+      - "name": "global.registry.ingress.host"
+        "value": "hydro-registry-example.dev.hydrosphere.io"
+      - "name": "global.tolerations[0].value"
+        "value": "example"
+      - "name": "global.ui.ingress.grpchost"
+        "value": "hydro-grpc-example.dev.hydrosphere.io"
+      - "name": "global.ui.ingress.host"
+        "value": "hydro-example.dev.hydrosphere.io"
+      - "name": "manager.depconfig"
+        "value": >-
+          default-deployment-configuration="""{
+          "name": "default",
+          "hpa": {
+            "minReplicas": 1, 
+            "maxReplicas": 10,
+            "cpuUtilization": 80
+          }, 
+          "container" : {
+            "resources": {
+              "requests": {
+                "cpu": "250m",
+                "memory": "500m"
+              }
+            }
+          },   
+          "pod": {
+            "tolerations": [{
+              "key": "node-type",
+              "operator": "Equal",
+              "value": "example",
+              "effect": "NoSchedule"
+            }]
+          }}"""
+  "syncPolicy":
+    # "automated":
+    #   "prune": true
+    #   "selfHeal": true
+    "syncOptions":
+    - "CreateNamespace=true"

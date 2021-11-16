@@ -1,0 +1,86 @@
+name: Deploy new stand
+
+on:
+  workflow_dispatch:
+    inputs:
+      customer:
+        description: customer-name
+        required: true
+      tag:
+        description: Tag (3.0.3 | HEAD)
+        default: HEAD
+        required: false
+      delete-stand:
+        description: delete stand (yes | no)
+        default: 'no'
+        required: false
+
+jobs:
+  prepare_stand:
+    name: Prepare stand
+    runs-on: ubuntu-20.04
+    env:
+      # manifest to edit
+      FILE: hydro-stand/stand.yaml
+      NAME: ${{ github.event.inputs.customer }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Update App Name
+        shell: bash
+        run: |
+          sed -i 's/.*"name": "example"/  "name": "${{ env.NAME }}"/g' ${{ env.FILE }}
+
+      - name: Update App Namespace
+        shell: bash
+        run: |
+          sed -i 's/.*"namespace": "example"/      "namespace": "${{ env.NAME }}"/g' ${{ env.FILE }}
+
+      - name: Update App Target Revision
+        shell: bash
+        run: |
+          sed -i 's/.*"targetRevision": "HEAD"/    "targetRevision": "${{ github.event.inputs.tag }}"/g' ${{ env.FILE }}
+      
+      - name: Update App's minio endpoint
+        shell: bash
+        run: |
+          sed -i 's/.*hydro-minio.*/        "value": "hydro-minio-${{ env.NAME }}.dev.hydrosphere.io"/g' ${{ env.FILE }}
+      
+      - name: Update App's registry endpoint
+        shell: bash
+        run: |
+          sed -i 's/.*hydro-registry.*/        "value": "hydro-registry-${{ env.NAME }}.dev.hydrosphere.io"/g' ${{ env.FILE }}
+      
+      - name: Update App's grpc endpoint
+        shell: bash
+        run: |
+          sed -i 's/.*hydro-grpc.*/        "value": "hydro-grpc-${{ env.NAME }}.dev.hydrosphere.io"/g' ${{ env.FILE }}
+          
+      - name: Update App's serving endpoint
+        shell: bash
+        run: |
+          sed -i 's/.*hydro-example.*/        "value": "hydro-${{ env.NAME }}.dev.hydrosphere.io"/g' ${{ env.FILE }}
+      
+      - name: Update App's toleration
+        shell: bash
+        run: |
+          sed -i 's/.*"value": "example"/        "value": "${{ env.NAME }}"/g' ${{ env.FILE }}
+
+      - name: Update App's toleration
+        shell: bash
+        run: |
+          sed -i 's/.*"value": "example",/              "value": "${{ env.NAME }}",/g' ${{ env.FILE }}
+
+      - name: Pushes App manifest
+        uses: dmnemec/copy_file_to_another_repo_action@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.HYDRO_SERVING_TOKEN }}
+        with:
+          source_file: 'hydro-stand/stand.yaml'
+          destination_repo: 'Hydrospheredata/hydro-serving-infrastructure'
+          destination_branch: 'dev/stage'
+          destination_folder: 'dev/apps'
+          user_email: 'rufusnorbert14@gmail.com'
+          user_name: 'rufusnufus'
+          commit_message: 'Add stand manifest'
