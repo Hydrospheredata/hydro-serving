@@ -79,7 +79,7 @@ jobs:
         with:
           source_file: 'hydro-stand/stand.yaml'
           destination_repo: 'Hydrospheredata/hydro-serving-infrastructure'
-          destination_branch: 'dev/stage'
+          destination_branch: 'stage/dev'
           destination_folder: 'dev/apps'
           user_email: 'rufusnorbert14@gmail.com'
           user_name: 'rufusnufus'
