@@ -10,13 +10,14 @@ on:
         description: Tag (3.0.3 | HEAD)
         default: HEAD
         required: false
-      delete-stand:
-        description: delete stand (yes | no)
+      delete_stand:
+        description: delete stand? (yes | no)
         default: 'no'
         required: false
 
 jobs:
   prepare_stand:
+    if: github.event.inputs.delete_stand == 'no'
     name: Prepare stand
     runs-on: ubuntu-20.04
     env:
@@ -71,7 +72,7 @@ jobs:
         shell: bash
         run: "cp ${{ env.FILE }} hydro-stand/${{ env.NAME }}-stand.yaml"
 
-      - name: Pushes App manifest
+      - name: Pushes ${{ env.NAME }} App Manifest
         uses: dmnemec/copy_file_to_another_repo_action@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.HYDRO_SERVING_TOKEN }}
@@ -83,4 +84,27 @@ jobs:
           user_email: 'rufusnorbert14@gmail.com'
           user_name: 'rufusnufus'
           commit_message: 'Add ${{ env.NAME }} stand manifest'
+
+  delete_stand:
+    if: github.event.inputs.delete_stand == 'yes'
+    name: Delete stand
+    runs-on: ubuntu-20.04
+    env:
+      NAME: ${{ github.event.inputs.customer }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2 
+        with:
+          repository: Hydrospheredata/hydro-serving-infrastructure
+          ref: stage/dev
+          token: ${{ secrets.HYDRO_SERVING_TOKEN }}
       
+      - name: Delete ${{ env.NAME }} App Manifest
+        run: |
+          rm dev/apps/${{ env.NAME }}-stand.yaml
+          git config --local http.extraheader "PRIVATE-TOKEN: ${{ secrets.HYDRO_SERVING_TOKEN }}"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "Delete ${{ env.NAME }} stand manifest" -a --allow-empty
+          git push
