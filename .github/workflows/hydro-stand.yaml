@@ -65,12 +65,7 @@ jobs:
       - name: Update App's toleration
         shell: bash
         run: |
-          sed -i 's/.*"value": "example"/        "value": "${{ env.NAME }}"/g' ${{ env.FILE }}
-
-      - name: Update App's toleration
-        shell: bash
-        run: |
-          sed -i 's/.*"value": "example",/              "value": "${{ env.NAME }}",/g' ${{ env.FILE }}
+          sed -i 's/        "value": "example"/        "value": "${{ env.NAME }}"/g' ${{ env.FILE }}
 
       - name: Pushes App manifest
         uses: dmnemec/copy_file_to_another_repo_action@main
@@ -80,7 +75,7 @@ jobs:
           source_file: 'hydro-stand/stand.yaml'
           destination_repo: 'Hydrospheredata/hydro-serving-infrastructure'
           destination_branch: 'stage/dev'
-          destination_folder: 'dev/apps'
+          destination_folder: 'dev/apps/${{ env.NAME}}-stand.yaml'
           user_email: 'rufusnorbert14@gmail.com'
           user_name: 'rufusnufus'
           commit_message: 'Add stand manifest'
