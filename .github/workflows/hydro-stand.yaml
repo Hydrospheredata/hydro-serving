@@ -103,7 +103,7 @@ jobs:
         id: date
         shell: bash
         run: |
-          DATE=date +"%Y-%m-%d"
+          DATE=$(date +"%Y-%m-%d")
           echo ::set-output name=date::$DATE
 
       - name: Move ${{ env.NAME }} App Manifest to Archive
