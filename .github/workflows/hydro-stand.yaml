@@ -69,18 +69,18 @@ jobs:
         
       - name: Rename App File 
         shell: bash
-        run: "cp ${{ env.FILE }} hydro-stand/${{ env.NAME}}-stand.yaml"
+        run: "cp ${{ env.FILE }} hydro-stand/${{ env.NAME }}-stand.yaml"
 
       - name: Pushes App manifest
         uses: dmnemec/copy_file_to_another_repo_action@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.HYDRO_SERVING_TOKEN }}
         with:
-          source_file: 'hydro-stand/${{ env.NAME}}-stand.yaml'
+          source_file: 'hydro-stand/${{ env.NAME }}-stand.yaml'
           destination_repo: 'Hydrospheredata/hydro-serving-infrastructure'
           destination_branch: 'stage/dev'
           destination_folder: 'dev/apps/'
           user_email: 'rufusnorbert14@gmail.com'
           user_name: 'rufusnufus'
-          commit_message: 'Add stand manifest'
+          commit_message: 'Add ${{ env.NAME }} stand manifest'
       
