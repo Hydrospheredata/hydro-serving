@@ -81,8 +81,8 @@ jobs:
           destination_repo: 'Hydrospheredata/hydro-serving-infrastructure'
           destination_branch: 'stage/dev'
           destination_folder: 'dev/apps/'
-          user_email: 'rufusnorbert14@gmail.com'
-          user_name: 'rufusnufus'
+          user_email: 'robot@hydrosphere.io'
+          user_name: 'hydrorobot'
           commit_message: 'Add ${{ env.NAME }} stand manifest'
 
   delete_stand:
@@ -103,8 +103,8 @@ jobs:
         run: |
           rm dev/apps/${{ env.NAME }}-stand.yaml
           git config --local http.extraheader "PRIVATE-TOKEN: ${{ secrets.HYDRO_SERVING_TOKEN }}"
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.email "robot@hydrosphere.io"
+          git config --local user.name "hydrorobot"
           git add .
           git commit -m "Delete ${{ env.NAME }} stand manifest" -a --allow-empty
           git push
