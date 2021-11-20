@@ -62,11 +62,6 @@ jobs:
         shell: bash
         run: |
           sed -i 's/.*hydro-example.*/        "value": "hydro-${{ env.NAME }}.dev.hydrosphere.io"/g' ${{ env.FILE }}
-      
-      - name: Update App's toleration
-        shell: bash
-        run: |
-          sed -i 's/        "value": "example"/        "value": "${{ env.NAME }}"/g' ${{ env.FILE }}
         
       - name: Rename App File 
         shell: bash
