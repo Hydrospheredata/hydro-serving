@@ -3,6 +3,8 @@
 "metadata":
   "name": "example"
   "namespace": "argocd"
+  "finalizers":
+    - "resources-finalizer.argocd.argoproj.io"
 "spec":
   "destination":
     "server": "https://kubernetes.default.svc"
@@ -24,7 +26,7 @@
       - "name": "global.registry.ingress.host"
         "value": "hydro-registry-example.dev.hydrosphere.io"
       - "name": "global.tolerations[0].value"
-        "value": "example"
+        "value": "demo"
       - "name": "global.ui.ingress.grpchost"
         "value": "hydro-grpc-example.dev.hydrosphere.io"
       - "name": "global.ui.ingress.host"
@@ -50,7 +52,7 @@
             "tolerations": [{
               "key": "node-type",
               "operator": "Equal",
-              "value": "example",
+              "value": "demo",
               "effect": "NoSchedule"
             }]
           }}"""
