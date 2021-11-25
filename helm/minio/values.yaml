@@ -15,6 +15,7 @@ global:
     accessKey: "ACCESSKEYEXAMPLE" # accesskeyid for s3 or minio
     secretKey: "SECRETKEYEXAMPLE" # secretkeyid for s3 or minio
     #region: "us-west-1" # region for s3
+  tolerations: []
   ## Global imageRegistry
   ##
   # imageRegistry: myRegistryName
