@@ -333,8 +333,19 @@ slave:
 ##
 resources:
   requests:
-    memory: 4098Mi
+    memory: 1024Mi
     cpu: 250m
+  limits:
+    memory: 4096Mi
+    cpu: 512m
+
+resourcesInitContainers: 
+  requests:
+    memory: 512Mi
+    cpu: 250m
+  limits:
+    memory: 1024Mi
+    cpu: 512m
 
 networkPolicy:
   ## Enable creation of NetworkPolicy resources. Only Ingress traffic is filtered for now.

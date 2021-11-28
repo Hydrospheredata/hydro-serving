@@ -200,7 +200,7 @@ resources:
     memory: 2Gi
   requests:
     cpu: 100m
-    memory: 256Mi
+    memory: 200Mi
 # Define separate resources per arbiter, which are less then primary or secondary
 # used only when replica set is enabled
 resourcesArbiter:
@@ -209,7 +209,7 @@ resourcesArbiter:
     memory: 512Mi
   requests:
     cpu: 100m
-    memory: 256Mi
+    memory: 200Mi
 
 ## Pod priority
 ## https://kubernetes.io/docs/concepts/configuration/pod-priority-preemption/

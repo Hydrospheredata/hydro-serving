@@ -77,8 +77,8 @@ spec:
         - name: init-chmod-data
           image: {{ template "postgresql.volumePermissions.image" . }}
           imagePullPolicy: "{{ .Values.volumePermissions.image.pullPolicy }}"
-          {{- if .Values.resources }}
-          resources: {{- toYaml .Values.resources | nindent 12 }}
+          {{- if .Values.resourcesInitContainers }}
+          resources: {{- toYaml .Values.resourcesInitContainers | nindent 12 }}
           {{- end }}
           command:
             - /bin/sh
