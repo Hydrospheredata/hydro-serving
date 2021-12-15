@@ -36,7 +36,7 @@ manager:
     """
 gateway:
   image:
-    full: hydrosphere/serving-gateway:3.0.3
+    full: hydrosphere/serving-gateway:68cbcda8208b24d1060445a319832feabf4008b2
 sonar:
   image:
     full: hydrosphere/sonar:3.0.3
