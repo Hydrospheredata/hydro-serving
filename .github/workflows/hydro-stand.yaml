@@ -6,18 +6,21 @@ on:
       customer:
         description: customer-name
         required: true
+
       tag:
         description: Tag (3.0.3 | HEAD)
         default: HEAD
         required: false
+
       delete_stand:
-        description: delete stand? (yes | no)
-        default: 'no'
+        description: 'Delete stand?'
+        type: boolean
+        default: 'false'
         required: false
 
 jobs:
   prepare_stand:
-    if: github.event.inputs.delete_stand == 'no'
+    if: github.event.inputs.delete_stand == 'false'
     name: Prepare stand
     runs-on: ubuntu-20.04
     env:
@@ -81,7 +84,7 @@ jobs:
           commit_message: 'Add ${{ env.NAME }} stand manifest'
 
   delete_stand:
-    if: github.event.inputs.delete_stand == 'yes'
+    if: github.event.inputs.delete_stand == 'true'
     name: Delete stand
     runs-on: ubuntu-20.04
     env:
