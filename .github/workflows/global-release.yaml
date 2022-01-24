@@ -4,42 +4,54 @@ on:
   workflow_dispatch:
     inputs:
       bump:
-        description: bump rule (major|feature|bug|rc)
-        default: bug
+        description: 'Bump rule'
         required: false
-        
+        default: patch
+        type: choice
+        options:
+        - major
+        - minor
+        - patch
+        - prerelease
+
       version:
-        description: release version, ommit to bump
+        description: 'Release version (ommit to bump)'
         required: false
         
       skip_grpc:
-        description: skip grpc? (yes|no)
-        default: 'no'
+        description: 'Skip grpc?'
+        type: boolean
+        default: 'false'
         required: false
         
       skip_sdk: 
-        description: skip sdk? (yes|no)
-        default: 'no'
+        description: 'Skip sdk?'
+        type: boolean
+        default: 'false'
         required: false
 
       skip_cli: 
-        description: skip cli? (yes|no)
-        default: 'no'
+        description: 'Skip cli?'
+        type: boolean
+        default: 'false'
         required: false
 
       skip_runtime: 
-        description: skip runtime? (yes|no)
-        default: 'no'
+        description: 'Skip runtime?'
+        type: boolean
+        default: 'false'
         required: false
         
       skip_services:
-        description: skip services? (yes|no)
-        default: 'no'
+        description: 'Skip services?'
+        type: boolean
+        default: 'false'
         required: false
 
       skip_release:
-        description: skip release? (yes|no)
-        default: 'no'
+        description: 'Skip release?'
+        type: boolean
+        default: 'false'
         required: false
 env:
   DOCKER_REGISTRY_URL: hydrosphere
@@ -86,7 +98,7 @@ jobs:
       VERSION: ${{ needs.version.outputs.version }}
     steps:
       - name: Release hydro-serving-protos
-        if: github.event.inputs.skip_grpc != 'yes'
+        if: github.event.inputs.skip_grpc == 'false'
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
           workflow: Release
@@ -95,7 +107,7 @@ jobs:
           inputs: '{"version": "${{ env.VERSION }}", "release": "global"}'
           
       - name: Release hydro-serving-sdk
-        if: github.event.inputs.skip_sdk != 'yes'
+        if: github.event.inputs.skip_sdk == 'false'
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
           workflow: Release
@@ -104,7 +116,7 @@ jobs:
           inputs: '{"version": "${{ env.VERSION }}", "release": "global", "grpc_version": "${{ env.VERSION }}"}'
 
       - name: Release hydro-serving-cli
-        if: github.event.inputs.skip_cli != 'yes'
+        if: github.event.inputs.skip_cli == 'false'
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
           workflow: Release
@@ -113,7 +125,7 @@ jobs:
           inputs: '{"version": "${{ env.VERSION }}", "release": "global", "sdk_version": "${{ env.VERSION }}"}'
 
       - name: Release hydro-serving-python
-        if: github.event.inputs.skip_runtime != 'yes'
+        if: github.event.inputs.skip_runtime == 'false'
         uses: aurelien-baudet/workflow-dispatch@v2.1.1
         with:
           workflow: Release
@@ -123,7 +135,7 @@ jobs:
 
   Release_grpc_services:
     # release all service repos in parallel
-    if: github.event.inputs.skip_services != 'yes'
+    if: github.event.inputs.skip_services == 'false'
     runs-on: ubuntu-latest
     needs: [version, deps]
     
@@ -145,7 +157,7 @@ jobs:
 
   Release_sdk_services:
     # release all service repos in parallel
-    if: github.event.inputs.skip_services != 'yes'
+    if: github.event.inputs.skip_services == 'false'
     runs-on: ubuntu-latest
     needs: [version, deps]
     
@@ -166,7 +178,7 @@ jobs:
 
   Release_services:
     # release all service repos in parallel
-    if: github.event.inputs.skip_services != 'yes'
+    if: github.event.inputs.skip_services == 'false'
     runs-on: ubuntu-latest
     needs: [version, deps]
     
@@ -187,7 +199,7 @@ jobs:
 
   Release_serving:
     needs: [version, Release_services, Release_sdk_services, Release_grpc_services]
-    if: github.event.inputs.skip_release != 'yes'
+    if: github.event.inputs.skip_release == 'false'
     runs-on: ubuntu-latest
     
     env:
